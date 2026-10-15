@@ -22,10 +22,10 @@ export class MemoryDepo implements Depo {
   protected s: MemoryState;
   private topicMap = new Map<string, Topic>();
 
-  constructor(
-    initial?: MemoryState,
-    private onChange?: (part: keyof MemoryState, state: MemoryState) => void,
-  ) {
+  private onChange?: (part: keyof MemoryState, state: MemoryState) => void;
+
+  constructor(initial?: MemoryState, onChange?: (part: keyof MemoryState, state: MemoryState) => void) {
+    this.onChange = onChange;
     this.s = initial ?? emptyState();
     this.reindex();
   }

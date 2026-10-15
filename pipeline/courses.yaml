@@ -1,0 +1,106 @@
+# Marmara Üniversitesi Hukuk Fakültesi 2023 müfredatı — 2. ve 3. sınıf zorunlu dersleri
+# Kaynak: https://meobs.marmara.edu.tr/ProgramTanitim/hukuk-fakultesi/hukuk-fakultesi-1072-789-0
+#
+# skills: vendor/turk-hukuku-ve-claude içindeki eklenti dizinleri (ilki ana eklenti).
+# kanunlar: konu ağacı ve madde atıflarının dayandığı temel kanunlar.
+# sistematik: müfredat çıkarımında modele verilen kanun sistematiği ipucu.
+
+courses:
+  - id: HUK2011
+    name: Borçlar Hukuku Genel Hükümler
+    year: 2
+    sort_order: 1
+    skills: [borclar-hukuku-genel, haksiz-fiil-tazminat, sebepsiz-zenginlesme]
+    kanunlar: [TBK]
+    sistematik: "TBK Birinci Kısım Genel Hükümler (m. 1-206): borç ilişkisinin kaynakları (sözleşme m.1-48, haksız fiil m.49-76, sebepsiz zenginleşme m.77-82), borçların ifası (m.83-111), ifa edilmeme sonuçları/temerrüt (m.112-131), borçların sona ermesi ve zamanaşımı (m.131-161), özel durumlar: müteselsil borçluluk, koşul, bağlanma parası ve cezai şart (m.162-182), alacağın devri ve borcun üstlenilmesi (m.183-206)."
+  - id: HUK2013
+    name: Ceza Hukuku Genel Hükümler
+    year: 2
+    sort_order: 2
+    skills: [ceza-hukuku-genel]
+    kanunlar: [TCK, AY]
+    sistematik: "TCK Birinci Kitap Genel Hükümler (m. 1-75): temel ilkeler, uygulama alanı, suçun unsurları (tipiklik, hukuka aykırılık, kusurluluk), kast ve taksir, hukuka uygunluk ve kusurluluğu kaldıran nedenler, teşebbüs, iştirak, içtiması, yaptırımlar, düşme nedenleri."
+  - id: HUK2009
+    name: İdare Hukuku
+    year: 2
+    sort_order: 3
+    skills: [idare-hukuku-genel]
+    kanunlar: [AY]
+    sistematik: "İdare hukukunun kaynakları ve ilkeleri, idari teşkilat (merkezi idare, yerinden yönetim, kamu tüzel kişileri), idari işlemler (unsurlar, türler, sona erme), idari sözleşmeler, kamu hizmeti, kolluk, kamu görevlileri, kamu malları, kamulaştırma, idarenin sorumluluğu (AY m. 123-137 ve ilgili kanunlar)."
+  - id: HUK2017
+    name: Devletler Umumi Hukuku
+    year: 2
+    sort_order: 4
+    skills: [anayasa-hukuku]
+    kanunlar: [AY]
+    sistematik: "Uluslararası hukukun niteliği ve kaynakları (UAD Statüsü m.38), antlaşmalar hukuku (Viyana Sözleşmesi), uluslararası hukuk-iç hukuk ilişkisi (AY m.90), devlet ve tanınma, ülke ve deniz yetki alanları, diplomatik ve konsolosluk ilişkileri, uluslararası sorumluluk, uyuşmazlıkların barışçı çözümü, kuvvet kullanma yasağı ve BM sistemi."
+  - id: HUK2012
+    name: Türk Hukuk Tarihi
+    year: 2
+    sort_order: 5
+    skills: [hukuk-felsefesi-genel-teori]
+    kanunlar: [AY]
+    sistematik: "İslam öncesi Türk hukuku, İslam hukukunun kaynakları ve Osmanlı'da şer'i-örfi hukuk, kanunnameler, Tanzimat ve Islahat fermanları, Mecelle, Kanun-i Esasi ve meşrutiyet dönemleri, Cumhuriyet dönemi resepsiyonu (Medeni Kanun, Borçlar Kanunu, Ceza Kanunu), anayasa tarihi (1921, 1924, 1961, 1982)."
+  - id: HUK2015
+    name: Genel Kamu Hukuku
+    year: 2
+    sort_order: 6
+    skills: [anayasa-hukuku, hukuk-felsefesi-genel-teori]
+    kanunlar: [AY]
+    sistematik: "Devlet kavramı ve unsurları, egemenlik, devletin ortaya çıkışına ilişkin kuramlar, devlet biçimleri, hukuk devleti, demokrasi kuramları, siyasi düşünceler tarihi, temel hak ve özgürlüklerin felsefi temelleri."
+  - id: HUK2003
+    name: Deniz Hukuku
+    year: 2
+    sort_order: 7
+    skills: [anayasa-hukuku]
+    kanunlar: [AY]
+    sistematik: "Uluslararası deniz hukuku (1982 BM Deniz Hukuku Sözleşmesi): iç sular, karasuları ve zararsız geçiş, bitişik bölge, kıta sahanlığı, münhasır ekonomik bölge, açık deniz, boğazlar rejimi ve Montrö, deniz alanlarının sınırlandırılması, uyuşmazlık çözümü; Türkiye'nin uygulaması (2674 sayılı Karasuları Kanunu)."
+  - id: HUK3011
+    name: Eşya Hukuku
+    year: 3
+    sort_order: 8
+    skills: [esya-hukuku, tapu-kadastro, kat-mulkiyeti]
+    kanunlar: [TMK, KMK]
+    sistematik: "TMK Dördüncü Kitap Eşya Hukuku (m. 683-1027): mülkiyet (genel hükümler, taşınmaz ve taşınır mülkiyeti, komşuluk hukuku), sınırlı ayni haklar (irtifaklar, taşınmaz yükü, taşınmaz rehni, taşınır rehni), zilyetlik ve tapu sicili."
+  - id: HUK3012
+    name: Borçlar Hukuku Özel Hükümler
+    year: 3
+    sort_order: 9
+    skills: [borclar-hukuku-ozel, kira-hukuku]
+    kanunlar: [TBK]
+    sistematik: "TBK İkinci Kısım Özel Borç İlişkileri (m. 207-649): satış (taşınır, taşınmaz, özel satış türleri), mal değişim, bağışlama, kira (konut ve çatılı işyeri kirası dahil), ödünç, hizmet sözleşmeleri, eser sözleşmesi, yayım, vekalet ve vekaletsiz iş görme, komisyon, saklama, kefalet, adi ortaklık."
+  - id: HUK3013
+    name: Ticaret Hukuku
+    year: 3
+    sort_order: 10
+    skills: [ticari-isletme-hukuku, sirketler-hukuku, kiymetli-evrak]
+    kanunlar: [TTK]
+    sistematik: "TTK: ticari işletme (m.11-123: tacir, ticaret sicili, ticaret unvanı, haksız rekabet, ticari defterler, cari hesap), ticaret şirketleri (m.124-644: genel hükümler, kollektif, komandit, anonim, limited, kooperatif ana hatları), kıymetli evrak (m.645-849: poliçe, bono, çek)."
+  - id: HUK3015
+    name: Ceza Hukuku Özel Hükümler
+    year: 3
+    sort_order: 11
+    skills: [ceza-hukuku-ozel]
+    kanunlar: [TCK]
+    sistematik: "TCK İkinci Kitap Özel Hükümler: hayata karşı suçlar, vücut dokunulmazlığına karşı suçlar, cinsel dokunulmazlığa karşı suçlar, hürriyete karşı suçlar, şerefe karşı suçlar, özel hayata karşı suçlar, malvarlığına karşı suçlar (hırsızlık, yağma, güveni kötüye kullanma, dolandırıcılık), kamu güvenine ve idareye karşı suçlar (sahtecilik, rüşvet, zimmet, irtikap)."
+  - id: HUK3017
+    name: Medeni Usul Hukuku
+    year: 3
+    sort_order: 12
+    skills: [hukuk-muhakemesi]
+    kanunlar: [HMK]
+    sistematik: "HMK: yargı yolu, görev ve yetki, taraflar ve dava ehliyeti, davalar ve dava türleri, dava şartları ve ilk itirazlar, yargılama ilkeleri, ön inceleme, tahkikat ve ispat (deliller), hüküm, kanun yolları (istinaf, temyiz, yargılamanın iadesi), geçici hukuki korumalar, tahkim ana hatları."
+  - id: HUK3014
+    name: İş Hukuku
+    year: 3
+    sort_order: 13
+    skills: [is-hukuku-bireysel, is-hukuku-toplu]
+    kanunlar: [IK]
+    sistematik: "4857 sayılı İş Kanunu: temel kavramlar (işçi, işveren, işyeri, alt işveren), iş sözleşmesi türleri, iş sözleşmesinin feshi (bildirimli, haklı nedenle), iş güvencesi, kıdem ve ihbar tazminatı, ücret, çalışma süreleri, izinler; toplu iş hukuku ana hatları (sendika, toplu iş sözleşmesi, grev ve lokavt - 6356)."
+  - id: HUK3016
+    name: İnsan Hakları Hukuku
+    year: 3
+    sort_order: 14
+    skills: [anayasa-mahkemesi-bireysel-basvuru, anayasa-hukuku]
+    kanunlar: [AY]
+    sistematik: "İnsan haklarının gelişimi ve kuşakları, AİHS sistemi ve AİHM'ye başvuru, temel hakların sınırlandırılması (AY m.13), yaşam hakkı, işkence yasağı, kişi özgürlüğü, adil yargılanma, özel hayata saygı, ifade, din ve örgütlenme özgürlükleri, ayrımcılık yasağı, Anayasa Mahkemesi'ne bireysel başvuru (AY m.148)."

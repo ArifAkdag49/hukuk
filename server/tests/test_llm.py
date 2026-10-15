@@ -112,3 +112,12 @@ def test_resolve_law_abbreviation():
     assert mevzuat.law_number("tmk") == "4721"
     assert mevzuat.law_number("6098") == "6098"
     assert mevzuat.law_number("Türk Borçlar Kanunu") is None
+
+
+def test_one_hour_cache_writes_cost_double_input_price():
+    u = SimpleNamespace(
+        input_tokens=0, output_tokens=0, cache_read_input_tokens=0, cache_creation_input_tokens=2_000_000,
+        cache_creation=SimpleNamespace(ephemeral_1h_input_tokens=1_000_000, ephemeral_5m_input_tokens=1_000_000),
+    )
+    # opus: 1M * 4 * 2 (1 saat) + 1M * 4 * 1,25 (5 dk) = 13
+    assert llm.cost_usd("claude-opus-5-5", u) == pytest.approx(13.0)

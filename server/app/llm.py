@@ -47,7 +47,11 @@ def cost_usd(model: str, usage: Any) -> float:
     o = getattr(usage, "output_tokens", 0) or 0
     cr = getattr(usage, "cache_read_input_tokens", 0) or 0
     cw = getattr(usage, "cache_creation_input_tokens", 0) or 0
-    return (i * pin + o * pout + cr * pcache + cw * pin * 1.25) / 1_000_000
+    # 1 saatlik önbellek yazımı girdi fiyatının 2 katı, 5 dakikalık 1,25 katı
+    detail = getattr(usage, "cache_creation", None)
+    cw_1h = (getattr(detail, "ephemeral_1h_input_tokens", 0) or 0) if detail is not None else 0
+    cw_5m = max(cw - cw_1h, 0)
+    return (i * pin + o * pout + cr * pcache + cw_1h * pin * 2 + cw_5m * pin * 1.25) / 1_000_000
 
 
 def month_total() -> float:

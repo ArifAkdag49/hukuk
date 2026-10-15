@@ -1,0 +1,81 @@
+import * as WebBrowser from "expo-web-browser";
+import { useMemo } from "react";
+import { StyleSheet } from "react-native";
+import MarkdownDisplay from "react-native-markdown-display";
+import { colors, fonts, radius, space } from "../theme";
+
+export function openLink(url: string) {
+  if (!/^https?:\/\//i.test(url)) return;
+  void WebBrowser.openBrowserAsync(url);
+}
+
+/**
+ * Markdown gösterimi. `reading` uzun hukuk metinleri için serif ve geniş satır aralığı kullanır;
+ * kapalıyken arayüz yazı tipiyle (sohbet, açıklamalar) gösterir.
+ */
+export function Markdown({
+  children,
+  reading = false,
+  accent = colors.primary,
+  color = colors.ink,
+  compact = false,
+}: {
+  children: string | null | undefined;
+  reading?: boolean;
+  accent?: string;
+  color?: string;
+  compact?: boolean;
+}) {
+  const style = useMemo(() => makeStyles(reading, accent, color, compact), [reading, accent, color, compact]);
+  if (!children) return null;
+  return (
+    <MarkdownDisplay
+      style={style}
+      onLinkPress={(url) => {
+        openLink(url);
+        return false;
+      }}
+    >
+      {children}
+    </MarkdownDisplay>
+  );
+}
+
+function makeStyles(reading: boolean, accent: string, color: string, compact: boolean) {
+  const bodyFont = reading ? fonts.serif : fonts.regular;
+  const size = reading ? 18 : 16;
+  const lh = reading ? 29 : 24;
+  return StyleSheet.create({
+    body: { fontFamily: bodyFont, fontSize: size, lineHeight: lh, color },
+    paragraph: { marginTop: 0, marginBottom: compact ? 4 : space.sm },
+    heading1: { fontFamily: fonts.bold, fontSize: 24, lineHeight: 31, color: colors.ink, marginTop: space.lg, marginBottom: space.xs },
+    heading2: { fontFamily: fonts.semibold, fontSize: 20, lineHeight: 27, color: colors.ink, marginTop: space.lg, marginBottom: space.xs },
+    heading3: { fontFamily: fonts.semibold, fontSize: 17, lineHeight: 24, color: colors.ink, marginTop: space.md, marginBottom: 4 },
+    strong: { fontFamily: reading ? fonts.serifBold : fonts.semibold, fontWeight: "normal" },
+    em: { fontFamily: reading ? fonts.serifItalic : fonts.regular, fontStyle: reading ? "normal" : "italic" },
+    bullet_list: { marginBottom: space.sm },
+    ordered_list: { marginBottom: space.sm },
+    list_item: { marginBottom: 6 },
+    bullet_list_icon: { color: accent, fontSize: size + 4, lineHeight: lh, marginLeft: 2, marginRight: 10 },
+    ordered_list_icon: { color: accent, fontFamily: fonts.semibold, fontSize: size, lineHeight: lh, marginRight: 8 },
+    blockquote: {
+      backgroundColor: colors.surfaceAlt,
+      borderLeftWidth: 4,
+      borderLeftColor: accent,
+      borderRadius: radius.sm,
+      paddingHorizontal: space.md,
+      paddingVertical: space.xs,
+      marginVertical: space.sm,
+      marginLeft: 0,
+    },
+    link: { color: colors.primary, textDecorationLine: "underline" },
+    code_inline: { fontFamily: fonts.medium, backgroundColor: colors.surfaceAlt, borderRadius: 6, paddingHorizontal: 4 },
+    hr: { backgroundColor: colors.line, height: 1, marginVertical: space.md },
+    table: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.sm, marginVertical: space.sm, overflow: "hidden" },
+    thead: { backgroundColor: colors.surfaceAlt },
+    th: { padding: space.xs, fontFamily: fonts.semibold },
+    tr: { borderBottomWidth: 1, borderColor: colors.line, flexDirection: "row" },
+    td: { padding: space.xs, flex: 1 },
+    text: {},
+  });
+}
