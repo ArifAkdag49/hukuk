@@ -1,5 +1,5 @@
 import { router, useLocalSearchParams } from "expo-router";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, View } from "react-native";
 import { VerificationBadge } from "../../src/components/Course";
 import { Markdown, openLink } from "../../src/components/Markdown";
@@ -26,6 +26,8 @@ export default function KonuEkrani() {
   const { kb, getTopic, setLastTopic, mastery } = useApp();
   const [topic, setTopic] = useState<Topic | null | undefined>(undefined);
   const [tab, setTab] = useState<Tab>("ozet");
+  const tabScroll = useRef<ScrollView>(null);
+  const tabX = useRef<Record<string, number>>({});
 
   useEffect(() => {
     let alive = true;
@@ -83,13 +85,19 @@ export default function KonuEkrani() {
       </Row>
       <Gap h={space.md} />
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: space.xs, paddingRight: space.lg }} accessibilityRole="tablist">
+      <ScrollView ref={tabScroll} horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: space.xs, paddingRight: space.lg }} accessibilityRole="tablist">
         {TABS.map((t) => {
           const on = t.key === tab;
           return (
             <Pressable
               key={t.key}
-              onPress={() => setTab(t.key)}
+              onPress={() => {
+                setTab(t.key);
+                tabScroll.current?.scrollTo({ x: Math.max(0, (tabX.current[t.key] ?? 0) - space.xxl), animated: true });
+              }}
+              onLayout={(e) => {
+                tabX.current[t.key] = e.nativeEvent.layout.x;
+              }}
               accessibilityRole="tab"
               accessibilityState={{ selected: on }}
               style={[styles.tab, on ? { backgroundColor: c.main, borderColor: c.main } : null]}

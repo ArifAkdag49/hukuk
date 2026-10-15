@@ -9,7 +9,8 @@
     "web": "expo start --web",
     "web:fixture": "cross-env EXPO_PUBLIC_USE_FIXTURE=1 expo start --web",
     "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "web:yerel": "cross-env EXPO_PUBLIC_API_URL=http://localhost:8081/api expo start --web"
   },
   "dependencies": {
     "@expo-google-fonts/lexend": "^0.4.1",

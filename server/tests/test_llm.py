@@ -167,3 +167,19 @@ def test_one_time_pipeline_spend_does_not_count_toward_app_cap(client, sql):
     sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','claude-sonnet-5-5', 50)")
     with pytest.raises(HTTPException):
         llm.check_budget()
+
+
+def test_article_paragraph_wrapped_in_heading_tag_is_kept():
+    # bedesten TBK m. 8: ikinci fıkra <h2> içinde (font-weight normal), ardından gerçek bölüm başlığı
+    html = (
+        '<p class="MsoNormal"><b>MADDE 8- </b>Öneren, önerisi ile bağlı olmama hakkının saklı olduğunu açıkça '
+        "belirtirse veya işin özelliğinden ya da durumun gereğinden bağlanma niyetinde olmadığı anlaşılırsa, "
+        "önerisi kendisini bağlamaz.</p>"
+        '<h2 style="margin:0cm"><span style="font-weight:normal">Fiyatını göstererek mal sergilenmesi veya tarife, '
+        "fiyat listesi ya da benzerlerinin gönderilmesi, aksi açıkça ve kolaylıkla anlaşılmadıkça öneri sayılır.</span></h2>"
+        '<h2 style="margin:0cm"><span>6. İlan yoluyla ödül sözü verme</span></h2>'
+    )
+    text = mevzuat.html_to_text(html)
+    assert "Fiyatını göstererek mal sergilenmesi" in text
+    assert "İlan yoluyla ödül" not in text
+    assert text.count("\n") == 1

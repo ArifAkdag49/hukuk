@@ -20,7 +20,17 @@ const FEATURE_NAMES: Record<string, string> = {
   olay_puanlama: "Olay puanlama",
   notes: "Notlar",
   notlar: "Notlar",
+  "olay-puanlama": "Olay puanlama",
+  "asistan-derin": "Derin cevap",
+  "canli-test": "Deneme çağrıları",
 };
+
+/** Bilinmeyen özellik anahtarlarını okunur yapar: "not-ozet" → "Not ozet". */
+function featureName(k: string) {
+  if (FEATURE_NAMES[k]) return FEATURE_NAMES[k];
+  const t = k.replace(/[-_:]+/g, " ").trim();
+  return t.charAt(0).toLocaleUpperCase("tr") + t.slice(1);
+}
 
 export default function Ayarlar() {
   const { kb, sync, syncNow, logout, setCourseActive, addCourse } = useApp();
@@ -110,7 +120,7 @@ export default function Ayarlar() {
                 {Object.entries(usage.by_feature).map(([k, v]) => (
                   <Row key={k} style={{ justifyContent: "space-between" }}>
                     <T v="body" color={colors.inkSoft}>
-                      {FEATURE_NAMES[k] ?? k}
+                      {featureName(k)}
                     </T>
                     <T v="bodyStrong">${v.toFixed(2)}</T>
                   </Row>

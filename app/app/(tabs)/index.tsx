@@ -91,6 +91,7 @@ export default function AnaSayfa() {
             </>
           )}
           <Gap h={space.xs} />
+          {activeTopics.length > 0 ? (
           <Pressable
             onPress={() => router.push(due.length > 0 ? "/kartlar" : "/quiz")}
             accessibilityRole="button"
@@ -101,6 +102,7 @@ export default function AnaSayfa() {
               {due.length > 0 ? "Kartlara başla" : "Quiz çöz"}
             </T>
           </Pressable>
+          ) : null}
         </View>
         <View style={styles.heroDeck} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
           <View style={[styles.deckCard, { transform: [{ translateX: -10 }, { rotate: "-14deg" }], backgroundColor: courseColor("HUK2011").main }]} />
@@ -144,6 +146,8 @@ export default function AnaSayfa() {
       ) : null}
 
       {/* Zayıf konular */}
+      {activeTopics.length > 0 ? (
+      <>
       <SectionTitle title="Şuna çalış" action={weak.length > 0 ? "Eksik analizi" : undefined} onAction={() => router.push("/analiz")} />
       {weak.length > 0 ? (
         <Card padded={false} style={{ paddingVertical: space.xs, paddingHorizontal: space.xs }}>
@@ -168,6 +172,9 @@ export default function AnaSayfa() {
           <Button label="Karışık quiz çöz" icon="shuffle-variant" kind="secondary" onPress={() => router.push("/quiz?scope=mixed")} />
         </Card>
       )}
+
+      </>
+      ) : null}
 
       {/* Hızlı erişim */}
       <SectionTitle title="Çalışma araçları" />

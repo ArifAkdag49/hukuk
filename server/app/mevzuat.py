@@ -37,9 +37,22 @@ def law_number(kanun: str) -> str | None:
     return LAWS.get(k) or None
 
 
+def _strip_tags(s: str) -> str:
+    return re.sub(r"\s+", " ", htmlmod.unescape(re.sub(r"<[^>]+>", "", s))).strip()
+
+
+def _heading_or_paragraph(m: re.Match) -> str:
+    """bedesten bazı fıkraları <h2> içinde (normal kalınlıkta) veriyor; gerçek bölüm
+    başlıkları ise kısa ve noktasız ("6. İlan yoluyla ödül sözü verme"). Cümle gibi
+    biten bloklar fıkradır ve korunur; başlıklar (sonraki maddenin) atılır."""
+    text = _strip_tags(m.group(0))
+    if len(text) > 150 or re.search(r"[.;:]$", text):
+        return f"<p>{text}</p>"
+    return ""
+
+
 def html_to_text(content: str) -> str:
-    # başlıklar (h1-h6) sonraki maddenin bölüm başlığıdır; madde metnine ait değil
-    content = re.sub(r"<h[1-6][^>]*>.*?</h[1-6]>", "", content, flags=re.S | re.I)
+    content = re.sub(r"<h[1-6][^>]*>.*?</h[1-6]>", _heading_or_paragraph, content, flags=re.S | re.I)
     content = re.sub(r"<br\s*/?>", "\n", content, flags=re.I)
     content = re.sub(r"</p\s*>", "\n", content, flags=re.I)
     content = re.sub(r"<[^>]+>", "", content)
