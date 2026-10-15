@@ -64,10 +64,11 @@ async def test_create_records_usage_row(client, sql):
 
 
 def test_usage_month_endpoint(auth_client, sql):
-    sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','m', 1.5), ('asistan','m', 0.5), ('notlar','m', 1)")
+    sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','m', 1.5), ('asistan','m', 0.5), ('notlar','m', 1), ('pipeline:HUK2011:icerik','m', 7)")
     body = auth_client.get("/usage/month").json()
     assert body["cost_usd"] == pytest.approx(3.0)
     assert body["cap_usd"] == 50
+    assert body["pipeline_cost_usd"] == pytest.approx(7.0)
     assert body["by_feature"] == {"asistan": pytest.approx(2.0), "notlar": pytest.approx(1.0)}
 
 
@@ -158,3 +159,11 @@ async def test_generate_json_records_cost_even_when_truncated(client, sql):
     finally:
         llm.set_client(None)
     assert sql.execute("select count(*) from api_usage").fetchone()[0] == 1
+
+
+def test_one_time_pipeline_spend_does_not_count_toward_app_cap(client, sql):
+    sql.execute("insert into api_usage (feature, model, cost_usd) values ('pipeline:HUK2011:icerik','claude-opus-5-5', 80)")
+    llm.check_budget()  # içerik hattı tavana sayılmaz
+    sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','claude-sonnet-5-5', 50)")
+    with pytest.raises(HTTPException):
+        llm.check_budget()

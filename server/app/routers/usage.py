@@ -15,10 +15,13 @@ def month():
         "select feature, sum(cost_usd) as cost from api_usage "
         "where created_at >= date_trunc('month', now()) group by feature"
     )
-    by_feature = {r["feature"]: float(r["cost"]) for r in rows}
+    by_feature = {r["feature"]: float(r["cost"]) for r in rows if not r["feature"].startswith("pipeline:")}
+    pipeline = sum(float(r["cost"]) for r in rows if r["feature"].startswith("pipeline:"))
     return {
         "month": datetime.now(timezone.utc).strftime("%Y-%m"),
+        # cost_usd: tavana sayılan uygulama harcaması; içerik hattı ayrı
         "cost_usd": round(sum(by_feature.values()), 6),
+        "pipeline_cost_usd": round(pipeline, 6),
         "cap_usd": get_settings().ai_monthly_cap_usd,
         "by_feature": by_feature,
     }

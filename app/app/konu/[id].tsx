@@ -64,14 +64,13 @@ export default function KonuEkrani() {
   const footer = (
     <View style={{ flexDirection: "row", gap: space.sm, width: "100%", maxWidth: 720, alignSelf: "center" }}>
       <Button
-        label="Bu konudan quiz çöz"
+        label="Quiz çöz"
         icon="help-circle-outline"
-        color={c.deep}
-        style={{ flex: 1.4 }}
+        style={{ flex: 1 }}
         disabled={questionCount === 0}
         onPress={() => router.push(`/quiz?scope=topic&id=${topic.id}`)}
       />
-      <Button label="Asistana sor" icon="chat-question-outline" kind="secondary" color={c.deep} style={{ flex: 1 }} onPress={() => router.push(`/sohbet/yeni?topic=${topic.id}`)} />
+      <Button label="Asistana sor" icon="chat-question-outline" kind="secondary" style={{ flex: 1 }} onPress={() => router.push(`/sohbet/yeni?topic=${topic.id}`)} />
     </View>
   );
 

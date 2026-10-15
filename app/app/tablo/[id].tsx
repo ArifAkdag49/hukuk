@@ -24,27 +24,28 @@ export default function TabloEkrani() {
   return (
     <Screen back title={t.title} subtitle={kb.courseById.get(t.course_id)?.name} accent={c.main}>
       <View style={{ flexDirection: "row", gap: space.xs }}>
-        <Chip label="Kart görünümü" icon="view-agenda-outline" selected={mode === "kart"} color={c.deep} onPress={() => setMode("kart")} />
-        <Chip label="Tablo" icon="table" selected={mode === "tablo"} color={c.deep} onPress={() => setMode("tablo")} />
+        <Chip label="Karşılaştır" icon="view-agenda-outline" selected={mode === "kart"} onPress={() => setMode("kart")} />
+        <Chip label="Tablo" icon="table" selected={mode === "tablo"} onPress={() => setMode("tablo")} />
       </View>
       <Gap h={space.md} />
 
       {mode === "kart" ? (
         <View style={{ gap: space.sm }}>
-          {dataCols.map((col, ci) => (
-            <Card key={col} padded={false} style={{ overflow: "hidden" }}>
-              <View style={[styles.cardHead, { backgroundColor: c.main }]}>
-                <T v="subheading" color={colors.white}>
-                  {col}
+          {t.rows.map((r, ri) => (
+            <Card key={ri} padded={false} style={{ overflow: "hidden" }}>
+              <View style={[styles.cardHead, { backgroundColor: c.tint }]}>
+                <T v="subheading" color={c.deep}>
+                  {hasRowLabel ? r[0] : `${ri + 1}. satır`}
                 </T>
               </View>
-              {t.rows.map((r, ri) => (
-                <View key={ri} style={[styles.kv, ri > 0 && { borderTopWidth: 1, borderTopColor: colors.line }]}>
-                  {hasRowLabel ? (
-                    <T v="smallStrong" color={c.deep}>
-                      {r[0]}
+              {dataCols.map((col, ci) => (
+                <View key={col} style={[styles.kv, ci > 0 && { borderTopWidth: 1, borderTopColor: colors.line }]}>
+                  <View style={styles.colName}>
+                    <View style={[styles.colDot, { backgroundColor: c.main }]} />
+                    <T v="smallStrong" color={colors.inkSoft}>
+                      {col}
                     </T>
-                  ) : null}
+                  </View>
                   <T v="body">{r[hasRowLabel ? ci + 1 : ci] || "—"}</T>
                 </View>
               ))}
@@ -105,6 +106,8 @@ export default function TabloEkrani() {
 const styles = StyleSheet.create({
   cardHead: { paddingHorizontal: space.lg, paddingVertical: space.sm },
   kv: { paddingHorizontal: space.lg, paddingVertical: space.sm, gap: 2 },
+  colName: { flexDirection: "row", alignItems: "center", gap: 6 },
+  colDot: { width: 8, height: 8, borderRadius: 4 },
   table: { borderRadius: radius.md, overflow: "hidden", borderWidth: 1, borderColor: colors.line },
   tr: { flexDirection: "row" },
   cell: { width: 200, padding: space.sm, borderRightWidth: 1, borderRightColor: colors.line },

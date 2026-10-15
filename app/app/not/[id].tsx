@@ -80,7 +80,7 @@ export default function NotDetay() {
       right={right}
       footer={
         note.status === "ready" && note.questions.length > 0 ? (
-          <Button label="Bu nottan quiz çöz" icon="help-circle-outline" size="lg" full color={c.deep} onPress={() => router.push(`/quiz?scope=note&id=${note.id}`)} />
+          <Button label="Bu nottan quiz çöz" icon="help-circle-outline" size="lg" full onPress={() => router.push(`/quiz?scope=note&id=${note.id}`)} />
         ) : null
       }
     >

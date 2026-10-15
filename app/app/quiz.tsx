@@ -158,8 +158,7 @@ export default function Quiz() {
           size="lg"
           full
           disabled={pool.length === 0}
-          color={needsCourse ? cc.deep : undefined}
-          onPress={() => setQuestions(shuffle(pool).slice(0, count))}
+                    onPress={() => setQuestions(shuffle(pool).slice(0, count))}
         />
       }
     >

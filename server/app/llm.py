@@ -55,9 +55,11 @@ def cost_usd(model: str, usage: Any) -> float:
 
 
 def month_total() -> float:
+    """Bu ayın uygulama harcaması. Tek seferlik içerik hattı (pipeline:*) tavana sayılmaz;
+    öğrenci, bilgi bankası üretimi yüzünden asistandan mahrum kalmasın."""
     row = db.fetch_one(
         "select coalesce(sum(cost_usd), 0) as total from api_usage "
-        "where created_at >= date_trunc('month', now())"
+        "where created_at >= date_trunc('month', now()) and feature not like 'pipeline:%%'"
     )
     return float(row["total"])
 

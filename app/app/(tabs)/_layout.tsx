@@ -22,14 +22,13 @@ export default function TabsLayout() {
         headerShown: false,
         tabBarActiveTintColor: colors.primary,
         tabBarInactiveTintColor: colors.muted,
-        tabBarLabelStyle: { fontFamily: fonts.medium, fontSize: 12, lineHeight: 16 },
-        tabBarItemStyle: { paddingVertical: 2 },
+        tabBarLabelStyle: { fontFamily: fonts.medium, fontSize: 12, lineHeight: 16, minHeight: 16 },
         tabBarStyle: {
           backgroundColor: colors.surface,
           borderTopColor: colors.line,
-          height: 72 + insets.bottom,
-          paddingTop: 8,
-          paddingBottom: Math.max(insets.bottom, 10),
+          height: 76 + insets.bottom,
+          paddingTop: 6,
+          paddingBottom: Math.max(insets.bottom, 8),
         },
         sceneStyle: { backgroundColor: colors.bg },
       }}

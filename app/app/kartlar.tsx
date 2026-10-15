@@ -218,7 +218,7 @@ export default function Kartlar() {
           })}
         </View>
       ) : (
-        <Button label="Cevabı göster" icon="rotate-3d-variant" size="lg" full color={c.deep} onPress={reveal} />
+        <Button label="Cevabı göster" icon="rotate-3d-variant" size="lg" full onPress={reveal} />
       )}
     </Screen>
   );

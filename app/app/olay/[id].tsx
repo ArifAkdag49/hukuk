@@ -114,7 +114,7 @@ export default function OlayEkrani() {
               {result.model_answer_md || q.model_answer_md || "Örnek çözüm yok."}
             </Markdown>
           ) : (
-            <Button label="Örnek çözümü göster" icon="eye-outline" kind="secondary" color={c.deep} onPress={() => setShowModel(true)} />
+            <Button label="Örnek çözümü göster" icon="eye-outline" kind="secondary" onPress={() => setShowModel(true)} />
           )}
         </Card>
 
@@ -140,7 +140,7 @@ export default function OlayEkrani() {
       title="Olay çözme"
       subtitle={topic?.title}
       accent={c.main}
-      footer={<Button label={grading ? "Puanlanıyor" : "Cevabı gönder"} icon="send-check-outline" size="lg" full loading={grading} color={c.deep} disabled={!draftLoaded} onPress={() => void submit()} />}
+      footer={<Button label={grading ? "Puanlanıyor" : "Cevabı gönder"} icon="send-check-outline" size="lg" full loading={grading} disabled={!draftLoaded} onPress={() => void submit()} />}
     >
       {prevScore !== null && prevScore !== undefined ? (
         <>
@@ -204,11 +204,14 @@ function ResultList({ title, icon, color, deep, tint, items, empty }: { title: s
   return (
     <>
       <SectionTitle title={title} />
-      <View style={[styles.list, { backgroundColor: tint }]}>
+      <View style={[styles.list, { backgroundColor: items.length === 0 ? colors.surfaceAlt : tint }]}>
         {items.length === 0 ? (
-          <T v="body" color={deep}>
-            {empty}
-          </T>
+          <View style={styles.item}>
+            <Icon name="check" size={22} color={colors.muted} />
+            <T v="body" color={colors.inkSoft} style={{ flex: 1 }}>
+              {empty}
+            </T>
+          </View>
         ) : (
           items.map((it, i) => (
             <View key={i} style={styles.item} accessible accessibilityLabel={`${title}: ${it}`}>
