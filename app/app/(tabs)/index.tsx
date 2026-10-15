@@ -81,10 +81,12 @@ export default function AnaSayfa() {
           ) : (
             <>
               <T v="title" color={colors.white}>
-                Bugünlük kartlar bitti
+                {activeTopics.length === 0 ? "Kartlar yolda" : "Bugünlük kartlar bitti"}
               </T>
               <T v="body" color={colors.primaryTint}>
-                Yarın yeni tekrarlar gelecek. İstersen kısa bir quiz çöz.
+                {activeTopics.length === 0
+                  ? "İçerik hazır olunca tekrar kartların burada görünecek."
+                  : "Yarın yeni tekrarlar gelecek. İstersen kısa bir quiz çöz."}
               </T>
             </>
           )}
@@ -108,6 +110,17 @@ export default function AnaSayfa() {
           </View>
         </View>
       </View>
+
+      {activeTopics.length === 0 ? (
+        <>
+          <Gap h={space.lg} />
+          <EmptyState
+            icon="timer-sand"
+            title="İçerik hazırlanıyor"
+            text="Derslerin konuları, soruları ve kartları hazırlanıyor. Hazır olunca internete bağlandığında telefonuna kendiliğinden iner."
+          />
+        </>
+      ) : null}
 
       {/* Kaldığın yerden */}
       {lastTopic ? (

@@ -30,6 +30,16 @@ export default function DersEkrani() {
 
   return (
     <Screen back title={course.name} subtitle={`${course.code}, ${course.year}. sınıf`} accent={c.main}>
+      {topics.length === 0 ? (
+        <EmptyState
+          icon="timer-sand"
+          title="İçerik hazırlanıyor"
+          text="Bu dersin konuları, soruları ve kartları hazırlanıyor. Hazır olunca internete bağlandığında telefonuna kendiliğinden iner."
+          color={c.deep}
+          tint={c.tint}
+        />
+      ) : (
+        <>
       <View style={[styles.summary, { backgroundColor: c.tint }]}>
         <ProgressRing score={score} color={c.main} track={colors.surface} size={92} stroke={10} label={score === null ? "–" : `%${score}`} />
         <View style={{ flex: 1, gap: 4 }}>
@@ -47,11 +57,11 @@ export default function DersEkrani() {
         <Button label="Kartlar" icon="cards-outline" kind="secondary" style={{ flex: 1 }} onPress={() => router.push(`/kartlar?course=${course.id}`)} />
       </View>
 
-      {units.length === 0 ? (
-        <EmptyState icon="file-tree-outline" title="Bu derste henüz konu yok" text="İçerik üretildiğinde konular burada sıralanır." color={c.deep} tint={c.tint} />
-      ) : null}
 
-      {units.map((u, i) => {
+        </>
+      )}
+
+      {topics.length > 0 && units.map((u, i) => {
         const ts = kb.topicsByUnit.get(u.id) ?? [];
         return (
           <View key={u.id} style={{ marginTop: space.xl }}>

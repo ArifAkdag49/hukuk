@@ -206,7 +206,8 @@ def topic_path(course_id: str, slug: str):
     return OUT / course_id / f"{slug}.json"
 
 
-async def generate_course(hub, course: dict, only: str | None = None, concurrency: int = 3) -> list[str]:
+async def generate_course(hub, course: dict, only: str | None = None, concurrency: int = 3,
+                          limit: int | None = None) -> list[str]:
     cur = read_curriculum(course["id"])
     bundle, refs = skills.course_bundle(course["skills"])
     system = prompts.system_blocks(course, bundle)
@@ -231,10 +232,13 @@ async def generate_course(hub, course: dict, only: str | None = None, concurrenc
             print(f"  ✓ {plan['slug']} ({doc['verification']['status']}, {len(doc['mcq'])} soru, "
                   f"{len(doc['cases'])} karar)", flush=True)
 
-    jobs = []
+    jobs, n = [], 0
     for ui, unit in enumerate(cur["units"], 1):
         for ti, plan in enumerate(unit["topics"], 1):
+            n += 1
             if only and plan["slug"] != only:
+                continue
+            if limit and n > limit:
                 continue
             jobs.append(one(ui, unit, ti, plan))
     await asyncio.gather(*jobs)

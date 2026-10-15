@@ -22,6 +22,7 @@ async def main(argv: list[str]) -> int:
     ap.add_argument("course", nargs="?")
     ap.add_argument("--topic")
     ap.add_argument("--concurrency", type=int, default=3)
+    ap.add_argument("--limit", type=int, help="yalnız müfredattaki ilk N konu")
     a = ap.parse_args(argv)
 
     async with common.Runtime(with_sources=a.cmd in ("curriculum", "generate", "all", "tables")) as rt:
@@ -58,7 +59,7 @@ async def main(argv: list[str]) -> int:
                 n = sum(len(u["topics"]) for u in cur["units"])
                 print(f"müfredat: {len(cur['units'])} ünite, {n} konu")
         if a.cmd in ("generate", "all"):
-            failed = await generate.generate_course(rt.hub, course, only=a.topic, concurrency=a.concurrency)
+            failed = await generate.generate_course(rt.hub, course, only=a.topic, concurrency=a.concurrency, limit=a.limit)
             if failed:
                 print("BAŞARISIZ KONULAR:\n" + "\n".join(failed))
         if a.cmd in ("tables", "all"):

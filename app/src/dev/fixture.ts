@@ -43,6 +43,8 @@ const sampleCase = (summary_md: string) => ({
 export const courses: Course[] = [
   { id: "HUK2011", code: "HUK2011", name: "Borçlar Hukuku Genel Hükümler", year: 2, sort_order: 1, is_active: true },
   { id: "HUK2013", code: "HUK2013", name: "Ceza Hukuku Genel Hükümler", year: 2, sort_order: 2, is_active: true },
+  // İçeriği henüz üretilmemiş ders ("İçerik hazırlanıyor" durumunu görmek için)
+  { id: "HUK3011", code: "HUK3011", name: "Eşya Hukuku", year: 3, sort_order: 1, is_active: true },
 ];
 
 export const units: Unit[] = [

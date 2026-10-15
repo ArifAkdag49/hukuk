@@ -23,7 +23,7 @@ export function CourseCard({
     <Pressable
       onPress={onPress}
       accessibilityRole="button"
-      accessibilityLabel={`${course.name}, ${topicCount} konu, ${score === null ? "yetersiz veri" : `ustalık yüzde ${score}`}`}
+      accessibilityLabel={topicCount === 0 ? `${course.name}, içerik hazırlanıyor` : `${course.name}, ${topicCount} konu, ${score === null ? "yetersiz veri" : `ustalık yüzde ${score}`}`}
       style={({ pressed }) => [styles.card, dimmed && { opacity: 0.55 }, pressed && styles.pressed]}
     >
       <View style={[styles.spine, { backgroundColor: c.main }]}>
@@ -37,12 +37,20 @@ export function CourseCard({
         <T v="subheading" numberOfLines={2}>
           {course.name}
         </T>
-        <T v="small" color={colors.muted}>
-          {course.year}. sınıf, {topicCount} konu
-        </T>
+        {topicCount > 0 ? (
+          <T v="small" color={colors.muted}>
+            {course.year}. sınıf, {topicCount} konu
+          </T>
+        ) : (
+          <Pill label="İçerik hazırlanıyor" icon="timer-sand" color={c.deep} tint={c.tint} />
+        )}
       </View>
       <View style={styles.ring}>
-        <ProgressRing score={score} color={c.main} track={c.tint} size={58} stroke={7} label={score === null ? "–" : `%${score}`} />
+        {topicCount > 0 ? (
+          <ProgressRing score={score} color={c.main} track={c.tint} size={58} stroke={7} label={score === null ? "–" : `%${score}`} />
+        ) : (
+          <Icon name="progress-clock" size={30} color={c.main} />
+        )}
       </View>
     </Pressable>
   );
