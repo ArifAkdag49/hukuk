@@ -1,0 +1,49 @@
+# hukuk — Postgres 17 + FastAPI
+#
+# Geliştirme:  docker compose up -d db        → yalnız veritabanı (5446), api yerelde
+# Tam yığın:   docker compose up -d --build   → api 127.0.0.1:8810
+#
+# Portlar makinedeki diğer projelerle çakışmasın diye seçildi
+# (5432-5436 başka yığınlarda kullanılıyor).
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: hukuk
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hukuk}
+      POSTGRES_DB: hukuk
+    ports:
+      - "127.0.0.1:5446:5432"
+    volumes:
+      - hukuk_pgdata:/var/lib/postgresql/data
+      # yalnız ilk kurulumda çalışır; şema dosyaları idempotent
+      - ./db:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hukuk -d hukuk"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    mem_limit: 512m
+
+  api:
+    build:
+      context: ./server
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://hukuk:${POSTGRES_PASSWORD:-hukuk}@db:5432/hukuk
+      UPLOAD_DIR: /data/uploads
+    ports:
+      - "127.0.0.1:8810:8000"
+    volumes:
+      - hukuk_uploads:/data/uploads
+    mem_limit: 512m
+
+volumes:
+  hukuk_pgdata:
+  hukuk_uploads:
