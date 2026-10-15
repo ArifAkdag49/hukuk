@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from . import db
 from .config import get_settings
 from .routers import auth as auth_router
-from .routers import kb
+from .routers import kb, progress
 
 
 def create_app() -> FastAPI:
@@ -28,6 +28,7 @@ def create_app() -> FastAPI:
 
     app.include_router(auth_router.router)
     app.include_router(kb.router)
+    app.include_router(progress.router)
     return app
 
 
