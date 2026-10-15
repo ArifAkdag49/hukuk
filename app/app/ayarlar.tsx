@@ -94,12 +94,9 @@ export default function Ayarlar() {
       <Card>
         {usage ? (
           <>
-            <Row style={{ justifyContent: "space-between", alignItems: "baseline" }}>
-              <T v="title">${usage.cost_usd.toFixed(2)}</T>
-              <T v="small" color={colors.muted}>
-                tavan ${usage.cap_usd.toFixed(0)}
-              </T>
-            </Row>
+            <T v="title">
+              Bu ay: ${usage.cost_usd.toFixed(2)} / ${usage.cap_usd.toFixed(2)}
+            </T>
             <Gap h={space.sm} />
             <Bar value={pct} color={barColor} height={12} />
             <Gap h={space.sm} />
@@ -119,6 +116,11 @@ export default function Ayarlar() {
                   </Row>
                 ))}
               </View>
+            ) : null}
+            {typeof usage.pipeline_cost_usd === "number" ? (
+              <T v="small" color={colors.muted} style={{ marginTop: space.md }}>
+                İçerik üretimi (tek seferlik): ${usage.pipeline_cost_usd.toFixed(2)}. Tavana sayılmaz.
+              </T>
             ) : null}
           </>
         ) : usageError ? (

@@ -228,7 +228,11 @@ export interface SendMessageResult {
 
 export interface Usage {
   month: string;
+  /** Tavana sayılan uygulama harcaması (asistan, notlar, olay puanlama). */
   cost_usd: number;
+  /** Tek seferlik içerik üretimi; tavana sayılmaz. */
+  pipeline_cost_usd: number;
   cap_usd: number;
+  /** Yalnız uygulama özellikleri. */
   by_feature: Record<string, number>;
 }

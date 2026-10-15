@@ -24,7 +24,7 @@ async def main(argv: list[str]) -> int:
     ap.add_argument("--concurrency", type=int, default=3)
     a = ap.parse_args(argv)
 
-    async with common.Runtime() as rt:
+    async with common.Runtime(with_sources=a.cmd in ("curriculum", "generate", "all", "tables")) as rt:
         from app import db
 
         from . import load

@@ -312,6 +312,7 @@ export const fakeApi: ApiClient = {
     return {
       month: new Date().toISOString().slice(0, 7),
       cost_usd: Math.round(spent * 100) / 100,
+      pipeline_cost_usd: 23.86,
       cap_usd: 50,
       by_feature: { asistan: Math.round(spent * 0.62 * 100) / 100, olay_puanlama: Math.round(spent * 0.23 * 100) / 100, notlar: Math.round(spent * 0.15 * 100) / 100 },
     };

@@ -1,7 +1,7 @@
 import * as WebBrowser from "expo-web-browser";
 import { useMemo } from "react";
-import { StyleSheet } from "react-native";
-import MarkdownDisplay from "react-native-markdown-display";
+import { ScrollView, StyleSheet, View } from "react-native";
+import MarkdownDisplay, { type RenderRules } from "react-native-markdown-display";
 import { colors, fonts, radius, space } from "../theme";
 
 export function openLink(url: string) {
@@ -31,6 +31,7 @@ export function Markdown({
   return (
     <MarkdownDisplay
       style={style}
+      rules={rules}
       onLinkPress={(url) => {
         openLink(url);
         return false;
@@ -40,6 +41,15 @@ export function Markdown({
     </MarkdownDisplay>
   );
 }
+
+/** Tablolar telefonda sıkışmasın: yatay kaydırılabilir, sabit genişlikli hücreler. */
+const rules: RenderRules = {
+  table: (node, children, _parent, styles) => (
+    <ScrollView key={node.key} horizontal showsHorizontalScrollIndicator style={{ marginVertical: space.sm }}>
+      <View style={styles._VIEW_SAFE_table}>{children}</View>
+    </ScrollView>
+  ),
+};
 
 function makeStyles(reading: boolean, accent: string, color: string, compact: boolean) {
   const bodyFont = reading ? fonts.serif : fonts.regular;
@@ -71,11 +81,11 @@ function makeStyles(reading: boolean, accent: string, color: string, compact: bo
     link: { color: colors.primary, textDecorationLine: "underline" },
     code_inline: { fontFamily: fonts.medium, backgroundColor: colors.surfaceAlt, borderRadius: 6, paddingHorizontal: 4 },
     hr: { backgroundColor: colors.line, height: 1, marginVertical: space.md },
-    table: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.sm, marginVertical: space.sm, overflow: "hidden" },
+    table: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.sm, overflow: "hidden" },
     thead: { backgroundColor: colors.surfaceAlt },
-    th: { padding: space.xs, fontFamily: fonts.semibold },
+    th: { padding: space.xs, width: 150 },
     tr: { borderBottomWidth: 1, borderColor: colors.line, flexDirection: "row" },
-    td: { padding: space.xs, flex: 1 },
+    td: { padding: space.xs, width: 150 },
     text: {},
   });
 }

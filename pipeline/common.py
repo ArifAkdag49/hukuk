@@ -41,7 +41,10 @@ def course_row(c: dict) -> dict:
 
 
 class Runtime:
-    """`async with Runtime() as rt:` → veritabanı havuzu ve içtihat MCP açık."""
+    """`async with Runtime() as rt:` → veritabanı havuzu (ve gerekirse içtihat MCP) açık."""
+
+    def __init__(self, with_sources: bool = True):
+        self.with_sources = with_sources
 
     async def __aenter__(self):
         load_env()
@@ -51,7 +54,8 @@ class Runtime:
 
         db.open_pool(get_settings().database_url)
         self.hub = McpHub()
-        await self.hub.start()
+        if self.with_sources:
+            await self.hub.start()
         return self
 
     async def __aexit__(self, *exc):
