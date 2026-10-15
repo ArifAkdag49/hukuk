@@ -1,0 +1,114 @@
+from types import SimpleNamespace
+
+import pytest
+from fastapi import HTTPException
+
+from app import llm, mcp_hub, mevzuat
+
+
+def usage(i=0, o=0, cr=0, cw=0):
+    return SimpleNamespace(
+        input_tokens=i, output_tokens=o, cache_read_input_tokens=cr, cache_creation_input_tokens=cw
+    )
+
+
+def test_cost_opus_one_million_in_and_out_is_24_dollars():
+    assert llm.cost_usd("claude-opus-5-5", usage(1_000_000, 1_000_000)) == pytest.approx(24.0)
+
+
+def test_cost_counts_cache_reads_and_writes():
+    # sonnet: 1M önbellek okuma 0,20$ + 1M önbellek yazma 2*1,25=2,5$
+    assert llm.cost_usd("claude-sonnet-5-5", usage(cr=1_000_000, cw=1_000_000)) == pytest.approx(2.7)
+
+
+def test_cost_handles_missing_cache_fields():
+    u = SimpleNamespace(input_tokens=1_000_000, output_tokens=0, cache_read_input_tokens=None, cache_creation_input_tokens=None)
+    assert llm.cost_usd("claude-haiku-5-5", u) == pytest.approx(0.10)
+
+
+def test_budget_blocks_when_month_total_reaches_cap(client, sql):
+    sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','claude-opus-5-5', 50)")
+    with pytest.raises(HTTPException) as e:
+        llm.check_budget()
+    assert e.value.status_code == 402
+
+
+def test_budget_ignores_previous_months(client, sql):
+    sql.execute(
+        "insert into api_usage (feature, model, cost_usd, created_at) "
+        "values ('asistan','claude-opus-5-5', 500, now() - interval '40 days')"
+    )
+    llm.check_budget()  # fırlatmamalı
+
+
+class FakeMessages:
+    def __init__(self):
+        self.calls = []
+
+    async def create(self, **kw):
+        self.calls.append(kw)
+        return SimpleNamespace(model=kw["model"], usage=usage(1000, 500), content=[], stop_reason="end_turn")
+
+
+async def test_create_records_usage_row(client, sql):
+    fake = SimpleNamespace(messages=FakeMessages())
+    llm.set_client(fake)
+    try:
+        await llm.create("deneme", model="claude-haiku-5-5", max_tokens=10, messages=[])
+    finally:
+        llm.set_client(None)
+    row = sql.execute("select feature, model, input_tokens, output_tokens, cost_usd from api_usage").fetchone()
+    assert row[0] == "deneme" and row[1] == "claude-haiku-5-5"
+    assert (row[2], row[3]) == (1000, 500)
+    assert float(row[4]) == pytest.approx(0.00035)
+
+
+def test_usage_month_endpoint(auth_client, sql):
+    sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','m', 1.5), ('asistan','m', 0.5), ('notlar','m', 1)")
+    body = auth_client.get("/usage/month").json()
+    assert body["cost_usd"] == pytest.approx(3.0)
+    assert body["cap_usd"] == 50
+    assert body["by_feature"] == {"asistan": pytest.approx(2.0), "notlar": pytest.approx(1.0)}
+
+
+class BrokenSession:
+    async def call_tool(self, name, args):
+        raise RuntimeError("captcha")
+
+
+async def test_hub_turns_mcp_failure_into_error_result():
+    hub = mcp_hub.McpHub()
+    hub._ictihat = BrokenSession()
+    text, is_error = await hub.call("ictihat_ara", {"ifade": "x"})
+    assert is_error
+    assert "ulaşılamıyor" in text
+
+
+async def test_hub_rejects_unknown_tool():
+    text, is_error = await mcp_hub.McpHub().call("dosya_sil", {})
+    assert is_error and "Bilinmeyen araç" in text
+
+
+async def test_hub_reports_unavailable_when_mcp_not_started():
+    text, is_error = await mcp_hub.McpHub().call("karar_getir", {"karar_id": "1"})
+    assert is_error and "ulaşılamıyor" in text
+
+
+def test_article_html_to_text_drops_following_heading():
+    html = (
+        '<p class="MsoNormal"><b>MADDE 49- </b>Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, '
+        "bu zararı gidermekle yükümlüdür.</p><p>Zarar verici fiili &quot;yasaklayan&quot; bir kural.</p>"
+        "<h2><span>II. Zararın ve kusurun ispatı </span></h2>"
+    )
+    text = mevzuat.html_to_text(html)
+    assert text.startswith("MADDE 49- Kusurlu ve hukuka aykırı")
+    assert '"yasaklayan"' in text
+    assert "ispatı" not in text
+    assert "\n" in text  # paragraflar ayrı satırda
+
+
+def test_resolve_law_abbreviation():
+    assert mevzuat.law_number("TBK") == "6098"
+    assert mevzuat.law_number("tmk") == "4721"
+    assert mevzuat.law_number("6098") == "6098"
+    assert mevzuat.law_number("Türk Borçlar Kanunu") is None

@@ -1,11 +1,56 @@
 {
-  "plugins": [
-    "expo-router",
-    "expo-sqlite",
-    "expo-secure-store",
-    "expo-status-bar",
-    "expo-splash-screen",
-    "expo-font",
-    "expo-web-browser"
-  ]
+  "expo": {
+    "name": "Hukuk Çalışma",
+    "slug": "hukuk-calisma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "hukuk",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F7F8FC",
+    "android": {
+      "package": "com.arx.hukuk",
+      "softwareKeyboardLayoutMode": "resize",
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ders notlarının fotoğraflarını seçmek için galerine erişilir.",
+          "cameraPermission": "Ders notlarının fotoğrafını çekmek için kamera kullanılır.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F7F8FC",
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {}
+    },
+    "owner": "arifakdag25",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
 }
