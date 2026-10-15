@@ -43,7 +43,7 @@ export default function DersEkrani() {
       </View>
       <Gap h={space.md} />
       <View style={{ flexDirection: "row", gap: space.sm }}>
-        <Button label="Dersten quiz" icon="help-circle-outline" color={c.deep} style={{ flex: 1 }} onPress={() => router.push(`/quiz?scope=course&id=${course.id}`)} />
+        <Button label="Quiz çöz" icon="help-circle-outline" color={c.deep} style={{ flex: 1 }} onPress={() => router.push(`/quiz?scope=course&id=${course.id}`)} />
         <Button label="Kartlar" icon="cards-outline" kind="secondary" color={c.deep} style={{ flex: 1 }} onPress={() => router.push(`/kartlar?course=${course.id}`)} />
       </View>
 

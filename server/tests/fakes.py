@@ -36,3 +36,30 @@ class FakeClient:
     async def create(self, **kw):
         self.calls.append(("create", kw))
         return self.create_outputs.pop(0)
+
+
+class FakeStream:
+    def __init__(self, final):
+        self.final = final
+
+    async def __aenter__(self):
+        return self
+
+    async def __aexit__(self, *exc):
+        return False
+
+    async def get_final_message(self):
+        return self.final
+
+
+class FakeStreamClient:
+    """messages.stream(...) → sıradaki son mesaj."""
+
+    def __init__(self, finals):
+        self.finals = list(finals)
+        self.calls = []
+        self.messages = self
+
+    def stream(self, **kw):
+        self.calls.append(kw)
+        return FakeStream(self.finals.pop(0))

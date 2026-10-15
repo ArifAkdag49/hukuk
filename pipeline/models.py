@@ -68,8 +68,11 @@ class Card(BaseModel):
     back_md: str
 
 
-class CasesAndCards(BaseModel):
+class CaseSet(BaseModel):
     cases: list[CaseQ]
+
+
+class CardSet(BaseModel):
     cards: list[Card]
 
 

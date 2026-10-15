@@ -379,7 +379,6 @@ function QuizRun({ kb, questions, onRestart }: { kb: Kb; questions: Question[]; 
             icon={i + 1 < questions.length ? "arrow-right" : "flag-checkered"}
             size="lg"
             full
-            color={c.deep}
             onPress={() => {
               setPicked(null);
               setI(i + 1);

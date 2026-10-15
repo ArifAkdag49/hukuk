@@ -1,6 +1,6 @@
 import { router } from "expo-router";
 import { useMemo, useState } from "react";
-import { Pressable, StyleSheet, View } from "react-native";
+import { Pressable, ScrollView, StyleSheet, View } from "react-native";
 import { findInsights, weakestTopics } from "../src/analysis";
 import { TopicRow } from "../src/components/Course";
 import { ProgressRing } from "../src/components/ProgressRing";
@@ -30,12 +30,12 @@ export default function Analiz() {
 
   return (
     <Screen back title="Eksik analizi" subtitle="Nerede güçlüsün, nerede zorlanıyorsun?">
-      <View style={styles.wrap}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.wrap}>
         <Chip label="Tüm dersler" selected={!courseId} onPress={() => setCourseId(null)} />
         {active.map((c) => (
           <Chip key={c.id} label={c.name} color={courseColor(c.id).main} selected={courseId === c.id} onPress={() => setCourseId(c.id)} />
         ))}
-      </View>
+      </ScrollView>
 
       <Gap h={space.md} />
       <Row gap={space.sm}>
@@ -111,7 +111,7 @@ export default function Analiz() {
                     accessibilityLabel={`${t.title}: ${m?.score == null ? "yetersiz veri" : `yüzde ${m.score}`}`}
                     style={({ pressed }) => [styles.cell, { backgroundColor: mc.tint, borderColor: mc.main }, pressed && { opacity: 0.8 }]}
                   >
-                    <T v="tiny" color={colors.ink} numberOfLines={3}>
+                    <T v="small" color={colors.ink} numberOfLines={3}>
                       {t.title}
                     </T>
                     <T v="smallStrong" color={mc.deep}>
@@ -179,10 +179,10 @@ function Legend({ color, label }: { color: string; label: string }) {
 }
 
 const styles = StyleSheet.create({
-  wrap: { flexDirection: "row", flexWrap: "wrap", gap: space.xs },
+  wrap: { flexDirection: "row", gap: space.xs, paddingRight: space.lg },
   insight: { flexDirection: "row", alignItems: "center", gap: space.sm, padding: space.md, borderRadius: radius.lg },
   legend: { flexDirection: "row", flexWrap: "wrap", gap: space.md },
   heat: { flexDirection: "row", flexWrap: "wrap", gap: 6 },
-  cell: { width: "31.5%", minHeight: 84, borderRadius: radius.md, borderWidth: 2, padding: 8, justifyContent: "space-between" },
+  cell: { width: "48.5%", minHeight: 84, borderRadius: radius.md, borderWidth: 2, padding: 8, justifyContent: "space-between" },
   weakBtn: { flexDirection: "row", gap: space.xs, alignItems: "center", justifyContent: "center", minHeight: 52, marginTop: space.sm },
 });

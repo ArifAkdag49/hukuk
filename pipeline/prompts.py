@@ -18,7 +18,7 @@ Aşağıdaki beceri metinleri bu dersin uzmanlık çerçevesidir (denetim şemal
 <beceriler>
 {bundle}
 </beceriler>"""
-    return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral", "ttl": "1h"}}]
+    return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
 
 
 def curriculum(course: dict, skill_names: list[str]) -> str:
@@ -75,7 +75,7 @@ Bu konudan 20 çoktan seçmeli soru hazırla:
 - Yalnızca resmî metni verilen maddelere numarayla atıf yap."""
 
 
-def cases_and_cards(title: str, texts: str, content_md: str) -> str:
+def cases(title: str, texts: str, content_md: str) -> str:
     return f"""Konu: {title}
 
 {texts}
@@ -84,8 +84,19 @@ def cases_and_cards(title: str, texts: str, content_md: str) -> str:
 {content_md}
 </konu_anlatimi>
 
-1) Hukuk fakültesi final sınavı tarzında 3 olay sorusu hazırla. Olaylar gerçekçi ve birden çok hukuki sorun içersin; sonunda açık sorular olsun. Her olay için 5-8 maddelik puanlama ölçütü (ağırlıkların toplamı 100, ilgili madde) ve yapılandırılmış örnek çözüm (olayın hukuki nitelendirmesi → sorunlar → ilgili maddeler → tartışma → sonuç) yaz.
-2) 15-20 tekrar kartı hazırla: ön yüz kısa bir soru ya da kavram, arka yüz 1-3 cümlelik net cevap (gerekiyorsa madde)."""
+Hukuk fakültesi final sınavı tarzında 3 olay sorusu hazırla. Olaylar gerçekçi ve birden çok hukuki sorun içersin; sonunda açık sorular olsun (olay metni 120-250 kelime). Her olay için 5-8 maddelik puanlama ölçütü (ağırlıkların toplamı 100, ilgili madde) ve yapılandırılmış örnek çözüm (nitelendirme → sorunlar → ilgili maddeler → tartışma → sonuç; 250-450 kelime) yaz."""
+
+
+def cards(title: str, content_md: str, critical_md: str) -> str:
+    return f"""Konu: {title}
+
+<konu_anlatimi>
+{content_md}
+
+{critical_md}
+</konu_anlatimi>
+
+15-20 tekrar kartı hazırla: ön yüz kısa bir soru ya da kavram, arka yüz 1-3 cümlelik net cevap (gerekiyorsa madde numarası; yalnızca anlatımda geçen maddeler)."""
 
 
 def case_summary(title: str, citation: str, text: str) -> str:

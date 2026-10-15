@@ -2,7 +2,6 @@
 
 import asyncio
 import json
-import random
 from datetime import datetime, timezone
 
 import yaml
@@ -10,7 +9,7 @@ import yaml
 from . import models, prompts, skills
 from .common import CURRICULUM, OUT
 
-GEN_MAX_TOKENS = 20000  # parse() akışsız; SDK'nın zaman aşımı sınırının altında
+GEN_MAX_TOKENS = 48000  # akışlı çağrı; düşünme + uzun JSON için pay
 CASE_TEXT_LIMIT = 15000
 
 
@@ -22,7 +21,7 @@ def _llm():
 
 async def _parse(feature, output_format, system, user, effort="medium", model=None):
     llm = _llm()
-    return await llm.parse(
+    return await llm.generate_json(
         feature,
         output_format,
         model=model or llm.OPUS,
@@ -137,19 +136,8 @@ async def fetch_cases(hub, course: dict, system, title: str, queries: list[str],
     return cases
 
 
-# ── soru düzeni ────────────────────────────────────────────────────────
-def shuffle_options(mcqs: list[dict], seed: str) -> list[dict]:
-    """Model doğru cevabı belli şıklara yığabiliyor; şıkları deterministik karıştır."""
-    rng = random.Random(seed)
-    out = []
-    for q in mcqs:
-        opts = list(q["options"])[:4]
-        if len(opts) != 4 or not (0 <= q["correct_option"] < 4):
-            continue
-        correct = opts[q["correct_option"]]
-        rng.shuffle(opts)
-        out.append({**q, "options": opts, "correct_option": opts.index(correct)})
-    return out
+# ── soru düzeni: sunucuyla ortak ────────────────────────────────────
+from app.quiz_util import shuffle_options  # noqa: E402
 
 
 # ── konu ───────────────────────────────────────────────────────────────
@@ -160,28 +148,33 @@ async def make_topic(hub, course: dict, system, refs_skill: list[str], unit_inde
     texts = prompts.official_texts(articles)
 
     content: models.TopicContent = await _parse(
-        f"pipeline:{cid}:icerik", models.TopicContent, system, prompts.content(unit["title"], title, texts), effort="high"
+        f"pipeline:{cid}:icerik", models.TopicContent, system, prompts.content(unit["title"], title, texts)
     )
     c = content.model_dump()
     ver: models.Verification = await _parse(
-        f"pipeline:{cid}:dogrulama", models.Verification, system, prompts.verify(title, texts, c), effort="high"
+        f"pipeline:{cid}:dogrulama", models.Verification, system, prompts.verify(title, texts, c), effort="low"
     )
     if ver.status == "failed":
         feedback = "\n".join(f"- [{i.field}] \"{i.quote}\": {i.problem}" for i in ver.issues)
         content = await _parse(
             f"pipeline:{cid}:icerik", models.TopicContent, system,
-            prompts.content(unit["title"], title, texts, feedback), effort="high",
+            prompts.content(unit["title"], title, texts, feedback),
         )
         c = content.model_dump()
         ver = await _parse(
-            f"pipeline:{cid}:dogrulama", models.Verification, system, prompts.verify(title, texts, c), effort="high"
+            f"pipeline:{cid}:dogrulama", models.Verification, system, prompts.verify(title, texts, c), effort="low"
         )
 
     mcq_set: models.McqSet = await _parse(
-        f"pipeline:{cid}:soru", models.McqSet, system, prompts.mcq(title, texts, c["content_md"], c["critical_md"])
+        f"pipeline:{cid}:soru", models.McqSet, system, prompts.mcq(title, texts, c["content_md"], c["critical_md"]),
+        effort="low",
     )
-    cc: models.CasesAndCards = await _parse(
-        f"pipeline:{cid}:olay-kart", models.CasesAndCards, system, prompts.cases_and_cards(title, texts, c["content_md"])
+    case_set: models.CaseSet = await _parse(
+        f"pipeline:{cid}:olay", models.CaseSet, system, prompts.cases(title, texts, c["content_md"]), effort="low"
+    )
+    card_set: models.CardSet = await _parse(
+        f"pipeline:{cid}:kart", models.CardSet, system, prompts.cards(title, c["content_md"], c["critical_md"]),
+        effort="low",
     )
     cases = await fetch_cases(hub, course, system, title, plan.get("ictihat_sorgulari", []))
 
@@ -203,8 +196,8 @@ async def make_topic(hub, course: dict, system, refs_skill: list[str], unit_inde
         "articles": [{k: v for k, v in a.items() if k != "abbr"} for a in articles],
         "cases": cases,
         "mcq": shuffle_options([q.model_dump() for q in mcq_set.mcq], seed=f"{cid}-{plan['slug']}"),
-        "cases_q": [q.model_dump() for q in cc.cases],
-        "cards": [k.model_dump() for k in cc.cards],
+        "cases_q": [q.model_dump() for q in case_set.cases],
+        "cards": [k.model_dump() for k in card_set.cards],
         "verification": ver.model_dump(),
     }
 

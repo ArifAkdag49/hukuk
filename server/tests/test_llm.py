@@ -121,3 +121,40 @@ def test_one_hour_cache_writes_cost_double_input_price():
     )
     # opus: 1M * 4 * 2 (1 saat) + 1M * 4 * 1,25 (5 dk) = 13
     assert llm.cost_usd("claude-opus-5-5", u) == pytest.approx(13.0)
+
+
+async def test_generate_json_validates_and_records(client, sql):
+    from pydantic import BaseModel
+
+    from fakes import FakeStreamClient, message, text_block
+
+    class Out(BaseModel):
+        a: int
+
+    fake = FakeStreamClient([message([text_block('{"a": 7}')])])
+    llm.set_client(fake)
+    try:
+        out = await llm.generate_json("hat", Out, model=llm.OPUS, max_tokens=100, messages=[])
+    finally:
+        llm.set_client(None)
+    assert out.a == 7
+    fmt = fake.calls[0]["output_config"]["format"]
+    assert fmt["type"] == "json_schema" and fmt["schema"]["additionalProperties"] is False
+    assert sql.execute("select feature from api_usage").fetchone()[0] == "hat"
+
+
+async def test_generate_json_records_cost_even_when_truncated(client, sql):
+    from pydantic import BaseModel
+
+    from fakes import FakeStreamClient, message, text_block
+
+    class Out(BaseModel):
+        a: int
+
+    llm.set_client(FakeStreamClient([message([text_block('{"a": ')], stop_reason="max_tokens")]))
+    try:
+        with pytest.raises(RuntimeError, match="çıktı sınırı"):
+            await llm.generate_json("hat", Out, model=llm.OPUS, max_tokens=100, messages=[])
+    finally:
+        llm.set_client(None)
+    assert sql.execute("select count(*) from api_usage").fetchone()[0] == 1

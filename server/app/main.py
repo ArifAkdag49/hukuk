@@ -8,7 +8,7 @@ from . import db
 from .config import get_settings
 from .mcp_hub import hub
 from .routers import auth as auth_router
-from .routers import cases, kb, progress, usage
+from .routers import assistant, cases, kb, notes, progress, usage
 
 log = logging.getLogger("hukuk")
 
@@ -42,6 +42,8 @@ def create_app() -> FastAPI:
     app.include_router(progress.router)
     app.include_router(usage.router)
     app.include_router(cases.router)
+    app.include_router(notes.router)
+    app.include_router(assistant.router)
     return app
 
 

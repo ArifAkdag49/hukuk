@@ -101,8 +101,8 @@ export default function AnaSayfa() {
           </Pressable>
         </View>
         <View style={styles.heroDeck} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
-          <View style={[styles.deckCard, { transform: [{ rotate: "-10deg" }], backgroundColor: courseColor("HUK2011").main }]} />
-          <View style={[styles.deckCard, { transform: [{ rotate: "4deg" }], backgroundColor: courseColor("HUK2013").main }]} />
+          <View style={[styles.deckCard, { transform: [{ translateX: -10 }, { rotate: "-14deg" }], backgroundColor: courseColor("HUK2011").main }]} />
+          <View style={[styles.deckCard, { transform: [{ translateX: 8 }, { rotate: "9deg" }], backgroundColor: courseColor("HUK2013").main }]} />
           <View style={[styles.deckCard, { backgroundColor: colors.white, alignItems: "center", justifyContent: "center" }]}>
             <Icon name="scale-balance" size={30} color={colors.primary} />
           </View>

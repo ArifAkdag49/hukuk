@@ -113,3 +113,25 @@ async def parse(feature: str, output_format: type, **kwargs: Any) -> Any:
     if resp.parsed_output is None:
         raise RuntimeError(f"Model geçerli çıktı üretmedi (stop_reason={resp.stop_reason})")
     return resp.parsed_output
+
+
+async def generate_json(feature: str, output_format: type, **kwargs: Any) -> Any:
+    """Uzun yapılandırılmış çıktı (içerik hattı): akışlı çağrı, kullanım her durumda kaydedilir.
+
+    `parse()` akışsızdır ve kesilen çıktıda maliyeti kaydetmeden hata fırlatır;
+    bu yol önce kaydı yazar, sonra kesilme/ret/şema hatasını açıkça bildirir.
+    """
+    from anthropic.lib._parse._transform import transform_schema
+    from pydantic import TypeAdapter
+
+    await ensure_budget()
+    schema = transform_schema(TypeAdapter(output_format).json_schema())
+    output_config = {**kwargs.pop("output_config", {}), "format": {"type": "json_schema", "schema": schema}}
+    async with client().messages.stream(output_config=output_config, **kwargs) as stream:
+        resp = await stream.get_final_message()
+    await db.run(record, feature, kwargs["model"], resp.usage)
+    _check_refusal(resp)
+    if resp.stop_reason == "max_tokens":
+        raise RuntimeError(f"çıktı sınırına ulaşıldı (max_tokens={kwargs.get('max_tokens')})")
+    text = next((b.text for b in resp.content if b.type == "text"), "")
+    return output_format.model_validate_json(text)
