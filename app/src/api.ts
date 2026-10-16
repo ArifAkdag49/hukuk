@@ -143,7 +143,8 @@ const realApi: ApiClient = {
     request(`/assistant/threads/${encodeURIComponent(id)}/messages`, {
       method: "POST",
       body: { content, deep },
-      timeoutMs: 150_000,
+      // derin cevap birkaç karar metniyle 2-4 dk sürebilir; nginx 300 sn
+      timeoutMs: 290_000,
     }),
   getUsage: () => request("/usage/month"),
 };

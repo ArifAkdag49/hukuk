@@ -83,6 +83,19 @@ export default function Sohbet() {
       if (r.suggest_new_thread) setSuggestNew(true);
       await setDraft(`chat:${id}`, null);
     } catch (e) {
+      // Zaman aşımında sunucu cevabı yine de kaydetmiş olabilir: tekrar göndertip iki kez
+      // ücretlendirmeden önce sohbeti yenile, cevap gelmişse onu göster.
+      try {
+        const fresh = await api.getMessages(String(id));
+        const n = fresh.length;
+        if (n >= 2 && fresh[n - 1].role === "assistant" && fresh[n - 2].role === "user" && fresh[n - 2].content_md === text) {
+          setMessages(fresh);
+          await setDraft(`chat:${id}`, null);
+          return;
+        }
+      } catch {
+        // yenileme de başarısızsa aşağıdaki gibi kutuya geri koy
+      }
       // Mesaj kaybolmasın: kutuya geri koy ve taslak olarak sakla
       setMessages((m) => (m ?? []).filter((x) => x.id !== optimistic.id));
       setInput(text);

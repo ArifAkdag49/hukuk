@@ -91,8 +91,9 @@ export class SqliteDepo implements Depo {
   }
 
   async replaceKb(kb: KbExport) {
-    const db = this.conn;
-    await db.withTransactionAsync(async () => {
+    // Özel (exclusive) işlem: uzun KB değişimi sürerken öğrencinin quiz/kart yazımları bu işleme
+    // karışmasın; aksi halde değişim geri alınırsa ilerleme de sessizce kaybolur.
+    await this.conn.withExclusiveTransactionAsync(async (db) => {
       await db.execAsync(
         "DELETE FROM courses; DELETE FROM units; DELETE FROM topics; DELETE FROM questions; DELETE FROM flashcards; DELETE FROM comparison_tables;",
       );
