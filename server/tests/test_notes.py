@@ -142,3 +142,18 @@ def test_small_image_is_left_alone(tmp_path):
     src = tmp_path / "kucuk.png"
     Image.new("RGB", (800, 600), (0, 0, 0)).save(src)
     assert ns.prepare_image(str(src), "image/png") == (str(src), "image/png")
+
+
+def test_notes_left_processing_by_a_restart_are_marked_failed(course, sql):
+    from fastapi.testclient import TestClient
+
+    from app.main import create_app
+
+    sql.execute(
+        "insert into notes (id, course_id, title, file_path, mime, status, created_at) values "
+        "('00000000-0000-0000-0000-0000000000aa','HUK2011','eski','f','application/pdf','processing', now() - interval '1 hour')"
+    )
+    with TestClient(create_app()):
+        pass
+    row = sql.execute("select status, error from notes").fetchone()
+    assert row[0] == "failed" and "yarıda" in row[1]

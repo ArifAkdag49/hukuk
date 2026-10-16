@@ -217,3 +217,28 @@ async def test_pipeline_generation_is_not_blocked_by_app_cap(client, sql):
     finally:
         llm.set_client(None)
     assert out.a == 1
+
+
+async def test_hub_reconnects_once_when_ictihat_session_died(monkeypatch):
+    import anyio
+
+    hub = mcp_hub.McpHub()
+
+    class Dead:
+        async def call_tool(self, name, args):
+            raise anyio.ClosedResourceError()
+
+    class Alive:
+        async def call_tool(self, name, args):
+            return SimpleNamespace(content=[SimpleNamespace(type="text", text='{"sonuclar": []}')], isError=False)
+
+    hub._ictihat = Dead()
+    restarts = []
+
+    async def fake_restart():
+        restarts.append(1)
+        hub._ictihat = Alive()
+
+    monkeypatch.setattr(hub, "restart", fake_restart)
+    text, is_error = await hub.call("ictihat_ara", {"ifade": "x"})
+    assert not is_error and restarts == [1]

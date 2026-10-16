@@ -3,6 +3,7 @@ import os
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
+from fastapi.middleware.gzip import GZipMiddleware
 
 from . import db
 from .config import get_settings
@@ -19,6 +20,11 @@ def create_app() -> FastAPI:
         s = get_settings()
         os.makedirs(s.upload_dir, exist_ok=True)
         db.open_pool(s.database_url)
+        # önceki süreç not işlerken durduysa (deploy/çökme) not sonsuza dek "işleniyor" kalmasın
+        db.execute(
+            "update notes set status = 'failed', error = 'İşlem yarıda kaldı (sunucu yeniden başladı); notu yeniden yükleyin' "
+            "where status = 'processing' and created_at < now() - interval '10 minutes'"
+        )
         if s.mcp_enabled:
             try:
                 await hub.start()
@@ -32,6 +38,7 @@ def create_app() -> FastAPI:
             db.close_pool()
 
     app = FastAPI(title="Hukuk Çalışma API", lifespan=lifespan)
+    app.add_middleware(GZipMiddleware, minimum_size=1000)  # bilgi bankası dışa aktarımı MB'larca JSON
 
     @app.get("/health")
     def health():

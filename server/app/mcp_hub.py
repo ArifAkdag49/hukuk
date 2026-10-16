@@ -4,7 +4,9 @@ Tüm hatalar uydurmaya yol açmasın diye açık bir metinle ve `is_error=True`
 olarak döner; model bu metni görüp "resmî kaynağa ulaşılamıyor" der.
 """
 
+import asyncio
 import json
+import logging
 import os
 import shutil
 import sys
@@ -14,6 +16,8 @@ from typing import Any
 import anyio
 
 from . import mevzuat
+
+log = logging.getLogger("hukuk.mcp")
 
 TIMEOUT_S = 60
 UNAVAILABLE = "Resmî kaynağa şu anda ulaşılamıyor"
@@ -92,32 +96,78 @@ def _ictihat_command() -> str:
 
 
 class McpHub:
+    """İçtihat MCP oturumunu tek bir denetleyici görev sahiplenir.
+
+    anyio bağlamları açıldıkları görevde kapanmak zorunda; bu yüzden oturum bir
+    istek görevinde değil, `_supervise` görevinde açılıp kapanır. `restart()` o
+    göreve sinyal verir ve yeni oturum hazır olana kadar bekler.
+    """
+
+    START_TIMEOUT_S = 30
+
     def __init__(self) -> None:
         self._ictihat: Any = None
-        self._stack: AsyncExitStack | None = None
+        self._task: asyncio.Task | None = None
+        self._ready = asyncio.Event()
+        self._restart = asyncio.Event()
+        self._closing = False
 
-    async def start(self) -> None:
+    async def _supervise(self) -> None:
         from mcp import ClientSession
         from mcp.client.stdio import StdioServerParameters, stdio_client
 
-        self._stack = AsyncExitStack()
-        read, write = await self._stack.enter_async_context(
-            stdio_client(StdioServerParameters(command=_ictihat_command()))
-        )
-        session = await self._stack.enter_async_context(ClientSession(read, write))
-        await session.initialize()
-        self._ictihat = session
+        while not self._closing:
+            try:
+                async with AsyncExitStack() as stack:
+                    read, write = await stack.enter_async_context(
+                        stdio_client(StdioServerParameters(command=_ictihat_command()))
+                    )
+                    session = await stack.enter_async_context(ClientSession(read, write))
+                    await session.initialize()
+                    self._ictihat = session
+                    self._ready.set()
+                    await self._restart.wait()
+            except Exception:
+                log.exception("içtihat MCP oturumu düştü")
+                if not self._closing:
+                    await asyncio.sleep(5)
+            finally:
+                self._ictihat = None
+                self._ready.clear()
+                self._restart.clear()
+
+    async def start(self) -> None:
+        self._closing = False
+        self._task = asyncio.create_task(self._supervise())
+        await asyncio.wait_for(self._ready.wait(), self.START_TIMEOUT_S)
 
     async def stop(self) -> None:
-        if self._stack is not None:
-            await self._stack.aclose()
-        self._stack = None
+        self._closing = True
+        self._restart.set()
+        if self._task is not None:
+            try:
+                await asyncio.wait_for(self._task, 10)
+            except (asyncio.TimeoutError, Exception):
+                self._task.cancel()
+        self._task = None
         self._ictihat = None
+
+    async def restart(self) -> None:
+        if self._task is None:
+            return await self.start()
+        self._ready.clear()
+        self._restart.set()
+        await asyncio.wait_for(self._ready.wait(), self.START_TIMEOUT_S)
 
     async def _call_ictihat(self, name: str, args: dict) -> tuple[str, bool]:
         if self._ictihat is None:
             return f"{UNAVAILABLE}: içtihat servisi başlatılmadı", True
-        res = await self._ictihat.call_tool(name, args)
+        try:
+            res = await self._ictihat.call_tool(name, args)
+        except (anyio.ClosedResourceError, anyio.BrokenResourceError, anyio.EndOfStream):
+            # alt süreç ölmüş: bir kez yeniden bağlan, olmazsa üst katman "ulaşılamıyor" der
+            await self.restart()
+            res = await self._ictihat.call_tool(name, args)
         text = "\n".join(c.text for c in res.content if getattr(c, "type", "") == "text")
         return text, bool(res.isError)
 

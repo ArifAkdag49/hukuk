@@ -70,3 +70,10 @@ def test_create_and_update_course(auth_client):
 
 def test_patch_unknown_course_is_404(auth_client):
     assert auth_client.patch("/kb/courses/YOK", json={"name": "x"}).status_code == 404
+
+
+def test_export_is_gzip_compressed(auth_client, sql):
+    seed(sql)
+    r = auth_client.get("/kb/export", headers={"Accept-Encoding": "gzip"})
+    assert r.status_code == 200
+    assert r.headers.get("content-encoding") == "gzip"
