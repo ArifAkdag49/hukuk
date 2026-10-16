@@ -65,6 +65,27 @@ class Transcript(BaseModel):
     text: str
 
 
+MAX_IMAGE_SIDE = 2000           # Claude görsel sınırı 8000 px; 2000 px el yazısı için yeterli
+MAX_IMAGE_BYTES = 4_500_000     # API görsel başına ~5 MB kabul ediyor
+
+
+def prepare_image(path: str, mime: str) -> tuple[str, str]:
+    """Telefon fotoğrafını API sınırlarının altına indirir (uzun kenar 2000 px, JPEG)."""
+    from PIL import Image, ImageOps
+
+    with Image.open(path) as im:
+        big = max(im.size) > MAX_IMAGE_SIDE or os.path.getsize(path) > MAX_IMAGE_BYTES
+        if not big:
+            return path, mime
+        im = ImageOps.exif_transpose(im).convert("RGB")
+        im.thumbnail((MAX_IMAGE_SIDE, MAX_IMAGE_SIDE))
+        out = os.path.splitext(path)[0] + ".jpg"
+        im.save(out, "JPEG", quality=85, optimize=True)
+    if out != path:
+        os.remove(path)
+    return out, "image/jpeg"
+
+
 def pdf_page_count(path: str) -> int:
     return len(PdfReader(path).pages)
 

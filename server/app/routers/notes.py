@@ -35,6 +35,12 @@ async def upload(
     path = os.path.join(s.upload_dir, note_id + EXT[mime])
     with open(path, "wb") as f:
         f.write(data)
+    if mime in ns.IMAGE_TYPES:
+        try:
+            path, mime = await db.run(ns.prepare_image, path, mime)
+        except Exception:
+            ns.delete_files(path)
+            raise HTTPException(422, "Görsel okunamadı")
     if mime == ns.PDF:
         try:
             pages = await db.run(ns.pdf_page_count, path)

@@ -1,4 +1,5 @@
 import io
+import os
 
 import pytest
 from pypdf import PdfWriter
@@ -121,3 +122,23 @@ def test_list_and_delete(auth_client, course, fake, sql):
     assert auth_client.delete(f"/notes/{note_id}").status_code == 200
     assert auth_client.get("/notes").json() == []
     assert sql.execute("select count(*) from questions where origin='note'").fetchone()[0] == 0
+
+
+def test_large_phone_photo_is_downscaled_under_api_limits(tmp_path):
+    from PIL import Image
+
+    src = tmp_path / "foto.png"
+    Image.new("RGB", (8200, 3000), (200, 120, 40)).save(src)
+    path, mime = ns.prepare_image(str(src), "image/png")
+    with Image.open(path) as im:
+        assert max(im.size) <= ns.MAX_IMAGE_SIDE
+    assert os.path.getsize(path) < 5 * 1024 * 1024
+    assert mime == "image/jpeg"
+
+
+def test_small_image_is_left_alone(tmp_path):
+    from PIL import Image
+
+    src = tmp_path / "kucuk.png"
+    Image.new("RGB", (800, 600), (0, 0, 0)).save(src)
+    assert ns.prepare_image(str(src), "image/png") == (str(src), "image/png")
