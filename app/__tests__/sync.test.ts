@@ -131,3 +131,69 @@ describe("ilk kurulumda geri yükleme", () => {
     expect(api.getAllProgress).toHaveBeenCalledTimes(1);
   });
 });
+
+describe("konu notları ve vurgular", () => {
+  test("not ve vurgu kuyruğa girer ve gönderilir; aynı konunun notu tek kayıt", async () => {
+    const depo = new MemoryDepo();
+    await depo.init();
+    await depo.putTopicNote({ topic_id: "t1", body_md: "ilk", updated_at: "2026-10-16T10:00:00.000Z" });
+    await depo.putTopicNote({ topic_id: "t1", body_md: "son", updated_at: "2026-10-16T10:01:00.000Z" });
+    await depo.putHighlight({ id: "h1", topic_id: "t1", section: "content", block_hash: "abc123abc123", excerpt: "Kast", deleted: false, updated_at: "2026-10-16T10:02:00.000Z" });
+    expect(await depo.queueCount()).toBe(2);
+    const { api, sent } = fakeApi();
+    await createSync(depo, api).pushProgress();
+    expect(sent[0].topic_notes).toEqual([{ topic_id: "t1", body_md: "son", updated_at: "2026-10-16T10:01:00.000Z" }]);
+    expect(sent[0].highlights?.map((h) => h.id)).toEqual(["h1"]);
+    expect(await depo.queueCount()).toBe(0);
+  });
+
+  test("vurgu silme: deleted:true ile tombstone gönderilir, listede görünmez", async () => {
+    const depo = new MemoryDepo();
+    await depo.init();
+    const h = { id: "h1", topic_id: "t1", section: "summary" as const, block_hash: "x", excerpt: "e", deleted: false, updated_at: "2026-10-16T10:00:00.000Z" };
+    await depo.putHighlight(h);
+    await depo.putHighlight({ ...h, deleted: true, updated_at: "2026-10-16T10:05:00.000Z" });
+    expect(await depo.listHighlights("t1")).toHaveLength(0);
+    const { api, sent } = fakeApi();
+    await createSync(depo, api).pushProgress();
+    expect(sent[0].highlights).toEqual([{ ...h, deleted: true, updated_at: "2026-10-16T10:05:00.000Z" }]);
+  });
+
+  test("geri yükleme yereldeki daha yeni notu ve vurguyu ezmez", async () => {
+    const depo = new MemoryDepo();
+    await depo.init();
+    await depo.putTopicNote({ topic_id: "t1", body_md: "yerel yeni", updated_at: "2026-10-16T12:00:00.000Z" }, false);
+    await depo.importProgress({
+      attempts: [],
+      card_reviews: [],
+      card_states: [],
+      topic_notes: [
+        { topic_id: "t1", body_md: "sunucu eski", updated_at: "2026-10-16T09:00:00.000Z" },
+        { topic_id: "t2", body_md: "sunucu", updated_at: "2026-10-16T09:00:00.000Z" },
+      ],
+      highlights: [{ id: "h9", topic_id: "t2", section: "critical", block_hash: "b", excerpt: "e", deleted: false, updated_at: "2026-10-16T09:00:00.000Z" }],
+    });
+    expect((await depo.getTopicNote("t1"))?.body_md).toBe("yerel yeni");
+    expect((await depo.getTopicNote("t2"))?.body_md).toBe("sunucu");
+    expect(await depo.listHighlights("t2")).toHaveLength(1);
+    expect(await depo.queueCount()).toBe(0);
+  });
+
+  test("eski sunucu cevabında notlar/vurgular yoksa da içe alma çalışır", async () => {
+    const depo = new MemoryDepo();
+    await depo.init();
+    await depo.importProgress({ attempts: [], card_reviews: [], card_states: [] });
+    expect(await depo.listTopicNotes()).toEqual([]);
+  });
+});
+
+describe("listTopicTexts", () => {
+  test("arama için konu metinlerini verir", async () => {
+    const depo = new MemoryDepo();
+    await depo.init();
+    await depo.replaceKb(kb("v1"));
+    const t = await depo.listTopicTexts();
+    expect(t).toHaveLength(1);
+    expect(t[0]).toMatchObject({ id: "HUK2011-kurulus", title: "Sözleşmenin kurulması", content_md: "anlatım", course_id: "HUK2011" });
+  });
+});

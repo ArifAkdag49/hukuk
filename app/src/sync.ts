@@ -1,5 +1,5 @@
 import type { Depo } from "./db/types";
-import type { Attempt, CardReview, CardState, KbExport, ProgressPayload } from "./types";
+import type { Attempt, CardReview, CardState, Highlight, KbExport, ProgressPayload, TopicNote } from "./types";
 
 /**
  * Senkronizasyon:
@@ -35,11 +35,15 @@ export function createSync(depo: Depo, api: SyncApi) {
     for (let round = 0; round < 50; round++) {
       const items = await depo.listQueue(BATCH);
       if (items.length === 0) break;
-      const payload: ProgressPayload = { attempts: [], card_reviews: [], card_states: [] };
+      const topic_notes: TopicNote[] = [];
+      const highlights: Highlight[] = [];
+      const payload: ProgressPayload = { attempts: [], card_reviews: [], card_states: [], topic_notes, highlights };
       for (const it of items) {
         if (it.type === "attempt") payload.attempts.push(it.payload as Attempt);
         else if (it.type === "card_review") payload.card_reviews.push(it.payload as CardReview);
-        else payload.card_states.push(it.payload as CardState);
+        else if (it.type === "card_state") payload.card_states.push(it.payload as CardState);
+        else if (it.type === "topic_note") topic_notes.push(it.payload as TopicNote);
+        else highlights.push(it.payload as Highlight);
       }
       await api.syncProgress(payload);
       await depo.removeQueue(items.map(({ key, seq }) => ({ key, seq })));

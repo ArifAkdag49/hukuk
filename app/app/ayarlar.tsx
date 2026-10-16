@@ -4,6 +4,7 @@ import { StyleSheet, Switch, TextInput, View } from "react-native";
 import { api, errorText } from "../src/api";
 import { confirm } from "../src/confirm";
 import { Screen } from "../src/components/Screen";
+import { ReminderCard, VersionCard } from "../src/components/SettingsExtras";
 import { Notice } from "../src/components/States";
 import { Bar, Button, Card, Chip, Gap, Icon, Row, SectionTitle, T } from "../src/components/ui";
 import { API_URL, USE_FIXTURE } from "../src/config";
@@ -176,6 +177,9 @@ export default function Ayarlar() {
         <Button label="Şimdi senkronize et" icon="sync" kind="secondary" loading={sync.state === "syncing"} onPress={() => void syncNow()} />
       </Card>
 
+      <SectionTitle title="Günlük hatırlatma" />
+      <ReminderCard />
+
       <SectionTitle title="Dersler" />
       <Card padded={false}>
         {(kb?.courses ?? []).map((c, i) => {
@@ -232,6 +236,9 @@ export default function Ayarlar() {
           <Notice tone="danger" text={courseError} />
         </>
       ) : null}
+
+      <SectionTitle title="Uygulama sürümü" />
+      <VersionCard />
 
       <SectionTitle title="Hakkında" />
       <Card>

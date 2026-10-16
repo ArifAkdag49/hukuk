@@ -10,7 +10,12 @@ import { space } from "../../src/theme";
 
 export default function Dersler() {
   const { kb, courseScore, syncNow } = useApp();
-  const right = <HeaderButton icon="pencil-outline" label="Dersleri düzenle" onPress={() => router.push("/ayarlar")} />;
+  const right = (
+    <View style={{ flexDirection: "row", gap: space.xs }}>
+      <HeaderButton icon="magnify" label="Ara" onPress={() => router.push("/ara")} />
+      <HeaderButton icon="pencil-outline" label="Dersleri düzenle" onPress={() => router.push("/ayarlar")} />
+    </View>
+  );
 
   if (!kb || kb.courses.length === 0) {
     return (

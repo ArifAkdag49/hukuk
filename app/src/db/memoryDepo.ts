@@ -1,5 +1,5 @@
-import type { Attempt, CardReview, CardState, Course, KbExport, ProgressPayload, Topic } from "../types";
-import { nextSeq, queueKey, topicToLite, type Depo, type KbIndexData, type QueueItem, type QueueRef, type QueueType } from "./types";
+import type { Attempt, CardReview, CardState, Course, Highlight, KbExport, ProgressPayload, Topic, TopicNote } from "../types";
+import { newer, nextSeq, queueKey, topicToLite, topicToText, type Depo, type KbIndexData, type QueueItem, type QueuePayload, type QueueRef, type QueueType } from "./types";
 
 /**
  * Bellek içi depo. Testlerde doğrudan, web'de localStorage kalıcılığıyla (webDepo) kullanılır.
@@ -12,10 +12,12 @@ export interface MemoryState {
   reviews: Record<string, CardReview>;
   states: Record<string, CardState>;
   queue: Record<string, QueueItem>;
+  notes?: Record<string, TopicNote>;
+  highlights?: Record<string, Highlight>;
 }
 
 export function emptyState(): MemoryState {
-  return { meta: {}, kb: null, attempts: {}, reviews: {}, states: {}, queue: {} };
+  return { meta: {}, kb: null, attempts: {}, reviews: {}, states: {}, queue: {}, notes: {}, highlights: {} };
 }
 
 export class MemoryDepo implements Depo {
@@ -83,7 +85,7 @@ export class MemoryDepo implements Depo {
     this.changed("kb");
   }
 
-  private enqueue(type: QueueType, payload: Attempt | CardReview | CardState) {
+  private enqueue(type: QueueType, payload: QueuePayload) {
     const key = queueKey(type, payload);
     this.s.queue[key] = { key, type, payload, queued_at: new Date().toISOString(), seq: nextSeq() };
     this.changed("queue");
@@ -123,9 +125,41 @@ export class MemoryDepo implements Depo {
       const cur = this.s.states[st.card_id];
       if (!cur || cur.updated_at < st.updated_at) this.s.states[st.card_id] = st;
     }
+    const notes = (this.s.notes ??= {});
+    for (const n of p.topic_notes ?? []) if (newer(n, notes[n.topic_id])) notes[n.topic_id] = n;
+    const hs = (this.s.highlights ??= {});
+    for (const h of p.highlights ?? []) if (newer(h, hs[h.id])) hs[h.id] = h;
     this.changed("attempts");
     this.changed("reviews");
     this.changed("states");
+    this.changed("notes");
+    this.changed("highlights");
+  }
+
+  async listTopicTexts() {
+    return (this.s.kb?.topics ?? []).map(topicToText);
+  }
+
+  async getTopicNote(topicId: string) {
+    return this.s.notes?.[topicId] ?? null;
+  }
+  async listTopicNotes() {
+    return Object.values(this.s.notes ?? {});
+  }
+  async putTopicNote(n: TopicNote, queue = true) {
+    (this.s.notes ??= {})[n.topic_id] = n;
+    this.changed("notes");
+    if (queue) this.enqueue("topic_note", n);
+  }
+  async listHighlights(topicId?: string) {
+    return Object.values(this.s.highlights ?? {})
+      .filter((h) => !h.deleted && (!topicId || h.topic_id === topicId))
+      .sort((a, b) => a.updated_at.localeCompare(b.updated_at));
+  }
+  async putHighlight(h: Highlight, queue = true) {
+    (this.s.highlights ??= {})[h.id] = h;
+    this.changed("highlights");
+    if (queue) this.enqueue("highlight", h);
   }
 
   async listQueue(limit = 500) {

@@ -1,17 +1,19 @@
 import { router, useLocalSearchParams } from "expo-router";
-import { useEffect, useRef, useState } from "react";
-import { Pressable, ScrollView, StyleSheet, View } from "react-native";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { VerificationBadge } from "../../src/components/Course";
+import { HighlightableMarkdown } from "../../src/components/HighlightableMarkdown";
 import { Markdown, openLink } from "../../src/components/Markdown";
 import { Screen } from "../../src/components/Screen";
 import { EmptyState, LoadingState } from "../../src/components/States";
 import { Button, Card, Gap, Icon, Pill, Row, T, type IconName } from "../../src/components/ui";
+import { blockHash, splitBlocks } from "../../src/highlights";
 import { useApp } from "../../src/store/AppContext";
-import { colors, courseColor, radius, space, type CourseColor } from "../../src/theme";
-import type { Topic } from "../../src/types";
-import { formatDate, lawAbbrev } from "../../src/format";
+import { colors, courseColor, fonts, radius, space, type CourseColor } from "../../src/theme";
+import type { Highlight, HighlightSection, Topic } from "../../src/types";
+import { formatDate, formatDateTime, lawAbbrev } from "../../src/format";
 
-type Tab = "ozet" | "anlatim" | "kritik" | "maddeler" | "kararlar" | "sozluk";
+type Tab = "ozet" | "anlatim" | "kritik" | "maddeler" | "kararlar" | "sozluk" | "notum";
 const TABS: { key: Tab; label: string; icon: IconName }[] = [
   { key: "ozet", label: "Özet", icon: "text-short" },
   { key: "anlatim", label: "Anlatım", icon: "book-open-variant" },
@@ -19,13 +21,24 @@ const TABS: { key: Tab; label: string; icon: IconName }[] = [
   { key: "maddeler", label: "Maddeler", icon: "scale-balance" },
   { key: "kararlar", label: "Kararlar", icon: "gavel" },
   { key: "sozluk", label: "Sözlük", icon: "alphabetical-variant" },
+  { key: "notum", label: "Notum", icon: "notebook-edit-outline" },
 ];
 
+const SECTION_TAB: Record<HighlightSection, Tab> = { summary: "ozet", content: "anlatim", critical: "kritik", doctrine: "anlatim" };
+const SECTION_LABEL: Record<HighlightSection, string> = { summary: "Özet", content: "Anlatım", critical: "Kritik", doctrine: "Doktrin" };
+const HINT_KEY = "hint_highlight_seen";
+
+function isTab(x: unknown): x is Tab {
+  return typeof x === "string" && TABS.some((t) => t.key === x);
+}
+
 export default function KonuEkrani() {
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const { kb, getTopic, setLastTopic, mastery } = useApp();
+  const { id, sekme } = useLocalSearchParams<{ id: string; sekme?: string }>();
+  const { kb, getTopic, setLastTopic, mastery, listHighlights, toggleHighlight, getMeta, setMeta } = useApp();
   const [topic, setTopic] = useState<Topic | null | undefined>(undefined);
-  const [tab, setTab] = useState<Tab>("ozet");
+  const [tab, setTab] = useState<Tab>(isTab(sekme) ? sekme : "ozet");
+  const [highlights, setHighlights] = useState<Highlight[]>([]);
+  const [showHint, setShowHint] = useState(false);
   const tabScroll = useRef<ScrollView>(null);
   const tabX = useRef<Record<string, number>>({});
 
@@ -36,11 +49,41 @@ export default function KonuEkrani() {
       setTopic(t);
       if (t) void setLastTopic(t.id);
     });
+    void listHighlights(String(id)).then((h) => alive && setHighlights(h));
+    void getMeta(HINT_KEY).then((v) => alive && setShowHint(v !== "1"));
     return () => {
       alive = false;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
+
+  // Aramadan farklı bir sekmeyle gelinirse
+  useEffect(() => {
+    if (isTab(sekme)) setTab(sekme);
+  }, [sekme]);
+
+  const hashesBySection = useMemo(() => {
+    const m: Record<HighlightSection, Set<string>> = { summary: new Set(), content: new Set(), critical: new Set(), doctrine: new Set() };
+    for (const h of highlights) m[h.section]?.add(h.block_hash);
+    return m;
+  }, [highlights]);
+
+  const toggle = useCallback(
+    async (section: HighlightSection, text: string) => {
+      if (!topic) return;
+      setHighlights(await toggleHighlight(topic.id, section, text));
+      if (showHint) {
+        setShowHint(false);
+        void setMeta(HINT_KEY, "1");
+      }
+    },
+    [topic, toggleHighlight, showHint, setMeta],
+  );
+
+  function goTab(t: Tab) {
+    setTab(t);
+    tabScroll.current?.scrollTo({ x: Math.max(0, (tabX.current[t] ?? 0) - space.xxl), animated: true });
+  }
 
   if (topic === undefined) {
     return (
@@ -62,6 +105,7 @@ export default function KonuEkrani() {
   const unit = kb?.units.find((u) => u.id === topic.unit_id);
   const m = mastery.get(topic.id);
   const questionCount = kb?.questionsByTopic.get(topic.id)?.filter((q) => q.kind === "mcq").length ?? 0;
+  const readable = tab === "ozet" || tab === "anlatim" || tab === "kritik";
 
   const footer = (
     <View style={{ flexDirection: "row", gap: space.sm, width: "100%", maxWidth: 720, alignSelf: "center" }}>
@@ -81,6 +125,7 @@ export default function KonuEkrani() {
       <Row style={{ flexWrap: "wrap" }} gap={space.xs}>
         <VerificationBadge status={topic.verification_status} />
         {m?.score != null ? <Pill label={`Ustalık %${m.score}`} icon="chart-arc" color={c.deep} tint={c.tint} /> : null}
+        {highlights.length > 0 ? <Pill label={`${highlights.length} vurgu`} icon="marker" color={colors.highlightInk} tint={colors.highlight} /> : null}
         {topic.generated_at ? <Pill label={`Hazırlanma: ${formatDate(topic.generated_at)}`} icon="calendar-outline" color={colors.inkSoft} tint={colors.surfaceAlt} /> : null}
       </Row>
       <Gap h={space.md} />
@@ -91,12 +136,11 @@ export default function KonuEkrani() {
           return (
             <Pressable
               key={t.key}
-              onPress={() => {
-                setTab(t.key);
-                tabScroll.current?.scrollTo({ x: Math.max(0, (tabX.current[t.key] ?? 0) - space.xxl), animated: true });
-              }}
+              onPress={() => goTab(t.key)}
               onLayout={(e) => {
                 tabX.current[t.key] = e.nativeEvent.layout.x;
+                // aramadan belirli bir sekmeyle gelindiyse o sekmeyi görünür yap
+                if (on && t.key !== "ozet") tabScroll.current?.scrollTo({ x: Math.max(0, e.nativeEvent.layout.x - space.xxl), animated: false });
               }}
               accessibilityRole="tab"
               accessibilityState={{ selected: on }}
@@ -112,10 +156,32 @@ export default function KonuEkrani() {
       </ScrollView>
       <Gap h={space.md} />
 
-      {tab === "ozet" ? <TextPanel md={topic.summary_md} c={c} empty="Bu konunun özeti henüz hazır değil." /> : null}
+      {readable && showHint ? (
+        <View style={styles.hint} accessibilityLiveRegion="polite">
+          <Icon name="gesture-tap-hold" color={colors.highlightInk} />
+          <T v="small" color={colors.highlightInk} style={{ flex: 1 }}>
+            Bir paragrafı vurgulamak için uzun bas. Vurguların Notum sekmesinde toplanır.
+          </T>
+          <Pressable
+            onPress={() => {
+              setShowHint(false);
+              void setMeta(HINT_KEY, "1");
+            }}
+            accessibilityRole="button"
+            accessibilityLabel="İpucunu kapat"
+            hitSlop={10}
+          >
+            <Icon name="close" size={20} color={colors.highlightInk} />
+          </Pressable>
+        </View>
+      ) : null}
+
+      {tab === "ozet" ? (
+        <TextPanel md={topic.summary_md} c={c} empty="Bu konunun özeti henüz hazır değil." highlighted={hashesBySection.summary} onToggle={(t) => void toggle("summary", t)} />
+      ) : null}
       {tab === "anlatim" ? (
         <>
-          <TextPanel md={topic.content_md} c={c} empty="Bu konunun anlatımı henüz hazır değil." />
+          <TextPanel md={topic.content_md} c={c} empty="Bu konunun anlatımı henüz hazır değil." highlighted={hashesBySection.content} onToggle={(t) => void toggle("content", t)} />
           {topic.doctrine_md ? (
             <>
               <Gap h={space.md} />
@@ -127,9 +193,7 @@ export default function KonuEkrani() {
                   </T>
                 </Row>
                 <Gap h={space.xs} />
-                <Markdown reading accent={c.main}>
-                  {topic.doctrine_md}
-                </Markdown>
+                <HighlightableMarkdown md={topic.doctrine_md} accent={c.main} highlighted={hashesBySection.doctrine} onToggle={(t) => void toggle("doctrine", t)} />
               </Card>
             </>
           ) : null}
@@ -145,7 +209,7 @@ export default function KonuEkrani() {
               </T>
             </Row>
             <Gap h={space.xs} />
-            <Markdown accent={colors.warning}>{topic.critical_md}</Markdown>
+            <HighlightableMarkdown md={topic.critical_md} reading={false} accent={colors.warning} highlighted={hashesBySection.critical} onToggle={(t) => void toggle("critical", t)} />
           </Card>
         ) : (
           <EmptyState icon="star-off-outline" title="Kritik notlar henüz yok" />
@@ -154,18 +218,186 @@ export default function KonuEkrani() {
       {tab === "maddeler" ? <Articles topic={topic} c={c} /> : null}
       {tab === "kararlar" ? <Cases topic={topic} c={c} /> : null}
       {tab === "sozluk" ? <Glossary topic={topic} c={c} /> : null}
+      {tab === "notum" ? (
+        <MyNote
+          topic={topic}
+          c={c}
+          highlights={highlights}
+          onOpen={(h) => goTab(SECTION_TAB[h.section])}
+          onRemoved={() => void listHighlights(topic.id).then(setHighlights)}
+        />
+      ) : null}
     </Screen>
   );
 }
 
-function TextPanel({ md, c, empty }: { md: string; c: CourseColor; empty: string }) {
+function TextPanel({
+  md,
+  c,
+  empty,
+  highlighted,
+  onToggle,
+}: {
+  md: string;
+  c: CourseColor;
+  empty: string;
+  highlighted: Set<string>;
+  onToggle: (text: string) => void;
+}) {
   if (!md) return <EmptyState icon="text-box-remove-outline" title={empty} color={c.deep} tint={c.tint} />;
   return (
     <Card>
-      <Markdown reading accent={c.main}>
-        {md}
-      </Markdown>
+      <HighlightableMarkdown md={md} accent={c.main} highlighted={highlighted} onToggle={onToggle} />
     </Card>
+  );
+}
+
+// ------------------------------------------------------------ Notum
+
+function sectionText(topic: Topic, s: HighlightSection): string {
+  return s === "summary" ? topic.summary_md : s === "content" ? topic.content_md : s === "critical" ? topic.critical_md : topic.doctrine_md;
+}
+
+function MyNote({
+  topic,
+  c,
+  highlights,
+  onOpen,
+  onRemoved,
+}: {
+  topic: Topic;
+  c: CourseColor;
+  highlights: Highlight[];
+  onOpen: (h: Highlight) => void;
+  onRemoved: () => void;
+}) {
+  const { getTopicNote, saveTopicNote, removeHighlight } = useApp();
+  const [body, setBody] = useState<string | null>(null);
+  const [savedAt, setSavedAt] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pendingBody = useRef<string | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    void getTopicNote(topic.id).then((n) => {
+      if (!alive) return;
+      setBody(n?.body_md ?? "");
+      setSavedAt(n?.updated_at ?? null);
+    });
+    return () => {
+      alive = false;
+      // ekrandan çıkarken bekleyen kaydı bırakma
+      if (timer.current) clearTimeout(timer.current);
+      if (pendingBody.current !== null) void saveTopicNote(topic.id, pendingBody.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topic.id]);
+
+  function onChange(t: string) {
+    setBody(t);
+    setSaving(true);
+    pendingBody.current = t;
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = setTimeout(() => {
+      pendingBody.current = null;
+      void saveTopicNote(topic.id, t).then(() => {
+        setSaving(false);
+        setSavedAt(new Date().toISOString());
+      });
+    }, 800);
+  }
+
+  // Bölüm metinlerinin güncel blok özetleri: metin değişmişse vurgu "eşleşmiyor"
+  const liveHashes = useMemo(() => {
+    const m: Record<HighlightSection, Set<string>> = { summary: new Set(), content: new Set(), critical: new Set(), doctrine: new Set() };
+    (Object.keys(m) as HighlightSection[]).forEach((s) => splitBlocks(sectionText(topic, s)).forEach((b) => m[s].add(blockHash(b))));
+    return m;
+  }, [topic]);
+
+  if (body === null) return <LoadingState />;
+
+  return (
+    <View style={{ gap: space.md }}>
+      <Card>
+        <Row style={{ justifyContent: "space-between" }}>
+          <Row gap={space.xs}>
+            <Icon name="notebook-edit-outline" color={c.deep} />
+            <T v="subheading" color={c.deep}>
+              Kendi notum
+            </T>
+          </Row>
+          <T v="tiny" color={colors.muted}>
+            {saving ? "Kaydediliyor…" : savedAt ? `Kaydedildi, ${formatDateTime(savedAt)}` : "Otomatik kaydedilir"}
+          </T>
+        </Row>
+        <Gap h={space.sm} />
+        <TextInput
+          value={body}
+          onChangeText={onChange}
+          multiline
+          textAlignVertical="top"
+          placeholder="Bu konuda aklında kalmasını istediklerini, hocanın vurguladıklarını ya da kendi örneklerini yaz…"
+          placeholderTextColor={colors.muted}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
+          style={[styles.noteInput, focused && { borderColor: c.main }]}
+          accessibilityLabel="Konu notum"
+        />
+      </Card>
+
+      <View>
+        <T v="heading">Vurgularım</T>
+        <Gap h={space.sm} />
+        {highlights.length === 0 ? (
+          <Card>
+            <T v="body" color={colors.inkSoft}>
+              Özet, Anlatım ya da Kritik sekmesinde bir paragrafa uzun basınca burada listelenir.
+            </T>
+          </Card>
+        ) : (
+          <View style={{ gap: space.sm }}>
+            {[...highlights]
+              .sort((a, b) => {
+                const sa = liveHashes[a.section]?.has(a.block_hash) ? 0 : 1;
+                const sb = liveHashes[b.section]?.has(b.block_hash) ? 0 : 1;
+                return sa - sb || b.updated_at.localeCompare(a.updated_at);
+              })
+              .map((h) => {
+              const stale = !liveHashes[h.section]?.has(h.block_hash);
+              return (
+                <View key={h.id} style={[styles.hl, stale && styles.hlStale]}>
+                  <Pressable
+                    onPress={() => onOpen(h)}
+                    accessibilityRole="button"
+                    accessibilityLabel={`${SECTION_LABEL[h.section]} bölümündeki vurguya git`}
+                    style={({ pressed }) => [{ flex: 1, gap: 4 }, pressed && { opacity: 0.75 }]}
+                  >
+                    <Row gap={6} style={{ flexWrap: "wrap" }}>
+                      <Pill label={SECTION_LABEL[h.section]} color={c.deep} tint={c.tint} />
+                      {stale ? <Pill label="Metin değişti" icon="file-alert-outline" color={colors.muted} tint={colors.surfaceAlt} /> : null}
+                    </Row>
+                    <T v="reading" color={stale ? colors.muted : colors.ink} numberOfLines={4}>
+                      {h.excerpt}
+                    </T>
+                  </Pressable>
+                  <Pressable
+                    onPress={() => void removeHighlight(h).then(onRemoved)}
+                    accessibilityRole="button"
+                    accessibilityLabel="Vurguyu kaldır"
+                    hitSlop={8}
+                    style={({ pressed }) => [styles.remove, pressed && { opacity: 0.6 }]}
+                  >
+                    <Icon name="close" size={20} color={colors.inkSoft} />
+                  </Pressable>
+                </View>
+              );
+            })}
+          </View>
+        )}
+      </View>
+    </View>
   );
 }
 
@@ -296,4 +528,38 @@ const styles = StyleSheet.create({
   quote: { borderLeftWidth: 4, paddingLeft: space.md, paddingVertical: 2 },
   link: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: space.md, minHeight: 32 },
   term: { padding: space.lg, gap: 4 },
+  hint: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: space.xs,
+    backgroundColor: colors.highlight,
+    borderRadius: radius.md,
+    padding: space.sm,
+    marginBottom: space.md,
+  },
+  noteInput: {
+    minHeight: 220,
+    ...(Platform.OS === "web" ? ({ outlineStyle: "none" } as object) : null),
+    borderRadius: radius.md,
+    borderWidth: 1.5,
+    borderColor: colors.line,
+    backgroundColor: colors.bg,
+    padding: space.md,
+    fontFamily: fonts.serif,
+    fontSize: 17,
+    lineHeight: 26,
+    color: colors.ink,
+  },
+  hl: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    gap: space.sm,
+    backgroundColor: colors.highlight,
+    borderLeftWidth: 4,
+    borderLeftColor: colors.highlightEdge,
+    borderRadius: radius.md,
+    padding: space.md,
+  },
+  hlStale: { backgroundColor: colors.surfaceAlt, borderLeftColor: colors.lineStrong, opacity: 0.8 },
+  remove: { width: 36, height: 36, borderRadius: 12, alignItems: "center", justifyContent: "center", backgroundColor: colors.surface },
 });

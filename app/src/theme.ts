@@ -34,6 +34,11 @@ export const colors = {
   infoDeep: "#0369A1",
   infoTint: "#E1F3FC",
 
+  /** Kişisel vurgu: yumuşak fosforlu kalem sarısı + kenar çizgisi */
+  highlight: "#FFF1A8",
+  highlightEdge: "#F2B90C",
+  highlightInk: "#7A5600",
+
   overlay: "rgba(28, 33, 66, 0.45)",
   shadow: "#1C2142",
   white: "#FFFFFF",

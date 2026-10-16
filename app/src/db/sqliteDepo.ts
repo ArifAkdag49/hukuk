@@ -6,14 +6,27 @@ import type {
   ComparisonTable,
   Course,
   Flashcard,
+  Highlight,
   KbExport,
   ProgressPayload,
   Question,
   Topic,
   TopicLite,
+  TopicNote,
   Unit,
 } from "../types";
-import { nextSeq, queueKey, type Depo, type KbIndexData, type QueueItem, type QueueRef, type QueueType } from "./types";
+import {
+  newer,
+  nextSeq,
+  queueKey,
+  type Depo,
+  type KbIndexData,
+  type QueueItem,
+  type QueuePayload,
+  type QueueRef,
+  type QueueType,
+  type TopicText,
+} from "./types";
 
 /**
  * Android deposu (expo-sqlite). Sunucudaki KB tablolarının aynası + yerel ilerleme ve sync_queue.
@@ -50,6 +63,11 @@ CREATE TABLE IF NOT EXISTS local_card_states (
   due_at TEXT, last_grade TEXT, updated_at TEXT
 );
 CREATE TABLE IF NOT EXISTS sync_queue (key TEXT PRIMARY KEY NOT NULL, type TEXT, payload TEXT, queued_at TEXT, seq INTEGER);
+CREATE TABLE IF NOT EXISTS topic_notes (topic_id TEXT PRIMARY KEY NOT NULL, body_md TEXT, updated_at TEXT);
+CREATE TABLE IF NOT EXISTS highlights (
+  id TEXT PRIMARY KEY NOT NULL, topic_id TEXT, section TEXT, block_hash TEXT, excerpt TEXT, deleted INTEGER, updated_at TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_highlights_topic ON highlights(topic_id);
 CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(topic_id);
 CREATE INDEX IF NOT EXISTS idx_flashcards_topic ON flashcards(topic_id);
 `;
@@ -207,7 +225,7 @@ export class SqliteDepo implements Depo {
     );
   }
 
-  private async enqueue(type: QueueType, payload: Attempt | CardReview | CardState) {
+  private async enqueue(type: QueueType, payload: QueuePayload) {
     await this.conn.runAsync(
       "INSERT OR REPLACE INTO sync_queue (key, type, payload, queued_at, seq) VALUES (?, ?, ?, ?, ?)",
       queueKey(type, payload), type, JSON.stringify(payload), new Date().toISOString(), nextSeq(),
@@ -273,7 +291,57 @@ export class SqliteDepo implements Depo {
         );
         if (!cur || cur.updated_at < s.updated_at) await this.putCardState(s, false);
       }
+      for (const n of p.topic_notes ?? []) {
+        if (newer(n, await this.getTopicNote(n.topic_id))) await this.putTopicNote(n, false);
+      }
+      for (const h of p.highlights ?? []) {
+        const cur = await db.getFirstAsync<{ updated_at: string }>("SELECT updated_at FROM highlights WHERE id = ?", h.id);
+        if (newer(h, cur)) await this.putHighlight(h, false);
+      }
     });
+  }
+
+  async listTopicTexts(): Promise<TopicText[]> {
+    const rows = await this.conn.getAllAsync<Row>(
+      "SELECT id, title, course_id, summary_md, content_md, critical_md, doctrine_md, glossary FROM topics ORDER BY sort_order",
+    );
+    return rows.map((r) => ({
+      id: String(r.id), title: String(r.title), course_id: String(r.course_id),
+      summary_md: String(r.summary_md ?? ""), content_md: String(r.content_md ?? ""),
+      critical_md: String(r.critical_md ?? ""), doctrine_md: String(r.doctrine_md ?? ""), glossary: pj(r.glossary, []),
+    }));
+  }
+
+  async getTopicNote(topicId: string): Promise<TopicNote | null> {
+    const r = await this.conn.getFirstAsync<Row>("SELECT * FROM topic_notes WHERE topic_id = ?", topicId);
+    return r ? { topic_id: String(r.topic_id), body_md: String(r.body_md ?? ""), updated_at: String(r.updated_at) } : null;
+  }
+  async listTopicNotes(): Promise<TopicNote[]> {
+    const rows = await this.conn.getAllAsync<Row>("SELECT * FROM topic_notes");
+    return rows.map((r) => ({ topic_id: String(r.topic_id), body_md: String(r.body_md ?? ""), updated_at: String(r.updated_at) }));
+  }
+  async putTopicNote(n: TopicNote, queue = true) {
+    await this.conn.runAsync(
+      "INSERT OR REPLACE INTO topic_notes (topic_id, body_md, updated_at) VALUES (?, ?, ?)",
+      n.topic_id, n.body_md, n.updated_at,
+    );
+    if (queue) await this.enqueue("topic_note", n);
+  }
+  async listHighlights(topicId?: string): Promise<Highlight[]> {
+    const rows = topicId
+      ? await this.conn.getAllAsync<Row>("SELECT * FROM highlights WHERE deleted = 0 AND topic_id = ? ORDER BY updated_at", topicId)
+      : await this.conn.getAllAsync<Row>("SELECT * FROM highlights WHERE deleted = 0 ORDER BY updated_at");
+    return rows.map((r) => ({
+      id: String(r.id), topic_id: String(r.topic_id), section: r.section as Highlight["section"],
+      block_hash: String(r.block_hash), excerpt: String(r.excerpt ?? ""), deleted: bool(r.deleted), updated_at: String(r.updated_at),
+    }));
+  }
+  async putHighlight(h: Highlight, queue = true) {
+    await this.conn.runAsync(
+      "INSERT OR REPLACE INTO highlights (id, topic_id, section, block_hash, excerpt, deleted, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)",
+      h.id, h.topic_id, h.section, h.block_hash, h.excerpt, h.deleted ? 1 : 0, h.updated_at,
+    );
+    if (queue) await this.enqueue("highlight", h);
   }
 
   async listQueue(limit = 500): Promise<QueueItem[]> {
@@ -296,7 +364,7 @@ export class SqliteDepo implements Depo {
 
   async clearAll() {
     await this.conn.execAsync(
-      "DELETE FROM meta; DELETE FROM courses; DELETE FROM units; DELETE FROM topics; DELETE FROM questions; DELETE FROM flashcards; DELETE FROM comparison_tables; DELETE FROM local_attempts; DELETE FROM local_card_reviews; DELETE FROM local_card_states; DELETE FROM sync_queue;",
+      "DELETE FROM meta; DELETE FROM courses; DELETE FROM units; DELETE FROM topics; DELETE FROM questions; DELETE FROM flashcards; DELETE FROM comparison_tables; DELETE FROM local_attempts; DELETE FROM local_card_reviews; DELETE FROM local_card_states; DELETE FROM sync_queue; DELETE FROM topic_notes; DELETE FROM highlights;",
     );
   }
 }

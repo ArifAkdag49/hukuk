@@ -152,10 +152,33 @@ export interface CardState {
   updated_at: string; // ISO
 }
 
+/** Konu başına kişisel not (son yazan kazanır). */
+export interface TopicNote {
+  topic_id: string;
+  body_md: string;
+  updated_at: string; // ISO
+}
+
+export type HighlightSection = "summary" | "content" | "critical" | "doctrine";
+
+/** Paragraf/blok düzeyinde vurgu. Silme = deleted:true (tombstone), son yazan kazanır. */
+export interface Highlight {
+  id: string; // uuid
+  topic_id: string;
+  section: HighlightSection;
+  block_hash: string;
+  excerpt: string;
+  deleted: boolean;
+  updated_at: string; // ISO
+}
+
 export interface ProgressPayload {
   attempts: Attempt[];
   card_reviews: CardReview[];
   card_states: CardState[];
+  /** Eski sunucularda yok; istemci her zaman gönderir. */
+  topic_notes?: TopicNote[];
+  highlights?: Highlight[];
 }
 
 // ---- Notlar ----

@@ -18,6 +18,7 @@ import { View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Disclaimer } from "../src/components/Disclaimer";
 import { LoadingState } from "../src/components/States";
+import { UpdateBanner } from "../src/components/UpdateBanner";
 import { AppProvider, useApp } from "../src/store/AppContext";
 import { colors } from "../src/theme";
 
@@ -70,6 +71,7 @@ function Gate() {
   return (
     <View style={{ flex: 1, backgroundColor: colors.bg }}>
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: "slide_from_right" }} />
+      <UpdateBanner />
       {!disclaimerSeen ? <Disclaimer /> : null}
     </View>
   );

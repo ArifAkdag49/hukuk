@@ -43,8 +43,9 @@ const sampleCase = (summary_md: string) => ({
 export const courses: Course[] = [
   { id: "HUK2011", code: "HUK2011", name: "Borçlar Hukuku Genel Hükümler", year: 2, sort_order: 1, is_active: true },
   { id: "HUK2013", code: "HUK2013", name: "Ceza Hukuku Genel Hükümler", year: 2, sort_order: 2, is_active: true },
-  // İçeriği henüz üretilmemiş ders ("İçerik hazırlanıyor" durumunu görmek için)
   { id: "HUK3011", code: "HUK3011", name: "Eşya Hukuku", year: 3, sort_order: 1, is_active: true },
+  // İçeriği henüz üretilmemiş ders ("İçerik hazırlanıyor" durumunu görmek için)
+  { id: "HUK3012", code: "HUK3012", name: "Borçlar Hukuku Özel Hükümler", year: 3, sort_order: 2, is_active: true },
 ];
 
 export const units: Unit[] = [
@@ -52,7 +53,10 @@ export const units: Unit[] = [
   { id: "HUK2011-u02", course_id: "HUK2011", title: "Sözleşmenin geçersizliği", sort_order: 2 },
   { id: "HUK2013-u01", course_id: "HUK2013", title: "Suçun unsurları", sort_order: 1 },
   { id: "HUK2013-u02", course_id: "HUK2013", title: "Suçun özel görünüş biçimleri", sort_order: 2 },
+  { id: "HUK3011-u01", course_id: "HUK3011", title: "Zilyetlik", sort_order: 1 },
 ];
+
+const TMK_URL = "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5";
 
 const GEN = "2026-10-15T21:00:00.000Z";
 
@@ -601,6 +605,60 @@ Suç işlemeye özendirmek, suç işleme kararını kuvvetlendirmek, suçun işl
     ],
     cases: [],
   },
+
+  // ------------------------------------------------------------------ EŞYA HUKUKU
+  {
+    id: "HUK3011-zilyetlik",
+    unit_id: "HUK3011-u01",
+    course_id: "HUK3011",
+    title: "Zilyetlik ve türleri",
+    sort_order: 1,
+    verification_status: "verified",
+    generated_at: GEN,
+    summary_md: `Bir şey üzerinde **fiilî hâkimiyeti** bulunan kimse, o şeyin zilyedidir (TMK m. 973). Zilyetlik bir hak değil, hukukun koruduğu **fiilî bir durumdur**.
+
+- **Aslî ve fer'î zilyetlik:** Malik sıfatıyla zilyet olan aslî, sınırlı aynî ya da kişisel hakka dayanarak zilyet olan fer'î zilyettir.
+- **Dolaysız ve dolaylı zilyetlik:** Şeyi elinde bulunduran dolaysız, onu başkasına bırakmış olan dolaylı zilyettir.
+- Zilyetlik, **zilyetlik davaları** ve **kendiliğinden korunma** hakkıyla korunur.`,
+    content_md: `## Kavram
+
+Zilyetlik, kişinin bir şey üzerindeki **fiilî hâkimiyetidir**. Hâkimiyetin hukuka uygun olup olmadığı zilyetliğin varlığını etkilemez; hırsız da çaldığı şeyin zilyedidir. Hukuk, toplum barışını korumak için bu fiilî durumu da korur.
+
+## Unsurlar
+
+1. **Maddi unsur:** Şey üzerinde fiilî hâkimiyet. Hâkimiyetin belli bir süre devam etmesi gerekir; geçici kullanım zilyetlik kurmaz.
+2. **Manevi unsur:** Baskın görüşe göre zilyet olma iradesi aranır, ancak bu irade genel bir hâkimiyet iradesidir; ayrıca hukuki işlem ehliyeti gerekmez.
+
+## Türleri
+
+- **Aslî zilyetlik:** Şeyi malik sıfatıyla elinde bulunduran (malik, hırsız).
+- **Fer'î zilyetlik:** Şeyi sınırlı aynî hak ya da kişisel hak sahibi olarak elinde bulunduran (kiracı, rehin alan).
+- **Dolaysız zilyetlik:** Şeyi doğrudan elinde bulunduran.
+- **Dolaylı zilyetlik:** Şeyi başkasına bırakarak hâkimiyetini dolaylı sürdüren (kiraya veren).
+
+> **Zilyet yardımcısı** zilyet değildir: Başkasının talimatıyla ve onun adına fiilî hâkimiyeti kullanan işçi veya hizmetli, şeyin zilyedi sayılmaz.`,
+    critical_md: `- Zilyetlik **hak değil**, korunan bir fiilî durumdur.
+- Hırsız da **aslî zilyettir** (malik sıfatıyla elinde bulundurur), ama **iyiniyetli değildir**.
+- Kiracı **fer'î ve dolaysız**, kiraya veren **aslî ve dolaylı** zilyettir.
+- **Zilyet yardımcısı** zilyet değildir; sınavda sık karıştırılır.`,
+    doctrine_md: `Zilyetliğin manevi unsuru konusunda baskın görüş, genel bir **hâkimiyet iradesini** yeterli görür. Bir görüşe göre ise zilyetliğin kazanılması için ayrıca bir irade aranmaz; fiilî hâkimiyetin dışarıdan tanınabilir olması yeterlidir.`,
+    glossary: [
+      { term: "Zilyetlik", definition: "Bir şey üzerindeki fiilî hâkimiyet." },
+      { term: "Dolaylı zilyet", definition: "Şeyi başkasına bırakıp hâkimiyetini onun aracılığıyla sürdüren kişi (ör. kiraya veren)." },
+      { term: "Zilyet yardımcısı", definition: "Başkası adına ve onun talimatıyla fiilî hâkimiyeti kullanan, zilyet sayılmayan kişi." },
+    ],
+    articles: [
+      {
+        law_name: "Türk Medeni Kanunu",
+        law_no: "4721",
+        article_no: "973",
+        official_text: "Bir şey üzerinde fiilî hâkimiyeti bulunan kimse, o şeyin zilyedidir.",
+        source_url: TMK_URL,
+        verified: true,
+      },
+    ],
+    cases: [],
+  },
 ];
 
 // ------------------------------------------------------------------ SORULAR
@@ -638,8 +696,15 @@ const MS = "HUK2013-mesru-savunma";
 const HT = "HUK2013-hata";
 const T = "HUK2013-tesebbus";
 const IS = "HUK2013-istirak";
+const Z = "HUK3011-zilyetlik";
 
 export const questions: Question[] = [
+  mcq(Z, 1, "Bir evi kiralayıp içinde oturan kiracı nasıl bir zilyettir?",
+    ["Aslî ve dolaysız", "Fer'î ve dolaysız", "Aslî ve dolaylı", "Fer'î ve dolaylı", "Zilyet yardımcısı"],
+    1, "Kiracı şeyi kişisel hakka dayanarak elinde bulundurur: **fer'î**; şey doğrudan elindedir: **dolaysız** zilyet."),
+  mcq(Z, 2, "Aşağıdakilerden hangisi zilyet sayılmaz?",
+    ["Kiraya veren", "Hırsız", "Rehin alan", "Mağaza çalışanı (işverenin malları üzerinde)", "Ödünç alan"],
+    3, "İşverenin talimatıyla ve onun adına fiilî hâkimiyeti kullanan çalışan **zilyet yardımcısıdır**, zilyet değildir."),
   mcq(K, 1, "Bir mağazanın vitrininde fiyat etiketiyle sergilenen bir mont için aşağıdakilerden hangisi doğrudur?",
     ["Öneriye davettir, satıcıyı bağlamaz.", "Kural olarak öneridir.", "Kabul niteliğindedir.", "Hiçbir hukuki anlam taşımaz.", "Yalnızca tacirler arasında öneridir."],
     1, "Ticari bir malın fiyatı gösterilerek sergilenmesi **kural olarak öneri** sayılır (TBK m. 8/2). Fiyat listesi göndermek ise öneri değildir."),
@@ -791,6 +856,8 @@ const card = (topic_id: string, front_md: string, back_md: string): Flashcard =>
 });
 
 export const flashcards: Flashcard[] = [
+  card(Z, "Zilyetlik nedir?", "Bir şey üzerindeki **fiilî hâkimiyet** (TMK m. 973). Hak değil, korunan bir fiilî durumdur."),
+  card(Z, "Kiraya veren nasıl bir zilyettir?", "**Aslî ve dolaylı** zilyet."),
   card(K, "Sözleşme nasıl kurulur?", "Tarafların iradelerini **karşılıklı ve birbirine uygun** olarak açıklamalarıyla (TBK m. 1)."),
   card(K, "Fiyatıyla sergilenen mal öneri midir?", "**Evet**, kural olarak öneridir (TBK m. 8/2). Fiyat listesi gönderimi ise öneri değildir."),
   card(K, "Telefonla yapılan süresiz öneri ne zaman kabul edilmelidir?", "**Hemen.** Telefonla doğrudan yapılan öneri hazırlar arasında sayılır (TBK m. 4)."),
