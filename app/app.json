@@ -14,7 +14,11 @@
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#F7F8FC"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +41,8 @@
       [
         "expo-splash-screen",
         {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
           "backgroundColor": "#F7F8FC",
           "resizeMode": "contain"
         }
@@ -54,6 +60,7 @@
     "owner": "arifakdag25",
     "runtimeVersion": {
       "policy": "appVersion"
-    }
+    },
+    "icon": "./assets/images/icon.png"
   }
 }
