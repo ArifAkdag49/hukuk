@@ -130,3 +130,51 @@ def test_search_kb_finds_turkish_stems(client, kb):
 
     hits = search.search_kb("aldatmalar")
     assert hits and hits[0]["id"] == "HUK2011-irade"
+
+
+def test_cited_text_blocks_are_joined_without_paragraph_breaks(auth_client, kb, tools):
+    # web araması atıflı cevabı birçok text bloğuna böler
+    fake = FakeClient(create_outputs=[
+        message([text_block("Resmî Gazete'de yayımlanan "), text_block("7499 sayılı Kanun ile"), text_block(" değiştirilmiştir.")]),
+        message([text_block("Başlık")]),
+    ])
+    install(fake)
+    tid = thread(auth_client)
+    msg = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Ne zaman değişti?", "deep": False}).json()["message"]
+    assert msg["content_md"] == "Resmî Gazete'de yayımlanan 7499 sayılı Kanun ile değiştirilmiştir."
+
+
+def test_long_tool_results_are_truncated(auth_client, kb, monkeypatch):
+    async def big(name, args):
+        return "x" * 60_000, False
+
+    monkeypatch.setattr(hub, "call", big)
+    fake = FakeClient(create_outputs=[
+        message([tool_use("t1", "karar_getir", {"karar_id": "1"})], "tool_use"),
+        message([text_block("Cevap")]),
+        message([text_block("Başlık")]),
+    ])
+    install(fake)
+    tid = thread(auth_client)
+    auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Karar?", "deep": False})
+    sent = fake.calls[1][1]["messages"][-1]["content"][0]["content"]
+    assert len(sent) < 21_000 and "kısaltıldı" in sent
+
+
+def test_turn_cap_ends_with_a_tool_free_answer(auth_client, kb, tools, monkeypatch):
+    from app.services import assistant_service
+
+    monkeypatch.setattr(assistant_service, "MAX_TURNS", 2)
+    fake = FakeClient(create_outputs=[
+        message([text_block("Bakıyorum."), tool_use("t1", "madde_getir", {"kanun": "TBK", "madde_no": "36"})], "tool_use"),
+        message([text_block("Şimdi de buna bakıyorum."), tool_use("t2", "madde_getir", {"kanun": "TBK", "madde_no": "37"})], "tool_use"),
+        message([text_block("Son cevap.")]),
+        message([text_block("Başlık")]),
+    ])
+    install(fake)
+    tid = thread(auth_client)
+    msg = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Hile?", "deep": False}).json()["message"]
+    assert msg["content_md"] == "Son cevap."
+    final = fake.calls[2][1]
+    assert final["tool_choice"] == {"type": "none"}
+    assert final["messages"][-1]["role"] == "user"  # son araç sonuçları eklendi

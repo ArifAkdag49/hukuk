@@ -15,6 +15,7 @@ from ..mcp_hub import ASSISTANT_TOOLS, hub
 MAX_TURNS = 8
 HISTORY_LIMIT = 20
 SUGGEST_NEW_AFTER = 20
+TOOL_RESULT_LIMIT = 20_000  # karar tam metni 5-30 bin token olabiliyor; her turda yeniden gönderiliyor
 
 SYSTEM = """Sen bir hukuk fakültesi öğrencisine ders çalışmada yardım eden asistansın (Marmara Üniversitesi, 2. ve 3. sınıf dersleri). Türkçe, sade ve öğretici cevap ver; gerekirse kısa örnekle somutlaştır.
 
@@ -85,6 +86,12 @@ def _collect_web_sources(content, sources: list[dict]) -> None:
                 sources.append({"type": "web", "label": getattr(r, "title", None) or url, "ref": url})
 
 
+def _truncate(text: str) -> str:
+    if len(text) <= TOOL_RESULT_LIMIT:
+        return text
+    return text[:TOOL_RESULT_LIMIT] + "\n\n[… metin kısaltıldı; tamamı için kaynak bağlantısına bakın]"
+
+
 def _dedupe(sources: list[dict]) -> list[dict]:
     seen, out = set(), []
     for s in sources:
@@ -145,12 +152,28 @@ async def answer(thread: dict, content: str, deep: bool) -> dict:
         calls = [b for b in resp.content if _block_type(b) == "tool_use"]
         outputs = await asyncio.gather(*(_run_tool(c.name, dict(c.input), sources) for c in calls))
         results = [
-            {"type": "tool_result", "tool_use_id": c.id, "content": text, **({"is_error": True} if err else {})}
+            {"type": "tool_result", "tool_use_id": c.id, "content": _truncate(text), **({"is_error": True} if err else {})}
             for c, (text, err) in zip(calls, outputs)
         ]
         messages = messages + [{"role": "assistant", "content": resp.content}, {"role": "user", "content": results}]
+    else:
+        # tur sınırı doldu ve model hâlâ araç istiyor: araçsız son bir cevap al;
+        # yoksa "şimdi buna bakıyorum" gibi bir ara cümle cevap diye kaydedilir
+        if resp is not None and resp.stop_reason == "tool_use":
+            resp = await llm.create(
+                "asistan-derin" if deep else "asistan",
+                model=model,
+                max_tokens=16000,
+                system=system,
+                tools=TOOLS,
+                tool_choice={"type": "none"},
+                output_config={"effort": "high" if deep else "medium"},
+                messages=messages,
+            )
+            _collect_web_sources(resp.content, sources)
 
-    text = "\n\n".join(b.text for b in (resp.content if resp else []) if _block_type(b) == "text").strip()
+    # atıflı cevaplar birçok text bloğuna bölünür; bloklar aynı cümlenin parçalarıdır
+    text = "".join(b.text for b in (resp.content if resp else []) if _block_type(b) == "text").strip()
     if not text:
         text = "Bu soruya şu an bir cevap üretemedim. Soruyu biraz daha açarak tekrar dener misin?"
     msg = {
