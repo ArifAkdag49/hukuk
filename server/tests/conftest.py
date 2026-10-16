@@ -22,10 +22,13 @@ os.environ["MCP_ENABLED"] = "false"
 os.environ["AI_MONTHLY_CAP_USD"] = "50"
 os.environ["UPLOAD_DIR"] = str(ROOT / ".superpowers" / "test-uploads")
 
-SCHEMA = (ROOT / "db" / "001_schema.sql").read_text(encoding="utf-8")
+# 000_test_db.sql yalnız Docker ilk kurulumunda; şema dosyaları sırayla uygulanır
+SCHEMA = "\n".join(
+    p.read_text(encoding="utf-8") for p in sorted((ROOT / "db").glob("0*.sql")) if not p.name.startswith("000")
+)
 
 TABLES = [
-    "api_usage", "chat_messages", "chat_threads", "card_states", "card_reviews",
+    "highlights", "topic_notes", "api_usage", "chat_messages", "chat_threads", "card_states", "card_reviews",
     "attempts", "comparison_tables", "flashcards", "questions", "note_topics",
     "notes", "topic_cases", "topic_articles", "topics", "units", "courses",
 ]

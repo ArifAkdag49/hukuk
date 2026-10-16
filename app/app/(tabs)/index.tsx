@@ -34,7 +34,12 @@ export default function AnaSayfa() {
     return attempts.filter((a) => new Date(a.created_at).toDateString() === d).length;
   }, [attempts]);
 
-  const right = <HeaderButton icon="cog-outline" label="Ayarlar" onPress={() => router.push("/ayarlar")} />;
+  const right = (
+    <View style={{ flexDirection: "row", gap: space.xs }}>
+      <HeaderButton icon="magnify" label="Ara" onPress={() => router.push("/ara")} />
+      <HeaderButton icon="cog-outline" label="Ayarlar" onPress={() => router.push("/ayarlar")} />
+    </View>
+  );
 
   if (!kb) {
     return (

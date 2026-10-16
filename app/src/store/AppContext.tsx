@@ -1,15 +1,34 @@
 import * as Crypto from "expo-crypto";
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { router } from "expo-router";
 import { AppState } from "react-native";
 import { ApiError, api, errorText, setUnauthorizedHandler } from "../api";
 import { buildMastery, type KbLookup } from "../analysis";
 import { clearToken, getToken, setToken } from "../auth/token";
 import { createDepo } from "../db/depo";
-import type { Depo, KbIndexData } from "../db/types";
+import type { Depo, KbIndexData, TopicText } from "../db/types";
+import { blockExcerpt, blockHash } from "../highlights";
+import * as Reminders from "../notifications";
+import { planReminders } from "../reminders";
+import { checkAndFetchUpdate } from "../updates";
 import { courseMastery, type Mastery } from "../mastery";
 import { isDue, review } from "../sm2";
 import { createSync, META_LAST_SYNC } from "../sync";
-import type { Attempt, CardReview, CardState, Course, Flashcard, Grade, Question, Topic, TopicLite, Unit } from "../types";
+import type {
+  Attempt,
+  CardReview,
+  CardState,
+  Course,
+  Flashcard,
+  Grade,
+  Highlight,
+  HighlightSection,
+  Question,
+  Topic,
+  TopicLite,
+  TopicNote,
+  Unit,
+} from "../types";
 
 /**
  * Uygulama durumu: yerel depo, bellekteki KB dizini, ilerleme, ustalık ve senkronizasyon.
@@ -17,6 +36,15 @@ import type { Attempt, CardReview, CardState, Course, Flashcard, Grade, Question
  */
 
 export type SyncState = "idle" | "syncing" | "offline" | "error";
+
+export interface ReminderSettings {
+  enabled: boolean;
+  hour: number;
+  minute: number;
+  permission: Reminders.PermissionState;
+}
+
+const DEFAULT_REMINDER: ReminderSettings = { enabled: true, hour: 20, minute: 0, permission: "undetermined" };
 
 export interface Kb extends KbLookup {
   version: string;
@@ -95,6 +123,28 @@ interface AppValue {
   setDraft(key: string, value: string | null): Promise<void>;
   setCourseActive(id: string, active: boolean): Promise<void>;
   addCourse(input: { code: string; name: string; year: number }): Promise<void>;
+
+  getMeta(key: string): Promise<string | null>;
+  setMeta(key: string, value: string | null): Promise<void>;
+
+  /** Kişisel not ve vurgular */
+  getTopicNote(topicId: string): Promise<TopicNote | null>;
+  saveTopicNote(topicId: string, body: string): Promise<void>;
+  listTopicNotes(): Promise<TopicNote[]>;
+  listHighlights(topicId?: string): Promise<Highlight[]>;
+  /** Blok vurguluysa kaldırır, değilse vurgular. Güncel listeyi döner. */
+  toggleHighlight(topicId: string, section: HighlightSection, blockText: string): Promise<Highlight[]>;
+  removeHighlight(h: Highlight): Promise<void>;
+  /** Arama için konu metinleri (KB sürümü değişince yenilenir). */
+  topicTexts(): Promise<TopicText[]>;
+
+  /** Günlük hatırlatma */
+  reminder: ReminderSettings;
+  setReminder(patch: Partial<Pick<ReminderSettings, "enabled" | "hour" | "minute">>): Promise<void>;
+  rescheduleReminders(): Promise<void>;
+
+  /** Uzaktan güncelleme indirildi, yeniden başlatınca uygulanır */
+  updateReady: boolean;
 }
 
 const Ctx = createContext<AppValue | null>(null);
@@ -121,6 +171,16 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [lastTopicId, setLastTopicId] = useState<string | null>(null);
   const [tick, setTick] = useState(() => Date.now());
   const syncing = useRef(false);
+  const [reminder, setReminderState] = useState<ReminderSettings>(DEFAULT_REMINDER);
+  const [updateReady, setUpdateReady] = useState(false);
+  const textsCache = useRef<{ version: string; texts: TopicText[] } | null>(null);
+  // Hatırlatma planı için en güncel değerler (eski kapanışlara takılmamak için)
+  const latest = useRef<{ kbData: KbIndexData | null; cardStates: Map<string, CardState>; reminder: ReminderSettings }>({
+    kbData: null,
+    cardStates: new Map(),
+    reminder: DEFAULT_REMINDER,
+  });
+  latest.current = { kbData, cardStates, reminder: latest.current.reminder };
 
   const depo = () => {
     if (!depoRef.current) throw new Error("Depo hazır değil");
@@ -145,6 +205,35 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setPending(q);
     setLastSyncAt(last);
     setLastTopicId(lt);
+  }, []);
+
+  /** Kuyrukta bekleyenleri arka planda göndermeyi dener. */
+  const pushSoon = useCallback(() => {
+    const d = depoRef.current;
+    if (!d) return;
+    void createSync(d, api)
+      .pushProgress()
+      .catch(() => undefined)
+      .then(async () => setPending(await d.queueCount()));
+  }, []);
+
+  const rescheduleReminders = useCallback(async () => {
+    const { kbData: k, cardStates: cs, reminder: r } = latest.current;
+    try {
+      if (!r.enabled || !k) {
+        await Reminders.cancelReminders();
+        return;
+      }
+      const active = k.courses.filter((c) => c.is_active).map((c) => c.id);
+      const plan = planReminders({ cards: k.flashcards, cardStates: cs, activeCourseIds: active, now: new Date(), hour: r.hour, minute: r.minute });
+      await Reminders.scheduleReminders(plan);
+    } catch {
+      // bildirim kurulamazsa uygulama çalışmaya devam eder
+    }
+  }, []);
+
+  const checkUpdate = useCallback(async () => {
+    if (await checkAndFetchUpdate()) setUpdateReady(true);
   }, []);
 
   const syncNow = useCallback(async () => {
@@ -178,17 +267,52 @@ export function AppProvider({ children }: { children: ReactNode }) {
       depoRef.current = d;
       const token = await getToken();
       const seen = await d.getMeta("disclaimer_seen");
+      const rem = await d.getMeta("reminder");
       await reloadAll();
       if (!alive) return;
+      let r: ReminderSettings = DEFAULT_REMINDER;
+      try {
+        if (rem) r = { ...DEFAULT_REMINDER, ...JSON.parse(rem) };
+      } catch {
+        // bozuk ayar: varsayılan
+      }
+      r = { ...r, permission: await Reminders.getPermission() };
+      latest.current.reminder = r;
+      setReminderState(r);
       setDisclaimerSeen(seen === "1");
       setAuthed(!!token);
       setReady(true);
       if (token) void syncNow();
+      void checkUpdate();
     })();
     return () => {
       alive = false;
     };
-  }, [reloadAll, syncNow]);
+  }, [reloadAll, syncNow, checkUpdate]);
+
+  // Hatırlatma: varsayılan açık. Giriş yapılmış ve KB inmişken izin bir kez istenir, sonra plan kurulur.
+  // KB veya kart durumları değişince (oturum bitince dahil) plan yeniden kurulur.
+  useEffect(() => {
+    if (!ready || !authed || !kbData) return;
+    const t = setTimeout(() => {
+      void (async () => {
+        const d = depoRef.current;
+        if (!d) return;
+        let r = latest.current.reminder;
+        if (r.enabled && r.permission === "undetermined" && !(await d.getMeta("reminder_asked"))) {
+          await d.setMeta("reminder_asked", "1");
+          r = { ...r, permission: await Reminders.requestPermission() };
+          latest.current.reminder = r;
+          setReminderState(r);
+        }
+        await rescheduleReminders();
+      })();
+    }, 1500);
+    return () => clearTimeout(t);
+  }, [ready, authed, kbData, cardStates, rescheduleReminders]);
+
+  // Bildirime dokununca kartlar ekranı
+  useEffect(() => Reminders.onReminderOpened((url) => router.push(url as "/kartlar")), []);
 
   // 401 → giriş ekranı
   useEffect(() => {
@@ -205,10 +329,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
       if (s === "active") {
         setTick(Date.now());
         if (authed) void syncNow();
+        void rescheduleReminders();
+        void checkUpdate();
       }
     });
     return () => sub.remove();
-  }, [authed, syncNow]);
+  }, [authed, syncNow, rescheduleReminders, checkUpdate]);
 
   const kb = useMemo(() => (kbData ? buildKb(kbData) : null), [kbData]);
 
@@ -308,6 +434,63 @@ export function AppProvider({ children }: { children: ReactNode }) {
       await depo().upsertCourse(c);
       await reloadAll();
     },
+
+    getMeta: (key) => depo().getMeta(key),
+    setMeta: (key, v) => depo().setMeta(key, v),
+
+    getTopicNote: (topicId) => depo().getTopicNote(topicId),
+    async saveTopicNote(topicId, body) {
+      await depo().putTopicNote({ topic_id: topicId, body_md: body, updated_at: new Date().toISOString() });
+      setPending(await depo().queueCount());
+      pushSoon();
+    },
+    listTopicNotes: () => depo().listTopicNotes(),
+    listHighlights: (topicId) => depo().listHighlights(topicId),
+    async toggleHighlight(topicId, section, blockText) {
+      const hash = blockHash(blockText);
+      const existing = (await depo().listHighlights(topicId)).find((h) => h.section === section && h.block_hash === hash);
+      const now = new Date().toISOString();
+      if (existing) await depo().putHighlight({ ...existing, deleted: true, updated_at: now });
+      else
+        await depo().putHighlight({
+          id: Crypto.randomUUID(),
+          topic_id: topicId,
+          section,
+          block_hash: hash,
+          excerpt: blockExcerpt(blockText),
+          deleted: false,
+          updated_at: now,
+        });
+      setPending(await depo().queueCount());
+      pushSoon();
+      return depo().listHighlights(topicId);
+    },
+    async removeHighlight(h) {
+      await depo().putHighlight({ ...h, deleted: true, updated_at: new Date().toISOString() });
+      setPending(await depo().queueCount());
+      pushSoon();
+    },
+    async topicTexts() {
+      const v = kbData?.version ?? "";
+      if (textsCache.current && textsCache.current.version === v) return textsCache.current.texts;
+      const texts = await depo().listTopicTexts();
+      textsCache.current = { version: v, texts };
+      return texts;
+    },
+
+    reminder,
+    async setReminder(patch) {
+      let next: ReminderSettings = { ...latest.current.reminder, ...patch };
+      if (patch.enabled && next.permission !== "granted" && next.permission !== "unsupported") {
+        next = { ...next, permission: await Reminders.requestPermission() };
+      }
+      latest.current.reminder = next;
+      setReminderState(next);
+      await depo().setMeta("reminder", JSON.stringify({ enabled: next.enabled, hour: next.hour, minute: next.minute }));
+      await rescheduleReminders();
+    },
+    rescheduleReminders,
+    updateReady,
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

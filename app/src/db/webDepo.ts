@@ -5,7 +5,7 @@ import { MemoryDepo, emptyState, type MemoryState } from "./memoryDepo";
  * Android'de SqliteDepo kullanılır. localStorage dolarsa (büyük KB) veri yalnızca bellekte kalır.
  */
 const PREFIX = "hukuk_depo_";
-const PARTS: (keyof MemoryState)[] = ["meta", "kb", "attempts", "reviews", "states", "queue"];
+const PARTS: (keyof MemoryState)[] = ["meta", "kb", "attempts", "reviews", "states", "queue", "notes", "highlights"];
 
 function load(): MemoryState {
   const s = emptyState();

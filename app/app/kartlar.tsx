@@ -29,13 +29,14 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function Kartlar() {
   const params = useLocalSearchParams<{ course?: string }>();
-  const { kb, dueCards, cardStates, reviewCard } = useApp();
+  const { kb, dueCards, cardStates, reviewCard, rescheduleReminders } = useApp();
   const [filter, setFilter] = useState<string | null>(params.course ?? null);
   const [queue, setQueue] = useState<Flashcard[] | null>(null);
   const [pos, setPos] = useState(0);
   const [shown, setShown] = useState(false);
   const [counts, setCounts] = useState<Record<Grade, number>>({ again: 0, hard: 0, good: 0, easy: 0 });
   const requeued = useRef(new Set<string>());
+  const rescheduled = useRef(false);
   const flip = useRef(new Animated.Value(0)).current;
 
   const allDue = dueCards();
@@ -113,6 +114,11 @@ export default function Kartlar() {
 
   // ---------------------------------------------------- Bitti
   if (pos >= queue.length) {
+    if (!rescheduled.current) {
+      rescheduled.current = true;
+      // oturum bitti: yarınki hatırlatma sayısı değişti
+      setTimeout(() => void rescheduleReminders(), 0);
+    }
     const total = counts.again + counts.hard + counts.good + counts.easy;
     return (
       <Screen back title="Tebrikler">

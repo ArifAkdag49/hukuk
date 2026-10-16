@@ -1,6 +1,7 @@
 import type { ApiClient } from "../api";
 import { ApiError, userMessage } from "../apiError";
 import type { CaseGrade, ChatMessage, Course, NoteDetail, ProgressPayload, Source, Thread } from "../types";
+import { blockExcerpt, blockHash, splitBlocks } from "../highlights";
 import { fixtureKb } from "./fixture";
 
 /**
@@ -14,7 +15,44 @@ let idc = 0;
 const fid = (p: string) => `${p}-${Date.now().toString(36)}-${(++idc).toString(36)}`;
 
 const kb = JSON.parse(JSON.stringify(fixtureKb)) as typeof fixtureKb;
-const serverProgress: ProgressPayload = { attempts: [], card_reviews: [], card_states: [] };
+// İlk kurulumda /progress/all ile geri yüklenen örnek kişisel not ve vurgular
+const irade = kb.topics.find((t) => t.id === "HUK2011-irade-bozukluklari");
+const iradeBlocks = splitBlocks(irade?.summary_md ?? "");
+const serverProgress: ProgressPayload = {
+  attempts: [],
+  card_reviews: [],
+  card_states: [],
+  topic_notes: [
+    {
+      topic_id: "HUK2011-irade-bozukluklari",
+      body_md: "Hoca derste aldatma ile korkutmayı üçüncü kişi açısından karşılaştırdı, finalde çıkabilir.\nSüre: 1 yıl, hak düşürücü!",
+      updated_at: "2026-10-14T19:00:00.000Z",
+    },
+  ],
+  highlights: [
+    ...(iradeBlocks[1]
+      ? [{
+          id: "hl-demo-1",
+          topic_id: "HUK2011-irade-bozukluklari",
+          section: "summary" as const,
+          block_hash: blockHash(iradeBlocks[1]),
+          excerpt: blockExcerpt(iradeBlocks[1]),
+          deleted: false,
+          updated_at: "2026-10-14T19:05:00.000Z",
+        }]
+      : []),
+    {
+      // içeriği sonradan değişmiş bir paragrafın vurgusu ("metin değişti")
+      id: "hl-demo-2",
+      topic_id: "HUK2011-irade-bozukluklari",
+      section: "content",
+      block_hash: "000000000000",
+      excerpt: "Saik yanılması kural olarak esaslı değildir; temel yanılması bunun en önemli istisnasıdır.",
+      deleted: false,
+      updated_at: "2026-10-13T10:00:00.000Z",
+    },
+  ],
+};
 
 const notes: NoteDetail[] = [
   {
@@ -215,11 +253,26 @@ export const fakeApi: ApiClient = {
       if (i >= 0) serverProgress.card_states[i] = s;
       else serverProgress.card_states.push(s);
     }
+    const notes = (serverProgress.topic_notes ??= []);
+    for (const n of p.topic_notes ?? []) {
+      const i = notes.findIndex((x) => x.topic_id === n.topic_id);
+      if (i < 0) notes.push(n);
+      else if (notes[i].updated_at < n.updated_at) notes[i] = n;
+    }
+    const hls = (serverProgress.highlights ??= []);
+    for (const h of p.highlights ?? []) {
+      const i = hls.findIndex((x) => x.id === h.id);
+      if (i < 0) hls.push(h);
+      else if (hls[i].updated_at < h.updated_at) hls[i] = h;
+    }
     return { ok: true, server_time: now() };
   },
   async getAllProgress() {
     await wait(200);
-    return JSON.parse(JSON.stringify(serverProgress));
+    // gerçek sunucu gibi: silinmiş vurgular dönmez
+    const copy = JSON.parse(JSON.stringify(serverProgress)) as ProgressPayload;
+    copy.highlights = (copy.highlights ?? []).filter((h) => !h.deleted);
+    return copy;
   },
   async uploadNote(file, courseId, title) {
     await wait(900);

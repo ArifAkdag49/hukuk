@@ -46,6 +46,13 @@
           "backgroundColor": "#F7F8FC",
           "resizeMode": "contain"
         }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#3355FF",
+          "defaultChannel": "tekrar-hatirlatma"
+        }
       ]
     ],
     "experiments": {
@@ -61,6 +68,10 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "icon": "./assets/images/icon.png"
+    "icon": "./assets/images/icon.png",
+    "updates": {
+      "url": "https://u.expo.dev/2e7dbfda-7138-406c-8ff5-2dc0e46ad488",
+      "fallbackToCacheTimeout": 0
+    }
   }
 }
