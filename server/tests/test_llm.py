@@ -183,3 +183,37 @@ def test_article_paragraph_wrapped_in_heading_tag_is_kept():
     assert "Fiyatını göstererek mal sergilenmesi" in text
     assert "İlan yoluyla ödül" not in text
     assert text.count("\n") == 1
+
+
+async def test_parse_records_cost_even_when_truncated(client, sql):
+    from pydantic import BaseModel
+
+    from fakes import FakeStreamClient, message, text_block
+
+    class Out(BaseModel):
+        a: int
+
+    llm.set_client(FakeStreamClient([message([text_block('{"a": ')], stop_reason="max_tokens")]))
+    try:
+        with pytest.raises(RuntimeError):
+            await llm.parse("notlar", Out, model=llm.SONNET, max_tokens=100, messages=[])
+    finally:
+        llm.set_client(None)
+    assert sql.execute("select feature from api_usage").fetchone()[0] == "notlar"
+
+
+async def test_pipeline_generation_is_not_blocked_by_app_cap(client, sql):
+    from pydantic import BaseModel
+
+    from fakes import FakeStreamClient, message, text_block
+
+    class Out(BaseModel):
+        a: int
+
+    sql.execute("insert into api_usage (feature, model, cost_usd) values ('asistan','m', 999)")
+    llm.set_client(FakeStreamClient([message([text_block('{"a": 1}')])]))
+    try:
+        out = await llm.generate_json("pipeline:HUK2011:icerik", Out, model=llm.OPUS, max_tokens=100, messages=[])
+    finally:
+        llm.set_client(None)
+    assert out.a == 1

@@ -107,14 +107,9 @@ async def create(feature: str, **kwargs: Any) -> Any:
 
 
 async def parse(feature: str, output_format: type, **kwargs: Any) -> Any:
-    """Yapılandırılmış çıktı: pydantic modeli döner."""
-    await ensure_budget()
-    resp = await client().messages.parse(output_format=output_format, **kwargs)
-    await db.run(record, feature, kwargs["model"], resp.usage)
-    _check_refusal(resp)
-    if resp.parsed_output is None:
-        raise RuntimeError(f"Model geçerli çıktı üretmedi (stop_reason={resp.stop_reason})")
-    return resp.parsed_output
+    """Yapılandırılmış çıktı: pydantic modeli döner. Akışlı yoldan geçer; kesilen
+    ya da geçersiz çıktıda bile maliyet önce kaydedilir."""
+    return await generate_json(feature, output_format, **kwargs)
 
 
 async def generate_json(feature: str, output_format: type, **kwargs: Any) -> Any:
@@ -126,7 +121,8 @@ async def generate_json(feature: str, output_format: type, **kwargs: Any) -> Any
     from anthropic.lib._parse._transform import transform_schema
     from pydantic import TypeAdapter
 
-    await ensure_budget()
+    if not feature.startswith("pipeline:"):  # tek seferlik içerik hattı tavana tabi değil
+        await ensure_budget()
     schema = transform_schema(TypeAdapter(output_format).json_schema())
     output_config = {**kwargs.pop("output_config", {}), "format": {"type": "json_schema", "schema": schema}}
     async with client().messages.stream(output_config=output_config, **kwargs) as stream:

@@ -28,10 +28,11 @@ class FakeClient:
         self.calls = []
         self.messages = self
 
-    async def parse(self, **kw):
+    def stream(self, **kw):
+        """llm.parse/generate_json akışlı yoldan geçer: sıradaki pydantic çıktıyı JSON metni olarak verir."""
         self.calls.append(("parse", kw))
         out = self.parse_outputs.pop(0)
-        return SimpleNamespace(parsed_output=out, usage=usage(), stop_reason="end_turn")
+        return FakeStream(message([text_block(out.model_dump_json())]))
 
     async def create(self, **kw):
         self.calls.append(("create", kw))

@@ -86,7 +86,7 @@ async def transcribe(path: str, mime: str) -> str:
         "notlar",
         Transcript,
         model=llm.SONNET,
-        max_tokens=16000,
+        max_tokens=48000,  # 50 sayfalık el yazısı not ~30 bin token
         output_config={"effort": "low"},
         messages=[{"role": "user", "content": [
             _file_block(path, mime),
