@@ -52,3 +52,30 @@ def test_progress_all_returns_everything(auth_client):
 def test_invalid_grade_is_rejected(auth_client):
     bad = dict(REV, grade="super")
     assert auth_client.post("/progress/sync", json={"card_reviews": [bad]}).status_code == 422
+
+
+NOTE = {"topic_id": "HUK2011-kurulus", "body_md": "Öneriye davet ≠ öneri", "updated_at": "2026-10-16T10:00:00Z"}
+HL = {
+    "id": str(uuid.uuid4()), "topic_id": "HUK2011-kurulus", "section": "content", "block_hash": "a1b2",
+    "excerpt": "TBK m. 8'e göre...", "deleted": False, "updated_at": "2026-10-16T10:00:00Z",
+}
+
+
+def test_topic_notes_and_highlights_sync_and_restore(auth_client):
+    r = auth_client.post("/progress/sync", json={"topic_notes": [NOTE], "highlights": [HL]})
+    assert r.status_code == 200
+    body = auth_client.get("/progress/all").json()
+    assert body["topic_notes"][0]["body_md"] == "Öneriye davet ≠ öneri"
+    assert body["highlights"][0]["block_hash"] == "a1b2"
+
+
+def test_older_note_does_not_overwrite_newer(auth_client):
+    auth_client.post("/progress/sync", json={"topic_notes": [dict(NOTE, body_md="yeni", updated_at="2026-10-16T12:00:00Z")]})
+    auth_client.post("/progress/sync", json={"topic_notes": [dict(NOTE, body_md="eski", updated_at="2026-10-16T09:00:00Z")]})
+    assert auth_client.get("/progress/all").json()["topic_notes"][0]["body_md"] == "yeni"
+
+
+def test_deleted_highlight_is_not_restored(auth_client):
+    auth_client.post("/progress/sync", json={"highlights": [HL]})
+    auth_client.post("/progress/sync", json={"highlights": [dict(HL, deleted=True, updated_at="2026-10-16T11:00:00Z")]})
+    assert auth_client.get("/progress/all").json()["highlights"] == []

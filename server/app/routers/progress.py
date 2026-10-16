@@ -40,10 +40,28 @@ class CardState(BaseModel):
     updated_at: datetime
 
 
+class TopicNote(BaseModel):
+    topic_id: str
+    body_md: str
+    updated_at: datetime
+
+
+class Highlight(BaseModel):
+    id: UUID
+    topic_id: str
+    section: Literal["summary", "content", "critical", "doctrine"]
+    block_hash: str
+    excerpt: str
+    deleted: bool = False
+    updated_at: datetime
+
+
 class SyncIn(BaseModel):
     attempts: list[Attempt] = []
     card_reviews: list[CardReview] = []
     card_states: list[CardState] = []
+    topic_notes: list[TopicNote] = []
+    highlights: list[Highlight] = []
 
 
 @router.post("/progress/sync")
@@ -74,6 +92,22 @@ def sync(body: SyncIn):
                 "updated_at = excluded.updated_at where card_states.updated_at < excluded.updated_at",
                 s.model_dump(),
             )
+        # notlar ve vurgular: son yazan kazanır
+        for n in body.topic_notes:
+            conn.execute(
+                "insert into topic_notes (topic_id, body_md, updated_at) values (%(topic_id)s, %(body_md)s, %(updated_at)s) "
+                "on conflict (topic_id) do update set body_md = excluded.body_md, updated_at = excluded.updated_at "
+                "where topic_notes.updated_at < excluded.updated_at",
+                n.model_dump(),
+            )
+        for h in body.highlights:
+            conn.execute(
+                "insert into highlights (id, topic_id, section, block_hash, excerpt, deleted, updated_at) "
+                "values (%(id)s, %(topic_id)s, %(section)s, %(block_hash)s, %(excerpt)s, %(deleted)s, %(updated_at)s) "
+                "on conflict (id) do update set deleted = excluded.deleted, excerpt = excluded.excerpt, "
+                "updated_at = excluded.updated_at where highlights.updated_at < excluded.updated_at",
+                h.model_dump(),
+            )
     return {"ok": True, "server_time": datetime.now(timezone.utc).isoformat()}
 
 
@@ -87,5 +121,9 @@ def all_progress():
         "card_reviews": db.fetch_all("select id, card_id, grade, reviewed_at from card_reviews order by reviewed_at"),
         "card_states": db.fetch_all(
             "select card_id, ease, interval_days, repetitions, due_at, last_grade, updated_at from card_states"
+        ),
+        "topic_notes": db.fetch_all("select topic_id, body_md, updated_at from topic_notes"),
+        "highlights": db.fetch_all(
+            "select id, topic_id, section, block_hash, excerpt, deleted, updated_at from highlights where not deleted"
         ),
     }
