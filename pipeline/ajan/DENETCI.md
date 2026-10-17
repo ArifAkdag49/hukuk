@@ -18,6 +18,9 @@ Bu iş **API harcamadan**, bu Claude Code oturumunda yapılır.
 - Karar tam metni: `.venv/Scripts/python -X utf8 -m pipeline.arastir karar <id> --max 20000` (idare/anayasa için `--mahkeme danistay|anayasa`).
 - İçtihat arama: `.venv/Scripts/python -X utf8 -m pipeline.arastir ictihat "<ifade>" --adet 8`.
 - Denetim: `.venv/Scripts/python -X utf8 -m pipeline.elle kontrol <DERS> <slug>`.
+- Yakın tarihli değişiklikler: `.venv/Scripts/python -X utf8 -m pipeline.arastir degisiklik <DERS> --yil 2023`. Taslağın
+  atıf yaptığı maddelerden listede çıkanların güncel hâliyle anlatıldığını kontrol et.
+- Tam metinde arama (geçici maddeler, dipnotlar): `.venv/Scripts/python -X utf8 -m pipeline.arastir tam <KANUN> --ara "<desen>"`.
 - WebSearch/WebFetch: yalnız yakın tarihli kanun değişikliği, İBK ya da yerleşik uygulamayı teyit için. Künyeyi web'den alma.
 
 ## 3. Ne denetlenir (sırayla, atlamadan)

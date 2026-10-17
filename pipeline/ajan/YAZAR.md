@@ -29,6 +29,7 @@ Hız değil doğruluk ve öğreticilik önemli.
   `.venv/Scripts/python -X utf8 -m pipeline.arastir madde TBK 61 62 72`
   (TMK, HMK, İİK, TTK, TCK, AY gibi kısaltmalar da çalışır.)
 - Bölüm ve madde başlıkları (konunun sistematiğini görmek için): `.venv/Scripts/python -X utf8 -m pipeline.arastir basliklar TBK 112 131`
+- Yakın tarihli değişiklikler: `.venv/Scripts/python -X utf8 -m pipeline.arastir degisiklik <DERS> --yil 2023` (müfredattaki kanunların ilgili madde aralığı) ya da `degisiklik TCK --yil 2024` (bütün kanun). Çıktıdaki her madde için değişikliğin ne olduğunu madde metninden ve dipnotundan oku; konuna giriyorsa notta 📌 ile ver.
 - Kanunun tam metninde arama (geçici maddeler, kanuna işlenemeyen hükümler ve dipnotlar `madde` komutuyla gelmez): `.venv/Scripts/python -X utf8 -m pipeline.arastir tam TBK --ara "GEÇİCİ MADDE" --baglam 8`. Geçici maddeye "m." kısaltmasıyla değil "TBK'nın geçici 1. maddesi" diye atıf yap.
 - İçtihat arama: `.venv/Scripts/python -X utf8 -m pipeline.arastir ictihat "<ifade>" --adet 8` (gerekirse `--sayfa 2`, `--mahkeme yargitay`)
 - Karar tam metni: `.venv/Scripts/python -X utf8 -m pipeline.arastir karar <id> --max 15000`

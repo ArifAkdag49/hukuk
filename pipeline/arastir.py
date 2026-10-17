@@ -7,6 +7,8 @@
     python -X utf8 -m pipeline.arastir mufredat HUK3011          # müfredattaki bütün maddeleri denetle
     python -X utf8 -m pipeline.arastir tam TBK --ara "GEÇİCİ MADDE" [--baglam 6] [--yenile]
                                      # tam metin: geçici maddeler, kanuna işlenemeyen hükümler, dipnotlar
+    python -X utf8 -m pipeline.arastir degisiklik HUK3015 [--yil 2023]   # ya da: degisiklik TCK
+                                     # müfredat kanunlarında yakın tarihli değişiklik notları
 
 Madde metni Adalet Bakanlığı bedesten servisinden, kararlar içtihat MCP'sinden
 gelir. Her sonuç `pipeline/cache/` altına yazılır: `elle bitir` adımı madde
@@ -118,11 +120,72 @@ async def basliklar(kanun: str, ilk: int | None, son: int | None) -> list[str]:
     return [f"# {law.get('mevzuatAdi')} ({no})", *baslik_satirlari(tree, ilk, son)]
 
 
+# Madde başlığının türü; bazı kanunlarda (TCK, CMK) başlık "Madde 81 -" biçiminde yazılır
+_BASLIK_TURU = {"MADDE": "m.", "Madde": "m.", "GEÇİCİ MADDE": "geçici m.", "Geçici Madde": "geçici m.",
+                "EK MADDE": "ek m.", "Ek Madde": "ek m."}
+
+
 def tam_metin_satirlari(raw: str) -> list[str]:
-    """Kanunun HTML tam metnini boş olmayan, boşlukları sadeleştirilmiş satırlara çevirir."""
+    """Kanunun HTML tam metnini boş olmayan, boşlukları sadeleştirilmiş satırlara çevirir. Ayrı satıra düşmüş
+    "MADDE" / "201- ..." başlıkları birleştirilir."""
     raw = re.sub(r"<br\s*/?>|</p\s*>|</h\d\s*>|</div\s*>|</tr\s*>", "\n", raw, flags=re.I)
     txt = html.unescape(re.sub(r"<[^>]+>", "", raw)).replace("\xa0", " ")
-    return [s for s in (re.sub(r"\s+", " ", ln).strip() for ln in txt.split("\n")) if s]
+    out: list[str] = []
+    for s in (re.sub(r"\s+", " ", ln).strip() for ln in txt.split("\n")):
+        if not s:
+            continue
+        if out and out[-1] in _BASLIK_TURU and re.match(r"\d+\s*(?:/\s*[A-Za-z]\s*)?[-–]", s):
+            out[-1] = f"{out[-1]} {s}"
+        else:
+            out.append(s)
+    return out
+
+
+_NOT_RE = re.compile(r"\(((?:Değişik|Ek|Mülga|İptal|Yürürlükten)[^()]*?(\d{1,2})\s*/\s*(\d{1,2})\s*/\s*(\d{4})[^()]*)\)")
+_DIPNOT_RE = re.compile(r"^\[\d+\]\s*(\d{1,2})/(\d{1,2})/(\d{4})\s+tarihli[^\n]*", re.M)
+
+
+def degisiklik_notlari(metin: str, en_erken_yil: int) -> list[str]:
+    """Metindeki "(Değişik/Ek/Mülga/İptal: g/a/yyyy-...)" notları ve "[n] g/a/yyyy tarihli ..." dipnotlarından
+    yılı `en_erken_yil` ya da sonrası olanlar."""
+    out = [m.group(1) for m in _NOT_RE.finditer(metin) if int(m.group(4)) >= en_erken_yil]
+    out += [m.group(0)[:240] for m in _DIPNOT_RE.finditer(metin) if int(m.group(3)) >= en_erken_yil]
+    return list(dict.fromkeys(re.sub(r"\s+", " ", x).strip() for x in out))
+
+
+_MADDE_BASI_RE = re.compile(
+    r"^(GEÇİCİ MADDE|Geçici Madde|EK MADDE|Ek Madde|MADDE|Madde)\s*(\d+(?:\s*/\s*[A-Za-zÇĞİÖŞÜ])?)\s*[-–]")
+_DIPNOT_BASI_RE = re.compile(r"^\[(\d+)\]\s")
+
+
+def tam_degisiklikler(satirlar: list[str], en_erken_yil: int) -> list[str]:
+    """Tam metindeki değişiklik notları madde madde; sondaki dipnotlar, onlara atıf yapan maddeye bağlanır."""
+    bloklar: list[tuple[str, list[str]]] = [("giriş", [])]
+    dipnotlar: dict[str, list[str]] = {}
+    on_ek, dipnot = "", None
+    for s in satirlar:
+        d = _DIPNOT_BASI_RE.match(s)
+        m = _MADDE_BASI_RE.match(s)
+        if d:
+            dipnot = d.group(1)
+            dipnotlar[dipnot] = [s]
+            continue
+        if dipnot is not None and not m:
+            dipnotlar[dipnot].append(s)
+            continue
+        dipnot = None
+        if "İŞLENEMEYEN HÜKÜM" in s:
+            on_ek = "işlenemeyen hüküm, "
+        if m:
+            bloklar.append((f"{on_ek}{_BASLIK_TURU[m.group(1)]} {re.sub(r'\s+', '', m.group(2))}", []))
+        bloklar[-1][1].append(s)
+    out = [f"{ad}: {n}" for ad, sat in bloklar for n in degisiklik_notlari(" ".join(sat), en_erken_yil)]
+    for k, sat in dipnotlar.items():
+        notlar = degisiklik_notlari(" ".join(sat), en_erken_yil)
+        if notlar:
+            sahipler = [ad for ad, bs in bloklar if f"[{k}]" in " ".join(bs)] or ["dipnot"]
+            out += [f"{', '.join(sahipler)}: {n}" for n in notlar]
+    return out
 
 
 def ara(satirlar: list[str], desen: str, baglam: int = 6) -> list[str]:
@@ -155,6 +218,36 @@ async def tam(kanun: str, yenile: bool = False) -> tuple[str, list[str]]:
     TAM_DIR.mkdir(parents=True, exist_ok=True)
     p.write_text("\n".join(satirlar), encoding="utf-8")
     return no, satirlar
+
+
+async def degisiklik_raporu(hedef: str, en_erken_yil: int) -> list[str]:
+    """Ders kodu verilirse müfredattaki her kanunun, müfredat maddelerinin aralığına düşen (ve geçici/ek) maddelerindeki;
+    kanun verilirse bütün kanundaki `en_erken_yil` ve sonrasına ait değişiklik notları."""
+    import yaml
+
+    from .common import CURRICULUM
+
+    p = CURRICULUM / f"{hedef}.yaml"
+    if not p.exists():
+        no, satirlar = await tam(hedef)
+        return [f"# {hedef} ({no})", *tam_degisiklikler(satirlar, en_erken_yil)]
+    araliklar: dict[str, list[int]] = {}
+    for u in yaml.safe_load(p.read_text(encoding="utf-8"))["units"]:
+        for t in u["topics"]:
+            for m in t.get("maddeler") or []:
+                n = re.match(r"\d+", str(m["madde"]))
+                if n:
+                    araliklar.setdefault(str(m["kanun"]), []).append(int(n.group(0)))
+    out: list[str] = []
+    for kanun, nums in araliklar.items():
+        no, satirlar = await tam(kanun)
+        lo, hi = min(nums), max(nums)
+        out.append(f"# {kanun} ({no}) m. {lo}-{hi}")
+        for s in tam_degisiklikler(satirlar, en_erken_yil):
+            mm = re.match(r"(?:işlenemeyen hüküm, )?m\. (\d+)", s)
+            if mm is None or lo <= int(mm.group(1)) <= hi:
+                out.append(s)
+    return out
 
 
 def bos_madde(metin: str) -> bool:
@@ -268,7 +361,15 @@ def main(argv: list[str]) -> int:
     t.add_argument("--ara", help="aranacak düzenli ifade (büyük-küçük harf ayrımı yok)")
     t.add_argument("--baglam", type=int, default=6, help="eşleşmenin önünde ve arkasında gösterilecek satır")
     t.add_argument("--yenile", action="store_true", help="önbelleği yok sayıp metni yeniden indir")
+    dg = sub.add_parser("degisiklik", help="yakın tarihli değişiklik notları: ders kodu (müfredattaki kanunlar) ya da kanun")
+    dg.add_argument("hedef")
+    dg.add_argument("--yil", type=int, default=2023, help="bu yıl ve sonrasındaki notlar (varsayılan 2023)")
     a = ap.parse_args(argv)
+
+    if a.cmd == "degisiklik":
+        for s in asyncio.run(degisiklik_raporu(a.hedef, a.yil)):
+            print(s)
+        return 0
 
     if a.cmd == "tam":
         no, satirlar = asyncio.run(tam(a.kanun, a.yenile))
