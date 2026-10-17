@@ -56,17 +56,17 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 5 | tapu-sicili-kurulus-ve-ilkeler | bitti | ajan yazdı; denetçisiz; olay 2 HGK 2025 çoğunluk görüşüne dayanır; yerelde yüklendi |
 | 6 | tescil-serh-ve-beyan | bitti | ajan yazdı; denetçi soru 12 tarihini (TMK m. 895/2) ve 3 küçük noktayı düzeltti; yerelde yüklendi |
 | 7 | tapuya-guven-ve-yolsuz-tescil | bitti | ajan yazdı; denetçisiz; 1974 İBK künyesi araçla okunan HGK metinlerinden; yerelde yüklendi |
-| 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
+| 8 | mulkiyetin-icerigi-ve-korunmasi | bitti | ajan yazdı (son rötuşta durduruldu, kontrol temiz); denetçisiz; yerelde yüklendi |
 | 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bitti | ajan yazdı; denetçi bozuk soru 6'yı ve 3 belirsiz noktayı düzeltti; yerelde yüklendi |
 | 10 | payli-mulkiyet | bitti | ajan yazdı; denetçisiz; yerelde yüklendi |
 | 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | bitti | ajan yazdı; denetçisiz (kullanıcı kararı: token tasarrufu); yerelde yüklendi |
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | bitti | ajan yazdı; denetçisiz; AYM 2026 iptali (2942 m. 10/8) notu; yerelde yüklendi |
 | 13 | kazandirici-zamanasimi-isgal-yeni-arazi | bitti | ajan yazdı; denetçisiz; 📌 TMK m. 713/4 (7418, 2022); yerelde yüklendi |
-| 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
-| 15 | yapi-hukuku-ve-taskin-yapi | yazılıyor | |
-| 16 | yasal-onalim-alim-ve-geri-alim | yazılıyor | |
-| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | yazılıyor | |
-| 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | yazılıyor | |
+| 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | bekliyor | yazar durduruldu (buluta devir), taslak yok |
+| 15 | yapi-hukuku-ve-taskin-yapi | bekliyor | yazar durduruldu (buluta devir), taslak yok |
+| 16 | yasal-onalim-alim-ve-geri-alim | bekliyor | yazar durduruldu (buluta devir), taslak yok |
+| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | yazar durduruldu (buluta devir), taslak yok |
+| 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | yazar durduruldu (buluta devir), taslak yok |
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
 | 20 | tasinmaz-irtifaki | bekliyor | |
 | 21 | intifa-ve-oturma-hakki | bekliyor | |

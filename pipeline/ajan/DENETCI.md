@@ -9,7 +9,9 @@ Bu iş **API harcamadan**, bu Claude Code oturumunda yapılır.
 
 ## 1. Önce oku
 1. `pipeline/YAZIM_REHBERI.md` (tamamı; özellikle doğruluk kuralları ve 6. bölümdeki kontrol listesi).
-2. Taslağın tamamı: `pipeline/taslak/<DERS>/<slug>.yaml`.
+2. Taslağın tamamı: `pipeline/taslak/<DERS>/<slug>.yaml` ve varsa kaynak paketi `pipeline/kaynak/<DERS>/<slug>.md`.
+   Yazar (Sonnet) yalnız paketten yazdı: taslakta paketin dışına çıkan ya da paketin "tartışmalı"/"kesin olmayan"
+   dediği bir noktayı kesin sonuç yapan her yeri özellikle kontrol et.
 3. Soru özeti: `.venv/Scripts/python -X utf8 -m pipeline.elle ozet <DERS> <slug>`
    (her sorunun doğru şıkkı ✓, yanlışları ✗ ve açıklaması; olayların sonuç bölümleri).
 
