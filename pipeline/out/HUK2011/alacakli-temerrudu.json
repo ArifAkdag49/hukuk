@@ -1,0 +1,841 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Borçların İfası",
+ "topic_index": 3,
+ "slug": "alacakli-temerrudu",
+ "title": "Alacaklının Temerrüdü, Tevdi ve Satış",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T20:27:51.273203+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/ifa-ve-ifa-engelleri"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Borçlu borcunu ifa etmeye hazırdır, ama alacaklı edimi almıyor ya da üzerine düşeni yapmıyor. Borçlu sonsuza kadar borçlu mu kalacak? Kanunun cevabı **alacaklının temerrüdü** kurumudur (TBK m. 106-111).\n\n- **Şartlar (TBK m. 106/1):** (1) Borçlu borcu ifa etme hakkına sahiptir ve ifaya hazırdır. (2) Yapma veya verme edimi alacaklıya **gereği gibi önerilmiştir** (tam edim, doğru yer, doğru zaman). (3) Alacaklı edimi **kabul etmekten** ya da borçlunun ifa edebilmesi için kendisinin yapması gereken **hazırlık fiillerinden** kaçınmıştır. (4) Kaçınmanın **haklı bir sebebi** yoktur.\n- **Kusur:** Kanun kusurdan söz etmez. Baskın görüşe göre alacaklının kusuru aranmaz.\n- **Müteselsil borçlular (TBK m. 106/2):** Alacaklı borçlulardan birine karşı temerrüde düşerse diğerlerine karşı da düşmüş olur.\n- **Genel sonuçlar:** Borç kendiliğinden sona ermez. Aynı alacak için borçlu temerrüdü doğmaz, varsa sona erer; bu yüzden temerrüt faizi işlemez. Kabul kural olarak borç değil **külfet** olduğundan alacaklı kabule zorlanamaz ve ondan tazminat istenemez. Kabulün borç olduğu hâller (ör. alıcının devralma borcu, TBK m. 232/1) ayrıktır.\n- **Tevdi (TBK m. 107):** Teslim borcunda borçlu, hasar ve giderler alacaklıya ait olmak üzere şeyi tevdi ederek borcundan kurtulur. Tevdi yerini ifa yerindeki hâkim, yani sulh hukuk mahkemesi belirler (HMK m. 382-383). Ticari mallar hâkim kararı olmadan bir ardiyeye tevdi edilebilir.\n- **Satma (TBK m. 108):** Şey tevdie uygun değilse, bozulabilirse ya da bakımı, korunması veya tevdii önemli gider gerektiriyorsa borçlu, önceden ihtar edip hâkimin izniyle açık artırmada sattırır ve bedeli tevdi eder. Borsa ya da piyasa fiyatı varsa veya değeri gidere oranla azsa açık artırma şart değildir; hâkim ihtar aramadan da izin verebilir.\n- **Geri alma (TBK m. 109):** Alacaklı kabul ettiğini açıklamadıkça ya da tevdi bir rehni kaldırmadıkça borçlu tevdi edileni geri alabilir. Geri alınca alacak bütün yan haklarıyla sürer.\n- **Diğer edimler (TBK m. 110):** Teslim gerektirmeyen edimlerde borçlu, borçlu temerrüdü hükümlerine göre sözleşmeden döner.\n- **Diğer ifa engelleri (TBK m. 111):** Alacağın kime ait olduğunda ya da alacaklının kimliğinde duraksama veya alacaklıdan kaynaklanan kişisel bir sebep varsa, borçlunun kusuru yoksa alacaklı temerrüdü olmadan da tevdi ya da dönme mümkündür.\n- **Hasar:** Kanun açıkça şunu söyler: tevdi edilen şeyin hasarı alacaklıya aittir (TBK m. 107/1); taşınır satışında devralmada temerrüde düşen alıcıya yarar ve hasar geçer (TBK m. 208/2). Genel kural doktrinde tartışmalıdır.\n- **Uygulama:** Kiraya veren hesabı kapatır ya da konutta ödemeli gönderiyi almazsa kiracı sulh hukuk mahkemesinden tevdi mahalli belirletir. Yargıtay'a göre bu talep karşı tarafa tebliğ edilmeden karara bağlanabilir. Anahtar da aynı yolla tevdi edilir. İpotekli borçta borçlu parayı icra dairesine yatırır (İİK m. 153).",
+  "content_md": "## 0. Konunun haritası\n\nÇoğu borç alacaklının katkısı olmadan ifa edilemez: malı biri teslim almalı, terziye kumaş verilmeli, kira hesabı açık tutulmalıdır. Alacaklı bu katkıyı vermezse TBK'nın altı maddesi devreye girer:\n\n| Madde | Ne düzenler? |\n|---|---|\n| TBK m. 106 | Alacaklının temerrüdünün şartları |\n| TBK m. 107 | Teslim borçlarında tevdi |\n| TBK m. 108 | Satma ve bedelin tevdii |\n| TBK m. 109 | Tevdi edilenin geri alınması |\n| TBK m. 110 | Teslim gerektirmeyen edimlerde dönme |\n| TBK m. 111 | Diğer ifa engelleri |\n\n> 💡 **Püf nokta:** Alacaklı temerrüdü **borçtan kurtulma kapısını** açar, ama kapıdan borçlu kendisi geçer: tevdi eder, satar ya da sözleşmeden döner. Temerrüt tek başına borcu bitirmez.\n\n## 1. Kavram ve hukuki niteliği\n\n**Alacaklının temerrüdü (kabul temerrüdü)**, gereği gibi önerilen edimin alacaklı tarafından haklı bir sebep olmaksızın kabul edilmemesi ya da alacaklının ifa için gereken katkıyı yapmamasıdır.\n\nKurumun kilit fikri şudur: Kabul, alacaklı için kural olarak bir **borç** değil, bir **külfettir**. Külfete uymamak dava ya da tazminat doğurmaz, yalnız uymayanın aleyhine sonuç doğurur. Bu yüzden borçlu, alacaklıyı dava yoluyla malı almaya zorlayamaz. Kanun ona bunun yerine **kendi başına borçtan kurtulma yolları** verir: tevdi, satış ve dönme.\n\n> **Örnek:** Ali, Zeynep'e sattığı buzdolabını kararlaştırılan gün getirir; Zeynep \"Mutfağım hazır değil\" diyerek almaz. Ali, Zeynep'i dava yoluyla almaya zorlayamaz, ama buzdolabını tevdi ederek borcundan kurtulabilir.\n\nTBK m. 106/1 \"yapma veya verme edimi\"nden söz eder. Bir şeyi **yapmama** borcunda (ör. rekabet etmeme) ifa, alacaklının katkısını gerektirmez. Bu yüzden orada alacaklı temerrüdü kural olarak düşünülmez.\n\n## 2. Şartlar (TBK m. 106/1)\n\n### 2.1 İfa edilebilir borç ve ifaya hazır borçlu\n- Geçerli bir borç olmalı ve borçlunun o anda **ifa etme hakkı** bulunmalıdır. Borçlu, aksi kastedilmedikçe borcunu süre dolmadan da ifa edebilir (TBK m. 96). Sözleşmeden ya da durumdan erken ifanın istenmediği anlaşılıyorsa (ör. süre alacaklının yararına konmuşsa) erken öneriyi reddeden alacaklı temerrüde düşmez.\n- Borçlu **gerçekten ifaya hazır ve muktedir** olmalıdır. Elinde mal olmayan satıcının \"gel al\" demesi alacaklıyı temerrüde düşürmez.\n\n> ⚠️ **Sınavda dikkat:** Yargıtay şartlar arasında borcun muaccel olmasını sayar; doktrin ise borçlunun ifa hakkını esas alır. Erken ifa hakkı olan borçlu vadeden önce de alacaklıyı temerrüde düşürebilir.\n\n### 2.2 Edimin gereği gibi önerilmesi\nÖneri, borcun içeriğine uygun olmalıdır:\n- **Tam edim:** Borcun tamamı belli ve muaccelse alacaklı kısmi ifayı reddedebilir (TBK m. 84/1; ayrıntısı ayrı konuda). Para borcunda önerilen tutar anaparanın yanında faiz ve masrafları, borçlu temerrüde düşmüşse işlemiş temerrüt faizini de kapsamalıdır. Aksi hâlde alacaklı öneriyi haklı olarak reddedebilir.\n- **Doğru yer:** Para borçları alacaklının ödeme zamanındaki yerleşim yerinde ödenir (TBK m. 89/1-1). Para **götürülecek borçtur**. Borçlu parayı alacaklıya ulaştırmadan \"gelsin alsın\" diyemez.\n- **Doğru zaman ve doğru kişi:** Öneri ifa zamanında, alacaklıya ya da temsilcisine ve dürüstlük kuralına (TMK m. 2) uygun bir saatte yapılmalıdır.\n\nÖneri kural olarak **fiilî** olur: Edim ifa yerine götürülür, alacaklıya yalnız kabul etmek kalır. Doktrinde bazı hâllerde **sözlü öneri**, yani borçlunun ifaya hazır olduğunu bildirmesi yeterli sayılır:\n- **aranacak borçlarda**, yani alacaklının gelip alacağı borçlarda,\n- alacaklının önce bir **hazırlık fiili** yapması gerekiyorsa (ör. ölçü ya da model bildirmek).\n\n> **Örnek:** Kiracı Mert kirayı kiraya verenin evine götürmez, \"Parayı hazırladım, gelip alsın\" diye mesaj atar. Kira para borcudur ve götürülecek borçtur. Bu öneri gereği gibi değildir; kiraya veren gelmese de temerrüde düşmez.\n\n### 2.3 Kabulden ya da hazırlık fiillerinden kaçınma\nAlacaklının temerrüdü iki yoldan doğar:\n1. **Kabulden kaçınma:** Önerilen edimi almamak, kapıyı açmamak, gönderiyi iade etmek, kira hesabını kapatmak.\n2. **Hazırlık fiillerinden kaçınma:** Borçlunun ifa edebilmesi için önce alacaklının yapması gereken davranışı yapmamak. Dikilecek elbisenin kumaşını vermemek, boyanacak duvarın rengini bildirmemek, malın gönderileceği adresi bildirmemek, inşaat yerini hazır etmemek bu türdendir. Sözleşmeyle alacaklıya bırakılan seçim hakkını kullanmamak da böyledir; kural olarak seçim borçluya aittir (TBK m. 87).\n\n> **Örnek:** Terzi Fatma, Elif'in gelinliğini dikecektir; kumaşı Elif getirecektir. Fatma defalarca istemesine rağmen Elif haklı bir sebep olmaksızın kumaşı getirmez. Elif hazırlık fiilinden kaçındığı için alacaklı temerrüdüne düşer. Gelinlik zamanında yetişmezse Fatma bu yüzden borçlu temerrüdüne düşmez.\n\n> ⚠️ **Sınavda dikkat:** Seçim hakkı sözleşmeyle alacaklıya bırakılmışsa Yargıtay Hukuk Genel Kurulu, borçlunun önce seçim için uygun bir süre vermesini arar; süre sonuçsuz kalınca alacaklı temerrüdü oluşur ve seçim borçluya geçer. Karar oyçokluğuyla verilmiştir, konu tartışmalıdır.\n\n### 2.4 Haklı sebep yokluğu\n\"Haklı sebep\" objektif bir ölçüttür. Alacaklının kişisel isteksizliği haklı sebep değildir.\n- **Haklı sebep sayılanlar:** Önerinin gereği gibi olmaması (eksik, ayıplı, yanlış yerde ya da yanlış zamanda), erken ifanın sözleşmeye aykırı olması, önerinin makul olmayan bir saatte yapılması.\n- **Haklı sebep sayılmayanlar:** Deponun dolu olması, fiyatların düşmesi, \"vazgeçtim\" demek, malı başka yerden daha ucuza bulmak, kira artışında anlaşamamak.\n\n### 2.5 Kusur aranır mı?\nTBK m. 106 kusurdan söz etmez. Kanun koyucu kusuru aradığı yerde bunu açıkça yazar: haksız fiilde \"kusurlu ve hukuka aykırı fiil\" der (TBK m. 49/1), borçlu temerrüdünde borçlunun kusuru olmadığını ispat etmesinden söz eder (TBK m. 118). \"Haklı bir sebep olmaksızın\" ifadesi sebepsiz zenginleşmede de geçer (TBK m. 77/1) ve orada da kusur aranmaz. Baskın görüş bu nedenle alacaklının kusurunu **aramaz**. Yargıtay Hukuk Genel Kurulu da şartları sayarken (öneri, ret ve reddin haklı sebebe dayanmaması) kusuru ayrıca aramaz. Tartışma doktrin bölümünde.\n\n> **Örnek:** Ayşe, dolabın teslim edileceği sabah ani bir rahatsızlıkla hastaneye kaldırılır; evde kimse yoktur. Kusuru olmasa da baskın görüşe göre alacaklı temerrüdüne düşer, çünkü engel onun kendi alanında doğmuştur.\n\n### 2.6 Müteselsil borçlular (TBK m. 106/2)\nAlacaklı müteselsil borçlulardan birine karşı temerrüde düşerse diğerlerine karşı da temerrüde düşmüş olur. Mantık açıktır: Borçlulardan biri borcun tamamını gereği gibi önermiş, alacaklı almamıştır. Müteselsil borçluluğun ayrıntısı ayrı konuda.\n\n### 2.7 İspat\nAlacaklının temerrüdüne dayanan taraf, genellikle borçlu, gereği gibi öneriyi ve alacaklının kabulden kaçındığını ispatlar (TMK m. 6). Yargıtay, alıcının malları teslim almaktan kaçındığını ispat edemeyen satıcının tazminat istemini reddeden kararı onamıştır. Noter ihtarı, PTT iade makbuzu ve banka dekontu en güçlü delillerdir.\n\n## 3. Genel sonuçlar\n\n### 3.1 Borç sona ermez\nAlacaklı temerrüdü borcu kendiliğinden sona erdirmez. Borçlu borçlu kalır, alacaklı da ifayı istemeye devam edebilir. Borçlu ancak kanunun gösterdiği yollarla kurtulur: tevdi (TBK m. 107), satış (TBK m. 108) ya da teslim gerektirmeyen edimlerde dönme (TBK m. 110).\n\nYargıtay da bu noktayı vurgular: Alacaklının ödemeyi iade etmesi alacağı ortadan kaldırmaz. Borçlunun yaptığı ödeme yalnız onun temerrüdünü keser ve temerrüt faizini durdurur.\n\n> ⚠️ **Sınavda dikkat:** \"Alacaklı almadı, borç bitti\" cevabı yanlıştır. Doğru cevap şudur: \"Alacaklı temerrüde düştü; borçlu şimdi tevdi ederek borcundan kurtulabilir.\"\n\n### 3.2 Borçlu temerrüdü doğmaz, temerrüt faizi işlemez\nAynı alacak bakımından alacaklı temerrüdü ile borçlu temerrüdü bir arada bulunamaz. Borçlu daha önce temerrüde düşmüşse, borcun tamamını işlemiş faiziyle birlikte gereği gibi önermesiyle temerrüdü sona erer. Temerrüt faizi borçlu temerrüdüne bağlıdır (TBK m. 117, m. 120). Bu yüzden alacaklı temerrüdünden itibaren işlemez. Borçlu bu dönem için gecikme tazminatından da (TBK m. 118) sorumlu tutulamaz.\n\n> 💡 **Püf nokta:** Temerrüt faizinin durması için tevdi beklenmez; alacaklının haklı sebep olmadan kabulden kaçınması yeter. Ama borçtan **kurtulmak** için tevdi gerekir.\n\nSözleşme faizinin durumu tartışmalıdır (doktrin bölümü); borçlu için güvenli yol parayı gecikmeden tevdi etmektir.\n\n### 3.3 Alacaklı kabule zorlanamaz, tazminat ödemez; istisnası\nKabul bir külfet olduğundan alacaklı temerrüdü tek başına tazminat doğurmaz. Ama kanun ya da sözleşme kabulü **gerçek bir borç** yapmışsa durum değişir. En önemli örnek satıştır: Alıcı kendisine sunulan satılanı **devralmakla yükümlüdür** (TBK m. 232/1). Devralmaktan kaçınan alıcı hem alacaklı temerrüdüne düşer hem de kendi borcuna aykırı davranır. Satıcı bu durumda borca aykırılık ve borçlu temerrüdü hükümlerine de başvurabilir (TBK m. 112, m. 117 vd.).\n\n> **Örnek:** Y Restoran, X Ltd. Şti.'nden satın aldığı 300 kasa domatesi deposu dolu diye teslim almaz. Y hem alacaklı temerrüdüne düşer hem devralma borcunu ihlal eder; X'in fazladan ödediği soğuk hava deposu bedeli gibi zararları şartları varsa tazmin eder.\n\nKarşılıklı sözleşmede alacaklı temerrüdü alacaklıyı kendi borcundan kurtarmaz; edimini gereği gibi öneren taraf karşı edimi isteyebilir (TBK m. 97; ödemezlik def'i ayrı konuda).\n\n### 3.4 Hasar ve borçlunun sorumluluğu\nBurada **kanunun söylediğini** doktrinden ayırmak gerekir.\n\n**Kanun açıkça ne der?**\n- Tevdi edilen şeyin **hasarı ve giderleri** alacaklıya aittir (TBK m. 107/1).\n- Taşınır satışında alıcı, satılanın zilyetliğini devralmada temerrüde düşerse, zilyetliğin devri gerçekleşmişçesine **yarar ve hasar alıcıya geçer** (TBK m. 208/2). Satılan bundan sonra beklenmedik biçimde yok olursa alıcı yine bedeli öder.\n- Eser sözleşmesinde kanun kuralı tersinden koyar: Eser teslimden önce beklenmedik olayla yok olursa, iş sahibi teslim almada temerrüde düşmedikçe yüklenici ücret ve gider isteyemez (TBK m. 483/1). Demek ki iş sahibi temerrüde düşmüşse yüklenici bunları isteyebilir.\n- İşveren işçinin edimini kabulde temerrüde düşerse ücreti öder ve edimin sonradan yerine getirilmesini isteyemez. İşçinin bu yüzden kurtulduğu giderler ile başka işten kazandığı ya da bilerek kazanmaktan kaçındığı yararlar ücretten indirilir (TBK m. 408).\n- TBK m. 136/2 de kanun veya sözleşmeyle hasarın ifadan önce alacaklıya yüklendiği bu tür durumları, imkânsızlıkta karşı edimin kaybı kuralının dışında tutar.\n\n**Doktrin ne der?** Bu özel hükümler dışında hasarın hangi anda geçtiği ve borçlunun özen yükünün hafifleyip hafiflemediği tartışmalıdır (doktrin bölümü).\n\n## 4. Tevdi (TBK m. 107)\n\n**Tevdi**, borçlunun teslim edeceği şeyi alacaklı adına saklanmak üzere yetkili bir yere bırakmasıdır. Usulüne uygun tevdi, borçluyu alacaklıya ifa etmiş gibi borcundan kurtarır.\n- **Sonuç:** Borçlu borcundan kurtulur; hasar ve giderler alacaklıya aittir (m. 107/1).\n- **Tevdi yeri:** İfa yerindeki hâkim belirler (m. 107/2). HMK \"tevdi mahalli belirlenmesi\"ni çekişmesiz yargı işleri arasında sayar (HMK m. 382/2-d). Görevli mahkeme **sulh hukuk mahkemesidir** (HMK m. 383). Hâkim genellikle bir banka hesabını ya da bir depoyu tevdi yeri olarak belirler.\n- **Ticari mallar:** Hâkim kararı olmadan da bir **ardiyeye**, yani eşya saklama işletmesine tevdi edilebilir (m. 107/2).\n- **Bildirim:** Kanun tevdiden önce alacaklıya ihtar şartı koymaz; satıştan farkı budur. Doktrinde dürüstlük kuralı (TMK m. 2) gereği tevdiin alacaklıya gecikmeden bildirilmesi gerektiği kabul edilir. Yargıtay da kiralananın anahtarının tevdiinde, kiracının iade borcunun durumun kiraya verene **bildirildiği tarihte** sona erdiğini kabul eder.\n\n> **Örnek:** Ankaralı Burak, sattığı halıyı alıcı Deniz'in İzmir'deki adresinde teslim edecektir. Deniz teslim almaz. Burak, İzmir'deki sulh hukuk mahkemesinden tevdi yeri belirlenmesini ister. Hâkim bir depoyu belirler; Burak halıyı oraya bırakır ve Deniz'e bildirir. Burak borcundan kurtulmuştur, depo ücreti Deniz'e aittir.\n\n## 5. Satma hakkı (TBK m. 108)\n\nBazı şeyler tevdie elverişli değildir. Kanun bu durumda borçluya şeyi sattırıp **bedelini** tevdi etme imkânı verir.\n\n**Satma sebepleri (m. 108/1):**\n1. şeyin niteliği veya işin özelliği tevdie uygun değilse (ör. canlı hayvan, büyük bir makine),\n2. şey bozulabilirse (ör. meyve, sebze, çiçek),\n3. bakımı, korunması ya da tevdii önemli bir gider gerektiriyorsa.\n\n**Olağan yol:** alacaklıya **önceden ihtar**, **hâkimin izni** ve **açık artırma**.\n\n**Kolaylaştırılmış yol (m. 108/2):** Şey borsada kayıtlıysa, piyasa fiyatı varsa ya da yapılacak gidere oranla değeri azsa satışın açık artırmayla yapılması zorunlu değildir. Hâkim önceden ihtar koşulunu aramadan da satışa izin verebilir.\n\n> ⚠️ **Sınavda dikkat:** Hâkimin izni iki yolda da gerekir. Borçlu \"mal bozuluyordu\" diyerek kendi başına satamaz. Satış şartlarının gerçekleşip gerçekleşmediğine ve satışın biçimine mahkeme karar verir. Alacaklının rızası ise aranmaz.\n\n> **Örnek:** Yargıtay Hukuk Genel Kurulu'nun önüne gelen bir olayda, feshedilen sözleşmeden sonra yüklenicinin şantiyeye getirdiği malzemeler iş sahibinin elinde kalmıştı. Kurul, iade borcu altındaki iş sahibinin ihtar çektikten sonra satış izni isteyebileceğini ve satış şartlarının keşifle araştırılması gerektiğini kabul etmiştir.\n\n**Ticari satışta özel kural:** Tacirler arasındaki satışta alıcı temerrüde düşerse satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Satış giderleri düşüldükten sonra kalan para alıcı adına bir bankaya, banka yoksa **notere** bırakılır ve durum hemen alıcıya bildirilir (TTK m. 23/1-b).\n\n## 6. Geri alma hakkı (TBK m. 109)\n\nTevdi borçluyu kesin olarak değil, **geri alma imkânı saklı kalmak üzere** kurtarır.\n- **Kural:** Borçlu tevdi ettiği şeyi geri alabilir.\n- **İstisnalar (m. 109/1):** Alacaklı tevdi edilen şeyi **kabul ettiğini açıklamışsa** ya da tevdi bir **rehnin ortadan kaldırılması** sonucunu doğurmuşsa geri alma mümkün değildir.\n- **Sonuç (m. 109/2):** Şey geri alındığı anda alacak **bütün yan haklarıyla** birlikte varlığını sürdürür. Borçlu yeniden borçludur.\n\n> **Örnek:** İpotekli borcunu icra dairesine yatırıp ipoteğini terkin ettiren borçlu, parayı geri alamaz. Aksi hâlde alacaklı hem güvencesini hem parasını kaybederdi.\n\n## 7. Teslim gerektirmeyen edimler: dönme (TBK m. 110)\n\nBorcun konusu bir şeyin teslimi değilse (ör. ders vermek, portre yapmak, konser vermek) tevdi edilecek bir şey yoktur. Kanun bu durumda borçluya, **borçlu temerrüdüne ilişkin hükümlere göre sözleşmeden dönme** hakkı verir. Bu atıf nedeniyle borçlu:\n1. alacaklıya katkısını yapması için **uygun bir süre** verir ya da hâkimden süre verilmesini ister (TBK m. 123),\n2. süre vermenin gereksiz olduğu hâllerde (TBK m. 124) bunu atlar,\n3. dönme iradesini alacaklıya açıklayarak sözleşmeden döner (TBK m. 125).\n\n> **Örnek:** Ressam Deniz, Can'ın portresini yapmayı üstlenmiştir. Can poz vermek için atölyeye gelmemektedir. Deniz, Can'a iki haftalık bir süre verir. Can yine gelmezse Deniz sözleşmeden döner ve borcundan kurtulur.\n\n> 📌 **Kesin bilgi:** Özel hükümler önce gelir. İşveren işçinin edimini kabulde temerrüde düşerse işçi ücretine hak kazanır (TBK m. 408). Muaccel borcu ödemek isteyen kefilin ödemesini alacaklı haklı bir sebep olmaksızın kabul etmezse **kefil borcundan kurtulur** (TBK m. 593/2).\n\n## 8. Diğer ifa engelleri (TBK m. 111)\n\nBazen alacaklı temerrüde düşmemiştir, ama borçlu kime ödeyeceğini bilemez. TBK m. 111 bu hâllerde de borçluyu korur. Borçlunun **kusuru olmaksızın**:\n- alacağın kime ait olduğunda duraksama varsa (ör. hem eski alacaklı hem alacağı devraldığını söyleyen kişi ödeme istiyor),\n- alacaklının kimliğinde duraksama varsa (ör. alacaklı ölmüş, mirasçıları belli değil),\n- ya da alacaklıdan kaynaklanan başka kişisel bir sebep varsa (ör. adresi bilinmiyor),\n\nve borç bu yüzden alacaklıya veya temsilcisine ifa edilemiyorsa, borçlu alacaklı temerrüdündeki gibi **tevdi** ya da **sözleşmeden dönme** hakkını kullanabilir. HMK da \"alacaklısı ihtilaflı olan borcun mahkemeye tevdii\"ni ayrıca çekişmesiz yargı işleri arasında sayar (HMK m. 382/2-d). Alacağın devri ayrı konudur.\n\n> **Örnek:** Malik ile kiraya veren arasında kira ilişkisinin geçerliliği tartışılınca kiracı bir banka, kiraları mahkemenin belirlediği tevdi yerine yatırmıştır. Kiraya veren sıfatı kesinleşince Yargıtay, tevdi edilen kiraların gerçek alacaklıya ödenmesine ilişkin kararı (yargılama giderleri yönünden düzelterek) onamıştır.\n\n> ⚠️ **Sınavda dikkat:** Duraksama borçlunun kusurundan doğmamalıdır. Kim olduğunu kolayca öğrenebileceği alacaklıya ödemeyen borçlu TBK m. 111'den yararlanamaz.\n\n## 9. Para borçlarında tevdi: uygulamadaki karşılığı\n\n### 9.1 Kira bedeli\nUygulamada en sık görülen tevdi, kira bedelinin tevdiidir.\n- Kira bedeli para borcudur. Sözleşmede başka bir yer yoksa kiraya verenin yerleşim yerinde ödenir (TBK m. 89/1-1); yani götürülecek borçtur. Yargıtay uygulamasına göre kira, kiraya verene elden götürülerek, gideri kiracıya ait olmak üzere **konutta ödemeli PTT havalesiyle** gönderilerek ya da sözleşmede veya teamülde belirlenen **banka hesabına** yatırılarak ödenir.\n- Kiraya veren hesabı kapatır, havaleyi iade eder ya da konutta ödemeli gönderiyi almazsa **alacaklı temerrüdü** doğar. Kiracı sulh hukuk mahkemesinden **tevdi mahalli (ödeme yeri) belirlenmesini** ister. Mahkeme genellikle kiraya veren adına açılacak bir banka hesabını belirler, kiracı kirayı oraya yatırır.\n- Bu yolun amacı kiracının **temerrüde düşmesini önlemektir**. Aksi hâlde kiraya veren, ödenmeyen kira için yazılı süre verip sözleşmeyi feshedebilir (TBK m. 315) ya da kira yılı içinde iki haklı ihtara sebep olan kiracıya karşı dava yoluyla sözleşmeyi sona erdirebilir (TBK m. 352/2).\n- Yargıtay 3. Hukuk Dairesi, bölge adliye mahkemeleri arasındaki görüş ayrılığını 2025'te gidermiştir. Buna göre tevdi mahalli talebi bir çekişmesiz yargı işidir ve **kiraya verene tebliğ edilmeden** karara bağlanabilir. Karar uyuşmazlığın esasını çözmez; kira miktarı ya da kiraya veren sıfatı ayrı davada tartışılır.\n\n> **Örnek:** Kira artışında anlaşamayan kiraya veren Kemal, kiracı Selin'in ödeme yaptığı hesabı kapatır. Selin hemen sulh hukuk mahkemesinden ödeme yeri belirletip kirayı oraya yatırır. Selin temerrüde düşmez; Kemal'in \"kira ödenmedi\" ihtarı haklı ihtar sayılmaz.\n\n### 9.2 Anahtarın tevdii\nSözleşme sona erince kiracı kiralananı geri vermekle yükümlüdür (TBK m. 334/1); boşaltmak yetmez, anahtar da teslim edilmelidir. Kiraya veren anahtarı almazsa kiracı anahtarı tevdi mahalline ya da notere teslim edip durumu kiraya verene bildirir. Yargıtay'a göre iade borcu **bildirim tarihinde** sona erer; o tarihe kadar kira bedeli dâhil yükümlülükler sürer.\n\n### 9.3 İpotekli borç: icra dairesine yatırma\nİpotekle güvence altına alınmış ve vadesi gelmiş bir borcun alacaklısı parayı almaktan ve ipoteği çözmekten kaçınırsa ya da gaip ve adresi bilinmiyorsa borçlu **icra dairesine** başvurur. İcra dairesi alacaklıya on beş gün içinde gelip parayı almasını ve ipoteği çözmesini tebliğ eder. Alacaklı gelmez ya da kanunen makbul bir sebep göstermeden kaçınırsa, borcun tamamını yatıran borçlu için icra mahkemesi paranın alacaklı adına saklanmasına ve ipotek kaydının terkinine karar verir (İİK m. 153/1). HMK bunu da çekişmesiz yargı işleri arasında sayar (HMK m. 382/2-f).\n\n> 💡 **Püf nokta:** Bu tevdi bir rehnin kalkması sonucunu doğurduğundan borçlu artık parayı geri alamaz (TBK m. 109/1).\n\n## 10. Borçlu temerrüdüyle karşılaştırma\n\nBorçlu temerrüdünün ayrıntısı ayrı konularda; kısaca:\n\n| Ölçüt | Alacaklı temerrüdü | Borçlu temerrüdü |\n|---|---|---|\n| Geciken taraf | Alacaklı (kabul, katkı) | Borçlu (ifa) |\n| Doğuşu | Gereği gibi öneri, haklı sebepsiz ret (TBK m. 106) | Muaccel borç, ihtar ya da belirli gün (TBK m. 117) |\n| Kusur | Aranmaz (baskın görüş) | Doğuşu için aranmaz; tazminatta kusur karinesi (TBK m. 118) |\n| Faiz | Temerrüt faizi işlemez | Temerrüt faizi işler (TBK m. 120) |\n| Hasar | Alacaklıya kayar (TBK m. 107/1, m. 208/2) | Borçlu beklenmedik hâlden de sorumlu (TBK m. 119) |\n| Karşı tarafın yolu | Tevdi, satış, dönme (TBK m. 107-110) | Süre, ifa ve tazminat ya da dönme (TBK m. 123-125) |\n| Tazminat | Kural olarak yok | Var (TBK m. 118) |\n\n> ⚠️ **Sınavda dikkat:** Aynı alacak için iki temerrüt bir arada bulunmaz. Ama satılanı devralmayan alıcı, satıcının teslim borcu bakımından alacaklı temerrüdüne, kendi devralma borcu bakımından borçlu temerrüdüne düşebilir.\n\n## 11. Olay çözerken denetim şeması\n1. **Borç ve edim türü:** Geçerli bir borç var mı? Edim bir şeyin teslimi mi (m. 107-109), başka bir edim mi (m. 110)? Yapmama borcu mu?\n2. **Öneri:** Borçlu ifaya hazır mı? Edim tam olarak, doğru yerde (para götürülecek borçtur), doğru zamanda ve doğru kişiye önerildi mi? Fiilî öneri mi gerekir, sözlü öneri yeter mi?\n3. **Alacaklının davranışı:** Kabulden mi, hazırlık fiilinden mi kaçındı?\n4. **Haklı sebep:** Ret objektif olarak haklı mı (eksik ya da ayıplı edim, erken ifa yasağı)? Kusur aranmaz.\n5. **Özel durumlar:** Müteselsil borçlular (m. 106/2), alacaklının kim olduğunda duraksama (m. 111).\n6. **Genel sonuçlar:** Borç sürer; borçlu temerrüdü yoktur ya da sona ermiştir; temerrüt faizi işlemez. Kabul borç mu (TBK m. 232/1)?\n7. **Kurtulma yolu:** Tevdi (yer, hâkim, ticari mal), satış (sebep, ihtar, izin, açık artırma), dönme (süre, beyan), geri alma (m. 109).\n8. **Hasar ve uygulama:** TBK m. 107/1, m. 208/2, m. 483/1, m. 408; kira ve anahtarda tevdi mahalli ve bildirim; ipotekte İİK m. 153.",
+  "critical_md": "- 📌 Dört şart (TBK m. 106/1): ifa hakkı olan ve ifaya hazır borçlu; edimin gereği gibi önerilmesi; kabulden ya da hazırlık fiillerinden kaçınma; kaçınmanın haklı bir sebebe dayanmaması.\n- ⚠️ Kanun kusurdan söz etmez. Baskın görüşe göre alacaklının kusuru aranmaz; ölçüt objektif \"haklı sebep\" yokluğudur. Alacaklının hastalığı onu temerrütten kurtarmaz.\n- ⚠️ Para borcu götürülecek borçtur (TBK m. 89/1-1). \"Gelsin alsın\" demek gereği gibi öneri değildir. Eksik tutar (faizi, masrafı eksik) haklı olarak reddedilebilir.\n- 📌 Alacaklı müteselsil borçlulardan birine karşı temerrüde düşerse diğerlerine karşı da düşmüş olur (TBK m. 106/2).\n- ⚠️ Alacaklı temerrüdü borcu sona erdirmez. Borçlu ancak tevdi, satış ya da teslim gerektirmeyen edimlerde dönme ile kurtulur.\n- 📌 Aynı alacak için borçlu temerrüdü doğmaz, varsa sona erer; temerrüt faizi işlemez. Sözleşme faizi tartışmalıdır; güvenli yol tevdidir.\n- ⚠️ Kabul kural olarak külfettir: alacaklı kabule zorlanamaz, ondan tazminat istenemez. Alıcının devralma borcu (TBK m. 232/1) gibi kabulün borç olduğu hâller ayrıktır.\n- 📌 Tevdi (TBK m. 107): hasar ve giderler alacaklıya aittir. Tevdi yerini ifa yerindeki hâkim (sulh hukuk, çekişmesiz yargı) belirler. Ticari mallar hâkim kararı olmadan ardiyeye tevdi edilebilir.\n- 📌 Satış (TBK m. 108): sebepleri tevdie uygun olmama, bozulabilirlik ve önemli gider. Olağan yol önceden ihtar, hâkim izni ve açık artırmadır. Borsa ya da piyasa fiyatı varsa veya değeri gidere oranla azsa açık artırma şart değildir ve hâkim ihtar aramayabilir. Hâkim izni her durumda gerekir.\n- ⚠️ Tevdiden önce ihtar şart değildir; satıştan önce kural olarak şarttır (TBK m. 108/1).\n- 📌 Geri alma (TBK m. 109): alacaklı kabul ettiğini açıklamışsa ya da tevdi bir rehni kaldırmışsa geri alınamaz. Geri alınırsa alacak yan haklarıyla sürer.\n- 📌 TBK m. 110: teslim gerektirmeyen edimde borçlu, borçlu temerrüdü hükümlerine göre (uygun süre ve dönme beyanı) sözleşmeden döner. TBK m. 111: kimlikte ya da alacağın kime ait olduğunda duraksama veya alacaklıdan kaynaklanan kişisel sebep varsa, borçlunun kusuru yoksa temerrüt olmadan da tevdi ya da dönme mümkündür.\n- ⚠️ Hasarda kesin olan özel hükümlerdir: tevdi edilen şey (TBK m. 107/1), taşınır satışında devralma temerrüdü (TBK m. 208/2), eser (TBK m. 483/1), hizmet (TBK m. 408). Genel kural tartışmalıdır.\n- 📌 Kira: hesap kapatılırsa ya da konutta ödemeli gönderi alınmazsa sulh hukuk mahkemesinden tevdi mahalli istenir. Yargıtay'a göre talep tebliğ edilmeden karara bağlanabilir. Anahtar tevdiinde iade borcu bildirim tarihinde sona erer.\n- 📌 İpotekli borçta alacaklı parayı almazsa: icra dairesine başvuru, 15 günlük tebliğ, borcun tamamının yatırılması, ipoteğin terkini (İİK m. 153/1).",
+  "doctrine_md": "### Kusur şart mı?\nBaskın görüş, alacaklı temerrüdü için kusur aramaz. Gerekçeler şunlardır: TBK m. 106 kusurdan söz etmez. Kanun kusuru aradığı yerde bunu açıkça söyler (TBK m. 49, m. 118). \"Haklı bir sebep olmaksızın\" ifadesi sebepsiz zenginleşmede de kusur aranmadan kullanılır (TBK m. 77). Haklı sebep objektiftir: Alacaklının hastalığı ya da kazası gibi kendi alanındaki engeller onu temerrüdün sonuçlarından kurtarmaz. Azınlıkta kalan bir görüş ise bu ifadeyi hukuka aykırılık ve kusur anlamında okur. Yargıtay şartları sayarken kusuru ayrıca aramaz.\n\n### Kabul borç mu, külfet mi?\nBaskın görüşe göre kabul ve diğer katkı davranışları alacaklı için dava edilebilir bir borç değil, bir külfettir. Bu yüzden borçlu alacaklıyı kabule zorlayamaz, ondan tazminat isteyemez. Kanunun verdiği tevdi, satış ve dönme yollarıyla yetinir. Kanun ya da sözleşme kabulü ayrıca borç olarak yüklemişse (TBK m. 232/1) borca aykırılık hükümleri de işler.\n\n### Hasar ne zaman geçer?\nKanunda genel bir hüküm yoktur. Bir görüşe göre hasar ancak tevdiyle geçer, çünkü TBK m. 107/1 hasarı tevdiye bağlamıştır. Diğer görüşe göre bu ifade yalnız tevdiyle ilgili tehlikeleri, örneğin tevdi yerinin batmasını anlatır; hasar alacaklının temerrüde düştüğü anda geçer. Bu görüş, TBK m. 208/2 ve TBK m. 483/1'deki kuralların genel bir ilkenin yansıması olduğunu ve borçlunun alacaklı yüzünden daha uzun süre risk taşımaması gerektiğini savunur. Çeşit borcunda mallar ayrılıp somutlaşmadıkça borçlu sağlama yükünden kurtulmaz.\n\n### Borçlunun sorumluluğu hafifler mi?\nTBK'da açık hüküm yoktur; Alman hukukunda ise borçlu bu dönemde yalnız kast ve ağır ihmalden sorumludur. Bir görüşe göre borçlu önceki özeni göstermeye devam etmelidir. Hâkim görüş ise iş artık borçluya bir yarar sağlamadığı için TBK m. 114/1'i kıyasen uygular ve borçluyu yalnız kast ve ağır ihmalden sorumlu tutar.\n\n### Sözleşme faizi işler mi?\nTemerrüt faizinin alacaklı temerrüdüyle durduğu genel olarak kabul edilir; Yargıtay da borçlunun ödemesinin temerrüt faizini durdurduğunu söyler. Sözleşme (akdi) faizi ise tartışmalıdır. Bir görüşe göre borçlu parayı elinde tuttukça ondan yararlandığı için faiz işlemeye devam eder; borçlu bunu tevdiyle durdurur. Diğer görüşe göre alacaklının engel olduğu dönem için faiz istemek dürüstlük kuralına aykırıdır, faiz durur. Sınavda iki görüşü yazmak ve borçluya tevdiyi önermek en güvenlisidir.",
+  "glossary": [
+   {
+    "term": "Alacaklının temerrüdü",
+    "definition": "Gereği gibi önerilen edimin alacaklı tarafından haklı bir sebep olmaksızın kabul edilmemesi ya da ifa için gereken hazırlık fiillerinin yapılmaması (TBK m. 106/1)."
+   },
+   {
+    "term": "Külfet",
+    "definition": "Uyulmadığında dava ve tazminat doğurmayan, yalnız uymayanın aleyhine sonuç doğuran davranış yükü. Alacaklının kabulü kural olarak külfettir."
+   },
+   {
+    "term": "Hazırlık fiili",
+    "definition": "Borçlunun ifa edebilmesi için önce alacaklının yapması gereken davranış; örneğin ölçü, model ya da adres bildirmek, kumaş vermek, seçim hakkını kullanmak."
+   },
+   {
+    "term": "Fiilî öneri",
+    "definition": "Edimin ifa yerine götürülüp alacaklıya yalnız kabul etmek kalacak şekilde sunulması."
+   },
+   {
+    "term": "Sözlü öneri",
+    "definition": "Borçlunun ifaya hazır olduğunu alacaklıya bildirmesi. Doktrinde aranacak borçlarda ve alacaklının hazırlık fiili gerektiğinde yeterli sayılır."
+   },
+   {
+    "term": "Haklı sebep",
+    "definition": "Alacaklının kabulden kaçınmasını objektif olarak haklı kılan sebep; örneğin önerinin eksik ya da ayıplı olması."
+   },
+   {
+    "term": "Götürülecek borç",
+    "definition": "Borçlunun edimi alacaklının yerleşim yerine ulaştırması gereken borç. Para borçları kural olarak böyledir (TBK m. 89/1-1)."
+   },
+   {
+    "term": "Aranacak borç",
+    "definition": "Alacaklının edimi borçlunun yanından alması gereken borç."
+   },
+   {
+    "term": "Tevdi",
+    "definition": "Teslim edilecek şeyin alacaklı adına saklanmak üzere hâkimin belirlediği yere ya da ticari mallarda bir ardiyeye bırakılması. Borçluyu borcundan kurtarır (TBK m. 107)."
+   },
+   {
+    "term": "Tevdi mahalli (tevdi yeri)",
+    "definition": "Tevdi edilecek şeyin bırakılacağı yer. İfa yerindeki sulh hukuk mahkemesi çekişmesiz yargı yoluyla belirler."
+   },
+   {
+    "term": "Ardiye",
+    "definition": "Eşya saklama işletmesi. Ticari mallar hâkim kararı olmadan ardiyeye tevdi edilebilir (TBK m. 107/2)."
+   },
+   {
+    "term": "Satma hakkı",
+    "definition": "Tevdie elverişli olmayan, bozulabilen ya da saklanması önemli gider gerektiren şeyin hâkim izniyle sattırılıp bedelinin tevdi edilmesi (TBK m. 108)."
+   },
+   {
+    "term": "Geri alma hakkı",
+    "definition": "Borçlunun tevdi ettiği şeyi geri alabilmesi. Alacaklı kabul ettiğini açıklamışsa ya da tevdi bir rehni kaldırmışsa kullanılamaz (TBK m. 109)."
+   },
+   {
+    "term": "Diğer ifa engelleri",
+    "definition": "Alacaklının kimliğinde ya da alacağın kime ait olduğunda duraksama veya alacaklıdan kaynaklanan kişisel sebep. Borçlunun kusuru yoksa tevdi ya da dönme imkânı verir (TBK m. 111)."
+   },
+   {
+    "term": "Konutta ödemeli havale",
+    "definition": "Paranın PTT aracılığıyla alıcının adresine götürülerek ödendiği havale. Kira bedelinin kiraya verene ulaştırılmasının uygulamadaki yollarından biridir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "106",
+   "official_text": "MADDE 106- Yapma veya verme edimi gereği gibi kendisine önerilen alacaklı, haklı bir sebep olmaksızın onu kabulden veya borçlunun borcunu ifa edebilmesi için kendisi tarafından yapılması gereken hazırlık fiillerini yapmaktan kaçınırsa, temerrüde düşmüş olur.\nAlacaklı, müteselsil borçlulardan birine karşı temerrüde düşerse, diğerlerine karşı da temerrüde düşmüş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "107",
+   "official_text": "MADDE 107- Alacaklının temerrüde düşmesi durumunda borçlu, hasar ve giderleri alacaklıya ait olmak üzere, teslim edeceği şeyi tevdi ederek borcundan kurtulabilir.\nTevdi yerini, ifa yerindeki hâkim belirler. Bununla birlikte ticari mallar, hâkim kararı olmadan da bir ardiyeye tevdi edilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "108",
+   "official_text": "MADDE 108- Sözleşmenin konusu olan şeyin niteliği veya işin özelliği tevdi edilmesine uygun düşmez veya teslim edilecek şey bozulabilir ya da bakımı, korunması veya tevdi edilmesi önemli bir gideri gerektirir ise, borçlu, alacaklıya önceden ihtarda bulunması koşuluyla, hâkimin izniyle onu açık artırma yoluyla sattırıp bedelini tevdi edebilir.\nTeslim edilecek şey, borsada kayıtlıysa veya piyasa fiyatı varsa ya da yapılacak gidere oranla değeri az ise, satışın açık artırma yoluyla yapılması zorunlu olmadığı gibi, hâkim, önceden ihtarda bulunma koşulunu aramaksızın satışa izin verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "109",
+   "official_text": "MADDE 109- Alacaklı, tevdi edilen şeyi kabul ettiğini açıklamış veya tevdi bir rehnin ortadan kaldırılması sonucunu doğurmuş olmadıkça borçlu, tevdi edilen şeyi geri alabilir.\nTevdi edilen şey geri alındığı anda alacak, bütün yan haklarıyla birlikte varlığını sürdürür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "110",
+   "official_text": "MADDE 110- Borcun konusu bir şeyin teslimini gerektirmiyorsa, alacaklının temerrüdü hâlinde borçlu, borçlunun temerrüdüne ilişkin hükümlere göre sözleşmeden dönebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "111",
+   "official_text": "F. Diğer ifa engelleri\nMADDE 111- Borçlunun kusuru olmaksızın, alacağın kime ait olduğunda veya alacaklının kimliğinde duraksama sebebiyle ya da alacaklıdan kaynaklanan diğer kişisel bir sebeple borç, alacaklıya veya temsilcisine ifa edilemezse borçlu, alacaklının temerrüdünde olduğu gibi, tevdi ya da sözleşmeden dönme hakkını kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "77",
+   "official_text": "MADDE 77- Haklı bir sebep olmaksızın, bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür.\nBu yükümlülük, özellikle zenginleşmenin geçerli olmayan veya gerçekleşmemiş ya da sona ermiş bir sebebe dayanması durumunda doğmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "84",
+   "official_text": "MADDE 84- Borcun tamamı belli ve muaccel ise, alacaklı kısmen ifayı reddedebilir.\nAlacaklı kısmen ifayı kabul ederse borçlu, borcun kendisi tarafından ikrar olunan kısmını ifadan kaçınamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "87",
+   "official_text": "MADDE 87- Seçimlik borçlarda, hukuki ilişkiden ve işin özelliğinden aksi anlaşılmadıkça, edimlerden birinin seçimi borçluya aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "89",
+   "official_text": "B. İfa yeri\nMADDE 89- Borcun ifa yeri, tarafların açık veya örtülü iradelerine göre belirlenir. Aksine bir anlaşma yoksa, aşağıdaki hükümler uygulanır;\n1. Para borçları, alacaklının ödeme zamanındaki yerleşim yerinde,\n2. Parça borçları, sözleşmenin kurulduğu sırada borç konusunun bulunduğu yerde,\n3. Bunların dışındaki bütün borçlar, doğumları sırasında borçlunun yerleşim yerinde,\nifa edilir.\nAlacaklının yerleşim yerinde ifası gereken bir borcun doğumundan sonra alacaklının yerleşim yerini değiştirmesi sebebiyle ifa önemli ölçüde güçleşmişse borç, alacaklının önceki yerleşim yerinde ifa edilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "96",
+   "official_text": "MADDE 96- Sözleşmenin hükümlerinden veya özelliğinden ya da durumun gereğinden tarafların aksini kastettikleri anlaşılmadıkça borçlu, edimini sürenin sona ermesinden önce ifa edebilir. Ancak, kanun veya sözleşme ya da âdet gereği olmadıkça borçlu, erken ifada bulunması sebebiyle indirim yapamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "97",
+   "official_text": "MADDE 97- Karşılıklı borç yükleyen bir sözleşmenin ifası isteminde bulunan tarafın, sözleşmenin koşullarına ve özelliklerine göre daha sonra ifa etme hakkı olmadıkça, kendi borcunu ifa etmiş ya da ifasını önermiş olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "114",
+   "official_text": "MADDE 114- Borçlu, genel olarak her türlü kusurdan sorumludur. Borçlunun sorumluluğunun kapsamı, işin özel niteliğine göre belirlenir. İş özellikle borçlu için bir yarar sağlamıyorsa, sorumluluk daha hafif olarak değerlendirilir.\nHaksız fiil sorumluluğuna ilişkin hükümler, kıyas yoluyla sözleşmeye aykırılık hâllerine de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "118",
+   "official_text": "MADDE 118- Temerrüde düşen borçlu, temerrüde düşmekte kusuru olmadığını ispat etmedikçe, borcun geç ifasından dolayı alacaklının uğradığı zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "119",
+   "official_text": "MADDE 119- Temerrüde düşen borçlu, beklenmedik hâl sebebiyle doğacak zarardan sorumludur.\nBorçlu, temerrüde düşmekte kusuru olmadığını veya borcunu zamanında ifa etmiş olsaydı bile beklenmedik hâlin ifa konusu şeye zarar vereceğini ispat ederek bu sorumluluktan kurtulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "120",
+   "official_text": "MADDE 120- Uygulanacak yıllık temerrüt faizi oranı, sözleşmede kararlaştırılmamışsa, faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz.\nAkdî faiz oranı kararlaştırılmakla birlikte sözleşmede temerrüt faizi kararlaştırılmamışsa ve yıllık akdî faiz oranı da birinci fıkrada belirtilen faiz oranından fazla ise, temerrüt faizi oranı hakkında akdî faiz oranı geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "123",
+   "official_text": "MADDE 123- Karşılıklı borç yükleyen sözleşmelerde, taraflardan biri temerrüde düştüğü takdirde diğeri, borcun ifa edilmesi için uygun bir süre verebilir veya uygun bir süre verilmesini hâkimden isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "124",
+   "official_text": "MADDE 124- Aşağıdaki durumlarda süre verilmesine gerek yoktur:\n1. Borçlunun içinde bulunduğu durumdan veya tutumundan süre verilmesinin etkisiz olacağı anlaşılıyorsa.\n2. Borçlunun temerrüdü sonucunda borcun ifası alacaklı için yararsız kalmışsa.\n3. Borcun ifasının, belirli bir zamanda veya belirli bir süre içinde gerçekleşmemesi üzerine, ifanın artık kabul edilmeyeceği sözleşmeden anlaşılıyorsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "136",
+   "official_text": "I. Genel olarak\nMADDE 136- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle imkânsızlaşırsa, borç sona erer.\nKarşılıklı borç yükleyen sözleşmelerde imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlü olup, henüz kendisine ifa edilmemiş olan edimi isteme hakkını kaybeder. Kanun veya sözleşmeyle borcun ifasından önce doğan hasarın alacaklıya yükletilmiş olduğu durumlar, bu hükmün dışındadır.\nBorçlu ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmez ve zararın artmaması için gerekli önlemleri almazsa, bundan doğan zararları gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "208",
+   "official_text": "B. Yarar ve hasar\nMADDE 208- Kanundan, durumun gereğinden veya sözleşmede öngörülen özel koşullardan doğan ayrık hâller dışında, satılanın yarar ve hasarı; taşınır satışlarında zilyetliğin devri, taşınmaz satışlarında ise tescil anına kadar satıcıya aittir.\nTaşınır satışlarında, alıcının satılanın zilyetliğini devralmada temerrüde düşmesi durumunda zilyetliğin devri gerçekleşmişçesine satılanın yarar ve hasarı alıcıya geçer.\nSatıcı alıcının isteği üzerine satılanı ifa yerinden başka bir yere gönderirse, yarar ve hasar, satılanın taşıyıcıya teslim edildiği anda alıcıya geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "232",
+   "official_text": "MADDE 232- Alıcı, satış sözleşmesinde kararlaştırılmış olduğu biçimde satış bedelini ödemek ve kendisine sunulan satılanı devralmakla yükümlüdür.\nAksine yerel âdet veya anlaşma yoksa, satılanın hemen devralınması gereklidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "315",
+   "official_text": "MADDE 315- Kiracı, kiralananın tesliminden sonra muaccel olan kira bedelini veya yan gideri ödeme borcunu ifa etmezse, kiraya veren kiracıya yazılı olarak bir süre verip, bu sürede de ifa etmeme durumunda, sözleşmeyi feshedeceğini bildirebilir.\nKiracıya verilecek süre en az on gün, konut ve çatılı işyeri kiralarında ise en az otuz gündür. Bu süre, kiracıya yazılı bildirimin yapıldığı tarihi izleyen günden itibaren işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "334",
+   "official_text": "MADDE 334- Kiracı kiralananı ne durumda teslim almışsa, kira sözleşmesinin bitiminde o durumda geri vermekle yükümlüdür. Ancak, kiracı sözleşmeye uygun kullanma dolayısıyla kiralananda meydana gelen eskimelerden ve bozulmalardan sorumlu değildir.\nKiracının, sözleşmenin sona ermesi hâlinde, sözleşmeye aykırı kullanmadan doğacak zararları giderme dışında, başkaca bir tazminat ödeyeceğini önceden taahhüt etmesine ilişkin anlaşmalar geçersizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "352",
+   "official_text": "MADDE 352- Kiracı, kiralananın teslim edilmesinden sonra, kiraya verene karşı, kiralananı belli bir tarihte boşaltmayı yazılı olarak üstlendiği hâlde boşaltmamışsa kiraya veren, kira sözleşmesini bu tarihten başlayarak bir ay içinde icraya başvurmak veya dava açmak suretiyle sona erdirebilir.\nKiracı, bir yıldan kısa süreli kira sözleşmelerinde kira süresi içinde; bir yıl ve daha uzun süreli kira sözleşmelerinde ise bir kira yılı veya bir kira yılını aşan süre içinde kira bedelini ödemediği için kendisine yazılı olarak iki haklı ihtarda bulunulmasına sebep olmuşsa kiraya veren, kira süresinin ve bir yıldan uzun süreli kiralarda ihtarların yapıldığı kira yılının bitiminden başlayarak bir ay içinde, dava yoluyla kira sözleşmesini sona erdirebilir.\nKiracının veya birlikte yaşadığı eşinin aynı ilçe veya belde belediye sınırları içinde oturmaya elverişli bir konutu bulunması durumunda kiraya veren, kira sözleşmesinin kurulması sırasında bunu bilmiyorsa, sözleşmenin bitiminden başlayarak bir ay içinde sözleşmeyi dava yoluyla sona erdirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "408",
+   "official_text": "MADDE 408- İşveren, işgörme ediminin yerine getirilmesini kusuruyla engellerse veya edimi kabulde temerrüde düşerse, işçiye ücretini ödemekle yükümlü olup, işçiden bu edimini daha sonra yerine getirmesini isteyemez. Ancak, işçinin bu engelleme sebebiyle yapmaktan kurtulduğu giderler ile başka bir iş yaparak kazandığı veya kazanmaktan bilerek kaçındığı yararlar ücretinden indirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "483",
+   "official_text": "MADDE 483- Eser teslimden önce beklenmedik olay sonucu yok olursa işsahibi, eseri teslim almada temerrüde düşmedikçe yüklenici, yaptığı işin ücretini ve giderlerinin ödenmesini isteyemez. Bu durumda malzemeye gelen hasar, onu sağlayana ait olur.\nEserin işsahibince verilen malzeme veya gösterilen arsanın ayıbı veya işsahibinin talimatına uygun yapılması yüzünden yok olması durumunda yüklenici, doğabilecek olumsuz sonuçları zamanında bildirmişse, yaptığı işin değerini ve bu değere girmeyen giderlerinin ödenmesini isteyebilir. İşsahibinin kusuru varsa, yüklenicinin ayrıca zararının giderilmesini de isteme hakkı vardır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "593",
+   "official_text": "e. Ödemenin kabulünü isteme\nMADDE 593- Borçlunun iflası sebebiyle olsa bile, borç muaccel olduğu takdirde kefil, alacaklıdan yapacağı ödemeyi kabul etmesini her zaman isteyebilir. Bir borca birden çok kişinin kefil olması durumunda alacaklı, kefillerden biri tarafından yapılacak kısmi ödemeyi, bunu öneren kefile düşen paydan az olmamak koşuluyla, kabul etmek zorundadır.\nAlacaklı haklı bir sebep olmaksızın ödemeyi kabul etmekten kaçınırsa, kefil borcundan kurtulur; birlikte müteselsil kefalette ise, kefillerin sorumluluğu kendilerine düşen pay miktarınca azalır.\nAlacaklının rızası varsa kefil, asıl borcu muaccel olmasından önce de ödeyebilir. Ancak, bu durumda kefil, asıl borçluya karşı rücu hakkını borcun muaccel olmasından önce kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "382",
+   "official_text": "Çekişmesiz yargı işleri\nMADDE 382- (1) Çekişmesiz yargı, hukukun, mahkemelerce, aşağıdaki üç ölçütten birine veya birkaçına göre bu yargıya giren işlere uygulanmasıdır:\na) İlgililer arasında uyuşmazlık olmayan hâller.\nb) İlgililerin, ileri sürülebileceği herhangi bir hakkının bulunmadığı hâller.\nc) Hâkimin resen harekete geçtiği hâller.\n(2) Aşağıdaki işler çekişmesiz yargı işlerinden sayılır:\na) Kişiler hukukundaki çekişmesiz yargı işleri:\n1) Ergin kılınma.\n2) Ad ve soyadın değiştirilmesi.\n3) Ölüm karinesi sebebiyle (ilgili yerin mülkî amirinin emriyle) nüfus kütüğüne ölü kaydı düşülen kişinin sağ olduğunun tespiti.\n4) Gaiplik kararı.\n5) Kişisel durum sicilindeki kaydın düzeltilmesi.\nb) Aile hukukundaki çekişmesiz yargı işleri:\n1) Henüz evlenme yaşında olmayanların evlenmesine izin verme.\n2) Gaiplik nedeniyle evliliğin feshi.\n3) Evlendirme memurunun, evlenme başvurusunu ret kararına karşı yapılan itiraz.\n4) Yeniden evlenmede bekleme süresinin hâkim tarafından kaldırılması.\n5) Terk eden eşin ortak konuta davet edilmesi.\n6) Eşlerden birinin, evlilik birliğini tek başına temsil etmek konusunda yetkili kılınması.\n7) Aile konutu ile ilgili işlemler için diğer eşin rızasının sağlanamadığı hâllerde hâkimin müdahalesinin istenmesi.\n8) Mevcut mal rejiminin eşlerden birinin veya alacaklıların talebiyle mal ayrılığına dönüştürülmesi ve sebeplerin ortadan kalkması hâlinde mal ayrılığından eski rejime geri dönülmesi.\n9) Paylaşmalı mal ayrılığında boşanma veya evliliğin iptali hâlinde, aile konutu ve ev eşyasını hangi eşin kullanmaya devam edeceği hakkında karar verilmesi.\n10) Sağ kalan eşe aile konutu üzerinde ve ev eşyası üzerinde mülkiyet veya intifa hakkı tanınması.\n11) Mal ortaklığında eşlerden birinin mirası reddine izin verilmesi.\n12) Ana babaya çocuğun mallarından bir kısmını çocuğun bakım ve eğitimi için sarf etme izninin verilmesi.\n13) Velayetin kaldırılması, velayetin eşlerden birinden alınarak diğerine verilmesi ve kaldırılan velayetin geri verilmesi.\n14) Hâkimin çocuğun mallarının yönetimine müdahale etmesi ve çocuğun mallarının yönetiminin kayyıma devri.\n15) Evlilik sona erince velayet kendisinde kalan eşin, hâkime çocuğun malları hakkında defter sunması.\n16) Aile yurdunun kurulmasına izin verilmesi, kuruluşun tebliğ ve ilanı, kapatılması hâlinde tapu sicilindeki şerhin silinmesine izin verilmesi, taşınmazın bizzat malik veya ailesi tarafından kullanılması şartına geçici olarak istisna tanınması.\n17) 14/1/1998 tarihli ve 4320 sayılı Ailenin Korunmasına Dair Kanuna göre aile mahkemesi hâkimi tarafından karar verilecek tedbirler.\n18) Çocuk hâkimi tarafından, çocuğun anası, babası, vasisi, bakım ve gözetiminden sorumlu kimse, Sosyal Hizmetler ve Çocuk Esirgeme Kurumu ve Cumhuriyet savcısının istemi üzerine veya resen çocuklar hakkında koruyucu ve destekleyici tedbir kararı alınması.\n19) Vesayet işleri.\nc) Miras hukukundaki çekişmesiz yargı işleri:\n1) Sulh hâkimi tarafından resmî vasiyetname düzenlenmesi; el yazısı ile vasiyetnamenin sulh hâkimi tarafından saklanması; sözlü vasiyetname tutanağının sulh veya asliye mahkemesine tevdiî.\n2) Vasiyeti yerine getirme görevlisine görevinin bildirilmesi.\n3) Vasiyeti yerine getirme görevlisinin tereke malları üzerinde tasarruf etmesine izin verilmesi.\n4) Gaibin mirasçılarına, gaibe düşen miras payının teslim edilmesi.\n5) Tereke mallarının korunması ve hak sahiplerine ulaşmasını sağlamak için önlem alınması.\n6) Mirasçılık belgesi verilmesi.\n7) Terekenin yazımı işleminin sona erdiğinin mirasçılara bildirilmesi, mirasın reddi beyanının tespiti ve tescili; mirasın reddinin, mirası reddeden kişiden sonra gelen mirasçılara bildirilmesi; mirasın reddi süresinin uzatılması.\n8) Terekenin resmî defterinin tutulması.\n9) Sulh hâkiminin özellikleri olan eşyanın mirasçılardan birine tahsis edilmesi veya satılmasına karar vermesi.\nç) Eşya hukukundaki çekişmesiz yargı işleri:\n1) Taşınmaz üzerinde taraf oluşturulmasına ve hak ihlaline sebebiyet vermeyecek düzeltmelerin yapılması.\n2) Taşınmaz rehninde alacaklı için kayyım tayini.\nd) Borçlar hukukundaki çekişmesiz yargı işleri:\n1) Yetkisi sona eren temsilcinin temsil belgesini mahkemeye teslimi.\n2) Borçluya ifa veya teminat göstermesi için süre verilmesi.\n3) Tevdi mahalli belirlenmesi veya tevdi edilemeyecek eşyanın satılması.\n4) Alacaklısı ihtilaflı olan borcun mahkemeye tevdiî.\n5) Ayıplı hayvanın bilirkişi tarafından muayenesi.\n6) Mesafeli satımlarda ayıbın tespiti veya ayıplı malın satılmasına izin verilmesi.\n7) İşçiye kârdan hisse verilmesini öngören iş sözleşmesinde, mahkemenin işverenin hesaplarını inceleyecek bir kişi tayin etmesi.\n8) Eser sözleşmesinde eserin ayıplı olup olmadığının bilirkişiye tespit ettirilmesi.\n9) Satılmak için komisyoncuya gönderilen eşyanın hasarının tespiti.\n10) Komisyoncu elindeki malın açık artırma ile satışına izin verilmesi.\ne) Ticaret hukukundaki çekişmesiz yargı işleri:\n1) Ticari defterlerin zıyaı hâlinde belge verilmesi.\n2) Acentenin müvekkili hesabına teslim aldığı malın Borçlar Kanununa göre satılması.\n3) Kollektif şirketin tasfiyesinde tasfiye memuru tayini.\n4) Komanditer ortağın talebiyle şirket hesaplarını incelemek için eksper tayini.\n5) Anonim şirkette ayni sermaye konulması, tescilden itibaren iki yıl içinde sermayenin onda birini aşan tutarda işletme devralınması ve sermaye azaltılmasında bilirkişi raporu alınması ve mahkemenin izni.\n6) Kıymetli evrakın iptali.\n7) Eşya taşımada eşyanın hasar ve eksiğinin tespit edilmesi; teslim edilememesi hâlinde Borçlar Kanunu hükümlerine göre satılmasına karar verilmesi; gönderilen eşyanın mahkeme marifetiyle muayenesi.\n8) Gemi ipoteğinde, malikin bulunamadığı hâllerde kayyım tayini.\n9) Deniz raporu tanzimi.\n10) Kırkambar sözleşmesinde geminin hareket gününün mahkeme tarafından tayini.\n11) Navlun sözleşmesinde, boşaltma limanında malların hâl ve vaziyetinin, ölçü, sayı ve tartısının ekspere tespit ettirilmesi.\n12) Müşterek avaryalarda dispeççi tayini ve dispecin mahkemece tasdiki.\n13) Denizcilik rizikolarına karşı sigortalarda zararın ve kapsamının belirlenmesi için bilirkişi tayini.\n14) Kooperatiflerde ayni sermayeye değer biçilmesi için bilirkişi tayini.\nf) İcra ve iflas hukukundaki çekişmesiz yargı işleri:\n1) İpotekli alacakta alacaklının gaipliği veya alacağı almaktan kaçınması hâlinde, borç tutarının icra dairesine tevdi edilmesi üzerine icra mahkemesi tarafından ipoteğin fekkine karar verilmesi.\n2) Doğrudan doğruya iflas.\n3) İflasın kaldırılması.\n4) İflasın kapanmasına karar verilmesi.\n5) Reddolunmuş mirasın tasfiyesinin, mirasçılardan birinin mirası kabul talebi üzerine mahkeme tarafından durdurulması.\n6) Konkordato mühleti verilmesi ve komiserin atanması.\n7) Konkordatonun tasdiki.\n8) Sermaye şirketleri ve kooperatiflerin uzlaşma yoluyla yeniden yapılandırılmasında projenin ilanı ve ara dönem denetçisinin atanması.\n9) Fevkalade hâllerde, kusuru olmaksızın borçlarını yerine getiremeyen borçluya mühlet verilmesi.\ng) Çeşitli kanunlardaki çekişmesiz yargı işleri:\n1) Nüfus kütüklerinin sayfa birleşim yerlerinin asliye hukuk mahkemesince mühürlenmesi.\n2) Noterlerin göreve başlarken mahkemede yemin ettirilmeleri.\n3) Noter evrak ve defterlerinden alınarak başka yere gönderilecek örneklerin mahkeme tarafından tasdiki.\n4) Kamu görevlilerinin mahkeme huzurunda kanunen yemin etme zorunluluğunun öngörüldüğü diğer durumlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "383",
+   "official_text": "Görevli mahkeme\nMADDE 383- (1) Çekişmesiz yargı işlerinde görevli mahkeme, aksine bir düzenleme bulunmadığı sürece sulh hukuk mahkemesidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "153",
+   "official_text": "İpotekli alacakta alacaklının gaip bulunması veya borcu almaktan imtinaı:\nMadde 153 – İpotekle temin edilmiş ve vadesi gelmiş bir alacağın borçlusu icra dairesine müracaatla alacaklısının gaip ve yerleşim yerinin meçhul bulunduğunu veya borcu almaktan ve ipoteği çözmekten imtina ettiğini beyan ederse icra dairesi on beş gün içinde daireye gelerek parayı almasını ve ipoteği çözmesini alacaklıya usulüne göre tebliğ eder. Alacaklı bu müddet içinde gelmediği veya gelipte kanunen makbul bir sebep beyan etmeksizin parayı almaktan ve ipoteği çözmekten imtina eylediği takdirde borçlu borcunu icra dairesine tamamiyle yatırırsa icra mahkemesi verilen paranın alacaklı namına hıfzına ve ipotek kaydının terkinine karar verir. Bu karar tapu dairesine tebliğ edilerek ipotekli taşınmazın sicilline geçirilir.\nVadesi gelmeyen borcun ipotek senedi mucibince işlemiş ve işleyecek bütün faizleri ile birlikte tediyesini deruhde eden borçlu hakkında da yukarıki hüküm cereyan eder.\n(Ek: 29/6/1956-6763/42 md.; Mülga üçüncü fıkra: 14/1/2011-6103/41 md.)\nRehnin paraya çevrilmesine ilişkin hükümlerin gemilere uygulanması:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "23",
+   "official_text": "5. Ticari satış ve mal değişimi\nMADDE 23- (1) Bu maddedeki özel hükümler saklı kalmak şartıyla, tacirler arasındaki satış ve mal değişimlerinde de Türk Borçlar Kanununun satış sözleşmesi ile mal değişim sözleşmesine ilişkin hükümleri uygulanır.\na) Sözleşmenin niteliğine, tarafların amacına ve malın cinsine göre, satış sözleşmesinin kısım kısım yerine getirilmesi mümkün ise veya bu şartların bulunmamasına rağmen alıcı, çekince ileri sürmeksizin kısmi teslimi kabul etmişse; sözleşmenin bir kısmının yerine getirilmemesi durumunda alıcı haklarını sadece teslim edilmemiş olan kısım hakkında kullanabilir. Ancak, o kısmın teslim edilmemesi dolayısıyla sözleşmeden beklenen yararın elde edilmesi veya izlenen amaca ulaşılması imkânı ortadan kalkıyor veya zayıflıyorsa ya da durumdan ve şartlardan, sözleşmenin kalan kısmının tam veya gereği gibi yerine getirilemeyeceği anlaşılıyorsa alıcı sözleşmeyi feshedebilir.\nb) Alıcı mütemerrit olduğu takdirde satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme, satışın açık artırma yoluyla veya bu işle yetkilendirilen bir kişi aracılığıyla yapılmasına karar verir. Satıcı isterse satış için yetkilendirilen kişi, satışa çıkarılacak malın niteliklerini bir uzmana tespit ettirir. Satış giderleri satış bedelinden çıkarıldıktan sonra artan para, satıcının takas hakkı saklı kalmak şartıyla, satıcı tarafından alıcı adına bir bankaya ve banka bulunmadığı takdirde notere bırakılır ve durum hemen alıcıya ihbar edilir.\nc) Malın ayıplı olduğu teslim sırasında açıkça belli ise alıcı iki gün içinde durumu satıcıya ihbar etmelidir. Açıkça belli değilse alıcı malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve bu inceleme sonucunda malın ayıplı olduğu ortaya çıkarsa, haklarını korumak için durumu bu süre içinde satıcıya ihbarla yükümlüdür. Diğer durumlarda, Türk Borçlar Kanununun 223 üncü maddesinin ikinci fıkrası uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/493",
+   "karar_no": "2020/932",
+   "decision_date": "24.11.2020",
+   "summary_md": "Davacı iş sahibi, şantiyesine kurulacak bir asfalt plentinin imali ve montajı için davalı yükleniciyle sözleşme yapmış, eser zamanında teslim edilmeyince sözleşmeyi feshetmiştir. Yüklenicinin şantiyeye getirdiği yedi bitüm tankı ile bir kızgın yağ jeneratörü ve bacası iş sahibinin elinde kalmış; iş sahibi iki ihtarla bunların alınmasını istemiş, sonuç alamayınca korunma ve saklama giderinin malzemelerin değerini aştığını ileri sürerek satışa izin verilmesini talep etmiştir. İlk derece mahkemesi, davacının tevdi edeceği bir borç konusu bulunmadığı gerekçesiyle davayı hukuki yarar yokluğundan reddetmiş, özel dairenin bozma kararına da direnmiştir. Hukuk Genel Kurulu direnme kararını oy birliğiyle bozmuştur. Gerekçeye göre fesihle iş sahibi bu malzemeleri iade borcu altına girmiş, ihtarlara rağmen almayan yüklenici temerrüde düşmüştür. İhtar şartı yerine getirildiğinden TBK m. 108'in şartları keşifle araştırılmalıdır; satış şartlarının gerçekleşip gerçekleşmediğine ve satışın biçimine borçlu değil mahkeme karar verir. Konuya katkısı: alacaklı ve borçlu sıfatının somut borca göre belirlendiğini ve satma hakkında ihtar ile hâkim izninin önemini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/638623900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "17. Hukuk Dairesi",
+   "esas_no": "2015/10099",
+   "karar_no": "2018/4637",
+   "decision_date": "07.05.2018",
+   "summary_md": "Kullandığı araçla yaptığı kazada ölen sürücünün eşi ve çocukları, aracın trafik sigortacısına destekten yoksun kalma tazminatı davası açmış ve talebi ıslahla 250.000 TL'ye çıkarmıştır. Sigortacı, ıslah dilekçesinin tebliğinden sonra asıl alacak ve fer'ileri olarak kendi hesapladığı toplam 296.400 TL'yi davacılar vekilinin hesabına yatırmış; vekil, uzlaşma olmadığı ve hesabın neye göre yapıldığının belli olmadığı gerekçesiyle parayı iade etmiştir. Mahkeme, parayı iade eden davacıların alacaklı temerrüdüne düştüğünü ve davanın konusuz kaldığını kabul etmiştir. Yargıtay 17. Hukuk Dairesi kararı bozmuştur. Gerekçeye göre sigortacı fer'iler, özellikle faiz türü konusunda kendi belirlemesiyle ödeme yaptığından davacıların kabulden kaçınma hakkı vardır ve alacaklı temerrüdünün şartları oluşmamıştır. Daire, temerrüt gerçekleşmiş sayılsa bile TBK m. 109/2 uyarınca alacağın yan haklarıyla sürdüğünü, ödemenin yalnız davalının temerrüdünü kesip temerrüt faizini durduracağını belirtmiştir. Konuya katkısı: alacaklı temerrüdünün borcu sona erdirmediğini ve tartışmalı bir hesapla yapılan öneriyi reddetmenin haklı sebep olabileceğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/429146200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/1494",
+   "karar_no": "2025/3047",
+   "decision_date": "26.05.2025",
+   "summary_md": "İki bölge adliye mahkemesi dairesi, kiracının ödeme yeri (tevdi mahalli) belirlenmesi talebinde talep dilekçesinin kiraya verene tebliğinin gerekip gerekmediği konusunda farklı kesin kararlar vermiştir. Her iki olayda da kiracı, yasal artışla ödediği kiraların iade edildiğini ve kiraya verenin hesabını kapattığını ileri sürmüş; ilk derece mahkemeleri TBK m. 106-107'ye dayanarak alacaklı temerrüdünü kabul edip ödeme yeri belirlemiştir. Uyuşmazlığın giderilmesi istemi üzerine Yargıtay 3. Hukuk Dairesi, tevdi mahalli belirlenmesinin HMK m. 382'de sayılan bir çekişmesiz yargı işi olduğunu, kararın uyuşmazlığın esasını çözmediğini ve kesin hüküm oluşturmadığını vurgulamıştır. Daireye göre sözleşmedeki ya da teamülen kullanılan hesabın kapatılması veya konutta ödemeli gönderilen kiranın alınmaması hâlinde TBK m. 107'ye göre tevdi mahalli gündeme gelir; mahkeme kiraya veren adına açılan bir hesabı belirleyerek kiracının temerrüdünü önler. Tebliğ ve cevap süresi beklenirse kiracı TBK m. 315 ve m. 352/2'deki ağır sonuçlarla karşılaşabileceğinden talep kiraya verene tebliğ edilmeden karara bağlanabilir; bu, hukuki dinlenilme hakkını ihlal etmez. Konuya katkısı: para borcunda tevdiin uygulamadaki işleyişini ve amacını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1155984600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 106/1'de alacaklının temerrüdü için sayılan unsurlar arasında **yer almayan** hangisidir?",
+   "options": [
+    "Kaçınmanın haklı bir sebebe dayanmaması",
+    "Alacaklının kabulden kaçınmakta kusurlu olması",
+    "Yapma veya verme ediminin alacaklıya gereği gibi önerilmesi",
+    "Alacaklının edimi kabulden ya da kendisine düşen hazırlık fiillerinden kaçınması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 106/1 öneriyi, kabulden ya da hazırlık fiillerinden kaçınmayı ve kaçınmanın haklı bir sebebe dayanmamasını arar; kusurdan söz etmez. Baskın görüş de alacaklının kusurunu aramaz. \"Haklı sebep\" objektif bir ölçüttür ve kusurla aynı şey değildir."
+  },
+  {
+   "stem_md": "Mobilyacı Ali, Ayşe'ye sattığı dolabı kararlaştırılan gün ve saatte Ayşe'nin evine götürür. Ayşe aynı sabah ani bir rahatsızlıkla hastaneye kaldırılmıştır; evde kimse olmadığından teslim yapılamaz. **Baskın görüşe göre** hangisi doğrudur?",
+   "options": [
+    "Ali'nin borcu, dolabı götürmekle kendiliğinden sona ermiştir.",
+    "Ayşe kusursuz olduğu için alacaklı temerrüdüne düşmez.",
+    "Kabulü engelleyen sebep Ayşe'nin kendi alanında doğduğundan, kusuru olmasa da Ayşe alacaklı temerrüdüne düşer.",
+    "Dolap teslim edilemediği için Ali borçlu temerrüdüne düşer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Alacaklı temerrüdü için kusur aranmaz; belirleyici olan kaçınmanın objektif olarak haklı bir sebebe dayanıp dayanmadığıdır. Alacaklının hastalığı onun kendi alanındaki bir engeldir ve haklı sebep sayılmaz (TBK m. 106/1). Alacaklı temerrüdü varken aynı borç için Ali temerrüde düşmez. Ancak borç kendiliğinden de bitmez; Ali kurtulmak için tevdi gibi kanuni yollara başvurmalıdır."
+  },
+  {
+   "stem_md": "Murat, kış için odun alan komşusu Gül'e 5 ton odunu tek seferde teslim etmeyi üstlenmiştir. Teslim günü yalnız 4 ton getirir; Gül odunu almayı reddeder. Hangisi doğrudur?",
+   "options": [
+    "Murat 4 ton odunu tevdi ederek 5 tonluk borcunun tamamından kurtulur.",
+    "Gül'ün reddi kusurlu bir davranış olduğundan Murat'ın zararını tazmin eder.",
+    "Borcun tamamı belli ve muaccel olduğundan Gül kısmi ifayı reddedebilir; reddi haklı olduğundan alacaklı temerrüdüne düşmez.",
+    "Gül 4 tonu almak zorundadır; almadığı için alacaklı temerrüdüne düşmüştür."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Alacaklı temerrüdü için edimin gereği gibi, yani tam olarak önerilmesi gerekir. Borcun tamamı belli ve muaccelse alacaklı kısmi ifayı reddedebilir (TBK m. 84/1). Bu ret haklı bir sebebe dayandığından Gül temerrüde düşmez (TBK m. 106/1). Eksik edimi tevdi etmek de borcun tamamından kurtarmaz."
+  },
+  {
+   "stem_md": "Terzi Fatma, Elif'in gelinliğini dikmeyi üstlenmiştir; sözleşmeye göre kumaşı Elif getirecektir. Fatma defalarca istemesine rağmen Elif haklı bir sebep olmaksızın kumaşı getirmez. Hangisi doğrudur?",
+   "options": [
+    "Elif'in temerrüde düşmesi için önce Fatma'nın gelinliği dikip tevdi etmesi gerekir.",
+    "Kumaşı getirmek Elif'in yapması gereken bir hazırlık fiilidir; bundan haklı bir sebep olmaksızın kaçınan Elif alacaklı temerrüdüne düşer.",
+    "Hazırlık fiilleri TBK m. 106'da sayılmadığından Elif temerrüde düşmez.",
+    "Gelinlik zamanında yetişmezse Fatma borçlu temerrüdüne düşer ve gecikme tazminatı öder."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 106/1, alacaklının yalnız edimi kabulden değil, borçlunun ifa edebilmesi için kendisinin yapması gereken hazırlık fiillerinden kaçınmasını da temerrüt sebebi sayar. Kumaşı vermemek tipik bir hazırlık fiilinden kaçınmadır. Alacaklı temerrüdü aynı edim için borçlu temerrüdünü dışladığından Fatma gecikmeden sorumlu tutulamaz."
+  },
+  {
+   "stem_md": "TBK m. 106/2'ye göre alacaklı, müteselsil borçlulardan birine karşı temerrüde düşerse ne olur?",
+   "options": [
+    "Diğer borçlulara karşı da temerrüde düşmüş olur.",
+    "Diğer borçlulara karşı ancak onlara ayrıca ihtar çekilirse temerrüde düşer.",
+    "Yalnız o borçluya karşı temerrüde düşer; diğerleri borçlu temerrüdüne düşebilir.",
+    "Diğer borçlular borçtan kendiliğinden kurtulur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 106/2 açıktır: Alacaklı müteselsil borçlulardan birine karşı temerrüde düşerse diğerlerine karşı da temerrüde düşmüş olur. Bu, diğer borçluları borçtan kurtarmaz; ama alacaklı temerrüdünün sonuçları, örneğin borçlu temerrüdünün doğmaması, onlar için de geçerli olur."
+  },
+  {
+   "stem_md": "Alacaklının temerrüdünün **genel sonuçları** hakkında hangisi doğrudur?",
+   "options": [
+    "Alacaklı temerrüdü sürerken aynı alacak için borçlu temerrüdü de devam eder.",
+    "Borçlu, alacaklı temerrüdü nedeniyle her durumda alacaklıdan tazminat isteyebilir.",
+    "Alacaklı temerrüdü borcu kendiliğinden sona erdirir.",
+    "Borçlu, kural olarak alacaklıyı dava yoluyla edimi kabule zorlayamaz; borcundan ancak tevdi, satış ya da dönme gibi kanuni yollarla kurtulur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kabul, alacaklı için kural olarak bir külfettir. Bu yüzden alacaklı kabule zorlanamaz ve temerrüdü tek başına tazminat doğurmaz. Borç da kendiliğinden bitmez; borçlu TBK m. 107-110'daki yollarla kurtulur. Aynı alacak bakımından alacaklı temerrüdü borçlu temerrüdünü dışlar. Kabulün borç olarak yüklendiği hâller (TBK m. 232/1) ayrıktır."
+  },
+  {
+   "stem_md": "Ahmet, Banu'ya olan 100.000 TL borcunu vadesinde ödemeyip temerrüde düşmüştür. İki ay sonra anapara, işlemiş temerrüt faizi ve masrafların tamamını Banu'nun evine götürür. Banu haklı bir sebep olmaksızın parayı almaz. Hangisi doğrudur?",
+   "options": [
+    "Banu almadığı için borç kendiliğinden sona ermiştir.",
+    "Ahmet'in temerrüdü sona erer ve Banu'nun kabulden kaçındığı andan itibaren temerrüt faizi işlemez; Ahmet borcundan kurtulmak için parayı tevdi etmelidir.",
+    "Ahmet temerrüde düşmüş olduğundan önerisi hüküm doğurmaz; temerrüt faizi işlemeye devam eder.",
+    "Banu'nun reddi Ahmet'e, Banu'dan her durumda tazminat isteme hakkı verir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Temerrüde düşmüş borçlu, borcun tamamını işlemiş faiz ve masraflarla birlikte gereği gibi önerirse temerrüdü sona erer. Alacaklının haklı sebep olmadan reddiyle alacaklı temerrüdü doğar. Aynı alacak için borçlu temerrüdü bulunamayacağından temerrüt faizi de işlemez (TBK m. 106/1, m. 120). Ancak alacaklı temerrüdü borcu bitirmez; Ahmet kurtulmak için parayı tevdi etmelidir (TBK m. 107)."
+  },
+  {
+   "stem_md": "Satış sözleşmesinde alıcının satılanı devralması hakkında hangisi doğrudur?",
+   "options": [
+    "Devralma borcu yalnız tacirler arasındaki satışlarda vardır.",
+    "Alıcı için yalnız bir haktır; devralmamasının satıcı bakımından hiçbir sonucu yoktur.",
+    "Alıcı kendisine sunulan satılanı devralmakla yükümlüdür; haklı sebep olmadan devralmayan alıcı alacaklı temerrüdüne düşer ve ayrıca kendi borcuna aykırı davranmış olur.",
+    "Alıcı devralmazsa satış sözleşmesi kendiliğinden sona erer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Alacaklının kabulü kural olarak külfettir; ama satışta kanun devralmayı alıcıya borç olarak yüklemiştir (TBK m. 232/1). Bu nedenle devralmaktan kaçınan alıcıya karşı satıcı, tevdi ve satış gibi yolların yanında borca aykırılık ve borçlu temerrüdü hükümlerine de başvurabilir. Sözleşme kendiliğinden sona ermez."
+  },
+  {
+   "stem_md": "Emekli Kaan, kullandığı motosikletini komşusu Ece'ye satmıştır. Kararlaştırılan teslim günü motosikleti hazır eder ve Ece'ye gelip almasını söyler. Ece haklı bir sebep olmaksızın gelmez. İki gün sonra motosiklet, Kaan'ın hiçbir kusuru olmadan çıkan bir yangında yanar. Hangisi doğrudur?",
+   "options": [
+    "Kaan motosikleti tevdi etmediği için hasar hiçbir durumda Ece'ye geçmemiştir.",
+    "Zilyetlik devredilmediği için hasar Kaan'dadır; Ece bedeli ödemez.",
+    "Ece zilyetliği devralmada temerrüde düştüğünden yarar ve hasar ona geçmiştir; Ece satış bedelini ödemekle yükümlüdür.",
+    "Taraflar zararı yarı yarıya paylaşır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Taşınır satışlarında alıcı satılanın zilyetliğini devralmada temerrüde düşerse, zilyetliğin devri gerçekleşmişçesine yarar ve hasar alıcıya geçer (TBK m. 208/2). Bu özel hüküm karşısında hasarın geçmesi için tevdi beklenmez. Satılan Kaan'ın kusuru olmadan yok olduğu için Ece bedeli öder."
+  },
+  {
+   "stem_md": "Ticari mal olmayan bir eşyanın alacaklı temerrüdü nedeniyle tevdi edileceği yeri kim belirler?",
+   "options": [
+    "Borçlu, dilediği bir depoyu kendisi seçer.",
+    "Alacaklının yerleşim yerindeki noter",
+    "İfa yerindeki hâkim",
+    "Borçlunun yerleşim yerindeki icra dairesi"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 107/2'ye göre tevdi yerini ifa yerindeki hâkim belirler. Bu, sulh hukuk mahkemesinin baktığı bir çekişmesiz yargı işidir (HMK m. 382-383). Hâkim kararı olmadan tevdi yalnız ticari mallar için ve bir ardiyeye yapılabilir."
+  },
+  {
+   "stem_md": "TBK m. 107/2'ye göre **ticari mallar** bakımından hangisi doğrudur?",
+   "options": [
+    "Ancak alacaklıya önceden ihtar çekildikten sonra tevdi edilebilirler.",
+    "Tevdi edilemezler, satılmaları zorunludur.",
+    "Yalnız alacaklının yazılı rızasıyla tevdi edilebilirler.",
+    "Hâkim kararı olmadan da bir ardiyeye tevdi edilebilirler."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 107/2, tevdi yerini kural olarak ifa yerindeki hâkimin belirleyeceğini söyledikten sonra ticari malların hâkim kararı olmadan da bir ardiyeye tevdi edilebileceğini kabul eder. Tevdi için kanun önceden ihtar aramaz; önceden ihtar satma hakkının şartıdır (TBK m. 108/1)."
+  },
+  {
+   "stem_md": "TBK m. 108/1'e göre aşağıdakilerden hangisi borçluya **satma hakkı vermez**?",
+   "options": [
+    "Alacaklının borçluya uzak bir şehirde oturması",
+    "Şeyin niteliğinin veya işin özelliğinin tevdie uygun olmaması",
+    "Şeyin bakımının, korunmasının ya da tevdiinin önemli bir gider gerektirmesi",
+    "Teslim edilecek şeyin bozulabilir olması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 108/1 üç sebep sayar: şeyin niteliği veya işin özelliğinin tevdie uygun olmaması, şeyin bozulabilir olması ve bakımının, korunmasının ya da tevdiinin önemli bir gider gerektirmesi. Alacaklının uzakta oturması tek başına satış sebebi değildir; borçlu bu durumda tevdi yolunu kullanır."
+  },
+  {
+   "stem_md": "Bahçesinde sebze yetiştiren Mehmet, komşusu Zeynep'e 300 kg domates satmıştır. Teslim günü Zeynep haklı bir sebep olmaksızın domatesleri almaz. Domatesler birkaç gün içinde bozulacaktır ve pazarda belirli bir fiyatları vardır. Mehmet'in hukuki durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Domatesleri hâkim izni olmadan, dilediği fiyata kendi başına satabilir.",
+    "Hâkimin izniyle domatesleri sattırıp bedelini tevdi edebilir; piyasa fiyatı olduğu için satışın açık artırmayla yapılması zorunlu değildir.",
+    "Satış ancak Zeynep yazılı olarak izin verirse mümkündür.",
+    "Domatesleri bozulmaya bırakıp Zeynep'ten yalnız tazminat isteyebilir; satış yolu kapalıdır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Teslim edilecek şey bozulabilir nitelikteyse borçlu hâkimin izniyle onu sattırıp bedelini tevdi edebilir (TBK m. 108/1). Şeyin piyasa fiyatı varsa açık artırma zorunlu değildir; hâkim önceden ihtar koşulunu da aramayabilir (TBK m. 108/2). Hâkim izni her durumda gerekir, alacaklının rızası ise aranmaz."
+  },
+  {
+   "stem_md": "TBK m. 109'a göre tevdi edilen şeyin geri alınması hakkında hangisi doğrudur?",
+   "options": [
+    "Borçlu geri alabilir; ancak geri alınca alacak sona erer ve alacaklı yalnız tazminat isteyebilir.",
+    "Geri alma yalnız alacaklının yazılı izniyle mümkündür ve geri alınca rehin ile kefalet sona erer.",
+    "Alacaklı kabul ettiğini açıklamadıkça ya da tevdi bir rehnin kalkması sonucunu doğurmadıkça borçlu geri alabilir; geri alırsa alacak bütün yan haklarıyla varlığını sürdürür.",
+    "Tevdi edilen şey hiçbir durumda geri alınamaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 109/1 geri almayı iki durumda engeller: alacaklının tevdi edilen şeyi kabul ettiğini açıklaması ve tevdiin bir rehnin ortadan kaldırılması sonucunu doğurması. Bunların dışında borçlu geri alabilir. Geri alma anında alacak bütün yan haklarıyla birlikte varlığını sürdürür (TBK m. 109/2)."
+  },
+  {
+   "stem_md": "Yargıtay 3. Hukuk Dairesinin 2025'te bölge adliye mahkemeleri arasındaki görüş ayrılığını gideren kararına göre, kiracının ödeme yeri (tevdi mahalli) belirlenmesi talebi hakkında hangisi doğrudur?",
+   "options": [
+    "Çekişmeli bir dava olduğundan talep kiraya verene tebliğ edilmeli ve cevap süresi beklenmelidir.",
+    "Verilen karar kira bedelinin miktarı konusunda kesin hüküm oluşturur.",
+    "Çekişmesiz yargı işi olduğundan talep kiraya verene tebliğ edilmeden karara bağlanabilir; bu, hukuki dinlenilme hakkını ihlal etmez.",
+    "Talep asliye hukuk mahkemesinde, dava yoluyla ileri sürülmelidir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Tevdi mahalli belirlenmesi HMK m. 382'de çekişmesiz yargı işleri arasında sayılır ve görevli mahkeme sulh hukuk mahkemesidir (HMK m. 383). Yargıtay, tebliğ ve cevap süresinin beklenmesinin kiracıyı temerrüde ve tahliye riskine sokabileceğini belirterek talebin tebliğsiz karara bağlanabileceğini kabul etmiştir. Karar uyuşmazlığın esasını çözmez ve kesin hüküm oluşturmaz; ilgililer istinafa başvurabilir."
+  },
+  {
+   "stem_md": "Ressam Deniz, Can'ın portresini yapmayı üstlenmiştir. Sözleşmeye göre Can her cumartesi poz vermek için atölyeye gelecektir. Can haklı bir sebep olmaksızın bir aydır gelmemekte, portreye bu yüzden başlanamamaktadır. Deniz'in hukuki durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Deniz boş tuvali tevdi ederek borcundan kurtulur.",
+    "Tevdi edilecek bir şey olmadığından Deniz sözleşmeyle süresiz olarak bağlı kalır.",
+    "Deniz, Can'a uygun bir süre verip bu sürede de gelmezse, borçlu temerrüdüne ilişkin hükümlere göre sözleşmeden dönebilir.",
+    "Can'ın gelmemesi Deniz'i kendiliğinden borcundan kurtarır ve sözleşme sona erer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Borcun konusu bir şeyin teslimini gerektirmiyorsa borçlu, alacaklı temerrüdünde borçlu temerrüdüne ilişkin hükümlere göre sözleşmeden dönebilir (TBK m. 110). Bu atıf nedeniyle Deniz kural olarak uygun bir süre verir (TBK m. 123) ve süre sonuçsuz kalırsa dönme iradesini açıklar (TBK m. 125). Alacaklı temerrüdü sözleşmeyi kendiliğinden sona erdirmez."
+  },
+  {
+   "stem_md": "Kiracı Emre'nin kiraladığı dairenin maliki ve kiraya vereni Hasan ölmüştür. Mirasçılardan biri kiranın kendisine, diğeri başka bir hesaba ödenmesini noter ihtarıyla istemektedir; mirasçılık belgesi de ibraz edilmemiştir. Emre için hangisi doğrudur?",
+   "options": [
+    "Alacaklının kim olduğunda kusuru olmaksızın duraksadığı için Emre, sulh hukuk mahkemesinden tevdi yeri belirlenmesini isteyip kirayı oraya yatırabilir.",
+    "Emre kirayı ilk ihtarı gönderen mirasçıya öderse her durumda borcundan kurtulur.",
+    "Emre'nin kirayı kendi adına açtığı bir hesapta bekletmesi tevdi sayılır.",
+    "Tevdi yalnız alacaklının temerrüdü hâlinde mümkün olduğundan Emre'nin tevdi imkânı yoktur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 111'e göre borçlunun kusuru olmaksızın alacağın kime ait olduğunda ya da alacaklının kimliğinde duraksama nedeniyle borç ifa edilemiyorsa borçlu, alacaklı temerrüdündeki gibi tevdi hakkını kullanabilir. Tevdi yerini ifa yerindeki hâkim belirler (TBK m. 107/2). Borçlunun parayı kendi hesabında tutması tevdi değildir."
+  },
+  {
+   "stem_md": "Kiracı Selin kirayı yıllardır sözleşmede yazılı banka hesabına yatırmaktadır. Kira artışında anlaşamayan kiraya veren Kemal hesabı kapatmış, Selin'in havalesi geri dönmüştür. Selin'in temerrüde düşmemek için izleyeceği en doğru yol hangisidir?",
+   "options": [
+    "Kemal'e karşı dava açarak onu parayı kabul etmeye zorlamak",
+    "Kirayı kendi banka hesabında biriktirip Kemal'e yazıyla bildirmek",
+    "Sulh hukuk mahkemesinden tevdi mahalli (ödeme yeri) belirlenmesini isteyip kirayı belirlenen hesaba yatırmak",
+    "Kemal alacaklı temerrüdüne düştüğü için kira borcunun sona erdiğini kabul edip ödemeyi bırakmak"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Sözleşmede ödeme yeri olarak belirlenen hesabın kiraya veren tarafından kapatılması alacaklı temerrüdü doğurur (TBK m. 106/1). Alacaklı kabule zorlanamaz ve temerrüt borcu kendiliğinden bitirmez. Kiracı sulh hukuk mahkemesinden tevdi yeri belirlenmesini isteyerek kirayı oraya yatırır (TBK m. 107/2, HMK m. 383). Böylece temerrüde ve TBK m. 315'e dayalı fesih riskine düşmez."
+  },
+  {
+   "stem_md": "Kira sözleşmesi sona eren kiracı Burak evi boşaltmış, ancak kiraya veren Leyla anahtarı teslim almamıştır. Burak'ın kira borcundan kurtulması için hangisi doğrudur?",
+   "options": [
+    "Leyla anahtarı almadığı sürece Burak, sözleşme sona ermiş olsa da kira bedelinden hiçbir şekilde kurtulamaz.",
+    "Evi boşaltması yeterlidir; anahtarın teslimi önem taşımaz.",
+    "Anahtarı kapının önüne bırakıp fotoğrafını çekmesi yeterlidir.",
+    "Anahtarı tevdi yerine (uygulamada notere de) teslim edip durumu Leyla'ya bildirmelidir; iade borcu bildirim tarihinde sona erer."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kiracı sözleşme sonunda kiralananı geri vermekle yükümlüdür (TBK m. 334/1) ve iade için anahtarın teslimi gerekir. Kiraya veren anahtarı almazsa kiracı tevdi yolunu kullanır. Yargıtay'a göre kiracının iade borcu, anahtarın tevdi edildiğinin kiraya verene bildirildiği tarihte sona erer; o tarihe kadar kira bedeli dâhil yükümlülükleri sürer."
+  },
+  {
+   "stem_md": "Alacaklının temerrüdü ile borçlunun temerrüdünü karşılaştıran ifadelerden hangisi doğrudur?",
+   "options": [
+    "Aynı alacak bakımından ikisi aynı anda bulunabilir.",
+    "Borçlu temerrüdü kural olarak muaccel borçta alacaklının ihtarıyla, alacaklı temerrüdü ise gereği gibi önerilen edimin haklı bir sebep olmaksızın kabul edilmemesiyle doğar.",
+    "Alacaklı temerrüdünde de borçlu temerrüdünde de temerrüde düşen taraf kural olarak temerrüt faizi öder.",
+    "Her ikisi de ancak noter ihtarıyla doğar."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Muaccel bir borcun borçlusu kural olarak alacaklının ihtarıyla temerrüde düşer (TBK m. 117/1). Alacaklı ise kendisine gereği gibi önerilen edimi haklı bir sebep olmaksızın kabul etmezse ya da hazırlık fiillerinden kaçınırsa temerrüde düşer (TBK m. 106/1). Aynı alacak için iki temerrüt bir arada bulunmaz. Temerrüt faizi borçlu temerrüdünün sonucudur (TBK m. 120); alacaklı temerrüdü faiz borcu doğurmaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Emekli öğretmen Nihat, kullandığı piyanoyu 60.000 TL'ye, bahçesinden toplayacağı 300 kg kirazı da 30.000 TL'ye komşusu Sevgi'ye satar. Sevgi toplam 90.000 TL'yi sözleşme günü peşin öder. Taraflar, Sevgi'nin 10 Haziran'da Nihat'ın evine gelip piyanoyu ve kirazları alacağını kararlaştırır.\n\n10 Haziran sabahı Nihat piyanoyu taşımaya hazır hâle getirir, kirazları toplayıp kasalara koyar ve Sevgi'yi arayarak her şeyin hazır olduğunu bildirir. Kiraz fiyatlarının düştüğünü ve daha uygun bir piyano bulduğunu söyleyen Sevgi, \"Vazgeçtim, hiçbirini almayacağım, paramı geri verin\" der ve gelmez.\n\nNihat 11 Haziran'da noter aracılığıyla Sevgi'ye kirazların bozulacağını ve mahkemeden satış izni isteyeceğini bildirir. Sulh hukuk mahkemesinin izniyle kirazlar, açık artırma yapılmadan pazarda o günkü fiyattan 20.000 TL'ye satılır. Bedel, mahkemenin belirlediği banka hesabına Sevgi adına yatırılır.\n\nPiyanoyu ise Nihat henüz bir yere bırakmamıştır. 15 Haziran'da apartmanda, Nihat'ın hiçbir kusuru olmadan meydana gelen bir su baskınında piyano zarar görür ve değeri 10.000 TL düşer.\n\nSevgi şunları ileri sürmektedir: \"Kirazlar benim iznim olmadan ve açık artırma yapılmadan satıldı; ödediğim 30.000 TL'yi geri isterim. Piyano bana teslim edilmedi, zarar Nihat'a aittir; en azından 10.000 TL indirim yapılmalı.\"\n\n1. Sevgi alacaklı temerrüdüne düşmüş müdür? \"Vazgeçtim\" demesinin hukuki değeri nedir?\n2. Kirazların satışı hukuka uygun mudur? Sevgi ödediği 30.000 TL'yi geri isteyebilir mi?\n3. Piyanodaki zarara kim katlanır?\n4. Nihat piyano bakımından borcundan nasıl kurtulabilir?",
+   "rubric": [
+    {
+     "point": "Gereği gibi öneri ve fiyat düşüşünün haklı sebep olmaması; Sevgi'nin alacaklı temerrüdü",
+     "weight": 20,
+     "madde_ref": "TBK m. 106"
+    },
+    {
+     "point": "Tek taraflı vazgeçme beyanının sözleşmeyi sona erdirmemesi; alacaklı temerrüdünün borcu kendiliğinden bitirmemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 106"
+    },
+    {
+     "point": "Bozulabilir kirazların hâkim izniyle satışı; piyasa fiyatı nedeniyle açık artırmanın zorunlu olmaması; alacaklının rızasının aranmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 108"
+    },
+    {
+     "point": "Satış bedelinin tevdiiyle Nihat'ın kiraz borcundan kurtulması; Sevgi'nin bedeli geri isteyemeyip yalnız tevdi edilen tutarı alabilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 108"
+    },
+    {
+     "point": "Taşınır satışında devralma temerrüdüyle yarar ve hasarın alıcıya geçmesi; indirim isteminin reddi",
+     "weight": 20,
+     "madde_ref": "TBK m. 208"
+    },
+    {
+     "point": "Piyanonun ifa yerindeki sulh hukuk hâkiminin belirleyeceği yere tevdii; hasar ve giderlerin Sevgi'ye ait olması; alıcının devralma borcu",
+     "weight": 15,
+     "madde_ref": "TBK m. 107"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında iki taşınırın, piyano ve kirazın satışına ilişkin bir satış sözleşmesi vardır. Nihat teslim borcunun borçlusu, Sevgi bu borcun alacaklısıdır. Sevgi bedeli ödemiş, ancak satılanları almaktan kaçınmıştır. Sorun alacaklının temerrüdü ve sonuçlarıdır (TBK m. 106-109). Hasar bakımından satışa ilişkin özel hüküm (TBK m. 208/2) uygulanır.\n\n**Hukuki sorunlar:** (1) Alacaklı temerrüdünün şartları gerçekleşmiş midir? (2) Kirazların satışı usulüne uygun mudur, sonucu nedir? (3) Piyanodaki hasar kime aittir? (4) Nihat piyano borcundan nasıl kurtulur?\n\n**İlgili hükümler:** TBK m. 106/1, m. 107, m. 108, m. 208/2, m. 232/1; HMK m. 382-383.\n\n**Değerlendirme:**\n\n*1. Alacaklı temerrüdü:* Teslim günü belliydi ve Sevgi'nin Nihat'ın evine gelip alacağı kararlaştırılmıştı; yani aranacak bir borç söz konusudur. Nihat edimleri eksiksiz hazırlamış ve Sevgi'ye hazır olduğunu bildirmiştir. Doktrinde aranacak borçlarda bu bildirim yeterli öneri sayılır; üstelik Sevgi almayacağını açıkça söylemiştir. Fiyatların düşmesi ve başka bir piyano bulmak haklı sebep değildir. Bu nedenle Sevgi 10 Haziran'da alacaklı temerrüdüne düşmüştür (TBK m. 106/1). \"Vazgeçtim\" demesi sözleşmeyi sona erdirmez, çünkü Sevgi'nin sözleşmeden dönmesini sağlayacak bir hakkı yoktur. Alacaklı temerrüdü de borcu kendiliğinden bitirmez; Nihat'ın borçtan kurtulması kanundaki yolları kullanmasına bağlıdır.\n\n*2. Kirazların satışı:* Kiraz bozulabilir bir maldır ve bu, satma hakkının sebeplerinden biridir (TBK m. 108/1). Nihat önceden ihtarda bulunmuş ve hâkimin iznini almıştır. Kirazın pazarda belirli bir fiyatı olduğundan satışın açık artırmayla yapılması zorunlu değildir (TBK m. 108/2). Kanun alacaklının rızasını aramaz; Sevgi'nin itirazları yerinde değildir. Satış bedeli Sevgi adına tevdi edildiğinden Nihat kiraz teslim borcundan kurtulmuştur. Sevgi'nin ödediği 30.000 TL sözleşmenin karşı edimidir ve geri istenemez. Sevgi'nin hakkı, tevdi edilen 20.000 TL'yi banka hesabından almaktır. Aradaki fark kendi temerrüdünün sonucudur.\n\n*3. Piyanodaki hasar:* Taşınır satışında alıcı satılanın zilyetliğini devralmada temerrüde düşerse, zilyetliğin devri gerçekleşmişçesine yarar ve hasar alıcıya geçer (TBK m. 208/2). Sevgi 10 Haziran'da temerrüde düşmüştür; su baskını 15 Haziran'da ve Nihat'ın kusuru olmadan meydana gelmiştir. Hasar Sevgi'ye aittir, indirim istemi reddedilmelidir. Bu sonuç için Nihat'ın piyanoyu daha önce tevdi etmiş olması gerekmez. Hasarın genel olarak ne zaman geçtiği doktrinde tartışmalıdır, ama taşınır satışında özel hüküm sorunu kesin biçimde çözer.\n\n*4. Piyanonun tevdii:* Nihat borcundan tamamen kurtulmak için piyanoyu tevdi etmelidir. Tevdi yerini ifa yerindeki hâkim, yani Nihat'ın evinin bulunduğu yerdeki sulh hukuk mahkemesi çekişmesiz yargı yoluyla belirler (TBK m. 107/2, HMK m. 382-383). Hasar ve depo ücreti gibi giderler alacaklı Sevgi'ye aittir (TBK m. 107/1). Ayrıca alıcı satılanı devralmakla yükümlü olduğundan (TBK m. 232/1), Nihat bu yüzden uğradığı ek zararlar için borca aykırılık hükümlerine de başvurabilir.\n\n**Sonuç:**\n- Sevgi alacaklı temerrüdüne düşmüştür; \"vazgeçtim\" demesi sözleşmeyi sona erdirmez.\n- Kirazların satışı TBK m. 108'e uygundur. Nihat kiraz borcundan kurtulmuştur; Sevgi 30.000 TL'yi geri isteyemez, tevdi edilen 20.000 TL'yi alabilir.\n- Piyanodaki 10.000 TL'lik zarar TBK m. 208/2 uyarınca Sevgi'ye aittir.\n- Nihat piyanoyu sulh hukuk hâkiminin belirleyeceği yere tevdi ederek borcundan kurtulur; giderler Sevgi'ye aittir."
+  },
+  {
+   "stem_md": "Kerem, Kadıköy'deki bir dükkânı Kadıköy'de oturan Leyla'dan 1 Ocak 2025 başlangıçlı ve bir yıl süreli bir sözleşmeyle kiralamıştır. Sözleşmeye göre aylık kira her ayın ilk beş günü içinde Leyla'nın X Bankası'ndaki hesabına yatırılacaktır. Kerem 2025 boyunca kiraları bu hesaba yatırmış, sözleşme yenilenmiştir.\n\nYeni dönemin kira artışında anlaşamayan Leyla 2 Ocak 2026'da hesabını kapatır. Kerem'in 3 Ocak'taki havalesi \"hesap kapalı\" açıklamasıyla geri döner. Kerem 5 Ocak'ta kirayı PTT'den konutta ödemeli olarak gönderir; Leyla gönderiyi almaz ve para iade edilir. Kerem 7 Ocak'ta Kadıköy'deki sulh hukuk mahkemesine başvurur. Mahkeme talebi Leyla'ya tebliğ etmeden, 8 Ocak'ta Leyla adına açılacak bir banka hesabını ödeme yeri olarak belirler. Kerem Ocak kirasını 9 Ocak'ta, Şubat ve Mart kiralarını da vadesinde bu hesaba yatırır.\n\nLeyla 20 Ocak'ta Kerem'e \"Ocak kirası ödenmedi, 30 gün içinde ödemezsen sözleşmeyi feshedeceğim\" diyen bir ihtarname gönderir. Ayrıca tevdi kararının kendisine tebliğ edilmeden verildiğini, bu yüzden geçersiz olduğunu ileri sürer.\n\nTaraflar sözleşmeyi 31 Mart 2026'da sona erdirmekte anlaşır. Kerem 30 Mart'ta dükkânı boşaltır ve anahtarı Leyla'ya götürür; Leyla almaz. Kerem aynı gün anahtarı notere teslim eder; noterin tevdi tutanağı 31 Mart'ta Leyla'ya tebliğ edilir. Leyla, anahtarı ancak Mayıs sonunda noterden aldığını belirterek Nisan ve Mayıs kiralarını istemektedir.\n\n1. Leyla'nın davranışını nitelendiriniz.\n2. Leyla'nın tevdi kararına itirazını değerlendiriniz.\n3. Leyla'nın ihtarnamesi Kerem için bir sonuç doğurur mu?\n4. Leyla Nisan ve Mayıs kiralarını isteyebilir mi?",
+   "rubric": [
+    {
+     "point": "Kira bedelinin götürülecek para borcu olması; sözleşmedeki hesaba havale ve konutta ödemeli gönderinin gereği gibi öneri olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 89"
+    },
+    {
+     "point": "Hesabın kapatılması ve gönderinin alınmamasıyla kiraya verenin haklı sebep olmaksızın kabulden kaçınması; artış anlaşmazlığının haklı sebep olmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 106"
+    },
+    {
+     "point": "Tevdi mahalli belirlenmesinin sulh hukuk mahkemesinde çekişmesiz yargı işi olması ve talebin tebliğ edilmeden karara bağlanabilmesi",
+     "weight": 20,
+     "madde_ref": "HMK m. 382"
+    },
+    {
+     "point": "Belirlenen hesaba yatırılan kiralarla kiracının borçtan kurtulması ve temerrüde düşmemesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 107"
+    },
+    {
+     "point": "Kiraya verenin ihtarının fesih sonucu doğurmaması ve haklı ihtar sayılmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 315"
+    },
+    {
+     "point": "Anahtarın tevdii ve bildirimle iade borcunun sona ermesi; sonraki dönem için kira istenememesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 334"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında bir işyeri kira sözleşmesi vardır. Kerem kira bedelinin borçlusu, Leyla alacaklısıdır. Leyla ödemeyi almaktan, sözleşme bitince de kiralananın iadesini kabul etmekten kaçınmıştır. Sorun alacaklının temerrüdü ve para borcunda tevdi uygulamasıdır.\n\n**Hukuki sorunlar:** (1) Leyla alacaklı temerrüdüne düşmüş müdür? (2) Tebliğsiz verilen tevdi kararı geçerli midir? (3) Kerem temerrüde düşmüş müdür, ihtarname sonuç doğurur mu? (4) Anahtarın tevdii kira borcunu ne zaman sona erdirir?\n\n**İlgili hükümler:** TBK m. 89/1-1, m. 106/1, m. 107, m. 315, m. 334/1, m. 352/2; HMK m. 382-383.\n\n**Değerlendirme:**\n\n*1. Leyla'nın alacaklı temerrüdü:* Kira bedeli para borcudur ve götürülecek borçtur (TBK m. 89/1-1). Taraflar ödeme yeri olarak Leyla'nın banka hesabını kararlaştırmıştır. Kerem kirayı vadesinde bu hesaba göndermiş, hesap kapatılınca konutta ödemeli PTT havalesiyle Leyla'nın adresine ulaştırmaya çalışmıştır. Edim tam olarak ve doğru yerde önerilmiştir. Leyla hesabı kapatarak ve gönderiyi almayarak kabulden kaçınmıştır. Kira artışında anlaşamamak haklı sebep değildir; artış uyuşmazlığı ayrı bir davada çözülür. Leyla alacaklı temerrüdüne düşmüştür (TBK m. 106/1).\n\n*2. Tevdi kararına itiraz:* Tevdi yerini ifa yerindeki hâkim belirler (TBK m. 107/2). Bu iş, HMK m. 382'de sayılan bir çekişmesiz yargı işidir ve görevli mahkeme sulh hukuk mahkemesidir (HMK m. 383). Yargıtay 3. Hukuk Dairesi, bölge adliye mahkemeleri arasındaki görüş ayrılığını gidererek bu talebin kiraya verene tebliğ edilmeden karara bağlanabileceğini kabul etmiştir. Gerekçe, bekleme süresinin kiracıyı temerrüde ve tahliye riskine sokabilmesidir. Karar uyuşmazlığın esasını çözmez; Leyla isterse istinafa başvurabilir. Leyla'nın \"tebliğ edilmedi, geçersiz\" itirazı yerinde değildir.\n\n*3. İhtarname:* Ocak kirası 3 ve 5 Ocak'ta gereği gibi önerilmiş, Leyla'nın kabulden kaçınması nedeniyle ödenememiştir. Aynı alacak için alacaklı temerrüdü varken borçlu temerrüdü doğmaz. Kerem 9 Ocak'ta kirayı mahkemenin belirlediği hesaba yatırmış ve borcundan kurtulmuştur. Şubat ve Mart kiraları da vadesinde yatırılmıştır. Bu nedenle 20 Ocak tarihli ihtarname TBK m. 315 anlamında fesih sonucu doğurmaz. Kerem kirayı ödemediği için ihtara sebep olmadığından bu ihtar haklı ihtar da sayılmaz ve TBK m. 352/2 bakımından hesaba katılamaz.\n\n*4. Anahtarın tevdii:* Sözleşme bitince kiracı kiralananı geri vermekle yükümlüdür (TBK m. 334/1); bunun için anahtarın teslimi gerekir. Leyla anahtarı almayarak bu kez iade borcunun alacaklısı olarak kabulden kaçınmıştır. Kerem anahtarı notere teslim etmiş, tevdi tutanağı 31 Mart'ta Leyla'ya tebliğ edilmiştir. Yargıtay'a göre kiracının iade borcu, anahtarın tevdi edildiğinin kiraya verene bildirildiği tarihte sona erer. Bu tarih sözleşmenin bittiği 31 Mart'tır. Leyla'nın anahtarı noterden geç alması kendi tercihidir ve Kerem'in sorumluluğunu uzatmaz.\n\n**Sonuç:**\n- Leyla hesabı kapatıp gönderiyi almadığı için alacaklı temerrüdüne düşmüştür.\n- Tebliğsiz verilen tevdi mahalli kararı geçerlidir; itiraz yerinde değildir.\n- Kerem temerrüde düşmemiştir; ihtarname fesih sonucu doğurmaz ve haklı ihtar sayılmaz.\n- Kerem'in iade borcu 31 Mart'ta sona ermiştir; Leyla Nisan ve Mayıs kiralarını isteyemez."
+  },
+  {
+   "stem_md": "Zafer ve Yusuf, ortak bir iş için Ayten'den 1.000.000 TL faizsiz ödünç alır. Sözleşmede ikisinin müteselsil borçlu olduğu ve borcun 1 Mart 2026'da Türk lirası olarak ödeneceği yazılıdır. Borcun güvencesi olarak Zafer'in dairesi üzerinde Ayten lehine ipotek kurulmuştur.\n\nZafer 1 Mart'ta 1.000.000 TL'yi Ayten'in evine götürür. Ayten, döviz kuru yükseldiği için parayı Türk lirası olarak almayacağını, dolar karşılığını istediğini söyler; parayı kabul etmez ve ipoteği çözmeyi de reddeder.\n\nAyten 1 Nisan'da Yusuf'a bir ihtarname göndererek borcun ödenmediğini, ikisinin de 1 Mart'tan itibaren temerrüt faizi ödemesi gerektiğini bildirir.\n\nZafer ipotekten kurtulmak için icra dairesine başvurur. İcra dairesinin tebliğine rağmen Ayten on beş gün içinde gelmez. Zafer 1.000.000 TL'nin tamamını icra dairesine yatırır. İcra mahkemesi paranın Ayten adına saklanmasına ve ipotek kaydının terkinine karar verir; karar tapuya bildirilir.\n\nBir süre sonra nakit sıkıntısına düşen Zafer, icra dairesine yatırdığı parayı geri almak istemektedir.\n\n1. Ayten alacaklı temerrüdüne düşmüş müdür? Bu durum Yusuf'u nasıl etkiler?\n2. Ayten'in temerrüt faizi istemini değerlendiriniz.\n3. İpoteğin terkini için izlenen yolu değerlendiriniz.\n4. Zafer parayı geri alabilir mi?\n5. Zafer 1 Mart'ta hiç ödeme önerisinde bulunmasaydı hukuki durum ne olurdu?",
+   "rubric": [
+    {
+     "point": "Para borcunun alacaklının evinde, kararlaştırılan para cinsinden ve tam olarak önerilmesi; döviz isteminin haklı sebep olmaması; Ayten'in alacaklı temerrüdü",
+     "weight": 20,
+     "madde_ref": "TBK m. 106"
+    },
+    {
+     "point": "Alacaklının müteselsil borçlulardan birine karşı temerrüdünün diğerine de etkili olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 106"
+    },
+    {
+     "point": "Alacaklı temerrüdü süresince borçlu temerrüdünün doğmaması; temerrüt faizi isteminin reddi",
+     "weight": 20,
+     "madde_ref": "TBK m. 120"
+    },
+    {
+     "point": "İpotekli borçta icra dairesine başvuru, on beş günlük tebliğ, paranın yatırılması ve ipoteğin terkini",
+     "weight": 20,
+     "madde_ref": "İİK m. 153"
+    },
+    {
+     "point": "Rehnin kalkması sonucunu doğuran tevdiin geri alınamaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 109"
+    },
+    {
+     "point": "Öneri olmasaydı belirli günün geçmesiyle ihtarsız borçlu temerrüdü ve temerrüt faizi",
+     "weight": 10,
+     "madde_ref": "TBK m. 117"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Zafer ve Yusuf, Ayten'e karşı faizsiz bir ödünçten doğan para borcunun müteselsil borçlularıdır. Borcun güvencesi ipotektir. Zafer borcu vadesinde önermiş, Ayten kabul etmemiştir. Sorun alacaklının temerrüdü, bunun müteselsil borçlulara ve faize etkisi, ipotekli borçtaki özel tevdi yolu ve geri alma hakkıdır.\n\n**Hukuki sorunlar:** (1) Ayten'in reddi haklı mıdır? (2) Temerrüt Yusuf'a da etkili midir? (3) Temerrüt faizi istenebilir mi? (4) İİK m. 153 yolu ve sonucu nedir? (5) Yatırılan para geri alınabilir mi?\n\n**İlgili hükümler:** TBK m. 89/1-1, m. 106/1-2, m. 109, m. 117, m. 120; İİK m. 153/1.\n\n**Değerlendirme:**\n\n*1. Alacaklı temerrüdü ve Yusuf:* Para borcu alacaklının yerleşim yerinde ödenir (TBK m. 89/1-1). Zafer borcun tamamını vadesinde, sözleşmede kararlaştırılan para olan Türk lirasıyla Ayten'in evine götürmüştür. Öneri tam, zamanında ve doğru yerdedir. Kur artışı nedeniyle dolar istemek sözleşmeye aykırıdır ve haklı sebep değildir. Ayten alacaklı temerrüdüne düşmüştür (TBK m. 106/1). Alacaklı müteselsil borçlulardan birine karşı temerrüde düşerse diğerlerine karşı da temerrüde düşmüş olur (TBK m. 106/2). Bu nedenle Ayten, Yusuf'a karşı da temerrüt hâlindedir.\n\n*2. Temerrüt faizi:* Temerrüt faizi borçlu temerrüdünün sonucudur (TBK m. 117, m. 120). Aynı alacak bakımından alacaklı temerrüdü varken borçlu temerrüdü doğmaz. Ayten 1 Mart'ta haklı sebep olmadan parayı reddettiği için ne Zafer ne de Yusuf temerrüde düşmüştür. 1 Nisan tarihli ihtarname de bu sonucu değiştirmez. Temerrüt faizi istemi reddedilmelidir. Ödünç faizsiz olduğundan sözleşme faizi tartışması da gündeme gelmez.\n\n*3. İpoteğin terkini:* Alacaklı temerrüdü borcu kendiliğinden bitirmez, ipoteği de kendiliğinden kaldırmaz. Bu yüzden İİK m. 153/1 ipotekli borçlar için özel bir yol öngörür. Vadesi gelmiş ve ipotekle güvence altına alınmış borcun borçlusu, alacaklının parayı almaktan ve ipoteği çözmekten kaçındığını icra dairesine bildirir. İcra dairesi alacaklıya on beş gün içinde gelip parayı almasını ve ipoteği çözmesini tebliğ eder. Alacaklı gelmezse ve borçlu borcun tamamını yatırırsa, icra mahkemesi paranın alacaklı adına saklanmasına ve ipoteğin terkinine karar verir; karar tapu siciline geçirilir. Zafer bu yolu eksiksiz izlemiştir. Böylece borç sona ermiş, ipotek kalkmıştır.\n\n*4. Geri alma:* Borçlu tevdi ettiği şeyi kural olarak geri alabilir. Ancak tevdi bir rehnin ortadan kaldırılması sonucunu doğurmuşsa geri alma mümkün değildir (TBK m. 109/1). Zafer'in yatırdığı para ipoteğin terkini sonucunu doğurmuştur. Geri almasına izin verilseydi Ayten hem güvencesini hem de parasını kaybederdi. Zafer parayı geri alamaz.\n\n*5. Öneri olmasaydı:* Borcun ifa günü olarak 1 Mart birlikte belirlenmiştir. Zafer hiç ödeme önerisinde bulunmasaydı, borçlular bu günün geçmesiyle ihtara gerek olmadan temerrüde düşerdi (TBK m. 117/2). Ayten bu durumda temerrüt faizi isteyebilirdi (TBK m. 120). Aradaki fark, borçlunun zamanında ve gereği gibi önerisinin borçlu temerrüdünü engellemesidir.\n\n**Sonuç:**\n- Ayten alacaklı temerrüdüne düşmüştür; bu temerrüt Yusuf'a karşı da geçerlidir.\n- Ayten temerrüt faizi isteyemez.\n- İİK m. 153'e göre izlenen yol usulüne uygundur; ipotek terkin edilmiş, borç sona ermiştir.\n- Tevdi rehnin kalkması sonucunu doğurduğundan Zafer parayı geri alamaz.\n- Öneri yapılmasaydı borçlular 1 Mart'ın geçmesiyle temerrüde düşer ve temerrüt faizi işlerdi."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Alacaklının temerrüdünün şartları nelerdir? (TBK m. 106/1)",
+   "back_md": "İfa hakkı olan ve ifaya hazır borçlu; edimin gereği gibi önerilmesi; alacaklının kabulden ya da hazırlık fiillerinden kaçınması; kaçınmanın haklı bir sebebe dayanmaması."
+  },
+  {
+   "front_md": "Alacaklı temerrüdü için kusur aranır mı?",
+   "back_md": "Baskın görüşe göre hayır. Kanun kusurdan söz etmez; ölçüt objektif haklı sebep yokluğudur."
+  },
+  {
+   "front_md": "Hazırlık fiiline örnek verin.",
+   "back_md": "Dikilecek kumaşı vermek, ölçü ya da model bildirmek, teslim adresini bildirmek, sözleşmeyle kendisine bırakılan seçim hakkını kullanmak."
+  },
+  {
+   "front_md": "Para borcunda gereği gibi öneri nasıl yapılır?",
+   "back_md": "Para götürülecek borçtur (TBK m. 89/1-1). Tam tutar, kararlaştırılan para cinsiyle, alacaklının yerleşim yerinde ya da kararlaştırılan hesapta önerilir."
+  },
+  {
+   "front_md": "Alacaklı müteselsil borçlulardan birine karşı temerrüde düşerse?",
+   "back_md": "Diğerlerine karşı da temerrüde düşmüş olur (TBK m. 106/2)."
+  },
+  {
+   "front_md": "Alacaklı temerrüdü borcu sona erdirir mi?",
+   "back_md": "Hayır. Borçlu ancak tevdi, satış ya da teslim gerektirmeyen edimlerde dönme yoluyla borcundan kurtulur."
+  },
+  {
+   "front_md": "Alacaklı temerrüdü temerrüt faizini etkiler mi?",
+   "back_md": "Evet. Aynı alacak için borçlu temerrüdü bulunamaz, temerrüt faizi işlemez. Sözleşme faizinin durumu tartışmalıdır."
+  },
+  {
+   "front_md": "Alacaklı kabule zorlanabilir mi?",
+   "back_md": "Kural olarak hayır, kabul külfettir. Kabul borç olarak yüklenmişse (alıcının devralma borcu, TBK m. 232/1) borca aykırılık hükümleri de işler."
+  },
+  {
+   "front_md": "Tevdi yerini kim belirler? (TBK m. 107/2)",
+   "back_md": "İfa yerindeki hâkim: sulh hukuk mahkemesi, çekişmesiz yargı (HMK m. 382-383). Ticari mallar hâkim kararı olmadan ardiyeye tevdi edilebilir."
+  },
+  {
+   "front_md": "Tevdi edilen şeyin hasarı ve giderleri kime aittir?",
+   "back_md": "Alacaklıya (TBK m. 107/1)."
+  },
+  {
+   "front_md": "Satma hakkının sebepleri nelerdir? (TBK m. 108/1)",
+   "back_md": "Şeyin niteliği veya işin özelliği tevdie uygun değilse, şey bozulabilirse ya da bakımı, korunması veya tevdii önemli gider gerektiriyorsa."
+  },
+  {
+   "front_md": "Satışın olağan usulü nedir?",
+   "back_md": "Alacaklıya önceden ihtar, hâkimin izni ve açık artırma (TBK m. 108/1)."
+  },
+  {
+   "front_md": "Açık artırma ne zaman zorunlu değildir? (TBK m. 108/2)",
+   "back_md": "Şey borsada kayıtlıysa, piyasa fiyatı varsa ya da değeri gidere oranla azsa. Hâkim bu durumda ihtar koşulunu da aramayabilir."
+  },
+  {
+   "front_md": "Tevdi edilen şey ne zaman geri alınamaz? (TBK m. 109/1)",
+   "back_md": "Alacaklı kabul ettiğini açıklamışsa ya da tevdi bir rehnin kalkması sonucunu doğurmuşsa."
+  },
+  {
+   "front_md": "Tevdi edilen şey geri alınırsa ne olur?",
+   "back_md": "Alacak bütün yan haklarıyla birlikte varlığını sürdürür (TBK m. 109/2)."
+  },
+  {
+   "front_md": "Teslim gerektirmeyen edimlerde alacaklı temerrüdünün sonucu? (TBK m. 110)",
+   "back_md": "Borçlu, borçlu temerrüdü hükümlerine göre sözleşmeden döner: kural olarak uygun süre verir (TBK m. 123), sonra dönme iradesini açıklar (TBK m. 125)."
+  },
+  {
+   "front_md": "TBK m. 111 hangi durumları düzenler?",
+   "back_md": "Borçlunun kusuru olmaksızın alacağın kime ait olduğunda veya alacaklının kimliğinde duraksama ya da alacaklıdan kaynaklanan kişisel bir sebep. Borçlu tevdi edebilir ya da sözleşmeden dönebilir."
+  },
+  {
+   "front_md": "Taşınır satışında alıcı devralmada temerrüde düşerse hasar? (TBK m. 208/2)",
+   "back_md": "Zilyetlik devredilmiş gibi yarar ve hasar alıcıya geçer."
+  },
+  {
+   "front_md": "Kiraya veren hesabı kapatırsa kiracı ne yapar?",
+   "back_md": "Sulh hukuk mahkemesinden tevdi mahalli (ödeme yeri) belirlenmesini ister ve kirayı oraya yatırır. Yargıtay'a göre talep kiraya verene tebliğ edilmeden karara bağlanabilir."
+  },
+  {
+   "front_md": "Kiraya veren anahtarı almazsa?",
+   "back_md": "Kiracı anahtarı tevdi eder (uygulamada notere de) ve kiraya verene bildirir. İade borcu bildirim tarihinde sona erer."
+  },
+  {
+   "front_md": "İpotekli borçta alacaklı parayı almazsa? (İİK m. 153/1)",
+   "back_md": "Borçlu icra dairesine başvurur, alacaklıya 15 gün içinde gelmesi tebliğ edilir. Gelmezse borcun tamamı yatırılır; icra mahkemesi paranın saklanmasına ve ipoteğin terkinine karar verir."
+  },
+  {
+   "front_md": "Kefil muaccel borcu ödemek ister, alacaklı haklı sebep olmadan kabul etmezse?",
+   "back_md": "Kefil borcundan kurtulur; birlikte müteselsil kefalette kefillerin sorumluluğu kendi payları kadar azalır (TBK m. 593/2)."
+  },
+  {
+   "front_md": "İşveren işçinin edimini kabulde temerrüde düşerse?",
+   "back_md": "Ücreti öder ve edimin sonradan yerine getirilmesini isteyemez. İşçinin kurtulduğu giderler ile başka işten kazandığı ya da bilerek kaçındığı yararlar indirilir (TBK m. 408)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

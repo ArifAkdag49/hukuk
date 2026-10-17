@@ -30,7 +30,7 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 14 | sebepsiz-zenginlesme-iade-kapsami | bekliyor | |
 | 15 | ifa-genel-esaslar | bekliyor | |
 | 16 | ifa-yeri-zamani-karsilikli-ifa | bekliyor | |
-| 17 | alacakli-temerrudu | bekliyor | |
+| 17 | alacakli-temerrudu | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
 | 18 | borca-aykirilik-ve-tazminat | bekliyor | |
 | 19 | borclu-temerrudu-sart-ve-sonuclar | bekliyor | |
 | 20 | karsilikli-sozlesmelerde-secimlik-haklar | bekliyor | |
