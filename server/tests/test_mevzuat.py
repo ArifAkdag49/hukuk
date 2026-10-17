@@ -134,3 +134,26 @@ def test_client_errors_other_than_rate_limit_are_not_retried(monkeypatch):
     with pytest.raises(httpx.HTTPStatusError):
         asyncio.run(mevzuat._post("searchDocuments", {}))
     assert len(calls) == 1
+
+
+def test_numbered_law_lookup_ignores_regulations_with_the_same_number(monkeypatch):
+    import json
+
+    lists = {
+        # değiştirici kanunlar serviste ayrı belge değil; aynı numaralı bir üniversite yönetmeliği kanun sanılmamalı
+        "7589": [{"mevzuatNo": "7589", "mevzuatId": "Y1", "mevzuatAdi": "EGE ÜNİVERSİTESİ MERKEZİ YÖNETMELİĞİ", "mevzuatTur": {"name": "UY"}}],
+        "3095": [{"mevzuatNo": "3095", "mevzuatId": "Y2", "mevzuatAdi": "ARAMA KURTARMA YÖNETMELİĞİ", "mevzuatTur": {"name": "CB_YONETMELIK"}},
+                 {"mevzuatNo": "3095", "mevzuatId": "K1", "mevzuatAdi": "KANUNİ FAİZ VE TEMERRÜT FAİZİNE İLİŞKİN KANUN", "mevzuatTur": {"name": "KANUN"}}],
+        "703": [{"mevzuatNo": "703", "mevzuatId": "H1", "mevzuatAdi": "ANAYASADA YAPILAN DEĞİŞİKLİKLERE UYUM KHK", "mevzuatTur": {"name": "KHK"}}],
+    }
+
+    def handler(request):
+        no = json.loads(request.content)["data"]["mevzuatNo"]
+        return httpx.Response(200, json={"metadata": {"FMTY": "SUCCESS"}, "data": {"mevzuatList": lists[no]}})
+
+    _patch(monkeypatch, handler)
+    mevzuat._mevzuat_cache.clear()
+    assert asyncio.run(mevzuat._find_law("7589")) is None
+    assert asyncio.run(mevzuat._find_law("3095"))["mevzuatId"] == "K1"
+    assert asyncio.run(mevzuat._find_law("703"))["mevzuatId"] == "H1"
+    mevzuat._mevzuat_cache.clear()

@@ -139,11 +139,19 @@ async def _post(path: str, data: dict) -> Any:
     return body["data"]
 
 
+def _kanun_gucunde(m: dict) -> bool:
+    """Kanun ya da kanun gücünde bir düzenleme mi (KHK, Cumhurbaşkanlığı kararnamesi)? Aynı numaralı yönetmelik ve
+    tebliğler kanun yerine alınmamalı: ör. 7589 sayılı Kanun değiştirici kanun olduğu için serviste ayrı belge
+    olarak yok, ama 7589 numaralı bir üniversite yönetmeliği var."""
+    tur = ((m.get("mevzuatTur") or {}).get("name") or "").upper()
+    return tur == "KANUN" or "KHK" in tur or "KARARNAME" in tur
+
+
 async def _find_law(no: str) -> dict | None:
     if no in _mevzuat_cache:
         return _mevzuat_cache[no]
     data = await _post("searchDocuments", {"pageSize": 5, "pageNumber": 1, "mevzuatNo": no})
-    items = [m for m in data.get("mevzuatList") or [] if str(m.get("mevzuatNo")) == no]
+    items = [m for m in data.get("mevzuatList") or [] if str(m.get("mevzuatNo")) == no and _kanun_gucunde(m)]
     # aynı numaralı birden çok tür olabilir; kanunu tercih et
     items.sort(key=lambda m: 0 if (m.get("mevzuatTur") or {}).get("name") == "KANUN" else 1)
     if not items:
