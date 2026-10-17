@@ -37,9 +37,9 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 19 | borclu-temerrudu-sart-ve-sonuclar | bitti | ajan yazdı; denetçi kanuni faiz yürürlüğünü (31.7.2026) düzeltti; yerelde yüklendi |
 | 20 | karsilikli-sozlesmelerde-secimlik-haklar | denetimde | ajan yazdı (kontrol temiz) |
 | 21 | imkansizlik-ve-asiri-ifa-guclugu | denetimde | ajan yazdı (kontrol temiz) |
-| 22 | sona-erme-halleri-ve-takas | yazılıyor | |
+| 22 | sona-erme-halleri-ve-takas | denetimde | ajan yazdı (kontrol temiz) |
 | 23 | zamanasimi | denetimde | ajan yazdı (kontrol temiz) |
-| 24 | muteselsil-borcluluk | yazılıyor | |
+| 24 | muteselsil-borcluluk | denetimde | ajan yazdı (kontrol temiz) |
 | 25 | kosullu-borclar | yazılıyor | |
 | 26 | baglanma-parasi-cayma-parasi-cezai-sart | yazılıyor | |
 | 27 | alacagin-devri | yazılıyor | |
@@ -55,8 +55,8 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
 | 6 | tescil-serh-ve-beyan | yazılıyor | |
-| 7 | tapuya-guven-ve-yolsuz-tescil | bekliyor | |
-| 8 | mulkiyetin-icerigi-ve-korunmasi | bekliyor | |
+| 7 | tapuya-guven-ve-yolsuz-tescil | yazılıyor | |
+| 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
 | 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bekliyor | |
 | 10 | payli-mulkiyet | bekliyor | |
 | 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | bekliyor | |
