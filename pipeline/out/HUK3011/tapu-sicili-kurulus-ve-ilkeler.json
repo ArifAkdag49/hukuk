@@ -1,0 +1,874 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 2,
+ "unit_title": "Ünite 2: Tapu Sicili",
+ "topic_index": 1,
+ "slug": "tapu-sicili-kurulus-ve-ilkeler",
+ "title": "Tapu Sicilinin Kuruluşu, Unsurları, Açıklığı ve Devletin Sorumluluğu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T22:20:00.363651+00:00",
+ "skill_refs": [
+  "esya-hukuku/tapu-sicili-ve-iptal-tescil"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Taşınmaz hakları nerede ve nasıl kaydedilir, bu kaydı kim görebilir, kayıt yanlış tutulursa zararı kim öder?\n\n- **Tapu sicili (TMK m. 997):** Taşınmazlar üzerindeki hakları göstermek için Devletçe tutulur. Ana sicil tapu kütüğü ve kat mülkiyeti kütüğüdür. Yevmiye defteri, belgeler ve planlar bunları tamamlar.\n- **Tapu kütüğü (TMK m. 1000):**\n  - Her taşınmaza bir sayfa ayrılır (taşınmaz esaslı sistem).\n  - Özel sütunlara mülkiyet, irtifaklar ile taşınmaz yükü ve rehin hakları tescil edilir.\n  - Eklentiler malikin isteğiyle beyanlar sütununa yazılır. Silinmesi, kütükte hak sahibi görünenlerin rızasına bağlıdır.\n  - Aynı malikin bitişik olmayan taşınmazları da ortak sayfaya yazılabilir. Bu sayfadaki rehin hepsini bağlar.\n- **Yevmiye ve plan:** Tescil istemleri istem sırasına göre derhâl yevmiyeye yazılır (TMK m. 1002). Kayıtta resmî ölçüme dayanan plan esastır (TMK m. 1003).\n- **Kaydedilecekler (TMK m. 998):** arazi, bağımsız ve sürekli haklar (süresiz ya da en az 30 yıl), kat mülkiyetine konu bağımsız bölümler.\n- **Kaydedilmeyecekler (TMK m. 999):** Özel mülkiyete tabi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar. Tescili gerekli bir ayni hak kurulacaksa kaydedilir. Kayıtlı taşınmaz kayda tabi olmayana dönüşürse sicilden çıkarılır.\n- **Sicil bölgesi (TMK m. 1004-1005):** Taşınmaz bulunduğu bölgenin siciline kaydedilir. Birden çok bölgedeyse her bölgede ayrı kayıt yapılır, işlemler büyük kısmın bulunduğu bölgede yürür.\n- **Açıklık (TMK m. 1020):** Sicil herkese açıktır. İlgisini inanılır kılan herkes ilgili sayfa ve belgeleri görebilir, örnek alabilir. Malikin izni gerekmez. Kimse sicildeki bir kaydı bilmediğini ileri süremez.\n- **Devletin sorumluluğu (TMK m. 1007):** Sicilin tutulmasından doğan bütün zararlardan Devlet sorumludur.\n  - Kusursuz ve asli bir sorumluluktur. Memurun kusuru aranmaz.\n  - Şartlar: hukuka aykırı bir sicil işlemi (kadastro dahil), zarar ve uygun illiyet bağı.\n  - İlliyet bağını mücbir sebep, zarar görenin ya da üçüncü kişinin ağır kusuru keser. Yargıtay bunu dar yorumlar. Kayıttaki şerhi ya da beyanı görerek edinen kişi tazminat isteyemez.\n  - Davalı Hazine'dir. Görevliye doğrudan dava açılamaz (AY m. 129/5). Yetki kesindir: tapu sicilinin bulunduğu yer.\n  - Zamanaşımı (Yargıtay Hukuk Genel Kurulu): on yıl (TBK m. 146), kararın kesinleşmesinden itibaren.\n  - Rücu kusurlu görevliye yapılır. İhmalde ödemeden itibaren 2 yıl, her hâlde işlemden itibaren 10 yıl (2644 sayılı Kanunun ek 2. maddesi). Ağır kusurda TBK m. 73 uygulanır.",
+  "content_md": "## 0. Konunun haritası\n\nTaşınmazlarda ayni hakların vitrini tapu sicilidir. Bu konuda dört soruya cevap arıyoruz:\n\n| Soru | Cevap | Madde |\n|---|---|---|\n| Sicil nelerden oluşur? | Kütükler, yevmiye, belgeler, planlar | TMK m. 997-1003 |\n| Ne kaydedilir? | Arazi, bağımsız ve sürekli haklar, bağımsız bölümler | TMK m. 998-999 |\n| Sicili kim görebilir? | İlgisini inanılır kılan herkes | TMK m. 1020 |\n| Sicil yanlışsa kim öder? | Devlet, kusursuz olarak | TMK m. 1007 |\n\nTescil, şerh ve beyanın türleri ile tescilin şartları ayrı konuda; tapuya güven, yolsuz tescil ve tapu iptali ve tescil davası da ayrı konuda işlenir. Burada onlara yalnız bağlantı kurmak için değineceğiz.\n\n## 1. Tapu sicili nedir, neden vardır?\n\n**Tapu sicili**, taşınmazlar üzerindeki hakları göstermek amacıyla Devlet tarafından tutulan resmî kayıttır (TMK m. 997/1). Taşınırlarda hakkın dış görünüşü zilyetliktir. Taşınmazlarda bu işlevi sicil görür. Bir taşınmazı satın alacak ya da üzerinde ipotek alacak kişi, kimin malik olduğunu ve taşınmazın yüklerini sicilden öğrenir. Buna **aleniyet** denir.\n\nKanun sicile üç hükümle güç tanır:\n- Resmî siciller belgeledikleri olguların doğruluğuna kanıt oluşturur. Ancak aksi her türlü delille ispat edilebilir (TMK m. 7).\n- Kimse sicildeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3).\n- Sicile iyiniyetle güvenerek hak kazanan korunur (TMK m. 1023, ayrıntısı ayrı konuda).\n\nYanlış tutulan böyle güçlü bir sicil birini hakkından edebilir; bu riski kanun Devlete yükler (TMK m. 1007). Sistem üç ayaklıdır: **açıklık, güven ve Devletin sorumluluğu.**\n\n> 💡 **Püf nokta:** Güven ilkesinin bedelini Devlet öder. Sicil yüzünden biri hakkını kaybediyorsa, kaybeden kişi zararını TMK m. 1007'ye göre Devletten ister.\n\nTapu sicilinin ilkeleri ve işlendikleri yer:\n\n| İlke | Dayanak | Nerede? |\n|---|---|---|\n| Tescil | TMK m. 705, 1021-1022 | Ayrı konular |\n| Açıklık (aleniyet) | TMK m. 1020 | Bu konu |\n| Güven | TMK m. 1023 | Ayrı konu |\n| Sebebe bağlılık | TMK m. 1015, 1024 | Ayrı konular |\n| Belirlilik | TMK m. 1000, 1003 | Bu konu |\n| Sıra | TMK m. 1002, 1017 | Bu konu |\n| Devletin sorumluluğu | TMK m. 1007 | Bu konu |\n\n## 2. Sicilin unsurları (TMK m. 997/2)\n\nTapu sicili; **tapu kütüğü** ve **kat mülkiyeti kütüğü** ile bunları tamamlayan **yevmiye defteri, belgeler ve planlardan** oluşur. Kütükler ana sicildir, diğerleri onları tamamlar. Sicilin örneği, nasıl tutulacağı ve yardımcı siciller Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir (TMK m. 997/3). Bu ifade 2018'de 700 sayılı KHK ile \"tüzük\" ibaresinin yerine konmuştur. Sicil bugün büyük ölçüde elektronik ortamda tutulur.\n\n### 2.1 Tapu kütüğü (TMK m. 1000)\n- **Her taşınmaza kütükte bir sayfa ayrılır**, sayfa numaraları birbirini izler (m. 1000/1). Sistem kişiye göre değil **taşınmaza göre** kurulmuştur. Sicilde \"Ali'nin malları\" değil, \"şu parselin hukuki durumu\" aranır.\n- Bölünme ve birleştirmede izlenecek usul yönetmeliğe bırakılmıştır (m. 1000/2).\n- Sayfanın **özel sütunlarına** şu haklar tescil edilir (m. 1000/3):\n  1. mülkiyet,\n  2. taşınmaz üzerinde ya da o taşınmaz lehine başka bir taşınmazda kurulmuş irtifaklar ile taşınmaz yükü,\n  3. rehin hakları.\n- **Eklentiler**, malikin isteğiyle **beyanlar sütununa** yazılır. Bu kayıt ancak kütükte hak sahibi görünenlerin rızasıyla silinebilir (m. 1000/4), çünkü örneğin ipotek alacaklısı güvencenin eklentileri de kapsadığına güvenmiştir.\n- **Ortak sayfa (m. 1000/5):** Aynı malike ait birden çok taşınmaz, **sınırları bitişik olmasa bile**, malikin istemiyle ortak bir sayfaya kaydedilebilir. Bu sayfaya yapılan rehin tescilleri sayfadaki **bütün** taşınmazları bağlar. Taşınmazlardan biri sonra malikin istemiyle ya da mahkeme kararıyla sayfadan çıkarılırsa, onun üzerinde tescil edilmiş haklar **saklı kalır.**\n\n> **Örnek:** Hakan'ın aynı ilçede birbirine bitişik olmayan üç tarlası ortak sayfaya kaydedilmiş, bu sayfaya Banka lehine 3.000.000 TL'lik ipotek tescil edilmiştir. Hakan tarlalardan birini sayfadan çıkarıp satarsa, alıcı ipotekli bir tarla almış olur. İpotek o tarlada da sürer.\n\n> ⚠️ **Sınavda dikkat:** Kira ve satış vaadi gibi kişisel haklar özel sütunlara **tescil edilmez**, kütüğe **şerh** verilir (TMK m. 1009). Tescil, şerh ve beyan ayrımı ayrı konuda ayrıntılı işlenir.\n\n### 2.2 Kat mülkiyeti kütüğü (TMK m. 1001)\nKat mülkiyetine konu bağımsız bölümler ayrıca tutulan kat mülkiyeti kütüğüne yazılır. Özel kanun hükümleri saklı kalmak üzere, bu kütükteki işlemlere tapu kütüğüne ilişkin hükümler uygulanır. Ayrıntısı Kat Mülkiyeti Kanunu'ndadır.\n\n### 2.3 Yevmiye defteri ve belgeler (TMK m. 1002)\n- Tapu kütüğüne yönelik tescil istemleri, isteyenin kimliği ve istemin konusu belirtilerek **istem sırasına göre derhâl** yevmiye defterine yazılır (m. 1002/1).\n- İşlemlerin dayanağı olan belgeler (resmî senet, mahkeme kararı, mirasçılık belgesi gibi) özenle sıraya konur ve saklanır (m. 1002/2).\n- Kütüğe tesciller de istem tarihine ve sırasına göre yapılır (TMK m. 1017/1).\n\nYevmiye kaydı sırayı ve tarihi belirler. Tescilin etkisi, gerekli belgeler istemle birlikte verilmişse yevmiye defterine kayıt tarihinden başlar (TMK m. 1022/2, ayrıntısı ayrı konuda).\n\n### 2.4 Plan (TMK m. 1003)\nBir taşınmazın kütüğe kaydında ve belirlenmesinde **resmî bir ölçüme dayanan plan** esas alınır (m. 1003/1). Uygulamada bunlar kadastro çalışmalarıyla hazırlanan paftalardır. Plan ile zemindeki sınır işaretleri birbirini tutmazsa **plandaki sınır** asıldır. Yetkili makamlarca heyelan bölgesi olduğu belirlenen yörelerde bu kural uygulanmaz (TMK m. 719/2).\n\n## 3. Hangi taşınmazlar kaydedilir?\n\n### 3.1 Kaydedilecek taşınmazlar (TMK m. 998)\nSicile **taşınmaz olarak** üç şey kaydedilir:\n1. **Arazi.** Arazinin sicile kaydı özel kanuna, yani Kadastro Kanunu'na tabidir (m. 998/2). Kesinleşen kadastro tutanakları, kesinleşme tarihi tescil tarihi olarak gösterilerek en geç üç ay içinde tapu kütüğüne kaydedilir (3402 sayılı Kanun m. 12/2).\n2. **Taşınmazlar üzerindeki bağımsız ve sürekli haklar.** Bunlar aslında başka bir taşınmaz üzerindeki irtifaklardır, ama kendileri de ayrı sayfa açılarak taşınmaz gibi kaydedilebilir.\n   - **Süreklilik:** Hak süresiz ya da **en az otuz yıl** süreli olmalıdır (m. 998/3).\n   - **Bağımsızlık:** Hak belirli bir kişiye ya da belirli bir taşınmaza bağlı olmamalı, devredilebilmeli ve mirasçılara geçebilmelidir.\n   - Tipik örnek bağımsız ve sürekli üst hakkıdır. Hak sahibinin istemiyle tapu kütüğüne taşınmaz olarak kaydedilebilir (TMK m. 826/3).\n3. **Kat mülkiyetine konu bağımsız bölümler.** Kayıtları özel kanuna tabidir (m. 998/4).\n\nBu üç kalem, taşınmaz mülkiyetinin konusuyla birebir örtüşür (TMK m. 704).\n\n> **Örnek:** Belediye, bir otel şirketi lehine arsası üzerinde 49 yıl süreli ve devredilebilir bir üst hakkı kurar. Hak hem bağımsız hem süreklidir. Şirketin istemiyle ayrı sayfaya taşınmaz olarak yazılır ve artık bir taşınmaz gibi işlem görür. Süre 25 yıl olsaydı süreklilik şartı gerçekleşmez, hak ayrı sayfaya kaydedilemezdi.\n\n### 3.2 Kaydedilmeyecek taşınmazlar (TMK m. 999)\n- **Kural:** Özel mülkiyete tabi olmayan ve **kamunun yararlanmasına ayrılan** taşınmazlar kütüğe kaydedilmez (m. 999/1). Sahipsiz yerler ile yararı kamuya ait mallar Devletin hüküm ve tasarrufu altındadır (TMK m. 715/1).\n- **İstisna:** Böyle bir taşınmaz üzerinde **tescili gerekli bir ayni hak** kurulacaksa kaydedilir (m. 999/1). Örneğin kamu malı bir alan üzerinde bir şirket lehine bağımsız ve sürekli bir hak kurulacaksa, hakkın tescili için alanın sicile yazılması gerekir.\n- **Sonradan dönüşme:** Tapuya kayıtlı bir taşınmaz kayda tabi olmayan bir taşınmaza dönüşürse sicilden çıkarılır (m. 999/2). Örneğin tapulu bir arazi denizin ilerlemesiyle kalıcı olarak kıyı hâline gelirse.\n\nKadastro Kanunu bu ayrımı somutlaştırır (3402 sayılı Kanun m. 16):\n\n| Taşınmaz | Kadastroda ne olur? |\n|---|---|\n| Okul, hastane, hükümet binası gibi hizmet malları | İlgili kamu tüzel kişisi adına tespit edilir |\n| Mera, yaylak, kışlak gibi orta malları | Sınırlandırılır, özel siciline yazılır; bu tescil sayılmaz |\n| Yol, meydan, köprü | Haritasında gösterilir |\n| Kayalar, dağlar, deniz, göl, nehir | Tescil ve sınırlandırmaya tabi değildir |\n\n> ⚠️ **Sınavda dikkat:** \"Kamuya ait hiçbir taşınmaz kaydedilmez\" demek yanlıştır. Hizmet malları kamu tüzel kişileri adına sicile yazılır. Kaydedilmeyen, özel mülkiyete konu olmayan ve **kamunun ortak yararlanmasına** ayrılan yerlerdir.\n\nÖzel mülkiyete konu olamayan bir yer (kıyı ya da orman gibi) kadastroda yanlışlıkla bir kişi adına yazılmışsa kayıt sonradan iptal edilir; kişi zararını TMK m. 1007'ye göre Devletten ister (aşağıda 6.5).\n\n## 4. Sicil bölgesi ve tapu idaresi (TMK m. 1004-1006)\n- Taşınmazlar **bulundukları bölgenin** tapu siciline kaydedilir (m. 1004). Uygulamada bölge, bir tapu müdürlüğünün görev alanıdır.\n- **Birden çok bölgede** bulunan taşınmaz, diğer bölge sicillerine de kayıtlı olduğu belirtilerek **her bölgedeki sicile ayrı ayrı** kaydedilir (m. 1005/1).\n- Böyle bir taşınmaza ilişkin tescil istemleri ve tescil işlemleri **taşınmazın büyük kısmının bulunduğu bölgede** yapılır. Yapılan tescil, kütüğe işlenmek üzere diğer bölgelerdeki tapu idarelerine bildirilir (m. 1005/2).\n- Tapu idarelerinin kuruluşu, işleyişi ve hizmetlerin yürütülmesi özel kanunlara tabidir (m. 1006). Bu hizmeti bugün Tapu ve Kadastro Genel Müdürlüğü ile ona bağlı tapu ve kadastro müdürlükleri yürütür.\n- Tapu memuru, ilgililerin bilgisi dışında yaptığı işlemleri onlara **tebliğ etmekle** yükümlüdür. İtiraz süresi tebliğden işlemeye başlar (TMK m. 1019).\n\n> **Örnek:** Bir çiftliğin %70'i Silivri'de, %30'u Çatalca'dadır. Çiftlik her iki ilçenin siciline ayrı ayrı kaydedilir. Malik ipotek kurdurmak isterse istemi Silivri'deki tapu idaresine yapar. Tescil Çatalca'ya bildirilir.\n\n## 5. Tapu sicilinin açıklığı (TMK m. 1020)\n\n### 5.1 Herkese açık, ama ilgi şartıyla\nKanun önce ilkeyi koyar: **tapu sicili herkese açıktır** (m. 1020/1). Sicili fiilen görmek ise bir şarta bağlıdır. **İlgisini inanılır kılan herkes**, tapu kütüğündeki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini ya da bunların örneklerinin verilmesini isteyebilir (m. 1020/2). Sicildeki kaydın bir örneği de isteyen ilgiliye verilir (TMK m. 1017/2).\n\nBu düzenlemeden şu sonuçlar çıkar:\n- **İspat değil, inanılır kılma yeterlidir.** Kişi ilgisini kesin olarak ispatlamak zorunda değildir. Tapu memurunu ikna edecek bir açıklama ve gerekirse bir belge yeterlidir.\n- **Malikin izni şart değildir.** Sicil malikin değil Devletin kaydıdır. İlgisini inanılır kılan kişiye, malik istemese de gösterilir.\n- **İlgi**, hukuki ya da ekonomik bir menfaattir.\n  - Malik ve kütükte hak sahibi görünenler (ipotek alacaklısı, irtifak hakkı sahibi) açıkça ilgilidir.\n  - Taşınmazı satın almak ya da üzerinde ipotek almak üzere görüşen kişi, taşınmaz hakkında dava açacak kişi ve sınır uyuşmazlığı yaşayan komşu da ilgisini inanılır kılabilir.\n  - **Salt merak yetmez.**\n- Görülebilecek olan **ilgili sayfa** ile resmî senet gibi **dayanak belgelerdir.**\n\n> **Örnek:** Gizem, komşusu Kaan'ın bahçe duvarını kendi arsasına taşırdığını düşünmektedir. Kaan'ın parselinin kaydını ve planını görmek için tapu müdürlüğüne başvurur. Sınır uyuşmazlığı ve açmayı düşündüğü dava, Gizem'in ilgisini inanılır kılar. Kaan'ın izni aranmaz.\n\n### 5.2 Kimse sicildeki kaydı bilmediğini ileri süremez (m. 1020/3)\nAçıklığın asıl sonucu üçüncü fıkradadır. Sicil herkese açık olduğuna göre, sicildeki bir kaydı bilmemek hukuken bir mazeret değildir. Kişi kaydı fiilen görmemiş olsa da onu biliyor sayılır.\n\nBu kural TMK m. 3/2 ile birlikte okunur: durumun gereklerine göre kendisinden beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz. Sicili inceleme imkânı herkese tanındığına göre, bu imkânı kullanmayan kişi özensiz davranmıştır.\n\n> **Örnek:** Gökhan bir daireyi tapu kaydına bakmadan satın alır. Kayıtta X Bankası lehine ipotek tescillidir. Gökhan \"ipotekten haberim yoktu\" diyemez. İpotekli taşınmazın devri güvencede bir değişiklik yapmaz (TMK m. 888/1). Banka ipoteği paraya çevirebilir.\n\nYargıtay bu kuralı tescil ve şerhlerin yanında, beyanlar hanesine yazılan **kamu hukuku kısıtlamalarına** da uygular (beyanlar için TMK m. 1012/2). Kayıtta \"orman sınırları içindedir\" ya da \"kıyı kenar çizgisinin kıyı tarafındadır\" kaydı varken taşınmazı edinen kişi, tapusu sonradan iptal edilince \"bilmiyordum\" diyemez (bkz. 6.4).\n\n### 5.3 Açıklığın iki yüzü\n\n| | TMK m. 1020/3 | TMK m. 1023 |\n|---|---|---|\n| Ne der? | Sicildekini bilmiyorum diyemezsin | Sicile iyiniyetle güvenen korunur |\n| Kimin aleyhine? | Kaydı incelemeyenin | Gerçek hak sahibinin |\n| Etkisi | Bilmeme savunmasını keser | Kazanımı korur |\n\n> 💡 **Püf nokta:** Sicilde **yazılı olanı** \"görmedim\" diyerek savuşturamazsın (m. 1020/3). Sicilde **görünmeyen** bir hakkı ise, sicile iyiniyetle güvenerek hak kazanan kişiye karşı kural olarak ileri süremezsin (m. 1023; sınırları ayrı konuda).\n\n## 6. Devletin sorumluluğu (TMK m. 1007)\n\n### 6.1 Kural\n- Tapu sicilinin tutulmasından doğan **bütün zararlardan Devlet sorumludur** (m. 1007/1).\n- Devlet, zararın doğmasında **kusuru bulunan görevlilere rücu eder** (m. 1007/2).\n- Devletin sorumluluğuna ilişkin davalar **tapu sicilinin bulunduğu yer mahkemesinde** görülür (m. 1007/3).\n\nSicil tutmayı tekel olarak üstlenen Devlet, sicilin yanlış tutulmasının riskini de taşır.\n\n### 6.2 Sorumluluğun niteliği\nYargıtay'ın yerleşik içtihadına göre:\n- **Kusursuz sorumluluktur.** Hukuka aykırı bir sicil işlemi ile zarar arasında illiyet bağı yeterlidir. Tapu memurunun kusurlu olup olmaması Devletin sorumluluğunu etkilemez. Kusur yalnız **rücuda**, yani Devlet ile görevli arasındaki iç ilişkide önem taşır. Yargıtay bu sorumluluğu bir **tehlike sorumluluğu** olarak da nitelendirir. Kanun koyucu da 2644 sayılı Tapu Kanunu'nun ek 2. maddesinde \"Devletin kusursuz sorumluluğu\" ifadesini kullanır.\n- **Asli ve doğrudan sorumluluktur.** Zarar gören önce yolsuz tescilden yararlanan kişiye ya da sahteciye başvurmak zorunda değildir. Zararını doğrudan Devletten ister.\n- **Kurtuluş kanıtı yoktur.** Devlet \"gerekli özeni gösterdim\" diyerek kurtulamaz. Ancak **uygun illiyet bağının kesildiğini** ispat ederse sorumluluktan kurtulur.\n\n### 6.3 Şartlar\n1. **Tapu sicilinin tutulmasına ilişkin hukuka aykırı bir işlem ya da eylem.**\n   - Kapsam geniştir: tescil, terkin, değişiklik, şerh ve beyan işlemleri, işlem sırasında kimlik ve yetki denetimi. İstemde bulunan kişi, sicilde hak sahibi görünen kişi ya da onun temsilcisi olduğunu ispat etmelidir (TMK m. 1015/2).\n   - Uyulacak kurallar yalnız tapu mevzuatı değildir, hukukun genel ilkeleri de buna dahildir.\n   - Yargıtay'a göre **kadastro işlemleri** de kapsamdadır. Kütük kadastroyla oluşur, kadastro ve tapu işlemleri bir bütündür.\n2. **Zarar.** Zarar, malvarlığındaki gerçek azalmadır. Tapudaki yanlışlık tek başına yetmez; kayıt düzeltilebildiği sürece zarar yoktur. Zarar kural olarak tapu kaydının iptaline (ya da gerçek malikin açtığı iptal davasının reddine) ilişkin kararın **kesinleşmesiyle** doğar.\n3. **Uygun illiyet bağı.** Zarar, sicil işleminin olağan ve öngörülebilir bir sonucu olmalıdır.\n4. **Kusur aranmaz.**\n\n### 6.4 İlliyet bağının kesilmesi\nİlliyet bağı üç sebeple kesilebilir: **mücbir sebep, zarar görenin ağır kusuru ve üçüncü kişinin ağır kusuru.** Yargıtay bunları dar yorumlar.\n- **Üçüncü kişinin kusuru:** Hukuk Genel Kurulu'na göre illiyet bağının kesildiğini **Hazine ispat etmelidir** ve bu iddia dar yorumlanır. Sahte nüfus cüzdanıyla noterde vekâletname düzenleten sahtecilerin ve vekâletnameyi düzenleyen noterin kusuru, tapudaki işlem ile zarar arasındaki uygun illiyet bağını kesmez. Kural olarak kimse, aynı zarardan başkasının da sorumlu olduğunu ileri sürerek kendi sorumluluğundan kurtulamaz.\n- **Zarar görenin kendi davranışı:** Tapu kaydında \"orman sınırları içindedir\" ya da kıyıya ilişkin bir kayıt varken taşınmazı ya da payı bu kayıtla satın alan kişi, TMK m. 1020/3 karşısında iyiniyetli sayılmaz. Yargıtay'a göre bu kişinin zararı sicilin yanlış tutulmasından doğmuş sayılmaz ve tazminat istenemez. Hukuk Genel Kurulu, aynı kişinin aynı taşınmazda **mirasla** edindiği pay için tazminatı kabul etmiş, kaydı görerek **satın aldığı** paylar için ise reddetmiştir.\n\n> ⚠️ **Sınavda dikkat:** \"Sahteciliği noter ve sahteci yaptı, tapu memurunun kusuru yok, Devlet sorumlu değil\" cevabı iki yönden yanlıştır: kusur aranmaz ve üçüncü kişinin kusuru illiyet bağını kolay kolay kesmez.\n\n### 6.5 Uygulamada tipik görünümler\n- **Sahte kimlikle satış, gerçek malik kaybediyor.** Taşınmaz sahtecilerden iyiniyetli bir üçüncü kişiye geçmiş ve bu kişi TMK m. 1023 uyarınca korunmuşsa, gerçek malik tapuyu geri alamaz. Zararını Devletten ister.\n- **Sahte kimlikle satış, alıcı kaybediyor.** Gerçek malik açtığı tapu iptali ve tescil davasını kazanırsa (TMK m. 1025), bedeli ödeyip tapuya güvenen alıcı taşınmazı kaybeder. Bu alıcı da zararını TMK m. 1007'ye göre ister. Kimin korunacağı ayrı konuda; burada önemli olan, kaybeden tarafın Devlete başvurabilmesidir.\n- **Özel mülkiyete konu olamayan yerin kişi adına tescili.** Kadastroda ormanda ya da kıyıda kalan bir yerin kişi adına yazılması ve kaydın sonradan iptali (kıyılar için AY m. 43). Yargıtay, Devletin \"bu yerler zaten özel mülkiyete konu olamaz\" savunmasını kabul etmez. Devletin verdiği ve yıllarca tuttuğu tapu, karşılık ödenmeden elden alınamaz.\n- **Mükerrer kayıt.** Aynı yerin iki ayrı kayıtla iki ayrı kişi adına yazılması ve kayıtlardan birinin iptali.\n\n### 6.6 Davanın tarafları ve yargı yeri\n- **Davalı Devlettir, dava Hazine'ye karşı açılır.** Tapu müdürlüğünün ayrı bir tüzel kişiliği yoktur. Uygulamada tapu müdürlüğüne ya da orman idaresine yöneltilen davalar husumet yokluğundan reddedilmektedir.\n- **Görevli tapu memuruna dava açılamaz.** Kamu görevlilerinin yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları, kendilerine rücu edilmek kaydıyla ancak idare aleyhine açılabilir (AY m. 129/5). Uygulamada Hazine, davayı rücu edebileceği görevlilere ihbar eder.\n- **Yargı yolu:** Yargıtay'a göre bu davalar adli yargıda görülür. Görevli mahkeme asliye hukuk mahkemesidir.\n- **Yetki:** Tapu sicilinin bulunduğu yer mahkemesi (m. 1007/3). Yargıtay bunu **kesin yetki** sayar. Taraflar başka bir yer mahkemesini seçemez, mahkeme yetkisizliği kendiliğinden gözetir.\n\n### 6.7 Tazminatın kapsamı\n- Amaç **gerçek zararın** giderilmesidir. Zarar verici işlem olmasaydı zarar görenin malvarlığı ne durumda olacaksa, o durum sağlanmalıdır.\n- Yargıtay'ın güncel uygulamasında taşınmazın, **iptal (ya da ret) kararının kesinleştiği tarihteki** gerçek değeri esas alınır ve faiz bu tarihten işletilir. Değer, arsada emsal satışlarla, tarım arazisinde net gelir yöntemiyle belirlenir.\n- Hukuk Genel Kurulu 2026'da, tapusu iptal edilen alıcıların iptal davasında ödedikleri **yargılama giderlerini ve tapu masraflarını** da \"bütün zararlar\" kapsamında saydı. Daire daha önce bu giderleri kapsam dışında tutuyordu (bkz. doktrin).\n\n### 6.8 Zamanaşımı\nTMK m. 1007'de özel bir süre yoktur. Hukuk Genel Kurulu'na göre bu sorumluluk haksız fiil sorumluluğu değil, objektif-kusursuz bir sorumluluktur. Bu yüzden haksız fiil zamanaşımı (TBK m. 72) değil, **on yıllık genel zamanaşımı** (TBK m. 146) uygulanır. Süre, zararın doğduğu an olan **kararın kesinleşmesinden** itibaren işler. Kurul bu sonuca, iptal kararının kesinleşmesinden bir yılı aşkın, iki yıla yakın bir süre sonra açılan ve yerel mahkemece haksız fiil zamanaşımı gerekçesiyle reddedilen bir davada ulaştı.\n\n### 6.9 Rücu\n- Devlet, zararın doğmasında **kusuru bulunan** görevlilere rücu eder (m. 1007/2). Kusursuz görevliye rücu edilemez.\n- **İhmal (2644 sayılı Kanunun ek 2. maddesi):** Tapu ve kadastro işlemleriyle ilgili olarak Devletin kusursuz sorumluluğu sebebiyle yapılan ödemeler için **ihmali bulunan** personele karşı rücu istemi, **ödeme tarihinden itibaren iki yıl** ve her hâlde **zarara yol açan işlemin gerçekleştirildiği tarihten itibaren on yıl** geçmekle zamanaşımına uğrar.\n- **Ağır kusur:** Ağır kusurlu personel için TBK m. 73 saklıdır. Rücu istemi, tazminatın tamamının ödendiği ve birlikte sorumlu kişinin öğrenildiği tarihten itibaren iki yıl, her hâlde ödeme tarihinden itibaren on yıl geçmekle zamanaşımına uğrar.\n\n> **Örnek:** Tapu memuru Okan, Haziran 2017'deki bir satış işleminde ihmal göstermiştir. Hazine tazminatı Mart 2026'da öder. Ödemeden itibaren iki yıllık süre Mart 2028'de dolacaktır, ama işlemden itibaren on yıllık üst sınır Haziran 2027'de dolar. Hazine en geç bu tarihe kadar rücu etmelidir. Okan'ın kusuru ağırsa TBK m. 73 uygulanır ve on yıllık üst sınır ödeme tarihinden hesaplanır.\n\n## 7. Olay çözerken denetim şeması\n1. **Sicil sorunu mu?** Unsurlar, kayda tabilik (TMK m. 998-999), bölge (m. 1004-1005), erişim (m. 1020/2).\n2. **\"Bilmiyordum\" savunması var mı?** TMK m. 1020/3 ve TMK m. 3/2.\n3. **Hak sicil yüzünden mi kaybedildi?** Yolsuz tescil ve iyiniyetli üçüncü kişi (m. 1023) ya da kamu malı niteliğindeki yerin kaydının iptali.\n4. **TMK m. 1007'nin şartları:** hukuka aykırı sicil işlemi (kadastro dahil), kesinleşmiş zarar, uygun illiyet bağı. Kusur aranmaz.\n5. **Savunmalar:** illiyet bağının kesilmesi (dar yorum), kaydı görerek edinme, zamanaşımı (TBK m. 146).\n6. **Usul:** davalı Hazine, görevliye dava yok (AY m. 129/5), kesin yetki (m. 1007/3).\n7. **Kapsam ve rücu:** kesinleşme tarihindeki gerçek değer ve faiz; kusurlu görevliye rücu, 2644 sayılı Kanunun ek 2. maddesi ve TBK m. 73.",
+  "critical_md": "- 📌 Tapu sicilinin unsurları (TMK m. 997/2): tapu kütüğü ve kat mülkiyeti kütüğü ile bunları tamamlayan yevmiye defteri, belgeler ve planlar.\n- 📌 Kaydedilecekler (TMK m. 998): arazi, bağımsız ve sürekli haklar, bağımsız bölümler. Süreklilik için süresiz ya da **en az otuz yıl.**\n- ⚠️ Kamunun yararlanmasına ayrılan ve özel mülkiyete tabi olmayan taşınmazlar kaydedilmez, ama tescili gerekli bir ayni hak kurulacaksa kaydedilir (TMK m. 999/1). Hizmet malları ise kamu tüzel kişileri adına tespit ve tescil edilir.\n- 📌 Kütüğün özel sütunlarına yalnız mülkiyet, irtifaklar ile taşınmaz yükü ve rehin hakları **tescil** edilir (TMK m. 1000/3). Kişisel haklar şerh, eklentiler beyan olarak yazılır.\n- 📌 Ortak sayfa (TMK m. 1000/5): bitişik olmasa da olur, malikin istemi şarttır, rehin sayfadaki bütün taşınmazları bağlar, sayfadan çıkarılan taşınmazdaki haklar saklı kalır.\n- 📌 Birden çok bölgedeki taşınmaz her bölgede ayrı kaydedilir. İstem ve tescil büyük kısmın bulunduğu bölgede yapılır, diğerlerine bildirilir (TMK m. 1005).\n- ⚠️ Sicili görmek için **ilgiyi inanılır kılmak** yeter, ispat gerekmez. Malikin izni aranmaz. Salt merak yetmez (TMK m. 1020/2).\n- ⚠️ TMK m. 1020/3 \"bilmiyordum\" savunmasını keser. TMK m. 1023 ise sicile iyiniyetle güveneni korur. İkisini karıştırma.\n- 📌 TMK m. 1007: kusursuz, asli ve doğrudan sorumluluk. Memurun kusuru yalnız rücuda önem taşır.\n- ⚠️ Davalı Hazine'dir. Tapu memuruna doğrudan dava açılamaz (AY m. 129/5). Tapu müdürlüğünün tüzel kişiliği yoktur.\n- 📌 Yetki: tapu sicilinin bulunduğu yer mahkemesi (TMK m. 1007/3). Yargıtay bunu kesin yetki sayar.\n- 📌 Zamanaşımı (Yargıtay Hukuk Genel Kurulu): on yıllık genel süre (TBK m. 146), tapu kaydına ilişkin kararın kesinleşmesinden itibaren.\n- ⚠️ Noterin ya da sahtecinin kusuru illiyet bağını kolay kolay kesmez. Kesildiğini Hazine ispatlar. Buna karşılık kayıttaki orman ya da kıyı kaydını görerek satın alan tazminat isteyemez.\n- ⚠️ Kadastro hataları ve özel mülkiyete konu olamayan yerlerin kişi adına tescili de TMK m. 1007 kapsamındadır.\n- 📌 Rücu: ihmalde ödemeden itibaren 2 yıl, her hâlde işlemden itibaren 10 yıl (2644 sayılı Kanunun ek 2. maddesi). Ağır kusurda TBK m. 73 uygulanır.",
+  "doctrine_md": "### Sorumluluğun niteliği ve zamanaşımı\nYargıtay ve baskın görüş TMK m. 1007'yi kusursuz bir sorumluluk sayar. Tartışma, bu sorumluluğun haksız fiil sorumluluğunun bir türü olup olmadığındadır. Hukuk Genel Kurulu çoğunluğu sorumluluğu tehlike sorumluluğu olarak nitelendirir ve haksız fiil sorumluluğundan ayırır. Bu yüzden on yıllık genel zamanaşımını (TBK m. 146) uygular. Kurul'daki azınlık ve bazı yerel mahkemeler ise kusursuz sorumluluk hâllerinin de haksız fiilin özel görünümleri olduğunu, bu nedenle haksız fiil zamanaşımının (TBK m. 72) uygulanması gerektiğini savunur. Yargıtay'ın bir dairesi de geçmişte kısa süreyi uygulamıştı. Bugün uygulama on yıllık süreden yanadır. Haksız fiil görüşünde, kısa süre zararın doğduğu kesinleşmeden işlese bile on yıllık üst sürenin hangi tarihten işleyeceği ayrıca sorun olur. Yolsuz kaydın yapıldığı tarih esas alınırsa, eski kadastro kayıtlarında dava açma imkânı fiilen ortadan kalkar.\n\n### Tazminatın kapsamı ve değer tarihi\nKanun \"bütün zararlar\" der. Daire uygulaması son yıllarda, tapusu iptal edilen alıcının iptal davasında ödediği yargılama giderlerini kapsam dışında tutmuş ve bunların sahtecilerden haksız fiil hükümlerine göre istenmesi gerektiğini kabul etmişti. Bu görüşe göre Devletin sorumluluğu taşınmazın değeriyle sınırlı kalmalıdır. Hukuk Genel Kurulu 2026'da kanunun zararın kapsamı için bir istisna öngörmediğini belirterek bu giderleri ve tapu masraflarını da kapsama aldı.\n\nDeğer tarihinde de görüş ayrılığı yaşandı. Bazı eski Daire kararları taşınmazın dava tarihindeki değerini esas almış, faizi dava tarihinden başlatmıştı. Güncel uygulama zararın doğduğu kesinleşme tarihini esas alır. Bazı davacılar ise taşınmaz değerlerinin hızla arttığı dönemlerde bu yöntemin gerçek zararı karşılamadığını, dava ya da karar tarihine yakın bir değerin esas alınması gerektiğini ileri sürmektedir.\n\n### Kaydı görerek edinen kişi: tam ret mi, indirim mi?\nHukuk Genel Kurulu çoğunluğuna göre, kayıtta orman şerhi varken pay satın alan kişi TMK m. 1020/3 karşısında iyiniyetli değildir. Zararı ile sicil arasında illiyet bağı da yoktur, bu yüzden tazminat bütünüyle reddedilir. Karşı görüşe göre önceki malikin sahip olduğu tazminat hakkı, kötüniyeti ispatlanmamış yeni malike de geçmelidir. Zarar görenin kusuru ancak ağırsa illiyet bağını keser, daha hafifse yalnız TBK m. 52 uyarınca indirim sebebi olabilir. Bu görüş aksi kabulün mülkiyet hakkını zedelediğini savunur.",
+  "glossary": [
+   {
+    "term": "Tapu sicili",
+    "definition": "Taşınmazlar üzerindeki hakları göstermek için Devletçe tutulan; kütükler, yevmiye defteri, belgeler ve planlardan oluşan resmî kayıt (TMK m. 997)."
+   },
+   {
+    "term": "Tapu kütüğü",
+    "definition": "Her taşınmaza bir sayfa ayrılan ana sicil. Mülkiyet, irtifaklar, taşınmaz yükü ve rehinler sayfanın özel sütunlarına tescil edilir."
+   },
+   {
+    "term": "Kat mülkiyeti kütüğü",
+    "definition": "Kat mülkiyetine konu bağımsız bölümlerin kaydedildiği ayrı kütük (TMK m. 1001)."
+   },
+   {
+    "term": "Yevmiye defteri",
+    "definition": "Tescil istemlerinin istem sırasına göre derhâl yazıldığı defter. İşlemlerin sırasını ve tescilin etkisinin başladığı tarihi gösterir."
+   },
+   {
+    "term": "Taşınmaz esaslı sicil",
+    "definition": "Kayıtların kişiye göre değil, her taşınmaza ayrılan sayfaya göre tutulduğu sicil düzeni."
+   },
+   {
+    "term": "Ortak sayfa",
+    "definition": "Aynı malike ait birden çok taşınmazın malikin istemiyle tek sayfaya kaydedilmesi. Bu sayfadaki rehin bütün taşınmazları bağlar (TMK m. 1000/5)."
+   },
+   {
+    "term": "Bağımsız ve sürekli hak",
+    "definition": "Belirli bir kişiye ya da taşınmaza bağlı olmayan, süresiz ya da en az otuz yıl süreli ve ayrı sayfaya taşınmaz olarak kaydedilebilen hak (TMK m. 998)."
+   },
+   {
+    "term": "Sicil bölgesi",
+    "definition": "Taşınmazın kaydedildiği tapu idaresinin görev alanı (TMK m. 1004)."
+   },
+   {
+    "term": "Açıklık (aleniyet) ilkesi",
+    "definition": "Tapu sicilinin herkese açık olması ve kimsenin sicildeki bir kaydı bilmediğini ileri sürememesi (TMK m. 1020)."
+   },
+   {
+    "term": "İlgiyi inanılır kılma",
+    "definition": "Sicili görmek isteyen kişinin hukuki ya da ekonomik menfaatini, kesin ispat gerekmeksizin makul biçimde ortaya koyması."
+   },
+   {
+    "term": "Beyanlar sütunu",
+    "definition": "Eklentiler ve kamu hukuku kısıtlamaları gibi bilgi niteliğindeki hususların yazıldığı sütun (TMK m. 1012)."
+   },
+   {
+    "term": "Kusursuz sorumluluk",
+    "definition": "Kusur aranmaksızın hukuka aykırı işlem, zarar ve uygun illiyet bağıyla doğan sorumluluk. TMK m. 1007'deki sorumluluk bu niteliktedir."
+   },
+   {
+    "term": "Uygun illiyet bağı",
+    "definition": "Sebebin, olayların olağan akışına ve hayat tecrübesine göre ortaya çıkan zararı doğurmaya elverişli olması."
+   },
+   {
+    "term": "Rücu",
+    "definition": "Tazminatı ödeyen Devletin, zararın doğmasında kusuru bulunan görevliye başvurması (TMK m. 1007/2)."
+   },
+   {
+    "term": "Kesin yetki",
+    "definition": "Tarafların aksini kararlaştıramadığı ve mahkemenin kendiliğinden gözettiği yetki. TMK m. 1007/3'teki tapu sicilinin bulunduğu yer mahkemesi böyledir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "997",
+   "official_text": "1. Genel olarak\nMadde 997- Taşınmazlar üzerindeki hakları göstermek üzere tapu sicili tutulur.\nTapu sicili, tapu kütüğü ve kat mülkiyeti kütüğü ile bunları tamamlayan yevmiye defteri ve belgeler ile plânlardan oluşur.\nSicilin örneği, nasıl tutulacağı ve yardımcı siciller Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[44]\n2. Taşınmazların kaydedilmesi\n[44] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "998",
+   "official_text": "a. Kaydedilecek taşınmazlar\nMadde 998- Tapu siciline taşınmaz olarak şunlar kaydedilir:\n1. Arazi,\n2. Taşınmazlar üzerindeki bağımsız ve sürekli haklar,\n3. Kat mülkiyetine konu olan bağımsız bölümler.\nArazinin tapu siciline kaydı, özel kanun hükümlerine tâbidir.\nBağımsız ve sürekli hakların kaydedilmesi için gerekli koşullar ve usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir. Süreklilik koşulunun gerçekleşmesi için hakkın süresiz veya en az otuz yıl süreli olması gerekir.[45]\nKat mülkiyetine konu olan bağımsız bölümlerin taşınmaz olarak kaydı, özel kanun hükümlerine tâbidir.\n[45] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "999",
+   "official_text": "b. Kaydedilmeyecek taşınmazlar\nMadde 999- Özel mülkiyete tâbi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar, bunlara ilişkin tescili gerekli bir aynî hakkın kurulması söz konusu olmadıkça kütüğe kaydolunmaz.\nTapuya kayıtlı bir taşınmaz, kayda tâbi olmayan bir taşınmaza dönüşürse, tapu sicilinden çıkarılır.\n3. Sicilin unsurları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1000",
+   "official_text": "a. Tapu kütüğü\nMadde 1000- Her taşınmaza kütükte bir sayfa ayrılır ve sayfa numaraları birbirini izler.\nBir taşınmazın bölünmesi veya birden çok taşınmazın birleştirilmesi hâlinde uyulacak usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[46]\nKütüğün her sayfasındaki özel sütunlara şunlar tescil edilir:\n1. Mülkiyet,\n2. Taşınmaz üzerinde kurulmuş olan veya o taşınmaz lehine başka taşınmaz üzerinde kurulmuş bulunan irtifak hakları ile taşınmaz yükü,\n3. Taşınmaz üzerindeki rehin hakları.\nEklentiler, malikin isteği üzerine beyanlar sütununa kaydedilir. Yapılan bu kayıt, ancak kütükte hak sahibi olarak görünenlerin rızasıyla kütükten silinebilir.\nAynı malike ait olan birden çok taşınmaz, sınırları birbirine bitişik olmasa bile, malikin istemiyle kütükte ortak bir sayfaya kaydedilebilir. Bu sayfaya yapılan rehin tescilleri, o sayfada kayıtlı bulunan bütün taşınmazları bağlar; aynı sayfada kayıtlı bu gibi taşınmazlardan bir kısmı malikin istemi üzerine veya mahkeme kararıyla o sayfadan çıkarılırsa, çıkarılan taşınmazlar üzerinde tescil edilmiş bulunan haklar saklı kalır.\n[46] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1001",
+   "official_text": "b. Kat mülkiyeti kütüğü\nMadde 1001- Kat mülkiyetine konu olan bağımsız bölümler, ayrıca tutulacak kat mülkiyeti kütüğüne yazılır.\nÖzel kanun hükümleri saklı kalmak üzere, kütükte yapılacak işlemler hakkında tapu kütüğüne ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1002",
+   "official_text": "c. Yevmiye defteri ve belgeler\nMadde 1002- Tapu kütüğüne tescil istemleri, isteyenin kimliği ve istemin konusu belirtilerek istem sırasına göre derhâl yevmiye defterine yazılır.\nBu işlemlerin dayanağı olan belgeler, özenle sıraya konulur ve saklanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1003",
+   "official_text": "d. Plân\nMadde 1003- Bir taşınmazın kütüğe kaydı ve belirlenmesinde resmî bir ölçüme dayanan plân esas alınır.\nPlânların nasıl hazırlanacağı Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[47]\n[47] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkrada yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1004",
+   "official_text": "1. Bir bölgede\nMadde 1004- Taşınmazlar, bulundukları bölgenin tapu siciline kaydedilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1005",
+   "official_text": "2. Birden çok bölgede\nMadde 1005- Birden çok bölgede bulunan taşınmaz, diğer bölge sicillerine kayıtlı olduğu belirtilmek suretiyle her bölgedeki sicile ayrı ayrı kaydedilir.\nBöyle bir taşınmaza ilişkin tescil istemleri ve tescil işlemleri taşınmazın büyük kısmının bulunduğu bölgede yapılır ve yapılan tescil kütüğe işlenmek üzere diğer bölgelerdeki tapu idarelerine bildirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1006",
+   "official_text": "1. Kuruluş\nMadde 1006- Tapu idarelerinin kuruluş, işleyiş ve hizmetlerinin yürütülmesi, özel kanun hükümlerine tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1007",
+   "official_text": "2. Sorumluluk\nMadde 1007- Tapu sicilinin tutulmasından doğan bütün zararlardan Devlet sorumludur.\nDevlet, zararın doğmasında kusuru bulunan görevlilere rücu eder.\nDevletin sorumluluğuna ilişkin davalar, tapu sicilinin bulunduğu yer mahkemesinde görülür.\nB. İşlemler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1020",
+   "official_text": "C. Tapu sicilinin açıklığı\nMadde 1020- Tapu sicili herkese açıktır.\nİlgisini inanılır kılan herkes, tapu kütüğündeki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini veya bunların örneklerinin verilmesini isteyebilir.\nKimse tapu sicilindeki bir kaydı bilmediğini ileri süremez.\nD. Tescilin etkileri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1017",
+   "official_text": "1. Genel olarak\nMadde 1017- Kütüğe tesciller, istem tarihine ve sırasına göre yapılır.\nSicildeki kaydın bir örneği isteyen ilgiliye verilir.\nTescil ve terkin ile verilecek örneklerin şekli Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[49]\n[49] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1018",
+   "official_text": "2. Taşınmaz lehine irtifaklarda\nMadde 1018- Taşınmaz lehine irtifakların tescil ve terkini hem yüklü, hem yararlanan taşınmazların sayfalarına kaydedilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1019",
+   "official_text": "IV. Tebliğ zorunluluğu\nMadde 1019- Tapu memuru, ilgililerin bilgisi dışında yaptığı işlemleri onlara tebliğ etmekle yükümlüdür.\nİlgililerin bu işlemlere karşı itiraz süresi, kendilerine yapılan tebliğ tarihinden işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1009",
+   "official_text": "a. Kişisel haklarda\nMadde 1009- Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, gerialım sözleşmelerinden doğan haklar ile şerhedilebileceği kanunlarda açıkça öngörülen diğer haklar tapu kütüğüne şerhedilebilir.\nBunlar şerh verilmekle o taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1012",
+   "official_text": "3. Beyanlar\nMadde 1012- Bir taşınmazın eklentileri, malikin istemi üzerine kütükteki beyanlar sütununa yazılır. Bu kaydın terkini, kütükte hak sahibi görünen bütün ilgililerin rızasına bağlıdır.\nTaşınmaz mülkiyetine ilişkin kamu hukuku kısıtlamalarının beyanlar sütununa yazılması ve bu sütuna yazılabilecek diğer hususlar Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[48]\nÖzel kanun hükümleri saklıdır.\nII. Tescilin ve terkinin koşulları\n1. İstem\n[48] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1015",
+   "official_text": "2. Yetkinin ve sebebin belirlenmesi\nMadde 1015- Tescil, terkin ve değişiklik gibi tasarruf işlemlerinin yapılabilmesi, istemde bulunanın, tasarruf yetkisini ve hukukî sebebi belgelemiş olmasına bağlıdır.\nİstemde bulunan kimse, kendisinin, sicilde hak sahibi görünen kişi veya bu kişinin temsilcisi olduğunu ispat etmek suretiyle tasarruf yetkisini belgelemiş olur.\nHukukî sebebin belgelenmesi, bu sebebin geçerliliği için gerekli şekle uyulduğunun ispatı suretiyle olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1021",
+   "official_text": "I. Tescilin yapılmamasının sonuçları\nMadde 1021- Kurulması kanunen tescile tâbi aynî haklar, tescil edilmedikçe varlık kazanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1022",
+   "official_text": "1. Genel olarak\nMadde 1022- Aynî haklar, kütüğe tescil ile doğar; sıralarını ve tarihlerini tescile göre alır.\nTescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş veya geçici tescil hâlinde belgelerin uygun zamanda tamamlanmış olması koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar.\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya diğer herhangi bir yolla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1024",
+   "official_text": "3. İyiniyetli olmayan üçüncü kişilere karşı\nMadde 1024- Bir aynî hak yolsuz olarak tescil edilmiş ise, bunu bilen veya bilmesi gereken üçüncü kişi bu tescile dayanamaz.\nBağlayıcı olmayan bir hukukî işleme dayanan veya hukukî sebepten yoksun bulunan tescil yolsuzdur.\nBöyle bir tescil yüzünden aynî hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir.\nE. Terkin ve değiştirme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1025",
+   "official_text": "I. Yolsuz tescilde\nMadde 1025- Bir aynî hak yolsuz olarak tescil edilmiş veya bir tescil yolsuz olarak terkin olunmuş ya da değiştirilmiş ise, bu yüzden aynî hakkı zedelenen kimse tapu sicilinin düzeltilmesini dava edebilir.\nİyiniyetli üçüncü kişilerin bu tescile dayanarak kazandıkları aynî haklar ve her türlü tazminat istemi saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "705",
+   "official_text": "I. Tescil\nMadde 705- Taşınmaz mülkiyetinin kazanılması, tescille olur.\nMiras, mahkeme kararı, cebrî icra, işgal, kamulaştırma hâlleri ile kanunda öngörülen diğer hâllerde, mülkiyet tescilden önce kazanılır. Ancak, bu hâllerde malikin tasarruf işlemleri yapabilmesi, mülkiyetin tapu kütüğüne tescil edilmiş olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "704",
+   "official_text": "A. Taşınmaz mülkiyetinin konusu\nMadde 704- Taşınmaz mülkiyetinin konusu şunlardır:\n1. Arazi,\n2. Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar,\n3. Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler.\nB. Taşınmaz mülkiyetinin kazanılması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "715",
+   "official_text": "6. Sahipsiz yerler ve yararı kamuya ait mallar\nMadde 715- Sahipsiz yerler ile yararı kamuya ait mallar, Devletin hüküm ve tasarrufu altındadır.\nAksi ispatlanmadıkça, yararı kamuya ait sular ile kayalar, tepeler, dağlar, buzullar gibi tarıma elverişli olmayan yerler ve bunlardan çıkan kaynaklar, kimsenin mülkiyetinde değildir ve hiçbir şekilde özel mülkiyete konu olamaz.\nSahipsiz yerler ile yararı kamuya ait malların kazanılması, bakımı, korunması, işletilmesi ve kullanılması özel kanun hükümlerine tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "719",
+   "official_text": "1. Sınırların belirlenmesi\nMadde 719- Taşınmazın sınırları, tapu plânları ve arz üzerindeki sınır işaretleriyle belirlenir.\nTapu plânları ile arz üzerindeki işaretler birbirini tutmazsa, asıl olan plândaki sınırdır. Bu kural, yetkili makamlarca heyelân bölgesi olduğu belirlenen yörelerde uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "826",
+   "official_text": "I. Konu ve tapu kütüğüne kayıt\nMadde 826- Bir taşınmaz maliki, üçüncü kişi lehine arazisinin altında veya üstünde yapı yapmak veya mevcut bir yapıyı muhafaza etmek yetkisi veren bir irtifak hakkı kurabilir.\nAksi kararlaştırılmış olmadıkça bu hak, devredilebilir ve mirasçılara geçer.\nÜst hakkı, bağımsız ve sürekli nitelikte ise üst hakkı sahibinin istemi üzerine tapu kütüğüne taşınmaz olarak kaydedilebilir. En az otuz yıl için kurulan üst hakkı, sürekli niteliktedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "888",
+   "official_text": "1. Taşınmazın devri\nMadde 888- İpotekli taşınmazın devri, aksi kararlaştırılmış olmadıkça, borçlunun sorumluluğunda ve güvencede bir değişiklik meydana getirmez.\nYeni malik borcu yüklendiği takdirde alacaklı, kendisine başvurma hakkını saklı tuttuğunu bir yıl içinde yazılı olarak önceki borçluya bildirmezse, borçlu borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "7",
+   "official_text": "II. Resmî belgelerle ispat\nMadde 7 - Resmî sicil ve senetler, belgeledikleri olguların doğruluğuna kanıt oluşturur.\nBunların içeriğinin doğru olmadığının ispatı, kanunlarda başka bir hüküm bulunmadıkça, her hangi bir şekle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "72",
+   "official_text": "MADDE 72- Tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Ancak, tazminat ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa, bu zamanaşımı uygulanır.\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile, her zaman bu borcu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "73",
+   "official_text": "MADDE 73- Rücu istemi, tazminatın tamamının ödendiği ve birlikte sorumlu kişinin öğrenildiği tarihten başlayarak iki yılın ve her hâlde tazminatın tamamının ödendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nTazminatın ödenmesi kendisinden istenilen kişi, durumu birlikte sorumlu olduğu kişilere bildirmek zorundadır. Aksi takdirde zamanaşımı, bu bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "52",
+   "official_text": "MADDE 52- Zarar gören, zararı doğuran fiile razı olmuş veya zararın doğmasında ya da artmasında etkili olmuş yahut tazminat yükümlüsünün durumunu ağırlaştırmış ise hâkim, tazminatı indirebilir veya tamamen kaldırabilir.\nZarara hafif kusuruyla sebep olan tazminat yükümlüsü, tazminatı ödediğinde yoksulluğa düşecek olur ve hakkaniyet de gerektirirse hâkim, tazminatı indirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "129",
+   "official_text": "2. Görev ve sorumlulukları, disiplin kovuşturulmasında güvence\nMadde 129 – Memurlar ve diğer kamu görevlileri Anayasa ve kanunlara sadık kalarak faaliyette bulunmakla yükümlüdürler.\nMemurlar ve diğer kamu görevlileri ile kamu kurumu niteliğindeki meslek kuruluşları ve bunların üst kuruluşları mensuplarına savunma hakkı tanınmadıkça disiplin cezası verilemez.\n(Değişik üçüncü fıkra: 7/5/2010-5982/13 md.) Disiplin kararları yargı denetimi dışında bırakılamaz.\nSilahlı Kuvvetler mensupları ile hakimler ve savcılar hakkındaki hükümler saklıdır.\nMemurlar ve diğer kamu görevlilerinin yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları, kendilerine rücu edilmek kaydıyla ve kanunun gösterdiği şekil ve şartlara uygun olarak, ancak idare aleyhine açılabilir.\nMemurlar ve diğer kamu görevlileri hakkında işledikleri iddia edilen suçlardan ötürü ceza kovuşturması açılması, kanunla belirlenen istisnalar dışında, kanunun gösterdiği idari merciin iznine bağlıdır.\nE. Yükseköğretim kurumları ve üst kuruluşları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "43",
+   "official_text": "A. Kıyılardan yararlanma\nMadde 43 – Kıyılar, Devletin hüküm ve tasarrufu altındadır.\nDeniz, göl ve akarsu kıyılarıyla, deniz ve göllerin kıyılarını çevreleyen sahil şeritlerinden yararlanmada öncelikle kamu yararı gözetilir.\nKıyılarla sahil şeritlerinin, kullanılış amaçlarına göre derinliği ve kişilerin bu yerlerden yararlanma imkan ve şartları kanunla düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KADASTRO KANUNU",
+   "law_no": "3402",
+   "article_no": "12",
+   "official_text": "Kadastro tutanaklarının kesinleşmesi ve hak düşürücü süre:\nMadde 12 – 30 günlük ilan süresi geçtikten sonra, dava açılmayan kadastro tutanaklarına ait sınırlandırma ve tespitler kesinleşir.\nKadastro müdürü tarafından onaylanarak kesinleşen tutanaklar ile kadastro mahkemesinin kesinleşmiş kararları; kesinleşme tarihleri tescil tarihi olarak gösterilmek suretiyle en geç 3 ay içinde tapu kütüklerine kaydedilir.\nBu tutanaklarda belirtilen haklara, sınırlandırma ve tespitlere ait tutanakların kesinleştiği tarihten itibaren on yıl geçtikten sonra, kadastrodan önceki hukuki sebeplere dayanarak itiraz olunamaz ve dava açılamaz. (Ek cümle: 25/2/2009-5841/2 md.; İptal: Anayasa Mahkemesi’nin 12/5/2011 tarihli ve E.: 2009/31, K.: 2011/77 sayılı Kararı ile.)\nKadastrosu tamamlanan çalışma alanı içerisinde kalan eski tapu kayıtları, işleme tabi kayıt niteliğini kaybederler. Bu kayıtlara dayanılarak kadastro ve tapu sicil müdürlüklerinde işlem yapılamaz.\nKesinleşmemiş tutanaklar herhangi bir nedenle tapuya tescil edilmişse, iddia ve taşınmazın niteliğine bakılmaksızın, taşınmazı tescil tarihinden itibaren 20 yıl müddetle malik sıfatıyla zilyetliğinde bulunduranlar ile bunların akdi ve kanuni halefleri açılmış ve açılacak olan davalarda medeni kanunun tapuya itimat prensibinden yararlanırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3402&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KADASTRO KANUNU",
+   "law_no": "3402",
+   "article_no": "16",
+   "official_text": "Kamu malları:\nMadde 16 – Kamunun ortak kullanılmasına veya bir kamu hizmetinin görülmesine ayrılan yerlerle Devletin hüküm ve tasarrufu altında bulunan sahipsiz yerlerden:\nA) Kamu hizmetinde kullanılan, bütçelerinden ayrılan ödenek veya yardımlarla yapılan resmi bina ve tesisler, (Hükümet, belediye, karakol, okul binaları, köy odası, hastane veya diğer sağlık tesisleri, kütüphane, kitaplık, namazgah, cami genel mezarlık, çeşme, kuyular, yunak ile kapanmış olan yollar, meydanlar, pazar yerleri, parklar ve bahçeler ve boşluklar ve benzeri hizmet malları) kayıt, belge veya özel kanunlarına veya Cumhurbaşkanlığı kararnamelerine göre Hazine, kamu kurum ve kuruluşları, il, belediye köy veya mahalli idare birlikleri tüzelkişiliği, adlarına tespit olunur. (1)\nB) Mera, yaylak, kışlak, otlak, harman ve panayır yerleri gibi paralı veya parasız kamunun yararlanmasına tahsis edildiği veya kamunun kadimden beri yararlandığı belgelerle veya bilirkişi veya tanık beyanı ile ispat edilen orta malı taşınmaz mallar sınırlandırılır, parsel numarası verilerek yüzölçümü hesaplanır ve bu gibi taşınmaz mallar özel siciline yazılır.\nBu sınırlandırma tescil mahiyetinde olmadığı gibi bu suretle belirlenen taşınmaz mallar, özel kanunlarında yazılı hükümler saklı kalmak kaydıyla özel mülkiyete konu teşkil etmezler.\nYol, meydan, köprü gibi orta malları ise haritasında gösterilmekle yetinilir.\nC) Devletin hüküm ve tasarrufu altında bulunan kayalar, tepeler, dağlar (bunlardan çıkan kaynaklar) gibi, tarıma elverişli olmayan sahipsiz yerler ile deniz, göl, nehir gibi genel sular tescil ve sınırlandırmaya tabi değildir, istisnalar saklıdır.\n(1) 2/7/2018 tarihli ve 700 sayılı KHK’nin 108 inci maddesiyle, bu bentte yer alan “özel kanunlarına” ibaresinden sonra gelmek üzere “veya Cumhurbaşkanlığı kararnamelerine” ibaresi eklenmiştir.\nD) Devletin hüküm ve tasarrufu altında bulunan ormanlar, bu Kanunda hüküm bulunmayan hallerde, özel kanunları hükümlerine tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3402&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/362",
+   "karar_no": "2026/319",
+   "decision_date": "13.05.2026",
+   "summary_md": "Davacının kimlik bilgilerini ve fotoğrafını ele geçiren kişiler, bir dublör kullanarak onun adına yeni nüfus cüzdanı çıkarmış, aynı gün bu cüzdanla noterde satış vekâletnamesi düzenletmiş ve davacının çok sayıda taşınmazını rayiç değerin altında satmıştır. Davacının açtığı tapu iptali ve tescil davasında taşınmazları sonradan edinen bazı kişiler iyiniyetli kabul edildiğinden üç parsel yönünden dava reddedilmiş, davacı bu parseller için TMK m. 1007'ye dayanarak Hazine'den tazminat istemiştir. Bölge adliye mahkemesi, illiyet bağının noterin ve sahte vekilin eylemleriyle kesildiğini kabul ederek davayı reddetmiş ve Yargıtay 5. Hukuk Dairesinin bozma kararına direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını bozmuştur: Devletin sorumluluğu kusursuzdur, tapu memurunun kusurlu olup olmaması önem taşımaz; illiyet bağının üçüncü kişinin eylemiyle kesildiğini Hazine ispatlamalıdır ve bu iddia dar yorumlanır. Noter ve sahte vekil kusurlu olsa da eylemleri tapudaki işlem ile zarar arasındaki uygun illiyet bağını kesmez; aynı gün kimlik ve vekâletname çıkarılması ve rayiç altı çok sayıda satış da açıkça şüphe uyandırıcıdır. Konuya katkısı: güven ilkesi yüzünden taşınmazını iyiniyetli üçüncü kişiye kaptıran gerçek malikin zararını Devletin karşıladığını ve illiyet bağının kesilmesinin dar yorumlandığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1230103000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/2025",
+   "karar_no": "2018/1189",
+   "decision_date": "13.06.2018",
+   "summary_md": "Davacıların taşınmazının tapu kaydı, Hazine'nin açtığı davada taşınmazın kıyı kenar çizgisi içinde kaldığı gerekçesiyle iptal edilmiş, karar 16.01.2007'de kesinleşmiş ve davacılar 01.12.2008'de TMK m. 1007'ye dayanarak tazminat davası açmıştır. Yerel mahkeme sorumluluğu haksız fiil sorumluluğu sayarak mülga Borçlar Kanunu'ndaki bir yıllık zamanaşımının kesinleşmeden itibaren dolduğunu kabul etmiş ve Yargıtay 5. Hukuk Dairesinin bozma kararına direnmiştir. Hukuk Genel Kurulu, gerekçeyi düzelterek direnme kararını oy çokluğuyla bozmuştur. Kurul'a göre TMK m. 1007'deki sorumluluk objektif-kusursuz bir tehlike sorumluluğudur ve haksız fiil sorumluluğuyla ilgisi yoktur; kanunda ayrı bir süre de bulunmadığından on yıllık genel zamanaşımı (bugünkü TBK m. 146) uygulanır ve iptal kararının kesinleşmesinden itibaren bu süre dolmamıştır. Azınlık, haksız fiil zamanaşımının uygulanması gerektiğini savunmuştur. Konuya katkısı: TMK m. 1007 davasında zamanaşımının türünü ve sürenin başlangıcında kesinleşme tarihinin önemini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/421512500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2023/672",
+   "karar_no": "2025/130",
+   "decision_date": "12.03.2025",
+   "summary_md": "1955 kadastrosuyla tarla olarak tescil edilen taşınmaz 1966'da davacının murisine geçmiş, kayda 1991'de taşınmazın orman tahdit sınırları içinde kaldığına ilişkin şerh konulmuştur; 2015'te taşınmaz üç mirasçıya 1/3'er payla intikal etmiş ve davacı aynı gün diğer iki mirasçının paylarını satın almıştır. Taşınmazın bir bölümü 2019'da kesinleşen kararla orman vasfıyla Hazine adına tescil edilince davacı bütün paylar için TMK m. 1007'ye dayanarak tazminat istemiş; ilk derece mahkemesi davayı kabul etmiş ve Yargıtay 5. Hukuk Dairesinin satın alınan paylar yönünden verdiği bozma kararına direnmiştir. Hukuk Genel Kurulu oy çokluğuyla direnme kararını bozmuştur. Kurul'a göre kadastro işlemlerindeki hatalar da TMK m. 1007 kapsamındadır ve mirasla gelen pay için tazminat gerekir; ancak TMK m. 1020/3 uyarınca kimse sicildeki kaydı bilmediğini ileri süremeyeceğinden, orman şerhini görerek pay satın alan davacı bu paylar bakımından iyiniyetli sayılmaz ve zararı ile sicil arasında illiyet bağı kurulamaz. Azınlık, önceki maliklerin tazminat hakkının kötüniyeti ispatlanmamış yeni malike de geçmesi gerektiğini ve illiyet bağını kesecek ağır bir kusur bulunmadığını savunmuştur. Konuya katkısı: açıklık ilkesinin Devletin sorumluluğunu nasıl sınırladığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1140759200",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 997'ye göre tapu sicilini oluşturan unsurlar arasında **yer almayan** hangisidir?",
+   "options": [
+    "Belediyedeki emlak vergisi kayıtları",
+    "Yevmiye defteri ve planlar",
+    "Kat mülkiyeti kütüğü",
+    "Tapu kütüğü"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 997/2'ye göre tapu sicili, tapu kütüğü ve kat mülkiyeti kütüğü ile bunları tamamlayan yevmiye defteri, belgeler ve planlardan oluşur. Vergi kayıtları sicilin parçası değildir ve ayni hakkı göstermez."
+  },
+  {
+   "stem_md": "TMK m. 998'e göre tapu siciline **taşınmaz olarak** kaydedilenler arasında **sayılmayan** hangisidir?",
+   "options": [
+    "Taşınmazlar üzerindeki bağımsız ve sürekli haklar",
+    "Kat mülkiyetine konu bağımsız bölümler",
+    "Arazi",
+    "Bir tarımsal işletmenin eklentisi olan tarım makineleri"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 998/1 taşınmaz olarak arazi, bağımsız ve sürekli haklar ile bağımsız bölümleri sayar. Eklentiler taşınmaz olarak kaydedilmez. Malikin isteğiyle yalnız beyanlar sütununa yazılabilir (TMK m. 1000/4)."
+  },
+  {
+   "stem_md": "Nermin, arsası üzerinde X A.Ş. lehine 25 yıl süreli ve devredilebilir bir üst hakkı kurmuştur. X A.Ş. bu hakkın tapu kütüğünde ayrı bir sayfaya taşınmaz olarak kaydedilmesini istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Üst hakkı hiçbir koşulda ayrı sayfaya kaydedilemez.",
+    "Nermin'in rızasıyla süre şartı aranmaksızın kaydedilir.",
+    "Hak devredilebilir olduğu için ayrı sayfaya kaydedilir.",
+    "Süreklilik için hakkın süresiz ya da en az otuz yıl süreli olması gerektiğinden, 25 yıllık hak ayrı sayfaya kaydedilemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bağımsız ve sürekli hakların kaydı için süreklilik şartı aranır. Hak süresiz ya da en az otuz yıl süreli olmalıdır (TMK m. 998/3). Üst hakkı bağımsız ve sürekliyse hak sahibinin istemiyle taşınmaz olarak kaydedilebilir (TMK m. 826/3). 25 yıl bu şartı karşılamaz. Malikin rızası da kanuni şartın yerini tutmaz."
+  },
+  {
+   "stem_md": "Özel mülkiyete tabi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar hakkında TMK m. 999'a göre hangisi doğrudur?",
+   "options": [
+    "Her durumda kütüğe kaydedilir.",
+    "Hiçbir durumda kaydedilmez ve üzerlerinde hiçbir ayni hak kurulamaz.",
+    "Tescili gerekli bir ayni hakkın kurulması söz konusu olmadıkça kütüğe kaydedilmez.",
+    "Yalnız belediye adına kaydedilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 999/1'e göre bu taşınmazlar, kendilerine ilişkin tescili gerekli bir ayni hakkın kurulması söz konusu olmadıkça kütüğe kaydedilmez. Bu istisna kaydı mümkün kılar. Kayıtlı bir taşınmaz kayda tabi olmayan bir taşınmaza dönüşürse ise sicilden çıkarılır (TMK m. 999/2)."
+  },
+  {
+   "stem_md": "Bir köyde yapılan kadastro çalışmasında aşağıdakilerden hangisi bir kamu tüzel kişisi adına **tespit edilir**?",
+   "options": [
+    "Köyün yakınındaki dağ ve kayalık alan",
+    "Köy yolu",
+    "Köyün merası",
+    "Köydeki ilkokul binası"
+   ],
+   "correct_option": 3,
+   "explanation_md": "3402 sayılı Kanun m. 16'ya göre okul gibi kamu hizmetinde kullanılan binalar ilgili kamu tüzel kişisi adına tespit edilir. Mera gibi orta malları sınırlandırılıp özel siciline yazılır ve bu tescil sayılmaz. Yol haritasında gösterilir. Tarıma elverişsiz dağ ve kayalar ise tescil ve sınırlandırmaya tabi değildir."
+  },
+  {
+   "stem_md": "TMK m. 1000'e göre tapu kütüğünün özel sütunlarına **tescil edilen** haklar arasında yer almayan hangisidir?",
+   "options": [
+    "İrtifak hakları ve taşınmaz yükü",
+    "Rehin hakları",
+    "Taşınmaz satış vaadinden doğan hak",
+    "Mülkiyet"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 1000/3'e göre özel sütunlara mülkiyet, irtifaklar ile taşınmaz yükü ve rehin hakları tescil edilir. Satış vaadinden doğan hak kişisel bir haktır. Tescil edilmez, kütüğe şerh verilebilir (TMK m. 1009/1)."
+  },
+  {
+   "stem_md": "Hakan'ın aynı ilçede birbirine bitişik olmayan üç tarlası, isteği üzerine kütükte ortak bir sayfaya kaydedilmiş ve bu sayfaya Banka lehine ipotek tescil edilmiştir. Daha sonra Hakan'ın istemiyle tarlalardan biri ortak sayfadan çıkarılmıştır. Hangisi doğrudur?",
+   "options": [
+    "Sayfadan çıkarılan tarla ipotekten kurtulur.",
+    "Tarlalardan biri çıkarılınca ipotek bütün tarlalar için sona erer.",
+    "İpotek, sayfadan çıkarılan tarlada da saklı kalır.",
+    "Ortak sayfa yalnız bitişik taşınmazlar için mümkün olduğundan kayıt baştan geçersizdir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 1000/5'e göre aynı malikin taşınmazları sınırları bitişik olmasa bile ortak sayfaya kaydedilebilir. Bu sayfaya yapılan rehin tescilleri bütün taşınmazları bağlar. Taşınmazlardan biri sayfadan çıkarılırsa, üzerinde tescil edilmiş haklar saklı kalır."
+  },
+  {
+   "stem_md": "Malikin isteğiyle beyanlar sütununa yazılan **eklenti kaydı** nasıl silinebilir?",
+   "options": [
+    "Malikin tek taraflı istemiyle",
+    "Yalnız sulh hukuk mahkemesinin kararıyla",
+    "Tapu memurunun kendiliğinden vereceği kararla",
+    "Kütükte hak sahibi olarak görünenlerin rızasıyla"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 1000/4'e göre eklentilere ilişkin kayıt ancak kütükte hak sahibi olarak görünenlerin rızasıyla silinebilir (aynı yönde TMK m. 1012/1). Örneğin ipotek alacaklısı, güvencenin eklentileri de kapsadığına güvenmiştir. Malik bu güvenceyi tek başına daraltamaz."
+  },
+  {
+   "stem_md": "TMK m. 1002'ye göre tapu kütüğüne yönelik tescil istemleri yevmiye defterine nasıl yazılır?",
+   "options": [
+    "Taşınmazın değerine göre önem sırasıyla",
+    "Yalnız tescil işlemi tamamlandıktan sonra",
+    "Tapu memurunun belirlediği öncelik sırasına göre, hafta sonunda toplu olarak",
+    "İsteyenin kimliği ve istemin konusu belirtilerek, istem sırasına göre derhâl"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 1002/1'e göre tescil istemleri, isteyenin kimliği ve istemin konusu belirtilerek istem sırasına göre derhâl yevmiye defterine yazılır. Tesciller de istem tarihine ve sırasına göre yapılır (TMK m. 1017/1)."
+  },
+  {
+   "stem_md": "Heyelan bölgesi olmayan bir yerde, bir parselin tapu planındaki sınırı ile arazideki sınır taşları birbirini tutmamaktadır. Hangisi esas alınır?",
+   "options": [
+    "Arazideki sınır taşları",
+    "Plandaki sınır",
+    "Komşuların ortak beyanı",
+    "Malikin fiilen kullandığı alan"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Taşınmazın kütüğe kaydında ve belirlenmesinde resmî ölçüme dayanan plan esastır (TMK m. 1003/1). Tapu planları ile arazideki işaretler birbirini tutmazsa asıl olan plandaki sınırdır. Bu kural yalnız yetkili makamlarca heyelan bölgesi olduğu belirlenen yörelerde uygulanmaz (TMK m. 719/2)."
+  },
+  {
+   "stem_md": "Bir şirketin çiftliğinin %70'i Silivri'de, %30'u Çatalca'dadır. Şirket çiftlik üzerinde ipotek kurdurmak istemektedir. İstem nereye yapılır?",
+   "options": [
+    "Şirket merkezinin bulunduğu yerdeki tapu idaresine.",
+    "Silivri'deki tapu idaresine; yapılan tescil Çatalca'ya bildirilir.",
+    "Çatalca'ya; çünkü küçük kısmın sicili esas sicildir.",
+    "Her iki tapu idaresine ayrı ayrı; her bölgede ayrı bir ipotek kurulur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Birden çok bölgede bulunan taşınmaz her bölgedeki sicile ayrı ayrı kaydedilir (TMK m. 1005/1). Ancak tescil istemleri ve tescil işlemleri taşınmazın büyük kısmının bulunduğu bölgede yapılır. Yapılan tescil diğer bölgedeki tapu idaresine bildirilir (TMK m. 1005/2)."
+  },
+  {
+   "stem_md": "TMK m. 1020/2'ye göre tapu kütüğündeki ilgili sayfanın ve belgelerin gösterilmesini kim isteyebilir?",
+   "options": [
+    "Gerekçe göstermeksizin herkes",
+    "İlgisini inanılır kılan herkes",
+    "Yalnız malik ve onun yazılı izin verdiği kişiler",
+    "Yalnız mahkemeler ve kamu kurumları"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Sicil herkese açıktır (TMK m. 1020/1). Ama ilgili sayfanın ve belgelerin gösterilmesini ya da örneklerinin verilmesini, ilgisini inanılır kılan kişi isteyebilir (TMK m. 1020/2). İspat gerekmez, inanılır kılmak yeter. Malikin izni aranmaz. Salt merak ise ilgi sayılmaz."
+  },
+  {
+   "stem_md": "Elif, üzerinde Deniz lehine kira şerhi bulunan bir daireyi tapu kaydına bakmadan satın almıştır. Deniz kira sözleşmesini Elif'e karşı ileri sürünce Elif \"şerhten haberim yoktu\" savunmasında bulunur. Hangisi doğrudur?",
+   "options": [
+    "Şerh ancak tapu memuru Elif'e sözlü olarak bildirmişse ileri sürülebilir.",
+    "Elif kaydı fiilen görmediği için iyiniyetlidir; şerh ona karşı ileri sürülemez.",
+    "Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremeyeceğinden Elif'in savunması dinlenmez.",
+    "Satıcı şerhi Elif'e bildirmediyse şerh Elif'e karşı hükümsüzdür."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 1020/3'e göre kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez. Şerh verilen kira hakkı, taşınmaz üzerinde sonradan hak kazanan Elif'e karşı ileri sürülebilir (TMK m. 1009/2). Kaydı incelemeyen alıcı durumun gerektirdiği özeni de göstermemiştir (TMK m. 3/2)."
+  },
+  {
+   "stem_md": "TMK m. 1007'deki Devletin sorumluluğunun niteliği hakkında Yargıtay'ın yerleşik görüşüne göre hangisi doğrudur?",
+   "options": [
+    "Kusursuz sorumluluktur; memurun kusuru aranmaz, yalnız Devletin görevliye rücuunda önem taşır.",
+    "Kusur sorumluluğudur; tapu memurunun kusuru ispatlanmalıdır.",
+    "Hakkaniyet sorumluluğudur; hâkim dilerse tazminata hükmeder.",
+    "Fer'i sorumluluktur; zarar gören önce yolsuz tescilden yararlanan kişiden tahsil yolunu tüketmelidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yargıtay, Devletin sorumluluğunu kusursuz (tehlike) sorumluluğu ve asli bir sorumluluk olarak kabul eder. Hukuka aykırı sicil işlemi, zarar ve uygun illiyet bağı yeterlidir. Kusur, Devletin kusurlu görevliye rücuunda önem taşır (TMK m. 1007/2). Zarar gören doğrudan Devlete başvurabilir."
+  },
+  {
+   "stem_md": "Tapu memuru Okan'ın dikkatsizliği yüzünden sahte kimlik kullanan biri Ayla'nın taşınmazını satmış, taşınmaz iyiniyetli bir üçüncü kişiye geçmiştir. Ayla doğrudan Okan aleyhine tazminat davası açmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Ancak Okan ceza mahkemesinde mahkûm olursa açabilir.",
+    "Açabilir; çünkü zarara doğrudan Okan sebep olmuştur.",
+    "Açamaz; dava Devlete, yani Hazine'ye karşı açılır ve Devlet kusurlu görevliye rücu eder.",
+    "Davayı Okan ile tapu müdürlüğüne birlikte açmak zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kamu görevlilerinin yetkilerini kullanırken işledikleri kusurlardan doğan tazminat davaları, kendilerine rücu edilmek kaydıyla ancak idare aleyhine açılabilir (AY m. 129/5). TMK m. 1007 de sorumluluğu Devlete yükler ve kusurlu görevliye yalnız Devletin rücu edeceğini söyler. Tapu müdürlüğünün ayrı bir tüzel kişiliği yoktur."
+  },
+  {
+   "stem_md": "TMK m. 1007'ye dayanan tazminat davası hangi yer mahkemesinde görülür?",
+   "options": [
+    "Hazine'nin merkezinin bulunduğu Ankara'da",
+    "Davacının yerleşim yeri mahkemesinde",
+    "Tapu sicilinin bulunduğu yer mahkemesinde; Yargıtay bunu kesin yetki sayar",
+    "Zarara yol açan sahtecinin yerleşim yeri mahkemesinde"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 1007/3'e göre Devletin sorumluluğuna ilişkin davalar tapu sicilinin bulunduğu yer mahkemesinde görülür. Yargıtay bu kuralı kesin yetki olarak uygular. Bu yüzden başka bir yerde açılan davada mahkeme yetkisizliği kendiliğinden gözetir."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulunun benimsediği görüşe göre TMK m. 1007'ye dayanan tazminat davası hangi zamanaşımına tabidir?",
+   "options": [
+    "Bir yıllık hak düşürücü süreye",
+    "Öğrenmeden itibaren iki yıl, her hâlde fiilden itibaren on yıllık haksız fiil zamanaşımına",
+    "On yıllık genel zamanaşımına; süre, zararın doğduğu kesinleşme tarihinden işler",
+    "Hiçbir zamanaşımına tabi değildir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hukuk Genel Kurulu'na göre TMK m. 1007'deki sorumluluk objektif-kusursuz bir sorumluluktur ve haksız fiil sorumluluğu değildir. Kanunda özel bir süre de yoktur. Bu yüzden on yıllık genel zamanaşımı (TBK m. 146) uygulanır. Süre, zararın doğduğu, tapu kaydına ilişkin kararın kesinleştiği tarihten işler. TBK m. 72'nin uygulanması gerektiğini savunan görüş azınlıkta kalmıştır."
+  },
+  {
+   "stem_md": "2644 sayılı Kanunun ek 2. maddesine göre, Devletin ödediği tazminat için **ihmali bulunan** tapu personeline karşı rücu istemi hangi sürelerde zamanaşımına uğrar?",
+   "options": [
+    "Zararın öğrenilmesinden itibaren on yıl",
+    "Rücu istemi zamanaşımına tabi değildir",
+    "Ödeme tarihinden itibaren iki yıl ve her hâlde zarara yol açan işlemin gerçekleştirildiği tarihten itibaren on yıl",
+    "Ödeme tarihinden itibaren bir yıl ve her hâlde beş yıl"
+   ],
+   "correct_option": 2,
+   "explanation_md": "2644 sayılı Kanunun ek 2. maddesine göre tapu ve kadastro işlemleriyle ilgili olarak Devletin kusursuz sorumluluğu sebebiyle yapılan ödemeler dolayısıyla ihmali bulunan personele karşı rücu istemi, ödeme tarihinden itibaren iki yıl ve her hâlde zarara yol açan işlemin gerçekleştirildiği tarihten itibaren on yıl geçmekle zamanaşımına uğrar. Ağır kusurlu personel için TBK m. 73 saklıdır."
+  },
+  {
+   "stem_md": "Sahteciler, Melek adına sahte nüfus cüzdanı çıkarıp noterde satış vekâletnamesi düzenletmiş ve taşınmazı satmıştır. Taşınmaz iyiniyetli Okay'a geçtiği için Melek tapu iptali davasını kaybetmiştir. Melek'in TMK m. 1007 davasında Hazine, \"zarara noter ve sahteciler yol açtı, illiyet bağı kesildi\" diye savunmaktadır. Yargıtay Hukuk Genel Kurulunun yaklaşımına göre hangisi doğrudur?",
+   "options": [
+    "Noter de kamu görevi yaptığı için dava yalnız noterliğe karşı açılabilir.",
+    "Üçüncü kişilerin her kusuru illiyet bağını keser; Hazine sorumlu değildir.",
+    "Melek önce sahtecilerden tahsil yolunu tüketmeden dava açamaz.",
+    "İlliyet bağının kesildiğini Hazine ispatlamalıdır; bu iddia dar yorumlanır ve noterin ve sahtecilerin kusuru tek başına uygun illiyet bağını kesmez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Hukuk Genel Kurulu'na göre illiyet bağı mücbir sebep, zarar görenin ya da üçüncü kişinin ağır kusuruyla kesilebilir. Ancak bunu Hazine ispatlamalıdır ve iddia dar yorumlanır. Sahte vekâletname olayında noterin ve sahtecilerin kusuru, tapudaki işlem ile zarar arasındaki uygun illiyet bağını kesmez. Devletin sorumluluğu asli olduğundan önce sahtecilere gitme zorunluluğu da yoktur (TMK m. 1007)."
+  },
+  {
+   "stem_md": "1980'de kadastroyla Cem adına tescil edilen bir taşınmazın kıyı kenar çizgisi içinde kaldığı sonradan anlaşılmış, Hazine'nin açtığı dava sonucunda tapu kaydı iptal edilmiştir. Kayıtta bu konuda daha önce hiçbir şerh ya da beyan yoktur. Hazine \"kıyılar özel mülkiyete konu olamaz, tazminat ödenmez\" savunmasında bulunur. Hangisi doğrudur?",
+   "options": [
+    "Kişi adına tutulamayacak kaydı Devlet oluşturmuş ve yıllarca tutmuştur; Cem'in zararı TMK m. 1007 kapsamındadır.",
+    "Cem yalnız tapu harcının iadesini isteyebilir.",
+    "Cem yalnız kamulaştırma bedeli isteyebilir ve bunun için idari yargıya gitmelidir.",
+    "Savunma yerindedir; kamu malının tapusu iptal edilince tazminat istenemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kıyılar Devletin hüküm ve tasarrufu altındadır (AY m. 43). Bu yüzden kıyıda kalan bir yerin kişi adına tescili hatalıdır. Ancak bu kaydı kadastroyla oluşturan ve tutan Devlettir. Yargıtay'a göre kadastro işlemleri de tapu sicilinin tutulması kapsamındadır ve tapusu bu sebeple iptal edilen malikin zararı TMK m. 1007'ye göre adli yargıda Hazine'den istenir."
+  },
+  {
+   "stem_md": "TMK m. 1019'a göre tapu memurunun, ilgililerin bilgisi dışında yaptığı işlemler hakkında hangisi doğrudur?",
+   "options": [
+    "Tebliğ yalnız malik önceden yazılı olarak istemişse yapılır.",
+    "Bildirim zorunlu değildir; ilgililer sicili kendileri izlemelidir.",
+    "İtiraz süresi her durumda işlemin yevmiye tarihinden işler.",
+    "Tapu memuru bu işlemleri ilgililere tebliğ etmekle yükümlüdür; itiraz süresi tebliğ tarihinden işler."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 1019/1'e göre tapu memuru, ilgililerin bilgisi dışında yaptığı işlemleri onlara tebliğ etmekle yükümlüdür. TMK m. 1019/2'ye göre ilgililerin itiraz süresi, kendilerine yapılan tebliğ tarihinden işlemeye başlar."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Zeynep, Bodrum'da kayıtlı bir arsanın malikidir. Mart 2022'de Zeynep'in kimlik bilgilerini ele geçiren bir çete, Zeynep'e benzeyen bir kadını kullanarak onun adına yeni bir nüfus cüzdanı çıkarır. Aynı gün bu cüzdanla bir noterlikte çete üyesi Tarık'a satış yetkisi veren bir vekâletname düzenletilir. Ertesi gün Tarık, Bodrum Tapu Müdürlüğünde arsayı piyasa değerinin yarısı kadar bir bedelle çete üyesi Levent'e satar. Tapu memuru Okan, arşivdeki fotoğrafı ve imza örneğini karşılaştırmadan işlemi yapar. Levent iki hafta sonra arsayı gerçek değeriyle, durumdan habersiz olan Gizem'e satar.\n\nZeynep'in açtığı tapu iptali ve tescil davasında mahkeme, Gizem'in iyiniyetli olduğunu ve TMK m. 1023 uyarınca korunması gerektiğini kabul ederek davayı reddeder. Karar 10.02.2025'te kesinleşir. Çete üyeleri sahtecilik ve dolandırıcılıktan mahkûm olur, ama haczedilebilir malları yoktur.\n\nZeynep 15.09.2025'te, oturduğu İstanbul'daki asliye hukuk mahkemesinde Hazine'ye karşı tazminat davası açar ve tapu memuru Okan'ı da davalı gösterir. Hazine şunları savunur: (a) mahkeme yetkisizdir; (b) zarara noter ve sahteciler yol açmıştır, illiyet bağı kesilmiştir; (c) tapu memurunun kusuru yoktur; (d) Zeynep önce sahtecilerden tahsil yoluna gitmelidir.\n\n1. Zeynep'in istemi hangi hükme dayanır ve bu sorumluluğun niteliği nedir?\n2. Okan'a karşı açılan davayı ve Hazine'nin (a)-(d) savunmalarını değerlendiriniz.\n3. Tazminat neye göre belirlenir? Dava süresinde açılmış mıdır?\n4. Hazine ödeme yaparsa Okan'a başvurabilir mi?",
+   "rubric": [
+    {
+     "point": "Gerçek malikin, iyiniyetli üçüncü kişinin korunması sonucu hakkını yitirmesi; istemin TMK m. 1007'ye dayanması ve sorumluluğun kusursuz, asli niteliği",
+     "weight": 20,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Tapu memuruna doğrudan dava açılamaması; davalının Hazine olması",
+     "weight": 10,
+     "madde_ref": "AY m. 129"
+    },
+    {
+     "point": "Tapu sicilinin bulunduğu Bodrum mahkemesinin kesin yetkili olması; yetki savunmasının yerinde olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "İlliyet bağının kesilmesinin dar yorumlanması, ispatın Hazine'de olması; noter ve sahtecilerin kusurunun uygun illiyet bağını kesmemesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Kusur yokluğu ve önce sahtecilere başvurma savunmalarının reddi",
+     "weight": 10,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Gerçek zarar ilkesi: arsanın, zararın doğduğu kesinleşme tarihindeki değeri ve faiz",
+     "weight": 10,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Davanın süresinde olması: genel on yıllık süre, karşı görüşte de sonucun değişmemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 146"
+    },
+    {
+     "point": "Kusurlu görevliye rücu ve süreleri; ağır kusurda TBK m. 73",
+     "weight": 10,
+     "madde_ref": "2644 sayılı Kanun, ek 2. madde"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Arsa, sahte kimlik ve bu kimlikle alınan vekâletname kullanılarak satılmıştır. Levent adına yapılan tescil hukuki sebepten yoksun, yani yolsuzdur. Ancak arsa iyiniyetli Gizem'e geçmiş, mahkeme Gizem'in kazanımını TMK m. 1023 uyarınca korumuş ve karar kesinleşmiştir. Zeynep mülkiyetini sicilin hukuka aykırı tutulması yüzünden kesin olarak yitirmiştir. İstemi TMK m. 1007'ye dayanır.\n\n**Hukuki sorunlar:** Sorumluluğun niteliği ve tarafları; yetki; illiyet bağı, kusur ve \"önce sahteciye git\" savunmaları; tazminatın kapsamı ve zamanaşımı; rücu.\n\n**İlgili hükümler:** TMK m. 1007, 1015, 1023; AY m. 129/5; TBK m. 146, 72, 73; 2644 sayılı Kanunun ek 2. maddesi.\n\n**Değerlendirme:**\n- *Niteliği:* Devletin sorumluluğu kusursuz ve asli bir sorumluluktur. Tapu memuru, işlem yapan kişinin sicilde hak sahibi görünen kişinin temsilcisi olduğunu denetlemekle yükümlüdür (TMK m. 1015/2). Sahte kimliğe ve vekâletnameye dayanan bir devri tescil etmek, sicilin hukuka aykırı tutulmasıdır. Zeynep'in zararı bu işlemden doğmuştur.\n- *Okan'a karşı dava:* Kamu görevlisinin yetkisini kullanırken işlediği kusurdan doğan tazminat davası ancak idareye karşı açılabilir (AY m. 129/5). TMK m. 1007/2 de görevliye yalnız Devletin rücu edeceğini söyler. Okan'a karşı dava husumet yokluğundan reddedilmelidir. Davalı, Devleti temsilen Hazine'dir.\n- *(a) Yetki:* Dava tapu sicilinin bulunduğu yer mahkemesinde görülür (TMK m. 1007/3) ve Yargıtay bunu kesin yetki sayar. Arsa Bodrum'da kayıtlı olduğundan İstanbul'daki mahkeme yetkisizlik kararı vermelidir. Bu savunma yerindedir.\n- *(b) İlliyet bağı:* İlliyet bağını ancak mücbir sebep ya da zarar görenin veya üçüncü kişinin ağır kusuru keser. Bunu Hazine ispatlamalıdır ve iddia dar yorumlanır. Hukuk Genel Kurulu'na göre sahte nüfus cüzdanıyla noterde vekâletname düzenleten sahtecilerin ve noterin kusuru, tapudaki işlem ile zarar arasındaki uygun illiyet bağını kesmez. Olayda kimliğin ve vekâletnamenin aynı gün alınması ve ertesi gün piyasa değerinin yarısına satış yapılması açık şüphe işaretleridir. Savunma yerinde değildir.\n- *(c) Kusur yokluğu:* Kusur Devletin sorumluluğunun şartı değildir, yalnız rücuda önem taşır. Kaldı ki Okan'ın fotoğraf ve imzayı karşılaştırmaması bir ihmaldir.\n- *(d) Önce sahtecilere başvurma:* Sorumluluk asli ve doğrudandır. Zeynep sahtecilere haksız fiil hükümlerine göre de başvurabilir, ama bu bir ön şart değildir.\n- *Tazminat:* Amaç gerçek zararın giderilmesidir. Zarar, kaydın düzeltilmesi imkânının ortadan kalktığı 10.02.2025'te, yani ret kararının kesinleşmesiyle doğmuştur. Yargıtay'ın güncel uygulamasına göre arsanın bu tarihteki gerçek değeri emsal satışlarla belirlenir ve faiz bu tarihten işletilir.\n- *Süre:* Hukuk Genel Kurulu on yıllık genel süreyi (TBK m. 146) uygular. Dava kesinleşmeden yedi ay sonra açıldığı için süresindedir. Haksız fiil zamanaşımını (TBK m. 72) uygulayan görüşe göre de sonuç değişmez. İki yıllık süre en erken zararın doğduğu kesinleşmeden işler, on yıllık üst süre de 2022'deki işlemden bu yana dolmamıştır.\n- *Rücu:* Okan kusurlu olduğu için Devlet ona rücu edebilir (TMK m. 1007/2). Kusuru ihmal düzeyindeyse rücu istemi ödemeden itibaren iki yıl ve her hâlde Mart 2022'deki işlemden itibaren on yıl içinde ileri sürülmelidir (2644 sayılı Kanunun ek 2. maddesi). Kusuru ağırsa TBK m. 73 uygulanır.\n\n**Sonuç:**\n- Zeynep zararını TMK m. 1007'ye göre Hazine'den isteyebilir. Okan'a karşı dava husumetten reddedilir.\n- Bodrum mahkemesi kesin yetkili olduğundan İstanbul'daki mahkeme yetkisizlik kararı verir.\n- Hazine'nin illiyet, kusur ve \"önce sahteciye git\" savunmaları reddedilir.\n- Tazminat arsanın kesinleşme tarihindeki gerçek değeridir. Dava süresindedir.\n- Hazine ödeme yaparsa Okan'a rücu edebilir."
+  },
+  {
+   "stem_md": "1978'de yapılan arazi kadastrosunda Milas'taki bir zeytinlik, tarla vasfıyla Hüseyin adına tescil edilir. 2009'da yapılan orman kadastrosundan sonra tapu kaydının beyanlar hanesine \"orman sınırları içindedir\" kaydı düşülür. Hüseyin 2017'de ölür ve taşınmaz oğlu Kemal ile kızı Nazlı'ya 1/2'şer payla intikal eder. Aynı yıl Kemal, Nazlı'nın payını, kayıttaki orman kaydını görerek ve bu nedenle değerinin çok altında bir bedelle satın alır.\n\nAçılan bir dava sonucunda taşınmazın orman olduğu belirlenir. Tapu kaydı iptal edilir ve taşınmaz orman vasfıyla Hazine adına tescil edilir. Karar 06.03.2024'te kesinleşir. Kemal 12.11.2024'te Milas'taki asliye hukuk mahkemesinde, Hazine'ye ve Orman Bölge Müdürlüğüne karşı, taşınmazın tamamının değeri için TMK m. 1007'ye dayanarak dava açar.\n\nHazine şunları savunur: (a) ormanlar özel mülkiyete konu olamayacağından iptal edilen bir tapu için tazminat ödenmez; (b) hata kadastro ekibinindir, kadastro işlemleri \"tapu sicilinin tutulması\" sayılmaz; (c) Kemal orman kaydını bildiği için hiçbir pay bakımından tazminat isteyemez.\n\n1. Kemal'in istemini davalılar ve yetki bakımından değerlendiriniz.\n2. Hazine'nin (a) ve (b) savunmalarını değerlendiriniz.\n3. (c) savunması karşısında Kemal hangi pay için tazminat alabilir? Tazminat nasıl hesaplanır?",
+   "rubric": [
+    {
+     "point": "Özel mülkiyete konu olamayan yerin kişi adına tescilinin hatalı olduğu, ama bu kaydı oluşturan ve tutan Devletin TMK m. 1007'ye göre sorumlu olduğu; (a) savunmasının reddi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Kadastro işlemlerinin de tapu sicilinin tutulması kapsamında olduğu; (b) savunmasının reddi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Davalının Hazine olduğu, Orman Bölge Müdürlüğüne husumet düşmediği; Milas mahkemesinin kesin yetkili olduğu",
+     "weight": 15,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Mirasla gelen 1/2 pay için tazminat istenebileceği",
+     "weight": 15,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Orman kaydını görerek satın alınan pay için kimsenin kaydı bilmediğini ileri sürememesi ve özen eksikliği nedeniyle tazminat istenemeyeceği; karşı görüş",
+     "weight": 20,
+     "madde_ref": "TMK m. 1020"
+    },
+    {
+     "point": "Gerçek zarar ilkesi: tarım arazisinde net gelir yöntemi, kesinleşme tarihindeki değer ve bu tarihten faiz",
+     "weight": 15,
+     "madde_ref": "TMK m. 1007"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taşınmaz 1978 kadastrosuyla Hüseyin adına tarla olarak tescil edilmiş, sonradan orman olduğu anlaşılınca kaydı iptal edilmiştir. Kemal mülkiyetini bu iptal yüzünden yitirmiş ve zararını TMK m. 1007'ye göre istemektedir. Kemal'in payının yarısı mirasla, yarısı orman kaydı sicildeyken yapılan satın almayla gelmiştir.\n\n**Hukuki sorunlar:** Davalı ve yetki; özel mülkiyete konu olamayan bir yerin kaydının iptalinde Devletin sorumluluğu; kadastro işlemlerinin kapsamı; mirasla gelen ve satın alınan payların durumu; tazminatın hesabı ve süre.\n\n**İlgili hükümler:** TMK m. 1007, 1012, 1020; TMK m. 3; TBK m. 52, 146.\n\n**Değerlendirme:**\n- *Davalılar ve yetki:* Sorumluluk Devlete aittir ve dava Hazine'ye karşı açılır. Uygulamada orman idaresine yöneltilen istem husumet yokluğundan reddedilir. Dava, tapu sicilinin bulunduğu Milas'ta açılmıştır (TMK m. 1007/3). Bu kesin yetki kuralına uygundur.\n- *(a) \"Orman özel mülkiyete konu olamaz\":* Ormanın kişi adına tescili hatalıdır ve kaydın iptali doğrudur. Ancak bu kaydı oluşturan ve yıllarca tutan Devlettir. Yargıtay'a göre Devletin verdiği bir tapunun karşılık ödenmeden iptali hukuki güvenlik ve hukuk devleti ilkesiyle bağdaşmaz. Bu yüzden zarar TMK m. 1007 kapsamındadır. Savunma yerinde değildir.\n- *(b) Kadastro işlemleri:* Kütük kadastroyla oluşur. Kadastro ve tapu işlemleri bir bütündür. Yargıtay Hukuk Genel Kurulu'na göre kadastro görevlilerinin gerçek duruma uymayan kayıtlar düzenlemesi ve taşınmazın niteliğinde yanlışlık yapması da Devletin sorumluluğu kapsamındadır. Savunma yerinde değildir.\n- *(c) Mirasla gelen pay:* Hüseyin adına kayıt 1978'de, hiçbir kısıtlama kaydı yokken oluşmuştur. Kemal bu payı mirasla, kendi tercihine dayanan bir satın alma olmadan edinmiştir. Hukuk Genel Kurulu benzer bir olayda mirasla gelen pay için tazminatı kabul etmiştir. Kemal bu pay için tazminat alabilir.\n- *(c) Satın alınan pay:* Kemal bu payı orman kaydı sicilde açıkça görünürken, kaydı görerek ve düşük bir bedelle almıştır. Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). Yargıtay, beyanlar hanesindeki bu tür kamu hukuku kısıtlamalarına da bu kuralı uygular (TMK m. 1012/2). Durumun gerektirdiği özeni göstermeyen iyiniyet iddiasında da bulunamaz (TMK m. 3/2). Yargıtay'a göre bu durumda zarar sicilin yanlış tutulmasından doğmuş sayılmaz ve illiyet bağı yoktur. Bu pay için tazminat istenemez. Hukuk Genel Kurulu'ndaki karşı görüş, zarar görenin kusuru ağır değilse yalnız TBK m. 52'ye göre indirim yapılmasını savunur. Ancak Kemal riski bilerek ve buna göre indirimli bir bedelle üstlenmiştir. Zarar görenin zarar doğuran duruma razı olması, TBK m. 52'de tazminatın kaldırılmasına bile imkân veren bir sebeptir.\n- *Hesap:* Amaç gerçek zarardır. Taşınmaz zeytinlik, yani tarım arazisidir. Yargıtay uygulamasına göre değeri net gelir yöntemiyle, iptal kararının kesinleştiği 06.03.2024 tarihine göre belirlenir ve faiz bu tarihten işletilir. Zamanaşımı sorulmamakla birlikte, Hukuk Genel Kurulu'nun uyguladığı on yıllık genel süre (TBK m. 146) kesinleşmeden itibaren dolmamıştır.\n\n**Sonuç:**\n- Davalı Hazine'dir; Orman Bölge Müdürlüğüne karşı dava husumetten reddedilir. Milas mahkemesi yetkilidir.\n- Hazine'nin (a) ve (b) savunmaları reddedilir.\n- Kemal, mirasla gelen 1/2 pay için taşınmazın kesinleşme tarihindeki net gelire göre belirlenen değerinin yarısını faiziyle alabilir.\n- Orman kaydını görerek satın aldığı 1/2 pay için Yargıtay uygulamasına göre tazminat alamaz."
+  },
+  {
+   "stem_md": "Gökhan, Bursa'nın Nilüfer ilçesinde bir daireyi malik Sinan'dan piyasa değeriyle satın alır. Satıştan önce tapu kaydına bakmamıştır. Tapuda düzenlenen resmî senette dairenin X Bankası lehine ipotekli olduğu yazılıdır, ama Gökhan senedi okumadan imzalamıştır. Birkaç ay sonra Sinan kredi borcunu ödemez ve banka ipoteğin paraya çevrilmesi için takip başlatır.\n\nGökhan ipoteğin dayanağı olan resmî senedi ve ipotek tutarını görmek için Nilüfer Tapu Müdürlüğüne başvurur. Tapu memuru \"Bu belgeler banka ile eski malik arasındadır, size gösterilemez\" diyerek başvuruyu reddeder.\n\nGökhan şunları ileri sürer: (a) İpotekten haberi olmadığı için banka ipoteği kendisine karşı ileri süremez. (b) Satış sırasında tapu memuru ipoteği ayrıca anlatıp kendisini uyarmamıştır, bu yüzden zararını TMK m. 1007'ye göre Devlet ödemelidir.\n\nÖte yandan Gökhan'ın ortağı olduğu Y Ltd. Şti.'nin Mudanya'da birbirine bitişik olmayan iki tarlası vardır. Şirket bu iki tarlayı tek bir ipotekle bankaya güvence göstermek, ileride de tarlalardan birini satabilmek istemektedir. Şirketin ayrıca büyük kısmı Mudanya'da, küçük kısmı Nilüfer'de bulunan bir arazisi vardır. Bu arazi üzerinde komşu bir parsel lehine geçit irtifakı kurulacaktır.\n\n1. Tapu memurunun ret işlemini değerlendiriniz.\n2. Gökhan'ın (a) ve (b) iddialarını değerlendiriniz.\n3. Şirketin planları sicil kuralları bakımından nasıl gerçekleştirilebilir? İstemler hangi tapu idaresine yapılır?",
+   "rubric": [
+    {
+     "point": "Malikin ilgisinin açık olduğu; ilgili sayfanın ve dayanak belgelerin gösterilmesi gerektiği; ret işleminin hukuka aykırılığı",
+     "weight": 15,
+     "madde_ref": "TMK m. 1020"
+    },
+    {
+     "point": "Kimsenin sicildeki kaydı bilmediğini ileri sürememesi; ipoteğin devirle etkilenmeyip yeni malike karşı da ileri sürülmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1020"
+    },
+    {
+     "point": "Özen göstermeyenin iyiniyet iddia edememesi; satıcıya karşı hakların saklı olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 3"
+    },
+    {
+     "point": "Sicil doğru tutulduğu için hukuka aykırı sicil işlemi ve illiyet bağı bulunmaması; TMK m. 1007 isteminin reddi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1007"
+    },
+    {
+     "point": "Bitişik olmayan tarlaların malikin istemiyle ortak sayfaya kaydı; ipoteğin hepsini bağlaması ve sayfadan çıkarılan tarlada saklı kalması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1000"
+    },
+    {
+     "point": "Birden çok bölgedeki arazinin her bölgede kaydı; istemin Mudanya'ya yapılıp Nilüfer'e bildirilmesi; irtifakın iki taşınmazın sayfasına da yazılması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1005"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda üç sicil sorunu vardır: sicile erişim ve kaydın bilinmesi (açıklık), sicil doğru tutulduğu hâlde Devletin sorumluluğuna başvurma ve şirketin güvence planı bakımından ortak sayfa ile birden çok bölgede bulunan taşınmaz kuralları.\n\n**Hukuki sorunlar:** Memurun reddinin hukuka uygunluğu; Gökhan'ın ipoteği bilmediğini ileri sürüp süremeyeceği; TMK m. 1007'nin şartlarının oluşup oluşmadığı; ortak sayfa ve sicil bölgesi kuralları.\n\n**İlgili hükümler:** TMK m. 1020, 3, 888, 1007, 1000, 1005, 1018.\n\n**Değerlendirme:**\n- *1. Ret işlemi:* İlgisini inanılır kılan herkes, kütükteki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini ya da örneklerinin verilmesini isteyebilir (TMK m. 1020/2). Gökhan dairenin malikidir. Kendi taşınmazı üzerindeki ipoteğin dayanağı olan belgelerde ilgisi açıktır. Kanun \"sayfa ve belgeler\" dediği için ipoteğin dayanağı olan resmî senet de kapsamdadır. Memurun reddi hukuka aykırıdır.\n- *2(a) \"Haberim yoktu\":* Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). Durumun gereklerine göre beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz (TMK m. 3/2). Gökhan ne kaydı incelemiş ne de ipoteği açıkça gösteren resmî senedi okumuştur. İpotek ayni bir haktır. İpotekli taşınmazın devri güvencede bir değişiklik meydana getirmez (TMK m. 888/1). Banka ipoteği paraya çevirebilir. Gökhan'ın satıcı Sinan'a karşı borçlar hukukundan doğan hakları ise saklıdır.\n- *2(b) TMK m. 1007:* Devletin sorumluluğu, sicilin hukuka aykırı tutulmasından doğan zararlar içindir. Olayda ipotek usulüne uygun tescil edilmiştir ve resmî senette de yazılıdır. Sicil doğrudur. Gökhan'ın zararı kaydı ve senedi incelememesinden ve satıcının borcunu ödememesinden doğmuştur. Hukuka aykırı bir sicil işlemi ve bununla zarar arasında illiyet bağı yoktur. Ayrıca TMK m. 1020/3 karşısında Gökhan kaydı bilmediğini ileri süremez. Memurun satıştan sonra belgeleri göstermemesi hukuka aykırıdır, ama ipotekten doğan zararın sebebi değildir. İstem reddedilir.\n- *3. Ortak sayfa:* Aynı malike ait birden çok taşınmaz, sınırları bitişik olmasa bile malikin istemiyle ortak bir sayfaya kaydedilebilir (TMK m. 1000/5). Şirketin Mudanya'daki iki tarlası ortak sayfaya alınabilir. Bu sayfaya yapılan ipotek tescili iki tarlayı birden bağlar. Şirket ileride tarlalardan birini sayfadan çıkarırsa, o tarladaki ipotek saklı kalır. Tarlayı alacak kişi ipotekli bir tarla alır.\n- *3. Birden çok bölge:* Büyük kısmı Mudanya'da, küçük kısmı Nilüfer'de olan arazi, diğer sicile de kayıtlı olduğu belirtilerek her iki bölgenin siciline ayrı ayrı kaydedilir (TMK m. 1005/1). Geçit irtifakının tescil istemi büyük kısmın bulunduğu Mudanya'daki tapu idaresine yapılır. Yapılan tescil Nilüfer'deki tapu idaresine bildirilir (TMK m. 1005/2). İrtifak taşınmaz lehine kurulduğu için hem yüklü arazinin hem de yararlanan komşu parselin sayfasına kaydedilir (TMK m. 1018).\n\n**Sonuç:**\n- Memurun reddi hukuka aykırıdır. Gökhan malik olarak ilgili sayfa ve belgeleri görebilir.\n- Gökhan ipoteği bilmediğini ileri süremez. Banka ipoteği ona karşı da ileri sürer. Satıcıya karşı hakları saklıdır.\n- Sicil doğru tutulduğu için TMK m. 1007'ye dayanan istem reddedilir.\n- Şirket iki tarlayı ortak sayfaya kaydettirip tek ipotek kurdurabilir. Çıkarılan tarlada ipotek sürer.\n- Arazi iki bölgede kayıtlı olur. İrtifak istemi Mudanya'ya yapılır, tescil Nilüfer'e bildirilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Tapu sicilinin unsurları nelerdir? (TMK m. 997)",
+   "back_md": "Tapu kütüğü ve kat mülkiyeti kütüğü ile bunları tamamlayan yevmiye defteri, belgeler ve planlar."
+  },
+  {
+   "front_md": "Tapu kütüğünün özel sütunlarına hangi haklar tescil edilir? (TMK m. 1000/3)",
+   "back_md": "Mülkiyet; irtifaklar ve taşınmaz yükü; rehin hakları. Kişisel haklar şerh, eklentiler beyan olarak yazılır."
+  },
+  {
+   "front_md": "Ortak sayfanın sonucu nedir? (TMK m. 1000/5)",
+   "back_md": "Aynı malikin bitişik olmayan taşınmazları da malikin istemiyle tek sayfaya yazılabilir. Bu sayfadaki rehin hepsini bağlar; sayfadan çıkarılan taşınmazdaki haklar saklı kalır."
+  },
+  {
+   "front_md": "Eklenti beyanı nasıl silinir?",
+   "back_md": "Yalnız kütükte hak sahibi olarak görünenlerin rızasıyla (TMK m. 1000/4)."
+  },
+  {
+   "front_md": "Tapu siciline taşınmaz olarak ne kaydedilir? (TMK m. 998)",
+   "back_md": "Arazi, taşınmazlar üzerindeki bağımsız ve sürekli haklar ve kat mülkiyetine konu bağımsız bölümler."
+  },
+  {
+   "front_md": "Bağımsız ve sürekli hakta süreklilik koşulu nedir?",
+   "back_md": "Hakkın süresiz ya da en az otuz yıl süreli olması (TMK m. 998/3)."
+  },
+  {
+   "front_md": "Kamunun yararlanmasına ayrılan taşınmazlar kaydedilir mi? (TMK m. 999)",
+   "back_md": "Kural olarak hayır. Üzerlerinde tescili gerekli bir ayni hak kurulacaksa kaydedilir. Kayıtlı taşınmaz kayda tabi olmayana dönüşürse sicilden çıkarılır."
+  },
+  {
+   "front_md": "Plan ile zemindeki sınır işaretleri çelişirse hangisi esastır?",
+   "back_md": "Plandaki sınır (TMK m. 719/2). Yetkili makamlarca heyelan bölgesi olduğu belirlenen yerlerde bu kural uygulanmaz."
+  },
+  {
+   "front_md": "Birden çok bölgede bulunan taşınmaz nasıl kaydedilir? (TMK m. 1005)",
+   "back_md": "Her bölgenin siciline ayrı ayrı. İstem ve tescil büyük kısmın bulunduğu bölgede yapılır, diğer bölgelere bildirilir."
+  },
+  {
+   "front_md": "Tapu sicilini kim görebilir? (TMK m. 1020/2)",
+   "back_md": "İlgisini inanılır kılan herkes, ilgili sayfa ve belgeleri tapu memuru önünde görebilir ya da örnek alabilir. İspat gerekmez, malik izni aranmaz, salt merak yetmez."
+  },
+  {
+   "front_md": "TMK m. 1020/3 ne der?",
+   "back_md": "Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez. Kaydı görmemiş olmak mazeret değildir."
+  },
+  {
+   "front_md": "TMK m. 1020/3 ile TMK m. 1023 arasındaki fark?",
+   "back_md": "m. 1020/3 kaydı incelemeyenin 'bilmiyordum' savunmasını keser. m. 1023 sicile iyiniyetle güvenerek hak kazananı korur."
+  },
+  {
+   "front_md": "TMK m. 1007'deki sorumluluğun niteliği?",
+   "back_md": "Kusursuz (tehlike), asli ve doğrudan sorumluluk. Memurun kusuru aranmaz; yalnız rücuda önem taşır."
+  },
+  {
+   "front_md": "TMK m. 1007'nin şartları nelerdir?",
+   "back_md": "Tapu sicilinin tutulmasına ilişkin hukuka aykırı işlem (kadastro dahil), zarar ve uygun illiyet bağı."
+  },
+  {
+   "front_md": "İlliyet bağını hangi sebepler keser?",
+   "back_md": "Mücbir sebep, zarar görenin ağır kusuru, üçüncü kişinin ağır kusuru. Yargıtay dar yorumlar; ispat Hazine'dedir."
+  },
+  {
+   "front_md": "Sahte vekâletnamede noterin kusuru Devleti kurtarır mı?",
+   "back_md": "Hukuk Genel Kurulu'na göre hayır. Noterin ve sahtecilerin kusuru tapudaki işlem ile zarar arasındaki uygun illiyet bağını kesmez."
+  },
+  {
+   "front_md": "Orman kaydını görerek pay satın alan tazminat isteyebilir mi?",
+   "back_md": "Yargıtay'a göre hayır: TMK m. 1020/3 nedeniyle iyiniyetli değildir ve illiyet bağı yoktur. Mirasla gelen pay için ise tazminat kabul edilir."
+  },
+  {
+   "front_md": "1007 davasında davalı kimdir? Tapu memuruna dava açılabilir mi?",
+   "back_md": "Davalı Devlet adına Hazine'dir. Görevliye doğrudan dava açılamaz (AY m. 129/5); Devlet kusurlu görevliye rücu eder."
+  },
+  {
+   "front_md": "1007 davasında yetkili mahkeme?",
+   "back_md": "Tapu sicilinin bulunduğu yer mahkemesi (TMK m. 1007/3). Yargıtay bunu kesin yetki sayar."
+  },
+  {
+   "front_md": "1007 davasında zamanaşımı nedir? (Yargıtay Hukuk Genel Kurulu)",
+   "back_md": "On yıllık genel zamanaşımı (TBK m. 146). Süre, tapu kaydına ilişkin kararın kesinleşmesiyle, yani zararın doğduğu andan işler."
+  },
+  {
+   "front_md": "Tazminat hangi tarihteki değere göre belirlenir?",
+   "back_md": "Yargıtay'ın güncel uygulamasında kararın kesinleştiği tarihteki gerçek değer; faiz de bu tarihten işler. Arsada emsal, tarım arazisinde net gelir yöntemi."
+  },
+  {
+   "front_md": "Devletin rücu hakkı hangi sürelere tabidir?",
+   "back_md": "İhmali bulunan personele: ödemeden itibaren 2 yıl, her hâlde işlemden itibaren 10 yıl (2644 sayılı Kanunun ek 2. maddesi). Ağır kusurda TBK m. 73."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
