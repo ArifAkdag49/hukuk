@@ -33,15 +33,15 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 15 | ifa-genel-esaslar | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 16 | ifa-yeri-zamani-karsilikli-ifa | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 17 | alacakli-temerrudu | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
-| 18 | borca-aykirilik-ve-tazminat | bitti | ajan yazdı; denetçi 9 küçük düzeltme (doktrin etiketleri, karar özetleri); yerelde yüklendi |
-| 19 | borclu-temerrudu-sart-ve-sonuclar | bitti | ajan yazdı; denetçi kanuni faiz yürürlüğünü (31.7.2026) düzeltti; yerelde yüklendi |
-| 20 | karsilikli-sozlesmelerde-secimlik-haklar | bitti | ajan yazdı; bağımsız denetim yapılmadı (kullanıcı kararıyla durduruldu) |
-| 21 | imkansizlik-ve-asiri-ifa-guclugu | bitti | ajan yazdı; bağımsız denetim yapılmadı |
-| 22 | sona-erme-halleri-ve-takas | bitti | ajan yazdı; denetim yarıda kaldı |
-| 23 | zamanasimi | bitti | ajan yazdı; denetçi soru 3'ü düzeltti (Av. K. m. 40), HMK m. 141 güncel metne uyduruldu |
-| 24 | muteselsil-borcluluk | bitti | ajan yazdı; bağımsız denetim yapılmadı |
+| 18 | borca-aykirilik-ve-tazminat | yüklendi | ajan yazdı; denetçi 9 küçük düzeltme (doktrin etiketleri, karar özetleri); sunucuya yüklendi (2026-10-18) |
+| 19 | borclu-temerrudu-sart-ve-sonuclar | yüklendi | ajan yazdı; denetçi kanuni faiz yürürlüğünü (31.7.2026) düzeltti; sunucuya yüklendi (2026-10-18) |
+| 20 | karsilikli-sozlesmelerde-secimlik-haklar | yüklendi | ajan yazdı; bağımsız denetim yapılmadı (kullanıcı kararıyla durduruldu); sunucuya yüklendi (2026-10-18) |
+| 21 | imkansizlik-ve-asiri-ifa-guclugu | yüklendi | ajan yazdı; bağımsız denetim yapılmadı; sunucuya yüklendi (2026-10-18) |
+| 22 | sona-erme-halleri-ve-takas | yüklendi | ajan yazdı; denetim yarıda kaldı; sunucuya yüklendi (2026-10-18) |
+| 23 | zamanasimi | yüklendi | ajan yazdı; denetçi soru 3'ü düzeltti (Av. K. m. 40), HMK m. 141 güncel metne uyduruldu; sunucuya yüklendi (2026-10-18) |
+| 24 | muteselsil-borcluluk | yüklendi | ajan yazdı; bağımsız denetim yapılmadı; sunucuya yüklendi (2026-10-18) |
 | 25 | kosullu-borclar | iptal | kullanıcı kararıyla yazılmadı (2026-10-18) |
-| 26 | baglanma-parasi-cayma-parasi-cezai-sart | bitti | ajan yazdı (son düzeltmeler yarıda); TBK m. 180/2 ana oturumda kontrol edildi; denetim yapılmadı |
+| 26 | baglanma-parasi-cayma-parasi-cezai-sart | yüklendi | ajan yazdı (son düzeltmeler yarıda); TBK m. 180/2 ana oturumda kontrol edildi; denetim yapılmadı; sunucuya yüklendi (2026-10-18) |
 | 27 | alacagin-devri | iptal | kullanıcı kararıyla yazılmadı (2026-10-18) |
 | 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | iptal | kullanıcı kararıyla yazılmadı (2026-10-18) |
 
