@@ -52,12 +52,12 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 1 | esya-hukukuna-giris-ve-ilkeler | bitti | ajan yazdı; denetçi ehliyetsizlikte TMK m. 1023 tartışmasını ekledi (HGK 2026); yerelde yüklendi |
 | 2 | zilyetlik-kavrami-turleri-ve-devri | yazılıyor | |
 | 3 | zilyetligin-korunmasi-ve-hak-karineleri | denetimde | ajan yazdı (kontrol temiz) |
-| 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
+| 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | denetimde | ajan yazdı (kontrol temiz) |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
 | 6 | tescil-serh-ve-beyan | denetimde | ajan yazdı (kontrol temiz) |
 | 7 | tapuya-guven-ve-yolsuz-tescil | yazılıyor | |
 | 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
-| 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | denetimde | ajan yazdı (kontrol temiz) |
+| 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bitti | ajan yazdı; denetçi bozuk soru 6'yı ve 3 belirsiz noktayı düzeltti; yerelde yüklendi |
 | 10 | payli-mulkiyet | yazılıyor | |
 | 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | yazılıyor | |
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | yazılıyor | |
@@ -65,7 +65,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
 | 15 | yapi-hukuku-ve-taskin-yapi | yazılıyor | |
 | 16 | yasal-onalim-alim-ve-geri-alim | yazılıyor | |
-| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | |
+| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | yazılıyor | |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | |
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
 | 20 | tasinmaz-irtifaki | bekliyor | |
