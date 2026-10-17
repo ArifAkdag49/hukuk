@@ -24,7 +24,7 @@ LAWS: dict[str, str] = {
     "KAMULASTIRMA": "2942", "IMAR": "3194", "İMAR": "3194", "KABAHATLER": "5326",
     "CGTIHK": "5275", "CGTİHK": "5275", "KVKK": "6698", "MOHUK": "5718", "MÖHUK": "5718",
     "HUAK": "6325", "AVUKATLIK": "1136", "NOTERLIK": "1512", "TAPU": "2644",
-    "SENDIKALAR": "6356", "BASIN": "5187", "PVSK": "2911", "KTK": "2918",
+    "SENDIKALAR": "6356", "STİSK": "6356", "STISK": "6356", "BASIN": "5187", "PVSK": "2911", "KTK": "2918",
 }
 
 _mevzuat_cache: dict[str, dict] = {}

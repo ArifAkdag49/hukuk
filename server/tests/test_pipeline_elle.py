@@ -78,6 +78,12 @@ def test_single_letter_after_slash_is_kept_for_lettered_articles():
         ("TCK", "123", "A"), ("İİK", "68", "a"), ("TCK", "56", "I")}
 
 
+def test_law_cited_by_number_and_stisk_alias():
+    refs = elle.refs_in("1475 sayılı Kanun m. 14 ile 5510 sayılı Kanunun m. 21 ve STİSK m. 25; ayrıca m. 18", "İK")
+    assert refs == {("1475", "14", None), ("5510", "21", None), ("STİSK", "25", None), ("İK", "18", None)}
+    assert elle.canon("Stisk") == "STİSK" and elle.canon("1475") == "1475"
+
+
 def test_lettered_article_must_be_listed_but_roman_paragraph_uses_base_article():
     metin = {**METIN, ("TBK", "55/A"): {"kanun": "TBK", "kanun_no": "6098", "madde_no": "55/A", "metin": "MADDE 55/A- ...", "kaynak": "u"}}
     t = taslak(maddeler=[{"kanun": "TBK", "madde": "53"}, {"kanun": "TBK", "madde": "54"}, {"kanun": "TBK", "madde": "55/A"}],

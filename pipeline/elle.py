@@ -24,8 +24,10 @@ from .common import CURRICULUM, OUT, ROOT, load_env
 TASLAK = ROOT / "pipeline" / "taslak"
 MODEL = "claude-code (elle, araştırmalı)"
 
-ALIASES = {"IIK": "İİK", "IK": "İK", "IYUK": "İYUK", "ANAYASA": "AY", "MOHUK": "MÖHUK"}
-KANUN_RE = r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|KTK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK)"
+ALIASES = {"IIK": "İİK", "IK": "İK", "IYUK": "İYUK", "ANAYASA": "AY", "MOHUK": "MÖHUK", "STISK": "STİSK"}
+# Kısaltması olmayan kanunlara numarasıyla atıf: "1475 sayılı Kanun m. 14" (maddeler listesinde kanun: '1475')
+KANUN_RE = (r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|KTK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK"
+            r"|STİSK|STISK|\d{3,4}\s+sayılı\s+Kanun(?:un|'un|’un)?)")
 LETTER = r"A-Za-zÇĞİÖŞÜçğıöşü"
 # "53/1-3" = madde 53, fıkra 1, bent 3: eğik çizgiden sonraki "-N" fıkra/bent gösterimidir, madde aralığı değil.
 # Eğik çizgiden sonra tek harf ya ek madde (TCK 123/A, İİK 68/a) ya da Romen fıkradır (56/I); hangisi
@@ -33,7 +35,7 @@ LETTER = r"A-Za-zÇĞİÖŞÜçğıöşü"
 SUB = rf"(?:/[0-9{LETTER}]+(?:[-–][0-9{LETTER}]+)?)?"
 ITEM_RE = re.compile(rf"(?<![/\d])(\d+)(?:/([0-9{LETTER}]+)(?:[-–][0-9{LETTER}]+)?)?")
 REF_RE = re.compile(
-    rf"(?<![{LETTER}]){KANUN_RE}\s+md?\.\s*((?:\d+{SUB}(?:\s*(?:,|ve|veya|ile|-|–)\s*(?=\d))?)+)"
+    rf"(?<![{LETTER}]){KANUN_RE}\s+md?\.\s*((?:\d+{SUB}(?:\s*(?:,|ve|veya|ile|-|–)\s*(?=\d)(?!\d{{3,4}}\s+sayılı))?)+)"
 )
 BARE_RE = re.compile(rf"(?<![{LETTER}.])m\.\s*(\d+)(?:/([0-9{LETTER}]+))?")
 OPTION_LETTER_RE = re.compile(r"\b[A-D]\s*şık|\bşık(?:kı)?\s*[A-D]\b|\b[A-D]\)\s", re.IGNORECASE)
@@ -43,6 +45,9 @@ COUNTS = {"sozluk": (6, 40), "sorular": (15, 30), "olaylar": (2, 5), "kartlar": 
 
 
 def canon(kanun: str) -> str:
+    numara = re.match(r"^(\d{3,4})\b", kanun.strip())
+    if numara:
+        return numara.group(1)
     k = kanun.strip().upper()
     return ALIASES.get(k, k)
 
