@@ -1,0 +1,883 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Taşınmaz Mülkiyeti",
+ "topic_index": 6,
+ "slug": "gecit-hakki-su-ve-diger-kanuni-kisitlamalar",
+ "title": "Kazı ve Yapılar, Bitkiler, Su Akıtma, Mecralar, Geçit Hakkı ve Kaynaklar",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T23:14:19.823900+00:00",
+ "skill_refs": [
+  "esya-hukuku/irtifak-haklari"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Komşu malikler birbirinin taşınmazına kazı, yapı, dal ve kök, su, boru-kablo ve yol yoluyla \"dokunduğunda\" kanun hangi şartlarla katlanma yükümlülüğü yükler, hangi bedeli öngörür, hak nasıl kurulur?\n\n- **Ortak çerçeve:** Taşınmaz mülkiyetinin kanundan doğan kısıtlamaları tescil edilmeksizin etkili olur; kamu yararı için konulanlar kaldırılamaz ve değiştirilemez (TMK m. 731/1 ve TMK m. 731/3).\n- **Kazı ve yapı (TMK m. 738 ve TMK m. 739):** Komşunun toprağını sarsmak, tehlikeye düşürmek ya da tesislerini etkilemek suretiyle zarar vermekten kaçınılır. Komşuluk hukukuna aykırı yapılara taşkın yapı hükümleri uygulanır. Ayrıntılı kurallar özel kanunlara bırakılmıştır.\n- **Bitkiler (TMK m. 740 ve TMK m. 741):** Zarar veren dal ve kök için önce **istem**, sonra **uygun süre**; süre geçerse komşu keser ve kendi mülkiyetine geçirir. Taşmaya katlanan komşu meyveleri toplar. Komşu ormanlar istisnadır.\n- **Su (TMK m. 742 ve TMK m. 743):** Üstteki arazinin doğal suyuna katlanılır; akış komşunun zararına değiştirilemez; üstteki malik suyu yalnız kendi taşınmazı için zorunlu ölçüde tutabilir. Öteden beri alta akan arazide boşaltılan fazla suya tazminatsız katlanılır, ama zarar varsa gideri üsttekine ait mecra istenebilir.\n- **Mecra (TMK m. 744, TMK m. 745 ve TMK m. 746):** Başka yerden geçirilmesi olanaksız ya da aşırı masraflıysa ve zararın **tamamı önceden ödenirse** katlanılır. Kamulaştırmaya bağlı mecrada komşuluk hükümleri uygulanmaz. Mecra hakkı istem üzerine tescil edilir. Olağanüstü durumda satın alma isteği yükümlü malike, nakil gideri kural olarak mecra hakkı sahibine aittir.\n- **Zorunlu geçit (TMK m. 747):** Genel yola yeterli geçidi olmayan malik **tam bedelle** geçit ister; istem önce önceki mülkiyet ve yol durumuna göre en uygun komşuya, sonra en az zarar görecek olana yöneltilir. Yargıtay bedelin hükümden önce depo edilmesini ve yüklü taşınmazı bölmeyen güzergâhı arar.\n- **Diğer geçitler (TMK m. 748):** Geçici girme, tarla yolu, kış geçidi gibi geçitler özel kanuna, yoksa yerel âdete tâbidir. Doğrudan kanundan doğan geçitler tescilsiz doğar; sürekli olanlar beyanlar sütununda gösterilir.\n- **İyileştirme (TMK m. 755):** Arazinin yarısından fazlasına sahip maliklerin üçte ikisinin kararı diğerlerini bağlar.\n- **Kaynaklar (TMK m. 756 - TMK m. 761):** Kaynak arazinin bütünleyici parçasıdır; başkasının arazisindeki kaynakta hak tescille kurulan irtifaktır; yeraltı suları kamu yararınadır. Kaynağı kesen ya da kirleten zararı giderir (TMK m. 757); içme-kullanma suyu kaynaklarında eski duruma getirme istenebilir (TMK m. 758). Aynı ana kaynaktan beslenenler yararlanma oranında paylaşır (TMK m. 759). Susuz kalan malik, tam bedelle **zorunlu su irtifakı** isteyebilir (TMK m. 761).\n- 📌 **Yeni:** 1/9/2023'ten sonra açılan zorunlu geçit davasında önceden arabulucuya başvurmak dava şartıdır (HUAK m. 18/B/1-ç); dava açıldıktan sonra başvuru eksikliği gidermez. 7531 sayılı Kanunla 2024'te HUAK m. 18/B'ye eklenen fıkra, icra edilebilirlik şerhli anlaşma belgesiyle resmî senet düzenlenmeden tescil istenmesine imkân verir.",
+  "content_md": "## 0. Konunun haritası\n\nÖnceki konularda komşuluk hukukunun genel ilkesini gördük (taşkınlık yasağı, TMK m. 737; malikin sorumluluğu, TMK m. 730). Burada **somut müdahale tiplerini** tek tek inceliyoruz. Her biri için sorular aynıdır: Komşu bunu hangi şartlarla hoş görmek zorundadır, karşılığında ne alır, hak tapuya nasıl yansır?\n\n| Başlık | Madde | Özü |\n|---|---|---|\n| Kazı ve yapı | TMK m. 738-739 | Komşuya zarar verme yasağı |\n| Bitkiler | TMK m. 740-741 | Dal ve kök: istem, süre, kesme |\n| Su akışı | TMK m. 742-743 | Doğal akışa katlanma |\n| Mecra | TMK m. 744-746 | Boru ve kablo geçişi, zarar önceden ödenir |\n| Geçit | TMK m. 747-748 | Yeterli geçit yoksa tam bedelle geçit |\n| Kaynaklar | TMK m. 756-761 | Kaynak, yeraltı suyu, zorunlu su |\n\n**Ortak mantık.** Taşınmaz mülkiyetinin kanundan doğan kısıtlamaları tapu siciline tescil edilmeksizin etkili olur (TMK m. 731/1). Kamu yararı için konulan kısıtlamalar kaldırılamaz ve değiştirilemez (TMK m. 731/3). Bu, \"her komşuluk talebi tescilsiz hak doğurur\" demek değildir: mecra hakkı istem üzerine tescil edilir (TMK m. 744/3), başkasının arazisindeki kaynakta hak tescille kurulur (TMK m. 756/2).\n\n> ⚠️ **Sınavda dikkat:** Geçit, mecra ve zorunlu su üçü de \"komşudan bir şeye katlanmasını isteme\" gibi görünür, ama konuları ve bedel ifadeleri farklıdır. **Geçit** yol içindir ve \"tam bir bedel\" öder (TMK m. 747/1). **Mecra** boru, kanal, hat ve kablo içindir; zararın tamamı **önceden** ödenir (TMK m. 744/1). **Zorunlu su**, komşunun ihtiyaç fazlası suyunu almak için kurulan irtifaktır ve yine tam bedelle olur (TMK m. 761/1).\n\n## 1. Kazı ve yapılar (TMK m. 738 ve TMK m. 739)\n\nTMK m. 738/1'e göre malik, kazı ve yapı yaparken komşu taşınmazlara, **topraklarını sarsmak veya tehlikeye düşürmek ya da üzerlerindeki tesisleri etkilemek** suretiyle zarar vermekten kaçınmak zorundadır. Hükümde üç ayrı davranış vardır:\n1. Komşunun toprağını sarsmak,\n2. Komşunun toprağını tehlikeye düşürmek,\n3. Komşunun taşınmazındaki tesisleri etkilemek.\n\n> **Örnek:** Mehmet derin bir temel kazısı açar; komşusu Ali'nin bahçesindeki istinat duvarı çatlar ve toprak kaymaya başlar. Mehmet, komşunun toprağını tehlikeye düşürdüğü ve tesisini etkilediği için TMK m. 738/1'i ihlal etmiştir. Dava yolu malikin sorumluluğuna ilişkin TMK m. 730'dur (ayrıntısı başka konuda).\n\nTMK m. 738/2, komşuluk hukuku kurallarına aykırı yapılar hakkında **taşkın yapılara ilişkin hükümlerin** uygulanacağını söyler (TMK m. 725; ayrıntısı taşkın yapı konusunda). Yani komşu araziye taşan yapı, kendi hukuki rejimine bağlanır.\n\nTMK m. 739 ise kazı ve yapılarda uyulacak kuralların **özel kanunlarla** belirleneceğini bildirir. Medeni Kanun yalnız genel yasağı koyar; \"ayrıntılı kurallar özel kanunlara bırakılmıştır (TMK m. 739)\" demek sınavda yeterlidir. Bitkilerde de kurgu aynıdır: kural TMK m. 740'ta, ayrıntı TMK m. 741 yoluyla özel kanunlardadır.\n\n## 2. Bitkiler (TMK m. 740 ve TMK m. 741)\n\n### 2.1 Taşan dal ve kökler\nTMK m. 740/1: Komşunun arazisine **taşarak zarar veren** dal ve kökler, komşunun istemi üzerine **uygun bir süre içinde kaldırılmazsa**, komşu bu dal ve kökleri kesip **kendi mülkiyetine geçirebilir**. Üç şart vardır:\n1. Dal veya kök komşu arazisine taşmış ve **zarar vermelidir** (zarar vermeyen taşma için bu hak doğmaz).\n2. Komşu, bitki malikinden **kaldırmasını istemelidir**.\n3. Bitki maliki, **uygun bir süre** içinde kaldırmamış olmalıdır. Kanun süreyi gün olarak göstermez; olayın şartlarına göre belirlenir.\n\nBu şartlar gerçekleşince komşunun **kesme hakkı** doğar; kesilen dal ve kökler onun mülkiyetine geçer. Kesme haktır, yükümlülük değil.\n\n> **Örnek:** Zeynep'in ceviz ağacının dalları komşusu Mehmet'in sera camlarına değip zarar vermektedir. Mehmet, Zeynep'e \"dalları ay sonuna kadar kaldır\" diye yazılı bildirimde bulunur. Süre dolar, Zeynep kaldırmaz; Mehmet dalları keser ve dallar onun mülkiyetine geçer. Bildirimde bulunmadan kesseydi TMK m. 740/1'in şartları gerçekleşmemiş olurdu.\n\n> ⚠️ **Sınavda dikkat:** \"Zarar veriyorsa hemen keser\" cevabı yanlıştır. Sıra şöyledir: **zarar → istem → uygun süre → kesme ve mülkiyete geçirme.**\n\n### 2.2 Meyveler\nTMK m. 740/2: **Ekilmiş veya üzerine yapı yapılmış** arazisine dalların taşmasına **katlanan** komşu, bu dallarda yetişen meyveleri toplama hakkına sahip olur. Kanun hakkı \"katlanan komşuya\" verir; yani komşu dalları kestirmek yerine hoş görürse, meyveden yararlanır.\n\n> **Örnek:** Aynı olayda Mehmet'in bahçesi ekilidir. Mehmet dalların taşmasına katlanmaya karar verirse, taşan dallardaki cevizleri toplayabilir.\n\n### 2.3 Orman istisnası ve özel kanunlar\nTMK m. 740/3'e göre bu hükümler **komşu ormanlar hakkında uygulanmaz.** Bitki dikerken uyulacak kurallar ise özel kanunlara bırakılmıştır (TMK m. 741).\n\n## 3. Su: doğal akış ve fazla su (TMK m. 742 ve TMK m. 743)\n\n### 3.1 Doğal olarak akan su (TMK m. 742)\nTMK m. 742'nin üç kuralı vardır:\n1. **Katlanma:** Malik, üst taraftaki araziden kendi arazisine **doğal olarak** akan suların (özellikle yağmur, kar ve tutulmamış kaynak sularının) akışına katlanmak zorundadır (m. 742/1).\n2. **Değiştirme yasağı:** Komşulardan hiçbiri bu suların akışını diğerinin zararına değiştiremez (m. 742/2). Yasak üst malik kadar alt malik için de geçerlidir.\n3. **Tutma sınırı:** Üstteki malik, alttaki taşınmaza gerekli olan suyu ancak **kendi taşınmazı için zorunlu olduğu ölçüde** tutabilir (m. 742/3).\n\n> **Örnek:** Kemal, üstteki parselinde yaptığı setle yağmur sularını tamamen tutar; alttaki Selim'in bahçesi susuz kalır. Kemal, suyu yalnız kendi parseli için zorunlu ölçüde tutabilirdi (TMK m. 742/3). Selim de yağmur sularının akışını kendi arazisinde değiştirip Kemal'in zararına yönlendiremez (TMK m. 742/2).\n\n### 3.2 Fazla suyun akıtılması (TMK m. 743)\nBir arazinin suyu **öteden beri** alt taraftaki araziye doğal şekilde akmaktaysa, alttaki malik üst taraftan **fazla suyun boşaltılması** sırasında da bu suları **tazminat isteme hakkı olmaksızın** kabul etmek zorundadır (m. 743/1). Buna karşılık boşaltmadan zarar görüyorsa, **gideri üstteki arazi malikine ait olmak üzere**, kendi arazisinde yapılacak mecrayla suyun akıtılmasını isteyebilir (m. 743/2). Bataklıkların kurutulmasına ilişkin özel kanun hükümleri saklıdır (m. 743/3).\n\n> **Örnek:** Zeynep göletini boşaltır; su, öteden beri doğal olarak Mehmet'in arazisine akmaktadır. Mehmet fidelerinin zarar görmesi için tazminat isteyemez (TMK m. 743/1). Ancak gideri Zeynep'e ait olmak üzere kendi arazisinde suyu akıtacak bir mecra yapılmasını isteyebilir (TMK m. 743/2).\n\n> ⚠️ **Sınavda dikkat:** TMK m. 742 doğal akışı, TMK m. 743 malikin boşalttığı fazla suyu düzenler. \"Tazminatsız katlanma\" zararı yok saymaz: alttaki malik **mecra isteyebilir**, gideri üsttekine aittir.\n\n## 4. Mecra geçirilmesi (TMK m. 744, TMK m. 745 ve TMK m. 746)\n\n**Mecra**, su yolu, kurutma kanalı, gaz ve benzeri boru hatları ile elektrik hat ve kablolarının geçtiği tesistir.\n\n### 4.1 Katlanma yükümlülüğü (TMK m. 744)\nHer taşınmaz maliki, **uğrayacağı zararın tamamının önceden ödenmesi koşuluyla**, bu tesislerin kendi arazisinin altından veya üstünden geçirilmesine katlanır; ancak mecranın **başka yerden geçirilmesi olanaksız veya aşırı ölçüde masraflı** olmalıdır (m. 744/1). Şartlar:\n1. Mecra türü: su yolu, kanal, boru, hat veya kablo,\n2. Başka yerden geçirmenin olanaksızlığı veya aşırı masrafı,\n3. Zararın **tamamının** önceden ödenmesi.\n\nİki ayrıntı sık sorulur:\n- Mecra geçirilmesi **kamulaştırma kurallarına bağlıysa** TMK'nın mecralara ilişkin komşuluk hükümleri uygulanmaz (m. 744/2). Yargıtay Hukuk Genel Kurulu, kamulaştırmayla kurulan enerji hattı irtifakının terkininde de TMK m. 785 yerine kamulaştırma mevzuatını esas almıştır (kararlar bölümüne bak).\n- Mecra hakkı, **hak sahibinin istemi üzerine ve giderleri ödemesi koşuluyla** tapu kütüğüne tescil edilir (m. 744/3).\n\n> **Örnek:** Ahmet'in fabrikasına çekilecek kablo Selin'in arazisinden başka yerden geçirilemiyor. Selin, zararı önceden tamamen ödenirse katlanır (TMK m. 744/1). Ahmet isterse hak, giderleri kendisine ait olmak üzere tescil edilir (TMK m. 744/3).\n\n**TMK m. 727 ile fark.** Komşuluk hukukunun gerektirdiği hâller dışında bir taşınmazın mecra ile ayni hak olarak yüklenmesi ancak **iradi bir irtifak** kurulmasıyla olur (TMK m. 727/2-3). TMK m. 744 ise anlaşma olmasa da komşuluktan doğan **katlanma yükümlülüğünü** düzenler.\n\n### 4.2 Yükümlü malikin korunması (TMK m. 745)\nYükümlü malik, menfaatinin **hakkaniyete uygun biçimde** gözetilmesini isteyebilir (m. 745/1). Arazinin üzerinden geçecek mecralarda **olağanüstü durumlar** varsa mecranın geçeceği arazi parçasının uygun bir kısmının, zararını tam karşılayacak bedelle **satın alınmasını** isteyebilir (m. 745/2). Bu istem **yükümlü malike** aittir; mecra hakkı sahibi malikin parçasını satın almaya zorlayamaz.\n\n> **Örnek:** Boru hattı Selin'in arazisinde bir şeridi kullanılamaz kıldı. Selin, o parçanın uygun kısmının zararını tam karşılayacak bedelle satın alınmasını isteyebilir.\n\n### 4.3 Durumun değişmesi (TMK m. 746)\nDurum değişirse yükümlü malik, mecranın **kendi yararına** başka bir yere nakledilmesini isteyebilir (m. 746/1). Yer değiştirme giderleri **kural olarak mecra hakkı sahibine** aittir (m. 746/2). Özel durumlar haklı gösterirse malik de giderlerin uygun bir kısmına katılmakla yükümlü tutulabilir (m. 746/3).\n\n> **Örnek:** Selin yapı yapacağı için kablonun nakledilmesini ister; giderler kural olarak Ahmet'e aittir.\n\n## 5. Geçit hakları (TMK m. 747 ve TMK m. 748)\n\n### 5.1 Zorunlu geçit (TMK m. 747)\n**Zorunlu geçit**, taşınmazından genel yola çıkmak için yeterli geçidi bulunmayan malikin, komşularından **tam bir bedel karşılığında** geçit hakkı tanınmasını isteyebilmesidir (m. 747/1).\n\n**Şartlar.**\n1. İstemde bulunan taşınmazın maliki olmalıdır.\n2. Taşınmazın genel yola çıkışı için **yeterli geçidi** bulunmamalıdır. Yargıtay iki ihtiyacı ayırır: **mutlak ihtiyaç** (hiç geçit bulunmaması) ve **nispi ihtiyaç** (var olan geçidin yetersiz kalması). Kanun \"yeterli geçit\" dediği için ikisi de kapsama girer. İhtiyaç objektif ölçülerle belirlenir.\n3. Karşılığında **tam bedel** ödenmelidir.\n\n**Kime karşı?** İstem sırayla yöneltilir (m. 747/2): önce, geçidin kendisinden istenmesi **önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya**; sonra bundan **en az zarar görecek olana** karşı.\n\n**Güzergâh nasıl belirlenir?** Zorunlu geçit **iki tarafın menfaati gözetilerek** belirlenir (m. 747/3). Hukuk Genel Kurulu'nun benimsediği ölçüler şunlardır:\n- Seçenekler arasında davacı için en kısa ve en ucuz olan değil, **yüklü taşınmaz bakımından objektif olarak en az külfet doğuran** seçilir.\n- Yüklü taşınmazı bölen güzergâh ancak zorunluysa ve gerekçesi gösterilerek seçilir.\n- Fiilî bir yol, üçüncü kişilerin haksız işgaliyle açılmışsa tek başına yeterli değildir; taşınmazın ileride nasıl kullanılacağı da gözetilir.\n- Güzergâh genel yola kesintisiz bağlantıyı sağlamalıdır.\n\n**Bedel.** Kanun \"tam bir bedel\" der. Yargıtay uygulamasında bedel bilirkişiyle saptanır ve **hükümden önce depo ettirilir**. Bu, kanun metninde yazılı bir kural değildir; TMK m. 744/1'deki \"önceden ödenmesi\" ifadesi geçit hükmünde yoktur.\n\n**Genişlik.** Yargıtay tarım arazisinde geçit genişliğini emsaline göre 2,5-3 metre olarak uygulamıştır. Bu, **Yargıtay'ın ölçüsüdür, kanun kuralı değildir.**\n\n**Dava.** Görevli mahkeme **asliye hukuk mahkemesidir** (HMK m. 2); geçit davası HMK m. 4'teki sulh hukuk işleri arasında yer almaz (usul ayrıntısı bölüm 8). Yargıtay uygulamasında hükümde geçidin tapu kütüğünde özel sütuna tescili de karara bağlanır. Geçidin ne zaman doğduğu ve bu uygulamanın dayanağı tartışmalıdır (doktrin bölümüne bak).\n\n> **Örnek:** Ali'nin tarlası eskiden kardeşi Ayşe'yle ortaktı; paylaşmada yola bakan kısım Ayşe'ye kaldı, tarla artık dört yandan çevrili. Ali \"en kısa yol Mehmet'in bahçesinden geçiyor\" diyerek Mehmet'e dava açmak ister. Kanundaki sıralama gereği istem önce **önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya** (burada Ayşe'ye) yöneltilir; \"en kısa yol\" tek başına belirleyici değildir (TMK m. 747/2-3).\n\n### 5.2 Diğer geçit hakları (TMK m. 748)\nTMK m. 748/1 şu hakları **özel kanun hükümlerine** bırakır: taşınmazı işletme, iyileştirme veya yapı yapma amacıyla komşu taşınmaza **geçici olarak girme hakkı**; **tarla yolu, hayvan sulama yolu, kış geçidi, tomruk kaydırma yolu ve oluğu** ve benzeri geçitler. **Özel kanun hükmü yoksa yerel âdet uygulanır** (m. 748/2).\n\nTMK m. 748/3: **Doğrudan doğruya kanundan kaynaklanan geçit hakları**, tapu kütüğüne tescil edilmeksizin doğar. Ancak bunlardan **sürekli nitelikte olanlar beyanlar sütununda gösterilir** (beyanlar için TMK m. 1012).\n\n| | TMK m. 747 | TMK m. 748 |\n|---|---|---|\n| Konu | Genel yola çıkış | Tarla yolu, kış geçidi, geçici girme |\n| Dayanak | Kanunun kendi hükmü, tam bedel | Özel kanun, yoksa yerel âdet |\n| Kayıt | Tartışmalı (doktrin) | Sürekli olanlar beyanlar sütununda |\n\n> ⚠️ **Sınavda dikkat:** \"Tescilsiz doğar\" kuralı TMK m. 748/3'te **doğrudan kanundan doğan** geçitler için yazılıdır. Zorunlu geçidi (TMK m. 747) tek cümleyle \"tescilsiz doğar\" diye bağlama; bu nokta tartışmalıdır. Kuralı hükmün lafzıyla yaz, tartışmayı doktrin kısmında anlat.\n\n## 6. Kaynaklar ve yeraltı suları (TMK m. 756 - TMK m. 761)\n\n### 6.1 Kaynağın hukuki durumu (TMK m. 756)\n- **Kaynak**, arazinin **bütünleyici parçasıdır**; mülkiyeti ancak kaynadığı arazinin mülkiyetiyle birlikte kazanılabilir (m. 756/1). Bütünleyici parça kavramı için TMK m. 684, mülkiyetin kapsamı için TMK m. 718/2.\n- **Başkasının arazisindeki kaynak** üzerindeki hak, **irtifak** olarak tapu kütüğüne **tescille** kurulur (m. 756/2). Kaynak hakkı bağımsız nitelikte ve en az otuz yıl için kurulmuşsa taşınmaz olarak kaydedilebilir (TMK m. 837/3).\n- **Yeraltı suları** kamu yararına ait sulardandır; arza malik olmak, altındaki yeraltı sularına da malik olmak sonucunu doğurmaz (m. 756/3). 167 sayılı Kanun m. 1'e göre yeraltı suları umumi sular meyanında olup Devletin hüküm ve tasarrufu altındadır. Yararlanma biçimi ve ölçüsü özel kanunlara tâbidir.\n\n| | Kaynak | Yeraltı suyu |\n|---|---|---|\n| Hukuki durum | Arazinin bütünleyici parçası | Kamu yararına ait su |\n| Mülkiyet | Arazi malikinde | Arza malik olmakla kazanılmaz |\n\nYargıtay ayrıca yalnız o taşınmazın ihtiyacına yeten **özel su** ile sınırı aşan, ihtiyaç fazlası ya da tapusuz yerden çıkan **genel su** ayrımını yapar; bu ölçüt kanunda yazılı değildir. TMK m. 715/2'ye göre yararı kamuya ait sular ile tarıma elverişli olmayan yerler ve bunlardan çıkan kaynaklar, aksi ispatlanmadıkça, özel mülkiyete konu olamaz.\n\n### 6.2 Kaynaklara zarar (TMK m. 757 ve TMK m. 758)\n**Tazminat (TMK m. 757/1).** Önemli ölçüde yararlanılan veya yararlanmak amacıyla suyu biriktirilen kaynakları ya da kuyuları kazı, yapı veya benzeri faaliyetler yüzünden **kısmen olsun keserek ya da kirleterek** malikine veya hak sahibine zarar veren, zararı gidermekle yükümlüdür. Zarar **kasten veya ihmal yoluyla verilmemişse** ya da zarar görenin de kusuru varsa hâkim, tazminatın gerekip gerekmediğini, gerekiyorsa miktar ve türünü **takdir eder** (m. 757/2).\n\n**Eski duruma getirme (TMK m. 758).** Bir taşınmazda **oturmak, onu işletmek veya bir yerin içme ya da kullanma suyunu sağlamak** için gerekli kaynaklar kesilir ve kirletilirse, kaynağın olabildiği ölçüde eski duruma getirilmesi istenebilir (m. 758/1). Diğer hâllerde eski duruma getirme ancak **özel hâller haklı gösterirse** istenebilir (m. 758/2).\n\n> **Örnek:** Hasan'ın evinin içme suyunu sağlayan kaynak, komşu X İnşaat'ın temel kazısıyla kısmen kesilir. X zararı gidermekle yükümlüdür (TMK m. 757/1); içme suyu kaynağı olduğundan eski duruma getirme de istenebilir (TMK m. 758/1). X kasten veya ihmalle davranmamışsa tazminatın gerekip gerekmediğini hâkim takdir eder (TMK m. 757/2).\n\n> 💡 **Püf nokta:** TMK m. 757 **tazminat**, TMK m. 758 **eski duruma getirme**; eskisi her kaynak için değil, oturma, işletme ve içme-kullanma suyu kaynakları için kolayca istenir.\n\n### 6.3 Aynı yataktan beslenen kaynaklar (TMK m. 759)\nDeğişik maliklere ait komşu kaynaklar ortak bir ana kaynaktan beslenirse, maliklerden her biri kaynakların **birlikte tutulmasını** ve suyun hak sahiplerine **o zamana kadarki yararlanmaları oranında** dağıtılmasını isteyebilir (m. 759/1). Ortak tesis masrafları da **yararlanma oranında** üstlenilir (m. 759/2). Biri karşı çıkarsa diğeri, öbür kaynaklarda su azalacak olsa bile, gerekli işleri yapabilir; kendi kaynağına gelen su çoğalırsa yalnız bu çoğalma oranında bir bedel öder (m. 759/3).\n\n> **Örnek:** Can ve Deniz'in çeşmeleri aynı ana kaynaktan beslenir. Su azalınca her ikisi de suyun o güne kadarki kullanım oranlarına göre dağıtılmasını isteyebilir.\n\n### 6.4 Özel kanun ve yerel âdet (TMK m. 760)\nÖzel mülkiyetteki kaynak, kuyu ve derelerden başkalarının su içme, su alma, hayvan sulama gibi yollarla yararlanması **özel kanun hükümlerine**, yoksa **yerel âdete** tâbidir.\n\n### 6.5 Zorunlu su (TMK m. 761)\nEvi, arazisi veya işletmesi için gerekli sudan yoksun olup bunu **aşırı zahmet ve gidere katlanmaksızın başka yoldan sağlayamayan** malik, komşusundan **onun ihtiyacından fazla olan suyu tam bedel karşılığında** almasını sağlayacak bir **irtifak** kurulmasını isteyebilir (m. 761/1). Kurulurken **öncelikle kaynak sahibinin menfaati** gözetilir (m. 761/2). Durum değişirse irtifakın değiştirilmesi veya kaldırılması istenebilir (m. 761/3).\n\nŞartlar: su yoksunluğu; başka yoldan aşırı zahmet ve gidersiz sağlayamama; komşunun ihtiyaç fazlası suyu; tam bedel.\n\n| | TMK m. 756/2 ve TMK m. 837 | TMK m. 761 |\n|---|---|---|\n| Hak türü | Kaynak irtifakı (iradi) | Zorunlu su irtifakı |\n| Kuruluş | Sözleşme ve tescil | Kurulmasını isteme hakkı |\n| Konu | Kaynak üzerinde hak | Komşunun ihtiyaç fazlası su |\n\n> **Örnek:** Fatma'nın evi aşırı zahmet ve gider olmadan başka yoldan su bulamıyor; komşu Hasan'ın kaynağında ihtiyacından fazla su var. Fatma tam bedelle irtifak kurulmasını isteyebilir; Hasan'ın menfaati öncelikle gözetilir.\n\n## 7. Kamu hukuku kısıtlamaları ve ortak iyileştirme (TMK m. 754 ve TMK m. 755)\n\nTMK m. 754'e göre yapı, yangın, afet ve sağlık kolluğuna, nirengi noktalarına, toprağın iyileştirilmesine, eski eserlere, **maden ve kaynak sularının korunmasına** ilişkin mülkiyet kısıtlamaları **özel kanun hükümlerine** tâbidir.\n\nTMK m. 755 ortak girişimle yapılabilecek iyileştirme işlerini (su yollarını düzeltme, sulama, bataklık kurutma, yol açma, orman yetiştirme, arazi toplulaştırma gibi) düzenler. Karar için iki ölçü birlikte aranır: **arazinin yarısından fazlasına sahip bulunmak koşuluyla maliklerin üçte ikisi** karar vermelidir. Diğer malikler de karara uymak zorundadır. Karar beyanlar sütununda gösterilir.\n\n> **Örnek:** Bir köyde 30 arazi maliki var. Bunlardan 20'si (üçte ikisi) arazinin yarısından fazlasına sahipse ve toplulaştırma kararı alırsa, diğer 10 malik de uymak zorundadır (TMK m. 755/1). Aynı 20 kişi arazinin yalnız %40'ına sahip olsaydı karar bağlamazdı.\n\n> ⚠️ **Sınavda dikkat:** TMK m. 755 kişi çoğunluğuyla **arazi çoğunluğunu** birlikte arar. Paylı mülkiyetteki çoğunluk kurallarıyla karıştırma.\n\n## 8. Usul: görev ve arabuluculuk\n\n**Görev.** Asliye hukuk mahkemesi (HMK m. 2); geçit davası HMK m. 4'te sayılan sulh hukuk işlerinde yer almaz.\n\n**Dava şartı olarak arabuluculuk.** HUAK m. 18/B/1-ç'ye göre \"komşu hakkından kaynaklanan uyuşmazlıklarda\" dava açılmadan önce arabulucuya başvurulmuş olması **dava şartıdır**. Arabulucuya başvurulmadan dava açıldığının anlaşılması hâlinde herhangi bir işlem yapılmaksızın dava, dava şartı yokluğu sebebiyle **usulden reddedilir** (HUAK m. 18/A/2).\n- 📌 **Yürürlük:** HUAK m. 18/B'ye ilişkin 7445 sayılı Kanun değişikliği için resmî metindeki değişiklik tablosunda 1/9/2023 tarihi yer alır. HUAK'ın geçici 3. maddesine göre, yürürlük tarihinde ilk derece mahkemesinde, bölge adliye mahkemesinde ve Yargıtay'da görülmekte olan davalara uygulanmaz.\n- **Zorunlu geçit:** Yargıtay 7. Hukuk Dairesi, zorunlu geçit davasını \"komşu hakkından kaynaklanan uyuşmazlık\" sayar. Arabulucuya başvurmadan açılan dava usulden reddedilir. Dava açıldıktan sonra arabulucuya başvurmak bu eksikliği gidermez; HMK m. 115/2'deki gibi eksikliğin tamamlanması için süre de verilmez.\n- **Diğer uyuşmazlıklar:** Dal-kök, su akıtma, mecra, kaynak ve zorunlu su davalarının 18/B kapsamına girip girmediği tartışmalıdır; bu konuda bir Yargıtay kararı tespit edilememiştir (doktrin bölümü).\n- 📌 **Anlaşma belgesi:** 7531 sayılı Kanunla 2024'te HUAK m. 18/B'ye eklenen 5. fıkraya göre, taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verildikten sonra tapu müdürlüğünden tescil isteyebilir; tapu müdürlüğü gerekli incelemeyi yaptıktan sonra **resmî senet düzenlenmeksizin** tescil talebini yerine getirir. Bunun bir geçit irtifakına da uygulanabileceği metinden çıkarımdır; bu konuda karar okunmamıştır.\n\n## 9. Denetim şeması (olay çözerken)\n\n1. **Müdahale tipi:** kazı-yapı, dal-kök, su akışı, mecra, geçit, kaynak/zorunlu su.\n2. **Madde ve şartlar:** hükmün şartlarını tek tek say.\n3. **Bedel:** fazla suda tazminatsız katlanma; mecrada zararın tamamı önceden; geçit ve zorunlu suda tam bedel.\n4. **Kime karşı:** geçitte önceki mülkiyet ve yol durumuna göre en uygun komşu, sonra en az zarar görecek olan.\n5. **Kütük:** mecra hakkı istemle tescil; kaynak irtifakı tescille; doğrudan kanundan doğan geçit tescilsiz, sürekli olanlar beyanlar sütununda.\n6. **Usul:** asliye hukuk; zorunlu geçitte önceden arabuluculuk.",
+  "critical_md": "- 📌 Kazı ve yapıda komşunun toprağını sarsmak, tehlikeye düşürmek ya da tesislerini etkilemek suretiyle zarar vermek yasaktır; komşuluk hukukuna aykırı yapılara taşkın yapı hükümleri uygulanır (TMK m. 738).\n- 📌 Kazı, yapı ve bitki dikimi bakımından ayrıntılı kurallar özel kanunlara bırakılmıştır (TMK m. 739 ve TMK m. 741).\n- ⚠️ Dal ve kök: zarar, istem, uygun süre; ancak bundan sonra kesip kendi mülkiyetine geçirir. \"Zarar veriyorsa hemen keser\" yanlıştır (TMK m. 740/1).\n- 📌 Ekilmiş veya üzerine yapı yapılmış arazisine dalların taşmasına katlanan komşu meyveleri toplar; komşu ormanlara bu hükümler uygulanmaz (TMK m. 740/2-3).\n- 📌 Doğal akan suya alttaki malik katlanır; akış komşunun zararına değiştirilemez; üstteki malik suyu yalnız kendi taşınmazı için zorunlu ölçüde tutabilir (TMK m. 742).\n- ⚠️ Fazla suya, suyu öteden beri alta akan arazide tazminatsız katlanılır; ama zarar varsa gideri üsttekine ait mecra istenebilir (TMK m. 743).\n- 📌 Mecraya katlanma: başka yerden geçirilmesi olanaksız veya aşırı masraflı olmalı ve zararın tamamı önceden ödenmelidir; kamulaştırmaya bağlı mecrada komşuluk hükümleri uygulanmaz; tescil hak sahibinin istemi ve giderleri üzerinedir (TMK m. 744).\n- ⚠️ Olağanüstü durumda parçanın satın alınmasını yükümlü malik ister; nakil giderleri kural olarak mecra hakkı sahibine aittir (TMK m. 745/2 ve TMK m. 746/2).\n- 📌 Zorunlu geçit: genel yola yeterli geçit yok, tam bedel; istem önce önceki mülkiyet ve yol durumuna göre en uygun komşuya, sonra en az zarar görecek olana; iki tarafın menfaati gözetilir (TMK m. 747).\n- ⚠️ Geçit bedelinin hükümden önce depo edilmesi ve tarım arazisinde 2,5-3 m genişlik Yargıtay uygulamasıdır; kanun metninde yoktur.\n- ⚠️ \"Tescilsiz doğar\" kuralı TMK m. 748/3'te doğrudan kanundan doğan geçitler içindir; sürekli olanlar beyanlar sütununda gösterilir. Zorunlu geçide mekanik olarak uygulama.\n- 📌 Kaynak arazinin bütünleyici parçasıdır; başkasının arazisindeki kaynakta hak tescille kurulan irtifaktır; arza malik olmak yeraltı suyuna malik olmayı sağlamaz (TMK m. 756 ve 167 sayılı Kanun m. 1).\n- ⚠️ TMK m. 757 tazminat, TMK m. 758 eski duruma getirme; kast veya ihmal yoksa tazminatı hâkim takdir eder. Eski duruma getirme oturma, işletme, içme-kullanma suyu kaynaklarında doğrudan istenebilir.\n- 📌 Zorunlu su: su yoksunluğu, başka yoldan aşırı zahmet ve gidersiz sağlayamama, komşunun ihtiyaç fazlası su, tam bedel; öncelikle kaynak sahibinin menfaati gözetilir (TMK m. 761).\n- 📌 Zorunlu geçit davasında 1/9/2023'ten sonra önceden arabulucuya başvurmak dava şartıdır; dava sonrası başvuru eksikliği gidermez; görevli mahkeme asliye hukuktur (HUAK m. 18/B/1-ç, HUAK m. 18/A/2, HMK m. 2).",
+  "doctrine_md": "### Zorunlu geçit ne zaman doğar?\nKanun, TMK m. 747'de geçidin doğrudan doğacağını söylemez; malik geçit hakkı \"tanınmasını isteyebilir\". Bu yüzden hakkın niteliği ve doğduğu an tartışmalıdır.\n- **Bir görüş:** TMK m. 747 doğrudan geçit doğurmaz, irtifak kurulmasını isteme hakkı verir (dolaylı kanuni kısıtlama). Hak tescille ya da mahkeme kararıyla doğar; TMK m. 748/3 yalnız doğrudan kanundan doğan geçitler içindir.\n- **Diğer görüş:** Mahkeme kararıyla kurulan geçit, TMK m. 780/2'nin yollamasıyla taşınmaz mülkiyetinin kazanılmasına ilişkin kurallara tâbidir; bu nedenle karar kesinleşince tescilden önce doğar.\n- **Yargıtay:** Hükümde geçidin tapu kütüğünde özel sütuna tescilini karara bağlar ve bunu TMK m. 748/3 ile TMK m. 1012'ye dayandırır. Bu bağlantı metinle tam örtüşmez, çünkü TMK m. 748/3 doğrudan kanundan doğan geçitlerden söz eder.\n\n### Tam bedel nasıl ödenir?\nBir görüş bedelin bir defada ve peşin ödenmesi gerektiğini savunur. Diğer görüşe göre dönemsel ödeme de mümkündür. Yargıtay uygulaması bedelin hükümden önce depo edilmesidir.\n\n### Kendi eylemiyle geçitsiz kalan malik\nTMK m. 747/2'deki \"önceki mülkiyet ve yol durumu\" ölçütü, isteği önce eski bütünden ayrılan komşuya yöneltir. Geçitsiz kalmasında kendi payı olan malikin istemi dürüstlük kuralına (TMK m. 2) aykırı sayılır mı? Bu nokta tartışmalıdır.\n- **Bir görüş:** Geçitsizliği kendi eylemiyle yaratan malikin istemi, hakkın açıkça kötüye kullanılması niteliğinde olabilir (TMK m. 2/2).\n- **Diğer görüş:** Kanun bu durumu \"önceki mülkiyet ve yol durumu\" ölçütüyle zaten düzenlemiştir; malikin payı istemi ortadan kaldırmaz, yalnız istemin kime yöneltileceğini belirler.\n\n### Arabuluculuğun kapsamı\nHUAK m. 18/B/1-ç \"komşu hakkından kaynaklanan uyuşmazlıkları\" sayar. Bir görüş bu ifadenin komşular arasındaki bütün kanuni kısıtlamaları kapsadığını söyler. Diğer görüşe göre kaynaklara ilişkin hükümler (TMK m. 756 - TMK m. 761) sistematik olarak \"komşu hakkı\" ayırımının dışındadır ve zorunlu su ile kaynak uyuşmazlıkları kapsama girmez. Bu konuda bir Yargıtay kararı tespit edilememiştir. Zorunlu geçit için ise Yargıtay'ın tutumu nettir.\n\n### TMK m. 757'nin niteliği\nBir görüşe göre hüküm kusursuz sorumluluk getirir. Diğer görüşe göre kusur sorumluluğu ile hakkaniyet sorumluluğunun birleşimidir. Metin, kast veya ihmal yoksa tazminatın gerekip gerekmediğini hâkimin takdirine bırakır; sınavda önce metni yaz, sonra görüşleri ekle.\n\n### Özel su ve genel su\nYargıtay uygulaması özel su (yalnız taşınmazın ihtiyacına yeten su) ile genel su (sınırı aşan, ihtiyaç fazlası ya da tapusuz yerden çıkan su) ayrımını yapar. Ölçüt kanunda yazılı değildir; sınır uyuşmazlıkta bilirkişiyle belirlenir.",
+  "glossary": [
+   {
+    "term": "Komşu hakkı",
+    "definition": "Komşu taşınmaz malikleri arasında mülkiyetin kullanımını sınırlayan kanuni kısıtlamalar (taşkınlık, kazı, bitki, su, mecra, geçit gibi). HUAK m. 18/B/1-ç bu kavramı dava şartı olarak arabuluculukta kullanır."
+   },
+   {
+    "term": "Mecra",
+    "definition": "Su yolu, kurutma kanalı, gaz ve benzeri borular ile elektrik hat ve kablolarının geçtiği tesis (TMK m. 744)."
+   },
+   {
+    "term": "Yükümlü malik",
+    "definition": "Taşınmazı mecra, geçit veya zorunlu su irtifakıyla yüklenen komşu malik."
+   },
+   {
+    "term": "Zorunlu geçit",
+    "definition": "Genel yola çıkmak için yeterli geçidi olmayan malikin, tam bedelle komşulardan isteyebildiği geçit hakkı (TMK m. 747)."
+   },
+   {
+    "term": "Mutlak ve nispi ihtiyaç",
+    "definition": "Yargıtay'ın zorunlu geçitte ayırımı: geçit yoksunluğu (mutlak) ve var olan geçidin yetersizliği (nispi)."
+   },
+   {
+    "term": "Tam bedel",
+    "definition": "Zorunlu geçit ve zorunlu suda kanunun aradığı karşılık. Uygulamada miktarı bilirkişiyle belirlenir; Yargıtay uygulamasında hükümden önce depo edilir."
+   },
+   {
+    "term": "Taşan dal ve kök",
+    "definition": "Komşu arazisine taşarak zarar veren bitki kısımları. İstem ve uygun süreden sonra komşu keser ve mülkiyetine geçirir (TMK m. 740/1)."
+   },
+   {
+    "term": "Kaynak",
+    "definition": "Arazinin bütünleyici parçası olan doğal su çıkışı. Mülkiyeti arazi mülkiyetiyle birlikte kazanılır (TMK m. 756/1)."
+   },
+   {
+    "term": "Yeraltı suyu",
+    "definition": "Kamu yararına ait sulardan olan, arz katmanının altındaki su. Arza malik olmak yeraltı suyuna malik olmayı sağlamaz (TMK m. 756/3)."
+   },
+   {
+    "term": "Özel su ve genel su",
+    "definition": "Yargıtay ayırımı: özel su yalnız taşınmazın ihtiyacına yeten sudur ve malikindir; sınırı aşan, ihtiyaç fazlası ya da tapusuz yerden çıkan su genel sudur. Ölçüt kanunda yazılı değildir."
+   },
+   {
+    "term": "Zorunlu su irtifakı",
+    "definition": "Susuz kalan malikin, komşusunun ihtiyaç fazlası suyunu tam bedelle almasını sağlayan irtifak (TMK m. 761)."
+   },
+   {
+    "term": "Eski duruma getirme",
+    "definition": "Kesilen ya da kirletilen kaynağın olabildiği ölçüde eski hâline döndürülmesi. Oturma, işletme, içme-kullanma suyu kaynaklarında doğrudan istenebilir (TMK m. 758)."
+   },
+   {
+    "term": "Beyanlar sütunu",
+    "definition": "Tapu kütüğünde hak doğurmayan, bilgi veren kayıtların yer aldığı sütun. Doğrudan kanundan doğan sürekli geçitler ve ortak iyileştirme kararı burada gösterilir (TMK m. 748/3 ve TMK m. 755)."
+   },
+   {
+    "term": "Dava şartı olarak arabuluculuk",
+    "definition": "Dava açılmadan önce arabulucuya başvurulmuş olmasının aranması. Eksikse dava usulden reddedilir (HUAK m. 18/A/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "684",
+   "official_text": "I. Bütünleyici parça\nMadde 684- Bir şeye malik olan kimse, o şeyin bütünleyici parçalarına da malik olur.\nBütünleyici parça, yerel âdetlere göre asıl şeyin temel unsuru olan ve o şey yok edilmedikçe, zarara uğratılmadıkça veya yapısı değiştirilmedikçe ondan ayrılmasına olanak bulunmayan parçadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "715",
+   "official_text": "6. Sahipsiz yerler ve yararı kamuya ait mallar\nMadde 715- Sahipsiz yerler ile yararı kamuya ait mallar, Devletin hüküm ve tasarrufu altındadır.\nAksi ispatlanmadıkça, yararı kamuya ait sular ile kayalar, tepeler, dağlar, buzullar gibi tarıma elverişli olmayan yerler ve bunlardan çıkan kaynaklar, kimsenin mülkiyetinde değildir ve hiçbir şekilde özel mülkiyete konu olamaz.\nSahipsiz yerler ile yararı kamuya ait malların kazanılması, bakımı, korunması, işletilmesi ve kullanılması özel kanun hükümlerine tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "718",
+   "official_text": "I. Kapsam\nMadde 718- Arazi üzerindeki mülkiyet, kullanılmasında yarar olduğu ölçüde, üstündeki hava ve altındaki arz katmanlarını kapsar.\nBu mülkiyetin kapsamına, yasal sınırlamalar saklı kalmak üzere yapılar, bitkiler ve kaynaklar da girer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "725",
+   "official_text": "2. Taşkın yapılar\nMadde 725- Bir yapının başkasına ait araziye taşırılan kısmı, eğer yapıyı yapan malik taşırılan arazi üzerinde bir irtifak hakkına sahip bulunuyorsa, ona ait taşınmazın bütünleyici parçası olur.\nBöyle bir irtifak hakkı yoksa, zarar gören malik taşmayı öğrendiği tarihten başlayarak onbeş gün içinde itiraz etmediği, aynı zamanda durum ve koşullar da haklı gösterdiği takdirde, taşkın yapıyı iyiniyetle yapan kimse, uygun bir bedel karşılığında taşan kısım için bir irtifak hakkı kurulmasını veya bu kısmın bulunduğu arazi parçasının mülkiyetinin kendisine devredilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "727",
+   "official_text": "4. Mecralar\nMadde 727- Su, gaz, elektrik ve benzerlerinin mecraları, işletmenin bulunduğu taşınmazın dışında olsalar bile, aksine bir düzenleme olmadıkça o işletmenin eklentisi ve işletme malikinin malı sayılır.\nKomşuluk hukukunun gerektirdiği hâller dışında bir taşınmazın böyle bir mecra ile aynî hak olarak yüklenmesi, ancak bir irtifak hakkı kurulması suretiyle olabilir.\nİrtifak hakkı, mecra dışarıdan görülmüyorsa tapu kütüğüne tesciliyle, dışarıdan görülüyorsa noterce düzenlenecek sözleşmeye dayanılarak mecranın yapılmasıyla doğar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "730",
+   "official_text": "V. Taşınmaz malikinin sorumluluğu\nMadde 730- Bir taşınmaz malikinin mülkiyet hakkını bu hakkın yasal kısıtlamalarına aykırı kullanması sonucunda zarar gören veya zarar tehlikesi ile karşılaşan kimse, durumun eski hâline getirilmesini, tehlikenin ve uğradığı zararın giderilmesini dava edebilir.\nHâkim, yerel âdete uygun ve kaçınılmaz taşkınlıklardan doğan zararların uygun bir bedelle denkleştirilmesine karar verebilir.\nB. Taşınmaz mülkiyetinin kısıtlamaları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "731",
+   "official_text": "I. Genel olarak\nMadde 731-Taşınmaz mülkiyetinin kanundan doğan kısıtlamaları, tapu siciline tescil edilmeksizin etkili olur.\nBu kısıtlamaların ortadan kaldırılması veya değiştirilmesi, buna ilişkin sözleşmenin resmî şekilde düzenlenmesine ve tapu kütüğüne şerh verilmesine bağlıdır.\nKamu yararı için konulan kısıtlamalar kaldırılamaz ve değiştirilemez.\nII. Devir hakkının kısıtlamaları\n1. Yasal önalım hakkı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "737",
+   "official_text": "1. Kullanma biçimi\nMadde 737- Herkes, taşınmaz mülkiyetinden doğan yetkileri kullanırken ve özellikle işletme faaliyetini sürdürürken, komşularını olumsuz şekilde etkileyecek taşkınlıktan kaçınmakla yükümlüdür.\nÖzellikle, taşınmazın durumuna, niteliğine ve yerel âdete göre komşular arasında hoş görülebilecek dereceyi aşan duman, buğu, kurum, toz, koku çıkartarak, gürültü veya sarsıntı yaparak rahatsızlık vermek yasaktır.\nYerel âdete uygun ve kaçınılmaz taşkınlıklardan doğan denkleştirmeye ilişkin haklar saklıdır.\n2. Kazı ve yapılar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "738",
+   "official_text": "a. Kural\nMadde 738- Malik, kazı ve yapı yaparken komşu taşınmazlara, onların topraklarını sarsmak veya tehlikeye düşürmek ya da üzerlerindeki tesisleri etkilemek suretiyle zarar vermekten kaçınmak zorundadır.\nKomşuluk hukuku kurallarına aykırı yapılar hakkında taşkın yapılara ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "739",
+   "official_text": "b. Özel kurallar\nMadde 739- Kazı ve yapılarda uyulması gerekli kurallar özel kanunlarla belirlenir.\n3. Bitkiler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "740",
+   "official_text": "a. Kural\nMadde 740- Komşunun arazisine taşarak zarar veren dal ve kökler, onun istemi üzerine uygun bir süre içinde kaldırılmazsa, komşu bu dal ve kökleri kesip kendi mülkiyetine geçirebilir.\nEkilmiş veya üzerine yapı yapılmış arazisine dalların taşmasına katlanan komşu, bu dallarda yetişen meyvaları toplama hakkına sahip olur.\nKomşu ormanlar hakkında bu hükümler uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "741",
+   "official_text": "b. Özel kurallar\nMadde 741- Komşu taşınmaz maliklerinin bitki dikerken uymak zorunda oldukları kurallar özel kanunlarla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "742",
+   "official_text": "4. Doğal olarak akan su\nMadde 742- Taşınmaz maliki, üst taraftaki araziden kendi arazisine doğal olarak akan suların ve özellikle yağmur, kar ve tutulmamış kaynak sularının akışına katlanmak zorundadır.\nKomşulardan hiçbiri bu suların akışını diğerinin zararına değiştiremez.\nÜstteki arazi maliki, alt taraftaki taşınmaza gerekli olan suyu, ancak kendi taşınmazı için zorunlu olduğu ölçüde tutabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "743",
+   "official_text": "5. Fazla suyun akıtılması\nMadde 743- Bir arazinin suyu öteden beri alt taraftaki araziye doğal bir şekilde akmakta ise, alt taraftaki arazi maliki, üst taraftaki araziden fazla suyun boşaltılması sırasında da bu suları tazminat isteme hakkı olmaksızın kabul etmek zorundadır.\nAlt taraftaki arazi maliki boşaltma dolayısıyla akan sulardan zarar görmekte ise, gideri üstteki arazi malikine ait olmak üzere, kendi arazisinde yapılacak mecrayla suyun akıtılmasını isteyebilir.\nBataklıkların kurutulması hakkındaki özel kanun hükümleri saklıdır.\n6. Mecra geçirilmesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "744",
+   "official_text": "a. Katlanma yükümlülüğü\nMadde 744- Her taşınmaz maliki, uğrayacağı zararın tamamının önceden ödenmesi koşuluyla, su yolu, kurutma kanalı, gaz ve benzerlerine ait boruların, elektrik hat ve kablolarının, başka yerden geçirilmesi olanaksız veya aşırı ölçüde masraflı olduğu takdirde, kendi arazisinin altından veya üstünden geçirilmesine katlanmakla yükümlüdür.\nMecra geçirilmesinin kamulaştırma kurallarına bağlı olması hâlinde, bu Kanunun mecralara ilişkin komşuluk hükümleri uygulanmaz.\nMecrayı geçirme hakkı, hak sahibinin istemi üzerine ve giderleri ödemesi koşuluyla tapu kütüğüne tescil edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "745",
+   "official_text": "b. Yükümlü taşınmaz malikinin menfaatinin korunması\nMadde 745- Yükümlü taşınmaz maliki, kendi menfaatinin hakkaniyete uygun bir biçimde gözetilmesini isteyebilir.\nArazinin üzerinden geçecek mecralarda olağanüstü durumlar varsa malik, bu mecraların üzerinden geçirileceği arazi parçasının uygun bir kısmının, zararını tam olarak karşılayacak bir bedelle satın alınmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "746",
+   "official_text": "c. Durumun değişmesi\nMadde 746- Durum değişirse, yükümlü taşınmaz maliki, mecranın kendi yararına olarak başka bir yere nakledilmesini isteyebilir.\nYer değiştirme giderleri, kural olarak mecra hakkı sahibine aittir.\nÖzel durumlar haklı gösterdiği takdirde, taşınmaz maliki de giderlerin uygun bir kısmına katılmakla yükümlü tutulabilir.\n7. Geçit hakları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "747",
+   "official_text": "a. Zorunlu geçit\nMadde 747- Taşınmazından genel yola çıkmak için yeterli geçidi bulunmayan malik, tam bir bedel karşılığında bir geçit hakkı tanınmasını komşularından isteyebilir.\nBu hak, ilk önce kendisinden bu geçidin istenmesi önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya karşı ve daha sonra bundan en az zarar görecek olana karşı kullanılır.\nZorunlu geçit iki tarafın menfaati gözetilerek belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "748",
+   "official_text": "b. Diğer geçit hakları\nMadde 748- Taşınmaz malikinin taşınmazını işletme veya iyileştirme ya da taşınmazı üzerinde yapı yapma amacıyla komşu taşınmaza geçici olarak girme hakkı ile tarla yolu, hayvan sulama yolu, kış geçidi, tomruk kaydırma yolu ve oluğu ve bunlara benzer diğer geçitler özel kanun hükümlerine tâbidir.\nÖzel kanun hükmü yoksa yerel âdet uygulanır.\nDoğrudan doğruya kanundan kaynaklanan geçit hakları, tapu kütüğüne tescil edilmeksizin doğar. Ancak, bunlardan sürekli nitelikte olanlar beyanlar sütununda gösterilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "754",
+   "official_text": "1. Genel olarak\nMadde 754- Taşınmaz mülkiyeti hakkının kamu yararı için kısıtlanması, özellikle yapı, yangın, doğal afetler ve sağlıkla ilgili kolluk hizmetlerine; orman ve yollara, deniz ve göl kıyılarındaki ana ve tali yollara sınır işaretleri ve nirengi noktaları konulmasına; toprağın iyileştirilmesine veya bölünmesine, tarım topraklarının veya yapıya özgü arsaların birleştirilmesine; eski eserler, doğal güzellikler, manzaralar, seyirlik noktaları ve ender doğa anıtları ile içmeler, ılıcalar, maden ve kaynak sularının korunmasına ilişkin mülkiyet kısıtlamaları, özel kanun hükümlerine tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "755",
+   "official_text": "2. Toprağın iyileştirilmesi\nMadde 755- Su yollarını düzeltme, sulama, bataklık yerlerini kurutma, yol açma, orman yetiştirme, arazileri toplulaştırma gibi iyileştirme işleri, ancak ilgili maliklerin ortak girişimleriyle yapılabilecekse, arazinin yarısından fazlasına sahip bulunmak koşuluyla maliklerin üçte ikisinin bu yolda karar vermeleri gerekir. Diğer malikler de bu karara uymak zorundadır. Alınan karar, tapu kütüğünün beyanlar sütununda gösterilir.\nBu konulara ilişkin özel kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "756",
+   "official_text": "I. Mülkiyet ve irtifak hakkı\nMadde 756- Kaynaklar, arazinin bütünleyici parçası olup, bunların mülkiyeti ancak kaynadıkları arazinin mülkiyeti ile birlikte kazanılabilir.\nBaşkasının arazisinde bulunan kaynaklar üzerindeki hak, bir irtifak hakkı olarak tapu kütüğüne tescil ile kurulur.\nYeraltı suları, kamu yararına ait sulardandır. Arza malik olmak, onun altındaki yeraltı sularına da malik olmak sonucunu doğurmaz.\nArazi maliklerinin yeraltı sularından yararlanma biçimi ve ölçüsüne ilişkin özel kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "757",
+   "official_text": "1. Tazminat\nMadde 757- Önemli ölçüde yararlanılan veya yararlanmak amacıyla suyu biriktirilen kaynakları veya kuyuları kazı, yapı veya benzeri faaliyetler yüzünden kısmen olsun keserek ya da kirleterek malikine veya onda hak sahibi olana zarar veren kimse, bu zararı gidermekle yükümlüdür.\nZarar kasten veya ihmal yoluyla verilmemişse ya da zarar görenin de kusuru varsa hâkim, tazminatın gerekip gerekmediğini, gerekiyorsa miktar ve türünü takdir eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "758",
+   "official_text": "2. Eski duruma getirme\nMadde 758- Bir taşınmazda oturmak, onu işletmek veya bir yerin içme ya da kullanma suyunu sağlamak için gerekli olan kaynaklar kesilir ve kirletilirse, kaynağın olabildiği ölçüde eski duruma getirilmesi istenebilir.\nBunlar dışında eski duruma getirme, ancak özel hâller haklı gösterdiği takdirde istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "759",
+   "official_text": "III. Aynı yataktan beslenen kaynaklar\nMadde 759- Değişik maliklere ait komşu kaynaklar, ortak bir ana kaynaktan beslenmekte ise maliklerden her biri, bu kaynakların birlikte tutulmasını ve suyun hak sahiplerine o zamana kadarki yararlanmaları oranında dağıtılmasını isteyebilir.\nHak sahipleri, ortak tesis masraflarını yararlanmaları oranında üstlenirler.\nBirinin karşı çıkması hâlinde, hak sahiplerinden her biri, diğer kaynaklardaki su azalacak olsa bile, kendi kaynağındaki suyun tutulup akıtılması için gerekli işleri yapabilir ve kendi kaynağına gelen suyun miktarı bu işler sonunda çoğaldığı takdirde, ancak bu çoğalma oranında bir bedel vermekle yükümlü olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "760",
+   "official_text": "IV. Özel kanun hükümleri ve yerel âdet\nMadde 760- Özel mülkiyete tâbi arazide bulunan kaynak, kuyu veya derelerden komşuların ve diğer kişilerin su içme, su alma veya hayvan sulama ya da benzer yollarla yararlanmaları özel kanun hükümlerine tâbidir. Özel kanun hükmü yoksa yerel âdet uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "761",
+   "official_text": "V. Zorunlu su\nMadde 761- Evi, arazisi veya işletmesi için gerekli sudan yoksun olup, bunu aşırı zahmet ve gidere katlanmaksızın başka yoldan sağlayamayan taşınmaz maliki, komşusundan, onun ihtiyacından fazla olan suyu tam bir bedel karşılığında almasını sağlayacak bir irtifak kurulmasını isteyebilir.\nZorunlu su irtifakının kurulmasında öncelikle kaynak sahibinin menfaati gözetilir.\nDurum değişirse, kurulmuş irtifak hakkının değiştirilmesi veya kaldırılması istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "780",
+   "official_text": "1. Tescil\nMadde 780- İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır.\nİrtifak hakkının kazanılmasında ve tescilinde, aksi öngörülmüş olmadıkça taşınmaz mülkiyetine ilişkin hükümler uygulanır.\nİrtifak hakkının zamanaşımı yoluyla kazanılması, ancak mülkiyeti bu yolla elde edilebilecek taşınmazlarda mümkündür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "783",
+   "official_text": "1. Genel olarak\nMadde 783- İrtifak hakkı, tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "785",
+   "official_text": "3. Mahkeme kararı\nMadde 785- Lehine irtifak kurulan taşınmaz için bu hakkın sağladığı hiç bir yarar kalmamışsa, yüklü taşınmazın maliki bu hakkın terkinini isteyebilir.\nYüküne oranla çok az yarar sağlayan bir irtifak hakkının, bedel karşılığında kısmen veya tamamen terkini istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "837",
+   "official_text": "Madde 837- Başkasının arazisinde bulunan kaynak üzerinde irtifak hakkı, bu arazinin malikini suyun alınmasına ve akıtılmasına katlanmakla yükümlü kılar.\nBu hak, aksi kararlaştırılmış olmadıkça, başkasına devredilebilir ve mirasçıya geçer.\nKaynak hakkı, bağımsız nitelikte ve en az otuz yıl için kurulmuş ise tapu kütüğüne taşınmaz olarak kaydedilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "838",
+   "official_text": "E. Diğer irtifak hakları\nMadde 838- Malik, taşınmazı üzerinde herhangi bir kişi veya topluluk lehine atış eğitimi veya spor alanı ya da geçit olarak kullanılmak gibi belirli bir yararlanmaya hizmet etmek üzere başka irtifak hakları da kurabilir.\nBu haklar, aksi kararlaştırılmış olmadıkça, başkasına devredilemez ve mirasçılara geçmez. Bu hakların kapsamı, hak sahibinin olağan ihtiyaçlarına göre belirlenir.\nTaşınmaz lehine irtifaklara ilişkin hükümler, bu tür irtifak haklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1012",
+   "official_text": "3. Beyanlar\nMadde 1012- Bir taşınmazın eklentileri, malikin istemi üzerine kütükteki beyanlar sütununa yazılır. Bu kaydın terkini, kütükte hak sahibi görünen bütün ilgililerin rızasına bağlıdır.\nTaşınmaz mülkiyetine ilişkin kamu hukuku kısıtlamalarının beyanlar sütununa yazılması ve bu sütuna yazılabilecek diğer hususlar Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[48]\nÖzel kanun hükümleri saklıdır.\nII. Tescilin ve terkinin koşulları\n1. İstem\n[48] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/A",
+   "official_text": "MADDE 18/A- (Ek:6/12/2018-7155/23 md.)\n(1) İlgili kanunlarda arabulucuya başvurulmuş olması dava şartı olarak kabul edilmiş ise arabuluculuk sürecine aşağıdaki hükümler uygulanır.\n(2) Davacı, arabuluculuk faaliyeti sonunda anlaşmaya varılamadığına ilişkin son tutanağın aslını veya arabulucu tarafından onaylanmış bir örneğini dava dilekçesine eklemek zorundadır. Bu zorunluluğa uyulmaması hâlinde mahkemece davacıya, son tutanağın bir haftalık kesin süre içinde mahkemeye sunulması gerektiği, aksi takdirde davanın usulden reddedileceği ihtarını içeren davetiye gönderilir. İhtarın gereği yerine getirilmez ise dava dilekçesi karşı tarafa tebliğe çıkarılmaksızın davanın usulden reddine karar verilir. Arabulucuya başvurulmadan dava açıldığının anlaşılması hâlinde herhangi bir işlem yapılmaksızın davanın, dava şartı yokluğu sebebiyle usulden reddine karar verilir.\n(3) Daire Başkanlığı, sicile kayıtlı arabuluculardan bu madde uyarınca arabuluculuk yapmak isteyenleri, varsa uzmanlık alanlarını da belirterek, görev yapmak istedikleri adli yargı ilk derece mahkemesi adalet komisyonlarına göre listeler ve listeleri ilgili komisyon başkanlıklarına bildirir. Komisyon başkanlıkları, bu listeleri kendi yargı çevrelerindeki arabuluculuk bürolarına, arabuluculuk bürosu kurulmayan yerlerde ise görevlendirecekleri sulh hukuk mahkemesi yazı işleri müdürlüğüne gönderir.\n(4) Başvuru, uyuşmazlığın konusuna göre yetkili mahkemenin bulunduğu yer arabuluculuk bürosuna, arabuluculuk bürosu kurulmayan yerlerde ise görevlendirilen yazı işleri müdürlüğüne yapılır.\n(5) Arabulucu, komisyon başkanlıklarına bildirilen listeden büro tarafından belirlenir. Ancak tarafların listede yer alan herhangi bir arabulucu üzerinde anlaşmaları hâlinde bu arabulucu görevlendirilir.\n(6) Başvuran taraf, kendisine ve elinde bulunması hâlinde karşı tarafa ait her türlü iletişim bilgisini arabuluculuk bürosuna verir. Büro, tarafların resmî kayıtlarda yer alan iletişim bilgilerini araştırmaya da yetkilidir. İlgili kurum ve kuruluşlar, büro tarafından talep edilen bilgi ve belgeleri vermekle yükümlüdür.\n(7) Taraflara ait iletişim bilgileri, görevlendirilen arabulucuya büro tarafından verilir. Arabulucu bu iletişim bilgilerini esas alır, ihtiyaç duyduğunda kendiliğinden araştırma da yapabilir. Elindeki bilgiler itibarıyla her türlü iletişim vasıtasını kullanarak görevlendirme konusunda tarafları bilgilendirir ve ilk toplantıya davet eder. Bilgilendirme ve davete ilişkin işlemlerini belgeye bağlar.\n(8) Arabulucu, görevlendirmeyi yapan büronun yetkili olup olmadığını kendiliğinden dikkate alamaz. Karşı taraf en geç ilk toplantıda, yetkiye ilişkin belgeleri sunmak suretiyle arabuluculuk bürosunun yetkisine itiraz edebilir. Bu durumda arabulucu, dosyayı derhâl ilgili sulh hukuk mahkemesine gönderilmek üzere büroya teslim eder. Mahkeme, harç alınmaksızın dosya üzerinden yapacağı inceleme sonunda en geç bir hafta içinde yetkili büroyu kesin olarak karara bağlar ve dosyayı büroya iade eder. Mahkeme kararı büro tarafından 11/2/1959 tarihli ve 7201 sayılı Tebligat Kanunu hükümleri uyarınca taraflara tebliğ edilir. Yetki itirazının reddi durumunda aynı arabulucu yeniden görevlendirilir ve dokuzuncu fıkrada belirtilen süreler yeni görevlendirme tarihinden başlar. Yetki itirazının kabulü durumunda ise kararın tebliğinden itibaren bir hafta içinde yetkili büroya başvurulabilir. Bu takdirde yetkisiz büroya başvurma tarihi yetkili büroya başvurma tarihi olarak kabul edilir. Yetkili büro, beşinci fıkra uyarınca arabulucu görevlendirir.\n(9) Arabulucu, yapılan başvuruyu görevlendirildiği tarihten itibaren üç hafta içinde sonuçlandırır. Bu süre zorunlu hâllerde arabulucu tarafından en fazla bir hafta uzatılabilir.\n(10) Arabulucu; taraflara ulaşılamaması veya taraflar katılmadığı için görüşme yapılamaması ya da tarafların anlaşması yahut tarafların anlaşamaması hâllerinde arabuluculuk faaliyetini sona erdirir ve son tutanağı düzenleyerek durumu derhâl arabuluculuk bürosuna bildirir.\n(11) Taraflardan birinin geçerli bir mazeret göstermeksizin ilk toplantıya katılmaması sebebiyle arabuluculuk faaliyetinin sona ermesi durumunda toplantıya katılmayan taraf, son tutanakta belirtilir ve bu taraf davada kısmen veya tamamen haklı çıksa bile yargılama giderinin tamamından sorumlu tutulur. Ayrıca bu taraf lehine vekâlet ücretine hükmedilmez. Her iki tarafın da ilk toplantıya katılmaması sebebiyle sona eren arabuluculuk faaliyeti üzerine açılacak davalarda tarafların yaptıkları yargılama giderleri kendi üzerlerinde bırakılır.\n(12) Tarafların arabuluculuk faaliyeti sonunda anlaşmaları hâlinde, arabuluculuk ücreti, Arabuluculuk Asgari Ücret Tarifesinin eki Arabuluculuk Ücret Tarifesinin İkinci Kısmına göre aksi kararlaştırılmadıkça taraflarca eşit şekilde karşılanır. Bu durumda ücret, Tarifenin Birinci Kısmında belirlenen iki saatlik ücret tutarından az olamaz.\n(13) Arabuluculuk faaliyeti sonunda taraflara ulaşılamaması, taraflar katılmadığı için görüşme yapılamaması veya iki saatten az süren görüşmeler sonunda tarafların anlaşamamaları hâllerinde, iki saatlik ücret tutarı Tarifenin Birinci Kısmına göre Adalet Bakanlığı bütçesinden ödenir. İki saatten fazla süren görüşmeler sonunda tarafların anlaşamamaları hâlinde ise iki saati aşan kısma ilişkin ücret aksi kararlaştırılmadıkça taraflarca eşit şekilde uyuşmazlığın konusu dikkate alınarak Tarifenin Birinci Kısmına göre karşılanır. Adalet Bakanlığı bütçesinden ödenen ve taraflarca karşılanan arabuluculuk ücreti, yargılama giderlerinden sayılır.\n(14) Bu madde uyarınca arabuluculuk bürosu tarafından yapılması gereken zaruri giderler; arabuluculuk faaliyeti sonunda anlaşmaya varılması hâlinde anlaşma uyarınca taraflarca ödenmek, anlaşmaya varılamaması hâlinde ise ileride haksız çıkacak taraftan tahsil olunmak üzere Adalet Bakanlığı bütçesinden karşılanır.\n(15) Arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar geçen sürede zamanaşımı durur ve hak düşürücü süre işlemez.\n(16) Dava açılmadan önce ihtiyati tedbir kararı verilmesi hâlinde 6100 sayılı Kanunun 397 nci maddesinin birinci fıkrasında, ihtiyati haciz kararı verilmesi hâlinde ise 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 264 üncü maddesinin birinci fıkrasında düzenlenen dava açma süresi, arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar işlemez.\n(17) Arabuluculuk görüşmeleri, taraflarca aksi kararlaştırılmadıkça, arabulucuyu görevlendiren büronun bağlı bulunduğu adli yargı ilk derece mahkemesi adalet komisyonunun yetki alanı içinde yürütülür.\n(18) Özel kanunlarda tahkim veya başka bir alternatif uyuşmazlık çözüm yoluna başvurma zorunluluğunun olduğu veya tahkim sözleşmesinin bulunduğu hâllerde, dava şartı olarak arabuluculuğa ilişkin hükümler uygulanmaz.\n(19) İlgili kanunlarda dava şartı olarak arabuluculuğa ilişkin kabul edilen özel hükümler saklıdır.\n(20) Bu bölümde hüküm bulunmayan hâllerde niteliğine uygun düştüğü ölçüde bu Kanunun diğer hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "2",
+   "official_text": "Asliye hukuk mahkemelerinin görevi\nMADDE 2- (1) Dava konusunun değer ve miktarına bakılmaksızın malvarlığı haklarına ilişkin davalarla, şahıs varlığına ilişkin davalarda görevli mahkeme, aksine bir düzenleme bulunmadıkça asliye hukuk mahkemesidir.\n(2) Bu Kanunda ve diğer kanunlarda aksine düzenleme bulunmadıkça, asliye hukuk mahkemesi diğer dava ve işler bakımından da görevlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "4",
+   "official_text": "Sulh hukuk mahkemelerinin görevi\nMADDE 4- (1) Sulh hukuk mahkemeleri, dava konusunun değer veya tutarına bakılmaksızın;\na) Kiralanan taşınmazların, 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununa göre ilamsız icra yoluyla tahliyesine ilişkin hükümler ayrık olmak üzere, kira ilişkisinden doğan alacak davaları da dâhil olmak üzere tüm uyuşmazlıkları konu alan davalar ile bu davalara karşı açılan davaları,\nb) Taşınır ve taşınmaz mal veya hakkın paylaştırılmasına ve ortaklığın giderilmesine ilişkin davaları,\nc) Taşınır ve taşınmaz mallarda, sadece zilyetliğin korunmasına yönelik olan davaları,\nç) Bu Kanun ile diğer kanunların, sulh hukuk mahkemesi veya sulh hukuk hâkimini görevlendirdiği davaları,\ngörürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "115",
+   "official_text": "Dava şartlarının incelenmesi\nMADDE 115- (1) Mahkeme, dava şartlarının mevcut olup olmadığını, davanın her aşamasında kendiliğinden araştırır. Taraflar da dava şartı noksanlığını her zaman ileri sürebilirler.\n(2) Mahkeme, dava şartı noksanlığını tespit ederse davanın usulden reddine karar verir. Ancak, dava şartı noksanlığının giderilmesi mümkün ise bunun tamamlanması için kesin süre verir. Bu süre içinde dava şartı noksanlığı giderilmemişse davayı dava şartı yokluğu sebebiyle usulden reddeder.\n(3) Dava şartı noksanlığı, mahkemece, davanın esasına girilmesinden önce fark edilmemiş, taraflarca ileri sürülmemiş ve fakat hüküm anında bu noksanlık giderilmişse, başlangıçtaki dava şartı noksanlığından ötürü, dava usulden reddedilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "YERALTI SULARI HAKKINDA KANUN",
+   "law_no": "167",
+   "article_no": "1",
+   "official_text": "Yeraltı sularının mülkiyeti:\nMadde 1 – Yeraltı suları umumi sular meyanında olup Devletin hüküm ve tasarrufu altındadır.Bu suların her türlü araştırılması, kullanılması, korunması ve tescili bu kanun hükümlerine tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=167&MevzuatTur=1&MevzuatTertip=4",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "22",
+   "official_text": "Vazgeçme, iade ve devir[25]\nMadde 22 – (Değişik birinci fıkra: 24/4/2001 - 4650/13 md.) Kamulaştırmanın (…)[26] kesinleşmesinden sonra taşınmaz malların kamulaştırma amacına veya kamu yararına yönelik herhangi bir ihtiyaca tahsisi lüzumu kalmaması halinde, keyfiyet idarece mal sahibi veya mirasçılarına 7201 sayılı Tebligat Kanunu hükümlerine göre duyurulur. (Değişik ikinci ve üçüncü cümleler: 10/9/2014 - 6552/100 md.) Bu duyurma üzerine mal sahibi veya mirasçıları, kamulaştırma bedelini aldıkları günden itibaren işleyecek kanuni faiziyle birlikte üç ay içinde ödeyerek taşınmaz malı geri alabilir. İade işleminin kamulaştırmanın ve bedelinin kesinleşmesinden sonra bir yıl içinde gerçekleşmesi hâlinde kamulaştırma bedelinin faizi alınmaz. (Mülga dördüncü cümle: 10/9/2014-6552/100 md.)\n(Ek fıkra: 10/9/2014-6552/100 md.) Bu madde hükümlerine göre taşınmaz malı geri almayı kabul etmeyen mal sahibi veya mirasçılarının 23 üncü maddeye göre geri alma hakları da düşer.\n(Ek fıkra: 10/9/2014-6552/100 md.) Bu madde hükümleri, kamulaştırmanın kesinleşmesi tarihinden itibaren beş yıl geçmiş olması hâlinde uygulanmaz.\nAncak, kamulaştırılan taşınmaz mala kamulaştırmayı yapan idare dışında başka bir idare, kamulaştırma yoluyla gerçekleştirebileceği bir kamu hizmeti amacıyla istekli olduğu takdirde, yukarıdaki fıkra hükmü uygulanmayarak bu Kanunun 30 uncu veya 1050 sayılı Muhasebei Umumiye Kanununun 23 üncü maddesine göre işlem yapılır.\n[25] Bu madde başlığı “Tarafların anlaşmasıyla vazgeçme ve devir” iken, 12/7/2013 tarihli ve 6495 sayılı Kanunun 26 ncı maddesiyle metne işlendiği şekilde değiştirilmiştir.\n[26] 10/9/2014 tarihli ve 6552 sayılı Kanunun 100 üncü maddesiyle bu fıkrada yer alan; “ve bedelinin” ibaresi metinden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2023/272",
+   "karar_no": "2024/240",
+   "decision_date": "15.05.2024",
+   "summary_md": "Sivas'ta bir parselin maliki, genel yola ulaşmak için Hazineye ait komşu parsel üzerinden bedel karşılığı geçit istemiştir. Hazine, parselin köye ağaçlandırma için tahsis edildiğini, üzerindeki fiilî yolun üçüncü kişinin haksız işgaliyle açıldığını ve TMK m. 747/2'nin şartlarının bulunmadığını savunmuştur. Asliye hukuk mahkemesi davayı kabul etmiş, kapatılan 14. Hukuk Dairesi güzergâh davalı parseli üçe böldüğü ve geçidin kütükte özel sütuna tescili hükme bağlanmadığı için bozmuştur. Mahkeme bozmaya uyup yeniden keşif yapmış, yine bölen güzergâhı seçmiş (eğimi farklı kısımların ekonomik bütünlük oluşturmadığı gerekçesiyle); 7. Hukuk Dairesi bozma gereği yapılmadığı için yeniden bozunca mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Gerekçede Dairenin şu ilkeleri benimsenmiştir: mutlak ve nispi ihtiyaç ayrımı, ihtiyacın objektif ölçülerle belirlenmesi, yüklü taşınmazın bölünmemesi ve genel yola kesintisiz bağlantı, bedelin bilirkişiyle belirlenip hükümden önce depo ettirilmesi, geçidin TMK m. 748/3, TMK m. 1012 ve Tapu Sicili Tüzüğü'nün 30. maddesi uyarınca özel sütuna tescili, tarım alanında emsaline göre 2,5-3 metre genişlik (Yargıtay ölçüsü, kanun kuralı değil). Seçenekler arasında davacı için en kısa ve en ucuz olan değil, yüklü taşınmaz bakımından objektif olarak en az külfet doğuran seçilmelidir; fiilî yolun varlığı ve bölünen kısmın tarla olarak kullanılması üçüncü kişilerin işgaline dayandığından yeterli değildir, taşınmazın gelecekteki kullanımı da gözetilmelidir. Karşı oy, mahkemenin bozmaya uygun inceleme yaptığını, eğim ve fiilî kullanıma göre en makul yolu belirlediğini savunmuştur. Konuya katkısı: güzergâhın, lehine geçit kurulanın ihtiyacı kadar yüklü taşınmazın külfetine göre de belirlendiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1039017400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2025/1845",
+   "karar_no": "2025/2765",
+   "decision_date": "22.05.2025",
+   "summary_md": "İki parselin malikleri köy yoluna ulaşamadıklarını ileri sürerek 21 Aralık 2023'te geçit davası açmış, arabuluculuğa dava açıldıktan sonra başvurmuşlardır. İlk derece mahkemesi, zorunlu geçit istemi TMK'nın \"komşu hakkı\" başlığı altındaki m. 747'de düzenlendiğinden HUAK m. 18/B/1-ç uyarınca davayı usulden reddetmiş; bölge adliye mahkemesi istinaf başvurusunu esastan reddetmiştir. Yargıtay 7. Hukuk Dairesi, komşu hakkına ilişkin zorunlu arabuluculuğun HMK m. 115/2 bakımından sonradan tamamlanabilecek bir dava şartı olmadığını, tamamlama için süre verilmeyeceğini belirtmiş; esasa girildiği ve eksikliğin hüküm anında giderildiği yönündeki temyiz sebeplerini reddederek oy birliğiyle onamıştır. Konuya katkısı: zorunlu geçit davasının \"komşu hakkından kaynaklanan uyuşmazlık\" olduğunu ve arabulucuya önceden başvurmadan açılan davanın usulden reddedileceğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1169456500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/215",
+   "karar_no": "2025/749",
+   "decision_date": "26.11.2025",
+   "summary_md": "İstanbul'da iki parsel üzerinde 1968'de TCDD lehine enerji nakil hattı için kamulaştırma yoluyla irtifak kurulmuş, hat 2012'de yer altına alınıp söküldükten sonra malikler 24 Aralık 2018'de bedelsiz terkin istemiştir. İdare ihtiyacın kalmadığını kabul etmiş, ancak terkinin rıza ve bedele bağlı olduğunu savunmuştur. İlk derece mahkemesi bedelsiz terkine karar vermiş, bölge adliye mahkemesi istinafı reddetmiş; Yargıtay 5. Hukuk Dairesi, 2942 sayılı Kanun m. 22'ye 6552 sayılı Kanunla eklenen beş yıllık sınır geçtiği ve taraflar anlaşamadığı için bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu TMK m. 785'in iki fıkrasını açıklamış (yarar tamamen kalkarsa terkin, çok az yarar varsa bedelle terkin, yükün artması tek başına terkin sebebi değil); ancak irtifak kamulaştırmayla kurulduğundan bu hükmün uygulanmayacağını, dava 11 Eylül 2014'ten sonra açıldığı ve beş yıl geçtiği için reddedilmesi gerektiğini belirterek direnme kararını oy çokluğuyla bozmuştur. Karşı oy, hat irtifakının TMK m. 838 kapsamında bir \"diğer irtifak\" olduğunu, Kamulaştırma Kanunu'nda terkin hükmü bulunmadığından TMK m. 783, TMK m. 785 ve TMK m. 838/3'e göre terkin edilebileceğini savunmuştur. Konuya katkısı: kamulaştırmayla kurulan mecra irtifakının terkininin TMK m. 785'e göre değil kamulaştırma mevzuatına göre çözüldüğünü gösterir; TMK m. 744/2'nin mantığıyla uyumludur (Genel Kurul bu hükmü adıyla anmamıştır).",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1226404400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 738/1'e göre malik, kazı ve yapı yaparken komşu taşınmazlara karşı hangi yükümlülük altındadır?",
+   "options": [
+    "Kazı ve yapının ayrıntılarını tapu kütüğünün beyanlar sütununa yazdırmak",
+    "Kazıya başlamadan önce bütün komşulardan yazılı onay almak",
+    "Komşu taşınmazların topraklarını sarsmak veya tehlikeye düşürmek ya da üzerlerindeki tesisleri etkilemek suretiyle zarar vermekten kaçınmak",
+    "Yapıyı komşu sınırından en az üç metre geri çekmek"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 738/1, malikin kazı ve yapı yaparken komşunun toprağını sarsmak, tehlikeye düşürmek ya da tesislerini etkilemek suretiyle zarar vermekten kaçınmasını öngörür. Komşu onayı, beyan kaydı veya sabit bir geri çekme mesafesi bu hükümde yoktur; ayrıntılı kurallar özel kanunlara bırakılmıştır (TMK m. 739)."
+  },
+  {
+   "stem_md": "Zeynep'in bahçesindeki ceviz ağacının dalları komşusu Mehmet'in arazisine taşmış ve Mehmet'in serasının camlarına zarar vermektedir. Mehmet, Zeynep'e hiçbir bildirimde bulunmadan dalları kesmek istemektedir. TMK m. 740/1'e göre hangisi doğrudur?",
+   "options": [
+    "Zarar verdiği için Mehmet dalları derhâl kesebilir; kesilen dalları Zeynep'e iade etmek zorundadır.",
+    "Mehmet önce Zeynep'ten dalların kaldırılmasını istemelidir; uygun süre içinde kaldırılmazsa dalları kesip kendi mülkiyetine geçirebilir.",
+    "Mehmet dalları kesebilir, ancak kesilen dallar Zeynep'in mülkiyetinde kalır.",
+    "Mehmet dalları ancak mahkemeden kesme izni aldıktan sonra kesebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 740/1'e göre komşunun arazisine taşarak zarar veren dal ve kökler, komşunun istemi üzerine uygun bir süre içinde kaldırılmazsa komşu bunları kesip kendi mülkiyetine geçirebilir. Önce istem ve uygun süre gerekir; mahkeme izni aranmaz, kesilen dallar da kesenin mülkiyetine geçer. Yaygın yanılgı, zarar vermeyi hemen kesme hakkı sanmaktır."
+  },
+  {
+   "stem_md": "Ali'nin tarlasına komşu ormandaki ağaçların dalları taşmakta ve ekinlere zarar vermektedir. Ali, TMK m. 740'a dayanarak komşu ormanın yönetimine bildirimde bulunup uygun süre verdikten sonra dalları kesip mülkiyetine geçirmek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "TMK m. 740'taki hükümler komşu ormanlar hakkında uygulanmaz; Ali bu hükme dayanarak dalları kesip mülkiyetine geçiremez.",
+    "Ali, orman söz konusu olduğunda süre vermeksizin dalları derhâl kesebilir.",
+    "Ali istem ve uygun süre şartını yerine getirdiği için dalları kesebilir, ancak kesilen dallar ormanın malikinin mülkiyetinde kalır.",
+    "Orman da komşu taşınmaz olduğundan Ali, istem ve uygun süre şartıyla dalları kesip mülkiyetine geçirebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 740/3, dal ve kök hükümlerinin komşu ormanlar hakkında uygulanmayacağını söyler. Bu yüzden Ali, TMK m. 740/1'e dayanarak kesme ve mülkiyete geçirme hakkı kazanmaz. Yaygın yanılgı, orman istisnasını \"süre şartı kalkar\" diye anlamaktır; istisna hükmün kendisini uygulama dışı bırakır."
+  },
+  {
+   "stem_md": "Üst parseldeki Kemal, yağmur sularını setle tamamen tutmuş, alttaki komşusu Selim'in bahçesi susuz kalmıştır. TMK m. 742'ye göre Kemal'in suyu tutma yetkisinin sınırı hangisidir?",
+   "options": [
+    "Alttaki Selim'e tazminat öderse dilediği kadar tutabilir.",
+    "Yağmur suyu kimsenin malı olmadığından tutmanın bir sınırı yoktur.",
+    "Hiçbir miktarda su tutamaz; akış her koşulda aynen sürmelidir.",
+    "Suyu ancak kendi taşınmazı için zorunlu olduğu ölçüde tutabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 742/3'e göre üstteki arazi maliki, alt taraftaki taşınmaza gerekli olan suyu ancak kendi taşınmazı için zorunlu olduğu ölçüde tutabilir. Hiç tutamaz demek de, sınırsız tutabilir demek de metne aykırıdır. Tazminat karşılığı sınır aşma imkânı kanunda yoktur. Akışı komşunun zararına değiştirmek ayrıca yasaktır (TMK m. 742/2)."
+  },
+  {
+   "stem_md": "Zeynep göletini boşaltmıştır. Su, öteden beri Zeynep'in arazisinden Mehmet'in arazisine doğal olarak akmakta ve Mehmet'in fidelerine zarar vermektedir. TMK m. 743'e göre Mehmet'in durumu nedir?",
+   "options": [
+    "Sulara katlanır ve mecra da isteyemez; çünkü akış doğaldır.",
+    "Boşaltılan sulara tazminat isteme hakkı olmaksızın katlanmak zorundadır, ancak zarar görüyorsa gideri Zeynep'e ait olmak üzere kendi arazisinde bir mecra yapılmasını isteyebilir.",
+    "Zararın tamamı için Zeynep'ten tazminat isteyebilir; suların akışına katlanmak zorunda değildir.",
+    "Mecra isteyebilir, ancak mecranın giderini kendisi üstlenmek zorundadır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 743/1, suyu öteden beri alttaki araziye doğal olarak akan arazide alttaki malikin fazla suyun boşaltılması sırasında da bu sulara tazminat isteme hakkı olmaksızın katlanacağını söyler. Boşaltmadan zarar görüyorsa gideri üstteki arazi malikine ait olmak üzere kendi arazisinde mecra yapılmasını isteyebilir (TMK m. 743/2). Yaygın yanılgı, tazminatsız katlanmayı zararın tamamen yok sayılması sanmaktır."
+  },
+  {
+   "stem_md": "TMK m. 744/1'e göre taşınmaz maliki, arazisinin altından veya üstünden mecra geçirilmesine hangi şartlarla katlanmak zorundadır?",
+   "options": [
+    "Başka yerden geçirilmesinin olanaksız veya aşırı ölçüde masraflı olması ve uğrayacağı zararın tamamının önceden ödenmesi",
+    "Mecranın yararının yükümlü malikin zararından fazla olması ve zararın yarısının önceden ödenmesi",
+    "Mecra hakkı sahibinin kamu kurumu olması ve zararın dava sonunda hükümle ödenmesi",
+    "Mecranın tapuya önceden tescil edilmiş olması ve komşunun rızası"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 744/1 iki şartı birlikte arar: mecranın başka yerden geçirilmesi olanaksız veya aşırı ölçüde masraflı olmalı; yükümlü malik de zararın tamamının önceden ödenmesi koşuluyla katlanır. Tescil mecra hakkı sahibinin istemi üzerine yapılır (TMK m. 744/3), katlanmanın şartı değildir. Zararın yarısı veya dava sonunda ödenmesi gibi seçenekler metinde yoktur."
+  },
+  {
+   "stem_md": "Bir kamu kuruluşu, enerji nakil hattını Selin'in arazisinden kamulaştırma yoluyla irtifak kurarak geçirecektir. Selin, TMK'nın mecra geçirilmesine ilişkin komşuluk hükümlerine (örneğin zararın önceden ödenmesi) dayanmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Komşuluk hükümleri yalnızca kamulaştırma bedelinin düşük kaldığı hâllerde ek olarak uygulanır.",
+    "Kamulaştırmaya bağlı mecralarda komşuluk hükümleri uygulanır; yalnız tescil kuralı uygulanmaz.",
+    "Mecra geçirilmesi kamulaştırma kurallarına bağlı olduğundan TMK'nın mecralara ilişkin komşuluk hükümleri uygulanmaz.",
+    "Komşuluk hükümleri kamulaştırmada da aynen uygulanır; Selin zararının önceden ödenmesini bu hükümlere dayanarak isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 744/2 açıktır: mecra geçirilmesi kamulaştırma kurallarına bağlı olduğu hâlde bu Kanunun mecralara ilişkin komşuluk hükümleri uygulanmaz. Selin'in hakları kamulaştırma mevzuatına göre belirlenir. Komşuluk hükümlerinin kısmen veya ek olarak uygulandığı yönündeki seçenekler metinde dayanak bulmaz."
+  },
+  {
+   "stem_md": "Ahmet'in Selin'in arazisinin üzerinden geçen boruları arazide bir şeridi kullanılamaz hâle getirmiş ve olağanüstü bir durum doğurmuştur. TMK m. 745/2'ye göre hangisi doğrudur?",
+   "options": [
+    "Hem Ahmet hem Selin satın almayı eşit olarak isteyebilir.",
+    "Selin, mecranın geçtiği arazi parçasının uygun bir kısmının, zararını tam olarak karşılayacak bedelle satın alınmasını isteyebilir.",
+    "Ahmet, Selin'i o parçayı kendisine satmaya zorlayabilir.",
+    "Selin yalnız boruların kaldırılmasını isteyebilir; satın alma isteme hakkı kanunda yoktur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 745/2'ye göre olağanüstü durumlar varsa yükümlü malik, mecraların geçirileceği arazi parçasının uygun bir kısmının zararını tam olarak karşılayacak bedelle satın alınmasını isteyebilir. Satın alma istemi yükümlü malike aittir; mecra hakkı sahibinin malikin parçasını satın almaya zorlama hakkı yoktur."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TMK m. 747/1'e uygundur?",
+   "options": [
+    "Geçit, komşuluk hukukunun gereği olduğundan bedelsiz istenebilir.",
+    "Zorunlu geçit yalnız kamuya ait komşu taşınmazlara karşı istenebilir.",
+    "Taşınmazından genel yola çıkmak için yeterli geçidi bulunmayan malik, tam bir bedel karşılığında bir geçit hakkı tanınmasını komşularından isteyebilir.",
+    "Zorunlu geçit yalnız taşınmazın genel yola hiç bağlantısı bulunmadığında istenebilir; var olan ama yetersiz geçit bu hükmün dışındadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 747/1, genel yola çıkmak için yeterli geçidi bulunmayan malike tam bedel karşılığında geçit isteme hakkı verir. Hükümdeki ölçüt \"yeterli geçit\"tir; Yargıtay bu çerçevede mutlak (geçit yoksunluğu) ve nispi (geçit yetersizliği) ihtiyacı ayırır. Geçit bedelsiz değildir ve yalnız kamuya ait taşınmazlara karşı istenmez."
+  },
+  {
+   "stem_md": "Ali'nin tarlası eskiden kardeşi Ayşe'yle ortak olan arazinin paylaşımıyla ayrılmış, yola bakan kısım Ayşe'ye kalmıştır. Tarla her yönden komşu parsellerle çevrilidir. Ali, \"en kısa yol\" gerekçesiyle Mehmet'in parselinden geçit istemek istemektedir. TMK m. 747/2'ye göre hangisi doğrudur?",
+   "options": [
+    "İstem önce, önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya (burada Ayşe'ye), sonra bundan en az zarar görecek olana karşı kullanılır.",
+    "Ali istediği komşuyu serbestçe seçebilir; en kısa yol tek ölçüttür.",
+    "Ali bütün komşulardan aynı anda geçit isteyip bedeli aralarında paylaştırmak zorundadır.",
+    "Ali önce geçidi en az zarar görecek komşudan istemelidir; bu mümkün değilse önceki mülkiyet ve yol durumuna uygun komşudan."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 747/2 sırayı belirler: hak ilk önce, kendisinden bu geçidin istenmesi önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya, daha sonra bundan en az zarar görecek olana karşı kullanılır. Olayda yola bakan kısım Ayşe'ye kaldığından önce Ayşe düşünülür. \"En kısa yol\" tek başına belirleyici değildir; geçit iki tarafın menfaati gözetilerek belirlenir (TMK m. 747/3). Sıranın tersine çevrilmesi metne aykırıdır."
+  },
+  {
+   "stem_md": "TMK m. 748/3'e göre doğrudan doğruya kanundan kaynaklanan geçit hakları hakkında hangisi doğrudur?",
+   "options": [
+    "Tescil edilmeksizin doğar; bunlardan geçici nitelikte olanlar beyanlar sütununda gösterilir.",
+    "Tapu kütüğüne tescille doğar; tescilsiz hiçbir sonuç doğurmaz.",
+    "Tapu kütüğüne tescil edilmeksizin doğar; ancak bunlardan sürekli nitelikte olanlar beyanlar sütununda gösterilir.",
+    "Noterce düzenlenen sözleşmeyle doğar ve kütüğe şerh verilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 748/3: doğrudan doğruya kanundan kaynaklanan geçit hakları tapu kütüğüne tescil edilmeksizin doğar; bunlardan sürekli nitelikte olanlar beyanlar sütununda gösterilir. Beyana yazılan geçici değil, sürekli olanlardır. Hükmün konusu yalnız doğrudan kanundan doğan geçitlerdir."
+  },
+  {
+   "stem_md": "Köylü Hasan, hayvanlarını sulamak için yıllardır komşusu Osman'ın tarlasının kenarındaki patikayı kullanmaktadır. Osman bu kullanımı yasaklamıştır. Hasan'ın bu hayvan sulama yolu bakımından hangi hükme bakılmalıdır?",
+   "options": [
+    "Yalnız yerel âdete; özel kanun hükümleri bu yollara uygulanmaz.",
+    "Yalnız TMK m. 747'ye; Hasan tam bedelle zorunlu geçit isteyebilir.",
+    "Yıllardır kullandığı için kendiliğinden irtifak hakkı doğmuştur; tescil gerekmez.",
+    "TMK m. 748/1-2'ye göre özel kanun hükümlerine; özel kanun hükmü yoksa yerel âdete."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 748/1, tarla yolu, hayvan sulama yolu, kış geçidi gibi geçitleri özel kanun hükümlerine bırakır; özel kanun hükmü yoksa yerel âdet uygulanır (TMK m. 748/2). Bu yollar TMK m. 747'nin tam bedelli zorunlu geçidi değildir. İrtifakın kurulması için ayrıca tapu kütüğüne tescil şarttır (TMK m. 780/1); yıllarca kullanmak tek başına irtifak doğurmaz."
+  },
+  {
+   "stem_md": "Bir köyde 30 arazi maliki vardır. Bunlardan 20'si arazileri toplulaştırma kararı almıştır; ancak bu 20 malik toplam arazinin yalnız %40'ına sahiptir. TMK m. 755'e göre hangisi doğrudur?",
+   "options": [
+    "Bu tür iyileştirme kararları yalnız bütün maliklerin oybirliğiyle alınabilir.",
+    "Karar, beyanlar sütununa yazılırsa diğer malikleri bağlar.",
+    "Karar diğer malikleri bağlar; çünkü maliklerin üçte ikisi karar vermiştir.",
+    "Karar diğer malikleri bağlamaz; çünkü kararı verenler arazinin yarısından fazlasına sahip değildir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 755/1, ortak girişimle yapılabilecek iyileştirme işlerinde arazinin yarısından fazlasına sahip bulunmak koşuluyla maliklerin üçte ikisinin karar vermesini arar. Burada malik sayısı (20/30) yeterlidir ama kararı verenler arazinin yalnız %40'ına sahip olduğundan koşul gerçekleşmemiştir. Beyan kaydı bağlayıcılığı sağlamaz; kararın alınmış olması gerekir. Oybirliği de aranmaz."
+  },
+  {
+   "stem_md": "Murat, Hasan'ın arazisindeki kaynaktan su almak için Hasan'la adi yazılı bir anlaşma yapmış, ancak tescil yapılmamıştır. TMK m. 756'ya göre hukuki durum nedir?",
+   "options": [
+    "Murat kaynağın mülkiyetini araziden ayrı olarak kazanmıştır.",
+    "Anlaşma tescil edilmese de tescil edilmiş gibi bütün üçüncü kişilere karşı ileri sürülebilir.",
+    "Başkasının arazisinde bulunan kaynak üzerindeki hak irtifak olarak tapu kütüğüne tescille kurulur; tescil olmadığından Murat lehine irtifak hakkı doğmamıştır.",
+    "Adi yazılı anlaşmayla irtifak kurulmuştur; tescil yalnız açıklayıcıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 756/2'ye göre başkasının arazisindeki kaynak üzerindeki hak, bir irtifak olarak tapu kütüğüne tescille kurulur. Tescil yapılmadığından irtifak doğmamıştır. Kaynağın mülkiyeti ancak kaynadığı arazinin mülkiyetiyle birlikte kazanılabileceği için (TMK m. 756/1) Murat araziden bağımsız olarak kaynağın maliki de olamaz."
+  },
+  {
+   "stem_md": "Emre, arazisinde sondaj yaparak yeraltı suyu çıkarmış ve \"arazimin maliki olduğum için altındaki suyun da maliki olurum\" demektedir. TMK m. 756'ya göre hangisi doğrudur?",
+   "options": [
+    "Yeraltı suları kamu yararına ait sulardandır; arza malik olmak, altındaki yeraltı sularına da malik olmak sonucunu doğurmaz.",
+    "Emre arazisinin altındaki yeraltı sularının mülkiyetini arazisiyle birlikte kazanır.",
+    "Yeraltı suları ancak tescille özel mülkiyete geçer.",
+    "Yeraltı suları da kaynak gibi arazinin bütünleyici parçasıdır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 756/3: yeraltı suları kamu yararına ait sulardandır ve arza malik olmak, altındaki yeraltı sularına da malik olmak sonucunu doğurmaz. 167 sayılı Kanun m. 1 de yeraltı sularının umumi sular meyanında olup Devletin hüküm ve tasarrufu altında bulunduğunu söyler. Bütünleyici parça kuralı kaynaklar içindir (TMK m. 756/1)."
+  },
+  {
+   "stem_md": "Hasan'ın evinin içme suyunu sağlayan, önemli ölçüde yararlanılan kaynağını komşu X İnşaat'ın temel kazısı kısmen kesmiştir. Bilirkişi, X'in kazıyı kasten yapmadığını ve ihmali bulunmadığını belirtmiştir. TMK m. 757'ye göre hangisi doğrudur?",
+   "options": [
+    "X, kast ve ihmal bulunmadığı için hiçbir koşulda sorumlu tutulamaz.",
+    "X her hâlde zararın tamamını ödemekle yükümlüdür; hâkimin takdir yetkisi yoktur.",
+    "Hasan yalnız kaynağın eski hâle getirilmesini isteyebilir; tazminat isteyemez.",
+    "Zarar kasten veya ihmal yoluyla verilmemişse hâkim, tazminatın gerekip gerekmediğini, gerekiyorsa miktar ve türünü takdir eder."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 757/1 kaynağı kazı veya yapı yüzünden kısmen olsun keserek ya da kirleterek zarar veren kimseyi zararı gidermekle yükümlü kılar. Zarar kasten veya ihmal yoluyla verilmemişse hâkim tazminatın gerekip gerekmediğini, gerekiyorsa miktar ve türünü takdir eder (TMK m. 757/2). Sorumluluğun tümüyle ortadan kalktığı ya da hâkimin takdirinin bulunmadığı yönündeki seçenekler metne uymaz. Eski duruma getirme ayrıca TMK m. 758 kapsamındadır."
+  },
+  {
+   "stem_md": "TMK m. 758'e göre kesilen veya kirletilen kaynağın olabildiği ölçüde eski duruma getirilmesi, hangi kaynak bakımından doğrudan istenebilir?",
+   "options": [
+    "Bir taşınmazda oturmak, onu işletmek veya bir yerin içme ya da kullanma suyunu sağlamak için gerekli olan kaynak bakımından",
+    "Yalnız kamuya ait kaynaklar bakımından",
+    "Yalnız tescille irtifak konusu yapılmış kaynak bakımından",
+    "Önemli ölçüde yararlanılıp yararlanılmadığına bakılmaksızın her kaynak bakımından"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 758/1 oturma, işletme ya da içme veya kullanma suyunu sağlama için gerekli kaynaklar kesilir ve kirletilirse kaynağın olabildiği ölçüde eski duruma getirilmesinin istenebileceğini söyler. Bunlar dışında eski duruma getirme ancak özel hâller haklı gösterirse istenebilir (TMK m. 758/2); yani her kaynak için doğrudan istenmez."
+  },
+  {
+   "stem_md": "Can ve Deniz'in komşu çeşmeleri aynı ortak ana kaynaktan beslenmektedir ve su azalınca anlaşmazlık çıkmıştır. TMK m. 759'a göre hangisi doğrudur?",
+   "options": [
+    "Su, malikler arasında eşit paylarla bölüştürülür; masraflar da eşit karşılanır.",
+    "Ana kaynak, ilk tescil edilen çeşmenin sahibine aittir.",
+    "Yalnız arazisi daha büyük olan malik su isteyebilir.",
+    "Maliklerden her biri kaynakların birlikte tutulmasını ve suyun hak sahiplerine o zamana kadarki yararlanmaları oranında dağıtılmasını isteyebilir; ortak tesis masrafları da yararlanma oranında üstlenilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 759/1'e göre ortak ana kaynaktan beslenen komşu kaynakların maliklerinden her biri, kaynakların birlikte tutulmasını ve suyun o zamana kadarki yararlanmaları oranında dağıtılmasını isteyebilir. Ortak tesis masrafları da yararlanma oranında üstlenilir (TMK m. 759/2). Eşit bölüşme, arazi büyüklüğü ya da tescil sırası ölçütü metinde yoktur."
+  },
+  {
+   "stem_md": "Fatma, evi için gerekli suyu başka yoldan aşırı zahmet ve gidere katlanmaksızın sağlayamamaktadır. Komşusu Hasan'ın kaynağında Hasan'ın ihtiyacından fazla su vardır. Fatma ne isteyebilir?",
+   "options": [
+    "Komşuluk hükümleri gereği bedelsiz ve süresiz su kullanma hakkını",
+    "Hasan'ın kendi ihtiyacı için gerekli suyun da bedelsiz paylaşılmasını",
+    "Hasan'ın kaynağının mülkiyetinin tam bedelle kendisine devrini",
+    "Hasan'ın ihtiyacından fazla olan suyu tam bedel karşılığında almasını sağlayacak bir irtifak (zorunlu su irtifakı) kurulmasını; kurulurken öncelikle kaynak sahibinin menfaati gözetilir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 761/1, gerekli sudan yoksun olan ve bunu aşırı zahmet ve gidere katlanmadan başka yoldan sağlayamayan malike, komşusunun ihtiyacından fazla olan suyu tam bedel karşılığında almasını sağlayacak bir irtifak kurulmasını isteme hakkı verir. Öncelikle kaynak sahibinin menfaati gözetilir (TMK m. 761/2). Kaynağın mülkiyetinin devri, bedelsiz kullanım veya komşunun kendi ihtiyacı olan suya el koyma hükümde yer almaz."
+  },
+  {
+   "stem_md": "Ali ve Burak'ın tarlaları genel yola çıkış bakımından yetersizdir. 2025'te arabulucuya başvurmadan komşu Cem aleyhine asliye hukuk mahkemesinde zorunlu geçit davası açmışlar; dava sürerken arabulucuya başvurmak için mahkemeden süre istemektedirler. Mahkeme ne yapar?",
+   "options": [
+    "Arabuluculuk dava şartı olmadığı için esasa girer.",
+    "HMK m. 115/2 gereği kesin süre verir; süre içinde son tutanak sunulursa davaya devam eder.",
+    "Davayı görevsizlik nedeniyle sulh hukuk mahkemesine gönderir.",
+    "Arabulucuya başvurulmadan dava açıldığı için dava şartı yokluğu sebebiyle usulden reddeder."
+   ],
+   "correct_option": 3,
+   "explanation_md": "HUAK m. 18/B/1-ç, komşu hakkından kaynaklanan uyuşmazlıklarda dava açılmadan önce arabulucuya başvurulmasını dava şartı sayar; başvurulmadan dava açıldığı anlaşılırsa dava usulden reddedilir (HUAK m. 18/A/2). Yargıtay 7. Hukuk Dairesi zorunlu geçit davasını bu kapsamda sayar ve komşu hakkına ilişkin zorunlu arabuluculuğun HMK m. 115/2 anlamında sonradan tamamlanabilecek bir dava şartı olmadığını, süre verilmeyeceğini kabul eder. Görevli mahkeme de zaten asliye hukuktur (HMK m. 2)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Sakarya'da Ali'nin tarlası dört yandan komşu parsellerle çevrilidir ve genel yola çıkış için kullanabileceği bir geçidi yoktur. Tarla eskiden Ali ile kız kardeşi Ayşe'nin ortak arazisinin parçasıydı. Ortak arazi paylaşılırken yola bakan kısım Ayşe'ye, içerideki kısım Ali'ye verilmiştir. Genel yol ile Ali'nin tarlası arasında Ayşe'nin parseli ve Mehmet'in bahçesi bulunmaktadır. Mehmet'in bahçesinden geçen güzergâh genel yola en kısa ulaşımı sağlamaktadır.\n\nAli, 2025 yılında, önce arabulucuya başvurmadan, \"en kısa ve en ucuz yol Mehmet'in bahçesinden geçiyor\" diyerek Mehmet aleyhine asliye hukuk mahkemesinde tam bedel karşılığı geçit hakkı tanınması için dava açar. Mehmet cevap dilekçesinde, önce Ayşe'ye başvurulması gerektiğini, ayrıca Ali'nin arabulucuya başvurmadığını ileri sürer. Ali, mahkemeden arabulucuya başvurup son tutanağı sunmak için süre verilmesini ister.\n\n1. Ali'nin dayanabileceği hüküm nedir ve şartları nelerdir?\n2. Geçit isteminin hangi komşuya yöneltileceği bakımından Mehmet'in itirazını değerlendiriniz. \"En kısa yol\" gerekçesi yeterli midir?\n3. Arabulucuya başvurulmamış olması davanın akıbetini nasıl etkiler? Ali, dava sürerken eksikliği giderebilir mi?\n4. Davada görevli mahkeme hangisidir?",
+   "rubric": [
+    {
+     "point": "Zorunlu geçidin şartları: genel yola yeterli geçit bulunmaması ve tam bedel; Ali'nin bu hükme dayanabilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 747"
+    },
+    {
+     "point": "İstemin önce önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya (Ayşe), sonra en az zarar görecek olana yöneltilmesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 747"
+    },
+    {
+     "point": "Geçidin iki tarafın menfaati gözetilerek belirlenmesi; en kısa yolun tek başına belirleyici olmaması",
+     "weight": 10,
+     "madde_ref": "TMK m. 747"
+    },
+    {
+     "point": "Zorunlu geçit davasının komşu hakkından kaynaklanan uyuşmazlık olması ve arabulucuya başvurmanın dava şartı olması",
+     "weight": 15,
+     "madde_ref": "HUAK m. 18/B"
+    },
+    {
+     "point": "Arabulucuya başvurulmadan açılan davanın usulden reddedilmesi; dava açıldıktan sonra başvurunun eksikliği gidermemesi ve süre verilmemesi",
+     "weight": 20,
+     "madde_ref": "HUAK m. 18/A"
+    },
+    {
+     "point": "Görevli mahkemenin asliye hukuk mahkemesi olması",
+     "weight": 10,
+     "madde_ref": "HMK m. 2"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali, taşınmazından genel yola çıkış için yeterli geçidi olmayan bir maliktir ve komşu taşınmaz üzerinden bedel karşılığı geçit istemektedir. Olay, zorunlu geçit (TMK m. 747) ile bu davanın usul şartı olan arabuluculuğu birleştirir.\n\n**Hukuki sorunlar:** (1) Zorunlu geçidin şartları, (2) geçit isteminin hangi komşuya yöneltileceği, (3) arabulucuya başvurulmamasının sonucu, (4) görevli mahkeme.\n\n**İlgili hükümler:** TMK m. 747/1-3; HUAK m. 18/B/1-ç ve HUAK m. 18/A/2; HMK m. 2, HMK m. 4 ve HMK m. 115/2.\n\n**Değerlendirme:**\n\n*1. Zorunlu geçit:* TMK m. 747/1'e göre taşınmazından genel yola çıkmak için yeterli geçidi bulunmayan malik, tam bir bedel karşılığında bir geçit hakkı tanınmasını komşularından isteyebilir. Ali'nin tarlasının dört yandan çevrili olması ve kullanabileceği bir geçidinin bulunmaması, hükmün aradığı durumdur. Karşılığında tam bedel ödemesi gerekir. Yargıtay uygulamasında bedel bilirkişiyle belirlenir ve hükümden önce depo ettirilir; bu, kanun metninde yazılı bir kural değildir.\n\n*2. Kime karşı?* TMK m. 747/2'ye göre hak, ilk önce, kendisinden bu geçidin istenmesi önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya, daha sonra bundan en az zarar görecek olana karşı kullanılır. Ali'nin tarlası eskiden Ayşe'yle ortak arazinin parçası olup yola bakan kısım paylaşmada Ayşe'ye kalmıştır; önceki mülkiyet ve yol durumu bakımından önce Ayşe'nin parseli düşünülmelidir. Ali'nin yalnız \"en kısa ve en ucuz\" olduğu gerekçesiyle Mehmet'i seçmesi kanundaki sıraya uygun değildir. Ayrıca zorunlu geçit iki tarafın menfaati gözetilerek belirlenir (TMK m. 747/3); Yargıtay Hukuk Genel Kurulu da davacı için en kısa ve en ucuz olanı değil, yüklü taşınmaz bakımından objektif olarak en az külfet doğuran seçeneği arar. Bu bakımdan Mehmet'in itirazı kanundaki sıralamaya dayanır. Ancak dava aşağıdaki usul engeline takılacağı için esas incelemeye gelmeyecektir.\n\n*3. Arabuluculuk:* HUAK m. 18/B/1-ç, komşu hakkından kaynaklanan uyuşmazlıklarda dava açılmadan önce arabulucuya başvurulmuş olmasını dava şartı sayar. Yargıtay 7. Hukuk Dairesi zorunlu geçit davasını bu kapsamda değerlendirir. Ali 2025'te dava açtığı için, 1/9/2023'ten önce açılmış davalara ilişkin geçiş hükmü de söz konusu değildir. Arabulucuya başvurulmadan dava açıldığının anlaşılması hâlinde herhangi bir işlem yapılmaksızın dava, dava şartı yokluğu sebebiyle usulden reddedilir (HUAK m. 18/A/2). Yargıtay, komşu hakkına ilişkin zorunlu arabuluculuğun HMK m. 115/2 bakımından sonradan tamamlanabilecek bir dava şartı olmadığını kabul eder; tamamlama için süre verilmez. Ali'nin dava sürerken arabulucuya başvurup son tutanağı sunması eksikliği gidermez.\n\n*4. Görev:* Malvarlığı haklarına ilişkin davalarda aksine düzenleme bulunmadıkça görevli mahkeme asliye hukuk mahkemesidir (HMK m. 2). Geçit davası HMK m. 4'te sayılan sulh hukuk işleri arasında yer almaz. Ali'nin dava açtığı mahkeme görevlidir.\n\n**Sonuç:**\n- Ali, TMK m. 747'ye dayanarak tam bedelle geçit isteyebilir.\n- İstem önce önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya (Ayşe), sonra en az zarar görecek olana yöneltilir; en kısa yol tek ölçüt değildir.\n- Arabulucuya başvurulmadan açıldığı için dava usulden reddedilir; sonradan başvuru eksikliği gidermez.\n- Görevli mahkeme asliye hukuktur."
+  },
+  {
+   "stem_md": "Zeynep ile Mehmet komşu bahçe sahibidir. Zeynep'in bahçesindeki ceviz ağacının dalları Mehmet'in ekili bahçesine taşmış, dallar Mehmet'in serasının camlarına değip camları kırmaktadır. Mehmet, Zeynep'e noter aracılığıyla \"dalları iki ay içinde kaldır\" ihtarı gönderir; Zeynep hiçbir şey yapmaz. Süre dolunca Mehmet dalları keser. Ayrıca Mehmet'in bahçesinin diğer sınırında bir orman bulunmaktadır; ormandaki ağaçların dalları da Mehmet'in bahçesine taşmaktadır ve Mehmet aynı yöntemle bunları da kesmeyi düşünmektedir.\n\nAynı yaz Zeynep, arazisindeki göleti boşaltır. Gölet suyu öteden beri Zeynep'in arazisinden Mehmet'in arazisine doğal olarak akan bir yoldan boşalmakta ve Mehmet'in fidelerine zarar vermektedir. Zeynep ayrıca üstteki arazisine set yaparak yağmur sularını tamamen tutmayı da düşünmektedir.\n\n1. Mehmet'in ceviz dallarını kesmesi hukuka uygun mudur? Kesilen dallar kimin olur?\n2. Mehmet dalların taşmasına katlanmaya karar verseydi cevizler bakımından durum ne olurdu?\n3. Mehmet ormandaki ağaçlar bakımından aynı hakkı kullanabilir mi?\n4. Göletten boşaltılan sular bakımından Mehmet tazminat isteyebilir mi? Başka ne isteyebilir?\n5. Zeynep'in yağmur sularını setle tamamen tutma planı hakkında ne söylenebilir?",
+   "rubric": [
+    {
+     "point": "Dal ve kök kesmenin şartları: zarar, komşunun istemi, uygun süre; şartların gerçekleşmesi ve kesmenin hukuka uygunluğu",
+     "weight": 25,
+     "madde_ref": "TMK m. 740"
+    },
+    {
+     "point": "Kesilen dal ve köklerin kesen komşunun mülkiyetine geçmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 740"
+    },
+    {
+     "point": "Ekilmiş veya üzerine yapı yapılmış arazisine dalların taşmasına katlanan komşunun meyveleri toplama hakkı",
+     "weight": 15,
+     "madde_ref": "TMK m. 740"
+    },
+    {
+     "point": "Komşu ormanlar hakkında dal-kök hükümlerinin uygulanmaması",
+     "weight": 10,
+     "madde_ref": "TMK m. 740"
+    },
+    {
+     "point": "Öteden beri alta doğal akan suyun fazla boşaltılmasına tazminat isteme hakkı olmaksızın katlanılması",
+     "weight": 15,
+     "madde_ref": "TMK m. 743"
+    },
+    {
+     "point": "Zarar görülüyorsa gideri üstteki malike ait mecra isteme hakkı",
+     "weight": 15,
+     "madde_ref": "TMK m. 743"
+    },
+    {
+     "point": "Üstteki malikin suyu yalnız kendi taşınmazı için zorunlu ölçüde tutabilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 742"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay iki ayrı komşuluk ilişkisini içerir: taşan bitki kısımları (TMK m. 740) ve su (TMK m. 742 ve TMK m. 743). İki grup da ilgili hükümlerin şartlarının sırayla denetlenmesini gerektirir. Camların zararının tazmini ayrı bir sorundur ve bu notun konusu dışındadır (genel komşuluk sorumluluğu için TMK m. 730).\n\n**Hukuki sorunlar:** (1) Dalların kesilmesi ve mülkiyetine geçmesi, (2) meyve hakkı, (3) komşu orman, (4) fazla suyun boşaltılması, (5) suyun tutulması.\n\n**İlgili hükümler:** TMK m. 740/1-3; TMK m. 742/2-3; TMK m. 743/1-2.\n\n**Değerlendirme:**\n\n*1. Dalların kesilmesi:* TMK m. 740/1'e göre komşunun arazisine taşarak zarar veren dal ve kökler, komşunun istemi üzerine uygun bir süre içinde kaldırılmazsa komşu bunları kesip kendi mülkiyetine geçirebilir. Olayda dallar taşmış ve zarar vermektedir (camlar kırılmıştır); Mehmet noter ihtarıyla kaldırılmasını istemiş ve iki aylık süre vermiştir. Kanun süreyi gün olarak belirlemediğinden iki ayın uygun olup olmadığı olayın şartlarına göre değerlendirilir; iki ayın uygun olmadığını gösteren bir olgu yoktur. Süre geçtiği ve Zeynep dalları kaldırmadığı için Mehmet'in kesmesi hukuka uygundur. Kesilen dallar Mehmet'in mülkiyetine geçer.\n\n*2. Meyve hakkı:* TMK m. 740/2'ye göre ekilmiş veya üzerine yapı yapılmış arazisine dalların taşmasına katlanan komşu, bu dallarda yetişen meyveleri toplama hakkına sahip olur. Mehmet'in bahçesi ekilidir; dalların taşmasına katlanmayı seçseydi taşan dallardaki cevizleri toplayabilirdi.\n\n*3. Orman:* TMK m. 740/3'e göre dal ve kök hükümleri komşu ormanlar hakkında uygulanmaz. Mehmet, ormandaki ağaçların dalları için TMK m. 740'a dayanarak istem ve süre yoluyla kesme ve mülkiyete geçirme hakkı kazanamaz.\n\n*4. Fazla su:* Gölet suyu öteden beri Mehmet'in arazisine doğal olarak aktığı için Mehmet, fazla suyun boşaltılması sırasında da bu sulara tazminat isteme hakkı olmaksızın katlanmak zorundadır (TMK m. 743/1). Fidelerine zarar verdiği için tazminat isteyemez. Ancak boşaltma dolayısıyla zarar gördüğünden, gideri Zeynep'e ait olmak üzere kendi arazisinde yapılacak mecrayla suyun akıtılmasını isteyebilir (TMK m. 743/2).\n\n*5. Yağmur suları:* TMK m. 742/1'e göre alttaki malik üstteki araziden doğal olarak akan yağmur, kar ve tutulmamış kaynak sularının akışına katlanır; komşulardan hiçbiri bu suların akışını diğerinin zararına değiştiremez (TMK m. 742/2). Üstteki malik, alttaki taşınmaza gerekli olan suyu ancak kendi taşınmazı için zorunlu olduğu ölçüde tutabilir (TMK m. 742/3). Zeynep'in yağmur sularını tamamen tutması bu sınırı aşıyorsa hukuka aykırıdır.\n\n**Sonuç:**\n- Mehmet'in dalları kesmesi hukuka uygundur; kesilen dallar onun mülkiyetine geçer.\n- Katlansaydı ekili arazisine taşan dallardaki cevizleri toplayabilirdi.\n- Ormanın dalları için TMK m. 740 uygulanmaz.\n- Fazla suya tazminatsız katlanılır, ama gideri Zeynep'e ait mecra istenebilir.\n- Zeynep yağmur sularını yalnız kendi taşınmazı için zorunlu ölçüde tutabilir."
+  },
+  {
+   "stem_md": "Hasan'ın arazisinde bulunan doğal kaynak, evinin tek içme suyu kaynağıdır ve yıllardır önemli ölçüde yararlanılmaktadır. Komşu X İnşaat Ltd. Şti., kendi arsasında temel kazısı yaparken bu kaynağı kısmen keser. Hasan'ın kaynaktan aldığı su azalır. Bilirkişi raporunda, X'in kazıyı kasten yapmadığı ve ihmalinin bulunmadığı, ancak kazının kaynağı kısmen kestiği belirtilir.\n\nHasan ayrıca, X'in kendi arsasında açtığı sondaj kuyusundan çıkan suyun Hasan'ın arazisinin de altından geçtiğini, arazisinin maliki olduğu için kuyudaki suyun kendisine ait olduğunu ve X'in suyu kullanamayacağını ileri sürmektedir. Fatma bu tartışmadan bağımsız olarak, Hasan'ın kaynağından su alabilmek için hukuki bir yol aramaktadır.\n\nHasan'ın komşusu Fatma'nın evi için gerekli suyu başka yoldan aşırı zahmet ve gidere katlanmadan sağlama imkânı yoktur. Hasan'ın kaynağında kendi ihtiyacından fazla su bulunmaktadır ve Fatma bu fazla suyu almak istemektedir.\n\n1. Kaynak kimin mülkiyetindedir? X İnşaat'ın sorumluluğu nedir?\n2. Hasan kaynağın eski duruma getirilmesini isteyebilir mi?\n3. Hasan'ın sondaj kuyusundaki suya ilişkin iddiasını değerlendiriniz.\n4. Fatma ne isteyebilir? Hangi şartlar aranır ve kimin menfaati öncelikle gözetilir?",
+   "rubric": [
+    {
+     "point": "Kaynağın arazinin bütünleyici parçası olması ve mülkiyetinin Hasan'da bulunması",
+     "weight": 15,
+     "madde_ref": "TMK m. 756"
+    },
+    {
+     "point": "Önemli ölçüde yararlanılan kaynağı kazıyla kısmen kesenin zararı gidermekle yükümlü olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 757"
+    },
+    {
+     "point": "Kast veya ihmal yoksa tazminatın gerekip gerekmediğini, miktar ve türünü hâkimin takdir etmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 757"
+    },
+    {
+     "point": "İçme suyunu sağlayan kaynak bakımından olabildiği ölçüde eski duruma getirme isteme hakkı",
+     "weight": 15,
+     "madde_ref": "TMK m. 758"
+    },
+    {
+     "point": "Yeraltı sularının kamu yararına ait olması; arza malik olmanın yeraltı suyuna malik olmayı sağlamaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 756"
+    },
+    {
+     "point": "Zorunlu su irtifakının şartları: su yoksunluğu, başka yoldan aşırı zahmet ve gidersiz sağlayamama, komşunun ihtiyaç fazlası su, tam bedel",
+     "weight": 15,
+     "madde_ref": "TMK m. 761"
+    },
+    {
+     "point": "Zorunlu su irtifakının kurulmasında öncelikle kaynak sahibinin menfaatinin gözetilmesi",
+     "weight": 5,
+     "madde_ref": "TMK m. 761"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda üç ayrı sorun vardır: kaynağın hukuki durumu ve kazı yüzünden kesilmesi (TMK m. 756 - TMK m. 758), sondaj kuyusundaki suyun yeraltı suyu olarak niteliği (TMK m. 756/3) ve komşunun susuz kalması hâlinde zorunlu su irtifakı (TMK m. 761).\n\n**Hukuki sorunlar:** (1) Kaynağın mülkiyeti ve X'in sorumluluğu, (2) eski duruma getirme, (3) Hasan'ın kuyudaki suya ilişkin iddiası, (4) Fatma'nın istemi.\n\n**İlgili hükümler:** TMK m. 756/1 ve TMK m. 756/3; TMK m. 757; TMK m. 758/1; TMK m. 761/1-2; 167 sayılı Kanun m. 1.\n\n**Değerlendirme:**\n\n*1. Mülkiyet ve sorumluluk:* TMK m. 756/1'e göre kaynaklar arazinin bütünleyici parçasıdır ve mülkiyetleri ancak kaynadıkları arazinin mülkiyeti ile birlikte kazanılabilir. Hasan arazinin maliki olduğundan kaynağın da maliki olur. TMK m. 757/1'e göre önemli ölçüde yararlanılan kaynakları kazı, yapı veya benzeri faaliyetler yüzünden kısmen olsun keserek malikine zarar veren kimse zararı gidermekle yükümlüdür. Olayda kaynak kısmen kesilmiş ve yıllardır önemli ölçüde yararlanılan bir kaynaktır. Bilirkişiye göre X kasten veya ihmal yoluyla hareket etmemiştir; bu durumda hâkim, tazminatın gerekip gerekmediğini, gerekiyorsa miktar ve türünü takdir eder (TMK m. 757/2). Kusursuzluk X'i sorumluluktan kendiliğinden kurtarmaz, ama tazminat hâkimin takdirine bağlanır.\n\n*2. Eski duruma getirme:* Kaynak Hasan'ın evinin içme suyunu sağlamaktadır. TMK m. 758/1'e göre bir yerin içme ya da kullanma suyunu sağlamak için gerekli olan kaynaklar kesilirse, kaynağın olabildiği ölçüde eski duruma getirilmesi istenebilir. Hasan bu istemde bulunabilir.\n\n*3. Sondaj kuyusu:* TMK m. 756/3'e göre yeraltı suları kamu yararına ait sulardandır ve arza malik olmak, altındaki yeraltı sularına da malik olmak sonucunu doğurmaz. 167 sayılı Kanun m. 1'e göre yeraltı suları umumi sular meyanında olup Devletin hüküm ve tasarrufu altındadır. Hasan arazisinin altından geçtiği gerekçesiyle kuyudaki suyun maliki olduğunu ileri süremez. X'in kuyudan yararlanmasının hukuka uygunluğu ise yeraltı sularına ilişkin özel düzenlemelere bağlıdır; bu bu notun konusu dışındadır.\n\n*4. Zorunlu su:* TMK m. 761/1'e göre evi, arazisi veya işletmesi için gerekli sudan yoksun olup bunu aşırı zahmet ve gidere katlanmaksızın başka yoldan sağlayamayan malik, komşusundan onun ihtiyacından fazla olan suyu tam bedel karşılığında almasını sağlayacak bir irtifak kurulmasını isteyebilir. Fatma'nın su yoksunluğu ve başka yoldan sağlayamama durumu ile Hasan'ın ihtiyaç fazlası suyunun varlığı şartları karşılar. İrtifak tam bedelle kurulur. Kurulmasında öncelikle kaynak sahibinin, yani Hasan'ın menfaati gözetilir (TMK m. 761/2). Durum değişirse irtifakın değiştirilmesi veya kaldırılması istenebilir (TMK m. 761/3).\n\n**Sonuç:**\n- Kaynak Hasan'ındır (arazinin bütünleyici parçası).\n- X zararı gidermekle yükümlüdür; kast veya ihmal bulunmadığından tazminatın gerekip gerekmediğini ve miktarını hâkim takdir eder.\n- İçme suyu kaynağı olduğundan eski duruma getirme istenebilir.\n- Hasan'ın kuyudaki sudan mülkiyet iddiası yerinde değildir; yeraltı suları kamu yararınadır.\n- Fatma tam bedelle zorunlu su irtifakı isteyebilir; Hasan'ın menfaati öncelikle gözetilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "TMK m. 738/1'e göre kazı ve yapıda yasak ne?",
+   "back_md": "Komşunun topraklarını sarsmak veya tehlikeye düşürmek ya da üzerlerindeki tesisleri etkilemek suretiyle zarar vermek. Kurallara aykırı yapılara taşkın yapı hükümleri uygulanır (TMK m. 738/2)."
+  },
+  {
+   "front_md": "Taşan dal ve kökleri komşu hangi şartlarla keser?",
+   "back_md": "Dal ve kök zarar vermeli, komşu kaldırılmasını istemeli, bitki maliki uygun süre içinde kaldırmamış olmalı. Sonra keser ve kendi mülkiyetine geçirir (TMK m. 740/1)."
+  },
+  {
+   "front_md": "Dallarda yetişen meyveleri kim toplar?",
+   "back_md": "Ekilmiş veya üzerine yapı yapılmış arazisine dalların taşmasına katlanan komşu (TMK m. 740/2)."
+  },
+  {
+   "front_md": "Dal-kök kuralları komşu ormana uygulanır mı?",
+   "back_md": "Hayır, komşu ormanlar hakkında uygulanmaz (TMK m. 740/3)."
+  },
+  {
+   "front_md": "Doğal akan suyla ilgili üç kural (TMK m. 742)?",
+   "back_md": "Alttaki malik üstten doğal akan sulara katlanır; akış komşunun zararına değiştirilemez; üstteki malik suyu yalnız kendi taşınmazı için zorunlu ölçüde tutabilir."
+  },
+  {
+   "front_md": "Fazla suyun boşaltılmasında alttaki malik ne yapabilir?",
+   "back_md": "Suyu öteden beri alta akan arazide tazminatsız katlanır; zarar görüyorsa gideri üsttekine ait mecra isteyebilir (TMK m. 743)."
+  },
+  {
+   "front_md": "Mecraya katlanmanın şartları (TMK m. 744/1)?",
+   "back_md": "Başka yerden geçirilmesi olanaksız veya aşırı masraflı olmalı; zararın tamamı önceden ödenmelidir."
+  },
+  {
+   "front_md": "Kamulaştırmaya bağlı mecrada komşuluk hükümleri uygulanır mı?",
+   "back_md": "Hayır, uygulanmaz (TMK m. 744/2)."
+  },
+  {
+   "front_md": "Mecra hakkı tapuya nasıl yansır?",
+   "back_md": "Hak sahibinin istemi üzerine ve giderleri ödemesi koşuluyla tescil edilir (TMK m. 744/3)."
+  },
+  {
+   "front_md": "Olağanüstü durumda mecra parçasının satın alınmasını kim ister?",
+   "back_md": "Yükümlü malik, zararını tam karşılayan bedelle (TMK m. 745/2)."
+  },
+  {
+   "front_md": "Mecranın yer değiştirme gideri kime aittir?",
+   "back_md": "Kural olarak mecra hakkı sahibine; özel durumlar haklı gösterirse malik de uygun kısmına katılır (TMK m. 746)."
+  },
+  {
+   "front_md": "Zorunlu geçidin şartları (TMK m. 747/1)?",
+   "back_md": "Taşınmazdan genel yola çıkış için yeterli geçit bulunmaması; geçit tam bedel karşılığında istenir."
+  },
+  {
+   "front_md": "Zorunlu geçit istemi kime yöneltilir?",
+   "back_md": "Önce önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya, sonra bundan en az zarar görecek olana. Geçit iki tarafın menfaati gözetilerek belirlenir (TMK m. 747/2-3)."
+  },
+  {
+   "front_md": "Geçit bedelinin hükümden önce depo edilmesi kanun kuralı mı?",
+   "back_md": "Hayır, Yargıtay uygulamasıdır. Metinde (TMK m. 744/1'in aksine) 'önceden ödenmesi' ifadesi yoktur. Tarım arazisinde 2,5-3 m genişlik de Yargıtay ölçüsüdür."
+  },
+  {
+   "front_md": "TMK m. 748/1'deki geçitler hangi hukuka tâbidir?",
+   "back_md": "Geçici girme, tarla yolu, hayvan sulama yolu, kış geçidi, tomruk kaydırma yolu ve benzerleri özel kanun hükümlerine; yoksa yerel âdete (TMK m. 748/1-2)."
+  },
+  {
+   "front_md": "Doğrudan kanundan doğan geçit hakları tapuda nasıl yer alır?",
+   "back_md": "Tescilsiz doğar; sürekli nitelikte olanlar beyanlar sütununda gösterilir (TMK m. 748/3)."
+  },
+  {
+   "front_md": "TMK m. 755'te ortak iyileştirme kararı için çoğunluk?",
+   "back_md": "Arazinin yarısından fazlasına sahip bulunmak koşuluyla maliklerin üçte ikisi; diğer malikler de uymak zorundadır, karar beyanlar sütununda gösterilir."
+  },
+  {
+   "front_md": "Kaynak ile yeraltı suyu farkı?",
+   "back_md": "Kaynak arazinin bütünleyici parçasıdır (TMK m. 756/1); yeraltı suyu kamu yararına ait sudur, arza malik olmak ona malik olmayı sağlamaz (TMK m. 756/3; 167 sayılı Kanun m. 1)."
+  },
+  {
+   "front_md": "Başkasının arazisindeki kaynakta hak nasıl kurulur?",
+   "back_md": "İrtifak olarak tapu kütüğüne tescille (TMK m. 756/2)."
+  },
+  {
+   "front_md": "TMK m. 757 ile TMK m. 758 farkı?",
+   "back_md": "TMK m. 757 kaynağı kesen veya kirletenin tazminatı (kast veya ihmal yoksa hâkim takdir eder); TMK m. 758 eski duruma getirme, oturma, işletme, içme-kullanma suyu kaynaklarında doğrudan istenebilir."
+  },
+  {
+   "front_md": "Ortak ana kaynaktan beslenen kaynaklarda su nasıl dağıtılır?",
+   "back_md": "O zamana kadarki yararlanma oranında; ortak tesis masrafları da yararlanma oranında üstlenilir (TMK m. 759)."
+  },
+  {
+   "front_md": "Zorunlu su irtifakının şartları (TMK m. 761)?",
+   "back_md": "Su yoksunluğu; başka yoldan aşırı zahmet ve gidersiz sağlayamama; komşunun ihtiyaç fazlası suyu; tam bedel. Öncelikle kaynak sahibinin menfaati gözetilir."
+  },
+  {
+   "front_md": "Zorunlu geçit davasında arabuluculuk?",
+   "back_md": "Komşu hakkından kaynaklanan uyuşmazlık olduğundan önceden arabulucuya başvurmak dava şartıdır; başvurulmadan açılan dava usulden reddedilir, sonradan başvuru eksikliği gidermez (HUAK m. 18/B/1-ç, HUAK m. 18/A/2)."
+  },
+  {
+   "front_md": "Zorunlu geçit davasında görevli mahkeme?",
+   "back_md": "Asliye hukuk mahkemesi (HMK m. 2); geçit davası HMK m. 4'te sayılan sulh hukuk işleri arasında yok."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

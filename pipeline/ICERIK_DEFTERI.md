@@ -65,7 +65,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | bitti | bulutta araştırma-yazma-denetim; denetçi soru 17 cevap anahtarını (TMK m. 751) ve 7 küçük noktayı düzeltti; 📌 HUAK m. 18/B komşu hakkı; yüklenmedi |
 | 15 | yapi-hukuku-ve-taskin-yapi | bitti | bulutta araştırma-yazma-denetim; denetçi TMK m. 723/3 "geçmeyebilir"i (takdir, tavan değil) 6 yerde ve 15 günlük itiraz olaylarını düzeltti; yüklenmedi |
 | 16 | yasal-onalim-alim-ve-geri-alim | bitti | bulutta araştırma-yazma-denetim; denetçi 14 düzeltme (7571 geçiş kuralı: bedel kuralı bütün davalara, olay 3 tarihleri, geri alım lehtarı); 📌 TMK m. 733-734 (7571, 25.12.2025); yüklenmedi |
-| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | yazar durduruldu (buluta devir), taslak yok |
+| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (soru 3 ikinci doğruya yakın şık, TMK m. 745/2 sınırı, doktrinde kalan yazar talimatı); 📌 HUAK m. 18/B; yüklenmedi |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | yazar durduruldu (buluta devir), taslak yok |
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
 | 20 | tasinmaz-irtifaki | bekliyor | |
