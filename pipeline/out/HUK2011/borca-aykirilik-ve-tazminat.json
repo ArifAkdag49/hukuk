@@ -1,0 +1,934 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: Borçların İfa Edilmemesinin Sonuçları",
+ "topic_index": 1,
+ "slug": "borca-aykirilik-ve-tazminat",
+ "title": "Borca Aykırılık, Kusur Karinesi, Sorumsuzluk Anlaşmaları ve Yardımcı Kişiler",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T21:33:49.795207+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/borca-aykirilik-tazminat"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Borçlu borcunu hiç ya da gereği gibi ifa etmezse alacaklının zararını hangi şartlarla öder? Sorumluluğunu önceden bir anlaşmayla kaldırabilir mi? İşi yaptırdığı kişilerin hatasından sorumlu mudur?\n\n- **Genel kural ve kusur karinesi (TBK m. 112):** Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe alacaklının zararını gidermekle yükümlüdür. Alacaklı borç ilişkisini, aykırılığı, zararı ve uygun illiyet bağını ispatlar; kusur var sayılır. Haksız fiilde ise kusuru zarar gören ispatlar (TBK m. 50/1).\n- **Aykırılık türleri:** Hiç ifa etmeme (imkânsızlık ve temerrüt ayrı konulardır), kötü ifa ve sözleşmenin olumlu ihlali. Olumlu ihlal, yan yükümlülüklerin, özellikle alacaklının bedenini ve malını koruma yükümlülüklerinin ihlalidir.\n- **Yapma ve yapmama borçları (TBK m. 113):** Yapma borcu ifa edilmezse alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini isteyebilir; her türlü giderim hakkı saklıdır. Yapmama borcuna aykırılıkta zarar giderilir. Alacaklı ayrıca aykırılığın ortadan kaldırılmasını ya da masrafı borçluya ait olmak üzere bunun için kendisinin yetkili kılınmasını isteyebilir.\n- **Kapsam (TBK m. 114):** Borçlu genel olarak her türlü kusurdan sorumludur. Kapsam işin özel niteliğine göre belirlenir; iş borçluya yarar sağlamıyorsa sorumluluk daha hafif değerlendirilir. Haksız fiil hükümleri kıyasen uygulanır. Yargıtay'a göre aykırılık kişilik hakkını zedelerse bu yolla manevi tazminat da istenir (TBK m. 58).\n- **Sorumsuzluk anlaşmaları (TBK m. 115):** Önceden yapılan anlaşma üç hâlde kesin hükümsüzdür: borçlunun ağır kusuru; hizmet sözleşmesinden doğan herhangi bir borç; uzmanlık gerektiren ve yalnız izinle yürütülebilen işlerde hafif kusur. Matbu sözleşmelerde genel işlem koşulu denetimi (TBK m. 20-25), tüketici sözleşmelerinde haksız şart denetimi (TKHK m. 5) de yapılır.\n- **Yardımcı kişiler (TBK m. 116):** Borçlu, borcun ifasını ya da bir hakkın kullanılmasını bıraktığı kişilerin işi yürütürken verdiği zarardan sorumludur. Özen kanıtıyla kurtuluş yoktur; ölçü varsayımsal kusurdur. Bu sorumluluk önceden tamamen veya kısmen kaldırılabilir. Ama izinle yürütülen uzmanlık işlerinde böyle bir anlaşma kesin hükümsüzdür.\n- **Zarar türleri:** Maddi ve manevi zarar; olumlu (ifa yararı) ve olumsuz (güven yararı) zarar. Hesabın ayrıntısı seçimlik haklar konusunda.\n- **Zamanaşımı:** Kural olarak on yıl (TBK m. 146); bazı sözleşmelerde beş yıl (TBK m. 147).",
+  "content_md": "## 0. Konunun haritası\n\nBorçlu borcunu hiç ya da gereği gibi ifa etmezse ne olur? Bu konu, borçlunun **tazminat sorumluluğunun** genel çerçevesini beş maddeyle kurar:\n\n| Madde | Ne düzenler? |\n|---|---|\n| TBK m. 112 | Genel kural, kusur karinesi |\n| TBK m. 113 | Yapma ve yapmama borçları |\n| TBK m. 114 | Sorumluluğun kapsamı |\n| TBK m. 115 | Sorumsuzluk anlaşmaları |\n| TBK m. 116 | Yardımcı kişilerden sorumluluk |\n\n> 💡 **Püf nokta:** Sözleşmede kusur var sayılır, haksız fiilde ispatlanır. Bu konudaki kuralların çoğu bu farkın sonucudur.\n\n## 1. Borca aykırılık ve türleri\n\n**Borca aykırılık**, borçlunun borç ilişkisinin kendisinden beklediği davranıştan ayrılmasıdır. TBK m. 112 bunu iki kalıpla anlatır: borç **hiç** ifa edilmez ya da **gereği gibi** ifa edilmez.\n\n### 1.1 Hiç ifa etmeme\nBorçlu edimi hiç yerine getirmez. İki özel görünümü ayrı konulardadır:\n- **İmkânsızlık:** İfa, borçlunun sorumlu tutulamayacağı bir sebeple imkânsızlaşırsa borç sona erer (TBK m. 136). Borçlu imkânsızlığa kusuruyla yol açmışsa borç sona ermez, TBK m. 112'ye göre tazminat borcuna dönüşür.\n- **Temerrüt:** İfa hâlâ mümkündür ama gecikmiştir. Muaccel borcun borçlusu kural olarak ihtarla temerrüde düşer (TBK m. 117). Temerrüde düşmekte kusuru olmadığını ispatlamadıkça gecikme zararını öder (TBK m. 118).\n\n### 1.2 Kötü ifa\nBorçlu ifa eder, ama edim sözleşmeye uygun değildir: eksik, kusurlu ya da ayıplıdır. Kötü ifa iki tür zarar doğurabilir:\n- edimin kendisindeki eksiklik (boya tutmamıştır, yeniden boyatmak gerekir),\n- alacaklının **başka** değerlerine yayılan zarar (hatalı bağlanan tesisat kısa devre yapar, buzdolabı yanar).\n\nSatım ve eser sözleşmelerinde ayıp için özel seçimlik haklar vardır. Bu hükümler genel hükümlere göre tazminat isteme hakkını açıkça saklı tutar (TBK m. 227/2, m. 475/2). Ayrıntısı özel hükümler dersinde.\n\n### 1.3 Sözleşmenin olumlu ihlali\nHer borç ilişkisinde asıl edimin yanında, dürüstlük kuralından (TMK m. 2) doğan **yan yükümlülükler** bulunur: bilgi verme, uyarma, sır saklama gibi. Bunların önemli bir türü **koruma yükümlülükleridir**: borçlu, ifa sırasında alacaklının bedenine ve malvarlığına zarar vermemelidir.\n\nAsıl edim yerine getirildiği hâlde bu yükümlülüklerden biri ihlal edilirse doktrinde buna **sözleşmenin olumlu ihlali** denir. Kanun bu adı kullanmaz; doktrin ve uygulama bu hâlleri de TBK m. 112'deki \"gereği gibi ifa etmeme\" kapsamında değerlendirir.\n\n> **Örnek:** Boya ustası Kemal, Zeynep'in salonunu kusursuz boyar. Ama çalışırken merdiveni devirip vitrindeki porselen takımı kırar. Asıl edim yerindedir, koruma yükümlülüğü ihlal edilmiştir. Kemal kusursuzluğunu ispatlamadıkça porselenin zararını öder.\n\nKanunun açıkça yazdığı bir koruma yükümlülüğü de vardır: işveren iş sağlığı ve güvenliği için gerekli her türlü önlemi almalıdır. Buna aykırılık yüzünden işçinin ölümü ya da yaralanması hâlinde tazminat, **sözleşmeye aykırılıktan doğan sorumluluk** hükümlerine tabidir (TBK m. 417/2-3).\n\n## 2. Genel kural: TBK m. 112 ve kusur karinesi\n\nTBK m. 112'ye göre borç hiç veya gereği gibi ifa edilmezse borçlu, **kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe**, alacaklının bundan doğan zararını gidermekle yükümlüdür.\n\n### 2.1 Şartlar\n1. Geçerli bir **borç ilişkisi** (çoğunlukla sözleşme),\n2. **borca aykırılık** (hiç ifa etmeme, kötü ifa, yan yükümlülük ihlali),\n3. **zarar**,\n4. aykırılık ile zarar arasında **uygun illiyet bağı**,\n5. **kusur**. Ama kusur ispatlanmaz, **karine** olarak var sayılır.\n\n### 2.2 İspat yükünün dağılımı\nGenel kural, herkesin hakkını dayandırdığı olguları ispatlamasıdır (TMK m. 6). TBK m. 112 yalnız kusur bakımından bu kuralı tersine çevirir:\n- **Alacaklı** ispatlar: borç ilişkisini, borca aykırılığı, zararı ve uygun illiyet bağını.\n- **Borçlu** ispatlar: kendisine hiçbir kusurun yüklenemeyeceğini ya da illiyet bağının mücbir sebep, alacaklının veya üçüncü kişinin ağır kusuru gibi bir sebeple kesildiğini.\n\n> ⚠️ **Sınavda dikkat:** Kusur karinesi \"alacaklı hiçbir şey ispatlamaz\" demek değildir. Yargıtay Hukuk Genel Kurulu, hekim davalarında karinenin yalnız kusuru kapsadığını, sözleşmenin ihlalini, zararı ve illiyet bağını hastanın ispatlaması gerektiğini vurgular.\n\nKusurun ölçüsü objektiftir: aynı durumdaki dikkatli bir borçludan beklenen özen esas alınır. Kusurun derecesi de önemlidir, çünkü sorumsuzluk anlaşmalarının sınırını o belirler:\n- **Kast:** Zararlı sonucun bilerek ve istenerek doğurulması.\n- **Ağır ihmal:** Aynı durumdaki herkesin göstereceği en basit özenin bile gösterilmemesi.\n- **Hafif ihmal:** Dikkatli ve makul bir kişinin göstereceği özenin gösterilmemesi.\n\n### 2.3 Haksız fiilden farkı\n\n| Konu | Sözleşmeye aykırılık | Haksız fiil |\n|---|---|---|\n| Kusurun ispatı | Borçlu kusursuzluğunu ispatlar (m. 112) | Zarar gören kusuru ispatlar (m. 50/1) |\n| Yardımcı kişi | m. 116, kurtuluş kanıtı yok | m. 66, özen kanıtıyla kurtuluş |\n| Zamanaşımı | Kural 10 yıl (m. 146) | 2 yıl / 10 yıl (m. 72) |\n\nHekimin hatası gibi bir davranış hem sözleşmeye hem genel bir davranış kuralına aykırıysa iki sorumluluk **yarışır**. Yargıtay Hukuk Genel Kurulu'na göre zarar gören istemini dilediğine dayandırabilir; dayanağı belirtmemişse hâkim, onun lehine olan hükümleri bir bütün olarak uygular.\n\n### 2.4 Uygulama: hekim ve avukat\n- **Hekim ve özel hastane:** Özel hastanede sözleşme kural olarak hasta ile hastane arasında kurulur (**hastaneye kabul sözleşmesi**). Yargıtay tıbbi tedavi edimine vekâlet hükümlerini uygular ve hekimin **en hafif kusurundan** dahi sorumlu olduğunu kabul eder. Hekim sonucu garanti etmez, özenli davranmayı borçlanır. **Komplikasyon**, her şey tıp kurallarına uygun yapıldığı hâlde ortaya çıkan istenmeyen sonuçtur; iyi yönetilmişse sorumluluk doğurmaz.\n- **Avukat:** Avukat da vekildir. Davanın kazanılmasını değil, işin özenle yürütülmesini borçlanır. Özen ölçüsü, benzer alanda iş üstlenen **basiretli bir vekilin** davranışıdır (TBK m. 506/3). Hak düşürücü süreleri ve zamanaşımını gözetmemek tipik borca aykırılıklardır.\n\n## 3. Yapma ve yapmama borçları (TBK m. 113)\n\nKanunun metni şöyledir:\n\n> \"Yapma borcu, borçlu tarafından ifa edilmediği takdirde alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini isteyebilir; her türlü giderim isteme hakkı saklıdır.\n>\n> Yapmama borcuna aykırı davranan borçlu, bu aykırı davranışının doğurduğu zararı gidermekle yükümlüdür.\n>\n> Alacaklı, ayrıca borca aykırı durumun ortadan kaldırılmasını veya bu konuda masrafı borçluya ait olmak üzere kendisinin yetkili kılınmasını isteyebilir.\"\n\n### 3.1 Yapma borcu (m. 113/1)\n**Yapma borcu**, borçlunun bir faaliyette bulunmasını konu alır: boyamak, onarmak, budamak gibi. Borçlu yapmazsa alacaklının elinde şunlar vardır:\n- **Başkasına yaptırma izni:** Alacaklı, edimi kendisinin yapmasına ya da başkasına yaptırmasına izin verilmesini ister. Kanun izni kimin vereceğini söylemez; baskın görüşe göre izin hâkimden istenir. Masraf borçluya aittir.\n- **Her türlü giderim:** Ayrıca gecikmeden ya da ifa edilmemekten doğan zararlarını ister.\n- **Diğer yollar:** İfa davası ve karşılıklı sözleşmede seçimlik haklar (TBK m. 123 vd., ayrı konu).\n\nBaşkasına yaptırma, ancak iş başkası tarafından da yapılabilecekse anlam taşır. Ünlü bir ressamın portresi gibi kişisel yeteneğe bağlı edimlerde alacaklıya tazminat kalır. İşin yapılmasına dair ilam alınmışsa icrada da iş, masrafı borçludan alınmak üzere başkasına yaptırılabilir (İİK m. 30/2).\n\n> **Örnek:** Mehmet, komşusu Zeynep'e karşı sözleşmeyle sınırdaki ağaçları her nisan budatmayı üstlenmiştir. İhtara rağmen budatmaz. Zeynep hâkimden izin alarak ağaçları bir bahçıvana budatır. 8.000 TL'lik masrafı ve budanmayan ağaçlar yüzünden uğradığı zararı Mehmet'ten ister.\n\n> ⚠️ **Sınavda dikkat:** Eser sözleşmesinde yüklenicinin işe zamanında başlamaması ya da işi kusurlu yapması için ayrıca özel hükümler vardır (TBK m. 473). Genel kural m. 113'tür; özel hüküm varsa önce ona bakılır.\n\n### 3.2 Yapmama borcu (m. 113/2-3)\n**Yapmama borcu**, borçlunun bir davranıştan kaçınmasını konu alır: belli bir yükseklikte yapı yapmamak, bir bilgiyi açıklamamak gibi. Burada aykırı davranışın kendisi borca aykırılıktır. Alacaklının iki hakkı vardır:\n- aykırı davranışın doğurduğu **zararın giderilmesi** (m. 113/2),\n- **aykırılığın ortadan kaldırılması** ya da masrafı borçluya ait olmak üzere bunu yapmak için **kendisinin yetkili kılınması** (m. 113/3).\n\n> **Örnek:** Ayşe, sözleşmeyle bahçe sınırına iki metreden yüksek duvar örmemeyi üstlenmiştir, ama üç metrelik bir duvar örer. Komşusu Mehmet zararını isteyebilir. Ayrıca duvarın fazla kısmının yıkılmasını ya da masrafı Ayşe'ye ait olmak üzere bunu kendisinin yaptırmaya yetkili kılınmasını isteyebilir.\n\n## 4. Sorumluluğun kapsamı (TBK m. 114)\n\n### 4.1 Her türlü kusur ve işin özel niteliği\nBorçlu genel olarak **her türlü kusurdan** sorumludur; hafif ihmal de yeter (m. 114/1). Ama sorumluluğun kapsamı **işin özel niteliğine** göre belirlenir:\n- **Profesyonel borçlularda özen ölçüsü yükselir.** Yüklenicide benzer işleri üstlenen basiretli bir yüklenicinin mesleki ve teknik kurallara uygun davranışı (TBK m. 471/2), vekilde basiretli vekilin davranışı (TBK m. 506/3) esas alınır. Tacir de ticaretine ait bütün faaliyetlerinde basiretli bir iş adamı gibi davranmalıdır (TTK m. 18/2).\n- **İş borçluya yarar sağlamıyorsa sorumluluk daha hafif değerlendirilir.** Karşılıksız saklama ya da karşılıksız vekâlet tipik örneklerdir.\n\n> **Örnek:** Mert, yurt dışına giden arkadaşı Can'ın bisikletini karşılıksız saklamayı üstlenir. Garajı kilitlemeyi unutur ve bisiklet çalınır. Mert kusurlu olduğu için sorumludur. Ama saklama ona yarar sağlamadığından hâkim sorumluluğu daha hafif değerlendirip tazminatı indirebilir.\n\n### 4.2 Haksız fiil hükümlerinin kıyasen uygulanması (m. 114/2)\nSözleşme hukukunda tazminatın belirlenmesine dair ayrıntılı hükümler yoktur. Bu yüzden kanun, haksız fiil hükümlerini sözleşmeye aykırılığa **kıyasen** uygular. En sık başvurulanlar:\n- tazminatın kapsamının özellikle kusurun ağırlığına göre belirlenmesi (TBK m. 51),\n- alacaklının razı olması, zararın doğmasına ya da artmasına katkısı ve yoksulluk gibi indirim sebepleri (TBK m. 52),\n- bedensel zarar kalemleri (TBK m. 54),\n- manevi tazminat (TBK m. 56 ve m. 58).\n\nAma kusurun ispatı (m. 112), yardımcı kişiden sorumluluk (m. 116) ve zamanaşımı (m. 146 vd.) için sözleşme hukukunun kendi kuralları vardır; bunlarda kıyasa yer yoktur.\n\n### 4.3 Sözleşmeye aykırılıkta manevi tazminat\nTBK'da borca aykırılık için ayrı bir manevi tazminat hükmü yoktur. Yargıtay Hukuk Genel Kurulu'nun yerleşik görüşü şudur:\n- **Sözleşmeye aykırılık tek başına manevi tazminat gerektirmez.**\n- Ama borca aykırı davranış alacaklının **kişilik hakkını zedelerse**, TBK m. 114/2 yoluyla TBK m. 58 uygulanır ve manevi tazminat istenebilir.\n- Bedensel bütünlük zedelenmişse (ör. hekim hatası) aynı yolla TBK m. 56 uygulanır.\n\nHukuk Genel Kurulu bu ölçütle, düğünden bir gün önce organizasyonu iptal eden firmanın manevi tazminatla sorumlu olduğunu kabul etti. Engeli nedeniyle haksız biçimde uçağa alınmayan ve ailesinin önünde küçük düşürülen yolcunun da kişilik hakkının zedelendiğini kabul etti.\n\n> ⚠️ **Sınavda dikkat:** Bir para borcunun ödenmemesi kural olarak kişilik hakkını zedelemez. Olay sorusunda \"kişilik hakkı hangi yönüyle zedelendi?\" sorusunu cevaplamadan manevi tazminata geçme.\n\n## 5. Zarar türleri: kısa çerçeve\n- **Maddi zarar:** Malvarlığındaki istenmeyen eksilmedir. Malvarlığından çıkan değer **fiili zarar**, malvarlığına girmeyen değer **yoksun kalınan kârdır**.\n- **Manevi zarar:** Acı, elem ve kişilik değerlerindeki zedelenmedir (bkz. 4.3).\n- **Olumlu (müspet) zarar:** Sözleşme gereği gibi ifa edilseydi alacaklının ulaşacağı durum ile şimdiki durumu arasındaki farktır (ifa yararı). TBK m. 112'deki tazminat kural olarak bu zarardır.\n- **Olumsuz (menfi) zarar:** Sözleşmenin geçerli olarak kurulacağına ya da ifa edileceğine güvenilmesi yüzünden uğranılan zarardır (güven yararı). Boşa giden sözleşme masrafları ve kaçırılan başka bir teklif örnektir. Sözleşmeden dönen alacaklı, sözleşmenin hükümsüz kalması yüzünden uğradığı zararı ister (TBK m. 125/3).\n\n> **Örnek:** Galerici Ali, Ayşe'ye 500.000 TL'ye bir araç satar. Ayşe aracı 550.000 TL'ye satmak için üçüncü bir kişiyle anlaşmıştır. Ali kusuruyla aracı teslim etmezse kaçan 50.000 TL kâr olumlu zarardır. Ayşe sözleşmeden dönerse, örneğin boşa ödediği ekspertiz ücreti olumsuz zarar olarak gündeme gelir. Hesabın ayrıntısı seçimlik haklar konusunda.\n\n## 6. Sorumsuzluk anlaşmaları (TBK m. 115)\n\n### 6.1 Kavram\n**Sorumsuzluk anlaşması**, borçlunun ileride doğabilecek borca aykırılık sorumluluğunu **önceden** tamamen ya da kısmen kaldıran anlaşmadır. Sorumluluğu bir tutarla sınırlayan kayıt da (\"tazminat en fazla sözleşme bedeli kadardır\") doktrinde kısmi bir sorumsuzluk anlaşması sayılır ve aynı sınırlara tabi tutulur.\n\n\"Önceden\" kelimesi önemlidir: sınırlar, zararı doğuran aykırılıktan önce yapılan anlaşmalar içindir. Zarar doğduktan sonra alacaklının tazminat alacağından vazgeçmesi bu maddenin konusu değildir; ayrıntısı borcun sona ermesi konusunda.\n\n### 6.2 Kesin hükümsüzlük sınırları\n1. **Ağır kusur (m. 115/1):** Borçlunun ağır kusurundan sorumlu olmayacağına ilişkin önceden yapılan anlaşma kesin hükümsüzdür. Ağır kusur, kastı ve ağır ihmali kapsar. Hafif kusurdan sorumsuzluk ise kural olarak geçerlidir.\n2. **Hizmet sözleşmesi (m. 115/2):** Borçlunun alacaklıyla arasındaki hizmet sözleşmesinden kaynaklanan **herhangi bir borç** sebebiyle sorumlu olmayacağına ilişkin önceden yaptığı **her türlü** anlaşma kesin hükümsüzdür. Kusurun derecesine bakılmaz. Hizmet sözleşmesi, işçinin işverene bağımlı olarak iş görmeyi, işverenin de ücret ödemeyi üstlendiği sözleşmedir (TBK m. 393/1).\n3. **İzinle yürütülen uzmanlık işleri (m. 115/3):** Uzmanlığı gerektiren bir hizmet, meslek veya sanat **ancak kanun ya da yetkili makamların verdiği izinle** yürütülebiliyorsa, borçlunun **hafif kusurundan** sorumlu olmayacağına ilişkin anlaşma da kesin hükümsüzdür. Uzmanlık ve izin birlikte aranır; yalnız izne bağlı olmak yetmez. Doktrinde hekimlik, avukatlık, bankacılık, mimarlık ve mühendislik örnek gösterilir; Yargıtay da bankacılığı bu kapsamda görür. İzne bağlı olup ne ölçüde uzmanlık gerektirdiği belirsiz işlerin (ör. taksicilik) sınıflandırılması tartışmalıdır.\n\n| Hâl | Hafif kusur | Ağır kusur |\n|---|---|---|\n| Genel kural (m. 115/1) | Geçerli | Kesin hükümsüz |\n| Hizmet sözleşmesi (m. 115/2) | Kesin hükümsüz | Kesin hükümsüz |\n| İzinli uzmanlık (m. 115/3) | Kesin hükümsüz | Kesin hükümsüz |\n\n> **Örnek:** Tacir Ayşe, deposuna raf kuran Hasan'la pazarlık ederek \"kurulum sırasında mallara gelecek zararlardan Hasan sorumlu değildir\" kaydını koyar. Hasan'ın dalgınlıkla bir koliyi düşürmesi hafif kusurdur; kayıt geçerlidir. Uyarıya rağmen rafı sabitlemeden yükleyip devirmesi ise ağır ihmaldir; kayıt bu zararı kapsamaz.\n\n### 6.3 Hükümsüzlüğün sonucu\nKural olarak hükümsüz olan yalnız kayıttır; sözleşmenin geri kalanı ayakta kalır (TBK m. 27/2). Genel işlem koşullarında ve tüketici sözleşmelerinde kanun ayrıca, düzenleyenin kayıt olmasaydı sözleşmeyi yapmayacağını ileri süremeyeceğini açıkça söyler (TBK m. 22, TKHK m. 5/2).\n\n### 6.4 Genel işlem koşulları ve tüketici sözleşmeleri\nSorumsuzluk kayıtları çoğu zaman matbu sözleşmelerde karşımıza çıkar. O zaman şu denetimler de yapılır (ayrıntısı ilgili konularda):\n- **Sözleşmeye girme denetimi:** Karşı tarafın aleyhine olan genel işlem koşulu, düzenleyen açıkça bilgi verip içeriğini öğrenme imkânı sağlamadıkça ve karşı taraf kabul etmedikçe **yazılmamış sayılır** (TBK m. 21/1).\n- **Yorum:** Açık olmayan kayıt düzenleyenin aleyhine yorumlanır (TBK m. 23).\n- **İçerik denetimi:** Genel işlem koşullarına dürüstlük kurallarına aykırı olarak karşı tarafın aleyhine hükümler konulamaz (TBK m. 25). Genel işlem koşulu hükümleri, hizmetini izinle yürütenlerin hazırladığı sözleşmelere niteliklerine bakılmaksızın uygulanır (TBK m. 20/4).\n- **Tüketici sözleşmesi:** Tüketiciyle müzakere edilmeden sözleşmeye konan ve dürüstlük kuralına aykırı biçimde onun aleyhine dengesizlik yaratan şart **haksız şarttır** ve kesin hükümsüzdür (TKHK m. 5/1-2). Yönetmeliğin ekindeki örnek liste, tüketicinin ölmesi, yaralanması ya da maddi zarara uğraması hâlinde düzenleyenin sorumluluğunu kaldıran veya sınırlayan şartları ve edimin hiç, kısmen ya da ayıplı ifasında tüketicinin yasal haklarını kaldıran veya ölçüsüz sınırlayan şartları açıkça sayar.\n\n### 6.5 Tek taraflı ilanlar\n\"Sorumluluk kabul edilmez\" levhası bir anlaşma değildir. Otel ve otopark işleteni, sorumluluk üstlenmediğini herhangi bir yolla ilan etse bile kurtulamaz (TBK m. 578/2, m. 579/3). Yargıtay Hukuk Genel Kurulu otopark işletenin sorumluluğunu kusursuz nitelikte bir sözleşme sorumluluğu sayar. İşleten ancak zararın aracı bırakana ya da yanındakilere yüklenebilecek kusurdan, mücbir sebepten veya eşyanın niteliğinden doğduğunu ispatlayarak kurtulur (TBK m. 579/1). Kendisine ya da çalışanlarına kusur yüklenemiyorsa sorumluluğu günlük saklama ücretinin on katını aşamaz (TBK m. 579/2).\n\n## 7. Yardımcı kişilerin fiillerinden sorumluluk (TBK m. 116)\n\n### 7.1 Kural\nBorçlu, borcun ifasını ya da borç ilişkisinden doğan bir hakkın kullanılmasını, birlikte yaşadığı kişiler ya da yanında çalışanlar gibi **yardımcılarına** kanuna uygun biçimde bırakmış olsa bile, onların **işi yürüttükleri sırada** diğer tarafa verdikleri zararı gidermekle yükümlüdür (m. 116/1). Borcu bizzat ifa zorunluluğu kural olarak yoktur (TBK m. 83). Ama işi başkasına bırakan, onun hatasının riskini de üstlenir.\n\n### 7.2 Şartlar\n1. **Borç ilişkisi:** Borçlu ile zarar gören arasında zarardan önce kurulmuş bir borç ilişkisi bulunmalıdır.\n2. **Yardımcı kişi:** Borçlunun iradesiyle borcun ifasına ya da hakkın kullanılmasına katılan kişidir. Bağımlılık şart değildir. Aile bireyi, işçi, bağımsız bir firma ya da alt yüklenici olabilir.\n3. **İşin yürütülmesi sırasında zarar:** Zarar, yardımcıya bırakılan işle bağlantılı olmalıdır; ifa sırasında alacaklının malına ya da bedenine verilen zarar da bu kapsamdadır. İşin yalnız vesilesiyle verilen zarar tartışmalıdır.\n4. **Varsayımsal (farazi) kusur:** Yardımcının davranışını borçlu kendisi yapsaydı bu ona kusur olarak yüklenebilir miydi? Cevap evetse borçlu sorumludur.\n\n> **Örnek:** Bahçıvan Kemal, Ayşe'nin bahçe bakımını işçisi Ali'ye yaptırır. Ali çim biçme makinesini dikkatsiz kullanıp süs havuzunu kırarsa Kemal sorumludur; aynı şeyi kendisi yapsaydı kusurlu olurdu. Ali hiçbir bahçıvanın fark edemeyeceği biçimde gömülü eski bir boruyu patlatırsa, Kemal kendisi çalışsaydı da kusurlu sayılmazdı; sorumlu olmaz.\n\n### 7.3 Kurtuluş kanıtı yoktur: m. 66 ile fark\n\n| Ölçüt | TBK m. 116 | TBK m. 66 |\n|---|---|---|\n| Zarar görenle ilişki | Önceden borç ilişkisi var | Sözleşme ilişkisi yok |\n| Yardımcının konumu | Bağımlılık şart değil | Bağımlı çalışan |\n| Kurtuluş | Özen kanıtı yok | Özen kanıtıyla kurtuluş |\n\nYargıtay, adam çalıştıranın sorumluluğunun ancak zarar gören ile adam çalıştıran arasında hiçbir hukuki, özellikle sözleşmeye dayalı ilişki bulunmadığında uygulanacağını vurgular (TBK m. 66). Sözleşme varsa TBK m. 116 uygulanır. Borçlu, yardımcısını özenle seçtiğini ya da denetlediğini ispatlayarak kurtulamaz.\n\n> **Örnek (özel hastane):** Hekim 1 cc ilaç yazar, hemşire 10 cc uygular. Yargıtay'a göre hekim de hemşire de hastanenin yardımcı kişisidir ve hastane m. 116'ya göre sorumludur. Doğru dozu yazan hekim ise sorumlu değildir.\n\n### 7.4 İkameden farkı\nBazen borçlu işi bütünüyle başkasına devretmeye yetkilidir. Örneğin vekil, başkasına vekâlet vermeye yetkiliyse yalnız **seçmede ve talimat vermede** gerekli özeni göstermekle yükümlüdür (TBK m. 507/2). Yetkisi dışına çıkarak işi başkasına gördürürse onun fiilinden kendisi yapmış gibi sorumludur (TBK m. 507/1).\n\n### 7.5 Yardımcı kişiler için sorumsuzluk anlaşması\n- Yardımcı kişilerin fiilinden doğan sorumluluk, önceden yapılan bir anlaşmayla **tamamen veya kısmen kaldırılabilir** (m. 116/2). Kanun burada kusur derecesine göre bir sınır koymaz.\n- Uzmanlığı gerektiren bir hizmet, meslek veya sanat ancak kanun ya da yetkili makamların izniyle yürütülebiliyorsa böyle bir anlaşma **kesin hükümsüzdür** (m. 116/3). Hafif-ağır kusur ayrımı da yapılmaz.\n- Yardımcı kişiler için konan kayıt, borçlunun **kendi** kusurunu kapsamaz. Borçlu yardımcıyı yanlış seçmiş ya da işi kötü örgütlemişse kendi kusuru vardır ve bu kusur m. 115'e tabidir.\n\n### 7.6 Yardımcının kendi sorumluluğu\nYardımcı kişi alacaklıya karşı ancak haksız fiilden sorumludur (TBK m. 49). Borçlu ile yardımcı aynı zarardan farklı sebeplerle sorumluysa müteselsil sorumluluk hükümleri uygulanır (TBK m. 61); rücu ayrı konuda.\n\n## 8. Zamanaşımı: kısa hatırlatma\nKanunda aksine bir hüküm yoksa her alacak **on yıllık** zamanaşımına tabidir (TBK m. 146). Vekâlet sözleşmesinden doğan alacaklar ile yüklenicinin ağır kusuru dışındaki eser sözleşmesi alacakları gibi bazı alacaklarda süre beş yıldır (TBK m. 147/5-6). Ayrıntısı zamanaşımı konusunda.\n\n## 9. Olay çözerken denetim şeması\n1. **Borç ilişkisi:** Geçerli bir borç ilişkisi var mı, borçlu kim? (Özel hastanede hastane.)\n2. **Aykırılığın türü:** Hiç ifa etmeme mi (imkânsızlık, temerrüt), kötü ifa mı, yan ya da koruma yükümlülüğü ihlali mi? Yapma veya yapmama borcu varsa m. 113.\n3. **Zarar ve illiyet:** Maddi mi manevi mi? Fiili zarar mı, yoksun kalınan kâr mı? Uygun illiyet bağı var mı?\n4. **Kusur:** Karine işler (m. 112). Borçlu kusursuzluğunu ispatlayabilir mi? Özen ölçüsü işin niteliğine göre belirlenir (m. 114/1).\n5. **Yardımcı kişi:** İfaya biri katıldı mı? m. 116'nın şartları ve varsayımsal kusur. m. 66 ile karıştırma.\n6. **Sorumsuzluk kaydı:** Önceden mi yapıldı? m. 115/1-3 ve m. 116/2-3 sınırları. Matbu ise genel işlem koşulu denetimi (m. 20-25), tüketici sözleşmesiyse TKHK m. 5.\n7. **Kapsam:** m. 114/2 yoluyla m. 51 ve m. 52 (indirim), bedensel zararda m. 54 ve m. 56, kişilik hakkı zedelenmişse m. 58.\n8. **Zamanaşımı:** m. 146 ve özel süreler (m. 147).",
+  "critical_md": "- 📌 Kusur karinesi (TBK m. 112): Borçlu kusursuzluğunu ispatlamadıkça sorumludur. Alacaklı borç ilişkisini, aykırılığı, zararı ve uygun illiyet bağını ispatlar.\n- ⚠️ Haksız fiilde kusuru zarar gören ispatlar (TBK m. 50/1). Sözleşmeye aykırılıkta ispat yükü kusur bakımından tersine döner.\n- 📌 Borca aykırılık türleri: hiç ifa etmeme (kusursuz imkânsızlık m. 136, kusurlu imkânsızlık m. 112, temerrüt m. 117-118), kötü ifa ve olumlu ihlal (yan ve koruma yükümlülükleri).\n- 📌 Yapma borcu (TBK m. 113/1): Alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini ister; her türlü giderim hakkı saklıdır.\n- 📌 Yapmama borcu (TBK m. 113/2-3): Zarar giderilir. Ayrıca aykırılığın ortadan kaldırılması ya da masrafı borçluya ait olmak üzere alacaklının yetkili kılınması istenebilir.\n- 📌 TBK m. 114/1: Borçlu her türlü kusurdan sorumludur. Kapsam işin özel niteliğine göre belirlenir; iş borçluya yarar sağlamıyorsa sorumluluk daha hafif değerlendirilir.\n- ⚠️ TBK m. 114/2 ile haksız fiil hükümleri (m. 51, 52, 54, 56, 58) kıyasen uygulanır. Ama kusurun ispatı (m. 112), yardımcı kişi (m. 116) ve zamanaşımı (m. 146) sözleşme hukukunun kendi kurallarına tabidir.\n- ⚠️ Yargıtay HGK: Sözleşmeye aykırılık tek başına manevi tazminat gerektirmez. Kişilik hakkı zedelenmişse m. 114/2 yoluyla m. 58 uygulanır.\n- 📌 TBK m. 115/1: Ağır kusurdan (kast ve ağır ihmal) sorumsuzluğa ilişkin önceden yapılan anlaşma kesin hükümsüzdür. Hafif kusur için kural olarak geçerlidir.\n- 📌 TBK m. 115/2: Hizmet sözleşmesinden kaynaklanan herhangi bir borç için önceden yapılan her türlü sorumsuzluk anlaşması kesin hükümsüzdür.\n- 📌 TBK m. 115/3: Uzmanlık gerektiren ve ancak izinle yürütülebilen işlerde (hekim, avukat, banka) hafif kusurdan sorumsuzluk da kesin hükümsüzdür.\n- 📌 TBK m. 116/1: Yardımcı kişi için bağımlılık şart değildir. Özen kanıtıyla kurtuluş yoktur; ölçü varsayımsal kusurdur.\n- ⚠️ m. 66 (sözleşme dışı, özen kanıtıyla kurtuluş) ile m. 116 (önceden borç ilişkisi, kurtuluş kanıtı yok) karıştırılmamalı. Özel hastanede hekim ve hemşire hastanenin yardımcı kişisidir.\n- 📌 TBK m. 116/2-3: Yardımcı kişiden sorumluluk tamamen veya kısmen kaldırılabilir. İzinle yürütülen uzmanlık işlerinde bu anlaşma kesin hükümsüzdür.\n- ⚠️ Otel ve otopark işleteni \"sorumluluk kabul edilmez\" ilanıyla kurtulamaz (TBK m. 578/2, m. 579/3).",
+  "doctrine_md": "### Kusur karinesi özen borçlarında ne kadar işe yarar?\nHekim ve avukatın borcu bir sonucu değil, özenli davranmayı konu alır. Bu borçlarda alacaklının ispatlaması gereken aykırılık zaten \"gereken özenin gösterilmemesi\" olgusudur. Bu yüzden özen borçlarında kusur karinesinin pratik etkisinin sınırlı kaldığı ileri sürülür. Hukuk Genel Kurulu, ıslahla artırdığı talep zamanaşımının başlangıcına ilişkin farklı bir yorum yüzünden reddedilen avukatı oyçokluğuyla kusurlu saymadı; vekil sonuçtan değil, özenli davranıştan sorumludur. Karşı oy, avukatın bu yorum farkını bilip müvekkilini korumak için \"en emin yolu\" seçmesi gerektiğini savundu.\n\n### Yardımcının ağır kusurundan sorumsuzluk\nTBK m. 116/2 kusur derecesine göre bir sınır koymaz. Baskın görüşe göre yardımcının kast ve ağır ihmalinden doğan sorumluluk da önceden kaldırılabilir; çünkü kendi ağır kusurundan kurtulmak ile başkasının ağır kusurunun riskini devretmek aynı şey değildir. Bir görüş ise borçlunun işletme organizasyonunda kusurlu olduğu hâllerde bu kaydın uygulanmaması gerektiğini savunur. Hizmet sözleşmesinde m. 115/2'deki \"her türlü anlaşma\" ifadesinin yardımcı kişiler için yapılan anlaşmaları da kapsadığı ileri sürülür.\n\n### \"İşi yürüttükleri sırada\" ne demek?\nBir görüş, borçlunun sorumluluğunu ifayla doğrudan bağlantılı fiillerle sınırlar ve işin yalnız vesilesiyle verilen zararı dışarıda bırakır (örneğin kurulum için girilen evde hırsızlık). Diğer görüş, koruma yükümlülükleri nedeniyle ifa sırasında alacaklının malvarlığına ve kişiliğine verilen zararların da kapsama girdiğini savunur. İşyerinde bir işçinin başka bir işçiye saldırısında Yargıtay'ın bir dairesi işverenin m. 66'ya göre değil m. 116'ya göre incelenmesini istedi. İlk derece mahkemesi ise saldıranın işverenin davacıya karşı bir borcunu ifa etmediğini belirterek m. 116'yı da uygulamadı. Hukuk Genel Kurulu bu kararı yeni hüküm sayarak dosyayı Özel Daireye gönderdi.\n\n### m. 115/2'nin kapsamı\nEski Borçlar Kanunu, alacaklının borçlunun hizmetinde olduğu hâlde hafif kusurdan sorumsuzluk kaydını geçersiz saymayı hâkimin takdirine bırakıyordu; TBK doğrudan kesin hükümsüzlüğü benimsedi. Yeni lafız \"herhangi bir borç\" dediği için işçinin işverene karşı sorumluluğunu kaldıran kayıtları da kapsar görünür. Bu durumda işçi lehine bir kayıt da hükümsüz olur ve hükmün koruma amacı tersine döner. Amaçsal yorumu savunan görüş, yalnız işçi aleyhine olan kayıtların kesin hükümsüz sayılması gerektiğini ileri sürer.\n\n### m. 115/3 ve m. 116/3'te \"uzmanlık\" şartı\nEski Borçlar Kanunu yalnız hükümetçe verilen imtiyazla yürütülen işlerden söz ediyordu; TBK izin şartının yanına uzmanlık şartını ekledi. Hekimlik, avukatlık ve bankacılık kapsamda görülür. Sınır, izne bağlı olup ne ölçüde uzmanlık gerektirdiği belirsiz işlerde (ör. taksicilik) tartışmalıdır. Dar yorum, özel bir mesleki bilgi gerektirmeyen izinli işleri kapsam dışında tutar. Geniş yorum ise izin verilirken mesleki yeterlik aranıyorsa uzmanlık şartının da gerçekleştiğini kabul eder.\n\n### Sözleşmeye aykırılıkta manevi tazminatın sınırı\nYargıtay manevi tazminatı sözleşme alanına m. 114/2 köprüsüyle taşır, ama yalnız kişilik hakkı zedelendiğinde. Sınırın nereden geçtiği tartışmalıdır: bagaj gecikmesi kararında karşı görüş, her sözleşmeye aykırılığın manevi tazminat doğurmayacağını hatırlattı. Yansıma zararı da sınırlıdır. Kurul, uçağa alınmayan yolcunun eşinin isteminin reddedilmesi gerektiğine oyçokluğuyla karar verdi: m. 58 kural olarak doğrudan zarar görmeyi arar, yansıma yoluyla manevi tazminat ise yalnız ağır bedensel zarar veya ölümde öngörülmüştür (TBK m. 56/2).",
+  "glossary": [
+   {
+    "term": "Borca aykırılık",
+    "definition": "Borçlunun borç ilişkisinin kendisinden beklediği davranıştan ayrılması: borcu hiç ya da gereği gibi ifa etmemesi (TBK m. 112)."
+   },
+   {
+    "term": "Kötü ifa",
+    "definition": "Edimin yerine getirilmesi, ama eksik, kusurlu ya da ayıplı biçimde yerine getirilmesi."
+   },
+   {
+    "term": "Sözleşmenin olumlu ihlali",
+    "definition": "Asıl edim yerine getirildiği hâlde bilgi verme, sır saklama, koruma gibi yan yükümlülüklerin ihlal edilmesi."
+   },
+   {
+    "term": "Koruma yükümlülüğü",
+    "definition": "Borçlunun ifa sırasında alacaklının bedenine ve malvarlığına zarar vermeme yükümlülüğü. Dürüstlük kuralına (TMK m. 2) dayanır."
+   },
+   {
+    "term": "Kusur karinesi",
+    "definition": "Sözleşmeye aykırılıkta kusurun var sayılması; borçlunun ancak kusursuzluğunu ispatlayarak kurtulabilmesi (TBK m. 112)."
+   },
+   {
+    "term": "Ağır kusur",
+    "definition": "Kast ve ağır ihmal. Ağır ihmal, aynı durumdaki herkesin göstereceği en basit özenin bile gösterilmemesidir."
+   },
+   {
+    "term": "Hafif kusur",
+    "definition": "Hafif ihmal: dikkatli ve makul bir kişinin göstereceği özenin gösterilmemesi."
+   },
+   {
+    "term": "Yapma borcu",
+    "definition": "Borçlunun bir faaliyette bulunmasını konu alan borç. İfa edilmezse alacaklı, masrafı borçluya ait olmak üzere başkasına yaptırma izni isteyebilir (TBK m. 113/1)."
+   },
+   {
+    "term": "Yapmama borcu",
+    "definition": "Borçlunun bir davranıştan kaçınmasını konu alan borç. Aykırı davranışın kendisi borca aykırılıktır (TBK m. 113/2-3)."
+   },
+   {
+    "term": "Sorumsuzluk anlaşması",
+    "definition": "Borçlunun ileride doğabilecek sorumluluğunu önceden tamamen ya da kısmen kaldıran anlaşma (TBK m. 115, m. 116/2-3)."
+   },
+   {
+    "term": "Yardımcı kişi (ifa yardımcısı)",
+    "definition": "Borçlunun iradesiyle borcun ifasına ya da borçtan doğan bir hakkın kullanılmasına katılan kişi. Bağımlılık şart değildir (TBK m. 116/1)."
+   },
+   {
+    "term": "Varsayımsal (farazi) kusur",
+    "definition": "Yardımcının davranışını borçlu kendisi yapsaydı bunun ona kusur olarak yüklenip yüklenemeyeceği ölçütü."
+   },
+   {
+    "term": "Olumlu (müspet) zarar",
+    "definition": "Sözleşme gereği gibi ifa edilseydi alacaklının ulaşacağı durum ile şimdiki durumu arasındaki fark (ifa yararı)."
+   },
+   {
+    "term": "Olumsuz (menfi) zarar",
+    "definition": "Sözleşmenin geçerli olarak kurulacağına ya da ifa edileceğine güvenilmesi yüzünden uğranılan zarar (güven yararı)."
+   },
+   {
+    "term": "Hakların yarışması",
+    "definition": "Aynı davranışın hem sözleşmeye aykırılık hem haksız fiil oluşturması; zarar gören istemini dilediğine dayandırabilir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "113",
+   "official_text": "MADDE 113- Yapma borcu, borçlu tarafından ifa edilmediği takdirde alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini isteyebilir; her türlü giderim isteme hakkı saklıdır.\nYapmama borcuna aykırı davranan borçlu, bu aykırı davranışının doğurduğu zararı gidermekle yükümlüdür.\nAlacaklı, ayrıca borca aykırı durumun ortadan kaldırılmasını veya bu konuda masrafı borçluya ait olmak üzere kendisinin yetkili kılınmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "114",
+   "official_text": "MADDE 114- Borçlu, genel olarak her türlü kusurdan sorumludur. Borçlunun sorumluluğunun kapsamı, işin özel niteliğine göre belirlenir. İş özellikle borçlu için bir yarar sağlamıyorsa, sorumluluk daha hafif olarak değerlendirilir.\nHaksız fiil sorumluluğuna ilişkin hükümler, kıyas yoluyla sözleşmeye aykırılık hâllerine de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "115",
+   "official_text": "MADDE 115- Borçlunun ağır kusurundan sorumlu olmayacağına ilişkin önceden yapılan anlaşma kesin olarak hükümsüzdür.\nBorçlunun alacaklı ile hizmet sözleşmesinden kaynaklanan herhangi bir borç sebebiyle sorumlu olmayacağına ilişkin olarak önceden yaptığı her türlü anlaşma kesin olarak hükümsüzdür.\nUzmanlığı gerektiren bir hizmet, meslek veya sanat, ancak kanun ya da yetkili makamlar tarafından verilen izinle yürütülebiliyorsa, borçlunun hafif kusurundan sorumlu olmayacağına ilişkin önceden yapılan anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "116",
+   "official_text": "MADDE 116- Borçlu, borcun ifasını veya bir borç ilişkisinden doğan hakkın kullanılmasını, birlikte yaşadığı kişiler ya da yanında çalışanlar gibi yardımcılarına kanuna uygun surette bırakmış olsa bile, onların işi yürüttükleri sırada diğer tarafa verdikleri zararı gidermekle yükümlüdür.\nYardımcı kişilerin fiilinden doğan sorumluluk, önceden yapılan bir anlaşmayla tamamen veya kısmen kaldırılabilir.\nUzmanlığı gerektiren bir hizmet, meslek veya sanat, ancak kanun veya yetkili makamlar tarafından verilen izinle yürütülebiliyorsa, borçlunun yardımcı kişilerin fiillerinden sorumlu olmayacağına ilişkin anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "20",
+   "official_text": "MADDE 20- Genel işlem koşulları, bir sözleşme yapılırken düzenleyenin, ileride çok sayıdaki benzer sözleşmede kullanmak amacıyla, önceden, tek başına hazırlayarak karşı tarafa sunduğu sözleşme hükümleridir. Bu koşulların, sözleşme metninde veya ekinde yer alması, kapsamı, yazı türü ve şekli, nitelendirmede önem taşımaz.\nAynı amaçla düzenlenen sözleşmelerin metinlerinin özdeş olmaması, bu sözleşmelerin içerdiği hükümlerin, genel işlem koşulu sayılmasını engellemez.\nGenel işlem koşulları içeren sözleşmeye veya ayrı bir sözleşmeye konulan bu koşulların her birinin tartışılarak kabul edildiğine ilişkin kayıtlar, tek başına, onları genel işlem koşulu olmaktan çıkarmaz.\nGenel işlem koşullarıyla ilgili hükümler, sundukları hizmetleri kanun veya yetkili makamlar tarafından verilen izinle yürütmekte olan kişi ve kuruluşların hazırladıkları sözleşmelere de, niteliklerine bakılmaksızın uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "21",
+   "official_text": "MADDE 21- Karşı tarafın menfaatine aykırı genel işlem koşullarının sözleşmenin kapsamına girmesi, sözleşmenin yapılması sırasında düzenleyenin karşı tarafa, bu koşulların varlığı hakkında açıkça bilgi verip, bunların içeriğini öğrenme imkânı sağlamasına ve karşı tarafın da bu koşulları kabul etmesine bağlıdır. Aksi takdirde, genel işlem koşulları yazılmamış sayılır.\nSözleşmenin niteliğine ve işin özelliğine yabancı olan genel işlem koşulları da yazılmamış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "22",
+   "official_text": "MADDE 22- Sözleşmenin yazılmamış sayılan genel işlem koşulları dışındaki hükümleri geçerliliğini korur. Bu durumda düzenleyen, yazılmamış sayılan koşullar olmasaydı diğer hükümlerle sözleşmeyi yapmayacak olduğunu ileri süremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "23",
+   "official_text": "MADDE 23- Genel işlem koşullarında yer alan bir hüküm, açık ve anlaşılır değilse veya birden çok anlama geliyorsa, düzenleyenin aleyhine ve karşı tarafın lehine yorumlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "25",
+   "official_text": "MADDE 25- Genel işlem koşullarına, dürüstlük kurallarına aykırı olarak, karşı tarafın aleyhine veya onun durumunu ağırlaştırıcı nitelikte hükümler konulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "27",
+   "official_text": "MADDE 27- Kanunun emredici hükümlerine, ahlaka, kamu düzenine, kişilik haklarına aykırı veya konusu imkânsız olan sözleşmeler kesin olarak hükümsüzdür.\nSözleşmenin içerdiği hükümlerden bir kısmının hükümsüz olması, diğerlerinin geçerliliğini etkilemez. Ancak, bu hükümler olmaksızın sözleşmenin yapılmayacağı açıkça anlaşılırsa, sözleşmenin tamamı kesin olarak hükümsüz olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "50",
+   "official_text": "MADDE 50- Zarar gören, zararını ve zarar verenin kusurunu ispat yükü altındadır.\nUğranılan zararın miktarı tam olarak ispat edilemiyorsa hâkim, olayların olağan akışını ve zarar görenin aldığı önlemleri göz önünde tutarak, zararın miktarını hakkaniyete uygun olarak belirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "51",
+   "official_text": "MADDE 51- Hâkim, tazminatın kapsamını ve ödenme biçimini, durumun gereğini ve özellikle kusurun ağırlığını göz önüne alarak belirler.\nTazminatın irat biçiminde ödenmesine hükmedilirse, borçlu güvence göstermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "52",
+   "official_text": "MADDE 52- Zarar gören, zararı doğuran fiile razı olmuş veya zararın doğmasında ya da artmasında etkili olmuş yahut tazminat yükümlüsünün durumunu ağırlaştırmış ise hâkim, tazminatı indirebilir veya tamamen kaldırabilir.\nZarara hafif kusuruyla sebep olan tazminat yükümlüsü, tazminatı ödediğinde yoksulluğa düşecek olur ve hakkaniyet de gerektirirse hâkim, tazminatı indirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "54",
+   "official_text": "MADDE 54- Bedensel zararlar özellikle şunlardır:\n1. Tedavi giderleri.\n2. Kazanç kaybı.\n3. Çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar.\n4. Ekonomik geleceğin sarsılmasından doğan kayıplar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "56",
+   "official_text": "MADDE 56- Hâkim, bir kimsenin bedensel bütünlüğünün zedelenmesi durumunda, olayın özelliklerini göz önünde tutarak, zarar görene uygun bir miktar paranın manevi tazminat olarak ödenmesine karar verebilir.\nAğır bedensel zarar veya ölüm hâlinde, zarar görenin veya ölenin yakınlarına da manevi tazminat olarak uygun bir miktar paranın ödenmesine karar verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "58",
+   "official_text": "MADDE 58- Kişilik hakkının zedelenmesinden zarar gören, uğradığı manevi zarara karşılık manevi tazminat adı altında bir miktar para ödenmesini isteyebilir.\nHâkim, bu tazminatın ödenmesi yerine, diğer bir giderim biçimi kararlaştırabilir veya bu tazminata ekleyebilir; özellikle saldırıyı kınayan bir karar verebilir ve bu kararın yayımlanmasına hükmedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "61",
+   "official_text": "MADDE 61- Birden çok kişi birlikte bir zarara sebebiyet verdikleri veya aynı zarardan çeşitli sebeplerden dolayı sorumlu oldukları takdirde, haklarında müteselsil sorumluluğa ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "66",
+   "official_text": "MADDE 66- Adam çalıştıran, çalışanın, kendisine verilen işin yapılması sırasında başkalarına verdiği zararı gidermekle yükümlüdür.\nAdam çalıştıran, çalışanını seçerken, işiyle ilgili talimat verirken, gözetim ve denetimde bulunurken, zararın doğmasını engellemek için gerekli özeni gösterdiğini ispat ederse, sorumlu olmaz.\nBir işletmede adam çalıştıran, işletmenin çalışma düzeninin zararın doğmasını önlemeye elverişli olduğunu ispat etmedikçe, o işletmenin faaliyetleri dolayısıyla sebep olunan zararı gidermekle yükümlüdür.\nAdam çalıştıran, ödediği tazminat için, zarar veren çalışana, ancak onun bizzat sorumlu olduğu ölçüde rücu hakkına sahiptir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "72",
+   "official_text": "MADDE 72- Tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Ancak, tazminat ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa, bu zamanaşımı uygulanır.\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile, her zaman bu borcu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "83",
+   "official_text": "MADDE 83- Borcun, bizzat borçlu tarafından ifa edilmesinde alacaklının menfaati bulunmadıkça borçlu, borcunu şahsen ifa etmekle yükümlü değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "118",
+   "official_text": "MADDE 118- Temerrüde düşen borçlu, temerrüde düşmekte kusuru olmadığını ispat etmedikçe, borcun geç ifasından dolayı alacaklının uğradığı zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "123",
+   "official_text": "MADDE 123- Karşılıklı borç yükleyen sözleşmelerde, taraflardan biri temerrüde düştüğü takdirde diğeri, borcun ifa edilmesi için uygun bir süre verebilir veya uygun bir süre verilmesini hâkimden isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "136",
+   "official_text": "I. Genel olarak\nMADDE 136- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle imkânsızlaşırsa, borç sona erer.\nKarşılıklı borç yükleyen sözleşmelerde imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlü olup, henüz kendisine ifa edilmemiş olan edimi isteme hakkını kaybeder. Kanun veya sözleşmeyle borcun ifasından önce doğan hasarın alacaklıya yükletilmiş olduğu durumlar, bu hükmün dışındadır.\nBorçlu ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmez ve zararın artmaması için gerekli önlemleri almazsa, bundan doğan zararları gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "147",
+   "official_text": "MADDE 147- Aşağıdaki alacaklar için beş yıllık zamanaşımı uygulanır:\n1. Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler.\n2. Otel, motel, pansiyon ve tatil köyü gibi yerlerdeki konaklama bedelleri ile lokanta ve benzeri yerlerdeki yeme içme bedelleri.\n3. Küçük sanat işlerinden ve küçük çapta perakende satışlardan doğan alacaklar.\n4. Bir ortaklıkta, ortaklık sözleşmesinden doğan ve ortakların birbirleri veya kendileri ile ortaklık arasındaki; bir ortaklığın müdürleri, temsilcileri, denetçileri ile ortaklık veya ortaklar arasındaki alacaklar.\n5. Vekâlet, komisyon ve acentalık sözleşmelerinden, ticari simsarlık ücreti alacağı dışında, simsarlık sözleşmesinden doğan alacaklar.\n6. Yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında, eser sözleşmesinden doğan alacaklar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "227",
+   "official_text": "MADDE 227- Satıcının satılanın ayıplarından sorumlu olduğu hâllerde alıcı, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme.\n2. Satılanı alıkoyup ayıp oranında satış bedelinde indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme.\n4. İmkân varsa, satılanın ayıpsız bir benzeri ile değiştirilmesini isteme.\nAlıcının genel hükümlere göre tazminat isteme hakkı saklıdır.\nSatıcı, alıcıya aynı malın ayıpsız bir benzerini hemen vererek ve uğradığı zararın tamamını gidererek seçimlik haklarını kullanmasını önleyebilir.\nAlıcının, sözleşmeden dönme hakkını kullanması hâlinde, durum bunu haklı göstermiyorsa hâkim, satılanın onarılmasına veya satış bedelinin indirilmesine karar verebilir.\nSatılanın değerindeki eksiklik satış bedeline çok yakın ise alıcı, ancak sözleşmeden dönme veya satılanın ayıpsız bir benzeriyle değiştirilmesini isteme haklarından birini kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "393",
+   "official_text": "MADDE 393- Hizmet sözleşmesi, işçinin işverene bağımlı olarak belirli veya belirli olmayan süreyle işgörmeyi ve işverenin de ona zamana veya yapılan işe göre ücret ödemeyi üstlendiği sözleşmedir.\nİşçinin işverene bir hizmeti kısmi süreli olarak düzenli biçimde yerine getirmeyi üstlendiği sözleşmeler de hizmet sözleşmesidir.\nGenel hizmet sözleşmesine ilişkin hükümler, kıyas yoluyla çıraklık sözleşmesine de uygulanır; özel kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "417",
+   "official_text": "MADDE 417- İşveren, hizmet ilişkisinde işçinin kişiliğini korumak ve saygı göstermek ve işyerinde dürüstlük ilkelerine uygun bir düzeni sağlamakla, özellikle işçilerin psikolojik ve cinsel tacize uğramamaları ve bu tür tacizlere uğramış olanların daha fazla zarar görmemeleri için gerekli önlemleri almakla yükümlüdür.\nİşveren, işyerinde iş sağlığı ve güvenliğinin sağlanması için gerekli her türlü önlemi almak, araç ve gereçleri noksansız bulundurmak; işçiler de iş sağlığı ve güvenliği konusunda alınan her türlü önleme uymakla yükümlüdür.\nİşverenin yukarıdaki hükümler dâhil, kanuna ve sözleşmeye aykırı davranışı nedeniyle işçinin ölümü, vücut bütünlüğünün zedelenmesi veya kişilik haklarının ihlaline bağlı zararların tazmini, sözleşmeye aykırılıktan doğan sorumluluk hükümlerine tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "471",
+   "official_text": "MADDE 471- Yüklenici, üstlendiği edimleri işsahibinin haklı menfaatlerini gözeterek, sadakat ve özenle ifa etmek zorundadır.\nYüklenicinin özen borcundan doğan sorumluluğunun belirlenmesinde, benzer alandaki işleri üstlenen basiretli bir yüklenicinin göstermesi gereken meslekî ve teknik kurallara uygun davranışı esas alınır.\nYüklenici, meydana getirilecek eseri doğrudan doğruya kendisi yapmak veya kendi yönetimi altında yaptırmakla yükümlüdür. Ancak, eserin meydana getirilmesinde yüklenicinin kişisel özellikleri önem taşımıyorsa, işi başkasına da yaptırabilir.\nAksine âdet veya anlaşma olmadıkça yüklenici, eserin meydana getirilmesi için kullanılacak olan araç ve gereçleri kendisi sağlamak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "473",
+   "official_text": "MADDE 473- Yüklenicinin işe zamanında başlamaması veya sözleşme hükümlerine aykırı olarak işi geciktirmesi ya da işsahibine yüklenemeyecek bir sebeple ortaya çıkan gecikme yüzünden bütün tahminlere göre yüklenicinin işi kararlaştırılan zamanda bitiremeyeceği açıkça anlaşılırsa, işsahibi teslim için belirlenen günü beklemek zorunda olmaksızın sözleşmeden dönebilir.\nMeydana getirilmesi sırasında, eserin yüklenicinin kusuru yüzünden ayıplı veya sözleşmeye aykırı olarak meydana getirileceği açıkça görülüyorsa, işsahibi bunu önlemek üzere vereceği veya verdireceği uygun bir süre içinde yükleniciye, ayıbın veya aykırılığın giderilmesi; aksi takdirde hasar ve masrafları kendisine ait olmak üzere, onarımın veya işe devamın bir üçüncü kişiye verileceği konusunda ihtarda bulunabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "475",
+   "official_text": "MADDE 475- Eserdeki ayıp sebebiyle yüklenicinin sorumlu olduğu hâllerde işsahibi, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Eser işsahibinin kullanamayacağı veya hakkaniyet gereği kabule zorlanamayacağı ölçüde ayıplı ya da sözleşme hükümlerine aynı ölçüde aykırı olursa sözleşmeden dönme.\n2. Eseri alıkoyup ayıp oranında bedelden indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları yükleniciye ait olmak üzere, eserin ücretsiz onarılmasını isteme.\nİşsahibinin genel hükümlere göre tazminat isteme hakkı saklıdır.\nEser, işsahibinin taşınmazı üzerinde yapılmış olup, sökülüp kaldırılması aşırı zarar doğuracaksa işsahibi, sözleşmeden dönme hakkını kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "502",
+   "official_text": "MADDE 502- Vekâlet sözleşmesi, vekilin vekâlet verenin bir işini görmeyi veya işlemini yapmayı üstlendiği sözleşmedir.\nVekâlete ilişkin hükümler, niteliklerine uygun düştükleri ölçüde, bu Kanunda düzenlenmemiş olan işgörme sözleşmelerine de uygulanır.\nSözleşme veya teamül varsa vekil, ücrete hak kazanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "506",
+   "official_text": "MADDE 506- Vekil, vekâlet borcunu bizzat ifa etmekle yükümlüdür. Ancak vekile yetki verildiği veya durumun zorunlu ya da teamülün mümkün kıldığı hâllerde vekil, işi başkasına yaptırabilir.\nVekil üstlendiği iş ve hizmetleri, vekâlet verenin haklı menfaatlerini gözeterek, sadakat ve özenle yürütmekle yükümlüdür.\nVekilin özen borcundan doğan sorumluluğunun belirlenmesinde, benzer alanda iş ve hizmetleri üstlenen basiretli bir vekilin göstermesi gereken davranış esas alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "507",
+   "official_text": "MADDE 507- Vekil, yetkisi dışına çıkarak işi başkasına gördürdüğünde, onun fiilinden kendisi yapmış gibi sorumludur.\nVekil başkasına vekâlet vermeye yetkili ise, sadece seçmede ve talimat vermede gerekli özeni göstermekle yükümlüdür.\nVekâlet veren, her iki durumda da vekilin kendi yerine koyduğu kişiye karşı sahip olduğu hakları, doğrudan doğruya o kişiye karşı ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "578",
+   "official_text": "3. Sorumluluğun kalkması\nMADDE 578- Konaklayan zararını öğrenir öğrenmez işletene bildirmezse, istem hakkını kaybeder.\nİşleten böyle bir sorumluluk üstlenmediğini veya sorumluluğu bu Kanunda gösterilmemiş olan bir koşula bağladığını, herhangi bir yolla ilan etse bile, sorumluluktan kurtulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "579",
+   "official_text": "MADDE 579- Garaj, otopark ve benzeri yerleri işletenler, kendilerine bırakılan veya çalışanlarınca kabul edilen hayvan, at arabası, bunlara ait koşum ve benzeri eşya ile motorlu taşıt ve eklentilerinin yok olmasından, zarara uğramasından veya çalınmasından sorumludurlar. Ancak işletenler, zararın saklatan veya ziyaretçisi ya da beraberinde veya hizmetinde bulunan kimseye yükletilebilecek kusurdan, mücbir sebepten ya da eşyanın niteliğinden doğduğunu ispat etmekle, bu sorumluktan kurtulurlar.\nAncak, garaj, otopark ve benzeri yerleri işletenlerin sorumluluğu, kendilerine veya çalışanlarına bir kusur yüklenmedikçe, saklananların her biri için alınan günlük saklama ücretinin on katını aşamaz.\nİşleten böyle bir sorumluluk üstlenmediğini veya sorumluluğu bu Kanunda gösterilmemiş olan bir koşula bağladığını, herhangi bir yolla ilan etse bile, sorumluluktan kurtulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "3",
+   "official_text": "Tanımlar\nMADDE 3- (1) Bu Kanunun uygulanmasında;\na) Bakan: Gümrük ve Ticaret Bakanını,\nb) Bakanlık: Gümrük ve Ticaret Bakanlığını,\nc) Genel Müdür: Tüketicinin Korunması ve Piyasa Gözetimi Genel Müdürünü,\nç) Genel Müdürlük: Tüketicinin Korunması ve Piyasa Gözetimi Genel Müdürlüğünü,\nd) Hizmet: Bir ücret veya menfaat karşılığında yapılan ya da yapılması taahhüt edilen mal sağlama dışındaki her türlü tüketici işleminin konusunu,\ne) İthalatçı: Kamu tüzel kişileri de dâhil olmak üzere mal veya hizmetleri ya da bu malların hammaddelerini yahut ara mallarını ticari veya mesleki amaçlarla ithal ederek satım, kira, finansal kiralama veya benzeri bir yolla piyasaya süren gerçek veya tüzel kişiyi,\nf) Kalıcı veri saklayıcısı: Tüketicinin gönderdiği veya kendisine gönderilen bilgiyi, bu bilginin amacına uygun olarak makul bir süre incelemesine elverecek şekilde kaydedilmesini ve değiştirilmeden kopyalanmasını sağlayan ve bu bilgiye aynen ulaşılmasına imkân veren kısa mesaj, elektronik posta, internet, disk, CD, DVD, hafıza kartı ve benzeri her türlü araç veya ortamı,\ng) Konut finansmanı kuruluşu: Konut finansmanı kapsamında doğrudan tüketiciye kredi kullandıran ya da finansal kiralama yapan bankalar ile Bankacılık Düzenleme ve Denetleme Kurulu tarafından konut finansmanı faaliyetinde bulunması uygun görülen finansal kiralama şirketleri ve finansman şirketlerini,\nğ) Kredi veren: Mevzuatı gereği tüketicilere kredi vermeye yetkili olan gerçek veya tüzel kişiyi,\nh) Mal: Alışverişe konu olan; taşınır eşya, konut veya tatil amaçlı taşınmaz mallar ile elektronik ortamda kullanılmak üzere hazırlanan yazılım, ses, görüntü ve benzeri her türlü gayri maddi malları,\nı) Sağlayıcı: Kamu tüzel kişileri de dâhil olmak üzere ticari veya mesleki amaçlarla tüketiciye hizmet sunan ya da hizmet sunanın adına ya da hesabına hareket eden gerçek veya tüzel kişiyi,\ni) Satıcı: Kamu tüzel kişileri de dâhil olmak üzere ticari veya mesleki amaçlarla tüketiciye mal sunan ya da mal sunanın adına ya da hesabına hareket eden gerçek veya tüzel kişiyi,\nj) Teknik düzenleme: 29/6/2001 tarihli ve 4703 sayılı Ürünlere İlişkin Teknik Mevzuatın Hazırlanması ve Uygulanmasına Dair Kanunda yer alan tanımı,\nk) Tüketici: Ticari veya mesleki olmayan amaçlarla hareket eden gerçek veya tüzel kişiyi,\nl) Tüketici işlemi: Mal veya hizmet piyasalarında kamu tüzel kişileri de dâhil olmak üzere ticari veya mesleki amaçlarla hareket eden veya onun adına ya da hesabına hareket eden gerçek veya tüzel kişiler ile tüketiciler arasında kurulan, eser, taşıma, simsarlık, sigorta, vekâlet, bankacılık ve benzeri sözleşmeler de dâhil olmak üzere her türlü sözleşme ve hukuki işlemi,\nm) Tüketici örgütleri: Tüketicinin korunması amacıyla kurulan dernek, vakıf veya bunların üst kuruluşlarını,\nn) Üretici: Kamu tüzel kişileri de dâhil olmak üzere tüketiciye sunulmuş olan mal ya da bu malların hammaddelerini yahut ara mallarını üretenler ile mal üzerine markasını, unvanını veya herhangi bir ayırt edici işaretini koyarak kendisini üretici olarak gösteren gerçek veya tüzel kişiyi,\nifade eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "5",
+   "official_text": "Tüketici sözleşmelerindeki haksız şartlar\nMADDE 5- (1) Haksız şart; tüketiciyle müzakere edilmeden sözleşmeye dâhil edilen ve tarafların sözleşmeden doğan hak ve yükümlülüklerinde dürüstlük kuralına aykırı düşecek biçimde tüketici aleyhine dengesizliğe neden olan sözleşme şartlarıdır.\n(2) Tüketiciyle akdedilen sözleşmelerde yer alan haksız şartlar kesin olarak hükümsüzdür. Sözleşmenin haksız şartlar dışındaki hükümleri geçerliliğini korur. Bu durumda sözleşmeyi düzenleyen, kesin olarak hükümsüz sayılan şartlar olmasaydı diğer hükümlerle sözleşmeyi yapmayacak olduğunu ileri süremez.\n(3) Bir sözleşme şartı önceden hazırlanmış ve standart sözleşmede yer alması nedeniyle tüketici içeriğine etki edememişse, o sözleşme şartının tüketiciyle müzakere edilmediği kabul edilir. Sözleşmeyi düzenleyen, bir standart şartın münferiden müzakere edildiğini iddia ediyorsa bunu ispatla yükümlüdür. Sözleşmenin bütün olarak değerlendirilmesinden standart sözleşme olduğu sonucuna varılırsa, bu sözleşmedeki bir şartın belirli unsurlarının veya münferit bir hükmünün müzakere edilmiş olması, sözleşmenin kalan kısmına bu maddenin uygulanmasını engellemez.\n(4) Sözleşme şartlarının yazılı olması hâlinde, tüketicinin anlayabileceği açık ve anlaşılır bir dilin kullanılmış olması gerekir. Sözleşmede yer alan bir hükmün açık ve anlaşılır olmaması veya birden çok anlama gelmesi hâlinde; bu hüküm, tüketicinin lehine yorumlanır.\n(5) Faaliyetlerini, kanun veya yetkili makamlar tarafından verilen izinle yürütmekte olan kişi veya kuruluşların hazırladıkları sözleşmelere de niteliklerine bakılmaksızın bu madde hükümleri uygulanır.\n(6) Bir sözleşme şartının haksızlığı; sözleşme konusu olan mal veya hizmetin niteliği, sözleşmenin kuruluşunda var olan şartlar ve sözleşmenin diğer hükümleri veya haksız şartın ilgili olduğu diğer bir sözleşmenin hükümleri dikkate alınmak suretiyle sözleşmenin kuruluş anına göre belirlenir.\n(7) Sözleşme şartlarının haksızlığının takdirinde, bu şartlar açık ve anlaşılır bir dille yazılmış olmak koşuluyla, hem sözleşmeden doğan asli edim yükümlülükleri arasındaki hem de mal veya hizmetin piyasa değeri ile sözleşmede belirlenen fiyat arasındaki dengeye ilişkin bir değerlendirme yapılamaz.\n(8) Bakanlık, genel olarak kullanılmak üzere hazırlanmış sözleşmelerde yer alan haksız şartların, sözleşme metinlerinden çıkarılması veya kullanılmasının önlenmesi için gerekli tedbirleri alır.\n(9) Haksız şartların tespit edilmesi ve denetlenmesine ilişkin usul ve esaslar ile sınırlayıcı olmamak üzere haksız şart olduğu kabul edilen sözleşme şartları yönetmelikle belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "30",
+   "official_text": "Bir işin yapılmasına veya yapılmamasına dair olan ilamlar:[16]\nMadde 30 – Bir işin yapılmasına mütedair ilam icra dairesine verilince icra memuru 24 üncü maddede yazılı şekilde bir icra emri tebliği suretiyle borçluya ilamda gösterilen müddet içinde ve eğer müddet tayin edilmemişse işin mahiyetine göre başlama ve bitirme zamanlarını tayin ederek işi yapmağı emreder.\nBorçlu muayyen müddetlerde işe başlamaz veya bitirmez ve iş diğer bir kimse tarafından yapılabilecek şeylerden olur ve alacaklı da isterse yapılması için lazımgelen masraf icra memuru tarafından ehlivukufa takdir ettirilir. Bu masrafın ilerde hükme hacet kalmaksızın borçludan tahsil olunup kendisine verilmek üzere ifasına alacaklı muvafakat ederse alınıp hükmolunan iş yaptırılır. Muvafakat etmezse ayrıca hükme hacet kalmadan borçlunun kafi miktarda malı haciz ile paraya çevrilerek o iş yaptırılır.\nİlam, bir işin yapılmamasına mütedair olduğu takdirde icra dairesi tarafından ilamın hükmü borçluya aynı müddetli bir emirle tebliğ olunur. Bu emirde ilam hükmüne muhalefetin 343 üncü maddedeki cezayı müstelzim olduğu yazılır.\n(Ek son fıkra: 17/7/2003-4949/9 md.) Bir işin yapılmasına veya yapılmamasına dair olan ilâm hükmü yerine getirildikten sonra borçlu, ilâm hükmünü ortadan kaldıracak bir eylemde bulunursa, mahkemeden ayrıca hüküm almaya gerek kalmadan, önceki ilâm hükmü tekrar zorla yerine getirilir.\nİrtifak haklarına mütedair ilamlar:[17]\n[17] Bu madde başlığı “İrtifak haklariyle gemi üzerindeki intifa haklarına mütedair ilamlar:” iken, 14/1/2011 tarihli ve 6103 sayılı Kanunun 41 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "18",
+   "official_text": "I - Genel olarak\nMADDE 18- (1) Tacir, her türlü borcu için iflasa tabidir; ayrıca kanuna uygun bir ticaret unvanı seçmek, ticari işletmesini ticaret siciline tescil ettirmek ve bu Kanun hükümleri uyarınca gerekli ticari defterleri tutmakla da yükümlüdür.\n(2) Her tacirin, ticaretine ait bütün faaliyetlerinde basiretli bir iş adamı gibi hareket etmesi gerekir.\n(3) Tacirler arasında, diğer tarafı temerrüde düşürmeye, sözleşmeyi feshe, sözleşmeden dönmeye ilişkin ihbarlar veya ihtarlar noter aracılığıyla, taahhütlü mektupla, telgrafla veya güvenli elektronik imza kullanılarak kayıtlı elektronik posta sistemi ile yapılır.\n(4) Tacir sıfatına bağlı olan diğer hükümler saklıdır.\nII - Özel olarak",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/2244",
+   "karar_no": "2021/961",
+   "decision_date": "07.07.2021",
+   "summary_md": "Böbrek hastası olan ve gebeliği hayati risk taşıyan bir kadının özel hastanede yapılan kürtaj sırasında rahmi ve bağırsağı delinmiş; hasta aynı gün eve gönderilmiş, şikâyetleri artınca diyaliz ünitesi olmayan bir hastaneye yönlendirilmiş ve sonunda ölmüştür. Mirasçıların hekim ve hastaneye açtığı tazminat davasını ilk derece mahkemesi, Adli Tıp Kurumu Genel Kurulunun kusur bulunmadığı yönündeki raporuna dayanarak reddetmiş; Özel Daire bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını genişletilmiş gerekçeyle oybirliğiyle bozmuştur. Gerekçeye göre hastaneye kabul sözleşmesinde tıbbi tedaviye vekâlet hükümleri uygulanır; hastane yanında çalışan hekim ve hemşire gibi personelin eylemlerinden de sorumludur ve vekil en hafif kusurundan sorumludur. Kusur karine olarak var sayılır, ama sözleşmenin ihlalini, zararı ve uygun illiyet bağını alacaklı ispatlar; iyi yönetilen bir komplikasyon sorumluluk doğurmaz. Gerekçesiz rapor hükme esas alınamaz, üniversitelerden seçilecek uzman bir heyetten denetime elverişli rapor alınmalıdır. Konuya katkısı: kusur karinesinin sınırını ve özen borcunda ispat yükünün dağılımını gösterir; karar, bugünkü TBK m. 112'nin karşılığı olan eski hükme dayanır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/685291900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2020/6078",
+   "karar_no": "2021/6384",
+   "decision_date": "10.06.2021",
+   "summary_md": "Özel hastanede hekimin 1 cc (50 mikrogram) olarak yazdığı ağrı kesici hemşire tarafından 10 cc (500 mikrogram) uygulanmış; davacıya göre solunumu ve kalbi durmuş, üç gün yoğun bakımda kalmıştır. İlk derece mahkemesi hastaneyi manevi tazminatla sorumlu tutup hekim hakkındaki davayı reddetmiş; bölge adliye mahkemesi hekimi de hemşirenin verdiği zarardan sorumlu sayarak iki davalıyı birlikte tazminata mahkûm etmiştir. Yargıtay 3. Hukuk Dairesi hastanenin temyizini usulden reddetmiş, hekim yönünden kararı oybirliğiyle bozmuştur. Gerekçeye göre adam çalıştıranın sorumluluğu sözleşme dışıdır ve kurtuluş kanıtı tanır; yardımcı kişilerden sorumluluk ise önceden kurulmuş bir sözleşmeyi gerektirir ve kurtuluş kanıtı tanımaz. Çalıştıran, yardımcının yerine geçip aynı davranışta bulunsaydı bu ona kusur olarak yüklenebilecek idiyse sorumludur. Sözleşme hasta ile hastane arasında kurulduğu için hekim de hemşire de hastanenin yardımcı kişisidir; doğru dozu yazan hekimin kusuru yoktur ve hemşire onun yardımcı kişisi değildir. Konuya katkısı: özel hastanede borçlunun kim olduğunu ve varsayımsal kusur ölçütünü gösterir; karar, bugünkü TBK m. 116 ile TBK m. 66'nın karşılığı olan eski hükümlere dayanır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/693458700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2019/2045",
+   "karar_no": "2020/361",
+   "decision_date": "14.01.2020",
+   "summary_md": "Davalı banka, davacı şirket adına anlaşmalı bir matbaada bastırdığı çek karnesini kargoyla getirtirken karne kaybolmuş ve çeklerden biriyle davacı aleyhine icra takibi başlatılmıştır. Davacı, ticari itibarının zedelendiğini ileri sürerek manevi tazminat istemiştir. İlk derece mahkemesi istemi kısmen kabul etmiş; bölge adliye mahkemesi bankanın gerekli önlemleri aldığını ve haksız fiil şartlarının oluşmadığını belirterek davayı reddetmiştir. Yargıtay 11. Hukuk Dairesi bu kararı oybirliğiyle bozmuştur. Gerekçeye göre karne bankanın sorumluluk alanındayken kaybolmuştur ve banka onu elden teslim alabilecekken kargoya verdirmiştir. Uzmanlık gerektiren ve izinle yürütülen işlerde hafif kusurdan sorumsuzluk anlaşması kesin hükümsüzdür (TBK m. 115/3); banka da faaliyetini izinle yürütür ve davacıya bir kusur yüklenemez, bu yüzden banka zarardan sorumlu tutulmalıdır. Konuya katkısı: Yargıtay'ın bankacılığı bu hükmün kapsamında gördüğünü ve bankayı hafif kusurundan da sorumlu tuttuğunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/587236400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2018/655",
+   "karar_no": "2022/413",
+   "decision_date": "29.03.2022",
+   "summary_md": "Davacılar, 770 kişilik çifte düğün için anlaştıkları organizasyon şirketinin düğünden bir gün önce organizasyonu yapamayacağını bildirmesi üzerine son anda başka bir firmayla anlaşmak zorunda kalmış ve manevi tazminat istemiştir. İlk derece mahkemesi, düğün aynı otelde yapıldığı için kişilik haklarına saldırı bulunmadığını belirterek davayı reddetmiş; Özel Daire bozmuş, mahkeme sözleşmeye aykırılık nedeniyle manevi tazminata hükmedilemeyeceğini de ekleyerek direnmiştir. Hukuk Genel Kurulu direnme kararını değişik gerekçeyle oybirliğiyle bozmuştur. Gerekçeye göre TBK'da borca aykırılık için ayrı bir manevi tazminat hükmü yoktur ve sözleşmeye aykırılık tek başına manevi tazminat gerektirmez; ama aykırılık kişilik hakkını zedelerse TBK m. 114/2 yoluyla TBK m. 58 uygulanır. Nikâh ve düğün gibi genellikle bir kez yaşanan, tekrarı mümkün olmayan bir günde yaşanan bu süreç davacılarda acı ve üzüntüye yol açmış ve kişilik haklarını zedelemiştir; uygun bir manevi tazminata hükmedilmelidir. Konuya katkısı: sözleşmeye aykırılıkta manevi tazminatın dayanağını ve şartını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/782216600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 112'ye göre borç hiç veya gereği gibi ifa edilmediğinde, borçlunun tazminat sorumluluğundan kurtulması için neyi ispatlaması gerekir?",
+   "options": [
+    "Borcun ifasını bir yardımcı kişiye bıraktığını",
+    "Alacaklının kendisine ihtar göndermediğini",
+    "Alacaklının zararını ispat edemediğini",
+    "Kendisine hiçbir kusurun yüklenemeyeceğini"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 112'de kusur karine olarak var sayılır; borçlu ancak kendisine hiçbir kusurun yüklenemeyeceğini ispatlayarak kurtulur. Zararı ispatlamak alacaklının yüküdür, borçlunun değil. İfayı yardımcıya bırakmak borçluyu kurtarmaz (TBK m. 116). İhtar kural olarak temerrüdün şartıdır (TBK m. 117); ihtar yapılmamış olması kötü ifadan doğan sorumluluğu ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "Haksız fiil sorumluluğu ile sözleşmeye aykırılıktan doğan sorumluluk arasındaki temel ispat farkı hangisidir?",
+   "options": [
+    "Haksız fiilde zarar gören, zarar verenin kusurunu ispatlar; sözleşmeye aykırılıkta borçlu kusursuzluğunu ispatlar.",
+    "Haksız fiilde kusur karinesi vardır, sözleşmeye aykırılıkta yoktur.",
+    "Sözleşmeye aykırılıkta alacaklı zararını ispatlamak zorunda değildir.",
+    "Her ikisinde de zarar gören, karşı tarafın kusurunu ispatlar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Haksız fiilde zarar gören, zararını ve zarar verenin kusurunu ispat yükü altındadır (TBK m. 50/1). Sözleşmeye aykırılıkta ise kusur var sayılır ve borçlu kusursuzluğunu ispatlar (TBK m. 112). Zararın ispatı her iki sorumlulukta da zarar görene aittir."
+  },
+  {
+   "stem_md": "Boya ustası Kemal, Zeynep'in salonunu boyarken merdiveni dikkatsizce devirir ve vitrindeki porselen takımı kırar. Boya işi kusursuz yapılmıştır. Zeynep'in porselen için tazminat istemi hakkında hangisi doğrudur?",
+   "options": [
+    "Zeynep, Kemal'in kusurunu ispatlamadıkça tazminat isteyemez.",
+    "Kemal ancak porseleni kasten kırmışsa sorumludur.",
+    "Kemal'in ifa sırasında Zeynep'in diğer mallarına zarar vermeme yükümlülüğü vardır; bunun ihlali borca aykırılıktır ve Kemal kusursuzluğunu ispatlamadıkça sorumludur.",
+    "Boya işi kusursuz yapıldığı için borca aykırılık yoktur; Zeynep yalnız haksız fiile dayanabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Asıl edimin yanında, dürüstlük kuralından (TMK m. 2) doğan koruma yükümlülüğü de vardır: borçlu ifa sırasında alacaklının malvarlığına zarar vermemelidir. Bu yükümlülüğün ihlali borcun gereği gibi ifa edilmemesidir (TBK m. 112). Borçlu her türlü kusurdan sorumludur (TBK m. 114/1) ve kusur karine olarak var sayılır. Zeynep isterse haksız fiile de dayanabilir, ama \"yalnız haksız fiil\" cevabı yanlıştır."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi \"sözleşmenin olumlu ihlali\"ne örnektir?",
+   "options": [
+    "Avukatın, işi yürütürken müvekkilinin kendisine anlattığı sırları üçüncü kişilere açıklaması",
+    "Satıcının satılan malı hiç teslim etmemesi",
+    "Kiracının kira bedelini vadesinde ödememesi",
+    "Borcun ifasının borçlunun sorumlu tutulamayacağı bir sebeple imkânsızlaşması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Olumlu ihlal, asıl edimin yanındaki yan yükümlülüklerin (sır saklama, bilgi verme, koruma) ihlalidir ve TBK m. 112'deki \"gereği gibi ifa etmeme\" kapsamında değerlendirilir. Malın hiç teslim edilmemesi ifa etmemedir; kiranın vadesinde ödenmemesi temerrüt konusudur (TBK m. 117). Borçlunun sorumlu tutulamayacağı imkânsızlıkta ise borç sona erer (TBK m. 136)."
+  },
+  {
+   "stem_md": "TBK m. 113/1'e göre yapma borcu borçlu tarafından ifa edilmezse alacaklı ne isteyebilir?",
+   "options": [
+    "Borçlunun işi bizzat yapması için kolluk gücüyle zorlanmasını isteyebilir.",
+    "Masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini; ayrıca her türlü giderim hakkı saklıdır.",
+    "Yalnız sözleşmeden dönebilir; başka bir hakkı yoktur.",
+    "Edimi başkasına yaptırabilir, ama bu durumda ayrıca tazminat isteyemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 113/1'e göre alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini isteyebilir ve her türlü giderim isteme hakkı saklıdır. Yani başkasına yaptırma ile tazminat birlikte istenebilir. Borçlunun kişisel bir işi yapmaya zorla getirilmesi öngörülmemiştir; kişisel yeteneğe bağlı edimlerde alacaklıya tazminat yolu kalır."
+  },
+  {
+   "stem_md": "Ayşe, komşusu Mehmet'le yaptığı sözleşmeyle bahçe sınırına iki metreden yüksek duvar örmemeyi üstlenmiştir. Ayşe üç metrelik bir duvar örer. Mehmet'in hakları bakımından hangisi doğrudur?",
+   "options": [
+    "Mehmet yalnız tazminat isteyebilir; duvarın fazla kısmının kaldırılmasını isteyemez.",
+    "Yapmama borcuna aykırılık tazminat doğurmaz; Mehmet yalnız ifa davası açabilir.",
+    "Mehmet zararının giderilmesini, ayrıca aykırılığın ortadan kaldırılmasını ya da masrafı Ayşe'ye ait olmak üzere bunun için kendisinin yetkili kılınmasını isteyebilir.",
+    "Mehmet yalnız sözleşmeden dönebilir; tazminat ve duvarın yıkılması istenemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yapmama borcuna aykırı davranan borçlu, bu davranışın doğurduğu zararı gidermekle yükümlüdür (TBK m. 113/2). Alacaklı ayrıca borca aykırı durumun ortadan kaldırılmasını veya masrafı borçluya ait olmak üzere bu konuda kendisinin yetkili kılınmasını isteyebilir (TBK m. 113/3). İki hak birlikte kullanılabilir."
+  },
+  {
+   "stem_md": "Mert, yurt dışına giden arkadaşı Can'ın bisikletini karşılıksız olarak garajında saklamayı üstlenir. Bir akşam garaj kapısını kilitlemeyi unutur ve bisiklet çalınır. Hangisi doğrudur?",
+   "options": [
+    "Saklama karşılıksız olduğu için Mert hiçbir kusurundan sorumlu değildir.",
+    "Can, Mert'in kusurunu ispatlamadıkça Mert sorumlu olmaz.",
+    "Mert yalnız kastından sorumludur.",
+    "Mert kusurlu olduğu için sorumludur; ancak iş ona bir yarar sağlamadığından hâkim sorumluluğu daha hafif değerlendirebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Borçlu genel olarak her türlü kusurdan sorumludur; hafif ihmal de yeter. Ancak iş özellikle borçlu için bir yarar sağlamıyorsa sorumluluk daha hafif olarak değerlendirilir (TBK m. 114/1). Karşılıksız iş sorumluluğu ortadan kaldırmaz, yalnız hafifletir. Kusur da karine olarak var sayılır (TBK m. 112)."
+  },
+  {
+   "stem_md": "TBK m. 114/2 uyarınca haksız fiil hükümlerinin sözleşmeye aykırılık hâllerine kıyasen uygulanması bakımından hangisi **yanlıştır**?",
+   "options": [
+    "Sözleşmeye aykırılıkta da kusuru, haksız fiilde olduğu gibi alacaklı ispatlar.",
+    "Sözleşmeye aykırılık yüzünden bedensel zarar doğmuşsa manevi tazminat istenebilir.",
+    "Alacaklının zararın doğmasında veya artmasında etkili olması tazminattan indirim sebebi olabilir.",
+    "Hâkim, tazminatın kapsamını belirlerken kusurun ağırlığını gözetebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 114/2 yoluyla tazminatın belirlenmesi (TBK m. 51), indirim sebepleri (TBK m. 52) ve manevi tazminat (TBK m. 56) gibi hükümler sözleşmeye aykırılığa da uygulanır. Ama kusurun ispatında sözleşme hukukunun özel kuralı vardır: kusur var sayılır ve borçlu kusursuzluğunu ispatlar (TBK m. 112). Haksız fiile ilişkin ispat kuralı (TBK m. 50/1) buraya taşınmaz."
+  },
+  {
+   "stem_md": "Borçlunun kendi kusurundan doğan sorumluluğunu önceden bir anlaşmayla kaldırması bakımından genel kural hangisidir?",
+   "options": [
+    "Sorumsuzluk anlaşması ancak hâkim uygun görürse geçerlidir.",
+    "Yalnız kasttan sorumsuzluk anlaşması hükümsüzdür; ağır ihmal için geçerlidir.",
+    "Ağır kusurdan sorumsuzluk anlaşması kesin hükümsüzdür; hafif kusur için kural olarak geçerlidir.",
+    "Her türlü kusur için sorumsuzluk anlaşması kesin hükümsüzdür."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 115/1'e göre borçlunun ağır kusurundan sorumlu olmayacağına ilişkin önceden yapılan anlaşma kesin hükümsüzdür. Ağır kusur kastı ve ağır ihmali birlikte kapsar. Hafif kusurdan sorumsuzluk kural olarak geçerlidir; istisnaları hizmet sözleşmesi (TBK m. 115/2) ve izinle yürütülen uzmanlık işleridir (TBK m. 115/3). Geçerlilik hâkimin takdirine bırakılmamıştır."
+  },
+  {
+   "stem_md": "X A.Ş., işçileriyle yaptığı iş sözleşmelerine \"İşveren, iş kazalarında hafif kusurundan sorumlu değildir\" kaydını koymuştur. İşçi Hasan, işverenin hafif kusuruyla meydana gelen bir iş kazasında yaralanır. Kayıt hakkında hangisi doğrudur?",
+   "options": [
+    "Kayıt, işyerinde ilan edilmişse geçerlidir.",
+    "Kayıt yalnız hafif kusura ilişkin olduğu için geçerlidir.",
+    "Kayıt, hizmet sözleşmesinden doğan bir borçla ilgili önceden yapılmış sorumsuzluk anlaşması olduğundan kesin hükümsüzdür.",
+    "Kayıt geçerlidir; ama hâkim hakkaniyete göre tazminatı indirebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Borçlunun alacaklıyla arasındaki hizmet sözleşmesinden kaynaklanan herhangi bir borç sebebiyle sorumlu olmayacağına ilişkin önceden yaptığı her türlü anlaşma kesin hükümsüzdür (TBK m. 115/2). Burada kusurun hafif olması sonucu değiştirmez. İşverenin iş sağlığı ve güvenliği için önlem alma borcu hizmet ilişkisinin parçasıdır (TBK m. 417/2); bu yüzden işçinin yaralanmasından doğan zararlar sözleşmeye aykırılık hükümlerine tabidir (TBK m. 417/3)."
+  },
+  {
+   "stem_md": "Avukat Selim, müvekkili Deniz'le yaptığı sözleşmeye \"Avukat, hafif kusurundan doğan zararlardan sorumlu değildir\" kaydını koymuştur. Selim, hafif bir dikkatsizlikle istinaf süresini kaçırır. Kayıt hakkında hangisi doğrudur?",
+   "options": [
+    "Avukatlık uzmanlık gerektiren ve ancak kanuni izinle yürütülebilen bir meslek olduğundan, hafif kusurdan sorumsuzluk kaydı da kesin hükümsüzdür.",
+    "Kayıt geçerlidir; çünkü yalnız ağır kusurdan sorumsuzluk yasaktır.",
+    "Kayıt, Deniz onu okuyup imzaladığı için her durumda geçerlidir.",
+    "Kayıt yalnız Deniz tüketiciyse geçersizdir; tacirse geçerlidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Uzmanlığı gerektiren bir hizmet, meslek veya sanat ancak kanun ya da yetkili makamların verdiği izinle yürütülebiliyorsa, borçlunun hafif kusurundan sorumlu olmayacağına ilişkin önceden yapılan anlaşma kesin hükümsüzdür (TBK m. 115/3). Avukatlık bu kapsamdadır. Sonuç, müvekkilin tacir ya da tüketici olmasına göre değişmez. Avukatın özen ölçüsü de basiretli bir vekilin davranışıdır (TBK m. 506/3)."
+  },
+  {
+   "stem_md": "TBK m. 115'teki kesin hükümsüzlük sınırları hangi anlaşmalar için öngörülmüştür?",
+   "options": [
+    "Zarar doğduktan sonra alacaklının tazminattan vazgeçtiği anlaşmalar için",
+    "Yalnız tüketici sözleşmelerindeki anlaşmalar için",
+    "Zarara yol açan borca aykırılıktan önce yapılan anlaşmalar için",
+    "Yalnız resmî şekilde yapılan anlaşmalar için"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 115'in üç fıkrası da \"önceden yapılan\" anlaşmalardan söz eder. Zarar doğduktan sonra alacaklının tazminat alacağından vazgeçmesi bu maddenin konusu değildir. Sorumsuzluk anlaşması bir şekle bağlı değildir ve madde yalnız tüketici sözleşmeleri için değil, bütün sözleşmeler için geçerlidir."
+  },
+  {
+   "stem_md": "TBK m. 116 anlamında yardımcı kişi bakımından hangisi doğrudur?",
+   "options": [
+    "Borçlunun birlikte yaşadığı aile bireyleri yardımcı kişi sayılmaz.",
+    "Borçlunun iradesiyle borcun ifasına katılan bağımsız bir firma da yardımcı kişi olabilir; bağımlılık şart değildir.",
+    "Yardımcı kişi yalnız borçlunun yanında hizmet sözleşmesiyle çalışan işçi olabilir.",
+    "Yardımcı kişi kullanılabilmesi için alacaklının ayrıca onay vermesi gerekir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 116/1, \"birlikte yaşadığı kişiler ya da yanında çalışanlar gibi\" diyerek örnek verir; sayım sınırlı değildir. Borçlunun iradesiyle ifaya katılan bağımsız bir girişimci ya da alt yüklenici de yardımcı kişidir. Aile bireyleri kanunda açıkça anılır. Borcun bizzat ifası kural olarak zorunlu olmadığından (TBK m. 83) alacaklının onayı da aranmaz."
+  },
+  {
+   "stem_md": "Mobilyacı Ahmet, Zeynep'e sattığı gardırobun kurulumunu çırağı Can'a bırakır. Can, kurulum sırasında dikkatsizce Zeynep'in parkesini çizer. Ahmet, Can'ı özenle seçtiğini ve iyi eğittiğini ispatlayarak sorumluluktan kurtulmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Yalnız Can sorumludur; Ahmet'in sorumluluğu için kendi kusuru gerekir.",
+    "Ahmet, seçmede ve denetimde gerekli özeni gösterdiğini ispatlarsa kurtulur.",
+    "Ahmet ancak Can'ı yazılı olarak yetkilendirmişse sorumludur.",
+    "Ahmet ile Zeynep arasında sözleşme bulunduğundan TBK m. 116 uygulanır; Ahmet özen kanıtıyla kurtulamaz ve aynı davranış ona kusur olarak yükleneceği için sorumludur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Zarar gören ile borçlu arasında önceden kurulmuş bir sözleşme olduğu için adam çalıştıranın sorumluluğu (TBK m. 66) değil, yardımcı kişilerden sorumluluk (TBK m. 116) uygulanır. Bu maddede özen kanıtıyla kurtuluş yoktur. Ölçü varsayımsal kusurdur: parkeyi Ahmet kendisi çizseydi kusurlu olurdu. Can da Zeynep'e karşı haksız fiilden sorumludur, ama bu Ahmet'in sorumluluğunu ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "Kiracı Burak'ın kiraladığı dairede birlikte yaşadığı oğlu Kaan'ın dikkatsizliği yüzünden kombi zarar görür. Kiraya veren Selin'in Burak'a karşı tazminat istemi hakkında hangisi doğrudur?",
+   "options": [
+    "Burak, kiralananı kullanma hakkını birlikte yaşadığı oğluna bıraktığı için onun verdiği zarardan Selin'e karşı sorumludur.",
+    "Burak ancak Kaan'ı denetlemede kusurlu olduğu ispatlanırsa sorumludur.",
+    "Burak, zararı kendisi vermediği için sorumlu değildir.",
+    "Selin yalnız Kaan'a karşı haksız fiil davası açabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 116/1, borcun ifası yanında borç ilişkisinden doğan bir hakkın kullanılmasının yardımcılara bırakılmasını da kapsar. Kiracı kiralananı kullanma hakkını birlikte yaşadığı kişilere bıraktığında, onların bu kullanım sırasında verdiği zarardan kiraya verene karşı sorumludur. Kurtuluş için kendi özenini ispatlaması yetmez. Selin, Kaan'a karşı haksız fiile de dayanabilir; ama \"yalnız\" ona başvurabileceği doğru değildir."
+  },
+  {
+   "stem_md": "X Bankası, bireysel müşterileriyle yaptığı standart sözleşmeye \"Banka, şube çalışanlarının kusurlu işlemlerinden doğan zararlardan sorumlu değildir\" kaydını koymuştur. Bir çalışanın hafif kusuruyla müşteri Derya'nın hesabından yanlış kişiye para gönderilir. Kayıt hakkında hangisi doğrudur?",
+   "options": [
+    "Yardımcı kişilerin fiilinden doğan sorumluluk önceden kaldırılabildiği için kayıt geçerlidir.",
+    "Bankacılık uzmanlık gerektiren ve ancak izinle yürütülebilen bir faaliyet olduğundan, yardımcı kişilerin fiillerinden sorumsuzluk kaydı kesin hükümsüzdür.",
+    "Kayıt geçerlidir; Derya yalnız çalışana haksız fiil davası açabilir.",
+    "Kayıt yalnız çalışanın ağır kusuru bakımından hükümsüzdür; hafif kusurda geçerlidir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kural olarak yardımcı kişilerden sorumluluk önceden kaldırılabilir (TBK m. 116/2). Ama uzmanlığı gerektiren bir hizmet ancak kanun ya da yetkili makamların izniyle yürütülebiliyorsa bu anlaşma kesin hükümsüzdür ve hafif-ağır kusur ayrımı yapılmaz (TBK m. 116/3). Yargıtay bankacılığı izinle yürütülen uzmanlık faaliyeti sayar. Kayıt ayrıca tüketici aleyhine bir haksız şart olarak da kesin hükümsüzdür (TKHK m. 5)."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulunun yerleşik görüşüne göre sözleşmeye aykırılık nedeniyle manevi tazminat hakkında hangisi doğrudur?",
+   "options": [
+    "Her sözleşmeye aykırılık kendiliğinden manevi tazminat gerektirir.",
+    "Sözleşmeye aykırılıkta manevi tazminat hiçbir durumda istenemez.",
+    "Sözleşmeye aykırılık tek başına yetmez; aykırılık kişilik hakkını zedelemişse TBK m. 114/2 yoluyla TBK m. 58 uygulanarak manevi tazminat istenebilir.",
+    "Manevi tazminat ancak sözleşmede ceza koşulu kararlaştırılmışsa istenebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK'da borca aykırılık için ayrı bir manevi tazminat hükmü yoktur. Hukuk Genel Kurulu'na göre sözleşmeye aykırılık tek başına manevi tazminat gerektirmez; ama aykırı davranış kişilik hakkını zedelerse TBK m. 114/2 yoluyla TBK m. 58 uygulanır. Kurul bu ölçütle, düğünden bir gün önce iptal edilen organizasyon nedeniyle manevi tazminata hükmedilmesi gerektiğine karar vermiştir."
+  },
+  {
+   "stem_md": "Sözleşme gereği gibi ifa edilseydi alacaklının malvarlığının ulaşacağı durum ile ifa edilmemesi yüzünden bulunduğu durum arasındaki farka ne ad verilir?",
+   "options": [
+    "Manevi zarar",
+    "Yansıma zarar",
+    "Olumlu (müspet) zarar",
+    "Olumsuz (menfi) zarar"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Bu tanım olumlu zararın, yani ifa yararının tanımıdır; TBK m. 112'deki tazminat kural olarak bu zarardır. Olumsuz zarar ise sözleşmeye güvenilmesi yüzünden uğranılan zarardır (güven yararı); örneğin sözleşmeden dönen alacaklı, sözleşmenin hükümsüz kalması yüzünden uğradığı zararı ister (TBK m. 125/3). Manevi zarar malvarlığına ilişkin değildir."
+  },
+  {
+   "stem_md": "Aynı davranış hem sözleşmeye aykırılık hem haksız fiil oluşturuyorsa, Yargıtay Hukuk Genel Kurulunun benimsediği görüşe göre hangisi doğrudur?",
+   "options": [
+    "Zarar gören iki istemi birlikte kullanarak zararını iki kez tahsil edebilir.",
+    "İki sorumluluk yarışır; zarar gören istemini dilediğine dayandırabilir, açıkça belirtmediyse hâkim onun lehine olan hükümleri bir bütün olarak uygular.",
+    "Yalnız haksız fiil hükümleri uygulanır.",
+    "Yalnız sözleşme hükümleri uygulanır; haksız fiile dayanılamaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Hukuk Genel Kurulu, Türk hukukunda iki sorumluluğun yarıştığı görüşünü benimser. Zarar gören istemini sözleşmeye ya da haksız fiile dayandırabilir; hukuki sebebi açıkça belirtmemişse hâkim, zarar görenin lehine olan sorumluluk hükümlerini bir bütün olarak uygular. Ama aynı zarar iki kez tahsil edilemez. Seçimin önemi, kusurun ispatı (TBK m. 112 ve m. 50/1) ile zamanaşımı (TBK m. 146 ve m. 72) gibi farklardan gelir."
+  },
+  {
+   "stem_md": "Bir alışveriş merkezinin ücretli otoparkının girişinde \"Otoparkımızda araçlarda meydana gelecek hasar ve hırsızlıklardan sorumluluk kabul edilmez\" levhası asılıdır. Ücret ödeyerek aracını otoparka bırakan Elif'in aracı çalınır. Hangisi doğrudur?",
+   "options": [
+    "İşleten, sorumluluk üstlenmediğini ilan etse de bu yolla kurtulamaz; ancak kanunda sayılan kurtuluş sebeplerini ispatlayarak kurtulabilir.",
+    "Elif levhayı gördüğü için zararını tamamen kendisi üstlenmiştir.",
+    "Levha geçerli bir sorumsuzluk anlaşmasıdır; yalnız işletenin ağır kusuru varsa hükümsüzdür.",
+    "Levha nedeniyle işleten sorumlu değildir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Garaj ve otopark işleteni, sorumluluk üstlenmediğini ya da sorumluluğu kanunda gösterilmeyen bir koşula bağladığını herhangi bir yolla ilan etse bile sorumluluktan kurtulamaz (TBK m. 579/3). İşleten ancak zararın aracı bırakana veya yanındakilere yüklenebilecek kusurdan, mücbir sebepten ya da eşyanın niteliğinden doğduğunu ispatlayarak kurtulur (TBK m. 579/1). Kendisine ya da çalışanlarına kusur yüklenemiyorsa sorumluluğu, günlük saklama ücretinin on katıyla sınırlıdır (TBK m. 579/2)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Serbest grafik tasarımcı Ayşe (34), safra kesesi ameliyatı için Özel Şifa Hastanesi A.Ş.'ye yatar. Girişte ona imzalatılan ve hastanenin bütün hastalarına verdiği matbu kabul formunda şu kayıt vardır: \"Hastanemiz, hekim ve sağlık personelinin hafif kusurlarından doğan zararlardan sorumlu değildir.\" Kayıt hakkında Ayşe'ye hiçbir açıklama yapılmamıştır.\n\nAmeliyatı hastanenin kadrolu genel cerrahı Dr. Kerem yapar; ameliyat başarılıdır. Gece Dr. Kerem, Ayşe için 1 ampul ağrı kesici yazar. Servis hemşiresi Elif, ilacı dalgınlıkla 10 ampul olarak uygular. Ayşe'nin solunumu durur; müdahaleyle kurtarılır ve dört gün yoğun bakımda kalır. Kalıcı bir hasar kalmaz, ama Ayşe iki ay çalışamaz ve bu sürede 120.000 TL'lik iki işini kaybeder. Hastane yoğun bakım için 60.000 TL fatura keser; Ayşe bunu öder.\n\nAyşe hastaneye ve Dr. Kerem'e dava açar. Hastane, Elif'i deneyimine bakarak işe aldığını, düzenli eğitim verip denetlediğini, ayrıca formdaki kayıt nedeniyle sorumlu olmadığını ve kusuru Ayşe'nin ispatlaması gerektiğini savunur. Dr. Kerem ise doğru dozu yazdığını ileri sürer.\n\n1. Ayşe ile kim arasında hangi hukuki ilişki vardır; hastanenin sorumluluğu hangi hükümlere dayanır?\n2. Hastanenin özen ve ispat yüküne ilişkin savunmalarını değerlendiriniz.\n3. Formdaki kayıt geçerli midir?\n4. Ayşe hangi tazminatları isteyebilir?\n5. Dr. Kerem sorumlu mudur?",
+   "rubric": [
+    {
+     "point": "Hastaneye kabul sözleşmesi; borçlunun hastane, hekim ve hemşirenin hastanenin yardımcı kişisi olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 116"
+    },
+    {
+     "point": "On kat doz uygulamasının borca aykırılık olması ve varsayımsal kusur ölçütünün gerçekleşmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 116"
+    },
+    {
+     "point": "Özenle seçme ve denetleme savunmasının dinlenmemesi; adam çalıştıranın sorumluluğundan farkı",
+     "weight": 15,
+     "madde_ref": "TBK m. 66"
+    },
+    {
+     "point": "Kusur karinesi: kusursuzluğu hastanenin, aykırılık, zarar ve illiyeti Ayşe'nin ispatlaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 112"
+    },
+    {
+     "point": "Kaydın izinle yürütülen uzmanlık hizmeti nedeniyle kesin hükümsüzlüğü; genel işlem koşulu ve haksız şart denetimi",
+     "weight": 20,
+     "madde_ref": "TBK m. 116"
+    },
+    {
+     "point": "Tedavi gideri, kazanç kaybı ve manevi tazminatın haksız fiil hükümlerinin kıyasen uygulanmasıyla istenmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 114"
+    },
+    {
+     "point": "Doğru dozu yazan ve hasta ile sözleşmesi bulunmayan hekimin sorumlu olmaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 116"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ayşe ile Özel Şifa Hastanesi A.Ş. arasında bir **hastaneye kabul sözleşmesi** vardır. Bu, kanunda düzenlenmemiş bir işgörme sözleşmesidir ve tıbbi tedavi edimine vekâlet hükümleri uygulanır (TBK m. 502/2). Sözleşmenin borçlusu hastanedir. Dr. Kerem ve hemşire Elif, hastanenin borcunu ifa ederken kullandığı **yardımcı kişilerdir**.\n\n**Hukuki sorunlar:** (1) Hastanenin yardımcı kişinin fiilinden sorumluluğu ve kurtuluş imkânı. (2) İspat yükü. (3) Sorumsuzluk kaydının geçerliliği. (4) Tazminat kalemleri. (5) Hekimin sorumluluğu.\n\n**İlgili hükümler:** TBK m. 112, m. 114, m. 116; TBK m. 21; TKHK m. 5; TBK m. 54 ve m. 56.\n\n**Değerlendirme:**\n- *Borca aykırılık ve yardımcı kişi:* Hekimin yazdığından on kat fazla ilaç uygulanması, tedavi ve bakım ediminin gereği gibi ifa edilmemesidir (TBK m. 112). Elif, hastanenin borcunu yürütürken zarar vermiştir (TBK m. 116/1). Hastane bu işi kendisi yapsaydı on kat doz uygulaması ona kusur olarak yüklenirdi; varsayımsal kusur ölçütü gerçekleşmiştir.\n- *Özen savunması:* Hastane, Elif'i özenle seçtiğini ve denetlediğini ispatlasa bile kurtulamaz. Bu kurtuluş kanıtı yalnız sözleşme dışı bir sorumluluk olan adam çalıştıranın sorumluluğunda vardır (TBK m. 66/2). Taraflar arasında sözleşme bulunduğu için TBK m. 116 uygulanır ve bu maddede özen kanıtıyla kurtuluş yoktur.\n- *İspat:* TBK m. 112 kusuru karine olarak var sayar. Ayşe; sözleşmeyi, yanlış dozun uygulandığını (hekim talimatı ve hemşire kayıtları), zararı ve illiyet bağını ispatlar. Kusursuzluğu ispat yükü hastanededir ve olaydaki durumda bu ispat mümkün görünmemektedir.\n- *Kayıt:* Kayıt, yardımcı kişilerin fiillerinden sorumluluğu kaldırmaya yöneliktir. Kural olarak bu mümkündür (TBK m. 116/2). Ancak hastanecilik ve hekimlik uzmanlık gerektiren ve ancak kanuni izinle yürütülebilen hizmetlerdir. Bu yüzden yardımcı kişilerin fiillerinden sorumsuzluk anlaşması kusur derecesine bakılmaksızın kesin hükümsüzdür (TBK m. 116/3). Kayıt ayrıca matbu bir genel işlem koşuludur ve Ayşe'ye açıkça bilgi verilmediği için yazılmamış sayılır (TBK m. 21/1). Hastaneye kabul sözleşmesi tüketici sözleşmesi sayılırsa, müzakere edilmemiş ve Ayşe aleyhine dengesizlik yaratan bu şart haksız şart olarak da kesin hükümsüz olur (TKHK m. 5/1-2); sonuç bu nitelendirmeye bağlı değildir, çünkü kayıt yukarıdaki iki sebeple zaten etkisizdir. Kaldı ki on kat doz hafif kusur sayılamayacağı için kayıt kendi lafzına göre de olayı kapsamaz. Sözleşmenin geri kalanı geçerliliğini korur.\n- *Tazminat:* TBK m. 114/2 yoluyla haksız fiil hükümleri kıyasen uygulanır. Ayşe, ödediği 60.000 TL yoğun bakım giderini ve iki aylık 120.000 TL kazanç kaybını bedensel zarar kalemleri olarak isteyebilir (TBK m. 54). Bedensel bütünlüğü zedelendiği için manevi tazminat da isteyebilir (TBK m. 56/1); miktarı hâkim olayın özelliklerine göre belirler.\n- *Dr. Kerem:* Ayşe'nin sözleşme tarafı hastanedir; Dr. Kerem borçlu değildir. Doğru dozu yazdığı için kusuru da yoktur. Elif onun değil hastanenin yardımcı kişisidir; bu yüzden Dr. Kerem, Elif'in hatasından TBK m. 116'ya göre sorumlu tutulamaz. Elif ise Ayşe'ye karşı haksız fiilden sorumludur (TBK m. 49); hastane ile müteselsil sorumluluğu ayrı konuda incelenir.\n\n**Sonuç:** Hastane TBK m. 112 ve m. 116'ya göre sorumludur; özen savunması ve formdaki kayıt onu kurtarmaz. Ayşe 60.000 TL tedavi giderini, 120.000 TL kazanç kaybını ve uygun bir manevi tazminatı isteyebilir. Dr. Kerem hakkındaki dava reddedilmelidir."
+  },
+  {
+   "stem_md": "Zeynep, Ayvalık'ta deniz manzarasıyla tanınan bir pansiyon işletmektedir. Pansiyonla deniz arasında komşusu Mehmet'in arsası vardır. 2 Ocak 2025'te yaptıkları sözleşmeye göre Zeynep, Mehmet'e her yıl 60.000 TL ödeyecektir. Mehmet de beş yıl boyunca arsasına iki metreden yüksek bir yapı yapmamayı ve sınırdaki çam ağaçlarını her yıl nisan ayında manzarayı kapatmayacak biçimde budatmayı üstlenmiştir. Taraflar uzun bir pazarlıktan sonra sözleşmeye şu kaydı da koymuştur: \"Mehmet, ağaçların budanması sırasında pansiyona gelecek zararlardan sorumlu değildir.\"\n\n2025 nisanında Mehmet budamayı kendisi yapar. Hiç deneyimi olmadığı hâlde, Zeynep'in \"Dalı çatıya doğru kesme\" uyarısını dinlemez ve dalı iple sabitlemeden keser. Kalın dal pansiyonun çatısına düşer, kiremitler kırılır ve bir odaya su sızar. Onarım 45.000 TL tutar. Mehmet, sözleşmedeki kayda dayanarak ödemeyi reddeder.\n\n2026 nisanında Mehmet ağaçları hiç budatmaz. Zeynep'in 4 Mayıs 2026'da çektiği ihtara \"Bu yıl budatmayacağım\" diye cevap verir. Mayıs sonunda arsasına yaklaşık dört metre yüksekliğinde ahşap bir depo yapar. Depo, pansiyonun deniz manzaralı altı odasının manzarasını kapatır. Zeynep bu odaların fiyatını düşürmek zorunda kalır ve haziranda 90.000 TL daha az gelir elde eder. Bilirkişiye göre bu kaybın tamamı deponun manzarayı kapatmasından kaynaklanmaktadır.\n\n1. Mehmet'in sözleşmeden doğan borçlarını nitelendiriniz.\n2. Mehmet 2025'teki çatı zararından kayda dayanarak kurtulabilir mi? İspat yükü nasıl dağılır?\n3. Zeynep, 2026'da budatılmayan ağaçlar için ne isteyebilir?\n4. Zeynep depo nedeniyle neler isteyebilir?",
+   "rubric": [
+    {
+     "point": "Budatma borcunun yapma, yükseklik sınırının yapmama borcu olarak ayrılması",
+     "weight": 10,
+     "madde_ref": "TBK m. 113"
+    },
+    {
+     "point": "Budama sırasında çatıya zarar verilmesinin gereği gibi ifa etmeme olması ve kusur karinesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 112"
+    },
+    {
+     "point": "Kaydın hafif kusurda geçerli, ağır kusurda kesin hükümsüz olması; uyarıya rağmen önlemsiz kesimin ağır ihmal sayılması",
+     "weight": 20,
+     "madde_ref": "TBK m. 115"
+    },
+    {
+     "point": "Budama için hâkimden izinle başkasına yaptırma, masrafın Mehmet'e ait olması ve giderim hakkı",
+     "weight": 20,
+     "madde_ref": "TBK m. 113"
+    },
+    {
+     "point": "Depo nedeniyle 90.000 TL yoksun kalınan kârın tazmini",
+     "weight": 15,
+     "madde_ref": "TBK m. 113"
+    },
+    {
+     "point": "Deponun fazla kısmının kaldırılması ya da Zeynep'in masrafı Mehmet'e ait olmak üzere yetkili kılınması",
+     "weight": 15,
+     "madde_ref": "TBK m. 113"
+    },
+    {
+     "point": "Karşılıklı sözleşmede temerrüde bağlı seçimlik haklara bağlantı kurulması",
+     "weight": 5,
+     "madde_ref": "TBK m. 123"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında kanunda düzenlenmemiş, karşılıklı borç yükleyen bir sözleşme vardır; buna genel hükümler uygulanır. Mehmet'in iki borcu farklı niteliktedir. İki metreden yüksek yapı yapmamak bir **yapmama borcu**, ağaçları budatmak ise bir **yapma borcudur** (TBK m. 113).\n\n**Hukuki sorunlar:** (1) Budama sırasında verilen zarar ve sorumsuzluk kaydının geçerliliği. (2) İspat yükü. (3) Yapma borcunun ifa edilmemesinin sonuçları. (4) Yapmama borcuna aykırılığın sonuçları.\n\n**İlgili hükümler:** TBK m. 112, m. 113, m. 114, m. 115; TBK m. 123 vd.\n\n**Değerlendirme:**\n- *Çatı zararı:* Mehmet 2025'te budama borcunu kendisi ifa etmiştir. Ama ifa sırasında pansiyona zarar vermemek, yani koruma yükümlülüğüne uymak zorundaydı. Dalın çatıya düşmesi borcun gereği gibi ifa edilmemesidir (TBK m. 112). Borçlu her türlü kusurdan sorumludur (TBK m. 114/1).\n- *Kayıt:* Kayıt önceden yapılmış bir sorumsuzluk anlaşmasıdır. Taraflar pazarlık ederek koyduğu için genel işlem koşulu denetimi gündeme gelmez; pansiyon işleten Zeynep tüketici de değildir. Ortada hizmet sözleşmesi ya da izinle yürütülen bir uzmanlık işi de yoktur. Ölçü yalnız TBK m. 115/1'dir: kayıt **hafif kusur** bakımından geçerli olurdu. Ancak Mehmet deneyimsiz olduğu hâlde açık bir uyarıyı dinlememiş ve dalı sabitlemek gibi en basit önlemi almamıştır. Bu, herkesin göstereceği en basit özenin gösterilmemesi, yani **ağır ihmaldir**. Ağır kusurdan sorumsuzluğa ilişkin önceden yapılan anlaşma kesin hükümsüzdür. Mehmet 45.000 TL'lik onarım bedelinden sorumludur.\n- *İspat:* Zeynep sözleşmeyi, dalın budama sırasında çatıya düşmesini, zararı ve illiyet bağını ispatlar. Kusur karine olarak var sayılır ve Mehmet kusursuzluğunu ispatlayamaz (TBK m. 112). Kusurun ağır olduğu da olaydaki somut olgulardan, yani uyarıya rağmen önlemsiz kesimden açıkça anlaşılmaktadır.\n- *Budatılmayan ağaçlar (2026):* Mehmet ihtara rağmen yapma borcunu ifa etmemiştir. Zeynep, masrafı Mehmet'e ait olmak üzere budamanın kendisi ya da bir bahçıvan tarafından yapılmasına izin verilmesini hâkimden isteyebilir. Her türlü giderim isteme hakkı da saklıdır (TBK m. 113/1). Sözleşme karşılıklı borç yüklediği için borçlunun temerrüdüne bağlanan seçimlik haklar da (TBK m. 123 vd.) gündeme gelir; ayrıntısı ayrı konudadır.\n- *Depo:* Dört metrelik depo, yapmama borcuna aykırıdır. Mehmet bu aykırılığın doğurduğu zararı gidermekle yükümlüdür (TBK m. 113/2). Bilirkişiye göre haziran ayındaki 90.000 TL gelir azalmasının tamamı depodan kaynaklandığı için bu yoksun kalınan kâr tazmin edilir. Zeynep ayrıca aykırılığın ortadan kaldırılmasını, yani deponun iki metreyi aşan kısmının kaldırılmasını isteyebilir. İsterse masrafı Mehmet'e ait olmak üzere bu işi kendisinin yaptırmaya yetkili kılınmasını da talep edebilir (TBK m. 113/3).\n\n**Sonuç:** Kayıt ağır kusuru kapsayamayacağı için Mehmet çatı onarımının 45.000 TL'sinden sorumludur. Zeynep, budama için masrafı Mehmet'e ait olmak üzere başkasına yaptırma izni ve giderim isteyebilir. Depo için 90.000 TL tazminatı ve deponun fazla kısmının kaldırılmasını ya da bunun için yetki verilmesini isteyebilir."
+  },
+  {
+   "stem_md": "Ece ve Can, 12 Eylül 2026'daki düğünleri için Mutlu Gün Organizasyon Ltd. Şti. ile 400.000 TL bedelli bir sözleşme yapar ve 100.000 TL kapora öder. Sözleşme, şirketin bütün müşterilerine imzalattığı matbu bir metindir. Maddeler çiftle tartışılmamış, şirket yetkilisi imza sırasında aşağıdaki maddeden hiç söz etmemiştir. Sözleşmenin 14. maddesinde küçük puntoyla şunlar yazılıdır: \"Şirket, ses-ışık ve ikram hizmetlerini yaptırdığı firmaların ve çalışanlarının kusurundan sorumlu değildir. Şirketin sorumluluğu her hâlde ödenen kapora tutarıyla sınırlıdır.\"\n\nDüğün günü, şirketin ses sistemi için anlaştığı firma hiç gelmez; nikâh töreni ve ilk dans müziksiz yapılır. Çift son anda başka bir firmadan 30.000 TL'ye ses sistemi kiralar, ama sistem ancak gece yarısına doğru kurulabilir. Ayrıca şirketin ikram için anlaştığı firmanın garsonu, dikkatsizce taşıdığı içecek tepsisini gelinin üzerine devirir. 80.000 TL değerindeki gelinlik lekelenir ve temizlenemez. Şirket, firmaları piyasadaki en iyi firmalar arasından özenle seçtiğini ve 14. maddeyi ileri sürerek hiçbir ödeme yapmaz.\n\n1. Şirketin sorumluluğunun dayanağını ve şartlarını değerlendiriniz.\n2. Şirket, firmaları özenle seçtiğini ispatlayarak kurtulabilir mi?\n3. 14. maddedeki iki kayıt geçerli midir?\n4. Çift hangi maddi tazminatları isteyebilir; manevi tazminat isteyebilir mi?",
+   "rubric": [
+    {
+     "point": "Tüketici sözleşmesi ve genel işlem koşulu niteliği; ses ve ikram firmalarının yardımcı kişi sayılması",
+     "weight": 15,
+     "madde_ref": "TBK m. 116"
+    },
+    {
+     "point": "Ses hizmetinin ifa edilmemesi ve gelinliğin lekelenmesinin borca aykırılık olarak nitelendirilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 112"
+    },
+    {
+     "point": "Özenle seçme savunmasının dinlenmemesi ve varsayımsal kusur ölçütü",
+     "weight": 15,
+     "madde_ref": "TBK m. 116"
+    },
+    {
+     "point": "Yardımcı kişi kaydının m. 116/2'ye rağmen genel işlem koşulu ve haksız şart denetimiyle etkisiz kalması",
+     "weight": 20,
+     "madde_ref": "TKHK m. 5"
+    },
+    {
+     "point": "Kapora ile sınırlama kaydının kısmi sorumsuzluk olarak geçersizliği",
+     "weight": 10,
+     "madde_ref": "TBK m. 115"
+    },
+    {
+     "point": "Ses kiralama bedeli ve gelinlik değerinin maddi tazminat olarak istenmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 112"
+    },
+    {
+     "point": "Manevi tazminatın m. 114/2 yoluyla m. 58'e dayanması ve kişilik hakkının zedelenmesi şartı",
+     "weight": 15,
+     "madde_ref": "TBK m. 114"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ece ve Can sözleşmeyi ticari olmayan bir amaçla yapmıştır; şirket ise mesleki olarak hizmet sunmaktadır. Sözleşme bir **tüketici sözleşmesidir** (TKHK m. 3). Metin, şirketin çok sayıda sözleşmede kullanmak üzere önceden ve tek başına hazırladığı hükümlerden oluştuğu için **genel işlem koşulu** içerir (TBK m. 20). Ses ve ikram firmaları, şirketin borcunun bir kısmını onun iradesiyle ifa eden **yardımcı kişilerdir** (TBK m. 116/1). Bağımsız şirket olmaları sonucu değiştirmez, çünkü yardımcı kişi için bağımlılık aranmaz.\n\n**Hukuki sorunlar:** (1) Şirketin borca aykırılıktan sorumluluğu. (2) Özen kanıtıyla kurtuluş. (3) Sorumsuzluk ve sınırlama kayıtlarının geçerliliği. (4) Maddi ve manevi tazminat.\n\n**İlgili hükümler:** TBK m. 112, m. 114, m. 115, m. 116; TBK m. 20, m. 21; TKHK m. 5; TBK m. 58.\n\n**Değerlendirme:**\n- *Borca aykırılıklar:* Ses firmasının gelmemesi, şirketin üstlendiği edimin bir kısmının hiç ifa edilmemesidir. Gelinliğin lekelenmesi ise ikram yapılırken alacaklının malvarlığına zarar vermeme, yani koruma yükümlülüğünün ihlalidir. Her iki zarar da yardımcıların işi yürüttükleri sırada doğmuştur (TBK m. 112, m. 116/1).\n- *Özen savunması:* TBK m. 116'da, adam çalıştıranın sorumluluğundaki gibi bir kurtuluş kanıtı yoktur. Belirleyici olan varsayımsal kusurdur: şirket ses sistemini getirmeseydi ya da tepsiyi kendisi devirseydi bu ona kusur olarak yüklenirdi. Firmaları özenle seçmiş olması onu kurtarmaz.\n- *Yardımcı kişiler için kayıt:* Yardımcı kişilerden sorumluluğun önceden kaldırılması kural olarak mümkündür (TBK m. 116/2). Düğün organizasyonu izinle yürütülen bir uzmanlık işi olmadığından m. 116/3 de uygulanmaz. Ancak iki denetim kaydı etkisiz kılar. Birincisi, şirket bu aleyhe koşul hakkında açıkça bilgi vermediği için kayıt **yazılmamış sayılır** (TBK m. 21/1). İkincisi, tüketiciyle müzakere edilmeden konan ve onun aleyhine dengesizlik yaratan bu şart **haksız şarttır** ve kesin hükümsüzdür (TKHK m. 5/1-2). Yönetmeliğin örnek listesi de edimin hiç, kısmen veya ayıplı ifasında tüketicinin yasal haklarını kaldıran ya da ölçüsüz sınırlayan şartları ve tüketicinin maddi zarara uğraması hâlinde sorumluluğu kaldıran şartları haksız sayar.\n- *Kapora ile sınırlama:* Bu kayıt kısmi bir sorumsuzluk anlaşmasıdır ve yukarıdaki iki denetim burada da aynı sonucu verir. Ayrıca \"her hâlde\" ifadesiyle şirketin ağır kusurunu da kapsadığı ölçüde TBK m. 115/1'e göre kesin hükümsüzdür. Sözleşmenin geri kalanı geçerlidir; şirket bu kayıtlar olmasaydı sözleşmeyi yapmayacağını ileri süremez (TKHK m. 5/2).\n- *Maddi tazminat:* Çift, son anda kiraladığı ses sistemi için ödediği 30.000 TL'yi ve temizlenemeyen gelinliğin değeri olan 80.000 TL'yi isteyebilir (TBK m. 112). Hâkim tazminatın kapsamını m. 114/2 yoluyla m. 51'e göre belirler. İfa edilmeyen kısım için bedelden indirim gibi seçimlik haklar ayrı konudadır.\n- *Manevi tazminat:* Sözleşmeye aykırılık tek başına manevi tazminat gerektirmez. Ancak aykırılık kişilik hakkını zedelemişse TBK m. 114/2 yoluyla TBK m. 58 uygulanır. Yargıtay Hukuk Genel Kurulu, organizasyonun düğünden bir gün önce iptal edildiği bir olayda, düğün gibi insan hayatında genellikle bir kez yaşanan ve tekrarı mümkün olmayan bir günde yaşanan aksaklıkların acı ve üzüntüye yol açarak kişilik haklarını zedelediğini kabul etmiştir. Nikâhın ve ilk dansın müziksiz yapılması ve gelinliğin düğünün ortasında lekelenmesi bu ölçüte uyar. Çift manevi tazminat isteyebilir; miktarı hâkim olayın özelliklerine göre takdir eder.\n\n**Sonuç:** Şirket TBK m. 112 ve m. 116'ya göre sorumludur; özen savunması ve 14. maddedeki kayıtlar onu kurtarmaz. Çift 30.000 TL ve 80.000 TL maddi tazminatı, ayrıca kişilik haklarının zedelenmesi nedeniyle uygun bir manevi tazminatı isteyebilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "TBK m. 112'de kusurun ispat yükü kimdedir?",
+   "back_md": "Borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispatlar. Alacaklı ise borç ilişkisini, aykırılığı, zararı ve uygun illiyet bağını ispatlar."
+  },
+  {
+   "front_md": "Borca aykırılığın üç türü nedir?",
+   "back_md": "Hiç ifa etmeme, kötü ifa ve sözleşmenin olumlu ihlali (yan ve koruma yükümlülüklerinin ihlali)."
+  },
+  {
+   "front_md": "Borçlunun kusuruyla imkânsızlaşan borç sona erer mi?",
+   "back_md": "Hayır. Borç TBK m. 112'ye göre tazminat borcuna dönüşür. Borçlunun sorumlu tutulamayacağı imkânsızlıkta borç sona erer (TBK m. 136)."
+  },
+  {
+   "front_md": "Koruma yükümlülüğü nedir?",
+   "back_md": "Borçlunun ifa sırasında alacaklının bedenine ve malvarlığına zarar vermeme yükümlülüğü. Dürüstlük kuralına (TMK m. 2) dayanır."
+  },
+  {
+   "front_md": "Yapma borcu ifa edilmezse alacaklı ne ister? (TBK m. 113/1)",
+   "back_md": "Masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini. Her türlü giderim hakkı da saklıdır."
+  },
+  {
+   "front_md": "Yapmama borcuna aykırılıkta alacaklının hakları? (TBK m. 113/2-3)",
+   "back_md": "Zararın giderilmesi; ayrıca aykırılığın ortadan kaldırılması ya da masrafı borçluya ait olmak üzere bunun için kendisinin yetkili kılınması."
+  },
+  {
+   "front_md": "Borçlu hangi kusurlardan sorumludur? (TBK m. 114/1)",
+   "back_md": "Genel olarak her türlü kusurdan; hafif ihmal de yeter. Kapsam işin özel niteliğine göre belirlenir."
+  },
+  {
+   "front_md": "İş borçluya yarar sağlamıyorsa ne olur?",
+   "back_md": "Sorumluluk daha hafif olarak değerlendirilir (TBK m. 114/1). Örnek: karşılıksız saklama."
+  },
+  {
+   "front_md": "TBK m. 114/2 ne der?",
+   "back_md": "Haksız fiil sorumluluğuna ilişkin hükümler kıyas yoluyla sözleşmeye aykırılık hâllerine de uygulanır."
+  },
+  {
+   "front_md": "Sözleşmeye aykırılıkta manevi tazminat ne zaman istenir?",
+   "back_md": "Aykırılık tek başına yetmez. Kişilik hakkı zedelenmişse m. 114/2 yoluyla m. 58, bedensel bütünlük zedelenmişse m. 56 uygulanır (Yargıtay HGK)."
+  },
+  {
+   "front_md": "Ağır kusurdan sorumsuzluk anlaşması geçerli mi? (TBK m. 115/1)",
+   "back_md": "Önceden yapılmışsa kesin hükümsüzdür. Ağır kusur kastı ve ağır ihmali kapsar."
+  },
+  {
+   "front_md": "Hizmet sözleşmesinde sorumsuzluk anlaşması? (TBK m. 115/2)",
+   "back_md": "Hizmet sözleşmesinden kaynaklanan herhangi bir borç için önceden yapılan her türlü sorumsuzluk anlaşması kesin hükümsüzdür."
+  },
+  {
+   "front_md": "TBK m. 115/3'ün iki şartı nedir?",
+   "back_md": "Uzmanlık gerektiren bir hizmet, meslek veya sanat olması ve bunun ancak kanun ya da yetkili makam izniyle yürütülebilmesi. O zaman hafif kusurdan sorumsuzluk da kesin hükümsüzdür."
+  },
+  {
+   "front_md": "Sorumsuzluk kaydı hükümsüzse sözleşmenin tamamı düşer mi?",
+   "back_md": "Kural olarak hayır; yalnız kayıt hükümsüzdür (TBK m. 27/2). Genel işlem koşullarında ve tüketici sözleşmelerinde düzenleyen, kayıt olmasa sözleşmeyi yapmayacağını ileri süremez (TBK m. 22, TKHK m. 5/2)."
+  },
+  {
+   "front_md": "Yardımcı kişi olmak için bağımlılık gerekir mi?",
+   "back_md": "Hayır. Borçlunun iradesiyle ifaya katılan aile bireyi, işçi ya da bağımsız bir firma da yardımcı kişidir (TBK m. 116/1)."
+  },
+  {
+   "front_md": "Varsayımsal (farazi) kusur ölçütü nedir?",
+   "back_md": "Yardımcının davranışını borçlu kendisi yapsaydı bu ona kusur olarak yüklenebilir miydi? Cevap evetse borçlu TBK m. 116'ya göre sorumludur."
+  },
+  {
+   "front_md": "TBK m. 116 ile m. 66'nın temel farkı nedir?",
+   "back_md": "m. 116 önceden kurulmuş borç ilişkisinde uygulanır ve özen kanıtıyla kurtuluş yoktur. m. 66 sözleşme dışıdır; adam çalıştıran gerekli özeni gösterdiğini ispatlayarak kurtulabilir."
+  },
+  {
+   "front_md": "Yardımcı kişiler için sorumsuzluk kaydı geçerli mi? (TBK m. 116/2-3)",
+   "back_md": "Kural olarak sorumluluk tamamen veya kısmen kaldırılabilir. İzinle yürütülen uzmanlık işlerinde ise böyle bir anlaşma kesin hükümsüzdür."
+  },
+  {
+   "front_md": "Özel hastanede hastanın sözleşme tarafı kimdir?",
+   "back_md": "Kural olarak hastane (hastaneye kabul sözleşmesi). Hekim ve hemşire hastanenin yardımcı kişileridir."
+  },
+  {
+   "front_md": "Otoparktaki 'sorumluluk kabul edilmez' levhası işleteni kurtarır mı?",
+   "back_md": "Hayır (TBK m. 579/3). İşleten ancak kanunda sayılan sebepleri ispatlayarak kurtulur (TBK m. 579/1)."
+  },
+  {
+   "front_md": "Olumlu ve olumsuz zarar arasındaki fark nedir?",
+   "back_md": "Olumlu zarar, sözleşme ifa edilseydi ulaşılacak durumla aradaki farktır (ifa yararı). Olumsuz zarar, sözleşmeye güvenilmesi yüzünden uğranılan zarardır (güven yararı)."
+  },
+  {
+   "front_md": "Sözleşmeye aykırılıkta zamanaşımı kuralı nedir?",
+   "back_md": "Kanunda aksine hüküm yoksa on yıl (TBK m. 146). Bazı sözleşmelerden doğan alacaklarda beş yıl (TBK m. 147)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
