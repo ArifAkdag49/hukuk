@@ -54,7 +54,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 3 | zilyetligin-korunmasi-ve-hak-karineleri | denetimde | ajan yazdı (kontrol temiz) |
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | denetimde | ajan yazdı (kontrol temiz) |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
-| 6 | tescil-serh-ve-beyan | denetimde | ajan yazdı (kontrol temiz) |
+| 6 | tescil-serh-ve-beyan | bitti | ajan yazdı; denetçi soru 12 tarihini (TMK m. 895/2) ve 3 küçük noktayı düzeltti; yerelde yüklendi |
 | 7 | tapuya-guven-ve-yolsuz-tescil | yazılıyor | |
 | 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
 | 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bitti | ajan yazdı; denetçi bozuk soru 6'yı ve 3 belirsiz noktayı düzeltti; yerelde yüklendi |
