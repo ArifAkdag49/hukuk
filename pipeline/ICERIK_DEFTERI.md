@@ -24,13 +24,13 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 8 | temsil-ve-yetkisiz-temsil | API (eski üslup) | 〃 |
 | 9 | haksiz-fiil-genel-sorumluluk | API (eski üslup) | 〃 |
 | 10 | kusursuz-sorumluluk-halleri | API (eski üslup) | 〃 |
-| 11 | maddi-manevi-tazminat | bitti | örnek konu (rehberin referansı); yerelde yüklendi |
-| 12 | haksiz-fiil-muteselsil-sorumluluk-zamanasimi | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
-| 13 | sebepsiz-zenginlesme-sartlar | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
-| 14 | sebepsiz-zenginlesme-iade-kapsami | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
-| 15 | ifa-genel-esaslar | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
-| 16 | ifa-yeri-zamani-karsilikli-ifa | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
-| 17 | alacakli-temerrudu | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
+| 11 | maddi-manevi-tazminat | yüklendi | örnek konu (rehberin referansı); sunucuya yüklendi (2026-10-17) |
+| 12 | haksiz-fiil-muteselsil-sorumluluk-zamanasimi | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
+| 13 | sebepsiz-zenginlesme-sartlar | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
+| 14 | sebepsiz-zenginlesme-iade-kapsami | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
+| 15 | ifa-genel-esaslar | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
+| 16 | ifa-yeri-zamani-karsilikli-ifa | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
+| 17 | alacakli-temerrudu | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
 | 18 | borca-aykirilik-ve-tazminat | bekliyor | |
 | 19 | borclu-temerrudu-sart-ve-sonuclar | bekliyor | |
 | 20 | karsilikli-sozlesmelerde-secimlik-haklar | bekliyor | |
