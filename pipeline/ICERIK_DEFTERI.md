@@ -59,7 +59,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
 | 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bitti | ajan yazdı; denetçi bozuk soru 6'yı ve 3 belirsiz noktayı düzeltti; yerelde yüklendi |
 | 10 | payli-mulkiyet | yazılıyor | |
-| 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | yazılıyor | |
+| 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | bitti | ajan yazdı; denetçisiz (kullanıcı kararı: token tasarrufu); yerelde yüklendi |
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | yazılıyor | |
 | 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yazılıyor | |
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
