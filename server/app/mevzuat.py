@@ -199,16 +199,24 @@ async def madde_getir(kanun: str, madde_no: str | int) -> dict:
     }
     if not arts:
         return yok
-    data = await _post("getDocumentContent", {"documentType": "MADDE", "id": arts[0]["maddeId"]})
 
-    metin = html_to_text(base64.b64decode(data["content"]).decode("utf-8", errors="replace"))
-    base, ekler = split_ek_maddeler(metin, ek.group(1) if ek else madde_no)
-    if ek:
-        metin = next((v for k, v in ekler.items() if k.casefold() == ek.group(2).casefold()), None)
-        if not metin:
-            return yok
-    else:
-        metin = base
+    async def text_of(art: dict) -> str:
+        data = await _post("getDocumentContent", {"documentType": "MADDE", "id": art["maddeId"]})
+        return html_to_text(base64.b64decode(data["content"]).decode("utf-8", errors="replace"))
+
+    # Ağaçta aynı numarayla birden çok düğüm olabilir (HUAK'ta 18 ve 18/A ikisi de "18");
+    # istenen metni içeren ilk belge alınır.
+    metin = None
+    for art in arts[:4]:
+        base, ekler = split_ek_maddeler(await text_of(art), ek.group(1) if ek else madde_no)
+        if ek:
+            metin = next((v for k, v in ekler.items() if k.casefold() == ek.group(2).casefold()), None)
+        else:
+            metin = base or None
+        if metin:
+            break
+    if not metin:
+        return yok
     return {
         "kanun": law["mevzuatAdi"], "kanun_no": no, "madde_no": madde_no, "metin": metin,
         "kaynak": law.get("url"),

@@ -28,6 +28,13 @@ def test_title_lines_keep_only_sections_with_articles_in_range():
     ]
 
 
+def test_empty_article_detection():
+    assert arastir.bos_madde("Belirsiz alacak davası\nMADDE 107– (Mülga:16/7/2026-7589/19 md.)")
+    assert arastir.bos_madde("MADDE 3- (İptal: Anayasa Mahkemesi’nin 16/2/2012 tarihli Kararı ile. )")
+    assert not arastir.bos_madde("Madde 278- (İptal: AYM 30/6/2011; Değişik: 2/7/2012-6352/91 md.)\n(1) İşlenmekte olan bir suçu bildirmeyen kişi cezalandırılır.")
+    assert not arastir.bos_madde("MADDE 193- (1) Birleşmeye katılanlar sorumludur.\n(2) (Mülga: 26/6/2012-6335/43 md.)")
+
+
 def test_title_lines_without_range_list_everything():
     lines = arastir.baslik_satirlari(TREE, None, None)
     assert lines[0] == "[BAŞLANGIÇ]" and "  m. 2 — I. Dürüst davranma" in lines and len(lines) == 7

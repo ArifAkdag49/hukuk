@@ -113,6 +113,16 @@ async def basliklar(kanun: str, ilk: int | None, son: int | None) -> list[str]:
     return [f"# {law.get('mevzuatAdi')} ({no})", *baslik_satirlari(tree, ilk, son)]
 
 
+def bos_madde(metin: str) -> bool:
+    """"MADDE 107– (Mülga: ...)" gibi gövdesi kalmamış madde mi? İptal edilip yeniden
+    düzenlenen (TCK 278) ya da yalnız bir fıkrası mülga olan maddeler boş sayılmaz."""
+    m = re.search(r"MADDE\s+[0-9/A-Za-zÇĞİÖŞÜçğıöşü]+\s*[-–]\s*", metin, flags=re.I)
+    if not m:
+        return False
+    govde = re.sub(r"^\([^)]*\)", "", metin[m.end():].strip()).strip()
+    return len(govde) < 20
+
+
 async def mufredat(course_id: str, bekle: float = 0.3) -> tuple[int, int, list[str]]:
     """Müfredattaki her maddenin resmî metnini çeker (önbelleğe yazar); eksik ya da mülga olanları döner."""
     import yaml
@@ -135,8 +145,8 @@ async def mufredat(course_id: str, bekle: float = 0.3) -> tuple[int, int, list[s
             metin = d.get("metin") or ""
             if not metin:
                 sorunlar.append(f"{kanun} m. {no}: {d.get('uyari') or 'metin yok'}")
-            elif re.search(r"MADDE\s+[0-9/A-Za-z]+\s*[-–]\s*\((?:Mülga|İptal)\b", metin[:400], flags=re.I):
-                sorunlar.append(f"{kanun} m. {no}: mülga görünüyor")
+            elif bos_madde(metin):
+                sorunlar.append(f"{kanun} m. {no}: mülga ya da iptal edilmiş (gövdesi boş)")
             if not cached:
                 await asyncio.sleep(bekle)
     return len(slugs), sum(len(v) for v in by_law.values()), sorunlar

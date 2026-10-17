@@ -1,0 +1,152 @@
+# HUK3015 Ceza Hukuku Özel Hükümler — 5237 sayılı TCK İkinci Kitap (m. 76-345).
+# Elle (Claude Code'da) kuruldu: konu sınırları kanunun tam metnindeki başlıklara göre.
+# Sıra: kişilere karşı suçlar, topluma karşı suçlar, millete ve devlete karşı suçlar
+# (kamu idaresi ve adliye).
+units:
+- title: 'Ünite 1: Hayata ve Vücut Dokunulmazlığına Karşı Suçlar'
+  topics:
+  - slug: kasten-oldurme
+    title: 'Kasten Öldürme: Temel Şekil, Nitelikli Hâller ve İhmali Davranışla Öldürme'
+    maddeler: [{kanun: TCK, madde: '81'}, {kanun: TCK, madde: '82'}, {kanun: TCK, madde: '83'}, {kanun: TCK, madde: '29'}, {kanun: TCK, madde: '21'}]
+    ictihat_sorgulari: [tasarlayarak öldürme soğukkanlılık, canavarca his saikiyle öldürme]
+    beceri: kisilere-karsi-suclar
+  - slug: intihara-yonlendirme-ve-taksirle-oldurme
+    title: İntihara Yönlendirme ve Taksirle Öldürme (Bilinçli Taksir, Birden Fazla Kişinin Ölümü)
+    maddeler: [{kanun: TCK, madde: '84'}, {kanun: TCK, madde: '85'}, {kanun: TCK, madde: '22'}]
+    ictihat_sorgulari: [bilinçli taksir olası kast ayrımı, taksirle öldürme birden fazla kişinin ölümü]
+    beceri: kisilere-karsi-suclar
+  - slug: kasten-yaralama
+    title: 'Kasten Yaralama: Temel Şekil, Nitelikli Hâller ve Neticesi Sebebiyle Ağırlaşmış Yaralama'
+    maddeler: [{kanun: TCK, madde: '86'}, {kanun: TCK, madde: '87'}, {kanun: TCK, madde: '88'}, {kanun: TCK, madde: '23'}]
+    ictihat_sorgulari: [basit tıbbi müdahale ile giderilebilecek yaralama, neticesi sebebiyle ağırlaşmış yaralama ölüm]
+    beceri: nitelikli-hal-ceza-belirleme
+  - slug: taksirle-yaralama-iskence-ve-eziyet
+    title: Taksirle Yaralama, İşkence ve Eziyet
+    maddeler: [{kanun: TCK, madde: '89'}, {kanun: TCK, madde: '94'}, {kanun: TCK, madde: '95'}, {kanun: TCK, madde: '96'}]
+    ictihat_sorgulari: [işkence suçu kamu görevlisi, eziyet suçu sistematik]
+    beceri: kisilere-karsi-suclar
+  - slug: terk-yardim-yukumlulugu-ve-cocuk-dusurtme
+    title: Terk, Yardım veya Bildirim Yükümlülüğünün Yerine Getirilmemesi, İnsan Üzerinde Deney, Organ Ticareti ve Çocuk Düşürtme
+    maddeler: [{kanun: TCK, madde: '90'}, {kanun: TCK, madde: '91'}, {kanun: TCK, madde: '97'}, {kanun: TCK, madde: '98'}, {kanun: TCK, madde: '99'}, {kanun: TCK, madde: '100'}, {kanun: TCK, madde: '101'}]
+    ictihat_sorgulari: [yardım veya bildirim yükümlülüğünün yerine getirilmemesi, terk suçu bakım yükümlülüğü]
+    beceri: kisilere-karsi-suclar
+- title: 'Ünite 2: Cinsel Dokunulmazlığa ve Hürriyete Karşı Suçlar'
+  topics:
+  - slug: cinsel-saldiri-ve-cinsel-taciz
+    title: Cinsel Saldırı ve Cinsel Taciz
+    maddeler: [{kanun: TCK, madde: '102'}, {kanun: TCK, madde: '105'}]
+    ictihat_sorgulari: [cinsel saldırı sarkıntılık düzeyi, cinsel taciz işyeri]
+    beceri: cinsel-suclar
+  - slug: cocuklarin-cinsel-istismari-ve-resit-olmayanla-iliski
+    title: Çocukların Cinsel İstismarı ve Reşit Olmayanla Cinsel İlişki
+    maddeler: [{kanun: TCK, madde: '103'}, {kanun: TCK, madde: '104'}, {kanun: TCK, madde: '6'}]
+    ictihat_sorgulari: [çocuğun cinsel istismarı on beş yaş, reşit olmayanla cinsel ilişki şikayet]
+    beceri: cinsel-suclar
+  - slug: tehdit-santaj-ve-cebir
+    title: Tehdit, Şantaj ve Cebir
+    maddeler: [{kanun: TCK, madde: '106'}, {kanun: TCK, madde: '107'}, {kanun: TCK, madde: '108'}]
+    ictihat_sorgulari: [tehdit suçu silahla, şantaj hakkı olan bir şeyi yapacağından bahisle]
+    beceri: kisilere-karsi-suclar
+  - slug: kisiyi-hurriyetinden-yoksun-kilma
+    title: Kişiyi Hürriyetinden Yoksun Kılma ve Etkin Pişmanlık
+    maddeler: [{kanun: TCK, madde: '109'}, {kanun: TCK, madde: '110'}]
+    ictihat_sorgulari: [kişiyi hürriyetinden yoksun kılma cinsel amaçla, kişiyi hürriyetinden yoksun kılma araçla]
+    beceri: kisilere-karsi-suclar
+  - slug: konut-dokunulmazligi-ve-diger-hurriyete-karsi-suclar
+    title: Konut Dokunulmazlığının İhlali, İş ve Çalışma Hürriyetinin İhlali, Kişilerin Huzur ve Sükununu Bozma, Israrlı Takip ve Diğer Hürriyete Karşı Suçlar
+    maddeler: [{kanun: TCK, madde: '112'}, {kanun: TCK, madde: '115'}, {kanun: TCK, madde: '116'}, {kanun: TCK, madde: '117'}, {kanun: TCK, madde: '119'}, {kanun: TCK, madde: '122'}, {kanun: TCK, madde: '123'}, {kanun: TCK, madde: '123/A'}, {kanun: TCK, madde: '124'}]
+    ictihat_sorgulari: [konut dokunulmazlığının ihlali eklentisi, kişilerin huzur ve sükununu bozma ısrarla telefon]
+    beceri: kisilere-karsi-suclar
+- title: 'Ünite 3: Şerefe ve Özel Hayata Karşı Suçlar'
+  topics:
+  - slug: hakaret
+    title: 'Hakaret: Temel Şekil, Nitelikli Hâller, İsnadın İspatı, İddia ve Savunma Dokunulmazlığı, Karşılıklı Hakaret'
+    maddeler: [{kanun: TCK, madde: '125'}, {kanun: TCK, madde: '126'}, {kanun: TCK, madde: '127'}, {kanun: TCK, madde: '128'}, {kanun: TCK, madde: '129'}, {kanun: TCK, madde: '130'}, {kanun: TCK, madde: '131'}]
+    ictihat_sorgulari: [kamu görevlisine görevinden dolayı hakaret, eleştiri hakkı hakaret sınırı]
+    beceri: hakaret-ozel-hayat-suclari
+  - slug: ozel-hayatin-gizliligi-ve-kisisel-veriler
+    title: Haberleşmenin Gizliliğini İhlal, Kişiler Arasındaki Konuşmaların Dinlenmesi, Özel Hayatın Gizliliğini İhlal ve Kişisel Verilere İlişkin Suçlar
+    maddeler: [{kanun: TCK, madde: '132'}, {kanun: TCK, madde: '133'}, {kanun: TCK, madde: '134'}, {kanun: TCK, madde: '135'}, {kanun: TCK, madde: '136'}, {kanun: TCK, madde: '137'}, {kanun: TCK, madde: '138'}, {kanun: TCK, madde: '139'}]
+    ictihat_sorgulari: [özel hayatın gizliliğini ihlal ses kaydı, kişisel verileri hukuka aykırı olarak verme]
+    beceri: hakaret-ozel-hayat-suclari
+- title: 'Ünite 4: Malvarlığına Karşı Suçlar'
+  topics:
+  - slug: hirsizlik
+    title: 'Hırsızlık: Temel Şekil, Nitelikli Hâller, Gece, Daha Az Cezayı Gerektiren Hâller ve Kullanma Hırsızlığı'
+    maddeler: [{kanun: TCK, madde: '141'}, {kanun: TCK, madde: '142'}, {kanun: TCK, madde: '143'}, {kanun: TCK, madde: '144'}, {kanun: TCK, madde: '145'}, {kanun: TCK, madde: '146'}, {kanun: TCK, madde: '147'}]
+    ictihat_sorgulari: [nitelikli hırsızlık bina içinde, hırsızlık malın değerinin az olması]
+    beceri: malvarligi-suclari
+  - slug: yagma
+    title: 'Yağma: Temel Şekil, Nitelikli Yağma ve Daha Az Cezayı Gerektiren Hâl'
+    maddeler: [{kanun: TCK, madde: '148'}, {kanun: TCK, madde: '149'}, {kanun: TCK, madde: '150'}]
+    ictihat_sorgulari: [yağma suçu silahla gece, alacağı tahsil amacıyla yağma]
+    beceri: malvarligi-suclari
+  - slug: mala-zarar-verme-ve-hakki-olmayan-yere-tecavuz
+    title: Mala Zarar Verme, Nitelikli Mala Zarar Verme, İbadethane ve Mezarlıklara Zarar Verme, Hakkı Olmayan Yere Tecavüz
+    maddeler: [{kanun: TCK, madde: '151'}, {kanun: TCK, madde: '152'}, {kanun: TCK, madde: '153'}, {kanun: TCK, madde: '154'}]
+    ictihat_sorgulari: [kamu malına zarar verme, hakkı olmayan yere tecavüz taşınmaz zilyetlik]
+    beceri: malvarligi-suclari
+  - slug: guveni-kotuye-kullanma-ve-bedelsiz-senet
+    title: Güveni Kötüye Kullanma, Bedelsiz Senedi Kullanma ve Kaybolmuş Eşya Üzerinde Tasarruf
+    maddeler: [{kanun: TCK, madde: '155'}, {kanun: TCK, madde: '156'}, {kanun: TCK, madde: '160'}]
+    ictihat_sorgulari: [güveni kötüye kullanma zilyetliği devredilen mal, hizmet nedeniyle güveni kötüye kullanma]
+    beceri: malvarligi-suclari
+  - slug: dolandiricilik
+    title: 'Dolandırıcılık: Temel Şekil, Nitelikli Dolandırıcılık ve Daha Az Cezayı Gerektiren Hâller'
+    maddeler: [{kanun: TCK, madde: '157'}, {kanun: TCK, madde: '158'}, {kanun: TCK, madde: '159'}]
+    ictihat_sorgulari: [dolandırıcılık hileli davranış yeterli hile, bilişim sistemlerinin araç olarak kullanılması dolandırıcılık]
+    beceri: malvarligi-suclari
+  - slug: malvarligi-suclarinda-diger-suclar-ve-ortak-hukumler
+    title: Hileli ve Taksirli İflas, Karşılıksız Yararlanma, Suç Eşyasının Satın Alınması, Şahsi Cezasızlık Sebebi ve Etkin Pişmanlık
+    maddeler: [{kanun: TCK, madde: '161'}, {kanun: TCK, madde: '162'}, {kanun: TCK, madde: '163'}, {kanun: TCK, madde: '165'}, {kanun: TCK, madde: '167'}, {kanun: TCK, madde: '168'}]
+    ictihat_sorgulari: [malvarlığına karşı suçlarda etkin pişmanlık iade, şahsi cezasızlık sebebi eş üstsoy]
+    beceri: malvarligi-suclari
+- title: 'Ünite 5: Topluma Karşı Suçlar'
+  topics:
+  - slug: genel-guvenlik-ve-trafik-guvenligi
+    title: Genel Güvenliğin Kasten ve Taksirle Tehlikeye Sokulması, Trafik Güvenliğini Tehlikeye Sokma
+    maddeler: [{kanun: TCK, madde: '170'}, {kanun: TCK, madde: '171'}, {kanun: TCK, madde: '179'}, {kanun: TCK, madde: '180'}]
+    ictihat_sorgulari: [trafik güvenliğini tehlikeye sokma alkollü araç, genel güvenliğin kasten tehlikeye sokulması silahla ateş]
+    beceri: temel-kavramlar-ve-sistematik
+  - slug: uyusturucu-veya-uyarici-madde-suclari
+    title: Uyuşturucu veya Uyarıcı Madde İmal ve Ticareti, Kullanılmasını Kolaylaştırma ve Kullanmak İçin Bulundurma
+    maddeler: [{kanun: TCK, madde: '188'}, {kanun: TCK, madde: '190'}, {kanun: TCK, madde: '191'}, {kanun: TCK, madde: '192'}]
+    ictihat_sorgulari: [uyuşturucu madde ticareti kullanmak için bulundurma ayrımı, kullanmak için uyuşturucu bulundurma denetimli serbestlik]
+    beceri: temel-kavramlar-ve-sistematik
+  - slug: kamu-guvenine-karsi-suclar-sahtecilik
+    title: Parada Sahtecilik, Resmî Belgede Sahtecilik, Özel Belgede Sahtecilik ve Ortak Hükümler
+    maddeler: [{kanun: TCK, madde: '197'}, {kanun: TCK, madde: '204'}, {kanun: TCK, madde: '205'}, {kanun: TCK, madde: '206'}, {kanun: TCK, madde: '207'}, {kanun: TCK, madde: '209'}, {kanun: TCK, madde: '210'}, {kanun: TCK, madde: '211'}, {kanun: TCK, madde: '212'}]
+    ictihat_sorgulari: [resmi belgede sahtecilik aldatma yeteneği, özel belgede sahtecilik kullanma]
+    beceri: belgede-sahtecilik
+  - slug: kamu-barisina-karsi-suclar-ve-suc-orgutu
+    title: Kamu Barışına Karşı Suçlar ve Suç İşlemek Amacıyla Örgüt Kurma
+    maddeler: [{kanun: TCK, madde: '213'}, {kanun: TCK, madde: '214'}, {kanun: TCK, madde: '215'}, {kanun: TCK, madde: '216'}, {kanun: TCK, madde: '217'}, {kanun: TCK, madde: '220'}]
+    ictihat_sorgulari: [suç işlemek amacıyla örgüt kurma hiyerarşi süreklilik, halkı kin ve düşmanlığa tahrik]
+    beceri: temel-kavramlar-ve-sistematik
+  - slug: aile-duzenine-ve-ekonomiye-karsi-suclar
+    title: Aile Düzenine Karşı Suçlar (Kötü Muamele, Çocuğun Kaçırılması) ve Ekonomi, Sanayi ve Ticarete İlişkin Suçlar (İhaleye Fesat, Tefecilik)
+    maddeler: [{kanun: TCK, madde: '230'}, {kanun: TCK, madde: '232'}, {kanun: TCK, madde: '233'}, {kanun: TCK, madde: '234'}, {kanun: TCK, madde: '235'}, {kanun: TCK, madde: '236'}, {kanun: TCK, madde: '241'}]
+    ictihat_sorgulari: [aile bireylerine kötü muamele, ihaleye fesat karıştırma]
+    beceri: temel-kavramlar-ve-sistematik
+  - slug: bilisim-alaninda-suclar
+    title: 'Bilişim Alanında Suçlar: Sisteme Girme, Sistemi Engelleme ve Verileri Bozma, Banka veya Kredi Kartlarının Kötüye Kullanılması'
+    maddeler: [{kanun: TCK, madde: '243'}, {kanun: TCK, madde: '244'}, {kanun: TCK, madde: '245'}]
+    ictihat_sorgulari: [bilişim sistemine girme hesaba izinsiz giriş, banka kartının kötüye kullanılması]
+    beceri: temel-kavramlar-ve-sistematik
+- title: 'Ünite 6: Kamu İdaresinin Güvenilirliğine ve Adliyeye Karşı Suçlar'
+  topics:
+  - slug: zimmet-irtikap-ve-rusvet
+    title: Zimmet, İrtikap ve Rüşvet; Etkin Pişmanlık
+    maddeler: [{kanun: TCK, madde: '247'}, {kanun: TCK, madde: '248'}, {kanun: TCK, madde: '249'}, {kanun: TCK, madde: '250'}, {kanun: TCK, madde: '252'}, {kanun: TCK, madde: '254'}, {kanun: TCK, madde: '6'}]
+    ictihat_sorgulari: [zimmet suçu hileli davranış, rüşvet anlaşma teşebbüs]
+    beceri: kamu-idaresine-karsi-suclar
+  - slug: gorevi-kotuye-kullanma-ve-diger-kamu-gorevi-suclari
+    title: Nüfuz Ticareti, Zor Kullanma Yetkisinin Aşılması, Görevi Kötüye Kullanma, Göreve İlişkin Sırrın Açıklanması, Kamu Görevinin Terki ve Görevi Yaptırmamak İçin Direnme
+    maddeler: [{kanun: TCK, madde: '255'}, {kanun: TCK, madde: '256'}, {kanun: TCK, madde: '257'}, {kanun: TCK, madde: '258'}, {kanun: TCK, madde: '260'}, {kanun: TCK, madde: '265'}]
+    ictihat_sorgulari: [görevi kötüye kullanma kamu zararı kişilerin mağduriyeti, görevi yaptırmamak için direnme polis]
+    beceri: kamu-idaresine-karsi-suclar
+  - slug: adliyeye-karsi-suclar
+    title: 'Adliyeye Karşı Suçlar: İftira, Suç Uydurma, Yalan Tanıklık, Suçu Bildirmeme, Delilleri Yok Etme, Suçluyu Kayırma ve Aklama'
+    maddeler: [{kanun: TCK, madde: '267'}, {kanun: TCK, madde: '269'}, {kanun: TCK, madde: '271'}, {kanun: TCK, madde: '272'}, {kanun: TCK, madde: '273'}, {kanun: TCK, madde: '274'}, {kanun: TCK, madde: '278'}, {kanun: TCK, madde: '281'}, {kanun: TCK, madde: '282'}, {kanun: TCK, madde: '283'}]
+    ictihat_sorgulari: [iftira suçu hukuka aykırı fiil isnadı, yalan tanıklık etkin pişmanlık]
+    beceri: kamu-idaresine-karsi-suclar

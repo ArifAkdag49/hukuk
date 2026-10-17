@@ -90,6 +90,39 @@ def test_text_without_lettered_articles_is_unchanged():
     assert base == "Cinsel saldırı\nMadde 102- (1) ..." and ekler == {}
 
 
+def test_lettered_article_found_when_tree_lists_two_nodes_with_the_same_number(monkeypatch):
+    import base64
+    import json
+
+    docs = {
+        "m18": "<p>Tutanak</p><p>MADDE 18- (1) Arabuluculuk faaliyeti sonunda son tutanak düzenlenir.</p>",
+        "m18a": "<p>Dava şartı olarak arabuluculuk</p><p>MADDE 18/A- (1) Kanunlarda öngörülen hâllerde arabulucuya başvurulmuş olması dava şartıdır.</p>",
+    }
+
+    def handler(request):
+        path = request.url.path.rsplit("/", 1)[-1]
+        body = json.loads(request.content)["data"]
+        if path == "searchDocuments":
+            data = {"mevzuatList": [{"mevzuatNo": "6325", "mevzuatId": "L1", "mevzuatAdi": "HUAK", "mevzuatTur": {"name": "KANUN"}}]}
+        elif path == "mevzuatMaddeTree":
+            data = {"children": [
+                {"maddeId": "m18", "maddeNo": 18, "title": "Tutanak", "children": []},
+                {"maddeId": "m18a", "maddeNo": 18, "title": None, "children": []},
+            ]}
+        else:
+            data = {"content": base64.b64encode(docs[body["id"]].encode()).decode()}
+        return httpx.Response(200, json={"metadata": {"FMTY": "SUCCESS"}, "data": data})
+
+    _patch(monkeypatch, handler)
+    mevzuat._mevzuat_cache.clear()
+    mevzuat._tree_cache.clear()
+    d = asyncio.run(mevzuat.madde_getir("HUAK", "18/A"))
+    assert d["metin"].startswith("Dava şartı olarak arabuluculuk\nMADDE 18/A-")
+    assert asyncio.run(mevzuat.madde_getir("HUAK", "18"))["metin"].startswith("Tutanak\nMADDE 18-")
+    mevzuat._mevzuat_cache.clear()
+    mevzuat._tree_cache.clear()
+
+
 def test_client_errors_other_than_rate_limit_are_not_retried(monkeypatch):
     calls = []
 
