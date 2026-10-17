@@ -3,7 +3,9 @@
 Elle (Claude Code'da, API'siz) yazılan konuların durumu. Bir oturum kesilirse
 kaldığı yerden buradan devam edilir. Kural ve biçim: `pipeline/YAZIM_REHBERI.md`.
 
-Durumlar: `bekliyor` · `yazılıyor` · `bitti` (elle bitir geçti) · `yüklendi` (sunucuda)
+Durumlar: `bekliyor` · `yazılıyor` · `denetimde` (yazıldı, bağımsız denetçide) · `bitti` (elle bitir geçti) · `yüklendi` (sunucuda)
+
+Akış ve görev metinleri: `pipeline/ajan/README.md`.
 
 Sıra: önce HUK2011'in kalan 18 konusu, sonra 3. sınıf dersleri (HUK3011 Eşya,
 HUK3012 Borçlar Özel, HUK3013 Ticaret, HUK3015 Ceza Özel, HUK3017 Medeni Usul,
@@ -31,13 +33,13 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 15 | ifa-genel-esaslar | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 16 | ifa-yeri-zamani-karsilikli-ifa | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 17 | alacakli-temerrudu | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
-| 18 | borca-aykirilik-ve-tazminat | bekliyor | |
-| 19 | borclu-temerrudu-sart-ve-sonuclar | bekliyor | |
-| 20 | karsilikli-sozlesmelerde-secimlik-haklar | bekliyor | |
-| 21 | imkansizlik-ve-asiri-ifa-guclugu | bekliyor | |
-| 22 | sona-erme-halleri-ve-takas | bekliyor | |
-| 23 | zamanasimi | bekliyor | |
-| 24 | muteselsil-borcluluk | bekliyor | |
+| 18 | borca-aykirilik-ve-tazminat | yazılıyor | |
+| 19 | borclu-temerrudu-sart-ve-sonuclar | denetimde | ajan yazdı (kontrol temiz) |
+| 20 | karsilikli-sozlesmelerde-secimlik-haklar | yazılıyor | |
+| 21 | imkansizlik-ve-asiri-ifa-guclugu | yazılıyor | |
+| 22 | sona-erme-halleri-ve-takas | yazılıyor | |
+| 23 | zamanasimi | yazılıyor | |
+| 24 | muteselsil-borcluluk | yazılıyor | |
 | 25 | kosullu-borclar | bekliyor | |
 | 26 | baglanma-parasi-cayma-parasi-cezai-sart | bekliyor | |
 | 27 | alacagin-devri | bekliyor | |
