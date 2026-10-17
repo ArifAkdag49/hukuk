@@ -36,11 +36,11 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 18 | borca-aykirilik-ve-tazminat | denetimde | ajan yazdı (kontrol temiz) |
 | 19 | borclu-temerrudu-sart-ve-sonuclar | denetimde | ajan yazdı (kontrol temiz) |
 | 20 | karsilikli-sozlesmelerde-secimlik-haklar | denetimde | ajan yazdı (kontrol temiz) |
-| 21 | imkansizlik-ve-asiri-ifa-guclugu | yazılıyor | |
+| 21 | imkansizlik-ve-asiri-ifa-guclugu | denetimde | ajan yazdı (kontrol temiz) |
 | 22 | sona-erme-halleri-ve-takas | yazılıyor | |
 | 23 | zamanasimi | denetimde | ajan yazdı (kontrol temiz) |
 | 24 | muteselsil-borcluluk | yazılıyor | |
 | 25 | kosullu-borclar | yazılıyor | |
 | 26 | baglanma-parasi-cayma-parasi-cezai-sart | yazılıyor | |
 | 27 | alacagin-devri | yazılıyor | |
-| 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | bekliyor | |
+| 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | yazılıyor | |
