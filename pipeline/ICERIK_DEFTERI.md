@@ -54,7 +54,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 3 | zilyetligin-korunmasi-ve-hak-karineleri | yazılıyor | |
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
-| 6 | tescil-serh-ve-beyan | yazılıyor | |
+| 6 | tescil-serh-ve-beyan | denetimde | ajan yazdı (kontrol temiz) |
 | 7 | tapuya-guven-ve-yolsuz-tescil | yazılıyor | |
 | 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
 | 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | denetimde | ajan yazdı (kontrol temiz) |
@@ -63,7 +63,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | yazılıyor | |
 | 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yazılıyor | |
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
-| 15 | yapi-hukuku-ve-taskin-yapi | bekliyor | |
+| 15 | yapi-hukuku-ve-taskin-yapi | yazılıyor | |
 | 16 | yasal-onalim-alim-ve-geri-alim | bekliyor | |
 | 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | |
