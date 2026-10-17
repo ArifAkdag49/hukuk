@@ -51,7 +51,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 |---|---|---|---|
 | 1 | esya-hukukuna-giris-ve-ilkeler | bitti | ajan yazdı; denetçi ehliyetsizlikte TMK m. 1023 tartışmasını ekledi (HGK 2026); yerelde yüklendi |
 | 2 | zilyetlik-kavrami-turleri-ve-devri | yazılıyor | |
-| 3 | zilyetligin-korunmasi-ve-hak-karineleri | yazılıyor | |
+| 3 | zilyetligin-korunmasi-ve-hak-karineleri | denetimde | ajan yazdı (kontrol temiz) |
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
 | 6 | tescil-serh-ve-beyan | denetimde | ajan yazdı (kontrol temiz) |
@@ -64,7 +64,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yazılıyor | |
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
 | 15 | yapi-hukuku-ve-taskin-yapi | yazılıyor | |
-| 16 | yasal-onalim-alim-ve-geri-alim | bekliyor | |
+| 16 | yasal-onalim-alim-ve-geri-alim | yazılıyor | |
 | 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | |
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
