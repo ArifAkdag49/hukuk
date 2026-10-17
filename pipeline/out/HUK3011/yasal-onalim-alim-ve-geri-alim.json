@@ -1,0 +1,725 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Taşınmaz Mülkiyeti",
+ "topic_index": 5,
+ "slug": "yasal-onalim-alim-ve-geri-alim",
+ "title": "Yasal Önalım Hakkı, Sözleşmeden Doğan Önalım, Alım ve Geri Alım Hakları",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T23:09:14.937022+00:00",
+ "skill_refs": [
+  "esya-hukuku/paydaslik-ortakligin-giderilmesi"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Paylı mülkiyette payını satmak isteyen paydaşın serbestisi nerede sınırlanır; satın alma ya da geri alma hakkı sözleşmeyle nasıl kurulur ve üçüncü kişilere karşı nasıl güçlenir?\n\n- **Genel çerçeve (TMK m. 731):** Taşınmaz mülkiyetinin kanundan doğan kısıtlamaları tescil edilmeden etkilidir. Yasal önalım bunlardan biridir, bu yüzden şerh gerektirmez. Kaldırılması ya da değiştirilmesi resmî şekil ve şerh ister; kamu yararı kısıtlamaları kaldırılamaz.\n- **Yasal önalım şartı (TMK m. 732):** Paylı mülkiyet, taşınmaz, satış ve alıcının üçüncü kişi olması. Payın tamamı da bir kısmı da satılabilir. Hak sahipleri diğer paydaşlardır.\n- 📌 **Kullanma yasağı (TMK m. 733/1):** 7571 sayılı Kanunla değişen metne göre 2886 sayılı Devlet İhale Kanunu kapsamındaki satışlarda ve cebrî artırmayla satışlarda önalım kullanılamaz.\n- **Feragat ve vazgeçme (TMK m. 733/2):** Genel feragat resmî şekil ve şerh ister. Belirli bir satışta vazgeçme yazılı şekle tabidir, satıştan önce veya sonra yapılabilir.\n- **Bildirim (TMK m. 733/3):** Satışı alıcı veya satıcı diğer paydaşlara noter aracılığıyla bildirir.\n- 📌 **Süre (TMK m. 733/4):** Bildirimden itibaren üç ay ve her hâlde satıştan itibaren bir yıl. Üst süre eskiden iki yıldı; 25.12.2025'ten önce yapılan satışlarda iki yıl uygulanmaya devam eder (TMK'nın geçici 1. maddesi). Süreler hak düşürücüdür, hâkim re'sen gözetir. Üç aylık süreyi öğrenme değil noter bildirimi başlatır.\n- **Kullanma (TMK m. 734/1):** Önalım alıcıya karşı dava açılarak kullanılır; satıcı davalı olmaz.\n- 📌 **Bedel (TMK m. 734/2):** Hâkimin gecikmeksizin belirlediği rayiç bedel ile alıcıya düşen tapu giderleri, kesin süre içinde nakden, nemalandırılmak üzere hâkimin belirlediği yere yatırılır. Yatırılmazsa tescile karar verilemez. Bu değişiklik 25.12.2025'ten önce açılmış davalara da uygulanır. Rayiç bedelin hangi tarihe göre belirleneceği tartışmalıdır.\n- **Sözleşmeden doğan önalım:** Yazılı şekil yeter (TBK m. 237/3). Şerhle her malike karşı kullanılır; şerhin etkisi en çok on yıl sürer (TMK m. 735). Satışa eşdeğer her işlemde kullanılabilir (TBK m. 240/1). Aksine anlaşma yoksa devredilemez, miras yoluyla geçer (TBK m. 239/1). Dava şerhli ve alıcı adına tescilliyse alıcıya, değilse satıcıya karşı açılır (TBK m. 242).\n- **Alım ve geri alım hakları:** Resmî şekil şarttır (TBK m. 237/2). En çok on yıl kararlaştırılabilir (TBK m. 238). Şerhle şerhte belirtilen sürede her malike karşı kullanılır; şerhin etkisi on yılda sona erer (TMK m. 736).\n- **Fiili taksim:** Paydaşlar taşınmazı fiilen bölüşüp uzun süre öyle kullanmışsa yerleşik içtihada göre önalım davası dürüstlük kuralına aykırı sayılır.",
+  "content_md": "## 0. Konunun haritası\n\nPaylı mülkiyette her paydaş payını serbestçe devredebilir (TMK m. 688/3). Bu serbestinin iki türlü sınırı vardır. Birincisi kanundan doğar: diğer paydaşlar, payın üçüncü kişiye satılması hâlinde **yasal önalım** hakkını kullanır. İkincisi sözleşmeden doğar: taraflar bir taşınmaz için **önalım**, **alım** ya da **geri alım** hakkı tanıyabilir.\n\n| Hak | Kaynağı | Üçüncü kişilere karşı |\n|---|---|---|\n| Yasal önalım | Kanun (TMK m. 732) | Şerh gerekmez (TMK m. 731/1) |\n| Sözleşmeden doğan önalım | Yazılı sözleşme (TBK m. 237/3) | Şerhle (TMK m. 735/1) |\n| Alım ve geri alım | Resmî şekilli sözleşme (TBK m. 237/2) | Şerhle (TMK m. 736/1) |\n\nBu üç hakkın ortak noktası, taşınmazın bir başkasına geçmesini bir kişinin lehine **geri çevirebilmesidir**. Farkları kaynakta, şekilde, süre ve şerh rejiminde yatar. Sınavda ilk soru her zaman şudur: \"Hak kanundan mı doğuyor, sözleşmeden mi?\"\n\n> ⚠️ **Sınavda dikkat:** Bu notta kat mülkiyetinde önalımın durumu ve satış memurluğunca yapılan ihaleli satışların (örneğin ortaklığın giderilmesi satışları) kullanma yasağına girip girmediği ele alınmıyor; bu iki noktayı ayrıca incelemek gerekir. Önalım davasında arabuluculuk konusu da ayrıca araştırılmalıdır: HUAK m. 18/B'nin saydığı uyuşmazlıklar arasında önalım davası adıyla geçmez.\n\n## 1. Kanundan doğan kısıtlamalar (TMK m. 731)\n\nTaşınmaz mülkiyetinin kanundan doğan kısıtlamaları, tapu siciline tescil edilmeksizin etkili olur (TMK m. 731/1). Yasal önalım bu kısıtlamalardandır. Bu yüzden önalım hakkının üçüncü kişilere karşı ileri sürülebilmesi için kütükte bir kayıt aranmaz.\n\nKısıtlamayı kaldırmak ya da değiştirmek de kolay değildir: Bunun için sözleşmenin resmî şekilde düzenlenmesi ve tapu kütüğüne şerh verilmesi gerekir (TMK m. 731/2). Kamu yararı için konulan kısıtlamalar ise hiç kaldırılamaz ve değiştirilemez (TMK m. 731/3). Genel feragatin resmî şekil ve şerh istemesi (TMK m. 733/2) bu düşüncenin devamıdır.\n\n## 2. Yasal önalım hakkı (TMK m. 732)\n\n**Yasal önalım**, paydaşın payını üçüncü kişiye satması hâlinde diğer paydaşların, satışı yapılan payı alıcının yerine geçerek satın alabilmesidir. TMK m. 732'ye göre paylı mülkiyette bir paydaşın taşınmaz üzerindeki payını tamamen veya kısmen üçüncü kişiye satması hâlinde diğer paydaşlar önalım hakkını kullanabilir.\n\n### 2.1 Şartlar\n\nMetinden dört şart çıkar:\n1. **Paylı mülkiyet** bulunmalıdır.\n2. Konu bir **taşınmazdaki paydır**.\n3. İşlem bir **satıştır**.\n4. Alıcı **üçüncü kişidir**, yani paydaş değildir.\n\nPayın tamamının satılmasıyla bir kısmının satılması arasında fark yoktur.\n\n> **Örnek:** Ayşe, Ankara'daki bir dükkânda 1/4 paydaştır. Ortağı Mehmet payının yarısını (1/8) paydaş olmayan Ali'ye satar. Kısmi satış da hak doğurur; Ayşe önalım hakkını kullanabilir.\n\n> **Örnek:** Mehmet payını paydaş Selin'e satarsa Ayşe önalım kullanamaz. Alıcı üçüncü kişi değildir.\n\n> ⚠️ **Sınavda dikkat:** Yasal önalımı doğuran işlem yalnız **satıştır**. Gerçek bir bağış, miras ya da takas hakkı doğurmaz. \"Ekonomik bakımdan satışa eşdeğer her türlü işlem\" genişlemesi sözleşmeden doğan önalıma aittir (TBK m. 240/1).\n\nYasal önalım **paya bağlıdır**: payı kim kazanırsa hak ondadır. Önalım **yenilik doğuran** bir haktır; kullanıldığında hak sahibi, alıcıyla yapılmış satışın kapsam ve şartlarıyla aynı bir satım ilişkisine girer. Yargıtay bunu 1951 tarihli İçtihadı Birleştirme Kararlarına dayandırır; ancak yatırılacak bedel bakımından artık TMK m. 734/2'deki rayiç bedel kuralı uygulanır. Yenilik doğuran hak dava dışında beyanla kullanılamaz; kullanma yolu davadır (bkz. bölüm 6).\n\n### 2.2 Paylı ve elbirliği mülkiyeti\n\nTMK m. 732 yalnız **paylı mülkiyeti** düzenler. Elbirliği mülkiyetinde ortakların belirlenmiş payları yoktur; her birinin hakkı ortaklığa giren malların tamamına yayılır (TMK m. 701/2). Bu yüzden bir elbirliği ortağının \"payını\" satması TMK m. 732'nin konusu olmaz. Mirasçının miras payını üçüncü kişiye devri de (TMK m. 677) bu kapsama girmez.\n\nKarışık bir durum sınavların sevdiği bir sorudur: Paylı mülkiyetteki paydaş ölür, payı mirasçılara **elbirliğiyle** geçer. Taşınmazdaki başka bir paydaş payını üçüncü kişiye satınca mirasçılar, ölenden geçen paya dayanarak önalımı kullanabilir. Hukuk Genel Kurulu'na göre bu hâlde mirasçılar kural olarak **birlikte** hareket eder: Ya hepsi dava açar ya da diğerleri davaya muvafakat eder (duruşmada beyan, noterce onaylı belge veya aynı avukata vekâletname yoluyla). Muvafakat sağlanamazsa terekeye temsilci atanması için süre verilir (TMK m. 640/3). Elbirliği ortaklarının tasarrufta oybirliği gerektiği hatırlanmalıdır (TMK m. 702/2); korumada ise her ortak tek başına davranabilir (TMK m. 702/4).\n\n> **Örnek:** Mehmet ölür; paylı tarladaki payı üç çocuğuna elbirliğiyle geçer. Tarladaki başka bir paydaş payını Ali'ye satar. Çocuklardan biri dava açarsa diğer ikisinin davaya muvafakati ya da terekeye temsilci atanması gerekir.\n\n> ⚠️ **Sınavda dikkat:** Elbirliği payına dayanan davada tescilin kimin adına yapılacağı tartışmalıdır (Doktrin bölümüne bak).\n\n**Özel bir istisna:** 5403 sayılı Kanun m. 8/İ, aile malları ortaklığı ya da kazanç paylı aile malları ortaklığı kurulmuşsa, ortaklardan biri payını üçüncü kişiye sattığında diğer ortaklara önalım tanır. Kullanılmasında TMK hükümleri uygulanır. Aynı maddenin ikinci fıkrası 7255 sayılı Kanunla yürürlükten kaldırılmıştır; eski kitaplarda yer alan bu hakkı yürürlükteymiş gibi yazma.\n\n## 3. Kullanma yasağı ve vazgeçme (TMK m. 733/1-2)\n\n### 3.1 📌 Önalımın kullanılamayacağı satışlar\n\n24.12.2025 tarihli 7571 sayılı Kanunla değiştirilen TMK m. 733/1'e göre **2886 sayılı Devlet İhale Kanunu kapsamında yapılan satışlarda** ve **cebrî artırmayla satışlarda** önalım hakkı kullanılamaz. Değişiklik 25.12.2025'te yürürlüğe girmiştir. Eski hâlde yasak özetle yalnız cebrî artırmayı kapsıyordu; 2886 sayılı Kanun kapsamındaki satışlar yeni eklenmiştir.\n\n2886 sayılı Kanun m. 1'e göre genel bütçeye dahil daireler, katma bütçeli idareler, özel idareler ve belediyelerin alım, satım ve benzeri işleri bu Kanuna göre yürütülür. Yani bu kurumların ihale yoluyla yaptığı satışlar kullanma yasağına girer.\n\n> **Örnek:** X Belediyesi, ortak olduğu arsadaki payını 2026'da 2886 sayılı Kanun kapsamında ihale ile üçüncü kişiye satar. Diğer paydaş Kemal önalım hakkını kullanamaz. Aynı sonuç, Hakan'ın payının alacaklısının takibinde cebrî artırmayla satılmasında da geçerlidir.\n\n> 📌 **Kesin bilgi:** Kullanma yasağı iki gruptur: 2886 sayılı Kanun kapsamındaki satışlar ve cebrî artırmayla satışlar (TMK m. 733/1). Yasak, 25.12.2025'ten önce yapılmış satışlara uygulanmaz (TMK'nın geçici 1. maddesinin 1. fıkrası; bölüm 5).\n\n### 3.2 Feragat ve vazgeçme: iki ayrı kurum\n\nTMK m. 733/2 iki ayrı şeyi düzenler:\n\n| Kurum | Şekil | Zaman |\n|---|---|---|\n| Genel feragat | Resmî şekil + tapu kütüğüne şerh | Satıştan önce |\n| Belirli satışta vazgeçme | Yazılı şekil | Satıştan önce veya sonra |\n\n**Genel feragat**, ileride yapılacak bütün satışlar için önalımdan vazgeçmedir; ağır sonuç doğurduğu için resmî şekil ve şerh aranır. **Belirli satışta vazgeçme**, yalnız somut bir satış bakımından hakkı kullanmamaktır; yazılı şekil yeter ve satıştan önce de sonra da yapılabilir.\n\n> **Örnek:** Kerem, 2019'da adi yazılı bir belgeyle bütün satışlar için önalım hakkından feragat etmiştir; tapuya şerh yoktur. Bu feragat geçerli değildir (TMK m. 733/2). Kerem, Selin'in Deniz'e yaptığı belirli bir satıştan sonra yazılı olarak \"bu satışta hakkımı kullanmayacağım\" derse bu vazgeçme geçerlidir.\n\n> ⚠️ **Sınavda dikkat:** İkisini karıştırma. \"Feragat yazılı şekle bağlıdır\" cümlesini genelleme; genel feragat resmî şekil ve şerh ister, yazılı şekil yalnız belirli satışta vazgeçme içindir.\n\n## 4. Noter bildirimi ve süreler (TMK m. 733/3-4)\n\nYapılan satış, **alıcı veya satıcı** tarafından diğer paydaşlara **noter aracılığıyla** bildirilir (TMK m. 733/3). Bildirim hak düşürücü sürenin başlangıcıdır.\n\n### 4.1 📌 İki süre birlikte işler\n\nTMK m. 733/4'e göre önalım hakkı, **satışın hak sahibine bildirildiği tarihin üzerinden üç ay** ve her hâlde **satışın üzerinden bir yıl** geçmekle düşer. Bu iki süre hak düşürücüdür; hâkim kendiliğinden gözetir, taraflar ileri sürmese de dikkate alınır.\n\n| Süre | Başlangıç | Süre |\n|---|---|---|\n| Kısa süre | Noter bildiriminin hak sahibine tebliği | 3 ay |\n| Üst süre | Satış | 1 yıl (📌 eskiden 2 yıl) |\n\nHukuk Genel Kurulu'na göre üç aylık süre noter bildiriminin tebliğ tarihini izleyen günden, üst süre satış tarihini izleyen günden işlemeye başlar. Dava bu süreler içinde açılmalıdır.\n\n### 4.2 Öğrenme süreyi başlatmaz\n\nYargıtay'ın yerleşik tutumuna göre satışı başka yoldan kesin olarak öğrenmek üç aylık süreyi başlatmaz; başlatan şey noter bildirimidir. Hak sahibinin alıcıya gönderdiği kendi ihtarnamesi de bildirim yerine geçmez. Noter bildirimi hiç yapılmamışsa kısa süre işlemez; hak yalnız üst süre dolana kadar kullanılabilir.\n\n> **Örnek:** Fatma, Hasan'ın Mehmet'e yaptığı satışı WhatsApp'tan ve tapu kaydından öğrenir. Noter bildirimi yoksa üç aylık süre işlemez. Fatma satışın üzerinden bir yıl geçmeden dava açabilir.\n\nSüresinde kullanılmayan hak yalnız **o satış** için düşer. Aynı payın daha sonra yeniden satılması yeni bir önalım hakkı doğurur.\n\n## 5. 📌 Geçiş kuralı: TMK'nın geçici 1. maddesi\n\n7571 sayılı Kanun TMK'ya bir geçici madde eklemiştir. Okurken şunu ayır:\n\n| Değişiklik | Hangi işlemlere uygulanır? |\n|---|---|\n| TMK m. 733 (2886 yasağı, bir yıllık üst süre) | Yalnız 25.12.2025 ve sonrasında yapılan satışlar |\n| TMK m. 734 (rayiç bedel) | 25.12.2025'ten önce açılmış derdest davalar dahil |\n\nTMK'nın geçici 1. maddesinin 1. fıkrasına göre m. 733'teki değişiklikler, yürürlük tarihinden önce yapılmış satışlara uygulanmaz; bu satışlarda eski hükümler geçerli kalır. 2. fıkraya göre m. 734'teki değişiklikler yürürlük tarihinden önce açılmış davalara da uygulanır.\n\n> **Örnek:** Hasan, 03.03.2025'te payını Mehmet'e satmıştır; paydaş Selin'e bildirim yapılmamıştır. Selin 15.05.2026'da dava açar. Satış yürürlük tarihinden önce yapıldığından bir yıllık üst süre uygulanmaz; iki yıllık eski üst süre geçerlidir ve dava süresindedir. Bedel bakımından ise yeni m. 734/2 uygulanır; bu kural yürürlükten önce açılmış davalara bile uygulandığına göre sonra açılan davaya da uygulanır.\n\n> ⚠️ **Sınavda dikkat:** Süre için satış tarihine bak (25.12.2025'ten önce mi?). Bedel için tarih ayrımı yoktur: Yeni m. 734/2, 25.12.2025'te derdest olan ve sonra açılan bütün davalara uygulanır. 4721 sayılı Kanunun ilk gerekçesindeki \"beş yıl\" ibaresi de kanunlaşan kuralın süresi değildir; kanunlaşan metin iki yıldı. Eski 743 sayılı Kanundaki \"öğrenmeden itibaren bir ay\" kuralı da artık geçerli değildir.\n\n## 6. Önalımın dava ile kullanılması (TMK m. 734)\n\n### 6.1 Davalı ve kullanma yolu\n\nÖnalım hakkı **alıcıya karşı dava açılarak** kullanılır (TMK m. 734/1). Davalı daima alıcıdır; satıcıya dava açılmaz. Önalım yenilik doğuran bir hak olduğundan dava dışında beyanla kullanılamaz.\n\nDavanın talebi, payın hak sahibi adına **tescilidir** (gerekirse alıcı adına olan kaydın iptaliyle birlikte). Dava kazanılırsa pay hak sahibi adına tescil edilir; yatırılacak bedel artık tapudaki satış bedeli değil, TMK m. 734/2'deki rayiç bedeldir.\n\n### 6.2 📌 Bedelin belirlenmesi ve yatırılması\n\nTMK m. 734/2'nin yeni metnine göre:\n1. Dava konusu payın **rayiç bedeli** hâkim tarafından gecikmeksizin belirlenir.\n2. Hak sahibi, belirlenen rayiç bedel ile **alıcıya düşen tapu giderlerini**, nemalandırılmak üzere hâkim tarafından belirlenen yere, verilen **kesin süre** içinde **nakden** yatırmakla yükümlüdür.\n3. Kesin süre içinde yatırılmazsa hak sahibi adına payın **tesciline karar verilemez**.\n4. Yatırılan bedel, hükmün kesinleşmesi üzerine **nemalarıyla birlikte** ilgilisine ödenir.\n\nEski metin özetle şöyleydi: Hak sahibi, tescil kararından önce **satış bedelini** ve alıcıya düşen tapu giderlerini hâkimin belirlediği sürede yatırırdı. Değişikliğin amacı, bedele ilişkin itirazları ve hakkın bedel üzerinden kötüye kullanılmasını önlemektir; ölçü artık hâkimin belirlediği rayiç değerdir.\n\n> **Örnek:** Ayşe önalım davasını açar. Mahkeme payın rayiç bedelini belirler ve Ayşe'ye kesin süre verir. Ayşe bu tutarı ve alıcıya düşen tapu giderlerini süresinde yatırmazsa mahkeme Ayşe adına tescile karar veremez.\n\n> ⚠️ **Sınavda dikkat:** Kanun rayiç bedelin **hangi tarihe göre** belirleneceğini söylemez; bu nokta tartışmalıdır (Doktrin bölümü). Kanun yalnız \"alıcıya düşen tapu giderleri\"ni sayar; başka giderlerin (örneğin komisyon) talep edilip edilemeyeceği bu notta ele alınmıyor.\n\n### 6.3 Fiili taksim\n\nYargıtay'ın yerleşik içtihadına göre paydaşlar taşınmazı eylemli olarak bölüşmüş ve uzun süre böyle kullanmışlarsa, satıcının kullandığı yere karşılık gelen payın satışında önalım hakkını kullanmak dürüstlük kuralına aykırıdır (TMK m. 2) ve dava reddedilir.\n\n> **Örnek:** Paydaşlar zeytinliği yıllardır duvarla bölüp ayrı ayrı kullanmaktadır. Hakan, kendi kullandığı bölüme karşılık gelen payı satar. Öteki paydaşın önalım davası TMK m. 2 gereği reddedilir.\n\n## 7. Sözleşmeden doğan önalım hakkı (TMK m. 735; TBK m. 237-242)\n\n**Sözleşmeden doğan önalım**, malik ile hak sahibi arasındaki sözleşmeyle kurulur: Malik taşınmazı satarsa önce hak sahibine sunacaktır.\n\n- **Şekil:** Önalım sözleşmesinin geçerliliği yazılı şekle bağlıdır (TBK m. 237/3). Resmî şekil gerekmez.\n- **Süre sınırı:** Önalım hakkı en çok on yıl için kararlaştırılabilir (TBK m. 238).\n- **Şerh:** Hak, TMK m. 1009 uyarınca tapuya şerh edilebilir. Şerhli önalım hakkı, şerhte belirtilen sürede ve koşullara göre **her malike karşı** kullanılabilir. Kütükte koşul belirtilmemişse taşınmazın üçüncü kişiye satışındaki koşullar esas alınır (TMK m. 735/1; ayrıca TBK m. 241/3). Şerhin etkisi **her durumda** şerh tarihinden itibaren on yılın geçmesiyle sona erer (TMK m. 735/2).\n- **Konusu:** Önalım hakkı, taşınmazın satışında ya da ekonomik bakımdan satışa eşdeğer her türlü işlemde kullanılabilir (TBK m. 240/1). Mirasın paylaşımında mirasçılardan birine özgülenme, cebrî artırma yoluyla satış ve kamu hizmetlerinin yerine getirilmesi gibi amaçlarla edinilme hâllerinde kullanılamaz (TBK m. 240/2).\n- **Bildirim:** Satıcı veya alıcı, satışı noter aracılığıyla hak sahibine bildirmek zorundadır (TBK m. 241/1).\n- **Devir ve miras:** Aksine anlaşma yoksa hak **devredilemez**, ama **miras yoluyla geçer** (TBK m. 239/1). Devredilebilirlik kararlaştırılmışsa devir, hakkın kurulması için öngörülen şekilde yapılmadıkça geçerli olmaz (TBK m. 239/2).\n- **Dava:** Hak şerh edilmiş ve mülkiyet alıcı adına tescil edilmişse **alıcıya**, aksi hâlde **satıcıya** karşı açılır. Dava, satışın hak sahibine bildirildiği tarihten itibaren üç ay içinde açılmalıdır (TBK m. 242).\n- **Usul bağlantısı:** Yasal önalımın kullanılmasına ve vazgeçmeye ilişkin hükümler sözleşmeden doğan önalımda da uygulanır (TMK m. 735/3).\n\n> **Örnek:** Selim, İzmir'deki dairesi için komşusu Can'la 2018'de on yıl süreli, adi yazılı bir önalım sözleşmesi yapar ve hak şerh edilir. Selim daireyi 2026'da Deniz'e satar ve tescil yapılır. Satış Can'a noterle bildirilir; Can bir ay sonra dava açar. Sözleşme yazılı olduğu için geçerlidir, hak şerhli ve mülkiyet Deniz adına tescilli olduğundan davalı Deniz'dir.\n\n> ⚠️ **Sınavda dikkat:** TBK m. 242, üç aylık sürenin yanında \"her hâlde satıştan başlayarak iki yıl\" der; 7571 sayılı Kanun bu maddeye dokunmamıştır. Öte yandan TMK m. 735/3 yasal önalıma gönderme yapar ve yasal önalımın üst süresi artık bir yıldır. Sözleşmeden doğan önalımda üst sürenin bir yıl mı iki yıl mı olduğu ve rayiç bedel kuralının bu hakka uygulanıp uygulanmayacağı tartışmalıdır; bunları kesin bilgi gibi yazma.\n\n## 8. Alım ve geri alım hakları (TMK m. 736; TBK m. 237/2, 238, 239)\n\n**Alım hakkı**, hak sahibine taşınmazı belirlenen koşullarla tek taraflı açıklamayla satın alabilme imkânı verir. **Geri alım (vefa) hakkı**, taşınmazı satmış olan kişiye sattığı taşınmazı geri alma imkânı verir. Önalımın aksine kanun metni bu hakların kullanılması için üçüncü kişiye bir satış yapılmasını aramaz; hak şerhte belirtilen süre içinde kullanılır.\n\n- **Şekil:** Alım ve geri alım sözleşmeleri **resmî şekilde** düzenlenmedikçe geçerli olmaz (TBK m. 237/2).\n- **Süre:** En çok on yıllık süre için kararlaştırılabilir (TBK m. 238).\n- **Şerh:** Şerh verilen alım ve geri alım hakları, şerhte belirtilen süre içinde **her malike karşı** kullanılabilir. Şerhin etkisi her durumda şerh tarihinden itibaren on yılda sona erer (TMK m. 736).\n- **Devir:** Aksine anlaşma yoksa devredilemez, ama miras yoluyla geçer (TBK m. 239/1).\n\n> **Örnek:** X Ltd. Şti., deposunu satarken alıcıyla yaptığı resmî senetle kendisi lehine beş yıllık bir geri alım hakkı kurar ve hakkı şerh ettirir. Depo sonradan Y'ye satılsa bile X hakkını Y'ye karşı kullanabilir (TMK m. 736/1).\n\n**Kullanma biçimi.** Yargıtay'a göre geri alım hakkı yenilik doğuran kişisel bir haktır. Kullanılma biçimi kanunda düzenlenmemiştir: Dava yoluyla kullanılabileceği gibi ihtar, mektup ya da telgrafla da kullanılabilir; beyanın karşı tarafa ulaşması yeter. Dava yoluyla kullanıldığında bu, TMK m. 716'daki tescil davası niteliğindedir. Yasal önalımın yalnız dava ile kullanılabildiğini unutma; ikisini karıştırma.\n\n> ⚠️ **Sınavda dikkat:** Alım ve geri alım sözleşmelerinde kural resmî şekildir (TBK m. 237/2). Yargıtay'ın bir olayda, karşı taraf şekle itiraz etmemiş ve kendi edimini yerine getirmişken şekil eksikliğiyle davanın reddedilmesini TMK m. 2'ye aykırı bulması olaya özgü bir sonuçtur; genel kural değildir.\n\n## 9. Şerhin rolü ve karşılaştırma\n\nKişisel hakların şerhi TMK m. 1009'a dayanır: Alım, önalım ve geri alım sözleşmelerinden doğan haklar şerh edilebilir ve şerh verilmekle o taşınmaz üzerinde **sonradan kazanılan hakların sahiplerine karşı** ileri sürülebilir (TMK m. 1009/2). Şerh hakkı ayni hak yapmaz; **şerhle güçlendirilmiş kişisel hak** denir. Yasal önalım ise zaten kanundan doğduğu için şerhe muhtaç değildir.\n\n| Konu | Yasal önalım | Sözleşmeden doğan önalım |\n|---|---|---|\n| Kaynak | Kanun | Sözleşme |\n| Şekil | Aranmaz | Yazılı |\n| Şerh | Gerekmez | Üçüncülere karşı için gerekir |\n| Konu | Yalnız satış | Satış ve eşdeğer işlem |\n| Davalı | Alıcı | Alıcı ya da satıcı |\n| Devir | Paya bağlı | Kural olarak devredilemez |\n\n| Konu | Önalım (sözleşme) | Alım / geri alım |\n|---|---|---|\n| Şekil | Yazılı | Resmî |\n| Süre sınırı | En çok 10 yıl | En çok 10 yıl |\n| Şerhin etkisi | 10 yıl | 10 yıl |\n\n## 10. Olay çözme şeması\n\n1. **Hak kanundan mı sözleşmeden mi?** Paylı mülkiyette payın satışı varsa yasal önalım; sözleşme varsa şekli (önalım yazılı, alım ve geri alım resmî) kontrol et.\n2. **Yasal önalım şartları:** Paylı mülkiyet, taşınmaz payı, satış, üçüncü kişi alıcı (TMK m. 732).\n3. **Kullanma yasağı:** 2886 sayılı Kanun kapsamında satış mı, cebrî artırma mı (TMK m. 733/1)? Satış 25.12.2025'ten önce mi?\n4. **Vazgeçme:** Resmî şekil ve şerhli genel feragat var mı? Belirli satışta yazılı vazgeçme var mı (TMK m. 733/2)?\n5. **Bildirim ve süre:** Noter bildirimi yapılmış mı ve ne zaman tebliğ edilmiş? Üç ay ve üst süre (bir yıl, eski satışlarda iki yıl) dolmuş mu?\n6. **Davalı ve bedel:** Davalı alıcı mı? Rayiç bedel ve tapu giderleri kesin süre içinde yatırılmış mı (TMK m. 734)?\n7. **Fiili taksim** veya dürüstlük kuralına aykırılık var mı (TMK m. 2)?\n8. **Sözleşmeden doğan haklarda:** Şerh var mı, on yıl dolmuş mu, hak devredilmiş mi veya miras mı kalmış (TMK m. 735, TMK m. 736, TBK m. 239)? Davalı kim (TBK m. 242)?",
+  "critical_md": "- 📌 Yasal önalım yalnız **paylı mülkiyette**, yalnız **taşınmaz payının satışında** ve yalnız **üçüncü kişiye** satışta doğar (TMK m. 732). Payın tamamının ya da bir kısmının satılması fark etmez.\n- ⚠️ Yasal önalımı yalnız **satış** doğurur. Gerçek bağış, miras ve paydaşa satış hak doğurmaz. \"Satışa eşdeğer her işlem\" genişlemesi sözleşmeden doğan önalıma aittir (TBK m. 240/1).\n- 📌 Yasal önalım tescil ya da şerh gerektirmez; kanundan doğan kısıtlamalar tescilsiz etkilidir (TMK m. 731/1).\n- 📌 Kullanma yasağı (7571 sayılı Kanunla değişik TMK m. 733/1): 2886 sayılı Devlet İhale Kanunu kapsamındaki satışlar ve cebrî artırmayla satışlar. Yasak değişiklikten önceki satışlara uygulanmaz (TMK'nın geçici 1. maddesi).\n- ⚠️ **Genel feragat** = resmî şekil + tapu kütüğüne şerh. **Belirli satışta vazgeçme** = yazılı şekil, satıştan önce veya sonra (TMK m. 733/2).\n- 📌 Satış, alıcı veya satıcı tarafından diğer paydaşlara **noter aracılığıyla** bildirilir (TMK m. 733/3).\n- 📌 Süre: bildirimden **üç ay** ve her hâlde satıştan **bir yıl** (TMK m. 733/4). 25.12.2025'ten önce yapılan satışlarda üst süre **iki yıldır**. Süreler hak düşürücüdür ve re'sen gözetilir.\n- ⚠️ Üç aylık süreyi **öğrenme başlatmaz**; noter bildirimi başlatır. Bildirim yoksa yalnız üst süre işler.\n- ⚠️ Önalım davasının davalısı daima **alıcıdır** (TMK m. 734/1). Satıcıya karşı dava açılmaz.\n- 📌 Hak sahibi hâkimin belirlediği **rayiç bedel** ile alıcıya düşen **tapu giderlerini**, kesin süre içinde, nakden, nemalandırılmak üzere hâkimin belirlediği yere yatırır. Yatırmazsa tescile karar verilemez (TMK m. 734/2). Eskiden ölçü satış bedeliydi.\n- 📌 TMK m. 734'teki değişiklik 25.12.2025'ten önce açılmış davalara da uygulanır; m. 733'teki değişiklikler yalnız yeni satışlara uygulanır (TMK'nın geçici 1. maddesi).\n- ⚠️ Önalım sözleşmesi **yazılı**, alım ve geri alım sözleşmeleri **resmî** şekle tabidir (TBK m. 237/2-3). \"Üçü de resmî\" demek yanlıştır.\n- 📌 Önalım, alım ve geri alım hakları en çok **on yıl** için kararlaştırılabilir (TBK m. 238); şerhin etkisi her durumda şerh tarihinden itibaren on yılda sona erer (TMK m. 735/2, TMK m. 736/2).\n- ⚠️ Sözleşmeden doğan haklar aksine anlaşma yoksa **devredilemez**, ama **miras yoluyla geçer** (TBK m. 239/1). Yasal önalım ise paya bağlıdır.\n- ⚠️ Şerh hakkı ayni hak yapmaz; şerhli kişisel hak sonradan hak kazananlara karşı ileri sürülebilir (TMK m. 1009/2).\n- ⚠️ Paydaşlar taşınmazı fiilen bölüşüp uzun süre öyle kullanmışsa önalım davası dürüstlük kuralı gereği (TMK m. 2) reddedilir.",
+  "doctrine_md": "### Rayiç bedel hangi tarihe göre belirlenir?\n\nTMK m. 734/2 rayiç bedelin tarihini düzenlemez. **Birinci görüşe** göre, Yargıtay 7. Hukuk Dairesi çoğunluğunun 2026 tarihli kararlarında benimsediği çizgi şöyledir: Değişiklikten sonra açılan davalarda rayiç bedel **dava tarihine** göre, değişiklik tarihinde derdest davalarda 25.12.2025'e göre belirlenir. Gerekçe, kanunun boşluğunun hakkaniyet ve adil denge ilkesiyle doldurulmasıdır. **İkinci görüşe** göre ise (aynı kararların karşı oyları) bedel her davada **satış tarihindeki** rayiç değerdir. Hak satışla kullanılabilir hâle gelir; ayrıca aynı satışa dayanan birden çok davacı varsa farklı bedeller çıkabilir. Konuyu çözen bir Hukuk Genel Kurulu ya da İçtihadı Birleştirme kararı yoktur. Sınavda tarih sorusu gelirse tartışmayı yazıp bir görüşü gerekçesiyle seç.\n\n### Elbirliği payına dayanan önalımda tescil kimin adına?\n\nHukuk Genel Kurulu çoğunluğuna göre önalım ivedi bir haktır; mirasçılardan birinin kendi adına tescil istemiyle açtığı dava da **tereke adına** açılmış sayılır ve tescil kural olarak tereke adına yapılır. Diğer mirasçılar payın davacı adına tesciline muvafakat edebilir. **Karşı görüşe** göre kendi adına tescil isteyen mirasçı paydaş olmadığından aktif husumet yoktur. Elbirliği ortaklarından birinin tek başına dava açabileceği, ama davayı sürdürmek için diğerlerinin muvafakatinin ya da temsilci atanmasının gerektiği 1982 tarihli bir İçtihadı Birleştirme Kararına dayandırılır.\n\n### Sözleşmeden doğan önalım: üst süre ve bedel\n\nTBK m. 242 açıkça \"iki yıl\" der ve 7571 sayılı Kanun bu maddeyi değiştirmemiştir. **Bir görüşe** göre TMK m. 735/3 yasal önalımın kullanılmasına gönderme yaptığından üst süre de bir yıla inmiştir. **Karşı görüşe** göre m. 735/3, m. 733'teki süreye değil m. 734'teki kullanmaya gönderme yapar ve özel hüküm TBK m. 242'dir. Rayiç bedelin sözleşmeden doğan önalıma uygulanması da tartışmalıdır: TMK m. 735/1 ve TBK m. 241/3 sözleşmedeki koşulları, bunlar yoksa üçüncü kişiyle yapılan satışın koşullarını esas alır. Bu iki noktada çatışmayı çözen bir karar bulunamamıştır.\n\n### Fiili taksim tarım arazilerinde\n\nÇoğunluk, fiili taksimin tarım arazilerinde de önalıma engel olduğunu kabul eder (yerleşik içtihat). **Karşı görüş**, 5403 sayılı Kanunun amacı karşısında fiili taksimin önalıma engel sayılmaması gerektiğini savunur.\n\n### Şerhli kişisel hakkın niteliği\n\nYargıtay kararlarında şerhle kişisel hakkın \"ayni bir nitelik\" kazandığı söylenir. Kanun metni ise yalnız sonradan hak kazananlara karşı ileri sürülebilirlik etkisi tanır (TMK m. 1009/2). Ders kitaplarında yaygın ifade \"aynileşme\" ya da \"aynilik etkisi\"dir; hak yine de ayni hak olmaz.",
+  "glossary": [
+   {
+    "term": "Yasal önalım",
+    "definition": "Paylı mülkiyette bir paydaş payını üçüncü kişiye satınca diğer paydaşların, payı alıcının yerine geçerek satın alabilmesi (TMK m. 732)."
+   },
+   {
+    "term": "Yenilik doğuran hak",
+    "definition": "Hak sahibinin tek taraflı kullanmasıyla hukuki durumu değiştiren hak. Önalım, alım ve geri alım bu türdendir; yasal önalım dava ile kullanılır."
+   },
+   {
+    "term": "Önalım hakkı sahibi",
+    "definition": "Yasal önalımda diğer paydaşlar, sözleşmeden doğan önalımda sözleşmeyle hak tanınan kişi."
+   },
+   {
+    "term": "Cebrî artırma",
+    "definition": "İcra yoluyla haczedilen malın açık artırmayla zorla satılması. Bu satışlarda önalım kullanılamaz (TMK m. 733/1)."
+   },
+   {
+    "term": "Genel feragat",
+    "definition": "Önalım hakkından ileride yapılacak bütün satışlar için vazgeçme. Resmî şekil ve tapu kütüğüne şerh gerekir (TMK m. 733/2)."
+   },
+   {
+    "term": "Belirli satışta vazgeçme",
+    "definition": "Yalnız somut bir satışta önalımı kullanmama beyanı. Yazılı şekle tabidir, satıştan önce veya sonra yapılabilir (TMK m. 733/2)."
+   },
+   {
+    "term": "Hak düşürücü süre",
+    "definition": "Süre dolunca hakkın kendiliğinden sona erdiği süre. Hâkim re'sen gözetir; durmaz ve kesilmez, hak ancak süresinde dava açılarak korunur."
+   },
+   {
+    "term": "Rayiç bedel",
+    "definition": "Önalım hakkı sahibinin yatıracağı, hâkimin belirlediği piyasa (gerçek) değeri (TMK m. 734/2). Hangi tarihe göre belirleneceği tartışmalıdır. Eski ölçü tapudaki satış bedeliydi."
+   },
+   {
+    "term": "Nemalandırma",
+    "definition": "Yatırılan paranın hâkimin belirlediği yerde getiri sağlayacak şekilde tutulması. Hüküm kesinleşince nemalarıyla ilgilisine ödenir."
+   },
+   {
+    "term": "Fiili taksim",
+    "definition": "Paydaşların taşınmazı tapuda bölmeden, eylemli olarak bölüşüp ayrı ayrı kullanması. Önalım davasında TMK m. 2 kapsamında savunma olarak ileri sürülür."
+   },
+   {
+    "term": "Sözleşmeden doğan önalım",
+    "definition": "Taraflarca yazılı sözleşmeyle kurulan önalım. Şerhle her malike karşı kullanılır, en çok on yıl sürer (TBK m. 237/3, TMK m. 735)."
+   },
+   {
+    "term": "Alım hakkı",
+    "definition": "Hak sahibine taşınmazı belirlenen koşullarla tek taraflı açıklamayla satın alma imkânı veren, resmî şekilli sözleşmeyle kurulan hak (TBK m. 237/2, TMK m. 736)."
+   },
+   {
+    "term": "Geri alım (vefa) hakkı",
+    "definition": "Taşınmazı satan kişiye, sattığını geri alma imkânı veren hak. Resmî şekle tabidir (TBK m. 237/2, TMK m. 736)."
+   },
+   {
+    "term": "Şerhle güçlendirilmiş kişisel hak",
+    "definition": "Tapuya şerh edilmekle sonradan hak kazananlara karşı ileri sürülebilen kişisel hak (TMK m. 1009/2). Ayni hak olmaz."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "731",
+   "official_text": "I. Genel olarak\nMadde 731-Taşınmaz mülkiyetinin kanundan doğan kısıtlamaları, tapu siciline tescil edilmeksizin etkili olur.\nBu kısıtlamaların ortadan kaldırılması veya değiştirilmesi, buna ilişkin sözleşmenin resmî şekilde düzenlenmesine ve tapu kütüğüne şerh verilmesine bağlıdır.\nKamu yararı için konulan kısıtlamalar kaldırılamaz ve değiştirilemez.\nII. Devir hakkının kısıtlamaları\n1. Yasal önalım hakkı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "732",
+   "official_text": "a. Önalım hakkı sahibi\nMadde 732- Paylı mülkiyette bir paydaşın taşınmaz üzerindeki payını tamamen veya kısmen üçüncü kişiye satması hâlinde, diğer paydaşlar önalım hakkını kullanabilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "733",
+   "official_text": "b. Kullanma yasağı, feragat ve hak düşürücü süre\nMadde 733- (Değişik birinci fıkra:24/12/2025-7571/35 md.) 8/9/1983 tarihli ve 2886 sayılı Devlet İhale Kanunu kapsamında yapılan satışlar ile cebrî artırmayla satışlarda önalım hakkı kullanılamaz.\nÖnalım hakkından feragatin resmî şekilde yapılması ve tapu kütüğüne şerh verilmesi gerekir. Belirli bir satışta önalım hakkını kullanmaktan vazgeçme, yazılı şekle tâbidir ve satıştan önce veya sonra yapılabilir.\nYapılan satış, alıcı veya satıcı tarafından diğer paydaşlara noter aracılığıyla bildirilir.\nÖnalım hakkı, satışın hak sahibine bildirildiği tarihin üzerinden üç ay ve her hâlde satışın üzerinden bir yıl geçmekle düşer.[40]\n[40] 24/12/2025 tarihli ve 7571 sayılı Kanunun 35 inci maddesiyle bu fıkrada yer alan “iki yıl” ibaresi “bir yıl” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "734",
+   "official_text": "c. Kullanılması\nMadde 734- Önalım hakkı, alıcıya karşı dava açılarak kullanılır.\n(Değişik ikinci fıkra:24/12/2025-7571/36 md.) Dava konusu payın rayiç bedeli hâkim tarafından gecikmeksizin belirlenir. Önalım hakkı sahibi, belirlenen rayiç bedel ile alıcıya düşen tapu giderlerini nemalandırılmak üzere hâkim tarafından belirlenen yere verilen kesin süre içinde nakden yatırmakla yükümlüdür. Bu yükümlülük, verilen kesin süre içinde yerine getirilmezse önalım hakkı sahibi adına payın tesciline karar verilemez. Yatırılan bedel, hükmün kesinleşmesi üzerine nemalarıyla birlikte ilgilisine ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "735",
+   "official_text": "2. Sözleşmeden doğan önalım hakkı\nMadde 735- Tapu kütüğüne şerh verilen sözleşmeden doğan önalım hakkı, şerhte belirtilen sürede ve belirtilen koşullara göre her malike karşı kullanılabilir. Kütükte koşullar belirtilmemişse taşınmazın üçüncü kişiye satışındaki koşullar esas alınır.\nŞerhin etkisi her durumda, şerhin verildiği tarihin üzerinden on yıl geçmekle sona erer.\nYasal önalım hakkının kullanılmasına ve vazgeçmeye ilişkin hükümler sözleşmeden doğan önalım hakkında da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "736",
+   "official_text": "3. Alım ve geri alım hakları\nMadde 736- Tapu kütüğüne şerh verilen alım ve geri alım hakları, şerhde belirtilen süre içinde her malike karşı kullanılabilir.\nŞerhin etkisi, her durumda, şerhin verildiği tarihin üzerinden on yıl geçmekle sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1009",
+   "official_text": "a. Kişisel haklarda\nMadde 1009- Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, gerialım sözleşmelerinden doğan haklar ile şerhedilebileceği kanunlarda açıkça öngörülen diğer haklar tapu kütüğüne şerhedilebilir.\nBunlar şerh verilmekle o taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "688",
+   "official_text": "1. Genel kurallar\nMadde 688- Paylı mülkiyette birden çok kimse, maddî olarak bölünmüş olmayan bir şeyin tamamına belli paylarla maliktir.\nBaşka türlü belirlenmedikçe, paylar eşit sayılır.\nPaydaşlardan her biri kendi payı bakımından malik hak ve yükümlülüklerine sahip olur. Pay devredilebilir, rehnedilebilir ve alacaklılar tarafından haczettirilebilir.\n2. Yönetim ve tasarruf",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "701",
+   "official_text": "1. Kaynakları ve niteliği\nMadde 701- Kanun veya kanunda öngörülen sözleşmeler uyarınca oluşan topluluk dolayısıyla mallara birlikte malik olanların mülkiyeti, elbirliği mülkiyetidir.\nElbirliği mülkiyetinde ortakların belirlenmiş payları olmayıp her birinin hakkı, ortaklığa giren malların tamamına yaygındır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "702",
+   "official_text": "2. Hükümleri\nMadde 702- Ortakların hakları ve yükümlülükleri, topluluğu doğuran kanun veya sözleşme hükümleri ile belirlenir.\nKanunda veya sözleşmede aksine bir hüküm bulunmadıkça, gerek yönetim, gerek tasarruf işlemleri için ortakların oybirliğiyle karar vermeleri gerekir.\nSözleşmeden doğan topluluk devam ettiği sürece, paylaşma yapılamaz ve bir pay üzerinde tasarrufta bulunulamaz.\nOrtaklardan her biri, topluluğa giren hakların korunmasını sağlayabilir. Bu korumadan bütün ortaklar yararlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "640",
+   "official_text": "I. Miras ortaklığı\nMadde 640- Birden çok mirasçı bulunması hâlinde, mirasın geçmesiyle birlikte paylaşmaya kadar, mirasçılar arasında terekedeki bütün hak ve borçları kapsayan bir ortaklık meydana gelir.\nMirasçılar terekeye elbirliğiyle sahip olurlar ve sözleşme veya kanundan doğan temsil ya da yönetim yetkisi saklı kalmak üzere, terekeye ait bütün haklar üzerinde birlikte tasarruf ederler.\nMirasçılardan birinin istemi üzerine sulh mahkemesi, miras ortaklığına paylaşmaya kadar bir temsilci atayabilir.\nMirasçılardan her biri, terekedeki hakların korunmasını isteyebilir. Sağlanan korumadan mirasçıların hepsi yararlanır.\nBir mirasçı ödemeden aciz hâlinde ise, mirasın açılması üzerine diğer mirasçılar, haklarının korunması için gerekli önlemlerin gecikmeksizin alınmasını sulh mahkemesinden isteyebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "677",
+   "official_text": "II. Miras payı üzerinde sözleşme\nMadde 677- Terekenin tamamı veya bir kısmı üzerinde miras payının devri konusunda mirasçılar arasında yapılan sözleşmelerin geçerliliği yazılı şekle bağlıdır.\nBir mirasçının üçüncü kişiyle yapacağı böyle bir sözleşmenin geçerliliği, noterlikçe düzenlenmesine bağlıdır. Sözleşme bu kişiye paylaşmaya katılma yetkisi vermez; sadece paylaşma sonunda mirasçıya özgülenen payın kendisine verilmesini isteme hakkını sağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "716",
+   "official_text": "III. Tescili isteme hakkı\nMadde 716- Mülkiyetin kazanılmasına esas olacak bir hukukî sebebe dayanarak malikten mülkiyetin kendi adına tescilini istemek hususunda kişisel hakka sahip olan kimse, malikin kaçınması hâlinde hâkimden, mülkiyetin hükmen geçirilmesini isteyebilir.\nBir taşınmazın mülkiyetini işgal, miras, kamulaştırma, cebrî icra veya mahkeme kararına dayanarak kazanan kişi tescili doğrudan doğruya yaptırabilir.\nBir taşınmazın mülkiyetinde eşler arasındaki mal rejimi dolayısıyla meydana gelen değişiklikler, eşlerden birinin istemiyle tapu kütüğüne doğrudan tescil olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "238",
+   "official_text": "MADDE 238- Önalım, geri alım ve alım hakları en çok on yıllık süre için kararlaştırılabilir ve kanunlarda belirlenen süreyle tapu siciline şerh edilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "239",
+   "official_text": "MADDE 239- Aksine anlaşma olmadıkça, sözleşmeden doğan önalım, alım ve geri alım hakları devredilemez, ancak miras yoluyla geçer.\nBu hakların devredilebileceği sözleşmeyle kararlaştırılmışsa, devir işlemi hakkın kurulması için öngörülen şekilde yapılmadıkça geçerli olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "240",
+   "official_text": "MADDE 240- Önalım hakkı, taşınmazın satışı ya da ekonomik bakımdan satışa eşdeğer her türlü işlemin yapılması hâllerinde kullanılabilir.\nTaşınmazın, mirasın paylaşımında mirasçılardan birine özgülenmesi, cebrî artırma yoluyla satışı ve kamu hizmetlerinin yerine getirilmesi ve bunlara benzer amaçlarla edinilmesi hâllerinde önalım hakkı kullanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "241",
+   "official_text": "MADDE 241- Satıcı veya alıcı, satış sözleşmesinin yapıldığını ve içeriğini önalım hakkı sahibine noter aracılığıyla bildirmek zorundadır.\nÖnalım hakkı kullanıldıktan sonra satış sözleşmesi ortadan kaldırılırsa ya da alıcının şahsından kaynaklanan sebeplerle onaylanmazsa, bu durum önalım hakkı sahibine karşı ileri sürülemez.\nÖnalım hakkını kuran sözleşmede aksi öngörülmemişse, önalım hakkı sahibi taşınmazı, satıcının üçüncü kişiyle kararlaştırdığı satışa ilişkin koşullarla kazanır.\nEkonomik bakımdan satışa eşdeğer işlemlerde de yukarıdaki hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "242",
+   "official_text": "MADDE 242- Sözleşmeden doğan önalım hakkını kullanmak isteyen hak sahibi, bu hak şerhedilmiş ve taşınmazın mülkiyeti alıcı adına tescil edilmişse alıcıya; aksi takdirde satıcıya karşı, satışın veya ekonomik bakımdan satışa eşdeğer başka bir işlemin kendisine bildirildiği tarihten başlayarak üç ay ve her hâlde satışın yapılmasından başlayarak iki yıl içinde dava açmak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TOPRAK KORUMA VE ARAZİ KULLANIMI KANUNU",
+   "law_no": "5403",
+   "article_no": "8/İ",
+   "official_text": "Önalım hakkı\nMadde 8/İ - (Ek: 30/4/2014-6537/5 md.)\n8/C maddesinin birinci fıkrasının (b) bendi uyarınca aile malları ortaklığı veya kazanç paylı aile malları ortaklığı kurulduğu takdirde, ortaklardan birinin payını üçüncü bir kişiye satması hâlinde, diğer ortaklar önalım hakkına sahiptir.\n(Mülga fıkra: 28/10/2020-7255/20 md.)\nÖnalım hakkının kullanılmasında Türk Medenî Kanunu hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5403&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "DEVLET İHALE KANUNU",
+   "law_no": "2886",
+   "article_no": "1",
+   "official_text": "Kapsam:\nMadde 1 – Genel bütçeye dahil dairelerle katma bütçeli idarelerin, özel idare ve belediyelerin alım, satım, hizmet, yapım, kira, trampa, mülkiyetin gayri ayni hak tesisi ve taşıma işleri bu Kanunda yazılı hükümlere göre yürütülür.[1]\nBirinci fıkrada sayılan daire ve idarelere bağlı döner sermayeli kuruluşlar ile özel kanunlarla veya özel kanunların vermiş olduğu yetkiyle kurulmuş bulunan fonların yukarıda belirtilen işlerinin nasıl yapılacağı Cumhurbaşkanınca çıkarılacak yönetmelikte belirtilir.[2]\n[1] Dış memleketlerden satın alınacak eşya ve hizmetler hakkında Artırma Eksiltme ve İhale Kanunun ile Muhasebei Umumiye Kanununun 83 üncü maddesinin (H) bendinin uygulanmaması halinde ne gibi işlem yapılacağını hükme bağlayan 10/2/1954 ve 6246 sayılı Kanunla getirilmiş ve 17/4/1975 tarih ve 1891 sayılı Kanunla değiştirilmiş olan ve yürürlükteki hükümlerin tek metin haline getirilmesi çalışmaları gereği olarak 1050 sayılı Kanuna ek 6 ncı madde olarak ilave edilmiş olan hükme bakınız.\n[2] 2/7/2018 tarihli ve 700 sayılı KHK’nin 81 inci maddesiyle, bu fıkrada yer alan “Maliye Bakanlığınca hazırlanarak Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2886&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2025/5955",
+   "karar_no": "2026/1328",
+   "decision_date": "09.03.2026",
+   "summary_md": "Davacı, paylı bir parselde paydaştır; davalı aynı parselde pay satın almış ve satış davacıya bildirilmemiştir. Davacı önalım hakkına dayanarak tapu iptali ve tescil istemiş, ilk derece mahkemesi davayı kabul etmiş, bölge adliye mahkemesi istinaf başvurusunu esastan reddetmiştir. Yargıtay 7. Hukuk Dairesi oy çokluğuyla bölge adliye mahkemesi kararını kaldırıp ilk derece kararını bozmuştur. Çoğunluk, kanunun rayiç bedelin tarihini düzenlemediğini belirterek adil denge ilkesinden hareket etmiştir. Değişiklikten sonra açılan davalarda dava tarihini, derdest davalarda 25.12.2025 tarihini esas almıştır. Karşı oy sonuca katılmış, ama bedelin her davada satış tarihine göre belirlenmesi gerektiğini savunmuştur; bu nokta tartışmalıdır. Karar, 7571 sayılı Kanunla gelen rayiç bedel kuralının derdest davalara uygulandığını ve eski satış bedeli düzeninden ayrıldığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1227861700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2019/740",
+   "karar_no": "2022/795",
+   "decision_date": "31.05.2022",
+   "summary_md": "Murisin paydaş olduğu iki parselde, dava dışı bir paydaş paylarını resmî senetle davalıya satmış, satış bildirilmemiştir. Mirasçılardan biri satılan payların kendi adına tescili istemiyle önalım davası açmıştır. İlk derece mahkemesi diğer mirasçıların muvafakati için süre vermiş, mirasçıların davacı vekiline vekâletname vermesi üzerine davayı kabul etmiştir. İstinaf mahkemesi aktif husumet yokluğundan davayı reddetmiş, direnme sonrasında Hukuk Genel Kurulu direnme kararını değişik gerekçeyle oy çokluğuyla bozmuştur. Kararda önalımın paya bağlı bir yenilik doğuran hak olduğu, üç aylık sürenin noter bildiriminden, üst sürenin satıştan işlediği, öğrenmenin süreyi başlatmadığı ve süresinde kullanılmayan hakkın yalnız o satış için düştüğü belirtilmiştir. Elbirliği payına dayanan davada muvafakatin duruşmada beyan, noterce onaylı belge veya aynı avukata vekâletname yoluyla verilebileceği, sağlanamazsa terekeye temsilci atanması için süre verileceği ifade edilmiştir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/794385000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2025/3369",
+   "karar_no": "2026/1254",
+   "decision_date": "04.03.2026",
+   "summary_md": "Davacı, ipotekli bağımsız bölümünü adi yazılı bir vefa sözleşmesiyle 20.07.2020'de davalı bankaya satış göstererek devretmiş; kendisine 30.09.2022'ye kadar geri alım süresi tanınmıştır. Davacı, geri alım talebinin bankaya 04.10.2021'de ulaştığını ve bankanın karşılık vermediğini ileri sürerek tescil istemiştir. İlk derece mahkemesi, sözleşme resmî şekilde yapılmadığından davayı reddetmiş, istinaf başvurusu da esastan reddedilmiştir. Yargıtay 7. Hukuk Dairesi bölge adliye mahkemesi kararını kaldırıp ilk derece kararını oybirliğiyle bozmuştur. Gerekçeye göre vefa hakkı yenilik doğuran kişisel bir haktır, TBK m. 237 gereği resmî şekle tabidir; dava, ihtar, mektup veya telgrafla kullanılabilir ve kullanma beyanının karşı tarafa ulaşması yeter. Somut olayda davacı kendi edimini yerine getirmiş, banka şekle itiraz etmemiştir; şekil eksikliğiyle davanın reddi TMK m. 2'ye aykırı bulunmuştur. Bu sonuç olaya özgüdür; genel kural alım ve geri alım sözleşmelerinde resmî şekildir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1227228300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "X Ltd. Şti., deposunu satarken alıcıyla yaptığı resmî senetle kendisi lehine beş yıllık bir geri alım hakkı kurmuş ve bu hak tapuya şerh edilmiştir. Alıcı depoyu sonradan Y'ye satmıştır. X, geri alım hakkını kullanmak isterse aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Geri alım hakkı kişisel haktır; yalnız ilk alıcıya karşı ileri sürülebilir, Y'ye karşı kullanılamaz.",
+    "Şerh hakkı ayni hakka dönüştürmüştür; bu nedenle şerhin etkisi süresizdir.",
+    "Geri alım hakkı ancak depoyu sonradan satın alan Y'nin rızasıyla kullanılabilir.",
+    "X, şerhte belirtilen süre içinde hakkını Y'ye karşı da kullanabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Tapu kütüğüne şerh verilen alım ve geri alım hakları, şerhte belirtilen süre içinde her malike karşı kullanılabilir (TMK m. 736/1). Beş yıllık süre en çok on yıl sınırı içindedir (TBK m. 238). Şerh hakkı ayni hak yapmaz; yalnız sonradan hak kazananlara karşı ileri sürülebilir kılar (TMK m. 1009/2). Şerhin etkisi ise her durumda on yılda sona erer (TMK m. 736/2); süresiz değildir."
+  },
+  {
+   "stem_md": "Selin, paylı bir arsadaki payını yeğeni Deniz'e gerçekten bağışlamıştır. Diğer paydaş Kemal, yasal önalım hakkına dayanarak dava açmak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kemal kullanabilir, ancak bedel olarak payın rayiç değerini yatırmak zorundadır.",
+    "Kemal kullanabilir; bağış ekonomik bakımdan satışa eşdeğer bir işlemdir.",
+    "Kemal kullanabilir; yeğene yapılan her devir yasal önalımı doğurur.",
+    "Kemal kullanamaz; yasal önalım hakkını doğuran işlem satıştır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Yasal önalım, paydaşın payını üçüncü kişiye satması hâlinde doğar (TMK m. 732). Gerçek bir bağış satış değildir. \"Ekonomik bakımdan satışa eşdeğer her türlü işlem\" ölçütü sözleşmeden doğan önalıma ilişkindir (TBK m. 240/1) ve yasal önalımı genişletmez."
+  },
+  {
+   "stem_md": "Ayşe, Mehmet ve Ali paylı bir tarlanın paydaşlarıdır. Mehmet payını paydaş Ali'ye satmıştır. Ayşe yasal önalım hakkını kullanabilir mi?",
+   "options": [
+    "Kullanabilir; paydaşın yaptığı her satış diğer paydaşlara hak doğurur.",
+    "Kullanamaz; alıcı üçüncü kişi olmadığı için hak doğmamıştır.",
+    "Kullanabilir, ancak yalnız satış Ayşe'ye noter aracılığıyla bildirilmişse.",
+    "Kullanabilir, ancak yalnız Mehmet payının tamamını satmışsa."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 732 önalım hakkını, payın üçüncü kişiye satılmasına bağlar. Alıcı da paydaşsa üçüncü kişi şartı gerçekleşmez ve hak doğmaz. Bildirim ve payın tamamının ya da bir kısmının satılması bu şartı değiştirmez; bildirim süreyi başlatan bir işlemdir, hakkın doğumu için aranmaz."
+  },
+  {
+   "stem_md": "Ayşe, Ankara'daki bir dükkânda 1/4 paydaştır. Ortağı Mehmet, payının yarısını (1/8) paydaş olmayan Ali'ye satmıştır. Ayşe'nin durumu hangisidir?",
+   "options": [
+    "Kullanabilir; payın bir kısmının satılması da hak doğurur.",
+    "Kullanamaz; kısmi satış ekonomik bakımdan satışa eşdeğer sayılmaz.",
+    "Kullanabilir, ancak yalnız Mehmet kalan payını da satarsa.",
+    "Kullanamaz; yalnız payın tamamının satışı önalım hakkı doğurur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 732, paydaşın payını \"tamamen veya kısmen\" üçüncü kişiye satmasını hak doğurucu saymıştır. Paydaş olmayan Ali alıcıdır; Ayşe önalım hakkını kullanabilir. Kısmi satışın \"eşdeğer işlem\" sayılıp sayılmaması bu soruda ölçüt değildir."
+  },
+  {
+   "stem_md": "X Belediyesi, ortak olduğu paylı arsadaki payını 2026'da 2886 sayılı Devlet İhale Kanunu kapsamında ihale yoluyla üçüncü kişi Hasan'a satmıştır. Diğer paydaş Kemal önalım hakkını kullanmak istemektedir. Sonuç nedir?",
+   "options": [
+    "Kullanabilir; belediye kamu tüzel kişisi olduğu için noter bildirimi aranmaz.",
+    "Kullanabilir; kullanma yasağı yalnız cebrî artırmayla satışlar için öngörülmüştür.",
+    "Kullanabilir, ancak ihale bedelini yatırması gerekir.",
+    "Kullanamaz; 7571 sayılı Kanunla değişen TMK m. 733/1'e göre 2886 sayılı Kanun kapsamındaki satışlarda önalım kullanılamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "25.12.2025'te yürürlüğe giren değişiklikle TMK m. 733/1, 2886 sayılı Devlet İhale Kanunu kapsamında yapılan satışları ve cebrî artırmayla satışları kullanma yasağı kapsamına almıştır. Satış 2026'da yapıldığından yeni hüküm uygulanır. \"Yalnız cebrî artırma\" yanılgısı eski durumu yansıtır. Belediyeler 2886 sayılı Kanun m. 1'in kapsamındadır."
+  },
+  {
+   "stem_md": "Önalım hakkından **genel olarak** feragat edilmesi için aşağıdakilerden hangisi gerekir?",
+   "options": [
+    "Şekil serbesttir; tapu müdürlüğüne bildirim yeter",
+    "Resmî şekil ve tapu kütüğüne şerh",
+    "Noterde onaylı yazılı belge; şerh gerekmez",
+    "Yalnız yazılı şekil"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 733/2'ye göre önalım hakkından feragatin resmî şekilde yapılması ve tapu kütüğüne şerh verilmesi gerekir. Yalnız yazılı şekil, belirli bir satışta vazgeçme için yeterlidir; genel feragat için değildir."
+  },
+  {
+   "stem_md": "Selin payını Deniz'e satmış ve tescil yapılmıştır. Satıştan iki hafta sonra paydaş Kemal, kendi imzasını taşıyan adi yazılı bir belgeyle \"bu satışta önalım hakkımı kullanmayacağım\" diye beyan vermiştir. Bu beyanın değeri nedir?",
+   "options": [
+    "Geçerlidir; belirli satışta vazgeçme yazılı şekle tabidir ve satıştan önce veya sonra yapılabilir.",
+    "Geçersizdir; vazgeçme resmî şekil ve tapu kütüğüne şerh ister.",
+    "Geçersizdir; belirli satışta vazgeçme yalnız satıştan önce yapılabilir.",
+    "Geçersizdir; vazgeçme ancak noter aracılığıyla yapılabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 733/2'ye göre belirli bir satışta önalım hakkını kullanmaktan vazgeçme yazılı şekle tabidir ve satıştan önce veya sonra yapılabilir. Resmî şekil ve şerh yalnız genel feragat için aranır. Olayda yazılı şekil sağlanmıştır."
+  },
+  {
+   "stem_md": "TMK m. 733/3'e göre yapılan satış diğer paydaşlara kim tarafından ve nasıl bildirilir?",
+   "options": [
+    "Alıcı veya satıcı tarafından, noter aracılığıyla",
+    "Tapu müdürlüğü tarafından re'sen",
+    "Yalnız satıcı tarafından, tapu müdürlüğü aracılığıyla",
+    "Yalnız alıcı tarafından, iadeli taahhütlü mektupla"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 733/3: Yapılan satış, alıcı veya satıcı tarafından diğer paydaşlara noter aracılığıyla bildirilir. Bu bildirim, üç aylık hak düşürücü süreyi başlatır (TMK m. 733/4)."
+  },
+  {
+   "stem_md": "25.12.2025'ten sonra yapılan bir satış bakımından TMK m. 733/4'e göre önalım hakkı hangi sürelerle düşer?",
+   "options": [
+    "Bildirimden üç ay ve her hâlde satıştan bir yıl",
+    "Bildirimden bir ay ve her hâlde satıştan on yıl",
+    "Öğrenmeden üç ay ve her hâlde satıştan iki yıl",
+    "Bildirimden altı ay ve her hâlde satıştan bir yıl"
+   ],
+   "correct_option": 0,
+   "explanation_md": "7571 sayılı Kanunla üst süre iki yıldan bir yıla indirilmiştir. Metin: Önalım hakkı, satışın hak sahibine bildirildiği tarihin üzerinden üç ay ve her hâlde satışın üzerinden bir yıl geçmekle düşer (TMK m. 733/4). Kısa süre öğrenmeyle değil bildirimle başlar. Bir ay ve on yıllık süreler eski 743 sayılı Kanunun sistemine (öğrenmeden bir ay) aittir; geçerli değildir."
+  },
+  {
+   "stem_md": "Fatma, paylı bir tarladaki paydaştır. Hasan'ın payını 12.03.2026'da Mehmet'e sattığını WhatsApp mesajından ve tapu kaydından öğrenmiş, ancak kendisine noter bildirimi yapılmamıştır. Fatma 20.11.2026'da önalım davası açmıştır. Süre bakımından hangisi doğrudur?",
+   "options": [
+    "Dava süresindedir; üç aylık süre yalnız noter bildirimiyle başlar, bildirim yoksa satıştan itibaren bir yıllık üst süre işler.",
+    "Dava süresindedir; bildirim yapılmayan satışta süre hiç işlemez ve hak sınırsız kullanılabilir.",
+    "Hak düşmüştür; satışı kesin olarak öğrenmekle üç aylık süre başlamıştır.",
+    "Hak düşmüştür; noter bildirimi olmasa da satıştan üç ay geçmiştir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Üç aylık süreyi öğrenme değil, noter bildirimi başlatır; Yargıtay bunu yerleşik olarak kabul eder. Bildirim yoksa kısa süre işlemez, ama hak yine de sonsuz değildir: Satıştan itibaren bir yıllık üst süre işler (TMK m. 733/4). Satış 25.12.2025'ten sonra yapıldığından yeni süre uygulanır ve dava bu süre içindedir."
+  },
+  {
+   "stem_md": "Hasan, paylı tarladaki payını 03.03.2025'te Mehmet'e satmıştır. Satış paydaş Selin'e hiç bildirilmemiştir. Selin 15.05.2026'da önalım davası açmıştır. Üst süre bakımından hangisi doğrudur?",
+   "options": [
+    "Hak düşmüştür; bir yıllık yeni üst süre 25.12.2025'ten sonra açılan bütün davalara uygulanır.",
+    "Hak düşmüştür; üç aylık süre satış tarihinden başlar.",
+    "Dava süresindedir; satış değişiklikten önce yapıldığı için eski iki yıllık üst süre uygulanır.",
+    "Dava süresindedir; üst süre yalnız noter bildirimi yapılmış satışlarda işler."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK'nın geçici 1. maddesinin 1. fıkrasına göre m. 733'te yapılan değişiklikler, yürürlük tarihinden (25.12.2025) önce yapılmış satışlara uygulanmaz; bu satışlarda eski hükümler, yani iki yıllık üst süre geçerlidir. Satış 03.03.2025'te yapıldığından iki yıl dolmamıştır. Bildirim yoksa kısa süre işlemediği için üst süre ölçüttür (TMK m. 733/4). Yeni bir yıllık süre uygulansaydı hak düşmüş olurdu; ama süre için ölçü satış tarihidir, dava tarihi değildir."
+  },
+  {
+   "stem_md": "Yasal önalım hakkı hangi kişiye karşı açılacak davayla kullanılır?",
+   "options": [
+    "Alıcı ve satıcıya zorunlu dava arkadaşı olarak",
+    "Satıcıya",
+    "Alıcıya",
+    "Satıcıya ve tapu müdürlüğüne birlikte"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 734/1: Önalım hakkı, alıcıya karşı dava açılarak kullanılır. Satıcı davalı olmaz. Sözleşmeden doğan önalımda ise şerh ve tescil durumuna göre alıcı ya da satıcı davalı olur (TBK m. 242); bu fark karıştırılmamalıdır."
+  },
+  {
+   "stem_md": "TMK m. 734/2'nin 7571 sayılı Kanunla değişen metnine göre önalım hakkı sahibi hangi tutarı yatırmakla yükümlüdür?",
+   "options": [
+    "Hâkimin belirlediği rayiç bedel ile alıcıya düşen tapu giderlerini",
+    "Tapuda gösterilen satış bedeli ile alıcıya düşen tapu giderlerini",
+    "Rayiç bedelin yarısını peşin, kalanını hüküm kesinleştikten sonra",
+    "Yalnız tapuda gösterilen satış bedelini"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yeni TMK m. 734/2'ye göre dava konusu payın rayiç bedeli hâkim tarafından gecikmeksizin belirlenir; hak sahibi belirlenen rayiç bedel ile alıcıya düşen tapu giderlerini nemalandırılmak üzere hâkimin belirlediği yere, verilen kesin süre içinde nakden yatırır. Eski ölçü satış bedeliydi; ikinci şık eski kuralı yansıtır."
+  },
+  {
+   "stem_md": "Önalım davası açan Ali'ye mahkeme, rayiç bedel ile alıcıya düşen tapu giderlerinin yatırılması için kesin süre vermiştir. Ali süre içinde yatırmamıştır. Sonuç hangisidir?",
+   "options": [
+    "Mahkeme ek süre vermeden davayı hak düşürücü süre geçtiği gerekçesiyle reddeder.",
+    "Ali adına payın tesciline karar verilemez.",
+    "Mahkeme bedeli satıcıdan tahsil ederek tescile karar verir.",
+    "Tescile karar verilir; bedel hükümden sonra ödenir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 734/2: Bu yükümlülük, verilen kesin süre içinde yerine getirilmezse önalım hakkı sahibi adına payın tesciline karar verilemez. Bedelin yatırılması tescilin şartıdır; sonradan ödeme ya da satıcıdan tahsil öngörülmemiştir."
+  },
+  {
+   "stem_md": "25.12.2025'ten önce açılmış ve hâlen derdest olan bir önalım davası bakımından hangisi doğrudur?",
+   "options": [
+    "TMK m. 734'te yapılan değişiklik bu davalara da uygulanır.",
+    "Dava yeniden açılmak zorundadır.",
+    "Eski TMK m. 734/2 uygulanmaya devam eder; satış bedeli yatırılır.",
+    "Yalnız hak düşürücü süre değişikliği uygulanır; bedel kuralı uygulanmaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK'nın geçici 1. maddesinin 2. fıkrasına göre m. 734'te yapılan değişiklikler, yürürlük tarihinden önce açılmış davalar hakkında da uygulanır. Süre bakımından ise m. 733'teki değişiklikler yalnız yeni satışlara uygulanır (1. fıkra). Rayiç bedelin hangi tarihe göre belirleneceği bu sorunun konusu değildir."
+  },
+  {
+   "stem_md": "Yasal önalım hakkının üçüncü kişilere karşı ileri sürülebilmesi için tapu kütüğünde hangi işlem gerekir?",
+   "options": [
+    "Hakkın şerh edilmesi; yoksa iyiniyetli alıcıya karşı ileri sürülemez",
+    "Kütükte bir kayıt gerekmez; kanundan doğan kısıtlamalar tescil edilmeksizin etkilidir",
+    "Paydaşın noterde önalım sözleşmesi yaptırması",
+    "Hakkın ayni hak olarak tescili"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 731/1: Taşınmaz mülkiyetinin kanundan doğan kısıtlamaları tapu siciline tescil edilmeksizin etkili olur. Yasal önalım böyle bir kısıtlamadır. Şerh, sözleşmeden doğan önalım, alım ve geri alım hakları için gereklidir (TMK m. 735, TMK m. 736, TMK m. 1009)."
+  },
+  {
+   "stem_md": "Taşınmaza ilişkin sözleşmeler bakımından hangisi doğrudur?",
+   "options": [
+    "Önalım ve alım sözleşmeleri resmî, geri alım sözleşmesi yazılı şekle tabidir.",
+    "Üçü de yazılı şekle tabidir.",
+    "Önalım sözleşmesi yazılı şekle, alım ve geri alım sözleşmeleri resmî şekle tabidir.",
+    "Üçü de resmî şekle tabidir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 237/2: Taşınmaz satışı vaadi, geri alım ve alım sözleşmeleri resmî şekilde düzenlenmedikçe geçerli olmaz. TBK m. 237/3: Önalım sözleşmesinin geçerliliği yazılı şekilde yapılmış olmasına bağlıdır. \"Hepsi resmî şekle tabidir\" yanılgısına düşme."
+  },
+  {
+   "stem_md": "Bora lehine 2014'te bir taşınmazın tapu kütüğüne geri alım hakkı şerh edilmiştir. Taşınmazın maliki olan Kerem, taşınmazı 2026'da edinmiştir. Bora, şerhe dayanarak hakkını Kerem'e karşı kullanmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Şerhin etkisi ancak malikin rızasıyla sona erer.",
+    "Kullanabilir; çünkü Kerem malik olarak tescillidir.",
+    "Kullanabilir; şerh kaldırılmadığı sürece etkisi süresizdir.",
+    "Şerhin etkisi şerh tarihinden itibaren on yıl geçmekle sona ermiştir; Bora şerhe dayanarak Kerem'e karşı ileri süremez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Alım ve geri alım hakkı şerhinin etkisi, her durumda şerhin verildiği tarihin üzerinden on yıl geçmekle sona erer (TMK m. 736/2). 2014'te verilen şerhin etkisi 2024'te bitmiştir; Kerem'in edinimi bundan sonra olduğundan hak ona karşı şerhe dayanılarak kullanılamaz. Aynı kural sözleşmeden doğan önalım şerhi için de geçerlidir (TMK m. 735/2)."
+  },
+  {
+   "stem_md": "Can, Selim ile yaptığı yazılı önalım sözleşmesinden doğan hakkın sahibidir; sözleşmede hakkın devredilebileceğine ilişkin bir hüküm yoktur. Can ölmüştür. Hak bakımından hangisi doğrudur?",
+   "options": [
+    "Hak ölümle sona erer.",
+    "Hak mirasçılara geçer.",
+    "Hak Selim'e geri döner.",
+    "Hak yalnız şerhliyse mirasçılara geçer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 239/1: Aksine anlaşma olmadıkça sözleşmeden doğan önalım, alım ve geri alım hakları devredilemez, ancak miras yoluyla geçer. Şerh, hakkın mirasçıya geçişi için aranmaz; üçüncü kişilere karşı ileri sürülebilirlik için gereklidir."
+  },
+  {
+   "stem_md": "Selim, İzmir'deki dairesi için Can'a yazılı bir önalım hakkı tanımış ve hak tapuya şerh edilmiştir. Selim daireyi Deniz'e satmış, tescil Deniz adına yapılmıştır. Can bu hakkı kullanmak için kime karşı dava açmalıdır?",
+   "options": [
+    "Deniz'e; çünkü hak şerhli ve mülkiyet alıcı adına tescillidir.",
+    "Hem Selim'e hem Deniz'e; zorunlu dava arkadaşlığı vardır.",
+    "Tapu müdürlüğüne.",
+    "Selim'e; çünkü sözleşme yalnız taraflar arasındadır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 242: Hak şerh edilmiş ve taşınmazın mülkiyeti alıcı adına tescil edilmişse alıcıya, aksi takdirde satıcıya karşı dava açılır. Olayda her iki şart gerçekleştiğinden davalı alıcı Deniz'dir. Şerhsiz hâlde dava satıcıya karşı açılırdı."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, Ayşe ve Mehmet, Bursa'daki bir tarlanın üçer pay maliki paydaşlarıdır. Taşınmaz fiilen bölüşülmemiştir; üçü de tarlayı birlikte kullanmaktadır. Mehmet, payını 10.02.2026'da tapuda Zeynep'e satar ve devreder. Zeynep, satışı noter aracılığıyla yalnız Ali'ye bildirir; bildirim Ali'ye 05.03.2026'da tebliğ edilir. Ayşe'ye hiçbir noter bildirimi yapılmaz. Ayşe, satışı bir komşusundan öğrenmiştir.\n\nAli, önalım davasını 20.06.2026'da; Ayşe ise 15.09.2026'da açar. Mahkeme Ayşe'nin davasında payın rayiç bedelini belirleyip bedel ve tapu giderlerinin yatırılması için kesin süre vermiştir.\n\n1. Ali'nin önalım hakkı düşmüş müdür?\n2. Ayşe'nin davası süresinde midir? Ayşe'nin satışı komşusundan öğrenmesinin etkisi var mıdır?\n3. Davalı kimdir?\n4. Ayşe mahkemeye ne yatırmalıdır? Yatırmazsa ne olur?",
+   "rubric": [
+    {
+     "point": "Yasal önalım şartlarının tespiti: paylı mülkiyet, taşınmaz payı, satış, alıcının üçüncü kişi olması; kısmi ya da tam satışın fark etmemesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 732"
+    },
+    {
+     "point": "Satışın 25.12.2025'ten sonra yapılması nedeniyle değişikliklerden sonraki süre rejiminin (üç ay ve bir yıl) uygulanması",
+     "weight": 10,
+     "madde_ref": "TMK m. 733"
+    },
+    {
+     "point": "Ali'ye noter bildirimi 05.03.2026'da tebliğ edilmiş, dava üç ayı aşan bir tarihte açılmış; hak düşmüştür",
+     "weight": 20,
+     "madde_ref": "TMK m. 733/4"
+    },
+    {
+     "point": "Ayşe'ye bildirim yapılmadığından üç aylık sürenin işlememesi, öğrenmenin süreyi başlatmaması ve satıştan itibaren bir yıllık üst sürenin dolmamış olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 733/4"
+    },
+    {
+     "point": "Davalının alıcı Zeynep olması; satıcı Mehmet'in davalı olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 734/1"
+    },
+    {
+     "point": "Hâkimin belirlediği rayiç bedel ve alıcıya düşen tapu giderlerinin kesin süre içinde nakden yatırılması; yatırılmazsa tesciline karar verilememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 734/2"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Üç paydaşlı paylı mülkiyette bir paydaş (Mehmet) payını paydaş olmayan Zeynep'e satmıştır. Diğer paydaşlar Ali ve Ayşe bakımından yasal önalım hakkı doğmuştur. Satış 10.02.2026 tarihlidir; bu nedenle 7571 sayılı Kanunla değişen TMK m. 733 ve TMK m. 734 hükümleri uygulanır.\n\n**Hukuki sorunlar:** (1) Önalım şartlarının varlığı; (2) Ali'nin süresinde dava açıp açmadığı; (3) Ayşe'nin süresinde dava açıp açmadığı ve öğrenmenin etkisi; (4) davalının kim olduğu; (5) bedelin yatırılması.\n\n**İlgili hükümler:** TMK m. 732, TMK m. 733/3-4, TMK m. 734/1-2.\n\n**Değerlendirme:**\n\n*1. Şartlar.* TMK m. 732'ye göre paylı mülkiyette bir paydaşın taşınmaz üzerindeki payını tamamen veya kısmen üçüncü kişiye satması hâlinde diğer paydaşlar önalım hakkını kullanabilir. Olayda paylı mülkiyet, taşınmaz payı, satış ve üçüncü kişi alıcı şartlarının hepsi vardır. Taşınmazın fiilen bölüşülmemiş olması da fiili taksim savunmasının önünü keser.\n\n*2. Ali.* Satış, alıcı Zeynep tarafından noter aracılığıyla Ali'ye bildirilmiştir (TMK m. 733/3) ve bildirim 05.03.2026'da tebliğ edilmiştir. TMK m. 733/4'e göre önalım hakkı, satışın hak sahibine bildirildiği tarihin üzerinden üç ay geçmekle düşer. Ali'nin davası 20.06.2026'da, yani bildirimden üç aydan fazla sonra açılmıştır; hak düşmüştür. Hak düşürücü süre hâkim tarafından kendiliğinden gözetilir.\n\n*3. Ayşe.* Ayşe'ye noter bildirimi yapılmamıştır. Üç aylık süre bildirimle başladığı için Ayşe bakımından işlemeye başlamamıştır. Ayşe'nin satışı komşusundan öğrenmesi süreyi başlatmaz; Yargıtay'ın yerleşik içtihadı süreyi öğrenmeye değil noter bildirimine bağlar. Bu durumda yalnız üst süre işler: Hak, satışın üzerinden bir yıl geçmekle düşer (TMK m. 733/4). Satış 10.02.2026'dadır ve Ayşe'nin davası 15.09.2026'da açılmıştır; bir yıl dolmamıştır. Dava süresindedir. Satış 25.12.2025'ten sonra yapıldığından iki yıllık eski süre değil, bir yıllık yeni süre uygulanır; sonuç değişmez.\n\n*4. Davalı.* Önalım hakkı alıcıya karşı dava açılarak kullanılır (TMK m. 734/1). Davalı Zeynep'tir. Satıcı Mehmet'e karşı önalım davası açılmaz.\n\n*5. Bedel.* TMK m. 734/2'ye göre hâkim dava konusu payın rayiç bedelini gecikmeksizin belirler. Ayşe, belirlenen rayiç bedel ile alıcıya düşen tapu giderlerini, hâkimin belirlediği yere, verilen kesin süre içinde nakden yatırmakla yükümlüdür. Bu yükümlülük yerine getirilmezse Ayşe adına payın tesciline karar verilemez. Yatırılan bedel, hüküm kesinleşince nemalarıyla birlikte ilgilisine ödenir. Rayiç bedelin hangi tarihe göre belirleneceği tartışmalıdır ve bu olayın çözümü bu tartışmaya bağlı değildir.\n\n**Sonuç:** Ali'nin hakkı, bildirimden itibaren üç ay geçtiği için düşmüştür. Ayşe'nin davası süresindedir, davalı Zeynep'tir. Ayşe, hâkimin belirlediği rayiç bedel ile tapu giderlerini kesin süre içinde nakden yatırmak zorundadır; aksi hâlde adına tescil kararı verilemez."
+  },
+  {
+   "stem_md": "Kemal, Selin, Hakan ve X Belediyesi, İstanbul'da bir arsanın paylı paydaşlarıdır. Arsa fiilen bölüşülmemiştir. Aşağıdaki işlemler birbirinden bağımsız birer varsayımdır ve hepsi 2026 yılında yapılır:\n\n(a) Hakan'ın payı, alacaklısı Y Bankası'nın icra takibinde cebrî artırmayla Tuncay'a satılır.\n(b) X Belediyesi, payını 2886 sayılı Devlet İhale Kanunu kapsamında ihale yoluyla Hasan'a satar.\n(c) Selin, payını yeğeni Ece'ye gerçekten bağışlar.\n(d) Hakan payını paydaş Selin'e satar.\n(e) Selin, payının yarısını paydaş olmayan Deniz'e satar ve satış Kemal'e noter aracılığıyla bildirilir.\n\nKemal, 2019'da yalnız adi yazılı bir belgeyle diğer paydaşlara karşı önalım haklarından genel olarak feragat ettiğini bildirmiş; bu belge tapuya şerh edilmemiştir.\n\n1. Kemal hangi işlemlerde yasal önalım hakkını kullanabilir?\n2. Kemal'in 2019 tarihli belgesi, kullanabileceği bir işlemde önalım davasına engel midir?\n3. Kemal, (e) işleminden önce Deniz'e yazılı olarak \"bu satışta hakkımı kullanmayacağım\" demiş olsaydı sonuç ne olurdu?",
+   "rubric": [
+    {
+     "point": "Cebrî artırmayla satışta önalımın kullanılamaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 733/1"
+    },
+    {
+     "point": "2886 sayılı Kanun kapsamındaki ihale satışında önalımın kullanılamaması (satışın 25.12.2025'ten sonra olması)",
+     "weight": 20,
+     "madde_ref": "TMK m. 733/1"
+    },
+    {
+     "point": "Bağışın satış olmaması; yasal önalımı yalnız satışın doğurması",
+     "weight": 15,
+     "madde_ref": "TMK m. 732"
+    },
+    {
+     "point": "Paydaşa satışta alıcının üçüncü kişi olmaması; hak doğmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 732"
+    },
+    {
+     "point": "Payın bir kısmının üçüncü kişiye satışında önalımın kullanılabilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 732"
+    },
+    {
+     "point": "Genel feragatin resmî şekil ve şerh istemesi; adi yazılı belgenin geçersiz olması ve belirli satışta yazılı vazgeçmenin geçerli olması",
+     "weight": 25,
+     "madde_ref": "TMK m. 733/2"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Paylı mülkiyette bir arsa vardır ve beş ayrı işlem yapılmıştır. Her işlemde, Kemal'in yasal önalım hakkının doğup doğmadığı ve kullanılabilir olup olmadığı sorulmaktadır.\n\n**Hukuki sorunlar:** (1) Hak doğuran işlemin niteliği (satış); (2) alıcının üçüncü kişi olması; (3) kullanma yasağı kapsamı; (4) genel feragat ve belirli satışta vazgeçme.\n\n**İlgili hükümler:** TMK m. 732, TMK m. 733/1-2, 2886 sayılı Kanun m. 1.\n\n**Değerlendirme:**\n\n*(a) Cebrî artırma.* TMK m. 733/1'e göre cebrî artırmayla satışlarda önalım hakkı kullanılamaz. Hakan'ın payının icra takibinde cebrî artırmayla satılması bu kapsamdadır. Kemal hakkını kullanamaz.\n\n*(b) İhale satışı.* X Belediyesi, 2886 sayılı Kanun m. 1'in kapsamındaki idarelerdendir ve satış bu Kanun kapsamında ihaleyle yapılmıştır. 7571 sayılı Kanunla değişen TMK m. 733/1'e göre 2886 sayılı Kanun kapsamında yapılan satışlarda önalım kullanılamaz. Satış 2026'da, yani 25.12.2025'ten sonra yapıldığı için yeni hüküm uygulanır (TMK'nın geçici 1. maddesinin 1. fıkrası). Kemal kullanamaz.\n\n*(c) Bağış.* TMK m. 732 önalımı paydaşın payını üçüncü kişiye **satması** hâline bağlamıştır. Gerçek bir bağış satış değildir. Kemal kullanamaz.\n\n*(d) Paydaşa satış.* Alıcı Selin paydaştır; üçüncü kişi şartı gerçekleşmez (TMK m. 732). Kemal kullanamaz.\n\n*(e) Kısmi satış.* Payın bir kısmının satılması da hak doğurur (TMK m. 732). Alıcı Deniz üçüncü kişidir ve satış noter aracılığıyla bildirilmiştir (TMK m. 733/3). Kemal hakkını kullanabilir; ancak bunun için süresinde (bildirimden itibaren üç ay) dava açması ve bedeli yatırması gerekir.\n\n*2019 tarihli belge.* Önalım hakkından feragat, resmî şekilde yapılmalı ve tapu kütüğüne şerh verilmelidir (TMK m. 733/2). Kemal'in belgesi adi yazılıdır ve şerhsizdir; genel feragat olarak geçersizdir. (e) işlemindeki önalım hakkına engel olmaz.\n\n*Belirli satışta vazgeçme.* Kemal, (e) işleminden önce Deniz'e yazılı olarak bu satışta hakkını kullanmayacağını bildirmiş olsaydı vazgeçme geçerli olurdu. TMK m. 733/2'ye göre belirli bir satışta önalım hakkını kullanmaktan vazgeçme yazılı şekle tabidir ve satıştan önce veya sonra yapılabilir. Bu durumda Kemal (e) işleminde de önalım davası açamazdı.\n\n**Sonuç:** Kemal yalnız (e) işleminde yasal önalım hakkını kullanabilir. (a), (b), (c) ve (d) işlemlerinde kullanamaz. 2019 tarihli adi yazılı genel feragat geçersizdir; (e) bakımından belirli satışta yazılı vazgeçme olsaydı hak kullanılamazdı."
+  },
+  {
+   "stem_md": "Selim, İzmir'deki dairesi için komşusu Can'la 2018'de on yıl süreli, adi yazılı bir önalım sözleşmesi yapar ve hak tapuya şerh edilir. Selim, daireyi 10.03.2026'da Deniz'e satar ve tescil Deniz adına yapılır. Satış Can'a noter aracılığıyla bildirilir; bildirim 20.03.2026'da tebliğ edilir. Can, 20.04.2026'da dava açar.\n\nSelim, ayrıca başka bir taşınmazı için 2026'da Ece ile adi yazılı bir sözleşme yaparak Ece'ye bu taşınmazı satın alma (alım) hakkı tanımıştır.\n\nSelim'in başka bir taşınmazında Bora lehine 2014'te bir geri alım hakkı şerh edilmiş; Selim bu taşınmazı 2025'te Kerem'e satmıştır. Bora, 2026'da geri alım hakkını Kerem'e karşı kullanmak ister.\n\n1. Can'ın önalım sözleşmesi geçerli midir? Hak Deniz'e karşı ileri sürülebilir mi, dava kime açılır?\n2. Ece'nin alım hakkı sözleşmesinin durumu nedir?\n3. Bora, geri alım hakkını Kerem'e karşı şerhe dayanarak kullanabilir mi?\n4. Can dava açmadan önce ölmüş olsaydı hak ne olurdu?",
+   "rubric": [
+    {
+     "point": "Önalım sözleşmesinin yazılı şekille geçerli olması; resmî şekil aranmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 237/3"
+    },
+    {
+     "point": "Şerhli önalımın her malike karşı kullanılabilmesi; şerhin etkisinin on yılı doldurmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 735/1"
+    },
+    {
+     "point": "Hak şerhli ve mülkiyet alıcı adına tescilli olduğundan davalının alıcı Deniz olması; üç aylık dava süresinin korunmuş olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 242"
+    },
+    {
+     "point": "Alım sözleşmesinin resmî şekil istemesi; adi yazılı sözleşmenin geçersiz olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 237/2"
+    },
+    {
+     "point": "Geri alım şerhinin etkisinin on yıl geçmekle sona ermesi; hakkın Kerem'e karşı şerhe dayanılarak ileri sürülememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 736/2"
+    },
+    {
+     "point": "Sözleşmeden doğan önalımın aksine anlaşma yoksa devredilemez, miras yoluyla geçmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 239/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Üç ayrı sözleşmeden doğan hak vardır: Can'ın şerhli önalım hakkı, Ece'nin alım hakkı ve Bora'nın şerhli geri alım hakkı. Bunlar yasal değil sözleşmeden doğan haklardır; şekil, süre ve şerh kurallarına tabidir.\n\n**Hukuki sorunlar:** (1) Önalım sözleşmesinin şekli ve hakkın Deniz'e karşı ileri sürülebilmesi; (2) dava ve davalı; (3) alım sözleşmesinin geçerliliği; (4) geri alım şerhinin süresi; (5) hakkın miras yoluyla geçişi.\n\n**İlgili hükümler:** TBK m. 237/2-3, TBK m. 238, TBK m. 239/1, TBK m. 242, TMK m. 735, TMK m. 736, TMK m. 1009.\n\n**Değerlendirme:**\n\n*1. Can'ın hakkı.* Önalım sözleşmesinin geçerliliği yazılı şekilde yapılmış olmasına bağlıdır (TBK m. 237/3). Adi yazılı sözleşme bu şartı karşılar; resmî şekil gerekmez. Sözleşmedeki on yıllık süre, önalım hakkının en çok on yıl için kararlaştırılabilmesi kuralına uygundur (TBK m. 238). Hak, TMK m. 1009 uyarınca şerh edilebilen haklardandır. Şerhli sözleşmeden doğan önalım hakkı, şerhte belirtilen sürede ve koşullara göre her malike karşı kullanılabilir (TMK m. 735/1). Şerhin etkisi şerh tarihinden itibaren on yıl geçmekle sona erer (TMK m. 735/2); olayda 2018'den 2026'ya on yıl dolmamıştır. Bu nedenle hak, malik olan Deniz'e karşı ileri sürülebilir. TBK m. 242'ye göre hak şerh edilmiş ve mülkiyet alıcı adına tescil edilmişse dava alıcıya açılır; davalı Deniz'dir. Aynı madde, satışın hak sahibine bildirildiği tarihten başlayarak üç ay içinde dava açılmasını ister; Can bildirimden bir ay sonra dava açtığından kısa süre korunmuştur.\n\n*2. Ece'nin hakkı.* Alım sözleşmeleri resmî şekilde düzenlenmedikçe geçerli olmaz (TBK m. 237/2). Selim ile Ece arasındaki sözleşme adi yazılıdır; geçersizdir. Ece bu sözleşmeye dayanarak alım hakkı ileri süremez.\n\n*3. Bora'nın hakkı.* Alım ve geri alım hakları şerhle her malike karşı kullanılabilir; ancak şerhin etkisi, şerhin verildiği tarihin üzerinden on yıl geçmekle sona erer (TMK m. 736/2). 2014'te verilen şerhin etkisi 2024'te sona ermiştir. Kerem taşınmazı 2025'te edindiğinden Bora, hakkını Kerem'e karşı şerhe dayanarak ileri süremez. Selim'e karşı sözleşmeden doğabilecek diğer sonuçlar bu olayın konusu değildir.\n\n*4. Can'ın ölümü.* Aksine anlaşma olmadıkça sözleşmeden doğan önalım hakkı devredilemez, ancak miras yoluyla geçer (TBK m. 239/1). Can dava açmadan ölseydi hak mirasçılarına geçerdi.\n\n**Sonuç:** Can'ın hakkı geçerlidir, Deniz'e karşı ileri sürülebilir; dava Deniz'e açılır ve süresindedir. Ece'nin adi yazılı alım sözleşmesi geçersizdir. Bora, şerhin etkisi sona erdiği için hakkını Kerem'e karşı şerhe dayanarak kullanamaz. Can'ın hakkı ölümü hâlinde mirasçılarına geçerdi. (Sözleşmeden doğan önalımda üst sürenin bir yıl mı iki yıl mı olduğu tartışmalıdır; olayda dava satıştan yaklaşık bir buçuk ay sonra, yani her iki üst süre de dolmadan açıldığından bu tartışma sonucu etkilemez.)"
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Yasal önalımın şartları nelerdir? (TMK m. 732)",
+   "back_md": "Paylı mülkiyet, taşınmaz, satış ve alıcının üçüncü kişi olması. Payın tamamı da bir kısmı da satılabilir; hak sahipleri diğer paydaşlardır."
+  },
+  {
+   "front_md": "Yasal önalımı hangi işlem doğurur?",
+   "back_md": "Yalnız satış (TMK m. 732). Gerçek bağış ve paydaşa satış hak doğurmaz. Satışa eşdeğer işlem genişlemesi sözleşmeden doğan önalıma aittir (TBK m. 240/1)."
+  },
+  {
+   "front_md": "Yasal önalım için tescil ya da şerh gerekir mi?",
+   "back_md": "Hayır. Kanundan doğan kısıtlamalar tescil edilmeksizin etkilidir (TMK m. 731/1)."
+  },
+  {
+   "front_md": "Önalımın kullanılamadığı satışlar? (TMK m. 733/1)",
+   "back_md": "2886 sayılı Devlet İhale Kanunu kapsamındaki satışlar ve cebrî artırmayla satışlar. 2886 yasağı 7571 sayılı Kanunla eklendi; yürürlük 25.12.2025."
+  },
+  {
+   "front_md": "Genel feragat ile belirli satışta vazgeçme farkı?",
+   "back_md": "Genel feragat: resmî şekil + tapu kütüğüne şerh. Belirli satışta vazgeçme: yazılı şekil, satıştan önce veya sonra (TMK m. 733/2)."
+  },
+  {
+   "front_md": "Satışı diğer paydaşlara kim, nasıl bildirir?",
+   "back_md": "Alıcı veya satıcı, noter aracılığıyla (TMK m. 733/3)."
+  },
+  {
+   "front_md": "Önalım hakkı ne zaman düşer? (TMK m. 733/4)",
+   "back_md": "Bildirimden üç ay ve her hâlde satıştan bir yıl geçmekle. 25.12.2025'ten önceki satışlarda üst süre iki yıldır. Süreler hak düşürücüdür, re'sen gözetilir."
+  },
+  {
+   "front_md": "Satışı öğrenmek üç aylık süreyi başlatır mı?",
+   "back_md": "Hayır. Süreyi noter bildirimi başlatır. Bildirim yoksa yalnız üst süre işler."
+  },
+  {
+   "front_md": "Süresinde kullanılmayan önalım hakkı ne olur?",
+   "back_md": "Yalnız o satış bakımından düşer. Aynı payın sonraki satışı yeni bir hak doğurur."
+  },
+  {
+   "front_md": "Önalım davası kime karşı açılır? (TMK m. 734/1)",
+   "back_md": "Alıcıya. Satıcı davalı olmaz. Önalım dava dışında beyanla kullanılamaz."
+  },
+  {
+   "front_md": "Önalım hakkı sahibi neyi yatırır? (TMK m. 734/2)",
+   "back_md": "Hâkimin gecikmeksizin belirlediği rayiç bedeli ve alıcıya düşen tapu giderlerini, kesin süre içinde nakden, hâkimin belirlediği yere. Eskiden ölçü satış bedeliydi."
+  },
+  {
+   "front_md": "Bedel kesin süre içinde yatırılmazsa ne olur?",
+   "back_md": "Hak sahibi adına payın tesciline karar verilemez. Yatırılan bedel hüküm kesinleşince nemalarıyla ilgilisine ödenir (TMK m. 734/2)."
+  },
+  {
+   "front_md": "TMK'nın geçici 1. maddesi neyi düzenler?",
+   "back_md": "m. 733'teki değişiklikler 25.12.2025'ten önceki satışlara uygulanmaz (eski iki yıl geçerli). m. 734'teki değişiklik, o tarihten önce açılmış davalara da uygulanır."
+  },
+  {
+   "front_md": "Fiili taksim önalıma nasıl etki eder?",
+   "back_md": "Paydaşlar taşınmazı fiilen bölüşüp uzun süre öyle kullanmışsa, satıcının kullandığı yere karşılık gelen payın satışında önalım davası TMK m. 2'ye aykırı sayılır ve reddedilir."
+  },
+  {
+   "front_md": "Elbirliği payına dayanan önalımda ne gerekir?",
+   "back_md": "Yasal önalım paylı mülkiyette doğar. Ölen paydaşın payı mirasçılara elbirliğiyle geçmişse mirasçılar birlikte dava açar veya muvafakat eder; olmazsa terekeye temsilci atanır (TMK m. 640)."
+  },
+  {
+   "front_md": "Sözleşmeden doğan önalımın şekli ve süresi?",
+   "back_md": "Yazılı şekil (TBK m. 237/3). En çok on yıl için kararlaştırılır (TBK m. 238). Şerhin etkisi on yılda sona erer (TMK m. 735/2)."
+  },
+  {
+   "front_md": "Alım ve geri alım sözleşmelerinin şekli?",
+   "back_md": "Resmî şekil; yoksa geçerli olmaz (TBK m. 237/2). Şerhle her malike karşı kullanılır; şerhin etkisi on yılda biter (TMK m. 736)."
+  },
+  {
+   "front_md": "Sözleşmeden doğan önalım devredilebilir mi?",
+   "back_md": "Aksine anlaşma yoksa devredilemez, ama miras yoluyla geçer (TBK m. 239/1)."
+  },
+  {
+   "front_md": "Sözleşmeden doğan önalımda dava kime açılır? (TBK m. 242)",
+   "back_md": "Hak şerhli ve mülkiyet alıcı adına tescilliyse alıcıya, aksi hâlde satıcıya. Bildirimden üç ay içinde dava açılır."
+  },
+  {
+   "front_md": "Şerhin kişisel hakka etkisi?",
+   "back_md": "Hakkı ayni hak yapmaz; sonradan hak kazananlara karşı ileri sürülebilir kılar (TMK m. 1009/2)."
+  },
+  {
+   "front_md": "Sözleşmeden doğan önalım ile yasal önalım farkı?",
+   "back_md": "Kaynak (sözleşme/kanun), şekil (yazılı/aranmaz), şerh (gerekli/gerekmez), konu (satış ve eşdeğer işlem/yalnız satış), davalı (alıcı ya da satıcı/alıcı)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
