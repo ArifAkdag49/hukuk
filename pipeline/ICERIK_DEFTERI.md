@@ -49,7 +49,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 
 | # | slug | durum | not |
 |---|---|---|---|
-| 1 | esya-hukukuna-giris-ve-ilkeler | yazılıyor | |
+| 1 | esya-hukukuna-giris-ve-ilkeler | denetimde | ajan yazdı (kontrol temiz) |
 | 2 | zilyetlik-kavrami-turleri-ve-devri | yazılıyor | |
 | 3 | zilyetligin-korunmasi-ve-hak-karineleri | yazılıyor | |
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
@@ -61,7 +61,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 10 | payli-mulkiyet | yazılıyor | |
 | 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | yazılıyor | |
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | yazılıyor | |
-| 13 | kazandirici-zamanasimi-isgal-yeni-arazi | bekliyor | |
+| 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yazılıyor | |
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | bekliyor | |
 | 15 | yapi-hukuku-ve-taskin-yapi | bekliyor | |
 | 16 | yasal-onalim-alim-ve-geri-alim | bekliyor | |
