@@ -74,7 +74,7 @@ def test_paragraph_item_notation_is_not_read_as_a_second_article():
 
 
 def test_single_letter_after_slash_is_kept_for_lettered_articles():
-    assert elle.refs_in("TCK m. 123/A, İİK m. 68/a ve m. 56/I", "TCK") == {
+    assert elle.refs_in("TCK m. 123/A, İİK m. 68/a; ayrıca m. 56/I", "TCK") == {
         ("TCK", "123", "A"), ("İİK", "68", "a"), ("TCK", "56", "I")}
 
 
@@ -200,3 +200,14 @@ def test_topic_map_numbers_topics_across_units_and_lists_articles():
         "- Ünite 2: Tarih\n"
         "  2. Konu B (`b`; müfredatta madde yok)"
     )
+
+
+def test_bare_article_right_after_another_law_reference_belongs_to_that_law():
+    assert elle.refs_in("İİK m. 195, m. 200 ve m. 201 uyarınca", "TBK") == {
+        ("İİK", "195", None), ("İİK", "200", None), ("İİK", "201", None)}
+    assert elle.refs_in("HMK m. 141 ve m. 132", "TBK") == {("HMK", "141", None), ("HMK", "132", None)}
+
+
+def test_bare_article_later_in_the_sentence_still_belongs_to_the_primary_law():
+    assert elle.refs_in("İİK m. 89'a göre ihbar yapılır; alacak ise m. 183'e göre devredilir.", "TBK") == {
+        ("İİK", "89", None), ("TBK", "183", None)}

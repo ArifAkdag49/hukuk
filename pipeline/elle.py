@@ -62,19 +62,34 @@ def _harf(sub: str | None) -> str | None:
     return sub if sub and len(sub) == 1 and sub.isalpha() else None
 
 
+_BAGLAC_RE = re.compile(r"\s*(?:,|;|ve|veya|ile|ya da|-|–)?\s*")
+
+
 def refs_in(text: str, primary: str | None) -> set[tuple[str, str, str | None]]:
-    """Metindeki (kanun, madde, tek harf) atıfları; çıplak 'm. N' konunun ana kanununa sayılır.
+    """Metindeki (kanun, madde, tek harf) atıfları. Çıplak 'm. N', hemen önündeki atıfa yalnız bir bağlaçla
+    ("İİK m. 195, m. 200 ve m. 201") bağlıysa o kanuna, değilse konunun ana kanununa sayılır.
     Üçüncü öğe eğik çizgiden sonraki tek harftir (ek madde ya da Romen fıkra), yoksa None."""
+    text = text or ""
     found: set[tuple[str, str, str | None]] = set()
-    spans = []
-    for m in REF_RE.finditer(text or ""):
-        spans.append(m.span())
+    olaylar = [(m.start(), m.end(), canon(m.group(1)), m) for m in REF_RE.finditer(text)]
+    spans = [(a, b) for a, b, _, _ in olaylar]
+    for _, _, kanun, m in olaylar:
         for num, sub in ITEM_RE.findall(m.group(2)):
-            found.add((canon(m.group(1)), num, _harf(sub)))
-    if primary:
-        for m in BARE_RE.finditer(text or ""):
-            if not any(a <= m.start() < b for a, b in spans):
-                found.add((primary, m.group(1), _harf(m.group(2))))
+            found.add((kanun, num, _harf(sub)))
+    ciplak = [(m.start(), m.end(), None, m) for m in BARE_RE.finditer(text)
+              if not any(a <= m.start() < b for a, b in spans)]
+    son_kanun, son_bitis = None, -1
+    for a, b, kanun, m in sorted(olaylar + ciplak, key=lambda x: x[0]):
+        if kanun is not None:
+            son_kanun, son_bitis = kanun, b
+            continue
+        if son_kanun and _BAGLAC_RE.fullmatch(text[son_bitis:a]):
+            hedef = son_kanun
+        else:
+            hedef = primary
+        if hedef:
+            found.add((hedef, m.group(1), _harf(m.group(2))))
+            son_kanun, son_bitis = hedef, b
     return found
 
 
