@@ -68,7 +68,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (soru 3 ikinci doğruya yakın şık, TMK m. 745/2 sınırı, doktrinde kalan yazar talimatı); 📌 HUAK m. 18/B; yüklenmedi |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | yazar durduruldu (buluta devir), taslak yok |
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
-| 20 | tasinmaz-irtifaki | bekliyor | |
+| 20 | tasinmaz-irtifaki | bitti | bulutta araştırma-yazma-denetim; denetçi 7 küçük düzeltme (karar 3 özetinde olaya özgü sonucun genellenmesi, "İBK yoktur" → bulunamadı); yüklenmedi |
 | 21 | intifa-ve-oturma-hakki | bekliyor | |
 | 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bekliyor | |
 | 23 | tasinmaz-rehni-genel-hukumler | bekliyor | |
