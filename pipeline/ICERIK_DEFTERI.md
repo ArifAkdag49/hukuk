@@ -55,7 +55,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | bitti | ajan yazdı; denetçi hile-irade dışı çıkış genellemesini düzeltti; yerelde yüklendi |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
 | 6 | tescil-serh-ve-beyan | bitti | ajan yazdı; denetçi soru 12 tarihini (TMK m. 895/2) ve 3 küçük noktayı düzeltti; yerelde yüklendi |
-| 7 | tapuya-guven-ve-yolsuz-tescil | yazılıyor | |
+| 7 | tapuya-guven-ve-yolsuz-tescil | bitti | ajan yazdı; denetçisiz; 1974 İBK künyesi araçla okunan HGK metinlerinden; yerelde yüklendi |
 | 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
 | 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bitti | ajan yazdı; denetçi bozuk soru 6'yı ve 3 belirsiz noktayı düzeltti; yerelde yüklendi |
 | 10 | payli-mulkiyet | yazılıyor | |

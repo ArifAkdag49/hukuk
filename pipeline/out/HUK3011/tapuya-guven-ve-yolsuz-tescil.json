@@ -1,0 +1,829 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 2,
+ "unit_title": "Ünite 2: Tapu Sicili",
+ "topic_index": 3,
+ "slug": "tapuya-guven-ve-yolsuz-tescil",
+ "title": "Tapu Siciline Güven İlkesi, Yolsuz Tescil ve Tapu İptali ve Tescil Davası",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T22:18:27.444828+00:00",
+ "skill_refs": [
+  "esya-hukuku/tapu-sicili-ve-iptal-tescil"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Tapu kaydı gerçek hak durumunu yansıtmıyorsa kim korunur: gerçek hak sahibi mi, kayda güvenip hak kazanan üçüncü kişi mi? Gerçek hak sahibi kaydı nasıl düzelttirir?\n\n- **Sicilin gücü:** Ayni haklar tescille doğar ve sıralarını tescile göre alır (TMK m. 1022). Resmî sicil doğruluk karinesi taşır (TMK m. 7). Kimse sicildeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3).\n- **Yolsuz tescil (TMK m. 1024/2):** Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil yolsuzdur. Yolsuz kayıt, lehine kayıt yapılan kişiye hak kazandırmaz.\n- **Güven ilkesi (TMK m. 1023):** Tapudaki tescile iyiniyetle dayanarak mülkiyet ya da başka bir ayni hak kazanan üçüncü kişinin kazanımı korunur.\n- **İyiniyetsiz üçüncü kişi (TMK m. 1024/1 ve TMK m. 1024/3):** Yolsuzluğu bilen ya da bilmesi gereken üçüncü kişi tescile dayanamaz. Hakkı zedelenen kişi yolsuzluğu ona karşı doğrudan doğruya ileri sürer.\n- **İyiniyet ve ispat:** İyiniyet asıldır, özen göstermeyen iyiniyet iddia edemez (TMK m. 3). Kötüniyeti iddia eden ispatlar. Kısa aralıklarla el değiştirme ya da çok düşük bedel gibi fiilî karinelerden yararlanılır.\n- **İlk el korunmaz:** Yolsuz işlemin tarafı (sahte vekâletnameyle alan, ehliyetsiz satıcıdan alan, muvazaalı işlemin tarafı) sicile değil işleme güvenmiştir. TMK m. 1023'ten yararlanamaz.\n- **Tapu iptali ve tescil davası (TMK m. 1025):** Ayni hakkı zedelenen kişi sicilin düzeltilmesini dava eder. İyiniyetli üçüncü kişinin hakları ve her türlü tazminat istemi saklıdır.\n  - Davalı: kural olarak son kayıt maliki.\n  - Mahkeme: asliye hukuk (HMK m. 2), taşınmazın bulunduğu yer kesin yetkili (HMK m. 12).\n  - Süre: Yargıtay'a göre zamanaşımı ya da hak düşürücü süre yoktur. Sınırlar: TMK m. 712 (10 yıl iyiniyetli zilyetlik), 3402 sayılı Kanun m. 12 (kadastroda 10 yıl).\n- **Tipik iptal sebepleri:**\n  - *Muris muvazaası:* Görünüşte satış, gerçekte mirasçılardan mal kaçırmak için bağış (1974 tarihli İBK).\n  - *Ehliyetsizlik:* TMK m. 15.\n  - *Sahtecilik.*\n  - *Vekâletin kötüye kullanılması:* TBK m. 506 ve TMK m. 2.\n- **Dava sırasında:** İhtiyati tedbir istenip tapuya şerh ettirilir (HMK m. 389, TMK m. 1010). Dava konusu devredilirse davacı devralana karşı devam eder ya da tazminata döner (HMK m. 125).\n- **Terkin (TMK m. 1026):** Sona eren ayni hakkın terkinini yüklü taşınmazın maliki ister. Terkine karşı dava tebliğden itibaren 30 gün içinde açılır.\n- **Düzeltme (TMK m. 1027):** Yazılı rıza yoksa yanlışlık ancak mahkeme kararıyla düzeltilir. Basit yazı yanlışlıkları re'sen düzeltilir.\n- 📌 2025 tarihli İBK: Arsa payı karşılığı inşaatta yükleniciden iyiniyetle hak kazanan üçüncü kişiler TMK m. 1023 ile korunur.",
+  "content_md": "## 0. Konunun haritası\n\nTapu sicili taşınmazın kimlik kartıdır, ama yanlış olabilir: sahte vekâletnameyle satış, ayırt etme gücü olmayan birinin imzası, mal kaçırmak için gösterilmiş bir \"satış\". Bu konuda **gerçek hak sahibi** ile **kayda güvenen üçüncü kişinin** çatışmasını çözüyoruz.\n\n| Soru | Kural | Madde |\n|---|---|---|\n| Tescil ne zaman yolsuz? | Bağlayıcı olmayan işlem ya da sebep yokluğu | TMK m. 1024 |\n| Kayda güvenen iyiniyetli kişi? | Kazanımı korunur | TMK m. 1023 |\n| Bilen ya da bilmesi gereken kişi? | Tescile dayanamaz | TMK m. 1024 |\n| Gerçek hak sahibi ne yapar? | Sicilin düzeltilmesini dava eder | TMK m. 1025 |\n| Ayni hak sona erdiyse? | Terkin | TMK m. 1026 |\n| Kayıtta yanlışlık varsa? | Rıza ya da mahkeme kararıyla düzeltme | TMK m. 1027 |\n\n> 💡 **Püf nokta:** Olayda üç soruyu sırayla sor. (1) İlk tescil yolsuz mu? (2) Taşınmaz el değiştirdi mi; değiştirdiyse son malik gerçekten \"üçüncü kişi\" mi ve iyiniyetli mi? (3) Kayıt geri alınamıyorsa kim, kimden tazminat ister?\n\n## 1. Sicilin gücü ve güven ilkesi\n\n- Ayni haklar kütüğe **tescil ile doğar**, sıralarını ve tarihlerini tescile göre alır (TMK m. 1022/1). Tescilin etkisi yevmiye defterine kayıt tarihinden başlar (TMK m. 1022/2).\n- Resmî siciller belgeledikleri olguların doğruluğuna kanıt oluşturur. Aksinin ispatı kural olarak bir şekle bağlı değildir (TMK m. 7).\n- Tapu sicili herkese açıktır ve **kimse sicildeki bir kaydı bilmediğini ileri süremez** (TMK m. 1020/1 ve TMK m. 1020/3).\n\nTescil **sebebe bağlıdır** (illilik ilkesi). Satış, bağış, miras ya da mahkeme kararı gibi geçerli bir hukuki sebebe dayanmayan tescil, gerçek hak durumunu değiştirmez. Kayıt yalnız görünüşte bir hak sahibi gösterir.\n\nBu görünüşe güvenen kişiyi **tapu siciline güven ilkesi** korur: yolsuz bir kayda iyiniyetle güvenerek ayni hak kazanan üçüncü kişinin kazanımı geçerlidir. Bedelini gerçek hak sahibi öder ve zararını yolsuzluğa sebep olandan ya da şartları varsa Devletten (TMK m. 1007) ister. Devletin sorumluluğunun ayrıntısı ayrı konuda.\n\n> ⚠️ **Sınavda dikkat:** Güven ilkesi yolsuz kaydı \"doğru\" hâle getirmez. Yolsuz kaydın lehtarı bu kayıtla hak kazanmaz (on yıllık olağan kazandırıcı zamanaşımı ayrık, bkz. 5.4). Korunan, ona güvenerek hak kazanan **iyiniyetli üçüncü kişidir**.\n\n## 2. Yolsuz tescil (TMK m. 1024/2)\n\nKanuna göre **bağlayıcı olmayan bir hukuki işleme dayanan** ya da **hukuki sebepten yoksun bulunan** tescil yolsuzdur. Kısacası kayıt gerçek hak durumuna uymuyorsa yolsuzdur. Yolsuzluk başlangıçta bulunabileceği gibi sonradan da doğabilir:\n- **Baştan yolsuzluk:** ayırt etme gücü bulunmayan kişinin satışı (TMK m. 15), sahte vekâletname ya da sahte kimlikle yapılan devir, taşınmazı satma yetkisi olmayan temsilcinin satışı, resmî şekle uyulmadan yapılan devir (TMK m. 706, TBK m. 237), muvazaalı (görünüşteki) satış (TBK m. 19).\n- **Sonradan yolsuzluk:** tescilin dayanağı olan işlem sonradan ortadan kalkar. Örneğin belediyenin ihaleyle yaptığı satışa dayanak meclis kararı idari yargıda iptal edilmiştir.\n- Yalnız tescil değil, **terkin ve değişiklik** de yolsuz olabilir (TMK m. 1025/1). Geçersiz bir istemle silinen irtifak hakkı buna örnektir.\n\nTapu memuru tasarruf yetkisinin ve hukuki sebebin belgelenmesini arar (TMK m. 1015/1), ama sahte bir kimliği ya da ayırt etme gücü yokluğunu her zaman fark edemez.\n\n> ⚠️ **Sınavda dikkat:** Yanılma, aldatma ve korkutmada sözleşme baştan hükümsüz değil, **iptal edilebilir**dir. Taraf bir yıl içinde sözleşmeyle bağlı olmadığını bildirmez ya da verdiğini geri istemezse sözleşmeyi onamış sayılır (TBK m. 39/1). O zaman tescil yolsuz hâle gelmez. Ehliyetsizlik ve sahtecilikte ise böyle bir süre yoktur.\n\n## 3. İyiniyetli üçüncü kişinin korunması (TMK m. 1023)\n\n### 3.1 Şartlar\n1. **Yolsuz bir tescil** bulunmalıdır.\n2. Üçüncü kişi bu tescile **dayanarak**, yani kütükte hak sahibi görünen kişiden hukuki işlemle hak kazanmalıdır.\n3. Kazanılan hak **mülkiyet ya da başka bir ayni hak** olmalıdır: ipotek, irtifak gibi. Kazanım tescille tamamlanmış olmalıdır. Henüz tescil edilmemiş bir satış vaadi yalnız kişisel hak verir, TMK m. 1023 bunu korumaz.\n4. Üçüncü kişi **iyiniyetli** olmalıdır (TMK m. 3).\n5. Kişi gerçekten **üçüncü kişi** olmalıdır. Yolsuz işlemin tarafı (\"ilk el\") korunmaz. Mirasçı da mirasbırakanın yerine geçtiği için onun durumundadır, kayda güvenerek hak kazanmış sayılmaz.\n\n> **Örnek:** Ali'nin tarlası sahte vekâletnameyle Burak'a satılır. Burak tarlayı altı ay sonra, kendisiyle hiçbir ilişkisi olmayan Cemile'ye piyasa değerinden satar. Cemile tapu kaydını incelemiş, tarlayı yerinde görmüştür ve kayıtta şerh yoktur. Cemile TMK m. 1023 ile korunur, Ali onun kaydını iptal ettiremez. Tarla hâlâ Burak'ta olsaydı ilk el olan Burak korunmaz, kayıt iptal edilirdi.\n\n### 3.2 İyiniyetin ölçüsü ve ispatı\n- **İyiniyet**, tescilin yolsuz olduğunu bilmemek ve durumun gerektirdiği özeni gösterse bile bilememektir.\n- **Karine:** Kanunun iyiniyete sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır (TMK m. 3/1). TMK m. 1023 böyle bir durumdur. Bu yüzden üçüncü kişinin kötüniyetli olduğunu **iddia eden ispatlar.**\n- **Özen sınırı:** Durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz (TMK m. 3/2). Yolsuzluğu **bilen veya bilmesi gereken** üçüncü kişi tescile dayanamaz (TMK m. 1024/1).\n- **Fiilî karineler:** Kötüniyeti ispat etmek zordur. Yargıtay şu olguları kötüniyetin göstergesi sayar:\n  - taşınmazın kısa aralıklarla el değiştirmesi,\n  - rayiç değerin çok altında bir bedel,\n  - taraflar arasında akrabalık, ortaklık ya da aynı emlakçı veya vekil zinciri,\n  - taşınmazı görmeden ve zilyedine sormadan almak,\n  - uyuşmazlığın yörede biliniyor olması (ör. yerel basında yer alması).\n- **Bedel ödemek yetmez:** Bedel ödendiğini kanıtlamak tek başına iyiniyeti göstermez. Belirleyici olan, alıcının durumu bilip bilmediği ya da gerekli özeni gösterse bilip bilemeyeceğidir.\n- **Kötüniyet iddiası itirazdır:** Yargıtay'ın 1951 ve 1991 tarihli İçtihadı Birleştirme Kararlarına göre hâkim kötüniyeti kendiliğinden gözetir. Bu iddia, iddianın genişletilmesi yasağına takılmadan yargılama sonuna kadar ileri sürülebilir.\n- **Hangi an?** Yargıtay'a göre iyiniyet, tescil isteminin yevmiye defterine kaydedildiği anda bulunmalıdır. Sonradan öğrenmek kazanımı etkilemez.\n\n> ⚠️ **Sınavda dikkat:** \"Tapuya baktı, kayıt temizdi, demek iyiniyetli\" demek yetmez. Yarı fiyatına ve görmeden yapılan bir alım hayatın olağan akışına aykırıdır, iyiniyeti çürütebilir.\n\n### 3.3 İlk el korunmaz\nTMK m. 1023 **sicildeki kayda** güveneni korur. Yolsuz tescilin bizzat lehtarı ise işlemin dayanağına güvenmiştir: sahte vekâletnameye, ehliyetsiz satıcının imzasına, muvazaalı sözleşmeye. Sicil o işlemden önce doğruydu, yolsuzluk onun adına yapılan kayıtla doğdu. Yargıtay'ın yerleşik uygulamasına göre bu kişinin iyiniyeti araştırılmaz.\n\n> **Örnek:** Yurt dışında yaşayan Murat adına sahte imzalı bir vekâletname düzenlenir ve dairesi Okan'a 100.000 USD'ye satılır. Okan bedeli ödemiştir ve sahtecilikten habersizdir. Yine de ilk el olduğu için TMK m. 1023'ten yararlanamaz, kayıt iptal edilir. Okan ödediğini sahtecilik faillerinden ister.\n\n### 3.4 Şerhin gücü\nÇekişmeli hakların korunmasına ilişkin mahkeme kararları tapuya şerh edilebilir. Şerh edilen kısıtlama, sonradan hak kazananlara karşı ileri sürülür (TMK m. 1010/1 ve TMK m. 1010/2). Kimse sicildeki kaydı bilmediğini söyleyemeyeceği için (TMK m. 1020/3) şerhten sonra hak kazanan iyiniyet iddia edemez. Bu yüzden tapu iptali davası açan kişi, ihtiyati tedbir (HMK m. 389/1) isteyip kararı tapuya şerh ettirmelidir.\n\n> **Örnek:** Ayırt etme gücü bulunmayan bir kişinin dairesi bir şirkete satılır, şirket daireyi hemen bankaya ipotek eder. Satışın iptali davasında ihtiyati tedbir tapuya işlenir, şirketin alacaklıları bundan sonra haciz koydurur. Hukuk Genel Kurulu 2026'da tedbirden önce kurulan ipoteği TMK m. 1023 ile korumuş, tedbir şerhinden sonraki hacizlerin terkinini ise yerinde bulmuştur.\n\n### 3.5 📌 2025 tarihli İçtihadı Birleştirme Kararı\nArsa payı karşılığı inşaatta arsa payları çoğu zaman inşaat bitmeden yükleniciye devredilir. Yargıtay'ın ilgili dairesi uzun süre, sözleşme geriye etkili feshedilince bu \"avans\" niteliğindeki devirlerin dayanağının kalmadığını kabul ediyor ve yükleniciden pay ya da bağımsız bölüm alan veya lehine ipotek kurulan üçüncü kişilerin iyiniyet savunmasını dinlemiyordu.\n\nYargıtay İçtihatları Birleştirme Büyük Genel Kurulu, 16.05.2025 tarihli ve 2024/1 E., 2025/2 K. sayılı kararıyla bu içtihattan dönülmesini kabul etti. Artık üçüncü kişilerin iyiniyet iddiası dinlenir, iyiniyetli olanların kazanımı TMK m. 1023 gereği korunur. Kötüniyeti arsa sahibi ispatlar. Sözleşmenin kendisi borçlar özel hukukunda işlenir.\n\n## 4. İyiniyetli olmayan üçüncü kişi (TMK m. 1024)\n\n- Bir ayni hak yolsuz olarak tescil edilmişse, bunu **bilen veya bilmesi gereken** üçüncü kişi bu tescile dayanamaz (TMK m. 1024/1).\n- Ayni hakkı zedelenen kişi, yolsuzluğu iyiniyetli olmayan üçüncü kişilere karşı **doğrudan doğruya** ileri sürebilir (TMK m. 1024/3). Önce aradaki malikleri tek tek dava etmesi gerekmez, son malikin kaydının iptalini ister.\n\n| Kayıt maliki | Durumu | Sonuç |\n|---|---|---|\n| İlk el (yolsuz işlemin tarafı) | İyiniyeti araştırılmaz | Kayıt iptal edilir |\n| Sonraki el, iyiniyetli | TMK m. 1023 | Kazanım korunur, tazminat yolu açık |\n| Sonraki el, iyiniyetsiz | TMK m. 1024 | Kayıt iptal edilir |\n\n## 5. Tapu iptali ve tescil davası (TMK m. 1025)\n\n### 5.1 Niteliği\nBir ayni hak yolsuz olarak tescil edilmiş, terkin olunmuş ya da değiştirilmişse, bu yüzden ayni hakkı zedelenen kimse **tapu sicilinin düzeltilmesini** dava edebilir (TMK m. 1025/1). Uygulamada adı **tapu iptali ve tescil davasıdır.** Davacı mülkiyetini hiç kaybetmemiştir, dava sicili gerçek hak durumuna uydurur. İyiniyetli üçüncü kişilerin bu tescile dayanarak kazandıkları ayni haklar ve her türlü tazminat istemi saklıdır (TMK m. 1025/2).\n\n### 5.2 Davacı ve davalı\n- **Davacı:** Ayni hakkı zedelenen kişi. Gerçek malik, yolsuz olarak terkin edilen irtifak ya da ipotek hakkının sahibi, mirasbırakanın hakkını sürdüren mirasçılar ve muris muvazaasında miras hakkı çiğnenen mirasçılar.\n- **Kişisel hak sahibi bu davayı açamaz.** Malikten tescil isteme hakkı olan kişi, örneğin resmî satış vaadi alıcısı, tescile zorlama davası açar (TMK m. 716/1). Ayrıntısı ayrı konuda.\n- **Davalı:** Kural olarak yolsuz kaydın hâlen lehine bulunduğu kişi, yani son kayıt maliki. Önceki malikler de kötüniyet zincirinin ve tazminatın tartışılması için davalı gösterilebilir.\n\n| | Tapu iptali ve tescil | Tescile zorlama |\n|---|---|---|\n| Dayanak | TMK m. 1025 | TMK m. 716 |\n| Davacının hakkı | Zedelenmiş ayni hak | Kişisel tescil isteme hakkı |\n| Sorun | Kayıt yolsuz | Kayıt doğru, malik devretmiyor |\n\n### 5.3 Görev ve yetki\n- Görevli mahkeme **asliye hukuk mahkemesidir** (HMK m. 2/1).\n- Taşınmaz üzerindeki ayni hakka ilişkin ya da ayni hak sahipliğinde değişikliğe yol açabilecek davalarda **taşınmazın bulunduğu yer mahkemesi kesin yetkilidir** (HMK m. 12/1). Taraflar başka bir yer kararlaştıramaz.\n\n### 5.4 Süre\nYargıtay'ın yerleşik uygulamasına göre yolsuz tescile dayanan tapu iptali ve tescil davası, mülkiyet hakkına dayandığı için **zamanaşımına ya da hak düşürücü süreye tabi değildir.** Sahtecilik, ehliyetsizlik, muris muvazaası ve vekâletin kötüye kullanılması davaları da bu yüzden her zaman açılabilir. Bilinmesi gereken sınırlar:\n- **Olağan kazandırıcı zamanaşımı:** Geçerli bir hukuki sebep olmaksızın tapu kütüğüne malik olarak yazılan kişi, zilyetliğini **davasız, aralıksız ve iyiniyetle on yıl** sürdürürse mülkiyetine itiraz edilemez (TMK m. 712). Ayrıntısı ayrı konuda.\n- **Kadastro:** Kadastro tutanaklarının kesinleştiği tarihten itibaren on yıl geçtikten sonra, kadastrodan önceki hukuki sebeplere dayanarak itiraz edilemez ve dava açılamaz (3402 sayılı Kanun m. 12/3).\n- **İptal edilebilir işlemler:** Yanılma, aldatma ve korkutmada bir yıllık süre (TBK m. 39/1).\n- **Hakkın açıkça kötüye kullanılması (TMK m. 2/2):** Yargıtay bir kararında, taşınmazın cebri satışından haberdar olup satıştan artan bedeli de alan kişinin yıllar sonra açtığı davanın bu gerekçeyle reddedilmesi gerektiğini oy çokluğuyla kabul etmiştir. Bu istisna dar uygulanır.\n\n### 5.5 Dava sırasında devir\n- Davalı, davanın açılmasından sonra dava konusunu üçüncü kişiye devrederse davacı iki yoldan birini seçer (HMK m. 125/1):\n  - devralana karşı davaya devam eder (dava davacı lehine sonuçlanırsa devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur), ya da\n  - davasını devreden hakkında **tazminat davasına** dönüştürür.\n- Kayıtta şerh yoksa devralan TMK m. 1023'e dayanabilir, şerh varsa dayanamaz.\n\n### 5.6 Kayıt geri alınamıyorsa: tazminat\nİyiniyetli üçüncü kişi korunduysa gerçek hak sahibi tazminata yönelir (TMK m. 1025/2):\n- yolsuzluğa sebep olana karşı, örneğin sahtecilik failine haksız fiil hükümlerine göre (TBK m. 49/1),\n- görevini kötüye kullanan vekile karşı (TBK m. 506/2),\n- muvazaalı işlemin tarafına karşı,\n- şartları varsa tapu sicilinin tutulmasından doğan zarar için Devlete karşı (TMK m. 1007).\n\n## 6. Uygulamada tipik iptal sebepleri\n\n### 6.1 Muris muvazaası\n**Muris muvazaası**, mirasbırakanın mirasçılarından mal kaçırmak amacıyla, gerçekte bağışlamak istediği tapulu taşınmazını tapu memuru önünde satış ya da ölünceye kadar bakma sözleşmesi gibi göstermesidir. Kanunda ayrıca düzenlenmemiştir. Esas kaynağı **1.4.1974 tarihli ve 1/2 sayılı (1974/1 E., 1974/2 K.) İçtihadı Birleştirme Kararıdır.**\n- **Neden geçersiz?** Görünüşteki satış tarafların gerçek iradesine uymadığı için muvazaalıdır (TBK m. 19/1). Gizlenen bağış ise taşınmaz bağışlama sözü için gereken resmî şekle uyulmadan yapıldığından geçersizdir (TBK m. 288/2, TMK m. 706/1). İki işlem de hüküm doğurmaz, tescil yolsuzdur.\n- **Kim açar?** Saklı payı olsun olmasın, miras hakkı çiğnenen her yasal mirasçı. Kardeşlerin saklı payı yoktur (TMK m. 506'nın 3. bendi 2007'de yürürlükten kaldırıldı), ama kardeş de bu davayı açabilir. Her mirasçı **tek başına** ve kendi **miras payı oranında** iptal ve tescil isteyebilir. Dava mirasın açılmasından sonra açılır.\n- **Süre:** Yoktur.\n- **Asıl şart:** Mal kaçırma amacı. Bu amaç yoksa İBK uygulanmaz. Örneğin mirasbırakan gerçekten borcunu ödemek için satmışsa.\n- **İspat:** Yük davacıdadır. Mirasçılar sözleşmenin dışında kaldıkları için **tanık dahil her türlü delille** ispat edebilir. Yargıtay şu olgulara bakar:\n  - yörenin gelenekleri ve olayların olağan akışı,\n  - mirasbırakanın satış için haklı ve makul bir nedeni olup olmadığı,\n  - alıcının alım gücü,\n  - gösterilen bedel ile gerçek değer arasındaki fark,\n  - mirasbırakanın taraflarla ilişkisi.\n- **Bedel farkı tek başına yetmez,** ama diğer olgularla birlikte güçlü bir göstergedir.\n\n> **Örnek:** Dul Hüseyin, üç çocuğundan yalnız oğlu Ahmet'e dairesini değerinin onda birine \"satar\". Yeterli geliri vardır, satmaya ihtiyacı yoktur, kızlarıyla arası soğuktur. Ölümünden sonra kızı Ayşe tek başına dava açıp tapunun 1/3 oranında iptalini ve adına tescilini isteyebilir. Daire önceden iyiniyetli bir alıcıya satılmışsa alıcı korunur, Ayşe Ahmet'ten tazminat ister.\n\n| | Muris muvazaası | Tenkis |\n|---|---|---|\n| İşlemin durumu | Geçersiz (muvazaalı) | Geçerli, saklı payı aşıyor |\n| Kim açar? | Miras hakkı çiğnenen her mirasçı | Saklı pay sahipleri (TMK m. 560) |\n| Süre | Yok | 1 yıl / 10 yıl (TMK m. 571) |\n\n### 6.2 Ehliyetsizlik\n- Ayırt etme gücü bulunmayan kimsenin fiilleri hukuki sonuç doğurmaz (TMK m. 15). Bu kişinin yaptığı satış da verdiği vekâletname de geçersizdir, tescil yolsuzdur.\n- İşlem tarihinde ayırt etme gücünün bulunup bulunmadığı tıbbi belgeler ve uzman (genellikle Adli Tıp Kurumu) raporuyla belirlenir.\n- Ehliyetsiz kişiyle doğrudan işlem yapan ilk el, iyiniyetli olsa da korunmaz.\n- Sonraki elin durumu tartışmalıdır. Hukuk Genel Kurulu çoğunluğu iyiniyetli sonraki eli TMK m. 1023 ile korur (bkz. doktrin).\n\n### 6.3 Sahtecilik\nSahte vekâletname, kimlik ya da imzayla yapılan devir malikin iradesine dayanmaz, yok hükmündedir. Sahtecilik hukuk mahkemesinde de, örneğin imza incelemesiyle ispatlanabilir. İlk el korunmaz, sonraki iyiniyetli el TMK m. 1023 ile korunur.\n\n### 6.4 Vekâletin kötüye kullanılması\n- **Yetki şartı:** Vekil, özel olarak yetkili kılınmadıkça taşınmazı devredemez ve bir hakla sınırlandıramaz (TBK m. 504/3). Vekâletnamede bu yetki hiç yoksa yapılan satış yetkisiz temsildir ve vekâlet veren onaylamadıkça onu bağlamaz (TBK m. 46/1). Tescil yolsuzdur, ilk el korunmaz.\n- **Yetki var ama kötüye kullanılmış:** Vekil, işi vekâlet verenin haklı menfaatlerini gözeterek sadakat ve özenle yürütmek zorundadır (TBK m. 506/2). Yargıtay'ın yerleşik uygulamasına göre:\n  - Karşı taraf iyiniyetliyse, yani kötüye kullanmayı bilmiyor ve özen gösterse de bilemiyorsa, sözleşme geçerlidir ve vekâlet vereni bağlar. Sorun vekille vekâlet veren arasında kalır.\n  - Karşı taraf vekille **çıkar ve işbirliği** içindeyse ya da kötüye kullanmayı **biliyor veya bilmesi gerekiyorsa**, vekâlet veren sözleşmeyle bağlı sayılmaz (TMK m. 2). Hâkim bunu kendiliğinden gözetir.\n- **Tipik göstergeler:** Değerinin çok altında satış, bedelin vekâlet verene ulaşmaması, alıcının vekilin yakını ya da ortağı olması.\n- Sonraki el için yine TMK m. 1023 ve TMK m. 1024 uygulanır.\n\n| Durum | İlk el korunur mu? | Dayanak |\n|---|---|---|\n| Sahte vekâletname | Hayır | Yok hükmünde işlem |\n| Satış yetkisi yok | Hayır (onay yoksa) | TBK m. 504, TBK m. 46 |\n| Yetki kötüye kullanılmış | İyiniyetliyse evet | TBK m. 506, TMK m. 2 |\n\n### 6.5 Hukuki sebebi baştan göster\nEhliyetsizlik, muvazaa ve vekâletin kötüye kullanılması **ayrı vakıalara** dayanır. Dilekçeler karşılıklı verildikten sonra iddia genişletilemez ve değiştirilemez, ıslah ve karşı tarafın açık muvafakati saklıdır (HMK m. 141). Bu yüzden davacı hepsine dayanacaksa dilekçede açıkça ve **kademeli** olarak (biri olmazsa diğeri) ileri sürmelidir. Hukuk Genel Kurulu 2023'te, yalnız ehliyetsizliğe dayanılan bir davada vekâletin kötüye kullanıldığı iddiasının istinaf ve temyizde ilk kez ileri sürülmesini oy çokluğuyla iddianın genişletilmesi saymıştır.\n\n> ⚠️ **Sınavda dikkat:** Davacının **yeni bir iptal sebebi** eklemesi iddianın genişletilmesidir. **Davalının kötüniyetli olduğu iddiası** ise itiraz niteliğindedir ve her zaman ileri sürülebilir. İkisini karıştırma.\n\n## 7. Ayni hakkın sona ermesi ve terkin (TMK m. 1026)\n- Bir ayni hakkın sona ermesiyle tescil her türlü hukuki değerini kaybetmişse, **yüklü taşınmazın maliki** terkini isteyebilir (TMK m. 1026/1). Örnek: intifa hakkı, gerçek kişilerde hak sahibinin ölümüyle sona erer (TMK m. 797/1). Malik ölüm belgesiyle terkini ister.\n- Tapu memuru istemi yerine getirirse, her ilgili bu işlemin **kendisine tebliğinden itibaren otuz gün** içinde terkine karşı dava açabilir (TMK m. 1026/2).\n- Tapu memuru, re'sen hâkime başvurarak ayni hakkın sona erdiğinin belirlenmesini isteyebilir ve bu karara dayanarak terkin eder (TMK m. 1026/3).\n\n> ⚠️ **Sınavda dikkat:** Otuz günlük süre yalnız **terkine karşı dava** içindir. Yolsuz tescile dayanan tapu iptali ve tescil davası süreye bağlı değildir.\n\n## 8. Sicildeki yanlışlıkların düzeltilmesi (TMK m. 1027)\n- İlgililerin **yazılı rızası** olmadıkça tapu memuru sicildeki yanlışlığı **ancak mahkeme kararıyla** düzeltebilir (TMK m. 1027/1).\n- Düzeltme, eski tescilin terkini ve yeni bir tescil yapılması biçiminde de olabilir (TMK m. 1027/2).\n- **Basit yazı yanlışlıklarını** tapu memuru, Cumhurbaşkanınca çıkarılan yönetmelik uyarınca **re'sen** düzeltir (TMK m. 1027/3).\n\n**Fark:** TMK m. 1027 kaydın belgeye aykırı yazıldığı **teknik yanlışlıkları** düzeltir. TMK m. 1025 ise kayıt belgeye uygun olsa bile dayandığı işlem geçersiz olduğunda devreye girer.\n\n> **Örnek:** Malikin baba adı \"Mehmet\" yerine \"Mehmed\" yazılmışsa bu basit yazı yanlışlığıdır, re'sen düzeltilir. Resmî senette 1/2 pay devredildiği hâlde kütüğe 1/4 yazılmışsa ilgililerin yazılı rızası ya da mahkeme kararı gerekir.\n\n## 9. Olay çözerken denetim şeması\n1. **Kayıt** şu an kimin adına ve hangi işlemle oluştu?\n2. **Yolsuzluk var mı?** Sebebini adlandır: ehliyetsizlik, sahtecilik, yetkisizlik, vekâletin kötüye kullanılması, muris muvazaası, şekil eksikliği, dayanağın iptali (TMK m. 1024/2).\n3. **Taşınmaz el değiştirdi mi?** Değiştirmediyse kayıt maliki ilk eldir, iptal ve tescil istenir.\n4. **Son malik iyiniyetli üçüncü kişi mi?** Fiilî karineleri ve tapudaki şerhleri incele (TMK m. 3, TMK m. 1020/3, TMK m. 1010/2). İyiniyetliyse TMK m. 1023, değilse TMK m. 1024.\n5. **Usul:** Davacının ayni hakkı, davalı (son malik), görev ve kesin yetki (HMK m. 2, HMK m. 12).\n6. **Süre:** Kural olarak yok. TMK m. 712, 3402 sayılı Kanun m. 12, TBK m. 39 ve TMK m. 2 açısından kontrol et.\n7. **Dava sırasında:** İhtiyati tedbir ve şerh (HMK m. 389), dava konusunun devri (HMK m. 125).\n8. **Kayıt geri alınamıyorsa:** Tazminat (TMK m. 1025/2, TBK m. 49, TMK m. 1007).",
+  "critical_md": "- 📌 Yolsuz tescil (TMK m. 1024/2): bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil. Yolsuz kayıt lehtarına hak kazandırmaz.\n- 📌 TMK m. 1023: tapudaki tescile **iyiniyetle dayanarak** mülkiyet ya da başka bir ayni hak kazanan **üçüncü kişinin** kazanımı korunur. Henüz tescil edilmemiş kişisel haklar (satış vaadi) bu korumadan yararlanmaz.\n- ⚠️ İlk el korunmaz. Sahte vekâletnameyle alan, ehliyetsiz satıcıdan alan ya da muvazaalı işlemin tarafı olan kişinin iyiniyeti araştırılmaz.\n- 📌 İyiniyet karinedir (TMK m. 3/1). Kötüniyeti iddia eden ispatlar. Özen göstermeyen iyiniyet iddia edemez (TMK m. 3/2). Bilen **veya bilmesi gereken** tescile dayanamaz (TMK m. 1024/1).\n- ⚠️ Bedel ödemek tek başına iyiniyeti göstermez. Kısa aralıklarla el değiştirme, çok düşük bedel, yakınlık ve aynı vekil ya da emlakçı zinciri kötüniyetin fiilî karineleridir.\n- 📌 Kötüniyet iddiası itiraz niteliğindedir: hâkim kendiliğinden gözetir, iddianın genişletilmesi yasağına tabi değildir (1951 ve 1991 tarihli İBK'lar). Yeni bir iptal sebebi eklemek ise iddianın genişletilmesidir (HMK m. 141).\n- 📌 Kimse sicildeki kaydı bilmediğini ileri süremez (TMK m. 1020/3). Şerh edilen kısıtlama sonradan hak kazananlara karşı ileri sürülür (TMK m. 1010/2). Şerhten sonra alan iyiniyet iddia edemez.\n- 📌 Tapu iptali ve tescil davasını **ayni hakkı zedelenen** kişi açar (TMK m. 1025/1). Kişisel hak sahibi tescile zorlama davası açar (TMK m. 716). İyiniyetli üçüncü kişinin hakları ve her türlü tazminat istemi saklıdır (TMK m. 1025/2). Görev asliye hukukta (HMK m. 2), yetki taşınmazın bulunduğu yerde ve kesindir (HMK m. 12/1).\n- ⚠️ Yolsuz tescile dayanan iptal davası Yargıtay'a göre zamanaşımına ya da hak düşürücü süreye tabi değildir. Sınırlar: TMK m. 712 (10 yıl iyiniyetli, davasız, aralıksız zilyetlik), 3402 sayılı Kanun m. 12/3 (kadastro tutanağının kesinleşmesinden 10 yıl), iptal edilebilir işlemlerde TBK m. 39 (1 yıl).\n- 📌 Dava sırasında devirde davacı ya devralana karşı devam eder ya da devreden hakkında tazminata döner (HMK m. 125/1).\n- 📌 Muris muvazaası: görünüşte satış ya da ölünceye kadar bakma, gerçekte mal kaçırma amaçlı bağış. Saklı paylı olsun olmasın her yasal mirasçı, tek başına ve miras payı oranında açar. Süre yoktur. Mal kaçırma amacı şarttır.\n- ⚠️ Muris muvazaası ile tenkisi karıştırma. Tenkis geçerli tasarrufa karşı, yalnız saklı pay sahiplerince, 1 yıl ve her hâlde 10 yıl içinde açılır (TMK m. 571).\n- 📌 Vekâletin kötüye kullanılmasında karşı taraf vekille çıkar ve işbirliği içindeyse ya da bilen veya bilmesi gereken kişiyse işlem vekâlet vereni bağlamaz (TMK m. 2, TBK m. 506/2). Taşınmaz satışı özel yetki ister (TBK m. 504/3).\n- 📌 Terkine karşı dava: tebliğden itibaren **30 gün** (TMK m. 1026/2). Yazılı rıza yoksa yanlışlık ancak mahkeme kararıyla düzeltilir, basit yazı yanlışlığı re'sen düzeltilir (TMK m. 1027).\n- 📌 2025 tarihli İBK: arsa payı karşılığı inşaatta yükleniciden iyiniyetle ayni hak kazanan üçüncü kişinin savunması dinlenir ve kazanımı korunur. Kötüniyeti arsa sahibi ispatlar.",
+  "doctrine_md": "### Yolsuzluğun sebebi güven korumasını etkiler mi?\nTMK m. 1023 yolsuzluğun sebebine göre ayrım yapmaz. Kanunun lafzına dayanan ve Yargıtay'ın genel olarak benimsediği görüşe göre, sahtecilik ve ehliyetsizlik gibi gerçek malike hiçbir şekilde yüklenemeyen hâllerde de iyiniyetli sonraki el korunur. Gerekçe, sicile güvenin ancak sebepten bağımsız korunduğunda bir anlam taşımasıdır. Gerçek malikin kaybını da Devletin sorumluluğu (TMK m. 1007) dengeler. **Karşı görüş** ise baştan hükümsüz ya da yok hükmündeki bir işlemin hiçbir hukuki sonuç doğurmayacağını savunur. Bu görüşe göre böyle bir kayda dayanan sonraki edinimler de korunmamalıdır. Hukuk Genel Kurulu 2026'da ehliyetsizlik nedeniyle yolsuz hâle gelen bir kayda dayanılarak kurulan ipoteği çoğunlukla korudu. Karşı oy bu ikinci görüşü dile getirdi. Sınavda iki görüşü de gerekçesiyle yaz.\n\n### İyiniyetin sınırı: sicile güven mi, araştırma yükü mü?\nBir görüşe göre güven ilkesi sicile güveneni korumak için vardır. Alıcıdan sicil dışında geniş bir araştırma beklemek ilkeyi işlemez hâle getirir. Yargıtay ise TMK m. 3/2'deki özen ölçüsünü geniş uygular. Taşınmazı görmemek, zilyedine sormamak, düşük bedel ya da kısa aralıklarla el değiştirme gibi olguları kötüniyet karinesi sayar. Gerekçesi şudur: kanun şeklen değil gerçekten iyiniyetli olanı korumak ister, yüzeysel bir inceleme gerçek malikin hakkını haksız yere feda eder. Bir görüş, bu yaklaşımın ispat yükünü fiilen davalıya kaydırdığını ileri sürerek eleştirir.\n\n### Muris muvazaası içtihadına yöneltilen eleştiriler\n1974 tarihli İBK, saklı payı olmayan mirasçılara da dava hakkı tanır. Bir görüşe göre mirasbırakan sağlığında malına serbestçe tasarruf edebilir. Mirasçıların korunması tenkis kurumuyla ve saklı payla sınırlıdır. İçtihat bu dengeyi bozar ve sürenin yokluğu nedeniyle uzun yıllar sonra belirsizlik doğurur. Karşı görüş ve Yargıtay ise sorunun tasarruf özgürlüğü olmadığını vurgular. Görünüşteki satış muvazaalı, gizli bağış da şekilden yoksun olduğundan geçersizdir. Geçersiz bir işleme karşı her ilgili gibi mirasçılar da muvazaayı ileri sürebilir.\n\n### Süresizlik ve hakkın kötüye kullanılması\nYolsuz tescile dayanan dava mülkiyete dayandığı için süresizdir. Ancak uzun süre ses çıkarmayan malikin durumu tartışmalıdır. Yargıtay'ın bir kararında çoğunluk, taşınmazın cebri satışından haberdar olup artan bedeli de alan ve yıllarca dava açmayan kişinin davasını hakkın kötüye kullanılması sayarak reddedilmesi gerektiğini kabul etti (TMK m. 2/2). Karşı oya göre mülkiyete dayanan bu davalar zamanaşımı ve hak düşürücü süreye bağlı olmaksızın her zaman açılabilir. Çoğunluk kararında da belirleyici olan yalnız zamanın geçmesi değil, malikin satışı benimsediğini gösteren davranışıdır (artan bedeli alması). Bu yüzden istisna dar yorumlanmalıdır.",
+  "glossary": [
+   {
+    "term": "Tapu siciline güven ilkesi",
+    "definition": "Yolsuz bir tescile iyiniyetle dayanarak ayni hak kazanan üçüncü kişinin kazanımının korunması (TMK m. 1023)."
+   },
+   {
+    "term": "Yolsuz tescil",
+    "definition": "Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun, gerçek hak durumuna uymayan tescil (TMK m. 1024/2)."
+   },
+   {
+    "term": "İllilik (sebebe bağlılık)",
+    "definition": "Tescilin hüküm doğurması için geçerli bir hukuki sebebe dayanması gerektiği ilkesi."
+   },
+   {
+    "term": "İlk el",
+    "definition": "Yolsuz işlemin tarafı olan ve kayıt doğrudan kendi adına yolsuz oluşan kişi. Sicile değil işleme güvendiği için TMK m. 1023'ten yararlanamaz."
+   },
+   {
+    "term": "Fiilî karine",
+    "definition": "Kanunda yazmayan ama hayat tecrübesine dayanan gösterge. Örneğin çok düşük bedel ya da kısa aralıklarla el değiştirme, kötüniyetin fiilî karinesidir."
+   },
+   {
+    "term": "Tapu iptali ve tescil davası",
+    "definition": "Ayni hakkı zedelenen kişinin yolsuz kaydın iptalini ve hakkın kendi adına tescilini istediği dava. Kanundaki adı tapu sicilinin düzeltilmesi davasıdır (TMK m. 1025)."
+   },
+   {
+    "term": "Tescile zorlama davası",
+    "definition": "Malikten tescil istemeye yönelik kişisel hakkı olan kişinin, malik kaçınırsa mülkiyetin hükmen geçirilmesini istediği dava (TMK m. 716)."
+   },
+   {
+    "term": "Muris muvazaası",
+    "definition": "Mirasbırakanın mirasçılarından mal kaçırmak için gerçekte bağışlamak istediği tapulu taşınmazını satış ya da ölünceye kadar bakma sözleşmesi gibi göstermesi."
+   },
+   {
+    "term": "Nispi muvazaa",
+    "definition": "Tarafların gerçekten istedikleri bir işlemi (ör. bağış) başka bir işlem (ör. satış) görüntüsü altında gizlemesi (TBK m. 19)."
+   },
+   {
+    "term": "Tenkis",
+    "definition": "Saklı payı zedelenen mirasçının, mirasbırakanın tasarruf edebileceği kısmı aşan geçerli tasarruflarının indirilmesini istemesi (TMK m. 560)."
+   },
+   {
+    "term": "Vekâletin kötüye kullanılması",
+    "definition": "Vekilin yetkisini vekâlet verenin haklı menfaatlerine aykırı kullanması. Karşı taraf işbirliği içindeyse ya da bilen veya bilmesi gereken kişiyse işlem vekâlet vereni bağlamaz."
+   },
+   {
+    "term": "Ayırt etme gücü",
+    "definition": "Akla uygun davranabilme yeteneği. Bulunmayan kimsenin fiilleri hukuki sonuç doğurmaz (TMK m. 15)."
+   },
+   {
+    "term": "Terkin",
+    "definition": "Tapu kütüğündeki bir kaydın silinmesi. Sona eren ayni hakkın terkinini yüklü taşınmazın maliki ister (TMK m. 1026)."
+   },
+   {
+    "term": "Dava şerhi (tedbir şerhi)",
+    "definition": "Çekişmeli hakkın korunması için mahkeme kararıyla tapuya işlenen kısıtlama. Şerhten sonra hak kazananlara karşı ileri sürülür (TMK m. 1010)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1024",
+   "official_text": "3. İyiniyetli olmayan üçüncü kişilere karşı\nMadde 1024- Bir aynî hak yolsuz olarak tescil edilmiş ise, bunu bilen veya bilmesi gereken üçüncü kişi bu tescile dayanamaz.\nBağlayıcı olmayan bir hukukî işleme dayanan veya hukukî sebepten yoksun bulunan tescil yolsuzdur.\nBöyle bir tescil yüzünden aynî hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir.\nE. Terkin ve değiştirme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1025",
+   "official_text": "I. Yolsuz tescilde\nMadde 1025- Bir aynî hak yolsuz olarak tescil edilmiş veya bir tescil yolsuz olarak terkin olunmuş ya da değiştirilmiş ise, bu yüzden aynî hakkı zedelenen kimse tapu sicilinin düzeltilmesini dava edebilir.\nİyiniyetli üçüncü kişilerin bu tescile dayanarak kazandıkları aynî haklar ve her türlü tazminat istemi saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1026",
+   "official_text": "II. Aynî hakların sona ermesi\nMadde 1026- Bir aynî hakkın sona ermesiyle tescil her türlü hukukî değerini kaybettiği takdirde, yüklü taşınmaz maliki, terkini isteyebilir.\nTapu memuru bu istemi yerine getirirse, her ilgili, bu işlemin kendisine tebliği tarihinden başlayarak otuz gün içinde terkine karşı dava açabilir.\nTapu memuru, re'sen hâkime başvurarak aynî hakkın sona erdiğinin belirlenmesine ilişkin karar verilmesini istemeye ve hâkimin vereceği karara dayanarak terkin işlemini yapmaya yetkilidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1027",
+   "official_text": "III. Düzeltme\nMadde 1027- İlgililerin yazılı rızaları olmadıkça, tapu memuru, tapu sicilindeki yanlışlığı ancak mahkeme kararıyla düzeltebilir.\nDüzeltme, eski tescilin terkini ve yeni bir tescilin yapılması biçiminde de olabilir.\nTapu memuru, basit yazı yanlışlıklarını, Cumhurbaşkanınca çıkarılan yönetmelik uyarınca re'sen düzeltir.[50]\n[50] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkrada yer alan “tüzük kuralları” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelik” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1007",
+   "official_text": "2. Sorumluluk\nMadde 1007- Tapu sicilinin tutulmasından doğan bütün zararlardan Devlet sorumludur.\nDevlet, zararın doğmasında kusuru bulunan görevlilere rücu eder.\nDevletin sorumluluğuna ilişkin davalar, tapu sicilinin bulunduğu yer mahkemesinde görülür.\nB. İşlemler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1010",
+   "official_text": "b. Tasarruf yetkisinin kısıtlanmasında\nMadde 1010- Aşağıdaki sebeplere dayanan tasarruf yetkisi kısıtlamaları, tapu kütüğüne şerh verilebilir:\n1. Çekişmeli hakların korunmasına ilişkin mahkeme kararları,\n2. Haciz, iflâs kararı veya konkordato ile verilen süre,\n3. Aile yurdu kurulması, artmirasçı atanması gibi şerh verilmesi kanunen öngörülen işlemler.\nTasarruf yetkisi kısıtlamaları, şerh verilmekle taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1015",
+   "official_text": "2. Yetkinin ve sebebin belirlenmesi\nMadde 1015- Tescil, terkin ve değişiklik gibi tasarruf işlemlerinin yapılabilmesi, istemde bulunanın, tasarruf yetkisini ve hukukî sebebi belgelemiş olmasına bağlıdır.\nİstemde bulunan kimse, kendisinin, sicilde hak sahibi görünen kişi veya bu kişinin temsilcisi olduğunu ispat etmek suretiyle tasarruf yetkisini belgelemiş olur.\nHukukî sebebin belgelenmesi, bu sebebin geçerliliği için gerekli şekle uyulduğunun ispatı suretiyle olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1020",
+   "official_text": "C. Tapu sicilinin açıklığı\nMadde 1020- Tapu sicili herkese açıktır.\nİlgisini inanılır kılan herkes, tapu kütüğündeki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini veya bunların örneklerinin verilmesini isteyebilir.\nKimse tapu sicilindeki bir kaydı bilmediğini ileri süremez.\nD. Tescilin etkileri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1022",
+   "official_text": "1. Genel olarak\nMadde 1022- Aynî haklar, kütüğe tescil ile doğar; sıralarını ve tarihlerini tescile göre alır.\nTescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş veya geçici tescil hâlinde belgelerin uygun zamanda tamamlanmış olması koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar.\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya diğer herhangi bir yolla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "7",
+   "official_text": "II. Resmî belgelerle ispat\nMadde 7 - Resmî sicil ve senetler, belgeledikleri olguların doğruluğuna kanıt oluşturur.\nBunların içeriğinin doğru olmadığının ispatı, kanunlarda başka bir hüküm bulunmadıkça, her hangi bir şekle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "15",
+   "official_text": "2. Ayırt etme gücünün bulunmaması\nMadde 15- Kanunda gösterilen ayrık durumlar saklı kalmak üzere, ayırt etme gücü bulunmayan kimsenin fiilleri hukukî sonuç doğurmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "495",
+   "official_text": "I. Altsoy\nMadde 495- Mirasbırakanın birinci derece mirasçıları, onun altsoyudur.\nÇocuklar eşit olarak mirasçıdırlar.\nMirasbırakandan önce ölmüş olan çocukların yerini, her derecede halefiyet yoluyla kendi altsoyları alır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "506",
+   "official_text": "II. Saklı pay\nMadde 506- Saklı pay aşağıdaki oranlardan ibarettir:\n1. Altsoy için yasal miras payının yarısı,\n2. Ana ve babadan her biri için yasal miras payının dörtte biri,\n3. (Mülga: 4/5/2007-5650/2 md.)\n4. Sağ kalan eş için, altsoy veya ana ve baba zümresiyle birlikte mirasçı olması hâlinde yasal miras payının tamamı, diğer hâllerde yasal miras payının dörtte üçü.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "560",
+   "official_text": "1. Genel olarak\nMadde 560- Saklı paylarının karşılığını alamayan mirasçılar, mirasbırakanın tasarruf edebileceği kısmı aşan tasarruflarının tenkisini dava edebilirler.\nYasal mirasçıların paylarına ilişkin olarak tasarrufta yer alan kurallar, mirasbırakanın arzusunun başka türlü olduğu tasarruftan anlaşılmadıkça, sadece paylaştırma kuralları sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "571",
+   "official_text": "IV. Hak düşürücü süreler\nMadde 571- Tenkis davası açma hakkı, mirasçıların saklı paylarının zedelendiğini öğrendikleri tarihten başlayarak bir yıl ve her hâlde vasiyetnamelerde açılma tarihinin, diğer tasarruflarda mirasın açılması tarihinin üzerinden on yıl geçmekle düşer.\nBir tasarrufun iptali bir öncekinin yürürlüğe girmesini sağlarsa, süreler iptal kararının kesinleşmesi tarihinde işlemeye başlar.\nTenkis iddiası, def'i yoluyla her zaman ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "712",
+   "official_text": "a. Olağan zamanaşımı\nMadde 712- Geçerli bir hukukî sebep olmaksızın tapu kütüğüne malik olarak yazılan kişi, taşınmaz üzerindeki zilyetliğini davasız ve aralıksız olarak on yıl süreyle ve iyiniyetle sürdürürse, onun bu yolla kazanmış olduğu mülkiyet hakkına itiraz edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "716",
+   "official_text": "III. Tescili isteme hakkı\nMadde 716- Mülkiyetin kazanılmasına esas olacak bir hukukî sebebe dayanarak malikten mülkiyetin kendi adına tescilini istemek hususunda kişisel hakka sahip olan kimse, malikin kaçınması hâlinde hâkimden, mülkiyetin hükmen geçirilmesini isteyebilir.\nBir taşınmazın mülkiyetini işgal, miras, kamulaştırma, cebrî icra veya mahkeme kararına dayanarak kazanan kişi tescili doğrudan doğruya yaptırabilir.\nBir taşınmazın mülkiyetinde eşler arasındaki mal rejimi dolayısıyla meydana gelen değişiklikler, eşlerden birinin istemiyle tapu kütüğüne doğrudan tescil olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "797",
+   "official_text": "2. Süresi\nMadde 797- İntifa hakkı, gerçek kişilerde hak sahibinin ölümü; tüzel kişilerde kararlaştırılan sürenin dolması, süre kararlaştırılmamışsa kişiliğin ortadan kalkmasıyla sona erer.\nTüzel kişilerin intifa hakkı, en çok yüz yıl devam edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "19",
+   "official_text": "MADDE 19- Bir sözleşmenin türünün ve içeriğinin belirlenmesinde ve yorumlanmasında, tarafların yanlışlıkla veya gerçek amaçlarını gizlemek için kullandıkları sözcüklere bakılmaksızın, gerçek ve ortak iradeleri esas alınır.\nBorçlu, yazılı bir borç tanımasına güvenerek alacağı kazanmış olan üçüncü kişiye karşı, bu işlemin muvazaalı olduğu savunmasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "39",
+   "official_text": "MADDE 39- Yanılma veya aldatma sebebiyle ya da korkutulma sonucunda sözleşme yapan taraf, yanılma veya aldatmayı öğrendiği ya da korkutmanın etkisinin ortadan kalktığı andan başlayarak bir yıl içinde sözleşme ile bağlı olmadığını bildirmez veya verdiği şeyi geri istemezse, sözleşmeyi onamış sayılır.\nAldatma veya korkutmadan dolayı bağlayıcılığı olmayan bir sözleşmenin onanmış sayılması, tazminat hakkını ortadan kaldırmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "46",
+   "official_text": "MADDE 46- Bir kimse yetkisi olmadığı hâlde temsilci olarak bir hukuki işlem yaparsa, bu işlem ancak onadığı takdirde temsil olunanı bağlar.\nYetkisiz temsilcinin kendisiyle işlem yaptığı diğer taraf, temsil olunandan, uygun bir süre içinde bu hukuki işlemi onayıp onamayacağını bildirmesini isteyebilir. Bu süre içinde işlemin onanmaması durumunda, diğer taraf bu işlemle bağlı olmaktan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "288",
+   "official_text": "MADDE 288- Bağışlama sözü vermenin geçerliliği, bu sözleşmenin yazılı şekilde yapılmasına bağlıdır.\nBir taşınmazın veya taşınmaz üzerindeki ayni bir hakkın bağışlanması sözü vermenin geçerliliği, ancak resmî şekilde yapılmış olmasına bağlıdır.\nŞekle uyulmaması sebebiyle geçersiz olan bağışlama sözü verme, bağışlayan tarafından yerine getirildiğinde, elden bağışlama hükmündedir. Ancak, geçerliliği resmî şekle bağlanmış olan bağışlamalarda bu hüküm uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "504",
+   "official_text": "MADDE 504- Vekâletin kapsamı, sözleşmede açıkça gösterilmemişse, görülecek işin niteliğine göre belirlenir.\nVekâlet, özellikle vekilin üstlendiği işin görülmesi için gerekli hukuki işlemlerin yapılması yetkisini de kapsar.\nVekil, özel olarak yetkili kılınmadıkça dava açamaz, sulh olamaz, hakeme başvuramaz, iflas, iflasın ertelenmesi ve konkordato talep edemez, kambiyo taahhüdünde bulunamaz, bağışlama yapamaz, kefil olamaz, taşınmazı devredemez ve bir hak ile sınırlandıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "506",
+   "official_text": "MADDE 506- Vekil, vekâlet borcunu bizzat ifa etmekle yükümlüdür. Ancak vekile yetki verildiği veya durumun zorunlu ya da teamülün mümkün kıldığı hâllerde vekil, işi başkasına yaptırabilir.\nVekil üstlendiği iş ve hizmetleri, vekâlet verenin haklı menfaatlerini gözeterek, sadakat ve özenle yürütmekle yükümlüdür.\nVekilin özen borcundan doğan sorumluluğunun belirlenmesinde, benzer alanda iş ve hizmetleri üstlenen basiretli bir vekilin göstermesi gereken davranış esas alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "2",
+   "official_text": "Asliye hukuk mahkemelerinin görevi\nMADDE 2- (1) Dava konusunun değer ve miktarına bakılmaksızın malvarlığı haklarına ilişkin davalarla, şahıs varlığına ilişkin davalarda görevli mahkeme, aksine bir düzenleme bulunmadıkça asliye hukuk mahkemesidir.\n(2) Bu Kanunda ve diğer kanunlarda aksine düzenleme bulunmadıkça, asliye hukuk mahkemesi diğer dava ve işler bakımından da görevlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "12",
+   "official_text": "Taşınmazın aynından doğan davalarda yetki\nMADDE 12- (1) Taşınmaz üzerindeki ayni hakka ilişkin veya ayni hak sahipliğinde değişikliğe yol açabilecek davalar ile taşınmazın zilyetliğine yahut alıkoyma hakkına ilişkin davalarda, taşınmazın bulunduğu yer mahkemesi kesin yetkilidir.\n(2) İrtifak haklarına ilişkin davalar, üzerinde irtifak hakkı kurulan taşınmazın bulunduğu yer mahkemesinde açılır.\n(3) Bu davalar, birden fazla taşınmaza ilişkinse, taşınmazlardan birinin bulunduğu yerde, diğerleri hakkında da açılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "125",
+   "official_text": "Dava konusunun devri\nMADDE 125- (1) Davanın açılmasından sonra, davalı taraf, dava konusunu üçüncü bir kişiye devrederse, davacı aşağıdaki yetkilerden birini kullanabilir:\na) İsterse, devreden tarafla olan davasından vazgeçerek, dava konusunu devralmış olan kişiye karşı davaya devam eder. Bu takdirde dava davacı lehine sonuçlanırsa, dava konusunu devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur.[12]\nb) İsterse, davasını devreden taraf hakkında tazminat davasına dönüştürür.\n(2) Davanın açılmasından sonra, dava konusu davacı tarafından devredilecek olursa, devralmış olan kişi, görülmekte olan davada davacı yerine geçer ve dava kaldığı yerden itibaren devam eder. (Ek cümle:22/7/2020-7251/11 md.) Bu takdirde dava davacı aleyhine sonuçlanırsa, dava konusunu devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur.\n[12] 22/7/2020 tarihli ve 7251 sayılı Kanunun 11 inci maddesiyle, bu bendin ikinci cümlesinde yer alan “davacı davayı kazanırsa” ibaresi “dava davacı lehine sonuçlanırsa” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "141",
+   "official_text": "MADDE 141- (1) (Değişik:22/7/2020-7251/15 md.) Taraflar, cevaba cevap ve ikinci cevap dilekçeleri ile serbestçe iddia veya savunmalarını genişletebilir yahut değiştirebilirler. Dilekçelerin karşılıklı verilmesinden sonra iddia veya savunma genişletilemez yahut değiştirilemez.\n(2) İddia ve savunmanın genişletilip değiştirilmesi konusunda ıslah ve karşı tarafın açık muvafakati hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "389",
+   "official_text": "İhtiyati tedbirin şartları\nMADDE 389- (1) Mevcut durumda meydana gelebilecek bir değişme nedeniyle hakkın elde edilmesinin önemli ölçüde zorlaşacağından ya da tamamen imkânsız hâle geleceğinden veya gecikme sebebiyle bir sakıncanın yahut ciddi bir zararın doğacağından endişe edilmesi hâllerinde, uyuşmazlık konusu hakkında ihtiyati tedbir kararı verilebilir.\n(2) Birinci fıkra hükmü niteliğine uygun düştüğü ölçüde çekişmesiz yargı işlerinde de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KADASTRO KANUNU",
+   "law_no": "3402",
+   "article_no": "12",
+   "official_text": "Kadastro tutanaklarının kesinleşmesi ve hak düşürücü süre:\nMadde 12 – 30 günlük ilan süresi geçtikten sonra, dava açılmayan kadastro tutanaklarına ait sınırlandırma ve tespitler kesinleşir.\nKadastro müdürü tarafından onaylanarak kesinleşen tutanaklar ile kadastro mahkemesinin kesinleşmiş kararları; kesinleşme tarihleri tescil tarihi olarak gösterilmek suretiyle en geç 3 ay içinde tapu kütüklerine kaydedilir.\nBu tutanaklarda belirtilen haklara, sınırlandırma ve tespitlere ait tutanakların kesinleştiği tarihten itibaren on yıl geçtikten sonra, kadastrodan önceki hukuki sebeplere dayanarak itiraz olunamaz ve dava açılamaz. (Ek cümle: 25/2/2009-5841/2 md.; İptal: Anayasa Mahkemesi’nin 12/5/2011 tarihli ve E.: 2009/31, K.: 2011/77 sayılı Kararı ile.)\nKadastrosu tamamlanan çalışma alanı içerisinde kalan eski tapu kayıtları, işleme tabi kayıt niteliğini kaybederler. Bu kayıtlara dayanılarak kadastro ve tapu sicil müdürlüklerinde işlem yapılamaz.\nKesinleşmemiş tutanaklar herhangi bir nedenle tapuya tescil edilmişse, iddia ve taşınmazın niteliğine bakılmaksızın, taşınmazı tescil tarihinden itibaren 20 yıl müddetle malik sıfatıyla zilyetliğinde bulunduranlar ile bunların akdi ve kanuni halefleri açılmış ve açılacak olan davalarda medeni kanunun tapuya itimat prensibinden yararlanırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3402&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/399",
+   "karar_no": "2026/379",
+   "decision_date": "18.06.2026",
+   "summary_md": "Bir belediye, meclis kararına dayanarak bir arsayı ihaleyle davalılardan birine satmış, arsa on iki parsele ayrılmıştır. Meclis kararı idare mahkemesince iptal edilip Danıştay incelemesinden geçerek kesinleşince belediye, ilk alıcı, ara malikler ve son kayıt maliki aleyhine tapu iptali ve tescil davası açmıştır. Dava konusu parsel kısa aralıklarla, akit tablosunda birkaç bin liralık bedellerle ve aynı emlakçı ya da onunla bağlantılı kişilerin vekâletiyle el değiştirmiştir. İptal kararı da ara maliklere yapılan satışlardan önce yerel basında yer almıştır. İlk derece mahkemesi davayı reddetmiş, bölge adliye mahkemesi kabul etmiştir. Yargıtay 1. Hukuk Dairesinin birbirine zıt iki bozmasından sonra bölge adliye mahkemesi davayı kabul etmiş, dosya temyiz üzerine Hukuk Genel Kurulu'na gelmiştir. Kurul oy çokluğuyla kabul kararını onamıştır. Gerekçeye göre dayanağı iptal edilen tescil yolsuzdur. İyiniyet karine olsa da sık el değiştirme ve düşük bedel gibi fiilî karineler kötüniyeti gösterebilir. Bedel ödenmesi tek başına yetmez, önemli olan alıcının durumu bilip bilmediği ya da özen gösterse bilebilecek olup olmadığıdır. Ara malikler ve son malik bilmesi gereken kişi sayılmış, TMK m. 1023 korumasından yararlandırılmamıştır. Konuya katkısı: yolsuzluğun sonradan da doğabileceğini ve iyiniyetin fiilî karinelerle nasıl çürütüldüğünü gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1231013600",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/473",
+   "karar_no": "2026/221",
+   "decision_date": "08.04.2026",
+   "summary_md": "Davacının dairesi, kendisi adına verilmiş bir vekâletnameyle 2014'te bir şirkete satılmış, şirket sekiz gün sonra daireyi bir banka lehine ipotek etmiştir. Davacı daha sonra kısıtlanmış, satış ehliyetsizlik nedeniyle yolsuz tescil sayılarak iptal edilmiş ve tapu kaydı düzeltilmiştir. Bu davada davacı, şirket malikken konulan ipotek ve haciz şerhlerinin terkinini istemiştir. İlk derece mahkemesi davayı kabul etmiş, bölge adliye mahkemesi banka yönünden reddetmiştir. Yargıtay 7. Hukuk Dairesi bütün şerhlerin kaldırılması gerektiği gerekçesiyle bozmuş, bölge adliye mahkemesi direnmiştir. Hukuk Genel Kurulu oy çokluğuyla direnme kararını onamıştır. İpotek, kısıtlama kararından ve iptal davasındaki ihtiyati tedbirin tapuya işlenmesinden önce kurulmuştur. Bankanın ehliyetsizliği bildiği ya da bilmesi gerektiği ispatlanamadığından ipotek TMK m. 1023 gereği korunur. Tedbir şerhinden sonra konulan hacizlerin terkini ise yerindedir, çünkü sicildeki şerhi kimse bilmediğini ileri süremez. Karşı oya göre ehliyetsizlikte kayıt baştan hükümsüz olduğundan TMK m. 1023 uygulanmamalıydı. Konuya katkısı: güven ilkesinin ipotek gibi sınırlı ayni haklarda da işlediğini, şerhin önemini ve ehliyetsizlik tartışmasını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1228761400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/1265",
+   "karar_no": "2020/764",
+   "decision_date": "14.10.2020",
+   "summary_md": "Mirasbırakan baba, bir taşınmazdaki iki daireye karşılık gelen arsa payını 1997'de tek erkek çocuğu olan davalıya satış göstererek devretmiştir. Ölen kızının mirasçıları, devrin mirasçılardan mal kaçırmak amacıyla yapılmış muvazaalı bir bağış olduğunu ileri sürerek miras payları oranında tapu iptali ve tescil istemiştir. İlk derece mahkemesi, gösterilen bedel ile gerçek değer arasında yaklaşık on beş katlık fark bulunduğunu, mirasbırakanın geliri ve başka taşınmazları olduğu için satmaya ihtiyacı olmadığını, bedelin ödendiğinin kanıtlanamadığını belirterek davayı kabul etmiştir. Yargıtay 1. Hukuk Dairesi bedel farkının tek başına muvazaayı kanıtlamadığı gerekçesiyle bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oy çokluğuyla direnme kararını onamıştır. Gerekçeye göre muris muvazaasının dayanağı 1974 tarihli İçtihadı Birleştirme Kararıdır. Kabul için mal kaçırma amacı şarttır ve ispat yükü davacıdadır. Mirasçılar sözleşmenin dışında oldukları için her türlü delile dayanabilir. Bedel farkı tek başına yetmez, ama satış ihtiyacının yokluğu ve aile ilişkileriyle birlikte muvazaanın göstergesidir. Konuya katkısı: muris muvazaasının şartlarını ve ispatta kullanılan ölçütleri gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/638269300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 1024/2'ye göre aşağıdaki tescillerden hangisi **yolsuzdur**?",
+   "options": [
+    "Ayırt etme gücü bulunmayan malikin yaptığı satışa dayanılarak alıcı adına yapılan tescil",
+    "Mirasçılık belgesine dayanılarak mirasçılar adına yapılan tescil",
+    "Resmî şekilde yapılmış geçerli bir satış sözleşmesine dayanılarak alıcı adına yapılan tescil",
+    "Kesinleşmiş bir mahkeme kararına dayanılarak yapılan tescil"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ayırt etme gücü bulunmayan kimsenin fiilleri hukuki sonuç doğurmaz (TMK m. 15). Bu satışa dayanan tescil hukuki sebepten yoksundur ve TMK m. 1024/2 uyarınca yolsuzdur. Geçerli satış, kesinleşmiş mahkeme kararı ve mirasçılık belgesi ise geçerli hukuki sebeplerdir."
+  },
+  {
+   "stem_md": "TMK m. 1023'ün koruduğu kişi aşağıdakilerden hangisidir?",
+   "options": [
+    "Yolsuz kaydı mirasbırakanından miras yoluyla edinen mirasçı",
+    "Yolsuz tescilin lehine yapıldığı kişi, iyiniyetli olması şartıyla",
+    "Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya başka bir ayni hak kazanan üçüncü kişi",
+    "Malikle resmî satış vaadi sözleşmesi yapmış ama henüz adına tescil yapılmamış alıcı"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 1023, tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya başka bir ayni hak kazanan üçüncü kişiyi korur. Yolsuz tescilin lehtarı (ilk el) üçüncü kişi değildir. Satış vaadi alıcısının henüz yalnız kişisel hakkı vardır. Mirasçı ise mirasbırakanın yerine geçer, kayda güvenerek hak kazanmış sayılmaz."
+  },
+  {
+   "stem_md": "Yolsuz tescile dayanan bir tapu iptali davasında son kayıt malikinin **kötüniyetli olduğunu** kim ispatlar?",
+   "options": [
+    "Son kayıt maliki, iyiniyetli olduğunu ispat etmek zorundadır.",
+    "Kimse ispat yükü taşımaz; hâkim yalnız bedelin ödenip ödenmediğine bakar.",
+    "İyiniyet karine olduğundan kötüniyeti iddia eden davacı ispatlar. Bunun için fiilî karinelerden yararlanabilir.",
+    "Tapu müdürlüğü, işlem dosyasını sunarak ispatlar."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kanunun iyiniyete sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır (TMK m. 3/1). Bu yüzden kötüniyeti iddia eden ispatlar. Kötüniyeti ispat zor olduğundan sık el değiştirme ya da çok düşük bedel gibi fiilî karinelerden yararlanılır. Bedelin ödenmesi tek başına iyiniyeti göstermez."
+  },
+  {
+   "stem_md": "Yurt dışında yaşayan Murat adına sahte imzalı bir vekâletname düzenlenmiş ve Murat'ın dairesi bu vekâletnameyle Okan'a satılmıştır. Okan bedeli tam olarak ödemiştir ve sahtecilikten haberi yoktur. Daire hâlâ Okan adına kayıtlıdır. Murat'ın açtığı tapu iptali ve tescil davası hakkında hangisi doğrudur?",
+   "options": [
+    "Dava ancak sahtecilik nedeniyle ceza mahkûmiyeti kesinleşirse kabul edilebilir.",
+    "Murat yalnız Devlete karşı tazminat isteyebilir, kaydın iptalini isteyemez.",
+    "Okan bedeli ödediği ve iyiniyetli olduğu için TMK m. 1023 gereği korunur, dava reddedilir.",
+    "Okan yolsuz işlemin tarafı (ilk el) olduğundan TMK m. 1023'ten yararlanamaz, kayıt iptal edilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Sahte vekâletnameyle yapılan devir Murat'ın iradesine dayanmaz, tescil yolsuzdur (TMK m. 1024/2). TMK m. 1023 sicile güveneni korur. Okan ise sicile değil sahte vekâletnameye güvenmiştir ve yolsuz kaydın bizzat lehtarıdır. İlk elin iyiniyeti araştırılmaz. Taşınmaz Okan'da olduğu için kayıt iptal edilir. Okan ödediği bedeli sahtecilik faillerinden ister."
+  },
+  {
+   "stem_md": "Hakan, Selin aleyhine tapu iptali ve tescil davası açmış, mahkemenin kararıyla dava taşınmazın tapu kaydına şerh edilmiştir. Selin iki ay sonra taşınmazı Ece'ye satmıştır. Ece, şerhi fark etmediğini ve iyiniyetli olduğunu ileri sürmektedir. Hangisi doğrudur?",
+   "options": [
+    "Şerh yalnız Selin'i bağlar, Ece'yi bağlamaz.",
+    "Kimse sicildeki bir kaydı bilmediğini ileri süremeyeceğinden ve şerh sonradan hak kazananlara karşı ileri sürülebildiğinden Ece iyiniyet iddiasında bulunamaz.",
+    "Ece'nin iyiniyetli olmadığını Hakan ayrıca tanıkla ispat etmelidir.",
+    "Ece iyiniyetli olduğu için TMK m. 1023 gereği korunur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). Çekişmeli hakların korunmasına ilişkin mahkeme kararları şerh verilmekle taşınmaz üzerinde sonradan hak kazananlara karşı ileri sürülebilir (TMK m. 1010/2). Bu yüzden şerhten sonra alan Ece'nin ayrıca kötüniyetli olduğunun ispatına gerek yoktur. Hakan davaya Ece'ye karşı devam edebilir (HMK m. 125/1)."
+  },
+  {
+   "stem_md": "Evli olmayan ve çocuğu bulunmayan Kemal'in ana ve babası ondan önce ölmüştür. Tek yasal mirasçısı kardeşi Nur'dur. Kemal sağlığında, Nur'dan mal kaçırmak amacıyla tapulu evini komşusu Tarık'a satış göstererek bağışlamıştır. Kemal'in ölümünden sonra Nur'un açacağı dava hakkında hangisi doğrudur?",
+   "options": [
+    "Nur yalnız tenkis davası açabilir.",
+    "Muris muvazaasında saklı payı olsun olmasın miras hakkı çiğnenen her yasal mirasçı dava açabileceğinden Nur tapu iptali ve tescil isteyebilir.",
+    "Nur ancak Kemal'in sağlığında dava açmış olsaydı bu istemde bulunabilirdi.",
+    "Kardeşlerin saklı payı bulunmadığından Nur hiçbir dava açamaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kardeşlerin saklı payı yoktur (TMK m. 506'nın 3. bendi 2007'de yürürlükten kaldırıldı). Bu yüzden tenkis isteyemez (TMK m. 560). Ama 1974 tarihli İçtihadı Birleştirme Kararına göre, mirasçıdan mal kaçırmak amacıyla satış gibi gösterilen bağışlamada, saklı payı olsun olmasın miras hakkı çiğnenen bütün mirasçılar görünüşteki satışın muvazaalı, gizli bağışın da şekilden yoksun olduğunu ileri sürerek dava açabilir. Dava mirasın açılmasından sonra açılır."
+  },
+  {
+   "stem_md": "Muris muvazaasına dayanan tapu iptali ve tescil davasının açılma süresi hakkında hangisi doğrudur?",
+   "options": [
+    "Öğrenmeden itibaren bir yıl, her hâlde mirasın açılmasından itibaren on yıl içinde açılmalıdır.",
+    "Temlik tarihinden itibaren on yıl içinde açılmalıdır.",
+    "Herhangi bir zamanaşımı ya da hak düşürücü süreye bağlı değildir.",
+    "Mirasın açılmasından itibaren bir yıl içinde açılmalıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Muris muvazaasında işlem geçersizdir ve tescil yolsuzdur. Yargıtay'a göre yolsuz tescile dayanan dava süreye bağlı değildir. Bir yıl ve on yıllık süreler tenkis davasına aittir (TMK m. 571/1), tenkis ise geçerli tasarruflara karşı açılır."
+  },
+  {
+   "stem_md": "Muris muvazaasına dayanan bir davanın kabul edilebilmesi için aşağıdakilerden hangisi **mutlaka** gereklidir?",
+   "options": [
+    "Tapuda gösterilen bedelin rayiç değerin altında olması",
+    "Taşınmazı devralanın mirasçı olmayan bir yabancı olması",
+    "Mirasbırakanın gerçek amacının mirasçılarından mal kaçırmak olması",
+    "Davacının saklı pay sahibi olması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Muris muvazaasını diğer muvazaa türlerinden ayıran unsur mirasçıları aldatma, yani mal kaçırma amacıdır. Bu amaç yoksa 1974 tarihli İBK uygulanmaz. Bedel farkı önemli bir göstergedir ama tek başına yetmez. Saklı pay şartı yoktur. Devralan çoğu zaman mirasçılardan biridir (ör. kayırılan çocuk)."
+  },
+  {
+   "stem_md": "Selin, malik Tuncay ile noterde resmî şekilde taşınmaz satış vaadi sözleşmesi yapmış, bedeli ödemiştir. Tuncay devirden kaçınmaktadır ve tapu kaydı Tuncay adına doğru biçimde durmaktadır. Selin hangi davayı açmalıdır?",
+   "options": [
+    "TMK m. 1026'ya dayanan terkine karşı dava",
+    "TMK m. 1025'e dayanan tapu sicilinin düzeltilmesi davası",
+    "TMK m. 1027'ye dayanan sicildeki yanlışlığın düzeltilmesi davası",
+    "TMK m. 716'ya dayanan tescile zorlama (mülkiyetin hükmen geçirilmesi) davası"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Ortada yolsuz bir tescil yoktur, kayıt doğrudur. Selin'in ayni hakkı değil, tescil istemeye yönelik kişisel hakkı vardır. Malik kaçınırsa hâkimden mülkiyetin hükmen geçirilmesini ister (TMK m. 716/1). TMK m. 1025 davası ayni hakkı zedelenen kişiye aittir."
+  },
+  {
+   "stem_md": "İzmir'deki bir dairenin sahte vekâletnameyle satıldığını ileri süren Aylin, Ankara'da oturan son kayıt maliki aleyhine tapu iptali ve tescil davası açacaktır. Yetkili mahkeme hangisidir?",
+   "options": [
+    "Tarafların sözleşmeyle belirleyeceği herhangi bir yer mahkemesi",
+    "Davacının yerleşim yeri mahkemesi",
+    "Davalının yerleşim yeri olan Ankara mahkemesi",
+    "Taşınmazın bulunduğu İzmir mahkemesi, kesin yetkili olarak"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Taşınmaz üzerindeki ayni hakka ilişkin ya da ayni hak sahipliğinde değişikliğe yol açabilecek davalarda taşınmazın bulunduğu yer mahkemesi kesin yetkilidir (HMK m. 12/1). Kesin yetki nedeniyle yetki sözleşmesi yapılamaz. Görevli mahkeme asliye hukuk mahkemesidir (HMK m. 2/1)."
+  },
+  {
+   "stem_md": "Oya, kardeşi Taner'e karşı muris muvazaasına dayanan tapu iptali davası açmıştır. Tapuya şerh verilmemiştir. Taner yargılama sürerken taşınmazı üçüncü bir kişiye satmıştır. Oya'nın HMK m. 125'e göre seçebileceği yollar hangisinde doğru verilmiştir?",
+   "options": [
+    "Devralan kendiliğinden davalı olur, Oya'nın seçim hakkı yoktur.",
+    "Oya ya davaya devralana karşı devam eder ya da davasını Taner hakkında tazminat davasına dönüştürür.",
+    "Oya yalnız Taner'e karşı davaya aynen devam eder, devralan davadan etkilenmez.",
+    "Dava konusuz kalır ve düşer, Oya ayrı bir dava açmalıdır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 125/1'e göre davalı dava konusunu üçüncü kişiye devrederse davacı ya devralana karşı davaya devam eder ya da davasını devreden hakkında tazminat davasına dönüştürür. Şerh bulunmadığından devralan TMK m. 1023'e dayanabilir. Bu yüzden devralan iyiniyetliyse tazminat yolu Oya için daha güvenlidir."
+  },
+  {
+   "stem_md": "TMK m. 712'ye göre geçerli bir hukuki sebep olmaksızın tapuya malik olarak yazılan kişinin mülkiyetine hangi durumda artık itiraz edilemez?",
+   "options": [
+    "Taşınmazı yirmi yıl malik sıfatıyla kullanınca, iyiniyet aranmaksızın",
+    "Kayıt tarihinden itibaren beş yıl geçince",
+    "Zilyetliğini davasız ve aralıksız olarak on yıl süreyle ve iyiniyetle sürdürünce",
+    "Vergi kaydını kendi adına çıkarınca"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Olağan kazandırıcı zamanaşımında, geçerli bir hukuki sebep olmaksızın malik yazılan kişi zilyetliğini davasız, aralıksız ve iyiniyetle on yıl sürdürürse mülkiyetine itiraz edilemez (TMK m. 712). Bu, iptal davasının süresizliğine önemli bir sınırdır. Yirmi yıllık süre olağanüstü zamanaşımına aittir ve tapusuz taşınmazlarla ilgilidir."
+  },
+  {
+   "stem_md": "TMK m. 1026'ya göre tapu memurunun sona eren bir ayni hakkı terkin etmesi üzerine ilgililer terkine karşı hangi süre içinde dava açabilir?",
+   "options": [
+    "İşlemin kendisine tebliği tarihinden itibaren otuz gün",
+    "Öğrenmeden itibaren iki ay, her hâlde bir yıl",
+    "Terkin tarihinden itibaren bir yıl",
+    "Süre yoktur, her zaman açılabilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 1026/2'ye göre tapu memuru terkin istemini yerine getirirse her ilgili, bu işlemin kendisine tebliği tarihinden başlayarak otuz gün içinde terkine karşı dava açabilir. Bu süre, süreye bağlı olmayan yolsuz tescil davasıyla karıştırılmamalıdır."
+  },
+  {
+   "stem_md": "Tapu sicilinde basit yazı yanlışlığı **dışında** kalan bir yanlışlık bulunduğunda, ilgililerin yazılı rızası yoksa tapu memuru bunu nasıl düzeltebilir?",
+   "options": [
+    "Tapu müdürünün onayıyla",
+    "Kadastro müdürlüğünün yazısıyla",
+    "Malikin tek taraflı dilekçesiyle",
+    "Ancak mahkeme kararıyla"
+   ],
+   "correct_option": 3,
+   "explanation_md": "İlgililerin yazılı rızaları olmadıkça tapu memuru sicildeki yanlışlığı ancak mahkeme kararıyla düzeltebilir (TMK m. 1027/1). Basit yazı yanlışlıklarını ise Cumhurbaşkanınca çıkarılan yönetmelik uyarınca re'sen düzeltir (TMK m. 1027/3)."
+  },
+  {
+   "stem_md": "Gül, tarlasını satması için yeğeni Can'a özel yetkili vekâletname vermiştir. Can tarlayı piyasa değerinden, kendisiyle hiçbir ilişkisi olmayan ve durumu bilmesine imkân bulunmayan Mert'e satmış, ama bedeli Gül'e vermeyip harcamıştır. Hangisi doğrudur?",
+   "options": [
+    "Satış ancak Gül onaylarsa geçerli olur.",
+    "Vekâlet kötüye kullanıldığı için satış her durumda Gül'ü bağlamaz, tapu iptal edilir.",
+    "Mert iyiniyetli olduğundan satış geçerlidir ve Gül'ü bağlar. Gül, Can'dan zararını ister.",
+    "Mert, bedeli bir kez de Gül'e ödemek zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Can'ın satış yetkisi vardır (TBK m. 504/3). Yetki kötüye kullanılmış olsa da karşı taraf iyiniyetliyse, yani kötüye kullanmayı bilmiyor ve özen gösterse de bilemiyorsa sözleşme vekâlet vereni bağlar. Sorun vekille vekâlet veren arasında kalır. Gül, sadakat ve özen borcuna aykırı davranan Can'dan zararını ister (TBK m. 506/2)."
+  },
+  {
+   "stem_md": "Leyla, oğlu Kaan'a yalnız kira sözleşmelerini yapma ve kira tahsil etme yetkisi veren bir vekâletname vermiştir. Vekâletnamede taşınmaz satma yetkisi yoktur. Kaan bu vekâletnameyle Leyla'nın dairesini Berk'e satmış, satış tapuda yapılmıştır. Leyla satışı onaylamamaktadır. Hangisi doğrudur?",
+   "options": [
+    "Berk iyiniyetliyse TMK m. 1023 gereği her durumda korunur.",
+    "Taşınmaz devri özel yetki gerektirdiğinden satış yetkisiz temsildir. Leyla onaylamadıkça onu bağlamaz ve tescil yolsuzdur.",
+    "Satış geçerlidir, Leyla yalnız Kaan'dan tazminat isteyebilir.",
+    "Vekâletname noterde düzenlendiği için satış geçerlidir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Vekil, özel olarak yetkili kılınmadıkça taşınmazı devredemez (TBK m. 504/3). Yetkisiz temsilcinin yaptığı işlem ancak temsil olunan onaylarsa onu bağlar (TBK m. 46/1). Dayanak işlem Leyla'yı bağlamadığından tescil yolsuzdur. Berk ilk el olduğu için TMK m. 1023'ten yararlanamaz."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi, son kayıt malikinin **kötüniyetli** olduğuna ilişkin bir fiilî karine **sayılmaz**?",
+   "options": [
+    "Alıcının tapu kaydını inceleyip taşınmazı yerinde görmesi ve bedeli banka aracılığıyla ödemesi",
+    "Taşınmazın birkaç ay içinde art arda birçok kez el değiştirmesi",
+    "Bütün devirlerin aynı emlakçının vekâletiyle yapılması",
+    "Satış bedelinin rayiç değerin çok altında gösterilmesi"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kısa aralıklarla el değiştirme, çok düşük bedel ve aynı vekil ya da emlakçı zinciri Yargıtay'ın kötüniyet göstergesi saydığı fiilî karinelerdendir. Kaydı incelemek, yeri görmek ve bedeli bankadan ödemek ise beklenen özenin gösterildiğine işaret eder (TMK m. 3/2). Tek başına iyiniyeti kanıtlamasa da kötüniyet karinesi değildir."
+  },
+  {
+   "stem_md": "Yargıtay İçtihatları Birleştirme Büyük Genel Kurulu'nun 2025 tarihli kararına göre, arsa payı karşılığı inşaat sözleşmesi geriye etkili feshedildiğinde yükleniciden bağımsız bölüm satın alan üçüncü kişinin durumu nedir?",
+   "options": [
+    "İyiniyet savunması dinlenir. İyiniyetli ise kazanımı TMK m. 1023 gereği korunur, kötüniyetini arsa sahibi ispatlar.",
+    "Üçüncü kişi ancak bedelin tamamını arsa sahibine de ödemişse korunur.",
+    "Üçüncü kişi her durumda korunur, kötüniyet araştırılmaz.",
+    "Devirler avans niteliğinde sayıldığından iyiniyet savunması dinlenmez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "2025 tarihli İBK, yükleniciden hak kazanan üçüncü kişilerin iyiniyet savunmasını dinlemeyen eski içtihattan dönmüştür. İyiniyetli üçüncü kişinin kazanımı TMK m. 1023 gereği korunur. İyiniyetli olmadığı anlaşılırsa taşınmaz arsa sahibine döner. Bunu ispat yükü arsa sahibindedir."
+  },
+  {
+   "stem_md": "Adli Tıp Kurumu raporuna göre Recep, evini Kaan'a sattığı gün ayırt etme gücüne sahip değildir. Recep o tarihte kısıtlı değildir, sonradan kısıtlanmıştır. Kaan, Recep'in görünüşte sağlıklı olduğunu, tam bedel ödediğini ve iyiniyetli olduğunu ileri sürmektedir. Ev hâlâ Kaan adına kayıtlıdır. Recep'in vasisinin açtığı tapu iptali ve tescil davası hakkında hangisi doğrudur?",
+   "options": [
+    "Satış tarihinde kısıtlama kararı bulunmadığından satış geçerlidir.",
+    "Kaan iyiniyetli olduğu için TMK m. 1023 gereği korunur.",
+    "Satış hukuki sonuç doğurmadığından tescil yolsuzdur. Kaan ilk el olduğu için iyiniyeti onu korumaz ve kayıt iptal edilir.",
+    "Satış iptal edilebilir niteliktedir, vasi bir yıl içinde bildirimde bulunmamışsa dava reddedilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ayırt etme gücü bulunmayan kimsenin fiilleri hukuki sonuç doğurmaz (TMK m. 15). Satış baştan hükümsüzdür ve tescil yolsuzdur (TMK m. 1024/2). Kaan sicile değil Recep'in imzasına güvenmiştir, yolsuz işlemin tarafıdır. TMK m. 1023 ilk eli korumaz. Kısıtlama kararının yokluğu sonucu değiştirmez, belirleyici olan işlem anındaki ayırt etme gücüdür. TBK m. 39'daki bir yıllık süre iptal edilebilir işlemlere ilişkindir."
+  },
+  {
+   "stem_md": "TMK m. 1024/3'e göre bir tescil yüzünden ayni hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı nasıl ileri sürebilir?",
+   "options": [
+    "Ancak tapu müdürlüğüne itiraz ettikten sonra",
+    "Yalnız tazminat istemi yoluyla",
+    "Önce ilk el aleyhine dava açıp kazanmak şartıyla",
+    "Doğrudan doğruya"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 1024/3'e göre yolsuz tescil yüzünden ayni hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir. Aradaki malikleri tek tek dava etmesi gerekmez, son malikin kaydının iptalini ister."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Almanya'da yaşayan Murat, İstanbul'da iki dairenin (A ve B) malikidir. Selim, Murat'ın kimlik bilgileriyle üzerinde kendi fotoğrafı bulunan sahte bir kimlik kartı hazırlatır ve bir noterlikte Murat adına vekâletname düzenletir. Mart 2024'te bu vekâletnameyle iki daireyi, piyasa değerine yakın bir bedelle Okan'a satar. Okan bedeli Selim'e ödemiştir ve sahtecilikten haberi olmadığını söylemektedir.\n\nOkan Haziran 2024'te A dairesini, kendisiyle hiçbir yakınlığı bulunmayan Deniz'e piyasa değerinden satar. Deniz satıştan önce tapu kaydını incelemiş, daireyi gezmiş ve bedeli banka aracılığıyla ödemiştir. Kayıtta hiçbir şerh yoktur.\n\nMurat Ocak 2025'te durumu öğrenir ve Okan aleyhine B dairesi için tapu iptali ve tescil davası açar. Mahkeme, davanın B dairesinin tapu kaydına şerh edilmesine karar verir ve şerh işlenir. Okan Mart 2025'te B dairesini Ece'ye satar. Ece şerhi gördüğünü, ama Okan'ın \"dava boş, kazanacağım\" sözüne güvendiğini söylemektedir.\n\n1. Okan adına yapılan tescillerin niteliği nedir? Okan iyiniyet savunmasıyla korunur mu?\n2. Murat, A dairesi için Deniz'e karşı tapu iptali ve tescil isteyebilir mi?\n3. B dairesinin Ece'ye satışı Murat'ın davasını nasıl etkiler? Murat hangi yollara başvurabilir?\n4. Murat, A dairesi bakımından uğradığı zarar için kime başvurabilir?",
+   "rubric": [
+    {
+     "point": "Sahte vekâletnameyle yapılan devrin Murat'ın iradesine dayanmadığı ve Okan adına tescillerin yolsuz olduğu",
+     "weight": 20,
+     "madde_ref": "TMK m. 1024"
+    },
+    {
+     "point": "Okan'ın yolsuz işlemin tarafı (ilk el) olduğu ve iyiniyetinin onu korumadığı",
+     "weight": 20,
+     "madde_ref": "TMK m. 1023"
+    },
+    {
+     "point": "Deniz'in tescile iyiniyetle dayanan üçüncü kişi olarak korunması ve A için iptal isteminin sonuçsuz kalması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1023"
+    },
+    {
+     "point": "Dava şerhinden sonra alan Ece'nin iyiniyet iddiasında bulunamaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1010"
+    },
+    {
+     "point": "Dava konusunun devrinde davacının devralana karşı devam etme ya da tazminata dönüştürme seçimi",
+     "weight": 15,
+     "madde_ref": "HMK m. 125"
+    },
+    {
+     "point": "A dairesi için tazminat istemlerinin saklı olması: Selim'e karşı haksız fiil, şartları varsa Devlete karşı istem",
+     "weight": 15,
+     "madde_ref": "TMK m. 1025"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlık, sahtecilikten doğan yolsuz tescile ve bu tescile dayanarak hak kazanan üçüncü kişilerin korunup korunmayacağına ilişkindir. Uygulanacak hükümler TMK m. 1023, TMK m. 1024 ve TMK m. 1025 ile HMK m. 125'tir.\n\n**1. Okan adına tescil:** Vekâletname sahte kimlikle düzenlenmiştir. Murat'ın iradesine dayanan bir temsil yetkisi hiç doğmamıştır. Satış Murat'ı bağlamaz, Okan adına yapılan tesciller bağlayıcı olmayan bir işleme dayandığından yolsuzdur (TMK m. 1024/2). Okan, bedeli ödediğini ve sahteciliği bilmediğini ileri sürmektedir. Ama TMK m. 1023 tapu kütüğündeki tescile güveneni korur. Satış anında sicil doğruydu ve daireleri Murat adına gösteriyordu. Okan sicile değil, sahte vekâletnameye güvenmiştir ve yolsuz kaydın bizzat lehtarıdır. Yargıtay'ın yerleşik uygulamasına göre ilk elin iyiniyeti araştırılmaz. Okan korunmaz. Ödediği bedeli Selim'den ister.\n\n**2. A dairesi ve Deniz:** Deniz, kütükte malik görünen Okan'dan satış yoluyla mülkiyet kazanmış ve adına tescil yapılmıştır. Okan'la hiçbir yakınlığı yoktur, piyasa değerini ödemiş, kaydı incelemiş, daireyi görmüştür ve kayıtta şerh yoktur. Kötüniyete işaret eden bir fiilî karine bulunmamaktadır. İyiniyet asıl olduğundan (TMK m. 3/1) ve aksi ispatlanamadığından Deniz'in kazanımı TMK m. 1023 gereği korunur. Murat'ın Deniz'e karşı tapu iptali ve tescil istemi reddedilir (TMK m. 1025/2).\n\n**3. B dairesi ve Ece:** Dava, mahkeme kararıyla B dairesinin kaydına şerh edilmiştir. Çekişmeli hakların korunmasına ilişkin mahkeme kararları şerh verilmekle sonradan hak kazananlara karşı ileri sürülebilir (TMK m. 1010/1 ve TMK m. 1010/2). Kimse sicildeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). Ece şerhi gördüğünü kendisi de kabul etmektedir. Okan'ın \"kazanacağım\" sözüne güvenmesi, yolsuzluğu bilen ya da bilmesi gereken kişi olmasını değiştirmez (TMK m. 1024/1). Okan dava konusunu yargılama sırasında devrettiği için Murat HMK m. 125/1 uyarınca iki yoldan birini seçebilir:\n- davaya Ece'ye karşı devam eder. Ece iyiniyet iddiasında bulunamayacağından kaydın iptali ve Murat adına tescil sağlanır. Dava Murat lehine sonuçlanırsa Okan ve Ece yargılama giderlerinden müteselsilen sorumlu olur.\n- davasını Okan hakkında tazminat davasına dönüştürür.\n\nŞerh bulunduğu için Murat açısından doğru yol, davaya Ece'ye karşı devam etmektir. Böylece daireyi geri alır.\n\n**4. A dairesi için tazminat:** TMK m. 1025/2 iyiniyetli üçüncü kişilerin haklarını ve her türlü tazminat istemini saklı tutar. Murat, sahteciliği yapan Selim'den haksız fiil hükümlerine göre zararını isteyebilir (TBK m. 49/1). Zarar tapu sicilinin tutulmasından doğmuşsa Devletin sorumluluğu da gündeme gelir (TMK m. 1007). Bu yolun şartları ve davalısı ayrı konuda işlenir.\n\n**Sonuç:**\n- Okan adına tesciller yolsuzdur ve Okan ilk el olduğu için korunmaz.\n- Deniz iyiniyetli üçüncü kişi olarak A dairesinin mülkiyetini korur.\n- Ece, şerhten sonra aldığı için iyiniyet iddiasında bulunamaz. Murat davaya Ece'ye karşı devam ederek B dairesini geri alabilir.\n- Murat A dairesi için Selim'den, şartları varsa Devletten tazminat ister."
+  },
+  {
+   "stem_md": "Hüseyin 2024'te ölmüştür. Eşini 2015'te kaybetmiştir. Yasal mirasçıları oğlu Ahmet ve kızları Ayşe ile Elif'tir. Hüseyin 2018'de Bursa'daki iki dairesini (X ve Y) tapuda \"satış\" göstererek Ahmet'e devretmiştir. Tapuda gösterilen bedel, her dairenin o tarihteki değerinin yaklaşık onda biridir. Hüseyin'in emekli maaşı ve başka kira gelirleri vardır, borcu bulunmamaktadır. Terekesinde satış bedeline rastlanmamıştır.\n\nAhmet babasıyla aynı evde yaşamaktadır. Hüseyin'in kızlarıyla arası, onların evliliklerine karşı çıktığı için yıllardır soğuktur. Ahmet 2023'te Y dairesini, kendisiyle hiçbir ilişkisi olmayan Barış'a piyasa değerinden satmıştır. Bedel bankadan ödenmiş, Barış satıştan önce daireyi görmüştür. X dairesi hâlâ Ahmet adına kayıtlıdır.\n\nAyşe Eylül 2026'da dava açmak istemektedir. Elif ise \"babamın malıydı, istediğine verir\" diyerek davaya katılmak istememektedir. Ahmet, davanın geç kaldığını ve satışların gerçek olduğunu savunacağını söylemektedir.\n\n1. 2018'deki işlemleri nitelendiriniz. Ayşe hangi hukuki sebebe dayanabilir?\n2. Ayşe tek başına dava açabilir mi? Neyi isteyebilir?\n3. Ahmet'in \"dava geç kaldı\" savunması yerinde midir? Bu dava tenkis davasından nasıl ayrılır?\n4. Ayşe, Y dairesi için Barış'a karşı başarılı olabilir mi? Olamazsa ne isteyebilir?\n5. Ayşe neyi ispat etmelidir? Hangi olgular onun lehinedir?",
+   "rubric": [
+    {
+     "point": "Muris muvazaası nitelendirmesi: görünüşte satış, gerçekte bağış; görünüşteki işlemin muvazaalı, gizli bağışın resmî şekilden yoksun olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 19"
+    },
+    {
+     "point": "Ayşe'nin tek başına ve miras payı (1/3) oranında X dairesi için iptal ve tescil isteyebilmesi; Elif'in katılmamasının engel olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 495"
+    },
+    {
+     "point": "Dava için hak düşürücü sürenin bulunmaması ve tenkisle farkı (geçerli tasarruf, saklı pay, 1 yıl ve 10 yıl)",
+     "weight": 15,
+     "madde_ref": "TMK m. 571"
+    },
+    {
+     "point": "Barış'ın iyiniyetli üçüncü kişi olarak korunması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1023"
+    },
+    {
+     "point": "Y dairesi için Ahmet'ten tazminat istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1025"
+    },
+    {
+     "point": "Mal kaçırma amacının ispatı; bedel farkı, satış ihtiyacının yokluğu, bedelin terekede olmaması ve aile ilişkilerinin birlikte değerlendirilmesi, bedel farkının tek başına yetmemesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 6"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Hüseyin, tapulu iki dairesini oğluna satış göstererek devretmiştir. Olgular, gerçek amacın bedel karşılığı satış değil, kızlarından mal kaçırmak için yapılan bir bağış olduğunu düşündürmektedir. Bu, muris muvazaası iddiasıdır. Dayanağı 1974 tarihli İçtihadı Birleştirme Kararıdır.\n\n**1. İşlemlerin niteliği:** Görünüşteki satış, tarafların gerçek ve ortak iradesine uymadığı için muvazaalıdır ve hüküm doğurmaz (TBK m. 19/1). Gizlenen bağış ise taşınmaz bağışlama sözü için aranan resmî şekle uyulmadan yapılmıştır. Tapudaki resmî senet bir satışı belgeler, bağışı değil. Bu yüzden bağış da geçersizdir (TBK m. 288/2, TMK m. 706/1). İki işlem de geçersiz olduğundan Ahmet adına tescil yolsuzdur (TMK m. 1024/2). Ayşe muris muvazaası hukuki sebebine dayanarak tapu iptali ve tescil isteyebilir (TMK m. 1025/1).\n\n**2. Ayşe'nin dava hakkı:** Muris muvazaasında miras hakkı çiğnenen her yasal mirasçı dava açabilir. Mirasçılar tek başına ve kendi miras payları oranında istemde bulunabilir. Hüseyin'in eşi ondan önce öldüğü için mirasçılar üç çocuğudur ve eşit pay alırlar (TMK m. 495/2). Ayşe, X dairesinin tapu kaydının 1/3 oranında iptalini ve adına tescilini isteyebilir. Elif'in davaya katılmak istememesi Ayşe'nin davasına engel değildir. Elif'in kendi payı bakımından dava hakkı da süreye bağlı olmadığından saklı kalır.\n\n**3. Süre ve tenkisten farkı:** Muris muvazaasına dayanan dava yolsuz tescile dayanır. Yargıtay'ın yerleşik uygulamasına göre zamanaşımına ya da hak düşürücü süreye tabi değildir. Ahmet'in \"geç kaldı\" savunması yerinde değildir. Tenkis davası ise geçerli bir tasarrufun saklı payı aşan kısmına yöneliktir. Yalnız saklı pay sahiplerince (TMK m. 560/1) ve öğrenmeden itibaren bir yıl, her hâlde mirasın açılmasından itibaren on yıl içinde açılır (TMK m. 571/1). Muris muvazaasında işlem geçersizdir, saklı pay şartı ve süre yoktur.\n\n**4. Y dairesi ve Barış:** Barış, kütükte malik görünen Ahmet'ten satış yoluyla mülkiyet kazanmıştır. Ahmet'le ilişkisi yoktur, piyasa değerini bankadan ödemiş ve daireyi görmüştür. Kötüniyete işaret eden bir olgu yoktur. İyiniyet asıl olduğundan (TMK m. 3/1) Barış'ın kazanımı TMK m. 1023 gereği korunur. Ayşe Barış'a karşı başarılı olamaz. Ancak TMK m. 1025/2 her türlü tazminat istemini saklı tuttuğundan Ayşe, muvazaalı işlemin tarafı olan Ahmet'ten Y dairesi için miras payı oranında tazminat isteyebilir.\n\n**5. İspat:** İspat yükü, temlikin mal kaçırma amacıyla yapıldığını ileri süren Ayşe'dedir (TMK m. 6). Ayşe sözleşmenin dışında olduğu için tanık dahil her türlü delile dayanabilir. Lehine olan olgular şunlardır:\n- gösterilen bedelin gerçek değerin onda biri olması,\n- Hüseyin'in yeterli geliri bulunması ve satmak için bir ihtiyacının olmaması,\n- satış bedelinin terekede bulunmaması,\n- Hüseyin'in kızlarıyla arasının soğuk, oğluyla birlikte yaşaması.\n\nBedel farkı tek başına muvazaayı kanıtlamaz. Ama bu olgularla birlikte değerlendirildiğinde mal kaçırma amacını güçlü biçimde gösterir. Ahmet ise bedeli gerçekten ödediğini ya da babasının satış için makul bir nedeni bulunduğunu kanıtlayarak bu kanaati çürütmeye çalışabilir.\n\n**Sonuç:**\n- 2018 işlemleri muris muvazaası niteliğindedir ve Ahmet adına tescil yolsuzdur.\n- Ayşe tek başına, X dairesinin 1/3 payı için iptal ve tescil isteyebilir.\n- Dava süreye bağlı değildir.\n- Barış iyiniyetli olduğu için Y dairesi geri alınamaz, Ayşe Ahmet'ten tazminat ister."
+  },
+  {
+   "stem_md": "78 yaşındaki Gül, Antalya'daki iki tarlasının (T1 ve T2) satışı için yeğeni Can'a noterde vekâletname verir. Vekâletnamede Can'a tarlaları \"dilediği kişiye, dilediği bedelle satma\" yetkisi açıkça tanınmıştır. Bilirkişiye göre her tarlanın değeri 5.000.000 TL'dir.\n\nCan, vekâletnameden on gün sonra iki tarlayı, iş ortağı ve yakın arkadaşı Burak'a toplam 1.000.000 TL bedelle satar. Bu paranın Gül'e ödendiğine dair hiçbir kayıt yoktur. Burak bir ay sonra T1'i, kendisiyle hiçbir ilişkisi olmayan Cem'e 4.900.000 TL'ye satar. Cem tapu kaydını incelemiş, tarlayı yerinde görmüş ve bedeli bankadan ödemiştir. T2 hâlâ Burak adına kayıtlıdır.\n\nGül durumu altı yıl sonra öğrenir ve dava açmak ister. Burak, vekâletnamenin geçerli olduğunu, satışın tapuda yapıldığını ve iyiniyetli olduğunu söylemektedir. Ayrıca davanın çok geç açıldığını ileri sürmektedir.\n\n1. Can'ın yaptığı satış Gül'ü bağlar mı?\n2. Gül, T2 için Burak'a karşı hangi davayı açabilir? Burak'ın savunmaları yerinde midir?\n3. Gül, T1 için Cem'e karşı başarılı olabilir mi?\n4. Gül'ün T1'deki kaybı için başvurabileceği yollar nelerdir?",
+   "rubric": [
+    {
+     "point": "Can'ın taşınmaz satışı için özel yetkisinin bulunduğu, sorunun yetkisizlik değil yetkinin kötüye kullanılması olduğu",
+     "weight": 15,
+     "madde_ref": "TBK m. 504"
+    },
+    {
+     "point": "Vekilin sadakat ve özen borcu; değerin beşte birine satış, bedelin Gül'e ulaşmaması ve alıcının vekilin ortağı olması nedeniyle kötüye kullanmanın varlığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 506"
+    },
+    {
+     "point": "Vekille çıkar ve işbirliği içindeki Burak'la yapılan satışın Gül'ü bağlamaması ve tescilin yolsuz olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 2"
+    },
+    {
+     "point": "T2 için Burak'a karşı tapu iptali ve tescil davası; davanın süreye bağlı olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1025"
+    },
+    {
+     "point": "Cem'in iyiniyetli üçüncü kişi olarak korunması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1023"
+    },
+    {
+     "point": "T1 için Can ve Burak'tan tazminat istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1025"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlık, vekâlet görevinin kötüye kullanılmasına dayanan tapu iptali ve tescil istemine ve sonraki edinenin iyiniyetine ilişkindir. Uygulanacak hükümler TBK m. 504, TBK m. 506, TMK m. 2, TMK m. 1023 ve TMK m. 1025'tir.\n\n**1. Satışın Gül'ü bağlayıp bağlamadığı:** Vekil, özel olarak yetkili kılınmadıkça taşınmaz devredemez (TBK m. 504/3). Can'a satış yetkisi açıkça verilmiştir. Bu yüzden sorun yetkisizlik değil, yetkinin kötüye kullanılmasıdır. Vekil işi, vekâlet verenin haklı menfaatlerini gözeterek sadakat ve özenle yürütmek zorundadır (TBK m. 506/2). \"Dilediği bedelle satma\" yetkisi bile bu borcu ortadan kaldırmaz.\n\nCan tarlaları değerlerinin beşte birine, vekâletnameden on gün sonra, iş ortağı ve yakın arkadaşı Burak'a satmış, bedel de Gül'e ulaşmamıştır. Bu olgular yetkinin Gül'ün zararına kötüye kullanıldığını açıkça gösterir.\n\nYargıtay'ın yerleşik uygulamasına göre karşı taraf iyiniyetliyse sözleşme vekâlet vereni bağlar. Karşı taraf vekille çıkar ve işbirliği içindeyse ya da kötüye kullanmayı biliyor veya bilmesi gerekiyorsa, dürüstlük kuralı gereği vekâlet veren sözleşmeyle bağlı sayılmaz (TMK m. 2). Hâkim bunu kendiliğinden gözetir. Burak, Can'ın iş ortağı ve yakın arkadaşıdır. Taşınmazları değerinin çok altında almıştır. Yolsuzluğu bilen ya da en azından bilmesi gereken kişidir. Satış Gül'ü bağlamaz, Burak adına tescil yolsuzdur (TMK m. 1024/2).\n\n**2. T2 için dava:** Gül, ayni hakkı zedelenen malik olarak T2'nin Burak adına olan kaydının iptalini ve kendi adına tescilini isteyebilir (TMK m. 1025/1). Dava, taşınmazın bulunduğu Antalya'da asliye hukuk mahkemesinde açılır (HMK m. 2/1, HMK m. 12/1).\n- *İyiniyet savunması:* Burak'ın \"vekâletname geçerliydi, satış tapuda yapıldı\" savunması sonucu değiştirmez. Vekâletnamenin geçerliliği ve işlemin resmî şekilde yapılmış olması kötüye kullanmayı ortadan kaldırmaz. Burak işbirliği içindedir ve iyiniyet iddiasında bulunamaz (TMK m. 3/2).\n- *Süre savunması:* Yargıtay'a göre vekâlet görevinin kötüye kullanılmasına dayanan tapu iptali davaları zamanaşımına ya da hak düşürücü süreye bağlı değildir. Altı yıl geçmiş olması sonucu etkilemez. Burak T2'ye iyiniyetle on yıl zilyet olmadığı için TMK m. 712 de uygulanamaz.\n\n**3. T1 ve Cem:** Cem, kütükte malik görünen Burak'tan satış yoluyla mülkiyet kazanmıştır. Burak'la ilişkisi yoktur, piyasa değerine yakın bedeli bankadan ödemiş, kaydı incelemiş ve tarlayı görmüştür. Kötüniyete işaret eden bir fiilî karine yoktur. İyiniyet asıl olduğundan (TMK m. 3/1) Cem'in kazanımı TMK m. 1023 gereği korunur. Gül'ün Cem'e karşı iptal istemi reddedilir (TMK m. 1025/2).\n\n**4. T1 için tazminat:** TMK m. 1025/2 her türlü tazminat istemini saklı tutar. Gül, sadakat ve özen borcuna aykırı davranan vekil Can'dan zararını isteyebilir (TBK m. 506/2). Can'la işbirliği içinde hareket ederek zarara katılan Burak'tan da tazminat isteyebilir. Zararın hesabında T1'in gerçek değeri ile Gül'e ulaşan bedel karşılaştırılır. Olayda Gül'e hiçbir bedel ulaşmamıştır.\n\n**Sonuç:**\n- Can yetkisini kötüye kullanmıştır. Burak işbirliği içinde olduğundan satış Gül'ü bağlamaz.\n- Gül, T2 için Burak'a karşı tapu iptali ve tescil davası açabilir. Burak'ın iyiniyet ve süre savunmaları yerinde değildir.\n- Cem iyiniyetli üçüncü kişi olduğu için T1 geri alınamaz.\n- Gül T1 için Can'dan ve Burak'tan tazminat ister."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Yolsuz tescil nedir? (TMK m. 1024/2)",
+   "back_md": "Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil. Kayıt gerçek hak durumuna uymaz."
+  },
+  {
+   "front_md": "TMK m. 1023 kimi korur?",
+   "back_md": "Tapudaki tescile iyiniyetle dayanarak mülkiyet ya da başka bir ayni hak kazanan üçüncü kişiyi."
+  },
+  {
+   "front_md": "İlk el iyiniyetliyse korunur mu?",
+   "back_md": "Hayır. Yolsuz işlemin tarafı sicile değil işleme güvenmiştir. İyiniyeti araştırılmaz, kayıt iptal edilir."
+  },
+  {
+   "front_md": "Kötüniyeti kim ispatlar?",
+   "back_md": "Kötüniyeti iddia eden. İyiniyet karinedir (TMK m. 3/1). Özen göstermeyen iyiniyet iddia edemez (TMK m. 3/2)."
+  },
+  {
+   "front_md": "Kötüniyetin fiilî karinelerine örnek?",
+   "back_md": "Kısa aralıklarla el değiştirme, rayiç değerin çok altında bedel, yakınlık ve aynı vekil ya da emlakçı zinciri, taşınmazı görmeden alma."
+  },
+  {
+   "front_md": "Bedel ödemek iyiniyeti kanıtlar mı?",
+   "back_md": "Tek başına kanıtlamaz. Belirleyici olan, alıcının yolsuzluğu bilip bilmediği ya da özen gösterse bilebilecek olup olmadığıdır."
+  },
+  {
+   "front_md": "Kötüniyet iddiasının usuldeki niteliği?",
+   "back_md": "İtirazdır. Hâkim kendiliğinden gözetir ve iddianın genişletilmesi yasağına tabi olmadan ileri sürülebilir (1951 ve 1991 tarihli İBK'lar)."
+  },
+  {
+   "front_md": "Şerhten sonra alan kişi iyiniyet iddia edebilir mi?",
+   "back_md": "Hayır. Kimse sicildeki kaydı bilmediğini ileri süremez (TMK m. 1020/3). Şerh sonradan hak kazananlara karşı ileri sürülür (TMK m. 1010/2)."
+  },
+  {
+   "front_md": "TMK m. 1024/3 neyi sağlar?",
+   "back_md": "Ayni hakkı zedelenen kişi, yolsuzluğu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürer."
+  },
+  {
+   "front_md": "Tapu iptali ve tescil davasını kim açar?",
+   "back_md": "Ayni hakkı zedelenen kişi (TMK m. 1025/1). Kişisel hak sahibi tescile zorlama davası açar (TMK m. 716)."
+  },
+  {
+   "front_md": "Tapu iptali davasında görev ve yetki?",
+   "back_md": "Asliye hukuk mahkemesi (HMK m. 2). Taşınmazın bulunduğu yer mahkemesi kesin yetkili (HMK m. 12/1)."
+  },
+  {
+   "front_md": "Yolsuz tescile dayanan iptal davasında süre var mı?",
+   "back_md": "Yargıtay'a göre yok. Sınırlar: TMK m. 712 (10 yıl iyiniyetli zilyetlik), kadastroda 10 yıl (3402 sayılı Kanun m. 12/3), iptal edilebilir işlemlerde TBK m. 39."
+  },
+  {
+   "front_md": "Davalı dava konusunu devrederse? (HMK m. 125)",
+   "back_md": "Davacı ya devralana karşı davaya devam eder ya da davasını devreden hakkında tazminat davasına dönüştürür."
+  },
+  {
+   "front_md": "Muris muvazaası nedir?",
+   "back_md": "Mirasbırakanın mirasçılarından mal kaçırmak için gerçekte bağışladığı tapulu taşınmazı satış ya da ölünceye kadar bakma gibi göstermesi (1974 tarihli İBK)."
+  },
+  {
+   "front_md": "Muris muvazaasında kim, ne kadarını ister?",
+   "back_md": "Saklı paylı olsun olmasın miras hakkı çiğnenen her yasal mirasçı, tek başına ve miras payı oranında. Süre yoktur."
+  },
+  {
+   "front_md": "Muris muvazaası ile tenkis farkı?",
+   "back_md": "Muris muvazaasında işlem geçersizdir, her mirasçı açar, süre yoktur. Tenkis geçerli tasarrufa karşıdır, yalnız saklı pay sahipleri 1 yıl ve 10 yıl içinde açar (TMK m. 571)."
+  },
+  {
+   "front_md": "Vekâletin kötüye kullanılmasında işlem ne zaman vekâlet vereni bağlamaz?",
+   "back_md": "Karşı taraf vekille çıkar ve işbirliği içindeyse ya da kötüye kullanmayı biliyor veya bilmesi gerekiyorsa (TMK m. 2, TBK m. 506/2)."
+  },
+  {
+   "front_md": "Vekil taşınmaz satabilmek için neye ihtiyaç duyar?",
+   "back_md": "Özel yetkiye (TBK m. 504/3). Yetki yoksa işlem yetkisiz temsildir, onay olmadıkça bağlamaz (TBK m. 46/1)."
+  },
+  {
+   "front_md": "Terkine karşı dava süresi? (TMK m. 1026)",
+   "back_md": "İşlemin ilgiliye tebliğinden itibaren otuz gün."
+  },
+  {
+   "front_md": "Sicildeki yanlışlık nasıl düzeltilir? (TMK m. 1027)",
+   "back_md": "İlgililerin yazılı rızası yoksa ancak mahkeme kararıyla. Basit yazı yanlışlıkları tapu memurunca re'sen düzeltilir."
+  },
+  {
+   "front_md": "2025 tarihli İBK neyi değiştirdi?",
+   "back_md": "Arsa payı karşılığı inşaatta yükleniciden iyiniyetle ayni hak kazanan üçüncü kişinin savunması artık dinlenir ve kazanımı korunur. Kötüniyeti arsa sahibi ispatlar."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
