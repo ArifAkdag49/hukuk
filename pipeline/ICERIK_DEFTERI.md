@@ -61,7 +61,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 10 | payli-mulkiyet | bitti | ajan yazdı; denetçisiz; yerelde yüklendi |
 | 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | bitti | ajan yazdı; denetçisiz (kullanıcı kararı: token tasarrufu); yerelde yüklendi |
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | bitti | ajan yazdı; denetçisiz; AYM 2026 iptali (2942 m. 10/8) notu; yerelde yüklendi |
-| 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yazılıyor | |
+| 13 | kazandirici-zamanasimi-isgal-yeni-arazi | bitti | ajan yazdı; denetçisiz; 📌 TMK m. 713/4 (7418, 2022); yerelde yüklendi |
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
 | 15 | yapi-hukuku-ve-taskin-yapi | yazılıyor | |
 | 16 | yasal-onalim-alim-ve-geri-alim | yazılıyor | |
