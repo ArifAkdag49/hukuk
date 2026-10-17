@@ -33,7 +33,7 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 15 | ifa-genel-esaslar | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 16 | ifa-yeri-zamani-karsilikli-ifa | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 17 | alacakli-temerrudu | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
-| 18 | borca-aykirilik-ve-tazminat | yazılıyor | |
+| 18 | borca-aykirilik-ve-tazminat | denetimde | ajan yazdı (kontrol temiz) |
 | 19 | borclu-temerrudu-sart-ve-sonuclar | denetimde | ajan yazdı (kontrol temiz) |
 | 20 | karsilikli-sozlesmelerde-secimlik-haklar | denetimde | ajan yazdı (kontrol temiz) |
 | 21 | imkansizlik-ve-asiri-ifa-guclugu | yazılıyor | |
@@ -42,5 +42,5 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 24 | muteselsil-borcluluk | yazılıyor | |
 | 25 | kosullu-borclar | yazılıyor | |
 | 26 | baglanma-parasi-cayma-parasi-cezai-sart | yazılıyor | |
-| 27 | alacagin-devri | bekliyor | |
+| 27 | alacagin-devri | yazılıyor | |
 | 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | bekliyor | |
