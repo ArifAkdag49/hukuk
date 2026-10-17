@@ -1,0 +1,829 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Borçların İfası",
+ "topic_index": 2,
+ "slug": "ifa-yeri-zamani-karsilikli-ifa",
+ "title": "İfa Yeri, İfa Zamanı ve Karşılıklı Sözleşmelerde İfa (Ödemezlik Def'i)",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T20:40:08.690581+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/ifa-ve-ifa-engelleri"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Borç **nerede**, **ne zaman** ve karşılıklı bir sözleşmede **hangi sırayla** ifa edilir? Kendi borcunu ifa etmeyen taraf, karşı taraftan ifa isteyebilir mi?\n\n- **İfa yeri (TBK m. 89):** Önce tarafların açık ya da örtülü iradesine bakılır. Böyle bir irade yoksa kanunun yedek kuralları uygulanır:\n  - **Para borcu**, alacaklının **ödeme zamanındaki** yerleşim yerinde ödenir (götürülecek borç).\n  - **Parça borcu**, sözleşme kurulduğu sırada malın **bulunduğu yerde** ifa edilir.\n  - **Diğer borçlar**, borcun doğduğu sırada **borçlunun** yerleşim yerinde ifa edilir (aranacak borç).\n  - Alacaklı sonradan taşınır ve ifa önemli ölçüde güçleşirse borçlu, alacaklının **önceki** yerleşim yerinde ifa edebilir.\n- **Usule etkisi:** Genel yetkili mahkeme davalının yerleşim yeridir (HMK m. 6). Sözleşmeden doğan davalar ifa yeri mahkemesinde **de** açılabilir (HMK m. 10). Para borcunun ifa yeri alacaklının yerleşim yeri olduğu için Yargıtay'a göre alacaklı, sözleşmeden doğan para alacağı için **kendi yerleşim yerinde** dava açabilir ve takip başlatabilir (İİK m. 50). Bu yetki kesin değildir. Yetki itirazı cevap dilekçesinde yapılır (HMK m. 19).\n- **İfa zamanı (TBK m. 90):** Taraflar kararlaştırmamışsa ve hukuki ilişkinin özelliğinden aksi anlaşılmıyorsa borç **doğduğu anda muaccel** olur. Kanunun özel kuralları saklıdır (ödünçte altı hafta, kirada ay sonu, eserde teslim anı).\n- **Takvim kuralları (TBK m. 91-95):** Ayın ortası 15'idir. Gün olarak süreye sözleşmenin kurulduğu gün katılmaz. \"15 gün\" iki hafta demek değildir. Son gün tatile rastlarsa izleyen ilk iş gününe geçer. Borç alışılmış iş saatlerinde ifa edilir. Uzatılan süre, eski sürenin bitimini izleyen günden başlar.\n- **Erken ifa (TBK m. 96):** Borçlu kural olarak süreden önce ifa edebilir. Ama kanun, sözleşme ya da âdet öngörmedikçe erken ödedi diye **indirim yapamaz**.\n- **Ödemezlik def'i (TBK m. 97):** Karşılıklı borç yükleyen sözleşmede ifa isteyen taraf, sonra ifa etme hakkı yoksa **kendi borcunu ifa etmiş ya da önermiş** olmalıdır. Aksi hâlde karşı taraf ifadan kaçınabilir. Bu bir **def'idir**: davalı ileri sürer ve borç sona ermez, yalnız ertelenir. Ağırlıklı görüşe göre def'i yerindeyse dava reddedilmez, edimlerin **birlikte ifasına** hükmedilir. Yargıtay da tescil davalarında kalan bedeli depo ettirip tescile karar verir.\n- **İfa güçsüzlüğü (TBK m. 98):** Karşı taraf iflas eder ya da hakkındaki haciz sonuçsuz kalırsa, hakkı tehlikeye düşen taraf **güvence** verilinceye kadar kendi edimini ifa etmeyebilir. Güvence uygun sürede verilmezse **sözleşmeden dönebilir**.\n- **Bağlantılar:** Alacaklı temerrüdü (TBK m. 106), borçlu temerrüdü (TBK m. 117) ve zamanaşımının başlangıcı (TBK m. 149) ayrı konulardır.",
+  "content_md": "## 0. Konunun haritası\n\nBorç doğdu. Şimdi ifaya ilişkin üç soru sorulur:\n1. **Nerede** ifa edilecek? (İfa yeri, TBK m. 89)\n2. **Ne zaman** ifa edilecek? (İfa zamanı, TBK m. 90-96)\n3. Karşılıklı bir sözleşmede **önce kim** ifa edecek? (İfa sırası, TBK m. 97-98)\n\n| Soru | Ana kural | Madde |\n|---|---|---|\n| Nerede? | Önce taraf iradesi, yoksa yedek kurallar | TBK m. 89 |\n| Ne zaman? | Borç doğumuyla muaccel | TBK m. 90 |\n| Hangi sırayla? | Edimler aynı anda | TBK m. 97 |\n| Karşı taraf güçsüzse? | Güvence iste, gelmezse dön | TBK m. 98 |\n\n> 💡 **Püf nokta:** Yanlış yerde ya da yanlış zamanda yapılan ifa önerisi, **gereği gibi öneri** değildir. Alacaklı böyle bir öneriyi reddederse alacaklı temerrüdüne düşmez (TBK m. 106).\n\n## 1. İfa yeri (TBK m. 89)\n\n**İfa yeri**, borçlunun edimini yerine getirmesi ve alacaklının ifayı kabul etmesi gereken yerdir.\n\n### 1.1 Neden önemli?\n- **Önerinin geçerliliği:** Borçlu edimini başka bir yerde önerirse alacaklı reddedebilir.\n- **Masraf ve risk:** Edimi ifa yerine ulaştırmanın masrafı ve riski, kural olarak onu oraya götürmekle yükümlü olan tarafa düşer.\n- **Yetkili mahkeme ve icra dairesi:** Sözleşmeden doğan davalar ifa yeri mahkemesinde de açılabilir (HMK m. 10). Sınavda en çok sorulan sonuç budur.\n\n### 1.2 Önce tarafların iradesi\nTBK m. 89/1'e göre ifa yeri, tarafların **açık veya örtülü** iradelerine göre belirlenir. Kanunun saydığı kurallar, ancak böyle bir irade yoksa uygulanır. Yani bunlar **yedek hukuk kurallarıdır**.\n- **Açık irade:** \"Teslim, alıcının Gebze'deki deposunda yapılacaktır.\"\n- **Örtülü irade:** İşin niteliğinden anlaşılan yer. Bir evin boyanması o evde, bir binanın yapımı arsada, düğün orkestrasının borcu düğün salonunda ifa edilir.\n\n> **Örnek:** İzmir'de oturan boyacı Mustafa, Manisa'daki bir yazlık evin boyanmasını üstlenir. Yedek kurala göre bu yapma borcu borçlunun yerleşim yeri olan İzmir'de ifa edilirdi. Ama bir ev İzmir'de boyanamaz. İşin niteliğinden ifa yerinin Manisa'daki ev olduğu anlaşılır.\n\n### 1.3 Kanunun yedek kuralları (TBK m. 89/1)\n1. **Para borçları:** Alacaklının **ödeme zamanındaki** yerleşim yerinde ödenir. Borçlu parayı alacaklıya götürür. Bu yüzden para borcu **götürülecek borçtur**. Belirleyici an, borcun doğduğu an değil, ödeme anıdır.\n2. **Parça borçları:** Sözleşmenin kurulduğu sırada borç konusunun **bulunduğu yerde** ifa edilir. **Parça borcu**, ferdî olarak belirlenmiş bir şeye ilişkin borçtur: şu tablo, plakası belli otomobil gibi.\n3. **Diğer bütün borçlar** (cins borçları, yapma borçları): Borcun **doğduğu sırada borçlunun** yerleşim yerinde ifa edilir. Alacaklı edimi gidip alır. Bu borçlar **aranacak borçtur**.\n\n> **Örnek (parça borcu):** Ankara'da oturan Kemal, Bodrum'daki yazlığının garajında duran klasik otomobilini İstanbul'da imzalanan bir sözleşmeyle Cem'e satar. İfa yeri, sözleşme kurulduğu sırada otomobilin bulunduğu Bodrum'dur. Kemal otomobili sonradan Ankara'ya getirse de ifa yeri değişmez.\n\n> **Örnek (cins borcu):** Konya'da oturan değirmenci Hasan, bir fırına 100 çuval un satar. Un bir cins borcudur. Aksine anlaşma yoksa ifa yeri, borcun doğduğu sırada Hasan'ın yerleşim yeri olan Konya'dır. Hasan sonradan Eskişehir'e taşınsa da fırıncı unu Konya'da ister.\n\n**Yerleşim yeri**, bir kimsenin sürekli kalma niyetiyle oturduğu yerdir. Bir kimsenin aynı anda birden çok yerleşim yeri olamaz (TMK m. 19). Şirketlerde uygulama merkez adresini esas alır.\n\n**Gönderilecek borç:** Borçlu, alacaklının isteğiyle edimi ifa yerinden başka bir yere gönderebilir. Bu durumda ifa yeri değişmez. Borçlu yalnız gönderme işini üstlenmiş olur. Satışta yarar ve hasar, satılanın taşıyıcıya teslim edildiği anda alıcıya geçer (TBK m. 208/3). Ayrıntısı satış sözleşmesinde.\n\n> ⚠️ **Sınavda dikkat:** \"Para borcu borçlunun yerleşim yerinde ödenir\" cevabı yanlıştır. Diğer borçlara ilişkin kural (m. 89/1-3), para borçlarında tersine döner: para alacaklıya götürülür.\n\n### 1.4 Alacaklının yerleşim yerini değiştirmesi (TBK m. 89/2)\nAlacaklının yerleşim yerinde ifası gereken bir borç doğduktan sonra alacaklı başka bir yere taşınabilir. Bu yüzden **ifa önemli ölçüde güçleşmişse** borçlu, borcu alacaklının **önceki** yerleşim yerinde ifa edebilir. Bu, borçluya tanınmış bir imkândır. Borçlu dilerse yeni yerde de ifa edebilir.\n\n> **Örnek:** Mermer ocağı işleten Deniz, Bursa'da oturan Levent'e 20 ton mermeri Levent'in yerleşim yerinde teslim etmeyi üstlenir. Sözleşmeden sonra Levent Erzurum'a taşınır. Taşıma masrafı ve süresi katlandığı için ifa önemli ölçüde güçleşmiştir. Deniz mermeri Bursa'da teslim edebilir.\n\n### 1.5 Usule etkisi: yetkili mahkeme ve icra dairesi\n- **Genel yetki (HMK m. 6):** Dava, davalının dava tarihindeki yerleşim yeri mahkemesinde açılır.\n- **Sözleşmeden doğan davalar (HMK m. 10):** Sözleşmenin ifa edileceği yer mahkemesinde **de** açılabilir. Bu özel yetki genel yetkiyi kaldırmaz, onun yanında bir seçenek yaratır. Hangisinde dava açılacağını davacı seçer.\n- **İkisini birleştir:** Para borcunun ifa yeri alacaklının yerleşim yeridir. Bu yüzden sözleşmeden doğan bir **para alacağı** için alacaklı, davayı **kendi yerleşim yerinde** de açabilir. Yargıtay'ın yerleşik uygulaması budur. Hukuk Genel Kurulu, sözleşmenin haksız feshi nedeniyle istenen tazminatı da para alacağı sayarak aynı sonuca varmıştır. Bu karar oy çokluğuyla verilmiştir (bkz. doktrin).\n- **İcra takibi (İİK m. 50):** Para ve teminat borçlarına ilişkin takipte HMK'nın yetki kuralları kıyasen uygulanır. Bu yüzden alacaklı, sözleşmeden doğan para alacağı için kendi yerleşim yerindeki icra dairesinde de takip başlatabilir. Bunun yanında takibe dayanak sözleşmenin yapıldığı yerdeki icra dairesi de yetkilidir.\n- **Haksız fiilde ayrı kural (HMK m. 16):** Haksız fiil davası; fiilin işlendiği, zararın doğduğu ya da doğabileceği yer veya **zarar görenin yerleşim yeri** mahkemesinde de açılabilir. HMK m. 10 yalnız sözleşmeden doğan davalar içindir.\n- **Yetki itirazı (HMK m. 19):** Bu yetki kuralları kesin değildir. Davalı, itirazını **cevap dilekçesinde** yapmalı ve yetkili mahkemeyi, birden fazla yetkili mahkeme varsa seçtiğini göstermelidir. Aksi hâlde itiraz dikkate alınmaz. Süresinde ve usulüne uygun itiraz yoksa davanın açıldığı mahkeme yetkili hâle gelir.\n- **Yetki sözleşmesi (HMK m. 17-18):** Yalnız tacirler ve kamu tüzel kişileri, yazılı olarak yetkili mahkeme belirleyebilir. Aksi kararlaştırılmadıkça dava yalnız o mahkemede açılır.\n\n> **Örnek:** Merkezi İzmir'de bulunan X Ltd. Şti., Kayseri'de oturan Ömer'e mobilya satar. 250.000 TL bedel ödenmez. X Ltd. Şti. davayı İzmir'de açar. Ömer'in \"dava Kayseri'de açılmalı\" diyerek yaptığı yetki itirazı reddedilir. Çünkü bedel borcu para borcudur, ifa yeri alacaklının bulunduğu İzmir'dir ve HMK m. 10 ifa yeri mahkemesini de yetkili kılar.\n\n> ⚠️ **Sınavda dikkat:** HMK m. 10 alacaklıya ek bir seçenek verir, genel yetkili mahkemeyi ortadan kaldırmaz. X Ltd. Şti. isterse davayı Kayseri'de de açabilir.\n\n## 2. İfa zamanı\n\n### 2.1 Hemen ifa kuralı (TBK m. 90)\n- **Muacceliyet**, alacaklının ifayı isteyebilmesi ve borçlunun ifa etmek zorunda olmasıdır.\n- TBK m. 90'a göre ifa zamanı taraflarca kararlaştırılmamışsa ve hukuki ilişkinin özelliğinden de anlaşılmıyorsa her borç **doğduğu anda muaccel** olur.\n- **İfa edilebilirlik** ise borçlunun ifada bulunabilmesidir. Erken ifa (m. 96) bu kavramla ilgilidir.\n\nHemen ifa kuralının üç sınırı vardır:\n1. **Taraf anlaşması:** Vade kararlaştırılmışsa borç o gün muaccel olur.\n2. **Hukuki ilişkinin özelliği:** Ölçüye göre dikilecek bir gelinlik, siparişin verildiği gün hazır olamaz. Edimin niteliği makul bir süreyi gerektirir.\n3. **Kanunun özel hükümleri:**\n   - **Ödünç:** Geri verme için belirli bir gün, bildirim süresi ya da istem anında muacceliyet kararlaştırılmamışsa ödünç alan, **ilk istemden itibaren altı hafta** geçmedikçe geri vermek zorunda değildir (TBK m. 392).\n   - **Kira:** Kiracı, aksine sözleşme ve yerel âdet yoksa kira bedelini **her ayın sonunda** ve en geç kira süresinin bitiminde öder (TBK m. 314).\n   - **Eser:** İş sahibinin bedel borcu **eserin teslimi anında** muaccel olur (TBK m. 479/1).\n\n> **Örnek:** Ayşe 1 Mart'ta arkadaşı Burak'a 50.000 TL ödünç verir. Geri ödeme günü konuşulmamıştır. Ayşe parayı 10 Mart'ta ister. Burak, ilk istemden itibaren altı hafta geçmedikçe parayı geri vermek zorunda değildir (TBK m. 392).\n\n### 2.2 Takvim kuralları (TBK m. 91-95)\n**Ayın başı, ortası, sonu (m. 91):** Ayın başı 1'i, sonu son günü, ortası 15'idir. Yalnız ay belirtilmişse (\"haziranda ödenecek\") o ayın **son günü** anlaşılır.\n\n**Süre hesabı (m. 92):** Süre sözleşmenin kurulmasından itibaren işliyorsa:\n1. **Gün:** Sözleşmenin kurulduğu gün sayılmaz. Süre, son gün bitince dolar. \"8 gün\" ya da \"15 gün\", bir ya da iki hafta değil, **tam** 8 ya da 15 gündür.\n2. **Hafta:** Süre, son haftada sözleşmenin kurulduğu günle **aynı adı taşıyan** günde dolar.\n3. **Ay ve yıl:** Süre, son ayda sözleşmenin kurulduğu güne karşılık gelen günde dolar. O ayda böyle bir gün yoksa ayın son günü dolar.\n4. **Yarım ay** 15 gündür. \"Bir buçuk ay\" gibi sürelerde son aya 15 gün eklenir.\n\nBu kurallar, süre başka bir andan işlemeye başlasa da uygulanır. Belli bir süre **içinde** ifa edilecek borç, süre dolmadan ifa edilmelidir.\n\n> **Örnek (gün mü hafta mı?):** Sözleşme 1 Haziran 2026 Pazartesi günü kurulmuştur. \"15 gün içinde teslim\" kararlaştırıldıysa süre 16 Haziran'da dolar. \"İki hafta içinde\" denseydi süre 15 Haziran Pazartesi günü dolardı.\n\n> **Örnek (ay):** 31 Mart 2026'da kurulan sözleşmedeki \"bir ay\" süre, nisanda 31. gün olmadığı için 30 Nisan 2026 Perşembe günü dolar.\n\n**Tatil günü (m. 93):** İfa zamanı ya da sürenin son günü kanunlarda tatil kabul edilen bir güne rastlarsa, **kendiliğinden** izleyen ve tatil olmayan ilk güne geçer. Aksine anlaşma geçerlidir.\n\n> **Örnek:** Son ödeme günü 29 Ekim 2026 Perşembe, yani Cumhuriyet Bayramı'dır. Ödeme kendiliğinden 30 Ekim Cuma gününe geçer. O gün ödeyen borçlu geç kalmış sayılmaz.\n\n**İş saatleri (m. 94):** Borç, alışılmış iş saatlerinde ifa ve kabul edilir.\n\n> **Örnek:** Toptancı, siparişi gece yarısı kapalı bir dükkânın önüne getirir. Dükkân sahibi o saatte malı kabul etmek zorunda değildir. Reddetmesi onu alacaklı temerrüdüne düşürmez.\n\n**Sürenin uzatılması (m. 95):** Uzatılan yeni süre, aksi kararlaştırılmadıkça önceki sürenin sona ermesini izleyen **ilk günden** başlar. Teslim süresi 10 Kasım'da doluyorsa ve taraflar on gün uzatma verirse yeni süre 11 Kasım'da başlar ve 20 Kasım'da dolar.\n\n### 2.3 Erken ifa (TBK m. 96)\n- **Kural:** Borçlu, edimini süre dolmadan ifa edebilir. Süre, kural olarak borçlunun yararına konulmuş sayılır.\n- **İstisna:** Sözleşmenin hükümlerinden ya da özelliğinden veya durumun gereğinden tarafların aksini kastettiği anlaşılıyorsa erken ifa yapılamaz.\n- **İndirim yasağı:** Kanun, sözleşme ya da âdet gereği değilse borçlu, erken ifa ettiği için **indirim yapamaz**.\n- **Kanun gereği indirim:** Konut finansmanı borcunu vadesinden önce ödeyen tüketiciye, finansman kuruluşu erken ödenen miktara göre faiz ve diğer maliyetlerden indirim yapmak zorundadır (TKHK m. 37).\n\n> **Örnek:** Zehra, 1 Aralık'ta ödeyeceği 100.000 TL'lik borcu 1 Eylül'de ödemek ister. Bunu yapabilir. Ama \"üç ay erken ödüyorum\" diyerek 97.000 TL yatıramaz. 3.000 TL için borcu devam eder.\n\n> **Örnek (erken ifa yapılamaz):** 20 Haziran'daki bir düğün için 300 kişilik yemek ısmarlanmıştır. Lokantacı yemeği 15 Haziran'da teslim edemez. Durumun gereği, ifanın düğün günü yapılmasını gerektirir.\n\n### 2.4 Muacceliyetin bağlantılı sonuçları\n- **Temerrüt:** Muaccel bir borcun borçlusu, kural olarak alacaklının ihtarıyla temerrüde düşer. İfa günü birlikte belirlenmişse bu günün geçmesiyle ihtara gerek kalmadan temerrüde düşer (TBK m. 117). Ayrıntısı borçlu temerrüdü konusunda.\n- **Zamanaşımı:** Zamanaşımı alacağın muaccel olmasıyla işlemeye başlar. Muacceliyet bir bildirime bağlıysa, bildirimin yapılabileceği günden işler (TBK m. 149). Ayrıntısı zamanaşımı konusunda.\n\n## 3. Karşılıklı sözleşmelerde ifa sırası: ödemezlik def'i (TBK m. 97)\n\n### 3.1 Kural: edimler aynı anda ifa edilir\n**Tam iki tarafa borç yükleyen sözleşmede** (satış, kira, eser, trampa gibi) her tarafın edimi, diğer tarafın ediminin karşılığıdır. Bu bağa **karşılıklılık (değişim) ilişkisi** denir. Kural, iki edimin **aynı anda**, yani elden ele ifa edilmesidir. Satış için kanun bunu açıkça söyler: sözleşme ya da âdet aksini öngörmedikçe satıcı ve alıcı borçlarını aynı anda ifa eder (TBK m. 207/2).\n\nTBK m. 97 bu dengeyi korur. Karşılıklı borç yükleyen bir sözleşmenin ifasını isteyen taraf, sonra ifa etme hakkı yoksa **kendi borcunu ifa etmiş ya da ifasını önermiş** olmalıdır. Aksi hâlde karşı taraf kendi edimini ifadan kaçınabilir. Kanun bu kurumu adlandırmaz. Öğretide ve uygulamada buna **ödemezlik def'i** denir.\n\n> **Örnek:** Melis, Okan'dan ikinci el bir piyanoyu 120.000 TL'ye satın alır. Teslim ve ödeme günü 5 Mayıs'tır. Okan, piyanoyu getirmeden ve teslimi önermeden bedeli ister. Melis, piyano kendisine teslim edilmedikçe ya da teslimi gereği gibi önerilmedikçe ödemekten kaçınabilir.\n\n### 3.2 Şartlar\n1. **Tam iki tarafa borç yükleyen bir sözleşme** olmalıdır. Bağışlama gibi yalnız bir tarafa borç yükleyen sözleşmelerde def'i söz konusu olmaz.\n2. Def'i, **karşılıklılık ilişkisi içindeki edimler** için ileri sürülür. Örneğin satışta bedel borcu ile teslim ve mülkiyeti devir borcu.\n3. Def'i ileri süren taraf **önce ifa yükümlüsü olmamalıdır.** İfayı isteyen tarafın sözleşmenin koşullarına ve özelliklerine göre sonra ifa etme hakkı varsa karşı taraf def'iye dayanamaz.\n4. İfayı isteyen taraf **kendi edimini ifa etmemiş ve gereği gibi önermemiş** olmalıdır. Öneri doğru yerde, doğru zamanda ve eksiksiz yapılmalıdır. Borcun tamamı belli ve muaccelse alacaklı kısmi ifa önerisini reddedebilir (TBK m. 84).\n5. Def'i **ileri sürülmelidir** (aşağıda 3.4).\n\n### 3.3 Önce ifa yükümlülüğü nereden doğar?\n- **Sözleşmeden:** \"Bedelin son taksiti teslimden üç ay önce ödenecektir\" denmişse alıcı önce ifa eder. Taksiti ödemeyen alıcı, teslimi isteyemez.\n- **Kanundan ve sözleşmenin özelliğinden:**\n  - **Kira:** Kira bedeli, aksine sözleşme ve yerel âdet yoksa ay sonunda ödenir (TBK m. 314). Kiraya veren, kullanımı önce sağlar.\n  - **Eser:** Bedel, eserin teslimi anında muaccel olur (TBK m. 479/1). Yüklenici işi önce yapar. İş sahibi, eser teslim edilmeden bedeli ödemek zorunda değildir.\n\n> **Örnek:** Kiraya veren Yusuf, daireyi teslim etmeden kiracı Ece'den ilk ayın kirasını ister. Sözleşmede ödeme zamanı yoktur ve yerel âdet de yoktur. Kira ay sonunda ödeneceği için Ece'nin borcu henüz muaccel değildir. Önce Yusuf daireyi teslim etmelidir.\n\n> ⚠️ **Sınavda dikkat:** Önce ifa yükümlüsü olan taraf ödemezlik def'ine dayanamaz. Karşı tarafın mali durumu bozulmuşsa onu TBK m. 98 korur.\n\n### 3.4 Hukuki niteliği: geciktirici bir def'i\n- **Def'i**, var olan bir hakkın kullanılmasını engelleyen bir savunma aracıdır. **İtirazdan** farkı, ancak ileri sürülürse dikkate alınmasıdır.\n- Ödemezlik def'i borcu sona erdirmez. Yalnız, karşı taraf ifa edene ya da ifayı önerene kadar kendi edimini **geri tutma** imkânı verir. Bu yüzden **geciktirici (erteleyici)** bir def'idir.\n- **Baskın görüşe göre** hâkim bu def'iyi **kendiliğinden dikkate almaz**. Davalı ileri sürmelidir. Def'inin adını koymak gerekmez. \"Karşı taraf kendi borcunu ifa etmediği için ben de ifa etmiyorum\" diyen davalı def'iyi ileri sürmüştür. Hukuki nitelendirmeyi hâkim yapar.\n- Def'i dava dışında da, örneğin bir ihtarnameyle ya da icra takibine itirazda ileri sürülebilir.\n\n### 3.5 Sonuçları\n1. **İfadan kaçınma:** Def'i ileri süren taraf, karşı taraf ifa edene ya da önerene kadar kendi edimini ifa etmez.\n2. **Davadaki sonuç:** Ağırlıklı görüşe göre def'i yerindeyse dava bütünüyle reddedilmez. Mahkeme edimlerin **karşılıklı (birlikte) ifasına** hükmeder. Yargıtay'ın yerleşik uygulamasında, örneğin taşınmaz satışına dayanan tescil davasında, mahkeme davacıya ödemediği bedeli **depo etmesi** için süre verir. Bedel depo edilirse tescile karar verir. Davanın şimdilik reddedildiği kararlar da vardır (bkz. doktrin).\n3. **Temerrüt:** Def'i hakkına dayanan taraf, karşı taraf kendi edimini önermedikçe temerrüde düşmez. Bu yüzden kendi edimini ifa etmeyen tarafın gecikme tazminatı ya da ceza koşulu istemi reddedilebilir.\n4. **İspat:** Def'i ileri sürüldüğünde, ifayı isteyen davacı kendi edimini ifa ettiğini ya da önerdiğini veya sonra ifa etme hakkı bulunduğunu ispatlar (TMK m. 6).\n\n> **Örnek:** Yüklenici bir şirket, yapmakta olduğu binadaki bir dükkânı Kerim'e 600.000 TL'ye satmıştır. Sözleşmeye göre Kerim bedelin son taksitini teslimden önce ödeyecektir. Kerim 80.000 TL'lik son taksiti ödemeden geç teslim nedeniyle tazminat ister. Yüklenici cevap dilekçesinde ödemezlik def'ine dayanır. Kerim önce ifa yükümlüsü olduğu için def'i yerindedir. Yüklenici temerrüde düşmemiştir ve tazminat istemi reddedilir.\n\n### 3.6 Sınırlar\n- **Dürüstlük kuralı (TMK m. 2):** Eksik kalan edim karşı edime göre çok önemsizse, bütün karşı edimi geri tutmak hakkın kötüye kullanılması olabilir. Örneğin 5.000.000 TL'lik bir binada 20.000 TL'lik bir eksik yüzünden bedelin tamamını ödememek.\n- **Kısmi ya da ayıplı ifa:** Def'inin bu hâllerde ne ölçüde ileri sürülebileceği tartışmalıdır (bkz. doktrin).\n\n### 3.7 Benzer kurumlardan farkı\n\n| Ölçüt | Ödemezlik def'i | Hapis hakkı |\n|---|---|---|\n| Dayanak | Karşılıklı sözleşme (TBK m. 97) | Zilyetlik ve bağlantı (TMK m. 950) |\n| Geri tutulan | Kendi edimi | Borçlunun taşınırı |\n| Sonuç | Yalnız erteleme | Paraya çevirtme (TMK m. 953) |\n\n- **Hapis hakkı**, alacaklının rızayla zilyedi olduğu, borçluya ait taşınırı ya da kıymetli evrakı, borç muaccelse ve alacakla bağlantılıysa borç ödeninceye kadar elinde tutmasıdır (TMK m. 950). Borç ödenmez ve yeterli güvence de verilmezse alacaklı, bu şeyin teslime bağlı rehin hükümlerine göre paraya çevrilmesini isteyebilir (TMK m. 953).\n- **Takas** (TBK m. 139), karşılıklı ve muaccel para ya da özdeş edim borçlarını **sona erdirir**. Ödemezlik def'i ise hiçbir borcu sona erdirmez ve edimlerin aynı türden olmasını aramaz. Takasın ayrıntısı ayrı konuda.\n\n## 4. Karşı tarafın ifa güçsüzlüğü (TBK m. 98)\nÖnce ifa yükümlüsü taraf, karşılığını sonra alacağı için risk altındadır. TBK m. 98 onu, karşı tarafın mali durumunun çökmesine karşı korur.\n\n**Şartlar:**\n1. Karşılıklı borç yükleyen bir sözleşme.\n2. Karşı tarafın **ifada güçsüzlüğe düşmesi**. Kanun özellikle iflası ve hakkındaki haciz işleminin sonuçsuz kalmasını sayar. Sayım örnek niteliğindedir (\"özellikle\").\n3. Bu güçsüzlük yüzünden diğer tarafın hakkının **tehlikeye düşmesi**.\n\n**Sonuçlar:**\n- **Güvence def'i (m. 98/1):** Hakkı tehlikeye düşen taraf, karşı edimin ifası güvence altına alınıncaya kadar kendi ediminin ifasından kaçınabilir. Güvence; rehin, kefil ya da banka teminat mektubu olabilir.\n- **Dönme (m. 98/2):** İstediği güvence **uygun bir sürede** verilmezse sözleşmeden dönebilir. Bunun için karşı tarafın temerrüdü aranmaz. Temerrüt hâlindeki dönme ise ayrı şartlara bağlıdır (TBK m. 123-125, ayrıntısı ayrı konuda).\n\n> **Örnek:** Makine üreticisi X A.Ş., Y Ltd. Şti. adlı şirkete 2.000.000 TL'ye bir pres makinesi satar. Makine 1 Haziran'da teslim edilecek, bedel teslimden 90 gün sonra ödenecektir. Mayısta Y Ltd. Şti. hakkındaki hacizlerin sonuçsuz kaldığı öğrenilir. X A.Ş. bedel için güvence ister ve güvence verilinceye kadar makineyi teslim etmez. Güvence uygun sürede verilmezse sözleşmeden dönebilir.\n\n## 5. TBK m. 97 ile m. 98 karşılaştırması\n\n| Ölçüt | TBK m. 97 | TBK m. 98 |\n|---|---|---|\n| Kimi korur? | Önce ifa yükümlüsü olmayanı | Özellikle önce ifa yükümlüsünü |\n| Şart | Karşı taraf ifa etmemiş, önermemiş | Karşı tarafın ifa güçsüzlüğü |\n| Ne zamana kadar? | Karşı edim ifa edilene ya da önerilene kadar | Güvence verilene kadar |\n| Ek imkân | Yok | Güvence gelmezse dönme |\n\n## 6. Olay çözerken denetim şeması\n1. **Borç ne tür?** Para borcu mu, parça borcu mu, diğer bir borç mu? Önce taraf iradesine, yoksa TBK m. 89'a göre ifa yerini bul.\n2. **Usul sorusu var mı?** Genel yetki (HMK m. 6), sözleşmeden doğan dava (HMK m. 10), haksız fiil (HMK m. 16), yetki itirazının zamanı (HMK m. 19), icra takibi (İİK m. 50).\n3. **Borç muaccel mi?** TBK m. 90, sözleşme ve özel kurallar (m. 392, m. 314, m. 479). Süreyi m. 91-95'e göre hesapla. Erken ifa sorusunda m. 96.\n4. **Karşılıklı sözleşme mi?** Kim önce ifa edecek? Sözleşmeye, kanuna ve TBK m. 207/2'ye bak.\n5. **İfa isteyen, kendi edimini ifa etti mi ya da gereği gibi önerdi mi?** Def'i ileri sürüldü mü? (m. 97)\n6. **Önce ifa yükümlüsünün karşı tarafı güçsüzleşti mi?** Güvence ve dönme (m. 98).\n7. **Sonuç:** Karşılıklı ifaya hüküm (gerekirse depo), temerrüdün bulunmaması, ispat yükü.",
+  "critical_md": "- 📌 İfa yerinde sıra: önce tarafların açık ya da örtülü iradesi, o yoksa TBK m. 89/1'deki yedek kurallar.\n- 📌 Para borcu alacaklının **ödeme zamanındaki** yerleşim yerinde ödenir (götürülecek borç). Parça borcu, sözleşme kurulurken malın bulunduğu yerde; diğer borçlar, borç doğarken borçlunun yerleşim yerinde ifa edilir (aranacak borç).\n- ⚠️ Parça borcunda malın sonradan başka yere taşınması, cins borcunda borçlunun sonradan taşınması ifa yerini değiştirmez. Para borcunda ise ödeme anındaki yerleşim yerine bakılır.\n- 📌 Alacaklı taşınır ve bu yüzden ifa önemli ölçüde güçleşirse borçlu, alacaklının önceki yerleşim yerinde ifa **edebilir** (TBK m. 89/2). Bu, borçluya tanınmış bir imkândır.\n- ⚠️ HMK m. 10 ek bir seçenektir. Sözleşmeden doğan para alacağında alacaklı kendi yerleşim yerinde de dava açabilir, ama davalının yerleşim yeri mahkemesi (HMK m. 6) de yetkili kalır. Haksız fiil davalarında dayanak HMK m. 16'dır.\n- 📌 Yetki itirazı cevap dilekçesinde ve yetkili mahkeme gösterilerek yapılır. Yapılmazsa davanın açıldığı mahkeme yetkili hâle gelir (HMK m. 19). Yetki sözleşmesini yalnız tacirler ve kamu tüzel kişileri yapabilir (HMK m. 17).\n- 📌 Kararlaştırılmamışsa borç doğduğu anda muaccel olur (TBK m. 90). Özel kurallar: ödünçte ilk istemden itibaren altı hafta (TBK m. 392), kirada ay sonu (TBK m. 314), eserde teslim anı (TBK m. 479).\n- 📌 Süre hesabı (TBK m. 92): sözleşmenin kurulduğu gün sayılmaz. \"15 gün\" iki hafta değildir. Ay süresinde karşılık gelen gün yoksa ayın son günü esas alınır.\n- 📌 Son gün resmî tatilse kendiliğinden izleyen ilk iş gününe geçer, aksine anlaşma geçerlidir (TBK m. 93). Uzatılan süre önceki sürenin bitimini izleyen günden başlar (TBK m. 95).\n- ⚠️ Erken ifa kural olarak serbesttir ama erken ödeyen borçlu indirim yapamaz (TBK m. 96). Kanun gereği indirime örnek: konut finansmanında erken ödeme (TKHK m. 37).\n- 📌 Ödemezlik def'inin şartları (TBK m. 97): tam iki tarafa borç yükleyen sözleşme, karşılıklı edimler, def'i ileri sürenin önce ifa yükümlüsü olmaması, ifa isteyenin kendi edimini ifa etmemesi ve gereği gibi önermemesi.\n- ⚠️ Def'i borcu sona erdirmez, yalnız erteler. Baskın görüşe göre hâkim kendiliğinden dikkate almaz. Borcu sona erdiren takastan ve eşya üzerindeki hapis hakkından farklıdır.\n- 📌 Ağırlıklı görüşe göre def'i yerindeyse sonuç davanın reddi değil, karşılıklı ifaya hükümdür. Tescil davasında Yargıtay kalan bedeli depo ettirir ve depo edilirse tescile karar verir.\n- ⚠️ Önce ifa yükümlüsü def'iye dayanamaz. Onu TBK m. 98 korur: karşı taraf iflas eder ya da hakkındaki haciz sonuçsuz kalırsa güvence verilinceye kadar kaçınma, güvence uygun sürede verilmezse dönme.\n- ⚠️ Def'i hakkına dayanan taraf temerrüde düşmez. İfa isteyen davacı kendi edimini ifa ettiğini ya da önerdiğini ispatlar. Yanlış yerde, yanlış zamanda ya da eksik yapılan öneri gereği gibi öneri değildir.",
+  "doctrine_md": "### Para borcundaki ifa yeri kuralı her para borcuna uygulanır mı?\nSözleşmeden doğan para alacaklarında alacaklının yerleşim yeri mahkemesinin de yetkili olması Yargıtay'ın yerleşik uygulamasıdır. Tartışma özellikle tazminat istemlerinde çıkar. Hukuk Genel Kurulu çoğunluğu, sözleşmenin haksız feshinden doğan tazminat istemini de para alacağı saymış ve alacaklının HMK m. 10'a dayanarak kendi yerleşim yerinde dava açabileceğini kabul etmiştir. Karşı oy ve öğretideki bir görüş buna karşı çıkar. Bu görüşe göre, sonunda paraya hükmedilen her istemi para borcu saymak, davalının yerleşim yeri kuralını (HMK m. 6) istisnaya çevirir. Kural, alacaklının verdiği paranın geri ödenmesi gibi borçlarla sınırlı tutulmalıdır.\n\n### Ödemezlik def'i: def'i mi, itiraz mı?\nTBK m. 97, ifa isteyen tarafa bir şart yüklüyor gibi kaleme alınmıştır. Bir görüş bu lafza dayanarak, kendi edimini ifa etmenin ya da önermenin istemin bir unsuru olduğunu ve hâkimin bunu kendiliğinden gözetmesi gerektiğini savunur. **Baskın görüş** ise kurumu gerçek bir def'i sayar. Davalı ileri sürmedikçe dikkate alınmaz. İleri sürülünce, kendi edimini ifa ettiğini ya da önerdiğini ispat yükü davacıya düşer.\n\n### Def'inin davadaki sonucu\nÖğretide ağırlıklı görüş, def'i yerindeyse davanın reddedilmemesini, davalının karşı edimin ifası karşılığında ifaya mahkûm edilmesini savunur. Yargıtay da tescil davalarında kalan bedeli depo ettirerek bu yolu izler. Uygulamada, özellikle takibin haklılığının takip tarihine göre değerlendirildiği itirazın iptali davalarında, def'i yerinde görülünce davanın şimdilik reddedildiği kararlar da vardır. Karşılıklı ifaya bağlı bir hükmün nasıl icra edileceği de ayrıca tartışılır.\n\n### Def'inin temerrüde etkisi\nBir görüşe göre def'i hakkının **varlığı** yeter. Karşı taraf kendi edimini önermedikçe borçlu temerrüde düşmez. Diğer görüşe göre def'i **ileri sürülmedikçe** temerrüt engellenmez. Olay çözerken def'inin ileri sürülüp sürülmediğini ayrıca belirt.\n\n### Kısmi ya da ayıplı ifada def'i\nBir görüşe göre edimi gereği gibi ifa edilmeyen taraf, karşı edimin tamamını geri tutabilir. Diğer görüşe göre def'i, eksik ya da ayıplı kısımla orantılı olmalıdır. Önemsiz bir eksiklik yüzünden bütün edimi geri tutmak dürüstlük kuralına aykırıdır (TMK m. 2). Uygulamada da orantısız bir geri tutmanın hakkın kötüye kullanılması sayılabileceği vurgulanır.\n\n### TBK m. 98'de güçsüzlüğün zamanı\nKanun \"güçsüzlüğe düşme\"den söz eder. Baskın görüşe göre güçsüzlük sözleşmeden sonra ortaya çıkmalı ya da sözleşme kurulurken bilinmeyip sonradan öğrenilmelidir. Karşı tarafın güçsüzlüğünü bilerek sözleşme yapan taraf bu hükme dayanamaz. Kanun koyucu benzer bir ölçütü hapis hakkı için açıkça kullanmıştır (TMK m. 952).",
+  "glossary": [
+   {
+    "term": "İfa yeri",
+    "definition": "Borçlunun edimini yerine getirmesi ve alacaklının ifayı kabul etmesi gereken yer (TBK m. 89)."
+   },
+   {
+    "term": "Götürülecek borç",
+    "definition": "Borçlunun edimi alacaklının yerleşim yerine götürmek zorunda olduğu borç. Para borcu tipik örnektir."
+   },
+   {
+    "term": "Aranacak borç",
+    "definition": "Alacaklının edimi borçlunun bulunduğu yerden gidip alması gereken borç. Kanunun yedek kuralına göre para ve parça borçları dışındaki borçlar böyledir."
+   },
+   {
+    "term": "Gönderilecek borç",
+    "definition": "Borçlunun, alacaklının isteğiyle edimi ifa yerinden başka bir yere göndermeyi üstlendiği durum. İfa yeri değişmez, yalnız gönderme işi eklenir."
+   },
+   {
+    "term": "Parça borcu",
+    "definition": "Ferdî olarak belirlenmiş belirli bir şeye ilişkin borç, örneğin plakası belli bir otomobilin teslimi."
+   },
+   {
+    "term": "Cins borcu",
+    "definition": "Yalnız türü ve miktarıyla belirlenmiş bir şeye ilişkin borç, örneğin 100 çuval un."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Alacaklının ifayı isteyebilmesi ve borçlunun ifa etmek zorunda olması. Kural olarak borç doğduğu anda muaccel olur (TBK m. 90)."
+   },
+   {
+    "term": "İfa edilebilirlik",
+    "definition": "Borçlunun edimini ifa edebilmesi. Borçlu kural olarak süreden önce de ifa edebilir (TBK m. 96)."
+   },
+   {
+    "term": "Ödemezlik def'i",
+    "definition": "Karşılıklı borç yükleyen sözleşmede, karşı taraf kendi edimini ifa etmedikçe ya da önermedikçe kendi ediminin ifasından kaçınma hakkı (TBK m. 97)."
+   },
+   {
+    "term": "Aynı anda ifa",
+    "definition": "Karşılıklı edimlerin elden ele, birlikte ifa edilmesi kuralı. Satışta kanunda açıkça yazılıdır (TBK m. 207/2)."
+   },
+   {
+    "term": "Önce ifa yükümlülüğü",
+    "definition": "Sözleşme, kanun ya da sözleşmenin özelliği gereği taraflardan birinin edimini karşı taraftan önce ifa etmek zorunda olması. Bu taraf ödemezlik def'ine dayanamaz."
+   },
+   {
+    "term": "Def'i",
+    "definition": "Var olan bir hakkın kullanılmasını engelleyen ve ancak ileri sürülürse dikkate alınan savunma aracı. İtirazdan bu yönüyle ayrılır."
+   },
+   {
+    "term": "İfa güçsüzlüğü",
+    "definition": "Borçlunun özellikle iflası ya da hakkındaki haciz işleminin sonuçsuz kalması gibi sebeplerle borcunu ödeyemeyecek duruma düşmesi (TBK m. 98)."
+   },
+   {
+    "term": "Özel yetki",
+    "definition": "Genel yetkili mahkemenin yanında, belirli davalar için ayrıca yetkili kılınan mahkeme. Örneğin sözleşmeden doğan davalarda ifa yeri mahkemesi (HMK m. 10)."
+   },
+   {
+    "term": "Karşılıklı ifaya mahkûmiyet",
+    "definition": "Def'i yerindeyse davanın reddi yerine, davalının davacının kendi edimini ifası karşılığında ifaya mahkûm edilmesi. Tescil davalarında depo yoluyla uygulanır."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "89",
+   "official_text": "B. İfa yeri\nMADDE 89- Borcun ifa yeri, tarafların açık veya örtülü iradelerine göre belirlenir. Aksine bir anlaşma yoksa, aşağıdaki hükümler uygulanır;\n1. Para borçları, alacaklının ödeme zamanındaki yerleşim yerinde,\n2. Parça borçları, sözleşmenin kurulduğu sırada borç konusunun bulunduğu yerde,\n3. Bunların dışındaki bütün borçlar, doğumları sırasında borçlunun yerleşim yerinde,\nifa edilir.\nAlacaklının yerleşim yerinde ifası gereken bir borcun doğumundan sonra alacaklının yerleşim yerini değiştirmesi sebebiyle ifa önemli ölçüde güçleşmişse borç, alacaklının önceki yerleşim yerinde ifa edilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "90",
+   "official_text": "MADDE 90- İfa zamanı taraflarca kararlaştırılmadıkça veya hukuki ilişkinin özelliğinden anlaşılmadıkça her borç, doğumu anında muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "91",
+   "official_text": "MADDE 91- Borcun ifası için bir ayın başlangıcı veya sonu belirlenmişse, bundan ayın birinci ve sonuncu günü; ayın ortası belirlenmişse, bundan da ayın onbeşinci günü anlaşılır.\nBorcun ifası için gün belirtilmeksizin sadece ay belirlenmişse, bundan o ayın son günü anlaşılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "92",
+   "official_text": "MADDE 92- Bir borcun veya taraflardan birine düşen herhangi bir yükümlülüğün sözleşmenin kurulmasından başlayarak belli bir sürenin sonunda ifası gerekiyorsa, ifa zamanı aşağıdaki biçimde belirlenir:\n1. Gün olarak belirlenmiş süre, sözleşmenin kurulduğu gün sayılmaksızın, bu sürenin son günü dolmuş olur. Sekiz veya onbeş gün olarak belirlenmiş süre ise, bir veya iki haftayı değil, tam sekiz veya onbeş günü ifade eder.\n2. Hafta olarak belirlenmiş süre, son haftanın sözleşmenin kurulduğu güne ismen uyan gününde dolmuş olur.\n3. Ay olarak veya yıl, yarıyıl ve yılın dörtte biri gibi birden çok ayı içeren bir zaman olarak belirlenmiş süre, sözleşmenin kurulduğu gün ayın kaçıncı günü ise, son ayın bunu karşılayan gününde dolmuş olur. Son ayda bunu karşılayan gün yoksa süre, bu ayın son günü dolmuş sayılır.\n4. Yarım aydan onbeş günlük süre anlaşılır. Bir veya birden çok ay ve yarım ay olarak belirlenmiş sürenin dolduğu gün, son aya onbeş gün eklenerek belirlenir.\nBu kurallar, sürenin sözleşmenin kurulmasından başka bir andan işlemeye başladığı durumlarda da uygulanır.\nBorçlu, belirli bir süre içinde yerine getirilmesi gereken bir borcu, bu sürenin dolmasından önce ifa etmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "93",
+   "official_text": "MADDE 93- İfa zamanı veya sürenin son günü, kanunlarda tatil olarak kabul edilen bir güne rastlarsa, kendiliğinden bu günü izleyen ve tatil olmayan ilk güne geçer.\nAksine anlaşma geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "94",
+   "official_text": "MADDE 94- Borç, alışılmış iş saatlerinde ifa ve kabul edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "95",
+   "official_text": "MADDE 95- Süre uzatılmış ise yeni süre, aksi kararlaştırılmış olmadıkça, önceki sürenin sona ermesini izleyen birinci günden başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "96",
+   "official_text": "MADDE 96- Sözleşmenin hükümlerinden veya özelliğinden ya da durumun gereğinden tarafların aksini kastettikleri anlaşılmadıkça borçlu, edimini sürenin sona ermesinden önce ifa edebilir. Ancak, kanun veya sözleşme ya da âdet gereği olmadıkça borçlu, erken ifada bulunması sebebiyle indirim yapamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "97",
+   "official_text": "MADDE 97- Karşılıklı borç yükleyen bir sözleşmenin ifası isteminde bulunan tarafın, sözleşmenin koşullarına ve özelliklerine göre daha sonra ifa etme hakkı olmadıkça, kendi borcunu ifa etmiş ya da ifasını önermiş olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "98",
+   "official_text": "MADDE 98- Karşılıklı borç yükleyen bir sözleşmede, taraflardan birinin borcunu ifada güçsüzlüğe düşmesi ve özellikle iflas etmesi ya da hakkındaki haciz işleminin sonuçsuz kalması sebebiyle diğer tarafın hakkı tehlikeye düşerse bu taraf, karşı edimin ifası güvence altına alınıncaya kadar kendi ediminin ifasından kaçınabilir.\nHakkı tehlikeye düşen taraf, ayrıca uygun bir sürede istediği güvence verilmezse sözleşmeden dönebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "84",
+   "official_text": "MADDE 84- Borcun tamamı belli ve muaccel ise, alacaklı kısmen ifayı reddedebilir.\nAlacaklı kısmen ifayı kabul ederse borçlu, borcun kendisi tarafından ikrar olunan kısmını ifadan kaçınamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "106",
+   "official_text": "MADDE 106- Yapma veya verme edimi gereği gibi kendisine önerilen alacaklı, haklı bir sebep olmaksızın onu kabulden veya borçlunun borcunu ifa edebilmesi için kendisi tarafından yapılması gereken hazırlık fiillerini yapmaktan kaçınırsa, temerrüde düşmüş olur.\nAlacaklı, müteselsil borçlulardan birine karşı temerrüde düşerse, diğerlerine karşı da temerrüde düşmüş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "123",
+   "official_text": "MADDE 123- Karşılıklı borç yükleyen sözleşmelerde, taraflardan biri temerrüde düştüğü takdirde diğeri, borcun ifa edilmesi için uygun bir süre verebilir veya uygun bir süre verilmesini hâkimden isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "139",
+   "official_text": "1. Genel olarak\nMADDE 139- İki kişi, karşılıklı olarak bir miktar para veya özdeş diğer edimleri birbirine borçlu oldukları takdirde, her iki borç muaccel ise her biri alacağını borcuyla takas edebilir.\nAlacaklardan biri çekişmeli olsa bile takas ileri sürülebilir.\nZamanaşımına uğramış bir alacağın takası, ancak takas edilebileceği anda henüz zamanaşımına uğramamış olması koşuluyla ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "149",
+   "official_text": "MADDE 149- Zamanaşımı, alacağın muaccel olmasıyla işlemeye başlar.\nAlacağın muaccel olmasının bir bildirime bağlı olduğu hâllerde, zamanaşımı bu bildirimin yapılabileceği günden işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "207",
+   "official_text": "MADDE 207- Satış sözleşmesi, satıcının, satılanın zilyetlik ve mülkiyetini alıcıya devretme, alıcının ise buna karşılık bir bedel ödeme borcunu üstlendiği sözleşmedir.\nSözleşme ile aksi kararlaştırılmadıkça veya aksine bir âdet bulunmadıkça, satıcı ve alıcı borçlarını aynı anda ifa etmekle yükümlüdürler.\nDurum ve koşullara göre belirlenmesi mümkün olan bedel, kararlaştırılmış bedel hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "208",
+   "official_text": "B. Yarar ve hasar\nMADDE 208- Kanundan, durumun gereğinden veya sözleşmede öngörülen özel koşullardan doğan ayrık hâller dışında, satılanın yarar ve hasarı; taşınır satışlarında zilyetliğin devri, taşınmaz satışlarında ise tescil anına kadar satıcıya aittir.\nTaşınır satışlarında, alıcının satılanın zilyetliğini devralmada temerrüde düşmesi durumunda zilyetliğin devri gerçekleşmişçesine satılanın yarar ve hasarı alıcıya geçer.\nSatıcı alıcının isteği üzerine satılanı ifa yerinden başka bir yere gönderirse, yarar ve hasar, satılanın taşıyıcıya teslim edildiği anda alıcıya geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "314",
+   "official_text": "MADDE 314- Kiracı, aksine sözleşme ve yerel âdet olmadıkça, kira bedelini ve gerekiyorsa yan giderleri, her ayın sonunda ve en geç kira süresinin bitiminde ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "392",
+   "official_text": "MADDE 392- Ödüncün geri verilmesi konusunda belirli bir gün ya da bildirim süresi veya borcun geri istendiği anda muaccel olacağı kararlaştırılmamışsa ödünç alan, ilk istemden başlayarak altı hafta geçmedikçe ödüncü geri vermekle yükümlü değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "479",
+   "official_text": "MADDE 479- İşsahibinin bedel ödeme borcu, eserin teslimi anında muaccel olur.\nEserin parça parça teslim edilmesi kararlaştırılmış ve bedel parçalara göre belirlenmişse, her parçanın bedeli onun teslimi anında muaccel olur.\n2. Bedel",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "6",
+   "official_text": "Genel yetkili mahkeme\nMADDE 6- (1) Genel yetkili mahkeme, davalı gerçek veya tüzel kişinin davanın açıldığı tarihteki yerleşim yeri mahkemesidir.\n(2) Yerleşim yeri, 22/11/2001 tarihli ve 4721 sayılı Türk Medenî Kanunu hükümlerine göre belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "10",
+   "official_text": "Sözleşmeden doğan davalarda yetki\nMADDE 10- (1) Sözleşmeden doğan davalar, sözleşmenin ifa edileceği yer mahkemesinde de açılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "16",
+   "official_text": "Haksız fiilden doğan davalarda yetki\nMADDE 16- (1) Haksız fiilden doğan davalarda, haksız fiilin işlendiği veya zararın meydana geldiği yahut gelme ihtimalinin bulunduğu yer ya da zarar görenin yerleşim yeri mahkemesi de yetkilidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "17",
+   "official_text": "Yetki sözleşmesi\nMADDE 17- (1) Tacirler veya kamu tüzel kişileri, aralarında doğmuş veya doğabilecek bir uyuşmazlık hakkında, bir veya birden fazla mahkemeyi sözleşmeyle yetkili kılabilirler. Taraflarca aksi kararlaştırılmadıkça dava sadece sözleşmeyle belirlenen bu mahkemelerde açılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "18",
+   "official_text": "Yetki sözleşmesinin geçerlilik şartları\nMADDE 18- (1) Tarafların üzerinde serbestçe tasarruf edemeyecekleri konular ile kesin yetki hâllerinde, yetki sözleşmesi yapılamaz.\n(2) Yetki sözleşmesinin geçerli olabilmesi için yazılı olarak yapılması, uyuşmazlığın kaynaklandığı hukuki ilişkinin belirli veya belirlenebilir olması ve yetkili kılınan mahkeme veya mahkemelerin gösterilmesi şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "19",
+   "official_text": "Yetki itirazının ileri sürülmesi\nMADDE 19- (1) Yetkinin kesin olduğu davalarda, mahkeme yetkili olup olmadığını, davanın sonuna kadar kendiliğinden araştırmak zorundadır; taraflar da mahkemenin yetkisiz olduğunu her zaman ileri sürebilir.\n(2) Yetkinin kesin olmadığı davalarda, yetki itirazının, cevap dilekçesinde ileri sürülmesi gerekir. Yetki itirazında bulunan taraf, yetkili mahkemeyi; birden fazla yetkili mahkeme varsa seçtiği mahkemeyi bildirir. Aksi takdirde yetki itirazı dikkate alınmaz.\n(3) Mahkeme, yetkisizlik kararında yetkili mahkemeyi de gösterir.\n(4) Yetkinin kesin olmadığı davalarda, davalı, süresi içinde ve usulüne uygun olarak yetki itirazında bulunmazsa, davanın açıldığı mahkeme yetkili hâle gelir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "50",
+   "official_text": "Yetki ve itirazları:\nMadde 50 – (Değişik: 3/7/1940-3890/1 md.)\nPara veya teminat borcu için takip hususunda Hukuk Usulü Muhakemeleri Kanununun yetkiye dair hükümleri kıyas yolu ile tatbik olunur. Şu kadar ki, takibe esas olan akdin yapıldığı icra dairesi de takibe yetkilidir.\nYetki itirazı esas hakkındaki itirazla birlikte yapılır. İcra mahkemesi tarafından önce yetki meselesi tetkik ve kati surette karara raptolunur.\nİki icra mahkemesi arasında yetki noktasından ihtilaf çıkarsa Hukuk Usulü Muhakemeleri Kanununun 25 inci maddesi hükmü tatbik olunur.\nIII. TATİLLER VE TALİKLER\nTatiller:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "19",
+   "official_text": "1. Tanım\nMadde 19- Yerleşim yeri bir kimsenin sürekli kalma niyetiyle oturduğu yerdir.\nBir kimsenin aynı zamanda birden çok yerleşim yeri olamaz.\nBu kural ticarî ve sınaî kuruluşlar hakkında uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "950",
+   "official_text": "Madde 950- Alacaklı, borçluya ait olup onun rızasıyla zilyedi bulunduğu taşınırı veya kıymetli evrakı, borcun muaccel olması ve niteliği itibarıyla bu eşyanın alacak ile bağlantısı bulunması hâlinde, borç ödeninceye kadar hapsedebilir.\nZilyetlik ve alacak ticarî ilişkiden doğmuşsa, tacirler arasında bu bağlantı var sayılır.\nAlacaklı, borçluya ait olmayan taşınırlar üzerinde de zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkına sahip olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "952",
+   "official_text": "III. Borç ödemeden aciz\nMadde 952- Alacaklı, borçlunun ödemeden acze düşmesi hâlinde, alacağı muaccel olmasa bile, hapis hakkını kullanabilir.\nBorç ödemeden aciz, taşınırın tesliminden sonra meydana gelmiş veya daha önce meydana gelmiş olmakla beraber alacaklı bu durumu teslimden sonra öğrenmiş ise; o şeyin belli bir yönde kullanılacağı konusunda alacaklı tarafından yüklenilmiş bir yükümlülük veya borçlunun teslim sırasında ya da daha önce verdiği talimatla bağdaşmasa bile, alacaklı hapis hakkını kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "953",
+   "official_text": "IV. Hükümleri\nMadde 953- Borç yerine getirilmez ve yeterli güvence de gösterilmezse alacaklı, borçluya daha önce bildirimde bulunarak, hapsettiği şeylerin teslime bağlı rehin hükümleri uyarınca paraya çevrilmesini isteyebilir.\nÜzerinde hapis hakkı bulunan nama yazılı kıymetli evrakın paraya çevrilmesi için icra dairesi, borçlu yerine gerekli işlemleri yapar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "37",
+   "official_text": "Erken ödeme\nMADDE 37- (1) Tüketici, vadesi gelmemiş bir veya birden çok taksit ödemesinde bulunabileceği gibi, konut finansmanı borcunun tamamını erken ödeyebilir. Bu hâllerde, konut finansmanı kuruluşu, erken ödenen miktara göre gerekli tüm faiz ve diğer maliyet unsurlarına ilişkin indirim yapmakla yükümlüdür.\n(2) Faiz oranının sabit olarak belirlenmesi hâlinde, sözleşmede yer verilmek suretiyle, bir ya da birden fazla ödemenin vadesinden önce yapılması durumunda, konut finansmanı kuruluşu tarafından tüketiciden erken ödeme tazminatı talep edilebilir. Erken ödeme tazminatı gerekli faiz indirimi yapılarak hesaplanan ve tüketici tarafından konut finansmanı kuruluşuna erken ödenen tutarın kalan vadesi otuz altı ayı aşmayan kredilerde yüzde birini, kalan vadesi otuz altı ayı aşan kredilerde ise yüzde ikisini geçemez. Oranların değişken olarak belirlenmesi hâlinde tüketiciden erken ödeme tazminatı talep edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2013/630",
+   "karar_no": "2014/332",
+   "decision_date": "19.03.2014",
+   "summary_md": "Merkezi İzmir'de bulunan davacı şirket, yolcu transferini üstlendiği sözleşmenin haksız feshedildiğini ileri sürerek kazanç kaybı, masraf ve manevi tazminat olarak 100.000 TL istemiş ve davayı İzmir'de açmıştır. Merkezi Bodrum'daki davalının yetki itirazı üzerine mahkeme yetkisizlik kararı vermiş, Özel Daire bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu çoğunluğu direnme kararını bozmuştur. Gerekçeye göre özel yetki genel yetkiyi kaldırmaz ve davacı ikisi arasında seçim yapar. İfa yeri kararlaştırılmamışsa para borcu alacaklının ödeme zamanındaki yerleşim yerinde ödenir; mülga Borçlar Kanunu'nun 73. maddesindeki bu kural TBK m. 89'da da vardır. Feshe dayanan tazminat da para alacağı olduğundan alacaklı, ifa yeri mahkemesinin yetkisine (bugün HMK m. 10) dayanarak kendi yerleşim yerinde dava açabilir ve orada icra takibi de başlatabilir (İİK m. 50). Karşı oy, her tazminatı para borcu saymanın genel yetki kuralını istisnaya çevireceğini ve kuralın verilen paranın geri ödenmesi gibi borçlarla sınırlı tutulması gerektiğini savunmuştur. Konuya katkısı: TBK m. 89 ile HMK m. 10'un birlikte nasıl uygulandığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/84197700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2021/648",
+   "karar_no": "2022/1653",
+   "decision_date": "06.12.2022",
+   "summary_md": "Davacılar, davalının yapacağı binadan bir daireyi 65.000 TL'ye almak için satış vaadi sözleşmesi yapmıştır. Bedelin son taksiti 05.08.2010'da, yani 31.01.2011 olan teslim tarihinden önce ödenecekti. Davacılar bedelin 5.000 TL'lik kısmını ödemeden, geç teslim nedeniyle kira kaybı ve sözleşmedeki tazminat için başlattıkları takibe yapılan itirazın iptalini istemiştir. İlk derece mahkemesi, edimini tam ifa etmeyen alıcının karşı edimi isteyemeyeceği gerekçesiyle davayı reddetmiş, Özel Daire bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu çoğunluğuna göre satışta edimler kural olarak aynı anda ifa edilir; alıcı teslimden önce ödemekle yükümlü olduğundan satıcı ödemezlik def'ini ileri sürebilir. Ancak satıcı, kalan bedel için 26.08.2011 tarihli yeni bir senet alarak alıcıya yeni bir ödeme imkânı tanımış ve yeni bir teslim tarihi belirlenmemiştir; bu yüzden satıcının en geç bu tarihte teslim etmesi gerektiği kabul edilerek direnme kararı değişik gerekçeyle bozulmuştur. Karşı oy, kalan bedeli ödemeyen ve ödemeyi önermeyen alıcının TBK m. 97 gereği tazminat isteyemeyeceğini savunmuştur. Konuya katkısı: önce ifa yükümlüsünün def'iye karşı korunmadığını, ama alacaklının sonraki davranışının ifa sırasını etkileyebileceğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/862074900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2025/6118",
+   "karar_no": "2026/2474",
+   "decision_date": "05.05.2026",
+   "summary_md": "Davacı, yapımı süren bir binadaki bağımsız bölümü yükleniciden 740.000 TL'ye satın almış ve 190.000 TL ödemiştir; kalan bedel teslimde ödenecekti. Bağımsız bölüm teslim edilmeyince davacı, 550.000 TL'lik bakiyeyi depo etmeye hazır olduğunu bildirerek tapu iptali ve tescil ile gecikme tazminatı istemiştir. İlk derece mahkemesi davayı reddetmiş, bölge adliye mahkemesi de alıcının bütün borcunu ödemediği ve teslimin gerçekleşmediği gerekçesiyle istinaf başvurusunu esastan reddetmiştir. Yargıtay 7. Hukuk Dairesi bu kararları kaldırıp bozmuştur. Gerekçeye göre taraflardan birinin önce ifa yükümlülüğü yoksa edimler TBK m. 97 uyarınca aynı anda ifa edilir; bağımsız bölüm davalılar adına kayıtlı olduğundan inşaatın aşaması önemli değildir. Mahkeme, taşınmazın dava tarihindeki rayiç değerini ve ödenen miktarın sözleşme bedeline oranını belirlemeli, rayiç değer üzerinden kalan orana düşen bedeli depo etmesi için davacıya süre vermeli ve bedel depo edilirse tescile karar vermelidir. Konuya katkısı: def'inin davadaki sonucunun ret değil, birlikte ifa kuralına göre karşılıklı ifaya hüküm olduğunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1219186400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Taraflar arasında aksine bir anlaşma yoksa **para borcu** nerede ödenir?",
+   "options": [
+    "Alacaklının, borcun doğduğu sıradaki yerleşim yerinde",
+    "Alacaklının, ödeme zamanındaki yerleşim yerinde",
+    "Borçlunun, borcun doğduğu sıradaki yerleşim yerinde",
+    "Sözleşmenin kurulduğu yerde"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 89/1-1'e göre para borçları, alacaklının **ödeme zamanındaki** yerleşim yerinde ödenir. Bu yüzden para borcu götürülecek borçtur. Belirleyici an borcun doğduğu an değil, ödeme anıdır. Borçlunun yerleşim yerine ilişkin kural (m. 89/1-3) para ve parça borçları dışındaki borçlar içindir. Sözleşmenin kurulduğu yer yedek kurallarda ölçüt değildir."
+  },
+  {
+   "stem_md": "Ankara'da oturan Kemal, İzmir'deki yazlığının garajında duran klasik otomobilini, İstanbul'da imzalanan bir sözleşmeyle Bursa'da oturan Cem'e satar. Sözleşmede teslim yeri yoktur. Kemal bir hafta sonra otomobili Ankara'ya getirir. Otomobil nerede teslim edilmelidir?",
+   "options": [
+    "İzmir'de, çünkü sözleşme kurulduğu sırada otomobil oradadır",
+    "Ankara'da, çünkü borçlunun yerleşim yeridir",
+    "Bursa'da, çünkü alıcının yerleşim yeridir",
+    "İstanbul'da, çünkü sözleşme orada kurulmuştur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Belirli bir otomobilin teslimi bir **parça borcudur**. TBK m. 89/1-2'ye göre parça borcu, sözleşmenin kurulduğu sırada borç konusunun bulunduğu yerde ifa edilir. Otomobilin sonradan Ankara'ya götürülmesi ifa yerini değiştirmez. Borçlunun yerleşim yeri kuralı parça borçlarına uygulanmaz. Sözleşmenin kurulduğu yer ve alıcının yerleşim yeri de bu borç için ölçüt değildir."
+  },
+  {
+   "stem_md": "Konya'da oturan değirmenci Hasan, mart ayında Kayseri'deki bir fırına 200 çuval un satar. Teslim yeri kararlaştırılmamıştır. Hasan nisan ayında yerleşim yerini Eskişehir'e taşır. Un nerede teslim edilmelidir?",
+   "options": [
+    "Eskişehir'de",
+    "Taraflar yeniden anlaşmadıkça hiçbir yerde, sözleşme askıya alınır",
+    "Kayseri'de",
+    "Konya'da"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Un, türü ve miktarıyla belirlenmiş bir **cins borcudur**. TBK m. 89/1-3'e göre para ve parça borçları dışındaki borçlar, **doğdukları sırada** borçlunun yerleşim yerinde ifa edilir. Borç doğarken Hasan Konya'da oturmaktadır. Sonradan Eskişehir'e taşınması ifa yerini değiştirmez. Alacaklının yerleşim yeri ise para borçları için ölçüttür."
+  },
+  {
+   "stem_md": "Alacaklının yerleşim yerinde ifası gereken bir borç doğduktan sonra alacaklı başka bir şehre taşınmış ve bu yüzden ifa önemli ölçüde güçleşmiştir. TBK m. 89/2'ye göre hangisi doğrudur?",
+   "options": [
+    "İfa yeri kendiliğinden borçlunun yerleşim yerine dönüşür.",
+    "Borçlu, borcu alacaklının önceki yerleşim yerinde ifa edebilir.",
+    "Borçlu, ancak alacaklı taşıma masraflarını önceden öderse ifa etmek zorundadır.",
+    "Borç kendiliğinden sona erer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 89/2'ye göre alacaklının yerleşim yerinde ifası gereken bir borcun doğumundan sonra alacaklının taşınması yüzünden ifa önemli ölçüde güçleşmişse borç, alacaklının **önceki** yerleşim yerinde ifa edilebilir. Bu, borçluya tanınmış bir imkândır. Borç sona ermez, ifa yeri de kendiliğinden borçlunun yerleşim yerine dönüşmez."
+  },
+  {
+   "stem_md": "İzmir'de oturan Elif, Ankara'da oturan Murat'a 300.000 TL'ye bir tekne satar ve tekneyi teslim eder. Bedel ödenmez. Elif bedel için İzmir'de dava açar. Murat cevap dilekçesinde, Ankara mahkemelerini göstererek yetki itirazında bulunur. Yetki itirazı hakkında hangisi doğrudur?",
+   "options": [
+    "Para borcunun ifa yeri alacaklının yerleşim yeri olduğundan İzmir mahkemesi de yetkilidir, itiraz reddedilmelidir.",
+    "İzmir mahkemesi ancak taraflar yazılı bir yetki sözleşmesi yapmışsa yetkili olur.",
+    "Yetki kesin olduğundan mahkeme, itiraz olmasa da dosyayı Ankara'ya göndermelidir.",
+    "Genel yetkili mahkeme davalının yerleşim yeri mahkemesi olduğu için itiraz kabul edilmelidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Genel yetkili mahkeme davalının yerleşim yeri mahkemesidir (HMK m. 6). Ama sözleşmeden doğan davalar, sözleşmenin ifa edileceği yer mahkemesinde de açılabilir (HMK m. 10). Bedel borcu bir para borcudur ve alacaklının yerleşim yerinde ödenir (TBK m. 89/1-1). Yargıtay'ın yerleşik uygulamasına göre alacaklı bu yüzden kendi yerleşim yerinde dava açabilir. Yetki sözleşmesine gerek yoktur. Bu yetki kesin de değildir."
+  },
+  {
+   "stem_md": "Ayşe 1 Mart'ta arkadaşı Burak'a 50.000 TL ödünç verir. Geri ödeme için belirli bir gün, bildirim süresi ya da istem üzerine ödeneceği kararlaştırılmamıştır. Ayşe 10 Mart'ta parasını ister. Hangisi doğrudur?",
+   "options": [
+    "Her borç doğumuyla muaccel olduğundan Burak parayı 10 Mart'ta hemen geri vermek zorundadır.",
+    "Geri ödeme zamanı kararlaştırılmadığı için ödünç sözleşmesi geçersizdir.",
+    "Burak, ilk istemden itibaren altı hafta geçmedikçe parayı geri vermek zorunda değildir.",
+    "Burak, ancak ödünç tarihinden itibaren bir yıl geçince geri vermek zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 90'daki hemen ifa kuralı, kanunun özel hükümleri saklı kalmak üzere uygulanır. Ödünçte geri verme için gün, bildirim süresi ya da istem anında muacceliyet kararlaştırılmamışsa ödünç alan, **ilk istemden itibaren altı hafta** geçmedikçe geri vermekle yükümlü değildir (TBK m. 392). Zamanın kararlaştırılmamış olması sözleşmeyi geçersiz kılmaz."
+  },
+  {
+   "stem_md": "Bir borcun \"haziran 2026'da\" ödeneceği kararlaştırılmış, gün belirtilmemiştir. TBK m. 91'e göre borcun ifa zamanı hangi gündür?",
+   "options": [
+    "15 Haziran 2026",
+    "Alacaklının bildireceği gün",
+    "1 Haziran 2026",
+    "30 Haziran 2026"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 91/2'ye göre borcun ifası için gün belirtilmeden yalnız ay belirlenmişse o ayın **son günü** anlaşılır. Ayın başlangıcı denmiş olsaydı 1'i, ortası denmiş olsaydı 15'i anlaşılırdı (m. 91/1)."
+  },
+  {
+   "stem_md": "Sözleşme 1 Haziran 2026 Pazartesi günü kurulmuş ve malın \"15 gün içinde\" teslimi kararlaştırılmıştır. Süre hangi gün dolar?",
+   "options": [
+    "14 Haziran 2026 Pazar",
+    "15 Haziran 2026 Pazartesi",
+    "16 Haziran 2026 Salı",
+    "17 Haziran 2026 Çarşamba"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 92/1-1'e göre gün olarak belirlenen sürede sözleşmenin kurulduğu gün sayılmaz ve süre son günün bitiminde dolar. Kanun ayrıca \"on beş gün\"ün iki haftayı değil, **tam on beş günü** ifade ettiğini söyler. Bu yüzden süre 16 Haziran'da dolar. \"İki hafta\" denseydi süre, son haftanın sözleşmenin kurulduğu günle aynı adı taşıyan gününde, yani 15 Haziran Pazartesi dolardı (m. 92/1-2)."
+  },
+  {
+   "stem_md": "31 Mart 2026'da kurulan bir sözleşmede bedelin \"bir ay sonra\" ödenmesi kararlaştırılmıştır. Ödeme günü hangisidir?",
+   "options": [
+    "30 Nisan 2026",
+    "1 Mayıs 2026",
+    "29 Nisan 2026",
+    "2 Mayıs 2026"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 92/1-3'e göre ay olarak belirlenen süre, son ayda sözleşmenin kurulduğu güne karşılık gelen günde dolar. Nisan ayında 31. gün yoktur. Kanuna göre bu durumda süre o ayın son günü, yani 30 Nisan'da dolar. Süre bir sonraki aya taşmaz."
+  },
+  {
+   "stem_md": "Bir borcun son ifa günü, Cumhuriyet Bayramı olan 29 Ekim 2026 Perşembe günüdür. Sözleşmede bu konuda bir hüküm yoktur. Hangisi doğrudur?",
+   "options": [
+    "Süre kendiliğinden bir hafta uzar.",
+    "Son gün kendiliğinden, tatil olmayan ilk gün olan 30 Ekim 2026 Cuma gününe geçer.",
+    "Son gün ancak alacaklı kabul ederse ertelenir.",
+    "Borçlu en geç bir gün önce ifa etmek zorundadır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 93/1'e göre ifa zamanı ya da sürenin son günü kanunlarda tatil olarak kabul edilen bir güne rastlarsa, **kendiliğinden** bu günü izleyen ve tatil olmayan ilk güne geçer. Bunun için alacaklının kabulü gerekmez. Taraflar aksini kararlaştırabilir (m. 93/2), ama olayda böyle bir hüküm yoktur."
+  },
+  {
+   "stem_md": "Zehra'nın 1 Aralık'ta ödemesi gereken 100.000 TL borcu vardır. Sözleşmede erken ödemeye ilişkin bir hüküm yoktur, bu konuda bir âdet de bulunmamaktadır. Zehra 1 Eylül'de 97.000 TL ödeyerek \"üç ay erken ödediğim için indirim hakkımdır\" der. Hangisi doğrudur?",
+   "options": [
+    "Zehra kanuni faiz oranında indirim yapmaya yetkilidir.",
+    "Alacaklı ödemeyi aldığı anda borcun tamamı sona erer.",
+    "Zehra erken ifa edebilir, ama erken ödediği için indirim yapamaz; 3.000 TL için borcu devam eder.",
+    "Erken ifa yasak olduğundan ödeme geçersizdir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 96'ya göre tarafların aksini kastettiği anlaşılmadıkça borçlu, edimini süre dolmadan ifa edebilir. Ancak kanun, sözleşme ya da âdet gereği değilse borçlu, erken ifa ettiği için indirim yapamaz. Olayda indirimi haklı kılan böyle bir dayanak yoktur. Kanunun indirim öngördüğü bir örnek, konut finansmanında erken ödemedir (TKHK m. 37)."
+  },
+  {
+   "stem_md": "Ödemezlik def'i (TBK m. 97) aşağıdaki sözleşmelerin hangisinde **ileri sürülemez**?",
+   "options": [
+    "Bağışlama",
+    "Eser",
+    "Satış",
+    "Kira"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 97, **karşılıklı borç yükleyen** sözleşmelere ilişkindir. Satış, kira ve eser sözleşmelerinde her tarafın edimi diğerinin karşılığıdır. Bağışlama ise yalnız bağışlayana borç yükler. Bağışlanan bir karşı edim borçlanmadığı için geri tutulacak bir karşılık da yoktur."
+  },
+  {
+   "stem_md": "Melis, Okan'dan bir piyanoyu 120.000 TL'ye satın alır. Teslim ve ödeme için 5 Mayıs kararlaştırılmış, ifa sırası konusunda başka bir hüküm konulmamıştır. Okan piyanoyu teslim etmeden ve teslimi önermeden bedel için dava açar. Melis cevap dilekçesinde, piyano teslim edilmedikçe ödemeyeceğini bildirir. Hangisi doğrudur?",
+   "options": [
+    "Satıcı ve alıcı borçlarını aynı anda ifa edeceğinden Melis, piyano teslim edilmedikçe ya da teslimi gereği gibi önerilmedikçe ödemekten kaçınabilir.",
+    "Melis'in savunması bir takas beyanı olduğundan bedel borcu sona ermiştir.",
+    "Alıcı her zaman önce ödemek zorunda olduğundan Melis'in savunması dinlenmez.",
+    "Melis'in savunmasıyla Okan sözleşmeden dönmüş sayılır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Sözleşme ya da âdet aksini öngörmedikçe satıcı ve alıcı borçlarını aynı anda ifa eder (TBK m. 207/2). Karşılıklı borç yükleyen sözleşmenin ifasını isteyen taraf, sonra ifa etme hakkı yoksa kendi borcunu ifa etmiş ya da ifasını önermiş olmalıdır (TBK m. 97). Okan bunu yapmadığı için Melis'in savunması bir ödemezlik def'idir ve yerindedir. Def'i borcu sona erdirmez, dolayısıyla takas değildir. Sözleşmeden dönme sonucu da doğurmaz."
+  },
+  {
+   "stem_md": "Kiraya veren Yusuf, daireyi teslim etmeden kiracı Ece'den ilk ayın kirasını ister ve ödenmezse daireyi teslim etmeyeceğini söyler. Sözleşmede kiranın ödeme zamanına ilişkin bir hüküm yoktur, bir yerel âdet de bulunmamaktadır. Hangisi doğrudur?",
+   "options": [
+    "Kira sözleşmesinde ödemezlik def'i uygulanmadığından Ece önce ödemek zorundadır.",
+    "Edimler aynı anda ifa edileceğinden Ece ilk ayın kirasını teslim anında ödemelidir.",
+    "Kira bedeli sözleşmenin kurulduğu anda muaccel olduğundan Yusuf teslimden kaçınabilir.",
+    "Kira bedeli ay sonunda ödeneceğinden Ece'nin borcu henüz muaccel değildir; Yusuf önce daireyi teslim etmelidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kiracı, aksine sözleşme ve yerel âdet yoksa kira bedelini her ayın sonunda öder (TBK m. 314). Bu özel kural, borcun doğumuyla muaccel olacağına ilişkin genel kuralın (TBK m. 90) önüne geçer. Böylece kiraya veren önce ifa eder. Ece'nin TBK m. 97 anlamında sonra ifa etme hakkı vardır. Yusuf, kendi edimini ifa etmeden kirayı isteyemez ve teslimden de kaçınamaz."
+  },
+  {
+   "stem_md": "Ödemezlik def'inin hukuki niteliği hakkında baskın görüşe göre hangisi doğrudur?",
+   "options": [
+    "Geciktirici bir def'idir; davalı ileri sürmedikçe hâkim kendiliğinden dikkate almaz.",
+    "Borcu sona erdiren bir sebeptir; ileri sürülünce karşı edim borcu ortadan kalkar.",
+    "Yalnız noter ihtarnamesiyle ileri sürülebilir, davada ileri sürülemez.",
+    "Bir dava şartıdır; hâkim yargılamanın her aşamasında kendiliğinden gözetir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ödemezlik def'i borcu sona erdirmez. Karşı taraf ifa edene ya da ifayı önerene kadar kendi edimini geri tutma imkânı verir. Bu yüzden geciktirici bir def'idir. Baskın görüşe göre gerçek bir def'idir ve davalı tarafından ileri sürülmelidir. Davalının def'inin adını koyması gerekmez. Def'i davada da dava dışında da ileri sürülebilir. Kanun lafzına dayanarak hâkimin bunu kendiliğinden gözetmesi gerektiğini savunan bir görüş de vardır (bkz. doktrin)."
+  },
+  {
+   "stem_md": "Burcu, yükleniciden bir daire satın almış ve bedelin bir kısmını ödemiştir. Kalan bedelin tapuda devir ve teslim sırasında ödenmesi kararlaştırılmıştır. Daire yüklenici adına kayıtlıdır ve yüklenici devirden kaçınmaktadır. Burcu, kalan bedeli depo etmeye hazır olduğunu bildirerek tapu iptali ve tescil davası açar. Yüklenici kalan bedelin ödenmediğini savunur. Yargıtay'ın yerleşik uygulamasına göre mahkeme nasıl hareket etmelidir?",
+   "options": [
+    "Burcu'ya kalan bedeli depo etmesi için süre vermeli, bedel depo edilirse tescile karar vermelidir.",
+    "Kalan bedel ödenmediği için davayı reddetmelidir.",
+    "Sözleşmeyi kendiliğinden sona erdirmeli ve ödenen bedelin iadesine hükmetmelidir.",
+    "Kalan bedele bakmaksızın koşulsuz tescile karar vermelidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Taraflardan birinin önce ifa yükümlülüğü yoksa edimler aynı anda ifa edilir (TBK m. 97). Yüklenicinin savunması bir ödemezlik def'idir. Yargıtay bu durumda davayı reddetmez. Birlikte ifa kuralı gereği davacıya kalan bedeli depo etmesi için süre verilmesini, bedel depo edilirse tescile karar verilmesini ister. Yargıtay bir kararında, kalan bedelin taşınmazın dava tarihindeki rayiç değeri üzerinden orantılı olarak belirlenmesini de aramıştır. Koşulsuz tescil, yüklenicinin def'isini görmezden gelmek olur."
+  },
+  {
+   "stem_md": "X A.Ş., Y Ltd. Şti. adlı şirkete bir makine satmıştır. Makine 1 Haziran'da teslim edilecek, bedel ise teslimden 90 gün sonra ödenecektir. Mayıs ayında Y Ltd. Şti. hakkındaki hacizlerin sonuçsuz kaldığı ortaya çıkar. X A.Ş. ne yapabilir?",
+   "options": [
+    "Y Ltd. Şti. temerrüde düştüğü için süre vermeden hemen tazminat isteyebilir.",
+    "Edimler aynı anda ifa edileceğinden ödemezlik def'iyle teslimden kaçınabilir.",
+    "Bedel için güvence verilinceye kadar teslimden kaçınabilir; güvence uygun sürede verilmezse sözleşmeden dönebilir.",
+    "Önce ifa yükümlüsü olduğu için makineyi her durumda 1 Haziran'da teslim etmek zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Sözleşmeye göre X A.Ş. önce ifa yükümlüsüdür. Bu yüzden TBK m. 97'ye dayanamaz. Ancak karşı tarafın hakkındaki haciz işleminin sonuçsuz kalması bir ifa güçsüzlüğüdür ve X A.Ş.'nin bedel alacağını tehlikeye düşürür. TBK m. 98/1'e göre X A.Ş., karşı edim güvence altına alınıncaya kadar kendi ediminin ifasından kaçınabilir. İstediği güvence uygun bir sürede verilmezse sözleşmeden dönebilir (m. 98/2). Bedel henüz muaccel olmadığı için Y Ltd. Şti. temerrüde düşmemiştir."
+  },
+  {
+   "stem_md": "Ödemezlik def'ini takastan ayıran özellik hangisidir?",
+   "options": [
+    "Takas yalnız karşılıklı borç yükleyen sözleşmelerde, ödemezlik def'i ise her borç ilişkisinde ileri sürülebilir.",
+    "Ödemezlik def'i, karşılıklı borçların aynı türden olmasını gerektirir ve borçları sona erdirir.",
+    "Takas yalnız yapma borçlarında, ödemezlik def'i ise yalnız para borçlarında ileri sürülebilir.",
+    "Ödemezlik def'i borcu sona erdirmez, yalnız ifadan geçici olarak kaçınma imkânı verir; takas ise karşılıklı ve muaccel para ya da özdeş edim borçlarını sona erdirir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Takas, karşılıklı olarak bir miktar para ya da özdeş edim borçlu olan ve iki borcu da muaccel olan kişilerin alacaklarını borçlarıyla takas etmesidir (TBK m. 139). Takas borçları sona erdirir ve borçların kaynağının karşılıklı bir sözleşme olmasını aramaz. Ödemezlik def'i ise yalnız karşılıklı borç yükleyen sözleşmelerde ileri sürülür, edimlerin aynı türden olmasını aramaz ve hiçbir borcu sona erdirmez (TBK m. 97)."
+  },
+  {
+   "stem_md": "Kerim, bir yükleniciden yapılmakta olan binadaki bir dükkânı satın almıştır. Sözleşmeye göre bedelin son taksiti bu yıl 1 Eylül'de ödenecek, dükkân ise gelecek yıl 30 Eylül'de teslim edilecektir. Kerim son taksiti ödemeden, dükkânın geç teslim edildiğini ileri sürerek gecikme tazminatı ister. Yüklenici cevap dilekçesinde ödemezlik def'ine dayanır. Hangisi doğrudur?",
+   "options": [
+    "Kerim önce ifa yükümlüsü olduğundan ve son taksiti ödemediğinden def'i yerindedir; yüklenici temerrüde düşmediği için tazminat istemi reddedilir.",
+    "Def'i ancak dava açılmadan önce noter ihtarnamesiyle bildirilmişse dikkate alınır.",
+    "Edimler her durumda aynı anda ifa edileceğinden yüklenicinin savunması dinlenmez.",
+    "Yüklenici, Kerim'in borcunu takas ettiği için tazminat borcundan kurtulur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Aynı anda ifa kuralının istisnası, sözleşmeden doğan önce ifa yükümlülüğüdür. Olayda son taksitin teslimden önce ödenmesi kararlaştırılmıştır. Kerim önce ifa yükümlüsüdür ve kendi edimini ifa etmeden karşı edimi isteyemez (TBK m. 97). Def'i hakkına dayanan yüklenici temerrüde düşmez. Bu yüzden gecikme tazminatı istemi reddedilir. Def'i cevap dilekçesinde de ileri sürülebilir. Takas ise borcu sona erdiren ayrı bir kurumdur."
+  },
+  {
+   "stem_md": "Satış bedelini dava eden satıcıya karşı alıcı ödemezlik def'ini ileri sürmüştür. Satıcı, malı teslim ettiğini iddia etmektedir. Teslimin ispatı kime düşer?",
+   "options": [
+    "Hiç kimseye; hâkim teslimin yapılıp yapılmadığını kendiliğinden araştırır.",
+    "Alıcıya; çünkü def'iyi ileri süren, karşı tarafın ifa etmediğini ispatlamak zorundadır.",
+    "Hiç kimseye; def'i ileri sürülünce dava kendiliğinden reddedilir.",
+    "Satıcıya; çünkü ifayı isteyen taraf, kendi edimini ifa ettiğini ya da önerdiğini ispatlar."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür (TMK m. 6). TBK m. 97'ye göre ifa isteyen taraf, kendi borcunu ifa etmiş ya da ifasını önermiş olmalıdır. Bu yüzden def'i ileri sürüldüğünde teslimi ispatlamak satıcıya düşer. Uygulamada da ödemezlik def'inde ispat yükünün ifayı isteyen davacıda olduğu kabul edilir. Def'inin ileri sürülmesi davayı kendiliğinden sona erdirmez; önce davacının ifa ya da öneri iddiası incelenir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Bursa'da oturan antikacı Selim, 3 Mart 2026'da İstanbul'daki bir antika fuarında, Ankara'da oturan Gizem'e 19. yüzyıldan kalma bir yazı masasını 400.000 TL'ye satar. Sözleşme kurulduğu sırada masa, Selim'in Eskişehir'deki deposundadır. Yazılı sözleşmede yalnız \"Masa 15 gün içinde teslim edilecektir.\" hükmü vardır. Teslim ve ödeme yeri ile bedelin ödeme zamanı hakkında bir hüküm yoktur.\n\nSelim bir hafta sonra masayı Bursa'daki dükkânına taşır. 17 Mart'ta Gizem'e bir mesaj göndererek masanın yalnız Bursa'daki dükkânında ve ancak bedelin tamamı önceden hesabına yatırılırsa teslim edileceğini bildirir. Gizem ise masanın Eskişehir'de, bedel karşılığında teslim edilmesini ister. Taraflar anlaşamaz. Gizem ödeme yapmaz, Selim de masayı teslim etmez.\n\nSelim, nisan ayında Bursa'da Gizem aleyhine 400.000 TL satış bedelinin ödenmesi davası açar. Gizem cevap dilekçesinde, Ankara mahkemelerini yetkili mahkeme olarak göstererek yetki itirazında bulunur. Ayrıca masa kendisine teslim edilmedikçe bedeli ödemeyeceğini savunur.\n\n1. Masanın teslim borcu ve bedel borcu nerede ifa edilmelidir?\n2. On beş günlük teslim süresi hangi gün dolmuştur? Selim'in 17 Mart'taki önerisi gereği gibi bir ifa önerisi midir?\n3. Gizem'in yetki itirazını değerlendiriniz.\n4. Gizem'in savunmasının niteliğini ve mahkemenin nasıl karar vermesi gerektiğini açıklayınız.",
+   "rubric": [
+    {
+     "point": "Antika masanın parça borcu olduğu, sözleşme kurulduğu sırada bulunduğu Eskişehir'de teslim edileceği ve sonradan taşınmasının ifa yerini değiştirmediği",
+     "weight": 20,
+     "madde_ref": "TBK m. 89"
+    },
+    {
+     "point": "Bedel borcunun para borcu olarak alacaklı Selim'in ödeme zamanındaki yerleşim yeri olan Bursa'da ödeneceği; her edimin ifa yerinin ayrı belirlendiği",
+     "weight": 15,
+     "madde_ref": "TBK m. 89"
+    },
+    {
+     "point": "Sözleşmenin kurulduğu gün sayılmadan on beş günlük sürenin 18 Mart 2026'da dolduğu",
+     "weight": 10,
+     "madde_ref": "TBK m. 92"
+    },
+    {
+     "point": "Satışta edimlerin aynı anda ifa edileceği; Bursa'da ve önceden ödeme şartıyla yapılan önerinin gereği gibi bir öneri olmadığı",
+     "weight": 15,
+     "madde_ref": "TBK m. 207"
+    },
+    {
+     "point": "Genel yetkili Ankara mahkemesinin yanında, para borcunun ifa yeri olan Bursa mahkemesinin de yetkili olduğu ve itirazın reddedileceği",
+     "weight": 20,
+     "madde_ref": "HMK m. 10"
+    },
+    {
+     "point": "Gizem'in savunmasının ödemezlik def'i olarak nitelendirilmesi, şartlarının gerçekleşmesi ve davanın koşulsuz kabul edilemeyeceği (ağırlıklı görüşe göre karşılıklı ifaya hüküm)",
+     "weight": 20,
+     "madde_ref": "TBK m. 97"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında bir taşınır satış sözleşmesi vardır. Satış, tam iki tarafa borç yükleyen bir sözleşmedir. Selim'in borcu masanın zilyetliğini ve mülkiyetini devretmek, Gizem'in borcu 400.000 TL bedeli ödemektir. Her borcun ifa yeri ve zamanı ayrı ayrı belirlenir.\n\n**Hukuki sorunlar:** (1) Teslim ve bedel borçlarının ifa yeri, (2) teslim süresinin hesabı ve Selim'in önerisinin niteliği, (3) yetkili mahkeme, (4) Gizem'in savunması ve hükmün içeriği.\n\n**İlgili hükümler:** TBK m. 89, 92, 97 ve 207/2; HMK m. 6, 10 ve 19.\n\n**Değerlendirme:**\n\n*1. İfa yerleri.* Sözleşmede ifa yeri hükmü yoktur, işin niteliğinden de örtülü bir irade çıkmamaktadır. Bu yüzden TBK m. 89/1'in yedek kuralları uygulanır. Antika masa, ferdî olarak belirlenmiş bir şeydir. Teslim borcu bir **parça borcudur** ve sözleşmenin kurulduğu sırada masanın bulunduğu Eskişehir'deki depoda ifa edilir (m. 89/1-2). Selim'in masayı sonradan Bursa'ya taşıması ifa yerini değiştirmez. Gizem masayı almak için Bursa'ya gitmek zorunda değildir. Bedel borcu ise bir **para borcudur**. Alacaklı Selim'in ödeme zamanındaki yerleşim yeri olan Bursa'da ödenir (m. 89/1-1). Gizem parayı Selim'e götürmekle, örneğin hesabına göndermekle yükümlüdür. Sözleşmenin İstanbul'da kurulmuş olması ifa yerini etkilemez.\n\n*2. Süre ve öneri.* Sözleşmenin kurulduğu 3 Mart günü sayılmaz. \"On beş gün\" iki hafta değil, tam on beş gündür. Süre 18 Mart 2026'da dolmuştur (m. 92/1-1). Selim'in 17 Mart'taki mesajı süre içindedir, ama gereği gibi bir öneri değildir. Birincisi, teslimi ifa yeri olmayan Bursa'da önermiştir. İkincisi, teslimi bedelin önceden ödenmesine bağlamıştır. Oysa sözleşme ya da âdet aksini öngörmedikçe satıcı ve alıcı borçlarını **aynı anda** ifa eder (TBK m. 207/2). Selim önceden ödeme isteyemez. Bu yüzden Gizem'in bu öneriyi reddetmesi onu alacaklı temerrüdüne düşürmez (ayrıntısı ayrı konuda).\n\n*3. Yetki.* Genel yetkili mahkeme, davalı Gizem'in yerleşim yeri olan Ankara mahkemesidir (HMK m. 6). Ancak dava sözleşmeden doğmuştur ve konusu bir para alacağıdır. Bu alacağın ifa yeri Bursa olduğu için Bursa mahkemesi de HMK m. 10 uyarınca yetkilidir. Yargıtay'ın yerleşik uygulaması da para alacaklarında alacaklının kendi yerleşim yerinde dava açabileceği yönündedir. Bu özel yetki genel yetkiyi kaldırmaz, davacıya seçim imkânı verir. Selim seçimini Bursa'dan yana yapmıştır. Gizem itirazını cevap dilekçesinde ve yetkili mahkemeyi göstererek usulüne uygun yapmıştır (HMK m. 19/2). Ama itiraz esasen yerinde olmadığından reddedilmelidir.\n\n*4. Savunmanın niteliği ve hüküm.* Gizem, karşı taraf kendi edimini ifa etmedikçe kendisinin de ifa etmeyeceğini söylemektedir. Bu bir **ödemezlik def'idir** (TBK m. 97). Şartlar gerçekleşmiştir: sözleşme karşılıklı borç yükler, teslim ile bedel karşılıklılık ilişkisi içindedir, Gizem önce ifa yükümlüsü değildir ve Selim kendi edimini ne ifa etmiş ne de gereği gibi önermiştir. Gizem def'iyi cevap dilekçesinde ileri sürmüştür. Bu yüzden dava koşulsuz kabul edilemez. Def'i borcu sona erdirmediği için Selim'in bedel alacağı da varlığını korur. Öğretide ağırlıklı görüş ve Yargıtay'ın birlikte ifa kuralı, böyle bir durumda karşılıklı ifaya hükmedilmesi yönündedir: Gizem, masanın Eskişehir'de teslimi karşılığında 400.000 TL ödemeye mahkûm edilir. Davanın şimdilik reddedilmesi gerektiğini savunan görüş için doktrin bölümüne bakılabilir.\n\n**Sonuç:**\n- Masa Eskişehir'de teslim edilmeli, bedel Bursa'da ödenmelidir.\n- Teslim süresi 18 Mart 2026'da dolmuştur. Selim'in önerisi, yer ve ödeme şartı yönünden gereği gibi değildir.\n- Bursa mahkemesi yetkilidir, yetki itirazı reddedilmelidir.\n- Gizem'in ödemezlik def'i yerindedir. Mahkeme bedele koşulsuz hükmedemez. Ağırlıklı görüşe göre masanın teslimi karşılığında ödemeye hükmetmelidir."
+  },
+  {
+   "stem_md": "Ahmet, kendi arsasına bir depo binası yaptırmak için 2 Mart 2026'da X İnşaat Ltd. Şti. ile 3.000.000 TL bedelli bir eser sözleşmesi yapar. Sözleşmeye göre Ahmet 1.000.000 TL'lik ilk ödemeyi 23 Nisan 2026'da yapacak, X İnşaat ödemeyi izleyen ilk iş günü işe başlayacaktır. Bina 30 Ekim 2026'da teslim edilecek, kalan 2.000.000 TL teslimde ödenecektir.\n\nAhmet 15 Nisan'da X İnşaat'a ihtarname göndererek hemen işe başlanmasını, aksi hâlde gecikme tazminatı isteyeceğini bildirir. X İnşaat, ödeme yapılmadan işe başlamayacağını yanıtlar.\n\nAhmet ilk ödemeyi 24 Nisan 2026 Cuma günü yapar. X İnşaat, ödemenin 23 Nisan'da yapılması gerektiğini ve bir gün geciktiği için temerrüt faizi isteyeceğini bildirir. Ardından 27 Nisan'da işe başlar.\n\nTemmuz ayında X İnşaat, başka alacaklıların haziranda Ahmet hakkında yaptırdığı haciz işlemlerinin sonuçsuz kaldığını öğrenir. X İnşaat işi durdurur ve Ahmet'ten kalan 2.000.000 TL için on beş gün içinde banka teminat mektubu ister. Ahmet güvence vermez. Üstelik X İnşaat'ın işi bıraktığını, bu yüzden temerrüde düştüğünü ve kendisinden tazminat isteyeceğini bildirir.\n\n1. Ahmet'in 15 Nisan tarihli ihtarnamesinin hukuki sonucunu değerlendiriniz.\n2. X İnşaat'ın temerrüt faizi talebi yerinde midir?\n3. X İnşaat işi durdurmakta haklı mıdır?\n4. Güvence verilmezse X İnşaat ne yapabilir? Ahmet'in tazminat talebi yerinde midir?",
+   "rubric": [
+    {
+     "point": "X İnşaat'ın işe başlama borcunun sözleşme gereği ilk ödemeye bağlı olduğu, 15 Nisan'da muaccel olmadığı ve ihtarın temerrüt doğurmadığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 117"
+    },
+    {
+     "point": "İlk ödeme bakımından Ahmet'in önce ifa yükümlüsü olduğu ve X İnşaat'ın ödeme yapılmadan işe başlamamakta haklı olduğu",
+     "weight": 15,
+     "madde_ref": "TBK m. 97"
+    },
+    {
+     "point": "Ödeme gününün resmî tatile rastlaması nedeniyle kendiliğinden 24 Nisan'a geçtiği ve temerrüt faizi talebinin yersiz olduğu",
+     "weight": 15,
+     "madde_ref": "TBK m. 93"
+    },
+    {
+     "point": "Kalan bedelin teslimde ödeneceği; bu yüzden X İnşaat'ın kalan iş bakımından önce ifa yükümlüsü olduğu ve ödemezlik def'ine dayanamayacağı",
+     "weight": 10,
+     "madde_ref": "TBK m. 479"
+    },
+    {
+     "point": "Haciz işlemlerinin sonuçsuz kalmasının ifa güçsüzlüğü olduğu ve X İnşaat'ın güvence verilinceye kadar işi durdurabileceği",
+     "weight": 20,
+     "madde_ref": "TBK m. 98"
+    },
+    {
+     "point": "Güvence uygun sürede verilmezse X İnşaat'ın sözleşmeden dönebileceği; işi haklı olarak durduran X İnşaat'ın temerrüde düşmediği",
+     "weight": 20,
+     "madde_ref": "TBK m. 98"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ahmet ile X İnşaat arasında bir eser sözleşmesi vardır. Eser sözleşmesi tam iki tarafa borç yükler. X İnşaat binayı yapıp teslim etmeyi, Ahmet bedeli ödemeyi üstlenmiştir. Taraflar bedelin bir kısmının işe başlamadan önce, kalanının teslimde ödenmesini kararlaştırmıştır. Bu kararlaştırma, ifa sırasını belirler.\n\n**Hukuki sorunlar:** (1) Muaccel olmayan bir borç için çekilen ihtarın sonucu, (2) ödeme gününün tatile rastlaması, (3) önce ifa yükümlüsü yüklenicinin karşı tarafın güçsüzlüğü karşısındaki hakları, (4) dönme ve Ahmet'in temerrüt iddiası.\n\n**İlgili hükümler:** TBK m. 90, 93, 97, 98, 117 ve 479.\n\n**Değerlendirme:**\n\n*1. 15 Nisan ihtarı.* Taraflar ifa zamanını kararlaştırdığı için hemen ifa kuralı (TBK m. 90) uygulanmaz. X İnşaat'ın işe başlama borcu, ilk ödemeyi izleyen iş gününe bağlanmıştır. 15 Nisan'da ödeme yapılmamış olduğundan bu borç henüz muaccel değildir. TBK m. 117/1'e göre temerrüt için **muaccel** bir borç ve ihtar gerekir. Muaccel olmayan bir borç için çekilen ihtar temerrüt doğurmaz. Ayrıca ilk ödeme bakımından Ahmet önce ifa yükümlüsüdür. X İnşaat'ın, sözleşmenin koşullarına göre sonra ifa etme hakkı vardır (TBK m. 97). Ahmet kendi edimini ifa etmeden X İnşaat'tan işe başlamasını isteyemez. Gecikme tazminatı istemi bu dönem için yersizdir.\n\n*2. Temerrüt faizi.* Ödeme günü olan 23 Nisan 2026, Ulusal Egemenlik ve Çocuk Bayramı'dır. TBK m. 93/1'e göre ifa zamanı kanunda tatil kabul edilen bir güne rastlarsa kendiliğinden izleyen ve tatil olmayan ilk güne geçer. Sözleşmede aksine bir hüküm yoktur. Ödeme günü 24 Nisan Cuma gününe geçmiştir. Ahmet o gün ödediği için temerrüde düşmemiştir. Temerrüt faizi talebi yersizdir.\n\n*3. İşin durdurulması.* Kalan 2.000.000 TL teslimde ödenecektir. Eser sözleşmesinde bedel zaten eserin teslimi anında muaccel olur (TBK m. 479/1). Demek ki kalan iş bakımından X İnşaat önce ifa yükümlüsüdür ve TBK m. 97'ye dayanamaz. Ancak başka alacaklıların Ahmet hakkında yaptırdığı haciz işlemleri sonuçsuz kalmıştır. Bu, TBK m. 98'de özellikle sayılan bir **ifa güçsüzlüğüdür**. Güçsüzlük sözleşmeden sonra ortaya çıkmıştır ve X İnşaat'ın teslimde alacağı 2.000.000 TL'yi açıkça tehlikeye düşürür. X İnşaat, karşı edim güvence altına alınıncaya kadar kendi ediminin ifasından kaçınabilir (m. 98/1). İşi durdurması haklıdır.\n\n*4. Dönme ve Ahmet'in iddiası.* X İnşaat güvence istemiş ve on beş günlük bir süre vermiştir. Bu süre, teminat mektubu almak için makul görünmektedir. Güvence uygun sürede verilmezse X İnşaat sözleşmeden dönebilir (m. 98/2). Bunun için Ahmet'in temerrüde düşmüş olması gerekmez. Dönmenin sonuçları, yani ödenen 1.000.000 TL ile yapılan işin tasfiyesi, dönmeye ilişkin genel kurallara göre çözülür. Ahmet'in temerrüt iddiası ise yersizdir. X İnşaat işi kanunun tanıdığı bir hakka dayanarak durdurmuştur. Hukuka uygun biçimde ifadan kaçınan taraf, bu yüzden temerrüde düşmez. Temerrüt hâlindeki seçimlik haklar ayrı bir konudur.\n\n**Sonuç:**\n- 15 Nisan ihtarı, muaccel olmayan bir borç için çekildiğinden ve Ahmet önce ifa yükümlüsü olduğundan temerrüt doğurmaz.\n- Ödeme günü tatil nedeniyle 24 Nisan'a geçmiştir. Temerrüt faizi istenemez.\n- X İnşaat, TBK m. 98/1'e göre güvence verilinceye kadar işi durdurmakta haklıdır.\n- Güvence uygun sürede verilmezse sözleşmeden dönebilir. Ahmet'in temerrüde dayalı tazminat talebi yerinde değildir."
+  },
+  {
+   "stem_md": "Zeynep, Y Yapı A.Ş.'nin İstanbul'da tamamladığı bir binadan daire almak için 12 Ocak 2026'da noterde düzenleme şeklinde bir taşınmaz satış vaadi sözleşmesi yapar. Bedel 5.000.000 TL'dir. Zeynep 4.000.000 TL'yi sözleşme günü öder. Sözleşmeye göre kalan 1.000.000 TL, dairenin tapuda devri ve teslimi sırasında tapu müdürlüğünde ödenecek, devir ve teslim 1 Haziran 2026'da yapılacaktır. Binada kat mülkiyeti kurulmuştur ve daire Y Yapı A.Ş. adına kayıtlıdır.\n\nY Yapı A.Ş. 1 Haziran'da devir için tapu müdürlüğüne başvurmaz. Zeynep aynı gün noter aracılığıyla bir ihtarname gönderir. Kalan 1.000.000 TL'yi banka hesabında hazır tuttuğunu, 10 Haziran'da tapu müdürlüğünde ödemeye hazır olduğunu bildirir ve o gün için devir randevusu alır. Y Yapı A.Ş. tapu müdürlüğüne gelmez.\n\nZeynep 1 Temmuz'da tapu iptali ve tescil davası açar. Dairenin teslim edilmemesi yüzünden yoksun kaldığı kira geliri için gecikme tazminatı da ister. Y Yapı A.Ş. cevap dilekçesinde, Zeynep'in kalan bedeli henüz ödemediğini, parayı önce şirketin İstanbul'daki merkezine ödemesi gerektiğini ve ödeme yapılmadıkça devir yapmayacağını savunur.\n\n1. Kalan bedelin ifa yerini ve zamanını belirleyiniz.\n2. Y Yapı A.Ş.'nin savunmasını değerlendiriniz. Zeynep neyi ispatlamalıdır?\n3. Mahkeme tescil istemi hakkında nasıl karar vermelidir?\n4. Gecikme tazminatı istemi bakımından Y Yapı A.Ş.'nin durumu nedir?",
+   "rubric": [
+    {
+     "point": "Kalan bedelin ifa yerinin taraf iradesiyle tapu müdürlüğü olarak belirlendiği ve alacaklının yerleşim yerine ilişkin yedek kuralın uygulanmayacağı",
+     "weight": 15,
+     "madde_ref": "TBK m. 89"
+    },
+    {
+     "point": "Sözleşmeye göre edimlerin devir ve teslimle birlikte, aynı anda ifa edileceği ve Zeynep'in önce ifa yükümlüsü olmadığı",
+     "weight": 15,
+     "madde_ref": "TBK m. 97"
+    },
+    {
+     "point": "Zeynep'in ihtarname, hazır tutulan bedel ve alınan randevuyla gereği gibi ifa önerisinde bulunduğu; bu yüzden ödemezlik def'inin yerinde olmadığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 97"
+    },
+    {
+     "point": "İfa önerisinin ispat yükünün Zeynep'te olduğu ve belgelerle ispatlanabileceği",
+     "weight": 10,
+     "madde_ref": "TMK m. 6"
+    },
+    {
+     "point": "Önerinin kalan borcu sona erdirmediği; birlikte ifa kuralı gereği kalan bedelin depo ettirilmesi ve depo edilince tescile karar verilmesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 97"
+    },
+    {
+     "point": "Y Yapı A.Ş.'nin en geç 10 Haziran'dan itibaren def'iye dayanamayacağı, temerrüde düştüğü ve gecikme tazminatı isteminin bu çerçevede inceleneceği",
+     "weight": 15,
+     "madde_ref": "TBK m. 117"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında noterde düzenleme şeklinde yapılmış, geçerli bir taşınmaz satış vaadi sözleşmesi vardır. Sözleşme iki tarafa da borç yükler: Y Yapı A.Ş. daireyi devretmeyi ve teslim etmeyi, Zeynep bedeli ödemeyi üstlenmiştir. Bedelin 4.000.000 TL'si ödenmiş, 1.000.000 TL'si devir ve teslime bırakılmıştır.\n\n**Hukuki sorunlar:** (1) Kalan bedelin ifa yeri ve zamanı, (2) ödemezlik def'inin ve ifa önerisinin etkisi, ispat yükü, (3) tescil davasında hükmün içeriği, (4) satıcının temerrüdü.\n\n**İlgili hükümler:** TBK m. 89, 97 ve 117; TMK m. 6.\n\n**Değerlendirme:**\n\n*1. İfa yeri ve zamanı.* TBK m. 89/1'e göre ifa yeri önce tarafların açık ya da örtülü iradesine göre belirlenir. Kanunun yedek kuralları, ancak böyle bir irade yoksa uygulanır. Taraflar kalan bedelin tapu müdürlüğünde, devir ve teslim sırasında ödeneceğini açıkça kararlaştırmıştır. Bu yüzden para borcunun alacaklının yerleşim yerinde ödeneceğine ilişkin yedek kural (m. 89/1-1) uygulanmaz. Y Yapı A.Ş., paranın önce şirket merkezine ödenmesini isteyemez. İfa zamanı da sözleşmeyle belirlenmiştir: devir ve teslim günü olan 1 Haziran 2026.\n\n*2. Savunma ve ispat.* Sözleşmeye göre edimler aynı anda, devir ve teslimle birlikte ifa edilecektir. Zeynep önce ifa yükümlüsü değildir. TBK m. 97'ye göre ifa isteyen taraf, kendi borcunu ifa etmiş **ya da ifasını önermiş** olmalıdır. Zeynep ihtarnameyle ödemeye hazır olduğunu bildirmiş, parayı hesabında hazır tutmuş ve sözleşmedeki ifa yerinde ödeme için randevu almıştır. Bu, doğru yerde, doğru zamanda ve eksiksiz yapılmış, gereği gibi bir ifa önerisidir. Y Yapı A.Ş. randevuya gelmeyerek öneriyi sonuçsuz bırakmıştır. Bu yüzden ödemezlik def'i yerinde değildir. Zeynep, önerisini ispatlamakla yükümlüdür (TMK m. 6). İhtarname, banka kayıtları ve tapu randevusu bunun delilleridir.\n\n*3. Tescil istemi.* İfa önerisi, Zeynep'in kalan 1.000.000 TL borcunu sona erdirmez. Öneri yalnız karşı tarafın def'iye dayanmasını engeller. Edimlerin aynı anda ifası kuralı davada da korunur. Yargıtay'ın yerleşik uygulamasına göre mahkeme, Zeynep'e kalan bedeli depo etmesi için süre verir. Bedel depo edilirse tapu kaydının iptaline ve dairenin Zeynep adına tesciline karar verilir. Depo edilen para satıcıya ödenir. Böylece hiçbir taraf karşılığını almadan kendi edimini ifa etmiş olmaz. Yargıtay bir kararında kalan bedelin dava tarihindeki rayiç değere göre orantılı olarak belirlenmesini de aramıştır. Olayda sözleşme ile dava arasında yalnız birkaç ay vardır ve bu ayrıntı çözümün özünü değiştirmez.\n\n*4. Gecikme tazminatı.* Y Yapı A.Ş.'nin devir ve teslim borcu 1 Haziran'da muacceldir. Zeynep 1 Haziran'da ihtar çekmiş ve kendi edimini 10 Haziran için gereği gibi önermiştir. Y Yapı A.Ş., en geç 10 Haziran'dan itibaren def'iye dayanamaz ve temerrüde düşmüştür (TBK m. 117). Zeynep, gecikme yüzünden yoksun kaldığı kira gelirini ve zararın miktarını ispatlarsa gecikme tazminatı isteyebilir. Tazminatın şartları ve kapsamı borçlu temerrüdü konusunda ayrıca incelenir.\n\n**Sonuç:**\n- Kalan bedel, taraf iradesine göre tapu müdürlüğünde ve devirle birlikte ödenecektir. Şirket merkezine önceden ödeme gerekmez.\n- Zeynep gereği gibi ifa önerisinde bulunduğu için Y Yapı A.Ş.'nin ödemezlik def'i yerinde değildir. Öneriyi ispat yükü Zeynep'tedir.\n- Mahkeme kalan bedeli depo ettirir ve depo edilince tescile karar verir.\n- Y Yapı A.Ş. en geç 10 Haziran'dan itibaren temerrüttedir. Gecikme tazminatı istemi bu çerçevede incelenir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Para borcu nerede ödenir? (TBK m. 89/1-1)",
+   "back_md": "Aksine anlaşma yoksa alacaklının ödeme zamanındaki yerleşim yerinde. Para borcu götürülecek borçtur."
+  },
+  {
+   "front_md": "Parça borcunun ifa yeri neresidir?",
+   "back_md": "Sözleşme kurulduğu sırada borç konusunun bulunduğu yer (TBK m. 89/1-2). Malın sonradan taşınması bunu değiştirmez."
+  },
+  {
+   "front_md": "Para ve parça borcu dışındaki borçlar nerede ifa edilir?",
+   "back_md": "Borcun doğduğu sırada borçlunun yerleşim yerinde (TBK m. 89/1-3). Bunlar aranacak borçtur."
+  },
+  {
+   "front_md": "İfa yerine ilişkin kanuni kurallar ne zaman uygulanır?",
+   "back_md": "Taraflar açık ya da örtülü bir irade ortaya koymamışsa. Bu kurallar yedek niteliktedir (TBK m. 89/1)."
+  },
+  {
+   "front_md": "Alacaklı taşınırsa borçlu ne yapabilir? (TBK m. 89/2)",
+   "back_md": "İfa bu yüzden önemli ölçüde güçleşmişse borcu alacaklının önceki yerleşim yerinde ifa edebilir."
+  },
+  {
+   "front_md": "Sözleşmeden doğan para alacağında alacaklı kendi yerleşim yerinde dava açabilir mi?",
+   "back_md": "Evet. HMK m. 10 ifa yeri mahkemesini de yetkili kılar, para borcunun ifa yeri de alacaklının yerleşim yeridir. Davalının yerleşim yeri mahkemesi de yetkili kalır (HMK m. 6)."
+  },
+  {
+   "front_md": "Yetki itirazı ne zaman ve nasıl yapılır? (HMK m. 19)",
+   "back_md": "Kesin olmayan yetkide cevap dilekçesinde ve yetkili mahkeme gösterilerek. Süresinde itiraz edilmezse davanın açıldığı mahkeme yetkili hâle gelir."
+  },
+  {
+   "front_md": "Haksız fiil davasını zarar görenin yerleşim yerinde açmanın dayanağı nedir?",
+   "back_md": "HMK m. 16. HMK m. 10 yalnız sözleşmeden doğan davalar içindir."
+  },
+  {
+   "front_md": "Borç ne zaman muaccel olur? (TBK m. 90)",
+   "back_md": "Taraflar kararlaştırmamışsa ve hukuki ilişkinin özelliğinden aksi anlaşılmıyorsa borcun doğduğu anda."
+  },
+  {
+   "front_md": "Geri verme zamanı kararlaştırılmamış ödünç ne zaman geri verilir?",
+   "back_md": "Ödünç alan, ilk istemden itibaren altı hafta geçmedikçe geri vermek zorunda değildir (TBK m. 392)."
+  },
+  {
+   "front_md": "Ayın ortası ve sonu, yalnız ay belirtilmesi (TBK m. 91)?",
+   "back_md": "Ayın ortası 15'i, sonu son günüdür. Yalnız ay belirtilmişse o ayın son günü anlaşılır."
+  },
+  {
+   "front_md": "Gün olarak belirlenen sürede sözleşme günü sayılır mı? (TBK m. 92)",
+   "back_md": "Hayır, sözleşmenin kurulduğu gün sayılmaz. On beş gün iki hafta değil, tam on beş gündür."
+  },
+  {
+   "front_md": "Ay olarak belirlenen sürede son ayda karşılık gelen gün yoksa?",
+   "back_md": "Süre o ayın son günü dolar (TBK m. 92/1-3). Örneğin 31 Mart'tan itibaren bir aylık süre 30 Nisan'da dolar."
+  },
+  {
+   "front_md": "Son gün resmî tatile rastlarsa ne olur? (TBK m. 93)",
+   "back_md": "Kendiliğinden izleyen ve tatil olmayan ilk güne geçer. Aksine anlaşma geçerlidir."
+  },
+  {
+   "front_md": "Uzatılan süre ne zaman başlar? (TBK m. 95)",
+   "back_md": "Aksi kararlaştırılmadıkça önceki sürenin sona ermesini izleyen ilk günden."
+  },
+  {
+   "front_md": "Erken ödeyen borçlu indirim yapabilir mi? (TBK m. 96)",
+   "back_md": "Hayır; kanun, sözleşme ya da âdet gereği değilse. Kanun gereği örnek: konut finansmanında erken ödeme indirimi (TKHK m. 37)."
+  },
+  {
+   "front_md": "Ödemezlik def'inin şartları nelerdir? (TBK m. 97)",
+   "back_md": "Karşılıklı borç yükleyen sözleşme, karşılıklı edimler, def'i ileri sürenin önce ifa yükümlüsü olmaması, ifa isteyenin kendi edimini ifa etmemesi ve gereği gibi önermemesi."
+  },
+  {
+   "front_md": "Ödemezlik def'i borcu sona erdirir mi?",
+   "back_md": "Hayır. Geciktirici bir def'idir, yalnız ifadan geçici olarak kaçınma imkânı verir. Baskın görüşe göre hâkim bunu kendiliğinden dikkate almaz."
+  },
+  {
+   "front_md": "Def'i yerindeyse davada ne olur?",
+   "back_md": "Ağırlıklı görüşe göre dava reddedilmez, karşılıklı ifaya hükmedilir. Tescil davasında Yargıtay kalan bedeli depo ettirir ve depo edilince tescile karar verir."
+  },
+  {
+   "front_md": "Kirada ve eserde önce kim ifa eder?",
+   "back_md": "Kirada kiraya veren, çünkü kira ay sonunda ödenir (TBK m. 314). Eserde yüklenici, çünkü bedel teslim anında muaccel olur (TBK m. 479)."
+  },
+  {
+   "front_md": "TBK m. 98 hangi hakları verir?",
+   "back_md": "Karşı taraf iflas eder ya da hakkındaki haciz sonuçsuz kalırsa güvence verilinceye kadar kendi edimini ifa etmeme. Güvence uygun sürede verilmezse sözleşmeden dönme."
+  },
+  {
+   "front_md": "Ödemezlik def'i ile hapis hakkı arasındaki fark nedir?",
+   "back_md": "Def'ide kişi kendi edimini geri tutar ve borç yalnız ertelenir. Hapis hakkında borçlunun taşınırı elde tutulur ve gerekirse paraya çevrilebilir (TMK m. 950, 953)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

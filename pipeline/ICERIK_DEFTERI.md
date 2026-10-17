@@ -29,7 +29,7 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 13 | sebepsiz-zenginlesme-sartlar | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
 | 14 | sebepsiz-zenginlesme-iade-kapsami | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
 | 15 | ifa-genel-esaslar | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
-| 16 | ifa-yeri-zamani-karsilikli-ifa | bekliyor | |
+| 16 | ifa-yeri-zamani-karsilikli-ifa | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
 | 17 | alacakli-temerrudu | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
 | 18 | borca-aykirilik-ve-tazminat | bekliyor | |
 | 19 | borclu-temerrudu-sart-ve-sonuclar | bekliyor | |
