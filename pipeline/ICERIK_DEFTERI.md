@@ -7,16 +7,16 @@ Durumlar: `bekliyor` · `yazılıyor` · `denetimde` (yazıldı, bağımsız den
 
 Akış ve görev metinleri: `pipeline/ajan/README.md`.
 
-Sıra: önce HUK2011'in kalan 18 konusu, sonra 3. sınıf dersleri (HUK3011 Eşya,
-HUK3012 Borçlar Özel, HUK3013 Ticaret, HUK3015 Ceza Özel, HUK3017 Medeni Usul,
-HUK3014 İş, HUK3016 İnsan Hakları), sonra 2. sınıfın kalanları. API ile yazılmış
-ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
+Kapsam (kullanıcı kararı, 2026-10-18): 3. sınıfın bütün dersleri (HUK3011 Eşya, HUK3012 Borçlar Özel,
+HUK3013 Ticaret, HUK3015 Ceza Özel, HUK3017 Medeni Usul, HUK3014 İş, HUK3016 İnsan Hakları) ve 2. sınıftan
+yalnız HUK2009 İdare ile HUK2017 Devletler Umumi. HUK2011'de yeni araştırma yapılmaz; biten konular yüklenir.
+HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 
 ## HUK2011 Borçlar Hukuku Genel Hükümler (28 konu)
 
 | # | slug | durum | not |
 |---|---|---|---|
-| 1 | borc-iliskisi-temel-kavramlar | API (eski üslup) | not üslubuna çevrilecek |
+| 1 | borc-iliskisi-temel-kavramlar | API (eski üslup) | yeniden yazılmayacak (kullanıcı kararı) |
 | 2 | oneri-ve-kabul | API (eski üslup) | 〃 |
 | 3 | sekil-ve-on-sozlesme | API (eski üslup) | 〃 |
 | 4 | yorum-muvazaa-genel-islem-kosullari | API (eski üslup) | 〃 |
@@ -35,15 +35,15 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 17 | alacakli-temerrudu | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
 | 18 | borca-aykirilik-ve-tazminat | bitti | ajan yazdı; denetçi 9 küçük düzeltme (doktrin etiketleri, karar özetleri); yerelde yüklendi |
 | 19 | borclu-temerrudu-sart-ve-sonuclar | bitti | ajan yazdı; denetçi kanuni faiz yürürlüğünü (31.7.2026) düzeltti; yerelde yüklendi |
-| 20 | karsilikli-sozlesmelerde-secimlik-haklar | denetimde | ajan yazdı (kontrol temiz) |
-| 21 | imkansizlik-ve-asiri-ifa-guclugu | denetimde | ajan yazdı (kontrol temiz) |
-| 22 | sona-erme-halleri-ve-takas | denetimde | ajan yazdı (kontrol temiz) |
-| 23 | zamanasimi | denetimde | ajan yazdı (kontrol temiz) |
-| 24 | muteselsil-borcluluk | denetimde | ajan yazdı (kontrol temiz) |
-| 25 | kosullu-borclar | yazılıyor | |
-| 26 | baglanma-parasi-cayma-parasi-cezai-sart | yazılıyor | |
-| 27 | alacagin-devri | yazılıyor | |
-| 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | yazılıyor | |
+| 20 | karsilikli-sozlesmelerde-secimlik-haklar | bitti | ajan yazdı; bağımsız denetim yapılmadı (kullanıcı kararıyla durduruldu) |
+| 21 | imkansizlik-ve-asiri-ifa-guclugu | bitti | ajan yazdı; bağımsız denetim yapılmadı |
+| 22 | sona-erme-halleri-ve-takas | bitti | ajan yazdı; denetim yarıda kaldı |
+| 23 | zamanasimi | bitti | ajan yazdı; denetçi soru 3'ü düzeltti (Av. K. m. 40), HMK m. 141 güncel metne uyduruldu |
+| 24 | muteselsil-borcluluk | bitti | ajan yazdı; bağımsız denetim yapılmadı |
+| 25 | kosullu-borclar | iptal | kullanıcı kararıyla yazılmadı (2026-10-18) |
+| 26 | baglanma-parasi-cayma-parasi-cezai-sart | bitti | ajan yazdı (son düzeltmeler yarıda); TBK m. 180/2 ana oturumda kontrol edildi; denetim yapılmadı |
+| 27 | alacagin-devri | iptal | kullanıcı kararıyla yazılmadı (2026-10-18) |
+| 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | iptal | kullanıcı kararıyla yazılmadı (2026-10-18) |
 
 ## HUK3011 Eşya Hukuku (28 konu)
 

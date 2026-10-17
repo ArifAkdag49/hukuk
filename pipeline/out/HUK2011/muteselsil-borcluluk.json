@@ -1,0 +1,870 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 7,
+ "unit_title": "Ünite 7: Borç İlişkisinde Özel Durumlar ve Taraf Değişiklikleri",
+ "topic_index": 1,
+ "slug": "muteselsil-borcluluk",
+ "title": "Müteselsil Borçluluk: Kuruluş, Dış İlişki, İç İlişki ve Rücu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T21:46:09.172524+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/muteselsil-borcluluk-ve-devir"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Birden çok kişi aynı borçtan sorumlu olduğunda alacaklı kimden ne isteyebilir? Ödeyen borçlu, diğerlerinden neyi ve nasıl geri alır?\n\n- **Kavram:** Müteselsil borçlulukta her borçlu alacaklıya karşı borcun tamamından sorumludur. Biri ödeyince, ödediği oranda hepsi kurtulur. Teselsül tahmin edilmez; yoksa kısmi borç vardır.\n- **Doğuş (TBK m. 162):** Ya her borçlunun borcun tamamından sorumlu olmayı kabul ettiğini bildirmesiyle (iradi teselsül) ya da kanunun öngördüğü hâllerde (kanuni teselsül) doğar. Kanuni örnekler: TBK m. 61, m. 201, m. 202, m. 206 ve m. 638; TMK m. 641 ve TMK m. 189. Ticari işlerde TTK m. 7 teselsülü karine olarak kabul eder.\n- **Dış ilişki (alacaklı ile borçlular):**\n  - Alacaklı borcun tamamını ya da bir kısmını dilediği borçludan veya hepsinden ister. Sıra yoktur. Sorumluluk borcun tamamı ödeninceye kadar sürer (TBK m. 163).\n  - Borçlu yalnız kendi kişisel def'ilerini ve borcun sebep ya da konusundan doğan ortak def'ileri ileri sürebilir. Ortak def'iyi ileri sürmeyen, diğerlerine karşı sorumlu olur (TBK m. 164).\n  - Bir borçlu kendi davranışıyla diğerlerinin durumunu ağırlaştıramaz (TBK m. 165).\n  - İfa ve takas, sağlanan oranda herkesi kurtarır. İbra ise diğerlerini yalnız ibra edilenin iç ilişkideki payı oranında kurtarır (TBK m. 166).\n- **İç ilişki (borçlular arasında):**\n  - Aksi kararlaştırılmadıkça ya da ilişkinin niteliğinden anlaşılmadıkça paylar eşittir (TBK m. 167/1).\n  - Payından fazlasını ödeyen, fazlası için her birine ancak onun payı oranında rücu eder. Birinden alınamayan payı diğerleri eşit olarak üstlenir (TBK m. 167/2-3).\n  - Rücu hakkı olan borçlu ödediği oranda alacaklıya halef olur; rehin ve kefalet gibi bağlı haklar ona geçer. Alacaklı, diğerlerinin zararına bir borçlunun durumunu iyileştirirse sonuçlarına katlanır (TBK m. 168).\n- **Müteselsil alacaklılık (TBK m. 169):** Borçlu alacaklılardan birine ödeyerek hepsine karşı kurtulur.\n- **Ayrım:** Bölünemez borçta da her borçlu tamamını ifa eder, ama sebep edimin bölünemez olmasıdır (TBK m. 85).\n- **Uygulama:** Borçlulardan biriyle alacaklı arasındaki kesin hüküm diğerleri hakkında geçerli değildir (HMK m. 303/5). Yargıtay'a göre rücu alacağının zamanaşımı, ödemenin yapıldığı andan işler.",
+  "content_md": "## 0. Konunun haritası\n\nBir borcun birden çok borçlusu varsa üç ihtimali düşün:\n\n| Durum | Alacaklı ne ister? | Dayanak |\n|---|---|---|\n| Kısmi borç | Her birinden yalnız payını | Teselsül yoksa kural |\n| Müteselsil borç | Dilediğinden tamamını | TBK m. 162-168 |\n| Bölünemez borç | Her birinden edimin tamamını | TBK m. 85 |\n\nMüteselsil borçlulukta iki ayrı ilişki vardır:\n- **Dış ilişki:** Alacaklı ile borçlular arasındaki ilişki. Teselsül burada işler.\n- **İç ilişki:** Borçluların kendi aralarındaki hesaplaşma. Burada teselsül yoktur, pay esası vardır.\n\n> 💡 **Püf nokta:** \"Dışarıda herkes tamamından, içeride herkes payı kadar.\" Olay sorusunda önce hangi ilişkinin sorulduğunu belirle.\n\n## 1. Kavram ve doğuş (TBK m. 162)\n\n### 1.1 Kavram\n**Müteselsil borçluluk**, bölünebilir bir edimin birden çok borçlusundan her birinin alacaklıya karşı borcun tamamından sorumlu olduğu, borçlulardan biri ifa edince ifa oranında hepsinin borçtan kurtulduğu birlikte borçluluk türüdür. Alacak tektir ve alacaklı onu bir kez alır.\n\nKurumun amacı alacaklıyı korumaktır. Borçlulardan biri ödeme gücünü yitirirse bu riski alacaklı değil, diğer borçlular taşır.\n\n> **Örnek:** Ali, Ayşe ve Mehmet, açacakları kafe için X Mobilya Ltd. Şti.'den 900.000 TL'ye mobilya alır. Sözleşmeye \"alıcılar bedelin tamamından müteselsilen sorumludur\" yazdırırlar. X Ltd. 900.000 TL'nin tamamını yalnız Ayşe'den isteyebilir. Ayşe öderse Ali ve Mehmet de X Ltd.'ye karşı borçtan kurtulur.\n\n### 1.2 Teselsül tahmin edilmez\nTBK m. 162'nin yapısı açıktır: teselsül ya **borçluların bildirimiyle** ya da **kanunun öngördüğü hâllerde** doğar. İkisi de yoksa, bölünebilir bir borcun birden çok borçlusu **kısmi borçlu** olur. Her biri yalnız kendi payından sorumludur.\n\n> ⚠️ **Sınavda dikkat:** \"Birlikte borçlandılar, o hâlde müteselsilen sorumludurlar\" demek yanlıştır. Önce bildirim ya da kanun hükmü ara. Şüphede teselsül kabul edilmez.\n\n### 1.3 İradi teselsül (TBK m. 162/1)\nBirden çok borçludan her biri, alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirirse müteselsil borçluluk doğar. Uygulamada sözleşmelere \"müştereken ve müteselsilen sorumludur\" kaydı konur. Önemli olan, her borçlunun tamamından sorumlu olma iradesinin kuşkuya yer bırakmadan anlaşılmasıdır.\n\nMevcut bir borca sonradan, borçlunun yanında yer almak üzere katılmak da mümkündür. Buna **borca katılma** denir (TBK m. 201). Ayrıntısı borcun üstlenilmesi konusunda.\n\n### 1.4 Kanuni teselsül (TBK m. 162/2)\nBildirim yoksa teselsül ancak kanunda öngörülen hâllerde doğar. Başlıca örnekler:\n- **Haksız fiil:** Birden çok kişi bir zarara birlikte sebep olmuşsa ya da aynı zarardan çeşitli sebeplerle sorumluysa müteselsil sorumluluk hükümleri uygulanır (TBK m. 61). Paylaştırma ve rücu (TBK m. 62) haksız fiil konusunda ayrıca işlendi.\n- **Borca katılma:** Borca katılan ile borçlu, alacaklıya karşı müteselsilen sorumludur (TBK m. 201/2).\n- **Malvarlığı veya işletme devri:** Devralanın yanında önceki borçlu da iki yıl süreyle müteselsil borçlu olarak sorumlu kalır (TBK m. 202/2).\n- **Sözleşmeye katılma:** Anlaşmada aksi kararlaştırılmamışsa katılan ile yanında yer aldığı taraf, sözleşmenin diğer tarafına karşı müteselsilen alacaklı ve borçlu olur (TBK m. 206/2).\n- **Adi ortaklık:** Ortaklar, ortaklık ilişkisi çerçevesinde üçüncü kişiye karşı üstlendikleri borçlardan, aksi kararlaştırılmamışsa müteselsilen sorumludur (TBK m. 638/3).\n- **Mirasçılar:** Mirasçılar tereke borçlarından müteselsilen sorumludur (TMK m. 641/1). Alacaklı borcun bölünmesine ya da nakline rıza göstermemişse bu sorumluluk paylaşmadan sonra da sürer. Paylaşma tarihinden, daha sonra muaccel olan borçlarda muacceliyetten itibaren beş yıl geçince teselsül sona erer (TMK m. 681).\n- **Eşler:** Birliği temsil yetkisinin kullanıldığı hâllerde eşler üçüncü kişilere karşı müteselsilen sorumludur (TMK m. 189/1).\n\n### 1.5 Ticari işlerde teselsül karinesi (TTK m. 7)\nİki ya da daha fazla kişi, **içlerinden yalnız biri veya hepsi için ticari** nitelikte bir iş dolayısıyla diğer bir kişiye karşı **birlikte borç altına girerse**, kanunda veya sözleşmede aksi öngörülmemişse müteselsilen sorumlu olur (TTK m. 7/1). Burada bildirim aranmaz. Teselsül bir karinedir ve sözleşmeyle dışlanabilir.\n- Kefil ve kefillere, ödemenin yapılmadığı ihbar edilmeden temerrüt faizi yürütülemez (TTK m. 7/1).\n- Ticari borçlara kefalette aynı kural, asıl borçlu ile kefil arasında ve kefiller arasında da geçerlidir (TTK m. 7/2).\n\n> **Örnek:** Market işleten tacir Burak ile öğretmen kız kardeşi Elif, markete konacak soğutucu dolapları birlikte sipariş eder ve sözleşmeyi alıcı olarak birlikte imzalar. Teselsülden söz edilmemiştir. Dolapları almak Burak'ın ticari işletmesini ilgilendirdiği için onun açısından ticari iştir (TTK m. 3). Satıcı bedelin tamamını Elif'ten de isteyebilir.\n\n> ⚠️ **Sınavda dikkat:** **Müteselsil kefalet** (TBK m. 586) adına rağmen müteselsil borçluluk değildir. Kefilin borcu asıl borca bağlı (fer'i) kalır ve alacaklı ona ancak kanundaki şartlarla başvurabilir. Ayrıntısı Borçlar Özel'de.\n\n## 2. Dış ilişki: alacaklı ile borçlular\n\n### 2.1 Alacaklının seçim hakkı (TBK m. 163)\n- Alacaklı, borcun **tamamının ya da bir kısmının** ifasını dilerse borçluların **hepsinden**, dilerse **yalnız birinden** isteyebilir (m. 163/1).\n- Bir **sıra** yoktur. Alacaklı önce borcu \"asıl kullanan\" borçluya gitmek zorunda değildir.\n- Borçluların sorumluluğu **borcun tamamı ödeninceye kadar** devam eder (m. 163/2). Birini dava etmek, hatta onun aleyhine hüküm almak diğerlerini kurtarmaz. Kurtaran yalnız ifadır.\n\n> **Örnek:** X Ltd. 900.000 TL için yalnız Ayşe'ye dava açar. Ayşe \"aramızda üç eşit pay var, ben en fazla 300.000 TL öderim\" der. Bu savunma dinlenmez. Paylar iç ilişkiye aittir, alacaklıyı ilgilendirmez.\n\n> ⚠️ **Sınavda dikkat:** Borçluların kendi aralarında yaptıkları pay anlaşması alacaklıyı bağlamaz. Alacaklı bu anlaşmayı bilse bile durum değişmez. Anlaşma yalnız iç ilişkide, rücu sırasında önem taşır.\n\n### 2.2 Borçluların savunmaları (TBK m. 164)\nMüteselsil borçlu alacaklıya karşı yalnız iki tür def'i ve itiraz ileri sürebilir (m. 164/1):\n1. **Kişisel def'i ve itirazlar:** Alacaklı ile **kendisi** arasındaki kişisel ilişkiden doğanlar. Örneğin kendisinin aldatılarak imza atması, alacaklının yalnız ona tanıdığı bir ödeme süresi ya da kendisinin alacaklıdan olan bir alacağıyla takas.\n2. **Ortak def'i ve itirazlar:** Müteselsil borcun **sebep ya da konusundan** doğanlar. Örneğin borcun doğduğu sözleşmenin bütün borçlular için geçersiz olması, borcun ödenmiş olması ya da karşılıklı sözleşmede alacaklının kendi edimini yerine getirmemiş olması (ödemezlik def'i, TBK m. 97).\n\nBir borçlu **başka bir borçlunun kişisel def'isine** dayanamaz.\n\n> **Örnek:** Mehmet'in X Ltd.'den 50.000 TL'lik muaccel bir alacağı vardır. X Ltd. borcun tamamını Ayşe'den isterse Ayşe \"Mehmet'in alacağıyla takas edin\" diyemez. Takas yetkisi alacağın sahibi Mehmet'e aittir. Mehmet takas beyanında bulunursa borç 50.000 TL azalır ve bu herkese yarar (m. 166/1).\n\n**Ortak def'iyi ileri sürmeyen borçlu** diğerlerine karşı sorumlu olur (m. 164/2). Kanun yalnız bu sonucu söyler. Öğretide bu, elindeki ortak savunmayı kullanmadan ödeyen borçlunun sonucuna kendisinin katlanması olarak anlaşılır: diğer borçlular rücu isteminde bu def'iyi ona karşı ileri sürebilir ve uğradıkları zarardan o sorumludur.\n\n> **Örnek:** Ali, Ayşe ve Mehmet bir yazılım şirketinden program satın almıştır. Sözleşmeye göre bedel teslimle birlikte ödenecektir. Program teslim edilmeden şirket bedelin tamamını Ali'den ister. Ali ödemezlik def'ini ileri sürmeden öder, şirket de programı teslim etmeden iflas eder. Ali, Ayşe ve Mehmet'e rücu ettiğinde onlar bu def'iyi Ali'ye karşı ileri sürebilir.\n\n### 2.3 Bir borçlunun bireysel davranışı (TBK m. 165)\nKanun veya sözleşme ile aksi belirlenmedikçe, borçlulardan biri **kendi davranışıyla** diğer borçluların durumunu **ağırlaştıramaz**. Bir borçlunun alacaklıyla yaptığı ağırlaştırıcı anlaşma yalnız onu bağlar.\n- Bir borçlunun tek başına kabul ettiği daha yüksek faiz, ceza koşulu ya da daha kısa vade diğerlerini bağlamaz.\n- Müteselsil borçlulardan birinin zamanaşımından feragat etmesi diğerlerine karşı ileri sürülemez (TBK m. 160/2). Bu, aynı düşüncenin kanundaki bir uygulamasıdır.\n- Öğretide ağırlıklı olarak, her borçlunun temerrüdünün ayrı değerlendirildiği, yalnız birine yapılan ihtarın diğerlerini temerrüde düşürmediği kabul edilir.\n\n> **Örnek:** Yargıtay'ın incelediği bir olayda ilk yükleniciler, işi geç teslim ederlerse arsa sahiplerine her daire için aylık 200 DM ödemeyi üstlenmişti. Sonradan işe katılan yükleniciler bazı arsa sahipleriyle bu tutarı 200 Euro'ya çıkaran bir ek sözleşme yaptı. Ek sözleşmeyi imzalamayan ilk yükleniciler yalnız 200 DM üzerinden hesaplanan tutardan müteselsilen sorumlu tutuldu.\n\n### 2.4 Borcun sona ermesi (TBK m. 166)\n**(1) İfa ve takas.** Borçlulardan biri ifa veya takasla borcun tamamını ya da bir kısmını sona erdirmişse, **bu oranda** diğerlerini de borçtan kurtarır (m. 166/1).\n\n> **Örnek:** 900.000 TL'lik borca Ali 100.000 TL öder. Artık X Ltd. üç borçludan, dilediğinden, en fazla 800.000 TL isteyebilir.\n\n**(2) İfasız kurtulma.** Bir borçlu alacaklıya ifada bulunmadan borçtan kurtulmuşsa, diğerleri bundan ancak **durumun veya borcun niteliğinin elverdiği ölçüde** yararlanır (m. 166/2). Ölçüt kurtulma sebebidir. Örneğin edim, borçluların hiçbirinin sorumlu tutulamayacağı bir sebeple imkânsızlaşmışsa borç sona erer (TBK m. 136/1); sebep edimin kendisine ilişkin olduğundan bundan bütün borçlular yararlanır. Buna karşılık yalnız bir borçluya özgü bir kurtulma sebebi diğerlerine kendiliğinden yaramaz.\n\n**(3) İbra.** Alacaklının borçlulardan biriyle yaptığı ibra sözleşmesi (TBK m. 132), diğer borçluları **ibra edilen borçlunun iç ilişkideki payı oranında** borçtan kurtarır (m. 166/3). Bu fıkra eski Kanunda yoktu. Kanun koyucu, öğretide tartışmalı olan sorunu açık bir hükümle çözmüştür.\n\n> **Örnek:** Ali, Ayşe ve Mehmet'in 900.000 TL'lik borcunda iç ilişkideki paylar eşittir. X Ltd., Mehmet'i karşılıksız ibra eder. Ali ve Ayşe artık X Ltd.'ye karşı 600.000 TL'den müteselsilen sorumludur. İç ilişkide Mehmet'in payı %50, diğerlerinin %25 olsaydı kalan borç 450.000 TL olurdu.\n\nMantık şudur: Ali ve Ayşe borcun tamamından sorumlu kalsaydı, ödedikten sonra Mehmet'e rücu edecek ve ibra Mehmet'e bir yarar sağlamayacaktı. Kanun, Mehmet'in payını borçtan düşerek hem Mehmet'i gerçekten kurtarır hem de diğerlerinin aleyhine bir sonuç doğurmaz. Kalan borcu ödeyen Ali ya da Ayşe'nin Mehmet'e rücu etmesine gerek kalmaz.\n\n| | Ödeme veya takas | İbra |\n|---|---|---|\n| Diğerleri ne kadar kurtulur? | Ödenen tutar kadar | İbra edilenin payı kadar |\n| Dayanak | TBK m. 166/1 | TBK m. 166/3 |\n\n## 3. İç ilişki: borçlular arasında hesaplaşma\n\n### 3.1 Paylar (TBK m. 167/1)\nAksi kararlaştırılmadıkça ya da borçlular arasındaki hukuki ilişkinin niteliğinden anlaşılmadıkça, borçlular alacaklıya yapılan ifadan birbirlerine karşı **eşit paylarla** sorumludur.\n- **Anlaşma:** Borçlular payları serbestçe belirleyebilir. Örneğin mobilyanın yarısını Ali kullanacaksa paylar %50, %25 ve %25 olabilir.\n- **İlişkinin niteliği:** Örneğin borçtan yalnız bir borçlu yararlanmışsa ilişkinin niteliği eşit paydan farklı bir sonuç doğurabilir. Diğerleri yalnız güvence olsun diye imza atmışsa kefalet hükümleri de gündeme gelebilir (bkz. 5.3).\n- **Kanun:** Bazı hâllerde ölçüyü kanun koyar. Aksi kararlaştırılmamışsa mirasçılar tereke borçlarını miras payı oranında öder (TMK m. 682/3). Haksız fiilde paylaştırmada özellikle kusurun ağırlığı ve yaratılan tehlikenin yoğunluğu gözetilir (TBK m. 62/1).\n- **İspat:** Eşit pay kanunun çıkış noktasıdır. Farklı payı ileri süren, buna dayanak olan olguları ispatlar (TMK m. 6).\n\n### 3.2 Rücu hakkı (TBK m. 167/2)\n**Rücu**, kendisine düşen paydan fazlasını ödeyen borçlunun bu fazlayı diğer borçlulardan istemesidir.\n- Rücu hakkı için ödemenin **payı aşması** gerekir. Payını ya da daha azını ödeyen rücu edemez.\n- Ödeyen, **her bir borçluya ancak onun payı oranında** rücu edebilir. İç ilişkide teselsül yoktur.\n\n> **Örnek:** Paylar eşittir, yani her biri 300.000 TL'dir. Ayşe X Ltd.'ye 900.000 TL öder. Ali'den 300.000 TL, Mehmet'ten 300.000 TL ister. Ali'den 600.000 TL isteyemez.\n\n> **Örnek (kısmi ödeme):** Ali yalnız 100.000 TL ödemişse, payı 300.000 TL olduğu için kimseye rücu edemez. Bu ödeme Ali'nin payından düşülür.\n\n### 3.3 Birinden alınamayan pay (TBK m. 167/3)\nBorçlulardan birinden alınamayan miktarı diğer borçlular **eşit olarak** üstlenir. Ödemeyi yapan borçlu da \"diğer borçlular\" arasındadır.\n\n> **Örnek:** Ayşe 900.000 TL'yi ödemiştir. Mehmet'in hiçbir malı yoktur ve hakkında aciz belgesi alınmıştır. Mehmet'in 300.000 TL'lik payını Ali ile Ayşe eşit olarak üstlenir. Ayşe, Ali'den kendi payı olan 300.000 TL'yi ve Mehmet'in payının yarısı olan 150.000 TL'yi, toplam 450.000 TL'yi ister. Sonuçta Ali ve Ayşe 450.000'er TL yüklenmiş olur.\n\n### 3.4 Alacaklıya halef olma (TBK m. 168/1)\nDiğerlerine rücu hakkı olan borçlu, **ifa ettiği miktar oranında** alacaklının haklarına **halef olur**. **Halefiyet**, alacaklının alacağının kanun gereği, ayrı bir devir işlemine gerek olmadan ödeyene geçmesidir. Kanun öngörmedikçe halefiyet doğmaz. TBK m. 127, borcu ödeyen üçüncü kişinin halefiyetini sınırlı hâllerde tanır ve diğer halefiyet hâllerine ilişkin hükümleri saklı tutar. TBK m. 168 bunlardan biridir.\n\nHalefiyetin asıl yararı **bağlı (fer'i) haklardır.** Alacağa bağlı rehin, ipotek ve kefalet gibi güvenceler ödeyenin rücu alacağını güvence altına almaya devam eder.\n\n> **Örnek:** Başka bir varsayımla, X Ltd.'nin alacağı Mehmet'in aracı üzerindeki rehinle güvence altında olsun. Borcun tamamını ödeyen Ayşe, Mehmet'in payı için bu rehne dayanabilir. Yalnız rücu hakkı olsaydı Ayşe, Mehmet'in güvencesiz sıradan bir alacaklısı olurdu.\n\nRücu ile halefiyet birbirini tamamlar. Ödeyen, rücu hakkının kapsamı kadar halef olur ve işine gelen dayanağa başvurur.\n\n| Ölçüt | Rücu (m. 167) | Halefiyet (m. 168) |\n|---|---|---|\n| Niteliği | İç ilişkiden doğan kendi hakkı | Alacaklının alacağı kanunen geçer |\n| Bağlı haklar | Geçmez | Rehin, ipotek, kefalet geçer |\n| Zamanaşımı | Ödemeyle başlar | Asıl alacağın süresi |\n\n> 📌 **Kesin bilgi:** Yargıtay Hukuk Genel Kurulu'na göre rücu hakkı, borçlu alacaklıyı tatmin ettiği anda doğar ve zamanaşımı da o andan işlemeye başlar. Hangi sürenin uygulanacağı ise tartışmalıdır (bkz. doktrin). Haksız fiilde rücu için TBK m. 73 özel bir süre koyar; ayrıntısı haksız fiil konusunda.\n\n### 3.5 Alacaklının bir borçlunun durumunu iyileştirmesi (TBK m. 168/2)\nAlacaklı, diğerlerinin zararına olarak borçlulardan birinin durumunu iyileştirirse **bunun sonuçlarına katlanır.** Kanun böylece halefiyetin değerini korur. Öğretide bu kural, diğer borçluların, alacaklının davranışı yüzünden kaybettikleri rücu imkânı ölçüsünde alacaklıya karşı sorumluluktan kurtulmayı ileri sürebilmesi olarak anlaşılır.\n\n> **Örnek:** X Ltd., Mehmet'in isteği üzerine onun aracındaki rehni kaldırır. Mehmet'in başka malı yoktur. Borcu ödeyecek olan Ayşe artık halefiyet yoluyla bu rehinden yararlanamaz. X Ltd. bunun sonucuna katlanır: Ayşe, rehin sayesinde Mehmet'ten alabileceği tutar ölçüsünde X Ltd.'ye karşı sorumluluktan kurtulmayı ileri sürebilir.\n\nİbra için kanun ayrı ve somut bir ölçü koymuştur (m. 166/3).\n\n## 4. Müteselsil alacaklılık (TBK m. 169)\nTeselsül alacaklı tarafında da kurulabilir.\n- **Doğuş:** Borçlu alacaklılardan her birine borcun tamamını isteme hakkı tanımışsa ya da kanun öngörmüşse doğar (m. 169/1).\n- **Ödeme:** Borçlu, alacaklılardan birine yaptığı ifayla bütün alacaklılara karşı borcundan kurtulur (m. 169/2).\n- **Seçim:** Alacaklılardan birinin icraya ya da mahkemeye başvurduğu kendisine bildirilmedikçe borçlu dilediğine ödeyebilir (m. 169/3).\n- **İç ilişki:** Aksi kararlaştırılmadıkça ya da ilişkinin niteliğinden anlaşılmadıkça alacaklıların hakları eşittir. Payından fazlasını alan, fazlayı payını alamayanlara öder (m. 169/4-5).\n\n> **Örnek:** Kardeşler Selin ve Kerem, eşit paylarla malik oldukları daireyi Can'a kiralar ve sözleşmede kiranın tamamını her birinin isteyebileceğini kararlaştırır. Can 30.000 TL kirayı Selin'e öder ve borcundan kurtulur. Selin, Kerem'e 15.000 TL ödemekle yükümlüdür.\n\n## 5. Benzer kurumlardan ayrım\n\n### 5.1 Bölünemez borç (TBK m. 85)\nEdimin kendisi bölünemiyorsa (bir aracın ya da bir atın teslimi gibi) birden çok borçlunun her biri borcun tamamını ifa etmekle yükümlüdür (m. 85/2). İfada bulunan borçlu, durumun gereğinden aksi anlaşılmadıkça alacaklıya halef olur ve diğer borçlulardan payları oranında alacağını ister (m. 85/3). Birden çok alacaklı varsa her biri borcun **hepsine birden** ifasını isteyebilir; borçlu da edimini hepsine birden ifa eder (m. 85/1).\n\n| | Müteselsil borç | Bölünemez borç |\n|---|---|---|\n| Kaynak | Bildirim ya da kanun | Edimin niteliği |\n| Edim | Bölünebilir | Bölünemez |\n| Çok alacaklıda | Birine ifa yeter | Hepsine birden ifa |\n\nKanun zamanaşımında iki kurumu birlikte anar: kesilme (TBK m. 155/1) ve feragat (TBK m. 160/2-3).\n\n> 💡 **Püf nokta:** Teselsül bir **güvence tekniğidir**, bölünemezlik ise edimin **doğasından** gelir. Para borcu bölünebilir; onda aranacak olan teselsül kaydı ya da kanun hükmüdür.\n\n### 5.2 Eksik teselsül\nEski Kanun, birlikte zarar vermeyi (tam teselsül) ve aynı zarardan farklı sebeplerle sorumluluğu (eksik teselsül) ayrı maddelerde düzenliyordu. TBK m. 61 iki hâli aynı hükme bağlar. Ayrımın bugün de sürüp sürmediği tartışmalıdır (bkz. doktrin; ayrıntısı haksız fiil konusunda).\n\n### 5.3 Kefalet\nKefil başkasının borcunu güvence altına alır ve borcu fer'idir. Müteselsil borçlu ise kendi borcundan sorumludur. Kefalet Borçlar Özel'in konusudur.\n\n> ⚠️ **Sınavda dikkat:** Gerçek kişilerin kişisel güvence vermek için başka ad altında yaptıkları sözleşmelere de kefaletin şekline, kefil olma ehliyetine ve eşin rızasına ilişkin hükümler uygulanır (TBK m. 603). Borçtan hiç yararlanmayan birinin yalnız güvence olsun diye \"müteselsil borçlu\" sıfatıyla imza atmasının bu kapsama girip girmediği tartışmalıdır. Ayrıntısı Borçlar Özel'de.\n\n## 6. Uygulamada müteselsil borç\n- **Dava ve takip:** Alacaklı borçluların hepsine birlikte dava açabilir. Müteselsil borçlular bu davada ihtiyari dava arkadaşıdır; örneğin ortak bir işlemle aynı şekilde yükümlülük altına girmişlerdir (HMK m. 57/1-b). Yine de davalar birbirinden bağımsızdır ve her davalı diğerinden bağımsız hareket eder (HMK m. 58). Uygulamada hüküm, aynı alacağın iki kez tahsil edilmemesi için \"tahsilde tekerrür olmamak üzere\" kurulur.\n- **Kesin hüküm:** Müteselsil borçlulardan biri ile alacaklı arasında oluşan kesin hüküm, diğerleri hakkında geçerli değildir (HMK m. 303/5). Alacaklı Ali'ye karşı açtığı davayı kaybetse bile Ayşe'ye dava açabilir. Ayşe de Ali lehine verilen hükme dayanarak kesin hüküm itirazında bulunamaz.\n- **Zamanaşımı:** Zamanaşımı müteselsil borçlulardan birine karşı kesilince diğerlerine karşı da kesilmiş olur (TBK m. 155/1). Birinin zamanaşımından feragati ise diğerlerine karşı ileri sürülemez (TBK m. 160/2). Ayrıntısı zamanaşımı konusunda.\n- **Kısmi ödeme:** Kısmi ödeme, ödenen tutar kadar herkesi kurtarır (m. 166/1). Ama ödeyen payını aşmadıkça rücu hakkı doğmaz.\n- **Rücu davası:** Ödeyen, ödemeyi ve payını aştığını ispatlar. Her borçluya karşı istem onun payıyla sınırlıdır. Bu yüzden hükümde her davalı için ayrı tutar gösterilir.\n\n## 7. Olay çözerken denetim şeması\n1. **Teselsül var mı?** Bildirim (TBK m. 162/1), kanun hükmü (TBK m. 61, m. 201, m. 202, m. 206, m. 638; TMK m. 641; TMK m. 189) ya da ticari işte karine (TTK m. 7). Hiçbiri yoksa kısmi borç vardır.\n2. **Dış ilişki:** Alacaklı kimden ne istedi (m. 163)? İleri sürülen savunma kişisel mi, ortak mı (m. 164)? Bir borçlunun ağırlaştırıcı davranışı var mı (m. 165)?\n3. **Sona erme:** Ödeme ya da takas mı, ibra mı, başka bir kurtulma sebebi mi (m. 166/1-3)? Kalan borcu hesapla.\n4. **İç ilişki:** Paylar ne (m. 167/1)? Ödeyen payını aştı mı, her birinden ne kadar ister (m. 167/2)? Ödeme gücü olmayan borçlu var mı (m. 167/3)?\n5. **Halefiyet:** Hangi güvenceler ödeyene geçti (m. 168/1)? Alacaklı bir borçlunun durumunu iyileştirdi mi (m. 168/2)?\n6. **Usul ve süre:** Kesin hüküm (HMK m. 303/5), zamanaşımının kesilmesi (TBK m. 155) ve rücu zamanaşımının başlangıcı.",
+  "critical_md": "- 📌 Teselsül iki yoldan doğar: her borçlunun borcun tamamından sorumlu olmayı kabul ettiğini bildirmesi ya da kanun hükmü (TBK m. 162). İkisi de yoksa kısmi borç vardır; teselsül tahmin edilmez.\n- 📌 Ticari işlerde teselsül karinedir. İşin borç altına girenlerden yalnız biri için ticari olması yeter. Kanun veya sözleşme aksini öngörebilir (TTK m. 7/1).\n- ⚠️ Müteselsil kefalet (TBK m. 586) müteselsil borçluluk değildir; kefilin borcu fer'idir.\n- 📌 Alacaklı borcun tamamını ya da bir kısmını dilediği borçludan veya hepsinden ister; aralarında sıra yoktur (TBK m. 163/1).\n- ⚠️ \"Payım kadar öderim\" savunması dış ilişkide dinlenmez. Borçlular arasındaki pay anlaşması alacaklıyı bağlamaz.\n- 📌 Sorumluluk borcun tamamı ödeninceye kadar sürer. Birini dava etmek ya da aleyhine hüküm almak diğerlerini kurtarmaz; kesin hüküm diğer borçlular hakkında geçerli değildir (TBK m. 163/2, HMK m. 303/5).\n- ⚠️ Borçlu, başka bir borçlunun kişisel def'isini (onun aldatılması, onun takas alacağı, ona tanınan süre) ileri süremez. Ortak def'iyi ileri sürmeyen borçlu diğerlerine karşı sorumlu olur (TBK m. 164).\n- 📌 Bir borçlunun tek başına kabul ettiği ağırlaştırma (daha yüksek faiz, ceza koşulu, zamanaşımından feragat) diğerlerini bağlamaz (TBK m. 165, TBK m. 160/2).\n- ⚠️ Ödeme ve takas, ödenen tutar kadar herkesi kurtarır (TBK m. 166/1). İbra ise diğerlerini yalnız ibra edilenin iç ilişkideki payı kadar kurtarır (TBK m. 166/3).\n- 📌 İç ilişkide kural eşit paydır. Aksi anlaşma, ilişkinin niteliği ya da kanun (TMK m. 682/3, TBK m. 62/1) farklı bir pay getirebilir (TBK m. 167/1).\n- ⚠️ Rücu için payı aşan bir ödeme gerekir. Ödeyen her borçluya ancak onun payı oranında rücu eder; iç ilişkide teselsül yoktur (TBK m. 167/2).\n- 📌 Birinden alınamayan payı, ödeyen de dahil diğer borçlular eşit olarak üstlenir (TBK m. 167/3).\n- 📌 Rücu hakkı olan borçlu ödediği oranda alacaklıya halef olur; rehin, ipotek ve kefalet gibi güvenceler ona geçer. Alacaklı, diğerlerinin zararına bir borçlunun durumunu iyileştirirse sonuçlarına katlanır (TBK m. 168).\n- 📌 Yargıtay Hukuk Genel Kurulu'na göre rücu hakkı alacaklının tatmin edildiği anda doğar ve zamanaşımı o andan işler. Uygulanacak süre tartışmalıdır.\n- ⚠️ Müteselsil alacaklılıkta borçlu alacaklılardan birine ödeyerek kurtulur (TBK m. 169/2). Bölünemez alacakta ise hepsine birden ifa eder (TBK m. 85/1).",
+  "doctrine_md": "### TBK döneminde eksik teselsül ayrımı sürüyor mu?\nEski Kanun döneminde öğretideki ağırlıklı görüş ve Yargıtay Hukuk Genel Kurulu, aynı zarardan farklı hukuki sebeplerle (sözleşme, kanun, haksız fiil) sorumlu olanlar arasındaki ilişkiyi \"eksik teselsül\" sayıyordu. Bunun en önemli sonucu, birine karşı kesilen zamanaşımının diğerine geçmemesiydi. TBK m. 61 iki hâli aynı hükme bağladığı için bir görüşe göre ayrım kalkmıştır; artık bütün müteselsil sorumlulara TBK m. 155/1 dahil genel hükümler uygulanır. Yargıtay'ın bir dairesi de TBK döneminde açılan davalarda bu yönde karar vermektedir. Karşı görüşe göre farklı sebeplerle sorumlu olanların durumu yapısı gereği farklıdır. Kendisine karşı hiçbir işlem yapılmamış bir sorumlunun, başkasına karşı açılan dava yüzünden zamanaşımı korumasını kaybetmesi hakkaniyete aykırıdır. Tartışmanın ayrıntısı haksız fiil konusunda.\n\n### Rücu isteminin zamanaşımı\nTBK, sözleşmeden ya da kanundan doğan müteselsil borçlulukta rücu için özel bir süre koymamıştır. TBK m. 73 yalnız haksız fiildeki rücuya ilişkindir. Başlangıç konusunda Yargıtay'ın yaklaşımı nettir: süre, payı aşan ödemenin yapıldığı, yani alacaklının tatmin edildiği andan işler. Uygulanacak süre ise tartışmalıdır:\n- Hukuk Genel Kurulu 2023'te şu ölçüyü koydu: borçlular arasında bir sözleşme varsa onun süresi, yoksa rücu alacağının dayanağına göre belirlenen süre uygulanır. Tereke borcunu ödeyen mirasçıyı kanuni halef sayan Kurul, bu dayanağın asıl alacak olduğunu ve asıl alacağın zamanaşımının uygulanacağını kabul etti. Asıl alacak ipotekli olduğundan dava süresinde sayıldı (tescilli rehinle güvenceli alacak için bkz. TMK m. 864).\n- Aynı karardaki karşı oy, iç ilişkinin dış ilişkiden bağımsız olduğunu, ödeme yapmayan borçluların zenginleştiğini ve sebepsiz zenginleşme hükümlerinin (TBK m. 82) uygulanması gerektiğini savundu.\n- Daha önceki bir Hukuk Genel Kurulu kararında benimsenen bozma gerekçesi ise süreyi, rücu eden ile rücu edilen arasındaki hukuki ilişkiye bağlıyordu.\n\nÖğretide bir görüş, rücu ile halefiyeti iki ayrı istem sayar: ödeyen rücuya dayanırsa kendi iç ilişkisinin süresi, halefiyete dayanırsa asıl alacağın süresi uygulanır. Sınavda başlangıcı kesin, süreyi tartışmalı olarak yaz.\n\n### Zamanaşımı def'i ortak def'i midir?\nYargıtay'ın bir dairesi TBK döneminde, davalılardan birinin ileri sürdüğü zamanaşımı def'ini ortak def'i saymış ve def'ide bulunmayan diğer davalının da bundan yararlanacağını kabul etmiştir. Bu yaklaşım tartışmaya açıktır. Zamanaşımı her borçlu için ayrı işleyebilir; örneğin durma sebepleri (TBK m. 153) bir borçluya özgü olabilir. Hâkim zamanaşımını kendiliğinden gözetemez (TBK m. 161), ihtiyari dava arkadaşları birbirinden bağımsız hareket eder (HMK m. 58) ve feragat yalnız feragat edeni bağlar (TBK m. 160/2). Bu gerekçelerle karşı bakış açısı, def'inin kural olarak onu ileri süren borçluya yaradığını kabul eder.",
+  "glossary": [
+   {
+    "term": "Müteselsil borçluluk",
+    "definition": "Bölünebilir bir edimin birden çok borçlusundan her birinin alacaklıya karşı borcun tamamından sorumlu olduğu, birinin ifasıyla ifa oranında hepsinin kurtulduğu borç ilişkisi."
+   },
+   {
+    "term": "Kısmi borç",
+    "definition": "Teselsül bulunmadığında bölünebilir borcun birden çok borçlusundan her birinin yalnız kendi payından sorumlu olması."
+   },
+   {
+    "term": "İradi teselsül",
+    "definition": "Her borçlunun alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirmesiyle doğan teselsül (TBK m. 162/1)."
+   },
+   {
+    "term": "Kanuni teselsül",
+    "definition": "Bildirim olmadan, doğrudan bir kanun hükmüyle doğan teselsül (TBK m. 162/2), örneğin mirasçıların tereke borçlarından sorumluluğu."
+   },
+   {
+    "term": "Teselsül karinesi",
+    "definition": "Ticari bir iş dolayısıyla birlikte borç altına girenlerin, kanunda veya sözleşmede aksi öngörülmedikçe müteselsilen sorumlu sayılması (TTK m. 7)."
+   },
+   {
+    "term": "Dış ilişki",
+    "definition": "Alacaklı ile müteselsil borçlular arasındaki ilişki. Teselsül bu ilişkide işler."
+   },
+   {
+    "term": "İç ilişki",
+    "definition": "Müteselsil borçluların kendi aralarındaki hesaplaşma. Burada pay esası geçerlidir."
+   },
+   {
+    "term": "Kişisel def'i",
+    "definition": "Bir borçlunun alacaklıyla kendi arasındaki kişisel ilişkiden doğan ve yalnız onun ileri sürebileceği savunma."
+   },
+   {
+    "term": "Ortak def'i",
+    "definition": "Müteselsil borcun sebep ya da konusundan doğan ve her borçlunun ileri sürebileceği savunma. İleri sürmeyen borçlu diğerlerine karşı sorumlu olur (TBK m. 164/2)."
+   },
+   {
+    "term": "Rücu",
+    "definition": "Kendi payından fazlasını ödeyen borçlunun fazlayı diğer borçlulardan, her birinden onun payı oranında istemesi (TBK m. 167/2)."
+   },
+   {
+    "term": "Halefiyet",
+    "definition": "Rücu hakkı olan borçlunun, ödediği oranda alacaklının alacağına kanun gereği ve bağlı haklarıyla birlikte geçmesi (TBK m. 168/1)."
+   },
+   {
+    "term": "İbra",
+    "definition": "Alacaklının borcu borçluyla yaptığı bir sözleşmeyle ortadan kaldırması. Bir müteselsil borçlunun ibrası diğerlerini onun iç ilişkideki payı oranında kurtarır (TBK m. 166/3)."
+   },
+   {
+    "term": "Müteselsil alacaklılık",
+    "definition": "Alacaklılardan her birinin borcun tamamını isteyebildiği, borçlunun birine ödemekle hepsine karşı kurtulduğu durum (TBK m. 169)."
+   },
+   {
+    "term": "Bölünemez borç",
+    "definition": "Edimin niteliği gereği parçalara ayrılamadığı borç. Birden çok borçlunun her biri tamamını ifa etmekle yükümlüdür (TBK m. 85)."
+   },
+   {
+    "term": "Eksik teselsül",
+    "definition": "Eski Kanun döneminde, aynı zarardan farklı hukuki sebeplerle sorumlu olanlar arasındaki teselsül için kullanılan kavram. TBK döneminde sürüp sürmediği tartışmalıdır."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "162",
+   "official_text": "MADDE 162- Birden çok borçludan her biri, alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirirse, müteselsil borçluluk doğar.\nBöyle bir bildirim yoksa, müteselsil borçluluk ancak kanunda öngörülen hâllerde doğar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "163",
+   "official_text": "MADDE 163- Alacaklı, borcun tamamının veya bir kısmının ifasını, dilerse borçluların hepsinden, dilerse yalnız birinden isteyebilir.\nBorçluların sorumluluğu, borcun tamamı ödeninceye kadar devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "164",
+   "official_text": "b. Borçluların savunmaları\nMADDE 164- Müteselsil borçlulardan biri, alacaklıya karşı, ancak onunla kendi arasındaki kişisel ilişkilerden veya müteselsil borcun sebep ya da konusundan doğan def’i ve itirazları ileri sürebilir.\nMüteselsil borçlulardan biri ortak def’i ve itirazları ileri sürmezse, diğerlerine karşı sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "165",
+   "official_text": "MADDE 165- Kanun veya sözleşme ile aksi belirlenmedikçe, borçlulardan biri kendi davranışıyla diğer borçluların durumunu ağırlaştıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "166",
+   "official_text": "2. Borcun sona ermesi\nMADDE 166- Borçlulardan biri, ifa veya takasla borcun tamamını veya bir kısmını sona erdirmişse, bu oranda diğer borçluları da borçtan kurtarmış olur.\nBorçlulardan biri, alacaklıya ifada bulunmaksızın borçtan kurtulmuşsa, diğer borçlular bundan, ancak durumun veya borcun niteliğinin elverdiği ölçüde yararlanabilirler.\nAlacaklının borçlulardan biriyle yaptığı ibra sözleşmesi, diğer borçluları da ibra edilen borçlunun iç ilişkideki borca katılma payı oranında borçtan kurtarır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "167",
+   "official_text": "MADDE 167- Aksi kararlaştırılmadıkça veya borçlular arasındaki hukuki ilişkinin niteliğinden anlaşılmadıkça, borçlulardan her biri, alacaklıya yapılan ifadan, birbirlerine karşı eşit paylarla sorumludurlar.\nKendisine düşen paydan fazla ifada bulunan borçlunun, ödediği fazla miktarı diğer borçlulardan isteme hakkı vardır. Bu durumda borçlu, her bir borçluya ancak payı oranında rücu edebilir.\nBorçlulardan birinden alınamayan miktarı, diğer borçlular eşit olarak üstlenmekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "168",
+   "official_text": "MADDE 168- Diğerlerine rücu hakkına sahip olan borçlulardan her biri, ifa ettiği miktar oranında alacaklının haklarına halef olur.\nAlacaklı diğerlerinin zararına olarak borçlulardan birinin durumunu iyileştirirse, bunun sonuçlarına katlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "169",
+   "official_text": "MADDE 169- Müteselsil alacaklılık, borçlunun, alacaklılardan her birine borcun tamamını isteme hakkını tanıdığı veya kanunun belirlediği durumlarda doğar.\nBorçlu, alacaklılardan birine yaptığı ifayla, bütün alacaklılara karşı borcundan kurtulmuş olur.\nAlacaklılardan birinin icraya veya mahkemeye başvurmuş olduğu kendisine bildirilmedikçe, borçlu onlardan dilediği birine ifada bulunabilir.\nAksi kararlaştırılmadıkça veya alacaklılar arasındaki hukuki ilişkinin niteliğinden anlaşılmadıkça, alacaklılardan her birinin edim üzerindeki hakları eşittir.\nKendisine düşen paydan fazlasını elde eden alacaklı, bu fazlalığı payını alamamış olan diğer alacaklılara ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "85",
+   "official_text": "MADDE 85- Bölünemeyen bir borcun birden çok alacaklısı varsa, alacaklılardan her biri, borcun alacaklıların tamamına ifasını isteyebilir. Borçlu, edimini alacaklıların hepsine birden ifa etmek zorundadır.\nBölünemeyen borcun birden çok borçlusu varsa, borçlulardan her biri borcun tamamını ifa etmekle yükümlüdür.\nDurumun gereğinden aksi anlaşılmadıkça, ifada bulunan borçlu, alacaklıya halef olur ve diğer borçlulardan payları oranında alacağını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "61",
+   "official_text": "MADDE 61- Birden çok kişi birlikte bir zarara sebebiyet verdikleri veya aynı zarardan çeşitli sebeplerden dolayı sorumlu oldukları takdirde, haklarında müteselsil sorumluluğa ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "62",
+   "official_text": "MADDE 62- Tazminatın aynı zarardan sorumlu müteselsil borçlular arasında paylaştırılmasında, bütün durum ve koşullar, özellikle onlardan her birine yüklenebilecek kusurun ağırlığı ve yarattıkları tehlikenin yoğunluğu göz önünde tutulur.\nTazminatın kendi payına düşeninden fazlasını ödeyen kişi, bu fazla ödemesi için, diğer müteselsil sorumlulara karşı rücu hakkına sahip ve zarar görenin haklarına halef olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "73",
+   "official_text": "MADDE 73- Rücu istemi, tazminatın tamamının ödendiği ve birlikte sorumlu kişinin öğrenildiği tarihten başlayarak iki yılın ve her hâlde tazminatın tamamının ödendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nTazminatın ödenmesi kendisinden istenilen kişi, durumu birlikte sorumlu olduğu kişilere bildirmek zorundadır. Aksi takdirde zamanaşımı, bu bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "82",
+   "official_text": "MADDE 82- Sebepsiz zenginleşmeden doğan istem hakkı, hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlayarak iki yılın ve her hâlde zenginleşmenin gerçekleştiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nZenginleşme, zenginleşenin bir alacak hakkı kazanması suretiyle gerçekleşmişse diğer taraf, istem hakkı zamanaşımına uğramış olsa bile, her zaman bu borcunu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "97",
+   "official_text": "MADDE 97- Karşılıklı borç yükleyen bir sözleşmenin ifası isteminde bulunan tarafın, sözleşmenin koşullarına ve özelliklerine göre daha sonra ifa etme hakkı olmadıkça, kendi borcunu ifa etmiş ya da ifasını önermiş olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "127",
+   "official_text": "MADDE 127- Alacaklıya ifada bulunan üçüncü kişi, aşağıdaki hâllerde ifası ölçüsünde alacaklının haklarına halef olur:\n1. Başkasının borcu için rehnedilen bir şeyi rehinden kurtardığı ve bu şey üzerinde mülkiyet veya başka bir ayni hakkı bulunduğu takdirde.\n2. Alacaklıya ifada bulunan üçüncü kişinin ona halef olacağı, borçlu tarafından ifadan önce alacaklıya bildirildiği takdirde.\nDiğer halefiyet hâllerine ilişkin kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "132",
+   "official_text": "MADDE 132- Borcu doğuran işlem kanunen veya taraflarca belli bir şekle bağlı tutulmuş olsa bile borç, tarafların şekle bağlı olmaksızın yapacakları ibra sözleşmesiyle tamamen veya kısmen ortadan kaldırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "136",
+   "official_text": "I. Genel olarak\nMADDE 136- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle imkânsızlaşırsa, borç sona erer.\nKarşılıklı borç yükleyen sözleşmelerde imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlü olup, henüz kendisine ifa edilmemiş olan edimi isteme hakkını kaybeder. Kanun veya sözleşmeyle borcun ifasından önce doğan hasarın alacaklıya yükletilmiş olduğu durumlar, bu hükmün dışındadır.\nBorçlu ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmez ve zararın artmaması için gerekli önlemleri almazsa, bundan doğan zararları gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "153",
+   "official_text": "MADDE 153- Aşağıdaki durumlarda zamanaşımı işlemeye başlamaz, başlamışsa durur:\n1. Velayet süresince, çocukların ana ve babalarından olan alacakları için.\n2. Vesayet süresince, vesayet altında bulunanların vasiden veya vesayet işlemleri sebebiyle Devletten olan alacakları için.\n3. Evlilik devam ettiği sürece, eşlerin diğerinden olan alacakları için.\n4. Hizmet ilişkisi süresince, ev hizmetlilerinin onları çalıştıranlardan olan alacakları için.\n5. Borçlu, alacak üzerinde intifa hakkına sahip olduğu sürece.\n6. Alacağı, Türk mahkemelerinde ileri sürme imkânının bulunmadığı sürece.\n7. Alacaklı ve borçlu sıfatının aynı kişide birleşmesinde, birleşmenin ileride geçmişe etkili olarak ortadan kalkması durumunda, bu durumun ortaya çıkmasına kadar geçecek sürece.\nZamanaşımını durduran sebeplerin ortadan kalktığı günün bitiminde zamanaşımı işlemeye başlar veya durmadan önce başlamış olan işlemesini sürdürür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "154",
+   "official_text": "MADDE 154- Aşağıdaki durumlarda zamanaşımı kesilir:\n1. Borçlu borcu ikrar etmişse, özellikle faiz ödemiş veya kısmen ifada bulunmuşsa ya da rehin vermiş veya kefil göstermişse.\n2. Alacaklı, dava veya def’i yoluyla mahkemeye veya hakeme başvurmuşsa, icra takibinde bulunmuşsa ya da iflas masasına başvurmuşsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "155",
+   "official_text": "MADDE 155- Zamanaşımı müteselsil borçlulardan veya bölünemeyen borcun borçlularından birine karşı kesilince, diğerlerine karşı da kesilmiş olur.\nZamanaşımı asıl borçluya karşı kesilince, kefile karşı da kesilmiş olur.\nZamanaşımı kefile karşı kesilince, asıl borçluya karşı kesilmiş olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "160",
+   "official_text": "MADDE 160- Zamanaşımından önceden feragat edilemez.\nMüteselsil borçlulardan birinin feragat etmiş olması, diğerlerine karşı ileri sürülemez.\nBölünemez bir borcun borçlularından birinin feragat etmiş olması durumunda da aynı hüküm uygulanır.\nAsıl borçlunun feragati de kefile karşı ileri sürülemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "161",
+   "official_text": "MADDE 161- Zamanaşımı ileri sürülmedikçe, hâkim bunu kendiliğinden göz önüne alamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "201",
+   "official_text": "MADDE 201- Borca katılma, mevcut bir borca borçlunun yanında yer almak üzere, katılan ile alacaklı arasında yapılan ve katılanın, borçlu ile birlikte borçtan sorumlu olması sonucunu doğuran bir sözleşmedir.\nBorca katılan ile borçlu, alacaklıya karşı müteselsilen sorumlu olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "202",
+   "official_text": "MADDE 202- Bir malvarlığını veya bir işletmeyi aktif ve pasifleri ile birlikte devralan, bunu alacaklılara bildirdiği veya ticari işletmeler için Ticaret Sicili Gazetesinde, diğerleri için Türkiye genelinde dağıtımı yapılan gazetelerden birinde yayımlanacak ilanla duyurduğu tarihten başlayarak, onlara karşı malvarlığındaki veya işletmedeki borçlardan sorumlu olur.\nBununla birlikte, iki yıl süreyle önceki borçlu da devralanla birlikte müteselsil borçlu olarak sorumlu kalır. Bu süre, muaccel borçlar için, bildirme veya duyuru tarihinden; daha sonra muaccel olacak borçlar için ise, muacceliyet tarihinden işlemeye başlar.\nBorçların bu yoldan üstlenilmesinin sonuçları, dış üstlenme sözleşmesinden doğan sonuçlarla özdeştir.\nBildirme veya ilanla duyurma yükümlülüğü devralan tarafından yerine getirilmedikçe, ikinci fıkrada öngörülen iki yıllık süre işlemeye başlamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "206",
+   "official_text": "MADDE 206- Sözleşmeye katılma, mevcut bir sözleşmeye taraflardan birinin yanında yer almak üzere, katılan ile bu sözleşmenin tarafları arasında yapılan ve katılanın, yanında yer aldığı tarafla birlikte, onun hak ve borçlarına sahip olması sonucunu doğuran bir anlaşmadır.\nAnlaşmada aksi kararlaştırılmamışsa, sözleşmeye katılan ile yanında yer aldığı taraf, sözleşmenin diğer tarafına karşı müteselsilen alacaklı ve borçlu olurlar.\nSözleşmeye katılmanın geçerliliği, katılma konusu sözleşmenin şekline bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "586",
+   "official_text": "2. Müteselsil kefalet\nMADDE 586- Kefil, müteselsil kefil sıfatıyla veya bu anlama gelen herhangi bir ifadeyle yükümlülük altına girmeyi kabul etmişse alacaklı, borçluyu takip etmeden veya taşınmaz rehnini paraya çevirmeden kefili takip edebilir. Ancak, bunun için borçlunun, ifada gecikmesi ve ihtarın sonuçsuz kalması veya açıkça ödeme güçsüzlüğü içinde olması gerekir.\nAlacak, teslime bağlı taşınır rehni veya alacak rehni ile güvenceye alınmışsa, rehnin paraya çevrilmesinden önce kefile başvurulamaz. Ancak, alacağın rehnin paraya çevrilmesi yoluyla tamamen karşılanamayacağının önceden hâkim tarafından belirlenmesi veya borçlunun iflas etmesi ya da konkordato mehli verilmesi hâllerinde, rehnin paraya çevrilmesinden önce de kefile başvurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "603",
+   "official_text": "E. Uygulama alanı\nMADDE 603- Kefaletin şekline, kefil olma ehliyetine ve eşin rızasına ilişkin hükümler, gerçek kişilerce, kişisel güvence verilmesine ilişkin olarak başka ad altında yapılan diğer sözleşmelere de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "638",
+   "official_text": "II. Temsilin sonuçları\nMADDE 638- Ortaklık için edinilen veya ortaklığa devredilen şeyler, alacaklar ve ayni haklar, ortaklık sözleşmesi çerçevesinde elbirliği hâlinde bütün ortaklara ait olur.\nOrtaklık sözleşmesinde aksine bir hüküm bulunmadıkça, bir ortağın alacaklıları, haklarını ancak o ortağın tasfiyedeki payı üzerinde kullanabilirler.\nOrtaklar, birlikte veya bir temsilci aracılığı ile, bir üçüncü kişiye karşı, ortaklık ilişkisi çerçevesinde üstlendikleri borçlardan, aksi kararlaştırılmamışsa müteselsilen sorumlu olurlar.\nD. Ortaklığın sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "3",
+   "official_text": "III - Ticari işler\nMADDE 3- (1) Bu Kanunda düzenlenen hususlarla bir ticari işletmeyi ilgilendiren bütün işlem ve fiiller ticari işlerdendir.\nIV – Ticari davalar, çekişmesiz yargı işleri ve delilleri[2]\n2)“Ulaştırma Bakanlığınca” ibareleri “Ulaştırma, Denizcilik ve Haberleşme Bakanlığınca”,",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "7",
+   "official_text": "II - Teselsül karinesi\nMADDE 7- (1) İki veya daha fazla kişi, içlerinden yalnız biri veya hepsi için ticari niteliği haiz bir iş dolayısıyla, diğer bir kimseye karşı birlikte borç altına girerse, kanunda veya sözleşmede aksi öngörülmemişse müteselsilen sorumlu olurlar. Ancak, kefil ve kefillere, taahhüt veya ödemenin yapılmadığı veya yerine getirilmediği ihbar edilmeden temerrüt faizi yürütülemez.\n(2) Ticari borçlara kefalet hâlinde, hem asıl borçlu ile kefil, hem de kefiller arasındaki ilişkilerde de birinci fıkra hükmü geçerli olur.\nIII - Ticari işlerde faiz",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "189",
+   "official_text": "II. Sorumluluk\nMadde 189- Birliği temsil yetkisinin kullanıldığı hâllerde, eşler üçüncü kişilere karşı müteselsilen sorumlu olurlar.\nEşlerden her biri, birliği temsil yetkisi bulunmaksızın yaptığı işlemlerden kişisel olarak sorumludur. Ancak, temsil yetkisinin üçüncü kişilerce anlaşılamayacak şekilde aşılması hâlinde eşler müteselsilen sorumludurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "641",
+   "official_text": "II. Mirasçıların sorumluluğu\nMadde 641- Mirasçılar, tereke borçlarından müteselsilen sorumludurlar.\nAna ve baba veya büyük ana ve büyük baba ile birlikte yaşayan ve emeklerini veya gelirlerini aileye özgüleyen ergin çocuklar ile torunlara verilecek uygun miktardaki tazminat, bu yüzden terekenin borç ödemeden acze düşmemesi kaydıyla tereke borcu sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "681",
+   "official_text": "I. Müteselsil sorumluluk\nMadde 681- Mirasçılar, bölünmesine veya nakline alacaklı tarafından açık veya örtülü olarak rıza gösterilmemiş olan tereke borçlarından dolayı, paylaşmadan sonra da bütün malvarlıklarıyla müteselsilen sorumludurlar.\nPaylaşmanın gerçekleştiği tarihin veya daha sonra yerine getirilecek borçlarda muacceliyet tarihinin üzerinden beş yıl geçmekle teselsül sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "682",
+   "official_text": "II. Mirasçılara rücu\nMadde 682- Paylaşma sözleşmesinde ödenmesi kendisine yükletilmemiş olan bir tereke borcunu veya üzerine aldığı miktardan fazlasını ödeyen mirasçı, diğer mirasçılara rücu edebilir.\nRücu hakkı, ilk önce, ödenmiş olan borcu paylaşma sözleşmesiyle üstlenmiş bulunan mirasçıya karşı kullanılır.\nDiğer hâllerde, aksi kararlaştırılmış olmadıkça, mirasçılardan her biri terekedeki borçları miras payı oranında ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "864",
+   "official_text": "III. Zamanaşımı\nMadde 864- Rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez.\nIV. Önlem alma yetkisi\n1. Değer düşmelerine karşı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "57",
+   "official_text": "İhtiyari dava arkadaşlığı\nMADDE 57- (1) Birden çok kişi, aşağıdaki hâllerde birlikte dava açabilecekleri gibi aleyhlerine de birlikte dava açılabilir:\na) Davacılar veya davalılar arasında dava konusu olan hak veya borcun, elbirliği ile mülkiyet dışındaki bir sebeple ortak olması.\nb) Ortak bir işlemle hepsinin yararına bir hak doğmuş olması veya kendilerinin bu şekilde yükümlülük altına girmeleri.\nc) Davaların temelini oluşturan vakıaların ve hukuki sebeplerin aynı veya birbirine benzer olması.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "58",
+   "official_text": "İhtiyari dava arkadaşlarının davadaki durumu\nMADDE 58- (1) İhtiyari dava arkadaşlığında, davalar birbirinden bağımsızdır. Dava arkadaşlarından her biri, diğerinden bağımsız olarak hareket eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "303",
+   "official_text": "Kesin hüküm\nMADDE 303- (1) Bir davaya ait şeklî anlamda kesinleşmiş olan hükmün, diğer bir davada maddi anlamda kesin hüküm oluşturabilmesi için, her iki davanın taraflarının, dava sebeplerinin ve ilk davanın hüküm fıkrası ile ikinci davaya ait talep sonucunun aynı olması gerekir.\n(2) Bir hüküm, davada veya karşılık davada ileri sürülen taleplerden, sadece hükme bağlanmış olanlar hakkında kesin hüküm teşkil eder.\n(3) Kesin hüküm, tarafların küllî halefleri hakkında da geçerlidir.\n(4) Bir dava dolayısıyla ortaya çıkan kesin hüküm, o hükmün kesinleşmesinden sonra dava konusu şeyin mülkiyetini tarafların birisinden devralan yahut dava konusu şey üzerinde sınırlı bir ayni hak veya fer’î zilyetlik kazanan kişiler hakkında da geçerlidir. Ancak, Türk Medenî Kanununun iyiniyetle mal edinmeye ait hükümleri saklıdır.\n(5) Müteselsil borçlulardan biri veya birkaçı ile alacaklı arasında yahut müteselsil alacaklılardan biri veya birkaçı ile borçlu arasında oluşan kesin hüküm, diğerleri hakkında geçerli değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "2",
+   "official_text": "Tanımlar\nMadde 2 - Bir iş sözleşmesine dayanarak çalışan gerçek kişiye işçi, işçi çalıştıran gerçek veya tüzel kişiye yahut tüzel kişiliği olmayan kurum ve kuruluşlara işveren, işçi ile işveren arasında kurulan ilişkiye iş ilişkisi denir. İşveren tarafından mal veya hizmet üretmek amacıyla maddî olan ve olmayan unsurlar ile işçinin birlikte örgütlendiği birime işyeri denir.\nİşverenin işyerinde ürettiği mal veya hizmet ile nitelik yönünden bağlılığı bulunan ve aynı yönetim altında örgütlenen yerler (işyerine bağlı yerler) ile dinlenme, çocuk emzirme, yemek, uyku, yıkanma, muayene ve bakım, beden ve meslekî eğitim ve avlu gibi diğer eklentiler ve araçlar da işyerinden sayılır.\nİşyeri, işyerine bağlı yerler, eklentiler ve araçlar ile oluşturulan iş organizasyonu kapsamında bir bütündür.\n(Ek fıkra: 23/7/2010-6009/48 md.; Mülga dördüncü fıkra: 20/6/2012-6331/37 md.)\nİşveren adına hareket eden ve işin, işyerinin ve işletmenin yönetiminde görev alan kimselere işveren vekili denir. İşveren vekilinin bu sıfatla işçilere karşı işlem ve yükümlülüklerinden doğrudan işveren sorumludur.\nBu Kanunda işveren için öngörülen her çeşit sorumluluk ve zorunluluklar işveren vekilleri hakkında da uygulanır. İşveren vekilliği sıfatı, işçilere tanınan hak ve yükümlülükleri ortadan kaldırmaz.\nBir işverenden, işyerinde yürüttüğü mal veya hizmet üretimine ilişkin yardımcı işlerinde veya asıl işin bir bölümünde işletmenin ve işin gereği ile teknolojik nedenlerle uzmanlık gerektiren işlerde iş alan ve bu iş için görevlendirdiği işçilerini sadece bu işyerinde aldığı işte çalıştıran diğer işveren ile iş aldığı işveren arasında kurulan ilişkiye asıl işveren-alt işveren ilişkisi denir. Bu ilişkide asıl işveren, alt işverenin işçilerine karşı o işyeri ile ilgili olarak bu Kanundan, iş sözleşmesinden veya alt işverenin taraf olduğu toplu iş sözleşmesinden doğan yükümlülüklerinden alt işveren ile birlikte sorumludur.\nAsıl işverenin işçilerinin alt işveren tarafından işe alınarak çalıştırılmaya devam ettirilmesi suretiyle hakları kısıtlanamaz veya daha önce o işyerinde çalıştırılan kimse ile alt işveren ilişkisi kurulamaz. Aksi halde ve genel olarak asıl işveren alt işveren ilişkisinin muvazaalı işleme dayandığı kabul edilerek alt işverenin işçileri başlangıçtan itibaren asıl işverenin işçisi sayılarak işlem görürler. İşletmenin ve işin gereği ile teknolojik nedenlerle uzmanlık gerektiren işler dışında asıl iş bölünerek alt işverenlere verilemez.\n(Ek fıkra: 1/7/2006-5538/18 md.) Kanuna veya Cumhurbaşkanlığı kararnamesine dayanılarak kurulan kamu kurum ve kuruluşları ile bunların doğrudan veya dolaylı olarak sermayesinin en az yüzde ellisine sahip oldukları ortaklıklarda, 4734 sayılı Kamu İhale Kanunu veya diğer kanun hükümleri çerçevesinde, hizmet alımı amacıyla yapılan sözleşmeler gereğince, yüklenici aracılığıyla çalıştırılanlar, bu şekilde çalışmış olmalarına dayanarak;[1]\na) Bu kurum, kuruluş ve ortaklıklara ait kadro veya pozisyonlara atanmaya,\nb) Bu kurum, kuruluş ve ortaklıklara ait işyerlerinin kadro veya pozisyonlarında çalışanlar için toplu iş sözleşmesi, personel kanunları veya ilgili diğer mevzuat hükümlerine göre belirlenen her türlü malî haklar ile sosyal yardımlardan yararlanmaya,\nhak kazanamazlar.\n(Ek fıkra: 1/7/2006-5538/18 md.) Sekizinci fıkrada belirtilen işyerlerinde yükleniciler dışında kalan işverenler tarafından çalıştırılanlar ile bu işyerlerinin tâbi oldukları ihale mevzuatı çerçevesinde kendi nam ve hesabına sözleşme yaparak üstlendiği ihale konusu işte doğrudan kendileri çalışanlar da aynı hükümlere tâbidir. Sekizinci fıkrada belirtilen kurum, kuruluş veya ortaklıkların sermayesine katıldıkları ortaklıkların kadro veya pozisyonlarında çalışan işçilerin, ortak durumundaki kamu kurum, kuruluş veya ortaklıkların kadro veya pozisyonlarına atanma ya da bu kurum, kuruluş veya ortaklıklarda geçerli olan malî haklar ile sosyal yardımlardan yararlanma talepleri hakkında da sekizinci fıkra hükümleri uygulanır. Hizmet alımına dayanak teşkil edecek sözleşme ve şartnamelere;\na) İşe alınacak kişilerin belirlenmesi ve işten çıkarma yetkisinin kamu kurum, kuruluşları ve ortaklıklarına bırakılması,\nb) Hizmet alım sözleşmeleri çerçevesinde ya da geçici işçi olarak aynı iş yerinde daha önce çalışmış olanların çalıştırılmasına devam olunması,\nyönünde hükümler konulamaz.\n[1] 2/7/2018 tarihli ve 700 sayılı KHK’nin 145 inci maddesiyle, bu fıkrada yer alan “kanunun verdiği yetkiye” ibaresi “Cumhurbaşkanlığı kararnamesine” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2022/696",
+   "karar_no": "2023/457",
+   "decision_date": "17.05.2023",
+   "summary_md": "Davacı, ortak miras bırakanın taşınmazı üzerindeki ipotekli banka borcunu murisin ölümünden sonra 2010'da ödeyerek ipoteği kaldırtmış, diğer mirasçı olan davalının miras payına düşen kısım için 2018'de icra takibi başlatmış ve itiraz üzerine 2019'da itirazın iptali davası açmıştır. İlk derece mahkemesi TBK m. 73'teki iki yıllık sürenin, Bölge Adliye Mahkemesi eski Kanundaki bir yıllık sebepsiz zenginleşme süresinin geçtiğini kabul ederek davayı reddetmiş; Özel Daire ilişkiyi vekâletsiz iş görme sayıp on yıllık süreyi uygulayarak bozmuş, Bölge Adliye Mahkemesi direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla ve değişik gerekçeyle bozmuştur. Kurula göre mirasçılar tereke borcundan dış ilişkide müteselsilen (TMK m. 641), iç ilişkide miras payı oranında sorumludur (TMK m. 682); payından fazlasını ödeyen mirasçı rücu hakkına sahiptir ve alacaklıya kanuni halef olur, ilişki ne vekâletsiz iş görme ne de sebepsiz zenginleşmedir. Rücu hakkı alacaklının tatmin edildiği anda doğar ve zamanaşımı da o andan işler; borçlular arasında sözleşme yoksa süre rücu alacağının dayanağı olan asıl alacağa göre belirlenir ve ipotek alacağı zamanaşımına uğramadığından dava süresindedir. Karşı oy, iç ilişkiye sebepsiz zenginleşme hükümlerinin uygulanması gerektiğini savunmuştur. Konuya katkısı: kanuni teselsülde iç ilişkiyi, rücu ile halefiyetin bağını ve rücu zamanaşımı tartışmasını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/920493800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "23. Hukuk Dairesi",
+   "esas_no": "2016/1885",
+   "karar_no": "2018/3440",
+   "decision_date": "31.05.2018",
+   "summary_md": "Arsa sahipleri ile yükleniciler arasında 1998'de yapılan arsa payı karşılığı inşaat sözleşmesinde, iş süresinde teslim edilmezse her daire için aylık 200 DM ödeneceği kararlaştırılmıştır. Sonradan işe, ilk yüklenicilerin yanında arsa sahiplerine karşı müteselsilen sorumlu olarak başka yükleniciler katılmıştır. Bu yükleniciler ile bazı arsa sahipleri 2003'te yaptıkları ek sözleşmede tutarı daire başına aylık 200 Euro'ya çıkarmış, ilk yükleniciler ise ek sözleşmeyi imzalamamıştır. İlk derece mahkemesi gecikme tazminatına bütün yüklenicilerin müştereken ve müteselsilen sorumluluğuyla hükmetmiştir. Yargıtay 23. Hukuk Dairesi kararı bozmuştur. Daireye göre TBK m. 165 uyarınca borçlulardan biri alacaklıyla yaptığı bir anlaşmayla diğerlerinin durumunu ağırlaştıramaz. Ek sözleşmeyi imzalamayan yükleniciler yalnız 200 DM üzerinden hesaplanacak tutardan müteselsilen sorumludur, aşan kısımdan sorumlu değildir. Hükümde her yüklenicinin hangi tutardan müteselsilen sorumlu olduğu açıkça gösterilmelidir. Daire kararı başka yönlerden de bozmuştur. Konuya katkısı: müteselsil borçlulardan birinin ağırlaştırıcı anlaşmasının yalnız onu bağladığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/422584200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2013/1559",
+   "karar_no": "2013/1461",
+   "decision_date": "09.10.2013",
+   "summary_md": "Alt işveren şirketin işçisi olan davacı, iş sözleşmesinin 2004'te feshinden sonra alacakları için önce alt işverene dava açıp kazanmış, icra takibi sonuçsuz kalınca 2008'de asıl işveren Bakanlığa dava açmıştır. Bakanlık zamanaşımı def'inde bulunmuştur. İlk derece mahkemesi, müteselsil borçlulardan birine açılan davanın diğerine karşı da zamanaşımını kestiğini kabul etmiş; Yargıtay 9. Hukuk Dairesi bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Kurula göre asıl işverenin sorumluluğu kanundan (4857 sayılı Kanun m. 2/6), alt işverenin sorumluluğu sözleşmeden doğduğu için aralarında eski Kanun döneminin \"eksik teselsül\" ilişkisi vardır. Birine karşı kesilen zamanaşımının diğerlerine de etki ettiği kural eksik teselsülde uygulanmaz; alt işverene açılan dava asıl işverene karşı zamanaşımını kesmemiştir. Karar ayrıca rücu ile halefiyeti ayırır: halefiyet yalnız kanunun öngördüğü hâllerde doğar ve ödeyeni alacaklının yerine koyar. Kurulca benimsenen bozma gerekçesine göre rücu zamanaşımı ödemenin yapıldığı andan işler ve süresi rücu eden ile edilen arasındaki ilişkiye göre belirlenir. Konuya katkısı: eksik teselsül tartışmasının uygulamadaki sonucunu ve rücu-halefiyet ayrımını gösterir. Olay eski Borçlar Kanunu dönemine aittir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/87357800",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 162'ye göre müteselsil borçluluk hangi durumda doğar?",
+   "options": [
+    "Yalnız borçluların kendi aralarında yaptıkları yazılı bir anlaşmayla",
+    "Birden çok kişi bölünebilir bir borç için birlikte borç altına girdiğinde kendiliğinden",
+    "Yalnız hâkimin hakkaniyete göre teselsüle karar vermesiyle",
+    "Her borçlunun alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirmesiyle ya da kanunun öngördüğü hâllerde"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 162/1'e göre teselsül, her borçlunun alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirmesiyle doğar. Böyle bir bildirim yoksa ancak kanunda öngörülen hâllerde doğar (m. 162/2). Birlikte borçlanmak tek başına yetmez; teselsül tahmin edilmez. Borçlular arasındaki anlaşma ise alacaklıyı bağlamaz."
+  },
+  {
+   "stem_md": "Ali, Can ve Deniz bir satıcıdan birlikte 600.000 TL'lik bir mal satın alır. Sözleşmede teselsülden söz edilmemiştir ve olaya teselsül öngören hiçbir kanun hükmü uygulanmamaktadır. Satıcı bedelin tamamını Ali'den isteyebilir mi?",
+   "options": [
+    "Hayır; teselsül ne bildirimle ne kanunla doğmuştur, her biri yalnız kendi payından sorumludur.",
+    "Evet, ama yalnız Can ve Deniz ödeme güçsüzlüğüne düşmüşse.",
+    "Evet, birlikte borçlanan herkes müteselsilen sorumludur.",
+    "Hayır; satıcı üçüne birlikte dava açmadıkça hiçbir şey isteyemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Teselsül ancak bildirimle ya da kanunun öngördüğü hâllerde doğar (TBK m. 162). İkisi de yoksa bölünebilir para borcunun birden çok borçlusu kısmi borçludur ve her biri yalnız kendi payından sorumludur. Birlikte dava açma zorunluluğu da yoktur; satıcı her birinden payını ayrı ayrı isteyebilir."
+  },
+  {
+   "stem_md": "Kafe işleten tacir Burak ile tacir olmayan arkadaşı Elif, kafe için birlikte bir kahve makinesi sipariş eder ve sözleşmeyi alıcı olarak birlikte imzalar. Sözleşmede teselsülden söz edilmemiştir. Satıcı bedelin tamamını kimden isteyebilir?",
+   "options": [
+    "Dilediğinden; iş içlerinden biri için ticari olduğundan, aksi öngörülmedikçe ikisi müteselsilen sorumludur.",
+    "Elif'ten ancak Burak hakkında aciz belgesi alındıktan sonra.",
+    "Burak ve Elif'ten ancak yarı yarıya.",
+    "Yalnız Burak'tan, çünkü iş yalnız onun için ticaridir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 7/1'e göre iki ya da daha fazla kişi, içlerinden yalnız biri veya hepsi için ticari nitelikte bir iş dolayısıyla birlikte borç altına girerse, kanunda veya sözleşmede aksi öngörülmemişse müteselsilen sorumlu olur. Kafe için makine almak Burak'ın ticari işletmesini ilgilendirir (TTK m. 3). İşin Elif için ticari olması gerekmez."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi kanunun teselsül öngördüğü bir durum **değildir**?",
+   "options": [
+    "Mirasçıların tereke borçlarından sorumluluğu",
+    "Adi ortaklıkta ortakların, ortaklık ilişkisi çerçevesinde üçüncü kişiye karşı üstlendikleri borçlardan sorumluluğu",
+    "Aynı alacaklıya ayrı ayrı sözleşmelerle birbirinden bağımsız borçlar üstlenen iki kişinin sorumluluğu",
+    "Borca katılan ile borçlunun alacaklıya karşı sorumluluğu"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Borca katılmada (TBK m. 201/2), mirasçılarda (TMK m. 641/1) ve adi ortaklıkta, aksi kararlaştırılmadıkça (TBK m. 638/3), kanun teselsül öngörür. Ayrı sözleşmelerle üstlenilen bağımsız borçlarda ise tek bir borç yoktur; her biri yalnız kendi borcundan sorumludur."
+  },
+  {
+   "stem_md": "Hakan, Selin ve Tolga'nın müteselsilen borçlu olduğu 300.000 TL'lik borç için alacaklı yalnız Selin hakkında icra takibi başlatır. Selin \"Aramızda eşit paylar var, ben en fazla 100.000 TL öderim; ayrıca önce Hakan'a gidilmeli\" diye itiraz eder. Hangisi doğrudur?",
+   "options": [
+    "Alacaklı borcun tamamını dilediği borçludan isteyebilir; paylar yalnız iç ilişkide önem taşır.",
+    "Alacaklı ancak üç borçluya birlikte takip yaparsa tamamını isteyebilir.",
+    "Selin yalnız 100.000 TL'den sorumludur.",
+    "Alacaklı önce Hakan'a başvurmak zorundadır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 163/1'e göre alacaklı borcun tamamını ya da bir kısmını dilerse borçluların hepsinden, dilerse yalnız birinden isteyebilir. Borçlular arasında başvuru sırası yoktur. Paylar yalnız iç ilişkide, rücu sırasında önem taşır (TBK m. 167). Selin borcun tamamını öderse fazlası için Hakan ve Tolga'ya rücu eder."
+  },
+  {
+   "stem_md": "Zeynep, müteselsil borçlulardan Ahmet'e açtığı alacak davasını kaybetmiş ve karar kesinleşmiştir. Zeynep sonra aynı alacak için diğer müteselsil borçlu Berk'e dava açar. Berk'in kesin hüküm itirazı hakkında hangisi doğrudur?",
+   "options": [
+    "Ahmet lehine verilen kesin hüküm Berk hakkında da geçerli olduğundan dava reddedilir.",
+    "Zeynep artık yalnız Ahmet'e karşı yeniden dava açabilir.",
+    "Borçlulardan biriyle alacaklı arasındaki kesin hüküm diğerleri hakkında geçerli olmadığından itiraz dinlenmez ve dava esastan incelenir.",
+    "Berk'e dava açılabilmesi için Ahmet hakkındaki kararın önce yargılamanın yenilenmesi yoluyla kaldırılması gerekir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "HMK m. 303/5'e göre müteselsil borçlulardan biri veya birkaçı ile alacaklı arasında oluşan kesin hüküm, diğerleri hakkında geçerli değildir. Alacaklı diğer borçluya karşı davasını yeniden kanıtlamak zorundadır, ama dava açmasına bir engel yoktur (TBK m. 163)."
+  },
+  {
+   "stem_md": "Ayşe, Ali ve Mehmet müteselsil borçludur. Alacaklı borcun tamamını Ayşe'den ister. Ayşe aşağıdakilerden hangisini ileri **sürebilir**?",
+   "options": [
+    "Mehmet'in alacaklıdan olan alacağıyla takas yapılmasını",
+    "Borcun doğduğu sözleşmenin üç borçlu bakımından da geçersiz olduğunu",
+    "Alacaklının yalnız Mehmet'e tanıdığı ek ödeme süresini",
+    "Ali'nin sözleşmeyi aldatılarak imzaladığını"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 164/1'e göre borçlu, kendi kişisel ilişkisinden doğan def'ileri ve müteselsil borcun sebep ya da konusundan doğan ortak def'ileri ileri sürebilir. Sözleşmenin hepsi için geçersizliği ortak bir savunmadır. Ali'nin aldatılması, Mehmet'in takas alacağı ve Mehmet'e tanınan süre ise onların kişisel imkânlarıdır; Ayşe bunlara dayanamaz."
+  },
+  {
+   "stem_md": "TBK m. 164/2'ye göre müteselsil borçlulardan biri elindeki ortak def'iyi ileri sürmeden alacaklıya öderse sonuç nedir?",
+   "options": [
+    "Hiçbir sonucu yoktur; iç ilişkide eşit paylaşım aynen uygulanır.",
+    "Ödeme geçersiz sayılır ve borç bütün borçlular için aynen devam eder.",
+    "Diğer borçlular da artık bu def'iyi alacaklıya karşı ileri süremez hâle gelir.",
+    "Diğer borçlulara karşı sorumlu olur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 164/2'ye göre ortak def'i ve itirazları ileri sürmeyen müteselsil borçlu, diğerlerine karşı sorumlu olur. Ödeme alacaklıya karşı geçerlidir ve ödenen oranda borcu sona erdirir (TBK m. 166/1). Ancak ödeyen, rücu ederken diğerlerinin bu def'iyle karşılaşır ve onların zararından sorumlu olur."
+  },
+  {
+   "stem_md": "Kerem, Leyla ve Murat 450.000 TL'lik bir ödünç borcundan müteselsilen sorumludur. Leyla tek başına alacaklıyla imzaladığı ek protokolle, gecikme hâlinde 90.000 TL ceza ödemeyi kabul eder. Borç gecikince alacaklı ceza tutarını Kerem'den ister. Hangisi doğrudur?",
+   "options": [
+    "Borçlulardan biri kendi davranışıyla diğerlerinin durumunu ağırlaştıramayacağından ceza koşulu yalnız Leyla'yı bağlar.",
+    "Ceza koşulu bütün borçlular bakımından geçersizdir.",
+    "Kerem cezanın üçte birinden sorumludur.",
+    "Kerem cezadan da müteselsilen sorumludur, çünkü borç tektir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 165'e göre kanun veya sözleşme ile aksi belirlenmedikçe borçlulardan biri kendi davranışıyla diğer borçluların durumunu ağırlaştıramaz. Leyla'nın tek başına kabul ettiği ceza koşulu Kerem ve Murat'ı bağlamaz. Leyla bakımından ise ceza koşulu geçerliliğini korur."
+  },
+  {
+   "stem_md": "Nur, Oğuz ve Pelin 600.000 TL'lik borçtan müteselsilen ve iç ilişkide eşit paylarla sorumludur. Nur alacaklıya 150.000 TL öder. Alacaklı Oğuz'dan en fazla ne isteyebilir?",
+   "options": [
+    "200.000 TL",
+    "450.000 TL",
+    "150.000 TL",
+    "600.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 166/1'e göre borçlulardan biri ifa ile borcun bir kısmını sona erdirmişse bu oranda diğerlerini de kurtarır. Kalan borç 450.000 TL'dir ve alacaklı bunun tamamını dilediği borçludan isteyebilir (TBK m. 163/1). Oğuz'un payı yalnız iç ilişkide önem taşır."
+  },
+  {
+   "stem_md": "Rana, Sami ve Tuna'nın 900.000 TL'lik müteselsil borcunda iç ilişkideki paylar Rana %50, Sami %25 ve Tuna %25'tir. Alacaklı hiçbir ödeme almadan Rana'yı ibra eder. Alacaklı Sami'den en fazla ne isteyebilir?",
+   "options": [
+    "225.000 TL",
+    "900.000 TL",
+    "450.000 TL",
+    "600.000 TL"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 166/3'e göre alacaklının borçlulardan biriyle yaptığı ibra sözleşmesi, diğer borçluları ibra edilen borçlunun iç ilişkideki payı oranında borçtan kurtarır. Rana'nın payı 450.000 TL olduğundan Sami ve Tuna kalan 450.000 TL'den müteselsilen sorumludur. Eşit pay varsayımıyla yapılan hesap, belirlenmiş payları yok sayar."
+  },
+  {
+   "stem_md": "TBK m. 166/2'ye göre borçlulardan biri alacaklıya ifada bulunmadan borçtan kurtulmuşsa diğer borçlular bundan nasıl yararlanır?",
+   "options": [
+    "Her durumda tamamen yararlanır.",
+    "Ancak durumun veya borcun niteliğinin elverdiği ölçüde yararlanır.",
+    "Hiçbir durumda yararlanamaz.",
+    "Yalnız alacaklının yazılı onayıyla yararlanır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 166/2, ifasız kurtulmanın diğer borçlulara etkisini durumun veya borcun niteliğinin elverdiği ölçüyle sınırlar. Örneğin edimin borçluların hiçbirinin sorumlu olmadığı bir sebeple imkânsızlaşması herkesi kurtarır (TBK m. 136/1), yalnız bir borçluya özgü bir sebep ise kendiliğinden diğerlerine yaramaz. İbra için TBK m. 166/3 ayrıca pay ölçüsünü koyar."
+  },
+  {
+   "stem_md": "Müteselsil borçluların iç ilişkideki payları hakkında hangisi doğrudur?",
+   "options": [
+    "Paylar ancak mahkeme kararıyla belirlenebilir.",
+    "Paylar her zaman borçluların ödeme gücüne göre belirlenir.",
+    "Paylar, alacaklının ilk başvurduğu borçlunun aleyhine olacak şekilde belirlenir.",
+    "Aksi kararlaştırılmadıkça ya da hukuki ilişkinin niteliğinden anlaşılmadıkça paylar eşittir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 167/1'e göre aksi kararlaştırılmadıkça veya borçlular arasındaki hukuki ilişkinin niteliğinden anlaşılmadıkça borçlular birbirlerine karşı eşit paylarla sorumludur. Borçlular payları anlaşmayla belirleyebilir. Kanun da bazı hâllerde ölçü koyar; örneğin mirasçılar için TMK m. 682/3 miras payını esas alır."
+  },
+  {
+   "stem_md": "Taner, Umut ve Veli 300.000 TL'lik borçtan müteselsilen ve iç ilişkide eşit paylarla sorumludur. Taner alacaklıya 80.000 TL öder, kalan borç henüz ödenmemiştir. Taner'in hukuki durumu nedir?",
+   "options": [
+    "Ödemesi payını aşmadığı için henüz rücu hakkı yoktur.",
+    "Alacaklıdan 80.000 TL'yi sebepsiz zenginleşme yoluyla geri isteyebilir.",
+    "Umut ve Veli'ye 40.000'er TL rücu edebilir.",
+    "Ödediği 80.000 TL'nin tamamını dilediği borçludan isteyebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 167/2 rücu hakkını kendisine düşen paydan fazla ifada bulunan borçluya tanır. Taner'in payı 100.000 TL'dir ve 80.000 TL'lik ödeme bu payı aşmaz. Ödeme borcu herkes için 80.000 TL azaltır (TBK m. 166/1). Alacaklı alacağını aldığı için sebepsiz zenginleşme de söz konusu değildir."
+  },
+  {
+   "stem_md": "Bölünemeyen bir borcun birden çok alacaklısı varsa borçlu edimini nasıl ifa eder?",
+   "options": [
+    "Alacaklılardan dilediği birine",
+    "Ancak edimi notere tevdi ederek",
+    "Alacaklıların hepsine birden",
+    "Her alacaklıya payı kadar"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 85/1'e göre bölünemeyen bir borcun birden çok alacaklısı varsa her biri borcun alacaklıların tamamına ifasını isteyebilir ve borçlu edimini hepsine birden ifa etmek zorundadır. Alacaklılardan birine ödeyerek kurtulmak müteselsil alacaklılığa özgüdür (TBK m. 169/2)."
+  },
+  {
+   "stem_md": "Ece, Fatih ve Gül 600.000 TL'lik borçtan müteselsilen ve iç ilişkide eşit paylarla sorumludur. Ece borcun tamamını öder. Gül'ün hiçbir malı yoktur ve ondan bir şey alınamamaktadır. Ece, Fatih'ten ne isteyebilir?",
+   "options": [
+    "200.000 TL",
+    "400.000 TL",
+    "300.000 TL",
+    "600.000 TL"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ece her borçluya ancak onun payı oranında rücu eder (TBK m. 167/2); Fatih'in payı 200.000 TL'dir. Gül'den alınamayan 200.000 TL'yi diğer borçlular, yani Ece ve Fatih, eşit olarak üstlenir (TBK m. 167/3). Bu yüzden Ece, Fatih'ten 200.000 + 100.000 = 300.000 TL ister. Gül'ün payının tamamını Fatih'e yüklemek, ödeyenin de \"diğer borçlular\" arasında olduğunu gözden kaçırmaktır."
+  },
+  {
+   "stem_md": "Payından fazlasını ödeyen müteselsil borçlunun alacaklıya halef olmasının en önemli sonucu hangisidir?",
+   "options": [
+    "Alacaklının, ödenen tutarı faiziyle iade etmek zorunda kalması",
+    "Alacağa bağlı rehin ve kefalet gibi güvencelerin rücu alacağını da güvence altına alması",
+    "Diğer borçluların hiçbir savunmayı ona karşı ileri sürememesi",
+    "Diğer borçluların her birinden borcun tamamını isteyebilmesi"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 168/1'e göre rücu hakkı olan borçlu, ifa ettiği miktar oranında alacaklının haklarına halef olur. Böylece alacağa bağlı rehin, ipotek ve kefalet gibi güvenceler ona geçer. Halefiyet iç ilişkide teselsül yaratmaz; ödeyen her borçludan yine ancak onun payı oranında ister (TBK m. 167/2)."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulu'na göre müteselsil borçlunun diğer borçlulara karşı rücu alacağının zamanaşımı ne zaman işlemeye başlar?",
+   "options": [
+    "Asıl borcun alacaklı bakımından muaccel olduğu tarihte",
+    "Rücu edilen borçluya ihtarname tebliğ edildiği tarihte",
+    "Asıl borcun doğduğu tarihte",
+    "Rücu eden borçlunun alacaklıyı tatmin ettiği, yani ödemeyi yaptığı anda"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Hukuk Genel Kurulu'na göre rücu hakkı, bir borçlunun alacaklıyı tatmin ettiği anda doğar ve rücu alacağının zamanaşımı da bu andan itibaren işlemeye başlar. Ödeme yapılmadan rücu hakkı doğmadığı için süre daha önce başlayamaz. Hangi sürenin uygulanacağı ise tartışmalıdır. Haksız fiilde TBK m. 73 özel bir başlangıç ve süre öngörür."
+  },
+  {
+   "stem_md": "Alacaklı banka, müteselsil borçlulardan Hande'nin isteği üzerine onun dairesindeki ipoteği kaldırır. Hande'nin başka malı yoktur. Diğer borçlu İlker'in durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Banka, diğerlerinin zararına bir borçlunun durumunu iyileştirdiği için bunun sonuçlarına katlanır.",
+    "İlker, Hande'ye karşı rücu hakkını kaybeder ve borcu iç ilişkide tek başına üstlenir.",
+    "İpoteğin kaldırılması İlker'i hiçbir şekilde etkilemez.",
+    "İpoteğin kaldırılması bütün borcu kendiliğinden sona erdirir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 168/2'ye göre alacaklı, diğerlerinin zararına olarak borçlulardan birinin durumunu iyileştirirse bunun sonuçlarına katlanır. İpotek kalsaydı borcu ödeyen İlker, halefiyetle bu güvenceden yararlanacaktı (TBK m. 168/1). İlker'in Hande'ye karşı rücu hakkı da ortadan kalkmaz; yalnız güvencesiz kalır."
+  },
+  {
+   "stem_md": "Kardeşler Selin ve Kerem, kiracı Can ile yaptıkları sözleşmede kiranın tamamını her birinin isteyebileceğini kararlaştırmıştır. İkisi de icraya ya da mahkemeye başvurmamıştır. Can kirayı nasıl öderse borcundan kurtulur?",
+   "options": [
+    "Dilediği birine ödeyerek",
+    "Yalnız ikisine birlikte ödeyerek",
+    "Her birine yarı yarıya ödeyerek",
+    "Ancak kirayı notere tevdi ederek"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Bu bir müteselsil alacaklılıktır (TBK m. 169/1). Borçlu, alacaklılardan birine yaptığı ifayla bütün alacaklılara karşı borcundan kurtulur (TBK m. 169/2). Alacaklılardan birinin icraya veya mahkemeye başvurduğu kendisine bildirilmedikçe dilediğine ödeyebilir (TBK m. 169/3). Selin ile Kerem'in paylaşması iç ilişkinin konusudur."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, Ayşe ve Mehmet, birlikte işletecekleri kafe için X Mobilya Ltd. Şti.'den 900.000 TL'ye mobilya satın alır. Sözleşmede \"alıcılar bedelin tamamından müştereken ve müteselsilen sorumludur\" kaydı vardır. Üçü kendi aralarında pay konusunda bir anlaşma yapmamıştır. Bedel 01.03.2025'te ödenecektir.\n\nVade gelince Ali X Ltd.'ye 100.000 TL öder. X Ltd. kalan tutar için önce Mehmet'e dava açar ve kazanır. Ancak Mehmet'in hiçbir malı çıkmaz ve hakkında aciz belgesi alınır. Bunun üzerine X Ltd. kalan 800.000 TL için Ayşe'ye dava açar.\n\nAyşe şöyle savunur: \"Bu alacak için Mehmet hakkında zaten hüküm var, bana ayrıca dava açılamaz. Aramızda üç eşit pay var; Ali'nin ödediğini de düşünce ben en fazla kalanın üçte birinden sorumluyum. Hem önce Ali'ye gidilmeli.\"\n\n1. Ayşe'nin savunmalarını değerlendiriniz.\n2. Ali'nin 100.000 TL'lik ödemesi dış ilişkide ve iç ilişkide hangi sonuçları doğurur? Ali bu ödeme için rücu edebilir mi?\n3. Ayşe'nin 800.000 TL'nin tamamını ödediğini varsayınız. Ayşe kime, ne kadar rücu edebilir? Mehmet'ten alınamayan pay nasıl paylaşılır?",
+   "rubric": [
+    {
+     "point": "İradi teselsül: sözleşmedeki kayıtla her alıcının bedelin tamamından sorumlu olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 162"
+    },
+    {
+     "point": "Alacaklının seçim hakkı; 'payım kadar' ve 'önce Ali' savunmalarının dinlenmemesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 163"
+    },
+    {
+     "point": "Mehmet aleyhine hüküm alınmasının Ayşe'yi kurtarmaması; kesin hükmün diğer borçlu hakkında geçerli olmaması ve tahsilde tekerrür yasağı",
+     "weight": 15,
+     "madde_ref": "HMK m. 303"
+    },
+    {
+     "point": "Ali'nin ödemesinin herkesi 100.000 TL oranında kurtarması; kalan borcun 800.000 TL olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 166"
+    },
+    {
+     "point": "Ali'nin ödemesi payını aşmadığı için rücu hakkı doğmaması; ödemenin Ali'nin payından düşülmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 167"
+    },
+    {
+     "point": "Ayşe'nin Ali'ye payı oranında, Ali'nin kalan payı olan 200.000 TL için rücu edebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 167"
+    },
+    {
+     "point": "Mehmet'ten alınamayan 300.000 TL'nin Ali ve Ayşe arasında eşit paylaşılması; Ayşe'nin Ali'den toplam 350.000 TL isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 167"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Üç alıcı, sözleşmedeki açık kayıtla bedelin tamamından sorumlu olmayı kabul etmiştir. Bu bir iradi teselsüldür (TBK m. 162/1). Borç bölünebilir bir para borcudur. Pay konusunda anlaşma olmadığından iç ilişkide paylar eşittir; her birinin payı 300.000 TL'dir (TBK m. 167/1).\n\n**Hukuki sorunlar:** Alacaklının seçim hakkı ve Ayşe'nin savunmaları; başka borçlu aleyhine alınan hükmün etkisi; kısmi ödemenin dış ve iç ilişkiye etkisi; rücu hesabı ve ödeme gücü olmayan borçlunun payı.\n\n**İlgili hükümler:** TBK m. 162, 163, 166, 167 ve 168; HMK m. 303/5.\n\n**Değerlendirme:**\n\n*1. Ayşe'nin savunmaları.*\n- *\"Mehmet hakkında hüküm var\":* Borçluların sorumluluğu borcun tamamı ödeninceye kadar sürer (TBK m. 163/2). Mehmet aleyhine hüküm almak X Ltd.'nin alacağını tahsil ettiği anlamına gelmez. Müteselsil borçlulardan biri ile alacaklı arasındaki kesin hüküm diğerleri hakkında geçerli değildir (HMK m. 303/5). Bu yüzden Ayşe'ye ayrıca dava açılabilir. Yalnız X Ltd. aynı alacağı iki kez tahsil edemez; hüküm tahsilde tekerrür olmamak üzere kurulur.\n- *\"Payım kadar sorumluyum\":* Alacaklı borcun tamamını dilediği borçludan isteyebilir (TBK m. 163/1). Paylar yalnız iç ilişkide önem taşır. Ayşe kalan 800.000 TL'nin tamamından sorumludur.\n- *\"Önce Ali'ye gidilmeli\":* Borçlular arasında bir başvuru sırası yoktur. Bu savunma da dinlenmez.\n\n*2. Ali'nin ödemesi.*\n- *Dış ilişki:* Ali'nin 100.000 TL'lik ödemesi, bu oranda diğer borçluları da kurtarır (TBK m. 166/1). X Ltd.'nin dilediği borçludan isteyebileceği tutar 800.000 TL'ye inmiştir.\n- *İç ilişki:* Rücu hakkı yalnız kendisine düşen paydan fazla ödeyene tanınır (TBK m. 167/2). Ali'nin payı 300.000 TL'dir ve 100.000 TL bu payı aşmaz. Ali kimseye rücu edemez. Ödediği tutar kendi payından düşülür; iç ilişkide Ali'nin 200.000 TL'lik payı ödenmemiş durumdadır.\n\n*3. Ayşe'nin rücuu.*\n- Ayşe'nin payı 300.000 TL'dir. 800.000 TL ödediği için 500.000 TL fazla ödemiştir ve bu fazla için rücu eder.\n- Ayşe her borçluya ancak onun payı oranında rücu edebilir (TBK m. 167/2). Ali'den kalan payı olan 200.000 TL'yi, Mehmet'ten payı olan 300.000 TL'yi isteyebilir.\n- Mehmet'ten bir şey alınamamaktadır. Ondan alınamayan 300.000 TL'yi diğer borçlular eşit olarak üstlenir (TBK m. 167/3). \"Diğer borçlular\" Ali ile Ayşe'dir. Her biri 150.000 TL üstlenir.\n- Ayşe ayrıca, ödediği oranda X Ltd.'nin haklarına halef olur (TBK m. 168/1). X Ltd.'nin alacağına bağlı bir güvence olsaydı bu güvence Ayşe'nin rücu alacağını da korurdu.\n- Mehmet'in iç ilişkideki borcu bu paylaşımla ortadan kalkmaz. İleride malı olursa Ali ve Ayşe üstlendikleri kısmı ondan isteyebilir.\n\n**Sonuç:**\n- Ayşe'nin üç savunması da reddedilir. Ayşe kalan 800.000 TL'nin tamamından sorumludur.\n- Ali'nin ödemesi herkesi 100.000 TL oranında kurtarır, ama payını aşmadığı için Ali'ye rücu hakkı vermez.\n- Ayşe, Ali'den 200.000 + 150.000 = 350.000 TL isteyebilir. Sonuçta Ali (100.000 + 350.000) ve Ayşe (800.000 - 350.000) borcun 450.000'er TL'sini yüklenmiş olur."
+  },
+  {
+   "stem_md": "Can, Deniz ve Efe, arkadaşları Hakan'dan 01.02.2025'te 300.000 TL ödünç alır. Senette \"borçlular borcun tamamından müteselsilen sorumludur\" yazılıdır. Geri ödeme günü 01.02.2026'dır. Üçü, borcu kendi aralarında eşit paylarla üstlendiklerini kararlaştırmıştır.\n\nDeniz, 01.06.2025'te tek başına Hakan'la bir ek protokol imzalar. Protokole göre borç zamanında ödenmezse borçlular 60.000 TL ceza ödeyecektir. Can ve Efe bu protokolü imzalamamıştır.\n\nEfe'nin, Hakan'ın arabasını onarmasından doğan 50.000 TL'lik muaccel bir alacağı vardır. Efe bu alacakla ilgili hiçbir beyanda bulunmamıştır.\n\nHakan, 15.01.2026'da Efe'yle yaptığı yazılı anlaşmada, hiçbir ödeme almadan onu ödünç borcundan tamamen kurtarır.\n\nBorç vadesinde ödenmez. Hakan, Can'a dava açarak 300.000 TL'nin ve 60.000 TL cezanın ödenmesini ister. Can ise Efe'nin Hakan'dan olan 50.000 TL'lik alacağıyla takas yapılmasını savunur.\n\n1. Ek protokol Can'ı ve Efe'yi bağlar mı?\n2. Can'ın takas savunmasını değerlendiriniz.\n3. Efe'nin borçtan kurtarılması Can'ın borcunu nasıl etkiler? Hakan, Can'dan en fazla ne isteyebilir?\n4. Can, Hakan'a 200.000 TL öderse kime, ne kadar rücu edebilir?",
+   "rubric": [
+    {
+     "point": "İradi teselsül ve Hakan'ın borcu dilediği borçludan isteyebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 163"
+    },
+    {
+     "point": "Ek protokolün yalnız Deniz'i bağlaması; Deniz'in tek başına kabul ettiği cezanın Can ve Efe'nin durumunu ağırlaştıramaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 165"
+    },
+    {
+     "point": "Takas yetkisinin Efe'ye ait kişisel bir imkân olması; Can'ın Efe'nin alacağıyla takas yapamaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 164"
+    },
+    {
+     "point": "Efe'nin ibrasının diğerlerini onun iç ilişkideki payı olan 100.000 TL oranında kurtarması; Can'ın 200.000 TL'den sorumlu kalması",
+     "weight": 25,
+     "madde_ref": "TBK m. 166"
+    },
+    {
+     "point": "Ödeme ve takas ile ibranın etkisi arasındaki fark; Efe takas beyanında bulunsaydı doğacak sonuç",
+     "weight": 10,
+     "madde_ref": "TBK m. 166"
+    },
+    {
+     "point": "Can'ın Deniz'e 100.000 TL rücu edebilmesi; Efe'ye rücu edilememesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 167"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Senetteki açık kayıtla üç borçlu ödünç borcunun tamamından sorumlu olmayı kabul etmiştir; bu bir iradi teselsüldür (TBK m. 162/1). Hakan borcun tamamını dilediği borçludan isteyebilir (TBK m. 163/1). İç ilişkide paylar anlaşma gereği eşittir; her birinin payı 100.000 TL'dir (TBK m. 167/1).\n\n**Hukuki sorunlar:** Bir borçlunun tek başına yaptığı ağırlaştırıcı anlaşmanın etkisi; başka borçlunun takas alacağına dayanılıp dayanılamayacağı; bir borçlunun ibrasının diğerlerine etkisi; ibradan sonra iç ilişki.\n\n**İlgili hükümler:** TBK m. 132, 163, 164, 165, 166 ve 167.\n\n**Değerlendirme:**\n\n*1. Ek protokol.* Kanun veya sözleşme ile aksi belirlenmedikçe borçlulardan biri kendi davranışıyla diğer borçluların durumunu ağırlaştıramaz (TBK m. 165). Ceza ödeme yükümlülüğü borçluların durumunu ağırlaştırır. Can ve Efe protokolü imzalamamıştır; senette de bir borçlunun diğerleri adına ağırlaştırıcı anlaşma yapabileceğine ilişkin bir kayıt yoktur. Bu yüzden protokol yalnız Deniz'i bağlar. Hakan 60.000 TL'yi Can'dan isteyemez. Cezanın Deniz'den istenip istenemeyeceği ceza koşulunun kendi şartlarına bağlıdır.\n\n*2. Takas savunması.* Müteselsil borçlu alacaklıya karşı yalnız kendi kişisel ilişkisinden doğan ve borcun sebep ya da konusundan doğan ortak def'ileri ileri sürebilir (TBK m. 164/1). Efe'nin alacağı, Efe ile Hakan arasındaki ayrı bir ilişkiden doğmuştur ve Efe'nin kişisel imkânıdır. Can bu alacakla takas yapamaz. Takas yetkisi Efe'ye aittir. Efe, borçlu sıfatı sürerken takas beyanında bulunmuş olsaydı borç takas edilen tutar kadar azalır ve bu azalma herkese yarardı (TBK m. 166/1). Böyle bir beyan yoktur.\n\n*3. Efe'nin borçtan kurtarılması.* Hakan ile Efe arasındaki yazılı anlaşma bir ibra sözleşmesidir; ibra şekle bağlı değildir (TBK m. 132). Alacaklının borçlulardan biriyle yaptığı ibra sözleşmesi diğer borçluları, ibra edilen borçlunun iç ilişkideki payı oranında borçtan kurtarır (TBK m. 166/3). Efe'nin payı 100.000 TL'dir. Can ve Deniz artık Hakan'a karşı 200.000 TL'den müteselsilen sorumludur. Bu, ödemeden farklıdır: ödemede diğerleri ödenen tutar kadar kurtulur (TBK m. 166/1). İbrada ise ölçü, alacaklının bir şey alıp almadığı değil, ibra edilenin iç ilişkideki payıdır. Hakan Can'dan en fazla 200.000 TL isteyebilir.\n\n*4. Can'ın rücuu.* Efe'nin payı borçtan düştüğü için kalan 200.000 TL'yi iç ilişkide Can ve Deniz eşit olarak taşır. Her birinin payı 100.000 TL'dir. Can 200.000 TL öderse payını 100.000 TL aşmış olur ve bu fazla için Deniz'e rücu eder (TBK m. 167/2). Efe'ye rücu edemez, çünkü Efe'nin payı ibra nedeniyle zaten borçtan düşülmüştür. Can, ödediği oranda Hakan'ın haklarına da halef olur (TBK m. 168/1). Cezadan Can sorumlu olmadığı için, Deniz cezayı öderse bunu iç ilişkide Can'a yükleyemez.\n\n**Sonuç:**\n- Ek protokol yalnız Deniz'i bağlar; Can ve Efe cezadan sorumlu değildir.\n- Can, Efe'nin alacağıyla takas yapamaz.\n- Efe'nin ibrası diğerlerini 100.000 TL oranında kurtarır; Hakan Can'dan en fazla 200.000 TL isteyebilir.\n- Can 200.000 TL öderse Deniz'e 100.000 TL rücu eder, Efe'ye rücu edemez."
+  },
+  {
+   "stem_md": "Ahmet, Burcu ve Cem, paylı malik oldukları apartmanın çatısını yeniletmek için Y Bankası'ndan 600.000 TL kredi kullanır. Kredi sözleşmesini üçü de \"müteselsil borçlu\" sıfatıyla imzalar. Kendi aralarındaki yazılı anlaşmada krediyi apartmandaki payları oranında üstleneceklerini kararlaştırırlar: Ahmet %50, Burcu %25, Cem %25. Kredi ayrıca Ahmet'in başka bir semtteki, değeri 2.000.000 TL olan dairesi üzerine kurulan ipotekle güvence altındadır.\n\nÖdemeler aksayınca banka yalnız Burcu hakkında icra takibi başlatır. Burcu \"Bizim aramızdaki anlaşmayı bankaya da gösterdim, ben yalnız %25'ten sorumluyum\" diye itiraz eder. Takip devam eder ve Burcu 05.06.2025'te borcun tamamı olan 600.000 TL'yi öder.\n\nBurcu 20.05.2026'da Ahmet hakkında icra takibi başlatır. Ahmet şöyle savunur: \"Üç borçluyduk, ben en fazla üçte bir, yani 200.000 TL'den sorumluyum. Ayrıca rücu istemi bir yılda zamanaşımına uğrar.\" Burcu, alacağını Ahmet'in dairesi üzerindeki ipotekten karşılamak istemektedir.\n\n1. Banka borcun tamamını Burcu'dan isteyebilir miydi?\n2. Burcu, Ahmet'ten ve Cem'den ne kadar isteyebilir?\n3. Burcu ipotekten yararlanabilir mi? Rücu ile halefiyet arasındaki farkı açıklayınız.\n4. Ahmet'in zamanaşımı savunmasını değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "İradi teselsül; bankanın borcun tamamını Burcu'dan isteyebilmesi ve iç anlaşmanın bankayı bağlamaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 163"
+    },
+    {
+     "point": "İç ilişkide anlaşmayla belirlenen payların esas alınması; Ahmet'in eşit pay savunmasının reddi",
+     "weight": 15,
+     "madde_ref": "TBK m. 167"
+    },
+    {
+     "point": "Burcu'nun Ahmet'ten 300.000 TL, Cem'den 150.000 TL isteyebilmesi; her birine ancak payı oranında rücu",
+     "weight": 20,
+     "madde_ref": "TBK m. 167"
+    },
+    {
+     "point": "Halefiyetle ipoteğin Burcu'nun Ahmet'e karşı rücu alacağını güvence altına alması",
+     "weight": 15,
+     "madde_ref": "TBK m. 168"
+    },
+    {
+     "point": "Rücu ile halefiyet farkı: dayanak, bağlı haklar ve zamanaşımı",
+     "weight": 10,
+     "madde_ref": "TBK m. 168"
+    },
+    {
+     "point": "Rücu zamanaşımının ödeme tarihinden başlaması; hangi görüş benimsenirse benimsensin sürenin dolmamış olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 82"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Üç kişi kredi sözleşmesini \"müteselsil borçlu\" sıfatıyla imzalayarak borcun tamamından sorumlu olmayı kabul etmiştir; bu bir iradi teselsüldür (TBK m. 162/1). Üçü de krediden, apartmandaki payları ölçüsünde yararlanan gerçek borçlulardır. Aralarındaki yazılı anlaşma iç ilişkideki payları belirler (TBK m. 167/1).\n\n**Hukuki sorunlar:** Bankanın seçim hakkı ve iç anlaşmanın bankaya etkisi; payların belirlenmesi ve rücu hesabı; halefiyet ve ipotek; rücu zamanaşımı.\n\n**İlgili hükümler:** TBK m. 82, 146, 154, 162, 163, 167 ve 168; TMK m. 864.\n\n**Değerlendirme:**\n\n*1. Bankanın Burcu'ya başvurması.* Alacaklı borcun tamamını dilediği borçludan isteyebilir (TBK m. 163/1). Borçlular arasındaki pay anlaşması yalnız iç ilişkiyi düzenler. Bankanın bu anlaşmayı bilmesi sonucu değiştirmez, çünkü banka kredi sözleşmesinde üç borçlunun da borcun tamamından sorumlu olmasını şart koşmuş ve bunu sağlamıştır. Bankanın önce Ahmet'e başvurma zorunluluğu da yoktur. Burcu'nun itirazı yerinde değildir; borcun tamamından sorumludur.\n\n*2. Burcu'nun rücu alacakları.* Paylar anlaşmayla belirlendiği için eşit pay kuralı uygulanmaz (TBK m. 167/1). Ahmet'in \"üçte bir\" savunması bu nedenle reddedilir. Paylar şöyledir: Ahmet 300.000 TL, Burcu 150.000 TL, Cem 150.000 TL. Burcu 600.000 TL ödeyerek payını 450.000 TL aşmıştır. Her borçluya ancak onun payı oranında rücu edebilir (TBK m. 167/2): Ahmet'ten 300.000 TL, Cem'den 150.000 TL. Ahmet'ten 450.000 TL'nin tamamını isteyemez; iç ilişkide teselsül yoktur. Ahmet'in payı ipotekle güvence altında olduğundan ondan alınamayan bir pay söz konusu değildir; TBK m. 167/3 gündeme gelmez.\n\n*3. İpotek ve halefiyet.* Rücu hakkı olan borçlu, ifa ettiği miktar oranında alacaklının haklarına halef olur (TBK m. 168/1). Bankanın alacağına bağlı ipotek de Burcu'ya geçer ve Burcu'nun Ahmet'e karşı 300.000 TL'lik rücu alacağını güvence altına alır. Dairenin değeri bu tutarı rahatlıkla karşılar.\n- *Rücu*, Burcu'nun iç ilişkiden doğan kendi hakkıdır; buna dayanırsa bağlı haklardan yararlanamaz ve Ahmet'in sıradan bir alacaklısı olur.\n- *Halefiyet* ise bankanın alacağının kanun gereği Burcu'ya geçmesidir; ipotek gibi güvenceler alacakla birlikte geçer. Yargıtay'a göre halef olan, asıl alacağın tabi olduğu zamanaşımı süresinden yararlanır.\n\n*4. Zamanaşımı savunması.* Yargıtay Hukuk Genel Kurulu'na göre rücu hakkı alacaklının tatmin edildiği anda doğar ve zamanaşımı bu andan işler. Başlangıç 05.06.2025'tir. Burcu 20.05.2026'da, yani bir yıl dolmadan takip başlatmıştır; icra takibi zamanaşımını da keser (TBK m. 154/2). Uygulanacak süre tartışmalıdır, ama sonucu değiştirmez:\n- Hukuk Genel Kurulu'nun ölçüsüne göre borçlular arasında sözleşme varsa onun süresi uygulanır. Burada yazılı bir pay anlaşması vardır ve bundan doğan istem genel on yıllık süreye tabidir (TBK m. 146).\n- Asıl alacağın süresi esas alınsa da kredi alacağı genel on yıllık süreye tabidir (TBK m. 146). Üstelik tescilli ipotekle güvenceli alacak için zamanaşımı işlemez (TMK m. 864).\n- Sebepsiz zenginleşme hükümleri uygulansa bile süre öğrenmeden itibaren iki yıldır (TBK m. 82).\nRücu için bir yıllık bir süre TBK'da yoktur. Ahmet'in savunması her görüşte reddedilir.\n\n**Sonuç:**\n- Banka borcun tamamını Burcu'dan isteyebilirdi; iç anlaşma bankayı bağlamaz.\n- Burcu, Ahmet'ten 300.000 TL, Cem'den 150.000 TL isteyebilir.\n- Burcu halefiyet yoluyla Ahmet'in dairesi üzerindeki ipotekten yararlanabilir.\n- Rücu alacağı zamanaşımına uğramamıştır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Müteselsil borçluluk nedir?",
+   "back_md": "Bölünebilir bir borcun birden çok borçlusundan her birinin alacaklıya karşı borcun tamamından sorumlu olması. Biri ödeyince ödediği oranda hepsi kurtulur."
+  },
+  {
+   "front_md": "Teselsül nasıl doğar? (TBK m. 162)",
+   "back_md": "Her borçlunun borcun tamamından sorumlu olmayı kabul ettiğini bildirmesiyle ya da kanunun öngördüğü hâllerde. Teselsül tahmin edilmez."
+  },
+  {
+   "front_md": "Teselsül yoksa birden çok borçlu nasıl sorumludur?",
+   "back_md": "Kısmi borçlu olarak; her biri yalnız kendi payından sorumludur."
+  },
+  {
+   "front_md": "Kanuni teselsül örnekleri?",
+   "back_md": "Haksız fiilde birden çok sorumlu (TBK m. 61), borca katılma (TBK m. 201), işletme devrinde önceki borçlu (TBK m. 202), adi ortaklar (TBK m. 638), mirasçılar (TMK m. 641), birliği temsilde eşler (TMK m. 189)."
+  },
+  {
+   "front_md": "TTK m. 7'deki teselsül karinesinin şartları?",
+   "back_md": "Birden çok kişinin birlikte borç altına girmesi ve işin içlerinden en az biri için ticari olması. Kanun veya sözleşme aksini öngörebilir."
+  },
+  {
+   "front_md": "Alacaklı müteselsil borçlulardan ne isteyebilir? (TBK m. 163)",
+   "back_md": "Borcun tamamını ya da bir kısmını, dilediği borçludan veya hepsinden. Aralarında sıra yoktur."
+  },
+  {
+   "front_md": "Bir borçluyu dava etmek diğerlerini kurtarır mı?",
+   "back_md": "Hayır. Sorumluluk borcun tamamı ödeninceye kadar sürer (TBK m. 163/2). Birine karşı kesin hüküm diğerleri hakkında geçerli değildir (HMK m. 303/5)."
+  },
+  {
+   "front_md": "Kişisel def'i ile ortak def'i farkı?",
+   "back_md": "Kişisel def'i borçlunun alacaklıyla kendi ilişkisinden doğar, yalnız o ileri sürer. Ortak def'i borcun sebep ya da konusundan doğar, herkes ileri sürer (TBK m. 164/1)."
+  },
+  {
+   "front_md": "Ortak def'iyi ileri sürmeden ödeyen borçlunun durumu?",
+   "back_md": "Diğer borçlulara karşı sorumlu olur (TBK m. 164/2). Rücu ederken onlar bu def'iyi ona karşı ileri sürebilir."
+  },
+  {
+   "front_md": "Bir borçlu tek başına ceza koşulu kabul ederse? (TBK m. 165)",
+   "back_md": "Yalnız kendisini bağlar. Borçlulardan biri kendi davranışıyla diğerlerinin durumunu ağırlaştıramaz."
+  },
+  {
+   "front_md": "Bir borçlunun ödemesi diğerlerine nasıl etki eder?",
+   "back_md": "Ödenen ya da takas edilen oranda hepsi borçtan kurtulur (TBK m. 166/1)."
+  },
+  {
+   "front_md": "Bir borçlunun ibrası diğerlerine nasıl etki eder?",
+   "back_md": "Diğerlerini ibra edilenin iç ilişkideki payı oranında kurtarır (TBK m. 166/3). Bu kural TBK ile getirildi."
+  },
+  {
+   "front_md": "İç ilişkide paylar nasıl belirlenir?",
+   "back_md": "Aksi kararlaştırılmadıkça ya da ilişkinin niteliğinden anlaşılmadıkça eşittir (TBK m. 167/1). Mirasçılarda miras payı esastır (TMK m. 682/3)."
+  },
+  {
+   "front_md": "Rücu hakkının şartı nedir?",
+   "back_md": "Kendi payından fazlasını ödemek. Ödeyen her borçluya ancak onun payı oranında rücu eder (TBK m. 167/2)."
+  },
+  {
+   "front_md": "Borçlulardan birinden alınamayan pay ne olur?",
+   "back_md": "Ödeyen de dahil diğer borçlular eşit olarak üstlenir (TBK m. 167/3)."
+  },
+  {
+   "front_md": "Halefiyet nedir, ne sağlar? (TBK m. 168/1)",
+   "back_md": "Alacaklının alacağının ödenen oranda kanunen ödeyene geçmesi. Rehin, ipotek ve kefalet gibi bağlı haklar da geçer."
+  },
+  {
+   "front_md": "Alacaklı bir borçlunun durumunu iyileştirirse? (TBK m. 168/2)",
+   "back_md": "Diğerlerinin zararına ise bunun sonuçlarına katlanır; örneğin bir borçlunun verdiği rehni kaldırması."
+  },
+  {
+   "front_md": "Rücu zamanaşımı ne zaman başlar?",
+   "back_md": "Yargıtay HGK'ya göre borçlunun alacaklıyı tatmin ettiği, yani ödemeyi yaptığı anda. Uygulanacak süre tartışmalıdır; haksız fiilde TBK m. 73 uygulanır."
+  },
+  {
+   "front_md": "Müteselsil alacaklılıkta borçlu kime öder? (TBK m. 169)",
+   "back_md": "Dilediği alacaklıya; birine ifa ile hepsine karşı kurtulur. Bir alacaklının icraya ya da mahkemeye başvurduğu bildirilmişse seçim serbestliği kalkar."
+  },
+  {
+   "front_md": "Bölünemez borç ile müteselsil borç farkı?",
+   "back_md": "Bölünemezlik edimin niteliğinden, teselsül bildirim ya da kanundan doğar. Bölünemez alacakta borçlu hepsine birden ifa eder (TBK m. 85/1)."
+  },
+  {
+   "front_md": "Müteselsil kefalet müteselsil borçluluk mudur?",
+   "back_md": "Hayır. Kefilin borcu fer'idir ve alacaklı ona TBK m. 586'daki şartlarla başvurur."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

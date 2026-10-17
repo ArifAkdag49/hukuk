@@ -1,0 +1,794 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 7,
+ "unit_title": "Ünite 7: Borç İlişkisinde Özel Durumlar ve Taraf Değişiklikleri",
+ "topic_index": 3,
+ "slug": "baglanma-parasi-cayma-parasi-cezai-sart",
+ "title": "Bağlanma Parası, Cayma Parası ve Ceza Koşulu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T21:46:09.622026+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/cezai-sart-ve-teminat"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Taraflar sözleşmeyi bir miktar parayla \"sağlamlaştırmak\" istediğinde üç ayrı kurumdan birine başvurur: **bağlanma parası**, **cayma parası** ve **ceza koşulu**. Üçü TBK m. 177-182'de birlikte düzenlenir ama sonuçları çok farklıdır.\n\n- **Bağlanma parası (TBK m. 177):** Sözleşme yapılırken verilen para, kural olarak cayma parası değil, sözleşmenin **yapıldığına kanıt** sayılır. Aksine sözleşme ya da yerel âdet yoksa **esas alacaktan düşülür**. Kimseye cayma hakkı vermez.\n- **Cayma parası (TBK m. 178):** Kararlaştırılmışsa **her iki taraf** caymaya yetkilidir. Parayı veren cayarsa **verdiğini bırakır**, alan cayarsa **aldığının iki katını geri verir**.\n- **Fer'ilik:** Asıl sözleşme geçersizse (ör. resmî şekle uyulmamış taşınmaz satışı) cayma parası da ceza koşulu da istenemez. Verilen para sebepsiz zenginleşme hükümlerine göre geri istenir.\n- **Ceza koşulunun türleri (TBK m. 179):**\n  - *Seçimlik ceza:* Borç hiç ya da gereği gibi ifa edilmezse alacaklı **ya borcun ya cezanın** ifasını ister.\n  - *İfaya eklenen ceza:* Zaman veya yer için kararlaştırılmışsa alacaklı **ikisini birlikte** ister. Açıkça feragat ederse ya da ifayı **çekincesiz** kabul ederse ceza hakkı düşer.\n  - *Dönme (fesih) cezası:* Borçlu, cezayı ödeyerek sözleşmeden çıkmaya yetkili olduğunu **ispat ederse** sözleşmeyi sona erdirebilir.\n- **Ceza ve zarar (TBK m. 180):** Alacaklı hiç zarara uğramasa da ceza ödenir. Zarar cezayı aşıyorsa alacaklı, **borçlunun kusuru bulunduğunu ispat etmedikçe** aşan miktarı isteyemez.\n- **Kısmi ifanın yanması (TBK m. 181):** \"Dönülürse ödenen kısım alacaklıda kalır\" kayıtlarına da ceza koşulu hükümleri uygulanır. Taksitle satış hükümleri saklıdır.\n- **Miktar, geçersizlik, indirim (TBK m. 182):** Miktar serbesttir. Asıl borç geçersizse ya da borçlunun sorumlu olmadığı bir sebeple sonradan imkânsızlaşırsa (aksi kararlaştırılmadıkça) ceza istenemez. Hâkim, aşırı gördüğü cezayı **kendiliğinden** indirir.\n- **Tacir borçlu (TTK m. 22):** Aşırılık iddiasıyla indirim isteyemez. Yargıtay, ceza tacirin **ekonomik yıkımına** yol açacak ağırlıktaysa ahlaka aykırılık gerekçesiyle kısmen ya da tamamen iptale izin verir.\n- **Hizmet sözleşmesi (TBK m. 420):** Yalnız işçi aleyhine konulan ceza koşulu geçersizdir. Yargıtay iki taraflılık arar, işçinin cezasının işverenin cezasını aşmasına izin vermez ve oransal indirim yapar.",
+  "content_md": "## 0. Konunun haritası\n\nÜç kurumun ortak noktası, sözleşmeye **parasal bir güvence** eklemeleridir. Farkları ise şu sorularda ortaya çıkar: Para ne zaman ödenir? Taraflara sözleşmeden kurtulma imkânı verir mi? Borca aykırılık şart mı?\n\n| Kurum | Ne zaman, nasıl? | Temel sonuç |\n|---|---|---|\n| Bağlanma parası (TBK m. 177) | Sözleşme yapılırken peşin verilir | Kanıt ve kısmi ifa; alacaktan düşülür |\n| Cayma parası (TBK m. 178) | Sözleşme yapılırken peşin verilir | İki tarafa da cayma hakkı |\n| Ceza koşulu (TBK m. 179-182) | Önceden vaat edilir, aykırılıkta ödenir | Borcu güvenceye alır, zarar şartı yok |\n\n> 💡 **Püf nokta:** Olay sorusunda önce sözleşmedeki kaydın **adına değil, içeriğine** bak. \"Kapora\", \"pey akçesi\", \"cayma akçesi\", \"cezai şart\" sözcükleri yanıltıcı olabilir. Belirleyici olan, tarafların paraya hangi işlevi yüklediğidir.\n\n## 1. Bağlanma parası (TBK m. 177)\n\n**Bağlanma parası** (uygulamada *pey akçesi* ya da *kaparo/kapora*), sözleşme kurulurken bir tarafın diğerine verdiği paradır. Kanun bunun için bir karine koyar: Sözleşme yapılırken verilen para, **cayma parası olarak değil, sözleşmenin yapıldığına kanıt olarak** verilmiş sayılır (TBK m. 177/1).\n\n- **İşlevi:** Hem sözleşmenin kurulduğunu gösterir hem de bir **kısmi ifa** niteliği taşır. Sözleşmenin geçerlilik şartı değildir, yalnız ispat aracıdır.\n- **Karinenin sonucu:** Parayı veren ya da alan, bu parayı bırakarak veya iade ederek sözleşmeden kurtulamaz. Paranın cayma parası olduğunu iddia eden taraf bunu ispatlamak zorundadır.\n- **Mahsup (TBK m. 177/2):** Aksine sözleşme veya yerel âdet olmadıkça bağlanma parası **esas alacaktan düşülür.**\n\n> 📌 **Kesin bilgi:** Eski Borçlar Kanunu'nda kural tersineydi. Aksine sözleşme ya da yerel âdet yoksa pey akçesi, asıl alacaktan düşülmeden alana kalırdı. TBK bu kuralı bıraktı ve mahsubu esas aldı.\n\n**Sözleşme ortadan kalkarsa ne olur?** Sözleşme geçersizse ya da sonradan sona ererse (ör. dönme), bağlanma parası yerine getirilmiş diğer edimler gibi geri istenir. Sözleşme geçersizse iade, sebepsiz zenginleşme hükümlerine dayanır (TBK m. 77/2: geçerli olmayan bir sebebe dayanan zenginleşme). Yargıtay'a göre parayı alan taraf, karşı tarafın borca aykırılığından doğan zararını **ispatlarsa** bu tutarı iade edeceği paradan düşebilir. İspatlayamazsa parayı tümüyle iade eder.\n\n> **Örnek:** Mehmet, galerici Zeynep'ten 1.200.000 TL'ye otomobil almak üzere anlaşır ve 60.000 TL \"kapora\" verir. Cayma parası kararlaştırıldığı ispatlanamıyorsa bu para bağlanma parasıdır. Mehmet aracı alırsa kalan 1.140.000 TL'yi öder. \"Kaporamı yakıyorum\" diyerek sözleşmeden kurtulamaz; vazgeçmesi borca aykırılıktır.\n\n> ⚠️ **Sınavda dikkat:** \"Kaporayı veren vazgeçerse kapora yanar\" cümlesi TBK'ya göre **genel kural değildir.** Bu sonuç ancak cayma parası kararlaştırılmışsa (TBK m. 178) ya da kayıt ceza koşulu niteliğindeyse doğar.\n\n## 2. Cayma parası (TBK m. 178)\n\n**Cayma parası**, taraflara verilen para pahasına sözleşmeden cayma imkânı tanıyan paradır. Kanunun kuralı kısadır ama her sözcüğü önemlidir:\n\n> 📌 **Kesin bilgi (TBK m. 178):** Cayma parası kararlaştırılmışsa **taraflardan her biri** sözleşmeden caymaya yetkili sayılır. Parayı **vermiş olan** cayarsa **verdiğini bırakır**; **almış olan** cayarsa **aldığının iki katını geri verir.**\n\n- **Kararlaştırılmış olmalıdır.** Karine bağlanma parası yönünde olduğu için, cayma parasını iddia eden ispat eder.\n- **İki tarafa da hak verir.** Cayma, bir borca aykırılık değil, sözleşmeden doğan bir hakkın kullanılmasıdır. Gerekçe göstermek gerekmez. Kanun cayan tarafa, bu parasal sonuç dışında bir yükümlülük öngörmez.\n- **\"İki katını geri verir\" ne demek?** Parayı alan taraf, aldığı tutarı ve ayrıca aynı miktarı öder. Net kaybı, cayma parası kadardır. Böylece iki tarafın cayma bedeli eşitlenir.\n- **Ne zamana kadar?** Öğretide kabul edilen ve Yargıtay'ın da benimsediği görüşe göre asli edim ifa edildikten sonra artık caymak mümkün değildir. Taraflar caymazsa cayma parası, onu alanın alacağından düşülür.\n\n> **Örnek:** Ayşe, Burak'tan bir tekne satın almak için 50.000 TL cayma parası verir. Ayşe vazgeçerse 50.000 TL Burak'ta kalır. Burak vazgeçerse Ayşe'ye **100.000 TL** öder: 50.000 TL'yi iade eder, 50.000 TL de cayma bedeli olarak katlanır.\n\n**Fer'ilik.** Cayma parası asıl sözleşmeye bağlıdır. Asıl sözleşme geçersizse cayma parası istenemez, verilen para sebepsiz zenginleşme hükümlerine göre iade edilir. Uygulamada en sık rastlanan örnek, noter ya da tapu dışında yapılan taşınmaz satışlarıdır. Taşınmaz satışı da satış vaadi de resmî şekle tabidir (TBK m. 237, TMK m. 706). Bu şekle uyulmadan yapılan sözleşmeye konan \"satıcı vazgeçerse kaporanın iki katını öder\" kaydına dayanılamaz.\n\n> ⚠️ **Sınavda dikkat:** Tüketici mevzuatındaki **cayma hakkıyla** (ör. mesafeli sözleşmelerde on dört gün içinde gerekçesiz ve cezai şart ödemeksizin cayma, TKHK m. 48/4) TBK m. 178'deki cayma parasının yalnız adı ortaktır. Biri kanundan doğan bir tüketici hakkıdır, diğeri tarafların kararlaştırdığı bir paradır.\n\n## 3. Ceza koşulu: kavram ve işlevler\n\n**Ceza koşulu** (cezai şart), borçlunun asıl borcunu hiç ya da gereği gibi ifa etmemesi durumunda alacaklıya ödemeyi **önceden taahhüt ettiği** edimdir. Genellikle bir miktar paradır. Verme, yapma ya da yapmama borçlarının hepsi için kararlaştırılabilir. Kanundan doğmaz, sözleşmede açıkça kararlaştırılmalıdır.\n\nİki temel işlevi vardır:\n- **Baskı (teminat) işlevi:** Borçluyu ifaya zorlar.\n- **Tazminat işlevi:** Alacaklıyı zararı ve miktarını ispat yükünden kurtarır. Ceza, önceden belirlenmiş bir karşılık gibi çalışır.\n\n**Fer'i niteliktedir.** Geçerli bir asıl borca bağlıdır ve onun ihlaliyle doğar. Bunun sonuçları TBK m. 182'de görülecek.\n\n**Borçlunun kusuru.** Kanun kusura iki yerde değinir. Borçlunun sorumlu tutulamayacağı bir sebeple sonradan imkânsızlaşan borçta, aksi kararlaştırılmadıkça ceza istenemez (TBK m. 182/2). Cezayı aşan zarar ise borçlunun kusurunun ispatına bağlıdır (TBK m. 180/2). Bunun dışında cezanın borçlunun kusuruna bağlı olup olmadığı Türk hukukunda tartışmalıdır (bkz. doktrin). Borçlu kusurlu olarak borca aykırı davrandıysa bu tartışma sonucu değiştirmez.\n\n## 4. Ceza koşulunun türleri (TBK m. 179)\n\n### 4.1 Seçimlik ceza (TBK m. 179/1)\nBir sözleşmenin **hiç veya gereği gibi ifa edilmemesi** için ceza kararlaştırılmışsa, aksi sözleşmeden anlaşılmadıkça alacaklı **ya borcun ya da cezanın** ifasını isteyebilir. İkisini birden isteyemez. Burada teknik anlamda bir seçimlik borç yoktur. Borçlu asıl borçla yükümlüdür, alacaklıya yalnız bir seçim hakkı tanınmıştır.\n\n> **Örnek:** Satıcı malı hiç teslim etmezse 100.000 TL ceza ödeyeceğini taahhüt etmiştir. Alıcı ya malın teslimini ya 100.000 TL'yi ister.\n\n### 4.2 İfaya eklenen ceza (TBK m. 179/2)\nCeza, borcun **belirlenen zaman veya yerde** ifa edilmemesi için kararlaştırılmışsa alacaklı, **asıl borçla birlikte** cezanın ifasını da isteyebilir. Bunun iki istisnası vardır: alacaklı hakkından **açıkça feragat** etmişse ya da ifayı **çekincesiz** kabul etmişse ceza istenemez. Uygulamada buna *gecikme cezası* denir.\n\nYargıtay'ın yerleşik uygulamasına göre:\n- Çekince (ihtirazi kayıt) **ifa anında, açıkça** yapılmalıdır. Teslim tutanağına düşülen bir not, ifadan önce yapılan yazılı bildirim ya da bedelin ceza tutarı kesilerek ödenmesi yeterlidir.\n- Sözleşmede çekince aranmayacağı kararlaştırılmışsa ya da alacaklı ifadan önce gönderdiği ihtarla ceza hakkını saklı tutmuşsa, teslimde çekince konmasa da hak düşmez.\n- Çekincesiz kabul, hâkim tarafından **kendiliğinden** dikkate alınır.\n\n> **Örnek:** Konut satışında teslim tarihi 1 Ocak, gecikilen her ay için konut bedelinin %1'i ceza kararlaştırılmıştır. Daire iki ay geç teslim edilir, alıcı tutanağa hiçbir not düşmeden anahtarı alır. Sonradan gecikme cezası isteyemez.\n\nKurallar emredici değildir. Taraflar, örneğin ayıplı ifa için de ifaya eklenen ceza kararlaştırabilir.\n\n### 4.3 Dönme (fesih) cezası (TBK m. 179/3)\nBorçlunun, kararlaştırılan cezayı ifa ederek sözleşmeyi **dönme veya fesih yoluyla sona erdirmeye yetkili olduğunu ispat etme** hakkı saklıdır. Bu türde ceza, borçlunun elindeki bir çıkış kapısıdır. Borca aykırılık aranmaz. Borcu güçlendirmez, aksine zayıflatır. İspat yükü **borçludadır.** İspatlayamazsa kayıt seçimlik ya da ifaya eklenen ceza sayılır.\n\n| Tür | Alacaklı ne ister? | Dayanak |\n|---|---|---|\n| Seçimlik | Ya ifa ya ceza | TBK m. 179/1 |\n| İfaya eklenen | İfa ve ceza birlikte | TBK m. 179/2 |\n| Dönme cezası | Borçlu cezayı ödeyip çıkar | TBK m. 179/3 |\n\n> ⚠️ **Sınavda dikkat:** Dönme cezası ile cayma parasını karıştırma. Cayma parası **peşin verilir** ve **iki tarafa** hak tanır. Dönme cezası ise **sonradan ödenir** ve yalnız **borçluya** çıkış imkânı verir.\n\n## 5. Ceza ile zarar arasındaki ilişki (TBK m. 180)\n\n**Zarar şartı yok (TBK m. 180/1):** Alacaklı hiçbir zarara uğramamış olsa bile kararlaştırılan cezanın ifası gerekir. Ceza koşulunun asıl gücü buradadır.\n\n**Cezayı aşan zarar (TBK m. 180/2).** Kanunun metni şöyledir:\n\n> 📌 **Kesin bilgi (TBK m. 180/2):** \"Alacaklının uğradığı zarar kararlaştırılan ceza tutarını aşıyorsa alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez.\"\n\nYani aşan kısım için ispat yükü **alacaklıdadır.** Alacaklı hem zararının cezayı aştığını ve miktarını hem de **borçlunun kusurunu** ispatlamalıdır. Bu, genel kuraldan farklıdır. TBK m. 112'ye göre sözleşmeye aykırılıkta borçlu, kusursuzluğunu ispat etmedikçe zararı öder; kusur karine olarak kabul edilir. TBK m. 180/2 ise aşan zarar için bu karineyi uygulamaz. Madde gerekçesine göre hüküm, eski Kanun'un 159. maddesini karşılar ve dil sadeleştirmesi dışında hüküm değişikliği içermez.\n\n> **Örnek:** Ceza 100.000 TL, alacaklının ispatlanan zararı 160.000 TL'dir. Alacaklı borçlunun kusurunu ispatlarsa toplam 160.000 TL alır: 100.000 TL ceza ve 60.000 TL aşan zarar. İspatlayamazsa yalnız 100.000 TL alır. Hiçbir durumda 260.000 TL alamaz, çünkü aşan miktar cezaya **eklenen fark** kadardır.\n\n## 6. Kısmi ifanın yanması ve taksitle satış (TBK m. 181)\n\nCeza koşuluna ilişkin hükümler, **dönme durumunda ifa edilmiş olan kısmın alacaklıya kalacağını** öngören sözleşmelere de uygulanır (TBK m. 181/1). Böyle bir kayıt aslında gizli bir ceza koşuludur. Bu nedenle fer'ilik kuralı ve hâkimin indirim yetkisi burada da işler.\n\n> **Örnek:** Noterde düzenleme şeklinde yapılan bir arsa satış vaadinde bedel on iki taksitte ödenecektir. Sözleşmede \"alıcı temerrüde düşer de satıcı sözleşmeden dönerse ödenmiş taksitler satıcıda kalır\" denmiştir. Alıcı yedi taksit ödedikten sonra temerrüde düşer. Bu kayıt ceza koşulu hükümlerine tabidir: satıcıda kalacak tutar aşırıysa hâkim indirir, asıl sözleşme geçersizse kayda dayanılamaz.\n\n**Taksitle satış saklıdır (TBK m. 181/2).** Taksitle satışta kanun özel sınırlar koyar:\n- Satıcı satılanın devrinden sonra dönerse her iki taraf aldığını geri verir. Satıcı hakkaniyete uygun bir kullanım bedeli ve olağandışı kullanımdan doğan değer kaybı için tazminat isteyebilir, ama sözleşme zamanında ifa edilseydi elde edeceğinden fazlasını isteyemez (TBK m. 260/1).\n- Peşinatın ödenmemesi yüzünden devirden önce dönülmüşse ceza koşulu **peşin satış bedelinin yüzde onunu aşamaz** (TBK m. 260/2).\n- Satıcının dönme hakkı da sınırlıdır (TBK m. 259).\n\n## 7. Cezanın miktarı, geçersizliği ve indirilmesi (TBK m. 182)\n\n### 7.1 Miktar serbestliği (TBK m. 182/1)\nTaraflar cezanın miktarını serbestçe belirler. Bu, sözleşme özgürlüğünün (TBK m. 26) bir uygulamasıdır. Serbestliğin iki sınırı vardır: ahlaka aykırılık (TBK m. 27) ve hâkimin indirim yetkisi (TBK m. 182/3).\n\n### 7.2 Asıl borca bağlılık (TBK m. 182/2)\n- **Asıl borç herhangi bir sebeple geçersizse** cezanın ifası istenemez. Şekle aykırı taşınmaz satışına konan ceza bunun tipik örneğidir.\n- Asıl borcun ifası, **borçlunun sorumlu tutulamayacağı bir sebeple sonradan imkânsız** hâle gelmişse ceza istenemez. Bu durumda borç da sona erer (TBK m. 136/1). Ancak taraflar **aksini kararlaştırabilir.** Böyle bir kayıtla ceza, bir tür garanti işlevi görür.\n- Tersi geçerli değildir: **Ceza koşulunun** geçersiz olması ya da sonradan imkânsızlaşması **asıl borcu etkilemez.**\n\n> 💡 **Püf nokta:** Fer'ilik tek yönlüdür. Asıl borç düşerse ceza da düşer, ceza düşerse asıl borç ayakta kalır.\n\n### 7.3 Hâkimin indirimi (TBK m. 182/3)\n> 📌 **Kesin bilgi:** \"Hâkim, aşırı gördüğü ceza koşulunu **kendiliğinden** indirir.\" Borçlunun ayrıca indirim talep etmesi şart değildir.\n\nYargıtay'ın yaklaşımı şöyle özetlenebilir:\n- Tacir olmayan borçlu indirim istemese de hâkim indirim gerekip gerekmediğini kendiliğinden incelemelidir. Bu incelemeyi hiç yapmadan cezanın tamamına hükmetmek bozma sebebidir.\n- **Ölçütler:** tarafların ekonomik durumu, borçlunun ödeme gücü, alacaklının asıl borcun ifasından beklediği yarar, borca aykırılık yüzünden uğradığı zarar, borçlunun borcunu ifa etmeyerek sağladığı yarar, borçlunun kusurunun derecesi ve aykırılığın ağırlığı.\n- Takdir, gerekirse bilirkişiden yararlanılarak, Yargıtay denetimine elverişli **objektif gerekçeye** dayanmalıdır.\n- İndirimde alacaklının genel hükümlere göre isteyebileceği tazminatın altına inilmez.\n- İndirim imkânı borçluyu korumaya yönelik, kamu düzenine ilişkin bir kuraldır. Bu yüzden borçlunun indirimden **önceden feragat** etmesi geçersizdir.\n- Eski Kanun da hâkime \"fahiş\" cezayı indirme yükümlülüğü yüklüyordu. TBK bunu \"kendiliğinden\" sözcüğüyle açıkça yazdı.\n\n### 7.4 Özel hükümlerden örnekler\n- **Nişanlılık:** Evlenmeden kaçınma hâli için öngörülen cayma tazminatı veya ceza şartı dava edilemez. Ancak yapılan ödemeler de geri istenemez (TMK m. 119/2).\n- **Konut ve çatılı işyeri kirası:** Kira bedelinin zamanında ödenmemesi hâlinde ceza koşulu ödeneceğine ilişkin anlaşmalar geçersizdir (TBK m. 346).\n- **Faiz borcu:** Faiz, irat ya da bağışlanan para borcunda temerrüt faizi, icra takibine girişildiği veya dava açıldığı günden başlar. Bu kurala aykırı anlaşmalar ceza koşulu hükümlerine tabidir (TBK m. 121/1-2).\n\n## 8. Tacir borçlu (TTK m. 22)\n\n> 📌 **Kesin bilgi (TTK m. 22):** Tacir sıfatını haiz borçlu, TBK m. 121/2, TBK m. 182/3 ve TBK m. 525'te yazılı hâllerde, aşırı ücret veya ceza kararlaştırıldığı iddiasıyla ücret veya sözleşme cezasının **indirilmesini mahkemeden isteyemez.**\n\nYargıtay'a göre bu hüküm TBK m. 182/3'e bir istisnadır. Tacir borçlu bakımından hâkim cezayı **kendiliğinden de** indiremez. Bunun gerekçesi genellikle şöyle açıklanır: Tacirden, ticari işlerinde üstlendiği yükün ağırlığını hesaplayabilmesi beklenir.\n\n**Uygulama şartları (Yargıtay):**\n- Bakılan, **borçlunun** tacir olup olmadığıdır. Alacaklının tacir olması önemli değildir.\n- Tacirlik, cezanın **taahhüt edildiği anda** aranır. Cezayı tacir olmadan önce üstlenen kişi indirim isteyebilir.\n- Ceza, tacirin ticari işletmesiyle ilgili olarak üstlenilmiş olmalıdır. Tacirin borçlarının ticari olması asıldır (TTK m. 19/1).\n- Ticaret şirketleri tacir sayılır (TTK m. 16/1). Esnaf (TTK m. 15) ise tacir sayılmaz. Kanun tacirlere özgü hükümlerden yalnız bazılarını esnafa da uygular ve TTK m. 22 bunlar arasında değildir. Bu yüzden esnaf, hâkimin indiriminden yararlanır.\n- İşin taraflardan biri için ticari olması diğeri için de ticari sayılmasına yol açabilir (TTK m. 19/2). Bu, TTK m. 22'yi tacir olmayan borçluya uygulatmaz, çünkü yasak işin niteliğine değil borçlunun sıfatına bağlıdır.\n\n**Ekonomik yıkım istisnası.** Yargıtay'ın yerleşik uygulamasına göre ceza, tacir borçlunun **ekonomik olarak mahvına** yol açacak, ticari faaliyetini sürdürmesini imkânsız kılacak derecede ağırsa bu durum **ahlaka aykırılık** oluşturur. Hâkim cezanın kısmen ya da tamamen iptaline karar verebilir. Kararlar bunu sözleşme özgürlüğünün sınırlarına dayandırır. Bu sınırların bugünkü karşılığı TBK m. 26 ve TBK m. 27'dir.\n- Değerlendirme, tarafların ya da hâkimin öznel görüşüne değil, **objektif ölçüye** dayanır.\n- Cezanın kararlaştırıldığı tarihteki ekonomik durum, borçlunun ödeme gücü ve fesihteki kusur, ticari defter ve kayıtlar üzerinden uzman bilirkişiyle araştırılır.\n- Tacirin yalnız masraflarını kısmak ya da bazı ihtiyaçlarından vazgeçmek zorunda kalması yetmez.\n\n> ⚠️ **Sınavda dikkat:** \"Tacir hiçbir şekilde korunmaz\" da \"tacir için de hâkim kendiliğinden indirir\" de yanlıştır. Doğrusu: TTK m. 22 indirimi kapatır, ekonomik yıkım hâlinde ahlaka aykırılık kapısı açık kalır.\n\n## 9. Hizmet sözleşmesinde ceza koşulu (TBK m. 420)\n\n> 📌 **Kesin bilgi (TBK m. 420/1):** Hizmet sözleşmelerine **sadece işçi aleyhine** konulan ceza koşulu geçersizdir.\n\nİşçi lehine konulan ceza ise geçerlidir. Yargıtay, bu hükümden önce de aynı sonucu işçi yararına yorum ilkesiyle kabul ediyordu. Uygulamanın ayrıntıları şunlardır:\n- **Karşılıklılık:** Ceza her iki taraf için kararlaştırılmış olmalıdır.\n- **Eşitlik sınırı:** İşçi aleyhine ceza, koşulları ve miktarı bakımından işverenin cezasını aşamaz. Eşitsizlik varsa kayıt tümden geçersiz olmaz, işçinin yükümlülüğü işverenin sorumlu olduğu miktar ve hâllerle sınırlanır.\n- **Orantılılık:** Hâkim TBK m. 182/3 uyarınca indirim yaparken işçinin ekonomik mahvına yol açmayacak bir çözüm arar. Belirli bir süre çalışma şartına bağlanan cezada, çalışılan ve çalışılması gereken süreler oranlanarak indirim yapılır.\n- **Süre sorunu:** Yargıtay İçtihadı Birleştirme Hukuk Genel Kurulu 2019'da, belirli süreli yapılıp objektif şartları taşımadığı için belirsiz süreli sayılan iş sözleşmesindeki \"süreden önce haksız feshe bağlı ceza\" kaydının kararlaştırılan süre için geçerli olduğuna karar verdi.\n- **Kanunun tekrarı ceza değildir:** \"Ceza koşulu\" adını taşımayan ve yalnız TBK m. 438'deki bakiye süre ücreti tazminatını tekrarlayan kayıt, Yargıtay'a göre ceza koşulu sayılmaz.\n- **Rekabet yasağı:** Yasağa aykırılık bir ceza koşuluna bağlanmışsa ve sözleşmede aksine hüküm yoksa işçi, cezayı ödeyerek rekabet yasağı borcundan kurtulabilir, ama cezayı aşan zararı gidermek zorundadır (TBK m. 446/2).\n\n> **Örnek:** Anaokulu öğretmeni, bir yıllık sözleşmenin onuncu gününde kamuya atanarak ayrılır. Sözleşmede \"haklı neden olmadan fesheden taraf kalan süre ücretini öder\" yazmaktadır. Kayıt karşılıklı olduğu için geçerlidir. Ama hâkim, on günlük çalışmayı ve ayrılma sebebini gözeterek cezayı önemli ölçüde indirmelidir.\n\n## 10. Ayrım: benzer kurumlar\n\n| Kurum | Ne zaman, kim verir? | Temel sonuç |\n|---|---|---|\n| Bağlanma parası | Kuruluşta peşin | Kanıt; alacaktan düşülür |\n| Cayma parası | Kuruluşta peşin | Bırak ya da iki katını ver, cay |\n| Ceza koşulu | Aykırılıkta, borçlu | Zarar şartı yok; indirilebilir |\n| Götürü tazminat | Aykırılıkta, borçlu | Önceden belirlenmiş zarar |\n| Güvence (depozito) | Başta, teminat olarak | Borçlar düşülüp iade edilir |\n\n- **Götürü tazminat:** Taraflar olası zararı tahmin ederek borca aykırılıkta ödenecek tazminatı önceden bir tutar olarak belirler. Kanunda düzenlenmemiştir, öğreti ve uygulama sözleşme özgürlüğü çerçevesinde kabul eder. Amacı zararın giderilmesidir, ceza koşulunun baskı işlevi onda yoktur. Kaydın adı değil, tarafların iradesi belirleyicidir.\n- **Güvence (depozito):** Alacakların ödenmesini teminat altına alır, ceza işlevi taşımaz. Sözleşme bitince alacaklar düşülür, kalan iade edilir. Örneğin konut ve çatılı işyeri kiralarında güvence üç aylık kira bedelini aşamaz ve para güvencesi vadeli bir tasarruf hesabına yatırılır (TBK m. 342).\n\n## 11. Olay çözerken denetim şeması\n1. **Nitelendir:** Verilen ya da vaat edilen para bağlanma parası mı, cayma parası mı, ceza koşulu mu? Karine bağlanma parası yönündedir (TBK m. 177/1).\n2. **Asıl sözleşme geçerli mi?** Şekil (TBK m. 237, TMK m. 706), ahlaka aykırılık (TBK m. 27). Geçersizse fer'i kayıt da düşer, iade sebepsiz zenginleşmeyle olur.\n3. **Ceza ise türü:** seçimlik, ifaya eklenen ya da dönme cezası (TBK m. 179). Çekince ve feragat sorununu atlama.\n4. **Ceza muaccel mi?** Borca aykırılık var mı, borçlu sorumlu mu, sonraki imkânsızlık var mı (TBK m. 182/2)?\n5. **Zarar:** Zarar şartı yok (TBK m. 180/1). Aşan zarar için alacaklı kusuru ispatlar (TBK m. 180/2).\n6. **Özel hüküm:** kısmi ifanın yanması ve taksitle satış (TBK m. 181, TBK m. 260), kira (TBK m. 346), hizmet sözleşmesi (TBK m. 420), nişanlılık (TMK m. 119).\n7. **İndirim:** Borçlu tacir mi (TTK m. 22)? Değilse hâkim kendiliğinden indirir (TBK m. 182/3). Tacirse yalnız ekonomik yıkım hâlinde ahlaka aykırılık.\n\nBorca aykırılıkta genel tazminat (konu 18) ve temerrüdün şartları (konu 19-20) ayrı konulardır, burada yalnız atıfla anılır.",
+  "critical_md": "- 📌 Sözleşme yapılırken verilen para, karine olarak **bağlanma parasıdır**, cayma parası değildir (TBK m. 177/1). Cayma parası olduğunu iddia eden ispatlar.\n- 📌 Bağlanma parası, aksine sözleşme veya yerel âdet yoksa **esas alacaktan düşülür** (TBK m. 177/2). Eski Kanun'da alana kalırdı.\n- ⚠️ Bağlanma parası **cayma hakkı vermez.** \"Kaporayı yakıp vazgeçmek\" ancak cayma parası kararlaştırılmışsa mümkündür.\n- 📌 Cayma parasında **her iki taraf** cayabilir. Veren cayarsa **verdiğini bırakır**, alan cayarsa **aldığının iki katını geri verir** (TBK m. 178).\n- ⚠️ \"İki katını geri verir\": alan tarafın net kaybı cayma parası kadardır. Aldığının iki katını ayrıca ceza olarak ödemez.\n- ⚠️ Resmî şekle uyulmadan yapılan taşınmaz satışında \"kaporanın iki katı\" ya da ceza istenemez. Yalnız verilen para sebepsiz zenginleşmeyle geri istenir.\n- 📌 Seçimlik cezada alacaklı **ya ifayı ya cezayı** ister (TBK m. 179/1). İfaya eklenen cezada **ikisini birlikte** ister (TBK m. 179/2).\n- ⚠️ İfaya eklenen cezada gecikmiş ifa **çekincesiz** kabul edilirse ceza istenemez. Çekince ifa anında açıkça yapılmalıdır.\n- 📌 Dönme cezasında borçlu, cezayı ödeyerek sözleşmeyi sona erdirmeye yetkili olduğunu **kendisi ispat eder** (TBK m. 179/3).\n- 📌 Alacaklı hiç zarara uğramasa bile ceza ödenir (TBK m. 180/1).\n- ⚠️ Cezayı aşan zarar: \"alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez\" (TBK m. 180/2). Genel kuraldaki kusur karinesi (TBK m. 112) burada işlemez.\n- 📌 Asıl borç geçersizse ya da borçlunun sorumlu olmadığı sebeple sonradan imkânsızlaşırsa (aksi kararlaştırılmadıkça) ceza istenemez. Cezanın geçersizliği asıl borcu etkilemez (TBK m. 182/2).\n- 📌 Hâkim aşırı cezayı **kendiliğinden** indirir (TBK m. 182/3). İndirimden önceden feragat geçersizdir.\n- ⚠️ **Tacir borçlu** indirim isteyemez (TTK m. 22). Yalnız ekonomik yıkım hâlinde ahlaka aykırılıkla kısmen ya da tamamen iptal mümkündür.\n- 📌 Hizmet sözleşmesine **sadece işçi aleyhine** konulan ceza geçersizdir (TBK m. 420/1). İşçinin cezası işverenin cezasını aşamaz.",
+  "doctrine_md": "### Cezayı aşan zararda ispat yükü\nTBK m. 180/2 açıkça alacaklıya, borçlunun kusurunu ispat yükü yükler. Bir görüş lafza bağlı kalır. Aşan zarar istemi cezanın dışına taşan ayrı bir tazminat istemidir, kanun koyucu eski hükmü bilerek korumuştur. Karşı görüş hükmü eleştirir. Ceza koşulu olmasaydı alacaklı yalnız zararını ispatlar, borçlu TBK m. 112 uyarınca kusursuzluğunu ispat etmek zorunda kalırdı. Ceza kararlaştıran alacaklının aşan zarar bakımından daha kötü duruma düşmesi sistemle bağdaşmaz. Bu yüzden hükmün TBK m. 112'ye uygun yorumlanması ya da değiştirilmesi gerektiği savunulur. Sınavda kanunun lafzını esas al, eleştiriyi ek bilgi olarak an.\n\n### Tacirin ekonomik yıkım hâlinde korunması\nYargıtay, TTK m. 22'ye rağmen tacirin ekonomik yıkımına yol açan cezayı ahlaka aykırılık gerekçesiyle kısmen ya da tamamen iptal eder. Gerekçesi, ahlaka aykırılık yaptırımının bütün sözleşmeler için geçerli genel bir sınır olması, TTK m. 22'nin bunu kaldıramamasıdır. Öğretide aynı korumanın dayanağı olarak dürüstlük kuralı ve hakkın açıkça kötüye kullanılması yasağı (TMK m. 2) da gösterilir. Fark sonuçta ortaya çıkar: ahlaka aykırılık kaydın kısmen ya da tamamen hükümsüzlüğüne götürür, hakkın kötüye kullanılması ise somut olayda cezanın istenmesini engeller. Yaklaşımın zayıf noktası, ekonomik yıkım ölçütünün sonuçta TTK m. 22'nin kapattığı indirime benzer bir sonuç doğurabilmesidir. Yargıtay bu yüzden ölçütü dar tutar, öznel değerlendirmeyi reddeder ve bilirkişi incelemesiyle denetlenebilir bir gerekçe arar.\n\n### Ceza koşulu ile götürü tazminatın ayrımı\nÖğretide götürü tazminatın zarara bağlı olduğu, hiç zarar doğmadığı ispatlanırsa ödenmeyeceği kabul edilir. Ceza koşulunda ise zarar şartı yoktur. Hâkimin indirim yetkisinin götürü tazminata kıyasen uygulanıp uygulanmayacağı tartışmalıdır. Kaydın adı tek başına belirleyici değildir. Yargıtay da iş sözleşmelerinde, kanundaki tazminatı yalnız tekrarlayan kaydı ceza koşulu saymamaktadır.\n\n### Bağlanma parasının akıbeti\nTBK, eski Kanun'daki \"alana kalır\" kuralını bırakıp mahsubu benimsedi. Parayı veren taraf borcunu ifa etmezse Yargıtay, sözleşme sona erdiğinde paranın iadesini ve alanın ispatladığı zararın mahsubunu kabul eder. Taraflar \"kaporanın yanacağını\" ayrıca kararlaştırmışsa kaydın niteliği yorumla belirlenir. Kayıt iki tarafa da çıkış imkânı veriyorsa cayma parası, borca aykırılığın yaptırımıysa ceza koşulu söz konusudur. İkinci ihtimalde ceza koşulu hükümleri, bu arada hâkimin indirim yetkisi de uygulanır.",
+  "glossary": [
+   {
+    "term": "Bağlanma parası (pey akçesi)",
+    "definition": "Sözleşme yapılırken verilen ve sözleşmenin kurulduğuna kanıt sayılan para. Aksine sözleşme veya yerel âdet yoksa esas alacaktan düşülür (TBK m. 177)."
+   },
+   {
+    "term": "Cayma parası",
+    "definition": "Kararlaştırıldığında iki tarafa da cayma yetkisi veren peşin para. Veren cayarsa bırakır, alan cayarsa iki katını geri verir (TBK m. 178)."
+   },
+   {
+    "term": "Ceza koşulu (cezai şart)",
+    "definition": "Borcun hiç ya da gereği gibi ifa edilmemesi hâlinde alacaklıya ödenmesi önceden taahhüt edilen fer'i edim (TBK m. 179-182)."
+   },
+   {
+    "term": "Seçimlik ceza",
+    "definition": "Alacaklının ya asıl borcun ya cezanın ifasını isteyebildiği ceza koşulu türü (TBK m. 179/1)."
+   },
+   {
+    "term": "İfaya eklenen ceza",
+    "definition": "Borcun belirlenen zaman veya yerde ifa edilmemesi için kararlaştırılan, asıl borçla birlikte istenebilen ceza (TBK m. 179/2). Gecikme cezası da denir."
+   },
+   {
+    "term": "Dönme (fesih) cezası",
+    "definition": "Borçlunun ödeyerek sözleşmeyi sona erdirebildiği ceza. Borçlu bu yetkisini ispat etmek zorundadır (TBK m. 179/3)."
+   },
+   {
+    "term": "Çekince (ihtirazi kayıt)",
+    "definition": "Gecikmiş ifayı kabul eden alacaklının ceza hakkını saklı tuttuğunu ifa anında açıkça bildirmesi. Yapılmazsa ifaya eklenen ceza istenemez."
+   },
+   {
+    "term": "Kısmi ifanın yanması",
+    "definition": "Dönme hâlinde ödenmiş kısmın alacaklıda kalacağını öngören kayıt. Ceza koşulu hükümlerine tabidir (TBK m. 181)."
+   },
+   {
+    "term": "Fer'ilik",
+    "definition": "Ceza koşulunun ve cayma parasının geçerli bir asıl borca bağlı olması. Asıl borç geçersizse bunlar da istenemez."
+   },
+   {
+    "term": "Cezanın indirilmesi",
+    "definition": "Hâkimin aşırı gördüğü ceza koşulunu kendiliğinden azaltması (TBK m. 182/3). Tacir borçlu bu indirimi isteyemez (TTK m. 22)."
+   },
+   {
+    "term": "Ekonomik yıkım (iktisadi mahv)",
+    "definition": "Cezanın tacir borçlunun ticari faaliyetini sürdüremeyecek hâle gelmesine yol açacak ağırlıkta olması. Yargıtay'a göre ahlaka aykırılık sebebidir."
+   },
+   {
+    "term": "Götürü tazminat",
+    "definition": "Tarafların olası zararı önceden bir tutar olarak belirlemesi. Öğretide ceza koşulundan farkı zarara bağlı olmasıdır."
+   },
+   {
+    "term": "Güvence (depozito)",
+    "definition": "Alacakları teminat altına almak için verilen ve sözleşme sonunda borçlar düşüldükten sonra iade edilen değer."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "177",
+   "official_text": "MADDE 177- Sözleşme yapılırken bir kimsenin vermiş olduğu bir miktar para, cayma parası olarak değil sözleşmenin yapıldığına kanıt olarak verilmiş sayılır.\nAksine sözleşme veya yerel âdet olmadıkça, bağlanma parası esas alacaktan düşülür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "178",
+   "official_text": "MADDE 178- Cayma parası kararlaştırılmışsa, taraflardan her biri sözleşmeden caymaya yetkili sayılır; bu durumda parayı vermiş olan cayarsa verdiğini bırakır; almış olan cayarsa aldığının iki katını geri verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "179",
+   "official_text": "MADDE 179- Bir sözleşmenin hiç veya gereği gibi ifa edilmemesi durumu için bir ceza kararlaştırılmışsa, aksi sözleşmeden anlaşılmadıkça alacaklı, ya borcun ya da cezanın ifasını isteyebilir.\nCeza, borcun belirlenen zaman veya yerde ifa edilmemesi durumu için kararlaştırılmışsa alacaklı, hakkından açıkça feragat etmiş veya ifayı çekincesiz olarak kabul etmiş olmadıkça, asıl borçla birlikte cezanın ifasını da isteyebilir.\nBorçlunun, kararlaştırılan cezayı ifa ederek sözleşmeyi, dönme veya fesih suretiyle sona erdirmeye yetkili olduğunu ispat etme hakkı saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "180",
+   "official_text": "MADDE 180- Alacaklı hiçbir zarara uğramamış olsa bile, kararlaştırılan cezanın ifası gerekir.\nAlacaklının uğradığı zarar kararlaştırılan ceza tutarını aşıyorsa alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "181",
+   "official_text": "MADDE 181- Ceza koşuluna ilişkin hükümler, dönme durumunda ifa edilmiş olan kısmın alacaklıya kalacağını öngören sözleşmelere de uygulanır.\nTaksitle satışa ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "182",
+   "official_text": "MADDE 182- Taraflar, cezanın miktarını serbestçe belirleyebilirler.\nAsıl borç herhangi bir sebeple geçersiz ise veya aksi kararlaştırılmadıkça sonradan borçlunun sorumlu tutulamayacağı bir sebeple imkânsız hâle gelmişse, cezanın ifası istenemez. Ceza koşulunun geçersiz olması veya borçlunun sorumlu tutulamayacağı bir sebeple sonradan imkânsız hâle gelmesi, asıl borcun geçerliliğini etkilemez.\nHâkim, aşırı gördüğü ceza koşulunu kendiliğinden indirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "26",
+   "official_text": "MADDE 26- Taraflar, bir sözleşmenin içeriğini kanunda öngörülen sınırlar içinde özgürce belirleyebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "27",
+   "official_text": "MADDE 27- Kanunun emredici hükümlerine, ahlaka, kamu düzenine, kişilik haklarına aykırı veya konusu imkânsız olan sözleşmeler kesin olarak hükümsüzdür.\nSözleşmenin içerdiği hükümlerden bir kısmının hükümsüz olması, diğerlerinin geçerliliğini etkilemez. Ancak, bu hükümler olmaksızın sözleşmenin yapılmayacağı açıkça anlaşılırsa, sözleşmenin tamamı kesin olarak hükümsüz olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "77",
+   "official_text": "MADDE 77- Haklı bir sebep olmaksızın, bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür.\nBu yükümlülük, özellikle zenginleşmenin geçerli olmayan veya gerçekleşmemiş ya da sona ermiş bir sebebe dayanması durumunda doğmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "121",
+   "official_text": "MADDE 121- Faiz veya irat borcunu ya da bağışladığı bir miktar parayı ödemekte temerrüde düşen borçlu, icra takibine girişildiği veya dava açıldığı günden başlayarak, temerrüt faizi ödemekle yükümlüdür.\nBuna aykırı olarak yapılan anlaşmalar, ceza koşulu hükümlerine tabi olur.\nTemerrüt faizine, ayrıca temerrüt faizi yürütülemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "136",
+   "official_text": "I. Genel olarak\nMADDE 136- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle imkânsızlaşırsa, borç sona erer.\nKarşılıklı borç yükleyen sözleşmelerde imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlü olup, henüz kendisine ifa edilmemiş olan edimi isteme hakkını kaybeder. Kanun veya sözleşmeyle borcun ifasından önce doğan hasarın alacaklıya yükletilmiş olduğu durumlar, bu hükmün dışındadır.\nBorçlu ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmez ve zararın artmaması için gerekli önlemleri almazsa, bundan doğan zararları gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "259",
+   "official_text": "MADDE 259- Alıcı peşinatı ödemede temerrüde düşerse satıcı, sadece peşinatı isteyebilir veya sözleşmeden dönebilir.\nAlıcı taksitleri ödemede temerrüde düşerse satıcı, muaccel olmuş taksitlerin veya geri kalan satış bedelinin tamamının bir defada ödenmesini isteyebilir ya da sözleşmeden dönebilir. Satıcının geri kalan satış bedelinin tamamını isteyebilmesi veya sözleşmeden dönebilmesi, ancak bu hakkı açık biçimde saklı tutmuş olmasına ve alıcının kararlaştırılan satış bedelinin en az onda birini oluşturan ve birbirini izleyen en az iki taksidi veya en az dörtte birini oluşturan bir taksidi ya da en son taksidi ödemede temerrüde düşmüş olmasına bağlıdır. Ancak, satıcının dönme dolayısıyla isteyebileceği miktar, ödenmiş olan taksitler tutarına eşit veya daha fazla ise satıcı sözleşmeden dönemez.\nSatıcı, satış bedelinin geri kalan kısmının tamamen ödenmesini isteme veya sözleşmeden dönme haklarını kullanmadan önce, alıcıya en az onbeş günlük bir süre tanımak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "260",
+   "official_text": "MADDE 260- Satıcı, alıcının taksitleri ödemede temerrüde düşmesi sebebiyle satılanın alıcıya devrinden sonra sözleşmeden dönerse, her iki taraf aldığını geri vermekle yükümlüdür. Satıcı, ayrıca hakkaniyete uygun bir kullanım bedeli ve satılanın olağandışı kullanılması sebebiyle değerinin azalması hâlinde tazminat da isteyebilir. Ancak satıcı, sözleşme zamanında ifa edilmiş olsaydı elde edecek olduğundan fazlasını isteyemez.\nSatıcı, alıcının peşinatı ödemede temerrüde düşmesi yüzünden satılanın devrinden önce sözleşmeden dönerse, alıcıdan sadece ödenmeyen peşinat üzerinden, sözleşmeden döndüğü tarihe kadar işleyecek yasal faiz ile sözleşmenin kurulmasından sonra, satılanın uğramış olduğu değer kaybı sebebiyle tazminat isteyebilir. Ceza koşulu kararlaştırılmışsa, peşin satış bedelinin yüzde onunu aşamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "342",
+   "official_text": "MADDE 342- Konut ve çatılı işyeri kiralarında sözleşmeyle kiracıya güvence verme borcu getirilmişse, bu güvence üç aylık kira bedelini aşamaz.\nGüvence olarak para veya kıymetli evrak verilmesi kararlaştırılmışsa kiracı, kiraya verenin onayı olmaksızın çekilmemek üzere, parayı vadeli bir tasarruf hesabına yatırır, kıymetli evrakı ise bir bankaya depo eder. Banka, güvenceleri ancak iki tarafın rızasıyla veya icra takibinin kesinleşmesiyle ya da kesinleşmiş mahkeme kararına dayanarak geri verebilir.\nKiraya veren, kira sözleşmesinin sona ermesini izleyen üç ay içinde kiracıya karşı kira sözleşmesiyle ilgili bir dava açtığını veya icra ya da iflas yoluyla takibe giriştiğini bankaya yazılı olarak bildirmemişse banka, kiracının istemi üzerine güvenceyi geri vermekle yükümlüdür.\n[2] Bu madde 1/7/2012 tarihinden itibaren 8 yıl süreyle uygulanmaz. Bu halde, kira sözleşmelerinde bu maddelerde belirtilmiş olan konulara ilişkin olarak sözleşme serbestisi gereği kira sözleşmesi hükümleri tatbik olunur. Kira sözleşmelerinde hüküm olmayan hallerde mülga Borçlar Kanunu hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "346",
+   "official_text": "MADDE 346- Kiracıya, kira bedeli ve yan giderler dışında başka bir ödeme yükümlülüğü getirilemez. Özellikle, kira bedelinin zamanında ödenmemesi hâlinde ceza koşulu ödeneceğine veya sonraki kira bedellerinin muaccel olacağına ilişkin anlaşmalar geçersizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "420",
+   "official_text": "MADDE 420- Hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir.\nİşçinin işverenden alacağına ilişkin ibra sözleşmesinin yazılı olması, ibra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak en az bir aylık sürenin geçmiş bulunması, ibra konusu alacağın türünün ve miktarının açıkça belirtilmesi, ödemenin hak tutarına nazaran noksansız ve banka aracılığıyla yapılması şarttır. Bu unsurları taşımayan ibra sözleşmeleri veya ibraname kesin olarak hükümsüzdür.\nHakkın gerçek tutarda ödendiğini ihtiva etmeyen ibra sözleşmeleri veya ibra beyanını muhtevi diğer ödeme belgeleri, içerdikleri miktarla sınırlı olarak makbuz hükmündedir. Bu hâlde dahi, ödemelerin banka aracılığıyla yapılmış olması zorunludur.\nİkinci ve üçüncü fıkra hükümleri, destekten yoksun kalanlar ile işçinin diğer yakınlarının isteyebilecekleri dâhil, hizmet sözleşmesinden doğan bütün tazminat alacaklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "438",
+   "official_text": "MADDE 438- İşveren, haklı sebep olmaksızın hizmet sözleşmesini derhâl feshederse işçi, belirsiz süreli sözleşmelerde, fesih bildirim süresine; belirli süreli sözleşmelerde ise, sözleşme süresine uyulmaması durumunda, bu sürelere uyulmuş olsaydı kazanabileceği miktarı, tazminat olarak isteyebilir.\nBelirli süreli hizmet sözleşmesinde işçinin hizmet sözleşmesinin sona ermesi yüzünden tasarruf ettiği miktar ile başka bir işten elde ettiği veya bilerek elde etmekten kaçındığı gelir, tazminattan indirilir.\nHâkim, bütün durum ve koşulları göz önünde tutarak, ayrıca miktarını serbestçe belirleyeceği bir tazminatın işçiye ödenmesine karar verebilir; ancak belirlenecek tazminat miktarı, işçinin altı aylık ücretinden fazla olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "446",
+   "official_text": "MADDE 446- Rekabet yasağına aykırı davranan işçi, bunun sonucu olarak işverenin uğradığı bütün zararları gidermekle yükümlüdür.\nYasağa aykırı davranış bir ceza koşuluna bağlanmışsa ve sözleşmede aksine bir hüküm de yoksa, işçi öngörülen miktarı ödeyerek rekabet yasağına ilişkin borcundan kurtulabilir; ancak, işçi bu miktarı aşan zararı gidermek zorundadır.\nİşveren, ceza koşulu ve doğabilecek ek zararlarının ödenmesi dışında, sözleşmede yazılı olarak açıkça saklı tutması koşuluyla, kendisinin ihlal veya tehdit edilen menfaatlerinin önemi ile işçinin davranışı haklı gösteriyorsa, yasağa aykırı davranışa son verilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "525",
+   "official_text": "MADDE 525- Sözleşmede aşırı bir ücret kararlaştırılmışsa, borçlunun istemi üzerine, bu ücret hâkim tarafından hakkaniyete uygun olarak indirilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "15",
+   "official_text": "4. Esnaf\nMADDE 15- (1) İster gezici olsun ister bir dükkânda veya bir sokağın belirli yerlerinde sabit bulunsun, ekonomik faaliyeti sermayesinden fazla bedenî çalışmasına dayanan ve geliri 11 inci maddenin ikinci fıkrası uyarınca çıkarılacak kararnamede gösterilen sınırı aşmayan ve sanat veya ticaretle uğraşan kişi esnaftır. Ancak, tacirlere özgü 20 ve 53 üncü maddeler ile Türk Medenî Kanununun 950 nci maddesinin ikinci fıkrası hükmü bunlara da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "16",
+   "official_text": "II - Tüzel kişiler\nMADDE 16- (1) Ticaret şirketleriyle, amacına varmak için ticari bir işletme işleten vakıflar, dernekler ve kendi kuruluş kanunları gereğince özel hukuk hükümlerine göre yönetilmek veya ticari şekilde işletilmek üzere Devlet, il özel idaresi, belediye ve köy ile diğer kamu tüzel kişileri tarafından kurulan kurum ve kuruluşlar da tacir sayılırlar.\n(2) Devlet, il özel idaresi, belediye ve köy ile diğer kamu tüzel kişileri ile kamu yararına çalışan dernekler ve gelirinin yarısından fazlasını kamu görevi niteliğindeki işlere harcayan vakıflar, bir ticari işletmeyi, ister doğrudan doğruya ister kamu hukuku hükümlerine göre yönetilen ve işletilen bir tüzel kişi eliyle işletsinler, kendileri tacir sayılmazlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "19",
+   "official_text": "1. Ticari iş karinesi\nMADDE 19- (1) Bir tacirin borçlarının ticari olması asıldır. Ancak, gerçek kişi olan bir tacir, işlemi yaptığı anda bunun ticari işletmesiyle ilgili olmadığını diğer tarafa açıkça bildirdiği veya işin ticari sayılmasına durum elverişli olmadığı takdirde borç adi sayılır.\n(2) Taraflardan yalnız biri için ticari iş niteliğinde olan sözleşmeler, Kanunda aksine hüküm bulunmadıkça, diğeri için de ticari iş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "22",
+   "official_text": "4. Ücret ve sözleşme cezasının indirilmesi\nMADDE 22- (1) Tacir sıfatını haiz borçlu, Türk Borçlar Kanununun 121 inci maddesinin ikinci fıkrasıyla 182 nci maddesinin üçüncü fıkrasında ve 525 inci maddesinde yazılı hâllerde, aşırı ücret veya ceza kararlaştırılmış olduğu iddiasıyla ücret veya sözleşme cezasının indirilmesini mahkemeden isteyemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "119",
+   "official_text": "I. Dava hakkının bulunmaması\nMadde 119- Nişanlılık, evlenmeye zorlamak için dava hakkı vermez.\nEvlenmeden kaçınma hâli için öngörülen cayma tazminatı veya ceza şartı dava edilemez; ancak yapılan ödemeler de geri istenemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "48",
+   "official_text": "Mesafeli sözleşmeler\nMADDE 48- (1) Mesafeli sözleşme, satıcı veya sağlayıcı ile tüketicinin eş zamanlı fiziksel varlığı olmaksızın, mal veya hizmetlerin uzaktan pazarlanmasına yönelik olarak oluşturulmuş bir sistem çerçevesinde, taraflar arasında sözleşmenin kurulduğu ana kadar ve kurulduğu an da dâhil olmak üzere uzaktan iletişim araçlarının kullanılması suretiyle kurulan sözleşmelerdir.\n(2) Tüketici, mesafeli sözleşmeyi ya da buna karşılık gelen herhangi bir teklifi kabul etmeden önce ayrıntıları yönetmelikte belirlenen hususlarda ve siparişi onaylandığı takdirde ödeme yükümlülüğü altına gireceği konusunda açık ve anlaşılır şekilde satıcı veya sağlayıcı tarafından bilgilendirilir. Tüketicinin bilgilendirildiğine ilişkin ispat yükü satıcı veya sağlayıcıya aittir.\n(3) Satıcı veya sağlayıcı, tüketicinin siparişinin kendisine ulaştığı andan itibaren taahhüt edilen süre içinde edimini yerine getirir. (Değişik cümle:24/3/2022-7392/7 md.) Tüketicinin isteği veya kişisel ihtiyaçları doğrultusunda hazırlanan mallara ilişkin sözleşmeler haricinde mal satışlarında bu süre her hâlükârda otuz günü geçemez. Satıcı veya sağlayıcının bu süre içinde edimini yerine getirmemesi durumunda tüketici sözleşmeyi feshedebilir.\n(4) Tüketici, on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir. Cayma hakkının kullanıldığına dair bildirimin bu süre içinde satıcı veya sağlayıcıya yöneltilmiş olması yeterlidir. Satıcı veya sağlayıcı, cayma hakkı konusunda tüketicinin bilgilendirildiğini ispat etmekle yükümlüdür. Tüketici, cayma hakkı konusunda gerektiği şekilde bilgilendirilmezse, cayma hakkını kullanmak için on dört günlük süreyle bağlı değildir. Her hâlükârda bu süre cayma süresinin bittiği tarihten itibaren bir yıl sonra sona erer. Tüketici, cayma hakkı süresi içinde malın mutat kullanımı sebebiyle meydana gelen değişiklik ve bozulmalardan sorumlu değildir.\n(5) (Değişik:24/3/2022-7392/7 md.) Oluşturdukları sistem ile satıcı veya sağlayıcı adına mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcılar, sistem aracılığıyla kurulan mesafeli sözleşmelerden doğan hak ve yükümlülüklerin kullanım süresi boyunca tüketicilerin yönetmelikle belirlenen hususlara ilişkin talep ve bildirimlerini iletebilmelerine ve takip edebilmelerine elverişli bir sistemi kurmak ve kesintisiz olarak açık tutmakla yükümlüdür.\n(6) (Ek:24/3/2022-7392/7 md.) Aracı hizmet sağlayıcısı olarak faaliyet gösterenler aracılık ettikleri mesafeli sözleşmelere ilişkin olarak;[13]\na) Tüketiciye ön bilgilendirmenin yapılmasından, teyidinden ve ispatından satıcı veya sağlayıcı ile birlikte müteselsilen,\nb) Veri girişinin satıcı veya sağlayıcı tarafından yapıldığı durumlar hariç olmak üzere, yönetmelikle belirlenen ön bilgilendirmede bulunması zorunlu hususlardaki eksikliklerden,\nc) Bu maddede yer alan hususlardan dolayı tüketicilerin satıcı veya sağlayıcılar ile yaptıkları işlemlere ilişkin kayıtların tutulmasından ve istenilmesi hâlinde bu bilgilerin ilgili kamu kurum ve kuruluşları ile tüketicilere verilmesinden,\nç) Satıcı veya sağlayıcı ile yaptıkları aracılık hizmetine ilişkin sözleşmeye aykırı uygulamaları nedeniyle satıcı ve sağlayıcıların bu madde hükümlerine aykırı davranmasına sebep oldukları her bir işlemden,\nd) Satıcı veya sağlayıcı adına bedel tahsil etmesi hâlinde, mal veya hizmetin tüketiciye teslim veya ifası sonrası bedelin satıcıya veya sağlayıcıya aktarıldığı durumlar ile 11 inci ve 15 inci maddelerde yer alan hakların kullanımı hariç olmak üzere teslim veya ifa ile cayma hakkına ilişkin yükümlülüklerden satıcı veya sağlayıcı ile birlikte müteselsilen,[14]\ne) Satıcı veya sağlayıcı onayı olmaksızın düzenledikleri kampanyalı, promosyonlu veya indirimli satışlarda, sözleşmenin hiç ya da gereği gibi ifa edilmemesinden,\nf) Ön bilgilendirmede yer alan hususlar ile reklamlarında yer alan bilgilerin uyumlu olmasından ve ispatından,\nsorumludur.\n(7) Mesafeli sözleşmelerde, kapsam dışı sözleşmeler, tüketici, satıcı ve sağlayıcı ile mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcının hak ve yükümlülükleri, cayma hakkı, bilgilendirme yükümlülüğü, teslimat ile diğer uygulama usul ve esasları yönetmelikle belirlenir.13\n[13] 24/3/2022 tarihli ve 7392 sayılı Kanunun 7 nci maddesiyle bu maddeye beşinci fıkradan sonra gelmek üzere fıkra eklenmiş, mevcut altıncı fıkra yedinci fıkra olarak teselsül ettirilmiş, mevcut altıncı fıkrada yer alan “tüketici ile satıcı ve sağlayıcının” ibaresi “tüketici, satıcı ve sağlayıcı ile mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcının” şeklinde değiştirilmiştir.\n[14] Anayasa Mahkemesinin 12/2/2026 tarihli ve E.: 2024/187, K.: 2026/42 sayılı Kararı ile bu bentte yer alan “…ile 11 inci…” ibaresi iptal edilmiştir. Kararın Resmî Gazete’de yayımlanmasından başlayarak dokuz ay sonra (2/3/2027) yürürlüğe gireceği hüküm altına alınmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2020/551",
+   "karar_no": "2022/1147",
+   "decision_date": "22.09.2022",
+   "summary_md": "Alıcı, tapulu bir taşınmazı almak için satıcıyla noter ya da tapu dışında \"cayma akçesinin verilmesine dair akit\" başlıklı bir sözleşme yapmış ve 25.000 TL ödemiştir. Sözleşmeye göre satıcı vazgeçerse aldığının iki katını ödeyecektir. Satıcı satıştan vazgeçmiş ve 25.000 TL'yi senetle iade etmiştir. Alıcı, 50.000 TL için başlattığı takibe itirazın iptalini istemiştir. Asliye hukuk mahkemesi davayı kabul etmiş, Yargıtay 3. Hukuk Dairesi şekle aykırı sözleşmede ceza istenemeyeceği gerekçesiyle bozmuş, mahkeme kaydın bağlanma parası olduğunu belirterek direnmiştir. Hukuk Genel Kurulu, direnme kararını oy birliğiyle ve değişik gerekçeyle bozmuştur. Kurula göre kayıt bağlanma parası değil cayma parasıdır. Ancak resmî şekle uyulmadığı için sözleşme geçersizdir ve fer'i nitelikteki cayma parası kaydına dayanılamaz. Taraflar yalnız sebepsiz zenginleşme hükümlerine göre aldıklarını geri verir. Konuya katkısı: bağlanma parası, cayma parası ve ceza koşulu ayrımını ve fer'iliğin sonucunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/828836200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/2245",
+   "karar_no": "2021/880",
+   "decision_date": "29.06.2021",
+   "summary_md": "Davacı, satıcıdan iki daire satın almıştır. Sözleşmelerde teslim tarihi 01.01.2013 olarak belirlenmiş, gecikilen her ay için satıcının daire bedelinin %1'i tutarında ceza ödeyeceği kararlaştırılmıştır. Daireler 04.03.2013'te tapuda devredilmiş, davacı iki aylık gecikme cezası için takip başlatmıştır. Tüketici mahkemesi, cezanın ifaya eklenen ceza olduğunu ve davacının teslimi çekince koymadan kabul ettiğini belirterek davayı reddetmiştir. Yargıtay 13. Hukuk Dairesi bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını onamıştır. Gerekçeye göre ifaya eklenen ceza, gecikmiş ifa çekincesiz kabul edilirse istenemez. Çekince ifa anında açıkça yapılmalıdır: teslim tutanağına not, ifadan önce yazılı bildirim ya da bedelden ceza tutarının kesilmesi yeterlidir. Sözleşmede çekince aranmayacağı kararlaştırılmışsa ya da hak önceden ihtarla saklı tutulmuşsa ceza hakkı düşmez. Çekincesiz kabul hâkim tarafından kendiliğinden dikkate alınır. Konuya katkısı: TBK m. 179/2'deki çekince şartının nasıl uygulandığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/686553100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/922",
+   "karar_no": "2019/706",
+   "decision_date": "18.06.2019",
+   "summary_md": "LPG dağıtım şirketi ile bir istasyon işleteni arasında beş yıllık otogaz bayilik sözleşmesi yapılmış, bayi sözleşmeyi süresinden önce feshetmiştir. Dağıtıcı ceza, kâr kaybı ve emtia bedeli istemiş, ceza talebini ıslahla 15.000 USD'ye çıkarmıştır. Ticaret mahkemesi feshi haksız bulmuş, ama cezanın bayinin ekonomik yıkımına yol açacağını belirterek 5.000 USD'ye hükmetmiştir. Yargıtay 19. Hukuk Dairesi, başka bir eksikliğin yanında, indirimin dayanağının yeterince araştırılmadığı ve gerekçelendirilmediği için bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını bozmuştur. Olaya eski Borçlar Kanunu ile eski Ticaret Kanunu'nun 24. maddesi uygulanmıştır. Bu madde, bugünkü TTK m. 22 ile aynı yöndedir. Kurula göre tacir borçlu cezanın aşırı olduğu iddiasıyla indirim isteyemez. Ancak ceza tacirin ekonomik mahvına yol açacak derecede ağırsa ahlaka aykırıdır ve kısmen ya da tamamen iptal edilebilir. Bu değerlendirme öznel olamaz: cezanın kararlaştırıldığı tarihteki ekonomik durum, ödeme gücü ve fesihteki kusur defter ve kayıtlar üzerinden bilirkişiyle araştırılmalı, karar denetlenebilir biçimde gerekçelendirilmelidir. Konuya katkısı: tacir borçlunun indirim yasağını ve ekonomik yıkım istisnasının sınırlarını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/520441400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "9. Hukuk Dairesi",
+   "esas_no": "2015/28748",
+   "karar_no": "2019/2083",
+   "decision_date": "23.01.2019",
+   "summary_md": "Bir okul, anaokulu öğretmeniyle 01.09.2012-31.08.2013 dönemi için belirli süreli iş sözleşmesi yapmıştır. Sözleşmeye göre haklı bir neden olmadan sözleşmeyi fesheden taraf, kalan süre kadar ücreti ödeyecektir. Öğretmen KPSS sonucunda kamuya atanmış ve 10.09.2012'de işten ayrılmıştır. İşveren ceza istemiş, iş mahkemesi kaydın iki taraflı ve eşit olduğunu, hakkaniyet indirimi yapılamayacağını belirterek davayı kabul etmiştir. İşçinin temyizi üzerine Yargıtay 9. Hukuk Dairesi kararı oy birliğiyle bozmuştur. Gerekçeye göre hizmet sözleşmesine yalnız işçi aleyhine konan ceza geçersizdir. İki taraflı cezada işçinin cezası işverenin cezasını aşamaz. Ceza geçerli olsa da hâkim TBK m. 182'nin son fıkrasını uygulamalı, işçinin ekonomik mahvına yol açmayacak bir çözüm bulmalı ve çalışılan ile çalışılması gereken süreyi oranlamalıdır. Somut olayda on günlük çalışma, on iki aylık süre ve memuriyete geçiş sebebi gözetilerek daha yüksek oranda indirim yapılmalıdır. Konuya katkısı: iş hukukunda karşılıklılık ve orantılılık yaklaşımını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/484382600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 177'ye göre sözleşme yapılırken bir tarafın diğerine verdiği bir miktar para, aksi ispatlanmadıkça nasıl nitelendirilir?",
+   "options": [
+    "Borca aykırılık hâlinde alacaklıya kalacak ceza koşulu",
+    "Taraflara cayma yetkisi veren cayma parası",
+    "Sözleşme sonunda iade edilecek güvence",
+    "Sözleşmenin yapıldığına kanıt olarak verilmiş bağlanma parası"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 177/1'e göre sözleşme yapılırken verilen para, cayma parası olarak değil sözleşmenin yapıldığına kanıt olarak verilmiş sayılır. Bu bir karinedir. Paranın cayma parası ya da başka bir nitelikte olduğunu iddia eden taraf bunu ispatlamalıdır."
+  },
+  {
+   "stem_md": "Aksine sözleşme veya yerel âdet yoksa bağlanma parası hakkında hangisi doğrudur?",
+   "options": [
+    "Alan taraf, parayı iki katıyla geri vermedikçe sözleşmeden kurtulamaz.",
+    "Esas alacaktan düşülür.",
+    "Esas alacaktan düşülmeden alan tarafa kalır.",
+    "Sözleşme ifa edilince parayı verene iade edilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 177/2'ye göre aksine sözleşme veya yerel âdet olmadıkça bağlanma parası esas alacaktan düşülür. Paranın alacaktan düşülmeden alana kalması eski Borçlar Kanunu'nun kuralıydı. TBK bu kuralı bırakmıştır."
+  },
+  {
+   "stem_md": "Ayşe, Burak'tan bir tekne almak üzere anlaşmış ve sözleşmede cayma parası olduğu açıkça yazılan 40.000 TL'yi Burak'a vermiştir. Burak sözleşmeden caymaktadır. Burak Ayşe'ye ne ödemelidir?",
+   "options": [
+    "40.000 TL'yi iade eder ve ayrıca iki katı ceza olarak 80.000 TL öder.",
+    "Cayma hakkı yalnız parayı verene ait olduğu için Burak cayamaz, tekneyi teslim etmek zorundadır.",
+    "Aldığının iki katı olan 80.000 TL'yi geri verir.",
+    "Yalnız aldığı 40.000 TL'yi iade eder."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 178'e göre cayma parası kararlaştırılmışsa taraflardan her biri caymaya yetkilidir. Parayı almış olan cayarsa aldığının iki katını geri verir. Burak 80.000 TL öder; bunun 40.000 TL'si iade, 40.000 TL'si cayma bedelidir. Ayrıca iki kat ceza ödemez."
+  },
+  {
+   "stem_md": "Cayma parası kararlaştırılan bir sözleşmede parayı **veren** taraf sözleşmeden cayarsa ne olur?",
+   "options": [
+    "Verdiği parayı bırakır.",
+    "Parayı geri alır, ama karşı tarafın zararını tazmin eder.",
+    "Verdiği paranın iki katını öder.",
+    "Cayma için karşı tarafın borca aykırı davranmış olması gerekir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 178'e göre parayı vermiş olan cayarsa verdiğini bırakır. İki kat kuralı yalnız parayı alan tarafın caymasında uygulanır. Cayma bir hakkın kullanılmasıdır, karşı tarafın borca aykırılığı aranmaz."
+  },
+  {
+   "stem_md": "Mert, Nihat'a ait tapulu bir dükkânı satın almak için bir emlak ofisinde yazılı ama resmî şekle uyulmamış bir sözleşme imzalamış ve 150.000 TL \"cayma akçesi\" vermiştir. Satıcı vazgeçerse iki katını ödeyecektir. Nihat vazgeçmiştir. Mert'in hakkı nedir?",
+   "options": [
+    "Hiçbir şey isteyemez, çünkü geçersiz sözleşmeye bilerek giren taraf verdiğini geri alamaz.",
+    "Dükkânın kendi adına tescilini isteyebilir.",
+    "300.000 TL'yi isteyebilir, çünkü cayma parası kaydı sözleşmeden bağımsızdır.",
+    "Verdiği 150.000 TL'yi sebepsiz zenginleşme hükümlerine göre geri isteyebilir. Satış vaadi resmî şekilde yapılmadığından geçersizdir ve fer'i cayma parası kaydına dayanılamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Taşınmaz satışı ve satış vaadi resmî şekilde düzenlenmedikçe geçerli olmaz (TBK m. 237, TMK m. 706). Cayma parası asıl sözleşmeye bağlı fer'i bir kayıttır, bu yüzden ona da dayanılamaz. Geçersiz bir sebebe dayanan zenginleşme geri verilir (TBK m. 77). Mert 150.000 TL'yi geri ister."
+  },
+  {
+   "stem_md": "Bir sözleşmenin hiç veya gereği gibi ifa edilmemesi için ceza kararlaştırılmış, sözleşmede başka bir açıklık yoktur. Alacaklının hakkı nedir?",
+   "options": [
+    "Hem borcun hem cezanın ifasını birlikte isteyebilir.",
+    "Ya borcun ya da cezanın ifasını isteyebilir.",
+    "Önce zararını ispatlamadıkça cezayı isteyemez.",
+    "Yalnız cezayı isteyebilir, ifa talebi düşmüştür."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 179/1'e göre bu durumda, aksi sözleşmeden anlaşılmadıkça alacaklı ya borcun ya da cezanın ifasını isteyebilir. İkisini birlikte isteme imkânı, zaman veya yer için kararlaştırılan cezaya (TBK m. 179/2) özgüdür. Zarar ispatı da gerekmez (TBK m. 180/1)."
+  },
+  {
+   "stem_md": "Yüklenici, deponun inşaatını 1 Mart'ta teslim edecek, gecikilen her gün için 5.000 TL ödeyecektir. Depo 20 gün geç teslim edilmiş, iş sahibi Elif teslim tutanağını hiçbir not düşmeden imzalamıştır. Elif iki ay sonra 100.000 TL gecikme cezası istemektedir. Sözleşmede çekinceye ilişkin bir hüküm yoktur ve Elif teslimden önce de bir bildirim yapmamıştır. Hangisi doğrudur?",
+   "options": [
+    "Ceza istenemez, çünkü gecikmiş ifa çekincesiz kabul edilmiştir.",
+    "Ceza istenebilir, çünkü ifaya eklenen ceza zamanaşımı dolana kadar her zaman istenir.",
+    "Ceza istenebilir, ama yalnız Elif zararını ispatlarsa.",
+    "Ceza istenemez, çünkü gecikme cezası yalnız para borçlarında kararlaştırılabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Zaman için kararlaştırılan ceza ifaya eklenen cezadır. Alacaklı ifayı çekincesiz kabul etmişse ceza istenemez (TBK m. 179/2). Yargıtay'a göre çekince ifa anında açıkça yapılmalıdır. Sonradan yapılan istem, kaybedilmiş hakkı geri getirmez."
+  },
+  {
+   "stem_md": "Yargıtay'ın yerleşik uygulamasına göre ifaya eklenen cezada **çekince** hakkında hangisi doğrudur?",
+   "options": [
+    "Çekince yalnız sözleşmede ayrıca öngörülmüşse gerekir, aksi hâlde hiç aranmaz.",
+    "Çekince yalnız noter ihtarnamesiyle yapılabilir.",
+    "Çekince ifa anında açıkça yapılmalıdır. Teslim tutanağına not, ifadan önce yazılı bildirim ya da bedelden ceza tutarının kesilmesi yeterlidir.",
+    "Çekince, dava açılıncaya kadar her zaman yapılabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hukuk Genel Kurulu, çekincenin ifa anında açıkça yapılması gerektiğini, bunun tutanağa not, ifadan önce yazılı bildirim ya da bedelden kesme gibi yollarla gerçekleşebileceğini belirtir. Kanunun kuralı çekincesiz kabulde cezanın düşmesidir (TBK m. 179/2). Çekinceyi gereksiz kılmak için sözleşmede bunun ayrıca kararlaştırılması gerekir."
+  },
+  {
+   "stem_md": "Bir sözleşmede \"Borçlu 200.000 TL ödeyerek sözleşmeden dönebilir\" anlamına gelebilecek belirsiz bir kayıt vardır. Borçlu cezayı ödeyip sözleşmeden kurtulmak istemektedir. İspat yükü kimdedir?",
+   "options": [
+    "Alacaklı, kaydın dönme cezası olmadığını ispat eder.",
+    "Borçlu, cezayı ödeyerek sözleşmeyi sona erdirmeye yetkili olduğunu ispat eder.",
+    "İspat yükü yoktur, belirsiz kayıt her zaman borçlu lehine dönme cezası sayılır.",
+    "Hâkim kendiliğinden araştırır, taraflara ispat yükü düşmez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 179/3, borçlunun kararlaştırılan cezayı ifa ederek sözleşmeyi dönme veya fesih yoluyla sona erdirmeye yetkili olduğunu ispat etme hakkını saklı tutar. Yani dönme cezası karine değildir, ispat yükü borçludadır. İspatlayamazsa kayıt seçimlik ya da ifaya eklenen ceza olarak değerlendirilir."
+  },
+  {
+   "stem_md": "Alacaklı, borçlunun sözleşmeye aykırılığı yüzünden hiçbir zarara uğramamıştır. Kararlaştırılan ceza hakkında hangisi doğrudur?",
+   "options": [
+    "Zarar olmadığı için ceza istenemez.",
+    "Alacaklı en azından manevi zararını ispatlamalıdır.",
+    "Ceza, alacaklı hiçbir zarara uğramamış olsa bile istenir.",
+    "Ceza ancak yarısına indirilerek istenebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 180/1'e göre alacaklı hiçbir zarara uğramamış olsa bile kararlaştırılan cezanın ifası gerekir. Ceza koşulu alacaklıyı zararı ispat yükünden kurtarır. Zararın yokluğu ancak hâkimin indirim değerlendirmesinde bir ölçüt olabilir (TBK m. 182/3)."
+  },
+  {
+   "stem_md": "TBK m. 180/2'ye göre alacaklının zararı kararlaştırılan cezayı aşıyorsa, aşan miktar hakkında hangisi doğrudur?",
+   "options": [
+    "Alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez.",
+    "Borçlu kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe aşan miktarı öder.",
+    "Aşan miktar kusur aranmaksızın her zaman istenir.",
+    "Aşan miktar hiçbir durumda istenemez, ceza üst sınırdır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 180/2: \"Alacaklının uğradığı zarar kararlaştırılan ceza tutarını aşıyorsa alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez.\" Borçlunun kusursuzluğunu ispat etmesi gerektiğini söyleyen kural, genel sözleşmeye aykırılık hükmüdür (TBK m. 112). Aşan zarar için kanun ispat yükünü alacaklıya yüklemiştir."
+  },
+  {
+   "stem_md": "Sözleşmede 100.000 TL ceza kararlaştırılmıştır. Alacaklının ispatladığı zarar 160.000 TL'dir ve borçlunun kasten ifa etmediği de ispatlanmıştır. Alacaklı toplam ne kadar alabilir?",
+   "options": [
+    "260.000 TL",
+    "60.000 TL",
+    "100.000 TL",
+    "160.000 TL"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Alacaklı cezayı (100.000 TL) zarar ispatına gerek olmadan alır. Cezayı aşan 60.000 TL'yi ise borçlunun kusurunu ispatladığı için ayrıca alır (TBK m. 180/2). Toplam 160.000 TL'dir. Aşan miktar cezaya eklenen fark kadardır. Ceza ile zararın tamamı toplanmaz."
+  },
+  {
+   "stem_md": "Bir eşya satışında \"alıcı taksitlerden birini ödemezse ve satıcı sözleşmeden dönerse ödenmiş bedeller satıcıda kalır\" kaydı vardır. Bu kayda hangi hükümler uygulanır?",
+   "options": [
+    "Hiçbir sınırlama olmaksızın sözleşme serbestisi gereği aynen uygulanır.",
+    "Bağlanma parası hükümleri uygulanır ve ödenenler alacaktan düşülür.",
+    "Kayıt kesin hükümsüzdür, ödenenler her durumda faiziyle iade edilir.",
+    "Ceza koşuluna ilişkin hükümler uygulanır; taksitle satışa ilişkin özel hükümler saklıdır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 181'e göre ceza koşuluna ilişkin hükümler, dönme durumunda ifa edilmiş kısmın alacaklıya kalacağını öngören sözleşmelere de uygulanır. Bu yüzden hâkim aşırı bulduğu tutarı indirebilir. Taksitle satışa ilişkin hükümler ise saklıdır (TBK m. 259-260)."
+  },
+  {
+   "stem_md": "Asıl borcun ifası, borçlunun sorumlu tutulamayacağı bir sebeple sonradan imkânsız hâle gelmiştir. Sözleşmede bu konuda özel bir kayıt yoktur. Ceza hakkında hangisi doğrudur?",
+   "options": [
+    "Cezanın ifası istenemez.",
+    "Ceza her durumda istenir, çünkü zarar şartı yoktur.",
+    "Cezanın yarısı istenir.",
+    "Ceza istenir, ama hâkim kendiliğinden indirir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 182/2'ye göre asıl borç, aksi kararlaştırılmadıkça sonradan borçlunun sorumlu tutulamayacağı bir sebeple imkânsız hâle gelmişse cezanın ifası istenemez. Taraflar bu durumda da cezanın ödeneceğini kararlaştırabilirdi. Böyle bir kayıt yoksa ceza istenemez."
+  },
+  {
+   "stem_md": "Bir sözleşmedeki ceza koşulu kaydı ahlaka aykırılık sebebiyle geçersizdir. Asıl borç hakkında hangisi doğrudur?",
+   "options": [
+    "Asıl borç da kendiliğinden geçersiz olur.",
+    "Asıl borç, alacaklı isterse geçersiz sayılır.",
+    "Asıl borç eksik borca dönüşür.",
+    "Ceza koşulunun geçersizliği asıl borcun geçerliliğini etkilemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 182/2'nin ikinci cümlesine göre ceza koşulunun geçersiz olması veya borçlunun sorumlu tutulamayacağı bir sebeple sonradan imkânsızlaşması asıl borcun geçerliliğini etkilemez. Fer'ilik tek yönlüdür: asıl borç düşerse ceza düşer, tersi olmaz."
+  },
+  {
+   "stem_md": "Tacir olmayan borçlu, davada cezanın aşırı olduğunu ileri sürmemiş ve indirim talep etmemiştir. Hâkim ne yapmalıdır?",
+   "options": [
+    "Yalnız ayrı bir indirim davası açılırsa indirim yapabilir.",
+    "Aşırılığı kendiliğinden değerlendirmeli, aşırı görürse cezayı indirmelidir.",
+    "Ancak alacaklı kabul ederse indirim yapabilir.",
+    "Talep olmadığı için cezanın tamamına hükmetmelidir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 182/3'e göre hâkim aşırı gördüğü ceza koşulunu kendiliğinden indirir. Yargıtay, tacir olmayan borçlu ileri sürmese bile hâkimin indirim gerekip gerekmediğini incelemesi gerektiğini, bunu yapmadan cezanın tamamına hükmetmenin bozma sebebi olduğunu kabul eder."
+  },
+  {
+   "stem_md": "Akaryakıt dağıtım şirketi ile bayilik sözleşmesi yapan Y Petrol Ltd. Şti., sözleşmeyi haksız feshetmiş ve 2.000.000 TL ceza ödemeye mahkûm edilmek istenmektedir. Y Ltd. Şti. cezanın aşırı olduğunu ileri sürerek indirim istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Y Ltd. Şti. tacir olduğundan aşırılık iddiasıyla indirim isteyemez. Ancak ceza ekonomik yıkımına yol açacak ağırlıktaysa ahlaka aykırılık gerekçesiyle kısmen ya da tamamen iptal edilebilir.",
+    "Tacirler hiçbir şekilde korunmaz, cezanın tamamı ödenir.",
+    "Hâkim, TBK m. 182/3 uyarınca her durumda kendiliğinden indirim yapar.",
+    "Alacaklı da tacir olduğu için indirim mümkündür."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ticaret şirketleri tacirdir (TTK m. 16/1). Tacir borçlu, aşırı ceza iddiasıyla indirimini mahkemeden isteyemez (TTK m. 22). Yargıtay'a göre cezanın tacirin ekonomik mahvına yol açacak derecede ağır olması ahlaka aykırılıktır ve kısmen ya da tamamen iptal mümkündür. Bu, sözleşme tarihindeki ekonomik duruma göre bilirkişiyle objektif biçimde araştırılır."
+  },
+  {
+   "stem_md": "Tacir olan Z Mobilya A.Ş., tacir olmayan Ece'ye mutfak dolabı yapmayı üstlenmiştir. Ece, sözleşmede kararlaştırılan cezayı ödemekle yükümlü hâle gelmiş ve indirim istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Taraflardan biri tacir olduğu için iş ticari sayılır ve indirim yasağı iki taraf için de geçerlidir.",
+    "TTK m. 22 borçlunun tacir olmasına bakar. Ece tacir olmadığından hâkim aşırı cezayı indirebilir.",
+    "Alacaklı tacir olduğu için TTK m. 22 uygulanır, Ece indirim isteyemez.",
+    "Ece ancak ekonomik yıkımını ispatlarsa indirim isteyebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 22'deki yasak \"tacir sıfatını haiz borçlu\" için konmuştur. Borçlu Ece tacir olmadığından TBK m. 182/3 uygulanır ve hâkim aşırı cezayı kendiliğinden indirir. İşin bir taraf için ticari olmasının diğeri için de ticari sayılmasına yol açması (TTK m. 19/2) sonucu değiştirmez, çünkü yasak borçlunun sıfatına bağlıdır. Ekonomik yıkım ölçütü tacir borçlu için geliştirilmiş bir istisnadır."
+  },
+  {
+   "stem_md": "Bir şirket, işçiyle yaptığı iş sözleşmesine \"işçi süresinden önce ayrılırsa altı aylık ücreti tutarında ceza öder\" kaydını koymuş, işveren için hiçbir ceza öngörmemiştir. Bu kayıt hakkında hangisi doğrudur?",
+   "options": [
+    "Geçersizdir, çünkü hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir.",
+    "Geçerlidir, çünkü taraflar cezanın miktarını serbestçe belirler.",
+    "Geçerlidir, ama hâkim aşırı bulursa indirir.",
+    "Yalnız işçi tacirse geçersizdir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 420/1'e göre hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir. Miktar serbestliği (TBK m. 182/1) bu özel hükmü aşamaz. İşçi lehine konulan ya da iki taraflı ceza ise kural olarak geçerlidir."
+  },
+  {
+   "stem_md": "Yargıtay'ın yerleşik uygulamasına göre iş sözleşmesindeki iki taraflı ceza koşulunda işçi aleyhine öngörülen ceza, işveren aleyhine öngörülenden fazlaysa sonuç nedir?",
+   "options": [
+    "Kayıt aynen uygulanır, çünkü karşılıklılık şartı sağlanmıştır.",
+    "Kayıt tümüyle geçersiz olur, iki taraf da ceza isteyemez.",
+    "Yalnız işçinin cezası geçerli kalır, işverenin cezası düşer.",
+    "Kayıt tümden geçersiz olmaz, ama işçinin yükümlülüğü işverenin sorumlu olduğu miktar ve hâlleri aşamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Yargıtay, işçi aleyhine cezanın koşulları ve miktarı bakımından işverenin sorumluluğunu aşamayacağını kabul eder. Eşitsizlik varsa kayıt tümden geçersiz sayılmaz, işçinin yükümlülüğü işverenin sorumlu olduğu ölçüye çekilir. Bu yaklaşım TBK m. 420/1'deki işçiyi koruma amacına dayanır."
+  },
+  {
+   "stem_md": "Zeynep ile Can nişanlanırken, evlenmekten kaçınan tarafın diğerine 500.000 TL ceza ödeyeceğini yazılı olarak kararlaştırmışlardır. Can nişanı bozmuştur. Hangisi doğrudur?",
+   "options": [
+    "Zeynep 500.000 TL'yi dava edebilir, hâkim aşırı bulursa indirir.",
+    "Zeynep yalnız cezanın yarısını dava edebilir.",
+    "Evlenmeden kaçınma hâli için öngörülen ceza şartı dava edilemez. Ancak yapılan ödemeler de geri istenemez.",
+    "Ceza şartı geçerlidir ve indirilemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 119/2'ye göre evlenmeden kaçınma hâli için öngörülen cayma tazminatı veya ceza şartı dava edilemez; ancak yapılan ödemeler de geri istenemez. Bu, ceza koşulu hükümlerine göre özel bir kuraldır. Can ödemeyi kendiliğinden yapmış olsaydı geri isteyemezdi."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Mehmet, 3 Mart 2025'te galeri işleten Zeynep'le ikinci el bir otomobilin 1.200.000 TL bedelle satışında anlaşır. Aynı gün Zeynep'e 60.000 TL öder. Zeynep'in verdiği belgede yalnız \"60.000 TL kapora alınmıştır\" yazmaktadır. Aracın teslimi ve kalan bedelin ödenmesi bir hafta sonra yapılacaktır. İki gün sonra Mehmet, daha ucuz bir araç bulduğunu, \"kaporamı yakıp vazgeçiyorum\" diyerek aracı almayacağını bildirir. Zeynep ise sözleşmenin ifasında ısrar etmekte, ayrıca \"kapora her durumda bende kalır\" demektedir.\n\nMehmet ayrıca, Hasan'a ait tapulu bir arsayı 4.000.000 TL'ye satın almak için bir emlak ofisinde Hasan'la yazılı bir sözleşme imzalamıştır. Sözleşme noterde ya da tapuda yapılmamıştır. Sözleşmede \"Alıcı 100.000 TL cayma akçesi vermiştir. Alıcı vazgeçerse bu parayı geri isteyemez. Satıcı vazgeçerse aldığının iki katını öder.\" yazmaktadır. Hasan, arsayı daha yüksek bedelle başkasına satıp tapuda devretmiş ve Mehmet'e 100.000 TL'yi iade etmiştir. Mehmet, sözleşme gereği 100.000 TL daha ödenmesini istemektedir.\n\n1. Otomobil satışında verilen 60.000 TL'nin niteliğini belirleyiniz. Mehmet \"kaporayı yakarak\" sözleşmeden kurtulabilir mi? Aracı alsaydı ne kadar daha ödeyecekti?\n2. Zeynep'in \"kapora her durumda bende kalır\" görüşünü değerlendiriniz.\n3. Mehmet, Hasan'dan 100.000 TL daha isteyebilir mi? Arsa için sözleşme resmî şekilde (noterde düzenleme şeklinde satış vaadi olarak) yapılmış olsaydı sonuç ne olurdu?",
+   "rubric": [
+    {
+     "point": "60.000 TL'nin karine gereği bağlanma parası sayılması ve Mehmet'e cayma hakkı vermemesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 177"
+    },
+    {
+     "point": "Bağlanma parasının esas alacaktan düşülmesi: kalan bedelin 1.140.000 TL olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 177"
+    },
+    {
+     "point": "Mehmet'in vazgeçmesinin borca aykırılık olması; Zeynep'in ifa ya da temerrüt hükümlerine göre dönme; dönmede bağlanma parasının iadesi ve ispatlanan zararın düşülmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "Arsa sözleşmesindeki kaydın cayma parası niteliği",
+     "weight": 10,
+     "madde_ref": "TBK m. 178"
+    },
+    {
+     "point": "Resmî şekil eksikliği nedeniyle sözleşmenin ve fer'i cayma parası kaydının geçersizliği; yalnız verilen paranın sebepsiz zenginleşmeyle iadesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 237"
+    },
+    {
+     "point": "Sözleşme geçerli olsaydı Hasan'ın aldığının iki katını geri vermesi ve Mehmet'in 100.000 TL daha isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 178"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Otomobil satışı şekle bağlı olmayan, geçerli bir taşınır satışıdır. 60.000 TL sözleşme kurulurken verilmiştir. Arsa sözleşmesi ise taşınmaz satışına yöneliktir ve resmî şekle tabidir.\n\n**Hukuki sorunlar:** (1) Kaporanın niteliği ve cayma hakkı verip vermediği, (2) alıcının vazgeçmesi hâlinde paranın akıbeti, (3) şekle aykırı sözleşmedeki cayma parası kaydının hükmü.\n\n**İlgili hükümler:** TBK m. 77, TBK m. 125, TBK m. 177, TBK m. 178, TBK m. 237, TMK m. 706.\n\n**Değerlendirme:**\n\n*1. 60.000 TL'nin niteliği:* Belgede yalnız \"kapora\" yazmaktadır. Tarafların cayma parası kararlaştırdığına dair bir olgu yoktur. TBK m. 177/1'e göre sözleşme yapılırken verilen para, cayma parası olarak değil sözleşmenin yapıldığına kanıt olarak verilmiş sayılır. Paranın cayma parası olduğunu iddia eden Mehmet bunu ispatlamak zorundadır, olayda bunu gösteren bir olgu yoktur. Bu nedenle para **bağlanma parasıdır.** Bağlanma parası cayma hakkı vermez. Mehmet \"kaporayı yakarak\" sözleşmeden kurtulamaz. Vazgeçme beyanı, sözleşmeye aykırı bir ifadan kaçınmadır. Aracı alsaydı aksine sözleşme ya da yerel âdet bulunmadığı için 60.000 TL esas alacaktan düşülecek (TBK m. 177/2), Mehmet **1.140.000 TL** daha ödeyecekti.\n\n*2. \"Kapora her durumda bende kalır\" görüşü:* Bu görüş TBK'ya uygun değildir. Paranın alacaktan düşülmeden alana kalması eski Kanun'un kuralıydı. Zeynep sözleşmeye bağlı kalıp aracın alınmasını ve bedelin ödenmesini isteyebilir. Alıcı temerrüde düşerse temerrüt hükümlerine göre sözleşmeden de dönebilir (TBK m. 125; temerrüdün şartları ayrı konudur). Dönme hâlinde taraflar aldıklarını geri verir, bağlanma parası da iade edilir. Ancak Yargıtay'a göre Zeynep, Mehmet'in borca aykırılığından doğan zararını ispatlarsa bu tutarı iade edeceği paradan düşebilir. TBK m. 125/3'e göre Mehmet temerrüdünde kusursuz olduğunu ispat edemezse Zeynep sözleşmenin hükümsüz kalmasından doğan zararını isteyebilir. Zararını ispatlayamazsa 60.000 TL'nin tamamını iade eder.\n\n*3. Arsa sözleşmesi:* \"Satıcı vazgeçerse aldığının iki katını öder, alıcı vazgeçerse geri isteyemez\" kaydı, her iki tarafa cayma imkânı veren bir **cayma parası** kaydıdır (TBK m. 178). Ancak taşınmaz satışı ve satış vaadi resmî şekilde düzenlenmedikçe geçerli olmaz (TBK m. 237, TMK m. 706). Emlak ofisinde yapılan yazılı sözleşme geçersizdir. Cayma parası fer'idir, geçersiz sözleşmedeki kayda dayanılarak 100.000 TL daha istenemez. Geçersiz bir sebebe dayanarak elde edilen 100.000 TL sebepsiz zenginleşme hükümlerine göre iade edilmelidir (TBK m. 77/2). Hasan bunu zaten iade etmiştir. Mehmet'in başka bir istemi yoktur.\n\n*Resmî şekil olsaydı:* Noterde düzenleme şeklinde yapılan satış vaadi geçerli olurdu, cayma parası kaydı da geçerli olurdu. Hasan'ın arsayı başkasına satması, cayma iradesini açıkça gösterir. Parayı alan taraf caydığı için Hasan aldığının iki katını, yani **200.000 TL** geri vermek zorundadır. 100.000 TL'yi iade ettiğinden Mehmet 100.000 TL daha isteyebilir. Hasan cayma hakkını kullandığı için Mehmet arsanın kendisine devrini isteyemez.\n\n**Sonuç:**\n- 60.000 TL bağlanma parasıdır. Mehmet bunu bırakarak sözleşmeden kurtulamaz. Aracı alsaydı 1.140.000 TL daha ödeyecekti.\n- Kapora kendiliğinden Zeynep'te kalmaz. Dönme hâlinde iade edilir, Zeynep ancak ispatladığı zararı düşebilir.\n- Arsa sözleşmesi şekle aykırı olduğu için Mehmet 100.000 TL daha isteyemez. Resmî şekil olsaydı 200.000 TL'ye tamamlanması için 100.000 TL daha isteyebilirdi."
+  },
+  {
+   "stem_md": "Kuru Gıda A.Ş., 10 Ocak 2025'te Makine Ltd. Şti. ile 3.000.000 TL bedelli bir paketleme makinesinin üretimi için eser sözleşmesi yapar. Makine 1 Haziran 2025'te fabrikada teslim edilecektir. Sözleşmede iki ceza kaydı vardır:\n- (a) \"Teslimde gecikilen her gün için yüklenici 10.000 TL ceza öder.\"\n- (b) \"Makine hiç teslim edilmezse yüklenici 1.500.000 TL ceza öder.\"\n\nMakine Ltd. Şti., kendisine daha yüksek kâr bırakan başka bir müşterinin siparişine öncelik verir ve makineyi 30 gün gecikmeyle, 1 Temmuz 2025'te teslim eder. Teslim tutanağına Kuru Gıda'nın yetkilisi \"Gecikme cezası alacağımız saklıdır\" notunu düşer. Kuru Gıda, gecikme yüzünden bir ihracat siparişini kaçırdığını ve bundan 500.000 TL zarar gördüğünü belgeleriyle ispatlar. Makine Ltd. Şti.'nin başka bir müşterinin işine öncelik verdiği de yazışmalarla ispatlanmıştır.\n\nKuru Gıda 500.000 TL'nin ödenmesi için dava açar. Makine Ltd. Şti. savunmasında cezanın aşırı olduğunu ve hâkimin bunu indirmesi gerektiğini ileri sürer. Makine Ltd. Şti.'nin ekonomik durumuna ilişkin bir iddia ya da olgu yoktur.\n\n1. Sözleşmedeki ceza kayıtlarını nitelendiriniz. Makine hiç teslim edilmeseydi Kuru Gıda hem makinenin teslimini hem 1.500.000 TL'yi isteyebilir miydi?\n2. Kuru Gıda gecikme cezasını isteyebilir mi? Tutanağa not düşülmeseydi sonuç ne olurdu?\n3. Kuru Gıda 500.000 TL'nin tamamını alabilir mi?\n4. Makine Ltd. Şti.'nin indirim savunmasını değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "(b) kaydının seçimlik ceza olması; alacaklının ya ifayı ya cezayı isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 179"
+    },
+    {
+     "point": "(a) kaydının ifaya eklenen ceza olması; teslimle birlikte 300.000 TL cezanın istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 179"
+    },
+    {
+     "point": "Tutanaktaki notun ifa anında yapılmış çekince olması; çekincesiz kabulde ceza hakkının düşmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 179"
+    },
+    {
+     "point": "Cezayı aşan 200.000 TL için alacaklının borçlunun kusurunu ispat etmesi; kusur ispatlandığından toplam 500.000 TL",
+     "weight": 20,
+     "madde_ref": "TBK m. 180"
+    },
+    {
+     "point": "Tacir borçlunun aşırılık iddiasıyla indirim isteyememesi; hâkimin kendiliğinden de indirememesi",
+     "weight": 20,
+     "madde_ref": "TTK m. 22"
+    },
+    {
+     "point": "Ekonomik yıkım istisnasının şartlarının bulunmaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 27"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında eser sözleşmesi vardır. Sözleşmede iki ayrı ceza koşulu bulunur. Yüklenici Makine Ltd. Şti. bir ticaret şirketidir, bu yüzden tacirdir (TTK m. 16/1).\n\n**Hukuki sorunlar:** (1) Ceza kayıtlarının türü, (2) gecikmiş ifanın kabulünde çekince, (3) cezayı aşan zarar, (4) tacir borçlu bakımından indirim.\n\n**İlgili hükümler:** TBK m. 27, TBK m. 112, TBK m. 179, TBK m. 180, TBK m. 182, TTK m. 16, TTK m. 19, TTK m. 22.\n\n**Değerlendirme:**\n\n*1. Kayıtların niteliği:* (b) kaydı, borcun **hiç ifa edilmemesi** için kararlaştırılmıştır. Sözleşmeden aksi anlaşılmadığı için **seçimlik cezadır** (TBK m. 179/1). Makine hiç teslim edilmeseydi Kuru Gıda ya makinenin teslimini ya da 1.500.000 TL cezayı isteyebilirdi, ikisini birden isteyemezdi. (a) kaydı ise borcun **belirlenen zamanda** ifa edilmemesi için kararlaştırılmıştır. Bu bir **ifaya eklenen cezadır** (TBK m. 179/2). Alacaklı, asıl borçla birlikte cezayı da isteyebilir. Makine teslim edildiğinden (b) kaydı artık gündemde değildir.\n\n*2. Gecikme cezası:* Gecikme 30 gündür, ceza 30 x 10.000 = **300.000 TL**'dir. İfaya eklenen cezada alacaklı, ifayı çekincesiz kabul ederse ceza hakkını kaybeder (TBK m. 179/2). Yargıtay'a göre çekince ifa anında açıkça yapılmalıdır ve teslim tutanağına düşülen not yeterlidir. Kuru Gıda'nın yetkilisi bu notu teslim sırasında düşmüştür. Ceza istenebilir. Makine Ltd. Şti., başka bir müşteriye öncelik vererek gecikmiştir. Gecikmede kusurludur ve kusursuzluğunu ispat edebileceği bir olgu yoktur. Tutanağa not düşülmeseydi ve sözleşmede çekince aranmayacağına ya da önceden saklı tutmaya ilişkin bir olgu bulunmasaydı, gecikmiş ifa çekincesiz kabul edilmiş olurdu ve ceza istenemezdi. Hâkim bunu kendiliğinden gözetirdi.\n\n*3. 500.000 TL'nin tamamı:* Zarar 500.000 TL, ceza 300.000 TL'dir. Cezayı aşan 200.000 TL için TBK m. 180/2 uygulanır: \"Alacaklının uğradığı zarar kararlaştırılan ceza tutarını aşıyorsa alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez.\" Burada ispat yükü, TBK m. 112'deki genel kuraldan farklı olarak alacaklıdadır. Kuru Gıda hem zararını hem de Makine Ltd. Şti.'nin başka bir müşterinin işine bilerek öncelik verdiğini yazışmalarla ispatlamıştır. Bu nedenle 300.000 TL ceza ve 200.000 TL aşan zarar olmak üzere toplam **500.000 TL** isteyebilir. TBK m. 180/2'nin eleştirisine ilişkin tartışma sonucu değiştirmez, çünkü kusur zaten ispatlanmıştır.\n\n*4. İndirim savunması:* TBK m. 182/3'e göre hâkim aşırı gördüğü cezayı kendiliğinden indirir. Ancak TTK m. 22'ye göre tacir sıfatını haiz borçlu, aşırı ceza kararlaştırıldığı iddiasıyla indirimini mahkemeden isteyemez. Bu hüküm TBK m. 182/3'e bir istisnadır, bu yüzden hâkim kendiliğinden de indirim yapamaz. Makine Ltd. Şti. sözleşme yapılırken de tacirdir ve cezayı ticari işletmesiyle ilgili olarak üstlenmiştir (TTK m. 19/1). Yargıtay, cezanın tacirin ekonomik mahvına yol açacak derecede ağır olması hâlinde ahlaka aykırılık gerekçesiyle (TBK m. 27) kısmen ya da tamamen iptale izin verir. Olayda böyle bir iddia ve olgu yoktur. Üstelik 3.000.000 TL'lik bir işte 300.000 TL'lik ceza, ispatlanan 500.000 TL'lik zararın da altındadır.\n\n**Sonuç:**\n- (b) seçimlik, (a) ifaya eklenen cezadır. Hiç teslim olmasaydı Kuru Gıda ya teslimi ya 1.500.000 TL'yi isteyebilirdi.\n- Çekince konduğu için 300.000 TL gecikme cezası istenebilir. Not düşülmeseydi istenemezdi.\n- Kusur ispatlandığı için aşan 200.000 TL de istenir, toplam 500.000 TL'dir.\n- Tacir olan Makine Ltd. Şti.'nin indirim savunması reddedilmelidir."
+  },
+  {
+   "stem_md": "X Yazılım A.Ş., 1 Eylül 2025'te iki yazılımcıyla bir yıllık iş sözleşmesi yapar.\n\nSelin'in sözleşmesinde şu kayıt vardır: \"İşçi sözleşmeyi süresinden önce haklı bir neden olmaksızın sona erdirirse, kalan aylara ait ücretlerin toplamını ceza olarak öder.\" İşverene benzer bir yükümlülük yüklenmemiştir. Selin aylık 80.000 TL ücretle üç ay çalışır ve haklı bir neden olmaksızın ayrılır.\n\nKerem'in sözleşmesinde ise şu kayıt vardır: \"Taraflardan biri sözleşmeyi süresinden önce haklı bir neden olmaksızın sona erdirirse, karşı tarafa kalan aylara ait ücretlerin toplamını ceza olarak öder. İşçi, cezanın indirilmesini istemekten şimdiden feragat eder.\" Kerem aylık 90.000 TL ücretle bir ay çalışır ve daha yüksek ücret teklif eden rakip bir firmaya geçer. İşveren, Kerem'in yerine bir hafta içinde yeni bir yazılımcı almıştır.\n\nX Yazılım A.Ş., Selin'den 720.000 TL, Kerem'den 990.000 TL ceza istemektedir. Kerem davada yalnız işverenin hiçbir zarara uğramadığını savunmuş, indirim talep etmemiştir. İşveren ayrıca, kendisinin tacir olduğunu ve Kerem'in feragat ettiğini, bu yüzden indirim yapılamayacağını ileri sürmektedir.\n\n1. Selin ceza ödemek zorunda mıdır?\n2. Kerem'in sözleşmesindeki ceza kaydı geçerli midir?\n3. Kerem'in \"işveren zarara uğramadı\" savunmasını değerlendiriniz.\n4. Hâkim, Kerem'in talebi bulunmadığı, feragat kaydı ve işverenin tacir olması karşısında cezayı indirebilir mi? Hangi ölçütleri gözetir?",
+   "rubric": [
+    {
+     "point": "Selin'in sözleşmesindeki cezanın yalnız işçi aleyhine olduğu için geçersizliği",
+     "weight": 25,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "Kerem'in sözleşmesindeki cezanın karşılıklı ve eşit olduğu için geçerliliği",
+     "weight": 15,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "Cezanın zarar olmasa da istenebilmesi; zarar yokluğunun yalnız indirimde ölçüt olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 180"
+    },
+    {
+     "point": "Hâkimin aşırı cezayı kendiliğinden indirmesi; önceden feragatin geçersizliği",
+     "weight": 20,
+     "madde_ref": "TBK m. 182"
+    },
+    {
+     "point": "TTK m. 22'nin borçlunun tacirliğine bakması; işverenin tacir olmasının önemsizliği",
+     "weight": 10,
+     "madde_ref": "TTK m. 22"
+    },
+    {
+     "point": "Yargıtay'ın oransal indirim ölçütleri: çalışılan süre, zarar yokluğu, ekonomik durum, işçinin ekonomik mahvına yol açmama",
+     "weight": 15,
+     "madde_ref": "TBK m. 182"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında hizmet (iş) sözleşmeleri vardır. Sözleşmelere süreden önce haksız sona erdirmeye bağlı ceza koşulları konmuştur. Ceza koşuluna TBK m. 179-182 ve hizmet sözleşmesine özgü TBK m. 420 uygulanır.\n\n**Hukuki sorunlar:** (1) Yalnız işçi aleyhine cezanın geçerliliği, (2) iki taraflı cezanın geçerliliği, (3) zarar şartı, (4) indirimin kendiliğinden yapılması, önceden feragat ve tacirlik.\n\n**İlgili hükümler:** TBK m. 180, TBK m. 182, TBK m. 420, TTK m. 22.\n\n**Değerlendirme:**\n\n*1. Selin:* Kayıt yalnız işçiye ceza yüklemekte, işverene benzer bir yükümlülük getirmemektedir. TBK m. 420/1'e göre hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir. Selin 720.000 TL ceza ödemek zorunda değildir. Cezanın geçersizliği, işverenin kanundan doğabilecek başka haklarını ortadan kaldırmaz, ama bunlar ayrı konudur.\n\n*2. Kerem'in kaydı:* Ceza her iki taraf için ve aynı ölçüde kararlaştırılmıştır. Yargıtay'ın yerleşik uygulamasına göre karşılıklılık bulunan ceza kayıtları kural olarak geçerlidir. İşçinin cezası işverenin cezasını aşmamaktadır. Kayıt geçerlidir. Sözleşmenin İş Kanunu'ndaki objektif koşullar bakımından belirli süreli sayılıp sayılmayacağı tartışılsa bile sonuç değişmez. Yargıtay İçtihadı Birleştirme Hukuk Genel Kurulu, böyle sözleşmelerde süreden önce haksız feshe bağlı cezanın kararlaştırılan süre için geçerli olduğunu kabul etmiştir. Kerem haklı bir neden olmadan ayrıldığı için ceza doğmuştur: 11 x 90.000 = 990.000 TL.\n\n*3. Zarar savunması:* TBK m. 180/1'e göre alacaklı hiçbir zarara uğramamış olsa bile kararlaştırılan cezanın ifası gerekir. Bu savunma cezayı ortadan kaldırmaz. Ancak zararın yokluğu ya da azlığı, hâkimin aşırılık değerlendirmesinde önemli bir ölçüttür.\n\n*4. İndirim:*\n- **Talep yokluğu:** TBK m. 182/3'e göre hâkim aşırı gördüğü cezayı kendiliğinden indirir. Kerem'in indirim istememesi engel değildir.\n- **Feragat kaydı:** Yargıtay'a göre indirim imkânı borçluyu korumaya yönelik, kamu düzenine ilişkin bir kuraldır. Borçlunun indirimden önceden feragati geçersizdir. Bu kayıt hâkimi bağlamaz.\n- **Tacirlik:** TTK m. 22 \"tacir sıfatını haiz borçlu\" için konmuştur. Bakılan borçludur. Borçlu Kerem tacir değildir, alacaklı işverenin tacir olması önemsizdir.\n- **Ölçütler:** Yargıtay iş hukukunda, işçinin ekonomik mahvına yol açmayacak bir çözüm arar ve çalışılan süre ile çalışılması gereken süreyi oranlar. Hâkim ayrıca tarafların ekonomik durumunu, işverenin zararını, borçlunun aykırılıktan sağladığı yararı ve kusurun ağırlığını gözetir. Kerem on iki aylık sürenin yalnız birinde çalışmıştır. İşveren bir hafta içinde yerine yeni bir yazılımcı almış, olayda bir zarar ispatlanmamıştır. Öte yandan Kerem daha yüksek ücret için bilerek ayrılmıştır, bu da kusurun ağırlığında dikkate alınır. 990.000 TL'lik ceza bu koşullarda aşırıdır. Hâkim, miktarı denetlenebilir bir gerekçeyle önemli ölçüde indirmelidir. Kesin oran hâkimin takdirindedir.\n\n**Sonuç:**\n- Selin ceza ödemez, kayıt TBK m. 420/1 uyarınca geçersizdir.\n- Kerem'in kaydı geçerlidir ve zarar olmasa da ceza doğmuştur.\n- Hâkim, talep ve feragat kaydına bakmaksızın cezayı kendiliğinden indirir. İşverenin tacir olması buna engel değildir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Sözleşme yapılırken verilen para karine olarak nedir? (TBK m. 177/1)",
+   "back_md": "Sözleşmenin yapıldığına kanıt olarak verilmiş bağlanma parası. Cayma parası olduğunu iddia eden ispatlar."
+  },
+  {
+   "front_md": "Bağlanma parası esas alacaktan düşülür mü?",
+   "back_md": "Evet, aksine sözleşme veya yerel âdet olmadıkça düşülür (TBK m. 177/2). Eski Kanun'da alana kalırdı."
+  },
+  {
+   "front_md": "Bağlanma parası cayma hakkı verir mi?",
+   "back_md": "Hayır. Parayı bırakıp sözleşmeden kurtulmak ancak cayma parası kararlaştırılmışsa mümkündür."
+  },
+  {
+   "front_md": "Cayma parasında kim cayabilir, sonucu nedir? (TBK m. 178)",
+   "back_md": "Her iki taraf. Veren cayarsa verdiğini bırakır; alan cayarsa aldığının iki katını geri verir."
+  },
+  {
+   "front_md": "40.000 TL cayma parasını alan taraf cayarsa ne öder?",
+   "back_md": "80.000 TL geri verir: 40.000 TL iade, 40.000 TL cayma bedeli."
+  },
+  {
+   "front_md": "Şekle aykırı taşınmaz satışında 'kaporanın iki katı' istenebilir mi?",
+   "back_md": "Hayır. Sözleşme geçersizdir, fer'i kayda dayanılamaz. Verilen para sebepsiz zenginleşmeyle geri istenir."
+  },
+  {
+   "front_md": "Seçimlik ceza nedir? (TBK m. 179/1)",
+   "back_md": "Borç hiç ya da gereği gibi ifa edilmezse alacaklı ya borcun ya cezanın ifasını ister, ikisini birden isteyemez."
+  },
+  {
+   "front_md": "İfaya eklenen ceza nedir? (TBK m. 179/2)",
+   "back_md": "Zaman veya yer için kararlaştırılan ceza. Alacaklı ifa ile birlikte cezayı da ister; açık feragat ya da çekincesiz kabulde ceza düşer."
+  },
+  {
+   "front_md": "Çekince ne zaman ve nasıl yapılır?",
+   "back_md": "İfa anında, açıkça: teslim tutanağına not, ifadan önce yazılı bildirim ya da bedelden ceza tutarının kesilmesi (Yargıtay)."
+  },
+  {
+   "front_md": "Dönme cezasında ispat yükü kimdedir? (TBK m. 179/3)",
+   "back_md": "Borçluda. Borçlu, cezayı ödeyerek sözleşmeyi sona erdirmeye yetkili olduğunu ispatlar."
+  },
+  {
+   "front_md": "Zarar yoksa ceza istenir mi? (TBK m. 180/1)",
+   "back_md": "Evet. Alacaklı hiçbir zarara uğramamış olsa bile ceza ödenir."
+  },
+  {
+   "front_md": "Cezayı aşan zarar nasıl istenir? (TBK m. 180/2)",
+   "back_md": "Alacaklı, borçlunun kusuru bulunduğunu ispat etmedikçe aşan miktarı isteyemez."
+  },
+  {
+   "front_md": "TBK m. 180/2 genel kuraldan nasıl ayrılır?",
+   "back_md": "TBK m. 112'de borçlu kusursuzluğunu ispatlar. Aşan zararda ise kusuru alacaklı ispatlar."
+  },
+  {
+   "front_md": "Kısmi ifanın yanması kaydına hangi hükümler uygulanır? (TBK m. 181)",
+   "back_md": "Ceza koşulu hükümleri. Taksitle satış hükümleri saklıdır."
+  },
+  {
+   "front_md": "Taksitle satışta peşinat temerrüdü yüzünden devirden önce dönülürse ceza sınırı nedir?",
+   "back_md": "Ceza koşulu peşin satış bedelinin yüzde onunu aşamaz (TBK m. 260/2)."
+  },
+  {
+   "front_md": "Asıl borç geçersizse ceza istenir mi? (TBK m. 182/2)",
+   "back_md": "Hayır. Kusursuz sonraki imkânsızlıkta da aksi kararlaştırılmadıkça istenmez. Cezanın geçersizliği ise asıl borcu etkilemez."
+  },
+  {
+   "front_md": "Hâkim aşırı cezayı talep üzerine mi indirir? (TBK m. 182/3)",
+   "back_md": "Hayır, kendiliğinden indirir. İndirimden önceden feragat geçersizdir."
+  },
+  {
+   "front_md": "Tacir borçlu indirim isteyebilir mi? (TTK m. 22)",
+   "back_md": "Hayır. Yalnız ceza ekonomik yıkımına yol açacak ağırlıktaysa ahlaka aykırılıkla kısmen ya da tamamen iptal edilebilir."
+  },
+  {
+   "front_md": "TTK m. 22'de kimin tacirliğine bakılır?",
+   "back_md": "Borçlunun. Tacirlik cezanın taahhüt edildiği anda aranır; alacaklının tacirliği önemsizdir."
+  },
+  {
+   "front_md": "Hizmet sözleşmesinde hangi ceza geçersizdir? (TBK m. 420/1)",
+   "back_md": "Sadece işçi aleyhine konulan ceza. İşçinin cezası işverenin cezasını da aşamaz (Yargıtay)."
+  },
+  {
+   "front_md": "Nişanlılıkta ceza şartı dava edilebilir mi? (TMK m. 119/2)",
+   "back_md": "Hayır. Ancak yapılan ödemeler de geri istenemez."
+  },
+  {
+   "front_md": "Konut kirasında geç ödemeye ceza konabilir mi?",
+   "back_md": "Hayır. Kira bedelinin zamanında ödenmemesi hâlinde ceza koşulu ödeneceğine ilişkin anlaşmalar geçersizdir (TBK m. 346)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

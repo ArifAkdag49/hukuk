@@ -1,0 +1,740 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: Borçların İfa Edilmemesinin Sonuçları",
+ "topic_index": 3,
+ "slug": "karsilikli-sozlesmelerde-secimlik-haklar",
+ "title": "Karşılıklı Sözleşmelerde Temerrüt: Süre Verme ve Seçimlik Haklar",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T21:46:07.393064+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/borclu-temerrudu"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Karşılıklı borç yükleyen bir sözleşmede taraflardan biri temerrüde düştüğünde diğer taraf sözleşmeyi ayakta mı tutacak, edim yerine tazminat mı isteyecek, yoksa sözleşmeden mi kurtulacak? Hangi yol hangi zararı getirir?\n\n- **Uygulama alanı:** Satış, trampa, kira, eser, kat karşılığı inşaat gibi karşılıklı sözleşmeler. Temerrüdün şartları ve genel sonuçları (gecikme tazminatı, beklenmedik hâl, temerrüt faizi: TBK m. 117-122) ayrı konuda.\n- **Süre verme (TBK m. 123):** Alacaklı borçluya ifa için uygun bir süre verir ya da hâkimden süre verilmesini ister. Süre borçluya son fırsattır. İfadan vazgeçme ve dönme yolları kural olarak bu süre sonuçsuz kalınca açılır.\n- **Süre gerekmeyen hâller (TBK m. 124):** (1) borçlunun durumundan ya da tutumundan sürenin etkisiz kalacağı anlaşılıyorsa, (2) temerrüt yüzünden ifa alacaklı için yararsız kalmışsa, (3) belirli zamanda yapılmayan ifanın artık kabul edilmeyeceği sözleşmeden anlaşılıyorsa (kesin vade).\n- ⚠️ Belirli ifa günü ihtarı gereksiz kılar (TBK m. 117/2), süre vermeyi gereksiz kılmaz.\n- **Üç seçimlik hak (TBK m. 125):**\n  1. İfa ve gecikme tazminatı: her zaman, süre vermeden de istenir.\n  2. İfadan vazgeçip müspet zarar: sözleşme ayakta kalır, edimin yerini tazminat alır.\n  3. Sözleşmeden dönme: taraflar ifa yükümlülüğünden kurtulur ve verdiklerini geri ister. Borçlu temerrüde düşmekte kusursuz olduğunu ispat edemezse menfi zarar da istenir.\n- **Hemen bildirme:** İkinci ve üçüncü yolu seçen alacaklı, ifadan ve gecikme tazminatından vazgeçtiğini hemen bildirir. Beyan karşı tarafa ulaşınca geri alınamaz.\n- **Müspet zarar:** Sözleşme gereği gibi ifa edilseydi alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark. Hesapta fark ve değişim teorileri, somut (yerine alım) ve soyut (piyasa fiyatı) hesap kullanılır (TBK m. 213, 236).\n- **Menfi zarar:** Sözleşme hiç yapılmasaydı bulunulacak durum ile şimdiki durum arasındaki fark: sözleşme ve hazırlık giderleri, kaçırılan fırsat.\n- **İkisi birlikte istenmez:** Dönen alacaklı kural olarak bu sözleşmeden beklediği kârı isteyemez.\n- **Yargıtay:** Geçerli satış vaadinde satıcı taşınmazı üçüncü kişiye devrederse alıcı, taşınmazın ifanın imkânsızlaştığı tarihteki rayiç değerini müspet zarar olarak ister.\n- **Sürekli edimli sözleşmeler (TBK m. 126):** İfasına başlanmışsa dönme yerine fesih vardır. Fesih ileriye etkilidir; sözleşmenin süresinden önce sona ermesinden doğan zarar istenir.\n- **Dönmenin niteliği:** Yargıtay sözleşmenin geriye etkili ortadan kalktığını ve iadenin sebepsiz zenginleşme hükümlerine göre yapılacağını kabul eder. Öğretide güçlü bir görüş sözleşmenin bir tasfiye ilişkisine dönüştüğünü savunur.",
+  "content_md": "## 0. Konunun haritası\n\nBorçlu temerrüdünün şartlarını ve her borç için geçerli genel sonuçlarını (gecikme tazminatı, beklenmedik hâlden sorumluluk, temerrüt faizi; TBK m. 117-122) ayrı konuda gördük. Bu konu, temerrüdün **karşılıklı borç yükleyen sözleşmelere** özgü sonuçlarını anlatır. Burada alacaklı da bir edim borçlanmıştır; kanun ona sözleşmeyi sürdürüp sürdürmeyeceğine karar verme imkânı tanır. Önce süre (TBK m. 123-124), sonra seçim (TBK m. 125) gelir; sürekli edimli sözleşmelerin kuralı ayrıdır (TBK m. 126).\n\n| Yol | Sözleşmenin akıbeti | İstenen zarar |\n|---|---|---|\n| İfa + gecikme tazminatı (m. 125/1) | Aynen sürer | Gecikme zararı |\n| İfadan vazgeçip tazminat (m. 125/2) | Sürer, edimin yerini tazminat alır | Müspet zarar |\n| Dönme (m. 125/2-3) | Ortadan kalkar, edimler iade edilir | Menfi zarar |\n| Fesih (m. 126) | İleriye etkili sona erer | Erken sona erme zararı |\n\n> 💡 **Püf nokta:** Alacaklının kullandığı kelimeye değil, **ne istediğine** bak. \"Malı istemiyorum, farkı ödeyin\" diyen ifadan vazgeçer; \"Avansımı ve masraflarımı geri verin\" diyen döner; \"Malı ve gecikme zararımı istiyorum\" diyen ifada ısrar eder.\n\n## 1. Ön şartlar\n\n**Karşılıklı borç yükleyen sözleşme**, iki tarafın da birbirinin karşılığı olan asli edim borcu altına girdiği sözleşmedir: satış, trampa, kira, eser, kat karşılığı inşaat gibi. Hükümler temerrüde düşen tarafa karşı işler. Malı teslim etmeyen satıcı da, bedeli ödemeyen alıcı da bu anlamda \"borçlu\"dur.\n\nSeçimlik haklara geçmeden iki şeyi kontrol et:\n- **Borçlu temerrütte olmalı.** Borç muaccel olmalı ve alacaklı ihtar etmiş olmalıdır. İfa günü birlikte belirlenmişse bu günün geçmesiyle ihtarsız temerrüt doğar (TBK m. 117).\n- **Alacaklı kendi edimini sunmalı.** Edimler aynı anda ifa edilecekse ifa isteyen taraf kendi borcunu ifa etmiş ya da ifasını önermiş olmalıdır (TBK m. 97). Kendi edimini hazır etmeyen alıcı, satıcının ödemezlik def'iyle karşılaşır. Ayrıntısı ayrı konuda.\n\n## 2. Süre verme (TBK m. 123)\n\nKanuna göre karşılıklı borç yükleyen sözleşmelerde taraflardan biri temerrüde düşerse diğeri, borcun ifası için **uygun bir süre verebilir** ya da uygun bir süre verilmesini **hâkimden isteyebilir** (TBK m. 123).\n\n### 2.1 Neden süre?\nİfadan vazgeçme ve dönme borçlu için ağır sonuçlar doğurur: Hazırladığı edim elinde kalır, üstelik tazminat öder. Süre, borçluya tanınan **son fırsattır** ve bu yollara geçmenin kural olarak ön şartıdır.\n\n> 📌 **Kesin bilgi:** Süre yalnız ifadan vazgeçme, dönme ve fesih yolları için gerekir. Alacaklı ifayı ve gecikme tazminatını süre vermeden, **her zaman** isteyebilir (TBK m. 125/1).\n\n### 2.2 Süre nasıl verilir?\n- Süre verme, borçluya ulaşmasıyla sonuç doğuran **tek taraflı bir bildirimdir.** Kanun şekil aramaz; ispat için noter ihtarnamesi tercih edilir.\n- Temerrüt ihtarı ile süre verme aynı ihtarnamede yapılabilir; öğretide bu kabul edilir.\n- **Hâkimden süre istenmesi** çekişmesiz yargı işidir (HMK m. 382). Hangi sürenin uygun olduğundan emin olmayan alacaklı bu yola başvurur.\n\n### 2.3 Süre ne kadar olmalı?\nKanun gün saymaz, **uygun** süre der. Ölçü, edimin niteliği ve somut durumdur. Süre, borçlunun işe sıfırdan başlaması için değil, zaten hazır olması gereken edimi **tamamlayıp sunabilmesi** için verilir.\n\nÖğretideki yaygın görüşe göre alacaklının verdiği süre çok kısaysa süre verme geçersiz olmaz, onun yerine uygun süre işler. Alacaklı, uygun süre dolmadan ifadan vazgeçemez ve dönemez.\n\n> **Örnek:** Ali, taşınacağı için eşyalarını satan Burcu'dan 180.000 TL'ye bir yemek odası takımı alır; teslim günü 1 Mart'tır. Burcu teslim etmez ve ihtara gerek kalmadan temerrüde düşer (TBK m. 117/2). Ali hemen takımın teslimini ve gecikme zararını isteyebilir. Takımdan vazgeçmek ya da dönmek istiyorsa önce, örneğin 5 Mart'ta noterden \"20 Mart'a kadar teslim edin\" der. Takım zaten Burcu'nun evinde olduğu için 15 gün uygundur.\n\n### 2.4 Süre içinde ne olur?\n- Borçlu temerrütte kalır: Gecikme tazminatı (TBK m. 118), beklenmedik hâlden sorumluluk (TBK m. 119) ve temerrüt faizi devam eder.\n- Borçlu süre içinde ifa ederse alacaklı artık ifadan vazgeçemez ve dönemez; edimi kabul etmek zorundadır. Gecikme zararını ise yine ister.\n\n## 3. Süre verilmesine gerek olmayan hâller (TBK m. 124)\n\nKanun üç hâlde süreyi gereksiz sayar:\n\n1. **Sürenin etkisiz kalacağı borçlunun durumundan veya tutumundan anlaşılıyorsa** (m. 124/1). Tipik örnek, borçlunun ifa etmeyeceğini açıkça bildirmesidir.\n   > **Örnek:** Satıcı Kerem, teslim günü geçtikten sonra alıcıya \"Fiyatlar arttı, bu fiyata kesinlikle vermem\" yazar. Kerem'e süre vermek anlamsızdır.\n2. **Temerrüt yüzünden ifa alacaklı için yararsız kalmışsa** (m. 124/2). Yararsızlık, alacaklının sözleşmeyle güttüğü amaca göre, dürüstlük kuralı çerçevesinde değerlendirilir.\n   > **Örnek:** Mehmet, Kurban Bayramı'nda kesmek üzere komşusu Hasan'dan bayramdan iki gün önce teslim edilecek bir koç alır. Hasan koçu bayramdan sonra getirmek ister; geç ifa Mehmet'in amacını boşa çıkarmıştır.\n3. **Belirli zamanda yapılmayan ifanın artık kabul edilmeyeceği sözleşmeden anlaşılıyorsa** (m. 124/3). Buna **kesin vadeli işlem** denir: Zaman, edimin özüdür.\n   > **Örnek:** Ayşe, 14 Haziran'daki düğününde takmak üzere Fatma'dan antika bir gelin tacı alır. Sözleşmeye \"Taç en geç 12 Haziran'da teslim edilecek, sonra teslim kabul edilmeyecektir\" yazılır. 12 Haziran geçince Ayşe süre vermeden ifadan vazgeçebilir ya da dönebilir.\n\n> ⚠️ **Sınavda dikkat:** \"Sözleşmede teslim günü yazılıydı, o hâlde süre gerekmez\" cevabı **yanlıştır**. Belirli ifa günü yalnız **ihtarı** gereksiz kılar (TBK m. 117/2). **Süreyi** gereksiz kılan, geç ifanın kabul edilmeyeceğinin sözleşmeden anlaşılmasıdır (TBK m. 124/3). Ali'nin yemek odası örneğinde teslim günü belliydi, ama süre yine gerekti.\n\nGecikme ifayı herkes için anlamsız kılıyorsa (belirli bir akşamki konser gibi) öğretide imkânsızlık da tartışılır; ayrıntısı imkânsızlık konusunda.\n\n**Kanundaki özel kurallar.** Bazı sözleşmelerde kanun genel kuraldan ayrılır:\n- Bedel ödendikten sonra ya da ödenme anında teslim edilecek satışta alıcı temerrüde düşerse satıcı, **herhangi bir işlem gerekmeksizin** satıştan dönebilir; bunu alıcıya gecikmeksizin bildirmelidir (TBK m. 235/1-2).\n- Zilyetliğin devri için belirli bir süre konulmuş **ticari satışlarda** satıcı temerrüde düşerse kanun, alıcının devirden vazgeçip tazminat istediğini **varsayar**. Alıcı malı yine de istiyorsa bunu sürenin bitiminde hemen bildirmelidir (TBK m. 212/2-3). Bu, genel kuralın tersidir.\n\n## 4. Seçimlik haklar (TBK m. 125)\n\nSüre sonuçsuz kaldıysa ya da süre gereksizse alacaklının önünde üç yol vardır. Seçim **alacaklıya** aittir; borçlu onu bir yola zorlayamaz.\n\n### 4.1 Birinci yol: ifa ve gecikme tazminatı (m. 125/1)\n- **Sözleşme aynen sürer.** Alacaklı da kendi edimini ifa etmeye devam eder.\n- İfa gerekirse dava ve icra yoluyla sağlanır. Yapma borçlarında alacaklı, işin borçlu hesabına yaptırılmasına izin verilmesini de isteyebilir (TBK m. 113). Yargıtay bu **nama ifa** talebini aynen ifa tercihi sayar; gecikme tazminatı da istenebilir.\n- **Gecikme tazminatı**, ifa zamanında yapılsaydı alacaklının bulunacağı durum ile bugünkü durumu arasındaki farktır; Yargıtay bunu da müspet zararın bir görünümü sayar. Borçlu, temerrüde düşmekte kusuru olmadığını ispat ederse bu tazminatı ödemez (TBK m. 118).\n\n> **Örnek:** Kat karşılığı inşaatta daireler sözleşmedeki tarihten sekiz ay sonra teslim edilir. Arsa sahibi daireleri alır ve sekiz ay boyunca kiraya veremediği dairelerin kira kaybını gecikme tazminatı olarak ister.\n\n### 4.2 Hemen bildirme ve seçimin bağlayıcılığı\nAlacaklı ikinci ya da üçüncü yolu ancak **borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek** seçebilir (TBK m. 125/2).\n- **\"Hemen\"**, süre bittikten ya da m. 124'teki durum ortaya çıktıktan sonra, durumun gerektirdiği kısa bir düşünme süresini aşmadan demektir.\n- **Amacı:** Borçlu edimi başkasına verip veremeyeceğini bilmelidir. Alacaklının, fiyat yükselirse tazminatı, düşerse dönmeyi seçerek **spekülasyon** yapması da önlenir.\n- **Bildirmezse:** Öğretideki yaygın görüşe göre alacaklı ifa isteminde kalmış sayılır (bkz. doktrin).\n- **Önceden açıklama:** Öğretide alacaklının süre verirken \"Süre içinde ifa edilmezse ifayı kabul etmeyeceğim, sözleşmeden dönüyorum\" diyerek seçimini baştan bildirebileceği kabul edilir.\n- **Geri alınamaz:** İfadan vazgeçme ve dönme, karşı tarafa ulaşmakla sonuç doğuran **yenilik doğurucu** beyanlardır. Ulaştıktan sonra geri alınamaz: Alacaklı artık ifa isteyemez, borçlu da geç ifa önererek sözleşmeyi canlandıramaz.\n\n> ⚠️ **Sınavda dikkat:** Müspet ve menfi zarar **birlikte** istenemez. Alacaklı ya sözleşmeyi ayakta tutup ifa menfaatini ister ya da sözleşmeden kurtulup güven menfaatini ister. Dilekçede \"bütün müspet ve menfi zararlarım\" gibi bir ifade varsa, alacaklının gerçek iradesi yorumla belirlenir.\n\n### 4.3 İkinci yol: ifadan vazgeçip müspet zarar (m. 125/2)\n- Alacaklı edimi artık istemez. Onun yerine **borcun ifa edilmemesinden doğan zararın**, yani **müspet (olumlu) zararın** giderilmesini ister.\n- **Sözleşme ortadan kalkmaz**, içeriği değişir: Borçlunun edim borcu tazminat borcuna dönüşür.\n- **Kusur:** Kanun burada kusurdan söz etmez. Tazminat, borca aykırılığın genel kuralına bağlıdır: Borçlu, kendisine hiçbir kusur yüklenemeyeceğini ispat ederse tazminat ödemez (TBK m. 112).\n\n### 4.4 Üçüncü yol: sözleşmeden dönme (m. 125/2-3)\n**Dönme**, sözleşmeyi tek taraflı beyanla sona erdiren **bozucu yenilik doğurucu** bir haktır. Kural olarak karşı tarafın kabulüne ya da mahkeme kararına gerek yoktur. Yargıtay'a göre dönme iradesi dava yoluyla da, örneğin devredilen tapunun iptali istenerek açıklanabilir.\n\nDönmenin sonuçları (TBK m. 125/3):\n1. Taraflar karşılıklı olarak **ifa yükümlülüğünden kurtulur.** Alacaklı da kalan bedeli ödemek zorunda değildir.\n2. Taraflar **daha önce ifa ettikleri edimleri geri isteyebilir:** Ödenen avans geri verilir, teslim edilen mal geri alınır.\n3. Borçlu **temerrüde düşmekte kusuru olmadığını ispat edemezse** alacaklı, sözleşmenin hükümsüz kalması yüzünden uğradığı zararı, yani **menfi (olumsuz) zararı** da ister.\n\n> 📌 **Kesin bilgi:** Dönme hakkı borçlunun kusuruna bağlı değildir. Kusur yalnız **menfi zararın** şartıdır ve karine olarak kabul edilir: Kusursuzluğu ispat yükü borçludadır.\n\n> **Örnek:** Koleksiyoncu Okan'dan antika bir saat alan Esra 300.000 TL avans öder. Saat, Okan'ın önleyemeyeceği bir liman grevi yüzünden gümrükte kalır; Esra'nın verdiği süre de sonuçsuz geçer. Esra dönebilir ve avansını geri alır. Okan gecikmede kusuru olmadığını ispat ederse Esra'nın sözleşme masraflarını ödemez.\n\n## 5. Müspet ve menfi zarar\n\n### 5.1 İki ayrı karşılaştırma\nZarar, bugünkü malvarlığının varsayılan bir malvarlığıyla karşılaştırılmasıdır. İki zarar türünü ayıran **varsayımdır:**\n- **Müspet zarar (ifa menfaati):** Sözleşme gereği gibi ve zamanında ifa edilseydi alacaklı ne durumda olurdu?\n- **Menfi zarar (güven menfaati):** Bu sözleşme hiç yapılmasaydı alacaklı ne durumda olurdu?\n\nİkisi de **fiili zararı** ve **yoksun kalınan kârı** kapsayabilir. Müspet zararda kaybedilen kâr **bu sözleşmeden** beklenen kârdır; menfi zararda ise sözleşmeye güvenildiği için **kaçırılan başka bir fırsattır.**\n\n| | Müspet zarar | Menfi zarar |\n|---|---|---|\n| Varsayım | Sözleşme ifa edilseydi | Sözleşme hiç yapılmasaydı |\n| Tipik kalemler | Fiyat farkı, bu işten beklenen kâr | Sözleşme ve hazırlık giderleri, kaçırılan fırsat |\n| Hangi yolda? | İfadan vazgeçme (m. 125/2), fesih (m. 126) | Dönme (m. 125/3) |\n\n### 5.2 Müspet zararın hesabı: fark mı, değişim mi?\n- **Fark teorisi:** Alacaklı kendi edimini ifa etmez. Borçlunun ediminin değerinden kendi ediminin değerini düşer, aradaki farkı ister. Öğretide ağırlıklı görüş budur; satıştaki hesap kuralları da bu mantıkla kurulmuştur (TBK m. 213, 236).\n- **Değişim (mübadele) teorisi:** Alacaklı kendi edimini ifa eder ve karşılığında borçlunun ediminin tam değerini ister.\n\nKarşı edim para ise iki yöntem sonuçta aynı rakama varır. Fark, karşı edimin para olmadığı hâlde belirginleşir.\n\n> **Örnek (trampa):** Kemal, değeri 2.000.000 TL olan arsasını, Zeynep'in değeri 2.600.000 TL olan dairesiyle değiştirmek üzere resmî şekilde anlaşır. Zeynep temerrüde düşer, süre de sonuçsuz kalır; Kemal ifadan vazgeçer.\n> - Fark teorisine göre Kemal arsasını devretmez ve 600.000 TL ister.\n> - Değişim teorisine göre Kemal arsasını devreder ve 2.600.000 TL ister.\n>\n> Arsasından kurtulmak isteyen Kemal için ikinci yol daha cazip olabilir (bkz. doktrin).\n\n**Alacaklı kendi edimini önceden ifa etmişse** sözleşme ayakta kaldığı için edimini geri isteyemez; müspet zarar olarak **ifa edilmeyen edimin tam değerini** ister.\n\n**Somut ve soyut hesap.** Satış hükümleri müspet zarar için iki pratik hesap yolu gösterir. Öğretide bu yolların ifadan vazgeçilen hâllere özgü olduğu, dönmede kullanılmadığı belirtilir.\n- **Somut hesap (yerine alım):** Alıcı, teslim edilmeyen malın yerine dürüstlük kurallarına uygun olarak başka bir mal alır ve satış bedeli ile ödediği bedel arasındaki farkı ister (TBK m. 213/2). Satıcı da bedeli ödemeyen alıcıya karşı, malı dürüstlük kurallarına uygun olarak başkasına satıp aradaki farkı isteyebilir (TBK m. 236/2).\n- **Soyut hesap (piyasa fiyatı):** Borsada kayıtlı ya da piyasa fiyatı olan mallarda alıcı, yerine alım yapmak zorunda olmadan satış bedeli ile **belirlenmiş ifa günündeki** piyasa fiyatı arasındaki farkı ister (TBK m. 213/3). Satıcı için ölçü, malın **belirlenmiş ödeme günündeki** fiyatıdır (TBK m. 236/3).\n\n> **Örnek (somut):** Fırıncı Hasan tonu 10.000 TL'den 20 ton un alır (200.000 TL). Un gelmez, verdiği süre de sonuçsuz kalır. Hasan ifadan vazgeçtiğini hemen bildirir ve aynı kalitede unu tonu 11.500 TL'den alır (230.000 TL). Bedeli ödemediği için fark olarak **30.000 TL** ister. Fırını kapatmak zorunda kaldıysa kâr kaybını da ispatlayarak ekler.\n\n> **Örnek (soyut):** Bir un fabrikası, borsada işlem gören 50 ton buğdayı tonu 9.000 TL'den, 10 Ekim'de teslim edilmek üzere alır. Satıcı teslim etmez. 10 Ekim'de borsa fiyatı tonu 9.800 TL'dir. Fabrika başka yerden almasa bile tonda 800 TL'den **40.000 TL** ister.\n\n**Alacaklının payı.** Sözleşmeye aykırılıkta haksız fiilin tazminat hükümleri kıyasen uygulanır (TBK m. 114/2). Fiyatlar yükselirken yerine alımı nedensiz geciktirerek zararı artıran alacaklının tazminatı indirilebilir (TBK m. 52).\n\n### 5.3 Menfi zarar kalemleri\nSoru şudur: Bu sözleşme hiç yapılmasaydı alacaklı neye katlanmazdı, neyi kaçırmazdı?\n- **Sözleşme giderleri:** noter, harç, sözleşme için yaptırılan inceleme ve ekspertiz.\n- **İfaya hazırlık giderleri:** malı koymak için kiralanan depo, ödenmiş nakliye kaparosu.\n- **Kaçırılan fırsat:** sözleşmeye güvenilerek reddedilen daha uygun bir teklif.\n\n> **Örnek:** Deniz, Murat'tan 95.000 TL'ye ikinci el bir piyano almak üzere anlaşır; aynı gün benzer bir piyano için gelen 92.000 TL'lik teklifi reddeder ve piyanoyu inceleyen teknisyene 2.000 TL öder. Murat teslim etmeyince Deniz süre verir, sonra sözleşmeden döner. Benzer bir piyano artık 99.000 TL'dir. Sözleşme hiç yapılmasaydı Deniz 92.000 TL'lik piyanoyu alacaktı: Menfi zararı 2.000 TL inceleme gideri ile 7.000 TL kaçırılan fırsattır. Piyanoyu kiraya vererek kazanmayı umduğu gelir ise müspet zarardır; dönen Deniz bunu isteyemez.\n\n### 5.4 Yargıtay uygulamasından\n- **Dönmede kâr kaybı istenmez:** Hukuk Genel Kurulu da yukarıdaki tanımları benimser ve kâr kaybını müspet zarar sayar. Yargıtay'a göre dönmeyle hükümsüz kalan sözleşmeye dayanıp ifa edilmemeden doğan zarar istenemez; sözleşmede aksi kararlaştırılmamışsa yalnız menfi zarar istenir. Buna karşılık sözleşmeyi **haksız olarak** sona erdiren taraf, kusursuz karşı tarafın kâr kaybından (müspet zarar) sorumlu tutulmuştur.\n- **Taşınmaz satış vaadi:** Resmî şekilde yapılmış geçerli bir satış vaadinde (TBK m. 237/2) satıcı taşınmazı üçüncü kişiye devrederse ifa, onun sorumlu olduğu bir sebeple imkânsızlaşır. Artık temerrüt değil imkânsızlık vardır; süre gerekmez. Alıcı TBK m. 112'ye göre müspet zararını ister. Yargıtay bu zararı taşınmazın **ifanın imkânsız hâle geldiği tarihteki rayiç değeri** üzerinden hesaplar; alıcı devri sonradan öğrenmişse öğrenme tarihini esas alır. Bedelin tamamını ödemiş alıcı rayicin tamamını alır. İstem on yıllık zamanaşımına tabidir (TBK m. 146).\n- **Geçersiz sözleşme farklıdır:** Şekle uyulmadığı için geçersiz olan satışta rayiç değer istenemez; taraflar verdiklerini sebepsiz zenginleşme hükümlerine göre ve denkleştirici adaletle güncelleyerek geri ister. Ayrıntısı sebepsiz zenginleşme konusunda.\n\n> ⚠️ **Sınavda dikkat:** Satış vaadinde önce şekli sor: Resmî şekil yoksa rayiç değer değil, yalnız verilenin iadesi istenir.\n\n## 6. Dönmenin sonuçları ve hukuki niteliği\n\nDönmede verilenlerin geri istenmesinin (TBK m. 125/3) dayanağı nedir?\n- **Yargıtay'ın tutumu (klasik görüş):** Dönmeyle sözleşme geçmişe etkili olarak ortadan kalkar, sözleşme hiç yapılmamış sayılır. Taraflar verdiklerini sebepsiz zenginleşme hükümlerine göre geri alır. Kat karşılığı inşaatta geriye etkili feshin sonucu olarak yükleniciye devredilmiş tapu payları da iptal edilip arsa sahibi adına tescil edilir.\n- **Dönüşüm (tasfiye ilişkisi) görüşü:** Öğretideki güçlü bir görüşe göre sözleşme ortadan kalkmaz, karşılıklı geri verme borçlarını içeren bir **tasfiye ilişkisine** dönüşür. İade borcu sözleşmeden doğar.\n- **Metin farkı:** Kanun, kusursuz imkânsızlıkta borçtan kurtulan tarafın aldığını **sebepsiz zenginleşme hükümleri uyarınca** geri vereceğini açıkça söyler (TBK m. 136/2). Dönmede ise yalnız tarafların verdiklerini \"geri isteyebileceğini\" söyler (TBK m. 125/3). Tasfiye görüşü bu sessizliği kendi lehine yorumlar.\n\n> 💡 **Püf nokta:** \"İadenin dayanağı nedir?\" sorusunda iki görüşü de yaz. Ödenen para iki görüşte de geri verilir; fark zamanaşımı ve elden çıkma savunması (TBK m. 79) gibi ayrıntılardadır (bkz. doktrin).\n\n## 7. Sürekli edimli sözleşmeler (TBK m. 126)\n\n**Sürekli edimli sözleşmede** borç bir defada değil, zamana yayılarak ifa edilir: kira, sürekli hizmet, bakım ve destek, abonelik gibi. Geçmiş aylarda alınan hizmet geri verilemeyeceği için dönme burada işe yaramaz.\n\nKanuna göre **ifasına başlanmış** sürekli edimli sözleşmelerde borçlunun temerrüdü hâlinde alacaklı, ifa ve gecikme tazminatı isteyebileceği gibi **sözleşmeyi feshederek** sözleşmenin **süresinden önce sona ermesi yüzünden uğradığı zararın** giderilmesini de isteyebilir (TBK m. 126).\n- **Fesih ileriye etkilidir.** Sözleşme fesih anından itibaren sona erer; o ana kadar karşılıklı yerine getirilmiş edimler geri istenmez.\n- **Zarar:** Kanunun gerekçesi bu zararı olumlu (müspet) zarar olarak niteler. Alacaklı, kalan süre boyunca sözleşme ifa edilseydi bulunacağı durumu ister.\n- **Süre:** Öğretide fesih için de kural olarak TBK m. 123'e göre süre verilmesi gerektiği, m. 124'teki hâllerde ise gerekmediği kabul edilir.\n- **İfaya başlanmamışsa:** TBK m. 126 değil m. 125 uygulanır; alacaklı sözleşmeden dönebilir. Yargıtay, kira ilişkisinin ifasına henüz başlanmamış bir sözleşmede kiracının dönme yoluna gitmesinde bu yüzden usulsüzlük görmemiştir.\n- **Özel hükümler:** Kira ve hizmet gibi sözleşmelerde kanunun özel fesih hükümleri önce uygulanır.\n\n> **Örnek:** Otel A.Ş., rezervasyon yazılımının bakımı için Bilişim Ltd. ile 24 ay süreli, aylık 40.000 TL'lik bir sözleşme yapar. Beş ay sorunsuz geçer; altıncı ayda Bilişim Ltd. destek vermeyi bırakır. Otel süre verir, sonuç alamayınca sözleşmeyi fesheder ve kalan 18 ay için aylık 52.000 TL'ye başka bir firmayla anlaşır. Otel ödediği beş aylık ücreti geri isteyemez, çünkü fesih ileriye etkilidir; kalan süre için aylık 12.000 TL'lik farktan **216.000 TL** ister.\n\n> ⚠️ **Sınavda dikkat:** Eser sözleşmesi ani edimli sayıldığı için yüklenicinin temerrüdünde kural olarak dönme (Yargıtay'ın deyişiyle geriye etkili fesih) söz konusudur. 1984 tarihli bir İçtihadı Birleştirme Kararına göre kat karşılığı inşaatta olayın niteliği haklı gösteriyorsa dürüstlük kuralı gereği (TMK m. 2) fesih ileriye etkili olur; Yargıtay bunun için inşaatın %90 ve üzeri düzeye ulaşmasını arar. Bu sözleşme Yargıtay'a göre tek taraflı beyanla değil, anlaşma ya da mahkeme kararıyla sona erer. Ayrıntısı eser sözleşmesi konusunda.\n\n## 8. İspat\n\n- **Alacaklı;** sözleşmeyi, temerrüdü, süre verdiğini ve sürenin sonuçsuz kaldığını (ya da m. 124'teki durumu), bildirimini ve zararını ispatlar.\n- **Borçlu;** ifa ettiğini ya da ifayı süre içinde sunduğunu, tazminattan kurtulmak için de temerrüde düşmekte kusursuzluğunu ispatlar (TBK m. 118, m. 125/3).\n\n## 9. Olay çözerken denetim şeması\n\n1. **Sözleşme:** Karşılıklı borç yükleyen ve geçerli bir sözleşme mi? Sürekli edimli mi, ifasına başlanmış mı?\n2. **Temerrüt:** Borç muaccel mi, ihtar yapıldı mı ya da ifa günü geçti mi (TBK m. 117)? Alacaklı kendi edimini sundu mu (TBK m. 97)?\n3. **İstem:** Alacaklı ifa ve gecikme tazminatı mı istiyor? Bunun için süre gerekmez (TBK m. 125/1, m. 118).\n4. **Süre:** Vazgeçme, dönme ya da fesih isteniyorsa uygun süre verildi ve sonuçsuz kaldı mı (TBK m. 123)? Verilmediyse m. 124'teki bir hâl ya da kanunda özel bir kural var mı?\n5. **Bildirim:** Vazgeçme hemen bildirildi mi, hangi yol seçildi? Beyan geri alınamaz.\n6. **Müspet zarar:** Fark ya da değişim, somut ya da soyut hesap; kusur karinesi (TBK m. 112).\n7. **Dönme:** İfa yükümlülüğünden kurtulma ve iade; menfi zarar kalemleri; kusursuzluk ispatı (TBK m. 125/3).\n8. **Sürekli edim:** Fesih, ileriye etki, erken sona erme zararı (TBK m. 126).",
+  "critical_md": "- 📌 Süre verme (TBK m. 123): alacaklı kendisi uygun bir süre verir ya da hâkimden ister. Hâkimden süre istenmesi çekişmesiz yargı işidir (HMK m. 382).\n- ⚠️ İfa ve gecikme tazminatı için süre gerekmez; alacaklı bunları her zaman ister (TBK m. 125/1). Süre ifadan vazgeçme, dönme ve fesih yolları içindir.\n- 📌 Süre gerekmeyen üç hâl (TBK m. 124): borçlunun durumu ya da tutumu, ifanın alacaklı için yararsız kalması, kesin vade.\n- ⚠️ Belirli ifa günü ihtarı gereksiz kılar (TBK m. 117/2), süreyi gereksiz kılmaz. Süreyi kaldıran, geç ifanın kabul edilmeyeceğinin sözleşmeden anlaşılmasıdır (m. 124/3).\n- 📌 Süre içinde ifa edilirse alacaklı edimi kabul etmek zorundadır; yalnız gecikme zararını ister. Borçlu süre boyunca temerrütte kalır.\n- 📌 İfadan vazgeçme ve dönme için alacaklı, ifadan ve gecikme tazminatından vazgeçtiğini hemen bildirir (TBK m. 125/2). Beyan karşı tarafa ulaşınca geri alınamaz.\n- ⚠️ Belirli süreli ticari satışta kural tersine döner: Satıcı temerrüdünde alıcının tazminatı seçtiği varsayılır, mal isteyen alıcı hemen bildirir (TBK m. 212/2-3). Peşin satışta alıcı temerrüdünde satıcı herhangi bir işlem gerekmeksizin döner (TBK m. 235).\n- 📌 Dönmenin sonuçları (TBK m. 125/3): karşılıklı ifa yükümlülüğünden kurtulma, verilenlerin geri istenmesi, borçlu kusursuzluğunu ispat edemezse menfi zarar.\n- ⚠️ Dönme hakkı kusura bağlı değildir. Kusur, karine olarak, yalnız tazminatın şartıdır.\n- 📌 Müspet zarar: ifa edilseydi bulunulacak durum ile şimdiki durum. Menfi zarar: sözleşme yapılmasaydı bulunulacak durum ile şimdiki durum.\n- ⚠️ İki zarar birlikte istenmez. Dönen alacaklı kural olarak bu sözleşmeden beklediği kârı (müspet) isteyemez; sözleşme giderlerini ve kaçırdığı fırsatı (menfi) ister.\n- 📌 Somut hesap: dürüstlük kurallarına uygun yerine alım bedeli ile satış bedeli farkı (TBK m. 213/2). Soyut hesap: belirlenmiş ifa günündeki piyasa fiyatı ile satış bedeli farkı (TBK m. 213/3). Satıcı için TBK m. 236.\n- 📌 Yargıtay: Geçerli satış vaadinde satıcı taşınmazı üçüncü kişiye devrederse alıcı, ifanın imkânsızlaştığı tarihteki rayiç değeri müspet zarar olarak ister. Geçersiz satışta yalnız verilenin denkleştirici adaletle iadesi istenir.\n- 📌 İfasına başlanmış sürekli edimli sözleşmede dönme yerine fesih vardır: ileriye etkili, erken sona erme zararı (gerekçeye göre müspet zarar) (TBK m. 126). İfaya başlanmamışsa m. 125 ve dönme.\n- ⚠️ Yargıtay dönmede sözleşmenin geriye etkili ortadan kalktığını ve iadenin sebepsiz zenginleşme hükümlerine göre yapılacağını kabul eder. Öğretideki güçlü görüş ise tasfiye ilişkisine dönüşme görüşüdür.",
+  "doctrine_md": "### Dönmenin hukuki niteliği ve iade borcu\n- **Klasik görüş:** Dönme beyanıyla sözleşme baştan itibaren ortadan kalkar. İfa edilmiş edimlerin dayanağı geçmişe etkili olarak düştüğü için iade sebepsiz zenginleşme hükümlerine göre yapılır. Yargıtay'ın yerleşik uygulaması bu çizgidedir: Geriye etkili feshte sözleşme hiç yapılmamış sayılır, taraflar verdiklerini sebepsiz zenginleşme hükümlerine göre geri alır.\n- **Dönüşüm (tasfiye ilişkisi) görüşü:** Öğretideki güçlü bir görüşe göre sözleşme ortadan kalkmaz. İfa borçları sona erer ve sözleşme, karşılıklı geri verme borçlarını içeren bir tasfiye ilişkisine dönüşür; iade borcu sözleşmeden doğar. Bu görüş metinden de destek bulur: Kanun imkânsızlıkta iadenin sebepsiz zenginleşme hükümlerine göre yapılacağını açıkça söylerken (TBK m. 136/2), dönmede böyle bir yollama yapmaz (TBK m. 125/3).\n- **Ayni etkili dönme görüşü:** Sözleşme geriye etkili olarak ortadan kalkar. Sebebe bağlılık nedeniyle devredilen mülkiyet de kendiliğinden geri döner; geri alma bir istihkak sorununa dönüşür.\n\nNitelendirme şu sonuçları etkiler:\n- **Zamanaşımı:** İade sebepsiz zenginleşmeye dayanıyorsa kural olarak TBK m. 82'deki iki ve on yıllık süreler, sözleşmeden doğuyorsa TBK m. 146'daki on yıllık süre gündeme gelir.\n- **Elden çıkma savunması:** Zenginleşmenin elden çıktığı savunması (TBK m. 79) yalnız sebepsiz zenginleşme görüşünde gündeme gelir.\n- **Karşılıklılık:** Dönüşüm görüşünde iade borçları sözleşmeden doğduğu için karşılıklı ifa kuralı (TBK m. 97) doğrudan uygulanır.\n- **Dönmede müspet zarar:** Dönüşüm görüşünü benimseyenlerin bir kısmı, dönmeden sonra da müspet zararın istenebilmesi gerektiğini savunur. Türk uygulaması kural olarak kanunun lafzına uyar ve dönmede menfi zararla yetinir.\n\n### Fark mı, değişim mi?\nÖğretide ağırlıklı görüş fark teorisini benimser; satıştaki somut ve soyut hesap kuralları (TBK m. 213, 236) da bu mantığa dayanır. Değişim teorisini savunanlar, alacaklının kendi ediminden kurtulmakta meşru bir menfaati olabileceğini hatırlatır. Ayrıca fark hesabında alacaklının, aslında ifa edemeyecek durumda olduğu ya da değerini kendi lehine biçtiği bir edimi hesaba katabileceğini belirtirler. Üçüncü bir görüş alacaklıya iki yöntem arasında seçim hakkı tanır. Alacaklı kendi edimini zaten ifa etmişse sonuç fiilen değişim yöntemine yaklaşır.\n\n### Hemen bildirimde bulunulmazsa\nÖğretideki yaygın görüşe göre süre dolduktan sonra susan alacaklı ifa isteminde kalmış sayılır; bir görüşe göre yeni bir süre vererek seçim imkânını yeniden kazanabilir. Süre verilmesi gerekmeyen hâllerde bildirimin gerekip gerekmediği de tartışmalıdır. Bir görüş, özellikle ifanın yararsız kaldığı ve kesin vadeli işlemlerde alacaklıyı ayrıca bildirim yüküyle bağlamanın gereksiz olduğunu savunur. Başka bir görüş, borçluyu belirsizlikten kurtarmak için bu hâllerde susan alacaklının sözleşmeden dönmüş sayılmasını önerir. Belirli süreli ticari satışta kanun bu sorunu kendisi çözmüş ve susan alıcının tazminatı seçtiğini kabul etmiştir (TBK m. 212/2).",
+  "glossary": [
+   {
+    "term": "Karşılıklı borç yükleyen sözleşme",
+    "definition": "İki tarafın da birbirinin karşılığı olan asli edim borcu altına girdiği sözleşme; satış, kira, eser gibi."
+   },
+   {
+    "term": "Uygun süre (ek süre)",
+    "definition": "Temerrüde düşen borçluya, alacaklının ifadan vazgeçme ya da dönme yoluna gitmeden önce tanıdığı son ifa fırsatı (TBK m. 123)."
+   },
+   {
+    "term": "Kesin vadeli işlem",
+    "definition": "Belirli zamanda yapılmayan ifanın artık kabul edilmeyeceğinin sözleşmeden anlaşıldığı işlem. Süre verilmesine gerek yoktur (TBK m. 124/3)."
+   },
+   {
+    "term": "Seçimlik haklar",
+    "definition": "Süre sonuçsuz kalınca alacaklının seçebileceği üç yol: ifa ve gecikme tazminatı, ifadan vazgeçip müspet zarar, sözleşmeden dönme (TBK m. 125)."
+   },
+   {
+    "term": "Gecikme tazminatı",
+    "definition": "İfanın geç yapılmasından doğan zararın karşılığı. Sözleşme ayakta kalır ve tazminat edimle birlikte istenir (TBK m. 118)."
+   },
+   {
+    "term": "Müspet (olumlu) zarar",
+    "definition": "Sözleşme gereği gibi ve zamanında ifa edilseydi alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark; ifa menfaati."
+   },
+   {
+    "term": "Menfi (olumsuz) zarar",
+    "definition": "Sözleşme hiç yapılmasaydı alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark; güven menfaati."
+   },
+   {
+    "term": "Fark teorisi",
+    "definition": "İfadan vazgeçen alacaklının kendi edimini ifa etmeden, iki edimin değeri arasındaki farkı tazminat olarak istemesi."
+   },
+   {
+    "term": "Değişim (mübadele) teorisi",
+    "definition": "İfadan vazgeçen alacaklının kendi edimini ifa edip borçlunun ediminin tam değerini tazminat olarak istemesi."
+   },
+   {
+    "term": "Somut zarar hesabı",
+    "definition": "Dürüstlük kurallarına uygun yerine alım ya da yerine satış bedeli ile sözleşme bedeli arasındaki farka göre yapılan hesap (TBK m. 213/2, m. 236/2)."
+   },
+   {
+    "term": "Soyut zarar hesabı",
+    "definition": "Borsa ya da piyasa fiyatı ile sözleşme bedeli arasındaki farka göre, fiilen yerine alım yapılmadan yapılan hesap (TBK m. 213/3, m. 236/3)."
+   },
+   {
+    "term": "Sözleşmeden dönme",
+    "definition": "Sözleşmeyi tek taraflı beyanla sona erdiren bozucu yenilik doğurucu hak. Taraflar ifa borcundan kurtulur ve verdiklerini geri ister (TBK m. 125/3)."
+   },
+   {
+    "term": "Fesih (sürekli edimli sözleşmede)",
+    "definition": "Sözleşmeyi ileriye etkili olarak sona erdiren beyan. Geçmişte karşılıklı ifa edilmiş edimler iade edilmez (TBK m. 126)."
+   },
+   {
+    "term": "Tasfiye ilişkisi (dönüşüm) görüşü",
+    "definition": "Dönmeyle sözleşmenin ortadan kalkmadığını, karşılıklı geri verme borçlarını içeren bir ilişkiye dönüştüğünü savunan görüş."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "123",
+   "official_text": "MADDE 123- Karşılıklı borç yükleyen sözleşmelerde, taraflardan biri temerrüde düştüğü takdirde diğeri, borcun ifa edilmesi için uygun bir süre verebilir veya uygun bir süre verilmesini hâkimden isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "124",
+   "official_text": "MADDE 124- Aşağıdaki durumlarda süre verilmesine gerek yoktur:\n1. Borçlunun içinde bulunduğu durumdan veya tutumundan süre verilmesinin etkisiz olacağı anlaşılıyorsa.\n2. Borçlunun temerrüdü sonucunda borcun ifası alacaklı için yararsız kalmışsa.\n3. Borcun ifasının, belirli bir zamanda veya belirli bir süre içinde gerçekleşmemesi üzerine, ifanın artık kabul edilmeyeceği sözleşmeden anlaşılıyorsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "126",
+   "official_text": "MADDE 126- İfasına başlanmış sürekli edimli sözleşmelerde, borçlunun temerrüdü hâlinde alacaklı, ifa ve gecikme tazminatı isteyebileceği gibi, sözleşmeyi feshederek, sözleşmenin süresinden önce sona ermesi yüzünden uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "118",
+   "official_text": "MADDE 118- Temerrüde düşen borçlu, temerrüde düşmekte kusuru olmadığını ispat etmedikçe, borcun geç ifasından dolayı alacaklının uğradığı zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "119",
+   "official_text": "MADDE 119- Temerrüde düşen borçlu, beklenmedik hâl sebebiyle doğacak zarardan sorumludur.\nBorçlu, temerrüde düşmekte kusuru olmadığını veya borcunu zamanında ifa etmiş olsaydı bile beklenmedik hâlin ifa konusu şeye zarar vereceğini ispat ederek bu sorumluluktan kurtulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "122",
+   "official_text": "MADDE 122- Alacaklı, temerrüt faizini aşan bir zarara uğramış olursa, borçlu kendisinin hiçbir kusuru bulunmadığını ispat etmedikçe, bu zararı da gidermekle yükümlüdür.\nTemerrüt faizini aşan zarar miktarı görülmekte olan davada belirlenebiliyorsa, davacının istemi üzerine hâkim, esas hakkında karar verirken bu zararın miktarına da hükmeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "97",
+   "official_text": "MADDE 97- Karşılıklı borç yükleyen bir sözleşmenin ifası isteminde bulunan tarafın, sözleşmenin koşullarına ve özelliklerine göre daha sonra ifa etme hakkı olmadıkça, kendi borcunu ifa etmiş ya da ifasını önermiş olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "113",
+   "official_text": "MADDE 113- Yapma borcu, borçlu tarafından ifa edilmediği takdirde alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini isteyebilir; her türlü giderim isteme hakkı saklıdır.\nYapmama borcuna aykırı davranan borçlu, bu aykırı davranışının doğurduğu zararı gidermekle yükümlüdür.\nAlacaklı, ayrıca borca aykırı durumun ortadan kaldırılmasını veya bu konuda masrafı borçluya ait olmak üzere kendisinin yetkili kılınmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "114",
+   "official_text": "MADDE 114- Borçlu, genel olarak her türlü kusurdan sorumludur. Borçlunun sorumluluğunun kapsamı, işin özel niteliğine göre belirlenir. İş özellikle borçlu için bir yarar sağlamıyorsa, sorumluluk daha hafif olarak değerlendirilir.\nHaksız fiil sorumluluğuna ilişkin hükümler, kıyas yoluyla sözleşmeye aykırılık hâllerine de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "52",
+   "official_text": "MADDE 52- Zarar gören, zararı doğuran fiile razı olmuş veya zararın doğmasında ya da artmasında etkili olmuş yahut tazminat yükümlüsünün durumunu ağırlaştırmış ise hâkim, tazminatı indirebilir veya tamamen kaldırabilir.\nZarara hafif kusuruyla sebep olan tazminat yükümlüsü, tazminatı ödediğinde yoksulluğa düşecek olur ve hakkaniyet de gerektirirse hâkim, tazminatı indirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "136",
+   "official_text": "I. Genel olarak\nMADDE 136- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle imkânsızlaşırsa, borç sona erer.\nKarşılıklı borç yükleyen sözleşmelerde imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlü olup, henüz kendisine ifa edilmemiş olan edimi isteme hakkını kaybeder. Kanun veya sözleşmeyle borcun ifasından önce doğan hasarın alacaklıya yükletilmiş olduğu durumlar, bu hükmün dışındadır.\nBorçlu ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmez ve zararın artmaması için gerekli önlemleri almazsa, bundan doğan zararları gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "79",
+   "official_text": "MADDE 79- Sebepsiz zenginleşen, zenginleşmenin geri istenmesi sırasında elinden çıkmış olduğunu ispat ettiği kısmın dışında kalanı geri vermekle yükümlüdür.\nZenginleşen, zenginleşmeyi iyiniyetli olmaksızın elden çıkarmışsa veya elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gerekiyorsa, zenginleşmenin tamamını geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "82",
+   "official_text": "MADDE 82- Sebepsiz zenginleşmeden doğan istem hakkı, hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlayarak iki yılın ve her hâlde zenginleşmenin gerçekleştiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nZenginleşme, zenginleşenin bir alacak hakkı kazanması suretiyle gerçekleşmişse diğer taraf, istem hakkı zamanaşımına uğramış olsa bile, her zaman bu borcunu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "212",
+   "official_text": "MADDE 212- Satıcının temerrüdü hâlinde, borçlunun temerrüdüne ilişkin genel hükümler uygulanır.\nZilyetliğin devri için belirli bir süre konulmuş olan ticari satışlarda, satıcı temerrüde düşerse alıcının, devir isteminden vazgeçerek borcun ifa edilmemesinden doğan zararının giderilmesini istediği kabul edilir.\nAlıcı, satılanın devredilmesini isteme niyetinde ise, belirlenen sürenin bitiminde bunu satıcıya hemen bildirmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "213",
+   "official_text": "MADDE 213- Borcunu ifa etmeyen satıcı, alıcının bu yüzden uğradığı zararı gidermekle yükümlüdür.\nSatıcı borcunu ifa etmezse alıcı, satış bedeli ile kendisine devredilmeyen satılanın yerine, bir başkasını satın almak için dürüstlük kurallarına uygun olarak ödediği bedel arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.\nSatılan, borsada kayıtlı veya piyasa fiyatı bulunan mallardan ise alıcı, onun yerine bir başkasını satın alma zorunda olmaksızın, satış bedeli ile belirlenmiş ifa günündeki piyasa fiyatı arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "235",
+   "official_text": "MADDE 235- Satılanın, ancak satış bedeli ödendikten sonra veya ödenme anında devredilmesi gereken durumlarda alıcı temerrüde düşerse satıcı, herhangi bir işlem gerekmeksizin satıştan dönebilir.\nBu hakkını kullanmak isteyen satıcı, durumu gecikmeksizin alıcıya bildirmek zorundadır.\nSatılanın zilyetliği satış bedeli ödenmeden alıcıya devredilmişse, alıcının temerrüdü sebebiyle satıcının dönme hakkını kullanarak satılanı geri alması, bu hakkın sözleşmede açıkça saklı tutulmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "236",
+   "official_text": "MADDE 236- Borcunu ifa etmeyen alıcı, satıcının bu yüzden uğradığı zararı gidermekle yükümlüdür.\nSatıcı, satış bedelini ödemede temerrüde düşmüş olan alıcıdan, bu bedel ile satılanın başkasına dürüstlük kurallarına uygun olarak satışından elde ettiği bedel arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.\nSatılan, borsada kayıtlı veya piyasa fiyatı bulunan mallardan ise satıcı, böyle bir satışa gerek kalmaksızın alıcıdan, satış bedeli ile malın belirlenmiş ödeme günündeki fiyatı arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "382",
+   "official_text": "Çekişmesiz yargı işleri\nMADDE 382- (1) Çekişmesiz yargı, hukukun, mahkemelerce, aşağıdaki üç ölçütten birine veya birkaçına göre bu yargıya giren işlere uygulanmasıdır:\na) İlgililer arasında uyuşmazlık olmayan hâller.\nb) İlgililerin, ileri sürülebileceği herhangi bir hakkının bulunmadığı hâller.\nc) Hâkimin resen harekete geçtiği hâller.\n(2) Aşağıdaki işler çekişmesiz yargı işlerinden sayılır:\na) Kişiler hukukundaki çekişmesiz yargı işleri:\n1) Ergin kılınma.\n2) Ad ve soyadın değiştirilmesi.\n3) Ölüm karinesi sebebiyle (ilgili yerin mülkî amirinin emriyle) nüfus kütüğüne ölü kaydı düşülen kişinin sağ olduğunun tespiti.\n4) Gaiplik kararı.\n5) Kişisel durum sicilindeki kaydın düzeltilmesi.\nb) Aile hukukundaki çekişmesiz yargı işleri:\n1) Henüz evlenme yaşında olmayanların evlenmesine izin verme.\n2) Gaiplik nedeniyle evliliğin feshi.\n3) Evlendirme memurunun, evlenme başvurusunu ret kararına karşı yapılan itiraz.\n4) Yeniden evlenmede bekleme süresinin hâkim tarafından kaldırılması.\n5) Terk eden eşin ortak konuta davet edilmesi.\n6) Eşlerden birinin, evlilik birliğini tek başına temsil etmek konusunda yetkili kılınması.\n7) Aile konutu ile ilgili işlemler için diğer eşin rızasının sağlanamadığı hâllerde hâkimin müdahalesinin istenmesi.\n8) Mevcut mal rejiminin eşlerden birinin veya alacaklıların talebiyle mal ayrılığına dönüştürülmesi ve sebeplerin ortadan kalkması hâlinde mal ayrılığından eski rejime geri dönülmesi.\n9) Paylaşmalı mal ayrılığında boşanma veya evliliğin iptali hâlinde, aile konutu ve ev eşyasını hangi eşin kullanmaya devam edeceği hakkında karar verilmesi.\n10) Sağ kalan eşe aile konutu üzerinde ve ev eşyası üzerinde mülkiyet veya intifa hakkı tanınması.\n11) Mal ortaklığında eşlerden birinin mirası reddine izin verilmesi.\n12) Ana babaya çocuğun mallarından bir kısmını çocuğun bakım ve eğitimi için sarf etme izninin verilmesi.\n13) Velayetin kaldırılması, velayetin eşlerden birinden alınarak diğerine verilmesi ve kaldırılan velayetin geri verilmesi.\n14) Hâkimin çocuğun mallarının yönetimine müdahale etmesi ve çocuğun mallarının yönetiminin kayyıma devri.\n15) Evlilik sona erince velayet kendisinde kalan eşin, hâkime çocuğun malları hakkında defter sunması.\n16) Aile yurdunun kurulmasına izin verilmesi, kuruluşun tebliğ ve ilanı, kapatılması hâlinde tapu sicilindeki şerhin silinmesine izin verilmesi, taşınmazın bizzat malik veya ailesi tarafından kullanılması şartına geçici olarak istisna tanınması.\n17) 14/1/1998 tarihli ve 4320 sayılı Ailenin Korunmasına Dair Kanuna göre aile mahkemesi hâkimi tarafından karar verilecek tedbirler.\n18) Çocuk hâkimi tarafından, çocuğun anası, babası, vasisi, bakım ve gözetiminden sorumlu kimse, Sosyal Hizmetler ve Çocuk Esirgeme Kurumu ve Cumhuriyet savcısının istemi üzerine veya resen çocuklar hakkında koruyucu ve destekleyici tedbir kararı alınması.\n19) Vesayet işleri.\nc) Miras hukukundaki çekişmesiz yargı işleri:\n1) Sulh hâkimi tarafından resmî vasiyetname düzenlenmesi; el yazısı ile vasiyetnamenin sulh hâkimi tarafından saklanması; sözlü vasiyetname tutanağının sulh veya asliye mahkemesine tevdiî.\n2) Vasiyeti yerine getirme görevlisine görevinin bildirilmesi.\n3) Vasiyeti yerine getirme görevlisinin tereke malları üzerinde tasarruf etmesine izin verilmesi.\n4) Gaibin mirasçılarına, gaibe düşen miras payının teslim edilmesi.\n5) Tereke mallarının korunması ve hak sahiplerine ulaşmasını sağlamak için önlem alınması.\n6) Mirasçılık belgesi verilmesi.\n7) Terekenin yazımı işleminin sona erdiğinin mirasçılara bildirilmesi, mirasın reddi beyanının tespiti ve tescili; mirasın reddinin, mirası reddeden kişiden sonra gelen mirasçılara bildirilmesi; mirasın reddi süresinin uzatılması.\n8) Terekenin resmî defterinin tutulması.\n9) Sulh hâkiminin özellikleri olan eşyanın mirasçılardan birine tahsis edilmesi veya satılmasına karar vermesi.\nç) Eşya hukukundaki çekişmesiz yargı işleri:\n1) Taşınmaz üzerinde taraf oluşturulmasına ve hak ihlaline sebebiyet vermeyecek düzeltmelerin yapılması.\n2) Taşınmaz rehninde alacaklı için kayyım tayini.\nd) Borçlar hukukundaki çekişmesiz yargı işleri:\n1) Yetkisi sona eren temsilcinin temsil belgesini mahkemeye teslimi.\n2) Borçluya ifa veya teminat göstermesi için süre verilmesi.\n3) Tevdi mahalli belirlenmesi veya tevdi edilemeyecek eşyanın satılması.\n4) Alacaklısı ihtilaflı olan borcun mahkemeye tevdiî.\n5) Ayıplı hayvanın bilirkişi tarafından muayenesi.\n6) Mesafeli satımlarda ayıbın tespiti veya ayıplı malın satılmasına izin verilmesi.\n7) İşçiye kârdan hisse verilmesini öngören iş sözleşmesinde, mahkemenin işverenin hesaplarını inceleyecek bir kişi tayin etmesi.\n8) Eser sözleşmesinde eserin ayıplı olup olmadığının bilirkişiye tespit ettirilmesi.\n9) Satılmak için komisyoncuya gönderilen eşyanın hasarının tespiti.\n10) Komisyoncu elindeki malın açık artırma ile satışına izin verilmesi.\ne) Ticaret hukukundaki çekişmesiz yargı işleri:\n1) Ticari defterlerin zıyaı hâlinde belge verilmesi.\n2) Acentenin müvekkili hesabına teslim aldığı malın Borçlar Kanununa göre satılması.\n3) Kollektif şirketin tasfiyesinde tasfiye memuru tayini.\n4) Komanditer ortağın talebiyle şirket hesaplarını incelemek için eksper tayini.\n5) Anonim şirkette ayni sermaye konulması, tescilden itibaren iki yıl içinde sermayenin onda birini aşan tutarda işletme devralınması ve sermaye azaltılmasında bilirkişi raporu alınması ve mahkemenin izni.\n6) Kıymetli evrakın iptali.\n7) Eşya taşımada eşyanın hasar ve eksiğinin tespit edilmesi; teslim edilememesi hâlinde Borçlar Kanunu hükümlerine göre satılmasına karar verilmesi; gönderilen eşyanın mahkeme marifetiyle muayenesi.\n8) Gemi ipoteğinde, malikin bulunamadığı hâllerde kayyım tayini.\n9) Deniz raporu tanzimi.\n10) Kırkambar sözleşmesinde geminin hareket gününün mahkeme tarafından tayini.\n11) Navlun sözleşmesinde, boşaltma limanında malların hâl ve vaziyetinin, ölçü, sayı ve tartısının ekspere tespit ettirilmesi.\n12) Müşterek avaryalarda dispeççi tayini ve dispecin mahkemece tasdiki.\n13) Denizcilik rizikolarına karşı sigortalarda zararın ve kapsamının belirlenmesi için bilirkişi tayini.\n14) Kooperatiflerde ayni sermayeye değer biçilmesi için bilirkişi tayini.\nf) İcra ve iflas hukukundaki çekişmesiz yargı işleri:\n1) İpotekli alacakta alacaklının gaipliği veya alacağı almaktan kaçınması hâlinde, borç tutarının icra dairesine tevdi edilmesi üzerine icra mahkemesi tarafından ipoteğin fekkine karar verilmesi.\n2) Doğrudan doğruya iflas.\n3) İflasın kaldırılması.\n4) İflasın kapanmasına karar verilmesi.\n5) Reddolunmuş mirasın tasfiyesinin, mirasçılardan birinin mirası kabul talebi üzerine mahkeme tarafından durdurulması.\n6) Konkordato mühleti verilmesi ve komiserin atanması.\n7) Konkordatonun tasdiki.\n8) Sermaye şirketleri ve kooperatiflerin uzlaşma yoluyla yeniden yapılandırılmasında projenin ilanı ve ara dönem denetçisinin atanması.\n9) Fevkalade hâllerde, kusuru olmaksızın borçlarını yerine getiremeyen borçluya mühlet verilmesi.\ng) Çeşitli kanunlardaki çekişmesiz yargı işleri:\n1) Nüfus kütüklerinin sayfa birleşim yerlerinin asliye hukuk mahkemesince mühürlenmesi.\n2) Noterlerin göreve başlarken mahkemede yemin ettirilmeleri.\n3) Noter evrak ve defterlerinden alınarak başka yere gönderilecek örneklerin mahkeme tarafından tasdiki.\n4) Kamu görevlilerinin mahkeme huzurunda kanunen yemin etme zorunluluğunun öngörüldüğü diğer durumlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2021/874",
+   "karar_no": "2023/118",
+   "decision_date": "22.02.2023",
+   "summary_md": "Noterde düzenleme şeklinde yapılan bir arsa payı karşılığı inşaat sözleşmesinde arsa sahipleri yükleniciyi vekâletten azletmiş ve sözleşmeyi feshedeceklerini ihtar etmiştir. Yüklenici feshin haksızlığının tespitini, sözleşmeye güvenerek yaptığı harcamaları ve inşaat tamamlansaydı elde edeceği kârı istemiş; arsa sahipleri de karşı davada fesih talep etmiştir. İlk derece mahkemesi feshin haksız olduğunu tespit edip harcamalara hükmetmiş, kâr kaybını ise geriye etkili fesihte müspet zarar istenemeyeceği gerekçesiyle reddetmiştir; bölge adliye mahkemesi de sözleşmenin geriye etkili feshine karar verip kâr kaybı istemini reddetmiş ve Özel Daire'nin bozmasına karşı direnmiştir. Hukuk Genel Kurulu oy çokluğuyla direnme kararını bozmuştur. Gerekçeye göre müspet zarar, borç gereği gibi ifa edilseydi alacaklının malvarlığının bulunacağı durum ile mevcut durum arasındaki farktır ve kâr kaybını kapsar; menfi zarar ise sözleşme yapılmasaydı uğranılmayacak zarardır. Arsa sahiplerinin sözleşmeyi haksız feshettiği kesinleştiğinden kusursuz yüklenici kâr kaybını müspet zarar olarak isteyebilir; karşı oy, geriye etkili fesih kesinleştiği için bunun istenemeyeceğini savunmuştur. Konuya katkısı: iki zarar türünün Yargıtay'daki tanımını ve sözleşmeyi kusuruyla sona erdiren tarafın müspet zarardan sorumluluğunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/897478600",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/5904",
+   "karar_no": "2026/3307",
+   "decision_date": "21.05.2026",
+   "summary_md": "Davacı, noterde düzenleme şeklinde yapılan bir satış vaadi sözleşmesiyle davalıdan bir zeytinliğin 1.000 m²'lik payını satın almış ve 33.500 TL bedeli sözleşme günü ödemiştir; pay en geç 31.12.2014'te devredilecekti. Devir yapılmamış, taşınmaz 07.11.2018'de icra yoluyla üçüncü kişiye satılmıştır. İlk derece mahkemesi bu tarihteki rayiç değeri esas alarak ödenen bedelin iadesine ve rayiç ile bedel arasındaki farkın müspet zarar olarak ödenmesine karar vermiş, bölge adliye mahkemesi istinafı reddetmiştir. Yargıtay 3. Hukuk Dairesi'ne göre geçerli bir satış vaadinde satıcı ifayı kendi kusuruyla imkânsız kılarsa TBK m. 112 uyarınca alıcının müspet zararını öder ve alıcı, ifanın imkânsız hâle geldiği tarihteki rayiç değeri isteyebilir. Davacı devri ancak dava açtığında öğrendiğini bildirmiş, aksi de ispatlanmamıştır; bu yüzden rayiç değer dava tarihine göre belirlenmeli, karar bu yönden davacı yararına bozulmuştur. Konuya katkısı: bedeli ödemiş alıcının müspet zararının ifa edilmeyen edimin, yani taşınmazın güncel değeri üzerinden hesaplandığını ve hesap tarihinin nasıl belirlendiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1219369200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2023/4585",
+   "karar_no": "2024/605",
+   "decision_date": "13.02.2024",
+   "summary_md": "Davacı, jeotermal bir sahadan elektrik üretmek amacıyla kaynak kullanım hakkını kiralamış ve kesin teminat mektubu vermiştir; kira ilişkisinin ifası, kurulacak üretim tesisinin geçici kabulüyle başlayacaktı. Çevresel etki değerlendirmesi olumlu kararı idare mahkemesince iptal edilip imar planı onaylanmayınca tesis kurulamamış, davacı ihtarnameyle sözleşmeden döndüğünü bildirip teminat mektubunun iadesini istemiştir. İlk derece mahkemesi saha teslim edildiği için ifaya geçildiğini, artık ancak fesih söz konusu olabileceğini belirterek davayı reddetmiş; bölge adliye mahkemesi de dönme karşı tarafça kabul edilmediği hâlde tespit davası açılmadığı gerekçesiyle istinafı reddetmiştir. Yargıtay 3. Hukuk Dairesi kararı davacı yararına bozmuştur: Kira ilişkisinin ifasına henüz başlanmamıştır, kiralanan kullanmaya elverişli ve hukuki ayıptan ari biçimde teslim edilememiştir ve kiracının TBK m. 125'teki seçimlik hakkını dönme yönünde kullanmasında usulsüzlük yoktur. Dönme bozucu yenilik doğuran bir haktır; kullanılmasıyla sözleşme geçmişe etkili olarak ortadan kalkar ve mahkeme davanın esasını incelemelidir. Konuya katkısı: sürekli edimli bir sözleşmede ifaya başlanmamışsa dönmenin mümkün olduğunu ve dönmenin, bozucu yenilik doğuran bir hak olarak karşı tarafın kabulüne bağlı olmadığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1011085100",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 123'e göre karşılıklı borç yükleyen bir sözleşmede taraflardan biri temerrüde düşerse diğer taraf ne yapabilir?",
+   "options": [
+    "Borcun ifası için kendisi uygun bir süre verebilir ya da uygun bir sürenin hâkim tarafından verilmesini isteyebilir.",
+    "Süre vermeden, her durumda doğrudan sözleşmeden dönebilir.",
+    "Borçluya kanunda belirlenmiş otuz günlük süreyi vermek zorundadır.",
+    "Yalnız hâkimden süre isteyebilir; kendi verdiği süre hüküm doğurmaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 123'e göre alacaklı borcun ifası için uygun bir süre verebilir ya da uygun bir süre verilmesini hâkimden isteyebilir. Kanun belirli bir gün sayısı öngörmez; sürenin uygunluğu somut olaya göre belirlenir. Süre vermeden ifadan vazgeçme ya da dönme ancak TBK m. 124'teki hâllerde mümkündür."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 124'te süre verilmesini gereksiz kılan hâller arasında **sayılmamıştır**?",
+   "options": [
+    "Borçlunun durumundan veya tutumundan süre verilmesinin etkisiz olacağının anlaşılması",
+    "Borçlunun temerrüde düşmekte kusurlu olması",
+    "Belirli zamanda yapılmayan ifanın artık kabul edilmeyeceğinin sözleşmeden anlaşılması",
+    "Borçlunun temerrüdü sonucunda ifanın alacaklı için yararsız kalması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 124 üç hâl sayar: sürenin etkisiz kalacağının borçlunun durumundan ya da tutumundan anlaşılması, ifanın alacaklı için yararsız kalması ve kesin vade. Borçlunun kusurlu olması süre verme şartını kaldırmaz; kusur yalnız tazminat bakımından önemlidir (TBK m. 118, m. 125/3)."
+  },
+  {
+   "stem_md": "Mert, komşusu Can'dan piyanosunu satın almıştır. Sözleşmeye göre piyano 5 Mayıs'ta teslim edilecektir; sözleşmede başka bir kayıt yoktur. Can 5 Mayıs'ta teslim etmez, ama ifa etmeyeceğine dair bir beyanda da bulunmaz. Mert 6 Mayıs'ta, hiçbir süre vermeden, sözleşmeden döndüğünü bildirir. Mert'in dönme beyanı hakkında hangisi doğrudur?",
+   "options": [
+    "Sonuç doğurur; temerrüt hâlinde dönme için süre hiçbir zaman gerekmez.",
+    "Sonuç doğurmaz; belirli ifa günü yalnız ihtarı gereksiz kılar, TBK m. 124'teki bir hâl bulunmadığından Mert önce uygun bir süre vermelidir.",
+    "Sonuç doğurur; teslim günü belirlendiği için süre verilmesine gerek yoktur.",
+    "Sonuç doğurmaz; çünkü sözleşmeden dönme ancak mahkeme kararıyla mümkündür."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Belirli ifa gününün geçmesiyle Can ihtara gerek olmadan temerrüde düşmüştür (TBK m. 117/2). Ancak dönme için kural olarak uygun bir süre verilmeli ve bu süre sonuçsuz kalmalıdır (TBK m. 123, m. 125). Sözleşmede geç ifanın kabul edilmeyeceğine dair bir kayıt ya da m. 124'teki başka bir hâl yoktur. Dönme tek taraflı beyanla kullanılır; kural olarak mahkeme kararı gerekmez."
+  },
+  {
+   "stem_md": "Ayşe, 14 Haziran'daki düğününde takmak üzere Fatma'dan antika bir gelin tacı satın almıştır. Sözleşmede \"Taç en geç 12 Haziran'da teslim edilecek, bu tarihten sonra teslim kabul edilmeyecektir\" kaydı vardır. Fatma 12 Haziran'da teslim etmez. Ayşe'nin durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Ayşe süre vermeden, ifadan vazgeçtiğini hemen bildirerek tazminat isteyebilir ya da sözleşmeden dönebilir.",
+    "Sözleşme kendiliğinden sona ermiştir; Ayşe hiçbir tazminat isteyemez.",
+    "Ayşe yalnız tacın teslimini ve gecikme tazminatını isteyebilir.",
+    "Ayşe önce Fatma'ya uygun bir süre vermek zorundadır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Belirli zamanda yapılmayan ifanın artık kabul edilmeyeceği sözleşmeden anlaşıldığı için süre verilmesine gerek yoktur (TBK m. 124/3). Ayşe vazgeçtiğini hemen bildirerek müspet zararını isteyebilir ya da dönebilir (TBK m. 125/2). Kesin vade sözleşmeyi kendiliğinden sona erdirmez; seçim yine alacaklınındır."
+  },
+  {
+   "stem_md": "Satıcı Kerem, kararlaştırılan teslim günü geçtikten sonra alıcı Deniz'e \"Hammadde fiyatları arttı; bu fiyata kesinlikle teslim etmeyeceğim\" diye yazılı bildirimde bulunur. Deniz sözleşmeden dönmek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Fiyat artışı Kerem'i kendiliğinden borçtan kurtardığı için Deniz hiçbir hak kullanamaz.",
+    "Deniz yine de en az otuz günlük bir süre vermek zorundadır.",
+    "Deniz'in süre vermesine gerek yoktur; borçlunun tutumundan sürenin etkisiz kalacağı anlaşılmaktadır.",
+    "Deniz ancak hâkimden süre istedikten sonra dönebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Borçlunun durumundan veya tutumundan süre verilmesinin etkisiz olacağı anlaşılıyorsa süre gerekmez (TBK m. 124/1). Kerem'in açık ve kesin ifadan kaçınma beyanı bunun tipik örneğidir. Deniz, ifadan vazgeçtiğini hemen bildirerek dönebilir (TBK m. 125/2). Fiyat artışı borçluyu kendiliğinden borçtan kurtarmaz; aşırı ifa güçlüğü ayrı şartlara bağlıdır ve ayrı konudur."
+  },
+  {
+   "stem_md": "Selim, satıcıya teslim için 15 günlük uygun bir süre vermiştir. Satıcı malı 12. günde teslim etmeyi önerir. Bu arada fiyatlar düştüğü için Selim malı almak istemez ve sözleşmeden döndüğünü bildirir. Hangisi doğrudur?",
+   "options": [
+    "Selim dönemez; süre içinde sunulan ifayı kabul etmelidir, ancak gecikme zararını isteyebilir.",
+    "Selim dönemez ve gecikme zararını da isteyemez.",
+    "Selim dönebilir, ama yalnız menfi zararını isteyebilir.",
+    "Selim dönebilir; çünkü borçlu bir kez temerrüde düşmüştür."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Süre, borçluya tanınan son ifa fırsatıdır. TBK m. 125 seçimlik hakları borçlunun verilen süre içinde ifa etmemesine bağlar; süre içinde ifa sunulmuşsa ifadan vazgeçme ve dönme yolları açılmaz. Temerrüt süre boyunca da devam ettiğinden, gecikme yüzünden doğan zarar borçlu kusursuzluğunu ispat etmedikçe istenebilir (TBK m. 118)."
+  },
+  {
+   "stem_md": "TBK m. 125/1'e göre alacaklının borcun ifasını ve gecikme tazminatını istemesi hakkında hangisi doğrudur?",
+   "options": [
+    "Bu yol seçilince sözleşme sona erer ve yalnız tazminat borcu kalır.",
+    "Alacaklı bunları her zaman isteyebilir; bunun için ayrıca süre verilmesi gerekmez.",
+    "Ancak verilen süre dolduktan sonra istenebilir.",
+    "Ancak borçlu ağır kusurluysa istenebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 125/1'e göre alacaklı her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir. Süre şartı ifadan vazgeçme ve dönme yolları içindir. Bu yolda sözleşme aynen sürer. Borçlu, temerrüde düşmekte kusuru olmadığını ispat ederek gecikme tazminatından kurtulabilir (TBK m. 118)."
+  },
+  {
+   "stem_md": "TBK m. 125/2'ye göre alacaklının ifadan vazgeçip tazminat isteyebilmesi ya da sözleşmeden dönebilmesi için **hemen bildirmesi** gereken husus hangisidir?",
+   "options": [
+    "Borçlunun kusurunu ispat edecek deliller",
+    "Zararın miktarı ve dayanağı olan belgeler",
+    "Borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiği",
+    "Dava açacağı mahkeme"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kanun, alacaklının borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirmesini arar (TBK m. 125/2). Amaç borçluyu belirsizlikten ve alacaklının fiyat hareketlerine göre spekülasyon yapmasından korumaktır. Zararın miktarı sonraki aşamanın konusudur; menfi zararda kusursuzluğu ispat yükü zaten borçludadır."
+  },
+  {
+   "stem_md": "Sözleşmeden dönmenin hukuki niteliğine ilişkin **dönüşüm (tasfiye ilişkisi) görüşüne** göre dönmenin sonucu nedir?",
+   "options": [
+    "Sözleşme ortadan kalkmaz; ifa borçları sona erer ve sözleşme karşılıklı geri verme borçlarını içeren bir tasfiye ilişkisine dönüşür.",
+    "Sözleşme aynen devam eder; alacaklı yalnız tazminat ister.",
+    "Sözleşme yalnız ileriye etkili olarak sona erer; geçmişte verilenler geri istenemez.",
+    "Sözleşme baştan itibaren hükümsüz olur ve verilenler sebepsiz zenginleşme hükümlerine göre geri istenir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Dönüşüm görüşüne göre dönme sözleşmeyi yok etmez, içeriğini değiştirir: İfa borçları sona erer, yerine sözleşmeden doğan geri verme borçları geçer. Sözleşmenin baştan hükümsüz olduğu ve iadenin sebepsiz zenginleşmeyle yapıldığı düşüncesi klasik görüşe aittir; Yargıtay uygulaması bu görüşe yakındır. Yalnız ileriye etkili sona erme ise sürekli edimli sözleşmelerdeki feshin sonucudur (TBK m. 126)."
+  },
+  {
+   "stem_md": "Sözleşmeden dönen alacaklının menfi zararını isteyebilmesi için TBK m. 125/3'e göre hangisi gerekir?",
+   "options": [
+    "Alacaklının, borçlunun temerrüde düşmekte kusurlu olduğunu ispat etmesi",
+    "Borçlunun, temerrüde düşmekte kusuru olmadığını ispat edememesi",
+    "Borçlunun ağır kusurlu olması",
+    "Sözleşmede dönme hâlinde tazminat ödeneceğinin kararlaştırılmış olması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 125/3'e göre borçlu temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararı da isteyebilir. Kusur karine olarak kabul edilmiştir ve ispat yükü borçludadır. Kusurun ağır olması ya da ayrıca bir sözleşme kaydı aranmaz."
+  },
+  {
+   "stem_md": "Koleksiyoncu Okan, yurt dışından getirttiği antika bir saati Esra'ya satmış, Esra da 300.000 TL avans ödemiştir. Saat, limanda çıkan ve Okan'ın önleyemeyeceği bir grev yüzünden teslim edilemez. Esra uygun bir süre verir, süre sonuçsuz kalır ve Esra sözleşmeden döndüğünü hemen bildirir. Okan gecikmede kusuru olmadığını ispat etmiştir. Hangisi doğrudur?",
+   "options": [
+    "Esra dönebilir ve hem avansını hem menfi zararını ister; kusursuzluk ispatı sonuç doğurmaz.",
+    "Esra yalnız ifadan vazgeçip müspet zararını isteyebilir.",
+    "Esra dönebilir ve avansını geri alır; ancak Okan kusursuzluğunu ispat ettiği için menfi zarar isteyemez.",
+    "Okan kusursuz olduğu için Esra sözleşmeden dönemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Dönme hakkı borçlunun kusuruna bağlı değildir; süre sonuçsuz kalmışsa alacaklı döner ve verdiğini geri ister (TBK m. 125/2-3). Kusur yalnız tazminatın şartıdır: Okan temerrüde düşmekte kusuru olmadığını ispat ettiği için menfi zarardan sorumlu değildir. Aynı nedenle müspet zarar da istenemez (TBK m. 112)."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi **menfi (olumsuz) zararın** tanımıdır?",
+   "options": [
+    "Sözleşme hiç yapılmasaydı alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark",
+    "İfanın geç yapılması yüzünden alacaklının uğradığı zarar",
+    "Sözleşme gereği gibi ve zamanında ifa edilseydi alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark",
+    "Para borcunda temerrüt faizini aşan zarar"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Menfi zarar, sözleşmeye duyulan güvenin boşa çıkmasından doğar ve sözleşme hiç yapılmasaydı alacaklının bulunacağı durumla karşılaştırılarak bulunur. Sözleşmenin ifa edilmiş olduğu varsayımıyla yapılan karşılaştırma müspet zararı, geç ifadan doğan zarar gecikme zararını, temerrüt faizini aşan zarar ise TBK m. 122'deki aşkın zararı anlatır. Dönmede istenen zarar menfi zarardır (TBK m. 125/3)."
+  },
+  {
+   "stem_md": "Fırıncı Hasan, tonu 10.000 TL'den 20 ton un satın almıştır; bedel teslimde ödenecektir. Satıcı teslim etmez, Hasan'ın verdiği uygun süre de sonuçsuz kalır. Hasan ifadan vazgeçtiğini hemen bildirir ve aynı kalitede unu dürüstlük kurallarına uygun olarak tonu 11.500 TL'den satın alır. Başka bir zarar yoksa Hasan satıcıdan ne kadar isteyebilir?",
+   "options": [
+    "200.000 TL",
+    "30.000 TL",
+    "230.000 TL",
+    "Hiçbir şey; çünkü bedeli ödememiştir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Somut hesapta alıcı, satış bedeli ile yerine alım için dürüstlük kurallarına uygun olarak ödediği bedel arasındaki farkı ister (TBK m. 213/2): 230.000 TL eksi 200.000 TL, yani 30.000 TL. Hasan bedeli ödemediği için 200.000 TL zaten elindedir; fark teorisine göre yalnız aradaki farkı ister. Bedeli ödememiş olmak tazminatı ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "Bir un fabrikası, borsada işlem gören 50 ton buğdayı tonu 9.000 TL'den, 10 Ekim'de teslim edilmek üzere satın almıştır. Satıcı teslim etmez. 10 Ekim'de buğdayın borsa fiyatı tonu 9.800 TL'dir. Fabrika başka yerden buğday almamıştır. Fabrikanın yerine alım yapmadan isteyebileceği fark ne kadardır?",
+   "options": [
+    "40.000 TL",
+    "490.000 TL",
+    "450.000 TL",
+    "Hiçbir şey; yerine alım yapılmadan zarar istenemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Borsada kayıtlı ya da piyasa fiyatı bulunan mallarda alıcı, başka bir mal satın almak zorunda olmaksızın satış bedeli ile belirlenmiş ifa günündeki piyasa fiyatı arasındaki farkı isteyebilir (TBK m. 213/3). Fark tonda 800 TL, 50 ton için 40.000 TL'dir. Buna soyut zarar hesabı denir."
+  },
+  {
+   "stem_md": "Kemal, değeri 2.000.000 TL olan arsasını Zeynep'in değeri 2.600.000 TL olan dairesiyle değiştirmek üzere resmî şekilde bir trampa sözleşmesi yapmıştır. Zeynep temerrüde düşer, verilen süre de sonuçsuz kalır. Kemal ifadan vazgeçtiğini hemen bildirir ve müspet zararını ister. **Fark teorisine** göre Kemal ne isteyebilir?",
+   "options": [
+    "Yalnız sözleşme masraflarını",
+    "Arsasını devretmeden 600.000 TL",
+    "Arsasını devrederek 2.600.000 TL",
+    "Arsasını devretmeden 2.600.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Fark teorisine göre ifadan vazgeçen alacaklı kendi edimini ifa etmez; borçlunun ediminin değeri ile kendi ediminin değeri arasındaki farkı ister: 2.600.000 TL eksi 2.000.000 TL, yani 600.000 TL. Arsayı devredip dairenin tam değerini istemek değişim teorisinin sonucudur. Yalnız sözleşme masraflarının istenmesi ise dönmedeki menfi zarara özgüdür."
+  },
+  {
+   "stem_md": "Ece, satın aldığı malları yeniden satarak 80.000 TL kâr edecekti. Satıcı teslim etmeyince Ece süre verir; süre sonuçsuz kalır ve Ece sözleşmeden döndüğünü hemen bildirir. Dava dilekçesinde ödediği 150.000 TL avansın iadesini, 6.000 TL sözleşme masrafını ve 80.000 TL kâr kaybını ister. Satıcı kusursuzluğunu ispat edememiştir; sözleşmede dönmeye ilişkin özel bir kayıt da yoktur. Hangisi doğrudur?",
+   "options": [
+    "Ece yalnız avansını geri isteyebilir; dönen alacaklı hiçbir tazminat isteyemez.",
+    "Ece üç kalemi de isteyebilir; çünkü satıcı kusurludur.",
+    "Ece yalnız 80.000 TL kâr kaybını isteyebilir; avans satıcıda kalır.",
+    "Ece avansını ve 6.000 TL sözleşme masrafını isteyebilir; 80.000 TL kâr kaybı müspet zarar olduğundan dönmede istenemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Dönmede taraflar ifa yükümlülüğünden kurtulur ve verdiklerini geri ister; borçlu kusursuzluğunu ispat edemezse alacaklı menfi zararı da ister (TBK m. 125/3). Sözleşme masrafı menfi zarardır. Malların yeniden satışından beklenen kâr ise sözleşme ifa edilseydi elde edilecek bir kazanç olduğundan müspet zarardır ve dönen alacaklı bunu isteyemez. Kârı isteyebilmek için Ece'nin ifadan vazgeçip müspet zarar yolunu seçmesi gerekirdi."
+  },
+  {
+   "stem_md": "İfasına başlanmış sürekli edimli bir sözleşmede borçlu temerrüde düşmüştür. TBK m. 126'ya göre alacaklının hakları arasında **yer almayan** hangisidir?",
+   "options": [
+    "İfayı ve gecikme tazminatını istemek",
+    "Sözleşmenin süresinden önce sona ermesi yüzünden uğradığı zararın giderilmesini istemek",
+    "Sözleşmeyi feshetmek",
+    "Sözleşmeden geriye etkili olarak dönüp geçmiş dönem için ödediği bütün bedellerin iadesini istemek"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 126'ya göre ifasına başlanmış sürekli edimli sözleşmelerde alacaklı ifa ve gecikme tazminatı isteyebilir ya da sözleşmeyi feshederek erken sona erme zararını isteyebilir. Kanun bu sözleşmelerde dönme yerine fesih öngörmüştür. Fesih ileriye etkilidir; geçmişte karşılıklı ifa edilmiş edimler geri istenmez."
+  },
+  {
+   "stem_md": "Lojistik Ltd., 1 Eylül'de başlayacak 12 aylık bir depolama hizmeti için Depo A.Ş. ile sözleşme yapmıştır. Depo A.Ş. hizmete hiç başlamaz; Lojistik Ltd.'nin verdiği uygun süre de sonuçsuz kalır. Lojistik Ltd.'nin hakları hakkında hangisi doğrudur?",
+   "options": [
+    "Sürekli edimli bir sözleşme olduğu için yalnız fesih yoluna gidebilir.",
+    "Yalnız ifa ve gecikme tazminatı isteyebilir; başka yolu yoktur.",
+    "Hizmete hiç başlanmadığı için temerrüt hükümleri uygulanmaz.",
+    "Sözleşmenin ifasına başlanmadığı için TBK m. 125'teki seçimlik haklardan birini kullanabilir; ifadan vazgeçtiğini hemen bildirerek sözleşmeden de dönebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 126 yalnız ifasına başlanmış sürekli edimli sözleşmeler için öngörülmüştür. İfaya hiç başlanmamışsa genel kural olan TBK m. 125 uygulanır ve alacaklı dönme dahil üç yoldan birini seçebilir. Yargıtay da kira ilişkisinin ifasına henüz başlanmamış bir sözleşmede kiracının dönme yoluna gitmesinde usulsüzlük görmemiştir."
+  },
+  {
+   "stem_md": "TBK m. 125 kapsamındaki sözleşmeden dönme beyanı hakkında **kural olarak** hangisi doğrudur?",
+   "options": [
+    "Karşı tarafa ulaşmakla hüküm doğuran tek taraflı bir beyandır ve ulaştıktan sonra geri alınamaz.",
+    "Ancak dönmenin tespiti için açılan davanın kesinleşmesiyle hüküm doğurur.",
+    "Karşı taraf kabul etmedikçe hüküm doğurmaz.",
+    "Ancak resmî şekilde yapılırsa geçerlidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Dönme bozucu yenilik doğurucu bir haktır; tek taraflı ve karşı tarafa varması gereken bir beyanla kullanılır, ulaştıktan sonra geri alınamaz. Kanun şekil aramaz. Yargıtay, dönme beyanının karşı tarafça kabul edilmediği ve ayrıca tespit davası açılmadığı bir olayda dönmenin bozucu yenilik doğuran bir hak olduğunu belirterek davanın esasının incelenmesini istemiştir. Kat karşılığı inşaat sözleşmesinde ise Yargıtay'ın ayrık bir uygulaması vardır."
+  },
+  {
+   "stem_md": "Oya, noterde düzenleme şeklinde yapılan bir satış vaadi sözleşmesiyle bir arsayı satın almış ve bedelin tamamını ödemiştir. Satıcı devri yapmayıp arsayı tapuda üçüncü bir kişiye devretmiş, Oya da bunu aynı gün öğrenmiştir. Yargıtay'ın yerleşik uygulamasına göre Oya'nın müspet zararı hangi ölçüyle belirlenir?",
+   "options": [
+    "Ödediği bedelin denkleştirici adalet ilkesine göre güncellenmiş tutarıyla",
+    "Arsanın, sözleşmenin yapıldığı tarihteki değeriyle",
+    "Yalnız ödediği bedel ve yasal faiziyle",
+    "Arsanın, ifanın imkânsız hâle geldiği tarihteki rayiç değeriyle"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Geçerli bir satış vaadinde satıcı taşınmazı üçüncü kişiye devrederek ifayı kendi kusuruyla imkânsız kılarsa alıcının müspet zararını öder (TBK m. 112). Yargıtay bu zararı taşınmazın ifanın imkânsızlaştığı tarihteki rayiç değerine göre belirler; alıcı devri sonradan öğrenmişse öğrenme tarihini esas alır. Denkleştirici adaletle güncellenmiş iade, şekle aykırı (geçersiz) satışlara özgüdür."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Veteriner hekim Zeynep, at yetiştirmeyi hobi olarak yapan emekli öğretmen Haluk'tan \"Rüzgâr\" adlı atı 900.000 TL'ye satın alır. Sözleşmeye göre at 1 Temmuz 2026'da Haluk'un çiftliğinde teslim edilecek, bedel de teslim sırasında ödenecektir. Sözleşmede teslim tarihine ilişkin başka bir kayıt yoktur.\n\n1 Temmuz'da Zeynep bedeli yanına alarak çiftliğe gider. Haluk \"Atı biraz daha yanımda tutmak istiyorum\" diyerek teslim etmez. Zeynep 3 Temmuz'da noter aracılığıyla \"Atı en geç 17 Temmuz'a kadar teslim edin\" ihtarını gönderir. Haluk cevap vermez, süre sonuçsuz geçer. Zeynep 18 Temmuz'da Haluk'a yazılı olarak \"Artık Rüzgâr'ı istemiyorum, atın teslim edilmemesinden doğan zararımı ödeyin\" diye bildirir. 25 Temmuz'da aynı nitelikte bir atı başka bir yetiştiriciden piyasa koşullarına uygun olarak 1.050.000 TL'ye satın alır.\n\n1 Ağustos'ta Haluk fikrini değiştirir: \"Atı teslim etmeye hazırım, bedeli ödeyin.\" Zeynep reddeder ve açtığı davada 150.000 TL ister. Haluk savunmasında iki haftalık sürenin kısa olduğunu, Zeynep'in teslim teklifini kabul etmesi gerektiğini, bedeli ödemeyen Zeynep'in tazminat isteyemeyeceğini ve atı teslim etmemekte kusuru bulunmadığını ileri sürer.\n\n1. Haluk temerrüde düşmüş müdür? Bunun için ihtar gerekir miydi?\n2. Zeynep'in süre vermesi gerekli miydi? Verilen süre uygun mudur?\n3. Zeynep'in 18 Temmuz tarihli bildiriminin niteliği nedir? Haluk'un 1 Ağustos'taki teklifi sonuç doğurur mu?\n4. Zeynep'in isteyebileceği tazminatın türünü ve hesabını, Haluk'un savunmalarıyla birlikte değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Belirli ifa gününün geçmesiyle ihtarsız temerrüt; Zeynep'in bedeli hazır ederek kendi edimini sunması",
+     "weight": 15,
+     "madde_ref": "TBK m. 117"
+    },
+    {
+     "point": "İfadan vazgeçmek için uygun süre verilmesinin gerekliliği; belirli günün süreyi gereksiz kılmaması ve TBK m. 124 hâllerinin bulunmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 123"
+    },
+    {
+     "point": "Teslime hazır bir at için iki haftalık sürenin uygun olduğu",
+     "weight": 10,
+     "madde_ref": "TBK m. 123"
+    },
+    {
+     "point": "18 Temmuz bildiriminin süre bitiminde hemen yapılmış ifadan vazgeçme beyanı olduğu; yenilik doğurucu beyanın geri alınamaması ve Haluk'un geç teklifinin sonuç doğurmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "Müspet zararın fark teorisine göre hesabı: Zeynep bedeli ödemeden fiyat farkını ister",
+     "weight": 15,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "Somut hesap: dürüstlük kurallarına uygun yerine alım bedeli ile satış bedeli arasındaki 150.000 TL fark",
+     "weight": 10,
+     "madde_ref": "TBK m. 213"
+    },
+    {
+     "point": "Kusur karinesi: atı elinde tutma isteğinin kusursuzluk sayılmaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 112"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Zeynep ile Haluk arasında bir taşınır satışı vardır. Satış karşılıklı borç yükleyen bir sözleşmedir. Taraflar tacir olmadığından ticari satışa ilişkin özel kural değil, satıcının temerrüdünde borçlu temerrüdüne ilişkin genel hükümler uygulanır (TBK m. 212/1).\n\n**Hukuki sorunlar:** Temerrüdün doğup doğmadığı; süre verme gerekliliği ve sürenin uygunluğu; vazgeçme beyanının niteliği ve geri alınamazlığı; müspet zararın hesabı ve kusur.\n\n**İlgili hükümler:** TBK m. 97, 112, 117, 123-125, 212, 213.\n\n**Değerlendirme:**\n1. *Temerrüt:* İfa günü sözleşmede birlikte belirlenmiştir. 1 Temmuz'un geçmesiyle Haluk ihtara gerek olmadan temerrüde düşmüştür (TBK m. 117/2). Edimler aynı anda ifa edilecekti; Zeynep bedelle birlikte çiftliğe giderek kendi edimini önermiştir (TBK m. 97). Haluk'un ödemezlik def'i yoktur.\n2. *Süre:* Zeynep atın teslimini ve gecikme zararını süre vermeden de isteyebilirdi (TBK m. 125/1). İfadan vazgeçmek için ise kural olarak uygun bir süre vermesi gerekir (TBK m. 123). Belirli ifa günü yalnız ihtarı gereksiz kılar, süreyi değil. Olayda TBK m. 124'teki hâllerden hiçbiri yoktur: Haluk ifadan açıkça kaçınmamış, atı yalnız \"biraz daha\" tutmak istemiştir. Geç ifa Zeynep için yararsız değildir ve sözleşmede geç ifanın kabul edilmeyeceğine dair bir kayıt da yoktur. Bu yüzden süre vermesi doğrudur. Teslime hazır bir at için on dört gün uygun bir süredir; Haluk'un \"süre kısaydı\" savunması yerinde değildir. Öğretideki yaygın görüşe göre süre gerçekten kısa olsaydı bile süre verme geçersiz olmaz, uygun süre işlerdi.\n3. *Bildirim ve Haluk'un teklifi:* Süre 17 Temmuz'da sonuçsuz dolmuş, Zeynep ertesi gün atı istemediğini ve zararının ödenmesini bildirmiştir. Bu, TBK m. 125/2'deki ifadan vazgeçme beyanıdır ve hemen yapılmıştır. Vazgeçme yenilik doğurucu bir beyandır; Haluk'a ulaşınca sonuç doğurmuş ve geri alınamaz hâle gelmiştir. Artık Zeynep atı isteyemeyeceği gibi Haluk da geç ifa önererek sözleşmeyi eski hâline getiremez. 1 Ağustos teklifi sonuç doğurmaz; Zeynep bedeli ödemek zorunda değildir.\n4. *Tazminat:* Zeynep ifadan vazgeçerek müspet zarar yolunu seçmiştir. Sözleşme ortadan kalkmamış, Haluk'un teslim borcu tazminat borcuna dönüşmüştür. Fark teorisine göre Zeynep kendi edimini (900.000 TL) ödemez, iki edim arasındaki farkı ister. Bu yüzden Haluk'un \"bedeli ödemeyen tazminat isteyemez\" savunması yerinde değildir. Zeynep, teslim edilmeyen atın yerine dürüstlük kurallarına uygun olarak başka bir at almış ve 1.050.000 TL ödemiştir. Satış bedeli ile bu bedel arasındaki fark, somut hesapla 150.000 TL'dir (TBK m. 213/2). Haluk, kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe bu zarardan sorumludur (TBK m. 112). Atı elinde tutmak istemesi bir kusursuzluk sebebi değil, bilerek ifadan kaçınmadır. Kusursuzluk savunması da dinlenmez.\n\n**Sonuç:** Haluk 1 Temmuz'un geçmesiyle temerrüde düşmüştür. Zeynep'in verdiği süre gerekli ve uygundur. 18 Temmuz bildirimi geçerli ve geri alınamaz bir ifadan vazgeçme beyanıdır; Haluk'un sonraki teslim teklifi Zeynep'i bağlamaz. Zeynep bedeli ödemeksizin 150.000 TL müspet zararını Haluk'tan isteyebilir."
+  },
+  {
+   "stem_md": "Öğretmen Selin ile emekli memur Bora, 20 Mart 2026'da noterde düzenleme şeklinde bir satış vaadi sözleşmesi yapar. Bora, İzmir'deki dairesini 4.000.000 TL'ye Selin'e satmayı vaat eder. Selin sözleşme günü 1.000.000 TL öder; kalan bedel 15 Mayıs'taki tapu devrinde ödenecektir. Selin sözleşme için 22.000 TL noter masrafı öder. Aynı hafta başka bir satıcının benzer bir daire için yaptığı 3.900.000 TL'lik teklifi de reddeder.\n\n15 Mayıs'ta Selin kalan bedelle tapu müdürlüğüne gider; Bora gelmez. 18 Mayıs'ta Bora, Selin'e \"Dairenin değeri 4.600.000 TL'ye çıktı, bu fiyata satmam\" diye mesaj atar. Selin 20 Mayıs'ta noter ihtarıyla sözleşmeden döndüğünü bildirir. Selin, benzer nitelikte bir daireyi artık ancak 4.200.000 TL'ye bulabilmektedir.\n\nHaziran'da açtığı davada Selin ödediği 1.000.000 TL'nin iadesini, 22.000 TL noter masrafını, reddettiği teklif nedeniyle uğradığı 300.000 TL'yi ve dairenin değer artışı olan 600.000 TL'yi ister. Bora savunmasında; Selin kendisine süre vermediği için dönmenin geçersiz olduğunu, 1.000.000 TL'yi bankaya olan kendi borcunu kapatmak için harcadığından artık elinde olmadığını ve dairenin değerinin bu kadar artacağını bilemeyeceği için kusursuz olduğunu ileri sürer. Bora davadan sonra \"Daireyi 4.000.000 TL'ye devretmeye hazırım\" der; Selin bu teklifi kabul etmez.\n\n1. Selin süre vermeden sözleşmeden dönebilir mi?\n2. Dönmenin sonuçlarını açıklayınız. Bora'nın 1.000.000 TL'ye ilişkin savunmasını, iadenin dayanağına ilişkin görüşlerle birlikte değerlendiriniz.\n3. Selin'in tazminat istemlerini değerlendiriniz.\n4. Bora'nın davadan sonraki devir teklifi sonuç doğurur mu?",
+   "rubric": [
+    {
+     "point": "Belirli günün geçmesiyle temerrüt; Selin'in kalan bedelle tapuya giderek kendi edimini önermesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 117"
+    },
+    {
+     "point": "Bora'nın açık ifadan kaçınma beyanı nedeniyle süre verilmesine gerek olmaması; dönme beyanının hemen yapılması",
+     "weight": 20,
+     "madde_ref": "TBK m. 124"
+    },
+    {
+     "point": "Dönmeyle tarafların ifa yükümlülüğünden kurtulması ve 1.000.000 TL'nin iadesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "İadenin dayanağına ilişkin klasik ve dönüşüm görüşleri; Bora'nın harcadım savunmasının iki görüşte de sonuç doğurmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 79"
+    },
+    {
+     "point": "Noter masrafı ve kaçırılan fırsatın menfi zarar olarak istenebilmesi; kusur karinesi ve Bora'nın kusursuzluk savunmasının reddi",
+     "weight": 20,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "600.000 TL değer artışının müspet zarar olduğu ve dönen Selin'in bunu isteyememesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "Dönme beyanının geri alınamaması; Bora'nın sonraki devir teklifinin sonuç doğurmaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 125"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında resmî şekilde, noterde düzenleme şeklinde yapılmış geçerli bir taşınmaz satış vaadi vardır (TBK m. 237/2). Sözleşme karşılıklı borç yükler: Bora daireyi devretmeyi, Selin bedeli ödemeyi borçlanmıştır.\n\n**Hukuki sorunlar:** Bora'nın temerrüdü ve süre verme gerekliliği; dönmenin sonuçları ve iadenin dayanağı; Selin'in tazminat istemlerinin müspet ve menfi zarar ayrımı içinde değerlendirilmesi; dönme beyanının bağlayıcılığı.\n\n**İlgili hükümler:** TBK m. 79, 97, 117, 123-125, 237.\n\n**Değerlendirme:**\n1. *Temerrüt ve süre:* Devir günü birlikte belirlenmiştir; 15 Mayıs'ın geçmesiyle Bora ihtarsız temerrüde düşmüştür (TBK m. 117/2). Selin kalan bedelle tapuya giderek kendi edimini önermiştir (TBK m. 97). Kural olarak dönmeden önce uygun bir süre verilmelidir (TBK m. 123). Ancak Bora \"bu fiyata satmam\" diyerek ifa etmeyeceğini açıkça bildirmiştir. Borçlunun tutumundan süre vermenin etkisiz kalacağı anlaşıldığından süre gerekmez (TBK m. 124/1). Selin iki gün sonra dönme beyanında bulunmuştur; bildirim hemen yapılmıştır (TBK m. 125/2). Bora'nın \"süre verilmedi\" savunması yerinde değildir.\n2. *Dönmenin sonuçları:* Taraflar karşılıklı olarak ifa yükümlülüğünden kurtulur: Selin kalan 3.000.000 TL'yi ödemez, Bora daireyi devretmez. Taraflar ifa ettiklerini geri ister; Bora 1.000.000 TL'yi iade etmelidir (TBK m. 125/3). İadenin dayanağı tartışmalıdır. Yargıtay'ın da benimsediği klasik görüşe göre sözleşme geçmişe etkili olarak ortadan kalkar ve iade sebepsiz zenginleşme hükümlerine göre yapılır. Dönüşüm görüşüne göre ise sözleşme bir tasfiye ilişkisine dönüşür ve iade borcu sözleşmeden doğar. Bora'nın savunması iki görüşte de sonuç doğurmaz:\n   - Klasik görüşte TBK m. 79 uygulanır. Ancak parayı kendi borcunu kapatmak için kullanan kişi borcundan kurtulmuş, kendi malvarlığını korumuştur; zenginleşme elinden çıkmış sayılmaz. Ayrıca sözleşmeyi bilerek ihlal eden Bora, parayı geri vermek zorunda kalabileceğini hesaba katmalıydı (TBK m. 79/2).\n   - Dönüşüm görüşünde iade borcu sözleşmeden doğduğu için zenginleşmenin elden çıktığı savunması hiç gündeme gelmez.\n3. *Tazminat istemleri:* Dönen alacaklı, borçlu temerrüde düşmekte kusuru olmadığını ispat edemezse menfi zararını ister (TBK m. 125/3). Bora daireyi bilerek ve daha yüksek bir fiyat beklentisiyle devretmemiştir. Değer artışını öngörememesi, temerrüde düşmekte kusursuz olduğunu göstermez; kusursuzluk ispatlanamamıştır.\n   - *Noter masrafı (22.000 TL):* Sözleşme yapılmasaydı katlanılmayacak bir giderdir ve menfi zarar olarak istenir.\n   - *Kaçırılan fırsat (300.000 TL):* Selin bu sözleşmeye güvenerek 3.900.000 TL'lik teklifi reddetmiştir. Sözleşme hiç yapılmasaydı benzer daireyi bu fiyata alacaktı; şimdi 4.200.000 TL ödemesi gerekmektedir. Teklifin gerçek olduğunu ve kabul edeceğini ispatlarsa aradaki 300.000 TL'yi menfi zarar olarak ister.\n   - *Değer artışı (600.000 TL):* Bu tutar, sözleşme ifa edilseydi Selin'in malvarlığına girecek değerdir, yani müspet zarardır. Selin dönmeyi seçtiği için ifa menfaatini isteyemez; müspet ve menfi zarar birlikte istenemez. Değer artışını ancak dönmek yerine ifadan vazgeçip müspet zarar yolunu seçseydi hesaba katabilirdi.\n4. *Bora'nın sonraki teklifi:* Dönme, Bora'ya ulaşmakla sonuç doğuran bozucu yenilik doğurucu bir beyandır ve geri alınamaz. Sözleşme sona erdiği için Bora'nın 4.000.000 TL'ye devir teklifi Selin'i bağlamaz; Selin bu teklifi kabul etmek zorunda değildir.\n\n**Sonuç:** Selin süre vermeden geçerli biçimde sözleşmeden dönmüştür. Bora 1.000.000 TL'yi iade etmeli; ayrıca 22.000 TL noter masrafını ve ispat şartıyla 300.000 TL kaçırılan fırsat zararını menfi zarar olarak ödemelidir. 600.000 TL değer artışı istemi reddedilmelidir. Bora'nın davadan sonraki devir teklifi sonuç doğurmaz."
+  },
+  {
+   "stem_md": "Özel Şifa Hastanesi, Lezzet Yemek Ltd. ile hasta ve personel yemeği için 1 Eylül 2025'ten başlayan, 24 ay süreli bir sözleşme yapar. Aylık bedel 500.000 TL'dir ve her ayın sonunda ödenir. İlk sekiz ay hizmet sorunsuz verilir, bedeller de ödenir.\n\n1 Mayıs 2026'da Lezzet Yemek, ücretlerini alamayan çalışanlarının iş bırakması üzerine yemek göndermeyi keser. Hastane 4 Mayıs'ta ihtarname göndererek hizmete yedi gün içinde yeniden başlanmasını ister. Lezzet Yemek cevabında \"Mali sorunlarımız nedeniyle eylülden önce başlayamayız\" der. Hastane 12 Mayıs'ta sözleşmeyi feshettiğini bildirir ve kalan 15 ay için, 1 Haziran 2026'dan itibaren başka bir firmayla piyasa koşullarına uygun olarak aylık 560.000 TL'ye anlaşır. Mayıs ayında ise dışarıdan hazır yemek getirtir ve bunun için 680.000 TL öder; Lezzet Yemek'e mayıs bedeli ödenmez.\n\nHastane açtığı davada; ilk sekiz ay için ödediği 4.000.000 TL'nin iadesini, kalan 15 ay için yeni firmayla aradaki fark olan 900.000 TL'yi ve mayıs ayında sözleşme bedelinin üstünde ödediği 180.000 TL'yi ister. Lezzet Yemek savunmasında; hastanenin feshetmek yerine sözleşmeden dönmesi gerektiğini ve bu durumda yalnız menfi zarar isteyebileceğini, yedi günlük sürenin yetersiz olduğunu ve çalışanlarının iş bırakması nedeniyle kusursuz olduğunu ileri sürer.\n\n1. Sözleşmenin niteliğini ve hastanenin feshinin geçerliliğini değerlendiriniz.\n2. Hastanenin istemlerini tek tek değerlendiriniz.\n3. Lezzet Yemek'in savunmalarını değerlendiriniz.\n4. Lezzet Yemek hizmete 1 Eylül 2025'te hiç başlamamış olsaydı hastanenin hakları ne olurdu?",
+   "rubric": [
+    {
+     "point": "Sözleşmenin ifasına başlanmış sürekli edimli bir sözleşme olduğu ve TBK m. 126'nın uygulanacağı",
+     "weight": 15,
+     "madde_ref": "TBK m. 126"
+    },
+    {
+     "point": "Temerrüt; verilen süre ve Lezzet Yemek'in cevabı nedeniyle sürenin zaten gereksiz olması; feshin geçerliliği",
+     "weight": 15,
+     "madde_ref": "TBK m. 124"
+    },
+    {
+     "point": "Feshin ileriye etkili olması; ilk sekiz ayın bedelinin geri istenememesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 126"
+    },
+    {
+     "point": "Kalan 15 ay için 900.000 TL'nin erken sona erme zararı (müspet zarar) olarak istenebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 126"
+    },
+    {
+     "point": "Mayıs ayındaki 180.000 TL'nin ifa edilmemeden doğan zarar olarak istenebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 112"
+    },
+    {
+     "point": "Dönme ve menfi zarar savunmasının reddi; kusursuzluk savunmasının reddi",
+     "weight": 15,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "İfaya hiç başlanmamış olsaydı TBK m. 125'teki üç seçimlik hakkın, bu arada dönmenin kullanılabilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 125"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Hastane ile Lezzet Yemek arasındaki sözleşme, yemek hizmetinin 24 ay boyunca her gün tekrarlandığı, karşılıklı borç yükleyen sürekli edimli bir sözleşmedir. Sekiz ay boyunca karşılıklı ifa edildiği için ifasına başlanmış bir sözleşmedir. Bu yüzden borçlu temerrüdünün sonuçları bakımından TBK m. 126 uygulanır.\n\n**Hukuki sorunlar:** Feshin geçerliliği ve etkisi; istenebilecek zarar kalemleri; Lezzet Yemek'in savunmaları; ifaya başlanmamış olsaydı uygulanacak kural.\n\n**İlgili hükümler:** TBK m. 112, 117, 118, 123-126.\n\n**Değerlendirme:**\n1. *Temerrüt ve fesih:* Yemeklerin her gün verileceği sözleşmeyle belirlendiği için Lezzet Yemek, yemek göndermediği ilk günden itibaren ihtara gerek olmadan temerrüttedir (TBK m. 117/2); ayrıca hastanenin 4 Mayıs tarihli ihtarı da vardır. Hastane yedi günlük süre vermiştir (TBK m. 123). Lezzet Yemek'in \"eylülden önce başlayamayız\" cevabı, sürenin etkisiz kalacağını açıkça göstermektedir. Bu yüzden süreye zaten gerek yoktur (TBK m. 124/1) ve yedi günün uygun olup olmadığı tartışması sonucu etkilemez. Hastanenin 12 Mayıs'taki fesih bildirimi geçerlidir.\n2. *Feshin etkisi ve ilk sekiz ay:* İfasına başlanmış sürekli edimli sözleşmede alacaklı dönme yerine fesih yoluna gider (TBK m. 126). Fesih ileriye etkilidir; sözleşme fesih bildirimiyle sona erer. Eylül-nisan döneminde yemekler verilmiş, bedeller ödenmiştir. Bu karşılıklı edimler geri istenemez; 4.000.000 TL'lik iade istemi reddedilmelidir.\n3. *900.000 TL:* Alacaklı, sözleşmenin süresinden önce sona ermesi yüzünden uğradığı zararı ister (TBK m. 126). Kanunun gerekçesi bu zararı olumlu (müspet) zarar olarak niteler. Sözleşme sonuna kadar ifa edilseydi hastane kalan 15 ay için aylık 500.000 TL ödeyecekti, şimdi 560.000 TL ödemektedir. Yeni sözleşme piyasa koşullarına uygun yapıldığı için aylık 60.000 TL'den 15 ay için 900.000 TL istenir.\n4. *180.000 TL:* Fesihten önceki mayıs günlerinde hizmet verilmemiştir. Hastane bu ay için Lezzet Yemek'e bedel ödemez, ama dışarıdan getirttiği yemek için sözleşme bedelinin 180.000 TL üstünde ödeme yapmıştır. Bu, borcun ifa edilmemesinden doğan zarardır; Lezzet Yemek kusursuzluğunu ispat etmedikçe öder (TBK m. 112, m. 118).\n5. *Savunmalar:*\n   - \"Dönülmeliydi\" savunması yerinde değildir. Sekiz aylık hizmet geri verilemeyeceği için kanun, ifasına başlanmış sürekli edimli sözleşmede fesih öngörür. Fesihte istenen zarar menfi zararla sınırlı değildir; erken sona erme zararıdır (TBK m. 126).\n   - Süre savunması, yukarıda açıklandığı gibi sonucu etkilemez.\n   - Kusursuzluk savunması da reddedilmelidir. Çalışanlar, Lezzet Yemek ücretlerini ödemediği için iş bırakmıştır. Bu, Lezzet Yemek'in kendi sorumluluk alanındadır ve ona hiçbir kusur yüklenemeyeceği ispatlanamamıştır (TBK m. 112).\n6. *İfaya hiç başlanmasaydı:* TBK m. 126 yalnız ifasına başlanmış sürekli edimli sözleşmeler içindir. Lezzet Yemek 1 Eylül 2025'te hiç başlamasaydı genel kural olan TBK m. 125 uygulanırdı. Hastane uygun süre verdikten sonra (ya da m. 124'teki bir hâlde doğrudan) ifa ve gecikme tazminatı isteyebilir, ifadan vazgeçip müspet zararını isteyebilir ya da vazgeçtiğini hemen bildirerek sözleşmeden dönüp menfi zararını isteyebilirdi.\n\n**Sonuç:** Hastanenin feshi geçerli ve ileriye etkilidir. İlk sekiz ayın bedeli geri istenemez. Hastane 900.000 TL erken sona erme zararını ve mayıs ayındaki 180.000 TL zararı isteyebilir. Lezzet Yemek'in savunmaları reddedilmelidir. İfaya hiç başlanmamış olsaydı hastane TBK m. 125'teki seçimlik haklara, bu arada dönmeye başvurabilirdi."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "TBK m. 123: Temerrüt hâlinde alacaklı ne yapabilir?",
+   "back_md": "Borcun ifası için uygun bir süre verebilir ya da uygun bir sürenin hâkim tarafından verilmesini isteyebilir."
+  },
+  {
+   "front_md": "Hangi yol için süre verilmesi gerekmez?",
+   "back_md": "İfa ve gecikme tazminatı istemek için. Alacaklı bunları her zaman isteyebilir (TBK m. 125/1)."
+  },
+  {
+   "front_md": "Süre verilmesine gerek olmayan üç hâl nedir? (TBK m. 124)",
+   "back_md": "Borçlunun durumundan ya da tutumundan sürenin etkisiz kalacağının anlaşılması, ifanın alacaklı için yararsız kalması, kesin vade."
+  },
+  {
+   "front_md": "Belirli ifa günü süre vermeyi gereksiz kılar mı?",
+   "back_md": "Hayır. Yalnız ihtarı gereksiz kılar (TBK m. 117/2). Süreyi gereksiz kılan, geç ifanın kabul edilmeyeceğinin sözleşmeden anlaşılmasıdır (TBK m. 124/3)."
+  },
+  {
+   "front_md": "Hâkimden süre istenmesi hangi tür yargı işidir?",
+   "back_md": "Çekişmesiz yargı işidir: borçluya ifa veya teminat göstermesi için süre verilmesi (HMK m. 382)."
+  },
+  {
+   "front_md": "Borçlu verilen süre içinde ifa ederse ne olur?",
+   "back_md": "Alacaklı edimi kabul etmek zorundadır; ifadan vazgeçemez, dönemez. Gecikme zararını yine ister (TBK m. 118)."
+  },
+  {
+   "front_md": "TBK m. 125'teki üç seçimlik hak nedir?",
+   "back_md": "İfa ve gecikme tazminatı; ifadan vazgeçip müspet zarar; sözleşmeden dönüp verilenleri geri isteme ve menfi zarar."
+  },
+  {
+   "front_md": "Alacaklı neyi hemen bildirmek zorundadır?",
+   "back_md": "İfadan vazgeçip tazminat istemek ya da dönmek istiyorsa, borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini (TBK m. 125/2)."
+  },
+  {
+   "front_md": "Hemen bildirme kuralının amacı nedir?",
+   "back_md": "Borçluyu belirsizlikten korumak ve alacaklının fiyat hareketlerine göre spekülasyon yapmasını önlemek."
+  },
+  {
+   "front_md": "İfadan vazgeçme ya da dönme beyanı geri alınabilir mi?",
+   "back_md": "Hayır. Yenilik doğurucu beyanlardır; karşı tarafa ulaşınca geri alınamaz. Borçlunun sonraki ifa teklifi de sonuç doğurmaz."
+  },
+  {
+   "front_md": "Dönmenin sonuçları nelerdir? (TBK m. 125/3)",
+   "back_md": "Taraflar ifa yükümlülüğünden kurtulur ve verdiklerini geri ister. Borçlu temerrüde düşmekte kusursuz olduğunu ispat edemezse menfi zarar da istenir."
+  },
+  {
+   "front_md": "Dönme hakkı borçlunun kusuruna bağlı mıdır?",
+   "back_md": "Hayır. Kusur yalnız tazminatın şartıdır; karine olarak kabul edilir ve ispat yükü borçludadır."
+  },
+  {
+   "front_md": "Müspet zarar nedir?",
+   "back_md": "Sözleşme gereği gibi ve zamanında ifa edilseydi alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark (ifa menfaati). Bu sözleşmeden beklenen kâr dahildir."
+  },
+  {
+   "front_md": "Menfi zarar nedir?",
+   "back_md": "Sözleşme hiç yapılmasaydı alacaklının bulunacağı durum ile şimdiki durumu arasındaki fark (güven menfaati): sözleşme ve hazırlık giderleri, kaçırılan fırsat."
+  },
+  {
+   "front_md": "Dönen alacaklı kâr kaybını isteyebilir mi?",
+   "back_md": "Kural olarak hayır. Bu sözleşmeden beklenen kâr müspet zarardır, dönmede menfi zarar istenir. Uygulamada sözleşmeyle aksi kararlaştırılabileceği kabul edilir."
+  },
+  {
+   "front_md": "Fark teorisi ile değişim teorisi arasındaki fark nedir?",
+   "back_md": "Fark teorisinde alacaklı kendi edimini ifa etmez, değer farkını ister. Değişim teorisinde kendi edimini ifa eder, borçlunun ediminin tam değerini ister."
+  },
+  {
+   "front_md": "Somut ve soyut zarar hesabı nedir?",
+   "back_md": "Somut: dürüstlük kurallarına uygun yerine alım ya da yerine satış bedeli ile sözleşme bedeli farkı. Soyut: belirlenmiş ifa ya da ödeme günündeki piyasa fiyatı ile sözleşme bedeli farkı (TBK m. 213, 236)."
+  },
+  {
+   "front_md": "Satış vaadinde satıcı taşınmazı üçüncü kişiye devrederse müspet zarar nasıl hesaplanır? (Yargıtay)",
+   "back_md": "Taşınmazın ifanın imkânsız hâle geldiği tarihteki rayiç değeri üzerinden. Geçersiz (şekle aykırı) satışta ise yalnız verilenin denkleştirici adaletle iadesi istenir."
+  },
+  {
+   "front_md": "İfasına başlanmış sürekli edimli sözleşmede alacaklının hakları nelerdir? (TBK m. 126)",
+   "back_md": "İfa ve gecikme tazminatı ya da sözleşmeyi feshedip süresinden önce sona erme zararını istemek. Gerekçeye göre bu zarar müspet zarardır; fesih ileriye etkilidir."
+  },
+  {
+   "front_md": "Belirli süreli ticari satışta satıcı temerrüde düşerse ne varsayılır? (TBK m. 212/2)",
+   "back_md": "Alıcının devirden vazgeçip tazminat istediği kabul edilir. Malı istiyorsa sürenin bitiminde hemen bildirmelidir."
+  },
+  {
+   "front_md": "Dönmenin niteliği hakkında iki ana görüş nedir?",
+   "back_md": "Klasik görüş (Yargıtay): sözleşme geriye etkili ortadan kalkar, iade sebepsiz zenginleşmeyle yapılır. Dönüşüm görüşü: sözleşme tasfiye ilişkisine dönüşür, iade borcu sözleşmeden doğar."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
