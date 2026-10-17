@@ -42,6 +42,20 @@ def test_gives_up_after_retries(monkeypatch):
     assert len(calls) == 4  # ilk deneme + 3 yeniden deneme
 
 
+def test_connection_errors_are_retried(monkeypatch):
+    calls = []
+
+    def handler(request):
+        calls.append(1)
+        if len(calls) < 3:
+            raise httpx.ConnectError("bağlantı koptu", request=request)
+        return httpx.Response(200, json=OK)
+
+    _patch(monkeypatch, handler)
+    assert asyncio.run(mevzuat._post("searchDocuments", {})) == {"ok": 1}
+    assert len(calls) == 3
+
+
 def test_client_errors_other_than_rate_limit_are_not_retried(monkeypatch):
     calls = []
 

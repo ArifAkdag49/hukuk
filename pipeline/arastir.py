@@ -4,6 +4,7 @@
     python -X utf8 -m pipeline.arastir ictihat "aşırı yararlanma" [--mahkeme yargitay] [--adet 8] [--sayfa 1]
     python -X utf8 -m pipeline.arastir karar 1046055300 [--mahkeme yargitay] [--max 15000]
     python -X utf8 -m pipeline.arastir basliklar TMK 683 729     # bölüm ve madde başlıkları
+    python -X utf8 -m pipeline.arastir mufredat HUK3011          # müfredattaki bütün maddeleri denetle
 
 Madde metni Adalet Bakanlığı bedesten servisinden, kararlar içtihat MCP'sinden
 gelir. Her sonuç `pipeline/cache/` altına yazılır: `elle bitir` adımı madde
@@ -112,6 +113,35 @@ async def basliklar(kanun: str, ilk: int | None, son: int | None) -> list[str]:
     return [f"# {law.get('mevzuatAdi')} ({no})", *baslik_satirlari(tree, ilk, son)]
 
 
+async def mufredat(course_id: str, bekle: float = 0.3) -> tuple[int, int, list[str]]:
+    """Müfredattaki her maddenin resmî metnini çeker (önbelleğe yazar); eksik ya da mülga olanları döner."""
+    import yaml
+
+    from .common import CURRICULUM
+
+    cur = yaml.safe_load((CURRICULUM / f"{course_id}.yaml").read_text(encoding="utf-8"))
+    slugs: list[str] = []
+    by_law: dict[str, set[str]] = {}
+    for u in cur["units"]:
+        for t in u["topics"]:
+            slugs.append(t["slug"])
+            for m in t["maddeler"]:
+                by_law.setdefault(m["kanun"], set()).add(str(m["madde"]))
+    sorunlar = [f"tekrarlanan slug: {s}" for s in sorted({s for s in slugs if slugs.count(s) > 1})]
+    for kanun, nums in by_law.items():
+        for no in sorted(nums, key=lambda x: (len(x), x)):
+            cached = madde_path(kanun, no).exists()
+            (d,) = await madde(kanun, [no])
+            metin = d.get("metin") or ""
+            if not metin:
+                sorunlar.append(f"{kanun} m. {no}: {d.get('uyari') or 'metin yok'}")
+            elif re.search(r"\bMülga\b", metin[:300]):
+                sorunlar.append(f"{kanun} m. {no}: mülga görünüyor")
+            if not cached:
+                await asyncio.sleep(bekle)
+    return len(slugs), sum(len(v) for v in by_law.values()), sorunlar
+
+
 async def _hub():
     from app.mcp_hub import McpHub
 
@@ -177,6 +207,8 @@ def main(argv: list[str]) -> int:
     b.add_argument("kanun")
     b.add_argument("ilk", type=int, nargs="?")
     b.add_argument("son", type=int, nargs="?")
+    mu = sub.add_parser("mufredat", help="müfredattaki bütün maddeleri çek ve denetle")
+    mu.add_argument("course_id")
     a = ap.parse_args(argv)
 
     if a.cmd == "madde":
@@ -199,6 +231,13 @@ def main(argv: list[str]) -> int:
         for satir in asyncio.run(basliklar(a.kanun, a.ilk, a.son)):
             print(satir)
         return 0
+    if a.cmd == "mufredat":
+        konu, madde_sayisi, sorunlar = asyncio.run(mufredat(a.course_id))
+        print(f"{a.course_id}: {konu} konu, {madde_sayisi} madde")
+        for x in sorunlar:
+            print(f"  - {x}")
+        print("sorun yok" if not sorunlar else f"{len(sorunlar)} sorun")
+        return 1 if sorunlar else 0
     if a.cmd == "karar":
         body = asyncio.run(karar(a.karar_id, a.mahkeme))
         print(body[: a.max])

@@ -68,7 +68,7 @@ def html_to_text(content: str) -> str:
 _NEXT_HEADING_RE = re.compile(r"^(?:[IVXLC]+|[a-zçğıöşü])\.\s+\S.*[^.;:,)]$")
 
 
-# Servis yoğunlukta 429 (hız sınırı) ya da 502-504 dönebiliyor: bekleyip yeniden denenir.
+# Servis yoğunlukta 429 (hız sınırı) ya da 502-504 dönebiliyor, bağlantı da kopabiliyor: bekleyip yeniden denenir.
 RETRY_STATUS = {429, 502, 503, 504}
 RETRY_DELAYS: tuple[float, ...] = (2, 5, 12)
 _transport: httpx.AsyncBaseTransport | None = None  # testler için
@@ -82,7 +82,13 @@ def _retry_after(r: httpx.Response, default: float) -> float:
 async def _post(path: str, data: dict) -> Any:
     async with httpx.AsyncClient(timeout=30, transport=_transport) as c:
         for delay in (*RETRY_DELAYS, None):
-            r = await c.post(f"{BASE}/{path}", json={"data": data, "applicationName": "UyapMevzuat", "paging": True})
+            try:
+                r = await c.post(f"{BASE}/{path}", json={"data": data, "applicationName": "UyapMevzuat", "paging": True})
+            except httpx.TransportError:
+                if delay is None:
+                    raise
+                await asyncio.sleep(delay)
+                continue
             if r.status_code in RETRY_STATUS and delay is not None:
                 await asyncio.sleep(_retry_after(r, delay))
                 continue
