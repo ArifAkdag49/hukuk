@@ -37,6 +37,31 @@ def ictihat_path(karar_id: str) -> pathlib.Path:
     return ICTIHAT_DIR / f"{_safe(str(karar_id))}.json"
 
 
+def karar_path(karar_id: str) -> pathlib.Path:
+    return KARAR_DIR / f"{_safe(str(karar_id))}.txt"
+
+
+# karar metninin ilk satırı: "Hukuk Genel Kurulu         2011/17-3 E.  ,  2011/142 K."
+_BASLIK_RE = re.compile(r"(\d{4}/[\d-]+)\s*E\.\s*,\s*(\d{4}/\d+)\s*K\.")
+
+
+def kunye(karar_id: str) -> dict | None:
+    """Önbellekteki künye. Kararın tam metni okunduysa esas/karar numarası metnin kendi başlığından
+    alınır: arama sonucu HGK numarasındaki daire kodunu düşürebiliyor (2011/17-3 → 2011/3)."""
+    p = ictihat_path(karar_id)
+    if not p.exists():
+        return None
+    k = json.loads(p.read_text(encoding="utf-8"))
+    kp = karar_path(karar_id)
+    k["okundu"] = kp.exists()
+    if kp.exists():
+        m = _BASLIK_RE.search(kp.read_text(encoding="utf-8")[:400])
+        if m and (m.group(1), m.group(2)) != (k.get("esas_no"), k.get("karar_no")):
+            k["esas_no"], k["karar_no"] = m.group(1), m.group(2)
+            k["atif"] = f"{k.get('mahkeme', '')}, E.{k['esas_no']} K.{k['karar_no']}, T.{k.get('karar_tarihi', '')}"
+    return k
+
+
 async def madde(kanun: str, numaralar: list[str]) -> list[dict]:
     from app import mevzuat
 
@@ -80,7 +105,7 @@ async def ictihat(ifade: str, mahkeme: str, adet: int, sayfa: int) -> dict:
 
 async def karar(karar_id: str, mahkeme: str) -> str:
     KARAR_DIR.mkdir(parents=True, exist_ok=True)
-    p = KARAR_DIR / f"{_safe(karar_id)}.txt"
+    p = karar_path(karar_id)
     if p.exists():
         return p.read_text(encoding="utf-8")
     hub = await _hub()

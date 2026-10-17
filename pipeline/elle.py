@@ -27,8 +27,10 @@ MODEL = "claude-code (elle, araştırmalı)"
 ALIASES = {"IIK": "İİK", "IK": "İK", "IYUK": "İYUK", "ANAYASA": "AY", "MOHUK": "MÖHUK"}
 KANUN_RE = r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK)"
 LETTER = r"A-Za-zÇĞİÖŞÜçğıöşü"
+# "53/1-3" = madde 53, fıkra 1, bent 3: eğik çizgiden sonraki "-N" fıkra/bent gösterimidir, madde aralığı değil
+SUB = r"(?:/[0-9a-zA-Z]+(?:[-–][0-9a-zA-Z]+)?)?"
 REF_RE = re.compile(
-    rf"(?<![{LETTER}]){KANUN_RE}\s+md?\.\s*((?:\d+(?:/[0-9a-zA-Z]+)?(?:\s*(?:,|ve|veya|ile|-|–)\s*(?=\d))?)+)"
+    rf"(?<![{LETTER}]){KANUN_RE}\s+md?\.\s*((?:\d+{SUB}(?:\s*(?:,|ve|veya|ile|-|–)\s*(?=\d))?)+)"
 )
 BARE_RE = re.compile(rf"(?<![{LETTER}.])m\.\s*(\d+)")
 OPTION_LETTER_RE = re.compile(r"\b[A-D]\s*şık|\bşık(?:kı)?\s*[A-D]\b|\b[A-D]\)\s", re.IGNORECASE)
@@ -52,13 +54,18 @@ def refs_in(text: str, primary: str | None) -> set[tuple[str, str]]:
     spans = []
     for m in REF_RE.finditer(text or ""):
         spans.append(m.span())
-        for num in re.findall(r"(?<![/\d])(\d+)(?:/[0-9a-zA-Z]+)?", m.group(2)):
+        for num in re.findall(rf"(?<![/\d])(\d+){SUB}", m.group(2)):
             found.add((canon(m.group(1)), num))
     if primary:
         for m in BARE_RE.finditer(text or ""):
             if not any(a <= m.start() < b for a, b in spans):
                 found.add((primary, m.group(1)))
     return found
+
+
+def kart_on(k: dict) -> str:
+    # PyYAML (YAML 1.1) çıplak `on:` anahtarını True'ya çevirir
+    return str(k.get("on", k.get(True, "")) or "").strip()
 
 
 def _texts(t: dict) -> list[tuple[str, str]]:
@@ -71,7 +78,7 @@ def _texts(t: dict) -> list[tuple[str, str]]:
         out += [(f"Olay {i}", o.get("olay", "")), (f"Olay {i} çözüm", o.get("cozum", ""))]
         out += [(f"Olay {i} ölçüt", f"{c.get('tespit', '')} {c.get('madde', '')}") for c in o.get("olcut") or []]
     for i, k in enumerate(t.get("kartlar") or [], 1):
-        out += [(f"Kart {i}", f"{k.get('on', '')} {k.get('arka', '')}")]
+        out += [(f"Kart {i}", f"{kart_on(k)} {k.get('arka', '')}")]
     for i, k in enumerate(t.get("kararlar") or [], 1):
         out += [(f"Karar {i} özet", k.get("ozet", ""))]
     for i, s in enumerate(t.get("sozluk") or [], 1):
@@ -161,6 +168,9 @@ def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: di
         if not kunye:
             hatalar.append(f"Karar {i}: id={kid} araştırma önbelleğinde yok (önce pipeline.arastir ictihat ile bulun)")
             continue
+        if not kunye.get("okundu", True):
+            hatalar.append(f"Karar {i}: id={kid} tam metni okunmadı (önce: python -X utf8 -m pipeline.arastir karar {kid})")
+            continue
         if words(k.get("ozet", "")) < MIN["karar_ozet"]:
             hatalar.append(f"Karar {i}: özet çok kısa")
         mahkeme = kunye.get("mahkeme") or ""
@@ -175,7 +185,7 @@ def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: di
             "verified": True,
         })
 
-    cards = [{"front_md": str(k.get("on", "")).strip(), "back_md": str(k.get("arka", "")).strip()}
+    cards = [{"front_md": kart_on(k), "back_md": str(k.get("arka", "")).strip()}
              for k in t.get("kartlar") or []]
     if any(not c["front_md"] or not c["back_md"] for c in cards):
         hatalar.append("kartlar: boş ön ya da arka yüz var")
@@ -242,9 +252,9 @@ def _gather(t: dict):
             metinler[(k, n)] = d
     kunyeler = {}
     for kr in t.get("kararlar") or []:
-        p = arastir.ictihat_path(str(kr.get("id", "")))
-        if p.exists():
-            kunyeler[str(kr["id"])] = json.loads(p.read_text(encoding="utf-8"))
+        k = arastir.kunye(str(kr.get("id", "")))
+        if k:
+            kunyeler[str(kr["id"])] = k
     return metinler, kunyeler
 
 

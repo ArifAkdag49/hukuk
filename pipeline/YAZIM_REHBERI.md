@@ -20,7 +20,7 @@ anlatımının sade, düzenli ve akılda kalan hâli olsun.
 - **Anahtar kavramlar kalın**, ilk geçtiği yerde tek cümleyle tanımlanır.
 - **Her kural bir maddeye bağlanır:** "TBK m. 56/1'e göre ...". Kuralı söyle, maddeyi göster, sonra ne anlama geldiğini açıkla.
 - **Bol örnek.** Her önemli kuralın yanında somut, gerçekçi bir örnek olsun. Türk isimleri (Ali, Ayşe, Mehmet, Zeynep, X Ltd. Şti.), gerçekçi rakamlar ve tarihler kullan.
-- **Karşılaştırmalar** (benzer kurumlar arasındaki farklar) markdown tablosuyla verilebilir. Tablo kısa olsun, en fazla 4 sütun.
+- **Karşılaştırmalar** (benzer kurumlar arasındaki farklar) markdown tablosuyla verilebilir. Tablo telefonda okunur: **en fazla 3 sütun**, hücrede birkaç kelime (madde numarası, kısa ifade). 4 ve daha fazla sütun yatay kaydırılır, bundan kaçın. Uzun açıklamayı tabloya değil, maddeli listeye koy.
 - Not içi kutular (markdown alıntı satırı ile):
   - `> **Örnek:** ...`
   - `> ⚠️ **Sınavda dikkat:** ...` (sık yapılan hata, karıştırılan nokta)
@@ -30,12 +30,16 @@ anlatımının sade, düzenli ve akılda kalan hâli olsun.
 
 ## 2. Doğruluk kuralları (pazarlıksız)
 
-1. **Madde metni resmî kaynaktan.** Atıf yaptığın her maddeyi önce `pipeline.arastir madde` ile çek ve oku. Taslağın `maddeler` listesine ekle. Metinde, sorularda, olaylarda ve kartlarda geçen **her** `TBK m. N` atfı bu listede olmalı, yoksa denetim hata verir. Çıplak `m. N` yazarsan listedeki ilk kanun sayılır. Başka kanuna atıfta kısaltmayı mutlaka yaz (`TMK m. 24`).
+1. **Madde metni resmî kaynaktan.** Atıf yaptığın her maddeyi önce `pipeline.arastir madde` ile çek ve oku. Taslağın `maddeler` listesine ekle. Metinde, sorularda, olaylarda ve kartlarda geçen **her** `TBK m. N` atfı bu listede olmalı, yoksa denetim hata verir. Çıplak `m. N` yazarsan listedeki ilk kanun sayılır. Başka kanuna atıfta kısaltmayı mutlaka yaz (`TMK m. 24`); aynı cümlede ikinci kez geçse bile. Fıkra/bent gösterimi serbest: `TBK m. 53/1-3` 53. maddedir. Atıftan hemen sonra virgülle sayı yazma (`TBK m. 55, 7589 sayılı` → 7589 de madde sanılır); "7589 sayılı Kanunla TBK m. 55'e eklenen" gibi yaz. Denetimin tanımadığı bir kanuna (ör. KTK) madde numarasıyla atıf yapma; kanunun adını yaz.
 2. **Süre, şart, sonuç birebir.** "1 yıl / 2 yıl / 10 yıl", "öğrenmeden itibaren / fiilden itibaren", "kesin hükümsüz / iptal edilebilir" gibi ayrıntılar resmî metinle aynı olmalı. Kanunun söylediğini yorumdan ayır ("Kanun ... der; uygulamada/doktrinde bu ... anlaşılır").
-3. **Karar künyesi uydurulmaz.** Kararları `pipeline.arastir ictihat` ile bul, `pipeline.arastir karar <id>` ile **oku**, sonra taslağa yalnız `id` ve kendi özetini yaz. Künye (daire, esas, karar, tarih) otomatik olarak önbellekten gelir. Anlatımın içinde karar numarası verme. "Yargıtay'ın yerleşik uygulamasına göre ..." deyip ayrıntıyı karar özetine bırak.
+3. **Karar künyesi uydurulmaz.** Kararları `pipeline.arastir ictihat` ile bul, `pipeline.arastir karar <id>` ile **oku**, sonra taslağa yalnız `id` ve kendi özetini yaz. Künye (daire, esas, karar, tarih) otomatik olarak önbellekten gelir; esas numarası kararın kendi başlığından düzeltilir. Tam metni okunmamış karar denetimde hata verir. Anlatımın içinde karar numarası verme. "Yargıtay'ın yerleşik uygulamasına göre ..." deyip ayrıntıyı karar özetine bırak.
+   - **Özetteki her olgu metinden doğrulanır:** taraflar ve aralarındaki ilişki, ilk derece mahkemesinin gerekçesi, Yargıtay'ın sonucu (bozma/onama/direnme), yaş ve tarih gibi sayılar. Hafızadan ya da arama sonucunun başlığından özet yazma.
+   - Kararın neyi **gerçekten** söylediğini abartma. "Mahkeme araştırmalıdır" diyen bir bozma kararı, "davacı haklıdır" demek değildir.
 4. **Doktrin yazar adıyla verilmez:** "baskın görüş", "bir görüşe göre", "karşı görüş". Kimin söylediğini bilsen bile ad yazma.
 5. **Ders kitaplarından, satın alınan notlardan veya web sayfalarından metin kopyalanmaz.** Onları yalnız neyin önemli olduğunu ve konunun kapsamını anlamak için kullan. Cümleleri kendin kur.
 6. **Emin değilsen kesin yazma.** Tartışmalı ya da değişken bir noktayı "tartışmalıdır" diye işaretle ve görüşleri ver. Kanun değişikliği şüphen varsa resmî metne bak, metin her zaman güncel konsolide hâlidir.
+   - Soruların ve olayların **tek doğru cevabı**, tartışmasız bir kurala dayanmalı. İçtihadın değiştiği ya da başka bir kanuna (ör. trafik sigortası mevzuatı) bağlı bir noktayı olayın çözümüne koyma; onu `doktrin` bölümünde iki görüşüyle anlat.
+   - Bir hükmün kapsamını resmî metinden fazla genişletme. Örnek: TMK m. 25/4 istemin "ileri sürülmüş" olmasını arar, "dava açılmış" olmasını değil.
 7. **Güncellik.** Önemli bir kanun değişikliği ya da İçtihadı Birleştirme Kararı varsa belirt (web aramasıyla doğrula, ama künyeyi yalnız araçtan al).
 
 ## 3. Çalışma sırası (her konu için)
@@ -143,5 +147,7 @@ kartlar:
 - [ ] Sık karıştırılan ikililerin farkı açıkça yazılı (tablo ya da ⚠️ kutusu).
 - [ ] Doktrin bölümünde yazar adı yok. Karar numarası yalnız `kararlar`'da.
 - [ ] Sorularda tek doğru cevap var ve açıklamalar doğru. Bir hukukçu itiraz edemez.
+- [ ] Karar özetlerindeki olguları (taraflar, gerekçe, sonuç, sayılar) kararın tam metniyle karşılaştırdım.
+- [ ] Olay çözümleri tartışmalı ya da değişken bir içtihada dayanmıyor; tartışmalar doktrinde.
 - [ ] Olay çözümleri ölçütlerle uyumlu ve puanlar toplamı 100.
 - [ ] Kopya metin yok. Hepsi kendi cümlelerim.

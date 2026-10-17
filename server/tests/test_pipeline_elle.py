@@ -67,6 +67,21 @@ def test_ranges_and_lists_are_all_checked():
     assert not any("TBK m. 54" in h for h in hatalar)
 
 
+def test_paragraph_item_notation_is_not_read_as_a_second_article():
+    # "m. 53/1-3" = 53. madde 1. fıkra 3. bent; 3. madde değil
+    assert elle.refs_in("TBK m. 53/1-3 ve TBK m. 54/1-4; ayrıca m. 53/1-2", "TBK") == {("TBK", "53"), ("TBK", "54")}
+    assert elle.refs_in("TBK m. 53-56", "TBK") == {("TBK", "53"), ("TBK", "56")}
+
+
+def test_yaml_on_key_is_card_front():
+    import yaml
+
+    # PyYAML çıplak `on:` anahtarını True'ya çevirir; kart ön yüzü yine okunmalı
+    kartlar = yaml.safe_load("\n".join(f"- on: ön {i}\n  arka: arka {i}" for i in range(12)))
+    doc, hatalar, _ = kontrol(taslak(kartlar=kartlar))
+    assert hatalar == [] and doc["cards"][0]["front_md"] == "ön 0"
+
+
 def test_rubric_points_must_sum_to_100():
     bad = taslak()
     bad["olaylar"][0]["olcut"][0]["puan"] = 50
@@ -77,6 +92,34 @@ def test_rubric_points_must_sum_to_100():
 def test_case_id_must_come_from_search_cache():
     _, hatalar, _ = kontrol(taslak(kararlar=[{"id": "999", "ozet": kelime(40)}]))
     assert any("999" in h for h in hatalar)
+
+
+def test_case_must_be_read_before_use():
+    kunye = {**KUNYE["360322900"], "okundu": False}
+    _, hatalar, _ = elle.kontrol_et("HUK2011", taslak(), PLAN, METIN, {"360322900": kunye})
+    assert any("okunmadı" in h and "360322900" in h for h in hatalar)
+
+
+def test_kunye_takes_numbers_from_the_decision_header(tmp_path, monkeypatch):
+    import json
+
+    from pipeline import arastir
+
+    monkeypatch.setattr(arastir, "ICTIHAT_DIR", tmp_path / "ictihat")
+    monkeypatch.setattr(arastir, "KARAR_DIR", tmp_path / "karar")
+    (tmp_path / "ictihat").mkdir()
+    (tmp_path / "karar").mkdir()
+    arastir.ictihat_path("76942300").write_text(json.dumps({
+        "id": "76942300", "mahkeme": "Yargıtay Hukuk Genel Kurulu", "esas_no": "2011/3", "karar_no": "2011/142",
+        "karar_tarihi": "13.04.2011", "atif": "Yargıtay Hukuk Genel Kurulu, E.2011/3 K.2011/142, T.13.04.2011",
+    }), encoding="utf-8")
+    assert arastir.kunye("76942300")["okundu"] is False  # metin okunmadan künye aynen döner
+
+    arastir.karar_path("76942300").write_text('Hukuk Genel Kurulu         2011/17-3 E.  ,  2011/142 K.\n\n"İçtihat Metni"...', encoding="utf-8")
+    k = arastir.kunye("76942300")
+    assert k["okundu"] is True and k["esas_no"] == "2011/17-3"
+    assert k["atif"] == "Yargıtay Hukuk Genel Kurulu, E.2011/17-3 K.2011/142, T.13.04.2011"
+    assert arastir.kunye("yok") is None
 
 
 def test_article_without_official_text_is_an_error():

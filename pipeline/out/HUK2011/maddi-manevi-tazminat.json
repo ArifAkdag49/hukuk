@@ -1,0 +1,641 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Sözleşme Dışı Borç Kaynakları: Haksız Fiil ve Sebepsiz Zenginleşme",
+ "topic_index": 3,
+ "slug": "maddi-manevi-tazminat",
+ "title": "Haksız Fiilde Tazminat: Ölüm, Bedensel Zarar ve Manevi Tazminat",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T19:41:52.774210+00:00",
+ "skill_refs": [
+  "haksiz-fiil-tazminat/maddi-tazminat-hesabi",
+  "haksiz-fiil-tazminat/destekten-yoksun-kalma-ve-cismani-zarar",
+  "haksiz-fiil-tazminat/manevi-tazminat",
+  "borclar-hukuku-genel/borca-aykirilik-tazminat"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Haksız fiil sonucunda biri öldüğünde, yaralandığında ya da kişilik hakkı zedelendiğinde **kim, neyi, ne kadar** isteyebilir?\n\n- **İki ayrı tazminat var.** *Maddi tazminat*, malvarlığındaki eksilmeyi giderir. *Manevi tazminat*, acı, elem ve kişiliğe yapılan saldırıyı parayla dengeler. İkisi birlikte istenebilir ve biri diğerini azaltmaz.\n- **İspat (TBK m. 50):** Zarar gören, zararını ve zarar verenin kusurunu ispatlar. Miktar tam ispatlanamıyorsa hâkim, olayların olağan akışına göre hakkaniyetle belirler.\n- **Hâkimin takdiri (TBK m. 51-52):** Tazminatın kapsamını ve ödeme biçimini kusurun ağırlığına göre hâkim belirler. Zarar görenin rızası, kendi kusuru ya da durumu ağırlaştırması varsa tazminat indirilir, hatta tamamen kaldırılabilir. Hafif kusurlu sorumlu ödeme yüzünden yoksulluğa düşecekse hakkaniyet gereği indirim yapılabilir.\n- **Ölüm (TBK m. 53):** Üç kalem istenir: (1) cenaze giderleri; (2) ölüm hemen gerçekleşmemişse tedavi giderleri ve çalışma gücü kaybı; (3) **destekten yoksun kalma** zararı.\n- **Destek kimdir?** Ölenden düzenli ve fiilî yardım alan ya da olağan akışa göre ileride alacak olan kişi. Resmî evlilik, akrabalık ya da mirasçılık şart değil. Destek tazminatı kişinin **kendi** hakkıdır, mirası reddetmek bu hakkı etkilemez.\n- **Bedensel zarar (TBK m. 54):** Tedavi giderleri, kazanç kaybı, çalışma gücünün azalması/yitirilmesi ve ekonomik geleceğin sarsılması.\n- **Hesap kuralları (TBK m. 55):**\n  - Tazminat sorumluluk hukuku ilkelerine göre hesaplanır.\n  - Rücu edilemeyen sosyal güvenlik ödemeleri ile ifa amacı taşımayan ödemeler tazminattan düşülmez.\n  - Hesaplanan tutar, \"çok yüksek\" ya da \"çok düşük\" denerek hakkaniyetle artırılamaz veya azaltılamaz.\n  - 📌 2026'dan beri: kazancın bilindiği dönemin tazminatına olay tarihinden, bilinmediği döneminkine karar tarihinden kanuni faiz işler. Tahkikattan önce ifa amacıyla yapılan ödemeler oransal olarak mahsup edilir.\n- **Manevi tazminat (TBK m. 56):** Bedensel bütünlüğü zedelenen kişinin kendisi her zaman isteyebilir. **Yakınlar** ise ancak **ağır bedensel zarar veya ölüm** hâlinde isteyebilir.\n- **Kişilik hakkı (TBK m. 58, TMK m. 24-25):**\n  - Manevi tazminat istenebilir.\n  - Hâkim, tazminata ek olarak ya da onun yerine kınama kararı verebilir ve bu kararın yayımlanmasına hükmedebilir.\n  - Önleme, durdurma ve tespit davaları da açılabilir.\n- **Zamanaşımı (TBK m. 72):** Öğrenmeden itibaren 2 yıl, her hâlde fiilden itibaren 10 yıl. Fiil, ceza kanununda daha uzun zamanaşımı öngörülen bir suçsa o süre uygulanır.",
+  "content_md": "## 0. Konunun haritası\n\nHaksız fiilin sonuçlarını konuşuyoruz. Sorumluluk kurulduysa (TBK m. 49: hukuka aykırı fiil, zarar, illiyet bağı, kusur), sıradaki soru şu: **tazminat neyi kapsar?**\n\nKafanda şu dört kutuyu tut:\n\n| Durum | Maddi tazminat | Manevi tazminat |\n|---|---|---|\n| Ölüm | TBK m. 53 (cenaze, tedavi, destek) | TBK m. 56/2 (yakınlar) |\n| Bedensel zarar | TBK m. 54 (tedavi, kazanç, çalışma gücü, ekonomik gelecek) | TBK m. 56/1 (zarar görenin kendisi), m. 56/2 (ağırsa yakınlar) |\n| Kişilik hakkı | Genel hükümler (TBK m. 49 vd.) ve TMK m. 25/3 | TBK m. 58, TMK m. 24-25 |\n| Hesap kuralları | TBK m. 50-52 ve m. 55 | Hâkimin takdiri (olayın özellikleri) |\n\n> 💡 **Püf nokta:** Olay sorusunda önce \"kim zarar gördü?\", sonra \"hangi sıfatla istiyor?\" diye sor: **mirasçı** olarak mı, yoksa **kendi adına** mı? Cevabın yarısı buradan çıkar.\n\n## 1. Temel: zarar, ispat ve hâkimin takdiri\n\n### 1.1 Zarar nedir?\n**Maddi zarar**, kişinin malvarlığında iradesi dışında meydana gelen eksilmedir. Klasik formül **fark teorisidir:** zararlı olay olmasaydı malvarlığı ne olurdu, şimdi ne durumda? Aradaki fark zarardır. Bu fark iki şekilde doğar:\n- **Fiili zarar:** Malvarlığından bir şey çıkar. Örneğin hastane faturası ödenir.\n- **Yoksun kalınan kâr:** Malvarlığına girecek bir şey girmez. Örneğin çalışılamayan aylar boyunca alınamayan maaş.\n\n**Manevi zarar** ise malvarlığıyla ilgili değildir. Acı, elem, üzüntü, yaşama sevincinin azalması ve kişiliğe yapılan saldırı bu kapsamdadır. Para burada zararı \"geri getirmez\", bir **tatmin ve denkleştirme** aracıdır.\n\n### 1.2 İspat yükü (TBK m. 50)\n- Zarar gören, **zararını ve zarar verenin kusurunu** ispatlamak zorundadır (m. 50/1).\n- Zararın varlığı belli ama **miktarı tam ispatlanamıyorsa**, dava reddedilmez. Hâkim, olayların olağan akışını ve zarar görenin aldığı önlemleri dikkate alarak miktarı hakkaniyete göre belirler (m. 50/2).\n\n> **Örnek:** Fatma'nın kazada parçalanan çantasındaki eşyaların hepsinin faturası yoktur. Hâkim, \"böyle birinin çantasında olağan olarak ne bulunur?\" sorusuyla makul bir miktar belirler.\n\n### 1.3 Kapsam, ödeme biçimi ve indirim (TBK m. 51-52)\n- Hâkim, tazminatın **kapsamını ve ödeme biçimini** durumun gereğine ve özellikle **kusurun ağırlığına** göre belirler (m. 51/1).\n- Tazminat **irat** (dönemsel ödeme, örneğin aylık) olarak ödenecekse borçlu güvence göstermek zorundadır (m. 51/2).\n- **İndirim sebepleri (m. 52/1):** Zarar gören (a) zararı doğuran fiile **razı olmuşsa**, (b) zararın doğmasında ya da artmasında **etkili olmuşsa** (*müterafik kusur*) veya (c) tazminat yükümlüsünün durumunu ağırlaştırmışsa, hâkim tazminatı indirebilir ya da **tamamen kaldırabilir**.\n- **Yoksulluk indirimi (m. 52/2):** Zarara **hafif kusuruyla** sebep olan kişi tazminatı ödediğinde **yoksulluğa düşecekse** ve hakkaniyet de gerektiriyorsa, hâkim indirim yapabilir. Üç şart birlikte aranır. Ağır kusurlu kişi bu indirimden yararlanamaz.\n\n> **Örnek:** Arka koltukta emniyet kemeri takmadan yolculuk eden Burak kazada ağır yaralanır. Kazanın tek kusurlusu karşı aracın sürücüsüdür. Ama Burak'ın kemer takmaması zararın artmasına etkili olduğu için tazminatından m. 52/1 uyarınca indirim yapılabilir.\n\n> ⚠️ **Sınavda dikkat:** m. 52/1 zarar görenin kendi davranışına dayanır ve indirimi de kaldırmayı da mümkün kılar. m. 52/2 ise sorumlunun ekonomik durumuna bakar ve yalnız indirime imkân verir.\n\n## 2. Ölüm hâlinde istenebilecek zararlar (TBK m. 53)\n\nKanun \"özellikle şunlardır\" der, yani sayım **örnekseyicidir**. Ama sınavda ve uygulamada üç kalem öne çıkar.\n\n### 2.1 Cenaze giderleri (m. 53/1-1)\n- Defin, cenazenin nakli, mezar yeri ve taşı gibi **makul ve olağan** giderlerdir.\n- Bu gideri **kim karşıladıysa** o ister. Mirasçı olması gerekmez. Masrafı kardeş ödediyse istem kardeşindir.\n\n### 2.2 Ölüm hemen gerçekleşmediyse: tedavi ve çalışma gücü kaybı (m. 53/1-2)\n- Yaralanma ile ölüm arasında zaman geçmişse, bu süredeki **tedavi giderleri** ve **çalışma gücünün azalması ya da yitirilmesinden** doğan kayıplar istenir.\n- Bunlar aslında **ölenin kendi zararıdır**. Bu yüzden istem **mirasçılarına** geçer ve mirasçılar bunu **mirasçı sıfatıyla** ister. Mirası reddeden kişi bu kalemleri isteyemez.\n\n### 2.3 Destekten yoksun kalma (m. 53/1-3)\nSınavın yıldızı bu kalemdir.\n\n**Destek kimdir?** Destek kavramı hukuki bir bağa değil, **fiilî bir duruma** dayanır. Sağlığında başkasının geçimine **düzenli ve fiilî** olarak, tamamen ya da kısmen katkı yapan ve ölüm olmasaydı olağan akışa göre bu yardımı sürdürecek olan kişi **destektir**. Yargıtay Hukuk Genel Kurulu bunu açıkça vurgular:\n- Resmî evlilik bağı **şart değildir**. Resmî nikâhı olmadan birlikte yaşanan kişi de destek görebilir.\n- Ölenin **mirasçısı olmak şart değildir**.\n- Önemli olan **düzenli ve eylemli birliktelik ile destek ihtiyacının ispatıdır**.\n\n**Kimler tipik olarak destek görür?** Eş ve çocuklar. Ölen düzenli yardım ediyorsa anne-baba ve kardeşler de. Bu kişiler için belirleyici olan yine fiilî yardımın ispatıdır.\n\n**Olası (ileride gerçekleşecek) destek:** Ölüm anında henüz yardım etmeyen biri de, olağan akışa göre ileride yardım edecek idiyse destek sayılır. En tipik örnek: kazada ölen 10 yaşındaki çocuğun, büyüdüğünde anne-babasına destek olacağının kabulü.\n\n> **Örnek:** Mehmet (40) kazada ölür. Eşi Ayşe ev hanımıdır, iki çocuğu ilkokula gidiyor, annesi Hatice'nin kirasını da her ay Mehmet ödüyordu. Ayşe, iki çocuk ve Hatice destekten yoksun kalma tazminatı isteyebilir. Hatice'nin hakkı, Mehmet'in düzenli olarak kira ödediğinin ispatına bağlıdır.\n\n**Kendi sıfatıyla istenir.** Destek tazminatı, destek görenin **kendi** zararıdır. Bu yüzden mirası reddetmiş olmak bu hakkı ortadan kaldırmaz.\n\n| | Mirasçı sıfatıyla istenenler | Kendi sıfatıyla istenenler |\n|---|---|---|\n| Örnek kalemler | Ölümden önceki tedavi giderleri, ölenin çalışma gücü kaybı (m. 53/1-2) | Destekten yoksun kalma (m. 53/1-3), yakınların manevi tazminatı (m. 56/2) |\n| Mirası reddeden isteyebilir mi? | Hayır | Evet |\n\n**Nasıl hesaplanır?** Hesabı uygulamada **aktüer bilirkişi** yapar. Kullanılan veriler:\n- desteğin geliri ve yaşı,\n- desteğin olası yaşam ve çalışma süresi,\n- destek görenlerin yaşı ve destek alma süresi (çocuklar için genellikle belli bir yaşa kadar),\n- gelirin aile içinde nasıl paylaştırıldığı (destek payları).\n\nSonuçta gelecekteki kayıpların bugünkü değeri, yani **peşin sermaye değeri** bulunur.\n\n**Eşin yeniden evlenme ihtimali.** Yargıtay, sağ kalan eşin yeniden evlenme ihtimalini tazminattan **indirim sebebi** sayar ve bu ihtimali AYİM'in (Askerî Yüksek İdare Mahkemesi) hazırladığı yaş tablosuna göre belirler. Tabloda 18 yaşından küçük her çocuk için ihtimal %5 düşer. Hukuk Genel Kurulu 2019'da, bu ihtimalin olay tarihindeki değil **karara en yakın veri olan hesap raporu tarihindeki yaşa** göre belirleneceğini kabul etti. Daireler de bu doğrultuda karar veriyor.\n\n> ⚠️ **Sınavda dikkat:** \"Ölen mirasçısıydı, mirası reddetti, destek tazminatı isteyemez\" cevabı **yanlıştır**. Destek tazminatı miras hakkı değil, kişinin kendi zararıdır.\n\n## 3. Bedensel zarar hâlinde istenebilecekler (TBK m. 54)\n\nZarar gören ölmemiş ama yaralanmışsa dört kalem öne çıkar. Bu sayım da örnekseyicidir.\n\n1. **Tedavi giderleri:** Hastane, ilaç, ameliyat, fizik tedavi, protez. Henüz yapılmamış ama gerekeceği belli olan gelecekteki tedaviler de dahildir. Kalıcı olarak başkasının bakımına muhtaç hâle gelen kişinin **bakıcı gideri** de uygulamada bu çerçevede istenir. Bakımı aile bireyleri üstlense bile bu bir emek ve değerdir, zarar sayılır.\n2. **Kazanç kaybı:** İyileşme süresince (*geçici iş göremezlik*) çalışılamadığı için kaybedilen gelir.\n3. **Çalışma gücünün azalması veya yitirilmesi:** Kalıcı bir sakatlık (maluliyet) kalmışsa, bundan sonraki çalışma hayatı boyunca kaybedilen güç. Maluliyet oranı sağlık kurulu ya da Adli Tıp raporuyla belirlenir.\n4. **Ekonomik geleceğin sarsılması:** Sakatlığın kişinin mesleki yükselme, iş bulma ya da hayatını kurma şansını daraltması.\n\n> **Örnek (çalışma gücü kaybı):** Kazada sol kolu %20 oranında kalıcı işlevini yitiren memur Can'ın maaşı düşmez. Yine de tazminat isteyebilir. Aynı işi artık daha fazla çaba (efor) harcayarak yapmaktadır ve çalışma gücündeki bu azalma başlı başına bir zarardır. Uygulamada buna **efor kaybı** denir.\n\n> **Örnek (ekonomik geleceğin sarsılması):** Yüzünde kalıcı ve belirgin yanık izi kalan 22 yaşındaki manken adayı Deniz'in mesleğe girme şansı ciddi biçimde azalmıştır. Bu, m. 54/1-4 kapsamında ayrıca değerlendirilir.\n\n> ⚠️ **Sınavda dikkat:** \"Kazanç kaybı\" geçici dönemi, \"çalışma gücü kaybı\" kalıcı sakatlığı karşılar. İkisi farklı dönemleri kapsadığı için birlikte istenebilir.\n\n## 4. Hesap kuralları (TBK m. 55)\n\nBu madde destek ve bedensel zarar hesabının \"anayasası\"dır. Dört kural içerir.\n\n**(1) Sorumluluk hukuku ilkelerine göre hesap.** Destekten yoksun kalma ve bedensel zararlar, TBK hükümlerine ve sorumluluk hukuku ilkelerine göre hesaplanır. Amaç, zarar görenin **gerçek zararını** bulmaktır. Desteğin ya da zarar görenin gerçek geliri, yaşı, çalışma süresi ve destek payları somut olaya göre belirlenir.\n\n**(2) İndirilemeyecek ödemeler.** Şu iki tür ödeme zararın belirlenmesinde dikkate alınmaz ve tazminattan düşülmez:\n- **kısmen ya da tamamen rücu edilemeyen sosyal güvenlik ödemeleri,**\n- **ifa amacı taşımayan ödemeler.**\n\nMantık şu: zarar görene başka bir kaynaktan yardım yapılması, zarar verenin borcunu azaltmamalı.\n\n> **Örnek:** Kazada ölen işçinin ailesine bir dernek yardım kampanyasıyla para topluyor. Bu para sorumlunun borcunu ödemek amacıyla verilmediği için ifa amacı taşımaz ve destek tazminatından düşülmez. Buna karşılık sorumlunun kendisinin ya da sigortacısının **ödeme amacıyla** yaptığı ödemeler elbette borçtan düşülür.\n\n**(3) Tutara bakarak hakkaniyet indirimi ya da artırımı yok.** Hesaplanan tazminat, **miktar esas alınarak** hakkaniyet düşüncesiyle artırılamaz veya azaltılamaz. Hâkim \"rakam çok yüksek çıktı, biraz azaltayım\" diyemez. Bu kural, zarar görenin kusuru gibi m. 52'deki indirim sebeplerinden farklıdır. Orada indirim, zarar görenin davranışına ya da sorumlunun durumuna dayanır.\n\n**(4) İdare de aynı kurallara tabi.** Her türlü idari eylem ve işlemin ya da idarenin sorumlu olduğu başka bir sebebin yol açtığı ölüm ve bedensel zararlara ilişkin istem ve davalarda da TBK hükümleri uygulanır (m. 55/2). Yani idareye karşı açılan tam yargı davasında da hesap aynı ilkelerle yapılır.\n\n### 📌 2026 değişikliği: faiz ve önceden yapılan ödemeler\n16.07.2026 tarihli ve 7589 sayılı Kanun, m. 55'e iki fıkra ekledi. Bu fıkralar yalnız **çalışma gücü kaybı** ve **destekten yoksun kalma** tazminatları için geçerli:\n- **Faiz:** Zarar görenin ya da desteğin **kazancının bilindiği** döneme ait tazminat toplamına **haksız fiil veya zarar doğuran olayın tarihinden**, kazancın **bilinemediği** döneme ait toplamına ise **karar tarihinden** itibaren kanuni faiz işler.\n- **Önceden yapılan ödemeler:** **İfa amacıyla** ve **tahkikat başlayıncaya kadar** ödenen bedel, ödeme tarihine göre belirlenecek tazminattan **oransal olarak** mahsup edilir. Yani yapılan ödeme, o tarihte hesaplanan toplam tazminatın yüzde kaçını karşılıyorsa, karar tarihindeki tazminattan da o oran düşülür.\n\n> **Örnek:** Kaza 2024'te oldu. Desteğin 2024-2026 arası gerçek maaşı belli, sonrası tahminî (bilinmeyen dönem). 2024-2026 dönemine ait tazminat için faiz kaza tarihinden başlar. Sonraki dönem için faiz karar tarihinden başlar.\n\nBu iki tazminat dışında kalan kalemlerde (cenaze gideri, tedavi gideri, manevi tazminat gibi) genel kural geçerlidir. Yargıtay'a göre haksız fiilde sorumlu, zarar doğar doğmaz, çoğu zaman da **fiil tarihinde** temerrüde düşer. Bu yüzden faiz kural olarak olay tarihinden istenir. Sigortacının temerrüdü ise kendi özel kurallarına tabidir.\n\n## 5. Manevi tazminat\n\n### 5.1 Amacı\nManevi tazminat bir **zenginleşme aracı değildir.** Amacı, zarar görenin çektiği acıyı bir ölçüde hafifletmek ve ona tatmin sağlamaktır. Bu yüzden miktarı **hâkimin takdirindedir.** Yargıtay'ın yerleşik ölçütleri şunlardır:\n- olayın oluş biçimi ve ağırlığı,\n- tarafların kusur durumu (zarar görenin kusuru manevi tazminatı da azaltır),\n- tarafların sosyal ve ekonomik durumu,\n- paranın alım gücü.\n\nTakdir gerekçeli olmalıdır.\n\n### 5.2 Bedensel bütünlüğün zedelenmesi (TBK m. 56/1)\nBedensel bütünlüğü zedelenen kişinin kendisi manevi tazminat isteyebilir. Kanun burada zararın **ağır** olmasını aramaz. Hafif yaralanmada da istenebilir, yaralanmanın hafifliği yalnız miktarı etkiler.\n\n### 5.3 Yakınların manevi tazminatı (TBK m. 56/2)\n- Yakınlar yalnız **ağır bedensel zarar veya ölüm** hâlinde manevi tazminat isteyebilir.\n- **Yakın kimdir?** Kanun saymamıştır. Ölenle ya da yaralananla arasında **sıkı duygusal bağ** bulunan kişiler bu kapsamdadır. Yargıtay eşi, çocukları, ana-babayı, kardeşi ve nişanlıyı yakın olarak kabul eder.\n- Yakının hakkı **kendi kişilik hakkına** dayanır. Yakının ağır yaralanması onun ruh ve sinir sağlığına da yönelmiş bir saldırıdır. Bu yüzden ana, örneğin velayet sıfatıyla değil, **kendi adına** ister.\n\n> **Örnek:** Trafik kazasında kızı %100 malul kalan ve sürekli bakıma muhtaç hâle gelen anne, kızının ağır bedensel zararı nedeniyle **kendi adına** manevi tazminat isteyebilir. Yargıtay, bu istemi reddeden yerel mahkeme kararını bozmuştur.\n\n> ⚠️ **Sınavda dikkat:** Kolu hafif sıyrılan çocuk için annesi manevi tazminat isteyemez. Çocuğun kendisi ise m. 56/1'e göre isteyebilir.\n\n### 5.4 Kişilik hakkının zedelenmesi (TBK m. 58, TMK m. 24-25)\n**Kişilik hakkı**; onur, saygınlık, özel hayat, resim ve ses, ad ve beden bütünlüğü gibi kişiye sıkı sıkıya bağlı değerleri korur.\n\n- **Hukuka aykırılık (TMK m. 24/2):** Kişilik hakkına yapılan her saldırı hukuka aykırıdır. Ancak saldırı (1) zarar görenin **rızasıyla**, (2) daha üstün nitelikte **özel ya da kamusal bir yararla** veya (3) **kanunun verdiği bir yetkinin kullanılmasıyla** haklı kılınabilir.\n- **Açılabilecek davalar (TMK m. 25):**\n  - saldırı tehlikesinin **önlenmesi**,\n  - süren saldırıya **son verilmesi** (durdurma),\n  - sona ermiş olsa bile etkileri süren saldırının hukuka aykırılığının **tespiti** (25/1),\n  - bunlarla birlikte düzeltmenin ya da kararın üçüncü kişilere bildirilmesi veya **yayımlanması** (25/2),\n  - maddi ve manevi tazminat ile saldırıdan elde edilen kazancın **vekâletsiz iş görme** hükümlerine göre verilmesi (25/3).\n- **Manevi tazminat (TBK m. 58/1):** Kişilik hakkı zedelenen kişi manevi tazminat isteyebilir.\n- **Başka giderim biçimleri (TBK m. 58/2):** Hâkim, para yerine ya da paraya ek olarak başka bir giderim biçimine karar verebilir. Özellikle **saldırıyı kınayan bir karar** verip bu kararın **yayımlanmasına** hükmedebilir.\n- **Devredilemez (TMK m. 25/4):** Manevi tazminat istemi, karşı taraf kabul etmedikçe devredilemez. Miras bırakan tarafından ileri sürülmemişse mirasçılara da geçmez.\n\n> **Örnek:** Bir haber sitesi, avukat Selin'in rüşvet aldığını gerçeğe aykırı olarak yazar. Haber hâlâ yayındadır. Selin haberin kaldırılmasını (durdurma), hukuka aykırılığın tespitini, kararın yayımlanmasını ve manevi tazminat isteyebilir. Müvekkil kaybettiğini ispatlarsa maddi tazminat da isteyebilir. Haber gerçek olsaydı ve kamu yararı taşısaydı, üstün yarar sebebiyle hukuka uygunluk tartışılırdı.\n\n## 6. Zamanaşımı: kısa hatırlatma\nTazminat istemi, zarar görenin **zararı ve tazminat yükümlüsünü öğrendiği tarihten** itibaren **2 yıl** ve her hâlde **fiilin işlendiği tarihten** itibaren **10 yıl** içinde zamanaşımına uğrar. Tazminat, ceza kanunlarında daha uzun zamanaşımı öngörülen bir suçtan doğmuşsa o uzun süre uygulanır (TBK m. 72/1). Ayrıntısı ayrı bir konuda.\n\n## 7. Olay çözerken denetim şeması\n1. **Sorumluluk var mı?** Hukuka aykırı fiil, zarar, illiyet bağı ve kusur (TBK m. 49), ya da bir kusursuz sorumluluk hâli.\n2. **Ne oldu?** Ölüm mü (m. 53), bedensel zarar mı (m. 54), kişilik hakkı ihlali mi (m. 58, TMK m. 24-25)?\n3. **Kim istiyor ve hangi sıfatla?** Mirasçı olarak mı (ölenin kendi zararları), kendi adına mı (destek, yakının manevi tazminatı, cenaze giderini ödeyen kişi)?\n4. **Kalemleri tek tek say:** Her kalemin dayanak maddesini yaz.\n5. **Hesaba etki eden noktalar:**\n   - indirim sebepleri (m. 52),\n   - indirilemeyecek ödemeler ve tutara bakarak hakkaniyet indirimi yasağı (m. 55/1),\n   - eşin yeniden evlenme ihtimali.\n6. **Manevi tazminat:** Zarar görenin kendisi (m. 56/1) ve ağır bedensel zarar ya da ölümde yakınlar (m. 56/2). Miktarın ölçütlerini söyle.\n7. **Faiz ve zamanaşımı:** m. 55'teki faiz ayrımı ve m. 72.",
+  "critical_md": "- 📌 Ölümde üç kalem (TBK m. 53): cenaze giderleri, ölüm hemen gerçekleşmediyse tedavi giderleri ve çalışma gücü kaybı, destekten yoksun kalma. Sayım örnekseyicidir (\"özellikle\").\n- 📌 Bedensel zararda dört kalem (TBK m. 54): tedavi, kazanç kaybı, çalışma gücünün azalması/yitirilmesi, ekonomik geleceğin sarsılması.\n- ⚠️ Destek tazminatı **kendi** hakkıdır. Mirası reddeden de ister. Ölümden önceki tedavi giderlerini ve ölenin çalışma gücü kaybını ise yalnız **mirasçılar** ister.\n- ⚠️ Destek sayılmak için resmî evlilik, akrabalık ya da mirasçılık şart değildir. **Düzenli ve fiilî yardım** (ya da olağan akışa göre gelecekteki yardım) yeter.\n- 📌 Cenaze giderini, masrafa **kim katlandıysa** o ister.\n- ⚠️ Gelir kaybı olmasa da kalıcı sakatlık tazmin edilir (efor kaybı, m. 54/1-3).\n- 📌 Rücu edilemeyen sosyal güvenlik ödemeleri ve ifa amacı taşımayan ödemeler (yardım, bağış) tazminattan düşülmez (TBK m. 55/1).\n- ⚠️ Hesaplanan tazminat, tutar esas alınarak hakkaniyetle artırılamaz veya azaltılamaz (m. 55/1). Bu, m. 52'deki indirim sebeplerinden **farklıdır**.\n- 📌 2026 ekleri (TBK m. 55): çalışma gücü ve destek tazminatında kazancın bilindiği döneme olay tarihinden, bilinmeyen döneme karar tarihinden faiz işler. Tahkikattan önce ifa amacıyla yapılan ödemeler oransal mahsup edilir.\n- 📌 Yargıtay eşin yeniden evlenme ihtimalini indirim sayar: rapor tarihindeki yaşa göre, AYİM tablosuyla. 18 yaşından küçük her çocuk ihtimali %5 düşürür.\n- ⚠️ Zarar gören kendisi için manevi tazminatı hafif yaralanmada da ister (m. 56/1). **Yakınlar** için **ağır bedensel zarar veya ölüm** şarttır (m. 56/2).\n- 📌 Yoksulluk indirimi (m. 52/2) için üç şart birlikte aranır: hafif kusur, yoksulluğa düşme ve hakkaniyet.\n- 📌 Kişilik hakkında hâkim, tazminat yerine ya da yanında kınama kararı verebilir ve kararın yayımlanmasına hükmedebilir (TBK m. 58/2).\n- ⚠️ Manevi tazminat istemi devredilemez. Miras bırakan ileri sürmediyse mirasçılara geçmez (TMK m. 25/4).\n- 📌 Zamanaşımı (TBK m. 72/1): öğrenmeden itibaren 2 yıl, her hâlde fiilden itibaren 10 yıl. Ceza zamanaşımı daha uzunsa o uygulanır.",
+  "doctrine_md": "### Manevi tazminatın hukuki niteliği\n**Baskın görüş** manevi tazminatı bir **tatmin ve denkleştirme** aracı sayar. Para, zarar görenin acısını hafifletecek bir karşılık sağlar. Bu yüzden zenginleşmeye yol açmamalı, ama sembolik ve önemsiz bir tutara da indirgenmemelidir. Bir görüş ise manevi tazminatta özel hukuka özgü bir **ceza (yaptırım)** işlevi de bulunduğunu, özellikle kasıtlı ve ağır ihlallerde bunun miktara yansıması gerektiğini savunur. Yargıtay ölçüt olarak kusurun ağırlığını da saydığı için, uygulama bu iki görüşü kısmen birleştirir.\n\n### Eşin yeniden evlenme ihtimali indirimi\nYargıtay bu indirimi istikrarlı biçimde uygular. Gerekçesi şudur: dul eş hiç evlenmeyecekmiş gibi hesap yapılırsa fazla tazminata ve zenginleşmeye yol açılır. Tartışma iki noktada yoğunlaşır:\n- **Hangi tarih?** Hukuk Genel Kurulu çoğunluğu karara en yakın verileri, yani rapor tarihindeki yaşı esas aldı. Karşı oy, destek hesabındaki diğer bütün verilerin ölüm tarihine göre belirlendiğini, aynı tarihte eşini kaybeden kişilerin rapor tarihine göre farklı tazminat almasının **eşitlik ilkesine** aykırı olacağını savundu.\n- **İndirimin kendisi:** Bir görüşe göre evlenme ihtimali gibi kişisel ve mahrem bir konuyu istatistiksel bir tabloyla yüzdeye bağlamak, kişinin özel hayatına ve onuruna uygun düşmez. Tablonun kadın ve erkek için farklı oranlar içermesi de eleştirilir.\n\n### TBK m. 55'teki \"hakkaniyet indirimi yasağı\"nın kapsamı\nm. 55/1'in son cümlesi, tazminatın yalnız **tutarına bakılarak** artırılmasını ya da azaltılmasını yasaklar. **Baskın görüşe göre** bu yasak, m. 52'deki indirim sebeplerini (zarar görenin kusuru, rızası, sorumlunun yoksulluğa düşmesi) ortadan kaldırmaz. Çünkü bu sebepler tutara değil, tarafların davranışına ya da durumuna dayanır. Tartışmalı olan, uygulamada zaman zaman hakkaniyete dayandırılan başka indirim türlerinin bu yasakla bağdaşıp bağdaşmadığıdır.\n\n### Ekonomik geleceğin sarsılması ayrı bir kalem mi?\nBir görüşe göre ekonomik geleceğin sarsılması, çalışma gücü kaybının bir uzantısıdır ve onunla birlikte hesaplanmalıdır. Karşı görüş ise TBK m. 54'ün bunu ayrı bir bent olarak saydığını hatırlatır. Bu görüşe göre, özellikle mesleki gelişme ve iş bulma şansının daralması gibi gelire hemen yansımayan kayıplar ayrıca değerlendirilmelidir. Kanunun lafzı ikinci görüşü destekler.\n\n### Desteğin kendi kusuru destek görenlere yansır mı?\nBir görüşe göre destek görenin hakkı desteğin ölümüne bağlıdır. Sorumlu, desteğe karşı ileri sürebileceği müterafik kusur savunmasını (TBK m. 52) destek görenlere karşı da ileri sürebilir. Karşı görüşe göre destekten yoksunluk zararı doğrudan destek görenlerde doğar, bu yüzden desteğin kusuru onlara yansıtılamaz. Yargıtay, özellikle kazada kusurlu olan sürücünün yakınlarının o aracın trafik sigortacısına açtığı davalarda uzun süre ikinci görüşü uyguladı. Trafik sigortası genel şartlarındaki sonraki değişiklikler nedeniyle bu davalarda sonuç kaza tarihine göre farklılaşabilir. Sınavda iki görüşü de gerekçesiyle yazmak en güvenlisidir.",
+  "glossary": [
+   {
+    "term": "Maddi zarar",
+    "definition": "Kişinin malvarlığında iradesi dışında oluşan eksilme. Zararlı olay olmasaydı malvarlığının alacağı değer ile şimdiki değer arasındaki fark (fark teorisi)."
+   },
+   {
+    "term": "Fiili zarar",
+    "definition": "Malvarlığından fiilen bir şeyin çıkması, örneğin ödenen tedavi gideri."
+   },
+   {
+    "term": "Yoksun kalınan kâr",
+    "definition": "Zararlı olay olmasaydı malvarlığına girecek olan değerin girmemesi, örneğin kaybedilen maaş."
+   },
+   {
+    "term": "Manevi zarar",
+    "definition": "Malvarlığı dışında kalan zarar: acı, elem, üzüntü, kişiliğe yönelik saldırı."
+   },
+   {
+    "term": "Destek",
+    "definition": "Başkasının geçimine düzenli ve fiilî olarak katkı yapan ya da olağan akışa göre ileride katkı yapacak olan kişi. Hukuki bağ ya da mirasçılık şart değildir."
+   },
+   {
+    "term": "Destekten yoksun kalma tazminatı",
+    "definition": "Desteğin ölümü nedeniyle destek görenlerin yoksun kaldığı yardımın karşılığı (TBK m. 53/1-3). Destek görenin kendi hakkıdır."
+   },
+   {
+    "term": "Olası destek",
+    "definition": "Ölüm anında yardım etmeyen ama olağan akışa göre ileride yardım edecek olan kişi, örneğin ölen küçük çocuğun anne-babasına göre durumu."
+   },
+   {
+    "term": "Peşin sermaye değeri",
+    "definition": "Gelecekte yıllara yayılacak kayıpların bugün tek seferde ödenecek karşılığı. Destek ve çalışma gücü tazminatı bu şekilde hesaplanır."
+   },
+   {
+    "term": "Maluliyet (çalışma gücü kaybı oranı)",
+    "definition": "Kalıcı sakatlığın kişinin çalışma gücünde yol açtığı yüzdesel kayıp. Sağlık kurulu ya da Adli Tıp raporuyla belirlenir."
+   },
+   {
+    "term": "Efor kaybı",
+    "definition": "Geliri azalmasa bile kalıcı sakatlık nedeniyle aynı işi daha fazla çabayla yapmak zorunda kalmanın yol açtığı zarar."
+   },
+   {
+    "term": "Geçici iş göremezlik",
+    "definition": "İyileşme süresince hiç ya da tam çalışılamayan dönem. Bu dönemin karşılığı kazanç kaybıdır."
+   },
+   {
+    "term": "Ekonomik geleceğin sarsılması",
+    "definition": "Bedensel zararın kişinin mesleki yükselme, iş bulma ve hayatını kurma şansını daraltması (TBK m. 54/1-4)."
+   },
+   {
+    "term": "Müterafik kusur",
+    "definition": "Zarar görenin, zararın doğmasında ya da artmasında etkili olan kendi kusuru. Tazminatın indirilmesine ya da kaldırılmasına yol açabilir (TBK m. 52/1)."
+   },
+   {
+    "term": "İrat",
+    "definition": "Tazminatın toptan değil, dönemsel (örneğin aylık) olarak ödenmesi. Bu durumda borçlu güvence göstermek zorundadır (TBK m. 51/2)."
+   },
+   {
+    "term": "Kişilik hakkı",
+    "definition": "Kişiye sıkı sıkıya bağlı değerleri (onur, özel hayat, beden bütünlüğü, ad, resim) koruyan hak. TMK m. 24-25 ve TBK m. 58 ile korunur."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "53",
+   "official_text": "a. Ölüm\nMADDE 53- Ölüm hâlinde uğranılan zararlar özellikle şunlardır:\n1. Cenaze giderleri.\n2. Ölüm hemen gerçekleşmemişse tedavi giderleri ile çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar.\n3. Ölenin desteğinden yoksun kalan kişilerin bu sebeple uğradıkları kayıplar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "54",
+   "official_text": "MADDE 54- Bedensel zararlar özellikle şunlardır:\n1. Tedavi giderleri.\n2. Kazanç kaybı.\n3. Çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar.\n4. Ekonomik geleceğin sarsılmasından doğan kayıplar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "55",
+   "official_text": "c. Belirlenmesi\nMADDE 55- Destekten yoksun kalma zararları ile bedensel zararlar, bu Kanun hükümlerine ve sorumluluk hukuku ilkelerine göre hesaplanır. Kısmen veya tamamen rücu edilemeyen sosyal güvenlik ödemeleri ile ifa amacını taşımayan ödemeler, bu tür zararların belirlenmesinde gözetilemez; zarar veya tazminattan indirilemez. Hesaplanan tazminat, miktar esas alınarak hakkaniyet düşüncesi ile artırılamaz veya azaltılamaz.\nBu Kanun hükümleri, her türlü idari eylem ve işlemler ile idarenin sorumlu olduğu diğer sebeplerin yol açtığı vücut bütünlüğünün kısmen veya tamamen yitirilmesine ya da kişinin ölümüne bağlı zararlara ilişkin istem ve davalarda da uygulanır.\n(Ek fıkra:16/7/2026-7589/18 md.) Çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar ile ölenin desteğinden yoksun kalan kişilerin bu sebeple uğradıkları kayıplar nedeniyle, zarar görenin veya destekte bulunan kişinin kazancının bilindiği döneme ilişkin hesaplanan tazminat miktarının toplamına haksız fiil veya zarar doğuran olayın meydana geldiği tarihten; zarar görenin veya destekte bulunan kişinin kazancının bilinemediği döneme ilişkin hesaplanan tazminat miktarının toplamına ise karar tarihinden itibaren kanuni faiz işletilir.\n(Ek fıkra:16/7/2026-7589/18 md.) Çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar ile ölenin desteğinden yoksun kalan kişilerin bu sebeple uğradıkları kayıplara bağlı tazminatlar için ifa amacıyla tahkikat başlayıncaya kadar ödenen bedel, ödeme tarihine göre belirlenecek tazminat miktarından oransal olarak mahsup edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "56",
+   "official_text": "MADDE 56- Hâkim, bir kimsenin bedensel bütünlüğünün zedelenmesi durumunda, olayın özelliklerini göz önünde tutarak, zarar görene uygun bir miktar paranın manevi tazminat olarak ödenmesine karar verebilir.\nAğır bedensel zarar veya ölüm hâlinde, zarar görenin veya ölenin yakınlarına da manevi tazminat olarak uygun bir miktar paranın ödenmesine karar verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "58",
+   "official_text": "MADDE 58- Kişilik hakkının zedelenmesinden zarar gören, uğradığı manevi zarara karşılık manevi tazminat adı altında bir miktar para ödenmesini isteyebilir.\nHâkim, bu tazminatın ödenmesi yerine, diğer bir giderim biçimi kararlaştırabilir veya bu tazminata ekleyebilir; özellikle saldırıyı kınayan bir karar verebilir ve bu kararın yayımlanmasına hükmedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "50",
+   "official_text": "MADDE 50- Zarar gören, zararını ve zarar verenin kusurunu ispat yükü altındadır.\nUğranılan zararın miktarı tam olarak ispat edilemiyorsa hâkim, olayların olağan akışını ve zarar görenin aldığı önlemleri göz önünde tutarak, zararın miktarını hakkaniyete uygun olarak belirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "51",
+   "official_text": "MADDE 51- Hâkim, tazminatın kapsamını ve ödenme biçimini, durumun gereğini ve özellikle kusurun ağırlığını göz önüne alarak belirler.\nTazminatın irat biçiminde ödenmesine hükmedilirse, borçlu güvence göstermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "52",
+   "official_text": "MADDE 52- Zarar gören, zararı doğuran fiile razı olmuş veya zararın doğmasında ya da artmasında etkili olmuş yahut tazminat yükümlüsünün durumunu ağırlaştırmış ise hâkim, tazminatı indirebilir veya tamamen kaldırabilir.\nZarara hafif kusuruyla sebep olan tazminat yükümlüsü, tazminatı ödediğinde yoksulluğa düşecek olur ve hakkaniyet de gerektirirse hâkim, tazminatı indirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "72",
+   "official_text": "MADDE 72- Tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Ancak, tazminat ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa, bu zamanaşımı uygulanır.\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile, her zaman bu borcu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "24",
+   "official_text": "1. İlke\nMadde 24- Hukuka aykırı olarak kişilik hakkına saldırılan kimse, hâkimden, saldırıda bulunanlara karşı korunmasını isteyebilir.\nKişilik hakkı zedelenen kimsenin rızası, daha üstün nitelikte özel veya kamusal yarar ya da kanunun verdiği yetkinin kullanılması sebeplerinden biriyle haklı kılınmadıkça, kişilik haklarına yapılan her saldırı hukuka aykırıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "25",
+   "official_text": "2. Davalar\nMadde 25- Davacı, hâkimden saldırı tehlikesinin önlenmesini, sürmekte olan saldırıya son verilmesini, sona ermiş olsa bile etkileri devam eden saldırının hukuka aykırılığının tespitini isteyebilir.\nDavacı bunlarla birlikte, düzeltmenin veya kararın üçüncü kişilere bildirilmesi ya da yayımlanması isteminde de bulunabilir.\nDavacının, maddî ve manevî tazminat istemleri ile hukuka aykırı saldırı dolayısıyla elde edilmiş olan kazancın vekâletsiz iş görme hükümlerine göre kendisine verilmesine ilişkin istemde bulunma hakkı saklıdır.\nManevî tazminat istemi, karşı tarafça kabul edilmiş olmadıkça devredilemez; miras bırakan tarafından ileri sürülmüş olmadıkça mirasçılara geçmez.\nDavacı, kişilik haklarının korunması için kendi yerleşim yeri veya davalının yerleşim yeri mahkemesinde dava açabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2011/17-3",
+   "karar_no": "2011/142",
+   "decision_date": "13.04.2011",
+   "summary_md": "Davacı, trafik kazasında ölen kadından resmî olarak boşanmış ve başka biriyle evlenmiştir. Buna rağmen ölenle imam nikâhıyla birlikte yaşamaya devam ettiğini ileri sürerek destekten yoksun kalma tazminatı istemiştir. Yerel mahkeme, davacının ölenden boşandığını, başka biriyle evli olduğunu ve destekten yoksun kaldığını ispatlayamadığını belirterek davayı reddetmiştir. Yargıtay 17. Hukuk Dairesi kararı bozmuş, yerel mahkeme direnmiş, Hukuk Genel Kurulu da bozma gerekçesini benimseyerek direnme kararını bozmuştur. Gerekçeye göre destek tazminatı için resmî evlilik bağı da mirasçılık da gerekmez. Destek kavramı hukuki bir ilişkiye değil fiilî bir duruma dayanır. Mahkeme, davacının ölenle birlikte yaşayıp yaşamadığını ve ortak bir hayatları olup olmadığını araştırmalıdır. Konuya katkısı: destek ilişkisinde belirleyici olanın düzenli ve eylemli birliktelik ile destek ihtiyacının ispatı olduğunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/76942300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/2038",
+   "karar_no": "2019/979",
+   "decision_date": "01.10.2019",
+   "summary_md": "Trafik kazasında eşini kaybeden kadın destekten yoksun kalma tazminatı istemiştir. Kadın olay tarihinde 39, aktüer raporunun hazırlandığı tarihte 41 yaşındadır. Yerel mahkeme, rapor tarihindeki yaşa göre eşin yeniden evlenme ihtimali bulunmadığını kabul eden raporu esas almıştır. Özel Daire, olay tarihindeki yaşa göre AYİM tablosunda bir evlenme ihtimali bulunduğunu belirterek kararı bozmuş, yerel mahkeme direnmiştir. Hukuk Genel Kurulu çoğunlukla direnme kararını onamıştır: tazminat hesabında karara en yakın veriler, yani rapor tarihindeki yaş esas alınır. Karşı oy, hesabın diğer verilerinde ölüm tarihinin esas alındığını ve rapor tarihine bağlı bir hesabın eşitlik ilkesine aykırı olacağını savunmuştur. Konuya katkısı: eşin yeniden evlenme ihtimalinin AYİM tablosuyla belirlenen bir indirim sebebi olduğunu ve hangi tarihin esas alınacağını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/554354500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "4. Hukuk Dairesi",
+   "esas_no": "2018/1960",
+   "karar_no": "2019/6280",
+   "decision_date": "24.12.2019",
+   "summary_md": "Trafik kazasında kızı vücut çalışma gücünün %100'ünü yitiren ve sürekli bakıma muhtaç kalan anne, kendi adına manevi tazminat istemiştir. Yerel mahkeme, annenin kızıyla birlikte yaşadığını ve onun tedavi ve bakımıyla ilgilendiğini ispatlayamadığı gerekçesiyle istemi reddetmiştir. Yargıtay 4. Hukuk Dairesi kararı bozmuştur. Gerekçeye göre TBK m. 56/2 uyarınca ağır bedensel zararda ana, baba, eş, kardeş ve nişanlı gibi yakınlar da manevi tazminat isteyebilir. Çünkü sevdiklerinin ağır yaralanmasıyla kendi ruh ve sinir sağlıkları, yani kendi kişilik hakları zedelenir. Annenin hakkı velayete bağlı değildir, ağır yaralananın annesi sıfatıyla istenir. Konuya katkısı: ağır bedensel zararda yakının manevi zararının olayın niteliğinden anlaşılabileceğini gösterir. Annenin ayrıca kızıyla birlikte yaşadığını ya da bakımını üstlendiğini ispatlaması aranmamıştır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/567049900",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 53'te ölüm hâlinde uğranılan zararlar arasında **sayılmayan** hangisidir?",
+   "options": [
+    "Cenaze giderleri",
+    "Ölenin desteğinden yoksun kalan kişilerin kayıpları",
+    "Ölüm hemen gerçekleşmemişse tedavi giderleri",
+    "Ekonomik geleceğin sarsılmasından doğan kayıplar"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Ekonomik geleceğin sarsılması, TBK m. 54'te **bedensel zararlar** arasında sayılır. TBK m. 53 ise ölümde cenaze giderlerini, ölüm hemen gerçekleşmediyse tedavi giderleri ile çalışma gücü kaybını ve destekten yoksun kalma zararını sayar."
+  },
+  {
+   "stem_md": "Destekten yoksun kalma tazminatı isteyebilmek için aşağıdakilerden hangisi **yeterli ve belirleyicidir**?",
+   "options": [
+    "Ölenle resmî evlilik bağı bulunmak",
+    "Ölenin sağlığında düzenli ve fiilî olarak yardım etmesi ya da olağan akışa göre ileride yardım edecek olması",
+    "Ölenle aynı hanede nüfusa kayıtlı olmak",
+    "Ölenin yasal mirasçısı olmak"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Destek kavramı hukuki bir bağa değil fiilî bir duruma dayanır. Mirasçılık da resmî evlilik de şart değildir. Belirleyici olan düzenli ve eylemli yardımdır (TBK m. 53/1-3). Nüfus kaydı tek başına destek ilişkisini ispatlamaz."
+  },
+  {
+   "stem_md": "Ahmet trafik kazasında ölmüştür. Ahmet her ay annesi Gül'ün geçimine düzenli katkı yapıyordu. Gül, oğlunun borçlarından korktuğu için mirası reddetmiştir. Gül'ün destekten yoksun kalma tazminatı istemi hakkında hangisi doğrudur?",
+   "options": [
+    "Destek tazminatı kendi hakkı olduğundan, mirası reddetmiş olsa da isteyebilir.",
+    "Mirası reddettiği için hiçbir tazminat isteyemez.",
+    "Ancak mirası reddetmeden önce dava açmışsa isteyebilir.",
+    "Yalnız cenaze giderlerini isteyebilir, destek tazminatı mirasçılara aittir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Destekten yoksun kalma zararı destek görenin **kendi** zararıdır, mirasa dahil değildir (TBK m. 53/1-3). Bu yüzden mirası reddetmek bu hakkı etkilemez. Mirası reddetmek yalnız ölenin kendi zararları için mirasçı sıfatıyla istem hakkını ortadan kaldırır."
+  },
+  {
+   "stem_md": "TBK m. 54'e göre bedensel zararlar arasında **sayılmayan** hangisidir?",
+   "options": [
+    "Tedavi giderleri",
+    "Kazanç kaybı",
+    "Ekonomik geleceğin sarsılmasından doğan kayıplar",
+    "Cenaze giderleri"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Cenaze giderleri ölüm hâline özgüdür ve TBK m. 53'te düzenlenir. TBK m. 54 bedensel zararlarda tedavi giderlerini, kazanç kaybını, çalışma gücünün azalması ya da yitirilmesinden doğan kayıpları ve ekonomik geleceğin sarsılmasını sayar."
+  },
+  {
+   "stem_md": "Memur Can, kazada sol kolunun %20 oranında kalıcı işlev kaybına uğramıştır. Maaşında hiçbir azalma olmamıştır. Can'ın çalışma gücü kaybı nedeniyle tazminat istemi hakkında hangisi doğrudur?",
+   "options": [
+    "Yalnız manevi tazminat isteyebilir.",
+    "Gelir kaybı olmadığı için zararı yoktur, istem reddedilir.",
+    "Yalnız emekli olduktan sonraki dönem için tazminat isteyebilir.",
+    "Çalışma gücündeki azalma başlı başına zarardır, gelir azalmasa da tazminat isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 54/1-3 çalışma gücünün azalmasından doğan kayıpları ayrıca sayar. Gelir azalmasa bile kişi aynı işi daha fazla çabayla yapmak zorunda kalır. Uygulamada buna efor kaybı denir ve tazmin edilir."
+  },
+  {
+   "stem_md": "TBK m. 55'e göre aşağıdaki ödemelerden hangisi destekten yoksun kalma tazminatından **düşülmez**?",
+   "options": [
+    "Sorumlunun zorunlu mali sorumluluk sigortacısının tazminat borcu için yaptığı ödeme",
+    "Bir derneğin aile için yardım kampanyasıyla topladığı bağış",
+    "Sorumlunun, borcunu ödemek amacıyla davadan önce yaptığı ödeme",
+    "Sorumlunun dava sırasında kısmi ödeme olarak yatırdığı tutar"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Bağış ve yardım kampanyası gibi **ifa amacı taşımayan** ödemeler zarardan ve tazminattan indirilemez (TBK m. 55/1). Sorumlunun ya da sigortacısının borcu ödemek amacıyla yaptığı ödemeler ise borcu azaltır."
+  },
+  {
+   "stem_md": "Bilirkişi, desteğini kaybeden üç kişi için toplam 4.000.000 TL destek tazminatı hesaplamıştır. Hâkim, \"Rakam çok yüksek, hakkaniyet gereği %20 indiriyorum\" demiştir. Bu karar hakkında hangisi doğrudur?",
+   "options": [
+    "Hesaplanan tazminat, miktar esas alınarak hakkaniyet düşüncesiyle azaltılamayacağı için hukuka aykırıdır.",
+    "Yalnız tazminat irat olarak bağlanmışsa yerindedir.",
+    "Davalı ağır kusurluysa yerinde değildir, hafif kusurluysa yerindedir.",
+    "Hâkimin TBK m. 51'deki takdir yetkisi içinde kalır, yerindedir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 55/1'in son cümlesine göre hesaplanan tazminat, miktar esas alınarak hakkaniyet düşüncesiyle artırılamaz veya azaltılamaz. Zarar görenin kusuru ya da sorumlunun yoksulluğa düşmesi gibi m. 52'deki sebepler ise ayrı bir kurumdur ve somut gerekçe ister."
+  },
+  {
+   "stem_md": "2026'da TBK m. 55'e eklenen hükme göre, destekten yoksun kalma tazminatında **desteğin kazancının bilinemediği** döneme ait tazminat toplamına kanuni faiz hangi tarihten işletilir?",
+   "options": [
+    "Karar tarihinden",
+    "Davalıya ihtarname tebliğ edildiği tarihten",
+    "Haksız fiil tarihinden",
+    "Dava tarihinden"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 55'e eklenen fıkraya göre kazancın **bilindiği** döneme ait toplama haksız fiil ya da zarar doğuran olayın tarihinden, kazancın **bilinemediği** döneme ait toplama ise **karar tarihinden** itibaren kanuni faiz işletilir. Bu ayrım çalışma gücü kaybı ve destekten yoksun kalma tazminatları için geçerlidir."
+  },
+  {
+   "stem_md": "TBK m. 55'e 2026'da eklenen hükme göre, çalışma gücü kaybı tazminatı için **ifa amacıyla ve tahkikat başlayıncaya kadar** yapılan ödeme nasıl dikkate alınır?",
+   "options": [
+    "Yalnız faiz alacağından düşülür.",
+    "Ödeme tarihine göre belirlenecek tazminat miktarından oransal olarak mahsup edilir.",
+    "Ödenen tutar, karar tarihindeki tazminattan aynen (nominal olarak) düşülür.",
+    "Hiç dikkate alınmaz, ayrıca sebepsiz zenginleşme davası açılır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Eklenen fıkraya göre ifa amacıyla tahkikat başlayıncaya kadar ödenen bedel, **ödeme tarihine göre** belirlenecek tazminat miktarından **oransal olarak** mahsup edilir (TBK m. 55). Böylece, ödeme o tarihteki tazminatın yüzde kaçını karşıladıysa o oran düşülür."
+  },
+  {
+   "stem_md": "Bir kavgada kolu hafifçe sıyrılan Ece, saldırgandan manevi tazminat istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Ece yalnız maddi tazminat isteyebilir.",
+    "Manevi tazminat yalnız ağır bedensel zararda istenebileceği için Ece isteyemez.",
+    "Ece bedensel bütünlüğü zedelendiği için isteyebilir. Yaralanmanın hafifliği yalnız miktarı etkiler.",
+    "Ece ancak saldırgan cezaya mahkûm olursa isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 56/1, bedensel bütünlüğü zedelenen kişinin kendisi için ağırlık şartı aramaz. \"Ağır bedensel zarar\" şartı yalnız **yakınların** istemi için geçerlidir (m. 56/2). Ceza mahkûmiyeti de şart değildir."
+  },
+  {
+   "stem_md": "Bir trafik kazasında 8 yaşındaki Mert'in dizi hafifçe sıyrılmış, ertesi gün iyileşmiştir. Mert'in annesi Seda, yaşadığı korku nedeniyle **kendi adına** manevi tazminat istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Yakınlar her yaralanmada kendi adına manevi tazminat isteyebileceği için Seda isteyebilir.",
+    "Seda yalnız velayet sıfatıyla ve yalnız maddi tazminat isteyebilir.",
+    "Seda isteyebilir, ama tazminat Mert'in adına hükmedilir.",
+    "Yakınların kendi adına istemi için ağır bedensel zarar veya ölüm gerektiğinden Seda isteyemez. Mert ise kendisi için isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 56/2'ye göre yakınlar ancak **ağır bedensel zarar veya ölüm** hâlinde kendi adına manevi tazminat isteyebilir. Hafif yaralanmada bu şart gerçekleşmez. Mert ise m. 56/1'e göre kendisi için (velisi aracılığıyla) isteyebilir."
+  },
+  {
+   "stem_md": "TBK m. 56/2'deki \"yakın\" kavramı hakkında hangisi doğrudur?",
+   "options": [
+    "Kanunda sayılmamıştır. Ölenle ya da ağır yaralananla sıkı duygusal bağı olan nişanlı gibi kişiler de yakın sayılabilir.",
+    "Yalnız aynı evde yaşayan kişileri kapsar.",
+    "Yalnız ölenin eşi ve çocuklarıyla sınırlıdır.",
+    "Yalnız yasal mirasçıları kapsar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kanun \"yakın\" kavramını saymamıştır. Belirleyici olan **sıkı duygusal bağdır**. Yargıtay ana, baba, eş, çocuk, kardeş ve nişanlıyı yakın olarak kabul eder (TBK m. 56/2). Mirasçılık ya da aynı evde yaşamak şart değildir."
+  },
+  {
+   "stem_md": "Kişilik hakkının zedelenmesi hâlinde hâkimin manevi tazminatın yerine ya da yanında verebileceği başka bir giderim biçimi olarak TBK m. 58/2'de **özellikle** sayılan hangisidir?",
+   "options": [
+    "Saldırganın hapis cezasına çarptırılması",
+    "Saldırganın mesleğinden men edilmesi",
+    "Saldırıyı kınayan bir karar verilmesi ve bu kararın yayımlanması",
+    "Zarar görene kamu görevi verilmesi"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 58/2'ye göre hâkim, manevi tazminat yerine başka bir giderim biçimine karar verebilir ya da bunu tazminata ekleyebilir. Özellikle saldırıyı kınayan bir karar verip bu kararın yayımlanmasına hükmedebilir. Ceza ve meslekten men gibi yaptırımlar özel hukuk giderimi değildir."
+  },
+  {
+   "stem_md": "TMK m. 25'e göre kişilik hakkı saldırıya uğrayan davacının açabileceği davalar arasında **yer almayan** hangisidir?",
+   "options": [
+    "Saldırganın kamu haklarından yasaklanması",
+    "Sona ermiş olsa bile etkileri devam eden saldırının hukuka aykırılığının tespiti",
+    "Saldırı tehlikesinin önlenmesi",
+    "Sürmekte olan saldırıya son verilmesi"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 25/1 önleme, durdurma ve tespit davalarını sayar. TMK m. 25/2 düzeltmenin ya da kararın yayımlanmasını, TMK m. 25/3 tazminatı ve kazancın verilmesini düzenler. Kamu haklarından yasaklanma bir ceza hukuku yaptırımıdır."
+  },
+  {
+   "stem_md": "Bir dergide hakkında gerçek dışı ve onur kırıcı bir yazı yayımlanan Ayşe, dergiye ya da yazara hiçbir talepte bulunmadan ve dava açmadan ölmüştür. Mirasçıları, Ayşe'nin bu yazı nedeniyle uğradığı manevi zarar için tazminat isteyebilir mi?",
+   "options": [
+    "Hayır. Manevi tazminat istemi, miras bırakan tarafından ileri sürülmemişse mirasçılara geçmez.",
+    "Hayır, çünkü kişilik hakkı ölümle birlikte geçmişe etkili olarak sona erer ve yazı hukuka uygun hâle gelir.",
+    "Evet, manevi tazminat istemi her durumda mirasçılara geçer.",
+    "Evet, ama yalnız yazının yayımlandığı yıl içinde açılırsa."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 25/4'e göre manevi tazminat istemi, karşı tarafça kabul edilmemişse devredilemez. Miras bırakan tarafından ileri sürülmemişse mirasçılara da geçmez. Ayşe istemini dava ya da başka bir yolla ileri sürmeden öldüğü için mirasçılar bu istemi kullanamaz."
+  },
+  {
+   "stem_md": "Haksız fiil davasında **ispat yükü** hakkında hangisi doğrudur?",
+   "options": [
+    "Zarar miktarı kuruşu kuruşuna ispatlanamazsa dava reddedilir.",
+    "Zarar verenin kusursuzluğunu ispat etmesi gerekir.",
+    "Kusuru hâkim kendiliğinden araştırır, zarar görenin ispat yükü yoktur.",
+    "Zarar gören, zararını ve zarar verenin kusurunu ispatlar. Miktar tam ispatlanamazsa hâkim hakkaniyete göre belirler."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 50/1'e göre zarar gören, zararını ve zarar verenin kusurunu ispat yükü altındadır. m. 50/2'ye göre miktar tam ispat edilemiyorsa hâkim, olayların olağan akışını ve zarar görenin aldığı önlemleri göz önünde tutarak hakkaniyete uygun bir miktar belirler. Kusursuzluk ispatı ancak bazı kusursuz sorumluluk hâllerinde söz konusudur."
+  },
+  {
+   "stem_md": "Emniyet kemeri takmadan yolculuk eden Burak, tamamen karşı aracın kusuruyla olan kazada ağır yaralanmıştır. Bilirkişiye göre kemer takılsaydı yaralanma daha hafif olurdu. Tazminat hakkında hangisi doğrudur?",
+   "options": [
+    "İndirim ancak sorumlu yoksulluğa düşecekse yapılabilir.",
+    "Burak kazaya sebep olmadığı için hiçbir indirim yapılamaz.",
+    "Burak'ın davranışı zararın artmasına etkili olduğundan hâkim tazminatı indirebilir.",
+    "Burak'ın tazminatı mutlaka tamamen kaldırılır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 52/1'e göre zarar gören, zararın doğmasında ya da **artmasında** etkili olmuşsa hâkim tazminatı indirebilir ya da tamamen kaldırabilir. Kemer takmamak zararın artmasına etkili bir müterafik kusurdur. Kaldırma zorunlu değildir. Yoksulluk ölçütü ise m. 52/2'nin ayrı şartıdır."
+  },
+  {
+   "stem_md": "Hızla ve alkollü araç kullanarak yayaya çarpan Emre, tazminatı ödediğinde yoksulluğa düşeceğini ileri sürerek TBK m. 52/2'ye göre indirim istemektedir. Hangisi doğrudur?",
+   "options": [
+    "m. 52/2 zarara hafif kusuruyla sebep olan kişi için öngörüldüğünden, ağır kusurlu Emre bu indirimden yararlanamaz.",
+    "İndirim yapılır, ama yalnız manevi tazminattan.",
+    "İndirim için zarar görenin rızası gerekir.",
+    "Yoksulluğa düşecekse indirim her durumda zorunludur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 52/2'deki indirim üç şarta bağlıdır: (1) zarara **hafif kusurla** sebep olmak, (2) ödeme hâlinde yoksulluğa düşmek, (3) hakkaniyetin de bunu gerektirmesi. Ağır kusurlu sorumlu bu indirimden yararlanamaz."
+  },
+  {
+   "stem_md": "Hâkim tazminatın **irat** biçiminde (örneğin aylık bağlanarak) ödenmesine hükmederse hangisi gerekir?",
+   "options": [
+    "Borçlunun güvence göstermesi",
+    "Zarar görenin yazılı rızası",
+    "İratın her yıl yeniden dava yoluyla belirlenmesi",
+    "Tazminatın en fazla beş yıl süreyle bağlanması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 51/2'ye göre tazminatın irat biçiminde ödenmesine hükmedilirse borçlu güvence göstermekle yükümlüdür. Böylece zarar görenin dönemsel ödemeleri alamama riski azaltılır."
+  },
+  {
+   "stem_md": "Yargıtay'ın yerleşik uygulamasına göre, destekten yoksun kalma tazminatında sağ kalan eşin yeniden evlenme ihtimali nasıl değerlendirilir?",
+   "options": [
+    "Yalnız eş dava sırasında fiilen evlenmişse dikkate alınır.",
+    "Hiç dikkate alınmaz, çünkü kanunda yazmaz.",
+    "Hâkimin serbest takdiriyle, her zaman %50 indirim yapılarak belirlenir.",
+    "AYİM tablosuna göre ve karara en yakın veri olarak rapor tarihindeki yaşa göre belirlenip indirim sebebi sayılır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Yargıtay, eşin yeniden evlenme ihtimalini tazminattan indirim sebebi sayar ve bunu AYİM tablosuyla belirler. Tabloda 18 yaşından küçük her çocuk için oran %5 düşer. Hukuk Genel Kurulu 2019'da bu ihtimalin rapor tarihindeki yaşa göre belirleneceğini kabul etmiştir. Bu indirim içtihatla oluşmuştur, TBK m. 53'te ayrıca yazılı değildir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "35 yaşındaki mühendis Murat, kırmızı ışıkta geçen sürücü Tolga'nın aracının çarpmasıyla ağır yaralanır. Kazada tek kusurlu Tolga'dır. Murat on gün yoğun bakımda kaldıktan sonra ölür. Hastane masraflarının SGK'nın karşılamadığı kısmı Murat'ın kendi banka hesabından ödenmiştir. Cenaze masraflarını ise Murat'ın kardeşi Kerem karşılamıştır.\n\nMurat; eşi Elif (32), çocukları Ada (5) ve Arda (8) ile birlikte yaşamaktadır. Ayrıca her ay annesi Hatice'nin (62) kirasını ödemektedir. Murat'ın borçları fazla olduğu için Elif mirası reddetmiştir.\n\nKazadan sonra Murat'ın iş arkadaşları aile için kendi aralarında para toplamıştır. Tolga'nın zorunlu trafik sigortacısı da dava açılmadan önce, destek tazminatına mahsuben Elif'e bir ödeme yapmıştır.\n\n1. Murat'ın ölümü nedeniyle kimler, hangi maddi tazminat kalemlerini, hangi sıfatla isteyebilir?\n2. Elif'in mirası reddetmesi taleplerini nasıl etkiler?\n3. Arkadaşların topladığı para ve sigortacının yaptığı ödeme tazminatı etkiler mi?\n4. Kimler manevi tazminat isteyebilir?",
+   "rubric": [
+    {
+     "point": "Ölümde istenebilecek kalemlerin sayılması: cenaze, ölümden önceki tedavi giderleri ve çalışma gücü kaybı, destekten yoksun kalma",
+     "weight": 20,
+     "madde_ref": "TBK m. 53"
+    },
+    {
+     "point": "Cenaze giderini masrafa katlanan Kerem'in istemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 53"
+    },
+    {
+     "point": "Elif, Ada, Arda ve düzenli kira yardımı alan Hatice'nin destek tazminatını kendi sıfatıyla istemesi; mirası reddetmenin bunu etkilememesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 53"
+    },
+    {
+     "point": "Ölümden önceki tedavi gideri ve çalışma gücü kaybının mirasçı sıfatıyla istenmesi; mirası reddeden Elif'in bu kalemleri isteyememesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 53"
+    },
+    {
+     "point": "Arkadaşların topladığı paranın ifa amacı taşımadığı için tazminattan düşülmemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 55"
+    },
+    {
+     "point": "Sigortacının ifa amacıyla ve tahkikattan önce yaptığı ödemenin, ödeme tarihindeki tazminata göre oransal olarak mahsup edilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 55"
+    },
+    {
+     "point": "Eş, çocuklar, anne ve kardeşin ölüm nedeniyle yakın sıfatıyla manevi tazminat isteyebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 56"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Tolga'nın kırmızı ışıkta geçmesi kusurlu ve hukuka aykırı bir fiildir. Murat'ın ölümüyle arasında illiyet bağı vardır. Haksız fiil sorumluluğu kurulur (TBK m. 49). Ölüm hemen değil on gün sonra gerçekleştiği için TBK m. 53'ün üç kalemi de gündeme gelir.\n\n**1. Maddi tazminat kalemleri ve hak sahipleri:**\n- *Cenaze giderleri:* Masrafa kim katlandıysa o ister. Bu nedenle istem **Kerem'indir**. Mirasçı olup olmaması önemli değildir.\n- *Ölümden önceki tedavi giderleri ve çalışma gücü kaybı:* Tedavi gideri Murat'ın kendi hesabından ödendiği için onun malvarlığını eksiltmiştir. Yoğun bakımdaki on gün boyunca çalışamaması da onun kaybıdır. Bunlar Murat'ın **kendi zararlarıdır**, istem hakkı mirasçılarına geçer (TBK m. 53/1-2). Mirası reddetmeyen mirasçılar, olayda çocuklar, bu kalemleri **mirasçı sıfatıyla** ister.\n- *Destekten yoksun kalma:* Murat, eşi Elif ile çocukları Ada ve Arda'nın tipik desteğidir. Annesi Hatice'nin kirasını her ay düzenli ödediği için Hatice de destek görendir. Bunun ispatı (banka kayıtları, tanık) Hatice'ye düşer. Dördü de destek tazminatını **kendi sıfatlarıyla** ister (TBK m. 53/1-3). Hesabı aktüer bilirkişi yapar. Elif için yeniden evlenme ihtimali, Yargıtay uygulamasına göre rapor tarihindeki yaşına ve 18 yaşından küçük çocuklarına bakılarak AYİM tablosuyla belirlenir ve indirim sebebi sayılır.\n\n**2. Mirası reddetmenin etkisi:** Elif mirası reddettiği için Murat'ın kendi zararlarını (ölümden önceki tedavi gideri ve çalışma gücü kaybı) mirasçı sıfatıyla isteyemez. Buna karşılık destek tazminatı ve manevi tazminat Elif'in **kendi** haklarıdır. Mirası reddetmek bu istemleri etkilemez.\n\n**3. Toplanan para ve sigortacının ödemesi:**\n- İş arkadaşlarının kendi aralarında topladığı para, Tolga'nın borcunu ödemek amacı taşımaz. TBK m. 55/1 uyarınca ifa amacı taşımayan ödemeler zararın belirlenmesinde gözetilmez ve tazminattan düşülmez.\n- Sigortacının ödemesi ise destek tazminatına mahsuben, yani **ifa amacıyla** yapılmıştır. Dava açılmadan önce yapıldığı için **tahkikat başlamadan önce** yapılmış bir ödemedir. 2026'da TBK m. 55'e eklenen fıkraya göre bu ödeme, ödeme tarihine göre belirlenecek tazminat miktarından **oransal olarak** mahsup edilir. Örneğin ödeme, o tarihte hesaplanan destek tazminatının %40'ını karşılıyorsa, karar tarihinde hesaplanan tazminatın da %40'ı ödenmiş sayılır ve Elif için kalan %60'a hükmedilir.\n\n**4. Manevi tazminat:** Ölüm hâlinde ölenin yakınları kendi adlarına manevi tazminat isteyebilir (TBK m. 56/2). Elif, Ada, Arda ve Hatice yakın sıfatıyla bunu isteyebilir. Kardeşi Kerem de aralarındaki duygusal bağ ölçüsünde yakın sayılır. Hâkim miktarı olayın ağırlığına, Tolga'nın kusuruna ve tarafların sosyal ve ekonomik durumuna göre takdir eder.\n\n**Sonuç:**\n- Kerem cenaze giderini isteyebilir.\n- Murat'ın ölümden önceki zararlarını mirası reddetmeyen mirasçılar (çocuklar) isteyebilir. Elif bunlardan yararlanamaz.\n- Elif, Ada, Arda ve Hatice destekten yoksun kalma tazminatı isteyebilir.\n- Elif, Ada, Arda, Hatice ve Kerem manevi tazminat isteyebilir.\n- Arkadaşların topladığı para tazminattan düşülmez. Sigortacının ödemesi oransal olarak mahsup edilir."
+  },
+  {
+   "stem_md": "24 yaşındaki profesyonel dansçı Zeynep, bisikletle giderken, hız sınırı saatte 50 km olan bir şehir içi yolda 110 km hızla giden sürücü Kaan'ın aracının çarpması sonucu ağır yaralanır. Raporlara göre Zeynep dört ay çalışamamış, bacağında kalıcı olarak %30 oranında çalışma gücü kaybı kalmış ve yüzünde belirgin bir iz oluşmuştur. Artık profesyonel olarak dans edemeyecek, bir dans okulunda yalnız ofis işinde çalışabilecektir. Tedavi giderlerinin büyük kısmını SGK karşılamış, fizik tedavi seanslarını ise Zeynep kendisi ödemiştir.\n\nZeynep'in annesi Nur, kızının ağır yaralanmasından sonra ağır bir depresyona girmiştir. Nişanlısı Ozan da hastanede sürekli yanında kalmıştır. Kaan, tazminatı ödediğinde yoksulluğa düşeceğini ileri sürerek indirim istemektedir.\n\n1. Zeynep hangi maddi tazminat kalemlerini isteyebilir?\n2. SGK'nın yaptığı ödemeler tazminatı nasıl etkiler?\n3. Zeynep, Nur ve Ozan manevi tazminat isteyebilir mi?\n4. Kaan'ın indirim talebini değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Bedensel zarar kalemlerinin sayılması ve olaya uygulanması",
+     "weight": 25,
+     "madde_ref": "TBK m. 54"
+    },
+    {
+     "point": "Dört aylık kazanç kaybı ile kalıcı %30 çalışma gücü kaybının ayrı kalemler olduğu",
+     "weight": 15,
+     "madde_ref": "TBK m. 54"
+    },
+    {
+     "point": "Profesyonel dansçılık kariyerinin sona ermesinin ekonomik geleceğin sarsılması kapsamında değerlendirilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 54"
+    },
+    {
+     "point": "SGK'nın rücu edebileceği ödemelerin mükerrer tahsile yol açmayacak şekilde dikkate alınması, rücu edilemeyen sosyal güvenlik ödemelerinin düşülmemesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 55"
+    },
+    {
+     "point": "Zeynep'in kendisi için manevi tazminat; annesi ve nişanlısının ağır bedensel zarar nedeniyle yakın olarak manevi tazminat isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 56"
+    },
+    {
+     "point": "Yoksulluk indiriminin hafif kusur şartı gerçekleşmediği için uygulanamaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 52"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kaan'ın hız sınırını iki katından fazla aşması kusurlu ve hukuka aykırı bir fiildir. Zeynep'in yaralanmasıyla illiyet bağı vardır. Haksız fiil sorumluluğu doğar (TBK m. 49). Ölüm yoktur. Bedensel zarar hükümleri (TBK m. 54) ve manevi tazminat (TBK m. 56) uygulanır.\n\n**1. Maddi tazminat kalemleri:**\n- *Tedavi giderleri:* SGK'nın karşılamadığı fizik tedavi giderleri ile ileride gerekecek tedavi ve estetik ameliyat giderleri (TBK m. 54/1-1).\n- *Kazanç kaybı:* Çalışamadığı dört ay boyunca dansçı olarak kaybettiği gelir (TBK m. 54/1-2). Bu, geçici iş göremezlik döneminin karşılığıdır.\n- *Çalışma gücü kaybı:* Kalıcı %30 maluliyet nedeniyle çalışma hayatı boyunca uğrayacağı kayıp (TBK m. 54/1-3). Hesabı aktüer bilirkişi yapar. Gerçek zarar esas alınır (TBK m. 55/1).\n- *Ekonomik geleceğin sarsılması:* Zeynep profesyonel kariyerini kaybetmiştir ve yalnız ofis işinde çalışabilecektir. Mesleki yükselme şansının daralması ve yüzündeki iz, TBK m. 54/1-4 kapsamında ayrıca değerlendirilir. Kazanç kaybı geçici dönemi, çalışma gücü kaybı kalıcı sakatlığı karşıladığı için bu kalemler birlikte istenebilir.\n\n**2. SGK ödemeleri:** TBK m. 55/1'e göre kısmen ya da tamamen rücu edilemeyen sosyal güvenlik ödemeleri tazminattan düşülmez. SGK'nın sorumluya rücu edebildiği ödemeler ise zarar görenin aynı zararı iki kez tahsil etmemesi için hesapta gözetilir. Zeynep, SGK'nın karşıladığı tedavi giderlerini ayrıca isteyemez, çünkü bu gideri fiilen o ödememiştir. Kendisinin ödediği fizik tedavi giderlerini ise ister.\n\n**3. Manevi tazminat:**\n- *Zeynep:* Bedensel bütünlüğü zedelendiği için kendisi manevi tazminat isteyebilir (TBK m. 56/1).\n- *Nur ve Ozan:* Yakınlar için TBK m. 56/2 **ağır bedensel zarar** şartını arar. Kalıcı %30 maluliyet, meslek kaybı ve yüzde kalıcı iz, ağır bedensel zarar olarak değerlendirilebilir. Yargıtay ana-babayı ve nişanlıyı sıkı duygusal bağ nedeniyle yakın sayar. Nur'un depresyonu da kendi ruh sağlığına yönelen saldırının somut göstergesidir. Bu nedenle Nur ve Ozan kendi adlarına manevi tazminat isteyebilir.\n- Miktar hâkimin takdirindedir: Kaan'ın kusurunun ağırlığı, zararın ağırlığı ve tarafların ekonomik durumu dikkate alınır.\n\n**4. Kaan'ın indirim talebi:** TBK m. 52/2'deki yoksulluk indirimi üç şarta bağlıdır: (1) zarara **hafif kusurla** sebep olmak, (2) ödeme hâlinde yoksulluğa düşmek ve (3) hakkaniyetin bunu gerektirmesi. Şehir içinde hız sınırının iki katından fazla hızla gitmek ağır bir kusurdur. Bu nedenle Kaan bu indirimden yararlanamaz. Ayrıca hesaplanan tazminat, tutarı yüksek diye hakkaniyetle azaltılamaz (TBK m. 55/1).\n\n**Sonuç:**\n- Zeynep tedavi gideri, kazanç kaybı, çalışma gücü kaybı ve ekonomik geleceğin sarsılması kalemlerini, ayrıca manevi tazminat isteyebilir.\n- Nur ve Ozan ağır bedensel zarar nedeniyle kendi adlarına manevi tazminat isteyebilir.\n- Kaan'ın yoksulluk indirimi talebi reddedilmelidir."
+  },
+  {
+   "stem_md": "Bir haber sitesi, avukat Selin'in bir davada \"hâkime rüşvet götürdüğünü\" iddia eden bir haber yayımlar. Selin'in adı ve fotoğrafı haberde yer almaktadır. Haber gerçeğe aykırıdır ve hiçbir belgeye dayanmamaktadır. Sosyal medyada hızla yayılmış ve hâlâ sitede yayındadır. Haberden sonra üç müvekkil Selin'le çalışmayı bırakmıştır. Site, haberin aldığı yüksek tıklanma sayesinde ciddi reklam geliri elde etmiştir.\n\n1. Selin hangi davaları açabilir ve ne talep edebilir?\n2. Site, \"basın özgürlüğü\" savunmasıyla sorumluluktan kurtulabilir mi?\n3. Selin dava açmadan ölürse mirasçıları manevi tazminat isteyebilir mi?",
+   "rubric": [
+    {
+     "point": "Saldırının kişilik hakkına yönelik ve hukuka aykırı olduğu; uygunluk sebeplerinin (rıza, üstün yarar, kanun yetkisi) incelenmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 24"
+    },
+    {
+     "point": "Önleme, durdurma (haberin kaldırılması) ve tespit davaları; kararın yayımlanması",
+     "weight": 20,
+     "madde_ref": "TMK m. 25"
+    },
+    {
+     "point": "Manevi tazminat ve hâkimin kınama kararı ile yayımlamaya hükmedebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 58"
+    },
+    {
+     "point": "Müvekkil kaybından doğan maddi tazminat ve reklam gelirinin vekâletsiz iş görme hükümlerine göre istenebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 25"
+    },
+    {
+     "point": "Gerçeğe aykırı haberde üstün kamu yararının bulunmadığı, basın özgürlüğünün hukuka uygunluk sağlamadığı",
+     "weight": 10,
+     "madde_ref": "TMK m. 24"
+    },
+    {
+     "point": "Manevi tazminat isteminin ileri sürülmeden mirasçılara geçmemesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 25"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Selin'in adı ve fotoğrafıyla, gerçeğe aykırı biçimde suç işlediğini iddia eden bir haber, onur ve saygınlığına, yani kişilik hakkına yönelik bir saldırıdır. Kişilik hakkına yapılan her saldırı, bir hukuka uygunluk sebebiyle haklı kılınmadıkça hukuka aykırıdır (TMK m. 24/2).\n\n**1. Davalar ve talepler:**\n- *Durdurma:* Haber hâlâ yayında olduğu için saldırı sürmektedir. Haberin kaldırılmasını isteyebilir (TMK m. 25/1).\n- *Önleme:* Haberin başka yerlerde yeniden yayımlanması tehlikesine karşı önleme davası açabilir (TMK m. 25/1).\n- *Tespit:* Haber kaldırılsa bile sosyal medyada yayılmasıyla etkisi sürdüğü için hukuka aykırılığın tespitini isteyebilir (TMK m. 25/1).\n- *Yayım:* Kararın ya da düzeltmenin üçüncü kişilere bildirilmesini veya yayımlanmasını isteyebilir (TMK m. 25/2).\n- *Manevi tazminat:* TBK m. 58/1'e göre isteyebilir. Hâkim ayrıca saldırıyı kınayan bir karar verip yayımlanmasına hükmedebilir (TBK m. 58/2).\n- *Maddi tazminat:* Haber yüzünden üç müvekkil kaybetmiştir. Bu kaybı ve illiyet bağını ispatlarsa genel hükümlere göre maddi tazminat isteyebilir (TBK m. 49, TMK m. 25/3).\n- *Kazancın verilmesi:* Sitenin bu haberden elde ettiği reklam gelirinin, vekâletsiz iş görme hükümlerine göre kendisine verilmesini isteyebilir (TMK m. 25/3).\n\n**2. Basın özgürlüğü savunması:** Basın özgürlüğü, kişilik hakkına yapılan bir saldırıyı **üstün kamu yararı** sebebiyle hukuka uygun hâle getirebilir (TMK m. 24/2). Ancak bunun için haberin gerçeğe uygun olması, güncel olması, kamu yararı taşıması ve verilen bilgiyle sunuluş biçimi arasında denge bulunması gerekir. Somut olayda haber gerçeğe aykırıdır ve hiçbir belgeye dayanmamaktadır. Bu nedenle üstün yarar söz konusu olamaz. Site sorumluluktan kurtulamaz.\n\n**3. Mirasçılar:** TMK m. 25/4'e göre manevi tazminat istemi, miras bırakan tarafından ileri sürülmemişse mirasçılara geçmez. Selin istemini dava ya da başka bir yolla ileri sürmeden ölürse mirasçılar onun manevi tazminat istemini kullanamaz. Ölmeden önce istemini ileri sürmüşse istem mirasçılara geçer. Mirasçılar, ölmüş kişinin hatırasına yönelik bir saldırı nedeniyle kendi kişilik haklarının zedelendiğini ayrıca ileri sürebilirler. Ancak bu, Selin'in istemi değil, kendi istemleridir.\n\n**Sonuç:**\n- Selin durdurma, önleme ve tespit davaları açabilir.\n- Kararın yayımlanmasını, manevi tazminat ve kınama kararını isteyebilir.\n- Müvekkil kaybından doğan maddi tazminatı ve sitenin elde ettiği kazancın kendisine verilmesini talep edebilir.\n- Basın özgürlüğü savunması dinlenmez.\n- Selin istemini ileri sürmeden ölürse onun manevi tazminat istemi mirasçılara geçmez."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Ölüm hâlinde hangi zararlar istenir? (TBK m. 53)",
+   "back_md": "Cenaze giderleri; ölüm hemen gerçekleşmediyse tedavi giderleri ve çalışma gücü kaybı; destekten yoksun kalma zararı. Sayım örnekseyicidir."
+  },
+  {
+   "front_md": "Bedensel zararın dört kalemi nedir? (TBK m. 54)",
+   "back_md": "Tedavi giderleri, kazanç kaybı, çalışma gücünün azalması/yitirilmesi, ekonomik geleceğin sarsılması."
+  },
+  {
+   "front_md": "Destek kimdir?",
+   "back_md": "Başkasının geçimine düzenli ve fiilî katkı yapan ya da olağan akışa göre ileride yapacak olan kişi. Hukuki bağ ve mirasçılık şart değildir."
+  },
+  {
+   "front_md": "Mirası reddeden kişi destek tazminatı isteyebilir mi?",
+   "back_md": "Evet. Destek tazminatı kişinin kendi zararıdır, mirasa dahil değildir."
+  },
+  {
+   "front_md": "Ölümden önceki tedavi giderlerini kim ister?",
+   "back_md": "Mirasçılar, mirasçı sıfatıyla. Bu, ölenin kendi zararıdır (TBK m. 53/1-2)."
+  },
+  {
+   "front_md": "Cenaze giderini kim ister?",
+   "back_md": "Masrafa kim katlandıysa o. Mirasçı olması gerekmez."
+  },
+  {
+   "front_md": "Efor kaybı nedir?",
+   "back_md": "Gelir azalmasa bile kalıcı sakatlık yüzünden aynı işi daha fazla çabayla yapmanın zararı. TBK m. 54/1-3 kapsamında tazmin edilir."
+  },
+  {
+   "front_md": "Kazanç kaybı ile çalışma gücü kaybı arasındaki fark?",
+   "back_md": "Kazanç kaybı iyileşme dönemindeki (geçici) gelir kaybıdır. Çalışma gücü kaybı kalıcı sakatlığın gelecekteki karşılığıdır. İkisi birlikte istenebilir."
+  },
+  {
+   "front_md": "Hangi ödemeler destek ve bedensel zarar tazminatından düşülmez? (TBK m. 55/1)",
+   "back_md": "Kısmen ya da tamamen rücu edilemeyen sosyal güvenlik ödemeleri ile ifa amacı taşımayan ödemeler (bağış, yardım)."
+  },
+  {
+   "front_md": "Hâkim hesaplanan tazminatı tutar yüksek diye azaltabilir mi?",
+   "back_md": "Hayır. TBK m. 55/1'e göre tutar esas alınarak hakkaniyetle artırma ya da azaltma yapılamaz."
+  },
+  {
+   "front_md": "2026'dan beri destek tazminatında faiz ne zamandan işler?",
+   "back_md": "Kazancın bilindiği döneme ait toplama olay tarihinden, bilinmediği döneme ait toplama karar tarihinden (7589 sayılı Kanunla TBK m. 55'e eklenen fıkra)."
+  },
+  {
+   "front_md": "Tahkikattan önce ifa amacıyla yapılan ödeme nasıl düşülür? (2026)",
+   "back_md": "Ödeme tarihine göre belirlenecek tazminattan oransal olarak mahsup edilir (TBK m. 55)."
+  },
+  {
+   "front_md": "Eşin yeniden evlenme ihtimali nasıl belirlenir?",
+   "back_md": "Yargıtay'a göre AYİM tablosuyla ve rapor tarihindeki yaşa göre. 18 yaşından küçük her çocuk için %5 düşer. İndirim sebebidir."
+  },
+  {
+   "front_md": "Yakınlar ne zaman kendi adına manevi tazminat ister? (TBK m. 56/2)",
+   "back_md": "Yalnız ağır bedensel zarar veya ölüm hâlinde."
+  },
+  {
+   "front_md": "Hafif yaralanan kişi kendisi için manevi tazminat isteyebilir mi?",
+   "back_md": "Evet (TBK m. 56/1). Ağırlık şartı yalnız yakınlar için aranır. Hafiflik miktarı etkiler."
+  },
+  {
+   "front_md": "Manevi tazminatın miktarı hangi ölçütlere göre belirlenir?",
+   "back_md": "Olayın özellikleri ve ağırlığı, tarafların kusuru, sosyal ve ekonomik durumları, paranın alım gücü. Takdir hâkimindir ve gerekçeli olmalıdır."
+  },
+  {
+   "front_md": "Kişilik hakkında tazminat dışında hangi giderim mümkündür? (TBK m. 58/2)",
+   "back_md": "Saldırıyı kınayan bir karar ve bu kararın yayımlanması. Tazminat yerine ya da yanında verilebilir."
+  },
+  {
+   "front_md": "TMK m. 25/1'deki üç dava nedir?",
+   "back_md": "Saldırı tehlikesinin önlenmesi, sürmekte olan saldırının durdurulması, etkileri süren saldırının hukuka aykırılığının tespiti."
+  },
+  {
+   "front_md": "Manevi tazminat istemi mirasçılara geçer mi? (TMK m. 25/4)",
+   "back_md": "Miras bırakan tarafından ileri sürülmemişse geçmez. Karşı taraf kabul etmedikçe devredilemez."
+  },
+  {
+   "front_md": "Yoksulluk indiriminin şartları nedir? (TBK m. 52/2)",
+   "back_md": "Hafif kusur, ödeme hâlinde yoksulluğa düşme ve hakkaniyetin gerektirmesi. Üçü birlikte aranır."
+  },
+  {
+   "front_md": "Haksız fiilde zamanaşımı? (TBK m. 72/1)",
+   "back_md": "Zararı ve sorumluyu öğrenmeden itibaren 2 yıl, her hâlde fiilden itibaren 10 yıl. Ceza zamanaşımı daha uzunsa o uygulanır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
