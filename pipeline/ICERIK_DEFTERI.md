@@ -67,7 +67,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 16 | yasal-onalim-alim-ve-geri-alim | bitti | bulutta araştırma-yazma-denetim; denetçi 14 düzeltme (7571 geçiş kuralı: bedel kuralı bütün davalara, olay 3 tarihleri, geri alım lehtarı); 📌 TMK m. 733-734 (7571, 25.12.2025); yüklenmedi |
 | 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (soru 3 ikinci doğruya yakın şık, TMK m. 745/2 sınırı, doktrinde kalan yazar talimatı); 📌 HUAK m. 18/B; yüklenmedi |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bitti | bulutta araştırma-yazma-denetim; denetçi 6 küçük düzeltme (olay 2 teslimsiz rehin ayrığı TMK m. 939, olay 3 dönme öncesi süre TBK m. 123-125); "sicil yönetmelikle düzenlenir" cümlesi doğrulanamadı; yüklenmedi |
-| 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
+| 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bitti | bulutta araştırma-yazma-denetim; denetçi 6 küçük düzeltme (TMK m. 771/3 "bulan sayılan" yer sahibi/kiracı/kurum); ana oturum olay 2'deki bahçe-"oturulan ev" cümlesini yumuşattı; yüklenmedi |
 | 20 | tasinmaz-irtifaki | bitti | bulutta araştırma-yazma-denetim; denetçi 7 küçük düzeltme (karar 3 özetinde olaya özgü sonucun genellenmesi, "İBK yoktur" → bulunamadı); yüklenmedi |
 | 21 | intifa-ve-oturma-hakki | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (TMK m. 813/1 faizler, şerhli kiranın etkisi m. 1009/2, karar 3'te onanan BAM kararı); yüklenmedi |
 | 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bekliyor | |
