@@ -127,7 +127,7 @@ _BASLIK_TURU = {"MADDE": "m.", "Madde": "m.", "GEÇİCİ MADDE": "geçici m.", "
 
 def tam_metin_satirlari(raw: str) -> list[str]:
     """Kanunun HTML tam metnini boş olmayan, boşlukları sadeleştirilmiş satırlara çevirir. Ayrı satıra düşmüş
-    "MADDE" / "201- ..." başlıkları birleştirilir."""
+    "MADDE" / "201- ..." ve "Geçici" / "Madde 12- ..." başlıkları birleştirilir."""
     raw = re.sub(r"<br\s*/?>|</p\s*>|</h\d\s*>|</div\s*>|</tr\s*>", "\n", raw, flags=re.I)
     txt = html.unescape(re.sub(r"<[^>]+>", "", raw)).replace("\xa0", " ")
     out: list[str] = []
@@ -135,6 +135,8 @@ def tam_metin_satirlari(raw: str) -> list[str]:
         if not s:
             continue
         if out and out[-1] in _BASLIK_TURU and re.match(r"\d+\s*(?:/\s*[A-Za-z]\s*)?[-–]", s):
+            out[-1] = f"{out[-1]} {s}"
+        elif out and out[-1] in ("Geçici", "GEÇİCİ", "Ek", "EK") and re.match(r"(?:Madde|MADDE)\s*\d", s):
             out[-1] = f"{out[-1]} {s}"
         else:
             out.append(s)

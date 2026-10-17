@@ -96,3 +96,8 @@ def test_full_text_amendments_attach_margin_title_footnote_to_the_following_arti
     assert arastir.tam_degisiklikler(satirlar, 2024) == [
         "m. 208: Ek:7/11/2024-7531/1 md.",
         "m. 220: [92] 24/12/2025 tarihli ve 7571 sayılı Kanunun 20 nci maddesiyle değiştirilmiştir."]
+
+
+def test_full_text_lines_join_transitional_word_split_from_article_heading():
+    assert arastir.tam_metin_satirlari("<p>Geçici</p><p>Madde 12- (Ek:23/1/2026-7573/6 md.)</p><p>EK</p><p>MADDE 3- Metin</p>") == [
+        "Geçici Madde 12- (Ek:23/1/2026-7573/6 md.)", "EK MADDE 3- Metin"]
