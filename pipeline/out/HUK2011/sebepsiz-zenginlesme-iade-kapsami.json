@@ -1,0 +1,701 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Sözleşme Dışı Borç Kaynakları: Haksız Fiil ve Sebepsiz Zenginleşme",
+ "topic_index": 6,
+ "slug": "sebepsiz-zenginlesme-iade-kapsami",
+ "title": "Sebepsiz Zenginleşmede İadenin Kapsamı, Giderler, İade Engelleri ve Zamanaşımı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T20:38:33.648433+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/temel-kavramlar-ve-sistem",
+  "borclar-hukuku-genel/zamanasimi-ve-sureler"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Sebepsiz zenginleşmenin şartları gerçekleşmişse (TBK m. 77-78, ayrıntısı ayrı konuda) zenginleşen **ne kadarını** geri verir, yaptığı **giderleri** isteyebilir mi, verilen şey hangi durumda **hiç geri istenemez**, **faiz** ne zamandan işler ve istem **hangi sürede** zamanaşımına uğrar?\n\n- **Önce iyiniyet:** Zenginleşmenin haklı bir sebebe dayanmadığını bilmeyen ve bilmesi de gerekmeyen kişi iyiniyetlidir. İyiniyet karinedir (TMK m. 3); kötüniyeti fakirleşen ispatlar. TBK m. 79, m. 80 ve m. 117/2 sonucu bu ayrıma bağlar.\n- **İadenin kapsamı (TBK m. 79):**\n  - İyiniyetli zenginleşen, geri isteme sırasında elinden çıkmış olduğunu **ispat ettiği** kısım dışında kalanı geri verir.\n  - Kötüniyetli olan ya da elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gereken kişi **tamamını** geri verir.\n  - Elden çıkma, zenginleşenin iktisaden yararlanmadığı hâllerdir: yok olma, kaybolma, bağışlama. Satış bedeli ve sigorta tazminatı şeyin yerine geçer. Kendi borcunu ya da olağan geçimini karşılamak da zenginleşmeyi sürdürür.\n- **Giderler (TBK m. 80):** İyiniyetli zenginleşen zorunlu ve yararlı giderlerinin tamamını ister. Kötüniyetli zenginleşen zorunlu giderlerini ve yararlı giderlerden yalnız geri verme zamanında mevcut olan değer artışını ister. Diğer (lüks) giderler kimseye ödenmez; karşılık önerilmezse zararsızca ayrılabilen eklemeler geri vermeden önce ayırıp alınabilir.\n- **Geri istenememe (TBK m. 81):** \"Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Ancak, açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir.\" Amaç belirleyicidir; sonuç gerçekleşmese de geri istenemez.\n- **Faiz (TBK m. 117/2):** Kötüniyetli zenginleşen, zenginleşmenin gerçekleştiği tarihte temerrüde düşer. İyiniyetli zenginleşen için bildirim şarttır; ihtar yoksa Yargıtay icra takibi, o da yoksa dava tarihini esas alır.\n- **Paranın değer kaybı:** Kural olarak alınan para itibari değeriyle ve faiziyle geri verilir. Yargıtay geçersiz sözleşmelerde, özellikle resmî şekle uyulmadan yapılan taşınmaz satışlarında, ödenen bedeli **denkleştirici adalet** ilkesiyle güncelleyerek iade ettirir.\n- **Zamanaşımı (TBK m. 82/1):** Geri isteme hakkını öğrenmeden itibaren **2 yıl**, her hâlde zenginleşmenin gerçekleştiği tarihten itibaren **10 yıl**. Yargıtay'a göre öğrenme, zenginleşeni ve zenginleşmenin kapsamını tam olarak bilmektir. Zamanaşımı bir def'idir; hâkim kendiliğinden dikkate alamaz (TBK m. 161).\n- **Süresiz savunma (TBK m. 82/2):** Zenginleşme bir alacak hakkı kazanılması şeklinde olmuşsa, borçlu istem hakkı zamanaşımına uğrasa bile her zaman ifadan kaçınabilir.",
+  "content_md": "## 0. Konunun haritası\n\nSebepsiz zenginleşmenin şartlarını (TBK m. 77) ve borç olmayanın ifasını (TBK m. 78) ayrı konuda gördük. Burada şartların gerçekleştiğini kabul edip **sonuç** tarafına geçiyoruz. Beş soru sorulur:\n\n| Soru | Madde | Kısa cevap |\n|---|---|---|\n| Ne kadar geri verilir? | TBK m. 79 | İyiniyetli: elde kalan. Kötüniyetli: tamamı |\n| Giderler istenir mi? | TBK m. 80 | Gider türüne ve iyiniyete göre |\n| Hiç geri istenemez mi? | TBK m. 81 | Hukuka veya ahlaka aykırı amaçla verilen |\n| Faiz ne zamandan? | TBK m. 117/2 | Kötüniyetli: zenginleşmeden. İyiniyetli: bildirimden |\n| Hangi sürede? | TBK m. 82 | 2 yıl / 10 yıl |\n\n> 💡 **Püf nokta:** Olay sorusunda ilk iş, zenginleşenin **iyiniyetli olup olmadığını** belirlemektir. TBK m. 79, m. 80 ve m. 117/2 sonucu bu ayrıma bağlar. Bu kararı verdiğinde üç sorunun cevabı birden çıkar.\n\n## 1. Kısa hatırlatma: geri verme borcu\n\n- TBK m. 77/1'e göre haklı bir sebep olmaksızın bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür. Kanun özellikle **geçerli olmayan**, **gerçekleşmemiş** ya da **sona ermiş** bir sebebe dayanan zenginleşmeleri sayar (TBK m. 77/2).\n- Borçlanmadığı edimi kendi isteğiyle yerine getiren kişi, bunu ancak kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir (TBK m. 78/1). Zamanaşımına uğramış bir borcun ödenmesi ya da ahlaki bir ödevin yerine getirilmesi geri istenemez (TBK m. 78/2).\n\nBu şartların ayrıntısı ayrı konuda. Burada sorduğumuz şu: geri verme borcu **ne kadardır** ve **sınırı nedir**?\n\n## 2. İadenin kapsamı (TBK m. 79)\n\n### 2.1 Ne geri verilir?\nKural olarak zenginleşen **ne aldıysa onu** geri verir: para alındıysa para, eşya alındıysa eşyanın kendisi. Aynen iade mümkün değilse, örneğin bir hizmetten ya da bir şeyin kullanımından yararlanılmışsa, **değeri** ödenir. Yargıtay, zenginleşmeye konu şeyden elde edilen **ürünleri ve gelirleri** (kira, faiz gibi) de iadenin kapsamında sayar.\n\nİade borcunun bir **üst sınırı** da vardır. Yargıtay'a göre geri verilecek miktar kural olarak zenginleşenin malvarlığındaki artışa eşittir, ama fakirleşenin malvarlığındaki azalmadan fazla olamaz.\n\n### 2.2 İyiniyet mi, kötüniyet mi?\n- **İyiniyetli zenginleşen**, zenginleşmenin haklı bir sebebe dayanmadığını bilmeyen ve bilmesi de gerekmeyen kişidir.\n- **Kötüniyetli zenginleşen**, bunu bilen ya da durumun gereklerine göre bilmesi gereken kişidir.\n- **İspat:** Kanunun iyiniyete sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır (TMK m. 3/1). Bu yüzden kötüniyeti **fakirleşen** ispatlar. Ancak durumun gereklerine göre kendisinden beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz (TMK m. 3/2).\n\n> **Örnek:** Hiçbir ticari ilişkisi olmayan emekli Nuri'nin hesabına tanımadığı bir şirketten 2.000.000 TL gelir. Nuri paranın kendisine ait olduğunu düşündüğünü söylese de tutarın büyüklüğü ve göndericinin yabancılığı onu uyarmalıydı. Beklenen özeni göstermediği için iyiniyet iddiası TMK m. 3/2 karşısında zayıf kalır.\n\n### 2.3 İyiniyetli zenginleşen: elde kalanla sınırlı sorumluluk (TBK m. 79/1)\nTBK m. 79/1'e göre sebepsiz zenginleşen, zenginleşmenin **geri istenmesi sırasında elinden çıkmış olduğunu ispat ettiği** kısmın dışında kalanı geri vermekle yükümlüdür. Bu cümlede üç kilit nokta var:\n1. **Zaman:** Esas alınan an, fakirleşenin iadeyi **istediği** andır (ihtar ya da dava). Zenginleşmenin elde edildiği an değil.\n2. **İspat yükü zenginleşendedir.** Fakirleşen zenginleşmeyi ve miktarını ispatlar. \"Elimden çıktı\" diyen zenginleşen bunu ispatlamak zorundadır.\n3. **Elden çıkma ekonomik bir kavramdır.** Yargıtay'a göre sınırlama, zenginleşenin şeyden **iktisaden yararlanmadığı** hâllerde uygulanır.\n\n**Elden çıkmış sayılanlar:** şeyin yok olması, kaybolması, hasara uğraması ya da bağışlanması.\n\n**Elden çıkmış sayılmayanlar:**\n- Şeyin **satılması:** satış bedeli şeyin yerine geçer.\n- Şey yanınca alınan **sigorta tazminatı:** tazminat şeyin yerine geçer.\n- Paranın kişisel ihtiyaçlar ya da **kendi borcu** için harcanması: zenginleşen kendi parasını korumuş, borcundan kurtulmuştur.\n\n> **Örnek:** Bankanın hatasıyla Elif'in hesabına 90.000 TL yatırılır. Elif parayı ağabeyinin gönderdiğini sanır ve iyiniyetlidir. 40.000 TL ile birikmiş kira borcunu öder. Normalde yapmayacağı hâlde 30.000 TL'yi bir yardım kampanyasına bağışlar. 20.000 TL hesabında kalır. Banka parayı geri istediğinde Elif, kira borcuna giden 40.000 TL'yi ve hesaptaki 20.000 TL'yi, yani 60.000 TL'yi geri verir. Bağışı ispatlarsa 30.000 TL'den sorumlu olmaz.\n\n> ⚠️ **Sınavda dikkat:** \"Parayı harcadım\" savunması tek başına iade borcunu ortadan kaldırmaz. Harcama zenginleşenin kendi borcunu ya da olağan geçimini karşıladıysa zenginleşme sürmektedir.\n\n**Geri istendikten sonra ne olur?** Fakirleşen iadeyi istediği anda zenginleşen artık geri vermek zorunda olduğunu bilir. Bu andan sonra zenginleşmeyi elden çıkarırsa iyiniyetli sayılmaz ve TBK m. 79/2'ye göre tamamından sorumlu olur.\n\n### 2.4 Kötüniyetli zenginleşen: tamamı (TBK m. 79/2)\nZenginleşen, zenginleşmeyi **iyiniyetli olmaksızın** elden çıkarmışsa veya elden çıkarırken **ileride geri vermek zorunda kalabileceğini hesaba katması gerekiyorsa**, zenginleşmenin **tamamını** geri vermekle yükümlüdür (TBK m. 79/2). İkinci ihtimal, kesin bilgisi olmayan ama riski görmesi gereken kişiyi kapsar. Örneğin:\n- sözleşmenin iptali için dava açıldığını bilen satıcı,\n- ödemenin \"iade hakkım saklıdır\" kaydıyla (ihtirazi kayıtla) yapıldığını bilen alacaklı,\n- kesinleşmemiş bir mahkeme kararına dayanarak para tahsil eden kişi.\n\n> **Örnek:** Satıcı Okan, alıcının sözleşmeyi iptal ettirmek için dava açtığını bildiği hâlde aldığı 200.000 TL'yi bir tatilde harcar. Sözleşme ortadan kalkınca Okan \"para elimden çıktı\" diyemez ve 200.000 TL'nin tamamını geri verir.\n\n> 💡 **Püf nokta:** Kanun aynı ölçüyü başka yerlerde de kullanır. Nişanlılık evlenme dışındaki bir sebeple sona erince, aynen veya mislen geri verilemeyen hediyelere sebepsiz zenginleşme hükümleri uygulanır (TMK m. 122/2). Bağışlamanın geri alınmasında da bağışlanan, istem tarihindeki zenginleşmesi ölçüsünde geri verir (TBK m. 295).\n\n## 3. Giderler (TBK m. 80)\n\nZenginleşen, geri vereceği şey için masraf yapmış olabilir. Kanun gider türlerini tanımlamaz. Yargıtay şu ayrımı kullanır:\n- **Zorunlu gider:** şeyin varlığını ve değerini korumak için gereken harcama (çatının akmasını önleyen onarım, aracın arızalı freninin onarılması).\n- **Yararlı gider:** şeyin değerini ya da verimini artıran harcama (eve kalorifer tesisatı, araca park sensörü).\n- **Diğer (lüks) gider:** gerekli olmadığı hâlde kişisel zevk için yapılan harcama (altın kaplama musluk, kişiye özel süsleme).\n\n| Gider | İyiniyetli zenginleşen | Kötüniyetli zenginleşen |\n|---|---|---|\n| Zorunlu | Tamamı | Tamamı |\n| Yararlı | Tamamı | Yalnız mevcut değer artışı |\n| Diğer (lüks) | İstenemez | İstenemez |\n\n- **İyiniyetli zenginleşen** zorunlu ve yararlı giderlerini, geri verme isteminde bulunandan ister (TBK m. 80/1).\n- **Kötüniyetli zenginleşen** zorunlu giderlerinin ve yararlı giderlerinden **yalnız geri verme zamanında mevcut olan değer artışının** ödenmesini ister (TBK m. 80/2).\n- **Diğer giderler** iyiniyete bakılmaksızın istenemez. Ancak kendisine karşılık önerilmezse zenginleşen, şeyle birleştirdiği ve **zararsızca ayrılabilen** eklemeleri şeyi geri vermeden önce **ayırıp alabilir** (TBK m. 80/3).\n\n> **Örnek:** Hasan, kendisine yanlışlıkla teslim edilen bir tekneye 30.000 TL motor onarımı (zorunlu) ve 50.000 TL yeni seyir cihazı (yararlı; geri verme anında teknenin değerini 35.000 TL artırıyor) yaptırır. Ayrıca 20.000 TL'lik, sökülebilir bir müzik sistemi taktırır. İyiniyetliyse 80.000 TL ister. Kötüniyetliyse 30.000 + 35.000 = 65.000 TL ister. Müzik sistemi için iki durumda da para isteyemez; karşılık önerilmezse sistemi söküp alabilir.\n\n**Uygulama ve ispat.** Yargıtay gider taleplerinde bilirkişiden her kalemi tek tek **nitelendirmesini** (zorunlu, yararlı ya da lüks), zararsızca ayrılıp ayrılamayacağını belirlemesini ve tutarı doğru tarihe göre hesaplamasını ister. \"Masrafların toplamı şu kadardır\" diyen bir rapor hüküm kurmaya yetmez.\n\n**Eşya hukukuyla ilişki.** Geri istenen şeyin mülkiyeti hâlâ fakirleşendeyse, o şeyi mülkiyetine dayanarak da isteyebilir. Bu durumda zilyedin sorumluluğu ve giderleri TMK m. 993-995'e göre çözülür. İki düzenleme birbirine yakındır, ama özdeş değildir:\n\n| Konu | TBK m. 80 | TMK m. 994-995 |\n|---|---|---|\n| İyiniyetli: zorunlu ve yararlı | İstenir | İstenir; ödenene kadar geri vermekten kaçınılabilir |\n| Kötüniyetli: zorunlu | Tamamı | Hak sahibi için de zorunlu olanlar |\n| Kötüniyetli: yararlı | Mevcut değer artışı | İstenemez |\n| Lüks eklemeyi ayırıp alma | İyi ve kötüniyetli | İyiniyetli zilyet |\n\n> ⚠️ **Sınavda dikkat:** Kötüniyetli zenginleşenin yararlı gider talebi TBK m. 80/2'de değer artışıyla sınırlı da olsa vardır. Kötüniyetli zilyet ise TMK m. 995/2'ye göre yalnız hak sahibi için de zorunlu olan giderleri isteyebilir. Soruda hangi talebin ileri sürüldüğüne bak.\n\n## 4. Geri istenememe: hukuka veya ahlaka aykırı amaç (TBK m. 81)\n\n> 📌 **Kesin bilgi (TBK m. 81, birebir):** \"Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Ancak, açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir.\"\n\n### 4.1 Şartlar\n1. **Bir şey verilmiş olmalı.** Para, eşya ya da başka bir kazandırma fiilen yapılmış olmalıdır.\n2. **Amaç, hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi olmalı.** Hukuka aykırı amaç, hukuk düzeninin yasakladığı bir sonucu hedefler. Ahlaka aykırı amaç, toplumun genel ahlak anlayışıyla bağdaşmayan bir sonucu hedefler.\n3. **Veren bu amaçla vermiş olmalı.** Hükmün arkasındaki düşünce şudur: kimse kendi hukuka aykırı davranışına dayanarak mahkemeden yardım isteyemez.\n\n### 4.2 Sonuç\n- Verilen şey **geri istenemez.** Amaçlanan sonucun gerçekleşip gerçekleşmemesi önemli değildir. \"Sonuç gerçekleşmedi, demek ki sebep de gerçekleşmedi\" diyerek TBK m. 77/2'ye dayanmak bu yasağı aşamaz.\n- Bu durumda şey alanın elinde kalır. Bunun haksız bir ödüle dönüşmemesi için 6098 sayılı Kanun, mülga Kanun'daki karşılığından farklı olarak maddeye **yeni** bir ikinci cümle koydu: **açılan davada** hâkim, şeyin **Devlete mal edilmesine** karar verebilir.\n  - \"Açılan davada\" ifadesi bir davanın varlığını gerektirir. Kimse dava açmazsa bu cümle işlemez.\n  - \"Verebilir\" ifadesi bir takdir yetkisidir, zorunluluk değildir.\n\n> **Örnek:** Deniz, ehliyet sınavının sorularını sınavdan önce getirmesi için sınav görevlisi Cem'e 40.000 TL verir. Cem soruları getirmeye çalışır, ama yakalanmaktan korkup vazgeçer. Deniz parayı geri isteyemez. Deniz'in açtığı iade davasında hâkim, paranın Devlete mal edilmesine karar verebilir. Olayın ceza hukuku sonuçları ayrıca değerlendirilir.\n\n### 4.3 Yakın kurumlarla fark\n- **TBK m. 27:** Kanunun emredici hükümlerine ya da ahlaka aykırı bir **sözleşme** kesin olarak hükümsüzdür; yerine getirilmesi istenemez. TBK m. 81 ise **verilmiş olan** şeyin akıbetini düzenler.\n- **TBK m. 78/2:** Burada da verilen geri istenemez, ama gerekçe tamamen farklıdır:\n\n| | TBK m. 78/2 | TBK m. 81 |\n|---|---|---|\n| Örnek | Zamanaşımına uğramış borç, ahlaki ödev | Rüşvet, suç işletme ücreti |\n| Gerekçe | Korunmaya değer bir sebep var | Amaç hukuka veya ahlaka aykırı |\n| Devlete mal | Yok | Hâkim karar verebilir |\n\n> ⚠️ **Sınavda dikkat:** \"Ahlaki ödev\" (TBK m. 78/2) ile \"ahlaka aykırı amaç\" (TBK m. 81) birbirinin tersidir. İkisinde de verilen geri istenemez, ama gerekçeleri ve sonuçları farklıdır.\n\n## 5. Faiz, temerrüt ve paranın değer kaybı\n\n### 5.1 Faiz ne zamandan işler? (TBK m. 117/2)\nPara borcunda gecikmenin karşılığı temerrüt faizidir. TBK m. 117/2 sebepsiz zenginleşme için özel bir kural koyar: sebepsiz zenginleşmede borçlu, **zenginleşmenin gerçekleştiği tarihte** temerrüde düşmüş olur. Ancak sebepsiz zenginleşen **iyiniyetliyse** temerrüt için **bildirim şarttır**.\n\n| Zenginleşen | Temerrüt anı | Faiz başlangıcı |\n|---|---|---|\n| Kötüniyetli | Zenginleşmenin gerçekleştiği tarih | Aynı tarih |\n| İyiniyetli | Bildirim (ihtar) | İhtar; yoksa takip; o da yoksa dava |\n\n- Yargıtay'a göre ihtar yoksa icra takibi tarihi, takip de yoksa dava tarihi temerrüt tarihidir.\n- **Oran:** Sebepsiz zenginleşmede sözleşme olmadığı için oran, faiz borcunun doğduğu tarihte yürürlükte olan mevzuata göre belirlenir (TBK m. 120/1). Uygulamada 3095 sayılı Kanuni Faiz ve Temerrüt Faizine İlişkin Kanun'daki oran uygulanır.\n- **Sebebin sonradan ortadan kalkması:** Yargıtay, ödemenin dayanağı olan idari işlemin yargı kararıyla iptal edildiği bir olayda, parayı tahsil eden idarenin iptal kararı kesinleşinceye kadar iyiniyetli sayılacağını ve faizin kesinleşme tarihinden işletileceğini kabul etmiştir.\n- Temerrüde düşen zenginleşen, şartları varsa temerrüt faizini aşan zararı da öder (TBK m. 122). Ayrıntısı temerrüt konusunda.\n\n> **Örnek:** Selim'in hesabına 01.02.2025'te hatalı bir havaleyle 100.000 TL gelir. Selim paranın kendisine ait olmadığını bilmektedir. Fakirleşen ihtar göndermeden dava açsa bile temerrüt faizi 01.02.2025'ten işler. Selim iyiniyetli olsaydı ve ihtar ya da takip yapılmasaydı faiz dava tarihinden işlerdi.\n\n### 5.2 Paranın değer kaybı\nKural olarak alınan para **itibari (nominal) değeriyle** geri verilir; gecikmenin karşılığı faizdir. Ancak yüksek enflasyonda yıllar önce ödenmiş bir paranın aynı rakamla iadesi fakirleşen için adaletsiz bir sonuç doğurur. Yargıtay bu sorunu **denkleştirici adalet** ilkesiyle çözer:\n- İlke özellikle **geçersiz sözleşmelerin tasfiyesinde**, en sık da resmî şekle uyulmadan yapılan (harici) taşınmaz satışlarında uygulanır.\n- Geçersiz sözleşmeye dayanarak taşınmazın **rayiç değeri** istenemez. Alıcı ancak ödediğini sebepsiz zenginleşme hükümlerine göre geri isteyebilir.\n- Ödenen bedel, bilirkişi eliyle altın, döviz, enflasyon endeksleri, maaş artışları ve mevduat faizi gibi göstergelerin ortalaması alınarak güncellenir. Buna uygulamada **sepet hesabı** denir.\n- Yargıtay bu ilkeyi hakkaniyete ve TMK m. 2'ye dayandırır. Hukuk Genel Kurulu 2025'te oy çokluğuyla, taşınmazın rayiç değerinin sepete doğrudan katılamayacağını, ama taşınmazın değer artış oranının bir ölçüt olarak eklenebileceğini kabul etti.\n\n> ⚠️ **Sınavda dikkat:** Geçersiz bir taşınmaz satışında alıcı \"taşınmazın bugünkü değerini isterim\" diyemez. İsteyebileceği, ödediği paranın denkleştirici adaletle güncellenmiş karşılığıdır.\n\n## 6. Zamanaşımı (TBK m. 82)\n\n### 6.1 İki süre\nTBK m. 82/1'e göre sebepsiz zenginleşmeden doğan istem hakkı:\n- hak sahibinin **geri isteme hakkı olduğunu öğrendiği** tarihten başlayarak **iki yılın**,\n- her hâlde **zenginleşmenin gerçekleştiği** tarihten başlayarak **on yılın**\n\ngeçmesiyle zamanaşımına uğrar. Hangisi önce dolarsa o uygulanır. Mülga Borçlar Kanunu'nda kısa süre bir yıldı; 6098 sayılı Kanun bunu iki yıla çıkardı.\n\n### 6.2 \"Öğrenme\" ne demek?\nYargıtay Hukuk Genel Kurulu'na göre iki yıllık süre, hak sahibinin malvarlığındaki eksilmeye yol açan işlemi ve **sebepsiz zenginleşeni tam olarak** öğrendiği tarihte başlar. Daha önceki eksik bilgiler ve tahminler süreyi başlatmaz. Daire kararlarında zenginleşmenin **kapsamının** (miktarının) da bilinmesi aranır. Kamu kurum ve kuruluşlarında esas alınan, dava açmaya yetkili kişi ya da organın öğrendiği tarihtir.\n\n> **Örnek:** Bir şirketin hesabından 10.03.2024'te hatalı bir havale yapılır. Şirket müdürü paranın kime ve ne kadar gittiğini 02.05.2024'te banka kayıtlarından öğrenir. İki yıllık süre 02.05.2026'da, on yıllık süre 10.03.2034'te dolar.\n\n### 6.3 Zenginleşme ne zaman gerçekleşir?\nYargıtay'a göre geri verme borcu:\n- sebep baştan geçersizse **kazandırma anında**,\n- ileride gerçekleşmesi beklenen sebep gerçekleşmezse **gerçekleşmeyeceğinin belli olduğu anda**,\n- başta var olan sebep sonradan ortadan kalkarsa **sebebin ortadan kalktığı anda**\n\ndoğar. Örneğin bir mahkeme kararına dayanarak yapılan ödemede zenginleşme, karar bozulup aksine hüküm kurulduğunda gerçekleşir.\n\n### 6.4 Zamanaşımı bir def'idir\nZamanaşımı ileri sürülmedikçe hâkim bunu kendiliğinden göz önüne alamaz (TBK m. 161). Davalı zamanaşımına dayanmazsa, süre dolmuş olsa bile mahkeme esasa girer. Zamanaşımına uğrayan alacak ortadan kalkmaz, dava edilemeyen eksik bir borca dönüşür. Bu yüzden zamanaşımına uğramış bir borç ödenirse geri istenemez (TBK m. 78/2).\n\n### 6.5 Zamanaşımına uğramayan savunma (TBK m. 82/2)\nZenginleşme, zenginleşenin bir **alacak hakkı kazanması** suretiyle gerçekleşmişse, diğer taraf istem hakkı zamanaşımına uğramış olsa bile her zaman bu borcunu **ifadan kaçınabilir** (TBK m. 82/2).\n\n> **Örnek:** Can, sonradan kesin hükümsüz olduğu anlaşılan bir sözleşme nedeniyle Ece lehine 100.000 TL'lik bir borç tanıma belgesi imzalar. Belgenin geri verilmesini isteme hakkı zamanaşımına uğrar. Ece yıllar sonra ödeme isterse Can ödemekten kaçınabilir. Ama aynı sözleşme gereği daha önce ödediği bir parayı, süre geçtikten sonra geri isteyemez.\n\n> 💡 **Püf nokta:** Ödenmiş olanı geri almak için süre işler. **Ödenmemiş** olanın ödenmesine karşı savunma ise süresizdir.\n\n### 6.6 Özel süreler ve sözleşme ilişkisi\n- Bazı kanunlar kendi süresini koyar. Örneğin nişanlılığın sona ermesinden doğan dava hakları, hediyelerin geri istenmesi de dahil, sona ermenin üzerinden **bir yıl** geçmekle zamanaşımına uğrar (TMK m. 123).\n- Uyuşmazlık taraflar arasındaki bir sözleşmeden doğuyorsa Yargıtay, sebepsiz zenginleşmenin ikincil (tali) niteliğine dayanarak sözleşme hükümlerini ve o alacağa uygulanan zamanaşımını (kural olarak on yıl, TBK m. 146) uygular. Ayrıntısı şartlar konusunda.\n\n> 📌 **Kesin bilgi:** TBK m. 82: öğrenmeden 2 yıl, her hâlde zenginleşmeden 10 yıl. TMK m. 123 (nişan): sona ermeden 1 yıl. Genel süre (TBK m. 146): 10 yıl.\n\n## 7. Olay çözerken denetim şeması\n1. **Sebepsiz zenginleşme var mı?** TBK m. 77-78'i kısaca göster.\n2. **TBK m. 81 engeli var mı?** Verilen şey hukuka veya ahlaka aykırı bir sonuç için mi verildi? Evetse geri istenemez; Devlete mal etme ihtimalini an.\n3. **Zenginleşen iyiniyetli mi?** TMK m. 3 karinesi ve ispat yükü.\n4. **İadenin kapsamı (TBK m. 79):** İyiniyetliyse geri isteme anında elde kalan; elden çıkmanın ispatı zenginleşende. Kötüniyetliyse ya da hesaba katması gerekiyorsa tamamı.\n5. **Giderler (TBK m. 80):** Her kalemin türünü belirle, iyiniyete göre hesapla, lüks eklemelerde ayırıp alma hakkını söyle.\n6. **Faiz (TBK m. 117/2):** Kötüniyetliyse zenginleşmeden, iyiniyetliyse bildirimden. Para eskiyse değer kaybı tartışmasını an.\n7. **Zamanaşımı (TBK m. 82):** Öğrenme tarihi, on yıllık üst sınır, def'i ileri sürüldü mü, TBK m. 82/2 savunması var mı?",
+  "critical_md": "- 📌 İyiniyetli zenginleşen, geri isteme sırasında elinden çıkmış olduğunu **ispat ettiği** kısım dışında kalanı geri verir (TBK m. 79/1). İspat yükü zenginleşendedir; esas alınan an zenginleşme anı değil, geri isteme anıdır.\n- ⚠️ \"Harcadım\" savunması yetmez. Satış bedeli, sigorta tazminatı, kendi borcunu ödemek ve olağan geçim harcaması zenginleşmeyi sürdürür. Elden çıkma; yok olma, kaybolma, hasar ve bağışlama gibi iktisadi yarar kalmayan hâllerdir.\n- 📌 Kötüniyetli olan ya da elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gereken kişi zenginleşmenin **tamamını** geri verir (TBK m. 79/2). Geri istendikten sonra yapılan harcama da bu kapsamdadır.\n- ⚠️ İyiniyet karinedir (TMK m. 3/1); kötüniyeti fakirleşen ispatlar. Durumun gerektirdiği özeni göstermeyen kişi iyiniyet iddia edemez (TMK m. 3/2).\n- 📌 Giderler (TBK m. 80): iyiniyetli kişi zorunlu ve yararlı giderlerin tamamını, kötüniyetli kişi zorunlu giderleri ve yararlı giderlerden yalnız geri verme zamanındaki mevcut değer artışını ister.\n- ⚠️ Lüks (diğer) giderler iyiniyete bakılmaksızın istenemez. Karşılık önerilmezse zararsızca ayrılabilen eklemeler geri vermeden önce ayırıp alınabilir (TBK m. 80/3).\n- ⚠️ TBK m. 80/2 ile TMK m. 995/2 karıştırılmasın: kötüniyetli zilyet yalnız hak sahibi için de zorunlu olan giderleri isteyebilir.\n- 📌 TBK m. 81 (birebir): \"Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Ancak, açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir.\"\n- ⚠️ TBK m. 81'de amaç belirleyicidir; sonuç gerçekleşmese de geri istenemez. Devlete mal etme için açılmış bir dava gerekir ve karar hâkimin takdirindedir. Bu cümle 6098 sayılı Kanunla getirildi; mülga Kanun'da yoktu.\n- ⚠️ TBK m. 78/2 (zamanaşımına uğramış borç, ahlaki ödev) ile TBK m. 81 (aykırı amaç) farklı gerekçelere dayanır; Devlete mal etme yalnız TBK m. 81'de vardır.\n- 📌 Faiz (TBK m. 117/2): kötüniyetli zenginleşen zenginleşmenin gerçekleştiği tarihte temerrüde düşer. İyiniyetli zenginleşen için bildirim şarttır; ihtar yoksa takip, o da yoksa dava tarihi esas alınır.\n- 📌 Denkleştirici adalet: Yargıtay, geçersiz taşınmaz satışında ödenen bedeli sepet hesabıyla güncelleyerek iade ettirir. Geçersiz sözleşmeye dayanarak taşınmazın rayiç değeri istenemez.\n- 📌 Zamanaşımı (TBK m. 82/1): öğrenmeden **2 yıl**, her hâlde zenginleşmenin gerçekleştiği tarihten **10 yıl**. Mülga Kanun'da kısa süre 1 yıldı.\n- ⚠️ Öğrenme, işlemi ve zenginleşeni (ve kapsamını) tam olarak öğrenmektir; tahmin yetmez. Kamu kurumunda dava açmaya yetkili organın öğrenmesi esas alınır. Zamanaşımı def'idir, hâkim kendiliğinden dikkate alamaz (TBK m. 161).\n- 📌 TBK m. 82/2: zenginleşme bir alacak hakkı kazanılması şeklinde gerçekleşmişse, borçlu istem hakkı zamanaşımına uğrasa bile her zaman ifadan kaçınabilir.",
+  "doctrine_md": "### Faizin başlangıcı: eski tartışma ve TBK m. 117/2\nMülga Kanun'da sebepsiz zenginleşmede temerrüt için ihtar gerekip gerekmediği açık değildi. Hukuk Genel Kurulu \"gaspeden daima temerrüt hâlindedir\" ilkesine dayanarak ihtar aramamış ve iyiniyetli zenginleşeni bile, paranın kullanım değerinin karşılığı olarak temerrüt faizi oranında sorumlu tutmuştu. Bazı daireler ise iyiniyet ayrımı yapmadan ihtar arıyordu. TBK m. 117/2 bu tartışmayı iyiniyet ayrımıyla büyük ölçüde kapattı. Tartışma iki noktada sürüyor:\n- Başta haklı bir sebebe dayanan ya da iyiniyetle alınan ödemede faiz hangi andan işler? Eski dönemde Hukuk Genel Kurulu, mahkeme kararına dayanan ve karar bozulunca sebepsiz kalan bir ödemede faizi dava tarihinden başlatmıştı. TBK döneminde bir daire kararı, iptal kararının kesinleşme tarihini esas aldı.\n- İyiniyetli zenginleşen, bildirimden önce paradan fiilen elde ettiği geliri (mevduat faizi gibi) zenginleşmenin parçası olarak geri vermeli midir?\n\n### Paranın değer kaybı: itibari değer mi, denkleştirici adalet mi?\nBir görüşe göre para borcunda kural itibari değerdir. Değer kaybı temerrüt faizi ve aşkın zarar (TBK m. 122) yoluyla karşılanmalı, hâkim kanunda açık dayanağı olmayan bir güncelleme yapmamalıdır. Bu görüş sepet hesabının belirsizliğini ve öngörülemezliğini de eleştirir. Yargıtay ve onu destekleyen görüş ise iade borcunun amacının gerçek bir eski hâle getirme olduğunu, yıllar önce ödenen paranın aynı rakamla iadesinin bunu sağlamadığını savunur. Yöntem de tartışmalıdır: Hukuk Genel Kurulu taşınmazın değer artış oranının sepete eklenebileceğini oy çokluğuyla kabul etti; karşı oy, sepetin yalnız sözleşmeden bağımsız objektif verilerden oluşması gerektiğini savundu.\n\n### TBK m. 81'in kapsamı\n- **Dar yoruma** göre hüküm yalnız hukuka veya ahlaka aykırı bir davranışın karşılığı olarak verilenleri (rüşvet, suç işletme ücreti) kapsamalıdır. Geçersiz bir sözleşmenin karşılıklı edimlerine uygulanırsa, edimini önce yerine getiren taraf cezalandırılır, diğer taraf haksız biçimde kazançlı çıkar. **Geniş yorum** maddenin lafzına dayanır.\n- Uygulamada hüküm, tapu iptali ve tescil gibi aynî taleplere karşı da ileri sürülmektedir; bunun yerinde olup olmadığı tartışmalıdır.\n- \"Ahlaka aykırılık\" ölçütü değişkendir. Evlilik dışı birlikteliği sağlamak amacıyla yapıldığı ileri sürülen bir taşınmaz devrinde Yargıtay daireleri farklı sonuçlara varmış, Hukuk Genel Kurulu ise oy çokluğuyla devrin serbest iradeyle yapıldığını ve meşru olmayan bir maksat bulunmadığını kabul etmiştir.\n- **Devlete mal etme** cümlesi, alanın ödüllendirilmesini önlediği için savunulur. Ancak kararın hangi usulle ve kimin karşısında verileceği ve ceza hukukundaki müsadereyle ilişkisi kanunda açık değildir.",
+  "glossary": [
+   {
+    "term": "İyiniyetli zenginleşen",
+    "definition": "Zenginleşmenin haklı bir sebebe dayanmadığını bilmeyen ve bilmesi de gerekmeyen kişi. İyiniyet karinedir (TMK m. 3)."
+   },
+   {
+    "term": "Kötüniyetli zenginleşen",
+    "definition": "Zenginleşmenin haklı bir sebebe dayanmadığını bilen ya da bilmesi gereken kişi. Zenginleşmenin tamamını geri verir (TBK m. 79/2)."
+   },
+   {
+    "term": "Elden çıkma",
+    "definition": "Zenginleşmenin, zenginleşenin iktisaden yararlanmadığı biçimde ortadan kalkması: yok olma, kaybolma, hasar, bağışlama. İspat yükü zenginleşendedir (TBK m. 79/1)."
+   },
+   {
+    "term": "Yerine geçen değer",
+    "definition": "Elden çıkan şeyin yerine malvarlığına giren değer, örneğin satış bedeli ya da sigorta tazminatı. Zenginleşmenin devamı sayılır."
+   },
+   {
+    "term": "Geri isteme anı",
+    "definition": "Fakirleşenin iadeyi talep ettiği an (ihtar ya da dava). İyiniyetli zenginleşenin sorumluluğu bu anda elde kalan zenginleşmeye göre belirlenir."
+   },
+   {
+    "term": "Zorunlu gider",
+    "definition": "Bir şeyin varlığını ve değerini korumak için gereken harcama."
+   },
+   {
+    "term": "Yararlı gider",
+    "definition": "Bir şeyin değerini ya da verimini artıran harcama."
+   },
+   {
+    "term": "Diğer (lüks) gider",
+    "definition": "Gerekli olmadığı hâlde kişisel zevk için yapılan harcama. İyiniyete bakılmaksızın istenemez (TBK m. 80/3)."
+   },
+   {
+    "term": "Ayırıp alma hakkı",
+    "definition": "Zenginleşenin, kendisine karşılık önerilmezse şeyle birleştirdiği ve zararsızca ayrılabilen eklemeleri geri vermeden önce sökerek alma hakkı (TBK m. 80/3)."
+   },
+   {
+    "term": "Geri istenememe",
+    "definition": "Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şeyin geri istenememesi (TBK m. 81)."
+   },
+   {
+    "term": "Devlete mal etme",
+    "definition": "Hukuka veya ahlaka aykırı amaçla verilen şey için açılan davada hâkimin, o şeyin Devlete geçmesine takdiren karar verebilmesi (TBK m. 81)."
+   },
+   {
+    "term": "Denkleştirici adalet (sepet hesabı)",
+    "definition": "Geçersiz sözleşme gereği ödenen paranın, altın, döviz, endeks, maaş artışı gibi göstergelerin ortalaması alınarak güncellenmiş değeriyle iade edilmesi."
+   },
+   {
+    "term": "Zamanaşımı def'i",
+    "definition": "Sürenin dolduğunu ileri sürerek ödemekten kaçınma savunması. İleri sürülmedikçe hâkim kendiliğinden dikkate alamaz (TBK m. 161)."
+   },
+   {
+    "term": "Sebepsiz zenginleşme def'i",
+    "definition": "Zenginleşme bir alacak hakkı kazanılması şeklinde gerçekleşmişse, borçlunun zamanaşımına bakılmaksızın ifadan kaçınabilmesi (TBK m. 82/2)."
+   },
+   {
+    "term": "Temerrüt faizi",
+    "definition": "Para borcunun geç ödenmesinin kanuni karşılığı. Sebepsiz zenginleşmede başlangıcı zenginleşenin iyiniyetine göre belirlenir (TBK m. 117/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "79",
+   "official_text": "MADDE 79- Sebepsiz zenginleşen, zenginleşmenin geri istenmesi sırasında elinden çıkmış olduğunu ispat ettiği kısmın dışında kalanı geri vermekle yükümlüdür.\nZenginleşen, zenginleşmeyi iyiniyetli olmaksızın elden çıkarmışsa veya elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gerekiyorsa, zenginleşmenin tamamını geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "80",
+   "official_text": "MADDE 80- Zenginleşen iyiniyetli ise, yaptığı zorunlu ve yararlı giderleri, geri verme isteminde bulunandan isteyebilir.\nZenginleşen iyiniyetli değilse, zorunlu giderlerinin ve yararlı giderlerinden sadece geri verme zamanında mevcut olan değer artışının ödenmesini isteyebilir.\nZenginleşen, iyiniyetli olup olmadığına bakılmaksızın, diğer giderlerinin ödenmesini isteyemez. Ancak, kendisine karşılık önerilmezse, o şey ile birleştirdiği ve zararsızca ayrılması mümkün bulunan eklemeleri geri vermeden önce ayırıp alabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "81",
+   "official_text": "MADDE 81- Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Ancak, açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "82",
+   "official_text": "MADDE 82- Sebepsiz zenginleşmeden doğan istem hakkı, hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlayarak iki yılın ve her hâlde zenginleşmenin gerçekleştiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nZenginleşme, zenginleşenin bir alacak hakkı kazanması suretiyle gerçekleşmişse diğer taraf, istem hakkı zamanaşımına uğramış olsa bile, her zaman bu borcunu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "77",
+   "official_text": "MADDE 77- Haklı bir sebep olmaksızın, bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür.\nBu yükümlülük, özellikle zenginleşmenin geçerli olmayan veya gerçekleşmemiş ya da sona ermiş bir sebebe dayanması durumunda doğmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "78",
+   "official_text": "MADDE 78- Borçlanmadığı edimi kendi isteğiyle yerine getiren kimse, bunu ancak, kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir.\nZamanaşımına uğramış bir borcun ifasından veya ahlaki bir ödevin yerine getirilmiş olmasından kaynaklanan zenginleşmeler geri istenemez.\nBorç olmadığı hâlde ödenmiş olan edimin geri istenmesine ilişkin diğer kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "120",
+   "official_text": "MADDE 120- Uygulanacak yıllık temerrüt faizi oranı, sözleşmede kararlaştırılmamışsa, faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz.\nAkdî faiz oranı kararlaştırılmakla birlikte sözleşmede temerrüt faizi kararlaştırılmamışsa ve yıllık akdî faiz oranı da birinci fıkrada belirtilen faiz oranından fazla ise, temerrüt faizi oranı hakkında akdî faiz oranı geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "122",
+   "official_text": "MADDE 122- Alacaklı, temerrüt faizini aşan bir zarara uğramış olursa, borçlu kendisinin hiçbir kusuru bulunmadığını ispat etmedikçe, bu zararı da gidermekle yükümlüdür.\nTemerrüt faizini aşan zarar miktarı görülmekte olan davada belirlenebiliyorsa, davacının istemi üzerine hâkim, esas hakkında karar verirken bu zararın miktarına da hükmeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "161",
+   "official_text": "MADDE 161- Zamanaşımı ileri sürülmedikçe, hâkim bunu kendiliğinden göz önüne alamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "27",
+   "official_text": "MADDE 27- Kanunun emredici hükümlerine, ahlaka, kamu düzenine, kişilik haklarına aykırı veya konusu imkânsız olan sözleşmeler kesin olarak hükümsüzdür.\nSözleşmenin içerdiği hükümlerden bir kısmının hükümsüz olması, diğerlerinin geçerliliğini etkilemez. Ancak, bu hükümler olmaksızın sözleşmenin yapılmayacağı açıkça anlaşılırsa, sözleşmenin tamamı kesin olarak hükümsüz olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "18",
+   "official_text": "MADDE 18- Borcun sebebini içermemiş olsa bile borç tanıması geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "295",
+   "official_text": "MADDE 295- Bağışlayan, aşağıdaki durumlardan biri gerçekleşmişse, elden bağışlamayı veya yerine getirdiği bağışlama sözünü geri alabilir ve bağışlananın istem tarihindeki zenginleşmesi ölçüsünde, bağışlama konusunun geri verilmesini isteyebilir:\n1. Bağışlanan, bağışlayana veya yakınlarından birine karşı ağır bir suç işlemişse.\n2. Bağışlanan, bağışlayana veya onun ailesinden bir kimseye karşı kanundan doğan yükümlülüklerine önemli ölçüde aykırı davranmışsa.\n3. Bağışlanan, yüklemeli bağışlamada haklı bir sebep olmaksızın yüklemeyi yerine getirmemişse.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "993",
+   "official_text": "a. Yararlanma\nMadde 993- İyiniyetle zilyedi bulunduğu şeyi, karineyle mevcut hakkına uygun şekilde kullanan veya ondan yararlanan zilyet, o şeyi geri vermekle yükümlü olduğu kimseye karşı bu yüzden herhangi bir tazminat ödemek zorunda değildir.\nİyiniyetli zilyet, şeyin kaybedilmesinden, yok olmasından veya hasara uğramasından sorumlu olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "994",
+   "official_text": "b. Tazminat\nMadde 994- İyiniyetli zilyet, geri vermeyi isteyen kimseden şey için yapmış olduğu zorunlu ve yararlı giderleri tazmin etmesini isteyebilir ve bu tazminat ödeninceye kadar şeyi geri vermekten kaçınabilir.\nİyiniyetli zilyet, diğer giderler için tazminat isteyemez. Ancak, şeyin geri verilmesinden önce kendisine bu giderler için bir tazminat önerilmezse, kendisi tarafından o şeyle birleştirilen ve zararsızca ayrılması mümkün bulunan eklemeleri o şeyi geri vermeden önce ayırıp alabilir.\nZilyedin elde ettiği ürünler, yaptığı giderler sebebiyle doğan alacaklarına mahsup edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "995",
+   "official_text": "2. İyiniyetli olmayan zilyet bakımından\nMadde 995- İyiniyetli olmayan zilyet, geri vermekle yükümlü olduğu şeyi haksız alıkoymuş olması yüzünden hak sahibine verdiği zararlar ve elde ettiği veya elde etmeyi ihmal eylediği ürünler karşılığında tazminat ödemek zorundadır.\nİyiniyetli olmayan zilyet, yaptığı giderlerden ancak hak sahibi için de zorunlu olanların tazmin edilmesini isteyebilir.\nİyiniyetli olmayan zilyet, şeyi kime geri vereceğini bilmediği sürece ancak kusuruyla verdiği zararlardan sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "122",
+   "official_text": "III. Hediyelerin geri verilmesi\nMadde 122- Nişanlılık evlenme dışındaki bir sebeple sona ererse, nişanlıların birbirlerine veya ana ve babanın ya da onlar gibi davrananların, diğer nişanlıya vermiş oldukları alışılmışın dışındaki hediyeler, verenler tarafından geri istenebilir.\nHediye aynen veya mislen geri verilemiyorsa, sebepsiz zenginleşme hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "123",
+   "official_text": "IV. Zamanaşımı\nMadde 123- Nişanlılığın sona ermesinden doğan dava hakları, sona ermenin üzerinden bir yıl geçmekle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2021/251",
+   "karar_no": "2022/1430",
+   "decision_date": "02.11.2022",
+   "summary_md": "Davacı Bakanlığa bağlı bir hastanenin saymanlığı, bir tıbbi malzeme şirketine olan borç için yanlışlıkla o şirketin alacaklısı olan davalının icra dosyasına 31.779,37 TL yatırmış; şirket aynı alacağı sonradan dava yoluyla hastaneden de tahsil edince davacı, bedelin iki kez ödendiğini ileri sürerek davalıya sebepsiz zenginleşme davası açmıştır. İlk derece mahkemesi, hatalı ödemenin 2011'de bir hastane yazısıyla öğrenildiğini, davanın ise 2015'te açıldığını belirterek davayı zamanaşımından reddetmiştir. Yargıtay 3. Hukuk Dairesi, iki yıllık sürenin zenginleşeni ve zenginleşmenin miktarını öğrenmekle başladığını, bunun da şirketin açtığı davadaki kararın kesinleştiği 05.03.2015 olduğunu belirterek bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla ve değişik gerekçeyle bozmuştur: zamanaşımı, hak sahibinin malvarlığındaki eksilmeye yol açan işlemi ve zenginleşeni tam olarak öğrendiği tarihte başlar, eksik bilgiler ve tahminler süreyi başlatmaz; kamu kurumlarında dava açmaya yetkili kişi ya da organın (onay makamının) öğrendiği tarih esas alınır ve mahkeme bu tarihi belirlemelidir. Karşı oy, Daire'nin kesinleşme tarihine dayanan gerekçesini yeterli bulmuştur. Konuya katkısı: TBK m. 82'deki öğrenmenin tam ve kesin bilgi anlamına geldiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/847956900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2023/885",
+   "karar_no": "2025/252",
+   "decision_date": "30.04.2025",
+   "summary_md": "Davacı, 1992'de Polatlı'da bir taşınmazı resmî şekle uyulmadan yapılan (harici) bir sözleşmeyle 5.000.000 eski TL'ye satın alıp zilyetliğini almış, ancak tapu devri yapılmayınca önce tescil, sonra taşınmazın rayiç değerini istemiştir. Mahkemenin dava tarihindeki 38.500 TL rayiç değere hükmetmesi üzerine Yargıtay 3. Hukuk Dairesi, geçersiz sözleşmede tarafların ancak verdiklerini sebepsiz zenginleşme hükümlerine göre geri isteyebileceğini ve ödenen bedelin denkleştirici adalet ilkesine göre altın, döviz, maaş artışı ve ÜFE gibi göstergelerin ortalamasıyla güncellenmesi gerektiğini belirterek kararı bozmuştur. Bozmaya uyan mahkeme, hesap sepetine taşınmazın rayicini de katan raporla 8.660,94 TL'ye hükmedince Daire kararı yeniden bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oy çokluğuyla, usulî kazanılmış hakkın ihlal edilmediğini, ancak taşınmazın rayiç değerinin sepete doğrudan katılamayacağını, çünkü bunun geçersiz sözleşmeye geçerlilik atfetmek ve malik davalıyı malının değerini paylaşmaya zorlamak olacağını kabul etmiş; bunun yerine taşınmazın sözleşme tarihindeki değeri ile iade borcunun muaccel olduğu andaki değeri arasındaki artış oranının bir ölçüt olarak gözetilebileceğini belirterek direnme kararını değişik gerekçeyle bozmuştur. Karşı oy, sepetin yalnız sözleşmeden bağımsız objektif verilerden oluşması gerektiğini savunmuştur. Konuya katkısı: Yargıtay'ın paranın değer kaybına karşı denkleştirici adaleti nasıl uyguladığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1152413700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2017/16464",
+   "karar_no": "2019/2521",
+   "decision_date": "25.03.2019",
+   "summary_md": "Kangal Termik Santrali'nin işletme hakkına sahip davacı şirket, davalı belediyenin kaçak yapı gerekçesiyle kestiği idari para cezası ile emlak vergisini 31.10.2014'te icra tehdidi altında ödemiş; idare ve vergi mahkemeleri bu işlemleri iptal edince ödediklerinin iadesi için icra takibi başlatmış, belediye ise işlemiş ve işleyecek faize itiraz etmiştir. İlk derece mahkemesi, belediyenin ödeme tarihinden itibaren sebepsiz zenginleştiğini kabul ederek ödeme tarihinden faize ve icra inkâr tazminatına hükmetmiştir. Yargıtay 3. Hukuk Dairesi, TBK m. 117/2'ye göre sebepsiz zenginleşmede borçlunun zenginleşmenin gerçekleştiği tarihte temerrüde düştüğünü, ancak zenginleşen iyiniyetliyse temerrüt için bildirimin şart olduğunu hatırlatmıştır. Daire, belediyenin iptal kararları kesinleşinceye kadar iyiniyetli sayılması ve faizin kesinleşme tarihinden işletilmesi gerektiğini, mahkemenin kesinleşmeyi araştırmadan ödeme tarihinden faize hükmetmesinin yanlış olduğunu belirterek kararı bozmuştur. Alacak likit olmadığı için icra inkâr tazminatına hükmedilmesi de ayrı bir bozma sebebi yapılmıştır. Konuya katkısı: faizin başlangıcının zenginleşenin iyiniyetine bağlı olduğunu ve iyiniyetin hangi ana kadar sürdüğünün ayrıca belirlenmesi gerektiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/522935600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 79/1'e göre iyiniyetli zenginleşenin geri verme borcunun kapsamı nedir?",
+   "options": [
+    "Geri isteme sırasında elinden çıkmış olduğunu ispat ettiği kısım dışında kalan zenginleşme",
+    "Zenginleşmenin yarısı; kalanı hakkaniyete göre belirlenir",
+    "Zenginleşmenin elde edildiği andaki değerinin tamamı",
+    "Fakirleşenin uğradığı zararın tamamı"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 79/1'e göre sebepsiz zenginleşen, zenginleşmenin geri istenmesi sırasında elinden çıkmış olduğunu ispat ettiği kısmın dışında kalanı geri verir. Esas alınan an zenginleşme anı değil geri isteme anıdır. Zararın tamamının giderilmesi haksız fiil tazminatının mantığıdır; sebepsiz zenginleşmede ölçü zenginleşmedir. Tamamından sorumluluk ise kötüniyetli zenginleşen içindir (TBK m. 79/2)."
+  },
+  {
+   "stem_md": "Sebepsiz zenginleşme davasında zenginleşmenin elden çıktığını kim ispat eder?",
+   "options": [
+    "Zenginleşen",
+    "Hâkim kendiliğinden araştırır, taraflara ispat yükü düşmez",
+    "Zenginleşenin kötüniyetli olduğu kanıtlanmadıkça hiç kimse",
+    "Geri isteyen fakirleşen"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 79/1, zenginleşenin ancak elinden çıkmış olduğunu \"ispat ettiği\" kısımdan kurtulacağını söyler. Bu yüzden elden çıkmayı zenginleşen ispatlar. Fakirleşen ise zenginleşmeyi ve miktarını ispatlar. Kötüniyet iddiasını da fakirleşen ispatlar, çünkü iyiniyet karinedir (TMK m. 3/1)."
+  },
+  {
+   "stem_md": "Bankanın hatasıyla Burcu'nun hesabına 50.000 TL yatırılır. Parayı annesinin gönderdiğini sanan Burcu, iyiniyetle bu parayla birikmiş kira borcunu öder. Banka parayı geri istediğinde hangisi doğrudur?",
+   "options": [
+    "Para elinden çıktığı için Burcu hiçbir şey ödemez.",
+    "Banka parayı yalnız kiraya verenden isteyebilir.",
+    "Burcu kira borcundan kurtulduğu için zenginleşmesi sürmektedir; 50.000 TL'yi geri vermekle yükümlüdür.",
+    "Burcu iyiniyetli olduğu için tutarın yarısını öder."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kendi borcunu ödeyen kişi, aksi hâlde kendi parasından çıkacak bir değeri korumuş olur; malvarlığındaki zenginleşme sürer. Yargıtay'a göre iyiniyetli zenginleşenin sorumluluğunun sınırlanması, ancak zenginleşenin iktisaden yararlanmadığı yok olma, kaybolma ya da bağışlama gibi hâllerde söz konusudur (TBK m. 79/1). Kiraya veren ise kendi alacağını tahsil etmiştir ve sebepsiz zenginleşmemiştir."
+  },
+  {
+   "stem_md": "Bankanın hatasıyla hesabına 30.000 TL yatırılan Volkan, parayı bir akrabasının gönderdiğini sanır. Normalde böyle bir bağış yapmayacak olmasına rağmen bu parayı bir yardım kampanyasına bağışlar ve bağışı belgeleriyle ispatlar. Banka parayı geri istediğinde hangisi doğrudur?",
+   "options": [
+    "Para hukuka aykırı bir amaçla verildiği için hâkim paranın Devlete mal edilmesine karar verir.",
+    "Bağışı kendi iradesiyle yaptığı için 30.000 TL'nin tamamını geri verir.",
+    "İyiniyetli olduğu ve zenginleşme elinden çıktığı için geri verme yükümlülüğü yoktur.",
+    "Yalnız paranın faizini öder."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Bağışlama, Yargıtay'ın saydığı tipik elden çıkma hâllerindendir: zenginleşen bağışladığı şeyden iktisaden yararlanmaz. Volkan normalde böyle bir bağış yapmayacağı için kendi parasından da tasarruf etmemiştir. İyiniyetli olduğu ve bağışı ispatladığı için TBK m. 79/1 uyarınca geri vermez. Bağışın gönüllü olması kötüniyet anlamına gelmez. Para hukuka aykırı bir amaçla verilmediği için TBK m. 81'in de konuyla ilgisi yoktur."
+  },
+  {
+   "stem_md": "Kendisine hatayla teslim edilen bir bisikleti iyiniyetle 12.000 TL'ye satan Can'dan bisikletin sahibi iade istemektedir. Bisikletin bugünkü piyasa değeri 15.000 TL'dir. TBK m. 79'a göre Can neyi geri verir?",
+   "options": [
+    "Satış bedeli olan 12.000 TL'yi",
+    "Hiçbir şey; bisiklet elinden çıkmıştır.",
+    "Bisikletin bugünkü piyasa değeri olan 15.000 TL'yi",
+    "Alıcıdan bisikleti geri alıp aynen iade etmek zorundadır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Satış, zenginleşenin şeyden iktisaden yararlandığı bir işlemdir; satış bedeli şeyin yerine geçer. Bu yüzden iyiniyetli Can elinde kalan zenginleşmeyi, yani 12.000 TL'yi geri verir (TBK m. 79/1). Zenginleşmenin tamamından sorumluluk kötüniyetli zenginleşen içindir (TBK m. 79/2). Can'ın alıcıdan bisikleti geri almak gibi bir yükümlülüğü yoktur."
+  },
+  {
+   "stem_md": "Satıcı Leyla, alıcının sözleşmeyi iptal ettirmek için dava açtığını bildiği hâlde, aldığı 300.000 TL'yi bir yurt dışı tatilinde harcar. Dava sonunda sözleşme ortadan kalkar. Leyla'nın geri verme borcu hakkında hangisi doğrudur?",
+   "options": [
+    "Elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gerektiğinden 300.000 TL'nin tamamını geri verir.",
+    "Hakkaniyet gereği tutarın yarısını geri verir.",
+    "Para tatilde harcanıp elinden çıktığı için hiçbir şey ödemez.",
+    "Yalnız dava tarihinden sonraki faizi öder."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 79/2'ye göre zenginleşen, zenginleşmeyi iyiniyetli olmaksızın elden çıkarmışsa veya elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gerekiyorsa, tamamını geri verir. İptal davasını bilen Leyla bu riski görmek zorundaydı; elden çıkma savunması dinlenmez. Kanunda bu durum için hakkaniyet indirimi öngörülmemiştir."
+  },
+  {
+   "stem_md": "TBK m. 80'e göre iyiniyetli zenginleşen hangi giderlerinin ödenmesini isteyebilir?",
+   "options": [
+    "Zorunlu, yararlı ve lüks giderlerinin tamamını",
+    "Zorunlu ve yararlı giderlerini",
+    "Hiçbirini; giderler geri verme borcunu etkilemez",
+    "Yalnız zorunlu giderlerini"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 80/1'e göre zenginleşen iyiniyetli ise yaptığı zorunlu ve yararlı giderleri, geri verme isteminde bulunandan isteyebilir. Lüks (diğer) giderler ise iyiniyete bakılmaksızın istenemez (TBK m. 80/3). Yalnız zorunlu giderlerle yetinmek iyiniyetli zenginleşen için geçerli bir çözüm değildir; buna yakın bir sınırlama, kötüniyetli zilyede ilişkin TMK m. 995/2'de yer alır."
+  },
+  {
+   "stem_md": "Kötüniyetli zenginleşen Mert, geri vermesi gereken araç için 10.000 TL zorunlu onarım ve 30.000 TL yararlı gider yapmıştır. Yararlı gider, geri verme zamanında aracın değerini 18.000 TL artırmaktadır. TBK m. 80'e göre Mert en fazla ne isteyebilir?",
+   "options": [
+    "40.000 TL",
+    "Hiçbir şey; kötüniyetli zenginleşen gider isteyemez.",
+    "28.000 TL",
+    "10.000 TL"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 80/2'ye göre iyiniyetli olmayan zenginleşen zorunlu giderlerinin tamamını (10.000 TL) ve yararlı giderlerinden yalnız geri verme zamanında mevcut olan değer artışını (18.000 TL) isteyebilir; toplam 28.000 TL. 40.000 TL iyiniyetli zenginleşenin hakkıdır. Yalnız zorunlu giderle sınırlı bir hak, mülkiyete dayanan istemde kötüniyetli zilyede ilişkin TMK m. 995/2'nin sonucuna yakındır; soru ise TBK m. 80'e göredir."
+  },
+  {
+   "stem_md": "İyiniyetli zenginleşen Sevgi, geri vereceği eve kendi zevki için bir şömine süsü taktırmıştır. Süs, eve zarar vermeden sökülebilmektedir. Ev sahibi bunun için hiçbir karşılık önermemektedir. Hangisi doğrudur?",
+   "options": [
+    "İyiniyetli olduğu için süsün bedelini isteyebilir.",
+    "Süsü ancak kötüniyetli olsaydı sökebilirdi.",
+    "Süs eve eklendiği için ev sahibine kalır; Sevgi'nin hiçbir hakkı yoktur.",
+    "Süsü, evi geri vermeden önce sökerek alabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kişisel zevk için yapılan süs lüks (diğer) giderdir ve iyiniyete bakılmaksızın bedeli istenemez. Ancak kendisine karşılık önerilmezse zenginleşen, şeyle birleştirdiği ve zararsızca ayrılabilen eklemeleri şeyi geri vermeden önce ayırıp alabilir (TBK m. 80/3). Bu hak iyiniyetli ve kötüniyetli zenginleşen için aynıdır."
+  },
+  {
+   "stem_md": "TBK m. 81 hakkında hangisi doğrudur?",
+   "options": [
+    "Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez; açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir.",
+    "Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez; hâkim her durumda bu şeyin Devlete mal edilmesine karar vermek zorundadır.",
+    "Hukuka veya ahlaka aykırı sonuç gerçekleşmişse verilen şey geri istenemez; sonuç gerçekleşmemişse geri istenebilir.",
+    "Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenebilir, ancak faizi istenemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 81'in iki cümlesi şöyledir: \"Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Ancak, açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir.\" \"Verebilir\" ifadesi bir takdir yetkisidir, zorunluluk değildir. Hükümde belirleyici olan amaçtır; sonucun gerçekleşmesi aranmaz."
+  },
+  {
+   "stem_md": "Kemal, rakibi Barış'ın iş yerini kundaklaması için Sedat'a 150.000 TL verir. Sedat hiçbir şey yapmaz. Kemal, parayı geri almak için Sedat aleyhine dava açar. Hangisi doğrudur?",
+   "options": [
+    "Sedat parayı Kemal'e değil, Barış'a vermekle yükümlüdür.",
+    "Amaçlanan sonuç gerçekleşmediği için sebep de gerçekleşmemiştir; Kemal parayı geri alır.",
+    "Para hukuka aykırı bir sonucun gerçekleşmesi amacıyla verildiğinden geri istenemez; hâkim paranın Devlete mal edilmesine karar verebilir.",
+    "Kemal parayı geri alır, ama yalnız faizsiz olarak."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Para, suç işletmek amacıyla verilmiştir; bu hukuka aykırı bir sonucun gerçekleşmesi amacıdır. TBK m. 81 amaca bakar, sonucun gerçekleşmesini aramaz. Bu yüzden \"sebep gerçekleşmedi\" diyerek TBK m. 77/2'ye dayanmak yasağı aşamaz. Kemal'in açtığı bu davada hâkim, paranın Devlete mal edilmesine karar verebilir; bu bir takdir yetkisidir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 81 kapsamında geri istenemeyen bir kazandırmadır?",
+   "options": [
+    "Yoksul kardeşe ahlaki bir ödev duygusuyla yapılan düzenli yardım",
+    "Kendini borçlu sanarak yapılan ve borç olmadığı anlaşılan ödeme",
+    "Zamanaşımına uğramış bir borcun ödenmesi",
+    "Bir memura, mevzuata aykırı bir ruhsat vermesi için verilen para"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 81, hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verileni kapsar; mevzuata aykırı ruhsat için memura verilen para bunun tipik örneğidir. Zamanaşımına uğramış borcun ödenmesi ve ahlaki ödevin yerine getirilmesi de geri istenemez, ama dayanağı TBK m. 78/2'dir ve gerekçesi farklıdır. Kendini borçlu sanarak yapılan ödeme ise TBK m. 78/1 uyarınca geri istenebilir."
+  },
+  {
+   "stem_md": "TBK m. 82/1'e göre sebepsiz zenginleşmeden doğan istem hakkı hangi sürelerde zamanaşımına uğrar?",
+   "options": [
+    "Her durumda 10 yıl",
+    "Geri isteme hakkını öğrenmeden itibaren 2 yıl ve her hâlde zenginleşmenin gerçekleştiği tarihten itibaren 10 yıl",
+    "Zenginleşmenin gerçekleştiği tarihten itibaren 2 yıl ve her hâlde 5 yıl",
+    "Geri isteme hakkını öğrenmeden itibaren 1 yıl ve her hâlde 10 yıl"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 82/1'e göre süreler, hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlayarak iki yıl ve her hâlde zenginleşmenin gerçekleştiği tarihten başlayarak on yıldır. Hangisi önce dolarsa o uygulanır. Bir yıllık kısa süre mülga Borçlar Kanunu'na aitti. Genel on yıllık süre (TBK m. 146) ise kanunda özel süre bulunmayan alacaklar içindir."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulu'na göre TBK m. 82'deki iki yıllık süre ne zaman başlar?",
+   "options": [
+    "Hak sahibinin bir hata olabileceğinden ilk kez şüphelendiği gün",
+    "Hak sahibinin malvarlığındaki eksilmeye yol açan işlemi ve zenginleşeni tam olarak öğrendiği gün",
+    "Zenginleşenin parayı harcadığı gün",
+    "Hatalı ödemenin yapıldığı gün"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Hukuk Genel Kurulu'na göre zamanaşımı, hak sahibinin malvarlığındaki eksilmeye yol açan işlemi ve sebepsiz zenginleşeni tam olarak öğrendiği tarihten itibaren işler; eksik bilgiler ve tahminler süreyi başlatmaz. Kamu kurumlarında dava açmaya yetkili kişi ya da organın öğrenmesi esas alınır. Ödeme tarihi ise ancak on yıllık süre bakımından önemlidir (TBK m. 82/1)."
+  },
+  {
+   "stem_md": "Ayşe, sonradan kesin hükümsüz olduğu anlaşılan bir sözleşme nedeniyle Burak lehine 100.000 TL'lik bir borç tanıma belgesi imzalamıştır. Belgenin geri verilmesini isteme hakkı zamanaşımına uğradıktan sonra Burak ödeme ister. Hangisi doğrudur?",
+   "options": [
+    "Ayşe ancak Burak kötüniyetliyse ödemekten kaçınabilir.",
+    "Ayşe'nin kendi istem hakkı zamanaşımına uğradığı için ödemek zorundadır.",
+    "Zenginleşme bir alacak hakkı kazanılması şeklinde gerçekleştiği için Ayşe her zaman ödemekten kaçınabilir.",
+    "Ayşe ödemekten kaçınabilmek için önce belgenin iptali davasını iki yıl içinde açmış olmalıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 82/2'ye göre zenginleşme, zenginleşenin bir alacak hakkı kazanması suretiyle gerçekleşmişse diğer taraf, istem hakkı zamanaşımına uğramış olsa bile her zaman bu borcunu ifadan kaçınabilir. Bu savunma süreye bağlı değildir ve zenginleşenin iyiniyetine göre değişmez."
+  },
+  {
+   "stem_md": "Nazlı, geri isteme hakkını öğrendiği tarihten üç yıl sonra sebepsiz zenginleşme davası açar. Davalı zamanaşımına hiç dayanmaz. Hâkim ne yapmalıdır?",
+   "options": [
+    "Zamanaşımını kendiliğinden dikkate alıp davayı reddetmelidir.",
+    "Davalıya zamanaşımına dayanıp dayanmayacağını sorup cevaba göre karar vermelidir.",
+    "Süre hak düşürücü olduğu için davayı kendiliğinden reddetmelidir.",
+    "Zamanaşımı ileri sürülmediği için bunu kendiliğinden göz önüne alamaz ve esasa girmelidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 82'deki süreler zamanaşımı süreleridir, hak düşürücü süre değildir. TBK m. 161'e göre zamanaşımı ileri sürülmedikçe hâkim bunu kendiliğinden göz önüne alamaz. Hâkimin davalıyı bu savunmaya yönlendirmesi de beklenemez; savunmayı yapmak davalının işidir."
+  },
+  {
+   "stem_md": "Tamer, hesabına 01.02.2025'te hatalı bir havaleyle gelen 100.000 TL'nin kendisine ait olmadığını bildiği hâlde parayı harcar. Fakirleşen ihtar göndermeden 01.10.2025'te dava açar. Temerrüt faizi hangi tarihten işler?",
+   "options": [
+    "01.02.2025'ten, yani zenginleşmenin gerçekleştiği tarihten",
+    "İhtar gönderilmediği için hiç faiz istenemez.",
+    "01.10.2025'ten, yani dava tarihinden",
+    "Karar tarihinden"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 117/2'ye göre sebepsiz zenginleşmede borçlu, zenginleşmenin gerçekleştiği tarihte temerrüde düşmüş olur. Bildirim şartı yalnız iyiniyetli zenginleşen için aranır. Tamer paranın kendisine ait olmadığını bildiği için kötüniyetlidir; ihtar gerekmez ve faiz 01.02.2025'ten işler."
+  },
+  {
+   "stem_md": "İyiniyetli zenginleşen Derya'ya ihtar gönderilmemiş, icra takibi de yapılmamıştır. Fakirleşen doğrudan dava açmıştır. Faiz hangi tarihten istenebilir?",
+   "options": [
+    "Zenginleşmenin gerçekleştiği tarihten",
+    "Dava tarihinden",
+    "Karar tarihinden",
+    "Hiç istenemez, çünkü Derya iyiniyetlidir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 117/2'ye göre sebepsiz zenginleşen iyiniyetliyse temerrüt için bildirim şarttır. Yargıtay'a göre ihtar yoksa icra takibi tarihi, takip de yoksa dava tarihi temerrüt tarihidir. Bu yüzden faiz dava tarihinden işler. İyiniyet faizi tamamen ortadan kaldırmaz, yalnız başlangıcını değiştirir."
+  },
+  {
+   "stem_md": "Yargıtay uygulamasına göre, resmî şekilde yapılmadığı için geçersiz olan bir taşınmaz satışında alıcının yıllar önce ödediği bedelin iadesi nasıl belirlenir?",
+   "options": [
+    "Ödenen bedelin yalnız itibari tutarı, faizsiz olarak iade edilir.",
+    "Sözleşme geçersiz olduğu için alıcı ödediğini hiçbir şekilde geri isteyemez.",
+    "Alıcıya taşınmazın dava tarihindeki rayiç değeri ödenir.",
+    "Ödenen bedel, denkleştirici adalet ilkesine göre çeşitli ekonomik göstergelerin ortalamasıyla güncellenerek iade edilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Yargıtay'a göre geçersiz sözleşmede taraflar ifayı ya da taşınmazın rayiç değerini isteyemez; ancak verdiklerini sebepsiz zenginleşme hükümlerine göre geri isteyebilirler. Ödenen bedel denkleştirici adalet ilkesine göre altın, döviz, endeks ve maaş artışı gibi göstergelerin ortalaması alınarak güncellenir. Hukuk Genel Kurulu 2025'te taşınmazın rayicinin sepete doğrudan katılamayacağını belirtmiştir. Geçersizlik tek başına TBK m. 81'deki geri istenememe sonucunu doğurmaz."
+  },
+  {
+   "stem_md": "Nişanlılık evlenme dışındaki bir sebeple sona ermiştir. Nişanlılık sürerken nişanlıya verilen alışılmışın dışında değerli bir saat, nişanlı tarafından iyiniyetle kaybedilmiştir. Hangisi doğrudur?",
+   "options": [
+    "Geri isteme hakkı, öğrenmeden itibaren iki yıllık zamanaşımına tabidir.",
+    "Nişan hediyeleri hiçbir durumda geri istenemez.",
+    "Saat aynen geri verilemediği için sebepsiz zenginleşme hükümleri uygulanır; kaybı ispat eden iyiniyetli nişanlı, elinde kalmayan zenginleşmeyi geri vermez.",
+    "Nişanlı saatin değerini her durumda öder."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 122/2'ye göre hediye aynen veya mislen geri verilemiyorsa sebepsiz zenginleşme hükümleri uygulanır. Kaybolma tipik bir elden çıkma hâlidir; iyiniyetli nişanlı bunu ispat ederse TBK m. 79/1 uyarınca sorumlu olmaz. Nişanlılığın sona ermesinden doğan dava hakları ise sona ermenin üzerinden bir yıl geçmekle zamanaşımına uğrar (TMK m. 123); TBK m. 82'deki iki yıllık süre burada uygulanmaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "X Gıda Ltd. Şti.'nin muhasebe çalışanı, 10.03.2024'te bir tedarikçiye göndermesi gereken 180.000 TL'yi, IBAN'ın bir hanesini yanlış yazdığı için hırdavatçı Kerem'in hesabına gönderir. Havalenin açıklamasında yalnızca \"fatura ödemesi\" yazmaktadır. Kerem, borçlusu tüccar Haluk'un ödemelerini daha önce de başka şirketlerin hesabından yaptırdığını bildiği için, paranın Haluk'un uzun süredir ödemediği ve tahsil edilemez saydığı eski borcu için gönderildiğini düşünür.\n\nKerem, Mart 2024 içinde paranın 60.000 TL'si ile kredi kartı borcunu kapatır. Beklenmedik tahsilatın sevinciyle, normalde böyle bir bağış yapmayacak olmasına rağmen 50.000 TL'yi bir derneğe bağışlar ve bunu dekontla belgeler. Kalan 70.000 TL hesabında durmaktadır.\n\nŞirket müdürü, paranın kime ve ne kadar gittiğini 02.05.2024'te banka kayıtlarından öğrenir. Şirket, paranın derhâl iadesini isteyen ihtarnameyi Kerem'e 08.05.2024'te tebliğ ettirir. Kerem ödeme yapmaz ve 15.05.2024'te hesabındaki 70.000 TL ile bir tekne turu ve yeni bir telefon satın alır.\n\nŞirket 15.04.2026'da, 180.000 TL'nin ödeme tarihinden itibaren faiziyle tahsili için dava açar. Şirket, Kerem'in paranın kendisine ait olmadığını bildiğini ileri sürer, ama bunu destekleyen bir delil sunamaz. Kerem ise iyiniyetli olduğunu, elinden çıkan parayı ödemeyeceğini, para 10.03.2024'te geldiği için iki yıllık sürenin dolduğunu ve faiz istenemeyeceğini savunur.\n\n1. Kerem'in iade borcunun kapsamını belirleyiniz.\n2. İhtardan sonra harcanan 70.000 TL'nin durumu nedir?\n3. Faiz hangi tutar üzerinden ve hangi tarihten istenebilir?\n4. Zamanaşımı savunmasını değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Haklı bir sebep olmaksızın zenginleşme ve geri verme borcunun nitelendirilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 77"
+    },
+    {
+     "point": "İyiniyet karinesi; kötüniyeti şirketin, elden çıkmayı Kerem'in ispatlaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 3"
+    },
+    {
+     "point": "Bağışlanan 50.000 TL'nin elden çıkmış sayılması; kredi kartı borcuna ödenen 60.000 TL ile hesaptaki 70.000 TL'nin iadesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 79"
+    },
+    {
+     "point": "Geri istendikten sonra harcanan 70.000 TL'den sorumluluğun sürmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 79"
+    },
+    {
+     "point": "İyiniyetli zenginleşende temerrüt için bildirim şartı; 130.000 TL'ye ihtarın tebliğinden itibaren temerrüt faizi",
+     "weight": 20,
+     "madde_ref": "TBK m. 117"
+    },
+    {
+     "point": "İki yıllık sürenin öğrenmeden, on yıllık sürenin zenginleşmeden başlaması; davanın süresinde açılması",
+     "weight": 20,
+     "madde_ref": "TBK m. 82"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** X Ltd. Şti. ile Kerem arasında hiçbir hukuki ilişki yoktur. Para, IBAN hatası sonucu haklı bir sebep olmaksızın Kerem'in malvarlığına geçmiştir. Şirket fakirleşmiş, Kerem zenginleşmiştir ve bu zenginleşmeyi geri vermekle yükümlüdür (TBK m. 77/1). Şartların ayrıntısı ayrı konudadır.\n\n**Hukuki sorunlar:** Kerem iyiniyetli midir? Bağışlanan, borca ödenen ve hesapta kalan paranın akıbeti nedir? İhtardan sonraki harcamanın etkisi nedir? Faiz hangi tarihten işler? Dava süresinde açılmış mıdır?\n\n**İlgili hükümler:** TBK m. 77, 79, 82, 117, 120; TMK m. 3.\n\n**Değerlendirme:**\n- *İyiniyet:* İyiniyet karinedir (TMK m. 3/1). Kerem, borçlusunun ödemelerini başka şirketler aracılığıyla yaptırdığını bildiğinden, açıklaması yalnız \"fatura ödemesi\" olan bir havaleyi o borca bağlaması olağan dışı değildir. Şirket aksini ispatlayamamıştır. Kerem iyiniyetli kabul edilir.\n- *Kapsam (TBK m. 79/1):* İyiniyetli zenginleşen, geri isteme sırasında elinden çıkmış olduğunu ispat ettiği kısım dışında kalanı geri verir. Geri isteme anı, ihtarın tebliğ edildiği 08.05.2024'tür.\n  - Kredi kartı borcuna ödenen 60.000 TL: Kerem bu ödemeyle borcundan kurtulmuş, kendi parasını korumuştur. Zenginleşme sürmektedir; bu tutar iade edilir.\n  - Derneğe bağışlanan 50.000 TL: Bağış, zenginleşenin iktisaden yararlanmadığı tipik bir elden çıkma hâlidir. Kerem normalde böyle bir bağış yapmayacağı için bu harcama ona bir tasarruf da sağlamamıştır. Bağışı dekontla ispatladığından bu kısmı geri vermez.\n  - Hesaptaki 70.000 TL: Geri isteme anında Kerem'in elindedir; iade edilir.\n- *İhtardan sonraki harcama (TBK m. 79/2):* 08.05.2024'ten sonra Kerem paranın kendisine ait olmadığını bilmektedir. 15.05.2024'te 70.000 TL'yi harcaması, zenginleşmeyi iyiniyetli olmaksızın elden çıkarmaktır. Bu kısımdan sorumluluğu devam eder.\n- *Faiz (TBK m. 117/2):* Sebepsiz zenginleşmede borçlu zenginleşmenin gerçekleştiği tarihte temerrüde düşer; ancak zenginleşen iyiniyetliyse temerrüt için bildirim şarttır. Kerem iyiniyetli olduğundan temerrüt, derhâl ödeme isteyen ihtarın tebliğ edildiği 08.05.2024'te gerçekleşir. Temerrüt faizi 130.000 TL üzerinden bu tarihten işler; oran TBK m. 120/1'e göre mevzuattan belirlenir. Şirketin 10.03.2024'ten faiz talebi, kötüniyet ispatlanamadığı için yerinde değildir.\n- *Zamanaşımı (TBK m. 82/1):* İki yıllık süre ödeme tarihinden değil, hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlar. Yargıtay'a göre öğrenme, zenginleşeni ve zenginleşmenin kapsamını tam olarak bilmektir. Şirket müdürü paranın kime ve ne kadar gittiğini 02.05.2024'te öğrenmiştir. Süre 02.05.2026'da dolar; 15.04.2026'da açılan dava süresindedir. On yıllık üst süre de dolmamıştır. Kerem'in savunması yerinde değildir.\n\n**Sonuç:**\n- Kerem 130.000 TL'yi (60.000 + 70.000) geri vermekle yükümlüdür; bağışladığı 50.000 TL'den sorumlu değildir.\n- Bu tutara 08.05.2024'ten itibaren temerrüt faizi işler.\n- Zamanaşımı savunması reddedilir. 50.000 TL'lik kısım ile 08.05.2024'ten önceki döneme ilişkin faiz talebi reddedilir."
+  },
+  {
+   "stem_md": "Y Otomotiv A.Ş., 2025 yaz kampanyası çekilişinin sonucunu açıklarken, kazanan Ahmet Yılmaz yerine çekilişe katılmış aynı adlı başka bir müşterisini arar ve otomobili kazandığını bildirir. Aracı 01.07.2025'te bu Ahmet'e teslim eder. Ahmet kazandığına içtenlikle inanmaktadır.\n\nAhmet araçta şunları yaptırır:\n- fren sisteminde çıkan arıza nedeniyle zorunlu onarım: 25.000 TL,\n- fabrika onaylı park sensörü ve geri görüş kamerası: 40.000 TL (bilirkişiye göre bunlar geri verme anında aracın değerini 30.000 TL artırmaktadır),\n- kendi zevkine göre, boyaya zarar vermeden sökülebilen desenli folyo kaplama: 20.000 TL,\n- koltuklara, sökülmesi koltuğa zarar verecek biçimde adının nakşedilmesi: 10.000 TL.\n\nAhmet ayrıca araçla birlikte verilen ve kullanmadığı tavan bagajını 15.000 TL'ye satmıştır. Bu tutar bagajın değerine eşittir.\n\nŞirket hatayı 15.12.2025'te fark eder, Ahmet'e bildirir ve aracın geri verilmesini ister. Ahmet yaptığı bütün giderlerin (95.000 TL) ödenmesini ister. Bagaj için ise, artık elinde olmadığından hiçbir şey ödemeyeceğini söyler. Şirket folyo ve nakış için herhangi bir karşılık önermemektedir.\n\n1. Şirketin talebinin dayanağı nedir ve Ahmet neleri geri vermelidir?\n2. Ahmet hangi giderleri, hangi tutarda isteyebilir? Folyo ve nakış için hakları nelerdir?\n3. Ahmet çekilişi kazanmadığını bildiği hâlde aracı teslim almış olsaydı, TBK m. 80'e göre gider talebi nasıl değişirdi?",
+   "rubric": [
+    {
+     "point": "Borçlanılmayan edimin yanılarak yerine getirilmesi; aracın geri istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 78"
+    },
+    {
+     "point": "İyiniyet karinesi; Ahmet'in iyiniyetli kabul edilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 3"
+    },
+    {
+     "point": "Satılan bagaj için satış bedelinin zenginleşmenin yerine geçmesi; elden çıkma savunmasının reddi",
+     "weight": 15,
+     "madde_ref": "TBK m. 79"
+    },
+    {
+     "point": "İyiniyetli zenginleşenin zorunlu ve yararlı giderlerin tamamını isteyebilmesi (65.000 TL)",
+     "weight": 25,
+     "madde_ref": "TBK m. 80"
+    },
+    {
+     "point": "Lüks giderlerin istenememesi; folyonun ayırıp alınabilmesi, nakış için hak bulunmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 80"
+    },
+    {
+     "point": "Kötüniyet varsayımında yararlı giderde yalnız mevcut değer artışının istenebilmesi (55.000 TL)",
+     "weight": 15,
+     "madde_ref": "TBK m. 80"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Şirket, aracı Ahmet'e çekilişi kazandığı için ona borçlu olduğunu sanarak teslim etmiştir. Ahmet'in araca hakkı yoktur. Bu, borçlanılmayan bir edimin yanılmayla yerine getirilmesidir. Şirket kendisini borçlu sandığını ispat ederek aracı geri isteyebilir (TBK m. 78/1, TBK m. 77/1). Şartların ayrıntısı ayrı konudadır.\n\n**Hukuki sorunlar:** Ahmet neleri geri verir? Hangi giderleri isteyebilir? Lüks eklemelerin akıbeti nedir? Kötüniyet sonucu nasıl değiştirir?\n\n**İlgili hükümler:** TBK m. 77, 78, 79, 80; TMK m. 3, 994-995.\n\n**Değerlendirme:**\n- *İyiniyet:* Ahmet çekilişe katılmış ve şirket kendisini aramıştır. Kazandığına inanması olağandır. İyiniyet karinesi (TMK m. 3/1) karşısında Ahmet iyiniyetlidir.\n- *Geri verilecekler (TBK m. 79/1):* Araç aynen geri verilir. Tavan bagajı satılmıştır; satış bedeli bagajın yerine geçer. Satış, zenginleşenin iktisaden yararlandığı bir işlemdir ve elden çıkma sayılmaz. Ahmet'in \"bagaj elimde değil\" savunması dinlenmez; 15.000 TL'yi geri verir.\n- *Giderler (TBK m. 80/1):* İyiniyetli zenginleşen zorunlu ve yararlı giderlerin tamamını isteyebilir.\n  - Fren onarımı, aracın korunması ve güvenle kullanılabilmesi için gerekli olduğundan zorunlu giderdir: 25.000 TL.\n  - Park sensörü ve kamera aracın değerini artırdığından yararlı giderdir. İyiniyetli Ahmet, değer artışıyla sınırlı olmaksızın harcadığı 40.000 TL'nin tamamını ister.\n  - Toplam: 65.000 TL.\n- *Lüks giderler (TBK m. 80/3):* Folyo ve nakış Ahmet'in kişisel zevki için yapılmıştır; bedelleri iyiniyete bakılmaksızın istenemez. Şirket karşılık önermediği için Ahmet, zararsızca sökülebilen folyoyu aracı geri vermeden önce sökerek alabilir. Nakış koltuğa zarar vermeden ayrılamadığından Ahmet'in bunun için hiçbir hakkı yoktur.\n- *Uygulama:* Yargıtay bu tür taleplerde bilirkişiden her kalemi zorunlu, yararlı ya da lüks diye ayrı ayrı nitelendirmesini ve ayrılabilirliği belirlemesini ister. Toplam bir masraf rakamı yetmez.\n- *Kötüniyet varsayımı (TBK m. 80/2):* Ahmet çekilişi kazanmadığını bilerek aracı almış olsaydı, zorunlu giderin tamamını (25.000 TL), yararlı giderden ise yalnız geri verme zamanında mevcut olan değer artışını (30.000 TL), toplam 55.000 TL isteyebilirdi. Lüks giderler için sonuç değişmezdi. Bagaj için de zenginleşmenin tamamından sorumlu olurdu (TBK m. 79/2); bedel bagajın değerine eşit olduğundan tutar yine 15.000 TL'dir.\n- *Not:* Şirket aracı mülkiyetine dayanarak da isteyebilir. İyiniyetli zilyet de zorunlu ve yararlı giderleri ister (TMK m. 994); Ahmet bakımından sonuç değişmez. Kötüniyet hâlinde ise kötüniyetli zilyet yalnız hak sahibi için de zorunlu olan giderleri isteyebildiğinden (TMK m. 995/2) iki düzenleme farklı sonuç verir; aralarındaki ilişki tartışmalıdır. Soru TBK m. 80'e göre sorulduğu için cevap 55.000 TL'dir.\n\n**Sonuç:**\n- Ahmet aracı ve tavan bagajının satış bedeli olan 15.000 TL'yi geri verir.\n- Şirketten 65.000 TL gider isteyebilir. Folyoyu sökerek alabilir, nakış için hakkı yoktur.\n- Kötüniyetli olsaydı gider talebi 55.000 TL ile sınırlı kalırdı."
+  },
+  {
+   "stem_md": "Müteahhit Orhan, ruhsatsız olarak yaptığı çatı katı için yıkım kararı verilmemesini sağlaması amacıyla, belediyenin imar biriminde çalışan tanıdığı Sinan'a 02.03.2024'te 500.000 TL verir. Buna rağmen yıkım kararı verilir. Orhan 10.09.2024'te paranın iadesi için Sinan aleyhine dava açar. Dilekçesinde, amaçlanan sonuç gerçekleşmediğine göre paranın sebebinin de gerçekleşmediğini ve Sinan'ın parayı tutmasının onu sebepsiz zenginleştireceğini ileri sürer.\n\nOrhan'ın bir uyuşmazlığı daha vardır. Orhan 05.01.2020'de koleksiyoncu Tuncay'dan bir tablo satın almak üzere anlaşmış, 100.000 TL peşin ödemiş ve kalan 300.000 TL için Tuncay lehine, borcun sebebini göstermeyen bir borç tanıma belgesi imzalamıştır. Sonradan tablonun sözleşmeden önce, 01.01.2020'de çıkan bir yangında yok olduğu anlaşılmıştır. Orhan bunu 10.02.2020'de öğrenmiş, ama uzun süre hiçbir şey yapmamıştır.\n\nTuncay 01.03.2026'da borç tanıma belgesine dayanarak 300.000 TL'nin ödenmesini ister. Orhan da 15.03.2026'da 100.000 TL'nin iadesi için dava açar. Tuncay bu davada zamanaşımı def'inde bulunur.\n\n1. Orhan 500.000 TL'yi geri alabilir mi? Hâkim bu davada ne yapabilir? Orhan hiç dava açmasaydı TBK m. 81'in ikinci cümlesi uygulanabilir miydi?\n2. Tablo sözleşmesinin geçerliliğini ve 100.000 TL'nin iadesi istemini değerlendiriniz.\n3. Orhan, borç tanıma belgesine dayanan 300.000 TL'yi ödemek zorunda mıdır?",
+   "rubric": [
+    {
+     "point": "Paranın hukuka aykırı bir sonucun gerçekleşmesi amacıyla verilmesi; sonucun gerçekleşmemesinin önemsizliği ve geri istenememe",
+     "weight": 25,
+     "madde_ref": "TBK m. 81"
+    },
+    {
+     "point": "Açılan davada hâkimin paranın Devlete mal edilmesine takdiren karar verebilmesi; dava yoksa bu cümlenin işlememesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 81"
+    },
+    {
+     "point": "Konusu başlangıçta imkânsız sözleşmenin kesin hükümsüzlüğü; peşin ödemenin sebepsiz zenginleşme olarak geri istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 27"
+    },
+    {
+     "point": "Öğrenmeden itibaren iki yıllık sürenin dolması, ileri sürülen def'i nedeniyle davanın reddi; hâkimin zamanaşımını kendiliğinden dikkate alamaması",
+     "weight": 25,
+     "madde_ref": "TBK m. 82"
+    },
+    {
+     "point": "Alacak hakkı şeklindeki zenginleşmede borçlunun her zaman ifadan kaçınabilmesi; sebep göstermeyen borç tanımada ispat yükü",
+     "weight": 20,
+     "madde_ref": "TBK m. 82"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda iki ayrı uyuşmazlık vardır. Birincisi hukuka aykırı bir amaçla verilen paranın geri istenmesi, ikincisi konusu başlangıçta imkânsız olan bir satış sözleşmesinin tasfiyesidir.\n\n**Hukuki sorunlar:** Sinan'a verilen 500.000 TL geri istenebilir mi ve hâkim ne yapabilir? Tablo sözleşmesi geçerli midir, peşin ödemenin iadesi istemi zamanaşımına uğramış mıdır? Borç tanıma belgesine dayanan ödeme talebine karşı Orhan'ın savunması nedir?\n\n**İlgili hükümler:** TBK m. 18, 27, 77, 81, 82, 161.\n\n**Değerlendirme:**\n- *500.000 TL (TBK m. 81):* Kanuna göre hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Orhan parayı, hukuka uygun bir yıkım kararının bir kamu görevlisi aracılığıyla usulsüz biçimde engellenmesi için vermiştir. Amaç açıkça hukuka aykırıdır. Orhan'ın \"sonuç gerçekleşmedi, sebep de gerçekleşmedi\" savunması (TBK m. 77/2) bu engeli aşamaz, çünkü TBK m. 81 amaca bakar ve sonucun gerçekleşmesini aramaz. İade istemi reddedilir.\n- *Devlete mal etme:* Maddenin ikinci cümlesine göre açılan davada hâkim, paranın Devlete mal edilmesine karar verebilir. Bu bir takdir yetkisidir. Hâkim, Sinan'ın parayı elinde tutmasının bir ödüle dönüşmemesi için bu yetkiyi kullanabilir. Orhan dava açmasaydı bu cümle işlemezdi, çünkü kanun \"açılan davada\" der. Rüşvetin ceza yargılamasındaki sonuçları ayrıca değerlendirilir.\n- *Tablo sözleşmesi (TBK m. 27):* Tablo, sözleşmeden önce yok olmuştur. Konusu imkânsız olan sözleşme kesin olarak hükümsüzdür. Orhan'ın ödediği 100.000 TL geçerli olmayan bir sebebe dayanır ve sebepsiz zenginleşme olarak geri istenebilir (TBK m. 77).\n- *Zamanaşımı (TBK m. 82/1, TBK m. 161):* Orhan, tablonun yandığını ve dolayısıyla geri isteme hakkı olduğunu 10.02.2020'de öğrenmiştir. İki yıllık süre 10.02.2022'de dolmuştur. On yıllık sürenin dolmamış olması sonucu değiştirmez; iki süreden önce dolanı yeterlidir. Tuncay zamanaşımı def'inde bulunduğu için dava reddedilir. Tuncay bu savunmayı yapmasaydı hâkim zamanaşımını kendiliğinden göz önüne alamazdı.\n- *Borç tanıma (TBK m. 18, TBK m. 82/2):* Borcun sebebini içermeyen borç tanıma geçerlidir. Tuncay alacağının sebebini ispatlamak zorunda değildir; sebebin geçersizliğini Orhan ispatlamalıdır. Sebep, kesin hükümsüz tablo satışıdır. Tuncay bu belgeyle haklı bir sebebe dayanmayan bir alacak hakkı kazanmıştır; zenginleşme bir alacak hakkı kazanılması şeklinde gerçekleşmiştir. TBK m. 82/2'ye göre Orhan'ın belgenin geri verilmesini isteme hakkı zamanaşımına uğramış olsa bile Orhan her zaman bu borcu ifadan kaçınabilir. Borç tanımanın niteliği öğretide tartışmalı olsa da sonuç değişmez: sebep geçersiz olduğu için Orhan ödemek zorunda değildir.\n- *Karşılaştırma:* Ödenmiş 100.000 TL'yi geri isteme hakkı zamanaşımı def'i karşısında dava yoluyla elde edilemez. Ödenmemiş 300.000 TL'ye karşı savunma ise süresizdir.\n\n**Sonuç:**\n- Orhan 500.000 TL'yi geri isteyemez. Hâkim bu davada paranın Devlete mal edilmesine karar verebilir.\n- 100.000 TL'nin iadesi davası, ileri sürülen zamanaşımı def'i nedeniyle reddedilir.\n- Orhan, borç tanıma belgesine dayanan 300.000 TL'yi ödemekten kaçınabilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "İyiniyetli zenginleşen neyi geri verir? (TBK m. 79/1)",
+   "back_md": "Geri isteme sırasında elinden çıkmış olduğunu ispat ettiği kısım dışında kalanı. İspat yükü zenginleşendedir."
+  },
+  {
+   "front_md": "Kötüniyetli zenginleşen neyi geri verir? (TBK m. 79/2)",
+   "back_md": "Zenginleşmenin tamamını. Elden çıkarırken ileride geri vermek zorunda kalabileceğini hesaba katması gereken kişi de tamamını verir."
+  },
+  {
+   "front_md": "Hangi hâllerde zenginleşme elden çıkmış sayılır?",
+   "back_md": "Zenginleşenin iktisaden yararlanmadığı hâllerde: yok olma, kaybolma, hasara uğrama, bağışlama (Yargıtay)."
+  },
+  {
+   "front_md": "Zenginleşmeye konu şey satılmışsa ne geri verilir?",
+   "back_md": "Satış bedeli. Bedel şeyin yerine geçer; sigorta tazminatı da öyle."
+  },
+  {
+   "front_md": "Parayla kendi borcunu ödeyen iyiniyetli zenginleşen 'elimden çıktı' diyebilir mi?",
+   "back_md": "Hayır. Borcundan kurtulmuş, kendi parasını korumuştur; zenginleşme sürer."
+  },
+  {
+   "front_md": "Zenginleşenin kötüniyetini kim ispatlar?",
+   "back_md": "Fakirleşen. İyiniyet karinedir (TMK m. 3/1); ama beklenen özeni göstermeyen kişi iyiniyet iddia edemez (TMK m. 3/2)."
+  },
+  {
+   "front_md": "İyiniyetli zenginleşen hangi giderleri ister? (TBK m. 80/1)",
+   "back_md": "Zorunlu ve yararlı giderlerinin tamamını."
+  },
+  {
+   "front_md": "Kötüniyetli zenginleşen hangi giderleri ister? (TBK m. 80/2)",
+   "back_md": "Zorunlu giderlerini ve yararlı giderlerden yalnız geri verme zamanında mevcut olan değer artışını."
+  },
+  {
+   "front_md": "Lüks (diğer) giderler istenebilir mi? (TBK m. 80/3)",
+   "back_md": "Hayır, iyiniyete bakılmaksızın. Karşılık önerilmezse zararsızca ayrılabilen eklemeler geri vermeden önce ayırıp alınabilir."
+  },
+  {
+   "front_md": "TBK m. 81 ne der?",
+   "back_md": "Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilen şey geri istenemez. Ancak, açılan davada hâkim, bu şeyin Devlete mal edilmesine karar verebilir."
+  },
+  {
+   "front_md": "Amaçlanan hukuka aykırı sonuç gerçekleşmezse verilen şey geri istenebilir mi?",
+   "back_md": "Hayır. TBK m. 81'de belirleyici olan amaçtır, sonucun gerçekleşmesi değil."
+  },
+  {
+   "front_md": "Devlete mal etme kararı için ne gerekir? (TBK m. 81)",
+   "back_md": "Açılmış bir dava. Karar hâkimin takdirindedir; bu cümle 6098 sayılı Kanunla getirilmiştir, mülga Kanun'da yoktu."
+  },
+  {
+   "front_md": "TBK m. 78/2 ile TBK m. 81 arasındaki fark nedir?",
+   "back_md": "TBK m. 78/2: zamanaşımına uğramış borç ve ahlaki ödev, yani korunmaya değer bir sebep. TBK m. 81: hukuka veya ahlaka aykırı amaç; hâkim Devlete mal edebilir."
+  },
+  {
+   "front_md": "Sebepsiz zenginleşmede borçlu ne zaman temerrüde düşer? (TBK m. 117/2)",
+   "back_md": "Kötüniyetliyse zenginleşmenin gerçekleştiği tarihte. İyiniyetliyse bildirimle; Yargıtay'a göre ihtar yoksa takip, o da yoksa dava tarihinde."
+  },
+  {
+   "front_md": "Denkleştirici adalet nedir?",
+   "back_md": "Geçersiz sözleşme gereği ödenen paranın altın, döviz, endeks ve maaş artışı gibi göstergelerin ortalamasıyla güncellenerek iadesi (sepet hesabı). Yargıtay özellikle harici taşınmaz satışlarında uygular."
+  },
+  {
+   "front_md": "TBK m. 82/1'deki süreler nelerdir?",
+   "back_md": "Geri isteme hakkını öğrenmeden itibaren 2 yıl, her hâlde zenginleşmenin gerçekleştiği tarihten itibaren 10 yıl. Mülga Kanun'da kısa süre 1 yıldı."
+  },
+  {
+   "front_md": "TBK m. 82'deki öğrenme ne demektir? (Yargıtay HGK)",
+   "back_md": "Eksilmeye yol açan işlemi ve zenginleşeni tam olarak öğrenmek; eksik bilgi ve tahmin yetmez. Kamu kurumunda dava açmaya yetkili organın öğrenmesi esas alınır."
+  },
+  {
+   "front_md": "TBK m. 82/2 ne sağlar?",
+   "back_md": "Zenginleşme bir alacak hakkı kazanılması şeklindeyse, istem hakkı zamanaşımına uğrasa bile borçlu her zaman ifadan kaçınabilir."
+  },
+  {
+   "front_md": "Hâkim zamanaşımını kendiliğinden dikkate alır mı?",
+   "back_md": "Hayır. Zamanaşımı ileri sürülmedikçe hâkim bunu kendiliğinden göz önüne alamaz (TBK m. 161)."
+  },
+  {
+   "front_md": "Nişan hediyesi aynen geri verilemezse ne olur?",
+   "back_md": "Sebepsiz zenginleşme hükümleri uygulanır (TMK m. 122/2). Dava hakkı nişanlılığın sona ermesinden itibaren 1 yılda zamanaşımına uğrar (TMK m. 123)."
+  },
+  {
+   "front_md": "Sebep sonradan ortadan kalkarsa zenginleşme ne zaman gerçekleşir?",
+   "back_md": "Sebebin ortadan kalktığı anda; örneğin ödemeye dayanak mahkeme kararı bozulup aksine hüküm kurulduğunda (Yargıtay)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

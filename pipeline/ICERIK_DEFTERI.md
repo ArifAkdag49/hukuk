@@ -27,7 +27,7 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 11 | maddi-manevi-tazminat | bitti | örnek konu (rehberin referansı); yerelde yüklendi |
 | 12 | haksiz-fiil-muteselsil-sorumluluk-zamanasimi | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
 | 13 | sebepsiz-zenginlesme-sartlar | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
-| 14 | sebepsiz-zenginlesme-iade-kapsami | bekliyor | |
+| 14 | sebepsiz-zenginlesme-iade-kapsami | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
 | 15 | ifa-genel-esaslar | bitti | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; yerelde yüklendi |
 | 16 | ifa-yeri-zamani-karsilikli-ifa | bekliyor | |
 | 17 | alacakli-temerrudu | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
