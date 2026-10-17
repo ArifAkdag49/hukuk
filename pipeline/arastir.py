@@ -158,6 +158,24 @@ _MADDE_BASI_RE = re.compile(
 _DIPNOT_BASI_RE = re.compile(r"^\[(\d+)\]\s")
 
 
+def _kenar_basligini_ayir(onceki: list[str]) -> list[str]:
+    """Önceki bloğun sonundaki kenar başlığı satırlarını (kısım/bölüm başlıklarıyla en çok on iki kısa, noktalamayla
+    bitmeyen satır; önlerinde cümle sonu ya da blok başı) bloktan çıkarıp döner: başlık ve dipnot işareti bir sonraki
+    maddeye aittir."""
+    def son(s: str) -> str:  # sondaki dipnot işaretleri noktalamayı gizlemesin: "edilir.[6]"
+        return re.sub(r"(?:\[\d+\])+$", "", s)
+
+    i = len(onceki)
+    while (i > 0 and len(onceki) - i < 12 and len(onceki[i - 1]) <= 100 and not _MADDE_BASI_RE.match(onceki[i - 1])
+           and not re.search(r"[.;:,]$", son(onceki[i - 1]))):
+        i -= 1
+    if i == len(onceki) or (i > 0 and not re.search(r"[.;:]$", son(onceki[i - 1]))):
+        return []
+    tasinan = onceki[i:]
+    del onceki[i:]
+    return tasinan
+
+
 def tam_degisiklikler(satirlar: list[str], en_erken_yil: int) -> list[str]:
     """Tam metindeki değişiklik notları madde madde; sondaki dipnotlar, onlara atıf yapan maddeye bağlanır."""
     bloklar: list[tuple[str, list[str]]] = [("giriş", [])]
@@ -177,7 +195,8 @@ def tam_degisiklikler(satirlar: list[str], en_erken_yil: int) -> list[str]:
         if "İŞLENEMEYEN HÜKÜM" in s:
             on_ek = "işlenemeyen hüküm, "
         if m:
-            bloklar.append((f"{on_ek}{_BASLIK_TURU[m.group(1)]} {re.sub(r'\s+', '', m.group(2))}", []))
+            baslik = _kenar_basligini_ayir(bloklar[-1][1])
+            bloklar.append((f"{on_ek}{_BASLIK_TURU[m.group(1)]} {re.sub(r'\s+', '', m.group(2))}", baslik))
         bloklar[-1][1].append(s)
     out = [f"{ad}: {n}" for ad, sat in bloklar for n in degisiklik_notlari(" ".join(sat), en_erken_yil)]
     for k, sat in dipnotlar.items():

@@ -85,3 +85,14 @@ def test_full_text_amendments_recognise_title_case_article_headings():
     satirlar = ["Kasten öldürme", "Madde 81 - (Değişik:24/12/2025-7571/14 md.) (1) Bir insanı", "Geçici Madde 1 - (Ek:7/11/2024-7531/15 md.)"]
     assert arastir.tam_degisiklikler(satirlar, 2024) == ["m. 81: Değişik:24/12/2025-7571/14 md.", "geçici m. 1: Ek:7/11/2024-7531/15 md."]
     assert arastir.tam_metin_satirlari("<p>Madde</p><p>82- Nitelikli</p>") == ["Madde 82- Nitelikli"]
+
+
+def test_full_text_amendments_attach_margin_title_footnote_to_the_following_article():
+    satirlar = ["Madde 219- (1) Din görevlisi cezalandırılır.", "DÖRDÜNCÜ KISIM", "Millete ve Devlete Karşı Suçlar",
+                "BEŞİNCİ BÖLÜM", "Kamu Barışına Karşı Suçlar", "Suç işlemek amacıyla örgüt kurma[92]",
+                "Madde 220- (1) Örgüt kuranlar dört yıldan sekiz yıla", "kadar hapis cezası ile cezalandırılır.",
+                "B. Yarar ve", "hasar", "MADDE 208- Satılanın yarar ve hasarı (Ek:7/11/2024-7531/1 md.)",
+                "[92] 24/12/2025 tarihli ve 7571 sayılı Kanunun 20 nci maddesiyle değiştirilmiştir."]
+    assert arastir.tam_degisiklikler(satirlar, 2024) == [
+        "m. 208: Ek:7/11/2024-7531/1 md.",
+        "m. 220: [92] 24/12/2025 tarihli ve 7571 sayılı Kanunun 20 nci maddesiyle değiştirilmiştir."]
