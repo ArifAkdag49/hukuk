@@ -57,12 +57,12 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 6 | tescil-serh-ve-beyan | yazılıyor | |
 | 7 | tapuya-guven-ve-yolsuz-tescil | yazılıyor | |
 | 8 | mulkiyetin-icerigi-ve-korunmasi | yazılıyor | |
-| 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | yazılıyor | |
+| 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | denetimde | ajan yazdı (kontrol temiz) |
 | 10 | payli-mulkiyet | yazılıyor | |
 | 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | yazılıyor | |
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | yazılıyor | |
 | 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yazılıyor | |
-| 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | bekliyor | |
+| 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | yazılıyor | |
 | 15 | yapi-hukuku-ve-taskin-yapi | bekliyor | |
 | 16 | yasal-onalim-alim-ve-geri-alim | bekliyor | |
 | 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | |
