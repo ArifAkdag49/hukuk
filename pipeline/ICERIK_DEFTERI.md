@@ -44,3 +44,36 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 26 | baglanma-parasi-cayma-parasi-cezai-sart | yazılıyor | |
 | 27 | alacagin-devri | yazılıyor | |
 | 28 | borcun-ustlenilmesi-ve-sozlesmenin-devri | yazılıyor | |
+
+## HUK3011 Eşya Hukuku (28 konu)
+
+| # | slug | durum | not |
+|---|---|---|---|
+| 1 | esya-hukukuna-giris-ve-ilkeler | yazılıyor | |
+| 2 | zilyetlik-kavrami-turleri-ve-devri | yazılıyor | |
+| 3 | zilyetligin-korunmasi-ve-hak-karineleri | yazılıyor | |
+| 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
+| 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
+| 6 | tescil-serh-ve-beyan | yazılıyor | |
+| 7 | tapuya-guven-ve-yolsuz-tescil | bekliyor | |
+| 8 | mulkiyetin-icerigi-ve-korunmasi | bekliyor | |
+| 9 | mulkiyetin-kapsami-butunleyici-parca-eklenti | bekliyor | |
+| 10 | payli-mulkiyet | bekliyor | |
+| 11 | elbirligi-mulkiyeti-ve-ortakligin-giderilmesi | bekliyor | |
+| 12 | tasinmaz-mulkiyetinin-kazanilmasi | bekliyor | |
+| 13 | kazandirici-zamanasimi-isgal-yeni-arazi | bekliyor | |
+| 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | bekliyor | |
+| 15 | yapi-hukuku-ve-taskin-yapi | bekliyor | |
+| 16 | yasal-onalim-alim-ve-geri-alim | bekliyor | |
+| 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | |
+| 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | |
+| 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
+| 20 | tasinmaz-irtifaki | bekliyor | |
+| 21 | intifa-ve-oturma-hakki | bekliyor | |
+| 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bekliyor | |
+| 23 | tasinmaz-rehni-genel-hukumler | bekliyor | |
+| 24 | ipotek-ve-kanuni-ipotek | bekliyor | |
+| 25 | ipotekli-borc-senedi-ve-irat-senedi | bekliyor | |
+| 26 | tasinir-rehni-hak-rehni-ve-hapis-hakki | bekliyor | |
+| 27 | kat-mulkiyeti-kurulus-ve-kat-irtifaki | bekliyor | |
+| 28 | kat-maliklerinin-haklari-borclari-ve-yonetim | bekliyor | |
