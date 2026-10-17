@@ -1,0 +1,120 @@
+# HUK3014 İş Hukuku — 4857 sayılı İş Kanunu (İK); kıdem tazminatı için 1475 sayılı Kanun m. 14;
+# iş uyuşmazlıklarında arabuluculuk için 7036 sayılı İş Mahkemeleri Kanunu; toplu iş hukuku için
+# 6356 sayılı Sendikalar ve Toplu İş Sözleşmesi Kanunu (STİSK); iş sağlığı için 6331.
+# Elle (Claude Code'da) kuruldu: konu sınırları kanunların sistematiğine göre.
+units:
+- title: 'Ünite 1: Temel Kavramlar'
+  topics:
+  - slug: is-hukukuna-giris-isci-isveren-isyeri
+    title: 'İş Hukukuna Giriş: Kaynaklar, İşçi, İşveren, İşveren Vekili, İşyeri ve Kanunun Kapsamı'
+    maddeler: [{kanun: İK, madde: '1'}, {kanun: İK, madde: '2'}, {kanun: İK, madde: '3'}, {kanun: İK, madde: '4'}]
+    ictihat_sorgulari: [işyerine bağlı yerler eklentiler araçlar, iş kanunu kapsamı istisnalar tarım]
+    beceri: is-sozlesmesi-ve-turleri
+  - slug: alt-isveren-iliskisi
+    title: 'Asıl İşveren - Alt İşveren İlişkisi: Şartlar, Muvazaa ve Müteselsil Sorumluluk'
+    maddeler: [{kanun: İK, madde: '2'}, {kanun: İK, madde: '3'}]
+    ictihat_sorgulari: [alt işveren muvazaa asıl işin bölünmesi, asıl işveren alt işveren müteselsil sorumluluk]
+    beceri: is-sozlesmesi-ve-turleri
+  - slug: esit-davranma-isyeri-devri-ve-gecici-is-iliskisi
+    title: Eşit Davranma İlkesi, İşyerinin Devri ve Geçici İş İlişkisi
+    maddeler: [{kanun: İK, madde: '5'}, {kanun: İK, madde: '6'}, {kanun: İK, madde: '7'}]
+    ictihat_sorgulari: [eşit davranma ilkesine aykırılık ayrımcılık tazminatı, işyeri devri devreden işverenin sorumluluğu iki yıl]
+    beceri: ucret-eklenti-esit-davranma
+- title: 'Ünite 2: İş Sözleşmesi'
+  topics:
+  - slug: is-sozlesmesinin-kurulmasi-ve-turleri
+    title: 'İş Sözleşmesi: Kurulma, Şekil ve Türler (Belirli-Belirsiz, Kısmi, Çağrı Üzerine, Deneme Süreli)'
+    maddeler: [{kanun: İK, madde: '8'}, {kanun: İK, madde: '9'}, {kanun: İK, madde: '11'}, {kanun: İK, madde: '12'}, {kanun: İK, madde: '13'}, {kanun: İK, madde: '14'}, {kanun: İK, madde: '15'}]
+    ictihat_sorgulari: [belirli süreli iş sözleşmesi zincirleme objektif neden, deneme süresi iki ay]
+    beceri: is-sozlesmesi-ve-turleri
+  - slug: iscinin-ve-isverenin-borclari
+    title: İşçinin Borçları (İş Görme, Sadakat, Talimata Uyma) ve İşverenin Borçları (Ücret, Gözetme, İşçinin Kişiliğini Koruma)
+    maddeler: [{kanun: TBK, madde: '395'}, {kanun: TBK, madde: '396'}, {kanun: TBK, madde: '399'}, {kanun: TBK, madde: '400'}, {kanun: TBK, madde: '417'}, {kanun: TBK, madde: '419'}]
+    ictihat_sorgulari: [mobbing psikolojik taciz işçinin haklı feshi, işçinin sadakat borcu rekabet]
+    beceri: is-sozlesmesi-ve-turleri
+  - slug: calisma-kosullarinda-esasli-degisiklik
+    title: Çalışma Koşullarında Esaslı Değişiklik ve Yeni İşverenin Sorumluluğu
+    maddeler: [{kanun: İK, madde: '22'}, {kanun: İK, madde: '23'}]
+    ictihat_sorgulari: [çalışma koşullarında esaslı değişiklik yazılı onay altı iş günü, işyeri değişikliği esaslı değişiklik]
+    beceri: fesih-denetim-semasi
+- title: 'Ünite 3: İş Sözleşmesinin Sona Ermesi ve İş Güvencesi'
+  topics:
+  - slug: bildirimli-fesih-ihbar-tazminati-ve-is-arama-izni
+    title: Süreli (Bildirimli) Fesih, İhbar Tazminatı ve İş Arama İzni
+    maddeler: [{kanun: İK, madde: '17'}, {kanun: İK, madde: '27'}]
+    ictihat_sorgulari: [ihbar tazminatı bildirim süreleri peşin ödeme, kötüniyet tazminatı]
+    beceri: kidem-ihbar-tazminati
+  - slug: is-guvencesi-gecerli-sebep-ve-fesih-usulu
+    title: 'İş Güvencesi: Kapsam, Feshin Geçerli Sebebe Dayandırılması ve Fesih Usulü'
+    maddeler: [{kanun: İK, madde: '18'}, {kanun: İK, madde: '19'}]
+    ictihat_sorgulari: [geçerli fesih sebebi performans düşüklüğü, işletmesel karar feshin son çare olması]
+    beceri: is-guvencesi-ve-ise-iade
+  - slug: ise-iade-davasi-ve-sonuclari
+    title: Fesih Bildirimine İtiraz, İşe İade Davası, Dava Şartı Arabuluculuk ve Geçersiz Feshin Sonuçları
+    maddeler: [{kanun: İK, madde: '20'}, {kanun: İK, madde: '21'}, {kanun: '7036', madde: '3'}]
+    ictihat_sorgulari: [işe iade davası bir ay arabuluculuk, işe başlatmama tazminatı boşta geçen süre ücreti]
+    beceri: is-guvencesi-ve-ise-iade
+  - slug: iscinin-hakli-nedenle-derhal-feshi
+    title: İşçinin Haklı Nedenle Derhal Fesih Hakkı ve Hak Düşürücü Süre
+    maddeler: [{kanun: İK, madde: '24'}, {kanun: İK, madde: '26'}]
+    ictihat_sorgulari: [ücretin ödenmemesi işçinin haklı feshi, fazla çalışma ücretinin ödenmemesi haklı fesih]
+    beceri: fesih-denetim-semasi
+  - slug: isverenin-hakli-nedenle-derhal-feshi
+    title: İşverenin Haklı Nedenle Derhal Fesih Hakkı (Sağlık Sebepleri, Ahlak ve İyiniyet Kurallarına Aykırılık, Zorlayıcı Sebepler)
+    maddeler: [{kanun: İK, madde: '25'}, {kanun: İK, madde: '26'}]
+    ictihat_sorgulari: [devamsızlık işverenin haklı feshi, işverenin güvenini kötüye kullanma haklı fesih]
+    beceri: fesih-denetim-semasi
+  - slug: kidem-tazminati
+    title: 'Kıdem Tazminatı: Hak Kazanma Şartları, Hesaplanması, Tavan ve Zamanaşımı'
+    maddeler: [{kanun: '1475', madde: '14'}, {kanun: İK, madde: '120'}, {kanun: İK, madde: '32'}]
+    ictihat_sorgulari: [kıdem tazminatı giydirilmiş ücret, evlilik nedeniyle kadın işçinin feshi kıdem tazminatı]
+    beceri: kidem-ihbar-tazminati
+  - slug: toplu-isci-cikarma-calisma-belgesi-ve-ibraname
+    title: Toplu İşçi Çıkarma, Çalışma Belgesi ve İbraname
+    maddeler: [{kanun: İK, madde: '29'}, {kanun: İK, madde: '28'}, {kanun: TBK, madde: '420'}]
+    ictihat_sorgulari: [toplu işçi çıkarma bildirim otuz gün, ibraname geçerlilik bir ay banka]
+    beceri: ispat-delil-bordro-ibraname
+- title: 'Ünite 4: Ücret, Çalışma Süreleri ve İzinler'
+  topics:
+  - slug: ucret-ve-ucretin-korunmasi
+    title: Ücret, Ücretin Ödenmesi ve Korunması, Ücret Kesme Cezası, Asgari Ücret
+    maddeler: [{kanun: İK, madde: '32'}, {kanun: İK, madde: '34'}, {kanun: İK, madde: '35'}, {kanun: İK, madde: '37'}, {kanun: İK, madde: '38'}, {kanun: İK, madde: '39'}]
+    ictihat_sorgulari: [ücretin gününde ödenmemesi iş görme borcunun ifasından kaçınma, ücret kesme cezası]
+    beceri: ucret-eklenti-esit-davranma
+  - slug: calisma-sureleri-fazla-calisma-ve-telafi
+    title: Çalışma Süresi, Denkleştirme, Fazla Çalışma ve Fazla Sürelerle Çalışma, Telafi Çalışması, Ara Dinlenmesi ve Gece Çalışması
+    maddeler: [{kanun: İK, madde: '41'}, {kanun: İK, madde: '42'}, {kanun: İK, madde: '43'}, {kanun: İK, madde: '63'}, {kanun: İK, madde: '64'}, {kanun: İK, madde: '66'}, {kanun: İK, madde: '68'}, {kanun: İK, madde: '69'}]
+    ictihat_sorgulari: [fazla çalışma ispatı tanık bordro, denkleştirme dönemi iki ay]
+    beceri: iscilik-alacaklari-fazla-mesai-izin
+  - slug: hafta-tatili-genel-tatil-ve-yillik-izin
+    title: Hafta Tatili, Genel Tatil ve Yıllık Ücretli İzin
+    maddeler: [{kanun: İK, madde: '46'}, {kanun: İK, madde: '47'}, {kanun: İK, madde: '53'}, {kanun: İK, madde: '54'}, {kanun: İK, madde: '55'}, {kanun: İK, madde: '56'}, {kanun: İK, madde: '57'}, {kanun: İK, madde: '59'}]
+    ictihat_sorgulari: [yıllık izin ücreti sözleşmenin sona ermesi, ulusal bayram genel tatil çalışma ücreti]
+    beceri: iscilik-alacaklari-fazla-mesai-izin
+  - slug: cocuk-ve-kadin-isciler-analik-izni
+    title: Çalıştırma Yaşı ve Çocuk İşçiler, Yer ve Sualtında Çalıştırma, Gece Çalışması Yasağı, Analık Hâlinde Çalışma ve Süt İzni
+    maddeler: [{kanun: İK, madde: '71'}, {kanun: İK, madde: '72'}, {kanun: İK, madde: '73'}, {kanun: İK, madde: '74'}]
+    ictihat_sorgulari: [doğum izni süt izni, çocuk işçi çalıştırma yasağı]
+    beceri: iscilik-alacaklari-fazla-mesai-izin
+  - slug: is-sagligi-ve-guvenligi-ve-is-kazasi
+    title: İş Sağlığı ve Güvenliği, İş Kazası ve Meslek Hastalığı, İşverenin Tazminat Sorumluluğu
+    maddeler: [{kanun: '6331', madde: '4'}, {kanun: '6331', madde: '13'}, {kanun: '5510', madde: '13'}, {kanun: '5510', madde: '21'}, {kanun: TBK, madde: '417'}]
+    ictihat_sorgulari: [iş kazası işverenin kusur sorumluluğu tazminat, iş kazası SGK rücu]
+    beceri: risk-strateji-iscilik-davasi
+- title: 'Ünite 5: Toplu İş Hukuku'
+  topics:
+  - slug: sendika-ozgurlugu-ve-sendikalar
+    title: 'Sendika Özgürlüğü: Kuruluş, İşkolu, Üyelik ve Güvenceler'
+    maddeler: [{kanun: STİSK, madde: '2'}, {kanun: STİSK, madde: '3'}, {kanun: STİSK, madde: '4'}, {kanun: STİSK, madde: '17'}, {kanun: STİSK, madde: '19'}, {kanun: STİSK, madde: '23'}, {kanun: STİSK, madde: '24'}, {kanun: STİSK, madde: '25'}]
+    ictihat_sorgulari: [sendikal tazminat bir yıllık ücret, işyeri sendika temsilcisinin güvencesi]
+    beceri: sendika-ozgurlugu-ve-guvenceler
+  - slug: toplu-is-sozlesmesi-ve-yetki
+    title: 'Toplu İş Sözleşmesi: Kapsam, Şekil ve Süre, Hükümleri, Yararlanma, Teşmil, Yetki ve Toplu Görüşme'
+    maddeler: [{kanun: STİSK, madde: '33'}, {kanun: STİSK, madde: '34'}, {kanun: STİSK, madde: '35'}, {kanun: STİSK, madde: '36'}, {kanun: STİSK, madde: '39'}, {kanun: STİSK, madde: '40'}, {kanun: STİSK, madde: '41'}, {kanun: STİSK, madde: '43'}, {kanun: STİSK, madde: '46'}, {kanun: STİSK, madde: '47'}]
+    ictihat_sorgulari: [toplu iş sözleşmesinden yararlanma dayanışma aidatı, toplu iş sözleşmesi yetki itirazı]
+    beceri: tis-icerigi-ve-baglanmasi
+  - slug: toplu-is-uyusmazliklari-grev-ve-lokavt
+    title: Toplu İş Uyuşmazlıkları (Arabuluculuk, Yüksek Hakem Kurulu), Grev ve Lokavt
+    maddeler: [{kanun: STİSK, madde: '49'}, {kanun: STİSK, madde: '50'}, {kanun: STİSK, madde: '51'}, {kanun: STİSK, madde: '58'}, {kanun: STİSK, madde: '59'}, {kanun: STİSK, madde: '60'}, {kanun: STİSK, madde: '62'}, {kanun: STİSK, madde: '63'}, {kanun: STİSK, madde: '67'}, {kanun: STİSK, madde: '70'}, {kanun: STİSK, madde: '72'}]
+    ictihat_sorgulari: [kanun dışı grev işverenin haklı feshi, grevin ertelenmesi]
+    beceri: grev-ve-lokavt
