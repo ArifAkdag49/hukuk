@@ -27,7 +27,7 @@ MODEL = "claude-code (elle, araştırmalı)"
 ALIASES = {"IIK": "İİK", "IK": "İK", "IYUK": "İYUK", "ANAYASA": "AY", "MOHUK": "MÖHUK", "STISK": "STİSK"}
 # Kısaltması olmayan kanunlara numarasıyla atıf: "1475 sayılı Kanun m. 14" (maddeler listesinde kanun: '1475')
 KANUN_RE = (r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|KTK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK"
-            r"|STİSK|STISK|\d{3,4}\s+sayılı\s+Kanun(?:un|'un|’un)?)")
+            r"|STİSK|STISK|PVSK|TGYK|\d{3,4}\s+sayılı\s+Kanun(?:un|'un|’un)?)")
 LETTER = r"A-Za-zÇĞİÖŞÜçğıöşü"
 # "53/1-3" = madde 53, fıkra 1, bent 3: eğik çizgiden sonraki "-N" fıkra/bent gösterimidir, madde aralığı değil.
 # Eğik çizgiden sonra tek harf ya ek madde (TCK 123/A, İİK 68/a) ya da Romen fıkradır (56/I); hangisi
