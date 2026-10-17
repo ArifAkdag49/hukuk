@@ -57,8 +57,14 @@ def html_to_text(content: str) -> str:
     content = re.sub(r"</p\s*>", "\n", content, flags=re.I)
     content = re.sub(r"<[^>]+>", "", content)
     content = htmlmod.unescape(content).replace("\xa0", " ")
-    lines = [re.sub(r"\s+", " ", ln).strip() for ln in content.split("\n")]
-    return "\n".join(ln for ln in lines if ln)
+    lines = [ln for ln in (re.sub(r"\s+", " ", ln).strip() for ln in content.split("\n")) if ln]
+    # sondaki kısa, noktalama işaretsiz "III. Ad üzerindeki hak" / "b. Ayıp" satırı sonraki maddenin başlığıdır
+    while len(lines) > 1 and _NEXT_HEADING_RE.match(lines[-1]) and len(lines[-1]) <= 80:
+        lines.pop()
+    return "\n".join(lines)
+
+
+_NEXT_HEADING_RE = re.compile(r"^(?:[IVXLC]+|[a-zçğıöşü])\.\s+\S.*[^.;:,)]$")
 
 
 async def _post(path: str, data: dict) -> Any:
