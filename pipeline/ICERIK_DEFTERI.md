@@ -34,7 +34,7 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 16 | ifa-yeri-zamani-karsilikli-ifa | yüklendi | ajan yazdı, ana oturum soruları ve kilit hükümleri denetledi; sunucuya yüklendi (2026-10-17) |
 | 17 | alacakli-temerrudu | yüklendi | ajan yazdı, ana oturum okudu; sunucuya yüklendi (2026-10-17) |
 | 18 | borca-aykirilik-ve-tazminat | denetimde | ajan yazdı (kontrol temiz) |
-| 19 | borclu-temerrudu-sart-ve-sonuclar | denetimde | ajan yazdı (kontrol temiz) |
+| 19 | borclu-temerrudu-sart-ve-sonuclar | bitti | ajan yazdı; denetçi kanuni faiz yürürlüğünü (31.7.2026) düzeltti; yerelde yüklendi |
 | 20 | karsilikli-sozlesmelerde-secimlik-haklar | denetimde | ajan yazdı (kontrol temiz) |
 | 21 | imkansizlik-ve-asiri-ifa-guclugu | denetimde | ajan yazdı (kontrol temiz) |
 | 22 | sona-erme-halleri-ve-takas | yazılıyor | |
