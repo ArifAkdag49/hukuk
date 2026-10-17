@@ -49,7 +49,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 
 | # | slug | durum | not |
 |---|---|---|---|
-| 1 | esya-hukukuna-giris-ve-ilkeler | denetimde | ajan yazdı (kontrol temiz) |
+| 1 | esya-hukukuna-giris-ve-ilkeler | bitti | ajan yazdı; denetçi ehliyetsizlikte TMK m. 1023 tartışmasını ekledi (HGK 2026); yerelde yüklendi |
 | 2 | zilyetlik-kavrami-turleri-ve-devri | yazılıyor | |
 | 3 | zilyetligin-korunmasi-ve-hak-karineleri | yazılıyor | |
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | yazılıyor | |
