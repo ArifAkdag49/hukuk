@@ -135,7 +135,7 @@ async def mufredat(course_id: str, bekle: float = 0.3) -> tuple[int, int, list[s
             metin = d.get("metin") or ""
             if not metin:
                 sorunlar.append(f"{kanun} m. {no}: {d.get('uyari') or 'metin yok'}")
-            elif re.search(r"\bMülga\b", metin[:300]):
+            elif re.search(r"MADDE\s+[0-9/A-Za-z]+\s*[-–]\s*\((?:Mülga|İptal)\b", metin[:400], flags=re.I):
                 sorunlar.append(f"{kanun} m. {no}: mülga görünüyor")
             if not cached:
                 await asyncio.sleep(bekle)
