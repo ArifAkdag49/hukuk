@@ -69,8 +69,21 @@ def test_ranges_and_lists_are_all_checked():
 
 def test_paragraph_item_notation_is_not_read_as_a_second_article():
     # "m. 53/1-3" = 53. madde 1. fıkra 3. bent; 3. madde değil
-    assert elle.refs_in("TBK m. 53/1-3 ve TBK m. 54/1-4; ayrıca m. 53/1-2", "TBK") == {("TBK", "53"), ("TBK", "54")}
-    assert elle.refs_in("TBK m. 53-56", "TBK") == {("TBK", "53"), ("TBK", "56")}
+    assert elle.refs_in("TBK m. 53/1-3 ve TBK m. 54/1-4; ayrıca m. 53/1-2", "TBK") == {("TBK", "53", None), ("TBK", "54", None)}
+    assert elle.refs_in("TBK m. 53-56", "TBK") == {("TBK", "53", None), ("TBK", "56", None)}
+
+
+def test_single_letter_after_slash_is_kept_for_lettered_articles():
+    assert elle.refs_in("TCK m. 123/A, İİK m. 68/a ve m. 56/I", "TCK") == {
+        ("TCK", "123", "A"), ("İİK", "68", "a"), ("TCK", "56", "I")}
+
+
+def test_lettered_article_must_be_listed_but_roman_paragraph_uses_base_article():
+    metin = {**METIN, ("TBK", "55/A"): {"kanun": "TBK", "kanun_no": "6098", "madde_no": "55/A", "metin": "MADDE 55/A- ...", "kaynak": "u"}}
+    t = taslak(maddeler=[{"kanun": "TBK", "madde": "53"}, {"kanun": "TBK", "madde": "54"}, {"kanun": "TBK", "madde": "55/A"}],
+               anlatim=kelime(1300) + " TBK m. 55/A ile TBK m. 53/I birlikte; ama TBK m. 56/A listede yok.")
+    _, hatalar, _ = elle.kontrol_et("HUK2011", t, PLAN, metin, KUNYE)
+    assert hatalar == ["anlatim: TBK m. 56/A atfı var ama maddeler listesinde yok"]
 
 
 def test_yaml_on_key_is_card_front():

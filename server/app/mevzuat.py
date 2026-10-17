@@ -24,7 +24,7 @@ LAWS: dict[str, str] = {
     "KAMULASTIRMA": "2942", "IMAR": "3194", "İMAR": "3194", "KABAHATLER": "5326",
     "CGTIHK": "5275", "CGTİHK": "5275", "KVKK": "6698", "MOHUK": "5718", "MÖHUK": "5718",
     "HUAK": "6325", "AVUKATLIK": "1136", "NOTERLIK": "1512", "TAPU": "2644",
-    "SENDIKALAR": "6356", "BASIN": "5187", "PVSK": "2911",
+    "SENDIKALAR": "6356", "BASIN": "5187", "PVSK": "2911", "KTK": "2918",
 }
 
 _mevzuat_cache: dict[str, dict] = {}
@@ -59,13 +59,51 @@ def html_to_text(content: str) -> str:
     content = re.sub(r"<[^>]+>", "", content)
     content = htmlmod.unescape(content).replace("\xa0", " ")
     lines = [ln for ln in (re.sub(r"\s+", " ", ln).strip() for ln in content.split("\n")) if ln]
-    # sondaki kısa, noktalama işaretsiz "III. Ad üzerindeki hak" / "b. Ayıp" satırı sonraki maddenin başlığıdır
+    lines, notes = _split_footnotes(lines)
+    # sondaki kısa, noktalama işaretsiz "III. Ad üzerindeki hak" / "b. Ayıp" / "B) Çeşitli hükümler"
+    # satırı sonraki maddenin başlığıdır
     while len(lines) > 1 and _NEXT_HEADING_RE.match(lines[-1]) and len(lines[-1]) <= 80:
         lines.pop()
-    return "\n".join(lines)
+    return "\n".join(lines + notes)
 
 
-_NEXT_HEADING_RE = re.compile(r"^(?:[IVXLC]+|[a-zçğıöşü])\.\s+\S.*[^.;:,)]$")
+_NEXT_HEADING_RE = re.compile(
+    r"^(?:[IVXLC]+\.|[a-zçğıöşü]\.|[A-ZÇĞİÖŞÜ]\)|[IVXLC]+\s*[-–])\s+\S.*[^.;:,)]$"
+)
+_FOOTNOTE_RE = re.compile(r"^\[\d+\]\s")
+
+
+def _split_footnotes(lines: list[str]) -> tuple[list[str], list[str]]:
+    """Sondaki "[7] ... değiştirilmiştir." dipnotlarını ayırır (metin, dipnotlar)."""
+    i = len(lines)
+    while i > 0 and _FOOTNOTE_RE.match(lines[i - 1]):
+        i -= 1
+    return lines[:i], lines[i:]
+_EK_RE = re.compile(r"^(\d+)\s*/\s*([A-Za-zÇĞİÖŞÜçğıöşü])$")
+
+
+def _is_heading(line: str) -> bool:
+    return 0 < len(line) <= 80 and not re.search(r"[.;:,)]$", line) and not line.startswith("(") \
+        and not re.match(r"^MADDE\b", line, flags=re.I)
+
+
+def split_ek_maddeler(text: str, no: str) -> tuple[str, dict[str, str]]:
+    """bedesten harfli ek maddeleri (TCK 123/A gibi) ana maddenin belgesinin sonuna ekliyor.
+    Dönen: (ana maddenin metni, {harf: ek maddenin metni}); ek maddenin başlığı onunla gider."""
+    lines, notes = _split_footnotes(text.split("\n"))
+    starts: list[tuple[int, str]] = []
+    for i, ln in enumerate(lines):
+        m = re.match(rf"^MADDE\s+{re.escape(no)}\s*/\s*([A-Za-zÇĞİÖŞÜçğıöşü])\s*[-–]", ln, flags=re.I)
+        if m:
+            starts.append((i - 1 if i > 0 and _is_heading(lines[i - 1]) else i, m.group(1)))
+    if not starts:
+        return text, {}
+    ekler = {}
+    for j, (s, harf) in enumerate(starts):
+        e = starts[j + 1][0] if j + 1 < len(starts) else len(lines)
+        ekler[harf] = "\n".join(lines[s:e]).strip()
+    # dipnotlar ana maddenin fıkralarına aittir; onunla kalır
+    return "\n".join(lines[: starts[0][0]] + notes).strip(), ekler
 
 
 # Servis yoğunlukta 429 (hız sınırı) ya da 502-504 dönebiliyor, bağlantı da kopabiliyor: bekleyip yeniden denenir.
@@ -150,15 +188,27 @@ async def madde_getir(kanun: str, madde_no: str | int) -> dict:
     law = await _find_law(no)
     if law is None:
         return {"kanun": kanun, "madde_no": madde_no, "metin": None, "uyari": "Kanun bulunamadı"}
-    arts = [a for a in await _articles(law["mevzuatId"]) if _match(a, madde_no)]
+    all_arts = await _articles(law["mevzuatId"])
+    arts = [a for a in all_arts if _match(a, madde_no)]
+    ek = _EK_RE.match(madde_no.strip()) if not arts else None
+    if ek:  # harfli ek madde ağaçta yok; ana maddenin belgesinin içinde
+        arts = [a for a in all_arts if _match(a, ek.group(1))]
+    yok = {
+        "kanun": law["mevzuatAdi"], "kanun_no": no, "madde_no": madde_no, "metin": None,
+        "uyari": "Madde bulunamadı (numara yanlış ya da mülga olabilir)", "kaynak": law.get("url"),
+    }
     if not arts:
-        return {
-            "kanun": law["mevzuatAdi"], "kanun_no": no, "madde_no": madde_no, "metin": None,
-            "uyari": "Madde bulunamadı (numara yanlış ya da mülga olabilir)", "kaynak": law.get("url"),
-        }
+        return yok
     data = await _post("getDocumentContent", {"documentType": "MADDE", "id": arts[0]["maddeId"]})
 
     metin = html_to_text(base64.b64decode(data["content"]).decode("utf-8", errors="replace"))
+    base, ekler = split_ek_maddeler(metin, ek.group(1) if ek else madde_no)
+    if ek:
+        metin = next((v for k, v in ekler.items() if k.casefold() == ek.group(2).casefold()), None)
+        if not metin:
+            return yok
+    else:
+        metin = base
     return {
         "kanun": law["mevzuatAdi"], "kanun_no": no, "madde_no": madde_no, "metin": metin,
         "kaynak": law.get("url"),

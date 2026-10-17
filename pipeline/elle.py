@@ -25,14 +25,17 @@ TASLAK = ROOT / "pipeline" / "taslak"
 MODEL = "claude-code (elle, araştırmalı)"
 
 ALIASES = {"IIK": "İİK", "IK": "İK", "IYUK": "İYUK", "ANAYASA": "AY", "MOHUK": "MÖHUK"}
-KANUN_RE = r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK)"
+KANUN_RE = r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|KTK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK)"
 LETTER = r"A-Za-zÇĞİÖŞÜçğıöşü"
-# "53/1-3" = madde 53, fıkra 1, bent 3: eğik çizgiden sonraki "-N" fıkra/bent gösterimidir, madde aralığı değil
-SUB = r"(?:/[0-9a-zA-Z]+(?:[-–][0-9a-zA-Z]+)?)?"
+# "53/1-3" = madde 53, fıkra 1, bent 3: eğik çizgiden sonraki "-N" fıkra/bent gösterimidir, madde aralığı değil.
+# Eğik çizgiden sonra tek harf ya ek madde (TCK 123/A, İİK 68/a) ya da Romen fıkradır (56/I); hangisi
+# olduğu maddeler listesine bakılarak çözülür.
+SUB = rf"(?:/[0-9{LETTER}]+(?:[-–][0-9{LETTER}]+)?)?"
+ITEM_RE = re.compile(rf"(?<![/\d])(\d+)(?:/([0-9{LETTER}]+)(?:[-–][0-9{LETTER}]+)?)?")
 REF_RE = re.compile(
     rf"(?<![{LETTER}]){KANUN_RE}\s+md?\.\s*((?:\d+{SUB}(?:\s*(?:,|ve|veya|ile|-|–)\s*(?=\d))?)+)"
 )
-BARE_RE = re.compile(rf"(?<![{LETTER}.])m\.\s*(\d+)")
+BARE_RE = re.compile(rf"(?<![{LETTER}.])m\.\s*(\d+)(?:/([0-9{LETTER}]+))?")
 OPTION_LETTER_RE = re.compile(r"\b[A-D]\s*şık|\bşık(?:kı)?\s*[A-D]\b|\b[A-D]\)\s", re.IGNORECASE)
 
 MIN = {"ozet": 150, "anlatim": 1200, "cozum": 150, "karar_ozet": 25}
@@ -48,18 +51,23 @@ def words(s: str) -> int:
     return len((s or "").split())
 
 
-def refs_in(text: str, primary: str | None) -> set[tuple[str, str]]:
-    """Metindeki (kanun, madde) atıfları; çıplak 'm. N' konunun ana kanununa sayılır."""
-    found: set[tuple[str, str]] = set()
+def _harf(sub: str | None) -> str | None:
+    return sub if sub and len(sub) == 1 and sub.isalpha() else None
+
+
+def refs_in(text: str, primary: str | None) -> set[tuple[str, str, str | None]]:
+    """Metindeki (kanun, madde, tek harf) atıfları; çıplak 'm. N' konunun ana kanununa sayılır.
+    Üçüncü öğe eğik çizgiden sonraki tek harftir (ek madde ya da Romen fıkra), yoksa None."""
+    found: set[tuple[str, str, str | None]] = set()
     spans = []
     for m in REF_RE.finditer(text or ""):
         spans.append(m.span())
-        for num in re.findall(rf"(?<![/\d])(\d+){SUB}", m.group(2)):
-            found.add((canon(m.group(1)), num))
+        for num, sub in ITEM_RE.findall(m.group(2)):
+            found.add((canon(m.group(1)), num, _harf(sub)))
     if primary:
         for m in BARE_RE.finditer(text or ""):
             if not any(a <= m.start() < b for a, b in spans):
-                found.add((primary, m.group(1)))
+                found.add((primary, m.group(1), _harf(m.group(2))))
     return found
 
 
@@ -102,9 +110,12 @@ def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: di
             hatalar.append(f"{k} m. {n}: resmî metin alınamadı (numara yanlış ya da mülga olabilir)")
 
     listed = set(maddeler)
+    listed_cf = {(k, n.casefold()) for k, n in maddeler}
     for alan, metin in _texts(t):
-        for k, n in sorted(refs_in(metin, primary) - listed):
-            hatalar.append(f"{alan}: {k} m. {n} atfı var ama maddeler listesinde yok")
+        for k, n, harf in sorted(refs_in(metin, primary), key=lambda r: (r[0], r[1], r[2] or "")):
+            if (harf and (k, f"{n}/{harf}".casefold()) in listed_cf) or (k, n) in listed:
+                continue
+            hatalar.append(f"{alan}: {k} m. {n}{'/' + harf if harf else ''} atfı var ama maddeler listesinde yok")
 
     # uzunluklar ve sayılar
     if words(t.get("ozet", "")) < MIN["ozet"]:
