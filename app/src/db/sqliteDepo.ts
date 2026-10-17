@@ -87,10 +87,22 @@ type Row = Record<string, unknown>;
 
 export class SqliteDepo implements Depo {
   private db: SQLite.SQLiteDatabase | null = null;
+  // Tek bağlantı, sıralı yazım: aynı bağlantıdaki async sorgular açık bir işleme (transaction)
+  // karışabilir. İşlemler, yazımlar ve KB okumaları bu kuyruktan sırayla geçer; KB değişimi
+  // sürerken öğrencinin quiz/kart yazımı bekler, işleme karışıp onunla geri alınmaz.
+  // withExclusiveTransactionAsync ikinci bağlantı açıyor ve Android'de (Expo Go) prepareAsync
+  // NullPointerException veriyor; bu yüzden kullanılmıyor.
+  private tail: Promise<unknown> = Promise.resolve();
 
   private get conn(): SQLite.SQLiteDatabase {
     if (!this.db) throw new Error("Depo açılmadı");
     return this.db;
+  }
+
+  private serial<T>(fn: () => Promise<T>): Promise<T> {
+    const run = this.tail.then(fn);
+    this.tail = run.catch(() => undefined);
+    return run;
   }
 
   async init() {
@@ -103,15 +115,22 @@ export class SqliteDepo implements Depo {
     const r = await this.conn.getFirstAsync<{ value: string | null }>("SELECT value FROM meta WHERE key = ?", key);
     return r?.value ?? null;
   }
-  async setMeta(key: string, value: string | null) {
-    if (value === null) await this.conn.runAsync("DELETE FROM meta WHERE key = ?", key);
-    else await this.conn.runAsync("INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)", key, value);
+  setMeta(key: string, value: string | null) {
+    return this.serial(async () => {
+      if (value === null) await this.conn.runAsync("DELETE FROM meta WHERE key = ?", key);
+      else await this.conn.runAsync("INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)", key, value);
+    });
   }
 
-  async replaceKb(kb: KbExport) {
-    // Özel (exclusive) işlem: uzun KB değişimi sürerken öğrencinin quiz/kart yazımları bu işleme
-    // karışmasın; aksi halde değişim geri alınırsa ilerleme de sessizce kaybolur.
-    await this.conn.withExclusiveTransactionAsync(async (db) => {
+  replaceKb(kb: KbExport) {
+    // Sıralı kuyruk sayesinde uzun KB değişimi sürerken başka yazım bu işleme karışmaz; aksi
+    // halde değişim geri alınırsa öğrencinin ilerlemesi de sessizce kaybolurdu.
+    return this.serial(() => this.writeKb(kb));
+  }
+
+  private async writeKb(kb: KbExport) {
+    const db = this.conn;
+    await db.withTransactionAsync(async () => {
       await db.execAsync(
         "DELETE FROM courses; DELETE FROM units; DELETE FROM topics; DELETE FROM questions; DELETE FROM flashcards; DELETE FROM comparison_tables;",
       );
@@ -157,7 +176,11 @@ export class SqliteDepo implements Depo {
     });
   }
 
-  async loadKbIndex(): Promise<KbIndexData | null> {
+  loadKbIndex(): Promise<KbIndexData | null> {
+    return this.serial(() => this.readKbIndex());
+  }
+
+  private async readKbIndex(): Promise<KbIndexData | null> {
     const version = await this.getMeta("kb_version");
     if (!version) return null;
     const db = this.conn;
@@ -206,7 +229,11 @@ export class SqliteDepo implements Depo {
     return { version, courses, units, topics, questions, flashcards, tables };
   }
 
-  async getTopic(id: string): Promise<Topic | null> {
+  getTopic(id: string): Promise<Topic | null> {
+    return this.serial(() => this.readTopic(id));
+  }
+
+  private async readTopic(id: string): Promise<Topic | null> {
     const r = await this.conn.getFirstAsync<Row>("SELECT * FROM topics WHERE id = ?", id);
     if (!r) return null;
     return {
@@ -218,11 +245,13 @@ export class SqliteDepo implements Depo {
     };
   }
 
-  async upsertCourse(c: Course) {
-    await this.conn.runAsync(
-      "INSERT OR REPLACE INTO courses VALUES (?, ?, ?, ?, ?, ?)",
-      c.id, c.code ?? c.id, c.name, c.year, c.sort_order, c.is_active ? 1 : 0,
-    );
+  upsertCourse(c: Course) {
+    return this.serial(async () => {
+      await this.conn.runAsync(
+        "INSERT OR REPLACE INTO courses VALUES (?, ?, ?, ?, ?, ?)",
+        c.id, c.code ?? c.id, c.name, c.year, c.sort_order, c.is_active ? 1 : 0,
+      );
+    });
   }
 
   private async enqueue(type: QueueType, payload: QueuePayload) {
@@ -232,7 +261,10 @@ export class SqliteDepo implements Depo {
     );
   }
 
-  async addAttempt(a: Attempt, queue = true) {
+  addAttempt(a: Attempt, queue = true) {
+    return this.serial(() => this.writeAttempt(a, queue));
+  }
+  private async writeAttempt(a: Attempt, queue: boolean) {
     await this.conn.runAsync(
       "INSERT OR REPLACE INTO local_attempts VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
       a.id, a.question_id, a.kind, a.selected_option ?? null, a.answer_text ?? null,
@@ -250,7 +282,10 @@ export class SqliteDepo implements Depo {
     }));
   }
 
-  async addCardReview(rv: CardReview, queue = true) {
+  addCardReview(rv: CardReview, queue = true) {
+    return this.serial(() => this.writeCardReview(rv, queue));
+  }
+  private async writeCardReview(rv: CardReview, queue: boolean) {
     await this.conn.runAsync(
       "INSERT OR REPLACE INTO local_card_reviews VALUES (?, ?, ?, ?)",
       rv.id, rv.card_id, rv.grade, rv.reviewed_at,
@@ -264,7 +299,10 @@ export class SqliteDepo implements Depo {
     }));
   }
 
-  async putCardState(s: CardState, queue = true) {
+  putCardState(s: CardState, queue = true) {
+    return this.serial(() => this.writeCardState(s, queue));
+  }
+  private async writeCardState(s: CardState, queue: boolean) {
     await this.conn.runAsync(
       "INSERT OR REPLACE INTO local_card_states VALUES (?, ?, ?, ?, ?, ?, ?)",
       s.card_id, s.ease, s.interval_days, s.repetitions, s.due_at, s.last_grade, s.updated_at,
@@ -280,28 +318,34 @@ export class SqliteDepo implements Depo {
     }));
   }
 
-  async importProgress(p: ProgressPayload) {
+  importProgress(p: ProgressPayload) {
+    return this.serial(() => this.writeProgress(p));
+  }
+  private async writeProgress(p: ProgressPayload) {
     const db = this.conn;
     await db.withTransactionAsync(async () => {
-      for (const a of p.attempts) await this.addAttempt(a, false);
-      for (const r of p.card_reviews) await this.addCardReview(r, false);
+      for (const a of p.attempts) await this.writeAttempt(a, false);
+      for (const r of p.card_reviews) await this.writeCardReview(r, false);
       for (const s of p.card_states) {
         const cur = await db.getFirstAsync<{ updated_at: string }>(
           "SELECT updated_at FROM local_card_states WHERE card_id = ?", s.card_id,
         );
-        if (!cur || cur.updated_at < s.updated_at) await this.putCardState(s, false);
+        if (!cur || cur.updated_at < s.updated_at) await this.writeCardState(s, false);
       }
       for (const n of p.topic_notes ?? []) {
-        if (newer(n, await this.getTopicNote(n.topic_id))) await this.putTopicNote(n, false);
+        if (newer(n, await this.getTopicNote(n.topic_id))) await this.writeTopicNote(n, false);
       }
       for (const h of p.highlights ?? []) {
         const cur = await db.getFirstAsync<{ updated_at: string }>("SELECT updated_at FROM highlights WHERE id = ?", h.id);
-        if (newer(h, cur)) await this.putHighlight(h, false);
+        if (newer(h, cur)) await this.writeHighlight(h, false);
       }
     });
   }
 
-  async listTopicTexts(): Promise<TopicText[]> {
+  listTopicTexts(): Promise<TopicText[]> {
+    return this.serial(() => this.readTopicTexts());
+  }
+  private async readTopicTexts(): Promise<TopicText[]> {
     const rows = await this.conn.getAllAsync<Row>(
       "SELECT id, title, course_id, summary_md, content_md, critical_md, doctrine_md, glossary FROM topics ORDER BY sort_order",
     );
@@ -320,7 +364,10 @@ export class SqliteDepo implements Depo {
     const rows = await this.conn.getAllAsync<Row>("SELECT * FROM topic_notes");
     return rows.map((r) => ({ topic_id: String(r.topic_id), body_md: String(r.body_md ?? ""), updated_at: String(r.updated_at) }));
   }
-  async putTopicNote(n: TopicNote, queue = true) {
+  putTopicNote(n: TopicNote, queue = true) {
+    return this.serial(() => this.writeTopicNote(n, queue));
+  }
+  private async writeTopicNote(n: TopicNote, queue: boolean) {
     await this.conn.runAsync(
       "INSERT OR REPLACE INTO topic_notes (topic_id, body_md, updated_at) VALUES (?, ?, ?)",
       n.topic_id, n.body_md, n.updated_at,
@@ -336,7 +383,10 @@ export class SqliteDepo implements Depo {
       block_hash: String(r.block_hash), excerpt: String(r.excerpt ?? ""), deleted: bool(r.deleted), updated_at: String(r.updated_at),
     }));
   }
-  async putHighlight(h: Highlight, queue = true) {
+  putHighlight(h: Highlight, queue = true) {
+    return this.serial(() => this.writeHighlight(h, queue));
+  }
+  private async writeHighlight(h: Highlight, queue: boolean) {
     await this.conn.runAsync(
       "INSERT OR REPLACE INTO highlights (id, topic_id, section, block_hash, excerpt, deleted, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)",
       h.id, h.topic_id, h.section, h.block_hash, h.excerpt, h.deleted ? 1 : 0, h.updated_at,
@@ -351,10 +401,12 @@ export class SqliteDepo implements Depo {
       queued_at: String(r.queued_at), seq: Number(r.seq),
     }));
   }
-  async removeQueue(refs: QueueRef[]) {
-    const db = this.conn;
-    await db.withTransactionAsync(async () => {
-      for (const r of refs) await db.runAsync("DELETE FROM sync_queue WHERE key = ? AND seq = ?", r.key, r.seq);
+  removeQueue(refs: QueueRef[]) {
+    return this.serial(async () => {
+      const db = this.conn;
+      await db.withTransactionAsync(async () => {
+        for (const r of refs) await db.runAsync("DELETE FROM sync_queue WHERE key = ? AND seq = ?", r.key, r.seq);
+      });
     });
   }
   async queueCount() {
@@ -362,9 +414,9 @@ export class SqliteDepo implements Depo {
     return r?.n ?? 0;
   }
 
-  async clearAll() {
-    await this.conn.execAsync(
+  clearAll() {
+    return this.serial(() => this.conn.execAsync(
       "DELETE FROM meta; DELETE FROM courses; DELETE FROM units; DELETE FROM topics; DELETE FROM questions; DELETE FROM flashcards; DELETE FROM comparison_tables; DELETE FROM local_attempts; DELETE FROM local_card_reviews; DELETE FROM local_card_states; DELETE FROM sync_queue; DELETE FROM topic_notes; DELETE FROM highlights;",
-    );
+    ));
   }
 }

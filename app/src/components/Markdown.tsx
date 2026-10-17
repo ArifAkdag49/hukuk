@@ -42,14 +42,27 @@ export function Markdown({
   );
 }
 
-/** Tablolar telefonda sıkışmasın: yatay kaydırılabilir, sabit genişlikli hücreler. */
+const CELL_WIDTH = 150;
+const FIT_COLUMNS = 3;
+
+/** En çok 3 sütunlu tablo ekran genişliğine sığar; daha genişi sabit hücre genişliğiyle yatay kayar. */
 const rules: RenderRules = {
-  table: (node, children, _parent, styles) => (
-    <ScrollView key={node.key} horizontal showsHorizontalScrollIndicator style={{ marginVertical: space.sm }}>
-      <View style={styles._VIEW_SAFE_table}>{children}</View>
-    </ScrollView>
-  ),
+  table: (node, children, _parent, styles) => {
+    const cols = columnCount(node);
+    const wide = cols > FIT_COLUMNS;
+    const table = <View style={[styles._VIEW_SAFE_table, wide && { width: cols * CELL_WIDTH }]}>{children}</View>;
+    if (!wide) return <View key={node.key} style={{ marginVertical: space.sm }}>{table}</View>;
+    return (
+      <ScrollView key={node.key} horizontal showsHorizontalScrollIndicator style={{ marginVertical: space.sm }}>
+        {table}
+      </ScrollView>
+    );
+  },
 };
+
+function columnCount(node: { children?: { children?: { children?: unknown[] }[] }[] }): number {
+  return node.children?.[0]?.children?.[0]?.children?.length ?? 0;
+}
 
 function makeStyles(reading: boolean, accent: string, color: string, compact: boolean) {
   const bodyFont = reading ? fonts.serif : fonts.regular;
@@ -83,9 +96,9 @@ function makeStyles(reading: boolean, accent: string, color: string, compact: bo
     hr: { backgroundColor: colors.line, height: 1, marginVertical: space.md },
     table: { borderWidth: 1, borderColor: colors.line, borderRadius: radius.sm, overflow: "hidden" },
     thead: { backgroundColor: colors.surfaceAlt },
-    th: { padding: space.xs, width: 150 },
+    th: { padding: space.xs, flex: 1, fontFamily: fonts.semibold, fontSize: size - 3, lineHeight: lh - 7 },
     tr: { borderBottomWidth: 1, borderColor: colors.line, flexDirection: "row" },
-    td: { padding: space.xs, width: 150 },
+    td: { padding: space.xs, flex: 1, fontSize: size - 3, lineHeight: lh - 7 },
     text: {},
   });
 }
