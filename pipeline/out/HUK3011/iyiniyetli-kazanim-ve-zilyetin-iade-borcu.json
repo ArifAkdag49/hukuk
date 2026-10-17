@@ -1,0 +1,823 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Eşya Hukukuna Giriş ve Zilyetlik",
+ "topic_index": 4,
+ "slug": "iyiniyetli-kazanim-ve-zilyetin-iade-borcu",
+ "title": "Taşınırlarda İyiniyetli Kazanım ve Zilyetin İade Borcu ile Sorumluluğu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T22:17:39.075223+00:00",
+ "skill_refs": [
+  "esya-hukuku/zilyetlik-ve-korunmasi"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir taşınır malik olmayan birinden iyiniyetle alınmışsa kim malik olur (TMK m. 988-991)? Eşya sonunda geri verilecekse zilyet ile hak sahibi kullanma, hasar, giderler ve ürünler için nasıl hesaplaşır (TMK m. 993-995)? Kazandırıcı zamanaşımında önceki zilyedin süresi eklenir mi (TMK m. 996)?\n\n- **Çıkış noktası:** Taşınırın zilyedi onun maliki sayılır (TMK m. 985). Bir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kişi, devredenin yetkisi olmasa bile, zilyetlik hükümlerinin kazanımı koruduğu hâllerde malik olur (TMK m. 763/2).\n- **Emin sıfatıyla zilyetten edinme (TMK m. 988):** Eşya önceki zilyedin iradesiyle başkasına bırakılmışsa (kira, ödünç, saklama, onarım) ve o kişi eşyayı devretmişse, iyiniyetli edinenin mülkiyet veya sınırlı ayni hak edinimi korunur. Malik, güvendiği kişinin riskine katlanır. Koruma yalnız tasarruf yetkisinin yokluğunu giderir; işlemin diğer geçerlilik şartları tam olmalıdır.\n- **İrade dışında elden çıkan eşya (TMK m. 989):** Çalınan, kaybolan ya da iradesi dışında başka bir şekilde elinden çıkan eşyanın zilyedi, onu elinde bulunduran herkese karşı, iyiniyetli olsa bile, **beş yıl** içinde taşınır davası açabilir. Eşya açık artırmadan, pazardan ya da benzeri eşya satandan iyiniyetle alınmışsa dava ancak **ödenen bedelin geri verilmesi** koşuluyla açılır.\n- **Para ve hamile yazılı senetler (TMK m. 990):** İrade dışında elden çıkmış olsalar bile iyiniyetli edinene karşı taşınır davası açılamaz.\n- **İyiniyetsiz edinen (TMK m. 991):** Önceki zilyet ona karşı her zaman dava açabilir. Önceki zilyet de iyiniyetsizse sonraki zilyede karşı taşınır davası açamaz.\n- **İyiniyetli zilyet (TMK m. 993-994):** Kullanma için tazminat ödemez; kayıp, yok olma ve hasardan sorumlu değildir. Zorunlu ve yararlı giderlerini ister ve ödeninceye kadar şeyi geri vermekten kaçınır. Diğer giderleri isteyemez; karşılık önerilmezse zararsızca ayrılabilen eklemeleri söküp alır. Elde ettiği ürünler gider alacağına mahsup edilir.\n- **İyiniyetsiz zilyet (TMK m. 995):** Haksız alıkoymanın verdiği zararları ve elde ettiği ya da elde etmeyi ihmal ettiği ürünleri öder. Giderlerden yalnız hak sahibi için de zorunlu olanları ister. Şeyi kime vereceğini bilmediği sürece yalnız kusuruyla verdiği zarardan sorumludur.\n- **Zilyetliklerin eklenmesi (TMK m. 996):** Kazandırıcı zamanaşımından yararlanabilecek zilyet, kendisine devreden de aynı yetkiye sahipse onun süresini kendi süresine ekler.\n- **Uygulama:** Yargıtay'ın güncel çizgisine göre trafikte kayıtlı motorlu araçlar, noter satışı şartı nedeniyle TMK m. 988 korumasının dışındadır (KTK m. 20'nin (d) bendi). Konu tartışmalıdır. Ecrimisilin ayrıntısı 8. konuda.",
+  "content_md": "## 0. Konunun haritası\n\nBu konu iki ayrı soruyu cevaplar:\n1. **Kim malik?** Malik olmayan biri bir taşınırı satmış ya da rehnetmişse iyiniyetli edinen korunur mu? (TMK m. 988-991)\n2. **Geri verirken hesap nasıl görülür?** Zilyet şeyi hak sahibine geri vermek zorundaysa kullanma, hasar, giderler ve ürünler için kim kime ne öder? (TMK m. 993-995)\n\nSon olarak TMK m. 996, kazandırıcı zamanaşımında zilyetlik sürelerinin eklenmesini düzenler.\n\n| Durum | Madde | Sonuç |\n|---|---|---|\n| Emin sıfatıyla zilyetten edinme | TMK m. 988 | İyiniyetli edinen korunur |\n| Çalınan, kaybolan eşya | TMK m. 989 | 5 yıl herkese karşı dava |\n| Para, hamile yazılı senet | TMK m. 990 | İyiniyetli edinen korunur |\n| İyiniyetsiz edinen | TMK m. 991 | Her zaman dava |\n\n> 💡 **Püf nokta:** Olayda ilk soru şudur: eşya önceki zilyedin elinden **nasıl** çıktı? Kendi iradesiyle verdiyse TMK m. 988, iradesi dışında çıktıysa TMK m. 989. Ardından edinenin iyiniyetine bakılır.\n\n## 1. Temel fikir: zilyetliğe güven ve riskin paylaştırılması\n\nTaşınırlarda tapu gibi bir sicil yoktur. Bir taşınırın kime ait olduğunu dışarıya gösteren işaret zilyetliktir. Kanun bu yüzden taşınırın zilyedini onun maliki sayar (TMK m. 985; karinelerin ayrıntısı 3. konuda). Bu görünüşe güvenen kişi hiç korunmasaydı kimse ikinci el bir eşyayı gönül rahatlığıyla alamazdı.\n\nÖte yandan kural olarak kimse sahip olmadığı bir hakkı devredemez. Kanun iki menfaati şöyle dengeler: TMK m. 763/2'ye göre bir taşınırın zilyetliğini **iyiniyetle ve malik olmak üzere** devralan kişi, devredenin mülkiyeti devir yetkisi olmasa bile, **zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde** o şeyin maliki olur. Bu hâller TMK m. 988-991'de sayılmıştır.\n\nPaylaştırmanın ölçütü risktir. Yargıtay Hukuk Genel Kurulu bunu şöyle açıklar: eşyasını başkasına güvenip bırakan kişi, onun eşyayı başkasına geçirmesi tehlikesini bir ölçüde göze almıştır. Eşyası rızası dışında elinden çıkan kişi ise böyle bir riske katlanmamıştır. Bu yüzden iyiniyetli edinen birinci durumda malike tercih edilir, ikincisinde edilmez.\n\n### 1.1 Taşınır davası nedir?\nTMK m. 988-991'in sözünü ettiği **taşınır davası**, önceki zilyedin eşyayı şimdiki zilyetten geri istediği, **zilyetliğe dayanan bir hak davasıdır**. Davacı mülkiyetini ispatlamak zorunda değildir. Eşyanın önceki zilyedi olduğunu ve eşyanın elinden iradesi dışında çıktığını ya da davalının iyiniyetsiz olduğunu ispatlar. Davalı zilyet ise kendisine karşı açılan her davada üstün hakka sahip olduğu karinesine dayanabilir (TMK m. 987).\n\n| Dava | Dayanak | Kısa not |\n|---|---|---|\n| Gasp ve saldırı davası | TMK m. 981-984 | Hak tartışılmaz (3. konu) |\n| Taşınır davası | TMK m. 988-991 | Önceki zilyetlik ve iyiniyet |\n| İstihkak davası | TMK m. 683 | Mülkiyet ispatı (8. konu) |\n\n> ⚠️ **Sınavda dikkat:** TMK m. 988'in şartları gerçekleşmişse edinen malik olmuştur. Eski malik bu durumda ne taşınır davasıyla ne de istihkak davasıyla sonuç alabilir. Dava türünü değiştirmek sonucu değiştirmez.\n\n## 2. Emin sıfatıyla zilyetten iyiniyetle edinme (TMK m. 988)\n\n> 📌 **Kesin bilgi (TMK m. 988):** Bir taşınırın emin sıfatıyla zilyedinden o şey üzerinde iyiniyetle mülkiyet veya sınırlı aynî hak edinen kimsenin edinimi, zilyedin bu tür tasarruflarda bulunma yetkisi olmasa bile korunur.\n\n### 2.1 Emin sıfatıyla zilyet kimdir?\n**Emin sıfatıyla zilyet**, eşyanın zilyetliğini önceki zilyedin **iradesiyle** elde etmiş kişidir; eşya ona güvenilerek bırakılmıştır. Tipik örnekler:\n- kiracı, ödünç alan, saklayan (emanetçi),\n- onarmak için eşyayı alan tamirci, satmak için eşyayı alan komisyoncu,\n- rehin alacaklısı.\n\nBu kişiler çoğu zaman fer'i zilyettir (TMK m. 974). Belirleyici olan, eşyanın onlara önceki zilyedin rızasıyla verilmiş olmasıdır. Zilyetliği devredenin yalnız bir yanılmaya düşmüş olması, eşyanın emanet edilmiş sayılmasına öğretide engel görülmez.\n\n> ⚠️ **Sınavda dikkat:** İradi teslim zinciri bir halkada bile koparsa TMK m. 988 uygulanmaz. Malik bisikletini kiracıya vermiş, bisiklet kiracının elinden çalınmışsa eşya **kiracının** iradesi dışında elden çıkmıştır; hırsızdan alan kişi TMK m. 989'a tabidir. TMK m. 989 \"malik\" değil \"zilyet\" der.\n\n### 2.2 Şartlar\nHukuk Genel Kurulu'nun da benimsediği şartlar şunlardır:\n1. **Konu taşınır olmalı.** Taşınmazlarda güvenin dayanağı zilyetlik değil tapu kaydıdır (TMK m. 1023; ayrıntısı 7. konuda).\n2. **Devreden emin sıfatıyla zilyet olmalı.** Eşya önceki zilyedin iradesiyle onun eline geçmiş olmalı.\n3. **Tek eksiklik tasarruf yetkisi olmalı.** TMK m. 988 yalnız devredenin tasarruf yetkisinin yokluğunu tamamlar. Devreden ile edinen arasındaki işlem başka bir sebeple geçersizse (ayırt etme gücünün yokluğu, kanuni şeklin yokluğu, kesin hükümsüzlük) koruma işlemez.\n4. **Edinen üçüncü kişi olmalı ve bir ayni hak edinmeli:** mülkiyet ya da rehin gibi sınırlı ayni hak. Emin sıfatıyla zilyedin mirasçısı bu anlamda üçüncü kişi değildir; mirasbırakanın hukuki durumunu olduğu gibi devralır.\n5. **Zilyetlik edinene devredilmeli.** Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir (TMK m. 763/1). Taşınır rehni de kural olarak zilyetliğin alacaklıya devriyle kurulur (TMK m. 939/1).\n6. **Edinen iyiniyetli olmalı.**\n\n### 2.3 İyiniyet\n- Edinen, devredenin tasarruf yetkisi olmadığını **bilmiyor ve bilmesi de gerekmiyorsa** iyiniyetlidir.\n- **Karine:** Kanunun iyiniyete sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır (TMK m. 3/1). Kötüniyeti, eşyayı geri isteyen ispatlar.\n- **Özen:** Durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz (TMK m. 3/2). Piyasa değerinin çok altında bir fiyat, satıcının durumuyla uyuşmayan değerli eşya, aceleci ve gizli satış şüphe uyandıran işaretlerdir.\n- **An:** İyiniyet zilyetliğin devralındığı anda aranır. Edinen gerçeği sonradan öğrenirse kazanımı bozulmaz.\n\n> **Örnek:** Nazlı, gitarını bir aylığına arkadaşı Okan'a ödünç verir. Okan gitarı kendi malıymış gibi, piyasa fiyatına Tuna'ya satıp teslim eder. Tuna'nın şüphelenmesini gerektiren bir durum yoktur. Okan emin sıfatıyla zilyettir, Tuna iyiniyetlidir. Tuna gitarın maliki olur ve Nazlı gitarı ondan geri alamaz.\n\n### 2.4 Sonuç\n- Edinen mülkiyeti ya da sınırlı ayni hakkı kazanır. Eski malikin mülkiyeti sona erer ya da rehinle yüklenir.\n- Eski malik zararını **emin sıfatıyla zilyetten** ister: sözleşmeye aykırılık, haksız fiil (TBK m. 49) ya da elde edilen satış bedeli için sebepsiz zenginleşme (TBK m. 77). Ayrıntısı borçlar hukukunda.\n- Aynı düşünce rehin ve hapis hakkında da vardır. Rehnedende tasarruf yetkisi olmasa bile rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır (TMK m. 939/2). Alacaklı, borçluya ait olmayan taşınırlar üzerinde de zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkına sahip olur (TMK m. 950/3). Ayrıntısı 26. konuda.\n\n> **Örnek:** Tamirci Serdar, onarım için kendisine bırakılan antika saati kendi borcuna karşılık alacaklısı Hülya'ya rehin olarak teslim eder. Hülya saatin Serdar'a ait olduğuna iyiniyetle inanmaktadır. Hülya rehin hakkını kazanır. Saatin maliki saati Hülya'dan rehinden kurtulmuş olarak isteyemez; zararını Serdar'dan ister.\n\n### 2.5 Motorlu araçlar: özel durum\nTrafikte kayıtlı araçların her türlü satış ve devri noterde yapılır; noterler tarafından yapılmayan satış ve devirler geçersizdir (KTK m. 20'nin (d) bendi). Yargıtay Hukuk Genel Kurulu 2021'de bundan şu sonucu çıkardı:\n- Noter satışı, araç sahibi adına düzenlenmiş tescil belgesi veya trafik kayıtları esas alınarak yapılır. Aracı malikin rızasıyla elinde bulunduran kişi bu şartı sağlayamaz ve geçerli bir devir sözleşmesi yapamaz.\n- Devredenin yetkisizliği dışında ayrıca bir geçersizlik sebebi bulunduğundan motorlu araç mülkiyeti TMK m. 988'e göre iyiniyetle kazanılamaz.\n- Trafik siciline, tapu sicilindeki gibi bir güven koruması tanınmamıştır.\n\nSonraki daire kararları bu çizgiyi izlemektedir. Hukuk Genel Kurulu'nun daha eski bir kararı ve öğretinin bir kısmı farklı düşünür (doktrin bölümü).\n\n> ⚠️ **Sınavda dikkat:** Olayda trafikte kayıtlı bir araç varsa genel kuralı (TMK m. 988-989) anlattıktan sonra noter satışı şartını ve Yargıtay'ın bu konudaki yaklaşımını ayrıca belirt.\n\n## 3. İradesi dışında elden çıkan eşya (TMK m. 989)\n\n### 3.1 Kural\nTaşınırı çalınan, kaybolan ya da iradesi dışında başka herhangi bir şekilde elinden çıkan zilyet, o şeyi elinde bulunduran **herkese karşı beş yıl içinde** taşınır davası açabilir (TMK m. 989/1).\n- \"Herkes\" iyiniyetli edinenleri de kapsar. Bu süre içinde iyiniyetli edinen, eşyayı geri vermekten kurtulamaz.\n- İrade dışı çıkışın tipik örnekleri: hırsızlık, kaybetme, unutma, zorla alma.\n- **Süre:** Kanun sürenin başlangıcını açıkça yazmaz. Öğretide süre, eşyanın zilyedin elinden çıktığı tarihten başlatılır ve hak düşürücü süre olarak nitelendirilir.\n- Süre dolunca taşınır davası açılamaz. Sürenin dolmasının mülkiyete dayanan istihkak davasına etkisi tartışmalıdır (doktrin bölümü). İyiniyetli zilyet ayrıca TMK m. 777'deki kazandırıcı zamanaşımı şartlarını tamamlamışsa malik olur (ayrıntısı 19. konuda).\n\n> **Örnek:** Leyla'nın kemanı 10.03.2024'te konser salonundan çalınır. Hırsız kemanı kendi malıymış gibi, bir tanıdığı aracılığıyla elden ve piyasa fiyatına Murat'a satar. Murat iyiniyetlidir. Leyla kemanı 2026'da Murat'ta görür ve taşınır davası açar. Murat kemanı geri verir; iyiniyetli olması sonucu değiştirmez. Ödediği bedeli Leyla'dan isteyemez, satıcısına (hırsıza) başvurur.\n\n### 3.2 Ayrık durum: açık artırma, pazar, benzeri eşya satan (TMK m. 989/2)\nTaşınır açık artırmadan veya pazardan ya da benzeri eşya satanlardan iyiniyetle edinilmişse, iyiniyetli birinci ve sonraki edinenlere karşı taşınır davası ancak **ödenen bedelin geri verilmesi koşuluyla** açılabilir.\n- **Gerekçe:** Bu yerlerden alışveriş yapan kişiden eşyanın geçmişini araştırması beklenmez; olağan ticaretin güveni korunur.\n- **Edinen yine malik olmaz.** Korunan yalnız ödediği bedeldir. Malik bedeli öder, eşyasını alır; bu bedeli hırsızdan haksız fiil hükümlerine göre ister (TBK m. 49).\n- **Hangi bedel?** Yargıtay, davalının eşyayı edinmek için ödediği bedeli esas alır.\n- **İspat:** Eşyayı açık artırmadan, pazardan ya da benzeri eşya satan birinden aldığını davalı ispatlar. Sıradan bir kişiden alınan eşyada bu koruma yoktur.\n\n> **Örnek:** Hırsız, Leyla'nın kemanını bir müzik aletleri dükkânına satar; dükkân da kemanı 60.000 TL'ye iyiniyetli Selim'e satar. Leyla kemanı Selim'den ancak 60.000 TL'yi ödeyerek geri alabilir. Ödediği tutarı hırsızdan ister.\n\n> ⚠️ **Sınavda dikkat:** Bedel koşulu **yalnız irade dışında elden çıkan** eşya için vardır. Hukuk Genel Kurulu'na göre emin sıfatıyla zilyetten iyiniyetle edinen zaten malik olur; eski malik bedeli ödemeyi önerse bile eşyayı geri alamaz. \"Bedelini öde, geri al\" TMK m. 988'in değil, TMK m. 989/2'nin sonucudur.\n\n### 3.3 Diğer konular (TMK m. 989/3)\nDiğer konularda iyiniyetli zilyedin haklarına ilişkin hükümler uygulanır. Eşyayı geri vermek zorunda kalan iyiniyetli edinen, kullanma, hasar ve giderler bakımından TMK m. 993-994'ten yararlanır (aşağıda 6. bölüm).\n\n### 3.4 Hile ile elden çıkma\nDolandırıcının hilesiyle teslim edilen eşyanın irade dışında çıkmış sayılıp sayılmayacağı tartışmalıdır. Uygulama da tek düze değildir. Hukuk Genel Kurulu bir kararında, dolandırılarak aracını bedelini almadan devreden satıcıyı eşyası iradesi dışında elinden çıkan zilyet saymıştır. Başka kararlarında ise aracını kendini başka bir adla tanıtan kişiye satıp teslim eden ya da kiralayan malik bakımından aracın rızayla elden çıktığını kabul etmiştir. Öğretide hile hâlinde de teslimin iradi olduğunu savunan güçlü bir görüş vardır (doktrin bölümü).\n\n## 4. Para ve hamile yazılı senetler (TMK m. 990)\n\nZilyet, iradesi dışında elinden çıkmış olsa bile para ve hamile yazılı senetleri iyiniyetle edinmiş olan kimseye karşı taşınır davası açamaz (TMK m. 990).\n- Para ve hamile yazılı senetler elden ele dolaşmak için vardır. Her ödemede paranın kaynağının araştırılması beklenemez.\n- Koruma beş yılı beklemez; iyiniyetli edinen hemen korunur.\n- İyiniyetsiz edinen korunmaz (TMK m. 991/1).\n- Kambiyo senetlerinde TTK'nın özel hükümleri vardır: elden çıkan poliçede TTK m. 686/2, elden çıkan çekte TTK m. 792 uyarınca yeni hamil, kural olarak, ancak senedi kötüniyetle edinmişse veya edinmesinde ağır kusuru varsa senedi geri vermekle yükümlüdür. Ayrıntısı ticaret hukukunda.\n\n> **Örnek:** Hırsız, Leyla'nın cüzdanından aldığı 20.000 TL ile bir marketten alışveriş yapar. Market sahibi paranın çalıntı olduğunu bilmemektedir. Leyla banknotları marketten isteyemez; zararını hırsızdan ister.\n\n## 5. İyiniyetle edinmeyen (TMK m. 991)\n\n- Bir taşınırın zilyetliğini iyiniyetle edinmemiş olan kimseye karşı önceki zilyet **her zaman** taşınır davası açabilir (TMK m. 991/1). Eşyanın iradi ya da irade dışı çıkmış olması, beş yıllık süre ve bedel koşulu burada önem taşımaz.\n- Önceki zilyet de zilyetliği iyiniyetle edinmemişse sonraki zilyede karşı taşınır davası açamaz (TMK m. 991/2). Kanun iki kötüniyetli zilyetten birini ötekine tercih etmez.\n- İyiniyetsiz zilyet kazandırıcı zamanaşımından da yararlanamaz, çünkü TMK m. 777 iyiniyet arar.\n\n> **Örnek:** Hırsız Tolga, çaldığı saati çalıntı olduğunu bilen Ufuk'a satar. Saat sekiz yıl sonra Ufuk'ta bulunur. Malik saati Ufuk'tan her zaman isteyebilir. Saati Ufuk'un evinden başka bir hırsız çalarsa Ufuk ona karşı taşınır davası açamaz. Bu, Ufuk'un süresi içinde gasp davası (TMK m. 982) açmasına engel değildir; zilyetliğin korunması 3. konuda.\n\n### 5.1 Kazanım sorusu için denetim şeması\n1. Eşya para ya da hamile yazılı senet mi? Evetse TMK m. 990.\n2. Edinen iyiniyetli mi (TMK m. 3)? Değilse TMK m. 991.\n3. Eşya önceki zilyedin elinden nasıl çıktı? İradiyse TMK m. 988, irade dışıysa TMK m. 989.\n4. **TMK m. 988:** emin sıfatıyla zilyet, tek eksiklik tasarruf yetkisi, zilyetliğin devri. Şartlar tamsa edinen malik olur.\n5. **TMK m. 989:** beş yıl doldu mu? Eşya açık artırmadan, pazardan ya da benzeri eşya satandan mı alındı? Alındıysa bedel koşulu.\n6. Konu trafikte kayıtlı bir araçsa noter satışı şartı ve Yargıtay'ın yaklaşımı.\n\n## 6. Geri verme hesaplaşması: zilyedin sorumluluğu (TMK m. 993-995)\n\n### 6.1 Ne zaman uygulanır?\nZilyet şeyi hak sahibine geri vermekle yükümlü olduğunda: istihkak davası, taşınır davası ya da geçersiz bir sözleşmenin tasfiyesi. Hükümler taşınırlara da taşınmazlara da uygulanır. Hesaplaşma zilyedin iyiniyetine göre ikiye ayrılır.\n- **İyiniyetli zilyet**, zilyetliğe hakkı olduğuna inanan, geri verme yükümlülüğünü bilmeyen ve bilmesi de gerekmeyen kişidir. İyiniyet karinedir (TMK m. 3).\n- İyiniyet, zilyedin geri verme yükümlülüğünü öğrendiği ya da öğrenmesi gerektiği anda sona erer. Kendisine ihtar gönderilmesi veya dava açılması bu anı belirleyen tipik olaylardır. O andan sonraki dönem için TMK m. 995 uygulanır.\n\n### 6.2 İyiniyetli zilyet (TMK m. 993-994)\n1. **Yararlanma:** İyiniyetle zilyedi bulunduğu şeyi karineyle mevcut hakkına uygun şekilde kullanan veya ondan yararlanan zilyet, geri vermekle yükümlü olduğu kimseye bu yüzden tazminat ödemez (TMK m. 993/1). Ecrimisil bakımından sonucu 8. konuda.\n2. **Kayıp ve hasar:** İyiniyetli zilyet şeyin kaybedilmesinden, yok olmasından veya hasara uğramasından sorumlu olmaz (TMK m. 993/2). Kanun bu sorumsuzluğu kusura bağlamamıştır; zilyet şeyi kendi malı sanarak kullanmıştır.\n3. **Zorunlu ve yararlı giderler:** Zilyet, geri vermeyi isteyen kimseden bunların tazminini ister ve tazminat ödeninceye kadar şeyi **geri vermekten kaçınabilir** (TMK m. 994/1).\n4. **Diğer giderler:** Tazminat istenemez. Ancak şeyin geri verilmesinden önce bu giderler için tazminat önerilmezse zilyet, şeyle birleştirdiği ve zararsızca ayrılabilen eklemeleri geri vermeden önce **ayırıp alabilir** (TMK m. 994/2).\n5. **Ürünler:** Zilyedin elde ettiği ürünler, yaptığı giderlerden doğan alacaklarına mahsup edilir (TMK m. 994/3).\n\nKanun gider türlerini tanımlamaz. Uygulamada:\n- **Zorunlu gider**, şeyin varlığını ve değerini korumak için gereken harcamadır (kırık parçanın onarımı, hayvanın tedavisi).\n- **Yararlı gider**, şeyin değerini veya verimini artıran harcamadır.\n- **Diğer (lüks) gider**, kişisel zevk için yapılan ve değer artışı sağlamayan harcamadır.\n\n> **Örnek:** Çalıntı olduğunu bilmeden aldığı antika dolabı evinde kullanan Gamze, dolabın kırık ayağını onartır (zorunlu, 8.000 TL) ve dolabın değerini 12.000 TL artıran özgün tarzda bir kilit takımı taktırır (yararlı, 12.000 TL). Kendi zevkine göre, zararsızca sökülebilen süs aplikleri de ekletir (5.000 TL). Kullanırken dolabın kapağı çizilir. Malik dolabı geri aldığında Gamze kullanma ve çizik için bir şey ödemez. 20.000 TL'yi ister ve ödeninceye kadar dolabı geri vermeyebilir. Aplikler için para isteyemez; malik bir karşılık önermezse onları söküp alabilir.\n\n### 6.3 İyiniyetsiz zilyet (TMK m. 995)\n1. **Zararlar ve ürünler:** Geri vermekle yükümlü olduğu şeyi haksız alıkoyması yüzünden hak sahibine verdiği zararları ve elde ettiği veya elde etmeyi ihmal ettiği ürünleri tazmin eder (TMK m. 995/1).\n2. **Giderler:** Yalnız hak sahibi için de zorunlu olan giderlerinin tazminini isteyebilir (TMK m. 995/2). Yararlı ve lüks giderleri isteyemez. TMK m. 995, iyiniyetli zilyede TMK m. 994/1'de tanınan geri vermekten kaçınma hakkına benzer bir hak öngörmez.\n3. **Kime vereceğini bilmiyorsa:** Şeyi kime geri vereceğini bilmediği sürece ancak kusuruyla verdiği zararlardan sorumlu olur (TMK m. 995/3). Bu fıkranın karşıt anlamından, öteki durumlarda kusurun aranmadığı sonucu çıkarılır. Beklenmedik hâlde sorumluluğun sınırı öğretide tartışmalıdır.\n\n| Konu | İyiniyetli (TMK m. 993-994) | İyiniyetsiz (TMK m. 995) |\n|---|---|---|\n| Kullanma | Tazminat yok | Zarar ve ürün tazmini |\n| Kayıp, hasar | Sorumlu değil | Sorumlu |\n| Zorunlu gider | İster | Hak sahibi için zorunluysa |\n| Yararlı gider | İster | İsteyemez |\n| Lüks gider | Ayırıp alabilir | İsteyemez |\n| Geri vermekten kaçınma | Var | TMK m. 995'te yok |\n\n> ⚠️ **Sınavda dikkat:** Sebepsiz zenginleşmede kötüniyetli zenginleşen yararlı giderlerden geri verme zamanında mevcut olan değer artışını ister (TBK m. 80/2). Kötüniyetli zilyet ise yararlı gider isteyemez; yalnız hak sahibi için de zorunlu olanları ister (TMK m. 995/2). Ayrıntılı karşılaştırma Borçlar Hukuku Genel Hükümler dersinde, sebepsiz zenginleşmede iadenin kapsamı konusunda.\n\n### 6.4 Uygulama ve ispat\n- Yargıtay gider taleplerinde bilirkişiden her kalemi zorunlu, yararlı ya da lüks diye ayrı ayrı nitelendirmesini ve zarar verilmeden sökülüp götürülebilecek olanları ayırmasını ister.\n- Yargıtay, resmî şekle uyulmadan yapılan (harici) satışla taşınmazı teslim alan alıcıyı iyiniyetli zilyet saymış ve ona TMK m. 994'teki hakları tanımıştır: alıcı zorunlu ve yararlı giderlerini ister ve ödeninceye kadar taşınmazı geri vermekten kaçınabilir. Bir kararda giderlerin değerinin, gider davasının açıldığı tarihe göre belirlenmesi istenmiştir.\n- Gideri isteyen giderin varlığını ve tutarını, zilyedin kötüniyetini ileri süren de kötüniyeti ispatlar.\n\n### 6.5 Hesaplaşma için denetim şeması\n1. Zilyet şeyi geri vermekle yükümlü mü? Hangi dava ya da ilişki?\n2. Zilyet hangi döneme kadar iyiniyetli? İyiniyetin sona erdiği anı belirle (öğrenme, ihtar, dava).\n3. İyiniyetli dönem: kullanma ve hasar için sorumsuzluk (TMK m. 993); giderler, geri vermekten kaçınma, ayırıp alma, ürünlerin mahsubu (TMK m. 994).\n4. İyiniyetsiz dönem: zararlar ve ürünler; yalnız hak sahibi için de zorunlu giderler (TMK m. 995).\n5. Karşılıklı alacakları ayrı ayrı hesapla.\n\n## 7. Kazandırıcı zamanaşımında zilyetliklerin eklenmesi (TMK m. 996)\n\nKazandırıcı zamanaşımından yararlanma hakkına sahip olan zilyet, zilyetliği kendisine devreden **aynı yetkiye sahip idiyse** onun zilyetlik süresini kendi süresine ekleyebilir (TMK m. 996).\n- Taşınırlarda kazandırıcı zamanaşımı, başkasının taşınırını davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla zilyetlikte bulundurmayı arar (TMK m. 777/1). Devredenin süresinin eklenebilmesi için devredenin de bu şartları taşımış olması gerekir.\n- Kural taşınmazlarda olağan ve olağanüstü kazandırıcı zamanaşımı için de önemlidir (TMK m. 712, TMK m. 713; ayrıntısı 13. konuda).\n\n> **Örnek:** Fatma, kazandırıcı zamanaşımının şartlarını taşıyarak (iyiniyetle ve malik sıfatıyla, davasız ve aralıksız) bir tablonun üç yıl zilyedi olur. Sonra tabloyu iyiniyetli Gizem'e devreder. Gizem, Fatma'nın üç yılını kendi süresine ekler; şartları iki yıl daha sürdürürse beş yıl tamamlanır. Fatma tablonun başkasına ait olduğunu bilseydi Gizem onun süresini ekleyemezdi.\n\n> 📌 **Kesin bilgi:** TMK m. 984: gasp ve saldırı davası öğrenmeden 2 ay, her hâlde fiilden 1 yıl. TMK m. 989/1: irade dışı çıkan eşyada taşınır davası 5 yıl. TMK m. 991/1: iyiniyetsiz edinene karşı her zaman. TMK m. 777/1: taşınırda kazandırıcı zamanaşımı 5 yıl.",
+  "critical_md": "- 📌 TMK m. 988: emin sıfatıyla zilyetten iyiniyetle mülkiyet veya sınırlı ayni hak edinenin edinimi, devredenin tasarruf yetkisi olmasa bile korunur. Edinen malik olur (TMK m. 763/2); eski malik ne taşınır davası ne istihkak davasıyla sonuç alabilir.\n- ⚠️ Emin sıfatıyla zilyet, eşyayı önceki zilyedin iradesiyle almış kişidir: kiracı, ödünç alan, saklayan, tamirci, komisyoncu. Eşya bu kişinin elinden çalınmışsa iradi zincir kopmuştur ve TMK m. 989 uygulanır.\n- 📌 TMK m. 988 yalnız tasarruf yetkisinin yokluğunu tamamlar. Ayırt etme gücünün yokluğu, şekil eksikliği gibi başka geçersizlik sebepleri varsa koruma yoktur.\n- ⚠️ İyiniyet karinedir (TMK m. 3/1); kötüniyeti geri isteyen ispatlar. Beklenen özeni göstermeyen iyiniyet iddia edemez (TMK m. 3/2). İyiniyet edinme anında aranır; sonradan öğrenmek zarar vermez.\n- 📌 TMK m. 989/1: çalınan, kaybolan ya da iradesi dışında çıkan eşyanın zilyedi, elinde bulunduran **herkese** karşı, iyiniyetli olsa bile, **beş yıl** içinde taşınır davası açabilir.\n- ⚠️ TMK m. 989/2: açık artırmadan, pazardan ya da benzeri eşya satandan iyiniyetle edinene karşı dava ancak **ödenen bedelin geri verilmesi** koşuluyla açılır. Edinen yine malik olmaz. Eşyayı bu yerlerden aldığını davalı ispatlar.\n- ⚠️ Bedel koşulu yalnız irade dışında çıkan eşyada vardır. Emin sıfatıyla zilyetten iyiniyetle edinen zaten maliktir; eski malik bedel önererek eşyayı geri alamaz (Hukuk Genel Kurulu).\n- ⚠️ Üç süre karıştırılmasın: gasp ve saldırı davası 2 ay ve her hâlde 1 yıl (TMK m. 984), taşınır davası 5 yıl (TMK m. 989/1), taşınırda kazandırıcı zamanaşımı 5 yıl (TMK m. 777/1).\n- 📌 TMK m. 990: para ve hamile yazılı senetler, iradesi dışında elden çıkmış olsa bile iyiniyetli edinenden istenemez. Kambiyo senetlerinde TTK m. 686/2 ve TTK m. 792 ayrıca düzenler.\n- 📌 TMK m. 991: iyiniyetsiz edinene karşı her zaman taşınır davası açılır. Önceki zilyet de iyiniyetsizse sonraki zilyede karşı taşınır davası açamaz.\n- 📌 İyiniyetli zilyet kullanma için tazminat ödemez; kayıp, yok olma ve hasardan sorumlu değildir (TMK m. 993). Kanun bu sorumsuzluğu kusura bağlamaz.\n- 📌 TMK m. 994: zorunlu ve yararlı giderler istenir ve ödeninceye kadar geri vermekten kaçınılabilir. Diğer giderler istenemez; karşılık önerilmezse zararsızca ayrılabilen eklemeler ayırıp alınır. Ürünler gider alacağına mahsup edilir.\n- 📌 TMK m. 995: iyiniyetsiz zilyet haksız alıkoymanın zararlarını ve elde ettiği ya da elde etmeyi ihmal ettiği ürünleri öder; yalnız hak sahibi için de zorunlu giderleri ister. Kime vereceğini bilmediği sürece yalnız kusurlu zararlardan sorumludur.\n- ⚠️ TBK m. 80/2 ile TMK m. 995/2 karıştırılmasın: kötüniyetli zenginleşen yararlı giderde mevcut değer artışını ister; kötüniyetli zilyet yararlı gider isteyemez.\n- 📌 TMK m. 996: kazandırıcı zamanaşımından yararlanabilecek zilyet, devreden de aynı yetkiye sahipse onun zilyetlik süresini ekler. Yargıtay'a göre trafikte kayıtlı motorlu araçlar TMK m. 988 korumasının dışındadır; konu tartışmalıdır.",
+  "doctrine_md": "### Hile ile teslim edilen eşya: iradi mi, irade dışı mı?\nTMK m. 989 çalınma ve kaybolma dışındaki irade dışı çıkış hâllerini saymaz. Zilyetliği devredenin iradesi yanılma, aldatma (hile) veya korkutma ile sakatlanmışsa eşyanın emanet edilmiş mi yoksa irade dışında mı çıkmış sayılacağı tartışmalıdır.\n- Yalnız yanılma hâlinde eşyanın emanet edilmiş sayılacağı öğretide neredeyse tartışmasızdır.\n- Bir görüşe göre hile hâlinde de zilyet eşyayı kendi iradesiyle teslim etmiştir. İradenin sakatlığı onu ancak sözleşmeyle bağlı olmaktan kurtarır (TBK m. 36, TBK m. 39). Bu görüşte iyiniyetli üçüncü kişi TMK m. 988 ile korunur. Korkutmada ise görüşler daha dağınıktır; bir kısım yazar yalnız fiziksel zorlamayı irade dışı çıkış sayar.\n- Yargıtay'ın tutumu tek düze değildir. Hukuk Genel Kurulu 2022'de oy çokluğuyla, ilanla satışa çıkardığı aracını bedelini almadan noterde devreden ve dolandırıldığı anlaşılan satıcıyı zilyetliği iradesi dışında elinden çıkan kişi kabul etmiş; aracı galeriden aldığını ispatlayamayan son alıcının iyiniyetini önemsiz bulmuştur. Karşı oy, olgunun yeterince araştırılmadığını ileri sürmüştür. Buna karşılık Kurul 2018 ve 2021 kararlarında, aracını kendini başka bir adla tanıtan kişiye harici satışla teslim eden ya da kiralayan malik bakımından aracın rızayla elden çıktığını kabul etmiştir.\n\n### Motorlu araçlarda iyiniyetli kazanım\nHukuk Genel Kurulu 2018'de, harici satışla ruhsatıyla birlikte teslim edilen bir minibüsü sahte belgeyle yapılan noter satışları sonucunda iyiniyetle edinenlerin TMK m. 988'e göre malik olduğunu kabul etmişti. 2021'de ise noter satışı şartına dayanarak motorlu araç mülkiyetinin emin sıfatıyla zilyetten iyiniyetle kazanılamayacağını ve trafik siciline güven koruması bulunmadığını açıkça belirtti; sonraki daire kararları bu çizgiyi izliyor. Öğretide bir görüş motorlu araçlarda da iyiniyetle kazanımın mümkün olduğunu savunur. Diğer görüş, sicilde malik görünen ama tasarruf yetkisi olmayan kişiden iyiniyetle kazanımın mümkün olmadığını kabul eder.\n\n### Karşılıksız edinme\nTMK m. 988 edinimin karşılıklı mı karşılıksız mı olduğuna göre ayrım yapmaz. Öğretideki hâkim görüş, lafza ve tarihî yoruma dayanarak bağışlama gibi karşılıksız edinimlerin de korunduğunu kabul eder. Karşı görüş, karşılıksız kazandırmalara ilişkin diğer hükümlerden, maddenin amacından ve karşılaştırmalı hukuktan hareketle hükmün yalnız karşılıklı edinimlere uygulanacak biçimde daraltılmasını önerir.\n\n### Beş yıllık sürenin dolmasının etkisi\nBir görüşe göre TMK m. 989/1'deki süre dolunca iyiniyetli zilyet mülkiyeti kazanır ve malik istihkak davası da açamaz. Çoğunluk görüşüne göre ise sürenin dolması yalnız taşınır davasını ortadan kaldırır; mülkiyetin kazanılması kazandırıcı zamanaşımının diğer şartlarının da gerçekleşmesine bağlıdır (TMK m. 777). Zilyetliğin teslimsiz devir yollarıyla (ör. hükmen teslim) devralındığı hâllerde TMK m. 988'in uygulanıp uygulanmayacağı da tartışmalıdır (18. konu).",
+  "glossary": [
+   {
+    "term": "Emin sıfatıyla zilyet",
+    "definition": "Eşyanın zilyetliğini önceki zilyedin iradesiyle, güvene dayanarak elde etmiş kişi: kiracı, ödünç alan, saklayan, tamirci, komisyoncu (TMK m. 988)."
+   },
+   {
+    "term": "Tasarruf yetkisi",
+    "definition": "Bir hak üzerinde devir, rehin gibi işlemler yapabilme yetkisi. Malik olmayan emin sıfatıyla zilyette bu yetki yoktur."
+   },
+   {
+    "term": "İyiniyetli kazanım",
+    "definition": "Tasarruf yetkisi olmayan kişiden iyiniyetle ayni hak edinilmesi ve bu edinimin kanunca korunması (TMK m. 763/2, TMK m. 988)."
+   },
+   {
+    "term": "Taşınır davası",
+    "definition": "Önceki zilyedin taşınırı şimdiki zilyetten geri istediği, zilyetliğe dayanan hak davası; mülkiyetin ispatını gerektirmez (TMK m. 988-991)."
+   },
+   {
+    "term": "İrade dışında elden çıkma",
+    "definition": "Eşyanın çalınma, kaybolma, unutma, zorla alınma gibi yollarla zilyedin rızası olmadan elinden çıkması (TMK m. 989)."
+   },
+   {
+    "term": "Benzeri eşya satan",
+    "definition": "Aynı türden eşyayı mesleki olarak satan kişi; ondan iyiniyetle alınan çalıntı eşya ancak ödenen bedel geri verilerek istenebilir (TMK m. 989/2)."
+   },
+   {
+    "term": "Hamile yazılı senet",
+    "definition": "Senedi elinde bulunduranı hak sahibi sayan kıymetli evrak; para gibi, iyiniyetli edinenden istenemez (TMK m. 990)."
+   },
+   {
+    "term": "İyiniyetli zilyet",
+    "definition": "Zilyetliğe hakkı olduğuna inanan, şeyi geri vermekle yükümlü olduğunu bilmeyen ve bilmesi de gerekmeyen zilyet (TMK m. 993-994)."
+   },
+   {
+    "term": "İyiniyetsiz zilyet",
+    "definition": "Şeyi geri vermekle yükümlü olduğunu bilen ya da bilmesi gereken zilyet (TMK m. 995)."
+   },
+   {
+    "term": "Zorunlu gider",
+    "definition": "Şeyin varlığını ve değerini korumak için gereken harcama."
+   },
+   {
+    "term": "Yararlı gider",
+    "definition": "Şeyin değerini veya verimini artıran harcama."
+   },
+   {
+    "term": "Diğer (lüks) gider",
+    "definition": "Kişisel zevk için yapılan, değer artışı sağlamayan harcama; iyiniyetli zilyet bile tazminini isteyemez (TMK m. 994/2)."
+   },
+   {
+    "term": "Ayırıp alma hakkı",
+    "definition": "Karşılık önerilmezse iyiniyetli zilyedin, şeyle birleştirdiği ve zararsızca ayrılabilen eklemeleri geri vermeden önce sökerek alması (TMK m. 994/2)."
+   },
+   {
+    "term": "Geri vermekten kaçınma hakkı",
+    "definition": "İyiniyetli zilyedin, zorunlu ve yararlı giderleri ödeninceye kadar şeyi geri vermeyebilmesi (TMK m. 994/1)."
+   },
+   {
+    "term": "Zilyetliklerin eklenmesi",
+    "definition": "Kazandırıcı zamanaşımından yararlanabilecek zilyedin, aynı yetkiye sahip devredenin zilyetlik süresini kendi süresine katması (TMK m. 996)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "988",
+   "official_text": "a. Emin sıfatıyla zilyetten edinme bakımından\nMadde 988- Bir taşınırın emin sıfatıyla zilyedinden o şey üzerinde iyiniyetle mülkiyet veya sınırlı aynî hak edinen kimsenin edinimi, zilyedin bu tür tasarruflarda bulunma yetkisi olmasa bile korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "989",
+   "official_text": "b. Kaybedilen veya çalınan eşya bakımından\nMadde 989- Taşınırı çalınan, kaybolan ya da iradesi dışında başka herhangi bir şekilde elinden çıkan zilyet, o şeyi elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir.\nBu taşınır, açık artırmadan veya pazardan ya da benzeri eşya satanlardan iyiniyetle edinilmiş ise; iyiniyetli birinci ve sonraki edinenlere karşı taşınır davası, ancak ödenen bedelin geri verilmesi koşuluyla açılabilir.\nDiğer konularda iyiniyetli zilyedin haklarına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "990",
+   "official_text": "c. Para ve hamile yazılı senetlerde\nMadde 990- Zilyet, iradesi dışında elinden çıkmış olsa bile, para ve hamile yazılı senetleri iyiniyetle edinmiş olan kimseye karşı taşınır davası açamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "991",
+   "official_text": "d. İyiniyetli olmama hâlinde\nMadde 991- Bir taşınırın zilyetliğini iyiniyetle edinmemiş olan kimseye karşı önceki zilyet, her zaman taşınır davası açabilir.\nEğer önceki zilyet de, zilyetliği iyiniyetle edinmemiş ise sonraki zilyede karşı taşınır davası açamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "993",
+   "official_text": "a. Yararlanma\nMadde 993- İyiniyetle zilyedi bulunduğu şeyi, karineyle mevcut hakkına uygun şekilde kullanan veya ondan yararlanan zilyet, o şeyi geri vermekle yükümlü olduğu kimseye karşı bu yüzden herhangi bir tazminat ödemek zorunda değildir.\nİyiniyetli zilyet, şeyin kaybedilmesinden, yok olmasından veya hasara uğramasından sorumlu olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "994",
+   "official_text": "b. Tazminat\nMadde 994- İyiniyetli zilyet, geri vermeyi isteyen kimseden şey için yapmış olduğu zorunlu ve yararlı giderleri tazmin etmesini isteyebilir ve bu tazminat ödeninceye kadar şeyi geri vermekten kaçınabilir.\nİyiniyetli zilyet, diğer giderler için tazminat isteyemez. Ancak, şeyin geri verilmesinden önce kendisine bu giderler için bir tazminat önerilmezse, kendisi tarafından o şeyle birleştirilen ve zararsızca ayrılması mümkün bulunan eklemeleri o şeyi geri vermeden önce ayırıp alabilir.\nZilyedin elde ettiği ürünler, yaptığı giderler sebebiyle doğan alacaklarına mahsup edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "995",
+   "official_text": "2. İyiniyetli olmayan zilyet bakımından\nMadde 995- İyiniyetli olmayan zilyet, geri vermekle yükümlü olduğu şeyi haksız alıkoymuş olması yüzünden hak sahibine verdiği zararlar ve elde ettiği veya elde etmeyi ihmal eylediği ürünler karşılığında tazminat ödemek zorundadır.\nİyiniyetli olmayan zilyet, yaptığı giderlerden ancak hak sahibi için de zorunlu olanların tazmin edilmesini isteyebilir.\nİyiniyetli olmayan zilyet, şeyi kime geri vereceğini bilmediği sürece ancak kusuruyla verdiği zararlardan sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "996",
+   "official_text": "Madde 996- Kazandırıcı zamanaşımından yararlanma hakkına sahip olan zilyet, zilyetliği kendisine devreden aynı yetkiye sahip idiyse onun zilyetlik süresini kendi süresine ekleyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "683",
+   "official_text": "A. Mülkiyet hakkının içeriği\nMadde 683- Bir şeye malik olan kimse, hukuk düzeninin sınırları içinde, o şey üzerinde dilediği gibi kullanma, yararlanma ve tasarrufta bulunma yetkisine sahiptir.\nMalik, malını haksız olarak elinde bulunduran kimseye karşı istihkak davası açabileceği gibi, her türlü haksız elatmanın önlenmesini de dava edebilir.\nB. Mülkiyet hakkının kapsamı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "712",
+   "official_text": "a. Olağan zamanaşımı\nMadde 712- Geçerli bir hukukî sebep olmaksızın tapu kütüğüne malik olarak yazılan kişi, taşınmaz üzerindeki zilyetliğini davasız ve aralıksız olarak on yıl süreyle ve iyiniyetle sürdürürse, onun bu yolla kazanmış olduğu mülkiyet hakkına itiraz edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "713",
+   "official_text": "b. Olağanüstü zamanaşımı\nMadde 713- Tapu kütüğünde kayıtlı olmayan bir taşınmazı davasız ve aralıksız olarak yirmi yıl süreyle ve malik sıfatıyla zilyetliğinde bulunduran kişi, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nAynı koşullar altında, maliki tapu kütüğünden anlaşılamayan veya yirmi yıl önce (…)[38] hakkında gaiplik kararı verilmiş bir kimse adına kayıtlı bulunan taşınmazın tamamının veya bölünmesinde sakınca olmayan bir parçasının zilyedi de, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nTescil davası, Hazineye ve ilgili kamu tüzel kişilerine veya varsa tapuda malik gözüken kişinin mirasçılarına karşı açılır.\nDavanın konusu, mahkemece bir gazete ve bir internet haber sitesinde ve ayrıca taşınmazın bulunduğu yerde uygun araç ve aralıklarla en az üç defa ilân olunur.[39]\nSon ilândan başlayarak üç ay içinde yukarıdaki koşulların gerçekleşmediğini ileri sürerek itiraz eden bulunmaz ya da itiraz yerinde görülmez ve davacının iddiası ispatlanmış olursa, hâkim tescile karar verir. Mülkiyet, birinci fıkrada öngörülen koşulların gerçekleştiği anda kazanılmış olur.\nDavalılar ve itiraz edenler, aynı davada kendi adlarına tescile karar verilmesini isteyebilirler.\nKararda, tescili istenilen taşınmazın niteliği, yeri, sınırları ve yüzölçümü belirtilir ve karara, uzmanlarca düzenlenen teknik bilgileri içeren krokisi de eklenir.\nÖzel kanun hükümleri saklıdır.\n[38] Anayasa Mahkemesi’nin 17/3/2011 tarihli ve E.: 2009/58, K.: 2011/52 sayılı Kararı ile bu fıkrada yer alan “… ölmüş ya da…” ibaresi iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "763",
+   "official_text": "1. Zilyetliğin devri\nMadde 763- Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir.\nBir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kimse, devredenin mülkiyeti devir yetkisi olmasa bile, zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde o şeyin maliki olur.\n2. Mülkiyetin saklı tutulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "777",
+   "official_text": "VII. Kazandırıcı zamanaşımı\nMadde 777- Başkasının taşınır bir malını davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla zilyetliğinde bulunduran kimse, zamanaşımı yoluyla o taşınırın maliki olur.\nZilyetliğin irade dışı kaybedilmesi hâlinde zilyet, bir yıl içinde eşyayı ele geçirir veya açacağı bir dava yoluyla onu yeniden elde ederse kazandırıcı zamanaşımı kesilmiş olmaz.\nKazandırıcı zamanaşımı süresinin hesaplanmasında, kesilmesinde ve durmasında Borçlar Kanununun zamanaşımına ilişkin hükümleri kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "939",
+   "official_text": "1. Alacaklının zilyetliği\nMadde 939 - Kanunda öngörülen ayrık durumlar dışında taşınırlar, ancak zilyetliğin alacaklıya devri suretiyle rehnedilebilir.\nRehnedende tasarrufta bulunma yetkisi olmasa bile, rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Üçüncü kişilerin önceki zilyetlikten doğan hakları saklıdır.\nTaşınır, fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz.\n2. Ayrık durumlar[43]\n[43] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu maddenin birinci ve ikinci fıkralarında yer alan “tüzükle” ibareleri “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "950",
+   "official_text": "Madde 950- Alacaklı, borçluya ait olup onun rızasıyla zilyedi bulunduğu taşınırı veya kıymetli evrakı, borcun muaccel olması ve niteliği itibarıyla bu eşyanın alacak ile bağlantısı bulunması hâlinde, borç ödeninceye kadar hapsedebilir.\nZilyetlik ve alacak ticarî ilişkiden doğmuşsa, tacirler arasında bu bağlantı var sayılır.\nAlacaklı, borçluya ait olmayan taşınırlar üzerinde de zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkına sahip olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "974",
+   "official_text": "1. Aslî ve fer'î zilyetlik\nMadde 974- Zilyet, bir sınırlı aynî hak veya bir kişisel hakkın kurulmasını ya da kullanılmasını sağlamak için şeyi başkasına teslim ederse, bunların ikisi de zilyet olur.\nBir şeyde malik sıfatıyla zilyet olan aslî zilyet, diğeri fer'î zilyettir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "981",
+   "official_text": "1. Savunma hakkı\nMadde 981- Zilyet, her türlü gasp veya saldırıyı kuvvet kullanarak defedebilir.\nZilyet, rızası dışında kendisinden alınan şeyi taşınmazlarda el koyanı kovarak, taşınırlarda ise eylem sırasında veya kaçarken yakalananın elinden alarak zilyetliğini koruyabilir. Ancak, zilyet durumun haklı göstermediği derecede kuvvet kullanmaktan kaçınmak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "982",
+   "official_text": "2. Zilyetliğin gasbında dava hakkı\nMadde 982- Başkasının zilyet bulunduğu bir şeyi gasbeden kimse, o şey üzerinde üstün bir hakka sahip olduğunu iddia etse bile onu geri vermekle yükümlüdür.\nDavalı, o şeyi davacıdan geri almasını gerektirecek üstün bir hakka sahip olduğunu derhâl ispat ederse onu geri vermekten kaçınabilir.\nDava, şeyin geri verilmesine ve zararın giderilmesine yönelik olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "983",
+   "official_text": "3. Zilyetliğe saldırıya dava hakkı\nMadde 983- Saldırıda bulunan, şey üzerinde bir hak iddia etse bile; zilyetliği saldırıya uğrayan, ona karşı dava açabilir.\nDava, saldırının sona erdirilmesine, sebebinin önlenmesine ve zararın giderilmesine yönelik olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "984",
+   "official_text": "4. Dava hakkının düşmesi\nMadde 984- Gasp ve saldırıdan dolayı dava hakkı, zilyedin fiili ve failini öğrenmesinden başlayarak iki ay ve her hâlde fiilin üzerinden bir yıl geçmekle düşer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "985",
+   "official_text": "1. Mülkiyet karinesi\nMadde 985- Taşınırın zilyedi onun maliki sayılır.\nÖnceki zilyetler de zilyetlikleri süresince o taşınırın maliki sayılırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "987",
+   "official_text": "3. Davaya karşı savunma\nMadde 987- Bir taşınırın zilyedi, kendisine karşı açılan her davada üstün hakka sahip olduğu karinesine dayanabilir.\nGasp veya saldırıya ilişkin hükümler saklıdır.\n4. Tasarruf yetkisi ve taşınır davası",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "36",
+   "official_text": "MADDE 36- Taraflardan biri, diğerinin aldatması sonucu bir sözleşme yapmışsa, yanılması esaslı olmasa bile, sözleşmeyle bağlı değildir.\nÜçüncü bir kişinin aldatması sonucu bir sözleşme yapan taraf, sözleşmenin yapıldığı sırada karşı tarafın aldatmayı bilmesi veya bilecek durumda olması hâlinde, sözleşmeyle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "39",
+   "official_text": "MADDE 39- Yanılma veya aldatma sebebiyle ya da korkutulma sonucunda sözleşme yapan taraf, yanılma veya aldatmayı öğrendiği ya da korkutmanın etkisinin ortadan kalktığı andan başlayarak bir yıl içinde sözleşme ile bağlı olmadığını bildirmez veya verdiği şeyi geri istemezse, sözleşmeyi onamış sayılır.\nAldatma veya korkutmadan dolayı bağlayıcılığı olmayan bir sözleşmenin onanmış sayılması, tazminat hakkını ortadan kaldırmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "77",
+   "official_text": "MADDE 77- Haklı bir sebep olmaksızın, bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür.\nBu yükümlülük, özellikle zenginleşmenin geçerli olmayan veya gerçekleşmemiş ya da sona ermiş bir sebebe dayanması durumunda doğmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "80",
+   "official_text": "MADDE 80- Zenginleşen iyiniyetli ise, yaptığı zorunlu ve yararlı giderleri, geri verme isteminde bulunandan isteyebilir.\nZenginleşen iyiniyetli değilse, zorunlu giderlerinin ve yararlı giderlerinden sadece geri verme zamanında mevcut olan değer artışının ödenmesini isteyebilir.\nZenginleşen, iyiniyetli olup olmadığına bakılmaksızın, diğer giderlerinin ödenmesini isteyemez. Ancak, kendisine karşılık önerilmezse, o şey ile birleştirdiği ve zararsızca ayrılması mümkün bulunan eklemeleri geri vermeden önce ayırıp alabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "686",
+   "official_text": "3. Hamilin hak sahipliği\nMADDE 686- (1) Bir poliçeyi elinde bulunduran kişi, son ciro beyaz ciro olsa da kendi hakkı müteselsil ve birbirine bağlı cirolardan anlaşıldığı takdirde, yetkili hamil sayılır. Çizilmiş cirolar bu hususta yazılmamış hükmündedir. Bir beyaz ciroyu diğer bir ciro izlerse son ciroyu imzalayan kişi, poliçeyi beyaz ciro ile iktisap etmiş sayılır.\n(2) Poliçe herhangi bir suretle hamilin elinden çıkmış bulunursa, birinci fıkrada yazılı hükümlere göre hakkı anlaşılan yeni hamil, ancak poliçeyi kötüniyetle iktisap etmiş olduğu veya iktisabında ağır bir kusur bulunduğu takdirde o poliçeyi geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "792",
+   "official_text": "C) Elden çıkan çek\nMADDE 792- (1) Çek, herhangi bir suretle hamilin elinden çıkmış bulunursa, ister hamile yazılı, ister ciro yoluyla devredilebilen bir çek söz konusu olup da hamil hakkını 790 ıncı maddeye göre ispat etsin, çek eline geçmiş bulunan yeni hamil ancak çeki kötüniyetle iktisap etmiş olduğu veya iktisapta ağır bir kusuru bulunduğu takdirde o çeki geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KARAYOLLARI TRAFİK KANUNU",
+   "law_no": "2918",
+   "article_no": "20",
+   "official_text": "Madde 20 – (Değişik: 18/1/1985 - KHK 245/7 md.; Değiştirilerek kabul: 28/3/1985-3176/7 md.)\nTescil süreleri, satış ve devirler, noterlerin sorumluluğu ile ilgili esaslar şunlardır:\na) Araç sahipleri,\n1. (Değişik: 13/2/2011-6111/55 md.) Tescili zorunlu ve ilk tescili yapılacak olan araçların satın alma veya gümrükten çekme tarihinden itibaren üç ay içinde tescili için; bunların hurda durumuna gelmesi hâlinde ise bir ay içinde tescilin silinmesi için ilgili trafik tescil kuruluşuna veya Emniyet Genel Müdürlüğünün belirleyeceği kamu kurum veya kuruluşları ile gerçek veya özel hukuk tüzel kişilerine başvurmak,\n2. (Değişik: 2/4/1998 - 4358/3 md.) Tescilin yapılması veya silinmesi için vergi kimlik numarası ile yönetmelikte belirtilen bilgi ve belgeleri sağlamak,\nZorundadırlar.\nb) Araçların giriş işlemlerini yapan gümrük idareleri bu durumu 15 gün içinde araç sahiplerinin beyan ettikleri tescil kuruluşuna bildirmekle yükümlüdürler.\nc) Tescil belgesi, aracın başkasına satış veya devrine, hurdaya çıkarılmasına veya araçta, yönetmelikte belirtilen niteliklerin değişmesine kadar geçerli sayılır.\nd ) (Değişik: 24/12/2009-5942/1 md.) Tescil edilmiş araçların her çeşit satış ve devirleri, satış ve devri yapılacak araçtan dolayı motorlu taşıtlar vergisi, gecikme faizi, gecikme zammı, vergi cezası ve trafik idari para cezası borcu bulunmadığının tespit edilmesi ve taşıt üzerinde satış ve/veya devri kısıtlayıcı herhangi bir tedbir veya kayıt bulunmaması halinde, araç sahibi adına düzenlenmiş tescil belgesi veya trafik tescil kayıtları esas alınarak noterler tarafından yapılır. Noterler tarafından yapılmayan her çeşit satış ve devirler geçersizdir.\nSatış ve devir işlemi, siciline işlenmek üzere üç işgünü içerisinde ilgili trafik tescil kuruluşu ile vergi dairesine bildirilir. Bu bildirimle birlikte alıcı adına trafik tescil işlemi gerçekleşmiş sayılır. Satış ve devir tarihi itibariyle, 197 sayılı Motorlu Taşıtlar Vergisi Kanunu hükümleri uyarınca eski malikin vergi mükellefiyeti sona erer, yeni malikin vergi mükellefiyeti başlar.\nYapılan satış ve devir işlemi üzerine noterler tarafından yeni malik adına bir ay süreyle geçerli tescile ilişkin geçici belge düzenlenir.\n197 sayılı Kanunun 13 üncü maddesinde yer alan sorumluluk hükümleri saklı kalmak kaydıyla, anılan maddede ve bu bentte yer alan isteme ve bildirmeleri elektronik ortamda yaptırmaya ve bu konuda yükümlülük getirmeye, elektronik bildirmelere ilişkin usul ve esasları belirlemeye Gelir İdaresi Başkanlığı ve Emniyet Genel Müdürlüğü yetkili olup, bu kurumlar satış, devir ve tescile ilişkin işlemlerin gerçekleştirilmesi için gerekli elektronik veri akışını sağlarlar. Satış ve devir işlemlerini yapanlar, bu işlemler sırasında edindikleri bilgileri ifşa ettikleri takdirde Türk Ceza Kanununun 239 uncu maddesi uyarınca cezalandırılırlar.[16]\nSatış ve devir işlemlerinin bildiriminden itibaren bir aylık süre içerisinde ilgili trafik tescil kuruluşu veya Emniyet Genel Müdürlüğünün uygun gördüğü kamu kurum veya kuruluşları tarafından yeni malik adına tescil belgesi düzenlenerek elden veya posta aracılığıyla teslim edilir. Tescil belgesinin bir ay içerisinde teslim edilememesi halinde yeni malike sorumluluk yüklenemez.\nBu bentte düzenlenen satış ve devir işlemleri her türlü harçtan, bu işlemlere ilişkin düzenlenen kağıtlar damga vergisi ve değerli kağıt bedellerinden istisnadır. Trafik tescil kuruluşunda yeni malik adına yapılacak tescil nedeniyle düzenlenmesi gereken değerli kağıtların bedelleri, satış ve devir esnasında noterler tarafından tahsil edilir ve 1512 sayılı Noterlik Kanununun 119 uncu maddesi uyarınca beyan edilerek ödenir. Bu bentte yer alan işlemler sebebiyle noterlere herhangi bir pay veya aidat ödenmez.\n1512 sayılı Kanunun 112 nci maddesi uyarınca belirlenen ücret uygulanmaksızın satış ve devre ilişkin her türlü işlem karşılığında toplam 20 Türk Lirası maktu ücret alınır. Söz konusu ücret, her takvim yılı başından geçerli olmak üzere önceki yılda uygulanan ücret tutarının o yıl için 213 sayılı Vergi Usul Kanunu uyarınca tespit ve ilan olunan yeniden değerleme oranında artırılması suretiyle hesaplanır.\nHaciz, müsadere, zapt, buluntu, trafikten men gibi nedenlerle; icra müdürlükleri, vergi dairesi müdürlükleri, milli emlak müdürlükleri ile diğer yetkili kamu kurum ve kuruluşları tarafından satışı yapılan araçların satış tutanağının bir örneği aracın kayıtlı olduğu trafik tescil kuruluşlarına üç işgünü içerisinde gönderilir. Aracı satın alanlar gerekli bilgi ve belgeleri sağlayarak ilgili trafik tescil kuruluşundan bir ay içerisinde adlarına tescil belgesi almak zorundadırlar. Alıcıların tescil belgesi almak için süresinde başvurmamaları halinde bu araçları alıcıları adına re’sen kayıt ve tescil ettirmeye Emniyet Genel Müdürlüğü yetkilidir.\nBu bendin uygulanmasına ilişkin usul ve esasları belirlemeye İçişleri ve Maliye Bakanlıkları yetkilidir.\ne) (Değişik: 24/12/2009-5942/1 md.) Araç satın alıp, bu maddenin birinci fıkrasının (a) bendinin (1) numaralı alt bendine uymayanlar ile (d) bendinin sekizinci paragrafı hükümlerine göre bir ay içerisinde tescil belgesi almayan alıcılara 130 Türk Lirası, (d) bendi hükümlerine uymayan noterlere ise her bir işlem için 1.000 Türk Lirası idari para cezası verilir. Tescil yapılmadan trafiğe çıkarılan araçlar, tescil yapılıncaya kadar trafikten men edilir.\nTescil belgesi ve tescil plakası alma zorunluluğu ile hurdaya ayrılan araçlar:[17][18]\n[16] Bu maddenin (d) bendi 24/12/2009 tarihli ve 5942 sayılı Kanunun 1 inci maddesiyle değiştirilmiş olup bu değişikliğin yürürlük tarihi aynı Kanunun 3 üncü maddesiyle 1/5/2010 olarak tespit edilmiştir. Ancak mezkur maddeyle dördüncü paragrafın 31/12/2009 tarihinde yürürlüğe gireceği hüküm altına alınmıştır.\n[17] 2/1/2017 tarihli ve 680 Sayılı KHK’nin 51 inci maddesi ile bu maddenin başlığında yer alan “Trafik belgesi” ibaresi “Tescil belgesi” şeklinde, birinci fıkrasının birinci cümlesinde yer alan “Trafik Belgesi” ibaresi “Tescil Belgesi” şeklinde, aynı fıkranın ikinci cümlesinde yer alan “trafik belgesi” ibaresi “tescil belgesi” şeklinde ve dördüncü fıkrasında yer alan “Trafik belgesi, tescil” ibaresi “Tescil” şeklinde değiştirilmiş, daha sonra bu hüküm 1/2/2018 tarihli ve 7072 sayılı Kanunun 50 nci maddesiyle aynen kabul edilerek kanunlaşmıştır.\n[18] 18/10/2018 tarihli ve 7148 sayılı Kanunun 15 inci maddesiyle madde başlığı “Tescil belgesi ve tescil plakası alma zorunluluğu” iken metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2918&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/1367",
+   "karar_no": "2018/249",
+   "decision_date": "21.02.2018",
+   "summary_md": "Davalı-karşı davacı, adına kayıtlı minibüsü ve ruhsatını 22.10.2004'te noterde yapılmayan bir satış sözleşmesiyle, kendini başka bir adla tanıtan alıcıya teslim etmiş; karşılığında 13.000 TL peşin, kalanı için bono almıştır. Ardından malik adına düzenlenen sahte sürücü belgesiyle araç noterde davacılardan birine, o da 12.04.2005'te diğer davacıya satmış; araca 04.05.2005'te çalıntı iddiasıyla el konulmuştur. Davacılar müdahalenin önlenmesi, aracın teslimi ve tescili; eski malik karşı davayla trafik kaydının iptali, tescil ve teslim istemiştir. İlk derece mahkemesi davacıları iyiniyetli saymayarak asıl davayı reddetmiş, karşı davayı kısmen kabul etmiştir. 4. Hukuk Dairesi, aracın malikin rızasıyla elinden çıktığını ve davacıların iyiniyetli olduğunu, ama malikin ikinci alıcının ödediği 26.000 TL noter satış bedelini ödeyerek aracı geri alabileceğini belirterek bozmuş; mahkeme direnmiştir. Hukuk Genel Kurulu oy birliğiyle, aracın rızayla çıkması nedeniyle olayın TMK m. 988'e göre çözülmesi gerektiğini, beklenen özeni gösteren davacıların iyiniyetli üçüncü kişiler olarak mülkiyeti kazandığını kabul etmiştir. Kurul'a göre ödenen bedelin geri verilmesi koşulu yalnız irade dışında çıkan ve açık artırmadan, pazardan ya da benzeri eşya satandan edinilen eşyaya özgüdür. Kurul, trafik kaydına tescil kararı verilemeyeceğini ve mülkiyetin tespitiyle yetinilmesi gerektiğini de belirterek Daire'nin bedel koşulunu kararından çıkarmış ve direnme kararını değişik gerekçeyle bozmuştur. Konuya katkısı: TMK m. 988 ile TMK m. 989/2 arasındaki sınırı gösterir. Motorlu araçlar bakımından Kurul 2021'de farklı bir yaklaşım benimsemiştir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/402665200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/1422",
+   "karar_no": "2021/321",
+   "decision_date": "23.03.2021",
+   "summary_md": "Araç kiralama işiyle uğraşan davacı, adına kayıtlı aracı kendini başka bir adla tanıtan bir kişiye kiralamış; araç süresinde geri getirilmemiş ve davacının kimlik bilgileri kullanılarak düzenlenen sahte vekâletnameyle, bu kişiyle birlikte hareket eden bir başkası tarafından noterde davalıya satılmıştır. Davacı satışın geçersizliğinin tespitini, iptalini ve trafik kaydının adına tescilini istemiştir. İlk derece mahkemesi davalının iyiniyetli olduğunu, ancak sahte vekâletnameyle yapılan satışın mülkiyeti geçirmediğini kabul ederek davayı kabul etmiştir. 4. Hukuk Dairesi, aracın malikin rızasıyla kiracıya verildiğini ve davalının iyiniyetli olduğunu belirterek davanın ancak davalının ödediği bedelin iadesi koşuluyla kabul edilebileceğini ve trafik kaydına tescil kararı verilemeyeceğini söyleyerek bozmuş; mahkeme direnmiştir. Hukuk Genel Kurulu oy birliğiyle, ödenen bedelin geri verilmesi koşulunun TMK m. 989/2'deki hâle özgü olduğunu hatırlatmıştır. Kurul'a göre noter satışı araç sahibi adına düzenlenmiş tescil belgesi veya trafik kayıtları esas alınarak yapılacağından emin sıfatıyla zilyet geçerli bir devir sözleşmesi yapamaz; bu yüzden motorlu araç mülkiyeti TMK m. 988'e göre iyiniyetle kazanılamaz ve trafik siciline güven koruması da yoktur. Davalı iyiniyetli olsa da malik olmadığından bedel iadesi koşulu aranmamış, bu yöndeki direnme genişletilmiş gerekçeyle onanmıştır. Tescil talebi bakımından ise trafik tescilinin idari bir işlem olduğu ve mahkemenin yalnız mülkiyetin tespitine karar verebileceği gerekçesiyle direnme kararı bozulmuştur. Konuya katkısı: Yargıtay'ın motorlu araçları TMK m. 988 korumasının dışında tutan güncel yaklaşımının temel kararıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/685807200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2022/4675",
+   "karar_no": "2022/6828",
+   "decision_date": "21.09.2022",
+   "summary_md": "Alıcı, resmî şekle uyulmadan yapılan bir taşınmaz satış sözleşmesinden sonra taşınmazın zilyetliğini satıcıdan teslim almış, 25.300 TL ödemiş ve taşınmaza giderler yapmıştır. Alıcının tapu iptali ve tescil davası, sözleşme kanuni şekle uymadığı için reddedilmiş ve 10.11.2011'de kesinleşmiştir. Malikin 06.01.2014'te açtığı el atmanın önlenmesi ve tahliye davasına verdiği cevapla alıcı, öncelikle tapu iptali ve tescil, olmazsa ödediği bedelin ve zorunlu ve yararlı giderlerinin tahsilini istemiş; gider talebini ıslahla 16.100 TL'ye çıkarmıştır. Ayrılarak görülen bu davada ilk derece mahkemesi tescil istemini kesin hüküm nedeniyle reddetmiş, 25.300 TL'ye ve önceki tapu davasında alınan 09.06.2010 tarihli raporda belirlenen 8.460 TL gidere hükmetmiştir. Yargıtay 3. Hukuk Dairesi, geçersiz satışta alıcının iyiniyetli zilyet olduğunu ve TMK m. 994'e göre zorunlu ve yararlı giderlerin tazminini isteyip bunlar ödeninceye kadar şeyi geri vermekten kaçınabileceğini belirtmiş; nitekim el atma davasında alıcıya ödemeleri ve giderleri karşılanıncaya kadar hapis hakkı tanındığını ve bu kararın kesinleştiğini vurgulamıştır. Daire'ye göre mahkeme, davanın açıldığı 06.01.2014 tarihine göre imalatlardan zorunlu ve yararlı olanların bedelini bilirkişiyle belirlemeli ve taşınmaza zarar verilmeden sökülüp götürülebilecek olanlar dışındakilerin bedeline hükmetmeliydi. Eski raporla yetinilmesi bozma sebebi sayılmış ve karar alıcı yararına oy birliğiyle bozulmuştur. Konuya katkısı: TMK m. 994'ün taşınmazlarda da uygulandığını ve gider hesabının nasıl yapılacağını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/862333000",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 988'e göre iyiniyetli edinen hangi durumda korunur?",
+   "options": [
+    "Taşınırı emin sıfatıyla zilyetten, onun tasarruf yetkisi olmasa bile iyiniyetle edinmişse",
+    "Taşınırı hırsızdan iyiniyetle edinmiş ve üzerinden iki ay geçmişse",
+    "Taşınırı kim olursa olsun bir zilyetten bedel ödeyerek edinmişse",
+    "Taşınırı emin sıfatıyla zilyetten edinmiş ve malike ayrıca bir bedel ödemişse"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 988, emin sıfatıyla zilyetten iyiniyetle mülkiyet veya sınırlı ayni hak edinenin ediniminin, zilyedin tasarruf yetkisi olmasa bile korunacağını söyler. Hırsızdan edinmede eşya irade dışında çıkmıştır ve TMK m. 989 uygulanır; iki aylık süre zilyetlik davalarına ilişkindir (TMK m. 984). Bedel ödemek tek başına koruma sağlamaz; malike ayrıca bir ödeme yapılması da kanunda aranmaz."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi emin sıfatıyla zilyettir?",
+   "options": [
+    "Eşyayı sahibinin evinden çalan kişi",
+    "Eşyayı sahibinden kiralamış olan kiracı",
+    "Sahibinin parkta unuttuğu eşyayı bulan kişi",
+    "Eşyayı sahibinin elinden zorla alan kişi"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Emin sıfatıyla zilyet, zilyetliği önceki zilyedin iradesiyle elde etmiş kişidir; kiracı eşyayı malikin rızasıyla almıştır. Hırsızlık, unutulan eşyanın bulunması ve zorla alma, eşyanın zilyedin iradesi dışında elinden çıktığı hâllerdir ve TMK m. 989 kapsamına girer."
+  },
+  {
+   "stem_md": "Hakan, dizüstü bilgisayarını onarım için servis sahibi İlker'e bırakır. İlker bilgisayarı kendi malıymış gibi, piyasa fiyatına Melis'e satıp teslim eder. Melis'in şüphelenmesini gerektiren bir durum yoktur. Hakan'ın Melis'e karşı açtığı geri verme davasında hangisi doğrudur?",
+   "options": [
+    "Hakan, Melis'in ödediği bedeli vererek bilgisayarı geri alabilir.",
+    "Hakan beş yıl içinde dava açtığı için bilgisayarı bedelsiz geri alır.",
+    "Melis ancak beş yıllık kazandırıcı zamanaşımı dolunca malik olur; o zamana kadar bilgisayarı geri vermelidir.",
+    "Melis bilgisayarın maliki olmuştur; dava reddedilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bilgisayar Hakan'ın iradesiyle İlker'e bırakılmıştır; İlker emin sıfatıyla zilyettir. Melis iyiniyetle edindiği için TMK m. 988 uyarınca malik olur (TMK m. 763/2). Beş yıllık dava süresi ve bedel koşulu irade dışında elden çıkan eşyaya ilişkindir (TMK m. 989). Kazandırıcı zamanaşımı beklemeye gerek yoktur; edinim teslimle korunur."
+  },
+  {
+   "stem_md": "Taşınırı çalınan zilyet, o şeyi elinde bulunduran herkese karşı hangi süre içinde taşınır davası açabilir?",
+   "options": [
+    "Fiili ve faili öğrenmeden başlayarak iki ay ve her hâlde fiilden başlayarak bir yıl",
+    "Beş yıl",
+    "On yıl",
+    "Süre sınırı olmaksızın her zaman"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 989/1'e göre taşınırı çalınan, kaybolan ya da iradesi dışında başka bir şekilde elinden çıkan zilyet, o şeyi elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir. İki ay ve bir yıllık süreler gasp ve saldırı davalarına aittir (TMK m. 984). Her zaman dava açılabilmesi ise yalnız iyiniyetsiz edinene karşı söz konusudur (TMK m. 991/1)."
+  },
+  {
+   "stem_md": "Sinan, kamp ekipmanını bir haftalığına Ozan'a kiralar. Ekipman Ozan'ın arabasından çalınır. Hırsız ekipmanı kendi malıymış gibi, tanıdığı Pelin'e elden satar; Pelin iyiniyetlidir. Hangisi doğrudur?",
+   "options": [
+    "Pelin iyiniyetli olduğu için ekipmanı hiçbir durumda geri vermek zorunda değildir.",
+    "Ekipman zilyet Ozan'ın iradesi dışında elden çıkmıştır; Pelin'e karşı beş yıl içinde taşınır davası açılabilir ve Pelin ödediği bedeli davacıdan isteyemez.",
+    "Sinan ekipmanı güvenerek kiraya verdiği için TMK m. 988 uygulanır ve Pelin malik olur.",
+    "Dava yalnız Sinan tarafından ve hırsızlığın öğrenilmesinden başlayarak iki ay içinde açılabilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Sinan ekipmanı iradesiyle Ozan'a vermiştir; ama ekipman Ozan'ın elinden çalınmıştır. İradi teslim zinciri kopmuştur ve TMK m. 989/1 uygulanır; kanun \"zilyet\" der, bu yüzden dolaysız zilyet Ozan'ın elinden çıkış belirleyicidir. Pelin eşyayı açık artırmadan, pazardan ya da benzeri eşya satandan almadığı için bedel koşulu yoktur (TMK m. 989/2). İki aylık süre zilyetlik davalarına aittir."
+  },
+  {
+   "stem_md": "Taner'in bisikleti çalınır. Hırsız bisikleti ikinci el bisiklet alıp satan bir dükkâna satar; dükkân da bisikleti 25.000 TL'ye iyiniyetli Efe'ye satar. Taner bir yıl sonra bisikleti Efe'de bulur. Hangisi doğrudur?",
+   "options": [
+    "Taner iki aylık süre geçtiği için dava açamaz.",
+    "Efe iyiniyetli olduğu için malik olmuştur; dava reddedilir.",
+    "Taner bisikleti bedelsiz geri alır; dükkândan alınmış olması önemsizdir.",
+    "Taner bisikleti ancak Efe'nin ödediği 25.000 TL'yi geri vererek alabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bisiklet irade dışında elden çıkmıştır ve beş yıllık süre dolmamıştır (TMK m. 989/1). Efe bisikleti benzeri eşya satan birinden iyiniyetle aldığı için taşınır davası ancak ödenen bedelin geri verilmesi koşuluyla açılabilir (TMK m. 989/2). Efe malik olmamıştır; korunan yalnız ödediği bedeldir. Taner bu tutarı hırsızdan isteyebilir (TBK m. 49)."
+  },
+  {
+   "stem_md": "Kiracı Rıza, kiraladığı jeneratörü kendi malıymış gibi iyiniyetli Tekin'e satıp teslim eder. Malik, Tekin'in ödediği bedeli kendisine vermeyi önererek jeneratörü geri ister. Hangisi doğrudur?",
+   "options": [
+    "Tekin malik olduğundan bedel önerilse bile jeneratörü geri vermek zorunda değildir.",
+    "Tekin jeneratör üzerinde yalnız hapis hakkı kazanmıştır.",
+    "Bedel önerildiği için Tekin jeneratörü geri vermek zorundadır.",
+    "Malik beş yıl içinde dava açarsa jeneratörü bedelsiz geri alır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Jeneratör malikin iradesiyle kiracıya verilmiştir; Rıza emin sıfatıyla zilyettir ve iyiniyetli Tekin TMK m. 988 uyarınca malik olur. Hukuk Genel Kurulu'na göre ödenen bedelin geri verilmesi koşulu yalnız irade dışında çıkan ve açık artırmadan, pazardan ya da benzeri eşya satandan edinilen eşyaya özgüdür (TMK m. 989/2). Emin sıfatıyla zilyetten edinen malik olduğundan eski malik bedel önererek eşyayı geri alamaz."
+  },
+  {
+   "stem_md": "Bir hırsız, Nermin'in evinden çaldığı 30.000 TL ile bir mobilya mağazasından koltuk satın alır. Mağaza sahibi paranın çalıntı olduğunu bilmemektedir. Nermin'in mağaza sahibine karşı hakkı nedir?",
+   "options": [
+    "Para iradesi dışında çıkmış olsa bile iyiniyetli edinene karşı taşınır davası açamaz.",
+    "Para irade dışında çıktığı için beş yıl içinde banknotları geri isteyebilir.",
+    "Para iradesi dışında çıktığından her zaman dava açabilir.",
+    "Mağaza sahibine koltuğun bedelini ödeyerek parayı geri alabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 990'a göre zilyet, iradesi dışında elinden çıkmış olsa bile para ve hamile yazılı senetleri iyiniyetle edinmiş olan kimseye karşı taşınır davası açamaz. Beş yıllık süre ve bedel koşulu (TMK m. 989) paraya uygulanmaz. Her zaman dava açılabilmesi iyiniyetsiz edinene karşıdır (TMK m. 991/1). Nermin zararını hırsızdan ister."
+  },
+  {
+   "stem_md": "Ahmet, çalıntı olduğunu bildiği bir saati hırsızdan satın alır. Malik saati yedi yıl sonra Ahmet'te bulur. Hangisi doğrudur?",
+   "options": [
+    "Malik saati ancak Ahmet'in ödediği bedeli vererek geri alabilir.",
+    "Ahmet saati iyiniyetle edinmediğinden malik ona karşı her zaman taşınır davası açabilir.",
+    "Beş yıl geçtiği için malik taşınır davası açamaz.",
+    "Ahmet kazandırıcı zamanaşımıyla saatin maliki olmuştur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Bir taşınırın zilyetliğini iyiniyetle edinmemiş olan kimseye karşı önceki zilyet her zaman taşınır davası açabilir (TMK m. 991/1). Beş yıllık süre iyiniyetli edinenleri korur (TMK m. 989/1). Ahmet iyiniyetli olmadığından kazandırıcı zamanaşımından da yararlanamaz (TMK m. 777/1). Bedel koşulu yalnız iyiniyetli edinene tanınır (TMK m. 989/2)."
+  },
+  {
+   "stem_md": "Hırsız Ferhan, çaldığı kolyeyi çalıntı olduğunu söyleyerek arkadaşı Burak'a verir. Kolyeyi daha sonra Cem, Burak'ın evinden çalar. Burak, Cem'e karşı taşınır davası açar. Hangisi doğrudur?",
+   "options": [
+    "Cem'in eylemi nedeniyle kolyenin maliki Burak olur.",
+    "Burak zilyetliği iyiniyetle edinmediğinden Cem'e karşı taşınır davası açamaz.",
+    "Burak her zaman taşınır davası açabilir.",
+    "Kolye Burak'ın iradesi dışında çıktığından Burak beş yıl içinde taşınır davasıyla kolyeyi geri alır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 991/2'ye göre önceki zilyet de zilyetliği iyiniyetle edinmemişse sonraki zilyede karşı taşınır davası açamaz. Burak kolyenin çalıntı olduğunu bilerek almıştır. Bu kural, gerçek malikin Burak'a ve Cem'e karşı haklarını etkilemez. Burak'ın süresi içinde zilyetliğin gaspı nedeniyle açabileceği zilyetlik davası (TMK m. 982) ayrı bir konudur."
+  },
+  {
+   "stem_md": "TMK m. 988 uygulanırken edinenin iyiniyeti hakkında hangisi doğrudur?",
+   "options": [
+    "İyiniyet dava tarihinde aranır; edinen dava açılana kadar şüphelenmemişse korunur.",
+    "Edinen yalnız devredenin tasarruf yetkisini noterden araştırmışsa iyiniyetli sayılır.",
+    "Edinen iyiniyetini her durumda yazılı belgeyle ispatlamalıdır.",
+    "İyiniyet karinedir; ancak durumun gerektirdiği özeni göstermeyen kişi iyiniyet iddiasında bulunamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kanunun iyiniyete sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır; kötüniyeti geri isteyen ispatlar (TMK m. 3/1). Ancak durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz (TMK m. 3/2). İyiniyet edinme anında aranır, dava tarihinde değil. Noterden araştırma gibi genel bir şart yoktur."
+  },
+  {
+   "stem_md": "Deniz, emin sıfatıyla zilyet olan Can'dan bir halıyı iyiniyetle satın alıp teslim alır. Bir ay sonra Can'ın halının sahibi olmadığını öğrenir. Deniz'in durumu nedir?",
+   "options": [
+    "Halıyı malike bedelsiz geri vermek zorundadır.",
+    "Kazanımı korunur; iyiniyet zilyetliğin devralındığı anda aranır.",
+    "Halının maliki olmak için beş yıl daha beklemesi gerekir.",
+    "Gerçeği öğrendiği an kazanımı geçmişe etkili olarak ortadan kalkar."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 988'de iyiniyet, edinme anında, yani zilyetliğin devralındığı anda aranır. Deniz o anda iyiniyetli olduğundan malik olmuştur (TMK m. 763/2). Sonradan öğrenmek kazanımı bozmaz. Beş yıllık süre irade dışında çıkan eşyaya ilişkindir (TMK m. 989/1)."
+  },
+  {
+   "stem_md": "TMK m. 988'deki koruma hangi eksikliği tamamlar?",
+   "options": [
+    "Devredenin ayırt etme gücünün yokluğunu",
+    "Kanunun öngördüğü şeklin yokluğunu",
+    "Yalnız devredenin tasarruf yetkisinin yokluğunu",
+    "Edinenin iyiniyetsizliğini"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 988 yalnız devredenin tasarruf yetkisinin olmamasını tamamlar. Hukuk Genel Kurulu'nun da belirttiği gibi edinimde tasarruf yetkisi dışındaki diğer geçerlilik unsurları mevcut olmalıdır. Ayırt etme gücünün ya da kanuni şeklin yokluğu gibi eksiklikleri bu hüküm gidermez; iyiniyetsiz edinen ise hiç korunmaz (TMK m. 991/1)."
+  },
+  {
+   "stem_md": "Gül, çalıntı olduğunu bilmeden satın aldığı bisikleti iki yıl kullanır. Bu sürede bisiklet, Gül'ün kusuru olmadan bir fırtınada hasar görür. Malik beş yıllık süre içinde açtığı davayla bisikleti geri alır. Gül'ün sorumluluğu nedir?",
+   "options": [
+    "Gül hasarı öder, ama kullanma için tazminat ödemez.",
+    "Gül kullanma için tazminat ödemez ve hasardan sorumlu değildir.",
+    "Gül kullanma bedelini öder, ama hasardan sorumlu değildir.",
+    "Gül hem kullanma bedelini hem hasarı öder."
+   ],
+   "correct_option": 1,
+   "explanation_md": "İyiniyetli zilyet, şeyi karineyle mevcut hakkına uygun şekilde kullandığı için geri vermekle yükümlü olduğu kimseye tazminat ödemez (TMK m. 993/1). Şeyin kaybedilmesinden, yok olmasından veya hasara uğramasından da sorumlu olmaz (TMK m. 993/2). Bu hükümler TMK m. 989/3 yoluyla çalıntı eşyayı iyiniyetle edinen kişiye de uygulanır."
+  },
+  {
+   "stem_md": "İyiniyetli zilyet, zorunlu ve yararlı giderleri için hangi hakka sahiptir?",
+   "options": [
+    "Giderlerin yarısını ister; kalanını hâkim hakkaniyete göre belirler.",
+    "Yalnız zorunlu giderleri ister; yararlı giderler için hakkı yoktur.",
+    "Giderlerin tazminini ister ve tazminat ödeninceye kadar şeyi geri vermekten kaçınabilir.",
+    "Giderler için ayrı dava açmalıdır; şeyi derhâl geri vermek zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 994/1'e göre iyiniyetli zilyet, geri vermeyi isteyen kimseden şey için yaptığı zorunlu ve yararlı giderleri tazmin etmesini isteyebilir ve bu tazminat ödeninceye kadar şeyi geri vermekten kaçınabilir. Yalnız hak sahibi için de zorunlu olan giderlerle sınırlı talep iyiniyetsiz zilyede aittir (TMK m. 995/2)."
+  },
+  {
+   "stem_md": "Ferhat, çalıntı olduğunu bilmeden aldığı antika bir cep saatine kendi zevkine göre, saatin değerini artırmayan ve zararsızca sökülebilen bir zincir taktırmıştır. Malik saati geri alırken zincir için hiçbir karşılık önermemektedir. Hangisi doğrudur?",
+   "options": [
+    "Ferhat zincirin bedelini ister ve ödeninceye kadar saati geri vermekten kaçınabilir.",
+    "Ferhat zincir için para isteyemez; ama saati geri vermeden önce zinciri söküp alabilir.",
+    "Ferhat zincir bedelinin yarısını isteyebilir.",
+    "Zincir saatin parçası olmuştur; Ferhat hiçbir şey isteyemez ve zinciri sökemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Zincir kişisel zevk için yapılmış, değer artışı sağlamayan bir giderdir. TMK m. 994/2'ye göre iyiniyetli zilyet diğer giderler için tazminat isteyemez. Ancak şeyin geri verilmesinden önce bu giderler için tazminat önerilmezse, şeyle birleştirdiği ve zararsızca ayrılabilen eklemeleri geri vermeden önce ayırıp alabilir. Geri vermekten kaçınma hakkı yalnız zorunlu ve yararlı giderler içindir (TMK m. 994/1)."
+  },
+  {
+   "stem_md": "TMK m. 994/3'e göre iyiniyetli zilyedin elde ettiği ürünler hakkında hangisi doğrudur?",
+   "options": [
+    "Zilyet ürünlerin değerinin iki katını öder.",
+    "Ürünler, zilyedin yaptığı giderlerden doğan alacaklarına mahsup edilir.",
+    "Ürünler hesaba katılmaz; gider alacağı tam olarak ödenir.",
+    "Ürünler Devlete geçer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 994/3'e göre zilyedin elde ettiği ürünler, yaptığı giderler sebebiyle doğan alacaklarına mahsup edilir. Yani hak sahibi gider alacağını öderken zilyedin elde ettiği ürünleri hesaba katar. Ürünleri tazmin etme yükümlülüğü iyiniyetsiz zilyede aittir (TMK m. 995/1)."
+  },
+  {
+   "stem_md": "Kaan, başkasına ait olduğunu bilerek elinde tuttuğu atın hastalığı için tedavi gideri (hak sahibi için de zorunlu) ve atın değerini artıran özel eğitim gideri (yararlı) yapmıştır. At geri istendiğinde Kaan, TMK m. 995'e göre hangi giderleri isteyebilir?",
+   "options": [
+    "Hiçbir gideri isteyemez",
+    "Tedavi giderini ve eğitimin geri verme anında mevcut olan değer artışını",
+    "Yalnız tedavi giderini",
+    "Her iki giderin tamamını"
+   ],
+   "correct_option": 2,
+   "explanation_md": "İyiniyetli olmayan zilyet, yaptığı giderlerden ancak hak sahibi için de zorunlu olanların tazmin edilmesini isteyebilir (TMK m. 995/2). Tedavi bu niteliktedir; yararlı eğitim gideri istenemez. Mevcut değer artışının istenebilmesi, kötüniyetli zenginleşene ilişkin TBK m. 80/2'nin çözümüdür; zilyedin sorumluluğunda böyle bir hak yoktur."
+  },
+  {
+   "stem_md": "TMK m. 995/1'e göre iyiniyetli olmayan zilyedin hak sahibine karşı sorumluluğu neyi kapsar?",
+   "options": [
+    "Yalnız elde ettiği ürünleri",
+    "Haksız alıkoymanın verdiği zararları ve elde ettiği veya elde etmeyi ihmal ettiği ürünleri",
+    "Yalnız kasten verdiği zararları",
+    "Şeyin değerinin yarısını"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 995/1'e göre iyiniyetli olmayan zilyet, geri vermekle yükümlü olduğu şeyi haksız alıkoyması yüzünden hak sahibine verdiği zararlar ile elde ettiği veya elde etmeyi ihmal ettiği ürünler karşılığında tazminat öder. Sorumluluğun kusurlu zararlarla sınırlanması yalnız zilyedin şeyi kime vereceğini bilmediği dönem içindir (TMK m. 995/3)."
+  },
+  {
+   "stem_md": "Kemal, elindeki valizin kendisine ait olmadığını bilmektedir; ama gerçek hak sahibinin kim olduğunu bilmemektedir. Bu sırada valiz, Kemal'in hiçbir kusuru olmadan hasar görür. Kemal'in sorumluluğu nedir?",
+   "options": [
+    "İyiniyetsiz zilyet olduğu için bu hasarı, kusuru bulunmasa bile ve kime vereceğini bilmese de her durumda öder.",
+    "Hasarın yarısını öder; kalan yarısına hak sahibi katlanır.",
+    "Hasarı öder, çünkü kusur yalnız iyiniyetli zilyedin sorumluluğunda aranır.",
+    "Şeyi kime geri vereceğini bilmediği sürece yalnız kusuruyla verdiği zararlardan sorumlu olduğundan bu hasardan sorumlu değildir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 995/3'e göre iyiniyetli olmayan zilyet, şeyi kime geri vereceğini bilmediği sürece ancak kusuruyla verdiği zararlardan sorumlu olur. Kemal'in kusuru olmadığından bu hasardan sorumlu tutulamaz. TMK m. 995/1'deki geniş sorumluluk, zilyedin geri vereceği kişiyi bildiği dönem için geçerlidir."
+  },
+  {
+   "stem_md": "Ece, kazandırıcı zamanaşımının şartlarını taşıyarak (iyiniyetle ve malik sıfatıyla, davasız ve aralıksız) bir heykelin üç yıl zilyedi olmuş, sonra heykeli Filiz'e devretmiştir. Filiz de iyiniyetli ve malik sıfatıyla zilyettir. Hangisi doğrudur?",
+   "options": [
+    "Filiz, Ece'nin üç yıllık zilyetliğini kendi süresine ekleyebilir.",
+    "Ece'nin süresinin yalnız yarısı eklenir.",
+    "Ece'nin süresi ancak Filiz onun mirasçısıysa eklenir.",
+    "Filiz'in süresi baştan başlar; önceki zilyetlik hiçbir durumda eklenmez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 996'ya göre kazandırıcı zamanaşımından yararlanma hakkına sahip olan zilyet, zilyetliği kendisine devreden aynı yetkiye sahip idiyse onun zilyetlik süresini kendi süresine ekleyebilir. Ece de iyiniyetli ve malik sıfatıyla zilyet olduğundan bu şart gerçekleşmiştir. Ece kötüniyetli olsaydı süresi eklenemezdi."
+  },
+  {
+   "stem_md": "Tamirci Sedat, onarım için kendisine bırakılan bir antika saati kendi borcuna karşılık alacaklısı Oya'ya rehin olarak teslim eder. Oya saatin Sedat'a ait olduğuna iyiniyetle inanmaktadır. Hangisi doğrudur?",
+   "options": [
+    "Oya rehin hakkını ancak beş yıl sonra kazanır.",
+    "Malik rıza göstermediği için rehin kesin hükümsüzdür ve Oya hiçbir hak kazanmaz.",
+    "Oya saatin maliki olur.",
+    "Oya rehin hakkını kazanır; malik saati Oya'dan rehinden kurtulmuş olarak isteyemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Saat malikin iradesiyle tamirciye verilmiştir; Sedat emin sıfatıyla zilyettir. TMK m. 988 iyiniyetle sınırlı ayni hak edinmeyi de korur. TMK m. 939/2'ye göre rehnedende tasarruf yetkisi olmasa bile rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Oya mülkiyet değil rehin hakkı edinmek istediği için malik olmaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Fotoğrafçı Kerem, profesyonel fotoğraf makinesini 01.02.2026'da bir düğün çekimi için meslektaşı Barış'a iki haftalığına ödünç verir. Borç sıkıntısındaki Barış makineyi kutusu ve aksesuarlarıyla birlikte, kendi malıymış gibi bir ikinci el ilanıyla satışa çıkarır ve 10.02.2026'da piyasa değerine yakın bir bedel olan 85.000 TL'ye Ceren'e satıp teslim eder. Ceren'in Barış'tan şüphelenmesini gerektiren bir durum yoktur.\n\nKerem'in yol bisikleti ise 10.03.2024'te evinin önünden çalınmıştır. Hırsız bisikleti ikinci el bisiklet alıp satan X Bisiklet'e satmış, dükkân da bisikleti 20.05.2024'te 32.000 TL'ye Deniz'e satmıştır. Deniz bisikletin çalıntı olduğunu bilmemektedir. Aynı gün Kerem'in cüzdanındaki 15.000 TL de çalınmış; hırsız bu parayla bir elektronik mağazasından kulaklık almıştır. Mağaza sahibi paranın çalıntı olduğunu bilmemektedir.\n\nKerem 01.09.2026'da makinenin geri verilmesi için Ceren'e, bisikletin geri verilmesi için Deniz'e dava açar ve mağaza sahibinden 15.000 TL'yi ister. Deniz, bisikleti ancak ödediği bedel karşılığında vereceğini söyler.\n\n1. Kerem fotoğraf makinesini Ceren'den geri alabilir mi? Ceren'in makinenin Kerem'e ait olduğunu bildiği varsayılırsa sonuç değişir mi?\n2. Bisiklet için açılan dava süresinde midir? Deniz'in savunması yerinde midir?\n3. Kerem 15.000 TL'yi mağaza sahibinden isteyebilir mi?",
+   "rubric": [
+    {
+     "point": "Makinenin Kerem'in iradesiyle Barış'a bırakılması; Barış'ın emin sıfatıyla zilyet olması ve tek eksikliğin tasarruf yetkisi olması",
+     "weight": 25,
+     "madde_ref": "TMK m. 988"
+    },
+    {
+     "point": "Ceren'in iyiniyet karinesinden yararlanması ve mülkiyeti kazanması; Kerem'in davasının reddi",
+     "weight": 10,
+     "madde_ref": "TMK m. 3"
+    },
+    {
+     "point": "Kötüniyet varsayımında Kerem'in Ceren'e karşı her zaman taşınır davası açabilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 991"
+    },
+    {
+     "point": "Bisikletin irade dışında elden çıkması; beş yıllık sürenin dolmamış olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 989"
+    },
+    {
+     "point": "Benzeri eşya satandan iyiniyetle edinme; Kerem'in ancak 32.000 TL'yi geri vererek bisikleti alabilmesi ve bu tutarı hırsızdan isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 989"
+    },
+    {
+     "point": "Çalınan paranın iyiniyetli mağaza sahibinden istenememesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 990"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda üç ayrı taşınır için iyiniyetli kazanım sorunu vardır: emin sıfatıyla zilyetten satın alınan makine, çalınıp benzeri eşya satan bir dükkân aracılığıyla satılan bisiklet ve çalınan para.\n\n**Hukuki sorunlar:** Makine Kerem'in iradesiyle mi elden çıkmıştır ve Ceren malik olmuş mudur? Bisiklet için beş yıllık süre dolmuş mudur, bedel koşulu var mıdır? Çalınan para iyiniyetli üçüncü kişiden istenebilir mi?\n\n**İlgili hükümler:** TMK m. 3, 763, 988, 989, 990, 991; TBK m. 49.\n\n**Değerlendirme:**\n- *Makine (TMK m. 988):* Kerem makineyi kendi iradesiyle ödünç olarak Barış'a vermiştir. Barış emin sıfatıyla zilyettir. Makinenin maliki olmadığı için tasarruf yetkisi yoktur; satış ve teslim ise başka bir sebeple sakat değildir. Ceren'in iyiniyeti karinedir (TMK m. 3/1). Fiyat piyasa değerine yakındır ve şüphe uyandıran bir işaret yoktur; Kerem aksini ispatlayamamaktadır. Ceren zilyetliği iyiniyetle ve malik olmak üzere devraldığından makinenin maliki olmuştur (TMK m. 763/2, TMK m. 988). Kerem'in taşınır davası da istihkak davası da sonuç vermez. Kerem zararını Barış'tan sözleşmeye aykırılık, haksız fiil (TBK m. 49) ya da elde ettiği satış bedeli için sebepsiz zenginleşme hükümlerine göre ister.\n- *Kötüniyet varsayımı (TMK m. 991/1):* Ceren makinenin Kerem'e ait olduğunu bilseydi zilyetliği iyiniyetle edinmemiş olurdu. Bu durumda Kerem ona karşı her zaman taşınır davası açabilir ve makineyi geri alırdı.\n- *Bisiklet, süre (TMK m. 989/1):* Bisiklet çalınmıştır, yani Kerem'in iradesi dışında elinden çıkmıştır. Kerem onu elinde bulunduran herkese karşı, iyiniyetli olsa bile, beş yıl içinde taşınır davası açabilir. Hırsızlık 10.03.2024'te olmuştur; 01.09.2026'da açılan dava süresindedir.\n- *Bisiklet, bedel (TMK m. 989/2):* Deniz bisikleti ikinci el bisiklet alıp satan bir dükkândan, yani benzeri eşya satan birinden iyiniyetle edinmiştir. Bu durumda taşınır davası ancak ödenen bedelin geri verilmesi koşuluyla açılabilir. Deniz'in savunması yerindedir. Deniz malik olmamıştır; korunan yalnız ödediği 32.000 TL'dir. Kerem bu tutarı ödeyerek bisikleti alır ve ödediği tutarı hırsızdan haksız fiil hükümlerine göre ister (TBK m. 49).\n- *Para (TMK m. 990):* Zilyet, iradesi dışında elinden çıkmış olsa bile parayı iyiniyetle edinen kimseye karşı taşınır davası açamaz. Mağaza sahibi parayı satış bedeli olarak iyiniyetle almıştır. Kerem'in talebi yerinde değildir; zararını hırsızdan ister.\n\n**Sonuç:**\n- Ceren makinenin maliki olmuştur; Kerem'in davası reddedilir. Ceren kötüniyetli olsaydı Kerem makineyi her zaman geri isteyebilirdi.\n- Bisiklet davası süresindedir; ancak Kerem bisikleti Deniz'in ödediği 32.000 TL'yi geri vererek alabilir.\n- Kerem 15.000 TL'yi mağaza sahibinden isteyemez. Bütün zararları için Barış'a ve hırsıza başvurabilir."
+  },
+  {
+   "stem_md": "Mehmet'in yazlığındaki antika piyano 01.06.2023'te çalınır. Hırsız piyanoyu kendi malıymış gibi, bir tanıdığı aracılığıyla 15.08.2023'te piyasa değeri olan 300.000 TL'ye piyano öğretmeni Selin'e satar. Selin piyanonun çalıntı olduğunu bilmemekte ve bilmesini gerektiren bir durum da bulunmamaktadır.\n\nSelin piyanoyu derslerinde kullanır ve 2024 yılı içinde şu giderleri yapar:\n- kırık çekiç mekanizmasının onarımı: 20.000 TL (zorunlu),\n- yeni pedal sistemi: 30.000 TL (bilirkişiye göre piyanonun değerini aynı tutarda artırmıştır),\n- kendi zevkine göre, piyanoya zarar vermeden sökülebilen dekoratif pirinç aksesuarlar: 10.000 TL.\n\nMart 2024'te üst kattaki dairede patlayan borudan sızan su, Selin'in hiçbir kusuru olmadan piyanoya 25.000 TL'lik zarar verir.\n\nMehmet piyanonun yerini öğrenir; polis tutanağını da eklediği ihtarname 12.02.2025'te Selin'e tebliğ edilir. Selin buna rağmen 20.02.2025'te ev taşırken piyanoyu uzman olmayan arkadaşlarına taşıtır ve piyano 15.000 TL hasar görür. 01.03.2025'te piyanonun nemden bozulmaması için zorunlu olan bir nem giderme düzeneği (5.000 TL) taktırır, ayrıca kendi zevkine göre piyanoyu yeniden cilalatır (8.000 TL).\n\nMehmet 10.03.2025'te dava açarak piyanonun geri verilmesini, Selin'in piyanoyu kullandığı süre için tazminat ve bütün hasarların ödenmesini ister. Selin, 300.000 TL kendisine ödenmeden piyanoyu vermeyeceğini ve bütün giderlerinin ödenmesini ister. Mehmet aksesuarlar için hiçbir karşılık önermemektedir.\n\n1. Mehmet piyanoyu geri alabilir mi? Selin 300.000 TL'yi Mehmet'ten isteyebilir mi?\n2. Kullanma ve hasarlar için Selin'in sorumluluğunu değerlendiriniz.\n3. Selin hangi giderleri isteyebilir? Piyanoyu geri vermekten kaçınabilir mi?",
+   "rubric": [
+    {
+     "point": "Piyanonun irade dışında elden çıkması; beş yıl içinde herkese, iyiniyetli Selin'e de karşı taşınır davası açılabilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 989"
+    },
+    {
+     "point": "Piyanonun açık artırmadan, pazardan ya da benzeri eşya satandan alınmaması; 300.000 TL bedel koşulunun bulunmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 989"
+    },
+    {
+     "point": "İyiniyetli dönemde kullanma için tazminat ve su hasarı için sorumluluk bulunmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 993"
+    },
+    {
+     "point": "Zorunlu ve yararlı giderlerin (50.000 TL) istenebilmesi ve ödeninceye kadar geri vermekten kaçınma",
+     "weight": 20,
+     "madde_ref": "TMK m. 994"
+    },
+    {
+     "point": "Lüks aksesuarlar için tazminat istenememesi; karşılık önerilmediğinden söküp alınabilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 994"
+    },
+    {
+     "point": "İhtarla iyiniyetin sona ermesi; taşıma hasarından sorumluluk, nem düzeneği giderinin istenebilmesi, cila giderinin istenememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 995"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Piyano Mehmet'in elinden hırsızlıkla, yani iradesi dışında çıkmıştır. Selin çalıntı eşyayı iyiniyetle edinmiş bir zilyettir. Mehmet'in taşınır davası TMK m. 989'a, geri verme sırasındaki hesaplaşma TMK m. 993-995'e göre çözülür.\n\n**Hukuki sorunlar:** Selin piyanoyu geri vermek zorunda mıdır ve ödediği bedeli isteyebilir mi? İyiniyetli dönemdeki kullanma ve su hasarı için sorumlu mudur? Hangi giderleri isteyebilir ve geri vermekten kaçınabilir mi? İhtardan sonraki hasar ve giderler nasıl değerlendirilir?\n\n**İlgili hükümler:** TMK m. 3, 989, 993, 994, 995.\n\n**Değerlendirme:**\n- *Geri verme (TMK m. 989/1):* Taşınırı çalınan zilyet, onu elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir. Hırsızlık 01.06.2023'te, dava 10.03.2025'te olmuştur; süre dolmamıştır. Selin'in iyiniyetli olması geri verme borcunu ortadan kaldırmaz.\n- *Bedel (TMK m. 989/2):* Bedel koşulu yalnız açık artırmadan, pazardan ya da benzeri eşya satandan edinmede vardır. Selin piyanoyu bir tanıdık aracılığıyla, sıradan bir kişiden almıştır. 300.000 TL'yi Mehmet'ten isteyemez; satıcıya (hırsıza) başvurur.\n- *İyiniyetli dönem (TMK m. 989/3, TMK m. 993):* Diğer konularda iyiniyetli zilyedin hakları uygulanır. Selin 15.08.2023'ten ihtarın tebliğ edildiği 12.02.2025'e kadar iyiniyetlidir (TMK m. 3/1). Piyanoyu kendi malı sanarak kullandığı için bu döneme ilişkin kullanma tazminatı ödemez (TMK m. 993/1). Su hasarı bu dönemde gerçekleşmiştir; iyiniyetli zilyet hasardan sorumlu olmadığından 25.000 TL'yi ödemez (TMK m. 993/2).\n- *Giderler (TMK m. 994/1):* Çekiç onarımı piyanoyu korumak için gereklidir (zorunlu, 20.000 TL). Pedal sistemi piyanonun değerini artırmıştır (yararlı, 30.000 TL). Bu giderler Selin iyiniyetliyken yapılmıştır. Selin toplam 50.000 TL'yi ister ve bu tutar ödeninceye kadar piyanoyu geri vermekten kaçınabilir. Kanun bu hakkı zaten geri vermeyi isteyen kişiye karşı tanıdığından, gerçeği geri verme istemiyle öğrenmiş olması hakkı ortadan kaldırmaz.\n- *Aksesuarlar (TMK m. 994/2):* Kişisel zevk için yapılmıştır; tazminatı istenemez. Mehmet karşılık önermediğinden Selin, zararsızca sökülebilen aksesuarları piyanoyu geri vermeden önce söküp alabilir.\n- *İhtardan sonra (TMK m. 995):* Polis tutanağını içeren ihtarla Selin piyanonun çalıntı olduğunu ve onu Mehmet'e vermesi gerektiğini öğrenmiştir; artık iyiniyetli değildir. Şeyi kime vereceğini bildiğinden TMK m. 995/3'teki sınırlama uygulanmaz. Hasar, piyanoyu uzman olmayan kişilere taşıtmasıyla, yani kendi kusuruyla doğmuştur; kusursuz sorumluluğun sınırı tartışmalı olsa da burada sonuç değişmez. Selin 15.000 TL hasardan sorumludur (TMK m. 995/1). Bu dönemde yapılan giderlerden yalnız hak sahibi için de zorunlu olanları isteyebilir (TMK m. 995/2): nem düzeneği (5.000 TL) bu niteliktedir, kendi zevkine göre yaptırdığı cila (8.000 TL) değildir. İhtardan sonraki kullanım için Mehmet'in talebi TMK m. 995/1 çerçevesinde değerlendirilir; kullanım karşılığı tazminatın ayrıntısı 8. konuda.\n\n**Sonuç:**\n- Mehmet piyanoyu geri alır; Selin 300.000 TL'yi Mehmet'ten isteyemez.\n- Selin iyiniyetli döneme ait kullanma için tazminat ve 25.000 TL su hasarı ödemez; ihtardan sonraki 15.000 TL taşıma hasarını öder.\n- Selin 50.000 TL zorunlu ve yararlı gideri ister ve ödeninceye kadar piyanoyu geri vermekten kaçınabilir. Nem düzeneği için 5.000 TL'yi de ister; aksesuarları söküp alabilir, cila bedelini isteyemez. Karşılıklı alacaklar ayrıca hesaplaşılır."
+  },
+  {
+   "stem_md": "Ayşe, antika pırlanta yüzüğünü 05.01.2025'te temizlik ve taş tespiti için kuyumcu Bora'ya bırakır. Mali sıkıntıdaki Bora, 15.01.2025'te Cengiz'den aldığı 150.000 TL borca karşılık yüzüğü Cengiz'e rehin olarak teslim eder. Bora yüzüğü dükkânının malı olarak göstermiştir ve Cengiz'in aksini bilmesini gerektiren bir durum yoktur. Bora borcunu ödemez ve ortadan kaybolur.\n\nAyşe'nin altın kolyesi 01.04.2025'te evinden Ferit tarafından çalınır. Ferit kolyeyi, çalıntı olduğunu açıkça söyleyerek sevgilisi Gül'e hediye eder. Haziran 2025'te Hasan kolyeyi Gül'ün evinden çalar. Gül, Hasan'a karşı TMK m. 989'a dayanarak taşınır davası açar.\n\nFerit aynı hırsızlıkta Ayşe'nin evinden 50.000 TL nakit de almış ve bu parayla bir telefon mağazasından telefon satın almıştır. Mağaza sahibi paranın çalıntı olduğunu bilmemektedir.\n\nAyşe, yüzüğün rehinden kurtulmuş olarak kendisine verilmesi için Cengiz'e, kolyenin geri verilmesi için Hasan'a dava açar ve mağaza sahibinden 50.000 TL'yi ister.\n\n1. Cengiz yüzük üzerinde bir hak kazanmış mıdır? Ayşe'nin Cengiz'e karşı davasını değerlendiriniz.\n2. Gül'ün Hasan'a karşı açtığı davayı ve Ayşe'nin Hasan'a karşı açtığı davayı değerlendiriniz.\n3. Ayşe 50.000 TL'yi mağaza sahibinden isteyebilir mi?",
+   "rubric": [
+    {
+     "point": "Yüzüğün Ayşe'nin iradesiyle Bora'ya bırakılması; Bora'nın emin sıfatıyla zilyet olması ve tasarruf yetkisinin bulunmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 988"
+    },
+    {
+     "point": "Cengiz'in zilyetliği iyiniyetle devralarak rehin hakkını kazanması",
+     "weight": 20,
+     "madde_ref": "TMK m. 939"
+    },
+    {
+     "point": "Ayşe'nin malik kalması ama yüzüğü rehinden kurtulmuş olarak isteyememesi; Bora'ya karşı taleplerinin saklı olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 49"
+    },
+    {
+     "point": "Gül'ün zilyetliği iyiniyetle edinmemiş olması nedeniyle Hasan'a karşı taşınır davası açamaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 991"
+    },
+    {
+     "point": "Ayşe'nin iyiniyetsiz Hasan'a karşı her zaman taşınır davası açabilmesi; ayrıca istihkak davası imkânı",
+     "weight": 15,
+     "madde_ref": "TMK m. 991"
+    },
+    {
+     "point": "Çalınan paranın iyiniyetli mağaza sahibinden istenememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 990"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda üç ayrı durum vardır: emin sıfatıyla zilyetin malik olmadığı bir taşınırı rehnetmesi, çalınan eşyanın iyiniyetsiz zilyetler arasında el değiştirmesi ve çalınan paranın iyiniyetli bir üçüncü kişiye ödenmesi.\n\n**Hukuki sorunlar:** Cengiz rehin hakkını iyiniyetle kazanmış mıdır? Gül, Hasan'a karşı taşınır davası açabilir mi? Ayşe kolyeyi Hasan'dan isteyebilir mi? Para mağazadan istenebilir mi?\n\n**İlgili hükümler:** TMK m. 3, 683, 939, 988, 989, 990, 991; TBK m. 49.\n\n**Değerlendirme:**\n- *Yüzük (TMK m. 988):* Ayşe yüzüğü temizlik için kendi iradesiyle Bora'ya bırakmıştır. Bora emin sıfatıyla zilyettir; yüzüğün maliki olmadığından onu rehnetme yetkisi yoktur. TMK m. 988 yalnız mülkiyeti değil, iyiniyetle sınırlı ayni hak edinmeyi de korur.\n- *Rehin hakkı (TMK m. 939/2):* Rehnedende tasarruf yetkisi olmasa bile rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Taşınır rehni zilyetliğin alacaklıya devriyle kurulur (TMK m. 939/1) ve yüzük Cengiz'e teslim edilmiştir. Cengiz'in iyiniyeti karinedir (TMK m. 3/1) ve aksini gösteren bir durum yoktur. Cengiz 150.000 TL alacağı için rehin hakkını kazanmıştır.\n- *Ayşe'nin davası:* Ayşe yüzüğün maliki olmaya devam eder, çünkü Cengiz mülkiyet değil rehin hakkı edinmiştir. Ancak Cengiz'in rehin hakkı korunduğundan Ayşe yüzüğü rehinden kurtulmuş olarak isteyemez; bu talep reddedilir. Rehnin paraya çevrilmesi ve sona ermesi rehin konusundadır. Ayşe, Bora'ya karşı sözleşmeye aykırılık ve haksız fiil (TBK m. 49) hükümlerine göre tazminat isteyebilir.\n- *Gül'ün davası (TMK m. 991/2):* Kolye Gül'ün elinden çalınmıştır; TMK m. 989 ilk bakışta Gül'e dava hakkı veriyor gibi görünür. Ancak önceki zilyet de zilyetliği iyiniyetle edinmemişse sonraki zilyede karşı taşınır davası açamaz. Gül kolyenin çalıntı olduğunu bilerek almıştır. Gül'ün taşınır davası reddedilir. Gül'ün süresi içinde gasp nedeniyle zilyetlik davası (TMK m. 982) açması ayrı bir konudur.\n- *Ayşe'nin Hasan'a karşı davası (TMK m. 991/1):* Hasan kolyeyi hırsızlıkla edinmiştir; iyiniyetli değildir. İyiniyetle edinmemiş kimseye karşı önceki zilyet her zaman taşınır davası açabilir. Kolye Ayşe'nin iradesi dışında elinden çıktığından beş yıllık süre (TMK m. 989/1) de dolmamıştır. Ayşe ayrıca malik olarak istihkak davası açabilir (TMK m. 683). Kolye Ayşe'ye geri verilir.\n- *Para (TMK m. 990):* Zilyet, iradesi dışında elinden çıkmış olsa bile parayı iyiniyetle edinmiş olan kimseye karşı taşınır davası açamaz. Mağaza sahibi parayı telefonun bedeli olarak iyiniyetle almıştır. Ayşe'nin talebi reddedilir; zararını Ferit'ten ister (TBK m. 49).\n\n**Sonuç:**\n- Cengiz yüzük üzerinde rehin hakkı kazanmıştır; Ayşe yüzüğü rehinden kurtulmuş olarak isteyemez, Bora'dan tazminat ister.\n- Gül'ün Hasan'a karşı taşınır davası reddedilir. Ayşe'nin Hasan'a karşı davası kabul edilir ve kolye Ayşe'ye verilir.\n- Ayşe 50.000 TL'yi mağaza sahibinden isteyemez; zararını Ferit'ten ister."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "TMK m. 988 ne der?",
+   "back_md": "Bir taşınırın emin sıfatıyla zilyedinden iyiniyetle mülkiyet veya sınırlı ayni hak edinenin edinimi, zilyedin tasarruf yetkisi olmasa bile korunur."
+  },
+  {
+   "front_md": "Emin sıfatıyla zilyet kimdir?",
+   "back_md": "Eşyanın zilyetliğini önceki zilyedin iradesiyle elde etmiş kişi: kiracı, ödünç alan, saklayan, tamirci, komisyoncu, rehin alacaklısı."
+  },
+  {
+   "front_md": "TMK m. 988'in şartları nelerdir?",
+   "back_md": "Taşınır; emin sıfatıyla zilyetten edinme; tek eksikliğin tasarruf yetkisi olması; üçüncü kişinin ayni hak edinmesi; zilyetliğin devri; edinenin iyiniyeti."
+  },
+  {
+   "front_md": "TMK m. 988'de iyiniyet hangi anda aranır?",
+   "back_md": "Zilyetliğin devralındığı, yani edinme anında. Sonradan öğrenmek kazanımı bozmaz."
+  },
+  {
+   "front_md": "TMK m. 763/2'nin bu konuyla bağlantısı nedir?",
+   "back_md": "Zilyetliği iyiniyetle ve malik olmak üzere devralan, devredenin yetkisi olmasa bile zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde malik olur."
+  },
+  {
+   "front_md": "Kiracının elinden çalınan eşya hangi maddeye tabidir?",
+   "back_md": "TMK m. 989. İradi teslim zinciri kopmuştur; kanun 'malik' değil 'zilyet' der."
+  },
+  {
+   "front_md": "TMK m. 989/1'deki dava süresi ve davalı kimdir?",
+   "back_md": "Beş yıl; eşyayı elinde bulunduran herkes, iyiniyetli olsa bile."
+  },
+  {
+   "front_md": "TMK m. 989/2'deki bedel koşulu ne zaman uygulanır?",
+   "back_md": "İrade dışında çıkan eşya açık artırmadan, pazardan ya da benzeri eşya satandan iyiniyetle edinilmişse. Dava ancak ödenen bedel geri verilerek açılır."
+  },
+  {
+   "front_md": "TMK m. 989/2'de edinen malik olur mu?",
+   "back_md": "Hayır. Korunan yalnız ödediği bedeldir. Malik bedeli öder, eşyayı alır, bedeli hırsızdan ister."
+  },
+  {
+   "front_md": "Emin sıfatıyla zilyetten iyiniyetle edinene karşı malik bedel önererek eşyayı geri alabilir mi?",
+   "back_md": "Hayır. Edinen malik olmuştur; bedel koşulu yalnız irade dışında çıkan eşyaya özgüdür (Hukuk Genel Kurulu)."
+  },
+  {
+   "front_md": "TMK m. 990 ne der?",
+   "back_md": "Zilyet, iradesi dışında elinden çıkmış olsa bile para ve hamile yazılı senetleri iyiniyetle edinene karşı taşınır davası açamaz."
+  },
+  {
+   "front_md": "Elden çıkan poliçe ve çekte yeni hamil ne zaman geri verir?",
+   "back_md": "Kural olarak senedi kötüniyetle edinmişse veya edinmesinde ağır kusuru varsa (TTK m. 686/2, TTK m. 792)."
+  },
+  {
+   "front_md": "İyiniyetsiz edinene karşı taşınır davası ne zaman açılır? (TMK m. 991/1)",
+   "back_md": "Her zaman. Beş yıllık süre ve bedel koşulu iyiniyetsiz edineni korumaz."
+  },
+  {
+   "front_md": "TMK m. 991/2 ne der?",
+   "back_md": "Önceki zilyet de zilyetliği iyiniyetle edinmemişse sonraki zilyede karşı taşınır davası açamaz."
+  },
+  {
+   "front_md": "Taşınır davası ile istihkak davasının farkı nedir?",
+   "back_md": "Taşınır davası önceki zilyetliğe dayanır, mülkiyet ispatı gerekmez (TMK m. 988-991). İstihkak davası mülkiyete dayanır (TMK m. 683)."
+  },
+  {
+   "front_md": "İyiniyetli zilyet kullanma ve hasar için sorumlu mudur? (TMK m. 993)",
+   "back_md": "Hayır. Kullanma için tazminat ödemez; kayıp, yok olma ve hasardan sorumlu değildir."
+  },
+  {
+   "front_md": "İyiniyetli zilyedin gider hakları nelerdir? (TMK m. 994)",
+   "back_md": "Zorunlu ve yararlı giderleri ister ve ödeninceye kadar geri vermekten kaçınır. Diğer giderleri isteyemez; karşılık önerilmezse zararsızca ayrılabilen eklemeleri söküp alır."
+  },
+  {
+   "front_md": "İyiniyetli zilyedin elde ettiği ürünler ne olur? (TMK m. 994/3)",
+   "back_md": "Yaptığı giderlerden doğan alacaklarına mahsup edilir."
+  },
+  {
+   "front_md": "İyiniyetsiz zilyet neyi tazmin eder? (TMK m. 995/1)",
+   "back_md": "Haksız alıkoymanın verdiği zararları ve elde ettiği veya elde etmeyi ihmal ettiği ürünleri."
+  },
+  {
+   "front_md": "İyiniyetsiz zilyet hangi giderleri ister? (TMK m. 995/2)",
+   "back_md": "Yalnız hak sahibi için de zorunlu olanları. Yararlı ve lüks giderleri isteyemez."
+  },
+  {
+   "front_md": "TMK m. 995/3 ne der?",
+   "back_md": "İyiniyetsiz zilyet, şeyi kime geri vereceğini bilmediği sürece ancak kusuruyla verdiği zararlardan sorumludur."
+  },
+  {
+   "front_md": "TMK m. 996 ne der?",
+   "back_md": "Kazandırıcı zamanaşımından yararlanabilecek zilyet, kendisine devreden de aynı yetkiye sahipse onun zilyetlik süresini kendi süresine ekler."
+  },
+  {
+   "front_md": "Yargıtay'a göre trafikte kayıtlı araç TMK m. 988 ile iyiniyetle kazanılabilir mi?",
+   "back_md": "Hukuk Genel Kurulu 2021 ve sonraki kararlar: hayır; noter satışı malikle yapılmalı ve trafik siciline güven koruması yok (KTK m. 20). Konu tartışmalıdır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
