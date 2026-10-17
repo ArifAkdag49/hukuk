@@ -1,0 +1,963 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Sınırlı Ayni Haklar: İrtifaklar ve Taşınmaz Yükü",
+ "topic_index": 2,
+ "slug": "intifa-ve-oturma-hakki",
+ "title": "İntifa Hakkı ve Oturma Hakkı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T23:38:24.805308+00:00",
+ "skill_refs": [
+  "esya-hukuku/irtifak-haklari"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir malı malikin elinden almadan, onun yararlanma yetkisini başkasına bırakmanın iki ayni hak yolu vardır: **intifa** (geniş) ve **oturma hakkı** (dar, yalnız konut). Hak nasıl kurulur, kime ne yetki verir, giderleri kim öder, nasıl biter?\n\n- **Sistematik:** İkisi de kişiye bağlı irtifaktır. İntifa TMK m. 794 ile TMK m. 822, oturma hakkı TMK m. 823 ile TMK m. 825 arasındadır.\n- **Konu (TMK m. 794):** İntifa taşınır, taşınmaz, hak veya bir malvarlığı üzerinde kurulur. Aksine düzenleme yoksa konusu üzerinde **tam yararlanma yetkisi** verir.\n- **Kuruluş (TMK m. 795):** Taşınırda zilyetliğin devri, alacakta alacağın devri, taşınmazda tapu kütüğüne **tescil**. Kazanma ve tescilde mülkiyet hükümleri uygulanır.\n- **Sona erme:** Gerçek kişide hak sahibinin **ölümüyle** biter. Tüzel kişide kararlaştırılan sürenin dolmasıyla, süre yoksa kişiliğin ortadan kalkmasıyla biter; en çok **yüz yıl** sürer (TMK m. 797). Konunun tamamen yok olması da sona erdirir (TMK m. 796). Kamulaştırma ve sigortada hak, malın yerine geçen karşılık üzerinde sürer (TMK m. 798).\n- **Geri verme ve zamanaşımı:** Hak sona erince mal malike geri verilir (TMK m. 799). Geri verme anındaki bütün istemler **bir yıl** sonra zamanaşımına uğrar (TMK m. 802).\n- **İntifa sahibinin yetkileri:** Zilyetlik, yönetim, kullanma ve yararlanma; iyi bir yönetici gibi özen (TMK m. 803). Süre içinde olgunlaşan doğal ürünler ve dönemsel gelirler ona aittir (TMK m. 804 ve TMK m. 805). Hakkın **kullanılması** devredilebilir (TMK m. 806).\n- **Sorumluluk:** Kusursuzluğunu intifa sahibi ispat eder; olağan kullanımdan doğan değer azalmasından sorumlu olmaz (TMK m. 800).\n- **Malikin korunması:** İtiraz (TMK m. 807), güvence isteme (TMK m. 808), güvence verilmezse kayyım (TMK m. 810), noterlikçe defter tutturma (TMK m. 811).\n- **Giderler:** Olağan bakım ve işletme giderleri, malın güvencesini oluşturduğu borçların faizleri, vergi ve resimler intifa sahibinde; diğer yükümlülükler malikte (TMK m. 812 ve TMK m. 813).\n- **Özel hâller:** Taşınmazda ekonomik özgülenme yönü değiştirilemez (TMK m. 817); tüketilebilen şeylerin mülkiyeti intifa sahibine geçer (TMK m. 819); alacakta getiri edinilir (TMK m. 820).\n- **Oturma hakkı (TMK m. 823):** Bir binadan veya bölümünden **konut olarak** yararlanma yetkisidir; **devredilemez, mirasçılara geçmez**. Aksine hüküm yoksa intifa hükümleri uygulanır. Hak sahibi, şahsa özgülendiği açıkça belirtilmedikçe ailesi ve ev halkıyla oturur (TMK m. 824).\n- **Kira ile fark:** İntifa ve oturma ayni haktır, kira kişisel haktır (TBK m. 299).",
+  "content_md": "## 0. Konunun haritası\n\nÖnceki konuda taşınmaz irtifakının genel kurallarını gördük. Bu konuda irtifakların iki **kişiye bağlı** türünü inceliyoruz: **intifa hakkı** ve **oturma hakkı**. Kanunun sistematiğinde ikisi, taşınmaz irtifakından sonra gelen \"İntifa hakkı ve diğer irtifak hakları\" ayırımının ilk iki kurumudur; asıl yoğunluk intifadadır, oturma hakkı büyük ölçüde ona yollama yapar.\n\n| Kurum | Madde | Özü |\n|---|---|---|\n| İntifa | TMK m. 794 ile TMK m. 822 | Malı geniş ölçüde kullanma ve ondan yararlanma |\n| Oturma hakkı | TMK m. 823 ile TMK m. 825 | Binadan konut olarak yararlanma |\n| Kira | TBK m. 299 | Bedel karşılığı kullandırma, kişisel hak |\n\nHukuk Genel Kurulu bir kararında intifayı ve oturma hakkını (sükna) \"kişiye bağlı düzenli irtifak\" olarak sınıflandırır; TMK m. 838 türü irtifaklar konu 22'dedir.\n\nKomşu konuları ayrı tutalım: Taşınmaz irtifakının kuruluşu, resmî şekil ve terkin konu 20'de; üst hakkı (TMK m. 826) ve diğer irtifaklar (TMK m. 838) konu 22'dedir. Sağ kalan eşe konut üzerinde intifa ya da oturma hakkı tanınması (TMK m. 240 ve TMK m. 652) aile ve miras hukukunda incelenir. Ölüme bağlı tasarrufla intifa bırakılması da (TMK m. 517 ve TMK m. 568) miras hukukuna aittir. Paylı mülkiyette pay üzerinde intifa konu 10'dadır (TMK m. 697 ve TMK m. 700).\n\n## 1. İntifa hakkının kavramı ve konusu\n\n**İntifa hakkı**, bir mal üzerinde, mülkiyeti malikte bırakarak o malı kullanma ve ondan yararlanma yetkisi veren sınırlı ayni haktır. Mülkiyetin içeriği boşalmaz ama kullanma ve yararlanma yetkileri intifa sahibine geçer. Öğretide ve kararlarda malikte kalan mülkiyete **çıplak (kuru) mülkiyet** denir; bu bir kanun terimi değil, anlatım kolaylığıdır.\n\nTMK m. 794/1'e göre intifa hakkı **taşınırlar, taşınmazlar, haklar veya bir malvarlığı** üzerinde kurulabilir. Aksine düzenleme olmadıkça hak, sahibine konusu üzerinde **tam yararlanma yetkisi** sağlar (TMK m. 794/2). \"Aksine düzenleme\" ifadesi önemlidir: Taraflar yararlanma kapsamını daraltabilir.\n\n> **Örnek:** Ayşe, hisse senetleri üzerinde annesi Hatice lehine intifa kurar. Kâr payları Hatice'ye ödenir, senetlerin mülkiyeti Ayşe'de kalır (TMK m. 794 ve TMK m. 805).\n\nOturma hakkı ise çok daha dardır: yalnız binada, yalnız **konut olarak** yararlanma sağlar (bölüm 9).\n\n## 2. İntifanın kuruluşu (TMK m. 795)\n\nTMK m. 795/1'e göre intifa hakkı konusuna göre farklı yollarla kurulur:\n\n| Konu | Kuruluş |\n|---|---|\n| Taşınır | Zilyetliğin devri |\n| Alacak | Alacağın devri |\n| Taşınmaz | Tapu kütüğüne tescil |\n\nKazanma ve tescilde, aksine düzenleme olmadıkça **mülkiyete ilişkin hükümler** uygulanır (TMK m. 795/2). Bu yollama sonucunda taşınmazda kuruluş sözleşmesi resmî şekle bağlıdır: Taşınmaz mülkiyetinin devrini amaçlayan sözleşmeler resmî şekilde yapılmadıkça geçerli olmaz (TMK m. 706), mülkiyete ve sınırlı ayni haklara ilişkin resmî senetleri tapu sicil müdürü veya görevlileri düzenler (2644 sayılı Kanun m. 26). Yargıtay da kararlarında \"resmî senedin düzenlenerek tapuya tescili\" ifadesini kullanır.\n\nKurulması tescile bağlı ayni hak, tescil edilmedikçe doğmaz (TMK m. 1021). Dolayısıyla resmî senet yapılıp tescil edilmemişse taşınmaz üzerinde intifa hakkı yoktur; yalnız taraflar arasında borç ilişkisi vardır.\n\n> **Örnek:** Ahmet, Bursa'daki zeytinliği üzerinde Zeynep lehine intifa kurmak için tapuda resmî senet düzenletir ve hak tescil edilir. Hak, tescille doğmuştur. Tescil yapılmasaydı Zeynep intifa sahibi olmazdı.\n\n**Yasal intifa.** Kanun, sözleşmeyle değil kanundan doğan (yasal) intifa hakkını da tanır. Taşınmaz üzerindeki yasal intifa tapu kütüğüne tescil edilmemiş olsa bile durumu bilenlere karşı ileri sürülebilir; tescil edilmişse herkese karşı ileri sürülebilir (TMK m. 795/3). Yasal intifa, sebebinin ortadan kalkmasıyla sona erer (TMK m. 796/1). Bu notta yasal intifanın somut örnekleri sayılmıyor.\n\n## 3. İntifanın sona ermesi\n\n| Sebep | Sonuç | Madde |\n|---|---|---|\n| Konunun tamamen yok olması | Hak sona erer | TMK m. 796/1 |\n| Taşınmazda tescilin terkini | Hak sona erer | TMK m. 796/1 |\n| Gerçek kişinin ölümü | Hak sona erer | TMK m. 797/1 |\n| Tüzel kişide sürenin dolması veya kişiliğin kalkması | Hak sona erer | TMK m. 797/1 |\n| Süre dolması, vazgeçme, ölüm gibi sebepler | Malike terkini isteme yetkisi verir | TMK m. 796/2 |\n\n### 3.1 Gerçek kişi ve tüzel kişi\nGerçek kişide intifa **hak sahibinin ölümüyle** sona erer. Süre kararlaştırılsa bile hak en geç ölümle biter. Tüzel kişide intifa kararlaştırılan sürenin dolmasıyla, süre kararlaştırılmamışsa **kişiliğin ortadan kalkmasıyla** sona erer; tüzel kişilerin intifa hakkı **en çok yüz yıl** devam edebilir (TMK m. 797). Yüz yıl sınırı yalnız tüzel kişiler içindir; gerçek kişide sınır ömürdür. Bu hüküm emredicidir, yani intifa sonsuz süreyle kurulamaz.\n\n> **Örnek:** Selin 30 yıllığına intifa hakkı edinmiştir, ancak 10. yılda ölür. Hak, kararlaştırılan 30 yıl dolmadan ölümle sona erer ve mirasçılara geçmez. Tarla maliki Burak, taşınmazda terkini isteme yetkisine sahiptir (TMK m. 796/2 ve TMK m. 797/1).\n\n### 3.2 Terkin ve sicil\nTaşınmazlarda sürenin dolması, vazgeçme veya ölüm gibi sebepler malike **terkini isteme yetkisi** verir (TMK m. 796/2). Hak sahibi veya mirasçıları terkine razı değilse malik mahkemeye başvurur. Yargıtay'a göre terkin davasını taşınmazın maliki açar; dava intifa lehtarına, ölmüşse mirasçılarına yöneltilir, tapu sicil müdürlüğü davalı olmaz. İradi terkinde ise kaydın kendilerine hak sağladığı kişilerin yazılı beyanı aranır (TMK m. 1014).\n\nÖlüm veya sürenin dolmasıyla hakkın sicilde terkinden **önce** sona erip ermediği tartışmalıdır (doktrin bölümüne bakın). Sınavda \"tartışmalıdır\" diyerek iki görüşü yazın.\n\n### 3.3 Harap olma, kamulaştırma, sigorta (TMK m. 798)\nMalik, yararlanılamayacak derecede harap olan intifa konusu malı yeniden yararlanılacak hâle getirmekle yükümlü değildir; getirirse intifa hakkı **yeniden kurulmuş olur** (TMK m. 798/1). Sigorta ve kamulaştırma gibi durumlarda intifa hakkı malın yerine geçen **karşılık üzerinde devam eder** (TMK m. 798/2).\n\n## 4. İntifa hakkı sahibinin hakları\n\n### 4.1 Genel yetkiler\nİntifa hakkı sahibi malı **zilyetliğinde bulundurma, yönetme, kullanma ve ondan yararlanma** yetkilerine sahiptir (TMK m. 803/1). Bunları kullanırken **iyi bir yönetici gibi özen** göstermek zorundadır (TMK m. 803/2).\n\n### 4.2 Ürünler ve gelirler\n- **Doğal ürünler:** İntifa süresi içinde olgunlaşan doğal ürünler intifa sahibine aittir. Ekim ya da dikimi yapan taraf, ürünleri toplayan diğerinden giderleri için ürünün değerini aşmamak üzere uygun bir bedel isteyebilir. Malın doğal verimi sayılmayan bütünleyici parçaları ise malike aittir (TMK m. 804).\n- **Faiz ve dönemsel gelirler:** Sermayenin faizleri ve diğer dönemsel gelirler, daha geç muaccel olsalar bile, intifanın başladığı tarihten sona erdiği tarihe kadar olan kısmıyla intifa sahibine aittir (TMK m. 805).\n\n> **Örnek:** Bir buğday tarlasındaki intifa 30 Haziran'da sona erer. 20 Haziran'da olgunlaşan ürün intifa sahibine aittir (TMK m. 804/1).\n\n### 4.3 Kullanımın devri ve hakkın devredilemezliği (TMK m. 806)\nTMK m. 806/1'e göre sözleşmede aksine hüküm yoksa veya durum ve koşullardan hak sahibince şahsen kullanılması gerektiği anlaşılmıyorsa, intifa hakkının **kullanılması** başkasına devredilebilir. Bu durumda malik haklarını devralana karşı **doğrudan** ileri sürebilir (TMK m. 806/2).\n\nBurada devredilebilen hakkın kendisi değil, yalnız **kullanılmasıdır**. Kanunda intifa hakkının devrini açıkça yasaklayan bir hüküm yoktur; açık devir yasağı oturma hakkı için TMK m. 823/2'de, diğer irtifaklar için TMK m. 838/2'dedir. İntifanın kendisinin devredilemez ve mirasçılara geçmez olduğu sonucu, TMK m. 806'nın yalnız kullanımın devrine izin vermesinden ve TMK m. 797'nin ölümle sona erme kuralından çıkarılır. Yargıtay Hukuk Genel Kurulu bu sonucu açıkça kabul eder ve öğretide de aynı görüş benimsenir. Kullanımın devri yalnız **borçlandırıcı** bir işlemdir; devralan ayni hak kazanmaz.\n\n> **Örnek:** Zeynep, zeytinliği üç yıllığına Mehmet'e kiralar. Sözleşmede şahsen kullanım şartı yoktur, kira geçerlidir. Mehmet intifa sahibi olmaz; Ahmet maliki olarak haklarını Mehmet'e karşı doğrudan ileri sürebilir (TMK m. 806).\n\nYargıtay Hukuk Genel Kurulu'na göre intifa sahibinin TMK m. 806 çerçevesinde yaptığı kira işlemi, kiracıyı alt kiracı değil asıl kiracı yapar. İntifa kira sürerken sona ererse kira kendiliğinden düşmez; kararda eski Borçlar Kanunu'ndaki karşılık kıyasen uygulanarak TBK m. 310'daki gibi malikin kira sözleşmesinin tarafı olduğu sonucuna varılmıştır. Bu karar oy çokluğuyla alınmıştır ve konu tartışmalıdır (doktrin bölümüne bakın).\n\nYargıtay'a göre şahsen kullanılması gerekmeyen intifa hakkının menfaati ve geliri haczedilebilir; ayrıntı icra hukukundadır.\n\n## 5. Malikin hakları ve güvence\n\nİntifa sahibinin yetkileri geniştir; malikin korunması için kanun şu araçları verir:\n\n1. **İtiraz:** Malik, malın hukuka aykırı ya da niteliğine uygun düşmeyen kullanılış biçimine itiraz edebilir (TMK m. 807).\n2. **Güvence isteme:** Haklarının tehlikeye düştüğünü ispat eden malik, intifa sahibinden güvence isteyebilir. Konu tüketilebilen şey ya da kıymetli evraksa, malik tehlikenin ispatına gerek olmaksızın teslimden önce de güvence ister. Kıymetli evrakın güvenilir bir yere tevdi edilmesi güvence yerine geçer (TMK m. 808).\n3. **Bağışlamada istisna:** İntifa hakkı kendisinde kalmak üzere yapılan bağışlamalarda bağışlayandan güvence istenemez (TMK m. 809).\n4. **Yaptırım:** İntifa sahibi kendisine tanınan uygun süre içinde güvence göstermezse ya da malikin itirazına rağmen hukuka aykırı kullanıma devam ederse, **sulh hâkimi** yeni bir karara kadar intifa sahibinin zilyetliğini kaldırıp malı atayacağı bir **kayyıma** tevdi eder (TMK m. 810).\n5. **Defter:** Malik veya intifa sahibi, giderleri paylaşmak üzere malların noterlikçe resmen defterinin tutulmasını her zaman isteyebilir (TMK m. 811).\n\n> **Örnek:** Mehmet, evini oğluna bağışlarken intifayı kendisinde tutar. Oğul, babasından güvence isteyemez (TMK m. 809). Oysa bir kişi lehine un ve yakıt üzerinde intifa kurulursa malik, tehlike ispat etmeden güvence ister (TMK m. 808).\n\n⚠️ **Karıştırma:** Güvencede kural, tehlikeyi **malikin** ispat etmesidir. Tüketilebilen şey ve kıymetli evrakta ispat aranmaz; bağışlayanın kendisinde tuttuğu intifada ise güvence hiç istenemez.\n\n## 6. Yükümlülükler ve giderler\n\n| Gider veya yükümlülük | Kime ait? | Madde |\n|---|---|---|\n| Muhafaza ve olağan bakım için onarım, yenileme | İntifa sahibi | TMK m. 812/1 |\n| Olağan bakım ve işletme giderleri | İntifa sahibi | TMK m. 813/1 |\n| Güvencesini oluşturduğu borçların faizleri | İntifa sahibi | TMK m. 813/1 |\n| Vergi ve resimler | İntifa sahibi | TMK m. 813/1 |\n| Diğer bütün yükümlülükler | Malik | TMK m. 813/3 |\n\n- **Daha önemli işler:** Malın korunması daha önemli işleri gerektiriyorsa intifa sahibi durumu malike bildirir ve işlerin yapılmasına izin vermek zorundadır. Malik kaçınırsa intifa sahibi bunları onun hesabına kendisi yapabilir (TMK m. 812/2-3).\n- **Vergiyi malik ödediyse** intifa sahibi malike tazmin eder (TMK m. 813/2). Malik ise, kendisine ait yükümlülükler için gereken parayı intifa sahibi istem üzerine karşılıksız sağlamazsa malı kısmen veya tamamen paraya çevirebilir (TMK m. 813/3).\n- **Malvarlığı intifasında** borçların faizlerini intifa sahibi öder; haklı durumda borçların kurtarılmasını isteyebilir, bu takdirde intifa borçlar ödendikten sonra kalan kısım üzerinde sürer (TMK m. 814).\n- **Sigorta:** Yerel âdetlere göre iyi bir yönetimin gereği olduğunda intifa sahibi malı malikin lehine yangın ve diğer tehlikelere karşı sigorta ettirir ve primleri öder (TMK m. 815).\n\n## 7. Özel hâller\n\n### 7.1 Taşınmazlar\nİntifa sahibi, yararlanmanın olağan sınırlar içinde kalmasına özen göstermek zorundadır; bu ölçü aşılarak elde edilen ürünler malike aittir (TMK m. 816). Taşınmazın **ekonomik özgülenme yönünü** malike önemli zarar verecek şekilde değiştiremez, onu yeni bir şekle dönüştüremez ve onda önemli bir değişiklik yapamaz. Malike önceden haber vermek ve önemli değişiklik yapmamak koşuluyla taş, kireç, mermer ve turba ocakları ile benzerlerini açabilir (TMK m. 817). Ormanlarda yararlanma, özel kanun hükümlerine uygun bir işletme planı çerçevesinde yapılır (TMK m. 818).\n\n> **Örnek:** Tarım arazisinde intifası olan bir vakıf, araziyi bölüp üzerine oto yıkama tesisi kurmaya kalkarsa ekonomik özgülenme yönünü değiştirmiş olur. Malik TMK m. 807 ve TMK m. 817'ye dayanarak itiraz eder.\n\n### 7.2 Tüketilebilen ve değeri biçilen şeyler\nTüketilebilen şeylerin mülkiyeti, aksi kararlaştırılmadıkça intifa sahibine geçer; geri vermede o günkü değerini ödemekle yükümlü olur. Değeri biçilerek teslim edilen taşınırlarda serbestçe tasarruf edebilir, tasarruf ederse biçilen değeri öder (TMK m. 819).\n\n### 7.3 Alacaklar\nAlacak üzerindeki intifa, alacağın getirisini edinme yetkisi verir. Ödeme istemi ve kıymetli evrak tasarrufları alacaklı ve intifa sahibince **birlikte** yapılır, borçlunun bildirimi her ikisine yöneltilir (TMK m. 820). Yetkili kılınmamış borçlu ikisine birlikte ödemek ya da hâkimin belirleyeceği yere tevdi etmek zorundadır (TMK m. 821). İntifa sahibi, intifanın başlangıcını izleyen **üç ay** içinde alacağın ve kıymetli evrakın kendisine devrini isteyebilir; bu durumda değeri tutarında bedel borcu altına girer (TMK m. 822).\n\n## 8. Hak sona erince: geri verme, sorumluluk, zamanaşımı\n\n- **Geri verme:** İntifa sona erince hak sahibi malı malike geri vermekle yükümlüdür (TMK m. 799).\n- **Sorumluluk:** İntifa sahibi, zararın kendi kusurundan ileri gelmediğini ispat etmedikçe malın yok olmasından veya değerinin azalmasından sorumludur; yararlanması için gerekli olmadığı hâlde tükettiklerini tazmin eder. Malın **olağan kullanımından** doğan değer azalmasından ise sorumlu değildir (TMK m. 800). İspat yükü bu hükümde intifa sahibindedir.\n- **Giderler:** Yükümlü olmadığı hâlde yaptığı giderler, yenilemeler ve eklemeler için hak sona erdiğinde vekâletsiz iş görme hükümlerine göre tazminat isteyebilir. Malik tazminattan kaçınırsa intifa sahibi eklemeleri, malı eski hâline getirmek kaydıyla söküp alabilir (TMK m. 801).\n- **Zamanaşımı:** Geri verme anında malik ve intifa sahibi tarafından ileri sürülebilecek bütün istemler, bu andan başlayarak **bir yıl** geçmekle zamanaşımına uğrar (TMK m. 802).\n\n> **Örnek:** Zeynep'in mirasçısı Can, zeytinliği 1 Mart 2025'te Ahmet'e geri verir. Zeynep'in yaptırdığı damla sulama sistemi yükümlülük dışı bir eklemedir; Can tazminat isteyebilir, Ahmet ödemezse sistemi zeytinliği eski hâline getirerek söküp alır. Hem Can'ın tazminat istemi hem Ahmet'in olası zarar istemi geri verme anından başlayan bir yıl içinde ileri sürülmelidir.\n\n⚠️ **Sınavda dikkat:** Zamanaşımı **bir yıl**dır ve **geri verme anından** başlar. \"Öğrenmeden\" ya da \"sona ermeden\" başlamaz. Hem malikin hem intifa sahibinin istemlerini kapsar.\n\n## 9. Oturma hakkı\n\n### 9.1 Kavram ve nitelik\nTMK m. 823/1'e göre oturma hakkı, bir binadan veya onun bir bölümünden **konut olarak** yararlanma yetkisi verir. İşyeri olarak kullanma yetkisi vermez. Oturma hakkı **başkasına devredilemez ve mirasçılara geçmez** (TMK m. 823/2). Kanunda aksine hüküm bulunmadıkça **intifa hakkına ilişkin hükümler** oturma hakkına da uygulanır (TMK m. 823/3). Kuruluşta bu yollama nedeniyle taşınmazda tescil gerekir; sona ermede de intifa hükümleri esas alınır.\n\n⚠️ **Karşılaştırma:** Diğer irtifaklarda (TMK m. 838/2) ve üst hakkında (TMK m. 826/2) \"aksi kararlaştırılmış olmadıkça\" kaydı vardır. Oturma hakkındaki devredilemezlik kuralında (TMK m. 823/2) böyle bir kayıt yoktur.\n\n### 9.2 Kapsam (TMK m. 824)\n- Kapsam genel olarak hak sahibinin **kişisel ihtiyaçlarına göre** belirlenir (TMK m. 824/1).\n- Hakkın şahsa özgülendiği **açıkça** belirtilmedikçe hak sahibi, bina veya bölümünde **ailesi ve ev halkı** ile birlikte oturabilir (TMK m. 824/2).\n- Binanın bir bölümü üzerinde hakkı olan, ortaklaşa kullanıma özgülenen yerlerden (bahçe, merdiven, çamaşırlık gibi) de yararlanır (TMK m. 824/3).\n\n> **Örnek:** Fatma, iki katlı evinin üst katında yeğeni Ali lehine ömür boyu oturma hakkı kurar; senette hakkın şahsa özgülendiği yazmaz. Ali eşi ve çocuğuyla taşınabilir ve ortak bahçeden yararlanır. Ali hakkını kardeşi Mert'e satamaz, Ali ölünce çocuğuna geçmez (TMK m. 823/2 ve TMK m. 824).\n\n### 9.3 Giderler (TMK m. 825)\nÖlçüt, hak sahibinin binadan veya bölümden **tek başına mı yoksa malikle birlikte mi** yararlandığıdır:\n- Hak, binanın veya bölümün **tamamından** yararlanma yetkisi veriyorsa, muhafaza ve olağan bakım için gerekli onarım ve yenileme giderleri oturma hakkı sahibine aittir (TMK m. 825/1).\n- Hak sahibi malik ile **birlikte** kullanıyorsa bakım ve onarım giderleri malike aittir (TMK m. 825/2).\n\n### 9.4 Kiraya verilebilir mi?\nOturma hakkının kullanımının başkasına bırakılabilmesi (kiraya verilmesi) tartışmalıdır. Baskın görüşe göre oturma hakkı kişisel ihtiyaçlar için kurulduğundan (TMK m. 824/1) ve devredilemediğinden (TMK m. 823/2), intifadan farklı olarak kullanımı da başkasına bırakılamaz. Karşı görüş TMK m. 823/3 yollamasıyla TMK m. 806'ya dayanır. Sınavda baskın görüşü yazıp karşı görüşü belirtin.\n\n### 9.5 Sona ermesi\nSona ermede intifa hükümleri uygulanır. Yargıtay, bir kararda, ilk derece mahkemesinin oturma hakkının sona ermesinde intifa hükümlerinin uygulanacağı ve bu sebepler arasında malikin istediği zaman hakkı sona erdirmesinin bulunmadığı gerekçesiyle verdiği ret kararını, istinaf aşamasından sonra ayrıca gerekçe yazmadan onamıştır. Yani malik, oturma hakkını tek taraflı iradesiyle sona erdiremez.\n\n## 10. İntifa, oturma ve kira karşılaştırması\n\n**İntifa ve oturma hakkı arasındaki farklar**\n\n| Ölçüt | İntifa | Oturma hakkı |\n|---|---|---|\n| Konu | Taşınır, taşınmaz, hak, malvarlığı (TMK m. 794) | Yalnız binada konut (TMK m. 823/1) |\n| Kapsam | Tam yararlanma (TMK m. 794/2) | Kişisel ihtiyaçlar, aile ve ev halkı (TMK m. 824) |\n| Devir | Kullanım devredilebilir (TMK m. 806) | Devredilemez (TMK m. 823/2) |\n| Ölüm | Hak sahibi ölünce biter (TMK m. 797) | Mirasçılara geçmez (TMK m. 823/2) |\n\n**İntifa ve oturma ile kira arasındaki farklar**\n\n| Ölçüt | İntifa ve oturma | Kira |\n|---|---|---|\n| Nitelik | Sınırlı ayni hak | Kişisel hak (TBK m. 299) |\n| Kuruluş | Taşınmazda resmî senet ve tescil (TMK m. 795) | Kural olarak şekle bağlı değil |\n| Bedel | Bedelli ya da bedelsiz olabilir | Kira bedeli zorunlu unsur (TBK m. 299) |\n| Malik değişirse | Hak yeni malike karşı da sürer | Yeni malik sözleşmenin tarafı olur (TBK m. 310) |\n| Alt kullanım | İntifada kullanım devri var, oturmada devir yok | Alt kira; konut ve çatılı işyerinde kiraya verenin yazılı rızasıyla (TBK m. 322) |\n| Hak sahibinin ölümü | Hak sona erer | Kira mirasçılara geçer, mirasçıların fesih hakkı vardır (TBK m. 333) |\n| Giderler | Olağan bakım ve vergi intifa sahibinde (TMK m. 813/1) | Vergi, zorunlu sigorta kiraya verende (TBK m. 302); olağan temizlik ve bakım kiracıda (TBK m. 317) |\n\nKişisel hak olan kira, tapuya şerh verilirse taşınmaz üzerinde sonradan hak kazananlara karşı da ileri sürülebilir (TMK m. 1009; konu 6). İntifa ve oturma ise tescille doğduğu için herkese karşı ileri sürülür.\n\n## 11. Uygulamadan iki ilke\n\n1. **Malik de haksız kullanan olabilir.** Yargıtay'a göre malik de intifa sahibine karşı haksız kullanan sayılır; intifa sahibi malike karşı **elatmanın önlenmesi** ve **ecrimisil** isteyebilir. Ecrimisil, intifa sahibinin kullanımdan men edildiği tarihten itibaren hesaplanır.\n2. **Kurulma amacının kalkması sona erme sebebi değildir.** Evlilik nedeniyle kurulan intifa, boşanmayla kendiliğinden düşmez; intifa sebepten bağımsız bir yararlanma hakkıdır ve sona erme hâlleri TMK m. 796 ve devamında gösterilmiştir.\n\n## 12. Olay çözerken denetim şeması\n\n1. **Hakkı nitelendir:** İntifa mı, oturma hakkı mı, kira mı? Konu ne (taşınır, taşınmaz, alacak, binada konut)?\n2. **Kuruluş:** Taşınırda zilyetlik, alacakta devir, taşınmazda resmî senet ve tescil var mı (TMK m. 795, TMK m. 1021)?\n3. **Hak sahibi kim?** Gerçek kişi mi (ölümle biter), tüzel kişi mi (süre veya kişilik; en çok yüz yıl) (TMK m. 797)?\n4. **Yetkiler:** Ürün, gelir, kullanımın devri (TMK m. 804, TMK m. 805, TMK m. 806); oturmada aile, ortak yerler (TMK m. 824).\n5. **Giderler:** Olağan bakım, vergi, faiz kimde (TMK m. 812, TMK m. 813; oturmada TMK m. 825)?\n6. **Malik ne yapabilir?** İtiraz, güvence, kayyım (TMK m. 807, TMK m. 808, TMK m. 810); ekonomik özgülenme yönü (TMK m. 817).\n7. **Sona erme ve sonrası:** Sona erme sebebi, terkin, geri verme, sorumluluk, tazminat, bir yıllık zamanaşımı (TMK m. 796, TMK m. 799, TMK m. 800, TMK m. 801, TMK m. 802).",
+  "critical_md": "- 📌 İntifa; taşınır, taşınmaz, hak veya bir malvarlığı üzerinde kurulur ve aksine düzenleme yoksa tam yararlanma yetkisi verir (TMK m. 794).\n- 📌 Kuruluş: taşınırda zilyetliğin devri, alacakta alacağın devri, taşınmazda tapu kütüğüne tescil. Kazanma ve tescilde mülkiyet hükümleri uygulanır (TMK m. 795).\n- 📌 Gerçek kişide intifa hak sahibinin ölümüyle biter; tüzel kişide süre dolmasıyla, süre yoksa kişiliğin kalkmasıyla biter (TMK m. 797/1).\n- ⚠️ Yüz yıl sınırı yalnız tüzel kişilerin intifası içindir (TMK m. 797/2). Gerçek kişide sınır ömürdür.\n- 📌 Kamulaştırma ve sigortada intifa, malın yerine geçen karşılık üzerinde devam eder; harap olan malı malik yenilemek zorunda değildir, yenilerse intifa yeniden kurulmuş olur (TMK m. 798).\n- ⚠️ Zamanaşımı bir yıldır ve geri verme anından başlar; malikin ve intifa sahibinin bütün istemlerini kapsar (TMK m. 802).\n- ⚠️ Zarar ve değer kaybında kusursuzluğunu ispat edecek olan intifa sahibidir; olağan kullanımdan doğan değer azalmasından sorumlu değildir (TMK m. 800).\n- 📌 İntifa süresi içinde olgunlaşan doğal ürünler intifa sahibine aittir; faiz ve dönemsel gelirler intifa süresine düşen kısmıyla ona aittir (TMK m. 804 ve TMK m. 805).\n- ⚠️ Kanun intifa hakkının değil, intifa hakkının kullanılmasının devrine izin verir (TMK m. 806). İntifanın kendisi devredilemez ve mirasçılara geçmez; kullanımı devralan ayni hak kazanmaz.\n- 📌 Güvence: malik tehlikeyi ispat eder; tüketilebilen şey ve kıymetli evrakta ispat gerekmez (TMK m. 808). İntifa kendisinde kalmak üzere bağışlayandan güvence istenemez (TMK m. 809). Güvence verilmezse sulh hâkimi malı kayyıma tevdi eder (TMK m. 810).\n- 📌 Olağan bakım ve işletme giderleri, güvencesini oluşturduğu borçların faizleri, vergi ve resimler intifa süresince intifa sahibine aittir; diğer yükümlülükler malike aittir (TMK m. 813).\n- ⚠️ Taşınmazın ekonomik özgülenme yönü malike önemli zarar verecek şekilde değiştirilemez (TMK m. 817). Tüketilebilen şeylerin mülkiyeti intifa sahibine geçer, geri vermede o günkü değer ödenir (TMK m. 819).\n- 📌 Oturma hakkı bir binadan veya bölümünden konut olarak yararlanma yetkisidir; devredilemez ve mirasçılara geçmez; aksine hüküm yoksa intifa hükümleri uygulanır (TMK m. 823).\n- ⚠️ Oturma hakkı sahibi, şahsa özgülendiği açıkça belirtilmedikçe ailesi ve ev halkıyla oturabilir (TMK m. 824/2). Tamamından yararlanıyorsa olağan onarım giderleri onundur; malikle birlikte kullanıyorsa bakım ve onarım giderleri malikindir (TMK m. 825).\n- ⚠️ Evlilik gibi kurulma amacının ortadan kalkması intifayı kendiliğinden sona erdirmez; malik de intifa sahibine karşı haksız kullanan olabilir.",
+  "doctrine_md": "### İntifanın ölüm veya sürenin dolmasıyla sona ermesi ve terkin\nTMK m. 797 intifanın ölümle ya da sürenin dolmasıyla \"sona ereceğini\" söyler. Bir görüşe göre hak sicil dışında da biter; terkin yalnız açıklayıcıdır ve sicil gerçeği yansıtmaz hâle gelir. Karşı görüşe göre TMK m. 796/1 taşınmazda sona ermeyi \"tescilin terkini\"ne bağlar, TMK m. 796/2 ise diğer sebeplerin malike yalnız terkini isteme yetkisi verdiğini söyler; bu yüzden ayni hak terkine kadar sicilde varlığını sürdürür. Yargıtay Hukuk Genel Kurulu iradi terkinde kaydın silinmesinin kurucu olduğunu belirtir; ölüm hâlinde açık bir tutum yoktur. Sınavda \"tartışmalıdır\" deyin ve sonucu buna bağlamayın.\n\n### Oturma hakkının kiraya verilmesi\nBaskın görüşe göre oturma hakkı kişisel ihtiyaçlar için kurulur ve devredilemez, bu yüzden kullanımı da başkasına bırakılamaz. Karşı görüş, TMK m. 823/3'ün intifa hükümlerini, dolayısıyla TMK m. 806'yı yolladığını, sözleşmede izin varsa kullanımın bırakılabileceğini savunur. Bu notta bu soruya ilişkin bir Yargıtay kararı yer almıyor.\n\n### TMK m. 785'in intifaya kıyasen uygulanması\nYargıtay 14. Hukuk Dairesi bir kararında genel bir açıklama olarak, yararlar dengesi bozulup intifa malike külfetine göre çok az yarar sağlıyorsa malikin TMK m. 785'in kıyasen uygulanmasıyla intifanın sona erdirilmesini isteyebileceğini belirtmiştir. Bu açıklama somut sonucu belirlememiştir; aynı karar intifayı sona erdirmemiştir. Karşı görüşe göre sona erme sebepleri TMK m. 796, TMK m. 797 ve TMK m. 798'de düzenlenmiştir ve intifa için taşınmaz irtifakı hükümlerine TMK m. 838/3'teki gibi açık bir yollama yoktur.\n\n### İntifa sahibinin yaptığı kira, intifa bitince\nHukuk Genel Kurulu çoğunluğu, kira sürerken intifa sona erse de malikin kiracıya karşı kira sözleşmesinin tarafı olduğunu kabul etmiştir. Karşı görüş (özel dairenin bozma gerekçesi ve genel kurulun azınlığı) şöyledir: Kiraya verenin yetkisi intifayla sınırlıdır, intifa bitince kira dayanaksız kalır. Karar oy çokluğuyla alındığından bu çözüme \"yerleşik içtihat\" denemez.\n\n### Tüzel kişi lehine oturma hakkı\nTMK m. 823/1 \"konut olarak yararlanma\"dan söz eder. Baskın görüş, oturma hakkının yalnız gerçek kişi lehine kurulabileceği yönündedir; konut ihtiyacı ve aile ile ev halkıyla birlikte oturma (TMK m. 824/2) gerçek kişiye özgüdür. Bu noktada kesin bir içtihat gösterilemediğinden sınavda kesin dille değil, gerekçesiyle yazın.",
+  "glossary": [
+   {
+    "term": "İntifa hakkı",
+    "definition": "Mülkiyeti malikte bırakarak bir mal üzerinde kullanma ve yararlanma yetkisi veren, tam yararlanma sağlayan sınırlı ayni hak (TMK m. 794)."
+   },
+   {
+    "term": "Oturma hakkı",
+    "definition": "Bir binadan veya onun bir bölümünden konut olarak yararlanma yetkisi veren, devredilemeyen ve mirasçılara geçmeyen irtifak (TMK m. 823)."
+   },
+   {
+    "term": "Çıplak (kuru) mülkiyet",
+    "definition": "İntifa kurulunca malikte kalan mülkiyet. Kanun terimi değildir; öğretide ve kararlarda kullanılır."
+   },
+   {
+    "term": "Yasal intifa",
+    "definition": "Sözleşmeyle değil kanundan doğan intifa hakkı. Sebebinin ortadan kalkmasıyla sona erer (TMK m. 795/3 ve TMK m. 796/1)."
+   },
+   {
+    "term": "Kullanımın devri",
+    "definition": "İntifa hakkının kendisinin değil, kullanılmasının başkasına bırakılması. Borçlandırıcı bir işlemdir ve devralana ayni hak kazandırmaz (TMK m. 806)."
+   },
+   {
+    "term": "Güvence",
+    "definition": "Malikin haklarının tehlikeye düşmesi hâlinde intifa sahibinden isteyebileceği teminat (TMK m. 808)."
+   },
+   {
+    "term": "Kayyım",
+    "definition": "Güvence verilmediğinde ya da hukuka aykırı kullanım sürdüğünde sulh hâkiminin intifa konusunu tevdi ettiği kişi (TMK m. 810)."
+   },
+   {
+    "term": "Ekonomik özgülenme yönü",
+    "definition": "Taşınmazın ekonomik amacı (örneğin tarım arazisi olması). İntifa sahibi bunu malike önemli zarar verecek şekilde değiştiremez (TMK m. 817)."
+   },
+   {
+    "term": "Tüketilebilen şey",
+    "definition": "Kullanıldıkça yok olan şey (un, yakıt). Mülkiyeti aksi kararlaştırılmadıkça intifa sahibine geçer (TMK m. 819)."
+   },
+   {
+    "term": "Geri verme",
+    "definition": "İntifa sona erince hak sahibinin malı malike iade yükümü. Bütün istemler bu andan itibaren bir yılda zamanaşımına uğrar (TMK m. 799 ve TMK m. 802)."
+   },
+   {
+    "term": "Terkin",
+    "definition": "Taşınmazda tescilin kütükten silinmesi. Ölüm, süre dolması, vazgeçme malike terkini isteme yetkisi verir (TMK m. 796/2)."
+   },
+   {
+    "term": "Ecrimisil",
+    "definition": "Haksız kullanım nedeniyle istenen bedel. İntifa sahibi, kullanımdan men edilmişse malikten de isteyebilir."
+   },
+   {
+    "term": "Ev halkı",
+    "definition": "Oturma hakkı sahibiyle birlikte yaşayan aile ve diğer kişiler. Hak şahsa özgülenmemişse onlar da oturabilir (TMK m. 824/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "794",
+   "official_text": "I. Konusu\nMadde 794- İntifa hakkı, taşınırlar, taşınmazlar, haklar veya bir malvarlığı üzerinde kurulabilir.\nAksine düzenleme olmadıkça bu hak, sahibine, konusu üzerinde tam yararlanma yetkisi sağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "795",
+   "official_text": "II. Kurulması\nMadde 795- İntifa hakkı, taşınırlarda zilyetliğin devri, alacaklarda alacağın devri, taşınmazlarda tapu kütüğüne tescil ile kurulur.\nTaşınır ve taşınmazlarda intifa hakkının kazanılması ve tescilinde, aksine düzenleme olmadıkça, mülkiyete ilişkin hükümler uygulanır.\nTaşınmaz üzerindeki yasal intifa hakkı tapu kütüğüne tescil edilmemiş olsa bile, durumu bilenlere karşı ileri sürülebilir. Tescil edilmiş ise, herkese karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "796",
+   "official_text": "1. Sona erme sebepleri\nMadde 796- İntifa hakkı, konusunun tamamen yok olması ve taşınmazlarda tescilin terkini; yasal intifa hakkı, sebebinin ortadan kalkması ile sona erer.\nSürenin dolması veya hak sahibinin vazgeçmesi ya da ölümü gibi diğer sona erme sebepleri, taşınmazlarda malike terkini isteme yetkisi verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "797",
+   "official_text": "2. Süresi\nMadde 797- İntifa hakkı, gerçek kişilerde hak sahibinin ölümü; tüzel kişilerde kararlaştırılan sürenin dolması, süre kararlaştırılmamışsa kişiliğin ortadan kalkmasıyla sona erer.\nTüzel kişilerin intifa hakkı, en çok yüz yıl devam edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "798",
+   "official_text": "3. Harap olma veya kamulaştırma\nMadde 798- Malik, yararlanılamayacak derecede harap olan intifa konusu malı yararlanılacak hâle getirmekle yükümlü değildir; getirirse intifa hakkı yeniden kurulmuş olur.\nSigorta ve kamulaştırma gibi durumlarda intifa hakkı, hakkın konusu yerine geçen karşılık üzerinde devam eder.\n4. Geri verme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "799",
+   "official_text": "a. Yükümlülük\nMadde 799- İntifa hakkı sona erince hak sahibi, hakkın konusu olan malı malike geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "800",
+   "official_text": "b. Sorumluluk\nMadde 800- İntifa hakkı sahibi, zararın kendi kusurundan ileri gelmediğini ispat etmedikçe, malın yok olmasından veya değerinin azalmasından sorumludur.\nİntifa hakkı sahibi, yararlanması için gerekli olmadığı hâlde tükettiği şeyleri tazmin etmekle yükümlüdür.\nİntifa hakkı sahibi, malın olağan kullanılması sonucunda meydana gelen değer azalmalarından sorumlu değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "801",
+   "official_text": "c. Giderler\nMadde 801- İntifa hakkı sahibi, yükümlü olmadığı hâlde yaptığı giderler, yenilemeler ve eklemeler için, hak sona erdiğinde, vekâletsiz iş görme hükümleri uyarınca tazminat isteyebilir.\nMalikin tazminat vermekten kaçınması hâlinde intifa hakkı sahibi, yaptığı eklemeleri, malı eski hâline getirmek kaydıyla söküp alabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "802",
+   "official_text": "5. Zamanaşımı\nMadde 802- Geri verme anında malik ve intifa hakkı sahibi tarafından ileri sürülebilecek bütün istem hakları, bu andan başlayarak bir yıl geçmekle zamanaşımına uğrar.\n1. İntifa hakkı sahibinin hakları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "803",
+   "official_text": "a. Genel olarak\nMadde 803- İntifa hakkı sahibi, hakkın konusu olan malı zilyetliğinde bulundurma, yönetme, kullanma ve ondan yararlanma yetkilerine sahiptir.\nİntifa hakkı sahibi, bu yetkilerini kullanırken iyi bir yönetici gibi özen göstermek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "804",
+   "official_text": "b. Doğal ürünler\nMadde 804- İntifa hakkı süresi içinde olgunlaşan doğal ürünler, intifa hakkı sahibine aittir.\nEkimi veya dikimi yapan malik veya intifa hakkı sahibi, olgunlaşan ürünleri toplayan diğer taraftan, yaptığı giderler için ürünün değerini aşmamak üzere uygun bir bedel isteyebilir.\nNitelikleri itibarıyla malın doğal verimi veya ürünü sayılmayan bütünleyici parçaları malike aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "805",
+   "official_text": "c. Faizler\nMadde 805- İntifa hakkına konu olan sermayenin faizleri ve diğer dönemsel gelirleri, daha geç muaccel olsalar bile, intifa hakkının başladığı tarihten sona erdiği tarihe kadar intifa hakkı sahibine ait olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "806",
+   "official_text": "d. Hakkın kullanılmasının devri\nMadde 806- Sözleşmede aksine hüküm yoksa veya durum ve koşullardan hak sahibince şahsen kullanılması gerektiği anlaşılmıyorsa, intifa hakkının kullanılması başkasına devredilebilir.\nBu takdirde malik, haklarını, devralana karşı doğrudan doğruya ileri sürebilir.\n2. Malikin hakları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "807",
+   "official_text": "a. Gözetim\nMadde 807- Malik, hakkın konusu olan malın hukuka aykırı ya da niteliğine uygun düşmeyen kullanılış biçimine itiraz edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "808",
+   "official_text": "b. Güvence isteme\nMadde 808- Haklarının tehlikeye düştüğünü ispat eden malik, intifa hakkı sahibinden güvence isteyebilir.\nİntifa hakkının konusu tüketilebilen şey veya kıymetli evrak ise, malik tehlikenin ispatına gerek olmaksızın teslimden önce de güvence isteyebilir.\nKıymetli evrakın güvenilir bir yere tevdi edilmesi güvence yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "809",
+   "official_text": "c. Bağışlamada güvence\nMadde 809- İntifa hakkı kendisinde kalmak üzere yapılan bağışlamalarda bağışlayandan güvence istenemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "810",
+   "official_text": "d. Güvence verilmemesinin sonuçları\nMadde 810- İntifa hakkı sahibi, kendisine tanınan uygun süre içinde güvence göstermez veya hakkın konusu olan malı malikin itiraz etmesine rağmen hukuka aykırı şekilde kullanmaya devam ederse; sulh hâkimi, yeni bir karara kadar intifa hakkı sahibinin zilyetliğini kaldırarak hakkın konusunu atayacağı bir kayyıma tevdi eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "811",
+   "official_text": "3. Defter tutma\nMadde 811- Malik veya intifa hakkı sahibi, diğerinden giderleri paylaşmak üzere intifa hakkına konu olan malların noterlikçe resmen defterinin tutulmasını her zaman isteyebilir.\n4. İntifa hakkı sahibinin yükümlülükleri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "812",
+   "official_text": "a. Malın korunması\nMadde 812- İntifa hakkı sahibi, hakkın konusu olan malın muhafazası ve olağan bakımı için gerekli onarım ve yenilemeleri yapmakla yükümlüdür.\nMalın muhafazası, daha önemli işlerin yapılmasını veya önlemlerin alınmasını gerektiriyorsa; intifa hakkı sahibi, durumu malike bildirmek ve bunların gerçekleştirilmesine izin vermek zorundadır.\nMalikin gereken işleri yapmaktan kaçınması hâlinde intifa hakkı sahibi, bunları onun hesabına kendisi yapabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "813",
+   "official_text": "b. Bakım ve işletme giderleri\nMadde 813- İntifa hakkı konusu olan malın olağan bakım ve işletme giderleri, güvencesini oluşturduğu borçların faizleri, vergi ve resimleri, intifa süresince intifa hakkı sahibine aittir.\nVergi ve resimleri malik ödemişse, intifa hakkı sahibi, yukarıda belirtilen esasa göre bunları malike tazmin etmek zorundadır.\nDiğer bütün yükümlülükler malike aittir. Ancak, intifa hakkı sahibi bunların yerine getirilmesi için gereken parayı, istemi üzerine malike karşılıksız olarak sağlamazsa; malik, intifa hakkı konusu malı bu yükümlülüklerin yerine getirilmesi için kısmen veya tamamen paraya çevirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "814",
+   "official_text": "c. Malvarlığı intifaında borçların faizi\nMadde 814- Malvarlığı intifaında, intifa hakkı sahibi bu malvarlığındaki borçların faizlerini ödemekle yükümlüdür. Ancak, durum ve koşullar haklı gösteriyorsa, intifa hakkı sahibi bu yükümlülükten kurtarılmasını isteyebilir. Bu takdirde intifa hakkı, borçların ödenmesinden sonra kalan kısım üzerinde devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "815",
+   "official_text": "d. Sigorta ettirme\nMadde 815- Yerel âdetlere göre iyi bir yönetimin gereği olduğu takdirde intifa hakkı sahibi, malikin lehine malı yangına ve diğer tehlikelere karşı sigorta ettirmekle yükümlüdür.\nBu durumda veya intifa hakkının sigortalı bir mal üzerinde kurulmuş olması hâlinde intifa hakkı sahibi, hakkının devamı süresince sigorta primlerini ödemekle yükümlüdür.\nV. Özel hâller\n1. Taşınmazlar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "816",
+   "official_text": "a. Ürünler\nMadde 816- Bir taşınmaz üzerinde intifa hakkına sahip olan kimse, yararlanmanın olağan sınırlar içerisinde kalmasına özen göstermekle yükümlüdür.\nBu ölçü aşılarak elde edilen ürünler malike ait olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "817",
+   "official_text": "b. Özgülenme yönü\nMadde 817- İntifa hakkı sahibi, intifa konusu taşınmazın ekonomik özgülenme yönünü malike önemli zarar verecek şekilde değiştiremez; özellikle onu yeni bir şekle dönüştüremeyeceği gibi, onda önemli bir değişiklik de yapamaz.\nİntifa hakkı sahibi, malike önceden haber vermek ve taşınmazın ekonomik özgülenme yönünde önemli değişiklik yapmamak koşuluyla taş, kireç, mermer ve turba ocakları ile benzerlerini açabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "818",
+   "official_text": "c. Ormanlar\nMadde 818- Bir orman üzerinde intifa hakkına sahip olan kimse, ondan özel kanun hükümlerine uygun bir işletme plânı çerçevesinde yararlanabilir.\nMalik ile intifa hakkı sahibi, işletme plânı yapılırken kendi haklarının gözetilmesini isteyebilirler.\nFırtına, kar, yangın, sel, zararlı böcek akını veya diğer sebepler yüzünden olağan yararlanma önemli ölçüde aşılmışsa orman, bu kaybı giderek azaltacak şekilde işletilir veya işletme plânı yeni duruma uygun hâle getirilir. Aşırı yararlanma dolayısıyla elde edilen bedel, faiz getirecek şekilde yatırılır ve verim noksanını gidermeye ayrılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "819",
+   "official_text": "2. Tüketilebilen ve değeri biçilen şeyler\nMadde 819- Tüketilebilen şeylerin mülkiyeti, aksi kararlaştırılmadıkça, intifa hakkı sahibine geçer; ancak, intifa hakkı sahibi geri verme sırasında bu şeylerin o günkü değerini ödemekle yükümlü olur.\nİntifa hakkı sahibi, değeri biçilerek kendisine teslim olunan diğer taşınırlar üzerinde, aksi kararlaştırılmadıkça, serbestçe tasarrufta bulunabilir; ancak, bu yetkisini kullandığı takdirde bu şeylerin biçilen değerlerini geri verme sırasında ödemekle yükümlü olur. Bu ödeme, tarım işletmesi gereçleri, hayvan sürüleri, ticarî mallar veya benzeri şeylerde aynı cins ve nitelikte eşya verilmesi suretiyle yerine getirilebilir.\n3. Alacaklar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "820",
+   "official_text": "a. Yararlanmanın kapsamı\nMadde 820- Bir alacak üzerindeki intifa hakkı, onun getirisini edinme yetkisi verir.\nBorçluya karşı yapılacak ödeme isteminin ve kıymetli evrak üzerindeki tasarrufların alacaklı ve intifa hakkı sahibi tarafından birlikte yapılması, borcunu ödemek üzere borçlu tarafından yapılacak bildirimin de bunların her ikisine yöneltilmesi gerekir.\nAlacak tehlikeye düşerse, alacaklı ve intifa hakkı sahibinden her biri, diğerinden iyi bir yönetimin gerektirdiği önlemleri almaya katılmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "821",
+   "official_text": "b. Ödeme ve işletme\nMadde 821- Alacaklı ve intifa hakkı sahibinden birine ödemeye yetkili kılınmamış olan borçlu, borcunu ikisine birlikte ödemek veya hâkimin belirleyeceği yere tevdi etmek zorundadır.\nYerine getirilen edimin konusu ve özellikle geri ödenecek ana para, intifa hakkına tâbi olur.\nAlacaklı veya intifa hakkı sahibi, ana paranın güvenilir ve getiri sağlayan bir yere yatırılmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "822",
+   "official_text": "c. Devir isteme hakkı\nMadde 822- İntifa hakkı sahibi, intifaın başlangıcını izleyen üç ay içinde, hakkın konusu olan alacağın ve kıymetli evrakın kendisine devrini isteyebilir.\nİntifa hakkı sahibi, alacağın ve kıymetli evrakın devri sırasındaki değeri tutarında devredene karşı bunların bedelini ödeme borcu altına girer ve feragat edilmedikçe bu borç için ayrıca güvence göstermekle yükümlü olur.\nGüvence istemekten feragat edilmemiş ise devir, ancak güvence gösterildikten sonra hüküm ifade eder.\nB. Oturma hakkı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "823",
+   "official_text": "I. Genel olarak\nMadde 823- Oturma hakkı, bir binadan veya onun bir bölümünden konut olarak yararlanma yetkisi verir.\nOturma hakkı, başkasına devredilemez ve mirasçılara geçmez.\nKanunda aksine hüküm bulunmadıkça, intifa hakkına ilişkin hükümler oturma hakkına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "824",
+   "official_text": "II. Oturma hakkının kapsamı\nMadde 824- Oturma hakkının kapsamı, genel olarak hak sahibinin kişisel ihtiyaçlarına göre belirlenir.\nOturma hakkı sahibi, hakkın şahsına özgülendiği açıkça belirtilmedikçe, bina veya onun bir bölümünde ailesi ve ev halkı ile birlikte oturabilir.\nBinanın bir bölümü üzerinde oturma hakkına sahip olan kimse, ortaklaşa kullanmaya özgülenen yerlerden de yararlanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "825",
+   "official_text": "III. Giderler\nMadde 825- Oturma hakkı, binanın veya bir bölümünün tamamından yararlanma yetkisi veriyorsa; bina veya bölümün muhafazası ve olağan bakımı için gerekli onarım ve yenileme giderleri, oturma hakkı sahibine aittir.\nOturma hakkı sahibi bina veya onun bir bölümünü malik ile birlikte kullanıyorsa, bakım ve onarım giderleri malike ait olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "785",
+   "official_text": "3. Mahkeme kararı\nMadde 785- Lehine irtifak kurulan taşınmaz için bu hakkın sağladığı hiç bir yarar kalmamışsa, yüklü taşınmazın maliki bu hakkın terkinini isteyebilir.\nYüküne oranla çok az yarar sağlayan bir irtifak hakkının, bedel karşılığında kısmen veya tamamen terkini istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "826",
+   "official_text": "I. Konu ve tapu kütüğüne kayıt\nMadde 826- Bir taşınmaz maliki, üçüncü kişi lehine arazisinin altında veya üstünde yapı yapmak veya mevcut bir yapıyı muhafaza etmek yetkisi veren bir irtifak hakkı kurabilir.\nAksi kararlaştırılmış olmadıkça bu hak, devredilebilir ve mirasçılara geçer.\nÜst hakkı, bağımsız ve sürekli nitelikte ise üst hakkı sahibinin istemi üzerine tapu kütüğüne taşınmaz olarak kaydedilebilir. En az otuz yıl için kurulan üst hakkı, sürekli niteliktedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "838",
+   "official_text": "E. Diğer irtifak hakları\nMadde 838- Malik, taşınmazı üzerinde herhangi bir kişi veya topluluk lehine atış eğitimi veya spor alanı ya da geçit olarak kullanılmak gibi belirli bir yararlanmaya hizmet etmek üzere başka irtifak hakları da kurabilir.\nBu haklar, aksi kararlaştırılmış olmadıkça, başkasına devredilemez ve mirasçılara geçmez. Bu hakların kapsamı, hak sahibinin olağan ihtiyaçlarına göre belirlenir.\nTaşınmaz lehine irtifaklara ilişkin hükümler, bu tür irtifak haklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "697",
+   "official_text": "b. Diğer hak sahiplerinin çıkarılması\nMadde 697- Bir paydaşın çıkarılmasına ilişkin hükümler, kıyas yoluyla, pay üzerinde intifa veya diğer bir aynî ya da tapuya şerh edilmiş kişisel yararlanma hakkı sahipleri hakkında da uygulanır. Ancak, devri caiz olmayan bir hakkın uygun bir tazminat karşılığında sona ermesine karar verilir.\n7. Paylı mülkiyetin sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "700",
+   "official_text": "Madde 700- Bir paydaşın kendi payı üzerinde intifa hakkı kurması hâlinde, diğer paydaşlardan biri intifa hakkının kurulduğunun kendisine tebliğinden başlayarak üç ay içinde paylaşma isteminde bulunursa; satış yoluyla paylaşmada intifa hakkı, buna ilişkin paya düşecek bedel üzerinde devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "240",
+   "official_text": "2. Aile konutu ve ev eşyası\nMadde 240- Sağ kalan eş, eski yaşantısını devam ettirebilmesi için, ölen eşine ait olup birlikte yaşadıkları konut üzerinde kendisine katılma alacağına mahsup edilmek, yetmez ise bedel eklenmek suretiyle intifa veya oturma hakkı tanınmasını isteyebilir; mal rejimi sözleşmesiyle kabul edilen başka düzenlemeler saklıdır.\nSağ kalan eş, aynı koşullar altında ev eşyası üzerinde kendisine mülkiyet hakkı tanınmasını isteyebilir.\nHaklı sebeplerin varlığı hâlinde, sağ kalan eşin veya ölen eşin yasal mirasçılarının istemiyle intifa veya oturma hakkı yerine, konut üzerinde mülkiyet hakkı tanınabilir.\nSağ kalan eş, mirasbırakanın bir meslek veya sanat icra ettiği ve altsoyundan birinin aynı meslek veya sanatı icra etmesi için gerekli olan bölümlerde bu hakları kullanamaz. Tarımsal taşınmazlara ilişkin miras hukuku hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "652",
+   "official_text": "D. Aile konutu ve ev eşyasının sağ kalan eşe özgülenmesi\nMadde 652- Eşlerden birinin ölümü hâlinde tereke malları arasında ev eşyası veya eşlerin birlikte yaşadıkları konut varsa; sağ kalan eş, bunlar üzerinde kendisine miras hakkına mahsuben mülkiyet hakkı tanınmasını isteyebilir.\nHaklı sebeplerin varlığı hâlinde, sağ kalan eşin veya mirasbırakanın diğer yasal mirasçılarından birinin istemi üzerine, mülkiyet yerine intifa veya oturma hakkı tanınmasına da karar verilebilir.\nMirasbırakanın bir meslek veya sanat icra ettiği ve altsoyundan birinin aynı meslek ve sanatı icra etmesi için gerekli olan bölümlerde, sağ kalan eş bu hakları kullanamaz. Tarımsal taşınmazlara ilişkin miras hukuku hükümleri saklıdır.\nE. Özellikleri olan eşya",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "517",
+   "official_text": "I. Konusu\nMadde 517- Mirasbırakan, bir kimseye onu mirasçı atamaksızın belirli bir mal bırakma yoluyla kazandırmada bulunabilir.\nBelirli mal bırakma, ölüme bağlı tasarrufla bir kimseye terekedeki bir malın mülkiyetinin veya terekenin tamamı ya da bir kısmı üzerinde intifa hakkının kazandırılmasına yönelik olabileceği gibi; bir kimse lehine tereke değeri üzerinden bir edimin yerine getirilmesinin, bir iradın bağlanmasının veya bir kimsenin bir borçtan kurtarılmasının, mirasçılar veya belirli mal bırakılanlara yükletilmesi suretiyle de olabilir.\nBırakılan belirli mal terekede bulunmadığı takdirde, tasarruftan aksi anlaşılmadıkça, ölüme bağlı tasarrufu yerine getirmekle yükümlü olanlar borçtan kurtulurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "568",
+   "official_text": "5. İntifa hakkı veya irat bakımından\nMadde 568- Mirasbırakan, tahmin edilen devam sürelerine göre sermayeye çevrilmeleri hâlinde tasarruf edilebilir kısmı aşan intifa hakkı veya irat borcu ile terekesini yükümlü kılarsa, mirasçıları, intifa hakkının veya irat borcunun tenkisini ya da tasarruf edilebilir kısmı vererek bu yükümlülüğün kaldırılmasını isteyebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1009",
+   "official_text": "a. Kişisel haklarda\nMadde 1009- Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, gerialım sözleşmelerinden doğan haklar ile şerhedilebileceği kanunlarda açıkça öngörülen diğer haklar tapu kütüğüne şerhedilebilir.\nBunlar şerh verilmekle o taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1014",
+   "official_text": "b. Terkin ve değişiklik için\nMadde 1014- Bir tescilin terkin edilmesi veya değiştirilmesi, ancak bu kaydın kendilerine hak sağladığı kimselerin yazılı beyanı üzerine yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1021",
+   "official_text": "I. Tescilin yapılmamasının sonuçları\nMadde 1021- Kurulması kanunen tescile tâbi aynî haklar, tescil edilmedikçe varlık kazanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "299",
+   "official_text": "MADDE 299- Kira sözleşmesi, kiraya verenin bir şeyin kullanılmasını veya kullanmayla birlikte ondan yararlanılmasını kiracıya bırakmayı, kiracının da buna karşılık kararlaştırılan kira bedelini ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "302",
+   "official_text": "MADDE 302- Kiralananla ilgili zorunlu sigorta, vergi ve benzeri yükümlülüklere, aksi kararlaştırılmamış veya kanunda öngörülmemiş ise, kiraya veren katlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "310",
+   "official_text": "MADDE 310- Sözleşmenin kurulmasından sonra kiralanan herhangi bir sebeple el değiştirirse, yeni malik kira sözleşmesinin tarafı olur.\nKamulaştırmaya ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "317",
+   "official_text": "MADDE 317- Kiracı, kiralananın olağan kullanımı için gerekli temizlik ve bakım giderlerini ödemekle yükümlüdür. Bu konuda yerel âdete de bakılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "322",
+   "official_text": "MADDE 322- Kiracı, kiraya verene zarar verecek bir değişikliğe yol açmamak koşuluyla, kiralananı tamamen veya kısmen başkasına kiraya verebileceği gibi, kullanım hakkını da başkasına devredebilir.\nKiracı, konut ve çatılı işyeri kiralarında, kiraya verenin yazılı rızası olmadıkça, kiralananı başkasına kiralayamayacağı gibi, kullanım hakkını da devredemez.\nAlt kiracı, kiralananı kiracıya tanınandan başka biçimde kullandığı takdirde kiracı, kiraya verene karşı sorumlu olur. Bu durumda kiraya veren, kiracısına karşı sahip olduğu hakları alt kiracıya veya kullanım hakkını devralana karşı da kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "333",
+   "official_text": "MADDE 333- Kiracının ölmesi durumunda mirasçıları, yasal fesih bildirim süresine uyarak en yakın fesih dönemi sonu için sözleşmeyi feshedebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/2641",
+   "karar_no": "2021/411",
+   "decision_date": "06.04.2021",
+   "summary_md": "Bir belediye, akaryakıt istasyonu bulunan iki taşınmazı üzerinde, %95 payı kendisine ait bir limited şirket lehine 49 yıllığına intifa hakkı kurmuştur. Şirket bu hakka dayanarak davacıyla noterde kira sözleşmeleri yapmış ve kira kayıtları tapuya işlenmiştir; belediye sonradan kuruluş kararını iptal edip şirketi tahliye ettirmiş, intifa ve kira kayıtları terkin edilmiştir. Davacı kiracılığın tespitini, muarazanın giderilmesini ve müdahalenin önlenmesini istemiş; ilk derece mahkemesi belediye yönünden tespiti sıfat yokluğundan reddetmiş, şirket yönünden kabul etmiş, her iki davalı yönünden muarazanın giderilmesine ve müdahalenin önlenmesine karar vermiştir. Özel daire davacının alt kiracı olduğu ve asıl kira ile alt kiranın da sona erdiği gerekçesiyle bozmuş, mahkeme direnmiş, Hukuk Genel Kurulu direnme kararını oy çokluğuyla onamıştır. Genel Kurula göre intifa sonsuz kurulamaz, intifa hakkı devredilemez ve mirasçılara geçmez; TMK m. 806 yalnız kullanımın devrine izin verir ve bu devir ayni hak doğurmaz. İntifa sahibiyle kira yapan kişi alt kiracı değil asıl kiracıdır; intifa sona erse de kira kendiliğinden düşmez, eski kanundaki karşılık kıyasen uygulanarak (güncel karşılığı TBK m. 310) malik kira sözleşmesinin tarafı sayılmıştır. Oy çokluğuyla alındığından bu son nokta tartışmalıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/686358100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "14. Hukuk Dairesi",
+   "esas_no": "2016/7046",
+   "karar_no": "2019/1554",
+   "decision_date": "21.02.2019",
+   "summary_md": "Evli çiftte davalı eş adına kayıtlı taşınmazdaki 1/3 pay üzerinde, davacı lehine 2011'de bedelsiz ve süresiz intifa hakkı kurulmuştur. Boşanma kararı 2013'te kesinleşmiştir. Davacı, davalının taşınmazı kendisine kullandırmadığını ileri sürerek intifaya dayalı elatmanın önlenmesi ve ecrimisil istemiş; davalı karşı davada intifanın evlilik nedeniyle kurulduğunu, boşanmayla sebebin kalktığını ileri sürerek terkin istemiştir. İlk derece mahkemesi asıl davayı reddedip karşı davayı kabul etmiş, 14. Hukuk Dairesi oybirliğiyle bozmuştur. Yargıtay'a göre intifa sebepten bağımsız bir yararlanma hakkıdır; sona erme hâlleri TMK m. 796 ve devamında gösterilmiştir, kurulma amacının ortadan kalkması bunlar arasında değildir. Malik de intifa sahibine karşı haksız kullanan sayılır; bu nedenle elatmanın önlenmesi kabul edilmeli, ecrimisil intifadan men tarihinden başlayarak hesaplatılıp intifa sahibi lehine hükmedilmeli, terkin davası reddedilmelidir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/492584100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2023/4253",
+   "karar_no": "2024/4041",
+   "decision_date": "23.09.2024",
+   "summary_md": "Yurt dışında yaşayan davacı, kardeşi olan davalıya ev alması için para göndermiştir. Davacıya göre yanıltılarak imzalattırılan vekâletnameye dayanılarak, davalıların çocuğu vekil sıfatıyla davacının taşınmazı üzerinde davalılar lehine 20.000 TL karşılığında sükna (oturma) hakkı kurmuştur; davacı terkin ve tahliye istemiştir. İlk derece mahkemesi davayı reddetmiş: oturma hakkının sona erme sebepleri ayrıca düzenlenmediğinden intifa hükümleri uygulanır, bu hükümlerde malikin istediği zaman hakkı sona erdirmesi öngörülmemiştir; vekâletin kötüye kullanıldığı da ispatlanamamıştır. Bölge adliye mahkemesi davacının istinafını esastan reddetmiş, davalıların vekâlet ücretine ilişkin istinafını kabul ederek hükmü düzeltmiş ve davayı yine reddetmiş; 7. Hukuk Dairesi bu kararı oybirliğiyle onamıştır. Yargıtay ayrıca gerekçe yazmamış, ilk derece ve istinaf gerekçesini genel bir onamayla benimsemiştir; \"oturma hakkının sona ermesinde intifa hükümleri uygulanır, malikin tek taraflı iradesi sona erme sebebi değildir\" ilkesi bu onanan gerekçeden çıkar.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1100171800",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "İntifa hakkı hangi konular üzerinde kurulabilir?",
+   "options": [
+    "Yalnız taşınmazlar üzerinde",
+    "Taşınırlar ve taşınmazlar üzerinde; haklar ve malvarlığı üzerinde kurulamaz",
+    "Yalnız maddi nitelikteki, yani taşınır ve taşınmaz mallar üzerinde",
+    "Taşınırlar, taşınmazlar, haklar veya bir malvarlığı üzerinde"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 794/1'e göre intifa hakkı taşınırlar, taşınmazlar, haklar veya bir malvarlığı üzerinde kurulabilir. Konunun yalnız taşınmazla ya da yalnız maddi mallarla sınırlandırılması kanuna aykırıdır; alacak ve hisse gibi haklar üzerinde de intifa kurulur. Oturma hakkı ise yalnız binada konut olarak yararlanma sağlar (TMK m. 823/1)."
+  },
+  {
+   "stem_md": "Bir alacak üzerinde intifa hakkı hangi yolla kurulur?",
+   "options": [
+    "Zilyetliğin devri ile",
+    "Noterde düzenlenen yazılı sözleşmenin borçluya ihbarı ile",
+    "Tapu kütüğüne tescil ile",
+    "Alacağın devri ile"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 795/1'e göre intifa hakkı taşınırlarda zilyetliğin devri, alacaklarda alacağın devri, taşınmazlarda tapu kütüğüne tescil ile kurulur. Tescil taşınmazlara, zilyetliğin devri taşınırlara özgüdür. Borçluya bildirim, alacak intifasında ödeme ve tasarruf işlemleri için önem taşır (TMK m. 820) ama kuruluş yolu değildir."
+  },
+  {
+   "stem_md": "Ahmet, Bursa'daki zeytinliği üzerinde Zeynep lehine intifa hakkı kurmak için tapuda resmî senet düzenletmiştir, ancak tescil henüz yapılmamıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Tescil yapılmasa da intifa hakkı, Zeynep'in tescil istemini yaptığı anda doğar",
+    "Tescil yapılmadıkça Zeynep'in zeytinlik üzerinde intifa hakkı doğmamıştır",
+    "Resmî senet düzenlendiği için Zeynep intifa hakkı sahibi olmuştur",
+    "Zeynep zeytinlikte zilyet olduğu anda intifa sahibi olur"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Taşınmazda intifa hakkı tapu kütüğüne tescil ile kurulur (TMK m. 795/1). Kurulması tescile tabi ayni hak, tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Resmî senet kuruluş sözleşmesinin şeklini sağlar ama hakkı tek başına doğurmaz. Zilyetlik taşınırlarda kuruluş yoludur, taşınmazda yeterli değildir."
+  },
+  {
+   "stem_md": "Selin, bir tarla üzerinde 30 yıl süreli bir intifa hakkı edinmiştir. Selin 10. yılda ölmüştür. Hukuki durum nedir?",
+   "options": [
+    "Süre kararlaştırıldığından hak 30 yıl dolana kadar devam eder",
+    "Hak, mirasçıların rızası olmadıkça sona ermez",
+    "Hak, gerçek kişide hak sahibinin ölümüyle sona erer; tarla maliki taşınmazda terkini isteme yetkisine sahiptir",
+    "Hak, kalan 20 yıl boyunca Selin'in mirasçılarına geçer"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Gerçek kişilerde intifa hakkı hak sahibinin ölümüyle sona erer (TMK m. 797/1). Süre kararlaştırılmış olması hakkı en geç ölümden sonra sürdürmez. Ölüm, taşınmazlarda malike terkini isteme yetkisi verir (TMK m. 796/2). Mirasçılara geçiş olmaz."
+  },
+  {
+   "stem_md": "Tüzel kişilerin intifa hakkı en çok kaç yıl devam edebilir?",
+   "options": [
+    "Otuz yıl",
+    "Elli yıl",
+    "Süre sınırı yoktur; tüzel kişilik devam ettiği sürece sürer",
+    "Yüz yıl"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 797/2'ye göre tüzel kişilerin intifa hakkı en çok yüz yıl devam edebilir. Yüz yıl sınırı yalnız tüzel kişiler içindir; gerçek kişide hak ölümle sona erer (TMK m. 797/1). Sınırsız süreli intifa kurulamaz."
+  },
+  {
+   "stem_md": "Bir anonim şirket lehine süre belirtilmeden tarla üzerinde intifa hakkı kurulmuş ve tescil edilmiştir. Şirket tasfiye edilerek tüzel kişiliği sona ermiştir. İntifa hakkı bakımından sonuç nedir?",
+   "options": [
+    "Hak, ancak malikin vazgeçme beyanıyla sona erer",
+    "Hak, şirketin pay sahiplerine geçer",
+    "Süre kararlaştırılmadığı için hak, kişiliğin ortadan kalkmasıyla sona erer",
+    "Hak, tasfiyeden bağımsız olarak yüz yıl devam eder"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Tüzel kişilerde intifa kararlaştırılan sürenin dolmasıyla, süre kararlaştırılmamışsa kişiliğin ortadan kalkmasıyla sona erer (TMK m. 797/1). Yüz yıl yalnız üst sınırdır; kişilik daha önce sona ererse hak da biter. Pay sahiplerine geçiş öngörülmemiştir."
+  },
+  {
+   "stem_md": "Hasan'ın intifa hakkı sahibi olduğu arsa kamulaştırılmış ve kamulaştırma bedeli ödenmiştir. İntifa hakkı bakımından hangisi doğrudur?",
+   "options": [
+    "İntifa hakkı, kamulaştırma bedeli üzerinde devam eder",
+    "İntifa hakkı, kamulaştırılan arsanın bulunduğu bölgedeki başka bir arsaya aktarılır",
+    "İntifa hakkı, kamulaştırmayla bedel ödenmeden sona erer ve Hasan hiçbir istemde bulunamaz",
+    "Kamulaştırma bedeli yalnız malike ödenir ve intifa sahibinin hakkı bedele yansımaz"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Sigorta ve kamulaştırma gibi durumlarda intifa hakkı, hakkın konusu yerine geçen karşılık üzerinde devam eder (TMK m. 798/2). Bu nedenle bedel malikin elinde intifa sahibinin hakkına tabi kalır."
+  },
+  {
+   "stem_md": "İntifa hakkı sona erdiğinde geri verme anında ileri sürülebilecek istemlerin zamanaşımı bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Zamanaşımı istemin öğrenilmesinden başlayarak iki yıldır",
+    "Yalnız malikin istemleri bir yılda zamanaşımına uğrar; intifa sahibininki on yıldır",
+    "Malik ve intifa sahibi tarafından ileri sürülebilecek bütün istemler, geri verme anından başlayarak bir yıl geçmekle zamanaşımına uğrar",
+    "Zamanaşımı intifa hakkının sona ermesinden başlayarak beş yıldır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 802'ye göre geri verme anında malik ve intifa hakkı sahibi tarafından ileri sürülebilecek bütün istem hakları, bu andan başlayarak bir yıl geçmekle zamanaşımına uğrar. Hükümde taraf ayrımı yoktur ve başlangıç geri verme anıdır; öğrenme ya da sona erme değildir."
+  },
+  {
+   "stem_md": "Kerem, bir otomobil üzerinde üç yıl boyunca intifa hakkını kullanmış ve aracı olağan biçimde kullanmıştır. Hak sona erince araç malike geri verilmiş, malik kilometre ve eskime nedeniyle oluşan değer azalması için tazminat istemiştir. Hangisi doğrudur?",
+   "options": [
+    "Kerem, kusursuzluğunu ispat edememişse olağan kullanımdan doğan değer kaybını da öder",
+    "Kerem, değer azalmasından yalnız aracı başkasına kullandırmışsa sorumludur",
+    "Kerem, malın olağan kullanılması sonucunda meydana gelen değer azalmalarından sorumlu değildir",
+    "Kerem, değer kaybının tamamından yalnız malik ispat ederse sorumludur"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 800'e göre intifa hakkı sahibi, malın olağan kullanılması sonucunda meydana gelen değer azalmalarından sorumlu değildir. Yok olma veya değer azalmasında ise zararın kendi kusurundan ileri gelmediğini ispat etmek ona düşer; ancak bu ispat yükü olağan kullanımdan doğan azalma için söz konusu olmaz."
+  },
+  {
+   "stem_md": "Süresi 30 Haziran'da sona erecek bir tarla intifasında, buğday 20 Haziran'da olgunlaşmıştır. Ürün kime aittir?",
+   "options": [
+    "Malik ile intifa sahibi eşit paylaşır",
+    "Malike, çünkü hasat intifa bitmeden yapılmamıştır",
+    "Ürün, intifa süresi içinde olgunlaştığı için intifa hakkı sahibine aittir",
+    "Ürün, intifa sahibine ancak malik izin verirse ait olur"
+   ],
+   "correct_option": 2,
+   "explanation_md": "İntifa hakkı süresi içinde olgunlaşan doğal ürünler intifa hakkı sahibine aittir (TMK m. 804/1). Ölçüt olgunlaşma anıdır, toplama anı değildir. Ekim yapan taraf ürünü toplayandan giderleri için ürünün değerini aşmamak üzere uygun bir bedel isteyebilir."
+  },
+  {
+   "stem_md": "Zeynep, zeytinlik üzerinde tescilli intifa hakkı sahibidir. Sözleşmede şahsen kullanma şartı yoktur ve durumdan da böyle bir zorunluluk anlaşılmamaktadır. Zeynep zeytinliği Mehmet'e üç yıllığına kiralamıştır. Hangisi doğrudur?",
+   "options": [
+    "Kullanımın devri mümkündür; malik haklarını Mehmet'e karşı doğrudan ileri sürebilir",
+    "Mehmet, kira ile intifa hakkını ayni hak olarak kazanmıştır",
+    "Kira geçersizdir, çünkü intifa hakkı devredilemez",
+    "Kira, ancak malikin yazılı rızasıyla ve tapuya tescille geçerli olur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Sözleşmede aksine hüküm yoksa ve şahsen kullanma gerekmiyorsa intifa hakkının kullanılması başkasına devredilebilir; malik de haklarını devralana karşı doğrudan ileri sürebilir (TMK m. 806). İntifa hakkının kendisi devredilmez ama kullanımın devri kanunen mümkündür. Bu devir borçlandırıcıdır; Mehmet ayni hak kazanmaz."
+  },
+  {
+   "stem_md": "İntifa konusu tüketilebilen bir şey ya da kıymetli evrak olduğunda malikin güvence istemesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Malik tehlikenin ispatına gerek olmaksızın teslimden önce de güvence isteyebilir",
+    "Malik, haklarının tehlikeye düştüğünü her hâlde ispat etmek zorundadır",
+    "Malik güvenceyi ancak malı teslim ettikten sonra isteyebilir",
+    "Güvence, ancak sulh hâkiminin kararıyla istenebilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Konu tüketilebilen şey veya kıymetli evrak ise malik, tehlikenin ispatına gerek olmaksızın teslimden önce de güvence isteyebilir (TMK m. 808/2). Diğer hâllerde kural, haklarının tehlikeye düştüğünü malikin ispat etmesidir (TMK m. 808/1). Kıymetli evrakın güvenilir bir yere tevdi edilmesi güvence yerine geçer."
+  },
+  {
+   "stem_md": "Mehmet, evini oğlu Emre'ye bağışlarken intifa hakkını kendisinde tutmuştur. Emre, babasından güvence isteyebilir mi?",
+   "options": [
+    "Evet, tehlikeyi ispat etmesine gerek olmaksızın",
+    "Evet, malik olarak tehlikeyi ispat etmek koşuluyla",
+    "Hayır, intifa hakkı kendisinde kalmak üzere yapılan bağışlamalarda bağışlayandan güvence istenemez",
+    "Hayır, çünkü güvence yalnız tüketilebilen şeylerde istenebilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "İntifa hakkı kendisinde kalmak üzere yapılan bağışlamalarda bağışlayandan güvence istenemez (TMK m. 809). Güvence isteme hakkı kural olarak malikin korunması içindir (TMK m. 808) ama bu özel durumda kanun bağışlayanı güvenceden muaf tutmuştur."
+  },
+  {
+   "stem_md": "Vakıf, tarım arazisi üzerinde intifa sahibidir. Malik, vakfın kullanımının araziye zarar vereceğini belgelerle ispat etmiş ve güvence istemiştir. Vakıf kendisine tanınan uygun süre içinde güvence göstermemiştir. Hangisi doğrudur?",
+   "options": [
+    "Malik, araziyi tek başına kendi adına kiraya verebilir",
+    "Güvence verilmezse intifa hakkı kendiliğinden sona erer",
+    "Malik, doğrudan intifa hakkının iptalini isteyebilir; başka bir yol yoktur",
+    "Sulh hâkimi, yeni bir karara kadar zilyetliği kaldırıp araziyi atayacağı bir kayyıma tevdi eder"
+   ],
+   "correct_option": 3,
+   "explanation_md": "İntifa sahibi uygun süre içinde güvence göstermezse sulh hâkimi, yeni bir karara kadar intifa sahibinin zilyetliğini kaldırarak hakkın konusunu atayacağı bir kayyıma tevdi eder (TMK m. 810). Güvence verilmemesi intifayı kendiliğinden sona erdirmez ve malike tek taraflı tasarruf yetkisi vermez."
+  },
+  {
+   "stem_md": "Bir evin intifa hakkı sahibi Zeynep için aşağıdakilerden hangisi, intifa süresince Zeynep'e ait giderlerdendir?",
+   "options": [
+    "Malı kökten yenileyen büyük yapısal değişiklik giderleri",
+    "Malik adına yapılan yeni bina inşa giderleri",
+    "Olağan bakım ve işletme giderleri ile vergi ve resimler",
+    "Malikin kendi borçlarına ilişkin diğer bütün yükümlülükler"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Olağan bakım ve işletme giderleri, güvencesini oluşturduğu borçların faizleri, vergi ve resimler intifa süresince intifa hakkı sahibine aittir (TMK m. 813/1). Diğer bütün yükümlülükler malike aittir (TMK m. 813/3). Vergiyi malik ödemişse intifa sahibi ona tazmin eder (TMK m. 813/2)."
+  },
+  {
+   "stem_md": "Bir tarım arazisinde intifa sahibi olan A Ltd. Şti., araziyi bölüp yarısı üzerine betonarme bir oto yıkama tesisi kurmaya başlamıştır. Tesis, arazinin tarımsal niteliğini malik için önemli zarar verecek şekilde değiştirmektedir. Hangisi doğrudur?",
+   "options": [
+    "Malik ancak intifa süresi bittikten sonra itiraz edebilir",
+    "İntifa sahibi tam yararlanma yetkisine sahip olduğundan tesis kurabilir",
+    "Ekonomik özgülenme yönü malike önemli zarar verecek şekilde değiştirilemez; malik itiraz edebilir",
+    "Değişiklik, yalnız malik kayyıma başvurursa yasaktır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "İntifa sahibi, taşınmazın ekonomik özgülenme yönünü malike önemli zarar verecek şekilde değiştiremez; onu yeni bir şekle dönüştüremez ve onda önemli bir değişiklik yapamaz (TMK m. 817/1). Malik, malın hukuka aykırı ya da niteliğine uygun düşmeyen kullanılış biçimine itiraz edebilir (TMK m. 807). Tam yararlanma yetkisi (TMK m. 794/2) bu sınırlarla birlikte okunur."
+  },
+  {
+   "stem_md": "Oturma hakkı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+   "options": [
+    "Başkasına devredilemez ama mirasçılara geçer",
+    "Başkasına devredilebilir ve mirasçılara geçer",
+    "Başkasına devredilemez ve mirasçılara geçmez",
+    "Başkasına devredilebilir ama mirasçılara geçmez"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 823/2'ye göre oturma hakkı başkasına devredilemez ve mirasçılara geçmez. Bu kuralda \"aksi kararlaştırılmadıkça\" kaydı yoktur. Karıştırılan nokta, üst hakkıdır; o devredilebilir ve mirasçılara geçer (TMK m. 826/2)."
+  },
+  {
+   "stem_md": "Fatma, evinin üst katı üzerinde yeğeni Ali lehine ömür boyu oturma hakkı kurmuş ve hak tescil edilmiştir. Senette hakkın şahsa özgülendiği yazılı değildir. Ali eşi ve çocuğuyla taşınmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Ali ailesi ve ev halkıyla birlikte oturabilir, çünkü hakkın şahsa özgülendiği açıkça belirtilmemiştir",
+    "Ali yalnız eşiyle oturabilir; çocukları oturamaz",
+    "Ali yalnız tek başına oturabilir; aile bireyleri oturamaz",
+    "Aile bireyleri ancak Fatma'nın yazılı izniyle oturabilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hakkın şahsına özgülendiği açıkça belirtilmedikçe oturma hakkı sahibi, bina veya onun bir bölümünde ailesi ve ev halkı ile birlikte oturabilir (TMK m. 824/2). Kapsam hak sahibinin kişisel ihtiyaçlarına göre belirlenir (TMK m. 824/1). Aile bireyleri için ayrıca malikin izni gerekmez."
+  },
+  {
+   "stem_md": "Ali, evin üst katında oturma hakkına sahiptir ve üst katı yalnız kendisi kullanmaktadır. Üst kattaki tesisatın olağan bakımı için onarım gerekmiştir. Onarım gideri kime aittir?",
+   "options": [
+    "Eşit olarak malik ve oturma hakkı sahibine",
+    "Her durumda belediyeye",
+    "Oturma hakkı sahibine, çünkü hak bölümün tamamından yararlanma yetkisi vermektedir",
+    "Malike, çünkü ayni hakta giderler malike aittir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Oturma hakkı binanın veya bölümün tamamından yararlanma yetkisi veriyorsa, muhafaza ve olağan bakım için gerekli onarım ve yenileme giderleri oturma hakkı sahibine aittir (TMK m. 825/1). Hak sahibi malikle birlikte kullanıyor olsaydı bakım ve onarım giderleri malike ait olurdu (TMK m. 825/2)."
+  },
+  {
+   "stem_md": "Evlilik sırasında davalı eş adına kayıtlı taşınmazın bir payı üzerinde, davacı eş lehine bedelsiz ve süresiz intifa hakkı kurulmuştur. Eşler boşanmış ve malik eş, intifanın evlilik nedeniyle kurulduğunu, boşanmayla sebebinin ortadan kalktığını ileri sürerek terkin istemiştir. Hangisi doğrudur?",
+   "options": [
+    "Bedelsiz kurulan intifa, boşanmada geri alınabilen bir bağışlama olduğu için sona erer",
+    "Boşanma, intifa hakkını kendiliğinden sona erdirir",
+    "İntifa sebepten bağımsız bir yararlanma hakkıdır; kurulma amacının ortadan kalkması kanundaki sona erme sebepleri arasında değildir, bu nedenle boşanma tek başına intifayı sona erdirmez",
+    "Malik eş, boşanma kararından sonra tek taraflı beyanla intifayı sona erdirebilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yargıtay'a göre intifa sebepten ari bir yararlanma hakkıdır; sona erme hâlleri TMK m. 796 ve devamında gösterilmiştir. Kurulma amacının, yani evliliğin ortadan kalkması bu hâller arasında değildir. Bu nedenle terkin davası reddedilmeli, intifa sahibinin elatmanın önlenmesi ve ecrimisil istemleri kabul edilmelidir; malik de intifa sahibine karşı haksız kullanan sayılabilir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ahmet, Bursa'daki zeytinliği üzerinde arkadaşı Zeynep lehine 10 yıllığına intifa hakkı kurmak için 1 Mart 2019'da tapuda resmî senet düzenletmiş ve hak tapu kütüğüne tescil edilmiştir. Sözleşmede Zeynep'in zeytinliği şahsen kullanması gerektiğine dair bir hüküm yoktur; durum ve koşullardan da böyle bir zorunluluk anlaşılmamaktadır.\n\nZeynep, zeytinliği 1 Mart 2020'den 1 Mart 2023'e kadar Mehmet'e kiralamış ve kira süresi dolunca Mehmet zeytinliği Zeynep'e geri vermiştir. Zeynep, kendi isteğiyle ve olağan bakım dışında, zeytinliğe yeni bir damla sulama sistemi ekletmiştir. Zeynep, 14 Ocak 2025'te ölmüştür. Tek mirasçısı Can, zeytinliği 1 Mart 2025'te Ahmet'e geri vermiştir. Ahmet, sulama sistemi için bir bedel ödemeyi reddetmektedir; Can ise sistemi söküp götürebileceğini söylemektedir.\n\n1. Ahmet'in kurduğu intifa hakkı ne zaman ve nasıl doğmuştur?\n2. Zeynep'in zeytinliği Mehmet'e kiralaması geçerli midir? Ahmet haklarını Mehmet'e karşı ileri sürebilir miydi?\n3. İntifa hakkı Zeynep'in ölümüyle ne olmuştur? Can intifa sahibi olmuş mudur? Ahmet ne isteyebilir?\n4. Sulama sistemi bakımından Can ve Ahmet'in hakları nelerdir?\n5. Taraflar istemlerini hangi süre içinde ileri sürmelidir?",
+   "rubric": [
+    {
+     "point": "Taşınmaz intifasının tapuda resmî senet ve tescille kurulması; mülkiyet hükümlerine yollama ve resmî şekil",
+     "weight": 15,
+     "madde_ref": "TMK m. 795"
+    },
+    {
+     "point": "Kullanımın devrinin şahsen kullanma şartı bulunmadığından mümkün olması; malikin haklarını devralana karşı doğrudan ileri sürebilmesi; Mehmet'in ayni hak kazanmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 806"
+    },
+    {
+     "point": "Gerçek kişide intifanın hak sahibinin ölümüyle sona ermesi; Can'a geçmemesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 797"
+    },
+    {
+     "point": "Ölüm hâlinde malike taşınmazda terkini isteme yetkisinin doğması",
+     "weight": 10,
+     "madde_ref": "TMK m. 796"
+    },
+    {
+     "point": "Sulama sisteminin yükümlü olunmayan bir ekleme olması; vekâletsiz iş görme hükümlerine göre tazminat; malik kaçınırsa eski hâle getirmek kaydıyla sökme",
+     "weight": 20,
+     "madde_ref": "TMK m. 801"
+    },
+    {
+     "point": "Olağan bakım ve onarımın intifa sahibinin kendi yükümlülüğü olduğu; sulama sisteminin bu kapsamda sayılamaması",
+     "weight": 10,
+     "madde_ref": "TMK m. 812"
+    },
+    {
+     "point": "Geri verme anından başlayarak bir yıllık zamanaşımı; hem Can'ın hem Ahmet'in istemlerini kapsaması",
+     "weight": 10,
+     "madde_ref": "TMK m. 802"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ahmet'in malik olduğu taşınmaz üzerinde Zeynep lehine sözleşmeyle kurulmuş, süreli bir intifa hakkı vardır. Uyuşmazlık, hakkın kuruluşu, kullanımın devri, ölümle sona erme ve geri vermeden sonraki istemlere ilişkindir.\n\n**Hukuki sorunlar:** (1) Kuruluş; (2) kullanımın devri; (3) ölümün sonucu; (4) yükümlü olunmayan eklemeler; (5) zamanaşımı.\n\n**İlgili hükümler:** TMK m. 794, TMK m. 795, TMK m. 706, TMK m. 806, TMK m. 797, TMK m. 796, TMK m. 801, TMK m. 812, TMK m. 813, TMK m. 802.\n\n**Değerlendirme:**\n\n*1. Kuruluş:* İntifa hakkı taşınmazlarda tapu kütüğüne tescil ile kurulur (TMK m. 795/1). Kazanma ve tescilde aksine düzenleme olmadıkça mülkiyete ilişkin hükümler uygulanır (TMK m. 795/2); bu yollama nedeniyle taşınmaz mülkiyetinin devrinde olduğu gibi resmî senet gerekir (TMK m. 706). Ahmet ve Zeynep resmî senedi tapuda düzenletmişler ve hak tescil edilmiştir. Bu nedenle hak, tescil anı olan 1 Mart 2019'da doğmuştur; yalnız senet düzenlenmesi yetmezdi (TMK m. 1021).\n\n*2. Kullanımın devri:* İntifa hakkının kullanılması, sözleşmede aksine hüküm yoksa veya durum ve koşullardan hak sahibince şahsen kullanılması gerektiği anlaşılmıyorsa başkasına devredilebilir (TMK m. 806/1). Sözleşmede şahsen kullanma şartı yoktur ve durumdan da böyle bir zorunluluk anlaşılmamaktadır. Zeynep'in kirası bu nedenle geçerlidir. Hakkın kendisi değil, yalnız kullanımı devredilmiştir; devir borçlandırıcıdır ve Mehmet ayni hak kazanmamıştır. Malik Ahmet haklarını devralana karşı doğrudan ileri sürebilirdi (TMK m. 806/2). Kira Zeynep'in ölümünden önce sona erdiği için kira ilişkisinin intifadan sonra sürüp sürmediği bu olayın konusu değildir.\n\n*3. Ölüm:* Gerçek kişilerde intifa hakkı hak sahibinin ölümüyle sona erer (TMK m. 797/1). Zeynep 14 Ocak 2025'te ölmüş, 10 yıllık süre dolmamış olsa da hak ölümle sona ermiştir. Hak mirasçıya geçmez; Can intifa sahibi olmamıştır. Ahmet, taşınmazda terkini isteme yetkisine sahiptir (TMK m. 796/2). Hak sahibinin mirasçısı terkine razı olmazsa terkin davasını malik Ahmet açar. Can zeytinliği geri vermekle yükümlüdür (TMK m. 799) ve nitekim 1 Mart 2025'te geri vermiştir.\n\n*4. Sulama sistemi:* Zeynep'in yükümlü olmadığı hâlde yaptırdığı bu ekleme için hak sona erdiğinde vekâletsiz iş görme hükümlerine göre tazminat istenebilir (TMK m. 801/1). Zeynep'in yerine geçen Can bu tazminatı Ahmet'ten isteyebilir. Ahmet tazminattan kaçınırsa Can, zeytinliği eski hâline getirmek kaydıyla sistemi söküp alabilir (TMK m. 801/2). Olağan bakım ve onarım ise zaten intifa sahibinin yükümlülüğündedir (TMK m. 812/1 ve TMK m. 813/1); sulama sistemi malın muhafazası veya olağan bakımı için gerekli olmadığından bu kapsamda sayılamaz ve Zeynep'in kendi isteğiyle yaptırdığı ekleme sayılır.\n\n*5. Zamanaşımı:* Geri verme anında malik ve intifa sahibi tarafından ileri sürülebilecek bütün istemler, geri verme anından, yani 1 Mart 2025'ten başlayarak bir yıl geçmekle zamanaşımına uğrar (TMK m. 802). Bu süre hem Can'ın tazminat istemini hem Ahmet'in olası zarar istemlerini kapsar.\n\n**Sonuç:**\n- İntifa, 1 Mart 2019'da tescille doğmuştur.\n- Kira geçerlidir; yalnız kullanım devredilmiş, Mehmet ayni hak kazanmamıştır.\n- İntifa, Zeynep'in ölümüyle sona ermiş, Can'a geçmemiştir; Ahmet terkini isteyebilir.\n- Sulama sistemi için tazminat ya da eski hâle getirmek kaydıyla sökme hakkı vardır.\n- İstemler geri verme anından başlayarak bir yıl içinde ileri sürülmelidir."
+  },
+  {
+   "stem_md": "Fatma, Kadıköy'deki iki katlı evinin üst katı üzerinde yeğeni Ali lehine ömür boyu oturma hakkı kurmuş ve hak tapuya tescil edilmiştir. Senette hakkın şahsa özgülendiği yazılı değildir. Alt katta Fatma oturmaktadır; ev, iki katın birlikte kullandığı ortak bir bahçeye sahiptir. Üst katı yalnız Ali kullanmaktadır.\n\nAli, eşi Merve ve çocuğuyla üst kata taşınmıştır. Ali, üst kattaki odalardan birini muayenehane olarak kullanmak istemektedir. Ayrıca hakkını kardeşi Mert'e 500.000 TL'ye satmayı düşünmektedir. Bu arada üst kattaki tesisatta olağan bir arıza çıkmış ve onarım gerekmiştir. Ali bu masrafın Fatma'ya ait olduğunu söylemektedir.\n\nAradan birkaç yıl geçtikten sonra Ali ölmüş ve çocuğu, babasının hakkına dayanarak üst katta oturmaya devam etmek istemiştir.\n\n1. Oturma hakkının niteliği ve kapsamı nedir? Ali, Merve ve çocuğuyla oturabilir mi? Bahçeden yararlanabilir mi?\n2. Ali üst katın bir odasını muayenehane yapabilir mi?\n3. Ali hakkını Mert'e devredebilir mi?\n4. Tesisat onarımı masrafı kimin üzerindedir?\n5. Ali'nin ölümünden sonra çocuğu oturmaya devam edebilir mi?",
+   "rubric": [
+    {
+     "point": "Oturma hakkının bir binadan veya bölümünden konut olarak yararlanma yetkisi olması; tescille kurulması ve intifa hükümlerine tabi olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 823"
+    },
+    {
+     "point": "Hakkın şahsa özgülendiği açıkça belirtilmediğinden Ali'nin ailesi ve ev halkıyla oturabilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 824"
+    },
+    {
+     "point": "Bölüm üzerinde hak sahibinin ortaklaşa kullanılan bahçeden de yararlanması",
+     "weight": 10,
+     "madde_ref": "TMK m. 824"
+    },
+    {
+     "point": "Oturma hakkının konut olarak yararlanma sağlaması; muayenehane gibi işyeri kullanımını kapsamaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 823"
+    },
+    {
+     "point": "Oturma hakkının başkasına devredilememesi; Mert'e satışın geçersiz olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 823"
+    },
+    {
+     "point": "Bölümün tamamından yararlanan hak sahibinin olağan onarım giderlerini üstlenmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 825"
+    },
+    {
+     "point": "Oturma hakkının mirasçılara geçmemesi; çocuğun hak iddia edememesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 823"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Fatma ile Ali arasında, Fatma'nın maliki olduğu binanın bir bölümü (üst kat) üzerinde sözleşmeyle kurulmuş bir oturma hakkı (sükna) vardır. Oturma hakkı sınırlı ayni haktır ve irtifak hakkı niteliğindedir.\n\n**Hukuki sorunlar:** (1) Hakkın kapsamı ve kimlerin oturabileceği; (2) işyeri kullanımı; (3) devredilebilirlik; (4) giderler; (5) ölümün etkisi.\n\n**İlgili hükümler:** TMK m. 823, TMK m. 824, TMK m. 825, TMK m. 794, TMK m. 795.\n\n**Değerlendirme:**\n\n*1. Kapsam ve aile:* Oturma hakkı, bir binadan veya onun bir bölümünden konut olarak yararlanma yetkisi verir (TMK m. 823/1). Kanunda aksine hüküm bulunmadıkça intifa hakkına ilişkin hükümler oturma hakkına da uygulanır (TMK m. 823/3); bu yollama sonucunda taşınmazda hak tescille kurulur (TMK m. 795/1) ve olayda tescil yapılmıştır. Kapsam hak sahibinin kişisel ihtiyaçlarına göre belirlenir (TMK m. 824/1). Hakkın şahsa özgülendiği açıkça belirtilmedikçe hak sahibi ailesi ve ev halkı ile birlikte oturabilir (TMK m. 824/2). Senette şahsa özgülenme yazılı olmadığından Ali, eşi Merve ve çocuğuyla birlikte oturabilir. Bölüm üzerinde hakkı olan, ortaklaşa kullanıma özgülenen yerlerden de yararlanabileceğinden (TMK m. 824/3) Ali ortak bahçeyi kullanabilir.\n\n*2. Muayenehane:* Oturma hakkı yalnız konut olarak yararlanma sağlar (TMK m. 823/1). Muayenehane bir işyeri kullanımıdır ve hakkın kapsamına girmez. Ali odayı bu amaçla kullanırsa hakkın kapsamını aşmış olur; malik Fatma, malın hukuka aykırı ya da niteliğine uygun düşmeyen kullanılış biçimine itiraz edebilir (TMK m. 807; intifa hükümlerinin uygulanması TMK m. 823/3 gereğidir).\n\n*3. Devir:* Oturma hakkı başkasına devredilemez ve mirasçılara geçmez (TMK m. 823/2). Bu kuralda \"aksi kararlaştırılmadıkça\" kaydı yoktur. Ali'nin hakkı kardeşi Mert'e 500.000 TL'ye satması hukuken mümkün değildir; Mert hak sahibi olamaz. Hakkın kiraya verilip verilemeyeceği ayrı bir tartışma konusudur; bu olayda sorulmamaktadır.\n\n*4. Giderler:* Hak, binanın veya bölümün tamamından yararlanma yetkisi veriyorsa, muhafaza ve olağan bakım için gerekli onarım ve yenileme giderleri oturma hakkı sahibine aittir (TMK m. 825/1). Üst katı yalnız Ali kullandığından olağan tesisat onarımı giderini Ali üstlenir; Fatma'ya ait olduğu savunması yerinde değildir. Ali ile Fatma üst katı birlikte kullanıyor olsaydı bakım ve onarım giderleri malike ait olurdu (TMK m. 825/2).\n\n*5. Ölüm:* Oturma hakkı mirasçılara geçmez (TMK m. 823/2). Ali'nin ölümüyle hak sona ermiştir; çocuğu mirasçı sıfatıyla oturma hakkı iddia edemez. Fatma tapuda terkini isteyebilir (TMK m. 796/2'nin yollamayla uygulanması). Çocuğun oturması ancak Fatma ile yeni bir sözleşmeyle mümkündür.\n\n**Sonuç:**\n- Ali ailesi ve ev halkıyla üst katta oturabilir, ortak bahçeden yararlanır.\n- Muayenehane kullanımı oturma hakkı kapsamında değildir.\n- Ali hakkını Mert'e devredemez.\n- Olağan tesisat onarımı giderleri Ali'ye aittir.\n- Hak Ali'nin ölümüyle sona erer, çocuğa geçmez."
+  },
+  {
+   "stem_md": "X Vakfı lehine, A'nın Tekirdağ'daki tarım arazisi üzerinde süre belirtilmeden bir intifa hakkı kurulmuş ve tapuya tescil edilmiştir. Vakıf araziyi bölmüş, yarısına betonarme bir oto yıkama tesisi kurmaya başlamıştır. A durumu öğrenince vakfa itiraz etmiş, ama vakıf tesisi kurmaya devam etmiştir. Vakıf ayrıca arazinin kalan kısmında olağan sınırların çok ötesinde yoğun yararlanma yaparak bir ürün elde etmiştir.\n\nVakıf yöneticileri ise intifa sahibi olduklarını, araziyi diledikleri gibi kullanabileceklerini savunmaktadır. A ayrıca vakfın borçlarını ödeyemediğini, arazinin bu nedenle zarar görme tehlikesi altında olduğunu banka kayıtlarıyla ve bilirkişi raporuyla ortaya koymuştur. A vakıftan güvence istemiş, vakıf kendisine tanınan uygun süre içinde güvence göstermemiştir.\n\n1. A, vakfın tesis kurmasına hangi hükümlere dayanarak itiraz edebilir?\n2. A, vakıftan güvence isteyebilir mi? Tehlikenin ispatı kime düşer?\n3. Vakıf güvence göstermez ve hukuka aykırı kullanıma devam ederse ne olur?\n4. Elde edilen yoğun yararlanma ürünü kime aittir?\n5. Süre belirtilmediğine göre bu intifa ne zaman sona erer? Bir üst sınır var mıdır?",
+   "rubric": [
+    {
+     "point": "Malikin hukuka aykırı ya da niteliğine uygun düşmeyen kullanılış biçimine itiraz edebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 807"
+    },
+    {
+     "point": "İntifa sahibinin taşınmazın ekonomik özgülenme yönünü malike önemli zarar verecek şekilde değiştirememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 817"
+    },
+    {
+     "point": "Haklarının tehlikeye düştüğünü ispat eden malikin güvence isteyebilmesi; ispat yükünün A'da olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 808"
+    },
+    {
+     "point": "Güvence verilmezse veya hukuka aykırı kullanıma devam edilirse sulh hâkiminin zilyetliği kaldırıp araziyi kayyıma tevdi etmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 810"
+    },
+    {
+     "point": "Olağan sınırlar aşılarak elde edilen ürünlerin malike ait olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 816"
+    },
+    {
+     "point": "Tüzel kişide süre belirtilmemişse kişiliğin ortadan kalkmasıyla sona erme; en çok yüz yıl sınırı",
+     "weight": 15,
+     "madde_ref": "TMK m. 797"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** A'nın maliki olduğu tarım arazisi üzerinde, tüzel kişi olan X Vakfı lehine, süre belirtilmeden kurulmuş ve tescil edilmiş bir intifa hakkı vardır. Uyuşmazlık, intifa sahibinin yetkilerinin sınırı, malikin korunma araçları, ürünlerin kime ait olduğu ve tüzel kişinin intifasının süresine ilişkindir.\n\n**Hukuki sorunlar:** (1) Malikin itiraz hakkı ve ekonomik özgülenme yönü; (2) güvence; (3) güvence verilmemesinin sonucu; (4) olağan sınırı aşan ürünler; (5) sona erme ve üst sınır.\n\n**İlgili hükümler:** TMK m. 794, TMK m. 795, TMK m. 797, TMK m. 807, TMK m. 808, TMK m. 810, TMK m. 816, TMK m. 817.\n\n**Değerlendirme:**\n\n*1. İtiraz:* İntifa hakkı, aksine düzenleme olmadıkça tam yararlanma yetkisi verir (TMK m. 794/2); bu yetki sınırsız değildir. Malik, malın hukuka aykırı ya da niteliğine uygun düşmeyen kullanılış biçimine itiraz edebilir (TMK m. 807). Ayrıca intifa sahibi, taşınmazın ekonomik özgülenme yönünü malike önemli zarar verecek şekilde değiştiremez; onu yeni bir şekle dönüştüremez ve önemli bir değişiklik yapamaz (TMK m. 817/1). Tarım arazisinin yarısının betonarme oto yıkama tesisine dönüştürülmesi, özgülenme yönünde önemli bir değişikliktir. A'nın itirazı bu iki hükme dayanır.\n\n*2. Güvence:* Haklarının tehlikeye düştüğünü ispat eden malik, intifa sahibinden güvence isteyebilir (TMK m. 808/1). Olayda konu tarım arazisidir; tüketilebilen şey ya da kıymetli evrak olmadığından tehlikenin ispatı kuralı geçerlidir ve ispat yükü A'dadır. A, vakfın borçlarını ödeyemediğini ve arazinin zarar tehlikesi altında olduğunu banka kayıtları ve bilirkişi raporuyla ispat ettiğinden güvence istemekte haklıdır. Bağışlamada intifanın saklı tutulması gibi bir istisna (TMK m. 809) söz konusu değildir.\n\n*3. Yaptırım:* İntifa sahibi kendisine tanınan uygun süre içinde güvence göstermez ya da malikin itirazına rağmen hukuka aykırı kullanıma devam ederse sulh hâkimi, yeni bir karara kadar intifa sahibinin zilyetliğini kaldırarak hakkın konusunu atayacağı bir kayyıma tevdi eder (TMK m. 810). Vakıf hem güvence göstermemiş hem itiraza rağmen tesisi sürdürdüğünden iki şart da gerçekleşmiştir. A sulh hâkiminden bu yönde karar isteyebilir. Bu tedbir intifayı sona erdirmez, zilyetliği geçici olarak kayyıma verir.\n\n*4. Ürün:* İntifa sahibi taşınmazda yararlanmanın olağan sınırlar içinde kalmasına özen göstermekle yükümlüdür; bu ölçü aşılarak elde edilen ürünler malike aittir (TMK m. 816). Kalan kısımdan olağan sınırların çok ötesinde yoğun yararlanma ile elde edilen ürün bu nedenle A'ya aittir.\n\n*5. Sona erme:* X Vakfı tüzel kişi olduğundan intifa, kararlaştırılan sürenin dolmasıyla, süre kararlaştırılmamışsa kişiliğin ortadan kalkmasıyla sona erer; tüzel kişilerin intifa hakkı en çok yüz yıl devam edebilir (TMK m. 797). Olayda süre belirtilmediğinden hak, vakfın kişiliğinin ortadan kalkmasıyla sona erer ve en çok yüz yıl sürer.\n\n**Sonuç:**\n- A, TMK m. 807 ve TMK m. 817'ye dayanarak tesise itiraz edebilir.\n- A, tehlikeyi ispat ettiği için güvence isteyebilir.\n- Güvence verilmezse veya kullanım sürerse sulh hâkimi araziyi kayyıma tevdi eder.\n- Olağan sınırı aşan yoğun yararlanma ürünü A'ya aittir.\n- İntifa, vakfın kişiliğinin sona ermesiyle biter ve en çok yüz yıl sürer."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "İntifa hakkı hangi konular üzerinde kurulur? (TMK m. 794)",
+   "back_md": "Taşınırlar, taşınmazlar, haklar veya bir malvarlığı üzerinde. Aksine düzenleme yoksa konusu üzerinde tam yararlanma yetkisi verir."
+  },
+  {
+   "front_md": "İntifa hakkı nasıl kurulur? (TMK m. 795)",
+   "back_md": "Taşınırda zilyetliğin devri, alacakta alacağın devri, taşınmazda tapu kütüğüne tescil. Kazanma ve tescilde mülkiyet hükümleri uygulanır."
+  },
+  {
+   "front_md": "Resmî senet düzenlenip tescil yapılmazsa taşınmazda intifa doğar mı?",
+   "back_md": "Hayır. Kurulması tescile tabi ayni hak tescil edilmedikçe doğmaz (TMK m. 795/1 ve TMK m. 1021)."
+  },
+  {
+   "front_md": "Gerçek kişide intifa ne zaman sona erer? (TMK m. 797)",
+   "back_md": "Hak sahibinin ölümüyle. Süre kararlaştırılmış olsa bile en geç ölümle biter, mirasçılara geçmez."
+  },
+  {
+   "front_md": "Tüzel kişide intifa ne zaman sona erer, üst sınır nedir?",
+   "back_md": "Kararlaştırılan sürenin dolmasıyla, süre yoksa kişiliğin ortadan kalkmasıyla. En çok yüz yıl sürer (TMK m. 797)."
+  },
+  {
+   "front_md": "Kamulaştırma veya sigorta hâlinde intifa ne olur? (TMK m. 798/2)",
+   "back_md": "Malın yerine geçen karşılık üzerinde devam eder."
+  },
+  {
+   "front_md": "Harap olan malı malik yenilemek zorunda mı? (TMK m. 798/1)",
+   "back_md": "Hayır. Yenilerse intifa hakkı yeniden kurulmuş olur."
+  },
+  {
+   "front_md": "Geri verme anındaki istemler hangi sürede zamanaşımına uğrar?",
+   "back_md": "Geri verme anından başlayarak bir yıl; malik ve intifa sahibinin bütün istemleri için (TMK m. 802)."
+  },
+  {
+   "front_md": "İntifa sahibi kusuru bakımından nasıl sorumludur? (TMK m. 800)",
+   "back_md": "Kusursuzluğunu ispat edemezse malın yok olmasından ve değer azalmasından sorumludur. Olağan kullanımdan doğan değer azalmasından sorumlu değildir."
+  },
+  {
+   "front_md": "Yükümlü olmadığı eklemeler için intifa sahibi ne isteyebilir? (TMK m. 801)",
+   "back_md": "Hak sona erince vekâletsiz iş görme hükümlerine göre tazminat. Malik kaçınırsa malı eski hâline getirmek kaydıyla eklemeleri söküp alabilir."
+  },
+  {
+   "front_md": "Doğal ürünler ve faizler kime aittir? (TMK m. 804 ve TMK m. 805)",
+   "back_md": "İntifa süresi içinde olgunlaşan doğal ürünler ve intifa süresine düşen faiz ile dönemsel gelirler intifa sahibine aittir."
+  },
+  {
+   "front_md": "İntifa hakkı devredilebilir mi, kullanımı devredilebilir mi?",
+   "back_md": "Hakkın kendisi devredilemez ve mirasçılara geçmez; kullanımı ise şahsen kullanma gerekmiyorsa ve aksi kararlaştırılmamışsa devredilebilir (TMK m. 806). Devir borçlandırıcıdır."
+  },
+  {
+   "front_md": "Malik, kullanımı devralana karşı haklarını nasıl ileri sürer?",
+   "back_md": "Doğrudan doğruya (TMK m. 806/2)."
+  },
+  {
+   "front_md": "Güvence ne zaman istenir, kimden istenemez? (TMK m. 808 ve TMK m. 809)",
+   "back_md": "Malik tehlikeyi ispat ederek ister; tüketilebilen şey ve kıymetli evrakta ispat gerekmez. İntifa kendisinde kalmak üzere bağışlayandan istenemez."
+  },
+  {
+   "front_md": "Güvence verilmezse ne olur? (TMK m. 810)",
+   "back_md": "Sulh hâkimi, yeni bir karara kadar zilyetliği kaldırıp malı atayacağı bir kayyıma tevdi eder."
+  },
+  {
+   "front_md": "Olağan bakım, işletme, faiz, vergi gideri kimde? (TMK m. 813)",
+   "back_md": "Olağan bakım ve işletme giderleri, malın güvencesini oluşturduğu borçların faizleri, vergi ve resimler intifa süresince intifa sahibinde. Diğer bütün yükümlülükler malike aittir."
+  },
+  {
+   "front_md": "Taşınmazda intifa sahibine hangi sınır konur? (TMK m. 817)",
+   "back_md": "Ekonomik özgülenme yönünü malike önemli zarar verecek şekilde değiştiremez; yeni şekle dönüştüremez, önemli değişiklik yapamaz."
+  },
+  {
+   "front_md": "Tüketilebilen şeylerde intifa ne sonuç doğurur? (TMK m. 819)",
+   "back_md": "Mülkiyet, aksi kararlaştırılmadıkça intifa sahibine geçer; geri vermede o günkü değer ödenir."
+  },
+  {
+   "front_md": "Alacak intifasında devir istemi hangi sürede yapılır? (TMK m. 822)",
+   "back_md": "İntifanın başlangıcını izleyen üç ay içinde; alacağın ve kıymetli evrakın devri istenir, bedel borcu doğar."
+  },
+  {
+   "front_md": "Oturma hakkı nedir? (TMK m. 823)",
+   "back_md": "Bir binadan veya bölümünden konut olarak yararlanma yetkisi. Devredilemez, mirasçılara geçmez; aksine hüküm yoksa intifa hükümleri uygulanır."
+  },
+  {
+   "front_md": "Oturma hakkı sahibi kimlerle oturabilir? (TMK m. 824)",
+   "back_md": "Hak şahsa özgülendiği açıkça belirtilmedikçe ailesi ve ev halkıyla birlikte oturabilir; bölümü olanlar ortak yerlerden de yararlanır."
+  },
+  {
+   "front_md": "Oturma hakkında onarım gideri kimde? (TMK m. 825)",
+   "back_md": "Tamamından yararlanıyorsa muhafaza ve olağan bakım için gerekli onarım, yenileme giderleri oturma hakkı sahibinde; malikle birlikte kullanıyorsa bakım ve onarım giderleri malikte."
+  },
+  {
+   "front_md": "Evlilik nedeniyle kurulan intifa, boşanmayla sona erer mi?",
+   "back_md": "Hayır. Kurulma amacının kalkması kanuni sona erme sebebi değildir. Malik de intifa sahibine karşı haksız kullanan sayılabilir; intifa sahibi elatmanın önlenmesi ve ecrimisil isteyebilir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

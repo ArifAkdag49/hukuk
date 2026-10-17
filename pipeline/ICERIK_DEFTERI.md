@@ -69,7 +69,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | yazar durduruldu (buluta devir), taslak yok |
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bekliyor | |
 | 20 | tasinmaz-irtifaki | bitti | bulutta araştırma-yazma-denetim; denetçi 7 küçük düzeltme (karar 3 özetinde olaya özgü sonucun genellenmesi, "İBK yoktur" → bulunamadı); yüklenmedi |
-| 21 | intifa-ve-oturma-hakki | bekliyor | |
+| 21 | intifa-ve-oturma-hakki | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (TMK m. 813/1 faizler, şerhli kiranın etkisi m. 1009/2, karar 3'te onanan BAM kararı); yüklenmedi |
 | 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bekliyor | |
 | 23 | tasinmaz-rehni-genel-hukumler | bekliyor | |
 | 24 | ipotek-ve-kanuni-ipotek | bekliyor | |
