@@ -38,3 +38,16 @@ def test_empty_article_detection():
 def test_title_lines_without_range_list_everything():
     lines = arastir.baslik_satirlari(TREE, None, None)
     assert lines[0] == "[BAŞLANGIÇ]" and "  m. 2 — I. Dürüst davranma" in lines and len(lines) == 7
+
+
+def test_full_text_lines_strip_markup_and_blank_lines():
+    raw = "<p>MADDE 1-&nbsp;Kanun, <b>sözüyle</b></p><br/>  ve   özüyle<div></div><div>GEÇİCİ MADDE 1- (Ek:8/6/2022-7409/4 md.)</div>"
+    assert arastir.tam_metin_satirlari(raw) == [
+        "MADDE 1- Kanun, sözüyle", "ve özüyle", "GEÇİCİ MADDE 1- (Ek:8/6/2022-7409/4 md.)"]
+
+
+def test_full_text_search_numbers_lines_and_separates_distant_matches():
+    lines = ["a", "GEÇİCİ MADDE 1- x", "b", "c", "d", "GEÇİCİ MADDE 2- y", "e"]
+    assert arastir.ara(lines, "GEÇİCİ MADDE", baglam=0) == ["2: GEÇİCİ MADDE 1- x", "--", "6: GEÇİCİ MADDE 2- y"]
+    assert arastir.ara(lines, "GEÇİCİ MADDE 1", baglam=1) == ["1: a", "2: GEÇİCİ MADDE 1- x", "3: b"]
+    assert arastir.ara(lines, "yok", baglam=2) == []

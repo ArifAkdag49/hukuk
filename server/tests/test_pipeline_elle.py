@@ -178,3 +178,25 @@ def test_option_letter_reference_in_explanation_is_a_warning():
     doc, hatalar, uyarilar = kontrol(taslak(sorular=sorular))
     assert hatalar == [] and any("şık harfi" in u for u in uyarilar)
     assert doc["verification"]["status"] == "partial"
+
+
+def test_question_summary_shows_correct_option_wrong_options_and_case_result():
+    t = {"sorular": [{"soru": "Soru\n  metni?", "siklar": ["a", "b", "c", "d"], "dogru": 2, "aciklama": "Çünkü  c."}],
+         "olaylar": [{"cozum": "Giriş paragrafı.\n\n**Sonuç:** Davacı haklıdır."}]}
+    out = elle.soru_ozeti(t)
+    assert "S1. Soru metni?\n   ✓ c\n   ✗ a | b | d\n   → Çünkü c." in out
+    assert "OLAY 1 SONUÇ: Davacı haklıdır." in out
+
+
+def test_topic_map_numbers_topics_across_units_and_lists_articles():
+    cur = {"units": [
+        {"title": "Ünite 1: Giriş", "topics": [
+            {"slug": "a", "title": "Konu A", "maddeler": [{"kanun": "TBK", "madde": "1"}, {"kanun": "6216", "madde": "45"}]}]},
+        {"title": "Ünite 2: Tarih", "topics": [{"slug": "b", "title": "Konu B", "maddeler": []}]},
+    ]}
+    assert elle.konu_haritasi(cur) == (
+        "- Ünite 1: Giriş\n"
+        "  1. Konu A (`a`; müfredat maddeleri: TBK 1, 6216 45)\n"
+        "- Ünite 2: Tarih\n"
+        "  2. Konu B (`b`; müfredatta madde yok)"
+    )

@@ -3,6 +3,8 @@
     python -X utf8 -m pipeline.elle bitir HUK2011 <slug>      # denetle + pipeline/out/... yaz
     python -X utf8 -m pipeline.elle bitir HUK2011 --hepsi
     python -X utf8 -m pipeline.elle kontrol HUK2011 <slug>    # yalnız denetle
+    python -X utf8 -m pipeline.elle ozet HUK2011 <slug>       # sorular doğru şıkla, olayların sonucu (gözden geçirme)
+    python -X utf8 -m pipeline.elle harita HUK2011            # dersin ünite ve konuları, müfredat maddeleri
 
 Taslak: pipeline/taslak/<DERS>/<slug>.yaml (biçim: pipeline/YAZIM_REHBERI.md).
 Madde metinleri ve karar künyeleri taslaktan DEĞİL, araştırma önbelleğinden
@@ -79,6 +81,38 @@ def refs_in(text: str, primary: str | None) -> set[tuple[str, str, str | None]]:
 def kart_on(k: dict) -> str:
     # PyYAML (YAML 1.1) çıplak `on:` anahtarını True'ya çevirir
     return str(k.get("on", k.get(True, "")) or "").strip()
+
+
+def _tek_satir(s) -> str:
+    return re.sub(r"\s+", " ", str(s or "")).strip()
+
+
+def soru_ozeti(t: dict) -> str:
+    """Gözden geçirme için: her soru doğru şıkkı (✓), diğer şıkları (✗) ve açıklamasıyla; olayların sonuç bölümü."""
+    out = []
+    for i, s in enumerate(t.get("sorular") or [], 1):
+        siklar, d = s.get("siklar") or [], s.get("dogru")
+        dogru = siklar[d] if isinstance(d, int) and 0 <= d < len(siklar) else "(geçersiz cevap anahtarı)"
+        yanlis = " | ".join(str(x) for j, x in enumerate(siklar) if j != d)
+        out.append(f"S{i}. {_tek_satir(s.get('soru'))}\n   ✓ {dogru}\n   ✗ {yanlis}\n   → {_tek_satir(s.get('aciklama'))}\n")
+    for i, o in enumerate(t.get("olaylar") or [], 1):
+        coz = str(o.get("cozum") or "")
+        m = re.search(r"\*\*Sonuç:?\*\*(.*)$", coz, flags=re.S)
+        out.append(f"OLAY {i} SONUÇ: {(m.group(1) if m else coz[-800:]).strip()}\n")
+    return "\n".join(out)
+
+
+def konu_haritasi(cur: dict) -> str:
+    """Dersin üniteleri ve konuları (dersteki sıra numarası, slug, müfredat maddeleri): konu sınırlarını görmek için."""
+    out, no = [], 0
+    for unit in cur.get("units") or []:
+        out.append(f"- {unit['title']}")
+        for tp in unit.get("topics") or []:
+            no += 1
+            md = ", ".join(f"{canon(str(m['kanun']))} {m['madde']}" for m in tp.get("maddeler") or [])
+            out.append(f"  {no}. {tp['title']} (`{tp['slug']}`; "
+                       + (f"müfredat maddeleri: {md})" if md else "müfredatta madde yok)"))
+    return "\n".join(out)
 
 
 def _texts(t: dict) -> list[tuple[str, str]]:
@@ -304,11 +338,17 @@ def isle(course_id: str, slug: str, yaz: bool) -> bool:
 def main(argv: list[str]) -> int:
     load_env()
     ap = argparse.ArgumentParser(prog="pipeline.elle")
-    ap.add_argument("cmd", choices=["bitir", "kontrol"])
+    ap.add_argument("cmd", choices=["bitir", "kontrol", "ozet", "harita"])
     ap.add_argument("course")
     ap.add_argument("slug", nargs="?")
     ap.add_argument("--hepsi", action="store_true")
     a = ap.parse_args(argv)
+    if a.cmd == "harita":
+        print(konu_haritasi(yaml.safe_load((CURRICULUM / f"{a.course}.yaml").read_text(encoding="utf-8"))))
+        return 0
+    if a.cmd == "ozet":
+        print(soru_ozeti(yaml.safe_load((TASLAK / a.course / f"{a.slug}.yaml").read_text(encoding="utf-8"))))
+        return 0
     slugs = [p.stem for p in sorted((TASLAK / a.course).glob("*.yaml"))] if a.hepsi else [a.slug]
     ok = all([isle(a.course, s, yaz=a.cmd == "bitir") for s in slugs])
     return 0 if ok else 1

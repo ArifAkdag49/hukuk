@@ -5,6 +5,8 @@
     python -X utf8 -m pipeline.arastir karar 1046055300 [--mahkeme yargitay] [--max 15000]
     python -X utf8 -m pipeline.arastir basliklar TMK 683 729     # bölüm ve madde başlıkları
     python -X utf8 -m pipeline.arastir mufredat HUK3011          # müfredattaki bütün maddeleri denetle
+    python -X utf8 -m pipeline.arastir tam TBK --ara "GEÇİCİ MADDE" [--baglam 6] [--yenile]
+                                     # tam metin: geçici maddeler, kanuna işlenemeyen hükümler, dipnotlar
 
 Madde metni Adalet Bakanlığı bedesten servisinden, kararlar içtihat MCP'sinden
 gelir. Her sonuç `pipeline/cache/` altına yazılır: `elle bitir` adımı madde
@@ -14,6 +16,8 @@ metni hiçbir zaman elle yazılmaz.
 
 import argparse
 import asyncio
+import base64
+import html
 import json
 import pathlib
 import re
@@ -25,6 +29,7 @@ CACHE = ROOT / "pipeline" / "cache"
 MADDE_DIR = CACHE / "madde"
 ICTIHAT_DIR = CACHE / "ictihat"
 KARAR_DIR = CACHE / "karar"
+TAM_DIR = CACHE / "tam"
 
 
 def _safe(s: str) -> str:
@@ -111,6 +116,45 @@ async def basliklar(kanun: str, ilk: int | None, son: int | None) -> list[str]:
         return [f"{kanun}: kanun bulunamadı"]
     tree = await mevzuat._post("mevzuatMaddeTree", {"mevzuatId": law["mevzuatId"]})
     return [f"# {law.get('mevzuatAdi')} ({no})", *baslik_satirlari(tree, ilk, son)]
+
+
+def tam_metin_satirlari(raw: str) -> list[str]:
+    """Kanunun HTML tam metnini boş olmayan, boşlukları sadeleştirilmiş satırlara çevirir."""
+    raw = re.sub(r"<br\s*/?>|</p\s*>|</h\d\s*>|</div\s*>|</tr\s*>", "\n", raw, flags=re.I)
+    txt = html.unescape(re.sub(r"<[^>]+>", "", raw)).replace("\xa0", " ")
+    return [s for s in (re.sub(r"\s+", " ", ln).strip() for ln in txt.split("\n")) if s]
+
+
+def ara(satirlar: list[str], desen: str, baglam: int = 6) -> list[str]:
+    """Desene uyan satırları önce ve sonrasındaki `baglam` satırla, satır numaralı verir; ayrık bloklar "--" ile ayrılır."""
+    rx = re.compile(desen, flags=re.I)
+    out: list[str] = []
+    son = 0
+    for i in (i for i, s in enumerate(satirlar) if rx.search(s)):
+        bas, bit = max(0, i - baglam), min(len(satirlar), i + baglam + 1)
+        if out and bas > son:
+            out.append("--")
+        out += [f"{j + 1}: {satirlar[j]}" for j in range(max(bas, son), bit)]
+        son = max(son, bit)
+    return out
+
+
+async def tam(kanun: str, yenile: bool = False) -> tuple[str, list[str]]:
+    """Kanunun tam metni (geçici maddeler ve kanuna işlenemeyen hükümler dahil); `pipeline/cache/tam/` altında saklanır."""
+    from app import mevzuat
+
+    no = mevzuat.law_number(kanun) or kanun
+    p = TAM_DIR / f"{_safe(no)}.txt"
+    if p.exists() and not yenile:
+        return no, p.read_text(encoding="utf-8").split("\n")
+    law = await mevzuat._find_law(no)
+    if law is None:
+        raise SystemExit(f"{kanun}: kanun bulunamadı")
+    data = await mevzuat._post("getDocumentContent", {"documentType": "MEVZUAT", "id": law["mevzuatId"]})
+    satirlar = tam_metin_satirlari(base64.b64decode(data["content"]).decode("utf-8", errors="replace"))
+    TAM_DIR.mkdir(parents=True, exist_ok=True)
+    p.write_text("\n".join(satirlar), encoding="utf-8")
+    return no, satirlar
 
 
 def bos_madde(metin: str) -> bool:
@@ -219,7 +263,21 @@ def main(argv: list[str]) -> int:
     b.add_argument("son", type=int, nargs="?")
     mu = sub.add_parser("mufredat", help="müfredattaki bütün maddeleri çek ve denetle")
     mu.add_argument("course_id")
+    t = sub.add_parser("tam", help="kanunun tam metni (geçici maddeler dahil); --ara ile satır ara")
+    t.add_argument("kanun")
+    t.add_argument("--ara", help="aranacak düzenli ifade (büyük-küçük harf ayrımı yok)")
+    t.add_argument("--baglam", type=int, default=6, help="eşleşmenin önünde ve arkasında gösterilecek satır")
+    t.add_argument("--yenile", action="store_true", help="önbelleği yok sayıp metni yeniden indir")
     a = ap.parse_args(argv)
+
+    if a.cmd == "tam":
+        no, satirlar = asyncio.run(tam(a.kanun, a.yenile))
+        if not a.ara:
+            print(f"{a.kanun} ({no}): {len(satirlar)} satır → {TAM_DIR / (_safe(no) + '.txt')}")
+            return 0
+        bulunan = ara(satirlar, a.ara, a.baglam)
+        print("\n".join(bulunan) if bulunan else f"'{a.ara}' bulunamadı")
+        return 0
 
     if a.cmd == "madde":
         for d in asyncio.run(madde(a.kanun, a.numaralar)):
