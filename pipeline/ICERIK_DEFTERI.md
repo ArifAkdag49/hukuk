@@ -63,7 +63,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 12 | tasinmaz-mulkiyetinin-kazanilmasi | yüklendi | ajan yazdı; denetçisiz; AYM 2026 iptali (2942 m. 10/8) notu; sunucuya yüklendi (2026-10-18) |
 | 13 | kazandirici-zamanasimi-isgal-yeni-arazi | yüklendi | ajan yazdı; denetçisiz; 📌 TMK m. 713/4 (7418, 2022); sunucuya yüklendi (2026-10-18) |
 | 14 | tasinmaz-mulkiyetinin-kapsami-ve-komsuluk | bitti | bulutta araştırma-yazma-denetim; denetçi soru 17 cevap anahtarını (TMK m. 751) ve 7 küçük noktayı düzeltti; 📌 HUAK m. 18/B komşu hakkı; yüklenmedi |
-| 15 | yapi-hukuku-ve-taskin-yapi | bekliyor | yazar durduruldu (buluta devir), taslak yok |
+| 15 | yapi-hukuku-ve-taskin-yapi | bitti | bulutta araştırma-yazma-denetim; denetçi TMK m. 723/3 "geçmeyebilir"i (takdir, tavan değil) 6 yerde ve 15 günlük itiraz olaylarını düzeltti; yüklenmedi |
 | 16 | yasal-onalim-alim-ve-geri-alim | bitti | bulutta araştırma-yazma-denetim; denetçi 14 düzeltme (7571 geçiş kuralı: bedel kuralı bütün davalara, olay 3 tarihleri, geri alım lehtarı); 📌 TMK m. 733-734 (7571, 25.12.2025); yüklenmedi |
 | 17 | gecit-hakki-su-ve-diger-kanuni-kisitlamalar | bekliyor | yazar durduruldu (buluta devir), taslak yok |
 | 18 | tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma | bekliyor | yazar durduruldu (buluta devir), taslak yok |
