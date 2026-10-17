@@ -51,7 +51,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 |---|---|---|---|
 | 1 | esya-hukukuna-giris-ve-ilkeler | bitti | ajan yazdı; denetçi ehliyetsizlikte TMK m. 1023 tartışmasını ekledi (HGK 2026); yerelde yüklendi |
 | 2 | zilyetlik-kavrami-turleri-ve-devri | denetimde | ajan yazdı (kontrol temiz) |
-| 3 | zilyetligin-korunmasi-ve-hak-karineleri | denetimde | ajan yazdı (kontrol temiz) |
+| 3 | zilyetligin-korunmasi-ve-hak-karineleri | bitti | ajan yazdı; denetçi 2 küçük yumuşatma; yerelde yüklendi |
 | 4 | iyiniyetli-kazanim-ve-zilyetin-iade-borcu | bitti | ajan yazdı; denetçi hile-irade dışı çıkış genellemesini düzeltti; yerelde yüklendi |
 | 5 | tapu-sicili-kurulus-ve-ilkeler | yazılıyor | |
 | 6 | tescil-serh-ve-beyan | bitti | ajan yazdı; denetçi soru 12 tarihini (TMK m. 895/2) ve 3 küçük noktayı düzeltti; yerelde yüklendi |
