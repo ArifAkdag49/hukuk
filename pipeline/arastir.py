@@ -3,6 +3,7 @@
     python -X utf8 -m pipeline.arastir madde TBK 27 28
     python -X utf8 -m pipeline.arastir ictihat "aşırı yararlanma" [--mahkeme yargitay] [--adet 8] [--sayfa 1]
     python -X utf8 -m pipeline.arastir karar 1046055300 [--mahkeme yargitay] [--max 15000]
+    python -X utf8 -m pipeline.arastir basliklar TMK 683 729     # bölüm ve madde başlıkları
 
 Madde metni Adalet Bakanlığı bedesten servisinden, kararlar içtihat MCP'sinden
 gelir. Her sonuç `pipeline/cache/` altına yazılır: `elle bitir` adımı madde
@@ -79,6 +80,38 @@ async def madde(kanun: str, numaralar: list[str]) -> list[dict]:
     return out
 
 
+def baslik_satirlari(tree: dict, ilk: int | None, son: int | None) -> list[str]:
+    """Madde ağacını girintili satırlara çevirir; aralıkta maddesi olmayan bölümler atlanır."""
+
+    def walk(node: dict, depth: int) -> list[str]:
+        out: list[str] = []
+        for ch in node.get("children") or []:
+            n = ch.get("maddeNo")
+            pad = "  " * depth
+            if n is None:
+                inner = walk(ch, depth + 1)
+                if inner:
+                    out += [f"{pad}[{ch.get('title')}]", *inner]
+                continue
+            if (ilk is None or n >= ilk) and (son is None or n <= son):
+                out.append(f"{pad}m. {n} — {ch.get('title')}")
+            out += walk(ch, depth + 1)
+        return out
+
+    return walk(tree, 0)
+
+
+async def basliklar(kanun: str, ilk: int | None, son: int | None) -> list[str]:
+    from app import mevzuat
+
+    no = mevzuat.law_number(kanun) or kanun
+    law = await mevzuat._find_law(no)
+    if law is None:
+        return [f"{kanun}: kanun bulunamadı"]
+    tree = await mevzuat._post("mevzuatMaddeTree", {"mevzuatId": law["mevzuatId"]})
+    return [f"# {law.get('mevzuatAdi')} ({no})", *baslik_satirlari(tree, ilk, son)]
+
+
 async def _hub():
     from app.mcp_hub import McpHub
 
@@ -140,6 +173,10 @@ def main(argv: list[str]) -> int:
     k.add_argument("karar_id")
     k.add_argument("--mahkeme", default="yargitay")
     k.add_argument("--max", type=int, default=15000)
+    b = sub.add_parser("basliklar", help="kanunun bölüm ve madde başlıkları (aralık verilebilir)")
+    b.add_argument("kanun")
+    b.add_argument("ilk", type=int, nargs="?")
+    b.add_argument("son", type=int, nargs="?")
     a = ap.parse_args(argv)
 
     if a.cmd == "madde":
@@ -157,6 +194,10 @@ def main(argv: list[str]) -> int:
         print(f"toplam {data.get('toplam')} sonuç (sayfa {data.get('sayfa')})")
         for r in data.get("sonuclar") or []:
             print(f"- id={r.get('id')} | {r.get('atif')} | {r.get('kaynak')}")
+        return 0
+    if a.cmd == "basliklar":
+        for satir in asyncio.run(basliklar(a.kanun, a.ilk, a.son)):
+            print(satir)
         return 0
     if a.cmd == "karar":
         body = asyncio.run(karar(a.karar_id, a.mahkeme))
