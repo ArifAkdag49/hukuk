@@ -25,7 +25,7 @@ ilk 10 HUK2011 konusu en sonda not üslubuna çevrilecek.
 | 9 | haksiz-fiil-genel-sorumluluk | API (eski üslup) | 〃 |
 | 10 | kusursuz-sorumluluk-halleri | API (eski üslup) | 〃 |
 | 11 | maddi-manevi-tazminat | bitti | örnek konu (rehberin referansı); yerelde yüklendi |
-| 12 | haksiz-fiil-muteselsil-sorumluluk-zamanasimi | bekliyor | |
+| 12 | haksiz-fiil-muteselsil-sorumluluk-zamanasimi | bitti | ajan yazdı, ana oturum okudu; yerelde yüklendi |
 | 13 | sebepsiz-zenginlesme-sartlar | bekliyor | |
 | 14 | sebepsiz-zenginlesme-iade-kapsami | bekliyor | |
 | 15 | ifa-genel-esaslar | bekliyor | |

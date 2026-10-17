@@ -1,0 +1,808 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Sözleşme Dışı Borç Kaynakları: Haksız Fiil ve Sebepsiz Zenginleşme",
+ "topic_index": 4,
+ "slug": "haksiz-fiil-muteselsil-sorumluluk-zamanasimi",
+ "title": "Haksız Fiilde Birden Çok Sorumlu, Rücu, Ceza Hukukuyla İlişki ve Zamanaşımı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-17T20:30:06.122710+00:00",
+ "skill_refs": [
+  "haksiz-fiil-tazminat/zamanasimi-ve-sureler",
+  "haksiz-fiil-tazminat/unsurlar-ve-denetim-semasi",
+  "borclar-hukuku-genel/muteselsil-borcluluk-ve-devir"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir zarardan birden çok kişi sorumluysa zarar gören kime ve ne kadar başvurur? Ödeyen, diğerlerinden ne kadarını geri alır? Ceza davasının sonucu tazminat davasını bağlar mı? Tazminat istemi ne zaman zamanaşımına uğrar?\n\n- **Müteselsil sorumluluk (TBK m. 61):** Birden çok kişi bir zarara birlikte sebep olmuşsa ya da aynı zarardan çeşitli sebeplerle (kusur, sözleşme, kusursuz sorumluluk) sorumluysa müteselsil sorumluluk hükümleri uygulanır. Eski Kanundaki tam/eksik teselsül ayrımı TBK'ya alınmamıştır.\n- **Dış ilişki:** Zarar gören tazminatın tamamını dilediği sorumludan isteyebilir (TBK m. 163). Sorumlu, \"benim kusurum az\" diyerek zarar görene karşı sorumluluğunu sınırlayamaz. Ödeme yapıldığı oranda herkes borçtan kurtulur (TBK m. 166). Zarar bir kez tazmin edilir.\n- **İç ilişki (TBK m. 62):** Tazminat sorumlular arasında bütün durum ve koşullara, özellikle kusurun ağırlığına ve yaratılan tehlikenin yoğunluğuna göre paylaştırılır. Payından fazlasını ödeyen, fazlası için diğerlerine rücu eder ve zarar görenin haklarına halef olur.\n- **Rücu zamanaşımı (TBK m. 73):** Tazminatın tamamının ödendiği ve birlikte sorumlunun öğrenildiği tarihten itibaren 2 yıl, her hâlde tamamının ödendiği tarihten itibaren 10 yıl. Ödemesi istenen kişi durumu diğer sorumlulara bildirmelidir.\n- **Ceza hukukuyla ilişki (TBK m. 74):** Hukuk hâkimi kusur ve ayırt etme gücü konusunda ceza hukukunun sorumluluk hükümleriyle, beraat kararıyla ve ceza hâkiminin kusur ve zarar değerlendirmesiyle bağlı değildir. Yerleşik içtihada göre kesinleşmiş ceza kararında saptanan **maddi olgular** (olayın varlığı, fiilin sanık tarafından işlenip işlenmediği) ise bağlar.\n- **Zamanaşımı (TBK m. 72/1):** Zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten itibaren 2 yıl, her hâlde fiilin işlendiği tarihten itibaren 10 yıl. Fiil, ceza kanunlarında daha uzun zamanaşımı öngörülen bir suçsa o süre uygulanır (**uzamış zamanaşımı**).\n- **Uzamış zamanaşımı (yerleşik uygulama):** Esas alınan, TCK m. 66'daki dava zamanaşımıdır. Fiilin suç olması yeter; ceza davası, mahkûmiyet ya da şikâyet şart değildir. Süre olay tarihinden işler, kesilme ve durma TBK'ya göre belirlenir.\n- **İfadan kaçınma (TBK m. 72/2):** Haksız fiil yüzünden zarar gören bakımından bir borç doğmuşsa, zarar gören tazminat istemi zamanaşımına uğrasa bile bu borcu ifadan her zaman kaçınabilir.",
+  "content_md": "## 0. Konunun haritası\n\nÖnceki konularda tek bir sorumluyla ilerledik: sorumluluk kuruldu mu, tazminat ne kadar? Bu konuda dört yeni soru var:\n\n| Soru | Hüküm |\n|---|---|\n| Birden çok sorumlu varsa zarar gören kime başvurur? | TBK m. 61 (dış ilişki) |\n| Ödeyen, diğerlerinden ne kadarını geri alır? | TBK m. 62 ve m. 73 (iç ilişki, rücu) |\n| Ceza davasının sonucu tazminat davasını bağlar mı? | TBK m. 74 |\n| Tazminat istemi ne zaman zamanaşımına uğrar? | TBK m. 72 |\n\n> 💡 **Püf nokta:** Konuyu iki ayrı ilişki olarak düşün. **Dış ilişki** zarar gören ile sorumlular arasındadır ve zarar göreni korur. **İç ilişki** sorumluların kendi aralarındadır ve yükü adil biçimde dağıtır. Kusur oranları ikinci ilişkinin konusudur.\n\n## 1. Birden çok sorumlu: dış ilişki (TBK m. 61)\n\n### 1.1 İki hâl\nTBK m. 61'e göre iki durumda **müteselsil sorumluluk** hükümleri uygulanır. Müteselsil sorumluluk, sorumlulardan her birinin zarar görene karşı zararın tamamından sorumlu olması demektir.\n1. **Birden çok kişi bir zarara birlikte sebep olmuşsa.** Örneğin iki kişi birlikte birini döver ya da iki sürücünün kusuruyla çarpışan araçlardan biri yayaya çarpar.\n2. **Aynı zarardan çeşitli sebeplerle sorumlu olunuyorsa.** Sorumluluk sebepleri farklıdır: biri kusuruyla (TBK m. 49), diğeri bir kusursuz sorumluluk hükmüyle (örneğin adam çalıştıran olarak, TBK m. 66), bir başkası sözleşmeyle sorumludur.\n\n> **Örnek:** Hazine, kendisine ait bir kum ocağını belediyeye kiralar. Belediye sözleşmeye aykırı olarak ocağı bir şirkete devreder, şirket de izin verilenden fazla kum çıkarır. Belediye Hazineye sözleşme gereği, şirket ise haksız fiil nedeniyle sorumludur. Zarar aynı olduğu için ikisi de zararın tamamından müteselsilen sorumludur.\n\n**Şart: tek ve aynı zarar.** Sorumlular aynı ve bölünemeyen bir zarardan sorumlu olmalıdır. Her biri ayrı ve belirlenebilir bir zarara yol açmışsa (biri aracın kapısını, diğeri camını kırmışsa) herkes yalnız kendi verdiği zarardan sorumludur. Buna **kısmi sorumluluk** denir.\n\n> ⚠️ **Sınavda dikkat:** TBK m. 60 ile m. 61'i karıştırma. m. 60, **tek kişinin** sorumluluğunun birden çok sebebe dayandığı durumu düzenler; hâkim zarar görene en iyi giderim imkânı sağlayan sebebe göre karar verir. m. 61 ise **birden çok kişinin** aynı zarardan sorumluluğudur.\n\n### 1.2 Sonuç: zarar görenin seçim hakkı\nm. 61 bizi genel müteselsil borçluluk hükümlerine gönderir. Burada teselsül bir bildirimden değil kanundan doğar (TBK m. 162/2). Ayrıntısı müteselsil borçluluk konusunda. Haksız fiil için önemli sonuçlar şunlardır:\n- Zarar gören tazminatın tamamını ya da bir kısmını dilediği sorumludan, birkaçından ya da hepsinden isteyebilir (TBK m. 163/1). Genellikle ödeme gücü yüksek ya da ispatı kolay olanı seçer.\n- Sorumluların hepsi borcun tamamı ödeninceye kadar sorumlu kalır (TBK m. 163/2). Birini dava etmek, hatta mahkûm ettirmek diğerlerini kurtarmaz. Diğerlerini kurtaran yalnız **ifadır**.\n- Sorumlulardan biri ödediği ya da takas ettiği oranda diğerlerini de borçtan kurtarır (TBK m. 166/1). **Zarar bir kez tazmin edilir.** Bu yüzden ayrı ayrı açılan davalarda hüküm \"tahsilde tekerrür olmamak kaydıyla\" kurulur.\n- Zarar görenin sorumlulardan biriyle yaptığı ibra sözleşmesi, diğerlerini ibra edilenin iç ilişkideki payı oranında borçtan kurtarır (TBK m. 166/3).\n- Her sorumlu, zarar görene karşı kendi kişisel ilişkisinden ya da borcun sebep veya konusundan doğan savunmaları ileri sürebilir (TBK m. 164).\n- Zarar görenin kendi kusuru (TBK m. 52) toplam tazminatı azaltabilir. Sorumlular kalan miktardan müteselsilen sorumludur.\n\n> **Örnek:** Kavşakta Kerem kırmızı ışıkta geçer, Ozan da hız sınırını aşar. Araçlar çarpışır, savrulan araç kaldırımdaki Zeynep'e çarpar. Zeynep'in zararı 900.000 TL'dir. Bilirkişiye göre Kerem %70, Ozan %30 kusurludur. Zeynep isterse 900.000 TL'nin tamamını yalnız Ozan'dan isteyebilir.\n\n> ⚠️ **Sınavda dikkat:** Ozan \"kusurum %30, en fazla 270.000 TL öderim\" diyemez. Kusur oranları zarar görene karşı değil, sorumluların kendi aralarındaki iç ilişkide önem taşır.\n\n> **Örnek (zarar görenin kusuru):** Başka bir olayda yayanın zararı 1.000.000 TL olsun ve hâkim, yaya kırmızı ışıkta karşıya geçtiği için tazminatı %20 indirsin. Kusurlu iki sürücü, kalan 800.000 TL'den yayaya karşı müteselsilen sorumludur.\n\n## 2. İç ilişki ve rücu (TBK m. 62, m. 73)\n\n### 2.1 Paylaştırma ölçütleri\nDış ilişkide herkes zararın tamamından sorumludur; iç ilişkide ise herkes **kendi payını** taşır. TBK m. 62/1'e göre tazminat paylaştırılırken şunlar göz önünde tutulur:\n- bütün durum ve koşullar,\n- özellikle her birine yüklenebilecek **kusurun ağırlığı**,\n- ve yarattıkları **tehlikenin yoğunluğu**.\n\nYol gösterici ilkeler:\n- **Kast ihmalden ağırdır.** Kasten zarar veren, ihmalle zarar verene göre daha büyük pay taşır.\n- **Tehlikenin yoğunluğu**, kişinin davranışının ya da işletmesinin zarar doğurmaya ne ölçüde elverişli olduğunu anlatır. Saldırgan bir köpeği tasmasız gezdiren ile köpeğinin tasmasını bir an elinden kaçıran aynı payı taşımayabilir.\n- Paylaştırma hâkimin takdirindedir. Haksız fiilde paylar, genel hükümdeki eşit pay kuralına (TBK m. 167/1) göre değil, m. 62'nin ölçütlerine göre belirlenir. Eski Kanundaki rücu sırası kuralı (kural olarak önce haksız fiil sorumlusu, en son kusuru olmaksızın kanunen sorumlu olan) TBK'ya alınmamıştır.\n- **Özel rücu hükümleri** saklıdır. Adam çalıştıran, ödediği tazminat için çalışana ancak onun bizzat sorumlu olduğu ölçüde rücu edebilir (TBK m. 66/4). Hayvan, başkası ya da başkasının hayvanı tarafından ürkütülmüşse hayvan bulunduranın bu kişilere rücu hakkı saklıdır (TBK m. 67/3).\n\n### 2.2 Rücu hakkı ve halefiyet\nTBK m. 62/2'ye göre tazminatın kendi payına düşeninden **fazlasını** ödeyen kişi, bu fazla için diğer sorumlulara **rücu** eder ve zarar görenin haklarına **halef** olur.\n- **Rücu hakkı**, ödeyenin sorumlular arasındaki ilişkiden doğan kendi alacağıdır.\n- **Halefiyet**, zarar görenin alacağının ödenen fazla oranında kanun gereği ödeyene geçmesidir. Böylece ödeyen, alacağa bağlı teminat ve öncelik haklarından da yararlanabilir. Müteselsil borçlular için aynı kural genel olarak TBK m. 168/1'de yer alır.\n- İç ilişkide teselsül yoktur. Ödeyen, her birinden ancak onun payı oranında isteyebilir (TBK m. 167/2).\n- Kendi payından azını ödeyen henüz rücu edemez; rücu için payın aşılması gerekir.\n\n> **Örnek (devam):** Ozan, Zeynep'e 900.000 TL'nin tamamını öder. İç ilişkide Ozan'ın payı %30, yani 270.000 TL'dir. Fazla ödediği 630.000 TL için Kerem'e rücu eder.\n\n> **Örnek (üç sorumlu):** Zarar 600.000 TL; paylar Ayla %50, Bora %30, Cem %20. Ayla tamamını öderse Bora'dan 180.000 TL, Cem'den 120.000 TL ister. Cem'in payını Bora'dan isteyemez.\n\n### 2.3 Rücu isteminin zamanaşımı (TBK m. 73)\n- **2 yıl:** tazminatın **tamamının ödendiği** ve **birlikte sorumlu kişinin öğrenildiği** tarihten.\n- **10 yıl:** her hâlde tazminatın tamamının ödendiği tarihten.\n- **Bildirim yükümlülüğü (m. 73/2):** Tazminatın ödenmesi kendisinden istenen kişi, durumu birlikte sorumlu olduğu kişilere bildirmek zorundadır. Bildirmezse zamanaşımı, bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar. Yani bildirimi ihmal eden, sürenin erken başlaması riskine katlanır.\n\n> 📌 **Kesin bilgi:** Zarar görenin istemi TBK m. 72'ye, sorumluların birbirine rücu istemi TBK m. 73'e tabidir. Rücu süresini başlatan, olay ya da öğrenme tarihi değil, **tazminatın tamamının ödenmesidir**.\n\n## 3. Ceza hukukuyla ilişki (TBK m. 74)\n\nAynı olay hem ceza davasına hem tazminat davasına konu olabilir. Trafik kazasında sürücü hem taksirle yaralamadan yargılanır hem tazminatla sorumlu tutulur. İki yargılamanın sonucu farklı olabilir mi?\n\n### 3.1 Kural: hukuk hâkimi bağımsızdır\n- **TBK m. 74/1:** Hâkim, zarar verenin **kusurunun** olup olmadığına ve **ayırt etme gücünün** bulunup bulunmadığına karar verirken ceza hukukunun sorumlulukla ilgili hükümleriyle bağlı değildir. Ceza hâkiminin verdiği **beraat kararıyla** da bağlı değildir.\n- **TBK m. 74/2:** Ceza hâkiminin **kusurun değerlendirilmesine** ve **zararın belirlenmesine** ilişkin kararı da hukuk hâkimini bağlamaz.\n\nNedeni, iki yargılamanın amacının ve ispat kurallarının farklı olmasıdır. Ceza hukuku failin cezalandırılmasını, sorumluluk hukuku zararın giderilmesini amaçlar. Ceza davasında şüpheden sanık yararlanır. Sorumluluk hukukunda ise kusur aranmayan sorumluluk hâlleri de vardır.\n\n> **Örnek (ayırt etme gücü):** 11 yaşındaki Emir taş atarak komşunun aracının camını kırar. Fiili işlediği sırada 12 yaşını doldurmamış çocuğun ceza sorumluluğu yoktur (TCK m. 31/1). Ama hukuk hâkimi Emir'in ayırt etme gücünü kendisi değerlendirir. Ayırt etme gücüne sahip küçükler haksız fiillerinden sorumludur (TMK m. 16/2).\n\n> **Örnek (beraat):** Ceza mahkemesi sürücü Selin'i \"mahkûmiyetine yeterli, kesin ve inandırıcı delil bulunmadığı\" gerekçesiyle beraat ettirir. Tazminat davasında hâkim toplanan delillere göre Selin'i kusurlu bulabilir ve tazminata hükmedebilir.\n\n### 3.2 Sınır: maddi olgular bağlar\nHukuk hâkiminin bağımsızlığı sınırsız değildir. Yargıtay'ın yerleşik uygulamasına göre ceza mahkemesinin kesinleşmiş kararında saptadığı **maddi olgular** hukuk hâkimini bağlar: olayın gerçekleşip gerçekleşmediği, fiilin sanık tarafından işlenip işlenmediği ve fiilin hukuka aykırılığı. Gerekçe şudur: ceza hâkimi maddi gerçeği araştırır ve delil toplama imkânları daha geniştir. Aynı olgunun iki mahkemede farklı kabul edilmesi yargıya güveni sarsar.\n\nBundan çıkan sonuçlar:\n- Beraat, **suçun sanık tarafından işlenmediğinin kesin olarak tespitine** dayanıyorsa bağlar. **Delil yetersizliğine** dayanan beraat bağlamaz.\n- Ceza mahkemesi bir kişinin kusurlu olduğunu maddi olgu olarak kabul etmişse hukuk hâkimi onu kusursuz sayamaz. Ama **kusur oranını** yeni bir bilirkişi incelemesiyle kendisi belirleyebilir.\n- Ceza dosyasındaki kusur raporu bağlamaz. Raporlar çelişiyorsa hâkim çelişkiyi gerekçeli ve denetime elverişli yeni bir raporla gidermelidir.\n- Ceza kararında saptanan olayın gelişimi, örneğin ölenin haksız tahriki, tazminatın belirlenmesinde de dikkate alınır.\n- Savcılığın kovuşturmaya yer olmadığına dair kararı hukuk hâkimini bağlamaz; hâkim bu kararı diğer delillerle birlikte değerlendirir.\n\n| Hukuk hâkimini bağlar | Bağlamaz |\n|---|---|\n| Kesinleşmiş kararda saptanan maddi olgular | Ceza hukukunun sorumluluk kuralları (yaş gibi) |\n| Fiilin sanık tarafından işlenmediğinin kesin tespiti | Delil yetersizliğine dayanan beraat |\n| Fiilin hukuka aykırılığının saptanması | Kusur oranı ve zarar miktarı değerlendirmesi |\n\n> ⚠️ **Sınavda dikkat:** \"Ceza mahkemesi beraat kararı verdi, o hâlde tazminat davası reddedilir\" cevabı kural olarak **yanlıştır**. Önce beraatin gerekçesine bak. Fiilin sanık tarafından işlenmediği kesin olarak saptanmışsa karar bağlar; delil yetersizliğine dayanıyorsa bağlamaz. Kusursuzluk gerekçeli beraatin etkisi uygulamada tartışmalıdır (bkz. doktrin).\n\n## 4. Zamanaşımı (TBK m. 72)\n\n### 4.1 Üç süre\nTBK m. 72/1 haksız fiilden doğan tazminat istemleri için üç süre öngörür:\n\n| Süre | Başlangıç |\n|---|---|\n| 2 yıl | Zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarih |\n| 10 yıl | Fiilin işlendiği tarih (öğrenmeye bakılmaz) |\n| Ceza kanunundaki daha uzun süre | Olay tarihi (Yargıtay uygulaması) |\n\n**İki yıllık süre** için iki şey birlikte öğrenilmelidir:\n- **Zarar:** Yargıtay'a göre zarar görenin, dava açmasına ve davasının gerekçesini göstermesine yetecek ölçüde zararın varlığını, niteliğini ve kapsamını kesin olarak öğrenmesi gerekir. Bedensel zararda bu çoğu zaman kalıcı maluliyeti gösteren kesin raporun öğrenildiği tarihtir.\n- **Tazminat yükümlüsü:** Kusur sorumluluğunda fail, kusursuz sorumlulukta kanunen sorumlu kişi öğrenilmelidir.\n- Hangisi daha sonra öğrenildiyse süre o tarihten başlar. Öğrenebilecek durumda olmak yetmez, gerçekten öğrenmek gerekir.\n- Süre **her sorumlu için ayrı** hesaplanır.\n\n> **Örnek:** İnşaattan düşen demir Gül'ü yaralar. Gül, demiri düşüren işçiyi olay günü öğrenir. İşçinin bir taşeron şirketin çalışanı olduğunu ise ceza dosyasından iki yıl sonra öğrenir. Şirket için iki yıllık süre, şirketi öğrendiği tarihten başlar.\n\n**On yıllık süre** bir üst sınırdır. Zarar görenin öğrenip öğrenmediğine bakılmaksızın fiilin işlendiği tarihten işler.\n\n> ⚠️ **Sınavda dikkat:** \"Zararı öğrenmeden itibaren 10 yıl\" yazmak yanlıştır. 10 yıl **fiilin işlendiği** tarihten başlar; öğrenmeye bağlı olan 2 yıllık süredir.\n\n### 4.2 Uzamış (ceza) zamanaşımı\nTBK m. 72/1'in son cümlesine göre tazminat, ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa o zamanaşımı uygulanır. Yargıtay buna **uzamış zamanaşımı** der. Amaç, ceza kovuşturmasına muhatap olabilen failin tazminattan daha önce kurtulmamasıdır. Kural maddi ve manevi tazminat istemleri için geçerlidir.\n\nYerleşik uygulamanın ilkeleri:\n1. **Hangi süre?** TCK m. 66'daki **dava zamanaşımı** esas alınır. Kesinleşmiş cezanın infazına ilişkin ceza zamanaşımı (TCK m. 68) dikkate alınmaz. Süre, mahkemenin verdiği cezaya göre değil, suçun kanundaki cezasının **üst sınırına** göre belirlenir (TCK m. 66/4).\n2. **Fiilin suç olması yeter.** Ceza davasının açılmış ya da mahkûmiyet kararı verilmiş olması gerekmez. Fiilin suç olup olmadığını hukuk hâkimi kendisi belirler. Takibi şikâyete bağlı suçta şikâyette bulunulmamış olması da engel değildir. Failin ölmüş olması sonucu değiştirmez; uzamış süre mirasçılarına karşı da uygulanır.\n3. **Başlangıç olay tarihidir.** Uzamış süre, zarar ve failin öğrenilmesine bakılmadan olay tarihinden işler. Zarar ya da fail uzamış süre dolduktan sonra öğrenilmişse, öğrenmeden itibaren olağan iki yıllık süre işler (on yıllık üst sınır saklıdır); öğrenme tarihinden itibaren yeni bir uzamış süre başlamaz.\n4. **Kesilme ve durma TBK'ya göre.** Zamanaşımının durması ve kesilmesi TBK hükümlerine tabidir (TBK m. 153 vd.). Ceza kanunundaki kesilme ve buna bağlı uzama kuralları tazminat davasında uygulanmaz.\n5. **Ceza davasına katılmak zamanaşımını kesmez.** Bugünkü Ceza Muhakemesi Kanunu ceza davasında tazminat istenmesine yer vermez. Bu yüzden ceza davasının açılması ya da zarar görenin bu davaya katılması tazminat istemi için zamanaşımını kesmez. Ceza davası sürdükçe zarar görenin bu davada tazminat isteyebileceğini kabul eden 1955 tarihli İçtihadı Birleştirme Kararı, Hukuk Genel Kurulu'na göre 2005'ten sonra uygulanamaz hâle gelmiştir.\n\n**Sık karşılaşılan süreler (TCK m. 66/1):**\n- Taksirle yaralama (TCK m. 89): cezanın üst sınırı beş yılı geçmez, dava zamanaşımı **8 yıl**.\n- Taksirle öldürme (TCK m. 85): üst sınır altı ya da on beş yıl, dava zamanaşımı **15 yıl**.\n- Kasten öldürme (TCK m. 81, müebbet hapis): **25 yıl**.\n\n> 📌 **Kesin bilgi:** 24.12.2025 tarihli ve 7571 sayılı Kanun, TCK m. 89'daki cezaları artırdı (temel hâlde dört aydan iki yıla kadar). Üst sınır yine beş yılı aşmadığı için taksirle yaralamada dava zamanaşımı 8 yıl olarak kaldı.\n\n**Kimlere uygulanır?**\n- Suçu işleyen faile ve mirasçılarına.\n- Yargıtay, trafik kazalarında Karayolları Trafik Kanunu'nun özel zamanaşımı hükmüne dayanarak uzamış süreyi sürücüyle birlikte işletene ve zorunlu trafik sigortacısına da uygular.\n- Adam çalıştıran gibi yalnız hukuken sorumlu olanlar bakımından konu tartışmalıdır. Kendisinin cezai sorumluluğu yoksa uygulanmayacağını kabul eden daire kararları vardır (bkz. doktrin).\n\n> **Örnek:** Hakan 10.01.2020'de taksirle Ayşe'yi yaralar. Ayşe zararını ve Hakan'ı aynı yıl öğrenir ama ancak 15.06.2024'te dava açar. İki yıllık süre dolmuştur. Ancak taksirle yaralamada dava zamanaşımı 8 yıldır. Yargıtay'ın yerleşik uygulamasına göre bu süre olay tarihinden işler ve 10.01.2028'de dolar. Dava süresindedir.\n\n### 4.3 Zarar görenin borcu: ifadan kaçınma (TBK m. 72/2)\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa, zarar gören, tazminat istemi zamanaşımına uğramış olsa bile bu borcu ifadan her zaman kaçınabilir. Bu, süreye bağlı olmayan bir **def'idir**.\n\n> **Örnek:** Okan, Pınar'ı aldatarak değersiz bir tablo için ona 200.000 TL'lik bir borç senedi imzalatır. Aldatma (TBK m. 36) aynı zamanda bir haksız fiildir. Pınar'ın tazminat istemi zamanaşımına uğrasa bile Okan senede dayanarak ödeme istediğinde Pınar ödemekten kaçınabilir. Sözleşmenin aldatma nedeniyle iptali ise ayrı bir süreye bağlıdır; ayrıntısı irade sakatlıkları konusunda.\n\n### 4.4 Genel zamanaşımı hükümleriyle bağlantı\n- Zamanaşımı dava açılması, icra takibi ya da borcun ikrarı gibi sebeplerle kesilir (TBK m. 154) ve yeni bir süre işlemeye başlar (TBK m. 156/1).\n- Zamanaşımı müteselsil borçlulardan birine karşı kesilince diğerlerine karşı da kesilmiş olur (TBK m. 155/1). Bu kuralın her türlü müteselsil sorumlulukta uygulanması tartışmalıdır (bkz. doktrin).\n- Hâkim zamanaşımını kendiliğinden göz önüne alamaz; sorumlu bunu def'i olarak ileri sürmelidir (TBK m. 161).\n- Aynı kişinin sorumluluğu hem sözleşmeye hem haksız fiile dayanıyorsa hâkim, zarar gören aksini istemedikçe ve kanunda aksi öngörülmedikçe, zarar görene en iyi giderim imkânı sağlayan sebebe göre karar verir (TBK m. 60). Sözleşmeden doğan istemlerde kural olarak on yıllık genel süre geçerlidir (TBK m. 146).\n\nAyrıntılar zamanaşımı konusunda.\n\n### 4.5 Komşu iki hüküm (TBK m. 75 ve m. 76)\n- **Hükmün değiştirilmesi (TBK m. 75):** Bedensel zararın kapsamı karar sırasında tam belirlenemiyorsa hâkim, kararın kesinleşmesinden itibaren **iki yıl** içinde tazminat hükmünü değiştirme yetkisini saklı tutabilir. Bu bir zamanaşımı süresi değildir.\n- **Geçici ödeme (TBK m. 76):** Zarar gören iddiasının haklılığını gösteren inandırıcı kanıtlar sunar ve ekonomik durumu da gerektirirse hâkim, istem üzerine davalının geçici ödeme yapmasına karar verebilir. Geçici ödemeler hükmedilen tazminattan mahsup edilir. Tazminata hükmedilmezse davacı aldığını yasal faiziyle geri verir.\n\n## 5. Olay çözerken denetim şeması\n1. **Sorumluları ve sebeplerini belirle:** Kim kusuruyla (TBK m. 49), kim kusursuz sorumluluk hükmüyle, kim sözleşmeyle sorumlu? Zarar tek ve bölünemez mi?\n2. **Dış ilişki:** Zarar gören dilediğinden tamamını ister (TBK m. 61, m. 163). Zarar görenin kendi kusuru toplam tazminatın indirilmesine yol açabilir (TBK m. 52).\n3. **Ceza davası var mı?** Kararın türüne ve gerekçesine bak: maddi olgular bağlar; beraat, kusur ve zarar değerlendirmesi kural olarak bağlamaz (TBK m. 74).\n4. **Zamanaşımı:** Her sorumlu için ayrı hesapla. Olay tarihi, zararın ve o sorumlunun öğrenildiği tarih, 2 ve 10 yıllık süreler; fiil suçsa TCK m. 66'daki süre; kesilme (TBK m. 154-155). Def'i ileri sürüldü mü (TBK m. 161)?\n5. **İç ilişki:** Payları kusur ve tehlike yoğunluğuna göre belirle (TBK m. 62/1). Payından fazlasını ödeyen rücu eder ve halef olur (TBK m. 62/2). Özel rücu hükümlerine bak (TBK m. 66/4, m. 67/3).\n6. **Rücu zamanaşımı:** Tamamının ödendiği tarih ve bildirim yükümlülüğü (TBK m. 73).",
+  "critical_md": "- 📌 TBK m. 61: birlikte zarar verme ya da aynı zarardan çeşitli sebeplerle sorumluluk hâlinde müteselsil sorumluluk hükümleri uygulanır. TBK, eski Kanundaki tam/eksik teselsül ayrımını almamıştır.\n- ⚠️ Kusur oranları dış ilişkide zarar görene karşı ileri sürülemez. Zarar gören tazminatın tamamını dilediği sorumludan ister (TBK m. 163/1).\n- 📌 Zarar bir kez tazmin edilir: biri ödediği oranda diğerlerini de kurtarır (TBK m. 166/1). Birini dava etmek ya da mahkûm ettirmek diğerlerini kurtarmaz; hüküm tahsilde tekerrür olmamak kaydıyla kurulur.\n- ⚠️ TBK m. 60 tek kişinin birden çok sorumluluk sebebini, m. 61 birden çok kişinin aynı zarardan sorumluluğunu düzenler.\n- 📌 İç ilişkide paylaştırma (TBK m. 62/1): bütün durum ve koşullar, özellikle kusurun ağırlığı ve tehlikenin yoğunluğu. Haksız fiilde eşit pay kuralı (TBK m. 167/1) uygulanmaz.\n- 📌 Payından fazlasını ödeyen, fazlası için rücu eder ve zarar görenin haklarına halef olur (TBK m. 62/2). İç ilişkide teselsül yoktur; her birinden payı oranında istenir.\n- 📌 Rücu zamanaşımı (TBK m. 73): tamamının ödendiği ve birlikte sorumlunun öğrenildiği tarihten 2 yıl, her hâlde tamamının ödendiği tarihten 10 yıl. Bildirim yapılmazsa süre, bildirimin yapılabileceği tarihte başlar.\n- ⚠️ Ceza hukukunun sorumluluk kuralları, beraat kararı, kusur ve zarar değerlendirmesi hukuk hâkimini bağlamaz (TBK m. 74). Kesinleşmiş ceza kararındaki maddi olgular bağlar.\n- ⚠️ Delil yetersizliğine dayanan beraat bağlamaz; fiilin sanık tarafından işlenmediğinin kesin tespiti bağlar. Kusurlu olduğu maddi olgu olarak saptanan kişi hukukta kusursuz sayılamaz, ama kusur oranı yeniden belirlenebilir.\n- 📌 TBK m. 72/1: zararı ve tazminat yükümlüsünü öğrenmeden 2 yıl, her hâlde fiilden 10 yıl; fiil suçsa ceza kanunundaki daha uzun süre.\n- ⚠️ 2 yıllık süre için zarar ve yükümlü birlikte öğrenilmelidir. Hangisi sonra öğrenildiyse süre ondan başlar ve her sorumlu için ayrı hesaplanır. 10 yıllık süre öğrenmeye bakmaz.\n- 📌 Uzamış zamanaşımında TCK m. 66'daki dava zamanaşımı, suçun cezasının üst sınırına göre esas alınır: taksirle yaralama 8, taksirle öldürme 15, kasten öldürme 25 yıl.\n- ⚠️ Uzamış süre için ceza davası, mahkûmiyet ya da şikâyet şart değildir. Süre olay tarihinden işler, kesilme ve durma TBK'ya göre belirlenir. Ceza davasına katılmak zamanaşımını kesmez.\n- 📌 TBK m. 72/2: haksız fiil yüzünden borç altına giren zarar gören, tazminat istemi zamanaşımına uğrasa bile borcu ifadan her zaman kaçınabilir.\n- ⚠️ Hâkim zamanaşımını kendiliğinden dikkate almaz (TBK m. 161). TBK m. 75'teki iki yıl, hükmü değiştirme yetkisinin süresidir; zamanaşımı değildir.",
+  "doctrine_md": "### TBK'da tam ve eksik teselsül\nEski Kanun, birlikte zarar vermeyi (tam teselsül) ve aynı zarardan çeşitli sebeplerle sorumluluğu (eksik teselsül) ayrı maddelerde düzenliyordu. Ayrımın en önemli sonucu zamanaşımının kesilmesiydi. Doktrindeki ağırlıklı görüş, bir sorumluya karşı kesilen zamanaşımının diğerlerini de etkilemesini yalnız tam teselsülde kabul ediyordu; Yargıtay kararları bu konuda tek yönlü değildi. TBK m. 61'in gerekçesi, öğretide eleştirilen ayrımın terk edildiğini ve iki hâlin aynı hükümlere bağlandığını belirtir. Yine de tartışma bitmemiştir. Bazı Yargıtay kararları, TBK eksik teselsülü tanımadığı için kesilmenin bütün sorumlulara etkili olduğunu (TBK m. 155/1) kabul ederken ayrımı sürdüren kararlar ve yazarlar da vardır.\n\n### Dış ilişkide kişisel indirim sebepleri\nTBK Tasarısı'nda, her sorumlunun dış ilişkide ödeyeceği tutarın tek başına sorumlu olsaydı ödeyeceği tutarı aşamayacağını öngören bir fıkra vardı. Böylece hafif kusur gibi kişisel indirim sebepleri zarar görene karşı da ileri sürülebilecekti. Bu fıkra, müteselsil sorumluluğun yapısına aykırı görülerek yasalaşma sürecinde metinden çıkarıldı. Bir görüşe göre kişisel indirim sebepleri yalnız iç ilişkide, rücu sırasında dikkate alınmalıdır; aksi zarar görenin güvencesini zayıflatır. Karşı görüşe göre bir kişinin, sırf başkalarıyla birlikte sorumlu olduğu için TBK m. 52/2'deki gibi indirimlerden yararlanamaması hakkaniyete aykırıdır.\n\n### Uzamış zamanaşımı: hangi süre yerine, kime karşı?\nBir görüşe göre ceza zamanaşımı yalnız on yıllık sürenin yerine geçer. Baskın görüş ve Yargıtay ise iki ve on yıllık sürelerin ikisinin de yerine geçebileceğini kabul eder; ceza süresi iki yıldan uzunsa, öğrenme tarihine bakılmaksızın bu süre içinde dava açılabilir. Kişi bakımından fail ve mirasçıları için uygulama yerleşiktir. Yalnız hukuken sorumlu olanlar (adam çalıştıran gibi) için bir görüş, kuralın amacının cezalandırılabilen kişiyi sorumlu tutmak olduğunu söyleyerek uzamış sürenin uygulanmamasını savunur. Karşı görüşe göre sorumluluğu doğuran fiil suç olduğundan aynı süre herkese uygulanmalıdır. Hukuk Genel Kurulu'nun trafik kazasına ilişkin bir kararındaki karşı oy da bu tartışmayı yansıtır.\n\n### Kusursuzluk gerekçeli beraat\nTBK m. 74/2'nin lafzına göre ceza hâkiminin kusur değerlendirmesi bağlamaz. Buna karşılık yakın tarihli bir daire kararında, sürücünün kusursuz olduğu gerekçesiyle verilen kesinleşmiş beraat oy çokluğuyla bağlayıcı sayılmış; karşı oy kanunun lafzına dayanmıştır. Hukuk Genel Kurulu ise ceza ve hukuk dosyalarındaki kusur raporları çeliştiğinde, çelişkiyi gideren yeni ve ayrıntılı bir rapor alınmasını istemiştir.",
+  "glossary": [
+   {
+    "term": "Müteselsil sorumluluk",
+    "definition": "Birden çok kişinin aynı zarardan, zarar görene karşı her birinin zararın tamamından sorumlu olması. Zarar bir kez tazmin edilir (TBK m. 61)."
+   },
+   {
+    "term": "Dış ilişki",
+    "definition": "Zarar gören ile sorumlular arasındaki ilişki. Zarar gören tazminatın tamamını dilediği sorumludan isteyebilir."
+   },
+   {
+    "term": "İç ilişki",
+    "definition": "Sorumluların kendi aralarındaki ilişki. Tazminat kusurun ağırlığı ve tehlikenin yoğunluğu gibi ölçütlere göre paylaştırılır (TBK m. 62)."
+   },
+   {
+    "term": "Rücu",
+    "definition": "Kendi payından fazlasını ödeyen sorumlunun, fazlayı diğer sorumlulardan payları oranında istemesi."
+   },
+   {
+    "term": "Halefiyet",
+    "definition": "Ödenen fazla oranında zarar görenin alacağının, ona bağlı teminat ve öncelik haklarıyla birlikte kanun gereği ödeyene geçmesi."
+   },
+   {
+    "term": "Tam teselsül ve eksik teselsül",
+    "definition": "Eski Kanunda birlikte zarar verme ile aynı zarardan çeşitli sebeplerle sorumluluk arasındaki ayrım. TBK bu iki hâli aynı hükümlere bağlamıştır."
+   },
+   {
+    "term": "Kısmi sorumluluk",
+    "definition": "Her sorumlunun yalnız kendi verdiği ayrı ve belirlenebilir zarardan sorumlu olması. Zarar bölünebiliyorsa müteselsil sorumluluk değil kısmi sorumluluk söz konusudur."
+   },
+   {
+    "term": "Tahsilde tekerrür yasağı",
+    "definition": "Müteselsil sorumlular hakkında verilen hükümlerin, aynı zararın birden fazla tahsil edilmesini önleyecek biçimde kurulması."
+   },
+   {
+    "term": "İki yıllık (nispi) süre",
+    "definition": "Zarar görenin zararı ve tazminat yükümlüsünü öğrenmesiyle başlayan zamanaşımı süresi (TBK m. 72/1)."
+   },
+   {
+    "term": "On yıllık (mutlak) süre",
+    "definition": "Fiilin işlendiği tarihten başlayan ve öğrenmeye bağlı olmayan üst sınır niteliğindeki zamanaşımı süresi."
+   },
+   {
+    "term": "Uzamış (ceza) zamanaşımı",
+    "definition": "Fiil suç oluşturuyorsa, ceza kanunlarında öngörülen daha uzun dava zamanaşımının tazminat istemine de uygulanması."
+   },
+   {
+    "term": "Dava zamanaşımı",
+    "definition": "Ceza hukukunda geçmesiyle kamu davasının düştüğü süre (TCK m. 66). Uzamış zamanaşımında esas alınan süre budur."
+   },
+   {
+    "term": "Maddi olgu bağlayıcılığı",
+    "definition": "Kesinleşmiş ceza kararında saptanan olguların (olayın varlığı, fiilin kim tarafından işlendiği, hukuka aykırılık) hukuk hâkimini bağlaması."
+   },
+   {
+    "term": "İfadan kaçınma def'i",
+    "definition": "Haksız fiil yüzünden borç altına giren zarar görenin, tazminat istemi zamanaşımına uğrasa bile bu borcu ödemekten kaçınma hakkı (TBK m. 72/2)."
+   },
+   {
+    "term": "Bildirim yükümlülüğü",
+    "definition": "Tazminatın ödenmesi kendisinden istenen sorumlunun durumu diğer sorumlulara bildirme yükümü. Yerine getirilmezse rücu zamanaşımı erken başlar (TBK m. 73/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "61",
+   "official_text": "MADDE 61- Birden çok kişi birlikte bir zarara sebebiyet verdikleri veya aynı zarardan çeşitli sebeplerden dolayı sorumlu oldukları takdirde, haklarında müteselsil sorumluluğa ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "62",
+   "official_text": "MADDE 62- Tazminatın aynı zarardan sorumlu müteselsil borçlular arasında paylaştırılmasında, bütün durum ve koşullar, özellikle onlardan her birine yüklenebilecek kusurun ağırlığı ve yarattıkları tehlikenin yoğunluğu göz önünde tutulur.\nTazminatın kendi payına düşeninden fazlasını ödeyen kişi, bu fazla ödemesi için, diğer müteselsil sorumlulara karşı rücu hakkına sahip ve zarar görenin haklarına halef olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "72",
+   "official_text": "MADDE 72- Tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Ancak, tazminat ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa, bu zamanaşımı uygulanır.\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile, her zaman bu borcu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "74",
+   "official_text": "MADDE 74- Hâkim, zarar verenin kusurunun olup olmadığı, ayırt etme gücünün bulunup bulunmadığı hakkında karar verirken, ceza hukukunun sorumlulukla ilgili hükümleriyle bağlı olmadığı gibi, ceza hâkimi tarafından verilen beraat kararıyla da bağlı değildir.\nAynı şekilde, ceza hâkiminin kusurun değerlendirilmesine ve zararın belirlenmesine ilişkin kararı da, hukuk hâkimini bağlamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "73",
+   "official_text": "MADDE 73- Rücu istemi, tazminatın tamamının ödendiği ve birlikte sorumlu kişinin öğrenildiği tarihten başlayarak iki yılın ve her hâlde tazminatın tamamının ödendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nTazminatın ödenmesi kendisinden istenilen kişi, durumu birlikte sorumlu olduğu kişilere bildirmek zorundadır. Aksi takdirde zamanaşımı, bu bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "60",
+   "official_text": "MADDE 60- Bir kişinin sorumluluğu, birden çok sebebe dayandırılabiliyorsa hâkim, zarar gören aksini istemiş olmadıkça veya kanunda aksi öngörülmedikçe, zarar görene en iyi giderim imkânı sağlayan sorumluluk sebebine göre karar verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "52",
+   "official_text": "MADDE 52- Zarar gören, zararı doğuran fiile razı olmuş veya zararın doğmasında ya da artmasında etkili olmuş yahut tazminat yükümlüsünün durumunu ağırlaştırmış ise hâkim, tazminatı indirebilir veya tamamen kaldırabilir.\nZarara hafif kusuruyla sebep olan tazminat yükümlüsü, tazminatı ödediğinde yoksulluğa düşecek olur ve hakkaniyet de gerektirirse hâkim, tazminatı indirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "66",
+   "official_text": "MADDE 66- Adam çalıştıran, çalışanın, kendisine verilen işin yapılması sırasında başkalarına verdiği zararı gidermekle yükümlüdür.\nAdam çalıştıran, çalışanını seçerken, işiyle ilgili talimat verirken, gözetim ve denetimde bulunurken, zararın doğmasını engellemek için gerekli özeni gösterdiğini ispat ederse, sorumlu olmaz.\nBir işletmede adam çalıştıran, işletmenin çalışma düzeninin zararın doğmasını önlemeye elverişli olduğunu ispat etmedikçe, o işletmenin faaliyetleri dolayısıyla sebep olunan zararı gidermekle yükümlüdür.\nAdam çalıştıran, ödediği tazminat için, zarar veren çalışana, ancak onun bizzat sorumlu olduğu ölçüde rücu hakkına sahiptir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "67",
+   "official_text": "MADDE 67- Bir hayvanın bakımını ve yönetimini sürekli veya geçici olarak üstlenen kişi, hayvanın verdiği zararı gidermekle yükümlüdür.\nHayvan bulunduran, bu zararın doğmasını engellemek için gerekli özeni gösterdiğini ispat ederse sorumlu olmaz.\nHayvan, bir başkası veya bir başkasına ait hayvan tarafından ürkütülmüş olursa, hayvanı bulunduranın, bu kişilere rücu hakkı saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "75",
+   "official_text": "MADDE 75- Bedensel zararın kapsamı, karar verme sırasında tam olarak belirlenemiyorsa hâkim, kararın kesinleşmesinden başlayarak iki yıl içinde, tazminat hükmünü değiştirme yetkisini saklı tutabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "76",
+   "official_text": "MADDE 76- Zarar gören, iddiasının haklılığını gösteren inandırıcı kanıtlar sunduğu ve ekonomik durumu da gerektirdiği takdirde hâkim, istem üzerine davalının zarar görene geçici ödeme yapmasına karar verebilir.\nDavalının yaptığı geçici ödemeler, hükmedilen tazminata mahsup edilir; tazminata hükmedilmezse hâkim, davacının aldığı geçici ödemeleri, yasal faizi ile birlikte geri vermesine karar verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "36",
+   "official_text": "MADDE 36- Taraflardan biri, diğerinin aldatması sonucu bir sözleşme yapmışsa, yanılması esaslı olmasa bile, sözleşmeyle bağlı değildir.\nÜçüncü bir kişinin aldatması sonucu bir sözleşme yapan taraf, sözleşmenin yapıldığı sırada karşı tarafın aldatmayı bilmesi veya bilecek durumda olması hâlinde, sözleşmeyle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "153",
+   "official_text": "MADDE 153- Aşağıdaki durumlarda zamanaşımı işlemeye başlamaz, başlamışsa durur:\n1. Velayet süresince, çocukların ana ve babalarından olan alacakları için.\n2. Vesayet süresince, vesayet altında bulunanların vasiden veya vesayet işlemleri sebebiyle Devletten olan alacakları için.\n3. Evlilik devam ettiği sürece, eşlerin diğerinden olan alacakları için.\n4. Hizmet ilişkisi süresince, ev hizmetlilerinin onları çalıştıranlardan olan alacakları için.\n5. Borçlu, alacak üzerinde intifa hakkına sahip olduğu sürece.\n6. Alacağı, Türk mahkemelerinde ileri sürme imkânının bulunmadığı sürece.\n7. Alacaklı ve borçlu sıfatının aynı kişide birleşmesinde, birleşmenin ileride geçmişe etkili olarak ortadan kalkması durumunda, bu durumun ortaya çıkmasına kadar geçecek sürece.\nZamanaşımını durduran sebeplerin ortadan kalktığı günün bitiminde zamanaşımı işlemeye başlar veya durmadan önce başlamış olan işlemesini sürdürür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "154",
+   "official_text": "MADDE 154- Aşağıdaki durumlarda zamanaşımı kesilir:\n1. Borçlu borcu ikrar etmişse, özellikle faiz ödemiş veya kısmen ifada bulunmuşsa ya da rehin vermiş veya kefil göstermişse.\n2. Alacaklı, dava veya def’i yoluyla mahkemeye veya hakeme başvurmuşsa, icra takibinde bulunmuşsa ya da iflas masasına başvurmuşsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "155",
+   "official_text": "MADDE 155- Zamanaşımı müteselsil borçlulardan veya bölünemeyen borcun borçlularından birine karşı kesilince, diğerlerine karşı da kesilmiş olur.\nZamanaşımı asıl borçluya karşı kesilince, kefile karşı da kesilmiş olur.\nZamanaşımı kefile karşı kesilince, asıl borçluya karşı kesilmiş olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "156",
+   "official_text": "MADDE 156- Zamanaşımının kesilmesiyle, yeni bir süre işlemeye başlar.\nBorç bir senetle ikrar edilmiş veya bir mahkeme ya da hakem kararına bağlanmış ise, yeni süre her zaman on yıldır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "161",
+   "official_text": "MADDE 161- Zamanaşımı ileri sürülmedikçe, hâkim bunu kendiliğinden göz önüne alamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "162",
+   "official_text": "MADDE 162- Birden çok borçludan her biri, alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirirse, müteselsil borçluluk doğar.\nBöyle bir bildirim yoksa, müteselsil borçluluk ancak kanunda öngörülen hâllerde doğar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "163",
+   "official_text": "MADDE 163- Alacaklı, borcun tamamının veya bir kısmının ifasını, dilerse borçluların hepsinden, dilerse yalnız birinden isteyebilir.\nBorçluların sorumluluğu, borcun tamamı ödeninceye kadar devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "164",
+   "official_text": "b. Borçluların savunmaları\nMADDE 164- Müteselsil borçlulardan biri, alacaklıya karşı, ancak onunla kendi arasındaki kişisel ilişkilerden veya müteselsil borcun sebep ya da konusundan doğan def’i ve itirazları ileri sürebilir.\nMüteselsil borçlulardan biri ortak def’i ve itirazları ileri sürmezse, diğerlerine karşı sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "166",
+   "official_text": "2. Borcun sona ermesi\nMADDE 166- Borçlulardan biri, ifa veya takasla borcun tamamını veya bir kısmını sona erdirmişse, bu oranda diğer borçluları da borçtan kurtarmış olur.\nBorçlulardan biri, alacaklıya ifada bulunmaksızın borçtan kurtulmuşsa, diğer borçlular bundan, ancak durumun veya borcun niteliğinin elverdiği ölçüde yararlanabilirler.\nAlacaklının borçlulardan biriyle yaptığı ibra sözleşmesi, diğer borçluları da ibra edilen borçlunun iç ilişkideki borca katılma payı oranında borçtan kurtarır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "167",
+   "official_text": "MADDE 167- Aksi kararlaştırılmadıkça veya borçlular arasındaki hukuki ilişkinin niteliğinden anlaşılmadıkça, borçlulardan her biri, alacaklıya yapılan ifadan, birbirlerine karşı eşit paylarla sorumludurlar.\nKendisine düşen paydan fazla ifada bulunan borçlunun, ödediği fazla miktarı diğer borçlulardan isteme hakkı vardır. Bu durumda borçlu, her bir borçluya ancak payı oranında rücu edebilir.\nBorçlulardan birinden alınamayan miktarı, diğer borçlular eşit olarak üstlenmekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "168",
+   "official_text": "MADDE 168- Diğerlerine rücu hakkına sahip olan borçlulardan her biri, ifa ettiği miktar oranında alacaklının haklarına halef olur.\nAlacaklı diğerlerinin zararına olarak borçlulardan birinin durumunu iyileştirirse, bunun sonuçlarına katlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "66",
+   "official_text": "Dava zamanaşımı\nMadde 66- (1) Kanunda başka türlü yazılmış olan haller dışında kamu davası;\na) Ağırlaştırılmış müebbet hapis cezasını gerektiren suçlarda otuz yıl,\nb) Müebbet hapis cezasını gerektiren suçlarda yirmibeş yıl,\nc) Yirmi yıldan aşağı olmamak üzere hapis cezasını gerektiren suçlarda yirmi yıl,\nd) Beş yıldan fazla ve yirmi yıldan az hapis cezasını gerektiren suçlarda onbeş yıl,\ne) Beş yıldan fazla olmamak üzere hapis veya adlî para cezasını gerektiren suçlarda sekiz yıl,\ngeçmesiyle düşer.\n(2) Fiili işlediği sırada oniki yaşını doldurmuş olup da onbeş yaşını doldurmamış olanlar hakkında, bu sürelerin yarısının; onbeş yaşını doldurmuş olup da onsekiz yaşını doldurmamış olan kişiler hakkında ise, üçte ikisinin geçmesiyle kamu davası düşer.\n(3) Dava zamanaşımı süresinin belirlenmesinde dosyadaki mevcut deliller itibarıyla suçun daha ağır cezayı gerektiren nitelikli halleri de göz önünde bulundurulur.\n(4) Yukarıdaki fıkralarda yer alan sürelerin belirlenmesinde suçun kanunda yer alan cezasının yukarı sınırı göz önünde bulundurulur; seçimlik cezaları gerektiren suçlarda zamanaşımı bakımından hapis cezası esas alınır.\n(5) (Değişik: 29/6/2005 – 5377/8 md.) Aynı fiilden dolayı tekrar yargılamayı gerektiren hallerde, mahkemece bu husustaki talebin kabul edildiği tarihten itibaren fiile ilişkin zamanaşımı süresi yeni baştan işlemeye başlar.\n(6) Zamanaşımı, tamamlanmış suçlarda suçun işlendiği günden, teşebbüs halinde kalan suçlarda son hareketin yapıldığı günden, kesintisiz suçlarda kesintinin gerçekleştiği ve zincirleme suçlarda son suçun işlendiği günden, çocuklara karşı üstsoy veya bunlar üzerinde hüküm ve nüfuzu olan kimseler tarafından işlenen suçlarda çocuğun onsekiz yaşını bitirdiği günden itibaren işlemeye başlar.\n(7) Bu Kanunun İkinci Kitabının Dördüncü Kısmında yazılı ağırlaştırılmış müebbet veya müebbet veya on yıldan fazla hapis cezalarını gerektiren suçların yurt dışında işlenmesi halinde dava zamanaşımı uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "68",
+   "official_text": "Ceza zamanaşımı\nMadde 68- (1) Bu maddede yazılı cezalar aşağıdaki sürelerin geçmesiyle infaz edilmez:\na) Ağırlaştırılmış müebbet hapis cezalarında kırk yıl.\nb) Müebbet hapis cezalarında otuz yıl.\nc) Yirmi yıl ve daha fazla süreli hapis cezalarında yirmidört yıl.\nd) Beş yıldan fazla hapis cezalarında yirmi yıl.\ne) Beş yıla kadar hapis ve adlî para cezalarında on yıl.\n(2) Fiili işlediği sırada oniki yaşını doldurmuş olup da onbeş yaşını doldurmamış olanlar hakkında, bu sürelerin yarısının; onbeş yaşını doldurmuş olup da onsekiz yaşını doldurmamış olan kişiler hakkında ise, üçte ikisinin geçmesiyle ceza infaz edilmez.\n(3) Bu Kanunun İkinci Kitabının Dördüncü Kısmında yazılı yurt dışında işlenmiş suçlar dolayısıyla verilmiş ağırlaştırılmış müebbet hapis veya müebbet hapis veya on yıldan fazla hapis cezalarında zamanaşımı uygulanmaz.\n(4) Türleri başka başka cezaları içeren hükümler, en ağır ceza için konulan sürenin geçmesiyle infaz edilmez.\n(5) Ceza zamanaşımı, hükmün kesinleştiği veya infazın herhangi bir suretle kesintiye uğradığı günden itibaren işlemeye başlar ve kalan ceza miktarı esas alınarak süre hesaplanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "31",
+   "official_text": "Yaş küçüklüğü\nMadde 31- (1) Fiili işlediği sırada oniki yaşını doldurmamış olan çocukların ceza sorumluluğu yoktur. Bu kişiler hakkında, ceza kovuşturması yapılamaz; ancak, çocuklara özgü güvenlik tedbirleri uygulanabilir.\n(2) (Değişik: 29/6/2005 – 5377/5 md.) Fiili işlediği sırada oniki yaşını doldurmuş olup da onbeş yaşını doldurmamış olanların işlediği fiilin hukukî anlam ve sonuçlarını algılayamaması veya davranışlarını yönlendirme yeteneğinin yeterince gelişmemiş olması hâlinde ceza sorumluluğu yoktur. Ancak bu kişiler hakkında çocuklara özgü güvenlik tedbirlerine hükmolunur. İşlediği fiilin hukukî anlam ve sonuçlarını algılama ve bu fiille ilgili olarak davranışlarını yönlendirme yeteneğinin varlığı hâlinde, bu kişiler hakkında suç, ağırlaştırılmış müebbet hapis cezasını gerektirdiği takdirde onüç yıldan onsekiz yıla; müebbet hapis cezasını gerektirdiği takdirde on yıldan oniki yıla kadar hapis cezasına hükmolunur. Diğer cezaların yarısı indirilir ve bu hâlde her fiil için verilecek hapis cezası dokuz yıldan fazla olamaz.[4]\n(3) (Değişik: 29/6/2005 – 5377/5 md.) Fiili işlediği sırada onbeş yaşını doldurmuş olup da onsekiz yaşını doldurmamış olan kişiler hakkında suç, ağırlaştırılmış müebbet hapis cezasını gerektirdiği takdirde ondokuz yıldan yirmiyedi yıla; müebbet hapis cezasını gerektirdiği takdirde onbeş yıldan onsekiz yıla kadar hapis cezasına hükmolunur. Diğer cezaların üçte biri indirilir ve bu hâlde her fiil için verilecek hapis cezası onbeş yıldan fazla olamaz.[5]\n(4) (Ek:8/8/2026-7593/2 md.) Somut olayda;\na) Kasta dayalı kusurun ağırlığı,\nb) Güdülen amaç ve saik,\nc) Suçun işleniş şekli,\nd) Daha önceden kasıtlı bir suçtan dolayı hapis cezasına mahkûm edilmiş olma,\nhususlarından biri ya da birkaçı göz önünde bulundurularak kasten öldürme (madde 81, 82) ve neticesi sebebiyle ağırlaşmış yaralama (madde 87, fıkra 2 ve 4) suçlarını işleyen onbeş yaşını doldurmuş olup da onsekiz yaşını doldurmamış olan kişiler hakkında üçüncü fıkra hükümleri uygulanmayabilir. Fiili işlediği sırada oniki yaşını doldurmuş olup da onbeş yaşını doldurmamış ceza sorumluluğu bulunan kişiler hakkında ise ikinci fıkra hükümleri yerine üçüncü fıkra hükümleri uygulanabilir.\n[4] 8/8/2026 tarihli ve 7593 sayılı Kanunun 2 nci maddesiyle bu fıkrada yer alan “oniki yıldan onbeş yıla;” ibaresi “onüç yıldan onsekiz yıla;”, “dokuz yıldan onbir yıla” ibaresi “on yıldan oniki yıla”, “yedi yıldan” ibaresi “dokuz yıldan” şeklinde değiştirilmiştir.\n[5] 8/8/2026 tarihli ve 7593 sayılı Kanunun 2 nci maddesiyle bu fıkrada yer alan “onsekiz yıldan yirmidört yıla;” ibaresi “ondokuz yıldan yirmiyedi yıla;”, “oniki yıldan onbeş yıla” ibaresi “onbeş yıldan onsekiz yıla”, “oniki yıldan fazla” ibaresi “onbeş yıldan fazla” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "81",
+   "official_text": "Kasten öldürme\nMadde 81- (1) Bir insanı kasten öldüren kişi, müebbet hapis cezası ile cezalandırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "85",
+   "official_text": "Taksirle öldürme\nMadde 85- (1) Taksirle bir insanın ölümüne neden olan kişi, iki yıldan altı yıla kadar hapis cezası ile cezalandırılır.\n(2) Fiil, birden fazla insanın ölümüne ya da bir veya birden fazla kişinin ölümü ile birlikte bir veya birden fazla kişinin yaralanmasına neden olmuş ise, kişi iki yıldan onbeş yıla kadar hapis cezası ile cezalandırılır.[37]\n[37] 31/3/2005 tarihli ve 5328 sayılı Kanunun 3 üncü maddesiyle bu maddede yer alan “üç yıldan” ibareleri, “iki yıldan” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "89",
+   "official_text": "Taksirle yaralama\nMadde 89- (1) Taksirle başkasının vücuduna acı veren veya sağlığının ya da algılama yeteneğinin bozulmasına neden olan kişi, dört aydan iki yıla kadar hapis veya adlî para cezası ile cezalandırılır.[47]\n(2) Taksirle yaralama fiili, mağdurun;\na) Duyularından veya organlarından birinin işlevinin sürekli zayıflamasına,\nb) Vücudunda kemik kırılmasına,\nc) Konuşmasında sürekli zorluğa,\nd) Yüzünde sabit ize,\ne) Yaşamını tehlikeye sokan bir duruma,\nf) Gebe bir kadının çocuğunun vaktinden önce doğmasına,\nNeden olmuşsa, birinci fıkraya göre belirlenen ceza, yarısı oranında artırılır.\n(3) Taksirle yaralama fiili, mağdurun;\na) İyileşmesi olanağı bulunmayan bir hastalığa veya bitkisel hayata girmesine,\nb) Duyularından veya organlarından birinin işlevinin yitirilmesine,\nc) Konuşma ya da çocuk yapma yeteneklerinin kaybolmasına,\nd) Yüzünün sürekli değişikliğine,\ne) Gebe bir kadının çocuğunun düşmesine,\nNeden olmuşsa, birinci fıkraya göre belirlenen ceza, bir kat artırılır.\n(4) Fiilin birden fazla kişinin yaralanmasına neden olması halinde, dokuz aydan beş yıla kadar hapis cezasına hükmolunur.[48]\n(5) (Değişik: 6/12/2006 – 5560/5 md.) Taksirle yaralama suçunun soruşturulması ve kovuşturulması şikâyete bağlıdır. Ancak, birinci fıkra kapsamına giren yaralama hariç, suçun bilinçli taksirle işlenmesi halinde şikâyet aranmaz.\n[47] 24/12/2025 tarihli ve 7571 sayılı Kanunun 17 nci maddesiyle bu fıkrada yer alan “üç aydan bir yıla” ibaresi “dört aydan iki yıla” şeklinde değiştirilmiştir.\n[48] 24/12/2025 tarihli ve 7571 sayılı Kanunun 17 nci maddesiyle bu fıkrada yer alan “altı aydan üç yıla” ibaresi “dokuz aydan beş yıla” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "16",
+   "official_text": "3. Ayırt etme gücüne sahip küçükler ve kısıtlılar\nMadde 16- Ayırt etme gücüne sahip küçükler ve kısıtlılar, yasal temsilcilerinin rızası olmadıkça, kendi işlemleriyle borç altına giremezler. Karşılıksız kazanmada ve kişiye sıkı sıkıya bağlı hakları kullanmada bu rıza gerekli değildir.\nAyırt etme gücüne sahip küçükler ve kısıtlılar haksız fiillerinden sorumludurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/1442",
+   "karar_no": "2021/839",
+   "decision_date": "24.06.2021",
+   "summary_md": "Hazine, kum ve çakıl ocağını iki belediyeye kiralamış; belediyeler sözleşmeye aykırı olarak ocakları davalı şirkete devretmiş, şirket de izin verilenden fazla malzeme çıkarmıştır. Hazine, belediyelere sözleşmeye dayalı ayrı davalar açmanın yanında şirkete de haksız fiile dayanarak dava açmıştır. Yerel mahkeme, aynı zarar için belediyeler aleyhine hüküm kurulduğunu belirterek davayı mükerrer saymış ve Yargıtay 4. Hukuk Dairesinin bozma kararına karşı direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını bozmuştur: müteselsil sorumluluk haksız fiil, sözleşme ve kanun gibi farklı sebeplere dayanabilir ve zarar gören, zararı tamamen giderilinceye kadar dilediği sorumluya başvurabilir. Sorumlulardan birini dava etmek, hatta mahkûm ettirmek diğerlerini kurtarmaz; kurtaran yalnız ifadır. Belediyeler aleyhine verilen kararlar kesinleşmemiş ve zarar tazmin edilmemiş olduğundan hüküm tahsilde tekerrür oluşturmamak kaydıyla kurulmalıdır; iç ilişkide ise teselsül değil pay esası geçerlidir. Konuya katkısı: aynı zarardan çeşitli sebeplerle sorumluluğu ve tek zarar, tek tazminat ilkesini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/686799200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2013/1626",
+   "karar_no": "2015/1187",
+   "decision_date": "08.04.2015",
+   "summary_md": "Davacı, aleyhine yürütülen icra takibinde alacaklının vekili olan davalı avukatın icra dosyası dışında yapılan ödemeleri gizleyerek mükerrer tahsilata ve evinin cebri satışına yol açtığını ileri sürerek maddi ve manevi tazminat istemiştir. Avukat hakkında görevi kötüye kullanma suçundan açılan ceza davası hukuk davası açıldığında henüz sürmekteydi; Yargıtay 4. Hukuk Dairesi bu yüzden uzamış zamanaşımının dolmadığını belirterek ret kararını bozmuş, yerel mahkeme direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını değişik gerekçeyle onamıştır. Gerekçeye göre fiil suç oluşturuyorsa ceza kanunundaki daha uzun dava zamanaşımı uygulanır; bunun için ceza davası ya da mahkûmiyet gerekmez, süre suçun cezasının üst sınırına göre belirlenir, kesilme ve durma ise Borçlar Kanunu hükümlerine tabidir. 2005'te yürürlüğe giren Ceza Muhakemesi Kanunu ceza davasında tazminat istenmesine imkân vermediğinden ceza davasının sürmesi ya da bu davaya katılma zamanaşımını kesmez; ceza davası sürdükçe tazminat istenebileceğini kabul eden 1955 tarihli İçtihadı Birleştirme Kararı da artık uygulanamaz. Olayda beş yıllık dava zamanaşımı hukuk davası açılmadan önce dolmuştur. Konuya katkısı: uzamış zamanaşımının şartlarını ve ceza davasının zamanaşımına etkisini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/113447700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/3188",
+   "karar_no": "2019/755",
+   "decision_date": "25.06.2019",
+   "summary_md": "Davalı şirkete ait ve diğer davalı sürücünün kullandığı kamyonet, kontrolsüz biçimde aniden yola çıkan bir yayaya çarpmış, yaya ölmüş ve yakınları tazminat istemiştir. Ceza davasında sürücü, cezalandırılmasına yeterli kesin ve inandırıcı delil elde edilemediği gerekçesiyle beraat etmiş; ceza dosyasındaki raporlardan biri sürücüyü tali kusurlu, Adli Tıp Kurumu raporu ise kusursuz bulmuştur. Hukuk mahkemesi sürücüyü %25 kusurlu bulan rapora dayanmış ve Yargıtay 17. Hukuk Dairesinin bozma kararına karşı direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını bozmuştur: beraat kararı, kusur ve derecesi, zarar tutarı ve ceza dosyasındaki kusur raporu hukuk hâkimini bağlamaz; buna karşılık olayın varlığına ve sanık tarafından işlendiğine ilişkin kesinleşmiş saptamalar bağlar ve beraat, suçun sanık tarafından işlenmediğinin kesin tespitine dayanıyorsa bağlayıcıdır. Ceza mahkemesi bir tarafın kusurlu olduğunu maddi olgu olarak kabul etmişse hukuk hâkimi onu kusursuz sayamaz, ama kusur oranını yeniden inceleyebilir. Raporlar çeliştiği ve hükme esas rapor ceza dosyasındaki raporları neden benimsemediğini açıklamadığı için uzman bir bilirkişi kurulundan ayrıntılı ve denetime elverişli yeni rapor alınmalıdır. Kurul eski Kanunun aynı içerikteki hükmünü uygulamıştır. Konuya katkısı: TBK m. 74'teki bağımsızlığın sınırını, yani maddi olgu ile kusur oranı ayrımını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/520427600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 61'e göre müteselsil sorumluluk hükümleri hangi durumda uygulanır?",
+   "options": [
+    "Yalnız sorumlular kendi aralarında teselsül anlaşması yapmışsa",
+    "Birden çok kişi bir zarara birlikte sebep olmuşsa ya da aynı zarardan çeşitli sebeplerle sorumluysa",
+    "Yalnız birden çok kişi aynı zarara kasten ve birlikte sebep olmuşsa",
+    "Bir kişinin sorumluluğu birden çok sebebe dayanıyorsa"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 61 iki hâli sayar: birden çok kişinin birlikte zarar vermesi ve aynı zarardan çeşitli sebeplerle sorumluluk. Kast şartı yoktur. Teselsül burada kanundan doğduğu için ayrıca anlaşma gerekmez (TBK m. 162/2). Tek kişinin birden çok sebeple sorumluluğu ise TBK m. 60'ın konusudur."
+  },
+  {
+   "stem_md": "Kerem ve Ozan'ın kusurlarıyla çarpışan araçlardan biri kaldırımdaki Zeynep'i yaralar. Zeynep'in zararı 900.000 TL'dir; bilirkişiye göre Kerem %70, Ozan %30 kusurludur. Zeynep davayı yalnız Ozan'a karşı açar. Hangisi doğrudur?",
+   "options": [
+    "Ozan yalnız 270.000 TL'den sorumludur, çünkü kusuru %30'dur.",
+    "Kerem de davalı gösterilmediği için dava reddedilir.",
+    "Zeynep 900.000 TL'nin tamamını Ozan'dan isteyebilir; kusur oranları iç ilişkide önem taşır.",
+    "Zeynep önce Kerem'e başvurmak zorundadır, çünkü ağır kusurlu odur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Birlikte zarar verenlere müteselsil sorumluluk hükümleri uygulanır (TBK m. 61). Zarar gören borcun tamamını dilediği sorumludan isteyebilir (TBK m. 163/1). Kusur oranları zarar görene karşı ileri sürülemez, iç ilişkide paylaştırmada dikkate alınır (TBK m. 62/1). Önce ağır kusurluya başvurma zorunluluğu ya da bütün sorumluları birlikte dava etme şartı yoktur."
+  },
+  {
+   "stem_md": "Ali ve Veli'nin kusurlarıyla yaralanan Can'ın zararı 1.000.000 TL'dir. Hâkim, Can'ın kendi dikkatsizliği zararın doğmasında etkili olduğu için tazminattan %20 indirim yapmıştır. Can, Ali'den en fazla ne kadar isteyebilir?",
+   "options": [
+    "800.000 TL",
+    "1.000.000 TL",
+    "400.000 TL",
+    "Ali'nin kusur oranına düşen tutar kadar"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Zarar görenin kendi kusuru tazminatın indirilmesine yol açabilir (TBK m. 52). İndirimden sonra kalan 800.000 TL'den sorumlular dış ilişkide müteselsilen sorumludur (TBK m. 61). Can bu tutarın tamamını Ali'den isteyebilir. Tutar ne yarıya bölünür ne de Ali'nin kusur payıyla sınırlanır; paylar iç ilişkinin konusudur."
+  },
+  {
+   "stem_md": "Müteselsil sorumlulardan biri zarar görene ödeme yaparsa bu ödeme dış ilişkide hangi sonucu doğurur?",
+   "options": [
+    "Hiçbir etki doğurmaz; zarar gören herkesten tamamını yeniden tahsil edebilir.",
+    "Ödediği oranda diğer sorumluları da zarar görene karşı borçtan kurtarır.",
+    "Diğerlerini ancak zarar gören bunu açıkça kabul ederse kurtarır.",
+    "Yalnız ödeyeni kurtarır; diğerleri zararın tamamından sorumlu kalır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 166/1'e göre borçlulardan biri ifa veya takasla borcu sona erdirdiği oranda diğerlerini de borçtan kurtarır. Haksız fiilde zarar bir kez tazmin edilir. Bu yüzden ayrı davalarda verilen hükümler tahsilde tekerrür olmamak kaydıyla kurulur; aksi zarar görenin zenginleşmesine yol açar."
+  },
+  {
+   "stem_md": "Hazine, aynı zarar için sözleşmeye aykırılık nedeniyle bir belediye aleyhine hüküm almış ama henüz tahsil edememiştir. Zarara haksız fiiliyle yol açan şirkete de dava açar. Şirket \"Hazine aynı zarar için belediye aleyhine hüküm aldı, bu dava mükerrerdir\" diye savunur. Hangisi doğrudur?",
+   "options": [
+    "Savunma yerinde değildir; diğer sorumluları kurtaran mahkûmiyet değil ifadır. Hüküm tahsilde tekerrür olmamak kaydıyla kurulur.",
+    "Savunma yerinde değildir; Hazine iki sorumludan da zararın tamamını ayrı ayrı tahsil edebilir.",
+    "Şirket sözleşmenin tarafı olmadığı için hiçbir şekilde sorumlu tutulamaz.",
+    "Savunma yerindedir; sorumlulardan biri aleyhine hüküm alınması diğerlerini kurtarır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Aynı zarardan çeşitli sebeplerle sorumlu olanlara müteselsil sorumluluk hükümleri uygulanır (TBK m. 61). Sorumluların hepsi borç tamamen ödeninceye kadar sorumludur (TBK m. 163/2); birini dava etmek ya da mahkûm ettirmek diğerlerini kurtarmaz. Zarar bir kez tazmin edileceği için iki kez tahsil mümkün değildir; hüküm tahsilde tekerrür olmamak kaydıyla kurulur. Şirketin sorumluluğu sözleşmeye değil haksız fiile dayanır."
+  },
+  {
+   "stem_md": "TBK m. 62/1'e göre tazminatın müteselsil sorumlular arasında paylaştırılmasında özellikle hangileri göz önünde tutulur?",
+   "options": [
+    "Yalnız sorumluların sayısı; paylar her durumda eşittir",
+    "Her birine yüklenebilecek kusurun ağırlığı ve yarattıkları tehlikenin yoğunluğu",
+    "Zarar görenin hangi sorumluyu dava ettiği",
+    "Sorumluların ekonomik güçleri ve yaşları"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 62/1 bütün durum ve koşulları, özellikle kusurun ağırlığını ve tehlikenin yoğunluğunu ölçüt yapar. Zarar görenin kime dava açtığı iç ilişkiyi belirlemez. Haksız fiilde paylar, genel hükümdeki eşit pay kuralına (TBK m. 167/1) göre belirlenmez."
+  },
+  {
+   "stem_md": "Aynı zarardan müteselsilen sorumlu olan Arda ile Berk'in iç ilişkideki paylarını hâkim Arda için %60, Berk için %40 olarak belirlemiştir. Berk, zarar görene 500.000 TL'nin tamamını ödemiştir. Berk, Arda'dan ne kadar isteyebilir?",
+   "options": [
+    "200.000 TL",
+    "300.000 TL",
+    "500.000 TL",
+    "250.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Berk'in iç ilişkideki payı 200.000 TL'dir. Payından fazla ödediği 300.000 TL için Arda'ya rücu eder ve bu oranda zarar görenin haklarına halef olur (TBK m. 62/2). Kendi payını kendisi taşıdığından tamamını isteyemez. Eşit bölüşüm haksız fiilde esas değildir; paylar hâkimce %60-%40 belirlenmiştir."
+  },
+  {
+   "stem_md": "Tazminatın kendi payına düşeninden fazlasını ödeyen müteselsil sorumlunun hukuki durumu nedir?",
+   "options": [
+    "Fazla ödediği kısmı zarar görenden geri isteyebilir.",
+    "Yalnız sebepsiz zenginleşme hükümlerine göre diğerlerine başvurabilir.",
+    "Fazla ödemesi için diğer sorumlulara rücu eder ve zarar görenin haklarına halef olur.",
+    "Fazla ödediği tutarın tamamını diğer sorumluların her birinden müteselsilen isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 62/2'ye göre kendi payından fazlasını ödeyen kişi, bu fazla için diğer müteselsil sorumlulara karşı rücu hakkına sahiptir ve zarar görenin haklarına halef olur. Zarar gören borcun tamamını almaya hakkı olduğundan ona karşı geri isteme söz konusu olmaz. İç ilişkide teselsül değil pay esası geçerlidir; ödeyen her birinden ancak payı oranında isteyebilir (TBK m. 167/2)."
+  },
+  {
+   "stem_md": "TBK m. 73'e göre müteselsil sorumlular arasındaki rücu istemi hangi sürelerde zamanaşımına uğrar?",
+   "options": [
+    "Tazminatın tamamının ödendiği ve birlikte sorumlu kişinin öğrenildiği tarihten itibaren iki yıl, her hâlde tamamının ödendiği tarihten itibaren on yıl",
+    "Haksız fiilin işlendiği tarihten itibaren on yıl",
+    "Zarar görenin zararı öğrendiği tarihten itibaren iki yıl",
+    "İlk kısmi ödemenin yapıldığı tarihten itibaren bir yıl"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 73/1 rücu istemi için ayrı bir zamanaşımı öngörür. Süreyi başlatan, olay ya da zarar görenin öğrenmesi değil, tazminatın tamamının ödenmesidir. Zarar görenin kendi istemi ise TBK m. 72'ye tabidir."
+  },
+  {
+   "stem_md": "Zarar gören, tazminatın tamamını müteselsil sorumlulardan Selin'den istemiştir. Selin, diğer sorumlu Mert'e durumu hiç bildirmeden ödemeyi yapar ve daha sonra Mert'e rücu etmek ister. Bildirim yapılmamasının sonucu nedir?",
+   "options": [
+    "Selin'in rücu hakkı tamamen ortadan kalkar.",
+    "Bildirim yükümlülüğü yalnız sözleşmeden doğan sorumlulukta vardır; haksız fiilde sonuç doğurmaz.",
+    "Rücu isteminin zamanaşımı, bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar.",
+    "Bildirim yapılıncaya kadar rücu zamanaşımı durur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 73/2'ye göre tazminatın ödenmesi kendisinden istenen kişi, durumu birlikte sorumlu olduğu kişilere bildirmek zorundadır. Bildirmezse zamanaşımı, bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar. Kanun rücu hakkını kaldırmaz; yaptırım, sürenin daha erken başlamasıdır."
+  },
+  {
+   "stem_md": "Bir trafik kazası nedeniyle yargılanan sürücü Selin, ceza mahkemesince \"mahkûmiyetine yeterli, kesin ve inandırıcı delil bulunmadığı\" gerekçesiyle beraat ettirilmiş ve karar kesinleşmiştir. Zarar görenin açtığı tazminat davasında hangisi doğrudur?",
+   "options": [
+    "Beraat kararı hukuk hâkimini bağladığından tazminat davası reddedilmelidir.",
+    "Hukuk hâkimi beraat kararıyla bağlı değildir; delillere göre Selin'i kusurlu bulup tazminata hükmedebilir.",
+    "Hukuk hâkimi ceza dosyasındaki delilleri hiç inceleyemez.",
+    "Tazminat davası ancak ceza kararı kaldırılırsa görülebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 74/1'e göre hâkim, kusurun varlığı konusunda beraat kararıyla bağlı değildir. Yerleşik içtihada göre beraat, ancak fiilin sanık tarafından işlenmediğinin kesin tespitine dayanıyorsa bağlar; delil yetersizliğine dayanan beraat bağlamaz. Hukuk hâkimi ceza dosyasını delil olarak inceleyebilir."
+  },
+  {
+   "stem_md": "Yargıtay'ın yerleşik uygulamasına göre ceza mahkemesi kararıyla ilgili aşağıdakilerden hangisi hukuk hâkimini **bağlar**?",
+   "options": [
+    "Ceza dosyasındaki bilirkişinin belirlediği kusur oranı",
+    "Ceza mahkemesinin zarar miktarına ilişkin değerlendirmesi",
+    "Kesinleşmiş kararda fiilin sanık tarafından işlenmediğinin kesin olarak saptanması",
+    "Ceza hukukundaki yaş küçüklüğü nedeniyle ceza sorumluluğu bulunmadığı kuralı"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 74/2 kusur değerlendirmesinin ve zararın belirlenmesinin, TBK m. 74/1 de ceza hukukunun sorumluluk hükümlerinin hukuk hâkimini bağlamadığını söyler. Buna karşılık kesinleşmiş ceza kararında saptanan maddi olgular, özellikle fiilin sanık tarafından işlenmediğinin kesin tespiti, hukuk hâkimini bağlar."
+  },
+  {
+   "stem_md": "Ceza mahkemesi, Hakan'ın kırmızı ışıkta geçtiğini saptayarak onu taksirle yaralama suçundan mahkûm etmiş, karar kesinleşmiştir. Ceza dosyasındaki rapor Hakan'ı %75 kusurlu bulmuştur. Tazminat davasında hangisi doğrudur?",
+   "options": [
+    "Hukuk hâkimi, Hakan'ın kırmızı ışıkta geçmediğini kabul edebilir.",
+    "Hukuk hâkimi Hakan'ı kusursuz sayamaz; ama kusur oranını kendi bilirkişi incelemesiyle farklı belirleyebilir.",
+    "Hukuk hâkimi %75 kusur oranıyla bağlıdır.",
+    "Mahkûmiyet nedeniyle tazminat miktarı da ceza mahkemesince belirlenmiş sayılır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kesinleşmiş ceza kararında saptanan maddi olgu (kırmızı ışıkta geçme) ve Hakan'ın kusurlu olduğunun maddi olgu olarak kabulü hukuk hâkimini bağlar; hâkim onu kusursuz sayamaz. Ancak kusur oranı ve zarar miktarı bakımından ceza hâkiminin değerlendirmesi bağlayıcı değildir (TBK m. 74/2). Hâkim kusur oranını yeni bir bilirkişi incelemesiyle belirleyebilir."
+  },
+  {
+   "stem_md": "11 yaşındaki Emir taş atarak komşusunun aracının camını kırmıştır. Fiil sırasında 12 yaşını doldurmadığı için Emir'in ceza sorumluluğu yoktur. Tazminat davasında hangisi doğrudur?",
+   "options": [
+    "Hukuk hâkimi Emir'in ayırt etme gücünü kendisi değerlendirir; ayırt etme gücü varsa Emir haksız fiilinden sorumludur.",
+    "Emir'e dava açılamaz; yalnız velisi sorumlu tutulabilir.",
+    "Ceza sorumluluğu bulunmadığı için Emir'in haksız fiil sorumluluğu da yoktur.",
+    "Emir ayırt etme gücüne bakılmaksızın her durumda tam olarak sorumludur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 74/1'e göre hâkim, ayırt etme gücü konusunda ceza hukukunun sorumluluk hükümleriyle bağlı değildir. Ceza sorumluluğunun bulunmaması (TCK m. 31/1) sonucu belirlemez. Ayırt etme gücüne sahip küçükler haksız fiillerinden sorumludur (TMK m. 16/2). Velinin ayrıca sorumlu olup olmadığı ayrı bir sorundur ve çocuğun sorumluluğunu kaldırmaz."
+  },
+  {
+   "stem_md": "TBK m. 72/1'deki iki yıllık zamanaşımı süresi ne zaman işlemeye başlar?",
+   "options": [
+    "Zarar görenin zararı öğrenebilecek durumda olduğu tarihte",
+    "Zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihte; ikisinden hangisi daha sonra öğrenildiyse o tarihte",
+    "Ceza davasının kesinleştiği tarihte",
+    "Fiilin işlendiği tarihte"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 72/1'e göre iki yıllık süre, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlar. İkisi birlikte aranır; hangisi sonra öğrenildiyse süre o tarihten işler. Yargıtay'a göre öğrenebilecek durumda olmak yetmez. Ceza davasının sonucu sürenin başlangıcını belirlemez."
+  },
+  {
+   "stem_md": "Bir haksız fiil 15.03.2012'de işlenmiştir. Zarar gören, zararı ve sorumluyu ilk kez 10.05.2023'te öğrenmiş ve 01.02.2024'te dava açmıştır. Fiil suç oluşturmamaktadır. Davalı zamanaşımı def'inde bulunmuştur. Hangisi doğrudur?",
+   "options": [
+    "Dava zamanaşımına uğramıştır, çünkü fiilin işlendiği tarihten itibaren on yıllık süre dolmuştur.",
+    "Dava süresindedir, çünkü iki yıllık süre 10.05.2023'te başlamıştır.",
+    "Dava süresindedir, çünkü on yıllık süre öğrenme tarihinden başlar.",
+    "Zarar geç öğrenildiği için zamanaşımı hiç işlememiştir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 72/1'e göre istem, her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. On yıllık süre öğrenmeye bağlı değildir ve üst sınırdır; 15.03.2022'de dolmuştur. Fiil suç olmadığı için uzamış süre de söz konusu değildir. Def'i ileri sürüldüğünden dava reddedilir (TBK m. 161)."
+  },
+  {
+   "stem_md": "TBK m. 72/1'in son cümlesindeki \"ceza kanunlarının öngördüğü daha uzun zamanaşımı\" belirlenirken hangisi esas alınır?",
+   "options": [
+    "TCK m. 66'daki dava zamanaşımı",
+    "Ceza mahkemesinin somut olayda hükmettiği hapis cezasının süresi",
+    "TCK m. 68'deki ceza zamanaşımı",
+    "Ceza davasının fiilen sürdüğü süre"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Uzamış zamanaşımında esas alınan, kamu davasının açılabileceği süreyi gösteren dava zamanaşımıdır (TCK m. 66). TCK m. 68 kesinleşmiş cezanın infazına ilişkindir. Süre, verilen cezaya göre değil, suçun kanundaki cezasının üst sınırına göre belirlenir (TCK m. 66/4). Ceza davasının sürmesi de tek başına zamanaşımını etkilemez."
+  },
+  {
+   "stem_md": "Mert 01.03.2021'de dikkatsizce bisiklet sürerken yaya Nur'a çarpar. Nur'un tedavisi aynı yıl tamamlanır, kalıcı bir sakatlık kalmaz. Nur şikâyette bulunmadığı için ceza davası açılmamıştır. Nur 20.04.2025'te tazminat davası açar, Mert zamanaşımı def'inde bulunur. Yargıtay'ın yerleşik uygulamasına göre hangisi doğrudur?",
+   "options": [
+    "Nur şikâyette bulunmadığı için uzamış süreden yararlanamaz.",
+    "Ceza davası açılmadığı için uzamış süre uygulanamaz; dava zamanaşımına uğramıştır.",
+    "Fiil taksirle yaralama suçunu oluşturduğundan sekiz yıllık dava zamanaşımı uygulanır; dava süresindedir.",
+    "Uzamış süre ancak fail mahkûm olmuşsa uygulanır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "İki yıllık süre dolmuştur, ama uzamış süre için fiilin suç oluşturması yeterlidir; ceza davası, mahkûmiyet ya da şikâyet şart değildir. Fiilin suç olup olmadığını hukuk hâkimi kendisi belirler. Taksirle yaralama suçunun cezasının üst sınırı beş yılı geçmediğinden dava zamanaşımı sekiz yıldır (TCK m. 66/1-e). Süre olay tarihinden işler ve 01.03.2029'da dolar (TBK m. 72/1)."
+  },
+  {
+   "stem_md": "Yargıtay'ın yerleşik uygulamasına göre uzamış zamanaşımında sürenin kesilmesi ve durması hakkında hangisi doğrudur?",
+   "options": [
+    "Ceza kanunundaki kesilme hükümleri uygulanır ve süre kesilmeyle yarısı oranında uzar.",
+    "Zarar görenin ceza davasına katılması zamanaşımını keser.",
+    "TBK'daki kesilme ve durma hükümleri uygulanır; ceza kanunundaki uzama kuralı uygulanmaz.",
+    "Uzamış süre hiçbir sebeple kesilemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Uzamış süre, ceza kanunundan alınsa da özel hukuka ait bir zamanaşımıdır. Durma ve kesilme TBK hükümlerine göre belirlenir (TBK m. 153 vd.). Ceza kanunundaki kesilme sonucu sürenin uzaması kuralı tazminat davasında uygulanmaz. Ceza davasına katılmak da zamanaşımını kesmez, çünkü bugünkü ceza yargılamasında tazminat istenemez."
+  },
+  {
+   "stem_md": "Haksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa, TBK m. 72/2'ye göre hangisi doğrudur?",
+   "options": [
+    "Zarar gören borcu ödemek zorundadır; ödediğini ancak sebepsiz zenginleşme hükümlerine göre geri isteyebilir.",
+    "Zarar görenin borcu da tazminat istemiyle birlikte zamanaşımına uğrar.",
+    "Zarar gören, tazminat istemi zamanaşımına uğramış olsa bile bu borcu ifadan her zaman kaçınabilir.",
+    "Zarar gören ancak iki yıl içinde ifadan kaçınabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 72/2'ye göre haksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile bu borcu ifadan her zaman kaçınabilir. Bu, süreye bağlı olmayan bir def'idir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "12.09.2024 günü Kadıköy'de bir kavşakta, kendi aracını kullanan Kerem kırmızı ışıkta kavşağa girer. Diğer yönden gelen ve kendi aracını kullanan Ozan da saatte 50 km hız sınırının bulunduğu yolda 75 km hızla seyretmektedir. Araçlar çarpışır; savrulan Ozan'ın aracı kaldırımda yürüyen Zeynep'e çarpar. Zeynep ağır yaralanır, maddi zararı 900.000 TL olarak hesaplanır.\n\nCeza mahkemesi, Kerem'in kırmızı ışıkta geçtiğini saptayarak onu taksirle yaralama suçundan mahkûm eder. Ceza dosyasındaki bilirkişi raporu Kerem'i %75, Ozan'ı %25 kusurlu bulmuştur. Ozan ise \"mahkûmiyetine yeterli, kesin ve inandırıcı delil bulunmadığı\" gerekçesiyle beraat eder. İki karar da kesinleşir.\n\nZeynep, ödeme gücü yüksek olan Ozan'a 10.03.2025'te dava açar ve 900.000 TL'nin tamamını ister. Ozan iki savunma yapar: \"Beraat ettim, sorumlu değilim.\" ve \"Sorumluysam bile ceza dosyasındaki rapora göre kusurum %25'tir; en fazla 225.000 TL öderim.\" Ozan, dava kendisine tebliğ edilince durumu noter aracılığıyla Kerem'e bildirir.\n\nHukuk mahkemesinin aldırdığı ayrıntılı bilirkişi raporu, ceza dosyasındaki raporu da tartışarak Kerem'i %70, Ozan'ı %30 kusurlu bulur. Mahkeme Ozan'ı 900.000 TL'yi ödemeye mahkûm eder; Ozan bu tutarın tamamını 15.01.2026'da öder ve şimdi Kerem'e başvurmak istemektedir. Rücu davasında alınan rapor da aynı oranları benimser.\n\n1. Ozan'ın iki savunmasını değerlendiriniz.\n2. Kerem ve Ozan'ın Zeynep'e karşı sorumluluğunun niteliği nedir?\n3. Ozan, Kerem'den ne kadar isteyebilir ve hangi hukuki imkânlara sahiptir?\n4. Ozan'ın rücu istemi ne zaman zamanaşımına uğrar?",
+   "rubric": [
+    {
+     "point": "Delil yetersizliğine dayanan beraatin hukuk hâkimini bağlamaması; Kerem'in kırmızı ışıkta geçtiğine ilişkin maddi olgunun bağlaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 74"
+    },
+    {
+     "point": "Ceza dosyasındaki kusur oranının bağlamaması; kusurun hukuk mahkemesinin bilirkişi incelemesiyle belirlenebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 74"
+    },
+    {
+     "point": "Birlikte zarar verme nedeniyle müteselsil sorumluluk; Zeynep'in zararın tamamını Ozan'dan isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 61"
+    },
+    {
+     "point": "Kusur oranının dış ilişkide zarar görene karşı ileri sürülememesi; Ozan'ın ödemesiyle Kerem'in de Zeynep'e karşı kurtulması",
+     "weight": 10,
+     "madde_ref": "TBK m. 163"
+    },
+    {
+     "point": "İç ilişkide kusurun ağırlığına göre paylaştırma; Ozan'ın 630.000 TL için Kerem'e rücu edebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 62"
+    },
+    {
+     "point": "Ozan'ın ödediği fazla oranında Zeynep'in haklarına halef olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 62"
+    },
+    {
+     "point": "Rücu zamanaşımının tamamının ödendiği 15.01.2026'dan başlaması; bildirim yükümlülüğünün yerine getirilmiş olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 73"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kerem kırmızı ışıkta geçerek, Ozan hız sınırını aşarak kusurlu ve hukuka aykırı davranmıştır. İkisinin davranışı birlikte Zeynep'in yaralanmasına yol açmıştır ve her biri TBK m. 49'a göre sorumludur. Birden çok kişi bir zarara birlikte sebep olduğu için müteselsil sorumluluk hükümleri uygulanır (TBK m. 61). Sürücüler aynı zamanda araçlarının işleteni olduğundan Karayolları Trafik Kanunu'na göre de sorumludur; bu, sonucu değiştirmez.\n\n**Hukuki sorunlar:** Ceza kararlarının tazminat davasına etkisi; dış ilişkide Ozan'ın sorumluluğunun kapsamı; iç ilişki, rücu ve halefiyet; rücu zamanaşımı.\n\n**İlgili hükümler:** TBK m. 49, m. 61, m. 62, m. 73, m. 74, m. 163, m. 166.\n\n**Değerlendirme:**\n\n*1. Ozan'ın savunmaları.*\n- *Beraat:* TBK m. 74/1'e göre hukuk hâkimi kusurun varlığı konusunda beraat kararıyla bağlı değildir. Yerleşik içtihada göre beraat ancak fiilin sanık tarafından işlenmediğinin kesin tespitine dayanıyorsa bağlar. Ozan'ın beraati delil yetersizliğine dayandığından hâkim, kendi topladığı delillere göre onu kusurlu bulabilir. Buna karşılık Kerem hakkındaki kesinleşmiş mahkûmiyette saptanan maddi olgu, yani Kerem'in kırmızı ışıkta geçtiği, hukuk hâkimini bağlar. Özellikle Ozan'ın açacağı rücu davasında Kerem bunun aksini ileri süremez.\n- *Kusur oranı:* Ceza dosyasındaki %25 oranı bağlayıcı değildir (TBK m. 74/2). Hâkim kusuru yeni bilirkişi incelemesiyle belirleyebilir; ancak hukuk dosyasındaki raporun ceza dosyasındaki rapordan neden ayrıldığı gerekçeli ve denetime elverişli biçimde açıklanmalıdır. Olayda hukuk mahkemesinin raporu ceza dosyasındaki raporu da tartışmıştır. Daha önemlisi, kusur oranı ne olursa olsun Ozan'ın zarar görene karşı sorumluluğunu sınırlamaz.\n\n*2. Dış ilişki.* Zarar gören borcun tamamını dilediği müteselsil sorumludan isteyebilir (TBK m. 163/1). Zeynep'in yalnız Ozan'a dava açması ve 900.000 TL'nin tamamını istemesi yerindedir. Ozan'ın \"en fazla payım kadar öderim\" savunması dinlenmez; kusur oranları iç ilişkiye aittir. Ozan'ın ödemesiyle Kerem de Zeynep'e karşı borçtan kurtulur (TBK m. 166/1). Zeynep aynı zararı Kerem'den yeniden isteyemez.\n\n*3. İç ilişki ve rücu.* TBK m. 62/1'e göre tazminat bütün durum ve koşullar, özellikle kusurun ağırlığı göz önünde tutularak paylaştırılır. Kırmızı ışık ihlali, hız sınırını aşmaya göre daha ağır bir kusur olarak değerlendirilmiş ve paylar %70-%30 belirlenmiştir. Ozan'ın payı 900.000 × %30 = 270.000 TL'dir. Payından fazla ödediği 630.000 TL için Kerem'e rücu eder (TBK m. 62/2). Ayrıca bu tutar oranında Zeynep'in haklarına halef olur; Zeynep'in alacağına bağlı teminat ve öncelik hakları varsa bunlardan da yararlanabilir.\n\n*4. Rücu zamanaşımı.* TBK m. 73/1'e göre rücu istemi, tazminatın tamamının ödendiği ve birlikte sorumlunun öğrenildiği tarihten itibaren iki yılda, her hâlde tamamının ödendiği tarihten itibaren on yılda zamanaşımına uğrar. Ozan, Kerem'i olaydan beri tanımaktadır ve tamamını 15.01.2026'da ödemiştir. İki yıllık süre 15.01.2028'de dolar. Ozan, dava kendisine tebliğ edilince durumu Kerem'e bildirdiği için TBK m. 73/2'deki yükümlülüğünü yerine getirmiştir; süre erken başlamaz.\n\n**Sonuç:**\n- Ozan'ın beraat savunması yerinde değildir; delil yetersizliğine dayanan beraat hukuk hâkimini bağlamaz. Kerem'in kırmızı ışıkta geçtiği ise bağlayıcı bir maddi olgudur.\n- Ozan, Zeynep'e karşı 900.000 TL'nin tamamından sorumludur; kusur oranını dış ilişkide ileri süremez.\n- Ozan, Kerem'den 630.000 TL isteyebilir ve bu oranda Zeynep'in haklarına halef olur.\n- Rücu istemi 15.01.2028'e kadar ileri sürülmelidir."
+  },
+  {
+   "stem_md": "15.03.2023 günü Üsküdar'da, Kuzey İnşaat A.Ş.'nin yüklenicisi olduğu bir bina inşaatında, taşeron Demir Yapı Ltd. Şti.'nin işçisi Hasan, dördüncü katta demir çubukları bağlamadan taşırken bir çubuğu elinden kaçırır. Çubuk, kaldırımdan geçen öğretmen Gül'ün başına düşer ve Gül ağır yaralanır.\n\nGül, demiri düşürenin Hasan olduğunu olay günü tutulan polis tutanağından öğrenir. Kalıcı %35 maluliyetini gösteren kesin Adli Tıp raporu 01.09.2024'te düzenlenir ve aynı gün Gül'e bildirilir. Gül, Hasan'ı Kuzey İnşaat'ın işçisi sanmaktadır. Hasan'ın aslında Demir Yapı'nın çalışanı olduğunu, katılan olarak izlediği ceza davasında gerekçeli kararın kendisine tebliğ edildiği 10.05.2025'te öğrenir.\n\nCeza mahkemesi Hasan'ı taksirle yaralama suçundan mahkûm etmiştir. Kararda inşaatın kaldırım tarafında hiçbir uyarı levhası ve bariyer bulunmadığı saptanmıştır. Karar kesinleşmiştir.\n\nGül, 15.11.2026'da Hasan ve Demir Yapı'ya karşı maddi ve manevi tazminat davası açar. Davalıların savunmaları şunlardır:\n- Demir Yapı: \"Gül bariyerle kapatılmış alana girdi, %50 kusurludur.\"\n- Hasan: \"Kesin rapor 01.09.2024'te öğrenildi; iki yıllık süre 01.09.2026'da doldu.\"\n- Demir Yapı: \"Olay 15.03.2023'te oldu; iki yıl çoktan geçti.\"\n\n1. Hasan ve Demir Yapı'nın sorumluluk sebeplerini ve Gül'e karşı aralarındaki ilişkiyi belirtiniz.\n2. Ceza mahkemesi kararı tazminat davasında neyi bağlar? Demir Yapı'nın kusur savunmasını değerlendiriniz.\n3. Zamanaşımı savunmalarını her davalı için ayrı ayrı değerlendiriniz.\n4. Demir Yapı tazminatı öderse Hasan'a başvurabilir mi?",
+   "rubric": [
+    {
+     "point": "Hasan'ın kusur sorumluluğu ve Demir Yapı'nın adam çalıştıran sorumluluğu; aynı zarardan çeşitli sebeplerle müteselsil sorumluluk",
+     "weight": 20,
+     "madde_ref": "TBK m. 61"
+    },
+    {
+     "point": "Ceza kararında saptanan maddi olgunun (bariyer bulunmaması) bağlaması ve bariyer savunmasının dinlenmemesi; kusur oranı ve zarar miktarının hukuk hâkimince belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 74"
+    },
+    {
+     "point": "Hasan yönünden iki yıllık sürenin dolduğu, ancak fiil suç olduğundan sekiz yıllık dava zamanaşımının olay tarihinden işlediği",
+     "weight": 20,
+     "madde_ref": "TCK m. 66"
+    },
+    {
+     "point": "Demir Yapı yönünden iki yıllık sürenin tazminat yükümlüsünün öğrenildiği 10.05.2025'ten başladığı ve dolmadığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 72"
+    },
+    {
+     "point": "On yıllık sürenin dolmadığı ve zamanaşımının ancak def'i olarak ileri sürülünce incelenebileceği",
+     "weight": 5,
+     "madde_ref": "TBK m. 161"
+    },
+    {
+     "point": "Demir Yapı'nın Hasan'a ancak onun bizzat sorumlu olduğu ölçüde rücu edebilmesi; paylaştırma ölçütleri",
+     "weight": 15,
+     "madde_ref": "TBK m. 66"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Hasan, çubukları bağlamadan taşıyarak özen yükümlülüğüne aykırı davranmış ve Gül'ün yaralanmasına yol açmıştır; kusur sorumluluğu doğar (TBK m. 49). Demir Yapı, çalışanının kendisine verilen işin yapılması sırasında başkasına verdiği zarardan adam çalıştıran olarak sorumludur (TBK m. 66/1). İkisi aynı zarardan çeşitli sebeplerle sorumlu olduğundan müteselsil sorumluluk hükümleri uygulanır (TBK m. 61).\n\n**Hukuki sorunlar:** Ceza kararının bağlayıcılığı; her davalı için zamanaşımı; adam çalıştıranın çalışana rücuu.\n\n**İlgili hükümler:** TBK m. 49, m. 61, m. 62, m. 66, m. 72, m. 74, m. 161; TCK m. 66.\n\n**Değerlendirme:**\n\n*1. Sorumluluk ilişkisi.* Gül zararın tamamını Hasan'dan, Demir Yapı'dan ya da ikisinden birlikte isteyebilir (TBK m. 163/1). Demir Yapı ancak gerekli özeni gösterdiğini ya da işletmesinin çalışma düzeninin zararı önlemeye elverişli olduğunu ispat ederek sorumluluktan kurtulabilir (TBK m. 66/2-3); ayrıntısı kusursuz sorumluluk konusundadır. Olayda böyle bir ispat yoktur. Gül, Kuzey İnşaat'a dava açmamıştır.\n\n*2. Ceza kararının etkisi.* TBK m. 74/2 uyarınca hukuk hâkimi kusurun değerlendirilmesinde ve zararın belirlenmesinde ceza hâkiminin kararıyla bağlı değildir. Ancak yerleşik içtihada göre kesinleşmiş ceza kararında saptanan maddi olgular hukuk hâkimini bağlar. Ceza mahkemesi inşaatın kaldırım tarafında uyarı levhası ve bariyer bulunmadığını saptamıştır. Bu yüzden Demir Yapı'nın \"Gül bariyerle kapatılmış alana girdi\" savunması, bağlayıcı maddi olguya aykırı olduğu için dinlenmez. Gül'ün başka bir kusuru (örneğin dikkatsizliği) iddia edilirse bunun varlığını ve oranını hukuk hâkimi kendisi değerlendirir. Hasan'ın kusurlu olduğu da maddi olgu olarak saptandığından hâkim onu kusursuz sayamaz; kusur oranını ve zarar miktarını ise kendisi belirler.\n\n*3. Zamanaşımı.* Süre her davalı için ayrı hesaplanır.\n- *Hasan:* İki yıllık süre, zarar ve tazminat yükümlüsünün birlikte öğrenilmesiyle başlar. Hasan olay günü, zararın kapsamı kesin raporla 01.09.2024'te öğrenilmiştir. Süre 01.09.2026'da dolmuştur. Ancak Hasan'ın fiili taksirle yaralama suçunu oluşturur ve bu, kesinleşmiş mahkûmiyetle sabittir. Suçun cezasının üst sınırı beş yılı geçmediğinden dava zamanaşımı sekiz yıldır (TCK m. 66/1-e) ve TBK m. 72/1 uyarınca bu süre uygulanır. Yargıtay'ın yerleşik uygulamasına göre uzamış süre olay tarihinden işler ve 15.03.2031'de dolar. Hasan'a karşı dava süresindedir.\n- *Demir Yapı:* Gül, tazminat yükümlüsü olarak Demir Yapı'yı ancak 10.05.2025'te öğrenmiştir. Zarar daha önce öğrenildiğinden iki yıllık süre, son öğrenme tarihi olan 10.05.2025'ten başlar ve 10.05.2027'de dolar. Dava süresindedir. Bu nedenle uzamış sürenin adam çalıştırana uygulanıp uygulanmayacağı tartışmasına girmeye gerek yoktur. Demir Yapı'nın olay tarihinden hesap yapması yanlıştır.\n- On yıllık süre 15.03.2033'te dolacağından aşılmamıştır. Gül'ün ceza davasına katılan olması zamanaşımını kesmez; ama bu olayda sonuca etkisi yoktur. Zamanaşımı kendiliğinden dikkate alınmaz (TBK m. 161); davalılar def'i ileri sürmüştür, ama def'iler yukarıdaki gerekçelerle reddedilmelidir.\n\n*4. Rücu.* Demir Yapı tazminatı öderse, çalışana ancak onun bizzat sorumlu olduğu ölçüde rücu edebilir (TBK m. 66/4). Paylaştırmada TBK m. 62/1'deki ölçütler, özellikle kusurun ağırlığı dikkate alınır. Demir Yapı'nın kendi eksiklikleri varsa (örneğin işçisine gerekli ekipmanı ve eğitimi sağlamamışsa) rücu edebileceği tutar buna göre azalır. Rücu istemi, tazminatın tamamının ödenmesinden itibaren TBK m. 73'teki sürelere tabidir.\n\n**Sonuç:**\n- Hasan ve Demir Yapı Gül'e karşı müteselsilen sorumludur.\n- Bariyer savunması bağlayıcı maddi olguya aykırıdır; kusur oranını ve zarar miktarını hukuk hâkimi belirler.\n- Hasan'a karşı istem sekiz yıllık uzamış süre içinde, Demir Yapı'ya karşı istem iki yıllık süre içinde ileri sürülmüştür; zamanaşımı def'ileri reddedilmelidir.\n- Demir Yapı ödeme yaparsa Hasan'a ancak onun bizzat sorumlu olduğu ölçüde rücu edebilir."
+  },
+  {
+   "stem_md": "05.05.2023 günü Ataşehir'de, köpeklerin tasmalı gezdirilmesinin zorunlu olduğu bir parkta Kaan'ın iri ve saldırgan köpeği Duman tasmasız dolaşmaktadır. Aynı sırada Melis, köpeği Pamuk'u gezdirirken telefonla konuşmak için tasmayı elinden bırakır. Duman'ın havlamasıyla ürken Pamuk, Duman'la birlikte 9 yaşındaki Ece'ye saldırır. Ece'nin kolunda ağır yaralar oluşur; hangi yaranın hangi köpekten kaynaklandığı belirlenememektedir.\n\nEce aylarca tedavi görür. Kolunda kalıcı %15 maluliyet bulunduğunu gösteren kesin sağlık kurulu raporu 10.02.2024'te düzenlenir ve aynı gün ailesine verilir. Kaan'ın ödeme gücü yoktur.\n\nEce'nin anne ve babası, onun yasal temsilcisi olarak 20.12.2025'te yalnız Melis'e karşı dava açar ve Ece'nin kalıcı maluliyetinden doğan, 600.000 TL olarak hesaplanan çalışma gücü kaybı zararının tamamını ister. Melis şunları savunur:\n- \"Saldırının asıl sorumlusu tasmasız ve saldırgan Duman'dır; en fazla zararın %30'unu öderim.\"\n- \"Olay 05.05.2023'te oldu; iki yıllık zamanaşımı süresi dolmuştur.\"\n\n1. Melis ve Kaan'ın sorumluluğunu ve Ece'ye karşı aralarındaki ilişkiyi değerlendiriniz.\n2. Melis'in iki savunması yerinde midir?\n3. Melis zararın tamamını öderse Kaan'a başvurabilir mi? Paylaştırmada nelere bakılır?\n4. Bu rücu istemi hangi süre içinde ileri sürülmelidir?",
+   "rubric": [
+    {
+     "point": "Kaan ve Melis'in hayvan bulunduran olarak (ve kusurları nedeniyle) sorumluluğu; tek ve bölünemez zarar nedeniyle müteselsil sorumluluk",
+     "weight": 20,
+     "madde_ref": "TBK m. 61"
+    },
+    {
+     "point": "Zararın tamamının Melis'ten istenebilmesi; yüzde otuz savunmasının dış ilişkide dinlenmemesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 163"
+    },
+    {
+     "point": "İki yıllık sürenin zararın kapsamının kesin olarak öğrenildiği 10.02.2024'ten başlaması ve dolmamış olması; on yıllık sürenin de dolmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 72"
+    },
+    {
+     "point": "İç ilişkide kusurun ağırlığı ve tehlikenin yoğunluğuna göre paylaştırma; Kaan'ın payının daha yüksek tutulabilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 62"
+    },
+    {
+     "point": "Payından fazlasını ödeyen Melis'in rücu hakkı ve halefiyeti; ürkütmeye ilişkin özel rücu hükmü",
+     "weight": 15,
+     "madde_ref": "TBK m. 67"
+    },
+    {
+     "point": "Rücu isteminin tamamının ödenmesinden itibaren iki ve on yıllık sürelere tabi olması; bildirim yükümlülüğü",
+     "weight": 10,
+     "madde_ref": "TBK m. 73"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Bir hayvanın bakımını ve yönetimini üstlenen kişi, hayvanın verdiği zararı gidermekle yükümlüdür; ancak zararı önlemek için gerekli özeni gösterdiğini ispat ederse sorumlu olmaz (TBK m. 67). Kaan köpeğini tasmanın zorunlu olduğu parkta serbest bırakmış, Melis de tasmayı elinden bırakmıştır; ikisi de gerekli özeni göstermemiştir. Davranışları kusurlu olduğundan TBK m. 49'a göre de sorumludurlar. Aynı kişinin birden çok sebeple sorumluluğu TBK m. 60'ın konusudur. İki kişinin aynı zarardan sorumluluğu ise TBK m. 61'e göre müteselsil sorumluluktur.\n\n**Hukuki sorunlar:** Dış ilişkide Melis'in sorumluluğunun kapsamı; zamanaşımının başlangıcı; iç ilişkide paylaştırma ve rücu; rücu zamanaşımı.\n\n**İlgili hükümler:** TBK m. 49, m. 60, m. 61, m. 62, m. 67, m. 72, m. 73, m. 163.\n\n**Değerlendirme:**\n\n*1. Müteselsil sorumluluk.* Yaraların hangi köpekten kaynaklandığı ayrılamamaktadır. Zarar tek ve bölünemez olduğundan kısmi sorumluluk değil müteselsil sorumluluk söz konusudur (TBK m. 61).\n\n*2. Melis'in savunmaları.*\n- *Yüzde otuz savunması:* Zarar gören borcun tamamını dilediği sorumludan isteyebilir (TBK m. 163/1). Kaan'ın daha ağır kusurlu olması ve ödeme gücünün bulunmaması Ece'nin aleyhine sonuç doğurmaz. Müteselsil sorumluluğun amacı da budur: zarar gören, ödeme gücü olan sorumluya başvurarak zararını giderir. Savunma dış ilişkide dinlenmez; pay meselesi iç ilişkiye aittir.\n- *Zamanaşımı savunması:* İki yıllık süre, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlar (TBK m. 72/1). Yargıtay'a göre zararın öğrenilmesi, varlığının, niteliğinin ve kapsamının kesin olarak bilinmesidir. Ece'nin kalıcı maluliyeti ve dolayısıyla zararın kapsamı, kesin raporun verildiği 10.02.2024'te öğrenilmiştir. Süre 10.02.2026'da dolar ve 20.12.2025'te açılan dava süresindedir. On yıllık süre de 05.05.2033'e kadar işler. Melis süreyi yanlış başlangıçtan hesaplamıştır; savunma reddedilir. Bu sonuca ulaşmak için uzamış süreye başvurmaya gerek yoktur. Ayrıca küçüklük, üçüncü kişilere karşı alacaklarda zamanaşımını durdurmaz; durma sebepleri TBK m. 153'te sayılmıştır.\n\n*3. İç ilişki ve rücu.* Melis zararın tamamını öderse, kendi payından fazlası için Kaan'a rücu eder ve bu oranda Ece'nin haklarına halef olur (TBK m. 62/2). Paylaştırmada bütün durum ve koşullar, özellikle kusurun ağırlığı ve tehlikenin yoğunluğu dikkate alınır (TBK m. 62/1). İri ve saldırgan bir köpeği tasmanın zorunlu olduğu yerde tamamen serbest bırakmak, tasmayı kısa süre elden bırakmaktan hem daha ağır bir kusur hem daha yoğun bir tehlikedir. Ayrıca Pamuk, Duman'ın havlamasıyla ürkmüştür; hayvan başkasına ait bir hayvan tarafından ürkütülmüşse hayvan bulunduranın bu kişilere rücu hakkı saklıdır (TBK m. 67/3). Bu nedenle hâkim Kaan'ın payını belirgin biçimde yüksek tutabilir. Örneğin paylar %70-%30 belirlenirse Melis, ödediği 600.000 TL'nin 420.000 TL'si için Kaan'a rücu eder. Kaan'ın bugün ödeme gücünün olmaması bu hakkı ortadan kaldırmaz; ama tahsil riskini artık Melis taşır.\n\n*4. Rücu zamanaşımı.* Melis'in rücu istemi, tazminatın tamamını ödediği ve Kaan'ı öğrendiği tarihten itibaren iki yılda, her hâlde tamamını ödediği tarihten itibaren on yılda zamanaşımına uğrar (TBK m. 73/1). Melis, kendisinden ödeme istendiği için durumu Kaan'a bildirmelidir. Bildirmezse süre, bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar (TBK m. 73/2).\n\n**Sonuç:**\n- Kaan ve Melis, Ece'ye karşı 600.000 TL'nin tamamından müteselsilen sorumludur; Melis'in yüzde otuz savunması dinlenmez.\n- Dava, zararın kapsamının öğrenildiği 10.02.2024'ten itibaren iki yıl içinde açıldığından süresindedir.\n- Melis ödeme yaparsa, kusur ve tehlike yoğunluğuna göre belirlenecek payını aşan kısım için Kaan'a rücu eder ve halef olur.\n- Rücu istemi, tamamının ödenmesinden itibaren TBK m. 73'teki sürelere tabidir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "TBK m. 61 hangi iki hâlde uygulanır?",
+   "back_md": "Birden çok kişinin bir zarara birlikte sebep olması ve aynı zarardan çeşitli sebeplerle sorumlu olunması. İkisinde de müteselsil sorumluluk hükümleri uygulanır."
+  },
+  {
+   "front_md": "TBK m. 60 ile m. 61 arasındaki fark?",
+   "back_md": "m. 60, tek kişinin birden çok sorumluluk sebebini (yarışma) düzenler. m. 61, birden çok kişinin aynı zarardan sorumluluğunu düzenler."
+  },
+  {
+   "front_md": "Zarar gören müteselsil sorumlulardan ne isteyebilir?",
+   "back_md": "Tazminatın tamamını ya da bir kısmını, dilediğinden, birkaçından ya da hepsinden (TBK m. 163/1)."
+  },
+  {
+   "front_md": "Sorumlu, kusur oranını zarar görene karşı ileri sürebilir mi?",
+   "back_md": "Hayır. Kusur oranları yalnız iç ilişkide, paylaştırmada önem taşır."
+  },
+  {
+   "front_md": "Sorumlulardan birini dava etmek ya da mahkûm ettirmek diğerlerini kurtarır mı?",
+   "back_md": "Hayır, yalnız ifa kurtarır (TBK m. 166/1). Hüküm tahsilde tekerrür olmamak kaydıyla kurulur."
+  },
+  {
+   "front_md": "Müteselsil sorumluluk için zarar nasıl olmalı?",
+   "back_md": "Tek ve bölünemez. Herkes ayrı ve belirlenebilir bir zarar vermişse kısmi sorumluluk vardır."
+  },
+  {
+   "front_md": "Sorumlulardan biri ibra edilirse diğerleri ne olur?",
+   "back_md": "İbra edilenin iç ilişkideki payı oranında borçtan kurtulurlar (TBK m. 166/3)."
+  },
+  {
+   "front_md": "İç ilişkide paylaştırma ölçütleri? (TBK m. 62/1)",
+   "back_md": "Bütün durum ve koşullar, özellikle kusurun ağırlığı ve yaratılan tehlikenin yoğunluğu."
+  },
+  {
+   "front_md": "Payından fazlasını ödeyen sorumlunun hakları? (TBK m. 62/2)",
+   "back_md": "Fazlası için diğer sorumlulara rücu eder ve zarar görenin haklarına halef olur."
+  },
+  {
+   "front_md": "İç ilişkide teselsül var mı?",
+   "back_md": "Hayır. Ödeyen her birinden ancak onun payı oranında isteyebilir (TBK m. 167/2)."
+  },
+  {
+   "front_md": "Adam çalıştıranın çalışana rücuu? (TBK m. 66/4)",
+   "back_md": "Ancak çalışanın bizzat sorumlu olduğu ölçüde."
+  },
+  {
+   "front_md": "Rücu isteminin zamanaşımı? (TBK m. 73/1)",
+   "back_md": "Tamamının ödendiği ve birlikte sorumlunun öğrenildiği tarihten 2 yıl; her hâlde tamamının ödendiği tarihten 10 yıl."
+  },
+  {
+   "front_md": "TBK m. 73/2'deki bildirim yapılmazsa ne olur?",
+   "back_md": "Rücu zamanaşımı, bildirimin dürüstlük kurallarına göre yapılabileceği tarihte işlemeye başlar."
+  },
+  {
+   "front_md": "Beraat kararı hukuk hâkimini bağlar mı? (TBK m. 74)",
+   "back_md": "Kural olarak hayır. Yalnız fiilin sanık tarafından işlenmediğinin kesin tespitine dayanıyorsa bağlar; delil yetersizliğine dayanan beraat bağlamaz."
+  },
+  {
+   "front_md": "Ceza kararında hukuk hâkimini bağlayan nedir?",
+   "back_md": "Kesinleşmiş kararda saptanan maddi olgular: olayın varlığı, fiilin kim tarafından işlendiği, hukuka aykırılık."
+  },
+  {
+   "front_md": "Ceza dosyasındaki kusur oranı hukuk hâkimini bağlar mı?",
+   "back_md": "Hayır (TBK m. 74/2). Ama kusurlu olduğu maddi olgu olarak saptanan kişi hukukta kusursuz sayılamaz."
+  },
+  {
+   "front_md": "Haksız fiilde zamanaşımı süreleri? (TBK m. 72/1)",
+   "back_md": "Zararı ve tazminat yükümlüsünü öğrenmeden 2 yıl; her hâlde fiilden 10 yıl; fiil suçsa ceza kanunundaki daha uzun süre."
+  },
+  {
+   "front_md": "Zararın öğrenilmesi ne demektir?",
+   "back_md": "Yargıtay'a göre zararın varlığının, niteliğinin ve kapsamının kesin olarak öğrenilmesi. Bedensel zararda çoğu zaman kesin raporun öğrenildiği tarih."
+  },
+  {
+   "front_md": "Uzamış zamanaşımında hangi süre esas alınır?",
+   "back_md": "TCK m. 66'daki dava zamanaşımı, suçun cezasının üst sınırına göre. Taksirle yaralamada 8, taksirle öldürmede 15 yıl."
+  },
+  {
+   "front_md": "Uzamış süre için ceza davası ya da mahkûmiyet gerekir mi?",
+   "back_md": "Hayır. Fiilin suç olması yeter; şikâyet yokluğu da engel değil. Süre olay tarihinden işler."
+  },
+  {
+   "front_md": "Ceza davasına katılmak tazminat isteminin zamanaşımını keser mi?",
+   "back_md": "Hayır. Bugünkü ceza yargılamasında tazminat istenemediği için ceza davasına katılmanın kesme etkisi yoktur."
+  },
+  {
+   "front_md": "TBK m. 72/2 neyi düzenler?",
+   "back_md": "Haksız fiil yüzünden borç altına giren zarar gören, tazminat istemi zamanaşımına uğrasa bile bu borcu ifadan her zaman kaçınabilir."
+  },
+  {
+   "front_md": "TBK m. 75'teki iki yıllık süre nedir?",
+   "back_md": "Bedensel zararın kapsamı belirlenemiyorsa hâkimin, kararın kesinleşmesinden itibaren iki yıl içinde hükmü değiştirme yetkisini saklı tutabilmesi. Zamanaşımı değildir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
