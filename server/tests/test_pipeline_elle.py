@@ -101,6 +101,19 @@ def test_yaml_on_key_is_card_front():
     assert hatalar == [] and doc["cards"][0]["front_md"] == "ön 0"
 
 
+def test_topic_without_statutes_may_have_no_articles_but_citations_still_need_listing():
+    plan = {**PLAN, "kanunsuz": True}
+    bos = {"maddeler": [], "anlatim": kelime(1300), "ozet": kelime(200), "sorular": [
+        {**s, "aciklama": "Kanunnameler örfi hukuktur."} for s in taslak()["sorular"]],
+        "olaylar": [{**o, "olcut": [{**c, "madde": ""} for c in o["olcut"]]} for o in taslak()["olaylar"]]}
+    _, hatalar, _ = elle.kontrol_et("HUK2012", taslak(**bos), plan, {}, KUNYE)
+    assert hatalar == []
+    _, hatalar, _ = elle.kontrol_et("HUK2012", taslak(**{**bos, "anlatim": kelime(1300) + " TMK m. 1"}), plan, {}, KUNYE)
+    assert hatalar == ["anlatim: TMK m. 1 atfı var ama maddeler listesinde yok"]
+    _, hatalar, _ = elle.kontrol_et("HUK2011", taslak(**bos), PLAN, {}, KUNYE)
+    assert "maddeler listesi boş" in hatalar
+
+
 def test_rubric_points_must_sum_to_100():
     bad = taslak()
     bad["olaylar"][0]["olcut"][0]["puan"] = 50

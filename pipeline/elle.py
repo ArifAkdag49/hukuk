@@ -107,7 +107,7 @@ def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: di
     uyarilar: list[str] = []
 
     maddeler = [(canon(m["kanun"]), str(m["madde"])) for m in t.get("maddeler") or []]
-    if not maddeler:
+    if not maddeler and not plan.get("kanunsuz"):
         hatalar.append("maddeler listesi boş")
     primary = maddeler[0][0] if maddeler else None
     for k, n in maddeler:
@@ -251,7 +251,8 @@ def plan_for(course_id: str, slug: str) -> dict:
     for ui, unit in enumerate(cur["units"], 1):
         for ti, tp in enumerate(unit["topics"], 1):
             if tp["slug"] == slug:
-                return {"slug": slug, "title": tp["title"], "unit_index": ui, "unit_title": unit["title"], "topic_index": ti}
+                return {"slug": slug, "title": tp["title"], "unit_index": ui, "unit_title": unit["title"], "topic_index": ti,
+                        "kanunsuz": not tp.get("maddeler")}  # müfredatta maddesi olmayan konu (ör. hukuk tarihi)
     raise SystemExit(f"{course_id} müfredatında '{slug}' yok")
 
 
