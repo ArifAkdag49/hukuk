@@ -1,0 +1,502 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kira Sözleşmesi",
+ "topic_index": 3,
+ "slug": "kira-sozlesmesinin-sona-ermesi-ve-hapis-hakki",
+ "title": "Kira Sözleşmesinin Sona Ermesi, Kiralananın Geri Verilmesi ve Kiraya Verenin Hapis Hakkı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T10:58:39.634162+00:00",
+ "skill_refs": [
+  "kira-hukuku/kira-temel-kavramlar-ve-sistem"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Kira nasıl sona erer, kiralanan nasıl geri verilir, kiraya veren kira alacağını nasıl güvenceye alır? Hükümler TBK m. 327-338'dedir ve **genel hükümlere tabi kiralarda** (taşınır, çatısız taşınmaz) ana kurallardır. Konut ve çatılı işyerinde sona erme TBK m. 347 vd.'de ayrıca düzenlenir (sonraki konu).\n\n- **Belirli süreli kira:** Sürenin sonunda kendiliğinden sona erer (TBK m. 327/1). Açık anlaşma olmadan sürdürülürse **belirsiz süreliye dönüşür** (TBK m. 327/2).\n- **Olağan fesih:** Dönemler **başlangıç tarihinden** hesaplanır; süreye uyulmayan bildirim sonraki dönem için geçerli olur (TBK m. 328). Taşınmazda yerel âdet yoksa **altı aylık dönem sonu için üç ay önceden** bildirim (TBK m. 329). Taşınırda **üç gün** ve her zaman (TBK m. 330/1). Meslekî kiraya verenin özel kullanım taşınırında kiracı üç aylık dönem sonu için **en az bir ay önceden** bildirimle çıkar, zarar ödemez (TBK m. 330/2).\n- **Olağanüstü fesih:** Çekilmez önemli sebep varsa **yasal bildirim süresine uyarak her zaman**; parasal sonuçları hâkim belirler (TBK m. 331). Kiracı teslimden sonra iflas ederse **işleyecek kiralar** için güvence istenir, verilmezse hemen fesih (TBK m. 332). Kiracı ölürse **mirasçılar** en yakın dönem sonu için feshedebilir (TBK m. 333).\n- **Geri verme:** Teslim alınan durumda geri verilir; sözleşmeye uygun kullanımdan doğan eskime sorumluluğu yoktur; sona ermede başkaca tazminat taahhüdü geçersizdir (TBK m. 334). Kiraya veren eksiklikleri **hemen yazılı** bildirmezse kiracı kurtulur; olağan incelemeyle anlaşılamayanlar saklıdır (TBK m. 335).\n- **Hapis hakkı:** Yalnız taşınmaz kirasında, **işlemiş bir yıllık ve işlemekte olan altı aylık** kira için, döşeme ve kullanıma yarayan taşınırlar üzerinde; haczedilemeyen mallar hariç (TBK m. 336). Çalıntı gibi eşyada malikin hakkı önce gelir (TBK m. 337). Gizlice götürülen eşya **on gün** içinde geri getirilir (TBK m. 338).\n- 📌 **Yakın tarih:** Tacir ya da tüzel kişi kiracılı işyerlerinde TBK m. 331, 6217 sayılı Kanunun geçici 2. maddesiyle sekiz yıl uygulanmamış, süre dolmuştur.",
+  "content_md": "## 0. Konunun haritası\n\nKira sözleşmesinin hayatı üç soruyla özetlenir: **Nasıl biter? Nasıl geri verilir? Kira alacağı nasıl güvenceye bağlanır?** Bu konu TBK m. 327-338'i bu sırayla işler.\n\n| Aşama | İçerik | Dayanak |\n|---|---|---|\n| Süre bitimi | Belirli süreli kira kendiliğinden biter | TBK m. 327 |\n| Olağan fesih | Belirsiz süreli kirada bildirim | TBK m. 328-330 |\n| Olağanüstü fesih | Önemli sebep, iflas, ölüm | TBK m. 331-333 |\n| Geri verme | Durum, gözden geçirme, bildirim | TBK m. 334-335 |\n| Güvence | Kiraya verenin hapis hakkı | TBK m. 336-338 |\n\n## 1. Önce kira türünü belirle\n\nBu hükümler kira hukukunun **genel hükümleridir**. Taşınır kiraları ve çatısız taşınmaz kiraları (boş arsa, açık otopark, açık depolama sahası, baz istasyonu yeri gibi) bu hükümlere tabidir. Yargıtay, konut ve çatılı işyeri hükümlerinin uygulanması için kiralananın **üstünün örtülü** olması gerektiğini kabul eder; kiralananda hem açık hem kapalı alan varsa galip vasfa bakılır. Niteleme yanlışsa bütün çözüm kayar.\n\nKonut ve çatılı işyerinde de bazı genel hükümler uygulanır: TBK m. 331 bu kiralarda da kullanılabilir; geri verme ve hapis hakkı kuralları taşınmaz kiralarının tamamında işler. Ama süre bitimi ve olağan fesih bakımından özel kurallar vardır: Belirli süreli konut ve çatılı işyeri kirası sürenin bitiminde belirsiz süreliye dönüşmez, kiracı en az onbeş gün önce bildirimde bulunmadıkça **aynı koşullarla bir yıl uzatılmış sayılır**; kiraya veren sürenin bitimine dayanarak sözleşmeyi sona erdiremez (TBK m. 347/1). Ayrıntısı bir sonraki konudadır.\n\n> ⚠️ **Sınavda dikkat:** \"Süre dolduktan sonra kira sürdü\" cümlesini görünce önce kiralananın türüne bak. Arsa ya da açık otopark ise TBK m. 327/2 (belirsiz süreli), daire ya da dükkân ise TBK m. 347/1 (bir yıl uzama).\n\n## 2. Belirli süreli kiranın sona ermesi (TBK m. 327)\n\nAçık veya örtülü biçimde bir süre belirlenmişse kira, **sürenin sonunda kendiliğinden sona erer**; fesih bildirimi gerekmez (TBK m. 327/1). Süre örtülü de olabilir: \"yaz sezonu boyunca\" kiralanan bir tekne yeri gibi.\n\nTaraflar süre bitince **açık bir anlaşma olmaksızın** kira ilişkisini sürdürürse, sözleşme **belirsiz süreliye dönüşür** (TBK m. 327/2). Kiracı oturmaya, kiraya veren de kira almaya devam etmekle ilişkiyi sürdürmüş olur.\n\n> **Örnek:** Ayşe, açık otopark olarak kullanılan arsasını 1 Mart 2023'ten başlayarak bir yıllığına Mehmet Ltd. Şti.'ne kiralar. Süre dolar, kimse bir şey söylemez, kira ödenmeye ve alınmaya devam eder. Arsa çatısız olduğundan sözleşme bir yıl daha uzamaz; belirsiz süreli kiraya dönüşür.\n\n## 3. Belirsiz süreli kirada olağan fesih (TBK m. 328-330)\n\n**Olağan fesih**, sebep göstermeden, yasal fesih dönemine ve bildirim süresine uyularak yapılan fesihtir. Kural TBK m. 328'dedir:\n- Taraflar daha uzun bir bildirim süresi ya da başka bir fesih dönemi kararlaştırmamışsa **yasal dönem ve sürelere** uyulur.\n- Fesih dönemlerinin hesabında **kira sözleşmesinin başlangıç tarihi** esas alınır (TBK m. 328/1).\n- Dönem veya süreye uyulmamışsa bildirim **geçersiz olmaz**; bir sonraki fesih dönemi için geçerli olur (TBK m. 328/2).\n\nYasal süreler kiralananın türüne göre değişir:\n\n| Kiralanan | Fesih dönemi | Bildirim süresi |\n|---|---|---|\n| Taşınmaz, taşınır yapı | Yerel âdet; yoksa 6 aylık dönem sonu | 3 ay (TBK m. 329) |\n| Taşınır | Her zaman | 3 gün (TBK m. 330/1) |\n| Meslekî kiraya verenin özel kullanım taşınırı (kiracı) | 3 aylık dönem sonu | En az 1 ay (TBK m. 330/2) |\n\nTBK m. 330/2 yalnız **kiracıya** tanınmış bir imkândır ve kiraya verenin zararının giderilmesini istemesini de engeller.\n\n> **Örnek:** Ayşe'nin arsa kirası (başlangıç 1 Mart 2023) belirsiz süreli hâle geldi. Yerel âdet yoktur, dönemler 1 Mart ve 1 Eylül'de biter. Ayşe 20 Ekim 2024'te sözleşmeyi feshettiğini bildirirse, bildirimden üç ay sonra gelen ilk dönem sonu 1 Mart 2025 olduğundan kira o tarihte sona erer. Aynı bildirim 20 Aralık 2024'te yapılsaydı 1 Mart 2025 için süre yetmez, bildirim bir sonraki dönem sonu olan 1 Eylül 2025 için geçerli olurdu (TBK m. 328/2 ve TBK m. 329).\n\n> **Örnek:** Cem, kiralama şirketinden evinde kullanmak için bir piyano kiralar. Şirketin meslekî faaliyeti piyano kiralamak, kullanım Cem'in özel kullanımıdır. Cem üç aylık kira dönemi sonu için en az bir ay önceden bildirimle sözleşmeyi bitirebilir ve şirket zararını isteyemez (TBK m. 330/2).\n\n## 4. Olağanüstü fesih\n\n### 4.1 Önemli sebep (TBK m. 331)\nKira ilişkisinin devamını **kendisi için çekilmez hâle getiren önemli sebepler** varsa taraflardan her biri sözleşmeyi **yasal fesih bildirim süresine uyarak her zaman** feshedebilir (TBK m. 331/1). Fesih dönemi sonu beklenmez, ama bildirim süresi (taşınmazda üç ay, taşınırda üç gün) kısaltılmaz. Hâkim, durum ve koşulları gözeterek feshin **parasal sonuçlarını** karara bağlar (TBK m. 331/2).\n\nYargıtay'a göre bu hak belirli ya da belirsiz süreli her kirada, konut ve çatılı işyeri dahil kullanılabilir. Üç şart aranır: geçerli bir kira sözleşmesi, devamını beklenemez kılan haklı sebep ve yasal bildirim süresine uyma.\n\n> **Örnek:** Zeynep memurdur; iki yıllık konut kirasının sekizinci ayında başka bir şehre atanır. Sözleşmeyi sürdürmesi kendisinden beklenemez. Üç ay önceden bildirimle sözleşmeyi bitirir; kiraya verenin kira kaybı gibi parasal sonuçları hâkim belirler.\n\n> ⚠️ **Sınavda dikkat:** Kiracının kirayı ya da aidatı ödememesi \"çekilmezlik\" sayılıp TBK m. 331'e dayandırılamaz. Bu durum için kanun özel yollar öngörmüştür: ödeme süresi vererek fesih (TBK m. 315) ve iki haklı ihtarla fesih (TBK m. 352/2).\n\n> 📌 **Kesin bilgi (yakın tarih):** Kiracısı tacir ya da özel veya kamu hukuku tüzel kişisi olan işyeri kiralarında TBK m. 331, 6217 sayılı Kanunun geçici 2. maddesiyle 1 Temmuz 2012'den itibaren sekiz yıl uygulanmamıştır. Süre dolmuştur; bu kiralarda da TBK m. 331 uygulanır.\n\n### 4.2 Kiracının iflası (TBK m. 332)\nKiracı **kiralananın tesliminden sonra** iflas ederse kiraya veren, **işleyecek kira bedelleri** için güvence isteyebilir. Kiraya veren, kiracıya ve iflas masasına **yazılı olarak uygun bir süre** verir. Bu sürede güvence verilmezse sözleşmeyi herhangi bir bildirim süresine uymadan **hemen** feshedebilir (TBK m. 332/2). Geçmiş kira borcu için değil, ileride işleyecek kiralar için güvence istenir.\n\n### 4.3 Kiracının ölümü (TBK m. 333)\nKiracı ölürse **mirasçıları**, yasal fesih bildirim süresine uyarak **en yakın fesih dönemi sonu** için sözleşmeyi feshedebilir. Fesih hakkı yalnız mirasçılara verilmiştir; kiraya verenin ölüm sebebiyle bu madde uyarınca fesih hakkı yoktur.\n\n| Fesih | Kimin hakkı? | Süre |\n|---|---|---|\n| TBK m. 331 | Her iki taraf | Yasal bildirim süresi, her zaman |\n| TBK m. 332 | Kiraya veren | Güvence süresi bitince hemen |\n| TBK m. 333 | Kiracının mirasçıları | Yasal süre, en yakın dönem sonu |\n\n## 5. Kiralananın geri verilmesi (TBK m. 334-335)\n\n### 5.1 Geri verme borcunun kapsamı (TBK m. 334)\nKiracı kiralananı **teslim aldığı durumda** geri verir. Ancak **sözleşmeye uygun kullanım** yüzünden oluşan eskime ve bozulmalardan sorumlu değildir (TBK m. 334/1). Sorumluluk, olağan kullanımın dışına çıkan **hor kullanma** için doğar.\n\nYargıtay Hukuk Genel Kurulu'na göre hasar kalemleri tek tek incelenir; hangisi olağan eskime, hangisi hor kullanmadır bilirkişi tarafından ayrılır. Kullanım süresi ve sözleşmenin amacı gözetilir (incelenen olayda kiracı binayı yirmi altı yıl kullanmıştı). Yargıtay uygulamasında hor kullanma tazminatı, onarım bedelinden **kullanım süresiyle orantılı yıpranma payı** düşülerek hesaplanır.\n\nKiracının, sözleşme sona erince **başkaca bir tazminat ödeyeceğini önceden taahhüt etmesi** de geçersizdir; yalnız sözleşmeye aykırı kullanımdan doğan zararlar giderilir (TBK m. 334/2).\n\n> **Örnek:** Kerem dokuz yıl oturduğu daireyi tahliye eder. Parkelerin aşınması ve boyanın solması olağan eskimedir; Kerem sorumlu olmaz. Sözleşmedeki \"hasar olsun olmasın 40.000 TL yenileme bedeli\" kaydı geçersizdir. Buna karşılık duvarda matkapla açtığı çok sayıdaki delik hor kullanmadır; sorumludur, ama bedel yıpranma payı düşülerek hesaplanır.\n\n### 5.2 Gözden geçirme ve bildirme külfeti (TBK m. 335)\nKiraya veren geri verme sırasında kiralananın durumunu **gözden geçirmek** ve kiracının sorumlu olduğu eksiklikleri **hemen yazılı olarak** bildirmek zorundadır. Bildirim yapılmazsa **kiracı her türlü sorumluluktan kurtulur**. İstisna: teslim alırken **olağan incelemeyle belirlenemeyen** eksiklik ve ayıplarda kiracının sorumluluğu devam eder; kiraya veren bunları belirlediğinde yine **hemen yazılı** bildirmelidir.\n\nYargıtay HGK, kiraya verenin ihtirazi kayıtla tutanak tutabileceğini ya da mahkemeden delil tespiti isteyebileceğini belirtir. Başka bir olayda Yargıtay, teslim günü imzalanan hasar tutanağını ve dört gün sonraki elektronik yazışmayı bildirim yükümlülüğünün makul sürede yerine getirilmesi saymıştır.\n\n> **Örnek:** Elif anahtarı alırken salon kapısındaki kırık camı görür, bir şey demez; iki ay sonra ihtar çekip onarım bedeli ister. Açık eksiklik hemen yazılı bildirilmediği için Elif'in talebi sonuçsuz kalır. Sabit gardırobun arkasındaki duvar hasarını ise gardırobu söktüğü gün yazılı bildirirse, hasar olağan incelemeyle belirlenemeyeceğinden kiracının sorumluluğu sürer.\n\n## 6. Kiraya verenin hapis hakkı (TBK m. 336-338)\n\n**Hapis hakkı**, kiraya verenin kira alacağı ödenmeyince kiralanandaki bazı taşınırları alacağına karşılık elinde tutabilmesidir. Düzenleme **yalnız taşınmaz kiralarına** özgüdür; taşınır kiralarında TBK m. 336 anlamında bir hapis hakkı yoktur.\n\n### 6.1 Kapsam (TBK m. 336)\n- **Alacak:** \"işlemiş bir yıllık ve işlemekte olan altı aylık\" kira bedeli. Bütün birikmiş borcu güvence altına almaz.\n- **Eşya:** kiralananda bulunan ve **kiralananın döşenmesine veya kullanılmasına yarayan** taşınırlar (TBK m. 336/1).\n- **Alt kiracı:** Alt kiracının getirdiği aynı nitelikteki taşınırlar da kapsanır, ama **alt kiracının asıl kiracıya olan borcu** ölçüsünde (TBK m. 336/2).\n- **Sınır:** kiracının **haczedilemeyen malları** üzerinde kullanılamaz (TBK m. 336/3). Haczi yasak mallar İİK m. 82'de sayılır; borçlunun ve ailesinin kişisel eşyası, ailenin ortak kullanımına hizmet eden ev eşyası ve bazı mesleki eşya bunlardandır.\n\n> **Örnek:** Asıl kiracının kiraya verene borcu 100.000 TL, alt kiracının asıl kiracıya borcu 20.000 TL'dir. Kiraya veren alt kiracının tezgâhları üzerinde en çok 20.000 TL için hapis hakkı kullanabilir.\n\n### 6.2 Üçüncü kişilerin hakları (TBK m. 337)\nÜçüncü kişilerin hakları iki durumda hapis hakkından **önce gelir**: (1) kiraya verenin **kiracıya ait olmadığını bildiği veya bilmesi gerektiği** eşya; (2) **çalınmış, kaybolmuş veya iradesi dışında malikinin elinden çıkmış** eşya (TBK m. 337/1). Çalıntı eşyada kiraya verenin durumu bilmemesi sonucu değiştirmez.\n\nKiraya veren, getirilen taşınırların kiracıya ait olmadığını **kira sürerken** öğrendiği hâlde sözleşmeyi **en yakın fesih döneminin sonu için feshetmezse** o eşya üzerindeki hapis hakkını kaybeder (TBK m. 337/2).\n\n### 6.3 Alıkoyma ve geri getirme (TBK m. 338)\nKiracı taşınmak ya da taşınırları başka yere götürmek isterse kiraya veren, alacağını güvence altına alacak miktardaki taşınırı **sulh hâkiminin veya icra müdürünün kararıyla alıkoyabilir** (TBK m. 338/1). Alıkoyma konusu eşya gizlice veya zorla götürülürse, **götürülmelerinden başlayarak on gün içinde** kolluk gücünün yardımıyla kiralanana geri getirilir (TBK m. 338/2). Süre fark etme tarihinden değil götürülme tarihinden işler. İcra hukukunda da hapis hakkının geçici korunması için icra dairesinden eşya defteri istenebilir (İİK m. 270) ve gizlice götürülen eşya on gün içinde geri alınabilir; iyi niyetli üçüncü kişilerin hakları saklıdır (İİK m. 271).\n\n> 💡 **Püf nokta:** Hapis hakkını tek cümleyle hatırla: \"Taşınmaz kirası, 1 yıl + 6 ay, döşeme-kullanma taşınırı, haczi yasak mal yok, çalıntıda malik önde, kaçırılırsa 10 gün.\"\n\n## 7. Denetim şeması\n\n1. Kiralanan ne? Taşınır mı, çatısız taşınmaz mı, konut ya da çatılı işyeri mi?\n2. Süre var mı? Süre bitti ve ilişki sürdü mü? (TBK m. 327 ya da özel kural TBK m. 347)\n3. Belirsiz süreliyse dönemleri **başlangıç tarihinden** say, bildirim süresine bak (TBK m. 328-330); geç bildirim sonraki dönem için geçerlidir.\n4. Olağanüstü sebep var mı? Önemli sebep, iflas ya da ölüm (TBK m. 331-333).\n5. Geri verme: olağan eskime mi hor kullanma mı? Önceden tazminat kaydı var mı? Kiraya veren hemen yazılı bildirdi mi? (TBK m. 334-335)\n6. Hapis hakkı: taşınmaz kirası mı, hangi eşya, hangi alacak ölçüsü, üçüncü kişi hakkı ve eşya götürülmüşse on gün (TBK m. 336-338).",
+  "critical_md": "- 📌 Belirli süreli adi kira, sürenin sonunda kendiliğinden sona erer; açık anlaşma olmadan sürdürülürse belirsiz süreliye dönüşür (TBK m. 327).\n- ⚠️ Konut ve çatılı işyerinde süre bitiminde sözleşme belirsiz süreliye dönüşmez, bir yıl uzamış sayılır (TBK m. 347/1). Çatısız taşınmazda (arsa, açık otopark) TBK m. 327 uygulanır.\n- 📌 Fesih dönemlerinin hesabında kira sözleşmesinin başlangıç tarihi esas alınır; süreye uyulmayan bildirim geçersiz olmaz, sonraki dönem için geçerlidir (TBK m. 328).\n- 📌 Taşınmaz ve taşınır yapı: yerel âdet yoksa altı aylık dönem sonu için üç ay önceden bildirim (TBK m. 329).\n- 📌 Taşınır: üç gün önceden bildirimle her zaman fesih (TBK m. 330/1). Meslekî kiraya verenin özel kullanım taşınırında kiracı üç aylık dönem sonu için en az bir ay önceden bildirimle çıkar, kiraya veren zarar isteyemez (TBK m. 330/2).\n- 📌 Önemli sebeple fesih yasal bildirim süresine uyarak her zaman yapılır; dönem sonu beklenmez ama süre kısaltılmaz. Parasal sonuçları hâkim belirler (TBK m. 331).\n- ⚠️ Kira ya da aidat ödememe TBK m. 331 ile feshedilemez; özel yollar TBK m. 315 ve TBK m. 352/2'dir.\n- 📌 Kiracı teslimden sonra iflas ederse kiraya veren işleyecek kiralar için güvence ister; yazılı verilen uygun süre sonunda hemen fesheder (TBK m. 332).\n- ⚠️ Kiracının ölümünde fesih hakkı yalnız mirasçılarındır; en yakın fesih dönemi sonu için yasal süreyle (TBK m. 333).\n- 📌 Olağan kullanım eskimesinden kiracı sorumlu değildir; sona ermede başkaca tazminat taahhüdü geçersizdir (TBK m. 334).\n- ⚠️ Kiraya veren geri vermede gözden geçirip eksiklikleri hemen yazılı bildirmezse kiracı kurtulur; olağan incelemeyle anlaşılamayanlar saklıdır (TBK m. 335).\n- 📌 Hapis hakkı: yalnız taşınmaz kirası; işlemiş bir yıllık ve işlemekte olan altı aylık kira; haczedilemeyen mallar hariç; çalıntıda malikin hakkı önce gelir; götürülen eşya on gün içinde geri getirilir (TBK m. 336-338).",
+  "doctrine_md": "### TBK m. 331'in belirsiz süreli kirada işlevi\nBelirli süreli kirada TBK m. 331'in önemi açıktır: Süreyi beklemeden, yasal bildirim süresiyle çıkış yolu verir. Belirsiz süreli kirada ise taraflar zaten TBK m. 328-330 gereği sebep göstermeden fesih yapabilir. Bir görüşe göre bu nedenle taşınırda TBK m. 331'in ek bir işlevi yoktur. Taşınmazda ise bir görüş, TBK m. 331'in \"yasal bildirim süresine uyarak her zaman\" fesih imkânı verdiğini, yani altı aylık dönem sonunun beklenmesine gerek kalmadan üç aylık bildirimle çıkılabileceğini savunur. Sınavda kuralı yaz, tartışmayı kısaca belirt; sonucu kesin bir cümleyle bağlama.\n\n### Hapis hakkı ve konut ya da çatılı işyeri kirası\nTBK m. 337/2'ye göre kiraya veren üçüncü kişiye ait eşyanın hapis hakkını korumak için en yakın fesih dönemi sonu için sözleşmeyi feshetmelidir. Konut ve çatılı işyerinde kiraya verenin sebep göstermeden bildirimle fesih imkânı sınırlıdır (TBK m. 347). Bu durumda kiraya verenin fesih imkânı olmadığı için hapis hakkının sürüp sürmeyeceği mi, yoksa üçüncü kişinin mülkiyet hakkının mı üstün tutulacağı tartışmalıdır. Bu nokta kesin bilgi olarak öğrenilmemeli; olay sorusunda hapis hakkının kaybı için adi kira örneği tercih edilir.\n\n### \"Hemen yazılı\" bildirim\nTBK m. 335 bildirimin \"hemen\" ve \"yazılı\" yapılmasını ister, ama ölçü vermez. Yargıtay'ın incelediği bir olayda teslim günü tutanak ve dört gün sonra e-posta ile bildirim, makul sürede yerine getirilmiş sayılmıştır. Elektronik yazışmanın yazılı bildirim sayılması ve \"hemen\"in sınırı olayın koşullarına göre değerlendirilir.",
+  "glossary": [
+   {
+    "term": "Belirli süreli kira",
+    "definition": "Süresi açık veya örtülü biçimde belirlenmiş kira. Sürenin sonunda kendiliğinden sona erer (TBK m. 327/1)."
+   },
+   {
+    "term": "Belirsiz süreli kira",
+    "definition": "Süre belirlenmemiş ya da belirli sürenin sonunda açık anlaşma olmaksızın sürdürülen kira. Yasal dönem ve süreye uyularak feshedilir (TBK m. 327/2 ve TBK m. 328)."
+   },
+   {
+    "term": "Fesih dönemi",
+    "definition": "Feshin sonuç doğurduğu kira dönemi sonu. Hesapta kira sözleşmesinin başlangıç tarihi esas alınır (TBK m. 328)."
+   },
+   {
+    "term": "Fesih bildirim süresi",
+    "definition": "Fesih dönemi sonundan önce bildirimin yapılması gereken süre. Taşınmazda üç ay, taşınırda üç gündür (TBK m. 329 ve TBK m. 330)."
+   },
+   {
+    "term": "Olağanüstü fesih",
+    "definition": "Önemli sebep, kiracının iflası ya da ölümü gibi sebeplerle yapılan fesih (TBK m. 331-333)."
+   },
+   {
+    "term": "Çekilmezlik",
+    "definition": "Kira ilişkisinin devamının tarafın sözleşmeyle bağlı kalmasının kendisinden beklenemeyecek hâle gelmesi. Kiracı memurun başka şehre atanması örnek verilir (TBK m. 331)."
+   },
+   {
+    "term": "Olağan eskime",
+    "definition": "Sözleşmeye uygun kullanım yüzünden oluşan aşınma ve bozulma. Kiracı bundan sorumlu olmaz (TBK m. 334/1)."
+   },
+   {
+    "term": "Hor kullanma",
+    "definition": "Olağan kullanımın ve sözleşme amacının dışına çıkan, kiralananı yıpratan kötü kullanım. Tazminat yıpranma payı düşülerek hesaplanır."
+   },
+   {
+    "term": "Gözden geçirme ve bildirme külfeti",
+    "definition": "Kiraya verenin geri vermede kiralananı inceleyip eksiklikleri hemen yazılı bildirme yükü. Yerine getirilmezse kiracı kurtulur (TBK m. 335)."
+   },
+   {
+    "term": "Hapis hakkı",
+    "definition": "Taşınmaz kirasında kiraya verenin kira alacağı için kiralanandaki bazı taşınırları elinde tutma hakkı (TBK m. 336)."
+   },
+   {
+    "term": "Alt kiracı",
+    "definition": "Kiralananı asıl kiracıdan kiralayan kişi. Eşyası, asıl kiracıya olan borcu ölçüsünde hapis hakkına konu olur (TBK m. 336/2)."
+   },
+   {
+    "term": "Alıkoyma kararı",
+    "definition": "Taşınmak isteyen kiracının eşyasının sulh hâkimi veya icra müdürü kararıyla alıkonması (TBK m. 338/1)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "327",
+   "official_text": "MADDE 327- Açık veya örtülü biçimde bir süre belirlenmişse, kira sözleşmesi bu sürenin sonunda kendiliğinden sona erer.\nTaraflar, bu durumda, açık bir anlaşma olmaksızın kira ilişkisini sürdürürlerse, kira sözleşmesi belirsiz süreli sözleşmeye dönüşür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "328",
+   "official_text": "MADDE 328- Belirsiz süreli kira sözleşmelerinde taraflardan her biri, daha uzun bir fesih bildirim süresi veya başka bir fesih dönemi kararlaştırılmış olmadıkça, yasal fesih dönemlerine ve fesih bildirim sürelerine uyarak sözleşmeyi feshedebilir. Fesih dönemlerinin hesabında, kira sözleşmesinin başlangıç tarihi esas alınır.\nSözleşmede veya kanunda belirtilen fesih dönemine veya bildirim süresine uyulmamışsa, bildirim bir sonraki fesih dönemi için geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "329",
+   "official_text": "MADDE 329- Taraflardan her biri, bir taşınmaza veya taşınır bir yapıya ilişkin kira sözleşmesini yerel âdette belirlenen kira döneminin sonu için veya böyle bir âdetin bulunmaması durumunda, altı aylık kira döneminin sonu için, üç aylık fesih bildirim süresine uyarak feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "330",
+   "official_text": "MADDE 330- Taraflardan her biri, bir taşınıra ilişkin kira sözleşmesini üç gün önceden yapılacak fesih bildirim süresine uyarak her zaman feshedebilir.\nKiraya verenin meslekî faaliyeti gereği kiraya verdiği ve kiracının da özel kullanımına yarayan taşınır bir malın kiracısı, kira sözleşmesini, üç aylık kira dönemi sonu için en az bir ay önceden yapacağı bir fesih bildirimiyle sona erdirebilir. Bu durumda kiraya verenin, zararının giderilmesini isteme hakkı yoktur.\n[2] Bu madde 1/7/2012 tarihinden itibaren 8 yıl süreyle uygulanmaz. Bu halde, kira sözleşmelerinde bu maddelerde belirtilmiş olan konulara ilişkin olarak sözleşme serbestisi gereği kira sözleşmesi hükümleri tatbik olunur. Kira sözleşmelerinde hüküm olmayan hallerde mülga Borçlar Kanunu hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "331",
+   "official_text": "MADDE 331- Taraflardan her biri, kira ilişkisinin devamını kendisi için çekilmez hâle getiren önemli sebeplerin varlığı durumunda, sözleşmeyi yasal fesih bildirim süresine uyarak her zaman feshedebilir.\nHâkim, durum ve koşulları göz önünde tutarak, olağanüstü fesih bildiriminin parasal sonuçlarını karara bağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "332",
+   "official_text": "MADDE 332- Kiracı, kiralananın tesliminden sonra iflas ederse kiraya veren, işleyecek kira bedelleri için güvence verilmesini isteyebilir.\nKiraya veren, güvence verilmesi için kiracı ve iflas masasına yazılı olarak uygun bir süre verir. Bu süre içinde kendisine güvence verilmezse kiraya veren, sözleşmeyi herhangi bir fesih bildirim süresine uymaksızın hemen feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "333",
+   "official_text": "MADDE 333- Kiracının ölmesi durumunda mirasçıları, yasal fesih bildirim süresine uyarak en yakın fesih dönemi sonu için sözleşmeyi feshedebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "334",
+   "official_text": "MADDE 334- Kiracı kiralananı ne durumda teslim almışsa, kira sözleşmesinin bitiminde o durumda geri vermekle yükümlüdür. Ancak, kiracı sözleşmeye uygun kullanma dolayısıyla kiralananda meydana gelen eskimelerden ve bozulmalardan sorumlu değildir.\nKiracının, sözleşmenin sona ermesi hâlinde, sözleşmeye aykırı kullanmadan doğacak zararları giderme dışında, başkaca bir tazminat ödeyeceğini önceden taahhüt etmesine ilişkin anlaşmalar geçersizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "335",
+   "official_text": "II. Kiralananın gözden geçirilmesi ve kiracıya bildirme\nMADDE 335- Kiraya veren, geri verme sırasında kiralananın durumunu gözden geçirmek ve kiracının sorumlu olduğu eksiklikleri ve ayıpları ona hemen yazılı olarak bildirmek zorundadır. Bu bildirim yapılmazsa, kiracı her türlü sorumluluktan kurtulur. Ancak, teslim alma sırasında olağan incelemeyle belirlenemeyecek olan eksikliklerin ve ayıpların varlığı hâlinde, kiracının sorumluluğu devam eder. Kiraya veren, bu tür eksiklikleri ve ayıpları belirlediğinde, kiracıya hemen yazılı olarak bildirmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "336",
+   "official_text": "MADDE 336- Taşınmaz kiralarında kiraya veren, işlemiş bir yıllık ve işlemekte olan altı aylık kira bedelinin güvencesi olmak üzere, kiralananda bulunan ve kiralananın döşenmesine veya kullanılmasına yarayan taşınırlar üzerinde hapis hakkına sahiptir.\nKiraya verenin hapis hakkı, alt kiracının asıl kiracıya olan kira borcunu aşmamak üzere, alt kiracının kiralanana getirdiği aynı nitelikteki taşınırları da kapsar.\nHapis hakkı, kiracının haczedilemeyen malları üzerinde kullanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "337",
+   "official_text": "MADDE 337- Üçüncü kişilerin, kiraya verenin kiracıya ait olmadığını bildiği veya bilmesi gerektiği eşya ile çalınmış, kaybolmuş veya başka bir biçimde malikinin elinden iradesi dışında çıkmış eşya üzerindeki hakları, kiraya verenin hapis hakkından önce gelir.\nKiraya veren, kiracı tarafından kiralanana getirilmiş olan taşınırların kiracının mülkiyetinde olmadığını kira sözleşmesi devam ederken öğrendiği hâlde, sözleşmeyi en yakın fesih döneminin sonu için feshetmezse, bu eşya üzerindeki hapis hakkını kaybeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "338",
+   "official_text": "MADDE 338- Kiracı, taşınmak veya kiralananda bulunan taşınırları başka bir yere taşımak istediği takdirde, kiraya veren, alacağını güvence altına almasını sağlayacak miktardaki taşınırı, sulh hâkiminin veya icra müdürünün kararıyla alıkoyabilir.\nAlıkoyma kararının konusu olan eşya, gizlice veya zorla götürülürse, götürülmelerinden başlayarak on gün içinde kolluk gücünün yardımıyla kiralanana geri getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "315",
+   "official_text": "MADDE 315- Kiracı, kiralananın tesliminden sonra muaccel olan kira bedelini veya yan gideri ödeme borcunu ifa etmezse, kiraya veren kiracıya yazılı olarak bir süre verip, bu sürede de ifa etmeme durumunda, sözleşmeyi feshedeceğini bildirebilir.\nKiracıya verilecek süre en az on gün, konut ve çatılı işyeri kiralarında ise en az otuz gündür. Bu süre, kiracıya yazılı bildirimin yapıldığı tarihi izleyen günden itibaren işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "316",
+   "official_text": "MADDE 316- Kiracı, kiralananı, sözleşmeye uygun olarak özenle kullanmak ve kiralananın bulunduğu taşınmazda oturan kişiler ile komşulara gerekli saygıyı göstermekle yükümlüdür.\nKiracının bu yükümlülüğüne aykırı davranması durumunda kiraya veren, konut ve çatılı işyeri kirasında, en az otuz gün süre vererek, aykırılığın giderilmesi, aksi takdirde sözleşmeyi feshedeceği konusunda yazılı bir ihtarda bulunur. Diğer kira ilişkilerinde ise, kiraya veren, kiracıya önceden bir ihtarda bulunmaksızın, yazılı bir bildirimle sözleşmeyi hemen feshedebilir.\nKonut ve çatılı işyeri kirasında, kiracının kiralanana kasten ağır bir zarar vermesi, kiracıya verilecek sürenin yararsız olacağının anlaşılması veya kiracının bu yükümlülüğe aykırı davranışının kiraya veren veya aynı taşınmazda oturan kişiler ile komşular bakımından çekilmez olması durumlarında kiraya veren, yazılı bir bildirimle sözleşmeyi hemen feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "347",
+   "official_text": "MADDE 347- Konut ve çatılı işyeri kiralarında kiracı, belirli süreli sözleşmelerin süresinin bitiminden en az onbeş gün önce bildirimde bulunmadıkça, sözleşme aynı koşullarla bir yıl için uzatılmış sayılır. Kiraya veren, sözleşme süresinin bitimine dayanarak sözleşmeyi sona erdiremez. Ancak, on yıllık uzama süresi sonunda kiraya veren, bu süreyi izleyen her uzama yılının bitiminden en az üç ay önce bildirimde bulunmak koşuluyla, herhangi bir sebep göstermeksizin sözleşmeye son verebilir.\nBelirsiz süreli kira sözleşmelerinde, kiracı her zaman, kiraya veren ise kiranın başlangıcından on yıl geçtikten sonra, genel hükümlere göre fesih bildirimiyle sözleşmeyi sona erdirebilirler.\nGenel hükümlere göre fesih hakkının kullanılabileceği durumlarda, kiraya veren veya kiracı sözleşmeyi sona erdirebilir.\n2. Bildirimin geçerliliği",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "352",
+   "official_text": "MADDE 352- Kiracı, kiralananın teslim edilmesinden sonra, kiraya verene karşı, kiralananı belli bir tarihte boşaltmayı yazılı olarak üstlendiği hâlde boşaltmamışsa kiraya veren, kira sözleşmesini bu tarihten başlayarak bir ay içinde icraya başvurmak veya dava açmak suretiyle sona erdirebilir.\nKiracı, bir yıldan kısa süreli kira sözleşmelerinde kira süresi içinde; bir yıl ve daha uzun süreli kira sözleşmelerinde ise bir kira yılı veya bir kira yılını aşan süre içinde kira bedelini ödemediği için kendisine yazılı olarak iki haklı ihtarda bulunulmasına sebep olmuşsa kiraya veren, kira süresinin ve bir yıldan uzun süreli kiralarda ihtarların yapıldığı kira yılının bitiminden başlayarak bir ay içinde, dava yoluyla kira sözleşmesini sona erdirebilir.\nKiracının veya birlikte yaşadığı eşinin aynı ilçe veya belde belediye sınırları içinde oturmaya elverişli bir konutu bulunması durumunda kiraya veren, kira sözleşmesinin kurulması sırasında bunu bilmiyorsa, sözleşmenin bitiminden başlayarak bir ay içinde sözleşmeyi dava yoluyla sona erdirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "82",
+   "official_text": "Haczi caiz olmıyan mallar ve haklar:\nMadde 82 – (Değişik: 18/2/1965-538/46 md.)\nAşağıdaki şeyler haczolunamaz:\n1. Devlet malları ile mahsus kanunlarında haczi caiz olmadığı gösterilen mallar,\n2. (Değişik: 2/7/2012-6352/16 md.) Ekonomik faaliyeti, sermayesinden ziyade bedenî çalışmasına dayanan borçlunun mesleğini sürdürebilmesi için gerekli olan her türlü eşya,\n3. (Değişik: 2/7/2012-6352/16 md.) Para, kıymetli evrak, altın, gümüş, değerli taş, antika veya süs eşyası gibi kıymetli şeyler hariç olmak üzere, borçlu ve aynı çatı altında yaşayan aile bireylerine ait kişisel eşya ile ailenin ortak kullanımına hizmet eden tüm ev eşyası,[36]\n4. Borçlu çiftçi ise kendisinin ve ailesinin geçimi için zaruri olan arazi ve çift hayvanları ve nakil vasıtaları ve diğer eklenti ve ziraat aletleri; değilse, sanat ve mesleki için lüzumlu olan alat ve edevat ve kitapları ve arabacı, kayıkçı, hamal gibi küçük nakliye erbabının geçimlerini temin eden nakil vasıtaları,\n5. Borçlu ve ailesinin idareleri için lüzumlu ise borçlunun tercih edeceği bir süt veren mandası veya ineği veyahut üç keçi veya koyunu ve bunların üç aylık yem ve yataklıkları,\n6. Borçlunun ve ailesinin iki aylık yiyecek ve yakacakları ve borçlu çiftçi ise gelecek mahsül için lazım olan tohumluğu,\n7. Borçlu bağ, bahçe veya meyva veya sebze yetiştiricisi ise kendisinin ve ailesinin geçimi için zaruri olan bağ bahçe ve bu sanat için lüzumlu bulunan alat ve edevat,\nGeçimi hayvan yetiştirmeye münhasır olan borçlunun kendisi ve ailesinin maişetleri için zaruri olan miktarı ve bu hayvanların üç aylık yem ve yataklıkları,\n8. Borçlar Kanununun 510 uncu maddesi mucibince haczolunmamak üzere tesis edilmiş olan kaydı hayatla iratlar,\n9. Memleketin ordu ve zabıta hizmetlerinde malül olanlara bağlanan emeklilik maaşları ile bu hizmetlerden birinin ifası sebebiyle ailelerine bağlanan maaşlar ve ordunun hava ve denizaltı mensuplarına verilen uçuş ve dalış tazminat ve ikramiyeleri,\nAskeri malüllerle, şehit yetimlerine verilen terfi zammı ve 1485 numaralı kanun hükmüne göre verilen inhisar beyiye hisseleri,\n10. Bir muavenet sandığı veya cemiyeti tarafından hastalık, zaruret ve ölüm gibi hallerde bağlanan maaşlar,\n11. Vücut veya sıhhat üzerine ika edilen zararlar için tazminat olarak mutazarrırın kendisine veya ailesine toptan veya irat şeklinde verilen veya verilmesi lazım gelen paralar,\n12. (Değişik: 2/7/2012-6352/16 md.) Borçlunun haline münasip evi,\n13. (Ek: 2/7/2012-6352/16 md.) Öğrenci bursları.\nMedeni Kanunun 807 nci maddesi hükmü saklıdır. 2, 4, 5, 7 ve 12 numaralı bendlerdeki istisna, borcun bu eşya bedelinden doğmaması haline munhasırdır.[37]\n(Ek fıkra: 2/7/2012-6352/16 md.) Birinci fıkranın (2), (4), (7) ve (12) numaralı bentlerinde sayılan malların kıymetinin fazla olması durumunda, bedelinden haline münasip bir kısmı, ihtiyacını karşılayabilmesi amacıyla borçluya bırakılmak üzere haczedilerek satılır.\n(Ek fıkra: 2/7/2012-6352/16 md.) İcra memuru, haczi talep edilen mal veya hakların haczinin caiz olup olmadığını değerlendirir ve talebin kabulüne veya reddine karar verir.\n[36] 28/3/2023 tarihli ve 7445 sayılı Kanunun 2 nci maddesiyle bu bentte yer alan “bireyleri için lüzumlu eşya; aynı amaçla kullanılan eşyanın birden fazla olması durumunda bunlardan biri” ibaresi “bireylerine ait kişisel eşya ile ailenin ortak kullanımına hizmet eden tüm ev eşyası” şeklinde değiştirilmiştir.\n[37] 28/3/2023 tarihli ve 7445 sayılı Kanunun 2 nci maddesiyle bu fıkrasında yer alan “3,” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "270",
+   "official_text": "Hapis hakkı için defter yapılması:\nMadde 270 – Kiralıyan evvelce yapılması lazımgelen icrai takibi yapmadan haiz olduğu hapis hakkının muvakkaten muhafazası için icra dairesinin yardımını isteyebilir.\n(B.K. 267, 269, 281).\nTeahhurunda tehlike varsa zabıtanın yahut nahiye müdürünün de yardımı istenebilir.\nİcra dairesi üzerlerinde hapis hakkı bulunan eşyanın bir defterini yapar ve rehinleri paraya çevirme yoliyle takip talebinde bulunması için kiralıyana on beş günü geçmemek üzere münasip bir mühlet verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "271",
+   "official_text": "Kaçırılan eşyayı takip hakkı:\nMadde 271 – (Değişik: 18/2/1965-538/111 md.)\nGizlice veya cebirle götürülmüş eşya, götürülmelerinden on gün içinde icra dairesinin emri ile ve zabıta kuvvetiyle geri alınabilir. İyi niyet sahibi üçüncü şahısların hakları saklıdır.\nİhtilaf halinde mahkeme basit yargılama usulü ile meseleyi halleder ve karara bağlar.\nMukavelename ile kiralanan taşınmazların tahliyesi:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "6. Hukuk Dairesi",
+   "esas_no": "2015/7331",
+   "karar_no": "2015/9163",
+   "decision_date": "",
+   "summary_md": "Kiraya veren, 9 Temmuz 2012 başlangıçlı bir yıllık konut kirasında kiracının kirayı ödemeyi geciktirdiğini, ödeme için takip başlattığını, kira takipten sonra ödenmiş olsa da site aidatı için de takip yapıldığını ve sürenin dolmasına rağmen kiracının tahliye etmediğini ileri sürerek kira ilişkisinin kendisi için çekilmez olduğu gerekçesiyle TBK m. 331'e dayanarak tahliye davası açmıştır. İlk derece mahkemesi davayı temerrüt nedeniyle tahliye olarak niteleyip kabul etmiştir. Yargıtay 6. Hukuk Dairesi oybirliğiyle bozmuştur. Gerekçeye göre TBK m. 331 belirli ya da belirsiz süreli her kirada, konut ve çatılı işyeri dahil kullanılabilen genel bir olağanüstü fesih hakkıdır; geçerli sözleşme, devamını beklenemez kılan haklı sebep ve yasal bildirim süresine uyma aranır. Ancak kira ve yan gider ödememe TBK m. 315'te, iki haklı ihtarla fesih TBK m. 352/2'de özel olarak düzenlendiğinden, bunlara dayanılmayan davada TBK m. 331 sebebiyle dava reddedilmeliydi. Konuya katkısı: TBK m. 331'in kapsamını ve ödememe hâllerinde özel yolların önceliğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=148723500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2020/361",
+   "karar_no": "2022/787",
+   "decision_date": "31.05.2022",
+   "summary_md": "Davacılar, murislerine ait apartmanı 1987'den beri kiralayan ve 30 Nisan 2013'te tahliye eden kiracıdan, binanın hor kullanılması nedeniyle tazminat istemiştir. Teslim tutanağında hak saklı tutulmuş, davacılar tahliyeden iki gün sonra delil tespiti istemiştir. Tespit raporu bedeli 47.369,88 TL bulmuş, sonradan yapılan keşifte alınan raporlar ise yıpranmaları kullanım süresinin uzunluğuna bağlamıştır. İlk derece mahkemesi önce davayı reddetmiş, Yargıtay bozunca tespit raporunu esas alıp tazminata hükmetmiş, Özel Daire yeniden bozunca direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Gerekçeye göre kiracı teslim aldığı durumda geri verir ama sözleşmeye uygun kullanım eskimelerinden sorumlu değildir (TBK m. 334); bina komple yenilendiği için yeniden keşfin anlamı kalmamıştır, ancak tespit raporundaki hasarlardan hangilerinin olağan dışı, hor kullanıma bağlı olduğu bilirkişi incelemesiyle ayrılmalı ve yıpranma payı gözetilmelidir. Konuya katkısı: olağan eskime ile hor kullanma ayrımını ve yıpranma payı ilkesini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=794375900",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Belirli süreli bir arsa kirasında süre dolmuş, taraflar açık bir anlaşma yapmadan kirayı ödemeye ve almaya devam etmiştir. Sözleşmenin durumu nedir?",
+   "options": [
+    "Aynı koşullarla bir yıl için uzamış sayılır",
+    "Sürenin dolmasıyla sona ermiştir, kiracı haksız işgalcidir",
+    "Belirsiz süreli sözleşmeye dönüşmüştür",
+    "Kiraya veren on yıl geçmeden sözleşmeyi sona erdiremez"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Açık veya örtülü biçimde belirlenen süre dolunca kira sona erer; taraflar açık anlaşma olmaksızın ilişkiyi sürdürürse sözleşme belirsiz süreliye dönüşür (TBK m. 327). Bir yıl uzama ve on yıl kuralı konut ve çatılı işyerine özgüdür (TBK m. 347); çatısız arsa kirasında uygulanmaz."
+  },
+  {
+   "stem_md": "Mehmet, 1 Mart başlangıçlı belirsiz süreli bir depo sahası kirasını (çatısız taşınmaz, yerel âdet yok) 10 Haziran'da fesih bildirimiyle sona erdirmek istemektedir. Dönemler 1 Eylül ve 1 Mart'ta biter. Bildirimin sonucu nedir?",
+   "options": [
+    "Bildirim bir sonraki fesih dönemi için geçerli olur; kira o dönem sonunda sona erer",
+    "Süreye uyulmadığı için bildirim tümüyle geçersizdir ve yenilenmesi gerekir",
+    "Kira derhâl sona erer",
+    "Kira 10 Eylül'de sona erer"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Altı aylık dönem sonu için üç ay önceden bildirim gerekir (TBK m. 329). 10 Haziran'dan itibaren üç ay 1 Eylül'den sonra bittiği için bu dönem kaçırılmıştır. Kanun, sözleşmede veya kanunda belirtilen dönem ya da süreye uyulmamışsa bildirimin bir sonraki fesih dönemi için geçerli olacağını söyler (TBK m. 328/2). Dönemler sözleşmenin başlangıç tarihinden hesaplanır (TBK m. 328/1)."
+  },
+  {
+   "stem_md": "Cem, bir kiralama şirketinden evinde kullanmak üzere belirsiz süreli bir piyano kiralamıştır. Şirketin işi meslekî olarak enstrüman kiralamaktır. Cem sözleşmeyi nasıl sona erdirebilir?",
+   "options": [
+    "Yalnız mahkeme kararıyla",
+    "Üç aylık kira dönemi sonu için en az bir ay önceden bildirimle; şirket zararının giderilmesini isteyemez",
+    "Altı aylık dönem sonu için üç ay önceden bildirimle ve şirket zararını isteyebilir",
+    "Hiçbir zaman, sözleşme sürenin sonuna kadar bağlayıcıdır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kiraya verenin meslekî faaliyeti gereği kiraya verdiği ve kiracının özel kullanımına yarayan taşınırın kiracısı, üç aylık kira dönemi sonu için en az bir ay önceden yapacağı bildirimle sözleşmeyi bitirebilir; kiraya verenin zararını isteme hakkı yoktur (TBK m. 330/2). Altı ay ve üç ay kuralı taşınmaza ilişkindir (TBK m. 329)."
+  },
+  {
+   "stem_md": "TBK m. 331'e göre kira ilişkisinin devamını çekilmez hâle getiren önemli sebep varsa taraflar sözleşmeyi nasıl feshedebilir?",
+   "options": [
+    "Bildirim süresine uymadan hemen",
+    "Yalnız belirli süreli kirada ve süre bitiminde",
+    "Yalnız fesih dönemi sonunda ve hâkim kararıyla",
+    "Yasal fesih bildirim süresine uyarak her zaman"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Önemli sebep varsa taraflardan her biri sözleşmeyi yasal fesih bildirim süresine uyarak her zaman feshedebilir (TBK m. 331/1). Dönem sonu beklenmez ama bildirim süresi kısaltılmaz. Hemen fesih, kiracının iflasında güvence verilmemesi gibi ayrı bir sebebe bağlıdır (TBK m. 332)."
+  },
+  {
+   "stem_md": "Kiraya veren, konut kiracısının kira ve site aidatını düzenli ödemediğini, bu yüzden kira ilişkisinin kendisi için çekilmez olduğunu ileri sürerek yalnız TBK m. 331'e dayanarak tahliye davası açmıştır. Yargıtay'ın yaklaşımına göre sonuç ne olmalıdır?",
+   "options": [
+    "Dava reddedilmelidir; ödememe için TBK m. 315 ve TBK m. 352/2 gibi özel yollar vardır",
+    "Dava kabul edilmelidir, çünkü ödeme süresi verilmesi gerekmez",
+    "Dava, konutta TBK m. 331 uygulanmadığı için reddedilmelidir",
+    "Dava kabul edilmelidir, çünkü ödememe her zaman çekilmezlik sebebidir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 331 konut dahil her kirada kullanılabilir; ama kira ve yan giderin ödenmemesi TBK m. 315'te, iki haklı ihtar TBK m. 352/2'de özel olarak düzenlenmiştir. Yargıtay'a göre bunlara dayanılmadan yalnız TBK m. 331 ile açılan dava reddedilmelidir."
+  },
+  {
+   "stem_md": "Bir şirket, ofis kiracısı olarak kiralananı teslim aldıktan dört ay sonra iflas etmiştir. Kiraya veren ne yapabilir?",
+   "options": [
+    "Kira iflasla kendiliğinden sona erer",
+    "İşleyecek kira bedelleri için kiracıya ve iflas masasına yazılı süre verip güvence ister; verilmezse bildirim süresi beklemeden hemen feshedebilir",
+    "Yalnız hâkimden fesih isteyebilir",
+    "Geçmiş kira borçları için güvence ister, verilmezse üç ay sonra fesheder"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kiracı tesliminden sonra iflas ederse kiraya veren işleyecek kira bedelleri için güvence isteyebilir. Kiracıya ve iflas masasına yazılı uygun süre verir; güvence gelmezse herhangi bir bildirim süresine uymadan hemen feshedebilir (TBK m. 332). İflas kira ilişkisini kendiliğinden bitirmez; güvence geçmiş borç için değil işleyecek kiralar içindir."
+  },
+  {
+   "stem_md": "Taşınmaz kiracısı Ali vefat etmiştir. Kiraya veren Veli \"ölümle sözleşme bitti\" demekte, mirasçı Ayşe ise sözleşmeden çıkmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Veli, ölüm sebebiyle TBK m. 333 uyarınca hemen fesih hakkına sahiptir",
+    "Ayşe sözleşmeyi hemen ve bildirim süresine uymadan feshedebilir",
+    "Ayşe yasal fesih bildirim süresine uyarak en yakın fesih dönemi sonu için sözleşmeyi feshedebilir",
+    "Sözleşme mirasçılar bakımından on yıl sürer"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kiracının ölümünde fesih hakkı mirasçılarındır; yasal bildirim süresine uyarak en yakın fesih dönemi sonu için kullanılır (TBK m. 333). Madde kiraya verene ölüm sebebiyle fesih hakkı tanımaz ve bildirim süresini ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "Elif, anahtarı teslim alırken salon kapısındaki cam kırığını görmüş ama bir şey söylememiştir. İki ay sonra kiracıya yazılı ihtar çekerek onarım bedelini istemiştir. Elif'in talebi hakkında hangisi doğrudur?",
+   "options": [
+    "Yalnız hasar bedelinin yarısını isteyebilir",
+    "Elif haklıdır, çünkü zarar tazmin süresi iki yıldır",
+    "Elif haklıdır, çünkü hasar bilirkişi tarafından kanıtlanabilir",
+    "Eksikliği hemen yazılı bildirmediği için kiracı sorumluluktan kurtulmuştur"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kiraya veren, geri verme sırasında kiralananı gözden geçirmek ve kiracının sorumlu olduğu eksiklikleri hemen yazılı bildirmek zorundadır; bildirmezse kiracı her türlü sorumluluktan kurtulur (TBK m. 335). Kırık cam olağan incelemeyle görülebilen açık bir eksikliktir; saklı tutulan hâl yalnız olağan incelemeyle belirlenemeyen eksikliklerdir."
+  },
+  {
+   "stem_md": "Kiraya verenin TBK m. 336 uyarınca hapis hakkıyla güvence altına aldığı kira alacağı ve kira türü aşağıdakilerden hangisinde doğru verilmiştir?",
+   "options": [
+    "Taşınmaz kiralarında, yalnız son iki aylık kira bedeli",
+    "Her kirada, işlemiş altı aylık kira bedeli",
+    "Taşınmaz kiralarında, işlemiş bir yıllık ve işlemekte olan altı aylık kira bedeli",
+    "Taşınır kiralarında, bütün birikmiş kira borcu"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Taşınmaz kiralarında kiraya veren, işlemiş bir yıllık ve işlemekte olan altı aylık kira bedelinin güvencesi olmak üzere kiralananda bulunan, döşenmesine veya kullanılmasına yarayan taşınırlar üzerinde hapis hakkına sahiptir (TBK m. 336/1). Hak taşınır kiralarına tanınmamıştır ve bütün birikmiş borcu kapsamaz."
+  },
+  {
+   "stem_md": "Asıl kiracının kiraya verene kira borcu 100.000 TL, alt kiracının asıl kiracıya kira borcu ise 20.000 TL'dir. Kiraya veren alt kiracının kiralanana getirdiği aynı nitelikteki taşınırlar üzerinde hapis hakkını nasıl kullanabilir?",
+   "options": [
+    "En çok alt kiracının asıl kiracıya olan borcu olan 20.000 TL için kullanabilir",
+    "Yalnız asıl kiracının eşyası bittiğinde ve 50.000 TL için kullanabilir",
+    "Hiç kullanamaz, alt kiracının eşyası hapis hakkı dışındadır",
+    "100.000 TL'nin tamamı için kullanabilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hapis hakkı, alt kiracının asıl kiracıya olan kira borcunu aşmamak üzere, alt kiracının kiralanana getirdiği aynı nitelikteki taşınırları da kapsar (TBK m. 336/2). Bu nedenle üst sınır alt kiracının borcudur; asıl kiracının borcunun tamamı alt kiracının eşyasına yüklenemez."
+  },
+  {
+   "stem_md": "Kiracı, kiralanana çalıntı bir profesyonel kahve makinesi getirmiş, kiraya veren bunun çalıntı olduğunu bilmemektedir. Kiraya verenin hapis hakkı ile makinenin gerçek maliki arasındaki ilişki nasıldır?",
+   "options": [
+    "Hapis hakkı ile malikin hakkı eşit sırada paylaşılır",
+    "Malikin hakkı kiraya verenin hapis hakkından önce gelir",
+    "Kiraya veren iyiniyetli olduğu için hapis hakkı malikin hakkından önce gelir",
+    "Hapis hakkı ancak kiraya veren makineyi satın alırsa doğar"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Üçüncü kişilerin çalınmış, kaybolmuş veya başka bir biçimde malikinin elinden iradesi dışında çıkmış eşya üzerindeki hakları kiraya verenin hapis hakkından önce gelir (TBK m. 337/1). Kiraya verenin durumu bilmemesi bu sonucu değiştirmez."
+  },
+  {
+   "stem_md": "Kiraya veren, alacağını güvence altına alacak miktardaki eşyayı sulh hâkimi kararıyla alıkoydurmuştur. Kiracı eşyayı bir gece gizlice götürmüş, kiraya veren durumu dört gün sonra fark etmiştir. Eşyanın geri getirilmesi bakımından hangisi doğrudur?",
+   "options": [
+    "Eşya götürülmelerinden başlayarak on gün içinde kolluk gücünün yardımıyla kiralanana geri getirilir",
+    "Gizlice götürülen eşyanın geri getirilmesi artık mümkün değildir",
+    "Eşya yalnız mahkemenin kesin hükmünden sonra geri getirilebilir",
+    "Eşya, kiraya verenin durumu öğrendiği tarihten başlayarak otuz gün içinde geri getirilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Alıkoyma kararının konusu eşya gizlice veya zorla götürülürse, götürülmelerinden başlayarak on gün içinde kolluk gücünün yardımıyla kiralanana geri getirilir (TBK m. 338/2). Süre fark etme tarihinden değil götürülme tarihinden işler; bu olayda dört gün geçmiş, altı gün kalmıştır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ayşe, Pendik'teki üstü tamamen açık boş arsasını açık otopark olarak işletilmek üzere 1 Mart 2023 başlangıçlı ve bir yıl süreli yazılı sözleşmeyle Mehmet Ltd. Şti.'ne kiralamıştır. Bir yıl dolduğunda yeni bir sözleşme yapılmamış, Mehmet Ltd. kirayı ödemeye, Ayşe de almaya aynı biçimde devam etmiştir. Yerel âdet bulunmamaktadır ve sözleşmede fesih dönemine ilişkin ayrı bir kayıt yoktur.\n\nAyşe arsayı kendisi değerlendirmek istediğinden 20 Ekim 2024'te noter aracılığıyla ihtarname göndererek sözleşmeyi feshettiğini bildirmiş ve arsanın boşaltılmasını istemiştir. Mehmet Ltd. şunları savunmaktadır: Kira, konut ve çatılı işyeri kiraları gibi her yıl bir yıl uzamış sayılır ve Ayşe sözleşmeyi ancak on yıl sonra sona erdirebilir; ayrıca Ayşe'nin ihtarı süresine uyulmadığı için tümüyle geçersizdir.\n\n1. Kiranın 1 Mart 2024'ten sonraki hukuki durumu nedir? Mehmet Ltd.'nin birinci savunması yerinde midir?\n2. Fesih dönemleri nasıl hesaplanır? Ayşe'nin 20 Ekim 2024 tarihli bildirimi kira ilişkisini ne zaman sona erdirir? İkinci savunmayı değerlendiriniz.\n3. Ayşe aynı bildirimi 20 Aralık 2024'te yapmış olsaydı sonuç ne olurdu?",
+   "rubric": [
+    {
+     "point": "Çatısız arsa kirasının konut ve çatılı işyeri hükümlerine değil genel hükümlere tabi olması; bir yıl uzama ve on yıl kuralının uygulanmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 347"
+    },
+    {
+     "point": "Sürenin sonunda açık anlaşma olmaksızın ilişkinin sürdürülmesiyle sözleşmenin belirsiz süreliye dönüşmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 327"
+    },
+    {
+     "point": "Fesih dönemlerinin kira sözleşmesinin başlangıç tarihine göre (1 Mart ve 1 Eylül) hesaplanması",
+     "weight": 15,
+     "madde_ref": "TBK m. 328"
+    },
+    {
+     "point": "Taşınmazda altı aylık dönem sonu için üç ay önceden bildirim kuralı",
+     "weight": 15,
+     "madde_ref": "TBK m. 329"
+    },
+    {
+     "point": "20 Ekim 2024 bildiriminin süresine uygun olması ve kiranın 1 Mart 2025'te sona ermesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 329"
+    },
+    {
+     "point": "Süreye uyulmayan bildirimin geçersiz olmayıp bir sonraki dönem (1 Eylül 2025) için geçerli olması",
+     "weight": 25,
+     "madde_ref": "TBK m. 328"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ayşe ile Mehmet Ltd. arasında çatısız bir taşınmazın (açık otopark arsası) kirası vardır. Kira, konut ve çatılı işyeri kiralarına özgü özel hükümlere değil, kira hukukunun genel hükümlerine tabidir. Yargıtay'a göre özel hükümlerin uygulanması için kiralananın üstünün örtülü olması gerekir.\n\n**Hukuki sorunlar:** (1) Süre bitiminden sonra kiranın durumu; (2) uygulanacak fesih dönemi ve bildirim süresi; (3) geç bildirimin sonucu.\n\n**İlgili hükümler:** TBK m. 327; TBK m. 328; TBK m. 329; TBK m. 347.\n\n**Değerlendirme:**\n\n*1. Kiranın durumu:* Açık veya örtülü biçimde süre belirlenmişse kira sürenin sonunda kendiliğinden sona erer; taraflar açık bir anlaşma olmaksızın ilişkiyi sürdürürse sözleşme belirsiz süreliye dönüşür (TBK m. 327). 1 Mart 2024'te süre dolmuş, taraflar ilişkiyi sürdürmüştür; kira belirsiz süreli hâle gelmiştir. Mehmet Ltd.'nin bir yıl uzama ve on yıl savunması TBK m. 347/1'e dayanır; bu hüküm konut ve çatılı işyeri kiralarına özgüdür. Kiralanan üstü açık arsa olduğundan hüküm uygulanmaz ve savunma yerinde değildir.\n\n*2. Fesih dönemi ve bildirim:* Belirsiz süreli kirada fesih dönemlerinin hesabında kira sözleşmesinin başlangıç tarihi esas alınır (TBK m. 328/1). Yerel âdet bulunmadığından taşınmaz kirası altı aylık dönem sonu için üç aylık bildirimle feshedilebilir (TBK m. 329). Sözleşme 1 Mart 2023'te başladığı için dönemler 1 Mart ve 1 Eylül'de sona erer. Ayşe'nin 20 Ekim 2024 tarihli bildirimi, üç aylık süre hesaplandığında 1 Mart 2025 dönem sonuna yetişmektedir (en geç 1 Aralık 2024'te yapılması yeterliydi). Bildirim süresine uyulmuştur ve kira 1 Mart 2025'te sona erer. Mehmet Ltd.'nin ikinci savunması yerinde değildir.\n\n*3. Geç bildirim:* Bildirim 20 Aralık 2024'te yapılsaydı 1 Mart 2025 dönem sonu için süre yetmezdi. Kanun, dönem veya süreye uyulmayan bildirimin geçersiz olmayacağını, bir sonraki fesih dönemi için geçerli olacağını söyler (TBK m. 328/2). Bu durumda kira bir sonraki dönem sonu olan 1 Eylül 2025'te sona ererdi.\n\n**Sonuç:**\n- Kira çatısız arsa kirası olduğundan genel hükümlere tabidir; süre dolduktan sonra belirsiz süreliye dönüşmüştür.\n- 20 Ekim 2024 tarihli bildirim süresine uygundur; kira 1 Mart 2025'te sona erer.\n- Bildirim 20 Aralık 2024'te yapılsaydı geçersiz olmaz, 1 Eylül 2025 için geçerli olurdu."
+  },
+  {
+   "stem_md": "Kerem, Elif'e ait üç odalı daireyi 1 Eylül 2015'te kiralamış, dokuz yıl oturduktan sonra 31 Ağustos 2024'te tahliye ederek anahtarları Elif'e bizzat teslim etmiştir. Sözleşmede \"Kiracı, tahliyede dairenin boyanması ve zeminin yenilenmesi için, kullanım durumuna bakılmaksızın 40.000 TL ödeyecektir\" hükmü vardır.\n\nAnahtar tesliminde Elif daireyi dolaşmış, salon kapısındaki camın kırık olduğunu ve mutfak tezgâhında geniş bir yanık izi bulunduğunu görmüş, ancak bir şey söylememiştir. 10 Eylül 2024'te yatak odasındaki sabit gardırobu söktürdüğünde, arkasında kalan duvar bölümünde Kerem'in açtığı çok sayıda matkap deliği ve dökülmüş sıva bulmuş ve aynı gün Kerem'e noter aracılığıyla yazılı bildirimde bulunmuştur.\n\nElif 15 Kasım 2024'te Kerem'e ihtar göndererek şunları istemiştir: (a) sözleşmedeki 40.000 TL; (b) dokuz yıllık kullanımla solmuş boya ve aşınmış parke için 25.000 TL; (c) kırık cam ve yanık tezgâh için 12.000 TL; (d) duvardaki delikler ve sıva için, yeni malzemeyle hesaplanan 18.000 TL. Bilirkişi, delikleri hor kullanma olarak nitelemiştir.\n\n1. Elif'in (a), (b), (c) ve (d) taleplerini ayrı ayrı değerlendiriniz.\n2. (d) bakımından Kerem'in ödeyeceği tutar nasıl belirlenir?",
+   "rubric": [
+    {
+     "point": "Kiralananı geri verme borcunun kapsamı; sona ermede başkaca tazminat ödeneceğine dair önceden verilen taahhüdün geçersizliği (40.000 TL)",
+     "weight": 20,
+     "madde_ref": "TBK m. 334"
+    },
+    {
+     "point": "Sözleşmeye uygun kullanımdan doğan eskime ve bozulmalardan (boya, parke) kiracının sorumlu olmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 334"
+    },
+    {
+     "point": "Kırık cam ve yanık tezgâhın olağan incelemeyle görülebilen açık eksiklik olması ve hemen yazılı bildirilmediği için kiracının kurtulması",
+     "weight": 25,
+     "madde_ref": "TBK m. 335"
+    },
+    {
+     "point": "Gardırop arkasındaki hasarın olağan incelemeyle belirlenememesi, kiracının sorumluluğunun sürmesi ve kiraya verenin belirlediği gün yazılı bildirmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 335"
+    },
+    {
+     "point": "Hor kullanma bedelinde kullanım süresiyle orantılı yıpranma payının düşülmesi ve olağan/hor kullanma ayrımı",
+     "weight": 20,
+     "madde_ref": "TBK m. 334"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kira sözleşmesi sona ermiş, kiracı kiralananı geri vermiştir. Uyuşmazlık, kiracının geri verme borcunun kapsamı ile kiraya verenin gözden geçirme ve bildirme külfetidir. Bu kurallar taşınmaz kiralarında konut dahil uygulanır.\n\n**Hukuki sorunlar:** (1) Önceden kararlaştırılan götürü bedelin geçerliliği; (2) olağan eskimeden sorumluluk; (3) açık ve gizli eksikliklerde bildirim külfeti; (4) hor kullanma bedelinin hesabı.\n\n**İlgili hükümler:** TBK m. 334; TBK m. 335.\n\n**Değerlendirme:**\n\n*(a) 40.000 TL:* Kiracı, sözleşmenin sona ermesinde sözleşmeye aykırı kullanımdan doğan zararları gidermenin dışında başkaca bir tazminat ödeyeceğini önceden taahhüt etmişse bu anlaşma geçersizdir (TBK m. 334/2). Kayıt, hasar olup olmadığına bakmaksızın bedel öngördüğünden geçersizdir ve Elif bu bedeli isteyemez.\n\n*(b) Boya ve parke:* Kiracı teslim aldığı durumda geri verir, ama sözleşmeye uygun kullanım yüzünden oluşan eskimeden ve bozulmadan sorumlu değildir (TBK m. 334/1). Dokuz yıllık oturmada boyanın solması ve parkenin aşınması olağan eskimedir; talep yerinde değildir.\n\n*(c) Cam ve tezgâh:* Kiraya veren geri verme sırasında kiralananı gözden geçirmek ve kiracının sorumlu olduğu eksiklikleri hemen yazılı bildirmek zorundadır; bildirim yapılmazsa kiracı her türlü sorumluluktan kurtulur (TBK m. 335). Kırık cam ve yanık tezgâh anahtar tesliminde Elif'in gördüğü, olağan incelemeyle belirlenebilen eksikliklerdir. Elif yazılı bildirimi iki buçuk ay sonra yapmıştır; hemen yapılmadığından Kerem bu kalemler bakımından sorumluluktan kurtulmuştur.\n\n*(d) Duvar delikleri:* Olağan incelemeyle belirlenemeyecek eksikliklerde kiracının sorumluluğu devam eder; kiraya veren bunları belirlediğinde kiracıya hemen yazılı bildirmelidir (TBK m. 335). Delikler sabit gardırobun arkasındaydı ve gardırop sökülmeden görülemezdi. Elif bunları bulduğu gün yazılı bildirim yapmıştır; Kerem sorumludur. Delikler sözleşmeye aykırı kullanma, yani hor kullanmadır (TBK m. 334/1).\n\n*Tutarın belirlenmesi:* Yargıtay'a göre hor kullanmaya konu hasarlar bilirkişiyle olağan kullanımdan ayrılır ve teslim tarihi itibarıyla değerlendirilir; yeni malzemeyle hesaplanan onarım bedelinden kullanma süresiyle orantılı yıpranma payı düşülür. Bu nedenle Kerem 18.000 TL'nin tamamını değil, yıpranma payı düşülmüş tutarı öder.\n\n**Sonuç:**\n- 40.000 TL'lik götürü bedel kaydı geçersizdir.\n- Boya ve parke olağan eskimedir; Kerem sorumlu değildir.\n- Cam ve tezgâh bakımından hemen yazılı bildirim yapılmadığı için Kerem sorumlu değildir.\n- Duvar hasarından Kerem sorumludur; tutar yıpranma payı düşülerek belirlenir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Belirli süreli adi kira süre bitince ne olur? (TBK m. 327)",
+   "back_md": "Kendiliğinden sona erer. Taraflar açık anlaşma olmadan ilişkiyi sürdürürse belirsiz süreliye dönüşür."
+  },
+  {
+   "front_md": "Konut ve çatılı işyerinde süre bitiminin sonucu nedir? (TBK m. 347/1)",
+   "back_md": "Sözleşme belirsiz süreliye dönüşmez; kiracı onbeş gün önce bildirmedikçe aynı koşullarla bir yıl uzamış sayılır."
+  },
+  {
+   "front_md": "Fesih dönemleri hangi tarihe göre hesaplanır? (TBK m. 328)",
+   "back_md": "Kira sözleşmesinin başlangıç tarihine göre. Dönem ya da süreye uyulmayan bildirim bir sonraki fesih dönemi için geçerli olur."
+  },
+  {
+   "front_md": "Taşınmaz kirasında olağan fesih süresi? (TBK m. 329)",
+   "back_md": "Yerel âdet yoksa altı aylık kira dönemi sonu için üç ay önceden bildirim."
+  },
+  {
+   "front_md": "Taşınır kirasında fesih? (TBK m. 330/1)",
+   "back_md": "Üç gün önceden bildirimle her zaman."
+  },
+  {
+   "front_md": "Meslekî kiraya verenin özel kullanım taşınırında kiracının imkânı? (TBK m. 330/2)",
+   "back_md": "Üç aylık dönem sonu için en az bir ay önceden bildirim; kiraya veren zararını isteyemez."
+  },
+  {
+   "front_md": "TBK m. 331 nasıl kullanılır?",
+   "back_md": "Çekilmez önemli sebep varsa yasal bildirim süresine uyarak her zaman fesih. Dönem sonu beklenmez; parasal sonuçlara hâkim karar verir."
+  },
+  {
+   "front_md": "Kiracının iflasında kiraya verenin hakkı? (TBK m. 332)",
+   "back_md": "Tesliminden sonra iflasta işleyecek kiralar için güvence ister; yazılı verilen sürede gelmezse hemen feshedebilir."
+  },
+  {
+   "front_md": "Kiracının ölümünde fesih kimin? (TBK m. 333)",
+   "back_md": "Yalnız mirasçıların: yasal süreyle, en yakın fesih dönemi sonu için. Kiraya verenin hakkı yoktur."
+  },
+  {
+   "front_md": "Kiracı hangi eskimelerden sorumlu değildir? Önceden tazminat taahhüdü? (TBK m. 334)",
+   "back_md": "Sözleşmeye uygun kullanımdan doğan eskime ve bozulmadan. Sona ermede başkaca tazminat taahhüdü geçersizdir."
+  },
+  {
+   "front_md": "Kiraya verenin geri vermede külfeti ve sonucu? (TBK m. 335)",
+   "back_md": "Gözden geçirip eksiklikleri hemen yazılı bildirmek. Bildirmezse kiracı kurtulur; olağan incelemeyle anlaşılamayanlar saklıdır."
+  },
+  {
+   "front_md": "Hapis hakkı: kim, ne için, hangi eşya? (TBK m. 336-338)",
+   "back_md": "Taşınmaz kirasında kiraya veren; işlemiş bir yıllık ve işlemekte olan altı aylık kira için; döşeme ve kullanıma yarayan taşınırlar. Haczedilemeyen mallar hariç. Çalıntıda malik önce gelir; götürülen eşya on gün içinde geri getirilir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

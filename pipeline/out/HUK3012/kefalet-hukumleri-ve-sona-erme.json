@@ -1,0 +1,479 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 8,
+ "unit_title": "Ünite 8: Kefalet ve Diğer Sözleşmeler",
+ "topic_index": 2,
+ "slug": "kefalet-hukumleri-ve-sona-erme",
+ "title": "Kefalet II: Kefilin Sorumluluğu, Takibi ve Def'ileri, Rücu, Sona Erme",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T10:57:55.430126+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/kefalet-gecerlilik-ve-sona-erme"
+ ],
+ "content": {
+  "summary_md": "Kefalet kurulduktan sonra üç soru sorulur: kefil alacaklıya karşı **ne kadar ve nasıl** sorumlu, ödediğinde **borçluya nasıl döner**, kefalet **ne zaman biter**.\n\n- **Üst sınır (TBK m. 589/1):** Kefil her durumda sözleşmede yazılı azamî miktara kadar sorumludur. Aksi kararlaştırılmadıkça bu sınırın içinde asıl borç, borçlunun kusur ve temerrüdünün sonuçları, zamanında bildirilmiş takip masrafları ve işlemiş bir yıllık ile işlemekte olan yıla ait akdî faizler yer alır.\n- **Sonraki borçlar ve ceza koşulu (TBK m. 589):** Açıkça kararlaştırılmadıkça yalnız kefaletten **sonra** doğan borçlardan sorumlu olunur; hükümsüzlük zararı ve **ceza koşulu** sorumluluğu anlaşmaları kesin hükümsüzdür.\n- **Takip (TBK m. 590):** Borçlu iflas etse bile belirlenen vadeden önce kefile karşı takip yapılamaz. İhbarla muaccel olan borçta süre ihbarın **kefile yapıldığı tarihten** işler.\n- **Def'iler (TBK m. 591):** Kefil asıl borçlunun def'ilerini ileri sürmeye hakkı olduğu gibi **zorunludur**. Borçlu def'iden vazgeçse bile kefil ileri sürebilir. Kumar ve bahis borcunda kefil bilerek kefil olsa da def'i ileri sürer.\n- **Alacaklının yükümleri (TBK m. 592-594):** Güvenceleri korumak, belge ve rehinleri teslim etmek, haklı sebep olmadan ödemeyi reddetmemek, altı aylık gecikmeyi ve iflası bildirmek. İhlalde kefil kurtulur ya da zararı oranında sorumluluktan çıkar.\n- **Rücu (TBK m. 595-597):** Kefil ödediği ölçüde alacaklının haklarına **kanunen halef** olur; rücu zamanaşımı **ifa anında** başlar. Ödemeyi borçluya bildirmeyen kefil, borçlu bilmeden ikinci kez öderse rücu hakkını kaybeder.\n- **Sona erme (TBK m. 598-602):** Asıl borç bitince kefil kurtulur. **Gerçek kişi** kefaleti kuruluşundan 10 yıl sonra kendiliğinden biter; süre ancak bitişten **en erken bir yıl önce**, kefaletin şekline uygun yazılı açıklamayla azamî 10 yıl uzatılabilir. Gelecekteki borçta dönme (TBK m. 599), süreli kefalet (TBK m. 600), süresiz kefalet (TBK m. 601) ve çalışanlara kefalet (TBK m. 602) ayrı kurallara bağlıdır.",
+  "content_md": "## 1. Haritayı çiz: üç ilişki ve bir ilke\n\nKonu 28'de kefaletin nasıl kurulduğunu gördün. Burada kurulmuş bir kefaletin **sonuçlarını** çalışıyoruz. Üç ayrı ilişki var:\n\n1. **Kefil ile alacaklı** (TBK m. 589-594): Kefil ne kadar sorumlu, nasıl takip edilir, hangi savunmaları kullanır, alacaklının kefile karşı yükümleri neler?\n2. **Kefil ile asıl borçlu** (TBK m. 595-597): Kefil ödeyince borçluya nasıl döner?\n3. **Sona erme** (TBK m. 598-602): Kefalet hangi hâllerde biter?\n\nHepsinin üstünde **fer'ilik** ilkesi durur. TBK m. 598/1'e göre hangi sebeple olursa olsun asıl borç sona erince kefil de borcundan kurtulur. Kefalet asıl borcun gölgesidir; borç yoksa kefalet de yoktur.\n\n## 2. Kefilin sorumluluğunun kapsamı (TBK m. 589)\n\nTBK m. 589/1: kefil \"her durumda\" kefalet sözleşmesinde belirtilen **azamî miktara** kadar sorumludur. Bu miktar, TBK m. 583 gereği kefilin kendi el yazısıyla yazdığı limittir. Aksi kararlaştırılmamışsa bu limitin **içinde** şunlar yer alır:\n\n| Kalem | Dayanak | Dikkat |\n|---|---|---|\n| Asıl borç ve borçlunun kusur/temerrüt sonuçları | TBK m. 589/2 (1. bent) | Borçlunun temerrüt faizi dahil |\n| Takip ve dava masrafları | TBK m. 589/2 (2. bent) | Kefile **önceden uygun zamanda** bildirilmiş olmalı |\n| İşlemiş 1 yıllık ve işlemekte olan yıla ait akdî faiz | TBK m. 589/2 (3. bent) | Daha eski faizler kapsam dışı |\n\n> **Örnek:** Ayşe, Mehmet'in bankaya olan kredisine **400.000 TL** limitle kefil olmuştur. Anapara 350.000 TL, işleyen faiz ve masraflarla toplam alacak 480.000 TL'ye çıkmıştır. Ayşe, limit aşıldığı için en fazla 400.000 TL öder.\n\nİki ek kural sınav favorisidir:\n\n- **Sonraki borçlar:** Sözleşmede açıkça kararlaştırılmadıkça kefil, borçlunun **yalnız kefaletten sonraki** borçlarından sorumludur (TBK m. 589/3). Kefaletten önce kullanılmış krediyi kefile yüklemek için bunun sözleşmede açıkça yazılması gerekir.\n- **Ceza koşulu ve hükümsüzlük zararı:** Kefilin, asıl borç ilişkisinin hükümsüz hâle gelmesinin sebep olduğu zarardan ve ceza koşulundan sorumlu olacağına dair anlaşmalar **kesin olarak hükümsüzdür** (TBK m. 589/4). Kefil bu hükümsüzlüğü kendisi sözleşmeyi imzalamış olsa bile ileri sürer.\n\n> ⚠️ **Sınavda dikkat:** \"Sonraki borç\" hükmü sözleşmeyle genişletilebilir (açık kayıt yeter); \"ceza koşulu\" hükmü genişletilemez, çünkü kesin hükümsüzlük kuralı vardır. İkisini karıştırma.\n\n## 3. Kefili ne zaman ve nasıl takip edebilirsin? (TBK m. 590)\n\n- **Vadeden önce takip yok:** Borçlunun iflası yüzünden asıl borç daha önce muaccel olsa bile, belirlenen vadeden önce kefile karşı takibat yapılamaz (TBK m. 590/1). İflas yalnızca borçlu için vadeyi getirir, kefil için getirmez.\n- **Takibin durdurulması:** Bütün kefalet türlerinde kefil, ayni güvence karşılığında hâkimden, mevcut rehinler paraya çevrilinceye ve borçlu aleyhine yapılan takip sonucunda kesin aciz belgesi alınıncaya veya konkordato kararına kadar kendisine yöneltilen takibin durdurulmasını isteyebilir (TBK m. 590/2).\n- **İhbarla muaccel olan borç:** Muacceliyet alacaklı ya da borçlunun önceden süre içeren bildirimine bağlıysa, kefalet borcu için bu süre bildirimin **kefile yapıldığı tarihte** işlemeye başlar (TBK m. 590/3). Borçluya ihbar edilmiş olması kefil için yetmez.\n- **Yabancı ülke engeli:** Yerleşim yeri yabancı ülkede olan borçlunun ödemesi o ülkenin düzenlemeleri yüzünden imkânsız ya da sınırlı hâle gelmişse, Türkiye'de yerleşik kefil takibe bu sebeple itiraz edebilir (TBK m. 590/4).\n\n## 4. Kefilin savunma araçları: def'iler (TBK m. 591)\n\n**Kural:** Kefil, asıl borçluya veya mirasçılarına ait ve borçlunun **ödeme güçsüzlüğünden doğmayan** bütün def'ileri alacaklıya karşı ileri sürme hakkına sahip olduğu gibi, bunları ileri sürmek **zorundadır** (TBK m. 591/1). Ödenmiş, zamanaşımına uğramış ya da sakat bir borç kefili de bağlamaz.\n\nÜç ayrıntı:\n\n- **Borçlunun feragati kefili bağlamaz:** Asıl borçlu kendi def'isinden vazgeçse bile kefil yine ileri sürebilir (TBK m. 591/2).\n- **Rücu kaybı:** Kefil def'ilerin varlığını **bilmeksizin** ödeme yaparsa rücu hakkına sahiptir. Asıl borçlu, kefilin def'ileri **bildiğini veya bilmesi gerektiğini ispat ederse**, kefil o def'iler ileri sürülseydi ödemeden kurtulacağı ölçüde rücu hakkını kaybeder (TBK m. 591/3). İspat yükü borçludadır.\n- **Kumar ve bahis:** Kumar veya bahisten doğan bir borca kefil olan kişi, borcun bu niteliğini bilmiş olsa bile asıl borçlunun def'ilerini ileri sürebilir (TBK m. 591/4).\n\n> ⚠️ **Sınavda dikkat:** Yanılma, ehliyetsizlik veya zamanaşımına uğramış borca **sakatlığı bilerek** kefil olan kişi bu def'ileri kullanamaz, kefaletle ilgili hükümlere göre sorumlu olur (TBK m. 591/1 ve TBK m. 582/2). Kumar borcunda ise bilerek kefil olan **yine** def'i ileri sürer. Sonuç tersine döner.\n\n## 5. Alacaklının kefile karşı yükümleri (TBK m. 592-594)\n\nKefil zayıf taraftır; kanun alacaklıya dört yük koyar.\n\n**a) Güvenceleri koruma (TBK m. 592).** Alacaklı, kefalet sırasında var olan veya sonradan elde ettiği rehin, güvence ve rüçhan haklarını kefilin zararına azaltırsa, zararın daha az olduğunu ispat edemedikçe kefilin sorumluluğu da buna uygun biçimde azalır; fazla ödenen geri istenir (TBK m. 592/1). Çalışanlara kefalette alacaklı gözetim ve özeni ihmal eder, borç bu yüzden doğmuş veya artmışsa, o borcu ya da artan kısmı kefilden isteyemez (TBK m. 592/2).\n\n**b) Belge ve güvence teslimi.** Borcu ödeyen kefile haklarını kullanabileceği senetleri ve bilgileri vermek, kefalet sırasında var olan veya borçlunun sonradan verdiği rehinleri teslim etmek ya da devrini sağlamak gerekir (TBK m. 592/3). Haklı sebep olmaksızın bu yükümleri yerine getirmeyen veya **ağır kusuruyla** belgeleri ve rehinleri elden çıkaran alacaklıya karşı kefil **borcundan kurtulur**; ödediğini ve ek zararını geri isteyebilir (TBK m. 592/4).\n\n**c) Ödemeyi kabul (TBK m. 593).** Borç muaccel olunca kefil, borçlu iflas etmiş olsa bile, alacaklıdan ödemeyi kabul etmesini isteyebilir. Alacaklı **haklı sebep olmadan** reddederse kefil borcundan kurtulur; birlikte müteselsil kefalette ise kefillerin sorumluluğu kendilerine düşen pay kadar azalır (TBK m. 593/2). Alacaklının rızasıyla vadeden önce ödeyen kefil, vade gelmeden borçluya **rücu edemez** (TBK m. 593/3).\n\n**d) Bildirim ve kayıt (TBK m. 594).** Asıl borçlu anapara veya yarım yıllık faiz ödemesinde ya da yıldan yıla yapılan anapara ödemelerinde **altı ay** gecikirse alacaklı durumu kefile bildirmelidir; kefil isterse borcun kapsamı hakkında bilgi verilir. Borçlunun iflasında veya konkordato isteminde alacaklı alacağını kaydettirmek ve haklarını korumak için gereken her şeyi yapmak zorundadır; iflası ya da konkordato mehlini öğrenir öğrenmez kefile bildirir. Bunlara uymayan alacaklı, kefilin uğradığı zarar miktarınca ona karşı haklarını kaybeder (TBK m. 594/3).\n\n## 6. Kefilin borçluya dönüşü: güvence, halefiyet, rücu (TBK m. 595-597)\n\n**Ödemeden önce:** Kefil, borçludan **güvence** isteyebilir; borç muaccelse **borçtan kurtarılmayı** da isteyebilir (TBK m. 595). Üç hâl vardır: borçlunun kefile karşı yükümlerine (özellikle belli sürede kurtarma vaadine) aykırı davranması; temerrüt veya yerleşim yerini değiştirip takibi güçleştirmesi; mali durumun bozulması, güvencelerin değer kaybetmesi ya da kefil için tehlikenin kefalet tarihine göre önemli ölçüde artması.\n\n**Ödemeden sonra:** Kefil alacaklıya ifada bulunduğu ölçüde onun haklarına **halef olur** ve bu hakları asıl borç muaccel olunca kullanır (TBK m. 596/1). Halefiyet **kendiliğinden** doğar, alacaklının rızası aranmaz. Ayrıntılar:\n\n- Rehin ve güvencelerden yalnız **kefalet anında var olanlara** veya borçlunun sonradan özellikle bu alacak için verdiklerine halef olunur. Kısmen ödeyen kefil, rehnin yalnız ödemeyi karşılayan kısmına halef olur (TBK m. 596/2).\n- Kefil ile borçlu arasındaki hukuki ilişkiden doğan istemler ve def'iler saklıdır (TBK m. 596/3). Yani kefil iç ilişkiye (vekâlet gibi) dayanarak da dönebilir.\n- **Üçüncü kişi rehin maliki:** Rehin paraya çevrilir ya da borcu rehin veren malik öderse malik, kefile rücu hakkını yalnız kefille arasında bu yönde anlaşma varsa veya rehin **sonradan** bir üçüncü kişi tarafından verilmişse kullanabilir (TBK m. 596/4).\n- **Zamanaşımı:** Kefilin rücu hakkına ilişkin zamanaşımı, kefilin alacaklıya ifada bulunduğu **anda** işlemeye başlar (TBK m. 596/5).\n- Dava hakkı vermeyen veya yanılma/ehliyetsizlik sebebiyle borçluyu bağlamayan borç için ödeyen kefilin borçluya rücusu yoktur (TBK m. 596/6).\n\n**Bildirim yükü (TBK m. 597).** Borcu tamamen veya kısmen ödeyen kefil durumu borçluya bildirir. Bildirmez ve ödemeyi bilmeyen (veya bilmesi gerekmeyen) borçlu da alacaklıya öderse kefil rücu hakkını kaybeder; ancak alacaklıya karşı sebepsiz zenginleşme davası hakkı saklıdır.\n\n> **Örnek:** Zeynep, Ali'nin 200.000 TL'lik borcunu bankaya öder ama Ali'ye haber vermez. Ali ertesi hafta bilmeden aynı borcu bankaya yeniden öder. Zeynep, Ali'ye rücu edemez; bankaya sebepsiz zenginleşmeden dava açar.\n\n## 7. Kefaletin sona ermesi (TBK m. 598-602)\n\n| Sebep | Sonuç | Dayanak |\n|---|---|---|\n| Asıl borcun sona ermesi | Kefil de kurtulur | TBK m. 598/1 |\n| Gerçek kişi kefaletinde 10 yıl | Kefalet kendiliğinden ortadan kalkar | TBK m. 598/3 |\n| Süreli kefalette sürenin bitmesi | Kefil kurtulur | TBK m. 600 |\n| Süresiz kefalette alacaklının harekete geçmemesi | Kefil kurtulur | TBK m. 601/3 |\n\n**On yıl kuralı.** Bir **gerçek kişi** tarafından verilmiş her türlü kefalet, sözleşmenin kurulmasından başlayarak on yılın geçmesiyle kendiliğinden ortadan kalkar (TBK m. 598/3). On yıldan uzun süre için verilmiş olsa bile, uzatılmış ya da yeni kefalet verilmiş olmadıkça kefil ancak on yıllık süre dolana kadar takip edilebilir (TBK m. 598/4). Süre, **en erken kefaletin sona ermesinden bir yıl önce** yapılmak kaydıyla, kefilin kefalet sözleşmesinin şekline uygun **yazılı açıklamasıyla** azamî on yıllık yeni bir dönem için uzatılabilir (TBK m. 598/5).\n\n> **Örnek:** Ahmet gerçek kişi olarak 1 Mart 2016'da kefil olmuş ve sözleşmeye \"süre 20 yıl\" yazılmıştır. Kefalet 1 Mart 2026'da kendiliğinden sona erer. Sözleşme yapılırken veya 1 Mart 2025'ten önce verilmiş bir \"uzatma\" geçersizdir. Bitiş tarihinden bir yıl öncesi ile bitiş arasında Ahmet'in TBK m. 583 şekline uygun yazılı açıklamasıyla en çok 10 yıl daha uzatılabilir.\n\n> ⚠️ **Sınavda dikkat:** On yıllık üst sınır yalnız **gerçek kişi** kefiller içindir; metin \"bir gerçek kişi tarafından verilmiş\" der.\n\n**Gelecekteki borca kefaletten dönme (TBK m. 599).** Gelecekte doğacak borca kefalette, borçlunun mali durumu kefaletten sonra önemli ölçüde bozulmuşsa veya kefilin iyiniyetle varsaydığından çok kötü çıkmışsa kefil, alacaklıya **yazılı bildirimle**, borç doğmadığı sürece her zaman dönebilir. Kefil, alacaklının kefalete güvenmesi yüzünden uğradığı zararı giderir.\n\n**Süresiz kefalet (TBK m. 601).** Borç muaccel olunca kefil (adi kefalette her zaman, müteselsil kefalette kanunun öngördüğü hâllerde) alacaklıdan **bir ay içinde** borçluya karşı dava ve takip haklarını kullanmasını ve ara vermeden devam etmesini isteyebilir. Borç alacaklının bildirimiyle muaccel olacaksa kefil, kefalet kurulduktan **bir yıl sonra** alacaklıdan bu bildirimi yapmasını isteyebilir. Alacaklı yerine getirmezse kefil kurtulur.\n\n**Çalışanlara kefalet (TBK m. 602).** Süresiz kefil, **her üç yılda bir, ertesi yılın sonunda geçerli olmak üzere** sözleşmeyi feshettiğini bildirebilir.\n\n## 8. Çözüm şeması\n\n1. Kefalet geçerli mi, limit var mı? (Konu 28, TBK m. 583)\n2. Talep limit içinde mi, kalemleri yerinde mi? Ceza koşulu var mı? (TBK m. 589)\n3. Takip zamanı geldi mi, kefile ihbar yapıldı mı? (TBK m. 590)\n4. Hangi def'iler var, kefil kullandı mı? (TBK m. 591)\n5. Alacaklı güvence, kabul ve bildirim yükümlerine uydu mu? (TBK m. 592-594)\n6. Kefil ödediyse halefiyet, rücu ve bildirim durumu. (TBK m. 596 ve TBK m. 597)\n7. Süre dolmuş mu, 10 yıl geçmiş mi, dönme veya fesih bildirimi var mı? (TBK m. 598-602)",
+  "critical_md": "- 📌 Kefil **her durumda** yazılı azamî miktara kadar sorumludur; limit içinde asıl borç, masraflar ve işlemiş bir yıllık ile işlemekte olan yıla ait akdî faiz yer alır (TBK m. 589/1).\n- 📌 Açık kayıt yoksa kefil yalnız kefaletten **sonraki** borçlardan sorumludur (TBK m. 589/3).\n- 📌 **Ceza koşulu** ve hükümsüzlük zararı sorumluluğu anlaşmaları kesin hükümsüzdür (TBK m. 589/4).\n- 📌 Borçlu iflas etse bile **vadeden önce** kefile karşı takip yapılamaz (TBK m. 590/1).\n- ⚠️ İhbarla muaccel olan borçta süre **kefile bildirimin yapıldığı tarihten** işler, borçluya yapılan ihbar yetmez (TBK m. 590/3).\n- 📌 Kefil asıl borçlunun def'ilerini ileri sürmeye hakkı olduğu kadar **zorundadır**; borçlunun vazgeçmesi kefili bağlamaz (TBK m. 591/1 ve TBK m. 591/2).\n- ⚠️ Def'ileri bilmeden ödeyen kefilin rücusu vardır; borçlu kefilin bildiğini ya da bilmesi gerektiğini ispatlarsa o ölçüde kaybolur (TBK m. 591/3).\n- 📌 Kumar ve bahis borcuna bilerek kefil olan da def'i ileri sürebilir (TBK m. 591/4); yanılma, ehliyetsizlik, zamanaşımı sakatlığını bilerek kefil olan sürebilmez.\n- 📌 Alacaklı haklı sebep olmadan **ağır kusuruyla** güvenceleri elden çıkarırsa veya muaccel borçta ödemeyi kabul etmezse kefil borcundan kurtulur (TBK m. 592/4 ve TBK m. 593/2).\n- 📌 Borçlunun **altı aylık** gecikmesi ile iflas ve konkordato durumunu alacaklı kefile bildirir; ihlalde kefilin zararı oranında hak kaybı olur (TBK m. 594).\n- 📌 Kefil ödediği ölçüde **kanunen halef** olur; rücu zamanaşımı ifa anında başlar (TBK m. 596/1 ve TBK m. 596/5).\n- ⚠️ Ödemeyi borçluya bildirmeyen kefil, borçlu bilmeden tekrar öderse rücu hakkını kaybeder; alacaklıya sebepsiz zenginleşme davası kalır (TBK m. 597).\n- 📌 **Gerçek kişi** kefaleti 10 yılda kendiliğinden biter; uzatma bitişten **en erken bir yıl önce**, kefaletin şekline uygun yazılı açıklamayla, en çok 10 yıl için yapılır (TBK m. 598/3-5).\n- 📌 Süreli kefalette süre bitince kefil kurtulur (TBK m. 600); çalışanlara süresiz kefalette fesih her üç yılda bir, ertesi yılın sonunda geçerli olur (TBK m. 602).",
+  "doctrine_md": "### Kefilin kendi temerrüdü azamî miktarı aşar mı?\n\nTBK m. 589/1 kefilin \"her durumda\" azamî miktara kadar sorumlu olduğunu söyler. Bir görüş bu ifadeyi sözlük anlamıyla alır ve kefilin kendi temerrüdünden doğan gecikme faizinin de limitin içinde kaldığını savunur. Baskın görüş ve uygulama ise kefil kendi temerrüdüne düştükten sonra (ihtarın kefile tebliği veya takip tarihi gibi) o temerrüt faizinden, limiti aşsa bile sorumlu olunabileceğini kabul eder. Gerekçe, bu faizin artık kefilin **kendi** borcunun sonucu olması, asıl borçlunun temerrüdüne bağlı olmamasıdır. Bu nedenle sorunun **temerrüdün ne zaman başladığıyla** bağlantısı kurulur. Konu tartışmalıdır; sınavda her iki görüşü ve hangisini seçtiğini gerekçelendir.\n\n### On yıllık sürenin niteliği\n\nTBK m. 598/3 kefaletin on yılın geçmesiyle \"kendiliğinden ortadan kalktığını\", m. 598/4 ise kefilin ancak on yıllık süre dolana kadar takip edilebileceğini söyler. Süre hak düşürücü niteliktedir: durmaz, kesilmez, hâkim re'sen gözetir. Baskın görüşe göre kefalet süre dolmadan başlatılmış takip veya açılmış dava bakımından korunur; süre dolduktan sonra yapılan takip kefile karşı sonuç doğurmaz.\n\n### Halefiyet ve iç ilişki\n\nKefil rücuyu iki yoldan kullanabilir: kanuni halefiyete (TBK m. 596/1) veya borçluyla arasındaki iç ilişkiye (vekâlet, vekâletsiz iş görme gibi, TBK m. 596/3). İkisi yan yana durur; hangisinin daha elverişli olduğu (zamanaşımı, ek haklar, rehinler) olayın özelliğine göre seçilir.",
+  "glossary": [
+   {
+    "term": "Azamî miktar",
+    "definition": "Kefilin sorumlu olabileceği, kefalet sözleşmesinde belirtilen en yüksek tutar. Kefil her durumda bu sınırla bağlıdır (TBK m. 589/1)."
+   },
+   {
+    "term": "Fer'ilik",
+    "definition": "Kefaletin asıl borca bağlılığı. Asıl borç sona erince kefil de borcundan kurtulur (TBK m. 598/1)."
+   },
+   {
+    "term": "Def'i",
+    "definition": "Borçlunun borcu ödemekten kaçınmasını sağlayan savunma. Kefil asıl borçlunun def'ilerini ileri sürmeye yetkili ve yükümlüdür (TBK m. 591)."
+   },
+   {
+    "term": "Ceza koşulu",
+    "definition": "Borca aykırılık hâlinde ödenecek önceden belirlenmiş tazminat. Kefilin buna sorumlu olacağına dair anlaşma kesin hükümsüzdür (TBK m. 589/4)."
+   },
+   {
+    "term": "Kanuni halefiyet",
+    "definition": "Kefilin, alacaklıya ifa ettiği ölçüde alacaklının haklarına kendiliğinden geçmesi (TBK m. 596/1)."
+   },
+   {
+    "term": "Rücu",
+    "definition": "Borcu ödeyen kefilin, ödediğini asıl borçludan geri istemesi."
+   },
+   {
+    "term": "Ayni güvence",
+    "definition": "Kefilin takibin durdurulması için verdiği rehin gibi eşya üzerinde hak doğuran teminat (TBK m. 590/2)."
+   },
+   {
+    "term": "Kesin aciz belgesi",
+    "definition": "Borçlunun malvarlığının borcu karşılamadığını gösteren icra belgesi. Kefil, takibin durdurulmasını bu belgeye kadar isteyebilir (TBK m. 590/2)."
+   },
+   {
+    "term": "Süreli kefalet",
+    "definition": "Belirli bir süre için verilen kefalet. Süre bitince kefil borcundan kurtulur (TBK m. 600)."
+   },
+   {
+    "term": "Süresiz kefalet",
+    "definition": "Süresi belirlenmemiş kefalet. Borç muaccel olunca kefil, alacaklıdan bir ay içinde takibe geçmesini isteyebilir (TBK m. 601)."
+   },
+   {
+    "term": "Hak düşürücü süre",
+    "definition": "Dolunca hakkı kendiliğinden sona erdiren, durmayan ve kesilmeyen süre. Gerçek kişi kefaletindeki 10 yıl bu niteliktedir (TBK m. 598/3)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "582",
+   "official_text": "I. Asıl borç\nMADDE 582- Kefalet sözleşmesi, mevcut ve geçerli bir borç için yapılabilir. Ancak, gelecekte doğacak veya koşula bağlı bir borç için de, bu borç doğduğunda veya koşul gerçekleştiğinde hüküm ifade etmek üzere kefalet sözleşmesi kurulabilir.\nYanılma veya ehliyetsizlik sebebiyle borçlunun sorumlu olmadığı bir borç için kişisel güvence veren kişi, yükümlülük altına girdiği sırada, sözleşmeyi sakatlayan eksikliği biliyorsa, kefaletle ilgili kanun hükümlerine göre sorumlu olur. Aynı kural, borçlu yönünden zamanaşımına uğramış bir borca kefil olan kişi hakkında da uygulanır.\nKanundan aksi anlaşılmadıkça kefil, bu bölümde kendisine tanınan haklardan önceden feragat edemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "583",
+   "official_text": "MADDE 583- Kefalet sözleşmesi, yazılı şekilde yapılmadıkça ve kefilin sorumlu olacağı azamî miktar ile kefalet tarihi belirtilmedikçe geçerli olmaz. Kefilin, sorumlu olduğu azamî miktarı, kefalet tarihini ve müteselsil kefil olması durumunda, bu sıfatla veya bu anlama gelen herhangi bir ifadeyle yükümlülük altına girdiğini kefalet sözleşmesinde kendi el yazısıyla belirtmesi şarttır.\nKendi adına kefil olma konusunda özel yetki verilmesi ve diğer tarafa veya bir üçüncü kişiye kefil olma vaadinde bulunulması da aynı şekil koşullarına bağlıdır. Taraflar, yazılı şekle uyarak kefilin sorumluluğunu borcun belirli bir miktarıyla sınırlandırmayı kararlaştırabilirler.\nKefalet sözleşmesinde sonradan yapılan ve kefilin sorumluluğunu artıran değişiklikler, kefalet için öngörülen şekle uyulmadıkça hüküm doğurmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "589",
+   "official_text": "MADDE 589- Kefil, her durumda kefalet sözleşmesinde belirtilen azamî miktara kadar sorumludur.\nAksi sözleşmede kararlaştırılmamışsa kefil, belirtilen azamî miktarla sınırlı olmak üzere, aşağıdakilerden sorumludur:\n1. Asıl borç ile borçlunun kusur veya temerrüdünün yasal sonuçları.\n2. Alacaklının, kefile, onun borcu ödeyerek yapılmalarını önleyebileceği uygun bir zaman önce bildirmesi koşuluyla, borçluya karşı yönelttiği takip ve davaların masrafları ile gerektiğinde rehinlerin kefile tesliminin ve rehin haklarının devrinin sebep olduğu masraflar.\n3. İşlemiş bir yıllık ve işlemekte olan yıla ait akdî faizler ile gerektiğinde tahvil karşılığında ödünç verilen anaparanın işlemiş bir yıllık ve işlemekte olan yıla ait faizleri.\nSözleşmede açıkça kararlaştırılmamışsa kefil, borçlunun sadece kefalet sözleşmesinin kurulmasından sonraki borçlarından sorumludur.\nKefilin, asıl borç ilişkisinin hükümsüz hâle gelmesinin sebep olduğu zarardan ve ceza koşulundan sorumlu olacağına ilişkin anlaşmalar kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "590",
+   "official_text": "b. Kefilin takibi\nMADDE 590- Borçlunun iflası sebebiyle asıl borç daha önce muaccel olsa bile, belirlenen vadeden önce kefile karşı takibat yapılamaz.\nBütün kefalet türlerinde kefil, ayni güvence karşılığında hâkimden, mevcut rehinler paraya çevrilinceye ve borçlu aleyhine yapılan takip sonucunda kesin aciz belgesi alınıncaya veya konkordato kararına kadar kendisine karşı yöneltilen takibin durdurulmasına karar verilmesini isteyebilir.\nAsıl borcun muaccel olması, alacaklı veya borçlunun önceden süre içeren bildirimde bulunmasına bağlıysa, kefalet borcu için bu süre, bildirimin kefile yapıldığı tarihte işlemeye başlar.\nYerleşim yeri yabancı bir ülkede olan borçlunun borcunu ödemesi, döviz işlemleri veya havale ile ilgili yasaklar gibi sebeplerle, o yabancı ülkenin yasal düzenlemeleri gereği imkânsız hâle gelmiş veya sınırlandırılmışsa, yerleşim yeri Türkiye’de olan kefil, takibe bu sebeple itiraz edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "591",
+   "official_text": "c. Def’iler\nMADDE 591- Kefil, asıl borçluya veya mirasçılarına ait olan ve asıl borçlunun ödeme güçsüzlüğünden doğmayan bütün def’ileri alacaklıya karşı ileri sürme hakkına sahip olduğu gibi, bunları ileri sürmek zorundadır. Yanılma veya sözleşme yapma ehliyetsizliği ya da zamanaşımına uğramış bir borç sebebiyle borçlunun yükümlü olmadığı bir borca bilerek kefalet hâli bu hükmün dışındadır.\nAsıl borçlu kendisine ait olan bir def’iden vazgeçmiş olsa bile kefil, yine de bu def’iî alacaklıya karşı ileri sürebilir.\nKefil, asıl borçluya ait def’ilerin varlığını bilmeksizin ödemede bulunursa, rücu hakkına sahip olur. Buna karşılık asıl borçlu, kefilin bu def’ileri bildiğini veya bilmesi gerektiğini ispat ederse kefil, bunlar ileri sürülmüş olsaydı ödemeden kurtulacağı ölçüde rücu hakkını kaybeder.\nKumar veya bahisten doğan bir borca kefalette kefil, borcun bu niteliğini bilmiş olsa bile, asıl borçlunun sahip olduğu def’ileri ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "592",
+   "official_text": "d. Özen gösterme, rehin ve borç senetlerinin teslimi\nMADDE 592- Alacaklı, kefalet sırasında var olan veya daha sonra asıl borçludan alacağın özel güvencesi olmak üzere elde ettiği rehin haklarını, güvenceyi ve rüçhan haklarını kefilin zararına olarak azaltırsa, zararın daha az olduğu alacaklı tarafından ispat edilmedikçe, kefilin sorumluluğu da buna uygun düşen bir miktarda azalır. Kefilin fazladan ödediği miktarın geri verilmesini isteme hakkı saklıdır.\nÇalışanlara kefalet hâlinde alacaklı, çalışanlar üzerinde yükümlü olduğu gözetimi ihmal eder veya kendisinden beklenebilen özeni göstermezse ve borç da bu sebeple doğmuş ya da bu özeni göstermesi hâlinde ulaşamayacağı ölçüde artmış olursa, bu borcu veya borcun artan kısmını kefilden isteyemez.\nAlacaklı, borcu ödeyen kefile haklarını kullanmasına yarayabilecek borç senetlerini teslim etmek ve gerekli bilgileri vermekle yükümlüdür. Alacaklı, kefalet sırasında var olan veya asıl borçlu tarafından alacak için sonradan sağlanan rehinleri ve diğer güvenceleri de kefile teslim etmek veya bunların devri için gerekli işlemleri yapmak zorundadır. Alacaklının, diğer alacakları sebebiyle sahip olduğu rehin ve hapis hakları, kefilin haklarından sıraca önce geldikleri ölçüde saklıdır.\nAlacaklı, haklı bir sebep olmaksızın yükümlülüklerini yerine getirmez, ağır kusuruyla mevcut belgeleri veya rehinleri ya da sorumlu olduğu diğer güvenceleri elinden çıkarırsa, kefil borcundan kurtulur. Bu durumda kefil, ödediğinin geri verilmesini ve varsa ek zararının giderilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "593",
+   "official_text": "e. Ödemenin kabulünü isteme\nMADDE 593- Borçlunun iflası sebebiyle olsa bile, borç muaccel olduğu takdirde kefil, alacaklıdan yapacağı ödemeyi kabul etmesini her zaman isteyebilir. Bir borca birden çok kişinin kefil olması durumunda alacaklı, kefillerden biri tarafından yapılacak kısmi ödemeyi, bunu öneren kefile düşen paydan az olmamak koşuluyla, kabul etmek zorundadır.\nAlacaklı haklı bir sebep olmaksızın ödemeyi kabul etmekten kaçınırsa, kefil borcundan kurtulur; birlikte müteselsil kefalette ise, kefillerin sorumluluğu kendilerine düşen pay miktarınca azalır.\nAlacaklının rızası varsa kefil, asıl borcu muaccel olmasından önce de ödeyebilir. Ancak, bu durumda kefil, asıl borçluya karşı rücu hakkını borcun muaccel olmasından önce kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "594",
+   "official_text": "f. Bildirim, iflasta ve konkordatoda kayıt\nMADDE 594- Asıl borçlu, anaparanın veya yarım yıllık döneme ait faizin ödenmesinde ya da yıldan yıla yapılması öngörülen anapara ödemelerinde altı ay gecikirse, alacaklının durumu kefile bildirmesi gerekir. İstek hâlinde alacaklı, her zaman asıl borcun kapsamı hakkında kefile bilgi vermek zorundadır.\nAsıl borçlunun iflasına karar verilmiş veya borçlu konkordato istemişse alacaklı, alacağını kaydettirmek ve haklarının korunması için gerekeni yapmak zorundadır. Alacaklının, borçlunun iflas ettiğini veya borçluya konkordato mehli verildiğini öğrendiği anda, durumu kefile bildirmesi gerekir.\nAlacaklı, yukarıdaki fıkralarda öngörülen gereklerden birini yerine getirmezse, bundan dolayı kefilin uğradığı zarar miktarınca ona karşı haklarını kaybeder.\n2. Kefil ile borçlu arasındaki ilişki",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "595",
+   "official_text": "a. Güvence verilmesini ve borçtan kurtarılmasını isteme hakkı\nMADDE 595- Kefil, aşağıdaki durumlarda asıl borçludan güvence verilmesini ve borç muaccel olmuşsa, borçtan kurtarılmasını isteyebilir:\n1. Asıl borçlu, kefile karşı üstlendiği yükümlülüklere, özellikle belli bir süre içinde kendisini borçtan kurtarma vaadine aykırı davranmışsa.\n2. Asıl borçlu temerrüde düşmüşse veya yerleşim yerini diğer bir ülkeye nakletmesi yüzünden takibat önemli ölçüde güçleşmişse.\n3. Asıl borçlunun mali durumunun kötüleşmesi, güvencelerin değer kaybetmesi veya borçlunun kusuru sonucunda kefil için mevcut tehlike, kefaletin yapıldığı tarihe göre önemli ölçüde artmışsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "596",
+   "official_text": "b. Kefilin rücu hakkı\nMADDE 596- Kefil, alacaklıya ifada bulunduğu ölçüde, onun haklarına halef olur. Kefil, bu hakları asıl borç muaccel olunca kullanabilir.\nKefil, aksi kararlaştırılmamışsa, rehin hakları ile aynı alacak için sağlanmış diğer güvencelerden sadece kefalet anında var olan veya bizzat asıl borçlu tarafından, sonradan özellikle bu alacak için verilmiş bulunanlara halef olur. Alacaklıya kısmen ifada bulunan kefil, rehin hakkının sadece bunu karşılayan kısmına halef olur. Alacaklının rehin konusu üzerinde geriye kalan alacak hakkı, kefilin rehin hakkından ön sırada gelir.\nKefil ile asıl borçlu arasındaki hukuki ilişkiden doğan istem ve def’iler saklıdır.\nBir alacağın güvencesini oluşturan rehin paraya çevrildiği veya borç rehin veren malik tarafından ödendiği takdirde malik, kefile karşı rücu hakkını, ancak kefil ile kendisi arasında böyle bir anlaşma varsa ya da rehin sonradan bir üçüncü kişi tarafından verilmişse kullanabilir.\nKefilin rücu hakkına ilişkin zamanaşımı, kefilin alacaklıya ifada bulunduğu anda işlemeye başlar.\nKefil, dava hakkı vermeyen veya yanılma ya da ehliyetsizlik sebebiyle asıl borçluyu bağlamayan bir borç için ödemede bulunduğu takdirde, asıl borçluya karşı rücu hakkına sahip değildir. Ancak, kefil zamanaşımına uğramış bir asıl borçtan sorumlu olmayı borçlunun vekili sıfatıyla üstlenmişse asıl borçlu, ona karşı vekâlet sözleşmesi hükümleri uyarınca sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "597",
+   "official_text": "c. Kefilin bildirim yükü\nMADDE 597- Borcu tamamen veya kısmen ödeyen kefil, durumu borçluya bildirmek zorundadır.\nKefil, bu bildirimde bulunmazsa ve ödemeyi bilmeyen veya bilmesi gerekmeyen borçlu da alacaklıya ifada bulunursa, rücu hakkını kaybeder.\nKefilin, alacaklıya karşı sebepsiz zenginleşmeden doğan dava hakkı saklıdır.\nD. Sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "598",
+   "official_text": "MADDE 598- Hangi sebeple olursa olsun, asıl borç sona erince, kefil de borcundan kurtulur.\nBorçlu ve kefil sıfatı aynı kişide birleşmiş olursa, alacaklı için kefaletten doğan özel yararlar saklı kalır.\nBir gerçek kişi tarafından verilmiş olan her türlü kefalet, buna ilişkin sözleşmenin kurulmasından başlayarak on yılın geçmesiyle kendiliğinden ortadan kalkar.\nKefalet, on yıldan fazla bir süre için verilmiş olsa bile, uzatılmış veya yeni bir kefalet verilmiş olmadıkça kefil, ancak on yıllık süre doluncaya kadar takip edilebilir.\nKefalet süresi, en erken kefaletin sona ermesinden bir yıl önce yapılmak kaydıyla, kefilin kefalet sözleşmesinin şekline uygun yazılı açıklamasıyla, azamî on yıllık yeni bir dönem için uzatılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "599",
+   "official_text": "II. Kefaletten dönme\nMADDE 599- Gelecekte doğacak bir borca kefalette, borçlunun borcun doğumundan önceki mali durumu, kefalet sözleşmesinin yapılmasından sonra önemli ölçüde bozulmuşsa veya mali durumunun, kefalet sırasında kefilin iyiniyetle varsaydığından çok daha kötü olduğu ortaya çıkmışsa, kefil alacaklıya yazılı bir bildirimde bulunarak, borç doğmadığı sürece her zaman kefalet sözleşmesinden dönebilir.\nKefil, alacaklının kefalete güvenmesi sebebiyle uğradığı zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "600",
+   "official_text": "III. Süreli kefalette\nMADDE 600- Süreli kefalette kefil, sürenin sonunda borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "601",
+   "official_text": "IV. Süreli olmayan kefalette\nMADDE 601- Süreli olmayan kefalette kefil, asıl borç muaccel olunca, adi kefalette her zaman ve müteselsil kefalette ise, kanunun öngördüğü hâllerde, alacaklıdan, bir ay içinde borçluya karşı dava ve takip haklarını kullanmasını, varsa rehnin paraya çevrilmesi yoluyla takibe geçmesini ve ara vermeden takibe devam etmesini isteyebilir.\nBorç, alacaklının borçluya yapacağı bildirim sonucunda muaccel olacaksa kefil, kefalet sözleşmesinin kurulduğu tarihten bir yıl sonra alacaklıdan, bu bildirimi yapmasını ve borç bu suretle muaccel olunca, yukarıdaki fıkra hükümleri uyarınca takip ve dava haklarını kullanmasını isteyebilir.\nAlacaklı, kefilin bu istemlerini yerine getirmezse, kefil borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "602",
+   "official_text": "MADDE 602- Çalışanlara süreli olmayan kefalette kefil, her üç yılda bir, ertesi yılın sonunda geçerli olmak üzere sözleşmeyi feshettiğini bildirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/3088",
+   "karar_no": "2021/1641",
+   "decision_date": "09.12.2021",
+   "summary_md": "Davacı, davalı şirketin ortağıdır; şirketin banka kredisine müteselsil kefil olmuş ve başka bir malikle birlikte maliki olduğu taşınmaz üzerinde banka lehine ipotek vermiştir. Taşınmaz satılmış, 350.000 TL'lik kredi faiziyle birlikte 357.460,25 TL olarak kapatılmıştır. Davacı ortak ise bu kapanıştan sonra, 21.11.2012'de şirketteki hissesini devretmiştir. Davacı, kendi payına düşen 178.750 TL'yi şirketten rücuen istemiştir. İlk derece mahkemesi hisse devir protokolünü gerekçe yaparak istemi reddetmiş, Yargıtay (Kapatılan) 19. Hukuk Dairesi bozunca da direnmiştir. Hukuk Genel Kurulu, kefalet borcunu ödeyen kefilin kanun gereği alacaklının haklarına halef olduğunu, ortaklıktan ayrılmasının bunu engellemediğini, protokolün şirketi taraf yapmadığını ve rücu etmeme taahhüdü içermediğini belirterek direnme kararını bozmuştur. Karar, 818 sayılı Borçlar Kanunu'nun ilgili hükmünü (bugünkü TBK m. 596) uygular; konuya katkısı kanuni halefiyetin ortaklar arası iç sözleşmelerle kendiliğinden kalkmayacağıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/734292500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/1540",
+   "karar_no": "2025/6298",
+   "decision_date": "16.10.2025",
+   "summary_md": "Banka, iki genel kredi sözleşmesine dayanarak (2018 tarihli) müşterek borçlu müteselsil kefil olan iki kişi hakkında icra takibi başlatmış, itirazların iptalini istemiştir. Hesap kat ihtarı kefillere tebliğ edilememiştir. İlk derece mahkemesi, bir kefil bakımından kefalet metnindeki yazıların onun el ürünü olduğunun saptanamaması (grafoloji raporu) nedeniyle kefaleti geçersiz saymış, davayı reddetmiştir. Diğer kefilin kefaletini geçerli bulmuş, temerrüdün ihtarname tebliğ edilemediği için **takip tarihinde** başladığını kabul ederek davayı kısmen kabul etmiştir. Bölge Adliye Mahkemesi istinaf başvurusunu esastan reddetmiş, Yargıtay 11. Hukuk Dairesi bankanın temyizini reddederek kararı oy birliğiyle onamıştır. Karar, kefil bakımından kefalet metnindeki yazıların kefilin kendi el ürünü olup olmadığının ve temerrüdün hangi tarihte başladığının ayrı ayrı denetlendiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1177275500",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Kefil, kefalet sözleşmesinde azamî miktarı 200.000 TL olarak yazmıştır; başka bir kayıt yoktur. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Azamî miktar yalnız anaparayı sınırlar; faiz ve masraflar bunun dışında sınırsız istenir.",
+    "Takip ve dava masrafları, kefile hiç bildirilmemiş olsa bile her zaman sınırın dışında istenir.",
+    "Kefil, azamî miktara kadar sorumludur; asıl borç, zamanında bildirilmiş masraflar ve işlemiş bir yıllık ile işlemekte olan yıla ait akdî faizler bu sınırın içindedir.",
+    "Kefil, azamî miktardan bağımsız olarak asıl borcun tamamından her durumda sorumludur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 589/1'e göre kefil her durumda azamî miktara kadar sorumludur. Aksi kararlaştırılmamışsa asıl borç, borçlunun kusur ve temerrüdünün sonuçları, kefile zamanında bildirilmiş takip masrafları ile işlemiş bir yıllık ve işlemekte olan yıla ait akdî faizler bu sınırın içinde yer alır. Yaygın yanılgı, faiz ve masrafları limit dışında saymaktır."
+  },
+  {
+   "stem_md": "Kefilin, asıl borç ilişkisinin hükümsüz hâle gelmesinin sebep olduğu zarardan ve ceza koşulundan sorumlu olacağına dair sözleşme kaydının hukuki sonucu nedir?",
+   "options": [
+    "Yalnız tacir kefiller bakımından geçerlidir.",
+    "İptal edilebilir; kefil bir yıl içinde iptal hakkını kullanmalıdır.",
+    "Kefilin yazılı onayı varsa geçerlidir.",
+    "Kesin hükümsüzdür."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 589/4'e göre bu yöndeki anlaşmalar kesin olarak hükümsüzdür. Kefilin kendi imzasıyla kabul etmesi sonucu değiştirmez. Sık yapılan hata, kaydı \"açık yazılırsa geçerli olan\" sonraki-borç kuralıyla (TBK m. 589/3) karıştırmaktır."
+  },
+  {
+   "stem_md": "Bankada cari kredi hesabı bulunan B'nin borcuna K, 1 Mart 2024'te kefil olmuştur. B'nin 2023'te kullandığı 100.000 TL'lik kredi, kefalet sözleşmesinde \"kefaletten önceki borçlar\" konusunda hiçbir açık kayıt bulunmadığı hâlde kefile yöneltilmek istenmektedir. K'nın durumu nedir?",
+   "options": [
+    "K, yalnız kefaletten önce doğan borçlardan sorumludur.",
+    "K, bu borçtan sorumludur; ancak bunun için sözleşmenin tapu müdürlüğünde onaylanması gerekir.",
+    "K, limit içinde olmak şartıyla kefaletten önceki bütün borçlardan sorumludur.",
+    "K, kefaletten önce doğmuş bu borçtan sorumlu değildir; açıkça kararlaştırılmadıkça yalnız kefaletten sonraki borçlardan sorumlu olur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 589/3'e göre sözleşmede açıkça kararlaştırılmamışsa kefil, borçlunun yalnız kefalet sözleşmesinin kurulmasından sonraki borçlarından sorumludur. Önceki borçların kefile yüklenmesi için açık kayıt gerekir. Çeldirici, limit içinde olunca önceki borcun da dahil sayılmasıdır."
+  },
+  {
+   "stem_md": "B şirketinin iflasına karar verilmiştir. Bankanın B'ye 1 Ocak 2027 vadeli kredisi iflas sebebiyle şimdiden muaccel olmuştur. Banka, 1 Ekim 2026'da kefil K'ya karşı takip başlatmak istemektedir. Doğru hüküm hangisidir?",
+   "options": [
+    "Banka, K'ya karşı takibi ancak B'nin konkordato isteminden sonra yapabilir.",
+    "Takip yapılabilir; ancak K'nın ayrıca ödeme emrine itiraz hakkı yoktur.",
+    "Borçlunun iflası sebebiyle asıl borç daha önce muaccel olsa bile, belirlenen vadeden önce kefile karşı takibat yapılamaz.",
+    "Borçlunun iflasıyla kefalet borcu da muaccel olur; banka hemen takip yapabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 590/1: borçlunun iflası yüzünden asıl borç daha önce muaccel olsa bile belirlenen vadeden önce kefile karşı takibat yapılamaz. İflas vadeyi yalnız borçlu bakımından öne çeker; kefil bakımından çekmez. Yaygın yanılgı, muacceliyetin kefile de sirayet ettiğini düşünmektir."
+  },
+  {
+   "stem_md": "Asıl borcun muaccel olması alacaklının borçluya yapacağı süreli bir bildirime bağlıdır. Kefalet borcu bakımından bu sürenin başlangıcı hangisidir?",
+   "options": [
+    "Bildirimin borçluya yapıldığı tarih.",
+    "Borçlunun temerrüde düştüğü tarih.",
+    "Bildirimin kefile yapıldığı tarih.",
+    "Kefalet sözleşmesinin kurulduğu tarih."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 590/3'e göre asıl borcun muacceliyeti önceden süre içeren bildirime bağlıysa kefalet borcu için bu süre, bildirimin kefile yapıldığı tarihte işlemeye başlar. Borçluya yapılan bildirim kefil bakımından süreyi başlatmaz."
+  },
+  {
+   "stem_md": "Asıl borçlu, kefaletten sonra dolan zamanaşımı def'isinden alacaklıya karşı açıkça vazgeçmiştir. Alacaklı kefile başvurduğunda kefil için doğru olan hangisidir?",
+   "options": [
+    "Zamanaşımı def'i kefile ait değildir; kefil yalnız kendi kişisel savunmalarını kullanabilir.",
+    "Borçlunun vazgeçmesi kefili de bağlar; kefil artık ileri süremez.",
+    "Kefil, borçlunun vazgeçmesine rağmen zamanaşımı def'isini alacaklıya karşı ileri sürebilir.",
+    "Kefil, ancak borçlunun yazılı izniyle def'iyi ileri sürebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 591/2: asıl borçlu kendisine ait bir def'iden vazgeçmiş olsa bile kefil yine de bu def'iyi alacaklıya karşı ileri sürebilir. Üstelik TBK m. 591/1'e göre kefil asıl borçlunun def'ilerini ileri sürmeye hakkı olduğu gibi zorundadır."
+  },
+  {
+   "stem_md": "Ali, arkadaşı Mehmet'in kumarda kaybettiği 200.000 TL'lik borcun kumar borcu olduğunu bilerek, alacaklı Kemal'e karşı kefil olmuştur. Kemal, Ali'den ödeme istediğinde Ali'nin durumu nedir?",
+   "options": [
+    "Ali, kefaleti yalnız yanılmış olması hâlinde def'i ileri sürebilir.",
+    "Ali, borcun kumar borcu olduğunu bilse bile asıl borçlunun sahip olduğu def'ileri ileri sürebilir.",
+    "Kefalet geçerlidir, fakat Ali yalnız faizden sorumlu tutulabilir.",
+    "Ali, kumar borcu olduğunu bilerek kefil olduğu için hiçbir def'iyi ileri süremez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 591/4: kumar veya bahisten doğan bir borca kefalette kefil, borcun bu niteliğini bilmiş olsa bile asıl borçlunun sahip olduğu def'ileri ileri sürebilir. Bu, yanılma, ehliyetsizlik ve zamanaşımı sakatlığını bilerek kefil olanın def'i ileri sürememesi kuralının (TBK m. 591/1 ve TBK m. 582/2) tersidir."
+  },
+  {
+   "stem_md": "Banka, borcun güvencesi olan ve kefalet sırasında var olan ipoteği, haklı bir sebep olmaksızın ve ağır kusuruyla elinden çıkarmıştır. Kefil K'nın durumu nedir?",
+   "options": [
+    "K yalnız adi kefilse borcundan kurtulur; müteselsil kefil kurtulamaz.",
+    "K'nın sorumluluğu hiç değişmez; ipotek alacaklının kendi işidir.",
+    "K ancak asıl borçludan güvence isteyebilir, alacaklıya karşı bir hak kazanmaz.",
+    "K borcundan kurtulur; ödediyse ödediğinin geri verilmesini ve varsa ek zararının giderilmesini isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 592/4'e göre alacaklı haklı sebep olmaksızın yükümlülüklerini yerine getirmez, ağır kusuruyla mevcut belgeleri veya rehinleri ya da sorumlu olduğu diğer güvenceleri elden çıkarırsa kefil borcundan kurtulur ve ödediğinin geri verilmesini ve varsa ek zararının giderilmesini isteyebilir. Hüküm kefalet türüne göre ayırmaz."
+  },
+  {
+   "stem_md": "Kefilin rücu hakkına ilişkin zamanaşımı hangi anda işlemeye başlar?",
+   "options": [
+    "Kefilin alacaklıya ifada bulunduğu anda.",
+    "Alacaklının kefile karşı takip başlattığı anda.",
+    "Asıl borcun muaccel olduğu anda.",
+    "Kefalet sözleşmesinin kurulduğu anda."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 596/5: kefilin rücu hakkına ilişkin zamanaşımı, kefilin alacaklıya ifada bulunduğu anda işlemeye başlar. Rücu hakkı ödemeyle doğduğu için zamanaşımı da ödemeyle başlar; kefaletin kurulması veya muacceliyet başlangıç değildir."
+  },
+  {
+   "stem_md": "Kefil Zeynep, asıl borçlu Ali'nin bankaya olan borcunu ödemiş, ancak bunu Ali'ye bildirmemiştir. Ali, ödemeden habersiz olarak aynı borcu bankaya yeniden ödemiştir. Zeynep'in durumu hangisidir?",
+   "options": [
+    "Zeynep, Ali'ye yalnız faiz için rücu edebilir.",
+    "Zeynep, Ali'ye rücu edebilir; bildirim yalnız bir düzen kuralıdır.",
+    "Zeynep, bankaya karşı da herhangi bir dava açamaz.",
+    "Zeynep, Ali'ye karşı rücu hakkını kaybeder; ancak bankaya karşı sebepsiz zenginleşme davası hakkı saklıdır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 597: ödeyen kefil durumu borçluya bildirmek zorundadır. Bildirmezse ve ödemeyi bilmeyen veya bilmesi gerekmeyen borçlu da alacaklıya öderse rücu hakkını kaybeder. Kefilin alacaklıya karşı sebepsiz zenginleşmeden doğan dava hakkı saklıdır. Yaygın yanılgı, bildirimin sonuçsuz bir formalite olduğunu düşünmektir."
+  },
+  {
+   "stem_md": "Gerçek kişi Ayşe, 1 Nisan 2014'te bir bankaya kefil olmuştur; sözleşmede \"kefalet süresi 15 yıldır\" yazmaktadır. Hiçbir uzatma açıklaması yapılmamıştır. Banka 5 Mayıs 2025'te Ayşe'ye karşı takip başlatmıştır. Sonuç nedir?",
+   "options": [
+    "On yıllık sınır yalnız tüzel kişi kefiller için uygulanır, bu nedenle takip geçerlidir.",
+    "Kefalet on yılın geçmesiyle kendiliğinden ortadan kalktığı için Ayşe artık takip edilemez.",
+    "Kefalet on yıl dolunca sona ermez; yalnız Ayşe'nin fesih bildirimiyle sona erer.",
+    "Kefalet 15 yıl için geçerlidir; takip yerindedir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 598/3'e göre gerçek kişi tarafından verilmiş her türlü kefalet, kurulmasından başlayarak on yılın geçmesiyle kendiliğinden ortadan kalkar. On yıldan uzun süre için verilmiş olsa bile, uzatma ya da yeni kefalet yoksa kefil ancak on yıllık süre dolana kadar takip edilebilir (TBK m. 598/4). Süre 1 Nisan 2024'te dolmuş, takip sonradan yapılmıştır. Çeldirici, sözleşmedeki 15 yıllık yazımın geçerli sayılmasıdır."
+  },
+  {
+   "stem_md": "Çalışanlara süresiz olarak kefil olan bir kişi, kefaleti hangi usulle sona erdirebilir?",
+   "options": [
+    "Yalnız haklı sebebe dayanarak ve mahkeme kararıyla feshedebilir.",
+    "Fesih hakkı yoktur; kefalet ancak 10 yılın dolmasıyla sona erer.",
+    "Her yıl sonunda, hiçbir bildirim süresi olmadan feshedebilir.",
+    "Her üç yılda bir, ertesi yılın sonunda geçerli olmak üzere sözleşmeyi feshettiğini bildirebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 602: çalışanlara süresiz kefalette kefil, her üç yılda bir, ertesi yılın sonunda geçerli olmak üzere sözleşmeyi feshettiğini bildirebilir. Yaygın yanılgı, yıllık serbest fesih sanılması veya yalnız 10 yıl kuralına bakılmasıdır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "X Ltd. Şti. (B), Güvenli Banka'dan (A) genel kredi kullanmaktadır. Gerçek kişi Ayşe (K), 1 Nisan 2016'da A'ya karşı, kendi el yazısıyla azamî **400.000 TL** limit ve müteselsil kefil sıfatını belirterek kefalet sözleşmesini imzalamıştır. Sözleşmenin matbu bir hükmünde şunlar yazmaktadır: \"Kefil, kefaletten önce doğmuş bütün borçlardan ve ayrıca **50.000 TL ceza koşulundan** da sorumludur.\" Sözleşmede kefalet süresi için \"20 yıl\" ifadesi yer almaktadır; sonradan hiçbir uzatma açıklaması yapılmamıştır.\n\nB, 2024 başında faiz ödemelerini durdurmuş ve ödemeler **sekiz ay** boyunca yapılmamıştır; A bu durumu K'ya hiç bildirmemiştir. A, K'ya karşı 12 Mayıs 2025'te toplam **520.000 TL** (anapara, faiz ve masraf) üzerinden icra takibi başlatmıştır.\n\n1. K'nın azamî sorumluluğu ve kefaletten önceki borçlar bakımından durumu nedir?\n2. 50.000 TL ceza koşulu kaydı geçerli midir?\n3. A'nın K'ya bildirim yapmaması K'nın hukukunu nasıl etkiler?\n4. 20 yıllık süre yazımı ve takip tarihi bakımından K'nın durumu nedir? Süre sonradan nasıl uzatılabilir?",
+   "rubric": [
+    {
+     "point": "Azamî miktar sınırı: K her durumda 400.000 TL'ye kadar sorumludur; 520.000 TL'nin fazlası talep edilemez",
+     "weight": 20,
+     "madde_ref": "TBK m. 589"
+    },
+    {
+     "point": "Kefaletten önceki borçlara sorumluluk açıkça kararlaştırıldığı için geçerlidir (limit içinde)",
+     "weight": 15,
+     "madde_ref": "TBK m. 589"
+    },
+    {
+     "point": "Ceza koşulundan sorumluluk anlaşması kesin hükümsüzdür",
+     "weight": 20,
+     "madde_ref": "TBK m. 589"
+    },
+    {
+     "point": "Altı aylık gecikmenin kefile bildirilmemesi: alacaklı kefilin zararı oranında haklarını kaybeder",
+     "weight": 15,
+     "madde_ref": "TBK m. 594"
+    },
+    {
+     "point": "Gerçek kişi kefaleti 10 yılda kendiliğinden biter; 20 yıllık yazım geçersiz, takip 10 yıl dolmadan yapıldığından geçerli",
+     "weight": 20,
+     "madde_ref": "TBK m. 598"
+    },
+    {
+     "point": "Uzatma ancak bitişten en erken bir yıl önce, kefalet şekline uygun yazılı açıklamayla, en çok 10 yıl için yapılabilir",
+     "weight": 10,
+     "madde_ref": "TBK m. 598"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, gerçek kişi tarafından verilmiş, müteselsil ve limitli bir banka kefaletinin kapsamı, ceza koşulu, alacaklının bildirim yükü ve süre sorunlarını içerir. Kefalet TBK m. 583 şekline uygun yazılmıştır; şekil sorunu yoktur.\n\n**Hukuki sorunlar:** (1) Kefilin sorumluluk kapsamı ve önceki borçlar. (2) Ceza koşulu anlaşmasının geçerliliği. (3) Alacaklının bildirim yükümlülüğü. (4) 10 yıllık sürenin işleyişi ve uzatma.\n\n**İlgili hükümler:** TBK m. 589/1: kefil her durumda azamî miktara kadar sorumludur. TBK m. 589/3: açıkça kararlaştırılmışsa kefaletten önceki borçlardan da sorumluluk mümkündür. TBK m. 589/4: ceza koşulundan sorumluluk anlaşmaları kesin hükümsüzdür. TBK m. 594/1 ve TBK m. 594/3: altı aylık gecikmede bildirim yükü, ihlalde zarar miktarınca hak kaybı. TBK m. 598/3-5: gerçek kişi kefaleti on yılda biter, uzatma kuralları.\n\n**Değerlendirme:** Takip konusu 520.000 TL'nin 400.000 TL'yi aşan kısmı için K sorumlu değildir; limit kefilin el yazısıyla belirttiği tavandır. Kefaletten önceki borçlar sözleşmede açıkça kararlaştırıldığı için bu borçlar limit içinde K'ya yöneltilebilir. 50.000 TL ceza koşulu kaydı ise kesin hükümsüzdür; K bu yüzden tavan içinde dahi ceza koşulundan sorumlu tutulamaz. Sekiz aylık faiz gecikmesi altı ayı aşmıştır; A durumu bildirmeyerek TBK m. 594 yükümünü ihlal etmiştir. Sonuç, K'nın bu yüzden uğradığı zarar miktarınca A'nın K'ya karşı haklarını kaybetmesidir. Zararın ispatı ve kapsamı olayın somut verilerine bağlıdır. Süre bakımından, kefalet 1 Nisan 2016'da kurulduğundan on yıllık süre 1 Nisan 2026'da dolar. 20 yıllık yazım bu sınırı aşamaz. Takip 12 Mayıs 2025'te, yani süre dolmadan başlatıldığından kefil bakımından geçerlidir. Olayda uzatma açıklaması yoktur. Uzatma yapılacaksa bitişten en erken bir yıl önce (1 Nisan 2025'ten itibaren), K'nın kefalet şekline uygun yazılı açıklamasıyla ve en çok on yıllık yeni dönem için yapılabilirdi.\n\n**Sonuç:** K, 400.000 TL ile sınırlı sorumludur; önceki borçlar limit içinde istenebilir, ceza koşulu istenemez. A bildirim yükümlülüğünü ihlal ettiği ölçüde K'nın zararından sorumlu olur. Kefalet 10 yıl dolunca kendiliğinden sona erer; 20 yıllık yazım geçersizdir."
+  },
+  {
+   "stem_md": "Banka (A), Y Ltd. Şti.'ye (B) 600.000 TL kredi vermiştir. Gerçek kişi Zeynep (K), B'ye kefil olmuştur. A'nın elinde, kefalet sırasında var olan ve B'nin taşınmazı üzerinde kurulu bir ipotek vardır. B'nin mali durumu giderek bozulmuş, borç muaccel olmuştur.\n\nK, B'nin durumunu görünce B'den güvence verilmesini ve borçtan kurtarılmasını istemiş, B bu talebe cevap vermemiştir. Bunun üzerine K, borcun tamamını A'ya ödemiştir. A, K'ya tahsilat makbuzu vermiş, ancak ipotek belgelerini teslim etmeyi ihmal etmiştir. K, ödemeyi B'ye bildirmemiştir. B, ödemeden habersiz olarak bir hafta sonra aynı borcu A'ya yeniden ödemiş, A bu ikinci ödemeyi kabul etmiştir.\n\n1. K'nın ödemeden önceki hakları nelerdir?\n2. K ödeme yapınca hangi haklara geçer? İpotek bakımından durum nedir?\n3. A'nın belge ve rehin teslimi yükümü nedir?\n4. K'nın B'ye karşı durumu ve A'ya karşı hakkı nedir?",
+   "rubric": [
+    {
+     "point": "Mali durumun kötüleşmesi hâlinde kefilin borçludan güvence ve muaccel borçta borçtan kurtarılma isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 595"
+    },
+    {
+     "point": "Kefil ödediği ölçüde alacaklının haklarına kanunen halef olur",
+     "weight": 20,
+     "madde_ref": "TBK m. 596"
+    },
+    {
+     "point": "Kefalet anında var olan ipoteğe halefiyet",
+     "weight": 15,
+     "madde_ref": "TBK m. 596"
+    },
+    {
+     "point": "Alacaklının borç senetlerini, bilgileri ve rehinleri kefile teslim etme yükümü",
+     "weight": 15,
+     "madde_ref": "TBK m. 592"
+    },
+    {
+     "point": "Ödemeyi bildirmeyen kefil, ödemeyi bilmeyen borçlu yeniden öderse rücu hakkını kaybeder",
+     "weight": 20,
+     "madde_ref": "TBK m. 597"
+    },
+    {
+     "point": "Kefilin alacaklıya karşı sebepsiz zenginleşme davası hakkının saklı olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 597"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, kefilin ödemeden önceki hakları, ödemeyle halefiyet, alacaklının belge teslim yükümü ve kefilin ödemeyi bildirme yükünü kapsar.\n\n**Hukuki sorunlar:** (1) Kefilin borçludan güvence ve kurtarılma isteme hakkı. (2) Halefiyet ve rehne etkisi. (3) Alacaklının teslim yükümü. (4) Bildirimin yapılmamasının sonucu.\n\n**İlgili hükümler:** TBK m. 595/3 borçlunun mali durumunun kötüleşmesi hâlinde güvence ve muaccel borçta borçtan kurtarılma hakkı verir. TBK m. 596/1 ifa ölçüsünde halefiyeti, TBK m. 596/2 kefalet anında var olan rehinlere halefiyeti düzenler. TBK m. 592/3 alacaklıya senet, bilgi ve rehin teslimi yükler. TBK m. 597 ödemeyi bildirmeyen kefilin rücu kaybını ve sebepsiz zenginleşme davasını düzenler.\n\n**Değerlendirme:** B'nin mali durumunun kötüleşmesi ve borcun muaccel olması sebebiyle K, borçludan güvence ve borçtan kurtarılmayı isteyebilir; B'nin cevapsız kalması K'yı ödemekten alıkoymaz. K, 600.000 TL'yi ödeyince A'nın haklarına ödeme ölçüsünde kanunen halef olur; alacaklının rızası aranmaz. Kefalet sırasında var olan ipotek K'ya geçer, çünkü TBK m. 596/2 bu tür güvencelere halefiyeti tanır. A, kefile belgeleri, bilgileri ve ipoteğin devri için gereken işlemleri vermekle yükümlüdür; teslimi ihmal etmesi bu yükümün ihlalidir. Asıl sorun bildirimdir: K ödemeyi B'ye bildirmemiş, B de ödemeden habersiz ve bilmesi gerekmeden aynı borcu ikinci kez ödemiştir. TBK m. 597/2 uyarınca K, rücu hakkını kaybeder. Ancak aynı borç iki kez tahsil edildiğinden A haksız zenginleşmiş olur; K'nın A'ya karşı sebepsiz zenginleşmeden doğan dava hakkı saklıdır (TBK m. 597/3).\n\n**Sonuç:** K, ödeme öncesinde B'den güvence ve kurtarılma isteyebilirdi. Ödemeyle A'nın haklarına ve kefalet anındaki ipoteğe halef olmuştur; A teslim yükümünü yerine getirmelidir. Bildirim yapılmadığı için B'ye rücu hakkını kaybetmiş, buna karşılık A'ya sebepsiz zenginleşme davası açabilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Kefil hangi tutara kadar sorumludur?",
+   "back_md": "Her durumda sözleşmede belirtilen azamî miktara kadar. Aksi kararlaştırılmamışsa asıl borç, masraflar ve işlemiş bir yıllık ile işlemekte olan yıla ait akdî faiz bu tavanın içindedir (TBK m. 589/1)."
+  },
+  {
+   "front_md": "Kefil ceza koşulundan sorumlu olabilir mi?",
+   "back_md": "Hayır. Kefilin ceza koşulundan veya asıl borcun hükümsüzlüğünün sebep olduğu zarardan sorumlu olacağına dair anlaşma kesin hükümsüzdür (TBK m. 589/4)."
+  },
+  {
+   "front_md": "Borçlu iflas edince kefil hemen takip edilir mi?",
+   "back_md": "Hayır. İflas yüzünden asıl borç daha önce muaccel olsa bile belirlenen vadeden önce kefile karşı takip yapılamaz (TBK m. 590/1)."
+  },
+  {
+   "front_md": "Borcun muacceliyeti ihbara bağlıysa kefil için süre ne zaman başlar?",
+   "back_md": "Bildirimin kefile yapıldığı tarihte (TBK m. 590/3)."
+  },
+  {
+   "front_md": "Kefil def'i ileri sürmek zorunda mıdır?",
+   "back_md": "Evet; hem hakkı hem zorunluluğu vardır. Borçlu def'iden vazgeçse bile kefil ileri sürebilir (TBK m. 591/1 ve TBK m. 591/2)."
+  },
+  {
+   "front_md": "Kumar borcuna bilerek kefil olan kişi def'i ileri sürebilir mi?",
+   "back_md": "Evet, bilmesine rağmen ileri sürebilir (TBK m. 591/4)."
+  },
+  {
+   "front_md": "Alacaklı ağır kusuruyla rehni elden çıkarırsa ne olur?",
+   "back_md": "Haklı sebebi yoksa kefil borcundan kurtulur; ödediğini ve ek zararını geri isteyebilir (TBK m. 592/4)."
+  },
+  {
+   "front_md": "Alacaklı haklı sebep olmadan kefilin ödemesini kabul etmezse?",
+   "back_md": "Muaccel borçta kefil borcundan kurtulur; birlikte müteselsil kefalette sorumluluk kefilin payı kadar azalır (TBK m. 593/2)."
+  },
+  {
+   "front_md": "Kefilin rücu zamanaşımı ne zaman başlar?",
+   "back_md": "Kefilin alacaklıya ifada bulunduğu anda (TBK m. 596/5)."
+  },
+  {
+   "front_md": "Ödemeyi borçluya bildirmeyen kefilin sonucu nedir?",
+   "back_md": "Bilmeyen borçlu da alacaklıya öderse rücu hakkını kaybeder; alacaklıya karşı sebepsiz zenginleşme davası saklıdır (TBK m. 597)."
+  },
+  {
+   "front_md": "Gerçek kişi kefaleti kaç yılda biter ve nasıl uzatılır?",
+   "back_md": "Kuruluştan 10 yıl sonra kendiliğinden biter. Uzatma, bitişten en erken bir yıl önce, kefaletin şekline uygun yazılı açıklamayla en çok 10 yıl için yapılır (TBK m. 598/3-5)."
+  },
+  {
+   "front_md": "Çalışanlara süresiz kefalette fesih nasıl olur?",
+   "back_md": "Kefil her üç yılda bir, ertesi yılın sonunda geçerli olmak üzere sözleşmeyi feshettiğini bildirebilir (TBK m. 602)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
