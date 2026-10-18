@@ -70,7 +70,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 19 | tasinir-mulkiyetinin-diger-kazanma-yollari | bitti | bulutta araştırma-yazma-denetim; denetçi 6 küçük düzeltme (TMK m. 771/3 "bulan sayılan" yer sahibi/kiracı/kurum); ana oturum olay 2'deki bahçe-"oturulan ev" cümlesini yumuşattı; yüklenmedi |
 | 20 | tasinmaz-irtifaki | bitti | bulutta araştırma-yazma-denetim; denetçi 7 küçük düzeltme (karar 3 özetinde olaya özgü sonucun genellenmesi, "İBK yoktur" → bulunamadı); yüklenmedi |
 | 21 | intifa-ve-oturma-hakki | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (TMK m. 813/1 faizler, şerhli kiranın etkisi m. 1009/2, karar 3'te onanan BAM kararı); yüklenmedi |
-| 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bekliyor | |
+| 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bitti | bulutta araştırma-yazma-denetim; denetçi 9 düzeltme (karar 1180984700 özetinde alt mahkemelere yüklenen m. 829/1 gerekçesi, olay 3'te sicil miktarı çelişkisi TMK m. 846); yüklenmedi |
 | 23 | tasinmaz-rehni-genel-hukumler | bekliyor | |
 | 24 | ipotek-ve-kanuni-ipotek | bekliyor | |
 | 25 | ipotekli-borc-senedi-ve-irat-senedi | bekliyor | |

@@ -1,0 +1,885 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Sınırlı Ayni Haklar: İrtifaklar ve Taşınmaz Yükü",
+ "topic_index": 3,
+ "slug": "ust-hakki-kaynak-hakki-ve-tasinmaz-yuku",
+ "title": "Üst Hakkı (Bağımsız ve Sürekli), Kaynak Hakkı, Diğer İrtifaklar ve Taşınmaz Yükü",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T00:00:43.217598+00:00",
+ "skill_refs": [
+  "esya-hukuku/irtifak-haklari"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Üst hakkı, kaynak hakkı ve diğer irtifakların kuruluşunu, süresini ve sona ermesini; ayrıca taşınmazın değeriyle güvenceli \"ver ya da yap\" yükümlülüğü olan **taşınmaz yükünü**.\n\n- **Üst hakkı (TMK m. 826/1):** Malik, üçüncü kişi lehine arazisinin altında veya üstünde yapı yapma ya da mevcut yapıyı muhafaza etme yetkisi veren bir irtifak kurar. Üst hakkına dayanılarak sürekli kalmak üzere yapılan yapının mülkiyeti hak sahibine aittir (TMK m. 726/1). Kuruluş: resmî senet ve tescil (TMK m. 780 ve TMK m. 781).\n- **Devir:** Aksi kararlaştırılmadıkça üst hakkı ve kaynak hakkı devredilir, mirasçılara geçer (TMK m. 826/2, TMK m. 837/2). Diğer irtifaklarda kural tersidir (TMK m. 838/2).\n- **Ayrı sayfaya kayıt:** Bağımsız ve sürekli üst hakkı, hak sahibinin istemiyle taşınmaz olarak kütüğe kaydedilebilir. **En az otuz yıl** için kurulan hak süreklidir (TMK m. 826/3, TMK m. 998/3). Kayıt zorunlu değil, imkândır. Ayrı sayfaya kayıtlı hak taşınmazdır (TMK m. 704).\n- **Süre:** Bağımsız hak olarak **en çok yüz yıl**. Sürenin dörtte üçü dolduktan sonra, kuruluş şekliyle, en çok yüz yıllık yeni süre için uzatılabilir; önceden verilen taahhüt bağlayıcı değildir (TMK m. 836).\n- **İçerik:** Resmî senetteki yapıya ve özgülenme amacına ilişkin kayıtlar herkes için bağlayıcıdır (TMK m. 827).\n- **Sona erme:** Yapılar malike kalır (TMK m. 828/1). Aksi kararlaştırılmadıkça malik bedel ödemez (TMK m. 829/1). Ayrı sayfa kapanır, rehin ve diğer haklar sona erer (TMK m. 828/2). Bedel için ipotek, sona ermeden itibaren **üç ay içinde** tescil edilir (TMK m. 829/3).\n- **Süresinden önce devir:** Yalnız **malik** isteyebilir; şart, yetkilerin ağır aşılması veya yükümlülüklere önemli ölçüde aykırılıktır. Malik uygun bedel öder; devir bedelin ödenmesine veya güvenceye bağlıdır (TMK m. 831 ve TMK m. 832).\n- **İrat güvencesi:** Malik, en çok üç yıllık irat için üst hakkının ipoteğini isteyebilir; ipotek icra satışında terkin olunmaz (TMK m. 834 ve TMK m. 835).\n- **Kaynak hakkı (TMK m. 837):** Malik suyun alınmasına ve akıtılmasına katlanır. Bağımsız ve en az otuz yıllıksa ayrı sayfaya kaydedilebilir.\n- **Diğer irtifaklar (TMK m. 838):** Spor alanı, geçit gibi belirli yararlanma; kapsam olağan ihtiyaçlara göre belirlenir.\n- **Taşınmaz yükü (TMK m. 839):** Malik, yalnız **o taşınmazla sorumlu** olmak üzere bir şey vermek veya yapmakla yükümlüdür. Kurulması için tescil şarttır (TMK m. 840/1). Dönemsel edimde sicile aksi kararlaştırılmadıkça **yıllık edimin yirmi katı** yazılır (TMK m. 840/2).\n- **Nitelik:** Kişisel alacak vermez (TMK m. 848/1). Yeni malik kendiliğinden yükümlü olur (TMK m. 849/1). Yük zamanaşımına tabi değildir (TMK m. 847/1); edim muacceliyetten üç yıl sonra kişisel borca dönüşür (TMK m. 848/2).\n- **Yükten kurtarma:** Alacaklı üç hâlde isteyebilir: bölünme, değer düşürme, üç yıl üst üste edimsizlik (TMK m. 844). Yükümlü, otuz yıl geçmişse ve bir yıl önce bildirirse isteyebilir (TMK m. 845). Bedel sicildeki miktardır (TMK m. 846).",
+  "content_md": "## 0. Konunun haritası\n\n**Üst hakkı, kaynak hakkı ve diğer irtifaklar** başkasının taşınmazından yararlanma yetkisi veren sınırlı ayni haklardır. **Taşınmaz yükü** ise bir **edim borcunu** taşınmaza bağlayan, kendine özgü bir ayni haktır. İkisi de kural olarak tescille doğar; kamu hukukuna ilişkin taşınmaz yükü bunun istisnasıdır (TMK m. 841/1).\n\n| Kurum | Ne sağlar? | Ana madde |\n|---|---|---|\n| Üst hakkı | Başkasının arazisinde yapı sahibi olma | TMK m. 826 vd. |\n| Kaynak hakkı | Başkasının arazisindeki kaynaktan su alma | TMK m. 837 |\n| Diğer irtifaklar | Belirli bir yararlanma (spor alanı, geçit vb.) | TMK m. 838 |\n| Taşınmaz yükü | Taşınmazın değeriyle güvenceli \"ver ya da yap\" borcu | TMK m. 839 vd. |\n\n## 1. Üst hakkı: kavram ve kuruluş\n\n**Üst hakkı**, malikin üçüncü kişi lehine arazisinin altında veya üstünde yapı yapma ya da mevcut bir yapıyı muhafaza etme yetkisi veren irtifak hakkıdır (TMK m. 826/1). \"Altında **veya** üstünde\" ifadesi yer altı deposunu, \"mevcut bir yapıyı **muhafaza etmek**\" ifadesi ise yapıyı hak sahibinin kendisi inşa etmek zorunda olmadığını gösterir.\n\n> **Örnek:** Mehmet, arsası üzerinde bir vakıf lehine 49 yıllık üst hakkı kurar; vakıf hastane yapar. Hastane binası 49 yıl boyunca vakfındır. Aynı arsanın altında depo yapma yetkisi veren ya da arsadaki eski bir binayı muhafaza yetkisi veren bir üst hakkı da kurulabilir.\n\n**Yapının mülkiyeti kime ait?** Üst hakkı olmadığında başkasının arazisindeki yapı arazinin bütünleyici parçası olur (bu durum ayrı bir konudur). Üst hakkı istisnadır: Üst irtifakına dayalı olarak başkasına ait arazinin altında veya üstünde sürekli kalmak üzere yapılan yapıların mülkiyeti **irtifak hakkı sahibine** ait olur (TMK m. 726/1). Böylece arazi ve yapı ayrı kişilere ait olabilir. Bunun bir sınırı vardır: Bağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz (TMK m. 726/3).\n\n> **Örnek:** Kat mülkiyeti kurulmuş bir apartmandaki 5 numaralı daire üzerinde Ali lehine üst hakkı kurulamaz.\n\n**Kuruluş.** Üst hakkı bir irtifaktır. İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır (TMK m. 780/1) ve kurma sözleşmesinin geçerliliği resmî şekilde düzenlenmesine bağlıdır (TMK m. 781). Resmî senet tapuda düzenlenir (2644 sayılı Kanun m. 26). TMK m. 826'da ayrı bir şekil hükmü yoktur; yine de üst hakkı sözleşmesinin resmî şekle tabi olduğunu söyleyebilirsin. Bedele ve eski hâle getirmeye ilişkin anlaşmalar da bu resmî şekle tabidir (TMK m. 830).\n\n## 2. Devredilebilirlik ve mirasçılara geçiş\n\nAksi kararlaştırılmış olmadıkça üst hakkı **devredilebilir ve mirasçılara geçer** (TMK m. 826/2). Taraflar sözleşmede devri kısıtlayabilir; ancak aşağıda göreceğimiz gibi, devri kısıtlanmış hak \"bağımsız\" sayılmayabilir.\n\nAynı \"aksi kararlaştırılmadıkça devredilir\" kuralı kaynak hakkında da vardır (TMK m. 837/2). Diğer irtifaklarda ise tersi geçerlidir (TMK m. 838/2).\n\n| Hak | Aksi kararlaştırılmadıkça | Madde |\n|---|---|---|\n| Üst hakkı | Devredilir, mirasçılara geçer | TMK m. 826/2 |\n| Kaynak hakkı | Devredilir, mirasçılara geçer | TMK m. 837/2 |\n| Diğer irtifaklar | Devredilmez, mirasçılara geçmez | TMK m. 838/2 |\n| Oturma hakkı | Devredilmez, mirasçılara geçmez (metinde \"aksi kararlaştırılmadıkça\" kaydı yok) | TMK m. 823/2 |\n\n> ⚠️ **Sınavda dikkat:** Köy derneği lehine futbol sahası olarak kullanma irtifakı kurulmuş ve sözleşmede devirle ilgili hüküm yoksa dernek hakkını devredemez (TMK m. 838/1-2). Üst hakkında aynı sessizlik, devredilebilirlik anlamına gelir.\n\n## 3. Bağımsız ve sürekli hak olarak ayrı sayfaya kayıt\n\nTaşınmaz mülkiyetinin konuları şunlardır: arazi, tapu kütüğünde **ayrı sayfaya kaydedilen bağımsız ve sürekli haklar** ve kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler (TMK m. 704). Tapu siciline taşınmaz olarak kaydedilenler arasında da \"taşınmazlar üzerindeki bağımsız ve sürekli haklar\" sayılır (TMK m. 998). Üst hakkı bu hakların tipik örneğidir.\n\nŞartlar TMK m. 826/3'te toplanmıştır:\n1. Üst hakkı **bağımsız ve sürekli** nitelikte olmalı.\n2. **Üst hakkı sahibi** kayıt istemelidir.\n3. En az **otuz yıl** için kurulan üst hakkı sürekli sayılır. TMK m. 998/3'e göre süreklilik için hakkın süresiz veya en az otuz yıl süreli olması gerekir.\n\nKayıt usulü ve koşulları Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir (TMK m. 998/3). Eski kaynaklarda burada \"tüzük\" yazar. Yönetmeliğin ayrıntısı bu notun konusu değildir.\n\n**Bağımsızlık** nedir? Kanun tanım vermez. Yargıtay'ın bu konuda incelediğimiz bir kararında, bağımsızlık için hakkın devrinin taraflarca kısıtlanmamış olması gerektiği belirtilmiştir.\n\n> **Örnek:** Ali, arsasında X Otelcilik A.Ş. lehine 40 yıllık, devri kısıtlanmamış üst hakkı kurar; şirket isterse hak ayrı sayfaya kaydedilir. Hak 25 yıllık olsaydı geçerli olurdu, ama kaydedilemezdi.\n\n> ⚠️ **Sınavda dikkat:** Ayrı sayfaya kayıt **zorunlu değildir**. Kanun \"kaydedilebilir\" der ve hak sahibinin istemini arar. Ayrı sayfası olmayan üst hakkı da tescille kurulmuş geçerli bir irtifaktır. \"Sürekli\" için ölçü otuz yıldır; yüz yıl ise başka bir şeyin, azami sürenin sınırıdır.\n\n**Ayrı sayfaya kaydın faydası:** Hak taşınmaz gibi işlem görür. Aynı kararın gerekçesine göre ayrı sayfadaki hak devredilebilir, mirasçılara geçer, paylı mülkiyete konu olur, irtifak ve rehinle yüklenebilir. Kanun da taşınmaz olarak kaydedilmiş üst hakkı üzerindeki rehin haklarından söz eder (TMK m. 828/2) ve bu hakkın ipotek edilmesini öngörür (TMK m. 834/1).\n\n## 4. İçerik ve kapsam (TMK m. 827)\n\nÜst hakkının içeriği ve kapsamı büyük ölçüde sözleşmeyle belirlenir. Resmî senette yer alan ve özellikle şunlara ilişkin kayıtlar **herkes için bağlayıcıdır** (TMK m. 827):\n- yapının konumu, şekli, niteliği ve boyutları,\n- özgülenme amacı (konut mu, otel mi, hastane mi),\n- üzerinde yapı bulunmayan alandan yararlanma.\n\n\"Özellikle\" sözcüğü sayımın örnek niteliğinde olduğunu gösterir. \"Herkes için bağlayıcı\" demek, kayıtların ayni etkili olduğu anlamına gelir: Hakkı sonradan devralan kişi de bunlara uymak zorundadır.\n\n> **Örnek:** Zeynep'in arazisindeki üst hakkının resmî senedinde yapının yalnız konut olarak kullanılacağı yazılıdır. Hakkı Mehmet'ten devralan Kemal de binayı eğlence merkezi yapamaz.\n\nYargıtay'ın incelediğimiz bir kararında kayıtların aşılmasının malikin mülkiyetine haksız el atma sayıldığı, malikin TMK m. 683'e veya TMK m. 1025'e dayanabileceği belirtilmiştir.\n\n## 5. Süre: otuz yıl ile yüz yıl\n\nOtuz ve yüz yılı karıştırmak sık yapılan bir hatadır.\n\n| Sayı | Anlamı | Madde |\n|---|---|---|\n| 30 yıl | Ayrı sayfaya kayıt için süreklilik eşiği | TMK m. 826/3, TMK m. 998/3 |\n| 100 yıl | Bağımsız hak olarak azami süre | TMK m. 836/1 |\n| Süresin 3/4'ü | Uzatma için beklenecek zaman | TMK m. 836/2 |\n\n**Azami süre.** Üst hakkı, bağımsız bir hak olarak en çok yüz yıl için kurulabilir (TMK m. 836/1). Kanun sınırı \"bağımsız bir hak olarak\" kurulan üst hakkı için koyar. Sınırın kişiye bağlı üst hakkını da kapsayıp kapsamadığı tartışmalıdır; doktrin bölümüne bak.\n\n**Uzatma.** Üst hakkı, süresinin dörtte üçü dolduktan sonra, kurulması için öngörülen şekle uyularak her zaman en çok yüz yıllık yeni bir süre için uzatılabilir. Bu konuda önceden yapılan taahhüt bağlayıcı değildir (TMK m. 836/2).\n\n> **Örnek:** Ali ile X Otelcilik A.Ş. 40 yıllık üst hakkı kurarken sözleşmeye \"süre bitince 40 yıl daha uzatılacaktır\" yazarsa, bu taahhüt bağlayıcı olmaz. Uzatma ancak sürenin dörtte üçü dolduktan sonra (40 yılın dörtte üçü 30 yıl eder; kendi hesabımız) ve yine resmî şekilde yapılabilir. 100 yıllık bir hakta bu eşik 75. yıldır (100 x 3/4; kendi hesabımız).\n\n## 6. Sona erme ve sonuçları\n\nTMK m. 828-830 üst hakkının **sona ermesinin sonuçlarını** düzenler; sona erme sebeplerini saymaz. Yargıtay'ın incelediğimiz bir kararında bu boşluk, irtifakın genel sona erme sebeplerinin kıyasen uygulanmasıyla doldurulmuştur: Süreli hak sürenin dolmasıyla, kişiye bağlı hak ölümle sona erer, hak sahibi tescilin terkini isteyebilir. İrtifak hakkı, tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla da sona erer (TMK m. 783). Aynî hak sona erip tescil değerini kaybederse yüklü taşınmazın maliki terkini isteyebilir (TMK m. 1026/1).\n\n### 6.1 Yapıların akıbeti (TMK m. 828/1)\nÜst hakkı sona erince yapılar arazi malikine kalır ve arazinin bütünleyici parçası olur. Hak sahibinin yapı üzerindeki mülkiyeti sona erer.\n\n### 6.2 Ayrı sayfanın akıbeti (TMK m. 828/2)\nAyrı sayfaya kaydedilmişse üst hakkı sona erince bu sayfa **kapatılır**. Sayfadaki rehin hakları ile diğer bütün hak, kısıtlama ve yükümlülükler de sayfanın kapatılmasıyla sona erer. Bedele ilişkin hükümler saklıdır.\n\n> **Örnek:** Y Bankası, X Otelcilik A.Ş.'nin ayrı sayfadaki üst hakkı üzerinde ipotek sahibidir. Süre dolup sayfa kapanınca ipotek de sona erer; bedel kararlaştırılmışsa banka onun güvencesinden yararlanır (aşağıda).\n\n### 6.3 Bedel (TMK m. 829)\n- **Kural:** Taşınmaz maliki, aksi kararlaştırılmadıkça, kendisine kalan yapılar için üst hakkı sahibine bedel ödemez (TMK m. 829/1). Yani bedel kural değil, istisnadır.\n- Uygun bir bedel kararlaştırılmışsa miktarı ve hesaplanış biçimi belirlenir.\n- **Rehinli hak:** Kararlaştırılan bedel, üst hakkı kendileri için rehnedilmiş alacaklıların henüz ödenmemiş alacaklarının güvencesidir. Bu alacaklıların rızası olmadan üst hakkı sahibine ödenmez (TMK m. 829/1).\n- **Bedel ödenmez ya da güvence altına alınmazsa:** Üst hakkı sahibi veya rehin alacaklısı, terkin edilen üst hakkı yerine aynı derecede ve sırada bir ipoteğin tescilini isteyebilir (TMK m. 829/2). Bu ipotek, üst hakkının sona ermesinden başlayarak **üç ay içinde** tescil edilir (TMK m. 829/3).\n- Bedelin miktarı ve hesaplanış biçimi, bedel borcunun kaldırılmasına ve arazinin ilk hâline getirilmesine ilişkin anlaşmalar resmî şekle tabidir ve tapu kütüğüne şerh verilebilir (TMK m. 830).\n\n> ⚠️ **Sınavda dikkat:** Süre dolunca yapılar bedelsiz malike kalır; bedel ancak kararlaştırılmışsa ödenir (TMK m. 829/1). Malikin **süresinden önce devir** istediği durumda ise uygun bedel kanunun öngördüğü bir şarttır (TMK m. 832/1). Bu iki bedeli karıştırma.\n\n## 7. Süresinden önce devir (TMK m. 831-833)\n\nÜst hakkı sahibi yükümlülüklerine aykırı davranırsa malikin elinde tek seçenek hakkın bitmesini beklemek değildir. **Süresinden önce devir isteme** hakkı malike tanınmıştır.\n\n**Şartlar (TMK m. 831).** Üst hakkı sahibi:\n- bu haktan doğan yetkilerinin sınırını **ağır şekilde aşarsa** veya\n- sözleşmeden doğan yükümlülüklerine **önemli ölçüde aykırı** davranırsa,\n\nmalik, üst hakkının ona bağlı bütün hak ve yükümlülükleri ile birlikte süresinden önce kendisine devrini isteyebilir. İstem hakkı **yalnız malike** tanınmıştır.\n\n**Bedel (TMK m. 832).** Malik, devri kendisine geçecek yapılar için **uygun bir bedel ödemek** kaydıyla ister. Üst hakkı sahibinin kusuru, bedelin belirlenmesinde indirim sebebi olarak göz önüne alınabilir. Devir, bedelin ödenmesine veya güvence altına alınmış olmasına bağlıdır (TMK m. 832/2).\n\n**Sözleşmedeki saklı yetki (TMK m. 833).** Sözleşmede malik lehine, üst hakkı sahibinin yükümlülüklerine aykırı davranması hâlinde üst hakkını süresinden önce sona erdirme veya devrini isteme yetkisi saklı tutulmuşsa, bu yetki de süresinden önce devir hükümlerine tabidir.\n\n> **Örnek:** Zeynep'in arazisindeki 60 yıllık, ayrı sayfaya kayıtlı üst hakkının resmî senedinde yapının yalnız konut olarak kullanılacağı yazılıdır. Hak sahibi Mehmet binanın tamamını izinsiz eğlence merkezine çevirir ve uyarılara rağmen sürdürür. Aykırılık yeterince ağırsa Zeynep hakkın kendisine devrini isteyebilir, ama yapılar için uygun bedel öder; Mehmet'in kusuru bu bedelden indirim sebebi olabilir. Bedel ödenmeden ya da güvenceye bağlanmadan devir gerçekleşmez.\n\nYargıtay'ın incelediğimiz bir kararında (tek bir kararın gerekçesidir, yerleşik içtihat sayılmaz) TMK m. 831 emredici sayılmış; erken devir, ilişkinin malik için çekilmez hâle geldiği ağır ihlale bağlanmış ve TMK m. 2 ile TMK m. 4 çerçevesinde hâkimce değerlendirileceği belirtilmiştir. Aynı gerekçede erken devir hakkı yenilik doğuran hak, bedelin ödenmesi veya güvenceye bağlanması ise hakkın doğum şartı değil, devir borcuna karşı bir def'i sayılmış; bedel de tazminat değil, malike geçecek yapıların karşılığı olarak nitelendirilmiştir.\n\n> ⚠️ **Sınavda dikkat:** Üst hakkı sahibinin kendi isteğiyle erken çıkışı TMK m. 831'in konusu değildir. Kanunda üst hakkı sahibine fesih yetkisi veren özel hüküm yoktur; bu durumda bedel meselesi tartışmalıdır (doktrin bölümüne bak).\n\n## 8. İrat güvencesi ipoteği (TMK m. 834-835)\n\nÜst hakkı karşılığında bedel, tek seferde değil yıllık **irat** biçiminde borçlanılmış olabilir. Malik, bu edimleri güvence altına almak için o tarihteki üst hakkı sahibinden, **en çok üç yıllık irat** için, taşınmaz olarak kaydedilmiş üst hakkının ipotek edilmesini isteyebilir (TMK m. 834/1). İrat her yıl için eşit edimler biçiminde belirlenmemişse bu kanunî ipoteğin tescili, iradın eşit olarak dağıtılmasında üç yıla düşecek miktar için istenebilir (TMK m. 834/2).\n\nBu ipotek, üst hakkı devam ettiği sürece her zaman tescil edilebilir ve icra yoluyla satışta terkin olunmaz (TMK m. 835/1). Yapı alacaklıları ipoteğinin kurulmasına ilişkin hükümler kıyas yoluyla uygulanır (TMK m. 835/2); hangi kuralların uygulanacağı tartışmalıdır.\n\nİki ipoteği ayır:\n\n| Ölçüt | TMK m. 829 ipoteği | TMK m. 834-835 ipoteği |\n|---|---|---|\n| Neyi güvenceler? | Süre sonundaki bedel alacağını | Üst hakkı karşılığı irat edimlerini |\n| Ne zaman? | Hak sona erdikten sonra, üç ay içinde | Hak devam ettiği sürece her zaman |\n| Nasıl? | Terkin edilen hakkın yerine, aynı derece ve sırada | Üst hakkı üzerinde, en çok üç yıllık irat için |\n\n## 9. Kaynak hakkı (TMK m. 837)\n\nKaynak, bulunduğu arazinin bütünleyici parçasıdır (TMK m. 756/1). Başkasının arazisinde bulunan kaynaklar üzerindeki hak, bir irtifak olarak tapu kütüğüne tescille kurulur (TMK m. 756/2). **Kaynak hakkı** da malikin suyun alınmasına ve akıtılmasına katlanmakla yükümlü olduğu irtifaktır (TMK m. 837/1).\n\n- Aksi kararlaştırılmadıkça başkasına devredilebilir ve mirasçıya geçer (TMK m. 837/2).\n- Hak **bağımsız nitelikte ve en az otuz yıl için kurulmuşsa** tapu kütüğüne taşınmaz olarak kaydedilebilir (TMK m. 837/3).\n\n> **Örnek:** Ahmet, Fatma'nın arazisindeki kaynaktan 35 yıl süreyle su alma hakkı kazanır; hak bağımsızsa ayrı sayfaya kayıt isteyebilir.\n\n> ⚠️ **Sınavda dikkat:** TMK m. 837/3 \"sürekli\" sözcüğünü kullanmaz; \"bağımsız nitelikte ve en az otuz yıl için kurulmuş\" der.\n\n## 10. Diğer irtifaklar (TMK m. 838)\n\nMalik, taşınmazı üzerinde herhangi bir kişi veya topluluk lehine **belirli bir yararlanmaya** hizmet etmek üzere başka irtifaklar da kurabilir. Kanun örnek olarak atış eğitimini, spor alanı veya geçit olarak kullanılmayı sayar (TMK m. 838/1). Bunlar kural olarak **kişi lehine** irtifaklardır.\n- Aksi kararlaştırılmadıkça devredilemez ve mirasçılara geçmez (TMK m. 838/2).\n- Kapsam, hak sahibinin olağan ihtiyaçlarına göre belirlenir (TMK m. 838/2).\n- Taşınmaz lehine irtifaklara ilişkin hükümler bu irtifaklara da uygulanır (TMK m. 838/3).\n\n> **Örnek:** Gençlik kulübü lehine, komşu arsada antrenman yapma irtifakı kurulur. Kulüp bu hakkı başka bir kulübe devredemez.\n\n## 11. Taşınmaz yükü\n\n### 11.1 Kavram\n**Taşınmaz yükü**, bir taşınmazın malikini **yalnız o taşınmazla sorumlu olmak üzere** diğer bir kimseye bir şey vermek veya yapmakla yükümlü kılar (TMK m. 839/1). Hak sahibi olarak başka bir taşınmazın maliki de gösterilebilir (TMK m. 839/2).\n\nİki özelliği birlikte düşün: (1) borç, malik sıfatıyla taşınmaza bağlıdır; (2) sorumluluk **sadece o taşınmazla** sınırlıdır. Alacaklı malikin diğer mallarına başvuramaz.\n\n**Konu.** İrat senedi ve kamu hukukuna ilişkin taşınmaz yükleri saklı kalmak kaydıyla, yükün konusu ancak yüklü taşınmazın ekonomik niteliğinden doğan veya yararlanan taşınmazın ekonomik ihtiyaçlarını karşılayan bir edim olabilir (TMK m. 839/3).\n\n> **Örnek:** Ayşe'nin buğday tarlası üzerinde, komşu un değirmeninin maliki lehine her yıl 5 ton buğday verme yükümlülüğü taşınmaz yükü olarak tescil edilmiştir. Edim tarlanın ekonomik niteliğinden doğar ve değirmenin ihtiyacına hizmet eder.\n\n### 11.2 İrtifaktan fark\nYapma borçları irtifaka başlı başına konu olamaz; ona ancak yan edim olarak bağlanabilir (TMK m. 779/2). Taşınmaz yükünde ise asıl edim \"vermek veya yapmak\"tır (TMK m. 839/1).\n\n| Ölçüt | İrtifak | Taşınmaz yükü |\n|---|---|---|\n| Asıl konu | Yararlanma veya kullanma yetkisi | Vermek veya yapmak edimi |\n| Yapma borcu | Yalnız yan edim (TMK m. 779/2) | Asıl edim olabilir (TMK m. 839/1) |\n| Kuruluş | Tescil şart (TMK m. 780/1) | Tescil şart (TMK m. 840/1) |\n\n**İpotekten fark:** Taşınmaz yükünde kişisel alacak yoktur, sorumluluk taşınmazla sınırlıdır (TMK m. 839/1, TMK m. 848/1). Muaccel edim üç yıl ödenmezse kişisel borca döner ve taşınmazdan kopar (TMK m. 848/2).\n\n### 11.3 Kuruluş\n- **Tescil şarttır** (TMK m. 840/1). Taşınmaz yükünün kazanılmasında ve tescilinde, aksine hüküm yoksa taşınmaz mülkiyetine ilişkin hükümler uygulanır (TMK m. 840/3).\n- **Değer:** Tescilde yükün değeri olarak Türk parası veya yabancı para ile belirlenmiş bir miktar gösterilir. Dönemsel edimlerde sicilde gösterilecek miktar, aksi kararlaştırılmış değilse, **yıllık edimlerin yirmi katıdır** (TMK m. 840/2).\n\n> **Örnek:** Yıllık edimi 20.000 TL olan dönemsel yükte, aksi kararlaştırılmadıkça sicile 400.000 TL yazılır (20.000 x 20; kendi hesabımız).\n\n- **Kamu hukukuna ilişkin taşınmaz yükü:** Aksine hüküm yoksa tapu kütüğüne tescili gerekli değildir (TMK m. 841/1). Kanun alacaklıya yalnızca yükün kurulmasını isteme yetkisini tanıyorsa yük ancak tescille doğar (TMK m. 841/2).\n- **Güvence amacı:** Bir para alacağını güvence altına almak için kurulan taşınmaz yükü hakkında irat senedi hükümleri uygulanır (TMK m. 842). İrat senedi, taşınmaz üzerinde taşınmaz yükü şeklinde kurulmuş bir alacak hakkı meydana getirir ve kişisel borç doğurmaz (TMK m. 903). Ayrıntı ayrı bir konudur.\n\n### 11.4 Hükümleri\n- **Kişisel alacak yok:** Taşınmaz yükü alacaklıya yükümlüye karşı hiçbir kişisel alacak hakkı sağlamaz; sadece alacağını yüklü taşınmazın değerinden elde etme yetkisi verir (TMK m. 848/1).\n- **Üç yıl kuralı:** Her edim, muaccel olmasından başlayarak üç yıl sonra kişisel borç hâline gelir ve taşınmaz bu borcun güvencesi olmaktan çıkar (TMK m. 848/2).\n- **Malik değişirse:** Yeni malik, başka bir işleme gerek bulunmaksızın taşınmaz yükünün yükümlüsü olur (TMK m. 849/1). Yüklü taşınmaz bölünürse etkisi hakkında irat senedi hükümleri uygulanır (TMK m. 849/2); orada parsellerin malikleri irat senedinin borçlusu olur (TMK m. 908/1).\n- **Zamanaşımı:** Taşınmaz yükü zamanaşımına tabi değildir (TMK m. 847/1). Muaccel olan edimler ise borçlunun kişisel borcu hâline geldiği tarihten başlayarak zamanaşımına tabi olur (TMK m. 847/2). Hangi süre uygulanacağı bu notun konusu dışındadır.\n\n> ⚠️ **Sınavda dikkat:** \"Zamanaşımına tabi değildir\" yalnız **yükün kendisi** içindir. Muaccel edimler kişisel borca dönüşünce zamanaşımına girer.\n\n### 11.5 Sona erme ve yükten kurtarma\nTaşınmaz yükü, tescilin terkini veya yüklü taşınmazın tamamen yok olmasıyla sona erer (TMK m. 843/1). Feragat, yükten kurtarma ve diğer sona erme sebepleri, yüklü taşınmaz malikine hak sahibinden terkini isteme yetkisi verir (TMK m. 843/2).\n\n**Alacaklının yükten kurtarma isteme sebepleri (TMK m. 844).** Sözleşmeyle yetkili kılınmışsa ya da:\n1. yüklü taşınmaz, alacaklının haklarını önemli ölçüde tehlikeye düşürecek şekilde bölünmüşse,\n2. malik yüklü taşınmazın değerini düşürür ve yerine başka güvence göstermezse,\n3. malik birbiri ardına **üç yılın** edimlerini yerine getirmemişse.\n\n**Yükümlünün yetkisi (TMK m. 845).** Yükümlü sözleşmeyle yetkiliyse veya alacaklı yükü kuran sözleşmeye uymuyorsa ya da satın alınmamak kaydıyla veya otuz yıldan fazla süre için kurulmuş olsa bile yükün kurulmasının üzerinden **otuz yıl** geçmişse yükten kurtarmayı isteyebilir. Otuz yıl geçtikten sonra bu yetkinin kullanılması, alacaklıya **bir yıl önceden** bildirmeye bağlıdır (TMK m. 845/2).\n\n**Bedel (TMK m. 846).** Gerçek değerinin daha düşük olduğunu ispat hakkı saklı kalmak kaydıyla, yükten kurtarma taşınmaz yükünün değeri olarak tapu kütüğünde gösterilen miktar üzerinden gerçekleştirilir.\n\n> **Örnek:** Ayşe tarlasını Can'a satar. Can yeni malik olarak yükümlü olur. Can üç yıl üst üste buğdayı vermezse alacaklı yükten kurtarmayı isteyebilir. Kurtarma sicildeki miktar üzerinden yapılır; Can yükün gerçek değerinin daha düşük olduğunu ispatlayabilir.\n\n## 12. Denetim şeması\n\nOlayda sırayla sor:\n1. **Hak hangisi?** Yapı (üst hakkı), su (kaynak hakkı), belirli kullanım (diğer irtifak) veya taşınmazla sınırlı ver ya da yap borcu (taşınmaz yükü)?\n2. **Kuruluş:** Resmî senet ve tescil var mı? (TMK m. 780, TMK m. 781, TMK m. 840)\n3. **Süre ve kayıt:** Otuz yıl ve istem şartı var mı? Yüz yıl aşılıyor mu? Uzatma zamanında mı?\n4. **Devir:** Sözleşmede aksi kayıt var mı? (TMK m. 826/2, TMK m. 837/2, TMK m. 838/2)\n5. **Uyuşmazlık:** İçerik, erken devir, bedel, irat güvencesi veya yükten kurtarma?\n6. **Sonuç:** Yapı kime kalır, sayfa kapanır mı, ipotek ne olur, bedel ödenir mi?",
+  "critical_md": "- 📌 Üst hakkı, başkasının arazisinin altında veya üstünde yapı yapma ya da mevcut yapıyı muhafaza etme yetkisi veren irtifaktır (TMK m. 826/1). Yapının mülkiyeti üst hakkı sahibine aittir (TMK m. 726/1). Bağımsız bölüm üzerinde ayrıca üst hakkı kurulamaz (TMK m. 726/3).\n- 📌 Aksi kararlaştırılmadıkça üst hakkı ve kaynak hakkı devredilir ve mirasçılara geçer (TMK m. 826/2, TMK m. 837/2). Diğer irtifaklar devredilmez ve mirasçılara geçmez (TMK m. 838/2).\n- ⚠️ Otuz yıl ile yüz yıl farklı şeylerdir: Otuz yıl ayrı sayfaya kayıt için süreklilik eşiği (TMK m. 826/3, TMK m. 998/3), yüz yıl bağımsız hak olarak azami süredir (TMK m. 836/1). Yirmi yıllık üst hakkı geçerlidir ama ayrı sayfaya kaydedilemez; kayıt zorunlu değil, hak sahibinin istemiyle yapılan bir imkândır.\n- 📌 Uzatma, sürenin dörtte üçü dolduktan sonra, kuruluş şekline uyularak, en çok yüz yıllık yeni süre için yapılır. Önceden verilen taahhüt bağlayıcı değildir (TMK m. 836/2).\n- 📌 Resmî senetteki yapıya ve özgülenme amacına ilişkin kayıtlar herkes için bağlayıcıdır (TMK m. 827). Üst hakkı sona erince yapılar malike kalır, bütünleyici parça olur; ayrı sayfa kapanır, rehin ve diğer haklar sona erer (TMK m. 828).\n- ⚠️ Süre sonunda bedel kural değil istisnadır; aksi kararlaştırılmadıkça malik bedel ödemez (TMK m. 829/1). Erken devirde ise uygun bedel kanunun şartıdır (TMK m. 832/1). Bu iki bedeli karıştırma.\n- 📌 Bedel ipoteği, üst hakkının sona ermesinden başlayarak üç ay içinde tescil edilir (TMK m. 829/3). İrat güvencesi ipoteği ise hak devam ederken her zaman tescil edilebilir ve icra satışında terkin olunmaz (TMK m. 835/1).\n- 📌 Süresinden önce devir isteme hakkı yalnız malike aittir; şart, yetkilerin ağır aşılması veya yükümlülüklere önemli ölçüde aykırılıktır. Devir bedelin ödenmesine veya güvenceye bağlanmasına bağlıdır (TMK m. 831 ve TMK m. 832).\n- ⚠️ Üst hakkı sahibinin kendi isteğiyle çıkması TMK m. 831'in konusu değildir; bedel sorunu tartışmalıdır.\n- 📌 Kaynak hakkı bağımsız nitelikte ve en az otuz yıl için kurulmuşsa taşınmaz olarak kaydedilebilir (TMK m. 837/3). Metin \"sürekli\" sözcüğünü kullanmaz.\n- 📌 Taşınmaz yükü tescille kurulur (TMK m. 840/1). Dönemsel edimde sicile aksi kararlaştırılmadıkça yıllık edimin yirmi katı yazılır (TMK m. 840/2). Kamu hukukuna ilişkin yük kural olarak tescilsiz doğar (TMK m. 841/1).\n- ⚠️ Taşınmaz yükü kişisel alacak vermez; sorumluluk yalnız taşınmazladır (TMK m. 839/1, TMK m. 848/1). İrtifakta yapma borcu yalnız yan edim olabilir (TMK m. 779/2).\n- 📌 Yeni malik kendiliğinden yükümlü olur (TMK m. 849/1). Yük zamanaşımına tabi değildir (TMK m. 847/1); her edim muacceliyetten üç yıl sonra kişisel borca dönüşür (TMK m. 848/2).\n- 📌 Alacaklı birbiri ardına üç yılın edimleri yerine getirilmezse yükten kurtarma isteyebilir (TMK m. 844); yükümlü otuz yıl geçmişse ve bir yıl önceden bildirirse isteyebilir (TMK m. 845). Bedel, sicildeki miktardır; daha düşük gerçek değer ispat edilebilir (TMK m. 846).",
+  "doctrine_md": "### Üst hakkı üzerinde kat irtifakı kurulabilir mi?\nAyrı sayfaya kayıtlı üst hakkı taşınmazdır (TMK m. 704 ve TMK m. 998). Bir görüşe göre bu nedenle üzerinde Kat Mülkiyeti Kanunu'na göre kat irtifakı kurulabilir ve tapu uygulaması da bu yönde işlem yapmıştır. Karşı görüş, Kat Mülkiyeti Kanunu'nun arsa ve ana gayrimenkul kavramlarını araziye göre kurduğunu, hak niteliğindeki taşınmazın o kanun anlamında taşınmaz olmadığını savunur. Yargıtay incelediğimiz bir kararda bu soruya esastan cevap vermemiştir. Tartışmasız olan tek nokta, bağımsız bölüm üzerinde ayrıca üst hakkı kurulamamasıdır (TMK m. 726/3).\n\n### Yüz yıl sınırı hangi üst hakkına uygulanır?\nTMK m. 836/1 sınırı \"bağımsız bir hak olarak\" kurulan üst hakkı için koyar. Bir görüşe göre sınır yalnız bağımsız üst hakkı içindir; kişiye bağlı üst hakkı hak sahibinin ölümüyle sınırlanır, tüzel kişide TMK m. 797/2 kıyasen düşünülür. Diğer görüş yüz yılı her üst hakkı için azami süre sayar. Ayrıca TMK m. 998/3'ün \"süresiz\" hakkı da sürekli sayması ile yüz yıl sınırının nasıl bağdaştırılacağı tartışılır.\n\n### Erken devir isteminin niteliği\nYargıtay'ın incelediğimiz bir kararında erken devir hakkı yenilik doğuran hak sayılmış, bedelin ödenmesi veya güvenceye bağlanması ise hakkın doğum şartı değil, devir borcuna karşı bir def'i olarak nitelendirilmiştir. Öğretide malike devir alacağı verdiği, yani istemin dava yoluyla ileri sürüleceği görüşü de vardır. Tartışmasız olan, devrin bedelin ödenmesine veya güvenceye bağlı olmasıdır (TMK m. 832/2).\n\n### Üst hakkı sahibinin erken çıkışında bedel\nKanunda üst hakkı sahibine fesih yetkisi veren özel hüküm yoktur. Bir görüş, sebepsiz zenginleşmeyi önlemek için TMK m. 832'deki uygun bedelin bu hâle de uygulanmasını savunur. Diğer görüş TMK m. 829/1'e ve sözleşmedeki bedelsizlik kaydına dayanır; yani üst hakkı sahibi bedel isteyemez. Uyarlama (aşırı ifa güçlüğü) imkânı da tartışılır. Yargıtay'ın incelediğimiz iki kararında, sözleşmedeki bedelsiz devir kaydını geçerli sayan alt mahkeme kararları onanmıştır; ancak bunlar tek tek kararlardır.\n\n### Diğer tartışmalar\n- **Kaynak hakkının türü:** TMK m. 837 \"diğer irtifaklar\" ayırımında yer alır ama varsayılan olarak devredilebilirdir. Öğretide hem taşınmaz lehine hem kişi lehine kurulabileceği ve hangi hükümlerin uygulanacağı tartışılır.\n- **TMK m. 845/3:** \"İrtifak taşınmaz lehine sona erdirilmeyen biçimde kurulmuşsa\" yükten kurtarma istenemez. İfadenin hangi hâli kastettiği metinden açık değildir.\n- **Vakıf taviz bedeli:** 2004 tarihli bir İçtihadı Birleştirme Büyük Genel Kurulu kararının hüküm fıkrası kadastro hak düşürücü süresine ilişkindir. Gerekçesinde vakıf taviz bedelinin taşınmaz yükü mü, kanuni ipotek mi sayılacağı tartışılmış ve taşınmaz yükü görüşü ağır basmıştır. Bu nitelendirme gerekçede benimsenmiştir.",
+  "glossary": [
+   {
+    "term": "Üst hakkı",
+    "definition": "Malikin üçüncü kişi lehine arazisinin altında veya üstünde yapı yapma ya da mevcut yapıyı muhafaza etme yetkisi veren irtifakı (TMK m. 826/1)."
+   },
+   {
+    "term": "Bağımsız ve sürekli hak",
+    "definition": "Ayrı sayfaya taşınmaz olarak kaydedilebilen hak. Süreklilik için hak en az otuz yıllık olmalı (TMK m. 826/3, TMK m. 998/3)."
+   },
+   {
+    "term": "Ayrı sayfaya kayıt",
+    "definition": "Bağımsız ve sürekli hakkın tapu kütüğünde taşınmaz olarak ayrı bir sayfaya yazılması. Hak sahibinin istemiyle yapılır (TMK m. 826/3, TMK m. 704)."
+   },
+   {
+    "term": "Süresinden önce devir",
+    "definition": "Üst hakkı sahibi ağır aykırılıkta bulunursa malikin hakkın kendisine devrini istemesi. Uygun bedel karşılığındadır (TMK m. 831 ve TMK m. 832)."
+   },
+   {
+    "term": "Uygun bedel",
+    "definition": "Erken devirde malikin, kendisine geçecek yapılar için ödeyeceği karşılık. Üst hakkı sahibinin kusuru indirim sebebi olabilir (TMK m. 832/1)."
+   },
+   {
+    "term": "Bedel ipoteği",
+    "definition": "Süre sonunda ödenmeyen bedel için, terkin edilen hak yerine aynı derecede ve sırada üç ay içinde tescil edilen ipotek (TMK m. 829/2-3)."
+   },
+   {
+    "term": "İrat güvencesi ipoteği",
+    "definition": "Üst hakkı karşılığı irat borçlanılmışsa malikin isteyebileceği, en çok üç yıllık irat için kanunî ipotek (TMK m. 834)."
+   },
+   {
+    "term": "Kaynak hakkı",
+    "definition": "Başkasının arazisindeki kaynak üzerinde kurulan ve o arazinin malikini suyun alınmasına ve akıtılmasına katlanmakla yükümlü kılan irtifak (TMK m. 837/1)."
+   },
+   {
+    "term": "Taşınmaz yükü",
+    "definition": "Malikin yalnız taşınmazla sorumlu olmak üzere bir şey vermek veya yapmakla yükümlü olduğu, tescille kurulan ayni hak (TMK m. 839/1, TMK m. 840/1)."
+   },
+   {
+    "term": "Yükten kurtarma",
+    "definition": "Taşınmaz yükünün, sicilde gösterilen miktar üzerinden ortadan kaldırılması. Alacaklı veya yükümlü, kanundaki hallerde isteyebilir (TMK m. 844 - TMK m. 846)."
+   },
+   {
+    "term": "Kamu hukukuna ilişkin taşınmaz yükü",
+    "definition": "Kamu hukukundan doğan yük. Aksine hüküm yoksa tescili gerekmez (TMK m. 841/1)."
+   },
+   {
+    "term": "İrat senedi",
+    "definition": "Taşınmaz üzerinde taşınmaz yükü şeklinde kurulmuş bir alacak hakkı meydana getiren senet. Kişisel borç doğurmaz (TMK m. 903)."
+   },
+   {
+    "term": "Yenilik doğuran hak",
+    "definition": "Tek taraflı bir beyanla hukuki durumu değiştiren hak. Yargıtay bir kararında malikin erken devir hakkını bu biçimde nitelendirmiştir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "826",
+   "official_text": "I. Konu ve tapu kütüğüne kayıt\nMadde 826- Bir taşınmaz maliki, üçüncü kişi lehine arazisinin altında veya üstünde yapı yapmak veya mevcut bir yapıyı muhafaza etmek yetkisi veren bir irtifak hakkı kurabilir.\nAksi kararlaştırılmış olmadıkça bu hak, devredilebilir ve mirasçılara geçer.\nÜst hakkı, bağımsız ve sürekli nitelikte ise üst hakkı sahibinin istemi üzerine tapu kütüğüne taşınmaz olarak kaydedilebilir. En az otuz yıl için kurulan üst hakkı, sürekli niteliktedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "827",
+   "official_text": "II. İçerik ve kapsam\nMadde 827- Üst hakkının içerik ve kapsamıyla ilgili olarak resmî senette yer alan, özellikle yapının konumuna, şekline, niteliğine, boyutlarına, özgülenme amacına ve üzerinde yapı bulunmayan alandan faydalanmaya ilişkin sözleşme kayıtları herkes için bağlayıcıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "828",
+   "official_text": "1. Yapı mülkiyetinin malike geçmesi\nMadde 828- Üst hakkı sona erince yapılar, arazi malikine kalır ve arazinin bütünleyici parçası olur.\nBağımsız ve sürekli üst hakkı tapu kütüğüne taşınmaz olarak kaydedilmişse, üst hakkı sona erince bu sayfa kapatılır. Taşınmaz olarak kaydedilmiş olan üst hakkı üzerindeki rehin hakları, diğer bütün hak, kısıtlama ve yükümlülükler de sayfanın kapatılmasıyla birlikte sona erer. Bedele ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "829",
+   "official_text": "2. Bedel\nMadde 829- Taşınmaz maliki, aksi kararlaştırılmadıkça, kendisine kalan yapılar için üst hakkı sahibine bir bedel ödemez. Uygun bir bedel ödenmesi kararlaştırılmışsa, miktarı ve hesaplanış biçimi belirlenir. Ödenmesi kararlaştırılan bedel, üst hakkı kendileri için rehnedilmiş olan alacaklıların henüz ödenmemiş alacaklarının güvencesini oluşturur ve rızaları olmaksızın üst hakkı sahibine ödenmez.\nKararlaştırılan bedel ödenmez veya güvence altına alınmazsa, üst hakkı sahibi veya bu hak kendisine rehnedilmiş olan alacaklı, bedel alacağına güvence olmak üzere, terkin edilen üst hakkı yerine aynı derecede ve sırada bir ipoteğin tescilini isteyebilir.\nBu ipotek, üst hakkının sona ermesinden başlayarak üç ay içinde tescil edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "830",
+   "official_text": "3. Diğer hükümler\nMadde 830- Taşınmaz malikine kalan yapılar için üst hakkı sahibine ödenmesi kararlaştırılan bedelin miktarı ve bunun hesaplanış biçimi ile bu bedel borcunun kaldırılmasına ve arazinin ilk hâline getirilmesine ilişkin anlaşmalar, üst hakkının kurulması için gerekli olan resmî şekle tâbidir ve tapu kütüğüne şerh verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "831",
+   "official_text": "1. Koşulları\nMadde 831- Üst hakkı sahibi, bu haktan doğan yetkilerinin sınırını ağır şekilde aşar veya sözleşmeden doğan yükümlülüklerine önemli ölçüde aykırı davranırsa; malik, üst hakkının ona bağlı bütün hak ve yükümlülükleri ile birlikte süresinden önce kendisine devrini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "832",
+   "official_text": "2. Hakkın kullanılması\nMadde 832- Malik, üst hakkının devrini, kendisine geçecek yapılar için uygun bir bedel ödemek kaydıyla isteyebilir. Üst hakkı sahibinin kusuru, bedelin belirlenmesinde indirim sebebi olarak göz önüne alınabilir.\nÜst hakkının malike devri, bedelin ödenmesine veya güvence altına alınmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "833",
+   "official_text": "3. Diğer hâller\nMadde 833- Üst hakkı sahibinin yükümlülüklerine aykırı davranması hâlinde sözleşmede malik lehine saklı tutulan, üst hakkını süresinden önce sona erdirme veya devrini isteme yetkisi, süresinden önce devir istemine ilişkin hükümlere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "834",
+   "official_text": "1. İpotek kurulmasını isteme hakkı\nMadde 834- Malik, üst hakkı karşılığı olarak irat biçiminde borçlanılan edimleri güvence altına almak amacıyla, o tarihteki üst hakkı sahibinden en çok üç yıllık irat için tapu kütüğüne taşınmaz olarak kaydedilmiş üst hakkının ipotek edilmesini isteyebilir.\nİrat, her yıl için eşit edimler biçiminde belirlenmemiş ise; bu kanunî ipoteğin tescili, iradın eşit olarak dağıtılmasında üç yıla düşecek miktarı için istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "835",
+   "official_text": "2. Tescil\nMadde 835- İpotek, üst hakkı devam ettiği sürece, her zaman tescil edilebilir ve icra yoluyla satışta terkin olunmaz.\nYapı alacaklıları ipoteğinin kurulmasına ilişkin hükümler kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "836",
+   "official_text": "VI. Sürenin üst sınırı\nMadde 836- Üst hakkı, bağımsız bir hak olarak en çok yüz yıl için kurulabilir.\nÜst hakkı, süresinin dörtte üçü dolduktan sonra, kurulması için öngörülen şekle uyularak her zaman en çok yüz yıllık yeni bir süre için uzatılabilir. Bu konuda önceden yapılan taahhüt bağlayıcı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "837",
+   "official_text": "Madde 837- Başkasının arazisinde bulunan kaynak üzerinde irtifak hakkı, bu arazinin malikini suyun alınmasına ve akıtılmasına katlanmakla yükümlü kılar.\nBu hak, aksi kararlaştırılmış olmadıkça, başkasına devredilebilir ve mirasçıya geçer.\nKaynak hakkı, bağımsız nitelikte ve en az otuz yıl için kurulmuş ise tapu kütüğüne taşınmaz olarak kaydedilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "838",
+   "official_text": "E. Diğer irtifak hakları\nMadde 838- Malik, taşınmazı üzerinde herhangi bir kişi veya topluluk lehine atış eğitimi veya spor alanı ya da geçit olarak kullanılmak gibi belirli bir yararlanmaya hizmet etmek üzere başka irtifak hakları da kurabilir.\nBu haklar, aksi kararlaştırılmış olmadıkça, başkasına devredilemez ve mirasçılara geçmez. Bu hakların kapsamı, hak sahibinin olağan ihtiyaçlarına göre belirlenir.\nTaşınmaz lehine irtifaklara ilişkin hükümler, bu tür irtifak haklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "839",
+   "official_text": "A. Konusu\nMadde 839- Taşınmaz yükü, bir taşınmazın malikini yalnız o taşınmazla sorumlu olmak üzere diğer bir kimseye bir şey vermek veya yapmakla yükümlü kılar.\nHak sahibi olarak, bir başka taşınmazın maliki de gösterilebilir.\nİrat senedi ve kamu hukukuna ilişkin taşınmaz yükleri saklı kalmak kaydıyla, taşınmaz yükünün konusu ancak yüklü taşınmazın ekonomik niteliğinden doğan veya yararlanan taşınmazın ekonomik ihtiyaçlarını karşılayan bir edim olabilir.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "840",
+   "official_text": "1. Tescil ve kazanma\nMadde 840- Taşınmaz yükünün kurulması için tapu kütüğüne tescil şarttır.\nTescilde, taşınmaz yükünün değeri olarak Türk parası veya yabancı para ile belirlenmiş bir miktar gösterilir. Dönemsel edimlerde sicilde gösterilecek miktar, aksi kararlaştırılmış değilse, yıllık edimlerin yirmi katıdır.\nAksine bir hüküm yoksa, taşınmaz yükünün kazanılmasında ve tescilinde taşınmaz mülkiyetine ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "841",
+   "official_text": "2. Kamu hukukuna ilişkin taşınmaz yükü\nMadde 841- Aksine hüküm yoksa, kamu hukukuna ilişkin taşınmaz yükünün tapu kütüğüne tescili gerekli değildir.\nKanunun alacaklıya yalnızca taşınmaz yükünün kurulmasını isteme yetkisini tanıdığı hâllerde taşınmaz yükü ancak tescille doğar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "842",
+   "official_text": "3. Güvence amacıyla kurulma\nMadde 842- Bir para alacağını güvence altına almak amacıyla kurulan taşınmaz yükü hakkında irat senedine ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "843",
+   "official_text": "1. Genel olarak\nMadde 843- Taşınmaz yükü tescilin terkini veya yüklü taşınmazın tamamen yok olmasıyla sona erer.\nFeragat, yükten kurtarma ve diğer sona erme sebepleri, yüklü taşınmaz malikine, hak sahibinden terkini isteme yetkisi verir.\n2. Yükten kurtarma",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "844",
+   "official_text": "a. Alacaklının yetkisi\nMadde 844- Alacaklı, sözleşmeyle yetkili kılınmış olduğu takdirde veya aşağıdaki durumlarda, malikten taşınmazın yükten kurtarılmasını isteyebilir:\n1. Yüklü taşınmaz, alacaklının haklarını önemli ölçüde tehlikeye düşürecek şekilde bölünmüşse;\n2. Malik, yüklü taşınmazın değerini düşürür ve yerine başka bir güvence göstermezse;\n3. Malik, birbiri ardına üç yılın edimlerini yerine getirmemişse.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "845",
+   "official_text": "b. Yükümlünün yetkisi\nMadde 845 - Yükümlü, sözleşmeyle yetkili kılınmış olduğu takdirde veya aşağıdaki durumlarda, taşınmazın yükten kurtarılmasını isteyebilir:\n1. Alacaklı, taşınmaz yükünü kuran sözleşmeye uymuyorsa;\n2. Satın alınmamak kaydıyla veya otuz yıldan fazla bir süre için kurulmuş olsa bile yükün kurulmasının üzerinden otuz yıl geçmiş ise.\nOtuz yıl geçtikten sonra yükümlünün satın alma yetkisini kullanabilmesi, alacaklıya bunu bir yıl önceden bildirmesine bağlıdır.\nİrtifak taşınmaz lehine sona erdirilmeyen biçimde kurulmuşsa, yüklü taşınmazın bu yükten kurtarılması istenemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "846",
+   "official_text": "c. Yükten kurtarma bedeli\nMadde 846- Gerçek değerinin daha düşük olduğunu ispat etme hakkı saklı kalmak kaydıyla, yükten kurtarma, taşınmaz yükünün değeri olarak tapu kütüğünde gösterilen miktar üzerinden gerçekleştirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "847",
+   "official_text": "3. Zamanaşımı\nMadde 847- Taşınmaz yükü zamanaşımına tâbi değildir.\nMuaccel olan edimler, borçlunun kişisel borcu hâline geldiği tarihten başlayarak zamanaşımına tâbi olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "848",
+   "official_text": "I. Alacaklının hakkının niteliği\nMadde 848- Taşınmaz yükü, alacaklıya yükümlüye karşı hiçbir kişisel alacak hakkı sağlamaz; sadece alacağını yüklü taşınmazın değerinden elde etme yetkisi verir.\nHer edim, muaccel olmasından başlayarak üç yıl sonra kişisel borç hâline gelir ve taşınmaz bu borcun güvencesi olmaktan çıkar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "849",
+   "official_text": "Madde 849- Taşınmaz maliki değişirse yeni malik, başka bir işleme gerek bulunmaksızın taşınmaz yükünün yükümlüsü olur.\nYüklü taşınmazın bölünmesinin taşınmaz yüküne etkisi hakkında irat senedine ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "704",
+   "official_text": "A. Taşınmaz mülkiyetinin konusu\nMadde 704- Taşınmaz mülkiyetinin konusu şunlardır:\n1. Arazi,\n2. Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar,\n3. Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler.\nB. Taşınmaz mülkiyetinin kazanılması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "726",
+   "official_text": "3. Üst hakkı\nMadde 726- Bir üst irtifakına dayalı olarak başkasına ait bir arazinin altında veya üstünde sürekli kalmak üzere inşa edilen yapıların mülkiyeti, irtifak hakkı sahibine ait olur.\nBir binanın başlı başına kullanılmaya elverişli bağımsız bölümleri üzerinde kat mülkiyeti veya kat irtifakı kurulması, Kat Mülkiyeti Kanununa tâbidir.\nBağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "756",
+   "official_text": "I. Mülkiyet ve irtifak hakkı\nMadde 756- Kaynaklar, arazinin bütünleyici parçası olup, bunların mülkiyeti ancak kaynadıkları arazinin mülkiyeti ile birlikte kazanılabilir.\nBaşkasının arazisinde bulunan kaynaklar üzerindeki hak, bir irtifak hakkı olarak tapu kütüğüne tescil ile kurulur.\nYeraltı suları, kamu yararına ait sulardandır. Arza malik olmak, onun altındaki yeraltı sularına da malik olmak sonucunu doğurmaz.\nArazi maliklerinin yeraltı sularından yararlanma biçimi ve ölçüsüne ilişkin özel kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "779",
+   "official_text": "A. Konusu\nMadde 779- Taşınmaz lehine irtifak hakkı, bir taşınmaz üzerinde diğer bir taşınmaz lehine konulmuş bir yük olup, yüklü taşınmazın malikini mülkiyet hakkının sağladığı bazı yetkileri kullanmaktan kaçınmaya veya yararlanan taşınmaz malikinin yüklü taşınmazı belirli şekilde kullanmasına katlanmaya mecbur kılar.\nYapma borçları, irtifaka başlı başına konu olamaz; ona ancak yan edim olarak bağlanabilir.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "780",
+   "official_text": "1. Tescil\nMadde 780- İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır.\nİrtifak hakkının kazanılmasında ve tescilinde, aksi öngörülmüş olmadıkça taşınmaz mülkiyetine ilişkin hükümler uygulanır.\nİrtifak hakkının zamanaşımı yoluyla kazanılması, ancak mülkiyeti bu yolla elde edilebilecek taşınmazlarda mümkündür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "781",
+   "official_text": "2. Sözleşme\nMadde 781- İrtifak hakkının kurulmasına ilişkin sözleşmenin geçerli olması, resmî şekilde düzenlenmesine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "783",
+   "official_text": "1. Genel olarak\nMadde 783- İrtifak hakkı, tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "797",
+   "official_text": "2. Süresi\nMadde 797- İntifa hakkı, gerçek kişilerde hak sahibinin ölümü; tüzel kişilerde kararlaştırılan sürenin dolması, süre kararlaştırılmamışsa kişiliğin ortadan kalkmasıyla sona erer.\nTüzel kişilerin intifa hakkı, en çok yüz yıl devam edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "823",
+   "official_text": "I. Genel olarak\nMadde 823- Oturma hakkı, bir binadan veya onun bir bölümünden konut olarak yararlanma yetkisi verir.\nOturma hakkı, başkasına devredilemez ve mirasçılara geçmez.\nKanunda aksine hüküm bulunmadıkça, intifa hakkına ilişkin hükümler oturma hakkına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "903",
+   "official_text": "I. Amaç ve nitelik\nMadde 903- İrat senedi, bir taşınmaz üzerinde taşınmaz yükü şeklinde kurulmuş bir alacak hakkı meydana getirir.\nİrat senedinin güvencesini ancak tarım arazisi, konutlar ve üzerinde bina yapılabilecek arsalar oluşturabilir.\nİrat senedi, kişisel borç doğurmaz ve borcun sebebini de göstermez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "908",
+   "official_text": "VI. Bölünme\nMadde 908- İrat senediyle yüklü taşınmazın bölünmesi hâlinde, parsellerin malikleri irat senedinin borçlusu olurlar.\nİrat senedi borcunun parsellere dağıtılmasında, ipotekle yüklü taşınmazın bölünmesine ilişkin hükümler uygulanır.\nAlacaklı, borcun parsellere dağıtımının kesinleşmesinden başlayarak bir ay içinde yapacağı bildirimle bir yıl içinde irat senedinin satın alınmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "998",
+   "official_text": "a. Kaydedilecek taşınmazlar\nMadde 998- Tapu siciline taşınmaz olarak şunlar kaydedilir:\n1. Arazi,\n2. Taşınmazlar üzerindeki bağımsız ve sürekli haklar,\n3. Kat mülkiyetine konu olan bağımsız bölümler.\nArazinin tapu siciline kaydı, özel kanun hükümlerine tâbidir.\nBağımsız ve sürekli hakların kaydedilmesi için gerekli koşullar ve usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir. Süreklilik koşulunun gerçekleşmesi için hakkın süresiz veya en az otuz yıl süreli olması gerekir.[45]\nKat mülkiyetine konu olan bağımsız bölümlerin taşınmaz olarak kaydı, özel kanun hükümlerine tâbidir.\n[45] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1026",
+   "official_text": "II. Aynî hakların sona ermesi\nMadde 1026- Bir aynî hakkın sona ermesiyle tescil her türlü hukukî değerini kaybettiği takdirde, yüklü taşınmaz maliki, terkini isteyebilir.\nTapu memuru bu istemi yerine getirirse, her ilgili, bu işlemin kendisine tebliği tarihinden başlayarak otuz gün içinde terkine karşı dava açabilir.\nTapu memuru, re'sen hâkime başvurarak aynî hakkın sona erdiğinin belirlenmesine ilişkin karar verilmesini istemeye ve hâkimin vereceği karara dayanarak terkin işlemini yapmaya yetkilidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "683",
+   "official_text": "A. Mülkiyet hakkının içeriği\nMadde 683- Bir şeye malik olan kimse, hukuk düzeninin sınırları içinde, o şey üzerinde dilediği gibi kullanma, yararlanma ve tasarrufta bulunma yetkisine sahiptir.\nMalik, malını haksız olarak elinde bulunduran kimseye karşı istihkak davası açabileceği gibi, her türlü haksız elatmanın önlenmesini de dava edebilir.\nB. Mülkiyet hakkının kapsamı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1025",
+   "official_text": "I. Yolsuz tescilde\nMadde 1025- Bir aynî hak yolsuz olarak tescil edilmiş veya bir tescil yolsuz olarak terkin olunmuş ya da değiştirilmiş ise, bu yüzden aynî hakkı zedelenen kimse tapu sicilinin düzeltilmesini dava edebilir.\nİyiniyetli üçüncü kişilerin bu tescile dayanarak kazandıkları aynî haklar ve her türlü tazminat istemi saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "4",
+   "official_text": "III. Hâkimin takdir yetkisi\nMadde 4 - Kanunun takdir yetkisi tanıdığı veya durumun gereklerini ya da haklı sebepleri göz önünde tutmayı emrettiği konularda hâkim, hukuka ve hakkaniyete göre karar verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "138",
+   "official_text": "MADDE 138- Sözleşmenin yapıldığı sırada taraflarca öngörülmeyen ve öngörülmesi de beklenmeyen olağanüstü bir durum, borçludan kaynaklanmayan bir sebeple ortaya çıkar ve sözleşmenin yapıldığı sırada mevcut olguları, kendisinden ifanın istenmesini dürüstlük kurallarına aykırı düşecek derecede borçlu aleyhine değiştirir ve borçlu da borcunu henüz ifa etmemiş veya ifanın aşırı ölçüde güçleşmesinden doğan haklarını saklı tutarak ifa etmiş olursa borçlu, hâkimden sözleşmenin yeni koşullara uyarlanmasını isteme, bu mümkün olmadığı takdirde sözleşmeden dönme hakkına sahiptir. Sürekli edimli sözleşmelerde borçlu, kural olarak dönme hakkının yerine fesih hakkını kullanır.\nBu madde hükmü yabancı para borçlarında da uygulanır.\nF. Takas",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2022/182",
+   "karar_no": "2022/6911",
+   "decision_date": "15.11.2022",
+   "summary_md": "Hazine adına kayıtlı iki parsel, mevzi imar planıyla turistik tesis alanında kalmış; taşınmazlar davalı şirkete kiraya verilmiş ve 2005 tarihli resmî senetle şirket lehine 49 yıllık, bağımsız ve sürekli üst hakkı kurulmuştur. İmar planı ve kiraya verme işlemi sonradan idari yargıda iptal edilmiş, Hazine üst hakkının terkini ile bedel ve cezai şartı, şirket ise karşı davada peşin bedelin iadesini, muhdesat bedelini ve kâr kaybını istemiştir. Yargıtay 7. Hukuk Dairesi, Hazine'nin temyizini reddedip şirketin temyizini kabul ederek hükmü oy birliğiyle bozmuştur. Gerekçede TMK m. 828-830'un sona ermenin sonuçlarını düzenlediği, sebeplerini saymadığı ve irtifakın genel sona erme sebeplerinin kıyasen uygulandığı belirtilmiştir. TMK m. 831 emredici sayılmış; erken devir ağır ihlale bağlanmış ve TMK m. 2 ile TMK m. 4 çerçevesinde hâkimce değerlendirileceği ifade edilmiştir. Kararın bu bölümü tek kararın gerekçesidir: Erken devir hakkı yenilik doğuran hak, TMK m. 832'deki bedelin ödenmesi bir def'i, bedel ise tazminat değil yapıların karşılığı sayılmıştır. İptal geriye etkili olduğundan şirket, ilk yıl bedelini ve bir parseldeki imalatın değerini sebepsiz zenginleşmeye göre isteyebilir; kâr kaybı isteyemez.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/869787000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2023/403",
+   "karar_no": "2023/2627",
+   "decision_date": "16.05.2023",
+   "summary_md": "Devlet ormanından ayrılan geniş bir alan ihdasen Hazine adına tescil edilmiş, aynı senetle davalı şirket lehine 49 yıllık üst hakkı kurulmuş ve bu hak bağımsız ve sürekli hak olarak ayrı sayfaya kaydedilmiştir. Sonradan bu hak üzerinde kat irtifakı kurulmuş, bağımsız bölümlerde üçüncü kişiler lehine intifa hakları tesis edilmiştir. Davacı idare bunların yolsuz tescil sayılıp terkinini istemiş, şirket davayı kabul etmiştir. İlk derece mahkemesi davayı kabul etmiş, istinaf mahkemesi ayrı sayfadaki hakkın TMK anlamında taşınmaz sayılsa da Kat Mülkiyeti Kanunu anlamında taşınmaz olmadığını belirterek istinafı reddetmiştir. Yargıtay 7. Hukuk Dairesi, oy çokluğuyla ve usul sebepleriyle (bağımsız bölümlerdeki ipotek, haciz gibi hak sahiplerinin davaya dahil edilmesi, infaza elverişli hüküm, harç) kararı bozmuştur. Gerekçede ayrı sayfaya kaydın TMK m. 704, TMK m. 826 ve TMK m. 998'e göre mümkün olduğu, otuz yılın süreklilik, devrin kısıtlanmamasının bağımsızlık için gerekli olduğu, resmî senet kayıtlarının ayni etkili olduğu belirtilmiş; üst hakkı üzerinde kat irtifakı kurulup kurulamayacağına esastan cevap verilmemiştir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/928021200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2024/2859",
+   "karar_no": "2025/4136",
+   "decision_date": "07.10.2025",
+   "summary_md": "Davacı şirket lehine 2015 tarihli sözleşme ve 2020 tarihli ek protokolle 20 yıllık üst hakkı kurulmuş ve ticari bina yapılmıştır. Davacı beklediği faydayı bulamayınca 2020'de sözleşmeyi feshedip taşınmazı teslim etmiş; TMK m. 832'nin emredici olduğunu ileri sürerek yapı bedelini ve üst hakkı şerhinin terkinini istemiştir. Davalı, erken devir hakkının malike tanındığını ve sözleşmedeki bedelsizlik kaydını savunmuştur. İlk derece ve istinaf mahkemeleri davayı reddetmiş, Yargıtay 7. Hukuk Dairesi duruşmalı inceleme sonunda oy birliğiyle onamıştır. İlk derece mahkemesi, üst hakkı sahibinin sözleşmeyi süresinden önce haklı sebeple sona erdirmesine ilişkin kanunda bir düzenleme bulunmadığını, sözleşmenin 16. maddesinde erken fesihte yapının bedelsiz olarak arsa malikine bırakılacağının kararlaştırıldığını, tacir olan davacının işlem temelinin çöktüğünü ispatlayamadığını ve önce uyarlama istemesi gerektiğini belirtmiştir. İstinaf mahkemesi de bu kaydın emredici hükümlere aykırı olmadığını ve TBK m. 138'deki şartların gerçekleşmediğini kabul etmiştir. Hak 20 yıllık olduğundan otuz yıllık süreklilik eşiğinin altındadır; kararda da \"üst irtifak hakkı şerhi\"nden söz edilir. Karar, üst hakkı sahibinin erken çıkışında sözleşmedeki bedelsizlik kaydının geçerli sayıldığı bir örnektir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1180984700",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Türk Medeni Kanunu'na göre üst hakkının konusu hangisidir?",
+   "options": [
+    "Başkasının arazisinde bulunan kaynaktan su almak",
+    "Taşınmazın değeriyle güvenceli bir edimi yerine getirmek",
+    "Başkasının binasında yaşadığı sürece oturmak",
+    "Başkasının arazisinin altında veya üstünde yapı yapmak ya da mevcut bir yapıyı muhafaza etmek"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 826/1'e göre üst hakkı, malikin üçüncü kişi lehine arazisinin altında veya üstünde yapı yapmak veya mevcut bir yapıyı muhafaza etmek yetkisi veren irtifaktır. Su alma kaynak hakkının (TMK m. 837), oturma oturma hakkının (TMK m. 823), edim yükümlülüğü ise taşınmaz yükünün (TMK m. 839) konusudur."
+  },
+  {
+   "stem_md": "Köy derneği lehine, başkasının arsasında futbol sahası olarak kullanılmak üzere irtifak hakkı kurulmuştur. Sözleşmede devirle ilgili bir hüküm yoktur. Dernek hakkı bir spor kulübüne devretmek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Devredemez; aksi kararlaştırılmadıkça bu irtifaklar devredilmez ve mirasçılara geçmez.",
+    "Devredebilir; bütün irtifaklar aksi kararlaştırılmadıkça devredilebilir.",
+    "Devredebilir; ancak devir tapuya tescil edilmedikçe geçerli olmaz ve hak sona erer.",
+    "Yalnız malikin yazılı onayıyla devredebilir; onay yoksa devir geçersizdir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Futbol sahası olarak kullanma, TMK m. 838/1'de örnek verilen \"diğer irtifak haklarındandır\". TMK m. 838/2'ye göre bu haklar, aksi kararlaştırılmadıkça başkasına devredilemez ve mirasçılara geçmez. Üst hakkı ve kaynak hakkında kural tersidir (TMK m. 826/2 ve TMK m. 837/2); yaygın yanılgı bu kuralı bütün irtifaklara genellemektir."
+  },
+  {
+   "stem_md": "Ayten, arsası üzerinde Barış lehine 25 yıllık üst hakkı kurar. Barış, hakkın ayrı sayfaya taşınmaz olarak kaydedilmesini ister. Hangisi doğrudur?",
+   "options": [
+    "Kayıt yapılamaz; 25 yıllık üst hakkı hiç kurulamaz.",
+    "Kayıt yapılabilir; ancak yalnız Ayten'in istemiyle.",
+    "Kayıt yapılamaz; ayrı sayfa için hakkın en az otuz yıl süreli olması gerekir, ancak 25 yıllık üst hakkı geçerli bir irtifaktır.",
+    "Kayıt yapılabilir; üst hakkı süresi ne olursa olsun ayrı sayfaya kaydedilebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 826/3'e göre ayrı sayfaya kayıt için hakkın bağımsız ve sürekli olması gerekir; en az otuz yıl için kurulan üst hakkı sürekli sayılır (ayrıca TMK m. 998/3). 25 yıllık hak bu eşiğin altındadır, ama üst hakkı olarak geçerlidir. Kayıt, üst hakkı sahibinin istemi üzerine yapılır; malikin istemi aranmaz."
+  },
+  {
+   "stem_md": "Üst hakkının tapu kütüğüne ayrı sayfada taşınmaz olarak kaydedilmesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kayıt zorunludur; kayıt yapılmazsa üst hakkı doğmaz.",
+    "Kayıt, üst hakkı kurulurken resen yapılır; hak sahibinin istemine gerek yoktur.",
+    "Kayıt yalnız kamu tüzel kişileri lehine kurulan haklar için mümkündür.",
+    "Kayıt, hak sahibinin istemi üzerine yapılan bir imkândır; ayrı sayfası olmayan üst hakkı da geçerlidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 826/3, bağımsız ve sürekli üst hakkının \"üst hakkı sahibinin istemi üzerine\" taşınmaz olarak kaydedilebileceğini söyler. Kayıt zorunlu değildir. Üst hakkı irtifak olarak tescille kurulur (TMK m. 780/1); ayrı sayfa yalnız hakkı taşınmaz gibi işlem görebilir hâle getirir (TMK m. 704)."
+  },
+  {
+   "stem_md": "Mehmet'in arsası üzerinde bir vakıf lehine 49 yıllık üst hakkı kurulmuş ve vakıf, hakka dayanarak arsada hastane inşa etmiştir. Hastane binasının mülkiyeti 49 yıl boyunca kime aittir?",
+   "options": [
+    "Vakfa; üst irtifakına dayalı olarak sürekli kalmak üzere yapılan yapının mülkiyeti irtifak hakkı sahibine aittir.",
+    "Hastane binası mülkiyet konusu olamaz; yalnız kullanım hakkı vardır.",
+    "Mehmet ve vakfa paylı mülkiyet olarak.",
+    "Arsa maliki Mehmet'e; çünkü yapı arazinin bütünleyici parçasıdır ve üst hakkı bunu değiştirmez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 726/1'e göre üst irtifakına dayalı olarak başkasına ait arazinin altında veya üstünde sürekli kalmak üzere inşa edilen yapıların mülkiyeti irtifak hakkı sahibine aittir. Yapının arazinin bütünleyici parçası olması kuralı süre bitince geri döner (TMK m. 828/1). Paylı mülkiyet kanunda öngörülen bir sonuç değildir."
+  },
+  {
+   "stem_md": "Kat mülkiyeti kurulmuş bir apartmanda 5 numaralı dairenin maliki Ali, daire üzerinde Burak lehine üst hakkı kurmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Kurulabilir; ancak en çok otuz yıl için.",
+    "Kurulabilir; üst hakkı her taşınmaz üzerinde kurulur.",
+    "Kurulabilir; yalnız kat maliklerinin oybirliği gerekir.",
+    "Kurulamaz; bağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 726/3 açıktır: Bağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz. Bu, üst hakkı üzerinde kat irtifakı kurulup kurulamayacağı sorusundan farklıdır; o soru tartışmalıdır, ama bağımsız bölüm üzerinde üst hakkı kurulamaması tartışmasızdır."
+  },
+  {
+   "stem_md": "Zeynep'in arazisindeki üst hakkının resmî senedinde yapının yalnız konut olarak kullanılacağı yazılıdır. Hak sahibi Mehmet, hakkı Kemal'e devretmiştir. Kemal, \"Bu kayıt Mehmet'le Zeynep'in kişisel anlaşmasıdır\" diyerek binayı otel yapmak istiyor. Hangisi doğrudur?",
+   "options": [
+    "Özgülenme amacı kaydı geçersizdir; üst hakkı sahibi yapıyı diledikçe kullanabilir.",
+    "Kayıt, tapuya şerh edilmedikçe Kemal'i bağlamaz.",
+    "Kayıt yalnız Mehmet'i bağlar; Kemal serbesttir.",
+    "Resmî senetteki özgülenme amacına ilişkin sözleşme kayıtları herkes için bağlayıcıdır; Kemal de bağlıdır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 827'ye göre üst hakkının içerik ve kapsamıyla ilgili olarak resmî senette yer alan, özellikle yapının konumuna, şekline, niteliğine, boyutlarına, özgülenme amacına ve boş alandan faydalanmaya ilişkin sözleşme kayıtları herkes için bağlayıcıdır. Hakkı devralan da bunlara uymak zorundadır."
+  },
+  {
+   "stem_md": "Ali, arsası üzerinde 40 yıllık bir üst hakkı kurmuştur; sözleşmede bedel konusunda hüküm yoktur. Süre dolduğunda Ali'nin durumu nedir?",
+   "options": [
+    "Yapılar yıkılır ve arazi ilk hâline getirilir.",
+    "Yapılar üst hakkı sahibinde kalır; Ali yalnız arazinin mülkiyetini korur.",
+    "Yapılar Ali'ye kalır; Ali, yapıların gerçek değerini ödemek zorundadır.",
+    "Yapılar Ali'ye kalır ve arazinin bütünleyici parçası olur; Ali, aksi kararlaştırılmadıkça yapılar için bedel ödemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 828/1'e göre üst hakkı sona erince yapılar arazi malikine kalır ve arazinin bütünleyici parçası olur. TMK m. 829/1'e göre malik, aksi kararlaştırılmadıkça kendisine kalan yapılar için üst hakkı sahibine bedel ödemez. Bedel ancak kararlaştırılmışsa ödenir; yaygın yanılgı, bedelin kanunen her zaman gerektiğini sanmaktır."
+  },
+  {
+   "stem_md": "Ayrı sayfaya kayıtlı bir üst hakkı üzerinde Y Bankası lehine ipotek bulunmaktadır. Üst hakkı süresinin dolmasıyla sona ererse ipoteğin durumu ne olur?",
+   "options": [
+    "İpotek arazi üzerine geçer ve malikin taşınmazı ipotekli kalır.",
+    "İpotek yalnız bankanın rızasıyla sona erer.",
+    "İpotek, ayrı sayfa kapatılınca sona erer; bedele ilişkin hükümler saklıdır.",
+    "İpotek, yapıyla birlikte malike geçer ve alacaklı malike başvurabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 828/2'ye göre ayrı sayfaya kaydedilmiş üst hakkı sona erince sayfa kapatılır; taşınmaz olarak kaydedilmiş üst hakkı üzerindeki rehin hakları ve diğer bütün hak, kısıtlama ve yükümlülükler de sayfanın kapatılmasıyla sona erer. Bedele ilişkin hükümler saklıdır; bedel kararlaştırılmışsa rehin alacaklısının güvencesidir (TMK m. 829/1)."
+  },
+  {
+   "stem_md": "Üst hakkı sona erdiği için kararlaştırılan bedelin ödenmemesi ya da güvence altına alınmaması hâlinde, üst hakkı sahibi veya rehin alacaklısı terkin edilen üst hakkı yerine aynı derecede ve sırada bir ipotek tescilini isteyebilir. Bu ipotek hangi süre içinde tescil edilir?",
+   "options": [
+    "Üst hakkının sona ermesinden başlayarak bir yıl içinde",
+    "Üst hakkının sona ermesinden başlayarak üç yıl içinde",
+    "Üst hakkının sona ermesinden başlayarak üç ay içinde",
+    "Süre sınırı yoktur; üst hakkı devam ettiği sürece her zaman"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 829/3: Bu ipotek, üst hakkının sona ermesinden başlayarak üç ay içinde tescil edilir. \"Her zaman tescil edilebilir\" kuralı ise irat güvencesi ipoteği içindir (TMK m. 835/1); ikisini karıştırmak sık yapılan hatadır."
+  },
+  {
+   "stem_md": "Mehmet, Zeynep'in arazisindeki üst hakkının sahibidir. Resmî senet binanın yalnız konut olarak kullanılacağını öngörmektedir. Mehmet binanın tamamını izinsiz biçimde eğlence merkezine çevirir ve uyarılara rağmen sürdürür. Aykırılığın ağır olduğu kabul edilirse Zeynep hangi hakka sahiptir?",
+   "options": [
+    "Hiçbir hak yoktur; üst hakkı süresi bitene kadar beklenmelidir.",
+    "Yalnız yapının yıkılmasını isteyebilir.",
+    "Hakkın süresinden önce kendisine devrini, yapılar için uygun bedel ödemek kaydıyla isteyebilir; devir bedelin ödenmesine veya güvenceye bağlıdır.",
+    "Hakkı bedelsiz olarak süresinden önce kendisine devretmeyi isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 831'e göre üst hakkı sahibi yetkilerinin sınırını ağır şekilde aşar veya sözleşmeden doğan yükümlülüklerine önemli ölçüde aykırı davranırsa malik, hakkın süresinden önce kendisine devrini isteyebilir. Malik kendisine geçecek yapılar için uygun bir bedel öder; hak sahibinin kusuru indirim sebebi olabilir ve devir bedelin ödenmesine veya güvence altına alınmasına bağlıdır (TMK m. 832). Devir \"bedelsiz\" değildir."
+  },
+  {
+   "stem_md": "Süresinden önce devir istemine ilişkin TMK m. 831'le ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İstem hakkı yalnız üst hakkı üzerinde rehin hakkı bulunan alacaklıya tanınmıştır.",
+    "Bu isteme hem malik hem üst hakkı sahibi sahiptir.",
+    "İstem hakkı yalnız malike tanınmıştır.",
+    "İstem hakkı yalnız üst hakkı ayrı sayfaya kaydedilmişse doğar."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 831 bu isteme hakkını yalnız malike tanımıştır. Üst hakkı sahibinin kendi isteğiyle hakkından çıkması bu hükmün konusu değildir. Hükmün uygulanması hakkın ayrı sayfaya kaydedilmiş olmasına bağlı değildir."
+  },
+  {
+   "stem_md": "Üst hakkı karşılığında malike yıllık irat ödenmesi kararlaştırılmıştır. Malik, bu iradı güvence altına almak için ayrı sayfaya kayıtlı üst hakkının ipotek edilmesini istemektedir. En çok kaç yıllık irat için bu ipotek istenebilir?",
+   "options": [
+    "Süre sınırı yoktur; borcun tamamı için",
+    "Üç yıllık",
+    "Beş yıllık",
+    "Bir yıllık"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 834/1'e göre malik, üst hakkı karşılığı irat biçiminde borçlanılan edimleri güvence altına almak amacıyla o tarihteki üst hakkı sahibinden en çok üç yıllık irat için, taşınmaz olarak kaydedilmiş üst hakkının ipotek edilmesini isteyebilir. Bu ipotek icra yoluyla satışta terkin olunmaz (TMK m. 835/1)."
+  },
+  {
+   "stem_md": "Ayşe, arazisinde Mehmet lehine 60 yıllık üst hakkı kurmuştur. Taraflar süreyi uzatmak istemektedir. Uzatma en erken ne zaman yapılabilir?",
+   "options": [
+    "Sürenin yarısı dolduktan sonra",
+    "Yalnız süre tamamen dolduktan sonra",
+    "Sürenin dörtte üçü, yani 45 yıl dolduktan sonra",
+    "Hak kurulduğu anda, sözleşmeye eklenecek bir hükümle"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 836/2'ye göre üst hakkı, süresinin dörtte üçü dolduktan sonra, kurulması için öngörülen şekle uyularak her zaman en çok yüz yıllık yeni bir süre için uzatılabilir. Önceden yapılan taahhüt bağlayıcı değildir. 60 yılın dörtte üçü 45 yıl eder (kendi hesabımız)."
+  },
+  {
+   "stem_md": "Ahmet, Fatma'nın arazisindeki kaynaktan 35 yıl süreyle su alma hakkı kazanmıştır; hak bağımsız niteliktedir. Hangisi doğrudur?",
+   "options": [
+    "Aksi kararlaştırılmadıkça kaynak hakkı devredilemez ve mirasçılara geçmez.",
+    "Kaynak hakkı hiçbir hâlde ayrı sayfaya kaydedilemez.",
+    "Hak, bağımsız nitelikte ve en az otuz yıl için kurulduğundan tapu kütüğüne taşınmaz olarak kaydedilebilir.",
+    "Kaynak hakkı ancak en az yüz yıl için kurulmuşsa kaydedilebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 837/3: Kaynak hakkı, bağımsız nitelikte ve en az otuz yıl için kurulmuş ise tapu kütüğüne taşınmaz olarak kaydedilebilir. Aksi kararlaştırılmadıkça devredilebilir ve mirasçıya geçer (TMK m. 837/2); son şık diğer irtifaklara ilişkin kuralı (TMK m. 838/2) yanlış yere taşır."
+  },
+  {
+   "stem_md": "Ayşe'nin tarlası üzerinde komşu değirmenin maliki lehine yıllık edimi 20.000 TL olan dönemsel bir taşınmaz yükü kurulacaktır. Taraflar sicile yazılacak değer konusunda ayrı bir şey kararlaştırmamıştır. Tescilde gösterilecek miktar ne olur?",
+   "options": [
+    "60.000 TL",
+    "200.000 TL",
+    "20.000 TL",
+    "400.000 TL"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 840/2'ye göre dönemsel edimlerde sicilde gösterilecek miktar, aksi kararlaştırılmış değilse, yıllık edimlerin yirmi katıdır. 20.000 x 20 = 400.000 TL (kendi hesabımız). Üç yıl kuralı (60.000 TL'nin kaynağı) başka kurumlara aittir (TMK m. 844 ve TMK m. 848/2)."
+  },
+  {
+   "stem_md": "Ayşe'nin tarlası üzerinde kurulu ve tescilli bir taşınmaz yükü vardır. Ayşe tarlayı Can'a satıp devreder. Can, yükü kuran sözleşmenin tarafı olmadığını ileri sürerek edimleri vermeyi reddetmektedir. Hangisi doğrudur?",
+   "options": [
+    "Yeni malik Can, başka bir işleme gerek bulunmaksızın taşınmaz yükünün yükümlüsü olur.",
+    "Yük, Ayşe'nin kişisel borcudur ve Can'a geçmez.",
+    "Can yalnız alacaklıya bildirimde bulunduğunda yükümlü olur.",
+    "Can, sözleşmeye taraf olmadığından yükümlü değildir; yükün devrinin ayrıca kabulü gerekir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 849/1'e göre taşınmaz maliki değişirse yeni malik, başka bir işleme gerek bulunmaksızın taşınmaz yükünün yükümlüsü olur. Taşınmaz yükü kişisel borç değildir; sorumluluk malik sıfatına ve yalnız taşınmaza bağlıdır (TMK m. 839/1 ve TMK m. 848/1)."
+  },
+  {
+   "stem_md": "Taşınmaz yükünün zamanaşımıyla ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Taşınmaz yükü yalnız alacaklının ölümüyle zamanaşımına uğrar.",
+    "Taşınmaz yükü, kurulduktan on yıl sonra zamanaşımına uğrar.",
+    "Taşınmaz yükü zamanaşımına tabi değildir; muaccel edimler ise borçlunun kişisel borcu hâline geldiği tarihten başlayarak zamanaşımına tabi olur.",
+    "Muaccel edimler de hiçbir şekilde zamanaşımına tabi değildir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 847/1: Taşınmaz yükü zamanaşımına tabi değildir. TMK m. 847/2: Muaccel olan edimler, borçlunun kişisel borcu hâline geldiği tarihten başlayarak zamanaşımına tabi olur. Her edim muacceliyetten üç yıl sonra kişisel borca dönüşür (TMK m. 848/2). Kişisel borca uygulanacak süre bu notun konusu dışındadır."
+  },
+  {
+   "stem_md": "Ayşe'nin tarlası üzerindeki taşınmaz yükünde, tarlanın yeni maliki Can birbiri ardına üç yılın edimlerini yerine getirmemiştir. Alacaklı ne yapabilir?",
+   "options": [
+    "Yalnız Can'ın başka mallarına icra yoluyla başvurabilir.",
+    "Hiçbir şey yapamaz; taşınmaz yükünde alacaklıya yükten kurtarma yetkisi tanınmamıştır.",
+    "Kanunda sayılan sebeplerden biri gerçekleştiğinden Can'dan yükten kurtarmayı isteyebilir.",
+    "Yükün kendiliğinden sona erdiğini kabul etmek zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 844/3'e göre malik birbiri ardına üç yılın edimlerini yerine getirmemişse alacaklı yükten kurtarmayı isteyebilir. Taşınmaz yükü kişisel alacak vermediğinden (TMK m. 848/1) alacaklı kural olarak malikin diğer mallarına başvuramaz. Yük kendiliğinden sona ermez; sona erme için terkin gerekir (TMK m. 843)."
+  },
+  {
+   "stem_md": "Yapma borçlarının irtifakla ve taşınmaz yüküyle ilişkisi bakımından hangisi doğrudur?",
+   "options": [
+    "Yapma borcu yalnız üst hakkında asıl edim olabilir.",
+    "Yapma borcu ne irtifakın ne taşınmaz yükünün konusu olabilir.",
+    "Yapma borcu irtifakın asıl konusu olabilir; taşınmaz yükünde olamaz.",
+    "Yapma borcu irtifaka ancak yan edim olarak bağlanabilir; taşınmaz yükünde ise asıl edim vermek veya yapmak olabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 779/2: Yapma borçları irtifaka başlı başına konu olamaz; ona ancak yan edim olarak bağlanabilir. TMK m. 839/1'e göre taşınmaz yükü, malikini diğer bir kimseye bir şey vermek veya yapmakla yükümlü kılar. İkisi arasındaki en belirgin fark budur."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Arsa maliki Ali, 2026 yılında X Otelcilik A.Ş. lehine resmî senetle 40 yıl süreli bir üst hakkı kurar. Hak, devri kısıtlanmamış ve bağımsız niteliktedir; senette bedel konusunda hüküm yoktur. Şirket arsada otel inşa eder ve hakkın ayrı sayfaya taşınmaz olarak kaydedilmesini ister. Sözleşmeyi tapuda resmî senetle yapan taraflar, otelin işletilmesi için başka bir kısıtlama da öngörmemiştir.\n\nŞirket, otel inşaatı için Y Bankası'ndan kredi alır ve banka kredinin güvencesi olarak üst hakkının ipotek edilmesini ister. Ali ile şirket, sözleşmeye \"süre bitince üst hakkı 40 yıl daha uzatılacaktır\" hükmünü de koymuşlardır.\n\nYıllar sonra 40 yıllık süre dolar. Bu arada otel işletmesi sürmüş, şirketin Y Bankası'na kredi borcu da henüz tam ödenmemiştir.\n\n1. Üst hakkı ayrı sayfaya kaydedilebilir mi?\n2. Şirket üst hakkını Y Bankası'na ipotek edebilir mi?\n3. Sözleşmedeki \"40 yıl daha uzatılacaktır\" hükmü bağlayıcı mıdır? Uzatma ne zaman ve nasıl yapılabilirdi?\n4. 40 yıllık süre dolunca otel binası kime kalır, ayrı sayfa ve ipotek ne olur, Ali şirkete bedel öder mi?",
+   "rubric": [
+    {
+     "point": "Üst hakkının tanımı: Ali'nin şirket lehine kurduğu hak, arsada yapı yapma yetkisi veren irtifaktır; yapının mülkiyeti süre boyunca üst hakkı sahibine aittir",
+     "weight": 10,
+     "madde_ref": "TMK m. 826"
+    },
+    {
+     "point": "Ayrı sayfaya kayıt şartları: hak bağımsız ve sürekli (40 yıl, en az otuz yıl), şirket istemiş; hak taşınmaz olarak kaydedilebilir",
+     "weight": 20,
+     "madde_ref": "TMK m. 998"
+    },
+    {
+     "point": "Ayrı sayfadaki hakkın taşınmaz sayılması ve rehin hakkının konusu olabilmesi; Y Bankası lehine ipotek",
+     "weight": 15,
+     "madde_ref": "TMK m. 704"
+    },
+    {
+     "point": "Önceden yapılan uzatma taahhüdünün bağlayıcı olmaması; uzatmanın sürenin dörtte üçü dolduktan sonra, kuruluş şekline uyularak, en çok yüz yıllık yeni süre için yapılabilmesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 836"
+    },
+    {
+     "point": "Süre dolunca yapıların malike kalması ve arazinin bütünleyici parçası olması; ayrı sayfanın kapanması ve ipoteğin sona ermesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 828"
+    },
+    {
+     "point": "Bedelin kararlaştırılmaması nedeniyle malikin bedel ödememesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 829"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali ile X Otelcilik A.Ş. arasında kurulan hak, TMK m. 826/1 anlamında bir **üst hakkıdır**. Arsa maliki Ali, şirket lehine arsasının üstünde yapı yapma yetkisi veren bir irtifak kurmuştur. İrtifak olarak tescille kurulur (TMK m. 780/1) ve kurma sözleşmesi resmî şekilde yapılmıştır (TMK m. 781). Otel binası, üst irtifakına dayalı olarak sürekli kalmak üzere yapıldığı için süre boyunca şirkete aittir (TMK m. 726/1).\n\n**Hukuki sorunlar:** (1) Ayrı sayfaya kayıt; (2) hakkın ipoteklenmesi; (3) uzatma taahhüdünün değeri ve uzatmanın şartları; (4) sürenin dolmasının sonuçları ve bedel.\n\n**İlgili hükümler:** TMK m. 826/1-3, TMK m. 998/3, TMK m. 704, TMK m. 828-829, TMK m. 836.\n\n**Değerlendirme:**\n\n*1. Ayrı sayfaya kayıt:* Üst hakkı, bağımsız ve sürekli nitelikteyse üst hakkı sahibinin istemi üzerine tapu kütüğüne taşınmaz olarak kaydedilebilir. En az otuz yıl için kurulan üst hakkı süreklidir (TMK m. 826/3). TMK m. 998/3 de süreklilik için hakkın süresiz veya en az otuz yıl süreli olmasını arar. Hak 40 yıllıktır, yani otuz yılı aşmaktadır. İstemi hak sahibi olan şirket yapmıştır. Olayda hakkın bağımsız nitelikte olduğu ve devrinin kısıtlanmadığı açıkça verilmiştir; Yargıtay'ın incelediğimiz bir kararında da bağımsızlık için hakkın devrinin taraflarca kısıtlanmamış olması aranmıştır. Dolayısıyla ayrı sayfaya kayıt mümkündür. Kayıt zorunlu olmadığı için şirket istemeseydi hak, tescille kurulmuş bir irtifak olarak varlığını sürdürürdü.\n\n*2. İpotek:* Ayrı sayfaya kaydedilen bağımsız ve sürekli haklar taşınmaz mülkiyetinin konusudur (TMK m. 704/2). Kanun da taşınmaz olarak kaydedilmiş üst hakkı üzerindeki rehin haklarından söz eder (TMK m. 828/2) ve bu hakkın ipotek edilmesini öngörür (TMK m. 834/1). Bu nedenle şirket, kayıt yapıldıktan sonra üst hakkını Y Bankası'na ipotek edebilir.\n\n*3. Uzatma:* TMK m. 836/2'ye göre üst hakkı, süresinin dörtte üçü dolduktan sonra, kurulması için öngörülen şekle uyularak her zaman en çok yüz yıllık yeni bir süre için uzatılabilir. Bu konuda önceden yapılan taahhüt bağlayıcı değildir. Sözleşmedeki \"40 yıl daha uzatılacaktır\" hükmü bu nedenle bağlayıcı olmaz; Ali kuruluş sırasında verdiği bu sözle bağlı kalmaz. Uzatma, 40 yılın dörtte üçü olan 30 yıl dolduktan sonra yapılabilir (kendi hesabımız) ve kuruluş şekline, yani resmî şekle uyulmalıdır. Yeni süre en çok yüz yıl olabilir; ayrıca yüz yıl bağımsız hak olarak azami süredir (TMK m. 836/1).\n\n*4. Sürenin dolması:* Üst hakkı sona erince yapılar arazi malikine kalır ve arazinin bütünleyici parçası olur (TMK m. 828/1). Otel Ali'nindir. Ayrı sayfa kapatılır; sayfadaki rehin hakları da sayfanın kapatılmasıyla sona erer (TMK m. 828/2), yani Y Bankası'nın ipoteği sona erer. Bankanın şirketten alacağı varsa bu, şirketle olan kişisel ilişkisinin konusu olur. Sözleşmede bedel konusunda hüküm bulunmadığı için Ali, kendisine kalan yapılar için bedel ödemez (TMK m. 829/1).\n\n**Sonuç:**\n- Ayrı sayfaya kayıt mümkündür: Hak 40 yıllık, devri kısıtlanmamış ve şirket istemiştir.\n- Şirket, kaydedilen üst hakkını Y Bankası'na ipotek edebilir.\n- \"40 yıl uzatılacaktır\" taahhüdü bağlayıcı değildir; uzatma ancak sürenin dörtte üçü dolduktan sonra, resmî şekilde ve en çok yüz yıllık yeni süre için yapılabilir.\n- Süre dolunca otel Ali'ye kalır, ayrı sayfa kapanır ve ipotek sona erer; bedel kararlaştırılmadığından Ali bedel ödemez."
+  },
+  {
+   "stem_md": "Zeynep'in İstanbul'daki arazisinde Mehmet lehine, resmî senetle 60 yıllık, ayrı sayfaya kayıtlı bir üst hakkı kurulmuştur. Resmî senette yapının yalnız konut olarak kullanılacağı yazılıdır. Mehmet arazide apartman yaptırmış ve bir süre sonra binanın tamamını izinsiz biçimde eğlence merkezine çevirmiştir. Zeynep'in birçok uyarısına rağmen Mehmet bu kullanımı yıllardır sürdürmektedir.\n\nMehmet, hakkı Kemal'e devretmek ister. Kemal, \"Senetteki konut kaydı Mehmet'le Zeynep'in kişisel anlaşmasıdır, beni bağlamaz\" diyerek binayı eğlence merkezi olarak kullanmayı sürdürecektir.\n\nSözleşmede ayrıca, Mehmet'in yükümlülüklerine aykırı davranması hâlinde Zeynep'in üst hakkını süresinden önce sona erdirme veya devrini isteme yetkisi saklı tutulmuştur. Üst hakkı, A Bankası'na rehinlidir. Senette süre sonunda Zeynep'in Mehmet'e belirli bir bedel ödeyeceği de kararlaştırılmıştır.\n\n1. Senetteki özgülenme kaydı Kemal'i bağlar mı?\n2. Zeynep hakkı süresinden önce kendisine geçirebilir mi? Şartları nelerdir?\n3. Zeynep bu devri bedelsiz isteyebilir mi? Mehmet'in kusuru nasıl değerlendirilir?\n4. Sözleşmede saklı tutulan yetki hangi hükümlere tabidir?\n5. Süre sonunda ödenecek bedel A Bankası'nın rızası olmadan Mehmet'e ödenebilir mi?",
+   "rubric": [
+    {
+     "point": "Yapının mülkiyetinin üst hakkı sahibine ait olması; üst hakkının devredilebilir olması",
+     "weight": 5,
+     "madde_ref": "TMK m. 726"
+    },
+    {
+     "point": "Resmî senetteki özgülenme amacına ilişkin kayıtların herkes için bağlayıcı olması; Kemal'in bağlı olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 827"
+    },
+    {
+     "point": "Erken devir şartları: yetki sınırının ağır şekilde aşılması veya yükümlülüklere önemli ölçüde aykırılık; istem hakkının malike ait olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 831"
+    },
+    {
+     "point": "Erken devirde malikin uygun bedel ödemesi; hak sahibinin kusurunun indirim sebebi olabilmesi; devrin bedelin ödenmesine veya güvenceye bağlı olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 832"
+    },
+    {
+     "point": "Sözleşmede saklı tutulan sona erdirme veya devir isteme yetkisinin erken devir hükümlerine tabi olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 833"
+    },
+    {
+     "point": "Kararlaştırılan bedelin rehin alacaklılarının güvencesi olması ve rızaları olmaksızın üst hakkı sahibine ödenmemesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 829"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Zeynep'in arazisinde Mehmet lehine kurulan hak, ayrı sayfaya kayıtlı bir **üst hakkıdır** (TMK m. 826). Mehmet'in yaptırdığı apartmanın mülkiyeti, üst irtifakına dayalı yapı olduğu için ona aittir (TMK m. 726/1). Aksi kararlaştırılmadıkça üst hakkı devredilebilir ve mirasçılara geçer (TMK m. 826/2); sözleşmede devri engelleyen bir kayıt yoktur. Uyuşmazlık, üst hakkı sahibinin senetteki özgülenme amacına aykırı davranmasından doğmaktadır.\n\n**Hukuki sorunlar:** (1) Senetteki kaydın hakkı devralan Kemal'i bağlaması; (2) malikin süresinden önce devir isteme hakkı; (3) devirde bedel; (4) sözleşmede saklı tutulan yetki; (5) rehinli hakta bedelin ödenmesi.\n\n**İlgili hükümler:** TMK m. 826/2, TMK m. 827, TMK m. 831, TMK m. 832, TMK m. 833, TMK m. 829/1.\n\n**Değerlendirme:**\n\n*1. Kaydın Kemal'i bağlaması:* TMK m. 827'ye göre üst hakkının içerik ve kapsamıyla ilgili olarak resmî senette yer alan, özellikle yapının niteliğine ve özgülenme amacına ilişkin sözleşme kayıtları herkes için bağlayıcıdır. Yapının yalnız konut olarak kullanılacağı kaydı özgülenme amacına ilişkindir ve resmî senette yer almaktadır. Kemal, hakkı devralan olarak bu kayda bağlıdır; \"kişisel anlaşma\" savunması dinlenmez. Yargıtay'ın incelediğimiz bir kararında da bu kayıtların aşılmasının malikin mülkiyetine haksız el atma sayıldığı belirtilmiştir.\n\n*2. Erken devir:* Mehmet'in izinsiz biçimde yapıyı tamamen eğlence merkezine çevirmesi ve uyarılara rağmen sürdürmesi, bu haktan doğan yetkilerin sınırını ağır şekilde aşması veya sözleşmeden doğan yükümlülüklere önemli ölçüde aykırı davranması anlamına gelebilir. Bu şartlar gerçekleşirse malik, üst hakkının ona bağlı bütün hak ve yükümlülükleriyle birlikte süresinden önce kendisine devrini isteyebilir (TMK m. 831). İstem hakkı yalnız malike aittir. Şartların gerçekleşip gerçekleşmediği hâkimce değerlendirilir; Yargıtay'ın bir kararında erken devrin, ilişkinin malik için çekilmez hâle geldiği ağır ihlale bağlı olduğu ve TMK m. 2 ile TMK m. 4 çerçevesinde değerlendirileceği belirtilmiştir. Olayda aykırılığın yıllardır sürmesi bu yöndedir.\n\n*3. Bedel:* Zeynep devri bedelsiz isteyemez. Malik, kendisine geçecek yapılar için uygun bir bedel ödemek kaydıyla devri ister. Mehmet'in kusuru, bedelin belirlenmesinde indirim sebebi olarak göz önüne alınabilir. Devir, bedelin ödenmesine veya güvence altına alınmış olmasına bağlıdır (TMK m. 832). Kusur, bedelin tamamen ortadan kalkması sonucunu doğurmaz; kanun yalnızca \"indirim\" der.\n\n*4. Saklı yetki:* Sözleşmede malik lehine saklı tutulan, hakkı süresinden önce sona erdirme veya devrini isteme yetkisi, süresinden önce devire ilişkin hükümlere tabidir (TMK m. 833). Zeynep bu yetkiyi kullansa da TMK m. 831 ve TMK m. 832'deki şart ve bedel kuralları geçerli olmaya devam eder; sözleşme bu kuralları ortadan kaldıramaz.\n\n*5. Rehinli hakta bedel:* Senette süre sonunda ödenmesi kararlaştırılan bedel, üst hakkı kendileri için rehnedilmiş alacaklıların henüz ödenmemiş alacaklarının güvencesini oluşturur ve rızaları olmaksızın üst hakkı sahibine ödenmez (TMK m. 829/1). Bu nedenle bedel, A Bankası'nın rızası olmadan Mehmet'e ödenemez.\n\n**Sonuç:**\n- Kemal, senetteki özgülenme kaydına bağlıdır.\n- Şartlar gerçekleşirse yalnız Zeynep, hakkın süresinden önce kendisine devrini isteyebilir.\n- Devir bedelsiz değildir; Zeynep uygun bedel öder, Mehmet'in kusuru indirim sebebi olabilir, devir bedelin ödenmesine veya güvenceye bağlıdır.\n- Saklı tutulan yetki de erken devir hükümlerine tabidir.\n- Süre sonu bedeli A Bankası'nın rızası olmadan Mehmet'e ödenmez."
+  },
+  {
+   "stem_md": "Ayşe'nin buğday tarlası üzerinde, komşu un değirmeninin bulunduğu taşınmazın maliki lehine her yıl 5 ton buğday verme yükümlülüğü taşınmaz yükü olarak tescil edilmiştir. Taraflar yılda 5 ton buğdayın değerini 100.000 TL kabul etmişler, tescilde sicile yazılacak değer konusunda ise ayrıca bir şey kararlaştırmamışlardır.\n\nAyşe tarlayı Can'a satar ve devreder. Can, yük sözleşmesinin tarafı olmadığını ileri sürerek buğday vermeyi reddeder. Can, birbiri ardına üç yıl boyunca buğdayı vermez.\n\nDeğirmen maliki (alacaklı), üç yılın sonunda bunun üzerine Can'dan yükten kurtarma ister. Can ise sicildeki miktar kendisine fazla gelirse gerçek değerin daha düşük olduğunu ispatlamak istemektedir. Alacaklı ayrıca Can'ın diğer mallarına da başvurmak niyetindedir. Can, tarlayı Ayşe'den tapuda satın almıştır ve kendisine yükü bildiren bir sözleşme imzalamamıştır.\n\n1. Yükün konusu geçerli bir taşınmaz yükü konusu mudur?\n2. Sicile hangi değer yazılmalıdır?\n3. Can yükten sorumlu mudur?\n4. Alacaklı ne isteyebilir? Kurtarma hangi miktar üzerinden yapılır?\n5. Alacaklı Can'ın diğer mallarına başvurabilir mi?",
+   "rubric": [
+    {
+     "point": "Taşınmaz yükünün tanımı: malikin yalnız o taşınmazla sorumlu olmak üzere vermek veya yapmakla yükümlü olması; hak sahibinin başka bir taşınmazın maliki olarak gösterilebilmesi; edimin yüklü taşınmazın ekonomik niteliğinden doğması",
+     "weight": 15,
+     "madde_ref": "TMK m. 839"
+    },
+    {
+     "point": "Tescilin yükün kurulması için şart olması; dönemsel edimde sicil değerinin yıllık edimin yirmi katı olması (100.000 x 20 = 2.000.000 TL)",
+     "weight": 15,
+     "madde_ref": "TMK m. 840"
+    },
+    {
+     "point": "Yeni malikin başka bir işleme gerek olmaksızın yükümlü olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 849"
+    },
+    {
+     "point": "Birbiri ardına üç yılın edimlerinin yerine getirilmemesi nedeniyle alacaklının yükten kurtarmayı isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 844"
+    },
+    {
+     "point": "Yükten kurtarmanın sicildeki miktar üzerinden yapılması; daha düşük gerçek değeri ispat hakkının saklı olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 846"
+    },
+    {
+     "point": "Taşınmaz yükünün kişisel alacak sağlamaması; alacaklının Can'ın diğer mallarına kural olarak başvuramaması; her edimin muacceliyetten üç yıl sonra kişisel borca dönüşmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 848"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olaydaki yükümlülük, tarlanın malikini yalnız o taşınmazla sorumlu olmak üzere her yıl 5 ton buğday vermekle yükümlü kılan bir **taşınmaz yüküdür** (TMK m. 839/1). Hak sahibi olarak değirmenin bulunduğu taşınmazın maliki gösterilmiştir; kanun buna imkân verir (TMK m. 839/2). Bu bir irtifak değildir: Burada asıl edim bir \"vermek\"tir (TMK m. 779/2 ile karşılaştır).\n\n**Hukuki sorunlar:** (1) Yükün konusu; (2) sicil değeri; (3) yeni malikin sorumluluğu; (4) yükten kurtarma ve miktar; (5) sorumluluğun kapsamı.\n\n**İlgili hükümler:** TMK m. 839, TMK m. 840, TMK m. 844, TMK m. 846, TMK m. 848, TMK m. 849.\n\n**Değerlendirme:**\n\n*1. Konu:* İrat senedi ve kamu hukukuna ilişkin yükler saklı kalmak kaydıyla, yükün konusu ancak yüklü taşınmazın ekonomik niteliğinden doğan veya yararlanan taşınmazın ekonomik ihtiyaçlarını karşılayan bir edim olabilir (TMK m. 839/3). Buğday, buğday tarlasının ürünüdür; tarlanın ekonomik niteliğinden doğar ve bir un değirmeninin ihtiyacına hizmet eder. Konu geçerlidir.\n\n*2. Sicil değeri:* Taşınmaz yükünün kurulması için tescil şarttır (TMK m. 840/1). Tescilde yükün değeri olarak Türk parası veya yabancı para ile belirlenmiş bir miktar gösterilir. Dönemsel edimlerde sicilde gösterilecek miktar, aksi kararlaştırılmış değilse, yıllık edimlerin yirmi katıdır (TMK m. 840/2). Yıllık edim 100.000 TL ise sicile 100.000 x 20 = 2.000.000 TL yazılmalıdır (kendi hesabımız). Taraflar sicil değeri konusunda ayrıca bir şey kararlaştırmadığından tapu kütüğünde yükün değeri olarak bu miktar gösterilir.\n\n*3. Can'ın sorumluluğu:* Taşınmaz maliki değişirse yeni malik, başka bir işleme gerek bulunmaksızın taşınmaz yükünün yükümlüsü olur (TMK m. 849/1). Can'ın sözleşmenin tarafı olmadığı savunması bu nedenle sonuç doğurmaz: Yük taşınmaza bağlıdır, kişiye değil.\n\n*4. Yükten kurtarma:* Malik birbiri ardına üç yılın edimlerini yerine getirmemişse alacaklı yükten kurtarmayı isteyebilir (TMK m. 844/3). Olayda Can üç yıl üst üste vermediği için bu sebep gerçekleşmiştir. Yükten kurtarma, gerçek değerinin daha düşük olduğunu ispat etme hakkı saklı kalmak kaydıyla, yükün değeri olarak tapu kütüğünde gösterilen miktar üzerinden, yani 2.000.000 TL üzerinden gerçekleştirilir (TMK m. 846). Can, gerçek değerin daha düşük olduğunu ispatlama hakkını kullanabilir; yalnızca \"fazla geliyor\" demek yetmez, ispat gerekir. Yükten kurtarma sonrasında malik, hak sahibinden terkini isteyebilir (TMK m. 843/2).\n\n*5. Sorumluluğun kapsamı:* Taşınmaz yükü alacaklıya yükümlüye karşı hiçbir kişisel alacak hakkı sağlamaz; sadece alacağını yüklü taşınmazın değerinden elde etme yetkisi verir (TMK m. 848/1). Alacaklı bu nedenle kural olarak Can'ın diğer mallarına başvuramaz. Ayrıca her edim, muaccel olmasından başlayarak üç yıl sonra kişisel borç hâline gelir ve taşınmaz bu borcun güvencesi olmaktan çıkar (TMK m. 848/2). Muacceliyetinden üç yıl geçen edim varsa o edim kişisel borca döner ve taşınmaz onun güvencesi olmaktan çıkar; kişisel borç olan edimler zamanaşımına tabidir (TMK m. 847/2).\n\n**Sonuç:**\n- Yükün konusu geçerlidir; hak sahibi bir taşınmazın maliki olarak gösterilebilir.\n- Sicile yıllık edimin yirmi katı, yani 2.000.000 TL yazılmalıdır.\n- Can, yeni malik olarak başka bir işleme gerek olmaksızın yükümlüdür.\n- Alacaklı, üç yıllık edimsizlik nedeniyle yükten kurtarmayı isteyebilir; kurtarma sicildeki miktar (2.000.000 TL) üzerinden yapılır, Can daha düşük gerçek değeri ispat edebilir.\n- Alacaklı Can'ın diğer mallarına kural olarak başvuramaz; edimler muacceliyetten üç yıl sonra kişisel borca dönüşür."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Üst hakkı nedir? (TMK m. 826/1)",
+   "back_md": "Malikin üçüncü kişi lehine arazisinin altında veya üstünde yapı yapma ya da mevcut yapıyı muhafaza etme yetkisi veren irtifakıdır."
+  },
+  {
+   "front_md": "Üst hakkına dayanılarak yapılan yapının mülkiyeti kime aittir? (TMK m. 726/1)",
+   "back_md": "Sürekli kalmak üzere yapılan yapının mülkiyeti irtifak hakkı sahibine aittir."
+  },
+  {
+   "front_md": "Bağımsız bölüm üzerinde üst hakkı kurulabilir mi? (TMK m. 726/3)",
+   "back_md": "Hayır. Bağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz."
+  },
+  {
+   "front_md": "Üst hakkı ve kaynak hakkı ile diğer irtifakların devredilebilirlik farkı?",
+   "back_md": "Üst hakkı ve kaynak hakkı aksi kararlaştırılmadıkça devredilir ve mirasçılara geçer (TMK m. 826/2, TMK m. 837/2). Diğer irtifaklar devredilmez ve geçmez (TMK m. 838/2)."
+  },
+  {
+   "front_md": "Üst hakkı ayrı sayfaya hangi şartlarla kaydedilir? (TMK m. 826/3)",
+   "back_md": "Bağımsız ve sürekli olmalı ve üst hakkı sahibi istemelidir. En az otuz yıl için kurulan hak süreklidir. Kayıt zorunlu değil, imkândır."
+  },
+  {
+   "front_md": "Otuz yıl ile yüz yıl farkı?",
+   "back_md": "Otuz yıl ayrı sayfaya kayıt için süreklilik eşiğidir (TMK m. 826/3, TMK m. 998/3). Yüz yıl bağımsız hak olarak azami süredir (TMK m. 836/1)."
+  },
+  {
+   "front_md": "Üst hakkı süresi nasıl uzatılır? (TMK m. 836/2)",
+   "back_md": "Sürenin dörtte üçü dolduktan sonra, kuruluş şekline uyularak, en çok yüz yıllık yeni süre için. Önceden verilen taahhüt bağlayıcı değildir."
+  },
+  {
+   "front_md": "Resmî senet kayıtları kimi bağlar? (TMK m. 827)",
+   "back_md": "Yapının konumu, şekli, niteliği, boyutları, özgülenme amacı ve boş alandan yararlanmaya ilişkin kayıtlar herkes için bağlayıcıdır."
+  },
+  {
+   "front_md": "Üst hakkı sona erince yapılar ne olur? (TMK m. 828/1)",
+   "back_md": "Arazi malikine kalır ve arazinin bütünleyici parçası olur."
+  },
+  {
+   "front_md": "Ayrı sayfadaki üst hakkı sona erince ne olur? (TMK m. 828/2)",
+   "back_md": "Sayfa kapatılır. Üzerindeki rehin ve diğer bütün hak, kısıtlama ve yükümlülükler sona erer. Bedele ilişkin hükümler saklıdır."
+  },
+  {
+   "front_md": "Süre sonunda malik bedel öder mi? (TMK m. 829/1)",
+   "back_md": "Aksi kararlaştırılmadıkça hayır. Bedel kural değil istisnadır. Kararlaştırılmışsa rehin alacaklılarının rızası olmadan üst hakkı sahibine ödenmez."
+  },
+  {
+   "front_md": "Bedel ipoteği hangi sürede tescil edilir? (TMK m. 829/3)",
+   "back_md": "Üst hakkının sona ermesinden başlayarak üç ay içinde."
+  },
+  {
+   "front_md": "Süresinden önce devir isteminin şartı ve sahibi? (TMK m. 831)",
+   "back_md": "Yetki sınırının ağır şekilde aşılması veya yükümlülüklere önemli ölçüde aykırılık. İstem hakkı yalnız malike aittir."
+  },
+  {
+   "front_md": "Erken devirde bedel? (TMK m. 832)",
+   "back_md": "Malik, yapılar için uygun bedel öder. Hak sahibinin kusuru indirim sebebi olabilir. Devir bedelin ödenmesine veya güvenceye bağlıdır."
+  },
+  {
+   "front_md": "İrat güvencesi ipoteğinin kapsamı? (TMK m. 834-835)",
+   "back_md": "En çok üç yıllık irat için, ayrı sayfadaki üst hakkı üzerinde. Hak devam ettiği sürece her zaman tescil edilebilir ve icra satışında terkin olunmaz."
+  },
+  {
+   "front_md": "Kaynak hakkı ne zaman ayrı sayfaya kaydedilir? (TMK m. 837/3)",
+   "back_md": "Bağımsız nitelikte ve en az otuz yıl için kurulmuşsa. Metin 'sürekli' sözcüğünü kullanmaz."
+  },
+  {
+   "front_md": "TMK m. 838'deki diğer irtifakların özellikleri?",
+   "back_md": "Atış eğitimi, spor alanı, geçit gibi belirli yararlanma için kurulur. Aksi kararlaştırılmadıkça devredilmez ve mirasçılara geçmez. Kapsam olağan ihtiyaçlara göre belirlenir."
+  },
+  {
+   "front_md": "Taşınmaz yükü nedir? (TMK m. 839/1)",
+   "back_md": "Malikin yalnız o taşınmazla sorumlu olmak üzere bir şey vermek veya yapmakla yükümlü olmasıdır. Kişisel alacak sağlamaz (TMK m. 848/1)."
+  },
+  {
+   "front_md": "Taşınmaz yükü nasıl kurulur ve sicile ne yazılır? (TMK m. 840)",
+   "back_md": "Tescille kurulur. Dönemsel edimde, aksi kararlaştırılmadıkça, yıllık edimin yirmi katı sicile yazılır."
+  },
+  {
+   "front_md": "Yeni malik taşınmaz yükünden sorumlu olur mu? (TMK m. 849/1)",
+   "back_md": "Evet. Başka bir işleme gerek olmaksızın taşınmaz yükünün yükümlüsü olur."
+  },
+  {
+   "front_md": "Taşınmaz yükü zamanaşımına tabi midir? (TMK m. 847)",
+   "back_md": "Yükün kendisi tabi değildir. Muaccel edimler, kişisel borç hâline geldikleri tarihten başlayarak zamanaşımına tabidir."
+  },
+  {
+   "front_md": "Taşınmaz yükünde 'üç yıl' nerede geçer?",
+   "back_md": "Alacaklının yükten kurtarma sebebi: üç yılın edimlerinin yerine getirilmemesi (TMK m. 844/3). Edimin muacceliyetten üç yıl sonra kişisel borca dönüşmesi (TMK m. 848/2)."
+  },
+  {
+   "front_md": "Yükümlünün yükten kurtarma isteme yetkisi? (TMK m. 845)",
+   "back_md": "Sözleşmeyle yetkiliyse, alacaklı yükü kuran sözleşmeye uymuyorsa veya yükün kurulmasının üzerinden otuz yıl geçmişse istenebilir. Otuz yıl geçtikten sonra alacaklıya bir yıl önceden bildirmek şarttır."
+  },
+  {
+   "front_md": "İrtifak ile taşınmaz yükü farkı?",
+   "back_md": "İrtifakta yapma borcu yalnız yan edim olabilir (TMK m. 779/2). Taşınmaz yükünde asıl edim vermek veya yapmaktır (TMK m. 839/1)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
