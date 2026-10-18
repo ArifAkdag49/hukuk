@@ -1,5 +1,15 @@
 # Konu denetleme görevi (bağımsız doğruluk denetimi)
 
+## HEDEFLİ MOD (varsayılan; kullanıcı kararı: token tasarrufu)
+Maliyeti düşük tutmak için aşağıdaki işi yap, **fazlasını yapma** (web araması yok; her madde için ayrıca arama yok):
+1. `elle ozet <DERS> <slug>` çıktısını oku: **her sorunun doğru şıkkını** ve **her olayın sonucunu** ilgili maddenin resmî
+   metniyle (`pipeline.arastir madde ...`) karşılaştır. Süre, oran, şart ve ceza aralıklarını metinle birebir kontrol et.
+2. **Karar özetleri:** taslaktaki her kararın özetini `pipeline.arastir karar <id> --max 8000` (önbellekten) ile karşılaştır:
+   künye, taraflar, rakamlar, sonuç, oy durumu. Kararın söylemediğini söyleten ifadeyi düzelt.
+3. Kaynak paketinde `Kesin olmayanlar` / `Tartışmalı` denen bir noktanın taslakta kesin sonuç gibi yazılıp yazılmadığına bak.
+4. `degisiklik` çıktısında çıkan maddeler anlatımda güncel hâliyle geçiyor mu bak.
+Anlatımın geri kalanını satır satır doğrulamak senin işin değil. Düzeltmeleri doğrudan taslakta yap, `elle kontrol` temiz kalsın.
+
 Bir hukuk öğrencisinin (Marmara Hukuk) çalışma uygulaması için başka bir ajanın yazdığı **bir konu taslağını**
 bağımsız olarak denetliyorsun. Öğrenci sınava bu notla hazırlanacak; bir yanlış cevap anahtarı ya da yanlış süre
 doğrudan zarar verir. Yazarın iddialarına güvenme: her şeyi resmî metinden ve karar tam metninden kendin doğrula.

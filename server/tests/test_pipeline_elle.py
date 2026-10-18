@@ -211,3 +211,27 @@ def test_bare_article_right_after_another_law_reference_belongs_to_that_law():
 def test_bare_article_later_in_the_sentence_still_belongs_to_the_primary_law():
     assert elle.refs_in("İİK m. 89'a göre ihbar yapılır; alacak ise m. 183'e göre devredilir.", "TBK") == {
         ("İİK", "89", None), ("TBK", "183", None)}
+
+
+def test_kunye_falls_back_to_the_decision_text_when_there_is_no_search_record(tmp_path, monkeypatch):
+    from pipeline import arastir
+
+    monkeypatch.setattr(arastir, "ICTIHAT_DIR", tmp_path / "ictihat")
+    monkeypatch.setattr(arastir, "KARAR_DIR", tmp_path / "karar")
+    (tmp_path / "karar").mkdir()
+    arastir.karar_path("1230291000").write_text(
+        '11. Hukuk Dairesi         2025/6374 E.  ,  2026/3284 K.\n\n"İçtihat Metni"\nMAHKEMESİ : Samsun BAM\n...\n'
+        "aşağıda yazılı temyiz giderinin temyiz edene yükletilmesine, 04.06.2026 tarihinde kesin olarak oy birliğiyle karar verildi.",
+        encoding="utf-8")
+    k = arastir.kunye("1230291000")
+    assert k["okundu"] is True
+    assert (k["mahkeme"], k["esas_no"], k["karar_no"], k["karar_tarihi"]) == (
+        "Yargıtay 11. Hukuk Dairesi", "2025/6374", "2026/3284", "04.06.2026")
+    assert k["atif"] == "Yargıtay 11. Hukuk Dairesi, E.2025/6374 K.2026/3284, T.04.06.2026"
+    assert k["kaynak"] == "https://karararama.yargitay.gov.tr/getDokuman?id=1230291000"
+
+    arastir.karar_path("1206065200").write_text('Hukuk Genel Kurulu         2024/629 E.  ,  2025/723 K.\n\nmetin, 19.11.2025 tarihinde karar verildi.', encoding="utf-8")
+    assert arastir.kunye("1206065200")["mahkeme"] == "Yargıtay Hukuk Genel Kurulu"
+
+    arastir.karar_path("5").write_text("HATA: Bedesten ...", encoding="utf-8")
+    assert arastir.kunye("5") is None  # başlığı okunamayan metinden künye üretilmez

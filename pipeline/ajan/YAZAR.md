@@ -15,6 +15,16 @@ Tek bir hukuk öğrencisi (Marmara Hukuk, 3. sınıf) için hazırlanan Android 
 3. Örnek konu: `pipeline/taslak/HUK3011/tescil-serh-ve-beyan.yaml` (üslup, derinlik ve biçim bu düzeyde).
 
 ## 2. Kurallar
+- **Argon paketi (pakette "Konu <no>." başlığı, `slug:` satırı ve 11 bölüm varsa):** Paket başka bir araştırmacının dosyasından
+  ayrılmıştır. Karar olgularını (bölüm 4), tartışmaları, sınav olgularını ve olay malzemesini ondan al, ama:
+  1. **Madde metni paketten DEĞİL araçtan:** Tırnak içindeki her madde alıntısını `pipeline.arastir madde <KANUN> <no>` çıktısıyla
+     karşılaştır ve **araçtaki metni** kullan. Pakette bir madde numarası/alıntı uyuşmuyorsa araçtakini izle (bilinen hatalar:
+     komşu maddelerin tek başlık altında toplanması, alıntıya eklenmiş "(zincirleme suç)" gibi kendi notları, bir iki yanlış
+     madde numarası). Alıntı yapacağın her madde araçtan çekilmiş ve `maddeler` listesinde olmalı.
+  2. **Karar özeti:** olguları paketten al; `pipeline.arastir karar <id> --max 6000` (önbellekten gelir, ağ çağrısı yapmaz) ile
+     her kararın ilk bölümünü açıp **künye ve temel olguların tuttuğunu** kontrol et. Tutmayan ayrıntıyı özete alma.
+  3. Paket "kesin olmayanlar" ya da "tartışmalı" dediği şeyi nota kesin dille koyma.
+  4. Pakette bir madde numarası komşu maddeden çıkarsa (ör. TBK m. 397 başlığı altında m. 405-407 alıntıları) doğru maddeye bağla.
 - **Her hukuki bilgi pakete dayanır.** Süre, oran, şart ve sonuçları paketteki tırnaklı madde metninden aktar. Emin
   olmak için yalnız şu komutla madde metnine bakabilirsin (önbellekten gelir): `.venv/Scripts/python -X utf8 -m pipeline.arastir madde TMK 683`.
   İçtihat araması, web araması ve karar tam metni okuma **yapma**.

@@ -54,14 +54,34 @@ def karar_path(karar_id: str) -> pathlib.Path:
 _BASLIK_RE = re.compile(r"(\d{4}/[\d-]+)\s*E\.\s*,\s*(\d{4}/\d+)\s*K\.")
 
 
+_DAIRE_RE = re.compile(r"^\s*(Hukuk Genel Kurulu|Ceza Genel Kurulu|\d+\.\s*(?:Hukuk|Ceza) Dairesi)\b")
+_TARIH_RE = re.compile(r"(\d{2}\.\d{2}\.\d{4})\s+(?:tarihinde|günü)")
+
+
+def _kunye_metinden(karar_id: str, metin: str) -> dict | None:
+    """Arama kaydı olmayan (bağlantısıyla bulunmuş) Yargıtay kararının künyesi: daire ve esas/karar numarası
+    metnin başlığından, tarih kararın son "dd.mm.yyyy tarihinde ... karar verildi" cümlesinden. Başlığı
+    okunamayan metinden (hata iletisi gibi) künye üretilmez."""
+    m, d = _BASLIK_RE.search(metin[:400]), _DAIRE_RE.match(metin[:200])
+    if not (m and d):
+        return None
+    tarihler = _TARIH_RE.findall(metin[-1500:])
+    tarih = tarihler[-1] if tarihler else ""
+    mahkeme = f"Yargıtay {re.sub(r'\s+', ' ', d.group(1))}"
+    return {"id": karar_id, "mahkeme": mahkeme, "esas_no": m.group(1), "karar_no": m.group(2), "karar_tarihi": tarih,
+            "atif": f"{mahkeme}, E.{m.group(1)} K.{m.group(2)}, T.{tarih}",
+            "kaynak": f"https://karararama.yargitay.gov.tr/getDokuman?id={karar_id}", "mahkeme_turu": "yargitay",
+            "okundu": True}
+
+
 def kunye(karar_id: str) -> dict | None:
     """Önbellekteki künye. Kararın tam metni okunduysa esas/karar numarası metnin kendi başlığından
     alınır: arama sonucu HGK numarasındaki daire kodunu düşürebiliyor (2011/17-3 → 2011/3)."""
     p = ictihat_path(karar_id)
-    if not p.exists():
-        return None
-    k = json.loads(p.read_text(encoding="utf-8"))
     kp = karar_path(karar_id)
+    if not p.exists():
+        return _kunye_metinden(karar_id, kp.read_text(encoding="utf-8")) if kp.exists() else None
+    k = json.loads(p.read_text(encoding="utf-8"))
     k["okundu"] = kp.exists()
     if kp.exists():
         m = _BASLIK_RE.search(kp.read_text(encoding="utf-8")[:400])
