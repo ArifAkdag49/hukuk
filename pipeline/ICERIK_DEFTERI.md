@@ -72,7 +72,7 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 21 | intifa-ve-oturma-hakki | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (TMK m. 813/1 faizler, şerhli kiranın etkisi m. 1009/2, karar 3'te onanan BAM kararı); yüklenmedi |
 | 22 | ust-hakki-kaynak-hakki-ve-tasinmaz-yuku | bitti | bulutta araştırma-yazma-denetim; denetçi 9 düzeltme (karar 1180984700 özetinde alt mahkemelere yüklenen m. 829/1 gerekçesi, olay 3'te sicil miktarı çelişkisi TMK m. 846); yüklenmedi |
 | 23 | tasinmaz-rehni-genel-hukumler | bitti | bulutta araştırma-yazma-denetim; denetçi 4 kesin hata (soru 8 "terk"→"terkin" TMK m. 858, karar 2 ve 3 özet olguları, TMK m. 684/2 tanımı) ve 3 ekleme; yüklenmedi |
-| 24 | ipotek-ve-kanuni-ipotek | bekliyor | |
+| 24 | ipotek-ve-kanuni-ipotek | bitti | bulutta araştırma-yazma-denetim; denetçi 2644 m. 26 kredi sözleşmesiyle ipoteğin 1984'ten beri var olduğunu düzeltti, karar 1-2 özetlerini tam metne uydurdu; 📌 TMK m. 883/2 (7181, 1/1/2020); yüklenmedi |
 | 25 | ipotekli-borc-senedi-ve-irat-senedi | bekliyor | |
 | 26 | tasinir-rehni-hak-rehni-ve-hapis-hakki | bekliyor | |
 | 27 | kat-mulkiyeti-kurulus-ve-kat-irtifaki | bekliyor | |
