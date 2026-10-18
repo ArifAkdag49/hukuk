@@ -1,0 +1,650 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kıymetli Evrak",
+ "topic_index": 1,
+ "slug": "kiymetli-evrak-genel-hukumler",
+ "title": "Kıymetli Evrak Genel Hükümler: Tanım, Türler (Nama, Emre, Hamile), Devir, Ciro ve İptal",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T12:05:42.410556+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/temel-kavramlar-ve-sistem"
+ ],
+ "content": {
+  "summary_md": "- **Tanım (TTK m. 645):** Kıymetli evrakta senet içindeki hak, **senetten ayrı ileri sürülemez ve devredilemez** (hakkın senede bağlanması).\n- **Borçlu (TTK m. 646):** Borçlu ancak **senedin teslimi karşılığında** öder. Hile veya ağır kusuru yoksa, vadede senedin niteliğine göre alacaklı olduğu anlaşılan kişiye ödeyerek kurtulur.\n- **Devrin genel şekli (TTK m. 647):** Her hâlde **senet zilyetliğinin devri** şarttır. Ek olarak emre yazılı senette **ciro**, nama yazılı senette **yazılı devir beyanı** gerekir. Emre yazılı senette ciro ve zilyetliğin geçirilmesi devir için yeterlidir (TTK m. 648/2).\n- **Üç tür:** nama yazılı (belli kişi adına, emre kaydı yok; TTK m. 654), emre yazılı (ciro ile devir) ve hamile yazılı (hamili kim ise hak sahibi sayılır; TTK m. 658/1).\n- **Tahvil (TTK m. 650):** Nama veya emre yazılı senedin hamile yazılı hâle getirilmesi, hak ve borç ilişkisinde yer alan tüm kişilerin **doğrudan senet üzerine yazılan muvafakatini** gerektirir; tersinde muvafakat eksikse sonuç yalnız dönüştüren alacaklı ve haleflerine hüküm ifade eder.\n- **Ödeme (TTK m. 655):** Nama yazılı senette borçlu, senedin hamili olan ve adı senette yazılı kişiye ya da hukuki halefi olduğunu ispat edene ödemek zorundadır. İspat edilmeden yapılan ödeme, gerçek hak sahibine karşı kurtarıcı olmaz.\n- **Def'iler:** Hamile yazılı senette borçlu yalnız senedin geçersizliğine ilişkin ya da metinden anlaşılan def'ileri ve alacaklıya karşı **şahsen** sahip olduğu def'ileri ileri sürebilir; önceki hamillerle ilişkiye dayanan def'i ancak hamil bilerek borçlunun zararına hareket ettiyse geçerlidir; **rızası dışında tedavüle çıktığı def'i ileri sürülemez** (TTK m. 659). Emre yazılı poliçede benzer kural TTK m. 687/1'dedir. Nama yazılı senette alacağın temliki gibi borçlu devralana karşı devreden hakkındaki savunmaları ileri sürebilir (TBK m. 188).\n- **İptal (zayi):** Zayi hâlinde iptal kararını yalnız **zıya anında senet üzerinde hak sahibi olan** kişi ister (TTK m. 651). İptal kararıyla hak sahibi hakkını **senetsiz** ileri sürebilir ya da yeni senet isteyebilir (TTK m. 652).\n- **Hamile yazılı senet iptali (TTK m. 661-666):** Asliye ticaret mahkemesi; ödeme yasağı (TTK m. 662); ilanla ibraz çağrısı ve **en az 6 ay** süre (TTK m. 663); TTK m. 35'teki gazetede **üç defa** ilan (TTK m. 664); ibraz edilirse iade davası için süre (TTK m. 665); ibraz edilmezse iptal ve yeni senet / muaccel borcun ifası (TTK m. 666). **Banknotların iptaline karar verilemez** (TTK m. 668/1).\n- **Nama yazılı senetler** hamile yazılı senetler gibi iptal olunur (TTK m. 657/1). **Poliçede** getirme süresi en az 3 ay, en çok 1 yıldır (TTK m. 761/1).\n- 📌 **Güncel:** TTK m. 645-669 için 2020-2026 arasında doğrudan değişiklik veya AYM iptali bulunamamıştır.",
+  "content_md": "## 1. Kıymetli evrak nedir?\n\n**Kıymetli evrak**, içindeki hakkın senetten ayrı olarak ileri sürülemediği ve başkalarına devredilemediği senettir (TTK m. 645). Bu ilke **hakkın senede bağlanması** diye anılır. Senet kaybolursa hakkın kendisi de ortada kalır. Adi bir borç senedinden farkı budur: alacak, yazılı bir belge olmadan da var olabilir; kıymetli evrakta ise hak senede \"yapışmıştır\".\n\n> **Örnek:** Ali'nin bir bonodan alacağı vardır. Bono Ali'nin elinde olmadan alacağını borçludan isteyemez. Bonoyu başkasına devretmek de ancak senedin kendisinin devriyle olur.\n\nKıymetli evrakın üç işlevi vardır: hakkı **temsil** etmek, hakkın **devrini** kolaylaştırmak ve hamilin **güvenle** korunmasını sağlamak. Bu yüzden borçlunun ödemesi de senet karşılığında yapılır.\n\n### 1.1 Borçlunun durumu (TTK m. 646)\n\n- Borçlu ancak **senedin teslimi karşılığında** ödeme yapmakla yükümlüdür (TTK m. 646/1). Senedi geri almadan ödeme yapan borçlu, senet daha sonra iyiniyetli üçüncü kişiye geçerse tekrar ödeme riskine girer.\n- Hile veya ağır kusuru yoksa borçlu, vade geldiğinde senedin niteliğine göre alacaklı olduğu anlaşılan kişiye ödeyerek borcundan kurtulur (TTK m. 646/2). Yani borçlu, hamilin gerçek hak sahibi olup olmadığını araştırmak zorunda değildir; ama göz yumduğu ağır kusur varsa kurtulamaz.\n\n## 2. Üç tür kıymetli evrak\n\nKıymetli evrak, **devir şekline** göre üçe ayrılır. Sınavda en çok sorulan başlık budur.\n\n| Tür | Nasıl tanınır? | Dayanak |\n|---|---|---|\n| Nama yazılı | Belli kişi adına, \"emrine\" kaydı yok | TTK m. 654 |\n| Emre yazılı | \"Emrine\" kaydı var ya da kanunen emre yazılı | TTK m. 647/2, TTK m. 681/1 |\n| Hamile yazılı | Hamili kim ise hak sahibi sayılır | TTK m. 658/1 |\n\n**Nama yazılı senet:** Belli bir kişi adına yazılı olup onun emrine kaydını içermeyen ve kanunen de emre yazılı sayılmayan senettir (TTK m. 654). **Emre yazılı senet**, ciro ile devredilen senettir. Poliçe emre yazılı olarak düzenlenmese de ciro ve zilyetliğin geçirilmesi yoluyla devredilebilir; düzenleyen \"emre yazılı değildir\" kaydını koyarsa poliçe ancak alacağın temliki yoluyla devredilebilir (TTK m. 681/1-2). **Hamile yazılı senet** ise metninden veya şeklinden hamili kim ise onun hak sahibi sayılacağı anlaşılan senettir (TTK m. 658/1).\n\n### 2.1 Devir: zilyetlik her zaman şarttır\n\nMülkiyet veya sınırlı ayni hak kurulması amacıyla devir için **her hâlde senet zilyetliğinin devri** gerekir (TTK m. 647/1). Zilyetliğe ek olarak aranan şekil, türe göre değişir.\n\n| Tür | Zilyetliğe ek şart | Dayanak |\n|---|---|---|\n| Nama yazılı | Yazılı devir beyanı | TTK m. 647/2 |\n| Emre yazılı | Ciro | TTK m. 647/2, TTK m. 648/2 |\n| Hamile yazılı | Yalnız teslim | TTK m. 647/1 |\n\nDevir beyanı senedin üzerine ya da ayrı bir kâğıda yazılabilir (TTK m. 647/2). Kanun ya da sözleşme, borçlunun da devre katılmasını zorunlu kılabilir (TTK m. 647/3). Ciro, poliçenin cirosuna ilişkin hükümlere göre yapılır (TTK m. 648/1). Devredilebilen kıymetli evrakta ciro ve zilyetliğin geçirilmesiyle cirantanın hakları ciro edilene geçer; senedin niteliğinden aksi anlaşılıyorsa bu sonuç doğmaz (TTK m. 649).\n\n> ⚠️ **Sınavda dikkat:** Nama yazılı senedin devri için yalnız yazılı beyan yeterli değildir; **zilyetlik de devredilmelidir**. Adi alacak temlikinde ise alacağın devri yazılı şekle bağlıdır (TBK m. 184); senet zilyetliği gibi bir devir şartı yoktur. Yani nama yazılı kıymetli evrak devri, adi temlikten **daha ağırdır**.\n\n> **Örnek:** Zeynep, nama yazılı bir senedi Mehmet'e yazılı beyanla devreder ama senedi vermez. Mülkiyet Mehmet'e geçmez. Mehmet'in hak sahibi sayılması için senedin teslimi de gerekir (TTK m. 647/1-2).\n\n### 2.2 Tahvil: türün değiştirilmesi (TTK m. 650)\n\nNama veya emre yazılı bir senet, ancak kendisine hak verdiği ve borç yüklediği **tüm kişilerin muvafakatıyla** hamile yazılı senede dönüştürülebilir. Bu muvafakat doğrudan senet üzerine yazılmalıdır (TTK m. 650/1). Hamile yazılı senedi nama veya emre yazılıya çevirirken de aynı kural geçerlidir. Ancak bu son hâlde biri muvafakat vermezse dönüştürme yalnız dönüştüren alacaklı ile onun haklarına doğrudan halef olan kişi arasında hüküm ifade eder (TTK m. 650/2).\n\n## 3. Nama yazılı senetlerin özellikleri\n\n- **Ödeme (TTK m. 655):** Borçlu, ancak senedin hamili olan ve senette adı yazılı olan ya da hukuki halefi olduğunu ispat eden kişiye ödemek zorundadır. Bu ispat edilmeden ödeme yapılırsa borçlu, senedin gerçek sahibi olduğunu ispat eden üçüncü kişiye karşı borcundan kurtulmuş olmaz (TTK m. 655/2).\n- **Eksik nama yazılı senet (TTK m. 656):** Senette bedeli her hamiline ödeme hakkını saklı tutan borçlu, alacaklı sıfatının ispatını aramadan hamile iyiniyetle ödeyerek borcundan kurtulur. Ancak hamili ödemeyi **talep etme hakkı** yoktur; borçlunun yalnız kurtulma imkânı vardır.\n- **Def'iler:** Nama yazılı senetlerde devir alacağın temlikine benzer sonuç doğurur. Borçlu, devri öğrendiği sırada devredene karşı sahip olduğu savunmaları devralana karşı da ileri sürebilir (TBK m. 188). Yani **kamu güveni** (iyiniyetli hamilin korunması) nama yazılı senette yoktur.\n\n## 4. Hamile yazılı senetlerin özellikleri\n\n- **Ödeme yasağı:** Mahkeme kararıyla ödemeden menedilen borçlunun ödemesi geçerli olmaz (TTK m. 658/2).\n- **Def'iler (TTK m. 659):**\n  1. Borçlu yalnızca **senedin geçersizliğine** ilişkin veya **senet metninden anlaşılan** def'ileri ileri sürebilir; bir de **alacaklı her kim ise ona karşı şahsen** sahip olduğu def'ileri ileri sürebilir (TTK m. 659/1).\n  2. Borçlu ile önceki hamillerden biri arasındaki doğrudan ilişkiye dayanan def'i ancak hamil senedi iktisap ederken **bilerek borçlunun zararına** hareket ettiyse geçerlidir (TTK m. 659/2).\n  3. Senedin **borçlunun rızası olmaksızın tedavüle çıkarıldığı** def'i ileri sürülemez (TTK m. 659/3).\n- **Faiz kuponları (TTK m. 660):** Borçlu, faiz kuponundan doğan alacağa karşı ana paranın ödendiği def'inde bulunamaz.\n\n> ⚠️ **Sınavda dikkat:** Kamu güveni ilkesi hamile yazılı ve emre yazılı senette vardır (TTK m. 659/2; poliçe için TTK m. 687/1). Nama yazılı senette yoktur. Bir olayda \"iyiniyetli hamil\" geçiyorsa önce senedin türüne bak.\n\n> **Örnek:** Ali, hamile yazılı bir senedi mal satın alırken borçlu Mehmet'e verir. Mal teslim edilmemiştir (bedelsizlik). Senedi iyiniyetle edinen Zeynep alacağı isterse Mehmet bu şahsi def'iyi Zeynep'e karşı ileri süremez. Zeynep senedi alırken Mehmet'in zararına bile bile hareket etmişse def'i Zeynep'e karşı da ileri sürülebilir (TTK m. 659/2).\n\n## 5. Zayi nedeniyle iptal\n\n### 5.1 Genel şartlar ve hükümler (TTK m. 651-653)\n\nKıymetli evrak **zayi** olursa mahkeme iptaline karar verebilir (TTK m. 651/1). Zıya, senedin yok olması, kaybolması ya da çalınması gibi, hak sahibinin zilyetliği iradesi dışında kaybetmesidir. İptal kararını **zıya anında senet üzerinde hak sahibi olan kişi** isteyebilir (TTK m. 651/2). Borçlu ise iptal isteyemez; çünkü senet üzerinde hakkı yoktur.\n\nİptal kararı üzerine hak sahibi hakkını **senetsiz olarak** da ileri sürebilir veya yeni bir senet düzenlenmesini isteyebilir (TTK m. 652/1). Bunun dışında iptal usulü ve hükümleri için senet türüne özgü hükümler uygulanır (TTK m. 652/2, TTK m. 653).\n\n> ⚠️ **Sınavda dikkat:** Poliçede **senedi eline geçiren kişi bilinirse** iptal değil **iade davası** gündeme gelir: mahkeme dilekçe sahibine iade davası açması için süre verir (TTK m. 758/1). Eline geçiren bilinmiyorsa iptal istenebilir (TTK m. 759/1).\n\n### 5.2 Hamile yazılı senetlerde iptal usulü (TTK m. 661-668)\n\n1. **Yetkili mahkeme:** Borçlunun yerleşim yeri veya pay senetlerinde anonim şirket merkezinin bulunduğu yer **asliye ticaret mahkemesi** (TTK m. 661/2). Dilekçe sahibinin senedin zilyedi olduğu ve onu zayi ettiği iddiasının mahkemece inandırıcı bulunması gerekir (TTK m. 661/3).\n2. **Ödeme yasağı:** Mahkeme istem üzerine borçluyu, aksine hareket ederse iki defa ödemek zorunda kalacağını ihtar ederek ödemekten yasaklar (TTK m. 662/1).\n3. **İlan ve süre:** Mahkeme iddiaları inandırıcı bulursa belli olmayan hamili ilanla senedi ibraza çağırır. Süre **en az altı ay** olmalı ve ilk ilan gününden işler (TTK m. 663). İlan, TTK m. 35'te yazılı gazetede **üç defa** yapılır (TTK m. 664/1).\n4. **Senet ibraz edilirse:** Mahkeme dilekçe sahibine senedin iadesi davası açması için süre verir. Açmazsa senedi ibraz edene geri verir ve ödeme yasağını kaldırır (TTK m. 665).\n5. **Senet ibraz edilmezse:** Mahkeme senedin iptaline karar verir; karar derhâl ilan edilir. Dilekçe sahibi, gideri kendisine ait olmak üzere yeni senet düzenlenmesini veya muaccel borcun ifasını isteyebilir (TTK m. 666).\n\n**Özel haller:** Münferit kuponların zıyaında iptal kararı verilmez; bedel mahkemeye yatırılır ve vadenin dolmasından itibaren üç yıl geçip hiçbir hak sahibi başvurmazsa dilekçe sahibine verilir (TTK m. 667). **Banknot** ve para yerine ödeme aracı olarak kullanılan büyük miktarda çıkarılmış, görüldüğünde ödenecek hamile yazılı senetlerin iptaline karar verilemez (TTK m. 668/1). İpotekli borç senedi ve irat senedi için özel hükümler saklıdır (TTK m. 669).\n\n> **Örnek:** Ayşe'nin 5.000 TL'lik hamile yazılı senedi yangında yanmıştır. Ayşe borçlunun yerleşim yerindeki asliye ticaret mahkemesine başvurur. Mahkeme ödeme yasağı koyar, en az altı ay ibraz süresi vererek üç defa ilan yaptırır. Süre içinde senedi getiren olmazsa iptal eder; Ayşe de yeni senet veya muaccel borcun ödenmesini isteyebilir.\n\n### 5.3 Nama yazılı senet ve poliçe ile karşılaştırma\n\n| Senet | Süre / usul | Dayanak |\n|---|---|---|\n| Hamile yazılı | İbraz süresi en az 6 ay | TTK m. 663 |\n| Nama yazılı | Hamile yazılı hükümlere göre; borçlu daha basit usul koyabilir | TTK m. 657 |\n| Poliçe | Getirme süresi en az 3 ay, en çok 1 yıl | TTK m. 761/1 |\n\nNama yazılı senet sahibi bu iptal usulünü hamile yazılı senet gibi izler (TTK m. 657/1). Borçlu senette ilan sayısını azaltarak ya da süreleri kısaltarak daha basit usul öngörebilir. Alacaklıya iptal ve ödeme belgesi verilmişse senet ibraz edilmeden de ödeme yapma hakkını saklı tutabilir (TTK m. 657/2).\n\n## 6. Pratik uygulama: hak senedin içinde\n\nHakkın senede bağlanması icra hukukunda da sonuç doğurur. Yargıtay, nama yazılı pay senedi veya geçici ilmühaberin kıymetli evrak sayıldığını, bu nedenle haczi için İİK m. 88'e göre icra dairesince **fiilen el konulmasının** gerektiğini; İİK m. 94'e göre yalnız şirkete tebliğle yapılan haczin yeterli olmadığını kabul etmiştir. Çıplak payda ise İİK m. 94 kuralı uygulanır.\n\n## 7. Olay çözme şeması\n\n1. Senedin türü ne? (nama / emre / hamile)\n2. Devir şartları yerine geldi mi? (zilyetlik + ciro / yazılı beyan)\n3. Borçlu hangi def'ileri ileri sürebilir? (TTK m. 659, TTK m. 687, TBK m. 188)\n4. Senet zayi olduysa kim dava açabilir? (TTK m. 651/2)\n5. Senedi eline geçiren biliniyor mu? (iade davası) Bilinmiyorsa iptal usulü, süre ve ilan\n6. İptal kararının sonucu: senetsiz ileri sürme veya yeni senet (TTK m. 652)",
+  "critical_md": "- 📌 **Tanım:** Kıymetli evrakta hak, senetten ayrı ileri sürülemez ve devredilemez (TTK m. 645).\n- 📌 Borçlu **senedin teslimi karşılığında** öder (TTK m. 646/1); hile veya ağır kusuru yoksa vadede alacaklı olduğu anlaşılan kişiye ödeyerek kurtulur (TTK m. 646/2).\n- ⚠️ **Zilyetlik her türde şarttır** (TTK m. 647/1). Nama yazılıda ek olarak yazılı devir beyanı, emre yazılıda ciro gerekir (TTK m. 647/2); hamile yazılıda yalnız teslim yeterlidir.\n- 📌 Emre yazılıda devir için **ciro ve zilyetliğin geçirilmesi yeterlidir** (TTK m. 648/2).\n- ⚠️ Nama veya emre yazılı senedin hamile yazılıya dönüştürülmesi için **tüm kişilerin** muvafakatı, **doğrudan senet üzerine** yazılarak gerekir (TTK m. 650/1).\n- 📌 Nama yazılıda borçlu ancak senedin hamili ve adı yazılı kişiye (veya halefine) ödemek zorundadır; ispatsız ödeme gerçek sahibe karşı kurtarmaz (TTK m. 655).\n- 📌 Hamile yazılıda **rızası dışında tedavüle çıktı** def'i ileri sürülemez (TTK m. 659/3). Önceki hamille ilişkiye dayanan def'i ancak hamil bilerek borçlunun zararına hareket ettiyse geçerlidir (TTK m. 659/2).\n- ⚠️ Nama yazılıda kamu güveni yoktur: borçlu devredene karşı savunmalarını devralana da ileri sürer (TBK m. 188). Poliçede ise TTK m. 687/1 kamu güvenini korur.\n- 📌 İptal davasını yalnız **zıya anında senet üzerinde hak sahibi** olan kişi açabilir; borçlu açamaz (TTK m. 651/2). İptal kararıyla hak **senetsiz** ileri sürülebilir veya yeni senet istenebilir (TTK m. 652/1).\n- 📌 Hamile yazılı iptalinde asliye ticaret mahkemesi, ödeme yasağı, ibraz süresi **en az 6 ay**, TTK m. 35'teki gazetede **3 defa** ilan (TTK m. 661-664).\n- ⚠️ **Banknotların iptaline karar verilemez** (TTK m. 668/1). Münferit kuponlarda iptal değil bedelin mahkemeye yatırılması söz konusudur (TTK m. 667).\n- 📌 Nama yazılı senetler hamile yazılı hükümlere göre iptal edilir (TTK m. 657/1); poliçede getirme süresi en az 3 ay, en çok 1 yıldır (TTK m. 761/1).",
+  "doctrine_md": "### Rızası dışında tedavüle çıkma def'i\n\nHamile yazılı senette senedin borçlunun rızası dışında dolaşıma çıktığı def'i kanunen ileri sürülemez (TTK m. 659/3). Emre yazılı kambiyo senetlerinde ise bu konuda tartışma vardır. Bir görüşe göre senet borçlunun iradesiyle dolaşıma çıkmadıkça borçlu sorumlu olmaz; bu yaklaşımda senedin düzenlenip verilmesi sorumluluğun şartı sayılır. Karşı görüş görünüşe güveni esas alır: senedi imzalayan kişi, iyiniyetli hamilin güveninden doğan sonuca katlanmalıdır. Bu tartışma olay çözümlerinde kesin sonuç olarak kullanılmamalıdır; sınavda hamile yazılı senet için açık hüküm (TTK m. 659/3) esas alınır.\n\n### İptal kararının maddi hukuk etkisi\n\nTTK m. 652/1, iptal kararıyla hak sahibinin hakkını senetsiz ileri sürebileceğini söyler. İptal kararı senet sahipliğinin teşhis işlevini yeniden kurar. Ancak senedi iyiniyetle iktisap eden üçüncü bir kişinin sonradan ortaya çıkması hâlinde maddi hak sahipliğinin nasıl çözüleceği tartışmalıdır. Bir görüşe göre iptal kararı yalnızca hak sahibini ve borçluyu bağlar, iyiniyetli üçüncü kişinin hakkını ortadan kaldırmaz. Karşı görüş, ilan usulünün hamiline süre verdiği için süre geçtikten sonra senedin hükümsüz hâle geldiğini kabul eder. Kesin yorumdan kaçınarak, TTK m. 652'nin metnini bilmek yeterlidir.",
+  "glossary": [
+   {
+    "term": "Kıymetli evrak",
+    "definition": "İçerdiği hakkın senetten ayrı ileri sürülemediği ve devredilemediği senet (TTK m. 645)."
+   },
+   {
+    "term": "Hakkın senede bağlanması",
+    "definition": "Kıymetli evrakta hakkın, senedin zilyetliği olmadan kullanılamaması ve devredilememesi."
+   },
+   {
+    "term": "Nama yazılı senet",
+    "definition": "Belli kişi adına yazılı, emre kaydı içermeyen ve kanunen emre yazılı sayılmayan senet (TTK m. 654)."
+   },
+   {
+    "term": "Emre yazılı senet",
+    "definition": "Ciro ve teslimle devredilen senet; örneğin poliçe (TTK m. 647/2, TTK m. 681/1)."
+   },
+   {
+    "term": "Hamile yazılı senet",
+    "definition": "Hamili kim ise hak sahibi sayılan, yalnız teslimle devredilen senet (TTK m. 658/1)."
+   },
+   {
+    "term": "Ciro",
+    "definition": "Emre yazılı senedin devrini sağlayan, senet ya da ek kâğıt üzerindeki beyan (TTK m. 647/2, TTK m. 648)."
+   },
+   {
+    "term": "Tahvil (senet türünün değiştirilmesi)",
+    "definition": "Nama veya emre yazılı senedin hamile yazılıya ya da tersine çevrilmesi; ilgili kişilerin muvafakatı gerekir (TTK m. 650)."
+   },
+   {
+    "term": "Zıya",
+    "definition": "Senedin yanma, kaybolma ya da çalınma gibi nedenlerle hak sahibinin zilyetliğinden iradesi dışında çıkması."
+   },
+   {
+    "term": "İptal (zayi) davası",
+    "definition": "Zayi olan senedin mahkemece iptal edilmesi için hak sahibinin açtığı dava (TTK m. 651)."
+   },
+   {
+    "term": "Ödeme yasağı",
+    "definition": "Mahkemenin, iptal istemi üzerine borçluyu aksi hâlde iki kere ödeyeceği ihtarıyla ödemekten menetmesi (TTK m. 662)."
+   },
+   {
+    "term": "Eksik nama yazılı senet",
+    "definition": "Borçlunun bedeli her hamiline ödeme hakkını saklı tuttuğu nama yazılı senet (TTK m. 656)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "35",
+   "official_text": "III - Açıklık\nMADDE 35- (1) Tescil işleminin dayanakları olan dilekçe, beyanname, senetler, belgeler ve ilanları içeren gazeteler, üzerlerine sicil defterinin tarih ve numaraları yazılarak sicil müdürlüğünce saklanır.\n(2) Herkes ticaret sicilinin içeriğini ve müdürlükte saklanan tüm senet ve belgeleri inceleyebileceği gibi giderini ödeyerek bunların onaylı suretlerini de alabilir. Bir hususun sicilde kayıtlı olup olmadığına dair onaylı belge de istenebilir.\n(3) Tescil edilen hususlar, kanun veya Kanunun 26 ncı maddesine göre çıkarılacak yönetmelikte aksine bir hüküm bulunmadıkça ilan olunur.[17]\n(4) İlan, Türkiye genelinde sicil kayıtlarının ilanına özgü Türkiye Ticaret Sicili Gazetesi ile yapılır.\n[17] 26/6/2012 tarihli ve 6335 sayılı Kanunun 40 ıncı maddesiyle, bu fıkrada yer alan “tüzükte” ibaresi “Kanunun 26 ncı maddesine göre çıkarılacak yönetmelikte” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "645",
+   "official_text": "A) Kıymetli evrakın tanımı\nMADDE 645- (1) Kıymetli evrak öyle senetlerdir ki, bunların içerdikleri hak, senetten ayrı olarak ileri sürülemediği gibi başkalarına da devredilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "646",
+   "official_text": "B) Senetten doğan borç\nMADDE 646- (1) Kıymetli evrakın borçlusu, ancak senedin teslimi karşılığında ödeme ile yükümlüdür.\n(2) Hile veya ağır kusuru bulunmadıkça borçlu, vade geldiğinde, senedin niteliğine göre alacaklı olduğu anlaşılan kişiye ödemede bulunmakla borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "647",
+   "official_text": "I - Genel şekil\nMADDE 647- (1) Mülkiyet veya sınırlı bir ayni hak kurulması amacıyla kıymetli evrakın devri için her hâlde senet üzerindeki zilyetliğin devri şarttır.\n(2) Bundan başka emre yazılı senetlerde ciroya, nama yazılı senetlerde yazılı bir devir beyanına da gerek vardır. Bu beyan kıymetli evrakın veya ayrı bir kâğıdın üzerine yazılabilir.\n(3) Kanun veya sözleşme ile başkalarının, bu arada, özellikle borçlunun da devre katılmaları zorunluluğu öngörülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "648",
+   "official_text": "1. Şekil\nMADDE 648- (1) Bütün hâllerde ciro, poliçenin cirosuna ilişkin hükümler uyarınca yapılır.\n(2) Devir için ciro ve senedin zilyetliğinin geçirilmesi yeterlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "649",
+   "official_text": "2. Hükümleri\nMadde 649- (1) Devredilebilen bütün kıymetli evrakın, senedin içeriğinden veya niteliğinden aksi anlaşılmadıkça, ciro edilmesi ve zilyetliğin geçirilmesiyle cirantanın hakları ciro edilene devrolunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "650",
+   "official_text": "D) Senedin türünün değiştirilmesi\nMADDE 650- (1) Nama veya emre yazılı senet, ancak kendisine hak verdiği ve borç yüklediği tüm kişilerin muvafakatıyla hamile yazılı senede dönüştürülebilir. Bu muvafakatın doğrudan senet üzerine yazılması gerekir.\n(2) Hamile yazılı senetlerin nama veya emre yazılı senede dönüştürülebilmesi hususunda da aynı kural geçerlidir. Bu son hâlde hak veya borç sahibi kişilerden birinin muvafakatı bulunmazsa bu dönüştürme, ancak dönüştürmeyi yapan alacaklı ile onun haklarına doğrudan doğruya halef olan kişi arasında hüküm ifade eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "651",
+   "official_text": "I - Şartları\nMADDE 651- (1) Kıymetli evrak zayi olduğu takdirde mahkeme tarafından iptaline karar verilebilir.\n(2) Kıymetli evrakın zayi olduğu veya zıyaın ortaya çıktığı anda senet üzerinde hak sahibi olan kişi, senedin iptaline karar verilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "652",
+   "official_text": "II - Hükümleri\nMADDE 652- (1) İptal kararı üzerine hak sahibi hakkını senetsiz olarak da ileri sürebilir veya yeni bir senet düzenlenmesini isteyebilir.\n(2) Bunun dışında iptal usulü ve hükümleri hakkında, kıymetli evrakın çeşitli türlerine ilişkin özel hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "653",
+   "official_text": "F) Özel hükümler\nMADDE 653- (1) Çeşitli kıymetli evraka ilişkin özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "654",
+   "official_text": "A) Tanımı\nMADDE 654- (1) Belli bir kişinin adına yazılı olup da onun emrine kaydını içermeyen ve kanunen de emre yazılı senetlerden sayılmayan kıymetli evrak nama yazılı senet sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "655",
+   "official_text": "I - Kural olarak\nMADDE 655- (1) Borçlu, ancak senedin hamili bulunan ve senette adı yazılı olan veya onun hukuki halefi olduğunu ispat eden kişilere ödemek zorundadır.\n(2) Bu husus ispat edilmediği hâlde ödemede bulunan borçlu, senedin gerçek sahibi olduğunu ispat eden bir üçüncü kişiye karşı borcundan kurtulmuş olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "656",
+   "official_text": "II - Eksik nama yazılı senetler\nMADDE 656- (1) Nama yazılı senet içinde, senet bedelini her hamiline ödemek hakkını saklı tutmuş olan borçlu, alacaklı sıfatının ispat edilmesini aramamış olsa da hamile iyiniyetle yapacağı ödeme sonucunda borcundan kurtulmuş olur. Ancak, hamile ödemede bulunmakla yükümlü değildir. 785 inci maddenin ikinci fıkrası hükmü saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "657",
+   "official_text": "C) İptal kararı\nMADDE 657- (1) Aksine özel hükümler bulunmadıkça nama yazılı senetler, hamile yazılı senetlere ilişkin hükümlere göre iptal olunur.\n(2) Borçlu, senette ilanların sayısını azaltmak veya süreleri kısaltmak suretiyle iptal için daha basit bir usul öngörebileceği gibi, alacaklı kendisine senedin iptal ve borcun ödendiğini gösteren, resmen düzenlenmiş veya usulen onaylanmış bir belge verdiği takdirde, senet ibraz edilmeksizin ve iptaline karar verilmeksizin de geçerli olmak üzere ödemek hakkını da saklı tutabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "658",
+   "official_text": "A) Tanımı\nMADDE 658- (1) Senedin metninden veya şeklinden, hamili kim ise o kişinin hak sahibi sayılacağı anlaşılan her kıymetli evrak, hamile veya hamiline yazılı senet sayılır.\n(2) Mahkeme kararıyla ödemeden menedilen borçlunun ödemesi geçerli olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "659",
+   "official_text": "I - Genel olarak\nMADDE 659- (1) Borçlu hamile yazılı bir senetten doğan alacağa karşı, ancak senedin geçersizliğine ilişkin veya senedin metninden anlaşılan def’ilerle, alacaklı her kim ise ona karşı şahsen sahip olduğu def’ileri ileri sürebilir.\n(2) Borçlu ile önceki hamillerden biri arasında doğrudan doğruya var olan ilişkilere dayanan def’ilerin ileri sürülmesi, ancak senedi iktisap ederken hamilin bilerek borçlunun zararına hareket etmiş olması hâlinde geçerlidir.\n(3) Senedin, borçlunun rızası olmaksızın tedavüle çıkarıldığı yolunda bir def’i ileri sürülemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "660",
+   "official_text": "II - Hamile yazılı faiz kuponları\nMADDE 660- (1) Borçlu hamile yazılı faiz kuponlarından doğan alacağa karşı ana paranın ödendiği def’inde bulunamaz.\n(2) Ana paranın ödenmesi hâlinde, borçlu, ilerde muaccel olup da asıl senetle birlikte kendisine teslim edilmeyen faiz kuponlarının tutarını, bu kuponlar hakkında geçerli olan zamanaşımı süresi geçinceye kadar alıkoymak hakkını haizdir; meğerki, teslim edilmeyen kuponların iptaline karar verilmiş veya tutarı karşılığında teminat gösterilmiş olsun.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "661",
+   "official_text": "1. Yetki\nMADDE 661- (1) Pay senetleri, tahviller, intifa senetleri, münferit kuponlar hariç olmak üzere, kupon belgeleri, esas kupon belgelerinin yenilenmesine yarayan talonlar gibi hamile yazılı senetlerin iptaline hak sahibinin istemi üzerine mahkemece karar verilir.\n(2) Yetkili mahkeme, borçlunun yerleşim yeri veya pay senetleri hakkında anonim şirket merkezinin bulunduğu yer asliye ticaret mahkemesidir.\n(3) Dilekçe sahibinin senedin zilyedi bulunduğu ve onu zayi ettiği yolundaki iddialarının mahkemece inandırıcı bulunması gerekir.\n(4) Bir senet kupon tablosu veya talon içeriyorsa ve hamil yalnız kupon tablosunu veya talonunu kaybetmişse, istemin haklı olduğunun ispatı için senedin esas bölümünün ibrazı yeterlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "662",
+   "official_text": "2. Ödeme yasağı\nMADDE 662- (1) Dilekçe sahibinin istemi üzerine mahkeme, senedin borçlusunu, aksine hareket ettiği takdirde iki defa ödemek zorunda kalacağını ihtar ederek bedelini ödemekten yasaklar.\n(2) Bir kupon belgesinin iptaline karar vermek gerektiği takdirde, vadeleri dava sırasında dolan münferit kuponlar hakkında faiz kuponlarının iptaline ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "663",
+   "official_text": "3. İlan ile çağrı, başvuru süresi\nMADDE 663- (1) Mahkeme, dilekçe sahibinin, senedin zilyedi bulunmuş ve onu zâyi etmiş olduğuna dair yaptığı açıklamaları inandırıcı bulursa, belli olmayan hamili ilan yoluyla, senedi belirli bir süre içinde ibraz etmeye çağırır ve aksi takdirde senedin iptaline karar verileceğini ihtar eder. Sürenin en az altı ay olarak belirlenmesi gerekir; bu süre ilk ilan gününden itibaren işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "664",
+   "official_text": "4. İlan şekli\nMADDE 664- (1) Senedin ibrazına ilişkin ilanın 35 inci maddede yazılı gazetede üç defa yapılması gerekir.\n(2) Mahkeme gerek gördüğü takdirde, ayrıca uygun göreceği diğer şekillerde de ilanlar yapılmasına karar verebilir.\n5. Hükümleri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "665",
+   "official_text": "a) Senedin ibrazı hâlinde\nMADDE 665- (1) İptali istenen senet ibraz edilirse, mahkeme, dilekçe sahibine senedin iadesi davası açması için bir süre belirler.\n(2) Dilekçe sahibi bu süre içinde dava açmazsa, mahkeme, senedi geri verir ve ödeme yasağını kaldırır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "666",
+   "official_text": "b) Senedin ibraz edilmemesi hâlinde\nMADDE 666- (1) Mahkeme, belirlenen süre içinde ibraz edilmeyen senedin iptaline karar verir veya gerekli görürse başka önlemler de alabilir.\n(2) Hamile yazılı bir senedin iptali hakkındaki karar, derhâl 35 inci maddede yazılı gazeteyle ve mahkeme gerek görürse başka araçlarla da ilan edilir.\n(3) İptal kararı üzerine dilekçe sahibi, gideri kendisine ait olmak üzere yeni bir senet düzenlenmesini veya muaccel borcun ifasını istemek hakkını haizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "667",
+   "official_text": "II - Kuponlarda usul\nMADDE 667- (1) Münferit kuponların zıyaı hâlinde hak sahibinin istemi üzerine, mahkeme, bedelin vadesinde, vade dolmuşsa derhâl mahkemeye yatırılmasına karar verir.\n(2) Üç yıl geçtikten sonra hiçbir hak sahibi başvurmaz ve vadenin dolmasından itibaren üç yıl geçmiş olursa, mahkeme kararıyla bedel dilekçe sahibine verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "668",
+   "official_text": "III - Banknotlarda ve buna benzer kâğıtlarda usul\nMADDE 668- (1) Banknot ve büyük miktarda çıkarılıp görüldüğünde ödenmesi gereken ve para yerine ödeme aracı olarak kullanılan ve belirli bedelleri yazılı olan diğer hamile yazılı senetlerin iptaline karar verilemez.\n(2) Devlet tarafından çıkarılmış olan tahvillere ilişkin özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "669",
+   "official_text": "D) İpotekli borç senedi ve irat senedi\nMADDE 669- (1) Hamile yazılı olan ipotekli borç senediyle irat senedine ilişkin özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "681",
+   "official_text": "A) Poliçenin devredilmesi\nMADDE 681- (1) Her poliçe açıkça emre yazılı olmasa da ciro ve zilyetliğin geçirilmesi yoluyla devredilebilir.\n(2) Düzenleyen, poliçeye “emre yazılı değildir” ibaresini veya aynı anlamı ifade eden bir kaydı koymuşsa, poliçe ancak alacağın temliki yoluyla devrolunabilir ve bu devir alacağın temlikinin hukuki sonuçlarını doğurur.\n(3) Ciro, poliçeyi kabul etmiş olsun veya olmasın muhataba, düzenleyene veya poliçeyle borç altına girmiş olanlardan herhangi birine yapılabilir. Bu kimseler poliçeyi yeniden ciro edebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "687",
+   "official_text": "IV - Def’iler\nMADDE 687- (1) Poliçeden dolayı kendisine başvurulan kişi, düzenleyen veya önceki hamillerden biriyle kendi arasında doğrudan doğruya var olan ilişkilere dayanan def’ileri başvuran hamile karşı ileri süremez; meğerki, hamil, poliçeyi iktisap ederken bile bile borçlunun zararına hareket etmiş olsun.\n(2) Alacağın temliki yoluyla yapılan devirlere ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "757",
+   "official_text": "I - Önleyici önlemler\nMADDE 757- (1) İradesi dışında poliçe elinden çıkan kişi, ödeme veya hamilin yerleşim yerindeki asliye ticaret mahkemesinden, muhatabın poliçeyi ödemekten menedilmesini isteyebilir.\n(2) Mahkeme, ödemeyi meneden kararında muhataba, vadenin gelmesi üzerine poliçe bedelini tevdi etmeye izin verir ve tevdi yerini gösterir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "758",
+   "official_text": "II - Poliçeyi eline geçiren kişinin bilinmesi\nMADDE 758- (1) Poliçeyi eline geçiren kişi bilindiği takdirde, mahkeme, dilekçe sahibine iade davası açması için uygun bir süre verir.\n(2) Dilekçe sahibi verilen süre içinde davayı açmazsa, mahkeme, muhatap hakkındaki ödeme yasağını kaldırır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "759",
+   "official_text": "1. Dilekçe sahibinin yükümlülükleri\nMADDE 759- (1) Poliçeyi eline geçiren kişi bilinmiyorsa, poliçenin iptaline karar verilmesi istenebilir.\n(2) İptal isteminde bulunan kişi, poliçe elinde iken zıyaa uğradığını inandırıcı bir şekilde gösteren delilleri mahkemeye sağlamak ve senedin bir suretini ibraz etmek veya senedin esas içeriği hakkında bilgi vermekle yükümlüdür.\n2. İhtar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "760",
+   "official_text": "a) İçeriği\nMADDE 760- (1) Mahkeme, dilekçe sahibinin, poliçe elinde iken zıyaa uğradığına dair verdiği açıklamaları inandırıcı bulursa, verilecek ilanla, poliçeyi eline geçireni, poliçeyi belirli bir süre içinde getirmeye davet ve aksi takdirde poliçenin iptaline karar vereceğini ihtar eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "761",
+   "official_text": "b) Süreler\nMADDE 761- (1) Poliçeyi getirme süresi en az üç ay ve en çok bir yıldır.\n(2) Vadesi gelmiş poliçelerde zamanaşımı, üç ayın geçmesinden önce gerçekleşirse, mahkeme üç aylık süre ile bağlı değildir.\n(3) Süre, vadesi gelen poliçeler hakkında birinci ilan gününden, vadesi gelmeyen poliçeler hakkında vadenin gelmesinden itibaren işler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "183",
+   "official_text": "MADDE 183- Kanun, sözleşme veya işin niteliği engel olmadıkça alacaklı, borçlunun rızasını aramaksızın alacağını üçüncü bir kişiye devredebilir.\nBorçlu, devir yasağı içermeyen yazılı bir borç tanımasına güvenerek alacağı devralmış olan üçüncü kişiye karşı, alacağın devredilemeyeceğinin kararlaştırılmış bulunduğu savunmasını ileri süremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "184",
+   "official_text": "MADDE 184- Alacağın devrinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.\nAlacağın devri sözü verme, şekle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "188",
+   "official_text": "MADDE 188- Borçlu, devri öğrendiği sırada devredene karşı sahip olduğu savunmaları, devralana karşı da ileri sürebilir.\nBorçlu, devri öğrendiği anda muaccel olmayan alacağını, devredilen alacaktan önce veya onunla aynı anda muaccel olması koşuluyla borcu ile takas edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "88",
+   "official_text": "1 – Taşınırlar hakkında:\nMadde 88 – (Değişik: 2/7/2012-6352/17 md.)\nHaczolunan paraları, banknotları, hamiline ait senetleri, poliçeler ve sair cirosu kabil senetler ile altın, gümüş ve diğer kıymetli şeyleri icra dairesi muhafaza eder.\nDiğer taşınır mallar, masrafı peşinen alacaklıdan alınarak muhafaza altına alınır. Alacaklı muvafakat ederse, istenildiği zaman verilmek şartıyla, muvakkaten borçlu yedinde veya üçüncü şahıs nezdinde bırakılabilir. Üçüncü şahsın elinde bulunan taşınır mallar haczedildiğinde, üçüncü şahsın kabulü hâlinde üçüncü şahsa yediemin olarak bırakılır. (Değişik cümle:24/11/2021-7343/7 md.) Haczedilmiş ancak muhafaza altına alınmamış mallar satış talebi üzerine muhafaza altına alınır veya ihale alıcısına teslime hazır hâle getirilir, aksi takdirde satış yapılamaz. (Ek cümle:24/11/2021-7343/7 md.) Sicile kayıtlı motorlu kara araçları bakımından 106 ncı madde hükmü saklıdır.\nTürkiye’nin taraf olduğu uluslararası andlaşma hükümleri saklı kalmak kaydıyla, yabancı devlet başkanı, parlamento başkanı, hükümet başkanı veya hükümet üyelerini taşıyan ulaşım araçları, bu kişiler Türkiye’de bulundukları sürece, muhafaza altına alınamaz ve yediemine bırakılamaz.\nİcra dairesi üçüncü bir şahsa rehnedilmiş olan malları da muhafaza altına alabilir. Ticari işletme rehni kapsamındaki taşınırlar ise icra dairesince satılmalarına karar verilmesinden sonra muhafaza altına alınabilir. Bu mallar paraya çevrilmediği takdirde geri verilir.\nHaczedilen mallar, Adalet Bakanlığı tarafından yetki verilen gerçek veya tüzel kişilere ait lisanslı yediemin depolarında muhafaza edilir. Yetki verilen gerçek veya tüzel kişiler, bu yetkilerini Adalet Bakanlığının onayıyla alt işleticilere aynı standartları sağlamak koşuluyla devredebilirler. Bu devir, yetki verilen gerçek veya tüzel kişilerin sorumluluklarını ortadan kaldırmaz. Bu depoların yönetmelikte belirlenen nitelik ve şartlara uygunluğunun saptanması sonucunda işletme belgesi Adalet Bakanlığı tarafından verilir. Haczedilen malların muhafaza işlemleri; lisanslı yediemin depolarının kuruluşuna, bu depolarda bulunması gereken asgari niteliklere, depo için alınacak teminata, mallar için muhtemel rizikolara karşı yapılacak sigortaya; işletici olma niteliklerine, işletici lisansına, Adalet Bakanlığı tarafından bu lisansın verilmesine; Adalet Bakanlığının lisanslı işletmelerle ilgili görev ve yetkilerine; faaliyetin durdurulması ya da iptali gibi idari tedbir ve tasarruflara; bu depoların denetimine ve diğer hususlara ilişkin usul ve esaslar, Adalet Bakanlığı tarafından çıkarılan yönetmelikte düzenlenir. Haczedilen malların muhafazası aşamasındaki ücretler Adalet Bakanlığı tarafından düzenlenecek tarifeyle belirlenir.\n(Mülga fıkra: 28/3/2023-7445/42 md.)\nİcra müdürlüklerinin talebi üzerine kolluk kuvvetleri tarafından yakalanan araçlar, en geç üç iş günü içinde en yakın icra müdürlüğüne teslim edilir. Aracı teslim alan icra müdürlüğü, aracın yakalanmasını isteyen icra müdürlüğüne bildirimde bulunur.\nMuhafazasına gerek kalmayan malların tasfiyesi:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "94",
+   "official_text": "İştirak halinde tasarruf edilen mallar:\nMadde 94 – (Değişik: 18/2/1965-538/52 md.)\nBir intıfa hakkı veya taksim edilmemiş bir miras veya bir şirket yahut iştirak halinde tasarruf edilen bir mal hissesi haczedilirse icra dairesi, yerleşim yerleri bilinen ilgili üçüncü şahıslara keyfiyeti ihbar eder. Bu suretle borçlunun muayyen bir taşınmazdaki tasfiye sonundaki hissesi haczedilmiş olursa icra memuru haciz şerhinin taşınmazın kaydına işlenmesi için tapu sicil muhafızlığına tebligat yapar. (Ek cümleler: 17/7/2003-4949/25 md.) Anonim şirketlerde paylar için pay senedi veya pay ilmühaberi çıkarılmamışsa, borçlunun şirketteki payı icra dairesi tarafından şirkete tebliğ olunarak haczedilir. Bu haczin şirket pay defterine işlenmesi zorunludur; ancak haciz, şirket pay defterine işlenmemiş olsa bile şirkete tebliğ tarihinde yapılmış sayılır. Haciz, icra dairesi tarafından tescil edilmek üzere Ticaret Siciline bildirilir. Bu durumda haczedilen payların devri, alacaklının haklarını ihlâl ettiği oranda batıldır. Haczedilen payların satışı, taşınır malların satışı usulüne tâbidir. Diğer taşınırlarda icra dairesi başkasına devre mâni tedbirleri alır. (Mülga üçüncü cümle: 17/7/2003-4949/25 md.)\nBorçlunun reddetmediği miras veya başka bir sebeple iktisap eyleyip henüz tapuya veya gemi siciline tescil ettirmediği mülkiyet veya diğer aynı hakların borçlu namına tescili alacaklı tarafından istenebilir. Bu talep üzerine icra dairesi alacaklının bu muameleyi takip edebileceğini tapu veya gemi sicili dairesine ve icabında mahkemeye bildirir.\nBorçlunun zilyed bulunduğu bir taşınmaz üzerindeki fevkalade zamanaşımı ile iktisabını istemek hakkının haczedilmesi halinde, icra dairesi zilyedliğin başkasına devrine mani olacak tedbirleri alır ve alacaklıya bir ay içinde taşınmazın borçlusu adına tescili için dava açması yetkisini verir. Mahkemenin tescil kararı ile taşınmaz bu alacaklı lehine mahcuz sayılır.\nİkinci fıkra hükmü, almaya hak kazandığı veya almakta bulunduğu emekli veya yetim maaşını istifa için icap eden yoklama muamelesini yaptırmıyanlar hakkında yetkili makama bildirmek suretiyle tatbik olunur.\nAlacaklının bu sebeple yapacağı kanuni masraflar ayrıca takip ve hükme hacet kalmaksızın dairece borçludan tahsil olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2026/656",
+   "karar_no": "2026/2123",
+   "decision_date": "16.04.2026",
+   "summary_md": "Davacı, mal satım sözleşmesi nedeniyle davalıya verdiği altı çekin karşılığında davalıya borçlu olmadığının tespitini ve bu çeklerin iptalini istemiştir. Gaziantep BAM 11. HD, davalı tarafın çekleri iade etmediğini belirterek menfi tespit isteminin kabulüne karar vermiş; ancak çeklerin iptali talebini TTK m. 651 ve TTK m. 652 uyarınca reddetmiştir. Gerekçe şudur: kıymetli evrakın zayi nedeniyle iptali, zıya anında senet üzerinde hak sahibi olan kişiye, yani meşru hamile tanınmış bir hak olup keşidecinin çekin iptalini isteme hakkı yoktur. Yargıtay 11. HD, bölge adliye mahkemesinin bu kararını oy birliğiyle onamıştır. Karar, iptal davasını açabilecek kişinin borçlu değil senet üzerinde hak sahibi olduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1225534800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2024/4543",
+   "karar_no": "2024/8419",
+   "decision_date": "10.10.2024",
+   "summary_md": "Alacaklının talebiyle icra müdürlüğü, borçlunun bir anonim şirketteki paylarını şirket adresinde pay defterine işlenmesi istenerek ve ticaret sicil müdürlüğüne yazı yazılarak haczetmiştir. Bilirkişi raporu, haciz tarihinde hisse senetlerinin nama yazılı olduğunu göstermiş, buna rağmen icra hukuk mahkemesi borçlunun şikâyetini reddetmiştir. Yargıtay 12. HD, senetlerin kıymetli evrak niteliğinde olması nedeniyle icra müdürünün İİK m. 88'e göre bunlara fiilen el koymasıyla haczin gerçekleşeceğini, İİK m. 94'e göre uygulanan haczin bu nedenle geçersiz olduğunu belirterek icra hukuk mahkemesi kararını oy birliğiyle bozmuştur. Karar, hakkın senede bağlanması ilkesinin (TTK m. 645) icra hukukundaki sonucunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1094129400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Kıymetli evrakın tanımına ilişkin aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İçerdiği hak yalnızca yazılı bir sözleşmeyle devredilebilen senettir.",
+    "İçerdiği hak senetten ayrı olarak ileri sürülebilen, ancak devredilemeyen senettir.",
+    "Borcun ispatı için düzenlenen her yazılı belgedir.",
+    "İçerdiği hak senetten ayrı ileri sürülemeyen ve başkalarına devredilemeyen senettir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 645'e göre kıymetli evrak, içerdiği hakkın senetten ayrı olarak ileri sürülemediği gibi başkalarına da devredilemediği senettir. Her borç belgesi kıymetli evrak değildir; kıymetli evrakta hak senede bağlanmıştır."
+  },
+  {
+   "stem_md": "Kıymetli evrakın borçlusunun ödeme yükümlülüğü bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Borçlu, senedin teslimi aranmaksızın alacaklıya ödemek zorundadır.",
+    "Borçlu hile veya ağır kusuru olsa da vadede senedin hamiline ödeyerek her hâlde kurtulur.",
+    "Borçlu ancak senedin teslimi karşılığında ödemeyle yükümlüdür.",
+    "Borçlu yalnızca senedin aslını görmeden ödeme yapabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 646/1 gereği borçlu ancak senedin teslimi karşılığında ödemeyle yükümlüdür. TTK m. 646/2 uyarınca hile veya ağır kusur varsa borçlu ödemeyle kurtulamaz."
+  },
+  {
+   "stem_md": "Zeynep, nama yazılı bir senedin alacaklısıdır. Mehmet'e yazılı bir devir beyanı verir ancak senedin kendisini Mehmet'e teslim etmez. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yazılı devir beyanı yeterli olduğundan senet devredilmiş olur.",
+    "Senedin zilyetliği de devredilmediği için devir tamamlanmamıştır.",
+    "Devir için senetteki hakkın Mehmet'e geçmesi, ancak borçlunun onayıyla mümkündür.",
+    "Yalnız ciro yazılırsa senedin teslimi aranmaksızın devir olur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 647/1 uyarınca kıymetli evrakın devri için her hâlde senet üzerindeki zilyetliğin devri şarttır. Nama yazılı senette TTK m. 647/2 ayrıca yazılı devir beyanı arar; bu beyan zilyetliğin devrinin yerini tutmaz."
+  },
+  {
+   "stem_md": "Emre yazılı bir senedin devri için aşağıdakilerden hangisi yeterlidir?",
+   "options": [
+    "Ciro ve senedin zilyetliğinin geçirilmesi.",
+    "Yalnızca noter onaylı devir sözleşmesi.",
+    "Borçlunun yazılı onayı ve ticaret siciline tescil.",
+    "Yalnızca senedin teslimi."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 648/2'ye göre emre yazılı senedin devri için ciro ve senedin zilyetliğinin geçirilmesi yeterlidir. Yalnız teslim ile devir hamile yazılı senet için geçerlidir; noterlik veya tescil şartı yoktur."
+  },
+  {
+   "stem_md": "Bir poliçenin düzenleyeni senede \"emre yazılı değildir\" ibaresini koymuştur. Poliçe nasıl devredilebilir?",
+   "options": [
+    "Hiçbir şekilde devredilemez.",
+    "Ancak alacağın temliki yoluyla; devir alacağın temlikinin sonuçlarını doğurur.",
+    "Yalnız teslim yoluyla, çünkü poliçe hamile yazılıdır.",
+    "Yalnız ciro ile, çünkü poliçe her hâlde ciro ile devredilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 681/2'ye göre düzenleyen poliçeye \"emre yazılı değildir\" ibaresini veya aynı anlamdaki bir kaydı koymuşsa poliçe ancak alacağın temliki yoluyla devrolunabilir ve devir alacağın temlikinin sonuçlarını doğurur."
+  },
+  {
+   "stem_md": "Nama veya emre yazılı bir senedin hamile yazılı senede dönüştürülmesi için hangisi gereklidir?",
+   "options": [
+    "Borçlunun noter huzurunda yapacağı bildirim.",
+    "Yalnız senet sahibinin dönüştürme kararı.",
+    "Senedin kendisine hak verdiği ve borç yüklediği tüm kişilerin doğrudan senet üzerine yazacağı muvafakat.",
+    "Asliye ticaret mahkemesinin dönüştürme kararı."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 650/1 uyarınca nama veya emre yazılı senet, ancak kendisine hak verdiği ve borç yüklediği tüm kişilerin muvafakatıyla hamile yazılı senede dönüştürülebilir ve bu muvafakatın doğrudan senet üzerine yazılması gerekir."
+  },
+  {
+   "stem_md": "Hamile yazılı bir senedin borçlusu Mehmet, senedi iyiniyetle edinen hamile karşı \"senet benim rızam dışında tedavüle çıkmıştır\" savunmasını ileri sürmektedir. Bu savunma bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Savunma ileri sürülebilir; çünkü irade bozukluğu her zaman geçerlidir.",
+    "Hamile yazılı senetten doğan alacağa karşı senedin borçlunun rızası olmaksızın tedavüle çıkarıldığı yolunda bir def'i ileri sürülemez.",
+    "Savunma yalnızca senedin metninden anlaşılıyorsa ileri sürülebilir.",
+    "Savunma, hamil bilerek hareket etmişse bile ileri sürülemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 659/3 açıkça, senedin borçlunun rızası olmaksızın tedavüle çıkarıldığı yolunda bir def'inin ileri sürülemeyeceğini düzenler. Bu hüküm hamile yazılı senetler içindir."
+  },
+  {
+   "stem_md": "Aşağıdaki durumlardan hangisinde zayi nedeniyle iptal davasını açma hakkı vardır?",
+   "options": [
+    "Senedin keşidecisi, bedelsiz kalan senedi iptal ettirmek için.",
+    "Senedi satın alma niyetindeki üçüncü kişi.",
+    "Senedin borçlusu, borcunun doğmadığını ispat etmek için.",
+    "Senedin yangında yanması üzerine, o anda senedin hamili olan ve senet üzerinde hak sahibi bulunan kişi."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 651/2 uyarınca zıya anında senet üzerinde hak sahibi olan kişi iptal isteyebilir. Borçlu veya keşideci senet üzerinde hak sahibi değildir; bedelsizlik gibi savunmalarını ayrı yollarla ileri sürer."
+  },
+  {
+   "stem_md": "Kıymetli evrakın zayi nedeniyle iptali kararı verilmiştir. Hak sahibi aşağıdakilerden hangisini yapabilir?",
+   "options": [
+    "Yalnızca yeni senet düzenlenmesini isteyebilir; hakkını senetsiz ileri süremez.",
+    "Yalnızca senedin ilk borçlusuna başvurabilir.",
+    "Her iki seçenekten de yoksun kalır; senedi bulması gerekir.",
+    "Hakkını senetsiz olarak ileri sürebilir veya yeni bir senet düzenlenmesini isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 652/1 uyarınca iptal kararı üzerine hak sahibi hakkını senetsiz olarak da ileri sürebilir veya yeni bir senet düzenlenmesini isteyebilir."
+  },
+  {
+   "stem_md": "Hamile yazılı bir senedin iptali usulünde, ibraz için mahkemenin belirleyeceği süre en az ne kadar olmalıdır?",
+   "options": [
+    "En az bir yıl.",
+    "En çok bir yıl olmak üzere süre sınırı yoktur.",
+    "En az üç ay.",
+    "En az altı ay."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 663/1'e göre sürenin en az altı ay olarak belirlenmesi gerekir ve bu süre ilk ilan gününden itibaren işler. Poliçede ise getirme süresi en az üç ay, en çok bir yıldır (TTK m. 761/1)."
+  },
+  {
+   "stem_md": "Yangında bir miktar banknot yanmıştır. Banknotların sahibi, TTK m. 661 uyarınca iptal kararı almak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Banknotların iptaline karar verilemez.",
+    "İptal davası açılabilir; ancak ilan yapılmaz.",
+    "İptal ancak kuponlar bakımından mümkündür.",
+    "İptal davası açılabilir; mahkeme altı ay süre verir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 668/1, banknotların ve para yerine ödeme aracı olarak kullanılan belirli bedelli büyük miktarda çıkarılan diğer hamile yazılı senetlerin iptaline karar verilemeyeceğini düzenler."
+  },
+  {
+   "stem_md": "Bir poliçenin sahibi, poliçenin kaybolduğunu ileri sürerek iptal istemektedir. Poliçeyi eline geçiren kişi bellidir. Mahkeme hangi yolu izler?",
+   "options": [
+    "Dilekçe sahibine, senedin iadesi davası açması için süre verir.",
+    "Poliçeyi eline geçirenden senedin otomatik olarak alınmasına karar verir.",
+    "Doğrudan poliçenin iptaline karar verir.",
+    "Dilekçe sahibinin isteğini hukuki yararı olmadığı için reddeder ve ödeme yasağını sürdürür."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 758/1'e göre poliçeyi eline geçiren kişi bilindiği takdirde mahkeme, dilekçe sahibine iade davası açması için uygun bir süre verir. Süre içinde dava açılmazsa mahkeme muhatap hakkındaki ödeme yasağını kaldırır (TTK m. 758/2). Eline geçiren bilinmiyorsa iptal istenebilir (TTK m. 759/1)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Tacir Kemal, Leyla'dan satın alacağı kumaşlar karşılığında Leyla lehine 200.000 TL bedelli ve vadeli bir poliçe düzenlemiştir (muhatap: Mehmet Ltd. Şti.). Leyla kumaşları teslim etmeden poliçeyi iyiniyetli Hakan'a ciro etmiş ve teslim etmiştir. Bir hafta sonra Hakan'ın iş yerinde çıkan yangında poliçe tamamen yanmıştır. Poliçeyi eline geçiren biri yoktur. Kumaşları alamayan Kemal, asliye ticaret mahkemesinde hasımsız bir dava açarak poliçenin zayi nedeniyle iptalini istemiştir. Hakan ise poliçe bedelini tahsil etmek istemektedir.\n\n1. Kemal'in iptal davasını değerlendiriniz.\n2. Hakan hangi yolu izleyebilir? İptal kararının sonucu nedir?\n3. Kemal, Hakan'a karşı kumaşların teslim edilmemesine dayanarak ödemeyi reddedebilir mi?",
+   "rubric": [
+    {
+     "point": "İptal davasını zıya anında senet üzerinde hak sahibi olan kişinin açabilmesi; düzenleyen Kemal'in sıfatının bulunmaması",
+     "weight": 25,
+     "madde_ref": "TTK m. 651/2"
+    },
+    {
+     "point": "Hakan'ın, eline geçiren kişi bilinmediği için ödemeden menedilme ve iptal usulünü izleyebilmesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 757, TTK m. 759/1"
+    },
+    {
+     "point": "Poliçe iptalinde getirme süresinin en az 3 ay, en çok 1 yıl olması",
+     "weight": 15,
+     "madde_ref": "TTK m. 761/1"
+    },
+    {
+     "point": "İptal kararıyla Hakan'ın hakkını senetsiz ileri sürebilmesi veya yeni senet isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TTK m. 652/1"
+    },
+    {
+     "point": "Bedelsizlik def'inin düzenleyen ile lehtar arasındaki ilişkiye dayanması ve iyiniyetli hamile karşı ileri sürülememesi",
+     "weight": 25,
+     "madde_ref": "TTK m. 687/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, bir poliçenin yangında yok olması üzerine iptal davası sıfatı, iptal usulü ve sonuçları ile iyiniyetli hamile karşı def'i sınırı sorunlarını içerir. Poliçe emre yazılı bir kıymetli evraktır; ciro ve zilyetliğin geçirilmesi ile Hakan'a geçmiştir (TTK m. 647/2, TTK m. 648/2).\n\n**Hukuki sorunlar:** (1) Düzenleyen Kemal, iptal davası açabilir mi? (2) Hakan'ın izleyeceği usul ve iptalin sonucu nedir? (3) Kemal'in bedelsizlik def'i Hakan'a karşı ileri sürülebilir mi?\n\n**İlgili hükümler:** TTK m. 651 ve TTK m. 652 (iptalin şartları ve hükümleri); TTK m. 757, TTK m. 758, TTK m. 759, TTK m. 760 ve TTK m. 761 (poliçenin zıyaı hâlinde önleyici önlemler ve iptal usulü); TTK m. 687/1 (def'iler).\n\n**Değerlendirme:** (1) Kıymetli evrakın zayi olduğu anda senet üzerinde hak sahibi olan kişi, iptali isteyebilir (TTK m. 651/2). Yangın anında hak sahibi Hakan'dır. Kemal poliçenin düzenleyeni, yani borçlusudur; senet üzerinde alacak hakkı yoktur. Bu nedenle Kemal'in davası sıfat yokluğundan reddedilir. Borçlunun korunması, senet ortaya çıkarsa borçlu olmadığını kanıtlamak gibi başka yollarla sağlanır.\n\n(2) Poliçe yok olduğu için eline geçiren kişi yoktur. Hakan, poliçe iradesi dışında elinden çıktığından muhatabın ödemekten menedilmesini isteyebilir (TTK m. 757/1). Eline geçiren kişi bilinmediği için poliçenin iptalini de isteyebilir (TTK m. 759/1). Hakan, poliçe elinde iken zıyaa uğradığını inandırıcı biçimde göstermeli ve senedin suretini ibraz etmeli ya da esas içeriği hakkında bilgi vermelidir (TTK m. 759/2). Mahkeme ilanla poliçeyi getirmeye davet eder; getirme süresi en az üç ay, en çok bir yıldır (TTK m. 761/1). Süre içinde getiren olmazsa poliçe iptal edilir. İptal kararı üzerine Hakan hakkını poliçe olmadan da ileri sürebilir ya da yeni senet düzenlenmesini isteyebilir (TTK m. 652/1).\n\n(3) TTK m. 687/1'e göre poliçeden dolayı kendisine başvurulan kişi, düzenleyen veya önceki hamillerden biriyle kendi arasında doğrudan var olan ilişkilere dayanan def'ileri başvuran hamile karşı ileri süremez; ancak hamil poliçeyi iktisap ederken bile bile borçlunun zararına hareket etmişse def'i ileri sürülebilir. Kumaşların teslim edilmemesi Kemal ile Leyla arasındaki ilişkiden doğar. Hakan iyiniyetlidir ve bile bile Kemal'in zararına hareket ettiğine dair bir olgu yoktur. Bu nedenle Kemal, bedelsizlik def'ini Hakan'a karşı ileri süremez. Kemal'in Leyla'ya karşı hakları saklıdır.\n\n**Sonuç:** Kemal'in iptal davası reddedilir. Hakan ödeme yasağı ve iptal usulünü izleyerek iptal kararı alabilir ve hakkını senetsiz ileri sürebilir. Kemal'in bedelsizlik def'i iyiniyetli Hakan'a karşı ileri sürülemez."
+  },
+  {
+   "stem_md": "Ayşe, Mehmet'in düzenlediği hamile yazılı bir senedin zilyedidir. Senet 80.000 TL bedellidir. Ayşe senedi bir taşınma sırasında kaybetmiştir. Senedi bulan ya da eline geçiren biri bilinmemektedir. Ayşe zayi nedeniyle iptal için başvurmuştur. Mehmet, \"senedi rızam dışında verdim; ayrıca Ayşe bana karşı mal teslim borcunu yerine getirmedi, senet bedelsizdir\" diyerek savunma yapmak istemektedir. Ayşe ayrıca banknotlarının da (birkaç yüz TL) kaybolduğunu belirtmekte ve bunların da iptalini istemektedir.\n\n1. İptal başvurusunun hangi mahkemeye yapılacağını ve usulü açıklayınız.\n2. Mehmet'in savunmaları bakımından durumu değerlendiriniz.\n3. Banknotlar bakımından Ayşe'nin istemini değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Yetkili mahkemenin borçlunun yerleşim yerindeki asliye ticaret mahkemesi olması",
+     "weight": 15,
+     "madde_ref": "TTK m. 661/2"
+    },
+    {
+     "point": "Ödeme yasağı, en az 6 aylık ibraz süresiyle ilan ve ilanın üç defa yapılması",
+     "weight": 25,
+     "madde_ref": "TTK m. 662, TTK m. 663, TTK m. 664"
+    },
+    {
+     "point": "İbraz edilmezse iptal ve yeni senet / muaccel borcun ifası; ibrazda iade davası için süre",
+     "weight": 15,
+     "madde_ref": "TTK m. 665, TTK m. 666"
+    },
+    {
+     "point": "Rızası dışında tedavüle çıktı def'inin ileri sürülememesi",
+     "weight": 20,
+     "madde_ref": "TTK m. 659/3"
+    },
+    {
+     "point": "Şahsi def'inin ancak hamil bilerek borçlunun zararına hareket ettiyse geçerli olması",
+     "weight": 10,
+     "madde_ref": "TTK m. 659/2"
+    },
+    {
+     "point": "Banknotların iptaline karar verilememesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 668/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Senet, hamili kim ise hak sahibi sayıldığı için hamile yazılı bir kıymetli evraktır (TTK m. 658/1). Olayda hamile yazılı senedin iptal usulü, borçlunun def'ileri ve banknotların iptal edilemezliği sorunları vardır.\n\n**Hukuki sorunlar:** (1) İptal usulü ve yetkili mahkeme; (2) Borçlunun rıza dışı tedavül ve bedelsizlik savunmaları; (3) Banknotlar.\n\n**İlgili hükümler:** TTK m. 661-666, TTK m. 659, TTK m. 668.\n\n**Değerlendirme:** (1) Hamile yazılı senetlerin iptaline hak sahibinin istemi üzerine, borçlunun yerleşim yerindeki asliye ticaret mahkemesince karar verilir (TTK m. 661/1-2). Ayşe senedin zilyedi olduğunu ve zayi ettiğini mahkemeyi inandıracak biçimde açıklamalıdır (TTK m. 661/3). İstem üzerine mahkeme Mehmet'i, aksine hareket ederse iki defa ödemek zorunda kalacağını ihtar ederek ödemeden yasaklar (TTK m. 662/1). Mahkeme açıklamaları inandırıcı bulursa belli olmayan hamili ilanla senedi ibraza çağırır; süre en az altı aydır ve ilk ilan gününden işler (TTK m. 663). İlan TTK m. 35'te yazılı gazetede üç defa yapılır (TTK m. 664/1). Senet ibraz edilirse mahkeme Ayşe'ye iade davası açması için süre verir; açmazsa senedi geri verir ve ödeme yasağını kaldırır (TTK m. 665). Süre içinde ibraz edilmezse senedin iptaline karar verir; Ayşe, gideri kendisine ait olmak üzere yeni senet düzenlenmesini veya muaccel borcun ifasını isteyebilir (TTK m. 666/3). Böylece Ayşe hakkını senetsiz de ileri sürebilir (TTK m. 652/1).\n\n(2) Mehmet'in \"rızam dışında tedavüle çıktı\" savunması hamile yazılı senette ileri sürülemez (TTK m. 659/3). Ayşe'nin mal teslim borcunu yerine getirmemesine dayanan bedelsizlik savunması ise Ayşe'ye karşı şahsen sahip olduğu bir def'idir ve alacaklı her kim ise ona karşı ileri sürülebilir (TTK m. 659/1). Ancak bu def'i, senedi iyiniyetle edinen üçüncü kişiye karşı, onun bilerek Mehmet'in zararına hareket ettiği ispat edilmedikçe ileri sürülemez (TTK m. 659/2).\n\n(3) Banknot ve para yerine ödeme aracı olarak kullanılan, belirli bedelli büyük miktarda çıkarılan hamile yazılı senetlerin iptaline karar verilemez (TTK m. 668/1). Bu nedenle banknotlar bakımından Ayşe'nin istemi reddedilir.\n\n**Sonuç:** Senet bakımından iptal usulü işletilir ve süre dolduğunda iptal kararı verilir. Mehmet'in rıza dışı tedavül savunması dinlenmez; şahsi def'iler yalnız Ayşe'ye karşı ileri sürülebilir. Banknotların iptali istenemez."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Kıymetli evrakın tanımı nedir?",
+   "back_md": "İçerdiği hak, senetten ayrı ileri sürülemeyen ve başkalarına devredilemeyen senettir (TTK m. 645)."
+  },
+  {
+   "front_md": "Kıymetli evrakın borçlusu nasıl öder?",
+   "back_md": "Ancak senedin teslimi karşılığında; hile veya ağır kusuru yoksa vadede alacaklı olduğu anlaşılan kişiye ödeyerek kurtulur (TTK m. 646)."
+  },
+  {
+   "front_md": "Üç tür kıymetli evrakın devir şekli nedir?",
+   "back_md": "Nama yazılı: yazılı devir beyanı + teslim; emre yazılı: ciro + teslim; hamile yazılı: yalnız teslim (TTK m. 647, TTK m. 648/2)."
+  },
+  {
+   "front_md": "Nama yazılı senet nedir?",
+   "back_md": "Belli bir kişi adına yazılı, emre kaydı içermeyen ve kanunen emre yazılı sayılmayan senettir (TTK m. 654)."
+  },
+  {
+   "front_md": "Hamile yazılı senet nedir?",
+   "back_md": "Metninden veya şeklinden hamili kim ise onun hak sahibi sayılacağı anlaşılan senettir (TTK m. 658/1)."
+  },
+  {
+   "front_md": "Senet türünün değiştirilmesi için ne gerekir?",
+   "back_md": "Nama/emre yazılı senedin hamile yazılıya dönüşmesi için hak ve borç ilişkisindeki tüm kişilerin doğrudan senet üzerine yazılan muvafakatı (TTK m. 650)."
+  },
+  {
+   "front_md": "Hamile yazılı senette hangi def'i ileri sürülemez?",
+   "back_md": "Senedin borçlunun rızası olmaksızın tedavüle çıkarıldığı def'i (TTK m. 659/3)."
+  },
+  {
+   "front_md": "Zayi nedeniyle iptal davasını kim açabilir?",
+   "back_md": "Zıya anında senet üzerinde hak sahibi olan kişi; borçlu/keşideci açamaz (TTK m. 651/2)."
+  },
+  {
+   "front_md": "İptal kararının sonucu nedir?",
+   "back_md": "Hak sahibi hakkını senetsiz ileri sürebilir veya yeni senet düzenlenmesini isteyebilir (TTK m. 652/1)."
+  },
+  {
+   "front_md": "Hamile yazılı senet iptalinde ibraz süresi ve ilan?",
+   "back_md": "En az 6 ay; TTK m. 35'te yazılı gazetede 3 defa ilan (TTK m. 663, TTK m. 664)."
+  },
+  {
+   "front_md": "Poliçede getirme süresi nedir?",
+   "back_md": "En az üç ay, en çok bir yıldır (TTK m. 761/1)."
+  },
+  {
+   "front_md": "Hangi hamile yazılı senetlerin iptaline karar verilemez?",
+   "back_md": "Banknotlar ve para yerine ödeme aracı olarak kullanılan büyük miktarda çıkarılmış benzer senetler (TTK m. 668/1)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

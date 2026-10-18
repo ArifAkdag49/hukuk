@@ -1,0 +1,631 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Anonim Şirket",
+ "topic_index": 10,
+ "slug": "limited-sirket-organlar-ve-sona-erme",
+ "title": "Limited Şirket II: Genel Kurul, Müdürler, Temsil, Sona Erme, Ortaklıktan Çıkma ve Çıkarılma",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T12:02:21.659440+00:00",
+ "skill_refs": [
+  "sirketler-hukuku/cikma-cikarilma-fesih-tasfiye"
+ ],
+ "content": {
+  "summary_md": "- **Bilgi alma (TTK m. 614):** Her ortak müdürlerden şirketin bütün işleri ve hesapları hakkında bilgi isteyebilir, belirli konularda inceleme yapabilir. Şirket zararı tehlikesi varsa müdürler gerekli ölçüde engelleyebilir; bu konuda genel kurul karar verir. Genel kurul haksız yere engellerse mahkeme karar verir ve **mahkeme kararı kesindir**.\n- **Genel kurulun devredilemez yetkileri (TTK m. 616/1):** sözleşme değişikliği, müdürlerin atanması/görevden alınması/ücreti/ibrası, finansal tabloların onayı ve kâr payı, pay devirlerinin onayı, ortağın çıkarılması için mahkemeye başvuru, şirketin feshi. **Tek ortaklı** şirkette ortak genel kurulun tüm yetkilerine sahiptir; kararları **yazılı** olmalıdır (TTK m. 616/3).\n- **Çağrı ve toplantı (TTK m. 617):** Müdürler çağırır; olağan toplantı hesap döneminin bitiminden itibaren **3 ay** içinde; çağrı toplantıdan en az **15 gün** önce (sözleşmeyle uzatılabilir ya da 10 güne kadar kısaltılabilir). Hiçbir ortak sözlü görüşme istemezse **elden dolaştırma** ile yazılı onayla karar alınabilir; aynı öneri tüm ortaklara sunulmalıdır.\n- **Oy hakkı:** Sözleşmede daha yüksek tutar yoksa her **25 TL** bir oy; her ortak en az bir oya sahiptir (TTK m. 618). Oydan yoksunluk: yönetime katılanlar ibrada, payı devreden ortak şirketin kendi payını iktisabında, bağlılık/rekabet yasağına aykırılığı onaylanan ortak o kararda (TTK m. 619).\n- **Nisaplar:** Kural olarak temsil edilen oyların **salt çoğunluğu** (TTK m. 620). Önemli kararlarda temsil edilen oyların **en az 2/3'ü** ile oy hakkı bulunan **esas sermayenin tamamının salt çoğunluğu** bir arada aranır (TTK m. 621/1). Çıkarma sebebinin sonradan sözleşmeye konulması **tüm ortakların oy birliğini** gerektirir (TTK m. 621/3).\n- **Butlan ve iptal:** AŞ hükümleri kıyasen uygulanır (TTK m. 622; TTK m. 445-447).\n- **Müdürler:** Yönetim ve temsil sözleşmeyle düzenlenir; müdür ortak ya da üçüncü kişi olabilir ama **en az bir ortağın** yönetim hakkı ve temsil yetkisi bulunmalıdır (TTK m. 623/1). Devredilemez görevler TTK m. 625'te; özen, bağlılık, rekabet yasağı TTK m. 626'da; eşit işlem TTK m. 627'dedir.\n- **Görevden alma (TTK m. 630):** Genel kurul müdürü her zaman görevden alabilir; her ortak haklı sebeple yönetim ve temsil yetkisinin kaldırılmasını mahkemeden isteyebilir. Tazminat hakları saklıdır.\n- **Sona erme (TTK m. 636):** sözleşmedeki sebep, genel kurul kararı, iflas, kanundaki diğer haller; organ eksikliği/genel kurulun toplanamaması hâlinde fesih; **haklı sebeple fesih davasında** mahkeme payın gerçek değerinin ödenip davacının çıkarılmasına ya da başka uygun çözüme hükmedebilir (TTK m. 636/3).\n- **Çıkma ve çıkarma:** Çıkma hakkı sözleşmeyle tanınabilir; haklı sebeple her ortak çıkma davası açabilir (TTK m. 638). Diğer ortaklar haberin ulaşmasından itibaren **1 ay** içinde çıkmaya katılabilir; **çıkarmada bu hüküm uygulanmaz** (TTK m. 639/4). Sözleşmedeki sebeple çıkarma kararına karşı noter bildiriminden itibaren **3 ay** içinde iptal davası açılır (TTK m. 640/2).\n- **Ayrılma akçesi:** Payın gerçek değeri (TTK m. 641/1); ödenmeyen kısım bütün alacaklılardan sonra gelen alacaktır (TTK m. 642/3).\n- **Tasfiye:** AŞ hükümleri uygulanır (TTK m. 643, TTK m. 644).\n- 📌 **Güncel:** AYM'nin 25.12.2025 tarihli kararı TTK m. 616/1-h ve TTK m. 621/1-h'deki ilgili ibareyi \"iki ortaklı limited şirketler\" yönünden iptal etmiştir. TTK'nın geçici 15. maddesi uyarınca sermayesi en az tutarın altındaki limited şirketler **31.12.2026**'ya kadar sermayelerini yükseltmezse infisah etmiş sayılır.\n- Kamu borçları: ortaklar sermaye payı oranında (6183 sayılı Kanun m. 35), kanuni temsilciler şahsi mal varlıklarıyla (6183 sayılı Kanun mükerrer 35. maddesi) sorumlu olabilir.",
+  "content_md": "## 1. Limited şirkette organ yapısı: kısaca harita\n\nLimited şirketin iki zorunlu organı vardır: **genel kurul** (ortakların toplantısı) ve **müdür(ler)**. Anonim şirketteki yönetim kurulunun yerini müdür ya da müdürler kurulu alır. Bu konuda TTK, anonim şirket hükümlerine sık sık yollama yapar. Bu yüzden \"bu sorunun AŞ'deki karşılığı ne?\" diye düşünmek iyi bir başlangıçtır. Ama limited şirket kişi ortaklığına yakın olduğu için ortağa tanınan haklar (bilgi alma, çıkma, çıkarılma) AŞ'den çok daha güçlüdür.\n\n## 2. Ortağın bilgi alma ve inceleme hakkı (TTK m. 614)\n\nTTK m. 614/1'e göre her ortak, müdürlerden şirketin **bütün işleri ve hesapları** hakkında bilgi isteyebilir ve belirli konularda inceleme yapabilir. AŞ'deki pay sahibinden farklı olarak burada hak, şirket işlerinin tamamını kapsar.\n\nHakkın sınırı TTK m. 614/2'de yazılıdır. Ortağın bilgiyi şirketin zararına kullanma tehlikesi varsa müdürler bilgi vermeyi ve incelemeyi **gerekli ölçüde** engelleyebilir. Bu durumda ortak başvurursa genel kurul karar verir. Genel kurul da bilgi almayı haksız yere engellerse ortağın istemi üzerine mahkeme karar verir ve **mahkeme kararı kesindir** (TTK m. 614/3).\n\n> **Örnek:** Ali, X Ltd. Şti.'nin %20 ortağıdır. Müdür Mehmet, Ali'nin son üç yılın defterlerini görmek istemesine \"ortaklar kurulu kararı yok\" diyerek karşı çıkar. Ali TTK m. 614/1'e dayanır. Müdür, Ali'nin bilgileri rakip şirkete aktaracağını gösteren somut bir tehlike ileri sürerse bile bu yalnız \"gerekli ölçüde\" kısıtlama sağlar. Tamamen kapatma hukuka uygun olmaz.\n\n> ⚠️ **Sınavda dikkat:** Bilgi alma hakkını genel olarak ortadan kaldıran ya da kanunun izin verdiği ölçünün dışında kısıtlayan genel kurul kararı, TTK m. 622 yollamasıyla TTK m. 447/1-b kapsamında **batıldır**; iptal süresine (3 ay) bağlı kalmaz. Müdürlerin bilgi vermeyi reddi ise başka konudur: burada mahkemeye başvurulur.\n\n## 3. Genel kurulun yetkileri\n\n### 3.1 Kanundan doğan devredilemez yetkiler (TTK m. 616/1)\n\nGenel kurulun devredilemez yetkileri şunlardır: şirket sözleşmesinin değiştirilmesi; müdürlerin atanması ve görevden alınması; denetçilerin atanması ve görevden alınması; finansal tabloların ve yıllık faaliyet raporunun onayı, kâr payı kararı; müdürlerin ücretinin belirlenmesi ve ibrası; esas sermaye paylarının devrinin onaylanması; bir ortağın çıkarılması için mahkemeye başvurulması; müdürün şirketin kendi paylarını iktisabı konusunda yetkilendirilmesi; şirketin feshi; kanun ya da sözleşmenin genel kurula verdiği veya müdürlerin sunduğu konularda karar.\n\nSınavda bu liste ezberden sorulmaz ama olayda \"şu karar kimin?\" diye sorulur. Pratik ipucu: **kişi (müdür, ortak), para (ücret, kâr), yapı (sözleşme, fesih, pay devri)** ile ilgili her ana karar genel kuruldadır.\n\n### 3.2 Sözleşmede öngörülürse devredilemez olanlar (TTK m. 616/2)\n\nSözleşmeye konulursa genel kurulun devredilemez yetkisi olur: sözleşmeyle aranan onay hâlleri, önalım/alım hakları kararları, payın rehni onayı, yan edim yükümlülükleri için iç yönerge, bağlılık-rekabet yasağı izni ve bir ortağın **sözleşmedeki sebeplerle çıkarılması**.\n\n### 3.3 Tek ortaklı şirket (TTK m. 616/3)\n\nTek ortak genel kurulun tüm yetkilerine sahiptir. Ama kararlarının geçerli olması için **yazılı** olması şarttır. TTK m. 629/2 buna paralel bir şekil kuralı getirir: tek ortaklı şirkette ortakla şirket arasındaki sözleşmenin geçerliliği yazılı şekle bağlıdır. Piyasa şartlarına göre günlük, önemsiz ve sıradan işlemler bunun dışındadır.\n\n> **Örnek:** Tek ortak Zeynep, kendi şirketine bir taşınmaz satmak için sözleşme yapar. Sözleşme sözlü kalırsa geçersizdir. Aynı Zeynep şirketten günlük küçük bir malzeme alsa şekil aranmaz.\n\n## 4. Toplantı, oy hakkı ve karar nisapları\n\n### 4.1 Çağrı ve toplantı (TTK m. 617)\n\n- Genel kurulu **müdürler** çağırır.\n- Olağan toplantı her yıl hesap döneminin bitiminden itibaren **üç ay** içinde yapılır. Olağanüstü toplantı sözleşme uyarınca ve gerektikçe yapılır.\n- Çağrı, toplantıdan en az **onbeş gün** önce yapılır. Sözleşme bu süreyi uzatabilir ya da **on güne kadar** kısaltabilir.\n- Çağrısız genel kurul, azlığın çağrı hakkı, gündem, tutanak gibi konularda AŞ hükümleri kıyasen uygulanır (Bakanlık temsilcisi hariç). Çağrısız genel kurul için AŞ'nin kuralı geçerlidir: tüm pay sahipleri veya temsilcileri hazırsa ve biri itiraz etmezse çağrı usulüne uyulmadan toplanılabilir (TTK m. 416/1).\n- Her ortak, ortak olan ya da olmayan bir kişiyle temsil edilebilir.\n\n**Elden dolaştırma.** Hiçbir ortak sözlü görüşme isteminde bulunmazsa, bir ortağın gündem maddesiyle ilgili önerisi diğer ortakların **yazılı onayına** sunularak da karar alınabilir. Aynı önerinin tüm ortaklara sunulması geçerlilik şartıdır (TTK m. 617/4).\n\n### 4.2 Oy hakkı (TTK m. 618) ve oydan yoksunluk (TTK m. 619)\n\nOy hakkı esas sermaye paylarının itibari değerine göre hesaplanır. Sözleşmede daha yüksek tutar yoksa **her 25 TL bir oy** verir; her ortak en az bir oya sahiptir. Sözleşme, birden fazla paya sahip ortakların oylarını sınırlayabilir ve açıkça düzenlenmişse yazılı oy verilebilir (TTK m. 618/1). Sözleşme her paya bir oy da verebilir; bu durumda en küçük payın itibari değeri diğerlerinin toplamının onda birinden az olamaz (TTK m. 618/2). Pay sayısına göre oy kuralı, denetçi seçimi, özel denetçi seçimi ve sorumluluk davası açılması kararlarında uygulanmaz (TTK m. 618/3).\n\nOydan yoksunluk (TTK m. 619):\n- Herhangi bir şekilde yönetime katılanlar, müdürlerin ibrasında oy kullanamaz.\n- Şirketin kendi payını iktisabında payı devreden ortak oy kullanamaz.\n- Bağlılık yükümüne ya da rekabet yasağına aykırı faaliyeti onaylanan ortak, o kararda oy kullanamaz.\n\n### 4.3 Nisaplar: üç kademe\n\n| Karar türü | Nisap |\n|---|---|\n| Olağan kararlar, seçimler (TTK m. 620) | Toplantıda temsil edilen oyların salt çoğunluğu |\n| Önemli kararlar (TTK m. 621/1) | Temsil edilen oyların en az 2/3'ü **ve** oy hakkı bulunan esas sermayenin tamamının salt çoğunluğu |\n| Çıkarma sebebinin sonradan sözleşmeye konması (TTK m. 621/3) | Tüm ortakların genel kurulda oy birliği |\n\nTTK m. 621/1'deki önemli kararlar: işletme konusunun değiştirilmesi; oyda imtiyazlı payların öngörülmesi; payların devrinin sınırlanması, yasaklanması ya da kolaylaştırılması; esas sermayenin artırılması; rüçhan hakkının sınırlanması ya da kaldırılması; şirket merkezinin değiştirilmesi; bağlılık veya rekabet yasağına aykırı faaliyete onay; bir ortağın haklı sebeplerle çıkarılması için mahkemeye başvurulması ve sözleşmedeki sebeple çıkarılması; şirketin feshi.\n\nİki şartın **birlikte** aranması önemlidir. Biri sağlanıp diğeri sağlanmazsa karar alınmaz. Ayrıca sözleşme, kanundaki ağırlaştırılmış nisabı daha da ağırlaştırabilir ama bunun için sözleşmede öngörülen çoğunluk gerekir (TTK m. 621/2).\n\n> **Örnek:** Sermaye 100.000 TL; Ali 40.000, Ayşe 35.000, Mehmet 25.000 TL paya sahiptir. Toplantıya yalnız Ali katılır ve merkezin değiştirilmesine oy verir. Temsil edilen oyların tamamı lehte olduğundan 2/3 şartı sağlanır. Ama Ali'nin payı esas sermayenin salt çoğunluğunu (yarıdan fazlasını) oluşturmaz. Karar alınamaz.\n\n> ⚠️ **Sınavda dikkat:** Çıkarma sebebinin **sonradan** sözleşmeye eklenmesi 2/3 ile olmaz; sözleşme değişikliğinin tüm ortakların oy birliğiyle alınması gerekir (TTK m. 621/3).\n\n### 4.4 Kararların butlanı ve iptali (TTK m. 622)\n\nLimited şirkette de AŞ kuralı geçerlidir. Kanun ya da sözleşmeye ve dürüstlük kuralına aykırı kararlara karşı karar tarihinden itibaren **üç ay** içinde şirket merkezinin bulunduğu yer asliye ticaret mahkemesinde **iptal davası** açılır (TTK m. 445/1). Dava hakkı olanlar TTK m. 446'da sayılmıştır. Kararın batıl olduğu haller ise TTK m. 447'dedir (ör. bilgi alma ve inceleme hakkını izin verilen ölçü dışında sınırlayan kararlar).\n\n## 5. Müdürler\n\n### 5.1 Kim müdür olabilir? (TTK m. 623)\n\nYönetim ve temsil, şirket sözleşmesiyle düzenlenir. Müdür sıfatı bir ya da birden fazla ortağa, tüm ortaklara ya da üçüncü kişilere verilebilir. Ama **en az bir ortağın** yönetim hakkı ve temsil yetkisi bulunmalıdır. Bu **özden organ ilkesidir**: yönetimin tamamı dışarıdan kişilere bırakılamaz. Müdürlerden biri tüzel kişi ise bir gerçek kişiyi belirler (TTK m. 623/2).\n\nMüdürler, kanun veya sözleşmeyle genel kurula bırakılmamış tüm yönetim konularında karar almaya ve yürütmeye yetkilidir (TTK m. 623/3).\n\nBirden fazla müdür varsa genel kurul bir **müdürler kurulu başkanı** atar; kararlar çoğunlukla alınır, eşitlikte başkanın oyu üstündür; sözleşme farklı düzenleyebilir (TTK m. 624).\n\n### 5.2 Devredilemez görevler (TTK m. 625)\n\nMüdürler şunları devredemez ve bunlardan vazgeçemez: şirketin üst düzeyde yönetimi ve talimat verilmesi; yönetim örgütünün belirlenmesi; gerekli muhasebe, finansal denetim ve planlamanın kurulması; yönetim görevi devredilenlerin gözetimi; küçük limited şirketler hariç risklerin erken teşhisi komitesinin kurulması; finansal tabloların ve faaliyet raporunun düzenlenmesi; genel kurulun hazırlanması ve kararların yürütülmesi; **borca batıklık hâlinde mahkemeye bildirim**.\n\nSözleşme, bazı kararların genel kurul onayına sunulmasını öngörebilir; ancak bu onay müdürlerin sorumluluğunu ortadan kaldırmaz ya da sınırlamaz (TTK m. 625/2).\n\n### 5.3 Özen, bağlılık, rekabet yasağı ve eşit işlem (TTK m. 626, TTK m. 627)\n\nMüdürler görevlerini tüm özeni göstererek yerine getirmek ve şirketin menfaatlerini dürüstlük kuralı çerçevesinde gözetmekle yükümlüdür (TTK m. 626/1). Sözleşmede aksi öngörülmemişse ya da diğer tüm ortaklar yazılı izin vermemişse müdürler **şirketle rekabet oluşturan faaliyette bulunamaz** (TTK m. 626/2). Ortaklar için öngörülen bağlılık borcu müdürler için de geçerlidir (TTK m. 626/3). Müdürler ortaklara eşit şartlarda eşit işlem yapar (TTK m. 627).\n\n### 5.4 Temsil ve yetkisiz işlemler (TTK m. 629)\n\nTemsil yetkisinin kapsamı, sınırlandırılması, imza yetkilileri, imza şekli ve tescil-ilanı için AŞ'ye ilişkin hükümler kıyasen uygulanır (TTK m. 629/1). Şirket, yetkili kişinin görevi sırasında işlediği haksız fiilden sorumludur (TTK m. 632).\n\n### 5.5 Görevden alma (TTK m. 630)\n\nGenel kurul müdürü her zaman görevden alabilir, yönetim ve temsil yetkisini sınırlayabilir. Buna ek olarak **her ortak**, haklı sebep varsa yöneticilerin yönetim ve temsil yetkilerinin kaldırılmasını ya da sınırlandırılmasını **mahkemeden** isteyebilir. Özen ve bağlılık yükümünün ağır ihlali ya da şirketi iyi yönetme yeteneğinin kaybı haklı sebep sayılır. Görevden alınan yöneticinin tazminat hakları saklıdır (TTK m. 630/4).\n\n### 5.6 Diğer noktalar\n\nTicari mümessil ve vekiller, sözleşmede başka düzenleme yoksa genel kurul kararıyla atanır (TTK m. 631/1). Sermaye kaybı ve borca batıklıkta AŞ hükümleri kıyasen uygulanır (TTK m. 633). Denetim için de AŞ hükümleri uygulanır (TTK m. 635). Müdürlerin sorumluluğunda TTK m. 553 ve şirkete borçlanma yasağında TTK m. 358 gibi AŞ hükümlerine TTK m. 644 yollama yapar.\n\n## 6. Sona erme\n\n### 6.1 Sebepler (TTK m. 636/1)\n\nLimited şirket şu hâllerde sona erer: sözleşmedeki sona erme sebebinin gerçekleşmesi; genel kurul kararı (önemli karar nisabıyla, TTK m. 621/1-ı); iflasın açılması; kanundaki diğer sona erme hâlleri.\n\n### 6.2 Organ eksikliği (TTK m. 636/2)\n\nUzun süreden beri kanunen gerekli organlardan biri yoksa ya da genel kurul toplanamıyorsa, **ortaklardan veya şirket alacaklılarından biri** feshi isteyebilir. Şirket merkezinin bulunduğu yer asliye ticaret mahkemesi müdürleri dinler, şirkete durumu düzeltmesi için süre verir; düzeltilmezse feshe karar verir.\n\n### 6.3 Haklı sebeple fesih (TTK m. 636/3)\n\nHaklı sebep varsa **her ortak** tek başına mahkemeden şirketin feshini isteyebilir. Mahkeme isteme bağlı kalmaz: davacıya payının gerçek değerinin ödenerek şirketten çıkarılmasına ya da duruma uygun düşen, kabul edilebilir başka bir çözüme hükmedebilir. Fesih son çaredir; şirketin yaşatılması esastır. Dava açılınca mahkeme, taraflardan birinin istemi üzerine gerekli önlemleri alabilir (TTK m. 636/4).\n\n> **Örnek:** %49 paylı Ayşe, ortaklar arasındaki güven kalmadığı için feshi ister. Diğer ortak şirketi sürdürmek istiyor. Mahkeme feshetmek yerine Ayşe'nin payının gerçek değerini ödeterek onu şirketten çıkarabilir.\n\n### 6.4 Tasfiye\n\nTasfiye usulü ve tasfiyede organların yetkileri hakkında AŞ hükümleri uygulanır (TTK m. 643). Sona ermenin sonuçlarına da AŞ hükümleri uygulanır (TTK m. 636/5).\n\n## 7. Çıkma, çıkarılma ve ayrılma akçesi\n\nBu üç kavramı birbirinden ayırmak sınavın en çok puan getiren kısmıdır.\n\n| Kurum | Kim başlatır? | Dayanak |\n|---|---|---|\n| Sözleşmeye dayalı çıkma | Ortak | TTK m. 638/1 |\n| Haklı sebeple çıkma | Ortak (dava) | TTK m. 638/2 |\n| Sözleşmedeki sebeple çıkarma | Genel kurul kararı | TTK m. 640/1 |\n| Haklı sebeple çıkarma | Şirket (mahkeme kararı) | TTK m. 640/3 |\n\n### 7.1 Çıkma (TTK m. 638)\n\nSözleşme ortaklara çıkma hakkı tanıyabilir ve kullanımını belirli şartlara bağlayabilir. Sözleşme olmasa bile her ortak haklı sebeplerin varlığında **şirketten çıkmasına karar verilmesi için dava açabilir**. Mahkeme, dava süresince davacının ortaklıktan doğan hak ve borçlarının bir kısmının ya da tamamının dondurulmasına veya başka önlemlere karar verebilir (TTK m. 638/2).\n\n### 7.2 Çıkmaya katılma (TTK m. 639)\n\nBir ortak çıkmak isterse ya da çıkma davası açarsa müdürler diğer ortakları gecikmeden haberdar eder. Diğer ortaklar, haberin kendilerine ulaştığı tarihten itibaren **bir ay** içinde, sözleşmedeki sebep kendileri için de geçerliyse çıkmaya katılacaklarını bildirebilir ya da haklı sebeple çıkma davasına katılabilir (TTK m. 639/2). Çıkan tüm ortaklar, esas sermaye payları oranında eşit işleme tabi tutulur (TTK m. 639/3).\n\n> ⚠️ **Sınavda dikkat:** Çıkmaya katılma hakkı **çıkarma** hâlinde yoktur. Sözleşmedeki sebep ya da haklı sebep dolayısıyla bir ortak **çıkarılıyorsa** TTK m. 639 uygulanmaz (TTK m. 639/4).\n\n### 7.3 Çıkarma (TTK m. 640)\n\nSözleşmede, bir ortağın genel kurul kararıyla çıkarılabileceği sebepler öngörülebilir. Çıkarma kararına karşı ortak, kararın **noter aracılığıyla** kendisine bildirilmesinden itibaren **üç ay** içinde iptal davası açabilir (TTK m. 640/2). Şirketin istemi üzerine, ortağın haklı sebeple mahkeme kararıyla çıkarılması da mümkündür (TTK m. 640/3). Bunun için önce genel kurulda çıkarma başvurusuna karar verilir (TTK m. 616/1-h; TTK m. 621/1-h).\n\nÇıkarma sebebini **sonradan** sözleşmeye koymak için tüm ortakların oy birliği gerekir (TTK m. 621/3). Bu, ortağın yokluğunda kendisi aleyhine yeni bir çıkarma sebebi yaratılamaması için bir güvencedir.\n\n📌 **Güncel:** Anayasa Mahkemesi, 25.12.2025 tarihli (E. 2025/128, K. 2025/273) kararıyla TTK m. 616/1-h ve TTK m. 621/1-h'deki haklı sebeple çıkarma için mahkemeye başvurulmasına ilişkin ibareyi \"iki ortaklı limited şirketler\" yönünden iptal etmiştir. Kanun metnindeki dipnotlar bunu belirtir; iki ortaklı şirketlerde sonuçlarını kesin kalıplarla ezberlemek yerine, metindeki iptal notunu bilmek yeterlidir.\n\n### 7.4 Ayrılma akçesi (TTK m. 641, TTK m. 642)\n\nOrtak şirketten ayrıldığında esas sermaye payının **gerçek değerine** uyan ayrılma akçesini isteyebilir (TTK m. 641/1). Sözleşmedeki ayrılma hakkı dolayısıyla sözleşme akçeyi farklı düzenleyebilir (TTK m. 641/2). Ayrılma akçesi; şirketin kullanılabilir özkaynağı varsa, ayrılanın payları devredilebiliyorsa veya esas sermaye usulüne uygun azaltılmışsa ayrılma ile muaccel olur (TTK m. 642/1). Ödenmeyen kısım, şirkete karşı bütün alacaklılardan sonra gelen bir alacaktır (TTK m. 642/3).\n\n## 8. Güncel noktalar ve kamu borcu\n\n- **Asgari sermaye:** Limited şirkette en az esas sermaye 7887 sayılı Cumhurbaşkanı Kararıyla 50.000 TL'ye çıkarılmıştır (TTK m. 580 dipnotu). TTK'nın geçici 15. maddesi uyarınca sermayesi en az tutarın altındaki şirketler, sermayelerini **31.12.2026** tarihine kadar yükseltmezse infisah etmiş sayılır. Bu genel kurullarda toplantı nisabı aranmaz.\n- **Kamu borcu:** Limited şirket ortakları şirketten tahsil edilemeyen amme alacağından sermaye payları oranında sorumludur (6183 sayılı Kanun m. 35). Şirketin kanuni temsilcileri ise kendi malvarlıklarıyla sorumlu tutulabilir (6183 sayılı Kanun mükerrer 35. maddesi).\n\n## 9. Olay çözme şeması\n\n1. Kararı alan organ doğru mu? (Genel kurul mu, müdür mü? TTK m. 616, TTK m. 625)\n2. Çağrı ve toplantı usulü uygun mu? (15 gün, elden dolaştırma, çağrısız toplantı)\n3. Hangi nisap aranır? (TTK m. 620, TTK m. 621/1, TTK m. 621/3)\n4. Oydan yoksun ortak oy kullandı mı? (TTK m. 619)\n5. Karar batıl mı, iptal edilebilir mi? (TTK m. 622; TTK m. 445-447)\n6. Ortağın hakkı çıkma mı, çıkarma mı, fesih mi? Çıkmaya katılma uygulanır mı?\n7. Ayrılma akçesi: gerçek değer ve ödeme koşulları.",
+  "critical_md": "- 📌 **Özden organ ilkesi:** Müdür üçüncü kişi olabilir, ama en az bir ortağın yönetim hakkı ve temsil yetkisi bulunmalıdır (TTK m. 623/1).\n- 📌 **Olağan kararlar:** temsil edilen oyların salt çoğunluğu (TTK m. 620); **önemli kararlar:** temsil edilen oyların en az 2/3'ü **ve** oy hakkı bulunan esas sermayenin tamamının salt çoğunluğu, ikisi birlikte (TTK m. 621/1).\n- ⚠️ Çıkarma sebebinin sonradan sözleşmeye konulması için 2/3 yetmez; **tüm ortakların oy birliği** gerekir (TTK m. 621/3).\n- 📌 Çağrı toplantıdan en az **15 gün** önce yapılır; sözleşme uzatabilir ya da 10 güne kadar kısaltabilir. Olağan toplantı hesap döneminin bitiminden itibaren **3 ay** içinde yapılır (TTK m. 617).\n- 📌 **Elden dolaştırma:** Hiçbir ortak sözlü görüşme istemezse yazılı onayla karar alınır; aynı öneri **tüm** ortaklara sunulmalıdır (TTK m. 617/4).\n- 📌 Oy hakkı: sözleşmede daha yüksek tutar yoksa her **25 TL** bir oy; her ortak en az bir oya sahiptir (TTK m. 618/1).\n- ⚠️ Bilgi alma hakkında genel kurul haksız engel koyarsa mahkeme karar verir ve **mahkeme kararı kesindir** (TTK m. 614/3). Hakkı kanunun izin verdiği ölçü dışında kısıtlayan genel kurul kararı batıldır (TTK m. 622, TTK m. 447/1-b).\n- 📌 Tek ortaklı şirkette ortak genel kurulun tüm yetkilerine sahiptir; kararları ve şirketle sözleşmesi (günlük işler hariç) **yazılı** olmalıdır (TTK m. 616/3, TTK m. 629/2).\n- 📌 Haklı sebeple fesih davasında mahkeme fesih yerine payın gerçek değerinin ödenip davacının çıkarılmasına ya da başka uygun çözüme hükmedebilir (TTK m. 636/3). Fesih son çaredir.\n- ⚠️ Çıkmaya katılma (1 ay) **çıkarmada uygulanmaz** (TTK m. 639/4).\n- 📌 Sözleşmedeki sebeple çıkarma kararına karşı noter bildiriminden itibaren **3 ay** içinde iptal davası açılır (TTK m. 640/2).\n- 📌 Ayrılma akçesi payın **gerçek değerine** göre hesaplanır; ödenmeyen kısım bütün alacaklılardan sonra gelir (TTK m. 641/1, TTK m. 642/3).\n- 📌 TTK'nın geçici 15. maddesine göre sermayesi 50.000 TL'nin altındaki limited şirketler **31.12.2026**'ya kadar sermayelerini yükseltmezse infisah etmiş sayılır.",
+  "doctrine_md": "### Çıkarılması istenen ortak genel kurulda oy kullanabilir mi?\n\nTTK m. 619'daki oydan yoksunluk hâlleri sayılıdır ve çıkarılması istenen ortak bu hâller arasında yoktur. Bu nedenle bir görüşe göre çıkarılması istenen ortak, hakkında alınacak karardaki oyunu kullanabilir. Ona göre kanun koyucu yasağı açıkça yazmadığı için yorumla genişletmek doğru değildir. Karşı görüş, kişinin kendi aleyhine alınacak kararda oy kullanmasının adalet duygusuyla bağdaşmadığını, ancak bunun için kanun değişikliği gerektiğini kabul eder. İki ortaklı şirketlerde bu durum bir kilitlenme yaratıyordu: ortak, kendi çıkarılmasına ilişkin kararı engelleyebiliyordu. TTK m. 616/1-h ve TTK m. 621/1-h'deki ibarenin \"iki ortaklı limited şirketler\" yönünden iptali bu sorunla ilgilidir. Bunun uygulamadaki ayrıntılı sonuçlarını kesin kalıpla yazmak doğru olmaz; kanun metnindeki iptal notu esas alınmalıdır.\n\n### Ayrılma akçesinin hesabı\n\nKanun \"payın gerçek değeri\" der (TTK m. 641/1) ama hangi tarihteki değerin esas alınacağını yazmaz. Uygulamada değerin hükme yakın bir tarihteki gerçek (rayiç) değere göre bulunması benimsenir; ancak bu hesabın bilirkişi incelemesine bağlı olduğu, ayrıntıların somut olaya göre değişebildiği unutulmamalıdır. Sınavda \"gerçek değer\" ifadesini ve defter değerinin esas alınmadığını bilmek yeterlidir.\n\n### Fesih mi, çıkma mı?\n\nTTK m. 636/3 mahkemeye geniş takdir yetkisi tanır. Ticari şirketlerin yaşatılması ilkesi uyarınca fesih ancak başka çözüm yetersizse düşünülür. Karşı bakışta, ortaklar arasında güvenin tamamen çöktüğü ve şirketin fiilen faaliyetsiz kaldığı hâllerde fesih de uygun bir çözüm olabilir. Yargıtay'ın tercihi şirketin devamı yönündedir.",
+  "glossary": [
+   {
+    "term": "Özden organ ilkesi",
+    "definition": "Limited şirkette en az bir ortağın yönetim hakkı ve temsil yetkisinin bulunması zorunluluğu (TTK m. 623/1)."
+   },
+   {
+    "term": "Müdürler kurulu başkanı",
+    "definition": "Birden fazla müdür varsa genel kurulca atanan, eşitlikte oyu üstün sayılan müdür (TTK m. 624)."
+   },
+   {
+    "term": "Elden dolaştırma",
+    "definition": "Toplantı yapmadan, bir önerinin tüm ortakların yazılı onayına sunulmasıyla genel kurul kararı alınması (TTK m. 617/4)."
+   },
+   {
+    "term": "Önemli karar nisabı",
+    "definition": "Temsil edilen oyların en az 2/3'ü ile oy hakkı bulunan esas sermayenin tamamının salt çoğunluğunun birlikte aranması (TTK m. 621/1)."
+   },
+   {
+    "term": "Oydan yoksunluk",
+    "definition": "Ortağın belirli kararlarda oy kullanamaması; örneğin yönetime katılanların müdürlerin ibrasında (TTK m. 619)."
+   },
+   {
+    "term": "Butlan",
+    "definition": "Genel kurul kararının baştan itibaren batıl olması; örneğin bilgi alma hakkını izin verilen ölçü dışında sınırlayan karar (TTK m. 622, TTK m. 447)."
+   },
+   {
+    "term": "Haklı sebeple fesih",
+    "definition": "Her ortağın mahkemeden şirketin feshini istemesi; mahkeme bunun yerine payın gerçek değerinin ödenmesi gibi başka çözüme de hükmedebilir (TTK m. 636/3)."
+   },
+   {
+    "term": "Çıkmaya katılma",
+    "definition": "Bir ortağın çıkma istemi veya davası üzerine diğer ortakların bir ay içinde çıkmaya katılma hakkı (TTK m. 639)."
+   },
+   {
+    "term": "Çıkarma",
+    "definition": "Bir ortağın sözleşmedeki sebeple genel kurul kararıyla veya haklı sebeple mahkeme kararıyla şirketten çıkarılması (TTK m. 640)."
+   },
+   {
+    "term": "Ayrılma akçesi",
+    "definition": "Ayrılan ortağın esas sermaye payının gerçek değerine uyan, ödeme koşulları TTK m. 642'de düzenlenen alacağı (TTK m. 641)."
+   },
+   {
+    "term": "Tek ortaklı limited şirket",
+    "definition": "Ortağın genel kurulun tüm yetkilerine sahip olduğu, kararları ve şirketle sözleşmesi için yazılı şeklin arandığı şirket (TTK m. 616/3, TTK m. 629/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "358",
+   "official_text": "II - Pay sahiplerinin şirkete borçlanma yasağı\nMADDE 358- (Değişik: 26/6/2012-6335/15 md.)\n(1) Pay sahipleri, sermaye taahhüdünden doğan vadesi gelmiş borçlarını ifa etmedikçe ve şirketin serbest yedek akçelerle birlikte kârı geçmiş yıl zararlarını karşılayacak düzeyde olmadıkça şirkete borçlanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "416",
+   "official_text": "3. Çağrısız genel kurul\nMADDE 416- (1) Bütün payların sahipleri veya temsilcileri, aralarından biri itirazda bulunmadığı takdirde, genel kurula katılmaya ve genel kurul toplantılarının yapılmasına ilişkin hükümler saklı kalmak şartıyla, çağrıya ilişkin usule uyulmaksızın, genel kurul olarak toplanabilir ve bu toplantı nisabı varolduğu sürece karar alabilirler.\n(2) Çağrısız toplanan genel kurulda, gündeme oybirliği ile madde eklenebilir; aksine esas sözleşme hükmü geçersizdir.\n[61] 27/12/2020 tarihli ve 7262 sayılı 29 uncu maddesiyle, birinci fıkrada yer alan “Sermaye Piyasası Kanununun 10/A” ibaresi “hamiline yazılı pay sahipleri ile Sermaye Piyasası Kanununun 13 üncü” şeklinde değiştirilmiş, ikinci fıkrasında yer alan “, hamiline yazılı pay senedi sahipleri bakımından da giriş kartı alanları” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "445",
+   "official_text": "I - İptal sebepleri\nMADDE 445- (1) 446 ncı maddede belirtilen kişiler, kanun veya esas sözleşme hükümlerine ve özellikle dürüstlük kuralına aykırı olan genel kurul kararları aleyhine, karar tarihinden itibaren üç ay içinde, şirket merkezinin bulunduğu yerdeki asliye ticaret mahkemesinde iptal davası açabilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "446",
+   "official_text": "II - İptal davası açabilecek kişiler\nMADDE 446- (1) a) Toplantıda hazır bulunup da karara olumsuz oy veren ve bu muhalefetini tutanağa geçirten,\nb) Toplantıda hazır bulunsun veya bulunmasın, olumsuz oy kullanmış olsun ya da olmasın; çağrının usulüne göre yapılmadığını, gündemin gereği gibi ilan edilmediğini, genel kurula katılma yetkisi bulunmayan kişilerin veya temsilcilerinin toplantıya katılıp oy kullandıklarını, genel kurula katılmasına ve oy kullanmasına haksız olarak izin verilmediğini ve yukarıda sayılan aykırılıkların genel kurul kararının alınmasında etkili olduğunu ileri süren pay sahipleri,\nc) Yönetim kurulu,\nd) Kararların yerine getirilmesi, kişisel sorumluluğuna sebep olacaksa yönetim kurulu üyelerinden her biri,\niptal davası açabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "447",
+   "official_text": "H) Butlan\nMADDE 447- (1) Genel kurulun, özellikle;\na) Pay sahibinin, genel kurula katılma, asgari oy, dava ve kanundan kaynaklanan vazgeçilemez nitelikteki haklarını sınırlandıran veya ortadan kaldıran,\nb) Pay sahibinin bilgi alma, inceleme ve denetleme haklarını, kanunen izin verilen ölçü dışında sınırlandıran,\nc) Anonim şirketin temel yapısını bozan veya sermayenin korunması hükümlerine aykırı olan,\nkararları batıldır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "553",
+   "official_text": "V - Kurucuların, yönetim kurulu üyelerinin, yöneticilerin ve tasfiye memurlarının sorumluluğu\nMADDE 553- (1) Kurucular, yönetim kurulu üyeleri, yöneticiler ve tasfiye memurları, kanundan ve esas sözleşmeden doğan yükümlülüklerini kusurlarıyla ihlal ettikleri takdirde, (…)[75] hem şirkete hem pay sahiplerine hem de şirket alacaklılarına karşı verdikleri zarardan sorumludurlar.[76]\n(2) Kanundan veya esas sözleşmeden doğan bir görevi veya yetkiyi, kanuna dayanarak, başkasına devreden organlar veya kişiler, bu görev ve yetkileri devralan kişilerin seçiminde makul derecede özen göstermediklerinin ispat edilmesi hâli hariç, bu kişilerin fiil ve kararlarından sorumlu olmazlar.\n(3) Hiç kimse kontrolü dışında kalan, kanuna veya esas sözleşmeye aykırılıklar veya yolsuzluklar sebebiyle sorumlu tutulamaz; bu sorumlu olmama durumu gözetim ve özen yükümü gerekçe gösterilerek geçersiz kılınamaz.\n[75] 26/6/2012 tarihli ve 6335 sayılı Kanunun 41 inci maddesiyle, bu fıkrada yer alan “kusurlarının bulunmadığını ispatlamadıkça,” ibaresi madde metninden çıkarılmıştır.\n[76] 26/6/2012 tarihli ve 6335 sayılı Kanunun 28 inci maddesiyle, bu fıkrada yer alan “yükümlülüklerini” ibaresinden sonra gelmek üzere “kusurlarıyla” ibaresi eklenmiş ve metne işlenmiştir.\n[77] Bu madde başlığı “VI - Denetçinin ve işlem denetçilerinin sorumluluğu” iken, 26/6/2012 tarihli ve 6335 sayılı Kanunun 29 uncu maddesiyle metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "580",
+   "official_text": "I - En az tutar\nMADDE 580- (1) Limited şirketin esas sermayesi en az onbin Türk Lirasıdır. [83]\n(2) Bu maddede yazılı en az tutar, Cumhurbaşkanınca on katına kadar artırılabilir.[84]\n[83] 24/11/2023 tarihli ve 7887 sayılı Cumhurbaşkanı Kararı ile bu fıkrada yer alan limited şirketler için onbin Türk Lirası olarak öngörülen en az esas sermaye tutarı ellibin Türk Lirasına yükseltilmiştir.Söz konusu değişiklik daha sonra 26/11/2023 tarihli ve 32381 sayılı Resmî Gazete’de yayımlanan Düzeltme ile değiştirilerek düzeltilmiştir.\n[84] 2/7/2018 tarihli ve 700 sayılı Kanun Hükmünde Kararnamenin 192 nci maddesiyle bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "614",
+   "official_text": "H) Bilgi alma ve inceleme hakkı\nMADDE 614- (1) Her ortak, müdürlerden, şirketin bütün işleri ve hesapları hakkında bilgi vermelerini isteyebilir ve belirli konularda inceleme yapabilir.\n(2) Ortağın, elde ettiği bilgileri şirketin zararına olacak şekilde kullanması tehlikesi varsa, müdürler, bilgi alınmasını ve incelemeyi gerekli ölçüde engelleyebilir; bu konuda ortağın başvurusu üzerine genel kurul karar verir.\n(3) Genel kurul, bilgi alınmasını ve incelemeyi haksız yere engellerse, ortağın istemi üzerine mahkeme bu hususta karar verir. Mahkeme kararı kesindir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "616",
+   "official_text": "I - Yetkiler\nMADDE 616- (1) Genel kurulun devredilemez yetkileri şunlardır:\na) Şirket sözleşmesinin değiştirilmesi.\nb) Müdürlerin atanmaları ve görevden alınmaları.\nc) Topluluk denetçisi ile (…)[91] denetçilerin atanmaları ve görevden alınmaları.\nd) Topluluk yılsonu finansal tabloları ile yıllık faaliyet raporunun onaylanması.\ne) Yılsonu finansal tablolarının ve yıllık faaliyet raporunun onaylanması, kâr payı hakkında karar verilmesi, kazanç paylarının belirlenmesi.\nf) Müdürlerin ücretlerinin belirlenmesi ve ibraları.\ng) Esas sermaye paylarının devirlerinin onaylanması.\nh) Bir ortağın şirketten çıkarılması için mahkemeden istemde bulunulması.[92]\nı) Müdürün, şirketin kendi paylarını iktisabı konusunda yetkilendirilmesi veya böyle bir iktisabın onaylanması.\ni) Şirketin feshi.\nj) Genel kurulun kanun veya şirket sözleşmesi ile yetkilendirildiği ya da müdürlerin genel kurula sunduğu konularda karar verilmesi.\n(2) Aşağıda sayılanlar, şirket sözleşmesinde öngörüldükleri takdirde genel kurulun devredilemez yetkileridir:\na) Şirket sözleşmesi uyarınca genel kurulun onayının arandığı hâller ile müdürlerin faaliyetlerinin onaylanması.\nb) Önerilmeye muhatap olma, önalım, geri alım ve alım haklarının kullanılması hakkında karar verilmesi.\nc) Esas sermaye payları üzerinde rehin hakkı kurulmasına ilişkin onayın verilmesi.\nd) Yan edim yükümlülükleri hakkında iç yönerge çıkarılması.\ne) Şirket sözleşmesinin 613 üncü maddenin dördüncü fıkrası uyarınca ortakların onayını yeterli görmemesi hâlinde, müdürlerin ve ortakların şirkete karşı bağlılık yükümü veya rekabet yasağı ile bağdaşmayan faaliyetlerde bulunabilmelerinin onayı için gereken iznin verilmesi.\nf) Bir ortağın şirket sözleşmesinde öngörülen sebeplerden dolayı şirketten çıkarılması.\n(3) Tek ortaklı limited şirketlerde, bu ortak genel kurulun tüm yetkilerine sahiptir. Tek ortağın genel kurul sıfatıyla alacağı kararların geçerlilik kazanabilmeleri için yazılı olmaları şarttır.\n[91] 26/6/2012 tarihli ve 6335 sayılı Kanunun 41 inci maddesiyle, bu bentte yer alan “işlem denetçileri de dâhil olmak üzere,” ibaresi madde metninden çıkarılmıştır.\n[92] Anayasa Mahkemesinin 25/12/2025 tarihli ve E: 2025/128, K: 2025/273 sayılı Kararı ile bu bent “iki ortaklı limited şirketler” yönünden iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "617",
+   "official_text": "1. Çağrı\nMADDE 617- (1) Genel kurul müdürler tarafından toplantıya çağrılır. Olağan genel kurul toplantısı, her yıl hesap döneminin sona ermesinden itibaren üç ay içinde yapılır. Şirket sözleşmesi uyarınca ve gerektikçe genel kurul olağanüstü toplantıya çağrılır.\n(2) Genel kurul, toplantı gününden en az onbeş gün önce toplantıya çağrılır. Şirket sözleşmesi bu süreyi uzatabilir veya on güne kadar kısaltabilir.\n(3) Toplantıya çağrı, azlığın çağrı ve öneri hakkı, gündem, öneriler, çağrısız genel kurul, hazırlık önlemleri, tutanak, yetkisiz katılma konularında anonim şirketlere ilişkin hükümler, Bakanlık temsilcisine ilişkin olanlar hariç, kıyas yoluyla uygulanır. Her ortak kendisini genel kurulda ortak olan veya olmayan bir kişi aracılığıyla temsil ettirebilir.\n(4) Herhangi bir ortak sözlü görüşme isteminde bulunmadıkça, genel kurul kararları, ortaklardan birinin gündem maddesi ile ilgili önerisine diğer ortakların yazılı onayları alınmak suretiyle de verilebilir. Aynı önerinin tüm ortakların onayına sunulması kararın geçerliliği için şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "618",
+   "official_text": "2. Oy hakkı ve hesaplanması\nMADDE 618- (1) Ortakların oy hakkı esas sermaye paylarının itibarî değerine göre hesaplanır. Şirket sözleşmesinde daha yüksek bir tutar öngörülmemişse her yirmibeş Türk Lirası bir oy hakkı verir. Ancak, şirket sözleşmesi ile birden fazla paya sahip ortakların oy hakları sınırlandırılabilir. Ortak, en az bir oy hakkını haizdir. Şirket sözleşmesinde açıkça düzenlenmişse yazılı oy da verilebilir.\n(2) Şirket sözleşmesi oy hakkını, itibarî değerden bağımsız olarak her esas sermaye payına bir oy hakkı düşecek şekilde de belirleyebilir. Bu hâlde en küçük esas sermaye payının itibarî değeri, diğer esas sermaye paylarının itibarî değerleri toplamının onda birinden az olamaz.\n(3) Oy hakkının esas sermaye paylarının sayısına göre belirlenmesine ilişkin şirket sözleşmesi hükmü aşağıdaki hâllerde uygulanmaz:\na) Denetçilerin seçimi.\nb) Şirket yönetimi ya da onun bazı bölümlerinin denetimi için özel denetçi seçimi.\nc) Sorumluluk davası açılması hakkında karar verilmesi.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "619",
+   "official_text": "3. Oy hakkından yoksunluk\nMADDE 619- (1) Herhangi bir şekilde şirket yönetimine katılmış bulunanlar, müdürlerin ibralarına ilişkin kararlarda oy kullanamazlar.\n(2) Şirketin kendi esas sermaye payını iktisabına ilişkin kararlarda, esas sermaye payını devreden ortak oy kullanamaz.\n(3) Ortağın bağlılık yükümüne veya rekabet yasağına aykırı faaliyetlerde bulunmasını onaylayan kararlarda ilgili ortak oy kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "620",
+   "official_text": "1. Olağan karar alma\nMADDE 620- (1) Kanun veya şirket sözleşmesinde aksi öngörülmediği takdirde, seçim kararları dâhil, tüm genel kurul kararları, toplantıda temsil edilen oyların salt çoğunluğu ile alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "621",
+   "official_text": "2. Önemli kararlar\nMADDE 621- (1) Aşağıdaki genel kurul kararları, temsil edilen oyların en az üçte ikisinin ve oy hakkı bulunan esas sermayenin tamamının salt çoğunluğunun bir arada bulunması hâlinde alınabilir:\na) Şirket işletme konusunun değiştirilmesi.\nb) Oyda imtiyazlı esas sermaye paylarının öngörülmesi.\nc) Esas sermaye paylarının devrinin sınırlandırılması, yasaklanması ya da kolaylaştırılması.\nd) Esas sermayenin artırılması.\ne) Rüçhan hakkının sınırlandırılması ya da kaldırılması.\nf) Şirket merkezinin değiştirilmesi.\ng) Müdürlerin ve ortakların, bağlılık yükümüne veya rekabet yasağına aykırı faaliyette bulunmalarına genel kurul tarafından onay verilmesi.\nh) Bir ortağın haklı sebepler dolayısıyla şirketten çıkarılması için mahkemeye başvurulması ve bir ortağın şirket sözleşmesinde öngörülen sebepten dolayı şirketten çıkarılması.[93]\nı) Şirketin feshi.\n(2) Kanunda belli kararların alınabilmesi için ağırlaştırılmış nisap aranıyorsa, bu nisabı daha da ağırlaştıracak şirket sözleşmesi hükümleri, ancak şirket sözleşmesinde öngörülecek çoğunlukla kabul edilebilir.\n(3) (Ek: 12/7/2013-6495/52 md.) Bir ortağın şirketten çıkarılma sebeplerinin sonradan şirket sözleşmesine konulabilmesine dair sözleşme değişikliği, şirket sermayesini temsil eden tüm ortakların genel kurul toplantısında oy birliği ile karar almasıyla mümkündür.\n[93] Anayasa Mahkemesinin 25/12/2025 tarihli ve E: 2025/128, K: 2025/273 sayılı Kararı ile bu bentte yer alan “Bir ortağın haklı sebepler dolayısıyla şirketten çıkarılması için mahkemeye başvurulması…” ibaresi “iki ortaklı limited şirketler” yönünden iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "622",
+   "official_text": "IV- Genel kurul kararlarının butlanı ve iptali\nMADDE 622- (1) Bu Kanunun anonim şirket genel kurul kararlarının butlanına ve iptaline ilişkin hükümleri, kıyas yoluyla limited şirketlere de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "623",
+   "official_text": "1. Genel olarak\nMADDE 623- (1) Şirketin yönetimi ve temsili şirket sözleşmesi ile düzenlenir. Şirketin sözleşmesi ile yönetimi ve temsili, müdür sıfatını taşıyan bir veya birden fazla ortağa veya tüm ortaklara ya da üçüncü kişilere verilebilir. En azından bir ortağın, şirketi yönetim hakkının ve temsil yetkisinin bulunması gerekir.\n(2) Şirketin müdürlerinden biri bir tüzel kişi olduğu takdirde, bu kişi bu görevi tüzel kişi adına yerine getirecek bir gerçek kişiyi belirler.\n(3) Müdürler, kanunla veya şirket sözleşmesi ile genel kurula bırakılmamış bulunan yönetime ilişkin tüm konularda karar almaya ve bu kararları yürütmeye yetkilidirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "624",
+   "official_text": "2. Müdürlerin birden fazla olmaları\nMADDE 624- (1) Şirketin birden fazla müdürünün bulunması hâlinde, bunlardan biri, şirketin ortağı olup olmadığına bakılmaksızın, genel kurul tarafından müdürler kurulu başkanı olarak atanır.\n(2) Başkan olan müdür veya tek müdürün bulunması hâlinde bu kişi, genel kurulun toplantıya çağrılması ve genel kurul toplantılarının yürütülmesi konularında olduğu gibi, genel kurul başka yönde bir karar almadığı ya da şirket sözleşmesinde farklı bir düzenleme öngörülmediği takdirde, tüm açıklamaları ve ilanları yapmaya da yetkilidir.\n(3) Birden fazla müdürün varlığı hâlinde, bunlar çoğunlukla karar alırlar. Eşitlik hâlinde başkanın oyu üstün sayılır. Şirket sözleşmesi, müdürlerin karar almaları konusunda değişik bir düzenleme öngörebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "625",
+   "official_text": "1. Devredilemez ve vazgeçilemez görevler\nMADDE 625- (1) Müdürler, kanunların ve şirket sözleşmesinin genel kurula görev ve yetki vermediği bütün konularda görevli ve yetkilidir. Müdürler, aşağıdaki görevlerini ve yetkilerini devredemez ve bunlardan vazgeçemezler:\na) Şirketin üst düzeyde yönetilmesi ve yönetimi ve gerekli talimatların verilmesi.\nb) Kanun ve şirket sözleşmesi çerçevesinde şirket yönetim örgütünün belirlenmesi.\nc) Şirketin yönetimi için gerekli olduğu takdirde, muhasebenin, finansal denetimin ve finansal planlamanın oluşturulması.\nd) Şirket yönetiminin bazı bölümleri kendilerine devredilmiş bulunan kişilerin, kanunlara, şirket sözleşmesine, iç tüzüklere ve talimatlara uygun hareket edip etmediklerinin gözetimi.\ne) Küçük limited şirketler hariç, risklerin erken teşhisi ve yönetimi komitesinin kurulması.\nf) Şirket finansal tablolarının, yıllık faaliyet raporunun ve gerekli olduğu takdirde topluluk finansal tablolarının ve yıllık faaliyet raporunun düzenlenmesi.\ng) Genel kurul toplantısının hazırlanması ve genel kurul kararlarının yürütülmesi.\nh) Şirketin borca batık olması hâlinde durumun mahkemeye bildirilmesi.\n(2) Şirket sözleşmesinde, müdürün veya müdürlerin;\na) Aldıkları belirli kararları ve\nb) Münferit sorunları,\ngenel kurulun onayına sunmaları gereği öngörülebilir. Genel kurulun onayı müdürlerin sorumluluğunu ortadan kaldırmaz, sınırlandırmaz. Türk Borçlar Kanununun 51 ve 52 nci madde hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "626",
+   "official_text": "2. Özen ve bağlılık yükümü, rekabet yasağı\nMADDE 626- (1) Müdürler ve yönetimle görevli kişiler, görevlerini tüm özeni göstererek yerine getirmek ve şirketin menfaatlerini, dürüstlük kuralı çerçevesinde, gözetmekle yükümlüdürler. 202 ilâ 205 inci madde hükümleri saklıdır.\n(2) Şirket sözleşmesinde aksi öngörülmemiş veya diğer tüm ortaklar yazılı olarak izin vermemişse, müdürler şirketle rekabet oluşturan bir faaliyette bulunamazlar. Şirket sözleşmesi ortakların onayı yerine ortaklar genel kurulunun onay kararını öngörebilir.\n(3) Müdürler de ortaklar için öngörülmüş bulunan bağlılık borcuna tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "627",
+   "official_text": "3. Eşit işlem\nMADDE 627- (1) Müdürler ortaklara eşit şartlar altında eşit işlem yaparlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "629",
+   "official_text": "IV - Temsil yetkisinin kapsamı, sınırlandırılması\nMADDE 629- (1) Müdürlerin temsil yetkilerinin kapsamına, yetkinin sınırlandırılmasına, imzaya yetkili olanların belirlenmesine, imza şekli ile bunların tescil ve ilanına bu Kanunun anonim şirketlere ilişkin ilgili hükümleri kıyas yolu ile uygulanır.\n(2) Sözleşmenin yapılması sırasında şirket tek ortak tarafından ister temsil edilsin ister edilmesin, tek ortaklı limited şirketlerde, bu ortak ile şirket arasında yapılan sözleşmenin geçerli olması, sözleşmenin yazılı şekilde yapılmasına bağlıdır. Bu zorunluluk, piyasa şartlarına göre günlük, önemsiz ve sıradan işlemlere ilişkin sözleşmelere uygulanmaz.\n(3) (Ek: 10/9/2014 - 6552/132 md.) Müdürler tarafından şirkete hizmet akdi ile bağlı olanların sınırlı yetkiye sahip ticari vekil veya diğer tacir yardımcıları olarak atanması hususunda 367 nci madde ile 371 inci maddenin yedinci fıkrası kıyasen limited şirketlere de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "630",
+   "official_text": "V - Görevden alma, yönetim ve temsil yetkisinin geri alınması ve sınırlandırılması\nMADDE 630- (1) Genel kurul, müdürü veya müdürleri görevden alabilir, yönetim hakkını ve temsil yetkisini sınırlayabilir.\n(2) Her ortak, haklı sebeplerin varlığında, yöneticilerin yönetim hakkının ve temsil yetkilerinin kaldırılmasını veya sınırlandırılmasını mahkemeden isteyebilir.\n(3) Yöneticinin, özen ve bağlılık yükümü ile diğer kanunlardan ve şirket sözleşmesinden doğan yükümlülüklerini ağır bir şekilde ihlal etmesi veya şirketin iyi yönetimi için gerekli yeteneği kaybetmesi haklı sebep olarak kabul olunur.\n(4) Görevden alınan yöneticinin tazminat hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "631",
+   "official_text": "VI - Ticari mümessiller ve ticari vekiller\nMADDE 631- (1) Şirket sözleşmesinde başka şekilde düzenlenmediği takdirde, ticari mümessiller ve ticari vekiller ancak genel kurul kararı ile atanabilirler; yetkileri genel kurul tarafından sınırlandırılabilir.\n(2) Müdür veya müdürlerin çoğunluğu, 623 üncü maddenin kapsamına girmeyen ticari mümessili veya ticari vekili her zaman görevden uzaklaştırabilir. Bu kişi genel kurul kararı ile atanmışsa, görevden alma ve yetkilerini sınırlandırmak için genel kurul gecikmeksizin toplantıya çağrılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "632",
+   "official_text": "VII - Haksız fiil sorumluluğu\nMADDE 632- (1) Şirketin yönetimi ve temsili ile yetkilendirilen kişinin, şirkete ilişkin görevlerini yerine getirmesi sırasında işlediği haksız fiilden şirket sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "633",
+   "official_text": "I - Bildirim yükümlülüğü\nMADDE 633- (1) Esas sermayenin kaybı ya da borca batık olma hâllerinde anonim şirketlere ilişkin ilgili hükümler kıyas yoluyla uygulanır. Ek ödeme yükümlülüğü hakkındaki hükümler saklıdır.\n[94] Bu maddenin “II - İflasın bildirilmesi veya ertelenmesi” olan başlığı, 28/2/2018 tarihli ve 7101 sayılı Kanunun 63 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "635",
+   "official_text": "D) Denetçi\nMADDE 635- (1) 397 nci maddenin beşinci ve altıncı fıkraları dışında kalan, Anonim şirketin denetçiye (…)[95] denetime ve özel denetime ilişkin hükümleri limited şirkete de uygulanır.[96]\n[95] 26/6/2012 tarihli ve 6335 sayılı Kanunun 41 inci maddesiyle, bu fıkrada yer alan “ve işlem denetçileriyle” ibaresi madde metninden çıkarılmıştır.\n[96] 28/3/2013 tarihli ve 6455 sayılı Kanunun 82 nci maddesiyle, bu maddede yer alan “Anonim” ibaresinden önce gelmek üzere “397 nci maddenin beşinci ve altıncı fıkraları dışında kalan,” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "636",
+   "official_text": "A) Sona erme sebepleri ve sona ermenin sonuçları\nMADDE 636- (1) Limited şirket aşağıdaki hâllerde sona erer:\na) Şirket sözleşmesinde öngörülen sona erme sebeplerinden birinin gerçekleşmesiyle.\nb) Genel kurul kararı ile.\nc) İflasın açılması ile.\nd) Kanunda öngörülen diğer sona erme hâllerinde.\n(2) Uzun süreden beri şirketin kanunen gerekli organlarından biri mevcut değilse veya genel kurul toplanamıyorsa, ortaklardan veya şirket alacaklılarından birinin şirketin feshini istemesi üzerine şirket merkezinin bulunduğu yerdeki asliye ticaret mahkemesi, müdürleri dinleyerek şirketin, durumunu Kanuna uygun hâle getirmesi için bir süre belirler, buna rağmen durum düzeltilmezse, şirketin feshine karar verir.\n(3) Haklı sebeplerin varlığında, her ortak mahkemeden şirketin feshini isteyebilir. Mahkeme, istem yerine, davacı ortağa payının gerçek değerinin ödenmesine ve davacı ortağın şirketten çıkarılmasına veya duruma uygun düşen ve kabul edilebilir diğer bir çözüme hükmedebilir.\n(4) Fesih davası açıldığında mahkeme taraflardan birinin istemi üzerine gerekli önlemleri alabilir.\n(5) Sona ermenin sonuçlarına anonim şirketlere ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "638",
+   "official_text": "I - Genel olarak\nMADDE 638- (1) Şirket sözleşmesi, ortaklara şirketten çıkma hakkını tanıyabilir, bu hakkın kullanılmasını belirli şartlara bağlayabilir.\n(2) Her ortak, haklı sebeplerin varlığında şirketten çıkmasına karar verilmesi için dava açabilir. Mahkeme istem üzerine, dava süresince, davacının ortaklıktan doğan hak ve borçlarından bazılarının veya tümünün dondurulmasına veya davacı ortağın durumunun teminat altına alınması amacıyla diğer önlemlere karar verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "639",
+   "official_text": "II - Çıkmaya katılma\nMADDE 639- (1) Ortaklardan biri şirket sözleşmesindeki hükme dayanarak çıkma istediği veya haklı sebeplerden dolayı çıkma davası açtığı takdirde, müdür veya müdürler gecikmeksizin diğer ortakları bundan haberdar ederler.\n(2) Diğer ortaklardan her biri, haberin kendisine ulaştığı tarihten itibaren bir ay içinde;\na) Şirket sözleşmesinde öngörülen haklı sebep kendisi yönünden de geçerliyse, kendisinin de çıkmaya katılacağını müdürlere bildirmek,\nb) Açacağı bir dava ile haklı sebepler dolayısıyla çıkma davasına katılmak,\nhakkına sahiptir.\n(3) Çıkan tüm ortaklar, esas sermaye payları ile orantılı olarak, eşit işleme tabi tutulurlar.\n(4) Şirket sözleşmesindeki hüküm sebebiyle veya haklı bir sebebin varlığı dolayısıyla bir ortağın şirketten çıkarılması hâlinde bu hüküm uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "640",
+   "official_text": "III - Çıkarma\nMADDE 640- (1) Şirket sözleşmesinde, bir ortağın genel kurul kararı ile şirketten çıkarılabileceği sebepler öngörülebilir.\n(2) Çıkarma kararına karşı ortak, kararın noter aracılığıyla kendisine bildirilmesinden itibaren üç ay içinde iptal davası açabilir.\n(3) Şirketin istemi üzerine ortağın mahkeme kararıyla haklı sebebe dayanılarak şirketten çıkarılması hâli saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "641",
+   "official_text": "1. İstem ve tutar\nMADDE 641- (1) Ortak şirketten ayrıldığı takdirde, esas sermaye payının gerçek değerine uyan ayrılma akçesini istem hakkını haizdir.\n(2) Şirket sözleşmesinde öngörülen ayrılma hakkı dolayısıyla, şirket sözleşmeleri ayrılma akçesini farklı bir şekilde düzenleyebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "642",
+   "official_text": "2. Ödeme\nMADDE 642- (1) Ayrılma akçesi;\na) Şirket kullanılabilir bir özkaynak üzerinde tasarruf ediyorsa,\nb) Ayrılan kişinin esas sermaye payları devredilebiliyorsa,\nc) Esas sermaye, ilgili hükümlere göre azaltılmışsa,\nayrılma ile muaccel olur.\n(2) (Mülga: 26/6/2012-6335/43 md.)\n(3) Ayrılan ortağın ayrılma akçesinin ödenmeyen kısmı, şirkete karşı, bütün alacaklılardan sonra gelen bir alacak oluşturur. Bu husus yıllık raporda kullanılabilir özkaynak tutarının tespiti ile muaccel hâle gelir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "643",
+   "official_text": "D) Tasfiye\nMADDE 643- (1) Tasfiye usulü ile tasfiyede şirket organlarının yetkileri hakkında anonim şirketlere ilişkin hükümler uygulanır:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "644",
+   "official_text": "E) Uygulanacak hükümler\nMADDE 644- (1) Aşağıda madde numaraları bildirilen anonim şirketlere ilişkin hükümler limited şirketlere de uygulanır.\na) Belgelerin ve beyanların kanuna aykırılığına ilişkin 549 uncu; sermaye hakkında yanlış beyanlar ve ödeme yetersizliğinin bilinmesi hakkında 550 nci; değer biçilmesinde yolsuzluğa dair 551 inci; kurucuların, yönetim kurulu üyelerinin, yöneticilerin ve tasfiye memurlarının sorumluluğunu düzenleyen 553 üncü; denetçilerin (…)[97] sorumluluğuna ilişkin 554 ilâ 561 inci maddeler.\nb) (Değişik: 26/6/2012-6335/32 md.) Feshe ilişkin 353 üncü madde, şirkete karşı borçlanma yasağına ilişkin 358 inci madde, müdürlerin yakınlarının şirkete borçlanmasına ilişkin 395 inci maddenin ikinci fıkrasının birinci ve ikinci cümlesi hükümleri, kâr payı avansına ilişkin 509 uncu maddenin üçüncü fıkrası.\nc) Yönetim kurulu kararlarının butlanı hakkındaki 391 inci ve müdürlerin bilgi alma haklarına kıyas yolu ile uygulanmak üzere 392 nci madde.\nd) Limited şirketlere de uygulanan 549 ilâ 551 inci maddelerine aykırı hareket edenler, 562 nci maddenin sekizinci ilâ onuncu fıkralarında öngörülen cezalarla cezalandırılırlar.\n[97] 26/6/2012 tarihli ve 6335 sayılı Kanunun 32 nci maddesiyle, bu bentte yer alan “ve işlem denetçilerinin” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "AMME ALACAKLARININ TAHSİL USULÜ HAKKINDA KANUN",
+   "law_no": "6183",
+   "article_no": "35",
+   "official_text": "Limited şirketlerin amme borçları (1)(2)\nMadde 35 – (Değişik: 22/7/1998 – 4369/ 21 md.)\nLimited şirket ortakları, şirketten tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan amme alacağından sermaye hisseleri oranında doğrudan doğruya sorumlu olurlar ve bu Kanun hükümleri gereğince takibe tabi tutulurlar.\n(Ek fıkra: 4/6/2008-5766/3 md.) Ortağın şirketteki sermaye payını devretmesi halinde, payı devreden ve devralan şahıslar devir öncesine ait amme alacaklarının ödenmesinden birinci fıkra hükmüne göre müteselsilen sorumlu tutulur.\n(Ek fıkra: 4/6/2008-5766/3 md.) Amme alacağının doğduğu ve ödenmesi gerektiği zamanlarda pay sahiplerinin farklı şahıslar olmaları halinde bu şahıslar, amme alacağının ödenmesinden birinci fıkra hükmüne göre müteselsilen sorumlu tutulur.\n(1) Bu madde başlığı, 22/7/1998 tarih ve 4369 sayılı Kanunun 21 inci maddesiyle değiştirilmiş ve metne işlenmiştir.\n(2) 4/6/2008 tarihli ve 5766 sayılı Kanunun 3 üncü maddesiyle; bu maddede yer alan \"şirketten tahsil imkanı bulunmayan\" ibaresi \"şirketten tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan\" şeklinde değiştirilmiş ve metne işlenmiştir.\nKanuni Temsilcilerin Sorumluluğu\nMükerrer Madde 35 – (Ek: 25/5/1995 – 4108/11 md.)\nTüzel kişilerle küçüklerin ve kısıtlıların, vakıflar ve cemaatler gibi tüzel kişiliği olmayan teşekküllerin mal varlığından tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan amme alacakları, kanuni temsilcilerin ve tüzel kişiliği olmayan teşekkülü idare edenlerin şahsi mal varlıklarından bu Kanun hükümlerine göre tahsil edilir.\nBu madde hükmü, yabancı şahıs veya kurumların Türkiye’deki mümessilleri hakkında da uygulanır.\nTüzel kişilerin tasfiye haline girmiş veya tasfiye edilmiş olmaları, kanuni temsilcilerin tasfiyeye giriş tarihinden önceki zamanlara ait sorumluluklarını kaldırmaz.\nTemsilciler, teşekkülü idare edenler veya mümessiller, bu madde gereğince ödedikleri tutarlar için asıl amme borçlusuna rücu edebilirler.\n(Ek fıkra: 4/6/2008-5766/4 md.; İptal fıkra: Anayasa Mahkemesi’nin 19/3/2015 tarihli ve E.: 2014/144, K.: 2015/29 sayılı Kararı ile.)\n(Ek fıkra: 4/6/2008-5766/4 md.; İptal fıkra: Anayasa Mahkemesi’nin 19/3/2015 tarihli ve E.: 2014/144, K.: 2015/29 sayılı Kararı ile.)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/3651",
+   "karar_no": "2026/1928",
+   "decision_date": "13.04.2026",
+   "summary_md": "Bir limited şirketin kurucu ortağı, bilgi alma ve inceleme hakkının engellendiğini, genel kurula çağrılmadığını ve kâr dağıtılmadığını ileri sürerek haklı sebeple çıkmasını ve ayrılma akçesini istemiştir (TTK m. 638/2, TTK m. 641). Şirket karşı davada, ortağın rakip bir dergi için çizim yaptırdığını söyleyerek onun şirketten çıkarılmasını (TTK m. 640/3) talep etmiş ve bunu 02.11.2016 tarihli genel kurul kararına dayandırmıştır. İlk derece mahkemesi asıl davayı kabul ederek davacının haklı sebeple çıkmasına ve çıkma payının ticari avans faiziyle tahsiline karar vermiş, karşı davayı reddetmiştir. Bölge adliye mahkemesi, çıkarma kararının alındığı genel kurula davacının usulüne uygun çağrılmadığını (TTK m. 617, TTK m. 416) ve kararın bu nedenle geçerli olmadığını belirtmiştir; esas sözleşmede ortaklar için rekabet yasağı da yoktur. Yargıtay 11. HD bu kararı oy birliğiyle onamıştır. Karar, çıkarma davasının dayanağı olan genel kurul kararının usulüne uygun toplantıda alınması gerektiğini ve bilgi alma hakkının engellenmesi gibi hâllerin ortak yönünden haklı çıkma sebebi olabileceğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1223673400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2026/1605",
+   "karar_no": "2026/1454",
+   "decision_date": "11.03.2026",
+   "summary_md": "Şirketin %49 paylı kurucu ortağı, %51 paylı ve tek başına yetkili müdür olan diğer ortakla arasında ağır uyuşmazlık doğduğunu, usulsüz çağrılarla genel kurul yapıldığını ileri sürerek şirketin haklı sebeple feshini, olmazsa payının değeri ödenerek ortaklıktan çıkmasını istemiştir. İlk derece mahkemesi, %49'luk payın bedelinin ödenmesinin diğer ortak için ağır ekonomik yük olacağını belirterek şirketin feshine (TTK m. 636/3) karar vermiş, bölge adliye mahkemesi istinafı esastan reddetmiştir. Yargıtay 11. HD, ticaret hayatında şirketlerin yaşatılmasının esas olduğunu, davalı tarafın da şirketin devamını istediğini ve davacının çıkma talebinin de bulunduğunu belirterek kararı oy birliğiyle bozmuş; mahkemenin fesih dışında duruma uygun bir çözüm üzerinde durması gerektiğini söylemiştir. Karar, TTK m. 636/3'te mahkemeye tanınan seçeneklerin birbiriyle ilişkisini ve feshin son çare olduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1210369300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Limited şirkette ortağın bilgi alma ve inceleme hakkına ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+   "options": [
+    "Genel kurul bilgi almayı haksız yere engellerse mahkeme karar verir ve bu karar kesindir.",
+    "Bu hak yalnızca esas sermayenin en az onda birine sahip ortaklara tanınmıştır.",
+    "Müdürler, şirket zararı tehlikesi olduğunda bilgi vermeyi tamamen ve süresiz olarak reddedebilir.",
+    "Bilgi alma hakkı yalnızca genel kurul toplantısında kullanılabilir ve mahkemeye başvurulamaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 614/3 uyarınca genel kurul bilgi alınmasını ve incelemeyi haksız yere engellerse ortağın istemi üzerine mahkeme karar verir ve mahkeme kararı kesindir. Hak her ortağa aittir (TTK m. 614/1); müdürler yalnızca \"gerekli ölçüde\" engelleyebilir (TTK m. 614/2)."
+  },
+  {
+   "stem_md": "Sözleşmede daha yüksek bir tutar öngörülmeyen bir limited şirkette oy hakkı aşağıdakilerden hangisine göre belirlenir?",
+   "options": [
+    "Her 25 TL bir oy hakkı verir; her ortak en az bir oya sahiptir.",
+    "Her ortak, pay tutarına bakılmaksızın bir oya sahiptir.",
+    "Oy hakkı, ortakların şirkette çalışma sürelerine göre belirlenir.",
+    "Her 100 TL bir oy hakkı verir; en az bir oy hakkı yoktur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 618/1'e göre sözleşmede daha yüksek tutar öngörülmemişse her yirmibeş Türk Lirası bir oy hakkı verir ve ortak en az bir oy hakkını haizdir. Her ortağa tek oy verilmesi ancak sözleşmeyle (her paya bir oy) olabilir ve o da başka sınırlamalara tabidir (TTK m. 618/2)."
+  },
+  {
+   "stem_md": "Aşağıdaki limited şirket genel kurul kararlarından hangisi, temsil edilen oyların en az üçte ikisi ile oy hakkı bulunan esas sermayenin tamamının salt çoğunluğunun bir arada bulunmasını gerektirir?",
+   "options": [
+    "Yıllık finansal tabloların onaylanması.",
+    "Şirket merkezinin değiştirilmesi.",
+    "Müdürün seçilmesi.",
+    "Müdürün ücretinin belirlenmesi."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Şirket merkezinin değiştirilmesi TTK m. 621/1-f'de sayılan önemli kararlardandır. Finansal tabloların onayı, müdür seçimi ve ücret kararları ise kural olarak temsil edilen oyların salt çoğunluğuyla alınır (TTK m. 620)."
+  },
+  {
+   "stem_md": "Bir ortağın şirketten çıkarılma sebeplerinin sonradan şirket sözleşmesine konulması için genel kurulda hangi karar çoğunluğu gerekir?",
+   "options": [
+    "Temsil edilen oyların salt çoğunluğu.",
+    "Şirket sermayesini temsil eden tüm ortakların oy birliği.",
+    "Esas sermayenin en az 3/4'ü.",
+    "Temsil edilen oyların en az 2/3'ü."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 621/3'e göre çıkarılma sebeplerinin sonradan sözleşmeye konulabilmesine dair sözleşme değişikliği, sermayeyi temsil eden tüm ortakların genel kurulda oy birliğiyle karar almasıyla mümkündür. Önemli kararlar için aranan 2/3 nisabı bunun için yeterli değildir."
+  },
+  {
+   "stem_md": "X Ltd. Şti.'nin genel kurul toplantısının tarihi 1 Haziran'dır. Şirket sözleşmesinde çağrı süresine ilişkin hüküm yoktur. Müdür toplantıya çağrıyı 20 Mayıs'ta yapmıştır. Bu durumda aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Çağrı süresi uygundur; çünkü kanun çağrı için yalnızca on gün öngörür.",
+    "Çağrı süresi uygundur; çünkü kanundaki süre sadece iki haftadır ve en geç 14 gün önce yapılması yeter.",
+    "Çağrı süresi uygun değildir; çünkü kanun çağrının toplantıdan en az onbeş gün önce yapılmasını arar.",
+    "Çağrı süresi uygun değildir; çünkü çağrı ancak toplantıdan en az bir ay önce yapılabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "20 Mayıs'tan 1 Haziran'a 12 gün vardır. TTK m. 617/2 genel kurulun toplantı gününden en az onbeş gün önce çağrılmasını arar; sözleşme süreyi uzatabilir ya da on güne kadar kısaltabilir. Sözleşmede böyle bir düzenleme bulunmadığı için 12 gün yeterli değildir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi limited şirkette genel kurul kararlarının, toplantı yapılmadan elden dolaştırma yoluyla alınabilmesi için gerekli şartlardan biridir?",
+   "options": [
+    "Ticaret sicili müdürlüğünün karara izin vermesi.",
+    "Hiçbir ortağın sözlü görüşme isteminde bulunmaması ve aynı önerinin tüm ortakların onayına sunulması.",
+    "Müdürler kurulunun oybirliği ve ortakların çoğunluğunun sözlü onayı.",
+    "Noterde düzenlenen bir vekâletname ile ortakların temsil edilmesi."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 617/4'e göre herhangi bir ortak sözlü görüşme istemedikçe, bir ortağın gündem maddesi ile ilgili önerisine diğer ortakların yazılı onayları alınarak da karar verilebilir. Aynı önerinin tüm ortakların onayına sunulması kararın geçerliliği için şarttır."
+  },
+  {
+   "stem_md": "Limited şirkette yönetim ve temsile ilişkin aşağıdaki ifadelerden hangisi TTK m. 623'e uygundur?",
+   "options": [
+    "Müdür tüzel kişi olamaz.",
+    "Yönetim ve temsil üçüncü kişilere de verilebilir, ancak en az bir ortağın yönetim hakkı ve temsil yetkisi bulunmalıdır.",
+    "Yönetim ve temsil tamamen üçüncü kişilere verilebilir; ortağın yönetimde bulunması gerekmez.",
+    "Yönetim ve temsil yalnızca ortaklara verilebilir; üçüncü kişi müdür olamaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 623/1 yönetim ve temsilin ortaklara ya da üçüncü kişilere verilebileceğini, ancak en azından bir ortağın şirketi yönetim hakkı ve temsil yetkisinin bulunması gerektiğini söyler. Müdür tüzel kişi olabilir; bu durumda bir gerçek kişi belirlenir (TTK m. 623/2)."
+  },
+  {
+   "stem_md": "Aşağıdaki durumlardan hangisinde, ortak genel kurul kararında oy kullanamaz?",
+   "options": [
+    "Ortak, şirketin kâr dağıtımı kararında.",
+    "Ortak, aynı zamanda müdür olarak seçilmesi için yapılan oylamada.",
+    "Ortak, şirket merkezinin değiştirilmesine ilişkin kararda.",
+    "Herhangi bir şekilde şirket yönetimine katılan ortak, müdürlerin ibrasına ilişkin kararda."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 619/1'e göre herhangi bir şekilde şirket yönetimine katılmış bulunanlar müdürlerin ibralarına ilişkin kararlarda oy kullanamaz. Diğer örneklerde kanunda sayılan bir oydan yoksunluk hâli yoktur."
+  },
+  {
+   "stem_md": "Üç ortaklı X Ltd. Şti.'nin sermayesi 120.000 TL'dir. Ali 50.000 TL, Ayşe 40.000 TL, Mehmet 30.000 TL paya sahiptir. Üç ortak da toplantıya katılmıştır. Ali ve Ayşe şirketin işletme konusunun değiştirilmesi yönünde oy kullanmış, Mehmet olumsuz oy vermiştir. Şirket sözleşmesinde nisaba ilişkin farklı hüküm yoktur. Karar için hangi sonuç doğrudur?",
+   "options": [
+    "Karar alınır; temsil edilen oyların 3/4'ü lehte olduğundan ve oy hakkı bulunan esas sermayenin salt çoğunluğu sağlandığından.",
+    "Karar alınır; ancak yalnızca esas sermayenin 3/4'ü lehte olduğu için.",
+    "Karar alınamaz; çünkü işletme konusunun değiştirilmesi için oy birliği gerekir.",
+    "Karar alınamaz; çünkü Mehmet'in olumsuz oyu kararı engeller."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İşletme konusunun değiştirilmesi TTK m. 621/1-a kapsamındadır. Lehte oy 90.000 TL'dir; temsil edilen toplam 120.000 TL'nin %75'idir (en az 2/3'ten fazla) ve esas sermayenin tamamının salt çoğunluğunu da aşar. Her iki şart birlikte sağlandığı için karar alınır. Bu karar için oy birliği aranmaz."
+  },
+  {
+   "stem_md": "Bir limited şirkette bir ortak haklı sebeplerle şirketten çıkma davası açmıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Çıkma davası açılmışsa diğer ortaklar çıkmaya katılma hakkına sahip değildir.",
+    "Çıkmaya katılma yalnızca genel kurul kararıyla çıkarılan ortaklar için söz konusudur.",
+    "Diğer ortaklar bu dava nedeniyle altı ay içinde çıkmaya katılabilir.",
+    "Diğer ortaklar haberin kendilerine ulaştığı tarihten itibaren bir ay içinde çıkmaya katılma haklarını kullanabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 639/1-2'ye göre ortaklardan biri çıkma istediği veya haklı sebeple çıkma davası açtığı takdirde müdürler diğer ortakları haberdar eder ve diğer ortaklar haberin kendilerine ulaştığı tarihten itibaren bir ay içinde çıkmaya katılabilir. Çıkarma hâlinde bu hüküm uygulanmaz (TTK m. 639/4)."
+  },
+  {
+   "stem_md": "Sözleşmede öngörülen bir sebebe dayanarak genel kurul kararıyla şirketten çıkarılan ortak, bu karara karşı iptal davasını hangi süre içinde açmalıdır?",
+   "options": [
+    "Kararın ticaret sicilinde ilanından itibaren bir yıl içinde.",
+    "Kararın öğrenilmesinden itibaren altı ay içinde.",
+    "Karar tarihinden itibaren bir ay içinde.",
+    "Kararın kendisine noter aracılığıyla bildirilmesinden itibaren üç ay içinde."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 640/2 uyarınca çıkarma kararına karşı ortak, kararın noter aracılığıyla kendisine bildirilmesinden itibaren üç ay içinde iptal davası açabilir."
+  },
+  {
+   "stem_md": "Limited şirkette ortaklardan biri haklı sebeplerle şirketin feshini istemiştir. Mahkeme aşağıdakilerden hangisine hükmedemez?",
+   "options": [
+    "Davacı ortağın payının, hiçbir bedel ödenmeksizin diğer ortaklara geçmesine.",
+    "Duruma uygun düşen ve kabul edilebilir başka bir çözüme.",
+    "Şirketin feshine.",
+    "Davacı ortağa payının gerçek değerinin ödenmesine ve davacının şirketten çıkarılmasına."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 636/3'e göre mahkeme feshe, davacıya payının gerçek değerinin ödenmesine ve davacının çıkarılmasına veya duruma uygun düşen, kabul edilebilir başka bir çözüme hükmedebilir. Payın karşılıksız geçmesi, payın gerçek değerinin ödenmesi ilkesiyle bağdaşmaz (TTK m. 641/1)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Mavi Yapı Ltd. Şti.'nin sermayesi 200.000 TL'dir. Ortaklar: Ali 90.000 TL (%45), Ayşe 70.000 TL (%35), Mehmet 40.000 TL (%20) paya sahiptir. Şirket sözleşmesinde çağrı süresine ve nisaplara ilişkin farklı bir düzenleme yoktur. Şirketin tek müdürü ve başkanı Ali'dir.\n\nAli, 3 Mart'ta yaptığı tek bir çağrıyla genel kurulu 10 Mart'ta toplantıya çağırmıştır. Toplantıya Ali ve Ayşe katılmış, Mehmet katılmamıştır. Toplantıda şu kararlar alınmıştır: (a) şirket merkezinin başka bir ile taşınması, Ali ve Ayşe'nin oylarıyla; (b) Ali'nin müdür olarak ibrası, Ali ve Ayşe'nin oylarıyla; (c) Mehmet'in şirket defterlerini incelemesinin bundan sonra yasaklanması.\n\nMehmet, kararlara karşı ne yapabileceğini sormaktadır. Ayrıca yıllardır kâr dağıtılmaması ve bilgi alma hakkının fiilen kullandırılmaması nedeniyle şirketten çıkmak istemektedir.\n\n1. Çağrı usulü ve (a) kararının nisabı bakımından durumu değerlendiriniz.\n2. (b) ve (c) kararlarının hukuki durumunu değerlendiriniz.\n3. Mehmet'in şirketten çıkma isteminin hukuki yolunu ve diğer ortakların durumunu açıklayınız.",
+   "rubric": [
+    {
+     "point": "Çağrının toplantıdan en az 15 gün önce yapılması gerektiği; 7 günlük çağrının usulsüz olduğu",
+     "weight": 20,
+     "madde_ref": "TTK m. 617/2"
+    },
+    {
+     "point": "Merkez değişikliğinin önemli karar olduğu; lehte oyların 140.000 TL ile hem 2/3'ü hem esas sermayenin salt çoğunluğunu sağladığı",
+     "weight": 20,
+     "madde_ref": "TTK m. 621/1-f"
+    },
+    {
+     "point": "Yönetime katılan Ali'nin kendi ibrasında oy kullanamayacağı; kararın Ali'nin oyu olmadan değerlendirilmesi",
+     "weight": 20,
+     "madde_ref": "TTK m. 619/1"
+    },
+    {
+     "point": "Bilgi alma hakkını kısıtlayan kararın batıl olması",
+     "weight": 15,
+     "madde_ref": "TTK m. 622, TTK m. 447"
+    },
+    {
+     "point": "Haklı sebeple çıkma davası ve ayrılma akçesi (payın gerçek değeri)",
+     "weight": 15,
+     "madde_ref": "TTK m. 638/2, TTK m. 641/1"
+    },
+    {
+     "point": "Diğer ortakların bir ay içinde çıkmaya katılabilmesi",
+     "weight": 10,
+     "madde_ref": "TTK m. 639/2"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, limited şirket genel kurulunun toplantı usulü, nisaplar, oydan yoksunluk, kararların batıl veya iptale tabi olması ve ortağın haklı sebeple çıkması konularını içerir.\n\n**Hukuki sorunlar:** (1) Çağrı usulüne uyulmuş mu? Merkez değişikliği kararı için nisap sağlanmış mı? (2) İbra ve inceleme yasağı kararları geçerli mi? (3) Mehmet nasıl çıkabilir?\n\n**İlgili hükümler:** TTK m. 617/2 (15 gün), TTK m. 621/1-f (önemli karar nisabı), TTK m. 619/1 (oydan yoksunluk), TTK m. 622 ve TTK m. 447/1-b (batıllık), TTK m. 445 (iptal), TTK m. 638/2 ve TTK m. 639 (çıkma ve çıkmaya katılma), TTK m. 641/1 (ayrılma akçesi).\n\n**Değerlendirme:** (1) 3 Mart ile 10 Mart arasında yalnızca 7 gün vardır. Kanun çağrının toplantı gününden en az onbeş gün önce yapılmasını arar; sözleşme süreyi ancak on güne kadar kısaltabilir ve burada böyle bir hüküm yoktur. Çağrı bu nedenle usulsüzdür. Toplantıya Mehmet'in katılmaması çağrısız genel kurul hâlinin de oluşmadığını gösterir; çünkü çağrısız toplantı için tüm ortakların hazır olması ve itiraz etmemesi gerekir (TTK m. 617/3, TTK m. 416/1). Karar usul yönünden kanuna aykırıdır ve Mehmet karar tarihinden itibaren üç ay içinde iptal davası açabilir (TTK m. 445/1). Nisap açısından merkez değişikliği önemli karardır. Ali ve Ayşe'nin 160.000 TL'lik payı temsil edilen oyların tamamıdır ve esas sermayenin %80'idir; iki şart sağlanmıştır. Yani nisap sorunu yoktur, sorun çağrı usulündedir.\n\n(2) Ali yönetime katılan müdür olduğundan kendi ibrasına ilişkin kararda oy kullanamaz (TTK m. 619/1). Ayşe'nin oyu tek başına geçerli sayılsa bile bu ibra kararı için ayrıca çağrı sorunu da vardır. Mehmet'in defterleri incelemesini bundan sonra tamamen yasaklayan karar ise ortağın bilgi alma ve inceleme hakkını (TTK m. 614) kanunun izin verdiği ölçü dışında kısıtladığından batıldır (TTK m. 622, TTK m. 447/1-b). Batıl karara karşı süreye bağlı olmaksızın tespit istenebilir.\n\n(3) Mehmet, yıllardır kâr dağıtılmaması ve bilgi alma hakkının kullandırılmaması gibi sebepleri haklı sebep olarak ileri sürerek şirketten çıkmasına karar verilmesi için dava açabilir (TTK m. 638/2). Mahkeme, dava süresince Mehmet'in hak ve borçlarının dondurulması gibi önlemlere karar verebilir. Dava açılınca müdür, Ali'yi ve Ayşe'yi gecikmeden haberdar eder; onlar da haberin ulaşmasından itibaren bir ay içinde haklı sebeplerle davaya katılabilir (TTK m. 639). Mehmet ayrılma akçesi olarak payının **gerçek değerini** isteyebilir (TTK m. 641/1).\n\n**Sonuç:** Çağrı süresi yetersiz olduğu için kararlar iptale tabidir; ibra kararı Ali'nin oyu bakımından geçersizdir; inceleme yasağı kararı batıldır. Mehmet haklı sebeple çıkma davası açıp payının gerçek değerini isteyebilir."
+  },
+  {
+   "stem_md": "Yeşil Gıda Ltd. Şti.'nin ortakları: Zeynep (%34), Can (%33) ve Deniz (%33)'dir. Şirket sözleşmesi, rekabet yasağına aykırı davranan ortağın genel kurul kararıyla şirketten çıkarılabileceğini öngörmektedir. Müdür Zeynep'tir. Can, şirketin sözleşmesine \"ortaklığına son verilebilecek yeni bir sebep\" eklenmesini önermiştir.\n\nDeniz'in rakip bir gıda şirketinde ortak olduğu öğrenilmiştir. Zeynep ve Can, çağrı usulüne uygun biçimde yapılan genel kurulda Deniz'i sözleşmedeki sebebe dayanarak şirketten çıkarma kararı almıştır; Deniz toplantıya katılmış ve karşı oy kullanmıştır. Karar 5 Ocak'ta Deniz'e noter aracılığıyla bildirilmiştir. Daha sonra Zeynep ve Can, Deniz'in katılmadığı bir toplantıda \"ticari itibara zarar veren ortak da çıkarılabilir\" şeklinde yeni bir çıkarma sebebini sözleşmeye eklemeyi kabul etmiştir (Deniz bu karara onay vermemiştir). Ayrıca Can, müdür Zeynep'in görevini ağır şekilde ihmal ettiğini ileri sürmekte ve onun yönetim yetkisinin kaldırılmasını istemektedir.\n\n1. Deniz'in çıkarılma kararı ve ona karşı hukuki yolu açıklayınız.\n2. Sözleşmeye sonradan eklenen yeni çıkarma sebebi bakımından durumu değerlendiriniz.\n3. Can, Zeynep'in müdürlük görevi bakımından ne yapabilir?",
+   "rubric": [
+    {
+     "point": "Sözleşmedeki sebeple çıkarma genel kurul kararıyla yapılabilir; sebebin sözleşmede öngörülmüş olması gerekir",
+     "weight": 15,
+     "madde_ref": "TTK m. 640/1"
+    },
+    {
+     "point": "Çıkarılan Deniz'in kararın noter bildiriminden itibaren 3 ay içinde iptal davası açabileceği",
+     "weight": 20,
+     "madde_ref": "TTK m. 640/2"
+    },
+    {
+     "point": "Çıkarmada çıkmaya katılma hükmünün uygulanmaması",
+     "weight": 10,
+     "madde_ref": "TTK m. 639/4"
+    },
+    {
+     "point": "Çıkarma sebebinin sonradan sözleşmeye konulması için tüm ortakların oy birliği gerektiği; bu karar geçerli değildir",
+     "weight": 25,
+     "madde_ref": "TTK m. 621/3"
+    },
+    {
+     "point": "Ayrılma akçesi: çıkarılan ortağın payının gerçek değerini isteyebilmesi",
+     "weight": 10,
+     "madde_ref": "TTK m. 641/1"
+    },
+    {
+     "point": "Müdürün görevden alınması: genel kurul her zaman alabilir; her ortak haklı sebeple mahkemeden yetkinin kaldırılmasını isteyebilir",
+     "weight": 20,
+     "madde_ref": "TTK m. 630"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, sözleşmedeki sebebe dayalı çıkarma, çıkarma kararına karşı iptal davası, sonradan çıkarma sebebi eklenmesi ve müdürün görevden alınması konularını içerir.\n\n**Hukuki sorunlar:** (1) Deniz'in çıkarılması geçerli mi, hangi yol açıktır? (2) Sonradan eklenen çıkarma sebebi geçerli mi? (3) Zeynep'in müdürlüğü nasıl sona erdirilebilir?\n\n**İlgili hükümler:** TTK m. 640/1-2, TTK m. 639/4, TTK m. 621/1-h ve TTK m. 621/3, TTK m. 641/1, TTK m. 630.\n\n**Değerlendirme:** (1) Sözleşmede ortağın genel kurul kararıyla çıkarılabileceği sebepler öngörülebilir (TTK m. 640/1). Burada sebep sözleşmede önceden yer almaktadır ve rekabet yasağına aykırı faaliyet Deniz'in rakip şirkete ortak olmasıyla somutlaşmış görünmektedir. Çıkarma kararı sözleşmedeki sebeple alınacağı için TTK m. 621/1-h gereği önemli karar nisabı aranır: Zeynep ve Can'ın payları toplam %67'dir, bu da temsil edilen oyların 2/3'ünü aşar ve esas sermayenin salt çoğunluğunu da karşılar. Deniz kararın noter aracılığıyla bildirildiği 5 Ocak'tan itibaren **üç ay içinde** iptal davası açabilir (TTK m. 640/2); davasında sözleşmedeki sebebin gerçekleşmediğini ya da karar sürecinin usulsüz olduğunu ileri sürebilir. Çıkarma olduğu için Zeynep ve Can'ın çıkmaya katılma hakkı yoktur (TTK m. 639/4). Deniz ayrılırsa payının gerçek değerine uyan ayrılma akçesini isteyebilir (TTK m. 641/1).\n\n(2) Çıkarılma sebeplerinin sonradan sözleşmeye konulabilmesine dair sözleşme değişikliği için şirket sermayesini temsil eden **tüm ortakların** genel kurulda oy birliğiyle karar vermesi gerekir (TTK m. 621/3). Deniz toplantıda yokken ve oy birliği sağlanmadan alınan karar bu şartı karşılamaz; geçerli değildir. Bu nedenle yeni sebebe dayanan çıkarma kararı da hukuki dayanaktan yoksundur.\n\n(3) Genel kurul, müdürü her zaman görevden alabilir (TTK m. 630/1; kural olarak TTK m. 620 nisabıyla). Genel kurulda bu karar için gereken oyu bulamazsa Can, her ortak olarak haklı sebeplerin varlığında Zeynep'in yönetim hakkının ve temsil yetkisinin kaldırılmasını ya da sınırlanmasını mahkemeden isteyebilir (TTK m. 630/2). Özen ve bağlılık yükümünün ağır ihlali haklı sebep sayılır (TTK m. 630/3). Görevden alınan Zeynep'in tazminat hakları saklıdır (TTK m. 630/4).\n\n**Sonuç:** Deniz'in çıkarılması sözleşmedeki sebebe dayanıyorsa geçerli olabilir, ancak ona karşı 3 aylık iptal yolu açıktır. Sonradan eklenen çıkarma sebebi oy birliği bulunmadığı için geçersizdir. Can, genel kurulda ya da haklı sebeple mahkemede Zeynep'in yetkisinin kaldırılmasını isteyebilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Limited şirkette ortağın bilgi alma hakkı hangi kapsamdadır?",
+   "back_md": "Her ortak şirketin bütün işleri ve hesapları hakkında bilgi isteyebilir, belirli konularda inceleme yapabilir; haksız engellemede mahkeme karar verir, karar kesindir (TTK m. 614)."
+  },
+  {
+   "front_md": "Limited şirkette genel kurul toplantı çağrısı kaç gün önce yapılır?",
+   "back_md": "En az 15 gün önce; sözleşme uzatabilir veya 10 güne kadar kısaltabilir (TTK m. 617/2)."
+  },
+  {
+   "front_md": "Elden dolaştırma kararı için şartlar nelerdir?",
+   "back_md": "Hiçbir ortak sözlü görüşme istememeli ve aynı öneri tüm ortakların yazılı onayına sunulmalıdır (TTK m. 617/4)."
+  },
+  {
+   "front_md": "Sözleşmede aksi yoksa limited şirkette oy hakkı nasıl hesaplanır?",
+   "back_md": "Her 25 TL bir oy hakkı verir; her ortak en az bir oya sahiptir (TTK m. 618/1)."
+  },
+  {
+   "front_md": "Olağan genel kurul kararlarında nisap nedir?",
+   "back_md": "Toplantıda temsil edilen oyların salt çoğunluğu (TTK m. 620)."
+  },
+  {
+   "front_md": "Önemli karar nisabı nedir?",
+   "back_md": "Temsil edilen oyların en az 2/3'ü ve oy hakkı bulunan esas sermayenin tamamının salt çoğunluğu birlikte (TTK m. 621/1)."
+  },
+  {
+   "front_md": "Çıkarma sebebinin sonradan sözleşmeye konulması için nisap nedir?",
+   "back_md": "Şirket sermayesini temsil eden tüm ortakların genel kurulda oy birliği (TTK m. 621/3)."
+  },
+  {
+   "front_md": "Müdür kimler olabilir? Sınır nedir?",
+   "back_md": "Ortak veya üçüncü kişi olabilir; ancak en az bir ortağın yönetim hakkı ve temsil yetkisi bulunmalıdır (TTK m. 623/1)."
+  },
+  {
+   "front_md": "Haklı sebeple fesih davasında mahkeme neye hükmedebilir?",
+   "back_md": "Fesih yerine davacıya payının gerçek değeri ödenerek çıkarılmasına veya duruma uygun başka bir çözüme (TTK m. 636/3)."
+  },
+  {
+   "front_md": "Çıkmaya katılma süresi ve istisnası nedir?",
+   "back_md": "Haberin ulaşmasından itibaren 1 ay; çıkarma hâlinde uygulanmaz (TTK m. 639/2, TTK m. 639/4)."
+  },
+  {
+   "front_md": "Çıkarma kararına karşı iptal davası süresi?",
+   "back_md": "Kararın noter aracılığıyla bildirilmesinden itibaren 3 ay (TTK m. 640/2)."
+  },
+  {
+   "front_md": "Ayrılma akçesi neye göre hesaplanır, ödenmeyen kısım ne olur?",
+   "back_md": "Payın gerçek değerine göre; ödenmeyen kısım bütün alacaklılardan sonra gelen alacaktır (TTK m. 641/1, TTK m. 642/3)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
