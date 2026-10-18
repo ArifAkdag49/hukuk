@@ -1,0 +1,917 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 7,
+ "unit_title": "Ünite 7: Rehin Hakları",
+ "topic_index": 1,
+ "slug": "tasinmaz-rehni-genel-hukumler",
+ "title": "Taşınmaz Rehni Genel Hükümler: Türler, Kapsam, Sabit Dereceler ve Paraya Çevirme",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T00:03:55.080965+00:00",
+ "skill_refs": [
+  "esya-hukuku/tasinmaz-rehni-ipotek"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Taşınmaz rehninin ortak kuralları (TMK m. 850-880): hangi türler var, rehin neyi güvence altına alır ve hangi taşınmaz üzerinde kurulur, nasıl kurulup sona erer, nelere yayılır, dereceler nasıl işler ve borç ödenmezse alacaklı ne yapar?\n\n- **Türler (TMK m. 850):** ipotek, ipotekli borç senedi, irat senedi. Sayım \"ancak\" ile sınırlıdır.\n- **Güvence altına alınan alacak:** Türk parası ile gösterilen belli alacak; miktar belli değilse taraflar üst sınırı belirtir (TMK m. 851/1). Yabancı para üzerinden rehin yalnız kredi kuruluşlarının yabancı para kredileri için kurulur ve aynı derecede birden fazla para türü kullanılamaz (TMK m. 851/2). Faiz oranını taraflar, sınırlayıcı hükümler saklı kalmak üzere serbestçe belirler (TMK m. 852).\n- **Taşınmaz:** yalnız tapuya kayıtlı olanlar (TMK m. 853); belirli olmalı, parselleri ayrı kaydedilmemiş bölünen taşınmaz rehne konu olamaz (TMK m. 854). Birden çok taşınmaz aynı malike veya müteselsil sorumlu maliklere aitse birlikte, diğer hâllerde taşınmaz başına miktar belirtilerek rehnedilir (TMK m. 855).\n- **Kurulma ve sona erme:** tescille kurulur; sözleşme resmî şekilde yapılır (TMK m. 856). Paylı mülkiyette pay rehnedilir, elbirliği mülkiyetinde ancak bütün olarak (TMK m. 857). Rehin terkinle veya taşınmazın tamamen yok olmasıyla sona erer (TMK m. 858).\n- **Kapsam:** bütünleyici parçalar ve eklentiler; rehin kurulurken açıkça gösterilip beyanlara yazılan şeyler aksi ispat edilmedikçe eklenti sayılır (TMK m. 862). Kira bedelleri takibin başlamasından ya da iflasın ilanından itibaren girer (TMK m. 863). Tescilden sonra alacak için zamanaşımı işlemez (TMK m. 864).\n- **Alacaklıyı koruyan hükümler:** değeri düşüren davranışlara karşı yasaklama ve önlem (TMK m. 865-867), küçük parçanın devri (TMK m. 868), sonradan kurulan irtifaklar (TMK m. 869), zorunlu masraflar (TMK m. 876) ve sigorta tazminatı (TMK m. 879).\n- **Sabit dereceler (TMK m. 870-872):** güvence tescildeki derece ile sınırlıdır; terkin sonraki alacaklıya boşalan dereceye geçme hakkı vermez, yerine yeni rehin kurulabilir; ilerleme sözleşmesinin geçerliliği resmî şekle, aynî etkisi şerhe bağlıdır. Paraya çevirmede boş derece hesaba katılmadan dağıtım yapılır.\n- **Paraya çevirme (TMK m. 873-875):** alacaklı satış bedelinden alacağını alır; mülkiyetin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir (lex commissoria yasağı). Güvenceye ana para, takip giderleri, gecikme faizi ve belirli faizler girer. Takip rehnin paraya çevrilmesi yoluyla yapılır (İİK m. 45).\n- 📌 **Yakın tarihli değişiklik:** TMK m. 851/4'te yabancı para cinslerini belirleme yetkisi, 2018'de 700 sayılı Kanun Hükmünde Kararname ile Bakanlar Kurulu'ndan Cumhurbaşkanı'na geçti. TMK m. 850-880 arasında başka bir metin değişikliği yoktur.\n- **Komşu konular:** ipoteğin kuruluşu, üst sınır ipoteği, terkin isteme hakkı (TMK m. 883) ve kanuni ipotekler konu 24'tedir; ipotekli borç senedi ve irat senedi konu 25'tedir.",
+  "content_md": "## 0. Konunun haritası\n\nBu konu, TMK'nın taşınmaz rehnine ilişkin **genel hükümlerini** (TMK m. 850-880) işler. Kanundaki sıra bize hazır bir iskelet verir:\n\n| Bölüm | Maddeler | Konu |\n|---|---|---|\n| Koşullar | TMK m. 850-855 | Tür, alacak, taşınmaz |\n| Kurulma, sona erme | TMK m. 856-861 | Tescil, terkin, birleştirme |\n| Hükümleri | TMK m. 862-880 | Kapsam, koruma, derece, paraya çevirme |\n\n> ⚠️ **Sınavda dikkat:** İpoteğin amacı ve kuruluşu, üst sınır ipoteğinin derece içindeki yeri (TMK m. 881 ve TMK m. 882), terkin isteme hakkı (TMK m. 883) ve kanuni ipotekler konu 24'ün; ipotekli borç senedi ile irat senedi konu 25'in malzemesidir. Burada yalnız genel kuralları işliyoruz. Süreli ipotekte terkin kuralı (TMK m. 883/2) da konu 24'tedir.\n\n## 1. Rehnin türleri (TMK m. 850)\n\nTMK m. 850'ye göre taşınmaz rehni **ancak** üç şekilde kurulabilir:\n\n| Tür | Not |\n|---|---|\n| İpotek | En yaygın tür, konu 24 |\n| İpotekli borç senedi | Konu 25 |\n| İrat senedi | Konu 25 |\n\n\"Ancak\" sözcüğü sayımın **sınırlı** olduğunu gösterir. Taraflar bu üçünün dışında kendi icat ettikleri bir taşınmaz rehni türü kuramaz; bu, ayni haklardaki tip sınırlılığının rehin hukukundaki görünümüdür.\n\n## 2. Güvence altına alınan alacak\n\n### 2.1 Ana para (TMK m. 851)\n\nTaşınmaz rehni, **miktarı Türk parası ile gösterilen belli bir alacak** için kurulur (TMK m. 851/1). Alacağın miktarı belli değilse, alacaklının bütün istemlerini karşılayacak şekilde taşınmazın güvence altına alacağı **üst sınır** taraflarca belirtilir. Öğretide ve uygulamada bunlara \"ana para ipoteği\" ve \"üst sınır ipoteği\" denir; bu adlar kanunda geçmez, dayanak TMK m. 851/1'dir. Uygulamada üst sınır ipoteğinde güvencenin limitle sınırlı kaldığı kabul edilir; ayrıntısı konu 24'tedir.\n\n**Yabancı para** istisnadır (TMK m. 851/2):\n- Rehin, yalnızca yurt içinde veya dışında faaliyet gösteren **kredi kuruluşlarınca** yabancı para üzerinden ya da yabancı para ölçüsüyle verilen kredileri güvence altına almak için yabancı para üzerinden kurulabilir.\n- Her derecenin ifade ettiği miktar, rehin konusu alacağın tespit edildiği para türü üzerinden gösterilir.\n- **Aynı derecede birden fazla para türü** kullanılarak rehin kurulamaz.\n\nBoşalan derece için de kural vardır (TMK m. 851/3): Yabancı para rehnine ait derece boşalırsa yerine tescil tarihindeki karşılığı Türk parası veya yabancı para üzerinden; Türk parası rehnine ait derece boşalırsa yerine tescil tarihindeki karşılığı yabancı para üzerinden yeni rehin kurulabilir. Karşılıkların hesabında hesap günündeki **Merkez Bankası döviz alış kuru** esas alınır; hangi yabancı paralar üzerinden rehin kurulabileceğini **Cumhurbaşkanı** belirler (TMK m. 851/4).\n\n> 📌 **Kesin bilgi:** TMK m. 851/4'te bu yetki eskiden Bakanlar Kurulu'ndaydı. 2018'de 700 sayılı Kanun Hükmünde Kararname ile ibare \"Cumhurbaşkanınca\" olarak değişti. Sınavda \"Bakanlar Kurulu\" yazan şık çeldiricidir.\n\n> **Örnek:** Ayşe, X Bankası'ndan Euro cinsinden kredi alıyor. Bankanın ipoteği Euro üzerinden kurulabilir. Ancak bankanın, aynı dereceye hem Euro hem Türk lirası yazdırması mümkün değildir (TMK m. 851/2).\n\n### 2.2 Faiz (TMK m. 852)\n\nTaraflar, **sınırlayıcı hükümler saklı kalmak kaydıyla** faiz oranını diledikleri gibi kararlaştırabilir. Kanun bu sınırlayıcı hükümleri adıyla saymaz. Bağlantı olarak TBK m. 88 ve TBK m. 120 gösterilir: Sözleşmeyle kararlaştırılacak yıllık faiz oranı belirlenen oranın yüzde elli fazlasını, yıllık temerrüt faizi oranı ise yüzde yüz fazlasını aşamaz.\n\nBurada iki ayrı soruyu karıştırma: Faizin **geçerli oranı** m. 852'nin konusudur; faizin **rehin güvencesine giren kısmı** ise TMK m. 875/3'tedir (bölüm 8).\n\n## 3. Rehne konu taşınmaz\n\n### 3.1 Tapuya kayıtlı olma ve belirlilik (TMK m. 853 ve TMK m. 854)\n\nRehin hakkı **ancak tapuya kayıtlı taşınmazlar** üzerinde kurulabilir (TMK m. 853). Rehin kurulurken konusu olan taşınmaz belirtilmelidir; bölünen taşınmazın parselleri tapu kütüğüne ayrı ayrı kaydedilmedikçe rehne konu olamaz (TMK m. 854).\n\n> **Örnek:** Kemal'in kullandığı arazi parçası tapuda kayıtlı değilse, kullanım süresi ne kadar uzun olursa olsun üzerine ipotek kurulamaz (TMK m. 853).\n\n### 3.2 Birden çok taşınmaz (TMK m. 855)\n\nAynı borç için birden çok taşınmaz rehnedilebilir. Kanunun kurduğu düzen şöyledir:\n- Taşınmazlar **aynı malike** veya borçtan **müteselsilen sorumlu maliklere** aitse (TMK m. 855/1), öğretide **toplu rehin** denen durum vardır.\n- Aynı alacak için birden çok taşınmazın rehnedildiği **diğer hâllerde** her taşınmazın alacağın **ne miktarı** için güvence oluşturduğu rehin kurulurken belirtilir (TMK m. 855/2). Öğretide buna **bölünmüş rehin** denir.\n- Aksine anlaşma yoksa tapu idaresi güvenceyi taşınmazların her birine **değeri oranında** re'sen dağıtır (TMK m. 855/3).\n\n> **Örnek:** Ali ve Burak'ın birbirinden ayrı birer dükkânı, üçüncü bir kişinin bankaya olan tek borcu için rehnedilecektir ve Ali ile Burak müteselsil sorumlu değildir. Rehin kurulurken her dükkânın alacağın ne miktarını güvenceleyeceği belirtilir (TMK m. 855/2).\n\n## 4. Kurulma ve sona erme\n\n### 4.1 Tescil ve resmî şekil (TMK m. 856)\n\nTaşınmaz rehni **tapu kütüğüne tescille** kurulur; kanunda öngörülen ayrık durumlar saklıdır. Rehnin kurulmasına ilişkin **sözleşmenin geçerliliği resmî şekilde yapılmasına** bağlıdır. İki ayrı şart vardır: Resmî şekil sözleşmenin geçerliliği, tescil rehnin doğması içindir. Resmî senedi tapu sicil müdürü veya tapu sicil görevlileri düzenler (2644 sayılı Kanun m. 26).\n\nRehin, sırasını ve tarihini tescile göre alır (TMK m. 1022). Etkinin başlangıcı ise belgeler tamsa yevmiye defterine kayıt tarihidir.\n\n### 4.2 Birden çok kişiye ait taşınmaz (TMK m. 857)\n\n- **Paylı mülkiyette** paydaş **kendi payını** rehnedebilir (TMK m. 857/1).\n- Pay üzerinde rehin kurulduktan sonra paydaşlar **malın tamamını rehnedemez** (TMK m. 857/2).\n- **Elbirliği mülkiyetine** tabi taşınmaz ancak **bütün olarak ve maliklerin tamamı adına** rehnedilebilir (TMK m. 857/3). Elbirliğinde \"pay rehni\" yoktur.\n\n> **Örnek:** Burak, annesinden kalan evde üç kardeşin elbirliği mülkiyetine ortaktır. Burak \"kendi payımı\" bankaya ipotek edemez; ev ancak bütün olarak ve üç kardeş adına rehnedilebilir (TMK m. 857/3).\n\n> ⚠️ **Sınavda dikkat:** TMK m. 857/2'nin pay rehninden sonra tamamın **sonraki derecelerde** rehnedilmesini de yasaklayıp yasaklamadığı tartışmalıdır. Yargıtay'ın bir dairesi dar yorum yapmıştır, ama tek kararla yerleşik içtihattan söz edilemez (karar özetleri ve doktrin bölümü). Olayda kuralın lafzını yaz, tartışmayı ayrıca göster.\n\n### 4.3 Sona erme (TMK m. 858)\n\nTaşınmaz rehni **tescilin terkini** veya **taşınmazın tamamen yok olmasıyla** sona erer. Kamulaştırma hükümleri saklıdır. Terkin için kural olarak kaydın kendilerine hak sağladığı kişilerin yazılı beyanı gerekir (TMK m. 1014). Yani alacağın ödenmesi tapuda kaydı kendiliğinden silmez; terkin yapılmalıdır. Terkin isteme hakkının ayrıntısı konu 24'tedir.\n\n### 4.4 Taşınmazların birleştirilmesi (TMK m. 859-861)\n\nYetkili kamu kurumunun parsel birleştirme ve dağıtım işlemi sonunda rehinler **sıralarını koruyarak** yerine verilen taşınmaz üzerine geçer (TMK m. 859). Borçlu, üç ay önce bildirmek koşuluyla taşınmazı rehinden kurtarabilir (TMK m. 860). Bedel olarak ödenen para alacaklılar arasında sıralarına göre dağıtılır; rehinli alacağın **yirmide birinden fazlaysa** veya yeni taşınmaz yeterli güvence değilse alacaklının rızası olmadan borçluya ödenemez (TMK m. 861).\n\n## 5. Rehnin kapsamı\n\n### 5.1 Bütünleyici parça ve eklenti (TMK m. 862)\n\nRehin, taşınmazı **bütünleyici parçaları ve eklentileri** ile birlikte yükümlü kılar (TMK m. 862/1).\n- **Bütünleyici parça:** yerel âdetlere göre asıl şeyin temel unsuru olan ve o şey yok edilmedikçe, zarara uğratılmadıkça veya yapısı değiştirilmedikçe ondan ayrılması mümkün olmayan parçadır (TMK m. 684/2).\n- **Eklenti:** asıl şeye sürekli olarak özgülenen ve ona bağlı kılınan taşınır maldır; asıl şeyden geçici olarak ayrılmakla niteliğini kaybetmez (TMK m. 686).\n\nTMK m. 862/2 bir **karine** kurar: Rehnin kuruluşu sırasında makine, otel döşeme eşyası gibi **açıkça eklenti olarak gösterilen** ve tapu kütüğünde **beyanlar sütununa yazılan** şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır. Üçüncü kişilerin eklentiler üzerindeki hakları saklıdır (TMK m. 862/3).\n\n> **Örnek:** Zeynep otel binasını ipotek ederken mutfak makineleri açıkça eklenti gösterilip beyanlara yazılır. Banka takipte makineleri de rehnin kapsamında sayar. Zeynep makinelerin eklenti olamayacağını ispat etmedikçe banka haklıdır.\n\n> ⚠️ **Sınavda dikkat:** Eklenti sayılmak için beyan **şart değildir.** TMK m. 686'daki tanıma uyan şey zaten eklentidir ve rehin onu kapsar (TMK m. 862/1). Beyan yalnız TMK m. 862/2'deki karineyi doğurur; ispat yükü bu hâlde aksini iddia edene geçer.\n\n### 5.2 Kira bedelleri (TMK m. 863)\n\nKiraya verilmiş taşınmaz üzerindeki rehnin kapsamına, borçluya karşı **rehnin paraya çevrilmesi yoluyla takibe başlanmasından** veya **iflasın ilanından** başlayarak paraya çevirme anına kadar işleyen kira bedelleri de girer (TMK m. 863/1). Kira bedelleri rehin kurulduğu andan itibaren değil, takibin başladığı anda kapsama girer.\n\nRehin hakkı **kiracılara karşı** ancak cebrî icra yoluyla takibin kendilerine bildirilmesi veya iflas kararının ilanından sonra ileri sürülebilir (TMK m. 863/2). İİK m. 150/b'ye göre icra memuru alacaklının talebi üzerine takibin kesinleşmesini beklemeden kiracıları takipten haberdar eder ve işleyecek kiraların icra dairesine ödenmesini emreder.\n\nTMK m. 863/3 daha ileri gider: Malikin **henüz muaccel olmamış kira bedelleri üzerinde yaptığı hukuki işlemler** ile diğer alacaklıların koydurduğu hacizler, kira alacaklarının muaccel olmasından önce rehnin paraya çevrilmesi yoluyla takibe başlamış olan rehinli alacaklılara karşı geçerli değildir.\n\n> **Örnek:** Okan, X Bankası'nın ipotekli binasını Y Ltd. Şti.'ye kiraya verdi. Banka 1 Mart'ta paraya çevirme takibi başlattı. Mart'tan itibaren işleyen kiralar rehnin kapsamındadır; banka ise rehin hakkını Y Ltd. Şti.'ye karşı, takip kendisine bildirildikten sonra ileri sürebilir.\n\nPeşin ödenmiş ileri tarihli kiraların TMK m. 863/3 karşısındaki durumu tartışmalıdır (karar özeti ve doktrin bölümü).\n\n### 5.3 Zamanaşımı (TMK m. 864)\n\n\"Rehnin tapu kütüğüne tescil edilmesinden sonra **alacak için** zamanaşımı işlemez.\" Dikkat: Kural \"rehin için\" değil **alacak için** zamanaşımını anlatır ve başlangıç noktası rehin sözleşmesinin tarihi değil **tescildir.**\n\n> **Örnek:** Alacak için 2015'te ana para ipoteği tescil edildi ve borçlu aynı zamanda taşınmazın maliki. 2026'da borçlu zamanaşımı def'i ileri sürse bile TMK m. 864 karşısında bu savunma sonuç vermez.\n\n> ⚠️ **Sınavda dikkat:** Kuralın üst sınır ipoteği, rehnin güvencesini aşan alacak kısmı ve borçlu olmayan malik bakımından kapsamı tartışmalıdır. Kural genelde en yalın kurguda, yani borçlunun aynı zamanda malik olduğu ana para ipoteğinde sorulur.\n\n## 6. Alacaklıyı koruyan hükümler\n\nRehinli taşınmazın değeri malikin elindedir; kanun bu yüzden alacaklıya önlem araçları verir:\n\n| Madde | Durum | Alacaklı ne yapabilir? |\n|---|---|---|\n| TMK m. 865 | Malik değeri düşürüyor | Yasaklama, önlem alma yetkisi |\n| TMK m. 866 | Değer düşmüş | Güvence, eski hâl, kısmî ödeme |\n| TMK m. 867 | Kusursuz değer düşmesi | Tazminatla sınırlı güvence |\n\n- **TMK m. 865:** Malik taşınmazın değerini düşüren davranışlarda bulunursa alacaklı hâkimden bu davranışların yasaklanmasını isteyebilir; hâkim önlem alma yetkisi verebilir. **Gecikmesinde tehlike** varsa alacaklı yetki verilmeden de gerekli önlemleri kendiliğinden alabilir. Giderler için taşınmaz üzerinde **tescile gerek olmaksızın** ve tescil edilmiş diğer yüklerden **önce gelen** bir rehin hakkı doğar.\n- **TMK m. 866:** Değer düşmüşse alacaklı borçludan başka güvence göstermesini veya taşınmazın eski hâle getirilmesini isteyebilir; düşme tehlikesi varsa da güvence isteyebilir. Yeterli güvence hâkimin belirlediği sürede verilmezse alacaklı, güvence eksiğini karşılayan alacak kısmının ödenmesini isteyebilir.\n- **TMK m. 867:** Değer malikin kusuru olmadan düşmüşse alacaklı yalnızca malikin zarardan ötürü aldığı tazminatı aşmayacak ölçüde güvence veya kısmî ödeme isteyebilir. Önlem masrafları için TMK m. 865/3'tekine benzer, tescilsiz ve önce gelen bir rehin hakkı vardır; malik bu masraflardan kişisel olarak sorumlu değildir.\n- **TMK m. 868:** Malik, güvence altına alınan alacağın **yirmide birinden az** değerli bir parçayı devrederse alacaklı, orantılı bir ödeme yapıldığı veya kalan kısım yeterli güvence oluşturduğu takdirde o parça üzerindeki rehni kaldırmaktan kaçınamaz.\n- **TMK m. 869:** Malikin rehinli taşınmaz üzerinde yeni sınırlı aynî haklar **kurmayacağını taahhüt etmesi geçerli değildir** (TMK m. 869/1). Eski tarihli rehin, alacaklının izni olmadan sonradan kurulan irtifak ve taşınmaz yüklerinden önce gelir; paraya çevirmede önceki rehinli alacaklılara zarar veren irtifaklar ve yükler terkin edilir (TMK m. 869/2).\n- **TMK m. 876:** Alacaklı korunma için zorunlu masraf yapmışsa, özellikle malikin borçlu olduğu sigorta primlerini ödemişse, bu alacak tescile gerek olmaksızın rehinli alacak gibi güvencelidir.\n- **TMK m. 879:** Muaccel sigorta tazminatı malike ancak **bütün rehinli alacaklıların rızasıyla** ödenir. Eski hâle getirme için harcanacaksa malik yeterli güvence göstererek alır.\n- **TMK m. 880:** Adı veya yeri bilinmeyen alacaklıya, acele hâllerde, taşınmazın bulunduğu yer sulh hâkimi kayyım atar.\n\n> 💡 **Püf nokta:** \"Yirmide bir\" iki yerde ve ters yönde geçer. TMK m. 861'de bedel yirmide birinden **fazla** ise rızasız ödenemez; TMK m. 868'de devredilen parça yirmide birinden **az** değerliyse alacaklı rehni kaldırmaktan kaçınamaz.\n\n> **Örnek:** Fatma'nın arsası 1.000.000 TL'lik alacak için ipotekli. Fatma 40.000 TL değerindeki bir şeridi komşusuna satıyor. Şerit alacağın yirmide birinden (50.000 TL) az değerli olduğundan, orantılı ödeme yapılırsa ya da kalan kısım yeterli güvence oluşturuyorsa banka o şeritteki rehni kaldırmaktan kaçınamaz (TMK m. 868).\n\n> **Örnek:** Malik komşusu lehine geçit irtifakı kurdu. Bu geçerlidir, çünkü kurmama taahhüdü bile geçersizdir (TMK m. 869/1). Ama paraya çevirmede irtifak önceki rehinli alacaklıya zarar veriyorsa terkin edilir (TMK m. 869/2).\n\n> ⚠️ **Sınavda dikkat:** \"Tescilsiz güvence\" üç yerdedir: TMK m. 865/3, TMK m. 867/2 ve TMK m. 876. İlk ikisinde \"diğer yüklerden **önce gelen** rehin\" ifadesi vardır; TMK m. 876'da yoktur, orada alacak \"aynen rehinli alacağı gibi\" güvencelidir.\n\nArazinin iyileştirilmesinde özel kurallar da vardır: Kamu katkısı yoksa malik en çok masrafların üçte ikisi için rehin kurabilir (TMK m. 877); alacak en çok beş yılda eşit taksitlerle ödenir (TMK m. 878).\n\n## 7. Rehin dereceleri: sabit dereceler sistemi\n\n### 7.1 Derece, rehnin sınırıdır (TMK m. 870)\n\nRehnin sağladığı güvence **tescilde belirtilen rehin derecesi ile sınırlıdır.** Taşınmaz rehni ikinci veya daha sonraki derecede de kurulabilir; yeter ki sırada kendisinden önce gelecek olanın miktarı tescilde belirtilsin. Taşınmaz adeta derece parçalarına bölünür; her derece bağımsız olarak bir alacağı güvenceler.\n\n### 7.2 Terkin, ilerleme hakkı vermez (TMK m. 871)\n\nFarklı sıralarda kurulmuş rehinlerden birinin terkin edilmesi, sonraki sıradaki rehinli alacaklıya **boşalan dereceye geçme hakkı vermez** (TMK m. 871/1). Terkin edilen rehin yerine **yeni bir rehin kurulabilir** (TMK m. 871/2). Buna **sabit dereceler sistemi** denir; bu ad kanunda geçmez.\n\nBu kuralın sözleşmeyle aşılabilmesi mümkündür, ama iki ayrı şart vardır (TMK m. 871/3):\n\n| Şart | Neye bağlı? |\n|---|---|\n| Resmî şekil | Sözleşmenin geçerliliği |\n| Tapu kütüğüne şerh | Aynî etki |\n\n> **Örnek:** Ahmet'in taşınmazında 1. derecede A Bankası (1.000.000 TL), 2. derecede B (500.000 TL), 3. derecede C (300.000 TL) ipoteği var. Ahmet A'ya olan borcunu ödeyip 1. derece ipoteği terkin ettirdi. B \"artık birinci dereceyim\" diyemez; terkin ona ilerleme hakkı vermez. Ahmet, boşalan 1. dereceye D lehine 800.000 TL'lik yeni bir ipotek kurabilir. Bu rehin 1. derecede, tescil sırasına göre yer alır (TMK m. 870, TMK m. 871 ve TMK m. 1022).\n\n> ⚠️ **Sınavda dikkat:** Ahmet ile B arasında yalnız adi yazılı bir \"ilerleme\" anlaşması varsa bu anlaşma geçersizdir, çünkü geçerlilik resmî şekle bağlıdır. Resmî şekilde yapılsa bile, şerh verilmedikçe aynî etki sağlamaz.\n\n### 7.3 Boş dereceler (TMK m. 872)\n\nParaya çevirmede dağıtım kuralı ayrıdır. Sonraki sıradaki rehinden önce gelen rehin **mevcut değilse**, borçlu önceki bir rehin senedi üzerinde **tasarruf etmemişse** ya da önceki sıradaki alacak o derece için tescilde belirtilen miktardan **azsa**; satış bedeli, **boş derece hesaba katılmaksızın** sonraki alacaklılara sıralarına göre dağıtılır.\n\nBurada bir çelişki yok: TMK m. 871/1 rehinler ayaktayken **geçme hakkını** reddeder; TMK m. 872 ise **satış bedelinin dağıtımında** boş derecenin sonraki alacaklıların aleyhine işletilmemesini sağlar.\n\n> **Örnek:** Ahmet'in taşınmazında 1. derece boşalmış ve yerine yeni rehin kurulmamıştır. Taşınmaz paraya çevrilirse satış bedeli B'ye ve sonra C'ye sıralarına göre dağıtılır; boş 1. derece için bir pay ayrılmaz (TMK m. 872). Ama B, tapuda 1. dereceye yükselmiş sayılmaz.\n\n> 💡 **Püf nokta:** Sabit derece kuralının kanundaki istisnası TMK m. 878'dedir: Katkısız iyileştirmede alacağın veya taksitlerin muaccel olmasından beş yıl sonra rehin sona erer ve sonraki alacaklılar sıralarına göre **ilerler.** Bu istisna genelleştirilmez.\n\n## 8. Paraya çevirme\n\n### 8.1 Rehnin işlevi (TMK m. 873)\n\nBorç ödenmezse alacaklı, alacağını rehinli taşınmazın **satış bedelinden** elde etme hakkına sahiptir (TMK m. 873/1). Rehin taşınmazı edinme değil, **satış bedelinden alma hakkı** verir; satış icra dairesi eliyle yapılır.\n\n**Lex commissoria yasağı:** Borcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçeceğine ilişkin sözleşme hükmü **geçersizdir** (TMK m. 873/2). Taşınırdaki karşılığı TMK m. 949'dur (konu 26). Kanun yalnız \"sözleşme hükmü geçersizdir\" der; ipoteğin geri kalanına etkisi bakımından lafza bağlı kal.\n\n> **Örnek:** Mehmet, Ali'ye olan 2.000.000 TL borcu için iki dükkânı ipotek etti. Senette \"Borç vadesinde ödenmezse dükkânların mülkiyeti Ali'ye geçer\" yazıyor. Bu hüküm geçersizdir; Ali, alacağını satış bedelinden alabilir (TMK m. 873/1 ve TMK m. 873/2).\n\n> ⚠️ **Sınavda dikkat:** Yasak, **borcun ödenmemesi şartına bağlı** mülkiyet geçişi anlaşmasına yöneliktir. Borcun tasfiyesi için hemen yapılan, borca mahsuben satış ayrı değerlendirilir. Borç muaccel olduktan sonra yapılan anlaşmalar ile teminat amaçlı (inançlı) devrin yasağı dolaşıp dolaşmadığı ise tartışmalıdır (doktrin bölümü).\n\n**Birden çok taşınmaz:** Aynı alacak için birden çok taşınmaz rehinliyse paraya çevirme istemi **taşınmazların tamamı hakkında** yapılır; ancak icra dairesi onlardan **gerektiği kadarını** paraya çevirir (TMK m. 873/3).\n\n### 8.2 Dağıtım ve güvencenin kapsamı (TMK m. 874 ve TMK m. 875)\n\nSatış bedeli alacaklılar arasında **sıralarına göre** dağıtılır; aynı sırada olanlar arasında o sıraya düşen bedel alacakları oranında bölüşülür (TMK m. 874).\n\nRehnin güvencesine şunlar girer (TMK m. 875):\n1. Ana para,\n2. Takip giderleri ve gecikme faizi,\n3. İflasın açıldığı veya rehnin paraya çevrilmesinin istendiği tarihe kadar **muaccel olmuş üç yıllık faiz** ile **son vadeden başlayarak işleyen faiz.**\n\nDaha önce belirlenmiş faiz oranı, sonradan gelen alacaklıların zararına olarak **artırılamaz.**\n\n> ⚠️ **Sınavda dikkat:** \"Üç yıllık faiz\" zamanaşımı değildir; güvencenin **kapsamını** sınırlar. Zamanaşımı TMK m. 864'tedir.\n\n> **Örnek:** Yukarıdaki ipotekten sonra Mehmet, aynı dükkânların ikinci derecesine Can lehine ipotek kurdu. Ardından Ali ile faiz oranını yükselten bir ek anlaşma yaptı. Yükseltilen oran Can'ın zararına ileri sürülemez (TMK m. 875).\n\n### 8.3 Takip yolu (İİK bağlantısı)\n\nRehinle güvence altına alınmış alacakta alacaklı kural olarak **yalnız rehnin paraya çevrilmesi yoluyla takip** yapabilir; rehin borcu ödemeye yetmezse kalan için haciz veya iflas yoluna gidebilir (İİK m. 45/1). Alacaklı takip talebini icra dairesine verir (İİK m. 148); icra emrinde borcun otuz gün içinde ödenmesi istenir (İİK m. 149). Takibin başladığı tapuya bildirilir ve şerh verilir; bu şerh tarihinden sonra taşınmazı iktisap edenlere icra veya ödeme emri tebliğ olunmaz (İİK m. 150/c).\n\n## 9. Olay çözerken denetim şeması\n\n1. **Rehnin türü ve kuruluşu:** Hangi tür (TMK m. 850)? Tescil var mı, sözleşme resmî şekilde mi (TMK m. 856)?\n2. **Alacak ve taşınmaz:** Alacak belli mi, üst sınır mı, para türü geçerli mi (TMK m. 851)? Taşınmaz tapuya kayıtlı ve belirli mi (TMK m. 853 ve TMK m. 854)? Paylı mı, elbirliği mi (TMK m. 857)?\n3. **Kapsam:** Bütünleyici parça, eklenti, beyan karinesi (TMK m. 862)? Kira (TMK m. 863)? Zamanaşımı (TMK m. 864)?\n4. **Korunma:** Değer düşüyor mu (TMK m. 865-867)? Küçük parça devri (TMK m. 868)? Sonradan irtifak (TMK m. 869)?\n5. **Derece:** Derece tescilde nasıl yazılı (TMK m. 870)? Terkin oldu mu, ilerleme sözleşmesi var mı (TMK m. 871)? Boş derece (TMK m. 872)?\n6. **Paraya çevirme:** Mülkiyet geçirme kaydı var mı (TMK m. 873/2)? Birden çok taşınmaz (TMK m. 873/3)? Dağıtım ve faiz (TMK m. 874 ve TMK m. 875)? Takip yolu (İİK m. 45)?",
+  "critical_md": "- 📌 Taşınmaz rehni ancak üç türde kurulur: ipotek, ipotekli borç senedi, irat senedi (TMK m. 850).\n- 📌 Rehin, miktarı Türk parası ile gösterilen belli alacak için kurulur; miktar belli değilse taraflar üst sınırı belirtir (TMK m. 851/1).\n- 📌 Yabancı para rehni yalnız kredi kuruluşlarının yabancı para kredileri içindir; aynı derecede birden fazla para türü kullanılamaz. Hangi paraların kullanılacağını Cumhurbaşkanı belirler, hesapta Merkez Bankası döviz alış kuru esastır (TMK m. 851/2 ve TMK m. 851/4).\n- 📌 Rehin yalnız tapuya kayıtlı taşınmazlar üzerinde kurulur; parselleri ayrı kaydedilmemiş bölünen taşınmaz rehne konu olamaz (TMK m. 853 ve TMK m. 854).\n- 📌 Rehin tescille kurulur; sözleşmenin geçerliliği resmî şekle bağlıdır (TMK m. 856).\n- ⚠️ Paylı mülkiyette pay rehnedilebilir; elbirliğinde pay rehni yoktur, taşınmaz ancak bütün olarak ve maliklerin tamamı adına rehnedilir (TMK m. 857).\n- ⚠️ Alacağın ödenmesi rehni tapudan kendiliğinden silmez; rehin tescilin terkini veya taşınmazın tamamen yok olmasıyla sona erer (TMK m. 858).\n- ⚠️ Eklenti için beyan şart değildir; beyan ve açıkça gösterme yalnız aksi ispat edilebilen bir karine doğurur (TMK m. 862/2).\n- 📌 Kira bedelleri rehnin kapsamına, paraya çevirme takibinin başlamasından veya iflasın ilanından itibaren girer; rehin kiracıya karşı takibin kendisine bildirilmesinden sonra ileri sürülür (TMK m. 863).\n- 📌 Rehnin tescilinden sonra alacak için zamanaşımı işlemez (TMK m. 864); kapsamı tartışmalıdır.\n- ⚠️ \"Yirmide bir\": bedel yirmide birinden fazlaysa rızasız ödenemez (TMK m. 861); devredilen parça yirmide birinden az değerliyse alacaklı rehni kaldırmaktan kaçınamaz (TMK m. 868).\n- ⚠️ Terkin, sonraki alacaklıya boşalan dereceye geçme hakkı vermez; yerine yeni rehin kurulabilir. İlerleme sözleşmesi için resmî şekil geçerlilik, şerh aynî etki şartıdır (TMK m. 871).\n- 📌 Paraya çevirmede boş derece hesaba katılmadan satış bedeli sonraki alacaklılara sıralarına göre dağıtılır (TMK m. 872).\n- 📌 Mülkiyetin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir; rehin satış bedelinden alma hakkı verir (TMK m. 873/1 ve TMK m. 873/2).\n- ⚠️ Üç yıllık faiz güvencenin kapsamını belirler, zamanaşımı değildir; önceden belirlenen faiz oranı sonraki alacaklıların zararına artırılamaz (TMK m. 875).",
+  "doctrine_md": "### Pay rehninden sonra tamamın sonraki derecede rehni\nTMK m. 857/2, pay üzerinde rehin kurulduktan sonra paydaşların malın tamamını rehnedemeyeceğini söyler. Bir görüşe göre yasak mutlaktır: Pay rehni ile tamamın rehni paraya çevirmede çatışacağından tamamın rehni hangi derecede kurulursa kurulsun yasaktır. Karşı görüşe göre yasak, aynı dereceyi ya da öncelik çatışmasını önlemeye yöneliktir; sonraki dereceden tamamın rehni pay rehinlisini etkilemez. Yargıtay'ın bir dairesi ikinci görüşü benimsemiştir; ama aynı dosyada ilk derece mahkemesi ve bölge adliye mahkemesi aykırılık kabul etmiştir. Yerleşiklik bakımından tek daire kararı yetersizdir.\n\n### TMK m. 864'ün kapsamı\nMetin geneldir: Tescilden sonra \"alacak için\" zamanaşımı işlemez. Bir görüşe göre kural rehin güvencesiyle sınırlıdır; üst sınır ipoteğinde limit içindeki kısma, rehnin güvencesini aşan kısma ve borçlu olmayan malik bakımından nasıl uygulanacağı ayrıca düşünülmelidir. Karşı görüş metnin genelliğine dayanır. Bu noktalarda Yargıtay'ın tutumu bu notta doğrulanmamıştır; sınavda kuralın lafzını ver, tartışmayı belirt.\n\n### Sabit dereceler gerçekten \"sabit\" mi?\nTMK m. 871/1 ilerlemeyi reddeder; TMK m. 872 ise paraya çevirmede boş dereceyi hesaba katmadan dağıtım öngörür. Bir görüşe göre sistem paraya çevirmede fiilen ilerlemeye dönüşür ve sabitlik yalnız malikin boşalan dereceyi yeniden kullanma yetkisi bakımından anlam taşır. Karşı görüşe göre TMK m. 872 yalnız bir dağıtım kuralıdır; derece sistemi yerinde durur. İki görüş de aynı sonucu verir; fark adlandırmadadır.\n\n### Lex commissoria yasağının sınırı\nYasağın borç muaccel olduktan sonra yapılan anlaşmalara uygulanıp uygulanmayacağı tartışmalıdır. Bir görüşe göre artık borçlunun zor durumu yoktur ve anlaşma ifa yerine edim niteliğinde geçerlidir; karşı görüşe göre koruma sürer. Teminat amaçlı (inançlı) mülkiyet devri bakımından da bir görüş bunun ayrı bir işlem olduğunu, karşı görüş ise ödenmeme hâlinde mülkiyeti alacaklıda bırakan inanç anlaşmasının yasağı dolandığını savunur.\n\n### Peşin ödenmiş kiralar\nTakipten önce peşin ödenen ileri dönem kiralarının rehinli alacaklıya karşı ileri sürülüp sürülemeyeceği TMK m. 863/3 ışığında tartışmalıdır. Bir yaklaşım, henüz muaccel olmamış kira üzerindeki bu tür işlemleri rehinli alacaklıya karşı geçersiz sayar. Karşı yaklaşım, takipten önce gerçekten yapılmış ve ispatlanmış bir ödemenin kiracıyı borçtan kurtardığını, artık icra dairesine ödenecek \"işleyen kira\" kalmadığını savunur. Yargıtay'dan kesin bir ilke çıkarılamamaktadır (karar özetlerine bak).",
+  "glossary": [
+   {
+    "term": "Sabit dereceler sistemi",
+    "definition": "Rehin derecesinin sabit kalması; bir rehnin terkini sonraki alacaklıya boşalan dereceye geçme hakkı vermez, yerine yeni rehin kurulabilir (TMK m. 871). Ad kanunda geçmez."
+   },
+   {
+    "term": "Boş derece",
+    "definition": "Önceki rehin mevcut olmadığı, önceki rehin senedi üzerinde tasarruf edilmediği veya önceki alacak tescildeki miktardan az olduğu için dolu olmayan derece. Paraya çevirmede hesaba katılmaz (TMK m. 872)."
+   },
+   {
+    "term": "İlerleme sözleşmesi",
+    "definition": "Sonraki sıradaki rehinli alacaklılara boşalan dereceye geçme hakkı veren sözleşme. Geçerliliği resmî şekle, aynî etkisi tapu kütüğüne şerhe bağlıdır (TMK m. 871/3)."
+   },
+   {
+    "term": "Lex commissoria",
+    "definition": "Borcun ödenmemesi hâlinde rehinli malın mülkiyetinin alacaklıya geçeceğine ilişkin kayıt. Taşınmaz rehninde bu yöndeki sözleşme hükmü geçersizdir (TMK m. 873/2)."
+   },
+   {
+    "term": "Toplu rehin",
+    "definition": "Aynı alacak için aynı malike veya müteselsil sorumlu maliklere ait birden çok taşınmazın rehnedilmesi (TMK m. 855/1). Ad öğretinindir."
+   },
+   {
+    "term": "Bölünmüş rehin",
+    "definition": "Aynı alacak için birden çok taşınmazın diğer hâllerde rehnedilmesi; her taşınmazın alacağın ne miktarı için güvence olduğu belirtilir (TMK m. 855/2). Ad öğretinindir."
+   },
+   {
+    "term": "Bütünleyici parça",
+    "definition": "Yerel âdetlere göre asıl şeyin temel unsuru olan ve ayrılması için asıl şeyin yok edilmesi, zarar görmesi veya yapısının değişmesi gereken parça (TMK m. 684/2). Rehin onu kapsar (TMK m. 862/1)."
+   },
+   {
+    "term": "Eklenti",
+    "definition": "Asıl şeye sürekli olarak özgülenen ve ona bağlı kılınan taşınır mal (TMK m. 686/2). Rehin eklentileri de kapsar; açıkça gösterilip beyanlara yazılanlar için karine vardır (TMK m. 862/2)."
+   },
+   {
+    "term": "Üst sınır",
+    "definition": "Miktarı belli olmayan alacaklar için taşınmazın güvence altına alacağı, taraflarca belirtilen en yüksek miktar (TMK m. 851/1). Ayrıntısı konu 24'tedir."
+   },
+   {
+    "term": "Pay rehni",
+    "definition": "Paylı mülkiyette paydaşın kendi payı üzerinde kurduğu rehin (TMK m. 857/1). Elbirliği mülkiyetinde pay rehni yoktur."
+   },
+   {
+    "term": "Terkin",
+    "definition": "Tapu kütüğündeki kaydın silinmesi. Rehin tescilin terkiniyle sona erer (TMK m. 858); terkin için kaydın hak sağladığı kişilerin yazılı beyanı gerekir (TMK m. 1014)."
+   },
+   {
+    "term": "Tescilsiz güvence",
+    "definition": "Alacaklının koruma için yaptığı giderler bakımından tescile gerek olmaksızın doğan rehin ya da güvence (TMK m. 865/3, TMK m. 867/2 ve TMK m. 876)."
+   },
+   {
+    "term": "Rehnin paraya çevrilmesi yoluyla takip",
+    "definition": "Rehinle güvence altına alınmış alacağın kural olarak takip edildiği icra yolu (İİK m. 45/1 ve İİK m. 148 vd.)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "850",
+   "official_text": "I. Taşınmaz rehninin türleri\nMadde 850- Taşınmaz rehni, ancak ipotek, ipotekli borç senedi veya irat senedi şeklinde kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "851",
+   "official_text": "1. Ana para\nMadde 851- Taşınmaz rehni, miktarı Türk parası ile gösterilen belli bir alacak için kurulabilir. Alacağın miktarının belli olmaması hâlinde, alacaklının bütün istemlerini karşılayacak şekilde taşınmazın güvence altına alacağı üst sınır taraflarca belirtilir.\nYurt içinde veya dışında faaliyette bulunan kredi kuruluşlarınca yabancı para üzerinden veya yabancı para ölçüsü ile verilen kredileri güvence altına almak için yabancı para üzerinden taşınmaz rehni kurulabilir. Bu hâlde her derecenin ifade ettiği miktar, rehin konusu alacağın tespit edildiği para türü üzerinden gösterilir. Ancak, aynı derecede birden fazla para türü kullanılarak rehin kurulamaz.\nYabancı para üzerinden kurulan rehne ait bir derecenin boşalması hâlinde, yerine, tescil edileceği tarihteki karşılığı Türk parası veya yabancı para üzerinden rehin kurulabilir. Türk parası ile kurulmuş bir rehne ait derecenin boşalması hâlinde ise, yerine tescil edileceği tarihteki karşılığı yabancı para üzerinden rehin kurulabilir.\nYabancı veya Türk parası karşılıklarının hesabında hesap günündeki Türkiye Cumhuriyet Merkez Bankasının döviz alış kuru esas alınır. Rehin haklarının hangi yabancı paralar üzerinden kurulabileceği Cumhurbaşkanınca belirlenir.[41]\n[41] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "852",
+   "official_text": "2. Faiz\nMadde 852- Sınırlayıcı hükümler saklı kalmak kaydıyla, taraflar faiz oranını diledikleri gibi kararlaştırabilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "853",
+   "official_text": "1. Rehne konu olabilme\nMadde 853- Rehin hakkı, ancak tapuya kayıtlı taşınmazlar üzerinde kurulabilir.\n2.Belirli olma",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "854",
+   "official_text": "a. Taşınmaz tek ise\nMadde 854- Rehin kurulurken, konusu olan taşınmazın belirtilmesi gerekir.\nBölünen taşınmazın parselleri tapu kütüğüne ayrı ayrı kaydedilmedikçe rehne konu olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "855",
+   "official_text": "b. Taşınmaz birden çok ise\nMadde 855- Birden çok taşınmazın aynı borç için rehnedilmesi, taşınmazların aynı malike veya borçtan müteselsilen sorumlu olan maliklere ait olmalarına bağlıdır.\nAynı alacak için birden çok taşınmazın rehnedildiği diğer hâllerde, her taşınmazın alacağın ne miktarı için güvence oluşturduğu rehin kurulurken belirtilir.\nAksine bir anlaşma bulunmadıkça, tapu idaresi, re'sen güvenceyi taşınmazların her birine değeri oranında dağıtır.\nB. Rehnin kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "856",
+   "official_text": "1. Tescil\nMadde 856- Taşınmaz rehni tapu kütüğüne tescil ile kurulur. Kanunda öngörülen ayrık durumlar saklıdır.\nTaşınmaz rehninin kurulmasına ilişkin sözleşmenin geçerliliği, resmî şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "857",
+   "official_text": "2. Birden çok kişiye ait taşınmazlarda\nMadde 857- Paylı mülkiyette paydaş kendi payını rehnedebilir.\nPay üzerinde rehin kurulduktan sonra paydaşlar malın tamamını rehnedemezler.\nElbirliği mülkiyetine tâbi taşınmaz, ancak bütün olarak ve maliklerin tamamı adına rehnolunabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "858",
+   "official_text": "II. Rehnin sona ermesi\nMadde 858- Taşınmaz rehni, tescilin terkini veya taşınmazın tamamen yok olmasıyla sona erer.\nKamulaştırmaya ilişkin kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "859",
+   "official_text": "1. Rehnin başka taşınmaz üzerine geçmesi\nMadde 859- Yetkili kamu kurum veya kuruluşu tarafından gerçekleştirilen parsel birleştirilmesi ve dağıtımı işlemi sonucunda birleştirilen parsel üzerindeki rehinler, sıralarını koruyarak o parselin yerine verilen taşınmaz üzerine geçer.\nBirleştirme sonucunda meydana gelen taşınmaz, değişik alacaklar için rehinli veya bazıları rehinsiz birden çok parselin yerini alırsa; bu taşınmaz üzerine geçen rehin hakları, taşınmazı bütün olarak kapsar ve olanak ölçüsünde sıralarını korurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "860",
+   "official_text": "2. Borçlunun taşınmazı rehinden kurtarması\nMadde 860- Birleştirilen taşınmazlardan biri ile güvence altına alınmış olan alacağın borçlusu, üç ay önce bildirmek koşuluyla birleştirme sırasında karşılığını ödeyerek taşınmazı rehinden kurtarabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "861",
+   "official_text": "3. Bedel olarak ödenen para\nMadde 861- Rehinli bir taşınmaz için bedel olarak ödenen para, alacaklılar arasında sıralarına göre, aynı sırada iseler alacaklarının miktarlarıyla orantılı olarak bölüştürülür.\nBu bedel, rehinle güvenceye bağlanmış olan alacak miktarının yirmide birinden fazla olduğu veya yeni taşınmaz, alacak için yeterli güvence oluşturmadığı takdirde, alacaklının rızası olmadan borçluya ödenemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "862",
+   "official_text": "I. Rehnin kapsamı\nMadde 862- Rehin, taşınmazı bütünleyici parçaları ve eklentileri ile birlikte yükümlü kılar.\nRehnin kuruluşu sırasında makine, otel döşeme eşyası gibi açıkça eklenti olarak gösterilen ve tapu kütüğünde beyanlar sütununa yazılan şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır.\nÜçüncü kişilerin eklentiler üzerindeki hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "863",
+   "official_text": "II. Kira bedelleri\nMadde 863- Kiraya verilmiş taşınmaz üzerindeki rehnin kapsamına, borçluya karşı rehnin paraya çevrilmesi yoluyla takibe başlanmasından veya borçlunun iflâsının ilânından başlayarak rehnin paraya çevrilmesi anına kadar işleyen kira bedelleri de girer.\nRehin hakkı, kiracılara karşı ancak cebrî icra yoluyla takibin kendilerine bildirilmesi veya iflâs kararının ilânından sonra ileri sürülebilir.\nRehinli taşınmaz malikinin henüz muaccel olmamış kira bedelleri üzerinde yaptığı hukukî işlemler ile diğer alacaklılar tarafından koydurulan hacizler, kira alacaklarının muaccel olmalarından önce rehnin paraya çevrilmesi yoluyla takibe başlamış olan rehinli alacaklılara karşı geçerli değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "864",
+   "official_text": "III. Zamanaşımı\nMadde 864- Rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez.\nIV. Önlem alma yetkisi\n1. Değer düşmelerine karşı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "865",
+   "official_text": "a. Koruma önlemleri\nMadde 865- Malik, rehinli taşınmazın değerini düşüren davranışlarda bulunursa; alacaklı, hâkimden bu gibi davranışları yasaklamasını isteyebilir.\nAlacaklıya, gerekli önlemleri almak üzere hâkim tarafından yetki verilebileceği gibi; gecikmesinde tehlike bulunan hâllerde alacaklı, böyle bir yetki verilmeden de gerekli önlemleri kendiliğinden alabilir.\nAlacaklı, önlem için yapmış olduğu giderleri malikten isteyebilir ve bu alacakları için taşınmaz üzerinde, tescile gerek olmaksızın ve tescil edilmiş olan diğer yüklerden önce gelen bir rehin hakkına sahip olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "866",
+   "official_text": "b. Güvence, eski hâle getirme, kısmî ödeme isteme\nMadde 866- Rehinli taşınmazın değerinde düşme meydana gelmişse alacaklı, alacağı için başka güvence göstermesini veya rehinli taşınmazın eski hâle getirilmesini borçludan isteyebilir.\nAlacaklı, rehinli taşınmazın değerinin düşmesi tehlikesinin mevcut olması hâlinde de güvence isteyebilir.\nYeterli güvence hâkim tarafından belirlenen süre içinde verilmediği takdirde alacaklı, güvence eksiğini karşılayacak miktardaki alacak kısmının ödenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "867",
+   "official_text": "2. Değerin kusur olmadan düşmesi\nMadde 867- Değer düşmesi malikin kusuru olmadan meydana gelmişse alacaklı, ancak malikin zarardan ötürü aldığı tazminat miktarını aşmayacak ölçüde borçludan güvence vermesini veya kısmî ödeme yapmasını isteyebilir.\nBununla birlikte alacaklı, değer düşmesinin önlenmesi veya giderilmesi için gerekli önlemleri kendiliğinden alabilir. Alacaklı, bu amaçla yaptığı masraflardan dolayı rehinli taşınmaz üzerinde tescile gerek olmaksızın ve tescil edilmiş olan diğer yüklerden önce gelen bir rehin hakkına sahip olur. Malik, bu masraflardan kişisel olarak sorumlu değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "868",
+   "official_text": "3. Rehinli taşınmazın kısmen devri\nMadde 868- Malik, rehinli taşınmazın güvence altına aldığı alacağın yirmide birinden az değeri olan bir parçasını başkasına devrederse; alacaklı, kendisine bu parça ile orantılı bir ödeme yapıldığı veya taşınmazın geri kalan kısmı yeterli güvence oluşturduğu takdirde, devredilen parça üzerindeki rehni kaldırmaktan kaçınamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "869",
+   "official_text": "V. Rehinden sonra kurulan aynî haklar\nMadde 869- Malikin rehinli taşınmaz üzerinde yeni sınırlı aynî haklar kurmayacağını taahhüt etmesi geçerli değildir.\nTarihi daha eski olan rehin hakkı, aynı taşınmaz üzerinde alacaklının izni olmadan daha sonra kurulan irtifak haklarından veya taşınmaz yüklerinden önce gelir. Sonradan kurulan ve rehnin paraya çevrilmesi sırasında daha eski tarihli rehinli alacaklılara zarar veren irtifaklar ve taşınmaz yükleri terkin edilir.\nÖnceki rehinli alacaklının istemiyle irtifak hakları veya taşınmaz yükleri terkin edilen kimselerin, rehinli taşınmazın paraya çevrilmesinde, hakları sonradan tescil edilenlere karşı, satış bedelinden haklarının değerini karşılayan miktarı almak hususunda öncelikleri vardır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "870",
+   "official_text": "1. Rehin derecesinin hükümleri\nMadde 870- Rehnin sağladığı güvence, tescilde belirtilen rehin derecesi ile sınırlıdır.\nTaşınmaz rehni, sırada kendisinden önce gelecek olanın miktarının tescilde belirtilmesi kaydıyla ikinci veya daha sonraki derecede de kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "871",
+   "official_text": "2. Rehin dereceleri arasındaki ilişki\nMadde 871- Aynı taşınmaz üzerinde farklı sıralarda kurulmuş bulunan rehin haklarından birinin terkin edilmiş olması, sonraki sırada yer alan rehinli alacaklıya boşalan dereceye geçme hakkı vermez.\nTerkin edilen rehin hakkı yerine yeni bir rehin hakkı kurulabilir.\nSonraki sırada yer alan rehinli alacaklılara boşalan dereceye geçme hakkı veren sözleşmelerin geçerliliği, resmî şekilde yapılmalarına; aynî etki sağlamaları, tapu kütüğüne şerh verilmelerine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "872",
+   "official_text": "3. Boş dereceler\nMadde 872- Sonraki sıralarda kurulmuş bir rehin hakkından önce gelen bir rehin mevcut değilse veya borçlu önceki bir rehin senedi üzerinde tasarruf etmemişse ya da önceki sırada bulunan rehinli alacak, o derece için tescilde belirtilen miktardan az ise; taşınmazın paraya çevrilmesinde satış bedeli, boş derece hesaba katılmaksızın sonraki alacaklılara sıralarına göre dağıtılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "873",
+   "official_text": "1. Paraya çevirme şekli\nMadde 873- Borç ödenmezse alacaklı, alacağını rehinli taşınmazın satış bedelinden elde etme hakkına sahiptir.\nBorcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir.\nAynı alacak için birden çok taşınmazın rehnedilmiş olması hâlinde, rehnin paraya çevrilmesi istemi, taşınmazların tamamı hakkında yapılır. Bununla birlikte, icra dairesi onlardan ancak gerektiği kadarını paraya çevirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "874",
+   "official_text": "2. Satış bedelinin dağıtılması\nMadde 874- Rehinli taşınmazın satış bedeli, alacaklılar arasında sıralarına göre dağıtılır.\nAynı sırada olan alacaklılar arasında o sıraya düşen satış bedeli alacakları oranında dağıtılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "875",
+   "official_text": "3. Güvencenin kapsamı\nMadde 875- Taşınmaz rehninin alacaklıya sağladığı güvencenin kapsamına şunlar girer:\n1. Ana para,\n2. Takip giderleri ve gecikme faizi,\n3. İflâsın açıldığı veya rehnin paraya çevrilmesinin istendiği tarihe kadar muaccel olmuş üç yıllık faiz ile son vadeden başlayarak işleyen faiz.\nDaha önce belirlenmiş olan faiz oranı, sonradan gelen alacaklıların zararına olarak artırılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "876",
+   "official_text": "4. Zorunlu masrafların güvencesi\nMadde 876- Alacaklı, rehinli taşınmazın korunması için zorunlu masraf yapmışsa ve özellikle malikin borçlu olduğu sigorta primlerini ödemişse, bundan doğan alacakları tescile gerek olmaksızın aynen rehinli alacağı gibi güvenceden yararlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "877",
+   "official_text": "1. Öncelik\nMadde 877- Bir kamu kurum veya kuruluşunun katkısıyla iyileştirilen arazinin değerinde bir artma meydana gelirse malik, iyileştirme giderlerinden payına düşeni karşılamak üzere kendisine ödünç veren alacaklı lehine tescil suretiyle rehin hakkı kurabilir. Kurulan rehin, taşınmaz üzerindeki diğer bütün yüklerden önce gelir.\nİyileştirme, kamu kurum veya kuruluşunun katkısı olmaksızın yapılmış ise, malik taşınmazı üzerinde en çok masrafların üçte ikisi için rehin kurabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "878",
+   "official_text": "2. Borcun ödenmesi ve rehnin sona ermesi\nMadde 878- İyileştirme, kamu kurum veya kuruluşunun katkısı olmaksızın yapılmış ise, rehinli alacağın en çok beş yıl içinde eşit taksitlerle ödenmesi gerekir.\nAlacağın veya yıllık taksitlerin muaccel olmasından beş yıl sonra rehin hakkı sona erer ve sonraki alacaklılar sıralarına göre ilerlerler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "879",
+   "official_text": "IX. Sigorta tazminatı üzerinde hak\nMadde 879- Muaccel olan sigorta tazminatı, malike ancak bütün rehinli alacaklıların rızasıyla ödenebilir.\nSigorta tazminatı taşınmazın eski hâle getirilmesi için harcanacaksa, malik tarafından yeterli bir güvence gösterilmesi koşuluyla kendisine ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "880",
+   "official_text": "Madde 880- Acele karar alınması gereken hâllerde, borçlunun veya diğer bir ilgilinin istemesi üzerine, şahsen hareket etmesi kanun hükmü gereği olup da adı veya nerede olduğu bilinmeyen alacaklıya, rehinli taşınmazın bulunduğu yer sulh hâkimi tarafından bir kayyım atanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "684",
+   "official_text": "I. Bütünleyici parça\nMadde 684- Bir şeye malik olan kimse, o şeyin bütünleyici parçalarına da malik olur.\nBütünleyici parça, yerel âdetlere göre asıl şeyin temel unsuru olan ve o şey yok edilmedikçe, zarara uğratılmadıkça veya yapısı değiştirilmedikçe ondan ayrılmasına olanak bulunmayan parçadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "686",
+   "official_text": "1. Tanım\nMadde 686- Bir şeye ilişkin tasarruflar, aksi belirtilmedikçe onun eklentisini de kapsar.\nEklenti, asıl şey malikinin anlaşılabilen arzusuna veya yerel âdetlere göre, işletilmesi, korunması veya yarar sağlaması için asıl şeye sürekli olarak özgülenen ve kullanılmasında birleştirme, takma veya başka bir biçimde asıl şeye bağlı kılınan taşınır maldır.\nEklenti, asıl şeyden geçici olarak ayrılmakla bu niteliğini kaybetmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "881",
+   "official_text": "A. Amaç ve nitelik\nMadde 881- Hâlen mevcut olan veya henüz doğmamış olmakla beraber doğması kesin veya olası bulunan herhangi bir alacak, ipotekle güvence altına alınabilir.\nİpoteğe konu olacak taşınmazın, borçlunun mülkiyetinde bulunması gerekmez.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "882",
+   "official_text": "I. Kuruluş\nMadde 882- Miktarı belirli olmayan veya değişebilen alacaklar da, belli rehin derecesine yerleştirilir ve tescilden sonra alacak miktarında meydana gelecek değişmelere bakılmaksızın sırasını korur.\nTapu memuru istem üzerine alacaklıya ipoteği gösteren bir belge verir. Sadece tescilin yapıldığını ispata yarayan bu belge kıymetli evrak niteliği taşımaz.\nTescilin yapıldığının sözleşme üzerine yazılıp onaylanması, ipotek belgesi yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "883",
+   "official_text": "1. İpoteğin terkinini isteme hakkı\nMadde 883- Alacak sona erince ipotekli taşınmazın maliki, alacaklıdan ipoteği terkin ettirmesini isteyebilir.\n(Ek fıkra:4/7/2019-7181/19 md.) İpotek süreli olarak kurulmuşsa, sürenin bitiminden itibaren otuz gün içinde ipotekli taşınmaz üzerinde 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 150/c maddesinde belirtilen şerhin konulmaması hâlinde ipotek, malikin talebiyle tapu müdürlüğünce terkin edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "949",
+   "official_text": "4. Mülkiyetin geçememesi\nMadde 949- Borcun ödenmemesi hâlinde rehinli taşınırın mülkiyetinin alacaklıya geçmesini öngören sözleşme hükmü geçersizdir.\nB. Hapis hakkı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1014",
+   "official_text": "b. Terkin ve değişiklik için\nMadde 1014- Bir tescilin terkin edilmesi veya değiştirilmesi, ancak bu kaydın kendilerine hak sağladığı kimselerin yazılı beyanı üzerine yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1022",
+   "official_text": "1. Genel olarak\nMadde 1022- Aynî haklar, kütüğe tescil ile doğar; sıralarını ve tarihlerini tescile göre alır.\nTescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş veya geçici tescil hâlinde belgelerin uygun zamanda tamamlanmış olması koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar.\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya diğer herhangi bir yolla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "88",
+   "official_text": "MADDE 88- Faiz ödeme borcunda uygulanacak yıllık faiz oranı, sözleşmede kararlaştırılmamışsa faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık faiz oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde elli fazlasını aşamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "120",
+   "official_text": "MADDE 120- Uygulanacak yıllık temerrüt faizi oranı, sözleşmede kararlaştırılmamışsa, faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz.\nAkdî faiz oranı kararlaştırılmakla birlikte sözleşmede temerrüt faizi kararlaştırılmamışsa ve yıllık akdî faiz oranı da birinci fıkrada belirtilen faiz oranından fazla ise, temerrüt faizi oranı hakkında akdî faiz oranı geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "45",
+   "official_text": "Rehin ve ipotekle temin edilmiş alacaklar:\nMadde 45 – Rehinle temin edilmiş bir alacağın borçlusu iflasa tabi şahıslardan olsa bile alacaklı yalnız rehinin paraya çevrilmesi yoliyle takip yapabilir. Ancak rehinin tutarı borcu ödemeğe yetmezse alacaklı kalan alacağını iflas veya haciz yoliyle takip edebilir.\n(Ek Fıkra: 21/2/2007-5582/1 md) 2499 sayılı Sermaye Piyasası Kanununun 38/A maddesinin birinci fıkrasında tanımlanan konut finansmanından kaynaklanan rehinle temin edilmiş alacaklar ile Toplu Konut İdaresi Başkanlığının rehinle temin edilmiş alacaklarının takibinde, rehnin paraya çevrilmesi yoluyla takip yapılabilir veya haciz yoluna başvurulabilir.\nPolice ve emre muharrer senetlerle çekler hakkındaki 167 nci madde hükmü mahfuzdur.\nİpotekle temin edilmiş faiz ve senelik taksit alacaklarında, alacaklının intihabına ve borçlunun sıfatına göre, rehinin paraya çevrilmesi veya haciz yahut iflas yollarına müracaat olunabilir.\n(Ek fıkra: 27/5/1933-2228/1 md.; Mülga: 29/6/1956-6763/42 md.)\nHaciz yoliyle takip:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "148",
+   "official_text": "Takip talebi:\nMadde 148 – (Değişik: 18/2/1965-538/68 md.)\nTaşınmaz ipotek alacaklısı, yetkili veya taşınmazın bulunduğu yer icra dairesine elindeki ipotek belgesinin akit tablosunun tapu idaresince verilmiş resmi bir örneğini ibrazla alacağın miktarını bildirir ve 58 inci maddeye göre takip talebinde bulunur.\nAdres gösterme zorunluluğu:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "149",
+   "official_text": "1 – İcra emri:\nMadde 149 – (Değişik: 18/2/1965-538/69 md.)\nİcra memuru, ibraz edilen akit tablosunun kayıtsız şartsız bir para borcu ikrarını ihtiva ettiğini ve alacağın muaccel olduğunu anlarsa, borçluya ve taşınmaz üçüncü şahıs tarafından rehnedilmiş veya taşınmazın mülkiyeti üçüncü şahsa geçmişse ayrıca bunlara birer icra emri gönderir.\nBu icra emrinde borcun otuz gün içinde ödenmesi ve bu müddet içinde borç ödenmez ve icra mahkemesinden icranın geri bırakılmasına dair bir karar getirilmezse, alacaklının taşınmazın satışını istiyebileceği bildirilir.\nİcranın geri bırakılması:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "150/b",
+   "official_text": "Madde 150/b – Ek: 18/2/1965-538/72 md.; Değişik: 6/6/1985-3222/18 md.)\nRehin, kiraya verilmiş bir taşınmaz ise icra memuru, alacaklının talebi üzerine takibin kesinleşmesini beklemeden kiracıları da takipten haberdar eder ve işleyecek kiraların icra dairesine ödenmesini emreder. (Ek cümle: 17/7/2003-4949/42 md.) Şu kadar ki, bu şekilde işlem yapılması 132 ve 135 inci maddelerdeki hakları ortadan kaldırmaz. Kiracı ihtara rağmen kira paralarını icra dairesine yatırmazsa hakkında 356 ncı madde hükmü kıyasen uygulanır.\nTapu idaresine haber verme:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "150/c",
+   "official_text": "Madde 150/c – (Ek: 18/2/1965-538/72 md.)\nİcra memuru, ipoteğin paraya çevrilmesi hakkındaki takibin başladığını tapu idaresine haber vermeye mecburdur. Tapu memuru, keyfiyeti taşınmazın siciline şerh verir. Taşınmazı bu şerh tarihinden sonra iktisap edenlere icra veya ödeme emri tebliğ olunmaz.\nSatış hazırlıkları:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "14. Hukuk Dairesi",
+   "esas_no": "2019/1316",
+   "karar_no": "2020/2208",
+   "decision_date": "25.02.2020",
+   "summary_md": "Paylı bir dubleks meskenin yarı payı davacıya, yarı payı başka bir paydaşa aittir. Diğer paydaş 2006'da yalnız kendi payı üzerine dava dışı bir kişi lehine 130.000 Euro'luk, birinci derece, bir yıl süreli, faizsiz ipotek kurmuş; iki ay sonra kendi adına ve davacıya vekâleten taşınmazın tamamı üzerine davalı lehine 755.000 TL'lik, ikinci dereceli, süreli bir ipotek daha kurmuştur (kararda ipoteğin \"serbest dereceden istifade\" kayıtlı olduğu belirtilir). Davacı yıllar sonra TMK m. 857/2'ye aykırılık nedeniyle kendi payı üzerindeki ikinci dereceli ipoteğin kaldırılmasını istemiştir. İlk derece mahkemesi ipoteğin TMK m. 857/2'ye aykırı olduğunu kabul etmiş, ama davacının işleme taraf olduğunu ve uzun süre sessiz kaldığını belirterek hakkın kötüye kullanılması nedeniyle davayı reddetmiş; bölge adliye mahkemesi ise kuralın emredici olduğunu belirterek kararı kaldırıp ipoteği davacının payı üzerinden kaldırmıştır. Yargıtay 14. Hukuk Dairesi oybirliğiyle kararı bozmuştur: Rehnin güvencesi tescildeki derece ile sınırlıdır (TMK m. 870); bu nedenle pay rehninden sonra taşınmazın tamamı üzerinde sonraki derecelerde ipotek kurulabilir, farklı derecelerde kurulan ipotekler TMK m. 857/2 kapsamında değildir. Bu dar yorum tek bir daire kararıdır; yerleşik içtihat sayılmamalıdır. Karar ayrıca sabit derece mantığını gösterdiği için öğreticidir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/588166400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "1. Hukuk Dairesi",
+   "esas_no": "2025/2063",
+   "karar_no": "2025/6266",
+   "decision_date": "25.12.2025",
+   "summary_md": "Ticari ilişki sonunda imzalanan protokole göre borçlu şirketin 701.204,00 TL borcu bulunmakta, borca istinaden davacının bir taşınmazdaki 58/2400 payı davalıya devredilecek ve çeklerden biri ödenmezse icra takibine geçilecektir; protokolü borçlu şirket adına bir yetkili, müteselsil kefil olarak da davacı imzalamıştır. Pay, protokolden kısa süre sonra satış yoluyla ve 75.000,00 TL bedelle davalıya devredilmiştir. Davacı, devrin gerçek bir satış olmadığını, borca karşılık teminat olduğunu, borç tasfiye edildiği hâlde çeklerle takip başlatıldığını ve baskı, tehdit ile irade fesadı bulunduğunu ileri sürerek tapu iptali ve tescil istemiştir. İlk derece mahkemesi, protokolde borcun ödenmemesi hâlinde taşınmazın devredileceğinin kararlaştırılmadığını, payın borca mahsuben devredildiğini ve bu nedenle protokolün TMK m. 873/2'deki lex commissoria yasağına aykırı olmadığını belirterek, irade sakatlığı da ispatlanamadığından davayı reddetmiştir. Bölge adliye mahkemesi esastan ret kararı vermiş, Yargıtay 1. Hukuk Dairesi de oybirliğiyle onamıştır. Yargıtay TMK m. 873/2 hakkında kendi gerekçesini yazmamıştır; ayrım ilk derece mahkemesinin gerekçesidir ve borcun ödenmemesi şartına bağlı devir ile borca mahsuben devrin ayrı değerlendirildiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1191466100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2025/3882",
+   "karar_no": "2025/7065",
+   "decision_date": "04.11.2025",
+   "summary_md": "İpotek borçlusu şirket, ipotekli taşınmazı tapuya şerhli bir kira sözleşmesiyle şikâyetçi şirkete restoran olarak kiralamıştır. Kiracı, ek sözleşme ve protokollerle 2021-2027 arası kiraların sekiz bonoyla peşin ödendiğini, kira borcu kalmadığını ileri sürmüştür. Kendisine 3.10.2022'de İİK m. 150/b muhtırası tebliğ edilmiş, o da icra müdürlüğünün 27.9.2022 tarihli kararının iptali için şikâyete başvurmuştur. Karşı oydan anlaşıldığına göre şikâyet sonunda bu muhtıranın iptaline karar verilmiş; Yargıtay 12. Hukuk Dairesi bölge adliye mahkemesi kararını oy çokluğuyla onamıştır. Çoğunluk kararı kısadır; bölge adliye mahkemesinin gerekçelerine atıfla onama yapılmış, hukuki tartışma çoğunluk kararında yer almamıştır. Karşı oy yazısı ise TMK m. 863/1-3 ve İİK m. 150/b'yi aktararak protokollerin adi yazılı olduğunu, bonoların ve dekontların resmî belge sayılamayacağını ve peşin ödemelerin malikin henüz muaccel olmamış kira bedelleri üzerinde yaptığı hukuki işlem niteliğinde olup rehinli alacaklıya karşı geçerli olmadığını savunmuş; muhtıranın işleyecek kiraların icraya ödenmesine ilişkin olduğunu, iptalinin gerekmediğini belirterek bozma görüşü bildirmiştir. TMK m. 863/3'ün tartışması yalnız karşı oydadır. Bu nedenle karardan, peşin ödemenin rehinli alacaklıya karşı geçerli olduğuna ilişkin bir Yargıtay ilkesi çıkarılamaz.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1190859300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 850'ye göre taşınmaz rehni hangi şekillerde kurulabilir?",
+   "options": [
+    "İpotek, rehin senedi ve ticari işletme rehni şeklinde",
+    "Taraflar, ihtiyaçlarına uygun gördükleri herhangi bir rehin türünü serbestçe kurabilir",
+    "Yalnız ipotek ve zilyetliğin devrine bağlı rehin şeklinde",
+    "İpotek, ipotekli borç senedi veya irat senedi şeklinde"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 850, taşınmaz rehninin \"ancak\" ipotek, ipotekli borç senedi veya irat senedi şeklinde kurulabileceğini söyler. Sayım sınırlıdır; taraflar yeni bir tür yaratamaz. Taşınmaz rehninde zilyetliğin devri bir kuruluş şekli değildir ve ticari işletme rehni bu sayımda yer almaz."
+  },
+  {
+   "stem_md": "Ayşe, Euro cinsinden kredi veren bir bankanın alacağını güvence altına almak için arsası üzerinde ipotek kurmak istiyor. Banka, tek derecede hem 100.000 Euro hem de 3.000.000 TL yazılmasını talep ediyor. Hangisi doğrudur?",
+   "options": [
+    "Aynı derecede iki para türü birlikte yazılabilir, yeter ki toplam tutar kredi tutarını aşmasın.",
+    "Yabancı para ipoteği ancak malikin yabancı para cinsinden geliri varsa kurulabilir.",
+    "Euro kredisini güvence altına almak için yabancı para üzerinden ipotek kurulabilir, ancak aynı derecede birden fazla para türü kullanılamaz.",
+    "Yabancı para üzerinden ipotek hiçbir hâlde kurulamaz; ipotek yalnız Türk parası üzerinden kurulur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yabancı para üzerinden rehin, kredi kuruluşlarınca yabancı para üzerinden veya yabancı para ölçüsüyle verilen kredileri güvence altına almak için kurulabilir; ancak aynı derecede birden fazla para türü kullanılarak rehin kurulamaz (TMK m. 851/2). Bu nedenle Euro ve TL'nin aynı dereceye yazılması mümkün değildir. Malikin geliri bu bakımdan aranmaz."
+  },
+  {
+   "stem_md": "TMK m. 851/4'e göre hangi yabancı paralar üzerinden rehin kurulabileceğini kim belirler ve derecelerin karşılıkları hangi kurla hesaplanır?",
+   "options": [
+    "Tapu ve Kadastro Genel Müdürlüğü belirler; serbest piyasa kuru esas alınır.",
+    "Taraflar sözleşmeyle belirler; tescil tarihindeki efektif satış kuru esas alınır.",
+    "Bakanlar Kurulu belirler; hesap günündeki Merkez Bankası döviz satış kuru esas alınır.",
+    "Cumhurbaşkanı belirler; hesap günündeki Merkez Bankası döviz alış kuru esas alınır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Karşılıkların hesabında hesap günündeki Türkiye Cumhuriyet Merkez Bankasının döviz alış kuru esas alınır; rehin haklarının hangi yabancı paralar üzerinden kurulabileceğini Cumhurbaşkanı belirler (TMK m. 851/4). Eski metindeki \"Bakanlar Kurulu\" ibaresi 2018'de 700 sayılı Kanun Hükmünde Kararname ile \"Cumhurbaşkanınca\" olarak değiştirilmiştir."
+  },
+  {
+   "stem_md": "Kemal, 20 yıldır kullandığı ve tapu kütüğünde kaydı bulunmayan bir arazi parçası üzerinde bankadan kredi almak için ipotek kurmak istiyor. Hangisi doğrudur?",
+   "options": [
+    "Kullanım hakkı şerh edildikten sonra ipotek kurulabilir.",
+    "Uzun süreli kullanım nedeniyle zilyetlik devredilerek rehin kurulabilir.",
+    "Köy muhtarının düzenleyeceği belgeyle ipotek kurulabilir.",
+    "Rehin hakkı ancak tapuya kayıtlı taşınmazlar üzerinde kurulabildiği için bu parça üzerinde ipotek kurulamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Rehin hakkı ancak tapuya kayıtlı taşınmazlar üzerinde kurulabilir (TMK m. 853). Kullanım süresinin uzunluğu, muhtar belgesi veya şerh bu şartın yerini tutmaz."
+  },
+  {
+   "stem_md": "Ali ve Burak'ın birbirinden ayrı birer dükkânı vardır. İkisi de dükkânlarının, üçüncü bir kişinin bankaya olan tek borcu için rehnedilmesine razıdır; Ali ile Burak borçtan müteselsilen sorumlu değildir. Hangisi doğrudur?",
+   "options": [
+    "Rehin kurulabilir; ancak her taşınmazın alacağın ne miktarı için güvence oluşturduğu rehin kurulurken belirtilir.",
+    "Rehin kurulabilir; ancak yalnız ilk derecede kurulabilir.",
+    "Farklı maliklere ait taşınmazlar aynı borç için hiçbir hâlde rehnedilemez.",
+    "Rehin kurulabilir; her dükkân alacağın tamamı için ayrı ayrı güvence oluşturur ve miktar belirtmeye gerek yoktur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Aynı alacak için birden çok taşınmazın rehnedildiği diğer hâllerde, her taşınmazın alacağın ne miktarı için güvence oluşturduğu rehin kurulurken belirtilir (TMK m. 855/2). Aksine anlaşma yoksa tapu idaresi güvenceyi taşınmazların her birine değeri oranında dağıtır (TMK m. 855/3). Derece sınırlaması kanunda yer almaz."
+  },
+  {
+   "stem_md": "Burak, annesinden kalan ve üç kardeşin elbirliği mülkiyetiyle sahip olduğu evdeki \"kendi payını\" bankaya ipotek etmek istiyor. Hangisi doğrudur?",
+   "options": [
+    "Burak payını rehnedebilir, ancak bunun için mahkemeden izin alması gerekir.",
+    "Elbirliği mülkiyetine tabi taşınmaz ancak bütün olarak ve maliklerin tamamı adına rehnedilebilir; pay rehni mümkün değildir.",
+    "Burak payını diğer kardeşlerin rızası olmadan rehnedebilir.",
+    "Burak payını rehnedebilir, ancak evin tamamını rehnedemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Paylı mülkiyette paydaş kendi payını rehnedebilir; elbirliği mülkiyetine tabi taşınmaz ise ancak bütün olarak ve maliklerin tamamı adına rehnolunabilir (TMK m. 857/1 ve TMK m. 857/3). Pay rehni paylı mülkiyetin kuralıdır ve elbirliğine uygulanmaz."
+  },
+  {
+   "stem_md": "Taşınmaz rehninin kurulmasına ilişkin hangi ifade doğrudur?",
+   "options": [
+    "Rehin, alacaklıya taşınmazın zilyetliğinin devriyle kurulur; tescil şerh niteliğindedir.",
+    "Rehin, taraflar arasında yazılı sözleşme yapılmasıyla kurulur; tescil yalnız açıklayıcıdır.",
+    "Rehin tescille kurulur; sözleşme için herhangi bir şekil aranmaz.",
+    "Rehin tapu kütüğüne tescille kurulur; rehnin kurulmasına ilişkin sözleşmenin geçerliliği resmî şekilde yapılmasına bağlıdır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Taşınmaz rehni tapu kütüğüne tescil ile kurulur ve kurma sözleşmesinin geçerliliği resmî şekilde yapılmasına bağlıdır (TMK m. 856). Resmî senet tapu sicil müdürü veya görevlilerince düzenlenir (2644 sayılı Kanun m. 26). Tescil kurucudur, açıklayıcı değildir."
+  },
+  {
+   "stem_md": "TMK m. 858'e göre taşınmaz rehni hangi sebeple sona erer?",
+   "options": [
+    "Malikin tek taraflı dilekçesiyle sona erer.",
+    "Borç ödendiği anda, tapuda terkin edilmese bile kendiliğinden sona erer.",
+    "Tescilin terkiniyle veya taşınmazın tamamen yok olmasıyla sona erer.",
+    "Taşınmazın başkasına devredilmesiyle sona erer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Taşınmaz rehni tescilin terkini veya taşınmazın tamamen yok olmasıyla sona erer (TMK m. 858). Terkin için kural olarak kaydın kendilerine hak sağladığı kişilerin yazılı beyanı gerekir (TMK m. 1014); bu nedenle malikin tek taraflı dilekçesi yetmez. Taşınmazın devri rehni sona erdirmez."
+  },
+  {
+   "stem_md": "Zeynep otel binasını bankaya ipotek ederken mutfak makinelerini açıkça eklenti olarak gösterdi ve bu kayıt tapuda beyanlar sütununa yazıldı. Takipte banka makinelerin de rehnin kapsamında olduğunu ileri sürüyor; Zeynep ise \"makineler taşınırdır, ipotek binayla sınırlıdır\" diyor. Hangisi doğrudur?",
+   "options": [
+    "Makineler taşınır oldukları için ipotek kapsamına giremez.",
+    "Makineler, kanuna göre eklenti olamayacakları ispat edilmedikçe eklenti sayılır ve rehnin kapsamına girer.",
+    "Beyan, makineleri bütünleyici parça yapar; bu nedenle aksi ispat edilemez.",
+    "Makineler rehne ancak ayrıca taşınır rehni kurulursa girer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Rehin, taşınmazı bütünleyici parçaları ve eklentileriyle birlikte yükümlü kılar (TMK m. 862/1). Rehnin kuruluşunda açıkça eklenti gösterilen ve beyanlar sütununa yazılan makine gibi şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır (TMK m. 862/2). Bu bir karinedir; aksi ispat edilebilir. Eklenti taşınır olmasına rağmen asıl şeyle birlikte rehin kapsamındadır."
+  },
+  {
+   "stem_md": "Kiraya verilmiş taşınmaz üzerindeki rehinde kira bedelleri rehnin kapsamına hangi andan itibaren girer?",
+   "options": [
+    "Borcun muaccel olduğu andan itibaren işleyen kira bedelleri girer.",
+    "Rehnin paraya çevrilmesi yoluyla takibe başlanmasından veya iflasın ilanından başlayarak paraya çevirme anına kadar işleyen kira bedelleri girer.",
+    "İpoteğin tescil edildiği andan itibaren işleyen bütün kira bedelleri girer.",
+    "Kira sözleşmesinin yapıldığı andan itibaren işleyen bütün kira bedelleri girer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 863/1'e göre kapsama, rehnin paraya çevrilmesi yoluyla takibe başlanmasından veya borçlunun iflasının ilanından başlayarak paraya çevirme anına kadar işleyen kira bedelleri girer. Rehnin kurulduğu an, borcun muaccel olduğu an ya da kira sözleşmesinin tarihi başlangıç noktası değildir."
+  },
+  {
+   "stem_md": "X Bankası, ipotekli binanın kiracısı Y Ltd. Şti.'ye karşı rehin hakkını ne zaman ileri sürebilir?",
+   "options": [
+    "Paraya çevirme takibi kiracıya bildirildikten sonra.",
+    "İpotek tescil edildiği anda, kiracı bilmese de.",
+    "Takip talebi icra dairesine verildiği anda, kiracıya bildirim yapılmasa da.",
+    "Yalnız takip kesinleştikten sonra; kesinleşmeden kiracıya bildirim yapılamaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Rehin hakkı, kiracılara karşı ancak cebrî icra yoluyla takibin kendilerine bildirilmesi veya iflas kararının ilanından sonra ileri sürülebilir (TMK m. 863/2). İİK m. 150/b'ye göre icra memuru, alacaklının talebi üzerine takibin kesinleşmesini beklemeden kiracıları da takipten haberdar eder; bu nedenle kesinleşme beklenmez."
+  },
+  {
+   "stem_md": "Bir ana para ipoteği 2015'te tescil edilmiştir ve borçlu aynı zamanda taşınmazın malikidir. TMK m. 864'e göre hangisi doğrudur?",
+   "options": [
+    "Alacak için zamanaşımı, rehin sözleşmesinin imzalandığı tarihten itibaren işlemez.",
+    "Alacak için zamanaşımı, ipotek takibinin başladığı tarihten itibaren işlemez.",
+    "Rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez.",
+    "Alacak için zamanaşımı, alacağın muaccel olduğu tarihten itibaren işlemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 864 şöyle der: Rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez. Başlangıç noktası rehin sözleşmesinin tarihi, muacceliyet ya da takip tarihi değil tescildir. Kuralın üst sınır ipoteği ve borçlu olmayan malik gibi hâllerdeki kapsamı tartışmalıdır; bu soru en yalın kurguyu sorar."
+  },
+  {
+   "stem_md": "Zeynep'in rehinli binasının taşıyıcı kolonlarını izinsiz kesmeye başlaması üzerine çökme tehlikesi doğuyor. Hâkimden yetki almaya zaman olmadığı için banka acil destek kolonları yaptırıyor. Hangisi doğrudur?",
+   "options": [
+    "Banka önlem alabilir; ancak masraflar için rehin hakkı yalnız tescille doğar ve sırada sona kalır.",
+    "Banka hâkimden yetki almadan hiçbir önlem alamaz.",
+    "Gecikmesinde tehlike bulunduğundan banka yetki almadan önlem alabilir; masrafları için tescile gerek olmaksızın ve tescilli diğer yüklerden önce gelen bir rehin hakkı doğar.",
+    "Banka masraflar için Zeynep'e şahsen başvurur; taşınmaz üzerinde hiçbir hak doğmaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Gecikmesinde tehlike bulunan hâllerde alacaklı, yetki verilmeden de gerekli önlemleri kendiliğinden alabilir; giderler için taşınmaz üzerinde tescile gerek olmaksızın ve tescil edilmiş diğer yüklerden önce gelen bir rehin hakkı doğar (TMK m. 865)."
+  },
+  {
+   "stem_md": "Fatma'nın arsası 1.000.000 TL'lik alacak için ipotekli. Fatma, 40.000 TL değerindeki bir şeridi komşusuna satıyor. Banka şerit üzerindeki rehnin kaldırılmasına karşı çıkabilir mi?",
+   "options": [
+    "Banka, ancak devredilen parça alacağın yirmide birinden fazlaysa rehni kaldırmak zorundadır.",
+    "Banka rızası olmadan rehinli taşınmazın hiçbir parçası devredilemez.",
+    "Parça alacağın yirmide birinden az değerli olduğundan, orantılı ödeme yapılırsa veya kalan kısım yeterli güvence oluşturuyorsa banka rehni kaldırmaktan kaçınamaz.",
+    "İpotek bölünemez; banka her hâlde karşı çıkabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Malik, güvence altına alınan alacağın yirmide birinden az değeri olan bir parçayı devrederse alacaklı, bu parça ile orantılı bir ödeme yapıldığı veya geri kalan kısım yeterli güvence oluşturduğu takdirde o parça üzerindeki rehni kaldırmaktan kaçınamaz (TMK m. 868). 1.000.000 TL'nin yirmide biri 50.000 TL'dir; 40.000 TL bunun altındadır. \"Yirmide birinden fazla\" ifadesi ise TMK m. 861'in kuralıdır."
+  },
+  {
+   "stem_md": "İpotek tescilinden sonra malik, komşusu lehine geçit irtifakı kurmuştur. Banka \"ipotekli taşınmazda sonradan irtifak kurulamaz\" diyor. Hangisi doğrudur?",
+   "options": [
+    "Malikin kurmama taahhüdü geçerlidir; ihlal hâlinde irtifak geçersiz olur.",
+    "İrtifak kurulabilir; malikin yeni sınırlı aynî hak kurmama taahhüdü geçersizdir, ancak paraya çevirmede önceki rehinli alacaklılara zarar veren irtifaklar terkin edilir.",
+    "İrtifak kurulabilir ve her hâlde rehinden önce gelir.",
+    "Kurulamaz; malik yeni sınırlı aynî hak kurmayacağını taahhüt etmese bile kanun bunu yasaklar."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Malikin rehinli taşınmaz üzerinde yeni sınırlı aynî haklar kurmayacağını taahhüt etmesi geçerli değildir (TMK m. 869/1). Eski tarihli rehin, alacaklının izni olmadan sonradan kurulan irtifaklardan önce gelir ve paraya çevirmede önceki rehinli alacaklılara zarar veren irtifaklar terkin edilir (TMK m. 869/2). \"Rehinli taşınmaza irtifak kurulamaz\" demek yanlıştır."
+  },
+  {
+   "stem_md": "Ahmet'in taşınmazında 1. derecede A Bankası, 2. derecede B, 3. derecede C ipoteği vardır. Ahmet A'ya borcunu ödeyip 1. derece ipoteği terkin ettirmiş, B ise \"artık 1. derecedeyim\" demiştir. Hangisi doğrudur?",
+   "options": [
+    "Terkin edilen derece ortadan kalkar; yerine yeni rehin kurulamaz.",
+    "B ve C birlikte birer derece ilerler.",
+    "B terkinle birlikte kendiliğinden 1. dereceye geçer.",
+    "B boşalan dereceye geçme hakkı kazanmaz; Ahmet boşalan dereceye yeni bir rehin kurabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bir rehnin terkini, sonraki sırada yer alan rehinli alacaklıya boşalan dereceye geçme hakkı vermez; terkin edilen rehin yerine yeni bir rehin hakkı kurulabilir (TMK m. 871/1 ve TMK m. 871/2). Bu, sabit dereceler sistemidir."
+  },
+  {
+   "stem_md": "Sonraki sıradaki rehinli alacaklılara boşalan dereceye geçme hakkı veren sözleşme bakımından hangisi doğrudur?",
+   "options": [
+    "Adi yazılı sözleşme hem geçerlilik hem aynî etki için yeterlidir.",
+    "Geçerliliği resmî şekilde yapılmasına, aynî etki sağlaması ise tapu kütüğüne şerh verilmesine bağlıdır.",
+    "Geçerlilik tescile, aynî etki resmî şekle bağlıdır.",
+    "Geçerliliği resmî şekilde yapılmasına bağlıdır; şerh gerekmez, sözleşme kendiliğinden aynî etki doğurur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "İlerleme hakkı veren sözleşmelerin geçerliliği resmî şekilde yapılmalarına, aynî etki sağlamaları ise tapu kütüğüne şerh verilmelerine bağlıdır (TMK m. 871/3). İki şart ayrıdır: Resmî şekil eksikse sözleşme geçersizdir; şerh eksikse sözleşme aynî etki doğurmaz."
+  },
+  {
+   "stem_md": "Bir taşınmazda 1. derece ipotek terkin edilmiş ve yerine yeni rehin kurulmamıştır; 2. derecede Mehmet, 3. derecede Zeynep lehine ipotek vardır. Taşınmaz paraya çevrilirse satış bedeli nasıl dağıtılır?",
+   "options": [
+    "Boş derece hesaba katılmaksızın satış bedeli sonraki alacaklılara sıralarına göre dağıtılır.",
+    "Dağıtım, boş derece yeni bir rehinle doldurulduktan sonra yapılabilir.",
+    "Satış bedeli, Mehmet ve Zeynep'e alacakları oranında eşit sırada dağıtılır.",
+    "Boş 1. derece için bir pay ayrılır ve bu pay malike ödenir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Önce gelen rehin mevcut değilse taşınmazın paraya çevrilmesinde satış bedeli, boş derece hesaba katılmaksızın sonraki alacaklılara sıralarına göre dağıtılır (TMK m. 872). Bu kural yalnız dağıtım içindir; Mehmet'in tapuda 1. dereceye yükseldiği anlamına gelmez (TMK m. 871/1)."
+  },
+  {
+   "stem_md": "Mehmet, Ali'ye olan borcu için dükkânını ipotek etmiştir. Resmî senette \"Borç vadesinde ödenmezse dükkânın mülkiyeti Ali'ye geçer\" kaydı vardır. Borç ödenmemiştir. Hangisi doğrudur?",
+   "options": [
+    "Mülkiyetin geçeceğine ilişkin hüküm geçersizdir; Ali alacağını satış bedelinden elde etme hakkına sahiptir.",
+    "Hüküm resmî senette yer aldığı için geçerlidir; Ali borç ödenmeyince malik olur.",
+    "Hüküm, yalnız dükkânın değeri borçtan fazlaysa geçersizdir.",
+    "Hüküm geçerlidir, ancak mülkiyetin geçmesi için ayrıca tescil gerekir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Borcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir (TMK m. 873/2). Alacaklı, alacağını rehinli taşınmazın satış bedelinden elde etme hakkına sahiptir (TMK m. 873/1). Resmî şekil bu hükmü geçerli kılmaz ve değer karşılaştırması aranmaz."
+  },
+  {
+   "stem_md": "TMK m. 875'e göre rehnin güvencesine giren faizi doğru gösteren ifade hangisidir?",
+   "options": [
+    "Zamanaşımına uğramamış bütün faizler; üç yıl zamanaşımı süresidir.",
+    "İflasın açıldığı veya rehnin paraya çevrilmesinin istendiği tarihe kadar muaccel olmuş üç yıllık faiz ile son vadeden başlayarak işleyen faiz.",
+    "Rehin tescilinden itibaren işleyen bütün faizler, süre ve miktar sınırı olmaksızın.",
+    "Yalnız takip talebinden önceki son bir yıllık faiz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Güvenceye ana para, takip giderleri ve gecikme faizi ile iflasın açıldığı veya rehnin paraya çevrilmesinin istendiği tarihe kadar muaccel olmuş üç yıllık faiz ve son vadeden başlayarak işleyen faiz girer (TMK m. 875). Üç yıllık süre güvencenin kapsamını sınırlar, zamanaşımı değildir. Daha önce belirlenen faiz oranı sonradan gelen alacaklıların zararına artırılamaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ahmet'in Üsküdar'daki dairesi üzerinde şu ipotekler tescillidir: 1. derecede A Bankası lehine 1.000.000 TL, 2. derecede Bahar lehine 500.000 TL, 3. derecede Cemal lehine 300.000 TL. Ahmet, 2025 yılının başında A Bankası'na olan borcunu ödeyerek 1. derece ipoteği tapudan terkin ettirir.\n\nBahar, terkinin ardından Ahmet'e giderek \"Artık birinci derece alacaklısı benim, tapuda da öyle işlensin\" der ve Ahmet'e adi yazılı bir kâğıt imzalatır. Kâğıtta Ahmet'in, boşalan dereceye Bahar'ın geçeceğini kabul ettiği yazılıdır. Kâğıt tapuya şerh edilmez.\n\nBirkaç hafta sonra Ahmet, Dilek'ten kredi alır ve boşalan 1. dereceye Dilek lehine 800.000 TL'lik yeni bir ipotek kurdurur. Ahmet borçlarını ödeyemez ve daire paraya çevrilir.\n\n1. Bahar, 1. derece alacaklısı olduğunu ileri sürebilir mi?\n2. Bahar ile Ahmet arasındaki adi yazılı kâğıdın durumu nedir? Geçerli olabilmesi için ne gerekirdi?\n3. Dilek'in ipoteği geçerli midir ve hangi derecededir?\n4. Dilek lehine ipotek kurulmamış olsaydı ve daire 1. derece boşken satılsaydı, satış bedeli nasıl dağıtılırdı?",
+   "rubric": [
+    {
+     "point": "Rehnin güvencesinin tescildeki derece ile sınırlı olması; sonraki derecede rehnin önceki miktarın tescilde belirtilmesiyle kurulması",
+     "weight": 10,
+     "madde_ref": "TMK m. 870"
+    },
+    {
+     "point": "Terkinin sonraki rehinli alacaklıya boşalan dereceye geçme hakkı vermemesi; Bahar'ın birinci derece iddiasının yerinde olmaması",
+     "weight": 25,
+     "madde_ref": "TMK m. 871"
+    },
+    {
+     "point": "İlerleme sözleşmesinin geçerliliğinin resmî şekle, aynî etkisinin tapu kütüğüne şerhe bağlı olması; adi yazılı kâğıdın geçersizliği ve şerh eksikliği",
+     "weight": 25,
+     "madde_ref": "TMK m. 871"
+    },
+    {
+     "point": "Terkin edilen rehin yerine yeni rehin kurulabilmesi; Dilek'in rehninin boşalan 1. derecede tescil sırasına göre yer alması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1022"
+    },
+    {
+     "point": "Paraya çevirmede boş derece hesaba katılmaksızın satış bedelinin sonraki alacaklılara sıralarına göre dağıtılması; sıra gözetilerek dağıtım",
+     "weight": 20,
+     "madde_ref": "TMK m. 872"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, aynı taşınmaz üzerindeki birden çok ipoteğin dereceleri arasındaki ilişkiye, yani sabit dereceler sistemine ve boşalan derecenin akıbetine ilişkindir.\n\n**Hukuki sorunlar:** (1) Terkin sonrası sonraki alacaklının ilerleyip ilerlemeyeceği; (2) ilerleme sözleşmesinin geçerliliği; (3) boşalan dereceye yeni rehin kurulabilmesi ve sırası; (4) boş derece varken paraya çevirmede dağıtım.\n\n**İlgili hükümler:** TMK m. 870, TMK m. 871, TMK m. 872, TMK m. 874, TMK m. 1022.\n\n**Değerlendirme:**\n\n*1. Bahar'ın iddiası:* Rehnin sağladığı güvence tescilde belirtilen rehin derecesi ile sınırlıdır (TMK m. 870/1). Farklı sıralarda kurulmuş rehinlerden birinin terkin edilmesi, sonraki sırada yer alan rehinli alacaklıya boşalan dereceye geçme hakkı vermez (TMK m. 871/1). Bu nedenle A Bankası'nın ipoteği terkin edildiği için Bahar kendiliğinden 1. dereceye geçmiş olmaz; Bahar 2. dereceli alacaklı olarak kalır. Tapuda kendi lehine birinci derece işlenmesini isteyemez.\n\n*2. Adi yazılı kâğıt:* Sonraki sıradaki rehinli alacaklılara boşalan dereceye geçme hakkı veren sözleşmelerin geçerliliği resmî şekilde yapılmalarına, aynî etki sağlamaları ise tapu kütüğüne şerh verilmelerine bağlıdır (TMK m. 871/3). Bahar ile Ahmet arasındaki kâğıt adi yazılıdır; resmî şekil geçerlilik şartı olduğundan kâğıt geçersizdir. Şerh de verilmediğinden aynî etkisi de yoktur. Kâğıdın geçerli olması için sözleşmenin resmî şekilde (2644 sayılı Kanun m. 26) yapılması, aynî etki için ayrıca tapu kütüğüne şerh verilmesi gerekirdi.\n\n*3. Dilek'in ipoteği:* Terkin edilen rehin yerine yeni bir rehin hakkı kurulabilir (TMK m. 871/2). Ahmet boşalan dereceye Dilek lehine yeni ipotek kurabilir. Rehinler sıralarını ve tarihlerini tescile göre alır (TMK m. 1022/1); Dilek'in ipoteği boşalan 1. derecede, 800.000 TL'lik miktarla yer alır. Bahar'ın adi yazılı kâğıdı bu işlemi engellemez. Bahar'ın şerhli ve resmî bir ilerleme sözleşmesi olmadığı için Dilek'e karşı ileri sürülebilecek aynî bir hakkı yoktur.\n\n*4. Dilek'in ipoteği olmasaydı:* Ahmet 1. dereceye yeni rehin kurmasaydı, önce gelen rehin mevcut olmayacağından taşınmazın paraya çevrilmesinde satış bedeli, boş derece hesaba katılmaksızın sonraki alacaklılara sıralarına göre dağıtılırdı (TMK m. 872 ve TMK m. 874). Yani önce Bahar, sonra Cemal alacağını alırdı; boş 1. derece için bir pay ayrılmazdı. Bu, Bahar'ın tapuda 1. dereceye yükseldiği anlamına gelmez; TMK m. 871/1 rehinler ayaktayken geçme hakkını reddeder, TMK m. 872 ise yalnız dağıtım kuralıdır.\n\n**Sonuç:**\n- Bahar 1. derece alacaklısı olduğunu ileri süremez.\n- Adi yazılı kâğıt geçersizdir; geçerlilik için resmî şekil, aynî etki için şerh gerekirdi.\n- Dilek'in 800.000 TL'lik ipoteği geçerlidir ve boşalan 1. derecede yer alır.\n- Dilek'in rehni olmasaydı satış bedeli boş derece gözetilmeden Bahar'a, sonra Cemal'e sırasıyla dağıtılırdı."
+  },
+  {
+   "stem_md": "Zeynep, Bodrum'daki otel binasını 2024'te X Bankası lehine ipotek etmiştir. İpotek kurulurken otelin mutfak makineleri ile otel döşeme eşyası açıkça eklenti olarak gösterilmiş ve tapu kütüğünde beyanlar sütununa yazılmıştır.\n\nZeynep, binayı 2025'te Y Ltd. Şti.'ye aylık kira karşılığı kiraya vermiştir. 2026 yılının başında Zeynep, binanın taşıyıcı kolonlarında izinsiz tadilat yaptırmaya başlamıştır. Bu tadilat nedeniyle binanın değeri düşmekte ve çökme tehlikesi doğmaktadır. Hâkimden yetki almaya zaman bulunmadığı için X Bankası, kendi masrafıyla geçici destek kolonları yaptırmıştır.\n\nBorç ödenmeyince X Bankası, rehnin paraya çevrilmesi yoluyla takip başlatmıştır. Banka, takipte mutfak makinelerini de satışa dahil etmek istemektedir; Zeynep ise \"makineler taşınırdır\" diye itiraz etmektedir. Ayrıca Y Ltd. Şti., takipten haberi olmadığını ve kirayı Zeynep'e ödemeye devam edeceğini söylemektedir.\n\n1. Mutfak makineleri ve döşeme eşyası rehnin kapsamında mıdır? Zeynep'in itirazını değerlendiriniz.\n2. Banka, hâkimden yetki almadan önlem alabilir mi? Destek kolonlarının masrafları için bankanın hangi hakkı vardır?\n3. Kira bedelleri hangi tarihten itibaren rehnin kapsamına girer? X Bankası rehin hakkını Y Ltd. Şti.'ye karşı ne zaman ileri sürebilir?\n4. Binanın değeri düştüğüne göre banka Zeynep'ten ne isteyebilir?",
+   "rubric": [
+    {
+     "point": "Rehnin bütünleyici parça ve eklentileri kapsaması; açıkça gösterilip beyanlara yazılan makinelerin aksi ispat edilmedikçe eklenti sayılması, Zeynep'in itirazının taşınır olmakla sonuç vermemesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 862"
+    },
+    {
+     "point": "Gecikmesinde tehlike bulunduğunda alacaklının hâkimden yetki almadan gerekli önlemleri alabilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 865"
+    },
+    {
+     "point": "Önlem giderleri için tescile gerek olmaksızın ve tescilli diğer yüklerden önce gelen rehin hakkı doğması",
+     "weight": 15,
+     "madde_ref": "TMK m. 865"
+    },
+    {
+     "point": "Kira bedellerinin takibe başlanmasından paraya çevirme anına kadar işleyen kısmının rehin kapsamına girmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 863"
+    },
+    {
+     "point": "Rehnin kiracıya karşı ancak takibin kendisine bildirilmesinden sonra ileri sürülebilmesi; icra memurunun kiracıyı takipten haberdar edip kiraların icra dairesine ödenmesini emretmesi",
+     "weight": 20,
+     "madde_ref": "İİK m. 150/b"
+    },
+    {
+     "point": "Değer düşmesinde alacaklının başka güvence veya eski hâle getirme isteyebilmesi; güvence süresinde verilmezse eksik kısmın ödenmesini isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 866"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, ipoteğin kapsamı (eklenti ve kira bedelleri) ile alacaklıyı koruma hükümlerine ilişkindir.\n\n**Hukuki sorunlar:** (1) Eklenti karinesi; (2) alacaklının önlem alma yetkisi ve giderlerin güvencesi; (3) kira bedellerinin kapsama girmesi ve kiracıya karşı ileri sürülebilirlik; (4) değer düşmesinde alacaklının istemleri.\n\n**İlgili hükümler:** TMK m. 684, TMK m. 686, TMK m. 862, TMK m. 863, TMK m. 865, TMK m. 866; İİK m. 150/b.\n\n**Değerlendirme:**\n\n*1. Eklentiler:* Rehin, taşınmazı bütünleyici parçaları ve eklentileri ile birlikte yükümlü kılar (TMK m. 862/1). Eklenti, asıl şeye sürekli olarak özgülenen ve ona bağlı kılınan taşınır maldır (TMK m. 686/2). Rehnin kuruluşu sırasında makine, otel döşeme eşyası gibi açıkça eklenti olarak gösterilen ve tapu kütüğünde beyanlar sütununa yazılan şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır (TMK m. 862/2). Mutfak makineleri ve döşeme eşyası bu iki şartı karşılar. Zeynep'in \"taşınırdır\" itirazı sonuç vermez, çünkü eklentinin kendisi zaten taşınır maldır. Zeynep'in kurtulması için bu eşyanın eklenti olamayacağını ispat etmesi gerekir; karine aksi ispat edilebilir ama ispat yükü ona düşer.\n\n*2. Önlem ve giderler:* Malik değeri düşüren davranışlarda bulunursa alacaklı hâkimden yasaklanmasını isteyebilir; gecikmesinde tehlike bulunan hâllerde ise böyle bir yetki verilmeden de gerekli önlemleri kendiliğinden alabilir (TMK m. 865). Olayda çökme tehlikesi ve zamanın darlığı bulunduğundan banka kendiliğinden destek kolonlarını yaptırabilir. Giderler için banka, taşınmaz üzerinde tescile gerek olmaksızın ve tescil edilmiş diğer yüklerden önce gelen bir rehin hakkına sahip olur (TMK m. 865/3).\n\n*3. Kira:* Kiraya verilmiş taşınmaz üzerindeki rehnin kapsamına, rehnin paraya çevrilmesi yoluyla takibe başlanmasından itibaren paraya çevirme anına kadar işleyen kira bedelleri girer (TMK m. 863/1). Rehin kurulduğu andan itibaren değil, takibin başlamasından itibaren. Rehin hakkı kiracılara karşı ancak takibin kendilerine bildirilmesinden sonra ileri sürülebilir (TMK m. 863/2). İcra memuru alacaklının talebi üzerine takibin kesinleşmesini beklemeden kiracıyı takipten haberdar eder ve işleyecek kiraların icra dairesine ödenmesini emreder (İİK m. 150/b). Bu bildirim ve emir üzerine Y Ltd. Şti. işleyecek kiraları icra dairesine ödemelidir.\n\n*4. Değer düşmesi:* Değer düşmüşse alacaklı borçludan başka güvence göstermesini veya taşınmazın eski hâle getirilmesini isteyebilir (TMK m. 866/1). Yeterli güvence hâkimin belirlediği sürede verilmezse banka güvence eksiğini karşılayacak miktardaki alacak kısmının ödenmesini isteyebilir (TMK m. 866/3). Düşme Zeynep'in kusuruyla gerçekleştiğinden TMK m. 867'deki tazminatla sınırlama burada gündeme gelmez.\n\n**Sonuç:**\n- Makineler ve döşeme eşyası, aksi ispat edilmedikçe eklenti sayılır ve rehnin kapsamındadır.\n- Banka hâkimden yetki almadan önlem alabilir; masrafları için tescilsiz ve diğer yüklerden önce gelen bir rehin hakkı doğar.\n- Kiralar takibin başlamasından itibaren kapsamdadır; rehin Y Ltd. Şti.'ye karşı takip kendisine bildirildikten sonra ileri sürülür.\n- Banka başka güvence veya eski hâle getirme isteyebilir; süresinde verilmezse eksik kısmın ödenmesini ister."
+  },
+  {
+   "stem_md": "Mehmet, Ali'ye olan 2.000.000 TL borcu için kendisine ait iki dükkân üzerine Ali lehine ipotek verir. Resmî senede şu kayıt konulmuştur: \"Borç vadesinde ödenmezse dükkânların mülkiyeti Ali'ye geçer.\" Senette ayrıca faiz oranı da belirlenmiştir. İpotek iki dükkânın tapu kaydına tescil edilir.\n\nAradan zaman geçtikten sonra Mehmet, aynı dükkânların ikinci derecesine Can lehine ipotek kurdurur. Ardından Ali ile Mehmet bir ek anlaşma yaparak Ali'nin ipoteğinin faiz oranını yükseltir. Ek anlaşmadan Can'a haber verilmez.\n\nBorç ödenmez. Ali, Mehmet aleyhine doğrudan haciz yoluyla ilamsız icra takibi başlatmak istemektedir. Ali ayrıca, kendisi iki dükkândan yalnız birinin satışını yeterli görmekte, ancak hangi usulle ilerleyeceğini bilmemektedir.\n\n1. Mülkiyetin Ali'ye geçeceğine ilişkin kayıt geçerli midir? Ali'nin hakkı nedir?\n2. İki dükkân tek borç için rehnedilebilir mi?\n3. Ali, paraya çevirmeyi hangi taşınmaz için ister ve icra dairesi nasıl davranır?\n4. Yükseltilen faiz oranını Ali, Can'a karşı ileri sürebilir mi? Güvenceye hangi faiz girer?\n5. Ali doğrudan haciz yoluyla takip yapabilir mi?",
+   "rubric": [
+    {
+     "point": "Borcun ödenmemesi hâlinde mülkiyetin alacaklıya geçeceğine ilişkin sözleşme hükmünün geçersizliği (lex commissoria yasağı)",
+     "weight": 20,
+     "madde_ref": "TMK m. 873"
+    },
+    {
+     "point": "Alacaklının hakkının alacağını rehinli taşınmazın satış bedelinden elde etmek olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 873"
+    },
+    {
+     "point": "İki dükkânın aynı malike ait olması nedeniyle aynı borç için rehnedilebilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 855"
+    },
+    {
+     "point": "Paraya çevirme isteminin taşınmazların tamamı hakkında yapılması; icra dairesinin yalnız gerektiği kadarını paraya çevirmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 873"
+    },
+    {
+     "point": "Daha önce belirlenmiş faiz oranının sonradan gelen alacaklının zararına artırılamaması; Can'a karşı ileri sürülememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 875"
+    },
+    {
+     "point": "Güvenceye giren faizin muaccel üç yıllık faiz ile son vadeden işleyen faizle sınırlı olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 875"
+    },
+    {
+     "point": "Rehinle güvenceli alacakta kural olarak yalnız rehnin paraya çevrilmesi yoluyla takip yapılabilmesi; rehin yetmezse kalan için haciz veya iflas",
+     "weight": 15,
+     "madde_ref": "İİK m. 45"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, iki taşınmaz üzerinde kurulan ipoteğin paraya çevrilmesine, mülkiyet geçirme kaydının geçersizliğine ve sonradan gelen alacaklı karşısında faiz artırımının sınırına ilişkindir.\n\n**Hukuki sorunlar:** (1) Lex commissoria yasağı; (2) birden çok taşınmazın rehni; (3) paraya çevirmenin kapsamı; (4) faiz oranının artırılması ve güvencenin kapsamı; (5) takip yolu.\n\n**İlgili hükümler:** TMK m. 855, TMK m. 873, TMK m. 874, TMK m. 875; İİK m. 45, İİK m. 148, İİK m. 149, İİK m. 150/c.\n\n**Değerlendirme:**\n\n*1. Mülkiyet kaydı:* Borcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir (TMK m. 873/2). Senedin resmî olması bu hükmü geçerli kılmaz. Ali'nin hakkı, alacağını rehinli taşınmazın satış bedelinden elde etmektir (TMK m. 873/1); dükkânların maliki olamaz. Kanun yalnız bu hükmün geçersiz olduğunu söyler.\n\n*2. İki dükkân:* Birden çok taşınmazın aynı borç için rehnedilmesi, taşınmazların aynı malike veya borçtan müteselsilen sorumlu olan maliklere ait olmalarına bağlıdır (TMK m. 855/1). İki dükkân da Mehmet'e aittir; bu şart sağlanmıştır.\n\n*3. Paraya çevirme:* Aynı alacak için birden çok taşınmaz rehnedilmişse rehnin paraya çevrilmesi istemi taşınmazların tamamı hakkında yapılır; ancak icra dairesi onlardan yalnız gerektiği kadarını paraya çevirir (TMK m. 873/3). Ali bu nedenle istemi iki dükkân için birlikte yapar. İcra dairesi bir dükkânın satışıyla alacak karşılanıyorsa diğerini paraya çevirmez. Takip talebi icra dairesine verilir (İİK m. 148); icra emrinde borcun otuz gün içinde ödenmesi istenir (İİK m. 149) ve takibin başladığı tapuya bildirilerek şerh verilir (İİK m. 150/c). Satış bedeli alacaklılara sıralarına göre dağıtılır (TMK m. 874): önce Ali, kalan olursa Can.\n\n*4. Faiz:* Daha önce belirlenmiş olan faiz oranı, sonradan gelen alacaklıların zararına olarak artırılamaz (TMK m. 875 son fıkra). Can sonradan gelen alacaklıdır; Mehmet ile Ali arasındaki artırım Can'a karşı ileri sürülemez. Güvenceye giren faiz ayrıca TMK m. 875/3 ile sınırlıdır: Rehnin paraya çevrilmesinin istendiği tarihe kadar muaccel olmuş üç yıllık faiz ile son vadeden başlayarak işleyen faiz.\n\n*5. Takip yolu:* Rehinle temin edilmiş alacağın borçlusu iflasa tabi olsa bile alacaklı yalnız rehnin paraya çevrilmesi yoluyla takip yapabilir; ancak rehnin tutarı borcu ödemeye yetmezse kalan alacağını iflas veya haciz yoluyla takip edebilir (İİK m. 45/1). Bu nedenle Ali önce rehnin paraya çevrilmesi yolunu izler; doğrudan haciz yoluna kural olarak gidemez.\n\n**Sonuç:**\n- Mülkiyetin Ali'ye geçeceğine ilişkin kayıt geçersizdir; Ali satış bedelinden alacağını alabilir.\n- İki dükkân aynı malike ait olduğundan aynı borç için rehnedilebilir.\n- Paraya çevirme istemi iki dükkân için birlikte yapılır; icra dairesi gerektiği kadarını satar.\n- Artırılan faiz Can'a karşı ileri sürülemez; güvence kapsamı TMK m. 875/3 ile sınırlıdır.\n- Ali kural olarak önce rehnin paraya çevrilmesi yoluyla takip yapmalıdır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Taşınmaz rehni hangi şekillerde kurulabilir? (TMK m. 850)",
+   "back_md": "Ancak ipotek, ipotekli borç senedi veya irat senedi şeklinde. Sayım sınırlıdır."
+  },
+  {
+   "front_md": "Taşınmaz rehni hangi alacak için kurulur? (TMK m. 851/1)",
+   "back_md": "Miktarı Türk parası ile gösterilen belli bir alacak için. Miktar belli değilse taraflar alacaklının bütün istemlerini karşılayacak üst sınırı belirtir."
+  },
+  {
+   "front_md": "Yabancı para üzerinden rehin hangi alacaklar için kurulabilir?",
+   "back_md": "Yalnız kredi kuruluşlarınca yabancı para üzerinden veya yabancı para ölçüsüyle verilen krediler için. Aynı derecede birden fazla para türü kullanılamaz (TMK m. 851/2)."
+  },
+  {
+   "front_md": "TMK m. 851/4'te yabancı para cinslerini kim belirler?",
+   "back_md": "Cumhurbaşkanı. Eskiden Bakanlar Kurulu'ydu; 2018'de 700 sayılı Kanun Hükmünde Kararname ile değişti. Hesapta Merkez Bankası döviz alış kuru esastır."
+  },
+  {
+   "front_md": "Rehnin hangi taşınmazlar üzerinde kurulabilmesi aranır? (TMK m. 853 ve TMK m. 854)",
+   "back_md": "Tapuya kayıtlı taşınmazlar üzerinde. Bölünen taşınmazın parselleri ayrı ayrı kaydedilmedikçe rehne konu olamaz."
+  },
+  {
+   "front_md": "Birden çok taşınmaz tek borç için nasıl rehnedilir? (TMK m. 855)",
+   "back_md": "Aynı malike veya müteselsil sorumlu maliklere aitse birlikte. Diğer hâllerde her taşınmazın alacağın ne miktarı için güvence olduğu belirtilir; anlaşma yoksa tapu idaresi değer oranında dağıtır."
+  },
+  {
+   "front_md": "Taşınmaz rehni nasıl kurulur? (TMK m. 856)",
+   "back_md": "Tescille. Kurma sözleşmesinin geçerliliği resmî şekilde yapılmasına bağlıdır. Resmî senedi tapu sicil görevlileri düzenler (2644 sayılı Kanun m. 26)."
+  },
+  {
+   "front_md": "Paylı ve elbirliği mülkiyetinde rehin? (TMK m. 857)",
+   "back_md": "Paylı mülkiyette paydaş kendi payını rehnedebilir. Elbirliğinde pay rehni yoktur; taşınmaz ancak bütün olarak ve maliklerin tamamı adına rehnedilir."
+  },
+  {
+   "front_md": "Taşınmaz rehni nasıl sona erer? (TMK m. 858)",
+   "back_md": "Tescilin terkini veya taşınmazın tamamen yok olmasıyla. Terkin için kaydın hak sağladığı kişilerin yazılı beyanı gerekir (TMK m. 1014)."
+  },
+  {
+   "front_md": "Rehin neleri kapsar? (TMK m. 862)",
+   "back_md": "Taşınmazı, bütünleyici parçaları ve eklentileriyle birlikte. Açıkça eklenti gösterilip beyanlara yazılan şeyler, aksi ispat edilmedikçe eklenti sayılır."
+  },
+  {
+   "front_md": "Eklenti sayılmak için beyan şart mıdır?",
+   "back_md": "Hayır. TMK m. 686'daki tanıma uyan şey zaten eklentidir. Beyan yalnız TMK m. 862/2'deki karineyi doğurur."
+  },
+  {
+   "front_md": "Kira bedelleri rehin kapsamına ne zaman girer? (TMK m. 863/1)",
+   "back_md": "Paraya çevirme takibine başlanmasından veya iflasın ilanından başlayarak paraya çevirme anına kadar işleyen kira bedelleri."
+  },
+  {
+   "front_md": "Rehin hakkı kiracıya karşı ne zaman ileri sürülür? (TMK m. 863/2)",
+   "back_md": "Takibin kendisine bildirilmesinden veya iflas kararının ilanından sonra. İcra memuru takibin kesinleşmesini beklemeden kiracıyı haberdar eder (İİK m. 150/b)."
+  },
+  {
+   "front_md": "TMK m. 864'ün kuralı nedir?",
+   "back_md": "Rehnin tapu kütüğüne tescilinden sonra alacak için zamanaşımı işlemez. Başlangıç tescildir; kapsamı tartışmalıdır."
+  },
+  {
+   "front_md": "Gecikmesinde tehlike varsa alacaklı ne yapabilir? (TMK m. 865)",
+   "back_md": "Hâkimden yetki almadan gerekli önlemleri kendiliğinden alabilir. Giderler için tescilsiz ve tescilli diğer yüklerden önce gelen rehin hakkı doğar."
+  },
+  {
+   "front_md": "Değer düşmesinde alacaklı ne isteyebilir? (TMK m. 866 ve TMK m. 867)",
+   "back_md": "Başka güvence veya eski hâle getirme; süresinde verilmezse eksik kısmın ödenmesi. Değer kusursuz düşmüşse malikin aldığı tazminatla sınırlı."
+  },
+  {
+   "front_md": "Yirmide bir kuralı iki yerde nasıl işler?",
+   "back_md": "TMK m. 861: bedel alacağın yirmide birinden fazlaysa rızasız ödenemez. TMK m. 868: devredilen parça yirmide birinden az değerliyse alacaklı rehni kaldırmaktan kaçınamaz."
+  },
+  {
+   "front_md": "Malik rehinli taşınmaza irtifak kurabilir mi? (TMK m. 869)",
+   "back_md": "Evet; kurmama taahhüdü geçersizdir. Ama paraya çevirmede önceki rehinli alacaklılara zarar veren irtifak terkin edilir."
+  },
+  {
+   "front_md": "Rehnin güvencesi neyle sınırlıdır? (TMK m. 870)",
+   "back_md": "Tescilde belirtilen rehin derecesiyle. Sonraki derecede rehin, önceki derecenin miktarı tescilde belirtilerek kurulur."
+  },
+  {
+   "front_md": "Önceki derece terkin edilince sonraki alacaklı ilerler mi? (TMK m. 871)",
+   "back_md": "Hayır; boşalan dereceye geçme hakkı yoktur. Yerine yeni rehin kurulabilir."
+  },
+  {
+   "front_md": "İlerleme sözleşmesinin iki şartı? (TMK m. 871/3)",
+   "back_md": "Geçerlilik için resmî şekil, aynî etki için tapu kütüğüne şerh."
+  },
+  {
+   "front_md": "Boş derece paraya çevirmede nasıl işlenir? (TMK m. 872)",
+   "back_md": "Boş derece hesaba katılmaksızın satış bedeli sonraki alacaklılara sıralarına göre dağıtılır."
+  },
+  {
+   "front_md": "Lex commissoria yasağı nedir? (TMK m. 873/2)",
+   "back_md": "Borcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir. Alacaklı satış bedelinden alma hakkına sahiptir."
+  },
+  {
+   "front_md": "Üç yıllık faiz neyi anlatır? (TMK m. 875)",
+   "back_md": "Zamanaşımını değil, güvencenin kapsamını: İflasın açıldığı veya paraya çevirmenin istendiği tarihe kadar muaccel üç yıllık faiz ile son vadeden işleyen faiz. Oran sonradan gelen alacaklının zararına artırılamaz."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
