@@ -43,7 +43,7 @@ BARE_RE = re.compile(rf"(?<![{LETTER}.])m\.\s*(\d+)(?:/([0-9{LETTER}]+))?")
 OPTION_LETTER_RE = re.compile(r"\b[A-D]\s*şık|\bşık(?:kı)?\s*[A-D]\b|\b[A-D]\)\s", re.IGNORECASE)
 
 MIN = {"ozet": 150, "anlatim": 1200, "cozum": 150, "karar_ozet": 25}
-COUNTS = {"sozluk": (6, 40), "sorular": (15, 30), "olaylar": (2, 5), "kartlar": (12, 30), "kritik": (8, 40)}
+COUNTS = {"sozluk": (6, 40), "sorular": (12, 30), "olaylar": (2, 5), "kartlar": (12, 30), "kritik": (8, 40)}
 
 
 def canon(kanun: str) -> str:

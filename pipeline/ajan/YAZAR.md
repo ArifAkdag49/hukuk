@@ -12,7 +12,7 @@ Tek bir hukuk öğrencisi (Marmara Hukuk, 3. sınıf) için hazırlanan Android 
 ## 1. Önce oku (tamamını)
 1. `pipeline/YAZIM_REHBERI.md`: üslup, doğruluk kuralları, bölümler, hedef uzunluklar, YAML biçimi, kontrol listesi.
 2. Kaynak paketi: `pipeline/kaynak/<DERS>/<slug>.md`.
-3. Örnek konu: `pipeline/taslak/HUK3011/tescil-serh-ve-beyan.yaml` (üslup, derinlik ve biçim bu düzeyde).
+3. YAML biçimi için rehberdeki örnek yeterlidir; **örnek konu dosyasını okuma** (88 KB, süre ve token yer).
 
 ## 2. Kurallar
 - **Argon paketi (pakette "Konu <no>." başlığı, `slug:` satırı ve 11 bölüm varsa):** Paket başka bir araştırmacının dosyasından
@@ -43,9 +43,11 @@ Tek bir hukuk öğrencisi (Marmara Hukuk, 3. sınıf) için hazırlanan Android 
   maddeye kısaltma. Yönetmelik, tebliğ, Cumhurbaşkanı Kararı ve sözleşmelere "m." ile atıf yapma ("Yönetmelik'in 4.
   maddesi"). Numaralı kanun: "3402 sayılı Kanun m. 14", `maddeler`e `{kanun: '3402', madde: '14'}`. Geçici maddeye
   "TMK'nın geçici 1. maddesi" diye yazıyla. Kendi hesapladığın rakamı kesin bilgi gibi verme.
-- **Hedefler:** özet 250-450 kelime, anlatım 1800-3000, kritik 10-15 madde, doktrin 150-500 kelime, sözlük 8-15 terim,
-  kararlar 2-3, 20 çoktan seçmeli soru (en az 6'sı mini olay), 3 olay (5-8 ölçüt, toplam 100 puan, çözüm 300-700 kelime),
-  15-25 kart. Üslup: üniversite öğrencisine ders anlatımı; bol ve doğru örnek, tablo ve ⚠️ kutuları.
+- **Hedefler (HAFİF MOD, kullanıcı kararı 2026-10-18; hız ve token için):** özet 250-350 kelime, anlatım **1500-2000 kelime**
+  (en az 1200), kritik 10-12 madde, doktrin 150-300 kelime, sözlük 8-12 terim, kararlar 2 (3'ü geçmesin), **12 çoktan seçmeli
+  soru** (en az 4'ü mini olay), **2 olay** (5-6 ölçüt, toplam 100 puan, çözüm 300-450 kelime), **12 kart**. Daha uzun yazma:
+  fazlası süreyi ve token'ı artırır. Çekirdeği (tanım, şartlar, süreler, sonuçlar, sık karıştırılanlar, güncel değişiklik) eksiksiz ver.
+  Üslup: üniversite öğrencisine ders anlatımı; doğru örnekler, tablo ve ⚠️ kutuları.
 
 ## 3. Çalışma sırası
 1. Paketi ve rehberi oku. 2. Taslağı yaz. 3. Denetimi çalıştır, **hata ve uyarı kalmayana kadar** düzelt:

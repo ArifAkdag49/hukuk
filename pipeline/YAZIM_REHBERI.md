@@ -64,14 +64,14 @@ anlatımının sade, düzenli ve akılda kalan hâli olsun.
 | Alan | İçerik | Hedef |
 |---|---|---|
 | `ozet` | Hızlı tekrar: konunun iskeleti, maddeleriyle. Madde işaretli. | 250-450 kelime (en az 150) |
-| `anlatim` | Ana ders notu: tanım → unsurlar/şartlar → hükümler ve sonuçlar → istisnalar → ilişkili kurumlarla fark → uygulama ve ispat → denetim şeması. Bol örnekli. | 1800-3000 kelime (en az 1200) |
+| `anlatim` | Ana ders notu: tanım → unsurlar/şartlar → hükümler ve sonuçlar → istisnalar → ilişkili kurumlarla fark → uygulama ve ispat → denetim şeması. Bol örnekli. | **hafif mod (2026-10-18): 1500-2000 kelime** (en az 1200; eski hedef 1800-3000) |
 | `kritik` | Sınav kritik noktaları: süreler, şartlar, sık karıştırılanlar, tuzaklar. | 10-15 madde (8-40) |
 | `doktrin` | Önemli tartışmalar: görüşler, gerekçeleri, baskın görüş, uygulamanın tavrı. | 150-500 kelime |
 | `sozluk` | Terim ve kısa, net tanım. | 8-15 terim (6-40) |
 | `kararlar` | 2-3 karar: `id` ve 3-6 cümlelik özet (olay → hukuki sorun → Yargıtay'ın ilkesi → konuya katkısı). | 0-4 |
-| `sorular` | Çoktan seçmeli: 20 soru. Karışık zorluk, en az 6'sı mini olay. Tam 4 şık, tek doğru. Açıklama: neden doğru, yaygın yanılgı, madde. | 15-30 |
-| `olaylar` | Final tarzı olay soruları: 3 olay, her biri birden çok sorun içersin. | 2-5 |
-| `kartlar` | Tekrar kartı: ön kısa soru/kavram, arka 1-3 cümle. | 15-25 (12-30) |
+| `sorular` | Çoktan seçmeli: **12 soru** (hafif mod; eski hedef 20). Karışık zorluk, en az 4'ü mini olay. Tam 4 şık, tek doğru. Açıklama: neden doğru, yaygın yanılgı, madde. | 15-30 |
+| `olaylar` | Final tarzı olay soruları: **2 olay** (hafif mod; eski hedef 3), her biri birden çok sorun içersin. | 2-5 |
+| `kartlar` | Tekrar kartı: ön kısa soru/kavram, arka 1-3 cümle. | **12-15** (hafif mod; en az 12) |
 
 **Çoktan seçmeli sorular**
 - Çeldiriciler makul olsun ve gerçek bir yanılgıyı temsil etsin.
