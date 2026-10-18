@@ -1,0 +1,817 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 8,
+ "unit_title": "Ünite 8: Kat Mülkiyeti",
+ "topic_index": 2,
+ "slug": "kat-maliklerinin-haklari-borclari-ve-yonetim",
+ "title": "Kat Maliklerinin Hakları ve Borçları, Ortak Giderler, Yönetim Planı, Kurul ve Yönetici",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T00:36:43.241500+00:00",
+ "skill_refs": [
+  "kat-mulkiyeti/malik-haklar-borclar-cikarma"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Kat mülkiyeti kurulduktan sonra bina nasıl yönetilir, malikler birbirine ve binaya karşı hangi borçlarla bağlıdır, borçlarını ihlal edenin başına ne gelir? (Malikin hakları KMK m. 15-16'dandır ve bir önceki konunun içindedir: haklar m. 15-16, borçlar m. 18 vd.)\n\n- **Genel borç (KMK m. 18):** doğruluk kurallarına uyma, birbirini rahatsız etmeme, yönetim planına uyma. Borçlar kiracıyı ve devamlı yararlananı da bağlar; bunlar malikle müteselsil sorumludur.\n- **Bakım ve değişiklik (KMK m. 19):** ortak yerde inşaat, onarım, tesis ve değişik renkte dış boya için bütün kat maliklerinin **beşte dördünün yazılı rızası** gerekir. Malik kusuruyla verdiği zarardan sorumludur.\n- **Ortak giderler (KMK m. 20-22):** personel giderleri ve avansı eşit, diğer giderler arsa payı oranında paylaşılır. Gecikme tazminatı geciken günler için **aylık yüzde beş**tir. Kiracının sorumluluğu kira miktarıyla sınırlıdır. Mahkemece tespit edilen borç için diğer malikler lehine **kanuni ipotek** tescil edilir; bundan önceden feragat geçersizdir.\n- **Katlanma ve yasaklar (KMK m. 23-24):** başka bölüme girmek gerekirse katlanılır; klinik gibi yerler kurulamaz; meskende lokanta, dükkân gibi yerler ancak **oybirliğiyle** açılır.\n- **Çıkarma (KMK m. 25):** çekilmez hâle gelen malikin bölümü, değeri ödenerek diğerlerine devredilir. Dava kararı **sayı ve arsa payı çoğunluğuyla** alınır; dava hakkı öğrenmeden 6 ay, her hâlde 5 yıl içinde kullanılır.\n- **Yönetim planı (KMK m. 28):** sözleşme hükmündedir; değiştirmek için bütün maliklerin **beşte dördünün oyu** şarttır.\n- **Kurul (KMK m. 29-32):** yılda en az bir toplantı; olağanüstü toplantıyı yönetici, denetçi veya maliklerin üçte biri ister; çağrı en az 15 gün önce yapılır. Toplantı yeter sayısı sayı ve arsa payı bakımından yarıdan fazladır. İkinci toplantıda katılanların salt çoğunluğu yeter. Her malikin bir oyu vardır.\n- **İptal davası (KMK m. 33):** aykırı oy veren karar tarihinden, katılmayan öğrenmeden itibaren **bir ay**; her hâlde karar tarihinden **altı ay**. Sulh hukuk mahkemesinde ve arabuluculuktan sonra açılır. Yok ve mutlak butlan hâllerinde süre aranmaz.\n- **Yönetici (KMK m. 34-41):** sekiz veya daha fazla bağımsız bölümde zorunludur; sayı ve arsa payı çoğunluğuyla, her yıl atanır. Vekil gibi sorumludur.\n- 📌 **7579 sayılı Kanun (RG 22/5/2026):** avans, işletme projesi onaylanıncaya kadar toplanır (KMK m. 35/1-d); işletme projesini kat malikleri genel kurulu onaylar, geçici proje bedelinde yeniden değerleme tavanı vardır (KMK m. 37). Ana yapıda plan değişikliği hâlâ beşte dörttür.\n- **Usul:** görevli mahkeme sulh hukuk mahkemesi (Kat Mülkiyeti Kanunu'nun ek 1. maddesi ve HMK m. 4/1-ç); dava şartı arabuluculuk (HUAK m. 18/B/1-c).",
+  "content_md": "## 0. Konunun haritası\n\nÖnceki konuda kat mülkiyetinin kuruluşunu gördük. Bu konuda binanın **yaşayan hâlini** inceliyoruz: malik borçları ve ortak giderler (KMK m. 18-24), çıkarma (KMK m. 25-26), kurul ve yönetim planı (KMK m. 27-33), yönetici (KMK m. 34-41). Malikin hakları KMK m. 15 ve KMK m. 16'dadır: Malik kendi bağımsız bölümünde, Kanunun ilgili hükümleri saklı kalmak şartıyla, TMK'nın maliklere tanıdığı yetkilere sahiptir; ortak yerlerde arsa payı oranında paylı malik olur ve kullanma hakkı vardır. \n\n> 💡 **Püf nokta:** Bu konu **sayılarla** doludur: beşte dört, oybirliği, sayı ve arsa payı çoğunluğu, bir ay, altı ay. Hangi işte hangi nisabın arandığını bölüm 5.4'teki tablodan ezberle.\n\n## 1. Genel borç ve bakım yükümlülüğü\n\n### 1.1 Doğruluk kuralları (KMK m. 18)\nKMK m. 18/1'e göre malikler bağımsız bölümleri, eklentileri ve ortak yerleri kullanırken **doğruluk kurallarına uymakla**, özellikle birbirini rahatsız etmemekle, birbirinin haklarını çiğnememekle ve yönetim planına uymakla karşılıklı yükümlüdür. İkinci fıkra borçları genişletir: malik borçları **kiracılara, oturma hakkı sahiplerine ve devamlı yararlananlara** da uygulanır; bunlar malikle birlikte **müteselsil** sorumlu olur.\n\n> **Örnek:** Ali'nin dairesindeki kiracı Mehmet gece yarılarına kadar yüksek sesli müzik yaparsa komşular KMK m. 18'e dayanarak yalnız Ali'ye değil Mehmet'e de başvurabilir; ikisi birlikte sorumludur.\n\n### 1.2 Mimari durumu koruma ve ortak yerlerde değişiklik (KMK m. 19)\nMalikler anagayrimenkulün mimari durumunu, güzelliğini ve sağlamlığını titizlikle korumaya mecburdur (KMK m. 19/1). İkinci fıkranın kuralları:\n- Bir malik, bütün kat maliklerinin **beşte dördünün yazılı rızası** olmadıkça ortak yerlerde **inşaat, onarım ve tesis** ile **değişik renkte dış badana veya boya** yaptıramaz.\n- **İstisna:** Ortak yer ve tesislerdeki bir bozukluğun anayapıya veya bağımsız bölüme zarar verdiği ve acilen onarılması gerektiği ya da anayapının güçlendirilmesinin zorunlu olduğu **mahkemece tespit edilmişse**, projeye ve tekniğe uygun onarım ve güçlendirmede maliklerin rızası aranmaz.\n- Malik kendi bölümünde de **anayapıya zarar verecek** onarım, tesis ve değişiklik yapamaz.\n- Malik, **kusuruyla** verdiği zarardan diğer maliklere karşı sorumludur (KMK m. 19/3).\n\n> **Örnek:** Zeynep dış cepheyi kendi katında pembeye boyatmak ister. 20 bölümlü binada bunun için bütün maliklerin beşte dördünün (kendi hesabımızla 16 malikin) **yazılı** rızası gerekir; toplantıda el kaldırmak yazılı rızanın yerini tutmaz.\n\n> ⚠️ **Sınavda dikkat:** Burada beşte dört **yazılı rıza** nisabıdır ve **bütün** maliklere göre hesaplanır; yönetim planı değişikliğindeki beşte dört ise **oy** nisabıdır (KMK m. 28/3).\n\n## 2. Ortak giderler (KMK m. 20-22)\n\n### 2.1 Kim, ne kadar öder? (KMK m. 20/1)\nKural **\"aralarında başka türlü anlaşma olmadıkça\"** uygulanır:\n- **Eşit:** kapıcı, kaloriferci, bahçıvan, bekçi giderleri ve bunların avansı (KMK m. 20/1-a).\n- **Arsa payı oranında:** sigorta primi, bakım, koruma, güçlendirme, onarım, yönetici aylığı, ortak tesis işletmesi ve avans (KMK m. 20/1-b).\n- **Faydalanma oranında:** faydalı yeniliklerin gideri (KMK m. 42/3).\n\nKMK m. 20/1-c kaçış yolunu kapatır: Malik, ortak yer veya tesisler üzerindeki **kullanma hakkından vazgeçerek** ya da kendi bölümünün durumu nedeniyle **faydalanmaya lüzum ve ihtiyaç bulunmadığını** ileri sürerek gider ve avans payını ödemekten kaçınamaz.\n\n### 2.2 Ödemeyen malik: dava, takip ve gecikme tazminatı (KMK m. 20/2)\nGider veya avans payını ödemeyen malik hakkında diğer maliklerden her biri ya da yönetici **dava açabilir, icra takibi yapabilir**. Ödemeyen malik, geciktiği günler için **aylık yüzde beş** hesabıyla **gecikme tazminatı** öder. Bu oran 5711 sayılı Kanunla yüzde ondan yüzde beşe indirilmiştir. Gidere birinin **kusurlu hareketi** sebep olmuşsa ödeyenler ona **rücu** edebilir (KMK m. 20/3).\n\n### 2.3 Sigorta (KMK m. 21)\nAnagayrimenkulün sigorta edilmesi **kat malikleri kurulunca kararlaştırılabilir**; sigorta yapılırsa giderlere arsa payı oranında katılınır. Yapı tamamen harap olursa sigorta bedeli aksine sözleşme yoksa arsa payı oranında paylaştırılır; kısmi hasarda bedel onarıma harcanır.\n\n### 2.4 Borcun güvencesi (KMK m. 22)\n**Kiracı ve devamlı yararlananlar.** Gider, avans ve gecikme tazminatı borcundan bölümde kira, oturma hakkı ya da başka bir sebeple devamlı yararlananlar da **müştereken ve müteselsilen** sorumludur. Ancak **kiracının sorumluluğu ödemekle yükümlü olduğu kira miktarıyla sınırlıdır** ve yaptığı ödeme kira borcundan düşer (KMK m. 22/1). \n\n> ⚠️ **Sınavda dikkat:** KMK m. 18/2'deki müteselsil sorumluluk **davranış borçları** (rahatsız etmeme gibi) içindir; ortak gider borcunda kiracının sorumluluğu KMK m. 22/1 ile **kira bedeliyle sınırlanmıştır**.\n\n**Kanuni ipotek.** Borç kiracı ya da diğer sorumlulardan da alınamazsa, **mahkemece tespit edilen** borcunu ödemeyen malikin bağımsız bölümü üzerine, varsa yöneticinin yoksa maliklerden birinin **yazılı istemiyle**, bu borç tutarı için diğer kat malikleri lehine **kanuni ipotek** tescil edilir (KMK m. 22/2). İki şart birlikte aranır:\n1. Borç, diğer sorumlulardan **\"bu yolla da alınamamış\"** olmalı.\n2. Borç, **mahkemece tespit edilmiş** olmalı.\n\nAynı fıkra TMK m. 893'ün son fıkrasını uygulanır kılar: Alacaklıların kanuni ipotek hakkından **önceden feragat etmeleri geçerli değildir**; plana \"ipotek istenemez\" yazılsa bile geçersizdir. Maliklerin bu alacakları ayrıca **önceliklidir** (KMK m. 22/3).\n\n> **Örnek:** Burcu üç yıldır aidat ödemiyor. Yönetici Ali dava açar, borç mahkemece tespit edilir. Burcu yine ödemezse Ali yazılı istemle Burcu'nun dairesine kanuni ipotek tescil ettirir.\n\n## 3. Katlanma yükümlülüğü ve yasak işler\n\n### 3.1 Başka bölüme girme (KMK m. 23)\nBir bağımsız bölümde meydana gelen hasarın onarımı, tesislerin yeniden yapılması ya da yapı güvenliğiyle ilgili **teknik incelemeler** için başka bölüme girmek gerekiyorsa, o bölümün maliki ve orada oturanlar **giriş müsaadesi vermeye ve işlerin yapılmasına katlanmaya** mecburdur. Harap olan kısmın yeniden yapımı için sağlam bölümlerden yararlanılmasına da katlanılır. Doğan zararı **lehine müsaade verilen bölümün malikleri derhal öder**.\n\n> **Örnek:** Kemal'in tesisatını onarmak için Selin'in evine girilmesi gerekir; Selin katlanır, doğan zararı Kemal derhal öder.\n\n### 3.2 Yasak işler (KMK m. 24)\nBu madde kütükteki kayda göre iki ayrı rejim kurar:\n- **Mesken, iş veya ticaret yeri** olarak kayıtlı bölümde hastane, dispanser, klinik, poliklinik, ecza laboratuvarı gibi müesseseler **kurulamaz**; maliklerin buna aykırı sözleşmeleri hükümsüzdür. Klinik niteliğinde olmayan **muayenehaneler** yasağın dışındadır (KMK m. 24/1).\n- Yalnız **mesken** olarak kayıtlı bölümde eğlence ve toplantı yerleri, fırın, lokanta, pastahane gibi gıda yerleri, imalathane, dükkân, galeri, çarşı gibi yerler ancak kurulun **oybirliğiyle** vereceği kararla açılabilir; karar istem üzerine bütün bölümlerin kütük sayfalarına **şerh** verilir (KMK m. 24/2).\n\n> ⚠️ **Sınavda dikkat:** Klinik yasağı oybirliğiyle bile aşılamaz. Lokanta ve dükkân yasağı yalnız mesken kayıtlı bölümde geçerlidir ve oybirliğiyle aşılır.\n\nKMK m. 24/3'teki avukatlık ve mali müşavirlik bürolarına ilişkin geçiş hükmü bu notta işlenmez; güncel durumunu mevzuattan kontrol et.\n\n## 4. Mülkiyetin devri mecburiyeti: çıkarma (KMK m. 25)\n\n### 4.1 Şartlar\nKat maliklerinden biri Kanunun yüklediği borç ve yükümleri yerine getirmeyerek diğerlerinin haklarını **onlar için çekilmez hâle gelecek derecede** ihlal ederse, diğerleri onun bağımsız bölümü üzerindeki mülkiyetin **kendilerine devredilmesini hâkimden isteyebilir** (KMK m. 25/1). Bu **devir (çıkarma) davasıdır**; bölüm bedelsiz alınmaz, değeri ödenir.\n\n### 4.2 Dava kararı ve usul (KMK m. 25/2)\n- Bölümün **hükme en yakın tarihteki değeri** malike ödenerek arsa payları oranında devir istenir.\n- Davanın açılması, aksi kararlaştırılmamışsa, diğer maliklerin **sayı ve arsa payı çoğunluğuyla** verecekleri karara bağlıdır. Karara rağmen bir kısım malik davayı açmak istemezse **davayı öteki malikler açar**.\n- Hâkim, hüküm vermeden önce devir bedelinin **bankada üçer aylık vadeli hesaba yatırılması** için süre verir.\n- Dava kabul edilirse bölüm **davayı açmış olan** maliklere arsa payları oranında devredilir; bedel işlemiş faiziyle davalıya ödenir.\n\n### 4.3 Çekilmezliğin var sayıldığı haller (KMK m. 25/3)\nAşağıdaki hâllerde çekilmezlik **her halde mevcut farz edilir**:\n- **(a)** Ortak gider ve avans borcunu ödemediği için **iki takvim yılı içinde üç defa** icra veya dava takibi yapılmasına sebep olunması.\n- **(b)** Sulh hâkiminin KMK m. 33 gereğince verdiği emre rağmen **devamlı olarak bir yıl ısrar** edilmesi.\n- **(c)** Bölümün randevu evi, kumarhane veya benzeri yer olarak kullanılması.\n\n> ⚠️ **Sınavda dikkat:** KMK m. 25/3 yalnız **çekilmezliği var sayar**; ayrı bir oy oranı koymaz. Dava kararı, üç hâlde de KMK m. 25/2'deki **sayı ve arsa payı çoğunluğuyla** alınır. Kanunda \"üçte iki oy\" ya da davadan önce \"süreli ihtar\" şartı yoktur. Noter ihtarı KMK m. 26/2'de ve KMK m. 40/2'de geçer.\n\n### 4.4 Dava hakkının düşmesi (KMK m. 25/4)\nDava hakkı, devir konusunda kat maliklerince alınan dava açma kararının **öğrenilmesi tarihinden başlayarak altı ay** ve her halde dava hakkının **doğumundan başlayarak beş yıl** içinde kullanılmazsa ya da dava sebebi ortadan kalkmışsa düşer. Yargıtay'ın onadığı kararlarda, dava açma kararına karşı ayrı bir iptal veya tespit davasında hukuki yarar bulunmadığı, çekilmezliğin devir davasında inceleneceği kabul edilmiştir.\n\n> **Örnek:** Tolga 2024 ve 2025'te aidat yüzünden üç kez icra takibine sebep olmuştur. Çekilmezlik var sayılır, ama diğer malikler sayı ve arsa payı çoğunluğuyla dava açma kararı almadıkça dava açılamaz.\n\n### 4.5 Kat irtifakında karşılığı (KMK m. 26)\nKat irtifakı sahipleri yapının tamamlanması için borçlarını vaktinde yerine getirmekle yükümlüdür (KMK m. 26/1). Borcunu **noter aracılığıyla yapılan ihtara rağmen ihtar tarihinden başlayarak iki ay içinde** yerine getirmeyen irtifak sahibinin payı, diğerlerinin yazılı istemiyle, hükme en yakın tarihteki değeri karşılığında diğer paydaşlara devredilir (KMK m. 26/2). **Noter ihtarı ve iki aylık süre** burada vardır, KMK m. 25'te yoktur.\n\n## 5. Kurul ve yönetim planı\n\n### 5.1 Kurul ve yönetim planı (KMK m. 27-28)\nAnagayrimenkul **kat malikleri kurulunca** yönetilir; yönetim tarzı, kanunların emredici hükümleri saklı kalmak şartıyla kurulca kararlaştırılır (KMK m. 27). **Yönetim planı** yönetim tarzını, kullanma şeklini, yönetici ve denetçilerin ücretini düzenler ve bütün kat maliklerini bağlayan bir **sözleşme hükmündedir** (KMK m. 28/1). Planda hüküm yoksa Kanun ve genel hükümler uygulanır (KMK m. 28/2).\n\n- **Değişiklik:** Bütün kat maliklerinin **beşte dördünün oyu** şarttır; maliklerin KMK m. 33'e göre mahkemeye başvurma hakları saklıdır (KMK m. 28/3).\n- **Bağlayıcılık ve tapu:** Plan, maliklerin **külli ve cüzi haleflerini** ile yönetici ve denetçileri de bağlar; tarihi kütüğün **beyanlar** hanesinde gösterilir (KMK m. 28/4-5).\n\n> **Örnek:** 20 bölümlü binada plan değişikliği teklifi toplantıda 11 oy almıştır. Çoğunluk olsa da beşte dört gerektiğinden değişiklik gerçekleşmez.\n\n### 5.2 Toplantı ve yeter sayı (KMK m. 29-30)\n- **Olağan toplantı:** Yılda en az bir kez; planda zaman yoksa **her takvim yılının ilk ayı içinde** (KMK m. 29/1).\n- **Olağanüstü toplantı:** Önemli sebeple **yöneticinin, denetçinin veya maliklerin üçte birinin** istemiyle, toplantıdan **en az onbeş gün önce**, imzalattırılacak çağrı veya taahhütlü mektupla, sebep bildirilerek yapılır (KMK m. 29/2).\n- **İkinci toplantı:** İlk çağrıda ikinci toplantının yeri ve tarihi de bildirilir; iki toplantı arası **yedi günden az** olamaz (KMK m. 29/3).\n- **Toplantı nisabı:** Kurul, maliklerin **sayı ve arsa payı bakımından yarısından fazlasıyla** toplanır (KMK m. 30/1). İlk toplantı yapılamazsa ikinci toplantı **en geç onbeş gün sonra** yapılır; karar yeter sayısı **katılanların salt çoğunluğudur** (KMK m. 30/2).\n- **Özel nisaplar saklıdır** (KMK m. 30/3): beşte dört, oybirliği gibi nisaplar ikinci toplantıda da aranır.\n\n### 5.3 Oy ve karar (KMK m. 31-32)\n- Her malikin arsa payı oranına bakılmaksızın **bir tek oy** hakkı vardır; birden çok bölümü olanın toplam oyu **bütün oyların üçte birinden fazla olamaz** (KMK m. 31/1-2).\n- Karar doğrudan **kendini ilgilendiren malik** görüşmede bulunabilir ama **oya katılamaz** (KMK m. 31/4). Kendi ibrası görüşülen yönetici-malik oy kullanamaz.\n- Bir kişi oy sayısının **yüzde beşinden fazlasını** kullanmak üzere vekil tayin edilemez; **kırk ve daha az** bölümlü yapıda bir kişi **en fazla iki kişiye** vekâlet edebilir (KMK m. 31/5).\n- Kararlar **noter mühürlü, sayfaları numaralı deftere** yazılıp imzalanır; karara **aykırı oy verenler sebebini belirterek** imza koyar (KMK m. 32).\n\n### 5.4 Nisap karşılaştırma tablosu\n| İş | Nisap | Madde |\n|---|---|---|\n| Ortak yerde inşaat, dış boya | Beşte dört yazılı rıza | KMK m. 19/2 |\n| Yönetim planı değişikliği | Beşte dört oy | KMK m. 28/3 |\n| Meskende lokanta, dükkân | Oybirliği | KMK m. 24/2 |\n| Faydalı yenilik | Sayı ve arsa payı çoğunluğu | KMK m. 42/1 |\n| Kat ilavesi | Oybirliği | KMK m. 44 |\n| Temliki tasarruf, reklam kirası | Oybirliği | KMK m. 45 |\n| Çıkarma davası kararı | Sayı ve arsa payı çoğunluğu | KMK m. 25/2 |\n| Yönetici ve denetçi atama | Sayı ve arsa payı çoğunluğu | KMK m. 34, KMK m. 41 |\n| Olağanüstü toplantı istemi | Maliklerin üçte biri | KMK m. 29/2 |\n\nIsı yalıtımı ve ısınma sisteminin dönüşümü sayı ve arsa payı çoğunluğuyla yapılır; toplam inşaat alanı ikibin metrekare ve üzeri binalarda merkezi sistemden ferdi sisteme geçiş ise **oybirliğini** ister (KMK m. 42/4).\n\n## 6. Kurul kararının iptali ve hâkimin müdahalesi (KMK m. 33)\n\n### 6.1 İptal davası\nKurul kararlarına karşı **anagayrimenkulün bulunduğu yerdeki sulh mahkemesinde** iptal davası açılır. Süreler:\n- **Aykırı oy veren** (KMK m. 32'ye uygun): karar tarihinden itibaren **bir ay**.\n- Toplantıya **katılmayan:** kararı öğrenmesinden itibaren **bir ay**.\n- Her iki hâlde **en geç karar tarihinden altı ay**.\n\nKurul kararlarının **yok veya mutlak butlanla hükümsüz** sayıldığı durumlarda süre koşulu aranmaz (KMK m. 33/1). Yargıtay bu süreleri **hak düşürücü** süre sayar; süre geçince kararlar tek tek yokluk ve mutlak butlan yönünden incelenir. Kanun hangi kararların bu kapsamda olduğunu saymaz (doktrin). Dava kat maliklerini temsilen **yöneticiye** husumet yöneltilerek açılabilir; karar iptal edilirse yargılama giderleri **ortak giderlerden** karşılanır (KMK m. 38/2).\n\n> **Örnek:** Kurul 14 Ocak'ta karar almıştır. Aykırı oy veren Zeynep karar tarihinden itibaren bir ay içinde dava açmalıdır. Toplantıya katılmayan Can kararı öğrendiği günden bir ay içinde, her halde 14 Ocak'tan itibaren altı ay içinde açabilir.\n\n### 6.2 Hâkimin müdahalesi\nMalikin ya da devamlı yararlananın **borç ve yükümlerini yerine getirmemesi yüzünden zarar gören** malikler **hâkimin müdahalesini** isteyebilir (KMK m. 33/1). Hâkim Kanuna ve plana, bunlarda hüküm yoksa genel hükümlere ve **hakkaniyet kurallarına** göre derhâl karar verir (KMK m. 33/2). Süresinde uymayana **idari para cezası** verilir; KMK m. 25 hükmü saklıdır (KMK m. 33/3). Emre rağmen bir yıl ısrar edilirse çekilmezlik var sayılır (KMK m. 25/3-b): Hâkimin müdahalesi çıkarma davasının bir basamağıdır.\n\n## 7. Yönetici (KMK m. 34-41)\n\n### 7.1 Atanması (KMK m. 34)\n- Yönetim bir **yöneticiye** ya da **üç kişilik kurula** verilebilir.\n- **Sekiz veya daha fazla** bağımsız bölüm varsa yönetici atanması **mecburidir**. Bütün bölümler tek kişinin mülkiyetindeyse malik kanunen yönetici durumundadır.\n- Yönetici maliklerin **hem sayı hem arsa payı bakımından çoğunluğu** tarafından atanır ve **her yıl** yeniden atanır; eski yönetici tekrar atanabilir.\n- Malikler anlaşamazsa bir malikin başvurusuyla **sulh mahkemesi** yönetici atar. Bu yönetici **altı ay geçmedikçe** kurulca değiştirilemez; haklı sebep varsa mahkeme izin verebilir.\n- Yöneticinin ad ve adresi binaya asılmalıdır; asılmazsa idari para cezası verilir.\n\n### 7.2 Görevleri (KMK m. 35-37)\nPlan aksini söylemedikçe yönetici (KMK m. 35/1) kararları yerine getirir, bakım ve onarım tedbirlerini alır, sigorta ettirir, **avans toplar**, giderleri öder, borcunu ödemeyenlere **dava ve icra takibi yapar ve kanuni ipoteği tescil ettirir**, topladığı paraları **yönetici sıfatı gösterilerek açtırdığı banka hesabında** tutar, kurulu toplantıya çağırır ve asansör bakımlarını yaptırır. Yönetici atanması zorunlu olduğu hâlde atanmamışsa bu işlerden **kat malikleri müştereken sorumludur** (KMK m. 35 son fıkra). Yönetici kararları ve giderleri karar defterine yazar; defteri **her takvim yılının bitiminden itibaren bir ay içinde** notere kapattırır (KMK m. 36).\n\n**İşletme projesi (KMK m. 37).** Bir yıllık yönetim için tahmini gelir ve giderleri, her malike düşecek tahmini gider payını ve avans tutarını gösterir. Kesinleşen işletme projeleri ve kurulun işletme giderlerine ilişkin kararları **İİK m. 68/1'deki belgelerden sayılır** (KMK m. 37/4); alacaklı bu belgeye dayanan takipte itirazın kaldırılmasını, itirazın tebliğinden itibaren altı ay içinde isteyebilir (İİK m. 68/1). 📌 Bu bölüm 7579 sayılı Kanunla değişmiştir (bölüm 9).\n\n### 7.3 Sorumluluk, hesap, haklar ve denetim (KMK m. 38-41)\n- **Sorumluluk:** Yönetici maliklere karşı **aynen bir vekil gibi** sorumludur (KMK m. 38/1).\n- **Hesap:** Planda gösterilen zamanda, yoksa her takvim yılının birinci ayında kurula verilir; maliklerin **yarısı** isterse ayrıca da istenebilir (KMK m. 39).\n- **Haklar:** Yönetici vekilin haklarına sahiptir; malikler borçlarını **noter ihtarına** rağmen yerine getirmezse tazminat ödemeden çekilebilir. Malikler arasından seçilen yönetici, aksine karar yoksa **normal yönetim giderlerinin yarısına katılmaz** (KMK m. 40).\n- **Denetim:** Kurul yöneticiyi sürekli denetler ve **haklı sebep** çıkarsa onu her zaman değiştirebilir. Hesap denetimi planda zaman yoksa **her üç ayda bir** yapılır; denetçi **sayı ve arsa payı çoğunluğuyla** seçilir (KMK m. 41).\n\n### 7.4 Personel konutu\nSözleşmesi sona eren kapıcı, bahçıvan, bekçi gibi görevliler ve dışarıdan atanan yönetici, tahsis edilen yeri **onbeş gün içinde** boşaltır; boşaltmazsa mülki amirin kararıyla zabıtaca boşalttırılır (Kat Mülkiyeti Kanunu'nun ek 2. maddesi).\n\n## 8. Usul: mahkeme ve arabuluculuk\n\n- **Görevli mahkeme:** Kat Mülkiyeti Kanunu'nun ek 1. maddesine göre bu Kanunun uygulanmasından doğan her türlü anlaşmazlık **sulh mahkemelerinde** çözümlenir. HMK m. 4/1-ç de kanunların sulh hukuk mahkemesine verdiği davaları sulh hukuk mahkemesine bırakır.\n- **Dava şartı arabuluculuk:** HUAK m. 18/B/1-c'ye göre 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklarda dava açılmadan önce **arabulucuya başvurulmuş olması dava şartıdır**. Bu hüküm 28/3/2023 tarihli 7445 sayılı Kanunla eklenmiştir ve 1/9/2023'te yürürlüğe girmiştir. HUAK'ın geçici 3. maddesine göre o tarihte görülmekte olan davalara uygulanmaz. Yargıtay'a göre kurul kararının iptali davası bu kapsamdadır; arabuluculuk yoksa dava usulden reddedilir.\n- **Anlaşma belgesi:** Taşınmazın devrine ilişkin arabuluculuk anlaşma belgesi icra edilebilirlik şerhi aldıktan sonra tapu müdürlüğünden tescil istenebilir ve tescil resmî senet düzenlenmeksizin yapılır (HUAK m. 18/B/5; 7531 sayılı Kanunla eklenmiştir).\n\n## 9. 📌 Güncel değişiklikler: 7579 sayılı Kanun\n\n7579 sayılı Kanun **22 Mayıs 2026** tarihli Resmî Gazete'de yayımlanmıştır; KMK değişiklikleri yayım tarihinde yürürlüğe girmiştir.\n\n- **Avans (KMK m. 35/1-d).** Yönetici, planda gösterilen zamanda ya da her takvim yılının ilk ayında, işletme projesi onaylanıncaya kadar avans toplar.\n- **İşletme projesi (KMK m. 37).** İşletme projesi **kat malikleri genel kurulunda onaylanır**. Kurulca kabul edilmiş proje yoksa yönetici gecikmeksizin **geçici bir işletme projesi** yapar. Proje bildirilir ve en geç üç ay içinde aynen veya değiştirilerek kabulüne yönelik genel kurulda karar alınır (KMK m. 37/3).\n- **Artış tavanı.** Mevcut işletme projesi varsa geçici proje için öngörülen bedel, yürürlükteki proje bedeli esas alınarak, her yıl bir önceki yıla ilişkin olarak Vergi Usul Kanunu'nun mükerrer 298. maddesine göre ilan edilen **yeniden değerleme oranından fazla olmamak** kaydıyla belirlenir ve kurula sunulur.\n- **Toplu yapı.** Aynı Kanun, KMK'nın 70. maddesinde (toplu yapı) plan değişikliği nisabını beşte dörtten üçte ikiye indirmiştir; toplu yapı bu konunun dışındadır.\n\n> ⚠️ **Sınavda dikkat:** Üçte ikiye düşüş **yalnız toplu yapıdadır**. Ana yapıda yönetim planının değiştirilmesi için bütün kat maliklerinin **beşte dördünün oyu** hâlâ şarttır (KMK m. 28/3).\n\n> ⚠️ **Sınavda dikkat:** 7579 sayılı Kanun için ayrı bir geçiş hükmü bulunamamıştır; önceki işletme projelerine etkisi bu notta kesin yazılmamıştır.\n\n## 10. Olay çözerken denetim şeması\n1. **Kişi ve konu:** Malik mi, kiracı mı? Bakım ve değişiklik, gider, katlanma, yasak iş, çıkarma ya da kurul kararı mı? (KMK m. 18-25, KMK m. 33)\n2. **Nisap:** Beşte dört, oybirliği ya da sayı ve arsa payı çoğunluğu (bölüm 5.4)? İkinci toplantıda özel nisap saklı mı? (KMK m. 30/3)\n3. **Toplantı:** Çağrı ve süreler (en az 15 gün; iki toplantı arası en az 7 gün), oy kullanamayanlar (KMK m. 29-31).\n4. **Yol:** İptal davası (bir ay ve altı ay), hâkimin müdahalesi, çıkarma davası; sulh hukuk mahkemesi, önce arabuluculuk, husumet yöneticiye.\n5. **Güncelleme:** Avans ve işletme projesi için 7579 sayılı Kanun sonrası metin.",
+  "critical_md": "- 📌 Kat malikinin hakları KMK m. 15-16'dadır; borçları KMK m. 18'den başlar. Borçlar kiracıyı ve devamlı yararlananı da bağlar; bunlar malikle müteselsil sorumludur (KMK m. 18/2).\n- 📌 Ortak yerde inşaat, onarım, tesis ve değişik renkte dış boya için **bütün maliklerin beşte dördünün yazılı rızası** gerekir (KMK m. 19/2). Mahkemece tespit edilen acil onarım ve zorunlu güçlendirmede rıza aranmaz.\n- 📌 Kapıcı, kaloriferci, bahçıvan ve bekçi giderleri ile avansı **eşit**; sigorta, bakım, onarım, güçlendirme ve yönetici aylığı gibi giderler **arsa payı oranında** paylaşılır (KMK m. 20/1). Kullanmama ya da ihtiyaç olmaması gider payını ödememe sebebi olmaz (KMK m. 20/1-c).\n- 📌 Gecikme tazminatı geciken günler için **aylık yüzde beş**tir (KMK m. 20/2). Eski yüzde on 5711 sayılı Kanunla indirilmiştir.\n- ⚠️ Kiracının ortak gider sorumluluğu **kira miktarıyla sınırlıdır** ve ödemesi kira borcundan düşer (KMK m. 22/1).\n- 📌 Kanuni ipotek için borç **mahkemece tespit edilmiş** ve diğer sorumlulardan alınamamış olmalı; yazılı istemi varsa yönetici yoksa maliklerden biri yapar. Önceden feragat geçersizdir (KMK m. 22/2; TMK m. 893).\n- ⚠️ Klinik, poliklinik gibi yerler oybirliğiyle bile kurulamaz (KMK m. 24/1); meskende lokanta, pastane, dükkân ancak **oybirliğiyle** açılır (KMK m. 24/2).\n- ⚠️ Çıkarma davası kararı **sayı ve arsa payı çoğunluğuyla** alınır (KMK m. 25/2). KMK m. 25/3'te \"üçte iki oy\" ya da \"süreli ihtar\" şartı yoktur; m. 25/3 yalnız çekilmezliği var sayar.\n- 📌 KMK m. 25/3-a: iki takvim yılı içinde üç defa icra veya dava takibine sebep olmak. Dava hakkı kararın öğrenilmesinden **6 ay**, her hâlde doğumundan **5 yıl** içinde kullanılır (KMK m. 25/4).\n- 📌 Yönetim planı sözleşme hükmündedir; değiştirmek için bütün maliklerin **beşte dördünün oyu** şarttır (KMK m. 28/1, KMK m. 28/3). Ana yapıda bu nisap 7579 sayılı Kanunla değişmemiştir.\n- 📌 Olağanüstü toplantıyı yönetici, denetçi veya maliklerin **üçte biri** ister; çağrı en az **15 gün** önce yapılır. İki toplantı arası en az **7 gün**, ikinci toplantı en geç 15 gün sonra, karar yeter sayısı katılanların **salt çoğunluğu** (KMK m. 29, KMK m. 30/2).\n- 📌 Her malikin bir oyu vardır; çok bölümlü malikin oyu bütün oyların üçte birini aşamaz. Kararla ilgili malik oy kullanamaz. Kırk ve daha az bölümlü yapıda bir kişi en fazla iki kişiye vekâlet edebilir (KMK m. 31).\n- 📌 İptal davası sulh mahkemesindedir: aykırı oy veren karar tarihinden, katılmayan öğrenmeden itibaren **bir ay**; her hâlde karar tarihinden **altı ay**. Yok ve mutlak butlanda süre aranmaz (KMK m. 33/1).\n- 📌 Sekiz veya daha fazla bölümde yönetici zorunludur; sayı ve arsa payı çoğunluğuyla ve her yıl atanır (KMK m. 34). Yönetici vekil gibi sorumludur, iptal davası yöneticiye husumet yöneltilerek açılabilir (KMK m. 38).\n- 📌 Dava şartı arabuluculuk (HUAK m. 18/B/1-c); görevli mahkeme sulh hukuk mahkemesidir. 7579 sayılı Kanunla (22/5/2026) avans işletme projesi onaylanıncaya kadar toplanır ve projeyi genel kurul onaylar (KMK m. 35/1-d, KMK m. 37).",
+  "doctrine_md": "### Hangi kurul kararı yok ya da mutlak butlanla hükümsüzdür?\nKMK m. 33/1 yok ve mutlak butlan hâllerinde süre koşulu aramaz ama bu hâlleri saymaz. Bir görüşe göre toplantı yapılmadan defter üzerinde alınan kararlar ve kurulun yetkisi dışındaki konulardaki kararlar yok sayılmalı; emredici nisaba aykırı kararlar (örneğin salt çoğunlukla yönetim planının değiştirilmesi) mutlak butlanla hükümsüz kabul edilmelidir. Karşı görüşe göre nisap eksikliği yalnız iptal sebebidir ve süreye bağlıdır. Yargıtay ise bu ayrımı toptan yapmaz; süre geçtiğinde her kararın tek tek yokluk ve mutlak butlan yönünden incelenmesini ister. Sınavda iki görüşü yaz, olayda süre geçmemişse tartışmaya girmeden iptal davasıyla çöz.\n\n### KMK m. 25/3'teki karinenin niteliği\nKanun, sayılan üç hâlde çekilmezliğin \"her halde mevcut farz edileceğini\" söyler. Bir görüş bunu kesin karine sayar ve aksinin ispatına izin vermez. Karşı görüş, KMK m. 25/4'teki \"dava sebebinin ortadan kalkması\" kuralına ve dürüstlük kuralına dayanarak esnek yorum ister. Metne bağlı kal: karine vardır, ama dava kararı KMK m. 25/2'deki çoğunlukla verilmeden dava açılamaz.\n\n### Gecikme tazminatının niteliği\nAylık yüzde beşlik tazminatın faiz mi yoksa götürü bir kanuni tazminat mı olduğu, ayrıca yanında faiz istenip istenemeyeceği tartışmalıdır. Kanun yalnız oranı verir. Sınavda oranı ve geciken günler için işlediğini yaz, niteliği \"tartışmalıdır\" diye işaretle.\n\n### Toplantıdaki \"oy çokluğu\"\nKMK m. 30/1 toplantı nisabını açıkça sayı ve arsa payı bakımından yarıdan fazla olarak koyar; bu konuda tartışma yoktur. Karar için \"oy çokluğu\" ifadesinin katılanların çokluğu mu yoksa sayı ve arsa payı çoğunluğu mu anlamına geldiği ise tartışmalıdır. Özel nisap aranan işlerde bu tartışma önemini yitirir.\n\n### Ev hayvanı ve yönetim planı\nYönetim planında hayvan yasağı varsa bunun tek başına yeterli olup olmadığı yoksa KMK m. 18 anlamında somut bir rahatsızlığın aranıp aranmayacağı tartışmalıdır. Bu konuda karar okunmamıştır; bu notta bir sonuç verilmemiştir.\n\n### Olumlu oy veren malik\nKMK m. 33/1, iptal davası açabilenler olarak toplantıya katılıp aykırı oy kullananı ve katılmayanı sayar; karara olumlu oy veren malikin durumu metinde yoktur. Yok veya mutlak butlan iddiası bakımından bu malikin dava açıp açamayacağı bu notta kesin olarak yazılmamıştır.",
+  "glossary": [
+   {
+    "term": "Kat malikleri kurulu",
+    "definition": "Anagayrimenkulün yönetim organı; bütün kat maliklerinden oluşur ve kanunun emredici hükümleri saklı kalmak şartıyla yönetim tarzını kararlaştırır (KMK m. 27)."
+   },
+   {
+    "term": "Yönetim planı",
+    "definition": "Yönetim tarzını, kullanma şeklini ve yönetime ait diğer hususları düzenleyen, bütün maliklere ve haleflerine bağlayıcı sözleşme niteliğindeki belge. Değiştirmek için bütün maliklerin beşte dördünün oyu gerekir (KMK m. 28)."
+   },
+   {
+    "term": "Gecikme tazminatı",
+    "definition": "Gider ve avans payını ödemeyen malikin ödemede geciktiği günler için ödediği, aylık yüzde beş hesaplanan tazminat (KMK m. 20/2)."
+   },
+   {
+    "term": "Avans",
+    "definition": "Ortak giderler için kat maliklerinden toplanan ön ödeme. 7579 sayılı Kanundan sonra işletme projesi onaylanıncaya kadar toplanır (KMK m. 35/1-d)."
+   },
+   {
+    "term": "Kanuni ipotek",
+    "definition": "Mahkemece tespit edilen ve başka yoldan alınamayan ortak gider borcu için borçlu malikin bağımsız bölümü üzerine diğer malikler lehine tescil edilen ipotek (KMK m. 22/2)."
+   },
+   {
+    "term": "Çekilmezlik",
+    "definition": "Maliklerden birinin borçlarını ihlalinin diğerleri için katlanılamaz hâle gelmesi; bu durumda bölümünün devri istenebilir (KMK m. 25)."
+   },
+   {
+    "term": "Devir (çıkarma) davası",
+    "definition": "Çekilmez malikin bölümünün, hükme en yakın tarihteki değeri ödenerek davacı maliklere arsa payları oranında devrini isteyen dava (KMK m. 25/2)."
+   },
+   {
+    "term": "Hâkimin müdahalesi",
+    "definition": "Borç ve yükümlerini yerine getirmeyen malik veya yararlanan yüzünden zarar görenlerin sulh mahkemesinden istediği, hakkaniyete göre derhâl verilen karar (KMK m. 33)."
+   },
+   {
+    "term": "İptal davası",
+    "definition": "Kat malikleri kurulu kararının sulh mahkemesinde ortadan kaldırılmasını isteyen, bir ay ve altı ay süreye bağlı dava (KMK m. 33/1)."
+   },
+   {
+    "term": "Yok ve mutlak butlan",
+    "definition": "Kurul kararının en ağır sakatlıkları; bu hâllerde iptal davasının süre koşulu aranmaz (KMK m. 33/1). Hangi kararların bu kapsamda olduğu kanunda sayılmamıştır."
+   },
+   {
+    "term": "Yönetici",
+    "definition": "Anagayrimenkulün yönetimini üstlenen kimse; sekiz veya daha fazla bölümde atanması zorunludur ve maliklere karşı vekil gibi sorumludur (KMK m. 34, KMK m. 38)."
+   },
+   {
+    "term": "İşletme projesi",
+    "definition": "Bir yıllık yönetimin tahmini gelir ve giderlerini ve her malike düşen payı ile avansı gösteren plan. Kesinleşen proje İİK m. 68/1'deki belgelerden sayılır (KMK m. 37)."
+   },
+   {
+    "term": "Katlanma yükümlülüğü",
+    "definition": "Başka bölümdeki onarım ve teknik inceleme için giriş müsaadesi verme ve işlerin yapılmasına razı olma borcu; doğan zararı lehine izin verilenler öder (KMK m. 23)."
+   },
+   {
+    "term": "Toplu yapı",
+    "definition": "Birden çok yapıdan oluşan site; bu notun kapsamı dışındadır. KMK'nın 70. maddesindeki plan değişikliği nisabı 7579 sayılı Kanunla beşte dörtten üçte ikiye indirilmiştir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "15",
+   "official_text": "I - Bağımsız bölüm üzerinde:\nMadde 15 – Kat malikleri kendilerine ait bağımsız bölümler üzerinde, bu kanunun ilgili hükümleri saklı kalmak şartiyle, Medeni Kanunun maliklere tanıdığı bütün hak ve yetkilere sahiptirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "16",
+   "official_text": "II - Ortak yerler üzerinde :\nMadde 16 – Kat malikleri anagayrimenkulün bütün ortak yerlerine, arsa payları oranında, ortak mülkiyet hükümlerine göre malik olurlar.\nKat malikleri ortak yerlerde kullanma hakkına sahiptirler; bu hakkın genel kömürlük, garaj, teras, çamaşırhane ve çamaşır kurutma alanları gibi yerlerdeki ölçüsü, aksine sözleşme olmadıkça, her kat malikine ait arsa payı ile oranlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "18",
+   "official_text": "I - Genel kural:\nMadde 18 – Kat malikleri, gerek bağımsız bölümlerini, gerek eklentileri ve ortak yerleri kullanırken doğruluk kaidelerine uymak, özellikle birbirini rahatsız etmemek, birbirinin haklarını çiğnememek ve yönetim planı hükümlerine uymakla, karşılıklı olarak yükümlüdürler.\nBu kanunda kat maliklerinin borçlarına dair olan hükümler, bağımsız bölümlerdeki kiracılara ve oturma (Sükna) hakkı sahiplerine veya bu bölümlerden herhangi bir suretle devamlı olarak faydalananlara da uygulanır; bu borçları yerine getirmiyenler kat malikleriyle birlikte, müteselsil olarak sorumlu olur.\n(Mülga son fıkra: 14/11/2007-5711/24 md.)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "19",
+   "official_text": "II - Anagayrimenkulün bakımı, korunması ve zarardan sorumluluk:\nMadde 19 – Kat malikleri, anagayrimenkulün bakımına ve mimarı durumu ile güzelliğini ve sağlamlığını titizlikle korumaya mecburdurlar.\n(Değişik ikinci fıkra: 14/11/2007-5711/8 md.) Kat maliklerinden biri, bütün kat maliklerinin beşte dördünün yazılı rızası olmadıkça anagayrimenkulün ortak yerlerinde inşaat, onarım ve tesisler, değişik renkte dış badana veya boya yaptıramaz. Ancak, ortak yer ve tesislerdeki bir bozukluğun anayapıya veya bağımsız bir bölüme veya bölümlere zarar verdiğinin ve acilen onarılması gerektiğinin veya anayapının güçlendirilmesinin zorunlu olduğunun mahkemece tespit edilmiş olması halinde, bu onarım ve güçlendirmenin projesine ve tekniğine uygun biçimde yapılması konusunda kat maliklerinin rızası aranmaz. Kat maliki kendi bağımsız bölümünde anayapıya zarar verecek nitelikte onarım, tesis ve değişiklik yapamaz. Tavan, taban veya duvar ile birbirine bağlantılı bulunan bağımsız bölümlerin bağlantılı yerlerinde, bu bölüm maliklerinin ortak rızası ile anayapıya zarar vermeyecek onarım, tesis ve değişiklik yapılabilir.\nHer kat maliki anagayrimenkule ve diğer bağımsız bölümlere, kusuru ile verdiği zarardan dolayı diğer kat maliklerine karşı sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "20",
+   "official_text": "III - Anagayrimenkulün genel giderlerine katılma:\nMadde 20 – (Değişik birinci fıkra: 13/4/1983-2814/9 md.) Kat maliklerinden her biri aralarında başka türlü anlaşma olmadıkça:\na) Kapıcı, kaloriferci, bahçıvan ve bekçi giderlerine ve bunlar için toplanacak avansa eşit olarak;\nb) Anagayrimenkulün sigorta primlerine ve bütün ortak yerlerin bakım, koruma, güçlendirme ve onarım giderleri ile yönetici aylığı gibi diğer giderlere ve ortak tesislerin işletme giderlerine ve giderler için toplanacak avansa kendi arsa payı oranında;[4]\nKatılmakla yükümlüdür.\nc) Kat malikleri ortak yer veya tesisler üzerindeki kullanma hakkından vazgeçmek veya kendi bağımsız bölümünün durumu dolayısıyla bunlardan faydalanmaya lüzum ve ihtiyaç bulunmadığını ileri sürmek suretiyle bu gider ve avans payını ödemekten kaçınamaz.\n(Değişik: 13/4/1983-2814/9 md.) Gider veya avans payını ödemeyen kat maliki hakkında, diğer kat maliklerinden her biri veya yönetici tarafından, yönetim planına, bu Kanuna ve genel hükümlere göre dava açılabilir, icra takibi yapılabilir. Gider ve avans payının tamamını ödemeyen kat maliki ödemede geciktiği günler için aylık yüzde beş hesabıyla gecikme tazminatı ödemekle yükümlüdür.[5]\nBirinci fıkradaki giderlere, kat maliklerinden birinin veya onun bağımsız bölümünden herhangi bir suretle faydalanan kişinin kusurlu bir hareketi sebep olmuşsa, gidere katılanların yaptıkları ödemeler için o kat malikine veya gidere sebep olanlara rücu hakları vardır.\n[4] 14/11/2007 tarihli ve 5711 sayılı Kanunun 9 uncu maddesiyle bu bentte yer alan \"koruma\" ibaresinden sonra gelmek üzere \", güçlendirme\" ibaresi eklenmiştir.\n[5] 14/11/2007 tarihli ve 5711 sayılı Kanunun 9 uncu maddesiyle bu fıkrada yer alan \"yüzde on\" ibaresi \"yüzde beş\" olarak değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "21",
+   "official_text": "IV - Sigorta anlaşması:\nMadde 21 – Anagayrimenkulün, kat malikleri kurulunca tayin edilecek değer üzerinden sigorta edilmesi kat malikleri kurulunca kararlaştırılabilir.\nSigorta yapılması halinde kat malikleri, sigorta giderlerine, arsa payları oranında, katılmakla yükümlüdürler.\nAnagayrimenkulün tümünün harap olması halinde alınacak sigorta bedeli, aksine sözleşme olmadıkça, kat maliklerine, arsa payları oranında, paylaştırılır.\nYalnız bir veya bir kaç bağımsız bölüm veya eklentisi veya ortak yerlerden bir kısmı hasara uğramışsa, alınacak sigorta bedeli hasara uğrayan yerlerin onarımına arsa payları oranında harcanır.\nKat malikleri anagayrimenkulün sigortasıyla giderilemeyecek olan zararlarını karşılamak üzere, kendi bağımsız bölümlerini ayrıca kendi ad ve hesaplarına sigorta ettirebilirler; bu halde alınacak sigorta bedeli, anagayrimenkulün sigorta bedelindeki payları da ayrıca saklı kalmak üzere, yalnız kendilerine ait olur.\nSigorta hakkındaki emredici hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "22",
+   "official_text": "V - Ortak giderlerin teminatı:\nMadde 22 – (Değişik birinci fıkra: 13/4/1983 - 2814/10 md.) Kat malikinin, 20 nci madde uyarınca payına düşecek gider ve avans borcundan ve gecikme tazminatından, bağımsız bölümlerin birinde kira akdine, oturma (sükna) hakkına veya başka bir sebebe dayanarak devamlı bir şekilde faydalananlar da müştereken ve müteselsilen sorumludur. Ancak, kiracının sorumluluğu ödemekle yükümlü olduğu kira miktarı ile sınırlı olup, yaptığı ödeme kira borcundan düşülür.\nKat malikinin borcu bu yolla da alınamazsa, mahkemece tesbit edilen borcunu ödemiyen kat malikinin bağımsız bölümü üzerine, varsa yöneticinin yoksa kat maliklerinden birinin yazılı istemiyle bu borç tutarı için, diğer kat malikleri lehine kanuni ipotek hakkı tescil edilir. (Değişik son cümle: 14/11/2007-5711/10 md.) 4721 sayılı Türk Medenî Kanununun 893 üncü maddesinin son fıkrası hükmü burada da uygulanır.\n(Değişik: 13/4/1983 - 2814/10 md.) Kat maliklerinin, gider borcunu ödemeyen kat maliki veya diğer sorumlulardan olan alacakları önceliklidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "23",
+   "official_text": "VI - Müsaade mecburiyeti:\nMadde 23 – Kat maliklerinden birinin bağımsız bölümünde veya bu bölümdeki tesislerde meydana gelen bir hasar veya bozukluğun onarımı veya giderilmesi veya tesislerin yeniden yapılması ile yapı güvenliğiyle ilgili olarak yapılması gerekli görülen teknik incelemeler için diğer bir bağımsız bölüme girmek gerekiyorsa, o bölümün maliki veya o bölümde başka sıfatla oturanlar, giriş müsaadesi vermeye ve bölümde gerekli işlerin yapılmasına katlanmaya mecburdurlar.[6]\nAnagayrimenkulün bir kısmının harap olması halinde, harap olan bağımsız bölüm ve eklentilerinin veya ortak yerlerin veya bağımsız bölümdeki tesislerin yeniden yapılması için, sağlam kalan bağımsız bölümlerin içinden veya dışından faydalanılması gerekiyorsa, o bölümlerin malikleri veya orada başka sıfatla oturanlar buna müsaade etmeye mecburdurlar.\nYukarıdaki fıkralarda yazılı müsaade yüzünden, kat maliklerinin veya orada başka sıfatla oturanların uğrayacakları zararı, lehine müsaade verilen bağımsız bölüm malikleri derhal ödemekle yükümlüdürler.\n[6] 14/11/2007 tarihli ve 5711 sayılı Kanunun 11 inci maddesiyle; bu fıkrada yer alan \"tesislerin yeniden yapılması\" ibaresinden sonra gelmek üzere \"ile yapı güvenliğiyle ilgili olarak yapılması gerekli görülen teknik incelemeler\" ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "24",
+   "official_text": "VII - Yasak işler:\nMadde 24 – Anagayrimenkulün, kütükte mesken, iş veya ticaret yeri olarak gösterilen bağımsız bir bölümünde hastane, dispanser, klinik, poliklinik, ecza laboratuvarı gibi müesseseler kurulamaz; kat maliklerinin buna aykırı sözleşmeleri hükümsüzdür; dispanser, klinik, poliklinik niteliğinde olmıyan muayenehaneler bu hükmün dışındadır.\nAnagayrimenkulün, kütükte mesken olarak gösterilen bağımsız bir bölümünde sinema, tiyatro, kahvehane, gazino, pavyon, bar, kulüp, dans salonu ve emsali gibi eğlence ve toplantı yerleri ve fırın, lokanta, pastahane, süthane gibi gıda ve beslenme yerleri ve imalathane, boyahane, basımevi, dükkan, galeri ve çarşı gibi yerler, ancak kat malikleri kurulunun oybirliği ile vereceği kararla açılabilir.\n(Ek fıkra: 13/2/2011-6111/194 md.) 1136 sayılı Avukatlık Kanununda avukatlık büroları ve hukuk büroları ile ilgili düzenleme yapılıncaya kadar meskenlerdeki avukatlık ve hukuk büroları faaliyetlerine devam ederler. Bu süre, bu maddenin yürürlüğe girdiği tarihten itibaren iki yıldır. Bu hüküm 3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanununda ilgili düzenleme yapılıncaya kadar meslek mensupları tarafından açılan bürolar hakkında da uygulanır.\nBu karar yöneticinin veya kat maliklerinden birinin istemi üzerine bütün bağımsız bölümlerin kat mülkiyeti kütüğündeki sahifelerine şerh verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "25",
+   "official_text": "VIII - Kat mülkiyetinin devri mecburiyeti:\nMadde 25 – Kat maliklerinden biri bu kanuna göre kendisine düşen borçları ve yükümleri yerine getirmemek suretiyle diğer kat maliklerinin haklarını, onlar için çekilmez hale gelecek derecede ihlal ederse, onlar, o kat malikinin müstakil bölümü üzerindeki mülkiyet hakkının kendilerine devredilmesini hakimden istiyebilirler.\n(Değişik ikinci fıkra: 14/11/2007-5711/12 md.) Bu gibi bir kat maliki hakkında, bağımsız bölümün mülkiyetinin hükme en yakın tarihteki değeri o kat malikine ödenerek bu mülkiyetin diğer kat maliklerine, arsa payları oranında devredilmesi için davanın açılması, aksi kararlaştırılmış olmadıkça, diğer kat maliklerinin sayı ve arsa payı çoğunluğuyla karar vermesine bağlıdır. Bu karara rağmen kat maliklerinden bir kısmı bu davayı açmak istemezse, davayı öteki kat malikleri açar ve hâkim hüküm vermeden önce devir bedelinin ileride hak sahibine ödenmek üzere bankada üçer aylık vadeli hesaba yatırılması ve makbuzunun ibrazı için davacılara resen belirleyeceği uygun bir süre verir. Devir bedelinin süresi içinde yatırıldığına ilişkin belge ibraz edildiğinde ve davanın kabulü halinde hâkim, davalının bağımsız bölümünün mülkiyetinin davayı açmış olan kat maliklerine arsa payları oranında devredilmesine ve devir bedelinin işlemiş faiziyle birlikte davalıya ödenmesine karar verir.\nAşağıdaki durumlarda, birinci fıkrada yazılı çekilmezlik, her halde mevcut farz edilir :\na) Ortak giderlerden ve avanstan kendine düşen borçları ödemediği için hakkında iki takvim yılı içinde üç defa icra veya dava takibi yapılmasına sebep olunması;\nb) Anagayrimenkulün bulunduğu yerin sulh hakimi tarafından 33 üncü madde gereğince verilen emre rağmen, bu kanunda yazılı borç ve yükümleri yerine getirmemek suretiyle öteki kat maliklerinin haklarını ihlal etmekte devamlı olarak bir yıl ısrar edilmesi;\nc) Kendi bağımsız bölümünü randevu evi veya kumarhane veya benzeri yer olarak kullanmak suretiyle ahlak ve adaba aykırı harekette bulunması.\n(Değişik dördüncü fıkra: 14/11/2007-5711/12 md.) Bu maddedeki dava hakkı, devir konusunda kat maliklerince alınan dava açma kararının öğrenilmesi tarihinden başlayarak altı ay ve her halde dava hakkının doğumundan başlayarak beş yıl içinde kullanılmazsa veya dava sebebi ortadan kalkmışsa düşer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "26",
+   "official_text": "B) Kat irtifakı sahiplerinin borçları:\nMadde 26 – Kat irtifakı sahipleri bu hakka konu olan ortak arsa üzerinde, ileride kat mülkiyetine çevrilmek üzere yapılacak yapının sözleşmeye ve plana göre tamamlanması için kendilerine düşen borçları vaktinde yerine getirmek ve yapı işini, doğruluk kaideleri uyarınca kolaylaştırmakla, karşılıklı olarak yükümlüdürler.\n(Değişik ikinci fıkra: 14/11/2007-5711/13 md.) Kat irtifakı sahiplerinden biri kendine düşen borçları, noter aracılığıyla yapılan ihtara rağmen, bu ihtar tarihinden başlayarak iki ay içinde yerine getirmezse diğerlerinin yazılı istemi üzerine hâkim, onun arsa payının ve kat irtifakının hükme en yakın tarihteki değeri karşılığında, öteki paydaşlara, arsa payları oranında devrine karar verir.\nKat irtifakı sahiplerinden birinin kusuru yüzünden, yapının kanuni süre içinde yapılamaması sebebiyle kat irtifakı düşerse, kusurlu taraf diğerlerinin bu yüzden uğradıkları zararı tazminle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "27",
+   "official_text": "A) Genel kurul:\nMadde 27 – Anagayrimenkul, kat malikleri kurulunca yönetilir ve yönetim tarzı, kanunların emredici hükümleri saklı kalmak şartiyle, bu kurul tarafından kararlaştırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "28",
+   "official_text": "B) Yönetim planı:\nMadde 28 – Yönetim planı yönetim tarzını, kullanma maksat ve şeklini yönetici ve denetçilerin alacakları ücreti ve yönetime ait diğer hususları düzenler.Yönetim planı, bütün kat maliklerini bağlıyan bir sözleşme hükmündedir.\nYönetim planında hüküm bulunmıyan hallerde, anagayrimenkulün yönetiminden doğacak anlaşmazlıklar bu kanuna ve genel hükümlere göre karara bağlanır.\n(Değişik: 13/4/1983 - 2814/11 md.) Yönetim planının değiştirilmesi için bütün kat maliklerinin beşte dördünün oyu şarttır. Kat maliklerinin 33 üncü maddeye göre mahkemeye başvurma hakları saklıdır.\nYönetim planı ve bunda yapılan değişiklikler, bütün kat malikleriyle onların külli ve cüzi haleflerini ve yönetici ve denetçileri bağlar.\nYönetim planının ve onda sonradan yapılan değişikliklerin tarihi, kat mülkiyeti kütüğünün (Beyanlar) hanesinde gösterilir ve bu değişiklikler yönetim planına bağlanarak kat mülkiyetinin kuruluş belgeleri arasında saklanır.\nC) Kat malikleri kurulunun toplantısı ve kararları:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "29",
+   "official_text": "I - Toplantı zamanı:\nMadde 29 – Kat malikleri kurulu, yılda bir defadan az olmamak üzere yönetim planında gösterilen zamanlarda, eğer böyle bir zaman gösterilmemişse, her takvim yılının ilk ayı içinde toplanır. (Ek cümle: 14/11/2007-5711/14 md.) Toplu yapılarda ise kurullar, en geç iki yılda bir defadan az olmamak üzere yönetim plânlarında gösterilen zamanlarda, böyle bir zaman gösterilmemişse, ikinci takvim yılının ilk ayı içinde toplanır.\nÖnemli bir sebebin çıkması halinde, yöneticinin veya denetçinin veya kat maliklerinden üçte birinin istemi üzerine ve toplantı için istenilen tarihten en az onbeş gün önce bütün kat maliklerine imzalattırılacak bir çağrı veya bir taahhütlü mektupla, toplantı sebebi de bildirilmek şartiyle, kat malikleri kurulu her zaman toplanabilir.\nİlk çağrı yapılırken, birinci toplantıda, yeter sayının sağlanamaması halinde, ikinci toplantının nerede ve hangi tarihte yapılacağı da belirtilir. (Ek cümle: 14/11/2007-5711/14 md.) İlk toplantı ile ikinci toplantı arasında bırakılacak zaman yedi günden az olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "30",
+   "official_text": "II - Yeter sayı:\nMadde 30 – Kat malikleri kurulu, kat maliklerinin sayı ve arsa payı bakımından yarısından fazlasiyle toplanır ve oy çokluğuyla karar verir.\n(Değişik ikinci fıkra: 14/11/2007-5711/15 md.) Yeter sayının sağlanamaması nedeniyle ilk toplantının yapılamaması halinde, ikinci toplantı, en geç onbeş gün sonra yapılır. Bu toplantıda karar yeter sayısı, katılanların salt çoğunluğudur.\nBu kanunda yeter sayı için ayrıca konulmuş olan hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "31",
+   "official_text": "III - Oya katılma:\nMadde 31 – Her kat maliki, arsa payı oranına bakılmaksızın, bir tek oy hakkına sahiptir.\nAnagayrimenkulde birden ziyade bağımsız bölümü olan kat maliki, her bağımsız bölüm için ayrı bir oy hakkına sahiptir; bununla beraber onun malik olduğu bağımsız bölümlerin sayısı ne olursa olsun, sahip olacağı oy sayısı bütün oyların üçte birinden fazla olamaz; oy hesabı yapılırken kesirler gözönüne alınmaz.\nBir bağımsız bölümün birden ziyade maliki varsa, kat malikleri kurulunda bunları içlerinden vekalet verecekleri birisi temsil eder. Kat maliklerinden biri ehliyetsiz ise onu kanuni mümessili temsil eder.\nAlınacak karar doğrudan doğruya kendini ilgilendiren kat maliki görüşmelerde hazır bulunabilir, fakat oya katılamaz.\n(Değişik son fıkra: 14/11/2007-5711/16 md.) Kat maliklerinden biri, oyunu yetkili vekil eliyle kullanabilir. Bir kişi, oy sayısının yüzde beşinden fazlasını kullanmak üzere vekil tayin edilemez. Ancak, kırk ve daha az sayıdaki kat mülkiyetine tâbi taşınmazlarda bir kişi, en fazla iki kişiye vekâlet edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "32",
+   "official_text": "IV - Kararlar:\nMadde 32 – Anagayrimenkul kat malikleri kurulu tarafından, sözleşme, yönetim planı ve kanun hükümleri uyarınca verilecek kararlara göre yönetilir.\nBütün kat malikleriyle külli ve cüzi halefleri, yönetici ve denetçiler, kat malikleri kurulunun kararlarına uymakla yükümlüdürler.\nAnagayrimenkulün kullanılmasından veya yönetiminden dolayı kat malikleri arasında veya bunlarla yönetici ve denetçiler arasında veya denetçilerle yöneticiler arasında çıkan anlaşmazlıklar, kat malikleri kurulunca çözülür ve karara bağlanır.\nKat malikleri kurulu kararları (1) den başlayıp sırayla giden sayfa numaraları taşıyan her sayfası noter mühüriyle tasdikli bir deftere yazılarak, toplantıda bulunan bütün kat maliklerince imzalanır; karara aykırı oy verenler bu aykırılığın sebebini belirterek imza koyarlar.\nBir husus hakkında ilerde çıkan anlaşmazlıklar, karar defterinde aynı hususa dair daha önce verilmiş bir karar varsa kaide olarak ona göre çözülür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "33",
+   "official_text": "V - Hakimin müdahalesi:\nMadde 33 – (Değişik birinci fıkra: 14/11/2007-5711/17 md.) Kat malikleri kurulunca verilen kararlar aleyhine, kurul toplantısına katılan ancak 32 nci madde hükmü gereğince aykırı oy kullanan her kat maliki karar tarihinden başlayarak bir ay içinde, toplantıya katılmayan her kat maliki kararı öğrenmesinden başlayarak bir ay içinde ve her halde karar tarihinden başlayarak altı ay içinde anagayrimenkulün bulunduğu yerdeki sulh mahkemesine iptal davası açabilir; kat malikleri kurulu kararlarının yok veya mutlak butlanla hükümsüz sayıldığı durumlarda süre koşulu aranmaz. Kat maliklerinden birinin yahut onun katından kira akdine, oturma hakkına veya başka bir sebebe dayanarak devamlı surette faydalanan kimsenin, borç ve yükümlerini yerine getirmemesi yüzünden zarar gören kat maliki veya kat malikleri, anagayrimenkulün bulunduğu yerin sulh mahkemesine başvurarak hâkimin müdahalesini isteyebilir.\nHakim, ilgilileri dinledikten sonra, bu kanuna ve yönetim planına ve bunlarda bir hüküm yoksa, genel hükümlere ve hakkaniyet kaidelerine göre derhal kararını verir ve bunun, tesbit edeceği kısa bir süre içinde yerine getirilmesi lüzumunu ilgiliye tefhim veya tebliğ eder.\n(Değişik üçüncü fıkra: 14/11/2007-5711/17 md.) Tespit edilen süre içinde hâkimin kararını yerine getirmeyenlere, aynı mahkemece, ikiyüz elli Türk Lirasından ikibin Türk Lirasına kadar idarî para cezası verilir. 25 inci madde hükmü saklıdır.\nD) Yönetici:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "34",
+   "official_text": "I - Atanması:\nMadde 34 – Kat malikleri, anagayrimenkulün yönetimini kendi aralarından veya dışardan seçecekleri bir kimseye veya üç kişilik bir kurula verebilirler; bu kimseye (Yönetici), kurula da (Yönetim kurulu) denir.\nAnagayrimenkulün sekiz veya daha fazla bağımsız bölümü varsa, yönetici atanması mecburidir.\nAnagayrimenkulün bütün bölümleri bir kişinin mülkiyetinde ise, malik kanunen yönetici durumundadır.\nYönetici, kat maliklerinin, hem sayı hem arsa payı bakımından çoğunluğu tarafından atanır.\nYönetici her yıl kat malikleri kurulunun kanuni yıllık toplantısında yeniden atanır; eski yönetici tekrar atanabilir.\nKat malikleri anagayrimenkulün yönetiminde anlaşamaz veya toplanıp bir yönetici atayamazlarsa, o geyrimenkulün bulunduğu yerin sulh mahkemesince, kat maliklerinden birinin müracaatı üzerine ve mümkünse diğerleri de dinlendikten sonra, gayrimenkule bir yönetici atanır. Bu yönetici, aynen kat maliklerince atanan yöneticinin yetkilerine sahip ve kat maliklerine karşı sorumlu olur.\nSulh mahkemesince atanan yönetici, bu atanma üzerinden altı ay geçmedikçe, kat malikleri kurulunca değiştirilemez Ancak haklı bir sebep çıkarsa, onu atamış olan sulh mahkemesi, değiştirmeye müsaade edebilir.\nYönetici atanırken kendisiyle yapılan sözleşmede, teminat göstermesi şart edilebilir; sözleşmede böyle bir şart olmasa bile, haklı bir sebebin çıkması halinde, kat malikleri kurulu, yöneticiden teminat göstermesini istiyebilir.\n(Değişik son fıkra: 14/11/2007-5711/18 md.) Yöneticinin ad ve soyadı ile iş ve ev adresinin anagayrimenkulün kapısı yanına veya girişte görülecek bir yere çerçeve içinde asılması mecburidir. Bu yapılmazsa, yöneticiden veya yönetim kurulu üyelerinin her birine, ilgilinin başvurması üzerine aynı mahkemece, elli Türk Lirasından ikiyüzelli Türk Lirasına kadar idarî para cezası verilir.\nII - Yöneticinin görevleri:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "35",
+   "official_text": "1. Genel yönetim işlerinin görülmesi:\nMadde 35 – Yöneticinin görevleri, yönetim planında belirtilir; yönetim planında aksine hüküm olmadıkça, yönetici aşağıdaki işleri görür:\na) Kat malikleri kurulunca verilen kararların yerine getirilmesi;\nb) Anagayrimenkulün gayesine uygun olarak kullanılması, korunması, bakımı ve onarımı için gereken tedbirlerin alınması;\nc) Anagayrimenkulün sigorta ettirilmesi;\nd) Anagayrimenkulün genel yönetim işleriyle korunma, onarım, temizlik gibi bakım işleri ve asansör ve kalorifer, sıcak ve soğuk hava işletmesi ve sigorta için yönetim planında gösterilen zamanda, eğer böyle bir zaman gösterilmemişse, her takvim yılının ilk ayı içinde, kat maliklerinden işletme projesi onaylanıncaya kadar avansın toplanması;[7]\ne) Anagayrimenkulün yönetimiyle ilgili diğer bütün ödemelerin kabulü, yönetim dolayısiyle doğan borçların ödenmesi ve kat malikleri tarafından ayrıca yetkili kılınmışsa, bağımsız bölümlere ait kiraların toplanması;\nf) Anagayrimenkulün tümünü ilgilendiren tebligatın kabulü;\ng) Anagayrimenkulü ilgilendiren bir sürenin geçmesinden veya bir hakkın kaybına meydan vermiyecek gerekli tedbirlerin alınması;\nh) Anagayrimenkulün korunması ve bakımı için kat maliklerinin yararına olan hususlarda gerekli tedbirlerin, onlar adına alınması;\ni) Kat mülkiyetine ilişkin borç ve yükümlerini yerine getirmiyen kat maliklerine karşı dava ve icra takibi yapılması ve kanuni ipotek hakkının kat mülkiyeti kütüğüne tescil ettirilmesi;\nj) Topladığı paraları ve avansları yatırmak ve gerektiğinde almak üzere muteber bir bankada kendi adına ve fakat anagayrimenkulün yönetici sıfatı gösterilmek suretiyle, hesap açtırılması;\nk) Kat malikleri kurulunun toplantıya çağırılması.\nl) (Ek: 4/4/2015-6645/82 md.) Anagayrimenkulde bulunan asansörlerin güvenli bir şekilde işletilmesinin sağlanması amacıyla aylık bakımları ile yıllık kontrollerinin ilgili teknik düzenlemelere uygun şekilde yaptırılması ve bu işlemlere ilişkin ücretlerin ödenmesi.\n(Ek fıkra: 4/4/2015-6645/82 md.) Bu Kanunun 34 üncü maddesinde belirtilen şartları taşımasına rağmen yönetici ataması yapılmayan anagayrimenkulde, birinci fıkrada sayılan işlerin yaptırılmasından kat malikleri müştereken sorumludur.\n[7] 7/5/2026 tarihli ve 7579 sayılı Kanunun 3 üncü maddesiyle bu bentte yer alan “avans olarak münasip miktarda paranın toplanması ve bu avansın harcanıp bitmesi halinde, geri kalan işler için tekrar avans toplanması” ibaresi “işletme projesi onaylanıncaya kadar avansın toplanması” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "36",
+   "official_text": "2. Defter tutulması ve belgelerin saklanması:\nMadde 36 – Yönetici, kat malikleri kurulunun kararlarını protokolleri, yapılan ihtar ve tebligatın özetini ve tarihlerini ve bütün giderleri, 32 nci maddede sözü geçen deftere tarih sırasiyle yazmaya ve bu defteri ve giderlerin belgeleriyle diğer bütün belgeleri bir dosyada saklamaya mecburdur.\nBu defterin, her takvim yılının bitmesinden başlıyarak bir ay içinde yönetici tarafından notere kapattırılması mecburidir.\nBu maddede yazılı görevleri yerine getirmiyen yöneticiye 33 üncü maddenin son fıkrasında yazılı cezalar uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "37",
+   "official_text": "3. İşletme projesinin yapılması:\nMadde 37 – (Değişik: 13/4/1983 - 2814/12 md.)\n(Değişik birinci fıkra:7/5/2026-7579/4 md.) İşletme projesi kat malikleri genel kurulunda onaylanır. Kat malikleri kurulunca kabul edilmiş işletme projesi yoksa, en geç üç ay içinde kat malikleri kurulunda onaylanıncaya kadar yönetici, gecikmeksizin geçici bir işletme projesi yapar.\nBu projede özellikle:\na) Anagayrimenkulün bir yıllık yönetiminde tahmini olarak gelir ve gider tutarları;\nb) Tüm giderlerden her kat malikine, bu Kanunun 20 nci maddesindeki esaslara göre düşecek tahmini miktar;\nc) (Değişik:7/5/2026-7579/4 md.) Her kat malikinin 20 nci maddedeki esaslara göre vermesi gereken avans tutarı;\nGösterilir.\nBu proje,kat maliklerine veya bağımsız bölümden fiilen yararlananlara, imzaları karşılığında veya taahhütlü mektupla bildirilir ve en geç üç ay içinde aynen veya değiştirilerek kabulüne yönelik genel kurulda karar alınır. (Mülga cümle:7/5/2026-7579/4 md.)[8]\nKesinleşen işletme projeleri veya kat malikleri kurulunun işletme giderleri ile ilgili kararları, İcra ve İflas Kanununun 68 inci maddesinin 1 inci fıkrasında belirtilen belgelerden sayılır.\n(Ek fıkra:7/5/2026-7579/4 md.) Mevcut işletme projesi varsa, geçici işletme projesi için öngörülen bedel, yürürlüğü devam eden işletme projesi bedelinin takvim yılı başından geçerli olmak üzere, her yıl, bir önceki yıla ilişkin olarak 4/1/1961 tarihli ve 213 sayılı Vergi Usul Kanununun mükerrer 298 inci maddesi hükümleri uyarınca tespit ve ilan edilen yeniden değerleme oranından fazla olmamak kaydıyla belirlenir ve yukarıda belirlenen usulde kat malikleri kuruluna sunulur.\nIII - Sorumluluğu:\n[8] 7/5/2026 tarihli ve 7579 sayılı Kanunun 4 üncü maddesiyle bu fıkranın birinci cümlesine “bildirilir” ibaresinden sonra gelmek üzere “ve en geç üç ay içinde aynen veya değiştirilerek kabulüne yönelik genel kurulda karar alınır” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "38",
+   "official_text": "1.Genel kural:\nMadde 38 – Yönetici, kat maliklerine karşı aynen bir vekil gibi sorumludur.\n(Ek fıkra: 14/11/2007-5711/19 md.) Kat malikleri kurulu, ada temsilciler kurulu veya toplu yapı temsilciler kurulu kararlarının iptaline ilişkin davalar, kat maliklerini temsilen yöneticiye, toplu yapılarda ise ada temsilciler kurulu veya toplu yapı temsilciler kurulunca seçilen yöneticiye husumet yöneltilmesi suretiyle açılabilir. Yönetici, açılan davayı bütün kat maliklerine ve ada veya toplu yapı temsilciler kuruluna duyurur. Kurul kararının iptali halinde bu konudaki yargılama giderleri ortak giderlerden karşılanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "39",
+   "official_text": "2. Hesap Verme:\nMadde 39 – Yönetici, yönetim planında yazılı zamanlarda eğer böyle bir zaman yazılmamışsa her takvim yılının birinci ayı içinde kat malikleri kuruluna, anagayrimenkul dolayısiyle o tarihe kadar elde edilen gelirlerin ve yapılmış olan giderlerin hesabına vermekle yükümlüdür.\nKat maliklerinin yarısı isterse, bunların arsa payları ne olursa, olsun yönetim planında yazılı zamanlar dışında da hesabın gösterilmesi yöneticiden istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "40",
+   "official_text": "IV - Hakları:\nMadde 40 – Yönetici, kaide olarak vekilin haklarına sahiptir.\nKat malikleri,kendilerine düşen borçları ve yükümleri yönetici tarafından noterlikçe yaptırılan ihtara rağmen vaktinde ve tamamen yerine getirmezlerse, yönetici, hiçbir tazminat ödemeye mecbur olmaksızın, kendine ait sözleşmeyi feshedip yöneticilikten çekilerek bu yüzden uğradığı zararın tazminini kat maliklerinden istiyebilir.\nYönetici, yönetim planında veya kendisiyle yapılan sözleşmede bir ücret tayin edilmemiş olsa bile, kat maliklerinden uygun bir ücret istiyebilir.\n(Değişik: 13/4/1983-2814/13 md.) Kat malikleri kurulu, kat malikleri arasından atanmış yöneticinin normal yönetim giderlerine katılıp katılmayacağı, katılacaksa, ne oranda katılacağını kararlaştırır. Bu yolda, bir karar alınmamış ise, yönetici yönetim süresince kendisine düşen normal yönetim giderlerinin yarısına katılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "41",
+   "official_text": "E) Yönetimin denetlenmesi:\nMadde 41 – Kat malikleri kurulu, yöneticinin bu görevdeki tutumunu devamlı olarak denetler ve haklı bir sebebin çıkması halinde onu her zaman değiştirebilir.\nHesapların denetlenmesi için yönetim planında, belli bir zaman konulmamışsa; bu denetim her üç ayda bir yapılır; bununla beraber haklı bir sebep çıkarsa, hesap denetlenmesi her zaman yapılabilir.\nKat malikleri kurulu denetim işini, kendi aralarından sayı ve arsa payı çoğunluğuyla seçecekleri bir denetçiye veya üç kişilik bir denetim kuruluna verebilir; bu halde denetçi veya denetim kurulu yönetim planında yazılı zamanlarda, eğer zaman yazılmamışsa, her takvim yılının birinci ayı içinde kat malikleri kuruluna verecekleri bir raporla denetimin sonucunu ve anagayrimenkulün yönetim tarzı hakkındaki düşüncelerini bildirir; bu rapor çoğaltılarak birer örneği taahhütlü mektupla kat maliklerine gönderilir.\nDenetçiler bu raporu ve verecekleri kararları ve gerekli gördükleri diğer hususları, (1) den başlayıp sıra ile giden sayfa numaraları taşıyan ve her sayfası noter mührüyle tasdikli bir deftere geçirip tarih koyarak altını imza ederler.\nF) Yenilik ve ilaveler:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "42",
+   "official_text": "I - Faydalı olanlar:\nMadde 42 – Kat malikleri,anagayrimenkulün ortak yerlerinde kendi başlarında bir değişiklik yapamazlar; ortak yerlerin düzgün veya bunları kullanmanın daha rahat ve kolay bir hale konulmasına veya bu yerlerden elde edilecek faydanın çoğaltılmasına yarıyacak bütün yenilik ve ilaveler, kat maliklerinin sayı ve arsa payı çoğunluğu ile verecekleri karar üzerine yapılır.\n(Ek fıkra: 1/7/2005-5378/19 md.) Engellilerin yaşamı için zorunluluk göstermesi hâlinde, proje tadili kat maliklerinin en geç üç ay içerisinde yapacağı toplantıda görüşülerek sayı ve arsa payı çoğunluğu ile karara bağlanır. Toplantının bu süre içerisinde yapılamaması veya tadilat talebinin çoğunlukla kabul edilmemesi durumunda; ilgili kat malikinin talebi üzerine bina güvenliğinin tehlikeye sokulmadığını bildirir komisyon raporuna istinaden ilgili mercilerden alınacak tasdikli proje değişikliği veya krokiye göre inşaat, onarım ve tesis yapılır. İlgili merciler, tasdikli proje değişikliği veya kroki taleplerini en geç altı ay içinde sonuçlandırır. Komisyonun teşkili, çalışma usûlü ile engellinin kullanımından sonraki süreç ile ilgili usûl ve esaslar Bayındırlık ve İskan Bakanlığı ile Özürlüler İdaresi Başkanlığı tarafından müştereken hazırlanacak yönetmelikle belirlenir.[9]\nBu işlerin giderleri, yeniliklerden faydalananlar tarafından, faydalanma oranına göre, ödenir.\n(Değişik dördüncü fıkra: 18/4/2007-5627/16 md.) Kat maliklerinden birinin isteği üzerine ısı yalıtımı, ısıtma sisteminin yakıt dönüşümü ve ısıtma sisteminin merkezi sistemden ferdi sisteme veya ferdi sistemden merkezi sisteme dönüştürülmesi, kat maliklerinin sayı ve arsa payı çoğunluğu ile verecekleri karar üzerine yapılır. Ancak toplam inşaat alanı ikibin metrekare ve üzeri olan binalarda merkezi ısıtma sisteminin ferdi ısıtma sistemine dönüştürülmesi, kat maliklerinin sayı ve arsa payı olarak oybirliği ile verecekleri karar üzerine yapılır. Bu konuda yapılacak ortak işlerin giderleri arsa payı oranına göre ödenir. Merkezi ısıtma sistemlerinde ısınma giderlerinin paylaştırılmasına ilişkin usûl ve esaslar Bayındırlık ve İskan Bakanlığı tarafından yürürlüğe konulacak yönetmelikle düzenlenir.\n(Değişik beşinci fıkra: 18/4/2007-5627/16 md.) Isıtma sisteminin merkezi sistemden ferdi sisteme veya ferdi sistemden merkezi sisteme dönüştürülmesine karar verilmesi halinde, yönetim planının bu karara aykırı hükümleri değiştirilmiş sayılır.\n[9] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu fıkrada yer alan “Özürlülerin” ve “özürlünün” ibareleri sırasıyla “Engellilerin” ve “engellinin” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "43",
+   "official_text": "II - Çok masraflı ve lüks olanlar:\nMadde 43 – Yapılması arzu edilen yenilik ve ilaveler çok masraflı ise veya yapının özel durumuna göre lüks bir nitelik taşıyorsa veya anagayrimenkulün bütün kat malikleri tarafından kullanılması mutlaka gerekli olan yerlerinde veya geçitlerinde bulunmıyorsa, bunlardan faydalanmak istemiyen kat maliki, gidere katılmak zorunda değildir; bu gibi yenilik ve ilavelerin giderini, onların yapılmasına karar vermiş olan kat malikleri öderler.\nBununla beraber, başlangıçta giderlere katılmıyan kat maliki veya onun külli veya cüzi halefleri yenilik ve ilavelerin yapılması ve korunması giderlerine sonradan, kendi arsa payları oranında katılırlarsa, yapılan lüks yenilik veya ilaveden faydalanma hakkını kazanırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "44",
+   "official_text": "III- Bağımsız bölüm ilavesi:\nMadde 44 – Anagayrimenkulün üstüne kat ilavesi veya mevcut çekme kat yerine tam kat yapılması veya zemin veya bodrum katlarında veya arsanın boş kısmında 24 üncü maddenin ikinci fıkrasında yazılı yerlerin sonradan yapımı veya ilavesi için:\na) Kat malikleri kurulunun buna oybirliğiyle karar vermesi;\nb) Anagayrimenkulün bu inşaattan sonra alacağı duruma göre, yapılan yeni ilaveler de dahil olmak üzere bütün bağımsız bölümlerine tahsis olunacak arsa paylarının, usulüne göre yeniden ve oybirliğiyle tesbit edilmesi;\nc) İlave edilecek yeni bağımsız bölüme tahsis edilen arsa payı üzerinde, tapu memuru huzurunda yapılacak resmi senetle, 14 üncü maddeye göre kat irtifakı kurularak bunun, anagayrimenkulün bütün bağımsız bölümlerinin kat mülkiyeti kütüğündeki irtifaklar hanesine tescil edilmesi ve anagayrimenkulün kapanan eski kütük sayfasiyle 13 üncü madde hükmüne göre bağlantı sağlanması;\nŞarttır.\nBu nitelikteki ilave ve genişletmelere muvafakat etmekle beraber kendisi katılmak istemiyen kat maliklerinin arsa paylarından, bu ilaveler sebebiyle azalan kısmın, ilaveyi yaptıranların bağımsız bölümlerine tahsisini kabul ettikleri, resmi senette belirtilir.\nBu takdirde, yeni bağımsız bölümün yapılmasına katılmıyan kat maliklerinin arsa paylarından yeni tahsis sebebiyle azalan kısmın bedeli kendilerine ödenmek şartiyle, yeni yapılan bağımsız bölüm, kat irtifakı kurulmasına dair olan eski resmi senet gereğince kat mülkiyetine çevrilerek onu yaptıranın mülkü veya yaptıranların ortak mülkü olur ve kat mülkiyeti kütüğünün ayrı bir sayfasına yeni malik veya malikler adına tescil edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "45",
+   "official_text": "G) Temliki tasarruflar ve önemli işler:\nMadde 45 – Anagayrimenkulün bir hakla kayıtlanması veya arsanın bölünmesi ve bölünen kısmın mülkiyetinin başkasına devrolunması gibi temliki tasarruflar veya anayapının dış duvarlarının, çatı veya damının reklam maksadiyle kiralanması gibi önemli yönetim işleri ancak bütün kat maliklerinin oybirliğiyle verecekleri karar üzerine yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "893",
+   "official_text": "1. Hâller\nMadde 893- Aşağıdaki alacaklılar, kanunî ipotek hakkının tescilini isteyebilirler:\n1. Satıştan doğan alacağı için satılan taşınmaz üzerinde satıcı,\n2. Elbirliği ortaklığına giren taşınmazlarda paylaşmadan doğan alacakları için birlikte mirasçı olanlar veya diğer elbirliği ortakları,\n3. Bir taşınmaz üzerinde yapılan yapı veya diğer işlerde malzeme vererek veya vermeden emek sarf ettikleri için malzeme ve emek karşılığı olarak malik veya yükleniciden alacaklı olan alt yüklenici veya zanaatkârlar.\nAlacaklıların, bu kanunî ipotek hakkından önceden feragat etmeleri geçerli değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "68",
+   "official_text": "Madde 68 – (Değişik: 18/2/1965-538/38 md.)\n(Değişik birinci fıkra: 17/7/2003-4949/16 md.) Talebine itiraz edilen alacaklının takibi, imzası ikrar veya noterlikçe tasdik edilen borç ikrarını içeren bir senede yahut resmî dairelerin veya yetkili makamların yetkileri dahilinde ve usulüne göre verdikleri bir makbuz veya belgeye müstenitse, alacaklı itirazın kendisine tebliği tarihinden itibaren altı ay içinde itirazın kaldırılmasını isteyebilir. Bu süre içerisinde itirazın kaldırılması istenilmediği takdirde yeniden ilâmsız takip yapılamaz.\nBorçlu itirazını varit gösterecek hiçbir belge ibraz edemezse icra mahkemesi itirazın kaldırılmasına karar verir.\nİtiraz birinci fıkrada gösterilen senet veya makbuz yahut belgeye müstenit ise itirazın kaldırılması talebi reddolunur.\nBorçlu murisine ait bir alacak için takibedilmekte olup da, terekenin borca batık olduğunu ileri sürerse bu hususta ilam getirmesi için kendisine münasip bir mühlet verilir. Bunun dışında itirazın kaldırılması talebinin kabul veya reddi için ileri sürülen iddia ve savunmalar bekletici mesele yapılamaz.\n(Değişik: 9/11/1988-3494/2 md.) Borçlunun gösterdiği belge altındaki imza alacaklı tarafından inkar edilirse hakim, 68/a maddesinde yazılı usule göre yaptığı inceleme neticesinde imzanın alacaklıya ait olduğuna kanaat getirdiği takdirde alacaklının itirazın kaldırılması talebini reddeder ve alacaklıyı sözü edilen belgenin taalluk ettiği değer veya miktarın yüzde onu oranında para cezasına mahkum eder. Alacaklı genel mahkemede dava açarsa bu para cezasının infazı dava sonuna kadar tehir olunur ve alacaklı bu davada alacağını ve imzanın kendisine ait olmadığını ispat ederse bu ceza kalkar.\nAlacaklı duruşmada bizzat bulunmayıp da imza vekili tarafından reddolunduğu takdirde vekil mütaakıp oturumda müvekkilini imza tatbikatı için hazır bulundurmaya veya masraflarını vererek davetiye tebliğ ettirmeye mecburdur. Kabule değer mazereti olmadan gelmiyen alacaklı borçlunun dayandığı belgede yazılı miktar hakkındaki itirazın kaldırılması talebinden vazgeçmiş sayılır.\n(Ek fıkra: 6/6/1985-3222/6 md.; Değişik: 9/11/1988-3494/2 md.) (Değişik birinci cümle: 17/7/2003-4949/16 md.) İtirazın kaldırılması talebinin esasa ilişkin nedenlerle kabulü hâlinde borçlu, talebin aynı nedenlerle reddi hâlinde ise alacaklı, diğer tarafın talebi üzerine yüzde yirmiden aşağı olmamak üzere tazminata mahkûm edilir. Borçlu, menfi tespit ve istirdat davası açarsa, yahut alacaklı genel mahkemede dava açarsa, hükmolunan tazminatın tahsili dava sonuna kadar tehir olunur ve dava lehine sonuçlanan taraf için, daha önce hükmedilmiş olan tazminat kalkar.[29]\n[29] 2/7/2012 tarihli ve 6352 sayılı Kanunun 12 nci maddesiyle, bu fıkrada yer alan “yüzde kırktan” ibaresi “yüzde yirmiden” şeklinde değiştirilmiştir.\n[30] Bu madde başlığı “c) İtirazın muvakkaten kaldırılması suretiyle:” iken, 17/7/2003 tarihli ve 4949 sayılı Kanunun 17 inci maddesiyle “c) İtirazın geçici olarak kaldırılması:” olarak değiştirilmiştir.\n[31] 2/7/2012 tarihli ve 6352 sayılı Kanunun 13 üncü maddesiyle, bu fıkrada yer alan “yüzde kırktan” ibaresi “yüzde yirmiden” şeklinde değiştirilmiştir.\n[32] 17/7/2003 tarihli ve 4949 sayılı Kanunun 18 inci maddesiyle; ikinci fıkrada yer alan “aldığı” ibaresi, “gönderilen” olarak değiştirilmiş; üçüncü fıkraya “hesap özetleri ile” ibaresinden sonra gelmek üzere “ihtarnameler ve” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "4",
+   "official_text": "Sulh hukuk mahkemelerinin görevi\nMADDE 4- (1) Sulh hukuk mahkemeleri, dava konusunun değer veya tutarına bakılmaksızın;\na) Kiralanan taşınmazların, 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununa göre ilamsız icra yoluyla tahliyesine ilişkin hükümler ayrık olmak üzere, kira ilişkisinden doğan alacak davaları da dâhil olmak üzere tüm uyuşmazlıkları konu alan davalar ile bu davalara karşı açılan davaları,\nb) Taşınır ve taşınmaz mal veya hakkın paylaştırılmasına ve ortaklığın giderilmesine ilişkin davaları,\nc) Taşınır ve taşınmaz mallarda, sadece zilyetliğin korunmasına yönelik olan davaları,\nç) Bu Kanun ile diğer kanunların, sulh hukuk mahkemesi veya sulh hukuk hâkimini görevlendirdiği davaları,\ngörürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/A",
+   "official_text": "MADDE 18/A- (Ek:6/12/2018-7155/23 md.)\n(1) İlgili kanunlarda arabulucuya başvurulmuş olması dava şartı olarak kabul edilmiş ise arabuluculuk sürecine aşağıdaki hükümler uygulanır.\n(2) Davacı, arabuluculuk faaliyeti sonunda anlaşmaya varılamadığına ilişkin son tutanağın aslını veya arabulucu tarafından onaylanmış bir örneğini dava dilekçesine eklemek zorundadır. Bu zorunluluğa uyulmaması hâlinde mahkemece davacıya, son tutanağın bir haftalık kesin süre içinde mahkemeye sunulması gerektiği, aksi takdirde davanın usulden reddedileceği ihtarını içeren davetiye gönderilir. İhtarın gereği yerine getirilmez ise dava dilekçesi karşı tarafa tebliğe çıkarılmaksızın davanın usulden reddine karar verilir. Arabulucuya başvurulmadan dava açıldığının anlaşılması hâlinde herhangi bir işlem yapılmaksızın davanın, dava şartı yokluğu sebebiyle usulden reddine karar verilir.\n(3) Daire Başkanlığı, sicile kayıtlı arabuluculardan bu madde uyarınca arabuluculuk yapmak isteyenleri, varsa uzmanlık alanlarını da belirterek, görev yapmak istedikleri adli yargı ilk derece mahkemesi adalet komisyonlarına göre listeler ve listeleri ilgili komisyon başkanlıklarına bildirir. Komisyon başkanlıkları, bu listeleri kendi yargı çevrelerindeki arabuluculuk bürolarına, arabuluculuk bürosu kurulmayan yerlerde ise görevlendirecekleri sulh hukuk mahkemesi yazı işleri müdürlüğüne gönderir.\n(4) Başvuru, uyuşmazlığın konusuna göre yetkili mahkemenin bulunduğu yer arabuluculuk bürosuna, arabuluculuk bürosu kurulmayan yerlerde ise görevlendirilen yazı işleri müdürlüğüne yapılır.\n(5) Arabulucu, komisyon başkanlıklarına bildirilen listeden büro tarafından belirlenir. Ancak tarafların listede yer alan herhangi bir arabulucu üzerinde anlaşmaları hâlinde bu arabulucu görevlendirilir.\n(6) Başvuran taraf, kendisine ve elinde bulunması hâlinde karşı tarafa ait her türlü iletişim bilgisini arabuluculuk bürosuna verir. Büro, tarafların resmî kayıtlarda yer alan iletişim bilgilerini araştırmaya da yetkilidir. İlgili kurum ve kuruluşlar, büro tarafından talep edilen bilgi ve belgeleri vermekle yükümlüdür.\n(7) Taraflara ait iletişim bilgileri, görevlendirilen arabulucuya büro tarafından verilir. Arabulucu bu iletişim bilgilerini esas alır, ihtiyaç duyduğunda kendiliğinden araştırma da yapabilir. Elindeki bilgiler itibarıyla her türlü iletişim vasıtasını kullanarak görevlendirme konusunda tarafları bilgilendirir ve ilk toplantıya davet eder. Bilgilendirme ve davete ilişkin işlemlerini belgeye bağlar.\n(8) Arabulucu, görevlendirmeyi yapan büronun yetkili olup olmadığını kendiliğinden dikkate alamaz. Karşı taraf en geç ilk toplantıda, yetkiye ilişkin belgeleri sunmak suretiyle arabuluculuk bürosunun yetkisine itiraz edebilir. Bu durumda arabulucu, dosyayı derhâl ilgili sulh hukuk mahkemesine gönderilmek üzere büroya teslim eder. Mahkeme, harç alınmaksızın dosya üzerinden yapacağı inceleme sonunda en geç bir hafta içinde yetkili büroyu kesin olarak karara bağlar ve dosyayı büroya iade eder. Mahkeme kararı büro tarafından 11/2/1959 tarihli ve 7201 sayılı Tebligat Kanunu hükümleri uyarınca taraflara tebliğ edilir. Yetki itirazının reddi durumunda aynı arabulucu yeniden görevlendirilir ve dokuzuncu fıkrada belirtilen süreler yeni görevlendirme tarihinden başlar. Yetki itirazının kabulü durumunda ise kararın tebliğinden itibaren bir hafta içinde yetkili büroya başvurulabilir. Bu takdirde yetkisiz büroya başvurma tarihi yetkili büroya başvurma tarihi olarak kabul edilir. Yetkili büro, beşinci fıkra uyarınca arabulucu görevlendirir.\n(9) Arabulucu, yapılan başvuruyu görevlendirildiği tarihten itibaren üç hafta içinde sonuçlandırır. Bu süre zorunlu hâllerde arabulucu tarafından en fazla bir hafta uzatılabilir.\n(10) Arabulucu; taraflara ulaşılamaması veya taraflar katılmadığı için görüşme yapılamaması ya da tarafların anlaşması yahut tarafların anlaşamaması hâllerinde arabuluculuk faaliyetini sona erdirir ve son tutanağı düzenleyerek durumu derhâl arabuluculuk bürosuna bildirir.\n(11) Taraflardan birinin geçerli bir mazeret göstermeksizin ilk toplantıya katılmaması sebebiyle arabuluculuk faaliyetinin sona ermesi durumunda toplantıya katılmayan taraf, son tutanakta belirtilir ve bu taraf davada kısmen veya tamamen haklı çıksa bile yargılama giderinin tamamından sorumlu tutulur. Ayrıca bu taraf lehine vekâlet ücretine hükmedilmez. Her iki tarafın da ilk toplantıya katılmaması sebebiyle sona eren arabuluculuk faaliyeti üzerine açılacak davalarda tarafların yaptıkları yargılama giderleri kendi üzerlerinde bırakılır.\n(12) Tarafların arabuluculuk faaliyeti sonunda anlaşmaları hâlinde, arabuluculuk ücreti, Arabuluculuk Asgari Ücret Tarifesinin eki Arabuluculuk Ücret Tarifesinin İkinci Kısmına göre aksi kararlaştırılmadıkça taraflarca eşit şekilde karşılanır. Bu durumda ücret, Tarifenin Birinci Kısmında belirlenen iki saatlik ücret tutarından az olamaz.\n(13) Arabuluculuk faaliyeti sonunda taraflara ulaşılamaması, taraflar katılmadığı için görüşme yapılamaması veya iki saatten az süren görüşmeler sonunda tarafların anlaşamamaları hâllerinde, iki saatlik ücret tutarı Tarifenin Birinci Kısmına göre Adalet Bakanlığı bütçesinden ödenir. İki saatten fazla süren görüşmeler sonunda tarafların anlaşamamaları hâlinde ise iki saati aşan kısma ilişkin ücret aksi kararlaştırılmadıkça taraflarca eşit şekilde uyuşmazlığın konusu dikkate alınarak Tarifenin Birinci Kısmına göre karşılanır. Adalet Bakanlığı bütçesinden ödenen ve taraflarca karşılanan arabuluculuk ücreti, yargılama giderlerinden sayılır.\n(14) Bu madde uyarınca arabuluculuk bürosu tarafından yapılması gereken zaruri giderler; arabuluculuk faaliyeti sonunda anlaşmaya varılması hâlinde anlaşma uyarınca taraflarca ödenmek, anlaşmaya varılamaması hâlinde ise ileride haksız çıkacak taraftan tahsil olunmak üzere Adalet Bakanlığı bütçesinden karşılanır.\n(15) Arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar geçen sürede zamanaşımı durur ve hak düşürücü süre işlemez.\n(16) Dava açılmadan önce ihtiyati tedbir kararı verilmesi hâlinde 6100 sayılı Kanunun 397 nci maddesinin birinci fıkrasında, ihtiyati haciz kararı verilmesi hâlinde ise 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 264 üncü maddesinin birinci fıkrasında düzenlenen dava açma süresi, arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar işlemez.\n(17) Arabuluculuk görüşmeleri, taraflarca aksi kararlaştırılmadıkça, arabulucuyu görevlendiren büronun bağlı bulunduğu adli yargı ilk derece mahkemesi adalet komisyonunun yetki alanı içinde yürütülür.\n(18) Özel kanunlarda tahkim veya başka bir alternatif uyuşmazlık çözüm yoluna başvurma zorunluluğunun olduğu veya tahkim sözleşmesinin bulunduğu hâllerde, dava şartı olarak arabuluculuğa ilişkin hükümler uygulanmaz.\n(19) İlgili kanunlarda dava şartı olarak arabuluculuğa ilişkin kabul edilen özel hükümler saklıdır.\n(20) Bu bölümde hüküm bulunmayan hâllerde niteliğine uygun düştüğü ölçüde bu Kanunun diğer hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "5. Hukuk Dairesi",
+   "esas_no": "2025/16052",
+   "karar_no": "2026/10953",
+   "decision_date": "15.06.2026",
+   "summary_md": "On dört bölümlü bir apartmanda 28.03.2019 tarihli olağanüstü toplantı yapılmış, davacı kat maliki toplantının usulsüz çağrıyla yapıldığını ileri sürerek toplantının ve KMK m. 25'e ilişkin kararın iptalini istemiştir. Davacı toplantıda vekili aracılığıyla hazır bulunmuştur. İlk derece sulh hukuk mahkemesi davayı kabul etmiş, bölge adliye mahkemesi kararı kaldırarak davayı reddetmiştir. Gerekçesine göre çağrı usulü sıkı şekle bağlı olsa da toplantıya katılan malikin çağrı usulsüzlüğüne dayanması iyiniyetle bağdaşmaz; KMK m. 25'in şartları ve çekilmezlik de ancak yönetimin açacağı devir davasında tartışılabilir. Yargıtay 5. Hukuk Dairesi, toplantının olağanüstü toplantı olduğunu ve alınan kararın usulüne uygun bulunduğunu belirterek değişik gerekçeyle verilen ret kararında isabetsizlik görmemiş ve kararı oybirliğiyle onamıştır. Konuya katkısı: Onanan bölge adliye mahkemesi gerekçesine göre toplantıya katılan malik çağrı usulsüzlüğünü iptal sebebi yapamaz; çıkarma davası açma kararına karşı ayrı iptal davasında hukuki yarar yoktur.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1231257000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "5. Hukuk Dairesi",
+   "esas_no": "2025/8970",
+   "karar_no": "2026/2476",
+   "decision_date": "16.02.2026",
+   "summary_md": "Yedi bölümlü bir yapıda 09.12.2016'da güçlendirme kararı alınmıştır. Davacı, kararın 5/7 oyla alındığını, beşte dört gerektiğini ve kararın yok hükmünde olduğundan süre sınırı bulunmadığını ileri sürmüş, ancak dava öncesinde arabulucuya başvurmamıştır. İlk derece sulh hukuk mahkemesi, uyuşmazlığın dava şartı arabuluculuğa tabi olduğunu ve eksikliğin sonradan giderilemeyeceğini belirterek davayı usulden reddetmiştir. Bölge adliye mahkemesi ise kat mülkiyetinin kurulduğunu ve KMK'nin uygulanacağını belirterek davacının istinaf başvurusunu esastan reddetmiştir. Yargıtay 5. Hukuk Dairesi kararı oybirliğiyle onamıştır. Konuya katkısı: Kurul kararının iptali davası HUAK m. 18/B/1-c kapsamındadır; arabuluculuk yoksa dava usulden reddedilir. Yokluk iddiası Yargıtayca ayrıca tartışılmamıştır, bu yüzden karar bu yönden genişletilmemelidir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1228329700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "5. Hukuk Dairesi",
+   "esas_no": "2020/7921",
+   "karar_no": "2021/481",
+   "decision_date": "25.01.2021",
+   "summary_md": "Davacı, 30.09.2011 tarihli toplantıda yeter sayının bulunmadığını, sahte imza atıldığını ve çağrı tebligatlarının yapılmadığını ileri sürmüş, dava 04.06.2012'de açılmıştır. Sulh hukuk mahkemesi toplantının ve kararların iptaline karar vermiştir. Yargıtay 5. Hukuk Dairesi, KMK m. 33/1'deki bir ay ve altı aylık sürelerin hak düşürücü olduğunu, süre geçtiğinde yalnız yok veya mutlak butlanla sakat kararların incelenebileceğini belirtmiş ve her kararın bu yönden ayrı ayrı değerlendirilmesi gerekirken eksik incelemeyle kabul kararı verildiği gerekçesiyle kararı oybirliğiyle bozmuştur. Konuya katkısı: İptal davası süreleri hak düşürücüdür; süre geçtikten sonra her karar tek tek yokluk ve mutlak butlan yönünden incelenir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/659514200",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Aralarında başka türlü anlaşma bulunmayan bir apartmanda kapıcı, kaloriferci, bahçıvan ve bekçi giderleri ile bunlar için toplanacak avans kat maliklerince nasıl paylaşılır?",
+   "options": [
+    "Arsa payı oranında",
+    "Faydalanma oranında",
+    "Bağımsız bölümün büyüklüğüne göre kurulun belirleyeceği oranda",
+    "Eşit olarak"
+   ],
+   "correct_option": 3,
+   "explanation_md": "KMK m. 20/1-a, personel giderlerini ve bunların avansını eşit paylaştırır. Sigorta, bakım, onarım, güçlendirme ve yönetici aylığı gibi diğer giderler ise arsa payı oranında paylaşılır (KMK m. 20/1-b). Faydalanma oranı faydalı yeniliklerin giderinde söz konusudur (KMK m. 42/3)."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi bir kat malikinin ortak yerlerde inşaat yaptırabilmesi ya da dış cepheyi değişik renkte boyatabilmesi için aranan şarttır?",
+   "options": [
+    "Toplantıya katılanların beşte dördünün sözlü onayı",
+    "Sayı ve arsa payı çoğunluğunun kararı",
+    "Bütün kat maliklerinin oybirliğiyle verdiği karar",
+    "Bütün kat maliklerinin beşte dördünün yazılı rızası"
+   ],
+   "correct_option": 3,
+   "explanation_md": "KMK m. 19/2'ye göre ortak yerlerde inşaat, onarım, tesis ve değişik renkte dış badana veya boya için bütün kat maliklerinin beşte dördünün yazılı rızası gerekir. Nisap toplantıya katılanlara göre değil bütün maliklere göre hesaplanır ve rıza yazılı olmalıdır."
+  },
+  {
+   "stem_md": "Yönetim planında ve malikler arasında gider paylaşımına ilişkin özel bir hüküm yoktur. Zemin kattaki dükkânın maliki Nilay, asansörü hiç kullanmamaktadır ve bu yüzden asansörün bakım giderine katılmayacağını söylemektedir. Nilay'ın durumu için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yalnız kullanma hakkından yazılı olarak vazgeçerse katılmaz",
+    "Gidere yarı oranında katılır",
+    "Dükkânı asansörden faydalanmadığı için gidere katılmaz",
+    "Gidere arsa payı oranında katılmak zorundadır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Asansör bakımı ortak yerlere ilişkin bir bakım giderine girer ve arsa payı oranında paylaşılır (KMK m. 20/1-b). KMK m. 20/1-c uyarınca malik, kullanma hakkından vazgeçerek ya da kendi bölümünün durumu nedeniyle faydalanmaya lüzum olmadığını ileri sürerek gider payını ödemekten kaçınamaz."
+  },
+  {
+   "stem_md": "Ortak gider ve avans payını ödemeyen kat malikinin ödemede geciktiği günler için ödemekle yükümlü olduğu gecikme tazminatı oranı aşağıdakilerden hangisidir?",
+   "options": [
+    "Yıllık yüzde beş",
+    "Aylık yüzde beş",
+    "Yalnızca yasal faiz",
+    "Aylık yüzde on"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 20/2'ye göre gider ve avans payını ödemeyen malik ödemede geciktiği günler için aylık yüzde beş hesabıyla gecikme tazminatı öder. Yüzde on oranı 5711 sayılı Kanundan önceki metindeydi, değiştirilmiştir."
+  },
+  {
+   "stem_md": "Yönetici Ali, aidat borcunu ödemeyen Burcu'nun bağımsız bölümü üzerine diğer kat malikleri lehine kanuni ipotek tescil ettirmek istemektedir. Bunun için aşağıdakilerden hangisi aranır?",
+   "options": [
+    "Kurulun oybirliğiyle ipotek kararı vermesi",
+    "Borçluya noter aracılığıyla iki aylık süreli ihtar çekilmesi",
+    "İki takvim yılı içinde üç kez icra takibi yapılmış olması",
+    "Borcun mahkemece tespit edilmiş olması ve bu yolla da alınamaması"
+   ],
+   "correct_option": 3,
+   "explanation_md": "KMK m. 22/2'ye göre kanuni ipotek, borç kiracı ve diğer sorumlulardan alınamazsa ve borç mahkemece tespit edilmişse, yöneticinin yazılı istemiyle tescil edilir. Noter ihtarı ve iki ay KMK m. 26/2'ye (kat irtifakı), iki yılda üç takip ise KMK m. 25/3-a'ya (çekilmezlik karinesi) aittir."
+  },
+  {
+   "stem_md": "Kiracı Mehmet'in oturduğu dairenin maliki ortak gider borcunu ödememiştir. Mehmet'in bu borçtan sorumluluğu hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Mehmet hiç sorumlu değildir; borç yalnız malikindir",
+    "Mehmet yalnızca yönetici kendisine ihtar çekmişse sorumludur",
+    "Mehmet, malikle müteselsil sorumludur; ancak sorumluluğu ödemekle yükümlü olduğu kira miktarıyla sınırlıdır",
+    "Mehmet sınırsız ve tek başına sorumludur"
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 22/1 gider, avans ve gecikme tazminatı borcundan kiracı gibi devamlı yararlananların da müştereken ve müteselsilen sorumlu olduğunu, ancak kiracının sorumluluğunun ödemekle yükümlü olduğu kira miktarıyla sınırlı olduğunu ve yaptığı ödemenin kira borcundan düşeceğini söyler."
+  },
+  {
+   "stem_md": "Binanın kütükte mesken olarak kayıtlı zemin kat bölümünde lokanta açılması için aşağıdakilerden hangisi gerekir?",
+   "options": [
+    "Kat malikleri kurulunun sayı ve arsa payı çoğunluğuyla karar vermesi",
+    "Kat malikleri kurulunun oybirliğiyle karar vermesi",
+    "İzin gerekmez; lokanta açılması serbesttir",
+    "Bütün kat maliklerinin beşte dördünün yazılı rızası"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 24/2'ye göre kütükte mesken olarak gösterilen bölümde fırın, lokanta, pastahane gibi gıda yerleri ancak kat malikleri kurulunun oybirliğiyle vereceği kararla açılabilir. Beşte dört KMK m. 19/2 ve KMK m. 28/3'ün nisabıdır."
+  },
+  {
+   "stem_md": "Dr. Kemal, kütükte ticaret yeri olarak kayıtlı bir bağımsız bölümde poliklinik açmak istemektedir. Bütün kat malikleri buna yazılı olarak izin vermektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kurul sayı ve arsa payı çoğunluğuyla izin verirse açılabilir",
+    "Poliklinik kurulamaz; buna aykırı sözleşmeler hükümsüzdür",
+    "Bütün maliklerin izni olduğu için poliklinik açılabilir",
+    "Poliklinik ancak sulh hâkiminin kararıyla açılabilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 24/1'e göre kütükte mesken, iş veya ticaret yeri olarak gösterilen bölümde hastane, dispanser, klinik, poliklinik gibi müesseseler kurulamaz ve kat maliklerinin buna aykırı sözleşmeleri hükümsüzdür. Oybirliği bu yasağı aşmaz; oybirliği ile aşılabilen yasak, meskene ilişkin KMK m. 24/2'dir. Yalnızca klinik niteliğinde olmayan muayenehaneler bu yasağın dışındadır."
+  },
+  {
+   "stem_md": "Kat maliki Tolga'nın bağımsız bölümünün diğer maliklere devrini isteyen dava için kat maliklerince alınması gereken karar hangi çoğunlukla verilir?",
+   "options": [
+    "Bütün kat maliklerinin oybirliğiyle",
+    "Aksi kararlaştırılmadıkça diğer kat maliklerinin sayı ve arsa payı çoğunluğuyla",
+    "Bütün kat maliklerinin beşte dördüyle",
+    "Diğer kat maliklerinin üçte iki oyuyla"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 25/2'ye göre davanın açılması, aksi kararlaştırılmış olmadıkça, diğer kat maliklerinin sayı ve arsa payı çoğunluğuyla karar vermesine bağlıdır. KMK m. 25/3'teki hâller çekilmezliği var sayar ama başka bir oy oranı öngörmez."
+  },
+  {
+   "stem_md": "Kat maliki Tolga, 2024 ve 2025 takvim yıllarında aidat borcunu ödemediği için üç kez icra takibine sebep olmuştur. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Çekilmezlik var sayılır; dava açılması için ayrıca süreli ihtar çekilmesi şarttır",
+    "Çekilmezlik var sayılır; davanın açılması diğer maliklerin sayı ve arsa payı çoğunluğuyla vereceği karara bağlıdır",
+    "Tolga'nın bölümü kendiliğinden diğer maliklere geçer",
+    "Çekilmezlik ancak üç yıl üst üste takip yapılırsa var sayılır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 25/3-a'ya göre ortak gider ve avans borcunu ödemediği için iki takvim yılı içinde üç defa icra veya dava takibi yapılmasına sebep olunması hâlinde çekilmezlik her halde mevcut farz edilir. Dava açmak için kanunda süreli ihtar aranmaz; karar KMK m. 25/2'ye göre sayı ve arsa payı çoğunluğuyla alınır. Mülkiyet kendiliğinden geçmez, hâkim kararıyla devredilir."
+  },
+  {
+   "stem_md": "KMK m. 25'e dayanan çıkarma davası hakkı hangi sürelerin geçmesiyle düşer?",
+   "options": [
+    "Dava açma kararının öğrenilmesinden altı ay, her hâlde dava hakkının doğumundan beş yıl",
+    "Dava açma kararının öğrenilmesinden iki ay, her hâlde bir yıl",
+    "Karar tarihinden on yıl",
+    "Dava açma kararının öğrenilmesinden bir ay, her hâlde altı ay"
+   ],
+   "correct_option": 0,
+   "explanation_md": "KMK m. 25/4 dava hakkının, dava açma kararının öğrenilmesi tarihinden başlayarak altı ay ve her halde dava hakkının doğumundan başlayarak beş yıl içinde kullanılmaması hâlinde ya da dava sebebinin ortadan kalkması hâlinde düştüğünü söyler. Bir ay ve altı ay ise kurul kararının iptal davası sürelerinin (KMK m. 33/1) karşılığıdır."
+  },
+  {
+   "stem_md": "Kat irtifakı sahibi bir paydaşın borcunu yerine getirmemesi hâlinde diğer paydaşların onun payının devrini isteyebilmesi için aşağıdakilerden hangisi aranır?",
+   "options": [
+    "İki takvim yılında üç icra takibi",
+    "Kurulun üçte iki oyla karar vermesi",
+    "Noter aracılığıyla ihtar yapılması ve ihtar tarihinden başlayarak iki ay içinde borcun yerine getirilmemesi",
+    "Sulh hâkiminin bir yıl süreli emrine uyulmaması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 26/2'ye göre kat irtifakı sahibi, noter aracılığıyla yapılan ihtara rağmen ihtar tarihinden başlayarak iki ay içinde borcunu yerine getirmezse diğerlerinin yazılı istemiyle hâkim payın devrine karar verir. İki yılda üç takip ve bir yıllık ısrar kat mülkiyetindeki KMK m. 25/3 hâlleridir."
+  },
+  {
+   "stem_md": "Gül Apartmanı 20 bölümlüdür ve toplu yapı değildir. İlk toplantı yeter sayı sağlanamadığı için yapılamamış, ikinci toplantıya katılan 9 malikten 6'sı yönetim planının değiştirilmesi yönünde oy kullanmıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Karar geçerlidir; çünkü karar sayı çoğunluğuyla alınmıştır",
+    "Plan değişikliği için hiçbir nisap aranmaz",
+    "Plan değişikliği için bütün kat maliklerinin beşte dördünün oyu gerekir; 6 oy bu nisabı karşılamaz",
+    "Karar geçerlidir; ikinci toplantıda katılanların salt çoğunluğu yeter"
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 28/3 yönetim planının değiştirilmesi için bütün kat maliklerinin beşte dördünün oyunu şart koşar. İkinci toplantıdaki salt çoğunluk (KMK m. 30/2) genel kural olup Kanundaki özel yeter sayılar saklıdır (KMK m. 30/3). Bu nedenle 20 bölümlü binada 6 oy yeterli değildir."
+  },
+  {
+   "stem_md": "İlk toplantı yeter sayının sağlanamaması nedeniyle yapılamayan bir kat malikleri kurulunda ikinci toplantı ve karar yeter sayısı için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İki toplantı arasında en az onbeş gün bırakılır; karar için bütün maliklerin yarısı gerekir",
+    "İki toplantı arasında en az yedi gün bırakılır; ikinci toplantı en geç onbeş gün sonra yapılır ve karar yeter sayısı katılanların salt çoğunluğudur",
+    "İkinci toplantı aynı gün yapılabilir; oybirliği gerekir",
+    "İkinci toplantı bir ay sonra yapılır; katılanların beşte dördü gerekir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 29/3 ilk ve ikinci toplantı arasında yedi günden az zaman bırakılamayacağını söyler. KMK m. 30/2'ye göre ikinci toplantı en geç onbeş gün sonra yapılır ve karar yeter sayısı katılanların salt çoğunluğudur. Kanundaki özel yeter sayılar bu kuraldan etkilenmez."
+  },
+  {
+   "stem_md": "Kat malikleri kurulu, malik sıfatıyla yönetici de olan Murat'ın geçmiş dönem hesaplarının kabulü ve kendisinin ibrası konusunu görüşmektedir. Murat'ın bu oylamadaki durumu için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Görüşmede bulunabilir ve oy kullanabilir",
+    "Görüşmede bulunabilir ancak oya katılamaz",
+    "Görüşmede bulunamaz ve oy kullanamaz",
+    "Yalnız oyu ikiye bölünerek sayılır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 31/4'e göre alınacak karar doğrudan doğruya kendini ilgilendiren kat maliki görüşmelerde hazır bulunabilir ama oya katılamaz."
+  },
+  {
+   "stem_md": "36 bağımsız bölümlü bir apartmanda Fatma, toplantıda oy kullanmak üzere birçok komşusundan vekâlet toplamak istemektedir. Fatma en fazla kaç kişiye vekâlet edebilir?",
+   "options": [
+    "En fazla iki kişiye",
+    "En fazla beş kişiye",
+    "Sınırsız sayıda kişiye",
+    "Yalnız bir kişiye"
+   ],
+   "correct_option": 0,
+   "explanation_md": "KMK m. 31/5'e göre bir kişi oy sayısının yüzde beşinden fazlasını kullanmak üzere vekil tayin edilemez; ancak kırk ve daha az sayıdaki kat mülkiyetine tabi taşınmazlarda bir kişi en fazla iki kişiye vekâlet edebilir."
+  },
+  {
+   "stem_md": "Kat malikleri kurulu 5 Mart'ta bir karar almıştır. Toplantıya katılmayan Can kararı 20 Mart'ta öğrenmiştir. Can'ın iptal davası açabileceği süre için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Süre sınırı yoktur",
+    "Öğrenmeden itibaren bir ay ve her halde karar tarihinden itibaren altı ay içinde",
+    "Öğrenmeden itibaren altı ay içinde",
+    "Karar tarihinden itibaren bir ay içinde"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 33/1'e göre toplantıya katılmayan malik kararı öğrenmesinden başlayarak bir ay içinde ve her halde karar tarihinden başlayarak altı ay içinde sulh mahkemesine iptal davası açabilir. Aykırı oy veren ise karar tarihinden itibaren bir ay içinde açar. Süre koşulu yalnız yok veya mutlak butlanla hükümsüz sayılan kararlarda aranmaz."
+  },
+  {
+   "stem_md": "Kat malikleri kurulu kararının iptali için dava açacak malik için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Asliye hukuk mahkemesine doğrudan dava açabilir",
+    "Önce kat maliklerinin oybirliği kararı alınması gerekir",
+    "Arabulucuya başvurmadan sulh hukuk mahkemesine dava açabilir",
+    "Önce arabulucuya başvurmuş olması gerekir; dava sulh mahkemesinde açılır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kat Mülkiyeti Kanunu'nun ek 1. maddesi ve HMK m. 4/1-ç uyarınca görevli mahkeme sulh hukuk mahkemesidir. HUAK m. 18/B/1-c ise 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklarda dava açılmadan önce arabulucuya başvurulmasını dava şartı yapar; Yargıtay iptal davasını bu kapsamda sayar."
+  },
+  {
+   "stem_md": "Dokuz bağımsız bölümlü bir apartmanda hiç yönetici atanmamıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yönetici yalnız arsa payı çoğunluğuyla atanır ve atanmamışsa bina kurul tarafından yönetilmez",
+    "Yönetici atanması mecburidir; atanmamışsa yöneticinin yapması gereken işlerin yaptırılmasından kat malikleri müştereken sorumludur",
+    "Yönetici ancak sekiz bölümden fazla yapılarda zorunludur ve atamayı noter yapar",
+    "Yönetici atanması isteğe bağlıdır; hiçbir sonuç doğmaz"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 34/2'ye göre sekiz veya daha fazla bağımsız bölüm varsa yönetici atanması mecburidir. KMK m. 35'in son fıkrası, bu şartlar varken yönetici atanmamışsa yöneticinin görevi sayılan işlerin yaptırılmasından kat maliklerinin müştereken sorumlu olduğunu söyler. Yönetici hem sayı hem arsa payı çoğunluğuyla atanır, anlaşılamazsa sulh mahkemesi atar."
+  },
+  {
+   "stem_md": "7579 sayılı Kanun (RG 22/5/2026) ile Kat Mülkiyeti Kanunu'nda yapılan değişikliklerle ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İşletme projesini kat malikleri genel kurulu onaylar ve avans işletme projesi onaylanıncaya kadar toplanır",
+    "Ana yapıda yönetim planının değiştirilmesi için aranan nisap beşte dörtten üçte ikiye indirilmiştir",
+    "Kurul kararlarının iptali davası artık asliye hukuk mahkemesinde açılır",
+    "Gecikme tazminatı aylık yüzde ona çıkarılmıştır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "KMK m. 35/1-d avansın işletme projesi onaylanıncaya kadar toplanmasını söyler; KMK m. 37/1 ise işletme projesinin kat malikleri genel kurulunda onaylanacağını belirtir. Beşte dörtten üçte ikiye düşüş yalnız toplu yapıya ilişkindir; ana yapıda KMK m. 28/3 değişmemiştir. Gecikme tazminatı aylık yüzde beştir (KMK m. 20/2) ve görevli mahkeme sulh hukuk mahkemesidir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Papatya Apartmanı 12 bağımsız bölümlüdür ve yönetici Ali tarafından yönetilmektedir. Ayşe, 3 numaralı dairesini aylık 20.000 TL kira bedeliyle Mehmet'e kiralamıştır. Ayşe aylık aidatlarını ödemediği için 2024 ve 2025 takvim yıllarında toplam üç kez icra takibine sebep olmuştur. Ali, 2026 yılı aidat borcu için de bir ödeme alamamıştır; aylık aidat 3.000 TL'dir. Ali borcun tahsili için kiracı Mehmet'e de başvurmuş, Mehmet \"ben yalnız kira öderim, aidat malikin borcudur\" demiştir. Ayşe, daha önceki takiplerde de ödemeyi hep son anda ve icra baskısıyla yapmıştır. Diğer malikler, Ayşe'nin bu tutumunu artık sürdürmesini istememekte ve bölümünün kendilerine devredilmesini konuşmaktadır.\n\n1. Ayşe'nin ve Mehmet'in ortak gider borcundan sorumluluğu ile gecikme tazminatı hakkında ne söylenebilir?\n2. Ali, borcun güvencesi olarak Ayşe'nin dairesi üzerine hangi hakkı tescil ettirebilir? Şartları nelerdir?\n3. Diğer malikler Ayşe'nin dairesinin kendilerine devrini isteyebilir mi? Dava hangi çoğunlukla ve hangi süre içinde açılır, nasıl bir yol izlenir?\n4. Görevli mahkeme hangisidir ve dava öncesinde ne yapılmalıdır?",
+   "rubric": [
+    {
+     "point": "Ayşe'nin ve kiracı Mehmet'in müteselsil sorumluluğu; Mehmet'in sorumluluğunun ödemekle yükümlü olduğu kira miktarıyla sınırlı olması ve ödemesinin kira borcundan düşmesi",
+     "weight": 20,
+     "madde_ref": "KMK m. 22/1"
+    },
+    {
+     "point": "Gecikme tazminatının geciken günler için aylık yüzde beş olması",
+     "weight": 10,
+     "madde_ref": "KMK m. 20/2"
+    },
+    {
+     "point": "Kanuni ipoteğin şartları: mahkemece tespit edilmiş ve diğer yollarla alınamayan borç, yöneticinin yazılı istemi; feragatin geçersizliği",
+     "weight": 20,
+     "madde_ref": "KMK m. 22/2"
+    },
+    {
+     "point": "İki takvim yılı içinde üç takip nedeniyle çekilmezliğin her halde var sayılması",
+     "weight": 15,
+     "madde_ref": "KMK m. 25/3"
+    },
+    {
+     "point": "Dava açma kararının sayı ve arsa payı çoğunluğuyla alınması; bedelin hükme en yakın değeri üzerinden üç aylık vadeli hesaba yatırılması ve arsa payları oranında devir",
+     "weight": 15,
+     "madde_ref": "KMK m. 25/2"
+    },
+    {
+     "point": "Dava hakkının öğrenmeden altı ay ve her halde beş yıl içinde kullanılması",
+     "weight": 5,
+     "madde_ref": "KMK m. 25/4"
+    },
+    {
+     "point": "Sulh hukuk mahkemesinin görevi ve dava şartı arabuluculuk",
+     "weight": 15,
+     "madde_ref": "HUAK m. 18/B"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, ortak gider borcunun ödenmemesi, bu borcun kiracıya ve bölüm üzerine yansıması ve borçlarını ihlal eden malikin bölümünün çıkarılması (KMK m. 25) sorunlarını içerir.\n\n**Hukuki sorunlar:** (1) Kimin, hangi ölçüde ve hangi tazminatla sorumlu olduğu; (2) kanuni ipotek; (3) çıkarma davasının şartları, çoğunluğu ve süresi; (4) görev ve arabuluculuk.\n\n**İlgili hükümler:** KMK m. 20/2, 22/1-2, 25/2-4, 26 ile karşılaştırma; TMK m. 893; HMK m. 4/1-ç; HUAK m. 18/B/1-c; Kat Mülkiyeti Kanunu'nun ek 1. maddesi.\n\n**Değerlendirme:**\n\n*1. Sorumluluk ve gecikme tazminatı:* Ortak giderler malikin borcudur. Ancak bölümde kira akdine dayanarak devamlı yararlanan kiracı da gider, avans ve gecikme tazminatı borcundan malikle müştereken ve müteselsilen sorumludur. Kiracının sorumluluğu ödemekle yükümlü olduğu kira miktarıyla sınırlıdır ve yaptığı ödeme kira borcundan düşer (KMK m. 22/1). Mehmet'in \"aidat yalnız malikin borcudur\" savunması bu yüzden yerinde değildir: Mehmet de sorumludur; ancak sorumluluğu ödemekle yükümlü olduğu kira miktarıyla sınırlıdır ve Ali'ye yaptığı ödeme kira borcundan düşer. Ayşe ise borcun asıl sorumlusudur. Ödemede geciktiği her gün için aylık yüzde beş hesabıyla gecikme tazminatı da öder (KMK m. 20/2). Gidere birinin kusurlu hareketi sebep olmuşsa rücu da mümkündür (KMK m. 20/3).\n\n*2. Kanuni ipotek:* Borç kiracıdan da alınamazsa ve borç mahkemece tespit edilmişse, yöneticinin yazılı istemiyle Ayşe'nin bağımsız bölümü üzerine borç tutarı için diğer malikler lehine kanuni ipotek tescil edilir (KMK m. 22/2). İki şart birliktedir: borç diğer yollarla da alınamamış olmalı ve mahkemece tespit edilmiş olmalıdır. Bu ipotekten önceden feragat geçersizdir (TMK m. 893 son fıkra). Maliklerin gider alacağı ayrıca önceliklidir (KMK m. 22/3). Ali yönetici sıfatıyla dava ve icra takibini yapmaya ve ipoteği tescil ettirmeye yetkilidir (KMK m. 35/1-i).\n\n*3. Çıkarma:* Ayşe iki takvim yılı içinde ortak gider borcunu ödemediği için üç kez icra takibine sebep olmuştur. Bu durumda çekilmezlik her halde mevcut farz edilir (KMK m. 25/3-a). Ancak bu yalnız çekilmezliği var sayar; davanın açılması, aksi kararlaştırılmış olmadıkça, diğer malikler arasında sayı ve arsa payı çoğunluğuyla alınan karara bağlıdır (KMK m. 25/2). Burada kanunda üçte iki oy ya da süreli ihtar yoktur. Karara rağmen bir kısım malik dava açmak istemezse dava öteki malikler tarafından açılır. Bölümün hükme en yakın tarihteki değeri Ayşe'ye ödenerek devir istenir; hâkim hüküm vermeden önce bedelin bankada üçer aylık vadeli hesaba yatırılması için süre verir ve dava kabul edilirse bölüm davayı açan maliklere arsa payları oranında devredilir, bedel işlemiş faiziyle Ayşe'ye ödenir. Dava hakkı, dava açma kararının öğrenilmesinden itibaren altı ay ve her halde hakkın doğumundan itibaren beş yıl içinde kullanılmalıdır (KMK m. 25/4).\n\n*4. Usul:* Görevli mahkeme sulh hukuk mahkemesidir (Kat Mülkiyeti Kanunu'nun ek 1. maddesi; HMK m. 4/1-ç). Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklarda dava açılmadan önce arabulucuya başvurulması dava şartıdır (HUAK m. 18/B/1-c).\n\n**Sonuç:**\n- Ayşe asıl sorumludur; Mehmet müteselsil sorumludur ama kira miktarıyla sınırlıdır; gecikme tazminatı aylık yüzde beştir.\n- Ali, borç mahkemece tespit edilip başka yoldan alınamazsa yazılı istemle kanuni ipotek tescil ettirebilir; feragat geçersizdir.\n- Çekilmezlik var sayılır; dava için sayı ve arsa payı çoğunluğuyla karar gerekir; süre altı ay ve beş yıldır.\n- Önce arabuluculuk, sonra sulh hukuk mahkemesi."
+  },
+  {
+   "stem_md": "Gül Apartmanı 20 bağımsız bölümlüdür ve toplu yapı değildir. Yönetim planının değiştirilmesi için toplanan kat malikleri kurulunun ilk toplantısı 10 Ocak 2026'da yeter sayı sağlanamadığı için yapılamamıştır. Çağrıda ikinci toplantının tarihi 14 Ocak 2026 olarak gösterilmiştir. Bu toplantıya 9 malik katılmış ve 6 malik oyuyla yönetim planında değişiklik yapılmıştır. Zeynep toplantıya katılmış, değişikliğe aykırı oy vermiş ve gerekçesini karar defterine yazarak imza koymuştur. Toplantıya katılmayan Can ise kararı 1 Şubat 2026'da öğrenmiştir. Çağrı yönetici Selma tarafından bütün maliklere imza karşılığı yapılmıştır. Değişiklik, planın ortak yerlerin kullanım şekline ilişkin maddesinde yapılmış ve karar defterine yazılmıştır. Zeynep 3 Şubat 2026'da, Can 10 Şubat 2026'da dava açmak istemektedir; ikisi de daha önce arabulucuya başvurmamıştır.\n\n1. Toplantının yapılma biçimi (süreler) kanuna uygun mudur?\n2. Planın bu şekilde değiştirilmesi mümkün müdür? İkinci toplantıda salt çoğunluk yeter mi?\n3. Zeynep ve Can hangi mahkemede, hangi süre içinde ve kimi hasım göstererek dava açabilir? Önce ne yapmalıdır?\n4. Dava kabul edilirse yargılama giderlerini kim öder?",
+   "rubric": [
+    {
+     "point": "İlk ve ikinci toplantı arasında en az yedi gün bırakılması gerektiği; dört günün kanuna uygun olmaması",
+     "weight": 15,
+     "madde_ref": "KMK m. 29/3"
+    },
+    {
+     "point": "İkinci toplantıda genel karar yeter sayısının katılanların salt çoğunluğu olduğu, ancak özel yeter sayıların saklı olması",
+     "weight": 15,
+     "madde_ref": "KMK m. 30/2"
+    },
+    {
+     "point": "Yönetim planı değişikliği için bütün kat maliklerinin beşte dördünün oyunun şart olması; 6 oyun yetmemesi",
+     "weight": 25,
+     "madde_ref": "KMK m. 28/3"
+    },
+    {
+     "point": "Aykırı oy veren ve katılmayan malikin iptal davası süreleri; sulh mahkemesinin görevi",
+     "weight": 20,
+     "madde_ref": "KMK m. 33/1"
+    },
+    {
+     "point": "Davanın yöneticiye husumet yöneltilerek açılması ve iptal hâlinde yargılama giderlerinin ortak giderlerden karşılanması",
+     "weight": 10,
+     "madde_ref": "KMK m. 38/2"
+    },
+    {
+     "point": "Dava açılmadan önce arabulucuya başvurulmasının dava şartı olması",
+     "weight": 15,
+     "madde_ref": "HUAK m. 18/B"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlık, bir kat malikleri kurulu kararının (yönetim planı değişikliği) toplantı ve nisap bakımından sakat olup olmadığına ve bu karara karşı iptal davasının nasıl açılacağına ilişkindir.\n\n**Hukuki sorunlar:** (1) Toplantı aralığı; (2) karar yeter sayısı ve plan değişikliği nisabı; (3) iptal davasının mahkemesi, süresi, hasmı ve dava şartı; (4) yargılama giderleri.\n\n**İlgili hükümler:** KMK m. 28/3, 29/3, 30/2-3, 33/1, 38/2; HUAK m. 18/B/1-c; Kat Mülkiyeti Kanunu'nun ek 1. maddesi.\n\n**Değerlendirme:**\n\n*1. Toplantı aralığı:* İlk çağrı yapılırken ikinci toplantının yeri ve tarihi de bildirilebilir; ancak ilk toplantı ile ikinci toplantı arasında bırakılacak süre yedi günden az olamaz (KMK m. 29/3). Burada 10 Ocak ile 14 Ocak arasında yalnızca dört gün vardır. Çağrı bu yönden kanuna aykırıdır. Ancak Zeynep toplantıya katıldığı için bu usulsüzlüğe dayanmasının sonucu tartışmalı olabilir; Yargıtay bir kararda, toplantıya katılan malikin çağrı usulsüzlüğüne dayanan iptal istemini reddeden kararı onamıştır. Bu yüzden asıl dayanak nisap olmalıdır.\n\n*2. Nisap:* İkinci toplantıda karar yeter sayısı genel olarak katılanların salt çoğunluğudur (KMK m. 30/2). Fakat Kanunda yeter sayı için ayrıca konulmuş hükümler saklıdır (KMK m. 30/3). Yönetim planının değiştirilmesi için bütün kat maliklerinin beşte dördünün oyu şarttır (KMK m. 28/3). Bina 20 bölümlü olduğundan kendi hesabımızla 16 oy gerekir; kararda yalnızca 6 oy vardır. Bu nedenle ikinci toplantı olması planın değiştirilmesi için yeterli çoğunluğu sağlamaz. Nisaba aykırı kararın yalnız iptal edilebilir mi yoksa mutlak butlanla mı sakat sayılacağı tartışmalıdır (doktrin); süresinde açılan iptal davası her hâlde yoldur.\n\n*3. İptal davası:* Zeynep toplantıya katılıp KMK m. 32'ye uygun olarak aykırı oy kullandığından karar tarihinden itibaren bir ay içinde dava açabilir; 3 Şubat bu süre içindedir. Can toplantıya katılmadığından kararı öğrenmesinden itibaren bir ay ve her halde karar tarihinden itibaren altı ay içinde dava açabilir (KMK m. 33/1); 1 Şubat'ta öğrenen Can için 10 Şubat bu süre içindedir. Dava anagayrimenkulün bulunduğu yerdeki sulh mahkemesinde açılır (KMK m. 33/1; Kat Mülkiyeti Kanunu'nun ek 1. maddesi). Dava kat maliklerini temsilen yöneticiye husumet yöneltilerek açılabilir (KMK m. 38/2). Dava öncesinde arabulucuya başvurulması dava şartıdır (HUAK m. 18/B/1-c); arabulucuya gitmeden doğrudan dava açılırsa dava usulden reddedilir. Bu yüzden Zeynep ve Can belirttikleri tarihlerde önce arabulucuya başvurmalıdır. Arabuluculuk bürosuna başvurudan son tutanağın düzenlendiği tarihe kadar hak düşürücü süre işlemez (HUAK m. 18/A/15); arabuluculukta anlaşma olmazsa ikisi de kalan süre içinde dava açabilir.\n\n*4. Yargılama giderleri:* Kurul kararının iptali hâlinde bu konudaki yargılama giderleri ortak giderlerden karşılanır (KMK m. 38/2).\n\n**Sonuç:**\n- İkinci toplantı için yedi günden az süre bırakılması kanuna aykırıdır (KMK m. 29/3).\n- Plan değişikliği için bütün maliklerin beşte dördünün oyu gerekir; 6 oyla değişiklik yapılamaz.\n- Zeynep karar tarihinden, Can öğrenmeden itibaren bir ay içinde (her halde altı ay içinde) sulh mahkemesinde, yöneticiye husumet yönelterek ve önce arabuluculuğa başvurarak dava açar; arabuluculuk süresince hak düşürücü süre işlemez.\n- Karar iptal edilirse yargılama giderleri ortak giderlerden karşılanır."
+  },
+  {
+   "stem_md": "Bina 10 bağımsız bölümlüdür ve hiç yönetici atanmamıştır. Hasan, kütükte mesken olarak kayıtlı zemin kat bölümünde pastane açmak istemiş; kat malikleri kurulu toplantısında konu 9'a 1 oyla kabul edilmiştir. Hasan ayrıca, kimseye danışmadan, binanın ortak yer niteliğindeki dış cephesini, kendi balkonu hizasında turuncuya boyatmıştır. Bu boyanın yapılması için diğer maliklerin yazılı rızası alınmamıştır. Komşular Hasan'ı uyarmış, ancak Hasan hem pastaneyi işletmeye hem boyayı korumaya devam etmektedir. Pastanenin fırın kokusu ve gürültüsü diğer maliklerin kullanımını da zorlaştırmaktadır; bölüm kütükte hâlâ mesken olarak görünmektedir. Komşular, durumun çözümü için neler yapabileceklerini ve bir noktada Hasan'ın bölümünün kendilerine devrini isteyip isteyemeyeceklerini sormaktadır.\n\n1. Kurulun 9'a 1 oyla verdiği izin, pastane açılması için yeterli midir?\n2. Dış cephenin turuncuya boyatılması hukuka uygun mudur?\n3. Komşular uyuşmazlığı nasıl çözebilir? Hâkim karara rağmen Hasan davranışını sürdürürse ne olur?\n4. Binada yönetici bulunmaması hukuken nasıl değerlendirilir?",
+   "rubric": [
+    {
+     "point": "Meskende pastane açılması için kurulun oybirliğiyle karar vermesinin şart olması; 9'a 1 oyun yetmemesi",
+     "weight": 25,
+     "madde_ref": "KMK m. 24/2"
+    },
+    {
+     "point": "Ortak yerde değişik renkte dış boya için bütün kat maliklerinin beşte dördünün yazılı rızasının gerekmesi",
+     "weight": 20,
+     "madde_ref": "KMK m. 19/2"
+    },
+    {
+     "point": "Borç ve yükümlerini yerine getirmeyen malik yüzünden zarar görenlerin sulh mahkemesinden hâkimin müdahalesini isteyebilmesi; hâkimin derhal karar vermesi ve süresinde uymayana idari para cezası verilmesi",
+     "weight": 20,
+     "madde_ref": "KMK m. 33"
+    },
+    {
+     "point": "Sulh hâkiminin emrine rağmen bir yıl ısrar edilmesi hâlinde çekilmezliğin var sayılması",
+     "weight": 15,
+     "madde_ref": "KMK m. 25/3"
+    },
+    {
+     "point": "Sekiz veya daha fazla bölümlü binada yönetici atanmasının zorunlu olması ve yönetici atanmamışsa işlerden maliklerin müştereken sorumlu olması",
+     "weight": 20,
+     "madde_ref": "KMK m. 34"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, bir malikin kendi bölümünü yasak ya da şarta bağlı bir amaçla kullanması, ortak yerde izinsiz değişiklik yapması ve binada yönetici bulunmaması sorunlarını içerir.\n\n**Hukuki sorunlar:** (1) Meskende gıda yeri açma nisabı; (2) ortak yerde dış boya; (3) hâkimin müdahalesi ve çekilmezlik; (4) yönetici zorunluluğu.\n\n**İlgili hükümler:** KMK m. 24/2, 19/2, 33/1-3, 25/3-b, 34/2, 35 son fıkra.\n\n**Değerlendirme:**\n\n*1. Pastane:* Kütükte mesken olarak gösterilen bağımsız bölümde fırın, lokanta, pastahane gibi gıda yerleri ancak kat malikleri kurulunun oybirliği ile vereceği kararla açılabilir (KMK m. 24/2). 9'a 1 oy oybirliği değildir; bu yüzden kurulun izni pastane açılması için yeterli değildir. Bölüm kütükte mesken olarak kayıtlı olduğundan klinik gibi oybirliğiyle bile açılamayan yerler (KMK m. 24/1) değil, oybirliğiyle açılabilen yerler söz konusudur; dolayısıyla tek eksik nisaptır.\n\n*2. Dış boya:* Bir kat maliki, bütün kat maliklerinin beşte dördünün yazılı rızası olmadıkça ortak yerlerde değişik renkte dış badana veya boya yaptıramaz (KMK m. 19/2). Dış cephe ortak yer olduğundan Hasan'ın yazılı rıza olmadan yaptığı turuncu boya KMK m. 19/2'ye aykırıdır. Aynı hüküm, Hasan'ın mimari durumu ve güzelliği koruma borcunun da ihlali anlamına gelir (KMK m. 19/1).\n\n*3. Yol:* Hasan, borç ve yükümlerini yerine getirmediği için zarar gören malikler, anagayrimenkulün bulunduğu yerin sulh mahkemesine başvurarak hâkimin müdahalesini isteyebilir (KMK m. 33/1). Hâkim ilgilileri dinledikten sonra Kanuna, yönetim planına, bunlarda hüküm yoksa genel hükümlere ve hakkaniyet kurallarına göre derhal kararını verir ve kısa bir süre belirler (KMK m. 33/2). Bu süre içinde kararı yerine getirmeyene idari para cezası verilir; KMK m. 25 hükmü saklıdır (KMK m. 33/3). Hasan hâkimin emrine rağmen bir yıl devamlı ısrar ederse çekilmezlik her halde mevcut farz edilir (KMK m. 25/3-b). Bu durumda diğer malikler, sayı ve arsa payı çoğunluğuyla dava açma kararı alıp çıkarma davası açabilir (KMK m. 25/2). Kanunda süreli ihtar şartı yoktur. Uyuşmazlıkta dava açılmadan önce arabuluculuk dava şartıdır (HUAK m. 18/B/1-c).\n\n*4. Yönetici:* Bina 10 bağımsız bölümlü olduğundan yönetici atanması mecburidir (KMK m. 34/2). Maliklerin anlaşamaması hâlinde bir malikin başvurusuyla sulh mahkemesi yönetici atar (KMK m. 34). Atanmamışsa KMK m. 35'te sayılan işlerin yaptırılmasından kat malikleri müştereken sorumludur.\n\n**Sonuç:**\n- Pastane için oybirliği gerekir; 9'a 1 oy yetmez.\n- Boya için bütün maliklerin beşte dördünün yazılı rızası gerekir; yoktur, boya hukuka aykırıdır.\n- Sulh hâkiminin müdahalesi istenir; uyulmazsa idari para cezası verilir; emre rağmen bir yıl ısrar çekilmezliği var sayar.\n- Yönetici atanması zorunludur; atanmamışsa malikler müştereken sorumludur."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Kat maliklerinin hakları ve borçları hangi maddelerde yer alır?",
+   "back_md": "Haklar KMK m. 15 (bağımsız bölüm) ve m. 16 (ortak yerler); borçlar KMK m. 18 ve devamındadır. Hakların ayrıntısı önceki konudadır."
+  },
+  {
+   "front_md": "KMK m. 18/2'ye göre malik borçlarından kimler de sorumludur?",
+   "back_md": "Kiracılar, oturma hakkı sahipleri ve devamlı yararlananlar; borcu yerine getirmeyenler malikle müteselsil sorumludur (KMK m. 18/2)."
+  },
+  {
+   "front_md": "Ortak yerde inşaat veya değişik renkte dış boya için hangi nisap aranır?",
+   "back_md": "Bütün kat maliklerinin beşte dördünün yazılı rızası (KMK m. 19/2). Mahkemece tespit edilen acil onarım ve zorunlu güçlendirmede rıza aranmaz."
+  },
+  {
+   "front_md": "Personel giderleri ile diğer ortak giderler nasıl paylaşılır?",
+   "back_md": "Kapıcı, kaloriferci, bahçıvan, bekçi giderleri ve avansı eşit; sigorta, bakım, onarım, güçlendirme ve yönetici aylığı arsa payı oranında (KMK m. 20/1)."
+  },
+  {
+   "front_md": "Gecikme tazminatı oranı nedir?",
+   "back_md": "Ödemede geciktiği günler için aylık yüzde beş (KMK m. 20/2). 5711 sayılı Kanundan önce yüzde ondu."
+  },
+  {
+   "front_md": "Kiracının ortak gider sorumluluğu nasıldır?",
+   "back_md": "Malikle müteselsil sorumludur ama ödemekle yükümlü olduğu kira miktarıyla sınırlıdır; ödemesi kira borcundan düşer (KMK m. 22/1)."
+  },
+  {
+   "front_md": "Kanuni ipotek (KMK m. 22/2) için hangi şartlar aranır?",
+   "back_md": "Borç diğer yollarla alınamamış ve mahkemece tespit edilmiş olmalı; varsa yöneticinin yoksa bir malikin yazılı istemi gerekir. Önceden feragat geçersizdir (TMK m. 893)."
+  },
+  {
+   "front_md": "Başka bölüme girmek gerekirse ne olur?",
+   "back_md": "O bölümün maliki veya oturanlar giriş müsaadesi verir ve işlere katlanır; doğan zararı lehine izin verilenler derhal öder (KMK m. 23)."
+  },
+  {
+   "front_md": "KMK m. 24/1 ile 24/2 arasındaki fark nedir?",
+   "back_md": "24/1: mesken, iş veya ticaret yerinde hastane, klinik gibi yerler kurulamaz (oybirliğiyle bile). 24/2: yalnız meskende lokanta, dükkân gibi yerler kurulun oybirliğiyle açılabilir."
+  },
+  {
+   "front_md": "KMK m. 25/3'teki çekilmezlik hâlleri nelerdir?",
+   "back_md": "(a) iki takvim yılında üç icra veya dava takibi; (b) sulh hâkiminin emrine rağmen bir yıl ısrar; (c) bölümün randevu evi, kumarhane gibi kullanılması."
+  },
+  {
+   "front_md": "Çıkarma davası kararı hangi çoğunlukla alınır?",
+   "back_md": "Aksi kararlaştırılmadıkça diğer maliklerin sayı ve arsa payı çoğunluğuyla (KMK m. 25/2). KMK m. 25/3'te üçte iki oy ya da süreli ihtar yoktur."
+  },
+  {
+   "front_md": "KMK m. 25 davasında hakkın düşme süreleri?",
+   "back_md": "Dava açma kararının öğrenilmesinden 6 ay; her halde dava hakkının doğumundan 5 yıl (KMK m. 25/4)."
+  },
+  {
+   "front_md": "Yönetim planı nasıl değiştirilir?",
+   "back_md": "Bütün kat maliklerinin beşte dördünün oyuyla (KMK m. 28/3). Plan sözleşme hükmündedir; haleflerini de bağlar. Ana yapıda 7579 sayılı Kanun bu nisabı değiştirmemiştir."
+  },
+  {
+   "front_md": "Olağanüstü toplantıyı kimler ister, çağrı süresi nedir?",
+   "back_md": "Yönetici, denetçi veya maliklerin üçte biri; toplantıdan en az 15 gün önce çağrı veya taahhütlü mektupla (KMK m. 29/2)."
+  },
+  {
+   "front_md": "İkinci toplantıda süre ve karar yeter sayısı?",
+   "back_md": "İki toplantı arası en az 7 gün; ikinci toplantı en geç 15 gün sonra; karar yeter sayısı katılanların salt çoğunluğu, özel nisaplar saklı (KMK m. 29/3, KMK m. 30)."
+  },
+  {
+   "front_md": "KMK m. 31'de oyla ilgili temel kurallar?",
+   "back_md": "Her malikin bir oyu; çok bölümlü malikin oyu bütün oyların üçte birini aşamaz; ilgili malik oya katılamaz; 40 ve daha az bölümde bir kişi en fazla iki kişiye vekâlet eder."
+  },
+  {
+   "front_md": "Kurul kararına karşı iptal davası süreleri?",
+   "back_md": "Aykırı oy veren: karar tarihinden 1 ay. Katılmayan: öğrenmeden 1 ay. Her halde karar tarihinden 6 ay. Sulh mahkemesinde. Yok ve mutlak butlanda süre aranmaz (KMK m. 33/1)."
+  },
+  {
+   "front_md": "İptal davasında kime husumet yöneltilir ve giderleri kim öder?",
+   "back_md": "Kat maliklerini temsilen yöneticiye yöneltilebilir; karar iptal edilirse yargılama giderleri ortak giderlerden karşılanır (KMK m. 38/2)."
+  },
+  {
+   "front_md": "Yönetici ne zaman zorunludur ve nasıl atanır?",
+   "back_md": "Sekiz veya daha fazla bağımsız bölümde zorunludur; sayı ve arsa payı çoğunluğuyla ve her yıl atanır (KMK m. 34)."
+  },
+  {
+   "front_md": "Kesinleşen işletme projesi neden önemlidir?",
+   "back_md": "İİK m. 68/1'deki belgelerden sayılır; aidat takibinde itirazın kaldırılması istenebilir (KMK m. 37/4)."
+  },
+  {
+   "front_md": "7579 sayılı Kanunla KMK m. 35 ve 37'de ne değişti?",
+   "back_md": "Avans işletme projesi onaylanıncaya kadar toplanır (m. 35/1-d); işletme projesini kat malikleri genel kurulu onaylar ve geçici proje bedeline yeniden değerleme tavanı konur (m. 37). RG 22/5/2026."
+  },
+  {
+   "front_md": "Kat mülkiyeti uyuşmazlıklarında görevli mahkeme ve dava şartı nedir?",
+   "back_md": "Sulh hukuk mahkemesi (Kat Mülkiyeti Kanunu'nun ek 1. maddesi, HMK m. 4/1-ç); dava açmadan önce arabulucuya başvurmak dava şartıdır (HUAK m. 18/B/1-c)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
