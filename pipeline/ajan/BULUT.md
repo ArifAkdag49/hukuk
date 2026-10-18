@@ -26,13 +26,14 @@ Beceri kütüphanesi (`vendor/turk-hukuku-ve-claude`) git'te yok; `pipeline/ajan
 yoksa YAML `beceriler` alanı için `pipeline.durum --siradaki` çıktısındaki `?/<beceri>` yerine ders notundaki eklenti adını kullan.
 Yazarın kullandığı `elle kontrol` karar künyesini karar metninden okur: **yazmadan önce karar metinlerini önbelleğe al**
 (`pipeline/cache` git'te yok). Her ders için bir kez:
-    cat pipeline/kaynak/HUK3013/*.md pipeline/kaynak/HUK3015/*.md > /tmp/kararlar.md
+    cat pipeline/kaynak/HUK3015/*.md pipeline/kaynak/HUK3017/*.md pipeline/kaynak/HUK3014/*.md pipeline/kaynak/HUK3016/*.md pipeline/kaynak/HUK2009/*.md pipeline/kaynak/HUK2017/*.md > /tmp/kararlar.md 2>/dev/null
     python -X utf8 -m pipeline.kaynak kararlar /tmp/kararlar.md        # tek bağlantıyla, 15-30 dakika sürebilir; yarıda kalırsa tekrar çalıştır
-(HUK3012 için de gerekirse; HUK3012'nin kalan konuları az.)
+(Klasörü olmayan dersler için hata mesajı önemsiz. İnsan Hakları ve Devletler Umumi paketlerinde karar Yargıtay dışı olabilir: AİHM/AYM/UAD kararlarını indiremezsen yazara "karar metni önbellekte yoksa o kararı özete alma" de.)
 
 ## İş akışı
 1. `python -X utf8 -m pipeline.durum` (özet) ve `python -X utf8 -m pipeline.durum <DERS> --siradaki 12` (yazılacak konular: no | slug | beceri | başlık).
-   Sıra: HUK3012 kalanları → HUK3013 → HUK3015 (yalnız paketi olan 15 konu).
+   Sıra: `pipeline.durum` özetindeki derslerden "yazılacak" sayısı > 0 olanlar: HUK3015 → HUK3017 → HUK3014 → HUK3016 → HUK2009 → HUK2017
+   (Argon paketleri sonradan gelebilir; her oturum başında `git pull` yap ve durumu yeniden oku).
 2. Her iki konu için bir yazar ajanı başlat (`pipeline/ajan/README.md` "Yazar" kalıbı; **model: sonnet**):
    > Önce görev tanımını oku ve harfiyen uygula: `pipeline/ajan/YAZAR.md` (`<DERS>` = ...). Hedefler HAFİF MOD'dadır (12 soru, 2 olay, 12 kart,
    > 1500-2000 kelime anlatım). Örnek konu dosyasını okuma. Sana İKİ konu veriliyor; sırayla ikisini de yap; kontrol temizse `elle bitir` de çalıştır.
