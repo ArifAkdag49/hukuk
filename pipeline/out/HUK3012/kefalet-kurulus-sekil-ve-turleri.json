@@ -1,0 +1,493 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 8,
+ "unit_title": "Ünite 8: Kefalet ve Diğer Sözleşmeler",
+ "topic_index": 1,
+ "slug": "kefalet-kurulus-sekil-ve-turleri",
+ "title": "Kefalet I: Tanım, Asıl Borç, Şekil, Eşin Rızası ve Kefalet Türleri",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T11:02:23.442179+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/kefalet-gecerlilik-ve-sona-erme"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir kişinin başkasının borcu için kişisel olarak sorumlu olmayı üstlendiği kefalet ne zaman geçerli kurulur ve hangi türleri vardır? Sınavda önce **geçerlilik** (asıl borç, şekil, eş rızası), sonra **tür** (adi, müteselsil, birlikte) denetlenir.\n\n- **Tanım (TBK m. 581):** Kefil, alacaklıya karşı borçlunun borcunu ifa etmemesinin sonuçlarından kişisel olarak sorumlu olmayı üstlenir. Sözleşme **alacaklı ile kefil** arasında kurulur; asıl borçlu taraf değildir. Kefalet asıl borca bağlı (**fer'î**) bir kişisel güvencedir.\n- **Asıl borç (TBK m. 582):** Mevcut ve geçerli bir borç için yapılır. Gelecekte doğacak veya koşula bağlı borç için de kurulabilir; hüküm, borç doğduğunda ya da koşul gerçekleştiğinde doğar. Yanılma veya ehliyetsizlik yüzünden borçlunun sorumlu olmadığı borca ya da zamanaşımına uğramış borca, eksikliği **bilerek** kefil olan kişi kefalet hükümlerine göre sorumlu olur. Kefil kanunun tanıdığı haklardan önceden feragat edemez.\n- **Şekil (TBK m. 583/1):** Yazılı şekil, sorumlu olunacak **azamî miktar** ve **kefalet tarihi** şarttır. Kefil azamî miktarı, tarihi ve müteselsil kefilse bu sıfatı **kendi el yazısıyla** yazmalıdır. Özel yetki ve kefil olma vaadi aynı şekle bağlıdır; kefilin sorumluluğunu artıran sonraki değişiklikler de öyle.\n- **Eşin rızası (TBK m. 584):** Evli kişi, ayrılık kararı ya da yasal ayrı yaşama hakkı yoksa ancak eşinin **yazılı rızasıyla** kefil olabilir; rıza sözleşmeden önce veya en geç kurulduğu anda verilmelidir.\n- 📌 **İstisna (TBK m. 584/3, 6455 sayılı Kanunla eklendi):** Ticari işletme sahibi ile şirket ortağı ya da yöneticisinin işletme veya şirketle ilgili, esnaf ve sanatkârın mesleki faaliyetiyle ilgili ve 5570 sayılı Kanun ile kooperatif kredilerine ilişkin kefaletlerinde eş rızası aranmaz.\n- **Adi kefalet (TBK m. 585):** Alacaklı borçluya başvurmadıkça kefili takip edemez; kesin aciz belgesi, takibin imkânsızlaşması veya güçleşmesi, iflas ve konkordato mehli istisnadır. Rehinli alacakta kefil önce rehnin paraya çevrilmesini isteyebilir.\n- **Müteselsil kefalet (TBK m. 586):** Borçlunun gecikmesi ve ihtarın sonuçsuz kalması (ya da açık ödeme güçsüzlüğü) hâlinde alacaklı borçluyu takip etmeden ve **ipoteği** paraya çevirmeden kefile gidebilir. **Teslime bağlı taşınır rehni** ve **alacak rehni** ise önce paraya çevrilir.\n- **Birlikte kefalet (TBK m. 587):** Adi birlikte kefiller kendi payı için adi kefil, diğerlerinin payı için kefile kefil gibi sorumludur. Alacaklı varsayımı biliyorsa, başka kefillerin kefaletinin hükümsüz çıkması kefili borçtan kurtarır.\n- **Kefile kefil, rücua kefil (TBK m. 588):** Kefile kefil, alacaklıya karşı kefilin borcu için güvence verir. Rücua kefil, kefilin borçludan rücu alacağı için güvence verir.\n- **Diğer sözleşmeler (TBK m. 603):** Kefaletin şekli, kefil olma ehliyeti ve eş rızası hükümleri, gerçek kişilerin kişisel güvence vermek için başka adla yaptığı sözleşmelere de uygulanır. **Garanti** (TBK m. 128) asıl borçtan bağımsızdır, kefalet fer'îdir.",
+  "content_md": "## 0. Konunun haritası\n\nKefalet sorularında düzenli bir sıra izle. Her adım bir öncekinden sonra gelir; ilk adımda başarısız olan kefaletin ötesi incelenmez.\n\n1. **Asıl borç:** Geçerli bir borç var mı? (TBK m. 582)\n2. **Şekil:** El yazısı unsurları tam mı? (TBK m. 583)\n3. **Eş rızası:** Gerekli mi, zamanında alınmış mı? (TBK m. 584)\n4. **Tür:** Adi mi, müteselsil mi, birlikte mi? (TBK m. 585-588)\n\nKefilin sorumluluğunun kapsamı, def'ileri, rücu ve sona erme bir sonraki konudadır.\n\n## 1. Tanım ve nitelik (TBK m. 581)\n\n**Kefalet sözleşmesi**, kefilin alacaklıya karşı, borçlunun borcunu ifa etmemesinin sonuçlarından kişisel olarak sorumlu olmayı üstlendiği sözleşmedir (TBK m. 581).\n- **Taraflar alacaklı ve kefildir.** Asıl borçlu sözleşmenin tarafı değildir; kefil olması için borçlunun rızası da gerekmez.\n- **Kişisel güvencedir:** Kefil tüm malvarlığıyla sorumludur. Rehin gibi belirli bir şeye bağlı **ayni güvence** değildir.\n- **Fer'îdir:** Asıl borcun varlığına ve kapsamına bağlıdır. Asıl borç hangi sebeple olursa olsun sona erince kefil de borcundan kurtulur (TBK m. 598/1). Kefil, asıl borçlunun def'ilerini ileri sürmek hakkına sahiptir ve zorundadır (TBK m. 591/1).\n\n> **Örnek:** Banka, Ali'ye 300.000 TL kredi verir; Ali'nin arkadaşı Zeynep bankaya karşı kefil olur. Sözleşmenin tarafları banka ve Zeynep'tir. Ali ödemezse Zeynep ödeme sorumluluğu altındadır.\n\n## 2. Asıl borç koşulu (TBK m. 582)\n\n- **Kural:** Kefalet mevcut ve geçerli bir borç için yapılır (TBK m. 582/1).\n- **Gelecekteki ve şarta bağlı borç:** Gelecekte doğacak veya koşula bağlı borç için de kefalet kurulabilir; sözleşme borç doğduğunda ya da koşul gerçekleştiğinde hüküm ifade eder. Kredi limiti için verilen kefalet böyledir.\n- **Bilerek kefil olma:** Borçlu yanılma veya ehliyetsizlik yüzünden sorumlu değilse ya da borç borçlu yönünden zamanaşımına uğramışsa, kefil yükümlülük altına girerken bu eksikliği **biliyorsa** kefalet hükümlerine göre sorumlu olur (TBK m. 582/2). Bilmiyorsa asıl borç geçersiz olduğundan kefalet de ayakta kalmaz.\n- **Feragat yasağı:** Kefil, kanundan aksi anlaşılmadıkça, bölümde kendisine tanınan haklardan önceden feragat edemez (TBK m. 582/3).\n\n> **Örnek:** Küçük Can, velisinin izni olmadan bir bilgisayar alır; satıcı Selim, Can'ın sözleşmeyle bağlı olmadığını bilir. Ece bunu bilerek Selim'e kefil olursa sorumludur. Ece'nin yerine durumu bilmeyen Fatih kefil olsaydı, asıl borç geçerli olmadığı için sorumlu olmazdı.\n\n## 3. Şekil (TBK m. 583)\n\nKefalet kural olarak **yazılı** yapılmalı ve kefilin sorumlu olacağı **azamî miktar** ile **kefalet tarihi** belirtilmelidir; bunlar yoksa kefalet **geçerli olmaz** (TBK m. 583/1). Üç unsur ayrıca kefilin **kendi el yazısıyla** yazılmalıdır:\n\n| Unsur | Zorunluluk | Dayanak |\n|---|---|---|\n| Azamî miktar | El yazısı | TBK m. 583/1 |\n| Kefalet tarihi | El yazısı | TBK m. 583/1 |\n| Müteselsil kefil sıfatı | El yazısı (yalnız müteselsil kefalette) | TBK m. 583/1 |\n\nAynı şekil şartları şu işlemlere de uygulanır (TBK m. 583):\n- Kendi adına kefil olma konusunda verilen **özel yetki** (vekâletname),\n- Diğer tarafa ya da bir üçüncü kişiye yapılan **kefil olma vaadi**,\n- Kefilin sorumluluğunu **artıran sonraki değişiklikler**. Bu değişiklikler şekle uyulmadıkça hüküm doğurmaz.\n\nTaraflar, yazılı şekle uyarak kefilin sorumluluğunu borcun belirli bir miktarıyla sınırlandırabilir.\n\nYargıtay 11. Hukuk Dairesi'nin bir kararında, kredi sözleşmesinde kefil olarak imzası bulunan kişinin kefalet bölümündeki yazıların grafoloji raporuyla kendi eli ürünü olmadığı saptanmış ve müteselsil kefalet bu kişi yönünden geçerli sayılmamıştır. İmza tek başına yetmez; unsurların **kefilin eliyle** yazılması gerekir.\n\n> **Örnek:** Zeynep, bankanın hazır formunu imzalar; \"azamî 200.000 TL\" ve tarih bankanın memuru tarafından bilgisayarla yazılmıştır. Kefalet geçerli kurulmamıştır. Burak formdaki miktarı, tarihi ve \"müteselsil kefil\" ibaresini kendi eliyle yazmışsa şekil tamamdır.\n\n> ⚠️ **Sınavda dikkat:** Önce şekil, sonra diğer sorunlar. Şekil eksikse kefalet **geçerli olmaz**; eş rızası, tür ve kapsam tartışmasına girilmez. Asıl borçlunun adının el yazısıyla yazılması ise kanunun aradığı unsurlar arasında değildir.\n\n## 4. Eşin rızası (TBK m. 584)\n\n**Kural:** Eşlerden biri, mahkemece verilmiş bir ayrılık kararı ya da yasal olarak ayrı yaşama hakkı yoksa, ancak diğerinin **yazılı rızasıyla** kefil olabilir (TBK m. 584/1).\n- **Zaman:** Rıza, sözleşmenin kurulmasından önce ya da **en geç kurulduğu anda** verilmelidir. Sonradan verilen rıza kefaleti geçerli kılmaz.\n- **Sonradan yapılan değişiklikler:** Kefilin sorumlu olacağı miktarı artırmayan, adi kefaleti müteselsil kefalete çevirmeyen ve kefil yararına olan güvencelerin önemli ölçüde azalmasına yol açmayan değişiklikler için eş rızası gerekmez (TBK m. 584/2).\n\n> **Örnek:** Evli Ahmet, 1 Haziran'da bankada kefalet sözleşmesi imzalar; eşi Elif yazılı rızayı 3 Haziran'da verir. Rıza geç verildiğinden kefalet geçerli kurulmamıştır.\n\n### 4.1 6455 sayılı Kanunla eklenen istisna (TBK m. 584/3)\n6455 sayılı Kanunla TBK m. 584'e eklenen fıkraya göre eş rızası aranmayan kefaletler şunlardır:\n- Ticaret siciline kayıtlı **ticari işletmenin sahibi** ya da **ticaret şirketinin ortağı veya yöneticisi** tarafından, işletme veya şirketle ilgili olarak verilen kefaletler,\n- **Esnaf ve sanatkârlar siciline** kayıtlı esnaf veya sanatkârlarca, mesleki faaliyetleriyle ilgili olarak verilen kefaletler,\n- 5570 sayılı Kanun kapsamında kullanılacak kredilerde verilen kefaletler,\n- Tarım kredi, tarım satış, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile kamu kurum ve kuruluşlarınca kooperatif ortaklarına kullandırılacak kredilerde verilen kefaletler.\n\n> **Örnek:** Mehmet, X Ltd.'nin ortağı ve müdürüdür. Şirketin banka kredisine eşinin rızası olmadan kefil olur; eş rızası aranmaz. Aynı Mehmet arkadaşının kişisel kredisine kefil olsaydı, istisna işlemezdi ve eşinin yazılı rızası gerekirdi.\n\n> ⚠️ **Sınavda dikkat:** İstisna \"şirketle ilgili olarak\" ifadesine bağlıdır. Ortak olmak tek başına her kefaleti kapsamaz.\n\n## 5. Kefalet türleri (TBK m. 585-588)\n\n| Tür | Alacaklı kefile ne zaman gider? | Dayanak |\n|---|---|---|\n| Adi kefalet | Önce borçluya, istisnalar hariç | TBK m. 585 |\n| Müteselsil kefalet | Gecikme ve ihtar sonrası doğrudan | TBK m. 586 |\n| Birlikte kefalet | Her kefil kendi payı ya da tamamı için | TBK m. 587 |\n\n### 5.1 Adi kefalet (TBK m. 585)\nAlacaklı, **borçluya başvurmadıkça** kefili takip edemez. Şu dört durumda doğrudan kefile başvurabilir:\n1. Borçlu aleyhine yapılan takipte **kesin aciz belgesi** alınması,\n2. Borçlu aleyhine Türkiye'de takibin imkânsızlaşması veya önemli ölçüde güçleşmesi,\n3. Borçlunun **iflası**,\n4. Borçluya **konkordato mehli** verilmesi.\n\nAlacak kefaletten önce veya kefalet sırasında **rehinle** de güvence altına alınmışsa, adi kefil alacağın önce rehin konusundan alınmasını isteyebilir; iflas ve konkordato mehli hâlinde bu hak yoktur. Yalnızca **açığın kapatılması** için kefil olunmuşsa doğrudan kefile başvuru koşulları daha dardır (kesin aciz belgesi, Türkiye'de takibin imkânsızlaşması ya da konkordatonun kesinleşmesi); sözleşmede alacaklının önce borçluya başvurmak zorunda olduğu da kararlaştırılabilir (TBK m. 585/3).\n\n### 5.2 Müteselsil kefalet (TBK m. 586)\nKefil, **müteselsil kefil sıfatıyla** ya da bu anlama gelen bir ifadeyle yükümlülük altına girmişse alacaklı borçluyu takip etmeden ve **taşınmaz rehnini** (ipoteği) paraya çevirmeden kefili takip edebilir. Şart: Borçlu ifada **gecikmiş ve ihtar sonuçsuz kalmış** ya da açıkça **ödeme güçsüzlüğü** içinde olmalıdır (TBK m. 586/1).\n\nAlacak **teslime bağlı taşınır rehni** veya **alacak rehni** ile güvence altındaysa, rehin paraya çevrilmeden kefile başvurulamaz. İstisna: Alacağın rehinle tamamen karşılanamayacağının önceden hâkimce belirlenmesi, borçlunun iflası ya da konkordato mehli (TBK m. 586/2).\n\n| Rehin türü | Müteselsil kefile başvuru | Dayanak |\n|---|---|---|\n| İpotek (taşınmaz rehni) | Paraya çevrilmeden mümkün | TBK m. 586/1 |\n| Teslime bağlı taşınır rehni, alacak rehni | Paraya çevrilmeden mümkün değil | TBK m. 586/2 |\n\n> ⚠️ **Sınavda dikkat:** Müteselsil kefil de olsa teslime bağlı taşınır rehni ve alacak rehni önce paraya çevrilir; yalnız **ipotek** için bu külfet yoktur.\n\n> **Örnek:** Banka, borçlunun altınlarını rehin almış (teslime bağlı taşınır rehni) ve taşınmazı üzerinde ipotek kurulmuştur; Kerem müteselsil kefildir. Gecikme ve ihtardan sonra banka ipoteği paraya çevirmeden Kerem'e gidebilir, ama altınlar paraya çevrilmeden gidemez.\n\n### 5.3 Birlikte kefalet (TBK m. 587)\n- **Adi birlikte kefalet:** Aynı borca birlikte kefil olanlar kendi payı için adi kefil, diğerlerinin payı için de **kefile kefil** gibi sorumludur (TBK m. 587/1).\n- **Müteselsil birlikte kefalet:** Borçluyla birlikte ya da kendi aralarında müteselsil kefil olanların her biri borcun tamamından sorumludur. Kefil, kendisiyle birlikte müteselsilen yükümlü olan ve Türkiye'de takip edilebilen bütün kefillere takibe girişilmemişse kendi payından fazlasını ödemekten kaçınabilir. Borcu ödeyen kefil, diğer kefillere paylarını ödememiş oldukları ölçüde rücu eder; bu rücu borçluya rücudan önce de kullanılabilir (TBK m. 587/2).\n- **Varsayımın çökmesi:** Alacaklı, kefilin aynı alacak için başka kefillerin de bulunduğunu ya da bulunacağını **varsayarak** kefalet ettiğini biliyor ya da bilmesi gerekiyorsa; bu varsayım gerçekleşmezse veya kefillerden biri kurtarılır ya da kefaleti hükümsüz sayılırsa, kefil borçtan **kurtulur** (TBK m. 587/3).\n- **Birbirinden bağımsız kefaletler:** Her kefil borcun tamamından sorumludur; ödeyen kefil, aksi kararlaştırılmamışsa diğerlerine toplam kefalet miktarındaki payları oranında rücu eder (TBK m. 587/4).\n\n> **Örnek:** Lale, alacaklının da bildiği üzere Mert'in de kefil olacağını varsayarak kefil olur. Mert'in kefaleti tarih eksikliği yüzünden hükümsüz çıkarsa, Lale kefalet borcundan kurtulur.\n\n### 5.4 Kefile kefil ve rücua kefil (TBK m. 588)\n- **Kefile kefil**, alacaklıya karşı kefilin borcu için güvence verir; kefil ile birlikte **adi kefil gibi** sorumlu olur.\n- **Rücua kefil**, kefilin **borçludan rücu alacağı** için güvence veren kefildir.\n\n## 6. TBK m. 603 ve garanti sözleşmesiyle karşılaştırma\n\nTBK m. 603'e göre kefaletin şekli, kefil olma ehliyeti ve eş rızası hükümleri, **gerçek kişilerce** kişisel güvence verilmesine ilişkin olarak **başka ad altında** yapılan sözleşmelere de uygulanır. Hüküm yalnız **kişisel** güvenceleri kapsar. Yargıtay, üçüncü kişinin kendi taşınmazı üzerinde kurduğu ipoteği **ayni teminat** sayarak TBK m. 603'ün dışında görmüş ve eş rızası aramamıştır (taşınmaz aile konutu değilse).\n\n**Garanti sözleşmesi**, üçüncü bir kişinin fiilini başkasına karşı üstlenen, bu fiilin gerçekleşmemesinden doğan zararı gidermekle yükümlü olan kimsenin sözleşmesidir (TBK m. 128).\n\n| Ölçüt | Kefalet | Garanti (TBK m. 128) |\n|---|---|---|\n| Asıl borca bağlılık | Fer'î, asıl borç sona erince kefil kurtulur (TBK m. 598/1) | Bağımsız |\n| Def'iler | Kefil asıl borçlunun def'ilerini ileri sürer (TBK m. 591/1) | Garantör asıl borçlunun def'ilerine bağlı değil |\n| Şekil | TBK m. 583 ve TBK m. 584 | Gerçek kişi kişisel güvence veriyorsa TBK m. 603 |\n\n## 7. Denetim şeması\n\n1. **Asıl borç:** Var ve geçerli mi? Gelecekteki borç mu? Kefil eksikliği biliyor mu? (TBK m. 582)\n2. **Şekil:** Yazılı mı? Azamî miktar ve tarih kefilin el yazısıyla mı? Müteselsil sıfat el yazısıyla mı? Sonradan sorumluluğu artıran değişiklik şekle uygun mu? (TBK m. 583)\n3. **Eş rızası:** Evli mi? Ayrılık kararı ya da ayrı yaşama hakkı var mı? Rıza yazılı ve zamanında mı? Şirket ortağı/yöneticisi istisnası ya da diğer TBK m. 584/3 istisnası var mı?\n4. **Tür:** Adi, müteselsil, birlikte kefalet; rehin varsa türü (ipotek / teslime bağlı taşınır rehni / alacak rehni). (TBK m. 585-587)\n5. **Özel ilişkiler:** Kefile kefil, rücua kefil (TBK m. 588); başka ad altında kişisel güvence (TBK m. 603).",
+  "critical_md": "- 📌 Kefalet **alacaklı ile kefil** arasında kurulur; asıl borçlu sözleşmenin tarafı değildir (TBK m. 581). Kefalet fer'î bir kişisel güvencedir.\n- 📌 Gelecekte doğacak veya koşula bağlı borca da kefil olunabilir; hüküm borç doğunca ya da koşul gerçekleşince doğar (TBK m. 582/1).\n- ⚠️ Borçlu yanılma/ehliyetsizlik yüzünden sorumlu değilse ya da borç zamanaşımına uğramışsa, eksikliği **bilerek** kefil olan sorumlu olur; bilmeyen kefil sorumlu olmaz. Kefil kanundan doğan haklardan önceden feragat edemez (TBK m. 582/2-3).\n- 📌 Kefalet geçerliliği için **yazılı şekil**, **azamî miktar** ve **kefalet tarihi** şarttır (TBK m. 583/1).\n- ⚠️ **Azamî miktar, kefalet tarihi ve (müteselsil kefalette) müteselsil kefil sıfatı kefilin kendi el yazısıyla yazılmalıdır.** Bankanın yazdığı miktar/tarih ya da yalnız imza yetmez (TBK m. 583/1).\n- 📌 Özel yetki (vekâletname), kefil olma vaadi ve kefilin sorumluluğunu artıran sonraki değişiklikler aynı şekle bağlıdır (TBK m. 583).\n- 📌 Evli kişi, ayrılık kararı veya yasal ayrı yaşama hakkı yoksa ancak eşinin **yazılı rızasıyla** kefil olabilir (TBK m. 584/1).\n- ⚠️ Eş rızası sözleşmeden önce ya da **en geç kurulduğu anda** verilmelidir; sonradan verilen rıza kefaleti geçerli kılmaz.\n- 📌 Ticari işletme sahibi ile şirket ortağı/yöneticisinin işletme veya şirketle ilgili kefaletlerinde, esnaf-sanatkârın mesleki kefaletlerinde, 5570 sayılı Kanun ve kooperatif kredilerinde eş rızası aranmaz (TBK m. 584/3, 6455 sayılı Kanunla eklendi).\n- 📌 Adi kefilde alacaklı önce borçluya başvurur; istisnalar: kesin aciz belgesi, takibin imkânsızlaşması/güçleşmesi, iflas, konkordato mehli (TBK m. 585/1).\n- ⚠️ Müteselsil kefile, gecikme ve sonuçsuz ihtardan sonra **ipotek paraya çevrilmeden** gidilebilir; **teslime bağlı taşınır rehni ve alacak rehni** ise önce paraya çevrilir (TBK m. 586).\n- 📌 Adi birlikte kefiller kendi payı için adi kefil, diğerlerinin payı için kefile kefil gibi sorumludur (TBK m. 587/1).\n- 📌 Alacaklının bildiği varsayımla (başka kefil de olacak) kefil olan, bu varsayım gerçekleşmezse veya diğer kefilin kefaleti hükümsüz çıkarsa borçtan kurtulur (TBK m. 587/3).\n- ⚠️ Kefile kefil, kefilin alacaklıya borcunu; rücua kefil, kefilin borçludan rücu alacağını güvenceler (TBK m. 588).\n- 📌 TBK m. 603 yalnız gerçek kişilerin **kişisel** güvence sözleşmelerine uygulanır. Garanti (TBK m. 128) bağımsızdır, kefalet fer'îdir.",
+  "doctrine_md": "### Ticari borca kefalette \"müteselsil\" ibaresi el yazısıyla yazılmazsa?\nTBK m. 583/1 müteselsil kefalette bu sıfatın kefilin el yazısıyla yazılmasını arar. Öte yandan TTK m. 7/2, ticari borçlara kefalette sözleşmede aksi öngörülmedikçe kefillerin müteselsil sorumlu olduğunu söyleyen bir teselsül karinesi getirir. İki hüküm çatıştığında ne olacağı tartışmalıdır.\n- **Birinci görüş:** TBK m. 583 geçerlilik şekline ilişkindir ve emredicidir; sıfat el yazısıyla yazılmamışsa müteselsil kefalet doğmaz, adi kefalet sonuçları gündeme gelir.\n- **İkinci görüş (Yargıtay Hukuk Genel Kurulu):** TTK m. 7/2 ticari işlerde özel hükümdür. Azamî miktar ve tarih el yazısıyla yazılarak geçerli kurulmuş, sözleşmede aksi kararlaştırılmamış ticari kefaletin müteselsil sayılması gerekir. Yargıtay'ın incelediği olayda belge \"müteselsil kefalet senedi\" başlıklıydı ve miktar ile tarih kefillerin el yazısıyla yazılmıştı.\n\nSınavda kesin sonuç yazmadan önce hangi görüşü benimsediğini gerekçesiyle belirt; olayda sözleşmenin ticari borca ilişkin olup olmadığına dikkat et.\n\n### Gerçek kişinin aval vermesinde eş rızası\nTBK m. 603 gerçek kişilerin başka ad altında verdiği kişisel güvencelere de kefaletin eş rızası kuralını uygular. Kambiyo senedinde **aval** vermek de bir kişisel güvence olduğundan eş rızasının aranıp aranmayacağı uzun süre tartışılmıştır. Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'nun 2018 tarihli kararı, avalde eş rızası aranmayacağı sonucuna varmıştır; bu nedenle artık bağlayıcı çözüm budur.\n\n### Garanti ile kefalet ayrımı ve banka teminat mektubu\nFer'îlik ve bağımsızlık ölçütü ayrımın çekirdeğidir. Yargıtay uygulamasında banka teminat mektubu kefalet değil **garanti sözleşmesi** sayılır. Gerçek kişinin kişisel güvence amacıyla verdiği garanti taahhüdünde ise TBK m. 603 gereği kefaletin şekil ve eş rızası kuralları gündeme gelir. Sınırın nerede başladığı olaya göre değerlendirilir; yalnız sözleşmenin adına değil edimin gerçek niteliğine bak.",
+  "glossary": [
+   {
+    "term": "Kefalet sözleşmesi",
+    "definition": "Kefilin, alacaklıya karşı borçlunun borcunu ifa etmemesinin sonuçlarından kişisel olarak sorumlu olmayı üstlendiği sözleşme (TBK m. 581)."
+   },
+   {
+    "term": "Kişisel güvence",
+    "definition": "Kefilin tüm malvarlığıyla sorumlu olduğu güvence türü. Belirli bir şeye bağlı ayni güvenceden (rehin, ipotek) ayrılır."
+   },
+   {
+    "term": "Fer'îlik",
+    "definition": "Kefaletin asıl borcun varlığına ve kapsamına bağlı olması. Asıl borç sona erince kefil kurtulur (TBK m. 598/1)."
+   },
+   {
+    "term": "Azamî miktar",
+    "definition": "Kefilin en fazla sorumlu olacağı tutar. Kefilin el yazısıyla yazılması gerekir (TBK m. 583/1)."
+   },
+   {
+    "term": "Müteselsil kefil",
+    "definition": "Alacaklının borçluyu takip etmeden kefile gidebildiği kefil. Bu sıfat kefilin el yazısıyla belirtilmelidir (TBK m. 583/1 ve TBK m. 586)."
+   },
+   {
+    "term": "Adi kefil",
+    "definition": "Alacaklının, istisnalar dışında önce borçluya başvurması gereken kefil (TBK m. 585)."
+   },
+   {
+    "term": "Kesin aciz belgesi",
+    "definition": "Borçlu aleyhine yapılan takipte alacağın karşılanamadığını gösteren belge. Adi kefile doğrudan başvuru sebebidir (TBK m. 585/1)."
+   },
+   {
+    "term": "Teslime bağlı taşınır rehni",
+    "definition": "Zilyetliğin alacaklıya geçmesiyle kurulan taşınır rehni. Müteselsil kefile başvurmadan önce paraya çevrilmesi gerekir (TBK m. 586/2)."
+   },
+   {
+    "term": "Birlikte kefalet",
+    "definition": "Birden çok kişinin aynı borca birlikte kefil olması (TBK m. 587)."
+   },
+   {
+    "term": "Kefile kefil",
+    "definition": "Alacaklıya karşı kefilin borcu için güvence veren kişi (TBK m. 588/1)."
+   },
+   {
+    "term": "Rücua kefil",
+    "definition": "Kefilin borçludan rücu alacağı için güvence veren kişi (TBK m. 588/2)."
+   },
+   {
+    "term": "Garanti sözleşmesi",
+    "definition": "Üçüncü kişinin fiilini başkasına karşı üstlenen ve bu fiilin gerçekleşmemesinden doğan zararı gidermeyi borçlanan kimsenin sözleşmesi. Asıl borçtan bağımsızdır (TBK m. 128)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "581",
+   "official_text": "A. Tanımı\nMADDE 581- Kefalet sözleşmesi, kefilin alacaklıya karşı, borçlunun borcunu ifa etmemesinin sonuçlarından kişisel olarak sorumlu olmayı üstlendiği sözleşmedir.\nB. Koşulları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "582",
+   "official_text": "I. Asıl borç\nMADDE 582- Kefalet sözleşmesi, mevcut ve geçerli bir borç için yapılabilir. Ancak, gelecekte doğacak veya koşula bağlı bir borç için de, bu borç doğduğunda veya koşul gerçekleştiğinde hüküm ifade etmek üzere kefalet sözleşmesi kurulabilir.\nYanılma veya ehliyetsizlik sebebiyle borçlunun sorumlu olmadığı bir borç için kişisel güvence veren kişi, yükümlülük altına girdiği sırada, sözleşmeyi sakatlayan eksikliği biliyorsa, kefaletle ilgili kanun hükümlerine göre sorumlu olur. Aynı kural, borçlu yönünden zamanaşımına uğramış bir borca kefil olan kişi hakkında da uygulanır.\nKanundan aksi anlaşılmadıkça kefil, bu bölümde kendisine tanınan haklardan önceden feragat edemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "583",
+   "official_text": "MADDE 583- Kefalet sözleşmesi, yazılı şekilde yapılmadıkça ve kefilin sorumlu olacağı azamî miktar ile kefalet tarihi belirtilmedikçe geçerli olmaz. Kefilin, sorumlu olduğu azamî miktarı, kefalet tarihini ve müteselsil kefil olması durumunda, bu sıfatla veya bu anlama gelen herhangi bir ifadeyle yükümlülük altına girdiğini kefalet sözleşmesinde kendi el yazısıyla belirtmesi şarttır.\nKendi adına kefil olma konusunda özel yetki verilmesi ve diğer tarafa veya bir üçüncü kişiye kefil olma vaadinde bulunulması da aynı şekil koşullarına bağlıdır. Taraflar, yazılı şekle uyarak kefilin sorumluluğunu borcun belirli bir miktarıyla sınırlandırmayı kararlaştırabilirler.\nKefalet sözleşmesinde sonradan yapılan ve kefilin sorumluluğunu artıran değişiklikler, kefalet için öngörülen şekle uyulmadıkça hüküm doğurmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "584",
+   "official_text": "III. Eşin rızası\nMADDE 584- Eşlerden biri mahkemece verilmiş bir ayrılık kararı olmadıkça veya yasal olarak ayrı yaşama hakkı doğmadıkça, ancak diğerinin yazılı rızasıyla kefil olabilir; bu rızanın sözleşmenin kurulmasından önce ya da en geç kurulması anında verilmiş olması şarttır.\nKefalet sözleşmesinde sonradan yapılan ve kefilin sorumlu olacağı miktarın artmasına veya adi kefaletin müteselsil kefalete dönüşmesine ya da kefil yararına olan güvencelerin önemli ölçüde azalmasına sebep olmayan değişiklikler için eşin rızası gerekmez.\n(Ek fıkra: 28/3/2013-6455/77 md.) Ticaret siciline kayıtlı ticari işletmenin sahibi veya ticaret şirketinin ortak ya da yöneticisi tarafından işletme veya şirketle ilgili olarak verilecek kefaletler, mesleki faaliyetleri ile ilgili olarak esnaf ve sanatkârlar siciline kayıtlı esnaf veya sanatkârlar tarafından verilecek kefaletler, 27/12/2006 tarihli ve 5570 sayılı Kamu Sermayeli Bankalar Tarafından Yürütülen Faiz Destekli Kredi Kullandırılmasına Dair Kanun kapsamında kullanılacak kredilerde verilecek kefaletler ile tarım kredi, tarım satış ve esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile kamu kurum ve kuruluşlarınca kooperatif ortaklarına kullandırılacak kredilerde verilecek kefaletler için eşin rızası aranmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "585",
+   "official_text": "1. Adi kefalet\nMADDE 585- Adi kefalette alacaklı, borçluya başvurmadıkça, kefili takip edemez; ancak, aşağıdaki hâllerde doğrudan doğruya kefile başvurabilir:\n1. Borçlu aleyhine yapılan takibin sonucunda kesin aciz belgesi alınması.\n2. Borçlu aleyhine Türkiye’de takibatın imkânsız hâle gelmesi veya önemli ölçüde güçleşmesi.\n3. Borçlunun iflasına karar verilmesi.\n4. Borçluya konkordato mehli verilmiş olması.\nAlacak, kefaletten önce veya kefalet sırasında rehinle de güvence altına alınmışsa, adi kefalette kefil, alacağın öncelikle rehin konusundan alınmasını isteyebilir. Ancak, borçlunun iflasına veya kendisine konkordato mehli verilmesine karar verilmişse, bu hüküm uygulanmaz.\nSadece açığın kapatılması için kefil olunmuşsa, borçlu aleyhine yapılan takibin kesin aciz belgesi alınmasıyla sonuçlanması veya borçlu aleyhine Türkiye’de takibatın imkânsız hâle gelmesi ya da konkordatonun kesinleşmesi durumlarında, doğrudan doğruya kefile başvurulabilir. Sözleşmede, bu durumlarda alacaklının, önce asıl borçluya başvurmak zorunda olduğu kararlaştırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "586",
+   "official_text": "2. Müteselsil kefalet\nMADDE 586- Kefil, müteselsil kefil sıfatıyla veya bu anlama gelen herhangi bir ifadeyle yükümlülük altına girmeyi kabul etmişse alacaklı, borçluyu takip etmeden veya taşınmaz rehnini paraya çevirmeden kefili takip edebilir. Ancak, bunun için borçlunun, ifada gecikmesi ve ihtarın sonuçsuz kalması veya açıkça ödeme güçsüzlüğü içinde olması gerekir.\nAlacak, teslime bağlı taşınır rehni veya alacak rehni ile güvenceye alınmışsa, rehnin paraya çevrilmesinden önce kefile başvurulamaz. Ancak, alacağın rehnin paraya çevrilmesi yoluyla tamamen karşılanamayacağının önceden hâkim tarafından belirlenmesi veya borçlunun iflas etmesi ya da konkordato mehli verilmesi hâllerinde, rehnin paraya çevrilmesinden önce de kefile başvurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "587",
+   "official_text": "3. Birlikte kefalet\nMADDE 587- Birden çok kişi, aynı borca birlikte kefil oldukları takdirde, her biri kendi payı için adi kefil gibi, diğerlerinin payı için de kefile kefil gibi sorumlu olur.\nBorçluyla birlikte veya kendi aralarında müteselsil kefil olarak yükümlülük altına giren kefillerden her biri, borcun tamamından sorumlu olur. Ancak, bir kefil, kendisiyle birlikte daha önce veya aynı zamanda müteselsilen yükümlü bulunan ve Türkiye’de takip edilebilen bütün kefillere karşı takibe girişilmiş olmadıkça, kendi payından fazlasını ödemekten kaçınabilir. Bir kefil, bu hakkı, diğer kefillerin kendi paylarını ödemiş veya ayni güvence sağlamış olmaları durumunda da kullanabilir. Aksine anlaşmalar saklı kalmak kaydıyla, borcu ödeyen kefil, kendi paylarını daha önce ödememiş olmaları ölçüsünde, diğer kefillere karşı rücu hakkına sahiptir. Bu hak, borçluya rücudan önce de kullanılabilir.\nAlacaklı, kefilin aynı alacak için başka kişilerin de kefil olduğunu veya olacağını varsayarak kefalet ettiğini biliyor veya bilmesi gerekiyorsa, bu varsayımın sonradan gerçekleşmemesi veya kefillerden birinin alacaklı tarafından kefalet borcundan kurtarılması ya da kefaletinin hükümsüz olduğuna karar verilmesi durumunda kefil, kefalet borcundan kurtulur.\nBirbirlerinden bağımsız olarak aynı borç için kefil olanlardan her biri, kefalet borcunun tamamından sorumlu olur. Ancak, borcu ödeyen kefil aksine anlaşma olmadıkça, diğerlerine toplam kefalet miktarındaki payı oranında rücu hakkına sahiptir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "588",
+   "official_text": "4. Kefile kefil ve rücua kefil\nMADDE 588- Alacaklıya, kefilin borcu için güvence veren kefile kefil, kefil ile birlikte, adi kefil gibi sorumludur.\nRücua kefil, kefilin borçludan rücu alacağı için güvence veren kefildir.\nII. Ortak hükümler\n1. Kefil ile alacaklı arasındaki ilişki",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "603",
+   "official_text": "E. Uygulama alanı\nMADDE 603- Kefaletin şekline, kefil olma ehliyetine ve eşin rızasına ilişkin hükümler, gerçek kişilerce, kişisel güvence verilmesine ilişkin olarak başka ad altında yapılan diğer sözleşmelere de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "128",
+   "official_text": "MADDE 128- Üçüncü bir kişinin fiilini başkasına karşı üstlenen, bu fiilin gerçekleşmemesinden doğan zararı gidermekle yükümlüdür.\nBelirli bir süre için yapılan üstlenmede, sürenin bitimine kadar üstlenene edimini ifa etmesi için yazılı olarak başvurulmaması hâlinde, üstlenenin sorumluluğunun sona ereceği kararlaştırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "591",
+   "official_text": "c. Def’iler\nMADDE 591- Kefil, asıl borçluya veya mirasçılarına ait olan ve asıl borçlunun ödeme güçsüzlüğünden doğmayan bütün def’ileri alacaklıya karşı ileri sürme hakkına sahip olduğu gibi, bunları ileri sürmek zorundadır. Yanılma veya sözleşme yapma ehliyetsizliği ya da zamanaşımına uğramış bir borç sebebiyle borçlunun yükümlü olmadığı bir borca bilerek kefalet hâli bu hükmün dışındadır.\nAsıl borçlu kendisine ait olan bir def’iden vazgeçmiş olsa bile kefil, yine de bu def’iî alacaklıya karşı ileri sürebilir.\nKefil, asıl borçluya ait def’ilerin varlığını bilmeksizin ödemede bulunursa, rücu hakkına sahip olur. Buna karşılık asıl borçlu, kefilin bu def’ileri bildiğini veya bilmesi gerektiğini ispat ederse kefil, bunlar ileri sürülmüş olsaydı ödemeden kurtulacağı ölçüde rücu hakkını kaybeder.\nKumar veya bahisten doğan bir borca kefalette kefil, borcun bu niteliğini bilmiş olsa bile, asıl borçlunun sahip olduğu def’ileri ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "598",
+   "official_text": "MADDE 598- Hangi sebeple olursa olsun, asıl borç sona erince, kefil de borcundan kurtulur.\nBorçlu ve kefil sıfatı aynı kişide birleşmiş olursa, alacaklı için kefaletten doğan özel yararlar saklı kalır.\nBir gerçek kişi tarafından verilmiş olan her türlü kefalet, buna ilişkin sözleşmenin kurulmasından başlayarak on yılın geçmesiyle kendiliğinden ortadan kalkar.\nKefalet, on yıldan fazla bir süre için verilmiş olsa bile, uzatılmış veya yeni bir kefalet verilmiş olmadıkça kefil, ancak on yıllık süre doluncaya kadar takip edilebilir.\nKefalet süresi, en erken kefaletin sona ermesinden bir yıl önce yapılmak kaydıyla, kefilin kefalet sözleşmesinin şekline uygun yazılı açıklamasıyla, azamî on yıllık yeni bir dönem için uzatılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "7",
+   "official_text": "II - Teselsül karinesi\nMADDE 7- (1) İki veya daha fazla kişi, içlerinden yalnız biri veya hepsi için ticari niteliği haiz bir iş dolayısıyla, diğer bir kimseye karşı birlikte borç altına girerse, kanunda veya sözleşmede aksi öngörülmemişse müteselsilen sorumlu olurlar. Ancak, kefil ve kefillere, taahhüt veya ödemenin yapılmadığı veya yerine getirilmediği ihbar edilmeden temerrüt faizi yürütülemez.\n(2) Ticari borçlara kefalet hâlinde, hem asıl borçlu ile kefil, hem de kefiller arasındaki ilişkilerde de birinci fıkra hükmü geçerli olur.\nIII - Ticari işlerde faiz",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2019/254",
+   "karar_no": "2022/584",
+   "decision_date": "21.04.2022",
+   "summary_md": "Davacı satıcı şirket, davalıların (anne ve çocukları) ortak oldukları şirketlerden birinin kendisinden aldığı mallar için 2.500.000 TL'ye kadar \"müteselsil kefalet senedi\" ile kefil olduklarını ileri sürerek itirazın iptalini istemiştir. Senette kefalet limiti ve tarih davalıların el yazısıyla yazılmış, ancak \"müteselsil\" ibaresi iki davalıda el yazısıyla bulunmuyordu. İzmir Asliye Ticaret Mahkemesi bu davalıları adi kefil sayıp kesin aciz belgesi bulunmadığı için davayı reddetmiş; kapatılan 19. Hukuk Dairesi bozmuş, mahkeme direnmiş, Hukuk Genel Kurulu direnme kararını oybirliğiyle bozmuştur. Gerekçeye göre ticari işlere kefalet hâlinde TTK m. 7/2 ticari teselsül karinesi özel hükümdür; kefalet senedinde müteselsil niteliği açıkça belli olan ve sözleşmede aksi kararlaştırılmayan bu kefalet, sıfatın el yazısıyla yazılmamış olmasına rağmen müteselsil kefalet sayılmalıdır. Konuya katkısı: TBK m. 583/1'deki el yazısı koşulu ile TTK m. 7/2'nin ilişkisinde Yargıtay'ın tutumunu gösterir; doktrinde bu konu tartışmalıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/790218700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/4977",
+   "karar_no": "2026/2119",
+   "decision_date": "16.04.2026",
+   "summary_md": "Bir banka, kredi sözleşmelerinden doğan alacağı için takip başlatmış; kefiller olarak gösterilen kişiler de menfi tespit davası açmıştır. Mahkemeler, bir kredi sözleşmesinde kefaletin yer aldığı bölümde tarih bulunmadığından TBK m. 583 gereği kefaletin geçersiz olduğunu, bir başka kredi sözleşmesinde ise eşin muvafakati bulunmadığından TBK m. 584 gereği kefaletin geçerlilik kazanmadığını kabul etmiş ve ilgili kefiller yönünden borçlu olmadıklarının tespitine karar vermiştir. Buna karşılık davacılardan birinin, asıl borçlu şirketin borçları için kendi taşınmazı üzerinde kurduğu ipotek, kişisel değil ayni teminat olduğundan TBK m. 603 kapsamında görülmemiş; taşınmaz aile konutu olmadığından eş rızası aranmamış ve ipotek geçerli sayılmıştır. Yargıtay 11. Hukuk Dairesi kararı oybirliğiyle onamıştır. Konuya katkısı: tarih ve eş rızası eksikliğinin kefaleti geçersiz kıldığını, ipoteğin ise TBK m. 603 dışında kaldığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1225485900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/1540",
+   "karar_no": "2025/6298",
+   "decision_date": "16.10.2025",
+   "summary_md": "Davacı banka, iki genel kredi sözleşmesine dayanarak \"müşterek borçlu müteselsil kefil\" sıfatıyla sözleşmeyi imzalayan davalılar aleyhine itirazın iptali davası açmıştır. Davalılardan biri, imzanın kendisine ait olduğunu ama kefil olarak adının yazılı olduğu sayfalardaki yazıların kendi elinden çıkmadığını savunmuş; grafoloji uzmanı bilirkişi raporu, yazıların bu davalının eliyle yazıldığına dair bir bağlantı saptayamamıştır. İlk derece mahkemesi bu davalı yönünden müteselsil kefaletin geçerli sayılamayacağını belirterek davayı reddetmiş; bölge adliye mahkemesi istinafı esastan reddetmiş; Yargıtay 11. Hukuk Dairesi kararı oybirliğiyle onamıştır. Konuya katkısı: kefalet bölümündeki el yazısı koşulunun imzadan ayrı ve gerçek bir koşul olduğunu, kefilin eli ürünü olmayan metnin kefaleti ayakta tutmadığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1177275500",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 581'e göre kefalet sözleşmesi hangi kişiler arasında kurulur?",
+   "options": [
+    "Alacaklı ile asıl borçlu arasında; kefil yalnız tanıktır.",
+    "Alacaklı, asıl borçlu ve kefil arasında; üçünün de imzası zorunludur.",
+    "Alacaklı ile kefil arasında; asıl borçlu sözleşmenin tarafı değildir.",
+    "Asıl borçlu ile kefil arasında."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kefalet, kefilin alacaklıya karşı borçlunun borcunu ifa etmemesinin sonuçlarından kişisel olarak sorumlu olmayı üstlendiği sözleşmedir (TBK m. 581). Taraflar alacaklı ve kefildir. Asıl borçlunun kefalete rıza göstermesi ya da sözleşmeye katılması gerekmez."
+  },
+  {
+   "stem_md": "Küçük Can, velisinin izni olmadan satıcı Selim'den bir bilgisayar satın alır; Can bu sözleşmeyle bağlı değildir. Ece, bu eksikliği bilerek yazılı şekil şartlarına uygun biçimde Selim'e kefil olur. Ece'nin durumu nedir?",
+   "options": [
+    "Ece eksikliği bildiği için kefalet hükümlerine göre sorumlu olur.",
+    "Ece sorumludur, ama sorumluluğundan önceden feragat edebilir.",
+    "Asıl borç geçerli olmadığından kefalet de geçersizdir; Ece sorumlu olmaz.",
+    "Ece yalnız Can'ın velisi onay verirse sorumlu olur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 582/2'ye göre yanılma veya ehliyetsizlik yüzünden borçlunun sorumlu olmadığı borç için kişisel güvence veren kişi, yükümlülük altına girerken sözleşmeyi sakatlayan eksikliği biliyorsa kefalet hükümlerine göre sorumlu olur. Eksiği bilmeyen kefil sorumlu olmazdı. Kefil kanundan doğan bu hakkından önceden feragat edemez (TBK m. 582/3)."
+  },
+  {
+   "stem_md": "TBK m. 583/1'e göre aşağıdakilerden hangisinin kefilin kendi el yazısıyla yazılması şart değildir?",
+   "options": [
+    "Asıl borçlunun adı ve soyadı.",
+    "Müteselsil kefil olunması hâlinde bu sıfat.",
+    "Sorumlu olunacak azamî miktar.",
+    "Kefalet tarihi."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 583/1, kefilin sorumlu olduğu azamî miktarı, kefalet tarihini ve müteselsil kefil olması durumunda bu sıfatla veya bu anlama gelen ifadeyle yükümlülük altına girdiğini kendi el yazısıyla belirtmesini şart koşar. Asıl borçlunun adı kanunun el yazısı aradığı unsurlar arasında değildir."
+  },
+  {
+   "stem_md": "Zeynep, bankanın hazırladığı kefalet formunu imzalar. \"Azamî 200.000 TL\" ifadesi ve kefalet tarihi banka memuru tarafından bilgisayarla yazılmıştır. Zeynep'in kefaleti hakkında hangisi doğrudur?",
+   "options": [
+    "Kefalet geçerlidir, ama miktar ile sınırlı olmaz.",
+    "Zeynep'in imzası olduğu için kefalet geçerlidir.",
+    "Kefalet adi kefalet olarak geçerli sayılır.",
+    "Kefalet geçerli olmaz; azamî miktar ve tarihin kefilin el yazısıyla yazılması gerekir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kefalet yazılı şekilde yapılmadıkça ve azamî miktar ile kefalet tarihi belirtilmedikçe geçerli olmaz; kefilin bu unsurları kendi el yazısıyla belirtmesi de şarttır (TBK m. 583/1). Yalnız imza yetmez. Şekil eksikse kefalet adi kefalete de dönüşmez; geçerli kurulmamıştır."
+  },
+  {
+   "stem_md": "Hasan, bankaya 100.000 TL azamî limitle ve şekil şartlarına uygun biçimde kefil olmuştur. Banka daha sonra telefonla kefalet limitinin 150.000 TL'ye çıkarıldığını bildirir; Hasan telefonda \"tamam\" demiş, yazılı bir belge düzenlenmemiştir. Limit artışı hakkında hangisi doğrudur?",
+   "options": [
+    "Değişiklik için eşin rızası yeterlidir, şekil gerekmez.",
+    "Kefalet bütünüyle geçersiz hâle gelir.",
+    "Hasan sözlü onay verdiği için 150.000 TL'ye kadar sorumludur.",
+    "Sorumluluğu artıran değişiklik kefalet için öngörülen şekle uyulmadıkça hüküm doğurmaz; Hasan 100.000 TL ile sınırlı kalır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kefalet sözleşmesinde sonradan yapılan ve kefilin sorumluluğunu artıran değişiklikler, kefalet için öngörülen şekle uyulmadıkça hüküm doğurmaz (TBK m. 583). Sözlü onay bu şekli karşılamaz. İlk kefalet geçerliliğini korur ve 100.000 TL ile sınırlı kalır."
+  },
+  {
+   "stem_md": "Evli Ahmet, 1 Haziran'da bir arkadaşının kişisel kredisine şekil şartlarına uygun biçimde kefil olur. Eşi Elif yazılı rızasını 3 Haziran'da verir. Aralarında ayrılık kararı yoktur. Kefalet hakkında hangisi doğrudur?",
+   "options": [
+    "Elif'in rızası sözleşmenin kurulmasından önce ya da en geç kurulduğu anda verilmediğinden kefalet geçerli kurulmamıştır.",
+    "Rıza sonradan verilse de kefalet geçerlidir.",
+    "Rıza yalnız sözlü olabilir; yazılı olması gerekmez.",
+    "Rıza yalnız sözleşme tarihinden sonra alınırsa geçerli olur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 584/1'e göre eş, ayrılık kararı veya yasal ayrı yaşama hakkı yoksa ancak diğerinin yazılı rızasıyla kefil olabilir; bu rızanın sözleşmenin kurulmasından önce ya da en geç kurulması anında verilmiş olması şarttır. Kişisel kredi kefaletinde TBK m. 584/3'teki istisnalar da uygulanmaz."
+  },
+  {
+   "stem_md": "Mehmet, X Ltd.'nin ortağı ve müdürüdür; evlidir. Şirketin banka kredisine, TBK m. 583 şekil şartlarına uygun biçimde kefil olmuştur; eşinin rızasını almamıştır. Aralarında ayrılık kararı yoktur. Kefalet hakkında hangisi doğrudur?",
+   "options": [
+    "Eş rızası ancak sonradan verilirse kefalet geçerli olur.",
+    "Şirket ortağı ve yöneticisinin şirketle ilgili kefaletinde eş rızası aranmaz; kefalet geçerlidir.",
+    "Yalnız mahkeme kararıyla eş rızası aranmayabilir.",
+    "Eş rızası olmadığı için kefalet geçersizdir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "6455 sayılı Kanunla eklenen TBK m. 584/3'e göre ticaret şirketinin ortağı ya da yöneticisi tarafından şirketle ilgili olarak verilecek kefaletlerde eşin rızası aranmaz. Mehmet hem ortak hem yönetici olduğundan şirket kredisine ilişkin kefaleti eş rızası olmadan da geçerlidir."
+  },
+  {
+   "stem_md": "Adi kefalette alacaklının, borçluya başvurmadan doğrudan kefile başvurabilmesi aşağıdaki hâllerden hangisinde mümkündür (TBK m. 585/1)?",
+   "options": [
+    "Borçlunun borcunu vadesinde ödememesi.",
+    "Kefilin malvarlığının borçlununkinden fazla olması.",
+    "Borçluya ihtar çekilmesi.",
+    "Borçlu aleyhine yapılan takibin sonucunda kesin aciz belgesi alınması."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 585/1 dört istisna sayar: kesin aciz belgesi alınması, Türkiye'de takibin imkânsızlaşması veya önemli ölçüde güçleşmesi, borçlunun iflası ve borçluya konkordato mehli verilmesi. Yalnız temerrüt, ihtar ya da kefilin varlıklı olması adi kefile doğrudan başvuruya imkân vermez."
+  },
+  {
+   "stem_md": "Alacak, borçlunun taşınmazı üzerindeki ipotekle ve borçlunun altınları üzerindeki teslime bağlı taşınır rehniyle güvence altındadır. Kerem müteselsil kefildir; borçlu ifada gecikmiş ve ihtar sonuçsuz kalmıştır. Hâkimin önceden bir belirlemesi, iflas ya da konkordato mehli yoktur. Alacaklı ne yapabilir?",
+   "options": [
+    "İki rehin de paraya çevrilmeden Kerem'e başvuramaz.",
+    "Her iki rehin de paraya çevrilmeden Kerem'e başvurabilir.",
+    "Taşınır rehni paraya çevrilmeden başvurabilir; ipotek önce paraya çevrilmelidir.",
+    "İpoteği paraya çevirmeden Kerem'e başvurabilir; taşınır rehni paraya çevrilmeden başvuramaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Müteselsil kefalette alacaklı, gecikme ve sonuçsuz ihtar şartıyla borçluyu takip etmeden ve taşınmaz rehnini paraya çevirmeden kefili takip edebilir (TBK m. 586/1). Teslime bağlı taşınır rehni veya alacak rehni varsa, rehin paraya çevrilmedikçe kefile başvurulamaz; istisnalar hâkimin önceden belirlemesi, iflas ve konkordato mehlidir (TBK m. 586/2)."
+  },
+  {
+   "stem_md": "Lale, kredinin Mert'in de kefil olacağını varsayarak kefil olmuş ve alacaklı bu varsayımı bilmektedir. Mahkeme sonradan Mert'in kefaletinin şekil eksikliği nedeniyle hükümsüz olduğuna karar verir. Lale'nin durumu nedir?",
+   "options": [
+    "Lale kefalet borcunun yalnız yarısından sorumludur.",
+    "Lale kefalet borcundan kurtulur.",
+    "Lale'nin kefaleti de otomatik olarak adi kefalete dönüşür.",
+    "Lale tam sorumludur; çünkü Mert'in kefaleti Lale'yi etkilemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 587/3'e göre alacaklı, kefilin aynı alacak için başka kişilerin de kefil olduğunu ya da olacağını varsayarak kefalet ettiğini biliyorsa veya bilmesi gerekiyorsa; kefillerden birinin kefaletinin hükümsüz olduğuna karar verilmesi durumunda kefil kefalet borcundan kurtulur. Yaygın yanılgı, kısmi sorumluluğun kalacağı sanılmasıdır."
+  },
+  {
+   "stem_md": "\"Rücua kefil\" kavramı aşağıdakilerden hangisini ifade eder (TBK m. 588)?",
+   "options": [
+    "Kefilin borçludan rücu alacağı için güvence veren kişi.",
+    "Borçlunun asıl borcu için tek başına sorumlu olan kişi.",
+    "Kefaletten önce rehin veren üçüncü kişi.",
+    "Kefilin borcu için alacaklıya karşı güvence veren kişi."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 588/2'ye göre rücua kefil, kefilin borçludan rücu alacağı için güvence veren kefildir. Alacaklıya karşı kefilin borcu için güvence veren kişi ise kefile kefildir (TBK m. 588/1)."
+  },
+  {
+   "stem_md": "Evli Burak, oğlunun şirketinin banka borcu için kendi arsası üzerinde ipotek kurar. Eşinin rızasını almamıştır; arsa aile konutu değildir. İpotek hakkında Yargıtay'ın yaklaşımına göre hangisi doğrudur?",
+   "options": [
+    "İpotek de TBK m. 603 kapsamındadır; eş rızası olmadığı için geçersizdir.",
+    "İpotek kişisel güvence olduğundan eş rızası gerekir.",
+    "İpotek ancak kefalet gibi el yazısı şartlarına uyulursa geçerlidir.",
+    "İpotek ayni teminattır; TBK m. 603 kapsamı dışında kaldığı için eş rızası aranmaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 603, kefaletin şekil, ehliyet ve eş rızası hükümlerini gerçek kişilerin kişisel güvence vermek için başka ad altında yaptığı sözleşmelere uygular. Üçüncü kişinin kendi taşınmazı üzerinde kurduğu ipotek ayni teminattır ve bu kapsamda değildir; aile konutu olmayan taşınmazda eş rızası aranmaz. Burada kefalet sözleşmesinin el yazısı şartları da uygulanmaz."
+  },
+  {
+   "stem_md": "Banka, kredi borçlusu Ali'nin borcunu tamamen tahsil etmiştir. Zeynep, aynı borç için kefildir. Zeynep'in durumu nedir?",
+   "options": [
+    "Asıl borç sona erdiğinden Zeynep de kefalet borcundan kurtulur.",
+    "Kefalet bağımsız olduğundan Zeynep sorumluluğunu sürdürür.",
+    "Zeynep ancak banka ayrıca feragat ederse kurtulur.",
+    "Zeynep yalnız faizden sorumlu kalır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kefalet fer'îdir. TBK m. 598/1'e göre asıl borç hangi sebeple olursa olsun sona erince kefil de borcundan kurtulur. Garanti sözleşmesinden (TBK m. 128) farkı da budur: Garanti asıl borçtan bağımsızdır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "X Ltd.'nin kullandığı 1.000.000 TL kredi için banka, 15 Mart 2026'da iki kişiyle kefalet sözleşmesi imzalar.\n\nBurak, X Ltd.'nin ortağı ve müdürüdür; evlidir. Kefalet formuna \"azamî 1.200.000 TL\", \"15.03.2026\" ve \"müteselsil kefil\" ifadelerini kendi eliyle yazıp imzalamıştır. Eşinin rızası alınmamıştır.\n\nZeynep, X Ltd. ile bağlantısı olmayan, Burak'ın arkadaşıdır; evlidir. Formdaki \"azamî miktar\" ve tarih bankanın görevlisi tarafından bilgisayarla yazılmış, Zeynep yalnızca imzalamıştır. Eşi Murat kefalete yazılı rıza vermemiştir. Aralarında ayrılık kararı yoktur.\n\nKredi güvencesi olarak X Ltd.'nin taşınmazı üzerine ipotek kurulmuş ve X Ltd.'nin altınları bankaya teslim edilerek rehnedilmiştir. X Ltd. ödemeyi geciktirmiş, bankanın ihtarı sonuçsuz kalmıştır. Hâkimin önceden bir belirlemesi, iflas ya da konkordato mehli yoktur. Banka, rehinleri paraya çevirmeden Burak'a takip başlatmıştır. Ayrıca banka, bir yıl sonra Burak'ın imzasını almadan telefonla limitin 1.500.000 TL'ye çıkarıldığını bildirmiştir; Burak bunu kabul ettiğini söylemiştir.\n\n1. Zeynep'in kefaleti geçerli midir?\n2. Burak'ın kefaleti şekil ve eş rızası yönünden geçerli midir?\n3. Banka rehinleri paraya çevirmeden Burak'a başvurabilir mi?\n4. Limit artışı Burak'ı bağlar mı?",
+   "rubric": [
+    {
+     "point": "Zeynep'in kefaletinde azamî miktar ve tarihin kefilin el yazısıyla yazılmaması nedeniyle şekil eksikliği; kefaletin geçerli olmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 583"
+    },
+    {
+     "point": "Zeynep'in eşinin yazılı rızasının bulunmaması ve şirketle ilgili olmayan kefalette TBK m. 584/3 istisnasının işlememesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 584"
+    },
+    {
+     "point": "Burak'ın miktar, tarih ve müteselsil sıfatını el yazısıyla yazması; şekil şartının sağlanması",
+     "weight": 15,
+     "madde_ref": "TBK m. 583"
+    },
+    {
+     "point": "Burak'ın şirket ortağı ve yöneticisi olarak şirketle ilgili kefaletinde eş rızasının aranmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 584"
+    },
+    {
+     "point": "Müteselsil kefile gecikme ve sonuçsuz ihtar şartıyla ipotek paraya çevrilmeden başvurulabilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 586"
+    },
+    {
+     "point": "Teslime bağlı taşınır rehninin (altınlar) paraya çevrilmeden kefile başvurulamaması; istisnaların bulunmaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 586"
+    },
+    {
+     "point": "Sorumluluğu artıran sonraki değişikliğin şekle uyulmadığı için hüküm doğurmaması; Burak'ın 1.200.000 TL ile sınırlı kalması",
+     "weight": 15,
+     "madde_ref": "TBK m. 583"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlık, iki farklı kefilin kefaletinin geçerliliği (şekil, eş rızası), kefalet türü ve rehinli alacakta kefile başvuru sırasına ilişkindir. Her iki kefalet banka ile kefiller arasında kurulan kefalet sözleşmesidir (TBK m. 581).\n\n**Hukuki sorunlar:** (1) Zeynep'in kefaletinin şekli ve eş rızası; (2) Burak'ın kefaletinin şekli ve eş rızası; (3) rehinli alacakta müteselsil kefile başvuru; (4) sonradan yapılan limit artışı.\n\n**İlgili hükümler:** TBK m. 581, 583, 584, 586.\n\n**Değerlendirme:**\n\n*1. Zeynep.* TBK m. 583/1'e göre kefalet yazılı yapılmadıkça ve azamî miktar ile kefalet tarihi belirtilmedikçe geçerli olmaz; kefilin azamî miktarı ve kefalet tarihini **kendi el yazısıyla** belirtmesi şarttır. Zeynep yalnızca imza atmış, miktar ve tarih bankanın görevlisince bilgisayarla yazılmıştır. Bu nedenle kefalet geçerli kurulmamıştır. Eş rızası sorunu da ayrıca vardır: Zeynep evlidir, ayrılık kararı yoktur ve X Ltd. ile ilgisi bulunmadığından TBK m. 584/3'teki şirketle ilgili kefalet istisnası uygulanmaz. Murat'ın yazılı rızası bulunmadığından kefalet bu yönden de geçerli değildir (TBK m. 584/1). Şekil eksikliği tek başına yeterli olduğundan bankanın Zeynep'e karşı bir talebi yoktur.\n\n*2. Burak.* Burak miktarı, tarihi ve müteselsil kefil sıfatını kendi eliyle yazdığından TBK m. 583/1'in şekil şartları sağlanmıştır. Eş rızası bakımından Burak evlidir; ancak TBK m. 584/3'e göre ticaret şirketinin ortağı veya yöneticisi tarafından şirketle ilgili olarak verilecek kefaletlerde eşin rızası aranmaz. Burak hem ortak hem müdür olduğundan ve kefalet şirketin kredisine ilişkin olduğundan eş rızasının bulunmaması kefaleti geçersiz kılmaz.\n\n*3. Rehinler ve müteselsil kefil.* Burak müteselsil kefil sıfatını el yazısıyla belirtmiştir. TBK m. 586/1'e göre borçlu ifada gecikmiş ve ihtar sonuçsuz kalmışsa alacaklı borçluyu takip etmeden ve **taşınmaz rehnini (ipoteği)** paraya çevirmeden kefili takip edebilir; bu şartlar gerçekleşmiştir. Dolayısıyla ipotek paraya çevrilmeden Burak'a başvurulabilir. Altınlar ise **teslime bağlı taşınır rehni** olduğundan TBK m. 586/2 gereği rehin paraya çevrilmedikçe kefile başvurulamaz. Hâkimin rehnin yetmeyeceğini önceden belirlemesi, iflas veya konkordato mehli gibi istisnalar da yoktur. Bu yüzden banka, altınlar paraya çevrilmeden Burak'a takip yapamaz.\n\n*4. Limit artışı.* Kefilin sorumluluğunu artıran sonraki değişiklikler, kefalet için öngörülen şekle uyulmadıkça hüküm doğurmaz (TBK m. 583). Telefonla bildirilen ve Burak'ın sözlü olarak kabul ettiği artış bu şekle (yazılı şekil, el yazısı unsurları) uygun değildir. Burak 1.200.000 TL ile sınırlı olarak sorumlu kalır.\n\n**Sonuç:**\n- Zeynep'in kefaleti şekil ve eş rızası eksikliği nedeniyle geçerli değildir.\n- Burak'ın kefaleti geçerlidir; şirketle ilgili olduğundan eş rızası aranmamıştır.\n- Banka ipoteği paraya çevirmeden Burak'a gidebilir, ancak altın rehnini paraya çevirmeden gidemez.\n- Limit artışı şekle uyulmadığı için Burak'ı bağlamaz; sorumluluğu 1.200.000 TL ile sınırlıdır."
+  },
+  {
+   "stem_md": "Z Bank, Y Ltd.'ye 600.000 TL kredi kullandırır. Kredi için üç kişi kefil olur.\n\nKerem, kefalet sözleşmesine azamî miktarı, tarihi ve \"müteselsil kefil\" ifadesini kendi eliyle yazıp imzalamıştır. Lale, \"kredinin Kerem ve Mert'in de kefil olacağı\" varsayımıyla kefil olmuştur; bu varsayımı sözleşme görüşmelerinde açıkça söylemiş, banka da bunu bilmektedir. Lale'nin kefaleti şekil şartlarına tamamen uygundur. Mert'in kefalet metninde azamî miktar kendi eliyle yazılmış, ancak kefalet tarihi hiç yazılmamıştır; Mert yalnız imzalamıştır. Mahkeme sonradan Mert'in kefaletinin hükümsüz olduğuna karar vermiştir.\n\nNedim ise aynı kredinin başka bir bölümü için ayrı bir sözleşmeyle, yazılı ve el yazısıyla azamî miktar ile tarihi belirterek, ancak \"müteselsil\" ifadesi kullanmadan kefil olmuştur. Nedim evli değildir.\n\nY Ltd. ödemelerini geciktirmiş, bankanın ihtarı sonuçsuz kalmıştır. Banka, borçluya karşı henüz hiçbir takip yapmadan Kerem ve Nedim aleyhine takip başlatmak istemektedir. Y Ltd. hakkında iflas ya da konkordato mehli yoktur ve herhangi bir rehin bulunmamaktadır.\n\n1. Mert'in kefaleti geçerli midir?\n2. Lale'nin durumu nedir?\n3. Banka borçluya başvurmadan Kerem'e takip yapabilir mi?\n4. Banka borçluya başvurmadan Nedim'e takip yapabilir mi?",
+   "rubric": [
+    {
+     "point": "Mert'in kefaletinde kefalet tarihinin belirtilmemesi nedeniyle şekil eksikliği; kefaletin geçerli olmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 583"
+    },
+    {
+     "point": "Lale'nin, alacaklının bildiği varsayımla (diğer kefillerin de kefil olacağı) kefil olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 587"
+    },
+    {
+     "point": "Diğer kefillerden birinin kefaletinin hükümsüz olduğuna karar verilmesi nedeniyle Lale'nin kefalet borcundan kurtulması",
+     "weight": 20,
+     "madde_ref": "TBK m. 587"
+    },
+    {
+     "point": "Kerem'in müteselsil sıfatı el yazısıyla belirtmesi nedeniyle müteselsil kefil olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 583"
+    },
+    {
+     "point": "Gecikme ve sonuçsuz ihtar şartıyla alacaklının borçluyu takip etmeden Kerem'e başvurabilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 586"
+    },
+    {
+     "point": "Nedim'in müteselsil sıfatı bulunmadığından adi kefil sayılması; kesin aciz belgesi, iflas veya konkordato mehli gibi istisnalar bulunmadığından önce borçluya başvurulması gerekmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 585"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, çok kefilli bir kredi ilişkisinde kefaletlerin geçerliliğini, birlikte kefalette kefilin varsayımının sonucunu ve adi ile müteselsil kefalet arasındaki başvuru farkını sorar.\n\n**Hukuki sorunlar:** (1) Mert'in kefaletinin şekli; (2) Lale'nin varsayımı ve sonucu; (3) müteselsil kefil Kerem'e başvuru; (4) adi kefil Nedim'e başvuru.\n\n**İlgili hükümler:** TBK m. 581, 583, 585, 586, 587.\n\n**Değerlendirme:**\n\n*1. Mert.* Kefalet sözleşmesi, kefilin sorumlu olacağı azamî miktar ile kefalet tarihi belirtilmedikçe geçerli olmaz ve kefilin azamî miktarı ve tarihi kendi el yazısıyla belirtmesi şarttır (TBK m. 583/1). Mert miktarı yazmış, ama tarihi hiç belirtmemiştir. Tarih unsuru eksik olduğundan kefaleti geçerli kurulmamıştır. Mahkeme de bu yönde karar vermiştir.\n\n*2. Lale.* TBK m. 587/3'e göre alacaklı, kefilin aynı alacak için başka kişilerin de kefil olduğunu veya olacağını varsayarak kefalet ettiğini biliyor ya da bilmesi gerekiyorsa; kefillerden birinin kefaletinin hükümsüz olduğuna karar verilmesi durumunda kefil, kefalet borcundan kurtulur. Lale'nin varsayımı (Kerem ve Mert'in de kefil olacağı) bankaca bilinmektedir. Mert'in kefaleti hükümsüz olduğundan varsayım gerçekleşmemiş, bunun sonucu olarak Lale kefalet borcundan kurtulur. Lale'nin kefaletinin kendi başına şekle uygun olması sonucu değiştirmez; hüküm, kefaletin kendi geçerliliğinden değil, varsayımın çökmesinden doğar.\n\n*3. Kerem.* Kerem müteselsil kefil sıfatını kendi el yazısıyla yazmış, şekil şartları tamam olduğundan müteselsil kefildir (TBK m. 583/1). TBK m. 586/1'e göre borçlu ifada gecikmiş ve ihtar sonuçsuz kalmışsa alacaklı borçluyu takip etmeden kefili takip edebilir. Bu şart gerçekleşmiştir ve herhangi bir rehin bulunmadığından TBK m. 586/2'deki rehin külfeti de söz konusu değildir. Banka Kerem'e doğrudan başvurabilir.\n\n*4. Nedim.* Nedim müteselsil sıfatını belirtmemiştir; \"müteselsil kefil sıfatıyla veya bu anlama gelen herhangi bir ifadeyle\" yükümlülük altına girmediği için adi kefildir (TBK m. 586/1 ve TBK m. 585). Adi kefalette alacaklı, borçluya başvurmadıkça kefili takip edemez (TBK m. 585/1). Olayda kesin aciz belgesi, Türkiye'de takibin imkânsızlaşması, borçlunun iflası ya da konkordato mehli gibi istisna sebeplerinden hiçbiri gerçekleşmemiştir. Bu nedenle banka önce Y Ltd.'ye başvurmak zorundadır; Nedim'e doğrudan başvuramaz.\n\n**Sonuç:**\n- Mert'in kefaleti tarih eksikliği nedeniyle geçerli değildir.\n- Lale, varsayımın çökmesi nedeniyle kefalet borcundan kurtulur.\n- Banka borçluya başvurmadan Kerem'e takip yapabilir.\n- Nedim adi kefil olduğundan banka önce borçluya başvurmalıdır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Kefalet sözleşmesi kimler arasında kurulur (TBK m. 581)?",
+   "back_md": "Alacaklı ile kefil arasında. Asıl borçlu taraf değildir. Kefalet fer'î bir kişisel güvencedir."
+  },
+  {
+   "front_md": "Gelecekte doğacak borca kefil olunabilir mi?",
+   "back_md": "Evet; kefalet borç doğduğunda ya da koşul gerçekleştiğinde hüküm ifade eder (TBK m. 582/1)."
+  },
+  {
+   "front_md": "Ehliyetsizlik yüzünden sorumlu olmayan borçlu için kefil kime denk gelir?",
+   "back_md": "Eksikliği bilerek kefil olan kefalet hükümlerine göre sorumlu olur; bilmeyen sorumlu olmaz (TBK m. 582/2)."
+  },
+  {
+   "front_md": "Kefil önceden hangi haklardan feragat edemez?",
+   "back_md": "Kanunun bölümde tanıdığı haklardan, kanundan aksi anlaşılmadıkça (TBK m. 582/3)."
+  },
+  {
+   "front_md": "Kefalette el yazısıyla yazılması gereken üç unsur?",
+   "back_md": "Azamî miktar, kefalet tarihi ve müteselsil kefilse bu sıfat (TBK m. 583/1)."
+  },
+  {
+   "front_md": "Sonradan sorumluluğu artıran değişiklik hangi şekle bağlıdır?",
+   "back_md": "Kefalet için öngörülen şekle; uyulmazsa hüküm doğurmaz (TBK m. 583)."
+  },
+  {
+   "front_md": "Eş rızası ne zaman verilmeli?",
+   "back_md": "Sözleşmeden önce ya da en geç kurulduğu anda, yazılı olarak (TBK m. 584/1)."
+  },
+  {
+   "front_md": "Eş rızasının aranmadığı kefaletler?",
+   "back_md": "Ticari işletme sahibi, şirket ortağı/yöneticisinin işletme/şirketle ilgili; esnaf-sanatkârın mesleki; 5570 sayılı Kanun ve kooperatif kredileri (TBK m. 584/3)."
+  },
+  {
+   "front_md": "Adi kefilde alacaklı kefile ne zaman doğrudan gider?",
+   "back_md": "Kesin aciz belgesi, takibin imkânsızlaşması/güçleşmesi, iflas, konkordato mehli (TBK m. 585/1)."
+  },
+  {
+   "front_md": "Müteselsil kefilde ipotek ve taşınır rehni farkı?",
+   "back_md": "İpotek paraya çevrilmeden kefile gidilebilir; teslime bağlı taşınır rehni ve alacak rehni önce paraya çevrilir (TBK m. 586)."
+  },
+  {
+   "front_md": "Adi birlikte kefiller nasıl sorumludur?",
+   "back_md": "Kendi payı için adi kefil, diğerlerinin payı için kefile kefil gibi (TBK m. 587/1)."
+  },
+  {
+   "front_md": "Başka kefil varsayımı çökerse?",
+   "back_md": "Alacaklı varsayımı biliyorsa, diğer kefilin kefaleti hükümsüzse kefil borçtan kurtulur (TBK m. 587/3)."
+  },
+  {
+   "front_md": "Kefile kefil ile rücua kefil farkı?",
+   "back_md": "Kefile kefil, alacaklıya karşı kefilin borcunu; rücua kefil, kefilin borçludan rücu alacağını güvenceler (TBK m. 588)."
+  },
+  {
+   "front_md": "Kefalet ile garanti farkı?",
+   "back_md": "Kefalet fer'îdir (asıl borç sona erince kefil kurtulur, TBK m. 598/1); garanti bağımsızdır (TBK m. 128). Gerçek kişi kişisel güvence veriyorsa TBK m. 603."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
