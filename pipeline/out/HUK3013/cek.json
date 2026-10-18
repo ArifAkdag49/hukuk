@@ -1,0 +1,711 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kıymetli Evrak",
+ "topic_index": 6,
+ "slug": "cek",
+ "title": "Çek: Şekil, Devir, İbraz ve Ödeme, Çizgili Çek, Ödememe ve Başvurma, Zamanaşımı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T12:08:07.584391+00:00",
+ "skill_refs": [
+  "kiymetli-evrak/cek-hukuku"
+ ],
+ "content": {
+  "summary_md": "- **Niteliği:** Çek, muhatabı **banka** olan, görüldüğünde ödenen bir havale senedidir (TTK m. 780, TTK m. 782, TTK m. 795). Poliçe ve bonodan farkı, vadeli kredi değil **ödeme aracı** olmasıdır. Kambiyo hukuku TTK'nın çek kısmında (780 ila 823. maddeler), banka ilişkisi ve karşılıksız çek yaptırımı 5941 sayılı Kanun'dadır.\n- **Unsurlar (TTK m. 780):** \"çek\" kelimesi, kayıtsız şartsız havale, muhatabın ticaret unvanı, ödeme yeri, düzenlenme tarihi ve yeri, düzenleyenin imzası, banka tarafından verilen seri numarası ve karekod. **Vade ve lehtar zorunlu değildir**; lehtarsız çek hamiline yazılı sayılır (TTK m. 785/3). Eksik unsur çeki geçersiz kılar; ödeme yeri ve düzenlenme yeri için tamamlayıcı kurallar vardır (TTK m. 781).\n- **Karşılık ve kabul:** Karşılık ya da çek anlaşması yoksa senet yine çektir (TTK m. 783/1). Karşılıksız bırakan düzenleyen, karşılıksız kalan bedelin **yüzde onunu** öder ve hamilin zararını tazmin eder (TTK m. 783/3). **Çek kabul edilemez**; kabul kaydı yazılmamış sayılır (TTK m. 784). Faiz şartı da yazılmamış sayılır (TTK m. 786).\n- **Devir:** Emre yazılı çek ciro ve teslimle, nama yazılı çek alacağın temliki ile, hamiline yazılı çek teslimle devredilir (TTK m. 785, TTK m. 788). Muhatabın cirosu batıldır, muhatap lehine ciro makbuz hükmündedir (TTK m. 789). Hamiline çeke ciro, çeki emre yazılı yapmaz (TTK m. 791). Çekte **rehin cirosu yapılamaz** (TTK m. 818/1-d).\n- **İbraz süreleri (TTK m. 796):** düzenlendiği yerde ödenecekse **10 gün**, başka yerde ödenecekse **1 ay**; yurt dışından aynı kıtada 1 ay, ayrı kıtalarda 3 ay. Süre, çekteki düzenlenme tarihinin ertesi günü başlar. 📌 Düzenleme tarihinden önce ibraz, 5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrasına göre **31/12/2028'e kadar geçersizdir**.\n- **Cayma:** Çekten cayma ancak ibraz süresi geçtikten sonra hüküm ifade eder (TTK m. 799).\n- **Çizgili çek ve hesaba geçirilecek çek (TTK m. 803-805):** Genel çizgili çek yalnız bankaya ya da muhatabın müşterisine ödenir.\n- **Başvurma ve zamanaşımı:** Ödememe, süresinde ibraz edilen çekte protesto, muhatabın tarihli beyanı veya takas odası beyanıyla tespit edilir (TTK m. 808); protesto ya da denk belirleme ibraz süresi geçmeden yapılır (TTK m. 809). Hamilin başvurma hakkı **ibraz süresinin bitiminden itibaren 3 yılda** zamanaşımına uğrar (TTK m. 814/1).\n- **5941 sayılı Kanun:** Banka, süresinde ibraz edilen her yaprak için kanunda öngörülen **sorumluluk tutarını** öder (5941 sayılı Kanun m. 3/3); karşılıksızdır işlemine sebebiyet verene **binbeşyüz güne kadar adli para cezası** ve çek düzenleme ve hesap açma yasağı uygulanır (5941 sayılı Kanun m. 5/1).",
+  "content_md": "## 1. Çek nedir, neden ayrı düşünülür?\n\n**Çek**, düzenleyenin bir bankaya (muhatap) bağlı olarak, kayıtsız şartsız belirli bir bedelin ödenmesi için verdiği havaledir. Poliçeye benzer: düzenleyen, muhatap ve lehtar olmak üzere üç taraf vardır. Fark şudur: poliçe ve bono ileri bir tarihte ödenecek bir **kredi aracıdır**, çek ise **görüldüğünde ödenen** bir ödeme aracıdır. TTK m. 795/1 çekin görüldüğünde ödeneceğini söyler ve buna aykırı kaydı yazılmamış sayar. Bu yüzden çekte vade yoktur; ileri tarih yazılsa bile hukuken çek görüldüğünde ödenir.\n\nKonunun iki kaynağı var: kambiyo hukuku yönü **TTK'nın çek kısmı (780 ila 823. maddeler)**, banka ilişkisi, çek defteri ve karşılıksız çekin yaptırımı **5941 sayılı Çek Kanunu**. Sınavda ikisini birlikte kurman beklenir.\n\n## 2. Zorunlu unsurlar\n\nTTK m. 780/1'e göre çek şunları içerir:\n\n1. Senet metninde **\"çek\" kelimesi**,\n2. Kayıtsız şartsız belirli bir bedelin ödenmesi için **havale**,\n3. **Muhatabın** ticaret unvanı,\n4. **Ödeme yeri**,\n5. **Düzenlenme tarihi ve yeri**,\n6. **Düzenleyenin imzası**,\n7. Banka tarafından verilen **seri numarası** (6728 sayılı Kanunla eklendi),\n8. **Karekod** (6728 sayılı Kanunla eklendi).\n\nBu unsurlardan birini içermeyen senet, kanunun saydığı tamamlayıcı kurallar dışında çek sayılmaz (TTK m. 781/1).\n\n> ⚠️ **Sınavda dikkat:** Poliçe ve bonodan farklı olarak çekte **vade ve lehtar zorunlu unsur değildir** (TTK m. 780 ile TTK m. 671 ve TTK m. 776'yı karşılaştır). Kimin lehine düzenlendiği gösterilmeyen çek hamiline yazılı çek hükmündedir (TTK m. 785/3).\n\nTamamlayıcı kurallar (TTK m. 781):\n- Çekte ödeme yeri yoksa, muhatabın unvanı yanında gösterilen yer ödeme yeridir. Birden fazla yer varsa ilk gösterilen, hiçbiri yoksa muhatabın merkezinin bulunduğu yer geçerlidir.\n- Düzenlenme yeri yazılmamışsa çek, düzenleyenin adı yanında yazılı yerde düzenlenmiş sayılır.\n- Yabancı banka tarafından bastırılan çekte seri numarası ve karekodun bulunmaması çekin geçerliliğini etkilemez.\n\n5941 sayılı Kanun m. 2 çek defterinin her yaprağına yazılacak bilgileri sayar (hesap numarası, şube, hesap sahibinin adı ve vergi kimlik numarası, basım tarihi gibi). Bu bilgilere aykırılık, **TTK'daki unsurlar bulunduğu sürece** çekin geçerliliğini etkilemez (5941 sayılı Kanun m. 2/9).\n\n## 3. Muhatap, karşılık ve kabul yasağı\n\nTürkiye'de ödenecek çekte muhatap ancak **banka** olabilir. Başka bir kişi üzerine düzenlenen senet çek değildir, yalnız **havale** hükmündedir (TTK m. 782). Çekin düzenlenebilmesi için normalde muhatapta düzenleyenin emrine ayrılmış bir **karşılık** ve **çek anlaşması** bulunmalıdır; ama bunlara uyulmaması senedin çek olarak geçerliliğini etkilemez (TTK m. 783/1).\n\nKarşılığın yalnız bir kısmı varsa muhatap o kısmı ödemekle yükümlüdür (TTK m. 783/2). Karşılığı kısmen veya tamamen bulunmayan çeki düzenleyen, karşılıksız kalan bedelin **yüzde onunu** ödemekle yükümlüdür ve ayrıca hamilin bu yüzden uğradığı zararı tazmin eder (TTK m. 783/3).\n\nÇekte **kabul işlemi yapılamaz**, çek üzerine yazılmış kabul kaydı yazılmamış sayılır (TTK m. 784). Bu yüzden çekte \"asıl borçlu\" yoktur: muhatap banka çek borçlusu değildir, düzenleyen de başvurma borçlusudur. Faiz şartı da yazılmamış sayılır (TTK m. 786).\n\n> **Örnek:** Ali, Y Bankası üzerine düzenlediği çekin arkasına bankaya \"kabul edilmiştir\" yazdırıyor. Bu kayıt hiç yazılmamış sayılır; Y Bankası bu kayıtla çek borçlusu olmaz (TTK m. 784).\n\n## 4. Kime düzenlenir, nasıl devredilir?\n\n| Çek türü | Devir yolu | Dayanak |\n|---|---|---|\n| Emre yazılı | Ciro + teslim | TTK m. 788/1 |\n| Nama yazılı (\"emre yazılı değildir\") | Alacağın temliki | TTK m. 788/2 |\n| Hamiline yazılı | Teslim | TTK m. 785 |\n\nBelirli bir kişi lehine düzenlenen çek, \"emre yazılı\" kaydı olmasa da emre yazılıdır (TTK m. 785/1-a). Belirli kişi lehine \"veya hamiline\" eklenmişse çek hamiline yazılı sayılır (TTK m. 785/2).\n\nCiro çekte de kayıtsız ve şartsız olmalıdır; şart yazılmamış sayılır. **Kısmi ciro ve muhatabın cirosu batıldır**, muhatap lehindeki ciro ise yalnız makbuz hükmündedir (muhatabın başka bir şubesi lehine olmadıkça; TTK m. 789). Çeki elinde bulunduran, hakkı kesintisiz ciro zincirinden anlaşılıyorsa son ciro beyaz olsa bile **yetkili hamildir** (TTK m. 790). Kötüniyetle ya da ağır kusurla iktisap etmedikçe yeni hamil çeki geri vermez (TTK m. 792).\n\n> ⚠️ **Sınavda dikkat:** Hamiline yazılı çeke yapılan ciro, çeki emre yazılı hâle **getirmez**; yalnız cirantayı başvurma hükümlerine göre sorumlu kılar (TTK m. 791).\n\nProtestodan veya ibraz süresinin geçmesinden sonra yapılan ciro yalnız **alacağın temliki** sonuçlarını doğurur (TTK m. 793/1). Çekin ödenmesi kısmen veya tamamen **aval** ile de güvence altına alınabilir; avalı muhatap veremez (TTK m. 794).\n\n### Rehin cirosu yasağı\n\nTTK m. 818/1-d, ciroya ilişkin poliçe hükümlerinden yalnız TTK m. 683-685'i çeke uygular. Rehin cirosunu düzenleyen **TTK m. 689'a atıf yoktur**. Bu nedenle çekte rehin cirosu yapılamaz. Yargıtay Hukuk Genel Kurulu, çekin arkasına \"bedeli teminat içindir\" yazılmasını rehin cirosu sayıp bu ciroyla çeki alan bankayı meşru hamil kabul etmemiştir. Gerekçe şudur: çek ödeme aracıdır, bedelinin kısa sürede ödenmesi beklenir, teminat olarak ciro edilmesi bu işlevle bağdaşmaz.\n\n## 5. İbraz: ne zaman, nereye?\n\nÇek, çekte yazılı **düzenlenme tarihinin ertesi günü başlayan** sürelerde muhataba ibraz edilmelidir (TTK m. 796):\n\n| Durum | Süre |\n|---|---|\n| Düzenlendiği yerde ödenecek | 10 gün |\n| Başka yerde ödenecek (Türkiye içi) | 1 ay |\n| Yurt dışında düzenlenmiş, aynı kıtada ödenecek | 1 ay |\n| Yurt dışında düzenlenmiş, ayrı kıtada ödenecek | 3 ay |\n\nSürenin son günü Pazar ya da başka bir tatil gününe gelirse süre, izleyen ilk iş gününe uzar; çekin ibrazı ve protestosu da ancak iş gününde yapılabilir (TTK m. 816). Çekin takas odasına ibrazı, ödeme için ibraz yerine geçer (TTK m. 798). 5941 sayılı Kanun m. 8/3'e göre, çeklerin fiziken ibraz edilmeden yalnız çek bilgileriyle takas odaları aracılığıyla elektronik ortamda muhatap bankaya gönderilmesi de takas odasına ibraz sayılır.\n\n> **Örnek:** Düzenleme yeri Ankara, ödeme yeri İstanbul olan ve üzerinde 4 Mart 2027 yazılı çekin ibraz süresi 5 Mart'ta başlar ve bir ay dolunca 4 Nisan 2027'de biter. O gün Pazar ise süre 5 Nisan Pazartesi günü sona erer (TTK m. 796, TTK m. 816).\n\n### İleri tarihli çek ve erken ibraz\n\nTTK m. 795/2'ye göre düzenlenme gününden önce ibraz edilen çek, ibraz günü ödenir. Ancak 📌 **5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrası** uyarınca **31/12/2028 tarihine kadar**, çekin üzerinde yazılı düzenleme tarihinden önce ödenmek için muhatap bankaya ibrazı **geçersizdir**. Tarih, önceki değişikliklerle ertelene ertelene bu noktaya gelmiştir. Ayrıca düzenleme tarihinden önce ibraz edilen çekin ödenmemesi hâlinde bununla ilgili hukuki takip yapılamaz; ileri tarihli çek için takip yapılabilmesi, çekin düzenleme tarihine göre kanuni ibraz süresi içinde bankaya ibraz edilip karşılıksızdır işlemine tabi tutulmasına bağlıdır (5941 sayılı Kanun m. 3/8).\n\n## 6. Çekten cayma\n\nÇekten cayma ancak **ibraz süresi geçtikten sonra** hüküm ifade eder (TTK m. 799/1). Cayma yoksa muhatap, ibraz süresi geçtikten sonra da çeki ödeyebilir (TTK m. 799/2). Süre içindeki cayma beyanı bankayı bağlamaz.\n\n> 💡 **Püf nokta:** Süre içinde cayma = etkisiz. Süre sonrası cayma = banka ödeyemez. Süre sonrası cayma yoksa = banka ödeyebilir.\n\nÇekin tedavüle çıkarılmasından sonra düzenleyenin ölümü, ehliyetini kaybetmesi ya da iflası çekin geçerliliğini etkilemez (TTK m. 800).\n\n## 7. Çizgili çek ve hesaba geçirilecek çek\n\nDüzenleyen ya da hamil, çekin ön yüzüne **iki paralel çizgi** çekerek çeki çizebilir (TTK m. 803).\n- **Genel çizgi:** çizgilerin arası boş veya \"banka\" yazılı. Muhatap bu çeki ancak **bir bankaya veya muhatabın müşterisine** öder (TTK m. 804/1).\n- **Özel çizgi:** çizgiler arasına belirli bir bankanın unvanı yazılı. Çek ancak o bankaya, o banka muhatapsa onun müşterisine ödenir (TTK m. 804/2).\n- Genel çizgi özel çizgiye dönüştürülebilir, tersi olmaz; çizgilerin silinmesi hükümsüzdür (TTK m. 803/5-6).\n\nÇekin ön yüzüne **\"hesaba geçirilecektir\"** yazılırsa çek nakden ödenmez, yalnız hesaba alacak kaydı, takas veya hesap nakli yoluyla kayden ödenir (TTK m. 805). Hükme aykırı ödeme yapan banka, çek bedelini aşmamak üzere zarardan sorumludur (TTK m. 804/5, TTK m. 805/3).\n\n## 8. Ödememe ve başvurma\n\nSüresinde ibraz edilen çek ödenmezse hamil, **cirantalara, düzenleyene ve diğer çek borçlularına** başvurabilir; ama önce ödememenin üç yoldan biriyle tespit edilmesi gerekir (TTK m. 808):\n\n1. **Protesto** (resmî belge),\n2. Muhatabın çek üzerine yazdığı, ibraz gününü de gösteren **tarihli beyan**,\n3. Takas odasının, çekin zamanında teslim edildiği hâlde ödenmediğini belirten **tarihli beyanı**.\n\nProtesto ya da denk belirleme **ibraz süresi geçmeden** yapılmalıdır; ibraz sürenin son gününde yapılmışsa izleyen iş gününde de yapılabilir (TTK m. 809). Hamil başvurma yoluyla ödenmemiş bedeli, ibraz gününden itibaren faizini, protesto ve ihbarname gibi giderleri ve bedelin binde üçünü aşmayan komisyonu isteyebilir (TTK m. 810).\n\nSahte veya tahrif edilmiş çeki ödeyen muhatap zarara katlanır; yalnız düzenleyene çek defterini iyi saklamamak gibi bir kusur yüklenebiliyorsa durum değişir (TTK m. 812). Yabancı para üzerinden düzenlenen çekte aynen ödeme şartı yoksa bedel ibraz günündeki değere göre ödenebilir (TTK m. 802).\n\n### Zamanaşımı\n\nHamilin cirantalara, düzenleyene ve diğer çek borçlularına karşı başvurma hakları **ibraz süresinin bitiminden itibaren üç yıl** geçmekle zamanaşımına uğrar (TTK m. 814/1). Çek borçlularından birinin diğerine karşı hakkı ise çeki ödediği ya da çekin dava yoluyla kendisine karşı ileri sürüldüğü tarihten itibaren üç yılda zamanaşımına uğrar (TTK m. 814/2). Başvurma hakkının zamanaşımına uğraması ya da kaybedilmesi hâlinde **sebepsiz zenginleşme** hükümleri devreye girer. TTK m. 818/1-m ile uygulanan TTK m. 732/4'e göre bu istem, çekin zamanaşımına uğradığı tarihi izleyen tarihten itibaren **bir yıl** geçmekle zamanaşımına uğrar.\n\n## 9. 5941 sayılı Kanun: banka ve düzenleyen açısından yaptırımlar\n\n**Bankanın ödeme yükümlülüğü.** Karşılığı bulunan çek hesabın bulunduğu bankanın herhangi bir şubesine ibraz edilince ödenir; başka şubeye ibrazda o şube karşılığı sorar (5941 sayılı Kanun m. 3/1). Karşılık yetmezse muhatap banka, süresinde ibraz edilen her çek yaprağı için, kanunda belirlenen **sorumluluk tutarını** (karşılık hiç yoksa bu tutarı, kısmen varsa kısmi karşılığa ilave edilecek tutarı) hamile ödemek zorundadır (5941 sayılı Kanun m. 3/3). Kanun metnindeki tutar her yıl Ocak ayında TCMB tarafından fiyat endeksindeki değişmeye göre belirlenir; güncel rakamı mutlaka Resmî Gazete'den kontrol et. Banka bu tutarı ödemekle birlikte karşılıksız kalan kısım için \"karşılıksızdır\" işlemi yapar (5941 sayılı Kanun m. 3/2). Çek, baskı tarihinden itibaren beş yıl içinde ibraz edilmezse bankanın bu sorumluluğu sona erer (5941 sayılı Kanun m. 3/9). Hamilin parasını geciktiren bankaya her gün için binde üç gecikme cezası uygulanır (5941 sayılı Kanun m. 3/7).\n\n**Düzenleyenin sorumluluğu.** Kanuni ibraz süresi içinde ibrazda karşılıksızdır işlemine sebebiyet veren kişi hakkında, hamilin şikâyeti üzerine her çek için **binbeşyüz güne kadar adli para cezası** verilir; ceza karşılıksız kalan miktardan az olamaz. Mahkeme ayrıca **çek düzenleme ve çek hesabı açma yasağına** hükmeder (5941 sayılı Kanun m. 5/1). Dava **icra mahkemesinde** görülür. Karşılığı bulundurmakla yükümlü kişi, hesap sahibidir; sahibi tüzel kişiyse mali işleri yürütmekle görevli yönetim organı üyesi sorumludur (5941 sayılı Kanun m. 5/2). Gerçek kişi, adına çek düzenlemesi için temsilci tayin edemez (5941 sayılı Kanun m. 5/3).\n\nKarşılıksız kalan bedeli, kanuni ibraz tarihinden itibaren ticari işlerde temerrüt faiziyle birlikte tamamen ödeyen kişi hakkında davanın düşmesine karar verilir (5941 sayılı Kanun m. 6/1). Tacir olmayanın tacire özgü çek defteriyle çek düzenlemesi de ayrı bir suçtur (5941 sayılı Kanun m. 7/1).\n\n## 10. Denetim şeması\n\n1. Senet çek mi? Unsurlar (TTK m. 780-781), muhatap banka mı (TTK m. 782)?\n2. Devir şekli (TTK m. 785, TTK m. 788) ve cironun geçerliliği (TTK m. 789-793, rehin yasağı).\n3. İbraz süresi ve erken ibraz yasağı (TTK m. 796, geçici 3. madde).\n4. Cayma, çizgi, hesaba geçirilecek kaydı (TTK m. 799, TTK m. 803-805).\n5. Ödememenin tespiti ve süresi (TTK m. 808-809).\n6. Başvurma kapsamı ve zamanaşımı (TTK m. 810, TTK m. 814).\n7. Banka sorumluluğu ve düzenleyenin cezai yaptırımı (5941 sayılı Kanun m. 3, 5).",
+  "critical_md": "- 📌 **Çekte vade ve lehtar zorunlu unsur değildir**; seri numarası ve karekod ise zorunludur (yabancı banka çekinde değil) (TTK m. 780, TTK m. 781/4).\n- 📌 **Muhatap ancak banka olabilir**; başka kişi üzerine çekilen senet yalnız havale hükmündedir (TTK m. 782).\n- 📌 **Çek kabul edilemez.** Kabul kaydı yazılmamış sayılır; faiz şartı da yazılmamış sayılır (TTK m. 784, TTK m. 786).\n- ⚠️ Karşılık veya çek anlaşması olmaması çeki **geçersiz kılmaz**; düzenleyen karşılıksız kalan bedelin %10'unu ve zararı öder (TTK m. 783).\n- 📌 **İbraz süreleri:** aynı yerde 10 gün, başka yerde 1 ay, yurt dışından aynı kıtada 1 ay, ayrı kıtada 3 ay; başlangıç düzenlenme tarihinin ertesi günü (TTK m. 796).\n- 📌 **Erken ibraz:** düzenleme tarihinden önce ibraz 31/12/2028'e kadar geçersizdir (5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrası).\n- 📌 **Çekten cayma** ancak ibraz süresi geçtikten sonra etkilidir (TTK m. 799).\n- ⚠️ **Hamiline yazılı çeke ciro** çeki emre yazılı yapmaz (TTK m. 791); **muhatabın cirosu batıl**, muhatap lehine ciro makbuz hükmündedir (TTK m. 789).\n- ⚠️ **Çekte rehin cirosu yoktur**: TTK m. 818/1-d, TTK m. 689'a atıf yapmaz.\n- 📌 **Genel çizgili çek** yalnız bankaya veya muhatabın müşterisine ödenir (TTK m. 804/1); \"hesaba geçirilecektir\" kaydı nakden ödemeyi önler (TTK m. 805).\n- 📌 **Ödememenin tespiti:** protesto, muhatabın tarihli beyanı veya takas odası beyanı; ibraz süresi geçmeden (TTK m. 808, TTK m. 809).\n- 📌 **Zamanaşımı:** başvurma hakları ibraz süresinin bitiminden itibaren 3 yıl (TTK m. 814/1); sebepsiz zenginleşme istemi bir yıl (TTK m. 732/4).\n- 📌 **Yaptırım:** hamilin şikâyeti üzerine icra mahkemesinde binbeşyüz güne kadar adli para cezası ve çek düzenleme ve çek hesabı açma yasağı (5941 sayılı Kanun m. 5/1).",
+  "doctrine_md": "### Çek ödeme aracı mı, kredi aracı mı?\n\nKanun, çekin görüldüğünde ödeneceğini ve buna aykırı kaydın yazılmamış sayılacağını söylediği için çek hukuken bir ödeme aracıdır. Uygulamada ise çek çoğu zaman ileri tarihle düzenlenip fiilen vadeli senet gibi kullanılır. Bu durum karşılıksız çek sorununu büyütmüştür. Kanun koyucunun cevabı, bir yandan erken ibraz yasağını geçici olarak sürdürmek, bir yandan karşılıksızdır işlemine karşı cezai yaptırım, banka sorumluluğu ve risk merkezine dayalı bir izleme sistemi kurmak olmuştur. Sınavda \"ödeme aracı\" niteliğini TTK m. 795/1 ile ilişkilendirmek yeterlidir.\n\n### Teminat amaçlı ciro: rehin cirosu mu, inançlı temlik mi?\n\nÇekte açık veya gizli rehin cirosu yapılamaz. Bankalar ise kredi teminatı olarak çeki sıkça ciro alır. Bu işlemin \"gizli rehin cirosu\" mu yoksa \"teminat amaçlı inançlı temlik cirosu\" mu sayılacağı tartışmalıdır. Yargıtay Hukuk Genel Kurulu'nun önceki kararlarında bu sorun gündeme gelmiş; son dönem kararlarından birinde, şekil itibarıyla temlik cirosu olan devrin teminat amacıyla yapılmasının inançlı temlik cirosu olarak geçerli olduğu ve bankanın meşru hamil sayılabileceği oy çokluğuyla kabul edilmiştir. Buna karşılık çekin arkasına \"bedeli teminat içindir\" gibi açıkça rehni gösteren bir ibare yazılmışsa, ciro rehin cirosu olarak değerlendirilir ve geçerli olmaz. Bu ayrım ispat bakımından önemlidir: ciro şekil itibarıyla temlikse, rehin amacıyla yapıldığını iddia eden borçlu bunu ispatla yükümlüdür.\n\n### Başvurma hakkı kaybı ve sebepsiz zenginleşme\n\nSüresinde ibraz edilmeyen ya da ödememesi gereği gibi tespit edilmeyen çekte hamil, kambiyo borçlularına karşı başvurma hakkını yitirir. Bu noktada TTK m. 818/1-m ile çeke uygulanan TTK m. 732 devreye girer. Zamanaşımı bakımından hangi tarihin esas alınacağı hesaplanırken ibraz süresinin bitiminden başlayan üç yıl ile onu izleyen bir yıl ayrı ayrı düşünülmelidir. Bu iki süre karıştırılırsa olay sorusunda yanlış sonuca varılır.",
+  "glossary": [
+   {
+    "term": "Çek",
+    "definition": "Muhatabı banka olan, görüldüğünde ödenen, kayıtsız şartsız belirli bir bedelin ödenmesi için verilmiş havale senedi (TTK m. 780, TTK m. 795)."
+   },
+   {
+    "term": "Muhatap",
+    "definition": "Çekte ödemeyi yapacak kişi; Türkiye'de ödenecek çekte ancak bir banka olabilir (TTK m. 782)."
+   },
+   {
+    "term": "Karşılık",
+    "definition": "Muhatap bankada düzenleyenin emrine ayrılmış tutar; yokluğu senedin çek olarak geçerliliğini etkilemez (TTK m. 783/1)."
+   },
+   {
+    "term": "Çek anlaşması",
+    "definition": "Düzenleyenin karşılık üzerinde çek düzenleyerek tasarruf edebileceğine dair banka ile düzenleyen arasındaki açık veya zımni anlaşma (TTK m. 783/1)."
+   },
+   {
+    "term": "İbraz",
+    "definition": "Çekin ödenmesi için muhataba ya da takas odasına sunulması; süreleri TTK m. 796'dadır."
+   },
+   {
+    "term": "Çizgili çek",
+    "definition": "Ön yüzüne iki paralel çizgi çekilmiş çek; genel çizgili olabilir ya da özel çizgili olabilir (TTK m. 803-804)."
+   },
+   {
+    "term": "Hesaba geçirilecek çek",
+    "definition": "Ön yüzüne 'hesaba geçirilecektir' yazılan, yalnız kayden ödenebilen çek (TTK m. 805)."
+   },
+   {
+    "term": "Çekten cayma",
+    "definition": "Düzenleyenin ödenmemesini bildirmesi; ancak ibraz süresi geçtikten sonra hüküm ifade eder (TTK m. 799)."
+   },
+   {
+    "term": "Karşılıksızdır işlemi",
+    "definition": "Muhatap bankanın, çekin karşılığının bulunmadığını çek üzerine yazması; hamilin başvurmasına temel olur (5941 sayılı Kanun m. 3)."
+   },
+   {
+    "term": "Çek düzenleme ve çek hesabı açma yasağı",
+    "definition": "Karşılıksızdır işlemine sebebiyet verene mahkemece uygulanan yasaklama (5941 sayılı Kanun m. 5/1)."
+   },
+   {
+    "term": "Sorumluluk tutarı",
+    "definition": "Banka, süresinde ibraz edilen karşılıksız her çek yaprağı için kanuna göre ödemekle yükümlü olduğu, TCMB'nin her yıl Ocak ayında güncellediği tutar (5941 sayılı Kanun m. 3/3)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "671",
+   "official_text": "1. Genel olarak\nMADDE 671- (1) Poliçe;\na) Senet metninde “poliçe” kelimesini, senet Türkçe’den başka bir dille yazılmışsa, o dilde poliçe karşılığı olarak kullanılan kelimeyi,\nb) Belirli bir bedelin ödenmesi hususunda kayıtsız ve şartsız havaleyi,\nc) Ödeyecek olan kişinin, “muhatabın” adını,\nd) Vadeyi,\ne) Ödeme yerini,\nf) Kime veya kimin emrine ödenecek ise onun adını,\ng) Düzenlenme tarihini ve yerini,\nh) Düzenleyenin imzasını,\niçerir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "683",
+   "official_text": "II - Cironun şekli\nMADDE 683- (1) Cironun poliçe veya poliçeye bağlı olan ve “alonj” denilen bir kâğıt üzerine yazılması ve ciranta tarafından imzalanması gerekir.\n(2) Lehine ciro yapılan kişinin ciroda gösterilmesine gerek olmadığı gibi, ciro, cirantanın sadece imzasından ibaret olabilir. Bu şekildeki cirolara “beyaz ciro” denir. Beyaz cironun poliçenin arkasına veya alonj üzerine yazılması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "684",
+   "official_text": "1. Devir işlevi\nMADDE 684- (1) Ciro ve zilyetliğin geçirilmesi ile poliçeden doğan bütün haklar devrolunur.\n(2) Ciro beyaz ciro ise hamil;\na) Ciroyu kendi adına veya diğer bir kişi adına doldurabilir,\nb) Poliçeyi yeniden beyaz olarak veya diğer belirli bir kişiye tekrar ciro edebilir,\nc) Beyaz ciroyu doldurmaksızın ve poliçeyi tekrar ciro etmeksizin poliçeyi başka bir kişiye verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "685",
+   "official_text": "2. Teminat işlevi\nMADDE 685- (1) Aksi şart edilmedikçe, ciranta poliçenin kabul edilmemesinden ve ödenmemesinden sorumludur.\n(2) Ciranta, poliçenin tekrar ciro edilmesini yasak edebilir; bu hâlde, senet sonradan kendilerine ciro edilmiş olan kişilere karşı sorumlu olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "689",
+   "official_text": "2. Rehin cirosu\nMADDE 689- (1) Ciro, “bedeli teminattır”, “bedeli rehindir” ibaresini veya rehnetmeyi belirten diğer herhangi bir kaydı içerirse, hamil, poliçeden doğan bütün hakları kullanabilir; fakat kendisi tarafından yapılan bir ciro ancak tahsil cirosu hükmündedir.\n(2) Poliçeden sorumlu olanlar, kendileriyle ciranta arasında doğrudan doğruya var olan ilişkilere dayanan def’ileri hamile karşı ileri süremezler; meğerki, hamil poliçeyi iktisap ederken bile bile borçlunun zararına hareket etmiş olsun.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "732",
+   "official_text": "B) Sebepsiz zenginleşme\nMADDE 732- (1) Zamanaşımı sebebiyle veya poliçeden doğan hakların korunması için gerekli olan işlemlerin yapılmasının ihmal edilmiş olması dolayısıyla, düzenleyenin veya kabul edenin poliçeden doğan yükümlülükleri düşmüş bile olsa, bunlar poliçenin hamiline karşı, onun zararına zenginleşmiş olabilecekleri kadar borçlu kalırlar.\n(2) Sebepsiz zenginleşmeden doğan istem, muhataba, yerleşim yerli bir poliçeyi ödeyecek olan kimseye ve düzenleyen, poliçeyi başka bir kişi veya ticari işletme hesabına düzenlemiş olduğu takdirde o kişiye veya ticari işletmeye karşı da ileri sürülebilir.\n(3) Poliçeden doğan borcu düşmüş olan cirantaya karşı böyle bir istem ileri sürülemez.\n(4) Zamanaşımı süresi, poliçenin zamanaşımına uğradığı tarihi takip eden tarihten itibaren bir yıldır; ispat yükü, sebepsiz zenginleşmediğini iddia edene aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "776",
+   "official_text": "A) Unsurlar\nMADDE 776- (1) Bono veya emre yazılı senet;\na) Senet metninde “bono” veya “emre yazılı senet” kelimesini ve senet Türkçe’den başka bir dille yazılmışsa, o dilde bono veya emre yazılı senet karşılığı olarak kullanılan kelimeyi,\nb) Kayıtsız ve şartsız belirli bir bedeli ödemek vaadini,\nc) Vadeyi,\nd) Ödeme yerini,\ne) Kime veya kimin emrine ödenecek ise onun adını,\nf) Düzenlenme tarihini ve yerini,\ng) Düzenleyenin imzasını,\niçerir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "780",
+   "official_text": "I - Unsurlar\nMADDE 780- (1) Çek;\na) Senet metninde “çek” kelimesini ve eğer senet Türkçe’den başka bir dille yazılmış ise o dilde “çek” karşılığı olarak kullanılan kelimeyi,\nb) Kayıtsız ve şartsız belirli bir bedelin ödenmesi için havaleyi,\nc) Ödeyecek kişinin, “muhatabın” ticaret unvanını,\nd) Ödeme yerini,\ne) Düzenlenme tarihini ve yerini,\nf) Düzenleyenin imzasını,\ng) (Ek: 15/7/2016-6728/70 md.) Banka tarafından verilen seri numarasını,\nh) (Ek: 15/7/2016-6728/70 md.) Karekodu,\niçerir.\n(2) (Ek fıkra : 15/7/2016-6728/70 md.) Çek alacaklıları, ellerinde bulunan çek ile çek hesabı sahibine ve bu çeki düzenleyenlere ilişkin verilere karekod aracılığıyla erişim sağlayabilir. Karekod ile;\na) Çek hesabı sahibinin adı, soyadı veya ticaret unvanı,\nb) Çek hesabı sahibinin tacir olması hâlinde, ticaret siciline tescil edilen yetkililerinin adı, soyadı veya ticaret unvanı,\nc) Çek hesabı sahibinin, çek hesabı bulunan toplam banka sayısı,\nd) Çek hesabı sahibine ait bankalara ibraz edilmemiş çek adedi ve tutarı,\ne) Düzenlenerek bankalara teslim edilen çeklerin adedi ve tutarı,\nf) Son beş yıl içerisinde ibrazında ödenen çeklerin adedi ve tutarı,\ng) İbraz edilen ilk çekin ibraz tarihi,\nh) İbraz edilen son çekin ibraz tarihi,\nı) İbrazında ödenen son çekin ibraz tarihi,\ni) Son beş yılda “karşılıksızdır” işlemi gören ve halen ödenmemiş çeklerin adedi ve tutarları,\nj) Son beş yılda “karşılıksızdır” işlemi gören ve sonradan ödenen çeklerin adedi ve tutarı,\nk) Son beş yılda “karşılıksızdır” işlemi gören son çekin ibraz tarihi,\nl) Çek hesabı sahibi hakkında çek hesabı açma yasağı bulunup bulunmadığı, varsa yasaklama kararının tarihi,\nm) Her bir çek yaprağı ile ilgili olarak tedbir kaydı olup olmadığı,\nn) Çek hesabı sahibi tacirse, iflasına karar verilip verilmediği, iflasına karar verilmişse kararın tarihi,\nçek hesabı sahibi ya da cirantanın rızası aranmaksızın üçüncü kişilerin erişimine sunulur.\n(3) (Ek fıkra : 15/7/2016-6728/70 md.) İkinci fıkrada belirtilen verilere ulaşılmasını sağlayacak karekod okutma ve bilgi paylaşım sistemi 5411 sayılı Kanunun ek 1 inci madde hükmü uyarınca kurulan Türkiye Bankalar Birliği Risk Merkezi tarafından oluşturulur. Risk Merkezi sistemdeki verileri, 5411 sayılı Kanunun ek 1 inci maddesinin on birinci fıkrası uyarınca bilgi alışverişini gerçekleştirdiği şirket ile paylaşmaya yetkilidir. Bu yetki kullanıldığı takdirde sistem bilgilerin paylaşıldığı şirket nezdinde kurulabilir.\n(4) (Ek fıkra : 15/7/2016-6728/70 md.) Çekte yer alacak MERSİS numarası ile karekodun tanım ve içerikleri ile bu maddenin uygulanmasına ilişkin usul ve esaslar Gümrük ve Ticaret Bakanlığı ile Hazine Müsteşarlığının müştereken çıkaracağı tebliğle belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "781",
+   "official_text": "II - Unsurların bulunmaması\nMADDE 781- (1) 780 inci maddede gösterilen unsurlardan birini içermeyen bir senet, ikinci, üçüncü ve dördüncü fıkralarda yazılı hâller dışında çek sayılmaz.[98]\n(2) Çekte açıklık yoksa, muhatabın ticaret unvanı yanında gösterilen yer ödeme yeri sayılır. Muhatabın ticaret unvanı yanında birden fazla yer gösterildiği takdirde, çek, ilk gösterilen yerde ödenir. Böyle bir açıklık ve başka bir kayıt da yoksa, çek muhatabın merkezinin bulunduğu yerde ödenir.\n(3) Düzenlenme yeri gösterilmemiş olan çek, düzenleyenin adı yanında yazılı olan yerde düzenlenmiş sayılır.\n(4) (Ek: 15/7/2016-6728/71 md.) Yabancı banka tarafından bastırılan çeklerde, 780 inci maddenin birinci fıkrasının (g) bendinde belirtilen banka tarafından verilen seri numarası ve/veya (h) bendinde belirtilen karekodun bulunmaması senedin çek olarak geçerliliğini etkilemez.\n[98] 15/7/2016 tarihli ve 6728 sayılı Kanunun 71 inci maddesi ile bu fıkrada yer alan “ikinci ve üçüncü” ibaresi “ikinci, üçüncü ve dördüncü” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "782",
+   "official_text": "1. Muhatap olma ehliyeti\nMADDE 782- (1) Türkiye’de ödenecek çeklerde muhatap ancak bir banka olabilir.\n(2) Diğer bir kişi üzerine düzenlenen çek yalnız havale hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "783",
+   "official_text": "2. Karşılık\nMADDE 783- (1) Bir çekin düzenlenmesi için, muhatabın elinde düzenleyenin emrine tahsis edilmiş bir karşılık bulunması ve düzenleyenin bu karşılık üzerinde çek düzenlemek suretiyle tasarruf hakkını haiz olacağına dair muhatapla düzenleyen arasında açık veya zımni bir anlaşma bulunması şarttır. Ancak, bu hükümlere uyulmaması hâlinde senedin çek olarak geçerliliği etkilenmez.\n(2) Düzenleyen, muhatap nezdinde çekin ancak bir kısım karşılığını hazır bulundurduğu takdirde, muhatap, bu tutarı ödemekle yükümlüdür.\n(3) Muhatap nezdinde karşılığı kısmen veya tamamen bulunmayan bir çek düzenleyen kişi, çekin karşılıksız kalan bedelinin yüzde onunu ödemekle yükümlü olduktan başka, hamilin bu yüzden uğradığı zararı da tazmin eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "784",
+   "official_text": "II - Kabul yasağı\nMADDE 784- (1) Çek hakkında kabul işlemi yapılamaz. Çek üzerine yazılmış bir kabul kaydı, yazılmamış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "785",
+   "official_text": "III - Kimin lehine çekilebileceği\nMADDE 785- (1) Çek;\na) “Emre yazılı” kaydıyla veya bu kayıt olmadan belirli bir kişiye,\nb) “Emre yazılı değildir” kaydıyla veya buna benzer bir kayıtla belirli bir kişiye,\nc) Veya hamile,\nödenmek üzere çekilebilir.\n(2) Belirli bir kişi lehine “veya hamiline” kelimelerinin veya buna benzer başka bir ibarenin eklenmesiyle düzenlenen çek, hamiline yazılı çek sayılır.\n(3) Kimin lehine düzenlendiği gösterilmemiş olan bir çek, hamiline yazılı çek hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "786",
+   "official_text": "IV - Faiz şartı\nMADDE 786- (1) Çekte öngörülen herhangi bir faiz şartı yazılmamış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "787",
+   "official_text": "V - Adresli ve yerleşme yerli çek\nMADDE 787- (1) Çek, muhatabın yerleşim yerinde veya başka bir yerde üçüncü bir kişi nezdinde ödenmek üzere düzenlenebilir. Ancak, bu üçüncü kişinin bir banka olması şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "788",
+   "official_text": "A) Devredilebilirlik\nMADDE 788- (1) Açıkça “emre yazılı” kaydıyla veya bu kayıt olmadan belirli bir kişi lehine ödenmesi şart kılınan bir çek, ciro ve zilyetliğin geçirilmesiyle devredilebilir.\n(2) “Emre yazılı değildir” kaydıyla veya buna benzer bir kayıtla belirli bir kişi lehine ödenmesi şart kılınan bir çek, ancak alacağın temlikiyle devredilebilir. Bu devir, alacağın temlikinin hukuki sonuçlarını doğurur.\n(3) Ciro, düzenleyen veya çekten dolayı borçlu olanlardan herhangi biri lehine de yapılabilir. Bu kişiler çeki yeniden ciro edebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "789",
+   "official_text": "I - Genel olarak\nMADDE 789- (1) Cironun kayıtsız ve şartsız olması gereklidir. Ciro, şartlara tabi tutulmuşsa bunlar yazılmamış sayılır.\n(2) Kısmi ciro ve muhatabın cirosu batıldır.\n(3) Hamiline yazılı ciro beyaz ciro hükmündedir.\n(4) Muhatap lehindeki ciro yalnız makbuz hükmündedir; meğerki, muhatabın birden fazla şubesi olup da, ciro, muhatap şubeden başka bir şube üzerine yazılmış bulunsun.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "790",
+   "official_text": "II - Hak sahipliğini ispat görevi\nMADDE 790- (1) Cirosu kabil bir çeki elinde bulunduran kişi, son ciro beyaz ciro olsa bile, kendi hakkı müteselsil ve birbirine bağlı cirolardan anlaşıldığı takdirde yetkili hamil sayılır. Çizilmiş cirolar yazılmamış hükmündedir. Bir beyaz ciroyu diğer bir ciro izlerse, bu son ciroyu imzalayan kişi çeki beyaz ciro ile iktisap etmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "791",
+   "official_text": "III - Hamiline yazılı çek üzerine yapılan ciro\nMADDE 791- (1) Hamiline yazılı bir çek üzerine yapılan ciro, cirantayı, başvurma hakkına dair hükümler gereğince sorumlu kılarsa da senedin niteliğini değiştirerek onu emre yazılı bir çek hâline getirmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "792",
+   "official_text": "C) Elden çıkan çek\nMADDE 792- (1) Çek, herhangi bir suretle hamilin elinden çıkmış bulunursa, ister hamile yazılı, ister ciro yoluyla devredilebilen bir çek söz konusu olup da hamil hakkını 790 ıncı maddeye göre ispat etsin, çek eline geçmiş bulunan yeni hamil ancak çeki kötüniyetle iktisap etmiş olduğu veya iktisapta ağır bir kusuru bulunduğu takdirde o çeki geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "793",
+   "official_text": "D) Protestodan ve ibraz süresinin geçmesinden sonraki ciro\nMADDE 793- (1) Protestonun düzenlenmesinden veya aynı nitelikte bir belirlemeden veya ibraz süresinin geçmesinden sonra yapılan ciro, ancak alacağın temlikinin sonuçlarını doğurur.\n(2) Tarihsiz bir cironun, protesto veya aynı nitelikte bir belirlemeden veya ibraz süresinin geçmesinden önce yapıldığı, aksi sabit oluncaya kadar karinedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "794",
+   "official_text": "I - Aval\nMADDE 794- (1) Çekte yazılı bedelin ödenmesi, kısmen veya tamamen aval ile teminat altına alınabilir.\n(2) Bu teminat, muhatap hariç olmak üzere üçüncü bir kişi veya çek üzerinde imzası bulunan bir kişi tarafından da verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "795",
+   "official_text": "II - Muacceliyet\nMADDE 795- (1) Çek görüldüğünde ödenir. Buna aykırı herhangi bir kayıt yazılmamış hükmündedir.\n(2) Düzenlenme günü olarak gösterilen günden önce ödenmek için ibraz olunan çek, ibraz günü ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "796",
+   "official_text": "1. Genel olarak\nMADDE 796- (1) Bir çek, düzenlendiği yerde ödenecekse on gün; düzenlendiği yerden başka bir yerde ödenecekse bir ay içinde muhataba ibraz edilmelidir.\n(2) Ödeneceği ülkeden başka bir ülkede düzenlenen çek, düzenlenme yeri ile ödeme yeri aynı kıtada ise bir ay ve ayrı kıtalarda ise üç ay içinde muhataba ibraz edilmelidir. Bu bakımdan, bir Avrupa ülkesinde düzenlenip de Akdenize sahili bulunan bir ülkede ödenecek olan ve aynı şekilde Akdenize sahili olan bir ülkede düzenlenip bir Avrupa ülkesinde ödenmesi gereken çekler aynı kıtada düzenlenmiş ve ödenmesi şart kılınmış sayılır.\n(3) Birinci ve ikinci fıkralarda yazılı süreler, çekte yazılı olan düzenlenme tarihinin ertesi günü başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "798",
+   "official_text": "3. Takas odası\nMADDE 798- (1) Çekin bir takas odasına ibrazı ödeme için ibraz yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "799",
+   "official_text": "1. Genel olarak\nMADDE 799- (1) Çekten cayma ancak ibraz süresi geçtikten sonra hüküm ifade eder.\n(2) Çekten cayılmamışsa, muhatap, ibraz süresinin geçmesinden sonra da çeki ödeyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "800",
+   "official_text": "2. Özel hâller\nMADDE 800- (1) Çekin tedavüle çıkarılmasından sonra, düzenleyenin ölümü, medenî haklarını kullanma ehliyetini kaybetmesi veya iflası çekin geçerliliğini etkilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "802",
+   "official_text": "VI - Yabancı ülke parasıyla ödenecek çek\nMADDE 802- (1) Çekin ödeme yerinde rayici olmayan bir para ile ödenmesi şart koşulmuş ise, bedeli, çekin ibraz günündeki değerine göre o ülke parası ile ödenebilir. İbraz edilmesine rağmen ödenmediği takdirde hamil, çek bedelinin dilerse ibraz dilerse ödeme günlerindeki rayiç değerine göre ülke parasıyla ödenmesini isteyebilir.\n(2) Yabancı ülke parasının değeri, ödeme yerindeki ticari teamüllere göre belirlenir. Bununla beraber düzenleyen, ödenecek tutarın çekte yazılı belirli bir kura göre hesap olunmasını şart koşabilir.\n(3) Düzenleyen, ödemenin belirli bir para ile yapılmasını (aynen ödemeyi) şart koşmuş ise birinci ve ikinci fıkra hükümleri uygulanmaz.\n(4) Çek bedeli, düzenlenme ve ödeme ülkelerinde aynı adı taşıyan ve fakat değerleri birbirinden farklı olan para ile gösterildiği takdirde, ödeme yerindeki para kastedilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "803",
+   "official_text": "1. Şekil ve şartları\nMADDE 803- (1) Bir çekin düzenleyeni veya hamili onu, 804 üncü maddede gösterilen sonuçları doğurmak üzere çizebilir.\n(2) Çekin çizilmesi, çekin ön yüzüne birbirine paralel iki çizgi çekilerek yapılır. Çek, genel veya özel olarak çizilebilir.\n(3) İki çizgi arasına hiçbir ibare konmamış veya “banka” kelimesi veya buna benzer bir ibare konmuş ise çek, genel olarak çizilmiş demektir.\n(4) İki çizgi arasına belirli bir bankanın ticaret unvanı yazılmış ise çek, özel olarak çizilmiş demektir.\n(5) Genel çizgi özel çizgiye dönüştürülebilir; özel çizgi genel çizgiye dönüştürülemez.\n(6) Çizgilerin veya zikredilen bankanın ticaret unvanının silinmesi hükümsüz sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "804",
+   "official_text": "2. Hükümleri\nMADDE 804- (1) Genel olarak çizilen bir çek, muhatap tarafından ancak bir bankaya veya muhatabın bir müşterisine ödenebilir.\n(2) Özel olarak çizilen bir çek, muhatap tarafından ancak ticaret unvanı gösterilen bankaya veya bu banka muhatap ise onun müşterisine ödenebilir. Ticaret unvanı gösterilen banka, bedelin tahsili işini diğer bir bankaya bırakabilir.\n(3) Bir banka, çizgili çeki, ancak müşterilerinden veya diğer bir bankadan iktisap edebilir. Aynı şekilde onu, sözü geçen kişilerden başkaları hesabına tahsil edemez.\n(4) Çek, birden fazla özel olarak çizilmiş ise, muhatabın bu çeki ödeyebilmesi için çekin ikiden fazla çizilmemiş olması ve çizgilerden birinin, çekin bir takas odası tarafından tahsil edilebilmesi amacı ile yapılmış olması şarttır.\n(5) Birinci ilâ dördüncü fıkralara aykırı hareket eden muhatap veya banka, çek bedelini aşmamak üzere, oluşan zarardan sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "805",
+   "official_text": "1. Genel olarak\nMADDE 805- (1) Bir çekin düzenleyeni veya hamili çekin ön yüzüne “hesaba geçirilecektir” kaydını veya buna benzer bir ibareyi yazarak çekin nakden ödenmesini önleyebilir. Bu takdirde çek, muhatap tarafından ancak hesaba alacak kaydı, takas, hesap nakli suretiyle kayden ödenebilir. Bu kayıtlar ödeme yerine geçer.\n(2) “hesaba geçirilecektir” kaydının çizilmesi geçersizdir.\n(3) Birinci ve ikinci fıkralara aykırı hareket eden muhatap, çekin bedelini aşmamak üzere, zarardan sorumludur.\n2. Hamilin hakları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "808",
+   "official_text": "I - Hamilin başvurma hakları\nMADDE 808- (1) Zamanında ibraz edilmiş olan çekin ödenmemiş olduğu ve ödememe hâli;\na) Resmî bir belge, “protesto” ile,\nb) Muhatap tarafından, ibraz günü de gösterilmek suretiyle, çekin üzerine yazılmış olan tarihli bir beyanla,\nc) Bir takas odasının, çek zamanında teslim edildiği hâlde ödenmediğini tespit eden tarihli bir beyanıyla,\nsabit bulunduğu takdirde hamil; cirantalar, düzenleyen ve diğer çek borçlularına karşı başvurma haklarını kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "809",
+   "official_text": "II - Protesto\nMADDE 809- (1) Protesto veya buna denk olan belirleme, ibraz süresinin geçmesinden önce yapılmalıdır.\n(2) İbraz, sürenin son gününde yapılırsa, protesto veya buna denk belirleme, izleyen iş gününde de yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "810",
+   "official_text": "III - Başvurma hakkının kapsamı\nMADDE 810- (1) Hamil, başvurma yolu ile;\na) Çekin ödenmemiş olan bedelini,\nb) İbraz gününden itibaren bu tutarın faizini,\nc) Protestonun veya buna denk olan belirlemenin ve gönderilen ihbarnamelerin giderleri ile diğer giderleri ve\nd) Çek bedelinin binde üçünü aşmamak üzere komisyon ücretini,\nisteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "812",
+   "official_text": "A) Sahte veya tahrif edilmiş çek\nMADDE 812- (1) Sahte veya tahrif edilmiş bir çeki ödemiş olmasından doğan zarar muhataba ait olur; meğerki, senette düzenleyen olarak gösterilen kişiye, kendisine verilen çek defterini iyi saklamamış olması gibi bir kusurun yüklenmesi mümkün olsun.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "813",
+   "official_text": "B) Çekin birden fazla nüsha olarak düzenlenmesi\nMADDE 813- (1) Hamiline yazılı çekler hariç olmak üzere; bir ülkede düzenlenip de diğer bir ülkede veya aynı ülkenin denizaşırı bir kısmında ödenmesi şart olan ve aksine, bir ülkenin denizaşırı bir kısmında düzenlenip o ülkede ödenmesi şart olan ya da aynı ülkenin denizaşırı olan aynı kısmında yahut çeşitli kısımlarında düzenlenip ödenmesi şart olan her çek, birbirinin aynı olarak çeşitli nüshalar hâlinde düzenlenebilir. Bu nüshalar senet metninde teselsül eden sıra numaraları ile gösterilir. Aksi takdirde her nüsha ayrı bir çek sayılır.\n[99] 31/1/2012 tarihli ve 6273 sayılı Kanunun 8 inci maddesiyle, bu maddenin birinci ve ikinci fıkralarında yer alan “altı ay” ibareleri “üç yıl” şeklinde değiştirilmiş ve metne işlenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "814",
+   "official_text": "MADDE 814- (1) Hamilin, cirantalarla düzenleyene ve diğer çek borçlularına karşı sahip olduğu başvurma hakları, ibraz süresinin bitiminden itibaren üç yıl geçmekle zamanaşımına uğrar.\n(2) Çek borçlularından birinin diğerine karşı sahip olduğu başvurma hakları, bu çek borçlusunun çeki ödediği veya çekin dava yolu ile kendisine karşı ileri sürüldüğü tarihten itibaren üç yıl geçmekle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "816",
+   "official_text": "I - Tatil günleri\nMADDE 816- (1) Bir çekin ibrazı ve protestosu, ancak bir iş gününde yapılabilir.\n(2) Çeke ilişkin işlemler ve özellikle ibraz ve protesto veya buna eş değer belirleme işlemlerinin yapılması için kanunla belirli sürenin son günü, pazara veya diğer bir tatil gününe rastladığı takdirde, bu süre onu izleyen ilk iş gününü kapsayacak kadar uzar. Aradaki tatil günleri süre hesabına dâhildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "818",
+   "official_text": "F) Uygulanacak hükümler\nMADDE 818- (1) Poliçeye ait aşağıdaki hükümler çek hakkında da uygulanır:\na) Düzenleyenin bizzat kendi emrine, kendi üzerine ve üçüncü kişi hesabına düzenlediği poliçeler hakkındaki 673 üncü madde.\nb) Poliçede gösterilen bedeller arasındaki farklara ilişkin 676 ncı madde.\nc) Borçlanmaya ehil olmayan kişilerin imzasına, yetkisiz imzaya, düzenleyenin sorumluluğuna ve açık poliçeye ait 677 ilâ 680 inci maddeler.\nd) Ciro hakkındaki 683 ilâ 685 inci maddeler.\ne) Poliçeye ait def’ilere ilişkin 687 nci madde.\nf) Vekâleten yapılan cirodan doğan haklara dair 688 inci madde.\ng) Avalin şekil ve hükümleri hakkındaki 701 ve 702 nci maddeler.\nh) Makbuz istemek hakkına ve kısmen ödemeye dair 709 uncu madde.\nı) Protestoya ait 715 ilâ 717 nci ve 719 ilâ 721 inci maddeler.\ni) “Protestosuz” kaydına dair 722 nci madde.\nj) İhbar hakkındaki 723 üncü madde.\nk) Poliçe borçlularının müteselsil sorumluluğuna dair 724 üncü madde.\nl) Poliçenin ödenmesi hâlinde başvurma hakkına ve poliçenin, protestonun ve makbuzun kendisine verilmesini istemek hakkına dair 726 ve 727 nci maddeler.\nm) Sebepsiz zenginleşmeden doğan haklara dair 732 nci madde.\nn) Poliçe karşılığının devrine dair 733 üncü madde.\no) Poliçe nüshaları arasındaki ilişkiye ait 744 üncü madde.\nö) Değişiklikler hakkındaki 748 inci madde.\np) Zamanaşımının kesilmesine dair 750 ve 751 inci maddeler.\nr) Atıfet sürelerinin kabul olunamayacağına, poliçeye ilişkin işlemlerin yapılması gereken yer ile elle imzaya dair 754 ilâ 756 ncı maddeler.\ns) İptal hakkındaki 757 ilâ 763 üncü maddelerle 764 üncü maddenin birinci fıkrası.\nş) Ehliyete, poliçe ve bonolara ilişkin hakların korunması ile başvurma hakkının kullanılması için gerekli işlemlere ilişkin kanun ihtilaflarına dair 766, 768 ve 769 uncu maddeler.\n(2) 722 nci maddenin birinci ve üçüncü fıkralarıyla 723 üncü maddenin birinci fıkrası ve 727 nci madde hükümlerinin çeklere uygulanmasında, protesto yerine 808 inci maddenin birinci fıkrasının (b) ve (c) bentleri gereğince belirleme yapılması da geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "ÇEK KANUNU",
+   "law_no": "5941",
+   "article_no": "2",
+   "official_text": "Bankanın araştırma yükümlülüğü, çek hesapları ve çek defterleri\nMADDE 2 – (1) Bankalar, çek hesabı açılması ile ilgili olarak bu Kanunla kendilerine verilen görev ve yükümlülükleri yerine getirirken, çek hesabı açtırmak isteyenin yasaklı olup olmadığını bu Kanun hükümlerine göre araştırırlar; ayrıca ilgili kişinin ekonomik ve sosyal durumunun belirlenmesinde gerekli basiret ve özeni gösterirler.\n(2) Bankalar, çek hesabı açtırmak isteyenlerin yasaklılık durumuna ilişkin Risk Merkezi ile adli sicil kayıtlarını ve açık kimliklerini saptamak için fotoğraflı nüfus cüzdanı, pasaport veya sürücü belgesi örneklerini, yerleşim yeri belgelerini, vergi kimlik numaralarını, tacir olanların ayrıca ticaret sicili kayıtlarını, esnaf ve sanatkâr olanların ise esnaf ve sanatkâr sicili kayıtlarını almak ve çek hesabının kapatılması hâlinde bunları, hesabın kapatıldığı tarihten itibaren on yıl süreyle saklamakla yükümlüdür. Yerleşim yeri yurt dışında bulunan kişiler, bankaya kendileri ile ilgili olarak Türkiye’de bir adres bildirmek zorundadır. Çekin karşılığının tamamen veya kısmen bulunmaması hâlinde, çek düzenleyenin bankaca bilinen adresleri, talebi hâlinde hamile verilir.[1][2]\n(3) Çek hesabı ilgilinin, vekilin veya yasal temsilcisinin imzası olmadan açılamaz. Çek hesabı açılmasını veya mevcut çek hesabından çek defteri verilmesini isteyen kişi, her defasında tacir veya esnaf ve sanatkâr olup olmadığı ve kendisi hakkında çek düzenleme ve çek hesabı açma yasağı bulunmadığı hususunda bankaya yazılı beyanda bulunur. Tüzel kişiler adına verilecek beyannamede ayrıca, tüzel kişinin yönetim organında görev yapan, temsilcisi olan veya imza yetkilisi olan kişilerin çek düzenleme ve çek hesabı açma yasağı bulunmadığı belirtilir. (Ek cümleler: 15/7/2016-6728/61 md.) Muhatap banka; gerçek veya tüzel kişi adına açılması talep olunan çek hesaplarında bunların, sermaye şirketlerinde ayrıca yönetim organında görev yapanlar ile ticaret siciline tescil edilen şirket yetkililerinin çek hesabı açma yasağının bulunmadığı hususunu kontrol ederek, yasağın bulunmadığına ilişkin sorgulama sonucunu muhafaza eder. Bankalar çek hesabı açtıkları kişiler ile çek hesabı sahibi tüzel kişi ise hesap açılış tarihi itibarıyla tüzel kişi tarafından bildirilen işlem yetkililerini 13/1/2011 tarihli ve 6102 sayılı Türk Ticaret Kanununun 780 inci maddesinin üçüncü fıkrasında belirtilen sisteme kaydeder.\n(4) Hakkında çek düzenleme ve çek hesabı açma yasağı kararı bulunan gerçek kişinin, yönetim organında görev yaptığı veya ticaret siciline tescil edilen yetkilisi olduğu tüzel kişiye çek defteri verilmez.[3]\n(5) Çek defterleri bankalarca bastırılır.\n(6) Çek defterlerinin baskı şeklini belirleyen esaslar, Maliye Bakanlığı, Türkiye Bankalar Birliği ve Türkiye Katılım Bankaları Birliğinin görüşü alınarak, Türkiye Cumhuriyet Merkez Bankasınca Resmî Gazete’de yayımlanacak tebliğle düzenlenir. Tacir olan ve tacir olmayan kişilere verilecek çekler ile hamiline düzenlenecek çekler, açıkça ayırt edilebilecek biçimde bastırılır. Hamiline düzenlenecek çekler için sadece bu çeklere ilişkin işlemlerin işlendiği ayrı çek hesapları açılır. Hamiline düzenlenecek çeklerde, hamiline çek defteri yapraklarının kullanılması gerekir. Çek yapraklarının üzerinde “hamiline” ibaresi matbu olarak yer alır.\n(7) Çek defterinin her bir yaprağına;\na) Çek hesabının numarası,\nb) Çek hesabının bulunduğu banka şubesinin adı,\nc) Çek hesabı sahibi gerçek kişinin adı ve soyadı, tüzel kişinin adı,\nç) Çek hesabı sahibi gerçek veya tüzel kişinin vergi kimlik numarası,\nd) (Ek: 31/1/2012-6273/1 md.) Çekin basıldığı tarih,\ne) (Ek: 15/7/2016-6728/61 md.) Çek hesabı sahibi gerçek kişi ise Türkiye Cumhuriyeti kimlik numarası; tüzel kişilerde ise varsa Merkezi Sicil Kayıt Sistemi (MERSİS) numarası,\nf) (Ek: 15/7/2016-6728/61 md.) Çek hesabı sahibi ile düzenleyenin farklı kişiler olması hâlinde, ayrıca düzenleyenin Türkiye Cumhuriyeti kimlik numarası,\nyazılır.\n(8) Tüzel kişi adına çek düzenleyen kişinin adı ve soyadı, düzenlenen çek üzerine açıkça yazılır.\n(9) Türk Ticaret Kanunundaki unsurları taşıması kaydıyla, düzenlenen çekin bu maddede yer alan koşullara aykırı olması çekin geçerliliğini etkilemez.\n(10) Çek hesabı, ancak sahibinin veya yasal temsilcisinin yazılı talebi ya da mevduat veya katılım fonu zamanaşımı süresinin dolması üzerine kapatılabilir. Çek hesabı kapatıldıktan sonra, üzerinde yazılı bulunan düzenleme tarihine göre kanunî ibraz süresi içinde ibraz edilen çekler karşılıksızdır işlemine tabi tutulur.\n(11) Esnaf ve sanatkâr odalarına kayıtlı olanlardan, tacir kişilere özgü çek hesabı açtıranlar hakkında bu Kanunun tacirlere ilişkin hükümleri uygulanır.\n[1] 31/1/2012 tarihli ve 6273 sayılı Kanunun 1 inci maddesiyle, bu fıkrada yer alan “adlî sicil” ibaresi “Türkiye Cumhuriyet Merkez Bankası” şeklinde değiştirilmiş ve metne işlenmiştir.\n[2] 15/7/2016 tarihli ve 6728 sayılı Kanunun 61 inci maddesi ile bu fıkrada yer alan “Türkiye Cumhuriyet Merkez Bankası kayıtlarını,” ibaresi “Risk Merkezi ile adli sicil kayıtlarını ve” şeklinde, değiştirilmiştir.\n[3] 15/7/2016 tarihli ve 6728 sayılı Kanunun 61 inci maddesi ile bu fıkrada yer alan “yaptığı, temsilcisi veya imza” ibaresi “yaptığı veya ticaret siciline tescil edilen” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5941&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "ÇEK KANUNU",
+   "law_no": "5941",
+   "article_no": "3",
+   "official_text": "İbraz, ödeme, çekin karşılıksız olduğunun tespiti ve gecikme cezası\nMADDE 3 – (1) Karşılığı bulunan çek, hesabın bulunduğu muhatap bankanın herhangi bir şubesine ibraz edildiğinde hamilin varsa vergi kimlik numarası saptandıktan sonra ödenir. Ancak çek, hesabın bulunduğu şubeden başka bir şubeye ibraz edildiğinde, o şubece karşılığı sorulmak suretiyle ödenir.\n(2) “Karşılıksızdır” işlemi, muhatap bankanın hamile kanunen ödemekle yükümlü olduğu miktarın dışında, çek bedelinin karşılanamayan kısmıyla sınırlı olarak yapılır.\n(3) Muhatap banka, ibraz eden düzenleyici dışındaki hamile, süresinde ibraz edilen her çek yaprağı için;[4]\na) Karşılığının hiç bulunmaması hâlinde,\n1) Çek bedeli bin Türk Lirası veya üzerinde ise bin Türk Lirası,\n2) Çek bedeli bin Türk Lirasının altında ise çek bedelini,\nb) Karşılığının kısmen bulunması hâlinde,\n1) Çek bedeli bin Türk Lirası veya altında ise, çek bedelini aşmamak koşuluyla, kısmî karşılığı bin Türk Lirasına tamamlayacak bir miktarı,\n2) Çek bedeli bin Türk Lirasının üzerinde ise, çek bedelini aşmamak koşuluyla, kısmî karşılığa ilave olarak bin Türk Lirasını,\nödemekle yükümlüdür. Bu husus, hesap sahibi ile muhatap banka arasında çek defterinin teslimi sırasında yapılmış olan dönülemeyecek bir gayri nakdî kredi sözleşmesi hükmündedir. Bu fıkradaki miktar, Türkiye İstatistik Kurumu tarafından yayımlanan fiyat endekslerindeki yıllık değişmeler göz önünde tutularak Türkiye Cumhuriyet Merkez Bankası tarafından her yıl Ocak ayında belirlenir ve Resmî Gazete’de yayımlanır.\n(4) Hamilin talepte bulunması hâlinde, karşılıksızdır işlemi; çekin arka yüzüne tahsil için bankaya ibraz edildiği tarih, hesap durumu, bankanın yükümlülüğü çerçevesinde ödediği miktar ve ibraz eden gerçek kişinin adı ve soyadı yazılmak, bu kişinin tüzel kişi adına bedeli tahsil etmesi hâlinde bu husus belirtilmek ve bu kişi ile birlikte banka yetkilisi tarafından imzalanmak suretiyle yapılır. Banka tarafından ödenen miktar düşüldükten sonra karşılıksız kalan tutar açıkça belirtilir. Hamilin imzalamaktan kaçınması hâlinde, karşılıksızdır işlemi yapılmaz.\n(5) Muhatap bankanın üçüncü fıkraya göre ödemekle yükümlü olduğu tutar dahil, kısmî ödemenin hamil tarafından kabul edilmemesi hâlinde, ikinci fıkra hükmüne göre karşılıksızdır işlemi yapılır; ibraz tarihi ile ödememe nedeni çekin üzerine yazılır ve çek, üzerine imzası alınarak hamiline geri verilir; ön ve arka yüzünün fotokopisi banka tarafından saklanır. Çek hesabında hiç karşılığın bulunmaması ve hamilin sadece muhatap bankanın üçüncü fıkraya göre ödemekle yükümlü olduğu tutarın ödenmesini talep etmesi hâlinde de bu fıkra hükmüne göre işlem yapılır.\n(6) Muhatap bankanın üçüncü fıkraya göre ödemekle yükümlü olduğu tutar dahil kısmî ödeme hâlinde, çekin ön ve arka yüzünün onaylı fotokopisi ücretsiz olarak hamile verilir. Çek hamili, bu fotokopiyle müracaat borçlularına veya kambiyo senetleri hakkındaki takip usullerine başvurabileceği gibi, icra mahkemesine şikâyette bulunurken dilekçesine bu fotokopiyi ekleyebilir ve bunu icra daireleri ile mahkemelerde ispat aracı olarak kullanabilir. Mahkeme veya icra dairesinin istemi hâlinde çekin aslı bu mercilere gönderilir.[5][6]\n(7) Banka;\na) Çekin karşılığının hesapta bulunmasına rağmen hamiline ödenmesinin geciktirilmesi,\nb) Kanunen ödemekle yükümlü olduğu miktarın hamile ödenmesinin geciktirilmesi,\nhâllerinde, çek hamiline, her geçen gün için binde üç gecikme cezası öder. Bu hâllerde 4/12/1984 tarihli ve 3095 sayılı Kanuni Faiz ve Temerrüt Faizine İlişkin Kanun hükümleri uygulanmaz.\n(8) Üzerinde yazılı bulunan düzenleme tarihinden önce ibraz edilen çekin karşılığının Türk Ticaret Kanununun 707 nci maddesi uyarınca kısmen veya tamamen ödenmemiş olması hâlinde, bu çekle ilgili olarak hukukî takip yapılamaz. İleri düzenleme tarihli çekle ilgili olarak hukukî takip yapılabilmesi için, çekin üzerindeki düzenleme tarihine göre kanunî ibraz süresi içinde bankaya ibraz edilmesi ve karşılıksızdır işlemine tabi tutulması şarttır.\n(9) (Ek: 31/1/2012-6273/2 md.) Çekin, üzerinde yazılı baskı tarihinden itibaren beş yıl içinde ibraz edilmemesi hâlinde, muhatap bankanın üçüncü fıkraya göre ödemekle yükümlü olduğu tutara ilişkin sorumluluğu sona erer.\n(10) (Ek: 15/7/2016-6728/62 md.) Lehine karekodlu çek düzenlenen lehdar, teslim aldığı çeki Türk Ticaret Kanununun 780 inci maddesinin üçüncü fıkrasında belirtilen sisteme kaydeder. Karekodlu çekin sisteme kaydedildiği tarihten sonra çek düzenleyen tüzel kişinin temsilcilerinde meydana gelen değişiklikler, çek hesabı sahibi tüzel kişinin sorumluluğunu ortadan kaldırmaz.\n[4] 31/1/2012 tarihli ve 6273 sayılı Kanunun 2 nci maddesiyle, bu maddenin üçüncü fıkrasında yer alan “altıyüz” ibareleri “bin” şeklinde değiştirilmiştir.\n[5] 31/1/2012 tarihli ve 6273 sayılı Kanunun 2 nci maddesiyle, bu fıkrada yer alan “şikâyette” ibaresi “talepte” şeklinde değiştirilmiştir.\n[6] 15/7/2016 tarihli ve 6728 sayılı Kanunun 62 nci maddesi ile bu fıkrada yer alan “Cumhuriyet Başsavcılığına talepte” ibaresi “icra mahkemesine şikâyette” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5941&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "ÇEK KANUNU",
+   "law_no": "5941",
+   "article_no": "5",
+   "official_text": "MADDE 5 – (1) (Değişik: 15/7/2016-6728/63 md.) Üzerinde yazılı bulunan düzenleme tarihine göre kanuni ibraz süresi içinde ibrazında, çekle ilgili olarak “karşılıksızdır” işlemi yapılmasına sebebiyet veren kişi hakkında, hamilin şikâyeti üzerine, her bir çekle ilgili olarak, binbeşyüz güne kadar adli para cezasına hükmolunur. Ancak, hükmedilecek adli para cezası; çek bedelinin karşılıksız kalan miktarı, (…)[8] az olamaz. Mahkeme ayrıca, çek düzenleme ve çek hesabı açma yasağına; bu yasağın bulunması hâlinde, çek düzenleme ve çek hesabı açma yasağının devamına hükmeder. Yargılama sırasında da resen mahkeme tarafından koruma tedbiri olarak çek düzenleme ve çek hesabı açma yasağına karar verilir. Çek düzenleme ve çek hesabı açma yasağı, çek hesabı sahibi gerçek veya tüzel kişi, bu tüzel kişi adına çek keşide edenler ve karşılıksız çekin bir sermaye şirketi adına düzenlenmesi durumunda ayrıca yönetim organı ile ticaret siciline tescil edilen şirket yetkilileri hakkında uygulanır. Koruma tedbiri olarak verilen çek düzenleme ve çek hesabı açma yasağı kararlarına karşı yapılan itirazlar bakımından 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 353 üncü maddesinin birinci fıkrası hükmü uygulanır. Bu suçtan dolayı açılan davalar icra mahkemesinde görülür ve İcra ve İflas Kanununun 347, 349, 350, 351, 352 ve 353 üncü maddelerinde düzenlenen yargılama usulüne ilişkin hükümler uygulanır. Bu davalar çekin tahsil için bankaya ibraz edildiği veya çek hesabının açıldığı banka şubesinin bulunduğu yer ya da hesap sahibinin yahut şikâyetçinin yerleşim yeri mahkemesinde görülür.\n(2) (Mülga: 31/1/2012-6273/3 md.; Yeniden düzenleme: 15/7/2016-6728/63 md.) Birinci fıkra hükmüne göre çek karşılığını ilgili banka hesabında bulundurmakla yükümlü olan kişi, çek hesabı sahibidir. Çek hesabı sahibinin tüzel kişi olması hâlinde, bu tüzel kişinin mali işlerini yürütmekle görevlendirilen yönetim organının üyesi, böyle bir belirleme yapılmamışsa yönetim organını oluşturan gerçek kişi veya kişiler, çek karşılığını ilgili banka hesabında bulundurmakla yükümlüdür. Birinci fıkra uyarınca hakkında çek düzenleme ve çek hesabı açma yasağı kararı verilenler, yasaklılıkları süresince sermaye şirketlerinin yönetim organlarında görev alamazlar. Ancak, hakkında yasaklama kararı verilenlerin mevcut organ üyelikleri görev sürelerinin sonuna kadar devam eder.\n(3) Çek hesabı sahibi gerçek kişi, kendisi adına çek düzenlemek üzere bir başkasını temsilci veya vekil olarak tayin edemez. Gerçek kişinin temsilcisi veya vekili olarak çek düzenlenmesi hâlinde, bu çekten dolayı hukukî ve cezai sorumluluk çek hesabı sahibine aittir.[9][10]\n(4) (Mülga: 31/1/2012-6273/3 md.)\n(5) Çek düzenleme ve çek hesabı açma yasağı kararı ile ilgili olarak, herhangi bir adres değişikliği bildiriminde bulunulmadığı sürece ilgilinin çek hesabı açtırırken bildirdiği adrese 11/2/1959 tarihli ve 7201 sayılı Tebligat Kanununun 35 inci maddesine göre derhal tebligat çıkarılır. Adresin bankaya yanlış bildirilmesi veya fiilen terkedilmiş olması hâlinde de, tebligat yapılmış sayılır.\n(6) Hakkında çek düzenleme ve çek hesabı açma yasağı kararı verilmiş olan kişi, elindeki bütün çek yapraklarını ait olduğu bankalara iade etmekle yükümlüdür. Bu kişi adına yeni bir çek hesabı açılamaz.\n(7) Hakkında çek düzenleme ve çek hesabı açma yasağı kararı verilmiş olan kişi, kararın kendisine tebliğ edildiği tarihten itibaren on gün içinde, düzenlemiş bulunduğu ve henüz karşılığı tahsil edilmemiş olan çekleri, düzenleme tarihlerini, miktarlarını ve varsa lehtarlarını da göstermek suretiyle, muhatap bankaya liste hâlinde vermekle yükümlüdür.\n(8) (Değişik: 15/7/2016-6728/63 md.) Çek düzenleme ve çek hesabı açma yasağı kararına ilişkin bilgiler, güvenli elektronik imza ile imzalandıktan sonra, Adalet Bakanlığı Ulusal Yargı Ağı Bilişim Sistemi (UYAP) aracılığıyla MERSİS ile Risk Merkezine elektronik ortamda bildirilir. Hakkında çek hesabı açma yasağı kararı verilen kişiler, Risk Merkezi tarafından bankalara bildirilir. Bu bildirimler ile bankalara yapılacak duyurulara ilişkin esas ve usuller, Adalet Bakanlığının uygun görüşü alınarak Risk Merkezi tarafından belirlenir.\n(9) (Mülga: 31/1/2012-6273/3 md.; Yeniden düzenleme: 15/7/2016-6728/63 md.) Karşılıksız kalan bir çekle ilgili olarak yapılan yargılama neticesinde mahkeme tarafından beraat, ceza verilmesine yer olmadığı, davanın düşmesi veya davanın reddine karar verilmesi hâlinde, aynı kararda, çek düzenleme ve çek hesabı açma yasağının kaldırılmasına karar verilir. Çek düzenleme ve çek hesabı açma yasağının kaldırılmasına ilişkin kararların kesinleşmesi üzerine, bu kararlar, MERSİS ile Risk Merkezine sekizinci fıkradaki usullere göre bildirilir ve ilan olunur.\n(10) (Değişik: 15/7/2016-6728/63 md.) Birinci fıkrada tanımlanan suç nedeniyle, ön ödeme, uzlaşma ve hükmün açıklanmasının geri bırakılmasına ilişkin hükümler uygulanmaz.\n(11) (Mülga: 31/1/2012-6273/3 md.; Ek: 15/7/2016-6728/63 md.) Birinci fıkra uyarınca verilen adli para cezalarının ödenmemesi durumunda, bu ceza, 13/12/2004 tarihli ve 5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanunun 106 ncı maddesinin üçüncü fıkrasında yer alan kamuya yararlı bir işte çalıştırma kararı verilmeksizin doğrudan hapis cezasına çevrilir.\n[8] Anayasa Mahkemesinin 26/7/2017 tarihli ve E.: 2016/191, K.: 2017/131 sayılı Kararı ile, bu fıkranın ikinci cümlesinde bulunan “çekin üzerinde yazılı bulunan düzenleme tarihine göre kanuni ibraz tarihinden itibaren işleyecek 3095 sayılı Kanuna göre ticari işlerde temerrüt faizi oranı üzerinden hesaplanacak faizi ile takip ve yargılama gideri toplamından” ibaresi iptal edilmiştir.\n[9] 31/1/2012 tarihli ve 6273 sayılı Kanunun 3 üncü maddesiyle, bu fıkrada yer alan “hukukî ve cezaî sorumluluk” ibaresi “hukukî sorumluluk ile idarî yaptırım sorumluluğu” şeklinde değiştirilmiştir.\n[10] 15/7/2016 tarihli ve 6728 sayılı Kanunun 63 üncü maddesi ile bu fıkrada yer alan “sorumluluk ile idarî yaptırım sorumluluğu” ibaresi “ve cezai sorumluluk” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5941&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "ÇEK KANUNU",
+   "law_no": "5941",
+   "article_no": "6",
+   "official_text": "Etkin pişmanlık ve çek düzenleme ve çek hesabı açma yasağının kaldırılması\nMADDE 6 – (Başlığı ile Birlikte Değişik: 15/7/2016-6728/64 md.)\n(1) Karşılıksız kalan çek bedelinin, çekin üzerinde yazılı bulunan düzenleme tarihine göre kanunî ibraz tarihinden itibaren işleyecek 3095 sayılı Kanuna göre ticarî işlerde temerrüt faiz oranı üzerinden hesaplanacak faizi ile birlikte tamamen ödeyen kişi hakkında,\na) Yargılama aşamasında mahkeme tarafından davanın düşmesine,\nb) Mahkûmiyet hükmünün kesinleşmesinden sonra mahkeme tarafından hükmün bütün sonuçlarıyla ortadan kaldırılmasına,\nkarar verilir. Çek düzenleme ve çek hesabı açma yasağının kaldırıldığı, MERSİS ile Risk Merkezine 5 inci maddenin sekizinci fıkrasındaki usullere göre bildirilir ve ilan olunur.\n(2) Şikâyetten vazgeçme hâlinde de birinci fıkra hükmü uygulanır.\n(3) Kişi, mahkûm olduğu cezanın tamamen infaz edildiği tarihten itibaren üç yıl ve her halde yasağın konulduğu tarihten itibaren on yıl geçtikten sonra, hükmü veren mahkemeden çek düzenleme ve çek hesabı açma yasağının kaldırılmasını isteyebilir; mahkemenin vereceği karara itiraz edebilir. Bu itiraz bakımından İcra ve İflas Kanununun 353 üncü maddesinin birinci fıkrası hükmü uygulanır. Çek düzenleme ve çek hesabı açma yasağının kaldırılmasına ilişkin karar kesinleştiğinde, yasağın kaldırıldığı, MERSİS ile Risk Merkezine 5 inci maddenin sekizinci fıkrasındaki usullere göre bildirilir ve ilan olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5941&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "ÇEK KANUNU",
+   "law_no": "5941",
+   "article_no": "7",
+   "official_text": "Diğer ceza hükümleri\nMADDE 7 – (1) Tacirin ticarî işletmesiyle ilgili iş ve işlemlerinde, tacir olmayan kişinin çek defterini kullanarak çek düzenleyen ve düzenleten kişi altı aydan iki yıla kadar hapis cezası ile cezalandırılır.\n(2) Tacir olmayan kişiye tacir kişiye verilmesi gereken çek defteri veren banka görevlisi hakkında elli günden yüzelli güne kadar adlî para cezasına hükmolunur.\n(3) 2 nci maddenin üçüncü fıkrasındaki yükümlülüğe aykırı olarak bankaya gerçek dışı beyanda bulunan kişi, üç aydan iki yıla kadar hapis cezası ile cezalandırılır. Beyanname almadan veya beyannameye rağmen, hakkında çek düzenleme ve çek hesabı açma yasağı bulunan kişiye veya bu kişinin yönetim organında görev yaptığı veya temsilcisi ya da imza yetkilisi olduğu tüzel kişiye çek defteri veren banka görevlileri elli günden yüzelli güne kadar adlî para cezası ile cezalandırılır.\n(4) Kısmen veya tamamen karşılığı bulunmayan çekle ilgili olarak, talebe rağmen, karşılıksızdır işlemi yapmayan banka görevlisi, şikâyet üzerine bir yıla kadar hapis cezası ile cezalandırılır.\n(5) Karşılığı tahsil edilmek üzere bankaya ibraz edilen çekin karşılığının hesapta mevcut olmasına rağmen, hamile ödemede bulunmayan ya da bankanın kanunen ödemekle yükümlü olduğu miktarı hamile ödemeyen banka görevlisi, şikâyet üzerine bir yıla kadar hapis cezası ile cezalandırılır.\n(6) Hakkında çek düzenleme ve çek hesabı açma yasağı kararı verilmiş olan kişi, buna rağmen çek düzenlerse, fiil daha ağır cezayı gerektiren başka bir suç oluşturmadığı takdirde, bir yıldan üç yıla kadar hapis cezası ile cezalandırılır.\n(7) Hakkında çek düzenleme ve çek hesabı açma yasağı kararı verilmiş olan kişi adına çek hesabı açan banka görevlisi, üç aydan bir yıla kadar hapis cezası ile cezalandırılır.\n(8) Çek defteri basmaya veya bastırmaya kanunen yetkili kılınanlar dışında çek defteri basanlar ve bastıranlar iki yıldan beş yıla kadar hapis ve binbeşyüz güne kadar adlî para cezasıyla cezalandırılır.\n(9) Hamiline çek defteri yaprağını kullanmadan hamiline çek düzenleyen kişi, bu aykırılığı içeren her bir çekle ilgili olarak, Cumhuriyet savcısı tarafından üçyüz Türk Lirasından üçbin Türk Lirasına kadar idarî para cezası ile cezalandırılır.[11]\n(10) 2 nci maddenin, sağlanması ve saklanması gereken bilgi ve belgelere ilişkin hükmüne aykırı hareket edilmesi veya çekin karşılıksız çıkması dolayısıyla hamili tarafından talep edilmesi üzerine düzenleyicinin banka kayıtlarındaki adreslerinin kendisine verilmemesi hâlinde, ilgili bankaya Cumhuriyet savcısı tarafından beşyüz Türk Lirasından beşbin Türk Lirasına kadar idarî para cezası verilir.\n[11] 31/1/2012 tarihli ve 6273 sayılı Kanunun 5 inci maddesiyle, bu fıkrada yer alan “bir yıla kadar hapis” ibaresi “Cumhuriyet savcısı tarafından üçyüz Türk Lirasından üçbin Türk Lirasına kadar idarî para” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5941&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "ÇEK KANUNU",
+   "law_no": "5941",
+   "article_no": "8",
+   "official_text": "Hesaben ödeme\nMADDE 8 – (1) Türkiye Cumhuriyet Merkez Bankası, çeklerin banka şubeleri arasında hesaben ödenmesini sağlayacak tüzel kişiliği haiz sistemi kurmaya ve gözetimi altında yürütmeye yetkilidir. Türkiye Cumhuriyet Merkez Bankası, bu yetkiyi uygun göreceği başka bir kuruluş aracılığıyla da kullanabilir.\n(2) Hesaben ödeme sisteminin kuruluş ve işleyişi, Türkiye Cumhuriyet Merkez Bankasınca çıkarılacak ve Resmî Gazete’de yayımlanacak bir yönetmelikle düzenlenir.\n(3) Yönetmelikte belirtilen esaslar çerçevesinde çeklerin fizikî olarak ibraz edilmeksizin sadece çek bilgileri üzerinden bankalararası takas odaları aracılığı ile elektronik ortamda muhatap bankaya gönderilerek işlem görmesi, 6762 sayılı Türk Ticaret Kanununun 710 uncu maddesine göre takas odasına ibraz hükmündedir.\n(4) Takas odaları aracılığıyla ibraz edilmiş çekler için, 3 üncü maddenin üçüncü fıkrasında belirlenen sorumluluk miktarı dâhil, kısmî ödeme yapılmaz. Bu durum, muhatap bankanın sorumluluk tutarını ödeme yükümlülüğünü ortadan kaldırmaz. Ancak, takas odaları aracılığıyla ibraz edilen çekin, hesapta yeterli karşılığının olmadığının belirlenmesi hâlinde muhatap banka tarafından, hesapta bulunan kısmî karşılık tutarı, çeki ibraz eden hamil lehine onbeş gün süreyle bloke edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5941&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2023/342",
+   "karar_no": "2024/82",
+   "decision_date": "07.02.2024",
+   "summary_md": "Arsa sahibi, davalı şirkete avans olarak verdiği iki çekin, şirket tarafından davalı bankaya kredi teminatı olarak devredildiğini ve çek bedelinin ödenmemesi gerektiğini ileri sürerek menfi tespit ve istirdat davası açmıştır. Çeklerden birinin arkasında bankanın yazdığı \"Bedeli teminat içindir\" kaydı vardı; diğeri beyaz ciroyla devredilip bankalararası takas odası aracılığıyla elektronik ortamda muhatap bankaya ibraz edilmişti. Hukuk Genel Kurulu, çekte rehin cirosunun yapılamayacağını, çünkü TTK m. 818'in TTK m. 689'a atıf yapmadığını belirtmiş ve \"teminat içindir\" kaydı bulunan çek bakımından banka meşru hamil olmadığından direnme kararını bozmuştur. İkinci çek bakımından ise beyaz cironun temlik cirosu niteliğinde olduğunu ve çekin takas odası yoluyla muhataba ibraz edildiğini saptayarak bankayı yetkili hamil saymış, bu çek yönünden direnme kararını onamıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1008178400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2022/7411",
+   "karar_no": "2024/3358",
+   "decision_date": "29.04.2024",
+   "summary_md": "Bir banka, düzenleyene karşı iki çekten dolayı ilamsız icra takibi başlatmış, takibe itiraz üzerine itirazın iptalini istemiştir. Çekler düzenleme yerinde ödenecek çeklerdi ve ibraz süresinin geçmesinden sonra bankaya ibraz edilmişti. Yargıtay 11. Hukuk Dairesi, ilk derece ve istinaf mahkemelerinin gerekçesini onayarak şunları ortaya koymuştur: aynı yerde ödenecek çek 10 gün içinde ibraz edilmelidir (TTK m. 796); başvurma hakkı ibraz süresinin bitiminden itibaren 3 yılda zamanaşımına uğrar (TTK m. 814); sebepsiz zenginleşme istemi ise çekin zamanaşımına uğradığı tarihi izleyen tarihten itibaren 1 yıldır (TTK m. 732/4). Bu süreler dolduktan sonra, 2018 yılında yapılan takip sonuçsuz kalmış ve temyiz edilen karar onanmıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1042347700",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Aşağıdakilerden hangisi çekin TTK m. 780'de sayılan zorunlu unsurlarından biri DEĞİLDİR?",
+   "options": [
+    "Vade",
+    "Düzenleyenin imzası",
+    "Düzenlenme tarihi ve yeri",
+    "Muhatabın ticaret unvanı"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Vade çekin zorunlu unsurları arasında yoktur; çek görüldüğünde ödenir (TTK m. 795/1). Diğer üçü TTK m. 780/1'de sayılan unsurlardır. Poliçe ve bonodaki vade unsuru ile karıştırılması sık yapılan yanılgıdır."
+  },
+  {
+   "stem_md": "Ahmet, Mehmet'e ait olmayan bir limited şirket üzerine \"çek\" kelimesini taşıyan ve diğer çek unsurlarını içeren bir senet düzenlemiştir. Bu senet hakkında hangisi doğrudur?",
+   "options": [
+    "Poliçe hükmündedir",
+    "Bono hükmündedir",
+    "Çek olarak geçerlidir, limited şirket muhatap bankadır",
+    "Çek sayılmaz, yalnız havale hükmündedir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Türkiye'de ödenecek çekte muhatap ancak banka olabilir; başka kişi üzerine düzenlenen senet yalnız havale hükmündedir (TTK m. 782). Poliçe veya bono sayılması için o senetlerin kendi unsurlarının bulunması gerekir."
+  },
+  {
+   "stem_md": "Çekin muhatap bankası, çek üzerine \"kabul edilmiştir\" şerhi yazdırmıştır. Bu şerhin hukuki sonucu nedir?",
+   "options": [
+    "Şerh çeki bono hâline getirir",
+    "Şerh yazılmamış sayılır",
+    "Çek geçersiz hâle gelir",
+    "Banka çek borçlusu olur"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Çekte kabul işlemi yapılamaz; çek üzerine yazılmış kabul kaydı yazılmamış sayılır (TTK m. 784). Çek bundan etkilenmez, banka da bu kayıtla borçlu olmaz."
+  },
+  {
+   "stem_md": "Zeynep Ltd. Şti., Ankara'da düzenlediği çeki İzmir'de ödenmek üzere Selim'e vermiştir. Çek üzerinde yazılı düzenleme tarihi 10 Haziran'dır. Çek için ibraz süresi ile başlangıcı aşağıdakilerden hangisidir?",
+   "options": [
+    "1 ay, 11 Haziran'dan itibaren",
+    "3 ay, 11 Haziran'dan itibaren",
+    "10 gün, 10 Haziran'dan itibaren",
+    "1 ay, çekin tesliminden itibaren"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Düzenlendiği yerden başka bir yerde ödenecek çek bir ay içinde ibraz edilmelidir ve süre, çekte yazılı düzenlenme tarihinin ertesi günü başlar (TTK m. 796/1 ve TTK m. 796/3). Üç ay yalnız ayrı kıtalar arasındaki çekler içindir. Süre tesliminden değil, yazılı tarihten işler."
+  },
+  {
+   "stem_md": "Gökhan, 15 Mart 2027 tarihli çeki 2 Mart 2027'de ödenmek üzere muhatap bankaya ibraz etmiştir. 5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrasındaki süre devam ederken bu ibraz hakkında hangisi doğrudur?",
+   "options": [
+    "İbraz geçerlidir, banka çeki ibraz günü öder",
+    "İbraz geçerlidir, banka çeki 15 Mart'ta öder",
+    "İbraz geçersizdir",
+    "İbraz, çeki bonoya dönüştürür"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 795/2 genel kuralı ibraz günü ödeme olsa da, 5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrası 31/12/2028 tarihine kadar, üzerinde yazılı düzenleme tarihinden önce çekin ödenmek için muhatap bankaya ibrazını geçersiz saymıştır."
+  },
+  {
+   "stem_md": "Düzenleyen Ece, çeki 10 günlük ibraz süresi içinde, 5. gün bankaya noter ihtarıyla \"çekten cayıyorum\" bildirmiştir. Hamil Barış çeki 7. gün ibraz etmiş, hesapta karşılık bulunmaktadır. Hangisi doğrudur?",
+   "options": [
+    "Cayma ibraz süresi içinde hüküm ifade etmez, banka karşılığı bulunan çeki öder",
+    "Banka cayma nedeniyle ödeme yapamaz",
+    "Cayma bildirimi çeki sona erdirir ve hamil düzenleyene başvurur",
+    "Banka karşılıksızdır işlemi yapmak zorundadır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Çekten cayma ancak ibraz süresi geçtikten sonra hüküm ifade eder (TTK m. 799/1). Süre içinde ibraz edilen ve karşılığı bulunan çek ödenir (5941 sayılı Kanun m. 3/1). Karşılık varken karşılıksızdır işlemi yapılamaz."
+  },
+  {
+   "stem_md": "\"Hamiline\" yazılı bir çeki elinde bulunduran Cem, çeki arkasını imzalayarak Deniz'e vermiştir. Bu ciro bakımından hangisi doğrudur?",
+   "options": [
+    "Ciro, alacağın temliki sayılır ve Cem sorumlu olmaz",
+    "Ciro hükümsüzdür, Cem hiçbir şekilde sorumlu olmaz",
+    "Çek emre yazılı hâle gelmez, Cem başvurma hükümlerine göre sorumlu olur",
+    "Çek bu ciroyla emre yazılı çek hâline gelir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hamiline yazılı çeke yapılan ciro, cirantayı başvurma hakkına dair hükümlere göre sorumlu kılar; ama senedin niteliğini değiştirip emre yazılı çek hâline getirmez (TTK m. 791)."
+  },
+  {
+   "stem_md": "Hangisi muhatap bankanın çekle ilgili cirosu bakımından doğrudur?",
+   "options": [
+    "Muhatabın cirosu geçerlidir",
+    "Muhatap lehine ciro, çeki nama yazılı hâle getirir",
+    "Muhatap lehine ciro her hâlde batıldır",
+    "Muhatap lehine ciro, muhatabın başka şubesi lehine olmadıkça makbuz hükmündedir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 789/2'ye göre muhatabın cirosu batıldır; muhatap lehindeki ciro ise yalnız makbuz hükmündedir. Çekin muhatabın başka bir şubesi üzerine yazılmış olması istisnadır (TTK m. 789/4)."
+  },
+  {
+   "stem_md": "Üzerine iki paralel çizgi çekilmiş ve çizgilerin arasına hiçbir ibare yazılmamış çek, muhatap banka tarafından kime ödenebilir?",
+   "options": [
+    "Yalnız düzenleyene",
+    "Yalnız bir bankaya veya muhatabın bir müşterisine",
+    "Yalnız çizgiler arasında unvanı yazılı bankaya",
+    "Çeki ibraz eden herkese nakden"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Çizgiler arasına ibare konmamışsa ya da \"banka\" yazılmışsa çek genel çizgilidir (TTK m. 803/3) ve muhatap bu çeki ancak bir bankaya veya muhatabın bir müşterisine ödeyebilir (TTK m. 804/1). Özel çizgide ise yalnız unvanı yazılı bankaya ödenebilir."
+  },
+  {
+   "stem_md": "Süresinde bankaya ibraz edilen çekin ödenmediğini hamilin hangi belgeyle ispatlaması TTK m. 808'e göre mümkün DEĞİLDİR?",
+   "options": [
+    "Takas odasının tarihli beyanı",
+    "Düzenleyenin telefonda yaptığı sözlü ikrar",
+    "Noter protestosu",
+    "Muhatabın çek üzerine yazdığı, ibraz gününü gösteren tarihli beyan"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ödememe, protesto, muhatabın tarihli beyanı veya takas odasının tarihli beyanı ile tespit edilir (TTK m. 808/1-a, b, c). Düzenleyenin sözlü ikrarı bu yollardan biri değildir."
+  },
+  {
+   "stem_md": "Süresinde ibraz edilen ve protesto ile ödememesi tespit edilen çekin hamili, başvurma hakları bakımından zamanaşımını hangi tarihten itibaren üç yıl olarak hesaplar?",
+   "options": [
+    "Protesto tarihinden",
+    "Çekin hamile tesliminden",
+    "İbraz süresinin bitiminden",
+    "Çekin düzenlenme tarihinden"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hamilin cirantalara, düzenleyene ve diğer çek borçlularına karşı başvurma hakları, ibraz süresinin bitiminden itibaren üç yıl geçmekle zamanaşımına uğrar (TTK m. 814/1)."
+  },
+  {
+   "stem_md": "Karşılıksız çeke ilişkin 5941 sayılı Kanun m. 5/1 uyarınca, süresinde ibrazda karşılıksızdır işlemine sebebiyet veren kişi hakkında aşağıdakilerden hangisi uygulanır?",
+   "options": [
+    "Yalnız idari para cezası verilir",
+    "Hamilin şikâyeti üzerine icra mahkemesinde binbeşyüz güne kadar adli para cezası ve çek düzenleme ve hesap açma yasağı",
+    "Yalnız çek bedelinin yüzde onu tazminat olarak ödenir",
+    "Cumhuriyet savcısı re'sen davayı açar, ceza yalnız hapistir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Hamilin şikâyeti üzerine her çek için binbeşyüz güne kadar adli para cezası verilir ve mahkeme çek düzenleme ve çek hesabı açma yasağına hükmeder; davalar icra mahkemesinde görülür (5941 sayılı Kanun m. 5/1). Yüzde on tazminat TTK m. 783/3'teki ayrı bir sorumluluktur."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Dilek Tekstil Ltd. Şti. (D), İstanbul'da bulunan Y Bankası'ndaki çek hesabından, Ankara'da düzenlediği ve üzerinde 4 Mart 2027 tarihi yazılı bir çeki Leman Tic. (L) lehine vermiştir. Çek İstanbul'da ödenecektir ve emre yazılıdır. L, nakit sıkıntısı nedeniyle çeki 26 Şubat 2027'de Y Bankası'na ibraz etmiş, banka işlem yapmamıştır. L daha sonra çeki 30 Mart 2027'de yeniden ibraz etmiş, D'nin hesabında karşılık bulunmadığı için banka \"karşılıksızdır\" işlemi yapmıştır. L, çeki ciro ettiği Hakan'a (H) bu durumu bildirmiştir. H ise çeki 2 Nisan 2027'de kendi bankası aracılığıyla ibraz ettirmişti.\n\n1. 26 Şubat 2027'deki ibrazın hukuki sonucu nedir?\n2. Çekin ibraz süresi ne zaman başlar, ne zaman biter? Son gün Pazar ise ne olur?\n3. Ödememe hangi yollarla tespit edilir ve neden önemlidir?\n4. Y Bankası'nın ve D'nin sorumlulukları nelerdir?\n5. H, zamanaşımı bakımından hangi süreleri dikkate almalıdır?",
+   "rubric": [
+    {
+     "point": "Düzenleme tarihinden önce ibraz 31/12/2028'e kadar geçersizdir (geçici 3. madde 5. fıkra); TTK m. 795/2 genel kuralı bu dönemde uygulanmaz",
+     "weight": 20,
+     "madde_ref": "TTK m. 795"
+    },
+    {
+     "point": "Ankara'da düzenlenip İstanbul'da ödenecek çek 1 ay içinde ibraz edilmeli; süre 5 Mart 2027'de başlar",
+     "weight": 20,
+     "madde_ref": "TTK m. 796"
+    },
+    {
+     "point": "Ödememe protesto, muhatabın tarihli beyanı veya takas odası beyanıyla tespit edilir ve ibraz süresi geçmeden yapılmalıdır",
+     "weight": 20,
+     "madde_ref": "TTK m. 808"
+    },
+    {
+     "point": "Banka karşılığı olmayan çekte karşılıksızdır işlemi yapar ve kanunda öngörülen sorumluluk tutarını öder",
+     "weight": 15,
+     "madde_ref": "5941 sayılı Kanun m. 3"
+    },
+    {
+     "point": "D, bedelin %10'u ile zararı ödemekle yükümlüdür; hamilin şikâyetiyle icra mahkemesinde adli para cezası ve yasak",
+     "weight": 15,
+     "madde_ref": "TTK m. 783"
+    },
+    {
+     "point": "Başvurma haklarının zamanaşımı ibraz süresinin bitiminden itibaren 3 yıldır",
+     "weight": 10,
+     "madde_ref": "TTK m. 814"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olaydaki senet, Y Bankası üzerine düzenlenmiş emre yazılı bir çektir. Çek ödeme yerinden (İstanbul) farklı bir yerde (Ankara) düzenlenmiştir. Karşılığın bulunmaması çekin geçerliliğini etkilemez (TTK m. 783/1).\n\n**Hukuki sorunlar:** (1) Düzenleme tarihinden önceki ibraz; (2) ibraz süresinin hesabı; (3) ödememenin tespiti; (4) banka ve düzenleyenin sorumluluğu; (5) zamanaşımı.\n\n**İlgili hükümler:** TTK m. 795, TTK m. 796, TTK m. 816, TTK m. 808-809, TTK m. 783/3, TTK m. 814/1, 5941 sayılı Kanun m. 3 ve 5941 sayılı Kanun m. 5/1, ayrıca 5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrası.\n\n**Değerlendirme:** TTK m. 795/2 çeki düzenleme gününden önce ibraz edilse bile ibraz günü ödenir saysa da, 5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrası 31/12/2028'e kadar düzenleme tarihinden önceki ibrazı geçersiz kılmıştır. Bu nedenle 26 Şubat 2027'deki ibraz geçersizdir; banka ödeme yapmamakta haklıdır ve bu ibrazdan hareketle ödememe tespit edilemez. Ayrıca 5941 sayılı Kanun m. 3/8 uyarınca bu ibrazla ilgili hukuki takip de yapılamaz.\n\nDüzenleyen yerden başka bir yerde ödenecek çek bir ay içinde ibraz edilmelidir (TTK m. 796/1). Süre, yazılı düzenleme tarihinin ertesi günü, yani 5 Mart 2027'de başlar ve bir ay dolunca 4 Nisan 2027'de biter. O gün Pazar olduğundan süre izleyen ilk iş günü olan 5 Nisan 2027 Pazartesi gününe uzar (TTK m. 816/2). L'nin 30 Mart'taki ibrazı süre içindedir ve geçerlidir.\n\nBanka karşılıksızdır işlemi yapmıştır. Ödememe, bu yolla (muhatabın ibraz gününü de gösteren tarihli beyanı), protesto veya takas odası beyanıyla süresi geçmeden tespit edilebilir (TTK m. 808, TTK m. 809). Bu tespit olmadan hamil cirantalara ve düzenleyene başvuramaz. Banka, süresinde ibraz edilen her çek yaprağı için kanundaki sorumluluk tutarını ödemekle yükümlüdür; karşılığın hiç bulunmaması hâlinde bu tutarı, kısmen bulunması hâlinde kısmi karşılığa ilave olarak ödeyeceği tutarı hamile verir (5941 sayılı Kanun m. 3/3). Güncel tutar TCMB'nin her yıl Ocak ayında Resmî Gazete'de yayımladığı rakamdır.\n\nD, karşılıksız kalan bedelin yüzde onunu ödemek ve hamilin zararını tazmin etmekle yükümlüdür (TTK m. 783/3). Süresinde ibrazda karşılıksızdır işlemine sebebiyet verdiği için hamilin şikâyeti üzerine icra mahkemesinde binbeşyüz güne kadar adli para cezası ve çek düzenleme ve çek hesabı açma yasağı gündeme gelir (5941 sayılı Kanun m. 5/1). Bu dava şikâyete bağlıdır; hamil şikâyetten vazgeçerse veya karşılıksız kalan bedeli faiziyle öderse 5941 sayılı Kanun m. 6/1 uyarınca davanın düşmesine karar verilir.\n\nZamanaşımı bakımından H'nin başvurma hakları ibraz süresinin bitiminden itibaren üç yıl geçmekle zamanaşımına uğrar (TTK m. 814/1). Bu süre içinde haklarını kullanmazsa sebepsiz zenginleşme istemi kalır; o da çekin zamanaşımına uğradığı tarihi izleyen tarihten itibaren bir yıllıktır (TTK m. 818/1-m ile uygulanan TTK m. 732/4).\n\n**Sonuç:** 26 Şubat 2027 ibrazı geçersizdir; ibraz süresi 5 Mart 2027'de başlayıp 5 Nisan 2027'de biter (Pazar günü uzaması); 30 Mart ibrazı geçerlidir; D %10 ve zarardan sorumludur, banka sorumluluk tutarını öder, D hakkında şikâyet üzerine ceza ve yasak söz konusudur; başvurma hakları üç yılda zamanaşımına uğrar."
+  },
+  {
+   "stem_md": "Mert (A), Seda'nın (S) emrine, genel çizgili ve \"emre yazılı\" bir çeki düzenlemiştir. Seda çeki arkasını yalnızca imzalayarak (beyaz ciro) Burak'a (B) vermiş, Burak da çekin bedeli tahsil edilmeden önce Nehir'e (N) satmıştır. Çeki devralan Nehir:\n\n- Muhatap Z Bankası'nın şubesine gidip çek bedelini nakden istemiş, Nehir bu bankada müşteri değildir; Z Bankası ödemeyi reddetmiştir.\n- Bunun üzerine Nehir, Z Bankası'ndan çek üzerine \"kabul edilmiştir\" şerhi yazmasını istemiş, banka şerhi yazmıştır.\n- Nehir, çekin ibraz süresi geçtikten sonra çeki kredi borcuna teminat olarak Y Bankası'na \"bedeli teminattır\" kaydıyla ciro etmiştir.\n\n1. Burak yetkili hamil midir?\n2. Z Bankası'nın nakden ödemeyi reddetmesi doğru mudur?\n3. \"Kabul edilmiştir\" şerhi ne sonuç doğurur?\n4. Nehir'in Y Bankası'na yaptığı ciro hangi sonuçları doğurur?\n5. Başvurma hakları için zamanaşımı ne zaman başlar ve ne kadar sürer?",
+   "rubric": [
+    {
+     "point": "Hakkı kesintisiz ciro zincirinden anlaşılan hamil, son ciro beyaz olsa da yetkili hamildir",
+     "weight": 15,
+     "madde_ref": "TTK m. 790"
+    },
+    {
+     "point": "Genel çizgili çek muhatap tarafından ancak bir bankaya veya muhatabın müşterisine ödenir; banka ödemeyi reddetmekte haklıdır",
+     "weight": 20,
+     "madde_ref": "TTK m. 804"
+    },
+    {
+     "point": "Çek üzerine yazılan kabul kaydı yazılmamış sayılır, banka borçlu olmaz",
+     "weight": 15,
+     "madde_ref": "TTK m. 784"
+    },
+    {
+     "point": "İbraz süresi geçtikten sonra yapılan ciro yalnız alacağın temliki sonuçlarını doğurur",
+     "weight": 20,
+     "madde_ref": "TTK m. 793"
+    },
+    {
+     "point": "Çekte rehin cirosu yapılamaz; TTK m. 818/1-d, TTK m. 689'a atıf yapmaz ve 'bedeli teminattır' ibareli ciro Yargıtay'a göre bankaya meşru hamil sıfatı kazandırmaz",
+     "weight": 15,
+     "madde_ref": "TTK m. 818"
+    },
+    {
+     "point": "Başvurma hakları ibraz süresinin bitiminden itibaren 3 yılda zamanaşımına uğrar",
+     "weight": 15,
+     "madde_ref": "TTK m. 814"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olaydaki senet, Z Bankası muhatap olmak üzere, genel çizgili, emre yazılı bir çektir. Seda'dan Burak'a, Burak'tan Nehir'e devir ciro yoluyla yapılmıştır.\n\n**Hukuki sorunlar:** (1) Beyaz ciro ve yetkili hamil; (2) çizgili çekin ödenmesi; (3) kabul kaydı; (4) ibraz süresi sonrası ciro ve rehin cirosu; (5) zamanaşımı.\n\n**İlgili hükümler:** TTK m. 788, TTK m. 790, TTK m. 784, TTK m. 793, TTK m. 803-804, TTK m. 818/1-d, TTK m. 689, TTK m. 814.\n\n**Değerlendirme:** Emre yazılı çek ciro ve zilyetliğin geçirilmesiyle devredilir (TTK m. 788/1). Çeki elinde bulunduran kişinin hakkı kesintisiz ve birbirine bağlı cirolardan anlaşılıyorsa, son ciro beyaz ciro olsa bile yetkili hamil sayılır (TTK m. 790). Burak, Seda'nın beyaz cirosuyla çeki almış ve Nehir'e devretmiştir; ciro zinciri kesintisizdir ve Nehir de yetkili hamildir.\n\nGenel çizgili çek, muhatap tarafından ancak bir bankaya veya muhatabın bir müşterisine ödenebilir (TTK m. 804/1). Nehir bankanın müşterisi değildir ve kendisi de banka değildir; bu yüzden Z Bankası'nın nakden ödemeyi reddetmesi doğrudur. Nehir çeki kendi bankasına tevdi ederek tahsil ettirmelidir. Aykırı ödeme yapan muhatap, çek bedelini aşmamak üzere zarardan sorumlu olurdu (TTK m. 804/5).\n\nÇekte kabul işlemi yapılamaz, çek üzerine yazılmış kabul kaydı yazılmamış sayılır (TTK m. 784). Z Bankası'nın şerh yazması ona bir çek borcu yüklemez; Nehir bu şerhe dayanarak bankadan ödeme isteyemez.\n\nİbraz süresi geçtikten sonra yapılan ciro yalnız alacağın temliki sonuçlarını doğurur (TTK m. 793/1). Ayrıca TTK m. 818/1-d, ciroya ilişkin poliçe hükümlerinden TTK m. 683-685'i çeke uyguladığı hâlde rehin cirosunu düzenleyen TTK m. 689'a atıf yapmaz; bu nedenle çekte rehin cirosu yapılamaz. Hukuk Genel Kurulu, çekin arkasına \"bedeli teminat içindir\" kaydı yazılan bankayı meşru hamil saymamıştır. Dolayısıyla Nehir'in \"bedeli teminattır\" kaydıyla yaptığı ciro, Y Bankası'na çek üzerinde rehin hakkı kazandırmaz; Y Bankası bu ciro nedeniyle çekten doğan hakları meşru hamil olarak kullanamaz.\n\nBaşvurma hakkının zamanaşımı ibraz süresinin bitiminden itibaren üç yıldır (TTK m. 814/1). Süre geçtikten sonra hak sebepsiz zenginleşme hükümlerine kalır (TTK m. 818/1-m ile uygulanan TTK m. 732).\n\n**Sonuç:** Burak ve Nehir yetkili hamildir; Z Bankası'nın ödemeyi reddetmesi haklıdır; kabul şerhi yazılmamış sayılır; Y Bankası'na yapılan ciro çekte rehin cirosu olarak geçersizdir; başvurma hakları ibraz süresinin bitiminden üç yılda zamanaşımına uğrar."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Çekin zorunlu unsurları nelerdir?",
+   "back_md": "'Çek' kelimesi, kayıtsız şartsız havale, muhatabın unvanı, ödeme yeri, düzenlenme tarihi ve yeri, düzenleyenin imzası, seri numarası ve karekod (TTK m. 780). Vade ve lehtar yoktur."
+  },
+  {
+   "front_md": "Çekte muhatap kim olabilir?",
+   "back_md": "Türkiye'de ödenecek çekte ancak banka. Başka kişi üzerine çekilen senet yalnız havale hükmündedir (TTK m. 782)."
+  },
+  {
+   "front_md": "Çekte kabul mümkün müdür?",
+   "back_md": "Hayır. Kabul kaydı yazılmamış sayılır (TTK m. 784). Faiz şartı da yazılmamış sayılır (TTK m. 786)."
+  },
+  {
+   "front_md": "Karşılıksız çek düzenleyenin TTK'ya göre sorumluluğu?",
+   "back_md": "Karşılıksız kalan bedelin %10'unu öder ve hamilin zararını tazmin eder (TTK m. 783/3)."
+  },
+  {
+   "front_md": "İbraz süreleri nelerdir?",
+   "back_md": "Aynı yerde 10 gün; başka yerde 1 ay; yurt dışından aynı kıtada 1 ay, ayrı kıtada 3 ay. Düzenlenme tarihinin ertesi günü başlar (TTK m. 796)."
+  },
+  {
+   "front_md": "Düzenleme tarihinden önce ibraz edilirse ne olur?",
+   "back_md": "5941 sayılı Kanunun geçici 3. maddesinin beşinci fıkrasına göre 31/12/2028'e kadar ibraz geçersizdir."
+  },
+  {
+   "front_md": "Çekten cayma ne zaman etkilidir?",
+   "back_md": "Yalnız ibraz süresi geçtikten sonra (TTK m. 799/1). Cayma yoksa banka süre sonrası da ödeyebilir (TTK m. 799/2)."
+  },
+  {
+   "front_md": "Hamiline yazılı çeke ciro yapılırsa?",
+   "back_md": "Çek emre yazılı olmaz; ciranta başvurma hükümlerine göre sorumlu olur (TTK m. 791)."
+  },
+  {
+   "front_md": "Çekte rehin cirosu yapılabilir mi?",
+   "back_md": "Hayır. TTK m. 818/1-d, TTK m. 689'a atıf yapmaz; HGK da 'bedeli teminat içindir' kaydını rehin cirosu sayıp geçersiz bulmuştur."
+  },
+  {
+   "front_md": "Genel çizgili çek kime ödenir?",
+   "back_md": "Yalnız bir bankaya veya muhatabın müşterisine (TTK m. 804/1). Özel çizgide yalnız unvanı yazılı bankaya (TTK m. 804/2)."
+  },
+  {
+   "front_md": "Ödememe nasıl tespit edilir?",
+   "back_md": "Protesto, muhatabın tarihli beyanı veya takas odasının tarihli beyanı; ibraz süresi geçmeden (TTK m. 808, TTK m. 809)."
+  },
+  {
+   "front_md": "Çekte zamanaşımı ve yaptırım?",
+   "back_md": "Başvurma hakları ibraz süresinin bitiminden itibaren 3 yıl (TTK m. 814/1). Karşılıksızda hamilin şikâyetiyle icra mahkemesinde binbeşyüz güne kadar adli para cezası ve çek yasağı (5941 sayılı Kanun m. 5/1)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
