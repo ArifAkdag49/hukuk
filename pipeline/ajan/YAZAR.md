@@ -27,7 +27,7 @@ Tek bir hukuk öğrencisi (Marmara Hukuk, 3. sınıf) için hazırlanan Android 
   4. Pakette bir madde numarası komşu maddeden çıkarsa (ör. TBK m. 397 başlığı altında m. 405-407 alıntıları) doğru maddeye bağla.
 - **Her hukuki bilgi pakete dayanır.** Süre, oran, şart ve sonuçları paketteki tırnaklı madde metninden aktar. Emin
   olmak için yalnız şu komutla madde metnine bakabilirsin (önbellekten gelir): `.venv/Scripts/python -X utf8 -m pipeline.arastir madde TMK 683`.
-  İçtihat araması, web araması ve karar tam metni okuma **yapma**.
+  İçtihat araması (`ictihat`) ve web araması **yapma**; karar metnini yalnız önbellekten (`arastir karar <id> --max 6000`) aç.
 - **Kararlar:** `kararlar` listesine yalnız paketin 4. bölümündeki kararları koy; özetleri paketteki olgulardan yaz,
   olgu ekleme. Pakette numarasız anılan kararları anlatımda numara vermeden kullanabilirsin.
 - **Sorular:** paketin 7. bölümündeki doğrulanmış olgulardan kur. Tek, tartışmasız doğru cevap; çeldiriciler pakettki

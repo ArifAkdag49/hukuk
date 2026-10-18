@@ -354,16 +354,21 @@ async def ictihat(ifade: str, mahkeme: str, adet: int, sayfa: int) -> dict:
     return data
 
 
-async def karar(karar_id: str, mahkeme: str) -> str:
+async def karar(karar_id: str, mahkeme: str, hub=None) -> str:
+    """Kararın tam metni (önbellekten ya da içtihat servisinden). Çok sayıda karar için tek `hub` verilirse
+    her karar için araç yeniden başlatılmaz (çağıran hub'ı kendisi durdurur)."""
     KARAR_DIR.mkdir(parents=True, exist_ok=True)
     p = karar_path(karar_id)
     if p.exists():
         return p.read_text(encoding="utf-8")
-    hub = await _hub()
+    kendi = hub is None
+    if kendi:
+        hub = await _hub()
     try:
         text, is_error = await hub.call("karar_getir", {"karar_id": karar_id, "mahkeme": mahkeme})
     finally:
-        await hub.stop()
+        if kendi:
+            await hub.stop()
     if is_error:
         return f"HATA: {text}"
     try:

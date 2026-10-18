@@ -54,24 +54,31 @@ def yaz(metin: str, ders: str, hedef: pathlib.Path, gecerli: set[str]) -> tuple[
     return yazilan, bilinmeyen
 
 
-async def kararlari_indir(idler: list[str], bekle: float = 4.0) -> tuple[int, int]:
+async def kararlari_indir(idler: list[str], bekle: float = 3.0) -> tuple[int, int]:
+    """Önbellekte olmayan kararları tek içtihat bağlantısıyla indirir; (yeni, indirilemeyen) döner."""
     from . import arastir
 
+    bekleyen = [k for k in idler if not arastir.karar_path(k).exists()]
     yeni = hata = 0
-    for kid in idler:
-        if arastir.karar_path(kid).exists():
-            continue
-        metin = await arastir.karar(kid, "yargitay")
-        if metin.startswith("HATA"):
-            await asyncio.sleep(20)
-            arastir.karar_path(kid).unlink(missing_ok=True)
-            metin = await arastir.karar(kid, "yargitay")
-        if metin.startswith("HATA"):
-            arastir.karar_path(kid).unlink(missing_ok=True)
-            hata += 1
-        else:
-            yeni += 1
-        await asyncio.sleep(bekle)
+    if not bekleyen:
+        return yeni, hata
+    hub = await arastir._hub()
+    try:
+        for kid in bekleyen:
+            for deneme in range(3):
+                metin = await arastir.karar(kid, "yargitay", hub=hub)
+                if not metin.startswith("HATA"):
+                    break
+                arastir.karar_path(kid).unlink(missing_ok=True)
+                await asyncio.sleep(20)
+            if metin.startswith("HATA"):
+                arastir.karar_path(kid).unlink(missing_ok=True)
+                hata += 1
+            else:
+                yeni += 1
+            await asyncio.sleep(bekle)
+    finally:
+        await hub.stop()
     return yeni, hata
 
 
