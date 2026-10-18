@@ -74,6 +74,6 @@ HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
 | 23 | tasinmaz-rehni-genel-hukumler | bitti | bulutta araştırma-yazma-denetim; denetçi 4 kesin hata (soru 8 "terk"→"terkin" TMK m. 858, karar 2 ve 3 özet olguları, TMK m. 684/2 tanımı) ve 3 ekleme; yüklenmedi |
 | 24 | ipotek-ve-kanuni-ipotek | bitti | bulutta araştırma-yazma-denetim; denetçi 2644 m. 26 kredi sözleşmesiyle ipoteğin 1984'ten beri var olduğunu düzeltti, karar 1-2 özetlerini tam metne uydurdu; 📌 TMK m. 883/2 (7181, 1/1/2020); yüklenmedi |
 | 25 | ipotekli-borc-senedi-ve-irat-senedi | bitti | bulutta araştırma-yazma-denetim; denetçi 10 küçük düzeltme (TMK m. 889/3 → 888/2, m. 899/2 "rehin kurulamaz", m. 926 ikinci şart); ana oturum m. 918/2 örneğini tartışmalı diye işaretledi; 📌 TMK m. 913 (700 s. KHK); yüklenmedi |
-| 26 | tasinir-rehni-hak-rehni-ve-hapis-hakki | bekliyor | |
+| 26 | tasinir-rehni-hak-rehni-ve-hapis-hakki | bitti | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (olay 1'de iyiniyet olgusu TMK m. 942, TTK m. 1201 zilyetlik şartı, karar 1 özet olguları); 📌 6750 s. Kanun (7099, 7263); yüklenmedi |
 | 27 | kat-mulkiyeti-kurulus-ve-kat-irtifaki | bekliyor | |
 | 28 | kat-maliklerinin-haklari-borclari-ve-yonetim | bekliyor | |
