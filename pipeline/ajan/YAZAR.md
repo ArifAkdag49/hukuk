@@ -23,8 +23,12 @@ Tek bir hukuk öğrencisi (Marmara Hukuk, 3. sınıf) için hazırlanan Android 
      madde numarası). Alıntı yapacağın her madde araçtan çekilmiş ve `maddeler` listesinde olmalı.
   2. **Karar özeti:** olguları paketten al; `pipeline.arastir karar <id> --max 6000` (önbellekten gelir, ağ çağrısı yapmaz) ile
      her kararın ilk bölümünü açıp **künye ve temel olguların tuttuğunu** kontrol et. Tutmayan ayrıntıyı özete alma.
-  3. Paket "kesin olmayanlar" ya da "tartışmalı" dediği şeyi nota kesin dille koyma.
-  4. Pakette bir madde numarası komşu maddeden çıkarsa (ör. TBK m. 397 başlığı altında m. 405-407 alıntıları) doğru maddeye bağla.
+  3. **Eski madde metni uyarısı:** `arastir madde` bazı maddelerde 2024-2026 değişikliğini içermeyen eski metin getirebilir
+     (ör. HUAK m. 18/A/11: gerçek metinde yargılama giderinin *yarısı*). Bir maddede paket ya da bilgin yakın tarihli bir
+     değişiklikten söz ediyor ama araç çıktısında yoksa `arastir tam <KANUN> --ara "<ifade>"` ile tam metne bak; farklıysa
+     tam metni izle ve raporda belirt.
+  4. Paket "kesin olmayanlar" ya da "tartışmalı" dediği şeyi nota kesin dille koyma.
+  5. Pakette bir madde numarası komşu maddeden çıkarsa (ör. TBK m. 397 başlığı altında m. 405-407 alıntıları) doğru maddeye bağla.
 - **Her hukuki bilgi pakete dayanır.** Süre, oran, şart ve sonuçları paketteki tırnaklı madde metninden aktar. Emin
   olmak için yalnız şu komutla madde metnine bakabilirsin (önbellekten gelir): `.venv/Scripts/python -X utf8 -m pipeline.arastir madde TMK 683`.
   İçtihat araması (`ictihat`) ve web araması **yapma**; karar metnini yalnız önbellekten (`arastir karar <id> --max 6000`) aç.
@@ -46,9 +50,11 @@ Tek bir hukuk öğrencisi (Marmara Hukuk, 3. sınıf) için hazırlanan Android 
 ## 3. Çalışma sırası
 1. Paketi ve rehberi oku. 2. Taslağı yaz. 3. Denetimi çalıştır, **hata ve uyarı kalmayana kadar** düzelt:
    `.venv/Scripts/python -X utf8 -m pipeline.elle kontrol <DERS> <slug>`. 4. Rehberin 6. bölümündeki kontrol listesini geç.
+5. Kontrol temizse **`.venv/Scripts/python -X utf8 -m pipeline.elle bitir <DERS> <slug>`** çalıştır (yalnız `pipeline/out/` dosyasını yazar).
+6. Sana **birden çok konu** verildiyse sırayla her biri için 1-5'i yap; rehberi ve örnek konuyu bir kez oku.
 
 ## 4. Yasaklar
-- `elle bitir`, `pipeline load|generate|all|tables`, git komutları yok. `pipeline/*.py`, `server/`, `app/`,
+- `pipeline load|generate|all|tables` ve git komutları yok. `pipeline/*.py`, `server/`, `app/`,
   `pipeline/YAZIM_REHBERI.md`, kaynak paketi ve başka konuların dosyalarına dokunma.
 - Kaynaklardan ya da paketten uzun cümle kopyalama; kendi anlatımınla yaz (madde metni tırnağı hariç).
 
