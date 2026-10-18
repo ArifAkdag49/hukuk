@@ -1,0 +1,539 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Anonim Şirket",
+ "topic_index": 9,
+ "slug": "limited-sirket-kurulus-ve-esas-sermaye-paylari",
+ "title": "Limited Şirket I: Kavram, Kuruluş, Esas Sermaye Payları ve Devri, Ortakların Yükümlülükleri",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-18T12:04:09.916183+00:00",
+ "skill_refs": [
+  "sirketler-hukuku/anonim-limited-kurulus"
+ ],
+ "content": {
+  "summary_md": "- **Tanım (TTK m. 573):** bir veya birden çok gerçek ya da tüzel kişinin bir ticaret unvanı altında kurduğu, esas sermayesi belirli olan sermaye şirketi. Ortaklar şirket borcundan sorumlu değildir; yalnız taahhüt ettikleri esas sermaye paylarını, sözleşmede varsa ek ödeme ve yan edim yükümlülüklerini yerine getirir.\n- **Ortak sayısı (TTK m. 574):** en çok **50**. Ortak sayısı bire düşerse **7 gün** içinde müdürlere yazılı bildirilir; müdürler bildirimden itibaren yedinci günün sonuna kadar tek ortaklılığı tescil ve ilan ettirir.\n- **Şekil (TTK m. 575):** şirket sözleşmesi yazılı olur ve kurucular tarafından **ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda** imzalanır. Zorunlu kayıtlar TTK m. 576'dadır.\n- 📌 **Asgari esas sermaye (TTK m. 580):** kanun metninde 10.000 TL; 7887 sayılı Cumhurbaşkanı Kararıyla **50.000 TL**. TTK'nın geçici 15. maddesi: altında kalan şirketler **31.12.2026**'ya kadar yükseltmezse infisah etmiş sayılır.\n- **Pay değeri (TTK m. 583):** itibarî değer en az **25 TL**, değerler 25 TL'nin katları olmalıdır; bir ortak birden çok paya sahip olabilir.\n- **Kuruluş (TTK m. 585, TTK m. 588):** sözleşmenin imzasıyla kurulma iradesi açıklanır, **tescille** tüzel kişilik kazanılır. Anonim şirkettekinin aksine, nakdî payların en az %25'inin tescilden önce ödenmesi şartı **uygulanmaz**.\n- **Pay devri (TTK m. 595):** yazılı şekil ve **imzaların noterce onanması** + sözleşmede aksi yoksa **genel kurul onayı**. Genel kurul sebep göstermeden reddedebilir, sözleşme devri yasaklayabilir. Başvurudan itibaren **üç ay** içinde reddedilmezse onay verilmiş sayılır.\n- **Kanuni geçiş (TTK m. 596):** miras, mal rejimi ve icra yoluyla geçişte genel kurul onayı aranmaz. Şirket, **gerçek değerden devralmayı önererek** üç ay içinde onayı reddedebilir; açıkça ve yazılı reddetmezse onay vermiş sayılır.\n- **Sorumluluk (TTK m. 602, TTK m. 573/2):** şirket yalnız malvarlığıyla sorumludur. İstisna: kamu borçlarında ortaklar sermaye hisseleri oranında sorumludur (6183 sayılı Kanun m. 35).\n- **Ek ödeme (TTK m. 603):** sözleşmede öngörülürse, esas sermaye payının itibarî değerinin **en çok iki katı**; müdürler ister.\n- **Bağlılık (TTK m. 613):** sır saklama yükümlülüğü kaldırılamaz; ortaklar için rekabet yasağı ancak **şirket sözleşmesinde** öngörülürse vardır. Müdürler için rekabet yasağı kanundandır (TTK m. 626).",
+  "content_md": "## 1. Limited şirketin yeri ve tanımı\n\n**Limited şirket**, bir veya birden çok gerçek veya tüzel kişi tarafından bir ticaret unvanı altında kurulan, esas sermayesi belirli olan ve bu sermaye esas sermaye paylarının toplamından oluşan bir **sermaye şirketidir** (TTK m. 573/1). Kanunen yasak olmayan her türlü ekonomik amaç ve konu için kurulabilir (TTK m. 573/3). Özel kanunlar bazı faaliyetleri (bankacılık, sigortacılık gibi) ayrıca düzenleyebilir; bu not TTK çerçevesinde kalır.\n\nAnonim şirketle ortak yönü ortakların **sınırlı sorumluluğu**, farkı ise kişisel unsurların ağırlığıdır: pay devri sıkı şartlara bağlıdır, ortaklar ek ödeme ve yan edim yükümlülüğü ile bağlanabilir, ortaklar arasında bağlılık borcu daha belirgindir.\n\n## 2. Ortakların sorumluluğu: ilke ve kamu borcu istisnası\n\nOrtaklar şirket borçlarından sorumlu değildir; yalnız taahhüt ettikleri esas sermaye paylarını ödemekle ve şirket sözleşmesinde öngörülen ek ödeme ile yan edim yükümlülüklerini yerine getirmekle yükümlüdür (TTK m. 573/2). Şirket, borç ve yükümlülükleri dolayısıyla **sadece malvarlığıyla** sorumludur (TTK m. 602/1).\n\n> **Örnek:** Y Ltd.'nin tedarikçisi Tarık'ın 300.000 TL alacağı vardır. Şirketin malvarlığı yetmezse Tarık, ortak Leyla'ya başvuramaz. Leyla yalnız taahhüt ettiği payı ödemekle yükümlüdür.\n\n⚠️ **Kamu borçları istisnası.** 6183 sayılı Kanun m. 35'e göre limited şirket ortakları, şirketten tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan **amme alacağından sermaye hisseleri oranında** doğrudan sorumlu olur. Payı devreden ve devralan, devir öncesine ait amme alacaklarından müteselsilen sorumlu tutulur (6183 sayılı Kanun m. 35/2). 6183 sayılı Kanunun mükerrer 35. maddesi ise kanuni temsilcilerin (müdürlerin) şahsi malvarlığından tahsil imkânını düzenler. Bu nedenle \"ortak hiçbir borçtan sorumlu değildir\" diye ezberlemeyin; kural özel hukuk borçlarına ilişkindir.\n\n## 3. Ortak sayısı ve tek ortaklı limited şirket (TTK m. 574)\n\n- Ortak sayısı **elliyi aşamaz** (TTK m. 574/1).\n- Ortak sayısı bire düşerse, bu sonucu doğuran işlem tarihinden itibaren **yedi gün** içinde müdürlere yazılı bildirim yapılır. Müdürler, bildirimin alınmasından başlayarak **yedinci günün sonuna kadar** şirketin tek ortaklı olduğunu, ortağın adını, yerleşim yerini ve vatandaşlığını tescil ve ilan ettirir; aksi hâlde doğacak zarardan sorumlu olur. Şirket tek ortakla kurulmuşsa da aynı yükümlülük vardır (TTK m. 574/2).\n- Şirket, tek ortağının kendisi olacağı sonucunu doğuracak şekilde kendi esas sermaye payını iktisap edemez (TTK m. 574/3).\n\n## 4. Kuruluş\n\n### 4.1. Şirket sözleşmesinin şekli ve içeriği\n\nŞirket sözleşmesinin **yazılı** yapılması ve kurucular tarafından **ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda** imzalanması şarttır (TTK m. 575/1). Sözleşmede şu kayıtların açıkça yer alması zorunludur (TTK m. 576/1):\n\n- ticaret unvanı ve merkez,\n- işletme konusu (esaslı noktaları belirtilmiş ve tanımlanmış),\n- esas sermayenin itibarî tutarı, payların sayısı, itibarî değerleri, varsa imtiyazlar ve gruplar,\n- müdürlerin adı, soyadı, unvanı, vatandaşlığı,\n- şirketin yapacağı ilanların şekli.\n\nEk ödeme, yan edim, önalım ve rekabet yasağının ağırlaştırılması gibi kayıtlar ise **ancak sözleşmede öngörülürlerse** bağlayıcıdır (TTK m. 577/1).\n\n### 4.2. Kurulma anı ve tüzel kişilik\n\nŞirket, kurucuların sermayenin tamamını ödemeyi şartsız taahhüt ettikleri sözleşmeyi sicil müdürlüğünde yetkilendirilmiş personelin huzurunda imzalayarak kurma iradelerini açıklamalarıyla kurulur (TTK m. 585/1). **Tüzel kişilik** ise ticaret siciline **tescille** kazanılır (TTK m. 588/1). Tescilden önce şirket adına işlem yapanlar şahsen ve müteselsilen sorumludur (TTK m. 588/3).\n\n### 4.3. Anonim şirketten fark: tescilden önce %25 ödeme\n\nAnonim şirkette nakden taahhüt edilen payların itibarî değerlerinin en az %25'i tescilden önce ödenir (TTK m. 344/1). Limited şirkette ise TTK m. 585/1'e eklenen cümle uyarınca bu şart **uygulanmaz**. Ödeme yeri, ifa borcu, ifa etmemenin sonuçları ve bedelleri tamamen ödenmemiş payların devri bakımından anonim şirket hükümleri kıyasen uygulanır.\n\n> ⚠️ **Sınavda dikkat:** \"Nakdî sermayenin dörtte biri tescilden önce ödenir\" kuralı anonim şirket içindir. Limited şirkette bu şart aranmaz.\n\n## 5. Esas sermaye ve paylar\n\n### 5.1. Asgari esas sermaye\n\nKanun metninde limited şirketin esas sermayesi en az **10.000 TL**'dir (TTK m. 580/1). 📌 24.11.2023 tarihli **7887 sayılı Cumhurbaşkanı Kararı** ile bu tutar **50.000 TL**'ye yükseltilmiştir (TTK m. 580'in dipnotu); anonim şirkette karşılık gelen tutar 250.000 TL'dir.\n\n📌 **Uyum süresi.** TTK'nın geçici 15. maddesi (7511 sayılı Kanunla eklendi) uyarınca sermayesi en az tutarın altında olan anonim ve limited şirketler sermayelerini **31.12.2026** tarihine kadar yükseltmek zorundadır; aksi hâlde infisah etmiş sayılırlar. Bu artırım kararları için kolaylaştırılmış genel kurul nisapları öngörülmüştür. Sürenin Bakanlıkça uzatılıp uzatılmadığı ayrıca resmî kaynaktan izlenmelidir.\n\n### 5.2. Esas sermaye payları\n\n- Payların itibarî değeri sözleşmede **en az 25 TL** olarak belirlenebilir; şirketin durumunu iyileştirme amacıyla bu değerin altına inilebilir (TTK m. 583/1).\n- Payların değerleri farklı olabilir; ancak değerler **25 TL veya katları** olmalıdır (TTK m. 583/2).\n- Bir ortak birden fazla paya sahip olabilir (TTK m. 583/3).\n- Paylar itibarî değerden veya bu değeri aşan bedelle çıkarılabilir (TTK m. 583/4).\n- Pay bedeli sözleşmede öngörüldüğü şekilde nakit, ayın, alacağın takası veya serbestçe kullanılabilir özkaynakların sermayeye dönüştürülmesi yoluyla ödenir (TTK m. 583/5).\n\nPay senetleri **ispat aracı** şeklinde veya **nama yazılı** olarak düzenlenir (TTK m. 593/2). Yani limited şirket payı, kıymetli evrak olarak serbestçe dolaşan bir senede bağlanmaz.\n\n## 6. Esas sermaye payının devri\n\n### 6.1. İradi devir (TTK m. 595)\n\nDevir, anonim şirketteki nama yazılı pay devrinden (TTK m. 490/1: kural olarak sınırsız devir) çok daha sıkı kurallara bağlıdır. İki unsur birlikte aranır:\n\n1. **Şekil:** devir ve devir borcunu doğuran işlemler yazılı yapılır ve tarafların **imzaları noterce onanır** (TTK m. 595/1). Ek ödeme, yan edim, ağırlaştırılmış rekabet yasağı, önalım, geri alım ve alım hakları ile sözleşme cezası da devir sözleşmesinde belirtilir.\n2. **Genel kurul onayı:** şirket sözleşmesinde aksi öngörülmemişse devir için ortaklar genel kurulunun onayı şarttır ve **devir bu onayla geçerli olur** (TTK m. 595/2).\n\nEk kurallar:\n- Sözleşmede aksi yoksa genel kurul onayı **sebep göstermeksizin** reddedebilir (TTK m. 595/3).\n- Sözleşmeyle devir **yasaklanabilir** (TTK m. 595/4). Devir yasaklanmış veya onay reddedilmişse ortağın haklı sebeple şirketten çıkma hakkı saklıdır (TTK m. 595/5).\n- Ek ödeme veya yan edim yükümlülüğü varsa devralanın ödeme gücü şüpheli görülüp istenen teminat verilmemişse genel kurul, sözleşmede hüküm bulunmasa bile onayı reddedebilir (TTK m. 595/6).\n- **Başvurudan itibaren üç ay içinde** genel kurul reddetmezse onayı vermiş sayılır (TTK m. 595/7).\n\n> **Örnek:** Ali, Limited A'daki 10.000 TL değerli payını Ayşe'ye noter onaylı yazılı sözleşmeyle devretmiş ve 1 Şubat'ta şirkete onay için başvurmuştur. Genel kurul 1 Mayıs'a kadar hiçbir karar almazsa onay verilmiş sayılır. Aynı devir adi yazılı yapılsaydı şekil eksikliği nedeniyle geçerli olmazdı.\n\n> ⚠️ **Sınavda dikkat:** Anonim şirkette payın devri kural olarak serbesttir ve esas sözleşme devredilebilirlik şartlarını ağırlaştıramaz (TTK m. 493/7). Limited şirkette ise noter onayı ve genel kurul onayı kuraldır, sözleşmeyle devir yasaklanabilir.\n\n| | Anonim (nama yazılı) | Limited |\n|---|---|---|\n| Kural | Serbest (TTK m. 490/1) | Noter onayı + genel kurul onayı (TTK m. 595) |\n| Devir yasağı | Esas sözleşme ağırlaştıramaz (TTK m. 493/7) | Sözleşmeyle yasaklanabilir (TTK m. 595/4) |\n| Nakdî sermayede tescil öncesi ödeme | En az %25 (TTK m. 344/1) | Aranmaz (TTK m. 585/1) |\n\n### 6.2. Miras, mal rejimi ve icra yoluyla geçiş (TTK m. 596)\n\nEsas sermaye payı **miras, eşler arasındaki mal rejimi veya icra** yoluyla geçerse tüm hak ve borçlar **genel kurul onayı aranmaksızın** payı iktisap eden kişiye geçer (TTK m. 596/1). Şirket, iktisabın öğrenilmesinden itibaren **üç ay** içinde geçişi onaylamayı reddedebilir; bunun için payları kendi veya ortağı ya da kendisinin gösterdiği üçüncü kişi hesabına **gerçek değeri üzerinden devralmayı** payın geçtiği kişiye önermesi şarttır (TTK m. 596/2). Ret, devrin gerçekleştiği günden geçerli olmak üzere geriye etkilidir; ancak o zamana kadar alınan genel kurul kararlarının geçerliliğini etkilemez (TTK m. 596/3). Şirket üç ay içinde geçişi açıkça ve yazılı olarak reddetmemişse onay vermiş sayılır (TTK m. 596/4).\n\n> **Örnek:** Ortak Kaan ölmüş, payı mirasçısı Selin'e geçmiştir. Şirket üç ay içinde Selin'e gerçek değer üzerinden devralma önerisiyle ret bildirmezse Selin ortak olarak kalır. Ret için sadece \"yabancı ortak istemiyoruz\" demek yetmez; devralma önerisi şarttır.\n\n## 7. Ortakların yükümlülükleri\n\n### 7.1. Ek ödeme (TTK m. 603)\n\nOrtaklar şirket sözleşmesiyle, pay bedeli dışında **ek ödeme** ile yükümlü tutulabilir. Bu yükümlülük ancak şu hâllerde istenebilir (TTK m. 603/1):\n\n1. esas sermaye ile kanuni yedek akçeler toplamı şirketin zararını karşılayamıyorsa,\n2. şirket bu ek araçlar olmaksızın işlerine gereği gibi devam edemiyorsa,\n3. sözleşmede tanımlanan ve özkaynak ihtiyacı doğuran başka bir hâl gerçekleşmişse.\n\nÖnemli sınırlar: ek ödeme esas sermaye payını esas alan belirli bir tutar olarak öngörülür ve bu tutar **payın itibarî değerinin iki katını aşamaz** (TTK m. 603/3). Her ortak yalnız kendi payına düşen ek ödemeden sorumludur (TTK m. 603/4), ödemeyi **müdürler** ister (TTK m. 603/5), iflasın açılmasıyla yükümlülük muaccel olur (TTK m. 603/2). Yükümlülüğün azaltılması veya kaldırılması ancak esas sermaye ile kanuni yedek akçelerin zararları tamamen karşılaması hâlinde mümkündür (TTK m. 603/6).\n\nEk ödemeden ayrı olarak sözleşmeyle, işletme konusunun gerçekleşmesine hizmet edecek **yan edim yükümlülükleri** de öngörülebilir (TTK m. 606/1).\n\n> **Örnek:** Z Ltd.'de Ali'nin payının itibarî değeri 30.000 TL'dir. Sözleşmeye göre ek ödeme sınırı 60.000 TL'yi aşamaz. Ali'den 90.000 TL ek ödeme istenemez.\n\n### 7.2. Bağlılık yükümü ve rekabet yasağı (TTK m. 613)\n\n- Ortaklar **şirket sırlarını korumak** zorundadır. Bu yükümlülük şirket sözleşmesi veya genel kurul kararıyla kaldırılamaz (TTK m. 613/1).\n- Ortaklar şirketin çıkarlarını zedeleyebilecek davranışlarda bulunamaz; özellikle kendilerine özel menfaat sağlayan ve şirketin amacına zarar veren işlemler yapamaz (TTK m. 613/2).\n- Ortakların şirketle **rekabet eden** işlem ve davranışlardan kaçınmaları ancak **şirket sözleşmesiyle öngörülebilir** (TTK m. 613/2 son cümle). Sözleşmede yasak yoksa ortağın rakip şirket kurması tek başına ihlal sayılmaz.\n- **Müdürler** için rekabet yasağı doğrudan kanundan gelir; sözleşme aksini söylemediği veya diğer ortaklar yazılı izin vermediği sürece müdür şirketle rekabet oluşturan faaliyette bulunamaz (TTK m. 626/2; TTK m. 613/3).\n- Geri kalan ortakların tümü yazılı onay verirse, ortaklar bağlılık yükümüne ya da rekabet yasağına aykırı faaliyette bulunabilir; sözleşme bu onay yerine genel kurul kararı öngörebilir (TTK m. 613/4).\n\n## 8. Denetim şeması\n\n1. Ortak sayısı elliyi aşıyor mu, tek ortak bildirimi yapıldı mı (TTK m. 574)?\n2. Şirket sözleşmesi usulüne uygun mu, zorunlu kayıtlar var mı (TTK m. 575, TTK m. 576)?\n3. Esas sermaye en az tutarın altında mı (TTK m. 580, TTK'nın geçici 15. maddesi)? Pay değerleri 25 TL ve katları mı (TTK m. 583)?\n4. Tüzel kişilik tescille mi doğdu (TTK m. 588)?\n5. Pay devri: noter onayı, genel kurul onayı, üç aylık süre (TTK m. 595); kanuni geçiş ise TTK m. 596.\n6. Sorumluluk: özel hukuk borcunda yok (TTK m. 573/2); kamu borcunda 6183 sayılı Kanun m. 35.\n7. Ek ödeme ve rekabet yasağı sözleşmede var mı, sınırlar aşılmış mı (TTK m. 603, TTK m. 613)?",
+  "critical_md": "- 📌 Ortak sayısı en çok **50** (TTK m. 574/1). Ortak sayısı bire düşünce **7 gün** içinde müdürlere bildirim, bildirimden itibaren yedinci günün sonuna kadar tescil ve ilan (TTK m. 574/2).\n- 📌 Şirket sözleşmesi yazılıdır ve kurucular tarafından **sicil müdürlüğünde yetkilendirilmiş personelin huzurunda** imzalanır (TTK m. 575/1).\n- 📌 Asgari esas sermaye: kanun metninde 10.000 TL, 7887 sayılı Cumhurbaşkanı Kararıyla **50.000 TL** (TTK m. 580); uyum süresi **31.12.2026** (TTK'nın geçici 15. maddesi).\n- 📌 Pay değeri en az **25 TL** ve **katları** (TTK m. 583/1-2).\n- ⚠️ Nakdî payların **%25'inin tescilden önce ödenmesi** limited şirkette uygulanmaz (TTK m. 585/1); anonim şirkette uygulanır (TTK m. 344/1).\n- 📌 Tüzel kişilik **tescille** kazanılır (TTK m. 588/1).\n- 📌 Pay devri: **noter onaylı yazılı sözleşme + genel kurul onayı** (TTK m. 595/1-2). Sözleşmeyle devir yasaklanabilir (TTK m. 595/4); yasak veya red hâlinde çıkma hakkı saklıdır (TTK m. 595/5).\n- 📌 Başvurudan itibaren **3 ay** içinde reddedilmezse devir onaylanmış sayılır (TTK m. 595/7).\n- 📌 Miras, mal rejimi ve icra yoluyla geçişte genel kurul onayı **gerekmez**; şirket 3 ay içinde ancak **gerçek değerden devralmayı önererek** reddedebilir (TTK m. 596).\n- ⚠️ Ortak, şirketin **özel hukuk** borçlarından sorumlu değildir (TTK m. 573/2, TTK m. 602); **kamu borçlarında** sermaye hisseleri oranında sorumludur (6183 sayılı Kanun m. 35).\n- 📌 Ek ödeme tutarı payın itibarî değerinin **iki katını** aşamaz (TTK m. 603/3); ödemeyi müdürler ister.\n- ⚠️ **Sır saklama** yükümlülüğü sözleşme veya genel kurul kararıyla kaldırılamaz (TTK m. 613/1). Ortaklar için **rekabet yasağı** ancak sözleşmede öngörülürse vardır (TTK m. 613/2); müdürler için kanundan gelir (TTK m. 626/2).",
+  "doctrine_md": "### Genel kurulun devir onayını reddetmesine karşı başvuru yolu\nTTK m. 595/3 gereği sözleşmede aksi yoksa genel kurul onayı sebep göstermeden reddedebilir. Bir görüşe göre bu, genel kurula mutlak bir takdir yetkisi tanır ve ret kararı denetlenemez. Karşı görüşe göre ret, açıkça hakkın kötüye kullanılması (TMK m. 2) veya eşit işlem ilkesine aykırılık oluşturuyorsa genel kurul kararının iptali istenebilir. Her iki görüşte de ortağın TTK m. 595/5 uyarınca haklı sebeple şirketten çıkma hakkı saklı kalır.\n\n### Onaya kadar devrin hukuki durumu\nNoter onaylı sözleşme yapıldıktan sonra genel kurul onayı gelinceye kadar devrin durumu tartışmalıdır. Kanun devrin \"bu onayla geçerli\" olduğunu söylediği için (TTK m. 595/2), onaya kadar devralanın ortaklık sıfatı kazanmadığı, oy ve kâr payı haklarının devredende kaldığı genel olarak kabul edilir. Onay verilmezse devirin akıbetine ilişkin ayrıntılı sonuçlar doktrinde farklı biçimlerde açıklanır; sınavda temel kuralı (onaysız devir tamamlanmaz) vermek yeterlidir.\n\n### Mirasçıların ortaklık payı üzerindeki hakları\nTTK m. 596/1 payın miras yoluyla kendiliğinden mirasçılara geçtiğini söyler. Birden çok mirasçı varsa payın bölünemezliği ilkesi gündeme gelir. Yargıtay 11. Hukuk Dairesi, mirasçıların murise ait paylar üzerinde elbirliği mülkiyetine sahip olduğunu (TMK m. 701), paylı mülkiyete dönüşmediği sürece yönetim haklarını birlikte kullanmaları gerektiğini kabul etmiştir. Payın doğrudan kanuni miras payları oranında bölünerek mirasçılara geçtiği yönündeki görüşü ise yerinde bulmamıştır.\n\n### Ortak rekabet yasağının kapsamı\nOrtaklar için rekabet yasağı kanunda doğrudan öngörülmemiştir; yalnız sözleşmeyle getirilebilir (TTK m. 613/2). Buna karşılık bağlılık yükümü kanunidir. Bu nedenle sözleşmede yasak olmasa bile ortağın şirketin sırlarını kullanması veya şirketin çıkarlarına zarar veren işlem yapması TTK m. 613/1-2'ye aykırılık oluşturabilir. Ayrım şudur: rakip şirket kurmak tek başına yasak değildir; sır ifşası ve zarar ise yasaktır.",
+  "glossary": [
+   {
+    "term": "Esas sermaye",
+    "definition": "Limited şirkette ortakların taahhüt ettiği, şirket sözleşmesinde yazılı, esas sermaye paylarının toplamından oluşan belirli sermaye tutarı."
+   },
+   {
+    "term": "Esas sermaye payı",
+    "definition": "Ortağın şirketteki üyelik hakkını temsil eden, itibarî değeri en az 25 TL olan ve 25 TL'nin katı biçiminde belirlenen pay."
+   },
+   {
+    "term": "Ek ödeme yükümlülüğü",
+    "definition": "Sözleşmede öngörülmesi şartıyla ortağın pay bedeli dışında, payın itibarî değerinin en çok iki katı tutarında yapacağı ödeme."
+   },
+   {
+    "term": "Yan edim yükümlülüğü",
+    "definition": "Sözleşmeyle ortağa yüklenen ve işletme konusunun gerçekleşmesine hizmet eden para dışı da olabilen edimler."
+   },
+   {
+    "term": "Bağlılık yükümü",
+    "definition": "Ortağın şirket sırlarını koruma ve şirketin çıkarlarını zedeleyen davranışlardan kaçınma borcu."
+   },
+   {
+    "term": "Önalım",
+    "definition": "Sözleşmeyle tanınan, payın devri hâlinde belirli kişilere payı öncelikle satın alma hakkı."
+   },
+   {
+    "term": "Tek ortaklı limited şirket",
+    "definition": "Ortak sayısı bire düşen veya bir ortakla kurulan, durumu tescil ve ilan ettirilen limited şirket."
+   },
+   {
+    "term": "Kanuni geçiş",
+    "definition": "Payın miras, mal rejimi veya icra yoluyla genel kurul onayı olmadan iktisap edenine geçmesi."
+   },
+   {
+    "term": "Müdür",
+    "definition": "Limited şirketin yönetimiyle görevli kişi; kanundan doğan rekabet yasağına tabidir."
+   },
+   {
+    "term": "Amme alacağı",
+    "definition": "Vergi, SGK primi gibi kamu hukukundan doğan alacak; limited şirkette ortaklara karşı da takip edilebilir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "332",
+   "official_text": "IV - En az sermaye tutarı\nMADDE 332- (1) Tamamı esas sözleşmede taahhüt edilmiş bulunan sermayeyi ifade eden esas sermaye ellibin Türk Lirasından ve sermayenin artırılmasında yönetim kuruluna tanınmış yetki tavanını gösteren kayıtlı sermaye sistemini kabul etmiş bulunan halka açık olmayan anonim şirketlerde başlangıç sermayesi yüzbin Türk Lirasından aşağı olamaz. Bu en az sermaye tutarı Cumhurbaşkanınca artırılabilir.[41][42]\n(2) Bu Kanun anlamında kayıtlı sermayeli anonim şirketlerde başlangıç sermayesi, kuruluşta ve sisteme ilk geçildiğinde haiz olunması zorunlu sermayedir; çıkarılmış sermaye ise, çıkarılmış payların tümünün itibarî değerlerinin toplamını temsil eder.\n(3) Halka açık olmayan anonim şirketler gerekli şartları artık haiz olmadıkları takdirde, Gümrük ve Ticaret Bakanlığından izin alarak kayıtlı sermaye sisteminden çıkabilecekleri gibi, bu sisteme alınırken aranan nitelikleri kaybettiklerinde, istemleri bulunmasa bile aynı Bakanlık tarafından sistemden çıkartılırlar.\n(4) 28/7/1981 tarihli ve 2499 sayılı Sermaye Piyasası Kanununun 12 nci maddesi hükmü saklıdır.\n[41] 2/7/2018 tarihli ve 700 sayılı Kanun Hükmünde Kararnamenin 192 nci maddesiyle bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.\n[42] 24/11/2023 tarihli ve 7887 sayılı Cumhurbaşkanı Kararı ile bu fıkrada yer alan anonim şirketler için ellibin Türk Lirası olarak öngörülen en az esas sermaye tutarı ikiyüzellibin Türk Lirasına, kayıtlı sermaye sistemini kabul etmiş bulunan halka açık olmayan anonim şirketlerde yüzbin Türk Lirası olarak öngörülen en az başlangıç sermayesi tutarı beşyüzbin Türk Lirasına yükseltilmiştir. Söz konusu değişiklik daha sonra 26/11/2023 tarihli ve 32381 sayılı Resmî Gazete’de yayımlanan Düzeltme ile değiştirilerek düzeltilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "344",
+   "official_text": "1. Nakdî sermaye\nMADDE 344- (1) Nakden taahhüt edilen payların itibarî değerlerinin en az yüzde yirmibeşi tescilden önce, gerisi de şirketin tescilini izleyen yirmidört ay içinde ödenir. Payların çıkarma primlerinin tamamı tescilden önce ödenir.\n(2) Sermaye Piyasası Kanununun pay bedellerinin ödenmelerine ilişkin hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "490",
+   "official_text": "C) Nama yazılı payların ve pay senetlerinin devrinde ilke\nMADDE 490- (1) Kanunda veya esas sözleşmede aksi öngörülmedikçe, nama yazılı paylar, herhangi bir sınırlandırmaya bağlı olmaksızın devredilebilirler.\n(2) Hukuki işlemle devir, ciro edilmiş nama yazılı pay senedinin zilyetliğinin devralana geçirilmesiyle yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "493",
+   "official_text": "a) Red sebepleri\nMADDE 493- (1) Şirket, esas sözleşmede öngörülmüş önemli bir sebebi ileri sürerek veya devredene, paylarını, başvurma anındaki gerçek değeriyle, kendi veya diğer pay sahipleri ya da üçüncü kişiler hesabına almayı önererek, onay istemini reddedebilir.\n(2) Pay sahipleri çevresinin bileşimine ilişkin esas sözleşme hükümleri, şirketin işletme konusu veya işletmenin ekonomik bağımsızlığı yönünden onayın reddini haklı gösteriyorsa, önemli sebep oluşturur.\n(3) Bundan başka, devralan, payları kendi adına ve hesabına aldığını açıkça beyan etmezse şirket, devrin pay defterine kaydını reddedebilir.\n(4) Paylar; miras, mirasın paylaşımı, eşler arasındaki mal rejimi hükümleri veya cebrî icra gereği iktisap edilmişlerse, şirket, payları edinen kişiye, sadece paylarını gerçek değeri ile devralmayı önerdiği takdirde onay vermeyi reddedebilir.\n(5) Devralan, paylarının gerçek değerinin belirlenmesini, şirketin merkezinin bulunduğu yerdeki asliye ticaret mahkemesinden isteyebilir; bu hâlde mahkeme şirketin karar tarihine en yakın tarihteki değerini esas alır. Değerleme giderlerini şirket karşılar.\n(6) Devralan, gerçek değeri öğrendiği tarihten itibaren bir ay içinde bu fiyatı reddetmezse, şirketin devralma önerisini kabul etmiş sayılır.\n(7) Esas sözleşme devredilebilirlik şartlarını ağırlaştıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "573",
+   "official_text": "A) Kavram\nMADDE 573- (1) Limited şirket, bir veya daha çok gerçek veya tüzel kişi tarafından bir ticaret unvanı altında kurulur; esas sermayesi belirli olup, bu sermaye esas sermaye paylarının toplamından oluşur.\n(2) Ortaklar, şirket borçlarından sorumlu olmayıp, sadece taahhüt ettikleri esas sermaye paylarını ödemekle ve şirket sözleşmesinde öngörülen ek ödeme ve yan edim yükümlülüklerini yerine getirmekle yükümlüdürler.\n(3) Limited şirket, kanunen yasak olmayan her türlü ekonomik amaç ve konu için kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "574",
+   "official_text": "B) Ortakların sayısı\nMADDE 574- (1) Ortakların sayısı elliyi aşamaz.\n(2) Ortak sayısı bire düşerse durum, bu sonucu doğuran işlem tarihinden itibaren yedi gün içinde müdürlere yazıyla bildirilir. Müdürler, bildirimin alınması tarihinden başlayarak yedinci günün sonuna kadar, şirketin tek ortaklı olduğunu, bu ortağın adını, yerleşim yerini ve vatandaşlığını tescil ve ilan ettirirler, aksi hâlde doğacak zarardan sorumlu olurlar. Aynı yükümlülük, şirketin bir ortakla kurulduğu hâllerde de geçerlidir.\n(3) Şirket, tek ortağının kendisinin olacağı bir şirkete dönüşeceği sonucunu doğuracak şekilde esas sermaye payını iktisap edemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "575",
+   "official_text": "I - Şekil\nMADDE 575- (1) Şirket sözleşmesinin yazılı şekilde yapılması ve kurucular tarafından ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda imzalanması şarttır. (Ek cümle: 15/7/2016-6728/67 md.) Şirketin kuruluşunda, şirket sözleşmesini ihtiva eden kâğıtlardan değerli kâğıt bedeli alınmaz.[81][82]\n[81] 15/7/2016 tarihli ve 6728 sayılı Kanunun 67 nci maddesi ile bu fıkraya “onaylanması” ibaresinden sonra gelmek üzere “veya şirket sözleşmesinin ticaret sicili müdürü yahut yardımcısı huzurunda imzalanması” ibaresi eklenmiştir.\n[82] 15/2/2018 tarihli ve 7099 sayılı Kanunun 24 üncü maddesi ile bu fıkrada yer alan “kurucuların imzalarının noterce onaylanması veya şirket sözleşmesinin ticaret sicili müdürü yahut yardımcısı” ibaresi “kurucular tarafından ticaret sicili müdürlüğünde yetkilendirilmiş personelin” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "576",
+   "official_text": "1. Zorunlu kayıtlar\nMADDE 576- (1) Şirket sözleşmesinde aşağıdaki kayıtların açıkça yer alması gereklidir:\na) Şirketin ticaret unvanı ve merkezinin bulunduğu yer.\nb) Esaslı noktaları belirtilmiş ve tanımlanmış bir şekilde, şirketin işletme konusu.\nc) Esas sermayenin itibarî tutarı, esas sermaye paylarının sayısı, itibarî değerleri, varsa imtiyazlar, esas sermaye paylarının grupları.\nd) Müdürlerin adları, soyadları, unvanları, vatandaşlıkları.\ne) Şirket tarafından yapılacak ilanların şekli.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "577",
+   "official_text": "2. Şirket sözleşmesinde öngörülmeleri şartıyla bağlayıcı olan hükümler\nMADDE 577- (1) Aşağıdaki kayıtlar, şirket sözleşmesinde öngörüldükleri takdirde bağlayıcı hükümlerdir:\na) Esas sermaye paylarının devrinin sınırlandırılmasına ilişkin kanuni hükümlerden ayrılan düzenlemeler.\nb) Ortaklara veya şirkete, esas sermaye payları ile ilgili olarak önerilmeye muhatap olma, önalım, geri alım ve alım hakları tanınması.\nc) Ek ödeme yükümlülüklerinin öngörülmesi, bunların şekli ve kapsamı.\nd) Yan edim yükümlülüklerinin öngörülmesi, bunların şekli ve kapsamı.\ne) Belirli veya belirlenebilir ortaklara veto hakkı veya bir genel kurul kararının oylanması sonucunda oyların eşit çıkması hâlinde bazı ortaklara üstün oy hakkı tanıyan hükümler.\nf) Kanunda ya da şirket sözleşmesinde öngörülmüş bulunan yükümlülüklerin hiç ya da zamanında yerine getirilmemeleri hâlinde uygulanabilecek sözleşme cezası hükümleri.\ng) Kanuni düzenlemeden ayrılan rekabet yasağına ilişkin hükümler.\nh) Genel kurulun toplantıya çağrılmasına ilişkin özel hak tanıyan hükümler.\nı) Genel kurulda karar almaya, oy hakkına ve oy hakkının hesaplanmasına ilişkin kanuni düzenlemeden ayrılan hükümler.\ni) Şirket yönetiminin üçüncü bir kişiye bırakılmasına ilişkin yetki hükümleri.\nj) Bilanço kârının kullanılması hakkında kanundan ayrılan hükümler.\nk) Çıkma hakkının tanınması ile bunun kullanılmasının şartları, bu hâllerde ödenecek olan ayrılma akçesinin türü ve tutarı.\nl) Ortağın şirketten çıkarılmasına ilişkin özel sebepleri gösteren hükümler.\nm) Kanunda belirtilenler dışında öngörülen sona erme sebeplerine dair hükümler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "580",
+   "official_text": "I - En az tutar\nMADDE 580- (1) Limited şirketin esas sermayesi en az onbin Türk Lirasıdır. [83]\n(2) Bu maddede yazılı en az tutar, Cumhurbaşkanınca on katına kadar artırılabilir.[84]\n[83] 24/11/2023 tarihli ve 7887 sayılı Cumhurbaşkanı Kararı ile bu fıkrada yer alan limited şirketler için onbin Türk Lirası olarak öngörülen en az esas sermaye tutarı ellibin Türk Lirasına yükseltilmiştir.Söz konusu değişiklik daha sonra 26/11/2023 tarihli ve 32381 sayılı Resmî Gazete’de yayımlanan Düzeltme ile değiştirilerek düzeltilmiştir.\n[84] 2/7/2018 tarihli ve 700 sayılı Kanun Hükmünde Kararnamenin 192 nci maddesiyle bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "583",
+   "official_text": "E) Esas sermaye payları\nMADDE 583- (1) Şirket sözleşmesinde esas sermaye paylarının itibarî değerleri en az yirmibeş Türk Lirası olarak belirlenebilir. Şirketin durumunun iyileştirilmesi amacıyla bu değerin altına inilebilir.\n(2) Esas sermaye paylarının itibarî değerleri farklı olabilir. Ancak, esas sermaye paylarının değerlerinin yirmibeş Türk Lirası veya bunun katları olması şarttır. Bir esas sermaye payının vereceği oyun, 618 inci madde uyarınca itibarî değere göre hesaplanması, esas sermaye payının bölünmesi değildir. Aynı hüküm bir hakkın veya yükümlülüğün itibarî değere göre belirlendiği durumlar için de geçerlidir.\n(3) Bir ortak birden fazla esas sermaye payına sahip olabilir.\n(4) Esas sermaye payları itibarî değerden veya bu değeri aşan bir bedelle çıkarılabilir.\n(5) Esas sermaye payının bedeli şirket sözleşmesinde öngörüldüğü şekilde, nakit veya ayın olarak veya bir alacağın takası yoluyla yahut sermaye artırımında olduğu gibi, serbestçe kullanılabilecek özkaynakların esas sermayeye dönüştürülmesi yoluyla ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "585",
+   "official_text": "I - Kurulma anı\nMADDE 585- (Değişik: 26/6/2012-6335/31 md.)\n(1) Şirket, kurucuların, kanuna uygun olarak düzenlenmiş bulunan, sermayenin tamamını ödemeyi şartsız olarak taahhüt ettikleri, ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda imzaladığı şirket sözleşmesinde limited şirket kurma iradelerini açıklamalarıyla kurulur. Esas sermaye pay bedellerinin ödenmesi, ödeme yeri, ifa borcu, ifa etmemenin sonuçları, bedelleri tamamen ödenmemiş payların devri hususlarında bu Kanunun anonim şirketlere ilişkin hükümleri kıyasen uygulanır. (Ek cümle: 15/2/2018-7099/25 md.) Ancak nakden taahhüt edilen payların itibari değerlerinin en az yüzde yirmibeşinin tescilden önce ödenmesi şartı limited şirketler bakımından uygulanmaz. 588 inci maddenin birinci fıkra hükümleri saklıdır.[85][86]\n[85] 15/7/2016 tarihli ve 6728 sayılı Kanunun 67 nci maddesi ile bu fıkraya “onaylandığı” ibaresinden sonra gelmek üzere “veya ticaret sicili müdürü yahut yardımcısı huzurunda imzaladığı” ibaresi eklenmiştir.\n[86] 15/2/2018 tarihli ve 7099 sayılı Kanunun 25 inci maddesi ile bu fıkrada yer alan “imzalarının noterce onaylandığı veya ticaret sicili müdürü yahut yardımcısı” ibaresi “ticaret sicili müdürlüğünde yetkilendirilmiş personelin” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "588",
+   "official_text": "III - Tüzel kişilik\nMADDE 588- (1) Şirket, ticaret siciline tescil ile tüzel kişilik kazanır.\n(2) Şirketçe kabul olunmadığı takdirde, kuruluş giderleri kurucular tarafından karşılanır. Bunların pay sahiplerine rücû hakları yoktur.\n(3) Tescilden önce şirket adına işlem yapanlar, bu işlemler dolayısıyla şahsen ve müteselsilen sorumludur.\n(4) Bu gibi taahhütlerin, ileride kurulacak şirket adına yapıldıklarının açıkça bildirilmeleri ve şirketin ticaret siciline tescilini izleyen üç aylık süre içinde şirket tarafından kabul edilmeleri koşuluyla, bunlardan yalnız şirket sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "593",
+   "official_text": "I - Genel olarak\nMADDE 593- (1) Esas sermaye payının şirketçe iktisabına ilişkin 612 nci maddenin ikinci fıkrasında öngörülen hâller dışında, esas sermaye payı, ortaklar arasındaki devirler de dâhil olmak üzere sadece aşağıdaki hükümler uyarınca devredilebilir ve miras yoluyla geçer.\n(2) Esas sermaye pay senetleri ispat aracı şeklinde veya nama yazılı olarak düzenlenir. Ek ödeme ve yan edim yükümlülüklerinin, ağırlaştırılmış veya bütün ortakları kapsayacak biçimde düzenlenmiş rekabet yasağının ve şirket sözleşmesinde öngörülmüş önerilmeye muhatap olma, önalım, geri alım ve alım haklarının, bu senetlerde açıkça belirtilmesi gereklidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "595",
+   "official_text": "1. Devir\nMADDE 595- (1) Esas sermaye payının devri ve devir borcunu doğuran işlemler yazılı şekilde yapılır ve tarafların imzaları noterce onanır. Ayrıca devir sözleşmesinde, ek ödeme ve yan edim yükümlülükleri; rekabet yasağı ağırlaştırılmış veya tüm ortakları kapsayacak biçimde genişletilmiş ise, bu husus, önerilmeye muhatap olma, önalım, geri alım ve alım hakları ile sözleşme cezasına ilişkin koşullara da belirtilir.\n(2) Şirket sözleşmesinde aksi öngörülmemişse, esas sermaye payının devri için, ortaklar genel kurulunun onayı şarttır. Devir bu onayla geçerli olur.\n(3) Şirket sözleşmesinde başka türlü düzenlenmemişse, ortaklar genel kurulu sebep göstermeksizin onayı reddedebilir.\n(4) Şirket sözleşmesiyle sermaye payının devri yasaklanabilir.\n(5) Şirket sözleşmesi devri yasaklamış veya genel kurul onay vermeyi reddetmişse, ortağın haklı sebeple şirketten çıkma hakkı saklı kalır.\n(6) Şirket sözleşmesinde ek ödeme veya yan edim yükümlülükleri öngörüldüğü takdirde, devralanın ödeme gücü şüpheli görüldüğü için ondan istenen teminat verilmemişse, genel kurul şirket sözleşmesinde hüküm bulunmasa bile, onayı reddedebilir.\n(7) Başvurudan itibaren üç ay içinde genel kurul reddetmediği takdirde onayı vermiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "596",
+   "official_text": "2. Miras, eşler arasındaki mal rejimi ve icra\nMADDE 596- (1) Esas sermaye payının, miras, eşler arasındaki mal rejimine ilişkin hükümler veya icra yoluyla geçmesi hâllerinde, tüm haklar ve borçlar, genel kurulun onayına gerek olmaksızın, esas sermaye payını iktisap eden kişiye geçer.\n(2) Şirket, iktisabın öğrenilmesinden itibaren üç ay içinde esas sermaye payının geçtiği kişiyi onaylamayı reddedebilir. Bunun için, şirketin, payları kendi veya ortağı ya da kendisi tarafından gösterilen üçüncü bir kişi hesabına, gerçek değeri üzerinden devralmayı, payın geçtiği kişiye önermesi şarttır.\n(3) Red kararı, devrin gerçekleştiği günden itibaren geçerli olmak üzere geriye etkilidir. Red, bu konudaki kararın verilmesine kadar geçen süre içinde alınan genel kurul kararlarının geçerliliğini etkilemez.\n(4) Şirket, üç ay içinde esas sermaye payının geçişini açıkça ve yazılı olarak reddetmemişse onayını vermiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "602",
+   "official_text": "C) Ortakların sorumluluğu\nMADDE 602- (1) Şirket, borç ve yükümlülükleri dolayısıyla sadece malvarlığıyla sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "603",
+   "official_text": "1. Kural\nMADDE 603- (1) Ortaklar şirket sözleşmesiyle, esas sermaye payı bedeli dışında ek ödeme ile de yükümlü tutulabilirler. Ortaklardan bu yükümlülüğün yerine getirilmesi ancak,\na) Şirket esas sermayesi ile kanuni yedek akçeler toplamının şirketin zararını karşılayamaması,\nb) Şirketin bu ek araçlar olmaksızın işlerine gereği gibi devamının mümkün olmaması,\nc) Şirket sözleşmesinde tanımlanan ve özkaynak ihtiyacı doğuran diğer bir hâlin gerçekleşmiş bulunması,\nhâllerinde istenebilir.\n(2) İflasın açılması ile ek ödeme yükümlülüğü muaccel olur.\n(3) Ek ödeme yükümlülüğü şirket sözleşmesinde ancak esas sermaye payını esas alan belirli bir tutar olarak öngörülebilir. Bu tutar esas sermaye payının itibarî değerinin iki katını aşamaz.\n(4) Her ortak, sadece kendi esas sermaye payına düşen ek ödemeyi yerine getirmekle yükümlüdür.\n(5) Şartlar gerçekleşmişse, ek ödemeler müdürler tarafından istenir.\n(6) Ek ödeme yükümlülüğünün azaltılması veya kaldırılması ancak esas sermaye ile kanuni yedek akçeler toplamının zararları tamamen karşılaması hâlinde mümkündür. Ek ödeme yükümlülüğünün azaltılmasına veya kaldırılmasına esas sermayenin azaltılması hakkındaki hükümler kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "606",
+   "official_text": "II - Yan edim yükümlülüğü\nMADDE 606- (1) Şirket sözleşmesiyle, şirketin işletme konusunun gerçekleşmesine hizmet edebilecek yan edim yükümlülükleri öngörülebilir.\n(2) Bir esas sermaye payına bağlı yan edim yükümlülüklerinin konusu, kapsamı, koşulları ve diğer önemli noktalar şirket sözleşmesinde belirtilir. Ayrıntıyı gerektiren konular genel kurul düzenlemesine bırakılabilir.\n(3) Şirket sözleşmesinde açıkça belirtilmiş bir karşılığı veya uygun bir karşılığı bulunmayan ve özkaynak ihtiyacını karşılamaya hizmet eden nakdî ve ayni edim yükümlülükleri, ek ödeme yükümlülüğüne ilişkin hükümlere tâbîdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "613",
+   "official_text": "G) Bağlılık yükümlülüğü ve rekabet yasağı\nMADDE 613- (1) Ortaklar, şirket sırlarını korumakla yükümlüdür. Bu yükümlülük şirket sözleşmesi veya genel kurul kararıyla kaldırılamaz.\n(2) Ortaklar, şirketin çıkarlarını zedeleyebilecek davranışlarda bulunamazlar. Özellikle, kendilerine özel bir menfaat sağlayan ve şirketin amacına zarar veren işlemler yapamazlar. Şirket sözleşmesiyle, ortakların, şirketle rekabet eden işlem ve davranışlardan kaçınmak zorunda oldukları öngörülebilir.\n(3) Müdürler hakkında rekabet yasağı öngören 626 ncı madde hükümleri saklıdır.\n(4) Geri kalan ortakların tümü yazılı olarak onay verdikleri takdirde, ortaklar, bağlılık yükümüne veya rekabet yasağına aykırı düşen faaliyetlerde bulunabilirler. Esas sözleşme birinci cümledeki onay yerine ortaklar genel kurulunun onay kararını öngörebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "626",
+   "official_text": "2. Özen ve bağlılık yükümü, rekabet yasağı\nMADDE 626- (1) Müdürler ve yönetimle görevli kişiler, görevlerini tüm özeni göstererek yerine getirmek ve şirketin menfaatlerini, dürüstlük kuralı çerçevesinde, gözetmekle yükümlüdürler. 202 ilâ 205 inci madde hükümleri saklıdır.\n(2) Şirket sözleşmesinde aksi öngörülmemiş veya diğer tüm ortaklar yazılı olarak izin vermemişse, müdürler şirketle rekabet oluşturan bir faaliyette bulunamazlar. Şirket sözleşmesi ortakların onayı yerine ortaklar genel kurulunun onay kararını öngörebilir.\n(3) Müdürler de ortaklar için öngörülmüş bulunan bağlılık borcuna tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "701",
+   "official_text": "1. Kaynakları ve niteliği\nMadde 701- Kanun veya kanunda öngörülen sözleşmeler uyarınca oluşan topluluk dolayısıyla mallara birlikte malik olanların mülkiyeti, elbirliği mülkiyetidir.\nElbirliği mülkiyetinde ortakların belirlenmiş payları olmayıp her birinin hakkı, ortaklığa giren malların tamamına yaygındır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "AMME ALACAKLARININ TAHSİL USULÜ HAKKINDA KANUN",
+   "law_no": "6183",
+   "article_no": "35",
+   "official_text": "Limited şirketlerin amme borçları (1)(2)\nMadde 35 – (Değişik: 22/7/1998 – 4369/ 21 md.)\nLimited şirket ortakları, şirketten tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan amme alacağından sermaye hisseleri oranında doğrudan doğruya sorumlu olurlar ve bu Kanun hükümleri gereğince takibe tabi tutulurlar.\n(Ek fıkra: 4/6/2008-5766/3 md.) Ortağın şirketteki sermaye payını devretmesi halinde, payı devreden ve devralan şahıslar devir öncesine ait amme alacaklarının ödenmesinden birinci fıkra hükmüne göre müteselsilen sorumlu tutulur.\n(Ek fıkra: 4/6/2008-5766/3 md.) Amme alacağının doğduğu ve ödenmesi gerektiği zamanlarda pay sahiplerinin farklı şahıslar olmaları halinde bu şahıslar, amme alacağının ödenmesinden birinci fıkra hükmüne göre müteselsilen sorumlu tutulur.\n(1) Bu madde başlığı, 22/7/1998 tarih ve 4369 sayılı Kanunun 21 inci maddesiyle değiştirilmiş ve metne işlenmiştir.\n(2) 4/6/2008 tarihli ve 5766 sayılı Kanunun 3 üncü maddesiyle; bu maddede yer alan \"şirketten tahsil imkanı bulunmayan\" ibaresi \"şirketten tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan\" şeklinde değiştirilmiş ve metne işlenmiştir.\nKanuni Temsilcilerin Sorumluluğu\nMükerrer Madde 35 – (Ek: 25/5/1995 – 4108/11 md.)\nTüzel kişilerle küçüklerin ve kısıtlıların, vakıflar ve cemaatler gibi tüzel kişiliği olmayan teşekküllerin mal varlığından tamamen veya kısmen tahsil edilemeyen veya tahsil edilemeyeceği anlaşılan amme alacakları, kanuni temsilcilerin ve tüzel kişiliği olmayan teşekkülü idare edenlerin şahsi mal varlıklarından bu Kanun hükümlerine göre tahsil edilir.\nBu madde hükmü, yabancı şahıs veya kurumların Türkiye’deki mümessilleri hakkında da uygulanır.\nTüzel kişilerin tasfiye haline girmiş veya tasfiye edilmiş olmaları, kanuni temsilcilerin tasfiyeye giriş tarihinden önceki zamanlara ait sorumluluklarını kaldırmaz.\nTemsilciler, teşekkülü idare edenler veya mümessiller, bu madde gereğince ödedikleri tutarlar için asıl amme borçlusuna rücu edebilirler.\n(Ek fıkra: 4/6/2008-5766/4 md.; İptal fıkra: Anayasa Mahkemesi’nin 19/3/2015 tarihli ve E.: 2014/144, K.: 2015/29 sayılı Kararı ile.)\n(Ek fıkra: 4/6/2008-5766/4 md.; İptal fıkra: Anayasa Mahkemesi’nin 19/3/2015 tarihli ve E.: 2014/144, K.: 2015/29 sayılı Kararı ile.)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/6231",
+   "karar_no": "2026/3261",
+   "decision_date": "04.06.2026",
+   "summary_md": "Davacı, 2015 tarihli noter onaylı sözleşmeyle davalı limited şirketin 360 payını (%40) devraldığını ileri sürmüş, 2020 tarihli ihtarnameyle şirkete başvurmasına rağmen payın pay defterine işlenmediğini belirterek ortaklığının tespitini, pay defterine ve ticaret siciline tescilini istemiştir. Davalı, devrin bir proje finansmanı ve teminat protokolü gereği, işin teminatı olarak yapıldığını savunmuştur. İlk derece mahkemesi, protokol gereğince santralin eksiksiz teslim edilmesiyle teminat amacının sona erdiği gerekçesiyle davayı reddetmiştir. Bölge adliye mahkemesi, TTK m. 595'e göre devrin geçerliliği için noter işlemi, bildirim ve genel kurul onayı gerektiğini, üç ay içinde reddedilmemenin onay sayılacağı yolundaki savunmanın ise devrin teminat amaçlı olduğu anlaşıldığından sonuç doğurmayacağını belirterek istinafı reddetmiştir. Yargıtay 11. Hukuk Dairesi kararı onamıştır. Karar, noter onaylı devir sözleşmesinin ortaklık kazandırması için sözleşmenin gerçek amacının da incelendiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1219969300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/5302",
+   "karar_no": "2026/2396",
+   "decision_date": "28.04.2026",
+   "summary_md": "Limited şirketin %25 ortağı murisin 2019'da ölümü üzerine mirasçılar, şirketin ölümü ilk günden bildiği hâlde TTK m. 596/2'deki üç aylık süre içinde onayı reddetmediğini, daha sonraki genel kurulda payların geçişinin yeniden oylanıp oy haklarının engellendiğini ileri sürmüş ve genel kurul kararlarının geçersizliğini istemiştir. İlk derece mahkemesi kararların yok hükmünde olduğunu tespit etmiş, bölge adliye mahkemesi istinafı reddetmiştir. Yargıtay 11. Hukuk Dairesi, TTK m. 596/1 uyarınca payın miras yoluyla genel kurul onayı aranmadan kendiliğinden mirasçılara geçtiğini, şirketin ret imkânını üç ay içinde kullanmadığını belirtmiştir. Dairenin değerlendirmesine göre mirasçılar payın üzerinde elbirliği mülkiyetine sahiptir (TMK m. 701); paylı mülkiyete dönüşmedikçe yönetim haklarını birlikte kullanmaları gerekir. Bölge adliye mahkemesinin, payın kendiliğinden bölünerek geçtiğine ilişkin gerekçesini yerinde bulmamış, ancak sonuç doğru olduğundan kararı onamıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1227850600",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/3651",
+   "karar_no": "2026/1928",
+   "decision_date": "13.04.2026",
+   "summary_md": "Limited şirketin kurucu ortağı, bilgi alma hakkının ihlal edildiğini, toplantılara çağrılmadığını ve uzun süre kâr dağıtılmadığını ileri sürerek haklı sebeple şirketten çıkmayı ve ayrılma akçesini istemiştir. Şirket ise karşı davada ortağın rakip bir dergi çıkararak şirketle rekabet ettiğini ileri sürüp ortağın çıkarılmasını istemiştir. İlk derece ve bölge adliye mahkemeleri asıl davayı kabul etmiş, karşı davayı reddetmiştir. Bölge adliye mahkemesine göre çıkarma kararının alındığı genel kurul toplantısına ortak usulüne uygun çağrılmamıştır; ayrıca şirket sözleşmesinde rekabet yasağına ilişkin özel bir düzenleme yoktur, ortağın kendi şirketini kurması şirket sırlarının ifşasına veya zarara yol açtığı ispatlanmadıkça sorumluluk doğurmaz. Yargıtay 11. Hukuk Dairesi kararı onamıştır. Karar, ortak rekabet yasağının ancak sözleşmede varsa söz konusu olacağı ve bağlılık borcunun ihlali için sır ifşası veya zararın ispatının arandığı çizgiyi gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1223673400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Limited şirketin ortak sayısı ve ortak sayısının bire düşmesi hâlinde yapılması gerekenler hakkında hangisi doğrudur?",
+   "options": [
+    "Ortak sayısı sınırsızdır; bire düşerse bildirim yükümlülüğü yoktur.",
+    "Ortak sayısı yirmiyi aşamaz; bire düşerse ortaklar otuz gün içinde sicile başvurur.",
+    "Ortak sayısı yüzü aşamaz; bire düşerse şirket kendiliğinden sona erer.",
+    "Ortak sayısı elliyi aşamaz; bire düşerse durum yedi gün içinde müdürlere yazılı bildirilir ve müdürler tescil ve ilan ettirir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 574/1 ortak sayısını elli ile sınırlar. TTK m. 574/2'ye göre sayı bire düşerse işlem tarihinden itibaren yedi gün içinde müdürlere yazılı bildirim yapılır; müdürler bildirimin alınmasından itibaren yedinci günün sonuna kadar tescil ve ilan ettirir. Şirket bu nedenle sona ermez."
+  },
+  {
+   "stem_md": "Limited şirketin kuruluşunda şirket sözleşmesinin imzalanmasına ilişkin hangisi doğrudur?",
+   "options": [
+    "Sözleşme genel kurulda oy çokluğuyla kabul edilir.",
+    "Sözleşme yalnız noter huzurunda imzalanabilir.",
+    "Sözleşme kurucular tarafından ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda imzalanır.",
+    "Adi yazılı sözleşme yeterlidir, imza şartı yoktur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 575/1 ve TTK m. 585/1 sözleşmenin yazılı yapılmasını ve kurucuların ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda imzalamasını arar. Noter şartı pay devrindeki şekil kuralıdır (TTK m. 595/1), kuruluşta aranmaz."
+  },
+  {
+   "stem_md": "Kanun metnindeki tutar, 7887 sayılı Cumhurbaşkanı Kararıyla değiştirildikten sonra limited şirketin en az esas sermayesi kaç TL'dir?",
+   "options": [
+    "50.000 TL",
+    "10.000 TL",
+    "25.000 TL",
+    "250.000 TL"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 580'in dipnotuna göre 7887 sayılı Karar limited şirketlerin en az esas sermaye tutarını 10.000 TL'den 50.000 TL'ye yükseltmiştir. 250.000 TL anonim şirkettir (TTK m. 332'nin dipnotu). 10.000 TL kanun metnindeki eski tutardır."
+  },
+  {
+   "stem_md": "Z Ltd.'nin şirket sözleşmesinde bir esas sermaye payının itibarî değeri 40 TL olarak belirlenmiştir. Bu düzenleme hakkında hangisi doğrudur?",
+   "options": [
+    "Geçerlidir, çünkü değer 25 TL'den büyüktür.",
+    "Geçerlidir, çünkü payların değerleri farklı olamaz.",
+    "Geçersizdir, çünkü pay değerleri 25 TL veya katı olmalıdır; 40 TL bunlardan biri değildir.",
+    "Geçersizdir, çünkü pay değeri yalnız 100 TL ve katları olabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 583/2'ye göre payların değerleri farklı olabilir; ancak 25 TL veya bunun katları olmalıdır. 40 TL, 25'in katı olmadığı için uygun değildir. Şirketin durumunu iyileştirme amacıyla 25 TL'nin altına inilebilmesi (TTK m. 583/1) bu sonucu değiştirmez."
+  },
+  {
+   "stem_md": "Limited şirket kuruluşunda nakden taahhüt edilen payların itibarî değerlerinin en az yüzde yirmibeşinin tescilden önce ödenmesi şartı hakkında hangisi doğrudur?",
+   "options": [
+    "Limited ve anonim şirketlerde aynen uygulanır.",
+    "Hiçbir şirkette uygulanmaz.",
+    "Yalnız limited şirkette uygulanır.",
+    "Limited şirketlerde uygulanmaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 585/1'e eklenen cümle bu şartın limited şirketler bakımından uygulanmayacağını söyler. Anonim şirkette ise TTK m. 344/1 gereği payların en az %25'i tescilden önce ödenir."
+  },
+  {
+   "stem_md": "Ayşe, Limited B'deki payını Mehmet'e adi yazılı sözleşmeyle devretmiş, bedeli ödenmiş ve genel kurul da bu devri onaylamıştır. Devrin durumu nedir?",
+   "options": [
+    "Geçerlidir, çünkü genel kurul onayı şekil eksikliğini giderir.",
+    "Geçerli değildir, çünkü payın devri ve devir borcunu doğuran işlemler yazılı yapılır ve imzalar noterce onanır.",
+    "Geçerlidir, çünkü ödeme yapılmıştır.",
+    "Geçersizdir, çünkü limited şirketlerde pay devri yasaktır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 595/1, hem devrin hem devir borcunu doğuran işlemin yazılı şekilde yapılmasını ve imzaların noterce onanmasını arar. Şekil eksikliği genel kurul onayıyla giderilmez. Pay devri limited şirkette kural olarak yasak değildir; yasak ancak sözleşmeyle getirilir (TTK m. 595/4)."
+  },
+  {
+   "stem_md": "Limited Z'nin şirket sözleşmesinde pay devrine ilişkin özel bir hüküm yoktur. Ali, noter onaylı sözleşmeyle payını Selin'e devretmiş ve 1 Mart'ta şirkete onay için başvurmuştur. Genel kurul 1 Haziran'a kadar red kararı almamıştır. Ne söylenebilir?",
+   "options": [
+    "Bir yıl dolmadan onay karinesi işlemez.",
+    "Devir kendiliğinden hükümsüzdür, çünkü genel kurul toplanmamıştır.",
+    "Devir hâlâ onaylanmamıştır, çünkü açık onay kararı olmamıştır.",
+    "Başvurudan itibaren üç ay içinde reddedilmediği için genel kurul onayı vermiş sayılır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 595/7: başvurudan itibaren üç ay içinde genel kurul reddetmezse onayı vermiş sayılır. Süre 1 Haziran'da dolduğu için onay karinesi işler. Bir yıl süresi kanunda yoktur."
+  },
+  {
+   "stem_md": "Limited şirketin %20 ortağı Kaan ölmüş ve payı mirasçısı Selin'e geçmiştir. Şirketin Selin'i ortak olarak istememesi hâlinde hangisi doğrudur?",
+   "options": [
+    "Geçişin geçerli olması için genel kurulun açıkça onay vermesi şarttır.",
+    "Geçiş genel kurul onayı aranmaksızın gerçekleşir; şirket üç ay içinde ancak payı gerçek değeri üzerinden devralmayı önererek onayı reddedebilir.",
+    "Miras yoluyla geçişte şirket hiçbir şekilde ret hakkını kullanamaz.",
+    "Şirket, Selin'e payı gerçek değeri üzerinden devralmayı önermeksizin, üç ay içinde onayı serbestçe reddedebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 596/1 genel kurul onayını aramaz. TTK m. 596/2 şirketin iktisabın öğrenilmesinden itibaren üç ay içinde, gerçek değer üzerinden devralma önerisi yaparak reddedebileceğini söyler. Öneri olmaksızın ret geçerli olmaz."
+  },
+  {
+   "stem_md": "Limited Y'nin ortaklarına ek ödeme yükümlülüğü yüklemek isteyen şirket sözleşmesi hakkında hangisi doğrudur?",
+   "options": [
+    "Ek ödeme, payın itibarî değerinin iki katını aşmayacak biçimde belirli bir tutar olarak öngörülebilir.",
+    "Ek ödemeyi yalnızca genel kurul başkanı ister.",
+    "Ek ödeme genel kurul kararıyla sözleşmeye gerek olmaksızın getirilebilir.",
+    "Ek ödeme yükümlülüğünün tutarı sınırsız belirlenebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 603/3 ek ödeme tutarının payın itibarî değerinin iki katını aşamayacağını söyler. Yükümlülük şirket sözleşmesinde yer almalıdır (TTK m. 603/1) ve ödemeyi müdürler ister (TTK m. 603/5)."
+  },
+  {
+   "stem_md": "Limited Q Ltd.'nin ortağı Deniz müdür değildir. Şirket sözleşmesinde rekabet yasağına ilişkin hiçbir hüküm yoktur. Deniz kendi adına rakip bir şirket kurmuştur; şirket sırlarını açıkladığı veya şirketi zarara uğrattığı ispatlanamamaktadır. Hangisi doğrudur?",
+   "options": [
+    "Deniz TTK m. 626 gereği kanundan doğan rekabet yasağını ihlal etmiştir.",
+    "Rekabet yasağı sözleşmede öngörülmediği için rakip şirket kurması tek başına bağlılık yükümünün ihlali sayılmaz.",
+    "Rakip şirket kurmak her durumda şirketten çıkarılma sebebidir.",
+    "Sır saklama borcu sözleşmeyle kaldırılabilir, bu nedenle Deniz serbesttir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 613/2'ye göre ortakların şirketle rekabetten kaçınma yükümlülüğü ancak şirket sözleşmesiyle öngörülebilir. TTK m. 626 müdürlere ilişkindir; Deniz müdür değildir. Sır saklama yükümlülüğü ise sözleşmeyle kaldırılamaz (TTK m. 613/1); ancak olayda sır ifşası ispatlanmamıştır."
+  },
+  {
+   "stem_md": "Limited bir şirketin vergi borcu şirketten tahsil edilememiştir. Ortakların durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Ortaklar eşit paylarla sorumludur.",
+    "Yalnız müdür sorumludur, ortaklar hiçbir hâlde sorumlu tutulamaz.",
+    "Ortaklar hiçbir koşulda sorumlu değildir, çünkü ortaklar şirket borcundan sorumlu olmaz.",
+    "Ortaklar tahsil edilemeyen amme alacağından sermaye hisseleri oranında doğrudan sorumludur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "6183 sayılı Kanun m. 35/1: limited şirket ortakları, şirketten tahsil edilemeyen amme alacağından sermaye hisseleri oranında doğrudan sorumludur. TTK m. 573/2 özel hukuk borçları bakımından geçerlidir. Müdürler ayrıca kanuni temsilci sıfatıyla mükerrer 35. madde kapsamında sorumlu tutulabilir."
+  },
+  {
+   "stem_md": "Limited Ş Ltd.'de ortak Ali, payını Veli'ye, ek ödeme ve yan edim yükümlülüklerine ilişkin hiçbir bilgi vermeden devretmiştir. Şirket sözleşmesinde ek ödeme öngörülmüştür. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Devir sözleşmesi yalnız şirketle yapılabilir.",
+    "Devir sözleşmesinde ek ödeme ve yan edim yükümlülüklerinin belirtilmesi gerekir.",
+    "Yan edim yükümlülükleri devirde belirtilmez.",
+    "Ek ödeme yükümlülüğü devirle sona erer, bu nedenle bildirime gerek yoktur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 595/1 ikinci cümle: devir sözleşmesinde ek ödeme ve yan edim yükümlülükleri, ağırlaştırılmış veya tüm ortakları kapsayacak biçimde genişletilmiş rekabet yasağı, önerilmeye muhatap olma, önalım, geri alım ve alım hakları ile sözleşme cezasına ilişkin koşullar da belirtilir. Ayrıca TTK m. 593/2 bu hususların pay senetlerinde açıkça belirtilmesini arar."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Gıda Ltd. Şti.'nin esas sermayesi 100.000 TL'dir. Şirket sözleşmesinde pay devrine ilişkin özel bir hüküm yoktur. Sözleşmede ortaklara, esas sermaye paylarının itibarî değerinin dört katı tutarında ek ödeme yükümlülüğü öngörülmüştür. Ortaklardan Ozan'ın payının itibarî değeri 30.000 TL'dir. Ozan, payının yarısını adi yazılı sözleşmeyle Ümit'e, diğer yarısını noter onaylı sözleşmeyle Uğur'a devretmiştir. Uğur, devri 01.02.2026 tarihinde onay için şirkete bildirmiştir. Genel kurul 01.06.2026 tarihine kadar devir hakkında hiçbir karar almamıştır. Şirket zarar etmiş, esas sermaye ile kanuni yedek akçeler zararı karşılayamaz hâle gelmiştir. Yönetim, Uğur'dan payının itibarî değerinin dört katı kadar ek ödeme istemektedir.\n1. Ümit'e yapılan devrin hukuki durumu nedir?\n2. Uğur'a yapılan devir hakkında ne söylenebilir?\n3. Şirketin ek ödeme talebi hukuka uygun mudur?",
+   "rubric": [
+    {
+     "point": "Pay devri ve devir borcunu doğuran işlemler yazılı yapılır ve imzalar noterce onanır; adi yazılı devir şekil eksikliği nedeniyle geçerli değildir",
+     "weight": 25,
+     "madde_ref": "TTK m. 595"
+    },
+    {
+     "point": "Sözleşmede aksi öngörülmediğinden devir için genel kurul onayı gerekir",
+     "weight": 15,
+     "madde_ref": "TTK m. 595"
+    },
+    {
+     "point": "Başvurudan itibaren üç ay içinde genel kurul reddetmediği için onay verilmiş sayılır",
+     "weight": 25,
+     "madde_ref": "TTK m. 595"
+    },
+    {
+     "point": "Ek ödeme, payın itibarî değerinin iki katını aşamaz; dört katlık talep yerinde değildir",
+     "weight": 20,
+     "madde_ref": "TTK m. 603"
+    },
+    {
+     "point": "Ek ödeme ancak sayılan şartlarda istenebilir ve müdürler tarafından istenir; şart (zararın karşılanamaması) olayda gerçekleşmiştir",
+     "weight": 15,
+     "madde_ref": "TTK m. 603"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, limited şirkette esas sermaye payının iradi devrinde şekil ve onay şartları ile ek ödeme yükümlülüğünün sınırını içerir.\n\n**Hukuki sorunlar:** (1) Adi yazılı devrin geçerliliği. (2) Noter onaylı devirde genel kurul onayı ve üç aylık süre. (3) Ek ödeme tutarının sınırı.\n\n**İlgili hükümler:** TTK m. 595/1-2, TTK m. 595/7; TTK m. 603/1-3, TTK m. 603/5.\n\n**Değerlendirme:** (1) TTK m. 595/1 uyarınca esas sermaye payının devri ve devir borcunu doğuran işlemler yazılı şekilde yapılır ve tarafların imzaları noterce onanır. Ozan'ın Ümit ile yaptığı adi yazılı sözleşme bu şekil şartını yerine getirmediğinden geçerli bir devir oluşturmaz. Genel kurul onayı bu şekil eksikliğini gidermez. Taraflar ödemişlerse sebepsiz zenginleşme hükümlerine göre geri istenebilir.\n\n(2) Uğur ile yapılan sözleşme noter onaylıdır. Şirket sözleşmesinde aksi öngörülmediğinden devrin geçerli olması için ortaklar genel kurulunun onayı şarttır (TTK m. 595/2). Başvurudan itibaren üç ay içinde genel kurul reddetmezse onayı vermiş sayılır (TTK m. 595/7). Uğur'un 01.02.2026 tarihli bildirimini onay başvurusu kabul edersek, üç aylık süre 01.05.2026'da dolmuştur ve genel kurul bu tarihe kadar red kararı almadığından onay verilmiş sayılır. Uğur 15.000 TL itibarî değerli payın ortağı olur. Bildirimin onay başvurusu niteliği taşıdığı olayda varsayılmıştır; bu varsayım bulunmuyorsa üç aylık süre işlemeye başlamaz.\n\n(3) Şirket sözleşmesinde ek ödeme yükümlülüğü öngörülebilir; ancak tutar esas sermaye payını esas alan belirli bir tutar olmalı ve payın itibarî değerinin iki katını aşmamalıdır (TTK m. 603/3). Dört katlık düzenleme kanunun sınırını aştığından bu sınırın üstünde bir ek ödeme istenemez. Esas sermaye ile kanuni yedek akçelerin zararı karşılayamaması, ek ödemenin istenebileceği hâllerden biridir (TTK m. 603/1-a); ödeme müdürler tarafından istenir (TTK m. 603/5). Her ortak yalnız kendi payına düşen ek ödemeyi yerine getirir (TTK m. 603/4). Uğur'dan en çok payının itibarî değerinin iki katı istenebilir.\n\n**Sonuç:** Ümit'e devir geçersizdir. Uğur'a devir, üç aylık sürenin geçmesiyle onaylanmış sayılır. Ek ödeme talebi iki katlık sınırı aşan kısım yönünden yerinde değildir."
+  },
+  {
+   "stem_md": "Deniz Tekstil Ltd. Şti.'nin ortakları Kaan (%60, müdür) ve Leyla (%40, müdür değil)'dır. Şirket sözleşmesinde ortakların rekabet yasağı öngörülmemiştir. Leyla, ortaklık sürerken kendi adına aynı alanda faaliyet gösteren bir şirket kurmuş, ancak şirket sırlarını açıkladığı veya şirkete zarar verdiği ispatlanamamıştır. Bu arada şirketin tedarikçisi Tarık'a olan 300.000 TL ticari fatura borcu ve vergi dairesine olan 400.000 TL vergi borcu ödenememiş, vergi borcu şirketten tahsil edilememiştir. Kaan 20.01.2026'da ölmüş, payı tek mirasçısı Selin'e geçmiştir. Şirket ortakları Kaan'ın ölümünü aynı gün öğrenmiş, Selin'e herhangi bir yazılı ret bildiriminde bulunmamıştır. Aralık 2026'da yapılan genel kurulda ortaklardan biri Selin'in ortaklığının oylanmasını önermiştir.\n1. Leyla'nın rakip şirket kurması TTK m. 613 bakımından ihlal midir?\n2. Tarık ve vergi dairesi Leyla'ya başvurabilir mi?\n3. Selin ortak olmuş mudur?",
+   "rubric": [
+    {
+     "point": "Ortaklar için rekabet yasağı ancak şirket sözleşmesinde öngörülürse vardır; müdür olmayan Leyla'nın rakip şirket kurması, sır ifşası ve zarar ispatlanmadığından tek başına ihlal değildir",
+     "weight": 25,
+     "madde_ref": "TTK m. 613"
+    },
+    {
+     "point": "Ortaklar şirketin özel hukuk borçlarından sorumlu değildir; Tarık Leyla'ya başvuramaz",
+     "weight": 20,
+     "madde_ref": "TTK m. 573"
+    },
+    {
+     "point": "Şirketten tahsil edilemeyen amme alacağından ortak sermaye hissesi oranında doğrudan sorumludur",
+     "weight": 20,
+     "madde_ref": "6183 sayılı Kanun m. 35"
+    },
+    {
+     "point": "Miras yoluyla geçişte genel kurul onayı gerekmez, pay kendiliğinden Selin'e geçer",
+     "weight": 15,
+     "madde_ref": "TTK m. 596"
+    },
+    {
+     "point": "Şirket üç ay içinde açıkça ve yazılı olarak reddetmediğinden onay vermiş sayılır",
+     "weight": 20,
+     "madde_ref": "TTK m. 596"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, limited şirket ortaklarının bağlılık yükümü ve rekabet yasağı, şirket borçlarından sorumluluğu (özel hukuk ve kamu borçları) ve payın miras yoluyla geçişini birlikte içerir.\n\n**Hukuki sorunlar:** (1) Müdür olmayan ortağın rekabeti. (2) Özel ve kamu alacaklılarının ortağa başvurabilmesi. (3) Miras yoluyla geçişte ortaklık sıfatı.\n\n**İlgili hükümler:** TTK m. 613/1-2; TTK m. 626/2; TTK m. 573/2; TTK m. 602/1; 6183 sayılı Kanun m. 35/1; TTK m. 596/1-4.\n\n**Değerlendirme:** (1) Ortakların şirketle rekabet eden işlemlerden kaçınmaları ancak şirket sözleşmesiyle öngörülebilir (TTK m. 613/2). Kanundan doğan rekabet yasağı müdürlere özgüdür (TTK m. 626/2; TTK m. 613/3). Leyla müdür değildir ve sözleşmede yasak yoktur. Ortaklar yine de şirket sırlarını koruma yükümlülüğü altındadır (TTK m. 613/1) ve şirketin çıkarlarını zedeleyen davranışlardan kaçınmalıdır (TTK m. 613/2); olayda sır ifşası veya zarar ispatlanamadığından ihlal yoktur. Yargıtay'ın bu yöndeki uygulaması da paraleldir.\n\n(2) Ortaklar, şirket borçlarından sorumlu değildir; yalnız taahhüt ettikleri payı ödemekle ve sözleşmede öngörülmüşse ek ödeme ve yan edim yükümlülüklerini yerine getirmekle yükümlüdür (TTK m. 573/2). Şirket sadece malvarlığıyla sorumludur (TTK m. 602/1). Tarık'ın ticari alacağı için Leyla'ya başvuru yolu yoktur. Vergi borcu ise amme alacağıdır. 6183 sayılı Kanun m. 35/1 uyarınca limited şirket ortakları, şirketten tamamen veya kısmen tahsil edilemeyen amme alacağından sermaye hisseleri oranında doğrudan sorumludur. Leyla bu nedenle tahsil edilemeyen vergi borcundan %40'lık payı oranında takip edilebilir.\n\n(3) Payın miras yoluyla geçişinde tüm hak ve borçlar genel kurul onayı aranmaksızın iktisap edene geçer (TTK m. 596/1). Şirket, iktisabın öğrenilmesinden itibaren üç ay içinde, payı gerçek değer üzerinden devralmayı önererek geçişi reddedebilir (TTK m. 596/2). Ortaklar ölümü aynı gün öğrenmiş, üç ay içinde açık ve yazılı ret yapılmamıştır. Bu nedenle şirket onay vermiş sayılır (TTK m. 596/4). Aralık 2026'da geçişin yeniden oylanması bu sonucu değiştirmez; üç aylık süre geçmiştir.\n\n**Sonuç:** Leyla TTK m. 613'ü ihlal etmemiştir. Tarık, Leyla'ya başvuramaz; vergi dairesi ise 6183 sayılı Kanun m. 35 uyarınca sermaye hissesi oranında başvurabilir. Selin pay üzerindeki haklarıyla ortak olmuştur."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Limited şirkette en fazla kaç ortak olabilir?",
+   "back_md": "Elli (TTK m. 574/1)."
+  },
+  {
+   "front_md": "Ortak sayısı bire düşerse ne yapılır?",
+   "back_md": "İşlem tarihinden itibaren 7 gün içinde müdürlere yazılı bildirim; müdürler bildirimden itibaren yedinci günün sonuna kadar tescil ve ilan ettirir (TTK m. 574/2)."
+  },
+  {
+   "front_md": "Şirket sözleşmesi nasıl imzalanır?",
+   "back_md": "Yazılı yapılır; kurucular ticaret sicili müdürlüğünde yetkilendirilmiş personelin huzurunda imzalar (TTK m. 575/1)."
+  },
+  {
+   "front_md": "Limited şirketin en az esas sermayesi?",
+   "back_md": "Kanun metninde 10.000 TL; 7887 sayılı Cumhurbaşkanı Kararıyla 50.000 TL (TTK m. 580). Uyum süresi 31.12.2026 (TTK'nın geçici 15. maddesi)."
+  },
+  {
+   "front_md": "Esas sermaye payının itibarî değeri?",
+   "back_md": "En az 25 TL; değerler 25 TL veya katları olmalıdır (TTK m. 583/1-2)."
+  },
+  {
+   "front_md": "Limited şirkette tüzel kişilik ne zaman kazanılır?",
+   "back_md": "Ticaret siciline tescille (TTK m. 588/1)."
+  },
+  {
+   "front_md": "%25 ön ödeme şartı limitedde uygulanır mı?",
+   "back_md": "Hayır; nakdî payların %25'inin tescilden önce ödenmesi şartı limited şirketlerde uygulanmaz (TTK m. 585/1). Anonim şirkette uygulanır (TTK m. 344/1)."
+  },
+  {
+   "front_md": "Pay devrinin şekli ve onayı?",
+   "back_md": "Yazılı sözleşme + imzaların noterce onayı; sözleşmede aksi yoksa genel kurul onayı şart, devir bu onayla geçerli olur (TTK m. 595/1-2)."
+  },
+  {
+   "front_md": "Genel kurul 3 ay içinde karar vermezse?",
+   "back_md": "Başvurudan itibaren üç ay içinde reddetmezse onayı vermiş sayılır (TTK m. 595/7)."
+  },
+  {
+   "front_md": "Miras, mal rejimi, icra yoluyla pay geçişi?",
+   "back_md": "Genel kurul onayı gerekmez (TTK m. 596/1). Şirket 3 ay içinde ancak payı gerçek değerden devralmayı önererek reddedebilir (TTK m. 596/2)."
+  },
+  {
+   "front_md": "Ek ödeme sınırı?",
+   "back_md": "Payın itibarî değerinin iki katını aşamaz; müdürler ister (TTK m. 603/3, 603/5)."
+  },
+  {
+   "front_md": "Ortak rekabet yasağı ve kamu borcu sorumluluğu?",
+   "back_md": "Ortaklar için rekabet yasağı ancak sözleşmede öngörülürse vardır (TTK m. 613/2); müdürler için kanundandır (TTK m. 626/2). Kamu borçlarında ortak sermaye hissesi oranında sorumludur (6183 sayılı Kanun m. 35)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
