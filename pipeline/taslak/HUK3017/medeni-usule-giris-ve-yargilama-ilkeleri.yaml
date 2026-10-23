@@ -18,6 +18,7 @@ maddeler:
   - {kanun: HMK, madde: "140"}
   - {kanun: HMK, madde: "141"}
   - {kanun: HMK, madde: "147"}
+  - {kanun: HMK, madde: "169"}
   - {kanun: HMK, madde: "194"}
   - {kanun: HMK, madde: "240"}
   - {kanun: HMK, madde: "266"}
@@ -25,6 +26,8 @@ maddeler:
   - {kanun: HMK, madde: "297"}
   - {kanun: HMK, madde: "307"}
   - {kanun: HMK, madde: "308"}
+  - {kanun: HMK, madde: "309"}
+  - {kanun: HMK, madde: "311"}
   - {kanun: HMK, madde: "313"}
   - {kanun: HMK, madde: "327"}
   - {kanun: HMK, madde: "329"}
@@ -184,7 +187,7 @@ kritik: |
   - 📌 HMK m. 24: hâkim talep olmadan davayı kendiliğinden inceleyemez; kimse kendi lehine davayı açmaya zorlanamaz; serbestçe tasarruf edilebilen davada tasarruf yetkisi dava açıldıktan sonra da sürer.
   - ⚠️ Tasarruf (dava konusu ve kaderi) ile taraflarca getirilme (vakıa ve deliller) farklıdır; tasarruf geçerli olan davada resen araştırma uygulanabilir.
   - 📌 HMK m. 25/1: hâkim söylenmeyen vakıayı dikkate alamaz, hatırlatabilecek davranışta da bulunamaz.
-  - 📌 Resen başvurulabilen deliller: bilirkişi (HMK m. 266) ve keşif (HMK m. 288/2). Tanık listesinde gösterilmeyen kimse dinlenemez (HMK m. 240/2).
+  - 📌 Resen başvurulabilen başlıca deliller: bilirkişi (HMK m. 266) ve keşif (HMK m. 288/2); tarafların isticvabı da resen kararlaştırılabilir (HMK m. 169/1). Tanık listesinde gösterilmeyen kimse dinlenemez (HMK m. 240/2).
   - 📌 HMK m. 26: ultra petita ve aliud yasak; talep sonucundan daha azına karar verilebilir. Faize dilekçede istenmeden hükmedilmesi taleple bağlılığa aykırıdır.
   - 📌 HMK m. 27/2: bilgi sahibi olma, açıklama ve ispat hakkı, açıklamaların değerlendirilmesi ve somut gerekçe. Sürpriz karar yasağı bu haktan çıkar.
   - 📌 HMK m. 28/2: gizli duruşma yalnız genel ahlâk veya kamu güvenliği kesin olarak gerektiriyorsa; "korunmaya değer üstün menfaat" ibaresi AYM'nin E. 2020/73, K. 2023/181 kararıyla iptal edildi.
@@ -411,16 +414,16 @@ olaylar:
 
       HMK m. 26/1'e göre hâkim talep sonucundan fazlasına veya başka bir şeye karar veremez, ancak duruma göre daha azına karar verebilir. Murat 80.000 TL istemiş, 60.000 TL ispatlanmıştır; 60.000 TL'ye hükmedilmesi kısmen kabul niteliğinde olup taleple bağlılığa aykırı değildir.
 
-      Feragat, davacının talep sonucundan kısmen veya tamamen vazgeçmesidir (HMK m. 307/1). Tasarruf ilkesi gereği, serbestçe tasarruf edilebilen davada tasarruf yetkisi dava açıldıktan sonra da devam eder (HMK m. 24/3). Alacak davası tarafların serbestçe tasarruf edebileceği bir davadır; hâkimin "davayı sonuçlandırmak mahkemenin görevidir" diyerek feragati görmezden gelmesi hatalıdır.
+      Feragat, davacının talep sonucundan kısmen veya tamamen vazgeçmesidir (HMK m. 307/1). Tasarruf ilkesi gereği, serbestçe tasarruf edilebilen davada tasarruf yetkisi dava açıldıktan sonra da devam eder (HMK m. 24/3). Alacak davası tarafların serbestçe tasarruf edebileceği bir davadır; hâkimin "davayı sonuçlandırmak mahkemenin görevidir" diyerek feragati görmezden gelmesi hatalıdır. Feragatin hüküm ifade etmesi karşı tarafın ve mahkemenin muvafakatine bağlı değildir (HMK m. 309/2) ve feragat kesin hüküm gibi hukuki sonuç doğurur (HMK m. 311/1). Feragat hükümden önce yapıldığından mahkeme, esas hakkında 60.000 TL'lik bir hüküm kurmak yerine feragat sebebiyle davayı sona erdiren kararı (uygulamada "davanın feragat nedeniyle reddi") vermeliydi. Yukarıdaki taleple bağlılık değerlendirmesi, hükmün tutarı bakımından yapılmıştır.
 
-      **Sonuç:** Tanığın resen çağrılması ve ayıp hatırlatması hukuka aykırıdır; bilirkişi raporunun tebliğ edilmemesi dinlenilme hakkını ihlal eder; 60.000 TL'ye hükmedilmesi doğrudur; feragat dikkate alınmalıdır.
+      **Sonuç:** Tanığın resen çağrılması ve ayıp hatırlatması hukuka aykırıdır; bilirkişi raporunun tebliğ edilmemesi dinlenilme hakkını ihlal eder; 60.000 TL'ye hükmedilmesi taleple bağlılık ilkesine aykırı değildir; ancak hükümden önce yapılan feragat dikkate alınmalı, esas hakkında hüküm kurulmadan feragate göre karar verilmeliydi.
 kartlar:
   - on: "HMK m. 24/1 hâkim bakımından ne söyler?"
     arka: "Hâkim, iki taraftan birinin talebi olmaksızın kendiliğinden bir davayı inceleyemez ve karara bağlayamaz (tasarruf ilkesi)."
   - on: "Tasarruf ile taraflarca getirilme farkı nedir?"
     arka: "Tasarruf, davanın açılması, konusu ve sona ermesi; taraflarca getirilme ise vakıalar ve deliller konusudur (HMK m. 24, HMK m. 25)."
   - on: "Hâkim resen hangi delillere başvurabilir?"
-    arka: "Bilirkişi (HMK m. 266/1) ve keşif (HMK m. 288/2). Tanık listesinde gösterilmeyen kişi dinlenemez (HMK m. 240/2)."
+    arka: "Başlıcaları bilirkişi (HMK m. 266/1) ve keşif (HMK m. 288/2); isticvap da resen kararlaştırılabilir (HMK m. 169/1). Tanık listesinde gösterilmeyen kişi dinlenemez (HMK m. 240/2)."
   - on: "Taleple bağlılığın üç unsuru?"
     arka: "Fazlasına (ultra petita) ve başka bir şeye (aliud) karar verilemez; talepten daha azına karar verilebilir (HMK m. 26/1)."
   - on: "Hukuki dinlenilme hakkının unsurları?"
