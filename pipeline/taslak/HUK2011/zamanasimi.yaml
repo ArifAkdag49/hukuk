@@ -57,6 +57,7 @@ maddeler:
   - {kanun: HUAK, madde: "16"}
   - {kanun: HUAK, madde: "18/A"}
   - {kanun: HUAK, madde: "18/B"}
+  - {kanun: TTK, madde: "4"}
   - {kanun: TTK, madde: "5/A"}
   - {kanun: "1136", madde: "40"}
 
@@ -152,7 +153,7 @@ anlatim: |
   | Listedeki alacaklar | 5 yıl | TBK m. 147 |
   | Haksız fiil tazminatı | Öğrenmeden 2, fiilden 10 yıl; suçsa ceza süresi | TBK m. 72 |
   | Sebepsiz zenginleşme | Öğrenmeden 2, zenginleşmeden 10 yıl | TBK m. 82 |
-  | Satılanın ayıbı | Devirden 2 yıl | TBK m. 231 |
+  | Satılanın ayıbı | Devirden 2 yıl (ağır kusur hariç) | TBK m. 231 |
   | Senetle ikrar, karar sonrası | Her zaman 10 yıl | TBK m. 156/2 |
 
   Haksız fiil ve sebepsiz zenginleşmede kısa süre **öğrenmeye** bağlıdır, TBK m. 146-147'de ise öğrenmeye bakılmaz; ayrıntıları ilgili konularda.
@@ -684,15 +685,15 @@ olaylar:
       - Burcu geçerli biçimde feragat ettiği için def'iye dayanamaz. Müteselsil borçlu olarak 120.000 TL'nin tamamından sorumludur.
 
   - olay: |
-      Mimarlık şirketi Çizgi Ltd., otel işletmecisi Y A.Ş.'nin yeni otelinin projesini hazırlamayı üstlenmiştir. Proje 01.03.2022'de teslim edilmiş, 900.000 TL bedel ödenmemiştir. İki taraf da tacirdir ve uyuşmazlık her ikisinin ticari işletmesiyle ilgilidir.
+      Mimarlık şirketi Çizgi Ltd., otel işletmecisi Y A.Ş.'nin yeni otelinin projesini hazırlamayı üstlenmiştir. Proje 01.03.2022'de teslim edilmiş, 30.000.000 TL bedel ödenmemiştir. İki taraf da tacirdir ve uyuşmazlık her ikisinin ticari işletmesiyle ilgilidir.
 
-      Çizgi Ltd. 01.02.2027'de arabuluculuk bürosuna başvurmuş, anlaşma sağlanamamış ve son tutanak 12.02.2027'de düzenlenmiştir. Çizgi Ltd. 15.02.2027'de, fazlaya ilişkin hakkını saklı tutarak 300.000 TL için dava açmıştır. Dava dilekçesi 22.02.2027'de Y A.Ş.'ye tebliğ edilmiş; Y A.Ş. cevap dilekçesi vermemiş, ek süre de istememiştir. Y A.Ş. 20.04.2027'de verdiği dilekçede alacağın zamanaşımına uğradığını ileri sürmüş, Çizgi Ltd. buna açıkça karşı çıkmıştır. Y A.Ş. ıslah yoluna başvurmamıştır.
+      Çizgi Ltd. 01.02.2027'de arabuluculuk bürosuna başvurmuş, anlaşma sağlanamamış ve son tutanak 12.02.2027'de düzenlenmiştir. Çizgi Ltd. 15.02.2027'de, fazlaya ilişkin hakkını saklı tutarak 10.000.000 TL için dava açmıştır. Dava dilekçesi 22.02.2027'de Y A.Ş.'ye tebliğ edilmiş; Y A.Ş. cevap dilekçesi vermemiş, ek süre de istememiştir. Y A.Ş. 20.04.2027'de verdiği dilekçede alacağın zamanaşımına uğradığını ileri sürmüş, Çizgi Ltd. buna açıkça karşı çıkmıştır. Y A.Ş. ıslah yoluna başvurmamıştır.
 
-      Çizgi Ltd. 10.06.2027'de HMK m. 109/4'e dayanarak talebini ilk kez 900.000 TL'ye artırmıştır. Y A.Ş., artırılan 600.000 TL için ancak artırım tarihinde başvurulduğunu ve bu kısmın zamanaşımına uğradığını savunmaktadır.
+      Çizgi Ltd. 10.06.2027'de HMK m. 109/4'e dayanarak talebini ilk kez 30.000.000 TL'ye artırmıştır. Y A.Ş., artırılan 20.000.000 TL için ancak artırım tarihinde başvurulduğunu ve bu kısmın zamanaşımına uğradığını savunmaktadır.
 
       1. Alacak hangi süreye tabidir? Dava açıldığında süre dolmuş muydu?
       2. Y A.Ş.'nin 20.04.2027 tarihli zamanaşımı savunması dikkate alınabilir mi?
-      3. Artırılan 600.000 TL için zamanaşımı savunmasını değerlendiriniz.
+      3. Artırılan 20.000.000 TL için zamanaşımı savunmasını değerlendiriniz.
       4. Davanın kabulüyle verilecek hüküm kesinleşirse alacak için hangi zamanaşımı süresi işler?
     olcut:
       - {tespit: "Proje bedelinin eser sözleşmesinden doğan alacak olarak beş yıllık süreye tabi olduğu ve sürenin teslimle 01.03.2022'de başladığı", puan: 20, madde: "TBK m. 147"}
@@ -701,26 +702,26 @@ olaylar:
       - {tespit: "Bir defaya mahsus artırımda zamanaşımının artırılan kısım için de dava tarihinden kesilmiş sayılması ve eski uygulamayla farkı", puan: 25, madde: "HMK m. 109"}
       - {tespit: "Hükümden sonra yeni sürenin her zaman on yıl olduğu ve ilamlı takibin son işlemden itibaren on yılda zamanaşımına uğradığı", puan: 15, madde: "TBK m. 156"}
     cozum: |
-      **Nitelendirme:** Otel projesinin hazırlanması bir eser sözleşmesidir. Çizgi Ltd.'nin bedel alacağı bu sözleşmeden doğar. Uyuşmazlık iki tacirin ticari işletmesiyle ilgili olduğu için ticari davadır.
+      **Nitelendirme:** Otel projesinin hazırlanması bir eser sözleşmesidir. Çizgi Ltd.'nin bedel alacağı bu sözleşmeden doğar. Uyuşmazlık iki tacirin ticari işletmesiyle ilgili olduğu için ticari davadır. Dava değeri TTK m. 4/2'deki basit yargılama sınırını aştığı için yazılı yargılama usulü uygulanır.
 
       **Hukuki sorunlar:** Sürenin başlangıcı ve arabuluculuğun etkisi; kısmi davanın kesme etkisi; süresinde cevap vermeyen davalının def'i; kısmi davada talebin artırılması; hükümden sonraki yeni süre.
 
-      **İlgili hükümler:** TBK m. 147, 149, 154, 156, 161 ve TBK m. 479; TTK m. 5/A; HUAK m. 18/A; HMK m. 109, 118, 127, 128 ve HMK m. 141; İİK m. 39.
+      **İlgili hükümler:** TBK m. 147, 149, 154, 156, 161 ve TBK m. 479; TTK m. 4 ve TTK m. 5/A; HUAK m. 18/A; HMK m. 109, 118, 127, 128 ve HMK m. 141; İİK m. 39.
 
       **Değerlendirme:**
 
-      *1. Süre ve dava tarihi.* Eser sözleşmesinden doğan alacak beş yıllık süreye tabidir (TBK m. 147/6). Bedel teslimle muaccel olur (TBK m. 479). Süre 01.03.2022'de başlamıştır (TBK m. 149/1) ve başka bir olay olmasaydı 01.03.2027'de dolacaktı. Ticari davalarda konusu bir miktar para olan alacak davasında arabulucuya başvurmak dava şartıdır (TTK m. 5/A). Başvurudan son tutanağa kadar, yani 01.02-12.02.2027 arasında zamanaşımı durmuştur (HUAK m. 18/A'nın 15. fıkrası). Dava, dilekçenin kaydedildiği 15.02.2027'de açılmıştır (HMK m. 118) ve süre henüz dolmamıştır. Dava açılması zamanaşımını keser (TBK m. 154/2). Ancak dava kısmi olduğu için kesilme dava edilen 300.000 TL içindir.
+      *1. Süre ve dava tarihi.* Eser sözleşmesinden doğan alacak beş yıllık süreye tabidir (TBK m. 147/6). Bedel teslimle muaccel olur (TBK m. 479). Süre 01.03.2022'de başlamıştır (TBK m. 149/1) ve başka bir olay olmasaydı 01.03.2027'de dolacaktı. Ticari davalarda konusu bir miktar para olan alacak davasında arabulucuya başvurmak dava şartıdır (TTK m. 5/A). Başvurudan son tutanağa kadar, yani 01.02-12.02.2027 arasında zamanaşımı durmuştur (HUAK m. 18/A'nın 15. fıkrası). Dava, dilekçenin kaydedildiği 15.02.2027'de açılmıştır (HMK m. 118) ve süre henüz dolmamıştır. Dava açılması zamanaşımını keser (TBK m. 154/2). Ancak dava kısmi olduğu için kesilme dava edilen 10.000.000 TL içindir.
 
-      *2. 20.04.2027 tarihli savunma.* Cevap süresi tebliğden itibaren iki haftadır ve 08.03.2027'de dolmuştur (HMK m. 127). Süresinde cevap vermeyen davalı davacının vakıalarını inkâr etmiş sayılır (HMK m. 128). Hukuk Genel Kurulu'na göre bu inkâr zamanaşımı def'ini kapsamaz. Dilekçelerin karşılıklı verilmesinden sonra savunma genişletilemez (HMK m. 141/1). Sonradan ileri sürülen def'i savunmanın genişletilmesidir ve ancak karşı tarafın açık muvafakati ya da ıslah ile mümkündür (HMK m. 141/2). Çizgi Ltd. açıkça karşı çıkmış, Y A.Ş. de ıslah yapmamıştır. Bu nedenle def'i dinlenmez. Hâkim de zamanaşımını kendiliğinden gözetemez (TBK m. 161). Kaldı ki dava edilen 300.000 TL için süre dava tarihinde dolmamıştı.
+      *2. 20.04.2027 tarihli savunma.* Cevap süresi tebliğden itibaren iki haftadır ve 08.03.2027'de dolmuştur (HMK m. 127). Süresinde cevap vermeyen davalı davacının vakıalarını inkâr etmiş sayılır (HMK m. 128). Hukuk Genel Kurulu'na göre bu inkâr zamanaşımı def'ini kapsamaz. Dilekçelerin karşılıklı verilmesinden sonra savunma genişletilemez (HMK m. 141/1). Sonradan ileri sürülen def'i savunmanın genişletilmesidir ve ancak karşı tarafın açık muvafakati ya da ıslah ile mümkündür (HMK m. 141/2). Çizgi Ltd. açıkça karşı çıkmış, Y A.Ş. de ıslah yapmamıştır. Bu nedenle def'i dinlenmez. Hâkim de zamanaşımını kendiliğinden gözetemez (TBK m. 161). Kaldı ki dava edilen 10.000.000 TL için süre dava tarihinde dolmamıştı.
 
-      *3. Artırılan 600.000 TL.* Eski uygulamaya göre kısmi dava zamanaşımını yalnız dava edilen kısım için keserdi. Saklı tutulan kısım için süre işlemeye devam eder ve arabuluculuktaki durma da hesaba katıldığında Mart 2027 ortasında dolardı. Haziran 2027'deki artırım bu nedenle zamanaşımına takılırdı. 7589 sayılı Kanunla eklenen HMK m. 109/4 bu sonucu değiştirmiştir. Alacağın yalnız bir kısmı dava edilmişse talep aynı davada bir defaya mahsus, iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sonuna kadar artırılabilir. Bu durumda zamanaşımı artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır. Çizgi Ltd. talebini ilk kez ve bu hükme dayanarak artırmıştır. Artırılan 600.000 TL için zamanaşımı 15.02.2027'de kesilmiş sayılır ve o tarihte süre dolmamıştı. Y A.Ş.'nin savunması yerinde değildir.
+      *3. Artırılan 20.000.000 TL.* Eski uygulamaya göre kısmi dava zamanaşımını yalnız dava edilen kısım için keserdi. Saklı tutulan kısım için süre işlemeye devam eder ve arabuluculuktaki durma da hesaba katıldığında Mart 2027 ortasında dolardı. Haziran 2027'deki artırım bu nedenle zamanaşımına takılırdı. 7589 sayılı Kanunla eklenen HMK m. 109/4 bu sonucu değiştirmiştir. Alacağın yalnız bir kısmı dava edilmişse talep aynı davada bir defaya mahsus, iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sonuna kadar artırılabilir. Bu durumda zamanaşımı artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır. Çizgi Ltd. talebini ilk kez ve bu hükme dayanarak artırmıştır. Artırılan 20.000.000 TL için zamanaşımı 15.02.2027'de kesilmiş sayılır ve o tarihte süre dolmamıştı. Y A.Ş.'nin savunması yerinde değildir.
 
       *4. Hükümden sonra.* Dava ya da def'i ile kesilen zamanaşımı, dava süresince tarafların ve hâkimin işlemlerinden sonra yeniden işler (TBK m. 157/1). Borç mahkeme kararına bağlandığında ise yeni süre, kesilen süre beş yıl olsa bile, her zaman on yıldır (TBK m. 156/2). İlama dayanan icra takibi de son işlemden itibaren on yıl geçmekle zamanaşımına uğrar (İİK m. 39).
 
       **Sonuç:**
       - Alacak beş yıllık süreye tabidir. Dava süresinde açılmıştır.
       - Y A.Ş.'nin 20.04.2027 tarihli def'i, açık muvafakat ve ıslah bulunmadığı için dinlenmez.
-      - Artırılan 600.000 TL için de zamanaşımı dava tarihinden kesilmiş sayılır. Zamanaşımı savunması reddedilir.
+      - Artırılan 20.000.000 TL için de zamanaşımı dava tarihinden kesilmiş sayılır. Zamanaşımı savunması reddedilir.
       - Hüküm kesinleşince alacak için yeni süre on yıldır.
 
 kartlar:
