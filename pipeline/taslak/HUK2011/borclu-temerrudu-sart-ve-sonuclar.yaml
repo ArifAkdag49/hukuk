@@ -228,7 +228,7 @@ anlatim: |
 kritik: |
   - 📌 Temel kural: Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer (TBK m. 117/1). Muacceliyet tek başına temerrüt değildir.
   - 📌 İhtarsız temerrüdün dört hâli (TBK m. 117/2): birlikte belirlenen ifa günü, saklı tutulan hakla bildirimle belirlenen gün, haksız fiilde fiil tarihi, sebepsiz zenginleşmede zenginleşme tarihi. İyiniyetli zenginleşen için bildirim şarttır.
-  - ⚠️ İhtarda süre verilmesi gerekmez. Süre verilmişse temerrüt sürenin bitiminde doğar. İhtar yoksa dava ya da takip borçluyu temerrüde düşürür ve takip öncesi için işlemiş faiz istenemez.
+  - ⚠️ İhtarda süre verilmesi gerekmez. Süre verilmişse temerrüt sürenin bitiminde doğar. İhtar da ihtarsız temerrüt hâli (TBK m. 117/2) de yoksa dava ya da takip borçluyu temerrüde düşürür ve takip öncesi için işlemiş faiz istenemez.
   - ⚠️ Belirli gün ("kesin vade", TBK m. 117/2) ihtarı gereksiz kılar. Kesin vadeli işlem (TBK m. 124/3) ise seçimlik haklar için süre vermeyi gereksiz kılar.
   - 📌 Kusur temerrüdün şartı değildir. Gecikme tazminatında (m. 118), beklenmedik hâlden sorumlulukta (m. 119) ve aşkın zararda (m. 122) kusursuzluğu borçlu ispatlar.
   - 📌 TBK m. 119/2'deki iki kurtuluş yolu: temerrüde düşmekte kusursuzluk ve zamanında ifa edilse bile zararın doğacağı. "Beklenmedik hâlde kusurum yok" demek yetmez.
@@ -554,7 +554,7 @@ olaylar:
       1. Hakan temerrüde düşmüş müdür? Düşmüşse hangi tarihte?
       2. Ayşe kira giderlerini Hakan'dan isteyebilir mi?
       3. Makinenin selde kullanılamaz hâle gelmesinden Hakan sorumlu mudur? Ayşe ne isteyebilir?
-      4. Sel 14 Mart'ta olsaydı sonuç ne olurdu?
+      4. Makine servisten 14 Mart'ta dönmüş ve sel aynı gece Hakan'ın deposunu basmış olsaydı sonuç ne olurdu?
     olcut:
       - {tespit: "Borcun 15 Mart'ta muaccel olması; ifa günü birlikte belirlendiği için ihtarsız temerrüt ve temerrüdün 15 Mart'ın geçmesiyle doğması", puan: 25, madde: "TBK m. 117"}
       - {tespit: "Kusurun temerrüdün şartı olmaması; gecikme tazminatında kusur karinesi ve ispat yükünün Hakan'da olması", puan: 15, madde: "TBK m. 118"}
@@ -683,8 +683,8 @@ kartlar:
     arka: "Adi işlerde hayır. Tacirler arasında noter, taahhütlü mektup, telgraf ya da KEP ile yapılır; bu şekil ispat şartıdır (TTK m. 18/3)."
   - on: "İhtarda süre verilirse temerrüt ne zaman doğar?"
     arka: "Verilen sürenin bitiminde. Süre vermek zorunlu değildir; ödemenin açıkça istenmesi yeter."
-  - on: "Hiç ihtar yoksa faiz ne zamandan işler?"
-    arka: "Borçluyu temerrüde düşüren takip ya da dava tarihinden. Takip öncesi için işlemiş faiz istenemez (Yargıtay Hukuk Genel Kurulu)."
+  - on: "Hiç ihtar ve ihtarsız temerrüt hâli yoksa faiz ne zamandan işler?"
+    arka: "Borçluyu temerrüde düşüren takip ya da dava tarihinden. Takip öncesi için işlemiş faiz istenemez (Yargıtay Hukuk Genel Kurulu). Belirli gün, haksız fiil ve kötüniyetli sebepsiz zenginleşmede ise ihtar gerekmez (TBK m. 117/2)."
   - on: "Haksız fiilde faiz başlangıcı?"
     arka: "Kural olarak olay tarihi (TBK m. 117/2). 31.7.2026'dan beri çalışma gücü kaybı ve destek tazminatında kazancın bilinemediği dönem için karar tarihi (TBK m. 55)."
   - on: "Gecikme tazminatında ispat yükü? (TBK m. 118)"
