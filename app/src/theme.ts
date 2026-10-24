@@ -136,6 +136,21 @@ export const coursePalette: CourseColor[] = isDark
   ? lightPalette.map((c) => ({ ...c, deep: mix(c.main, "#FFFFFF", 0.38), tint: mix(dark.surface, c.main, 0.22) }))
   : lightPalette;
 
+/**
+ * Vurgu renginden okunur yazı tonu: açık temada mürekkebe, koyu temada beyaza doğru karıştırılır.
+ * Başlık ve kalın vurgu gibi renkli yazılar için (ana ton beyaz zeminde tek başına yeterince koyu değil).
+ */
+export function accentInk(accent: string): string {
+  if (!/^#[0-9a-f]{6}$/i.test(accent)) return colors.ink;
+  return isDark ? mix(accent, "#FFFFFF", 0.4) : mix(accent, light.ink, 0.35);
+}
+
+/** Vurgu renginin zemine çok hafif karışmış hâli (başlık altı çizgisi, vurgu zemini). */
+export function accentWash(accent: string, amount = 0.14): string {
+  if (!/^#[0-9a-f]{6}$/i.test(accent)) return colors.surfaceAlt;
+  return mix(colors.surface, accent, amount);
+}
+
 /** Müfredattaki 14 ders için sabit atama; yeni eklenen ders koda göre bir renk alır. */
 const FIXED: Record<string, number> = {
   HUK2011: 0, HUK2013: 1, HUK2009: 2, HUK2017: 3, HUK2012: 4, HUK2015: 5, HUK2003: 6,

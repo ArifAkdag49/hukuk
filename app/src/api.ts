@@ -1,3 +1,4 @@
+import * as FileSystem from "expo-file-system/legacy";
 import { Platform } from "react-native";
 import { API_URL, USE_FIXTURE } from "./config";
 import { getToken } from "./auth/token";
@@ -108,6 +109,39 @@ async function request<T>(path: string, opts: ReqOpts = {}): Promise<T> {
   return (text ? JSON.parse(text) : undefined) as T;
 }
 
+/**
+ * Telefonda dosya yükleme. fetch + FormData Android'de dosya gövdesini gönderemeden "Network request failed"
+ * verebiliyor; Expo'nun yerel yükleyicisi dosyayı diskten akıtarak çok parçalı (multipart) gönderir.
+ */
+async function uploadNative(file: UploadFile, courseId: string, title: string): Promise<{ id: string; status: "processing" }> {
+  const token = await getToken();
+  let r: FileSystem.FileSystemUploadResult;
+  try {
+    r = await FileSystem.uploadAsync(`${API_URL}/notes`, file.uri, {
+      httpMethod: "POST",
+      uploadType: FileSystem.FileSystemUploadType.MULTIPART,
+      fieldName: "file",
+      mimeType: file.mimeType,
+      parameters: { course_id: courseId, title, filename: file.name },
+      headers: { Accept: "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+    });
+  } catch {
+    throw new ApiError(0, userMessage(0));
+  }
+  let body: { detail?: unknown; id?: string; status?: "processing" } | undefined;
+  try {
+    body = r.body ? JSON.parse(r.body) : undefined;
+  } catch {
+    // gövde JSON değil
+  }
+  if (r.status < 200 || r.status >= 300) {
+    const detail = typeof body?.detail === "string" ? body.detail : undefined;
+    if (r.status === 401) onUnauthorized?.();
+    throw new ApiError(r.status, userMessage(r.status, detail), detail);
+  }
+  return body as { id: string; status: "processing" };
+}
+
 const realApi: ApiClient = {
   login: (password) =>
     request("/auth/login", { method: "POST", body: { password }, auth: false, silent401: true }),
@@ -119,13 +153,9 @@ const realApi: ApiClient = {
   getAllProgress: () => request("/progress/all", { timeoutMs: 120_000 }),
   async uploadNote(file, courseId, title) {
     if (file.size && file.size > MAX_UPLOAD_BYTES) throw new ApiError(413, userMessage(413));
+    if (Platform.OS !== "web") return uploadNative(file, courseId, title);
     const form = new FormData();
-    if (Platform.OS === "web" && file.webFile) {
-      form.append("file", file.webFile, file.name);
-    } else {
-      // React Native FormData dosya nesnesi: { uri, name, type }
-      form.append("file", { uri: file.uri, name: file.name, type: file.mimeType } as unknown as Blob);
-    }
+    form.append("file", file.webFile ?? (file as unknown as Blob), file.name);
     form.append("course_id", courseId);
     form.append("title", title);
     return request("/notes", { method: "POST", form, timeoutMs: 180_000 });

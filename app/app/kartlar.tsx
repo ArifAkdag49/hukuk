@@ -187,14 +187,7 @@ export default function Kartlar() {
                 {card.back_md}
               </Markdown>
             </>
-          ) : (
-            <View style={styles.tapHint}>
-              <Icon name="gesture-tap" color={colors.muted} />
-              <T v="small" color={colors.muted}>
-                Cevabı görmek için dokun
-              </T>
-            </View>
-          )}
+          ) : null}
         </Pressable>
       </Animated.View>
       <Gap h={space.lg} />
@@ -239,7 +232,6 @@ const styles = StyleSheet.create({
     ...shadow.raised,
   },
   divider: { height: 3, borderRadius: 2, marginVertical: space.md },
-  tapHint: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: "auto", paddingTop: space.lg, justifyContent: "center" },
   grades: { flexDirection: "row", gap: space.xs },
   grade: { flex: 1, alignItems: "center", gap: 4, paddingVertical: space.md, paddingHorizontal: 4, borderRadius: radius.lg, borderWidth: 2, minHeight: 104 },
   stats: { flexDirection: "row", gap: space.xs, flexWrap: "wrap" },

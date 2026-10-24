@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { ApiError, errorText } from "../src/api";
 import { Bookshelf } from "../src/components/Bookshelf";
 import { Notice } from "../src/components/States";
-import { Button, Gap, T } from "../src/components/ui";
+import { Button, Gap, Icon, T } from "../src/components/ui";
 import { USE_FIXTURE } from "../src/config";
 import { useApp } from "../src/store/AppContext";
 import { colors, fonts, radius, space } from "../src/theme";
@@ -13,6 +13,7 @@ export default function Giris() {
   const { login } = useApp();
   const insets = useSafeAreaInsets();
   const [password, setPassword] = useState("");
+  const [visible, setVisible] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -33,7 +34,7 @@ export default function Giris() {
   }
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: colors.bg }} behavior={Platform.OS === "ios" ? "padding" : undefined}>
+    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: colors.bg }} behavior="padding">
       <ScrollView contentContainerStyle={[styles.wrap, { paddingTop: insets.top + space.xxxl }]} keyboardShouldPersistTaps="handled">
         <View style={styles.inner}>
           <Bookshelf height={88} />
@@ -49,13 +50,14 @@ export default function Giris() {
             Şifre
           </T>
           <Gap h={space.xs} />
+          <View style={[styles.field, error ? { borderColor: colors.danger } : null]}>
           <TextInput
             value={password}
             onChangeText={(t) => {
               setPassword(t);
               if (error) setError(null);
             }}
-            secureTextEntry
+            secureTextEntry={!visible}
             autoCapitalize="none"
             autoCorrect={false}
             placeholder="Uygulama şifren"
@@ -64,8 +66,18 @@ export default function Giris() {
             returnKeyType="go"
             accessibilityLabelledBy="sifre-etiket"
             accessibilityLabel="Şifre"
-            style={[styles.input, error ? { borderColor: colors.danger } : null]}
+            style={styles.input}
           />
+          <Pressable
+            onPress={() => setVisible((v) => !v)}
+            accessibilityRole="button"
+            accessibilityLabel={visible ? "Şifreyi gizle" : "Şifreyi göster"}
+            hitSlop={8}
+            style={styles.eye}
+          >
+            <Icon name={visible ? "eye-off-outline" : "eye-outline"} color={colors.muted} />
+          </Pressable>
+          </View>
           {error ? (
             <>
               <Gap h={space.sm} />
@@ -90,12 +102,19 @@ const styles = StyleSheet.create({
   wrap: { flexGrow: 1, paddingHorizontal: space.lg, paddingBottom: space.xxl },
   inner: { width: "100%", maxWidth: 460, alignSelf: "center" },
   shelf: { height: 6, borderRadius: 3, backgroundColor: colors.ink, opacity: 0.85 },
-  input: {
+  field: {
+    flexDirection: "row",
+    alignItems: "center",
     minHeight: 56,
     borderRadius: radius.md,
     borderWidth: 1.5,
     borderColor: colors.line,
     backgroundColor: colors.surface,
+  },
+  eye: { width: 52, height: 52, alignItems: "center", justifyContent: "center" },
+  input: {
+    flex: 1,
+    minHeight: 54,
     paddingHorizontal: space.md,
     fontFamily: fonts.regular,
     fontSize: 18,

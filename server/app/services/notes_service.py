@@ -18,8 +18,13 @@ from ..quiz_util import shuffle_options
 log = logging.getLogger("hukuk.notes")
 
 PDF = "application/pdf"
+DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 IMAGE_TYPES = {"image/jpeg", "image/png", "image/webp", "image/gif"}
-SUPPORTED = {PDF} | IMAGE_TYPES
+OFFICE_TYPES = {DOCX, XLSX}
+SUPPORTED = {PDF} | IMAGE_TYPES | OFFICE_TYPES
+# Telefon bazen türü "application/octet-stream" bildirir: uzantıdan bulunur
+BY_EXT = {".pdf": PDF, ".docx": DOCX, ".xlsx": XLSX, ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp", ".gif": "image/gif"}
 MIN_TEXT_CHARS = 200  # bunun altı "taranmış PDF" sayılır
 PROMPT_CHAR_LIMIT = 150_000
 
@@ -93,6 +98,52 @@ def pdf_page_count(path: str) -> int:
 def extract_pdf_text(path: str) -> str:
     reader = PdfReader(path)
     return "\n\n".join((p.extract_text() or "") for p in reader.pages).strip()
+
+
+def guess_mime(content_type: str | None, filename: str | None) -> str:
+    mime = (content_type or "").split(";")[0].strip().lower()
+    if mime in SUPPORTED:
+        return mime
+    return BY_EXT.get(os.path.splitext(filename or "")[1].lower(), mime)
+
+
+def extract_office_text(path: str, mime: str) -> str:
+    """Word: paragraflar ve tablolar sırayla; Excel: her sayfa başlığıyla, satırlar " | " ile."""
+    if mime == DOCX:
+        from docx import Document
+
+        doc = Document(path)
+        parts: list[str] = []
+        for block in doc.element.body.iterchildren():
+            tag = block.tag.rsplit("}", 1)[-1]
+            if tag == "p":
+                text = "".join(t.text or "" for t in block.iter() if t.tag.endswith("}t")).strip()
+                if text:
+                    parts.append(text)
+            elif tag == "tbl":
+                for row in block.iter():
+                    if row.tag.endswith("}tr"):
+                        cells = ["".join(t.text or "" for t in c.iter() if t.tag.endswith("}t")).strip()
+                                 for c in row if c.tag.endswith("}tc")]
+                        if any(cells):
+                            parts.append(" | ".join(cells))
+        return "\n".join(parts).strip()
+    if mime == XLSX:
+        from openpyxl import load_workbook
+
+        wb = load_workbook(path, read_only=True, data_only=True)
+        parts = []
+        for ws in wb.worksheets:
+            rows = []
+            for row in ws.iter_rows(values_only=True):
+                cells = ["" if v is None else str(v).strip() for v in row]
+                if any(cells):
+                    rows.append(" | ".join(cells).rstrip(" |"))
+            if rows:
+                parts.append(f"## {ws.title}\n" + "\n".join(rows))
+        wb.close()
+        return "\n\n".join(parts).strip()
+    raise ValueError(f"desteklenmeyen tür: {mime}")
 
 
 def _file_block(path: str, mime: str) -> dict:
@@ -219,10 +270,14 @@ async def process(note_id: str) -> None:
         return
     try:
         text = ""
-        if note["mime"] == PDF:
-            text = await db.run(extract_pdf_text, note["file_path"])
-        if len(text) < MIN_TEXT_CHARS:
-            text = await transcribe(note["file_path"], note["mime"])
+        if note["mime"] in OFFICE_TYPES:
+            # Word ve Excel görsel olarak okunamaz: yalnız içindeki metin kullanılır
+            text = await db.run(extract_office_text, note["file_path"], note["mime"])
+        else:
+            if note["mime"] == PDF:
+                text = await db.run(extract_pdf_text, note["file_path"])
+            if len(text) < MIN_TEXT_CHARS:
+                text = await transcribe(note["file_path"], note["mime"])
         if not text.strip():
             raise RuntimeError("Notta okunabilir metin bulunamadı")
         topics = await db.run(_course_topics, note["course_id"])

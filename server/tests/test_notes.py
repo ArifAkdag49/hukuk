@@ -157,3 +157,65 @@ def test_notes_left_processing_by_a_restart_are_marked_failed(course, sql):
         pass
     row = sql.execute("select status, error from notes").fetchone()
     assert row[0] == "failed" and "yarıda" in row[1]
+
+
+def docx_bytes() -> bytes:
+    from docx import Document
+
+    d = Document()
+    d.add_heading("İrade bozuklukları", 1)
+    d.add_paragraph("Yanılmada süre bir yıldır.")
+    t = d.add_table(rows=2, cols=2)
+    t.cell(0, 0).text, t.cell(0, 1).text = "Hâl", "Madde"
+    t.cell(1, 0).text, t.cell(1, 1).text = "Aldatma", "TBK m. 36"
+    buf = io.BytesIO()
+    d.save(buf)
+    return buf.getvalue()
+
+
+def xlsx_bytes() -> bytes:
+    from openpyxl import Workbook
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Süreler"
+    ws.append(["Hâl", "Süre"])
+    ws.append(["Yanılma", "1 yıl"])
+    ws.append([None, None])
+    buf = io.BytesIO()
+    wb.save(buf)
+    return buf.getvalue()
+
+
+def test_word_and_excel_text_is_extracted_in_order(tmp_path):
+    p = tmp_path / "n.docx"
+    p.write_bytes(docx_bytes())
+    assert ns.extract_office_text(str(p), ns.DOCX) == "İrade bozuklukları\nYanılmada süre bir yıldır.\nHâl | Madde\nAldatma | TBK m. 36"
+    x = tmp_path / "n.xlsx"
+    x.write_bytes(xlsx_bytes())
+    assert ns.extract_office_text(str(x), ns.XLSX) == "## Süreler\nHâl | Süre\nYanılma | 1 yıl"
+
+
+def test_type_is_taken_from_extension_when_phone_sends_octet_stream():
+    assert ns.guess_mime("application/octet-stream", "hafta3.DOCX") == ns.DOCX
+    assert ns.guess_mime("application/pdf", "x.bin") == ns.PDF
+    assert ns.guess_mime(None, "a.txt") == ""
+
+
+def test_word_note_is_processed_without_transcription(auth_client, course, sql, monkeypatch):
+    client = FakeClient(parse_outputs=fake_outputs())
+    llm.set_client(client)
+    monkeypatch.setattr(ns, "extract_office_text", lambda path, mime: "Yanılma ve aldatma. Süre 2 yıldır. " * 20)
+    try:
+        r = auth_client.post(
+            "/notes",
+            files={"file": ("hafta3.docx", docx_bytes(), "application/octet-stream")},
+            data={"course_id": "HUK2011", "title": "Hafta 3", "filename": "hafta3.docx"},
+        )
+        assert r.status_code == 200, r.text
+        detail = auth_client.get(f"/notes/{r.json()['id']}").json()
+        assert detail["status"] == "ready", detail
+        # metin doğrudan çıkarıldı: görsel aktarma (Sonnet transcribe) çağrılmadı
+        assert [kw["model"] for _, kw in client.calls] == [llm.HAIKU, llm.SONNET, llm.HAIKU]
+    finally:
+        llm.set_client(None)
