@@ -5,12 +5,13 @@ import { DevSettings } from "react-native";
  * Görünüm tercihi. Stiller modül yüklenirken (StyleSheet.create) bir kez kurulduğu için tercih
  * EŞZAMANLI okunur ve değişince uygulama yeniden başlatılır.
  */
-export type ThemeMode = "light" | "dark";
+export type ThemeMode = "light" | "dark" | "pink";
 const KEY = "theme_mode";
 
 export function readThemeMode(): ThemeMode {
   try {
-    return SecureStore.getItem(KEY) === "dark" ? "dark" : "light";
+    const v = SecureStore.getItem(KEY);
+    return v === "dark" || v === "pink" ? v : "light";
   } catch {
     return "light";
   }
