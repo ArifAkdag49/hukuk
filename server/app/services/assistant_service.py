@@ -3,6 +3,12 @@
 Sonnet 5.5 varsayılan; "Daha derin cevap" Opus 5.5. Araç döngüsü en fazla
 MAX_TURNS tur; araç hataları `is_error` ile modele iletilir ve model madde ya da
 karar uydurmak yerine kaynağa ulaşılamadığını söyler.
+
+Maliyet: her turda öncekiler yeniden gönderildiği için son mesajın son bloğuna önbellek
+işareti konur; bir önceki turun tamamı önbellekten (girdi fiyatının onda biri) okunur.
+
+Kaynak listesi yalnız gerçekten kullanılanları gösterir: tam eşleşen bilgi bankası konuları,
+çekilen maddeler ve tam metni açılan kararlar (arama sonucu listesindeki kararlar değil).
 """
 
 import asyncio
@@ -17,18 +23,37 @@ HISTORY_LIMIT = 20
 SUGGEST_NEW_AFTER = 20
 TOOL_RESULT_LIMIT = 20_000  # karar tam metni 5-30 bin token olabiliyor; her turda yeniden gönderiliyor
 
-SYSTEM = """Sen bir hukuk fakültesi öğrencisine ders çalışmada yardım eden asistansın (Marmara Üniversitesi, 2. ve 3. sınıf dersleri). Türkçe, sade ve öğretici cevap ver; gerekirse kısa örnekle somutlaştır.
+SYSTEM = """Sen bir hukuk fakültesi öğrencisine ders çalışmada yardım eden asistansın (Marmara Üniversitesi, 2. ve 3. sınıf dersleri). Türkçe, sade, öğretici ve akılda kalıcı cevap ver.
 
 Kaynak kuralları:
-- Önce `bilgi_bankasi_ara` ile öğrencinin bilgi bankasına ve notlarına bak.
-- Bir kanun maddesine numarasıyla atıf yapmadan önce `madde_getir` ile resmî metni al; metni çarpıtmadan aktar.
-- Bir karara atıf yapmadan önce `ictihat_ara` ile bul; künyeyi aracın verdiği gibi kullan, asla uydurma.
+- Önce `bilgi_bankasi_ara` ile öğrencinin bilgi bankasına ve notlarına bak. Sonuç "kısmi eşleşme" ise ya da konu sorunla ilgili değilse onu kullanma; bilgi bankasında konu yoksa bunu bir cümleyle söyle.
+- Bir kanun maddesine numarasıyla atıf yapmadan önce `madde_getir` ile resmî metni al; metni çarpıtmadan, kısa tırnakla aktar.
+- Hukuki bir soruda (kural, suçun unsurları, olay çözümü, iki kurumun farkı) cevaplamadan önce MUTLAKA `ictihat_ara` ile karar ara (adli konularda varsayılan; idare hukukunda mahkeme='idari', anayasa ve temel haklarda mahkeme='anayasa'). Uygun 1-3 kararı `karar_getir` ile tam metninden aç. Genel Kurul ve yeni tarihli kararları tercih et.
+- Karar hakkında yalnız açtığın metinde gördüğünü yaz. Künyeyi aracın verdiği gibi kullan, asla uydurma. Bir ilke yalnız karşı oyda geçiyorsa "karşı oyda" diye belirt. Uygun karar bulamazsan "Bu soruda doğrudan bir Yargıtay kararı bulamadım" de.
 - Güncel değişiklikler (yeni kanun, Resmî Gazete, yürürlük) için web aramasını kullan.
-- Bir araç hata verirse ya da sonuç bulamazsa bunu açıkça söyle ("resmî kaynağa şu an ulaşılamıyor"); madde, karar ya da tarih uydurma.
-- Doktrin görüşlerini yazar adı vermeden aktar.
-- Bu bir hukuki danışmanlık değildir; somut bir uyuşmazlıkta öğrenciyi bir avukata yönlendir.
+- Bir araç hata verirse bunu açıkça söyle ("resmî kaynağa şu an ulaşılamıyor"); madde, karar ya da tarih uydurma.
+- Doktrin görüşlerini yazar adı vermeden aktar. Tartışmalı bir noktayı kesin sonuç gibi yazma.
 
-Biçim: markdown, kısa paragraflar ve gerektiğinde madde işaretleri. Cevabın sonunda kaynak listesi yazma; uygulama kaynakları ayrıca gösteriyor."""
+Cevap biçimi (hukuki sorularda; markdown, başlıklar ## ile):
+## Kısa cevap
+1-3 cümle: net sonuç ("Hayır, … oluşmaz." gibi) ve tek cümlelik gerekçe.
+## Kural
+İlgili maddenin kısa tırnaklı metni; suçun ya da kurumun unsurları gerekiyorsa kısa bir tablo (Unsur | Ne aranır).
+## Kararlar
+Her karar için: **künye** (mahkeme, E., K., tarih; oy durumu metinde varsa), bir cümle olay, bir-iki cümle ilke.
+## Olaya uygulama
+Soruda olay varsa adım adım ya da tablo (Unsur | Olayda | Sonuç). Olay yoksa bu başlığı atla.
+## Dikkat
+⚠️ ile sık yapılan hata ya da karıştırılan kurum; varsa tartışmalı nokta ("tartışmalıdır" diye).
+## Kısa örnek
+Kuralı akılda tutturan iki satırlık bir karşılaştırma (yararlıysa).
+## Sınav özeti
+3-4 kısa madde.
+
+Uzunluk: 300-700 kelime; derin cevapta daha ayrıntılı olabilir. Önemli kavramları, süreleri ve şartları **kalın** yaz. Emojiyi yalnız ⚠️ ve 💡 için kullan.
+Öğrenci yalnız "daha basit anlat", "soru sor" gibi bir istekte bulunur ya da sohbet ederse bu yapıyı zorlama ve yeniden karar arama; önceki cevaba dayan.
+Bu bir hukuki danışmanlık değildir; somut bir uyuşmazlıkta öğrenciyi bir avukata yönlendir (tek cümle).
+Cevabın sonunda kaynak listesi yazma; uygulama kaynakları ayrıca gösteriyor."""
 
 KB_TOOL = {
     "name": "bilgi_bankasi_ara",
@@ -52,7 +77,9 @@ async def _run_tool(name: str, args: dict, sources: list[dict]) -> tuple[str, bo
     if name == "bilgi_bankasi_ara":
         hits = await db.run(search.search_kb, args.get("sorgu", ""), 5)
         for h in hits:
-            sources.append({"type": "kb", "label": h["title"], "ref": h["id"]})
+            # sözcüklerden yalnız biri geçen sonuçlar çoğu zaman ilgisiz: modele gider, kaynak listesine girmez
+            if h.get("eslesme") == "tam":
+                sources.append({"type": "kb", "label": h["title"], "ref": h["id"]})
         return json.dumps(hits or {"sonuc": "eşleşme yok"}, ensure_ascii=False), False
 
     text, is_error = await hub.call(name, args)
@@ -64,9 +91,6 @@ async def _run_tool(name: str, args: dict, sources: list[dict]) -> tuple[str, bo
         data = None
     if name == "madde_getir" and isinstance(data, dict):
         sources.append({"type": "madde", "label": f"{data.get('kanun', args.get('kanun'))} m. {data.get('madde_no', args.get('madde_no'))}", "ref": data.get("kaynak") or ""})
-    elif name == "ictihat_ara" and isinstance(data, dict):
-        for r in (data.get("sonuclar") or [])[:3]:
-            sources.append({"type": "karar", "label": r.get("atif") or r.get("mahkeme", ""), "ref": r.get("kaynak") or ""})
     elif name == "karar_getir" and isinstance(data, dict):
         label = data.get("atif") or data.get("kunye") or args.get("karar_id")
         sources.append({"type": "karar", "label": str(label), "ref": data.get("kaynak") or ""})
@@ -90,6 +114,21 @@ def _truncate(text: str) -> str:
     if len(text) <= TOOL_RESULT_LIMIT:
         return text
     return text[:TOOL_RESULT_LIMIT] + "\n\n[… metin kısaltıldı; tamamı için kaynak bağlantısına bakın]"
+
+
+def _cached(messages: list[dict]) -> list[dict]:
+    """Son mesajın son bloğuna önbellek işareti koyan kopya (asıl liste değişmez, işaretler birikmez)."""
+    if not messages:
+        return messages
+    last = messages[-1]
+    content = last["content"]
+    if isinstance(content, str):
+        blocks = [{"type": "text", "text": content}]
+    else:
+        blocks = [dict(b) if isinstance(b, dict) else b for b in content]
+    if blocks and isinstance(blocks[-1], dict):
+        blocks[-1] = {**blocks[-1], "cache_control": {"type": "ephemeral"}}
+    return messages[:-1] + [{**last, "content": blocks}]
 
 
 def _dedupe(sources: list[dict]) -> list[dict]:
@@ -141,7 +180,7 @@ async def answer(thread: dict, content: str, deep: bool) -> dict:
             system=system,
             tools=TOOLS,
             output_config={"effort": "high" if deep else "medium"},
-            messages=messages,
+            messages=_cached(messages),
         )
         _collect_web_sources(resp.content, sources)
         if resp.stop_reason == "pause_turn":
@@ -168,7 +207,7 @@ async def answer(thread: dict, content: str, deep: bool) -> dict:
                 tools=TOOLS,
                 tool_choice={"type": "none"},
                 output_config={"effort": "high" if deep else "medium"},
-                messages=messages,
+                messages=_cached(messages),
             )
             _collect_web_sources(resp.content, sources)
 

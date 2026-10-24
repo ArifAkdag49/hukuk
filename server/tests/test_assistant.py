@@ -178,3 +178,55 @@ def test_turn_cap_ends_with_a_tool_free_answer(auth_client, kb, tools, monkeypat
     final = fake.calls[2][1]
     assert final["tool_choice"] == {"type": "none"}
     assert final["messages"][-1]["role"] == "user"  # son araç sonuçları eklendi
+
+
+def test_partial_kb_matches_and_unopened_cases_are_not_listed_as_sources(auth_client, kb, monkeypatch):
+    async def fake_call(name, args):
+        if name == "ictihat_ara":
+            return json.dumps({"sonuclar": [{"atif": "Yargıtay 1. HD, E.1 K.1", "kaynak": "https://k/1"}]}), False
+        if name == "karar_getir":
+            return json.dumps({"atif": "Yargıtay 9. CD, E.2 K.2", "kaynak": "https://k/2", "metin": "..."}), False
+        return "{}", False
+
+    monkeypatch.setattr(hub, "call", fake_call)
+    fake = FakeClient(create_outputs=[
+        message([
+            tool_use("t1", "bilgi_bankasi_ara", {"sorgu": "aldatma göçmen"}),  # yalnız "aldatma" geçer: kısmi eşleşme
+            tool_use("t2", "ictihat_ara", {"ifade": "göçmen kaçakçılığı"}),
+        ], "tool_use"),
+        message([tool_use("t3", "karar_getir", {"karar_id": "2"})], "tool_use"),
+        message([text_block("Cevap")]),
+        message([text_block("Başlık")]),
+    ])
+    install(fake)
+    tid = thread(auth_client)
+    msg = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Soru", "deep": False}).json()["message"]
+    assert [s["label"] for s in msg["sources"]] == ["Yargıtay 9. CD, E.2 K.2"]
+    # kısmi eşleşme modele yine gider, işaretli olarak
+    kb_result = fake.calls[1][1]["messages"][-1]["content"][0]["content"]
+    assert "İrade bozuklukları" in kb_result and '"eslesme": "kismi"' in kb_result
+
+
+def test_only_the_last_block_of_each_turn_is_cache_marked(auth_client, kb, tools):
+    fake = FakeClient(create_outputs=[
+        message([tool_use("t1", "madde_getir", {"kanun": "TBK", "madde_no": "36"})], "tool_use"),
+        message([tool_use("t2", "madde_getir", {"kanun": "TBK", "madde_no": "37"})], "tool_use"),
+        message([text_block("Cevap")]),
+        message([text_block("Başlık")]),
+    ])
+    install(fake)
+    tid = thread(auth_client)
+    auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Hile?", "deep": False})
+
+    def marks(call):
+        n = 0
+        for m in call[1]["messages"]:
+            for b in (m["content"] if isinstance(m["content"], list) else []):
+                if isinstance(b, dict) and "cache_control" in b:
+                    n += 1
+        return n
+
+    for call in fake.calls[:3]:
+        last = call[1]["messages"][-1]["content"][-1]
+        assert last["cache_control"] == {"type": "ephemeral"}
+        assert marks(call) == 1  # sistem işaretiyle birlikte en çok 2 kesme noktası
