@@ -1,0 +1,805 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Borçların İfası",
+ "topic_index": 1,
+ "slug": "ifa-genel-esaslar",
+ "title": "İfanın Genel Esasları: Bizzat ve Kısmi İfa, Para Borçları, Faiz ve Mahsup",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:50:58.613103+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/ifa-ve-ifa-engelleri"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Borcu kim ifa eder, alacaklı parça parça ödemeyi kabul etmek zorunda mı, faiz hangi oranla istenir, para borcu hangi parayla ödenir ve yapılan bir ödeme hangi borca, borcun hangi kalemine sayılır?\n\n- **Bizzat ifa (TBK m. 83):** Kural olarak borçlu borcunu şahsen ifa etmek zorunda değildir. Yardımcı kullanabilir, borcu bir üçüncü kişi de ödeyebilir. İstisna: alacaklının, borcun bizzat borçlu tarafından ifasında menfaati varsa. Bu menfaat sözleşmeden, kanundan ya da edimin kişisel niteliğinden doğar.\n- **Üçüncü kişinin ödemesi:** Borcu sona erdirir. Ama ödeyen kendiliğinden alacaklının yerine geçmez. Halefiyet yalnız TBK m. 127'deki ve kanundaki diğer hâllerde doğar.\n- **Kısmi ifa (TBK m. 84):** Borcun tamamı belli ve muaccelse alacaklı kısmi ifayı reddedebilir. Kabul ederse kalan alacak sürer ve borçlu, kendisinin ikrar ettiği kısmı ifadan kaçınamaz. Poliçede hamil kısmi ödemeyi reddedemez (TTK m. 709/2).\n- **Komşu hükümler:** Bölünemeyen borçta her borçlu borcun tamamından sorumludur (m. 85). Çeşit borcunda seçim borçlunundur ama ortalama nitelikten düşük edim veremez (m. 86). Seçimlik borçta da seçim borçlunundur (m. 87).\n- **Faiz oranı (TBK m. 88):** Sözleşmede oran yoksa, faiz borcunun doğduğu tarihte yürürlükteki mevzuat (3095 sayılı Kanun) uygulanır. Sözleşme faizi, bu oranın yüzde elli fazlasını aşamaz. Ticari işlerde oran serbesttir (TTK m. 8/1).\n- 📌 **2026 değişikliği:** 7589 sayılı Kanunla kanuni faiz, 31.7.2026'dan itibaren TCMB'nin önceki yılın 31 Aralık günündeki reeskont oranının %80'ine bağlandı. Oran her yıl yeniden hesaplanır.\n- **Para borcu (TBK m. 99):** Türk lirasıyla ödenir. Yabancı para borcunu borçlu, sözleşmede aynen ödeme kaydı yoksa ödeme günündeki kurla Türk lirası olarak da ödeyebilir. Borç vadede ödenmezse alacaklı, alacağın aynen ya da vade veya fiilî ödeme günündeki kur üzerinden Türk lirası olarak ödenmesini isteyebilir.\n- 📌 **32 sayılı Karar:** 2018'den beri Türkiye'de yerleşik kişiler, kendi aralarındaki taşınmaz satış ve kira sözleşmeleri gibi bazı sözleşmelerde bedeli döviz cinsinden ya da dövize endeksli kararlaştıramaz. İstisnalar Tebliğ'dedir ve sık değişir.\n- **Kısmi ödemenin mahsubu (TBK m. 100):** Faiz ve giderleri ödemede gecikmemiş borçlu, kısmi ödemeyi anaparaya saydırabilir ve bunun aksine anlaşma yapılamaz. Gecikme varsa ödeme önce faiz ve giderlere, kalanı anaparaya sayılır. Güvence altındaki kısma mahsup istenemez.\n- **Birden çok borç (TBK m. 101-102):** Sıra şöyledir: borçlunun ödeme günündeki bildirimi, sonra alacaklının makbuzda gösterdiği borç (borçlu derhâl itiraz etmezse), sonra kanuni sıra (muaccel borç, ilk takip edilen, vadesi ilk gelen, vadeleri aynıysa orantılı, hiçbiri muaccel değilse güvencesi en az olan).\n- **Makbuz (TBK m. 103-104):** Dönemsel edimde çekincesiz makbuz önceki dönemlerin, anaparanın tamamı için makbuz da faizin ödendiği karinesini doğurur.",
+  "content_md": "## 0. Konunun haritası\n\nBu konu \"borç nasıl ödenir?\" sorusunun genel kurallarını toplar:\n\n| Soru | Madde | Kısa cevap |\n|---|---|---|\n| Kim ifa eder? | TBK m. 83 | Borçlu ya da üçüncü kişi |\n| Parça parça ödenebilir mi? | TBK m. 84 | Alacaklı reddedebilir |\n| Faiz hangi oranla? | TBK m. 88 | Sözleşme, yoksa mevzuat |\n| Hangi parayla? | TBK m. 99 | Türk lirası |\n| Ödeme neye sayılır? | TBK m. 100-102 | Önce faiz ve gider |\n\nİfa yeri, ifa zamanı ve ödemezlik def'i (TBK m. 89 vd.), alacaklının temerrüdü (TBK m. 106 vd.), borçlunun temerrüdü ve temerrüt faizi (TBK m. 117 vd.) ile takas (TBK m. 139 vd.) ayrı konulardır. Burada yalnız bağlantı kuruyoruz.\n\n> 💡 **Püf nokta:** Para borcuyla ilgili bir olayda sırayla sor: Kim ödedi? Ne kadar ödedi, alacaklı kabul etmek zorunda mıydı? Hangi parayla? Ödeme hangi borca ve hangi kaleme sayılır?\n\n## 1. İfa nedir?\n\n**İfa**, borçlunun borçlandığı edimi borcun içeriğine uygun olarak yerine getirmesidir ve borcu sona erdirir. Para borçlarında ifaya **ödeme** denir. İfa ile karıştırılan iki kurum vardır:\n- **İfa yerine edim:** Alacaklı, borçlanılan edim yerine başka bir edimi kabul eder (50.000 TL yerine bir araba gibi). Kabulle borç sona erer.\n- **İfa uğruna edim:** Borçlu, alacaklının paraya çevirip alacağını tahsil edeceği bir değer verir (çek ya da bir alacağın temliki gibi). Asıl borç ancak tahsille sona erer. Şüphede ifa uğruna edim kabul edilir.\n\n## 2. Borcu kim ifa eder? (TBK m. 83)\n\n### 2.1 Kural: şahsen ifa zorunlu değil\nTBK m. 83'e göre borcun bizzat borçlu tarafından ifa edilmesinde **alacaklının menfaati bulunmadıkça** borçlu, borcunu şahsen ifa etmekle yükümlü değildir. Bu yüzden:\n- Borçlu ifayı bir **yardımcı kişiye** bıraktırabilir. Yardımcının işi yürütürken verdiği zarardan borçlu sorumludur (TBK m. 116; ayrıntısı borca aykırılık konusunda).\n- Borcu bir **üçüncü kişi** de ifa edebilir. Kira borcunu kiracının annesi ödeyebilir, kiraya veren \"parayı yalnız kiracıdan alırım\" diyemez.\n\n### 2.2 İstisna: alacaklının bizzat ifada menfaati\nBu menfaat üç kaynaktan doğabilir:\n1. **Sözleşme:** Taraflar edimin borçlu tarafından bizzat yerine getirilmesini kararlaştırmıştır.\n2. **Kanun:** İşçi, sözleşmeden ya da durumun gereğinden aksi anlaşılmadıkça işi bizzat yapar (TBK m. 395). Vekil vekâleti bizzat ifa eder; yetki verilmişse ya da durum zorunlu kılıyor veya teamül mümkün kılıyorsa işi başkasına yaptırabilir (TBK m. 506/1). Yüklenici eseri kendisi yapmak ya da kendi yönetimi altında yaptırmakla yükümlüdür; kişisel özellikleri önem taşımıyorsa işi başkasına da yaptırabilir (TBK m. 471/3).\n3. **Edimin niteliği:** Borçlunun kişisel yeteneği ya da uzmanlığı belirleyicidir: ünlü bir ressamın portresi, bir sanatçının konseri, özellikle seçilmiş bir cerrahın ameliyatı.\n\n> **Örnek:** Zeynep, ünlü ressam Deniz'e portresini 200.000 TL'ye ısmarlar. Deniz işi tümüyle asistanına bırakır. Zeynep'in portrenin Deniz'in elinden çıkmasında açık bir menfaati vardır. Tabloyu reddedebilir ve bu ret onu alacaklı temerrüdüne düşürmez.\n\n> ⚠️ **Sınavda dikkat:** Bizzat ifa istisnadır. Sözleşmede, kanunda ya da edimin niteliğinde bir dayanak yoksa kural uygulanır: borçlu şahsen ifa etmek zorunda değildir.\n\n### 2.3 Üçüncü kişi ödeyince ne olur?\n- **Borç sona erer.** Bizzat ifada menfaati olmayan alacaklı, usulüne uygun önerilen ifayı haklı bir sebep olmadan reddederse alacaklının temerrüdü gündeme gelir (TBK m. 106; ayrıntısı ayrı konuda).\n- **Ödeyen kendiliğinden alacaklının yerine geçmez.** TBK m. 127'ye göre üçüncü kişi yalnız iki hâlde, ifası ölçüsünde alacaklının haklarına **halef** olur: (1) başkasının borcu için rehnedilen bir şeyi rehinden kurtarmışsa ve o şey üzerinde mülkiyet ya da başka bir ayni hakkı varsa; (2) borçlu, ödeyenin halef olacağını **ifadan önce** alacaklıya bildirmişse. Kanundaki diğer halefiyet hâlleri saklıdır (ör. TBK m. 85/3).\n- Halefiyet yoksa üçüncü kişinin borçluya başvurması aralarındaki ilişkiye bağlıdır: vekâlet, vekâletsiz iş görme ya da sebepsiz zenginleşme gibi.\n\n> **Örnek:** Murat, ağabeyi Burak'ın bankaya olan 80.000 TL'lik borcunu öder ve borç sona erer. Burak, Murat ödemeden önce bankaya onun halef olacağını bildirmemişse Murat, bankanın alacağına ve kefalet gibi güvencelerine halef olmaz. Parasını Burak'tan ister.\n\n## 3. Kısmi ifa (TBK m. 84)\n\n### 3.1 Kural\n**Kısmi ifa**, bölünebilir bir edimin yalnız bir bölümünün yerine getirilmesidir. TBK m. 84/1'e göre **borcun tamamı belli ve muaccel ise** alacaklı kısmi ifayı reddedebilir. İki şart birlikte aranır:\n- **Belli:** Borcun tamamının miktarı belirlidir.\n- **Muaccel:** Alacaklı ifayı şimdi isteyebilir. İfa zamanı kararlaştırılmamışsa ya da hukuki ilişkinin özelliğinden başkası anlaşılmıyorsa borç doğumu anında muaccel olur (TBK m. 90).\n\nRet bir **haktır**, zorunluluk değildir. Alacaklı dilerse kısmi ödemeyi kabul eder.\n\n> **Örnek:** Ayşe'nin Can'a vadesi gelmiş ve miktarı tartışmasız 120.000 TL borcu vardır. Ayşe 70.000 TL getirir. Can bunu reddedebilir ve haklı ret onu alacaklı temerrüdüne düşürmez. Kabul ederse kalan 50.000 TL'lik alacağı devam eder.\n\n### 3.2 Ret ve kabulün sonuçları\n- **Haklı ret:** Borç olduğu gibi devam eder. Borçlu, şartları varsa borcun tamamı için temerrüde düşer (TBK m. 117; ayrıntısı ayrı konuda).\n- **Kabul:** Ödenen kısım için borç sona erer, kalan kısım için alacak sürer. Kabul, kalan alacaktan vazgeçmek anlamına gelmez. Dönemsel edimlerde ve anapara makbuzlarında ise TBK m. 104'teki karinelere dikkat et (7. başlık).\n\n### 3.3 Çekişmeli borç ve ikrar edilen kısım (m. 84/2)\nTBK m. 84/2'ye göre alacaklı kısmi ifayı kabul ederse borçlu, borcun **kendisi tarafından ikrar olunan kısmını** ifadan kaçınamaz.\n\n> **Örnek:** Elif, kusurlu tamir yüzünden Usta Ltd.'den 90.000 TL tazminat ister. Usta Ltd. yalnız 50.000 TL'yi kabul eder, gerisini tartışır. Elif bu 50.000 TL'yi şimdilik almaya razıdır. Usta Ltd. \"önce toplam netleşsin\" diyerek ikrar ettiği 50.000 TL'yi ödemekten kaçınamaz.\n\nMiktar çekişmeliyse borcun tamamı \"belli\" değildir ve m. 84/1'deki ret hakkının şartı gerçekleşmez. Baskın görüşe göre alacaklı bu durumda borçlunun kabul ettiği (çekişmesiz) kısmın ödenmesini reddedemez.\n\n### 3.4 Sınırlar ve istisnalar\n- **Sözleşme:** Taraflar taksitle ödeme kararlaştırabilir. Kural emredici değildir.\n- **Kambiyo senetleri:** Poliçede hamil kısmi ödemeyi reddedemez (TTK m. 709/2).\n- **Dürüstlük kuralı:** Eksik kısım çok önemsizse (1.000.000 TL'lik borçta 50 TL gibi) ret, hakkın açıkça kötüye kullanılması sayılabilir (TMK m. 2).\n- **Bölünemeyen edim:** Bir atın teslimi gibi edimlerde kısmi ifa zaten mümkün değildir.\n\n> ⚠️ **Sınavda dikkat:** m. 84 \"alacaklı kabul etmek zorundadır\" demez, \"reddedebilir\" der. Şartlar varsa kabul de ret de alacaklının elindedir.\n\n## 4. Borcun konusuna ilişkin komşu hükümler (TBK m. 85-87)\n- **Bölünemeyen borç (TBK m. 85):** Birden çok alacaklı varsa her biri borcun **bütün alacaklılara** ifasını isteyebilir. Birden çok borçlu varsa her biri borcun tamamını ifa etmekle yükümlüdür. İfa eden borçlu, durumun gereğinden aksi anlaşılmadıkça alacaklıya halef olur ve diğerlerinden payları oranında ister. Ortak atlarını satan iki kardeşten her biri atın tamamını teslimle yükümlüdür.\n- **Çeşit borcu (TBK m. 86):** Edim yalnız türü ve miktarıyla belirlenmiştir (100 çuval un gibi). Hukuki ilişkiden ve işin özelliğinden aksi anlaşılmadıkça seçim borçluya aittir, ama seçilen edim **ortalama nitelikten daha düşük** olamaz. Karşıtı, belirli bir şeyin borçlanıldığı **parça borcudur**.\n- **Seçimlik borç (TBK m. 87):** Birden çok edimden yalnız biri borçlanılmıştır (beyaz ya da siyah piyano gibi). Aksi anlaşılmadıkça seçim borçluya aittir.\n\n> ⚠️ **Sınavda dikkat:** Yabancı para borcunun Türk lirasıyla da ödenebilmesi (TBK m. 99/2) seçimlik borç değildir. Borçlanılan tek edim yabancı paradır, borçluya yalnız Türk lirasıyla ödeme **yetkisi** tanınmıştır.\n\n## 5. Faiz (TBK m. 88)\n\n### 5.1 Faiz nedir, ne zaman istenir?\n**Faiz**, para borcunda anaparanın kullanılmasının ya da geç ödenmesinin karşılığı olarak, anaparanın belli bir oranı üzerinden ödenen bedeldir. TBK m. 88 **sözleşme (akdi) faizi** ile **kanuni faizi** düzenler. Temerrütten sonra işleyen **temerrüt faizi** ayrı konudur (TBK m. 120).\n\nFaiz kendiliğinden doğmaz, ya sözleşmede kararlaştırılır ya da kanun öngörür. Ticari olmayan tüketim ödüncünde kararlaştırılmadıkça faiz istenemez, ticari tüketim ödüncünde ise kararlaştırılmasa da istenebilir (TBK m. 387). Faiz **fer'i** bir borçtur: asıl borç sona erince o da sona erer. İşlemiş faiz ancak sözleşmeyle, ifa anına kadar yapılan bir bildirimle ya da durumun gereğinden saklı tutulmuşsa istenebilir (TBK m. 131; ayrıntısı ayrı konuda).\n\n### 5.2 Oran kararlaştırılmamışsa (m. 88/1)\nTBK m. 88/1'e göre yıllık oran sözleşmede kararlaştırılmamışsa **faiz borcunun doğduğu tarihte yürürlükte olan mevzuat** hükümlerine göre belirlenir. Bu mevzuat 3095 sayılı Kanuni Faiz ve Temerrüt Faizine İlişkin Kanundur. Kanunun 1. maddesindeki orana **kanuni faiz** denir. Tüketim ödüncünde ise oran belirlenmemişse kural olarak ödünç alma zamanında ve yerinde o tür ödünçlerde geçerli oran uygulanır (TBK m. 388/1).\n\n> 📌 **Kesin bilgi (2026 değişikliği):** 7589 sayılı Kanunla 3095 sayılı Kanunun 1. maddesi değiştirildi; değişiklik Kanunun yayımlandığı **31.7.2026**'da yürürlüğe girdi. Kanuni faiz artık sabit değildir: TCMB'nin **önceki yılın 31 Aralık** günü kısa vadeli kredi işlemlerinde uyguladığı **reeskont oranının %80'idir**. 30 Haziran günkü oran, 31 Aralık'takinden **5 puan veya daha fazla** farklıysa yılın ikinci yarısında 30 Haziran oranının %80'i geçerli olur. 31.12.2025'teki reeskont oranı %38,75 olduğundan yeni formülle 31.7.2026'dan itibaren kanuni faiz yıllık %31'dir (38,75 × 0,80). Bu tarihten önce Cumhurbaşkanı kararıyla belirlenen oran (1.6.2024'ten beri yıllık %24) uygulanıyordu. Oran her yıl değişebilir, güncel değeri kontrol et.\n\n### 5.3 Sözleşme faizinin üst sınırı (m. 88/2)\nTBK m. 88/2'ye göre sözleşmeyle kararlaştırılacak **yıllık** faiz oranı, birinci fıkraya göre belirlenen yıllık oranın **yüzde elli fazlasını** aşamaz: **üst sınır = kanuni faiz × 1,5.**\n\n> **Örnek:** Kanuni faiz yıllık %31 ise sözleşme faizi en çok yıllık %46,5 olabilir. Ali'nin arkadaşı Burak'a verdiği ödünçte kararlaştırılan \"aylık %4\" faiz, yıllık %48'e karşılık gelir ve sınırı aşar.\n\n**Sınır aşılırsa?** Hüküm emredicidir. Baskın görüşe göre faiz kaydı tümden düşmez: sınırı aşan kısım geçersizdir ve oran üst sınıra indirilir. Bu, TBK m. 27/2'deki kısmi hükümsüzlüğün bir uygulamasıdır. Ödünç sözleşmesi ayakta kalır.\n\n### 5.4 Ticari işler ve bileşik faiz\n- **Ticari işlerde oran serbesttir** (TTK m. 8/1). m. 88/2'deki sınır ticari işlerdeki sözleşme faizine uygulanmaz. Tüketicinin korunmasına ilişkin hükümler saklıdır (TTK m. 8/3).\n- **Bileşik (mürekkep) faiz**, faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesidir. Tüketim ödüncünde kararlaştırılamaz (TBK m. 388/3). Kanuni faiz ve temerrüt faizi hesaplanırken de yürütülemez (3095 sayılı Kanunun 3. maddesi).\n- Ticari istisna dardır: üç aydan aşağı olmamak üzere bileşik faiz şartı yalnız cari hesaplarda ve iki taraf için de ticari iş olan ödünçlerde geçerlidir, sözleşenleri tacir olmayanlara uygulanmaz (TTK m. 8/2).\n\n> ⚠️ **Sınavda dikkat:** Sözleşme faizinin sınırı kanuni oranın **yüzde elli** fazlasıdır. Temerrüt faizinin sınırı ise **yüzde yüz** fazlasıdır (TBK m. 120/2). İkisini karıştırma.\n\n## 6. Para borçları (TBK m. 99)\n\n### 6.1 Kural: Türk lirası ve itibari değer\nKonusu para olan borç **Ülke parasıyla**, yani Türk lirasıyla ödenir (TBK m. 99/1). Kural olarak **itibari (nominal) değer** esas alınır: 100.000 TL'lik borç, enflasyon olsa da 100.000 TL'dir. Gecikmede alacaklıyı faiz ve aşkın zarar korur (TBK m. 122). Para borcu, aksine anlaşma yoksa alacaklının ödeme zamanındaki yerleşim yerinde ödenen bir **götürülecek borçtur** (TBK m. 89/1-1; ayrıntısı ifa yeri konusunda).\n\n### 6.2 Yabancı para borcu: vadede borçlunun yetkisi (m. 99/2)\nÖdemenin başka bir para birimiyle yapılması kararlaştırılmışsa ve sözleşmede **aynen ödeme** ya da bu anlama gelen bir ifade yoksa, borç **ödeme günündeki rayiç** (kur) üzerinden Türk lirasıyla da ödenebilir (TBK m. 99/2). Bu borçluya tanınmış bir yetkidir, borçlanılan şey yine yabancı paradır. Aynen ödeme kaydı varsa borçlu yabancı paranın kendisini ödemek zorundadır.\n\n### 6.3 Ödenmezse: alacaklının seçimlik hakkı (m. 99/3)\nAynen ödeme kaydı bulunmayan yabancı para borcu ödeme gününde ödenmezse alacaklı, alacağın (1) **aynen**, (2) **vade günündeki** kur üzerinden Türk lirası olarak ya da (3) **fiilî ödeme günündeki** kur üzerinden Türk lirası olarak ödenmesini isteyebilir (TBK m. 99/3). Kur riskini böylece ödemeyi geciktiren borçlu taşır.\n\n> **Örnek:** Selim, Hande'ye 1 Mart'ta 10.000 ABD doları ödemeyi borçlanmıştır, aynen ödeme kaydı yoktur. Selim ödemez. Vade günü kur 40 TL, Selim'in ödediği gün 44 TL'dir. Hande fiilî ödeme günü kurunu seçerek 440.000 TL isteyebilir. Vade günü kurunu seçseydi 400.000 TL isteyebilirdi. Kur düşseydi bu ikinci seçenek onun lehine olurdu.\n\nYargıtay'a göre bu seçim yenilik doğurucu bir hakkın kullanılmasıdır, alacaklı seçiminden dönemez. Sözleşmedeki \"her taksit ödeme günündeki kur karşılığı Türk lirası olarak ödenir\" gibi bir kayıt da borcu Türk lirası borcuna çevirmez. Kayıt yalnız vadesinde yapılan ödemede hangi kurun uygulanacağını gösterir, borç ödenmezse seçim yine alacaklınındır.\n\n> 💡 **Püf nokta:** Kur seçimi faizi de etkiler. Yargıtay'ın icra hukukuna ilişkin kararlarına göre fiilî ödeme günü kuru seçilirse alacak ödemeye kadar yabancı para alacağı olarak kalır ve 3095 sayılı Kanunun 4/a maddesindeki faiz (devlet bankalarının o paranın bir yıl vadeli mevduatına ödediği en yüksek faiz) istenir. Vade günü kuru seçilirse alacak o tarihten itibaren Türk lirası alacağına dönüşür ve kanuni faiz işler. Ayrıntısı temerrüt faizi konusunda.\n\n### 6.4 Kambiyo sınırlaması: 32 sayılı Karar\nTBK m. 99 yabancı para borcunu mümkün görür, ama kamu hukukundan gelen bir sınır vardır: **Türk Parası Kıymetini Koruma Hakkında 32 Sayılı Karar**. 13.09.2018'den beri Türkiye'de yerleşik kişiler kendi aralarında, Bakanlıkça belirlenen hâller dışında, bazı sözleşmelerde bedeli **döviz cinsinden ya da dövize endeksli** kararlaştıramaz. Hazine ve Maliye Bakanlığı Tebliği'nin 2025 itibarıyla yürürlükteki hâline göre:\n- **Kural olarak yasak:** yurt içindeki taşınmazların (konut ve çatılı iş yeri dâhil) satışı ve kiralanması, iş sözleşmeleri, danışmanlık, aracılık ve taşımacılık dâhil hizmet sözleşmeleri, taşıt satışı ve kiralaması.\n- **Mümkün:** taşıt dışındaki taşınırların satışı ve kiralanması, döviz cinsinden maliyet içeren eser sözleşmeleri. Türk vatandaşı olmayan yerleşiklerin alıcı ya da kiracı olduğu taşınmaz sözleşmeleri gibi istisnalar da vardır.\n- Altın gibi, fiyatı uluslararası piyasada döviz cinsinden belirlenen kıymetli madenlere ya da emtiaya endeksleme de **dövize endeksleme** sayılır.\n- 13.09.2018'den önce yapılmış ve yasak kapsamına giren sözleşmelerde bedel taraflarca Türk parası olarak yeniden belirlenmek zorundadır. Anlaşma olmazsa bedel 2.1.2018 tarihli TCMB efektif satış kuruyla Türk lirasına çevrilip TÜFE değişimiyle artırılır.\n- Aykırılık 1567 sayılı Kanuna dayanan idari yaptırımlara konu olur. Yargıtay ayrıca bu kuralları **ekonomik kamu düzenini koruyan emredici hükümler** sayar: borçlu kiraya itiraz ettiğinde mahkeme bunları kendiliğinden uygular ve döviz kirayı Türk lirasına çevirerek takip yapmak yasağı ortadan kaldırmaz.\n\n> ⚠️ **Sınavda dikkat:** İstisna listesi Tebliğ değişiklikleriyle sık değişir. Olayda bu konu çıkarsa genel kuralı yaz ve istisnaların güncel Tebliğ'den kontrol edilmesi gerektiğini belirt.\n\n## 7. Ödemenin ispatı: makbuz (TBK m. 103-104)\n- Borcu ödeyen borçlu **makbuz** isteyebilir. Borcun tamamını ödemişse borç senedinin geri verilmesini ya da iptalini de isteyebilir (TBK m. 103/1). Kısmi ödemede makbuz verilmesini ve ödemenin senede işlenmesini isteyebilir (TBK m. 103/2).\n- TBK m. 104'teki karineler:\n  - Faiz ya da kira gibi **dönemsel** bir edim için **çekince belirtilmeden** makbuz verilmişse **önceki dönemlere** ait edimler de ifa edilmiş sayılır (m. 104/1).\n  - Alacaklı **anaparanın tamamı** için makbuz vermişse **faizlerini de** almış olduğu kabul edilir (m. 104/2).\n  - Borç senedi borçluya geri verilmişse borç sona ermiş sayılır (m. 104/3).\n- Baskın görüşe göre bunlar aksi ispatlanabilen karinelerdir.\n\n> **Örnek:** Ev sahibi Nazan, kiracısı Okan'a çekincesiz \"Mart 2026 kirası alınmıştır\" makbuzu verir. Ocak ve Şubat kiralarının da ödendiği kabul edilir. Nazan bunları ancak ödenmediğini ispatlayarak isteyebilir. Makbuza \"önceki aylara ilişkin alacaklarım saklıdır\" diye çekince koysaydı karine doğmazdı.\n\n## 8. Kısmi ödeme hangi kaleme sayılır? (TBK m. 100)\n\n### 8.1 Kural\nAnaparanın yanında işlemiş faiz ve giderler (ihtar, takip masrafı gibi) de varsa kısmi ödemenin önce hangisini kapatacağı önemlidir. TBK m. 100/1'e göre borçlu, **faiz veya giderleri ödemede gecikmemişse** kısmi ödemeyi **ana borçtan düşme** hakkına sahiptir ve bunun **aksine anlaşma yapılamaz**.\n\nHükmün karşıt anlamı uygulamanın temel kuralıdır: borçlu faiz ya da giderlerde **gecikmişse** kısmi ödeme **önce faiz ve giderlere**, kalanı **anaparaya** sayılır. Yargıtay hesabın her ödemenin **yapıldığı tarih** itibarıyla yapılmasını ister: o tarihe kadar işlemiş faiz ve giderler kapanır, kalan tutar anaparadan düşülür ve faiz bundan sonra kalan anaparaya işler.\n\n### 8.2 Sayısal örnek\n> **Örnek:** Kemal'in Sevgi'ye 200.000 TL anapara borcunun yanında 12.000 TL vadesi geçmiş faiz ve 3.000 TL ihtar ve takip gideri borcu vardır. Kemal 50.000 TL öder ve \"anaparaya sayın\" der.\n> - Kemal faiz ve giderlerde gecikmiş olduğundan bu talebi sonuç doğurmaz (TBK m. 100/1).\n> - Önce 3.000 TL gider ve 12.000 TL faiz, yani 15.000 TL kapanır. Kalan 35.000 TL anaparaya sayılır.\n> - Kalan anapara: 200.000 − 35.000 = **165.000 TL**.\n> - Kemal'in istediği gibi yapılsaydı anapara 150.000 TL'ye inerdi. Yıllık %30 faizle bir yıllık faiz doğru hesapta 49.500 TL, Kemal'in hesabında 45.000 TL olurdu.\n\nFark şuradan doğar: faiz anaparaya işler, işlemiş faize ise ayrıca faiz yürütülmesi ancak sınırlı hâllerde mümkündür (TBK m. 121; ayrıntısı temerrüt konusunda).\n\n### 8.3 Güvenceli kısım (m. 100/2)\nAlacaklı alacağın bir kısmı için kefalet, rehin ya da başka bir güvence almışsa borçlu, kısmi ödemeyi **güvence altındaki ya da güvencesi daha iyi olan** kısma mahsup ettiremez (TBK m. 100/2). Örneğin 300.000 TL'lik alacağın 100.000 TL'si için kefil varsa borçlu 100.000 TL ödeyip \"kefilli kısma sayın\" diyemez. Yoksa alacaklı güvencesiz 200.000 TL ile kalırdı.\n\n> ⚠️ **Sınavda dikkat:** Buradaki **mahsup**, bir ödemenin hangi borca ya da kaleme sayılacağı sorunudur. Karşılıklı iki alacağı tek taraflı beyanla sona erdiren **takas** (TBK m. 139) ayrı bir kurumdur.\n\n## 9. Birden çok borç varsa: mahsup sırası (TBK m. 101-102)\nAynı alacaklıya birden çok borcu olan borçlunun ödemesi şu sırayla bir borca sayılır. Bir basamakta sonuç çıkıyorsa sonrakine geçilmez:\n1. **Borçlunun bildirimi:** Borçlu ödeme gününde hangi borcu ödemek istediğini bildirebilir (m. 101/1).\n2. **Makbuzdaki gösterim:** Bildirim yoksa ödeme, borçlu **derhâl itiraz etmedikçe**, alacaklının makbuzda gösterdiği borç için yapılmış sayılır (m. 101/2).\n3. **Kanuni sıra (m. 102):** Geçerli bir bildirim ve makbuzda açıklık yoksa ödeme **muaccel** borca; birden çok borç muaccelse **ilk olarak takip edilen** borca; takip yoksa **vadesi ilk gelen** borca; vadeleri aynı anda gelmişse **orantılı** olarak; hiçbirinin vadesi gelmemişse **güvencesi en az olan** borca sayılır.\n\n> **Örnek:** Esnaf Hakan'ın toptancı Y Ltd.'ye üç borcu vardır: A (40.000 TL, vadesi 10 Ocak, icra takibine konu), B (30.000 TL, vadesi 1 Ocak, takip yok) ve C (50.000 TL, vadesi Aralık'ta gelecek, rehinli). Hakan 1 Mart'ta 30.000 TL öder, bir şey söylemez, makbuzda da açıklama yoktur. Muaccel borçlar A ve B'dir. İlk takip edilen A olduğu için ödeme A'ya sayılır. A'nın içinde de m. 100 uygulanır.\n> - Hiç takip olmasaydı ödeme vadesi önce gelen B'ye sayılırdı.\n> - Hiç takip olmasaydı ve A ile B'nin vadesi aynı gün gelseydi 30.000 TL, 40:30 oranında bölünürdü: 17.142,86 TL A'ya, 12.857,14 TL B'ye.\n\n> ⚠️ **Sınavda dikkat:** Bildirim **ödeme gününde** yapılmalıdır, sonradan yapılan açıklama sonucu değiştirmez. Makbuzda gösterilen borca da borçlu **derhâl** itiraz etmelidir.\n\n## 10. Olay çözerken denetim şeması\n1. **Borcu tanı:** Para borcu mu? Bölünebilir mi? Çeşit, seçimlik ya da bölünemeyen borç mu (m. 85-87)?\n2. **Kim ifa etti?** Bizzat ifada menfaat var mı? Ödeyen üçüncü kişi halef oldu mu (m. 127)?\n3. **Ne kadar?** Borcun tamamı belli ve muaccel mi, alacaklı reddetti mi (m. 84)?\n4. **Faiz:** Oran kararlaştırılmış mı (m. 88/1), sınır aşılıyor mu (m. 88/2), iş ticari mi (TTK m. 8)?\n5. **Para birimi:** Aynen ödeme kaydı var mı? Vadede ödenmediyse hangi kur seçildi (m. 99/3)? 32 sayılı Karar engeli var mı?\n6. **Mahsup:** Tek borçta m. 100, birden çok borçta m. 101-102.\n7. **İspat:** Makbuz var mı, çekince konmuş mu (m. 103-104)?",
+  "critical_md": "- 📌 Borçlu, alacaklının bizzat ifada menfaati bulunmadıkça borcunu şahsen ifa etmek zorunda değildir (TBK m. 83). Menfaat sözleşmeden, kanundan (işçi m. 395, vekil m. 506/1, yüklenici m. 471/3) ya da edimin kişisel niteliğinden doğar.\n- ⚠️ Para borcunu üçüncü kişi ödeyebilir ve borç sona erer. Ama ödeyen kendiliğinden halef olmaz. TBK m. 127'ye göre halefiyet için rehinli şeyi kurtaran ayni hak sahibi olmak ya da borçlunun ifadan önce alacaklıya bildirimi gerekir; kanundaki diğer halefiyet hâlleri (ör. TBK m. 85/3) saklıdır.\n- 📌 Kısmi ifayı reddetme hakkı için iki şart birlikte aranır: borcun tamamı belli ve muaccel olmalı (TBK m. 84/1). Ret bir haktır, zorunluluk değildir.\n- ⚠️ Alacaklı kısmi ifayı kabul ederse borçlu, kendisinin ikrar ettiği kısmı ifadan kaçınamaz (TBK m. 84/2). Poliçede hamil kısmi ödemeyi hiç reddedemez (TTK m. 709/2).\n- 📌 Çeşit borcunda da seçimlik borçta da seçim, aksi anlaşılmadıkça borçlunundur (TBK m. 86-87). Çeşit borcunda borçlu ortalama nitelikten düşük edim veremez.\n- 📌 Oran kararlaştırılmamışsa faiz borcunun doğduğu tarihte yürürlükteki mevzuat, yani 3095 sayılı Kanun uygulanır (TBK m. 88/1). 31.7.2026'dan beri kanuni faiz, TCMB'nin önceki yıl 31 Aralık reeskont oranının %80'idir. 30 Haziran oranı 5 puan veya daha fazla farklıysa ikinci yarıda o oranın %80'i geçerli olur.\n- 📌 Sözleşme faizinin üst sınırı kanuni faizin yüzde elli fazlasıdır, yani 1,5 katı (TBK m. 88/2). Temerrüt faizinde sınır yüzde yüz fazlasıdır (TBK m. 120/2).\n- ⚠️ Ticari işlerde sözleşme faizi oranı serbesttir (TTK m. 8/1). m. 88/2 sınırı burada uygulanmaz.\n- ⚠️ Tüketim ödüncünde bileşik faiz kararlaştırılamaz (TBK m. 388/3). Ticari istisna dardır ve tacir olmayanlara uygulanmaz (TTK m. 8/2).\n- 📌 Para borcu Türk lirasıyla ödenir (TBK m. 99/1). Yabancı para borcunu borçlu, aynen ödeme kaydı yoksa ödeme günündeki kurla Türk lirası olarak da ödeyebilir (m. 99/2).\n- 📌 Vadede ödenmeyen yabancı para borcunda alacaklının üç seçeneği vardır: aynen, vade günü kuru ya da fiilî ödeme günü kuru (m. 99/3). Yargıtay'a göre seçim yapıldıktan sonra ondan dönülemez.\n- ⚠️ 2018'den beri (32 sayılı Karar) Türkiye'de yerleşikler arasında taşınmaz satışı ve kirasında döviz ya da dövize endeksli bedel yasaktır. Altına endeksleme de dövize endeksleme sayılır. İstisnalar Tebliğ'dedir ve sık değişir.\n- ⚠️ Faiz ve giderlerde gecikme varsa kısmi ödeme önce faiz ve giderlere, kalanı anaparaya sayılır. Gecikme yoksa borçlu anaparaya saydırabilir ve aksine anlaşma yapılamaz (TBK m. 100/1). Güvenceli kısma mahsup istenemez (m. 100/2).\n- 📌 Birden çok borçta sıra: borçlunun bildirimi, makbuzdaki gösterim (derhâl itiraz yoksa), muaccel borç, ilk takip edilen, vadesi ilk gelen, orantılı, güvencesi en az olan (TBK m. 101-102).\n- ⚠️ Dönemsel edimde çekincesiz makbuz önceki dönemlerin, anaparanın tamamı için makbuz da faizin ödendiği karinesini doğurur (TBK m. 104).",
+  "doctrine_md": "### Sözleşme faizi sınırı aşılırsa ne olur?\nTBK m. 88/2 yalnız \"aşamaz\" der, yaptırımı ayrıca göstermez. Hüküm emredici olduğundan sınırı aşan kısım geçersizdir. Baskın görüşe göre geçersizlik kısmidir (TBK m. 27/2): faiz kaydı tümden düşmez, oran üst sınıra indirilir ve ödünç sözleşmesi ayakta kalır. Sözleşmenin tamamının hükümsüzlüğü ancak tarafların bu kayıt olmadan sözleşmeyi yapmayacakları açıkça anlaşılırsa gündeme gelir. Ticari işlerde oran serbest olduğu için (TTK m. 8/1) bu sorun sözleşme faizinde doğmaz.\n\n### Kısmi ödemede faize öncelik kendiliğinden mi işler?\nTBK m. 100/1 borçluyu korur: faiz ve giderlerde gecikmesi olmayan borçlunun anaparaya mahsup hakkı sözleşmeyle kaldırılamaz. Gecikme varsa ödemenin önce faiz ve giderlere sayılması ise alacaklının lehinedir. Bunun kendiliğinden mi, yoksa alacaklının bir irade açıklamasıyla mı gerçekleştiği tartışılır.\n- Bir görüşe göre gecikme varsa mahsup kanun gereği kendiliğinden faize ve giderlere yapılır. Yargıtay'ın iş davalarındaki uygulaması da gecikmiş işverenin kısmi ödemesini, işçinin beyanına bakmadan önce faiz ve giderlere sayar.\n- Yargıtay kararlarında aktarılan eski bir Hukuk Genel Kurulu kararında ise gecikmenin yanında alacaklının iradesini açıklaması aranmış, icra takibi ve ödemeye çekince konması bu irade açıklaması sayılmıştır.\n\nTartışmada TBK m. 104/2 de önemlidir: anaparanın tamamı için çekincesiz makbuz veren alacaklının faizleri de aldığı kabul edilir. Alacaklı için güvenli yol, makbuza çekince koymaktır.\n\n### 32 sayılı Karar'a aykırı döviz kaydının akıbeti\nBir görüş, 32 sayılı Karar'ın bir kamu hukuku (kambiyo) düzenlemesi olduğunu savunur. Buna göre aykırılık idari yaptırım doğurur ama sözleşmenin özel hukuk bakımından geçerliliğini etkilemez. Yargıtay ise bu kuralları ekonomik kamu düzenini koruyan emredici hükümler olarak görür. Aykırı düzenlemeler geçersizdir, eski sözleşmelerde bedel Tebliğ'deki yöntemle Türk lirasına çevrilir. Yasağın mahkemece kendiliğinden mi, borçlunun ileri sürmesiyle mi dikkate alınacağı da tartışmalıdır. Yargıtay'ın ilgili dairesi 2026'da yasağı kendiliğinden dikkate alan bir istinaf kararını oy çokluğuyla onamış, karşı oy hâkimin borçlunun itiraz sebepleriyle bağlı olduğunu savunmuştur.\n\n### Miktarı çekişmeli borçta kısmi ödeme\nTBK m. 84/1 ret hakkını borcun tamamının belli olmasına bağlar. Baskın görüşe göre miktar çekişmeliyse alacaklı, borçlunun kabul ettiği kısmın ödenmesini reddedemez. Reddederse alacaklı temerrüdüne düşebilir. Ret hakkı, eksik kalan kısım çok önemsizse dürüstlük kuralıyla da sınırlanır (TMK m. 2).",
+  "glossary": [
+   {
+    "term": "İfa",
+    "definition": "Borçlunun borçlandığı edimi borcun içeriğine uygun olarak yerine getirmesi. Gereği gibi ifa borcu sona erdirir. Para borcunda ifaya ödeme denir."
+   },
+   {
+    "term": "Bizzat (şahsen) ifa",
+    "definition": "Edimin borçlunun kendisi tarafından yerine getirilmesi. Ancak alacaklının bunda menfaati varsa zorunludur (TBK m. 83)."
+   },
+   {
+    "term": "Halefiyet",
+    "definition": "Borcu ödeyen üçüncü kişinin, ödediği ölçüde alacaklının alacağına ve ona bağlı güvencelere sahip olması. TBK m. 127'deki ve kanundaki diğer hâllerde doğar."
+   },
+   {
+    "term": "Kısmi ifa",
+    "definition": "Bölünebilir bir edimin yalnız bir bölümünün yerine getirilmesi. Borcun tamamı belli ve muaccelse alacaklı reddedebilir (TBK m. 84/1)."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Alacaklının ifayı isteyebilmesi, yani borcun vadesinin gelmiş olması. Kural olarak borç doğumu anında muaccel olur (TBK m. 90)."
+   },
+   {
+    "term": "Çeşit borcu",
+    "definition": "Edimin yalnız türü ve miktarıyla belirlendiği borç (100 çuval un gibi). Seçim kural olarak borçlunundur, ortalama nitelikten düşük olamaz (TBK m. 86)."
+   },
+   {
+    "term": "Seçimlik borç",
+    "definition": "Birden çok edimden yalnız birinin borçlanıldığı borç. Seçim kural olarak borçluya aittir (TBK m. 87)."
+   },
+   {
+    "term": "Sözleşme (akdi) faizi",
+    "definition": "Tarafların kararlaştırdığı, anaparanın kullanılmasının karşılığı olan faiz. Ticari olmayan işlerde kanuni faizin yüzde elli fazlasını aşamaz (TBK m. 88/2)."
+   },
+   {
+    "term": "Kanuni faiz",
+    "definition": "Oranı kararlaştırılmamış faizde uygulanan ve 3095 sayılı Kanunun 1. maddesine göre belirlenen oran. 31.7.2026'dan beri TCMB reeskont oranının yüzde sekseni."
+   },
+   {
+    "term": "Bileşik (mürekkep) faiz",
+    "definition": "Faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi. Tüketim ödüncünde kararlaştırılamaz (TBK m. 388/3)."
+   },
+   {
+    "term": "Yabancı para borcu",
+    "definition": "Türk lirası dışında bir para birimiyle belirlenmiş para borcu. Borçlunun ödeme yetkisi ve alacaklının gecikmedeki seçimlik hakkı TBK m. 99/2-3'tedir."
+   },
+   {
+    "term": "Aynen ödeme kaydı",
+    "definition": "Yabancı para borcunun mutlaka o parayla ödeneceğini öngören sözleşme kaydı. Bu kayıt varsa borçlu Türk lirasıyla ödeme yetkisini kullanamaz."
+   },
+   {
+    "term": "Rayiç",
+    "definition": "Ödeme ya da vade günündeki döviz kuru, yani yabancı paranın Türk lirası karşılığı."
+   },
+   {
+    "term": "Mahsup (ödemenin isnadı)",
+    "definition": "Yapılan bir ödemenin hangi borca ya da borcun hangi kalemine (anapara, faiz, gider) sayılacağının belirlenmesi (TBK m. 100-102). Takastan farklıdır."
+   },
+   {
+    "term": "Makbuz",
+    "definition": "Alacaklının ödemeyi aldığını gösteren belge. Çekincesiz verilen makbuz TBK m. 104'teki karineleri doğurur."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "83",
+   "official_text": "MADDE 83- Borcun, bizzat borçlu tarafından ifa edilmesinde alacaklının menfaati bulunmadıkça borçlu, borcunu şahsen ifa etmekle yükümlü değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "84",
+   "official_text": "MADDE 84- Borcun tamamı belli ve muaccel ise, alacaklı kısmen ifayı reddedebilir.\nAlacaklı kısmen ifayı kabul ederse borçlu, borcun kendisi tarafından ikrar olunan kısmını ifadan kaçınamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "85",
+   "official_text": "MADDE 85- Bölünemeyen bir borcun birden çok alacaklısı varsa, alacaklılardan her biri, borcun alacaklıların tamamına ifasını isteyebilir. Borçlu, edimini alacaklıların hepsine birden ifa etmek zorundadır.\nBölünemeyen borcun birden çok borçlusu varsa, borçlulardan her biri borcun tamamını ifa etmekle yükümlüdür.\nDurumun gereğinden aksi anlaşılmadıkça, ifada bulunan borçlu, alacaklıya halef olur ve diğer borçlulardan payları oranında alacağını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "86",
+   "official_text": "MADDE 86- Çeşit borçlarında hukuki ilişkiden ve işin özelliğinden aksi anlaşılmadıkça, edimin seçimi borçluya aittir. Ancak borçlunun seçeceği edim, ortalama nitelikten daha düşük olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "87",
+   "official_text": "MADDE 87- Seçimlik borçlarda, hukuki ilişkiden ve işin özelliğinden aksi anlaşılmadıkça, edimlerden birinin seçimi borçluya aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "88",
+   "official_text": "MADDE 88- Faiz ödeme borcunda uygulanacak yıllık faiz oranı, sözleşmede kararlaştırılmamışsa faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık faiz oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde elli fazlasını aşamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "99",
+   "official_text": "MADDE 99- Konusu para olan borç Ülke parasıyla ödenir.\nÜlke parası dışında başka bir para birimiyle ödeme yapılması kararlaştırılmışsa, sözleşmede aynen ödeme veya bu anlama gelen bir ifade bulunmadıkça borç, ödeme günündeki rayiç üzerinden Ülke parasıyla da ödenebilir.\nÜlke parası dışında başka bir para birimiyle belirlenmiş ve sözleşmede aynen ödeme ya da bu anlama gelen bir ifade de bulunmadıkça, borcun ödeme gününde ödenmemesi üzerine alacaklı, bu alacağının aynen veya vade ya da fiilî ödeme günündeki rayiç üzerinden Ülke parası ile ödenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "100",
+   "official_text": "MADDE 100- Borçlu, faiz veya giderleri ödemede gecikmemiş ise, kısmen yaptığı ödemeyi ana borçtan düşme hakkına sahiptir. Aksine anlaşma yapılamaz.\nAlacaklı, alacağın bir kısmı için kefalet, rehin veya başka bir güvence almış ise, borçlu kısmen yaptığı ödemeyi, güvence altına alınan veya güvencesi daha iyi olan kısma mahsup etme hakkına sahip değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "101",
+   "official_text": "MADDE 101- Birden çok borcu bulunan borçlu, ödeme gününde bu borçlardan hangisini ödemek istediğini alacaklıya bildirebilir.\nBorçlu bildirimde bulunmazsa, yapılan ödeme, kendisi tarafından derhâl itiraz edilmiş olmadıkça, alacaklının makbuzda gösterdiği borç için yapılmış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "102",
+   "official_text": "MADDE 102- Kanunen geçerli bir açıklama yapılmadığı veya makbuzda bir açıklık bulunmadığı durumda ödeme, muaccel borç için yapılmış sayılır. Birden çok borç muaccel ise ödemenin, borçluya karşı ilk olarak takip edilen borç için yapılmış olduğu kabul edilir. Takip yapılmamış ise ödeme, vadesi ilk önce gelmiş olan borç için yapılmış olur.\nBirden çok borcun vadesi aynı zamanda gelmişse, mahsup orantılı olarak; borçlardan hiçbirinin vadesi gelmemişse ödeme, güvencesi en az olan borç için yapılmış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "103",
+   "official_text": "MADDE 103- Borcu ödeyen borçlu, bir makbuz ve borcun tamamı ödenmişse, buna ilişkin borç senedinin geri verilmesini veya iptalini isteyebilir.\nBorcun tamamı ödenmemiş veya borç senedi alacaklıya başkaca haklar da vermekte ise borçlu, ancak makbuz verilmesini ve ödemenin borç senedine işlenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "104",
+   "official_text": "MADDE 104- Faiz veya kira bedeli gibi dönemsel edimlerden biri için, alacaklı tarafından çekince belirtilmeksizin makbuz verilmişse, önceki dönemlere ait edimler de ifa edilmiş sayılır.\nAlacaklı anaparanın tamamı için makbuz vermişse, faizlerini de almış olduğu kabul edilir.\nBorç senedi borçluya geri verilmişse, borç sona ermiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "27",
+   "official_text": "MADDE 27- Kanunun emredici hükümlerine, ahlaka, kamu düzenine, kişilik haklarına aykırı veya konusu imkânsız olan sözleşmeler kesin olarak hükümsüzdür.\nSözleşmenin içerdiği hükümlerden bir kısmının hükümsüz olması, diğerlerinin geçerliliğini etkilemez. Ancak, bu hükümler olmaksızın sözleşmenin yapılmayacağı açıkça anlaşılırsa, sözleşmenin tamamı kesin olarak hükümsüz olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "89",
+   "official_text": "B. İfa yeri\nMADDE 89- Borcun ifa yeri, tarafların açık veya örtülü iradelerine göre belirlenir. Aksine bir anlaşma yoksa, aşağıdaki hükümler uygulanır;\n1. Para borçları, alacaklının ödeme zamanındaki yerleşim yerinde,\n2. Parça borçları, sözleşmenin kurulduğu sırada borç konusunun bulunduğu yerde,\n3. Bunların dışındaki bütün borçlar, doğumları sırasında borçlunun yerleşim yerinde,\nifa edilir.\nAlacaklının yerleşim yerinde ifası gereken bir borcun doğumundan sonra alacaklının yerleşim yerini değiştirmesi sebebiyle ifa önemli ölçüde güçleşmişse borç, alacaklının önceki yerleşim yerinde ifa edilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "90",
+   "official_text": "MADDE 90- İfa zamanı taraflarca kararlaştırılmadıkça veya hukuki ilişkinin özelliğinden anlaşılmadıkça her borç, doğumu anında muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "96",
+   "official_text": "MADDE 96- Sözleşmenin hükümlerinden veya özelliğinden ya da durumun gereğinden tarafların aksini kastettikleri anlaşılmadıkça borçlu, edimini sürenin sona ermesinden önce ifa edebilir. Ancak, kanun veya sözleşme ya da âdet gereği olmadıkça borçlu, erken ifada bulunması sebebiyle indirim yapamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "106",
+   "official_text": "MADDE 106- Yapma veya verme edimi gereği gibi kendisine önerilen alacaklı, haklı bir sebep olmaksızın onu kabulden veya borçlunun borcunu ifa edebilmesi için kendisi tarafından yapılması gereken hazırlık fiillerini yapmaktan kaçınırsa, temerrüde düşmüş olur.\nAlacaklı, müteselsil borçlulardan birine karşı temerrüde düşerse, diğerlerine karşı da temerrüde düşmüş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "116",
+   "official_text": "MADDE 116- Borçlu, borcun ifasını veya bir borç ilişkisinden doğan hakkın kullanılmasını, birlikte yaşadığı kişiler ya da yanında çalışanlar gibi yardımcılarına kanuna uygun surette bırakmış olsa bile, onların işi yürüttükleri sırada diğer tarafa verdikleri zararı gidermekle yükümlüdür.\nYardımcı kişilerin fiilinden doğan sorumluluk, önceden yapılan bir anlaşmayla tamamen veya kısmen kaldırılabilir.\nUzmanlığı gerektiren bir hizmet, meslek veya sanat, ancak kanun veya yetkili makamlar tarafından verilen izinle yürütülebiliyorsa, borçlunun yardımcı kişilerin fiillerinden sorumlu olmayacağına ilişkin anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "120",
+   "official_text": "MADDE 120- Uygulanacak yıllık temerrüt faizi oranı, sözleşmede kararlaştırılmamışsa, faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz.\nAkdî faiz oranı kararlaştırılmakla birlikte sözleşmede temerrüt faizi kararlaştırılmamışsa ve yıllık akdî faiz oranı da birinci fıkrada belirtilen faiz oranından fazla ise, temerrüt faizi oranı hakkında akdî faiz oranı geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "121",
+   "official_text": "MADDE 121- Faiz veya irat borcunu ya da bağışladığı bir miktar parayı ödemekte temerrüde düşen borçlu, icra takibine girişildiği veya dava açıldığı günden başlayarak, temerrüt faizi ödemekle yükümlüdür.\nBuna aykırı olarak yapılan anlaşmalar, ceza koşulu hükümlerine tabi olur.\nTemerrüt faizine, ayrıca temerrüt faizi yürütülemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "122",
+   "official_text": "MADDE 122- Alacaklı, temerrüt faizini aşan bir zarara uğramış olursa, borçlu kendisinin hiçbir kusuru bulunmadığını ispat etmedikçe, bu zararı da gidermekle yükümlüdür.\nTemerrüt faizini aşan zarar miktarı görülmekte olan davada belirlenebiliyorsa, davacının istemi üzerine hâkim, esas hakkında karar verirken bu zararın miktarına da hükmeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "127",
+   "official_text": "MADDE 127- Alacaklıya ifada bulunan üçüncü kişi, aşağıdaki hâllerde ifası ölçüsünde alacaklının haklarına halef olur:\n1. Başkasının borcu için rehnedilen bir şeyi rehinden kurtardığı ve bu şey üzerinde mülkiyet veya başka bir ayni hakkı bulunduğu takdirde.\n2. Alacaklıya ifada bulunan üçüncü kişinin ona halef olacağı, borçlu tarafından ifadan önce alacaklıya bildirildiği takdirde.\nDiğer halefiyet hâllerine ilişkin kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "131",
+   "official_text": "MADDE 131- Asıl borç ifa ya da diğer bir sebeple sona erdiği takdirde, rehin, kefalet, faiz ve ceza koşulu gibi buna bağlı hak ve borçlar da sona ermiş olur.\nİşlemiş faizin ve ceza koşulunun ifasını isteme hakkı sözleşmeyle veya ifa anına kadar yapılacak bir bildirimle saklı tutulmuş ise ya da durum ve koşullardan saklı tutulduğu anlaşılmaktaysa, bu faizler ve ceza koşulu istenebilir.\nTaşınmaz rehnine, kıymetli evraka ve konkordatoya ilişkin özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "139",
+   "official_text": "1. Genel olarak\nMADDE 139- İki kişi, karşılıklı olarak bir miktar para veya özdeş diğer edimleri birbirine borçlu oldukları takdirde, her iki borç muaccel ise her biri alacağını borcuyla takas edebilir.\nAlacaklardan biri çekişmeli olsa bile takas ileri sürülebilir.\nZamanaşımına uğramış bir alacağın takası, ancak takas edilebileceği anda henüz zamanaşımına uğramamış olması koşuluyla ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "387",
+   "official_text": "MADDE 387- Ticari olmayan tüketim ödüncü sözleşmesinde, taraflarca kararlaştırılmış olmadıkça faiz istenemez.\nTicari tüketim ödüncü sözleşmesinde, taraflarca kararlaştırılmamış olsa bile faiz istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "388",
+   "official_text": "MADDE 388- Tüketim ödüncü sözleşmesinde faiz oranı belirlenmemişse, kural olarak ödünç alma zamanında ve yerinde o tür ödünçlerde geçerli olan faiz oranı uygulanır.\nSözleşmede aksine bir hüküm yoksa, belirlenen faiz, yıllık olarak ödenir.\nFaizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi kararlaştırılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "395",
+   "official_text": "MADDE 395- Sözleşmeden veya durumun gereğinden aksi anlaşılmadıkça, işçi yüklendiği işi bizzat yapmakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "471",
+   "official_text": "MADDE 471- Yüklenici, üstlendiği edimleri işsahibinin haklı menfaatlerini gözeterek, sadakat ve özenle ifa etmek zorundadır.\nYüklenicinin özen borcundan doğan sorumluluğunun belirlenmesinde, benzer alandaki işleri üstlenen basiretli bir yüklenicinin göstermesi gereken meslekî ve teknik kurallara uygun davranışı esas alınır.\nYüklenici, meydana getirilecek eseri doğrudan doğruya kendisi yapmak veya kendi yönetimi altında yaptırmakla yükümlüdür. Ancak, eserin meydana getirilmesinde yüklenicinin kişisel özellikleri önem taşımıyorsa, işi başkasına da yaptırabilir.\nAksine âdet veya anlaşma olmadıkça yüklenici, eserin meydana getirilmesi için kullanılacak olan araç ve gereçleri kendisi sağlamak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "506",
+   "official_text": "MADDE 506- Vekil, vekâlet borcunu bizzat ifa etmekle yükümlüdür. Ancak vekile yetki verildiği veya durumun zorunlu ya da teamülün mümkün kıldığı hâllerde vekil, işi başkasına yaptırabilir.\nVekil üstlendiği iş ve hizmetleri, vekâlet verenin haklı menfaatlerini gözeterek, sadakat ve özenle yürütmekle yükümlüdür.\nVekilin özen borcundan doğan sorumluluğunun belirlenmesinde, benzer alanda iş ve hizmetleri üstlenen basiretli bir vekilin göstermesi gereken davranış esas alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "8",
+   "official_text": "1. Oran serbestisi ve bileşik faizin şartları\nMADDE 8- (1) Ticari işlerde faiz oranı serbestçe belirlenir.\n(2) Üç aydan aşağı olmamak üzere, faizin anaparaya eklenerek birlikte tekrar faiz yürütülmesi şartı, yalnız cari hesaplarla her iki taraf bakımından da ticari iş niteliğinde olan ödünç sözleşmelerinde geçerlidir. Şu şartla ki, bu fıkra, sözleşenleri tacir olmayanlara uygulanmaz.\n(3) Tüketicinin korunmasına ilişkin hükümler saklıdır.\n(4) Bu maddenin ikinci ve üçüncü fıkralarına aykırı olarak işletilen faiz yok hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "709",
+   "official_text": "II - Makbuz istemek hakkı\nMADDE 709- (1) Muhatap, poliçeyi öderken hamil tarafından bir ibra şerhi yazılarak poliçenin kendisine verilmesini isteyebilir.\n(2) Hamil kısmi ödemeyi reddedemez.\n(3) Kısmi ödeme hâlinde muhatap bu ödemenin poliçe üzerine yazılmasını ve kendisine bir makbuz verilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2017/5959",
+   "karar_no": "2017/11703",
+   "decision_date": "02.10.2017",
+   "summary_md": "Alacaklı aynı alacak için biri ipoteğin paraya çevrilmesi, diğeri şikâyetçi borçlu hakkında tahsilde tekerrür olmamak kaydıyla ilamsız haciz yoluyla iki takip başlatmıştır. Borçlu, takipten önce kendisinin ödeme yaptığını, takipten sonra diğer borçlunun 190.000 TL ödediğini ve kendi taşınmazının ipotek takibinde 63.000 TL'ye satıldığını ileri sürerek bu tutarların dosya borcundan düşülmesini istemiştir. İcra mahkemesi bilirkişi raporuna dayanarak şikâyeti reddetmiş ve kalan borcu 1.022.154,76 TL olarak belirlemiştir. Yargıtay 12. Hukuk Dairesi, raporun takip tarihinden icra müdürlüğü işlemine kadar hiç ödeme yapılmamış gibi faiz yürüttüğünü ve tarafların da kabul ettiği ödemeleri en sonda toplam borçtan düştüğünü saptayarak kararı bozmuştur. Gerekçeye göre TBK m. 100 uyarınca kısmi ödemeler ödeme tarihleri itibarıyla önce faiz ve giderlerden, kalanı asıl alacaktan düşülmeli; kalan borç da hesap yöntemini açıklayan, denetime elverişli bir raporla bulunmalıdır. Konuya katkısı: mahsubun sırası kadar hangi tarihe göre yapıldığının da kalan borcu doğrudan değiştirdiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=382030200",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/297",
+   "karar_no": "2025/1081",
+   "decision_date": "24.02.2025",
+   "summary_md": "Tasfiye hâlindeki bir finans kurumunun mudilere olan döviz borçları 2010'da yapılan sözleşmelerle il bazında kurulan yerel şirketlere devredilmiş, taksitlere bölünmüş ve her taksidin ödeme günündeki TCMB döviz alış kuru karşılığı Türk lirası olarak ödeneceği kararlaştırılmıştır. Ödenmeyen taksitler için açılan itirazın iptali davalarında İzmir Bölge Adliye Mahkemesinin bir dairesi bu kaydın iki tarafı bağladığını kabul ederek taksit tarihlerindeki kurla yapılan hesabı yerinde bulmuş, diğer dairesi ise kaydın borcu Türk lirasına dönüştürmediğini kabul etmiştir. Uyuşmazlığı gideren Yargıtay 3. Hukuk Dairesine göre bu kayıt yalnız taksitler vadesinde ödendiğinde hangi kurun uygulanacağını belirler. Vadesinde ödenmeyen döviz borcunda TBK m. 99/3 uygulanır ve alacaklı alacağın aynen ya da vade veya fiilî ödeme günündeki kur üzerinden Türk lirası olarak ödenmesini isteyebilir. Daire, önceki bir kararına atıfla bu seçimlik hakkın yenilik doğurucu olduğunu ve kullanıldıktan sonra dönülemeyeceğini de belirtmiştir. Konuya katkısı: \"ödeme günündeki kur karşılığı TL\" kaydının yabancı para borcunu Türk lirası borcuna çevirmediğini ve temerrütte kur seçiminin alacaklıya ait olduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1125708500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2023/8397",
+   "karar_no": "2024/2415",
+   "decision_date": "13.03.2024",
+   "summary_md": "Kiraya verenler, 01.01.2018 tarihli ve aylık kirası 45.300 ABD doları olan bir kira sözleşmesine dayanarak 2019 sonu ile 2020 başına ait kiralar için icra takibi başlatmış, itiraz üzerine itirazın kaldırılmasını ve tahliyeyi istemiştir; Bölge Adliye Mahkemesi borçlulardan biri yönünden itirazın kaldırılmasına ve icra inkâr tazminatına hükmetmiştir. Yargıtay 12. Hukuk Dairesi kararı bozmuştur. Gerekçeye göre 2018'de 32 sayılı Karar ve ilgili Tebliğ'de yapılan değişikliklerle döviz cinsinden ya da dövize endeksli sözleşme yapma özgürlüğü sınırlanmış, yasak kapsamındaki eski sözleşmelerde bedelin Türk parası olarak yeniden belirlenmesi zorunlu tutulmuştur; anlaşma olmazsa bedel 2.1.2018 tarihli TCMB efektif satış kuru ve TÜFE değişimine göre bulunur. Bu hükümler ekonomik kamu düzenini koruyan emredici kurallardır ve borçlu kiraya itiraz ettiğinde mahkemece kendiliğinden uygulanır. Taraflar 13.09.2018'den itibaren 30 gün içinde Türk parası bedelde anlaşmadığından aylık kira belirsizdir ve döviz kirayı Türk lirasına çevirerek takip yapmak yasağı ortadan kaldırmaz. Konuya katkısı: TBK m. 99'un izin verdiği yabancı para borcunun kambiyo mevzuatıyla sınırlanabildiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1044876800",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Ünlü opera sanatçısı Leyla, bir vakfın gala gecesinde sahneye çıkmayı üstlenmiştir. Başka bir teklif aldığı için yerine öğrencisini göndermek istemektedir. Vakıf hakkında hangisi doğrudur?",
+   "options": [
+    "Vakıf ancak sözleşmede bizzat ifa açıkça yazılmışsa reddedebilir.",
+    "Edim sanatçının kişisel yeteneğine dayandığından vakfın bizzat ifada menfaati vardır ve öğrencinin ifasını reddedebilir.",
+    "Vakıf öğrencinin performansını kabul etmek zorundadır, çünkü borçlu şahsen ifa etmekle yükümlü değildir.",
+    "Vakıf öğrencinin ifasını reddederse alacaklı temerrüdüne düşer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 83'e göre borçlu şahsen ifa ile yükümlü değildir, ancak alacaklının bizzat ifada menfaati varsa durum değişir. Bu menfaat sözleşmede açıkça yazılmasa da edimin niteliğinden doğabilir. Bir sanatçının sahne performansı tipik örnektir. Vakfın reddi haklı olduğundan alacaklı temerrüdü (TBK m. 106) söz konusu olmaz."
+  },
+  {
+   "stem_md": "Kiracı Emre'nin Mart kirası 25.000 TL'dir. Emre'nin babası Tarık, kirayı kiraya veren Gül'ün hesabına yatırmak ister. Gül \"Kirayı yalnız kiracımdan alırım\" diyerek parayı iade eder. Hangisi doğrudur?",
+   "options": [
+    "Tarık ödeme yapsaydı kendiliğinden Gül'ün Emre'ye karşı bütün haklarına halef olurdu.",
+    "Gül haklıdır, çünkü kira borcunu yalnız kiracı ödeyebilir.",
+    "Tarık'ın ödemesi borcu sona erdirmez, yalnız Tarık'a Gül'e karşı bir alacak hakkı verir.",
+    "Para borcunda kural olarak bizzat ifada menfaat bulunmadığından Gül, üçüncü kişinin usulüne uygun ödemesini haklı bir sebep olmadan reddedemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 83'e göre alacaklının bizzat ifada menfaati yoksa borcu üçüncü kişi de ifa edebilir ve bu ödeme borcu sona erdirir. Para borcunda böyle bir menfaat kural olarak yoktur. Haklı sebep olmadan ret alacaklı temerrüdünü gündeme getirir (TBK m. 106). Ödeyen üçüncü kişi ise kendiliğinden değil, yalnız TBK m. 127'deki hâllerde halef olur."
+  },
+  {
+   "stem_md": "TBK m. 127'ye göre alacaklıya ödeme yapan üçüncü kişi hangi durumda alacaklının haklarına halef olur?",
+   "options": [
+    "Borçlu, ödeyen üçüncü kişinin halef olacağını ifadan önce alacaklıya bildirmişse",
+    "Her ödemede, ödediği ölçüde kendiliğinden",
+    "Üçüncü kişi borçlunun yakın akrabasıysa",
+    "Alacaklı ödemeyi çekince koymadan kabul etmişse"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 127 iki hâl sayar: başkasının borcu için rehnedilen bir şeyi rehinden kurtaran ve o şey üzerinde mülkiyet ya da başka bir ayni hakkı olan üçüncü kişi ile borçlunun halefiyeti ifadan önce alacaklıya bildirdiği hâl. Kanundaki diğer halefiyet hâlleri saklıdır. Akrabalık ya da çekincesiz kabul halefiyet doğurmaz."
+  },
+  {
+   "stem_md": "TBK m. 84/1'e göre alacaklının kısmi ifayı reddedebilmesi için hangisi gerekir?",
+   "options": [
+    "Borcun tamamının belli ve muaccel olması",
+    "Borçlunun temerrüde düşmüş olması",
+    "Sözleşmede kısmi ödemenin açıkça yasaklanmış olması",
+    "Teklif edilen tutarın borcun yarısından az olması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 84/1, borcun tamamı belli ve muaccel ise alacaklının kısmi ifayı reddedebileceğini söyler. İki şart birlikte aranır. Kanun temerrüt, belirli bir oran ya da sözleşmede ayrı bir yasak aramaz."
+  },
+  {
+   "stem_md": "Ayşe'nin Can'a vadesi gelmiş ve miktarı tartışmasız 120.000 TL borcu vardır. Ayşe, Can'a 70.000 TL ödemeyi teklif eder. Can parayı kabul etmez. Hangisi doğrudur?",
+   "options": [
+    "Can kısmi ödemeyi reddettiği için alacaklı temerrüdüne düşmüştür.",
+    "Borcun tamamı belli ve muaccel olduğundan Can'ın kısmi ödemeyi reddetme hakkı vardır.",
+    "Teklif borcun yarısından fazla olduğu için Can ödemeyi kabul etmek zorundadır.",
+    "Can'ın reddi, 70.000 TL'lik kısım bakımından borcu sona erdirir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 84/1'in iki şartı da gerçekleşmiştir: borcun tamamı belli ve muacceldir. Can kısmi ifayı reddetmekte haklıdır, bu yüzden alacaklı temerrüdüne düşmez. Reddedilen ödeme borcu sona erdirmez. Kanunda \"yarıdan fazlası kabul edilmek zorundadır\" gibi bir ölçü yoktur."
+  },
+  {
+   "stem_md": "Elif, Usta Ltd.'den 90.000 TL tazminat istemektedir. Usta Ltd. borcun 50.000 TL'sini kabul etmekte, kalanına itiraz etmektedir. Elif bu 50.000 TL'yi şimdilik almaya razıdır. Hangisi doğrudur?",
+   "options": [
+    "Alacaklı kısmi ifayı kabul ettiğinden Usta Ltd. kendisinin ikrar ettiği 50.000 TL'yi ifadan kaçınamaz.",
+    "Usta Ltd., toplam tutar kesinleşene kadar hiçbir ödeme yapmak zorunda değildir.",
+    "Usta Ltd. ancak 90.000 TL'nin tamamını öderse borcundan kurtulabileceği için kısmi ödeme yapamaz.",
+    "Elif 50.000 TL'yi kabul ederse kalan 40.000 TL'den vazgeçmiş sayılır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 84/2'ye göre alacaklı kısmi ifayı kabul ederse borçlu, borcun kendisi tarafından ikrar olunan kısmını ifadan kaçınamaz. Kısmi ödemeyi kabul etmek kalan alacaktan vazgeçmek anlamına gelmez. Elif tartışmalı 40.000 TL'yi ayrıca isteyebilir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisinde alacaklı kısmi ödemeyi **reddedemez**?",
+   "options": [
+    "Poliçeye dayanan alacakta, hamil olarak",
+    "Vadesi gelmiş ve miktarı belli ödünç alacağında, ödünç veren olarak",
+    "Vadesi gelmiş ve miktarı belli satış bedeli alacağında, satıcı olarak",
+    "Vadesi gelmiş ve miktarı belli kira alacağında, kiraya veren olarak"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 709/2'ye göre poliçede hamil kısmi ödemeyi reddedemez. Diğer alacaklarda borcun tamamı belli ve muaccel olduğundan alacaklı, TBK m. 84/1 uyarınca kısmi ifayı reddedebilir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 87 anlamında bir **seçimlik borçtur**?",
+   "options": [
+    "Ali'nin Veli'ye salonundaki belirli bir tabloyu vermeyi borçlanması",
+    "Ali'nin 10.000 avroluk borcunu ödeme günündeki kurla Türk lirası olarak ödeyebilmesi",
+    "Ali'nin Veli'ye ya beyaz piyanosunu ya da siyah piyanosunu vermeyi borçlanması",
+    "Ali'nin Veli'ye 100 çuval birinci sınıf un vermeyi borçlanması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Seçimlik borçta birden çok edimden yalnız biri borçlanılır ve seçim aksi anlaşılmadıkça borçlunundur (TBK m. 87). Türüyle belirlenen un çeşit borcudur (TBK m. 86). Yabancı parayı Türk lirasıyla ödeme imkânı, borçlanılan tek edim yabancı para olduğu için seçimlik borç değil, borçluya tanınan bir ödeme yetkisidir (TBK m. 99/2). Belirli bir tablo ise parça borcudur."
+  },
+  {
+   "stem_md": "Sözleşmede faiz ödeneceği kararlaştırılmış ama oran belirlenmemişse, TBK m. 88/1'e göre oran nasıl belirlenir?",
+   "options": [
+    "Faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.",
+    "Hâkim hakkaniyete göre serbestçe belirler.",
+    "Oran belirlenmediği için faiz istenemez.",
+    "Sözleşmenin yapıldığı yıldaki enflasyon oranı uygulanır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 88/1'e göre oran sözleşmede kararlaştırılmamışsa faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir. Bu mevzuat 3095 sayılı Kanundur (kanuni faiz). Tüketim ödüncü için TBK m. 388/1'deki özel kural ayrıca saklıdır."
+  },
+  {
+   "stem_md": "Kanuni faiz oranının yıllık %30 olduğunu varsayınız. Tacir olmayan Ahmet, komşusu Hasan'a verdiği ödünç için yıllık %50 faiz kararlaştırmıştır. Hangisi doğrudur?",
+   "options": [
+    "Taraflar faiz oranını serbestçe belirleyebildiği için yıllık %50 geçerlidir.",
+    "Ticari olmayan ödünçte faiz hiç kararlaştırılamaz, Hasan faiz ödemez.",
+    "Sözleşme faizi kanuni faizin iki katını, yani yıllık %60'ı aşamayacağı için %50 geçerlidir.",
+    "Sözleşme faizi kanuni faizin yüzde elli fazlasını, yani yıllık %45'i aşamaz. %50'lik kayıt bu sınırı aşmaktadır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 88/2'ye göre sözleşmeyle kararlaştırılan yıllık faiz, kanuni oranın yüzde elli fazlasını aşamaz: %30 × 1,5 = %45. Yüzde yüz fazlası temerrüt faizinin sınırıdır (TBK m. 120/2). Ticari olmayan ödünçte faiz kararlaştırılabilir, yalnız kararlaştırılmadıkça istenemez (TBK m. 387/1). Baskın görüşe göre aşan kısım geçersizdir ve oran sınıra indirilir."
+  },
+  {
+   "stem_md": "Kanuni faiz oranının yıllık %30 olduğunu varsayınız. X A.Ş. ile Y Ltd., her iki taraf için ticari iş niteliğindeki bir ödünç sözleşmesinde yıllık %50 faiz kararlaştırmıştır. Hangisi doğrudur?",
+   "options": [
+    "TBK m. 88/2 bütün sözleşmelere uygulandığından oran %45'e iner.",
+    "Ticari işlerde sözleşme faizi kararlaştırılamaz.",
+    "Kayıt ancak noterde yapılmışsa geçerlidir.",
+    "Ticari işlerde faiz oranı serbestçe belirlendiğinden %50'lik kayıt geçerlidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 8/1'e göre ticari işlerde faiz oranı serbestçe belirlenir. Bu özel hüküm karşısında TBK m. 88/2'deki sınır ticari işlerdeki sözleşme faizine uygulanmaz. Kanun faiz kaydı için bir şekil de aramaz."
+  },
+  {
+   "stem_md": "Tacir olmayan iki kişi arasındaki tüketim ödüncü sözleşmesine \"Ödenmeyen faiz her üç ayda bir anaparaya eklenir ve birlikte faiz yürütülür.\" kaydı konmuştur. Bu kayıt hakkında hangisi doğrudur?",
+   "options": [
+    "Faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi tüketim ödüncünde kararlaştırılamaz.",
+    "Faiz oranı sınırı aşılmadıkça bileşik faiz serbest olduğundan kayıt geçerlidir.",
+    "Ekleme üç aydan kısa aralıklarla yapılmadığı için kayıt geçerlidir.",
+    "Kayıt yalnız yazılı yapılmışsa geçerlidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 388/3'e göre faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi kararlaştırılamaz. Üç aydan aşağı olmamak şartıyla bileşik faize izin veren TTK m. 8/2, yalnız cari hesaplarda ve iki taraf için ticari iş olan ödünçlerde geçerlidir ve sözleşenleri tacir olmayanlara uygulanmaz."
+  },
+  {
+   "stem_md": "7589 sayılı Kanunla 2026'da yapılan değişiklikten sonra kanuni faiz oranı nasıl belirlenir?",
+   "options": [
+    "Cumhurbaşkanınca her yıl serbestçe belirlenir.",
+    "Bir önceki yılın TÜFE değişim oranına eşittir.",
+    "Kanunda sabit olarak yıllık %9'dur.",
+    "TCMB'nin önceki yılın 31 Aralık günü kısa vadeli kredi işlemlerinde uyguladığı reeskont oranının %80'idir. 30 Haziran oranı 5 puan veya daha fazla farklıysa yılın ikinci yarısında 30 Haziran oranının %80'i uygulanır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "7589 sayılı Kanunla değişen 3095 sayılı Kanunun 1. maddesine göre kanuni faiz, TCMB'nin önceki yılın 31 Aralık günü kısa vadeli kredi işlemlerinde uyguladığı reeskont oranının yüzde sekseni üzerinden ödenir. 30 Haziran oranı 31 Aralık oranından beş puan veya daha çok farklıysa yılın ikinci yarısında 30 Haziran oranının yüzde sekseni geçerli olur. TBK m. 88/1 oranı kararlaştırılmamış faizde bu mevzuata yollama yapar."
+  },
+  {
+   "stem_md": "Sözleşmede 10.000 avro ödeneceği kararlaştırılmış, aynen ödeme kaydı konmamıştır. Vade gününde borçlu borcunu nasıl ödeyebilir?",
+   "options": [
+    "Yalnız sözleşmenin yapıldığı gündeki kur üzerinden Türk lirası olarak",
+    "Yalnız avro olarak",
+    "Alacaklının seçeceği para birimiyle",
+    "Avro olarak ya da ödeme günündeki kur üzerinden Türk lirası olarak"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 99/2'ye göre ülke parası dışında bir para birimiyle ödeme kararlaştırılmışsa, sözleşmede aynen ödeme ya da bu anlama gelen bir ifade yoksa borç ödeme günündeki rayiç üzerinden Türk lirasıyla da ödenebilir. Sözleşme tarihindeki kur esas alınmaz. Alacaklının seçimlik hakkı ancak borç ödeme gününde ödenmezse doğar (m. 99/3)."
+  },
+  {
+   "stem_md": "Selim'in 1 Mart'ta ödemesi gereken 10.000 ABD doları borcu vardır ve sözleşmede aynen ödeme kaydı yoktur. Selim ödemeyi geciktirir. Vade günü kur 40 TL, Selim'in fiilen ödediği gün 44 TL'dir. Alacaklı Hande hakkında hangisi doğrudur?",
+   "options": [
+    "Hande alacağın aynen ya da vade veya fiilî ödeme günündeki kur üzerinden Türk lirası olarak ödenmesini isteyebilir. Fiilî ödeme günü kurunu seçerse 440.000 TL ister.",
+    "Hande yalnız ABD doları isteyebilir, Türk lirası isteyemez.",
+    "Seçim Selim'e aittir. Selim 400.000 TL ödeyerek borcundan kurtulur.",
+    "Hande yalnız vade günündeki kurla 400.000 TL isteyebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 99/3'e göre yabancı parayla belirlenmiş ve aynen ödeme kaydı bulunmayan borç ödeme gününde ödenmezse alacaklı, alacağın aynen ya da vade veya fiilî ödeme günündeki rayiç üzerinden Türk lirası olarak ödenmesini isteyebilir. Seçim alacaklınındır. 10.000 × 44 = 440.000 TL."
+  },
+  {
+   "stem_md": "Kemal'in 200.000 TL anapara borcunun yanında 12.000 TL vadesi geçmiş faiz ve 3.000 TL gider borcu vardır. Kemal 50.000 TL öder ve \"anaparaya sayın\" der. TBK m. 100'e göre ödemeden sonra kalan anapara ne kadardır?",
+   "options": [
+    "162.000 TL",
+    "153.000 TL",
+    "150.000 TL",
+    "165.000 TL"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kemal faiz ve giderleri ödemede gecikmiş olduğundan kısmi ödemeyi ana borçtan düşme hakkı yoktur (TBK m. 100/1). Ödeme önce 15.000 TL faiz ve gidere, kalan 35.000 TL anaparaya sayılır: 200.000 − 35.000 = 165.000 TL. 150.000 TL borçlunun istediği hesaptır. 162.000 TL giderleri, 153.000 TL ise faizi atlayan hatalı hesaptır."
+  },
+  {
+   "stem_md": "Alacaklı, alacağının bir kısmı için rehin almıştır. Borçlunun yaptığı kısmi ödeme hakkında TBK m. 100/2'ye göre hangisi doğrudur?",
+   "options": [
+    "Borçlu ödemeyi dilediği kısma saydırabilir.",
+    "Alacağın bir kısmı rehinliyse kısmi ödeme yapılamaz.",
+    "Borçlu kısmi ödemeyi güvence altındaki ya da güvencesi daha iyi olan kısma mahsup ettiremez.",
+    "Ödeme kendiliğinden rehinli kısma sayılır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 100/2'ye göre alacaklı alacağın bir kısmı için kefalet, rehin ya da başka bir güvence almışsa, borçlu kısmen yaptığı ödemeyi güvence altına alınan veya güvencesi daha iyi olan kısma mahsup etme hakkına sahip değildir. Amaç alacaklının güvencesiz kalmasını önlemektir."
+  },
+  {
+   "stem_md": "Hakan'ın Y Ltd.'ye üç borcu vardır: A (vadesi 10 Ocak, icra takibine konu), B (vadesi 1 Ocak, takip yok) ve C (vadesi Aralık'ta gelecek, rehinli). Hakan 1 Mart'ta bir ödeme yapar, hangi borç için olduğunu söylemez. Makbuzda da bir açıklık yoktur. Ödeme hangi borca sayılır?",
+   "options": [
+    "Üç borca orantılı olarak",
+    "Muaccel borçlardan ilk takip edilen A'ya",
+    "Güvencesi en az olan borca",
+    "Vadesi ilk gelen B'ye"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Geçerli bir bildirim ve makbuzda açıklık yoksa ödeme muaccel borca sayılır. Birden çok borç muaccelse borçluya karşı ilk olarak takip edilen borca sayılır (TBK m. 102/1). A ve B muacceldir, takip edilen A'dır. Vadesi ilk gelen borç ölçüsüne ancak hiç takip yoksa geçilir. Güvencesi en az olan borç ölçüsü, hiçbir borcun vadesi gelmemişse uygulanır (m. 102/2)."
+  },
+  {
+   "stem_md": "Borçlu ödeme sırasında hangi borcu ödediğini bildirmemiştir. Alacaklı makbuzda ödemeyi belirli bir borca saymıştır. Hangisi doğrudur?",
+   "options": [
+    "Makbuzdaki gösterim ancak borçlu makbuzu imzalarsa sonuç doğurur.",
+    "Ödeme bütün borçlara orantılı olarak bölünür.",
+    "Ödeme her durumda vadesi ilk gelen borca sayılır.",
+    "Borçlu derhâl itiraz etmedikçe ödeme makbuzda gösterilen borç için yapılmış sayılır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 101/2'ye göre borçlu bildirimde bulunmazsa yapılan ödeme, kendisi tarafından derhâl itiraz edilmiş olmadıkça alacaklının makbuzda gösterdiği borç için yapılmış sayılır. TBK m. 102'deki kanuni sıra ancak geçerli bir bildirim yoksa ve makbuzda da açıklık bulunmuyorsa uygulanır."
+  },
+  {
+   "stem_md": "Alacaklı Banu, borçlu Cem'den anaparanın tamamını alır ve çekince koymadan \"anapara tamamen tahsil edilmiştir\" diye makbuz verir. Bir ay sonra işlemiş faizi ister. TBK m. 104'e göre hangisi doğrudur?",
+   "options": [
+    "Anaparanın tamamı için makbuz veren alacaklının faizlerini de almış olduğu kabul edilir.",
+    "Makbuz yalnız anapara için verildiğinden faiz alacağı kendiliğinden iki katına çıkar.",
+    "Faiz ancak makbuz verildikten sonraki dönem için istenebilir.",
+    "Faizin ayrıca istenmesine kanunda hiçbir engel yoktur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 104/2'ye göre alacaklı anaparanın tamamı için makbuz vermişse faizlerini de almış olduğu kabul edilir. Baskın görüşe göre bu karinenin aksi ispatlanabilir, ama ispat yükü Banu'dadır. Bu yüzden alacaklı makbuza çekince koymalıdır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ressam Deniz, iş insanı Zeynep'le yaptığı sözleşmede Zeynep'in portresini 1 Nisan 2026'ya kadar 200.000 TL'ye yapmayı üstlenir. Sözleşmede portrenin \"bizzat Deniz tarafından yapılacağı\" da yazılıdır. Deniz yoğunluğu nedeniyle portreyi tümüyle atölyesindeki asistanı Bora'ya yaptırır ve tabloyu kendi imzasıyla teslim etmek ister. Zeynep durumu öğrenir ve tabloyu almayı reddeder.\n\nDeniz, malzeme aldığı Galeri Mavi'ye de 1 Mart 2026'da muaccel olmuş ve miktarı tartışmasız 120.000 TL borçludur. Bu alacak için galeri, Deniz'in bir dostunun kefaletini almıştır. Deniz 10 Mart'ta galeriye 70.000 TL getirir. Galeri \"Ya tamamı ya hiç\" diyerek parayı almaz. Bunun üzerine Deniz'in kardeşi Kerem, 20 Mart'ta Deniz'e haber vermeden galeriye 120.000 TL öder. Deniz galeriye önceden herhangi bir bildirim yapmamıştır. Kerem şimdi parasını kefilden istemek niyetindedir.\n\nDeniz'in ayrıca bankaya 300.000 TL kredi anapara borcu vardır. Ödenmemiş ve vadesi geçmiş 15.000 TL faiz ile 2.000 TL ihtar gideri birikmiştir. Deniz bankaya 100.000 TL öder ve ödemenin anaparaya sayılmasını ister.\n\n1. Zeynep tabloyu reddetmekte haklı mıdır?\n2. Galerinin 70.000 TL'yi reddetmesini değerlendiriniz.\n3. Kerem'in ödemesi Deniz'in borcunu sona erdirir mi? Kerem kefile başvurabilir mi?\n4. Bankaya yapılan 100.000 TL'lik ödeme nasıl mahsup edilir?",
+   "rubric": [
+    {
+     "point": "Kural olarak şahsen ifa zorunlu değilken, sözleşme ve edimin kişisel niteliği nedeniyle Zeynep'in bizzat ifada menfaati bulunduğu ve reddin haklı olduğu",
+     "weight": 20,
+     "madde_ref": "TBK m. 83"
+    },
+    {
+     "point": "Eser sözleşmesinde yüklenicinin kişisel özellikleri önem taşıdığından işi başkasına bırakamaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 471"
+    },
+    {
+     "point": "Borcun tamamı belli ve muaccel olduğundan galerinin kısmi ifayı haklı olarak reddedebilmesi ve alacaklı temerrüdüne düşmemesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 84"
+    },
+    {
+     "point": "Para borcunda üçüncü kişinin ödemesiyle borcun sona ermesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 83"
+    },
+    {
+     "point": "Halefiyet şartları gerçekleşmediğinden Kerem'in alacağa ve kefalete halef olamaması; asıl borçla birlikte kefaletin de sona ermesi; Kerem'in Deniz'e aralarındaki ilişkiye göre başvurabilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 127"
+    },
+    {
+     "point": "Faiz ve giderlerde gecikme olduğundan ödemenin önce 17.000 TL faiz ve gidere, kalan 83.000 TL'nin anaparaya sayılması; kalan anaparanın 217.000 TL olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 100"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda üç borç ilişkisi vardır: Deniz ile Zeynep arasında portrenin yapılmasına ilişkin bir eser sözleşmesi, Deniz ile Galeri Mavi arasında muaccel bir para borcu ve Deniz ile banka arasında faizli bir kredi borcu. Sorular ifanın kim tarafından ve ne ölçüde yapılacağı ile kısmi ödemenin nasıl mahsup edileceği üzerinde toplanır.\n\n**Hukuki sorunlar:**\n- Deniz portreyi asistanına yaptırabilir mi?\n- Galeri kısmi ödemeyi reddedebilir mi?\n- Kerem'in ödemesi borcu sona erdirir mi, Kerem halef olur mu?\n- Bankaya yapılan ödeme hangi kaleme sayılır?\n\n**İlgili hükümler:** TBK m. 83, m. 471/3, m. 84/1, m. 127, m. 131/1, m. 100/1.\n\n**Değerlendirme:**\n\n*1. Portre:* TBK m. 83'e göre borçlu, alacaklının bizzat ifada menfaati bulunmadıkça borcunu şahsen ifa etmek zorunda değildir. Burada istisna gerçekleşmiştir. Sözleşmede portrenin bizzat Deniz tarafından yapılacağı yazılıdır. Ayrıca edim, ressamın kişisel yeteneğine dayanan bir portredir. Eser sözleşmesine ilişkin TBK m. 471/3 de yükleniciyi eseri kendisi yapmak ya da kendi yönetiminde yaptırmakla yükümlü tutar. İşi başkasına bırakmasına ancak kişisel özellikleri önem taşımıyorsa izin verir. Portrenin tümüyle asistana yaptırılması bu yükümlülüğe aykırıdır. Zeynep tabloyu reddetmekte haklıdır ve bu ret onu alacaklı temerrüdüne düşürmez. Deniz süre içinde portreyi kendisi yapmazsa borca aykırılığın sonuçları gündeme gelir (ayrı konu).\n\n*2. Galerinin reddi:* Borcun tamamı (120.000 TL) bellidir ve 1 Mart'ta muaccel olmuştur. TBK m. 84/1'e göre galeri kısmi ifayı reddedebilir. \"Ya tamamı ya hiç\" demesi kanunun tanıdığı bir hakkın kullanılmasıdır. Galeri alacaklı temerrüdüne düşmez, Deniz borcun tamamını ifa yükümlülüğü altında kalır. Galeri dileseydi 70.000 TL'yi kabul edip kalan 50.000 TL'yi ayrıca isteyebilirdi.\n\n*3. Kerem'in ödemesi:* Para borcunda alacaklının bizzat ifada menfaati yoktur (TBK m. 83). Kerem'in ödemesi Deniz'in borcunu sona erdirir. Deniz'in ödemeden haberi olmaması sonucu değiştirmez. Kerem'in kefile başvurabilmesi için galerinin haklarına halef olması gerekir. TBK m. 127 halefiyeti iki hâle bağlar: başkasının borcu için rehnedilen bir şeyi rehinden kurtaran ayni hak sahibinin ödemesi ya da borçlunun, ödeyenin halef olacağını ifadan önce alacaklıya bildirmesi. Olayda ikisi de yoktur. Kerem halef olmadığından alacak ve ona bağlı kefalet ona geçmez. Üstelik asıl borç ifayla sona erdiği için ona bağlı kefalet de sona ermiştir (TBK m. 131/1). Kerem parasını ancak Deniz'den, aralarındaki ilişkiye göre isteyebilir. Bu, vekâletsiz iş görme ya da sebepsiz zenginleşme kurallarına dayanabilir.\n\n*4. Banka ödemesi:* Deniz'in 15.000 TL vadesi geçmiş faiz ve 2.000 TL gider borcu vardır, yani faiz ve giderleri ödemede gecikmiştir. TBK m. 100/1 yalnız gecikmemiş borçluya kısmi ödemeyi ana borçtan düşme hakkı verir. Bu yüzden Deniz'in \"anaparaya sayın\" talebi sonuç doğurmaz. 100.000 TL'nin önce 17.000 TL'si faiz ve gidere, kalan 83.000 TL'si anaparaya sayılır. Kalan anapara 300.000 − 83.000 = 217.000 TL'dir. Mahsup ödeme tarihi itibarıyla yapılır ve faiz bundan sonra 217.000 TL'ye işler.\n\n**Sonuç:**\n- Zeynep tabloyu haklı olarak reddetmiştir.\n- Galeri kısmi ödemeyi haklı olarak reddetmiştir ve alacaklı temerrüdüne düşmemiştir.\n- Kerem'in ödemesi borcu sona erdirmiştir. Kerem halef olmadığı için kefile başvuramaz, Deniz'e başvurur.\n- Bankaya yapılan ödemeyle faiz ve gider kapanır, anapara 217.000 TL'ye iner."
+  },
+  {
+   "stem_md": "Emekli öğretmen Ahmet, tacir olmayan komşusu Hasan'a 1 Şubat 2026'da 500.000 TL ödünç verir. Sözleşmeye göre Hasan parayı bir yıl sonra geri ödeyecek ve aylık %4 faiz ödeyecektir. Sözleşmede ayrıca \"ödenmeyen faiz her üç ayda bir anaparaya eklenir ve birlikte faiz yürütülür\" kaydı vardır.\n\nAhmet'in oğlu Okan'ın yöneticisi olduğu O A.Ş. de T Ltd.'ye, her iki taraf için ticari iş niteliğindeki bir ödünç sözleşmesiyle para verir ve yıllık %50 faiz kararlaştırılır.\n\nAhmet ayrıca Almanya'da yerleşik koleksiyoncu Klaus'a antika piyanosunu 20.000 avroya satmıştır. Bedel 1 Haziran 2026'da ödenecektir ve sözleşmede aynen ödeme kaydı yoktur. Klaus vade gününde ödeme yapmaz, borcunu ancak 1 Eylül'de öder. Vade günü 1 avro 45 TL, 1 Eylül'de 50 TL'dir. Ahmet bedeli Türk lirası olarak almak istemektedir.\n\n(Kanuni faiz oranının yıllık %30 olduğunu ve Ahmet ile Klaus arasındaki sözleşmenin kambiyo mevzuatı bakımından geçerli olduğunu varsayınız.)\n\n1. Ahmet ile Hasan arasındaki faiz oranı kaydını değerlendiriniz.\n2. Faizin anaparaya eklenmesine ilişkin kayıt geçerli midir?\n3. O A.Ş. ile T Ltd. arasındaki %50'lik faiz kaydı geçerli midir?\n4. Klaus vade gününde borcunu Türk lirasıyla ödeyebilir miydi? Ödemediğine göre Ahmet ne isteyebilir ve hangi seçenek onun lehinedir?",
+   "rubric": [
+    {
+     "point": "Aylık %4 faizin yıllık %48'e karşılık geldiği; ticari olmayan ödünçte sözleşme faizinin kanuni faizin yüzde elli fazlasını (yıllık %45) aşamayacağı",
+     "weight": 20,
+     "madde_ref": "TBK m. 88"
+    },
+    {
+     "point": "Sınırı aşan kısmın geçersiz olduğu, hükümsüzlüğün kısmi kalıp ödünç sözleşmesinin ayakta kaldığı",
+     "weight": 10,
+     "madde_ref": "TBK m. 27"
+    },
+    {
+     "point": "Tüketim ödüncünde bileşik faiz kaydının geçersizliği; TTK m. 8/2 istisnasının tacir olmayanlara uygulanmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 388"
+    },
+    {
+     "point": "Her iki taraf için ticari iş olan ödünçte faiz oranının serbest olduğu ve %50'lik kaydın geçerli olduğu",
+     "weight": 15,
+     "madde_ref": "TTK m. 8"
+    },
+    {
+     "point": "Aynen ödeme kaydı bulunmadığından Klaus'un vadede ödeme günündeki kurla Türk lirası olarak da ödeyebileceği",
+     "weight": 15,
+     "madde_ref": "TBK m. 99"
+    },
+    {
+     "point": "Vadede ödenmeyen yabancı para borcunda alacaklının aynen, vade günü ya da fiilî ödeme günü kuru seçimlik hakkı; fiilî ödeme günü kurunun (1.000.000 TL) Ahmet'in lehine olduğu",
+     "weight": 20,
+     "madde_ref": "TBK m. 99"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda üç sözleşme vardır: Ahmet ile Hasan arasında ticari olmayan bir tüketim ödüncü, O A.Ş. ile T Ltd. arasında iki taraf için ticari iş olan bir ödünç ve Ahmet ile Klaus arasında bedeli avro olarak belirlenmiş bir taşınır satışı.\n\n**Hukuki sorunlar:**\n- Aylık %4 faiz sözleşme faizi sınırını aşıyor mu, aşıyorsa sonucu ne olur?\n- Bileşik faiz kaydı geçerli mi?\n- Ticari ödünçte faiz sınırı var mı?\n- Yabancı para borcu nasıl ödenir, gecikmede alacaklı ne isteyebilir?\n\n**İlgili hükümler:** TBK m. 88/2, m. 27/2, m. 387/1, m. 388/3, TTK m. 8/1-2, TBK m. 99/2-3.\n\n**Değerlendirme:**\n\n*1. Faiz oranı:* Ticari olmayan tüketim ödüncünde faiz ancak kararlaştırılmışsa istenebilir (TBK m. 387/1). Burada faiz kararlaştırılmıştır. Ancak TBK m. 88/2'ye göre sözleşmeyle kararlaştırılan yıllık faiz, kanuni oranın yüzde elli fazlasını aşamaz. Kanuni faiz %30 olduğuna göre sınır %30 × 1,5 = %45'tir. Aylık %4 faiz yıllık %48'e karşılık gelir ve sınırı aşar. Hüküm emredicidir, aşan kısım geçersizdir. TBK m. 27/2'ye göre bir kaydın kısmen hükümsüz olması sözleşmenin diğer hükümlerini etkilemez. Ödünç sözleşmesi ayakta kalır. Baskın görüşe göre faiz oranı yıllık %45'e indirilir.\n\n*2. Bileşik faiz:* TBK m. 388/3'e göre tüketim ödüncünde faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi kararlaştırılamaz. Eklemenin üç ayda bir yapılması kaydı kurtarmaz. TTK m. 8/2'deki, üç aydan aşağı olmamak şartıyla bileşik faize izin veren istisna yalnız cari hesaplarda ve iki taraf için ticari iş olan ödünçlerde geçerlidir. Sözleşenleri tacir olmayanlara uygulanmaz. Kayıt geçersizdir, faiz yalnız anaparaya işler.\n\n*3. Ticari ödünç:* O A.Ş. ile T Ltd. arasındaki ödünç iki taraf için de ticari iştir. TTK m. 8/1'e göre ticari işlerde faiz oranı serbestçe belirlenir. Bu özel hüküm karşısında TBK m. 88/2'deki sınır uygulanmaz. Yıllık %50'lik faiz kaydı geçerlidir.\n\n*4. Yabancı para borcu:* TBK m. 99/1'e göre para borcu Türk lirasıyla ödenir. Taraflar ise bedeli avro olarak belirlemiştir ve sözleşmede aynen ödeme kaydı yoktur. Bu yüzden Klaus vade gününde borcunu avro olarak ya da o günkü kur üzerinden Türk lirası olarak ödeyebilirdi (TBK m. 99/2). Klaus vadede ödemediği için TBK m. 99/3 uygulanır. Ahmet alacağın aynen, yani 20.000 avro olarak ödenmesini isteyebilir. Türk lirası istiyorsa iki kur arasında seçim yapar: vade günündeki kurla 20.000 × 45 = 900.000 TL ya da fiilî ödeme günündeki kurla 20.000 × 50 = 1.000.000 TL. Kur yükseldiği için fiilî ödeme günü kuru Ahmet'in lehinedir. Kanun böylece kur değişiminin riskini, ödemeyi geciktiren borçluya yükler. Yargıtay'a göre Ahmet seçimini yaptıktan sonra ondan dönemez. Gecikme nedeniyle istenebilecek faiz ayrı konuda incelenir.\n\n**Sonuç:**\n- Ahmet ile Hasan arasındaki faiz kaydı yıllık %45'i aşan kısmı bakımından geçersizdir, ödünç sözleşmesi geçerlidir.\n- Bileşik faiz kaydı geçersizdir.\n- O A.Ş. ile T Ltd. arasındaki %50'lik faiz geçerlidir.\n- Klaus vadede Türk lirasıyla da ödeyebilirdi. Gecikme üzerine Ahmet fiilî ödeme günü kurunu seçerek 1.000.000 TL isteyebilir."
+  },
+  {
+   "stem_md": "Bakkal Hakan, toptancı Y Ltd.'den aldığı mallar nedeniyle şirkete üç ayrı borç altındadır:\n- A faturası: 40.000 TL, vadesi 10 Ocak 2026. Y Ltd. bu alacak için 1 Şubat'ta icra takibi başlatmıştır. Takip gideri 1.500 TL'dir ve 500 TL işlemiş faiz birikmiştir.\n- B faturası: 30.000 TL, vadesi 1 Ocak 2026. Takip yoktur.\n- C senedi: 50.000 TL, vadesi 1 Aralık 2026. Hakan'ın kardeşi bu borca kefildir.\n\n1 Mart'ta Hakan Y Ltd.'ye 30.000 TL öder. Hangi borç için ödediğini söylemez, Y Ltd. de makbuzda bir açıklama yapmaz. 15 Mart'ta Hakan 20.000 TL daha öder ve yine bir şey söylemez. Y Ltd.'nin muhasebecisi bu kez makbuza \"C senedine mahsuben\" yazar. Hakan makbuzu o gün alır, ama ancak iki hafta sonra itiraz eder.\n\nHakan dükkânını da Y Ltd.'den aylık 15.000 TL'ye kiralamaktadır. Nisan'da Nisan kirasını öder ve Y Ltd. ona çekince koymadan \"Nisan 2026 kira bedeli tahsil edilmiştir\" diye makbuz verir. Mayıs'ta Y Ltd., Ocak, Şubat ve Mart kiralarının ödenmediğini ileri sürerek bunları ister.\n\n(A dışındaki borçlar için faiz ve giderleri dikkate almayınız.)\n\n1. 1 Mart'taki ödeme hangi borca ve o borcun hangi kalemlerine sayılır? Hakan ödeme sırasında \"Bu para B içindir\" deseydi sonuç ne olurdu?\n2. 15 Mart'taki ödeme hangi borca sayılır? Hakan'ın itirazı sonucu değiştirir mi?\n3. Y Ltd.'nin Ocak-Mart kiralarına ilişkin talebini değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Bildirim ve makbuzda açıklık yokken ödemenin muaccel borçlardan ilk takip edilen A'ya sayılması",
+     "weight": 20,
+     "madde_ref": "TBK m. 102"
+    },
+    {
+     "point": "A içinde ödemenin önce 1.500 TL gider ve 500 TL faize, kalan 28.000 TL'nin anaparaya sayılması; A'dan 12.000 TL anapara kalması",
+     "weight": 20,
+     "madde_ref": "TBK m. 100"
+    },
+    {
+     "point": "Borçlunun ödeme gününde bildirim hakkı; bildirseydi ödemenin B'ye sayılacağı",
+     "weight": 10,
+     "madde_ref": "TBK m. 101"
+    },
+    {
+     "point": "Makbuzda gösterilen C borcuna derhâl itiraz edilmediği için 15 Mart ödemesinin C'ye sayılması",
+     "weight": 20,
+     "madde_ref": "TBK m. 101"
+    },
+    {
+     "point": "Vadesi gelmemiş C borcunun erken ifa edilebilmesi ve 30.000 TL'ye inmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 96"
+    },
+    {
+     "point": "Dönemsel edimde çekincesiz makbuzla önceki ayların ödenmiş sayılması ve bu karinenin Y Ltd. aleyhine işlemesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 104"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Hakan ile Y Ltd. arasında satımdan doğan üç ayrı para borcu ve bir kira sözleşmesi vardır. Sorun, birden çok borcu olan borçlunun yaptığı ödemelerin hangi borca ve hangi kaleme sayılacağı ile kira makbuzunun ispattaki etkisidir.\n\n**Hukuki sorunlar:**\n- Bildirim ve makbuz açıklaması olmayan ödeme hangi borca sayılır?\n- Seçilen borcun içinde ödeme anapara, faiz ve gider arasında nasıl dağıtılır?\n- Makbuzda gösterilen borca geç itirazın sonucu nedir?\n- Çekincesiz kira makbuzu önceki aylar bakımından ne ifade eder?\n\n**İlgili hükümler:** TBK m. 100/1, m. 101, m. 102, m. 96, m. 104/1.\n\n**Değerlendirme:**\n\n*1. 1 Mart ödemesi:* Hakan bir bildirimde bulunmamış, makbuzda da açıklık yoktur. Bu yüzden TBK m. 102'deki kanuni sıra uygulanır. Ödeme önce muaccel borca sayılır. 1 Mart'ta A ve B muacceldir, C'nin vadesi gelmemiştir. Birden çok borç muaccel olduğundan ödeme borçluya karşı ilk olarak takip edilen borca, yani A'ya sayılır. Vadesi ilk gelen borç ölçüsü (B) ancak hiç takip yoksa uygulanırdı. A'nın içinde TBK m. 100/1 devreye girer. Hakan A'nın faiz ve giderlerini ödemede gecikmiştir. Bu yüzden 30.000 TL önce 1.500 TL takip giderine ve 500 TL faize, kalan 28.000 TL anaparaya sayılır. A'dan 12.000 TL anapara kalır. Hakan ödeme sırasında \"Bu para B içindir\" deseydi, TBK m. 101/1'deki bildirim hakkını kullanmış olurdu ve ödeme B'ye sayılırdı. Bildirim ödeme gününde yapılmalıdır. Sonradan yapılan açıklama sonucu değiştirmez.\n\n*2. 15 Mart ödemesi:* Hakan yine bildirimde bulunmamıştır, ama bu kez alacaklı makbuzda ödemeyi C senedine saymıştır. TBK m. 101/2'ye göre bu durumda ödeme, borçlu derhâl itiraz etmedikçe makbuzda gösterilen borç için yapılmış sayılır. Hakan makbuzu aynı gün almış, ancak iki hafta sonra itiraz etmiştir. Bu itiraz derhâl yapılmış sayılamaz, sonucu değiştirmez. C'nin vadesi gelmemiş olması da engel değildir. TBK m. 96'ya göre aksi anlaşılmadıkça borçlu edimini süre dolmadan ifa edebilir, alacaklı da makbuzla bu ödemeyi C'ye saymıştır. C borcu 30.000 TL'ye iner, A ve B'deki borç ise devam eder. Hakan için doğru yol, ödeme sırasında hangi borcu ödediğini bildirmek ya da makbuza hemen itiraz etmekti.\n\n*3. Kira talebi:* Kira dönemsel bir edimdir. TBK m. 104/1'e göre dönemsel edimlerden biri için alacaklı çekince belirtmeden makbuz vermişse, önceki dönemlere ait edimler de ifa edilmiş sayılır. Y Ltd. Nisan kirası için çekincesiz makbuz verdiğinden Ocak, Şubat ve Mart kiralarının ödendiği kabul edilir. Baskın görüşe göre bu karinenin aksi ispatlanabilir. Y Ltd. bu kiraların gerçekten ödenmediğini ispatlarsa onları isteyebilir. İspat edemezse talebi reddedilir. Y Ltd. makbuza \"önceki aylara ilişkin alacaklarım saklıdır\" gibi bir çekince koysaydı bu karine doğmazdı.\n\n**Sonuç:**\n- 1 Mart ödemesi A'ya sayılır: önce 2.000 TL gider ve faiz, sonra 28.000 TL anapara. A'dan 12.000 TL kalır. Bildirim olsaydı ödeme B'ye sayılırdı.\n- 15 Mart ödemesi C'ye sayılır. Hakan'ın iki hafta sonraki itirazı sonucu değiştirmez.\n- Ocak-Mart kiraları ödenmiş sayılır. Y Ltd. ancak aksini ispatlarsa bunları isteyebilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Borçlu borcunu şahsen ifa etmek zorunda mı? (TBK m. 83)",
+   "back_md": "Kural olarak hayır. Alacaklının bizzat ifada menfaati varsa zorunludur."
+  },
+  {
+   "front_md": "Bizzat ifada alacaklının menfaati nereden doğar?",
+   "back_md": "Sözleşmeden, kanundan (işçi m. 395, vekil m. 506/1, yüklenici m. 471/3) ya da edimin kişisel niteliğinden (ressam, sanatçı, cerrah)."
+  },
+  {
+   "front_md": "Borcu ödeyen üçüncü kişi ne zaman halef olur? (TBK m. 127)",
+   "back_md": "Rehinli şeyi kurtaran ve üzerinde ayni hakkı olan kişiyse ya da borçlu halefiyeti ifadan önce alacaklıya bildirmişse. Kanundaki diğer hâller saklıdır."
+  },
+  {
+   "front_md": "Alacaklı kısmi ifayı ne zaman reddedebilir? (TBK m. 84/1)",
+   "back_md": "Borcun tamamı belli ve muaccelse. İki şart birlikte aranır."
+  },
+  {
+   "front_md": "Kısmi ifayı kabul eden alacaklı karşısında borçlu neyden kaçınamaz? (TBK m. 84/2)",
+   "back_md": "Borcun kendisi tarafından ikrar olunan kısmını ifadan."
+  },
+  {
+   "front_md": "Poliçede hamil kısmi ödemeyi reddedebilir mi?",
+   "back_md": "Hayır (TTK m. 709/2)."
+  },
+  {
+   "front_md": "Çeşit borcunda seçim kimindir? (TBK m. 86)",
+   "back_md": "Aksi anlaşılmadıkça borçlunun. Ama borçlu ortalama nitelikten düşük edim seçemez."
+  },
+  {
+   "front_md": "Seçimlik borçta seçim kimindir? (TBK m. 87)",
+   "back_md": "Hukuki ilişkiden ve işin özelliğinden aksi anlaşılmadıkça borçlunun."
+  },
+  {
+   "front_md": "Faiz oranı kararlaştırılmamışsa ne olur? (TBK m. 88/1)",
+   "back_md": "Faiz borcunun doğduğu tarihte yürürlükte olan mevzuata, yani 3095 sayılı Kanuna (kanuni faiz) göre belirlenir."
+  },
+  {
+   "front_md": "31.7.2026'dan beri kanuni faiz nasıl hesaplanır?",
+   "back_md": "TCMB'nin önceki yılın 31 Aralık günkü reeskont oranının %80'i. 30 Haziran oranı 5 puan veya daha fazla farklıysa yılın ikinci yarısında o oranın %80'i."
+  },
+  {
+   "front_md": "Sözleşme faizinin üst sınırı nedir? (TBK m. 88/2)",
+   "back_md": "Kanuni faizin yüzde elli fazlası, yani 1,5 katı. Ticari işlerde uygulanmaz (TTK m. 8/1)."
+  },
+  {
+   "front_md": "Tüketim ödüncünde bileşik faiz kararlaştırılabilir mi?",
+   "back_md": "Hayır (TBK m. 388/3). Ticari istisna dardır ve tacir olmayanlara uygulanmaz (TTK m. 8/2)."
+  },
+  {
+   "front_md": "Para borcu hangi parayla ödenir? (TBK m. 99/1)",
+   "back_md": "Ülke parasıyla, yani Türk lirasıyla."
+  },
+  {
+   "front_md": "Yabancı para borcunu borçlu Türk lirasıyla ödeyebilir mi? (TBK m. 99/2)",
+   "back_md": "Evet, sözleşmede aynen ödeme kaydı yoksa ödeme günündeki kur üzerinden."
+  },
+  {
+   "front_md": "Vadede ödenmeyen yabancı para borcunda alacaklı ne isteyebilir? (TBK m. 99/3)",
+   "back_md": "Alacağın aynen ya da vade veya fiilî ödeme günündeki kur üzerinden Türk lirası olarak ödenmesini. Seçim alacaklınındır."
+  },
+  {
+   "front_md": "Yerleşikler arasında konut kirası döviz olarak kararlaştırılabilir mi?",
+   "back_md": "Hayır, 2018'den beri 32 sayılı Karar buna izin vermez. Altına endeksleme de dövize endeksleme sayılır. İstisnalar Tebliğ'dedir ve sık değişir."
+  },
+  {
+   "front_md": "Kısmi ödeme önce neye sayılır? (TBK m. 100/1)",
+   "back_md": "Faiz ve giderlerde gecikme varsa önce onlara, kalanı anaparaya. Gecikme yoksa borçlu anaparaya saydırabilir ve aksine anlaşma yapılamaz."
+  },
+  {
+   "front_md": "Kısmi ödeme güvenceli kısma saydırılabilir mi? (TBK m. 100/2)",
+   "back_md": "Hayır. Güvence altındaki ya da güvencesi daha iyi olan kısma mahsup istenemez."
+  },
+  {
+   "front_md": "Birden çok borçta mahsup sırası nedir? (TBK m. 101-102)",
+   "back_md": "Bildirim, makbuzdaki gösterim (derhâl itiraz yoksa), muaccel borç, ilk takip edilen, vadesi ilk gelen, orantılı, güvencesi en az olan."
+  },
+  {
+   "front_md": "Anaparanın tamamı için çekincesiz makbuzun sonucu nedir? (TBK m. 104/2)",
+   "back_md": "Alacaklının faizleri de almış olduğu kabul edilir."
+  },
+  {
+   "front_md": "Kira gibi dönemsel edimde çekincesiz makbuzun sonucu nedir? (TBK m. 104/1)",
+   "back_md": "Önceki dönemlere ait edimler de ifa edilmiş sayılır."
+  },
+  {
+   "front_md": "Mahsup ile takas arasındaki fark nedir?",
+   "back_md": "Mahsup, bir ödemenin hangi borca ya da kaleme sayılacağıdır. Takas, karşılıklı iki alacağı tek taraflı beyanla sona erdirir (TBK m. 139)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

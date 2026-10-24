@@ -1,0 +1,175 @@
+# HUK3012 Borçlar Hukuku Özel Hükümler — TBK İkinci Kısım (m. 207-645).
+# Elle (Claude Code'da) kuruldu: konu sınırları kanunun tam metnindeki başlıklara göre
+# (bedesten getDocumentContent MEVZUAT). Sıra kanun sistematiğini izler.
+units:
+- title: 'Ünite 1: Satış Sözleşmesi'
+  topics:
+  - slug: satis-genel-yarar-hasar-ve-saticinin-teslim-borcu
+    title: 'Satış Sözleşmesi: Tanım, Yarar ve Hasar, Satıcının Teslim Borcu ve Temerrüdü'
+    maddeler: [{kanun: TBK, madde: '207'}, {kanun: TBK, madde: '208'}, {kanun: TBK, madde: '209'}, {kanun: TBK, madde: '210'}, {kanun: TBK, madde: '211'}, {kanun: TBK, madde: '212'}, {kanun: TBK, madde: '213'}]
+    ictihat_sorgulari: [satışta yarar ve hasarın geçişi, satıcının temerrüdü ticari satış]
+    beceri: satis-ayip-zapt
+  - slug: zapttan-sorumluluk
+    title: Satıcının Zapttan Sorumluluğu
+    maddeler: [{kanun: TBK, madde: '214'}, {kanun: TBK, madde: '215'}, {kanun: TBK, madde: '216'}, {kanun: TBK, madde: '217'}, {kanun: TBK, madde: '218'}]
+    ictihat_sorgulari: [zapttan sorumluluk satıcı, satılanın üçüncü kişi tarafından elden alınması]
+    beceri: satis-ayip-zapt
+  - slug: ayiptan-sorumluluk-ayip-ve-bildirim
+    title: 'Ayıptan Sorumluluk I: Ayıp Kavramı, Sorumsuzluk Anlaşması, Gözden Geçirme ve Bildirim'
+    maddeler: [{kanun: TBK, madde: '219'}, {kanun: TBK, madde: '220'}, {kanun: TBK, madde: '221'}, {kanun: TBK, madde: '222'}, {kanun: TBK, madde: '223'}, {kanun: TBK, madde: '224'}, {kanun: TBK, madde: '225'}, {kanun: TBK, madde: '226'}]
+    ictihat_sorgulari: [gizli ayıp ihbar süresi, açık ayıp gözden geçirme külfeti]
+    beceri: satis-ayip-zapt
+  - slug: ayiptan-sorumluluk-secimlik-haklar-ve-zamanasimi
+    title: 'Ayıptan Sorumluluk II: Alıcının Seçimlik Hakları, Dönmenin Sonuçları ve Zamanaşımı'
+    maddeler: [{kanun: TBK, madde: '227'}, {kanun: TBK, madde: '228'}, {kanun: TBK, madde: '229'}, {kanun: TBK, madde: '230'}, {kanun: TBK, madde: '231'}]
+    ictihat_sorgulari: [ayıplı mal bedel indirimi sözleşmeden dönme, ayıptan sorumluluk iki yıllık zamanaşımı]
+    beceri: satis-ayip-zapt
+  - slug: alicinin-borclari-ve-temerrudu
+    title: Alıcının Borçları, Satış Bedelinin Belirlenmesi ve Alıcının Temerrüdü
+    maddeler: [{kanun: TBK, madde: '232'}, {kanun: TBK, madde: '233'}, {kanun: TBK, madde: '234'}, {kanun: TBK, madde: '235'}, {kanun: TBK, madde: '236'}]
+    ictihat_sorgulari: [alıcının temerrüdü satıcının dönme hakkı, satış bedelinin ödenmemesi faiz]
+    beceri: satis-ayip-zapt
+- title: 'Ünite 2: Taşınmaz Satışı, Özel Satış Türleri ve Mal Değişimi'
+  topics:
+  - slug: tasinmaz-satisi-ve-satis-iliskisi-doguran-haklar
+    title: 'Taşınmaz Satışı, Satış Vaadi ve Satış İlişkisi Doğuran Haklar (Önalım, Alım, Geri Alım)'
+    maddeler: [{kanun: TBK, madde: '237'}, {kanun: TBK, madde: '238'}, {kanun: TBK, madde: '239'}, {kanun: TBK, madde: '240'}, {kanun: TBK, madde: '241'}, {kanun: TBK, madde: '242'}, {kanun: TBK, madde: '243'}, {kanun: TBK, madde: '244'}, {kanun: TBK, madde: '245'}, {kanun: TBK, madde: '246'}, {kanun: TMK, madde: '706'}]
+    ictihat_sorgulari: [taşınmaz satış vaadi sözleşmesi noter, sözleşmeden doğan önalım hakkı şerh]
+    beceri: satis-ayip-zapt
+  - slug: ornek-uzerine-begenme-kosuluyla-ve-taksitle-satis
+    title: Örnek Üzerine Satış, Beğenme Koşuluyla Satış ve Taksitle Satış
+    maddeler: [{kanun: TBK, madde: '247'}, {kanun: TBK, madde: '248'}, {kanun: TBK, madde: '249'}, {kanun: TBK, madde: '250'}, {kanun: TBK, madde: '251'}, {kanun: TBK, madde: '253'}, {kanun: TBK, madde: '255'}, {kanun: TBK, madde: '256'}, {kanun: TBK, madde: '259'}, {kanun: TBK, madde: '260'}, {kanun: TBK, madde: '261'}, {kanun: TBK, madde: '263'}]
+    ictihat_sorgulari: [taksitle satış sözleşmesi geri alma hakkı, beğenme koşuluyla satış]
+    beceri: satis-ayip-zapt
+  - slug: on-odemeli-taksitle-satis-acik-artirma-ve-mal-degisim
+    title: Ön Ödemeli Taksitle Satış, Açık Artırma Yoluyla Satış ve Mal Değişim Sözleşmesi
+    maddeler: [{kanun: TBK, madde: '264'}, {kanun: TBK, madde: '265'}, {kanun: TBK, madde: '269'}, {kanun: TBK, madde: '274'}, {kanun: TBK, madde: '275'}, {kanun: TBK, madde: '276'}, {kanun: TBK, madde: '279'}, {kanun: TBK, madde: '280'}, {kanun: TBK, madde: '281'}, {kanun: TBK, madde: '282'}, {kanun: TBK, madde: '283'}, {kanun: TBK, madde: '284'}]
+    ictihat_sorgulari: [açık artırmanın iptali isteğe bağlı artırma, trampa mal değişim sözleşmesi]
+    beceri: tip-teshisi-ve-nitelendirme
+- title: 'Ünite 3: Bağışlama'
+  topics:
+  - slug: bagislama-sozlesmesi
+    title: 'Bağışlama Sözleşmesi: Ehliyet, Şekil, Türler, Bağışlayanın Sorumluluğu ve Geri Alma'
+    maddeler: [{kanun: TBK, madde: '285'}, {kanun: TBK, madde: '286'}, {kanun: TBK, madde: '288'}, {kanun: TBK, madde: '289'}, {kanun: TBK, madde: '290'}, {kanun: TBK, madde: '291'}, {kanun: TBK, madde: '292'}, {kanun: TBK, madde: '294'}, {kanun: TBK, madde: '295'}, {kanun: TBK, madde: '296'}, {kanun: TBK, madde: '297'}, {kanun: TBK, madde: '298'}]
+    ictihat_sorgulari: [bağışlamanın geri alınması ağır suç, elden bağışlama taşınmaz resmi şekil]
+    beceri: tip-teshisi-ve-nitelendirme
+- title: 'Ünite 4: Kira Sözleşmesi'
+  topics:
+  - slug: kira-genel-kiraya-verenin-borclari-ve-ayip
+    title: 'Kira Genel Hükümler: Tanım, Kiraya Verenin Borçları, Ayıp ve Zapttan Sorumluluk'
+    maddeler: [{kanun: TBK, madde: '299'}, {kanun: TBK, madde: '300'}, {kanun: TBK, madde: '301'}, {kanun: TBK, madde: '302'}, {kanun: TBK, madde: '303'}, {kanun: TBK, madde: '304'}, {kanun: TBK, madde: '305'}, {kanun: TBK, madde: '306'}, {kanun: TBK, madde: '307'}, {kanun: TBK, madde: '308'}, {kanun: TBK, madde: '310'}, {kanun: TBK, madde: '312'}]
+    ictihat_sorgulari: [kiralananın ayıplı teslimi kira bedelinden indirim, kiralananın el değiştirmesi yeni malik]
+    beceri: kiralanan-ayip-onarim-kullanim
+  - slug: kiracinin-borclari-ve-temerrut
+    title: Kiracının Borçları, Kiracının Temerrüdü, Alt Kira ve Kira İlişkisinin Devri
+    maddeler: [{kanun: TBK, madde: '313'}, {kanun: TBK, madde: '314'}, {kanun: TBK, madde: '315'}, {kanun: TBK, madde: '316'}, {kanun: TBK, madde: '317'}, {kanun: TBK, madde: '318'}, {kanun: TBK, madde: '321'}, {kanun: TBK, madde: '322'}, {kanun: TBK, madde: '323'}, {kanun: TBK, madde: '325'}, {kanun: TBK, madde: '326'}]
+    ictihat_sorgulari: [kiracının temerrüdü otuz gün süre fesih, alt kira kiraya verenin rızası]
+    beceri: temerrut-iki-hakli-ihtar-tahliye
+  - slug: kira-sozlesmesinin-sona-ermesi-ve-hapis-hakki
+    title: Kira Sözleşmesinin Sona Ermesi, Kiralananın Geri Verilmesi ve Kiraya Verenin Hapis Hakkı
+    maddeler: [{kanun: TBK, madde: '327'}, {kanun: TBK, madde: '328'}, {kanun: TBK, madde: '329'}, {kanun: TBK, madde: '330'}, {kanun: TBK, madde: '331'}, {kanun: TBK, madde: '332'}, {kanun: TBK, madde: '333'}, {kanun: TBK, madde: '334'}, {kanun: TBK, madde: '335'}, {kanun: TBK, madde: '336'}, {kanun: TBK, madde: '338'}]
+    ictihat_sorgulari: [kira sözleşmesinin önemli sebeple olağanüstü feshi, kiralananın geri verilmesi olağan kullanım]
+    beceri: kira-temel-kavramlar-ve-sistem
+  - slug: konut-isyeri-kira-bedeli-ve-guvence
+    title: 'Konut ve Çatılı İşyeri Kirası I: Uygulama Alanı, Güvence, Kira Bedelinin Belirlenmesi ve Tespit Davası'
+    maddeler: [{kanun: TBK, madde: '339'}, {kanun: TBK, madde: '340'}, {kanun: TBK, madde: '341'}, {kanun: TBK, madde: '342'}, {kanun: TBK, madde: '343'}, {kanun: TBK, madde: '344'}, {kanun: TBK, madde: '345'}, {kanun: TBK, madde: '346'}]
+    ictihat_sorgulari: [kira bedelinin tespiti hakkaniyet indirimi, beş yıldan sonra kira bedeli emsal]
+    beceri: kira-bedeli-tespit-ve-artis
+  - slug: konut-isyeri-sona-erme-ve-tahliye
+    title: 'Konut ve Çatılı İşyeri Kirası II: Sona Erme, Aile Konutu, Tahliye Sebepleri ve Yeniden Kiralama Yasağı'
+    maddeler: [{kanun: TBK, madde: '347'}, {kanun: TBK, madde: '348'}, {kanun: TBK, madde: '349'}, {kanun: TBK, madde: '350'}, {kanun: TBK, madde: '351'}, {kanun: TBK, madde: '352'}, {kanun: TBK, madde: '353'}, {kanun: TBK, madde: '354'}, {kanun: TBK, madde: '355'}, {kanun: TBK, madde: '356'}]
+    ictihat_sorgulari: [ihtiyaç nedeniyle tahliye samimi gerçek zorunlu, yazılı tahliye taahhüdü geçerliliği]
+    beceri: tahliye-sebepleri-ve-denetim
+  - slug: urun-kirasi
+    title: 'Ürün Kirası: Tarafların Borçları, Sona Erme ve Hayvan Kirası'
+    maddeler: [{kanun: TBK, madde: '357'}, {kanun: TBK, madde: '358'}, {kanun: TBK, madde: '360'}, {kanun: TBK, madde: '361'}, {kanun: TBK, madde: '362'}, {kanun: TBK, madde: '363'}, {kanun: TBK, madde: '364'}, {kanun: TBK, madde: '366'}, {kanun: TBK, madde: '368'}, {kanun: TBK, madde: '369'}, {kanun: TBK, madde: '372'}, {kanun: TBK, madde: '376'}]
+    ictihat_sorgulari: [ürün kirası işletme kirası, hasılat kirası olağanüstü durum indirim]
+    beceri: kira-temel-kavramlar-ve-sistem
+- title: 'Ünite 5: Ödünç ve Hizmet Sözleşmeleri'
+  topics:
+  - slug: kullanim-ve-tuketim-oduncu
+    title: Kullanım Ödüncü ve Tüketim Ödüncü
+    maddeler: [{kanun: TBK, madde: '379'}, {kanun: TBK, madde: '380'}, {kanun: TBK, madde: '381'}, {kanun: TBK, madde: '383'}, {kanun: TBK, madde: '384'}, {kanun: TBK, madde: '386'}, {kanun: TBK, madde: '387'}, {kanun: TBK, madde: '388'}, {kanun: TBK, madde: '389'}, {kanun: TBK, madde: '390'}, {kanun: TBK, madde: '392'}]
+    ictihat_sorgulari: [tüketim ödüncü para geri verme zamanı, kullanım ödüncü geri isteme]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: hizmet-sozlesmesi-kurulus-ve-taraf-borclari
+    title: 'Hizmet Sözleşmesi I: Kuruluş, İşçinin ve İşverenin Borçları, Ücret, İşçinin Kişiliğinin Korunması'
+    maddeler: [{kanun: TBK, madde: '393'}, {kanun: TBK, madde: '394'}, {kanun: TBK, madde: '395'}, {kanun: TBK, madde: '396'}, {kanun: TBK, madde: '399'}, {kanun: TBK, madde: '400'}, {kanun: TBK, madde: '401'}, {kanun: TBK, madde: '408'}, {kanun: TBK, madde: '417'}, {kanun: TBK, madde: '420'}, {kanun: TBK, madde: '422'}, {kanun: TBK, madde: '429'}]
+    ictihat_sorgulari: [işverenin işçinin kişiliğini koruma borcu psikolojik taciz, işçinin özen borcu zarar sorumluluğu]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: hizmet-sozlesmesinin-sona-ermesi-ve-rekabet-yasagi
+    title: 'Hizmet Sözleşmesi II: Sona Erme, Haklı Sebeple Fesih ve Rekabet Yasağı'
+    maddeler: [{kanun: TBK, madde: '430'}, {kanun: TBK, madde: '431'}, {kanun: TBK, madde: '432'}, {kanun: TBK, madde: '434'}, {kanun: TBK, madde: '435'}, {kanun: TBK, madde: '437'}, {kanun: TBK, madde: '438'}, {kanun: TBK, madde: '439'}, {kanun: TBK, madde: '444'}, {kanun: TBK, madde: '445'}, {kanun: TBK, madde: '446'}, {kanun: TBK, madde: '447'}]
+    ictihat_sorgulari: [rekabet yasağı sözleşmesi geçerlilik sınırları, hizmet sözleşmesinin haklı sebeple feshi]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: pazarlamacilik-ve-evde-hizmet-sozlesmeleri
+    title: Pazarlamacılık Sözleşmesi ve Evde Hizmet Sözleşmesi
+    maddeler: [{kanun: TBK, madde: '448'}, {kanun: TBK, madde: '449'}, {kanun: TBK, madde: '450'}, {kanun: TBK, madde: '451'}, {kanun: TBK, madde: '454'}, {kanun: TBK, madde: '455'}, {kanun: TBK, madde: '459'}, {kanun: TBK, madde: '461'}, {kanun: TBK, madde: '462'}, {kanun: TBK, madde: '466'}, {kanun: TBK, madde: '469'}]
+    ictihat_sorgulari: [pazarlamacılık sözleşmesi komisyon ücret, evde hizmet sözleşmesi]
+    beceri: tip-teshisi-ve-nitelendirme
+- title: 'Ünite 6: Eser ve Yayım Sözleşmeleri'
+  topics:
+  - slug: eser-sozlesmesi-yuklenicinin-borclari-ve-ayip
+    title: 'Eser Sözleşmesi I: Yüklenicinin Borçları, Ayıplı İfa ve İşsahibinin Seçimlik Hakları'
+    maddeler: [{kanun: TBK, madde: '470'}, {kanun: TBK, madde: '471'}, {kanun: TBK, madde: '472'}, {kanun: TBK, madde: '473'}, {kanun: TBK, madde: '474'}, {kanun: TBK, madde: '475'}, {kanun: TBK, madde: '476'}, {kanun: TBK, madde: '477'}, {kanun: TBK, madde: '478'}]
+    ictihat_sorgulari: [eser sözleşmesi ayıplı ifa ücretsiz onarım, eser sözleşmesi ayıp ihbarı zamanaşımı]
+    beceri: eser-sozlesmesi-ayip-temerrut
+  - slug: eser-sozlesmesi-bedel-ve-sona-erme
+    title: 'Eser Sözleşmesi II: Bedel (Götürü ve Yaklaşık), Eserin Yok Olması ve Sözleşmenin Sona Ermesi'
+    maddeler: [{kanun: TBK, madde: '479'}, {kanun: TBK, madde: '480'}, {kanun: TBK, madde: '481'}, {kanun: TBK, madde: '482'}, {kanun: TBK, madde: '483'}, {kanun: TBK, madde: '484'}, {kanun: TBK, madde: '485'}, {kanun: TBK, madde: '486'}]
+    ictihat_sorgulari: [götürü bedel aşırı ifa güçlüğü uyarlama, işsahibinin tazminat karşılığı feshi]
+    beceri: eser-sozlesmesi-ayip-temerrut
+  - slug: yayim-sozlesmesi
+    title: Yayım Sözleşmesi
+    maddeler: [{kanun: TBK, madde: '487'}, {kanun: TBK, madde: '488'}, {kanun: TBK, madde: '489'}, {kanun: TBK, madde: '490'}, {kanun: TBK, madde: '491'}, {kanun: TBK, madde: '492'}, {kanun: TBK, madde: '496'}, {kanun: TBK, madde: '498'}, {kanun: TBK, madde: '500'}, {kanun: TBK, madde: '501'}]
+    ictihat_sorgulari: [yayım sözleşmesi yazar telif, yayımcı baskı sayısı]
+    beceri: tip-teshisi-ve-nitelendirme
+- title: 'Ünite 7: Vekâlet Türünden Sözleşmeler ve Saklama'
+  topics:
+  - slug: vekalet-sozlesmesi
+    title: 'Vekâlet Sözleşmesi: Kuruluş, Vekilin Borçları ve Sorumluluğu, Sona Erme'
+    maddeler: [{kanun: TBK, madde: '502'}, {kanun: TBK, madde: '503'}, {kanun: TBK, madde: '504'}, {kanun: TBK, madde: '505'}, {kanun: TBK, madde: '506'}, {kanun: TBK, madde: '507'}, {kanun: TBK, madde: '508'}, {kanun: TBK, madde: '510'}, {kanun: TBK, madde: '512'}, {kanun: TBK, madde: '513'}, {kanun: TBK, madde: '514'}]
+    ictihat_sorgulari: [avukatın vekalet görevini özenle yerine getirme sorumluluğu, vekilin uygun olmayan zamanda istifası]
+    beceri: vekalet-sorumluluk-azil
+  - slug: kredi-mektubu-kredi-emri-ve-simsarlik
+    title: Kredi Mektubu, Kredi Emri ve Simsarlık Sözleşmesi
+    maddeler: [{kanun: TBK, madde: '515'}, {kanun: TBK, madde: '516'}, {kanun: TBK, madde: '519'}, {kanun: TBK, madde: '520'}, {kanun: TBK, madde: '521'}, {kanun: TBK, madde: '522'}, {kanun: TBK, madde: '523'}, {kanun: TBK, madde: '525'}]
+    ictihat_sorgulari: [simsarlık sözleşmesi yazılı şekil emlakçı ücret, simsarın ücrete hak kazanması]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: vekaletsiz-is-gorme
+    title: Vekâletsiz İş Görme (Gerçek ve Gerçek Olmayan)
+    maddeler: [{kanun: TBK, madde: '526'}, {kanun: TBK, madde: '527'}, {kanun: TBK, madde: '528'}, {kanun: TBK, madde: '529'}, {kanun: TBK, madde: '530'}, {kanun: TBK, madde: '531'}]
+    ictihat_sorgulari: [vekaletsiz iş görme gider tazmini, gerçek olmayan vekaletsiz iş görme kazancın iadesi]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: komisyon-ticari-temsil-ve-havale
+    title: Komisyon Sözleşmesi, Ticari Temsilci ve Ticari Vekil, Havale
+    maddeler: [{kanun: TBK, madde: '532'}, {kanun: TBK, madde: '533'}, {kanun: TBK, madde: '537'}, {kanun: TBK, madde: '539'}, {kanun: TBK, madde: '544'}, {kanun: TBK, madde: '547'}, {kanun: TBK, madde: '548'}, {kanun: TBK, madde: '551'}, {kanun: TBK, madde: '555'}, {kanun: TBK, madde: '556'}, {kanun: TBK, madde: '557'}]
+    ictihat_sorgulari: [ticari temsilci temsil yetkisi, havale ödeyicisinin kabul borcu]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: saklama-sozlesmesi
+    title: 'Saklama Sözleşmesi: Genel Saklama, Misli Saklama, Ardiyecilik, Otel ve Otopark İşletenin Sorumluluğu'
+    maddeler: [{kanun: TBK, madde: '561'}, {kanun: TBK, madde: '563'}, {kanun: TBK, madde: '564'}, {kanun: TBK, madde: '567'}, {kanun: TBK, madde: '569'}, {kanun: TBK, madde: '570'}, {kanun: TBK, madde: '571'}, {kanun: TBK, madde: '576'}, {kanun: TBK, madde: '577'}, {kanun: TBK, madde: '578'}, {kanun: TBK, madde: '579'}]
+    ictihat_sorgulari: [otopark işletenin aracın çalınmasından sorumluluğu, otel işletenin sorumluluğu kıymetli eşya]
+    beceri: tip-teshisi-ve-nitelendirme
+- title: 'Ünite 8: Kefalet ve Diğer Sözleşmeler'
+  topics:
+  - slug: kefalet-kurulus-sekil-ve-turleri
+    title: 'Kefalet I: Tanım, Asıl Borç, Şekil, Eşin Rızası ve Kefalet Türleri'
+    maddeler: [{kanun: TBK, madde: '581'}, {kanun: TBK, madde: '582'}, {kanun: TBK, madde: '583'}, {kanun: TBK, madde: '584'}, {kanun: TBK, madde: '585'}, {kanun: TBK, madde: '586'}, {kanun: TBK, madde: '587'}, {kanun: TBK, madde: '588'}, {kanun: TBK, madde: '603'}]
+    ictihat_sorgulari: [kefalet sözleşmesi azami miktar kefilin el yazısı, kefalette eşin rızası]
+    beceri: kefalet-gecerlilik-ve-sona-erme
+  - slug: kefalet-hukumleri-ve-sona-erme
+    title: 'Kefalet II: Kefilin Sorumluluğu, Takibi ve Def''ileri, Rücu, Sona Erme'
+    maddeler: [{kanun: TBK, madde: '589'}, {kanun: TBK, madde: '590'}, {kanun: TBK, madde: '591'}, {kanun: TBK, madde: '592'}, {kanun: TBK, madde: '595'}, {kanun: TBK, madde: '596'}, {kanun: TBK, madde: '598'}, {kanun: TBK, madde: '599'}, {kanun: TBK, madde: '600'}, {kanun: TBK, madde: '601'}, {kanun: TBK, madde: '602'}]
+    ictihat_sorgulari: [müteselsil kefilin takibi asıl borçludan önce, kefilin rücu hakkı halefiyet]
+    beceri: kefalet-gecerlilik-ve-sona-erme
+  - slug: oyun-bahis-omur-boyu-gelir-ve-olunceye-kadar-bakma
+    title: Oyun ve Bahis, Ömür Boyu Gelir ve Ölünceye Kadar Bakma Sözleşmeleri
+    maddeler: [{kanun: TBK, madde: '604'}, {kanun: TBK, madde: '605'}, {kanun: TBK, madde: '607'}, {kanun: TBK, madde: '608'}, {kanun: TBK, madde: '611'}, {kanun: TBK, madde: '612'}, {kanun: TBK, madde: '614'}, {kanun: TBK, madde: '615'}, {kanun: TBK, madde: '616'}, {kanun: TBK, madde: '617'}, {kanun: TBK, madde: '618'}]
+    ictihat_sorgulari: [ölünceye kadar bakma sözleşmesi muris muvazaası, ölünceye kadar bakma sözleşmesinin feshi]
+    beceri: tip-teshisi-ve-nitelendirme
+  - slug: adi-ortaklik
+    title: 'Adi Ortaklık: Kuruluş, Ortaklar Arası İlişki, Üçüncü Kişilerle İlişki ve Sona Erme'
+    maddeler: [{kanun: TBK, madde: '620'}, {kanun: TBK, madde: '621'}, {kanun: TBK, madde: '622'}, {kanun: TBK, madde: '623'}, {kanun: TBK, madde: '625'}, {kanun: TBK, madde: '626'}, {kanun: TBK, madde: '633'}, {kanun: TBK, madde: '637'}, {kanun: TBK, madde: '638'}, {kanun: TBK, madde: '639'}, {kanun: TBK, madde: '642'}, {kanun: TBK, madde: '645'}]
+    ictihat_sorgulari: [adi ortaklığın feshi ve tasfiyesi, adi ortaklık ortakların müteselsil sorumluluğu]
+    beceri: tip-teshisi-ve-nitelendirme

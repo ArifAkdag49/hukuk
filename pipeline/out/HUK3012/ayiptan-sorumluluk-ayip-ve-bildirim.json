@@ -1,0 +1,763 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Satış Sözleşmesi",
+ "topic_index": 3,
+ "slug": "ayiptan-sorumluluk-ayip-ve-bildirim",
+ "title": "Ayıptan Sorumluluk I: Ayıp Kavramı, Sorumsuzluk Anlaşması, Gözden Geçirme ve Bildirim",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:20:27.895195+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/satis-ayip-zapt"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Satılan mal vaat edilen ya da olması gereken nitelikte değilse alıcı satıcıya ne zaman başvurabilir? Satıcı bu sorumluluğu sözleşmeyle kaldırabilir mi, alıcı ayıbı biliyorsa ne olur, ayıp ne zaman ve nasıl bildirilmelidir? (Alıcının seçimlik hakları ve zamanaşımı bir sonraki konudur.)\n\n- **Ayıp (TBK m. 219):** Satıcı, bildirdiği niteliklerin bulunmamasından ve malın değerini ya da alıcının beklediği faydayı ortadan kaldıran veya önemli ölçüde azaltan **maddi, hukuki veya ekonomik** ayıplardan sorumludur. Satıcı ayıbı bilmese bile sorumludur (TBK m. 219/2): sorumluluk **kusura bağlı değildir**.\n- **Hayvan satışı (TBK m. 220 ve TBK m. 224):** Satıcı, yazılı olarak üstlenmedikçe veya ağır kusuru olmadıkça sorumlu olmaz. Süre yazılı belirlenmemiş ve ayıp gebelikle ilgili değilse, devirden itibaren **dokuz gün** içinde hem bildirim hem de yetkili makamdan bilirkişi incelemesi istemi gerekir.\n- **Sorumsuzluk anlaşması (TBK m. 221):** Satıcı ayıplı devirde **ağır kusurlu** ise sorumluluğu kaldıran ya da sınırlayan her anlaşma **kesin hükümsüzdür**. Noter senedindeki \"görüp beğenerek aldım\" kaydı yalnız açık ayıpları kapsar.\n- **Alıcının bildiği ayıp (TBK m. 222):** Sözleşme kurulurken alıcının bildiği ayıptan satıcı sorumlu olmaz. Yeterli gözden geçirmeyle görülebilecek ayıptan ise ancak bulunmadığı ayrıca üstlenilmişse sorumlu olur.\n- **Gözden geçirme ve bildirim (TBK m. 223):** Alıcı malı imkân bulunur bulunmaz gözden geçirir, ayıbı **uygun bir süre içinde** bildirir. Olağan gözden geçirmeyle anlaşılamayan **gizli ayıp** anlaşılınca **hemen** bildirilir. Bildirmeyen alıcı malı ayıpla birlikte **kabul etmiş sayılır**. Bu bir borç değil, **külfettir**.\n- **Ağır kusurlu ve meslekten satıcı (TBK m. 225):** Ağır kusurlu satıcı, ayıbın süresinde bildirilmediğini ileri sürerek kısmen de olsa kurtulamaz. Meslekten satıcılar için bilmeleri gereken ayıplarda da aynı hüküm geçerlidir.\n- **Başka yerden gönderilen mal (TBK m. 226):** Satıcının temsilcisi yoksa alıcı koruma önlemlerini almadan malı geri gönderemez; durumu gecikmeksizin tespit ettirmezse ispat yükü ona düşer; çabuk bozulan malı mahkeme aracılığıyla sattırabilir.\n- **Ticari satış (TTK m. 23/1-c):** Teslimde açıkça belli ayıp **iki gün**; açıkça belli olmayan ayıp için **sekiz gün** içinde inceleme ve ihbar; diğer (gizli) ayıplarda TBK m. 223/2 (\"hemen\").\n- **Tüketici satışı (TKHK m. 8-12):** Ayıbın bildirimi için süre öngörülmemiştir. Teslimden itibaren **altı ay** içinde çıkan ayıp teslimde vardı sayılır, ispat yükü satıcıdadır (TKHK m. 10/1). Onarım ve değişimden satıcı, üretici ve ithalatçı müteselsilen sorumludur (TKHK m. 11/2).\n- 📌 TBK m. 219-226 ve TTK m. 23/1-c metinlerinde son yıllarda değişiklik yoktur.",
+  "content_md": "## 1. Konunun yeri ve inceleme sırası\n\nSatış sözleşmesinde satıcı, satılanın zilyetliğini ve mülkiyetini alıcıya devretmeyi borçlanır (TBK m. 207/1). Devredilen mal sözleşmeye uygun çıkmazsa, genel hükümlere (örneğin gereği gibi ifa etmemeye ilişkin TBK m. 112) gitmeden önce kanunun satış için kurduğu özel düzene bakılır: **ayıptan sorumluluk** (TBK m. 219-231). Bu konu o düzenin ilk yarısıdır: sorumluluğun kuruluşu ve alıcının önündeki engeller. Alıcının dört seçimlik hakkı (TBK m. 227) ve zamanaşımı (TBK m. 231) sonraki konunun işidir.\n\nAyıp olayını şu sırayla çöz:\n1. **Ayıp var mı?** (TBK m. 219)\n2. **Sorumluluk sözleşmeyle kaldırılmış mı, bu anlaşma geçerli mi?** (TBK m. 221)\n3. **Alıcı ayıbı biliyor muydu, görebilir miydi?** (TBK m. 222)\n4. **Alıcı malı gözden geçirip zamanında bildirdi mi?** (TBK m. 223; ticari satışta TTK m. 23/1-c)\n5. **Satıcı ağır kusurlu mu, meslekten satıcı mı?** Öyleyse geç bildirim savunması işe yaramaz (TBK m. 225).\n6. **Mal başka yerden mi gönderildi?** Öyleyse alıcının ek yükümlülükleri vardır (TBK m. 226).\n\nHayvan satışının 2. ve 4. adımlarda kendine özgü kuralları vardır (TBK m. 220 ve TBK m. 224).\n\n## 2. Ayıp kavramı (TBK m. 219)\n\n**Ayıp**, malda sözleşmeye ve kanuna göre bulunması gereken niteliklerin bulunmaması ya da bulunmaması gereken bozuklukların bulunmasıdır. Malın hangi niteliklere sahip olması gerektiği üç basamakta belirlenir: önce tarafların açıkça anlaştığı özelliklere bakılır; anlaşma yoksa sözleşmenin yorumuyla zımni bir anlaşma aranır; o da yoksa dürüstlük kuralına göre malın taşıması gereken vasıflar esas alınır.\n\nTBK m. 219/1'e göre satıcı iki ayrı gerekçeyle sorumlu olur:\n- **Bildirdiği niteliklerin bulunmaması.** Satıcı niteliği \"herhangi bir surette\" bildirmiş olabilir: sözlü pazarlıkta, ilanda ya da belgede. Mal vaat edilen özelliği taşımıyorsa satıcı sorumludur.\n- **Maddi, hukuki veya ekonomik ayıp.** Bunların niteliğe ya da niteliği etkileyen niceliğe aykırı olması ve kullanım amacı bakımından malın değerini veya alıcının beklediği faydaları ortadan kaldırması ya da önemli ölçüde azaltması gerekir. Önemsiz kusurlar ayıp sayılmaz.\n\n| Ayıp türü | Anlamı | Örnek |\n|---|---|---|\n| Bildirilen niteliğin yokluğu | Satıcının vaat ettiği özelliğin bulunmaması | \"%100 ipek\" denen halının sentetik çıkması |\n| Maddi ayıp | Malın fiziksel yapısındaki ya da işleyişindeki bozukluk | Kumaşta yırtık, ekranda çatlak |\n| Hukuki ayıp | Malın kullanımını engelleyen hukuki durum | İmarlı arsa diye satılan taşınmazın yeşil alan çıkması |\n| Ekonomik ayıp | Malın ekonomik değerini ve verimini düşüren eksiklik | Makinenin olması gerekenin üç katı yakıt harcaması |\n\n> **Örnek:** Ayşe, ilanda \"kazasız, boyasız\" yazan ikinci el otomobili satın alır. Araç dört kez çarpmış ve ağır hasar kaydı almıştır. \"Kazasız\" niteliği bildirilmiş ama bulunmamaktadır; ayrıca ağır hasar malın değerini önemli ölçüde azaltan maddi bir ayıptır. Satıcının hasarı bilip bilmemesi sorumluluğun doğması bakımından önemsizdir.\n\n> 📌 **Kesin bilgi:** Satıcı bu ayıpların varlığını bilmese bile sorumludur (TBK m. 219/2). Ayıptan sorumluluk **kusursuz sorumluluktur**. Kusurun (ağır kusurun) bu konuda önem kazandığı yerler başkadır: sorumsuzluk anlaşmasının geçersizliği (TBK m. 221) ve geç bildirim savunmasının engellenmesi (TBK m. 225).\n\n> ⚠️ **Sınavda dikkat:** Üçüncü kişinin özel hukuka dayanan bir hakkı yüzünden satılan alıcının elinden alınıyorsa bu **zapttır** (TBK m. 214) ve ayrı bir sorumluluk düzenine tabidir. Hukuki ayıpta ise mal alıcının elinde kalır, ama hukuki durumu yüzünden amacına uygun kullanılamaz (imar planındaki yeşil alan kaydı gibi).\n\nNot: Eski Borçlar Kanunu'nun (818 sayılı) ayıp maddesinde \"ekonomik ayıp\" ve \"niteliği etkileyen niceliğe aykırılık\" ifadeleri yoktu; TBK bunları metne açıkça eklemiştir.\n\n## 3. Hayvan satışında iki özel kural (TBK m. 220 ve TBK m. 224)\n\nKanun hayvan satışında alıcıya daha dar bir koruma verir:\n- **Sorumluluk koşulu (TBK m. 220):** Satıcı, yazılı olarak üstlenmedikçe veya ağır kusuru olmadıkça ayıptan sorumlu olmaz. Genel kuralın tersine burada sorumluluk istisnaen doğar.\n- **Kısa süre (TBK m. 224):** Satıcının sorumlu olacağı süre yazılı belirlenmemişse ve ayıp hayvanın gebeliğiyle ilgili değilse, satıcı ancak şu iki şart birlikte gerçekleşirse sorumlu olur: ayıbın devrin yapıldığı (ya da alıcının devralmada temerrüde düştüğü) günden başlayarak **dokuz gün** içinde kendisine bildirilmesi **ve** aynı süre içinde hayvanın bilirkişilerce gözden geçirilmesinin yetkili makamdan istenmesi.\n\n> **Örnek:** Mehmet, 1 Mart'ta bir at satın alıp teslim alır. Satıcı atın sağlıklı olduğunu yazılı olarak üstlenmiştir (TBK m. 220), ama sorumluluk süresi yazılı belirlenmemiştir. At 15 Mart'ta hastalanır; Mehmet bunu satıcıya hemen bildirir. Bildirim dokuz günlük süreden sonra yapıldığı için satıcı sorumlu olmaz. Ayıp gebelikle ilgili olsaydı bu dokuz günlük kural uygulanmazdı.\n\n## 4. Sorumsuzluk anlaşması (TBK m. 221)\n\n**Sorumsuzluk anlaşması**, satıcının ayıptan sorumluluğunu kaldıran ya da sınırlayan anlaşmadır. Kural şudur: satıcı satılanı ayıplı olarak devretmekte **ağır kusurlu** ise bu tür **her anlaşma kesin olarak hükümsüzdür** (TBK m. 221). Kesin hükümsüz anlaşma baştan itibaren sonuç doğurmaz.\n\nEski Borçlar Kanunu'nda ölçüt satıcının ayıbı \"hile ile gizlemesi\" idi; TBK bunu \"ağır kusurlu\" olmaya çevirerek korumayı genişletmiştir. Yargıtay ağır kusuru **kasıt ve ağır ihmal** olarak anlar; satıcının ifa yardımcılarının ağır kusuru da yeterlidir.\n\n**Noter senedindeki \"görüp beğenerek aldım\" kaydı.** İkinci el araç satışında noter senetlerinde matbu bir cümle bulunur: \"alıcı bu aracı hâlihazır durumuyla görüp beğenerek teslim almıştır\". Yargıtay Hukuk Genel Kurulu'na göre bu kayıt alıcının gördüğü ve kabul ettiği, yani **açık ayıpları** kapsar; **gizli ayıp** bakımından satıcıyı kurtarmaz. Ayrıca satıcının sorumlu olması için ayrı bir garanti taahhüdü vermesi gerekmez.\n\n> **Örnek:** Ali, Veli'nin aracını noterde \"mevcut hâliyle görüp beğenerek\" satın alır. Araçtaki çizik ve ezikler (açık ayıp) bu kayıt nedeniyle Ali'nin dayanabileceği bir ayıp olmaktan çıkar. Ama aracın daha önce ağır hasar gördüğü sonradan anlaşılırsa ve Veli bunu biliyorsa, kayıt Ali'ye karşı ileri sürülemez; ağır kusurlu Veli yönünden TBK m. 221 gereği hükümsüzdür.\n\n> ⚠️ **Sınavda dikkat:** TBK m. 221 \"ağır kusur\" arar. Satıcı ağır kusurlu değilse bu madde sorumsuzluk anlaşmasını kesin hükümsüz kılmaz; anlaşmanın kapsamı yine yorumla belirlenir (matbu kayıt örneğindeki gibi). Hayvan satışında ise ağır kusur, satıcının sorumluluğunun doğma şartlarından biridir (TBK m. 220).\n\n## 5. Alıcının bildiği ve görebileceği ayıplar (TBK m. 222)\n\nİki ayrı durum vardır:\n- **Bilinen ayıp (TBK m. 222/1):** Satıcı, sözleşmenin kurulduğu sırada alıcı tarafından bilinen ayıplardan sorumlu değildir. Alıcı ayıbı bile bile mal almıştır.\n- **Görülebilecek ayıp (TBK m. 222/2):** Satıcı, alıcının satılanı yeterince gözden geçirmekle görebileceği ayıplardan da sorumlu değildir; **ancak** böyle bir ayıbın bulunmadığını ayrıca üstlenmişse sorumlu olur.\n\nFarkı şöyle düşün: ilkinde alıcı ayıbı fiilen biliyordur; ikincisinde bilmiyordur, ama dikkatle baksaydı görecekti. İkinci durumda satıcı, ancak \"bu üründe ayıp yoktur\" diye ayrıca söz vermişse görülebilecek ayıptan da sorumlu olur.\n\nAlıcının ayıbı bildiğini veya bilmesi gerektiğini **satıcı ispat eder**. Gizli ayıp bakımından alıcının ayıpları araştırma yükümlülüğü yoktur. Nitekim Yargıtay Hukuk Genel Kurulu, ikinci el araç alıcısının plakayı sorgulayıp sigorta ve trafik kayıtlarını incelemek zorunda olmadığını kabul etmiştir.\n\n> **Örnek:** Cem, ikinci el dizüstü bilgisayarın ekranında çatlak olduğunu satın alırken kendisi fark eder, bunu söyleyerek fiyattan indirim alır. Sonradan ekran çatlağına dayanarak satıcıdan bir şey isteyemez (TBK m. 222/1). Cem'in bilmediği bir anakart arızası çıkarsa durum farklıdır.\n\nTüketici satışında benzer bir kural vardır: tüketici sözleşme kurulduğunda ayıbı biliyorsa veya bilmesi kendisinden bekleniyorsa sözleşmeye aykırılık söz konusu olmaz (TKHK m. 10/2).\n\n## 6. Gözden geçirme ve bildirim külfeti (TBK m. 223)\n\nAlıcı devraldığı malı **işlerin olağan akışına göre imkân bulunur bulunmaz** gözden geçirmek ve satıcının sorumluluğunu gerektiren bir ayıp görürse bunu **uygun bir süre içinde** satıcıya bildirmek zorundadır (TBK m. 223/1). Olağan bir gözden geçirmeyle ortaya çıkarılamayan ayıp, yani **gizli ayıp** için TBK m. 223/2 daha sıkı bir kural koyar: ayıp sonradan anlaşılırsa **hemen** bildirilmelidir.\n\n| Ayıp | Alıcıdan beklenen | Ölçü |\n|---|---|---|\n| Açık ayıp (gözden geçirmede görülen) | İmkân bulunur bulunmaz inceleme, ayıp varsa bildirim | \"Uygun bir süre içinde\" (TBK m. 223/1) |\n| Gizli ayıp (olağan inceleme göstermez) | Ayıp anlaşılınca bildirim | \"Hemen\" (TBK m. 223/2) |\n| Hayvan satışı | Bildirim ve bilirkişi istemi | Süre yazılı belirlenmemişse dokuz gün (TBK m. 224) |\n\nYargıtay açık ve gizli ayıbı şöyle ayırır: **açık ayıp** ilk bakışta görülebilen ya da basit bir muayeneyle anlaşılan ayıptır; **gizli ayıp** ilk bakışta fark edilemeyen, ayrıntılı muayene veya kullanımla anlaşılan ayıptır. Bu ayrımda ölçü, **uzman bilirkişinin değil ortalama (vasat) bir alıcının** bilgisidir.\n\n**Sonuç: kabul sayılır.** Alıcı gözden geçirmeyi ve bildirimi ihmal ederse satılanı kabul etmiş sayılır (TBK m. 223/2). Gizli ayıpta da hemen bildirmezse mal \"bu ayıpla birlikte\" kabul edilmiş olur. Yani alıcı o ayıp bakımından kanunun verdiği hakları kullanamaz hâle gelir.\n\n**Külfet, borç değildir.** Alıcı gözden geçirmeyi ve bildirimi yapmazsa satıcı ona karşı dava açamaz, zorla yaptıramaz; yalnızca alıcı kendi hakkını yitirir. Bu nedenle bu yükümlülüğe hukukta **külfet** denir.\n\n**Şekil ve ispat.** Ayıp bildirimi için kanunda bir şekil aranmaz. Tacirler arasında geçerli TTK m. 18/3 yalnızca temerrüde düşürmeye, sözleşmeyi feshe ve sözleşmeden dönmeye ilişkin ihbar ve ihtarların noter, taahhütlü mektup, telgraf veya kayıtlı elektronik posta yoluyla yapılmasını ister; ayıp ihbarını saymaz. Yine de bildirimin süresinde yapıldığını **alıcı ispat eder**. Bu yüzden uygulamada yazılı ve kanıtlanabilir bir yol (ihtarname, kayıtlı e-posta, tespit) seçilir.\n\n> **Örnek:** Zeynep ve Burak tacir değildir. Zeynep, Burak'tan ikinci el bir halı alır. Teslimde halıda geniş bir leke görür, ama bunu bildirmeden halıyı kullanır. Lekeyi aylar sonra ileri sürerse \"uygun süre içinde bildirme\" külfetini yerine getirmediği için halıyı bu ayıpla kabul etmiş sayılır. Aynı halıda gizli bir güve hasarı kullanım sırasında anlaşılıp Zeynep onu hemen bildirirse, bu ayıp bakımından hakkını korur.\n\n> ⚠️ **Sınavda dikkat:** Eski Borçlar Kanunu açık ayıbın \"derhal\" bildirilmesini isterdi; TBK m. 223/1 \"uygun bir süre içinde\" der. Kanun adi satışta gün sayısı vermez; \"iki gün\" ve \"sekiz gün\" yalnız ticari satışa özgüdür (aşağıda).\n\n## 7. Ağır kusurlu ve meslekten satıcı (TBK m. 225)\n\nBildirim külfeti satıcıyı korumak içindir; ama bu korumadan yararlanmaması gereken satıcılar vardır:\n- **Ağır kusurlu satıcı (TBK m. 225/1):** Ayıbın kendisine süresinde bildirilmediğini ileri sürerek sorumluluktan **kısmen de olsa** kurtulamaz. Yargıtay'a göre hem \"hiç bildirilmedi\" hem \"geç bildirildi\" savunması dinlenmez.\n- **Meslekten satıcı (TBK m. 225/2):** Satıcılığı meslek edinmiş kişilerin **bilmesi gereken ayıplar** bakımından da aynı hüküm geçerlidir.\n\nYargıtay Hukuk Genel Kurulu TBK m. 225/1'in ticari satışlarda da uygulanacağını kabul etmiştir. Tekrar tekrar arızalanan, servis müdahalelerine rağmen düzelmeyen cihazları satan şirket ağır kusurlu sayılmış ve süre savunmaları sonuç vermemiştir (karar özetine bakınız).\n\n> **Örnek:** Y A.Ş., üretim hattında kusurlu çıktığını bildiği boruları X Ltd.'ye gönderir. X ayıbı çok geç bildirse bile Y A.Ş. \"süresinde bildirilmedi\" diyemez (TBK m. 225/1).\n\n> ⚠️ **Sınavda dikkat:** Meslekten satıcının, **açık** ayıplı malda ve ticari satışta bildirim sürelerini kaçırmış tacir alıcıya karşı TBK m. 225/2'ye dayanıp dayanamayacağı tartışmalıdır (doktrin bölümüne bakınız). Bunu kesin bir kural gibi yazma.\n\n## 8. Başka yerden gönderilen mal (TBK m. 226)\n\nMal başka bir yerden gönderilmişse alıcı çoğu zaman satıcıdan uzaktadır ve malı ayıplı olarak ellerinde bulur. Kanun üç yükümlülük koyar:\n1. **Koruma önlemleri (TBK m. 226/1):** Alıcının bulunduğu yerde satıcının temsilcisi yoksa alıcı, malın korunması için gerekli önlemleri geçici olarak almak zorundadır. Bu önlemleri almadan malı satıcıya **geri gönderemez**.\n2. **Tespit (TBK m. 226/2):** Alıcı malın durumunu **gecikmeksizin usulüne göre tespit ettirmelidir**. Bunu yaptırmazsa ileri sürdüğü ayıbın mal kendisine ulaştığı zamanda var olduğunu ispat yükü ona düşer.\n3. **Bozulan mal (TBK m. 226/3):** Mal kısa zamanda bozulma tehlikesi taşıyorsa alıcı malı bulunduğu yerdeki mahkeme aracılığıyla **sattırmaya yetkilidir**; satıcının yararı gerektiriyorsa sattırmakla **yükümlüdür**. Durumu satıcıya en kısa zamanda bildirmezse bundan doğan zarardan sorumlu olur.\n\n> **Örnek:** İzmir'deki bir üreticiden Erzurum'a kargo ile gelen çilek ezilmiş çıkmıştır. Üreticinin Erzurum'da temsilcisi yoktur. Alıcı önce durumu tespit ettirir, çabuk bozulma tehlikesi nedeniyle çileği mahkeme aracılığıyla sattırır ve satıcıya hemen haber verir. Böylece hem ispat yükünü kaybetmez hem de bildirmemekten doğacak zarardan sorumlu olmaz.\n\n## 9. Ticari satışta özel bildirim süreleri (TTK m. 23/1-c)\n\nTTK m. 23/1, kural olarak tacirler arasındaki satışlara da TBK'nın satış hükümlerinin uygulanacağını söyler; maddedeki özel hükümler saklıdır. Ayıp bildiriminde özel hüküm **TTK m. 23/1-c**'dir:\n\n| Durum | Alıcının yapacağı | Süre |\n|---|---|---|\n| Ayıp teslimde açıkça belli | Durumu satıcıya ihbar | İki gün içinde |\n| Ayıp açıkça belli değil | Malı incelemek ya da incelettirmek; ayıp çıkarsa ihbar | Teslimden sonra sekiz gün içinde |\n| Diğer durumlar (gizli ayıp) | TBK m. 223/2 uygulanır | Hemen |\n\nKanun \"diğer durumlarda\" TBK m. 223/2'ye gönderme yaptığı için ticari satışta gizli ayıp da anlaşılınca **hemen** bildirilmelidir. Süreyi kaçıran tacir alıcı, malı ayıpla kabul etmiş sayılır (TBK m. 223/2). Ayrıca her tacir ticaretine ait bütün faaliyetlerinde basiretli bir iş adamı gibi hareket etmek zorundadır (TTK m. 18/2).\n\n> **Örnek:** A Ltd. ve B A.Ş. tacirdir. A, B'den aldığı 50 koli malı 5 Mart'ta teslim alır. Üç kolideki mal teslimde açıkça ezik görünmektedir; ezilmenin hasar A'ya geçmeden önce oluştuğu, B'nin bunu bilmesinin beklenemeyeceği ve B'nin ağır kusuru olmadığı kabul edilsin. A bunu 12 Mart'ta bildirir. İki günlük süre geçmiştir; A bu kolilerdeki ayıpları kabul etmiş sayılır. Kolilerin içindeki bir makinenin motorunda ise ancak aylarca kullanımla ortaya çıkan, olağan bir incelemeyle anlaşılamayacak bir kusur varsa ve A bunu anladığı gün bildiriyorsa, \"sekiz gün geçti\" savunması bu gizli ayıp için işlemez. (Makine ilk çalıştırıldığında anlaşılabilecek bir arıza ise gizli değildir; sekiz gün içinde inceleme ve ihbar gerekir.)\n\n## 10. Tüketici satışı (TKHK m. 8-12)\n\nTüketici işlemlerinde 6502 sayılı Kanun öncelikle uygulanır; Kanun'da hüküm bulunmayan hâllerde genel hükümlere dönülür (TKHK m. 83/1). Ana noktalar:\n- **Ayıplı mal (TKHK m. 8/1-2):** Teslim anında örnek ya da modele uygun olmayan, objektif olarak sahip olması gereken özellikleri taşımayan mal ayıplıdır. Ambalaj, etiket, kılavuz, internet sayfası veya reklamda yer alan özelliklerden birini taşımayan, satıcının bildirdiği ya da teknik düzenlemede belirlenen niteliğe aykırı olan, benzer malların kullanım amacını karşılamayan veya tüketicinin makul olarak beklediği faydaları azaltan ya da ortadan kaldıran maddi, hukuki ya da ekonomik eksiklikler içeren mallar da ayıplı sayılır.\n- **Teslim süresi ve montaj (TKHK m. 8/3):** Malın kararlaştırılan sürede teslim edilmemesi veya montajının satıcı ya da onun sorumluluğu altında yapıldığı hâlde gereği gibi yapılmaması sözleşmeye aykırı ifadır. 📌 TKHK m. 77/1, bu yükümlülüğe aykırı davrananlara idari para cezası öngörür.\n- **İspat yükü (TKHK m. 10/1):** Teslimden itibaren **altı ay** içinde ortaya çıkan ayıpların teslim tarihinde var olduğu kabul edilir; malın ayıplı olmadığını **satıcı ispat eder**. Bu karine malın veya ayıbın niteliğiyle bağdaşmıyorsa uygulanmaz.\n- **Muhatap (TKHK m. 11/2):** Ücretsiz onarım ve ayıpsız misli ile değiştirme, üretici veya ithalatçıya karşı da istenebilir; bu hakların yerine getirilmesinde satıcı, üretici ve ithalatçı **müteselsilen** sorumludur. Dönme ve bedelden indirim ise satıcıya yöneltilir. Seçimlik hakların ayrıntısı sonraki konudur.\n- **Zamanaşımı (TKHK m. 12):** Kural olarak teslimden itibaren iki yıl; konut veya tatil amaçlı taşınmazlarda beş yıl; ikinci el satışta en az bir yıl, konut veya tatil amaçlı taşınmazlarda en az üç yıl. Ayıp ağır kusur ya da hileyle gizlenmişse zamanaşımı hükümleri uygulanmaz.\n\nTKHK m. 8-12'de adi ve ticari satıştaki gibi bir muayene ve ihbar süresi **öngörülmemiştir**. Eski tüketici kanununda (4077 sayılı) açık ayıp için otuz günlük bildirim süresi vardı; 6502 sayılı Kanun'da bu süre bulunmaz. Gizli ayıbın bildirimi bakımından ise genel hükümlerin (TBK m. 223/2) uygulanıp uygulanmayacağı tartışmalıdır (doktrin bölümüne bakınız).\n\n> ⚠️ **Sınavda dikkat:** \"İki gün\" ve \"sekiz gün\" süreleri yalnız **tacirler arasındaki** satışa özgüdür. Tüketici işleminde bunları uygulamak yanlıştır.\n\n## 11. Üç düzenin karşılaştırması\n\n| Satış | Açık ayıp bildirimi | Gizli ayıp bildirimi |\n|---|---|---|\n| Adi satış (TBK) | Uygun süre (TBK m. 223/1) | Hemen (TBK m. 223/2) |\n| Ticari satış (TTK) | İki gün; belli değilse sekiz gün (TTK m. 23/1-c) | Hemen (TBK m. 223/2'ye gönderme) |\n| Tüketici satışı (TKHK) | Süre öngörülmemiştir | Tartışmalı (genel hükümler) |\n\n| Satış | İspat | Muhatap |\n|---|---|---|\n| Adi ve ticari satış | Ayıbı ve süresinde bildirimi alıcı ispat eder | Satıcı |\n| Tüketici satışı | İlk altı ayda ayıpsızlığı satıcı ispat eder (TKHK m. 10/1) | Satıcı; onarım ve değişimde üretici ve ithalatçı da müteselsil (TKHK m. 11/2) |\n\n## 12. Kısa şema ve güncellik\n\nBir olayda şu soruları sırayla sor:\n1. Taraflar tüketici ve satıcı mı, tacirler mi, yoksa adi satış mı? Hayvan mı satılmış?\n2. Mal bildirilen nitelikleri taşıyor mu; maddi, hukuki ya da ekonomik ayıp var mı?\n3. Sorumsuzluk kaydı var mı? Satıcı ağır kusurlu mu?\n4. Alıcı ayıbı biliyor muydu ya da görebilecek miydi?\n5. Ayıp açık mı, gizli mi? Hangi süre içinde ve ne zaman bildirilmiş?\n6. Satıcı ağır kusurlu ya da meslekten satıcı mı; öyleyse geç bildirim savunması yok.\n7. Mal başka yerden gönderildiyse koruma, tespit ve sattırma yükümlülükleri yerine getirilmiş mi?\n\n📌 TBK m. 219-226 ve TTK m. 23/1-c metinlerinde son yıllarda bir değişiklik yapılmamıştır; TKHK m. 8-12 de değişmemiştir. Bağlantılı olarak Anayasa Mahkemesi, 12.2.2026 tarihli kararıyla, mesafeli sözleşmelerde bedeli tahsil eden aracı hizmet sağlayıcının sorumluluğuna ilişkin TKHK m. 48/6'daki bir bentte yer alan \"…ile 11 inci…\" ibaresini iptal etmiştir. İptal Resmî Gazete'de yayımlanmasından dokuz ay sonra, 2.3.2027'de yürürlüğe girecektir. Bu düzenleme TKHK m. 11'deki hakların kullanımı bakımından aracı hizmet sağlayıcının durumunu ilgilendirir; ayrıntısı bu konunun dışındadır.",
+  "critical_md": "- 📌 Satıcı ayıbı bilmese bile sorumludur (TBK m. 219/2): ayıptan sorumluluk kusursuz sorumluluktur.\n- ⚠️ Değerin ya da faydanın ortadan kalkması veya önemli ölçüde azalması ayıp için aranır; bildirilen niteliğin yokluğunda ise ayrıca \"önemli ölçüde azalma\" aranmaz (TBK m. 219/1).\n- 📌 TBK m. 219/1, eski Borçlar Kanunu'ndan farklı olarak \"ekonomik ayıp\" ve \"niteliği etkileyen niceliğe aykırılığı\" metne eklemiştir.\n- 📌 Hayvan satışında satıcı yazılı üstlenmedikçe veya ağır kusuru olmadıkça sorumlu olmaz (TBK m. 220).\n- 📌 Hayvan satışında süre yazılı belirlenmemiş ve ayıp gebelikle ilgili değilse dokuz gün içinde hem bildirim hem yetkili makamdan bilirkişi istemi gerekir (TBK m. 224).\n- 📌 Satıcı ayıplı devirde ağır kusurlu ise sorumsuzluk anlaşması kesin hükümsüzdür (TBK m. 221).\n- ⚠️ Noter senedindeki \"görüp beğenerek aldım\" kaydı yalnız açık ayıpları kapsar; gizli ayıpta satıcıyı kurtarmaz.\n- 📌 Satıcı sözleşme kurulurken alıcının bildiği ayıptan sorumlu değildir; yeterli gözden geçirmeyle görülebilecek ayıptan ise ancak ayrıca üstlenmişse sorumludur (TBK m. 222).\n- 📌 Açık ayıp \"uygun bir süre içinde\", gizli ayıp anlaşılınca \"hemen\" bildirilir (TBK m. 223). Eski Borçlar Kanunu açık ayıpta \"derhal\" derdi.\n- ⚠️ Gözden geçirme ve bildirim borç değil külfettir; yerine getirilmezse sonuç mal ayıpla birlikte kabul edilmiş sayılmasıdır (TBK m. 223/2).\n- 📌 Ağır kusurlu satıcı, ayıbın süresinde bildirilmediğini ileri sürerek kısmen de olsa kurtulamaz; meslekten satıcılar için bilmeleri gereken ayıplarda aynı hüküm geçerlidir (TBK m. 225).\n- 📌 Başka yerden gönderilen mal: koruma önlemleri alınmadan geri gönderilemez; gecikmeksizin tespit yaptırılmazsa ayıbın varlığını ispat yükü alıcıya düşer (TBK m. 226).\n- 📌 Ticari satışta teslimde açıkça belli ayıp iki gün, açıkça belli olmayan ayıp sekiz gün içinde ihbar edilir; diğer (gizli) ayıplarda TBK m. 223/2 uygulanır (TTK m. 23/1-c).\n- ⚠️ İki gün ve sekiz gün yalnız tacirler arasındaki satışa özgüdür; adi satışta kanun gün sayısı vermez, tüketici satışında (TKHK m. 8-12) bildirim süresi öngörülmemiştir.\n- 📌 Tüketici satışında teslimden itibaren altı ay içinde çıkan ayıp teslimde vardı sayılır, ispat yükü satıcıdadır (TKHK m. 10/1); onarım ve değişimden satıcı, üretici ve ithalatçı müteselsilen sorumludur (TKHK m. 11/2).",
+  "doctrine_md": "### Tüketici satışında gizli ayıp ve \"hemen\" bildirim\nTKHK m. 8-12'de ayıp bildirimi için süre yoktur. Bir görüşe göre 6502 sayılı Kanun, eski tüketici kanunundaki otuz günlük bildirim süresini bilinçli olarak kaldırmıştır; açık ayıpta bile süre aranmayan bir sistemde gizli ayıp için TBK m. 223/2'nin \"hemen\" bildirim kuralını uygulamak tüketiciyi korumaz. Karşı görüşe göre TKHK'da gizli ayıp bildirimine ilişkin özel hüküm bulunmadığından, \"Kanun'da hüküm bulunmayan hâllerde genel hükümler uygulanır\" diyen TKHK m. 83/1 gereği TBK m. 223/2 uygulanır ve gizli ayıp anlaşılınca hemen bildirilmelidir. Yargıtay'ın tüketici satışında gizli ayıpta \"hemen\" bildirim aradığı bir karar vardır; ancak o karar eski tüketici kanunu dönemindeki bir satışa ilişkindir. 6502 sayılı Kanun dönemi için nokta bu yüzden tartışmalı kabul edilmelidir; sınavda kesin kural gibi yazılmamalıdır.\n\n### Meslekten satıcı ve açık ayıp (TBK m. 225/2)\nBir görüşe göre tacir alıcı basiretli iş adamı gibi davranmakla yükümlüdür (TTK m. 18/2); bu yüzden ticari satışta açık ayıp bakımından meslekten satıcıya karşı TBK m. 225/2 uygulanmamalı, TTK m. 23/1-c süreleri kaçırıldıysa alıcı hakkını yitirmelidir. Karşı görüşe göre TBK m. 225 satıcının tacir olup olmadığını ya da ayıbın açık veya gizli olduğunu ayırmaz; bariz ayıplı mal gönderen meslekten satıcı ağır kusurludur ve süre savunması yapamaz. Yargıtay 11. Hukuk Dairesi bir kararında, açık ayıplı konfeksiyon ürünleri satan meslekten satıcıyı ağır kusurlu sayan istinaf kararını onamıştır. Tek bir karara dayanan bu yaklaşımı tartışmasız bir kural olarak yazmamak gerekir.\n\n### Ayıp hükümleri ile yanılma ve aldatma hükümlerinin yarışması\nBildirim süresini kaçıran alıcı, TBK m. 30 (esaslı yanılma) veya TBK m. 36 (aldatma) hükümlerine dayanarak sözleşmeyle bağlı olmadığını söyleyebilir mi? Bu durumda bildirim, yanılmayı veya aldatmayı öğrendiği andan başlayarak bir yıl içinde yapılmalıdır (TBK m. 39). Bir görüşe göre alıcı her iki yola da başvurabilir. Diğer görüşe göre aldatma hâlinde yarışma kabul edilmeli, ama salt yanılmada özel ayıp hükümlerinin dolanılmasına izin verilmemelidir. Uygulamada aldatma ve ağır kusur hâllerinde yarışmanın kabul edildiği söylenir.\n\n### Başka mal teslimi (aliud) ve eksik miktar\nKararlaştırılandan tamamen farklı bir mal verilmesi, bir görüşe göre ayıplı ifa değil ifa etmemedir (TBK m. 112); bu durumda bildirim külfeti ve ayıp hükümlerinin kısa zamanaşımı uygulanmaz. Diğer görüşe göre TBK m. 219/1'deki \"niteliğe veya niteliği etkileyen niceliğe aykırılık\" ifadesi ayıp kavramını genişletmiştir ve farklı nitelik de ayıptır. Yargıtay'ın genel eğilimi tamamen farklı mal teslimini ve miktar eksikliğini ifa etmeme veya eksik ifa saymaktır; ama sınır belirsiz olduğundan olayda hangi görüşle çözdüğünü yazmak gerekir.",
+  "glossary": [
+   {
+    "term": "Ayıp",
+    "definition": "Malda sözleşmeye ve kanuna göre bulunması gereken niteliklerin bulunmaması ya da bulunmaması gereken bozuklukların bulunması (TBK m. 219)."
+   },
+   {
+    "term": "Bildirilen nitelik",
+    "definition": "Satıcının herhangi bir surette (söz, ilan, belge) vaat ettiği ve malda bulunmayan özellik; bunun yokluğundan satıcı sorumludur (TBK m. 219/1)."
+   },
+   {
+    "term": "Maddi ayıp",
+    "definition": "Malın fiziksel yapısındaki ya da işleyişindeki bozukluk; örneğin kumaşta yırtık."
+   },
+   {
+    "term": "Hukuki ayıp",
+    "definition": "Malın hukuki durumundan doğan ve kullanımını engelleyen eksiklik; örneğin imarlı denen arsanın yeşil alan çıkması."
+   },
+   {
+    "term": "Ekonomik ayıp",
+    "definition": "Malın ekonomik değerini ve verimini düşüren eksiklik; örneğin makinenin üç kat yakıt harcaması."
+   },
+   {
+    "term": "Açık ayıp",
+    "definition": "İlk bakışta görülebilen ya da basit bir muayeneyle anlaşılan ayıp; uygun süre içinde bildirilir (TBK m. 223/1)."
+   },
+   {
+    "term": "Gizli ayıp",
+    "definition": "Olağan gözden geçirmeyle anlaşılamayan, ayrıntılı muayene ya da kullanımla ortaya çıkan ayıp; anlaşılınca hemen bildirilir (TBK m. 223/2)."
+   },
+   {
+    "term": "Sorumsuzluk anlaşması",
+    "definition": "Satıcının ayıptan sorumluluğunu kaldıran veya sınırlayan anlaşma; satıcı ağır kusurlu ise kesin hükümsüzdür (TBK m. 221)."
+   },
+   {
+    "term": "Külfet",
+    "definition": "Yerine getirilmemesi hâlinde karşı tarafa değil, yükümlünün kendisine zarar veren yükümlülük; gözden geçirme ve bildirim külfeti gibi."
+   },
+   {
+    "term": "İhbar (bildirim)",
+    "definition": "Alıcının ayıbı satıcıya bildirmesi; şekle bağlı değildir, ama süresinde yapıldığını alıcı ispat eder."
+   },
+   {
+    "term": "Ağır kusur",
+    "definition": "Kasıt ve ağır ihmali kapsayan kusur derecesi; ağır kusurlu satıcı geç bildirim savunması yapamaz (TBK m. 225/1)."
+   },
+   {
+    "term": "Meslekten satıcı",
+    "definition": "Satıcılığı meslek edinmiş kişi; bilmesi gereken ayıplarda, ağır kusurlu satıcı gibi, ayıbın süresinde bildirilmediğini ileri sürerek sorumluluktan kurtulamaz (TBK m. 225/2)."
+   },
+   {
+    "term": "Ortalama (vasat) alıcı",
+    "definition": "Açık ve gizli ayıp ayrımında ölçü alınan, uzman olmayan, ortalama bilgili alıcı."
+   },
+   {
+    "term": "Ticari satış",
+    "definition": "Tacirler arasındaki satış; TBK hükümleri uygulanır, ancak ayıp ihbar süreleri TTK m. 23/1-c ile özel olarak belirlenmiştir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "207",
+   "official_text": "MADDE 207- Satış sözleşmesi, satıcının, satılanın zilyetlik ve mülkiyetini alıcıya devretme, alıcının ise buna karşılık bir bedel ödeme borcunu üstlendiği sözleşmedir.\nSözleşme ile aksi kararlaştırılmadıkça veya aksine bir âdet bulunmadıkça, satıcı ve alıcı borçlarını aynı anda ifa etmekle yükümlüdürler.\nDurum ve koşullara göre belirlenmesi mümkün olan bedel, kararlaştırılmış bedel hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "219",
+   "official_text": "MADDE 219- Satıcı, alıcıya karşı herhangi bir surette bildirdiği niteliklerin satılanda bulunmaması sebebiyle sorumlu olduğu gibi, nitelik veya niteliği etkileyen niceliğine aykırı olan, kullanım amacı bakımından değerini ve alıcının ondan beklediği faydaları ortadan kaldıran veya önemli ölçüde azaltan maddi, hukuki ya da ekonomik ayıpların bulunmasından da sorumlu olur.\nSatıcı, bu ayıpların varlığını bilmese bile onlardan sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "220",
+   "official_text": "MADDE 220- Hayvan satışında satıcı, yazılı olarak üstlenmedikçe veya ağır kusuru olmadıkça ayıptan sorumlu olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "221",
+   "official_text": "MADDE 221- Satıcı satılanı ayıplı olarak devretmekte ağır kusurlu ise, ayıptan sorumluluğunu kaldıran veya sınırlayan her anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "222",
+   "official_text": "MADDE 222- Satıcı, satış sözleşmesinin kurulduğu sırada alıcı tarafından bilinen ayıplardan sorumlu değildir.\nSatıcı, alıcının satılanı yeterince gözden geçirmekle görebileceği ayıplardan da, ancak böyle bir ayıbın bulunmadığını ayrıca üstlenmişse sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "223",
+   "official_text": "MADDE 223- Alıcı, devraldığı satılanın durumunu işlerin olağan akışına göre imkân bulunur bulunmaz gözden geçirmek ve satılanda satıcının sorumluluğunu gerektiren bir ayıp görürse, bunu uygun bir süre içinde ona bildirmek zorundadır.\nAlıcı gözden geçirmeyi ve bildirimde bulunmayı ihmal ederse, satılanı kabul etmiş sayılır. Ancak, satılanda olağan bir gözden geçirmeyle ortaya çıkarılamayacak bir ayıp bulunması hâlinde, bu hüküm uygulanmaz. Bu tür bir ayıbın bulunduğu sonradan anlaşılırsa, hemen satıcıya bildirilmelidir; bildirilmezse satılan bu ayıpla birlikte kabul edilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "224",
+   "official_text": "MADDE 224- Hayvan satışında satıcının sorumlu olacağı süre yazılı olarak belirlenmemiş ve ayıp da hayvanın gebeliğine ilişkin değilse satıcı, ancak ayıbın devrin yapıldığı veya alıcının devralmada temerrüdünün gerçekleştiği günden başlayarak dokuz gün içinde kendisine bildirilmesi ve ayrıca, hayvanın bilirkişilerce gözden geçirilmesinin aynı süre içinde yetkili makamdan istenmesi hâlinde sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "225",
+   "official_text": "MADDE 225- Ağır kusurlu olan satıcı, satılandaki ayıbın kendisine süresinde bildirilmemiş olduğunu ileri sürerek sorumluluktan kısmen de olsa kurtulamaz.\nSatıcılığı meslek edinmiş kişilerin bilmesi gereken ayıplar bakımından da aynı hüküm geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "226",
+   "official_text": "MADDE 226- Başka yerden gönderilen satılanın ayıplı olduğunu ileri süren alıcı, bulunduğu yerde satıcının temsilcisi yoksa, satılanın korunması için gerekli önlemleri geçici olarak almakla yükümlüdür. Alıcı, ayıplı olduğunu ileri sürdüğü satılanın korunması için gerekli önlemleri almaksızın onu satıcıya geri gönderemez.\nAlıcı, satılanın durumunu gecikmeksizin usulüne göre tespit ettirmekle yükümlüdür. Bunu yaptırmazsa, ileri sürdüğü ayıbın, satılanın kendisine ulaştığı zamanda var olduğunu ispat yükü alıcıya düşer.\nSatılanın kısa zamanda bozulma tehlikesi varsa, alıcı onu bulunduğu yerdeki mahkeme aracılığıyla sattırmaya yetkili, hatta satıcının yararı gerektiriyorsa sattırmakla yükümlüdür. Alıcı, durumu satıcıya en kısa zamanda bildirmezse, bundan doğan zarardan sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "227",
+   "official_text": "MADDE 227- Satıcının satılanın ayıplarından sorumlu olduğu hâllerde alıcı, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme.\n2. Satılanı alıkoyup ayıp oranında satış bedelinde indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme.\n4. İmkân varsa, satılanın ayıpsız bir benzeri ile değiştirilmesini isteme.\nAlıcının genel hükümlere göre tazminat isteme hakkı saklıdır.\nSatıcı, alıcıya aynı malın ayıpsız bir benzerini hemen vererek ve uğradığı zararın tamamını gidererek seçimlik haklarını kullanmasını önleyebilir.\nAlıcının, sözleşmeden dönme hakkını kullanması hâlinde, durum bunu haklı göstermiyorsa hâkim, satılanın onarılmasına veya satış bedelinin indirilmesine karar verebilir.\nSatılanın değerindeki eksiklik satış bedeline çok yakın ise alıcı, ancak sözleşmeden dönme veya satılanın ayıpsız bir benzeriyle değiştirilmesini isteme haklarından birini kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "231",
+   "official_text": "MADDE 231- Satıcı daha uzun bir süre için üstlenmiş olmadıkça, satılanın ayıbından doğan sorumluluğa ilişkin her türlü dava, satılandaki ayıp daha sonra ortaya çıksa bile, satılanın alıcıya devrinden başlayarak iki yıl geçmekle zamanaşımına uğrar. Alıcının satılanın kendisine devrinden başlayarak iki yıl içinde bildirdiği ayıptan doğan def’i hakkı, bu sürenin geçmiş olmasıyla ortadan kalkmaz.\nSatıcı, satılanı ayıplı olarak devretmekte ağır kusurlu ise, iki yıllık zamanaşımı süresinden yararlanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "244",
+   "official_text": "MADDE 244- Aksine sözleşme olmadıkça, satılan taşınmaz, satış sözleşmesinde yazılı yüzölçümü tutarını kapsamıyorsa satıcı, eksiği için alıcıya tazminat ödemekle yükümlüdür.\nSatılan taşınmaz, resmî bir ölçüme dayanılarak tapu siciline yazılmış olan yüzölçümü tutarını içermiyorsa satıcı, özellikle üstlenmiş olmadıkça tazminat ile yükümlü değildir.\nBir yapının ayıplı olmasından doğan davalar, mülkiyetin geçmesinden başlayarak beş yılın ve satıcının ağır kusuru varsa yirmi yılın geçmesiyle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "246",
+   "official_text": "MADDE 246- Taşınır satışına ilişkin kurallar, kıyas yoluyla taşınmaz satışında da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "214",
+   "official_text": "MADDE 214- Satış sözleşmesinin kurulduğu sırada var olan bir hak dolayısıyla, satılanın tamamı veya bir kısmı bir üçüncü kişi tarafından alıcının elinden alınırsa satıcı, bundan dolayı alıcıya karşı sorumlu olur.\nAlıcı, elinden alınma tehlikesini sözleşmenin kurulduğu sırada biliyor idiyse satıcı, ayrıca üstlenmiş olmadıkça bundan dolayı sorumlu olmaz.\nSatıcı, üçüncü kişinin hakkını gizlemişse, sorumluluğunu kaldırma veya sınırlama konusunda yapılmış olan anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "30",
+   "official_text": "MADDE 30- Sözleşme kurulurken esaslı yanılmaya düşen taraf, sözleşme ile bağlı olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "36",
+   "official_text": "MADDE 36- Taraflardan biri, diğerinin aldatması sonucu bir sözleşme yapmışsa, yanılması esaslı olmasa bile, sözleşmeyle bağlı değildir.\nÜçüncü bir kişinin aldatması sonucu bir sözleşme yapan taraf, sözleşmenin yapıldığı sırada karşı tarafın aldatmayı bilmesi veya bilecek durumda olması hâlinde, sözleşmeyle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "39",
+   "official_text": "MADDE 39- Yanılma veya aldatma sebebiyle ya da korkutulma sonucunda sözleşme yapan taraf, yanılma veya aldatmayı öğrendiği ya da korkutmanın etkisinin ortadan kalktığı andan başlayarak bir yıl içinde sözleşme ile bağlı olmadığını bildirmez veya verdiği şeyi geri istemezse, sözleşmeyi onamış sayılır.\nAldatma veya korkutmadan dolayı bağlayıcılığı olmayan bir sözleşmenin onanmış sayılması, tazminat hakkını ortadan kaldırmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "18",
+   "official_text": "I - Genel olarak\nMADDE 18- (1) Tacir, her türlü borcu için iflasa tabidir; ayrıca kanuna uygun bir ticaret unvanı seçmek, ticari işletmesini ticaret siciline tescil ettirmek ve bu Kanun hükümleri uyarınca gerekli ticari defterleri tutmakla da yükümlüdür.\n(2) Her tacirin, ticaretine ait bütün faaliyetlerinde basiretli bir iş adamı gibi hareket etmesi gerekir.\n(3) Tacirler arasında, diğer tarafı temerrüde düşürmeye, sözleşmeyi feshe, sözleşmeden dönmeye ilişkin ihbarlar veya ihtarlar noter aracılığıyla, taahhütlü mektupla, telgrafla veya güvenli elektronik imza kullanılarak kayıtlı elektronik posta sistemi ile yapılır.\n(4) Tacir sıfatına bağlı olan diğer hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "23",
+   "official_text": "5. Ticari satış ve mal değişimi\nMADDE 23- (1) Bu maddedeki özel hükümler saklı kalmak şartıyla, tacirler arasındaki satış ve mal değişimlerinde de Türk Borçlar Kanununun satış sözleşmesi ile mal değişim sözleşmesine ilişkin hükümleri uygulanır.\na) Sözleşmenin niteliğine, tarafların amacına ve malın cinsine göre, satış sözleşmesinin kısım kısım yerine getirilmesi mümkün ise veya bu şartların bulunmamasına rağmen alıcı, çekince ileri sürmeksizin kısmi teslimi kabul etmişse; sözleşmenin bir kısmının yerine getirilmemesi durumunda alıcı haklarını sadece teslim edilmemiş olan kısım hakkında kullanabilir. Ancak, o kısmın teslim edilmemesi dolayısıyla sözleşmeden beklenen yararın elde edilmesi veya izlenen amaca ulaşılması imkânı ortadan kalkıyor veya zayıflıyorsa ya da durumdan ve şartlardan, sözleşmenin kalan kısmının tam veya gereği gibi yerine getirilemeyeceği anlaşılıyorsa alıcı sözleşmeyi feshedebilir.\nb) Alıcı mütemerrit olduğu takdirde satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme, satışın açık artırma yoluyla veya bu işle yetkilendirilen bir kişi aracılığıyla yapılmasına karar verir. Satıcı isterse satış için yetkilendirilen kişi, satışa çıkarılacak malın niteliklerini bir uzmana tespit ettirir. Satış giderleri satış bedelinden çıkarıldıktan sonra artan para, satıcının takas hakkı saklı kalmak şartıyla, satıcı tarafından alıcı adına bir bankaya ve banka bulunmadığı takdirde notere bırakılır ve durum hemen alıcıya ihbar edilir.\nc) Malın ayıplı olduğu teslim sırasında açıkça belli ise alıcı iki gün içinde durumu satıcıya ihbar etmelidir. Açıkça belli değilse alıcı malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve bu inceleme sonucunda malın ayıplı olduğu ortaya çıkarsa, haklarını korumak için durumu bu süre içinde satıcıya ihbarla yükümlüdür. Diğer durumlarda, Türk Borçlar Kanununun 223 üncü maddesinin ikinci fıkrası uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "8",
+   "official_text": "Ayıplı mal\nMADDE 8- (1) Ayıplı mal, tüketiciye teslimi anında, taraflarca kararlaştırılmış olan örnek ya da modele uygun olmaması ya da objektif olarak sahip olması gereken özellikleri taşımaması nedeniyle sözleşmeye aykırı olan maldır.\n(2) Ambalajında, etiketinde, tanıtma ve kullanma kılavuzunda, internet portalında ya da reklam ve ilanlarında yer alan özelliklerinden bir veya birden fazlasını taşımayan; satıcı tarafından bildirilen veya teknik düzenlemesinde tespit edilen niteliğe aykırı olan; muadili olan malların kullanım amacını karşılamayan, tüketicinin makul olarak beklediği faydaları azaltan veya ortadan kaldıran maddi, hukuki veya ekonomik eksiklikler içeren mallar da ayıplı olarak kabul edilir.\n(3) Sözleşmeye konu olan malın, sözleşmede kararlaştırılan süre içinde teslim edilmemesi veya montajının satıcı tarafından veya onun sorumluluğu altında gerçekleştirildiği durumlarda gereği gibi monte edilmemesi sözleşmeye aykırı ifa olarak değerlendirilir. Malın montajının tüketici tarafından yapılmasının öngörüldüğü hâllerde, montaj talimatındaki yanlışlık veya eksiklik nedeniyle montaj hatalı yapılmışsa, sözleşmeye aykırı ifa söz konusu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "9",
+   "official_text": "Ayıplı maldan sorumluluk\nMADDE 9- (1) Satıcı, malı satış sözleşmesine uygun olarak tüketiciye teslim etmekle yükümlüdür.\n(2) Satıcı, kendisinden kaynaklanmayan reklam yoluyla yapılan açıklamalardan haberdar olmadığını ve haberdar olmasının da kendisinden beklenemeyeceğini veya yapılan açıklamanın içeriğinin satış sözleşmesinin akdi anında düzeltilmiş olduğunu veya satış sözleşmesi kurulma kararının bu açıklama ile nedensellik bağı içinde olmadığını ispatladığı takdirde açıklamanın içeriği ile bağlı olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "10",
+   "official_text": "İspat yükü\nMADDE 10- (1) Teslim tarihinden itibaren altı ay içinde ortaya çıkan ayıpların, teslim tarihinde var olduğu kabul edilir. Bu durumda malın ayıplı olmadığının ispatı satıcıya aittir. Bu karine, malın veya ayıbın niteliği ile bağdaşmıyor ise uygulanmaz.\n(2) Tüketicinin, sözleşmenin kurulduğu tarihte ayıptan haberdar olduğu veya haberdar olmasının kendisinden beklendiği hâllerde, sözleşmeye aykırılık söz konusu olmaz. Bunların dışındaki ayıplara karşı tüketicinin seçimlik hakları saklıdır.\n(3) Satışa sunulacak ayıplı mal üzerine ya da ambalajına, üretici, ithalatçı veya satıcı tarafından tüketicinin kolaylıkla okuyabileceği şekilde malın ayıbına ilişkin açıklayıcı bilgiyi içeren bir etiket konulur. Bu etiketin tüketiciye verilmesi veya ayıba ilişkin açıklayıcı bilginin tüketiciye verilen fatura, fiş veya satış belgesi üzerinde açıkça gösterilmesi zorunludur. Teknik düzenlemesine uygun olmayan ürünler ise hiçbir şekilde piyasaya arz edilemez. Bu ürünlere, Ürünlere İlişkin Teknik Mevzuatın Hazırlanması ve Uygulanmasına Dair Kanun ve ilgili diğer mevzuat hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "11",
+   "official_text": "Tüketicinin seçimlik hakları\nMADDE 11- (1) Malın ayıplı olduğunun anlaşılması durumunda tüketici;\na) Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme,\nb) Satılanı alıkoyup ayıp oranında satış bedelinden indirim isteme,\nc) Aşırı bir masraf gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme,\nç) İmkân varsa, satılanın ayıpsız bir misli ile değiştirilmesini isteme,\nseçimlik haklarından birini kullanabilir. Satıcı, tüketicinin tercih ettiği bu talebi yerine getirmekle yükümlüdür.\n(2) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi hakları üretici veya ithalatçıya karşı da kullanılabilir. Bu fıkradaki hakların yerine getirilmesi konusunda satıcı, üretici ve ithalatçı müteselsilen sorumludur. Üretici veya ithalatçı, malın kendisi tarafından piyasaya sürülmesinden sonra ayıbın doğduğunu ispat ettiği takdirde sorumlu tutulmaz.\n(3) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesinin satıcı için orantısız güçlükleri beraberinde getirecek olması hâlinde tüketici, sözleşmeden dönme veya ayıp oranında bedelden indirim haklarından birini kullanabilir. Orantısızlığın tayininde malın ayıpsız değeri, ayıbın önemi ve diğer seçimlik haklara başvurmanın tüketici açısından sorun teşkil edip etmeyeceği gibi hususlar dikkate alınır.\n(4) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi haklarından birinin seçilmesi durumunda bu talebin satıcıya, üreticiye veya ithalatçıya yöneltilmesinden itibaren azami otuz iş günü, konut ve tatil amaçlı taşınmazlarda ise altmış iş günü içinde yerine getirilmesi zorunludur. Ancak, bu Kanunun 58 inci maddesi uyarınca çıkarılan yönetmelik eki listede yer alan mallara ilişkin, tüketicinin ücretsiz onarım talebi, yönetmelikte belirlenen azami tamir süresi içinde yerine getirilir. Aksi hâlde tüketici diğer seçimlik haklarını kullanmakta serbesttir.\n(5) Tüketicinin sözleşmeden dönme veya ayıp oranında bedelden indirim hakkını seçtiği durumlarda, ödemiş olduğu bedelin tümü veya bedelden yapılan indirim tutarı derhâl tüketiciye iade edilir.\n(6) Seçimlik hakların kullanılması nedeniyle ortaya çıkan tüm masraflar, tüketicinin seçtiği hakkı yerine getiren tarafça karşılanır. Tüketici bu seçimlik haklarından biri ile birlikte 11/1/2011 tarihli ve 6098 sayılı Türk Borçlar Kanunu hükümleri uyarınca tazminat da talep edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "12",
+   "official_text": "Zamanaşımı\nMADDE 12- (1) Kanunlarda veya taraflar arasındaki sözleşmede daha uzun bir süre belirlenmediği takdirde, ayıplı maldan sorumluluk, ayıp daha sonra ortaya çıkmış olsa bile, malın tüketiciye teslim tarihinden itibaren iki yıllık zamanaşımına tabidir. Bu süre konut veya tatil amaçlı taşınmaz mallarda taşınmazın teslim tarihinden itibaren beş yıldır.\n(2) Bu Kanunun 10 uncu maddesinin üçüncü fıkrası saklı olmak üzere ikinci el satışlarda satıcının ayıplı maldan sorumluluğu bir yıldan, konut veya tatil amaçlı taşınmaz mallarda ise üç yıldan az olamaz.\n(3) Ayıp, ağır kusur ya da hile ile gizlenmişse zamanaşımı hükümleri uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "48",
+   "official_text": "Mesafeli sözleşmeler\nMADDE 48- (1) Mesafeli sözleşme, satıcı veya sağlayıcı ile tüketicinin eş zamanlı fiziksel varlığı olmaksızın, mal veya hizmetlerin uzaktan pazarlanmasına yönelik olarak oluşturulmuş bir sistem çerçevesinde, taraflar arasında sözleşmenin kurulduğu ana kadar ve kurulduğu an da dâhil olmak üzere uzaktan iletişim araçlarının kullanılması suretiyle kurulan sözleşmelerdir.\n(2) Tüketici, mesafeli sözleşmeyi ya da buna karşılık gelen herhangi bir teklifi kabul etmeden önce ayrıntıları yönetmelikte belirlenen hususlarda ve siparişi onaylandığı takdirde ödeme yükümlülüğü altına gireceği konusunda açık ve anlaşılır şekilde satıcı veya sağlayıcı tarafından bilgilendirilir. Tüketicinin bilgilendirildiğine ilişkin ispat yükü satıcı veya sağlayıcıya aittir.\n(3) Satıcı veya sağlayıcı, tüketicinin siparişinin kendisine ulaştığı andan itibaren taahhüt edilen süre içinde edimini yerine getirir. (Değişik cümle:24/3/2022-7392/7 md.) Tüketicinin isteği veya kişisel ihtiyaçları doğrultusunda hazırlanan mallara ilişkin sözleşmeler haricinde mal satışlarında bu süre her hâlükârda otuz günü geçemez. Satıcı veya sağlayıcının bu süre içinde edimini yerine getirmemesi durumunda tüketici sözleşmeyi feshedebilir.\n(4) Tüketici, on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir. Cayma hakkının kullanıldığına dair bildirimin bu süre içinde satıcı veya sağlayıcıya yöneltilmiş olması yeterlidir. Satıcı veya sağlayıcı, cayma hakkı konusunda tüketicinin bilgilendirildiğini ispat etmekle yükümlüdür. Tüketici, cayma hakkı konusunda gerektiği şekilde bilgilendirilmezse, cayma hakkını kullanmak için on dört günlük süreyle bağlı değildir. Her hâlükârda bu süre cayma süresinin bittiği tarihten itibaren bir yıl sonra sona erer. Tüketici, cayma hakkı süresi içinde malın mutat kullanımı sebebiyle meydana gelen değişiklik ve bozulmalardan sorumlu değildir.\n(5) (Değişik:24/3/2022-7392/7 md.) Oluşturdukları sistem ile satıcı veya sağlayıcı adına mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcılar, sistem aracılığıyla kurulan mesafeli sözleşmelerden doğan hak ve yükümlülüklerin kullanım süresi boyunca tüketicilerin yönetmelikle belirlenen hususlara ilişkin talep ve bildirimlerini iletebilmelerine ve takip edebilmelerine elverişli bir sistemi kurmak ve kesintisiz olarak açık tutmakla yükümlüdür.\n(6) (Ek:24/3/2022-7392/7 md.) Aracı hizmet sağlayıcısı olarak faaliyet gösterenler aracılık ettikleri mesafeli sözleşmelere ilişkin olarak;[13]\na) Tüketiciye ön bilgilendirmenin yapılmasından, teyidinden ve ispatından satıcı veya sağlayıcı ile birlikte müteselsilen,\nb) Veri girişinin satıcı veya sağlayıcı tarafından yapıldığı durumlar hariç olmak üzere, yönetmelikle belirlenen ön bilgilendirmede bulunması zorunlu hususlardaki eksikliklerden,\nc) Bu maddede yer alan hususlardan dolayı tüketicilerin satıcı veya sağlayıcılar ile yaptıkları işlemlere ilişkin kayıtların tutulmasından ve istenilmesi hâlinde bu bilgilerin ilgili kamu kurum ve kuruluşları ile tüketicilere verilmesinden,\nç) Satıcı veya sağlayıcı ile yaptıkları aracılık hizmetine ilişkin sözleşmeye aykırı uygulamaları nedeniyle satıcı ve sağlayıcıların bu madde hükümlerine aykırı davranmasına sebep oldukları her bir işlemden,\nd) Satıcı veya sağlayıcı adına bedel tahsil etmesi hâlinde, mal veya hizmetin tüketiciye teslim veya ifası sonrası bedelin satıcıya veya sağlayıcıya aktarıldığı durumlar ile 11 inci ve 15 inci maddelerde yer alan hakların kullanımı hariç olmak üzere teslim veya ifa ile cayma hakkına ilişkin yükümlülüklerden satıcı veya sağlayıcı ile birlikte müteselsilen,[14]\ne) Satıcı veya sağlayıcı onayı olmaksızın düzenledikleri kampanyalı, promosyonlu veya indirimli satışlarda, sözleşmenin hiç ya da gereği gibi ifa edilmemesinden,\nf) Ön bilgilendirmede yer alan hususlar ile reklamlarında yer alan bilgilerin uyumlu olmasından ve ispatından,\nsorumludur.\n(7) Mesafeli sözleşmelerde, kapsam dışı sözleşmeler, tüketici, satıcı ve sağlayıcı ile mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcının hak ve yükümlülükleri, cayma hakkı, bilgilendirme yükümlülüğü, teslimat ile diğer uygulama usul ve esasları yönetmelikle belirlenir.13\n[13] 24/3/2022 tarihli ve 7392 sayılı Kanunun 7 nci maddesiyle bu maddeye beşinci fıkradan sonra gelmek üzere fıkra eklenmiş, mevcut altıncı fıkra yedinci fıkra olarak teselsül ettirilmiş, mevcut altıncı fıkrada yer alan “tüketici ile satıcı ve sağlayıcının” ibaresi “tüketici, satıcı ve sağlayıcı ile mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcının” şeklinde değiştirilmiştir.\n[14] Anayasa Mahkemesinin 12/2/2026 tarihli ve E.: 2024/187, K.: 2026/42 sayılı Kararı ile bu bentte yer alan “…ile 11 inci…” ibaresi iptal edilmiştir. Kararın Resmî Gazete’de yayımlanmasından başlayarak dokuz ay sonra (2/3/2027) yürürlüğe gireceği hüküm altına alınmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "77",
+   "official_text": "MADDE 77- (1) (Değişik:23/5/2024-7511/19 md.) Bu Kanunun;\na) 4 üncü, 7 nci, 18 inci, 19 uncu, 20 nci, 21 inci, 26 ncı, 30 uncu, 35 inci, 49 uncu, 51 inci, 52 nci, 54 üncü, 57 nci maddeleri ve 48 inci maddesinin ikinci, üçüncü, dördüncü, altıncı ve yedinci fıkralarında belirtilen yükümlülüklere aykırı hareket edenler ile 8 inci maddesinin üçüncü fıkrası uyarınca malları süresinde teslim veya monte etmeyenler hakkında aykırılığı tespit edilen her bir işlem veya sözleşme için iki bin iki yüz Türk Lirası,\nb) 6 ncı maddesine aykırı olarak bir mal veya hizmetin satışından kaçınanlar hakkında aykırılığı tespit edilen her bir işlem veya sözleşme için iki bin iki yüz Türk Lirasından az olmamak üzere satışından kaçınılan mal veya hizmetin tüm vergiler dahil toplam satış fiyatının yüzde onu kadar,\nidari para cezası uygulanır.\n(2) Bu Kanunun 5 inci maddesi uyarınca belirlenen haksız şartların tüketici sözleşmelerinde kullanılması durumunda, Bakanlıkça verilecek süre içinde bu haksız şartın sözleşme metninden çıkarılmaması hâlinde, aykırılığın tespit edildiği her bir sözleşme için iki yüz Türk Lirası idari para cezası uygulanır.\n(3) Bu Kanunun 23 üncü, 24 üncü, 25 inci, 27 nci, 28 inci, 29 uncu, 33 üncü, 34 üncü, 36 ncı, 37 nci, 38 inci, 39 uncu, 41 inci, 43 üncü, 45 inci, 46 ncı maddeleri ile 31 inci maddesinin birinci, ikinci ve dördüncü, 40 ıncı maddesinin ikinci, 47 nci maddesinin üçüncü, dördüncü, beşinci, yedinci fıkralarında belirtilen yükümlülüklere aykırı hareket edenler hakkında aykırılığı tespit edilen her bir işlem veya sözleşme için bin Türk Lirası idari para cezası uygulanır.\n(4) (Değişik:24/3/2022-7392/15 md.) Bu Kanunun;\na) 50 nci maddesinin dördüncü, beşinci, altıncı, yedinci, dokuzuncu, onuncu ve on birinci fıkralarında belirtilen yükümlülüklerin her birine aykırı hareket eden satıcı veya sağlayıcılar hakkında, aykırılığın tespit edildiği tarih itibarıyla bir takvim yılında proje başına beş milyon Türk Lirasını geçmemek üzere aykırılığı tespit edilen her bir işlem veya sözleşme için üç bin beş yüz Türk Lirası idari para cezası uygulanır.\nb) 50 nci maddesinin;\n1) İkinci fıkrasına aykırı olacak şekilde tüketicilerle mülkiyet payına bağlı ayni hak sağlayan devre tatil sözleşmesi kuran, kurulmasına aracılık edenler ile kooperatif veya ticaret şirketi ortaklığı ya da dernek veya vakıf üyeliği suretiyle devre tatil hakkı tanıyanlar ile bu işleme aracılık edenler, devre tatile konu mal üzerinde ayni hak sahibi olmadığı hâlde devre tatil satışı yapanlar,\n2) Sekizinci fıkrasına aykırı olacak şekilde tüketicilerle ön ödemeli devre tatil sözleşmesi kuran veya kurulmasına aracılık edenler,\nhakkında üç yıldan altı yıla kadar hapis cezası uygulanır. Bu bentte yer alan suçların bir tüzel kişinin faaliyeti çerçevesinde işlenmesi hâlinde ayrıca bunlara özgü güvenlik tedbirlerine hükmolunur.\n(5) Bu Kanunun 40 ıncı maddesinin üçüncü fıkrası ile 47 nci maddesinin ikinci fıkrasında belirtilen yükümlülüklere aykırı hareket edenler hakkında yüz bin Türk Lirası; 44 üncü maddesinde belirtilen yükümlülüklere aykırı hareket edenler hakkında teslim edilmeyen her konut için yetmiş bin Türk Lirası idari para cezası uygulanır.\n(6) Bu Kanunun 55 inci ve 56 ncı maddelerinde belirtilen yükümlülüklere aykırı hareket eden üretici ve ithalatçı hakkında piyasaya arz edilen; satıcı hakkında tüketiciye satışı yapılan her bir mal için iki yüz Türk Lirası idari para cezası uygulanır.\n(7) Bu Kanunun 60 ıncı maddesinde belirtilen hususlara aykırı olarak ödül verenler hakkında yüz bin Türk Lirası idari para cezası uygulanır.\n(8) Bu Kanunun 31 inci maddesinin üçüncü fıkrasında ve 42 nci maddesinde belirtilen yükümlülüklere aykırı hareket edenlere bu aykırılığın giderilmesi için bir ay süre verilir. Bu süre sonunda aykırılığın giderilmemesi hâlinde 31 inci maddenin üçüncü fıkrasına aykırı hareket eden kart çıkaran kuruluşlara beş milyon Türk Lirası, 42 nci maddeye aykırı hareket edenler hakkında beş yüz bin Türk Lirası idari para cezası uygulanır.\n(9) Bu Kanunun 53 üncü maddesinde belirtilen yükümlülüklere aykırı hareket eden süreli yayın kuruluşları hakkında beş bin Türk Lirası; aykırılık ülke genelinde dağıtımı yapılan süreli yayın ile gerçekleştirilmiş ise yüz bin Türk Lirası idari para cezası uygulanır. Süreli yayın kuruluşu, kampanyayı ve kampanyaya ilişkin her türlü reklam ve ilanı da durdurur. Aykırılığın devamı hâlinde, reklam ve ilanın durdurma zorunluluğunun doğduğu tarihten itibaren her sayı/gün için on bin Türk Lirası idari para cezası uygulanır.\n(10) (Değişik:24/3/2022-7392/15 md.) Bu Kanunun;\na) 57/A maddesine aykırı hareket edenler hakkında, yenileme yetki belgesi gerektiren mallarla ilgili olarak belgesi olmaksızın yenileme faaliyetinde bulunulması hâlinde beş yüz bin Türk Lirası; yenilenmiş ürün satışında tespit edilen aykırılık ve eksikliklerle ilgili olarak her bir işlem için beş yüz Türk Lirası idari para cezası uygulanır.\nb) (Değişik:23/5/2024-7511/19 md.) 58 inci maddesinin,\n1) İkinci fıkrasına aykırı hareket eden üretici ve ithalatçılar hakkında; satış sonrası hizmet yeterlilik belgesi alınmaması durumunda bir milyon yüz on beş bin Türk Lirası, Bakanlıkça oluşturulan sisteme kayıt yapılmaması veya kaydın güncellenmemesi durumunda her bir servis istasyonu için on sekiz bin Türk Lirası,\n2) Beşinci fıkrasına aykırı olarak her türlü mecra ve faaliyetlerinde kolaylıkla görülebilir ve okunabilir şekilde “özel servis” ibaresini kullanmayan özel servis istasyonları hakkında on sekiz bin Türk Lirası,\n3) Sekizinci fıkrasına aykırı olarak satış sonrası hizmet yeterlilik belgesinin geçerlilik süresi boyunca asgari servis istasyonu sayısını sağlamayan üretici ve ithalatçılar hakkında eksik kalan her bir servis istasyonu için yüz yirmi dört bin Türk Lirası,\nidari para cezası uygulanır.\nc) (Değişik:23/5/2024-7511/19 md.) 58 inci maddesinde yer alan ve bu fıkranın (b) bendinde yaptırıma konu edilenler dışındaki yükümlülüklere aykırı hareket eden üretici, ithalatçı veya özel servis istasyonları hakkında aykırılığı tespit edilen her bir işlem için iki bin iki yüz Türk Lirası idari para cezası uygulanır.\n(11) Bu Kanunun 59 uncu maddesinin ikinci fıkrasında belirtilen yükümlülüklere aykırı hareket eden radyo ve televizyonlar hakkında on bin Türk Lirası idari para cezası uygulanır.\n(12) Bu Kanunun 61 inci maddesinde belirtilen yükümlülüklere aykırı hareket eden reklam verenler, reklam ajansları ve mecra kuruluşları hakkında durdurma veya aynı yöntemle düzeltme veya idari para cezası ve gerekli görülen hâllerde de üç aya kadar tedbiren durdurma cezası uygulanır. Reklam Kurulu, ihlalin niteliğine göre bu fıkradaki yaptırım kararlarını birlikte veya ayrı ayrı verebilir. (Değişik üçüncü cümle:24/10/2024-7529/7 md.) Aykırılık; [28]\na) Yerel düzeyde yayın yapan televizyon kanalı aracılığı ile gerçekleşmiş ise yüz on bin Türk Lirasından bir milyon yüz bin Türk Lirasına kadar,\nb) Ülke genelinde yayın yapan televizyon kanalı aracılığı ile gerçekleşmiş ise iki milyon iki yüz on bin Türk Lirasından yirmi iki milyon yüz bin Türk Lirasına kadar,\nc) Süreli yayınlar aracılığıyla gerçekleşmiş ise (a) ve (b) bentlerinde belirtilen cezaların yarısı,\nç) Yerel düzeyde veya uydu üzerinden yayın yapan radyo kanalı aracılığı ile gerçekleşmiş ise altmış bin Türk Lirasından altı yüz bin Türk Lirasına kadar,\nd) Ülke genelinde yayın yapan radyo kanalı aracılığı ile gerçekleşmiş ise altı yüz bin Türk Lirasından altı milyon Türk Lirasına kadar,\ne) Uydu üzerinden yayın yapan televizyon kanalı veya internet aracılığı ile gerçekleşmiş ise altı yüz bin Türk Lirasından altı milyon Türk Lirasına kadar,\nf) Kısa mesaj aracılığı ile gerçekleşmiş ise iki yüz seksen bin Türk Lirasından iki milyon sekiz yüz bin Türk Lirasına kadar,\ng) Diğer mecralar aracılığı ile gerçekleşmiş ise altmış bin Türk Lirasından altı yüz bin Türk Lirasına kadar,\nidari para cezası verilir. (Değişik dördüncü cümle:24/10/2024-7529/7 md.) Reklam Kurulu, bu fıkrada alt ve üst sınırları belirtilen idari para cezalarını uygularken aykırılığın haksızlık içeriği, aykırılık dolayısıyla elde edilen menfaatin veya neden olunan zararın büyüklüğü ile aykırılığı gerçekleştirenin kusuru ve ekonomik durumu gibi hususları dikkate alır. (Ek cümleler:24/3/2022-7392/15 md.) (Değişik cümleler:23/5/2024-7511/19 md.) Aykırılığın internet ortamı üzerinden gerçekleşmesi hâlinde Reklam Kurulu; içeriğin çıkarılması için ilgili internet sayfasındaki iletişim araçları, alan adı, IP adresi ve benzeri kaynaklarla elde edilen bilgiler üzerinden, elektronik olarak iletişim kurulabilecek araçlar ile bildirimde bulunulmasına, bu bildirime rağmen yirmi dört saat içinde içeriğin çıkarılmaması hâlinde erişimin engellenmesine karar verebilir. Muhataba bildirimde bulunulamaması hâli ile sınırlı olmak üzere doğrudan erişimin engellenmesine karar verilebilir. Erişimin engellenmesi kararı uygulanmak üzere Erişim Sağlayıcıları Birliğine gönderilir. Erişimin engellenmesi kararı esas olarak aykırılığın gerçekleştiği içerikle sınırlı olarak verilir. Ancak, teknik olarak aykırılığa ilişkin içeriğe erişimin engellenmesi yapılamadığı veya ilgili içeriğe erişimin engellenmesi yoluyla aykırılığın önlenemediği durumlarda, internet sitesinin tümüne yönelik olarak erişimin engellenmesi kararı verilebilir.\n(13) Bu Kanunun 62 nci maddesinde belirtilen yükümlülüklere aykırı hareket edenler hakkında haksız ticari uygulamanın üç aya kadar tedbiren durdurulması veya durdurulması yaptırımı veya altmış bin Türk Lirasından altı yüz bin Türk Lirasına kadar idari para cezası uygulanır. Kurul, ihlalin niteliğine göre bu cezaları birlikte veya ayrı ayrı verebilir. İdari para cezası, aykırılık ülke genelinde gerçekleşmiş ise altı yüz bin Türk Lirasından altı milyon Türk Lirasına kadar uygulanır. (Ek cümle:24/10/2024-7529/7 md.) Reklam Kurulu, bu fıkrada alt ve üst sınırları belirtilen idari para cezalarını uygularken aykırılığın haksızlık içeriği, aykırılık dolayısıyla elde edilen menfaatin veya neden olunan zararın büyüklüğü ile aykırılığı gerçekleştirenin kusuru ve ekonomik durumu gibi hususları dikkate alır. Aykırılığın reklam yoluyla gerçekleştirildiğinin tespiti hâlinde bu maddenin on ikinci fıkra hükümleri uygulanır.[29]\n(14) Bu Kanunun 48 inci maddesinin beşinci fıkrasında belirtilen yükümlülüklere aykırı hareket edenler hakkında bir milyon Türk Lirası, 74 üncü maddesinde belirtilen yükümlülüklere aykırı hareket eden üretici veya ithalatçılar hakkında yüz bin Türk Lirası; 79 uncu maddesinin birinci fıkrasında belirtilen yükümlülüklere aykırı hareket edenler hakkında beş bin Türk Lirası idari para cezası uygulanır.\n(15) Bu Kanunun 75 inci maddesinin ikinci fıkrasında belirtilen yükümlülüklere aykırı hareket edenlere yedi gün içinde bilgi ve belgelerin doğru olarak verilmesi veya yerinde inceleme imkânının sağlanması ihtar edilir. İhtara rağmen aykırılığın devamı hâlinde seksen bin Türk Lirasından az olmamak üzere aykırılığın gerçekleştiği tarihten bir önceki mali yıl sonunda oluşan yıllık gayrisafi gelirlerinin yüzde biri oranında idari para cezası verilir. (Ek cümleler:24/3/2022-7392/15 md.) Bir önceki mali yıl gayrisafi gelirinin oluşmaması hâlinde, oluşan en son tarihli gayrisafi geliri dikkate alınır. Gayrisafi gelirin bildirilmediği veya yanlış bildirildiği durumlarda ön ödemeli konut satışlarında altı milyon Türk Lirası, diğer satışlarda bir milyon Türk Lirası idari para cezası uygulanır. (Ek cümle:24/10/2024-7529/7 md.) Gayrisafi gelirini beyan etme yükümlülüğü bulunmayanlar hakkında elli bin Türk Lirası idari para cezası uygulanır. Devre tatil satışlarında ise ihtara rağmen aykırılığın devamı hâlinde üç milyon Türk Lirası idari para cezası uygulanır. (Mülga cümle:24/10/2024-7529/7 md.)[30]\n(16) Bu Kanunun 76 ncı maddesinin üçüncü fıkrasında belirtilen yükümlülüklere aykırı hizmet sağlayan sağlayıcılar hakkında her bir işlem için iki yüz Türk Lirası idari para cezası uygulanır.\n(17) (Değişik:24/10/2024-7529/7 md.) Bu Kanunun;\na) 47/A maddesinin ikinci ve üçüncü fıkralarında belirtilen yükümlülüklere aykırılığı tespit edilenler hakkında her bir aykırılık için beş milyon Türk Lirası, dördüncü, beşinci ve yedinci fıkralarında belirtilen yükümlülüklere aykırı hareket edenler hakkında aykırılığı tespit edilen her bir işlem için iki bin iki yüz Türk Lirası idari para cezası uygulanır.\nb) 47/A maddesinin altıncı fıkrasına aykırı hareket edenlere bu aykırılığın giderilmesi için üç ay süre verilir. Bu süre sonunda aykırılığın giderilmemesi halinde bir milyon Türk Lirası idari para cezası uygulanır.\nc) 80 inci maddesine aykırı olarak piramit satış sistemini başlatan, düzenleyen veya toplantı, elektronik posta veya diğer birçok kimsenin de katılımını sağlamaya elverişli yöntemlerle yayan veya böyle bir sistemin diğer bir şekilde yayılmasını ticari amaçlarla destekleyenler hakkında 26/9/2004 tarihli ve 5237 sayılı Türk Ceza Kanununun ilgili hükümleri uygulanır.\n(18) Yukarıda belirtilenlerin dışında kalan ancak bu Kanunun getirdiği yükümlülükler ile Bakanlıkça yönetmelik veya tebliğle belirlenen tedbirlere uymayanlar hakkında bin Türk Lirasından elli bin Türk Lirasına kadar idari para cezası verilir.\n(19) Bu maddenin ikinci, dördüncü, sekizinci, dokuzuncu, on ikinci ve on üçüncü fıkralarındaki idari para cezaları ile devre tatil satışlarına ilişkin idari para cezaları hariç olmak üzere, aykırılığın tespit edildiği tarih itibarıyla bir takvim yılında uygulanan toplam idari para cezası tutarının seksen bin Türk Lirasını aştığı durumlarda, bu miktardan az olmamak ve yüz yirmi milyon Türk Lirasını geçmemek üzere toplam idari para cezası tutarı;\na) Cezaya muhatap gerçek ya da tüzel kişinin, aykırılığın tespitinden bir önceki mali yıl sonunda oluşan yıllık gayrisafi gelirlerinin yüzde beşini aşamaz. Bir önceki yıl gayrisafi gelirinin oluşmaması hâlinde, tespit tarihi itibarıyla oluşan gayrisafi geliri dikkate alınır. Gayrisafi gelirlerinin bildirilmediği veya yanlış bildirildiği durumlarda bu bent hükmü uygulanmaz.\nb) Bankalar, tüketici kredisi veren finansal kuruluşlar ve kart çıkaran kuruluşlar için, kamuya açıklanan en son finansal tablolarda yayınlanan öz kaynağının binde beşini aşamaz.\n(20) Bu Kanuna göre idari yaptırım uygulanması, diğer kanunlar gereği yapılacak işlemleri engellemez. Bakanlık, bu maddenin uygulanmasında oluşacak tereddütleri gidermeye yetkilidir.\n[28] 23/5/2024 tarihli 7511 sayılı Kanunun 19 uncu maddesi ile bu fıkranın ikinci cümlesinde yer alan “cezaları” ibaresi “fıkradaki yaptırım kararlarını” şeklinde değiştirilmiştir.\n[29] 24/10/2024 tarihli ve 7529 sayılı Kanunun 7 nci maddesi ile bu fıkranın birinci cümlesinde yer alan “beş bin Türk Lirası” ibaresi “altmış bin Türk Lirasından altı yüz bin Türk Lirasına kadar” şeklinde, üçüncü cümlesinde yer alan “elli bin Türk Lirası olarak” ibaresi “altı yüz bin Türk Lirasından altı milyon Türk Lirasına kadar” şeklinde değiştirilmiştir.\n[30] 24/10/2024 tarihli ve 7529 sayılı Kanunun 7 nci maddesi ile bu fıkranın birinci cümlesinde yer alan “edenler hakkında” ibaresi “edenlere” şeklinde, ikinci cümlesinde yer alan “tespitinden” ibaresi “gerçekleştiği tarihten” şeklinde, dördüncü cümlesinde yer alan “durumlarda üç” ibaresi “durumlarda ön ödemeli konut satışlarında altı milyon Türk Lirası, diğer satışlarda bir” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "83",
+   "official_text": "Diğer hükümler\nMADDE 83- (1) Bu Kanunda hüküm bulunmayan hâllerde genel hükümler uygulanır.\n(2) Taraflardan birini tüketicinin oluşturduğu işlemler ile ilgili diğer kanunlarda düzenleme olması, bu işlemin tüketici işlemi sayılmasını ve bu Kanunun görev ve yetkiye ilişkin hükümlerinin uygulanmasını engellemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2018/436",
+   "karar_no": "2021/1717",
+   "decision_date": "21.12.2021",
+   "summary_md": "Davacı alıcı, Mart 2013'te noterde, satış bedeli 20.000 TL gösterilen ikinci el bir otomobili satın almış; aracın sonradan 2010-2011 yıllarında dört kez çarpma sonucu ağır hasarlı olduğunu öğrenince bedel farkı olarak 11.000 TL istemiştir. Davalı satıcı, ilanda plakanın herkes sorgulayabilsin diye açık bırakıldığını ve basit bir araştırmayla öğrenilebilecek bir hususun ayıp sayılamayacağını savunmuştur. Asliye Hukuk Mahkemesi ayıbı gizli sayarak davayı kabul etmiş; Özel Daire (kapatılan 19. Hukuk Dairesi) noter senedindeki \"alıcı bu aracı hâlihazır durumu ile görüp beğenerek teslim almıştır\" kaydına ve satıcının ayrıca garanti taahhüdü verdiğinin kanıtlanmadığına dayanarak bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnmeyi oy çokluğuyla yerinde bulmuştur: kayıt açık ayıplar bakımından satıcının sorumluluğunu kaldırır, ama gizli ayıplar için sorumluluk sürer ve satıcının ayrıca garanti taahhüdü vermesine gerek yoktur; satıcı gizli ayıp bakımından ağır kusurludur, bu yüzden ayıbın süresinde bildirilmediğini ileri süremez (TBK m. 221 ve TBK m. 225); alıcının trafik ve sigorta kayıtlarını inceleme yükümlülüğü yoktur ve alıcının ayıbı bildiğini ispat yükü satıcıdadır. Miktara ilişkin itirazların incelenmesi için dosya 11. Hukuk Dairesine gönderilmiştir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=737111500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2021/442",
+   "karar_no": "2022/1772",
+   "decision_date": "20.12.2022",
+   "summary_md": "Davacı şirket, davalıdan aldığı üç cihazın (IPL epilasyon cihazı dahil) teslimden sonra aynı arızaları tekrar tekrar verdiğini, iki cihazın 2012'de yenisiyle değiştirilmesine ve sürekli servis müdahalesine rağmen arızaların sürdüğünü belirterek sözleşmeden dönmüş ve bedel iadesi istemiştir. Davalı satıcı şirket, TBK m. 231/1'deki iki yıllık zamanaşımının dolduğunu savunmuştur. İlk derece mahkemesi ayıpların gizli olduğunu, ihbarların süresinde yapıldığını kabul ederek davayı kısmen kabul etmiş; bölge adliye mahkemesi de bu davalı yönünden istinaf başvurusunu esastan reddederek davayı kısmen kabul etmiştir. Özel Daire (kapatılan 19. Hukuk Dairesi) bölge adliye mahkemesinin kararını iki yıllık sürenin dolduğu gerekçesiyle bozmuş, bölge adliye mahkemesi direnmiştir. Hukuk Genel Kurulu direnmeyi oy birliğiyle uygun bulmuştur: ticari satışa TBK hükümleri uygulanır, TBK m. 225/1 ticari satışlarda da uygulanabilir ve arızaların tekrarlanması ile servisin sürekli müdahalesi karşısında satıcı ağır kusurludur; ağır kusurlu satıcı ayıbın süresinde bildirilmediğini kısmen de olsa ileri süremez ve bu nedenle zamanaşımı savunması da sonuç vermemiştir. Davanın esası ve miktar için dosya 11. Hukuk Dairesine gönderilmiştir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/863280800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2023/619",
+   "karar_no": "2024/4249",
+   "decision_date": "23.05.2024",
+   "summary_md": "Davacı tacir, davalı tacire sattığı konfeksiyon ürünlerinin iki faturasından (toplam 350.056,18 TL) 60.000 TL tahsil edebilmiş, kalan bedel için başlattığı takibe yapılan itiraz üzerine itirazın iptali davası açmıştır. Davacı, davalının son teslimden 54 gün sonra ihtar çekerek TTK m. 23/1-c süresini kaçırdığını ileri sürmüştür. Bakırköy 6. Asliye Ticaret Mahkemesi sekiz günlük sürede ihbar yapılmadığı gerekçesiyle davayı kabul etmiş; İstanbul Bölge Adliye Mahkemesi 12. Hukuk Dairesi ise bilirkişinin saptadığı bariz ayıplar nedeniyle satıcının ağır kusurlu olduğunu ve TBK m. 225 gereği süre savunmasına dayanamayacağını kabul etmiş, bu ürünlerin bedelini düşerek davayı 87.053 TL yönünden kısmen kabul etmiştir. Yargıtay 11. Hukuk Dairesi davalının temyizini miktar bakımından reddetmiş, davacının temyizini inceleyerek istinaf kararını usul ve kanuna uygun bulup oy birliğiyle onamıştır. Karar, ticari satışta meslekten satıcı ve açık ayıp bakımından tartışmalı bir noktaya ilişkindir (doktrin bölümüne bakınız).",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1132283600",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2023/4441",
+   "karar_no": "2024/2769",
+   "decision_date": "03.10.2024",
+   "summary_md": "Davacılar, davalı arsa sahibinden tapuda satın aldıkları dairelerde çevre düzenlemesi, iç yan duvar mermerleri, sığınak ve garaj gibi imalatların projeye ve sözleşmeye aykırı ya da eksik olduğunu ileri sürerek eksik işler bedelini istemişlerdir. Asliye Hukuk Mahkemesi bozmaya uyarak ayıba karşı tekeffül hükümlerinin uygulanacağını, ancak TBK m. 231/1'deki iki yıllık zamanaşımının dolduğunu kabul etmiş ve davayı reddetmiştir. Yargıtay 3. Hukuk Dairesi kararı oy birliğiyle bozmuştur. Daireye göre taşınır satışına ilişkin kurallar taşınmaz satışında da uygulanır (TBK m. 246); mahkemenin önce iddiaları ayıp kavramı içinde değerlendirmesi, açık ve gizli ayıp ayrımını ortalama (vasat) bir alıcının bilgisine göre yapması, gizli ayıpların hemen bildirilip bildirilmediğini araştırması gerekir. Yapı ayıbına ilişkin davalarda ise TBK m. 244/3 gözetilmemiştir. Eksik inceleme nedeniyle bozma yapılmıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1102815600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 219'a göre satıcının ayıptan sorumluluğu hakkında hangisi doğrudur?",
+   "options": [
+    "Satıcı ancak ağır kusurlu ise sorumlu olur.",
+    "Satıcı yalnızca yazılı olarak bildirdiği niteliklerden sorumludur.",
+    "Satıcı yalnızca ayıbı bildiği hâllerde sorumlu olur.",
+    "Satıcı, ayıpların varlığını bilmese bile onlardan sorumludur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 219/2 satıcının bu ayıpların varlığını bilmese bile onlardan sorumlu olduğunu açıkça söyler; yani ayıptan sorumluluk kusursuz sorumluluktur. Ağır kusur, sorumluluğun doğması için değil, sorumsuzluk anlaşmasının geçersizliği ve geç bildirim savunmasının engellenmesi için önem taşır (TBK m. 221 ve TBK m. 225). Niteliğin \"herhangi bir surette\" bildirilmesi yeterlidir, yazılı olması şart değildir (TBK m. 219/1)."
+  },
+  {
+   "stem_md": "Van'daki kırtasiyeci Selin, İstanbul'daki bir toptancıdan kargoyla gelen 30 koli defterin ıslanmış ve kullanılamaz durumda olduğunu görür. Toptancının Van'da temsilcisi yoktur. Selin kolilerde hiçbir koruma önlemi almadan ve durumu tespit ettirmeden malı aynı gün toptancıya geri gönderir. Hangisi doğrudur?",
+   "options": [
+    "Satıcının temsilcisi bulunmadığı için Selin'in hiçbir yükümlülüğü yoktur.",
+    "Alıcı ayıplı olduğunu ileri sürdüğü malı her hâlde derhal iade edebilir.",
+    "Selin malın korunması için gerekli önlemleri almadan malı geri gönderemez; ayrıca durumu gecikmeksizin tespit ettirmediği için ayıbın mal kendisine ulaştığında var olduğunu ispat yükü ona düşer.",
+    "Geri gönderme serbesttir; tespit yalnızca satıcının yararınadır ve alıcıya bir sonuç doğurmaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 226/1'e göre alıcı, bulunduğu yerde satıcının temsilcisi yoksa malın korunması için gerekli önlemleri geçici olarak almak zorundadır ve bu önlemleri almadan ayıplı olduğunu ileri sürdüğü malı geri gönderemez. TBK m. 226/2'ye göre alıcı malın durumunu gecikmeksizin usulüne göre tespit ettirmelidir; yaptırmazsa ayıbın mal kendisine ulaştığı zamanda var olduğunu ispat yükü alıcıya düşer. Temsilcinin bulunmaması alıcıyı yükümlülükten kurtarmaz, tam tersine koruma yükümlülüğünün doğmasının şartıdır."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 219 anlamında **ekonomik ayıp** örneğidir?",
+   "options": [
+    "İmarlı arsa diye satılan taşınmazın yeşil alan çıkması",
+    "Satıcının 'yeni motor' dediği makinede ikinci el motor bulunması",
+    "Satın alınan makinenin, benzerlerinin üç katı yakıt harcaması",
+    "Satın alınan kumaşta yırtık bulunması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ekonomik ayıp, malın ekonomik değerini ve verimini düşüren eksikliktir; fazla yakıt harcayan makine bunun tipik örneğidir. Kumaştaki yırtık maddi ayıp, yeşil alan çıkması hukuki ayıp, \"yeni motor\" vaadine rağmen ikinci el motor bulunması ise bildirilen niteliğin yokluğudur (TBK m. 219/1)."
+  },
+  {
+   "stem_md": "TBK m. 220'ye göre hayvan satışında satıcı hangi hâlde ayıptan sorumlu olur?",
+   "options": [
+    "Yalnızca ayıp sorumluluğunu sözlü olarak üstlenmişse.",
+    "Yalnızca alıcı bir yıl içinde dava açarsa.",
+    "Yazılı olarak üstlenmişse veya ağır kusuru varsa.",
+    "Her zaman, ayıbı bilmese bile."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 220'ye göre hayvan satışında satıcı yazılı olarak üstlenmedikçe veya ağır kusuru olmadıkça ayıptan sorumlu olmaz. Genel kural olan kusursuz sorumluluk (TBK m. 219/2) hayvan satışında bu iki koşulla sınırlandırılmıştır. Sözlü üstlenme yetmez, yazılı olmalıdır."
+  },
+  {
+   "stem_md": "Arda, 4 Nisan'da bir inek satın alıp teslim alır. Satıcı ayıp sorumluluğunu yazılı olarak üstlenmiştir, ancak sorumluluk süresi yazılı belirlenmemiştir. İnekte gebelikle ilgili olmayan bulaşıcı bir hastalık ortaya çıkar. Arda hastalığı 10 Nisan'da satıcıya bildirir; ancak hayvanın bilirkişilerce gözden geçirilmesini yetkili makamdan 20 Nisan'da ister. Hangisi doğrudur?",
+   "options": [
+    "Satıcı sorumludur; bilirkişi istemi için herhangi bir süre sınırı yoktur.",
+    "Satıcı sorumlu olmaz; çünkü hayvan satışında yazılı üstlenme olsa bile ayıp sorumluluğu doğmaz.",
+    "Satıcı sorumlu olmaz; bildirim süresinde yapılmış olsa da bilirkişi istemi aynı dokuz günlük sürede yapılmamıştır.",
+    "Satıcı sorumludur; hayvan satışında yalnızca bildirim yeterlidir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 224'e göre süre yazılı belirlenmemiş ve ayıp gebeliğe ilişkin değilse satıcı, ancak ayıbın devrin yapıldığı günden başlayarak dokuz gün içinde kendisine bildirilmesi ve ayrıca hayvanın bilirkişilerce gözden geçirilmesinin aynı süre içinde yetkili makamdan istenmesi hâlinde sorumlu olur. İki şart birlikte aranır. Arda bildirimi süresinde yapmış, ama bilirkişi istemini dokuz günlük sürenin dışında yaptığı için satıcı sorumlu olmaz. Yazılı üstlenme sorumluluğun doğması için gerekli koşulu karşılar (TBK m. 220), fakat TBK m. 224'teki kısa süre ayrıca aranır."
+  },
+  {
+   "stem_md": "Satıcının satılanı ayıplı olarak devretmekte ağır kusurlu olması durumunda, ayıptan sorumluluğu kaldıran veya sınırlayan anlaşmanın hukuki sonucu nedir?",
+   "options": [
+    "Noterde düzenlenmişse geçerlidir.",
+    "Kesin olarak hükümsüzdür.",
+    "Geçerlidir; ancak alıcı bir yıl içinde iptalini isteyebilir.",
+    "Geçerlidir; ancak yalnızca açık ayıplar bakımından sonuç doğurur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 221'e göre satıcı satılanı ayıplı olarak devretmekte ağır kusurlu ise ayıptan sorumluluğunu kaldıran veya sınırlayan her anlaşma kesin olarak hükümsüzdür. İptal edilebilirlik ya da geçerlilik söz konusu değildir; noterde düzenlenmiş olması da sonucu değiştirmez."
+  },
+  {
+   "stem_md": "Hakan, Cemil'den ikinci el bir otomobili noterde satın alır. Noter senedinde \"alıcı bu aracı hâlihazır durumuyla görüp beğenerek teslim almıştır\" kaydı vardır. Araçta, Cemil'in bildiği ve gizlediği, ağır hasar onarımı olduğu sonradan anlaşılır. Cemil bu kayda dayanarak sorumlu olmadığını savunur. Hangisi doğrudur?",
+   "options": [
+    "Cemil'in sorumlu olması için ayrıca yazılı bir garanti taahhüdü vermiş olması gerekir.",
+    "Kayıt açık ayıpları kapsar; gizli ayıp bakımından satıcıyı kurtarmaz ve ağır kusurlu satıcı yönünden TBK m. 221 gereği hükümsüzdür.",
+    "Noterde yapıldığı için kayıt gizli ayıp dahil her ayıp bakımından sorumluluğu kaldırır.",
+    "Kayıt, yalnızca Hakan araç için sigorta ve hasar sorgusu yapmışsa geçerlidir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Yargıtay Hukuk Genel Kurulu'na göre matbu \"görüp beğenerek teslim aldı\" kaydı alıcının gördüğü ve kabul ettiği açık ayıpları kapsar; gizli ayıpta sorumsuzluk anlaşması sayılmaz. Cemil ayrıca ağır kusurludur; TBK m. 221 gereği sorumluluğu kaldıran anlaşma kesin hükümsüzdür ve TBK m. 225/1 gereği süresinde bildirilmediğini de ileri süremez. Sorgulama yapma yükümlülüğü alıcıda yoktur ve ayrı bir garanti taahhüdü de aranmaz."
+  },
+  {
+   "stem_md": "Cem, ikinci el bir dizüstü bilgisayarın ekranında çatlak olduğunu satın alma sırasında kendisi görür ve fiyatta indirim alarak sözleşmeyi yapar. Sonradan anakartta bir arıza ortaya çıkar ve Cem bunu hemen satıcıya bildirir. Hangisi doğrudur?",
+   "options": [
+    "Satıcı her iki ayıptan da sorumlu değildir; çünkü bilgisayar ikinci el satılmıştır.",
+    "Satıcı kusursuz sorumlu olduğu için ekran çatlağından da anakart arızasından da sorumludur.",
+    "Cem, ekran çatlağına dayanabilir; çünkü ayıp varlığı satıcı tarafından bilinmemektedir.",
+    "Satıcı, sözleşme kurulurken Cem'in bildiği ekran çatlağından sorumlu değildir; ancak anakart arızasından sorumludur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 222/1'e göre satıcı, sözleşmenin kurulduğu sırada alıcı tarafından bilinen ayıplardan sorumlu değildir; Cem ekran çatlağını biliyordu. Anakart arızasını bilmediği için bu ayıp bakımından satıcının sorumluluğu devam eder (TBK m. 219/2), Cem de ayıbı hemen bildirerek külfetini yerine getirmiştir (TBK m. 223/2). İkinci el olması, ayıp sorumluluğunu kendiliğinden ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "TBK m. 222/2'ye göre, alıcının satılanı yeterince gözden geçirmekle görebileceği bir ayıp bakımından satıcının durumu nedir?",
+   "options": [
+    "Satıcı, bir sorumsuzluk anlaşması varsa sorumlu olur.",
+    "Satıcı, ancak böyle bir ayıbın bulunmadığını ayrıca üstlenmişse sorumlu olur.",
+    "Alıcı ayıbı fiilen bilmiyorsa satıcı sorumludur.",
+    "Satıcı her hâlde sorumludur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 222/2'ye göre satıcı, alıcının satılanı yeterince gözden geçirmekle görebileceği ayıplardan da ancak böyle bir ayıbın bulunmadığını ayrıca üstlenmişse sorumlu olur. Alıcının ayıbı fiilen bilmesi bu fıkrada aranmaz; aranan, yeterli gözden geçirmeyle görülebilecek olmasıdır. Sorumsuzluk anlaşması satıcının sorumluluğunu kaldırır, doğurmaz."
+  },
+  {
+   "stem_md": "TBK m. 223'teki gözden geçirme ve bildirim yükümlülüğü ve ihmalinin sonucu hakkında hangisi doğrudur?",
+   "options": [
+    "Bir külfettir; ihmal edilirse herhangi bir sonuç doğmaz.",
+    "Bir borçtur; ihmal edilirse satıcı alıcıdan tazminat isteyebilir.",
+    "Bir külfettir; ihmal edilirse alıcı satılanı kabul etmiş sayılır.",
+    "Bir külfettir; ihmal edilirse sözleşme geçersiz olur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Gözden geçirme ve bildirim, alıcının kendi hakkını korumak için yerine getirmesi gereken bir külfettir; satıcı bunu alıcıya karşı dava edemez. İhmalin sonucu, TBK m. 223/2'ye göre satılanın kabul edilmiş sayılmasıdır; gizli ayıpta ise ayıp hemen bildirilmezse satılan bu ayıpla birlikte kabul edilmiş sayılır. Sözleşme geçersiz olmaz."
+  },
+  {
+   "stem_md": "Ali ve Veli tacir değildir. Ali, Veli'den ikinci el bir mobilya takımı satın alır ve teslim sırasında bir dolap kapağının kırık olduğunu görür. Ali bu ayıp bakımından hangi ölçüye uymak zorundadır?",
+   "options": [
+    "İmkân bulunur bulunmaz gözden geçirmeli ve ayıbı uygun bir süre içinde satıcıya bildirmelidir.",
+    "Ayıbı, eski kanundaki gibi derhal bildirmelidir; uygun süre kavramı yoktur.",
+    "Ayıbı iki gün içinde bildirmelidir.",
+    "Teslimden sonra sekiz gün içinde inceleyip bildirmelidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Taraflar tacir olmadığı için TBK m. 223/1 uygulanır: alıcı imkân bulunur bulunmaz gözden geçirir ve ayıbı uygun bir süre içinde bildirir. İki gün ve sekiz gün tacirler arasındaki ticari satışa özgüdür (TTK m. 23/1-c). Eski Borçlar Kanunu'ndaki \"derhal\" ifadesi TBK'da \"uygun bir süre içinde\" olarak değiştirilmiştir."
+  },
+  {
+   "stem_md": "Elif, tacir olmayan birinden ikinci el bir bisiklet satın alır. Altı ay sonra çerçevenin içinde olağan bir incelemeyle görülemeyecek bir çatlak olduğunu fark eder, ancak bunu satıcıya üç ay sonra bildirir. Satıcı ayıbı bilmemektedir ve ağır kusurlu değildir. Sonuç nedir?",
+   "options": [
+    "Satıcı ayıbı bilmediği için hiçbir hâlde sorumlu değildir.",
+    "Bildirim uygun süre içinde sayılır; çünkü gizli ayıpta süre yoktur.",
+    "Ayıp anlaşılınca hemen bildirilmediği için bisiklet bu ayıpla birlikte kabul edilmiş sayılır.",
+    "Gizli ayıp bakımından bildirim her zaman geçerlidir, süre aranmaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 223/2'ye göre olağan bir gözden geçirmeyle ortaya çıkarılamayacak ayıp sonradan anlaşılırsa hemen satıcıya bildirilmelidir; bildirilmezse satılan bu ayıpla birlikte kabul edilmiş sayılır. Elif ayıbı anladıktan üç ay sonra bildirdiği için süreyi kaçırmıştır. Satıcının ayıbı bilmemesi, ayıbın sorumluluğu doğurmasına engel değildir (TBK m. 219/2); ama alıcı külfetini yerine getirmediği için haklarını yitirmiştir. Satıcı ağır kusurlu olsaydı geç bildirim savunması yapamazdı (TBK m. 225/1)."
+  },
+  {
+   "stem_md": "A Ltd. ve B A.Ş. tacirdir. A, B'den aldığı 100 kutu seramiğin 10'unun kırık olduğunu teslim sırasında açıkça görür ve bunu dört gün sonra B'ye bildirir. Kırıklar hasar A'ya geçmeden önce, B'nin bilmesi beklenemeyecek biçimde oluşmuştur; B ağır kusurlu değildir. Hangisi doğrudur?",
+   "options": [
+    "Ticari satışta ayıp bildirimi için süre yoktur; bildirimin hemen yapılması yeterlidir.",
+    "Teslimde açıkça belli ayıp iki gün içinde ihbar edilmeliydi; süre geçtiği için A bu kutulardaki ayıbı kabul etmiş sayılır.",
+    "Süre sekiz gündür; bildirim zamanında yapılmıştır.",
+    "Süre uygun bir süredir; dört gün makuldür."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 23/1-c'ye göre malın ayıplı olduğu teslim sırasında açıkça belli ise alıcı iki gün içinde durumu satıcıya ihbar etmelidir. Sekiz günlük süre ayıp açıkça belli değilse işler. Dört gün iki günü aştığı için TBK m. 223 uyarınca A, o kutulardaki ayıbı kabul etmiş sayılır. B ağır kusurlu olmadığı ve kırıkları bilmesi de beklenemediği için TBK m. 225 de devreye girmez."
+  },
+  {
+   "stem_md": "TTK m. 23/1-c'ye göre malın ayıplı olduğu teslim sırasında açıkça belli değilse, tacir alıcı ne yapmakla yükümlüdür?",
+   "options": [
+    "Ayıp anlaşılınca hemen ihbar etmekle.",
+    "Malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve ayıp çıkarsa bu süre içinde ihbar etmekle.",
+    "İki gün içinde ihbar etmekle.",
+    "Malı teslimden sonra otuz gün içinde incelemekle."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 23/1-c'ye göre ayıp açıkça belli değilse alıcı malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve bu inceleme sonucunda ayıp ortaya çıkarsa haklarını korumak için durumu aynı süre içinde satıcıya ihbarla yükümlüdür. \"Hemen\" ölçüsü, kanunun \"diğer durumlar\" dediği gizli ayıplar içindir (TBK m. 223/2); otuz günlük süre ise bu hükümde yoktur."
+  },
+  {
+   "stem_md": "Z Ltd. ve K A.Ş. tacirdir. Z, 4 Mayıs'ta teslim aldığı pres makinesinde Ağustos ayında, olağan bir incelemeyle anlaşılamayacak bir döküm kusuru fark eder ve aynı gün K'ya bildirir. K, sekiz günlük sürenin geçtiğini savunur. K'nın savunması hakkında hangisi doğrudur?",
+   "options": [
+    "Yerindedir; çünkü gizli ayıp da teslimden sonra sekiz gün içinde bildirilmelidir.",
+    "Yerinde değildir; çünkü bu durumda TBK m. 223/2 uygulanır ve ayıp anlaşılınca hemen bildirilmesi yeterlidir.",
+    "Yerinde değildir; çünkü ticari satışta hiçbir ayıp için bildirim süresi yoktur.",
+    "Yerindedir; çünkü ticari satışta gizli ayıp hiçbir hâlde ileri sürülemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 23/1-c'nin iki gün ve sekiz günlük süreleri ayıbın teslimde açıkça belli olduğu veya inceleme sonucunda ortaya çıktığı durumlar içindir. Diğer durumlarda, yani olağan incelemeyle anlaşılamayan gizli ayıplarda TBK m. 223/2 uygulanır ve ayıp anlaşılınca hemen bildirilmelidir. Z aynı gün bildirdiği için külfetini yerine getirmiştir."
+  },
+  {
+   "stem_md": "Kemal, Murat'a sattığı kamyonun fren sistemindeki ayıbı bile bile gizlemiştir. Murat ayıbı fark ettikten üç ay sonra Kemal'e bildirir. Kemal \"ayıp zamanında bildirilmedi\" diye savunma yapar. Hangisi doğrudur?",
+   "options": [
+    "Savunma yerindedir; geç bildirim her satıcı için sorumluluktan kurtulma sebebidir.",
+    "Savunma yalnızca tazminat bakımından yerindedir.",
+    "Savunma yerinde değildir; çünkü gizli ayıpta bildirim süresi yoktur.",
+    "Savunma yerinde değildir; çünkü ağır kusurlu satıcı, ayıbın süresinde bildirilmediğini ileri sürerek kısmen de olsa sorumluluktan kurtulamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kemal ayıbı bilerek gizlediği için ağır kusurludur. TBK m. 225/1'e göre ağır kusurlu satıcı, ayıbın kendisine süresinde bildirilmediğini ileri sürerek sorumluluktan kısmen de olsa kurtulamaz. Gizli ayıpta da hemen bildirim aranır (TBK m. 223/2); sorun bildirimin geç olmasında değil, bu savunmanın ağır kusurlu satıcıya tanınmamasındadır."
+  },
+  {
+   "stem_md": "TBK m. 225/2 neyi düzenler?",
+   "options": [
+    "Satıcılığı meslek edinmiş kişilerin bilmesi gereken ayıplar bakımından da ağır kusurlu satıcıya ilişkin hükmün geçerli olduğunu.",
+    "Alıcının bildiği ayıplardan satıcının sorumlu olmadığını.",
+    "Hayvan satışında sorumluluğun yazılı üstlenmeye bağlı olduğunu.",
+    "Başka yerden gönderilen malı alıcının mahkeme aracılığıyla sattırabileceğini."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 225/2, satıcılığı meslek edinmiş kişilerin bilmesi gereken ayıplar bakımından da aynı hükmün, yani ağır kusurlu satıcının süresinde bildirilmediğini ileri sürerek kurtulamayacağı kuralının geçerli olduğunu söyler. Hayvan satışı TBK m. 220'de, sattırma yetkisi TBK m. 226/3'te, alıcının bildiği ayıp TBK m. 222/1'de düzenlenmiştir."
+  },
+  {
+   "stem_md": "İstanbul'daki bir manav, Antalya'dan kamyonla gelen domateslerin yolculukta bozulmaya başladığını görür. Satıcının İstanbul'da temsilcisi yoktur ve domatesler kısa zamanda çürüyebilir. Manav ne yapabilir?",
+   "options": [
+    "Hiçbir işlem yapamaz; satıcının talimatını beklemek zorundadır.",
+    "Malı hemen satıcıya geri göndermelidir.",
+    "Malı dilediği gibi satabilir; satıcıya bildirmesi gerekmez.",
+    "Malı bulunduğu yerdeki mahkeme aracılığıyla sattırmaya yetkilidir; satıcının yararı gerektiriyorsa sattırmakla yükümlüdür ve durumu satıcıya en kısa zamanda bildirmelidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 226/3'e göre satılanın kısa zamanda bozulma tehlikesi varsa alıcı onu bulunduğu yerdeki mahkeme aracılığıyla sattırmaya yetkili, satıcının yararı gerektiriyorsa sattırmakla yükümlüdür. Durumu satıcıya en kısa zamanda bildirmezse bundan doğan zarardan sorumlu olur. Koruma önlemi almadan geri gönderme ise TBK m. 226/1 ile bağdaşmaz."
+  },
+  {
+   "stem_md": "Tuğba, kendi evinde kullanmak için bir mağazadan aldığı çamaşır makinesinin motorunun teslimden dört ay sonra arızalandığını görür. Satıcı \"makine teslim anında ayıpsızdı\" diyor. Karinenin uygulanmasına engel bir durum yoktur. İspat yükü hakkında hangisi doğrudur?",
+   "options": [
+    "İspat yükü üreticidedir; satıcı hiçbir hâlde ispatla yükümlü değildir.",
+    "Ayıbın teslim tarihinde var olduğunu Tuğba ispat etmelidir.",
+    "Altı ay yalnız onarım süresidir ve ispat yükünü etkilemez.",
+    "Teslimden itibaren altı ay içinde ortaya çıkan ayıp teslimde vardı kabul edilir; malın ayıplı olmadığını satıcı ispat etmelidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TKHK m. 10/1'e göre teslim tarihinden itibaren altı ay içinde ortaya çıkan ayıpların teslim tarihinde var olduğu kabul edilir ve malın ayıplı olmadığını ispat yükü satıcıya aittir. Karine yalnız malın veya ayıbın niteliği ile bağdaşmıyorsa uygulanmaz; soruda bağdaşmaktadır. Altı ay onarım süresi değildir (onarım süresi TKHK m. 11/4'te ayrıca düzenlenir)."
+  },
+  {
+   "stem_md": "Murat, tüketici sıfatıyla bir bayiden aldığı fırının teslimden iki ay sonra ayıplı çıkması üzerine fırının üreticisine başvuruyor. Üreticiden hangi hakkı isteyebilir?",
+   "options": [
+    "Yalnızca ayıp oranında bedelden indirim.",
+    "Yalnızca tazminat.",
+    "Ücretsiz onarım veya ayıpsız misli ile değiştirme; dönme ve bedelden indirim ise satıcıya karşı kullanılır.",
+    "Sözleşmeden dönme, çünkü üretici ve satıcı her konuda müteselsilen sorumludur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TKHK m. 11/2'ye göre ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi hakları üretici veya ithalatçıya karşı da kullanılabilir ve bu hakların yerine getirilmesinde satıcı, üretici ve ithalatçı müteselsilen sorumludur. Bu fıkra dönme ve bedelden indirimi kapsamaz; bunlar satıcıya yöneltilir (TKHK m. 11/1)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ayşe, 12 Mart 2026'da noterde, Mehmet'ten 2019 model ikinci el bir otomobili 850.000 TL'ye satın alır. Mehmet ilanda ve pazarlıkta aracın \"kazasız, boyasız\" olduğunu söylemiştir. Noter satış senedinde matbu bir kayıt vardır: \"Alıcı bu aracı hâlihazır durumuyla görüp beğenerek ve bedelini tamamen ödeyerek teslim almıştır.\" Ayşe, aracın sigorta ve hasar kayıtlarını sorgulamamıştır. Mehmet aracı bir yıl önce \"ağır hasarlı\" kaydıyla satın almıştır ve bu kaydı bilmektedir. Tarafların ikisi de tacir değildir.\n\nEylül 2026'da Ayşe aracı satmak için ekspertize götürür. Şasedeki onarım izi ve ağır hasar kaydı ancak ekspertizde ve sigorta kayıtlarından anlaşılabilmektedir. Ayşe aynı gün Mehmet'e noter aracılığıyla ihtarname göndererek ayıbı bildirir. Mehmet şöyle savunur: \"Senette aracı görüp beğenerek aldığı yazıyor. Ayrıca sigorta sorgusu yapmadı, bu onun ihmali. Ben de bu yüzden sorumlu değilim ve zaten bildirim geç kaldı.\"\n\n1. Aracın ağır hasar geçmişi nitelik bakımından ayıp mıdır? Hangi ayıp türleri söz konusudur?\n2. Senetteki matbu kayıt Mehmet'i sorumluluktan kurtarır mı?\n3. Ayşe'nin sigorta sorgusu yapmamasının etkisi nedir?\n4. Ayşe bildirim külfetini yerine getirmiş midir? Mehmet'in \"bildirim geç kaldı\" savunması dinlenir mi?",
+   "rubric": [
+    {
+     "point": "Bildirilen niteliğin (kazasız) bulunmaması ve değeri önemli ölçüde azaltan maddi ayıp; satıcının ayıbı bilip bilmemesinin sorumluluğun doğması için aranmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 219"
+    },
+    {
+     "point": "Matbu 'görüp beğenerek aldım' kaydının yalnız açık ayıpları kapsaması, gizli ayıpta sorumsuzluk anlaşması sayılmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 221"
+    },
+    {
+     "point": "Mehmet'in ayıbı bilip gizleyerek ağır kusurlu olması ve sorumluluğu kaldıran anlaşmanın kesin hükümsüz olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 221"
+    },
+    {
+     "point": "Alıcının ayıbı bilmemesi; sorgulama yapma yükümlülüğünün bulunmaması ve bilmesi gerektiğini ispat yükünün satıcıda olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 222"
+    },
+    {
+     "point": "Ayıbın gizli olması ve anlaşıldığı gün 'hemen' bildirim yapılması",
+     "weight": 15,
+     "madde_ref": "TBK m. 223"
+    },
+    {
+     "point": "Ağır kusurlu satıcının geç bildirim savunmasına dayanamaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 225"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Mehmet ile Ayşe arasında taşınır nitelikte bir mal olan ikinci el otomobilin satışı vardır. Taraflar tacir olmadığı için adi satış söz konusudur ve ayıp sorunu TBK hükümlerine göre çözülür. Ayşe'nin iddiası, aracın ağır hasar geçmişinin bir ayıp oluşturduğudur.\n\n**Hukuki sorunlar:** (1) Ayıp var mı ve hangi türdendir? (2) Noter senedindeki kayıt satıcıyı kurtarır mı? (3) Alıcının sorgulama yapmaması sonucu etkiler mi? (4) Bildirim külfeti yerine getirilmiş midir?\n\n**İlgili hükümler:** TBK m. 219, 221, 222, 223, 225.\n\n**Değerlendirme:**\n\n*1. Ayıp:* Mehmet aracı \"kazasız, boyasız\" diye bildirmiştir. Araç ağır hasar kaydı taşıdığı için bildirilen nitelik satılanda bulunmamaktadır (TBK m. 219/1). Ayrıca ağır hasar, aracın değerini kullanım amacı bakımından önemli ölçüde azaltan maddi bir ayıptır. Satıcının ayıbı bilip bilmemesi sorumluluk için aranmaz (TBK m. 219/2); burada Mehmet ayıbı zaten bilmektedir.\n\n*2. Senetteki kayıt:* Yargıtay Hukuk Genel Kurulu'na göre noter senedindeki \"görüp beğenerek teslim aldı\" kaydı alıcının görüp kabul ettiği açık ayıpları kapsar; gizli ayıpta sorumsuzluk anlaşması sayılmaz. Şasedeki onarım izi ve sigorta kaydı ancak ekspertizle anlaşılabildiği için gizli ayıptır. Ayrıca Mehmet ayıbı bilerek gizlemiştir; bu, kasıt anlamında ağır kusurdur. TBK m. 221'e göre satıcı ayıplı devirde ağır kusurlu ise sorumluluğu kaldıran ya da sınırlayan her anlaşma kesin olarak hükümsüzdür. Kayıt Ayşe'ye karşı ileri sürülemez.\n\n*3. Sorgulama yapılmaması:* TBK m. 222/1'e göre satıcı yalnız sözleşme kurulduğunda alıcının bildiği ayıplardan sorumlu değildir; Ayşe ayıbı bilmiyordu. Alıcının ayıbı bildiğini veya bilmesi gerektiğini satıcı ispat etmelidir ve Mehmet bunu ispat edememektedir. Gizli ayıp bakımından alıcının sigorta ve trafik kayıtlarını araştırma yükümlülüğü yoktur. \"Kendi ihmali\" savunması bu nedenle sonuç vermez.\n\n*4. Bildirim:* Ayıp olağan bir gözden geçirmeyle ortaya çıkarılamayacak niteliktedir; ortalama bir alıcının bunu fark etmesi beklenemez. TBK m. 223/2'ye göre böyle bir ayıp sonradan anlaşılırsa hemen bildirilmelidir. Ayşe ayıbı anladığı gün ihtarname göndermiştir; külfetini yerine getirmiştir. Bildirimin geç olduğu varsayılsa bile Mehmet ağır kusurlu olduğundan TBK m. 225/1 uyarınca ayıbın süresinde bildirilmediğini ileri sürerek sorumluluktan kurtulamazdı. Bildirimi yaptığının ispatı Ayşe'ye aittir; noter ihtarnamesi bu ispat için elverişli bir araçtır.\n\n**Sonuç:**\n- Ağır hasar geçmişi bildirilen niteliğin yokluğu ve değeri önemli ölçüde azaltan maddi ayıptır.\n- Senetteki matbu kayıt gizli ayıbı kapsamaz; ağır kusurlu Mehmet yönünden TBK m. 221 gereği kesin hükümsüzdür.\n- Ayşe'nin sigorta sorgusu yapmaması sorumluluğu kaldırmaz.\n- Ayşe bildirim külfetini yerine getirmiştir; Mehmet'in geç bildirim savunması ağır kusuru nedeniyle de dinlenmez. Ayşe'nin hangi seçimlik hakkı kullanabileceği bir sonraki konunun işidir."
+  },
+  {
+   "stem_md": "Erzurum'daki X Kafe Ltd. Şti., İzmir'deki Y Makine A.Ş.'den 20 adet espresso makinesi satın alır. İki şirket de tacirdir. Makineler 2 Mart 2026'da kargo ile teslim edilmiştir; Y A.Ş.'nin Erzurum'da bir temsilcisi yoktur. Y A.Ş.'nin ayıpları bildiği ya da bilmesi gerektiği ileri sürülmemektedir ve ağır kusuru yoktur.\n\n(a) Teslim sırasında iki makinenin gövdesinde, makineler kargoya verilmeden önce oluşmuş ezik ve çizikler açıkça görülmüş, X bunu 9 Mart'ta e-postayla Y'ye bildirmiştir.\n\n(b) Altı makine kutudan çıkarılmadan depoya konulmuş; X kutuları 20 Mart'ta açıp makineleri ilk kez çalıştırdığında ısıtıcının çalışmadığını görmüş ve aynı gün bildirmiştir. Bu arıza makine ilk çalıştırıldığında anlaşılabilecek niteliktedir.\n\n(c) Dört makinede ise basınç valfinde, ancak aylarca kullanımla ortaya çıkabilen ve olağan bir gözden geçirmeyle anlaşılamayacak bir imalat kusuru vardır. X kusuru 5 Ekim 2026'da fark eder ve aynı gün Y'ye bildirir. Y \"sekiz günlük süre geçti\" savunmasını yapar.\n\n(d) X, (c)'deki dört makineyi ayıplı olduğunu ileri sürerek hiçbir koruma önlemi almadan ve durumun tespitini de yaptırmadan, açık bir kamyonetle yağmurlu havada Y'ye geri gönderir; makineler ıslanıp zarar görür.\n\n1. Uyuşmazlığa hangi hükümler uygulanır?\n2. (a) ve (b)'deki makineler bakımından X'in durumu nedir?\n3. (c)'deki makineler bakımından Y'nin savunması yerinde midir?\n4. (d)'deki geri göndermeyi ve ispat bakımından X'in durumunu değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Tacirler arasındaki ticari satışta TBK satış hükümlerinin uygulanması ve ayıp bildirimi için TTK'daki özel sürelerin geçerli olması",
+     "weight": 10,
+     "madde_ref": "TTK m. 23"
+    },
+    {
+     "point": "(a): teslimde açıkça belli ayıp için iki günlük ihbar süresi; 9 Mart ihbarının geç olması ve ayıbın kabul edilmiş sayılması",
+     "weight": 20,
+     "madde_ref": "TTK m. 23/1-c"
+    },
+    {
+     "point": "(b): açıkça belli olmayan ayıpta sekiz gün içinde inceleme ve ihbar külfeti; 20 Mart'ta açılan kutularda süre geçmiş olması",
+     "weight": 20,
+     "madde_ref": "TTK m. 23/1-c"
+    },
+    {
+     "point": "(c): olağan incelemeyle anlaşılamayan gizli ayıpta TBK m. 223/2'nin uygulanması, anlaşıldığı gün bildirimin 'hemen' olması ve sekiz gün savunmasının yersizliği",
+     "weight": 25,
+     "madde_ref": "TBK m. 223"
+    },
+    {
+     "point": "(d): satıcının temsilcisi yokken koruma önlemleri alınmadan malın geri gönderilememesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 226"
+    },
+    {
+     "point": "(d): gecikmeksizin tespit yaptırılmadığı için ayıbın mal ulaştığında var olduğunun ispat yükünün alıcıya düşmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 226"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** İki tacir arasında bir ticari satış vardır. Taşınır mallar kargo ile başka yerden gönderilmiştir ve satıcının alıcının bulunduğu yerde temsilcisi yoktur. Her makine grubu için ayıbın türü (açıkça belli, inceleme ile ortaya çıkan, gizli) farklıdır.\n\n**Hukuki sorunlar:** (1) Hangi hükümler uygulanır? (2) Açıkça belli ve açıkça belli olmayan ayıplarda süreler kaçırılmış mıdır? (3) Gizli ayıpta \"hemen\" bildirim yapılmış mıdır? (4) Başka yerden gönderilen malın geri gönderilmesi ve ispat.\n\n**İlgili hükümler:** TTK m. 23/1, 23/1-c; TBK m. 223, 226; TTK m. 18/2.\n\n**Değerlendirme:**\n\n*1. Uygulanacak hükümler:* TTK m. 23/1'e göre özel hükümler saklı kalmak şartıyla tacirler arasındaki satışlara TBK'nın satış hükümleri uygulanır. Ayıp bildirimi bakımından özel hüküm TTK m. 23/1-c'dir. Her tacir basiretli bir iş adamı gibi hareket etmek zorundadır (TTK m. 18/2). Y'nin ağır kusuru olmadığı için TBK m. 225 devreye girmez.\n\n*2. (a) ve (b):* (a)'da ayıp teslim sırasında açıkça belli olduğundan X'in iki gün içinde ihbar etmesi gerekirdi (TTK m. 23/1-c). X ihbarı yedi gün sonra, 9 Mart'ta yapmıştır; süre geçmiştir. Gözden geçirmeyi ve zamanında bildirimi ihmal eden alıcı satılanı kabul etmiş sayılır (TBK m. 223/2); X bu iki makine bakımından ayıba dayanamaz. (b)'de ayıp açıkça belli değildir; bu durumda alıcı malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve ayıp çıkarsa aynı süre içinde ihbarla yükümlüdür. X kutuları 18. günde açmıştır; aynı gün bildirmiş olması süreyi geri getirmez, çünkü ihmal edilen şey sekiz gün içinde inceleme külfetidir. Bu altı makine bakımından da X ayıbı kabul etmiş sayılır.\n\n*3. (c):* Basınç valfindeki kusur olağan bir gözden geçirmeyle anlaşılamayan gizli ayıptır. TTK m. 23/1-c bu \"diğer durumlarda\" TBK m. 223/2'yi uygular: ayıp sonradan anlaşılırsa hemen satıcıya bildirilmelidir. X kusuru fark ettiği gün bildirmiştir; külfetini yerine getirmiştir. Y'nin \"sekiz gün geçti\" savunması, sekiz günlük süre yalnız açıkça belli olmayan ve inceleme ile ortaya çıkan ayıplar için işlediğinden yersizdir. (Alıcının hangi seçimlik hakları kullanacağı ve zamanaşımı sonraki konudur.)\n\n*4. (d):* Y'nin Erzurum'da temsilcisi olmadığından X, malın korunması için gerekli önlemleri geçici olarak almak zorundadır ve bu önlemleri almadan ayıplı olduğunu ileri sürdüğü makineleri geri gönderemez (TBK m. 226/1). X makineleri yağmurlu havada açık kamyonetle göndererek bu yükümlülüğe aykırı davranmıştır. Ayrıca X, makinelerin durumunu gecikmeksizin usulüne göre tespit ettirmemiştir. Bu nedenle valf kusurunun mal kendisine ulaştığında var olduğunu ispat yükü X'e düşer (TBK m. 226/2). Makineler hâlâ gizli ayıp nedeniyle Y'nin sorumluluğuna konu olabilir; ama X'in ispat durumu zayıflamıştır.\n\n**Sonuç:**\n- Tacirler arasında TBK satış hükümleri ve TTK m. 23/1-c'nin özel süreleri uygulanır.\n- (a) ve (b)'de iki gün ve sekiz gün kaçırıldığı için X ayıplı makineleri kabul etmiş sayılır.\n- (c)'de gizli ayıp hemen bildirilmiştir; Y'nin sekiz gün savunması yersizdir.\n- (d)'de X koruma önlemleri almadan malı geri gönderemez ve tespit yaptırmadığı için ayıbın varlığını ispat yükü ona düşer."
+  },
+  {
+   "stem_md": "Tuğba, Kadıköy'deki bir elektronik mağazasından (S Ltd. Şti.) Ü A.Ş. üretimi bir buzdolabını 1 Haziran 2026'da kendi evi için satın alır. Dolap aynı gün S'nin elemanlarınca eve getirilip monte edilir. 4 Ekim 2026'da dolabın motoru arızalanır. Ayrıca montaj sırasında hatalı yapılan su bağlantısı yüzünden mutfak parkeleri kabarmıştır. Tuğba arızayı aynı gün S'ye telefonla ve e-postayla bildirir. S şöyle yanıt verir: \"Tacirler arasında sekiz günlük ihbar süresi vardır, süre geçti. Üstelik arıza kullanım hatasından kaynaklanıyor.\"\n\nTuğba, S'nin bu yanıtı üzerine üretici Ü A.Ş.'ye başvurur. Ü A.Ş.'den önce sözleşmeden dönmeyi, olmazsa dolabın ayıpsız misli ile değiştirilmesini ister. Taraflar arasında teslim ve montaj dışında dolabın kullanımına ilişkin özel bir sözleşme koşulu yoktur.\n\n1. Ayıp hangi ana göre değerlendirilir ve ispat yükü kimdedir?\n2. Su bağlantısının hatalı yapılmasının hukuki niteliği nedir?\n3. S'nin TTK'ya dayanan savunması yerinde midir?\n4. Tuğba'nın üreticiye karşı istemleri hakkında ne söylenebilir?",
+   "rubric": [
+    {
+     "point": "Ayıplı malın tüketiciye teslimi anındaki sözleşmeye aykırılık olarak tanımlanması; ayıbın teslim anına göre değerlendirilmesi",
+     "weight": 15,
+     "madde_ref": "TKHK m. 8"
+    },
+    {
+     "point": "Teslimden itibaren altı ay içinde ortaya çıkan ayıbın teslimde var olduğunun kabulü; ayıplı olmadığını ispat yükünün satıcıda olması",
+     "weight": 25,
+     "madde_ref": "TKHK m. 10"
+    },
+    {
+     "point": "Montajın satıcı tarafından yapıldığı hâlde hatalı yapılmasının sözleşmeye aykırı ifa sayılması",
+     "weight": 15,
+     "madde_ref": "TKHK m. 8/3"
+    },
+    {
+     "point": "TTK'daki iki gün ve sekiz günlük sürelerin tacirler arasındaki satışa özgü olması; tüketici satışında TKHK'da böyle bir bildirim süresinin bulunmaması",
+     "weight": 15,
+     "madde_ref": "TTK m. 23"
+    },
+    {
+     "point": "Üreticiye karşı yalnız ücretsiz onarım veya ayıpsız misli ile değiştirme isteneceği; satıcı, üretici ve ithalatçının müteselsil sorumluluğu",
+     "weight": 20,
+     "madde_ref": "TKHK m. 11/2"
+    },
+    {
+     "point": "Dönme ve bedelden indirim haklarının satıcıya yöneltilmesi",
+     "weight": 10,
+     "madde_ref": "TKHK m. 11/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Tuğba kendi evi için mal aldığından tüketici sıfatındadır; satıcı S Ltd. Şti. ise ticari faaliyet yürütmektedir. Uyuşmazlık tüketici satışına ilişkindir ve 6502 sayılı Kanun öncelikle uygulanır; Kanun'da hüküm bulunmayan hâllerde genel hükümlere dönülür (TKHK m. 83/1).\n\n**Hukuki sorunlar:** (1) Ayıp tespiti ve ispat yükü; (2) montaj hatası; (3) TTK sürelerinin uygulanması; (4) üreticiye karşı kullanılabilecek haklar.\n\n**İlgili hükümler:** TKHK m. 8, 10, 11; TTK m. 23/1-c.\n\n**Değerlendirme:**\n\n*1. Ayıp ve ispat:* Ayıplı mal, tüketiciye teslimi anında örnek ya da modele uygun olmaması veya objektif olarak sahip olması gereken özellikleri taşımaması nedeniyle sözleşmeye aykırı olan maldır (TKHK m. 8/1); ayıp teslim anına göre değerlendirilir. Teslimden itibaren altı ay içinde ortaya çıkan ayıpların teslim tarihinde var olduğu kabul edilir ve malın ayıplı olmadığının ispatı satıcıya aittir (TKHK m. 10/1). Motor arızası teslimden dört ay sonra çıkmıştır; altı ay içindedir. Karinenin uygulanmasına engel bir durum da görünmemektedir. Dolayısıyla S, arızanın kullanım hatasından kaynaklandığını ve dolabın teslimde ayıpsız olduğunu ispat etmelidir; Tuğba ayıbın teslimde var olduğunu ispatla yükümlü değildir.\n\n*2. Montaj hatası:* Montajı satıcı tarafından veya onun sorumluluğu altında yapılan malda, mal gereği gibi monte edilmemişse bu sözleşmeye aykırı ifadır (TKHK m. 8/3). Dolap S'nin elemanlarınca monte edildiği için hatalı su bağlantısı S'nin sorumluluğundadır. Parkelerdeki zarar bakımından tüketici, seçimlik haklarından biriyle birlikte TBK hükümlerine göre tazminat da isteyebilir (TKHK m. 11/6).\n\n*3. TTK savunması:* TTK m. 23/1-c'deki iki gün ve sekiz günlük ihbar süreleri tacirler arasındaki satış ve mal değişimleri için öngörülmüştür (TTK m. 23/1). Tuğba tacir değil tüketicidir; bu süreler ona uygulanmaz. TKHK m. 8-12'de de ayıp için muayene ve ihbar süresi öngörülmemiştir. Ayrıca Tuğba arızayı zaten hemen bildirmiştir. S'nin savunması yerinde değildir.\n\n*4. Üreticiye karşı istemler:* Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi hakları üretici veya ithalatçıya karşı da kullanılabilir; bu hakların yerine getirilmesinde satıcı, üretici ve ithalatçı müteselsilen sorumludur (TKHK m. 11/2). Sözleşmeden dönme ve bedelden indirim ise satıcıya karşı kullanılır (TKHK m. 11/1). Bu nedenle Tuğba, Ü A.Ş.'den ayıpsız misli ile değiştirmeyi ya da ücretsiz onarımı isteyebilir; dönmeyi ise yalnız S'ye karşı ileri sürebilir.\n\n**Sonuç:**\n- Ayıp, teslim anına göre değerlendirilir; altı ay içinde çıktığı için teslimde var sayılır ve ayıpsızlığı S ispat etmelidir.\n- Hatalı montaj TKHK m. 8/3 uyarınca sözleşmeye aykırı ifadır.\n- TTK'daki sekiz günlük süre tüketici satışında uygulanmaz; S'nin savunması yersizdir.\n- Üreticiden yalnız onarım veya değiştirme istenebilir; dönme S'ye karşı kullanılır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Satıcı ayıbı bilmiyorsa sorumlu olur mu? (TBK m. 219/2)",
+   "back_md": "Evet. Satıcı, ayıpların varlığını bilmese bile onlardan sorumludur; ayıptan sorumluluk kusursuz sorumluluktur."
+  },
+  {
+   "front_md": "TBK m. 219/1'e göre satıcı hangi iki gerekçeyle sorumlu olur?",
+   "back_md": "Bildirdiği niteliklerin satılanda bulunmamasından; değeri ve beklenen faydayı ortadan kaldıran veya önemli ölçüde azaltan maddi, hukuki ya da ekonomik ayıplardan."
+  },
+  {
+   "front_md": "Ayıp türleri ve birer örnek?",
+   "back_md": "Maddi: kumaşta yırtık. Hukuki: imarlı denen arsanın yeşil alan çıkması. Ekonomik: makinenin üç kat yakıt harcaması. Bildirilen nitelik: '%100 ipek' halının sentetik çıkması."
+  },
+  {
+   "front_md": "Eski Borçlar Kanunu'ndan farklı olarak TBK m. 219'a ne eklendi?",
+   "back_md": "'Ekonomik ayıp' ve 'niteliği etkileyen niceliğe aykırılık' ifadeleri metne eklendi."
+  },
+  {
+   "front_md": "Hayvan satışında satıcı ne zaman sorumlu olur? (TBK m. 220)",
+   "back_md": "Yazılı olarak üstlenmişse veya ağır kusuru varsa."
+  },
+  {
+   "front_md": "Hayvan satışında bildirim süresi? (TBK m. 224)",
+   "back_md": "Süre yazılı belirlenmemiş ve ayıp gebelikle ilgili değilse devirden itibaren dokuz gün içinde bildirim ve aynı süre içinde yetkili makamdan bilirkişi istemi; ikisi birlikte aranır."
+  },
+  {
+   "front_md": "Sorumsuzluk anlaşması ne zaman hükümsüzdür? (TBK m. 221)",
+   "back_md": "Satıcı satılanı ayıplı olarak devretmekte ağır kusurlu ise anlaşma kesin olarak hükümsüzdür."
+  },
+  {
+   "front_md": "Noter senedindeki 'görüp beğenerek aldım' kaydının kapsamı?",
+   "back_md": "Yalnız açık ayıpları kapsar. Gizli ayıpta sorumsuzluk anlaşması sayılmaz; ağır kusurlu satıcı yönünden TBK m. 221 gereği zaten hükümsüzdür."
+  },
+  {
+   "front_md": "Alıcının bildiği ayıp ve görebileceği ayıp arasındaki fark? (TBK m. 222)",
+   "back_md": "Sözleşme kurulurken alıcının bildiği ayıptan satıcı sorumlu değildir. Yeterli gözden geçirmeyle görülebilecek ayıptan ise ancak bulunmadığını ayrıca üstlenmişse sorumlu olur."
+  },
+  {
+   "front_md": "Alıcının bildiğini veya bilmesi gerektiğini kim ispat eder?",
+   "back_md": "Satıcı. Gizli ayıp bakımından alıcının ayıpları araştırma yükümlülüğü de yoktur."
+  },
+  {
+   "front_md": "Adi satışta açık ayıp hangi ölçüyle bildirilir? (TBK m. 223/1)",
+   "back_md": "Alıcı imkân bulunur bulunmaz gözden geçirir ve ayıbı uygun bir süre içinde bildirir; kanun gün sayısı vermez."
+  },
+  {
+   "front_md": "Gizli ayıp nasıl bildirilir? (TBK m. 223/2)",
+   "back_md": "Olağan gözden geçirmeyle anlaşılamayan ayıp sonradan anlaşılırsa hemen bildirilir; bildirilmezse satılan bu ayıpla birlikte kabul edilmiş sayılır."
+  },
+  {
+   "front_md": "Gözden geçirme ve bildirim borç mudur?",
+   "back_md": "Hayır, külfettir. İhmalin sonucu kabul edilmiş sayılmadır; satıcı alıcıdan bunu talep edemez."
+  },
+  {
+   "front_md": "Ağır kusurlu satıcı hangi savunmayı yapamaz? (TBK m. 225/1)",
+   "back_md": "Ayıbın kendisine süresinde bildirilmediğini ileri sürerek kısmen de olsa sorumluluktan kurtulamaz. Meslekten satıcı için bilmesi gereken ayıplarda da aynı hüküm geçerlidir (TBK m. 225/2)."
+  },
+  {
+   "front_md": "Başka yerden gönderilen malda alıcının yükümlülükleri? (TBK m. 226)",
+   "back_md": "Temsilci yoksa koruma önlemlerini geçici olarak alır, almadan geri gönderemez; durumu gecikmeksizin tespit ettirir, yoksa ispat yükü ona düşer; çabuk bozulan malı mahkeme aracılığıyla sattırabilir, gerekirse sattırmakla yükümlüdür."
+  },
+  {
+   "front_md": "Ticari satışta ayıp ihbar süreleri? (TTK m. 23/1-c)",
+   "back_md": "Teslimde açıkça belli ayıp: iki gün. Açıkça belli değilse: teslimden sonra sekiz gün içinde inceleme ve ihbar. Diğer (gizli) ayıplar: TBK m. 223/2, yani hemen."
+  },
+  {
+   "front_md": "İki gün ve sekiz gün tüketici satışında uygulanır mı?",
+   "back_md": "Hayır. Bu süreler tacirler arasındaki satışa özgüdür. TKHK m. 8-12'de ayıp bildirimi için süre öngörülmemiştir."
+  },
+  {
+   "front_md": "Tüketici satışında altı aylık karine? (TKHK m. 10/1)",
+   "back_md": "Teslimden itibaren altı ay içinde çıkan ayıp teslimde vardı sayılır; ayıplı olmadığını satıcı ispat eder. Malın veya ayıbın niteliğiyle bağdaşmıyorsa uygulanmaz."
+  },
+  {
+   "front_md": "Tüketici satışında üretici ve ithalatçıya karşı hangi haklar? (TKHK m. 11/2)",
+   "back_md": "Ücretsiz onarım ve ayıpsız misli ile değiştirme; satıcı, üretici ve ithalatçı müteselsilen sorumludur. Dönme ve bedelden indirim satıcıya karşı kullanılır."
+  },
+  {
+   "front_md": "Açık ve gizli ayıp ayrımında kimin bilgisi ölçüdür?",
+   "back_md": "Uzman bilirkişinin değil, ortalama (vasat) alıcının bilgisi."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

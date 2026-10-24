@@ -1,0 +1,1062 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 2,
+ "unit_title": "Ünite 2: Tapu Sicili",
+ "topic_index": 2,
+ "slug": "tescil-serh-ve-beyan",
+ "title": "Tescil, Şerh ve Beyan; Tescilin Şartları ve Etkisi",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:45:50.166820+00:00",
+ "skill_refs": [
+  "esya-hukuku/tapu-sicili-ve-iptal-tescil"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Tapu kütüğüne ne yazılır, bir kayıt hangi şartlarla yapılır ve yapılan (ya da yapılmayan) kayıt kime karşı, hangi tarihten itibaren sonuç doğurur?\n\n- **Üç tür kayıt:** Ayni haklar **tescil** edilir. Bazı kişisel haklar ve tasarruf kısıtlamaları **şerh** verilir. Bilgi niteliğindeki hususlar **beyanlar** sütununa yazılır.\n- **Tescil edilecek haklar (TMK m. 1008):** mülkiyet; irtifak hakları ve taşınmaz yükleri; rehin hakları. Liste sınırlıdır, kişisel haklar tescil edilmez.\n- **Kişisel hakların şerhi (TMK m. 1009):** arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım ve geri alım sözleşmelerinden doğan haklar ile şerhine kanunda açıkça izin verilen diğer haklar. Şerh, hakkı taşınmaz üzerinde **sonradan** hak kazananlara karşı ileri sürülebilir kılar. Hakkı ayni hakka dönüştürmez ve malikin tasarrufunu engellemez.\n- **Süreler:** Noterce düzenlenen satış vaadi ve arsa payı karşılığı inşaat sözleşmesi taraflardan birinin isteğiyle şerh verilir. Satış vaadi şerhinden itibaren **beş yıl** içinde satış yapılmazsa şerh re'sen terkin olunur (2644 sayılı Kanun m. 26). Sözleşmeden doğan önalım, alım ve geri alım şerhlerinin etkisi her durumda **on yılda** sona erer (TMK m. 735 ve 736).\n- **Tasarruf yetkisinin kısıtlanması şerhi (TMK m. 1010):** çekişmeli hakların korunmasına ilişkin mahkeme kararları (özellikle ihtiyati tedbir); haciz, iflas kararı ve konkordato süresi; aile yurdu, artmirasçı atanması gibi kanunda öngörülen işlemler. Etkisi kişisel hak şerhiyle aynıdır.\n- **Geçici tescil şerhi (TMK m. 1011):** iddia edilen bir ayni hakkın güvenceye alınması ya da tasarruf yetkisi belgelerindeki eksikliğin sonradan tamamlanması için verilir. Bütün ilgililerin rızası veya hâkim kararı gerekir. Hak gerçekleşirse şerh tarihinden itibaren üçüncü kişilere karşı ileri sürülür.\n- **Aile konutu şerhi (TMK m. 194/3):** Malik olmayan eş tapu müdürlüğünden ister. Açık rıza şartı kanundan doğar; şerh, üçüncü kişinin \"bilmiyordum\" savunmasını ortadan kaldırır.\n- **Beyanlar (TMK m. 1012):** eklentiler (malikin istemiyle), kamu hukuku kısıtlamaları ve yönetmelikte sayılan diğer hususlar. Beyan hak doğurmaz, bilgi verir.\n- **Tescilin şartları:** malikin yazılı **istemi** (TMK m. 1013), **tasarruf yetkisinin** ve **hukuki sebebin** belgelenmesi (TMK m. 1015). Hukuki sebep geçerlilik şekline uygun olmalıdır; taşınmaz satışı resmî şekle tabidir (TMK m. 706; TBK m. 237) ve resmî senedi tapu sicil müdürlüğü düzenler (2644 sayılı Kanun m. 26). Belgeler eksikse istem reddedilir (TMK m. 1016).\n- **Tescilin etkisi:** Kurulması tescile tabi ayni hak tescil edilmedikçe doğmaz (TMK m. 1021). Ayni haklar sıralarını ve tarihlerini tescile göre alır; gerekli belgeler isteme eklenmişse etki yevmiye defterine kayıt tarihinden başlar (TMK m. 1022).\n- 📌 **Yeni:** HUAK m. 18/B kapsamındaki uyuşmazlıklarda, icra edilebilirlik şerhi verilmiş arabuluculuk anlaşma belgesine dayanılarak resmî senet düzenlenmeden tescil istenebilir (7531 sayılı Kanunla 2024'te eklenen fıkra).",
+  "content_md": "## 0. Konunun haritası\n\nTapu sicilinin kuruluşunu ve açıklığını önceki konuda gördük. Bu konuda kütüğe **ne yazıldığını**, bir kaydın **hangi şartlarla** yapıldığını ve kaydın **ne sonuç doğurduğunu** inceliyoruz. Kütükteki kayıtlar üç gruba ayrılır:\n\n| Kayıt | Ne yazılır? | Temel etkisi |\n|---|---|---|\n| Tescil | Ayni haklar | Hakkı doğurur, sırasını belirler |\n| Şerh | Bazı kişisel haklar, kısıtlamalar | Sonraki hak sahiplerine karşı etki |\n| Beyan | Eklenti, kamu kısıtlaması vb. | Bilgi verir, hak doğurmaz |\n\nOlay sorusunda sırayla sor: Kayıt hangi türden? Usulüne uygun yapılmış mı? Kime karşı ve hangi tarihten itibaren etkili?\n\n> ⚠️ **Sınavda dikkat:** \"Tapuda yazıyor\" demek yetmez, kaydın türünü söyle: Kira şerh edilir, ipotek tescil edilir, eklenti beyan edilir.\n\n## 1. Tescil edilecek haklar (TMK m. 1008)\n\n**Tescil**, bir ayni hakkın tapu kütüğüne hak olarak kaydedilmesidir. TMK m. 1008'e göre taşınmaza ilişkin şu haklar tescil edilir:\n1. mülkiyet,\n2. irtifak hakları ve taşınmaz yükleri,\n3. rehin hakları.\n\nKütüğün her sayfasında bu haklar için özel sütunlar vardır (TMK m. 1000). Liste, eşya hukukundaki **sınırlı sayı** ilkesinin sicile yansımasıdır: Kanunun tanımadığı bir hak türü tescil edilemez. Kira ya da satış vaadi gibi kişisel haklar en fazla şerh edilir.\n\nTaşınmaz lehine kurulan irtifakların tescil ve terkini, hem yüklü hem de yararlanan taşınmazın sayfasına kaydedilir (TMK m. 1018).\n\n> **Örnek:** Ayşe'nin arsası üzerinde komşusu Mehmet'in arsası lehine geçit irtifakı kurulursa kayıt hem Ayşe'nin sayfasına (yük olarak) hem Mehmet'in sayfasına (hak olarak) yazılır.\n\n## 2. Tescilin şartları\n\nTapu memuru tescili kendiliğinden yapmaz. Üç şart aranır: **istem**, **tasarruf yetkisinin belgelenmesi** ve **hukuki sebebin belgelenmesi**.\n\n### 2.1 İstem (TMK m. 1013 ve 1014)\n**Tescil istemi**, tescilin yapılmasını isteyen ve tapu memuruna yöneltilen yazılı açıklamadır. Kural olarak tasarrufa konu taşınmazın **malikinin yazılı beyanı** gerekir (TMK m. 1013/1). Baskın görüşe göre bu istem, mülkiyeti geçiren **tasarruf işlemidir**: Satış sözleşmesi borç doğurur, mülkiyeti ise tescil istemi ve tescil geçirir.\n\nİki istisna vardır:\n- Edinen kişi **kanun hükmüne, kesinleşmiş mahkeme kararına veya buna eşdeğer bir belgeye** dayanıyorsa malikin beyanı gerekmez (TMK m. 1013/2).\n- Ayni hakkı **tescilden önce kazanan** kişi, gerekli belgeleri sunarak tescili kendisi isteyebilir (TMK m. 1013/3). Miras, mahkeme kararı, cebri icra ve kamulaştırma bunun tipik örnekleridir (TMK m. 705/2 ve TMK m. 716/2).\n\nBir tescilin **terkini veya değiştirilmesi** ise ancak kaydın kendilerine hak sağladığı kişilerin yazılı beyanı üzerine yapılabilir (TMK m. 1014); ipoteği bankanın beyanı olmadan malik sildiremez.\n\n> **Örnek:** Mahkeme, Zeynep'in açtığı tescile zorlama davasında dairenin Zeynep adına tesciline karar verir ve karar kesinleşir. Zeynep tapuya kararla başvurur; eski malik Ali'nin beyanına gerek yoktur.\n\n### 2.2 Tasarruf yetkisinin belgelenmesi (TMK m. 1015/2)\nİstemde bulunan kişi, ya **sicilde hak sahibi görünen kişi** olduğunu ya da onun **temsilcisi** olduğunu ispat etmelidir.\n- **Vekil:** Özel olarak yetkili kılınmadıkça taşınmazı devredemez ve bir hakla sınırlandıramaz (TBK m. 504/3). Tapuda işlem yapılmasını gerektiren vekâletnameler noterde düzenleme şeklinde yapılır (1512 sayılı Kanun m. 89).\n- **Vasi:** Vesayet altındaki kişinin taşınmazının satımı ve rehnedilmesi vesayet makamının iznine bağlıdır (TMK m. 462).\n- **Eş:** Aile konutunun devri ve üzerindeki hakların sınırlanması diğer eşin açık rızasına bağlıdır (TMK m. 194/1; aşağıda bölüm 4.4).\n\n### 2.3 Hukuki sebebin belgelenmesi (TMK m. 1015/3)\n**Hukuki sebep**, tescili haklı kılan temel işlem ya da olaydır: satış, bağışlama, irtifak sözleşmesi, mahkeme kararı, miras. Kanun, hukuki sebebin **geçerliliği için gerekli şekle uyulduğunun ispatını** ister.\n- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmeler resmî şekle tabidir (TMK m. 706/1; TBK m. 237/1).\n- Taşınmaz bağışlama sözü resmî şekle bağlıdır (TBK m. 288/2). İrtifak ve taşınmaz rehni kurma sözleşmeleri de resmî şekilde yapılır (TMK m. 781 ve TMK m. 856/2).\n- Ölüme bağlı tasarruflar ve mal rejimi sözleşmeleri kendi şekillerine tabidir (TMK m. 706/2). Mirasçı, mirasçılık belgesiyle tescil ister (TMK m. 598).\n\n**Resmî senedi kim düzenler?** 2644 sayılı Kanun m. 26'ya göre mülkiyete ve sınırlı ayni haklara ilişkin resmî senetleri **tapu sicil müdürü veya tapu sicil görevlileri** düzenler. Senedi taraflar ve hazırlayan görevliler imzalar, tapu sicil müdürü ya da görevlendirilen memur onaylar. Mülkiyetin devrini amaçlayan sözleşmede taraflar farklı tapu müdürlüklerindeyse iradeleri ayrı ayrı alınarak sözleşme tamamlanabilir. Bankaların ve kredi kuruluşlarının kredilerine karşılık ipotekler, tarafların istemi hâlinde imzalanan kredi veya borç sözleşmesine dayanılarak tescil olunur.\n\nNoterlerin de payı vardır:\n- **Taşınmaz satış vaadi** resmî şekle tabidir (TBK m. 237/2). Bu sözleşmeyi noter düzenleme şeklinde yapar (1512 sayılı Kanun m. 60 ve m. 89); taraflardan biri isterse sözleşme tapu siciline şerh verilir (2644 sayılı Kanun m. 26).\n- 7413 sayılı Kanunla 2022'de yapılan değişikliğe göre noter satış vaadini tapu bilişim sistemi üzerinden şerh verebilir ve taşınmaz satış sözleşmesi **noterlerce de** yapılabilir (1512 sayılı Kanun m. 60 ve m. 61/A). Bu hükümler, Kanunun geçici 21. maddesine göre bilişim sisteminin kurulduğunun Adalet Bakanlığınca duyurulmasıyla uygulanmaya başlar.\n\n> 📌 **Kesin bilgi (yeni):** 7531 sayılı Kanunla 2024'te HUAK m. 18/B'ye eklenen 5. fıkraya göre, bu maddedeki dava şartı arabuluculuğa tabi uyuşmazlıklarda (ör. ortaklığın giderilmesi) taşınmazın devrine veya sınırlı ayni hak kurulmasına ilişkin anlaşma belgesine icra edilebilirlik şerhi verildikten sonra taraflardan biri tapu müdürlüğünden tescil isteyebilir. Tapu müdürlüğü gerekli incelemeyi yaptıktan sonra **resmî senet düzenlemeden** tescili yapar.\n\n### 2.4 Belgeler eksikse (TMK m. 1016)\nTasarruf yetkisine ve hukuki sebebe ilişkin belgeler tamam değilse istem **reddedilir** (TMK m. 1016/1). Hukuki sebebe ilişkin belgeler tam olduğu hâlde yalnız tasarruf yetkisini gösteren belgenin tamamlanması gerekiyorsa, malikin rızası veya hâkimin kararıyla **geçici tescil şerhi** verilebilir (TMK m. 1016/2; bölüm 4.5).\n\n> **Örnek:** Selim ile Deniz bir tarlanın satışını adi yazılı bir sözleşmeyle yapıp tapuya götürür. Hukuki sebep geçerlilik şekline uygun belgelenmediği için istem reddedilir (TMK m. 1015/3 ve TMK m. 1016/1). Taraflar resmî senet düzenletmelidir.\n\n### 2.5 Yevmiye, sıra ve tebliğ\nTapu memuru istemin, yetkinin ve hukuki sebebin kanunun aradığı biçimde belgelenip belgelenmediğini denetler. Muvazaa gibi işlemin iç geçerliliğine ilişkin uyuşmazlıklar mahkemede çözülür.\n- **Yevmiye defteri:** Tescil istemleri, isteyenin kimliği ve istemin konusu belirtilerek istem sırasına göre derhâl yevmiye defterine yazılır (TMK m. 1002).\n- **Sıra:** Kütüğe tesciller istem tarihine ve sırasına göre yapılır (TMK m. 1017/1).\n- **Tebliğ:** Tapu memuru, ilgililerin bilgisi dışında yaptığı işlemleri onlara tebliğ eder; itiraz süresi tebliğden işlemeye başlar (TMK m. 1019).\n\n> 💡 **Püf nokta:** Tescil için üç soru sor: \"Kim istiyor? Yetkisi var mı? Hukuki sebep doğru şekilde mi?\" Birinin cevabı olumsuzsa istem reddedilir.\n\n## 3. Tescilin etkisi\n\n### 3.1 Kurucu etki (TMK m. 1021 ve 1022/1)\nKurulması kanunen tescile tabi ayni haklar, tescil edilmedikçe **varlık kazanamaz** (TMK m. 1021). Ayni haklar kütüğe tescille doğar ve **sıralarını ve tarihlerini** tescile göre alır (TMK m. 1022/1). Buna tescilin **kurucu etkisi** denir.\n\nTescil yapılmadıkça taraflar arasında yalnız bir **borç ilişkisi** vardır. Alıcı malik olmaz; satıcıdan tescili ister, satıcı kaçınırsa mahkemeden mülkiyetin hükmen geçirilmesini talep eder (TMK m. 716/1; ayrıntısı taşınmaz mülkiyetinin kazanılması konusunda).\n\n**İstisna, tescilsiz kazanmadır.** Miras, mahkeme kararı, cebri icra, işgal, kamulaştırma ve kanunda öngörülen diğer hâllerde mülkiyet tescilden önce kazanılır. Bu hâllerde tescil yalnız **açıklayıcıdır**. Ancak malik, mülkiyet tescil edilmeden tasarruf işlemi yapamaz (TMK m. 705/2).\n\n> **Örnek:** Kerem, babası Fikret'in 10 Ocak 2026'daki ölümüyle tek mirasçı olarak tarlanın maliki olur (TMK m. 599). Tapuda kayıt hâlâ Fikret adınadır. Kerem tarlayı satmak isterse önce mirasçılık belgesiyle tarlayı kendi adına tescil ettirmelidir.\n\n> **Örnek:** Burak ile komşusu Elif resmî şekilde geçit irtifakı sözleşmesi yapar, ama tescil yapılmaz (TMK m. 780/1). Elif taşınmazı Hakan'a satar. Burak'ın ayni hakkı doğmamıştır; Hakan'a karşı geçit hakkı ileri süremez, Elif'e karşı yalnız sözleşmeden doğan kişisel haklarını kullanır.\n\n### 3.2 Etkinin başlangıcı (TMK m. 1022/2)\nTescilin etkisi, kanunen gerekli belgeler isteme eklenmişse ya da geçici tescil hâlinde belgeler uygun zamanda tamamlanmışsa **yevmiye defterine kayıt tarihinden** başlar. Kütüğe yazma işleminin birkaç gün sonra yapılması bu tarihi değiştirmez.\n\n> **Örnek:** Cem'in tescil istemi bütün belgeleriyle 3 Mart saat 10.15'te yevmiye defterine yazılır, kütüğe kayıt 5 Mart'ta yapılır. Cem 3 Mart'tan itibaren maliktir. Satıcının alacaklısının 4 Mart'ta gelen haciz yazısı, artık Cem'e ait olan taşınmaza satıcının borcu için uygulanamaz.\n\n### 3.3 Hakkın içeriği (TMK m. 1022/3)\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya başka herhangi bir yolla belirlenir. Örneğin kütükte geçidin genişliği yazmıyorsa resmî senede ve plana bakılır.\n\n### 3.4 Aleniyet ve güven bağlantısı\nKimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). Bağlayıcı olmayan bir işleme dayanan ya da hukuki sebepten yoksun tescil ise **yolsuzdur** (TMK m. 1024/2). Yolsuz tescil, iyiniyetli üçüncü kişinin korunması (TMK m. 1023) ve tapu iptali ve tescil davası ayrı konuda incelenir.\n\n## 4. Şerhler\n\n### 4.1 Şerhin ortak mantığı\n**Şerh**, kişisel bir hakkın ya da bir tasarruf kısıtlamasının üçüncü kişilere karşı etki kazanması için kütüğe yazılmasıdır. Kanun iki türe de aynı sonucu bağlar: Şerh verilen hak ya da kısıtlama, **taşınmaz üzerinde sonradan kazanılan hakların** sahiplerine karşı ileri sürülebilir (TMK m. 1009/2 ve TMK m. 1010/2).\n\nÜç sonuç çıkar:\n1. **Hak kişisel kalır.** Şerh, satış vaadini ya da kirayı ayni hakka dönüştürmez; Yargıtay'a göre hak yalnız ayni hakka benzer bir güç kazanır.\n2. **Yalnız sonraki haklara karşı etkilidir.** Şerhten önce tescil edilmiş bir ipotek, şerh sahibine karşı da önceliğini korur.\n3. **Önleyici değildir.** Yargıtay Hukuk Genel Kurulu'na göre satış vaadi şerhi, malikin taşınmazı devretmesini, ipotek etmesini ya da taşınmazın haczedilmesini engellemez. Şerh sahibi, şerhten sonra kazanılan hakları kendi hakkı karşısında etkisiz bırakır.\n\n> 💡 **Püf nokta:** Şerhi bir sıra bileti gibi düşün: Taşınmazın el değiştirmesini durdurmaz, ama senden sonra gelen herkes senin hakkını kabul etmek zorundadır.\n\n### 4.2 Kişisel hakların şerhi (TMK m. 1009)\nŞerh edilebilecek kişisel haklar **sınırlıdır**: arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım ve geri alım sözleşmelerinden doğan haklar ile **şerhedilebileceği kanunlarda açıkça öngörülen** diğer haklar (TMK m. 1009/1). Bir ödünç alacağı ya da sıradan bir eser sözleşmesi alacağı şerh edilemez.\n\n**Satış vaadi ve arsa payı karşılığı inşaat:** 2644 sayılı Kanun m. 26'ya göre noterlerce düzenlenen satış vaadi ve arsa payı karşılığı inşaat sözleşmeleri, **taraflardan biri isterse** tapu siciline şerh verilir. Kanuna göre şerhten itibaren **beş yıl** içinde satış yapılmaz veya irtifak hakkı kurulup tescil edilmezse şerh, tapu sicil müdürü veya görevlilerince re'sen terkin olunur. Süre geçtiği hâlde terkin edilmemiş şerhin etkisi tartışmalıdır (doktrin bölümü).\n\n> **Örnek:** Ali, dairesini noterde yapılan satış vaadiyle Zeynep'e satmayı vaat eder ve sözleşme 11 Mart 2025'te şerh edilir. Ali daireyi 15 Ocak 2026'da Mehmet'e satar. Mehmet şerhten sonra malik olduğu için Zeynep hakkını ona karşı ileri sürebilir; Mehmet şerhi bilmediğini ya da iyiniyetli olduğunu ileri süremez (TMK m. 1020/3). Buna karşılık 2023'te tescil edilmiş bir banka ipoteği şerhten önce olduğundan Zeynep'e karşı da geçerlidir.\n\n**Kira:** Taşınmaz kiralarında kiracılık hakkının tapu siciline şerhi sözleşmeyle kararlaştırılabilir (TBK m. 312). Şerhle kira sözleşmesi, şerhten sonra taşınmazı edinenlere karşı ileri sürülebilir. Kiralanan el değiştirirse yeni malik zaten kira sözleşmesinin tarafı olur (TBK m. 310). Şerhin, yeni malikin sözleşmeyi sona erdirme imkânlarına etkisi kira hukukunda incelenir.\n\n**Alım, önalım, geri alım:** Alım ve geri alım sözleşmeleri resmî şekle, önalım sözleşmesi yazılı şekle tabidir (TBK m. 237/2 ve TBK m. 237/3). Şerh verilen bu haklar şerhte belirtilen süre içinde her malike karşı kullanılabilir. Şerhin etkisi **her durumda** şerh tarihinden itibaren **on yıl** geçmekle sona erer (TMK m. 735 ve 736). Ayrıntısı önalım konusunda.\n\n**Kanunlarda öngörülen diğer şerhlerden örnekler:**\n- Paydaşların yararlanma, kullanma ve yönetime ilişkin anlaşmaları, imzaları noterce onaylanmışsa şerh verilebilir (TMK m. 689/2). Bu kararların sonradan paydaş olanları bağlaması için şerh gerekir (TMK m. 695/2).\n- Taşınmazlarda paylı mülkiyetin devamına ilişkin sözleşmeler resmî şekle bağlıdır ve şerh verilebilir (TMK m. 698/2).\n- Önalım hakkından feragat resmî şekilde yapılır ve şerh verilir (TMK m. 733/2).\n- Sonraki rehinli alacaklılara boşalan dereceye geçme hakkı veren sözleşmeler ayni etkiyi şerhle kazanır (TMK m. 871/3).\n\n### 4.3 Tasarruf yetkisinin kısıtlanması şerhi (TMK m. 1010)\n**Tasarruf yetkisi kısıtlaması**, malikin taşınmaz üzerindeki tasarruflarının belirli bir kişi ya da amaç lehine sınırlandırılmasıdır. TMK m. 1010/1 üç grup sayar:\n1. **Çekişmeli hakların korunmasına ilişkin mahkeme kararları:** Bunların başında ihtiyati tedbir gelir. Hakkın elde edilmesinin önemli ölçüde zorlaşacağından endişe edilirse tedbire karar verilebilir (HMK m. 389) ve mahkeme bir şeyin yapılmaması da dahil her türlü tedbiri alabilir (HMK m. 391/1). Tapu iptali ve tescil davalarında taşınmazın devrinin önlenmesine ilişkin tedbirler tapuya şerh edilir. Ayrıca taşınmaz davasında davacı lehine hüküm verilirse mahkeme, davacının talebine gerek olmadan hüküm özetini tapuya bildirir; bu şerh TMK m. 1010/2'ye tabidir (İİK m. 28).\n2. **Haciz, iflas kararı veya konkordato ile verilen süre:** Taşınmazın haczi ile borçlunun tasarruf hakkı kısıtlanır ve haciz icra dairesince tapu siciline bildirilir (İİK m. 91).\n3. **Şerh verilmesi kanunen öngörülen diğer işlemler:** aile yurdu (TMK m. 390), artmirasçıya geçirme yükümlülüğü (TMK m. 523/2), hâkimin eşlerden birinin taşınmaz üzerindeki tasarruf yetkisini kaldırması (TMK m. 199/3).\n\nEtkisi kişisel hak şerhiyle aynıdır: Kısıtlama, şerhten sonra hak kazananlara karşı ileri sürülebilir (TMK m. 1010/2). Aile yurdunda şerh bundan da fazlasını yapar: Taşınmaz ancak izne ilişkin mahkeme kararının tapuya şerh verilmesiyle aile yurdu hâline gelir (TMK m. 390).\n\n> **Örnek:** Selin, Kaan aleyhine açtığı tapu iptali ve tescil davasında ihtiyati tedbir alır ve tedbir 2 Nisan'da tapuya şerh edilir. Kaan 10 Nisan'da taşınmazı bankaya ipotek eder. Banka şerhi bilmediğini ileri süremez; Selin davayı kazanırsa ipotek ona karşı ileri sürülemez. Kaan dava sırasında taşınmazı devrederse Selin, isterse davaya devralana karşı devam eder (HMK m. 125/1-a).\n\n> ⚠️ **Sınavda dikkat:** Haciz şerhi taşınmazın satışını kendiliğinden yasaklamaz; alıcı haczi taşıyan bir taşınmaz satın alır. Doğru soru \"şerh, sonradan hak kazanana karşı ileri sürülebilir mi?\" sorusudur.\n\n### 4.4 Aile konutu şerhi (TMK m. 194)\nEşlerden biri, diğer eşin **açık rızası** olmadıkça aile konutuyla ilgili kira sözleşmesini feshedemez, aile konutunu devredemez ve konut üzerindeki hakları sınırlayamaz (TMK m. 194/1). Rızayı sağlayamayan ya da haklı bir sebep olmadan rıza verilmeyen eş hâkimin müdahalesini isteyebilir (TMK m. 194/2). Aile konutu olarak özgülenen taşınmazın **maliki olmayan eş**, gerekli şerhin verilmesini doğrudan **tapu müdürlüğünden** isteyebilir (TMK m. 194/3).\n\nDikkat edilecek nokta, kısıtlamanın şerhten değil **doğrudan kanundan** doğmasıdır. Şerh, kısıtlamayı herkesin bilebileceği hâle getirir. Yargıtay Hukuk Genel Kurulu'na göre:\n- **Şerh varsa** üçüncü kişi, konutun aile konutu olduğunu bilmediğini ileri süremez (TMK m. 1020/3).\n- **Şerh yoksa** konutun aile konutu olduğunu bilmeyen ve bilmesi de gerekmeyen üçüncü kişi, tapu siciline güvenden (TMK m. 1023) yararlanır. Bilen ya da gerekli özeni gösterseydi bilebilecek olan korunmaz; örneğin kendi değerlendirme raporunda konutun mesken olarak kullanıldığı görülen banka iyiniyetli sayılmamıştır.\n\n> **Örnek:** Okan'ın eşi Nesrin adına kayıtlı daire ailenin konutudur. Okan tapu müdürlüğüne başvurarak aile konutu şerhi koydurur. Nesrin daireyi Okan'ın açık rızası olmadan satarsa alıcı, şerh karşısında iyiniyet iddiasında bulunamaz.\n\n### 4.5 Geçici tescil şerhi (TMK m. 1011 ve 1016/2)\n**Geçici tescil şerhi**, henüz kesinleşmemiş bir ayni hakkın ya da eksik bir belgenin sırasını önceden güvenceye alan şerhtir. Kanun iki hâlde verilmesine izin verir (TMK m. 1011/1):\n1. iddia edilen bir ayni hakkın güvence altına alınması gerekiyorsa,\n2. kanun, tasarruf yetkisini belirleyen belgelerdeki eksikliklerin sonradan tamamlanmasına olanak tanıyorsa (TMK m. 1016/2 ile birlikte).\n\n- **Kim karar verir?** Bütün ilgililerin rızası ya da hâkimin kararı gerekir (TMK m. 1011/2). Hâkim, tarafları dinleyerek veya dosya üzerinden inceleyerek hakkın varlığının kabul edilebileceği kanaatine varırsa şerh kararı verir. Kararda şerhin etki bakımından süresi ve içeriği belirlenir; gerekirse mahkemeye başvurmak için süre verilir (TMK m. 1011/3).\n- **Etkisi:** Şerhin konusu olan hak sonradan gerçekleşirse **şerh tarihinden başlayarak** üçüncü kişilere karşı ileri sürülebilir (TMK m. 1011/2).\n\n> **Örnek:** Usta Kemal'in üstlendiği tadilat 1 Haziran'da biter. Yapı alacaklısının kanuni ipoteği işin tamamlanmasından başlayarak üç ay içinde tescil edilmelidir ve bunun için alacağın malik tarafından kabul edilmesi ya da mahkemece karara bağlanması gerekir (TMK m. 895). Malik alacağı tanımayınca Kemal dava açar ve 15 Haziran'da hâkim kararıyla geçici tescil şerhi verilir. Malik 1 Temmuz'da taşınmazı bankaya ipotek eder. Kemal davayı kazanıp ipoteğini tescil ettirdiğinde hakkı 15 Haziran'dan itibaren üçüncü kişilere karşı ileri sürülebilir; Temmuz'daki banka ipoteği ona üstün gelmez.\n\n## 5. Beyanlar (TMK m. 1012)\n**Beyan**, taşınmazın hukuki durumu hakkında bilgi veren ve kendiliğinden hak doğurmayan kayıttır. Beyanlar sütununa şunlar yazılır:\n- **Eklentiler:** Malikin istemi üzerine yazılır. Bu kaydın terkini, kütükte hak sahibi görünen bütün ilgililerin rızasına bağlıdır (TMK m. 1012/1; TMK m. 1000/4). Eklentinin tanımı TMK m. 686'dadır.\n- **Kamu hukuku kısıtlamaları** ve bu sütuna yazılabilecek diğer hususlar Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir (TMK m. 1012/2). Özel kanun hükümleri saklıdır (TMK m. 1012/3).\n- **Kanundaki diğer örnekler:** heyelan bölgesinde bulunma (TMK m. 710/3), doğrudan kanundan doğan sürekli geçit hakları (TMK m. 748/3), yapı alacaklıları bakımından işe başlandığı (TMK m. 897/3), kat mülkiyetinde yönetim planının ve değişikliklerinin tarihi (KMK m. 28/5).\n\nBeyan hak doğurmasa da bazı sonuçlara bağlanabilir. Rehnin kuruluşu sırasında açıkça eklenti olarak gösterilip beyanlar sütununa yazılan makine, otel döşeme eşyası gibi şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır (TMK m. 862/2). Bu bir **karinedir**. İşe başlandığı beyan edildikten sonra da tescil süresinin sonuna kadar taşınmaz üzerinde ipotekten başka türde rehin tescil edilemez (TMK m. 897/3).\n\n> **Örnek:** Otel sahibi Can, otelini bankaya ipotek ederken mutfak ekipmanlarını eklenti olarak beyan ettirir. Ekipmanlar, aksi ispat edilmedikçe eklenti sayılır ve ipoteğin kapsamına girer. Can bu kaydı bankanın rızası olmadan sildiremez.\n\n> ⚠️ **Sınavda dikkat:** \"Beyanlar sütununda yazıyor, demek ki hak doğmuş\" deme. Kanundan doğan geçit hakkı tescilsiz doğar, beyan yalnız onu gösterir (TMK m. 748/3). Aile konutu ve haciz ise beyan değil, şerhtir.\n\n## 6. Tescil ile şerh arasındaki fark\n\n| Ölçüt | Tescil | Şerh |\n|---|---|---|\n| Konu | Ayni hak (TMK m. 1008) | Kişisel hak, kısıtlama |\n| Hakkın niteliği | Ayni hak doğar | Hak kişisel kalır |\n| Kime karşı | Herkese | Şerhten sonra hak kazananlara |\n\n## 7. Olay çözerken denetim şeması\n1. **Kaydı nitelendir:** tescil mi, şerh mi (hangi tür), beyan mı?\n2. **Tescil şartları:** istem (TMK m. 1013), tasarruf yetkisi ve hukuki sebep (TMK m. 1015), resmî senet (TMK m. 706; TBK m. 237; 2644 sayılı Kanun m. 26). Eksiklik varsa ret mi, geçici tescil şerhi mi (TMK m. 1016)?\n3. **Tescil yapılmış mı?** Yapılmamışsa ayni hak doğmamıştır (TMK m. 1021); tescilsiz kazanma istisnası var mı (TMK m. 705/2)?\n4. **Tarih ve sıra:** yevmiye tarihi (TMK m. 1022/2), istem sırası (TMK m. 1017).\n5. **Şerh ise:** Şerh edilebilen bir hak ya da kısıtlama mı (TMK m. 1009 ve 1010)? Süresi dolmuş mu (2644 sayılı Kanun m. 26; TMK m. 735 ve 736)?\n6. **Karşı taraf ne zaman hak kazandı?** Şerhten sonraysa şerh ona karşı ileri sürülür ve \"bilmiyordum\" savunması dinlenmez (TMK m. 1020/3).\n7. **Özel sonuçlar:** geçici tescil şerhinin etkisi ve beyanlara bağlanan karineler (TMK m. 1011, 862/2).",
+  "critical_md": "- 📌 Tescil edilen haklar yalnız üçtür: mülkiyet; irtifak hakları ve taşınmaz yükleri; rehin hakları (TMK m. 1008). Kişisel haklar tescil edilmez.\n- 📌 Şerh edilebilen kişisel haklar: arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, geri alım ve şerhine kanunda açıkça izin verilen diğer haklar (TMK m. 1009/1).\n- ⚠️ Şerh hakkı ayni hakka dönüştürmez; yalnız taşınmaz üzerinde **sonradan** hak kazananlara karşı ileri sürülebilir kılar (TMK m. 1009/2 ve TMK m. 1010/2). Şerhten önce tescil edilen ipotek önceliğini korur.\n- ⚠️ Şerh önleyici değildir: Yargıtay Hukuk Genel Kurulu'na göre satış vaadi şerhi devri, ipoteği ve haczi engellemez. Vaat alacaklısı bu yüzden haczin kaldırılması için şikâyet yoluna da gidemez.\n- 📌 Noterce düzenlenen satış vaadi ve arsa payı karşılığı inşaat sözleşmesi taraflardan biri isterse şerh verilir. Satış vaadi şerhinden itibaren beş yıl içinde satış yapılmazsa şerh re'sen terkin olunur (2644 sayılı Kanun m. 26).\n- 📌 Sözleşmeden doğan önalım, alım ve geri alım şerhinin etkisi her durumda şerh tarihinden itibaren on yılda sona erer (TMK m. 735 ve 736).\n- 📌 Tasarruf yetkisi kısıtlaması şerhinin üç grubu: çekişmeli hakların korunmasına ilişkin mahkeme kararları; haciz, iflas kararı, konkordato süresi; aile yurdu, artmirasçı atanması gibi kanunda öngörülen işlemler (TMK m. 1010).\n- 📌 Geçici tescil şerhi için bütün ilgililerin rızası ya da hâkim kararı gerekir. Hak gerçekleşirse şerh tarihinden itibaren üçüncü kişilere karşı ileri sürülür (TMK m. 1011).\n- ⚠️ Aile konutu şerhini malik olmayan eş doğrudan tapu müdürlüğünden ister (TMK m. 194/3). Rıza şartı kanundan doğar; şerh varken üçüncü kişi iyiniyet iddia edemez.\n- 📌 Eklentiler malikin istemiyle beyanlar sütununa yazılır; terkini kütükte hak sahibi görünen bütün ilgililerin rızasına bağlıdır (TMK m. 1012/1). Beyan hak doğurmaz, ama rehinde eklenti karinesi doğurabilir (TMK m. 862/2).\n- 📌 Tescil, malikin yazılı beyanı üzerine yapılır; edinen kanuna, kesinleşmiş mahkeme kararına veya eşdeğer belgeye dayanıyorsa bu beyan gerekmez (TMK m. 1013). Terkin ve değişiklik için kaydın hak sağladığı kişilerin yazılı beyanı gerekir (TMK m. 1014).\n- 📌 Tasarruf yetkisi ve hukuki sebep belgelenmelidir; hukuki sebep, geçerlilik şekline uyulduğu ispat edilerek belgelenir (TMK m. 1015). Belgeler eksikse istem reddedilir (TMK m. 1016/1).\n- ⚠️ Vekil özel olarak yetkili kılınmadıkça taşınmazı devredemez ve bir hakla sınırlandıramaz (TBK m. 504/3). Genel vekâletnameyle tapuda satış yapılamaz.\n- 📌 Tescile tabi ayni hak tescilsiz doğmaz (TMK m. 1021). Etki, belgeler tamsa yevmiye defterine kayıt tarihinden başlar; kütüğe sonradan yazılması sonucu değiştirmez (TMK m. 1022/2). Tescilsiz kazanan da tasarruf için önce tescil ettirmelidir (TMK m. 705/2).\n- 📌 HUAK m. 18/B kapsamındaki uyuşmazlıklarda icra edilebilirlik şerhli anlaşma belgesiyle resmî senet düzenlenmeden tescil istenebilir (7531 sayılı Kanunla 2024'te eklenen fıkra).",
+  "doctrine_md": "### Şerh kişisel hakka ne kazandırır?\nKanun yalnız şerhli hakkın \"sonradan kazanılan hakların sahiplerine karşı\" ileri sürülebileceğini söyler. Baskın görüşe göre şerhli hak kişisel hak olarak kalır, ama ayni hakka benzer bir güç kazanır; Yargıtay da bu yaklaşımı benimser. Öğretideki yaygın açıklamaya göre şerhin iki etkisi vardır. Borç doğana kadar, şerhten sonraki her maliki kendi malikliği sırasında doğan borçla yükümlü kılar (eşyaya bağlı borç etkisi). Borç doğduktan sonra ise şerhten sonra hak kazanıp alacaklının hakkını engelleyenlerin haklarını onun karşısında etkisiz bırakır. Bu iki etki şerhle doğduğu için şerh bu bakımdan kurucudur.\n\n### Beş yılı geçen satış vaadi şerhi\n2644 sayılı Kanun m. 26, şerhten itibaren beş yıl içinde satış yapılmazsa şerhin re'sen terkin olunacağını söyler. Süre dolduğu hâlde şerh sicilde kalmışsa ne olur?\n- **Yargıtay Hukuk Genel Kurulu çoğunluğu:** Hüküm, tapu memuruna kendiliğinden terkin yetkisi vermez; tapu memuru basit yazı yanlışları dışında sicili kendiliğinden düzeltemez (TMK m. 1027). Hüküm, şerhin malikin istemiyle terkin edilebileceği biçiminde anlaşılmalıdır. Terkin edilmeyen şerh etkisini sürdürür ve şerhi görerek taşınmazı alan kişi TMK m. 1023 anlamında iyiniyetli sayılmaz.\n- **Karşı görüş:** Beş yılın dolmasıyla şerh üçüncü kişiler bakımından hukuki değerini yitirir ve her an idari bir işlemle silinebilir. Bu şerhe rağmen taşınmazı alan kişi, şerhin artık kendisine karşı ileri sürülemeyeceğine güvenmiştir ve iyiniyetlidir.\n\nSınavda önce süreyi ve kanunun lafzını yaz, sonra iki görüşü tartış.\n\n### Aile konutu şerhinin niteliği\nAile konutu şerhinin kişisel hak şerhi mi, tasarruf yetkisi kısıtlaması şerhi mi olduğu tartışılır. Ortak nokta, açık rıza şartının şerhten değil TMK m. 194/1'den doğmasıdır; şerh bu bakımdan açıklayıcıdır. Yargıtay Hukuk Genel Kurulu'na göre şerh yoksa iyiniyetli üçüncü kişi TMK m. 1023 korumasından yararlanır, ancak iyiniyet her olayda ayrıca araştırılır ve özellikle bankalardan konutun fiilî kullanımını incelemeleri beklenir. Öğretideki bir görüş ise aile birliğinin korunması amacını öne çıkararak rızasız işlemin şerh bulunmasa da üçüncü kişiye karşı sonuç doğurmaması gerektiğini savunur.\n\n### Tescil isteminin niteliği\nBaskın görüşe göre mülkiyeti geçiren tasarruf işlemi, malikin tapu memuruna yönelttiği tek taraflı tescil istemidir; satış sözleşmesi ise borçlandırıcı işlemdir. Bir görüş, taraflar arasında ayrıca bir ayni sözleşme bulunduğunu kabul eder. Tasarruf işleminin geçerli bir hukuki sebebe bağlı olduğu konusunda ise görüş birliği vardır: Hukuki sebepten yoksun tescil yolsuzdur (TMK m. 1024/2).",
+  "glossary": [
+   {
+    "term": "Tescil",
+    "definition": "Bir ayni hakkın tapu kütüğüne hak olarak kaydedilmesi. Tescile tabi ayni haklar tescille doğar ve sırasını ondan alır (TMK m. 1022)."
+   },
+   {
+    "term": "Terkin",
+    "definition": "Kütükteki bir kaydın silinmesi. Kural olarak kaydın kendilerine hak sağladığı kişilerin yazılı beyanına bağlıdır (TMK m. 1014)."
+   },
+   {
+    "term": "Şerh",
+    "definition": "Kişisel bir hakkın ya da tasarruf kısıtlamasının, taşınmaz üzerinde sonradan hak kazananlara karşı ileri sürülebilmesi için kütüğe yazılması."
+   },
+   {
+    "term": "Tasarruf yetkisi kısıtlaması",
+    "definition": "Malikin taşınmaz üzerindeki tasarruflarının mahkeme kararı, haciz, iflas veya kanunda öngörülen bir işlemle sınırlandırılması (TMK m. 1010)."
+   },
+   {
+    "term": "Geçici tescil şerhi",
+    "definition": "İddia edilen bir ayni hakkın ya da sonradan tamamlanacak bir belgenin sırasını önceden güvenceye alan şerh (TMK m. 1011)."
+   },
+   {
+    "term": "Beyan",
+    "definition": "Taşınmazın hukuki durumu hakkında bilgi veren ve kendiliğinden hak doğurmayan kayıt (TMK m. 1012)."
+   },
+   {
+    "term": "Tescil istemi",
+    "definition": "Tescilin yapılması için tapu memuruna yöneltilen yazılı açıklama. Kural olarak malik tarafından yapılır (TMK m. 1013)."
+   },
+   {
+    "term": "Tasarruf yetkisi",
+    "definition": "Bir hak üzerinde tasarruf edebilme yetkisi. Tapuda, sicilde hak sahibi görünen kişi ya da onun temsilcisi olunduğu ispat edilerek belgelenir (TMK m. 1015/2)."
+   },
+   {
+    "term": "Hukuki sebep",
+    "definition": "Tescili haklı kılan temel işlem ya da olay: satış, bağışlama, irtifak sözleşmesi, mahkeme kararı, miras."
+   },
+   {
+    "term": "Resmî senet",
+    "definition": "Mülkiyete ve sınırlı ayni haklara ilişkin işlemler için kural olarak tapu sicil müdürlüğünde düzenlenen resmî belge (2644 sayılı Kanun m. 26)."
+   },
+   {
+    "term": "Yevmiye defteri",
+    "definition": "Tescil istemlerinin geliş sırasına göre derhâl yazıldığı defter. Tescilin etkisi buradaki kayıt tarihinden başlar (TMK m. 1002 ve 1022)."
+   },
+   {
+    "term": "Kurucu ve açıklayıcı tescil",
+    "definition": "Kurucu tescil ayni hakkı doğurur (TMK m. 1021). Tescilsiz kazanma hâllerinde tescil yalnız açıklayıcıdır, ama tasarruf için gereklidir (TMK m. 705/2)."
+   },
+   {
+    "term": "Aile konutu şerhi",
+    "definition": "Malik olmayan eşin tapu müdürlüğünden isteyebildiği ve taşınmazın aile konutu olduğunu gösteren şerh (TMK m. 194/3)."
+   },
+   {
+    "term": "Taşınmaz satış vaadi",
+    "definition": "Taraflara ileride taşınmaz satış sözleşmesi yapma borcu yükleyen, resmî şekle bağlı sözleşme (TBK m. 237/2). Mülkiyeti geçirmez, şerh edilebilir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1008",
+   "official_text": "1. Tescil\nMadde 1008- Taşınmaza ilişkin aşağıdaki haklar, tapu kütüğüne tescil edilir:\n1. Mülkiyet,\n2. İrtifak hakları ve taşınmaz yükleri,\n3. Rehin hakları.\n2. Şerhler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1009",
+   "official_text": "a. Kişisel haklarda\nMadde 1009- Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, gerialım sözleşmelerinden doğan haklar ile şerhedilebileceği kanunlarda açıkça öngörülen diğer haklar tapu kütüğüne şerhedilebilir.\nBunlar şerh verilmekle o taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1010",
+   "official_text": "b. Tasarruf yetkisinin kısıtlanmasında\nMadde 1010- Aşağıdaki sebeplere dayanan tasarruf yetkisi kısıtlamaları, tapu kütüğüne şerh verilebilir:\n1. Çekişmeli hakların korunmasına ilişkin mahkeme kararları,\n2. Haciz, iflâs kararı veya konkordato ile verilen süre,\n3. Aile yurdu kurulması, artmirasçı atanması gibi şerh verilmesi kanunen öngörülen işlemler.\nTasarruf yetkisi kısıtlamaları, şerh verilmekle taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1011",
+   "official_text": "c. Geçici tescil şerhi\nMadde 1011- Aşağıdaki hâllerde geçici tescil şerhi verilebilir:\n1. İddia edilen bir aynî hakkın güvence altına alınması gerekiyorsa,\n2. Tasarruf yetkisini belirleyen belgelerdeki noksanlıkların sonradan tamamlanmasına kanun olanak tanıyorsa.\nGeçici tescil şerhi, bütün ilgililerin razı olmasına veya hâkimin karar vermesine bağlıdır. Şerhin konusu olan hak sonradan gerçekleşirse, şerh tarihinden başlayarak üçüncü kişilere karşı ileri sürülebilir.\nGeçici tescil şerhi verilmesi istemi üzerine hâkim, tarafları dinleyerek veya dosya üzerinde inceleme yaparak şerhe konu olan hakkın varlığının kabul edilebileceği kanaatına varırsa, şerh kararı verir. Kararda şerhin etki bakımından süresi ve içeriği belirlenir; gerektiğinde mahkemeye başvurulması için bir süre verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1012",
+   "official_text": "3. Beyanlar\nMadde 1012- Bir taşınmazın eklentileri, malikin istemi üzerine kütükteki beyanlar sütununa yazılır. Bu kaydın terkini, kütükte hak sahibi görünen bütün ilgililerin rızasına bağlıdır.\nTaşınmaz mülkiyetine ilişkin kamu hukuku kısıtlamalarının beyanlar sütununa yazılması ve bu sütuna yazılabilecek diğer hususlar Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[48]\nÖzel kanun hükümleri saklıdır.\nII. Tescilin ve terkinin koşulları\n1. İstem\n[48] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1013",
+   "official_text": "a. Tescil için\nMadde 1013- Tescil, tasarrufa konu olan taşınmaz malikinin yazılı beyanı üzerine yapılır.\nEdinen kimse, kanun hükmüne, kesinleşmiş mahkeme kararına veya buna eşdeğer bir belgeye dayanıyorsa, bu beyana gerek yoktur.\nBir aynî hakkı tescilden önce kazanan kimse, gerekli belgeleri ibraz ederek tescili isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1014",
+   "official_text": "b. Terkin ve değişiklik için\nMadde 1014- Bir tescilin terkin edilmesi veya değiştirilmesi, ancak bu kaydın kendilerine hak sağladığı kimselerin yazılı beyanı üzerine yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1015",
+   "official_text": "2. Yetkinin ve sebebin belirlenmesi\nMadde 1015- Tescil, terkin ve değişiklik gibi tasarruf işlemlerinin yapılabilmesi, istemde bulunanın, tasarruf yetkisini ve hukukî sebebi belgelemiş olmasına bağlıdır.\nİstemde bulunan kimse, kendisinin, sicilde hak sahibi görünen kişi veya bu kişinin temsilcisi olduğunu ispat etmek suretiyle tasarruf yetkisini belgelemiş olur.\nHukukî sebebin belgelenmesi, bu sebebin geçerliliği için gerekli şekle uyulduğunun ispatı suretiyle olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1016",
+   "official_text": "3. Belgelerin tamamlanması\nMadde 1016- Tasarruf yetkisine ve hukukî sebebe ilişkin belgeler tamam değilse istem reddedilir.\nBununla birlikte, hukukî sebebe ilişkin belgeler tamam olmasına rağmen, tasarruf yetkisini belirten belgenin tamamlanması gereken hâllerde, malikin rızası veya hâkimin kararıyla geçici tescil şerhi verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1017",
+   "official_text": "1. Genel olarak\nMadde 1017- Kütüğe tesciller, istem tarihine ve sırasına göre yapılır.\nSicildeki kaydın bir örneği isteyen ilgiliye verilir.\nTescil ve terkin ile verilecek örneklerin şekli Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[49]\n[49] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1018",
+   "official_text": "2. Taşınmaz lehine irtifaklarda\nMadde 1018- Taşınmaz lehine irtifakların tescil ve terkini hem yüklü, hem yararlanan taşınmazların sayfalarına kaydedilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1019",
+   "official_text": "IV. Tebliğ zorunluluğu\nMadde 1019- Tapu memuru, ilgililerin bilgisi dışında yaptığı işlemleri onlara tebliğ etmekle yükümlüdür.\nİlgililerin bu işlemlere karşı itiraz süresi, kendilerine yapılan tebliğ tarihinden işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1020",
+   "official_text": "C. Tapu sicilinin açıklığı\nMadde 1020- Tapu sicili herkese açıktır.\nİlgisini inanılır kılan herkes, tapu kütüğündeki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini veya bunların örneklerinin verilmesini isteyebilir.\nKimse tapu sicilindeki bir kaydı bilmediğini ileri süremez.\nD. Tescilin etkileri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1021",
+   "official_text": "I. Tescilin yapılmamasının sonuçları\nMadde 1021- Kurulması kanunen tescile tâbi aynî haklar, tescil edilmedikçe varlık kazanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1022",
+   "official_text": "1. Genel olarak\nMadde 1022- Aynî haklar, kütüğe tescil ile doğar; sıralarını ve tarihlerini tescile göre alır.\nTescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş veya geçici tescil hâlinde belgelerin uygun zamanda tamamlanmış olması koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar.\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya diğer herhangi bir yolla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1024",
+   "official_text": "3. İyiniyetli olmayan üçüncü kişilere karşı\nMadde 1024- Bir aynî hak yolsuz olarak tescil edilmiş ise, bunu bilen veya bilmesi gereken üçüncü kişi bu tescile dayanamaz.\nBağlayıcı olmayan bir hukukî işleme dayanan veya hukukî sebepten yoksun bulunan tescil yolsuzdur.\nBöyle bir tescil yüzünden aynî hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir.\nE. Terkin ve değiştirme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1027",
+   "official_text": "III. Düzeltme\nMadde 1027- İlgililerin yazılı rızaları olmadıkça, tapu memuru, tapu sicilindeki yanlışlığı ancak mahkeme kararıyla düzeltebilir.\nDüzeltme, eski tescilin terkini ve yeni bir tescilin yapılması biçiminde de olabilir.\nTapu memuru, basit yazı yanlışlıklarını, Cumhurbaşkanınca çıkarılan yönetmelik uyarınca re'sen düzeltir.[50]\n[50] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkrada yer alan “tüzük kuralları” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelik” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1000",
+   "official_text": "a. Tapu kütüğü\nMadde 1000- Her taşınmaza kütükte bir sayfa ayrılır ve sayfa numaraları birbirini izler.\nBir taşınmazın bölünmesi veya birden çok taşınmazın birleştirilmesi hâlinde uyulacak usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[46]\nKütüğün her sayfasındaki özel sütunlara şunlar tescil edilir:\n1. Mülkiyet,\n2. Taşınmaz üzerinde kurulmuş olan veya o taşınmaz lehine başka taşınmaz üzerinde kurulmuş bulunan irtifak hakları ile taşınmaz yükü,\n3. Taşınmaz üzerindeki rehin hakları.\nEklentiler, malikin isteği üzerine beyanlar sütununa kaydedilir. Yapılan bu kayıt, ancak kütükte hak sahibi olarak görünenlerin rızasıyla kütükten silinebilir.\nAynı malike ait olan birden çok taşınmaz, sınırları birbirine bitişik olmasa bile, malikin istemiyle kütükte ortak bir sayfaya kaydedilebilir. Bu sayfaya yapılan rehin tescilleri, o sayfada kayıtlı bulunan bütün taşınmazları bağlar; aynı sayfada kayıtlı bu gibi taşınmazlardan bir kısmı malikin istemi üzerine veya mahkeme kararıyla o sayfadan çıkarılırsa, çıkarılan taşınmazlar üzerinde tescil edilmiş bulunan haklar saklı kalır.\n[46] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1002",
+   "official_text": "c. Yevmiye defteri ve belgeler\nMadde 1002- Tapu kütüğüne tescil istemleri, isteyenin kimliği ve istemin konusu belirtilerek istem sırasına göre derhâl yevmiye defterine yazılır.\nBu işlemlerin dayanağı olan belgeler, özenle sıraya konulur ve saklanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "194",
+   "official_text": "II. Aile konutu\nMadde 194- Eşlerden biri, diğer eşin açık rızası bulunmadıkça, aile konutu ile ilgili kira sözleşmesini feshedemez, aile konutunu devredemez veya aile konutu üzerindeki hakları sınırlayamaz.\nRızayı sağlayamayan veya haklı bir sebep olmadan kendisine rıza verilmeyen eş, hâkimin müdahalesini isteyebilir.\nAile konutu olarak özgülenen taşınmaz malın maliki olmayan eş, tapu kütüğüne konutla ilgili gerekli şerhin verilmesini tapu müdürlüğünden isteyebilir.[17]\nAile konutu eşlerden biri tarafından kira ile sağlanmışsa, sözleşmenin tarafı olmayan eş, kiralayana yapacağı bildirimle sözleşmenin tarafı hâline gelir ve bildirimde bulunan eş diğeri ile müteselsilen sorumlu olur.\nE. Birliğin korunması\n[17] 6/2/2014 tarihli ve 6518 sayılı Kanunun 44 üncü maddesiyle bu fıkrada yer alan “şerhin verilmesini” ibaresinden sonra gelmek üzere “tapu müdürlüğünden” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "199",
+   "official_text": "V. Tasarruf yetkisinin sınırlanması\nMadde 199 - Ailenin ekonomik varlığının korunması veya evlilik birliğinden doğan malî bir yükümlülüğün yerine getirilmesi gerektirdiği ölçüde, eşlerden birinin istemi üzerine hâkim, belirleyeceği malvarlığı değerleriyle ilgili tasarrufların ancak onun rızasıyla yapılabileceğine karar verebilir.\nHâkim bu durumda gerekli önlemleri alır.\nHâkim, eşlerden birinin taşınmaz üzerinde tasarruf yetkisini kaldırırsa, re'sen durumun tapu kütüğüne şerhedilmesine karar verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "390",
+   "official_text": "c. Tapu kütüğüne şerh verilmesi\nMadde 390- Bir taşınmazın aile yurdu hâline getirilmesi, ancak izne ilişkin mahkeme kararının o taşınmazın tapu kütüğüne şerh verilmesiyle mümkün olur; bu husus mahkemece ilân edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "462",
+   "official_text": "I. Vesayet makamından\nMadde 462- Aşağıdaki hâllerde vesayet makamının izni gereklidir:\n1. Taşınmazların alımı, satımı, rehnedilmesi ve bunlar üzerinde başka bir aynî hak kurulması,\n2. Olağan yönetim ve işletme ihtiyaçları dışında kalan taşınır veya diğer hak ve değerlerin alımı, satımı, devri ve rehnedilmesi,\n3. Olağan yönetim sınırlarını aşan yapı işleri,\n4. Ödünç verme ve alma,\n5. Kambiyo taahhüdü altına girme,\n6. Bir yıl veya daha uzun süreli ürün ve üç yıl veya daha uzun süreli taşınmaz kirası sözleşmeleri yapılması,\n7. Vesayet altındaki kişinin bir sanat veya meslekle uğraşması,\n8. Acele hâllerde vasinin geçici önlemler alma yetkisi saklı kalmak üzere, dava açma, sulh olma, tahkim ve konkordato yapılması,\n9. Mal rejimi sözleşmeleri, mirasın paylaştırılması ve miras payının devri sözleşmeleri yapılması,\n10. Borç ödemeden aciz beyanı,\n11. Vesayet altındaki kişi hakkında hayat sigortası yapılması,\n12. Çıraklık sözleşmesi yapılması,\n13. Vesayet altındaki kişinin bir eğitim, bakım veya sağlık kurumuna yerleştirilmesi,\n14. Vesayet altındaki kişinin yerleşim yerinin değiştirilmesi.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "523",
+   "official_text": "III. Güvence\nMadde 523- Önmirasçıya geçen mirasın sulh mahkemesince defteri tutulur.\nMirasbırakan açıkça bağışık tutmadıkça, mirasın önmirasçıya teslimi onun güvence göstermesine bağlıdır. Taşınmazlarda bu güvence, yeterli görüldüğü takdirde mirası geçirme yükümlülüğünün tapu kütüğüne şerh verilmesiyle de sağlanabilir.\nÖnmirasçı güvence göstermez veya artmirasçının beklenen haklarını tehlikeye düşürürse, mirasın resmen yönetimine karar verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "598",
+   "official_text": "IV. Mirasçılık belgesi\nMadde 598- Başvurusu üzerine yasal mirasçı oldukları belirlenenlere, sulh mahkemesince veya noterlikçe mirasçılık sıfatlarını gösteren bir belge verilir.[34]\nMirasçı atamaya veya vasiyete ilişkin ölüme bağlı tasarrufa mirasçılar veya başka vasiyet alacaklıları tarafından kendilerine bildirilmesinden başlayarak bir ay içinde itiraz edilmedikçe, lehine tasarrufta bulunulan kimseye, sulh mahkemesince atanmış mirasçı veya vasiyet alacaklısı olduğunu gösteren bir belge verilir.\nMirasçılık belgesinin geçersizliği her zaman ileri sürülebilir.\nÖlüme bağlı tasarrufun iptaline ilişkin dava hakkı saklıdır.\n[34] 31/3/2011 tarihli ve 6217 sayılı Kanunun 19 uncu maddesiyle, bu fıkrada yer alan “sulh mahkemesince” ibaresinden sonra gelmek üzere “veya noterlikçe” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "599",
+   "official_text": "I. Mirasçılar tarafından\nMadde 599- Mirasçılar, mirasbırakanın ölümü ile mirası bir bütün olarak, kanun gereğince kazanırlar.\nKanunda öngörülen ayrık durumlar saklı kalmak üzere mirasçılar, mirasbırakanın aynî haklarını, alacaklarını, diğer malvarlığı haklarını, taşınır ve taşınmazlar üzerindeki zilyetliklerini doğrudan doğruya kazanırlar ve mirasbırakanın borçlarından kişisel olarak sorumlu olurlar.\nAtanmış mirasçılar da mirası, mirasbırakanın ölümü ile kazanırlar. Yasal mirasçılar, atanmış mirasçılara düşen mirası onlara zilyetlik hükümleri uyarınca teslim etmekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "686",
+   "official_text": "1. Tanım\nMadde 686- Bir şeye ilişkin tasarruflar, aksi belirtilmedikçe onun eklentisini de kapsar.\nEklenti, asıl şey malikinin anlaşılabilen arzusuna veya yerel âdetlere göre, işletilmesi, korunması veya yarar sağlaması için asıl şeye sürekli olarak özgülenen ve kullanılmasında birleştirme, takma veya başka bir biçimde asıl şeye bağlı kılınan taşınır maldır.\nEklenti, asıl şeyden geçici olarak ayrılmakla bu niteliğini kaybetmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "689",
+   "official_text": "a. Anlaşmalar\nMadde 689- Paydaşlar, kendi aralarında oybirliğiyle anlaşarak yararlanma, kullanma ve yönetime ilişkin konularda kanun hükümlerinden farklı bir düzenleme yapabilirler. Ancak, böyle bir anlaşmayla paydaşların aşağıdaki hak ve yetkileri kaldırılamaz ve sınırlandırılamaz:\n1. Paylı mülkiyet konusu eşyanın kullanılabilirliğinin ve değerinin korunması için zorunlu olan yönetim işlerini yapmak ve gerektiğinde mahkemeden buna ilişkin önlemlerin alınmasını istemek,\n2. Eşyayı bir zarar tehlikesinden veya zararın artmasından korumak için derhâl alınması gereken önlemleri bütün paydaşlar hesabına almak.\nTaşınmazlarla ilgili anlaşmalar imzalarının noterlikçe onaylanması koşuluyla paydaşlardan birinin başvurusu üzerine tapu kütüğüne şerh verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "695",
+   "official_text": "5. Kararların bağlayıcılığı\nMadde 695- Yararlanma, kullanma ve yönetime ilişkin konularda paydaşların yaptıkları düzenleme ve aldıkları kararlar ile mahkemece verilen kararlar, sonradan paydaş olan veya pay üzerinde aynî hak kazanan kimseleri de bağlar.\nTaşınmazlarda yararlanma, kullanma ve yönetime ilişkin kararların sonradan paydaş olan veya pay üzerinde aynî hak kazananları bağlaması için, bunların tapu kütüğüne şerh edilmesi gerekir.\n6. Paydaşlıktan çıkarma",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "698",
+   "official_text": "a. Paylaşma istemi\nMadde 698- Hukukî bir işlem gereğince veya paylı malın sürekli bir amaca özgülenmiş olması sebebiyle paylı mülkiyeti devam ettirme yükümlülüğü bulunmadıkça, paydaşlardan her biri malın paylaşılmasını isteyebilir.\nPaylaşmayı isteme hakkı, hukukî bir işlemle en çok on yıllık süre ile sınırlandırılabilir. Taşınmazlarda paylı mülkiyetin devamına ilişkin sözleşmeler, resmî şekle bağlıdır ve tapu kütüğüne şerh verilebilir.\nUygun olmayan zamanda paylaşma isteminde bulunulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "705",
+   "official_text": "I. Tescil\nMadde 705- Taşınmaz mülkiyetinin kazanılması, tescille olur.\nMiras, mahkeme kararı, cebrî icra, işgal, kamulaştırma hâlleri ile kanunda öngörülen diğer hâllerde, mülkiyet tescilden önce kazanılır. Ancak, bu hâllerde malikin tasarruf işlemleri yapabilmesi, mülkiyetin tapu kütüğüne tescil edilmiş olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "710",
+   "official_text": "b. Heyelân\nMadde 710- Arazi kaymasının sınır değişikliğine yol açmayacağı ilkesi, yetkili makamlarca heyelân bölgesi olduğu belirlenen yörelerde uygulanmaz.\nBu yörelerin belirlenmesi sırasında yöredeki arazinin yapısı göz önünde tutulur.\nBir taşınmazın böyle bir yörede bulunduğu, ilgililere uygun biçimde bildirilir ve tapu kütüğünün beyanlar sütununa yazılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "716",
+   "official_text": "III. Tescili isteme hakkı\nMadde 716- Mülkiyetin kazanılmasına esas olacak bir hukukî sebebe dayanarak malikten mülkiyetin kendi adına tescilini istemek hususunda kişisel hakka sahip olan kimse, malikin kaçınması hâlinde hâkimden, mülkiyetin hükmen geçirilmesini isteyebilir.\nBir taşınmazın mülkiyetini işgal, miras, kamulaştırma, cebrî icra veya mahkeme kararına dayanarak kazanan kişi tescili doğrudan doğruya yaptırabilir.\nBir taşınmazın mülkiyetinde eşler arasındaki mal rejimi dolayısıyla meydana gelen değişiklikler, eşlerden birinin istemiyle tapu kütüğüne doğrudan tescil olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "733",
+   "official_text": "b. Kullanma yasağı, feragat ve hak düşürücü süre\nMadde 733- (Değişik birinci fıkra:24/12/2025-7571/35 md.) 8/9/1983 tarihli ve 2886 sayılı Devlet İhale Kanunu kapsamında yapılan satışlar ile cebrî artırmayla satışlarda önalım hakkı kullanılamaz.\nÖnalım hakkından feragatin resmî şekilde yapılması ve tapu kütüğüne şerh verilmesi gerekir. Belirli bir satışta önalım hakkını kullanmaktan vazgeçme, yazılı şekle tâbidir ve satıştan önce veya sonra yapılabilir.\nYapılan satış, alıcı veya satıcı tarafından diğer paydaşlara noter aracılığıyla bildirilir.\nÖnalım hakkı, satışın hak sahibine bildirildiği tarihin üzerinden üç ay ve her hâlde satışın üzerinden bir yıl geçmekle düşer.[40]\n[40] 24/12/2025 tarihli ve 7571 sayılı Kanunun 35 inci maddesiyle bu fıkrada yer alan “iki yıl” ibaresi “bir yıl” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "735",
+   "official_text": "2. Sözleşmeden doğan önalım hakkı\nMadde 735- Tapu kütüğüne şerh verilen sözleşmeden doğan önalım hakkı, şerhte belirtilen sürede ve belirtilen koşullara göre her malike karşı kullanılabilir. Kütükte koşullar belirtilmemişse taşınmazın üçüncü kişiye satışındaki koşullar esas alınır.\nŞerhin etkisi her durumda, şerhin verildiği tarihin üzerinden on yıl geçmekle sona erer.\nYasal önalım hakkının kullanılmasına ve vazgeçmeye ilişkin hükümler sözleşmeden doğan önalım hakkında da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "736",
+   "official_text": "3. Alım ve geri alım hakları\nMadde 736- Tapu kütüğüne şerh verilen alım ve geri alım hakları, şerhde belirtilen süre içinde her malike karşı kullanılabilir.\nŞerhin etkisi, her durumda, şerhin verildiği tarihin üzerinden on yıl geçmekle sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "748",
+   "official_text": "b. Diğer geçit hakları\nMadde 748- Taşınmaz malikinin taşınmazını işletme veya iyileştirme ya da taşınmazı üzerinde yapı yapma amacıyla komşu taşınmaza geçici olarak girme hakkı ile tarla yolu, hayvan sulama yolu, kış geçidi, tomruk kaydırma yolu ve oluğu ve bunlara benzer diğer geçitler özel kanun hükümlerine tâbidir.\nÖzel kanun hükmü yoksa yerel âdet uygulanır.\nDoğrudan doğruya kanundan kaynaklanan geçit hakları, tapu kütüğüne tescil edilmeksizin doğar. Ancak, bunlardan sürekli nitelikte olanlar beyanlar sütununda gösterilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "780",
+   "official_text": "1. Tescil\nMadde 780- İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır.\nİrtifak hakkının kazanılmasında ve tescilinde, aksi öngörülmüş olmadıkça taşınmaz mülkiyetine ilişkin hükümler uygulanır.\nİrtifak hakkının zamanaşımı yoluyla kazanılması, ancak mülkiyeti bu yolla elde edilebilecek taşınmazlarda mümkündür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "781",
+   "official_text": "2. Sözleşme\nMadde 781- İrtifak hakkının kurulmasına ilişkin sözleşmenin geçerli olması, resmî şekilde düzenlenmesine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "856",
+   "official_text": "1. Tescil\nMadde 856- Taşınmaz rehni tapu kütüğüne tescil ile kurulur. Kanunda öngörülen ayrık durumlar saklıdır.\nTaşınmaz rehninin kurulmasına ilişkin sözleşmenin geçerliliği, resmî şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "862",
+   "official_text": "I. Rehnin kapsamı\nMadde 862- Rehin, taşınmazı bütünleyici parçaları ve eklentileri ile birlikte yükümlü kılar.\nRehnin kuruluşu sırasında makine, otel döşeme eşyası gibi açıkça eklenti olarak gösterilen ve tapu kütüğünde beyanlar sütununa yazılan şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır.\nÜçüncü kişilerin eklentiler üzerindeki hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "871",
+   "official_text": "2. Rehin dereceleri arasındaki ilişki\nMadde 871- Aynı taşınmaz üzerinde farklı sıralarda kurulmuş bulunan rehin haklarından birinin terkin edilmiş olması, sonraki sırada yer alan rehinli alacaklıya boşalan dereceye geçme hakkı vermez.\nTerkin edilen rehin hakkı yerine yeni bir rehin hakkı kurulabilir.\nSonraki sırada yer alan rehinli alacaklılara boşalan dereceye geçme hakkı veren sözleşmelerin geçerliliği, resmî şekilde yapılmalarına; aynî etki sağlamaları, tapu kütüğüne şerh verilmelerine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "895",
+   "official_text": "a. Tescil\nMadde 895- Zanaatkârların ve yüklenicilerin kanunî ipotek hakları, çalışmayı veya malzeme vermeyi yüklendikleri andan başlayarak tapu kütüğüne tescil olunabilir.\nTescilin yüklenilen işin tamamlanmasından başlayarak üç ay içinde yapılmış olması gerekir.\nTescilin yapılması için alacağın malik tarafından kabul edilmiş veya mahkemece karara bağlanmış olması şarttır.\nMalik yeterli güvence gösterirse tescil istenemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "897",
+   "official_text": "c. Öncelik\nMadde 897- Satış bedeli zanaatkârlar ve yüklenicilerin alacaklarının tamamını karşılamadığı takdirde kalan kısım, ipotek hakkı elde eden önceki sıradaki alacaklıların payına düşen satış bedelinden arsa değeri çıkarıldıktan sonra artan para ile karşılanır. Ancak bu, taşınmaz üzerindeki yüklerin zanaatkârlar ve yüklenicilerin zararına olacağının alacaklılar tarafından bilinebilir olmasına bağlıdır.\nÖnceki sırada bulunan alacaklılar, rehin senetlerini devrederlerse, bu devir yüzünden zanaatkârlar ve yüklenicilerin elde edemedikleri alacak miktarını tazmin etmekle yükümlü olurlar.\nİşe başlandığı, hak sahibi, zanaatkârlar veya yüklenicilerden birinin bildirimi üzerine tapu kütüğünün beyanlar sütununa yazıldıktan sonra, tescilin yapılabileceği sürenin sonuna kadar taşınmaz üzerinde ipotekten başka türde rehin tescil edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "288",
+   "official_text": "MADDE 288- Bağışlama sözü vermenin geçerliliği, bu sözleşmenin yazılı şekilde yapılmasına bağlıdır.\nBir taşınmazın veya taşınmaz üzerindeki ayni bir hakkın bağışlanması sözü vermenin geçerliliği, ancak resmî şekilde yapılmış olmasına bağlıdır.\nŞekle uyulmaması sebebiyle geçersiz olan bağışlama sözü verme, bağışlayan tarafından yerine getirildiğinde, elden bağışlama hükmündedir. Ancak, geçerliliği resmî şekle bağlanmış olan bağışlamalarda bu hüküm uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "310",
+   "official_text": "MADDE 310- Sözleşmenin kurulmasından sonra kiralanan herhangi bir sebeple el değiştirirse, yeni malik kira sözleşmesinin tarafı olur.\nKamulaştırmaya ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "312",
+   "official_text": "MADDE 312- Taşınmaz kiralarında, sözleşmeyle kiracının kiracılık hakkının tapu siciline şerhi kararlaştırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "504",
+   "official_text": "MADDE 504- Vekâletin kapsamı, sözleşmede açıkça gösterilmemişse, görülecek işin niteliğine göre belirlenir.\nVekâlet, özellikle vekilin üstlendiği işin görülmesi için gerekli hukuki işlemlerin yapılması yetkisini de kapsar.\nVekil, özel olarak yetkili kılınmadıkça dava açamaz, sulh olamaz, hakeme başvuramaz, iflas, iflasın ertelenmesi ve konkordato talep edemez, kambiyo taahhüdünde bulunamaz, bağışlama yapamaz, kefil olamaz, taşınmazı devredemez ve bir hak ile sınırlandıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "125",
+   "official_text": "Dava konusunun devri\nMADDE 125- (1) Davanın açılmasından sonra, davalı taraf, dava konusunu üçüncü bir kişiye devrederse, davacı aşağıdaki yetkilerden birini kullanabilir:\na) İsterse, devreden tarafla olan davasından vazgeçerek, dava konusunu devralmış olan kişiye karşı davaya devam eder. Bu takdirde dava davacı lehine sonuçlanırsa, dava konusunu devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur.[12]\nb) İsterse, davasını devreden taraf hakkında tazminat davasına dönüştürür.\n(2) Davanın açılmasından sonra, dava konusu davacı tarafından devredilecek olursa, devralmış olan kişi, görülmekte olan davada davacı yerine geçer ve dava kaldığı yerden itibaren devam eder. (Ek cümle:22/7/2020-7251/11 md.) Bu takdirde dava davacı aleyhine sonuçlanırsa, dava konusunu devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur.\n[12] 22/7/2020 tarihli ve 7251 sayılı Kanunun 11 inci maddesiyle, bu bendin ikinci cümlesinde yer alan “davacı davayı kazanırsa” ibaresi “dava davacı lehine sonuçlanırsa” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "389",
+   "official_text": "İhtiyati tedbirin şartları\nMADDE 389- (1) Mevcut durumda meydana gelebilecek bir değişme nedeniyle hakkın elde edilmesinin önemli ölçüde zorlaşacağından ya da tamamen imkânsız hâle geleceğinden veya gecikme sebebiyle bir sakıncanın yahut ciddi bir zararın doğacağından endişe edilmesi hâllerinde, uyuşmazlık konusu hakkında ihtiyati tedbir kararı verilebilir.\n(2) Birinci fıkra hükmü niteliğine uygun düştüğü ölçüde çekişmesiz yargı işlerinde de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "391",
+   "official_text": "İhtiyati tedbir kararı\nMADDE 391- (1) Mahkeme, tedbire konu olan mal veya hakkın muhafaza altına alınması veya bir yediemine tevdii ya da bir şeyin yapılması veya yapılmaması gibi, sakıncayı ortadan kaldıracak veya zararı engelleyecek her türlü tedbire karar verebilir.\n(2) İhtiyati tedbir kararında;\na) İhtiyati tedbir talep edenin, varsa kanuni temsilcisi ve vekilinin ve karşı tarafın adı, soyadı ve yerleşim yeri ile talep edenin Türkiye Cumhuriyeti kimlik numarası,\nb) Tedbirin, açık ve somut olarak hangi sebebe ve delillere dayandığı,\nc) Tereddüde yer vermeyecek şekilde, neyin üzerinde ve ne tür bir tedbire karar verildiği,\nç) Talepte bulunanın, ne tutarda ve ne türde bir teminat göstereceği,\nyazılır.\n(3) (Değişik:22/7/2020-7251/40 md.) İhtiyati tedbir talebinin reddi kararı gerekçeli olarak verilir ve bu karara karşı kanun yoluna başvurulabilir. Yüzüne karşı aleyhine ihtiyati tedbir kararı verilen taraf da kanun yoluna başvurabilir. Bu başvurular öncelikle incelenir ve kesin olarak karara bağlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "350",
+   "official_text": "Başvurunun icraya etkisi\nMADDE 350- (1) İstinaf yoluna başvurma, kararın icrasını durdurmaz. İcra ve İflas Kanununun icranın geri bırakılmasıyla ilgili 36 ncı maddesi hükmü saklıdır. Nafaka kararlarında icranın geri bırakılmasına karar verilemez.\n(2) Kişiler hukuku, aile hukuku ve taşınmaz mal ile ilgili ayni haklara ilişkin kararlar kesinleşmedikçe yerine getirilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "367",
+   "official_text": "Temyizin icraya etkisi\nMADDE 367- (1) Temyiz, kararın icrasını durdurmaz. İcra ve İflas Kanununun icranın geri bırakılmasıyla ilgili 36 ncı maddesi hükmü saklıdır. Nafaka kararlarında icranın geri bırakılmasına karar verilemez.\n(2) Kişiler hukuku, aile hukuku ve taşınmaz mal ile ilgili ayni haklara ilişkin kararlar kesinleşmedikçe yerine getirilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "28",
+   "official_text": "Madde 28 – (Değişik: 14/1/2011-6103/41 md.)\nTaşınmaz davalarında davacının lehine hüküm verildiği takdirde mahkeme davacının talebine hacet kalmaksızın hükmün tefhimi ile beraber hulasasını tapu sicili dairesine bildirir. İlgili daire bu ciheti hükmolunan taşınmazın kaydına şerh verir. Bu şerh, Türk Medeni Kanununun 1010 uncu maddesinin ikinci fıkrası hükmüne tâbidir.\nTaşınmaz davası üzerine verilen karar ileride davacının aleyhine kesinleşirse mahkeme, derhal bu hükmün hulasasını da tapu sicili dairesine bildirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "91",
+   "official_text": "Madde 91 – (Değişik: 18/2/1965-538/50 md.)\n(Değişik: 9/11/1988-3494/10 md.) Taşınmazın haczi ile tasarruf hakkı Medeni Kanunun 920 nci maddesi anlamında tahdide uğrar. Sicile kaydedilmek üzere haciz keyfiyeti, ne miktar meblağ için yapıldığı ve alacaklının adı ile tebliğe yarar adresi icra dairesi tarafından tapu siciline bildirilir. Adresi değişen alacaklı masrafını vermek sureti ile yeni adresinin tapuya bildirilmesini icra dairesinden istemeye mecburdur.\nHacze yeni alacaklılar iştirak eder veya haciz kalkarsa bu hususlar da tapu siciline haber verilir.\n(Ek fıkra: 17/7/2003-4949/23 md.) Hacizli taşınmazın el değiştirmesi hâlinde 148/a maddesi uygulanır.\nI – Taşınmaz haczinin şümulü,\nII – Alacakları rehinle sağlanmış alacaklıların mahfuz hakları,",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "28",
+   "official_text": "B) Yönetim planı:\nMadde 28 – Yönetim planı yönetim tarzını, kullanma maksat ve şeklini yönetici ve denetçilerin alacakları ücreti ve yönetime ait diğer hususları düzenler.Yönetim planı, bütün kat maliklerini bağlıyan bir sözleşme hükmündedir.\nYönetim planında hüküm bulunmıyan hallerde, anagayrimenkulün yönetiminden doğacak anlaşmazlıklar bu kanuna ve genel hükümlere göre karara bağlanır.\n(Değişik: 13/4/1983 - 2814/11 md.) Yönetim planının değiştirilmesi için bütün kat maliklerinin beşte dördünün oyu şarttır. Kat maliklerinin 33 üncü maddeye göre mahkemeye başvurma hakları saklıdır.\nYönetim planı ve bunda yapılan değişiklikler, bütün kat malikleriyle onların külli ve cüzi haleflerini ve yönetici ve denetçileri bağlar.\nYönetim planının ve onda sonradan yapılan değişikliklerin tarihi, kat mülkiyeti kütüğünün (Beyanlar) hanesinde gösterilir ve bu değişiklikler yönetim planına bağlanarak kat mülkiyetinin kuruluş belgeleri arasında saklanır.\nC) Kat malikleri kurulunun toplantısı ve kararları:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "NOTERLİK KANUNU",
+   "law_no": "1512",
+   "article_no": "60",
+   "official_text": "Noterlerin genel olarak yapacakları işler:\nMadde 60 – Noterlerin görevleri:\n1. Yapılması kanunla başka bir makam, merci veya şahsa verilmemiş olan her nevi hukuki işlemleri düzenlemek,\n2. Kanunlarda resmi olarak yapılmaları emredilen ve mercileri belirtilmemiş olan bütün hukuki işlemleri bu kanun hükümlerine göre yapmak,\n3. (Değişik: 23/6/2022-7413/11 md.) Taşınmaz satış vaadi sözleşmesi yapmak ve bu sözleşmeyi taraflardan birinin talep etmesi, harç ve giderleri ödemesi hâlinde tapu bilişim sistemi vasıtasıyla tapu siciline şerh vermek, taşınmaz satış sözleşmesi yapmak,\n4. Bu kanuna uygun olarak dışarda yazılıp getirilen kağıtların üzerindeki imza, mühür veya herhangi bir işareti veya tarihi onaylamak,\n5. Bu kanun hükümlerine göre yapılan işlemlerin dairede kalan asıl veya örneklerinden veya getirilen kağıtlardan örnek çıkarıp vermek,\n6. Belgeleri bir dilden diğer dile veya bir yazıdan başka bir yazıya çevirmek,\n7. Protesto, ihbarname ve ihtarname göndermek,\n8. Kanunen tescili gereken işlemleri tescil etmek,\n9. Bu ve diğer kanunlarla verilmiş sair işleri yapmak.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1512&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "NOTERLİK KANUNU",
+   "law_no": "1512",
+   "article_no": "61/A",
+   "official_text": "Madde 61/A- (Ek: 23/6/2022-7413/12 md.)\nTaşınmaz satış sözleşmesi noterler tarafından da yapılabilir.\nNoterler, taşınmaz satış başvurusu üzerine başvuru belgesi düzenler, taşınmaz üzerindeki her türlü kısıtlamaları dikkate alır ve taşınmaz satışıyla ilgili diğer kanunlarda yer alan sınırlamalar ile usul ve esasları gözetir.\nTapu ve Kadastro Genel Müdürlüğünce tapu kayıt örneği ve diğer belgeler tapu bilişim sistemi vasıtasıyla noterlerle paylaşılır. Taşınmaza ilişkin kayıt ve belgelerin eksik olması hâlinde ilgili tapu müdürlüğünden eksik olan hususlar bu sistem üzerinden talep edilir ve eksiklikler tapu müdürlüğünce giderilerek sisteme aktarılır. Noterlerce hak sahibi belirlendikten ve taşınmazın satışına engel hukuki bir durumun bulunmadığı tespit edildikten sonra taşınmaz satış sözleşmesi yapılır.\nSatış sözleşmesi taraflarca imzalandığı anda noter, tapu bilişim sisteminden yevmiye numarası alarak sözleşmeyi bu sisteme kaydeder. Sözleşmenin sisteme kaydından sonra tapu müdürlüğünce taşınmazın tapu siciline tescili sağlanır. Satış sözleşmesi ile diğer belgeler, noter tarafından sisteme aktarılır ve fiziki olarak arşivlenir.\nNoterler, taşınmaz satış sözleşmesiyle ilgili işlemleri bizzat yaparlar.\nTapu kayıt örneği ve diğer belgelerden hak sahibinin belirlenememesi veya satışa engel hukuki bir durumun varlığı hâlinde noterlerce satış işlemi gerçekleştirilmez.\nNoterler tarafından yapılacak taşınmaz satış sözleşmelerinden yalnızca 2/7/1964 tarihli ve 492 sayılı Harçlar Kanununa ekli (4) sayılı tarifenin “I-Tapu işlemleri” başlıklı bölümünün (20) numaralı fıkrasının (a) bendi uyarınca tapu harcı alınır. Bu işlemler için 492 sayılı Kanunun tapu harçlarına ilişkin hükümleri ve gerekli harcı tamamen almadan işlem yapan noterler hakkında aynı Kanunun 128 inci maddesi hükmü uygulanır.\nTaşınmaz satış sözleşmeleri damga vergisinden ve bu işlemlere ilişkin düzenlenen kâğıtlar değerli kâğıt bedellerinden istisnadır.\nBu madde kapsamında yapılan işlemler karşılığında noter ücreti dışında herhangi bir ücret alınmaz. Noter ücreti taşınmazın değerine göre beş yüz Türk lirasından az ve dört bin Türk lirasından fazla olamaz ve ücret tarifesinde gösterilir. Bu miktarlar, her yıl bir önceki yıla ilişkin olarak 4/1/1961 tarihli ve 213 sayılı Vergi Usul Kanununun mükerrer 298 inci maddesi hükümleri uyarınca tespit ve ilan edilen yeniden değerleme oranında takvim yılı başından geçerli olmak üzere artırılarak uygulanır.\nTaşınmaz satış işlemleri için Tapu ve Kadastro Genel Müdürlüğü döner sermaye işletmesine gelir kaydedilmek üzere hizmet bedeli alınır ve bu işlemler sebebiyle noterlere herhangi bir pay veya aidat ödenmez.\nBu maddenin uygulanmasına ilişkin usul ve esaslar, Hazine ve Maliye Bakanlığı ile Çevre, Şehircilik ve İklim Değişikliği Bakanlığının mütalaası alınarak Adalet Bakanlığınca çıkarılacak yönetmelikle düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1512&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "NOTERLİK KANUNU",
+   "law_no": "1512",
+   "article_no": "89",
+   "official_text": "Düzenleme şeklinde yapılması zorunlu işlemler:\nMadde 89 – Niteliği bakımından tapuda işlem yapılmasını gerektiren sözleşme ve vekaletnamelerle, vasiyetname, mülkiyeti muhafaza kaydı ile satış, gayrimenkul satış va'di, vakıf senedi, evlenme mukavelesi, evlat edinme ve tanıma, mirasın taksimi sözleşmesi ve diğer kanunlarda öngörülen sair işlemler bu fasıl hükümlerine göre düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1512&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2013/1693",
+   "karar_no": "2015/1135",
+   "decision_date": "01.04.2015",
+   "summary_md": "Taşınmazlarda payı bulunan bir borçlu, 2009'da noterde yapılan satış vaadi sözleşmesiyle paylarını şikâyetçiye satmayı vaat etmiş ve sözleşme aynı yıl tapuya şerh edilmiştir. 2011'de başka bir alacaklının takibinde bu paylara haciz konulunca vaat alacaklısı, şerhten sonra konulan haczin kaldırılması için icra mahkemesine şikâyette bulunmuş; ayrıca tapu iptali ve tescil davası açmıştır. İcra mahkemesi istemi reddetmiş, Yargıtay 12. Hukuk Dairesi şikâyetçinin aktif husumet ehliyeti bulunduğu gerekçesiyle bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını oybirliğiyle onamıştır. Gerekçeye göre satış vaadi şerhle ayni etkinlik ve aleniyet kazanır, ama bu etki önleyici değildir: Vaat alacaklısı taşınmazın devrini, ipotek edilmesini ya da haczini engelleyemez. Şerh, icra satışında mükellefiyetler listesinde yer alacağından vaat alacaklısı hakkını yeni malike karşı ileri sürebilir; icra dosyasının tarafı ve taşınmazın maliki olmadığı için şikâyet yoluna başvuramaz. Konuya katkısı: şerhin sonraki hak sahiplerine karşı ileri sürülebilirlik sağladığını, tasarrufu ise yasaklamadığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=113418900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2015/12",
+   "karar_no": "2016/1005",
+   "decision_date": "02.11.2016",
+   "summary_md": "Davalıların murisi, 2002'de noterde yapılan satış vaadi sözleşmesiyle bir taşınmazdaki payını davacıya satmayı vaat etmiş ve sözleşme üç gün sonra tapuya şerh edilmiştir. Şerhten beş yılı aşkın süre sonra, 2007'de pay, şerh sicilde dururken bir konut yapı kooperatifine devredilmiş; davacı TMK m. 716'ya dayanarak tapu iptali ve tescil davası açmıştır. İlk derece mahkemesi, beş yıl içinde satış yapılmayan şerhin re'sen terkin olunması gerektiği ve bundan sonra hak kazananlara karşı ileri sürülemeyeceği gerekçesiyle davayı reddetmiş; Yargıtay 14. Hukuk Dairesi oy çokluğuyla bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Gerekçeye göre 2644 sayılı Kanun m. 26'daki beş yıl kuralı tapu memuruna kendiliğinden terkin yetkisi vermez, şerhin malikin istemiyle terkin edilebileceği anlamına gelir; terkin edilmeyen şerh etkisini sürdürür ve şerhi görerek payı satın alan kooperatif iyiniyet iddiasında bulunamaz (TMK m. 1020 ve 1023). Karşı oy, beş yılın dolmasıyla şerhin üçüncü kişiler bakımından değerini yitirdiğini ve alıcının iyiniyetli olduğunu savunmuştur. Konuya katkısı: şerhin etkisini ve beş yıllık sürenin tartışmalı yorumunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/289501700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/473",
+   "karar_no": "2026/221",
+   "decision_date": "08.04.2026",
+   "summary_md": "Davacıya ait bağımsız bölüm, davacı henüz kısıtlanmadan, Ocak 2014'te vekil aracılığıyla bir şirkete satılmış; şirket birkaç gün sonra kredisi için bir banka lehine ipotek kurdurmuştur. Davacının kısıtlılığı Mayıs 2014'te kesinleşmiş, açılan tapu iptali ve tescil davasında verilen ihtiyati tedbir Haziran 2014'te tapuya işlenmiş, şirketin alacaklıları ise Aralık 2014 ve Aralık 2015'te haciz koydurmuştur. Ehliyetsizlik nedeniyle kaydın iptaline ilişkin karar 2017'de kesinleşince davacı kayıttaki ipotek ve hacizlerin terkinini istemiştir. İlk derece mahkemesi davayı kabul etmiş; bölge adliye mahkemesi bankanın TMK m. 1023 korumasından yararlandığını kabul ederek ipotek yönünden davayı reddetmiş, hacizlerin terkinine karar vermiş; Yargıtay 7. Hukuk Dairesi bütün şerhlerin kaldırılması gerektiği gerekçesiyle bozmuş, bölge adliye mahkemesi direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla onamıştır. Gerekçeye göre tasarruf yetkisi kısıtlamaları şerh verilmekle sonradan hak kazananlara karşı ileri sürülebilir ve kimse kütükteki şerhi bilmediğini ileri süremez; bu nedenle kısıtlılığın kesinleşmesinden ve tedbir şerhinden sonra konulan hacizler terkin edilmeli, bunlardan önce kurulan ve kötüniyeti ispatlanamayan bankanın ipoteği korunmalıdır. Konuya katkısı: şerhin etkisinin tarih sırasına göre belirlendiğini gösterir; yolsuz tescil ve iyiniyetli üçüncü kişinin korunması ayrı konudadır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1228761400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 1008'e göre tapu kütüğüne **tescil** edilen haklar hangi seçenekte doğru olarak verilmiştir?",
+   "options": [
+    "Yalnız mülkiyet; diğer bütün haklar şerh edilir",
+    "Mülkiyet, satış vaadinden doğan hak ve irtifak hakları",
+    "Mülkiyet, kira hakkı ve rehin hakları",
+    "Mülkiyet, irtifak hakları ve taşınmaz yükleri, rehin hakları"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 1008 tescil edilecek hakları mülkiyet, irtifak hakları ve taşınmaz yükleri ile rehin hakları olarak sayar. Kira ve satış vaadi kişisel haktır; tescil edilmez, ancak şerh edilebilir (TMK m. 1009). İrtifak ve rehin de ayni haktır ve tescille doğar."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TMK m. 1009'a göre tapu kütüğüne şerh edilebilecek kişisel haklar arasında **sayılmamıştır**?",
+   "options": [
+    "Geri alım sözleşmesinden doğan hak",
+    "Ödünç sözleşmesinden doğan geri ödeme alacağı",
+    "Kira sözleşmesinden doğan hak",
+    "Arsa payı karşılığı inşaat sözleşmesinden doğan hak"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1009/1, arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım ve geri alım sözleşmelerinden doğan haklar ile şerhine kanunda açıkça izin verilen diğer hakları sayar. Ödünç alacağı ne bu listede ne de şerhe izin veren bir kanun hükmünde yer alır. Ödünç veren, ancak icra takibinde haciz koydurarak bir tasarruf kısıtlaması şerhi sağlayabilir (TMK m. 1010)."
+  },
+  {
+   "stem_md": "Ayten, dairesini noterde yapılan satış vaadi sözleşmesiyle Barış'a satmayı vaat eder ve sözleşme 5 Mayıs 2025'te tapuya şerh edilir. Ayten 1 Şubat 2026'da daireyi tapuda Cenk'e satar. Cenk, şerhi gördüğünü ama vaadin yalnız Ayten'i bağladığını savunur. Hangisi doğrudur?",
+   "options": [
+    "Barış hakkını Cenk'e karşı ancak Cenk'in kötüniyetini ayrıca ispatlarsa ileri sürebilir.",
+    "Şerh nedeniyle Barış hakkını şerhten sonra malik olan Cenk'e karşı ileri sürebilir; Cenk iyiniyet iddiasında bulunamaz.",
+    "Şerh Barış'ı malik yapmıştır; Cenk adına yapılan tescil kendiliğinden hükümsüzdür.",
+    "Satış vaadi kişisel hak doğurduğu için Barış yalnız Ayten'den tazminat isteyebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1009/2'ye göre şerh verilen kişisel hak, taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir. Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremeyeceğinden (TMK m. 1020/3) Barış'ın ayrıca kötüniyet ispatlamasına gerek yoktur. Şerh hakkı ayni hakka dönüştürmez; Barış malik değildir ve tescil için dava açmalıdır (TMK m. 716). Şerhten itibaren beş yıl da dolmamıştır (2644 sayılı Kanun m. 26)."
+  },
+  {
+   "stem_md": "Kişisel bir hakkın tapuya şerh edilmesinin sonucu hakkında hangisi doğrudur?",
+   "options": [
+    "Hak ayni hakka dönüşür ve herkese karşı ileri sürülebilir.",
+    "Hak kişisel kalır, ancak taşınmaz üzerinde sonradan hak kazananların sahiplerine karşı ileri sürülebilir.",
+    "Şerhten sonra malik taşınmazı geçerli olarak devredemez ve rehnedemez.",
+    "Hak, şerhten önce taşınmaz üzerinde kurulmuş haklara karşı da öncelik kazanır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1009/2'ye göre şerh, kişisel hakkı yalnız şerhten sonra hak kazananlara karşı ileri sürülebilir kılar. Şerhten önce tescil edilen bir ipotek önceliğini korur. Yargıtay Hukuk Genel Kurulu'na göre şerh önleyici değildir; malik taşınmazı devredebilir ve rehnedebilir, ama sonraki hak sahipleri şerhli hakkı kabul etmek zorundadır."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulu'na göre lehine satış vaadi şerhi bulunan kişinin, şerhten sonra başka bir alacaklının takibinde taşınmaza konulan haciz karşısındaki durumu nedir?",
+   "options": [
+    "Vaat alacaklısı icra dosyasının tarafı sayıldığından şikâyet yoluyla haczi kaldırtabilir.",
+    "Şerh tasarrufu yasakladığından haciz kendiliğinden geçersizdir ve tapuya işlenemez.",
+    "Haciz şerhten sonra konulsa bile vaat alacaklısının hakkını ortadan kaldırır.",
+    "Şerh önleyici değildir; vaat alacaklısı haczi engelleyemez ve şikâyet yoluyla kaldırtamaz, ama hakkını taşınmazı edinecek yeni malike karşı ileri sürebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Hukuk Genel Kurulu'na göre satış vaadi şerhle ayni etkinlik ve aleniyet kazanır, ama bu etki önleyici değildir; vaat alacaklısı taşınmazın devrini, ipotek edilmesini ya da haczini engelleyemez. İcra dosyasının tarafı ve malik olmadığı için şikâyet yoluna başvuramaz. Şerh icra satışında mükellefiyetler listesinde yer alacağından hakkını yeni malike karşı ileri sürebilir (TMK m. 1009/2)."
+  },
+  {
+   "stem_md": "2644 sayılı Kanun m. 26'ya göre noterce düzenlenen taşınmaz satış vaadi sözleşmesi tapuya şerh edildikten sonra hangi süre içinde satış yapılmazsa şerh re'sen terkin olunur?",
+   "options": [
+    "On yıl",
+    "Yirmi yıl",
+    "Bir yıl",
+    "Beş yıl"
+   ],
+   "correct_option": 3,
+   "explanation_md": "2644 sayılı Kanun m. 26'ya göre şerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı kurulup tescil edilmezse şerh re'sen terkin olunur. On yıllık süre, sözleşmeden doğan önalım, alım ve geri alım şerhlerinin etkisine ilişkindir (TMK m. 735 ve 736). Süre dolduğu hâlde terkin edilmemiş şerhin etkisi tartışmalıdır; Hukuk Genel Kurulu çoğunluğu terkin edilmedikçe etkisinin sürdüğünü kabul etmiştir."
+  },
+  {
+   "stem_md": "2644 sayılı Kanun m. 26'ya göre aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Mülkiyete ve sınırlı ayni haklara ilişkin resmî senetleri tapu sicil müdürü veya tapu sicil görevlileri düzenler.",
+    "Taraflar farklı tapu müdürlüklerinin bulunduğu yerlerdeyse taşınmaz devri sözleşmesi yapılamaz.",
+    "Bankaların kredilerine karşılık ipotekler ancak noterde düzenlenen resmî senetle tescil edilebilir.",
+    "Taşınmaz satışına ilişkin resmî senedi yalnız taraflar imzalar; tapu görevlisinin imzası gerekmez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "2644 sayılı Kanun m. 26'ya göre resmî senetleri tapu sicil müdürü veya tapu sicil görevlileri düzenler. Senedi taraflar ve hazırlayan görevliler imzalar, müdür ya da görevlendirilen memur onaylar. Banka ve kredi kuruluşu ipotekleri tarafların istemiyle kredi veya borç sözleşmesine dayanılarak tescil olunur. Taraflar farklı tapu müdürlüklerindeyse iradeleri ayrı ayrı alınarak sözleşme tamamlanabilir. Ayrıca 1512 sayılı Kanun m. 61/A taşınmaz satış sözleşmesinin noterlerce de yapılabilmesini öngörür."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TMK m. 1010'a göre **tasarruf yetkisinin kısıtlanması şerhi** olarak tapuya yazılan sebeplerden biri **değildir**?",
+   "options": [
+    "Haciz",
+    "Kira sözleşmesi",
+    "Artmirasçı atanması",
+    "Çekişmeli hakların korunmasına ilişkin mahkeme kararı"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1010/1 üç grup sayar: çekişmeli hakların korunmasına ilişkin mahkeme kararları; haciz, iflas kararı veya konkordato ile verilen süre; aile yurdu kurulması ve artmirasçı atanması gibi şerh verilmesi kanunen öngörülen işlemler. Kira sözleşmesinden doğan hak bir kişisel haktır ve TMK m. 1009'a göre şerh edilir."
+  },
+  {
+   "stem_md": "Selin, Kaan aleyhine açtığı tapu iptali ve tescil davasında taşınmazın devrinin önlenmesine ilişkin ihtiyati tedbir kararı alır; tedbir 2 Nisan'da tapuya şerh edilir. Kaan 10 Nisan'da taşınmazı X Bankası lehine ipotek ettirir. Banka, tedbiri bilmediğini savunur. Hangisi doğrudur?",
+   "options": [
+    "İhtiyati tedbir kararları tapuya şerh edilemez, yalnız davanın tarafları arasında hüküm doğurur.",
+    "Banka tapuya güvendiği için ipoteği her durumda Selin'e karşı korunur.",
+    "Tedbir şerhi, şerhten sonra hak kazanan bankaya karşı ileri sürülebilir; banka şerhi bilmediğini ileri süremez.",
+    "Banka, ancak Selin bankanın kötüniyetini ayrıca ispatlarsa bu şerhten etkilenir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Çekişmeli hakların korunmasına ilişkin mahkeme kararları tasarruf yetkisi kısıtlaması olarak şerh verilebilir (TMK m. 1010/1-1). Şerh verilen kısıtlama, taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir (TMK m. 1010/2). Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremeyeceğinden (TMK m. 1020/3) ayrıca kötüniyet ispatı gerekmez. Hukuk Genel Kurulu da tedbir şerhinden sonra konulan hacizlerin terkinini kabul etmiştir."
+  },
+  {
+   "stem_md": "İİK m. 28'e göre bir taşınmaz davasında ilk derece mahkemesi davacı lehine hüküm verdiğinde hangisi gerçekleşir?",
+   "options": [
+    "Tapu memuru taşınmazı hemen davacı adına tescil eder.",
+    "Hüküm kesinleşmeden tapuya hiçbir bildirim yapılamaz.",
+    "Mahkeme, davacının talebine gerek olmadan hüküm özetini tapu sicil dairesine bildirir; bu şerh TMK m. 1010/2 hükmüne tabidir.",
+    "Davacı, hükmü tapuya şerh ettirmek için ayrı bir dava açmalıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "İİK m. 28'e göre taşınmaz davalarında davacı lehine hüküm verilirse mahkeme, davacının talebine gerek kalmadan hükmün tefhimiyle birlikte özetini tapu sicil dairesine bildirir ve daire bunu taşınmazın kaydına şerh verir. Kanun bu şerhi açıkça TMK m. 1010/2'ye tabi kılar; şerhten sonra hak kazananlar ona bağlıdır. Taşınmaz mal ile ilgili ayni haklara ilişkin kararlar ise kesinleşmedikçe yerine getirilemez (HMK m. 350/2 ve HMK m. 367/2); tescil bu yüzden hemen yapılmaz. Karar sonradan davacı aleyhine kesinleşirse mahkeme bunu da tapuya bildirir."
+  },
+  {
+   "stem_md": "TMK m. 194'e göre aile konutu şerhi hakkında hangisi doğrudur?",
+   "options": [
+    "Şerh verilmedikçe diğer eşin açık rızası hiçbir durumda aranmaz.",
+    "Malik olmayan eş şerhi tapu müdürlüğünden isteyebilir; açık rıza şartı şerhten değil doğrudan kanundan doğar.",
+    "Aile konutu şerhini yalnız konutun maliki olan eş isteyebilir.",
+    "Şerh ancak boşanma davası açıldıktan sonra mahkeme kararıyla verilebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 194/3'e göre aile konutu olarak özgülenen taşınmazın maliki olmayan eş, gerekli şerhin verilmesini tapu müdürlüğünden isteyebilir; dava açması gerekmez. Diğer eşin açık rızası şartı TMK m. 194/1'den doğar ve şerh bulunmasa da eşler arasında geçerlidir. Şerhin yokluğu yalnız üçüncü kişinin iyiniyet savunmasını gündeme getirir; Hukuk Genel Kurulu'na göre şerh yoksa iyiniyetli üçüncü kişi TMK m. 1023 korumasından yararlanır."
+  },
+  {
+   "stem_md": "Usta Kemal'in üstlendiği tadilat 1 Haziran'da biter. Malik alacağı tanımayınca Kemal kanuni ipoteğinin tescili için dava açar ve 15 Haziran'da hâkim kararıyla geçici tescil şerhi verilir. Malik 1 Temmuz'da taşınmazı bankaya ipotek eder. Kemal davayı kazanır ve ipoteği 25 Ağustos'ta tescil edilir. Hangisi doğrudur?",
+   "options": [
+    "Banka ipoteği geçici tescil şerhine rağmen kurulduğu için geçersizdir ve kendiliğinden silinir.",
+    "Geçici tescil şerhi yalnız malik ile Kemal arasında hüküm doğurur.",
+    "Kemal'in hakkı, geçici tescil şerhinin verildiği 15 Haziran'dan başlayarak üçüncü kişilere karşı ileri sürülebilir; banka ipoteği ona üstün gelmez.",
+    "Kemal'in ipoteği Ağustos'ta tescil edildiği için Temmuz'daki banka ipoteğinden sonra gelir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 1011/2'ye göre geçici tescil şerhinin konusu olan hak sonradan gerçekleşirse, şerh tarihinden başlayarak üçüncü kişilere karşı ileri sürülebilir. Şerh, malikin sonradan ipotek kurmasını engellemez; banka ipoteği geçerlidir, ama Kemal'in hakkına üstün gelmez. Yapı alacaklısının ipoteği için üç aylık süre ile alacağın kabul edilmesi ya da mahkemece karara bağlanması şartı (TMK m. 895) bu yüzden önem taşır: Geçici tescil şerhi, dava sürerken alacaklının sırasını korur. Olayda ipotek, işin tamamlandığı 1 Haziran'dan itibaren üç ay içinde tescil edilmiştir (TMK m. 895/2)."
+  },
+  {
+   "stem_md": "TMK m. 1012'ye göre aşağıdakilerden hangisi tapu kütüğünün **beyanlar** sütununa yazılır?",
+   "options": [
+    "Kira sözleşmesinden doğan hak",
+    "Malikin istemi üzerine taşınmazın eklentileri",
+    "İpotek",
+    "Haciz"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1012/1'e göre taşınmazın eklentileri malikin istemi üzerine beyanlar sütununa yazılır; kamu hukuku kısıtlamaları ve diğer hususlar yönetmelikle belirlenir (TMK m. 1012/2). Kira kişisel hak olarak şerh edilir (TMK m. 1009), ipotek rehin hakkı olarak tescil edilir (TMK m. 1008), haciz ise tasarruf yetkisi kısıtlaması olarak şerh verilir (TMK m. 1010)."
+  },
+  {
+   "stem_md": "Otel sahibi Can, otelini bankaya ipotek ederken mutfak ekipmanlarını ve oda mobilyalarını açıkça eklenti olarak gösterip beyanlar sütununa yazdırır. Daha sonra Can, bu eşyaların eklenti olmadığını ve ipoteğin onları kapsamadığını ileri sürer. Hangisi doğrudur?",
+   "options": [
+    "Beyanlar sütununa yazılan bu şeyler, kanuna göre eklenti olamayacakları ispat edilmedikçe eklenti sayılır ve ipoteğin kapsamına girer.",
+    "Eşyalar tapuya yazıldığı için taşınmaz niteliği kazanmış ve bütünleyici parça olmuştur.",
+    "Beyan hiçbir sonuç doğurmadığından eşyaların eklenti olduğunu banka ispat etmelidir.",
+    "Can beyanı tek başına sildirerek eşyaları ipoteğin kapsamından çıkarabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 862/2'ye göre rehnin kuruluşu sırasında makine, otel döşeme eşyası gibi açıkça eklenti olarak gösterilen ve beyanlar sütununa yazılan şeyler, kanuna göre bu nitelikte olamayacakları ispat edilmedikçe eklenti sayılır. İspat yükü Can'dadır. Eklenti taşınır mal olarak kalır (TMK m. 686/2). Eklenti kaydının terkini, kütükte hak sahibi görünen bütün ilgililerin, burada bankanın rızasına bağlıdır (TMK m. 1012/1)."
+  },
+  {
+   "stem_md": "Zeynep, Ali aleyhine açtığı tescile zorlama davasını kazanır ve karar kesinleşir. Ali tapuya gelip beyanda bulunmayı reddeder. Hangisi doğrudur?",
+   "options": [
+    "Ali'nin yazılı beyanı olmadan tescil yapılamaz; Zeynep yeni bir dava açmalıdır.",
+    "Kesinleşmiş mahkeme kararına dayanan Zeynep için malikin beyanına gerek yoktur; Zeynep tescili kararla isteyebilir.",
+    "Zeynep, Ali'yi tapuda beyana zorlamak için icra dairesine başvurmalıdır.",
+    "Tescil için Ali'nin noterde onaylı muvafakatnamesi gerekir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1013/1'e göre tescil kural olarak malikin yazılı beyanı üzerine yapılır. Ancak edinen kişi kesinleşmiş mahkeme kararına dayanıyorsa bu beyana gerek yoktur (TMK m. 1013/2). Mahkeme kararına dayanarak mülkiyeti kazanan kişi tescili doğrudan doğruya yaptırabilir (TMK m. 716/2)."
+  },
+  {
+   "stem_md": "Selim ile Deniz bir tarlanın 2.000.000 TL'ye satışını adi yazılı bir sözleşmeyle yapar ve tapu müdürlüğüne başvurarak Deniz adına tescil ister. Tapu memuru ne yapmalıdır?",
+   "options": [
+    "Hukuki sebebin geçerlilik şekline uyulduğu belgelenmediğinden istemi reddetmelidir.",
+    "Malik Selim'in yazılı beyanı bulunduğundan tescili yapmalıdır.",
+    "Sözleşmeyi beyanlar sütununa yazmalıdır.",
+    "Belgeler tamamlanıncaya kadar geçici tescil şerhi vermelidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hukuki sebebin belgelenmesi, bu sebebin geçerliliği için gerekli şekle uyulduğunun ispatıyla olur (TMK m. 1015/3). Taşınmaz mülkiyetinin devrini amaçlayan sözleşmeler resmî şekilde düzenlenmedikçe geçerli değildir (TMK m. 706/1; TBK m. 237/1). Belgeler tamam değilse istem reddedilir (TMK m. 1016/1). Geçici tescil şerhi, hukuki sebep belgeleri tam olup yalnız tasarruf yetkisi belgesinin tamamlanması gerektiğinde verilebilir (TMK m. 1016/2)."
+  },
+  {
+   "stem_md": "Ayşe, kardeşi Burak'a noterden \"her türlü işlerimi takip etmeye\" yetki veren genel bir vekâletname verir. Burak bu vekâletnameyle Ayşe'nin tarlasını satmak için tapu müdürlüğüne başvurur. Hangisi doğrudur?",
+   "options": [
+    "Burak'ın Ayşe'nin kardeşi olması temsil yetkisi için yeterlidir.",
+    "Genel vekâletname her türlü hukuki işlemi kapsadığından satış yapılabilir.",
+    "Satış yapılır; Ayşe sonradan onaylamazsa tescil kendiliğinden terkin edilir.",
+    "Vekil özel olarak yetkili kılınmadıkça taşınmazı devredemez; tasarruf yetkisi belgelenmediğinden istem reddedilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "İstemde bulunan, sicilde hak sahibi görünen kişinin temsilcisi olduğunu ispat ederek tasarruf yetkisini belgeler (TMK m. 1015/2). Vekil özel olarak yetkili kılınmadıkça taşınmazı devredemez ve bir hakla sınırlandıramaz (TBK m. 504/3); tapuda işlem gerektiren vekâletname de noterde düzenleme şeklinde yapılır (1512 sayılı Kanun m. 89). Tasarruf yetkisi belgelenmediğinden istem reddedilir (TMK m. 1016/1). Kardeşlik temsil yetkisi vermez."
+  },
+  {
+   "stem_md": "TMK m. 1022/2'ye göre kanunen gerekli belgeler isteme eklenmişse tescilin etkisi hangi andan başlar?",
+   "options": [
+    "Kütüğe kaydın yapıldığı tarihten",
+    "Borçlandırıcı sözleşmenin yapıldığı tarihten",
+    "Tescilin ilgililere tebliğ edildiği tarihten",
+    "İstemin yevmiye defterine kaydedildiği tarihten"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 1022/2'ye göre tescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş ya da geçici tescil hâlinde belgeler uygun zamanda tamamlanmışsa yevmiye defterine yapılan kayıt tarihinden başlar. Kütüğe yazmanın sonradan yapılması bu tarihi değiştirmez. Tebliğ zorunluluğu (TMK m. 1019) itiraz süresiyle ilgilidir, etkinin başlangıcıyla değil."
+  },
+  {
+   "stem_md": "Kerem, babası Fikret'in ölümüyle tek mirasçı olur. Fikret'in tarlası tapuda hâlâ Fikret adına kayıtlıdır. Kerem tarlayı hemen satmak ister. Hangisi doğrudur?",
+   "options": [
+    "Mirasçı tescili ancak mahkeme kararıyla isteyebilir.",
+    "Kerem tescil yapılıncaya kadar malik değildir.",
+    "Kerem tescil yaptırmadan tarlayı alıcıya doğrudan devredebilir.",
+    "Kerem mirasla mülkiyeti kazanmıştır, ama tarla üzerinde tasarruf edebilmesi için önce mülkiyetin kendi adına tescil edilmesi gerekir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Mirasçılar mirasbırakanın ölümüyle mirası kanun gereği kazanır (TMK m. 599). Miras, mülkiyetin tescilden önce kazanıldığı hâllerdendir; ama malikin tasarruf işlemi yapabilmesi mülkiyetin tapuya tescil edilmesine bağlıdır (TMK m. 705/2). Kerem, sulh mahkemesinden ya da noterden alacağı mirasçılık belgesiyle (TMK m. 598) tescili kendisi isteyebilir (TMK m. 1013/3); mahkeme kararı gerekmez."
+  },
+  {
+   "stem_md": "Burak ile komşusu Elif, Elif'in arsası üzerinde Burak'ın arsası lehine resmî şekilde geçit irtifakı sözleşmesi yapar, ama irtifak tapuya tescil edilmez. Elif arsasını Hakan'a satar. Hangisi doğrudur?",
+   "options": [
+    "İrtifak tescil edilmedikçe doğmaz; Burak Hakan'a karşı ayni bir hak ileri süremez, Elif'e karşı ise sözleşmeden doğan kişisel haklarını kullanabilir.",
+    "Resmî şekilde yapılan sözleşme kendiliğinden beyanlar sütununa yazılır ve ayni etki kazanır.",
+    "Hakan'ın sözleşmeyi bilmesi tek başına irtifakı doğurur.",
+    "Sözleşme resmî şekilde yapıldığı için geçit irtifakı doğmuştur ve Hakan'ı bağlar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır (TMK m. 780/1). Kurulması tescile tabi ayni haklar tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Resmî şekil (TMK m. 781) yalnız sözleşmenin geçerliliğini sağlar ve Elif'e karşı bir borç doğurur. Hakan'ın bilgisi ayni hakkı doğurmaz; sözleşme de kendiliğinden kütüğe yazılmaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, Ataşehir'deki dairesini 10 Mart 2025'te noterde düzenleme şeklinde yapılan satış vaadi sözleşmesiyle Zeynep'e 4.000.000 TL'ye satmayı vaat eder. Zeynep bedelin tamamını aynı gün öder. Sözleşmeye göre tapudaki devir 1 Eylül 2025'te yapılacaktır. Sözleşme, Zeynep'in istemi üzerine 11 Mart 2025'te tapu kütüğüne şerh verilir. Dairenin tapu kaydında 2023'ten beri Ali'nin kredisi için X Bankası lehine tescil edilmiş bir ipotek bulunmaktadır.\n\nAli 1 Eylül'de devri yapmaz. Ali'nin alacaklısı Y Ltd. Şti., Ali aleyhine başlattığı icra takibinde 10 Kasım 2025'te daireye haciz koydurur. Zeynep, şerhten sonra konulan bu haczin kaldırılması için icra mahkemesine şikâyette bulunur.\n\nAli 15 Ocak 2026'da daireyi tapuda Mehmet'e 4.500.000 TL'ye satar. Mehmet tapu kaydını incelediğini ve şerhi gördüğünü kabul eder, ama şöyle savunur: \"Satış vaadi yalnız Ali'yi bağlar. Ben bedeli ödedim, tapuya güvendim, iyiniyetliyim.\"\n\n1. Zeynep'in Ali'ye karşı hakkının niteliği nedir? Şerh bu hakka ne kazandırmıştır?\n2. Zeynep Mehmet'e karşı ne isteyebilir? Mehmet'in savunmasını değerlendiriniz.\n3. X Bankası'nın ipoteği Zeynep'in durumunu nasıl etkiler?\n4. Zeynep'in şikâyeti ve haczin onun hakkına etkisi hakkında ne söylenebilir?",
+   "rubric": [
+    {
+     "point": "Satış vaadinin noterde resmî şekilde yapılmakla geçerli olması, kişisel hak doğurması ve mülkiyeti geçirmemesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 237"
+    },
+    {
+     "point": "Satış vaadinin şerh edilebilen haklardan olması ve şerhin hakkı sonradan hak kazananlara karşı ileri sürülebilir kılması; beş yıllık sürenin dolmamış olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1009"
+    },
+    {
+     "point": "Mehmet'in şerhten sonra hak kazanması ve sicildeki kaydı bilmediğini ileri sürememesi; iyiniyet savunmasının dinlenmemesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1020"
+    },
+    {
+     "point": "Zeynep'in kayıt maliki Mehmet'e karşı mülkiyetin hükmen geçirilmesini (tapu iptali ve tescil) isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 716"
+    },
+    {
+     "point": "Şerhten önce tescil edilen ipoteğin önceliği; Zeynep'in daireyi ipotekle yüklü olarak kazanması",
+     "weight": 15,
+     "madde_ref": "TMK m. 1022"
+    },
+    {
+     "point": "Şerhin önleyici olmaması; vaat alacaklısının haczi engelleyememesi ve şikâyet yetkisinin bulunmaması, ama şerhten sonraki haczin şerhli hakka üstün gelmemesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1009"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali ile Zeynep arasında bir taşınmaz satış vaadi sözleşmesi vardır. Bu sözleşme Ali'ye daireyi Zeynep'e devretme borcu yükler, ama mülkiyeti kendiliğinden geçirmez. Sözleşmeden doğan hak kişisel bir haktır ve tapuya şerh edilmiştir.\n\n**Hukuki sorunlar:** (1) Satış vaadinin geçerliliği ve şerhin etkisi; (2) şerhten sonra malik olan Mehmet'e karşı hakkın ileri sürülmesi; (3) şerhten önceki ipoteğin durumu; (4) şerhten sonra konulan haciz ve şikâyet yolu.\n\n**İlgili hükümler:** TBK m. 237/2; 1512 sayılı Kanun m. 60; 2644 sayılı Kanun m. 26; TMK m. 1009, 1020/3, 1022/1, 716/1.\n\n**Değerlendirme:**\n\n*1. Hakkın niteliği ve şerh:* Taşınmaz satışı vaadi resmî şekilde düzenlenmedikçe geçerli olmaz (TBK m. 237/2). Noterde düzenleme şeklinde yapılan sözleşme bu şartı karşılar; satış vaadi sözleşmesi yapmak noterin görevleri arasındadır (1512 sayılı Kanun m. 60). Sözleşme Zeynep'e, Ali'den mülkiyetin devrini isteme konusunda kişisel bir hak verir; Ali'nin borcu 1 Eylül 2025'te muaccel olmuştur. Kişisel hak kural olarak yalnız Ali'ye karşı ileri sürülür. Ancak satış vaadinden doğan hak şerh edilebilecek haklar arasında sayılmıştır (TMK m. 1009/1) ve noterce düzenlenen satış vaadi taraflardan birinin istemiyle şerh verilir (2644 sayılı Kanun m. 26). Şerh hakkı ayni hakka dönüştürmez, ama onu taşınmaz üzerinde sonradan hak kazananlara karşı ileri sürülebilir kılar (TMK m. 1009/2). Şerh 11 Mart 2025 tarihlidir ve beş yıllık süre dolmamıştır.\n\n*2. Mehmet'e karşı istem:* Mehmet daireyi şerhten sonra edinmiştir. Bu nedenle Zeynep hakkını Mehmet'e karşı da ileri sürebilir. Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3); Mehmet şerhi gördüğünü de kabul etmektedir. \"Tapuya güvendim\" savunması, kütükte açıkça görünen şerh karşısında dinlenmez; Yargıtay Hukuk Genel Kurulu da şerhi görerek taşınmazı alan kişinin iyiniyet iddiasında bulunamayacağını kabul eder. Bedeli ödemiş ve borcu muaccel olan Zeynep, TMK m. 716/1'e dayanarak mülkiyetin hükmen geçirilmesini, yani tapu iptali ve tescil davasıyla dairenin kendi adına tescilini isteyebilir. Tapu kaydının iptali istendiği için dava, şerhten sonra kayıt maliki olan Mehmet'e karşı yöneltilir. Mehmet'in ödediği bedel için Ali'ye başvurması, kendi aralarındaki sözleşmeye ilişkin ayrı bir sorundur.\n\n*3. İpotek:* İpotek bir rehin hakkı olarak 2023'te tescil edilmiştir (TMK m. 1008). Ayni haklar sıralarını ve tarihlerini tescile göre alır (TMK m. 1022/1). Şerhin etkisi yalnız sonradan kazanılan haklara yöneliktir; şerhten önce kurulan ipotek Zeynep'e karşı da geçerlidir. Zeynep daireyi ipotekle yüklü olarak kazanır. Borç ödenmezse banka daireyi paraya çevirtebilir. Zeynep'in bu konudaki istemleri yalnız Ali'ye karşıdır.\n\n*4. Haciz ve şikâyet:* Yargıtay Hukuk Genel Kurulu'na göre satış vaadi şerhi önleyici değildir; vaat alacaklısı taşınmazın devrini, ipotek edilmesini ya da haczini engelleyemez. Bu yüzden haczin konulması hukuka aykırı değildir. Zeynep icra dosyasının tarafı ve taşınmazın maliki olmadığından şikâyet yoluyla haczin kaldırılmasını isteyemez; şikâyeti takip yetkisi yokluğundan reddedilir. Bu, Zeynep'in hakkını kaybettiği anlamına gelmez. Haciz şerhten sonra konulduğu için şerhli hak hacze karşı da ileri sürülebilir (TMK m. 1009/2). Hukuk Genel Kurulu'nun belirttiği gibi taşınmaz icra yoluyla satılsa bile şerh mükellefiyetler listesinde yer alır ve Zeynep hakkını yeni malike karşı ileri sürebilir. Zeynep korumayı tescil davasında arar.\n\n**Sonuç:**\n- Zeynep'in hakkı kişisel bir haktır; şerh onu sonradan hak kazananlara karşı ileri sürülebilir kılmıştır.\n- Zeynep, Mehmet'e karşı tapu iptali ve tescil davası açabilir; Mehmet iyiniyet savunmasında bulunamaz.\n- Şerhten önce tescil edilen ipotek Zeynep'e karşı da geçerlidir; Zeynep daireyi ipotekli olarak kazanır.\n- Zeynep haczi şikâyet yoluyla kaldırtamaz, ama şerhten sonra konulan haciz onun hakkına üstün gelmez."
+  },
+  {
+   "stem_md": "İzmir'de yaşayan Ayşe, Bodrum'daki tarlasını Cem'e 3.000.000 TL'ye satmak ister.\n\n(a) Ayşe, kardeşi Burak'a noterden \"her türlü işlerimi takip etmeye ve beni temsile\" yetki veren genel bir vekâletname verir. Burak bu vekâletnameyle Bodrum Tapu Müdürlüğüne başvurarak satışı ister. Tapu memuru istemi reddeder.\n\n(b) Bunun üzerine Ayşe ve Cem, satış bedelini ve tarlayı gösteren adi yazılı bir sözleşme imzalayıp tapu müdürlüğüne verir ve Cem adına tescil ister. Bu istem de reddedilir.\n\n(c) Sonunda 3 Mart 2026'da Ayşe İzmir'deki bir tapu müdürlüğünde, Cem ise Bodrum'da iradesini açıklayarak resmî senet düzenletirler. İstem bütün belgeleriyle birlikte 3 Mart'ta saat 10.15'te yevmiye defterine yazılır; tapu kütüğüne kayıt teknik bir arıza yüzünden 5 Mart'ta yapılır. Ayşe'nin alacaklısı olan bankanın icra takibinde gönderilen haciz müzekkeresi 4 Mart'ta tapu müdürlüğüne ulaşır. Banka, kayıt 5 Mart'a kadar Ayşe adına göründüğü için haczin konulması gerektiğini savunur.\n\n(d) Cem ayrıca, babası Fikret'in 10 Ocak 2026'daki ölümüyle tek mirasçı olarak kazandığı ve tapuda hâlâ Fikret adına kayıtlı olan başka bir tarlayı Zeynep'e hemen satmak istemektedir.\n\n1. (a) ve (b)'deki ret kararları yerinde midir?\n2. (c)'de Cem mülkiyeti hangi tarihte kazanmıştır? Haciz Cem'e karşı ileri sürülebilir mi?\n3. (d)'de Cem tarlayı hemen satabilir mi? Ne yapması gerekir?",
+   "rubric": [
+    {
+     "point": "Tasarruf yetkisinin belgelenmesi; genel vekâletnamenin taşınmaz devri için yetmemesi, özel yetki ve düzenleme şeklinde vekâletname gerekmesi; istemin reddi",
+     "weight": 25,
+     "madde_ref": "TBK m. 504"
+    },
+    {
+     "point": "Hukuki sebebin geçerlilik şekline uygun belgelenmesi; adi yazılı satışın geçersizliği ve istemin reddi; geçici tescil şerhinin bu duruma uygulanmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1015"
+    },
+    {
+     "point": "Resmî senedin tapu görevlilerince düzenlenmesi ve farklı tapu müdürlüklerinde iradelerin ayrı ayrı alınabilmesi; malikin yazılı istemi",
+     "weight": 10,
+     "madde_ref": "2644 sayılı Kanun m. 26"
+    },
+    {
+     "point": "Tescilin etkisinin yevmiye defterine kayıt tarihinden başlaması; Cem'in 3 Mart'ta malik olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1022"
+    },
+    {
+     "point": "İstem sırası ilkesi; sonra gelen haczin Cem'e ait taşınmaza Ayşe'nin borcu için konulamaması",
+     "weight": 10,
+     "madde_ref": "TMK m. 1017"
+    },
+    {
+     "point": "Mirasçının mülkiyeti tescilden önce kazanması; tasarruf için önce tescil gerekmesi; mirasçılık belgesiyle tescil istemi",
+     "weight": 15,
+     "madde_ref": "TMK m. 705"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlıklar, taşınmaz mülkiyetinin hukuki işlemle devrinde tescilin şartlarına ve tescilin etkisinin başladığı ana ilişkindir. (d)'de ise tescilsiz kazanılmış bir mülkiyet üzerinde tasarruf sorunu vardır.\n\n**Hukuki sorunlar:** (1) Genel vekâletnameyle tasarruf yetkisi belgelenebilir mi? (2) Adi yazılı satış sözleşmesi hukuki sebep belgesi olur mu? (3) Mülkiyet hangi tarihte geçti, sonra gelen haciz etkili mi? (4) Mirasçı tescil yaptırmadan tasarruf edebilir mi?\n\n**İlgili hükümler:** TMK m. 1013, 1015, 1016, 1017, 1022, 706, 705, 599, 598; TBK m. 237, 504; 1512 sayılı Kanun m. 89; 2644 sayılı Kanun m. 26.\n\n**Değerlendirme:**\n\n*(a) Vekâletname:* Tescil için istemde bulunan kişi tasarruf yetkisini belgelemelidir. Bu, sicilde hak sahibi görünen kişi ya da onun temsilcisi olunduğunun ispatıyla olur (TMK m. 1015/2). Burak malik değildir, temsilci sıfatıyla gelmiştir. Ancak vekil, özel olarak yetkili kılınmadıkça taşınmazı devredemez ve bir hakla sınırlandıramaz (TBK m. 504/3). \"Her türlü işlerimi takip etmeye\" yetkisi veren genel vekâletname, taşınmaz satışı için gerekli özel yetkiyi içermez. Tapuda işlem yapılmasını gerektiren vekâletnamelerin ayrıca noterde düzenleme şeklinde yapılması gerekir (1512 sayılı Kanun m. 89). Tasarruf yetkisi belgelenmediği için istemin reddi yerindedir (TMK m. 1016/1). Ayşe, Burak'a taşınmaz satışı için özel yetki veren, düzenleme şeklinde bir vekâletname verirse Burak satışı yapabilir.\n\n*(b) Adi yazılı sözleşme:* Hukuki sebebin belgelenmesi, geçerliliği için gerekli şekle uyulduğunun ispatıyla olur (TMK m. 1015/3). Taşınmaz mülkiyetinin devrini amaçlayan sözleşmeler resmî şekilde düzenlenmedikçe geçerli değildir (TMK m. 706/1; TBK m. 237/1). Adi yazılı sözleşme bu şartı karşılamaz; hukuki sebep belgesi eksik olduğundan istem reddedilir (TMK m. 1016/1). Geçici tescil şerhi de verilemez, çünkü TMK m. 1016/2 yalnız hukuki sebep belgeleri tamken tasarruf yetkisini gösteren belgenin tamamlanması gereken hâller içindir.\n\n*(c) Mülkiyetin geçtiği an:* Resmî senet tapu görevlilerince düzenlenmiştir. Taraflar farklı tapu müdürlüklerinde bulunduğundan iradelerinin ayrı ayrı alınarak sözleşmenin tamamlanması 2644 sayılı Kanun m. 26'ya uygundur. Malik Ayşe'nin yazılı istemi de vardır (TMK m. 1013/1). Tescilin etkisi, kanunen gerekli belgeler isteme eklenmişse yevmiye defterine kayıt tarihinden başlar (TMK m. 1022/2). Bu nedenle Cem, kütüğe kaydın yapıldığı 5 Mart'ta değil, istemin yevmiyeye yazıldığı 3 Mart'ta malik olmuştur. Kütüğe tesciller istem tarihine ve sırasına göre yapılır (TMK m. 1017/1). Haciz müzekkeresi Cem'in isteminden sonra, 4 Mart'ta gelmiştir. O tarihte taşınmaz artık Ayşe'nin değil Cem'in malıdır; Ayşe'nin borcu için konulmak istenen haciz Cem'e karşı ileri sürülemez. Bankanın \"kayıt 5 Mart'a kadar Ayşe adınaydı\" savunması, etkinin yevmiye tarihinden başladığı kuralı karşısında dinlenmez.\n\n*(d) Miras kalan tarla:* Mirasçılar mirasbırakanın ölümüyle mirası kanun gereği kazanır (TMK m. 599). Miras, mülkiyetin tescilden önce kazanıldığı hâllerdendir; ama bu hâllerde malikin tasarruf işlemi yapabilmesi mülkiyetin tapuya tescil edilmesine bağlıdır (TMK m. 705/2). Cem 10 Ocak 2026'dan beri maliktir, ancak kayıt Fikret adına durdukça tarlayı satamaz. Cem, sulh mahkemesinden ya da noterden alacağı mirasçılık belgesiyle (TMK m. 598) tescili kendisi isteyebilir (TMK m. 1013/3). İntikal tescilinden sonra tarlayı Zeynep'e resmî senetle satar.\n\n**Sonuç:**\n- (a) ve (b)'deki ret kararları yerindedir: İlkinde tasarruf yetkisi, ikincisinde hukuki sebep belgelenmemiştir.\n- Cem 3 Mart'ta, yevmiye tarihinde malik olmuştur; 4 Mart'ta gelen haciz ona karşı ileri sürülemez.\n- Cem önce mirasçılık belgesiyle tarlayı kendi adına tescil ettirmeli, sonra satmalıdır."
+  },
+  {
+   "stem_md": "Mert, Kadıköy'de Nesrin adına kayıtlı bir daireyi satın almak istemektedir. Dairenin kat mülkiyeti kütüğündeki kayıtlar şöyledir:\n\n- **Rehinler:** 2 Şubat 2023'te tescil edilmiş, Y Bankası lehine birinci derece ipotek.\n- **Şerhler:** Nesrin'in kardeşi Ozan lehine resmî şekilde yapılmış sözleşmeden doğan ve şerhte altı yıllık süre gösterilen alım hakkı (3 Nisan 2024); Nesrin'in eşi Okan'ın tapu müdürlüğüne başvurarak koydurduğu aile konutu şerhi (10 Ocak 2025); bir icra dairesinin Nesrin'in borcu nedeniyle bildirdiği haciz (20 Haziran 2025).\n- **Beyanlar:** Yönetim planının tarihi.\n\nDaire, Nesrin ile Okan'ın birlikte oturdukları evdir. Nesrin, Mert'e şöyle der: \"Bunların hepsi kâğıt üstünde. Satıştan sonra tapuya bir dilekçe verip hepsini sildiririm. Okan'a da sormamıza gerek yok, daire benim adıma kayıtlı.\" Mert ise \"Satıştan sonra bir sorun çıkarsa bu kayıtları görmediğimi söylerim\" diye düşünmektedir.\n\n1. Kayıtların her birini nitelendiriniz.\n2. Mert daireyi satın alırsa ipotek, alım hakkı, haciz ve yönetim planı kendisine karşı hangi sonuçları doğurur?\n3. Okan'ın rızası olmadan satış yapılabilir mi? Aile konutu şerhi bulunmasaydı Mert'in durumu nasıl değerlendirilirdi?\n4. Nesrin'in ve Mert'in düşüncelerini değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Kayıtların nitelendirilmesi: ipotek tescil, alım hakkı kişisel hak şerhi, aile konutu şerhi, haciz tasarruf yetkisi kısıtlaması şerhi, yönetim planı tarihi beyan",
+     "weight": 20,
+     "madde_ref": "TMK m. 1008"
+    },
+    {
+     "point": "İpoteğin ayni hak olarak Mert'i bağlaması ve sıranın tescil tarihine göre belirlenmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 1022"
+    },
+    {
+     "point": "Alım hakkı şerhinin şerhte belirtilen süre içinde her malike karşı kullanılabilmesi ve on yıllık üst sınır",
+     "weight": 15,
+     "madde_ref": "TMK m. 736"
+    },
+    {
+     "point": "Haciz şerhinin satışı kendiliğinden engellememesi, ama şerhten sonra hak kazanan Mert'e karşı ileri sürülebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1010"
+    },
+    {
+     "point": "Aile konutunun devrinde diğer eşin açık rızasının gerekmesi; şerh varken iyiniyet iddiasının dinlenmemesi; şerh yoksa Hukuk Genel Kurulu'na göre iyiniyetli üçüncü kişinin korunması ve bunun sınırı",
+     "weight": 20,
+     "madde_ref": "TMK m. 194"
+    },
+    {
+     "point": "Yönetim planının cüzi halefleri bağlaması; beyanın bildirici niteliği",
+     "weight": 10,
+     "madde_ref": "KMK m. 28"
+    },
+    {
+     "point": "Kayıtların hak sahiplerinin beyanı olmadan silinememesi; kimsenin sicildeki kaydı bilmediğini ileri sürememesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 1020"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlık, satın alınmak istenen bir dairenin kütüğündeki tescil, şerh ve beyanların sonraki malike etkisine ilişkindir.\n\n**Hukuki sorunlar:** Kayıtların türü; her kaydın Mert'e etkisi; aile konutunda açık rıza ve şerhin rolü; kayıtların silinmesi ve \"bilmiyordum\" savunması.\n\n**İlgili hükümler:** TMK m. 194, 1008, 1009, 1010, 1012, 1014, 1020, 1022, 736; İİK m. 91; KMK m. 28.\n\n**Değerlendirme:**\n\n*1. Nitelendirme:* İpotek bir rehin hakkıdır ve tescil edilir (TMK m. 1008). Alım hakkı sözleşmeden doğan kişisel bir haktır ve şerh edilmiştir (TMK m. 1009/1). Haciz, tasarruf yetkisinin kısıtlanması şerhidir (TMK m. 1010/1-2; İİK m. 91). Aile konutu şerhi TMK m. 194/3'e dayanır; malik olmayan eş Okan onu doğrudan tapu müdürlüğünden istemiştir. Yönetim planının tarihi ise bir beyandır (KMK m. 28/5; TMK m. 1012).\n\n*2. Mert'e etkileri:*\n- *İpotek:* Ayni haklar sıralarını tescile göre alır (TMK m. 1022/1). Mert daireyi ipotekle yüklü olarak edinir; ipotekle güvence altına alınan borç ödenmezse banka daireyi paraya çevirtebilir.\n- *Alım hakkı:* Şerh verilen alım hakkı, şerhte belirtilen süre içinde her malike karşı kullanılabilir (TMK m. 736/1). Ozan, şerhteki altı yıllık süre içinde, yani 3 Nisan 2030'a kadar hakkını kullanırsa Mert daireyi ona devretmek zorunda kalır. Şerhin etkisi her durumda on yılda sona erer (TMK m. 736/2); altı yıllık süre bu sınırın içindedir.\n- *Haciz:* Haciz şerhi satışı kendiliğinden yasaklamaz; kanun da hacizli taşınmazın el değiştirebileceğini öngörür (İİK m. 91/3). Ancak tasarruf yetkisi kısıtlaması şerhten sonra hak kazananlara karşı ileri sürülebilir (TMK m. 1010/2). Mert daireyi haczi taşıyan bir taşınmaz olarak alır ve icra takibi daire üzerinden yürüyebilir.\n- *Yönetim planı:* Yönetim planı ve değişiklikleri bütün kat maliklerini ve onların külli ve cüzi haleflerini bağlar (KMK m. 28/4). Bağlayıcılık kanundan doğar; beyan yalnız planın varlığını ve tarihini gösterir.\n\n*3. Aile konutu:* Eşlerden biri diğer eşin açık rızası olmadıkça aile konutunu devredemez (TMK m. 194/1). Bu şart şerhten değil doğrudan kanundan doğar; dairenin Nesrin adına kayıtlı olması rızayı gereksiz kılmaz. Okan'ın açık rızası alınmadan yapılacak satış TMK m. 194/1'e aykırıdır. Şerh bulunduğundan Mert, dairenin aile konutu olduğunu bilmediğini ileri süremez (TMK m. 1020/3) ve tapu siciline güven korumasından yararlanamaz. Rıza sağlanamaz ya da haklı bir sebep olmadan verilmezse Nesrin hâkimin müdahalesini isteyebilir (TMK m. 194/2). Şerh bulunmasaydı Yargıtay Hukuk Genel Kurulu'na göre dairenin aile konutu olduğunu bilmeyen ve bilmesi de gerekmeyen Mert, tapu siciline güvenden (TMK m. 1023) yararlanabilirdi. Ancak Nesrin ile Okan'ın evde birlikte oturduğunu görmesi gibi olgular, gerekli özeni gösterseydi durumu bilebileceğini ortaya koyacağından iyiniyetini ortadan kaldırabilirdi.\n\n*4. Nesrin ve Mert:* Bir kaydın terkini ya da değiştirilmesi, ancak kaydın kendilerine hak sağladığı kişilerin yazılı beyanı üzerine yapılabilir (TMK m. 1014). İpoteğin terkini bankanın, alım hakkı şerhinin Ozan'ın, aile konutu şerhinin Okan'ın beyanına ya da bir mahkeme kararına bağlıdır; haciz kalkarsa bu da icra dairesince tapuya bildirilir (İİK m. 91/2). Nesrin'in tek taraflı bir dilekçeyle bu kayıtları sildirmesi mümkün değildir. Mert'in düşüncesi de sonuç vermez: Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3).\n\n**Sonuç:**\n- İpotek tescil; alım hakkı kişisel hak şerhi; aile konutu şerhi TMK m. 194/3'e dayanan şerh; haciz tasarruf yetkisi kısıtlaması şerhi; yönetim planı tarihi beyandır.\n- Mert ipotekle, alım hakkıyla ve hacizle yüklü olarak malik olur; yönetim planı onu da bağlar.\n- Okan'ın açık rızası olmadan satış TMK m. 194/1'e aykırıdır; şerh nedeniyle Mert iyiniyet iddia edemez.\n- Kayıtlar Nesrin'in tek taraflı istemiyle silinemez; Mert \"bilmiyordum\" diyemez."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Tapu kütüğüne hangi haklar tescil edilir? (TMK m. 1008)",
+   "back_md": "Mülkiyet; irtifak hakları ve taşınmaz yükleri; rehin hakları. Kişisel haklar tescil edilmez, en fazla şerh edilir."
+  },
+  {
+   "front_md": "Hangi kişisel haklar şerh edilebilir? (TMK m. 1009)",
+   "back_md": "Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, geri alım sözleşmelerinden doğan haklar ve şerhine kanunda açıkça izin verilen diğer haklar."
+  },
+  {
+   "front_md": "Şerhin etkisi nedir?",
+   "back_md": "Şerhli hak ya da kısıtlama, taşınmaz üzerinde sonradan hak kazananlara karşı ileri sürülebilir (TMK m. 1009/2, m. 1010/2). Hak kişisel kalır; şerhten önceki haklar önceliğini korur."
+  },
+  {
+   "front_md": "Satış vaadi şerhi malikin tasarrufunu engeller mi?",
+   "back_md": "Hayır. Hukuk Genel Kurulu'na göre şerh önleyici değildir; devir, ipotek ve haciz yapılabilir, ama şerhli hak bunlara karşı ileri sürülür."
+  },
+  {
+   "front_md": "Satış vaadi şerhinin süresi?",
+   "back_md": "Şerhten itibaren beş yıl içinde satış yapılmazsa şerh re'sen terkin olunur (2644 sayılı Kanun m. 26)."
+  },
+  {
+   "front_md": "Beş yılı geçmiş ama terkin edilmemiş satış vaadi şerhi?",
+   "back_md": "Hukuk Genel Kurulu çoğunluğuna göre etkisi sürer, şerhi görerek alan iyiniyetli sayılmaz. Karşı görüşe göre beş yılla değerini yitirir. Tartışmalıdır."
+  },
+  {
+   "front_md": "Sözleşmeden doğan önalım, alım ve geri alım şerhinin üst sınırı?",
+   "back_md": "Şerhte belirtilen süre içinde her malike karşı kullanılır; şerhin etkisi her durumda şerh tarihinden itibaren on yılda sona erer (TMK m. 735 ve 736)."
+  },
+  {
+   "front_md": "Kira sözleşmesinin şerhinin dayanağı?",
+   "back_md": "Sözleşmeyle kararlaştırılabilir (TBK m. 312; TMK m. 1009). Kiralanan el değiştirirse yeni malik zaten sözleşmenin tarafı olur (TBK m. 310)."
+  },
+  {
+   "front_md": "Tasarruf yetkisi kısıtlaması şerhinin sebepleri? (TMK m. 1010)",
+   "back_md": "Çekişmeli hakların korunmasına ilişkin mahkeme kararları; haciz, iflas kararı, konkordato süresi; aile yurdu, artmirasçı atanması gibi kanunda öngörülen işlemler."
+  },
+  {
+   "front_md": "Tedbir şerhinden sonra hak kazanan 'bilmiyordum' diyebilir mi?",
+   "back_md": "Hayır. Kısıtlama şerhten sonra hak kazananlara karşı ileri sürülür (TMK m. 1010/2) ve kimse sicildeki kaydı bilmediğini ileri süremez (TMK m. 1020/3)."
+  },
+  {
+   "front_md": "İİK m. 28'deki şerh nedir?",
+   "back_md": "Taşınmaz davasında davacı lehine hüküm verilince mahkemenin talep beklemeden hüküm özetini tapuya bildirmesiyle verilen şerh. TMK m. 1010/2'ye tabidir."
+  },
+  {
+   "front_md": "Geçici tescil şerhi hangi hâllerde verilir? (TMK m. 1011)",
+   "back_md": "İddia edilen bir ayni hakkın güvenceye alınması gerekiyorsa ya da kanun, tasarruf yetkisi belgelerindeki eksikliğin sonradan tamamlanmasına izin veriyorsa."
+  },
+  {
+   "front_md": "Geçici tescil şerhine kim karar verir, etkisi nedir?",
+   "back_md": "Bütün ilgililerin rızası ya da hâkim kararı gerekir. Hak gerçekleşirse şerh tarihinden başlayarak üçüncü kişilere karşı ileri sürülür."
+  },
+  {
+   "front_md": "Aile konutu şerhini kim, nereden ister?",
+   "back_md": "Aile konutunun maliki olmayan eş, doğrudan tapu müdürlüğünden (TMK m. 194/3). Açık rıza şartı kanundan doğar (TMK m. 194/1)."
+  },
+  {
+   "front_md": "Aile konutu şerhi yoksa üçüncü kişi korunur mu?",
+   "back_md": "Hukuk Genel Kurulu'na göre konutun aile konutu olduğunu bilmeyen ve bilmesi gerekmeyen üçüncü kişi TMK m. 1023'ten yararlanır; bilen ya da bilebilecek olan korunmaz."
+  },
+  {
+   "front_md": "Beyanlar sütununa neler yazılır? (TMK m. 1012)",
+   "back_md": "Malikin istemiyle eklentiler; kamu hukuku kısıtlamaları ve yönetmelikte belirtilen diğer hususlar. Özel kanun hükümleri saklıdır."
+  },
+  {
+   "front_md": "Eklenti beyanının rehinde etkisi?",
+   "back_md": "Rehnin kuruluşunda açıkça eklenti gösterilip beyanlar sütununa yazılan şeyler, aksi ispat edilmedikçe eklenti sayılır (TMK m. 862/2)."
+  },
+  {
+   "front_md": "Tescilin üç şartı?",
+   "back_md": "İstem (TMK m. 1013); tasarruf yetkisinin belgelenmesi ve hukuki sebebin geçerlilik şekline uygun belgelenmesi (TMK m. 1015)."
+  },
+  {
+   "front_md": "Malikin yazılı beyanı ne zaman gerekmez?",
+   "back_md": "Edinen kanun hükmüne, kesinleşmiş mahkeme kararına ya da buna eşdeğer bir belgeye dayanıyorsa (TMK m. 1013/2)."
+  },
+  {
+   "front_md": "Bir kaydın terkini kimin beyanıyla olur?",
+   "back_md": "Kaydın kendilerine hak sağladığı kişilerin yazılı beyanıyla (TMK m. 1014); örneğin ipotekte bankanın."
+  },
+  {
+   "front_md": "Belgeler eksikse tapu memuru ne yapar?",
+   "back_md": "İstemi reddeder (TMK m. 1016/1). Hukuki sebep belgeleri tam, yalnız tasarruf yetkisi belgesi eksikse malikin rızası ya da hâkim kararıyla geçici tescil şerhi verilebilir (TMK m. 1016/2)."
+  },
+  {
+   "front_md": "Tescilin etkisi ne zaman başlar?",
+   "back_md": "Belgeler tamsa yevmiye defterine kayıt tarihinden (TMK m. 1022/2). Kütüğe sonradan yazılması sonucu değiştirmez."
+  },
+  {
+   "front_md": "Tescilsiz kazanan malik tasarruf edebilir mi?",
+   "back_md": "Hayır. Miras, mahkeme kararı gibi hâllerde mülkiyet tescilden önce kazanılır, ama tasarruf için önce tescil gerekir (TMK m. 705/2)."
+  },
+  {
+   "front_md": "HUAK m. 18/B'deki 2024 yeniliği?",
+   "back_md": "Bu maddeye tabi uyuşmazlıklarda icra edilebilirlik şerhi verilmiş anlaşma belgesine dayanılarak resmî senet düzenlenmeden tescil istenebilir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

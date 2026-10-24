@@ -1,0 +1,642 @@
+{
+ "course_id": "HUK3017",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Hüküm, Davayı Sona Erdiren Taraf İşlemleri, Basit Yargılama ve Giderler",
+ "topic_index": 3,
+ "slug": "basit-yargilama-yargilama-giderleri-ve-adli-yardim",
+ "title": "Basit Yargılama Usulü, Yargılama Giderleri ve Adli Yardım",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:05:15.645392+00:00",
+ "skill_refs": [
+  "hukuk-muhakemesi/medeni-yargilama-sistemi"
+ ],
+ "content": {
+  "summary_md": "- **Basit yargılama usulü (HMK m. 316-322):** yazılı yargılamanın sadeleştirilmiş, hızlı biçimidir. Uygulanma alanı HMK m. 316/1'de sayılır: sulh hukuk mahkemesinin görevine giren işler, geçici hukuki korumalar, her çeşit nafaka ile velayet ve vesayet işleri, hizmet ilişkisinden doğan davalar, konkordato vb. Hüküm bulunmayan hâllerde yazılı yargılama kuralları uygulanır (HMK m. 322/1).\n- **Dilekçeler:** yalnız dava ve cevap dilekçesi. Cevap süresi tebliğden itibaren **iki hafta**; zor durumda cevap süresinin bitiminden başlayan, bir defaya mahsus **en çok iki haftalık** ek süre verilebilir. Cevaba cevap ve ikinci cevap dilekçesi verilemez (HMK m. 317).\n- **Deliller** dilekçelerle birlikte bildirilir, eldekiler eklenir (HMK m. 318). İddianın genişletilmesi yasağı **dava açılmasıyla**, savunmanın genişletilmesi yasağı **cevap dilekçesinin verilmesiyle** başlar (HMK m. 319).\n- **Duruşma:** mümkünse dosya üzerinden karar; değilse ilk duruşma ön inceleme niteliğindedir. Tahkikat, o duruşma hariç **iki duruşmada** tamamlanır; duruşmalar arası **bir ayı** aşamaz (zorunlu hâlde gerekçeli istisna). İşlemden kaldırılıp yenilenen dosya yeniden takipsiz bırakılırsa dava **açılmamış sayılır** (HMK m. 320).\n- **Yargılama giderleri (HMK m. 323-333):** kapsam HMK m. 323'te sayılır. Kural: gider **aleyhine hüküm verilen taraftan** alınır (HMK m. 326/1); kısmen haklılıkta **haklılık oranına** göre paylaştırılır (HMK m. 326/2).\n- **Özel sorumluluk hâlleri:** gereksiz uzatan taraf lehine karar çıksa bile karar ve ilam harcı dışındaki giderleri ödeyebilir (HMK m. 327/1); kötüniyetli taraf karşı tarafın akdî vekâlet ücretinden ve disiplin para cezasından sorumlu tutulabilir (HMK m. 329); konusuz kalan davada davanın açıldığı tarihteki haklılığa bakılır (HMK m. 331/1); açılmamış sayılan davada gider davacıya yükletilir (HMK m. 331/3).\n- **Vekâlet ücreti** vekille takip edilen davada **taraf lehine** hükmedilir (HMK m. 330/1). Yargılama giderine **resen** hükmedilir (HMK m. 332/1).\n- **Adli yardım (HMK m. 334-340):** kendisi ve ailesinin geçimini önemli ölçüde zor duruma düşürmeksizin giderleri karşılayamayan kişiye, talebi **açıkça dayanaktan yoksun olmamak** kaydıyla verilir; yabancılar için karşılıklılık aranır (HMK m. 334/3). Giderlerden geçici muafiyet, teminattan muafiyet sağlar; **hükmün kesinleşmesine kadar** sürer (HMK m. 335). Daha önce yapılmış giderleri kapsamaz (HMK m. 337/3). Ret kararına **iki hafta** içinde itiraz edilir; itiraz kararı kesindir (HMK m. 337/2).\n- 📌 HMK m. 334/2 Anayasa Mahkemesinin 24.9.2024 tarihli kararıyla iptal edilmiştir; HMK m. 337/2'deki süre 7499 sayılı Kanunla iki haftaya çıkmıştır.",
+  "content_md": "## 1. Basit yargılama usulü nedir?\n\nHMK'nın temel yargılama biçimi **yazılı yargılama usulüdür** (dilekçeler, ön inceleme, tahkikat ve sözlü yargılama aşamalarıyla işleyen sistem). Bazı dava ve işlerin daha çabuk, sade ve ucuz sonuçlanması gerektiği için kanun koyucu bunlar için ayrı bir kalıp öngörmüştür: **basit yargılama usulü**. Bu usul yazılı yargılamanın tamamen dışında bir sistem değil, onun kısaltılmış hâlidir; nitekim HMK m. 322/1'e göre basit yargılama hakkında hüküm bulunmayan her konuda yazılı yargılama kuralları uygulanır.\n\n### 1.1. Hangi dava ve işlerde uygulanır?\n\nHMK m. 316/1, \"kanunlarda açıkça belirtilenler dışında\" şu durumlarda basit yargılama usulünün uygulanacağını söyler:\n\n- sulh hukuk mahkemelerinin görevine giren dava ve işler;\n- doğrudan dosya üzerinden karar vermek konusunda kanunun mahkemeye takdir hakkı tanıdığı dava ve işler;\n- ihtiyati tedbir, ihtiyati haciz, delil tespiti gibi geçici hukuki korumalar ile bunlara karşı itirazlar (deniz raporları ve dispeççi atanması dahil);\n- her çeşit nafaka davaları ile velayet ve vesayete ilişkin dava ve işler;\n- hizmet ilişkisinden doğan davalar;\n- konkordato ve sermaye şirketleri veya kooperatiflerin uzlaşma suretiyle yeniden yapılandırılmasına ilişkin davalar;\n- tahkim hükümlerine göre mahkemenin görev alanına giren dava ve işler;\n- başka kanunlarda yazılı yargılama dışında bir usulün uygulanacağı belirtilen dava ve işler.\n\n> **Örnek:** Zeynep, eski işvereni X Ltd. Şti.'ne karşı iş mahkemesinde kıdem ve fazla çalışma alacağı davası açıyor. Bu, hizmet ilişkisinden doğan bir davadır; basit yargılama usulü uygulanır (HMK m. 316/1-d). Ali ise bir sözleşme tazminatı davasını asliye hukuk mahkemesinde açıyorsa, kanunda başka usul öngörülmediğinden yazılı yargılama usulü geçerlidir.\n\n> ⚠️ **Sınavda dikkat:** Liste, (g) bendi yoluyla başka kanunlarda öngörülen hâllere de açılır; ama \"hangi davada hangi usul\" sorusunda önce HMK m. 316/1 listesine bak. Listede olmayan genel dava tipleri yazılı yargılamaya tabidir.\n\n## 2. Basit yargılama usulünün işleyişi\n\n### 2.1. Dilekçeler\n\nDava açılması ve cevap verilmesi dilekçeyle olur (HMK m. 317/1). Dava ve cevap dilekçeleri yönetmelikte belirlenen formun doldurulmasıyla da verilebilir (HMK m. 317/4). Dilekçeler aşaması **yalnızca bu iki dilekçeden** oluşur: taraflar cevaba cevap ve ikinci cevap dilekçesi veremez (HMK m. 317/3).\n\n**Cevap süresi** dava dilekçesinin davalıya tebliğinden itibaren **iki haftadır**. Cevap dilekçesinin bu sürede hazırlanması çok zor ya da imkânsızsa, aynı süre içinde mahkemeye başvuran davalıya cevap süresinin **bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak ve iki haftayı geçmemek** üzere ek süre verilebilir (HMK m. 317/2).\n\n> **Örnek:** Dava dilekçesi X A.Ş.'ye 3 Mart'ta tebliğ edildi. Cevap süresi iki hafta, yani 17 Mart'ta sona erer. X A.Ş. bu süre içinde ek süre isterse mahkeme, 17 Mart'tan itibaren işleyecek ve iki haftayı geçmeyecek bir süre verebilir. Üç haftalık ek süre verilemez.\n\n### 2.2. Deliller\n\nTaraflar delillerini dilekçeleriyle **birlikte**, hangi vakıanın delili olduğunu belirterek bildirmek, ellerindeki delilleri dilekçeye eklemek ve başka yerden getirilecek belge ve dosyalar için bunların bulunmasını sağlayacak bilgileri dilekçede vermek zorundadır (HMK m. 318). Yazılı yargılamada bir delil sonradan ancak HMK m. 145 şartlarıyla gösterilebilir. Basit yargılamada bu disiplin dilekçe aşamasına yüklenmiştir.\n\n### 2.3. İddia ve savunmanın genişletilmesi yasağı\n\nHMK m. 319'a göre iddianın genişletilmesi veya değiştirilmesi yasağı **dava açılmasıyla**, savunmanın genişletilmesi veya değiştirilmesi yasağı **cevap dilekçesinin mahkemeye verilmesiyle** başlar. Yazılı yargılamada ise taraflar cevaba cevap ve ikinci cevap dilekçeleriyle iddia ve savunmalarını serbestçe genişletebilir (HMK m. 141/1); dilekçeler karşılıklı verildikten sonra bu imkân kapanır. Basit yargılamada ikinci dilekçeler olmadığı için yasak çok daha erken başlar.\n\n### 2.4. Duruşma, ön inceleme ve tahkikat\n\n- Mahkeme, mümkün olan hâllerde tarafları duruşmaya çağırmadan **dosya üzerinden** karar verir (HMK m. 320/1).\n- Daha önce karar verilemiyorsa **ilk duruşmada** dava şartları, ilk itirazlar, hak düşürücü süre ve zamanaşımı hakkında taraflar dinlenir; anlaşılan ve anlaşılamayan hususlar tespit edilir; hâkim tarafları sulhe veya arabuluculuğa teşvik eder; sonuç tutanağa yazılır ve hazır bulunan taraflarca imzalanır. Tahkikat bu tutanağa göre yürür (HMK m. 320/2).\n- Tarafların dinlenmesi, delillerin incelenmesi ve tahkikat işlemleri, yukarıdaki duruşma hariç **iki duruşmada** tamamlanır. **Duruşmalar arası süre bir aydan uzun olamaz.** Bilirkişi incelemesinin uzaması, istinabe yoluyla tahkikat gibi zorunlu hâllerde hâkim gerekçesini belirterek bir aydan uzun süre belirleyebilir ve ikiden fazla duruşma yapabilir (HMK m. 320/3).\n- **Takipsizlik:** İşlemden kaldırılmasına karar verilmiş dosya yenilendikten sonra takipsiz bırakılırsa dava **açılmamış sayılır** (HMK m. 320/4). Yazılı yargılamada kural daha esnektir: yenilenen dava ilk yenilenmeden sonra bir defa daha takipsiz bırakılıp yenilenebilir; ancak bir defadan fazla takipsiz bırakılırsa açılmamış sayılır (HMK m. 150/6). Basit yargılamada bu ikinci şans yoktur.\n- **Hüküm:** Zorunlu hâllerde hâkim nedenini tutanağa yazarak yalnızca hüküm özetini tefhim edebilir; gerekçeli karar en geç **bir ay** içinde yazılıp tebliğe çıkarılır (HMK m. 321/2).\n\n### 2.5. Yazılı yargılamayla karşılaştırma\n\n| Konu | Yazılı yargılama | Basit yargılama |\n|---|---|---|\n| Dilekçe sayısı | 4 (HMK m. 136) | 2 (HMK m. 317/3) |\n| Ek cevap süresi | En çok 1 ay (HMK m. 127) | En çok 2 hafta (HMK m. 317/2) |\n| Genişletme yasağı | Dilekçeler karşılıklı verilince (HMK m. 141) | Dava açılınca/cevap verilince (HMK m. 319) |\n| Ön inceleme | Ayrı ön inceleme duruşması (HMK m. 140) | İlk duruşma ön incelemeyi içerir (HMK m. 320/2) |\n| Duruşmalar arası süre | 3 ay (HMK m. 147/3) | 1 ay (HMK m. 320/3) |\n\n> 📌 **Kesin bilgi:** Yazılı yargılamada duruşmalar arası üç ay kuralı (HMK m. 147/3) 7589 sayılı Kanunla eklenmiştir; basit yargılamadaki bir aylık süre ise HMK m. 320/3'te yer alır.\n\n## 3. Yargılama giderleri\n\n### 3.1. Kapsam\n\nHMK m. 323/1'e göre yargılama giderleri şunlardır: başvurma, karar ve ilam harçları; dava nedeniyle tebliğ ve posta giderleri; dosya ve evrak giderleri; geçici hukuki koruma tedbirleri ile protesto, ihbar, ihtarname ve vekâletname düzenleme giderleri; keşif giderleri; tanık ve bilirkişi ücretleri; resmî dairelerden alınan belgeler için ödenenler; vekille takip edilmeyen davalarda taraf gündeliği ve yol giderleri; vekille takip edilen davalarda **kanun gereği takdir olunacak vekâlet ücreti** ve yargılama sırasında yapılan diğer giderler.\n\n### 3.2. Avans\n\nTaraflar ikamesini istedikleri delil için mahkemenin belirlediği avansı **kesin süre** içinde yatırmak zorundadır; yatırmazsa diğer taraf yatırabilir, aksi hâlde o delilden vazgeçilmiş sayılır (HMK m. 324/1-2). Tarafların serbestçe tasarruf edemeyeceği işlerde resen başvurulan delillerin giderleri için bir haftalık süre verilir; yatırılmazsa gider, ileride ödemesi gereken taraftan alınmak üzere Hazineden karşılanır (HMK m. 325).\n\n### 3.3. Kim sorumlu olur?\n\n- **Genel kural:** Kanunda yazılı hâller dışında yargılama giderleri **aleyhine hüküm verilen taraftan** alınır (HMK m. 326/1). Yani davada kim haksız çıkarsa, kendi yaptığı harcamanın yanında karşı tarafın giderini de yüklenir.\n- **Kısmi haklılık:** İki taraf da kısmen haklı çıkarsa giderler **haklılık oranına** göre paylaştırılır (HMK m. 326/2). Bu fıkra Anayasa Mahkemesinin 30.11.2023 tarihli kararıyla kamulaştırmasız el atma sebebine dayalı tazminat davaları yönünden iptal edilmiştir; o davalarda oran kuralı uygulanmaz. Aleyhine hüküm verilenler birden fazlaysa mahkeme giderleri aralarında paylaştırabilir veya müteselsilen sorumlu tutabilir (HMK m. 326/3).\n- **Dürüstlük kuralına aykırılık:** Gereksiz yere davanın uzamasına veya gider yapılmasına yol açan taraf, **davayı kazanmış olsa bile**, **karar ve ilam harcı dışındaki** giderlerin tamamını veya bir kısmını ödemeye mahkûm edilebilir (HMK m. 327/1). Sıfatı olmadığı hâlde davacıyı yanıltarak kendisine dava açtıran kişi, davanın sıfat yokluğundan reddedilmesi hâlinde yargılama gideri alamaz (HMK m. 327/2).\n- **Fer'î müdahil:** Yanında katıldığı taraf haksız çıkarsa yalnızca fer'î müdahale giderinden sorumludur (HMK m. 328).\n- **Kötüniyet:** Kötüniyetli davalı veya hiçbir hakkı olmadığı hâlde dava açan taraf, giderlerden başka karşı tarafın vekille kararlaştırdığı **akdî vekâlet ücretinin** tamamını veya bir kısmını ödemeye mahkûm edilebilir; ayrıca disiplin para cezası verilebilir (HMK m. 329).\n- **Esastan sonuçlanmayan dava:** Dava konusuz kalmışsa hâkim, **davanın açıldığı tarihteki haklılığa** göre giderlere hükmeder (HMK m. 331/1). Görevsizlik veya yetkisizlik kararından sonra davaya başka mahkemede devam edilirse giderlere o mahkeme hükmeder; devam edilmezse talep üzerine davanın açıldığı mahkeme davacıyı giderlere mahkûm eder (HMK m. 331/2). **Açılmamış sayılan** davada giderler davacıya yükletilir (HMK m. 331/3).\n\n> **Örnek:** Ayşe, Mehmet'e karşı 100.000 TL'lik alacak davası açıyor; mahkeme talebin bir kısmını kabul edip bir kısmını reddediyor. İki taraf da kısmen haklıdır; giderler haklılık oranına göre paylaşılır (HMK m. 326/2). Başka bir davada Mehmet davayı kazanmış ama sürekli gereksiz erteleme isteyerek yargılamayı uzatmışsa, mahkeme karar ve ilam harcı dışındaki giderlerin bir kısmını ona yükleyebilir (HMK m. 327/1).\n\n> ⚠️ **Sınavda dikkat:** HMK m. 327/1'de **karar ve ilam harcı** hariçtir; bu harç dürüstlük kuralı gerekçesiyle kazanan tarafa yükletilemez.\n\n### 3.4. Vekâlet ücreti ve hüküm\n\nVekille takip edilen davada kanuna göre takdir olunan vekâlet ücreti **avukata değil, davada haklı çıkan taraf lehine** hükmedilir (HMK m. 330/1). Yargılama giderlerine mahkemece **resen** hükmedilir; gider, tutarı, hangi tarafa hangi oranda yükletildiği ve dökümü hüküm altında gösterilir (HMK m. 332). Hüküm kesinleştikten sonra kullanılmayan avans kısmı mahkemece kendiliğinden iade edilir; bu kararın tebliğ gideri iade edilecek avanstan karşılanır (HMK m. 333/1).\n\n## 4. Adli yardım\n\n### 4.1. Şartlar\n\n**Adli yardım**, giderleri ödeyemeyen kişinin yargıya erişimini sağlamak için tanınan geçici muafiyet kurumudur. HMK m. 334/1'e göre, kendisi ve ailesinin geçimini önemli ölçüde zor duruma düşürmeksizin gereken yargılama veya takip giderlerini kısmen veya tamamen ödeme gücünden yoksun olan kimseler, iddia ve savunmalarında, geçici hukuki korunma taleplerinde ve icra takibinde, **taleplerinin açıkça dayanaktan yoksun olmaması** kaydıyla adli yardımdan yararlanabilir. Yabancılar için ayrıca **karşılıklılık** şartı aranır (HMK m. 334/3).\n\n> 📌 **Kesin bilgi:** HMK m. 334/2 Anayasa Mahkemesinin 24.9.2024 tarihli (E.2024/78, K.2024/164) kararıyla iptal edilmiştir. Artık \"yalnızca kamuya yararlı dernek ve vakıflar\" gibi bir özel tüzel kişi sınırlaması metinde yoktur; temel ölçüt HMK m. 334/1'dir.\n\n### 4.2. Kapsam ve süre\n\nAdli yardım kararı ilgiliye şunları sağlar: yapılacak yargılama ve takip giderlerinden **geçici muafiyet**, bu giderler için teminat göstermekten muafiyet, giderlerin Devletçe avans olarak ödenmesi ve gerekirse ücreti sonradan ödenmek üzere avukat temini (HMK m. 335/1). Mahkeme bunlardan yalnız bir kısmına da karar verebilir (HMK m. 335/2). Adli yardım **hükmün kesinleşmesine kadar** devam eder (HMK m. 335/3). **Daha önce yapılan yargılama giderlerini kapsamaz** (HMK m. 337/3).\n\n### 4.3. Talep ve inceleme\n\nAdli yardım, asıl talebin veya işin karara bağlanacağı mahkemeden; icra ve iflas takiplerinde takip yerindeki icra mahkemesinden istenir. Kanun yollarında talep bölge adliye mahkemesine veya Yargıtaya yapılır (HMK m. 336/1, 336/3). Talepte bulunan, iddiasının özetini, delillerini ve yargılama giderlerini karşılayamadığını gösteren mali belgeleri sunmak zorundadır (HMK m. 336/2). Talep belgeleri harç ve vergiden muaftır (HMK m. 336/4).\n\nMahkeme talebi duruşmasız karara bağlayabilir; ancak talep hâlinde inceleme duruşmalı yapılır. Ret kararında bilgi ve belgelerin neden kabul edilmediği açıkça yazılır. Ret kararına karşı **tebliğinden itibaren iki hafta** içinde, kararı veren mahkemeye dilekçe vermek suretiyle itiraz edilebilir; itiraz incelemesi sonunda verilen karar **kesindir**. Ödeme gücünde sonradan ciddi bir azalma olursa yeniden talepte bulunulabilir (HMK m. 337/1-2). 7499 sayılı Kanunla bu süre bir haftadan iki haftaya çıkarılmıştır.\n\n### 4.4. Kaldırılma, tahsil ve avukat ücreti\n\nAdli yardımdan yararlanan kişi mali durumu hakkında kasten veya ağır kusurla yanlış bilgi vermişse ya da sonradan mali durumu yeterince iyileşmişse karar **kaldırılır** (HMK m. 338). Ertelenen giderler ve Devletçe ödenen avanslar dava veya takip sonunda **haksız çıkan kişiden** tahsil edilir; haksız çıkan yararlanıcı için en çok bir yıl içinde aylık eşit taksit kararı verilebilir (HMK m. 339/1). Tahsil yararlanıcıyı mağdur edecekse mahkeme hükümde tamamen veya kısmen muaf tutabilir (HMK m. 339/2). Baro tarafından görevlendirilen avukatın ücreti yargılama gideri olarak Hazineden ödenir (HMK m. 340).\n\n> **Örnek:** Ali işsizdir, tek geliri yoktur. Ağustos'ta peşin harcı yatırarak dava açıyor, Eylül'de adli yardım istiyor. Karar verilirse bundan sonraki giderlerden muaf olur; ancak Ağustos'ta yatırdığı harç iade edilmez (HMK m. 337/3).\n\n## 5. Denetim şeması\n\n1. Dava basit yargılama listesinde mi (HMK m. 316/1)? Evetse iki dilekçe, iki haftalık cevap süresi, erken genişletme yasağı.\n2. Hâlâ yazılı yargılama kuralı gerekiyor mu? Hüküm yoksa HMK m. 322/1 ile yazılı kurallar.\n3. Giderler: aleyhine hüküm verilen taraf; kısmi haklılıkta oran; özel hâller (HMK m. 327, 329, 331).\n4. Vekâlet ücreti: taraf lehine (HMK m. 330).\n5. Adli yardım: ödeme gücü + açıkça dayanaktan yoksun olmama; geçmiş giderleri kapsamaz; ret kararına iki hafta içinde itiraz.",
+  "critical_md": "- 📌 Basit yargılamada cevap süresi tebliğden itibaren **iki hafta**; ek süre cevap süresinin bitiminden başlar, bir defaya mahsustur ve **iki haftayı** geçemez (HMK m. 317/2). Yazılı yargılamada ek süre en çok bir aydır (HMK m. 127).\n- ⚠️ Basit yargılamada **cevaba cevap ve ikinci cevap dilekçesi yoktur** (HMK m. 317/3).\n- 📌 İddianın genişletilmesi yasağı dava açılmasıyla, savunmanın genişletilmesi yasağı cevap dilekçesinin verilmesiyle başlar (HMK m. 319).\n- Deliller dilekçelerle birlikte bildirilir ve eldeki deliller eklenir (HMK m. 318).\n- 📌 Tahkikat, ilk duruşma hariç **iki duruşmada** tamamlanır; duruşmalar arası **bir ay** (zorunlu hâlde gerekçeli istisna) (HMK m. 320/3).\n- İşlemden kaldırılıp yenilenen dosya yeniden takipsiz bırakılırsa dava **açılmamış sayılır** (HMK m. 320/4); giderler davacıya yüklenir (HMK m. 331/3).\n- 📌 Yargılama giderleri **aleyhine hüküm verilen taraftan** alınır; kısmi haklılıkta **haklılık oranında** paylaştırılır (HMK m. 326/1-2).\n- ⚠️ HMK m. 327/1: gereksiz uzatan taraf davayı kazansa bile giderlerin bir kısmını öder; **karar ve ilam harcı hariçtir**.\n- Vekâlet ücreti **taraf lehine** hükmedilir, avukat adına değil (HMK m. 330/1); yargılama giderine resen hükmedilir (HMK m. 332/1).\n- 📌 Adli yardım şartları: ödeme gücünden yoksunluk + talebin **açıkça dayanaktan yoksun olmaması**; yabancı için **karşılıklılık** (HMK m. 334/1, 334/3).\n- ⚠️ Adli yardım **kesinleşmeye kadar** sürer ve **daha önce yapılmış giderleri kapsamaz** (HMK m. 335/3, 337/3).\n- 📌 Adli yardım talebinin reddine karşı **iki hafta** içinde itiraz edilir; karar kesindir (HMK m. 337/2). HMK m. 334/2 AYM kararıyla iptal edilmiştir.",
+  "doctrine_md": "### Basit yargılamada delil sunma disiplini\n\nHMK m. 318 delillerin dilekçelerle birlikte bildirilmesini ve ellerdeki delillerin eklenmesini emreder. Uygulamada tartışma, dilekçede dayanılmış ama eklenmemiş delil ile hiç dayanılmamış delil arasındaki ayrımda toplanır. Yaygın yaklaşıma göre, dilekçesinde açıkça dayandığı fakat sunmadığı belge için tarafa yazılı yargılama kuralları (HMK m. 322/1) kapsamında, ön inceleme davetiyesiyle iki haftalık kesin süre verilir ve süreye uymazsa o delile dayanmaktan vazgeçmiş sayılır (HMK m. 139/1-ç, HMK m. 140/5); hiç dayanılmamış bir delilin sonradan ileri sürülmesi ise ancak HMK m. 145'in aradığı şartlarla mümkündür. Bu ayrım yargılamanın hızını koruyan dengedir: taraf delilini baştan düşünmek zorundadır, ama bir ihmal yüzünden hakkı doğrudan ortadan kalkmaz.\n\n### Adli yardımda ispat ölçüsü\n\nAdli yardımda iki ayrı şart vardır ve ispat ölçüsü her biri için aynı değildir. Asıl talebin haklılığı bakımından yalnızca talebin \"açıkça dayanaktan yoksun olmaması\" aranır; yani yaklaşık ispat yeterlidir. Mali yetersizlik bakımından ise yargı uygulamasında hâkimin ödeme gücünden yoksunluk konusunda tam bir kanaate sahip olması gerektiği kabul edilmektedir. Gerekçe, adli yardım kurumunun kötüye kullanılmasını önlemek ve yargı giderlerini ödeyebilecek kişilerin Devlet kaynağından yararlanmasının önüne geçmektir. Karşı yönde, bu ölçünün yargıya erişimi gereğinden fazla daraltabileceği ileri sürülür. Bu nedenle mali belgeleri eksiksiz sunmak, talep eden bakımından belirleyicidir.\n\n### Anayasa Mahkemesi kararı sonrası tüzel kişiler\n\nHMK m. 334/2'nin iptalinden sonra ticaret şirketleri gibi diğer özel hukuk tüzel kişilerinin adli yardım talebini hangi somut ölçütlerle değerlendireceği konusunda uygulama henüz oturmamıştır. Burada metinden çıkarılabilecek tek kesin sonuç, HMK m. 334/1'in şartlarının tüzel kişilerin değerlendirilmesinde de belirleyici olduğudur; ayrıntılar içtihatla gelişecektir.",
+  "glossary": [
+   {
+    "term": "Basit yargılama usulü",
+    "definition": "Yazılı yargılamanın sadeleştirilmiş biçimi; yalnız dava ve cevap dilekçesi, kısa süreler ve sınırlı sayıda duruşma ile yürür (HMK m. 316-322)."
+   },
+   {
+    "term": "Cevaba cevap dilekçesi",
+    "definition": "Davacının cevap dilekçesine karşı verdiği ikinci dilekçe; yazılı yargılamada vardır, basit yargılamada verilemez."
+   },
+   {
+    "term": "Ek cevap süresi",
+    "definition": "Cevap dilekçesinin hazırlanması çok zorsa davalıya verilen; basit yargılamada bir defaya mahsus ve en çok iki haftalık süre."
+   },
+   {
+    "term": "Yargılama giderleri",
+    "definition": "Harçlar, posta, keşif, tanık-bilirkişi ücretleri, vekâlet ücreti gibi dava nedeniyle yapılan harcamaların toplamı (HMK m. 323)."
+   },
+   {
+    "term": "Haklılık oranı",
+    "definition": "Taraflar kısmen haklı çıktığında giderlerin paylaştırılmasında esas alınan, her tarafın kazandığı kısmın oranı (HMK m. 326/2)."
+   },
+   {
+    "term": "Vekâlet ücreti",
+    "definition": "Vekille takip edilen davada kanuna göre takdir edilen ve haklı çıkan taraf lehine hükmedilen ücret (HMK m. 330)."
+   },
+   {
+    "term": "Avans",
+    "definition": "Delil ikamesi veya yargılama için mahkemece belirlenen ve önceden yatırılan para (HMK m. 324)."
+   },
+   {
+    "term": "Adli yardım",
+    "definition": "Ödeme gücü bulunmayan kişiye yargılama giderlerinden geçici muafiyet sağlayan kurum (HMK m. 334-340)."
+   },
+   {
+    "term": "Açıkça dayanaktan yoksun olmama",
+    "definition": "Adli yardım için asıl talepte aranan asgari haklılık düzeyi; talebin bariz biçimde temelsiz olmaması."
+   },
+   {
+    "term": "Karşılıklılık",
+    "definition": "Yabancının, kendi devletinde Türk vatandaşına da aynı hakkın tanınması şartı (HMK m. 334/3)."
+   },
+   {
+    "term": "Konusuz kalma",
+    "definition": "Dava sürerken uyuşmazlığın ortadan kalkması; giderler davanın açıldığı tarihteki haklılığa göre belirlenir (HMK m. 331/1)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "140",
+   "official_text": "MADDE 140- (1) Hâkim, ön inceleme duruşmasında, dava şartları ve ilk itirazlar hakkında karar verebilmek için gerekli görürse tarafları dinler; daha sonra, tarafların iddia ve savunmaları çerçevesinde, anlaştıkları ve anlaşamadıkları hususları tek tek tespit eder.\n(2) Uyuşmazlık konularının tespitinden sonra hâkim, tarafları sulh ve arabuluculuğun esasları, süreci ve hukuki sonuçları hakkında aydınlatarak sulhe veya arabuluculuğa teşvik eder; bu konuda sonuç alınacağı kanaatine varırsa, bir defaya mahsus olmak üzere yeni bir duruşma günü tayin eder.[16]\n(3) Ön inceleme duruşmasının sonunda, tarafların sulh veya arabuluculuk faaliyetinden bir sonuç alıp almadıkları, sonuç alamadıkları takdirde anlaşamadıkları hususların nelerden ibaret olduğu tutanakla tespit edilir. Bu tutanağın altı, duruşmada hazır bulunan taraflarca imzalanır. Tahkikat bu tutanak esas alınmak suretiyle yürütülür.\n(4) Ön inceleme tek duruşmada tamamlanır. Zorunlu olan hâllerde bir defaya mahsus olmak üzere yeni bir duruşma günü tayin edilir.\n(5) (Değişik:22/7/2020-7251/14 md.) 139 uncu madde uyarınca yapılan ihtara rağmen dilekçelerinde gösterdikleri belgeleri sunmayan veya belgelerin getirtilmesi için gerekli açıklamayı yapmayan tarafın bu delillere dayanmaktan vazgeçmiş sayılmasına karar verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "141",
+   "official_text": "MADDE 141- (1) (Değişik:22/7/2020-7251/15 md.) Taraflar, cevaba cevap ve ikinci cevap dilekçeleri ile serbestçe iddia veya savunmalarını genişletebilir yahut değiştirebilirler. Dilekçelerin karşılıklı verilmesinden sonra iddia veya savunma genişletilemez yahut değiştirilemez.\n(2) İddia ve savunmanın genişletilip değiştirilmesi konusunda ıslah ve karşı tarafın açık muvafakati hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "145",
+   "official_text": "Sonradan delil gösterilmesi\nMADDE 145- (1) Taraflar, Kanunda belirtilen süreden sonra delil gösteremezler. Ancak bir delilin sonradan ileri sürülmesi yargılamayı geciktirme amacı taşımıyorsa veya süresinde ileri sürülememesi ilgili tarafın kusurundan kaynaklanmıyorsa, mahkeme o delilin sonradan gösterilmesine izin verebilir.\nMevcut delillerle davanın aydınlanması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "127",
+   "official_text": "Cevap dilekçesini verme süresi\nMADDE 127- (1) Cevap dilekçesini verme süresi, dava dilekçesinin davalıya tebliğinden itibaren iki haftadır. Ancak, durum ve koşullara göre cevap dilekçesinin bu süre içinde hazırlanmasının çok zor yahut imkânsız olduğu durumlarda, yine bu süre zarfında mahkemeye başvuran davalıya, cevap süresinin bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak ve bir ayı geçmemek üzere ek bir süre verilebilir. Ek cevap süresi talebi hakkında verilen karar taraflara derhâl bildirilir.[13]\n[13] 22/7/2020 tarihli ve 7251 sayılı Kanunun 12 nci maddesiyle, bu fıkraya “başvuran davalıya,” ibaresinden sonra gelmek üzere “cevap süresinin bitiminden itibaren işlemeye başlamak,” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "109",
+   "official_text": "Kısmi dava\nMADDE 109- (1) Talep konusunun niteliği itibarıyla bölünebilir olduğu durumlarda, sadece bir kısmı da dava yoluyla ileri sürülebilir.\n(2) (Mülga: 1/4/2015-6644/4 md.)\n(3) Dava açılırken, talep konusunun kalan kısmından açıkça feragat edilmiş olması hâli dışında, kısmi dava açılması, talep konusunun geri kalan kısmından feragat edildiği anlamına gelmez.\n(4) (Ek:16/7/2026-7589/20 md.) Alacağın sadece bir kısmının dava edildiği durumlarda talep konusu, aynı davada bir defaya mahsus olmak üzere iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sona ermesine kadar artırılabilir. Bu durumda zamanaşımı, artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "139",
+   "official_text": "MADDE 139- (1) Mahkeme, dilekçelerin karşılıklı verilmesinden ve yukarıdaki maddelerde belirtilen incelemeyi tamamladıktan sonra, ön inceleme için bir duruşma günü tespit ederek taraflara bildirir. (Değişik cümle:22/7/2020-7251/13 md.) Çıkarılacak davetiyede aşağıdaki hususlar ihtar edilir:\na) Duruşma davetiyesine ve sonuçlarına ilişkin diğer hususlar.\nb) Tarafların sulh için gerekli hazırlığı yapmaları.\nc) Duruşmaya sadece taraflardan birinin gelmesi ve yargılamaya devam etmek istemesi durumunda gelmeyen tarafın yokluğunda yapılan işlemlere itiraz edemeyeceği.\nç) Davetiyenin tebliğinden itibaren iki haftalık kesin süre içinde tarafların dilekçelerinde gösterdikleri, ancak henüz sunmadıkları belgeleri mahkemeye sunmaları veya başka yerden getirtilecek belgelerin getirtilebilmesi amacıyla gereken açıklamayı yapmaları, bu hususların verilen süre içinde yerine getirilmemesi hâlinde o delile dayanmaktan vazgeçmiş sayılacaklarına karar verileceği.\nÖn inceleme duruşması[15]\n[15] 7/6/2012 tarihli ve 6325 sayılı Kanunun 35 inci maddesiyle, bu maddenin ikinci fıkrasına “sulhe” ibaresinden sonra gelmek üzere “veya arabuluculuğa”, üçüncü fıkrasına “sulh” ibaresinden sonra gelmek üzere “veya arabuluculuk” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "136",
+   "official_text": "Tarafların ikinci dilekçeleri\nMADDE 136- (1) Davacı, cevap dilekçesinin kendisine tebliğinden itibaren iki hafta içinde cevaba cevap dilekçesi; davalı da davacının cevabının kendisine tebliğinden itibaren iki hafta içinde ikinci cevap dilekçesi verebilir.\n(2) Davacının cevaba cevap, davalının da ikinci cevap dilekçesi hakkında, dava ve cevap dilekçelerine ilişkin hükümler, niteliğine aykırı düşmediği sürece kıyasen uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "147",
+   "official_text": "MADDE 147- (1) Taraflar, ön inceleme aşamasının tamamlanmasından sonra tahkikat ve sözlü yargılama için duruşmaya davet edilir.\n(2) Taraflara gönderilecek davetiyede, belirlenen gün ve saatte geçerli bir özrü olmadan mahkemede hazır bulunmadıkları takdirde, duruşmaya yokluklarında devam edileceği ve yapılan işlemlere itiraz edemeyecekleri, tahkikatın sona erdiği duruşmada sözlü yargılamaya geçileceği, sözlü yargılama için duruşmanın ertelenmesi hâlinde taraflara ayrıca davetiye gönderilmeyeceği ve 150 nci madde hükmü saklı kalmak kaydıyla, yokluklarında hüküm verileceği bildirilir.\n(3) (Ek:16/7/2026-7589/21 md.) Duruşmalar arasındaki süre üç aydan daha uzun olamaz. İşin niteliği gereği bilirkişi incelemesinin uzaması veya istinabe yoluyla tahkikat işlemlerinin yürütülmesi gibi zorunlu hâllerde, hâkim gerekçesini belirterek daha uzun bir süre belirleyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "150",
+   "official_text": "Tarafların duruşmaya gelmemesi, sonuçları ve davanın açılmamış sayılması\nMADDE 150- (1) Usulüne uygun şekilde davet edilmiş olan taraflar, duruşmaya gelmedikleri veya gelip de davayı takip etmeyeceklerini bildirdikleri takdirde dosyanın işlemden kaldırılmasına karar verilir.\n(2) Usulüne uygun şekilde davet edilmiş olan taraflardan biri duruşmaya gelir, diğeri gelmezse, gelen tarafın talebi üzerine, yargılamaya gelmeyen tarafın yokluğunda devam edilir veya dosya işlemden kaldırılır. Geçerli bir özrü olmaksızın duruşmaya gelmeyen taraf, yokluğunda yapılan işlemlere itiraz edemez.\n(3) Duruşma gününün belli edilmesi için tarafların başvurması gereken hâllerde gün tespit ettirilmemişse, son işlem tarihinden başlayarak bir ay geçmekle dosya işlemden kaldırılır.\n(4) Dosyası işlemden kaldırılmış olan dava, işlemden kaldırıldığı tarihten başlayarak üç ay içinde taraflardan birinin dilekçe ile başvurusu üzerine yenilenebilir. Yenileme dilekçesi, duruşma gün, saat ve yeri ile birlikte taraflara tebliğ edilir. Dosyanın işlemden kaldırıldığı tarihten başlayarak bir ay geçtikten sonra yenileme talebinde bulunulursa, yeniden harç alınır, bu harç yenileyen tarafça ödenir ve karşı tarafa yüklenemez. Bu şekilde harç verilerek yenilenen dava, eski davanın devamı sayılır.\n(5) İşlemden kaldırıldığı tarihten başlayarak üç ay içinde yenilenmeyen davalar, sürenin dolduğu gün itibarıyla açılmamış sayılır ve mahkemece kendiliğinden karar verilerek kayıt kapatılır.\n(6) İşlemden kaldırılmasına karar verilmiş ve sonradan yenilenmiş olan dava, ilk yenilenmeden sonra bir defadan fazla takipsiz bırakılamaz. Aksi hâlde dava açılmamış sayılır.\n(7) Hangi sebeple olursa olsun açılmamış sayılan davadaki talep dahi vaki olmamış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "316",
+   "official_text": "Basit yargılama usulüne tabi dava ve işler\nMADDE 316- (1) Basit yargılama usulü, kanunlarda açıkça belirtilenler dışında, aşağıdaki durumlarda uygulanır:\na) Sulh hukuk mahkemelerinin görevine giren dava ve işler.\nb) Doğrudan dosya üzerinden karar vermek konusunda kanunun mahkemeye takdir hakkı tanıdığı dava ve işler.\nc) İhtiyati tedbir, ihtiyati haciz, delil tespiti gibi geçici hukuki koruma talepleri ile deniz raporlarının alınması, dispeççi atanması talepleri ve bunlara karşı yapılacak olan itirazlar.\nç) Her çeşit nafaka davaları ile velayet ve vesayete ilişkin dava ve işler.\nd) Hizmet ilişkisinden doğan davalar.\ne) Konkordato ve sermaye şirketleri veya kooperatiflerin uzlaşma suretiyle yeniden yapılandırılmasına ilişkin açılacak davalar.\nf) Tahkim hükümlerine göre, mahkemenin görev alanına giren dava ve işler.\ng) Diğer kanunlarda yer alan ve yazılı yargılama usulü dışındaki yargılama usullerinin uygulanacağı belirtilen dava ve işler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "317",
+   "official_text": "MADDE 317- (1) Dava açılması ve davaya cevap verilmesi dilekçe ile olur.\n(2) Cevap süresi, dava dilekçesinin davalıya tebliğinden itibaren iki haftadır. Ancak mahkeme durum ve koşullara göre cevap dilekçesinin bu süre içinde hazırlanmasının çok zor yahut imkânsız olduğu durumlarda, yine bu süre zarfında mahkemeye başvuran davalıya, cevap süresinin bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak ve iki haftayı geçmemek üzere ek bir süre verebilir. Ek cevap süresi talebi hakkında verilen karar taraflara derhâl bildirilir.[36]\n(3) Taraflar cevaba cevap ve ikinci cevap dilekçesi veremezler.\n(4) Dava ve cevap dilekçeleri yönetmelikte belirlenecek formun doldurulması suretiyle de verilebilir.\n[36] 22/7/2020 tarihli ve 7251 sayılı Kanunun 31 inci maddesiyle, bu fıkrada yer alan “davalıya, bir defaya mahsus” ibaresi “davalıya, cevap süresinin bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "318",
+   "official_text": "Delillerin ikamesi\nMADDE 318- (1) Taraflar dilekçeleri ile birlikte, tüm delillerini açıkça ve hangi vakıanın delili olduğunu da belirterek bildirmek; ellerinde bulunan delillerini dilekçelerine eklemek ve başka yerlerden getirilecek belge ve dosyalar için de bunların bulunabilmesini sağlayan bilgilere dilekçelerinde yer vermek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "319",
+   "official_text": "İddia ve savunmanın genişletilmesi veya değiştirilmesi yasağı\nMADDE 319- (1) İddianın genişletilmesi veya değiştirilmesi yasağı dava açılmasıyla; savunmanın genişletilmesi veya değiştirilmesi yasağı cevap dilekçesinin mahkemeye verilmesiyle başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "320",
+   "official_text": "MADDE 320- (1) Mahkeme, mümkün olan hâllerde tarafları duruşmaya davet etmeden dosya üzerinden karar verir.\n(2) Daha önce karar verilemeyen hâllerde mahkeme, ilk duruşmada dava şartları ve ilk itirazlarla hak düşürücü süre ve zamanaşımı hakkında tarafları dinler; daha sonra tarafların iddia ve savunmaları çerçevesinde, anlaştıkları ve anlaşamadıkları hususları tek tek tespit eder. Uyuşmazlık konularının tespitinden sonra hâkim, tarafları sulhe veya arabuluculuğa teşvik eder. Tarafların sulh olup olmadıkları, sulh olmadıkları takdirde anlaşamadıkları hususların nelerden ibaret olduğu tutanağa yazılır; tutanağın altı hazır bulunan taraflarca imzalanır. Tahkikat bu tutanak esas alınmak suretiyle yürütülür.[37]\n(3) Mahkeme, tarafların dinlenmesi, delillerin incelenmesi ve tahkikat işlemlerinin yapılmasını yukarıdaki fıkrada belirtilen duruşma hariç, iki duruşmada tamamlar. Duruşmalar arasındaki süre bir aydan daha uzun olamaz. İşin niteliği gereği bilirkişi incelemesinin uzaması, istinabe yoluyla tahkikat işlemlerinin yürütülmesi gibi zorunlu hâllerde, hâkim gerekçesini belirterek bir aydan sonrası için de duruşma günü belirleyebilir ve ikiden fazla duruşma yapabilir.\n(4) Basit yargılama usulüne tabi davalarda, işlemden kaldırılmasına karar verilmiş olan dosya, yenilenmesinden sonra takipsiz bırakılırsa, dava açılmamış sayılır.\n[37] 7/6/2012 tarihli ve 6325 sayılı Kanunun 35 inci maddesiyle, bu fıkrada yer alan “tarafları sulhe” ibaresinden sonra gelmek üzere “veya arabuluculuğa” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "321",
+   "official_text": "Hüküm\nMADDE 321- (1) Tahkikatın tamamlanmasından sonra, mahkeme tarafların son beyanlarını alır ve yargılamanın sona erdiğini bildirerek kararını tefhim eder. Taraflara beyanda bulunabilmeleri için ayrıca süre verilmez.\n(2) Kararın tefhimi, mahkemece hükme ilişkin tüm hususların gerekçesi ile birlikte açıklanması ile gerçekleşir. Ancak zorunlu hâllerde, hâkim bu durumun sebebini de tutanağa geçirmek suretiyle, sadece hüküm özetini tutanağa yazdırarak kararı tefhim edebilir. Bu durumda gerekçeli kararın en geç bir ay içinde yazılarak tebliğe çıkartılması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "322",
+   "official_text": "MADDE 322- (1) Bu Kanun ve diğer kanunlarda basit yargılama usulü hakkında hüküm bulunmayan hâllerde, yazılı yargılama usulüne ilişkin hükümler uygulanır.\n(2) Paylaştırma ve ortaklığın giderilmesi için satış yapılması gereken hâllerde, hâkim satış için bir memur görevlendirir. Taşınır ve taşınmaz malların satışı İcra ve İflas Kanunu hükümlerine göre yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "323",
+   "official_text": "Yargılama giderlerinin kapsamı\nMADDE 323- (1) Yargılama giderleri şunlardır:\na) Başvurma, karar ve ilam harçları.[38]\nb) Dava nedeniyle yapılan tebliğ ve posta giderleri.\nc) Dosya ve sair evrak giderleri.\nç) Geçici hukuki koruma tedbirleri ve protesto, ihbar, ihtarname ve vekâletname düzenlenmesine ilişkin giderler.\nd) Keşif giderleri.\ne) Tanık ile bilirkişiye ödenen ücret ve giderler.\nf) Resmî dairelerden alınan belgeler için ödenen harç, vergi, ücret ve sair giderler.\ng) Vekil ile takip edilmeyen davalarda tarafların hazır bulundukları günlere ait gündelik, seyahat ve konaklama giderlerine karşılık hâkimin takdir edeceği miktar; vekili bulunduğu hâlde mahkemece bizzat dinlenmek, isticvap olunmak veya yemin etmek üzere çağrılan taraf için takdir edilecek gündelik, yol ve konaklama giderleri.\nğ) Vekille takip edilen davalarda kanun gereğince takdir olunacak vekâlet ücreti.\nh) Yargılama sırasında yapılan diğer giderler.\n[38] 22/7/2020 tarihli ve 7251 sayılı Kanunun 32 nci maddesiyle, bu bentte yer alan “Celse” ibaresi “Başvurma” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "324",
+   "official_text": "Delil ikamesi için avans\nMADDE 324- (1) Taraflardan her biri ikamesini talep ettiği delil için mahkemece belirlenen avansı, verilen kesin süre içinde yatırmak zorundadır. Taraflar birlikte aynı delilin ikamesini talep etmişlerse, gereken gideri yarı yarıya avans olarak öderler.\n(2) Taraflardan birisi avans yükümlülüğünü yerine getirmezse, diğer taraf bu avansı yatırabilir. Aksi hâlde talep olunan delilin ikamesinden vazgeçilmiş sayılır.\n(3) Tarafların üzerinde serbestçe tasarruf edemeyeceği dava ve işler hakkındaki hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "325",
+   "official_text": "Resen yapılması gereken işlemlere ilişkin giderler\nMADDE 325- (1) Tarafların üzerinde serbestçe tasarruf edemeyeceği dava ve işlerde, hâkim tarafından resen başvurulan deliller için gereken giderlerin, bir haftalık süre içinde taraflardan birisi veya belirtilecek oranda her ikisi tarafından ödenmesine karar verilir. Belirlenen süre içinde bu işlemlere ait giderleri karşılayacak miktarda avans yatırılmazsa, ileride bu gideri ödemesi gereken taraftan alınmak üzere Hazineden ödenmesine hükmedilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "326",
+   "official_text": "Yargılama giderlerinden sorumluluk\nMADDE 326- (1) Kanunda yazılı hâller dışında, yargılama giderlerinin, aleyhine hüküm verilen taraftan alınmasına karar verilir.\n(2) Davada iki taraftan her biri kısmen haklı çıkarsa, mahkeme, yargılama giderlerini tarafların haklılık oranına göre paylaştırır.[39][40]\n(3) Aleyhine hüküm verilenler birden fazla ise mahkeme yargılama giderlerini, bunlar arasında paylaştırabileceği gibi, müteselsilen sorumlu tutulmalarına da karar verebilir.\n[39] Anayasa Mahkemesinin 30/11/2023 Tarihli ve E: 2023/101, K: 2023/207 Sayılı Kararı ile bu fıkra “kamulaştırmasız el atma sebebine dayalı tazminat davaları” yönünden iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "327",
+   "official_text": "Dürüstlük kuralına aykırılık sebebiyle yargılama giderlerinden sorumluluk\nMADDE 327- (1) Gereksiz yere davanın uzamasına veya gider yapılmasına sebebiyet vermiş olan taraf, davada lehine karar verilmiş olsa bile, karar ve ilam harcı dışında kalan yargılama giderlerinin tamamını veya bir kısmını ödemeye mahkûm edilebilir.\n(2) Bir kişi davada sıfatı olmadığı hâlde, davacıyı, davalı sıfatı kendisine aitmiş gibi yanıltıp, kendisine karşı dava açılmasına sebebiyet verirse, davanın sıfat yokluğu nedeniyle reddi hâlinde, davalı yararına yargılama giderlerine hükmedilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "328",
+   "official_text": "Fer’î müdahale gideri\nMADDE 328- (1) Fer’î müdahil olarak davada yer alan kimse, yanında katıldığı taraf haksız çıkarsa, yalnızca fer’î müdahale giderinden sorumlu tutulur, aksi hâlde bu giderler diğer tarafa yükletilir. Ancak, hüküm üçüncü kişinin katıldığı taraf lehine verilmiş olsa bile, lehine hükmolunan tarafın hâl ve davranışı, üçüncü kişinin davaya katılmasını gerektirmişse, müdahale giderinin tamamı veya bir kısmı, lehine hüküm verilen tarafa yükletilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "329",
+   "official_text": "Kötüniyetle veya haksız dava açılmasının sonuçları\nMADDE 329- (1) Kötüniyetli davalı veya hiçbir hakkı olmadığı hâlde dava açan taraf, yargılama giderlerinden başka, diğer tarafın vekiliyle aralarında kararlaştırılan vekâlet ücretinin tamamı veya bir kısmını ödemeye mahkûm edilebilir. Vekâlet ücretinin miktarı hakkında uyuşmazlık çıkması veya mahkemece miktarının fahiş bulunması hâlinde, bu miktar doğrudan mahkemece takdir olunur.\n(2) Kötüniyet sahibi davalı veya hiçbir hakkı olmadığı hâlde dava açan taraf, bundan başka beşyüz Türk Lirasından beşbin Türk Lirasına kadar disiplin para cezası ile mahkûm edilebilir. Bu hâllere vekil sebebiyet vermiş ise disiplin para cezası vekil hakkında uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "330",
+   "official_text": "Vekâlet ücretinin taraf lehine hükmedilmesi\nMADDE 330- (1) Vekil ile takip edilen davalarda mahkemece, kanuna göre takdir olunacak vekâlet ücreti, taraf lehine hükmedilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "331",
+   "official_text": "Esastan sonuçlanmayan davada yargılama gideri\nMADDE 331- (1) Davanın konusuz kalması sebebiyle davanın esası hakkında bir karar verilmesine gerek bulunmayan hâllerde, hâkim, davanın açıldığı tarihteki tarafların haklılık durumuna göre yargılama giderlerini takdir ve hükmeder.\n(2) Görevsizlik veya yetkisizlik kararından sonra davaya bir başka mahkemede devam edilmesi hâlinde, yargılama giderlerine o mahkeme hükmeder. Görevsizlik veya yetkisizlik kararından sonra davaya bir başka mahkemede devam edilmemiş ise talep üzerine davanın açıldığı mahkeme dosya üzerinden bu durumu tespit ile davacıyı yargılama giderlerini ödemeye mahkûm eder.[41]\n(3) Davanın açılmamış sayılmasına karar verilen hâllerde yargılama giderleri davacıya yükletilir.\n[41] 22/7/2020 tarihli ve 7251 sayılı Kanunun 33 üncü maddesiyle, bu fıkrada yer alan “Görevsizlik, yetkisizlik veya gönderme” ibareleri “Görevsizlik veya yetkisizlik” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "332",
+   "official_text": "Yargılama giderlerine hükmedilmesi\nMADDE 332- (1) Yargılama giderlerine, mahkemece resen hükmedilir.\n(2) Yargılama gideri, tutarı, hangi tarafa ve hangi oranda yükletildiği ve dökümü hüküm altında gösterilir.\n(3) Hükümden sonraki yargılama giderlerini hangi tarafın ödeyeceği, miktarı ve dökümü ile bu giderlerin hangi tarafa yükletileceği, mahkemece ilamın altına yazılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "333",
+   "official_text": "Avansın iadesi\nMADDE 333- (1) Hükmün kesinleşmesinden sonra mahkeme kendiliğinden, yatırılan avansın kullanılmayan kısmının iadesine karar verir. Bu kararın tebliğ gideri iade edilecek avanstan karşılanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "334",
+   "official_text": "Adli yardımdan yararlanacak kişiler\nMADDE 334- (1) Kendisi ve ailesinin geçimini önemli ölçüde zor duruma düşürmeksizin, gereken yargılama veya takip giderlerini kısmen veya tamamen ödeme gücünden yoksun olan kimseler, iddia ve savunmalarında, geçici hukuki korunma taleplerinde ve icra takibinde, taleplerinin açıkça dayanaktan yoksun olmaması kaydıyla adli yardımdan yararlanabilirler.[42]\n(2) (İptal:Anayasa Mahkemesinin 24/9/2024 Tarihli ve E: 2024/78, K: 2024/164 Sayılı Kararı ile.)\n(3) Yabancıların adli yardımdan yararlanabilmeleri ayrıca karşılıklılık şartına bağlıdır.\n[42] 11/4/2013 tarihli ve 6459 sayılı Kanunun 22 nci maddesi ile bu fıkrada yer alan “haklı oldukları yolunda kanaat uyandırmak” ibaresi “taleplerinin açıkça dayanaktan yoksun olmaması” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "335",
+   "official_text": "Adli yardımın kapsamı\nMADDE 335- (1) Adli yardım kararı, ilgiliye, aşağıdaki hususları sağlar:\na) Yapılacak tüm yargılama ve takip giderlerinden geçici olarak muafiyet.\nb) Yargılama ve takip giderleri için teminat göstermekten muafiyet.\nc) Dava ve icra takibi sırasında yapılması gereken tüm giderlerin Devlet tarafından avans olarak ödenmesi.\nç) Davanın avukat ile takibi gerekiyorsa, ücreti sonradan ödenmek üzere bir avukat temini.\n(2) Mahkeme, talepte bulunanın, yukarıdaki bentlerde düzenlenen hususlardan bir kısmından yararlanmasına da karar verebilir.\n(3) Adli yardım, hükmün kesinleşmesine kadar devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "336",
+   "official_text": "Adli yardım talebi\nMADDE 336- (1) Adli yardım, asıl talep veya işin karara bağlanacağı mahkemeden; icra ve iflas takiplerinde ise takibin yapılacağı yerdeki icra mahkemesinden istenir.\n(2) Talepte bulunan kişi, iddiasının özeti ile birlikte, iddiasını dayandıracağı delilleri ve yargılama giderlerini karşılayabilecek durumda olmadığını gösteren mali durumuna ilişkin belgeleri mahkemeye sunmak zorundadır.\n(3) Kanun yollarına başvuru sırasında adli yardım talebi bölge adliye mahkemesine veya Yargıtaya yapılır.\n(4) Adli yardım talebine ilişkin evrak, her türlü harç ve vergiden muaftır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "337",
+   "official_text": "Adli yardım talebinin incelenmesi\nMADDE 337- (1) Mahkeme, adli yardım talebi hakkında duruşma yapmaksızın karar verebilir.(Ek cümle : 11/4/2013-6459/ 23 md.) Ancak, talep hâlinde inceleme duruşmalı olarak yapılır. (Ek cümle : 11/4/2013-6459/ 23 md.) Adli yardım taleplerinin reddine ilişkin mahkeme kararlarında sunulan bilgi ve belgelerin kabul edilmeme sebebi açıkça belirtilir.\n(2) (Değişik : 11/4/2013-6459/ 23 md.) Adli yardım talebinin reddine ilişkin kararlara karşı, tebliğinden itibaren iki hafta içinde kararı veren mahkemeye dilekçe vermek suretiyle itiraz edilebilir. Kararına itiraz edilen mahkeme, itirazı incelemesi için dosyayı o yerde adli yardım talebi yapılan hukuk mahkemesinin birden fazla dairesinin bulunması hâlinde, numara olarak kendisini izleyen daireye, son numaralı daire için birinci daireye, o yerde adli yardım talebi yapılan hukuk mahkemesinin tek dairesi bulunması hâlinde ise aynı işlere bakmakla görevli en yakın mahkemeye gönderir. İtiraz incelemesi neticesinde verilen karar kesindir. Adli yardım talebi reddedilirse, ödeme gücünde sonradan gerçekleşen ciddi bir azalmaya dayanılarak tekrar talepte bulunulabilir.[43]\n(3) Adli yardım, daha önce yapılan yargılama giderlerini kapsamaz.\n[43] 2/3/2024 tarihli ve 7499 sayılı Kanunun 37 nci maddesi ile bu fıkrada yer alan “bir hafta” ibaresi “iki hafta” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "338",
+   "official_text": "Adli yardım kararının kaldırılması\nMADDE 338- (1) Adli yardımdan yararlanan kişinin mali durumu hakkında kasten veya ağır kusuru sonucu yanlış bilgi verdiği ortaya çıkar veya sonradan mali durumunun yeteri derecede iyileştiği anlaşılırsa adli yardım kararı kaldırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "339",
+   "official_text": "Adli yardımla ertelenen yargılama giderlerinin tahsili\nMADDE 339- (1) Adli yardım kararından dolayı ertelenen tüm yargılama giderleri ile Devletçe ödenen avanslar dava veya takip sonunda haksız çıkan kişiden tahsil olunur. Adli yardımdan yararlanan kişinin haksız çıkması hâlinde, uygun görülürse yargılama giderlerinin en çok bir yıl içinde aylık eşit taksitler hâlinde ödenmesine karar verilebilir.\n(2) (Ek: 11/4/2013-6459/ 24 md.) Adli yardım kararından dolayı Devletçe ödenen veya muaf tutulan yargılama giderlerinin tahsilinin, adli yardımdan yararlananın mağduriyetine neden olacağı mahkemece açıkça anlaşılırsa, mahkeme, hükümde tamamen veya kısmen ödemeden muaf tutulmasına karar verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "340",
+   "official_text": "Adli yardım kararıyla atanan avukatın ücretinin ödenmesi\nMADDE 340- (1) Adli yardımdan yararlanan kişi için mahkemenin talebi üzerine baro tarafından görevlendirilen avukatın ücreti, yargılama gideri olarak Hazineden ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "344",
+   "official_text": "MADDE 344- (1) İstinaf dilekçesi verilirken, istinaf kanun yoluna başvuru için gerekli harçlar ve tebliğ giderleri de dâhil olmak üzere tüm giderler ödenir. Bunların hiç ödenmediği veya eksik ödenmiş olduğu sonradan anlaşılırsa, kararı veren mahkeme tarafından verilecek bir haftalık kesin süre içinde tamamlanması, aksi hâlde başvurudan vazgeçmiş sayılacağı hususu başvurana yazılı olarak bildirilir. Verilen kesin süre içinde harç ve giderler tamamlanmadığı takdirde, mahkeme başvurunun yapılmamış sayılmasına karar verir. Bu karara karşı istinaf yoluna başvurulması hâlinde, 346 ncı maddenin ikinci fıkrası hükmü kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "353",
+   "official_text": "MADDE 353- (1) Ön inceleme sonunda dosyada eksiklik bulunmadığı anlaşılırsa;\na) Aşağıdaki durumlarda bölge adliye mahkemesi, esası incelemeden kararın kaldırılmasına ve davanın yeniden görülmesi için dosyanın kararı veren mahkemeye veya kendi yargı çevresinde uygun göreceği başka bir yer mahkemesine ya da görevli ve yetkili mahkemeye gönderilmesine duruşma yapmadan kesin olarak karar verir:\n1) Davaya bakması yasak olan hâkimin karar vermiş olması.\n2) İleri sürülen haklı ret talebine rağmen reddedilen hâkimin davaya bakmış olması.\n3) Mahkemenin görevli ve yetkili olmasına rağmen görevsizlik veya yetkisizlik kararı vermiş olması veya mahkemenin görevli ya da yetkili olmamasına rağmen davaya bakmış bulunması (…)48\n4) Diğer dava şartlarına aykırılık bulunması.\n5) Mahkemece usule aykırı olarak davanın veya karşı davanın açılmamış sayılmasına, davaların birleştirilmesine veya ayrılmasına, (…)48 karar verilmiş olması.\n6) (Değişik:22/7/2020-7251/35 md.) Mahkemece, uyuşmazlığın çözümünde etkili olabilecek ölçüde önemli delillerin toplanmamış veya değerlendirilmemiş olması ya da talebin önemli bir kısmı hakkında karar verilmemiş olması.\nb) Aşağıdaki durumlarda davanın esasıyla ilgili olarak;\n1) İncelenen mahkeme kararının usul veya esas yönünden hukuka uygun olduğu anlaşıldığı takdirde başvurunun esastan reddine,\n2) Yargılamada eksiklik bulunmamakla beraber, kanunun olaya uygulanmasında hata edilip de yeniden yargılama yapılmasına ihtiyaç duyulmadığı takdirde veya kararın gerekçesinde hata edilmiş ise düzelterek yeniden esas hakkında,\n3) Yargılamada bulunan eksiklikler duruşma yapılmaksızın tamamlanacak nitelikte ise bunların tamamlanmasından sonra başvurunun esastan reddine veya yeniden esas hakkında,[49]\nduruşma yapılmadan karar verilir.\n[48] 20/7/2017 tarihli ve 7035 sayılı Kanunun 29 uncu maddesiyle, bu maddenin birinci fıkrasının (a) bendinin (3) numaralı alt bendinde yer alan “veyahut mahkemenin bölge adliye mahkemesinin yargı çevresi dışında kalması” ibaresi ile bendin (5) numaralı alt bendinde yer alan “, merci tayinine” ibaresi madde metninden çıkarılmıştır.\n[49] 22/7/2020 tarihli ve 7251 sayılı Kanunun 35 inci maddesiyle, bu alt bende “tamamlanmasından sonra” ibaresinden sonra gelmek üzere “başvurunun esastan reddine veya” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "366",
+   "official_text": "Kıyas yoluyla uygulanacak hükümler\nMADDE 366- (1) Bu Kanunun istinaf yolu ile ilgili 343 ilâ 349 ve 352 nci maddeleri hükümleri, temyizde de kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/208",
+   "karar_no": "2025/328",
+   "decision_date": "",
+   "summary_md": "Yargıtay Hukuk Genel Kurulu, bir işçilik alacağı davasında basit yargılama usulünde delil sunma disiplinini ele almıştır. İlk derece mahkemesinin kararı, bölge adliye mahkemesince HMK m. 353/1-a bendinin 6. alt bendi uyarınca kaldırılıp dosya gönderilmişti. Gönderme sonrasında davalı işveren, cevap dilekçesinde dayanmadığı ve elinde bulunan bir kısım belgeyi bilirkişi ek raporuna itiraz dilekçesinin ekinde sunmuştur. Sorun, bu belgelerin dikkate alınıp alınamayacağıdır. Kurul çoğunluğu, basit yargılamada tarafların delillerini dilekçeleriyle birlikte bildirmek ve ellerindeki delilleri eklemek zorunda olduğunu (HMK m. 318), cevap dilekçesinde bildirilmeyen belgenin HMK m. 145 anlamında sonradan ortaya çıkan yeni delil sayılamayacağını kabul etmiş ve direnme kararını uygun bulmuştur. Dosya miktar incelemesi için özel daireye gönderilmiştir. Kararda karşı oy da vardır; karşı oyda, ödeme gibi borcu sona erdiren belgelerin yargılamanın her aşamasında değerlendirilmesi gerektiği savunulmuş, ancak somut olayda sunulan bordroların tek başına ödemeyi gösteren belge olmadığı belirtilerek direnme kararının bu değişik gerekçeyle uygun bulunması gerektiği ileri sürülmüştür. Görüşmelerde bozma kararının yerinde olduğu yönünde ayrı bir görüş de dile getirilmiş, fakat çoğunlukça kabul edilmemiştir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1157369700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "1. Hukuk Dairesi",
+   "esas_no": "2021/9254",
+   "karar_no": "2023/3918",
+   "decision_date": "",
+   "summary_md": "Yargıtay 1. Hukuk Dairesi, kadastro harici taşınmazların zilyetlikle iktisabına dayalı tescil davasında yargılama giderlerinin kimden alınacağını incelemiştir. Davacı, Hazine ve ilgili kamu tüzel kişiliği aleyhine dava açmış; mahkeme tescile karar vermiş, ancak davalıların yasal hasım olduğu gerekçesiyle yargılama giderlerini ve bakiye harcı davacı üzerinde bırakmış, vekâlet ücretine hükmetmemiştir. Davacının katılma yoluyla istinafı üzerine bölge adliye mahkemesi, davalıların yasal ve zorunlu hasım olması nedeniyle davanın kabulü hâlinde de harç, yargılama gideri ve vekâlet ücretinden sorumlu olmayacaklarını belirterek gider yönünden aynı sonucu benimsemiş; yalnız kısmen kabul yerine kabul kararı vererek hükmü yeniden kurmuştur. Bu kararı yalnız davalı Hazine temyiz etmiş; Daire çoğunluğu Hazinenin temyiz itirazlarını yerinde görmeyerek bölge adliye mahkemesi kararını oy çokluğuyla onamıştır. Karşı oyda ise HMK m. 326/1'in açık hükmü uyarınca giderlerin aleyhine hüküm verilen taraftan alınması gerektiği, harçtan muaf olan Hazine yüzünden haklı çıkan davacıdan bakiye harç alınamayacağı ve davacının yatırdığı peşin harcın iadesi gerektiği savunulmuştur. Karar, giderlerin sorumluluğunda \"yasal hasım\" ayrımının tartışmalı olduğunu göstermesi bakımından önemlidir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=929082800",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Dava dilekçesi basit yargılama usulüne tabi bir davada davalıya 3 Mart'ta tebliğ edilmiştir. Davalı, cevap süresi dolmadan cevap dilekçesinin hazırlanmasının çok zor olduğunu bildirerek ek süre istemiştir. Hangisi doğrudur?",
+   "options": [
+    "Cevap süresi tebliğden itibaren bir haftadır; ek süre ancak iki defa verilebilir.",
+    "Cevap süresi tebliğden itibaren iki haftadır; ek süre en çok bir ay olabilir.",
+    "Cevap süresi tebliğden itibaren iki haftadır; ek süre verilemez, çünkü basit yargılamada süre uzatılmaz.",
+    "Cevap süresi tebliğden itibaren iki haftadır; ek süre, cevap süresinin bitiminden başlamak ve iki haftayı geçmemek üzere bir defaya mahsus verilebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 317/2, cevap süresini iki hafta olarak belirler ve zor ya da imkânsız hâllerde, aynı süre içinde başvuran davalıya cevap süresinin bitiminden itibaren işlemeye başlayan, bir defaya mahsus ve iki haftayı geçmeyen ek süre verilebileceğini söyler. Bir ay üst sınırı yazılı yargılamadaki kuraldır (HMK m. 127)."
+  },
+  {
+   "stem_md": "Aşağıdaki dava veya işlerden hangisi HMK m. 316/1 uyarınca basit yargılama usulüne tabidir?",
+   "options": [
+    "Asliye hukuk mahkemesinde açılan menfi tespit davası",
+    "Asliye hukuk mahkemesinde açılan sözleşmeden doğan tazminat davası",
+    "Asliye hukuk mahkemesinde açılan tapu iptal ve tescil davası",
+    "Her çeşit nafaka davası"
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 316/1-ç her çeşit nafaka davası ile velayet ve vesayete ilişkin dava ve işleri basit yargılama alanına sokar. Diğer şıklardaki davalar listede yer almadığından yazılı yargılama usulüne tabidir."
+  },
+  {
+   "stem_md": "Basit yargılama usulünde davacının, davalının cevap dilekçesine karşı yeni vakıalar içeren bir cevaba cevap dilekçesi vermesi hakkında hangisi doğrudur?",
+   "options": [
+    "Verilemez; taraflar cevaba cevap ve ikinci cevap dilekçesi veremezler.",
+    "İki hafta içinde verilebilir; hâkim süreyi uzatabilir.",
+    "Yalnızca hâkimin izniyle verilebilir.",
+    "Yalnız davacı verebilir, davalı ikinci cevap veremez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "HMK m. 317/3, basit yargılamada tarafların cevaba cevap ve ikinci cevap dilekçesi veremeyeceğini açıkça belirtir. İki haftalık süreli cevaba cevap dilekçesi yazılı yargılamaya özgüdür (HMK m. 136)."
+  },
+  {
+   "stem_md": "Basit yargılamaya tabi bir davada Ayşe 1 Mart'ta dava açmıştır. Dava dilekçesi 5 Mart'ta davalıya tebliğ edilmiş, davalı cevap dilekçesini 12 Mart'ta mahkemeye vermiştir. Ayşe 20 Mart'ta, dava dilekçesinde hiç ileri sürmediği yeni bir vakıaya dayanarak yeni bir alacak kalemi talep eden bir dilekçe sunmuştur. Davalının açık muvafakati yoktur ve ıslah yoluna başvurulmamıştır. İddianın genişletilmesi yasağı bakımından hangisi doğrudur?",
+   "options": [
+    "Yasak cevap dilekçesinin verildiği 12 Mart'ta başlar; ancak savunma için değil iddia için başlar.",
+    "Yasak ön inceleme duruşmasında başlar; bu nedenle genişletme serbesttir.",
+    "Yasak cevaba cevap dilekçesi verilince başlar; bu dilekçe verilemediğinden genişletme sınırsızdır.",
+    "İddianın genişletilmesi yasağı dava açılmasıyla başladığından 20 Mart tarihli genişletme yasaktır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 319'a göre iddianın genişletilmesi veya değiştirilmesi yasağı dava açılmasıyla, savunmanın genişletilmesi veya değiştirilmesi yasağı ise cevap dilekçesinin mahkemeye verilmesiyle başlar. Ayşe'nin yeni vakıaya dayanan yeni alacak kalemi, dava açıldığı 1 Mart'ta başlamış olan yasağa takılır. Islah ve karşı tarafın açık muvafakati (HMK m. 141/2, HMK m. 322/1 yollamasıyla) ile kısmi davada aynı alacağın bir defaya mahsus artırılması (HMK m. 109/4) bu yasağın dışındadır; olayda bunlardan hiçbiri yoktur."
+  },
+  {
+   "stem_md": "Basit yargılama usulünde ön inceleme duruşması dışındaki tahkikat işlemleri ve duruşmalar hakkında hangisi doğrudur?",
+   "options": [
+    "Tahkikat tek duruşmada tamamlanır; zorunlu hâl dahi olsa ikinci duruşma yapılamaz.",
+    "Tahkikat kural olarak iki duruşmada tamamlanır; duruşmalar arası süre bir aydan uzun olamaz.",
+    "Tahkikatın duruşma sayısı sınırlı değildir; yalnızca duruşmalar arası süre üç aydan uzun olamaz.",
+    "Tahkikat kural olarak üç duruşmada tamamlanır; duruşmalar arası süre iki aydır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 320/3'e göre tarafların dinlenmesi, delillerin incelenmesi ve tahkikat işlemleri ön inceleme duruşması hariç iki duruşmada tamamlanır ve duruşmalar arası süre bir aydan uzun olamaz. Bilirkişi incelemesinin uzaması gibi zorunlu hâllerde hâkim gerekçesini belirterek bu sınırların dışına çıkabilir."
+  },
+  {
+   "stem_md": "Basit yargılamaya tabi bir davada dosya, tarafların duruşmaya gelmemesi nedeniyle işlemden kaldırılmış, davacı dosyayı yenilemiştir. Yenilemeden sonraki duruşmada taraflar yine gelmemiştir. Sonuç nedir?",
+   "options": [
+    "Davacının hakkı düşmez; mahkeme dosyayı resen karara bağlar.",
+    "Dava, açılmamış sayılır.",
+    "Dava, davacı lehine kabul edilmiş sayılır.",
+    "Dosya bir kez daha yenilenebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 320/4'e göre basit yargılamada işlemden kaldırılmış dosya yenilendikten sonra takipsiz bırakılırsa dava açılmamış sayılır. Bu durumda yargılama giderleri davacıya yükletilir (HMK m. 331/3)."
+  },
+  {
+   "stem_md": "Ahmet, Zeynep'e karşı açtığı alacak davasını kazanmıştır; ancak Ahmet'in avukatı gerekçesiz yere sürekli erteleme istemiş ve bu yüzden gereksiz gider yapılmıştır. Mahkemenin Ahmet'e yükleyebileceği sorumluluk hakkında hangisi doğrudur?",
+   "options": [
+    "Mahkeme, davayı kazanan tarafı ancak kötüniyetle dava açmışsa sorumlu tutabilir.",
+    "Gereksiz yere davayı uzatan taraf lehine karar verilmiş olsa bile, mahkeme onu karar ve ilam harcı dışında kalan giderlerin tamamından veya bir kısmından sorumlu tutabilir.",
+    "Davayı kazanan tarafa hiçbir gider yüklenemez.",
+    "Mahkeme, Ahmet'e karar ve ilam harcını da yükleyebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 327/1, gereksiz yere davanın uzamasına veya gider yapılmasına sebebiyet veren tarafın lehine karar verilmiş olsa bile, karar ve ilam harcı dışındaki giderlerin tamamını veya bir kısmını ödemeye mahkûm edilebileceğini söyler. Karar ve ilam harcı bu kapsamın dışındadır; kötüniyet ise HMK m. 329'un ayrı bir şartıdır."
+  },
+  {
+   "stem_md": "Davacı Mehmet, 100.000 TL'lik alacak davasının bir kısmında haklı çıkmış, bir kısmında haksız çıkmıştır. Yargılama giderleri bakımından hangisi doğrudur?",
+   "options": [
+    "Her taraf kendi yaptığı gideri yüklenir; mahkeme paylaştırma yapamaz.",
+    "Mahkeme yargılama giderlerini tarafların haklılık oranına göre paylaştırır.",
+    "Giderlerin tamamı davalıdan alınır.",
+    "Giderlerin tamamı davacıdan alınır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 326/2'ye göre iki taraftan her biri kısmen haklı çıkarsa mahkeme yargılama giderlerini tarafların haklılık oranına göre paylaştırır. Genel kural olan \"aleyhine hüküm verilen taraf\" ilkesi (HMK m. 326/1) tam haksızlık hâlinde işler."
+  },
+  {
+   "stem_md": "Vekille takip edilen bir davada kanuna göre takdir edilen vekâlet ücreti kimin lehine hükmedilir?",
+   "options": [
+    "Doğrudan davayı takip eden avukat lehine",
+    "Hazine lehine",
+    "Baro lehine",
+    "Davada haklı çıkan taraf lehine"
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 330/1'e göre vekille takip edilen davalarda mahkemece kanuna göre takdir olunan vekâlet ücreti taraf lehine hükmedilir. Yani ücret, avukat adına değil haklı çıkan taraf adına hükmedilir."
+  },
+  {
+   "stem_md": "Mahkeme Ali'nin adli yardım talebini reddetmiştir. Ret kararı Ali'ye 5 Mayıs'ta tebliğ edilmiştir. Ali bu karara karşı ne zamana kadar itiraz edebilir ve itiraz üzerine verilen karar nasıl bir nitelik taşır?",
+   "options": [
+    "Tebliğden itibaren otuz gün içinde; karar kesindir.",
+    "Tebliğden itibaren iki hafta içinde; itiraz incelemesi sonucunda verilen karar kesindir.",
+    "Tebliğden itibaren iki hafta içinde; karar istinaf edilebilir.",
+    "Tebliğden itibaren bir hafta içinde; karar kesin olmaz, temyiz edilebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 337/2'ye göre adli yardım talebinin reddine ilişkin kararlara karşı tebliğinden itibaren iki hafta içinde kararı veren mahkemeye dilekçe vererek itiraz edilebilir ve itiraz incelemesi sonunda verilen karar kesindir. Süre 7499 sayılı Kanunla bir haftadan iki haftaya çıkarılmıştır."
+  },
+  {
+   "stem_md": "Zeynep işçilik alacağı için 5 Mayıs'ta peşin harç yatırarak dava açmış, 20 Haziran'da adli yardım talep etmiş ve talebi kabul edilmiştir. Zeynep'in 5 Mayıs'ta yatırdığı peşin harç bakımından hangisi doğrudur?",
+   "options": [
+    "Adli yardım daha önce yapılan yargılama giderlerini kapsamaz; peşin harcın iadesi bu yolla istenemez.",
+    "Peşin harç, davanın sonunda yalnızca davalıdan alınabilecek bir gider olduğundan Zeynep bunu isteyemez.",
+    "Harç, adli yardım kararıyla birlikte Hazineden Zeynep'e ödenir.",
+    "Adli yardım kararı geriye etkilidir; peşin harç Zeynep'e iade edilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "HMK m. 337/3, adli yardımın daha önce yapılan yargılama giderlerini kapsamadığını söyler. Adli yardım ileriye dönük muafiyet sağlar. Haklı çıkılması hâlinde giderlerin davalıdan alınması ise HMK m. 326/1'in genel sonucudur ve adli yardımdan bağımsızdır."
+  },
+  {
+   "stem_md": "Adli yardım hakkında hangisi doğrudur?",
+   "options": [
+    "Adli yardım, talep kabul edildikten sonra dava konusu değerin tamamının Devletçe karşılanması anlamına gelir.",
+    "Adli yardım için talebin haklı olduğu konusunda hâkimde tam bir kanaat oluşması gerekir.",
+    "Yabancıların adli yardımdan yararlanması için karşılıklılık şartı aranmaz.",
+    "Adli yardım, hükmün kesinleşmesine kadar devam eder."
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 335/3'e göre adli yardım hükmün kesinleşmesine kadar devam eder. Yabancılar bakımından ayrıca karşılıklılık aranır (HMK m. 334/3). Asıl talep için \"açıkça dayanaktan yoksun olmama\" yeterlidir (HMK m. 334/1); adli yardım dava konusu değeri değil yargılama giderlerini kapsar."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Zeynep, çalıştığı X Ltd. Şti.'ne karşı iş mahkemesinde kıdem tazminatı ve fazla çalışma ücreti davası açmıştır. Dava dilekçesi 3 Mart 2025'te X Ltd. Şti.'ne tebliğ edilmiştir. Şirket 10 Mart 2025'te, cevap dilekçesini hazırlamakta zorlandığını belirterek üç haftalık ek süre istemiştir. Şirket cevap dilekçesini verdikten sonra Zeynep, \"cevaba cevap\" başlıklı bir dilekçeyle yeni bir alacak kalemi (ihbar tazminatı) eklemiştir.\n\nDavanın ilk duruşmasında taraflar gelmediğinden dosya işlemden kaldırılmış, Zeynep dosyayı yenilemiştir. Yenilemeden sonraki duruşmaya da taraflardan hiçbiri gelmemiştir. Zeynep ayrıca, davayı açarken yatırdığı peşin harcın adli yardım talebiyle birlikte iade edilmesini istemektedir.\n\n1. Davanın tabi olduğu yargılama usulü nedir ve ek süre talebi nasıl değerlendirilir?\n2. Zeynep'in \"cevaba cevap\" dilekçesi geçerli midir; ihbar tazminatı talebi bakımından hangi kural işler?\n3. Takipsiz bırakılan dosyanın akıbeti ve giderler bakımından sonuç nedir?\n4. Peşin harcın adli yardımla iadesi istenebilir mi?",
+   "rubric": [
+    {
+     "point": "Hizmet ilişkisinden doğan dava olduğundan basit yargılama usulünün uygulanması",
+     "weight": 15,
+     "madde_ref": "HMK m. 316"
+    },
+    {
+     "point": "Cevap süresi iki hafta; ek süre bir defaya mahsus ve en çok iki hafta olduğundan üç haftalık talebin kabul edilemeyeceği",
+     "weight": 20,
+     "madde_ref": "HMK m. 317"
+    },
+    {
+     "point": "Cevaba cevap dilekçesi verilemeyeceği; dilekçenin dikkate alınmayacağı",
+     "weight": 15,
+     "madde_ref": "HMK m. 317"
+    },
+    {
+     "point": "İddianın genişletilmesi yasağının dava açılmasıyla başlaması; ihbar tazminatının sonradan eklenemeyeceği",
+     "weight": 15,
+     "madde_ref": "HMK m. 319"
+    },
+    {
+     "point": "Yenilenen dosyanın yeniden takipsiz bırakılması hâlinde davanın açılmamış sayılması ve giderlerin davacıya yüklenmesi",
+     "weight": 20,
+     "madde_ref": "HMK m. 320"
+    },
+    {
+     "point": "Adli yardımın daha önce yapılan giderleri kapsamaması; peşin harcın iadesinin istenemeyeceği",
+     "weight": 15,
+     "madde_ref": "HMK m. 337"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Dava, işçi ile işveren arasındaki iş sözleşmesinden doğan bir alacak davasıdır; yani hizmet ilişkisinden doğan davadır. HMK m. 316/1-d bu davaları basit yargılama usulüne tabi tutar. Sorunlar, bu usulün dilekçe, süre ve takipsizlik kurallarıyla adli yardımın kapsamında toplanır.\n\n**Hukuki sorunlar ve ilgili hükümler:** Cevap süresi dava dilekçesinin tebliğinden itibaren iki haftadır; zor ya da imkânsız hâllerde, aynı süre içinde başvuran davalıya, cevap süresinin bitiminden itibaren işlemeye başlayan, bir defaya mahsus olan ve iki haftayı geçmeyen ek süre verilebilir (HMK m. 317/2). Basit yargılamada cevaba cevap ve ikinci cevap dilekçesi verilemez (HMK m. 317/3). İddianın genişletilmesi veya değiştirilmesi yasağı dava açılmasıyla başlar (HMK m. 319). İşlemden kaldırılıp yenilenen dosya yeniden takipsiz bırakılırsa dava açılmamış sayılır (HMK m. 320/4) ve giderler davacıya yükletilir (HMK m. 331/3). Adli yardım daha önce yapılan yargılama giderlerini kapsamaz (HMK m. 337/3).\n\n**Değerlendirme:**\n1. X Ltd. Şti. 10 Mart'ta, cevap süresi dolmadan (17 Mart) başvurmuştur; süre içinde başvuru şartı sağlanır. Ancak şirket üç hafta istemektedir. Ek süre en çok iki hafta olabileceğinden, mahkeme en fazla iki haftalık bir süre verebilir; üç haftalık süre verilemez. Ek süre cevap süresinin bitiminden, yani 17 Mart'tan itibaren işler.\n2. Zeynep'in \"cevaba cevap\" dilekçesi kanunen verilemez; mahkeme bu dilekçeyi dikkate almaz. Üstelik ihbar tazminatı yeni bir talep kalemi olduğundan, iddianın genişletilmesi yasağı dava açılmasıyla başladığı için sonradan eklenemez. Kanunun ayrıca tanıdığı imkânlar (ör. karşı tarafın açık muvafakati veya ıslah) saklıdır, ancak olayda böyle bir olgu yoktur.\n3. Yenilenen dosyanın yeniden takipsiz bırakılması, dava açılmamış sayılmasını gerektirir. Giderler, davacı Zeynep'e yükletilir. Yazılı yargılamada ise yenilenen dava bir defa daha takipsiz bırakılabilir; dava ancak ilk yenilemeden sonra bir defadan fazla takipsiz bırakılırsa açılmamış sayılır (HMK m. 150/6). Basit yargılamada bu imkân yoktur.\n4. Adli yardım ileriye dönüktür; geçmiş giderleri kapsamadığından Zeynep'in önceden yatırdığı peşin harcın iadesi adli yardım yoluyla istenemez.\n\n**Sonuç:** Basit yargılama usulü uygulanır; şirkete en çok iki hafta ek süre verilebilir; cevaba cevap dilekçesi ve yeni talep dikkate alınmaz; yenilemeden sonra yeniden takipsiz bırakılan dava açılmamış sayılır, giderler davacıya yüklenir; adli yardım geçmiş giderleri kapsamaz."
+  },
+  {
+   "stem_md": "Ali, Mehmet'e karşı asliye hukuk mahkemesinde 200.000 TL'lik alacak davası açmıştır. Mahkeme, davanın bir kısmını kabul etmiş, bir kısmını reddetmiştir. Yargılama sırasında Mehmet'in vekili, hiçbir gerekçe göstermeden birçok kez erteleme istemiş ve bu yüzden bilirkişi için ek giderler yapılmıştır. Ayrıca Ali, kendisinin hiçbir hakkı olmadığını bile bile, ikinci bir dava daha açmıştır; bu ikinci dava mahkemece reddedilmiştir. Ali'nin avukatı, kendi adına ayrıca vekâlet ücreti hükmedilmesini istemiştir. Son olarak Ali, adli yardım talebinin mahkemece reddedilmesi üzerine karara karşı itiraz etmek istemektedir; ret kararı 5 Mayıs'ta tebliğ edilmiştir.\n\n1. İlk davada yargılama giderleri nasıl paylaştırılır?\n2. Mehmet'in erteleme taleplerinin gider bakımından sonucu nedir?\n3. İkinci davada Ali hangi yaptırımlarla karşılaşabilir?\n4. Vekâlet ücreti kimin lehine hükmedilir?\n5. Ali'nin itiraz hakkı ve süresi nedir?",
+   "rubric": [
+    {
+     "point": "Kısmen kabul-kısmen ret hâlinde giderlerin haklılık oranına göre paylaştırılması",
+     "weight": 20,
+     "madde_ref": "HMK m. 326"
+    },
+    {
+     "point": "Gereksiz uzatan tarafın, lehine karar çıksa da karar ve ilam harcı dışındaki giderleri ödemeye mahkûm edilebilmesi",
+     "weight": 20,
+     "madde_ref": "HMK m. 327"
+    },
+    {
+     "point": "Hiçbir hakkı olmadığı hâlde dava açan tarafın giderlerden başka akdî vekâlet ücreti ve disiplin para cezasından sorumlu tutulabilmesi",
+     "weight": 20,
+     "madde_ref": "HMK m. 329"
+    },
+    {
+     "point": "Vekâlet ücretinin avukat adına değil haklı çıkan taraf lehine hükmedilmesi",
+     "weight": 20,
+     "madde_ref": "HMK m. 330"
+    },
+    {
+     "point": "Adli yardım talebinin reddine iki hafta içinde itiraz edilebilmesi ve itiraz kararının kesin olması",
+     "weight": 20,
+     "madde_ref": "HMK m. 337"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Dava genel mahkemede açılan bir alacak davasıdır; yargılama giderlerinin paylaştırılması, dürüstlük kuralına aykırılık, kötüniyetli dava, vekâlet ücreti ve adli yardımın reddine itiraz sorunlarını birlikte içerir.\n\n**Hukuki sorunlar ve ilgili hükümler:** Giderler kural olarak aleyhine hüküm verilen taraftan alınır (HMK m. 326/1); iki taraf da kısmen haklıysa haklılık oranına göre paylaştırılır (HMK m. 326/2). Gereksiz yere davanın uzamasına veya gider yapılmasına sebebiyet veren taraf, lehine karar çıksa bile, karar ve ilam harcı dışındaki giderlerin tamamını veya bir kısmını ödemeye mahkûm edilebilir (HMK m. 327/1). Kötüniyetli davalı veya hiçbir hakkı olmadığı hâlde dava açan taraf, giderlerden başka vekille kararlaştırılan vekâlet ücretinin tamamını veya bir kısmını ve disiplin para cezasını ödemeye mahkûm edilebilir (HMK m. 329). Vekâlet ücreti taraf lehine hükmedilir (HMK m. 330/1). Adli yardım talebinin reddine karşı tebliğden itibaren iki hafta içinde itiraz edilir ve itiraz kararı kesindir (HMK m. 337/2).\n\n**Değerlendirme:**\n1. Her iki taraf da kısmen haklı çıktığından giderler haklılık oranına göre paylaştırılır; \"kaybeden öder\" ilkesi burada tam olarak işlemez.\n2. Mehmet kısmen haklı çıktığı için lehine hüküm bulunsa bile, vekilinin gerekçesiz ertelemeleri yargılamayı uzatmış ve gereksiz gider doğurmuştur. Mahkeme, Mehmet'i karar ve ilam harcı dışındaki giderlerin bir kısmından, hatta tamamından sorumlu tutabilir. Karar ve ilam harcı bu kapsamın dışındadır.\n3. İkinci davada Ali'nin hiçbir hakkı olmadığını bilerek dava açtığı kabul edilirse, mahkeme onu giderlere ek olarak karşı tarafın vekille kararlaştırdığı ücretten ve disiplin para cezasından sorumlu tutabilir (HMK m. 329). Bu yaptırımlar \"olabilir\" niteliğindedir; mahkemenin takdirindedir.\n4. Vekâlet ücreti, Ali'nin avukatı adına değil, davada haklı çıkan taraf lehine hükmedilir. Avukatın kendi adına ücret istemesi HMK m. 330/1 karşısında yerinde olmaz.\n5. Ali, ret kararının tebliğinden itibaren iki hafta içinde, kararı veren mahkemeye dilekçe vererek itiraz edebilir. İtiraz incelemesi sonunda verilen karar kesindir.\n\n**Sonuç:** Giderler haklılık oranında paylaştırılır; Mehmet gereksiz uzatma nedeniyle harç dışı giderlerden sorumlu tutulabilir; Ali ikinci dava nedeniyle HMK m. 329 yaptırımlarına maruz kalabilir; vekâlet ücreti taraf lehine hükmedilir; itiraz süresi iki haftadır ve karar kesindir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Basit yargılamada cevap süresi ve ek süre?",
+   "back_md": "Cevap süresi tebliğden itibaren 2 hafta. Ek süre: cevap süresinin bitiminden başlar, bir defaya mahsus, en çok 2 hafta (HMK m. 317/2)."
+  },
+  {
+   "front_md": "Basit yargılamada hangi dilekçeler verilebilir?",
+   "back_md": "Yalnız dava ve cevap dilekçesi. Cevaba cevap ve ikinci cevap dilekçesi verilemez (HMK m. 317/3)."
+  },
+  {
+   "front_md": "Basit yargılamada iddia ve savunmanın genişletilmesi yasağı ne zaman başlar?",
+   "back_md": "İddia için dava açılmasıyla, savunma için cevap dilekçesinin mahkemeye verilmesiyle (HMK m. 319)."
+  },
+  {
+   "front_md": "Basit yargılamada tahkikat kaç duruşmada tamamlanır?",
+   "back_md": "Ön inceleme niteliğindeki ilk duruşma hariç iki duruşmada; duruşmalar arası süre bir aydan uzun olamaz, zorunlu hâllerde gerekçeli istisna vardır (HMK m. 320/3)."
+  },
+  {
+   "front_md": "Yenilenen dosya yeniden takipsiz kalırsa ne olur?",
+   "back_md": "Basit yargılamada dava açılmamış sayılır (HMK m. 320/4); giderler davacıya yükletilir (HMK m. 331/3)."
+  },
+  {
+   "front_md": "Yargılama giderleri kimden alınır?",
+   "back_md": "Kanunda yazılı hâller dışında aleyhine hüküm verilen taraftan; kısmi haklılıkta haklılık oranına göre paylaştırılır (HMK m. 326/1-2)."
+  },
+  {
+   "front_md": "HMK m. 327/1 neyi düzenler?",
+   "back_md": "Gereksiz yere davayı uzatan taraf lehine karar çıksa bile karar ve ilam harcı dışındaki giderlerden sorumlu tutulabilir."
+  },
+  {
+   "front_md": "Kötüniyetli veya haksız dava açanın yaptırımı?",
+   "back_md": "Giderlere ek olarak karşı tarafın akdî vekâlet ücretinin tamamı veya bir kısmı ile disiplin para cezası (HMK m. 329)."
+  },
+  {
+   "front_md": "Vekâlet ücreti kimin lehine hükmedilir?",
+   "back_md": "Vekille takip edilen davada haklı çıkan taraf lehine, avukat adına değil (HMK m. 330/1)."
+  },
+  {
+   "front_md": "Açılmamış sayılan veya konusuz kalan davada giderler?",
+   "back_md": "Açılmamış sayılan davada davacıya yükletilir (HMK m. 331/3); konusuz kalan davada davanın açıldığı tarihteki haklılığa bakılır (HMK m. 331/1)."
+  },
+  {
+   "front_md": "Adli yardımın şartları nelerdir?",
+   "back_md": "Ödeme gücünden yoksunluk (aile geçimini önemli ölçüde zor duruma düşürmeden) ve talebin açıkça dayanaktan yoksun olmaması; yabancılarda ayrıca karşılıklılık (HMK m. 334/1, 334/3). HMK m. 334/2 AYM kararıyla iptal edilmiştir."
+  },
+  {
+   "front_md": "Adli yardımın süresi, kapsamı ve ret kararına itiraz?",
+   "back_md": "Hükmün kesinleşmesine kadar sürer, geçmiş giderleri kapsamaz (HMK m. 335/3, 337/3). Ret kararına tebliğden itibaren 2 hafta içinde itiraz edilir; karar kesindir (HMK m. 337/2)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

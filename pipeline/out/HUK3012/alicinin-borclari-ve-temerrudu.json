@@ -1,0 +1,762 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Satış Sözleşmesi",
+ "topic_index": 5,
+ "slug": "alicinin-borclari-ve-temerrudu",
+ "title": "Alıcının Borçları, Satış Bedelinin Belirlenmesi ve Alıcının Temerrüdü",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:18:59.932049+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/satis-ayip-zapt"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Satıcı malı verdi ya da vermeye hazır. Alıcının ne borcu var, bedel belli değilse nasıl bulunur, bedel ne zaman istenir ve alıcı ödemezse satıcı ne yapabilir?\n\n- **Alıcının iki asli borcu (TBK m. 232/1):** kararlaştırılan **bedeli ödemek** ve kendisine sunulan **satılanı devralmak**. Aksine âdet ya da anlaşma yoksa satılan **hemen** devralınır (TBK m. 232/2). Devralmak için yapılan giderler ve ifa yerinden başka yere taşıma giderleri alıcıya, ölçme ve tartma giderleri satıcıya aittir (TBK m. 211/1).\n- **Bedel belirtilmemişse (TBK m. 233):** alıcı malı alacağını **kesin olarak** bildirmişse satış, **ifa yeri ve zamanındaki ortalama piyasa fiyatı** üzerinden yapılmış sayılır. Bedel ağırlığa göre hesaplanıyorsa **dara indirilir**; ticari teamüller saklıdır.\n- **Muacceliyet ve faiz (TBK m. 234):** aksine sözleşme yoksa bedel, satılan **alıcının zilyetliğine girince** muaccel olur. Üç hâlde ihtar gerekmeden faiz istenebilir: faiz konusunda **teamül** varsa, alıcının maldan **ürün ya da verim elde etme imkânı** varsa, **belirli günün geçmesiyle temerrüt** gerçekleşmişse.\n- **Peşin satışta dönme (TBK m. 235/1-2):** satılan ancak bedel ödendikten sonra ya da ödenme anında devredilecekse alıcının temerrüdünde satıcı **herhangi bir işlem gerekmeksizin** (süre vermeden) satıştan dönebilir; ama dönmek istiyorsa durumu **gecikmeksizin** alıcıya bildirmelidir.\n- **Veresiye satışta dönme (TBK m. 235/3):** zilyetlik bedel ödenmeden devredilmişse satıcının dönüp malı geri alması ancak bu hakkın **sözleşmede açıkça saklı tutulmasına** bağlıdır. Saklanmamışsa süre verse de dönemez; bedeli ve gecikme zararını ister.\n- **Zararın hesabı (TBK m. 236):** borcunu ifa etmeyen alıcı satıcının zararını giderir. **Somut yöntem:** sözleşme bedeli ile malın dürüstlük kurallarına uygun **ikame satışından** elde edilen bedel arasındaki fark (TBK m. 236/2). **Soyut yöntem:** borsada kayıtlı ya da piyasa fiyatı olan mallarda ikame satış gerekmeden sözleşme bedeli ile **belirlenmiş ödeme günündeki fiyat** arasındaki fark (TBK m. 236/3).\n- **Yalnız devralmada temerrüt:** alacaklı temerrüdü hükümleri uygulanır: hasar ve giderler alıcıya ait olmak üzere **tevdi** (TBK m. 107) ya da hâkim izniyle **sattırma** (TBK m. 108); tacirler arasında ayrıca TTK m. 23/1-b.\n- **Sınav hatırlatması:** peşin satışta satıcı susarsa dönmüş sayılmaz; veresiyede teslimden sonra \"süre verip dönerim\" demek yetmez; ihtarsız faizde fiilen gelir elde etmek aranmaz, **imkân** yeter; ikame satış için açık artırma şartı yoktur.",
+  "content_md": "## 0. Konunun haritası\n\nSatış sözleşmesinde satıcı, satılanın zilyetlik ve mülkiyetini devretmeyi; alıcı da karşılığında bir bedel ödemeyi üstlenir (TBK m. 207/1). Önceki konularda satıcının borcunu ve sorumluluğunu gördük. Bu konu madalyonun öbür yüzüdür: **alıcı ne borçlanır ve borcunu yerine getirmezse ne olur?** Beş madde beş soruya cevap verir:\n\n| Madde | Cevapladığı soru |\n|---|---|\n| TBK m. 232 | Alıcının borçları neler? |\n| TBK m. 233 | Bedel belirtilmemişse nasıl bulunur? |\n| TBK m. 234 | Bedel ne zaman muaccel olur, faiz ne zaman istenir? |\n| TBK m. 235 | Alıcı temerrüde düşerse satıcı dönebilir mi? |\n| TBK m. 236 | Satıcının zararı nasıl hesaplanır? |\n\nOlay sorusunda bu sırayla ilerle: (1) Bedel belli mi, belli değilse nasıl bulunur? (2) Muaccel mi, faiz işler mi? (3) Alıcı temerrüde düştü mü? (4) Satış **peşin** mi, **veresiye** mi? (5) Satıcı dönebilir mi, zararını hangi yöntemle hesaplar?\n\n> 📌 **Kesin bilgi:** TBK m. 232 ile TBK m. 236 arasındaki hükümlerin resmî metninde değişiklik notu yoktur; yakın tarihli bir kanun değişikliği bu hükümlere dokunmamıştır. Metin güncel hâliyle ezberlenebilir.\n\n## 1. Alıcının borçları (TBK m. 232)\n\nTBK m. 232/1'e göre alıcı, \"satış sözleşmesinde kararlaştırılmış olduğu biçimde satış bedelini ödemek ve kendisine sunulan satılanı devralmakla yükümlüdür.\" İki ayrı borç vardır:\n\n1. **Bedeli ödeme borcu:** satış sözleşmesinin asli edimidir. Bedelin baştan rakamla belli olması gerekmez; \"durum ve koşullara göre belirlenmesi mümkün olan bedel, kararlaştırılmış bedel hükmündedir\" (TBK m. 207/3). TBK m. 233 bunun en önemli uygulamasıdır.\n2. **Devralma (kabul) borcu:** satıcı malı gereği gibi sunmuşsa alıcı onu teslim almalıdır. Aksine yerel âdet veya anlaşma yoksa satılan **hemen** devralınır (TBK m. 232/2). Satıcının malı elinde tutup alıcıyı beklemesi için bir sebep yoktur.\n\nTaraflar aksini kararlaştırmadıkça edimler **aynı anda** ifa edilir (TBK m. 207/2). Yani kural, malın teslimiyle bedelin ödenmesinin birlikte yapılmasıdır. Vade ya da veresiye ancak sözleşmeyle ya da âdetle ortaya çıkar. Bu ayrım TBK m. 235'in kalbidir; aşağıda göreceksin.\n\n### 1.1 Giderler\nGiderlerin kime ait olduğu TBK m. 211/1'dedir. Aksine sözleşme veya âdet yoksa:\n\n| Gider | Kime ait? |\n|---|---|\n| Ölçme ve tartma gibi devir giderleri | Satıcı |\n| Satılanı devralmak üzere yapılan giderler | Alıcı |\n| Satılanın ifa yerinden başka yere taşınması | Alıcı |\n\n\"Gidersiz devir\" kararlaştırılmışsa satıcı taşıma giderlerini üstlenmiş sayılır (TBK m. 211/2).\n\n> **Örnek:** Ali, mermer bloklarını Zeynep'e satar; teslim yeri Ali'nin ocağıdır. Blokları kantarda tartmanın gideri Ali'ye aittir. Zeynep'in tırını göndermesi, yükleme için vinç tutması ve blokları kendi atölyesine taşıması Zeynep'in giderleridir.\n\n> ⚠️ **Sınavda dikkat:** Alıcının gider yükü \"TBK m. 232\" altında aranmaz; TBK m. 232 yalnız iki borcu ve devralma zamanını söyler. Giderler için TBK m. 211/1'e git.\n\n### 1.2 Devralma borcunun niteliği\n\"Alıcı satılanı almak zorunda mıdır, yoksa almak bir **külfet** midir?\" Bu tartışma doktrin bölümünde ayrıntılıdır. Sınav için pratik sonuç şu: Alıcı yalnız devralmada temerrüde düşerse (bedeli ödemiş ama malı almıyorsa) satıcı **alacaklı temerrüdü** hükümlerinden yararlanır (bkz. bölüm 8).\n\n## 2. Bedel belirtilmemişse (TBK m. 233)\n\n### 2.1 Ortalama piyasa fiyatı karinesi\nTBK m. 233/1: Alıcı, satış bedelini belirtmeksizin, malı alacağını **kesin olarak** bildirmişse satış, **ifa yeri ve zamanındaki ortalama piyasa fiyatı** üzerinden yapılmış sayılır. Şartlar:\n1. Alıcı bedeli belirtmemiştir.\n2. Alıcı malı alacağını **kesin** olarak bildirmiştir. \"Fiyatı öğreneyim, sonra karar veririm\" demek kesin bildirim değildir ve satışı kurmaz.\n3. Satış bu bildirimle kurulur; bedel, **ifa yerindeki ve ifa zamanındaki** ortalama piyasa fiyatıdır.\n\nHükmün özelliği şudur: Bedel kararlaştırılmamış gibi görünse de sözleşme geçerlidir; çünkü bedel durum ve koşullara göre belirlenebilir (TBK m. 207/3).\n\n> **Örnek:** Ayşe Hanım telefonla bir un fabrikasını arar: \"On ton un gönderin, kesin alıyorum.\" Fiyat konuşulmaz. Taraflar teslimin 10 Mart'ta fabrikada yapılacağını belirlemiştir. Bedel, 10 Mart'ta fabrikanın bulunduğu yerdeki ortalama piyasa fiyatıdır; fabrikanın sonradan düzenlediği fatura bedeli değildir.\n\n> ⚠️ **Sınavda dikkat:** Kanun metni \"ifa yeri ve zamanındaki\" der. Fiyatın sözleşmenin kurulduğu ya da faturanın düzenlendiği güne göre belirleneceğini söyleyen bir ifade kanun metnine aykırıdır. İfa zamanını olayda **ifanın yapılması gereken gün** olarak oku.\n\n### 2.2 Uygulamada: faturaya karşı piyasa fiyatı\nYargıtay'ın yerleşik uygulamasına göre taraflar arasında yazılı bir fiyat anlaşması yoksa ve mal teslim edilmişse, satıcının tek taraflı faturasındaki bedel kendiliğinden bağlayıcı olmaz; uyuşmazlıkta TBK m. 233/1 gereği ortalama piyasa fiyatı mahkemece araştırılır. Tacirler arasında faturaya sekiz gün içinde itiraz edilmemesinin ayrıca bir önemi vardır (TTK m. 21/2); bu ayrıntı ticaret hukukunun konusudur.\n\n### 2.3 Dara indirimi\nBedel satılanın **ağırlığına** göre hesaplanıyorsa \"darası indirilir\" (TBK m. 233/2). **Dara**, ambalajın (çuval, sandık, kap) ağırlığıdır; ödenecek bedel **net ağırlık** üzerinden hesaplanır. Bazı ticari mallarda ambalaj ağırlığının belli bir miktar ya da yüzde olarak indirilmesine veya bedelin daralı ağırlık üzerinden belirlenmesine ilişkin **ticari teamüller saklıdır** (TBK m. 233/3).\n\n> **Örnek:** Mehmet, 5.200 kg brüt ağırlıktaki ürünü ton başına 20.000 TL'den alır; ambalajın ağırlığı 200 kg'dır ve teamül yoktur. Net ağırlık 5.000 kg'dır; bedel 5 x 20.000 = 100.000 TL'dir.\n\n## 3. Muacceliyet ve faiz (TBK m. 234)\n\n### 3.1 Bedel ne zaman muaccel olur?\nTBK m. 234/1: Aksine sözleşme yoksa satılan **alıcının zilyetliğine girince** satış bedeli **muaccel** olur. **Muacceliyet**, alacaklının borcun ifasını isteyebildiği andır. Kural iki yönlüdür:\n- Sözleşmede **vade** varsa (ör. \"bedel teslimden 15 gün sonra ödenir\") vadeye uyulur.\n- Vade yoksa teslimle birlikte bedel istenebilir.\n\nYargıtay uygulamasında ispat yükü de buna göre dağılır: teslimin yapıldığını satıcı, teslimle muaccel olan bedeli ödediğini alıcı ispatlar. Bedeli ödediğini ileri süren alıcının bunu yasal delille kanıtlaması gerekir; aşağıdaki kararlardan birinde bu nokta belirleyici olmuştur.\n\n### 3.2 İhtarsız faiz hâlleri\nTemerrüt için genel kural, muaccel bir borçta alacaklının **ihtarıdır** (TBK m. 117/1). TBK m. 234/2 satışta bunu yumuşatır: Şu üç hâlden biri varsa **ayrıca bir ihtara gerek olmaksızın** satış bedeline faiz istenebilir:\n\n| Hâl | Anlamı |\n|---|---|\n| Faiz istenebileceği konusunda **teamül** var | Ticari âdet faizi gerektiriyor |\n| Alıcı maldan **ürün veya verim elde etme imkânına** sahip | Meyve bahçesi, kiracılı dükkân gibi |\n| **Belirli günün geçmesiyle** temerrüt gerçekleşti | Kesin vade günü var |\n\nÜçüncü hâl, TBK m. 117/2'nin satışa yansımasıdır: Borcun ifa edileceği gün birlikte belirlenmişse bu günün geçmesiyle borçlu ihtarsız temerrüde düşer.\n\n> ⚠️ **Sınavda dikkat:** İkinci hâlde kanun \"elde etme **imkânına sahip** olmayı\" arar. Alıcı bahçeyi hiç işletmemiş ya da kiraya vermemiş olsa bile imkânı varsa ihtarsız faiz istenebilir. Fiilen gelir elde etmiş olmak şart değildir.\n\nTemerrüt faizinin oranı sözleşmede kararlaştırılmamışsa faiz borcunun doğduğu tarihte yürürlükteki mevzuata göre belirlenir; sözleşmeyle kararlaştırılacak yıllık temerrüt faizi oranı, bu şekilde belirlenen oranın yüzde yüz fazlasını aşamaz (TBK m. 120/1-2).\n\n> 📌 **Kesin bilgi:** Satış bedelinin döviz cinsinden ya da dövize endeksli kararlaştırılabilmesi, 32 sayılı Türk Parasının Kıymetini Koruma Hakkında Karar ve ilgili Tebliğ'in düzenlemesine bağlıdır; bu düzenleme zaman zaman değişir. Konuyu çalışırken Karar ve Tebliğ'in güncel metnine ayrıca bak; bu notta kesin bir ayrıntı verilmemiştir.\n\n## 4. Alıcının temerrüdü: genel çerçeve\n\nAlıcının \"temerrüdü\" iki ayrı durumda karşımıza çıkar. Bunları karıştırmamak gerekir:\n\n| Temerrüt türü | Alıcının hareketi | Başvuru |\n|---|---|---|\n| Ödemede (borçlu) temerrüdü | Bedeli ödemez | TBK m. 235 ve TBK m. 236 |\n| Devralmada temerrüt | Mal sunulur, alıcı almaz | Alacaklı temerrüdü: TBK m. 106, TBK m. 107 ve TBK m. 108 |\n\n**Ödemede temerrüdün şartları** genel hükümlerden gelir: Borç muaccel olmalı ve alacaklı ihtarla borçluyu temerrüde düşürmelidir (TBK m. 117/1). Ödeme günü sözleşmeyle belirlenmişse bu günün geçmesiyle ihtarsız temerrüt gerçekleşir (TBK m. 117/2). Temerrüde düşen borçlu, kusursuzluğunu ispat etmedikçe geç ifadan doğan zararı giderir (TBK m. 118).\n\nKarşılıklı borç yükleyen sözleşmelerde temerrüde düşen tarafa **uygun süre verilmesi** esastır (TBK m. 123). Bazı hâllerde süre vermek gerekmez (TBK m. 124): Süre verilmesinin etkisiz olacağı anlaşılıyorsa, temerrüt sonucunda ifa alacaklı için yararsız kalmışsa ya da sözleşmeden ifanın artık kabul edilmeyeceği anlaşılıyorsa. Süre verilmesine rağmen ifa edilmezse (ya da süre gerekmiyorsa) alacaklı ifayı ve gecikme tazminatını isteyebilir; ya da ifadan vazgeçip borcun ifa edilmemesinden doğan zararı isteyebilir veya sözleşmeden dönebilir (TBK m. 125).\n\nİşte TBK m. 235 bu genel sistemi **satışa özgü olarak** değiştirir: Peşin satışta süre vermeden dönme imkânı tanır, veresiyede ise genel hükümdeki dönme yolunu daraltır.\n\n## 5. Peşin satışta dönme hakkı (TBK m. 235/1 ve 235/2)\n\n### 5.1 Şartlar\nTBK m. 235/1: Satılanın ancak bedel ödendikten sonra veya ödenme anında devredilmesi gereken durumlarda alıcı temerrüde düşerse satıcı, \"herhangi bir işlem gerekmeksizin\" satıştan dönebilir. Bunlara **peşin satış** diyoruz. Kural, edimlerin aynı anda ifa edilmesi olduğundan (TBK m. 207/2) bedelin teslim anında ödenmesi gereken satışlar bu hükmün kapsamındadır.\n\nSatıcı bu durumda alıcıya **ek süre vermek zorunda değildir.** Genel hükümdeki \"uygun süre verme\" aşaması (TBK m. 123) atlanır. Mantığı şudur: Satıcı, bedeli almadan malını vermeyecektir; alıcının ödememesi ilişkinin dengesini baştan bozmuştur.\n\n### 5.2 Bildirim külfeti\nDönme hakkını kullanmak isteyen satıcı, durumu **gecikmeksizin** alıcıya bildirmek zorundadır (TBK m. 235/2). Satıcı susar ve hiçbir şey söylemezse **sözleşmeden dönmüş sayılmaz.** Dönme, bildirimle kullanılan bir haktır.\n\n> **Örnek:** Galerici Ali, otomobili Mehmet'e 10 Nisan'da bedel peşin ödenerek teslim edilmek üzere satar. Mehmet 10 Nisan'da ne parayı getirir ne de aracı alır; ödeme günü belirli olduğundan bu günün geçmesiyle temerrüde düşer (TBK m. 117/2). Ali ek süre vermeden hemen ertesi gün (11 Nisan) Mehmet'e \"sözleşmeden dönüyorum\" diye bildirir. Dönme geçerlidir. Ali hiçbir şey söylemeseydi sözleşmeden dönmüş sayılmazdı.\n\n### 5.3 Sonucu\nDönme beyanıyla taraflar karşılıklı ifa yükümlülüğünden kurtulur ve daha önce ifa ettikleri edimleri geri isteyebilir (TBK m. 125/3'teki genel sonuç). Satıcının dönmenin yanında TBK m. 236'daki farkı da isteyip isteyemeyeceği doktrinde tartışmalıdır (bkz. bölüm 7.5).\n\n> ⚠️ **Sınavda dikkat (iki susma):** Satıcının temerrüdünde, zilyetliğin devri için belirli süre konulmuş ticari satışta alıcı **susarsa** devir isteminden vazgeçip zararının giderimini istemiş sayılır (TBK m. 212/2). Alıcının temerrüdünde ise satıcı susarsa **dönmüş sayılmaz** (TBK m. 235/2). İki hükmü aynı kefeye koyma.\n\n## 6. Veresiye satışta dönme hakkı (TBK m. 235/3)\n\n### 6.1 Kural\nSatılanın zilyetliği **bedel ödenmeden alıcıya devredilmişse** (veresiye ya da kredili satış) alıcının temerrüdü sebebiyle satıcının dönme hakkını kullanarak satılanı geri alması, \"bu hakkın sözleşmede açıkça saklı tutulmasına bağlıdır\" (TBK m. 235/3).\n\nYani satıcı malı teslim edip bedeli sonraya bırakmışsa ve sözleşmeye \"bedel ödenmezse dönerim\" kaydını koymamışsa, alıcı vadede ödemese bile satıcı **süre verse de** dönüp malı geri alamaz. Bu, genel hükümlerden (TBK m. 123, TBK m. 124 ve TBK m. 125) bilinçli bir sapmadır: Satıcı malını riske atmıştır, alıcının zilyetliği korunur.\n\nSatıcının elinde kalan haklar:\n- Bedelin ödenmesini ve gecikme tazminatını isteme (TBK m. 125/1).\n- Muacceliyet ve temerrüt şartları gerçekleşmişse faiz (TBK m. 234/2).\n\n> **Örnek:** Çiftçi Ayşe'ye bir biçerdöver 1.200.000 TL'ye satılıp teslim edilir. Bedelin teslimden 15 gün sonra ödeneceği yazılıdır, dönme hakkı saklı tutulmamıştır. Ayşe ödemez. Satıcı noterden 10 gün süre verip döndüğünü bildirse bile biçerdöveri geri isteyemez; yalnız bedelini ve faizini isteyebilir.\n\n### 6.2 Dönme hakkını saklı tutmak ile mülkiyeti saklı tutmak aynı şey değildir\n| Kurum | Dayanağı | Şekil |\n|---|---|---|\n| Dönme hakkını saklı tutma | TBK m. 235/3 | Sözleşmede açıkça yazılması yeter |\n| Mülkiyeti saklı tutma | TMK m. 764 | Resmî şekil, noterlikte özel sicile kayıt |\n\nTaşınır mülkiyeti zilyetliğin devriyle geçer (TMK m. 763/1). Satıcı mülkiyeti saklı tutmak istiyorsa TMK m. 764'e göre resmî şekilde sözleşme yapıp bunu alıcının yerleşim yeri noterliğindeki özel sicile kaydettirmelidir; hayvan satışlarında bu sözleşme yapılamaz. Dönme hakkının saklı tutulması ise TBK m. 235/3'e göre yalnız sözleşmede açıkça yapılmayı arar; kanun bunu TMK m. 764'teki şekle ve sicile bağlamaz. Yaygın kabule göre bu saklılık mülkiyeti saklı tutmanın sağladığı korumayı sağlamaz; üçüncü kişilere karşı ayni etki doğurmaz, alıcıya karşı iade talebi verir.\n\n### 6.3 Taşınmaz satışı\nTaşınır satışına ilişkin kurallar kıyas yoluyla taşınmaz satışında da uygulanır (TBK m. 246). Taşınmazı tapuda devredip bedeli tahsil edemeyen satıcının \"alıcı ödemedi\" diyerek tapu iptali ve tescil istemesi bu yüzden zorlaşır: Dönme hakkı sözleşmede açıkça saklı tutulmamışsa dönerek taşınmazı geri alması beklenemez. Aşağıdaki karar özetlerinden birinde bölge adliye mahkemesi, resmî senette dönme hakkına ilişkin kayıt bulunmadığını belirterek davayı reddetmiştir; Yargıtay tapu iptali ve tescil isteminin reddini yerinde bulmuş, ama ret sebebi olarak hile iddiasının ispatlanamamasını göstermiştir. Bedel istemi ise ayrıca değerlendirilir.\n\n### 6.4 Peşin ve veresiye satışın karşılaştırması\n| | Peşin satış | Veresiye satış |\n|---|---|---|\n| Zilyetlik | Bedelden sonra ya da bedelle aynı anda | Bedelden önce devredilmiş |\n| Dönme için ek süre | Gerekmez | Dönme hakkı saklı değilse dönülemez |\n| Dönme şartı | Alıcının temerrüdü ve gecikmeksizin bildirim | Hakkın sözleşmede açıkça saklı tutulması |\n\n> 💡 **Püf nokta:** Soruda \"mal teslim edildi mi?\" sorusunu sor. Teslim yoksa TBK m. 235/1-2 (peşin); teslim var, bedel ödenmemiş ve dönme hakkı saklı değilse TBK m. 235/3 (veresiye, dönülemez).\n\n### 6.5 Taksitli satışla karıştırma\nTBK m. 235 bu konuda bir **genel** hükümdür. Taksitle satışta alıcının temerrüdü ayrı düzenlenmiştir: peşinat ve taksitlere özel şartlar ve en az on beş günlük süre vardır (TBK m. 259 ve TBK m. 260). Ön ödemeli satışta ise TBK m. 271 uygulanır. Bu hükümler ayrı konuların içeriğidir; burada yalnız \"taksit varsa özel kuralı ara\" diye hatırla.\n\n## 7. Satıcının zararı (TBK m. 236)\n\n### 7.1 Genel ilke\nTBK m. 236/1: Borcunu ifa etmeyen alıcı, satıcının bu yüzden uğradığı zararı gidermekle yükümlüdür. İkinci ve üçüncü fıkralar, bedeli ödemede temerrüde düşen alıcı bakımından zararı **iki yöntemle** hesaplatır. İki yöntemde de zarar, sözleşme bedeli ile mal için başka yerden elde edilen ya da elde edilebilecek değer arasındaki farktır.\n\n### 7.2 Somut yöntem (TBK m. 236/2)\nSatıcı, malı **başkasına dürüstlük kurallarına uygun olarak** satar. Sözleşme bedeli ile bu **ikame satıştan** elde edilen bedel arasındaki fark zarardır.\n\n- Eski Borçlar Kanunu döneminde ikame satışın açık artırmayla yapılması aranırdı. Güncel metinde böyle bir şart yoktur; şart, satışın **dürüstlük kurallarına uygun** yapılmasıdır.\n- Satıcı malı makul bir piyasa araştırması yapmadan çok düşük fiyata (örneğin yakınına) satarsa bu satış dürüstlük kuralına uygun olmaz ve aradaki fahiş fark alıcıdan istenemez.\n\n> **Örnek:** Özel yapım bir makine 600.000 TL'ye satılır; alıcı ödemez. Satıcı makineyi, ilan vererek bulduğu başka bir işletmeye 540.000 TL'ye satar. Zarar 600.000 - 540.000 = 60.000 TL'dir.\n\n### 7.3 Soyut yöntem (TBK m. 236/3)\nSatılan **borsada kayıtlı** ya da **piyasa fiyatı bulunan** mallardan ise satıcı, ikame satış yapmaya **gerek kalmaksızın** sözleşme bedeli ile malın **belirlenmiş ödeme günündeki fiyatı** arasındaki farka göre hesaplanan zararı isteyebilir. Fiyat dava günündeki değil, **ödeme günündeki** fiyattır.\n\n> **Örnek:** Zeynep'e 80 ton buğday ton başına 10.000 TL'den satılmıştır (toplam 800.000 TL). Ödeme günü buğdayın piyasa fiyatı ton başına 9.000 TL'dir (toplam 720.000 TL). Satıcı hiç satış yapmasa da 800.000 - 720.000 = 80.000 TL'lik zararın giderilmesini isteyebilir.\n\n| Yöntem | Hangi mallarda? | Hesap |\n|---|---|---|\n| Somut (TBK m. 236/2) | Her mal | Sözleşme bedeli - ikame satış bedeli |\n| Soyut (TBK m. 236/3) | Borsada kayıtlı veya piyasa fiyatı olan mal | Sözleşme bedeli - ödeme günü fiyatı |\n\n### 7.4 Yargıtay uygulaması\nHukuk Genel Kurulu'nun bir kararında, alımdan vazgeçen alıcıya karşı satıcı peşinatı \"üretim kaybı\" zararına mahsup ettiğini ileri sürmüştür. Alıcının verdiği para bağlanma parası olduğundan (TBK m. 177) aksine sözleşme veya yerel âdet olmadıkça esas alacaktan düşülür; sözleşme ortadan kalkınca da geri istenebilir. Genel Kurul, ileri sürülen üretim kaybının TBK m. 236'daki zarar türleri kapsamında değerlendirilemeyeceğini ve ayrıca ispatlanamadığını belirterek alıcının iade istemini kabul eden direnme kararını onamıştır (bkz. karar özetleri).\n\n> ⚠️ **Sınavda dikkat:** Zararı daima bir **yönteme** bağla: \"Somut yöntemle ikame satış farkı\" ya da \"soyut yöntemle ödeme günü fiyat farkı\". Kanunda öngörülmeyen bir zarar kalemini (örneğin ispatlanmamış bir üretim kaybını) bu hükümler kapsamında istemek yetmez; satıcı zararı ispat etmek zorundadır.\n\n### 7.5 Dönme ile zarar ilişkisi\nPeşin satışta satıcı TBK m. 235/1'e göre döndükten sonra TBK m. 236'daki farkı da isteyebilir mi? Bu soru doktrinde iki görüşe bölünmüştür (doktrin bölümüne bak). Olay çözümlerinde bu tartışmalı noktaya dayanma; yalnız \"zarar hangi yöntemle hesaplanır\" sorusuna cevap ver.\n\n## 8. Yalnız devralmada temerrüt: alacaklı temerrüdü\n\nAlıcı bedeli ödediği hâlde sunulan malı hiçbir haklı sebep olmadan almıyorsa temerrüde düşmüş olur (TBK m. 106/1). Bu durumda satıcı:\n- **Tevdi** edebilir: Teslim edeceği şeyi mahkemenin belirleyeceği bir yere bırakarak borcundan kurtulur; **hasar ve giderler alıcıya aittir** (TBK m. 107/1). Ticari mallar hâkim kararı olmadan da bir ardiyeye tevdi edilebilir (TBK m. 107/2).\n- Mal tevdiye elverişli değilse, bozulabilirse ya da bakımı önemli gider gerektiriyorsa, alıcıya önceden ihtar etmek koşuluyla, hâkimin izniyle malı **açık artırma yoluyla sattırıp bedelini tevdi** edebilir (TBK m. 108/1). Borsada kayıtlı mallarda ya da piyasa fiyatı olanlarda açık artırma zorunlu değildir ve hâkim önceden ihtar şartını aramadan izin verebilir (TBK m. 108/2).\n- **Tacirler arasında** ayrıca TTK m. 23/1-b vardır: Alıcı mütemerrit olursa satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme satışın açık artırmayla ya da yetkilendirilen bir kişi aracılığıyla yapılmasına karar verir. Satış giderleri çıkarıldıktan sonra artan para, satıcının takas hakkı saklı kalmak üzere alıcı adına bankaya (banka yoksa notere) bırakılır ve durum hemen alıcıya bildirilir.\n\n> **Örnek:** Çimento fabrikası, tacir müteahhide sattığı çimentoyu belirlenen gün hazır tutar; müteahhit haklı sebep göstermeden gelip almaz. Fabrika hâkim kararı beklemeden çimentoyu bir ardiyeye tevdi edebilir; ardiye gideri ve malın uğrayacağı hasar müteahhide aittir.\n\n## 9. Satıcı temerrüdü ile alıcı temerrüdünün karşılaştırılması\n\n| | Satıcının temerrüdü | Alıcının temerrüdü |\n|---|---|---|\n| Hüküm | TBK m. 212 ve TBK m. 213 | TBK m. 235 ve TBK m. 236 |\n| Somut hesap | Sözleşme bedeli ile ikame alım bedeli | Sözleşme bedeli ile ikame satış bedeli |\n| Soyut hesap | Belirlenmiş ifa günündeki piyasa fiyatı | Belirlenmiş ödeme günündeki fiyat |\n| Susma | Belirli süreli ticari satışta alıcı susarsa ifadan vazgeçmiş sayılır | Peşin satışta satıcı susarsa dönmüş sayılmaz |\n\nSimetri açıktır: TBK m. 213'te alıcı bir başkasını satın alır, TBK m. 236'da satıcı malı başkasına satar. Ama susmanın sonucu simetrik değildir.\n\n## 10. Denetim şeması\n\n1. **Sözleşme:** Satış kurulmuş mu? Bedel belirli ya da belirlenebilir mi (TBK m. 207/3)? Belirtilmemişse alıcı kesin bildirimde bulundu mu (TBK m. 233/1)?\n2. **Bedelin miktarı:** Fiyat ifa yeri ve zamanındaki ortalama piyasa fiyatı mı? Ağırlığa göre ise dara düşüldü mü?\n3. **Muacceliyet:** Vade var mı? Yoksa satılan alıcının zilyetliğine girdi mi (TBK m. 234/1)?\n4. **Faiz:** Teamül, verim imkânı ya da belirli günün geçmesi var mı? Yoksa ihtar şart.\n5. **Alıcı temerrüde düştü mü?** Ödemede mi, devralmada mı?\n6. **Peşin mi veresiye mi?** Peşinse bildirimle dön (TBK m. 235/1-2). Veresiyeyse dönme hakkı sözleşmede açıkça saklı mı (TBK m. 235/3)?\n7. **Zarar:** Piyasa fiyatı olan mal mı (soyut, TBK m. 236/3)? Değilse dürüstlük kurallarına uygun ikame satış var mı (somut, TBK m. 236/2)?\n8. **Yalnız devralma sorunu mu?** Tevdi (TBK m. 107), sattırma (TBK m. 108), tacirler arasında TTK m. 23/1-b.",
+  "critical_md": "- 📌 Alıcının iki asli borcu: **bedeli ödemek** ve kendisine sunulan **satılanı devralmak** (TBK m. 232/1). Aksine âdet ya da anlaşma yoksa satılan **hemen** devralınır (TBK m. 232/2).\n- 📌 Giderler TBK m. 211/1'dedir: **ölçme ve tartma satıcıya**; **devralmak üzere yapılan giderler ve ifa yerinden başka yere taşıma alıcıya** aittir. TBK m. 232'de gider hükmü aramayın.\n- 📌 Bedel belirtilmeden **kesin sipariş** verilmişse satış **ifa yeri ve zamanındaki ortalama piyasa fiyatı** üzerinden yapılmış sayılır (TBK m. 233/1). \"Kesin\" bildirim şarttır.\n- ⚠️ TBK m. 233/1'de fiyat **ifa yeri ve zamanına** göre belirlenir; sözleşmenin kurulduğu ya da fatura düzenlendiği güne göre değil.\n- 📌 Bedel ağırlığa göre hesaplanıyorsa **dara indirilir** (TBK m. 233/2); ambalajla ilgili ticari teamüller saklıdır (TBK m. 233/3).\n- 📌 Aksine sözleşme yoksa bedel, satılan **alıcının zilyetliğine girince muaccel** olur (TBK m. 234/1).\n- 📌 **İhtarsız faiz:** faiz teamülü, alıcının maldan **ürün ya da verim elde etme imkânı**, belirli günün geçmesiyle temerrüt (TBK m. 234/2).\n- ⚠️ Verim hâlinde **fiilen gelir elde etmek aranmaz**; elde etme **imkânı** yeter.\n- 📌 **Peşin satışta** alıcı temerrüde düşerse satıcı herhangi bir işlem (süre verme) gerekmeksizin dönebilir; ama durumu **gecikmeksizin bildirmek zorundadır** (TBK m. 235/1-2).\n- ⚠️ Peşin satışta satıcı **susarsa dönmüş sayılmaz**. Bu, satıcının temerrüdünde zilyetliğin devri için belirli süre konulmuş ticari satışta alıcının susmasının sonucunun (TBK m. 212/2) tersidir.\n- 📌 **Veresiyede** (zilyetlik bedelden önce devredilmiş) satıcının dönüp malı geri alması **ancak dönme hakkının sözleşmede açıkça saklı tutulmasına** bağlıdır (TBK m. 235/3). Saklı değilse süre verse de dönemez.\n- ⚠️ Dönme hakkını saklı tutmak ile mülkiyeti saklı tutmak farklıdır: ikincisi TMK m. 764'te resmî şekil ve noterlikte özel sicile kayıt ister.\n- 📌 Zarar: **somut** yöntemde sözleşme bedeli ile dürüstlük kurallarına uygun **ikame satış** bedeli farkı (TBK m. 236/2); **soyut** yöntemde borsada kayıtlı ya da piyasa fiyatı olan malda **ödeme günü fiyatı** ile fark (TBK m. 236/3).\n- ⚠️ İkame satış için **açık artırma şartı yoktur**; şart satışın dürüstlük kurallarına uygun yapılmasıdır.\n- 📌 Alıcı yalnız devralmada temerrüde düşerse tevdi (TBK m. 107), hâkim izniyle sattırma (TBK m. 108) ve tacirler arasında TTK m. 23/1-b işler.",
+  "doctrine_md": "### 1. TBK m. 236 ile sözleşmeden dönme ilişkisi\nTBK m. 236, satıcının uğradığı zararı sözleşme bedeli ile ikame satış bedeli ya da piyasa fiyatı arasındaki fark olarak hesaplatır. Bu, borcun gereği gibi ifa edilmiş olsaydı elde edilecek durumu gösterir; yani **müspet zarar** (ifa menfaati) niteliğindedir. Tartışma, bu tazminatın satıcı sözleşmeden **döndüğünde** de istenip istenemeyeceğindedir.\n\n**Birinci görüş:** Genel hükümlere göre (TBK m. 125/2 ve TBK m. 125/3) satıcı ifadan vazgeçip müspet zararını isteyebilir; sözleşmeden dönerse yalnız sözleşmenin hükümsüz kalmasından doğan (menfi) zararı isteyebilir. TBK m. 236 bu sebeple satıcının sözleşmeden döndüğü hâllere değil, aynen ifadan vazgeçip müspet zarar istediği hâllere uygulanır.\n\n**İkinci görüş:** Ticari hayatta peşin satışta alıcı temerrüde düşünce satıcı TBK m. 235/1'e göre döner ve hemen ardından malı başkasına satıp farkı ister. TBK m. 236 bu amaçla genel hükümlerden ayrılan **özel bir tazminat düzenidir**; satıcı döndükten sonra da fark hesabına göre zararını isteyebilir.\n\nSınavda bu tartışma sorulursa iki görüşü gerekçeleriyle ver, ardından olaydaki hesabı (somut mu soyut mu) yap. Hangi görüşü benimsediğin, zararın hesaplama yöntemini değiştirmez.\n\n### 2. Devralma borcunun niteliği (TBK m. 232/1)\n**Külfet görüşü:** Alıcının malı teslim alması kural olarak bir borç değil, **alacaklı külfetidir.** Alıcı almazsa yalnız alacaklı temerrüdü hükümleri (TBK m. 106, TBK m. 107 ve TBK m. 108) uygulanır; borçlu temerrüdü hükümleri ancak satıcının maldan kurtulmakta özel bir yararı varsa devreye girer.\n\n**Gerçek borç görüşü (baskın görüş):** TBK m. 232/1 alıcının satılanı devralmakla **\"yükümlü\"** olduğunu açıkça söyler. Bu nedenle devralma satış sözleşmesinde gerçek bir **yan edim yükümlülüğüdür.** Alıcı hem bedeli ödemez hem malı almazsa doğrudan borçlu temerrüdüne düşer; yalnız malı almaz (ama bedeli öderse) satıcı, depolama ve bakım gibi zararları için TBK m. 112'ye dayanabilir.\n\nİki görüşün pratik farkı, devralmama yüzünden uğranılan zararın hangi hükme göre isteneceğindedir. Her iki görüşte de satıcı tevdi ve sattırma yollarına (TBK m. 107 ve TBK m. 108) başvurabilir; bu nedenle olay sorularında bu yollar tartışmasız cevaptır.",
+  "glossary": [
+   {
+    "term": "Peşin satış",
+    "definition": "Satılanın ancak bedel ödendikten sonra ya da ödenme anında devredilmesi gereken satış. Alıcının temerrüdünde satıcı ek süre vermeden, bildirimle dönebilir (TBK m. 235/1-2)."
+   },
+   {
+    "term": "Veresiye (kredili) satış",
+    "definition": "Satılanın zilyetliğinin bedel ödenmeden alıcıya devredildiği satış. Satıcı, dönme hakkını sözleşmede açıkça saklı tutmamışsa alıcının temerrüdünde dönüp malı geri alamaz (TBK m. 235/3)."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Alacaklının borcun ifasını isteyebildiği an. Aksine sözleşme yoksa satış bedeli, satılan alıcının zilyetliğine girince muaccel olur (TBK m. 234/1)."
+   },
+   {
+    "term": "Ortalama piyasa fiyatı",
+    "definition": "Bedeli belirtilmeden kesin olarak sipariş edilen malın, ifa yerindeki ve ifa zamanındaki ortalama fiyatı; satış bu fiyat üzerinden yapılmış sayılır (TBK m. 233/1)."
+   },
+   {
+    "term": "Dara",
+    "definition": "Ambalajın (çuval, sandık, kap) ağırlığı. Bedel ağırlığa göre hesaplanıyorsa dara indirilir, net ağırlık esas alınır (TBK m. 233/2)."
+   },
+   {
+    "term": "Mütemerrit alıcı",
+    "definition": "Bedeli ödemesi gereken zamanda ödemeyen ve temerrüt şartları gerçekleşmiş olan alıcı. Satıcının dönme ve zarar hakları bu duruma bağlanır (TBK m. 235 ve TBK m. 236)."
+   },
+   {
+    "term": "Dönme hakkının saklı tutulması",
+    "definition": "Veresiye satışta satıcının, alıcı ödemezse sözleşmeden dönüp malı geri alabilmesi için sözleşmeye açıkça koyduğu kayıt (TBK m. 235/3). Mülkiyeti saklı tutmadan farklıdır."
+   },
+   {
+    "term": "Mülkiyeti saklı tutma",
+    "definition": "Devredilen malın mülkiyetinin bedel ödenene kadar satıcıda kalması. Resmî şekilde sözleşme ve alıcının yerleşim yeri noterliğindeki özel sicile kayıt ister (TMK m. 764)."
+   },
+   {
+    "term": "İkame satış",
+    "definition": "Alıcının temerrüdü üzerine satıcının malı dürüstlük kurallarına uygun olarak başkasına satması; elde edilen bedel somut zarar hesabının temelidir (TBK m. 236/2)."
+   },
+   {
+    "term": "Somut zarar hesabı",
+    "definition": "Sözleşme bedeli ile ikame satıştan elde edilen bedel arasındaki farka göre hesaplanan zarar (TBK m. 236/2)."
+   },
+   {
+    "term": "Soyut zarar hesabı",
+    "definition": "Borsada kayıtlı ya da piyasa fiyatı olan malda, ikame satış gerekmeden sözleşme bedeli ile belirlenmiş ödeme günündeki fiyat arasındaki farka göre hesaplanan zarar (TBK m. 236/3)."
+   },
+   {
+    "term": "Alacaklı temerrüdü",
+    "definition": "Edimi gereği gibi önerilen alacaklının haklı sebep olmadan onu kabulden kaçınması (TBK m. 106). Borçlu hasar ve giderler alacaklıya ait olmak üzere tevdi edebilir (TBK m. 107)."
+   },
+   {
+    "term": "Tevdi",
+    "definition": "Borçlunun teslim edeceği şeyi, hasar ve giderleri alacaklıya ait olmak üzere, hâkimin belirlediği yere (ticari mallarda ardiyeye) bırakarak borcundan kurtulması (TBK m. 107)."
+   },
+   {
+    "term": "Bağlanma parası",
+    "definition": "Sözleşme yapılırken verilen ve cayma parası olmayıp sözleşmenin yapıldığına kanıt sayılan para. Aksine sözleşme veya yerel âdet olmadıkça esas alacaktan düşülür (TBK m. 177)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "207",
+   "official_text": "MADDE 207- Satış sözleşmesi, satıcının, satılanın zilyetlik ve mülkiyetini alıcıya devretme, alıcının ise buna karşılık bir bedel ödeme borcunu üstlendiği sözleşmedir.\nSözleşme ile aksi kararlaştırılmadıkça veya aksine bir âdet bulunmadıkça, satıcı ve alıcı borçlarını aynı anda ifa etmekle yükümlüdürler.\nDurum ve koşullara göre belirlenmesi mümkün olan bedel, kararlaştırılmış bedel hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "211",
+   "official_text": "MADDE 211- Aksine sözleşme veya âdet yoksa, ölçme ve tartma gibi devir giderleri satıcıya, satılanı devralmak üzere yapılan giderler ve satılanın ifa yerinden başka yere taşınması gerektiğinde, taşıma giderleri alıcıya aittir.\nGidersiz devir kararlaştırılmışsa, satıcı taşıma giderlerini üstlenmiş sayılır.\nLiman ve gümrük giderleri olmaksızın devir kararlaştırılmışsa satıcı, dış satım, transit ve dış alım vergilerini üstlenmiş sayılır; ancak satılanın alıcı tarafından devralındığı sırada ödenmiş olan tüketim vergilerini üstlenmiş sayılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "212",
+   "official_text": "MADDE 212- Satıcının temerrüdü hâlinde, borçlunun temerrüdüne ilişkin genel hükümler uygulanır.\nZilyetliğin devri için belirli bir süre konulmuş olan ticari satışlarda, satıcı temerrüde düşerse alıcının, devir isteminden vazgeçerek borcun ifa edilmemesinden doğan zararının giderilmesini istediği kabul edilir.\nAlıcı, satılanın devredilmesini isteme niyetinde ise, belirlenen sürenin bitiminde bunu satıcıya hemen bildirmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "232",
+   "official_text": "MADDE 232- Alıcı, satış sözleşmesinde kararlaştırılmış olduğu biçimde satış bedelini ödemek ve kendisine sunulan satılanı devralmakla yükümlüdür.\nAksine yerel âdet veya anlaşma yoksa, satılanın hemen devralınması gereklidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "233",
+   "official_text": "MADDE 233- Alıcı, satış bedelini belirtmeksizin, malı alacağını kesin olarak bildirmişse satış, ifa yeri ve zamanındaki ortalama piyasa fiyatı üzerinden yapılmış sayılır.\nSatış bedeli, satılanın ağırlığına göre hesaplanıyorsa, darası indirilir.\nBazı ticari malların satışında, daralı ağırlıktan miktar olarak ya da yüzde hesabıyla bir indirim yapılmasına veya bedelin, daralı ağırlık üzerinden belirlenmesine ilişkin ticari teamüller saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "234",
+   "official_text": "MADDE 234- Aksine sözleşme yoksa, satılan alıcının zilyetliğine girince satış bedeli muaccel olur.\nFaiz istenebileceği konusunda bir teamül varsa veya alıcı maldan ürün ya da diğer verimler elde etme imkânına sahip ise ya da belirli günün geçmesiyle temerrüdün gerçekleşmesi durumunda, ayrıca bir ihtara gerek olmaksızın satış bedeline faiz istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "235",
+   "official_text": "MADDE 235- Satılanın, ancak satış bedeli ödendikten sonra veya ödenme anında devredilmesi gereken durumlarda alıcı temerrüde düşerse satıcı, herhangi bir işlem gerekmeksizin satıştan dönebilir.\nBu hakkını kullanmak isteyen satıcı, durumu gecikmeksizin alıcıya bildirmek zorundadır.\nSatılanın zilyetliği satış bedeli ödenmeden alıcıya devredilmişse, alıcının temerrüdü sebebiyle satıcının dönme hakkını kullanarak satılanı geri alması, bu hakkın sözleşmede açıkça saklı tutulmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "236",
+   "official_text": "MADDE 236- Borcunu ifa etmeyen alıcı, satıcının bu yüzden uğradığı zararı gidermekle yükümlüdür.\nSatıcı, satış bedelini ödemede temerrüde düşmüş olan alıcıdan, bu bedel ile satılanın başkasına dürüstlük kurallarına uygun olarak satışından elde ettiği bedel arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.\nSatılan, borsada kayıtlı veya piyasa fiyatı bulunan mallardan ise satıcı, böyle bir satışa gerek kalmaksızın alıcıdan, satış bedeli ile malın belirlenmiş ödeme günündeki fiyatı arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "106",
+   "official_text": "MADDE 106- Yapma veya verme edimi gereği gibi kendisine önerilen alacaklı, haklı bir sebep olmaksızın onu kabulden veya borçlunun borcunu ifa edebilmesi için kendisi tarafından yapılması gereken hazırlık fiillerini yapmaktan kaçınırsa, temerrüde düşmüş olur.\nAlacaklı, müteselsil borçlulardan birine karşı temerrüde düşerse, diğerlerine karşı da temerrüde düşmüş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "107",
+   "official_text": "MADDE 107- Alacaklının temerrüde düşmesi durumunda borçlu, hasar ve giderleri alacaklıya ait olmak üzere, teslim edeceği şeyi tevdi ederek borcundan kurtulabilir.\nTevdi yerini, ifa yerindeki hâkim belirler. Bununla birlikte ticari mallar, hâkim kararı olmadan da bir ardiyeye tevdi edilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "108",
+   "official_text": "MADDE 108- Sözleşmenin konusu olan şeyin niteliği veya işin özelliği tevdi edilmesine uygun düşmez veya teslim edilecek şey bozulabilir ya da bakımı, korunması veya tevdi edilmesi önemli bir gideri gerektirir ise, borçlu, alacaklıya önceden ihtarda bulunması koşuluyla, hâkimin izniyle onu açık artırma yoluyla sattırıp bedelini tevdi edebilir.\nTeslim edilecek şey, borsada kayıtlıysa veya piyasa fiyatı varsa ya da yapılacak gidere oranla değeri az ise, satışın açık artırma yoluyla yapılması zorunlu olmadığı gibi, hâkim, önceden ihtarda bulunma koşulunu aramaksızın satışa izin verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "118",
+   "official_text": "MADDE 118- Temerrüde düşen borçlu, temerrüde düşmekte kusuru olmadığını ispat etmedikçe, borcun geç ifasından dolayı alacaklının uğradığı zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "120",
+   "official_text": "MADDE 120- Uygulanacak yıllık temerrüt faizi oranı, sözleşmede kararlaştırılmamışsa, faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz.\nAkdî faiz oranı kararlaştırılmakla birlikte sözleşmede temerrüt faizi kararlaştırılmamışsa ve yıllık akdî faiz oranı da birinci fıkrada belirtilen faiz oranından fazla ise, temerrüt faizi oranı hakkında akdî faiz oranı geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "123",
+   "official_text": "MADDE 123- Karşılıklı borç yükleyen sözleşmelerde, taraflardan biri temerrüde düştüğü takdirde diğeri, borcun ifa edilmesi için uygun bir süre verebilir veya uygun bir süre verilmesini hâkimden isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "124",
+   "official_text": "MADDE 124- Aşağıdaki durumlarda süre verilmesine gerek yoktur:\n1. Borçlunun içinde bulunduğu durumdan veya tutumundan süre verilmesinin etkisiz olacağı anlaşılıyorsa.\n2. Borçlunun temerrüdü sonucunda borcun ifası alacaklı için yararsız kalmışsa.\n3. Borcun ifasının, belirli bir zamanda veya belirli bir süre içinde gerçekleşmemesi üzerine, ifanın artık kabul edilmeyeceği sözleşmeden anlaşılıyorsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "177",
+   "official_text": "MADDE 177- Sözleşme yapılırken bir kimsenin vermiş olduğu bir miktar para, cayma parası olarak değil sözleşmenin yapıldığına kanıt olarak verilmiş sayılır.\nAksine sözleşme veya yerel âdet olmadıkça, bağlanma parası esas alacaktan düşülür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "213",
+   "official_text": "MADDE 213- Borcunu ifa etmeyen satıcı, alıcının bu yüzden uğradığı zararı gidermekle yükümlüdür.\nSatıcı borcunu ifa etmezse alıcı, satış bedeli ile kendisine devredilmeyen satılanın yerine, bir başkasını satın almak için dürüstlük kurallarına uygun olarak ödediği bedel arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.\nSatılan, borsada kayıtlı veya piyasa fiyatı bulunan mallardan ise alıcı, onun yerine bir başkasını satın alma zorunda olmaksızın, satış bedeli ile belirlenmiş ifa günündeki piyasa fiyatı arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "246",
+   "official_text": "MADDE 246- Taşınır satışına ilişkin kurallar, kıyas yoluyla taşınmaz satışında da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "259",
+   "official_text": "MADDE 259- Alıcı peşinatı ödemede temerrüde düşerse satıcı, sadece peşinatı isteyebilir veya sözleşmeden dönebilir.\nAlıcı taksitleri ödemede temerrüde düşerse satıcı, muaccel olmuş taksitlerin veya geri kalan satış bedelinin tamamının bir defada ödenmesini isteyebilir ya da sözleşmeden dönebilir. Satıcının geri kalan satış bedelinin tamamını isteyebilmesi veya sözleşmeden dönebilmesi, ancak bu hakkı açık biçimde saklı tutmuş olmasına ve alıcının kararlaştırılan satış bedelinin en az onda birini oluşturan ve birbirini izleyen en az iki taksidi veya en az dörtte birini oluşturan bir taksidi ya da en son taksidi ödemede temerrüde düşmüş olmasına bağlıdır. Ancak, satıcının dönme dolayısıyla isteyebileceği miktar, ödenmiş olan taksitler tutarına eşit veya daha fazla ise satıcı sözleşmeden dönemez.\nSatıcı, satış bedelinin geri kalan kısmının tamamen ödenmesini isteme veya sözleşmeden dönme haklarını kullanmadan önce, alıcıya en az onbeş günlük bir süre tanımak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "260",
+   "official_text": "MADDE 260- Satıcı, alıcının taksitleri ödemede temerrüde düşmesi sebebiyle satılanın alıcıya devrinden sonra sözleşmeden dönerse, her iki taraf aldığını geri vermekle yükümlüdür. Satıcı, ayrıca hakkaniyete uygun bir kullanım bedeli ve satılanın olağandışı kullanılması sebebiyle değerinin azalması hâlinde tazminat da isteyebilir. Ancak satıcı, sözleşme zamanında ifa edilmiş olsaydı elde edecek olduğundan fazlasını isteyemez.\nSatıcı, alıcının peşinatı ödemede temerrüde düşmesi yüzünden satılanın devrinden önce sözleşmeden dönerse, alıcıdan sadece ödenmeyen peşinat üzerinden, sözleşmeden döndüğü tarihe kadar işleyecek yasal faiz ile sözleşmenin kurulmasından sonra, satılanın uğramış olduğu değer kaybı sebebiyle tazminat isteyebilir. Ceza koşulu kararlaştırılmışsa, peşin satış bedelinin yüzde onunu aşamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "271",
+   "official_text": "MADDE 271- Alıcı bir veya daha çok ön ödemede temerrüde düşerse satıcı, ancak vadesi gelmiş olan ödemeleri isteyebilir. Bununla birlikte, toplam alacağın en az onda birini oluşturan ve birbirini izleyen iki ön ödemenin veya toplam alacağın en az dörtte birini oluşturan bir tek ön ödemenin ya da sonuncu ön ödemenin vadesi gelmişse satıcı, ayrıca alıcıya tanıyacağı bir aylık ödeme süresinin geçmesinden sonra sözleşmeden dönme hakkına sahip olur.\nSatıcı, ödeme süresi bir yıl veya daha az olan sözleşmeden dönerse, 260 ıncı maddenin ikinci fıkrası hükmü kıyas yoluyla uygulanır. Süresi bir yılı aşan sözleşmelerde satıcı, ancak 269 uncu maddenin ikinci fıkrasında öngörülen cayma parasını ve alıcıya ödenmesi gereken ortalama banka mevduat faizini aşan zararlarının giderilmesini isteyebilir.\nBir yıldan daha uzun süreli sözleşmelerde temerrüde düşmüş olan alıcının malın devrini istemesi hâlinde satıcı, yasal anapara faizi ile birlikte, devir isteminden sonra malın değerinde oluşacak eksilmelerin giderilmesini isteyebilir. Ceza koşulu öngörülmüşse miktarı, satış bedelinin yüzde onunu geçemez.\nSatılanın devredilmiş olduğu hâllerde, dönme konusunda 260 ıncı maddenin birinci fıkrası hükmü uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "23",
+   "official_text": "5. Ticari satış ve mal değişimi\nMADDE 23- (1) Bu maddedeki özel hükümler saklı kalmak şartıyla, tacirler arasındaki satış ve mal değişimlerinde de Türk Borçlar Kanununun satış sözleşmesi ile mal değişim sözleşmesine ilişkin hükümleri uygulanır.\na) Sözleşmenin niteliğine, tarafların amacına ve malın cinsine göre, satış sözleşmesinin kısım kısım yerine getirilmesi mümkün ise veya bu şartların bulunmamasına rağmen alıcı, çekince ileri sürmeksizin kısmi teslimi kabul etmişse; sözleşmenin bir kısmının yerine getirilmemesi durumunda alıcı haklarını sadece teslim edilmemiş olan kısım hakkında kullanabilir. Ancak, o kısmın teslim edilmemesi dolayısıyla sözleşmeden beklenen yararın elde edilmesi veya izlenen amaca ulaşılması imkânı ortadan kalkıyor veya zayıflıyorsa ya da durumdan ve şartlardan, sözleşmenin kalan kısmının tam veya gereği gibi yerine getirilemeyeceği anlaşılıyorsa alıcı sözleşmeyi feshedebilir.\nb) Alıcı mütemerrit olduğu takdirde satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme, satışın açık artırma yoluyla veya bu işle yetkilendirilen bir kişi aracılığıyla yapılmasına karar verir. Satıcı isterse satış için yetkilendirilen kişi, satışa çıkarılacak malın niteliklerini bir uzmana tespit ettirir. Satış giderleri satış bedelinden çıkarıldıktan sonra artan para, satıcının takas hakkı saklı kalmak şartıyla, satıcı tarafından alıcı adına bir bankaya ve banka bulunmadığı takdirde notere bırakılır ve durum hemen alıcıya ihbar edilir.\nc) Malın ayıplı olduğu teslim sırasında açıkça belli ise alıcı iki gün içinde durumu satıcıya ihbar etmelidir. Açıkça belli değilse alıcı malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve bu inceleme sonucunda malın ayıplı olduğu ortaya çıkarsa, haklarını korumak için durumu bu süre içinde satıcıya ihbarla yükümlüdür. Diğer durumlarda, Türk Borçlar Kanununun 223 üncü maddesinin ikinci fıkrası uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "21",
+   "official_text": "3. Fatura ve teyit mektubu\nMADDE 21- (1) Ticari işletmesi bağlamında bir mal satmış, üretmiş, bir iş görmüş veya bir menfaat sağlamış olan tacirden, diğer taraf, kendisine bir fatura verilmesini ve bedeli ödenmiş ise bunun da faturada gösterilmesini isteyebilir.\n(2) Bir fatura alan kişi aldığı tarihten itibaren sekiz gün içinde, faturanın içeriği hakkında bir itirazda bulunmamışsa bu içeriği kabul etmiş sayılır.\n(3) Telefonla, telgrafla, herhangi bir iletişim veya bilişim aracıyla veya diğer bir teknik araçla ya da sözlü olarak kurulan sözleşmelerle yapılan açıklamaların içeriğini doğrulayan bir yazıyı alan kişi, bunu aldığı tarihten itibaren sekiz gün içinde itirazda bulunmamışsa, söz konusu teyit mektubunun yapılan sözleşmeye veya açıklamalara uygun olduğunu kabul etmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "763",
+   "official_text": "1. Zilyetliğin devri\nMadde 763- Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir.\nBir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kimse, devredenin mülkiyeti devir yetkisi olmasa bile, zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde o şeyin maliki olur.\n2. Mülkiyetin saklı tutulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "764",
+   "official_text": "a. Genel olarak\nMadde 764- Başkasına devredilen bir malın mülkiyetinin saklı tutulması kaydı, ancak resmî şekilde yapılacak sözleşmenin devralanın yerleşim yeri noterliğinde özel siciline kaydedilmesiyle geçerli olur.\nHayvan satışlarında mülkiyeti saklı tutma sözleşmesi yapılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2019/722",
+   "karar_no": "2022/297",
+   "decision_date": "10.03.2022",
+   "summary_md": "Davacı alıcı şirket, davalı satıcı şirketten 450.000 Euro bedelli ikinci el bir streç film makinesi almak üzere anlaşmış ve 50.000 Euro karşılığı 137.200 TL'yi peşinat olarak havale etmiştir. Alımdan vazgeçtiğini ihtarnameyle bildirip parayı geri istemiş, ilamsız takip başlatmış ve itiraz üzerine itirazın iptali davası açmıştır. Satıcı, makinenin üretimden çekilmesi yüzünden zarara uğradığını ileri sürerek peşinatı zararına mahsup ettiğini savunmuştur. İlk derece mahkemesi davayı reddetmiş; bölge adliye mahkemesi ödenen paranın TBK m. 177 anlamında bağlanma parası olduğunu, satıcının zararını da ispatlayamadığını belirterek davayı kabul etmiştir. Özel Daire, satıcının zarar savunmasının TBK m. 236 çerçevesinde incelenmesi gerektiğini belirterek bozmuş, bölge adliye mahkemesi direnmiş, Hukuk Genel Kurulu direnme kararını oybirliğiyle onamıştır. Gerekçeye göre bağlanma parası, aksine sözleşme veya yerel âdet yoksa esas alacaktan düşülür ve sözleşme ortadan kalkarsa geri istenebilir. TBK m. 236 alıcının ödeme temerrüdünde satıcının zararını somut yöntemle (ikame satıştan elde edilen bedelle fark) ya da soyut yöntemle (piyasa fiyatıyla fark) hesaplatır; direnme kararına göre satıcı makineyi başkasına sattığını ileri sürmemiş, piyasa fiyatı farkına da dayanmamıştır. Genel Kurul, ileri sürülen üretim kaybının bu zarar türleri kapsamında değerlendirilemeyeceğini ve ayrıca ispatlanamadığını belirtmiştir. Konuya katkısı: TBK m. 236'daki iki hesap yönteminin sınırını ve zararın ispat yükünü gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=770017100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "1. Hukuk Dairesi",
+   "esas_no": "2024/5797",
+   "karar_no": "2025/5772",
+   "decision_date": "08.12.2025",
+   "summary_md": "Davacı satıcı, malik olduğu üç bağımsız bölümü 17.08.2020'de tapuda davalıya satış yoluyla devretmiş; 1.600.000 TL olan bedelin ödenmediğini ve devrin hileyle yapıldığını ileri sürerek tapu iptali ve tescil, olmadığı takdirde taşınmazların bedelinin tahsilini istemiştir. Davalı, 1.300.000 TL bedelle aldığını, 140.000 TL'yi banka dekontuyla, kalanı elden ödediğini savunmuştur. İlk derece mahkemesi taşınmazların değerini belirleyip tapu iptal ve tescile karar vermiştir. Bölge adliye mahkemesi, hile iddiasının ispatlanamadığını belirtmiş, ayrıca TBK m. 246 yoluyla TBK m. 235 hükmüne dayanarak resmî senette dönme hakkına ilişkin bir kayıt bulunmadığını gerekçelendirip davayı tümden reddetmiştir. Yargıtay 1. Hukuk Dairesi, hile iddiası ispatlanamadığı için tapu iptali ve tescil isteminin reddini yerinde bulmuş; ancak terditli bedel istemi bakımından davalının 140.000 TL dekont dışındaki ödemeyi yasal delille ispatlaması gerektiğini, bu konuda yeterli inceleme yapılmadığını belirterek bölge adliye mahkemesi kararını oybirliğiyle bozmuştur. Konuya katkısı: bedeli ödenmediği ileri sürülen taşınmaz satışında bedel istemi ile tapunun geri alınması isteminin ayrı değerlendirildiğini ve bedeli ödediğini söyleyen alıcının bunu ispat etmesi gerektiğini gösterir. TBK m. 235 gerekçesi kararda bölge adliye mahkemesinin değerlendirmesi olarak yer almaktadır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1190443500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2022/8575",
+   "karar_no": "2023/1193",
+   "decision_date": "02.05.2023",
+   "summary_md": "Davacı satıcı, bir gençlik kampı için 20 kalem mefruşat ürünü teklif etmiş (KDV dahil 258.118,92 TL), ürünleri 01.08.2017'de kampta görevli bir çalışana imza karşılığı teslim ettiğini, bedelin ödenmediğini ileri sürerek başlattığı takibe yapılan itirazın iptalini istemiştir. Davalı idare, taraf sıfatı bulunmadığını ve onaylanmış bir tutar olmadığını savunmuştur. İlk derece mahkemesi, bilirkişi raporlarına dayanarak teslim edilen ürünlerin fiyatlarının dönem piyasa fiyatlarına uygun olduğunu saptayıp davayı kabul etmiş, bölge adliye mahkemesi istinaf başvurusunu esastan reddetmiştir. Yargıtay 3. Hukuk Dairesi, TBK m. 233/1 ve TBK m. 234/1'i anarak ürünlerin davalının zilyetliğine girdiğinin ispatlandığını ve bilirkişi raporunun yeterli olduğunu belirtmiş, kararı oybirliğiyle onamıştır. Konuya katkısı: teslimin ispatı, zilyetliğe girmeyle bedelin muaccel olması ve uyuşmazlıkta bedelin piyasa fiyatlarına göre araştırılması çizgisini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=964476500",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 232/1'e göre alıcının satış sözleşmesinden doğan **iki temel borcu** hangi seçenekte doğru verilmiştir?",
+   "options": [
+    "Bedeli ödemek ve satılanı hemen üçüncü kişiye devretmek",
+    "Satılanı devralmak ve satıcının tüm giderlerini üstlenmek",
+    "Bedeli ödemek ve satılanın ayıbını satıcıya ihbar etmek",
+    "Bedeli ödemek ve kendisine sunulan satılanı devralmak"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 232/1 alıcıyı, sözleşmede kararlaştırılmış biçimde satış bedelini ödemek ve kendisine sunulan satılanı devralmakla yükümlü kılar. Ayıp ihbarı bir borç değil, haklarını korumak için yerine getirilmesi gereken bir yüktür; giderlerin paylaşımı ise TBK m. 211/1'de düzenlenir."
+  },
+  {
+   "stem_md": "Aksine yerel âdet ya da anlaşma yoksa, alıcı kendisine sunulan satılanı **ne zaman** devralmak zorundadır?",
+   "options": [
+    "Bedelin muaccel olmasından otuz gün sonra",
+    "Hemen",
+    "Satıcının ihtar çekmesinden sonra",
+    "Sunulduktan sonra on beş gün içinde"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 232/2'ye göre aksine yerel âdet veya anlaşma yoksa satılanın hemen devralınması gereklidir. Kanun bir bekleme süresi ya da ihtar şartı öngörmez."
+  },
+  {
+   "stem_md": "Aksine sözleşme veya âdet yoksa aşağıdaki giderlerden hangisi **alıcıya** aittir?",
+   "options": [
+    "Satılanın ölçülmesi ve tartılması giderleri",
+    "Satıcının ifa için yaptığı sigorta giderleri",
+    "Satıcının kendi deposundan malı hazırlama giderleri",
+    "Satılanı devralmak üzere yapılan giderler"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 211/1'e göre aksine sözleşme veya âdet yoksa ölçme ve tartma gibi devir giderleri satıcıya; satılanı devralmak üzere yapılan giderler ve satılanın ifa yerinden başka yere taşınması gerektiğinde taşıma giderleri alıcıya aittir. TBK m. 232 giderleri düzenlemez, yalnız borçları ve devralma zamanını söyler."
+  },
+  {
+   "stem_md": "Alıcı, bedeli belirtmeden bir malı **alacağını kesin olarak** bildirmiştir. TBK m. 233/1'e göre satış hangi bedel üzerinden yapılmış sayılır?",
+   "options": [
+    "Satıcının daha önceki müşterilerine uyguladığı liste fiyatı",
+    "İfa yeri ve zamanındaki ortalama piyasa fiyatı",
+    "Sözleşmenin kurulduğu günkü en düşük piyasa fiyatı",
+    "Satıcının tek taraflı olarak düzenlediği fatura bedeli"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 233/1 bedeli belirtilmeden kesin sipariş verilen satışın, ifa yeri ve zamanındaki ortalama piyasa fiyatı üzerinden yapılmış sayılacağını söyler. Fatura bedeli tek taraflıdır ve uyuşmazlıkta alıcıyı kendiliğinden bağlamaz. Alıcının bildirimi kesin değilse satış zaten kurulmaz."
+  },
+  {
+   "stem_md": "Zeynep, bir toptancıya telefonla \"Yirmi ton nohut gönderin, kesin alıyorum\" der; fiyat konuşulmaz. Taraflar teslimin 10 Mart'ta toptancının deposunda yapılmasını kararlaştırır. Nohudun toptancının bulunduğu yerdeki ortalama piyasa fiyatı sipariş günü (3 Mart) ton başına 40.000 TL, 10 Mart'ta ton başına 44.000 TL'dir. Aksine bir teamül yoktur. Zeynep **ton başına** hangi fiyattan ödeme yapmak zorundadır?",
+   "options": [
+    "40.000 TL, çünkü fiyat sipariş gününe göre belirlenir",
+    "42.000 TL, çünkü iki günün ortalaması alınır",
+    "Fiyat belirtilmediği için sözleşme kurulmamıştır",
+    "44.000 TL, çünkü TBK m. 233/1 ifa yeri ve zamanındaki ortalama piyasa fiyatını esas alır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Zeynep malı alacağını kesin olarak bildirdiği ve bedeli belirtmediği için TBK m. 233/1 uygulanır: Satış, ifa yeri ve zamanındaki ortalama piyasa fiyatı üzerinden yapılmış sayılır. İfa zamanı kararlaştırılan teslim günü olan 10 Mart'tır. Bedelin belirli olmaması sözleşmeyi geçersiz kılmaz; bedel durum ve koşullara göre belirlenebilir (TBK m. 207/3)."
+  },
+  {
+   "stem_md": "Ayşe, bir çiftlikten ürünü ağırlığa göre ton başına 20.000 TL üzerinden satın alır. Ürün 5.200 kg brüt ağırlıkta çuvallarla teslim edilir; ambalajın ağırlığı 200 kg'dır. Dara konusunda ticari teamül yoktur. Ayşe'nin ödemesi gereken satış bedeli **kaç TL**'dir?",
+   "options": [
+    "20.000 TL",
+    "100.000 TL",
+    "96.000 TL",
+    "104.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 233/2'ye göre satış bedeli satılanın ağırlığına göre hesaplanıyorsa darası indirilir. Brüt 5.200 kg'dan ambalaj ağırlığı olan 200 kg düşüldüğünde net ağırlık 5.000 kg, yani 5 tondur. Bedel 5 x 20.000 = 100.000 TL'dir. Dara düşülmeden 104.000 TL ödetmek, teamül bulunmadığı için kanuna aykırıdır."
+  },
+  {
+   "stem_md": "Aksine sözleşme bulunmadığında, satış bedeli ne zaman **muaccel** olur?",
+   "options": [
+    "Satılan alıcının zilyetliğine girince",
+    "Alıcının satılanı ilk kullanmasıyla",
+    "Satıcının faturayı düzenlemesiyle",
+    "Sözleşmenin kurulmasıyla"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 234/1: Aksine sözleşme yoksa satılan alıcının zilyetliğine girince satış bedeli muaccel olur. Fatura düzenlenmesi ya da malın kullanılması muacceliyeti belirlemez."
+  },
+  {
+   "stem_md": "Mehmet, Ali'den bir narenciye bahçesini satın alır; bahçe Mehmet'e teslim edilir. Sözleşmede vade ve faiz kararlaştırılmamıştır, Ali ihtar çekmemiştir. Mehmet bahçeyi hiç işletmemiş, ürün de toplamamıştır. Ali satış bedeline faiz isteyebilir mi?",
+   "options": [
+    "İsteyebilir; Mehmet maldan ürün elde etme imkânına sahip olduğundan ihtara gerek yoktur",
+    "İsteyemez; her hâlde önce ihtar çekilmelidir",
+    "İsteyebilir; yalnız dava tarihinden itibaren",
+    "İsteyemez; faiz için Mehmet'in fiilen gelir elde etmiş olması gerekir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 234/2'ye göre alıcı maldan ürün ya da diğer verimler elde etme imkânına sahip ise ayrıca bir ihtara gerek olmaksızın satış bedeline faiz istenebilir. Kanun elde etme imkânını yeterli sayar; alıcının fiilen gelir elde etmiş olması aranmaz. Genel kural olan ihtar şartı (TBK m. 117/1) burada aranmaz."
+  },
+  {
+   "stem_md": "Peşin satışta alıcı ödemede temerrüde düşmüştür. TBK m. 235'e göre sözleşmeden dönmek isteyen satıcı **ne yapmalıdır?**",
+   "options": [
+    "Önce alıcıya uygun bir süre vermeli ve bu süre geçince dönmelidir",
+    "Hâkimden süre verilmesini istemelidir",
+    "Dönme hakkını sözleşmede saklı tutmuş olmalıdır",
+    "Durumu gecikmeksizin alıcıya bildirmelidir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Peşin satışta alıcı temerrüde düşerse satıcı herhangi bir işlem gerekmeksizin, yani ek süre vermeden satıştan dönebilir (TBK m. 235/1). Bu hakkı kullanmak isteyen satıcı durumu gecikmeksizin alıcıya bildirmek zorundadır (TBK m. 235/2). Süre verme, genel hükümdeki yöntemdir (TBK m. 123). Dönme hakkının sözleşmede saklı tutulması şartı ise veresiye satışa özgüdür."
+  },
+  {
+   "stem_md": "Galerici Ali, otomobilini 10 Nisan'da bedel peşin ödenmek ve araç aynı anda teslim edilmek üzere Mehmet'e satmıştır. Mehmet o gün ne parayı getirir ne de aracı almaya gelir. Ali bir şey söylemeden günler geçirir. Ali'nin bu sessizliği hukuken **ne sonuç doğurur?**",
+   "options": [
+    "Ali, ifadan vazgeçmiş sayılır ve zararını isteyebilir",
+    "Ali'nin sessizliği tek başına sözleşmeden dönmüş sayılmasını sağlamaz; dönmek istiyorsa bunu gecikmeksizin bildirmelidir",
+    "Sözleşme kendiliğinden sona erer ve taraflar edimlerini geri ister",
+    "Ali sözleşmeden dönmüş sayılır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 235/1 satıcıya dönme hakkı verir; TBK m. 235/2 ise bu hakkı kullanmak isteyen satıcının durumu gecikmeksizin bildirmesini ister. Dönme bir bildirimle kullanılır; sessizlik dönme sayılmaz. Belirli süreli ticari satışta satıcının temerrüdünde alıcının susmasına ilişkin kural (TBK m. 212/2) alıcının temerrüdü hâlinde işletilemez."
+  },
+  {
+   "stem_md": "Çiftçi Zeynep'e bir biçerdöver 1.200.000 TL'ye satılıp 1 Mayıs'ta teslim edilmiştir. Bedelin 16 Mayıs'ta ödeneceği yazılıdır; sözleşmede dönme hakkına dair hiçbir kayıt yoktur. Zeynep 16 Mayıs'ta ödemez; satıcı noterden 10 gün süre verip sürenin sonunda sözleşmeden döndüğünü bildirir. Satıcı biçerdöveri geri isteyebilir mi?",
+   "options": [
+    "İsteyebilir; süre verdiği ve bildirimde bulunduğu için",
+    "İsteyebilir; çünkü alıcı temerrüde düşen her satışta satıcı dönebilir",
+    "İsteyemez; çünkü satış sözleşmesi taşınırlarda hiçbir şekilde sona erdirilemez",
+    "İsteyemez; zilyetlik bedel ödenmeden devredildiğinden dönme hakkı ancak sözleşmede açıkça saklı tutulmuşsa kullanılabilir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Zilyetlik bedel ödenmeden devredildiği için veresiye satış vardır. TBK m. 235/3'e göre satıcının alıcının temerrüdü sebebiyle dönüp satılanı geri alması, bu hakkın sözleşmede açıkça saklı tutulmasına bağlıdır. Böyle bir kayıt olmadığından süre vermek ya da bildirimde bulunmak sonucu değiştirmez. Satıcı bedeli ve gecikme zararını isteyebilir."
+  },
+  {
+   "stem_md": "Satıcının satılanı geri alabilmesi için **dönme hakkını saklı tutma** kaydı ile **mülkiyeti saklı tutma** kaydı hakkında hangisi doğrudur?",
+   "options": [
+    "İkisi de aynı şeydir ve ikisi de yalnız noterde resmî şekilde yapılabilir",
+    "Mülkiyeti saklı tutma kaydı hayvan satışında da yapılabilir",
+    "Dönme hakkını saklı tutma kaydı, mülkiyeti saklı tutma gibi noterlikte özel sicile kaydedilmedikçe geçerli olmaz",
+    "Mülkiyeti saklı tutma kaydı, TMK m. 764'e göre resmî şekil ve yerleşim yeri noterliğinde özel sicile kayıt ister; dönme hakkını saklı tutma ise sözleşmede açıkça yazılmakla yeterlidir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 764'e göre mülkiyeti saklı tutma kaydı, ancak resmî şekilde yapılacak sözleşmenin devralanın yerleşim yeri noterliğinde özel siciline kaydedilmesiyle geçerli olur; hayvan satışlarında yapılamaz. Dönme hakkının saklı tutulması ise TBK m. 235/3'te sözleşmede açıkça saklı tutulmasına bağlanmıştır ve kanun bu kaydı TMK m. 764'teki şekil ve sicil şartına bağlamaz."
+  },
+  {
+   "stem_md": "TBK m. 236/2'ye göre alıcının temerrüdünde satıcı, **somut yöntemle** zararını isteyebilmek için malı başkasına nasıl satmış olmalıdır?",
+   "options": [
+    "Alıcının onayını alarak",
+    "Mutlaka açık artırma yoluyla",
+    "Hâkimin iznini alarak",
+    "Dürüstlük kurallarına uygun olarak"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 236/2 sözleşme bedeli ile malın başkasına dürüstlük kurallarına uygun olarak satışından elde edilen bedel arasındaki farka göre hesaplanacak zararın istenebileceğini söyler. Açık artırma, hâkim izni ya da alıcı onayı gibi bir şart yoktur. Dürüstlük kuralına aykırı, örneğin çok düşük fiyata yapılan bir satışta fahiş fark alıcıdan istenemez."
+  },
+  {
+   "stem_md": "Bir satıcı, borsada kayıtlı 80 ton buğdayı ton başına 10.000 TL'den (toplam 800.000 TL) satmıştır. Alıcı ödeme günü bedeli ödemez ve malı almaz. Ödeme günü buğdayın piyasa fiyatı ton başına 9.000 TL'dir (toplam 720.000 TL). Satıcı buğdayı başkasına satmamıştır. TBK m. 236/3'e göre satıcı **kaç TL**'lik zararın giderilmesini isteyebilir?",
+   "options": [
+    "Hiçbir tutar; çünkü ikame satış yapılmamıştır",
+    "720.000 TL",
+    "80.000 TL",
+    "800.000 TL"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Buğday borsada kayıtlı olduğundan satıcı ikame satış yapmaya gerek kalmaksızın, satış bedeli ile malın belirlenmiş ödeme günündeki fiyatı arasındaki farka göre hesaplanacak zararı isteyebilir (TBK m. 236/3). Fark 800.000 - 720.000 = 80.000 TL'dir. İkame satışın yapılmaması bu yöntemde engel değildir."
+  },
+  {
+   "stem_md": "Özel yapım bir makine 600.000 TL'ye satılmış, alıcı bedeli ödemede temerrüde düşmüştür. Makinenin piyasa fiyatı yoktur. Satıcı, dürüstlük kurallarına uygun biçimde ilan vererek makineyi başka bir işletmeye 540.000 TL'ye satmıştır. Satıcı alıcıdan TBK m. 236/2 uyarınca **kaç TL** isteyebilir?",
+   "options": [
+    "Hiçbir şey; çünkü makine satıldığı için zarar doğmamıştır",
+    "60.000 TL",
+    "540.000 TL",
+    "600.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Piyasa fiyatı olmayan malda soyut yöntem uygulanamaz; somut yöntem geçerlidir. Zarar, sözleşme bedeli ile dürüstlük kurallarına uygun ikame satıştan elde edilen bedel arasındaki farktır: 600.000 - 540.000 = 60.000 TL (TBK m. 236/2). Satıcı ikame satış bedelini zaten tahsil etmiştir; alıcıdan isteyebileceği tutar farkla sınırlıdır."
+  },
+  {
+   "stem_md": "Bir çimento fabrikası, bir müteahhide sattığı çimentoyu belirlenen günde hazırlamış ve teslime sunmuştur. Müteahhit haklı hiçbir sebep göstermeden çimentoyu almaya gelmez; bedel ödenmiştir. Fabrika çimentonun bozulmasından endişe etmektedir. Aşağıdakilerden hangisi fabrikanın **başvurabileceği tartışmasız yoldur?**",
+   "options": [
+    "Çimentoyu hâkim kararı olmadan bir ardiyeye tevdi etmek; hasar ve giderler müteahhide aittir",
+    "Sözleşmeyi kendiliğinden hükümsüz saymak",
+    "Çimentoyu hiçbir bildirim yapmadan kendi tüketimine katmak",
+    "Müteahhidin bedeli iki kat ödemesini istemek"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Alıcı malı almaktan haklı sebep olmaksızın kaçınınca alacaklı temerrüdüne düşer (TBK m. 106/1). Borçlu, hasar ve giderler alacaklıya ait olmak üzere teslim edeceği şeyi tevdi ederek borcundan kurtulabilir; ticari mallar hâkim kararı olmadan da bir ardiyeye tevdi edilebilir (TBK m. 107). Devralma borcunun niteliği doktrinde tartışmalıdır, ama tevdi yolu her iki görüşte de açıktır."
+  },
+  {
+   "stem_md": "Tacirler arasındaki bir satışta alıcı mütemerrit olmuştur. TTK m. 23/1-b'ye göre satıcı **ne yapabilir?**",
+   "options": [
+    "Mahkemeden alıcının tüm borçlarının silinmesini isteyebilir",
+    "Yalnız sözleşmeyi feshedip malı geri alabilir",
+    "Malı hiçbir izin almadan istediği kişiye ve fiyata satıp farkı alıcıdan isteyebilir",
+    "Malın satışına izin verilmesini mahkemeden isteyebilir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 23/1-b'ye göre alıcı mütemerrit olduğu takdirde satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme satışın açık artırmayla ya da yetkilendirilen bir kişi aracılığıyla yapılmasına karar verir. Satış giderleri düşüldükten sonra artan para alıcı adına bankaya (banka yoksa notere) bırakılır; satıcının takas hakkı saklıdır."
+  },
+  {
+   "stem_md": "Susmanın sonuçları bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Her iki hâlde de susmanın hiçbir hukuki sonucu yoktur",
+    "Her iki hâlde de susma, kanun gereği dönme sayılır",
+    "Belirli süreli ticari satışta satıcı temerrüde düşer ve alıcı susarsa devir isteminden vazgeçmiş sayılır; peşin satışta alıcı temerrüde düşer ve satıcı susarsa dönmüş sayılmaz",
+    "Peşin satışta alıcı temerrüde düşer ve satıcı susarsa dönmüş sayılır; ticari satışta satıcı temerrüde düşer ve alıcı susarsa yine ifa isteminden vazgeçmemiş sayılır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 212/2'ye göre zilyetliğin devri için belirli bir süre konulmuş ticari satışlarda satıcı temerrüde düşerse alıcının, devir isteminden vazgeçerek borcun ifa edilmemesinden doğan zararının giderilmesini istediği kabul edilir; alıcı devir niyetindeyse süre bitiminde bunu hemen bildirmelidir (TBK m. 212/3). TBK m. 235/2 ise dönmek isteyen satıcının bunu gecikmeksizin bildirmesini ister; satıcının susması dönme sayılmaz. Susmanın sonucu iki hükümde simetrik değildir."
+  },
+  {
+   "stem_md": "Bir alıcı, satış sözleşmesi yapılırken satıcıya bir miktar para vermiştir; paranın cayma parası olduğu ya da başka bir amaca verildiği sözleşmede belirtilmemiştir. Aksine sözleşme veya yerel âdet de yoktur. Bu para hakkında hangisi doğrudur?",
+   "options": [
+    "Ceza koşulu sayılır; esas alacaktan düşülmez",
+    "Cayma parası sayılır; alıcı caymak isterse parayı kaybeder",
+    "Bağlanma parası sayılır; sözleşmenin yapıldığına kanıt olarak verilmiş kabul edilir ve esas alacaktan düşülür",
+    "Hibe sayılır; hiçbir hâlde geri istenemez"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 177/1'e göre sözleşme yapılırken verilen bir miktar para, cayma parası olarak değil sözleşmenin yapıldığına kanıt olarak verilmiş sayılır (bağlanma parası). Aksine sözleşme veya yerel âdet olmadıkça esas alacaktan düşülür (TBK m. 177/2)."
+  },
+  {
+   "stem_md": "Sözleşmeyle kararlaştırılan **yıllık temerrüt faizi oranı** için TBK m. 120/2'ye göre sınır nedir?",
+   "options": [
+    "Yasal oranın yarısını aşamaz",
+    "Yalnız yüzde beşi aşmamak koşuluyla belirlenebilir",
+    "Yasal olarak belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz",
+    "Taraflar dilediği oranı serbestçe kararlaştırabilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 120/1'e göre temerrüt faizi oranı sözleşmede kararlaştırılmamışsa faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir. TBK m. 120/2'ye göre sözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, bu şekilde belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Tarım makineleri satıcısı S, çiftçi A'ya bir biçerdöveri 1.200.000 TL bedelle satar ve 1 Mayıs 2025'te teslim eder. Yazılı sözleşmede bedelin 16 Mayıs 2025'te ödeneceği kararlaştırılmıştır. Sözleşmede faiz oranına ve sözleşmeden dönmeye ilişkin hiçbir hüküm yoktur; mülkiyetin saklı tutulduğuna dair bir kayıt da yapılmamıştır. A, biçerdöveri çiftliğinde tutmuş, 16 Mayıs'ta bedeli ödememiştir.\n\nS, 20 Mayıs 2025'te noterden A'ya ihtarname göndererek 10 gün içinde bedel ödenmezse sözleşmeden döneceğini bildirir. Süre sonunda ödeme yapılmayınca S, sözleşmeden döndüğünü açıklar ve biçerdöverin iadesi için dava açar. A, biçerdöverin mülkiyetinin kendisine geçtiğini savunur.\n\n1. S'nin sözleşmeden dönerek biçerdöveri geri istemesi mümkün müdür?\n2. Biçerdöverin mülkiyeti kime geçmiştir?\n3. S bedel davası açarsa hangi tarihten itibaren, ihtar çekmeden faiz isteyebilir? Faiz oranı nasıl belirlenir?\n4. Sözleşmeye \"bedel ödenmezse satıcı sözleşmeden dönerek malı geri alabilir\" kaydı konulmuş olsaydı sonuç nasıl olurdu?",
+   "rubric": [
+    {
+     "point": "Satışın veresiye nitelikte olması: zilyetliğin bedel ödenmeden devredilmesi nedeniyle TBK m. 235/3'ün uygulanması",
+     "weight": 20,
+     "madde_ref": "TBK m. 235"
+    },
+    {
+     "point": "Dönme hakkının sözleşmede açıkça saklı tutulmamış olması nedeniyle S'nin süre verip bildirimde bulunmasına rağmen dönüp malı geri alamaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 235"
+    },
+    {
+     "point": "Taşınır mülkiyetinin zilyetliğin devriyle geçmesi; mülkiyeti saklı tutma kaydı (TMK m. 764) bulunmadığından A'nın malik olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 763"
+    },
+    {
+     "point": "Satıcının bedeli ve gecikme zararını isteyebilmesi; ödeme günü belirli olduğundan 16 Mayıs'ın geçmesiyle ihtarsız temerrüt",
+     "weight": 15,
+     "madde_ref": "TBK m. 117"
+    },
+    {
+     "point": "Belirli günün geçmesiyle temerrüt gerçekleştiğinden ihtarsız faiz istenebilmesi; faiz oranının sözleşme yoksa mevzuata göre belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 234"
+    },
+    {
+     "point": "Dönme hakkı saklı tutulsaydı S'nin dönüp malı geri alabilmesi; bu saklılığın mülkiyeti saklı tutmadan farklı olması ve TMK m. 764'teki resmî şekil ve sicil şartına bağlı olmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 235"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** S ile A arasında taşınır (biçerdöver) satışı vardır. Satılan, bedel ödenmeden A'nın zilyetliğine devredildiğinden satış **veresiye (kredili)** niteliktedir. A bedeli vadesinde ödemeyerek temerrüde düşmüştür.\n\n**Hukuki sorunlar:** (1) Veresiye satışta satıcının dönme hakkı; (2) mülkiyetin kime geçtiği; (3) ihtarsız faizin başlangıcı ve oranı; (4) dönme hakkı saklı tutulmuş olsaydı sonuç.\n\n**İlgili hükümler:** TBK m. 235/3; TMK m. 763/1 ve TMK m. 764; TBK m. 117/2; TBK m. 234/2; TBK m. 120/1; TBK m. 125/1.\n\n**Değerlendirme:**\n\n*1. Dönme:* Satılanın zilyetliği satış bedeli ödenmeden alıcıya devredilmişse, alıcının temerrüdü sebebiyle satıcının dönme hakkını kullanarak satılanı geri alması, bu hakkın sözleşmede açıkça saklı tutulmasına bağlıdır (TBK m. 235/3). Sözleşmede böyle bir kayıt yoktur. S'nin noterden süre vermesi ve dönme beyanında bulunması bu eksikliği gidermez; TBK m. 235/3, genel hükümdeki süre verip dönme yolunu (TBK m. 123 ve TBK m. 125) daraltan özel bir düzenlemedir. Bu yüzden S, biçerdöveri sözleşmeden dönerek geri isteyemez. S'nin elinde kalan hak, bedelin ödenmesini ve gecikme zararını isteme hakkıdır (TBK m. 125/1).\n\n*2. Mülkiyet:* Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir (TMK m. 763/1). Biçerdöver A'ya teslim edilmiştir. Mülkiyeti saklı tutma kaydı ise ancak resmî şekilde yapılacak sözleşmenin devralanın yerleşim yeri noterliğindeki özel siciline kaydedilmesiyle geçerli olur (TMK m. 764); böyle bir kayıt yapılmamıştır. Dolayısıyla A, biçerdöverin malikidir ve S'nin mülkiyete dayanan bir iade talebi yoktur.\n\n*3. Faiz:* Ödeme günü sözleşmede 16 Mayıs 2025 olarak belirlenmiştir. Borcun ifa edileceği gün birlikte belirlenmişse bu günün geçmesiyle borçlu temerrüde düşer (TBK m. 117/2). Belirli günün geçmesiyle temerrüdün gerçekleştiği durumda ayrıca bir ihtara gerek olmaksızın satış bedeline faiz istenebilir (TBK m. 234/2). A, 16 Mayıs 2025 gününün geçmesiyle temerrüde düştüğünden S, bu andan (17 Mayıs 2025'ten) itibaren ihtar çekmeden faiz isteyebilir. Sözleşmede oran yoksa temerrüt faizi oranı faiz borcunun doğduğu tarihte yürürlükteki mevzuata göre belirlenir (TBK m. 120/1). Vade kararlaştırılmasaydı bedel teslimle, 1 Mayıs 2025'te muaccel olurdu (TBK m. 234/1).\n\n*4. Saklı tutma kaydı olsaydı:* Dönme hakkı sözleşmede açıkça saklı tutulmuş olsaydı, TBK m. 235/3'ün şartı gerçekleşir ve S, A'nın temerrüdü üzerine sözleşmeden dönüp biçerdöveri geri alabilirdi. Bu kayıt, mülkiyeti saklı tutma kaydından farklı olarak TMK m. 764'teki resmî şekil ve özel sicil şartına bağlı değildir; ancak yaygın kabule göre mülkiyeti saklı tutmanın sağladığı korumayı sağlamaz; üçüncü kişilere karşı ayni etki doğurmaz.\n\n**Sonuç:**\n- S, dönme hakkı saklı tutulmadığından biçerdöveri geri isteyemez.\n- Mülkiyet zilyetliğin devriyle A'ya geçmiştir.\n- S, 1.200.000 TL bedelini ve 16 Mayıs 2025'in geçmesiyle (17 Mayıs 2025'ten) itibaren ihtarsız temerrüt faizini isteyebilir.\n- Dönme hakkı saklı tutulmuş olsaydı S dönüp malı geri alabilirdi."
+  },
+  {
+   "stem_md": "Demir-çelik tüccarı S ile müteahhit A, 120 ton inşaat demirinin tonu 24.000 TL'den toplam 2.880.000 TL bedelle satışı konusunda anlaşır. Sözleşmeye göre A, 10 Nisan 2025'te bedeli peşin ödeyecek ve demirleri aynı gün S'nin deposundan teslim alacaktır. A, 10 Nisan'da hem ödemeyi yapmaz hem de demirleri almaya gelmez. Aynı gün inşaat demirinin borsada işlem gören piyasa fiyatı ton başına 21.500 TL'dir (toplam 2.580.000 TL). S demirleri henüz kimseye satmamıştır.\n\n1. S, A'ya ek süre vermeden sözleşmeden dönebilir mi? Dönmek için ne yapmalıdır?\n2. S, demirleri üçüncü kişiye satmadan A'dan zararının giderilmesini isteyebilir mi? İsteyebilirse tutar ne olur?\n3. Demirler özel profil olsaydı ve piyasa fiyatı bulunmasaydı; S, 15 Nisan'da dürüstlük kurallarına uygun biçimde üçüncü kişi Ü'ye 2.500.000 TL'ye satsaydı, A'dan kaç TL isteyebilirdi?\n4. S, 10 Nisan'dan sonra hiçbir bildirim yapmadan haftalarca beklerse sözleşmeden dönmüş sayılır mı?",
+   "rubric": [
+    {
+     "point": "Satışın peşin nitelikte olması; alıcının temerrüdünde satıcının herhangi bir işlem gerekmeksizin, ek süre vermeden dönebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 235"
+    },
+    {
+     "point": "Dönmek isteyen satıcının durumu gecikmeksizin alıcıya bildirmek zorunda olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 235"
+    },
+    {
+     "point": "Ödeme gününün belirli olması nedeniyle ihtarsız temerrüt",
+     "weight": 10,
+     "madde_ref": "TBK m. 117"
+    },
+    {
+     "point": "Borsada işlem gören malda soyut yöntemin uygulanması; ikame satışa gerek bulunmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 236"
+    },
+    {
+     "point": "Soyut zararın sözleşme bedeli ile belirlenmiş ödeme günündeki fiyat arasındaki fark olarak 300.000 TL bulunması",
+     "weight": 15,
+     "madde_ref": "TBK m. 236"
+    },
+    {
+     "point": "Piyasa fiyatı bulunmayan malda somut yöntem: sözleşme bedeli ile dürüstlük kurallarına uygun ikame satış bedeli farkı (380.000 TL)",
+     "weight": 15,
+     "madde_ref": "TBK m. 236"
+    },
+    {
+     "point": "Satıcının susmasının dönme sayılmaması; satıcının temerrüdündeki ticari satış kuralından farkı",
+     "weight": 10,
+     "madde_ref": "TBK m. 212"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** S ile A arasında taşınır satışı vardır. Bedelin teslim anında peşin ödenmesi ve demirlerin aynı anda teslimi kararlaştırıldığından satış **peşin** niteliktedir. Ödeme günü belirli olduğu için A, 10 Nisan'ın geçmesiyle temerrüde düşmüştür.\n\n**Hukuki sorunlar:** (1) Peşin satışta alıcının temerrüdünde satıcının dönme hakkı ve usulü; (2) soyut ve somut zarar hesabı; (3) satıcının susmasının sonucu.\n\n**İlgili hükümler:** TBK m. 235/1-2; TBK m. 117/2; TBK m. 236/2 ve TBK m. 236/3; TBK m. 212/2.\n\n**Değerlendirme:**\n\n*1. Dönme:* Satılanın ancak satış bedeli ödendikten sonra veya ödenme anında devredilmesi gereken durumlarda alıcı temerrüde düşerse satıcı, herhangi bir işlem gerekmeksizin satıştan dönebilir (TBK m. 235/1). Ödeme günü sözleşmeyle belirlenmiş olduğundan A, günün geçmesiyle ihtarsız temerrüde düşmüştür (TBK m. 117/2). Bu nedenle S, ek süre (TBK m. 123) vermeden dönebilir. Ancak hakkını kullanmak isteyen satıcı, durumu gecikmeksizin alıcıya bildirmek zorundadır (TBK m. 235/2). S bu yüzden A'nın temerrüde düştüğü 10 Nisan gününün geçmesinin hemen ardından (11 Nisan'da) A'ya dönme beyanını bildirmelidir.\n\n*2. Soyut zarar:* İnşaat demiri borsada işlem gören, piyasa fiyatı bulunan bir maldır. Bu nedenle S, böyle bir satışa gerek kalmaksızın, satış bedeli ile malın belirlenmiş ödeme günündeki fiyatı arasındaki farka göre hesaplanacak zararın giderilmesini isteyebilir (TBK m. 236/3). Sözleşme bedeli 2.880.000 TL, ödeme günü fiyatı 2.580.000 TL olduğundan fark **300.000 TL**'dir. Satıcının dönmeyle birlikte bu farkı da isteyip isteyemeyeceği doktrinde tartışmalıdır; bu olayın cevabı o tartışmaya bağlanmamış, yalnız zararın hesaplanma yöntemi sorulmuştur.\n\n*3. Somut zarar:* Demirler özel profil olsaydı piyasa fiyatı bulunmadığından soyut yöntem uygulanamazdı. Bu durumda zarar, sözleşme bedeli ile malın başkasına dürüstlük kurallarına uygun olarak satışından elde edilen bedel arasındaki farka göre hesaplanırdı (TBK m. 236/2). 2.880.000 - 2.500.000 = **380.000 TL**. Satışın açık artırmayla yapılması şart değildir; şart, satışın dürüstlük kurallarına uygun olmasıdır.\n\n*4. Susma:* Dönme bildirimle kullanılan bir haktır. S bildirim yapmadan beklerse sözleşmeden dönmüş sayılmaz. Bu, satıcının temerrüdünde belirli süreli ticari satışta alıcının susmasına bağlanan sonuçtan (devir isteminden vazgeçmiş sayılma, TBK m. 212/2) farklıdır; iki hükmü simetrik saymak yanlıştır.\n\n**Sonuç:**\n- S, ek süre vermeden dönebilir, ama durumu gecikmeksizin A'ya bildirmelidir.\n- Piyasa fiyatı bulunduğundan S, ikame satış yapmadan 300.000 TL'lik soyut zararı isteyebilir.\n- Piyasa fiyatı olmayan malda dürüstlük kurallarına uygun ikame satışla fark 380.000 TL olurdu.\n- S'nin susması dönme sayılmaz."
+  },
+  {
+   "stem_md": "Pastane işletmecisi A (tacir), bir un fabrikasını (S) 3 Mart 2025'te telefonla arar: \"Bana on ton baklavalık un gönderin, kesin alıyorum.\" Fiyat konuşulmaz. Taraflar, unun 10 Mart 2025'te S'nin fabrikasında teslim edileceğini kararlaştırır. Unun S'nin bulunduğu yerdeki ortalama piyasa fiyatı 3 Mart'ta ton başına 18.000 TL, 10 Mart'ta ton başına 20.000 TL'dir.\n\nUn, her biri 2 kg ambalaj ağırlığında 200 çuval içinde brüt 10.400 kg olarak S'nin kantarında tartılır; tartım giderini S öder. Sektörde ambalaj ağırlığıyla ilgili bir teamül yoktur. A unu aynı gün kendi aracıyla pastanesine taşır ve taşıma için 6.000 TL harcar. S sonradan, ton başına 24.000 TL üzerinden hesaplayarak 240.000 TL tutarında fatura düzenler. A, faturayı aldığı gün S'ye yazılı olarak itiraz eder ve \"yalnız ortalama piyasa fiyatından öderim\" der. Bedel hâlâ ödenmemiştir.\n\n1. Satış sözleşmesi kurulmuş mudur? A'nın ödeyeceği bedel kaç TL'dir?\n2. S'nin düzenlediği fatura A'yı bağlar mı?\n3. Bedel ne zaman muaccel olmuştur?\n4. Tartım gideri ve taşıma gideri kime aittir?",
+   "rubric": [
+    {
+     "point": "A'nın malı alacağını kesin olarak bildirmesiyle sözleşmenin kurulması; bedelin belirli olmasa da belirlenebilir olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 233"
+    },
+    {
+     "point": "Fiyatın ifa yeri ve zamanındaki (10 Mart) ortalama piyasa fiyatı olan ton başına 20.000 TL olması; sipariş günündeki fiyatın esas alınmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 233"
+    },
+    {
+     "point": "Bedelin ağırlığa göre hesaplanması ve ambalaj ağırlığının (400 kg) indirilmesi; net 10 ton x 20.000 = 200.000 TL",
+     "weight": 20,
+     "madde_ref": "TBK m. 233"
+    },
+    {
+     "point": "Satıcının tek taraflı faturasının A'yı kendiliğinden bağlamaması; uyuşmazlıkta ortalama piyasa fiyatının araştırılması",
+     "weight": 15,
+     "madde_ref": "TBK m. 233"
+    },
+    {
+     "point": "Satılanın alıcının zilyetliğine girmesiyle (10 Mart) bedelin muaccel olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 234"
+    },
+    {
+     "point": "Ölçme ve tartma giderinin satıcıya, devralmak için yapılan ve taşıma giderlerinin alıcıya ait olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 211"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** S ile A arasında taşınır (un) satışı vardır. Bedel konuşulmamıştır ama A malı alacağını kesin olarak bildirmiştir; bu yüzden TBK m. 233 uygulanır. Tarafların tacir olması ticari satış hükümlerini de gündeme getirir, ama bu olayın soruları TBK hükümleriyle çözülür.\n\n**Hukuki sorunlar:** (1) Bedelsiz kesin siparişte sözleşmenin kurulması ve bedelin tespiti; (2) dara indirimi; (3) tek taraflı faturanın değeri; (4) muacceliyet; (5) giderlerin paylaşımı.\n\n**İlgili hükümler:** TBK m. 207/3; TBK m. 233/1; TBK m. 233/2; TBK m. 233/3; TBK m. 234/1; TBK m. 211/1.\n\n**Değerlendirme:**\n\n*1. Sözleşme ve bedel:* Alıcı, satış bedelini belirtmeksizin malı alacağını kesin olarak bildirmişse satış, ifa yeri ve zamanındaki ortalama piyasa fiyatı üzerinden yapılmış sayılır (TBK m. 233/1). Durum ve koşullara göre belirlenmesi mümkün olan bedel, kararlaştırılmış bedel hükmündedir (TBK m. 207/3). Bu nedenle sözleşme kurulmuştur. İfa zamanı taraflarca belirlenen 10 Mart'tır; esas alınacak fiyat ifa yerinde (S'nin bulunduğu yerde) bu gün geçerli ortalama piyasa fiyatı olan ton başına **20.000 TL**'dir. 3 Mart'taki 18.000 TL esas alınamaz.\n\n*2. Dara:* Satış bedeli satılanın ağırlığına göre hesaplandığından darası indirilir (TBK m. 233/2). Brüt 10.400 kg'dan 200 x 2 = 400 kg dara düşülür; net ağırlık 10.000 kg, yani 10 tondur. Ambalaja ilişkin ticari teamül olmadığından (TBK m. 233/3) başka bir indirim ya da hesap yöntemi uygulanmaz. Bedel 10 x 20.000 = **200.000 TL**'dir.\n\n*3. Fatura:* S ton başına 24.000 TL'den 240.000 TL'lik bir fatura düzenlemiştir. Taraflar arasında yazılı bir fiyat anlaşması bulunmadığı için Yargıtay'ın yerleşik uygulamasına göre uyuşmazlıkta satıcının tek taraflı faturasındaki bedel kendiliğinden esas alınmaz; TBK m. 233/1 gereği ortalama piyasa fiyatı mahkemece araştırılır. Taraflar tacir olduğundan faturaya sekiz gün içinde itiraz edilmemesi, içeriğin kabul edildiği sonucunu doğurabilirdi (TTK m. 21/2); ancak A faturayı aldığı gün yazılı olarak itiraz ettiğinden bu sonuç doğmamıştır.\n\n*4. Muacceliyet:* Aksine sözleşme olmadığından satılan alıcının zilyetliğine girince satış bedeli muaccel olur (TBK m. 234/1). Un 10 Mart'ta A'nın zilyetliğine girmiştir; bedel o gün muaccel olmuştur.\n\n*5. Giderler:* Aksine sözleşme veya âdet yoksa ölçme ve tartma gibi devir giderleri satıcıya; satılanı devralmak üzere yapılan giderler ve satılanın ifa yerinden başka yere taşınması gerektiğinde taşıma giderleri alıcıya aittir (TBK m. 211/1). Tartım gideri S'ye, A'nın aracıyla pastaneye taşıma gideri (6.000 TL) A'ya aittir.\n\n**Sonuç:**\n- Sözleşme kurulmuştur; A 200.000 TL ödemekle yükümlüdür (net 10 ton x 20.000 TL).\n- S'nin 240.000 TL'lik faturası A'yı kendiliğinden bağlamaz; piyasa fiyatı esas alınır.\n- Bedel, unun A'nın zilyetliğine girdiği 10 Mart'ta muaccel olmuştur.\n- Tartım gideri S'ye, taşıma gideri A'ya aittir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Alıcının satış sözleşmesinden doğan iki temel borcu nedir?",
+   "back_md": "Kararlaştırılan satış bedelini ödemek ve kendisine sunulan satılanı devralmak (TBK m. 232/1). Aksine âdet ya da anlaşma yoksa satılan hemen devralınır (TBK m. 232/2)."
+  },
+  {
+   "front_md": "Ölçme-tartma giderleri ile devralma ve taşıma giderleri kime aittir?",
+   "back_md": "Aksine sözleşme veya âdet yoksa ölçme ve tartma gibi devir giderleri satıcıya; devralmak için yapılan giderler ve ifa yerinden başka yere taşıma giderleri alıcıya aittir (TBK m. 211/1)."
+  },
+  {
+   "front_md": "Bedel belirtilmeden mal kesin olarak sipariş edilirse bedel nasıl bulunur?",
+   "back_md": "Satış, ifa yeri ve zamanındaki ortalama piyasa fiyatı üzerinden yapılmış sayılır (TBK m. 233/1). Bildirimin kesin olması şarttır."
+  },
+  {
+   "front_md": "TBK m. 233/1'de fiyat hangi yer ve zamana göre belirlenir?",
+   "back_md": "İfa yeri ve zamanına göre. Sözleşmenin kurulduğu ya da fatura düzenlendiği güne göre değil."
+  },
+  {
+   "front_md": "Dara nedir ve satış bedelini nasıl etkiler?",
+   "back_md": "Ambalajın ağırlığıdır. Bedel ağırlığa göre hesaplanıyorsa dara indirilir, net ağırlık esas alınır (TBK m. 233/2). Ticari teamüller saklıdır (TBK m. 233/3)."
+  },
+  {
+   "front_md": "Satış bedeli ne zaman muaccel olur?",
+   "back_md": "Aksine sözleşme yoksa satılan alıcının zilyetliğine girince (TBK m. 234/1)."
+  },
+  {
+   "front_md": "Hangi hâllerde ihtar gerekmeden satış bedeline faiz istenebilir?",
+   "back_md": "Faiz konusunda teamül varsa, alıcı maldan ürün ya da verim elde etme imkânına sahipse veya belirli günün geçmesiyle temerrüt gerçekleşmişse (TBK m. 234/2)."
+  },
+  {
+   "front_md": "İhtarsız faizde alıcının fiilen gelir elde etmesi şart mı?",
+   "back_md": "Hayır. Maldan ürün veya verim elde etme imkânına sahip olması yeterlidir (TBK m. 234/2)."
+  },
+  {
+   "front_md": "Peşin satışta alıcı temerrüde düşerse satıcı ne yapabilir?",
+   "back_md": "Herhangi bir işlem gerekmeksizin, ek süre vermeden satıştan dönebilir (TBK m. 235/1). Durumu gecikmeksizin alıcıya bildirmek zorundadır (TBK m. 235/2)."
+  },
+  {
+   "front_md": "Peşin satışta satıcı susarsa ne olur?",
+   "back_md": "Sözleşmeden dönmüş sayılmaz. Dönme bildirimle kullanılır (TBK m. 235/2). Bu, belirli süreli ticari satışta satıcı temerrüdündeki alıcının susmasının sonucundan (TBK m. 212/2) farklıdır."
+  },
+  {
+   "front_md": "Veresiye satışta satıcı hangi şartla dönüp malı geri alabilir?",
+   "back_md": "Dönme hakkının sözleşmede açıkça saklı tutulması şartıyla (TBK m. 235/3). Saklı değilse süre verse de dönemez."
+  },
+  {
+   "front_md": "Peşin ve veresiye satışı ayıran ölçüt nedir?",
+   "back_md": "Zilyetliğin bedelden önce devredilip devredilmediği. Bedelden sonra ya da aynı anda devir peşin (TBK m. 235/1-2); bedelden önce devir veresiye (TBK m. 235/3)."
+  },
+  {
+   "front_md": "Dönme hakkını saklı tutma ile mülkiyeti saklı tutma arasındaki fark nedir?",
+   "back_md": "Dönme hakkı sözleşmede açıkça saklı tutulur (TBK m. 235/3). Mülkiyeti saklı tutma ise resmî şekil ve alıcının yerleşim yeri noterliğindeki özel sicile kayıt ister (TMK m. 764)."
+  },
+  {
+   "front_md": "Somut zarar hesabı nedir?",
+   "back_md": "Sözleşme bedeli ile malın başkasına dürüstlük kurallarına uygun olarak satışından elde edilen bedel arasındaki fark (TBK m. 236/2). Açık artırma şartı yoktur."
+  },
+  {
+   "front_md": "Soyut zarar hesabı hangi mallarda ve nasıl yapılır?",
+   "back_md": "Borsada kayıtlı ya da piyasa fiyatı bulunan mallarda ikame satış gerekmeden, sözleşme bedeli ile belirlenmiş ödeme günündeki fiyat arasındaki farka göre (TBK m. 236/3)."
+  },
+  {
+   "front_md": "Alıcı yalnız malı devralmakta temerrüde düşerse satıcı ne yapabilir?",
+   "back_md": "Alacaklı temerrüdü hükümleri: hasar ve giderler alıcıya ait olmak üzere tevdi (TBK m. 107); hâkim izniyle sattırma (TBK m. 108). Tacirler arasında TTK m. 23/1-b."
+  },
+  {
+   "front_md": "Ticari mallar tevdi edilirken hâkim kararı gerekir mi?",
+   "back_md": "Gerekmez. Ticari mallar hâkim kararı olmadan da bir ardiyeye tevdi edilebilir (TBK m. 107/2)."
+  },
+  {
+   "front_md": "TTK m. 23/1-b ne söyler?",
+   "back_md": "Tacirler arasında alıcı mütemerrit olursa satıcı malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme açık artırma ya da yetkilendirilen kişi aracılığıyla satışa karar verir."
+  },
+  {
+   "front_md": "Sözleşme yapılırken verilen para (bağlanma parası) hukuken nedir?",
+   "back_md": "Cayma parası değil, sözleşmenin yapıldığına kanıt sayılır. Aksine sözleşme veya âdet yoksa esas alacaktan düşülür (TBK m. 177)."
+  },
+  {
+   "front_md": "Alıcı temerrüdü ile satıcı temerrüdünde zarar hesabı nasıl paralel işler?",
+   "back_md": "Satıcı temerrüdünde alıcı ikame alım bedeliyle (TBK m. 213), alıcı temerrüdünde satıcı ikame satış bedeliyle farkı ister (TBK m. 236). Soyut yöntemde ilgili gün fiyatı esas alınır."
+  },
+  {
+   "front_md": "Temerrüt faizi oranının sınırı nedir?",
+   "back_md": "Sözleşmeyle kararlaştırılacak yıllık temerrüt faizi oranı, mevzuata göre belirlenen oranın yüzde yüz fazlasını aşamaz (TBK m. 120/2)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

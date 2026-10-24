@@ -1,0 +1,684 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Satış Sözleşmesi",
+ "topic_index": 4,
+ "slug": "ayiptan-sorumluluk-secimlik-haklar-ve-zamanasimi",
+ "title": "Ayıptan Sorumluluk II: Alıcının Seçimlik Hakları, Dönmenin Sonuçları ve Zamanaşımı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:19:11.559254+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/satis-ayip-zapt"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Ayıp var, bildirim de süresinde yapılmış. Alıcı şimdi ne isteyebilir, dönerse tarafların hesabı nasıl görülür ve bu haklar ne kadar süre işler?\n\n- **Dört seçimlik hak (TBK m. 227/1):** (1) satılanı geri vermeye hazır olduğunu bildirerek **sözleşmeden dönme**; (2) satılanı alıkoyup **ayıp oranında bedel indirimi**; (3) aşırı masraf gerektirmiyorsa **ücretsiz onarım**; (4) imkân varsa **ayıpsız benzeriyle değiştirme**. Alıcı bunlardan **birini** kullanır.\n- **Tazminat (TBK m. 227/2):** Genel hükümlere göre tazminat isteme hakkı saklıdır; seçimlik haklara ek olarak istenebilir. Kusur bakımından TBK m. 112 işler.\n- **Satıcının önleme yetkisi (TBK m. 227/3):** Aynı malın ayıpsız benzerini **hemen** verir ve zararın **tamamını** giderirse seçimlik hakların kullanılmasını önler.\n- **Hâkimin yetkisi (TBK m. 227/4):** Alıcı dönmüşse ama durum dönmeyi haklı göstermiyorsa hâkim yalnız **onarıma** veya **bedel indirimine** karar verebilir.\n- **Değer eksikliği bedele çok yakınsa (TBK m. 227/5):** Alıcı ancak dönme ya da değiştirme isteyebilir.\n- **Satılanın akıbeti (TBK m. 228):** Ayıptan, beklenmedik hâlden veya mücbir sebepten yok olma ya da ağır zarar görme dönmeyi engellemez; alıcı elde kalanı geri verir. Yok oluş alıcıya yüklenebilen bir sebepten doğmuşsa veya alıcı satılanı devretmiş ya da biçimini değiştirmişse **ancak bedel indirimi** istenebilir.\n- **Dönmenin sonuçları (TBK m. 229):** Alıcı satılanı **elde ettiği yararlarla** geri verir. Satıcıdan bedeli **faiziyle**, satılan için yapılan **giderleri** ve **doğrudan zararı** ister. Diğer zararlar için satıcı kusursuzluğunu ispat ederse sorumlu olmaz.\n- **Birden çok mal ve eklenti (TBK m. 230):** Dönme kural olarak yalnız ayıplı çıkanlar için kullanılır; ayırmak önemli zarar doğuruyorsa tamamını kapsar. Asıl şeyden dönmek eklentiyi kapsar, eklentiden dönmek asıl şeyi kapsamaz.\n- **Zamanaşımı (TBK m. 231):** Satıcı daha uzun süre üstlenmemişse sorumluluk davaları, ayıp sonradan ortaya çıksa bile, **devirden itibaren iki yıl** geçmekle zamanaşımına uğrar. Süresinde bildirilen ayıptan doğan **def'i hakkı** bu sürenin geçmesiyle kalkmaz. Ağır kusurlu satıcı iki yıldan yararlanamaz.\n- **Yapı ayıbı (TBK m. 244/3):** Yapının ayıplı olmasından doğan davalar mülkiyetin geçmesinden itibaren beş yılda, satıcının ağır kusuru varsa yirmi yılda zamanaşımına uğrar.\n- **Tüketici satışı (TKHK m. 11 ve 12):** Aynı dört hak vardır; onarım ve değiştirme üretici ve ithalatçıya karşı da istenebilir, yerine getirme için azami otuz iş günü (konut ve tatil amaçlı taşınmazda altmış iş günü) verilir. Zamanaşımı iki yıl, konut ve tatil amaçlı taşınmazda beş yıldır.",
+  "content_md": "## 0. Konunun haritası\n\nÖnceki konuda ayıp kavramını ve alıcının gözden geçirme ve bildirim külfetini gördük. Bu konu, ayıbın **sonuçlarını** anlatır: alıcı hangi hakları kullanır, bunların sınırı nedir, dönerse hesap nasıl görülür ve her şey ne zaman zamanaşımına uğrar? Olay sorusunda şu sırayı izle:\n\n1. Ayıp var mı ve satıcı sorumlu mu? (TBK m. 219 ve sonrası, önceki konu)\n2. Alıcı gözden geçirme ve bildirim külfetini yerine getirmiş mi? (TBK m. 223)\n3. Alıcı hangi seçimlik hakkı kullanıyor? Bu hak şartlarına uyuyor mu? (TBK m. 227)\n4. Satılan hâlâ alıcıda ve değişmemiş mi? (TBK m. 228)\n5. Dönme söz konusuysa tasfiye nasıl yapılır, hangi zararlar istenir? (TBK m. 229) Birden çok mal ya da eklenti var mı? (TBK m. 230)\n6. Süre geçti mi? Def'i yolu açık mı? Satıcı ağır kusurlu mu? (TBK m. 231)\n\n> ⚠️ **Sınavda dikkat:** Seçimlik haklar ayıp ve bildirim şartları gerçekleştikten sonra gündeme gelir. Alıcı bildirim külfetini kaçırmışsa satılanı kabul etmiş sayılır (TBK m. 223/2); hak sayarken bunu atlama.\n\n## 1. Alıcının dört seçimlik hakkı (TBK m. 227/1)\n\n**Seçimlik hak**, alıcının kanunun verdiği birkaç hak arasından birini seçerek kullanmasıdır. TBK m. 227/1'e göre satıcının ayıptan sorumlu olduğu hâllerde alıcı şu hakların **birini** kullanabilir:\n\n| Hak | Alıcı ne ister? | Kanunî sınır |\n|---|---|---|\n| Dönme | Sözleşmeden dönmek | Satılanı geri vermeye hazır olduğunu bildirir |\n| Bedel indirimi | Ayıp oranında indirim | Satılanı alıkoyar |\n| Ücretsiz onarım | Onarım, masraf satıcıda | Aşırı masraf gerektirmemeli |\n| Değiştirme | Ayıpsız benzeri | İmkân varsa |\n\nBu dört hak **eşit sıradadır**; kanun \"önce onarım, olmazsa dönme\" gibi bir sıra koymaz. Alıcı hangisini seçerse onu kullanır. Yine de her hakkın kendi sınırı vardır; bunları tek tek görelim.\n\n### 1.1 Sözleşmeden dönme\nAlıcı, satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden döner. **Dönme**, satıcıya yöneltilen ve ona ulaşınca sonuç doğuran bir beyandır; uygulamada tarafların edimleri karşılıklı ve aynı anda geri vermesi beklenir. Dönmenin sonuçlarını bölüm 6'da göreceğiz.\n\n> **Örnek:** Orhan, Tarık'tan 200.000 TL'ye ikinci el bir otomobil alır. Motorda gizli bir ayıp çıkar ve Orhan bunu süresinde bildirir. Orhan aracı iade etmeye hazır olduğunu bildirerek sözleşmeden dönebilir ve parasını geri isteyebilir.\n\n### 1.2 Bedel indirimi\nAlıcı satılanı **alıkoyar** ve ayıp oranında satış bedelinde indirim ister. Kanun \"ayıp oranında\" der; yani indirim, ayıpsız değerle ayıplı değer arasındaki **farkın kendisi** değil, **oranıdır**. Yargıtay'ın yerleşik uygulaması da bu oransal (nispi) yöntemi izler. Değerler uygulamada teslim tarihindeki duruma göre belirlenir.\n\nFormül: **İndirim = Satış bedeli × (Ayıpsız değer − Ayıplı değer) ÷ Ayıpsız değer.** Aynı sonuç şöyle de bulunur: Alıcı, bedeli ayıplı değerin ayıpsız değere oranı kadar öder.\n\n> **Örnek:** Zeynep bir bilgisayarı 60.000 TL'ye alır. Ayıpsız değeri 80.000 TL, ayıplı hâlinin değeri 50.000 TL'dir. Oran 50.000 ÷ 80.000 = 5/8'dir. Zeynep'in ödemesi gereken bedel 60.000 × 5/8 = 37.500 TL, indirim 22.500 TL'dir. Fark yöntemiyle bulunan 30.000 TL (80.000 − 50.000) yanlıştır; çünkü Zeynep malı değerinin altında bir bedelle almıştır.\n\n> ⚠️ **Sınavda dikkat:** \"Ayıpsız değerle ayıplı değer arasındaki fark kadar indirim\" yanlış kalıptır. Doğrusu bedelin, ayıp **oranında** indirilmesidir.\n\n### 1.3 Ücretsiz onarım\nAlıcı, **bütün masrafları satıcıya ait olmak üzere** satılanın onarılmasını isteyebilir. Şart: onarım **aşırı bir masrafı gerektirmemelidir**. Masraf, satılanın değerine ve ayıbın ağırlığına göre aşırı bulunursa alıcı bu hakkı kullanamaz; diğer üç hak açık kalır.\n\n> **Örnek:** Murat'ın aldığı çamaşır makinesinin pompası arızalı çıkar. Pompanın değişimi makinenin değerine göre küçük bir masraftır; Murat ücretsiz onarım isteyebilir.\n\n### 1.4 Ayıpsız benzeriyle değiştirme\nAlıcı, **imkân varsa** satılanın ayıpsız bir benzeriyle değiştirilmesini isteyebilir. Eski 818 sayılı Borçlar Kanunu'nda bu hak yalnız çeşit (cins) satışlarında tanınırdı. TBK ise hakkı \"imkân varsa\" şartıyla parça satışlarını da kapsayacak biçimde genişletmiştir; ücretsiz onarım hakkı da yeni kanunla genel satış hukukuna girmiştir. Parça satışında \"benzer\" bulmak çoğu kez zordur; imkân yoksa alıcı değiştirme isteyemez.\n\n> **Örnek:** Pelin sıfır bir cep telefonu alır, cihazın ekranı arızalıdır. Aynı modelden ayıpsız bir cihaz mağazada varsa Pelin değiştirme isteyebilir. Üretimi durmuş, el yapımı tek bir halı ayıplı çıkmışsa benzeri bulunmaz; değiştirme imkânsızdır.\n\n## 2. Tazminat (TBK m. 227/2)\n\nTBK m. 227/2'ye göre alıcının **genel hükümlere göre tazminat isteme hakkı saklıdır**. Tazminat seçimlik haklara **ek olarak** istenebilir; alıcı örneğin bedel indirimini seçmiş olsa da başka zararı varsa onu da isteyebilir.\n\nTazminatta genel hüküm uygulanır: Borç gereği gibi ifa edilmemişse borçlu, kendisine kusur yüklenemeyeceğini ispat etmedikçe zararı giderir (TBK m. 112). Yani **seçimlik hakların** (dönme, indirim, onarım, değiştirme) kullanılması satıcının kusuruna bağlı değildir; satıcı ayıbı bilmese bile sorumludur (TBK m. 219/2). Tazminat ise kusur karinesine bağlıdır.\n\n> **Örnek:** Hülya'nın aldığı sebze soğutucusu ayıplı çıkar, içindeki gıda stoku bozulur. Hülya değiştirme isteyebilir. Satıcı kusursuzluğunu ispat edemezse gıda stokunun bedelini de tazminat olarak isteyebilir.\n\n## 3. Satıcının seçimlik hakları önlemesi (TBK m. 227/3)\n\nSatıcı, alıcıya **aynı malın ayıpsız bir benzerini hemen vererek** ve **uğradığı zararın tamamını gidererek** seçimlik hakların kullanılmasını önleyebilir. İki şart birlikte aranır: (1) ayıpsız benzerinin **hemen** verilmesi, (2) zararın **tamamının** giderilmesi. Biri eksikse alıcının hakları açık kalır.\n\n> **Örnek:** Naz'ın aldığı kitaplık raflarında çatlak çıkar. Satıcı ertesi gün aynı modelin sağlamını getirir ve Naz'ın nakliye giderini öder. Naz'ın başka zararı yoksa artık dönme, indirim, onarım veya değiştirme isteyemez; istemi satıcı karşılamıştır.\n\n## 4. Hâkimin yetkisi ve değer eksikliği bedele yakınsa\n\n### 4.1 Dönme yerine onarım veya indirim (TBK m. 227/4)\nAlıcı dönme hakkını kullanmış ama **durum bunu haklı göstermiyorsa** hâkim, satılanın **onarılmasına** veya **satış bedelinin indirilmesine** karar verebilir. Bu, hakkın kötüye kullanılmasını önleyen bir denge hükmüdür: Küçük bir kusur yüzünden bütün sözleşmenin çökmesi istenmez.\n\nKanun hâkime yalnız iki alternatif sunar: onarım ve bedel indirimi. Hâkim bu fıkraya dayanarak **kendiliğinden ayıpsız benzeriyle değişime** karar veremez.\n\n> **Örnek:** Ahmet, 400.000 TL'lik otomobilin kapı contasındaki küçük bir sızıntı yüzünden dönmek ister. Sızıntı kolayca onarılabilir. Hâkim dönmeyi haklı bulmazsa contanın onarılmasına ya da bedelden küçük bir indirime karar verebilir.\n\n### 4.2 Değer eksikliği bedele çok yakınsa (TBK m. 227/5)\nSatılanın değerindeki eksiklik satış bedeline **çok yakın** ise alıcı **ancak** sözleşmeden dönme veya ayıpsız benzeriyle değiştirmeyi isteyebilir. Mantık şudur: Mal hemen hemen değersizse bedel indirimiyle neredeyse bütün bedeli geri alıp değersiz malı elde tutmak ya da onarımla uğraşmak anlamsızdır.\n\n> **Örnek:** Barış, 250.000 TL'ye bir sulama makinesi alır; makine ayıbı yüzünden fiilen hurda değerindedir. Barış bedel indirimi veya onarım değil, yalnızca dönme ya da ayıpsız benzeriyle değiştirme isteyebilir.\n\n> 💡 **Püf nokta:** TBK m. 227/4 dönmeyi **sınırlar** (hâkim onarım ya da indirime gider), TBK m. 227/5 ise indirim ve onarımı **kapatır** (yalnız dönme ya da değiştirme kalır). İkisini karıştırma.\n\n## 5. Satılanın yok olması, devri veya değişmesi (TBK m. 228)\n\nAlıcı dönmek isterken satılan artık alıcının elinde olmayabilir ya da değişmiş olabilir. Kanun iki ihtimali ayırır:\n\n| Durum | Alıcının hakkı |\n|---|---|\n| Ayıptan, beklenmedik hâlden veya mücbir sebepten yok olma ya da ağır zarar | Dönme engellenmez |\n| Alıcıya yüklenebilen sebeple yok olma; devretme; biçim değiştirme | Yalnız bedel indirimi |\n\n### 5.1 Dönmeyi engellemeyen yok oluş (TBK m. 228/1)\nAyıplı devredilen satılan **ayıptan, beklenmedik hâlden veya mücbir sebepten** yok olursa ya da ağır biçimde zarar görürse alıcı yine de dönebilir. Alıcı **elinde ne kalmışsa** onu geri verir. Risk bu hâllerde satıcıdadır; çünkü ayıbın sorumlusu odur.\n\n> **Örnek:** Volkan'ın aldığı bir parti fide, satış anında mevcut bulaşıcı bir mantar hastalığı yüzünden kurur (ayıptan yok olma). Volkan yine de sözleşmeden dönebilir ve elinde kalanı geri verir. Fideler bir sel felaketinde (mücbir sebep) telef olsaydı da sonuç aynı olurdu.\n\n### 5.2 Yalnız indirimle yetinmek zorunda kalınan hâller (TBK m. 228/2)\nŞu üç durumdan biri varsa alıcı **ancak** değerindeki eksiklik karşılığının satış bedelinden indirilmesini isteyebilir:\n1. Satılan **alıcıya yüklenebilen bir sebeple** yok olmuşsa,\n2. Alıcı satılanı **başkasına devretmişse**,\n3. Alıcı satılanın **biçimini değiştirmişse**.\n\nNedeni açıktır: Alıcı satılanı aynen iade edemez hâle gelmiştir; satıcıyı o hâldeki bir şeyi geri almaya zorlamak adil olmaz.\n\n> **Örnek:** Terzi Sibel ayıplı bir kumaş alır, ayıbı kumaşı keserek elbise diktikten sonra fark eder. Kumaşın biçimi değişmiştir; Sibel sözleşmeden dönemez, yalnız bedel indirimi isteyebilir.\n\n> ⚠️ **Sınavda dikkat:** Ayıptan, beklenmedik hâlden veya mücbir sebepten yok olma dönmeyi **engellemez**. Alıcıya yüklenebilen sebepten yok olma, devir ve biçim değiştirme ise dönmeyi **engeller**; bu durumda yalnız indirim kalır.\n\n## 6. Dönmenin sonuçları (TBK m. 229)\n\nSözleşmeden dönülünce taraflar birbirine geri verme borcu altına girer. TBK m. 229 bu hesabı özel olarak düzenler.\n\n### 6.1 Alıcının borcu\nAlıcı **satılanı, ondan elde ettiği yararlarla birlikte** satıcıya geri verir (TBK m. 229/1). Yararlar için kullanım karşılığının nasıl hesaplanacağı ayrıntıda tartışmalıdır; bu nedenle burada kesin bir hesap yöntemi vermiyoruz.\n\n### 6.2 Alıcının satıcıdan istemleri\nAlıcı karşılığında şunları isteyebilir:\n\n| İstem | Dayanak |\n|---|---|\n| Ödediği bedel, faiziyle | TBK m. 229/1 (1. bent) |\n| Yargılama giderleri ve satılan için yaptığı giderler | TBK m. 229/1 (2. bent) |\n| Ayıplı maldan doğan doğrudan zarar | TBK m. 229/1 (3. bent) |\n| Diğer zararlar (kusursuzluk ispat edilmedikçe) | TBK m. 229/2 |\n\n- **Bedel ve faiz:** Uygulamada faiz, bedelin satıcıya ödendiği tarihten itibaren işletilir.\n- **Giderler:** Kanun bu istemi \"satılanın tamamen zaptında olduğu gibi\" diye düzenler; yani zapttan sorumluluktaki giderlerin benzeri istenir (karşılaştırma için TBK m. 217/1'in 2. ve 3. bentleri). Satış masrafı gibi kalemler tipik olarak bu başlık altında istenir.\n- **Doğrudan zarar:** Ayıplı maldan doğrudan doğruya doğan zarardır. Kanun bu zarar için ayrıca \"satıcı kusursuzluğunu ispat etmedikçe\" demez; kusursuzluk ispatı bu kalemde satıcıyı kurtarmaz.\n- **Diğer zararlar:** Satıcı, **kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe** alıcının diğer zararlarını da giderir (TBK m. 229/2). Burada kusur karinesi vardır; satıcı kusursuzluğunu ispatlarsa sorumlu olmaz.\n\n> **Örnek:** Selin, ayıplı bir makine yüzünden bir üçüncü kişiyle yaptığı sözleşmeyi ifa edemez ve 45.000 TL kâr kaybına uğrar. Bu zarar makinenin kendisinden doğan değil, onun ardından gelen bir zarardır; **diğer zarar** kapsamındadır. Satıcı ayıptan haberi olmadığını ve kusursuz olduğunu ispat ederse bu kalemi ödemez. Bedel ve faiz ile satılan için yapılan giderler ise kusursuzluk ispatıyla ortadan kalkmaz.\n\n> ⚠️ **Sınavda dikkat:** Doğrudan zarar ile diğer (dolaylı) zarar ayrımının ölçütü doktrinde tartışmalıdır (aşağıda doktrin bölümü). Sınavda net örneklerle çalış: Bedel iadesi ve satış masrafı TBK m. 229/1'deki ayrı kalemlerdir; ayıbın doğurduğu üçüncü kişi sözleşmesinden yoksun kalınan kâr ise her iki görüşe göre de diğer zarardır.\n\n### 6.3 Dönme ile temerrüt dönmesini karıştırma\nTBK m. 227 dönmesi, **ayıp** nedeniyle kullanılan özel dönmedir. Borçlunun temerrüdü hâlinde alacaklıya tanınan genel dönme ise TBK m. 125'tedir. Satış hukukunda ayıp varsa öncelikle özel hüküm olan TBK m. 227 ve 229 uygulanır.\n\n## 7. Birden çok mal ve eklenti (TBK m. 230)\n\n### 7.1 Birden çok mal veya parçalı mal\nBirden çok mal ya da birden çok parçadan oluşan bir mal **birlikte satılmış** ve bazıları ayıplı çıkmışsa dönme hakkı kural olarak **yalnız ayıplı çıkanlar** için kullanılır (TBK m. 230/1). İstisna: Alıcıya veya satıcıya **önemli bir zarar vermeksizin** ayıplı parçanın diğerinden ayrılması mümkün değilse dönme **satılanın tamamını** kapsar.\n\n> **Örnek:** Aylin, 8 adet bahçe koltuğunu bir arada satın alır; ikisinde ayak kırığı vardır. Koltuklar tek tek ayrılabildiğinden Aylin yalnız bu iki koltuk için dönebilir. Bir yatak odası takımı ise bölünmesi değerini ciddi biçimde düşürecek biçimde tasarlanmışsa ayrılması önemli zarar doğurur; dönme takımın tamamını kapsar.\n\n### 7.2 Asıl şey ve eklenti\n- **Asıl şeyden dönmek eklentiyi de kapsar** (TBK m. 230/2). Eklentiler ayrı bir bedelle satılmış olsa bile durum değişmez.\n- **Eklentiden dönmek asıl şeyi kapsamaz.** Alıcı yalnız eklenti için dönmüşse asıl şey satış sözleşmesi içinde kalır.\n\n> **Örnek:** Selim, bir otomobili yedek lastik ve kriko setiyle birlikte alır; sete ayrı bedel yazılmıştır. Motor ayıplıysa Selim otomobilden dönerken seti de iade eder. Yalnız kriko kırık çıkarsa Selim sadece set için dönebilir; otomobil Selim'de kalır.\n\n## 8. Zamanaşımı (TBK m. 231)\n\n### 8.1 Kural: devirden başlayan iki yıl\nSatıcı daha uzun bir süre için üstlenmedikçe, **satılanın ayıbından doğan sorumluluğa ilişkin her türlü dava**, ayıp daha sonra ortaya çıksa bile, satılanın alıcıya **devrinden başlayarak iki yıl** geçmekle zamanaşımına uğrar (TBK m. 231/1). Üç noktaya dikkat:\n- **Başlangıç devirdir.** Süre ayıbın anlaşıldığı günden değil, satılanın alıcıya devrinden işler; taşınırda bu çoğunlukla teslimle gerçekleşir.\n- **\"Her türlü dava\"** denir; dönme, indirim, onarım, değiştirme ve tazminat davalarının hepsi bu sürenin içindedir.\n- Satıcı **daha uzun süre üstlenmişse** (ör. sözleşmede dört yıl sorumluluk yazılmışsa) o uzun süre geçerlidir.\n\n> **Örnek:** Kerem, 10 Mayıs 2023'te bir pres makinesini teslim alır. Gizli bir ayıbı 14 Haziran 2025'te fark eder. Ayıp daha sonra ortaya çıksa da süre 10 Mayıs 2023'ten başladığı için 10 Mayıs 2025'te dolmuştur. Satıcı zamanaşımı itirazında bulunursa Kerem'in davası reddedilir.\n\n### 8.2 Def'i hakkı kalkmaz\nAlıcı ayıbı satılanın devrinden başlayarak iki yıl içinde bildirmişse, ayıptan doğan **def'i hakkı** bu sürenin geçmesiyle ortadan kalkmaz (TBK m. 231/1). **Def'i**, davacıya karşı ileri sürülen savunma vasıtasıdır. Bu hüküm özellikle bedelini hâlâ ödememiş alıcıyı korur: Satıcı süre geçtikten sonra bedel için dava açarsa alıcı süresinde bildirdiği ayıbı savunma olarak ileri sürebilir.\n\n> **Örnek:** Tuğba, 480.000 TL'lik bir ekskavatörün 180.000 TL'sini vadeye bırakır. Teslimden yedi ay sonra ortaya çıkan gizli ayıbı hemen noter yoluyla bildirir, dava açmaz. Satıcı üç yıl sonra kalan bedeli ister. Tuğba'nın iki yıllık dava süresi dolsa da süresinde bildirdiği ayıptan doğan def'i hakkı devam eder.\n\n### 8.3 Ağır kusurlu satıcı\nSatıcı satılanı ayıplı olarak devretmekte **ağır kusurlu** ise iki yıllık zamanaşımı süresinden **yararlanamaz** (TBK m. 231/2). Kanun yerine geçecek süreyi açıkça söylemez; baskın görüşe göre bu durumda genel zamanaşımı süresi olan on yıl (TBK m. 146) işler. Ağır kusurlu satıcının koruması başka hükümlerde de zayıflar: Ayıptan sorumluluğu kaldıran anlaşma kesin hükümsüzdür (TBK m. 221) ve bildirimin geç yapıldığını ileri süremez (TBK m. 225).\n\n### 8.4 Yapı ayıbı (TBK m. 244/3)\nTaşınmaz satışına ilişkin kısımdaki TBK m. 244/3'e göre **bir yapının ayıplı olmasından doğan davalar**, mülkiyetin geçmesinden başlayarak **beş yılın**, satıcının ağır kusuru varsa **yirmi yılın** geçmesiyle zamanaşımına uğrar. Hüküm \"yapı\" ayıbına özgüdür; taşınır satışında uygulama alanı TBK m. 231/1'dir.\n\n### 8.5 Zamanaşımı ile bildirim külfetini karıştırma\n\n| | Bildirim külfeti | Zamanaşımı |\n|---|---|---|\n| Dayanak | TBK m. 223 | TBK m. 231 |\n| Süre | Uygun süre (ticari satışta 2 gün / 8 gün) | Devirden iki yıl |\n| Kaçırılırsa | Satılan kabul edilmiş sayılır | Dava zamanaşımına uğrar |\n\nTicari satışta açık ayıp teslim sırasında belliyse iki gün, belli değilse teslimden sonra sekiz gün içinde inceleme ve ihbar gerekir (TTK m. 23/1-c). Alıcı bildirimi süresinde yapmışsa bile davayı kural olarak iki yıl içinde açmak zorundadır; bildirim zamanaşımını durdurmaz. Süresinde bildirilen ayıptan doğan def'i hakkı bu kuralın istisnasıdır.\n\n> ⚠️ **Sınavda dikkat:** \"Ayıp bildirildi, dolayısıyla süre işlemez\" yanlıştır. Bildirim yalnız hakkın kaybını önler; dava hakkı yine devirden itibaren iki yılda zamanaşımına uğrar.\n\n## 9. Tüketici satışıyla karşılaştırma (TKHK m. 11 ve 12)\n\nTüketici işlemlerinde TBK değil 6502 sayılı Kanun'un (TKHK) özel hükümleri işler. Tüketici, ayıplı mal için TBK'dakiyle **aynı dört seçimlik hakka** sahiptir (TKHK m. 11/1); satıcı tüketicinin tercih ettiği talebi yerine getirmekle yükümlüdür. Farklar şunlardır:\n\n| Konu | TBK | TKHK |\n|---|---|---|\n| Onarım ve değiştirme muhatabı | Satıcı | Satıcı, üretici, ithalatçı (müteselsil) |\n| Zamanaşımı | 2 yıl (yapıda 5 yıl) | 2 yıl (konut ve tatil amaçlı taşınmazda 5 yıl) |\n| Ağır kusur veya hile | İki yıldan yararlanamaz | Zamanaşımı hükümleri uygulanmaz |\n\n- **Üretici ve ithalatçı (TKHK m. 11/2):** Ücretsiz onarım ve ayıpsız misliyle değiştirme hakları üretici veya ithalatçıya karşı da kullanılabilir ve satıcı, üretici ve ithalatçı **müteselsilen** sorumludur. Üretici veya ithalatçı, ayıbın malı piyasaya sürmesinden sonra doğduğunu ispat ederse sorumlu olmaz. TBK'da ise böyle bir hüküm yoktur; Yargıtay da TBK'ya tabi satışta üreticiye karşı satış hükümlerine dayanılamayacağı sonucuna varmıştır.\n- **Orantısızlık (TKHK m. 11/3):** Onarım ya da değiştirme satıcı için orantısız güçlükler doğuracaksa tüketici yalnız dönme veya bedel indirimini seçebilir. TBK'da benzer sınır \"aşırı masraf\" ve \"imkân varsa\" ölçütleriyle verilmiştir.\n- **Süre (TKHK m. 11/4):** Onarım ya da değiştirme talebinin yerine getirilmesi için azami **otuz iş günü**, konut ve tatil amaçlı taşınmazlarda **altmış iş günü** verilir. Kanun uyarınca çıkarılan yönetmeliğin eki listedeki mallarda ise onarım talebi, yönetmelikte belirlenen azami tamir süresi içinde yerine getirilir. Süre içinde yerine getirilmezse tüketici diğer seçimlik haklarını kullanmakta serbesttir.\n- **İade ve masraflar (TKHK m. 11/5 ve 11/6):** Dönme veya indirim seçilmişse bedel ya da indirim tutarı derhâl iade edilir. Seçimlik hakların kullanılmasından doğan masrafları seçilen hakkı yerine getiren taraf karşılar; tüketici tazminat da isteyebilir.\n- **Zamanaşımı (TKHK m. 12):** Ayıplı maldan sorumluluk teslimden itibaren **iki yıl**, konut ve tatil amaçlı taşınmazlarda **beş yıl**dır. İkinci el satışta sorumluluk süresi bir yıldan, konut ve tatil amaçlı taşınmazlarda üç yıldan az olamaz. Ayıp ağır kusur ya da hile ile gizlenmişse zamanaşımı hükümleri uygulanmaz.\n\n> 💡 **Püf nokta:** Olayda önce işlemin tüketici işlemi olup olmadığını belirle. Tüketici işlemiyse TKHK'yı, değilse TBK'yı uygula; muhatap, süre ve onarım ve değiştirme sınırı buna göre değişir.\n\n## 10. Denetim şeması\n\n1. Satıcı ayıptan sorumlu mu ve alıcı bildirim külfetini yerine getirdi mi? (TBK m. 219 ve 223)\n2. Alıcı hangi hakkı seçti? Şartı var mı? (onarım için aşırı masraf; değiştirme için imkân; dönme için geri verme beyanı)\n3. Değer eksikliği bedele çok yakın mı? Dönme haklı mı? (TBK m. 227/4-5)\n4. Satıcı hemen ayıpsız benzerini verip zararı tamamen gidermiş mi? (TBK m. 227/3)\n5. Satılan yok olmuş, devredilmiş ya da değişmiş mi? (TBK m. 228)\n6. Dönmede alıcı ve satıcı neyi geri verir, hangi zarar kalemleri istenir ve kusursuzluk ispatı hangi kalemi etkiler? (TBK m. 229)\n7. Birden çok mal ya da eklenti var mı? (TBK m. 230)\n8. Süre: devirden iki yıl geçti mi? Satıcı daha uzun süre üstlendi mi? Def'i yolu açık mı? Ağır kusur var mı? Yapı mı söz konusu? (TBK m. 231 ve TBK m. 244/3)\n9. İlişki tüketici işlemiyse TKHK m. 11 ve 12'ye göre kontrol et.",
+  "critical_md": "- 📌 **Dört seçimlik hak** (TBK m. 227/1): dönme, ayıp oranında bedel indirimi, ücretsiz onarım, ayıpsız benzeriyle değiştirme. Alıcı **birini** kullanır; sıra yoktur.\n- ⚠️ Bedel indirimi **oransaldır**: İndirim = bedel × (ayıpsız değer − ayıplı değer) ÷ ayıpsız değer. Değer farkının kendisi indirilmez.\n- 📌 Onarım için **aşırı masraf olmamalı**, değiştirme için **imkân bulunmalı**; dönme ve indirimde bu ölçütler aranmaz, ancak onların sınırları TBK m. 227/4-5 ve 228'dedir.\n- 📌 Tazminat hakkı **saklıdır** (TBK m. 227/2); seçimlik haklara ek olarak istenir, kusur bakımından TBK m. 112 işler.\n- 📌 Satıcı seçimlik hakları ancak ayıpsız benzerini **hemen** vererek **ve** zararın **tamamını** gidererek önler (TBK m. 227/3).\n- ⚠️ TBK m. 227/4'te hâkim dönme yerine **yalnız onarıma veya bedel indirimine** karar verebilir; kendiliğinden değişime hükmedemez.\n- ⚠️ Değer eksikliği bedele **çok yakınsa** alıcı **ancak dönme veya değiştirme** isteyebilir (TBK m. 227/5); indirim ve onarım kapanır.\n- 📌 Ayıptan, beklenmedik hâlden veya mücbir sebepten yok olma **dönmeyi engellemez**; alıcı elde kalanı iade eder (TBK m. 228/1).\n- 📌 Alıcıya yüklenebilen sebeple yok olma, **devir** veya **biçim değiştirme** hâlinde alıcı **yalnız bedel indirimi** isteyebilir (TBK m. 228/2).\n- 📌 Dönen alıcı satılanı **yararlarıyla** iade eder; bedeli **faiziyle**, giderleri ve doğrudan zararı ister. **Diğer zararlar** için satıcı kusursuzluğunu ispat ederek kurtulabilir (TBK m. 229).\n- 📌 Birden çok malda dönme kural olarak yalnız **ayıplı olanlara** yöneliktir; ayırma önemli zarar doğuruyorsa tamamı kapsanır (TBK m. 230/1).\n- ⚠️ **Asıl şeyden dönmek eklentiyi kapsar; eklentiden dönmek asıl şeyi kapsamaz** (TBK m. 230/2).\n- 📌 Zamanaşımı: satılanın alıcıya **devrinden itibaren iki yıl**; ayıp sonradan ortaya çıksa da süre devirden işler (TBK m. 231/1). Satıcı daha uzun süre üstlenmişse o süre geçerlidir.\n- 📌 İki yıl içinde bildirilen ayıptan doğan **def'i hakkı** süre geçince de kalkmaz; **ağır kusurlu satıcı** iki yıllık süreden yararlanamaz (TBK m. 231).\n- 📌 Yapı ayıbı davaları mülkiyetin geçmesinden **beş yıl**, ağır kusurda **yirmi yıl** sonra zamanaşımına uğrar (TBK m. 244/3). Tüketici satışında ise iki yıl, konut ve tatil amaçlı taşınmazda beş yıldır (TKHK m. 12/1).",
+  "doctrine_md": "### Seçimlik hakların niteliği\nBir anlayışa göre dört seçimlik hakkın **hepsi yenilik doğuran haktır**: Alıcı tek taraflı beyanla hukuki durumu değiştirir. Daha yeni görüşe göre bu yalnız **dönme** ve **bedel indirimi** için doğrudur. **Ücretsiz onarım** ve **ayıpsız benzeriyle değiştirme** ise satıcıya bir edim yükler ve beyanla kendiliğinden sonuç doğurmaz; bu yüzden yenilik doğuran hak değil **alacak (talep) hakkıdır**. Pratik sonuç: Onarım ve değiştirme satıcının ifasına bağlıdır; ifa gerçekleşmezse alıcının başka hakka geçip geçemeyeceği sorusu ortaya çıkar. TBK'da TKHK m. 11/4 gibi açık bir süre ve geçiş kuralı yoktur.\n\n### Dönmenin hukuki niteliği\n- **Klasik görüş:** Dönme beyanıyla sözleşme geçmişe etkili olarak ortadan kalkar; edimler sebepsiz zenginleşme gibi iade edilir. Yargıtay kararlarında dönmenin geçmişe etkili sonuç doğurduğu yönünde anlatımlara rastlanır.\n- **Dönüşüm görüşü (baskın görüş):** Dönme sözleşmeyi tamamen yok etmez; asıl edim borçlarını sona erdirerek ilişkiyi karşılıklı **geri verme (tasfiye) ilişkisine** dönüştürür. TBK m. 229 da alıcıya bedelin faizini, giderleri ve zarar kalemlerini tanıyarak tasfiyeyi özel kurallara bağlar.\n\n### Doğrudan zarar ile diğer zararın ayrımı\nTBK m. 229/1'in 3. bendi **doğrudan zararı**, m. 229/2 ise **diğer zararları** ayırır; kusursuzluk ispatı yalnız diğer zararlarda satıcıyı kurtarır. Ayrımın ölçütü tartışmalıdır.\n- **Nedensellik ölçütü (baskın görüş):** Ayıplı malın kendisinden ve kullanımından, araya başka olay girmeden doğan zararlar doğrudandır. Ayıplı yem yüzünden hayvanların ölmesi buna örnek verilir.\n- **Dar görüş:** Doğrudan zarar yalnız sözleşmenin yapılması ve ifasına bağlı masraflarla sınırlıdır; malın diğer varlıklara verdiği zararlar TBK m. 229/2'ye girer.\n\nBu yüzden ölçüt tartışmasının sonucu değiştirdiği örnekleri sınavda iki görüşüyle ele al. Üçüncü kişiyle yapılmış sözleşmeden yoksun kalınan kâr ise iki görüşe göre de diğer zarardır.\n\n### Tazminatta bildirim külfeti\nAlıcı seçimlik hakları değil yalnız genel hükümlere dayanarak tazminat istediğinde de gözden geçirme ve ayıbı bildirme külfetinin (TBK m. 223) aranıp aranmayacağı tartışılır. Bu noktada kesin bir kural yazmak yerine güvenli yolu izle: Ayıba dayanan her talepte, bildirimin süresinde yapıldığını ayrıca göster.",
+  "glossary": [
+   {
+    "term": "Seçimlik hak",
+    "definition": "Alıcının, kanunun saydığı birkaç hak arasından birini seçerek kullanması (TBK m. 227/1)."
+   },
+   {
+    "term": "Sözleşmeden dönme",
+    "definition": "Alıcının satılanı geri vermeye hazır olduğunu bildirerek sözleşmeyi sona erdirmesi ve tasfiye hükümlerini işletmesi."
+   },
+   {
+    "term": "Bedel indirimi",
+    "definition": "Satılanı alıkoyan alıcının, satış bedelinin ayıp oranında düşürülmesini istemesi; hesap oransaldır."
+   },
+   {
+    "term": "Ücretsiz onarım",
+    "definition": "Aşırı masraf gerektirmiyorsa satılanın bütün masrafları satıcıya ait olmak üzere onarılmasının istenmesi."
+   },
+   {
+    "term": "Ayıpsız benzeriyle değiştirme",
+    "definition": "İmkân varsa ayıplı malın aynı türden ayıpsız bir mal ile değiştirilmesi."
+   },
+   {
+    "term": "Yenilik doğuran hak",
+    "definition": "Tek taraflı beyanla bir hukuki durumun değişmesini sağlayan hak; dönme ve bedel indirimi böyle sayılır."
+   },
+   {
+    "term": "Doğrudan zarar",
+    "definition": "Ayıplı maldan doğrudan doğruya doğan zarar; dönmede satıcıdan TBK m. 229/1'e göre istenir."
+   },
+   {
+    "term": "Diğer zarar",
+    "definition": "TBK m. 229/2'de anılan, kusursuzluk ispat edilmedikçe giderilen ayıp sonrası zararlar."
+   },
+   {
+    "term": "Eklenti",
+    "definition": "Asıl şeye bağlı yardımcı şey; asıl şeyden dönmek eklentiyi kapsar, eklentiden dönmek asıl şeyi kapsamaz (TBK m. 230/2)."
+   },
+   {
+    "term": "Zamanaşımı",
+    "definition": "Ayıba bağlı davaların satılanın devrinden itibaren iki yıl geçmekle artık dinlenememesi (TBK m. 231/1)."
+   },
+   {
+    "term": "Def'i hakkı",
+    "definition": "Alıcının süresinde bildirdiği ayıbı, davacı satıcıya karşı savunma olarak ileri sürebilmesi."
+   },
+   {
+    "term": "Ağır kusur",
+    "definition": "Satıcının satılanı ayıplı devretmekte kasıtlı ya da ağır ihmalli davranması (ör. ayıbı bile bile gizlemesi); iki yıllık zamanaşımından yararlanmasını engeller (TBK m. 231/2)."
+   },
+   {
+    "term": "Müteselsil sorumluluk",
+    "definition": "Tüketici satışında satıcı, üretici ve ithalatçının onarım ve değiştirmeden birlikte sorumlu olması (TKHK m. 11/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "179",
+   "official_text": "MADDE 179- Bir sözleşmenin hiç veya gereği gibi ifa edilmemesi durumu için bir ceza kararlaştırılmışsa, aksi sözleşmeden anlaşılmadıkça alacaklı, ya borcun ya da cezanın ifasını isteyebilir.\nCeza, borcun belirlenen zaman veya yerde ifa edilmemesi durumu için kararlaştırılmışsa alacaklı, hakkından açıkça feragat etmiş veya ifayı çekincesiz olarak kabul etmiş olmadıkça, asıl borçla birlikte cezanın ifasını da isteyebilir.\nBorçlunun, kararlaştırılan cezayı ifa ederek sözleşmeyi, dönme veya fesih suretiyle sona erdirmeye yetkili olduğunu ispat etme hakkı saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "217",
+   "official_text": "MADDE 217- Satılanın tamamı alıcının elinden alınmışsa, satış sözleşmesi kendiliğinden sona ermiş sayılır ve alıcı satıcıdan aşağıdaki istemlerde bulunabilir:\n1. Satılandan elde ettiği veya elde etmeyi ihmal eylediği ürünlerin değeri indirilerek, ödemiş olduğu satış bedelinin faizi ile birlikte geri verilmesini.\n2. Satılanı elinden alan üçüncü kişiden isteyemeyeceği giderleri.\n3. Davayı satıcıya bildirmekle kaçınılabilecek olanlar dışında kalan bütün yargılama giderleri ile yargılama dışındaki giderleri.\n4. Satılanın tamamen elinden alınması yüzünden doğrudan doğruya uğradığı diğer zararları.\nSatıcı, kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe, alıcının satılanın elinden alınması yüzünden uğramış olduğu diğer zararları da gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "219",
+   "official_text": "MADDE 219- Satıcı, alıcıya karşı herhangi bir surette bildirdiği niteliklerin satılanda bulunmaması sebebiyle sorumlu olduğu gibi, nitelik veya niteliği etkileyen niceliğine aykırı olan, kullanım amacı bakımından değerini ve alıcının ondan beklediği faydaları ortadan kaldıran veya önemli ölçüde azaltan maddi, hukuki ya da ekonomik ayıpların bulunmasından da sorumlu olur.\nSatıcı, bu ayıpların varlığını bilmese bile onlardan sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "221",
+   "official_text": "MADDE 221- Satıcı satılanı ayıplı olarak devretmekte ağır kusurlu ise, ayıptan sorumluluğunu kaldıran veya sınırlayan her anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "223",
+   "official_text": "MADDE 223- Alıcı, devraldığı satılanın durumunu işlerin olağan akışına göre imkân bulunur bulunmaz gözden geçirmek ve satılanda satıcının sorumluluğunu gerektiren bir ayıp görürse, bunu uygun bir süre içinde ona bildirmek zorundadır.\nAlıcı gözden geçirmeyi ve bildirimde bulunmayı ihmal ederse, satılanı kabul etmiş sayılır. Ancak, satılanda olağan bir gözden geçirmeyle ortaya çıkarılamayacak bir ayıp bulunması hâlinde, bu hüküm uygulanmaz. Bu tür bir ayıbın bulunduğu sonradan anlaşılırsa, hemen satıcıya bildirilmelidir; bildirilmezse satılan bu ayıpla birlikte kabul edilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "225",
+   "official_text": "MADDE 225- Ağır kusurlu olan satıcı, satılandaki ayıbın kendisine süresinde bildirilmemiş olduğunu ileri sürerek sorumluluktan kısmen de olsa kurtulamaz.\nSatıcılığı meslek edinmiş kişilerin bilmesi gereken ayıplar bakımından da aynı hüküm geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "227",
+   "official_text": "MADDE 227- Satıcının satılanın ayıplarından sorumlu olduğu hâllerde alıcı, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme.\n2. Satılanı alıkoyup ayıp oranında satış bedelinde indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme.\n4. İmkân varsa, satılanın ayıpsız bir benzeri ile değiştirilmesini isteme.\nAlıcının genel hükümlere göre tazminat isteme hakkı saklıdır.\nSatıcı, alıcıya aynı malın ayıpsız bir benzerini hemen vererek ve uğradığı zararın tamamını gidererek seçimlik haklarını kullanmasını önleyebilir.\nAlıcının, sözleşmeden dönme hakkını kullanması hâlinde, durum bunu haklı göstermiyorsa hâkim, satılanın onarılmasına veya satış bedelinin indirilmesine karar verebilir.\nSatılanın değerindeki eksiklik satış bedeline çok yakın ise alıcı, ancak sözleşmeden dönme veya satılanın ayıpsız bir benzeriyle değiştirilmesini isteme haklarından birini kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "228",
+   "official_text": "MADDE 228- Alıcıya ayıplı olarak devredilmiş olan satılanın ayıptan, beklenmedik hâlden veya mücbir sebepten dolayı yok olması veya ağır biçimde zarara uğraması, alıcının sözleşmeden dönme hakkını kullanmasını engellemez. Bu durumda alıcı, satılandan elinde ne kalmışsa onu geri vermekle yükümlüdür.\nSatılan alıcıya yüklenebilen bir sebep yüzünden yok olmuşsa veya alıcı onu başkasına devretmişse ya da biçimini değiştirmişse alıcı, ancak değerindeki eksiklik karşılığının satış bedelinden indirilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "229",
+   "official_text": "MADDE 229- Satış sözleşmesinden dönen alıcı, satılanı, ondan elde ettiği yararları ile birlikte satıcıya geri vermekle yükümlüdür. Buna karşılık alıcı da, satıcıdan aşağıdaki istemlerde bulunabilir:\n1. Ödemiş olduğu satış bedelinin, faiziyle birlikte geri verilmesi.\n2. Satılanın tamamen zaptında olduğu gibi, yargılama giderleri ile satılan için yapmış olduğu giderlerin ödenmesi.\n3. Ayıplı maldan doğan doğrudan zararının giderilmesi.\nSatıcı, kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe, alıcının diğer zararlarını da gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "230",
+   "official_text": "MADDE 230- Birden çok mal veya birden çok parçadan oluşan bir mal, birlikte satılmış olup da bunlardan bazıları ayıplı çıkarsa, dönme hakkı bunlardan ancak ayıplı çıkanlar için kullanılabilir. Ancak, alıcıya veya satıcıya önemli bir zarar vermeksizin ayıplı parçanın diğerinden ayrılmasına imkân yoksa, dönme hakkının satılanın tamamını kapsaması zorunludur.\nSatılanın aslı için satıştan dönülmesi, ayrı satış bedeli gösterilerek satılmış olsalar bile, eklentilerini de kapsar; fakat eklentiler için dönme, satılanın aslını kapsamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "231",
+   "official_text": "MADDE 231- Satıcı daha uzun bir süre için üstlenmiş olmadıkça, satılanın ayıbından doğan sorumluluğa ilişkin her türlü dava, satılandaki ayıp daha sonra ortaya çıksa bile, satılanın alıcıya devrinden başlayarak iki yıl geçmekle zamanaşımına uğrar. Alıcının satılanın kendisine devrinden başlayarak iki yıl içinde bildirdiği ayıptan doğan def’i hakkı, bu sürenin geçmiş olmasıyla ortadan kalkmaz.\nSatıcı, satılanı ayıplı olarak devretmekte ağır kusurlu ise, iki yıllık zamanaşımı süresinden yararlanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "244",
+   "official_text": "MADDE 244- Aksine sözleşme olmadıkça, satılan taşınmaz, satış sözleşmesinde yazılı yüzölçümü tutarını kapsamıyorsa satıcı, eksiği için alıcıya tazminat ödemekle yükümlüdür.\nSatılan taşınmaz, resmî bir ölçüme dayanılarak tapu siciline yazılmış olan yüzölçümü tutarını içermiyorsa satıcı, özellikle üstlenmiş olmadıkça tazminat ile yükümlü değildir.\nBir yapının ayıplı olmasından doğan davalar, mülkiyetin geçmesinden başlayarak beş yılın ve satıcının ağır kusuru varsa yirmi yılın geçmesiyle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "11",
+   "official_text": "Tüketicinin seçimlik hakları\nMADDE 11- (1) Malın ayıplı olduğunun anlaşılması durumunda tüketici;\na) Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme,\nb) Satılanı alıkoyup ayıp oranında satış bedelinden indirim isteme,\nc) Aşırı bir masraf gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme,\nç) İmkân varsa, satılanın ayıpsız bir misli ile değiştirilmesini isteme,\nseçimlik haklarından birini kullanabilir. Satıcı, tüketicinin tercih ettiği bu talebi yerine getirmekle yükümlüdür.\n(2) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi hakları üretici veya ithalatçıya karşı da kullanılabilir. Bu fıkradaki hakların yerine getirilmesi konusunda satıcı, üretici ve ithalatçı müteselsilen sorumludur. Üretici veya ithalatçı, malın kendisi tarafından piyasaya sürülmesinden sonra ayıbın doğduğunu ispat ettiği takdirde sorumlu tutulmaz.\n(3) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesinin satıcı için orantısız güçlükleri beraberinde getirecek olması hâlinde tüketici, sözleşmeden dönme veya ayıp oranında bedelden indirim haklarından birini kullanabilir. Orantısızlığın tayininde malın ayıpsız değeri, ayıbın önemi ve diğer seçimlik haklara başvurmanın tüketici açısından sorun teşkil edip etmeyeceği gibi hususlar dikkate alınır.\n(4) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi haklarından birinin seçilmesi durumunda bu talebin satıcıya, üreticiye veya ithalatçıya yöneltilmesinden itibaren azami otuz iş günü, konut ve tatil amaçlı taşınmazlarda ise altmış iş günü içinde yerine getirilmesi zorunludur. Ancak, bu Kanunun 58 inci maddesi uyarınca çıkarılan yönetmelik eki listede yer alan mallara ilişkin, tüketicinin ücretsiz onarım talebi, yönetmelikte belirlenen azami tamir süresi içinde yerine getirilir. Aksi hâlde tüketici diğer seçimlik haklarını kullanmakta serbesttir.\n(5) Tüketicinin sözleşmeden dönme veya ayıp oranında bedelden indirim hakkını seçtiği durumlarda, ödemiş olduğu bedelin tümü veya bedelden yapılan indirim tutarı derhâl tüketiciye iade edilir.\n(6) Seçimlik hakların kullanılması nedeniyle ortaya çıkan tüm masraflar, tüketicinin seçtiği hakkı yerine getiren tarafça karşılanır. Tüketici bu seçimlik haklarından biri ile birlikte 11/1/2011 tarihli ve 6098 sayılı Türk Borçlar Kanunu hükümleri uyarınca tazminat da talep edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜKETİCİNİN KORUNMASI HAKKINDA KANUN",
+   "law_no": "6502",
+   "article_no": "12",
+   "official_text": "Zamanaşımı\nMADDE 12- (1) Kanunlarda veya taraflar arasındaki sözleşmede daha uzun bir süre belirlenmediği takdirde, ayıplı maldan sorumluluk, ayıp daha sonra ortaya çıkmış olsa bile, malın tüketiciye teslim tarihinden itibaren iki yıllık zamanaşımına tabidir. Bu süre konut veya tatil amaçlı taşınmaz mallarda taşınmazın teslim tarihinden itibaren beş yıldır.\n(2) Bu Kanunun 10 uncu maddesinin üçüncü fıkrası saklı olmak üzere ikinci el satışlarda satıcının ayıplı maldan sorumluluğu bir yıldan, konut veya tatil amaçlı taşınmaz mallarda ise üç yıldan az olamaz.\n(3) Ayıp, ağır kusur ya da hile ile gizlenmişse zamanaşımı hükümleri uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6502&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "23",
+   "official_text": "5. Ticari satış ve mal değişimi\nMADDE 23- (1) Bu maddedeki özel hükümler saklı kalmak şartıyla, tacirler arasındaki satış ve mal değişimlerinde de Türk Borçlar Kanununun satış sözleşmesi ile mal değişim sözleşmesine ilişkin hükümleri uygulanır.\na) Sözleşmenin niteliğine, tarafların amacına ve malın cinsine göre, satış sözleşmesinin kısım kısım yerine getirilmesi mümkün ise veya bu şartların bulunmamasına rağmen alıcı, çekince ileri sürmeksizin kısmi teslimi kabul etmişse; sözleşmenin bir kısmının yerine getirilmemesi durumunda alıcı haklarını sadece teslim edilmemiş olan kısım hakkında kullanabilir. Ancak, o kısmın teslim edilmemesi dolayısıyla sözleşmeden beklenen yararın elde edilmesi veya izlenen amaca ulaşılması imkânı ortadan kalkıyor veya zayıflıyorsa ya da durumdan ve şartlardan, sözleşmenin kalan kısmının tam veya gereği gibi yerine getirilemeyeceği anlaşılıyorsa alıcı sözleşmeyi feshedebilir.\nb) Alıcı mütemerrit olduğu takdirde satıcı, malın satışına izin verilmesini mahkemeden isteyebilir. Mahkeme, satışın açık artırma yoluyla veya bu işle yetkilendirilen bir kişi aracılığıyla yapılmasına karar verir. Satıcı isterse satış için yetkilendirilen kişi, satışa çıkarılacak malın niteliklerini bir uzmana tespit ettirir. Satış giderleri satış bedelinden çıkarıldıktan sonra artan para, satıcının takas hakkı saklı kalmak şartıyla, satıcı tarafından alıcı adına bir bankaya ve banka bulunmadığı takdirde notere bırakılır ve durum hemen alıcıya ihbar edilir.\nc) Malın ayıplı olduğu teslim sırasında açıkça belli ise alıcı iki gün içinde durumu satıcıya ihbar etmelidir. Açıkça belli değilse alıcı malı teslim aldıktan sonra sekiz gün içinde incelemek veya incelettirmekle ve bu inceleme sonucunda malın ayıplı olduğu ortaya çıkarsa, haklarını korumak için durumu bu süre içinde satıcıya ihbarla yükümlüdür. Diğer durumlarda, Türk Borçlar Kanununun 223 üncü maddesinin ikinci fıkrası uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/1241",
+   "karar_no": "2025/4762",
+   "decision_date": "13.10.2025",
+   "summary_md": "Davacı alıcı, bir şirketten 2013'te 72.000 TL bedelle ve \"2 yıl veya 3000 saat\" garantiyle bir traktör almış; traktörde şanzıman, fren ve hidrolik sistemi gibi arızalar sürekli yinelenince noter ihtarlarına rağmen sonuç alamamıştır. Hem satıcı şirkete hem de üretici şirkete karşı ayıpsız misliyle değişim, olmazsa bedel iadesi ve kullanamamaktan doğan kâr kaybı için dava açmıştır. İlk derece mahkemesinin davayı hak düşürücü süre yönünden reddeden ilk kararı istinafta kaldırılmış; yeniden yapılan yargılamada ilk derece mahkemesi satıcı yönünden misliyle değişimi kabul etmiş, birkaç masrafın ödenmesine hükmetmiş; üretici yönünden satıcı olmadığı için davayı pasif husumet yokluğundan reddetmiş, istinaf başvurusu da reddedilmiştir. Yargıtay 3. Hukuk Dairesi, TBK'nın ayıba karşı tekeffül hükümlerinde üreticinin sorumluluğuna ilişkin bir düzenleme bulunmadığı için üreticiye karşı verilen red kararında isabetsizlik görmemiştir. Kararda ayrıca dönme beyanının satıcıya ulaşınca hüküm doğuran bozucu yenilik doğuran bir hak olduğu ve dönen alıcının satılanı elde ettiği yararlarla birlikte geri vereceği (TBK m. 229/1) belirtilmiştir. Davacının yoksun kaldığı kâr talebi hakkında hüküm kurulmadığından karar yalnız bu yönden bozulmuştur. Konuya katkısı: TBK'ya tabi satışta seçimlik haklar satıcıya yöneltilir; üreticiye karşı TKHK m. 11/2 benzeri bir yol açık değildir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1201433400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/3494",
+   "karar_no": "2026/409",
+   "decision_date": "22.01.2026",
+   "summary_md": "Davacı inşaat müteahhidi (dava sırasında alacağı başkasına devretmiştir), davalı satıcıdan 2013 tarihli sözleşmeyle hazır beton almıştır. Sözleşmenin bir maddesi, teslim edilen betonun test sonuçlarının olumsuz çıkması ve kalitenin karot numunesiyle sağlanması hâlinde her karot numunesi için 5.000 TL ödenmesini öngörmüş; yapılan 135 karot testi için 796.500 TL (KDV dahil) istenmiştir. İlk derece mahkemesi davayı kabul etmiştir. İstanbul Bölge Adliye Mahkemesi 43. Hukuk Dairesi maddeyi TBK m. 179 anlamında cezai şart saymış, uyuşmazlığın TBK m. 227'deki seçimlik hakların kullanılmasına ya da genel hükümlere göre tazminata ilişkin olmadığını belirterek TBK m. 223/2 ihbar koşullarının ve TBK m. 231 zamanaşımının uygulanmayacağını söylemiştir. Aynı karar, karot sonuçlarının standardı karşıladığını, bu yüzden cezai şart isteme koşullarının oluşmadığını belirterek davayı reddetmiştir. Yargıtay 11. Hukuk Dairesi bu kararı onamıştır. Konuya katkısı: Seçimlik haklar ve TBK m. 231 zamanaşımı ayıba dayalı taleplere özgüdür; sözleşmedeki bağımsız bir cezai şart alacağı bu hükümlerin dışında değerlendirilmiştir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1197378500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/4980",
+   "karar_no": "2026/2793",
+   "decision_date": "",
+   "summary_md": "Davacı şirket, bir büyükşehir belediyesinin ihaleyle sattığı arsayı 2016'da 8.850.000 TL'ye almış; satış tarihinde parselin yapılaşma koşulları konut alanında \"Emsal 1,60, Hmax serbest\" imiş. Şirket arsayı kısa süre sonra başka bir şirkete devretmiştir. Sonraki yıllarda imar planı değişiklikleri idari yargı kararlarıyla iptal edilmiş, yapı mühürlenip yıkım kararı verilmiş ve taşınmaz davacıya iade edilmiştir. Davacı, taşınmazın hukuki ve ekonomik açıdan ayıplı hâle geldiğini ileri sürerek değer kaybını, olmazsa arsa ve inşaat için ödenen bedelin iadesini istemiştir. İlk derece mahkemesi ve bölge adliye mahkemesi, ihale şartnamesindeki sorumsuzluk kaydını, satış tarihinde taşınmazın ayıplı olmadığını ve imar planlarının tarafların iradesi dışında idari yargı kararlarıyla iptal edildiğini gerekçe göstererek davayı reddetmiştir. Yargıtay 3. Hukuk Dairesi kararı oy çokluğuyla onamıştır. Karşı oy, belediyenin ağır kusurlu olduğunu, TBK m. 221 gereği sorumsuzluk kaydının hükümsüz sayılması gerektiğini ve dönmenin sonuçlarına ilişkin istemlerin (TBK m. 229) kabul edilmesini savunmuştur. Konuya katkısı: TBK m. 227 ve 229'daki hakların kullanılabilmesi için önce satıcının ayıptan sorumlu olması gerekir; karar, satış sonrası idari yargı kararlarıyla ortaya çıkan durumun ve sorumsuzluk kaydının bu bakımdan nasıl değerlendirildiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1216295500",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 227/1'de sayılan seçimlik haklardan biri **değildir**?",
+   "options": [
+    "İmkân varsa satılanın ayıpsız bir benzeri ile değiştirilmesini isteme",
+    "Satılanı alıkoyup ayıp oranında satış bedelinde indirim isteme",
+    "Ayıbı üçüncü bir kişiye onartıp masrafını satıcıdan isteme",
+    "Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 227/1 yalnız dört hak sayar: dönme, ayıp oranında bedel indirimi, bütün masrafları satıcıya ait olmak üzere **satılanın ücretsiz onarılmasını isteme** ve imkân varsa değiştirme. Alıcının kendi başına üçüncü kişiye onartıp masrafı satıcıdan istemesi listede yer almaz; kanundaki onarım hakkı, onarımın satıcıdan istenmesi biçimindedir."
+  },
+  {
+   "stem_md": "Ahmet, ikinci el bir tezgâhı 90.000 TL'ye satın alır. Tezgâhın ayıpsız değeri 120.000 TL, ayıplı hâlinin değeri 80.000 TL'dir. Ahmet satılanı alıkoyarak bedel indirimi seçerse oransal (nispi) yönteme göre indirim tutarı ne olur?",
+   "options": [
+    "10.000 TL",
+    "30.000 TL",
+    "40.000 TL",
+    "45.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kanun \"ayıp oranında\" indirim der. Ayıplı değerin ayıpsız değere oranı 80.000 ÷ 120.000 = 2/3'tür. Ahmet'in ödemesi gereken bedel 90.000 × 2/3 = 60.000 TL, indirim 30.000 TL'dir. Değer farkının (120.000 − 80.000 = 40.000 TL) indirilmesi, bedel ayıpsız değerden düşük olduğu için doğru sonuç vermez. (TBK m. 227/1)"
+  },
+  {
+   "stem_md": "Satıcı, alıcının seçimlik haklarını kullanmasını TBK m. 227/3'e göre hangi şartlarla önleyebilir?",
+   "options": [
+    "Ayıbı bilmediğini ispat ederek",
+    "Yalnızca satış bedelini faiziyle iade ederek",
+    "Ayıp bildiriminin gecikmeli yapıldığını ileri sürerek",
+    "Aynı malın ayıpsız bir benzerini hemen vererek ve uğradığı zararın tamamını gidererek"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 227/3'e göre satıcı, aynı malın ayıpsız bir benzerini **hemen** vererek **ve** zararın **tamamını** gidererek seçimlik hakları önleyebilir. Ayıbı bilmemek sorumluluğu kaldırmaz (TBK m. 219/2); bedeli iade etmek ise alıcının seçeceği dönme hakkının karşılığıdır, satıcının tek taraflı önleme yolu değildir."
+  },
+  {
+   "stem_md": "Gül, bir tarım makinesini 250.000 TL'ye alır; ayıp yüzünden makinenin değeri fiilen bedele çok yakın bir oranda düşmüştür. Gül'ün seçimlik hakları bakımından hangisi doğrudur?",
+   "options": [
+    "Yalnız ücretsiz onarım isteyebilir",
+    "Yalnız bedel indirimi isteyebilir",
+    "Ancak sözleşmeden dönme veya ayıpsız benzeriyle değiştirme isteyebilir",
+    "Hiçbir seçimlik hakkı kullanamaz"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Satılanın değerindeki eksiklik satış bedeline çok yakın olduğunda alıcı **ancak** sözleşmeden dönme veya ayıpsız benzeriyle değiştirme haklarından birini kullanabilir (TBK m. 227/5). Bu durumda indirim ve onarım yolu kapanır."
+  },
+  {
+   "stem_md": "Ayşe, 500.000 TL'lik otomobilin kapı contasındaki küçük bir sızıntı yüzünden sözleşmeden dönmüştür. Sızıntı masrafsız ve kolayca onarılabilir; durum dönmeyi haklı göstermemektedir. Hâkim TBK m. 227/4'e göre ne yapabilir?",
+   "options": [
+    "Satılanın onarılmasına veya satış bedelinin indirilmesine karar verebilir",
+    "Alıcıyı ayrıca tazminata mahkûm edebilir",
+    "Kendiliğinden ayıpsız benzeriyle değişime karar verebilir",
+    "Sözleşmenin yeniden kurulmasına karar verebilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Alıcı dönme hakkını kullanmış ve durum bunu haklı göstermiyorsa hâkim, satılanın **onarılmasına** veya satış bedelinin **indirilmesine** karar verebilir (TBK m. 227/4). Kanun hâkime yalnız bu iki alternatifi tanır; kendiliğinden ayıpsız benzeriyle değişim bunların arasında sayılmaz."
+  },
+  {
+   "stem_md": "Deniz'in satın aldığı canlı balıklar, satış sırasında mevcut bulaşıcı bir hastalıktan (ayıptan) dolayı ölmüştür. Deniz sözleşmeden dönmek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Deniz dönemez; ancak tazminat isteyebilir",
+    "Deniz dönemez, ancak satıcının ayıpsız benzerini vermesini bekleyebilir",
+    "Satılan yok olduğundan Deniz dönemez, yalnız bedel indirimi isteyebilir",
+    "Deniz dönebilir ve elinde ne kalmışsa onu geri verir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Ayıplı devredilen satılanın **ayıptan**, beklenmedik hâlden veya mücbir sebepten yok olması alıcının dönme hakkını engellemez; alıcı elinde ne kalmışsa onu geri vermekle yükümlüdür (TBK m. 228/1). Yalnız bedel indirimine yönelten sebep, alıcıya yüklenebilen yok oluş, devir veya biçim değiştirmedir."
+  },
+  {
+   "stem_md": "Ece, ayıplı bir kumaşı satın alır ve ayıbı fark etmeden kumaşı keserek elbise diker. Daha sonra ayıbı anlayıp sözleşmeden dönmek istemektedir. Ece'nin durumu için hangisi doğrudur?",
+   "options": [
+    "Ece yalnız değerindeki eksikliğin bedelden indirilmesini isteyebilir",
+    "Ece ücretsiz onarım isteyebilir",
+    "Ece dönebilir; çünkü ayıbı sonradan öğrenmiştir",
+    "Ece ayıpsız kumaşla değiştirme isteyebilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Alıcı satılanın **biçimini değiştirmişse** ancak değerindeki eksiklik karşılığının satış bedelinden indirilmesini isteyebilir (TBK m. 228/2). Kumaşın kesilerek elbiseye dönüştürülmesi biçim değiştirmedir; bu durumda dönme, değiştirme ve onarım artık gündeme gelmez."
+  },
+  {
+   "stem_md": "Cem, ayıplı bir dizüstü bilgisayarı satın aldıktan sonra üçüncü bir kişiye satıp devretmiştir. Ayıbın varlığı ve bildirimin süresinde yapıldığı sabittir. Cem hangisini isteyebilir?",
+   "options": [
+    "Ayıpsız benzeriyle değiştirme",
+    "Ücretsiz onarım",
+    "Sözleşmeden dönme",
+    "Ancak değerindeki eksikliğin bedelden indirilmesi"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Alıcı satılanı başkasına devretmişse artık satılanı geri veremez; TBK m. 228/2'ye göre ancak değerindeki eksiklik karşılığının satış bedelinden indirilmesini isteyebilir. Dönme, değiştirme ve onarım bu durumda uygun düşmez."
+  },
+  {
+   "stem_md": "Fatma, aldığı soğutucudaki ayıp nedeniyle ayıpsız benzeriyle değiştirme seçmiştir. Soğutucu içindeki ilaç stoku da bozulmuştur. Fatma ayrıca zararını istemek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Tazminat ancak dönme seçildiğinde istenebilir",
+    "Tazminat yalnız satıcı ayıbı bilerek gizlemişse istenebilir",
+    "Seçimlik hakkını kullandığı için tazminat isteyemez",
+    "Genel hükümlere göre tazminat isteme hakkı saklıdır; satıcı kusursuzluğunu ispat etmedikçe zararı giderir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 227/2'ye göre alıcının genel hükümlere göre tazminat isteme hakkı saklıdır; seçimlik haklara ek olarak istenebilir. Genel hükümde borçlu, kendisine kusur yüklenemeyeceğini ispat etmedikçe zararı giderir (TBK m. 112). Tazminatın yalnız dönmeye veya satıcının bilmesine bağlı olduğu söylenemez."
+  },
+  {
+   "stem_md": "Mehmet, ayıplı bir pres makinesi yüzünden üçüncü bir kişiyle yaptığı üretim sözleşmesini ifa edememiş ve 80.000 TL kâr kaybına uğramıştır. Mehmet sözleşmeden dönmüştür. Satıcı, kendisine hiçbir kusur yüklenemeyeceğini ispat etmiştir. Kâr kaybı bakımından sonuç nedir?",
+   "options": [
+    "Dönme seçilmiş olduğundan Mehmet hiçbir zarar isteyemez",
+    "Satıcı kusursuzluğunu ispat ettiği için kâr kaybından sorumlu olmaz",
+    "Mehmet kâr kaybını yalnız satıcı ağır kusurluysa isteyebilir",
+    "Satıcı kusursuz olsa bile kâr kaybını öder"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Üçüncü kişiyle yapılan sözleşmenin ifa edilememesi yüzünden doğan kâr kaybı, makinenin kendisinden doğan zarar değil, **diğer zarar** niteliğindedir. Diğer zararlar için satıcı kendisine hiçbir kusur yüklenemeyeceğini ispat ederse sorumlu olmaz (TBK m. 229/2)."
+  },
+  {
+   "stem_md": "Burak, ayıplı bir otomobilden sözleşmeden dönmüş; satış için noter masrafı ödemiştir. Burak satıcıdan hangi istemlerde bulunabilir?",
+   "options": [
+    "Yalnız ödediği satış bedelini, faizsiz olarak",
+    "Ödediği satış bedelini faiziyle birlikte ve satılan için yaptığı giderleri",
+    "Yalnız satılan için yaptığı giderleri",
+    "Satış bedelini, ancak giderleri değil"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 229/1'e göre dönen alıcı satıcıdan ödediği satış bedelinin **faiziyle birlikte** geri verilmesini ve satılan için yaptığı giderlerin ödenmesini isteyebilir. Bu istemler birbirinin yerine değil, birlikte ileri sürülür."
+  },
+  {
+   "stem_md": "Hasan, 12 sandalyeyi bir arada satın almış, üçü ayıplı çıkmıştır. Sandalyeler tek tek ayrılabilmekte, ayırmak ne alıcıya ne satıcıya önemli bir zarar vermektedir. Hasan sözleşmeden dönmek isterse dönme hangi kapsamda kullanılabilir?",
+   "options": [
+    "Dönme hakkı kullanılamaz; yalnız indirim istenebilir",
+    "Yalnız ayıplı çıkan üç sandalye için",
+    "Bütün sandalyeler için, çünkü birlikte satılmışlardır",
+    "Üç ayıplı sandalye ve en az üç ayıpsız sandalye için"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Birlikte satılan birden çok maldan bazıları ayıplı çıkarsa dönme hakkı ancak ayıplı çıkanlar için kullanılır; ayırmak önemli zarar vermeksizin mümkünse tamamını kapsamaz (TBK m. 230/1). Tamamını kapsaması, ayrılamama hâlinde söz konusudur."
+  },
+  {
+   "stem_md": "Elif, bir otomobili ayrı bedel gösterilen yedek lastik ve kriko setiyle birlikte satın almıştır. Motorda ayıp ortaya çıkmış ve Elif otomobilden dönmüştür. Set bakımından hangisi doğrudur?",
+   "options": [
+    "Dönme setleri kapsamaz; ayrı bedel yazıldığı için set Elif'te kalır",
+    "Set için ayrıca dönme beyanı gerekir",
+    "Asıl şeyden dönmek eklentiyi de kapsar; ayrı bedel yazılması sonucu değiştirmez",
+    "Set ancak satıcı razı olursa iade edilebilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Satılanın aslı için satıştan dönülmesi, eklentileri ayrı satış bedeli gösterilerek satılmış olsalar bile kapsar (TBK m. 230/2). Ayrı beyan ya da satıcının onayı aranmaz."
+  },
+  {
+   "stem_md": "Nur, bir otomobili yedek lastik ve kriko setiyle birlikte satın almıştır. Yalnız kriko kırık çıkmış, otomobil ayıpsızdır. Nur yalnız krikodan dönerse sonuç ne olur?",
+   "options": [
+    "Dönme için hâkimin ayrıca karar vermesi gerekir",
+    "Dönme mümkün değildir; yalnız indirim istenebilir",
+    "Dönme otomobili de kapsar",
+    "Dönme yalnız eklentiyi kapsar, otomobil sözleşmesi ayakta kalır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Eklentiler için dönme satılanın aslını kapsamaz (TBK m. 230/2). Nur'un dönmesi yalnız eklenti için sonuç doğurur; otomobil satışı olduğu gibi kalır."
+  },
+  {
+   "stem_md": "Nilay, 1 Mart 2024'te teslim aldığı bir tarım makinesindeki gizli ayıbı 20 Nisan 2026'da fark eder ve hemen satıcıya bildirir. Satıcı ağır kusurlu değildir ve daha uzun süre üstlenmemiştir. Nilay 20 Mayıs 2026'da bedel indirimi davası açarsa satıcı zamanaşımı itirazında bulunduğunda sonuç ne olur?",
+   "options": [
+    "Dava kabul edilir; bildirim yapıldığı için zamanaşımı işlemez",
+    "Dava reddedilir; zamanaşımı 1 Mart 2026'da dolmuştur",
+    "Dava reddedilir; zamanaşımı 20 Nisan 2028'de dolacaktır",
+    "Dava kabul edilir; süre ayıbın öğrenildiği tarihten başlar"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ayıptan sorumluluğa ilişkin davalar, ayıp daha sonra ortaya çıksa bile, satılanın alıcıya devrinden başlayarak iki yıl geçmekle zamanaşımına uğrar (TBK m. 231/1). Süre 1 Mart 2024'ten işler ve 1 Mart 2026'da dolar. Bildirim yapılmış olması süreyi durdurmaz; süre ayıbın öğrenilmesinden değil devirden başlar."
+  },
+  {
+   "stem_md": "Kemal, 600.000 TL'lik bir hasat makinesinin 250.000 TL'sini vadeye bırakmıştır. Teslimden dokuz ay sonra ortaya çıkan gizli bir ayıbı aynı gün noter ihtarıyla bildirmiş, dava açmamıştır. Teslimden üç yıl sonra satıcı kalan bedeli ister. Kemal ayıbı savunma olarak ileri sürebilir mi?",
+   "options": [
+    "Hayır; ayıptan doğan her hak iki yıl geçmekle tamamen sona erer",
+    "Hayır; ayıp yalnız dava yoluyla ileri sürülebilir",
+    "Evet; ancak yalnız satıcı ağır kusurluysa",
+    "Evet; devirden itibaren iki yıl içinde bildirilen ayıptan doğan def'i hakkı, bu sürenin geçmesiyle ortadan kalkmaz"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Alıcının satılanın kendisine devrinden başlayarak iki yıl içinde bildirdiği ayıptan doğan def'i hakkı, bu sürenin geçmiş olmasıyla ortadan kalkmaz (TBK m. 231/1). Ağır kusur bu hakkın şartı değildir."
+  },
+  {
+   "stem_md": "Mert, bir otomobili satın almış; satıcı motordaki ayıbı bildiği hâlde bile bile gizleyerek devretmiştir. Mert davayı teslimden üç yıl sonra açmaktadır. Satıcı iki yıllık zamanaşımı itirazında bulunursa hangisi doğrudur?",
+   "options": [
+    "İtiraz kabul edilir; davalar ne olursa olsun iki yılda zamanaşımına uğrar",
+    "İtiraz kabul edilir; süre ayıbın ortaya çıktığı tarihten başlar",
+    "İtiraz kabul edilir, ancak Mert tazminat isteyebilir",
+    "Ağır kusurlu satıcı iki yıllık zamanaşımı süresinden yararlanamaz"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Satıcı satılanı ayıplı olarak devretmekte ağır kusurlu ise iki yıllık zamanaşımı süresinden yararlanamaz (TBK m. 231/2). Ayıbı bile bile gizleyen satıcı ağır kusurlu sayılır."
+  },
+  {
+   "stem_md": "Zeynep, bir mağazadan aldığı akıllı telefonda (tüketici işlemi) ayıp bulmuştur. Zeynep ayıpsız benzeriyle değiştirme istemek istemektedir. TKHK m. 11/2'ye göre hangisi doğrudur?",
+   "options": [
+    "Üretici ve ithalatçı ayıbın doğduğu tarihi ispat etmeksizin her hâlde sorumludur",
+    "Değiştirme (ve ücretsiz onarım) hakkı üretici veya ithalatçıya karşı da kullanılabilir; satıcı, üretici ve ithalatçı müteselsilen sorumludur",
+    "Değiştirme hakkı ancak dönme hakkı kullanıldıktan sonra istenebilir",
+    "Değiştirme hakkı yalnız satıcıya karşı kullanılabilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TKHK m. 11/2'ye göre ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi hakları üretici veya ithalatçıya karşı da kullanılabilir ve satıcı, üretici ve ithalatçı müteselsilen sorumludur. Üretici veya ithalatçı, ayıbın malı piyasaya sürmesinden sonra doğduğunu ispat ederse sorumlu tutulmaz. Haklar arasında sıra yoktur."
+  },
+  {
+   "stem_md": "Tüketici olmayan Ali, bir bayiden traktör satın almış ve traktör ayıplı çıkmıştır. Ali, TBK m. 227'deki seçimlik hakları kime karşı kullanabilir?",
+   "options": [
+    "Satıcıya karşı; üretici sözleşmenin tarafı olmadığından ona karşı TBK'daki ayıp hükümlerine dayanılamaz",
+    "Yalnız üreticiye karşı",
+    "Hem satıcıya hem ithalatçıya karşı müteselsilen",
+    "Satıcıya ve üreticiye karşı müteselsilen"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK'nın satış hükümleri satıcıyla alıcı arasındaki ilişkiyi düzenler; üreticinin ayıptan sorumluluğuna ilişkin hüküm yoktur. Yargıtay da TBK'ya tabi satışta üreticiye karşı bu hükümlerle dava açılamayacağını kabul etmiştir. TKHK m. 11/2'deki müteselsil sorumluluk tüketici işlemlerine özgüdür."
+  },
+  {
+   "stem_md": "Bir tüketici, yeni inşa edilmiş bir konutu teslim almıştır. TKHK m. 12/1'e göre kanunda veya sözleşmede daha uzun süre belirlenmemişse ayıplı maldan sorumluluk, teslim tarihinden itibaren ne kadar sürede zamanaşımına uğrar?",
+   "options": [
+    "On yıl",
+    "İki yıl",
+    "Beş yıl",
+    "Üç yıl"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TKHK m. 12/1'e göre konut veya tatil amaçlı taşınmaz mallarda ayıplı maldan sorumluluk için zamanaşımı süresi, taşınmazın teslim tarihinden itibaren **beş yıldır**. Diğer mallarda iki yıldır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ayşe, 3 Mart 2025'te komşusu Mehmet'ten (ikisi de tacir değil, işlem tüketici işlemi de değil) ikinci el bir motosikleti 150.000 TL'ye satın alır; bedelin tamamını öder ve motosikleti aynı gün teslim alır. Motosikletin ayıpsız değeri 200.000 TL'dir. 20 Mart 2025'te şasede gözle görülmeyen bir çatlak ortaya çıkar; bu hâliyle motosikletin değeri 120.000 TL'dir. Ayşe durumu aynı gün noter aracılığıyla Mehmet'e bildirir. Mehmet ayıbı bilmediğini söylemektedir.\n\nAyşe motosikleti kullanmaya devam etmek istemekte, ancak bedelden indirim istemektedir. Ayrıca motosikletin arızası yüzünden yedek ulaşım için taksi ve benzeri ödemeler yaptığını ve bunların bedelinin de Mehmet'ten tahsilini istemektedir. Mehmet kusursuz olduğunu ileri sürmektedir. Ayrıca Mehmet, Ayşe'ye ayıpsız bir benzerini vermeyi ve Ayşe'nin uğradığı zararın tamamını karşılamayı önermiştir.\n\n1. Ayşe'nin hangi seçimlik hakları vardır? Mehmet'in ayıbı bilmemesi sonucu değiştirir mi?\n2. Ayşe bedel indirimi isterse indirim tutarı ne olur?\n3. Ayşe seçimlik hak yanında zararını da isteyebilir mi? Mehmet'in kusursuzluğu hangi sonucu doğurur?\n4. Mehmet, ayıpsız benzerini hemen verip zararın tamamını giderirse Ayşe'nin hakları ne olur?",
+   "rubric": [
+    {
+     "point": "Ayıp nedeniyle alıcının dört seçimlik hakkının sayılması (dönme, bedel indirimi, ücretsiz onarım, değiştirme); seçimlik hakların satıcının ayıbı bilmesine bağlı olmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 227"
+    },
+    {
+     "point": "Satıcının ayıbı bilmese de sorumlu olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 219"
+    },
+    {
+     "point": "Bildirimin süresinde yapılmış olması; alıcının satılanı kabul etmiş sayılmaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 223"
+    },
+    {
+     "point": "Bedel indirimi için oransal yöntem: 150.000 × 120.000/200.000 = 90.000 TL ödenecek bedel, indirim 60.000 TL",
+     "weight": 20,
+     "madde_ref": "TBK m. 227/1"
+    },
+    {
+     "point": "Tazminat hakkının saklı olması ve seçimlik haklara ek olarak istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 227/2"
+    },
+    {
+     "point": "Tazminatta kusur karinesi; Mehmet kusursuzluğunu ispat ederse tazminat yükümlülüğünden kurtulur, seçimlik hak sorumluluğu devam eder",
+     "weight": 10,
+     "madde_ref": "TBK m. 112"
+    },
+    {
+     "point": "Satıcının ayıpsız benzerini hemen verip zararın tamamını gidermesi hâlinde seçimlik hakların kullanılmasının önlenmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 227/3"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ayşe ile Mehmet arasında taşınır satışı vardır. Taraflar tacir olmadığından ve satış tüketici işlemi sayılmadığından TBK'nın satış hükümleri uygulanır. Motosiklet teslim anında mevcut bir gizli ayıp taşımaktadır.\n\n**Hukuki sorunlar:** (1) Ayşe'nin seçimlik hakları ve Mehmet'in ayıbı bilmemesinin etkisi; (2) bedel indirimi tutarının hesabı; (3) tazminat; (4) satıcının hakları önleme yetkisi.\n\n**İlgili hükümler:** TBK m. 219/2, TBK m. 223, TBK m. 227/1-3, TBK m. 112.\n\n**Değerlendirme:**\n\n*1. Seçimlik haklar:* Satıcı ayıbı bilmese bile ayıptan sorumludur (TBK m. 219/2); bu nedenle Mehmet'in \"bilmiyordum\" savunması sorumluluğu kaldırmaz. Ayşe, gizli ayıp ortaya çıktığı gün bildirimi yaptığından TBK m. 223 külfetini yerine getirmiştir; motosikleti kabul etmiş sayılmaz. TBK m. 227/1'e göre Ayşe, satılanı geri vermeye hazır olduğunu bildirerek dönme, satılanı alıkoyup ayıp oranında bedel indirimi, aşırı masraf gerektirmiyorsa ücretsiz onarım veya imkân varsa ayıpsız benzeriyle değiştirme haklarından birini seçebilir. Ayşe motosikleti kullanmaya devam etmek istediğinden bedel indirimini seçer.\n\n*2. İndirim tutarı:* İndirim ayıp oranında yapılır. Ayıplı değerin ayıpsız değere oranı 120.000 ÷ 200.000 = 3/5'tir. Ayşe'nin ödemesi gereken bedel 150.000 × 3/5 = 90.000 TL'dir; indirim tutarı 150.000 − 90.000 = 60.000 TL olur. Değer farkı olan 80.000 TL (200.000 − 120.000) indirilmez; çünkü Ayşe motosikleti ayıpsız değerinin altında bir bedelle satın almıştır. Değer eksikliği bedele çok yakın olmadığından TBK m. 227/5 devreye girmez.\n\n*3. Tazminat:* TBK m. 227/2'ye göre genel hükümlere göre tazminat isteme hakkı saklıdır; Ayşe bedel indirimi yanında zararını da isteyebilir. Tazminatta TBK m. 112'ye göre Mehmet kendisine hiçbir kusur yüklenemeyeceğini ispatlarsa tazminat borcundan kurtulur. Kusursuzluğun ispatı yalnız tazminatı etkiler; bedel indirimi gibi seçimlik haklar satıcının kusuruna bağlı olmadığından devam eder.\n\n*4. Önleme yetkisi:* Mehmet aynı malın ayıpsız bir benzerini hemen verir ve Ayşe'nin uğradığı zararın tamamını giderirse TBK m. 227/3'e göre Ayşe'nin seçimlik haklarını kullanmasını önlemiş olur. İki şart birliktedir; hemen verme ya da zararın tamamının giderilmesinden biri eksikse Ayşe'nin hakları açık kalır.\n\n**Sonuç:**\n- Ayşe dört seçimlik haktan birini kullanabilir; Mehmet'in ayıbı bilmemesi sorumluluğu kaldırmaz.\n- Bedel indirimi 60.000 TL'dir (ödenecek bedel 90.000 TL).\n- Tazminat hakkı saklıdır; Mehmet kusursuzluğunu ispat ederse tazminat ödemez, ancak seçimlik hak sorumluluğu sürer.\n- Mehmet ayıpsız benzerini hemen verip zararın tamamını giderirse Ayşe'nin seçimlik hakları önlenmiş olur."
+  },
+  {
+   "stem_md": "Mehmet, 10 Ocak 2025'te Ali'den (ikisi de tacir değil, işlem tüketici işlemi de değil) kullanılmış bir otomobili 296.000 TL'ye ve aynı sözleşmede ayrı bedel (4.000 TL) gösterilen yedek lastik ve kriko setini satın alır; toplam 300.000 TL'yi öder ve her ikisini teslim alır. Satış için noter masrafı olarak 5.000 TL öder. Teslimden yirmi gün sonra motor bloğunda çatlak ortaya çıkar; araç güvenle kullanılamamakta ve onarımı aracın değerinin yarısını aşmaktadır. Mehmet ayıbı hemen Ali'ye bildirir, aracı ve seti geri vermeye hazır olduğunu belirterek sözleşmeden döndüğünü açıklar.\n\nMehmet, araç çalışmadığı için bir üçüncü kişiyle yaptığı nakliye sözleşmesini ifa edememiş ve 60.000 TL kâr kaybına uğramıştır. Ali, ayıbı bilmediğini ve ayıbın usta bir servis tarafından bile tespit edilemeyeceğini ispat ederek kendisine hiçbir kusur yüklenemeyeceğini kanıtlamıştır. Ali ayrıca \"Araç sonuçta yürüyor, hâkim dönmeyi kabul etmez\" demektedir.\n\n1. Mehmet sözleşmeden dönebilir mi? Taraflar birbirine neyi geri verir?\n2. Mehmet Ali'den hangi kalemleri isteyebilir?\n3. 60.000 TL kâr kaybı bakımından Ali sorumlu mudur?\n4. Yalnız yedek lastik ve kriko setinde ayıp çıkmış olsaydı dönme neleri kapsardı?\n5. Ali'nin \"hâkim dönmeyi kabul etmez\" savunmasını TBK m. 227/4 bakımından değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Ayıbın ortaya çıkması üzerine alıcının geri vermeye hazır olduğunu bildirerek sözleşmeden dönebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 227/1"
+    },
+    {
+     "point": "Dönen alıcının satılanı elde ettiği yararlarla birlikte geri vermesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 229/1"
+    },
+    {
+     "point": "Ödenen satış bedelinin faiziyle birlikte geri istenebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 229/1"
+    },
+    {
+     "point": "Satılan için yapılan giderlerin (noter masrafı) istenebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 229/1"
+    },
+    {
+     "point": "Kâr kaybının diğer zarar niteliği ve satıcının kusursuzluğunu ispat etmesi nedeniyle sorumlu olmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 229/2"
+    },
+    {
+     "point": "Asıl şeyden dönmenin eklentiyi kapsaması; ayrı bedel yazılmasının sonucu değiştirmemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 230/2"
+    },
+    {
+     "point": "Eklenti için dönmenin asıl şeyi kapsamaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 230/2"
+    },
+    {
+     "point": "Dönmenin haklı olması nedeniyle hâkimin dönme yerine onarım veya indirime gitmesinin söz konusu olmaması; bu yetkinin yalnız onarım veya indirimle sınırlı olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 227/4"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Mehmet ile Ali arasında taşınır satışı vardır; taraflar tacir olmadığı için TBK hükümleri uygulanır. Araçtaki gizli motor ayıbı Mehmet'in seçimlik haklarını doğurmuştur. Yedek lastik ve kriko seti, aracın eklentisi niteliğindedir.\n\n**Hukuki sorunlar:** (1) Dönmenin şartları ve iade; (2) dönmede istenebilecek kalemler; (3) kâr kaybı; (4) eklenti ve asıl şey ilişkisi; (5) hâkimin dönme yerine başka bir yola gitme yetkisi.\n\n**İlgili hükümler:** TBK m. 227/1, TBK m. 227/4, TBK m. 229/1-2, TBK m. 230/2.\n\n**Değerlendirme:**\n\n*1. Dönme ve iade:* Mehmet ayıbı hemen bildirdiğinden ve satılanı geri vermeye hazır olduğunu açıkladığından TBK m. 227/1'e göre sözleşmeden dönebilir. Dönen alıcı satılanı, ondan elde ettiği yararlarla birlikte satıcıya geri vermekle yükümlüdür (TBK m. 229/1); Mehmet otomobili ve seti iade eder.\n\n*2. İstenebilecek kalemler:* TBK m. 229/1'e göre Mehmet ödediği satış bedelinin (300.000 TL) faiziyle birlikte geri verilmesini ve satılan için yaptığı giderlerin, yani 5.000 TL noter masrafının ödenmesini isteyebilir. Ayıplı maldan doğan doğrudan zararını da isteyebilir. Bu kalemlerde satıcının kusursuzluğunu ispatı sonucu değiştirmez.\n\n*3. Kâr kaybı:* Mehmet'in üçüncü kişiyle yaptığı nakliye sözleşmesini ifa edememesinden doğan 60.000 TL kâr kaybı, ayıplı malın kendisinden doğan zarar değildir; TBK m. 229/2'deki **diğer zararlar** kapsamındadır. Satıcı kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe bunları da giderir. Ali, ayıbın servis tarafından bile tespit edilemeyeceğini ispat ederek kusursuzluğunu kanıtlamıştır. Bu nedenle 60.000 TL'den sorumlu olmaz. Bu sonuç doğrudan zarar kalemlerini ve bedel iadesini etkilemez.\n\n*4. Eklenti:* Satılanın aslı için dönülmesi, eklentileri ayrı satış bedeli gösterilerek satılmış olsalar bile kapsar (TBK m. 230/2). Mehmet, 4.000 TL ayrı bedelli seti ayrıca dönme beyanına gerek kalmadan iade eder. Ayıp yalnız sette olsaydı, eklenti için dönme satılanın aslını kapsamayacağından Mehmet yalnız set için dönebilir, otomobil kendisinde kalırdı.\n\n*5. Hâkimin yetkisi:* Alıcı dönmeyi kullanmış ve durum dönmeyi haklı göstermiyorsa hâkim, satılanın onarılmasına veya bedelin indirilmesine karar verebilir (TBK m. 227/4). Burada motor bloğundaki çatlak aracı güvenle kullanılamaz hâle getirmekte ve onarımı aracın değerinin yarısını aşmaktadır; durum dönmeyi haklı göstermektedir. Bu nedenle TBK m. 227/4 devreye girmez ve Ali'nin savunması yerinde değildir. Dönme haklı olmasaydı bile hâkim bu fıkra uyarınca ancak onarım veya indirime karar verebilir, kendiliğinden ayıpsız benzeriyle değişime hükmedemezdi.\n\n**Sonuç:**\n- Mehmet dönebilir; otomobil ve set yararlarıyla iade edilir.\n- Mehmet 300.000 TL'yi faiziyle ve 5.000 TL noter masrafını isteyebilir.\n- Ali, kusursuzluğunu ispat ettiği için 60.000 TL kâr kaybından sorumlu değildir.\n- Asıl şeyden dönmek seti kapsar; eklentiden dönmek asıl şeyi kapsamazdı.\n- Dönme haklıdır; hâkim dönme yerine onarım veya indirime gitmez."
+  },
+  {
+   "stem_md": "Hasan, 8 Eylül 2023'te Burak'a (ikisi de tacir değil, işlem tüketici işlemi de değil) ikinci el bir hasat makinesini 600.000 TL'ye satar ve teslim eder. Burak bedelin 350.000 TL'sini peşin öder; kalan 250.000 TL'yi 15 Kasım 2025'te ödeyecektir. 20 Haziran 2024'te makinede gizli bir şanzıman ayıbı ortaya çıkar ve Burak ayıbı 21 Haziran 2024'te noter aracılığıyla Hasan'a bildirir. Burak dava açmaz.\n\nHasan, 3 Aralık 2025'te kalan 250.000 TL'nin ödenmesi için dava açar. Burak ayıp savunmasında bulunur. Burak ayrıca bedel indirimi istemiyle dava açmak istemektedir. Hasan, iki yıllık zamanaşımı süresinin dolduğunu ileri sürmektedir.\n\nBurak'ın avukatı, olay yeniden kurgulanırsa iki ihtimali sormaktadır: (a) Hasan ayıbı bilerek gizlemişse; (b) sözleşmede Hasan'ın ayıplara karşı üç yıl sorumlu olacağı yazılmışsa.\n\n1. Hasan'ın bedel davasına karşı Burak ayıp savunmasını ileri sürebilir mi?\n2. Burak'ın 3 Aralık 2025'te açacağı bedel indirimi davası bakımından zamanaşımı itirazı sonucu ne olur?\n3. (a) ihtimalinde sonuç ne olur?\n4. (b) ihtimalinde sonuç ne olur?",
+   "rubric": [
+    {
+     "point": "Zamanaşımı süresinin satılanın devrinden (teslim: 8 Eylül 2023) başlayarak iki yıl olması; bu sürenin 8 Eylül 2025'te dolması",
+     "weight": 20,
+     "madde_ref": "TBK m. 231/1"
+    },
+    {
+     "point": "Burak'ın ayıbı iki yıl içinde bildirmiş olması ve ayıptan doğan def'i hakkının süre geçmiş olsa da ortadan kalkmaması",
+     "weight": 25,
+     "madde_ref": "TBK m. 231/1"
+    },
+    {
+     "point": "Bedel indirimi davasının iki yıllık süre geçtikten sonra açılması nedeniyle zamanaşımına uğraması; bildirimin süreyi durdurmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 231/1"
+    },
+    {
+     "point": "Satıcının ağır kusurlu olması hâlinde iki yıllık zamanaşımı süresinden yararlanamaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 231/2"
+    },
+    {
+     "point": "Satıcının daha uzun süre üstlenmesi hâlinde sürenin üç yıl olması; 3 Aralık 2025'te sürenin dolmamış olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 231/1"
+    },
+    {
+     "point": "Ağır kusurlu satıcının bildirimin geç yapıldığını ileri sürememesi",
+     "weight": 5,
+     "madde_ref": "TBK m. 225"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taşınır satışı vardır; tarafların tacir olmaması ve işlemin tüketici işlemi sayılmaması nedeniyle TBK uygulanır. Burak'ın ayıp bildirimi, devirden yaklaşık dokuz ay sonra ve iki yıllık süre dolmadan yapılmıştır.\n\n**Hukuki sorunlar:** (1) Ayıptan sorumluluk davalarının zamanaşımı süresi ve başlangıcı; (2) bedeli ödenmemiş alıcının ayıp def'i; (3) süre geçmiş bedel indirimi davası; (4) ağır kusurun etkisi; (5) satıcının daha uzun süre üstlenmesi.\n\n**İlgili hükümler:** TBK m. 231/1-2, TBK m. 225, TBK m. 223.\n\n**Değerlendirme:**\n\n*1. Def'i:* Ayıptan sorumluluğa ilişkin her türlü dava, satılanın alıcıya devrinden başlayarak iki yıl geçmekle zamanaşımına uğrar (TBK m. 231/1). Teslim 8 Eylül 2023'te yapıldığından süre 8 Eylül 2025'te dolmuştur. Ancak alıcının satılanın kendisine devrinden başlayarak iki yıl içinde bildirdiği ayıptan doğan def'i hakkı, bu sürenin geçmesiyle ortadan kalkmaz. Burak ayıbı 21 Haziran 2024'te, yani iki yıl dolmadan, bildirdiğinden Hasan'ın 3 Aralık 2025'te açtığı bedel davasına karşı ayıp savunmasını ileri sürebilir.\n\n*2. Bedel indirimi davası:* Burak'ın bedel indirimi için açacağı dava, ayıptan sorumluluğa ilişkin bir davadır ve süre ayıbın öğrenildiği tarihten değil devirden işler. Bildirim yapılmış olması da süreyi durdurmaz. 3 Aralık 2025'te süre dolmuş olduğundan Hasan zamanaşımı itirazında bulunursa Burak'ın bedel indirimi davası reddedilir. Bu, Burak'ın ayıbı savunma olarak ileri sürme imkânını ortadan kaldırmaz; ondan ayrı değerlendirilir.\n\n*3. Ağır kusur (a):* Satıcı satılanı ayıplı devretmekte ağır kusurlu ise iki yıllık zamanaşımı süresinden yararlanamaz (TBK m. 231/2). Ayıbı bilerek gizleyen Hasan ağır kusurludur; baskın görüşe göre bu durumda genel zamanaşımı süresi olan on yıl (TBK m. 146) uygulanır ve Burak'ın davası zamanaşımına uğramamış olur. Hasan ayrıca ağır kusurlu olduğundan bildirimin gecikmiş olduğunu da ileri süremez (TBK m. 225); olayda bildirim zaten süresindedir.\n\n*4. Uzun süre üstlenme (b):* Satıcı daha uzun bir süre için üstlenmişse iki yıllık süre uygulanmaz (TBK m. 231/1). Sözleşmede Hasan'ın ayıplara karşı üç yıl sorumlu olacağı yazılmışsa süre 8 Eylül 2026'ya kadar işler; 3 Aralık 2025'te açılan bedel indirimi davası zamanaşımına uğramamıştır.\n\n**Sonuç:**\n- Burak, süresinde bildirdiği ayıbı Hasan'ın bedel davasına karşı savunma olarak ileri sürebilir.\n- Burak'ın 3 Aralık 2025'teki bedel indirimi davası, iki yıllık süre dolduğundan zamanaşımına uğrar.\n- Hasan ayıbı bilerek gizlemişse iki yıllık süreden yararlanamaz.\n- Hasan üç yıl sorumluluk üstlenmişse dava süresi içindedir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "TBK m. 227/1'e göre alıcının dört seçimlik hakkı nedir?",
+   "back_md": "Sözleşmeden dönme, ayıp oranında bedel indirimi, aşırı masraf gerektirmiyorsa ücretsiz onarım ve imkân varsa ayıpsız benzeriyle değiştirme. Alıcı birini kullanır (TBK m. 227/1)."
+  },
+  {
+   "front_md": "Bedel indirimi nasıl hesaplanır?",
+   "back_md": "Oransaldır: İndirim = bedel × (ayıpsız değer − ayıplı değer) ÷ ayıpsız değer. Değer farkının kendisi indirilmez (TBK m. 227/1)."
+  },
+  {
+   "front_md": "Alıcı seçimlik hakla birlikte tazminat da isteyebilir mi?",
+   "back_md": "Evet. Genel hükümlere göre tazminat isteme hakkı saklıdır; kusur bakımından TBK m. 112 işler (TBK m. 227/2)."
+  },
+  {
+   "front_md": "Satıcı seçimlik hakların kullanılmasını nasıl önler?",
+   "back_md": "Aynı malın ayıpsız benzerini hemen vererek ve zararın tamamını gidererek. İki şart birliktedir (TBK m. 227/3)."
+  },
+  {
+   "front_md": "Alıcı dönmüş ama dönme haklı değilse hâkim ne yapabilir?",
+   "back_md": "Yalnız onarıma veya bedel indirimine karar verebilir. Kendiliğinden değişime hükmedemez (TBK m. 227/4)."
+  },
+  {
+   "front_md": "Değer eksikliği bedele çok yakınsa alıcının hakkı nedir?",
+   "back_md": "Ancak dönme veya ayıpsız benzeriyle değiştirme isteyebilir; indirim ve onarım kapanır (TBK m. 227/5)."
+  },
+  {
+   "front_md": "Satılanın ayıptan, beklenmedik hâlden veya mücbir sebepten yok olması dönmeyi engeller mi?",
+   "back_md": "Hayır. Alıcı dönebilir ve elinde ne kalmışsa onu geri verir (TBK m. 228/1)."
+  },
+  {
+   "front_md": "Hangi hâllerde alıcı yalnız bedel indirimi isteyebilir (TBK m. 228/2)?",
+   "back_md": "Satılan alıcıya yüklenebilen sebeple yok olmuşsa, alıcı onu devretmişse veya biçimini değiştirmişse."
+  },
+  {
+   "front_md": "Dönen alıcı satıcıya neyi geri verir?",
+   "back_md": "Satılanı, ondan elde ettiği yararlarla birlikte (TBK m. 229/1)."
+  },
+  {
+   "front_md": "Dönen alıcı satıcıdan neleri isteyebilir?",
+   "back_md": "Bedeli faiziyle, yargılama giderleri ile satılan için yaptığı giderleri ve ayıplı maldan doğan doğrudan zararı (TBK m. 229/1)."
+  },
+  {
+   "front_md": "Diğer zararlarda satıcı nasıl kurtulur?",
+   "back_md": "Kendisine hiçbir kusur yüklenemeyeceğini ispat ederek (TBK m. 229/2)."
+  },
+  {
+   "front_md": "Birden çok malda bazıları ayıplı çıkarsa dönme neyi kapsar?",
+   "back_md": "Kural olarak yalnız ayıplı olanları; ayırmak alıcıya veya satıcıya önemli zarar veriyorsa tamamını (TBK m. 230/1)."
+  },
+  {
+   "front_md": "Asıl şeyden dönmek eklentiyi kapsar mı? Tersi?",
+   "back_md": "Asıl şeyden dönmek eklentiyi kapsar (ayrı bedel olsa da); eklentiden dönmek asıl şeyi kapsamaz (TBK m. 230/2)."
+  },
+  {
+   "front_md": "Ayıba bağlı davalarda zamanaşımı süresi ve başlangıcı nedir?",
+   "back_md": "Satılanın alıcıya devrinden başlayarak iki yıl; ayıp sonradan ortaya çıksa da süre devirden işler (TBK m. 231/1)."
+  },
+  {
+   "front_md": "Süresi geçmiş olsa da kalkmayan hak hangisidir?",
+   "back_md": "Satılanın devrinden başlayarak iki yıl içinde bildirilen ayıptan doğan def'i hakkı (TBK m. 231/1)."
+  },
+  {
+   "front_md": "Ağır kusurlu satıcı için zamanaşımı nasıl işler?",
+   "back_md": "İki yıllık zamanaşımı süresinden yararlanamaz (TBK m. 231/2)."
+  },
+  {
+   "front_md": "Yapı ayıbı davalarında zamanaşımı süresi nedir?",
+   "back_md": "Mülkiyetin geçmesinden başlayarak beş yıl; satıcının ağır kusuru varsa yirmi yıl (TBK m. 244/3)."
+  },
+  {
+   "front_md": "TKHK'da onarım ve değiştirme kimlere karşı istenebilir?",
+   "back_md": "Satıcıya, üreticiye ve ithalatçıya karşı; hepsi müteselsil sorumludur (TKHK m. 11/2)."
+  },
+  {
+   "front_md": "TKHK'da onarım veya değiştirme için azami süre nedir?",
+   "back_md": "Otuz iş günü; konut ve tatil amaçlı taşınmazlarda altmış iş günü. Yönetmelik eki listedeki mallarda onarım, yönetmelikteki azami tamir süresi içinde yapılır (TKHK m. 11/4)."
+  },
+  {
+   "front_md": "Tüketici satışında ayıplı maldan sorumluluğun zamanaşımı nedir?",
+   "back_md": "Teslimden itibaren iki yıl; konut ve tatil amaçlı taşınmazda beş yıl. Ağır kusur ya da hile varsa zamanaşımı hükümleri uygulanmaz (TKHK m. 12)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

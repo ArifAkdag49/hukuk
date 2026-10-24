@@ -1,0 +1,748 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Eşya Hukukuna Giriş ve Zilyetlik",
+ "topic_index": 2,
+ "slug": "zilyetlik-kavrami-turleri-ve-devri",
+ "title": "Zilyetlik: Kavram, Türler (Aslî-Fer'î, Dolaylı-Dolaysız) ve Zilyetliğin Devri",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:44:58.406271+00:00",
+ "skill_refs": [
+  "esya-hukuku/zilyetlik-ve-korunmasi"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir eşya üzerinde **kim zilyettir, hangi sıfatla zilyettir ve zilyetlik nasıl el değiştirir?** Zilyetliğin korunması ve hak karineleri ile taşınırlarda iyiniyetli kazanım ayrı konulardır.\n\n- **Kavram (TMK m. 973/1):** Zilyet, bir şey üzerinde **fiilî hâkimiyeti** bulunan kişidir. Zilyetlik bir hak değil, hukukun sonuç bağladığı fiilî bir durumdur. Hırsız da zilyettir. Eşyası çalınan malik ise malik kalır ama zilyetliğini kaybeder.\n- **Hak zilyetliği (TMK m. 973/2):** Taşınmaz irtifaklarında ve taşınmaz yüklerinde hakkın fiilen kullanılması zilyetlik sayılır.\n- **Zilyet yardımcısı:** Başkasının talimatıyla ve onun adına eşyayı elinde tutan işçi, şoför, kasiyer zilyet değildir. Zilyet, adına hareket ettiği kişidir. Kanunda açık hüküm yoktur, kavram TMK m. 973'teki fiilî hâkimiyet ölçütünden çıkarılır.\n- **Asli ve fer'î zilyetlik (TMK m. 974):** Zilyet, şeyi bir sınırlı ayni hakkın ya da kişisel hakkın kurulması veya kullanılması için başkasına teslim ederse ikisi de zilyet olur. Malik sıfatıyla zilyet olan **asli**, diğeri **fer'î** zilyettir. Asli zilyetin gerçekten malik olması gerekmez.\n- **Dolaylı ve dolaysız zilyetlik (TMK m. 975):** Hâkimiyetini doğrudan sürdüren dolaysız, başka biri aracılığıyla sürdüren dolaylı zilyettir. Aynı şeyde kademe kademe birden çok zilyet bulunabilir.\n- **Geçici kesilme (TMK m. 976):** Geçici sebeplerle şeyin kullanılmaması ya da kullanma olanağının kalkması zilyetliği sona erdirmez.\n- **Mirasçılar (TMK m. 599/2):** Mirasbırakanın zilyetliğini ölümle, fiilî hâkimiyet kurmadan, doğrudan doğruya kazanır.\n- **Teslimle devir (TMK m. 977-978):** Şeyin ya da hâkimiyeti sağlayan araçların (anahtar) teslimi veya edinenin önceki zilyedin rızasıyla hâkimiyeti kullanacak duruma gelmesi (uzun elden teslim). Temsilciye yapılan teslim, temsil edilene yapılmış gibi zilyetliği geçirir.\n- **Teslimsiz devir (TMK m. 979):**\n  - *Kısa elden teslim:* Edinen şeyi zaten elinde tutuyorsa anlaşma yeter.\n  - *Hükmen teslim:* Devreden, satıştan ayrı özel bir hukuki ilişkiyle (kira, ödünç, saklama) şeyi elinde tutmaya devam eder.\n  - *Zilyetliğin havalesi:* Şey üçüncü kişinin elindedir. Devir ona karşı ancak devredenin bildirimiyle hüküm doğurur. Üçüncü kişi, devredene karşı ileri sürebileceği sebeplerle teslimden kaçınabilir.\n- **Emtia senetleri (TMK m. 980):** Taşıyıcıya ya da umumi mağazaya bırakılmış emtiayı temsil eden kıymetli evrakın (konişmento, makbuz senedi) teslimi, emtianın teslimi gibidir. Senedi iyiniyetle alan ile emtiayı iyiniyetle teslim alan çatışırsa **emtiayı teslim alan** tercih edilir.\n- **Neden önemli?** Taşınır mülkiyeti ve teslime bağlı taşınır rehni zilyetliğin devriyle kurulur (TMK m. 763, m. 939). Hükmen teslimle rehin kurulamaz. Kazandırıcı zamanaşımı malik sıfatıyla zilyetlik ister (TMK m. 713), kiracının yıllarca kullanması bu şartı karşılamaz.",
+  "content_md": "## 0. Konunun haritası\n\nZilyetlik, eşya hukukunun fiilî yüzüdür. Mülkiyet \"kimin hakkı var?\" sorusunu cevaplar, zilyetlik ise \"şey şu anda kimin hâkimiyetinde?\" sorusunu. İkisi çoğu zaman aynı kişide birleşir ama birbirinden bağımsızdır.\n\nDört büyük kurum zilyetliğe bağlanır:\n- **Devir aracı:** Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir (TMK m. 763/1). Teslime bağlı taşınır rehni de zilyetliğin alacaklıya devriyle kurulur (TMK m. 939/1).\n- **Karine:** Taşınırın zilyedi onun maliki sayılır (TMK m. 985). Ayrıntısı ayrı konuda.\n- **Koruma:** Zilyet, mülkiyetini ispat etmeden gasp ve saldırıya karşı korunur. Bu da ayrı konuda.\n- **Kazanma:** Emin sıfatıyla zilyetten iyiniyetle edinen kişi korunur (TMK m. 988). Tapuya kayıtlı olmayan taşınmazı yirmi yıl malik sıfatıyla zilyetliğinde bulunduran kişi tescil isteyebilir (TMK m. 713). İkisi de ayrı konularda işlenir.\n\nBu konuda üç soruya cevap arıyoruz: **Kim zilyet? Hangi sıfatla? Zilyetlik nasıl geçti?**\n\n> 💡 **Püf nokta:** Olay sorusunda eşyanın \"yolculuğunu\" kâğıda çiz. Her el değiştirmede şeyi kimin fiilen tuttuğunu, kimin adına tuttuğunu ve hangi yolla geçtiğini yaz. Cevabın çoğu bu çizimden çıkar.\n\n## 1. Zilyetlik kavramı (TMK m. 973)\n\n### 1.1 Fiilî hâkimiyet\nTMK m. 973/1'e göre bir şey üzerinde **fiilî hâkimiyeti** bulunan kimse onun zilyedidir. Kanun hâkimiyetin hukuka uygun olmasını aramaz. Bu yüzden:\n- Kitabı çalan hırsız, kitabın zilyedidir.\n- Kitabı çalınan malik, malik olmayı sürdürür ama artık zilyet değildir.\n\nFiilî hâkimiyetin var olup olmadığı hayatın olağan akışına göre belirlenir. Uygulamada ve doktrinde üç noktaya bakılır:\n- **Mekânsal ilişki:** Kişi şeye ulaşıp onu kullanabilecek durumda mı?\n- **Belli bir süreklilik:** Lokantada yemek yerken kullanılan çatal ya da bakmak için birkaç dakikalığına elinize alınan dergi zilyetlik kurmaz.\n- **Dışarıdan tanınabilirlik:** Üçüncü kişiler, şeyin o kişinin hâkimiyet alanında olduğunu anlayabilmelidir.\n\n> **Örnek:** Ali sabah işe giderken bisikletini apartmanın bisiklet odasına bırakır. Gün boyu bisikletten uzaktır ama bisiklet onun hâkimiyet alanındadır, Ali zilyet olmaya devam eder. Posta kutusuna atılan mektubun zilyedi de, mektubun geldiğinden henüz habersiz olsa bile kutuyu kullanan kişidir.\n\n### 1.2 Zilyetlik iradesi\nTMK m. 973 iradeden söz etmez. Doktrinde çoğunluk, fiilî hâkimiyetin yanında **genel bir hâkimiyet iradesi** arar. Bu irade bir hukuki işlem iradesi değildir, bu yüzden fiil ehliyeti gerekmez. Ayırt etme gücüne sahip on yaşındaki bir çocuk da oyuncağının zilyedidir. Tartışma doktrin bölümünde.\n\nİradenin **içeriği** ise sonuç doğurur: Kişi şeyi kendi malıymış gibi mi, yoksa başkasının üstün hakkını tanıyarak mı elinde tutuyor? Asli-fer'î ayrımı buna dayanır (aşağıda 2.1).\n\n### 1.3 Hak zilyetliği (TMK m. 973/2)\nKural olarak zilyetlik **maddi şeyler** üzerinde kurulur. Kanun bir istisna tanır: **taşınmaz irtifak haklarında** ve **taşınmaz yüklerinde** hakkın fiilen kullanılması zilyetlik sayılır.\n\n> **Örnek:** Mehmet'in tarlası lehine komşu tarladan geçit hakkı kuruludur. Mehmet her gün traktörüyle bu yolu kullanır. Komşu tarlanın zilyedi komşudur, ama Mehmet de **geçit hakkının** zilyedidir.\n\n### 1.4 Zilyet yardımcısı\nEşyayı fiilen elinde tutan herkes zilyet değildir. Başkasının ev ya da işletme düzeni içinde, onun **talimatına bağlı** olarak ve **onun adına** eşyayı elinde bulunduran kişiye **zilyet yardımcısı** denir. İşçi, ev çalışanı, şoför, kasiyer tipik örneklerdir.\n- TMK'da zilyet yardımcısına ilişkin açık bir hüküm yoktur. Kavram, doktrin ve uygulamada TMK m. 973'teki fiilî hâkimiyet ölçütünden çıkarılır: zilyet yardımcısının **bağımsız** bir hâkimiyeti yoktur.\n- Zilyet, zilyet yardımcısının bağlı olduğu kişidir ve hâkimiyetini **dolaysız** olarak sürdürür.\n- Zilyet yardımcısına yapılan teslim, doğrudan onun bağlı olduğu kişiye yapılmış olur.\n\nTüzel kişiler de organları aracılığıyla zilyet olur. Şirketin genel müdürünün odasındaki bilgisayarın zilyedi şirkettir.\n\n| | Fer'î zilyet | Zilyet yardımcısı |\n|---|---|---|\n| Örnek | Kiracı, ödünç alan, tamirci | İşçi, şoför, kasiyer |\n| Hâkimiyeti | Bağımsız, kendi adına | Bağımlı, talimatla |\n| Zilyet mi? | Evet (TMK m. 974/1) | Hayır |\n\n> ⚠️ **Sınavda dikkat:** Şirket aracını kullanan şoför ile aracı kiralayan kişiyi karıştırma. Kiracı **fer'î zilyettir**. Şoför ise zilyet değildir, aracın dolaysız zilyedi şirkettir.\n\n## 2. Zilyetliğin türleri\n\n### 2.1 Asli ve fer'î zilyetlik (TMK m. 974)\nTMK m. 974/1'e göre zilyet, bir **sınırlı ayni hakkın** veya bir **kişisel hakkın** kurulmasını ya da kullanılmasını sağlamak için şeyi başkasına teslim ederse **ikisi de zilyet olur**. TMK m. 974/2 ayrımı yapar:\n- **Asli zilyet:** Şeyde **malik sıfatıyla** zilyet olandır. Asli zilyetin gerçekten malik olması gerekmez. Malik gibi davranması, yani şey üzerinde kendisinden üstün bir hak tanımaması yeter. Hırsız da asli zilyettir.\n- **Fer'î zilyet:** Şeyi malik sıfatıyla değil, bir sınırlı ayni hak (intifa, rehin) ya da kişisel hak (kira, kullanım ödüncü, onarım için teslim) sahibi olarak elinde tutandır. Kanun da fer'î zilyeti, taşınıra \"malik olma iradesi bulunmaksızın zilyet olan\" kişi olarak anar (TMK m. 986/1).\n\n> **Örnek:** Zeynep kolyesini borcuna karşılık rehin olarak kuyumcu Hakan'a verir. Zeynep **asli**, Hakan **fer'î** zilyettir. Zeynep kolyesini onarım için başka bir kuyumcuya bıraksaydı o kuyumcu da fer'î zilyet olurdu.\n\n**Ayrım neden önemli?**\n- **Kazandırıcı zamanaşımı** malik sıfatıyla zilyetlik ister (TMK m. 713/1). Kadastro tespitinde de aynı şart aranır (3402 sayılı Kanun m. 14). Kiracı bir taşınmazda kaç yıl oturursa otursun, bu süre ona kazandırıcı zamanaşımı sağlamaz.\n- Fer'î zilyet çoğu zaman **emin sıfatıyla zilyettir**. Şeyi yetkisi olmadan iyiniyetli bir üçüncü kişiye devrederse üçüncü kişinin edinimi korunabilir (TMK m. 988; ayrıntısı ayrı konuda).\n- Karineler ve koruma davalarında da ayrım sonuç doğurur (ayrı konu).\n\n> ⚠️ **Sınavda dikkat:** Zilyetliğin sıfatı kişinin iç dünyasına bırakılmış değildir. Kiracının içinden \"artık bu ev benim\" demesi onu asli zilyet yapmaz. Sıfat, dışa yansıyan bir hukuki sebeple değişir. Örneğin kiracının kiraladığı şeyi satın alması (kısa elden teslim, aşağıda 6.1).\n\n### 2.2 Dolaylı ve dolaysız zilyetlik (TMK m. 975)\nTMK m. 975'e göre fiilî hâkimiyetini **doğrudan doğruya** sürdüren **dolaysız**, **başka bir kişi aracılığıyla** sürdüren **dolaylı** zilyettir. Bu ayrım asli-fer'î ayrımından **bağımsızdır**. İkisi birlikte kullanılır ve aynı şey üzerinde kademe kademe birden çok zilyet bulunabilir (**dereceli zilyetlik**).\n\n> **Örnek:** Ayşe dairesini Burak'a kiraya verir. Burak, Ayşe'nin izniyle bir odayı öğrenci Can'a alt kiraya verir.\n> - Ayşe: asli ve dolaylı zilyet.\n> - Burak: dairenin geri kalanı bakımından fer'î ve dolaysız, Can'ın odası bakımından fer'î ve dolaylı zilyet.\n> - Can: oda bakımından fer'î ve dolaysız zilyet.\n\n| Kişi | Asli / fer'î | Dolaylı / dolaysız |\n|---|---|---|\n| Kendi arabasını kullanan malik | Asli | Dolaysız |\n| Arabasını kiraya veren malik | Asli | Dolaylı |\n| Kiracı | Fer'î | Dolaysız |\n| Alt kiraya veren kiracı | Fer'î | Dolaylı |\n\n> 💡 **Püf nokta:** \"Dolaylı\" kelimesini \"araya biri girmiş\", \"asli\" kelimesini \"malik gibi\" diye düşün. Fer'î zilyet de dolaylı olabilir, asli zilyet de dolaysız olabilir.\n\n**Birlikte zilyetlik:** Aynı şey üzerinde birden çok kişi aynı derecede zilyet olabilir. İki kardeşin ortaklaşa kullandığı otomobil buna örnektir.\n\nİyiniyetli ve iyiniyetsiz zilyetlik ayrımı ise zilyetin iade borcu ve sorumluluğunda önem kazanır, ayrı konuda işlenir.\n\n## 3. Geçici kesilme ve sona erme (TMK m. 976)\nTMK m. 976'ya göre fiilî hâkimiyetin **geçici nitelikteki sebeplerle** kullanılmaması veya kullanma olanağının ortadan kalkması **zilyetliği sona erdirmez**.\n\n> **Örnek:** Hatice'nin köydeki bahçesine kışın kar yüzünden çıkılamaz. Hatice her bahar bahçesini yeniden işler. Kış boyunca bahçeye ulaşamaması geçici bir sebeptir, zilyetliği sürer. Yazlık evine yalnız yazları giden aile, iki ay hastanede yatan çiftçi ya da evin içinde yüzüğünün yerini unutan kişi için de durum aynıdır.\n\nTaşınmazlarda zilyetlik, taşınmazın **ekonomik amacına uygun** kullanımla değerlendirilir. Bir ev için bu, içinde oturmak ya da evi kiraya vermektir. Yalnız hasat mevsiminde gidilen bir fındık bahçesinde yılın geri kalanında bahçeye uğranmaması zilyetliği sona erdirmez.\n\n**Zilyetlik ne zaman sona erer?** Kanun sona erme sebeplerini ayrıca saymaz. Ancak TMK m. 976'nın tersinden şu sonuç çıkar: fiilî hâkimiyetin **kalıcı olarak** kaybedilmesi zilyetliği sona erdirir. Tipik hâller:\n- zilyetliğin başkasına devri,\n- şeyin terk edilmesi (bilerek ve isteyerek bırakılması),\n- şeyin yok olması,\n- şeyin kaybedilip artık ulaşılamayacak hâle gelmesi ya da çalınması.\n\n> ⚠️ **Sınavda dikkat:** Hırsızlık zilyetliğin \"geçici kesilmesi\" değildir. Çalınan şeyin zilyetliği hırsıza geçer. Malik zilyetliğini kaybeder, ama zilyetliğin korunması ya da mülkiyete dayanan davalarla şeyi geri isteyebilir (ayrı konular).\n\n## 4. Zilyetliğin kazanılması: aslen, devren, miras yoluyla\n- **Aslen kazanma:** Önceki zilyedin iradesine dayanmadan kurulan hâkimiyettir. Sahipsiz bir şeye el koyma, kaybedilmiş bir şeyi bulup alma, hatta gasp bu yolla zilyetlik kazandırır.\n- **Devren kazanma:** Zilyetliğin önceki zilyedin **rızasıyla** geçmesidir. Kanun bunu TMK m. 977-980'de düzenler: teslimle devir, temsilci aracılığıyla devir, teslimsiz devir ve emtia senetleri.\n- **Miras yoluyla kazanma:** TMK m. 599/2'ye göre kanunda öngörülen ayrık durumlar saklı kalmak üzere mirasçılar, mirasbırakanın taşınır ve taşınmazlar üzerindeki zilyetliklerini **doğrudan doğruya** kazanır. Mirasçının şeye el koyması, hatta mirasbırakanın öldüğünü bilmesi gerekmez. Bu, fiilî hâkimiyet şartının kanundan doğan bir istisnasıdır.\n\n> **Örnek:** Rıza Bey İzmir'de ölür. Tek mirasçısı oğlu Kaan Almanya'dadır. Kaan, babasının evindeki eşyaların zilyetliğini ölüm anında kazanır. Rıza Bey kiraya verdiği dükkânın asli ve dolaylı zilyedi olduğu için Kaan da dükkân bakımından aynı konuma geçer. Kiracı fer'î ve dolaysız zilyet olmaya devam eder.\n\n- TMK m. 599/3: Yasal mirasçılar, atanmış mirasçılara düşen mirası onlara **zilyetlik hükümleri uyarınca** teslim etmekle yükümlüdür.\n- Devren kazanmanın önemli bir sonucu vardır: Kazandırıcı zamanaşımından yararlanma hakkına sahip zilyet, zilyetliği kendisine devreden de aynı yetkiye sahipse onun zilyetlik süresini kendi süresine ekleyebilir (TMK m. 996; ayrıntısı ayrı konuda). Zilyetliği aslen kazanan kişi bu imkândan yararlanamaz.\n\n## 5. Teslimle devir\n\n### 5.1 Hazırlar arasında (TMK m. 977)\nTMK m. 977'ye göre zilyetlik üç yoldan biriyle devredilir:\n1. **Şeyin teslimi:** Satıcı kitabı alıcının eline verir.\n2. **Hâkimiyeti sağlayacak araçların teslimi:** Deponun, evin ya da kasanın anahtarının verilmesi. Aracın gerçekten hâkimiyet sağlaması gerekir: edinen, anahtarla şeye ulaşıp onu kullanabilecek duruma gelmelidir.\n3. **Uzun elden teslim:** Edinen, **önceki zilyedin rızasıyla** şey üzerinde hâkimiyeti kullanacak duruma gelir. Şey fiziken el değiştirmez, ama edinen ona istediği zaman ulaşıp alabilecek konumdadır.\n\n> **Örnek (uzun elden teslim):** Çiftçi Mehmet, tarlasının kenarında istifli duran 200 saman balyasını Ali'ye satar. Birlikte tarlaya gider, balyaları gösterir: \"Tarlanın kapısı açık, istediğin zaman gel al.\" Ali bu andan itibaren balyaların zilyedidir. Balyaları bir hafta sonra götürmesi, zilyetliği kazandığı anı değiştirmez.\n\nÜç yolun ortak noktası **önceki zilyedin rızasıdır**. Rıza olmadan şeye el koyan kişi zilyetliği devren değil, aslen kazanır.\n\n### 5.2 Temsilci aracılığıyla (TMK m. 978)\nTMK m. 978'e göre **temsilciye yapılan teslim, temsil edilene yapılmış gibi** zilyetliği geçirir.\n\n> **Örnek:** Ankara'da oturan Selim, İstanbul'daki Mehmet'ten bir jeneratör satın alır. Jeneratörü teslim almak için İstanbul'daki kardeşi Kaan'ı yetkilendirir. Mehmet jeneratörü Kaan'a teslim ettiği anda zilyetlik Selim'e geçer: Selim dolaylı, Kaan dolaysız zilyet olur.\n\nDikkat edilecek noktalar:\n- Velayet altındaki çocuk adına eşyayı teslim alan ana ya da baba **kanuni temsilci** olarak hareket eder. Çocuk zilyetliği bu yolla kazanır.\n- **Zilyet yardımcısına** (örneğin şirketin depo görevlisine) yapılan teslim zaten doğrudan şirkete yapılmış teslimdir.\n- **Kargo şirketi** kendiliğinden alıcının temsilcisi sayılmaz. Taşımayı satıcı üstlenmiş ve kargo şirketini o seçmişse zilyetlik alıcıya genellikle kargo ona teslim edildiğinde geçer. Taşıyıcıyı alıcı seçip yetkilendirmişse durum farklı değerlendirilebilir.\n\n## 6. Teslimsiz devir (TMK m. 979)\nBazen şeyin fiziken el değiştirmesi gereksizdir. Kanun bu durumda zilyetliğin **anlaşmayla** geçmesine izin verir. TMK m. 979/1'e göre bir **üçüncü kişi** veya **zilyetliği devredenin kendisi**, özel bir hukuki ilişkiye dayanarak zilyet olmaya devam ederse zilyetlik **teslim gerçekleşmeksizin** kazanılmış olur. Yargıtay kararlarında da görüldüğü gibi uygulamada üç teslimsiz devir türünden söz edilir: kısa elden teslim, hükmen teslim ve zilyetliğin havalesi. Emtia senetleriyle devir ayrıca düzenlenmiştir (TMK m. 980).\n\n### 6.1 Kısa elden teslim\nEdinen şeyi **zaten elinde tutuyorsa** (çoğu zaman fer'î zilyet olarak), şeyi önceki zilyede geri verip yeniden almak anlamsızdır. Tarafların anlaşması yeter, edinenin zilyetliğinin sıfatı değişir. Kanun bu türü ayrıca adlandırmamıştır. Doktrin ve Yargıtay kararları onu zilyetliğin geçiş yollarından biri olarak kabul eder.\n\n> **Örnek:** Ozan, Mehmet'ten bir antika çalışma masasını bir yıldır kiralayarak bürosunda kullanmaktadır. Mehmet masayı Ozan'a satar. Ozan masayı iade edip yeniden teslim almaz. Satış anlaşmasıyla birlikte Ozan'ın fer'î zilyetliği asli zilyetliğe dönüşür, Mehmet'in dolaylı zilyetliği sona erer.\n\n### 6.2 Hükmen teslim\n**Devreden**, zilyetliği devrettikten sonra şeyi **özel bir hukuki ilişkiye dayanarak** elinde tutmaya devam eder. Edinen şeyi devreden aracılığıyla elinde tutan dolaylı zilyet olur. Devreden ise artık başkası adına tutar.\n\n> **Örnek:** Fotoğrafçı Mehmet profesyonel fotoğraf makinesini Ayşe'ye satar. Hafta sonu çekeceği bir düğün için makineyi bir hafta daha kullanmak ister ve Ayşe'yle bir haftalık kira sözleşmesi yapar. Makine hiç el değiştirmeden Ayşe **asli ve dolaylı**, Mehmet **fer'î ve dolaysız** zilyet olur. Mobilya mağazasından aldığı koltuğu, mağazayla anlaşarak yeni evine taşınana kadar mağazanın deposunda saklatan alıcı da zilyetliği hükmen teslimle kazanır.\n\n**Özel hukuki ilişki şartı.** Kanun, devredenin şeyi \"özel bir hukukî ilişkiye dayanarak\" elinde tutmasını arar: kira, kullanım ödüncü, saklama, onarım için bırakma gibi. Baskın görüşe göre bu ilişkinin, devri gerektiren işlemden (örneğin satıştan) **ayrı** bir ilişki olması gerekir. Satıcının, zilyetliğin geçtiğine dair hiçbir anlaşma olmadan teslimi yalnızca geciktirmesi ise hiçbir görüşe göre hükmen teslim değildir.\n\n> ⚠️ **Sınavda dikkat:** Halil antika bir dolabı Can'a satar. Can bedeli öder ama dolabı almaya henüz gelmemiştir. Zilyetliğin devri, saklama ya da başka bir konuda aralarında anlaşma yoktur. Hükmen teslim **yoktur**. Halil dolabın asli zilyedi olmaya devam eder, Can yalnız teslim isteyebilecek bir alacaklıdır. Taraflar \"Dolap Can gelene kadar Halil'in deposunda saklansın\" diye ayrıca anlaşsaydı hükmen teslim olurdu.\n\n**Hükmen teslimin sınırları.** Hükmen teslimde şey devredenin elinde kaldığı için dışarıdan bakan kişi hiçbir değişiklik görmez. Bu yüzden kanun iki yerde sınır koyar:\n- Mülkiyetin hükmen teslimle nakli, üçüncü kişileri zarara sokmak ya da taşınır rehni kurallarından kurtulmak amacıyla yapılmışsa sonuç doğurmaz (TMK m. 766; ayrıntısı taşınır mülkiyetinin devri konusunda).\n- Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz (TMK m. 939/3). Teslime bağlı rehin hükmen teslimle kurulamaz.\n\n### 6.3 Zilyetliğin havalesi\nŞey, devredenle edinen dışında bir **üçüncü kişinin** elindedir. Üçüncü kişi şeyi kendi hakkına dayanarak (kiracı, ödünç alan) ya da başkası adına (depocu) tutar. Devreden, sahip olduğu **dolaylı zilyetliği** edinene anlaşmayla devreder. Şey üçüncü kişide kalmaya devam eder.\n\n> **Örnek:** Selin'in 100 koli kumaşı, X Lojistik A.Ş.'nin deposunda saklama sözleşmesiyle durmaktadır. Selin kumaşları Kerem'e satar ve \"Kumaşlar depoda, oradan alırsın\" der. Kerem kumaşların dolaylı zilyedi olur. Depo şirketi dolaysız zilyet olarak kumaşları tutmaya devam eder.\n\nHavalenin iki özel kuralı vardır:\n- **Bildirim (TMK m. 979/2):** Devir, zilyet olmaya devam eden üçüncü kişiye karşı, ancak durumun **devreden tarafından** ona **bildirildiği andan** itibaren hüküm doğurur. Bildirim yapılmadan önce depo şirketi kumaşları Selin'e geri verirse Kerem'e karşı sorumlu olmaz, Kerem'in başvuracağı kişi Selin'dir. Taraflar arasında ise devir anlaşmayla tamamdır.\n- **Üçüncü kişinin def'ileri (TMK m. 979/3):** Üçüncü kişi, **devredene karşı** ileri sürebileceği sebeplerle şeyi edinene vermekten kaçınabilir. Muaccel saklama ücreti ödenmemiş depocu, bu ücret için devredene karşı kullanabileceği hapis hakkını (TMK m. 950) edinene karşı da ileri sürebilir. Kiracı da kira süresi dolmadan şeyi teslim etmek zorunda değildir. Kiralanan el değiştirse bile yeni malik kira sözleşmesinin tarafı olur (TBK m. 310).\n\n**Havalenin şartı: dereceli zilyetlik.** Devredenin şey üzerinde dolaylı zilyet olması gerekir. TMK m. 979/1, üçüncü kişinin şeyi özel bir hukuki ilişkiye dayanarak elinde tutmasını arar. Şey bir hırsızın elindeyse malik ile hırsız arasında böyle bir ilişki yoktur. Bu yüzden malik dolaylı zilyet sayılmaz ve havale yolu kural olarak kullanılamaz (çalınmış şeyin mülkiyetinin nasıl devredilebileceği ayrı bir sorundur). Şey devredenin işçisinin elindeyse de havale söz konusu olmaz. Çünkü devreden zaten dolaysız zilyettir ve devir, işçiye talimat verilerek yapılan teslimle gerçekleşir.\n\n| Tür | Şey kimin elinde kalır? | Sonuç |\n|---|---|---|\n| Kısa elden teslim | Edinenin (zaten onda) | Edinenin zilyetliğinin sıfatı değişir |\n| Hükmen teslim | Devredenin | Edinen dolaylı zilyet olur, devreden onun adına tutar |\n| Zilyetliğin havalesi | Üçüncü kişinin | Edinen dolaylı zilyet olur, üçüncü kişiye karşı bildirimle hüküm doğurur |\n\n> 💡 **Püf nokta:** Teslimsiz devirde tek soru sor: \"Şey kimde kalıyor?\" Edinendeyse kısa elden teslim, devredendeyse hükmen teslim, üçüncü kişideyse havale.\n\n## 7. Emtiayı temsil eden senetler (TMK m. 980)\nTMK m. 980/1'e göre bir **taşıyıcıya** veya **umumi mağazaya** bırakılmış emtiayı temsil eden **kıymetli evrakın** teslimi, **emtianın teslimi gibi** sonuç doğurur. Böylece denizdeki bir gemide taşınan yük, senedin el değiştirmesiyle satılabilir ya da rehnedilebilir.\n- **Konişmento:** Deniz taşımasında düzenlenen ve taşıyanın eşyayı ancak ibrazı karşılığında teslimle yükümlü olduğu senettir (TTK m. 1228). TTK m. 1234, eşya taşınmak üzere teslim alındıktan sonra konişmentonun, eşyayı teslim almaya yetkili kişiye teslimine TMK m. 980'deki sonuçları bağlar.\n- **Makbuz senedi ve varant:** Umumi mağazaların, saklamak üzere kabul ettikleri mal ve hububat karşılığında verdiği senetlerdir. Mal sahibine malı depodan çıkarmadan satma ya da rehnetme imkânı verir (TTK m. 832).\n- Kıymetli evrak niteliği taşımayan belgeler eşyayı temsil etmez. Vestiyerde verilen numaralı fişin, faturanın ya da sevk irsaliyesinin teslimi zilyetliği geçirmez.\n\nHavaleden farkı şudur: Senetle devirde kanun ayrıca taşıyıcıya ya da depoya bildirim aramaz, senedin teslimi yeter.\n\n**Çatışma kuralı (TMK m. 980/2):** Kıymetli evrakı iyiniyetle teslim alan ile emtiayı iyiniyetle teslim alan arasında uyuşmazlık çıkarsa **emtiayı teslim alan** tercih edilir. İyiniyet asıldır (TMK m. 3/1). Ancak durumun gereklerine göre kendisinden beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz (TMK m. 3/2).\n\n> **Örnek:** X Tekstil, umumi mağazadaki 500 balya pamuğu temsil eden makbuz senedini Y'ye teslim eder. Sonra pamukları bir de Z'ye satar. Depo görevlisinin dikkatsizliği yüzünden pamuklar, senet ibraz edilmeden Z'ye teslim edilir. Y ve Z durumdan habersizse pamuklar Z'de kalır. Y'nin zararı için X Tekstil'e ve depoya başvurması ayrı bir sorundur.\n\n## 8. Uygulama ve ispat\n- Zilyetlik **maddi bir olgudur**. Tanık, keşif ve bilirkişi dahil her türlü delille ispatlanabilir.\n- Yargıtay Hukuk Genel Kurulu, tapusuz bir evin satış senedinde zilyetliğin devredildiği yazmasına rağmen satıcı evde oturmaya devam etmiş, alıcı da eve hiç zilyet olmamışsa zilyetliğin devredilmediğini kabul etmiştir. Fiilî duruma aykırı bir senet ibaresi tek başına zilyetlik yaratmaz.\n- Buna karşılık Yargıtay'ın satış vaadi sözleşmelerine ilişkin bazı kararlarında, sözleşmeye zilyetliğin teslim edildiğinin yazılması hükmen teslim sayılmış, devredenin fer'î, devralanın asli zilyet olduğu kabul edilmiştir. Değerlendirmesi doktrin bölümünde.\n- Bir taşınmazı uzun yıllar kullanan kişinin asli mi fer'î mi zilyet olduğu da çoğu zaman bir ispat meselesidir. Kiracı olduğu anlaşılan kişi, kullanım süresi ne kadar uzun olursa olsun asli zilyet sayılmaz.\n\n## 9. Olay çözerken denetim şeması\n1. **Şey üzerinde kim fiilen hâkim?** Zilyet mi, yoksa başkasının talimatıyla tutan zilyet yardımcısı mı (TMK m. 973/1)? Hak zilyetliği söz konusu mu (TMK m. 973/2)?\n2. **Hangi sıfatla?** Malik sıfatıyla mı (asli), sınırlı ayni ya da kişisel hak sahibi olarak mı (fer'î) (TMK m. 974)?\n3. **Doğrudan mı, aracılı mı?** Bütün kademeleri sırayla yaz (TMK m. 975).\n4. **Hâkimiyet kesildi mi?** Kesinti geçici mi (TMK m. 976), kalıcı mı?\n5. **Zilyetlik nasıl geçti?** Şeyin ya da aracın teslimi, uzun elden teslim (TMK m. 977); temsilciye teslim (TMK m. 978); kısa elden teslim, hükmen teslim, havale (TMK m. 979); emtia senedi (TMK m. 980); miras (TMK m. 599/2).\n6. **Teslimsiz devrin özel şartları:** Hükmen teslimde ayrı bir özel hukuki ilişki var mı? Havalede bildirim yapıldı mı, üçüncü kişinin def'ileri var mı?\n7. **Sonuç:** Mülkiyet ya da rehin geçti mi (TMK m. 763, m. 939)? Asli zilyetlik gerektiren bir sonuç (TMK m. 713) söz konusu mu? Koruma ve iyiniyetli kazanım soruları kendi konularındaki kurallarla çözülür.",
+  "critical_md": "- 📌 Zilyet, bir şey üzerinde fiilî hâkimiyeti bulunan kişidir (TMK m. 973/1). Hâkimiyetin hukuka uygun olması aranmaz, hırsız da zilyettir.\n- 📌 Kanun hak zilyetliğini taşınmaz irtifakları ve taşınmaz yükleri için öngörür: hakkın fiilen kullanılması zilyetlik sayılır (TMK m. 973/2).\n- ⚠️ Zilyet yardımcısı (işçi, şoför, kasiyer) zilyet değildir. Zilyet, onun bağlı olduğu kişidir. Fer'î zilyet ise bağımsız hâkimiyeti olan gerçek bir zilyettir.\n- 📌 Şey bir sınırlı ayni hakkın ya da kişisel hakkın kurulması veya kullanılması için başkasına teslim edilirse ikisi de zilyet olur. Malik sıfatıyla olan asli, diğeri fer'î zilyettir (TMK m. 974).\n- ⚠️ Asli zilyet olmak için malik olmak gerekmez, malik sıfatıyla (malik gibi) zilyet olmak yeter.\n- ⚠️ Asli-fer'î ve dolaylı-dolaysız ayrımları birbirinden bağımsızdır: kiraya veren malik asli dolaylı, kiracı fer'î dolaysız, alt kiraya veren kiracı fer'î dolaylı zilyettir (TMK m. 975).\n- 📌 Geçici sebeplerle kullanmama ya da kullanma olanağının kalkması zilyetliği sona erdirmez (TMK m. 976). Hırsızlık geçici kesilme değildir, zilyetlik hırsıza geçer.\n- 📌 Mirasçılar zilyetliği mirasbırakanın ölümüyle, fiilî hâkimiyet kurmadan doğrudan doğruya kazanır (TMK m. 599/2).\n- 📌 Hazırlar arasında devrin üç yolu (TMK m. 977): şeyin teslimi, hâkimiyeti sağlayacak araçların teslimi, edinenin önceki zilyedin rızasıyla hâkimiyeti kullanacak duruma gelmesi (uzun elden teslim).\n- 📌 Temsilciye yapılan teslim, temsil edilene yapılmış gibi zilyetliği geçirir (TMK m. 978).\n- ⚠️ Teslimsiz devirde \"şey kimde kalıyor?\" diye sor: edinendeyse kısa elden teslim, devredendeyse hükmen teslim, üçüncü kişideyse zilyetliğin havalesi (TMK m. 979).\n- ⚠️ Hükmen teslim için devredenin şeyi satıştan ayrı özel bir hukuki ilişkiyle (kira, ödünç, saklama) tutması gerekir. Satıcının teslimi geciktirmesi yetmez. Teslime bağlı rehin hükmen teslimle kurulamaz (TMK m. 939/3).\n- 📌 Havale, üçüncü kişiye karşı ancak devredenin bildirimiyle hüküm doğurur (TMK m. 979/2). Üçüncü kişi, devredene karşı ileri sürebileceği sebeplerle teslimden kaçınabilir (TMK m. 979/3).\n- 📌 Emtia senedinin (konişmento, makbuz senedi) teslimi emtianın teslimi gibidir. Senedi iyiniyetle alan ile emtiayı iyiniyetle teslim alan çatışırsa emtiayı teslim alan tercih edilir (TMK m. 980).",
+  "doctrine_md": "### Zilyetlik bir hak mı, fiilî bir durum mu?\nBaskın görüş zilyetliği bir hak değil, hukukun sonuç bağladığı **fiilî bir durum** sayar. TMK m. 973'ün fiilî hâkimiyet ölçütü ve hırsızın da zilyet sayılması bunu destekler. Bir görüş ise zilyetliğin devredilebilmesi, mirasçılara geçmesi (TMK m. 599/2) ve davalarla korunması nedeniyle ona hak benzeri bir nitelik tanır. Sınavdaki pratik sonucu sınırlıdır; önemli olan zilyetliğin mülkiyetten bağımsız olduğunu göstermektir.\n\n### Zilyetlik iradesi\nKanun iradeden söz etmez. Çoğunluk, fiilî hâkimiyetin yanında genel bir hâkimiyet iradesi arar ve bunu hukuki işlem iradesi saymaz. Bu görüşe göre ayırt etme gücü yeterlidir, fiil ehliyeti aranmaz. Ayırt etme gücü bulunmayanlar kanuni temsilcileri aracılığıyla zilyet olur. Bir görüş ise iradeyi ayrı bir unsur saymaz, hâkimiyetin varlığını dışa yansıyan duruma göre değerlendirir. Posta kutusuna düşen mektup gibi örneklerde iradenin zaten soyut ve genel olduğunu vurgular.\n\n### Teslim maddi fiil mi, hukuki işlem mi?\nBaskın görüşe göre teslim **maddi bir fiildir**, önemli olan hâkimiyetin fiilen geçmesidir. Bir görüş ise teslimi, zilyetliği devretme iradelerini içeren **soyut bir hukuki işlem** sayar. Tartışma TMK m. 978'de belirginleşir, çünkü temsil kural olarak hukuki işlemlere özgüdür. Teslimi maddi fiil sayanlar bu hükmü kanunun özel olarak tanıdığı bir imkân olarak açıklar. Madde başlığı \"hazır olmayanlar arasında\" dese de bir görüş, temsilci aracılığıyla teslimin hazırlar arasında da mümkün olduğunu kabul eder.\n\n### Hükmen teslimde özel hukuki ilişki\nBaskın görüş, özel ilişkinin devri gerektiren işlemden ayrı olmasını arar. Satıcının bedeli alana kadar şeyi teminat olarak tutması tartışmalıdır: bir görüş bunu satıştan bağımsız saymaz, diğer görüş ayrı bir rehin anlaşmasını yeterli görür. Elden bağışlamanın hükmen teslimle yapılıp yapılamayacağı da tartışmalıdır, çünkü elden bağışlama şeyin teslimiyle kurulur (TBK m. 289).\n\nYargıtay uygulamasında da farklı vurgular görülür. Satış vaadine ilişkin bazı daire kararları, sözleşmedeki teslim ibaresini hükmen teslim için yeterli saymıştır. Hukuk Genel Kurulu ise satıcının alıcı adına zilyet olduğunu gösteren delil bulunmadığı bir olayda senet ibaresine değer vermemiş, fiilî durumu esas almıştır. Kanun metnine göre belirleyici olan, devredenin özel bir hukuki ilişkiye dayanarak şeyi elinde tutmaya devam etmesidir (TMK m. 979/1). Bu, somut olayın delilleriyle belirlenir.\n\n### Havalede bildirim ve üçüncü kişinin def'ileri\nTMK m. 979/2 bildirimin devreden tarafından yapılmasından söz eder. Bir görüş bu lafza bağlı kalır. Diğer görüşe göre edinen de devredenin verdiği yetkiyi belgeleyerek bildirim yapabilir. Üçüncü kişinin hangi sebepleri ileri sürebileceği de tartışılır: bir görüş ayni hakları ve kuvvetlendirilmiş kişisel hakları yeterli görür, diğer görüş kanunun \"devredene karşı ileri sürebileceği sebepler\" ifadesinin genişliğine dayanarak kişisel hakları da kapsam içinde sayar. Kira bakımından sonuç değişmez, çünkü TBK m. 310 kiracıyı yeni malike karşı zaten korur.",
+  "glossary": [
+   {
+    "term": "Zilyetlik",
+    "definition": "Bir şey üzerindeki fiilî hâkimiyet (TMK m. 973). Bir hak değil, hukukun sonuç bağladığı fiilî bir durumdur."
+   },
+   {
+    "term": "Fiilî hâkimiyet",
+    "definition": "Kişinin şeye ulaşıp onu kullanabilecek durumda olması. Belli bir süreklilik taşımalı ve dışarıdan tanınabilmelidir."
+   },
+   {
+    "term": "Hak zilyetliği",
+    "definition": "Taşınmaz irtifakında ve taşınmaz yükünde hakkın fiilen kullanılmasının zilyetlik sayılması (TMK m. 973/2)."
+   },
+   {
+    "term": "Zilyet yardımcısı",
+    "definition": "Başkasının talimatıyla ve onun adına eşyayı elinde tutan, bağımsız hâkimiyeti olmadığı için zilyet sayılmayan kişi (işçi, şoför, kasiyer)."
+   },
+   {
+    "term": "Asli zilyet",
+    "definition": "Şeyde malik sıfatıyla zilyet olan kişi (TMK m. 974/2). Gerçekten malik olması gerekmez."
+   },
+   {
+    "term": "Fer'î zilyet",
+    "definition": "Şeyi malik olma iradesi olmadan, bir sınırlı ayni hak ya da kişisel hak sahibi olarak elinde tutan kişi (kiracı, ödünç alan, rehin alacaklısı)."
+   },
+   {
+    "term": "Dolaysız zilyet",
+    "definition": "Fiilî hâkimiyetini doğrudan doğruya sürdüren zilyet (TMK m. 975)."
+   },
+   {
+    "term": "Dolaylı zilyet",
+    "definition": "Fiilî hâkimiyetini başka bir kişi aracılığıyla sürdüren zilyet (TMK m. 975)."
+   },
+   {
+    "term": "Dereceli zilyetlik",
+    "definition": "Aynı şey üzerinde dolaylı ve dolaysız zilyetlerin kademe kademe bulunması (malik, kiracı, alt kiracı)."
+   },
+   {
+    "term": "Uzun elden teslim",
+    "definition": "Edinenin, önceki zilyedin rızasıyla şey üzerinde hâkimiyeti kullanacak duruma gelmesi. Şey fiziken el değiştirmez (TMK m. 977)."
+   },
+   {
+    "term": "Kısa elden teslim",
+    "definition": "Şeyi zaten elinde tutan edinene zilyetliğin yalnız anlaşmayla geçmesi. Örneğin kiracının kiraladığı şeyi satın alması."
+   },
+   {
+    "term": "Hükmen teslim",
+    "definition": "Devredenin, özel bir hukuki ilişkiye dayanarak şeyi elinde tutmaya devam ederek zilyetliği teslimsiz devretmesi (TMK m. 979/1)."
+   },
+   {
+    "term": "Zilyetliğin havalesi",
+    "definition": "Üçüncü kişinin elindeki şeyin dolaylı zilyetliğinin anlaşmayla devri. Üçüncü kişiye karşı devredenin bildirimiyle hüküm doğurur (TMK m. 979/2)."
+   },
+   {
+    "term": "Emtiayı temsil eden senet",
+    "definition": "Taşıyıcıya ya da umumi mağazaya bırakılmış emtiayı temsil eden kıymetli evrak (konişmento, makbuz senedi). Teslimi emtianın teslimi gibidir (TMK m. 980)."
+   },
+   {
+    "term": "Emin sıfatıyla zilyet",
+    "definition": "Malikin kendisine güvenerek bıraktığı taşınırı elinde tutan kişi. Ondan iyiniyetle edinenin edinimi korunur (TMK m. 988)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "973",
+   "official_text": "I. Kavram\nMadde 973- Bir şey üzerinde fiilî hâkimiyeti bulunan kimse onun zilyedidir.\nTaşınmaz üzerindeki irtifak haklarında ve taşınmaz yüklerinde hakkın fiilen kullanılması zilyetlik sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "974",
+   "official_text": "1. Aslî ve fer'î zilyetlik\nMadde 974- Zilyet, bir sınırlı aynî hak veya bir kişisel hakkın kurulmasını ya da kullanılmasını sağlamak için şeyi başkasına teslim ederse, bunların ikisi de zilyet olur.\nBir şeyde malik sıfatıyla zilyet olan aslî zilyet, diğeri fer'î zilyettir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "975",
+   "official_text": "2. Dolaylı ve dolaysız zilyetlik\nMadde 975- Bir şeyde fiilî hâkimiyetini doğrudan doğruya sürdüren kimse dolaysız zilyet, başka bir kişi aracılığı ile sürdüren kimse dolaylı zilyettir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "976",
+   "official_text": "III. Geçici olarak kesilme\nMadde 976- Fiilî hâkimiyetin geçici nitelikteki sebeplerle kullanılmaması veya kullanma olanağının ortadan kalkması zilyetliği sona erdirmez.\nB. Zilyetliğin devri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "977",
+   "official_text": "I. Hazırlar arasında\nMadde 977- Zilyetlik, şeyin veya şey üzerinde hâkimiyeti sağlayacak araçların, edinene teslimi veya edinenin önceki zilyedin rızasıyla şey üzerinde hâkimiyeti kullanacak duruma gelmesi hâlinde devredilmiş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "978",
+   "official_text": "II. Hazır olmayanlar arasında\nMadde 978- Temsilciye yapılan teslim, temsil edilene yapılmış gibi zilyetliği geçirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "979",
+   "official_text": "III. Teslimsiz devir\nMadde 979- Bir üçüncü kişi veya zilyetliği devreden, özel bir hukukî ilişkiye dayanarak zilyet olmakta devam ederse zilyetlik, teslim gerçekleşmeksizin kazanılmış olur.\nZilyetliğin bu yolla devri, zilyet olmakta devam eden üçüncü kişiye karşı, ancak durumun devreden tarafından kendisine bildirildiği andan başlayarak hüküm doğurur.\nÜçüncü kişi, zilyetliği devredene karşı ileri sürebileceği sebeplerle şeyi edinene vermekten kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "980",
+   "official_text": "IV. Emtiayı temsil eden senetlerin teslimi\nMadde 980- Bir taşıyıcıya veya umumî mağazaya bırakılmış emtiayı temsil eden kıymetli evrakın teslimi, emtianın teslimi gibi sonuç doğurur.\nKıymetli evrakı iyiniyetle teslim alan kimse ile emtiayı iyiniyetle teslim alan kimse arasında uyuşmazlık çıkarsa emtiayı teslim alan tercih olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "599",
+   "official_text": "I. Mirasçılar tarafından\nMadde 599- Mirasçılar, mirasbırakanın ölümü ile mirası bir bütün olarak, kanun gereğince kazanırlar.\nKanunda öngörülen ayrık durumlar saklı kalmak üzere mirasçılar, mirasbırakanın aynî haklarını, alacaklarını, diğer malvarlığı haklarını, taşınır ve taşınmazlar üzerindeki zilyetliklerini doğrudan doğruya kazanırlar ve mirasbırakanın borçlarından kişisel olarak sorumlu olurlar.\nAtanmış mirasçılar da mirası, mirasbırakanın ölümü ile kazanırlar. Yasal mirasçılar, atanmış mirasçılara düşen mirası onlara zilyetlik hükümleri uyarınca teslim etmekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "763",
+   "official_text": "1. Zilyetliğin devri\nMadde 763- Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir.\nBir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kimse, devredenin mülkiyeti devir yetkisi olmasa bile, zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde o şeyin maliki olur.\n2. Mülkiyetin saklı tutulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "766",
+   "official_text": "3. Hükmen teslim\nMadde 766- Bir taşınırın mülkiyetini nakleden kimse özel bir hukukî ilişkiye dayanarak o şeyin zilyetliğini korursa, mülkiyet teslimsiz geçmiş olur. Ancak, bu işlem üçüncü kişileri zarara sokmak veya taşınır rehni kurallarından kurtulmak için yapılmışsa, mülkiyetin nakli sonuç doğurmaz.\nBöyle bir amaç güdülüp güdülmediğini hâkim takdir eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "939",
+   "official_text": "1. Alacaklının zilyetliği\nMadde 939 - Kanunda öngörülen ayrık durumlar dışında taşınırlar, ancak zilyetliğin alacaklıya devri suretiyle rehnedilebilir.\nRehnedende tasarrufta bulunma yetkisi olmasa bile, rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Üçüncü kişilerin önceki zilyetlikten doğan hakları saklıdır.\nTaşınır, fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz.\n2. Ayrık durumlar[43]\n[43] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu maddenin birinci ve ikinci fıkralarında yer alan “tüzükle” ibareleri “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "985",
+   "official_text": "1. Mülkiyet karinesi\nMadde 985- Taşınırın zilyedi onun maliki sayılır.\nÖnceki zilyetler de zilyetlikleri süresince o taşınırın maliki sayılırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "986",
+   "official_text": "2. Fer'î zilyetlikte karine\nMadde 986- Bir taşınıra malik olma iradesi bulunmaksızın zilyet olan kimse, taşınırı kendisinden iyiniyetle aldığı kişinin mülkiyet karinesine dayanabilir.\nTaşınıra bir sınırlı aynî hak veya kişisel hak iddiasıyla zilyet bulunan kimsenin iddia ettiği hakkın varlığı karine olarak kabul edilir. Ancak, zilyet bu karineyi şeyi kendisine vermiş olan kişiye karşı ileri süremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "988",
+   "official_text": "a. Emin sıfatıyla zilyetten edinme bakımından\nMadde 988- Bir taşınırın emin sıfatıyla zilyedinden o şey üzerinde iyiniyetle mülkiyet veya sınırlı aynî hak edinen kimsenin edinimi, zilyedin bu tür tasarruflarda bulunma yetkisi olmasa bile korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "996",
+   "official_text": "Madde 996- Kazandırıcı zamanaşımından yararlanma hakkına sahip olan zilyet, zilyetliği kendisine devreden aynı yetkiye sahip idiyse onun zilyetlik süresini kendi süresine ekleyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "713",
+   "official_text": "b. Olağanüstü zamanaşımı\nMadde 713- Tapu kütüğünde kayıtlı olmayan bir taşınmazı davasız ve aralıksız olarak yirmi yıl süreyle ve malik sıfatıyla zilyetliğinde bulunduran kişi, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nAynı koşullar altında, maliki tapu kütüğünden anlaşılamayan veya yirmi yıl önce (…)[38] hakkında gaiplik kararı verilmiş bir kimse adına kayıtlı bulunan taşınmazın tamamının veya bölünmesinde sakınca olmayan bir parçasının zilyedi de, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nTescil davası, Hazineye ve ilgili kamu tüzel kişilerine veya varsa tapuda malik gözüken kişinin mirasçılarına karşı açılır.\nDavanın konusu, mahkemece bir gazete ve bir internet haber sitesinde ve ayrıca taşınmazın bulunduğu yerde uygun araç ve aralıklarla en az üç defa ilân olunur.[39]\nSon ilândan başlayarak üç ay içinde yukarıdaki koşulların gerçekleşmediğini ileri sürerek itiraz eden bulunmaz ya da itiraz yerinde görülmez ve davacının iddiası ispatlanmış olursa, hâkim tescile karar verir. Mülkiyet, birinci fıkrada öngörülen koşulların gerçekleştiği anda kazanılmış olur.\nDavalılar ve itiraz edenler, aynı davada kendi adlarına tescile karar verilmesini isteyebilirler.\nKararda, tescili istenilen taşınmazın niteliği, yeri, sınırları ve yüzölçümü belirtilir ve karara, uzmanlarca düzenlenen teknik bilgileri içeren krokisi de eklenir.\nÖzel kanun hükümleri saklıdır.\n[38] Anayasa Mahkemesi’nin 17/3/2011 tarihli ve E.: 2009/58, K.: 2011/52 sayılı Kararı ile bu fıkrada yer alan “… ölmüş ya da…” ibaresi iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "950",
+   "official_text": "Madde 950- Alacaklı, borçluya ait olup onun rızasıyla zilyedi bulunduğu taşınırı veya kıymetli evrakı, borcun muaccel olması ve niteliği itibarıyla bu eşyanın alacak ile bağlantısı bulunması hâlinde, borç ödeninceye kadar hapsedebilir.\nZilyetlik ve alacak ticarî ilişkiden doğmuşsa, tacirler arasında bu bağlantı var sayılır.\nAlacaklı, borçluya ait olmayan taşınırlar üzerinde de zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkına sahip olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "310",
+   "official_text": "MADDE 310- Sözleşmenin kurulmasından sonra kiralanan herhangi bir sebeple el değiştirirse, yeni malik kira sözleşmesinin tarafı olur.\nKamulaştırmaya ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "289",
+   "official_text": "MADDE 289- Elden bağışlama, bağışlayanın bir taşınırını bağışlanana teslim etmesiyle kurulmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "1228",
+   "official_text": "I- Tanımı, türleri ve düzenlenmesi\nMADDE 1228- (1) Konişmento, bir taşıma sözleşmesinin yapıldığını ispatlayan, eşyanın taşıyan tarafından teslim alındığını veya gemiye yüklendiğini gösteren ve taşıyanın eşyayı, ancak onun ibrazı karşılığında teslimle yükümlü olduğu senettir.\n(2) Yükletenin izniyle, taşınmak üzere teslim alınan fakat henüz gemiye yükletilmemiş olan eşya için “tesellüm konişmentosu” düzenlenebilir. Eşya gemiye alınır alınmaz taşıyan, onun teslim alındığı sırada verilmiş olan geçici makbuz veya tesellüm konişmentosunun geri verilmesi karşılığında yükletenin istediği kadar nüshada “yükleme konişmentosu” düzenlemekle yükümlüdür. Tesellüm konişmentosuna eşyanın ne zaman ve hangi gemiye yüklenmiş olduğuna dair şerh verildiği takdirde bu konişmento “yükleme konişmentosu” hükmündedir. Konişmento, kaptan veya taşıyanın yahut kaptanın bu hususta yetkilendirdiği bir temsilcisi tarafından taşıyan ad ve hesabına düzenlenebilir.\n(3) Konişmento, nama, emre ve hamile yazılı olarak düzenlenebilir. Aksi kararlaştırılmadıkça yükletenin istemi üzerine konişmento gönderilenin emrine veya sadece emre olarak düzenlenir. Bu son hâlde “emre” yükletenin emrine demektir. Konişmento gönderilen sıfatıyla taşıyanın veya kaptanın namına da yazılı olabilir.\n(4) Konişmentonun bütün nüshaları aynı metni içermeli ve her birinde kaç nüsha hâlinde düzenlendiği gösterilmelidir.\n(5) Yükleten, istem üzerine, konişmentonun kendisi tarafından imzalanmış olan bir kopyasını taşıyana vermek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "1234",
+   "official_text": "aa) Genel olarak\nMADDE 1234- (1) Eşya, kaptan veya taşıyanın diğer bir temsilcisi tarafından taşınmak üzere teslim alınınca konişmentonun, konişmento gereğince eşyayı teslim almaya yetkili olan kişiye teslimi, 1235 inci madde hükümleri saklı kalmak şartıyla, Türk Medenî Kanununun 957 ve 980 inci maddelerinde yazılı hukuki sonuçları doğurur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "832",
+   "official_text": "I - Genel olarak\nMADDE 832- (1) Makbuz senedi ve varant verme karşılığında serbest veya gümrüklenmemiş mal ve hububatı, saklama sözleşmesi uyarınca kabul etmek ve tevdi edenlere de bu senetlerle tevdi olunan mal ve hububatı satabilmek veya rehnedebilmek imkânı vermek amacıyla kurulan mağazalara “umumi mağaza” denir. Umumi mağazalar işlemleri bu Kısım hükümlerine tabidir.\n(2) Umumi mağazalar Gümrük ve Ticaret Bakanlığının izniyle kurulur. (Mülga ikinci cümle: 26/6/2012-6335/43 md.) (…)\n(3) Umumi mağazaların kuruluş usul ve esasları, bunlara kabul edilecek mal ve hububat cinsleri ve umumi mağazaların henüz gümrüklenmemiş olan malları kabul etmeye yetkili sayılmaları için gereken şartlar ve gümrük denetimi özel kanununda düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KADASTRO KANUNU",
+   "law_no": "3402",
+   "article_no": "14",
+   "official_text": "Tapuda kayıtlı olmayan taşınmaz malların tespiti:\nMadde 14 – Tapuda kayıtlı olmayan ve aynı çalışma alanı içinde bulunan ve toplam yüzölçümü sulu toprakta 40, kuru toprakta 100 dönüme kadar olan (40 ve 100 dönüm dahil) bir veya birden fazla taşınmaz mal, çekişmesiz ve aralıksız en az yirmi yıldan beri malik sıfatıyla zilyetliğini belgelerle veya bilirkişi veyahut tanık beyanlarıyla ispat eden zilyedi adına tespit edilir.\n(Değişik ikinci fıkra: 3/7/2005 - 5403/26 md.) Sulu veya kuru arazi ayrımı, Toprak Koruma ve Arazi Kullanımı Kanunu hükümlerine göre yapılır. (1)\n(Değişik : 3/7/2005 - 5403/26 md.) 4342 sayılı Mera Kanununun 7 nci maddesinin üçüncü fıkrası gereği 3402 sayılı Kanun hükümlerine göre yapılacak işlemlerde Kadastro Komisyonlarına konu uzmanı Ziraat Mühendisi dâhil edilir. (1)\nTaşınmaz malın, yukarıdaki fıkranın kapsamı dışında kalan kısmının zilyedi adına tespit edilebilmesi için, birinci fıkra gereğince delillendirilen zilyetliğin ayrıca aşağıdaki belgelerden birine dayandırılması lazımdır.\n(1) 3/7/2005 tarihli ve 5403 sayılı Kanunun 26 ncı maddesinde\"...3402 sayılı Kanunun 14 üncü maddesinin ikinci fıkrası aşağıdaki şekilde değiştirilmiştir.\" hükmü yer almakla birlikte, yapılan düzenleme iki parağraftan oluştuğundan değişiklik ayrıca gösterilmiştir.\nA) 31/12/1981 tarihine veya daha önceki tarihlere ait vergi kayıtları,\nB) Tasdikli irade suretleri ile fermanlar,\nC) Muteber mütevelli, sipahi, mültezim temessük veya senetleri,\nD) Kayıtları bulunmayan tapu veya mülga hazinei hassa senetleri veya muvakkat tasarruf ilmuhaberleri,\nE) Tasdiksiz tapu yoklama kayıtları,\nF) Mülkname, muhasebatı atika kalemi kayıtları,\nG) Mubayaa, istihkam ve ihbar hüccetleri,\nH) Evkaf idarelerinden tapuya devredilmemiş tasarruf kayıtları.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3402&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2005/8-756",
+   "karar_no": "2006/787",
+   "decision_date": "",
+   "summary_md": "Davacı, tapusuz bir evi 1980 tarihli harici bir senetle davalıdan satın aldığını, senette zilyetliğin kendisine devredildiğinin yazılı olduğunu, kendisi yurt dışındayken davalının evi kadastroda kendi adına tespit ettirdiğini ileri sürerek tapu iptali ve tescil istemiştir. Yerel mahkeme, toplanan delillere göre davacının eve hiç zilyet olmadığını, evin uzun yıllardır davalının zilyetliğinde bulunduğunu belirterek davayı reddetmiştir. Yargıtay 8. Hukuk Dairesi, senette zilyetliğin devredildiğinin açıkça yazılı olduğunu belirterek kararı bozmuş, yerel mahkeme direnmiştir. Hukuk Genel Kurulu oyçokluğuyla direnme kararını onamıştır. Gerekçeye göre tapusuz taşınmazın satışında zilyetliğin alıcıya devri gerekir, zilyetlik maddi bir olgudur ve tanık dahil her türlü delille ispatlanabilir. Davalının evi davacı adına elinde tuttuğuna dair bir beyan ya da delil bulunmadığından ne doğrudan teslim ne hükmen teslim ne de kısa elden teslim vardır. Fiilî duruma aykırı senet ibaresine değer verilemez. Kurul ayrıca davacının yaklaşık yirmi yıl hiçbir girişimde bulunmamasını terk iradesinin göstergesi saymış, eklemeli bir zilyetliğin varlığını reddetmiştir (TMK m. 713, 3402 sayılı Kanun m. 14). Karşı oy yazılarından biri, imzası inkâr edilmeyen senedin aksinin tanıkla ispatlanamayacağını savunmuştur. Konuya katkısı: zilyetliğin devrinin kâğıt üzerindeki bir beyanla değil, fiilî hâkimiyetin geçişiyle gerçekleştiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=77090000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "14. Hukuk Dairesi",
+   "esas_no": "2008/1927",
+   "karar_no": "2008/3144",
+   "decision_date": "13.03.2008",
+   "summary_md": "Davacılar, mirasbırakanlarının 1976'da davalıların mirasbırakanıyla şekline uygun olarak yaptığı taşınmaz satış vaadi sözleşmesine dayanarak tapu iptali ve tescil, olmazsa taşınmazın değerinin ödenmesini istemiştir. Sözleşmede bedelin peşin alındığı ve taşınmazdaki zilyetliğin fiilen teslim edildiği yazılıdır. Davalılar zamanaşımı savunmasında bulunmuş, mahkeme davayı zamanaşımı nedeniyle reddetmiştir. Yargıtay 14. Hukuk Dairesi kararı bozmuştur. Gerekçeye göre satış vaadinden doğan dava için özel bir süre yoktur ve on yıllık genel zamanaşımı uygulanır (bugün TBK m. 146). Ancak taşınmaz vaat alacaklısına teslim edilmişse, süre geçtikten sonra yapılan zamanaşımı savunması dürüst davranma kuralıyla bağdaşmaz (TMK m. 2). Daire, sözleşmede zilyetliğin teslim edildiğinin yazılmasıyla zilyetliğin TMK m. 979 uyarınca hükmen teslim edildiğini, böylece vaat borçlusunun fer'î, vaat alacaklısının asli zilyet hâline geldiğini kabul etmiştir. Konuya katkısı: Yargıtay'ın hükmen teslimi asli ve fer'î zilyetlik ayrımıyla nasıl açıkladığını gösterir. Sözleşmedeki teslim ibaresine verilen değer bakımından Hukuk Genel Kurulu'nun fiilî durumu esas alan kararıyla karşılaştırılmaya elverişlidir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/845088100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "8. Hukuk Dairesi",
+   "esas_no": "2024/4684",
+   "karar_no": "2026/2562",
+   "decision_date": "15.04.2026",
+   "summary_md": "Kullanım kadastrosu sırasında bir taşınmazın beyanlar hanesine, üzerindeki yapılar ile arsanın belediyenin kullanımında olduğu yazılmıştır. Taşınmazda akaryakıt istasyonu işleten davacı şirket, taşınmazın kendi fiilî kullanımında olduğunu ileri sürerek kullanıcı olarak yazılmasını istemiştir. Davalı belediye, taşınmazın kendi asli zilyetliğinde olduğunu, şirketin ise kiracı, dolayısıyla fer'î zilyet olduğunu savunmuştur. İlk derece mahkemesinin ret kararı istinaf incelemesinden sonra Yargıtay 8. Hukuk Dairesince eksik araştırma gerekçesiyle bozulmuştur. Bozmadan sonra mahkeme, şirketin mahkemece onaylanan bir sulh protokolüyle yap-işlet-devret modeli çerçevesinde kiracı olduğunu kabul ettiğini, sözleşme sonunda istasyonu belediyeye teslim etmeyi üstlendiğini ve protokolün irade bozukluğu nedeniyle iptalini ileri sürmediğini belirlemiştir. Mahkemeye göre kiracı sıfatıyla fer'î zilyet olan, asli zilyet olmayan şirket kullanıcı olarak tespit edilemez. Şirketin kök parselde pay sahibi olması da bunu değiştirmez. Yargıtay 8. Hukuk Dairesi bu kararı 2026'da onamıştır. Konuya katkısı: bir taşınmazı yıllarca fiilen kullanmanın, kişi bunu kiracı sıfatıyla yapıyorsa asli zilyetlik sağlamadığını ve asli-fer'î ayrımının doğrudan sonuç doğurduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1231261000",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 973/1'e göre zilyet kimdir?",
+   "options": [
+    "Bir şey üzerinde fiilî hâkimiyeti bulunan kimse",
+    "Bir şey üzerinde mülkiyet hakkı bulunan kimse",
+    "Bir şeyi hukuka uygun bir sebeple elinde bulunduran kimse",
+    "Tapu kütüğünde malik olarak görünen kimse"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 973/1 zilyetliği yalnız fiilî hâkimiyete bağlar. Mülkiyet ya da hukuka uygun bir sebep aranmaz, bu yüzden hırsız da zilyettir. Tapu kaydı mülkiyetle ilgilidir, zilyetliği göstermez."
+  },
+  {
+   "stem_md": "TMK m. 973/2'ye göre hangi haklarda hakkın fiilen kullanılması zilyetlik sayılır?",
+   "options": [
+    "Bütün alacak haklarında",
+    "Kira ve ödünç gibi bütün kişisel haklarda",
+    "Fikrî mülkiyet haklarında",
+    "Taşınmaz irtifak haklarında ve taşınmaz yüklerinde"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kanun hak zilyetliğini taşınmaz irtifakları ve taşınmaz yükleri için öngörür (TMK m. 973/2). Kiracı ise hakkın değil kiralananın kendisinin zilyedidir. O, fer'î zilyettir (TMK m. 974/1)."
+  },
+  {
+   "stem_md": "Ayşe dairesini Burak'a kiraya vermiş ve anahtarları teslim etmiştir. Daire üzerindeki zilyetlik hakkında hangisi doğrudur?",
+   "options": [
+    "İkisi de zilyettir: Ayşe asli ve dolaylı, Burak fer'î ve dolaysız zilyettir.",
+    "Yalnız Ayşe zilyettir, çünkü malik odur.",
+    "Yalnız Burak zilyettir, çünkü daireyi fiilen o kullanmaktadır.",
+    "İkisi de zilyettir: Burak asli ve dolaysız, Ayşe fer'î ve dolaylı zilyettir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 974/1'e göre şey bir kişisel hakkın kullanılması için başkasına teslim edilirse ikisi de zilyet olur. Malik sıfatıyla zilyet olan Ayşe asli, kiracı Burak fer'î zilyettir (TMK m. 974/2). Ayşe hâkimiyetini Burak aracılığıyla sürdürdüğü için dolaylı, Burak doğrudan sürdürdüğü için dolaysız zilyettir (TMK m. 975)."
+  },
+  {
+   "stem_md": "Cem, otoparktan çaldığı bisikleti üç aydır kendi malıymış gibi kullanmaktadır. Cem'in durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Malik olmadığı için ancak fer'î zilyet olabilir.",
+    "Hiçbir hakkı olmadığı için zilyet değildir.",
+    "Bisikletin sahibinin zilyet yardımcısıdır.",
+    "Malik sıfatıyla zilyet olduğu için asli ve dolaysız zilyettir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Zilyetlik fiilî hâkimiyete dayanır, hâkimiyetin hukuka uygun olması aranmaz (TMK m. 973/1). Asli zilyet olmak için malik olmak gerekmez, malik sıfatıyla, yani malik gibi zilyet olmak yeter (TMK m. 974/2). Cem'in iyiniyetli olmaması iade borcu ve sorumluluğu bakımından önem taşır."
+  },
+  {
+   "stem_md": "Bir marketin kasiyeri Elif, mesai boyunca kasadaki paraları elinde tutmaktadır. Paraların zilyetliği hakkında hangisi doğrudur?",
+   "options": [
+    "Elif zilyet yardımcısıdır, zilyet değildir. Paraların dolaysız zilyedi market işletmesidir.",
+    "Elif asli zilyettir, çünkü paraları fiilen o tutmaktadır.",
+    "Elif ile market işletmesi aynı derecede birlikte zilyettir.",
+    "Elif fer'î ve dolaysız zilyet, market işletmesi asli ve dolaylı zilyettir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Başkasının talimatına bağlı olarak ve onun adına eşyayı elinde tutan kişi zilyet yardımcısıdır. Bağımsız bir hâkimiyeti olmadığı için zilyet sayılmaz. Zilyet, onun bağlı olduğu işletmedir ve hâkimiyetini dolaysız olarak sürdürür. Kanunda açık hüküm yoktur, sonuç TMK m. 973'teki fiilî hâkimiyet ölçütünden çıkarılır."
+  },
+  {
+   "stem_md": "Malik Ayşe dairesini Burak'a, Burak da Ayşe'nin izniyle bir odayı Can'a alt kiraya vermiştir. Burak'ın, Can'ın kullandığı oda bakımından durumu nedir?",
+   "options": [
+    "Fer'î ve dolaylı zilyettir.",
+    "Fer'î ve dolaysız zilyettir.",
+    "Zilyet değildir, çünkü odayı Can kullanmaktadır.",
+    "Asli ve dolaylı zilyettir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Burak odayı malik sıfatıyla değil kiracı olarak tuttuğu için fer'î zilyettir (TMK m. 974/2). Odadaki hâkimiyetini Can aracılığıyla sürdürdüğü için de dolaylı zilyettir (TMK m. 975). Can fer'î dolaysız, Ayşe asli dolaylı zilyettir."
+  },
+  {
+   "stem_md": "Mehmet yazlık evine yalnız yaz aylarında gitmekte, kışın evi kapalı tutmaktadır. Mehmet'in kış aylarındaki zilyetliği hakkında hangisi doğrudur?",
+   "options": [
+    "Kış boyunca evi kullanmadığı için zilyetliği sona erer, yazın yeniden kazanır.",
+    "Zilyetliğin sürmesi için evin bir bekçiye teslim edilmesi gerekir.",
+    "Altı aydan uzun kullanmama hâlinde zilyetlik kendiliğinden sona erer.",
+    "Geçici nitelikteki sebeplerle kullanılmama zilyetliği sona erdirmez. Mehmet zilyet olmaya devam eder."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 976'ya göre fiilî hâkimiyetin geçici nitelikteki sebeplerle kullanılmaması ya da kullanma olanağının ortadan kalkması zilyetliği sona erdirmez. Kanunda altı ay gibi bir süre yoktur. Mevsimlik kullanım, yazlık bir evin ekonomik amacına uygundur."
+  },
+  {
+   "stem_md": "TMK m. 977'ye göre hazırlar arasında zilyetliğin devri yolları arasında **yer almayan** hangisidir?",
+   "options": [
+    "Edinenin, önceki zilyedin rızasıyla şey üzerinde hâkimiyeti kullanacak duruma gelmesi",
+    "Devir sözleşmesinin noterde düzenlenmesi",
+    "Şeyin edinene teslimi",
+    "Şey üzerinde hâkimiyeti sağlayacak araçların edinene teslimi"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 977 üç yol sayar: şeyin teslimi, hâkimiyeti sağlayacak araçların teslimi ve edinenin önceki zilyedin rızasıyla hâkimiyeti kullanacak duruma gelmesi (uzun elden teslim). Zilyetliğin devri fiilî hâkimiyetin geçişidir, bir şekle bağlı değildir. Noterde yapılan bir sözleşme tek başına fiilî hâkimiyeti geçirmez."
+  },
+  {
+   "stem_md": "Çiftçi Mehmet, tarlasının kenarında istifli 200 saman balyasını Ali'ye satar. Ali'yi tarlaya götürüp balyaları gösterir ve kapının açık olduğunu, istediği zaman gelip alabileceğini söyler. Ali balyaları bir hafta sonra götürür. Ali zilyetliği ne zaman kazanmıştır?",
+   "options": [
+    "Mehmet tarlanın kapısını kilitleyip anahtarı Ali'ye verdiği anda",
+    "Mehmet'in rızasıyla balyalar üzerinde hâkimiyeti kullanacak duruma geldiği anda",
+    "Satış sözleşmesinin yazılı olarak yapıldığı anda",
+    "Balyaları götürdüğü gün, çünkü teslim ancak taşımayla gerçekleşir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 977'ye göre edinenin önceki zilyedin rızasıyla şey üzerinde hâkimiyeti kullanacak duruma gelmesi de zilyetliği devreder (uzun elden teslim). Balyaların fiziken taşınması gerekmez. Anahtarın teslimi ayrı bir devir yoludur, burada zorunlu değildir. Satış sözleşmesi ise tek başına zilyetliği geçirmez."
+  },
+  {
+   "stem_md": "Zeynep, bir yıldır Ozan'dan kiraladığı bisikleti Ozan'dan satın alır. Bisiklet zaten Zeynep'tedir. Zilyetliğin devri hakkında hangisi doğrudur?",
+   "options": [
+    "Taraflar anlaşınca Zeynep'in fer'î zilyetliği asli zilyetliğe dönüşür. Bu kısa elden teslimdir.",
+    "Bu bir hükmen teslimdir, Ozan dolaylı zilyet olmaya devam eder.",
+    "Bu bir zilyetliğin havalesidir ve devir ancak üçüncü bir kişiye bildirimle hüküm doğurur.",
+    "Zeynep bisikleti önce Ozan'a iade etmeli, Ozan da onu yeniden teslim etmelidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Edinen şeyi zaten elinde tutuyorsa iade ve yeniden teslim gereksizdir. Tarafların anlaşmasıyla edinenin zilyetliğinin sıfatı değişir (kısa elden teslim). Hükmen teslimde şey devredende, havalede üçüncü kişide kalır (TMK m. 979). Burada şey edinendedir."
+  },
+  {
+   "stem_md": "Fotoğrafçı Mehmet fotoğraf makinesini Ayşe'ye satar. Bir düğün çekimi için makineyi Ayşe'den bir haftalığına kiralar ve kullanmaya devam eder. Ayşe ve Mehmet'in durumu nedir?",
+   "options": [
+    "Kısa elden teslim gerçekleşmiştir: Mehmet asli zilyet olmaya devam eder.",
+    "Hükmen teslim gerçekleşmiştir: Ayşe asli ve dolaylı, Mehmet fer'î ve dolaysız zilyettir.",
+    "Makine teslim edilmediği için Ayşe zilyet olmamıştır.",
+    "Zilyetliğin havalesi gerçekleşmiştir: devir Mehmet'e ayrıca bildirilmedikçe hüküm doğurmaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 979/1'e göre zilyetliği devreden, özel bir hukuki ilişkiye (burada kira) dayanarak zilyet olmaya devam ederse zilyetlik teslimsiz kazanılır. Ayşe artık malik sıfatıyla, ama Mehmet aracılığıyla zilyettir. Mehmet ise kiracı olarak fer'î ve dolaysız zilyettir. Bildirim kuralı, şeyin üçüncü kişide kaldığı havaleye özgüdür."
+  },
+  {
+   "stem_md": "Halil antika bir dolabı Can'a satar. Can bedeli öder, ancak dolabı almaya iki hafta sonra gelecektir. Sözleşmede zilyetliğin devrine ilişkin bir hüküm yoktur, aralarında saklama ya da başka bir anlaşma da yapılmamıştır. Zilyetlik hakkında hangisi doğrudur?",
+   "options": [
+    "Bedel ödendiği için zilyetlik hükmen teslimle Can'a geçmiştir.",
+    "Satış sözleşmesi kurulduğu için Halil dolabı artık kendiliğinden Can adına tutar, Can asli ve dolaylı zilyettir.",
+    "Teslim de hükmen teslimi sağlayacak bir anlaşma da bulunmadığından Halil zilyet olmaya devam eder, Can yalnız teslimi isteyebilir.",
+    "Can, dolaba hiç ulaşamasa da uzun elden teslimle zilyet olmuştur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hükmen teslim, devredenin şeyi özel bir hukuki ilişkiye dayanarak edinen adına elinde tutmaya devam etmesini arar (TMK m. 979/1). Burada ne zilyetliğin devrine dair bir anlaşma ne de satıştan ayrı bir ilişki (saklama, ödünç) vardır. Halil teslim borcunu henüz ifa etmemiş satıcı olarak dolabı kendisi için tutar. Bedelin ödenmesi ya da satışın kurulması zilyetliği geçirmez, Can yalnız teslim isteyebilecek bir alacaklıdır. Uzun elden teslim için de Can'ın dolap üzerinde hâkimiyeti kullanacak duruma gelmesi gerekirdi (TMK m. 977)."
+  },
+  {
+   "stem_md": "Selin'in kumaşları X Lojistik'in deposunda saklama sözleşmesiyle durmaktadır. Selin kumaşları Kerem'e satar ve zilyetliği anlaşmayla devreder, ancak depoya haber vermez. Depo, birkaç gün sonra Selin'in talebi üzerine kumaşları ona geri verir. Hangisi doğrudur?",
+   "options": [
+    "Devir depoya karşı ancak Selin'in bildirimiyle hüküm doğuracağından depo Kerem'e karşı sorumlu değildir.",
+    "Depoya bildirim ancak noter aracılığıyla yapılabilir.",
+    "Depo, devirden haberi olmasa bile Kerem'e karşı sorumludur.",
+    "Bildirim yapılmadığı için Selin ile Kerem arasındaki devir de hüküm doğurmamıştır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Zilyetliğin havalesinde devir, zilyet olmaya devam eden üçüncü kişiye karşı ancak durum devreden tarafından ona bildirildiği andan itibaren hüküm doğurur (TMK m. 979/2). Bildirim almadan şeyi eski zilyede veren üçüncü kişi sorumlu olmaz. Bildirim taraflar arasındaki devrin değil, devrin üçüncü kişiye karşı etkisinin şartıdır. Kanun bildirim için bir şekil öngörmez."
+  },
+  {
+   "stem_md": "Ayşe, sahibi olduğu endüstriyel dikiş makinesini 31 Aralık'a kadar Burak'ın atölyesine kiralamıştır. Haziran'da makineyi Deniz'e satar, zilyetliği havale yoluyla devreder ve durumu Burak'a bildirir. Deniz Temmuz'da makinenin hemen kendisine verilmesini ister. Hangisi doğrudur?",
+   "options": [
+    "Burak, Ayşe'ye karşı ileri sürebileceği kira sözleşmesine dayanarak kira süresince makineyi vermekten kaçınabilir.",
+    "Burak makineyi ancak Deniz ayrıca onay verirse elinde tutabilir.",
+    "Satışla birlikte kira sözleşmesi kendiliğinden sona ermiştir.",
+    "Bildirim yapıldığı için Burak makineyi hemen Deniz'e vermek zorundadır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 979/3'e göre üçüncü kişi, zilyetliği devredene karşı ileri sürebileceği sebeplerle şeyi edinene vermekten kaçınabilir. Ayrıca kiralanan el değiştirirse yeni malik kira sözleşmesinin tarafı olur (TBK m. 310). Burak kira süresince makineyi kullanmaya devam eder, Deniz'in onayına ihtiyaç yoktur."
+  },
+  {
+   "stem_md": "Ankara'daki Selim, İstanbul'daki Mehmet'ten aldığı jeneratörü teslim alması için İstanbul'daki kardeşi Kaan'ı yetkilendirir. Mehmet jeneratörü Kaan'a teslim eder. Hangisi doğrudur?",
+   "options": [
+    "Kaan asli zilyet olur, Selim ise hiç zilyet olmaz.",
+    "Zilyetlik ancak jeneratör Ankara'ya ulaşıp Selim'e verildiğinde Selim'e geçer.",
+    "Temsilciye yapılan teslim temsil edilene yapılmış gibi sonuç doğurduğundan zilyetlik Kaan'a teslimle Selim'e geçmiştir.",
+    "Zilyetlik, Selim teslimi yazılı olarak onayladığında geçer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 978'e göre temsilciye yapılan teslim, temsil edilene yapılmış gibi zilyetliği geçirir. Selim dolaylı, Kaan dolaysız zilyet olur. Jeneratörün Ankara'ya ne zaman ulaştığı ya da ayrıca bir onay verilmesi zilyetliğin geçtiği anı etkilemez."
+  },
+  {
+   "stem_md": "Hangi belgenin teslimi, TMK m. 980/1 uyarınca emtianın teslimi gibi sonuç doğurur?",
+   "options": [
+    "Sevk irsaliyesi",
+    "Satış faturası",
+    "Vestiyerde verilen numaralı fiş",
+    "Deniz taşımasında düzenlenen konişmento"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 980/1, taşıyıcıya ya da umumi mağazaya bırakılmış emtiayı temsil eden kıymetli evrakın teslimine emtianın teslimi sonucunu bağlar. Konişmento bu nitelikte bir senettir (TTK m. 1228). TTK m. 1234 de konişmentonun teslimine TMK m. 980'deki sonuçları bağlar. Fatura, irsaliye ve vestiyer fişi kıymetli evrak değildir, eşyayı temsil etmez."
+  },
+  {
+   "stem_md": "X Tekstil, umumi mağazadaki pamukları temsil eden makbuz senedini Y'ye teslim etmiştir. Ardından pamukları Z'ye de satmış, depo görevlisinin dikkatsizliğiyle pamuklar Z'ye teslim edilmiştir. Y ve Z durumdan habersizdir. Pamuklar bakımından kim tercih edilir?",
+   "options": [
+    "Y ve Z pamuklar üzerinde paylı malik olur.",
+    "Senedi daha önce aldığı için Y",
+    "Pamuklar satılır ve bedeli Y ile Z arasında yarı yarıya paylaştırılır.",
+    "Emtiayı iyiniyetle teslim aldığı için Z"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 980/2'ye göre kıymetli evrakı iyiniyetle teslim alan ile emtiayı iyiniyetle teslim alan arasında uyuşmazlık çıkarsa emtiayı teslim alan tercih edilir. Y'nin zararı için X Tekstil'e ve depoya başvurması ayrı bir sorundur."
+  },
+  {
+   "stem_md": "Rıza Bey İzmir'de ölmüştür. Tek mirasçısı oğlu Kaan Almanya'dadır ve babasının öldüğünü iki gün sonra öğrenir. Kaan, babasının evindeki eşyaların zilyetliğini ne zaman kazanır?",
+   "options": [
+    "Eve gidip eşyalar üzerinde fiilen hâkimiyet kurduğunda",
+    "Ölümü öğrendiği anda",
+    "Babasının ölümüyle, doğrudan doğruya",
+    "Mirasçılık belgesi aldığında"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 599/2'ye göre mirasçılar, mirasbırakanın taşınır ve taşınmazlar üzerindeki zilyetliklerini doğrudan doğruya kazanır. Bu kazanım ölümle kendiliğinden gerçekleşir. Mirasçının ölümü bilmesi, şey üzerinde fiilî hâkimiyet kurması ya da mirasçılık belgesi alması gerekmez."
+  },
+  {
+   "stem_md": "Veli, tapuya kayıtlı olmayan bir tarlayı 22 yıldır her yıl Hasan'a kira ödeyerek ekip biçmektedir. Veli, olağanüstü kazandırıcı zamanaşımına dayanarak tarlanın adına tescilini isteyebilir mi?",
+   "options": [
+    "Evet, ama yalnız tarlanın yarısı için isteyebilir.",
+    "Hayır, çünkü kiracı olarak fer'î zilyettir. Olağanüstü zamanaşımı malik sıfatıyla zilyetlik ister.",
+    "Evet, yirmi yıldan uzun süredir zilyet olduğu için isteyebilir.",
+    "Hayır, çünkü olağanüstü zamanaşımı yalnız taşınırlar için öngörülmüştür."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 713/1, tapuya kayıtlı olmayan bir taşınmazı davasız ve aralıksız yirmi yıl **malik sıfatıyla** zilyetliğinde bulunduran kişinin tescil isteyebileceğini söyler. Kira ödeyen Veli, Hasan'ın üstün hakkını tanıyan fer'î zilyettir (TMK m. 974/2). Fer'î zilyetlik ne kadar uzun sürerse sürsün bu şartı karşılamaz."
+  },
+  {
+   "stem_md": "Zilyetlik türleri hakkında hangisi doğrudur?",
+   "options": [
+    "Dolaylı zilyet her zaman asli zilyettir.",
+    "Aynı şey üzerinde aynı anda yalnız bir kişi zilyet olabilir.",
+    "Asli zilyet her zaman dolaysız zilyettir.",
+    "Fer'î zilyet de hâkimiyetini başka bir kişi aracılığıyla sürdürüyorsa dolaylı zilyet olabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Asli-fer'î ayrımı (TMK m. 974) ile dolaylı-dolaysız ayrımı (TMK m. 975) birbirinden bağımsızdır. Alt kiraya veren kiracı fer'î ve dolaylı zilyettir. Arabasını kiraya veren malik ise asli ve dolaylı zilyettir. TMK m. 974/1, aynı şeyde birden çok zilyet olabileceğini açıkça gösterir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ayşe Yapı Ltd. Şti., sahibi olduğu 200 parçalık çelik iskele sistemini 1 Mart 2026'da, 31 Aralık 2026'ya kadar Burak İnşaat A.Ş.'ye kiraya verir. İskele Burak İnşaat'ın şantiyesine kurulur. Şantiyede iskeleyi şirketin talimatıyla kuran, söken ve kullanan kişi şirketin işçisi Emre'dir. Haziran ayının ilk haftasında Burak İnşaat, Ayşe Yapı'nın izniyle iskelenin bir bölümünü bir haftalığına komşu şantiyedeki müteahhit Can'a ücretsiz ödünç verir.\n\nAyşe Yapı, 20 Haziran'da iskele sistemini Deniz'e satar. Taraflar, iskelenin kira süresinin sonunda Burak İnşaat'tan alınacağını ve Deniz'in o günden itibaren iskele üzerinde Ayşe Yapı'nın yerine geçeceğini kararlaştırır. Ayşe Yapı, satışı Burak İnşaat'a 10 Temmuz'da e-postayla bildirir. Deniz 15 Temmuz'da şantiyeye gelerek iskelenin hemen kendisine verilmesini ister. Burak İnşaat, kira sözleşmesinin sürdüğünü söyleyerek reddeder.\n\n1. Haziran'ın ilk haftasında, Can'a ödünç verilen bölüm üzerinde Ayşe Yapı, Burak İnşaat ve Can'ın zilyetliğini belirleyiniz. Emre'nin şantiyedeki durumu nedir?\n2. Ayşe Yapı ile Deniz arasında zilyetlik hangi yolla devredilmiştir? Deniz hangi zilyetliği kazanmıştır?\n3. Bu devir Burak İnşaat'a karşı ne zaman hüküm doğurur?\n4. Deniz'in 15 Temmuz'daki talebini değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Ödünç verilen bölümde dereceli zilyetlik: Ayşe Yapı asli dolaylı, Burak İnşaat fer'î dolaylı, Can fer'î dolaysız zilyet",
+     "weight": 25,
+     "madde_ref": "TMK m. 975"
+    },
+    {
+     "point": "Emre'nin zilyet yardımcısı olduğu, zilyet olmadığı; şantiyedeki iskele bakımından Burak İnşaat'ın fer'î dolaysız zilyet olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 973"
+    },
+    {
+     "point": "Ayşe Yapı-Deniz devrinin zilyetliğin havalesi olduğu; Deniz'in asli dolaylı zilyet olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 979"
+    },
+    {
+     "point": "Zilyetliğin bu yolla devriyle taşınır mülkiyetinin de Deniz'e geçmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 763"
+    },
+    {
+     "point": "Devrin Burak İnşaat'a karşı 10 Temmuz'daki bildirimle hüküm doğurması; bildirimden önce iade hâlinde Burak İnşaat'ın sorumlu olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 979"
+    },
+    {
+     "point": "Burak İnşaat'ın kira sözleşmesine dayanarak kira süresince teslimden kaçınabilmesi; yeni malikin kira sözleşmesinin tarafı olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 310"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, bir taşınır üzerinde dereceli zilyetliği ve şey üçüncü kişinin elindeyken yapılan teslimsiz devri, yani zilyetliğin havalesini içerir. Uygulanacak hükümler TMK m. 973-975 ve TMK m. 979'dur. Kira ilişkisinin el değiştirmeden nasıl etkilendiği TBK m. 310'dadır.\n\n**Hukuki sorunlar:** (1) İskele üzerindeki zilyetlerin ve zilyetlik türlerinin belirlenmesi, (2) Ayşe Yapı-Deniz devrinin türü, (3) devrin kiracıya karşı hüküm doğurduğu an, (4) kiracının teslimden kaçınma imkânı.\n\n**1. İskele üzerindeki zilyetler:**\n- *Ayşe Yapı:* İskeleyi bir kişisel hakkın (kira) kullanılması için teslim etmiştir. Bu durumda ikisi de zilyet olur (TMK m. 974/1). Ayşe Yapı malik sıfatıyla zilyet olduğu için asli, hâkimiyetini başkaları aracılığıyla sürdürdüğü için dolaylı zilyettir.\n- *Burak İnşaat:* Kiracı olarak fer'î zilyettir. Şantiyedeki iskele bakımından dolaysız, Can'a ödünç verdiği bölüm bakımından Can aracılığıyla dolaylı zilyettir (TMK m. 975).\n- *Can:* Ödünç alan sıfatıyla fer'î ve dolaysız zilyettir.\n- *Emre:* Şirketin talimatıyla ve onun adına iskeleyi kullanan işçidir. Bağımsız bir hâkimiyeti olmadığı için zilyet yardımcısıdır, zilyet değildir. Emre'nin kullanması Burak İnşaat'ın dolaysız zilyetliğinin içindedir (TMK m. 973/1).\n\n**2. Devrin türü:** İskele ne devredende (hükmen teslim) ne de edinende (kısa elden teslim), üçüncü kişi olan kiracının elindedir. Ayşe Yapı, kiracı aracılığıyla sahip olduğu dolaylı zilyetliği anlaşmayla Deniz'e devretmiştir. Bu, zilyetliğin havalesidir (TMK m. 979/1). Deniz 20 Haziran'da asli ve dolaylı zilyet olur. Taşınır mülkiyetinin nakli için zilyetliğin devri gerektiğinden, bu devirle mülkiyet de Deniz'e geçer (TMK m. 763/1).\n\n**3. Kiracıya karşı etki:** TMK m. 979/2'ye göre havale, zilyet olmaya devam eden üçüncü kişiye karşı ancak durumun devreden tarafından ona bildirildiği andan itibaren hüküm doğurur. Bildirimi devreden Ayşe Yapı 10 Temmuz'da yapmıştır. Devir Burak İnşaat'a karşı bu tarihten itibaren hüküm doğurur. Burak İnşaat 20 Haziran ile 10 Temmuz arasında iskeleyi Ayşe Yapı'ya iade etseydi, Deniz'e karşı sorumlu olmazdı.\n\n**4. Deniz'in talebi:** Bildirimden sonra devir Burak İnşaat'a karşı da hüküm doğurmuştur. Ama bu, iskelenin hemen verilmesi gerektiği anlamına gelmez. TMK m. 979/3'e göre üçüncü kişi, devredene karşı ileri sürebileceği sebeplerle şeyi edinene vermekten kaçınabilir. Burak İnşaat, Ayşe Yapı'ya karşı 31 Aralık'a kadar kira sözleşmesine dayanabilir. Ayrıca kiralanan el değiştirdiği için yeni malik Deniz kira sözleşmesinin tarafı olmuştur (TBK m. 310). Deniz, kiraya veren olarak kira süresine katlanmak zorundadır. Kira sona erdiğinde iskeleyi Burak İnşaat'tan isteyebilir.\n\n**Sonuç:**\n- Ödünç verilen bölümde Ayşe Yapı asli dolaylı, Burak İnşaat fer'î dolaylı, Can fer'î dolaysız zilyettir. Emre zilyet yardımcısıdır.\n- Ayşe Yapı ile Deniz arasında zilyetliğin havalesi gerçekleşmiş, Deniz asli dolaylı zilyet ve malik olmuştur.\n- Devir Burak İnşaat'a karşı 10 Temmuz'daki bildirimle hüküm doğurur.\n- Burak İnşaat kira süresi dolana kadar iskeleyi vermekten kaçınabilir. Deniz'in 15 Temmuz'daki talebi yerinde değildir."
+  },
+  {
+   "stem_md": "Mehmet, İstanbul'da bir antika mağazası işletmektedir. 10 Mayıs 2026'da şu işlemleri yapar:\n\n- Mağazadaki 19. yüzyıldan kalma bir piyanoyu Zeynep'e satar ve bedeli alır. Mehmet, ay sonundaki antika fuarında sergilemek için piyanoyu bir ay daha kullanmak ister. Zeynep piyanoyu bir ay süreyle ücretsiz olarak Mehmet'e ödünç verir. Piyano mağazadan hiç çıkmaz.\n- Bir yıldır Ozan'a kiraladığı ve Ozan'ın bürosunda duran antika çalışma masasını Ozan'a satar.\n- Çiftliğindeki ahırın önünde istifli duran 30 ton yakacak odunu Hakan'a satar. Hakan'la birlikte çiftliğe gider, odunları gösterir ve çiftliğin kapısının açık olduğunu, ay sonuna kadar istediği gün gelip alabileceğini söyler. Hakan odunları 20 Mayıs'ta götürür.\n- Ankara'da oturan Selim'e bir jeneratör satar. Selim'in teslim almak için yetkilendirdiği kardeşi Kaan, jeneratörü aynı gün mağazadan alır. Jeneratör Selim'e 12 Mayıs'ta ulaşır.\n\nMağaza çalışanı Rıfat, Mehmet'in talimatıyla piyanoyu her gün temizleyip vitrinde tutmaktadır.\n\n1. Her işlemde zilyetlik hangi yolla ve ne zaman edinene geçmiştir?\n2. Piyanonun satışından sonra Mehmet ve Zeynep'in piyano üzerindeki zilyetliğinin türünü belirleyiniz. Rıfat'ın durumu nedir?\n3. Taraflar ödünç ya da zilyetliğin devri konusunda hiçbir şey kararlaştırmasaydı ve Zeynep yalnızca piyanoyu ay sonunda gelip alacağını söyleseydi sonuç değişir miydi?",
+   "rubric": [
+    {
+     "point": "Piyanoda satıştan ayrı bir ödünç sözleşmesine dayanan hükmen teslim; zilyetliğin 10 Mayıs'ta geçmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 979"
+    },
+    {
+     "point": "Zeynep'in asli dolaylı, Mehmet'in fer'î dolaysız zilyet olması; Rıfat'ın zilyet yardımcısı olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 975"
+    },
+    {
+     "point": "Çalışma masasında kısa elden teslim; Ozan'ın fer'î zilyetliğinin asli zilyetliğe dönüşmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 974"
+    },
+    {
+     "point": "Odunlarda uzun elden teslim; zilyetliğin 10 Mayıs'ta geçmesi, 20 Mayıs'ın önemsiz olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 977"
+    },
+    {
+     "point": "Jeneratörde temsilciye teslim; zilyetliğin 10 Mayıs'ta Selim'e geçmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 978"
+    },
+    {
+     "point": "Ayrı bir özel hukuki ilişki yoksa hükmen teslimin gerçekleşmemesi, Mehmet'in asli zilyet kalması",
+     "weight": 15,
+     "madde_ref": "TMK m. 979"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda dört ayrı satış ve her birinde farklı bir zilyetlik devri yolu vardır. Uygulanacak hükümler TMK m. 973-979'dur. Taşınır mülkiyetinin nakli için zilyetliğin devri gerektiğinden (TMK m. 763/1), devrin gerçekleştiği an mülkiyetin geçtiği anı da belirler.\n\n**Hukuki sorunlar:** Her işlemde devrin türü ve anı, piyano üzerindeki zilyetliklerin niteliği, çalışanın durumu ve hükmen teslimin özel hukuki ilişki şartı.\n\n**1. Devir yolları:**\n- *Piyano:* Piyano hiç el değiştirmemiş, satıştan sonra Mehmet'te kalmıştır. Mehmet onu satıştan ayrı bir hukuki ilişkiye, Zeynep'le yaptığı kullanım ödüncü sözleşmesine dayanarak elinde tutmaktadır. TMK m. 979/1'e göre zilyetliği devreden özel bir hukuki ilişkiye dayanarak zilyet olmaya devam ederse zilyetlik teslim gerçekleşmeksizin kazanılır. Bu hükmen teslimdir ve zilyetlik 10 Mayıs'ta Zeynep'e geçmiştir.\n- *Çalışma masası:* Masa zaten edinen Ozan'ın elindedir. Ozan'ın onu Mehmet'e iade edip yeniden alması gereksizdir. Tarafların anlaşmasıyla Ozan'ın kiracı sıfatıyla sahip olduğu fer'î zilyetlik asli zilyetliğe dönüşür (TMK m. 974/2). Bu kısa elden teslimdir. Zilyetlik 10 Mayıs'ta geçer, Mehmet'in dolaylı zilyetliği sona erer.\n- *Odunlar:* Odunlar fiziken el değiştirmemiştir. Ancak Hakan, Mehmet'in rızasıyla, kapısı açık çiftlikteki odunlar üzerinde istediği zaman hâkimiyet kullanabilecek duruma gelmiştir. TMK m. 977'ye göre bu da zilyetliği devreder (uzun elden teslim). Zilyetlik 10 Mayıs'ta geçmiştir. Odunların 20 Mayıs'ta götürülmesi bu anı değiştirmez.\n- *Jeneratör:* Jeneratör, Selim'in yetkilendirdiği kardeşi Kaan'a teslim edilmiştir. TMK m. 978'e göre temsilciye yapılan teslim, temsil edilene yapılmış gibi zilyetliği geçirir. Selim zilyetliği 10 Mayıs'ta kazanır, jeneratörün 12 Mayıs'ta Ankara'ya ulaşması önemli değildir. Kaan dolaysız, Selim dolaylı zilyettir.\n\n**2. Piyano üzerindeki zilyetlik türleri:** Zeynep piyanoya malik sıfatıyla ama Mehmet aracılığıyla zilyettir. O hâlde **asli ve dolaylı** zilyettir (TMK m. 974/2, m. 975). Mehmet artık piyanoyu ödünç alan sıfatıyla tutar: **fer'î ve dolaysız** zilyettir. Rıfat ise Mehmet'in talimatıyla ve onun adına hareket eden bir çalışandır. Bağımsız bir hâkimiyeti olmadığından zilyet yardımcısıdır, zilyet değildir. Onun eylemleri Mehmet'in dolaysız zilyetliğinin içinde kalır.\n\n**3. Özel ilişki olmasaydı:** Hükmen teslim, devredenin şeyi özel bir hukuki ilişkiye dayanarak edinen adına elinde tutmaya devam etmesini gerektirir (TMK m. 979/1). Zeynep yalnızca piyanoyu ay sonunda alacağını söyleseydi, ortada ne zilyetliğin devrine dair bir anlaşma ne de satıştan ayrı bir ilişki bulunurdu. Mehmet piyanoyu teslim borcunu henüz ifa etmemiş satıcı olarak kendisi için elinde tutardı. Bu durumda hükmen teslim yoktur. Mehmet asli zilyet olmaya devam eder, Zeynep yalnız teslimi isteyebilecek bir alacaklıdır. Zilyetlik ve onunla birlikte mülkiyet, piyano Zeynep'e teslim edildiğinde geçer (TMK m. 977, m. 763/1).\n\n**Sonuç:**\n- Piyanoda hükmen teslim, çalışma masasında kısa elden teslim, odunlarda uzun elden teslim, jeneratörde temsilciye teslim vardır. Dördünde de zilyetlik 10 Mayıs'ta geçmiştir.\n- Zeynep asli dolaylı, Mehmet fer'î dolaysız zilyettir. Rıfat zilyet yardımcısıdır.\n- Ayrı bir özel hukuki ilişki olmasaydı hükmen teslim gerçekleşmez, zilyetlik ancak teslimle geçerdi."
+  },
+  {
+   "stem_md": "Hatice, köyündeki tapuya kayıtlı olmayan boş bir araziyi 2000 yılında çevirip ağaç dikmiş, o tarihten beri burayı kendi bahçesi olarak kullanmıştır. Köy yolu kışın kar nedeniyle kapandığından Hatice her yıl Kasım-Mart arasında bahçeye gidememekte, baharda bahçenin bakımını yeniden yapmaktadır.\n\n2010 yılında yaşlanan Hatice, bahçeyi komşusu Veli'ye yıllık kira karşılığında kiralar. Veli 2010'dan beri bahçeyi işlemekte, kira bedelini her yıl Hatice'ye, Hatice'nin 2024'teki ölümünden sonra da Hatice'nin tek mirasçısı olan oğlu Murat'a ödemektedir. İstanbul'da yaşayan Murat, annesinin ölümünden sonra köye hiç gitmemiştir.\n\n2026 yılında Veli kira ödemeyi keser ve köylülere \"Bu bahçeyi 16 yıldır ben işliyorum, artık benim.\" der. Veli, olağanüstü kazandırıcı zamanaşımına dayanarak bahçenin adına tescili için dava açmayı düşünmektedir.\n\n1. Hatice'nin her kış bahçeye gidememesi 2000-2010 arasındaki zilyetliğini etkiler mi?\n2. 2010'dan sonra Hatice ve Veli'nin bahçe üzerindeki zilyetliklerinin türünü belirleyiniz.\n3. Murat, bahçeye hiç gitmediği hâlde zilyet olmuş mudur? Hangi sıfatla?\n4. Veli'nin tescil davası başarılı olabilir mi?",
+   "rubric": [
+    {
+     "point": "Kış aylarındaki kesintinin geçici olduğu ve zilyetliği sona erdirmediği; ekonomik amaca uygun kullanım",
+     "weight": 20,
+     "madde_ref": "TMK m. 976"
+    },
+    {
+     "point": "2010'dan sonra Hatice'nin asli dolaylı, Veli'nin kiracı olarak fer'î dolaysız zilyet olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 974"
+    },
+    {
+     "point": "Murat'ın zilyetliği ölümle, fiilî hâkimiyet olmadan doğrudan doğruya ve Hatice'nin konumunda (asli dolaylı) kazanması",
+     "weight": 20,
+     "madde_ref": "TMK m. 599"
+    },
+    {
+     "point": "Olağanüstü zamanaşımının malik sıfatıyla zilyetlik araması; Veli'nin kira dönemindeki fer'î zilyetliğinin bu süreye sayılmaması",
+     "weight": 25,
+     "madde_ref": "TMK m. 713"
+    },
+    {
+     "point": "Veli'nin tek taraflı sözlerinin zilyetliğin sıfatını kendiliğinden değiştirmemesi; değişiklik kabul edilse bile yirmi yılın dolmamış olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 974"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, tapusuz bir taşınmaz üzerindeki zilyetliğin süreklilik, sıfat ve miras yoluyla geçiş bakımından değerlendirilmesine ilişkindir. Uygulanacak hükümler TMK m. 973-976, TMK m. 599/2 ve TMK m. 713/1'dir.\n\n**Hukuki sorunlar:** (1) Mevsimlik kesintinin zilyetliğe etkisi, (2) kira ilişkisi kurulduktan sonra zilyetliğin türleri, (3) mirasçının zilyetliği, (4) kiracının olağanüstü kazandırıcı zamanaşımına dayanıp dayanamayacağı.\n\n**1. Kış aylarındaki kesinti:** TMK m. 976'ya göre fiilî hâkimiyetin geçici nitelikteki sebeplerle kullanılmaması ya da kullanma olanağının ortadan kalkması zilyetliği sona erdirmez. Köy yolunun kışın kapanması geçici bir sebeptir. Hatice her bahar bahçeye dönüp bakımını yaptığı için bahçeyi ekonomik amacına uygun biçimde kullanmaktadır. 2000-2010 arasında Hatice'nin zilyetliği kesintisiz sürmüştür. Hatice bu dönemde bahçeye kendi malı gibi sahip çıktığı için asli ve dolaysız zilyettir.\n\n**2. Kira ilişkisinden sonra zilyetlik türleri:** Hatice bahçeyi bir kişisel hakkın (kira) kullanılması için Veli'ye teslim etmiştir. TMK m. 974/1'e göre bu durumda ikisi de zilyettir. Malik sıfatıyla zilyet olan Hatice **asli**, Veli **fer'î** zilyettir (TMK m. 974/2). Hatice hâkimiyetini Veli aracılığıyla sürdürdüğü için **dolaylı**, Veli bahçeyi kendisi işlediği için **dolaysız** zilyettir (TMK m. 975).\n\n**3. Murat'ın zilyetliği:** TMK m. 599/2'ye göre mirasçılar, mirasbırakanın taşınır ve taşınmazlar üzerindeki zilyetliklerini doğrudan doğruya kazanır. Murat'ın bahçeye gitmesine ya da fiilî hâkimiyet kurmasına gerek yoktur, zilyetliği 2024'te annesinin ölümüyle kazanmıştır. Hatice'nin konumuna geçtiği için Murat da bahçenin **asli ve dolaylı** zilyedidir. Veli'nin kirayı Murat'a ödemeye devam etmesi de onun Murat'ın üstün hakkını tanıdığını gösterir.\n\n**4. Veli'nin tescil davası:** TMK m. 713/1, tapuya kayıtlı olmayan bir taşınmazı davasız ve aralıksız yirmi yıl **malik sıfatıyla** zilyetliğinde bulunduran kişiye tescil isteme hakkı verir. Kadastro tespitinde de aynı şart aranır (3402 sayılı Kanun m. 14). Veli 2010'dan 2026'ya kadar kira ödeyerek bahçeyi kullanmıştır. Bu dönemde Hatice'nin, sonra Murat'ın üstün hakkını tanıyan fer'î zilyettir. Fer'î zilyetlik ne kadar uzun sürerse sürsün malik sıfatıyla zilyetlik şartını karşılamaz. Yargıtay da kiracı sıfatıyla yapılan kullanımın asli zilyetlik sağlamadığını kabul eder.\n\nVeli'nin 2026'da kirayı kesip köylülere bahçenin artık kendisinin olduğunu söylemesi de sonucu değiştirmez. Zilyetliğin sıfatı, fer'î zilyetin tek taraflı sözleriyle ya da iç iradesiyle kendiliğinden değişmez. Bu davranış bir sıfat değişikliği sayılsa bile, malik sıfatıyla zilyetlik ancak 2026'da başlamış olur ve yirmi yıllık süre dolmamıştır.\n\n**Sonuç:**\n- Kış aylarındaki kesinti geçicidir ve Hatice'nin zilyetliğini sona erdirmemiştir.\n- 2010'dan sonra Hatice asli dolaylı, Veli fer'î dolaysız zilyettir.\n- Murat, 2024'te annesinin ölümüyle bahçeye hiç gitmeden asli dolaylı zilyet olmuştur.\n- Veli'nin olağanüstü kazandırıcı zamanaşımına dayanan tescil davası başarılı olamaz."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Zilyet kimdir? (TMK m. 973/1)",
+   "back_md": "Bir şey üzerinde fiilî hâkimiyeti bulunan kişi. Hâkimiyetin hukuka uygun olması aranmaz."
+  },
+  {
+   "front_md": "Hırsız zilyet midir?",
+   "back_md": "Evet, asli ve dolaysız zilyettir. Eşyası çalınan malik, malik kalır ama zilyetliğini kaybeder."
+  },
+  {
+   "front_md": "Hak zilyetliği hangi haklarda söz konusudur? (TMK m. 973/2)",
+   "back_md": "Taşınmaz irtifaklarında ve taşınmaz yüklerinde. Hakkın fiilen kullanılması zilyetlik sayılır."
+  },
+  {
+   "front_md": "Zilyet yardımcısı zilyet midir?",
+   "back_md": "Hayır. Bağımsız hâkimiyeti yoktur. Zilyet, talimatıyla hareket ettiği kişidir ve dolaysız zilyettir."
+  },
+  {
+   "front_md": "Asli zilyet kimdir? (TMK m. 974/2)",
+   "back_md": "Şeyde malik sıfatıyla zilyet olan kişi. Gerçekten malik olması gerekmez."
+  },
+  {
+   "front_md": "Fer'î zilyet kimdir?",
+   "back_md": "Şeyi sınırlı ayni hak ya da kişisel hak sahibi olarak tutan kişi: kiracı, ödünç alan, rehin alacaklısı, intifa hakkı sahibi, tamirci."
+  },
+  {
+   "front_md": "Dolaylı ve dolaysız zilyet farkı? (TMK m. 975)",
+   "back_md": "Dolaysız zilyet hâkimiyetini doğrudan, dolaylı zilyet başka bir kişi aracılığıyla sürdürür."
+  },
+  {
+   "front_md": "Alt kiraya veren kiracının durumu?",
+   "back_md": "Fer'î ve dolaylı zilyet. Alt kiracı fer'î dolaysız, malik asli dolaylı zilyettir."
+  },
+  {
+   "front_md": "Kışın kar yüzünden bahçesine ulaşamayan kişinin zilyetliği sona erer mi?",
+   "back_md": "Hayır. Geçici sebeplerle kullanmama zilyetliği sona erdirmez (TMK m. 976)."
+  },
+  {
+   "front_md": "Mirasçı zilyetliği ne zaman kazanır?",
+   "back_md": "Mirasbırakanın ölümüyle, doğrudan doğruya. Fiilî hâkimiyet kurması ya da ölümü bilmesi gerekmez (TMK m. 599/2)."
+  },
+  {
+   "front_md": "Hazırlar arasında devrin üç yolu nedir? (TMK m. 977)",
+   "back_md": "Şeyin teslimi, hâkimiyeti sağlayacak araçların teslimi, uzun elden teslim."
+  },
+  {
+   "front_md": "Uzun elden teslim nedir?",
+   "back_md": "Edinenin, önceki zilyedin rızasıyla şey üzerinde hâkimiyeti kullanacak duruma gelmesi. Şey fiziken el değiştirmez (TMK m. 977)."
+  },
+  {
+   "front_md": "Temsilciye yapılan teslimin sonucu? (TMK m. 978)",
+   "back_md": "Temsil edilene yapılmış gibi zilyetliği geçirir."
+  },
+  {
+   "front_md": "Kısa elden teslim nedir?",
+   "back_md": "Şeyi zaten elinde tutan edinene (örneğin kiracıya) zilyetliğin anlaşmayla geçmesi. Edinenin zilyetliğinin sıfatı değişir."
+  },
+  {
+   "front_md": "Hükmen teslim nedir? (TMK m. 979/1)",
+   "back_md": "Devredenin özel bir hukuki ilişkiyle (kira, ödünç, saklama) şeyi elinde tutmaya devam ederek zilyetliği teslimsiz devretmesi."
+  },
+  {
+   "front_md": "Satıcının teslimi geciktirmesi hükmen teslim midir?",
+   "back_md": "Hayır. Satıştan ayrı bir özel hukuki ilişki gerekir. Aksi hâlde satıcı zilyet kalır, alıcı yalnız teslim isteyebilir."
+  },
+  {
+   "front_md": "Hükmen teslimle teslime bağlı taşınır rehni kurulabilir mi?",
+   "back_md": "Hayır. Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz (TMK m. 939/3)."
+  },
+  {
+   "front_md": "Zilyetliğin havalesi üçüncü kişiye karşı ne zaman hüküm doğurur?",
+   "back_md": "Durum devreden tarafından ona bildirildiği andan itibaren (TMK m. 979/2)."
+  },
+  {
+   "front_md": "Havalede üçüncü kişi teslimden kaçınabilir mi?",
+   "back_md": "Evet, devredene karşı ileri sürebileceği sebeplerle (TMK m. 979/3). Örneğin süresi dolmamış kira sözleşmesi."
+  },
+  {
+   "front_md": "Emtia senedi çatışmasında kim tercih edilir? (TMK m. 980/2)",
+   "back_md": "Senedi iyiniyetle teslim alan ile emtiayı iyiniyetle teslim alan çatışırsa emtiayı teslim alan."
+  },
+  {
+   "front_md": "Kiracı yirmi yıl oturursa kazandırıcı zamanaşımıyla malik olabilir mi?",
+   "back_md": "Hayır. Olağanüstü zamanaşımı malik sıfatıyla zilyetlik ister (TMK m. 713/1). Kiracı fer'î zilyettir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

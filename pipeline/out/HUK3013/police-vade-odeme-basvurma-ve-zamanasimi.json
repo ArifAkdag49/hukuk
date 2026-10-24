@@ -1,0 +1,685 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kıymetli Evrak",
+ "topic_index": 4,
+ "slug": "police-vade-odeme-basvurma-ve-zamanasimi",
+ "title": "Poliçe III: Vade, Ödeme, Başvurma (Müracaat) Hakkı, Protesto, Sebepsiz Zenginleşme, Zamanaşımı ve İptal",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T16:46:33.110415+00:00",
+ "skill_refs": [
+  "kiymetli-evrak/muracaat-protesto-hakki"
+ ],
+ "content": {
+  "summary_md": "- **Vade (TTK m. 703):** poliçe yalnız dört biçimde vadeli düzenlenir: görüldüğünde, görüldükten belirli süre sonra, düzenlenme gününden belirli süre sonra, belirli günde. Başka biçimde yazılan ya da birbirini izleyen (taksitli) vadeler poliçeyi **batıl** yapar. Vade hiç yazılmamışsa poliçe görüldüğünde ödenir sayılır (TTK m. 672).\n- **İbraz (TTK m. 708):** belirli günde, düzenlenmeden ya da görüldükten sonra vadeli poliçe, ödeme gününde veya izleyen **iki iş günü** içinde ödeme için ibraz edilir. Görüldüğünde vadeli poliçede ibraz süresi düzenlenmeden itibaren **bir yıldır** (TTK m. 704).\n- **Ödeme (TTK m. 709-710):** hamil **kısmi ödemeyi reddedemez**. Vadeden önce ödeyen muhatap tehlikeyi üstlenir; vadesinde ödeyen, hile veya ağır kusuru yoksa borcundan kurtulur.\n- **Başvurma (müracaat) hakkı (TTK m. 713):** vadede ödenmezse hamil cirantalara, düzenleyene ve diğer borçlulara başvurur. Kabulden kaçınma, muhatabın iflası/ödemeleri tatili/semeresiz takip gibi hâllerde vadeden önce de doğar.\n- **Protesto (TTK m. 714-716):** ödenmeme noterce düzenlenen protestoyla belirlenir. Ödememe protestosu ödeme gününü izleyen **iki iş günü** içinde çekilir. Kabul etmeme protestosu çekilmişse ayrıca ödememe protestosu gerekmez.\n- **Muafiyet ve ihbar (TTK m. 722-723):** \"gidersiz/protestosuz\" kaydı protesto yükümünü kaldırır, ibraz ve ihbar yükümünü kaldırmaz. İhbar protesto gününü izleyen **dört iş günü** içinde yapılır; ihbarı geciktiren hakkını kaybetmez, zarardan sorumlu olur.\n- **Sorumluluk (TTK m. 724-726):** düzenleyen, kabul eden, ciranta ve avalistler **müteselsil** borçludur; hamil sıra gözetmeden başvurabilir. Hamilin komisyonu poliçe bedelinin binde üçünü, ödeyenin komisyonu binde ikisini aşamaz.\n- **Hak kaybı (TTK m. 730):** ibraz veya protesto süresi kaçırılırsa hamil, **kabul eden hariç**, cirantalara, düzenleyene ve diğer borçlulara karşı haklarını kaybeder.\n- **Sebepsiz zenginleşme (TTK m. 732):** yükümlülüğü düşmüş **düzenleyen ve kabul eden** zenginleştikleri kadar borçlu kalır; **ciranta**ya karşı istenemez; süre, zamanaşımı tarihini izleyen tarihten **bir yıl**.\n- **Zamanaşımı (TTK m. 749-751):** kabul edene karşı vadeden **3 yıl**; hamilin cirantalara ve düzenleyene karşı protesto tarihinden **1 yıl**; cirantanın rücuu için ödeme/dava tarihinden **6 ay**. Kesilme sebepleri sayılıdır ve yalnız işlemin yöneldiği kişiye etki eder.\n- **Metin değişikliği (TTK m. 748):** değişiklikten sonra imzalayan değişmiş metne, önce imzalayan eski metne göre sorumludur.\n- **Zayi ve iptal (TTK m. 757-765):** ödeme yasağı, bilinen elde bulunduran için iade davası, bilinmiyorsa en az 3 ay, en çok 1 yıllık çağrı süresiyle üç defa ilan ve iptal kararı.\n- **Bağlantı:** bu hükümler bonoya TTK m. 778 yollamasıyla uygulanır; konu 28'de görülecektir.",
+  "content_md": "## 1. Konunun yeri\n\nPoliçenin düzenlenmesi, kabulü ve ciro yoluyla dolaşımı geride kaldıktan sonra sıra senedin **sonuna** gelir: ya vadesinde ödenir ve kambiyo ilişkisi sona erer, ya da ödenmez ve hamil başvurma (müracaat) borçlularına yönelir. Kanun bu evreyi poliçe üzerinde ayrıntılı düzenler; bono TTK m. 778 ile aynı kuralları kendine uygular. Bu yüzden bu konudaki süreleri bir kez iyi öğrenmek bono notunu da yarıya indirir.\n\nZihinde şu zinciri kur: **vade → ibraz → ödeme / ödememe → protesto → ihbar → başvurma → zamanaşımı**. Her halkanın ayrı bir süresi vardır; sınavda soru çoğunlukla \"hangi süre kaçırıldı, kime karşı hak gitti\" biçiminde gelir.\n\n## 2. Vade türleri (TTK m. 703-707)\n\n**Vade**, senetteki alacağın muaccel olduğu andır. TTK m. 703/1'e göre poliçe yalnızca şu dört biçimde vadeli olur:\n\n1. Görüldüğünde,\n2. Görüldükten belirli bir süre sonra,\n3. Düzenlenme gününden belirli bir süre sonra,\n4. Belirli bir günde.\n\nBu liste kapalıdır. TTK m. 703/2 gereği vadesi başka şekilde yazılan veya birbirini takip eden çeşitli vadeleri gösteren (taksitli) poliçe **batıldır**.\n\n> **Örnek:** Ali Ltd. Şti. \"ilk taksit 01.03.2026, ikinci taksit 01.04.2026\" yazan bir poliçe düzenlerse senet poliçe olarak geçersizdir. Buna karşılık hiç vade yazmazsa senet geçerlidir ve görüldüğünde ödenmesi şart edilmiş sayılır (TTK m. 672/2).\n\nÖnemli hesap kuralları:\n\n- **Görüldüğünde** vadeli poliçe ibrazında ödenir; düzenlenmeden itibaren **bir yıl** içinde ibraz edilmelidir. Düzenleyen bu süreyi kısaltabilir ya da uzatabilir, belirli günden önce ibraz edilemeyeceğini de yazabilir; cirantalar yalnız **kısaltabilir** (TTK m. 704).\n- **Görüldükten sonra** vadeli poliçede vade, kabul şerhindeki tarihe veya protesto tarihine göre belirlenir. Şerhte tarih yoksa ve protesto da çekilmemişse kabul eden hakkında, kabule ibraz süresinin son günü kabul edilmiş sayılır (TTK m. 705).\n- **Ay hesabı:** bir veya birkaç ay sonra vadede vade, ilgili ayın karşılık gelen gününde gelir; karşılığı yoksa ayın son günü olur. \"Yarım ay\" on beş gündür; \"sekiz gün\" ya da \"onbeş gün\" gerçekten o kadar günlük süredir, hafta anlamına gelmez (TTK m. 706).\n- Süre hesabında **başladığı gün sayılmaz** (TTK m. 753). Vadesi pazara ya da resmî tatile rastlayan poliçe ancak izleyen ilk iş gününde istenebilir; son günü tatile rastlayan süre ilk iş gününe uzar (TTK m. 752).\n- Takvimi farklı iki yer arasında vade, ödeme yerinin takvimine göre belirlenir (TTK m. 707).\n\n## 3. Ödeme için ibraz ve ödeme (TTK m. 708-712)\n\nPoliçe **ibraz senedidir**: borçlu alacaklıyı aramaz, hamil senedi götürüp gösterir. Belirli günde, düzenlenmeden sonra ya da görüldükten sonra vadeli poliçenin hamili, poliçeyi **ödeme gününde veya onu izleyen iki iş günü içinde** ödenmek üzere ibraz etmelidir. Poliçenin takas odasına ibrazı ödeme için ibraz yerine geçer (TTK m. 708).\n\nÖdeme kuralları:\n\n- Muhatap ödeyince hamilden ibra şerhi yazılmış poliçenin kendisine verilmesini isteyebilir. **Hamil kısmi ödemeyi reddedemez**; kısmi ödemede muhatap ödemenin senet üzerine yazılmasını ve makbuz verilmesini ister, senedin kendisini isteyemez (TTK m. 709).\n- Hamil **vadeden önce** ödemeyi kabule zorlanamaz; vadeden önce ödeyen muhatap bunun tehlikesini üstlenir. **Vadesinde** ödeyen kişi, hile veya ağır kusuru yoksa borcundan kurtulur. Ödeyen cirolar arasındaki teselsülün düzenli olup olmadığını inceler, ancak cirantaların imzalarının geçerliliğini araştırmak zorunda değildir (TTK m. 710).\n- Ödeme yerinde rayici olmayan para ile ödeme şart koşulmuşsa borç vade günündeki değerle ülke parasıyla ödenebilir; borçlu geciktiyse hamil vade günü veya ödeme günü kurunu seçer. Düzenleyen **aynen ödeme** şartı koyduysa bu kural uygulanmaz (TTK m. 711).\n- Poliçe TTK m. 708'deki sürede ibraz edilmezse borçlu, gideri ve riski hamile ait olmak üzere bedeli bir bankaya **tevdi** ederek kurtulabilir (TTK m. 712).\n\n> ⚠️ **Sınavda dikkat:** \"Vadede ödeme\" ile \"ibraz süresi\" ayrıdır. Vade gelince hamil iki iş günü daha ibraz edebilir; ibraz süresi içinde ödenmemesi halinde protesto süresi de yine ödeme gününü izleyen iki iş günüdür.\n\n## 4. Başvurma (müracaat) hakkının doğması (TTK m. 713)\n\nPoliçe vadesinde ödenmemişse hamil **cirantalara, düzenleyene ve poliçe dolayısıyla taahhüt altına girmiş diğer kişilere** başvurabilir. Asıl borçlu kabul eden muhataptır; başvuru borçluları ise düzenleyen, cirantalar ve avalistlerdir.\n\nBaşvurma hakkı **vadeden önce** de şu hâllerde doğar:\n\n- Kabulden tamamen ya da kısmen kaçınılmışsa,\n- Muhatap (kabul etmiş olsun olmasın) iflas etmişse, ilamla ispatlanmasa da ödemelerini tatil etmişse veya aleyhindeki icra takibi semeresiz kalmışsa,\n- Kabule arzı yasaklanmış poliçenin düzenleyeni iflas etmişse.\n\nVadeden önce başvurulursa poliçe bedelinden, başvurma tarihinde hamilin yerleşim yerinde geçerli resmî iskonto oranına göre iskonto yapılır (TTK m. 725/2).\n\n## 5. Protesto (TTK m. 714-721)\n\n**Protesto**, kabul edilmediğinin ya da ödenmediğinin noterlikçe düzenlenen resmî belgeyle tespitidir (TTK m. 714/1 ve TTK m. 715). İçeriği TTK m. 716'da sayılır: protestoyu çeken ve kendisine çekilen kişiler, borçlunun ifaya davet edildiği halde ifa etmediğine ya da bulunamadığına ilişkin şerh, davetin yapıldığı yer ve gün, noterin imzası. Noter imzalı protesto kanuna uygun düzenlenmemiş ya da içindeki kayıtlar yanlış olsa da geçerlidir; noter hakkında disiplin hükümleri saklıdır (TTK m. 721).\n\nSüreler:\n\n| Protesto türü | Süre |\n|---|---|\n| Kabul etmeme | Kabule arz için belirli süre içinde (TTK m. 714/2) |\n| Ödememe (belirli gün, düzenlenmeden veya görüldükten sonra vadeli) | Ödeme gününü izleyen **2 iş günü** (TTK m. 714/3) |\n| Ödememe (görüldüğünde vadeli) | Kabul etmeme protestosu için gösterilen sürelerde (TTK m. 714/3) |\n\nÜç özel durum aklında kalsın:\n\n1. **Kabul etmeme protestosu çekilmişse** ödeme için ibraz da, ödememe protestosu da gerekmez (TTK m. 714/4).\n2. Muhatap **ödemelerini tatil etmiş** veya aleyhindeki icra takibi **semeresiz** kalmışsa hamil, başvurma haklarını ancak poliçeyi muhataba ibraz edip protesto çektikten sonra kullanır (TTK m. 714/5).\n3. Muhatap veya kabule arzı yasaklanmış poliçenin düzenleyeni **iflas etmişse** iflas ilamının ibrazı yeterlidir; protesto gerekmez (TTK m. 714/6).\n\n> ⚠️ **Sınavda dikkat:** \"Muhatap ödemelerini tatil etmiş\" ile \"muhatap iflas etmiş\" ayrı sonuç doğurur. İflasta ilam yeter; ödemeleri tatilde ibraz ve protesto şarttır.\n\n### Protestodan muafiyet: \"gidersiz\" kaydı (TTK m. 722)\n\nDüzenleyen, ciranta veya avalist \"gidersiz\", \"protestosuz\" ya da eş anlamlı bir ibare yazıp imzalarsa hamili **protesto düzenleme** yükünden kurtarır. Kayıt hamili **süresinde ibraz etme ve ihbar yapma** yükümlülüğünden kurtarmaz; sürelere uyulmadığını ispat, bunu ileri süren kişiye düşer. Kaydı düzenleyen yazmışsa **herkes** hakkında, ciranta veya avalist yazmışsa **yalnız onun** hakkında geçerlidir. Düzenleyenin kaydına rağmen hamil yine protesto çekerse giderler hamile aittir.\n\n## 6. İhbar yükümü (TTK m. 723)\n\nHamil, protesto gününü (gidersiz kaydı varsa ibraz gününü) izleyen **dört iş günü** içinde kabul etmeme ya da ödememeyi kendi cirantasına ve düzenleyene bildirir. Her ciranta aldığı ihbarı, aldığı günü izleyen **iki iş günü** içinde kendi cirantasına iletir. İhbar noter aracılığıyla ya da yalnızca poliçenin iadesiyle yapılabilir; yaptığını ispat yükü ihbarı yapana aittir.\n\nİhbarı süresinde yapmayan kişi **başvurma hakkını kaybetmez**; ancak ihmalinden doğan zarardan sorumlu olur ve bu tazminat poliçe bedeliyle sınırlıdır (TTK m. 723/7).\n\n> 💡 **Püf nokta:** İhbar süresini kaçıran \"hakkını kaybeder\" sanılır. Hayır: hak gider yalnızca ibraz ve protesto sürelerinin kaçırılmasında (TTK m. 730). İhbarda sonuç, zarar tazminidir.\n\n## 7. Müteselsil sorumluluk ve istenebilecek kalemler (TTK m. 724-729)\n\nDüzenleyen, kabul eden, ciro eden ve aval veren **müteselsil borçludur**. Hamil sıra gözetmeksizin birine, bazılarına ya da hepsine başvurabilir; birine başvurması diğerlerine karşı hakkını yitirtmez (TTK m. 724). Poliçeyi ödeyen herkes de aynı hakkı kullanır.\n\nHamil başvurmada şunları ister (TTK m. 725): ödenmemiş bedel ve şart kılınmışsa işlemiş faiz, vadeden itibaren işleyecek faiz, protesto ve ihbar giderleri ile diğer giderler, poliçe bedelinin **binde üçünü** aşmamak üzere komisyon. **Poliçeyi ödeyen** ciranta ise ödediği tutarın tamamını, ödeme tarihinden itibaren faizini, giderlerini ve bedelin **binde ikisini** aşmamak üzere komisyonu ister (TTK m. 726). Başvurma hakkı olan kişi ayrıca, aksine şart yoksa, borçlu üzerine görüldüğünde ödenecek yeni bir poliçe, yani **retret** düzenleyebilir (TTK m. 729).\n\n## 8. Sürelerin kaçırılması ve mücbir sebep (TTK m. 730-731)\n\nHamil, görüldüğünde veya görüldükten sonra vadeli poliçenin ibraz süresini, kabul etmeme ya da ödememe protestosu süresini, gidersiz kaydında ödeme için ibraz süresini geçirirse, **kabul eden hariç**, cirantalara, düzenleyene ve diğer borçlulara karşı sahip olduğu hakları kaybeder (TTK m. 730/1). Yani kabul eden muhatap, hamilin ihmalinden etkilenmez; o asıl borçludur.\n\n> **Örnek:** Vadesi çarşamba günü gelen 300.000 TL'lik poliçeyi hamil Mehmet, ödenmeyince cuma gününü kaçırıp pazartesi protesto ettirirse ciranta ve düzenleyene karşı başvurma hakkını kaybeder; kabul eden muhataba karşı doğrudan hakkı sürer.\n\nMücbir sebepte (savaş, devlet engeli gibi aşılamaz engel) süreler uzar; hamil mücbir sebebi gecikmeksizin kendinden önceki kişiye ihbar eder ve poliçeye şerh düşer. Mücbir sebep vadeden itibaren **otuz günden** fazla sürerse ibraz ve protesto olmaksızın başvurma hakkı kullanılabilir. Görüldüğünde veya görüldükten belirli süre sonra vadeli poliçede otuz gün, hamilin mücbir sebebi kendi cirantasına ihbar ettiği tarihten işler; görüldükten sonra vadeli poliçede poliçedeki süre kadar uzar (TTK m. 731/5). Yalnız hamile ya da onun görevlendirdiği kişiye ait olaylar (hastalık, unutma gibi) mücbir sebep sayılmaz (TTK m. 731).\n\n## 9. Sebepsiz zenginleşme davası (TTK m. 732)\n\nKambiyo hakkı zamanaşımı veya ibraz/protesto ihmali yüzünden düşmüş olsa bile **düzenleyen ve kabul eden**, hamilin zararına zenginleşmiş oldukları kadar borçlu kalır (TTK m. 732/1). Dava, yerleşim yerli poliçeyi ödeyecek kişiye ve poliçe başkası hesabına düzenlenmişse o kişiye ya da işletmeye karşı da açılabilir (TTK m. 732/2). **Cirantaya karşı bu istem ileri sürülemez** (TTK m. 732/3). Zamanaşımı süresi, poliçenin zamanaşımına uğradığı tarihi izleyen tarihten **bir yıldır**; ispat yükü, kanun metnine göre, sebepsiz zenginleşmediğini iddia edene aittir (TTK m. 732/4).\n\nUygulamada önemli sınır: lehtarla düzenleyen arasında zaten bir temel ilişki varsa, lehtarın temel ilişkiye dayanması beklenir (aşağıdaki karar özeti).\n\n## 10. Senet metninde değişiklik (TTK m. 748)\n\nPoliçe metni değiştirilirse değiştirmeden **sonra imzalayanlar değişmiş metne**, **önce imzalayanlar eski metne** göre sorumludur. İmzalar birbirinden bağımsız olduğu için tahrifat senedi bütünüyle çökertmez; her imza sahibi kendi imzaladığı metinle bağlıdır.\n\n> **Örnek:** Düzenleyen Zeynep 50.000 TL'lik poliçeyi lehtar Ahmet'e verdi, muhatap Hasan 50.000 TL olarak kabul etti. Ahmet bedeli 500.000 TL'ye çevirip Burak'a ciro etti. Zeynep ve Hasan 50.000 TL'den, Ahmet ve sonraki cirantalar 500.000 TL'den sorumludur.\n\n## 11. Zamanaşımı (TTK m. 749-751)\n\n| Alacaklı → borçlu | Süre ve başlangıç |\n|---|---|\n| Hamil → kabul eden | Vadeden itibaren **3 yıl** (TTK m. 749/1) |\n| Hamil → ciranta, düzenleyen | Süresinde çekilen protesto tarihinden (gidersiz kaydında vadeden) **1 yıl** (TTK m. 749/2) |\n| Ciranta → diğer ciranta, düzenleyen | Poliçeyi ödediği veya dava edildiği tarihten **6 ay** (TTK m. 749/3) |\n\nZamanaşımı **dava açılması, takip talebinde bulunulması, davanın ihbarı veya alacağın iflas masasına bildirilmesiyle** kesilir (TTK m. 750/1). Kesen işlem **yalnız kimin hakkında gerçekleşmişse ona karşı** hüküm doğurur; kesilince aynı süreli yeni zamanaşımı işlemeye başlar (TTK m. 751).\n\n> ⚠️ **Sınavda dikkat:** Müteselsil borçlulardan birine takip başlatmak diğerleri bakımından zamanaşımını kesmez. Ciranta Ali'ye karşı icra takibi yapan hamil, düzenleyen Zeynep için ayrıca işlem yapmalıdır.\n\n## 12. Zayi ve iptal (TTK m. 757-765)\n\nPoliçe iradesi dışında elinden çıkan kişi, ödeme yerindeki ya da hamilin yerleşim yerindeki asliye ticaret mahkemesinden **muhatabın ödemekten menini** ister (TTK m. 757). Sonrası iki yola ayrılır:\n\n- **Elinde bulunduran biliniyorsa:** mahkeme dilekçe sahibine iade davası açması için süre verir; süre içinde dava açılmazsa ödeme yasağı kalkar (TTK m. 758).\n- **Bilinmiyorsa:** iptal istenir. İstekte bulunan, poliçenin elinde iken zayi olduğunu inandırıcı delillerle gösterir, senedin suretini ibraz eder veya esas içeriğini bildirir (TTK m. 759). Mahkeme ilanla senedi getirmeye çağırır ve aksi halde iptal edeceğini ihtar eder (TTK m. 760). Getirme süresi **en az üç ay, en çok bir yıldır**; vadesi gelmiş poliçelerde süre birinci ilan gününden, gelmemişlerde vadeden işler (TTK m. 761). İlan TTK m. 35 anlamında Türkiye Ticaret Sicili Gazetesi ile **üç defa** yapılır (TTK m. 762 ve TTK m. 35/4). Senet getirilmezse iptal kararı verilir; iptale rağmen dilekçe sahibi kabul edene karşı hakkını ileri sürebilir (TTK m. 764). Mahkeme iptalden önce kabul edene bedeli tevdi etme veya teminat karşılığı ödeme yükümü getirebilir (TTK m. 765).\n\nElden çıkan senet mahkemeye sunulursa iade davası için süre verilir (TTK m. 763).\n\n## 13. Denetim şeması\n\nOlay çözerken sırayla şunu sor:\n\n1. Vade türü geçerli mi? (TTK m. 703) Hesap doğru mu?\n2. Ödeme için ibraz süresinde mi? (TTK m. 708 / TTK m. 704)\n3. Ödendi mi, kısmen mi? Kısmi ödeme reddedilemez (TTK m. 709).\n4. Ödenmediyse ödememe protestosu iki iş günü içinde çekildi mi? Muafiyet kaydı var mı? (TTK m. 714, TTK m. 722)\n5. Hak kaybı kime karşı? Kabul eden hariç herkese (TTK m. 730).\n6. İhbar yapıldı mı? Sonucu tazminat (TTK m. 723).\n7. Zamanaşımı hangi borçluya karşı, hangi süre, kesildi mi? (TTK m. 749-751)\n8. Hak düştüyse TTK m. 732: kim hedef olabilir, ciranta değil.",
+  "critical_md": "- 📌 Vade türleri **kapalı listedir** (TTK m. 703/1); başka vade ya da taksitli vade poliçeyi **batıl** yapar (TTK m. 703/2). Vade yazılmamışsa görüldüğünde vadeli sayılır (TTK m. 672/2).\n- 📌 Görüldüğünde vadeli poliçede ibraz süresi düzenlenmeden **1 yıl**; düzenleyen uzatıp kısaltabilir, cirantalar yalnız kısaltabilir (TTK m. 704).\n- 📌 Diğer vade türlerinde ibraz: ödeme günü + **2 iş günü** (TTK m. 708). Ödememe protestosu da ödeme gününü izleyen **2 iş günü** (TTK m. 714/3).\n- 📌 Hamil **kısmi ödemeyi reddedemez** (TTK m. 709/2). Muhatap şerh ve makbuz ister, senedi geri isteyemez.\n- ⚠️ **Vadeden önce** ödeyen muhatap tehlikeyi üstlenir; **vadesinde** ödeyen hile/ağır kusur yoksa kurtulur (TTK m. 710).\n- 📌 Kabul etmeme protestosu çekilmişse ödeme için ibraz ve ödememe protestosu gerekmez (TTK m. 714/4).\n- ⚠️ Muhatabın **iflası**nda iflas ilamı yeter (TTK m. 714/6); **ödemeleri tatilinde/semeresiz takipte** ibraz + protesto şarttır (TTK m. 714/5).\n- 📌 \"Gidersiz/protestosuz\" kaydı yalnız **protesto** yükünü kaldırır; ibraz ve ihbarı kaldırmaz (TTK m. 722/2). Düzenleyen yazarsa herkes, ciranta/avalist yazarsa yalnız o için geçerlidir.\n- 📌 İhbar: hamil protesto gününü izleyen **4 iş günü**, ciranta **2 iş günü**. Kaçıran hakkını kaybetmez, zarardan sorumlu olur; tazminat poliçe bedeliyle sınırlıdır (TTK m. 723).\n- ⚠️ İbraz/protesto süresi kaçırılırsa hak **kabul eden hariç** herkese karşı kaybedilir (TTK m. 730/1). Kabul eden sorumlu kalır.\n- 📌 Zamanaşımı: kabul eden **3 yıl** (vadeden); hamil→ciranta/düzenleyen **1 yıl** (protestodan); ciranta rücuu **6 ay** (TTK m. 749). Kesilme yalnız muhatabına etki eder (TTK m. 751).\n- 📌 TTK m. 732: **düzenleyen ve kabul eden** aleyhine, zenginleşme ölçüsünde, 1 yıl içinde; **ciranta aleyhine açılamaz**.",
+  "doctrine_md": "### Ödememe protestosunun amacı ve katılık\nKambiyo hukuku sıkı şekilcidir: hak, ancak kanundaki süre ve şekle uyulduğunda korunur. Bu yaklaşımın gerekçesi, senedin dolaşabilen bir alacak olması ve başvuru borçlularının, senedin ödenmediğinin zamanında belgelenmesine güvenmesidir. Süreleri kaçıran hamil yalnızca kambiyo haklarını kaybeder; alacağın temel ilişkideki dayanağı ayrıca değerlendirilir.\n\n### Sebepsiz zenginleşme davasının niteliği\nTTK m. 732 davası, kambiyo alacağının devamı değil, kendine özgü bir istemdir. Bu nedenle genel sebepsiz zenginleşme hükümleriyle birebir aynı değildir: düzenleyen ve kabul edene (ayrıca TTK m. 732/2'de sayılan muhatap, yerleşim yerli poliçeyi ödeyecek kişi ve hesabına düzenlenen kişiye) yöneltilebilir, cirantaya yöneltilemez; süre bir yıldır. Tartışma şurada toplanır: hamilin zenginleşmeyi ne ölçüde ispatlaması gerektiği. Kanun metni ispat yükünü sebepsiz zenginleşmediğini iddia edene yüklemektedir; uygulamada senedin tek başına zenginleşmeyi kanıtlayıp kanıtlamadığı ve ispat yükünün kimde olduğu konusunda görüş ayrılığı vardır. Bu nedenle bu nokta sınav cevabında kesin bir sonuç olarak değil, \"tartışmalıdır\" diye işaretlenerek verilmelidir.\n\n### Temel ilişki bulunan taraflar\nLehtarla düzenleyen arasında bir temel ilişki varsa lehtarın kambiyo hakkı düşse bile temel ilişkiye dayanması mümkündür. Bu yüzden uygulamada lehtarın TTK m. 732'ye dayanmasına sıcak bakılmaz. Karar özetinde bu yaklaşımın alt derece mahkemelerince benimsendiği görülür.\n\n### Tahrifat ve imzaların bağımsızlığı\nTTK m. 748, imzaların bağımsızlığının doğal sonucudur: her imza sahibi kendi imzaladığı metne bağlıdır. Tahrifat iddiası senedin kendisinden doğan ve herkese karşı ileri sürülebilen bir savunma olarak kabul edilir. Senedin kambiyo vasfına dair itirazlar icra hukukunda re'sen incelenebilir.",
+  "glossary": [
+   {
+    "term": "Vade",
+    "definition": "Senetteki alacağın muaccel olduğu an; poliçede dört biçimde belirlenebilir (TTK m. 703)."
+   },
+   {
+    "term": "İbraz",
+    "definition": "Hamilin senedi muhataba (veya borçluya) göstererek kabul ya da ödeme istemesi."
+   },
+   {
+    "term": "Başvurma (müracaat) hakkı",
+    "definition": "Hamilin ödenmeyen poliçe için cirantalara, düzenleyene ve avalistlere yönelme hakkı (TTK m. 713)."
+   },
+   {
+    "term": "Protesto",
+    "definition": "Kabul edilmediğinin veya ödenmediğinin noterlikçe düzenlenen resmî belgeyle tespiti (TTK m. 714-716)."
+   },
+   {
+    "term": "Gidersiz (protestosuz) kaydı",
+    "definition": "Hamili protesto çekme yükümünden kurtaran kayıt; ibraz ve ihbar yükümünü kaldırmaz (TTK m. 722)."
+   },
+   {
+    "term": "İhbar",
+    "definition": "Ödenmemenin veya kabul edilmemenin önceki cirantalara bildirilmesi (TTK m. 723)."
+   },
+   {
+    "term": "Retret",
+    "definition": "Başvurma hakkı olan kişinin önceki borçlu üzerine çektiği, görüldüğünde ödenecek yeni poliçe (TTK m. 729)."
+   },
+   {
+    "term": "Tevdi",
+    "definition": "Borçlunun bedeli bankaya bırakarak borcundan kurtulması (TTK m. 712)."
+   },
+   {
+    "term": "Mücbir sebep",
+    "definition": "Aşılması imkânsız engel; ibraz ve protesto sürelerini uzatır (TTK m. 731)."
+   },
+   {
+    "term": "Sebepsiz zenginleşme davası (TTK m. 732)",
+    "definition": "Kambiyo hakkı düşen hamilin, düzenleyen veya kabul edenin zenginleşmesi ölçüsünde açtığı dava."
+   },
+   {
+    "term": "Zayi ve iptal",
+    "definition": "Elden çıkan senedin ödeme yasağı ve ilanla iptali; hakkın senetsiz ileri sürülmesini sağlar (TTK m. 757-765)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "35",
+   "official_text": "III - Açıklık\nMADDE 35- (1) Tescil işleminin dayanakları olan dilekçe, beyanname, senetler, belgeler ve ilanları içeren gazeteler, üzerlerine sicil defterinin tarih ve numaraları yazılarak sicil müdürlüğünce saklanır.\n(2) Herkes ticaret sicilinin içeriğini ve müdürlükte saklanan tüm senet ve belgeleri inceleyebileceği gibi giderini ödeyerek bunların onaylı suretlerini de alabilir. Bir hususun sicilde kayıtlı olup olmadığına dair onaylı belge de istenebilir.\n(3) Tescil edilen hususlar, kanun veya Kanunun 26 ncı maddesine göre çıkarılacak yönetmelikte aksine bir hüküm bulunmadıkça ilan olunur.[17]\n(4) İlan, Türkiye genelinde sicil kayıtlarının ilanına özgü Türkiye Ticaret Sicili Gazetesi ile yapılır.\n[17] 26/6/2012 tarihli ve 6335 sayılı Kanunun 40 ıncı maddesiyle, bu fıkrada yer alan “tüzükte” ibaresi “Kanunun 26 ncı maddesine göre çıkarılacak yönetmelikte” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "672",
+   "official_text": "2. Unsurların bulunmaması\nMADDE 672- (1) 671 inci maddede yazılı unsurlardan birini içermeyen senet ikinci ilâ dördüncü fıkralarda yazılı hâller dışında poliçe sayılmaz.\n(2) Vadesi gösterilmeyen poliçenin görüldüğünde ödenmesi şart edilmiş sayılır.\n(3) Ayrıca belirtilmiş olmadıkça muhatabın adı yanında gösterilen yer, ödeme yeri ve aynı zamanda da muhatabın yerleşim yeri sayılır.\n(4) Düzenlenme yeri gösterilmeyen poliçe, düzenleyenin adı yanında gösterilen yerde düzenlenmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "694",
+   "official_text": "IV - Bir daha kabule arz\nMADDE 694- (1) Muhatap, poliçenin, kendisine arz edildiği günü izleyen günde bir daha ibrazını isteyebilir. İlgililer, bu istemin yerine getirilmediğini, ancak bu istem protestoya yazılmışsa ileri sürebilirler.\n(2) Hamil, kabule arz edilen poliçeyi muhataba bırakmak zorunda değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "703",
+   "official_text": "1. Genel olarak\nMADDE 703- (1) Bir poliçe;\na) Görüldüğünde,\nb) Görüldükten belirli bir süre sonra,\nc) Düzenlenme gününden belirli bir süre sonra,\nd) Belirli bir günde,\nödenmek üzere düzenlenebilir.\n(2) Vadesi başka şekilde yazılan veya birbirini takip eden çeşitli vadeleri gösteren poliçeler batıldır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "704",
+   "official_text": "2. Görüldüğünde ödenecek poliçe\nMADDE 704- (1) Görüldüğünde ödenmek üzere düzenlenen poliçe ibrazında ödenir. Böyle bir poliçenin düzenlenme gününden itibaren bir yıl içinde ödenmesi için ibrazı gerekir. Düzenleyen bu süreyi kısaltabileceği gibi, daha uzun bir süre de belirleyebilir. İbraz süreleri cirantalar tarafından kısaltılabilir.\n(2) Düzenleyen, görüldüğünde ödenecek bir poliçenin belirli bir günden önce ödenmek üzere ibraz edilmeyeceği hakkında şart koyabilir. Bu takdirde ibraz süresi o tarihten başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "705",
+   "official_text": "3. Görüldükten belirli bir süre sonra ödenecek poliçe\nMADDE 705- (1) Görüldükten belirli bir süre sonra ödenecek bir poliçenin vadesi, kabul şerhinde yazılı tarihe veya protesto tarihine göre belirlenir.\n(2) Kabul şerhinde tarih gösterilmemiş ve protesto da çekilmemiş olursa poliçe, kabul eden hakkında, kabule ibraz için öngörülmüş bulunan sürenin son günü kabul edilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "706",
+   "official_text": "1. Genel olarak\nMADDE 706- (1) Düzenlenme gününden veya görüldükten bir veya birkaç ay sonra ödenmek üzere düzenlenen bir poliçenin vadesi, ödemenin yapılması gereken ayın o günün karşılığı olan gününde gelmiş olur. Karşılığı olan gün bulunmadığı takdirde vade o ayın son günü gelmiş olur.\n(2) Bir poliçe, düzenlenme gününden veya görüldükten bir buçuk ay veya birkaç ay veya yarım ay sonra ödenmek üzere düzenlendiği takdirde, ilk önce tam aylar hesap edilir.\n(3) Vade olarak bir ayın başı, ortası veya sonu gösterilmişse, bunlardan ayın birinci, onbeşinci ve sonuncu günleri anlaşılır.\n(4) “Sekiz gün” veya “onbeş gün” ibarelerinden bir veya iki hafta değil, gerçek olarak sekiz veya onbeş günlük bir süre anlaşılır.\n(5) “Yarım ay” ibaresi onbeş günlük bir süreyi ifade eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "707",
+   "official_text": "2. Takvimlerin çatışması\nMADDE 707- (1) Belirli bir günde ödenecek bir poliçenin düzenlenme yeri ile ödeme yeri arasında takvim farkı bulunduğu takdirde, vade, ödeme yerinin takvimine göre belirlenmiş sayılır.\n(2) Takvimleri farklı olan iki yer arasında düzenlenen bir poliçe, düzenlenme gününden belirli bir süre sonra ödenecekse, düzenlenme günü, ödeme yerindeki takvim gününe dönüştürülmek suretiyle vade hesap edilir.\n(3) Poliçelerin ibraz sürelerinin hesabında da birinci ve ikinci fıkra hükümleri uygulanır.\n(4) Poliçedeki bir kayıttan veya poliçenin içeriğinden, amacın başka olduğu anlaşılırsa, bu madde hükümleri uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "708",
+   "official_text": "I - İbraz\nMADDE 708- (1) Belirli bir günde veya düzenlenme gününden ya da görüldükten belirli bir süre sonra ödenecek bir poliçenin hamili, poliçeyi ödeme gününde veya onu izleyen iki iş günü içinde ödenmek üzere ibraz etmelidir.\n(2) Poliçenin bir takas odasına ibrazı, ödeme için ibraz yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "709",
+   "official_text": "II - Makbuz istemek hakkı\nMADDE 709- (1) Muhatap, poliçeyi öderken hamil tarafından bir ibra şerhi yazılarak poliçenin kendisine verilmesini isteyebilir.\n(2) Hamil kısmi ödemeyi reddedemez.\n(3) Kısmi ödeme hâlinde muhatap bu ödemenin poliçe üzerine yazılmasını ve kendisine bir makbuz verilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "710",
+   "official_text": "III - Vadeden önce ve vadesinde ödeme\nMADDE 710- (1) Poliçenin hamili, vadeden önce ödemeyi kabulle yükümlü değildir.\n(2) Vadeden önce ödeyen muhatap, bundan doğacak tehlike kendisine ait olmak üzere hareket etmiş olur.\n(3) Hile veya ağır bir kusuru bulunmadıkça poliçeyi vadesinde ödeyen kişi borcundan kurtulur. Ödeyen kişi, cirolar arasında düzenli bir teselsülün bulunup bulunmadığını incelemekle yükümlü ise de cirantaların imzalarının geçerliliğini araştırmak zorunda değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "711",
+   "official_text": "IV - Yabancı ülke parası ile ödeme\nMADDE 711- (1) Poliçenin, ödeme yerinde rayici olmayan bir para ile ödeneceği şart koşulduğu takdirde, bedeli, vade günündeki değerine göre o ülke parasıyla ödenebilir. Borçlu, ödemede geciktiği takdirde, hamil poliçe bedelinin dilerse vade günündeki, dilerse ödeme günündeki kura göre ülke parasına dönüştürülerek ödenmesini isteyebilir.\n(2) Kanuni rayici olmayan paranın değeri, ödeme yerindeki ticari teamüllere göre belirlenir. Bununla beraber, düzenleyen, ödenecek paranın poliçede yazılı belirli bir rayice göre hesap edilmesini şart edebilir.\n(3) Düzenleyen, ödemenin belirli bir para ile yapılmasını (aynen ödemeyi), şart koşmuş ise birinci ve ikinci fıkra hükümleri uygulanmaz.\n(4) Poliçe bedeli, düzenlenme ve ödeme yeri olan ülkelerde aynı adı taşıyan, fakat değerleri birbirinden farklı olan para ile gösterildiği takdirde ödeme yerindeki para kastedilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "712",
+   "official_text": "V - Tevdi\nMADDE 712- (1) Bir poliçe 708 inci maddede öngörülen süre içinde ödeme için ibraz edilmediği takdirde borçlu, gideri ve riski hamile ait olmak üzere poliçenin bedelini bir bankaya tevdi edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "713",
+   "official_text": "I - Genel olarak\nMADDE 713- (1) Vadede poliçe ödenmemişse hamil, cirantalara, düzenleyene ve poliçe dolayısıyla taahhüt altına girmiş olan diğer kişilere başvurabilir.\n(2) Hamil;\na) Kabulden tamamen veya kısmen kaçınılmış,\nb) Poliçeyi kabul etmiş olsun olmasın, muhatap iflas etmiş veya bir ilamla ispatlanmamış olsa da sadece ödemelerini tatil etmiş veya aleyhindeki herhangi bir icra takibi semeresiz kalmış veya\nc) Kabul için arz edilmesi menedilen bir poliçenin düzenleyeni iflas etmiş,\nolursa vadenin gelmesinden önce de aynı başvurma hakkını haizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "714",
+   "official_text": "1. Süreler ve şartları\nMADDE 714- (1) Kabul etmemenin veya ödememenin, kabul etmeme veya ödememe protestosu denilen resmî bir belge ile belirlenmesi zorunludur.\n(2) Kabul etmeme protestosunun, kabule arz için belirli olan süre içinde çekilmesi gerekir. 694 üncü maddenin birinci fıkrasında gösterilen hâlde poliçenin ilk arzı vadenin son gününde olmuşsa, protesto o günün ertesi günü de çekilebilir.\n(3) Belirli bir günde veya düzenlenme gününden ya da görüldükten belirli bir süre sonra ödenmesi şartını içeren bir poliçeden dolayı çekilecek ödememe protestosunun, ödeme gününü izleyen iki iş günü içinde çekilmesi zorunludur. Görüldüğünde ödenmesi şart olan bir poliçeden dolayı çekilecek ödememe protestosu, ikinci fıkrada kabul etmeme protestosu için gösterilen süreler içinde çekilir.\n(4) Kabul etmeme protestosu çekilmiş olması hâlinde ödeme için poliçeyi ibraz etmeye gerek olmadığı gibi, ödememe protestosu çekmeye de ihtiyaç yoktur.\n(5) Poliçeyi kabul etmiş olsun olmasın muhatap, ödemelerini tatil etmiş veya aleyhindeki herhangi bir icra takibi semeresiz kalmış ise, hamil başvurma haklarını ancak poliçenin ödenmesi için muhataba ibrazından ve protestonun çekilmesinden sonra kullanabilir.\n(6) Poliçeyi kabul etmiş olsun olmasın, muhatap veya kabul için arz edilmesi menedilen bir poliçenin düzenleyeni iflas etmişse, iflas ilamının ibrazı, başvurma hakkının kullanılması için yeterlidir.\n2. Şekli",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "715",
+   "official_text": "a) Noterlikçe düzenlenmesi\nMADDE 715- (1) Protestonun 716 ncı maddede belirtilen şekil ve surette noterlikçe düzenlenmesi gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "716",
+   "official_text": "b) İçindekiler\nMADDE 716- (1) Protesto;\na) Protestoyu çeken ve kendisine protesto çekilen kişilerin adlarını veya ticaret unvanlarını,\nb) Kendisine protesto çekilen kişinin, poliçeden doğan taahhüdünü yerine getirmeye davet edildiği hâlde, taahhüdünü ifa etmemiş, kendisi bulunamamış veya ticaret yerinin ya da konutunun belirlenememiş olduğuna ilişkin bir şerhi,\nc) Sözü geçen davetin yapıldığı veya davet teşebbüsünün sonuçsuz kaldığı yer ve güne ait bir şerhi ve\nd) Protestoyu düzenleyen noterin imzasını,\niçerir.\n(2) Kısmi ödeme protestoda belirtilir.\n(3) Kabul için kendisine bir poliçe ibraz edilmiş olan muhatap, poliçenin ertesi günü tekrar ibrazını istemiş ise bu durum da protestoya yazılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "721",
+   "official_text": "4. Sakat protesto\nMADDE 721- (1) Noter tarafından imza edilen protesto kanuna uygun olarak düzenlenmediği veya içindeki kayıtlar yanlış olduğu takdirde de geçerlidir.\n(2) Noter hakkında disiplin hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "722",
+   "official_text": "5. Protesto düzenlenmesi gerekmeyen hâller\nMADDE 722- (1) Düzenleyen, ciranta veya aval veren kişi, senet üzerine “gidersiz”, “protestosuz” kayıtlarını ya da bunlara eş anlamlı diğer herhangi bir ibareyi yazıp imzalayarak, hamili başvurma hakkını kullanmak için kabul etmeme veya ödememe protestosu düzenleme yükümünden kurtarabilir.\n(2) Bu kayıt, hamili, poliçeyi süresinde ibraz etmek ve gereken ihbarları yapmak yükümlülüklerinden kurtarmaz. Sürelere uyulmadığını ispat, bunu hamile karşı ileri süren kişiye düşer.\n(3) Bu kayıt poliçeyi düzenleyen tarafından yazılmış ise, poliçeden dolayı borç altına girmiş olanların hepsi hakkında geçerli olur; bir ciranta veya aval veren kişi tarafından yazıldığı takdirde, hüküm yalnız ona uygulanır. Düzenleyen tarafından yazılan kayda rağmen hamil yine protesto çekerse giderler kendisine ait olur.\n(4) Kayıt bir ciranta veya aval veren kişi tarafından konduğu takdirde, bu kayda rağmen çekilmiş olan bir protestonun gerektirdiği giderleri, poliçeden dolayı borç altına girenlerin hepsi tazminle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "723",
+   "official_text": "III - İhbar zorunluluğu\nMADDE 723- (1) Hamil, protesto gününü veya poliçede “gidersiz” kaydı mevcut ise, ibraz gününü izleyen dört iş günü içinde, kabul etmeme veya ödememe hâllerini, kendi cirantasına ve düzenleyene ihbar etmek zorundadır.\n(2) Her ciranta aldığı ihbarı, bunları aldığı günü izleyen iki iş günü içinde önceki ihbarları yapan kişilerin adlarını ve adreslerini de göstermek suretiyle, kendi cirantasına ihbar eder. Düzenleyene varıncaya kadar bu sıra dâhilinde hareket edilir. Süreler önceki ihbarın alındığı tarihten itibaren işlemeye başlar.\n(3) Poliçede imzası bulunan bir kişiye ikinci fıkra gereğince ihbarda bulunulduğu takdirde, kendisine aval veren kişiye de aynı süre içinde bu ihbarın yapılması gerekir.\n(4) Bir ciranta adresini hiç yazmamış veya okunması mümkün olmayacak surette yazmış ise, ihbarın ondan önceki cirantaya yapılması yeterlidir.\n(5) İhbarı yapacak olan kişi bunu noter aracılığıyla veya sadece poliçenin iadesi yoluyla yapabilir.\n(6) İhbarı yapmakla yükümlü olan kişi bunu belirli süre içinde yaptığını ispat etmek zorundadır.\n(7) Birinci ve ikinci fıkralarda gösterilen süreler içinde ihbarname göndermeyen kişi başvurma hakkını kaybetmezse de ihmalinden doğan zarardan sorumlu olur. Ancak, bu zarara ilişkin tazminat borcu poliçe bedeliyle sınırlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "724",
+   "official_text": "IV - Teselsül\nMADDE 724- (1) Bir poliçeyi düzenleyen, kabul eden, ciro eden veya o poliçeye aval veren kişiler hamile karşı müteselsil borçlu sıfatıyla sorumludurlar.\n(2) Hamil, bunların borçlanmadaki sıraları ile bağlı olmaksızın her birine veya bunlardan bazılarına ya da hepsine birden başvurabilir.\n(3) Poliçeden dolayı borç altına girmiş olup da poliçeyi ödemiş bulunan herkes aynı hakkı kullanabilir.\n(4) Hamil borçlulardan yalnız birine başvurmakla, diğer borçlularla ilk önce başvurduğu borçludan sonra gelenlere karşı haklarını kaybetmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "725",
+   "official_text": "1. Hamilin hakkı\nMADDE 725- (1) Hamil başvurma yoluyla;\na) Poliçenin kabul edilmemiş veya ödenmemiş olan bedelini ve şart kılınmışsa işlemiş faizi,\nb) Vadenin gelmesinden itibaren işleyecek faizi,\nc) Protestonun ve hamil tarafından tebliğ olunan ihbarların giderleriyle diğer giderleri ve\nd) Poliçe bedelinin binde üçünü aşmamak üzere komisyon ücretini,\nisteyebilir.\n(2) Başvurma hakkı vadenin gelmesinden önce kullanılırsa, poliçe bedelinden bir iskonto yapılır. Bu iskonto başvurma tarihinde hamilin yerleşim yerinde geçerli olan resmî iskonto oranına göre hesap edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "726",
+   "official_text": "2. Ödeyen kişinin hakkı\nMADDE 726- (1) Poliçe bedelini ödemiş olan kişi kendisinden önce gelen borçlulardan;\na) Ödemiş olduğu tutarın tamamını,\nb) Ödeme tarihinden itibaren bu tutarın faizini,\nc) Yaptığı giderleri ve\nd) Poliçe bedelinin binde ikisini aşmamak üzere komisyon ücretini,\nisteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "729",
+   "official_text": "VII - Retret\nMADDE 729- (1) Başvurma hakkı olan herkes, poliçede aksine şart bulunmadıkça, kendisinden önce gelen borçlulardan biri üzerine çekeceği ve bu kişinin yerleşim yerinde, görüldüğü anda ödenmesi şart olan ve “retret” denilen yeni bir poliçe aracılığıyla başvuruda bulunabilir.\n(2) Retret, 725 ve 726 ncı maddelerde gösterilen paralardan başka komisyon ücretini içerir.\n(3) Retret hamil tarafından düzenlenirse, poliçe bedeli poliçenin ödeneceği yerden, önceki borçlunun yerleşim yeri olan yer üzerine çekilen ve görüldüğünde ödenmesi şart olan bir poliçenin cari fiyatına göre belirlenir. Retret bir ciranta tarafından düzenlenirse, poliçe bedeli, retreti düzenleyen kişinin yerleşim yerinden önceki borçlunun yerleşim yeri olan yer üzerine çekilen ve görüldüğünde ödenmesi şart bulunan bir poliçenin cari fiyatına göre belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "730",
+   "official_text": "1. Genel olarak\nMADDE 730- (1) Hamil;\na) Görüldüğünde veya görüldükten belirli bir süre sonra ödenmesi şart olan poliçeyi ibraz,\nb) Kabul etmeme veya ödememe protestosunu düzenleme,\nc) “Gidersiz iade olunacaktır” kaydının bulunması hâlinde, poliçeyi ödeme amacıyla ibraz,\niçin belirli süreleri geçirirse, kabul eden kişi hariç olmak üzere, cirantalara, düzenleyene ve diğer borçlulara karşı sahip olduğu hakları kaybeder.\n(2) Hamil, kabul amacıyla ibraz edilmesi için düzenleyenin verdiği süreye uymazsa, kabul etmeme ve ödememe sebebiyle başvuru haklarını kaybeder; meğerki, düzenleyicinin yalnız kabule ait sorumluluğu istisna etmek istediği kayıttan anlaşılsın.\n(3) Ciroda ibraz için bir süre şart kılınmışsa ancak ciranta bu süreyi ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "731",
+   "official_text": "2. Mücbir sebepler\nMADDE 731- (1) Kanunen belirli olan süreler içinde poliçenin ibrazı veya protesto düzenlenmesi, bir devletin mevzuatı veya herhangi bir mücbir sebep gibi aşılması imkânsız bir engel nedeniyle gerçekleştirilememişse, bu işlemler için belirli olan süreler uzatılır.\n(2) Hamil, mücbir sebepleri gecikmeksizin kendinden önce gelen kişiye ihbar etmekle ve bu ihbarı, altına tarih, yer ve imzasını da koyarak poliçeye veya alonja kaydetmekle yükümlüdür. Bunun dışında 723 üncü madde hükümleri uygulanır.\n(3) Mücbir sebeplerin ortadan kalkmasından sonra hamilin, poliçeyi gecikmesizin kabul veya ödeme amacıyla ibraz ve gereğinde protesto çekmesi şarttır.\n(4) Mücbir sebepler vadenin gelmesinden itibaren otuz günden çok sürerse, poliçenin ibrazına ve protesto çekmeye gerek olmaksızın başvurma hakkı kullanılabilir.\n(5) Görüldüğünde veya görüldükten belirli bir süre sonra ödenmesi şart olan poliçeler hakkında otuz günlük süre, hamilin kendi cirantasına mücbir sebebi ihbar ettiği tarihten itibaren işler. Bu ihbar, ibraz süresinin bitmesinden önce de yapılabilir. Görüldükten belirli bir süre sonra ödenmesi şart olan poliçelerde otuz günlük süre, poliçede belirtilen süre kadar uzar.\n(6) Hamilin veya poliçeyi ibraza veya protesto çekmeye memur ettiği kişinin yalnız kendilerine ait olaylar mücbir sebeplerden sayılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "732",
+   "official_text": "B) Sebepsiz zenginleşme\nMADDE 732- (1) Zamanaşımı sebebiyle veya poliçeden doğan hakların korunması için gerekli olan işlemlerin yapılmasının ihmal edilmiş olması dolayısıyla, düzenleyenin veya kabul edenin poliçeden doğan yükümlülükleri düşmüş bile olsa, bunlar poliçenin hamiline karşı, onun zararına zenginleşmiş olabilecekleri kadar borçlu kalırlar.\n(2) Sebepsiz zenginleşmeden doğan istem, muhataba, yerleşim yerli bir poliçeyi ödeyecek olan kimseye ve düzenleyen, poliçeyi başka bir kişi veya ticari işletme hesabına düzenlemiş olduğu takdirde o kişiye veya ticari işletmeye karşı da ileri sürülebilir.\n(3) Poliçeden doğan borcu düşmüş olan cirantaya karşı böyle bir istem ileri sürülemez.\n(4) Zamanaşımı süresi, poliçenin zamanaşımına uğradığı tarihi takip eden tarihten itibaren bir yıldır; ispat yükü, sebepsiz zenginleşmediğini iddia edene aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "748",
+   "official_text": "A) Senet metnindeki değişiklikler\nMADDE 748- (1) Bir poliçe metni değiştirildiği takdirde, değiştirmeden sonra poliçe üzerine imza koymuş olan kişiler, değişmiş metne ve ondan önce imzasını koyanlar ise eski metne göre sorumlu olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "749",
+   "official_text": "I - Süreler\nMADDE 749- (1) Poliçeyi kabul edene karşı ileri sürülecek poliçeden doğan istemler, vadenin geldiği tarihten itibaren üç yıl geçmekle zamanaşımına uğrar.\n(2) Hamilin, cirantalarla düzenleyene karşı ileri süreceği istemler, süresinde çekilen protesto tarihinden veya senette “gidersiz iade olunacaktır” kaydı varsa vadenin dolduğu tarihten itibaren bir yıl geçmekle zamanaşımına uğrar.\n(3) Bir cirantanın başka cirantalarla düzenleyen aleyhine ileri süreceği istemler, cirantanın poliçeyi ödediği veya poliçenin dava yolu ile kendisine karşı ileri sürüldüğü tarihten itibaren altı ay geçmekle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "750",
+   "official_text": "1. Sebepleri\nMADDE 750- (1) Zamanaşımı; dava açılması, takip talebinde bulunulması, davanın ihbar edilmesi veya alacağın iflas masasına bildirilmesiyle kesilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "751",
+   "official_text": "2. Hükümleri\nMADDE 751- (1) Zamanaşımını kesen işlem, kimin hakkında meydana gelmişse ancak ona karşı hüküm ifade eder.\n(2) Zamanaşımı kesilince, süresi aynı olan yeni bir zamanaşımı işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "752",
+   "official_text": "1. Tatil günleri\nMADDE 752- (1) Vadesi pazara veya diğer bir resmî tatil gününe rastlayan poliçenin ödenmesi, ancak tatili izleyen ilk iş günü istenebilir. Poliçeye ilişkin diğer bütün işlemler, özellikle kabul için ibraz ve protesto işlemleri de tatilde yapılmayıp ancak bir iş gününde yapılabilir.\n(2) Bu işlemlerden birinin, son günü pazara veya başka bir resmî tatil gününe rastlayan bir süre içinde yapılması gerektiği takdirde, bu süre onu izleyen ilk iş gününe kadar uzar. Aradaki tatil günleri süre hesabına dâhildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "753",
+   "official_text": "2. Sürenin hesaplanması\nMADDE 753- (1) Kanunun bu Kısmında veya poliçede gösterilen süreler hesap edilirken bunların başladığı gün sayılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "757",
+   "official_text": "I - Önleyici önlemler\nMADDE 757- (1) İradesi dışında poliçe elinden çıkan kişi, ödeme veya hamilin yerleşim yerindeki asliye ticaret mahkemesinden, muhatabın poliçeyi ödemekten menedilmesini isteyebilir.\n(2) Mahkeme, ödemeyi meneden kararında muhataba, vadenin gelmesi üzerine poliçe bedelini tevdi etmeye izin verir ve tevdi yerini gösterir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "758",
+   "official_text": "II - Poliçeyi eline geçiren kişinin bilinmesi\nMADDE 758- (1) Poliçeyi eline geçiren kişi bilindiği takdirde, mahkeme, dilekçe sahibine iade davası açması için uygun bir süre verir.\n(2) Dilekçe sahibi verilen süre içinde davayı açmazsa, mahkeme, muhatap hakkındaki ödeme yasağını kaldırır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "759",
+   "official_text": "1. Dilekçe sahibinin yükümlülükleri\nMADDE 759- (1) Poliçeyi eline geçiren kişi bilinmiyorsa, poliçenin iptaline karar verilmesi istenebilir.\n(2) İptal isteminde bulunan kişi, poliçe elinde iken zıyaa uğradığını inandırıcı bir şekilde gösteren delilleri mahkemeye sağlamak ve senedin bir suretini ibraz etmek veya senedin esas içeriği hakkında bilgi vermekle yükümlüdür.\n2. İhtar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "760",
+   "official_text": "a) İçeriği\nMADDE 760- (1) Mahkeme, dilekçe sahibinin, poliçe elinde iken zıyaa uğradığına dair verdiği açıklamaları inandırıcı bulursa, verilecek ilanla, poliçeyi eline geçireni, poliçeyi belirli bir süre içinde getirmeye davet ve aksi takdirde poliçenin iptaline karar vereceğini ihtar eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "761",
+   "official_text": "b) Süreler\nMADDE 761- (1) Poliçeyi getirme süresi en az üç ay ve en çok bir yıldır.\n(2) Vadesi gelmiş poliçelerde zamanaşımı, üç ayın geçmesinden önce gerçekleşirse, mahkeme üç aylık süre ile bağlı değildir.\n(3) Süre, vadesi gelen poliçeler hakkında birinci ilan gününden, vadesi gelmeyen poliçeler hakkında vadenin gelmesinden itibaren işler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "762",
+   "official_text": "c) İlan\nMADDE 762- (1) Poliçenin getirilmesine ilişkin ilan, 35 inci maddede yazılı gazete ile üç defa yapılır.\n(2) Özellik gösteren olaylarda, mahkeme, uygun göreceği daha başka ilan önlemlerine de başvurabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "763",
+   "official_text": "IV - İade davası\nMADDE 763- (1) Elden çıkan poliçe mahkemeye sunulursa, mahkeme, iade davası açması için dilekçe sahibine uygun bir süre verir. Dilekçe sahibi bu süre içinde dava açmazsa, mahkeme, poliçeyi, sunmuş olana geri verir ve muhatap hakkındaki ödeme yasağını kaldırır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "764",
+   "official_text": "V - İptal kararı\nMADDE 764- (1) Elden çıkan poliçe, verilen süre içinde mahkemeye sunulmazsa, iptaline karar verilir.\n(2) Poliçenin iptaline karar verilmiş olmasına rağmen, dilekçe sahibi kabul edene karşı poliçeden doğan istem hakkını ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "765",
+   "official_text": "VI - Teminat\nMADDE 765- (1) Mahkeme, iptale karar vermeden önce, kabul edene, poliçe bedelini tevdi etme ve yeterli teminat karşılığında bunu ödeme yükümünü getirebilir.\n(2) Teminat, poliçeyi iyiniyetle iktisap eden kişinin uğrayabileceği zarara bir karşılık oluşturur. Senet iptal edildiği veya senetten doğan haklar diğer bir sebeple ortadan kalktığı takdirde, teminat geri alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "778",
+   "official_text": "C) Uygulanacak hükümler\nMADDE 778- (1) Bononun niteliğine aykırı düşmedikçe;\na) Poliçelerin cirosuna ilişkin 681 ilâ 690,\nb) Vadeye dair 703 ilâ 707,\nc) Ödeme hakkındaki 708 ilâ 712,\nd) Ödememe hâlinde başvurma haklarına dair 713 ilâ 727 ve 729 ilâ 732,\ne) Araya girme suretiyle ödemeye ilişkin 734, 738 ilâ 742,\nf) Suretler hakkındaki 746 ve 747,\ng) Değiştirmeye dair 748,\nh) Zamanaşımına dair 749 ilâ 751,\nı) İptale dair 757 ilâ 765,\ni) Tatil günleri, sürelerin hesabı, atıfet sürelerine ilişkin yasak, poliçeye dair işlemlerin yapılması gereken yer ve imza hakkındaki 752 ilâ 756,\nj) Kanunlar ihtilâfına dair 766 ilâ 775 inci,\nmaddeler hükümleri bonolar hakkında da geçerlidir.\n(2) Ayrıca;\na) Üçüncü bir kişinin yerleşim yerinden veya muhatabın yerleşim yerinden başka bir yerde ödenmesi şart olan poliçeye ilişkin 674 ve 697 nci,\nb) Faiz şartına dair 675 inci,\nc) Ödenecek bedele dair çeşitli beyanlar hakkındaki 676 ncı,\nd) Geçerli olmayan imzanın sonuçlarına ilişkin 677 nci,\ne) Yetkisiz veya yetkiyi aşan kimsenin imzasına ilişkin 678 ve 679 uncu,\nf) Açık poliçeye dair 680 inci,\nmadde hükümleri de bonolara uygulanır.\n(3) Avale ilişkin 700 ilâ 702 nci maddeler de bonolar hakkında uygulanır.\n(4) 701 inci maddenin dördüncü fıkrasında öngörülen hâlde aval, avalin kimin hesabına verildiğini göstermezse, bonoyu düzenleyen kimse hesabına verilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/5494",
+   "karar_no": "2026/2581",
+   "decision_date": "04.05.2026",
+   "summary_md": "Davacı, davalının keşidecisi olduğu 5.000 euro bedelli iki bonoya dayanarak icra takibi yapmış, ancak kambiyo takibi zamanaşımı nedeniyle icranın geri bırakılması kararıyla sonuçlanmıştı. Bunun üzerine bono bedelinin tahsili için TTK m. 732'ye dayalı sebepsiz zenginleşme davası açtı. Dosyada davacı bono lehtarı, davalı keşideciydi. İlk derece mahkemesi, lehtarla keşideci arasında temel ilişki bulunduğundan TTK m. 732'ye dayanılamayacağını belirterek görevsizlik kararı verdi; bölge adliye mahkemesi görevsizliği doğru bulmayıp davayı esastan reddetti. Yargıtay 11. Hukuk Dairesi, bölge adliye mahkemesinin, ilk derece mahkemesinin görevsizlik kararı varken esasa girerek karar vermesini HMK'nın istinafa ilişkin hükmüne aykırı buldu ve kararı bozdu. Karar, TTK m. 732 uyuşmazlıklarında lehtar-keşideci arasında temel ilişki bulunduğu yönündeki alt derece gerekçesini gösterdiği için önemlidir; ancak Yargıtay'ın bozma gerekçesi usule ilişkindir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1230800400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/18",
+   "karar_no": "2024/184",
+   "decision_date": "",
+   "summary_md": "Kambiyo senetlerine özgü haciz yoluyla takibe dayanak çekte keşide tarihi ve bedel üzerinde düzeltme yapılmıştı. Çekin cirantası olan borçlu, tahrifat yapıldığını, paraf imzasının keşideciye ait olmadığını ve düzeltme öncesi tarihe göre çekin ibraz süresinden sonra ibraz edildiğini ileri sürerek takibin iptalini istedi. Hukuk Genel Kurulu, direnme kararını bozdu. Gerekçesinde, senet metninde tahrifat yapılmış olması savunmasının her hamile karşı ileri sürülebilen mutlak def'i olduğunu, düzeltmenin keşideci tarafından paraflanmamışsa yok hükmünde sayılacağını, böyle bir durumda senedin düzeltme öncesi hâline göre değerlendirileceğini ve ibraz süresine uyulmamışsa müracaat hakkının kaybedileceğini belirtti. Paraf keşideciye aitse değişiklik geçerli olur ve değişiklikten sonra imzalayanlar değişmiş metne göre sorumlu olur. Uyuşmazlık eski kanun döneminden gelen çeke ilişkindir; ilkeler poliçedeki tahrifat kuralının (TTK m. 748) çeke yollamayla uygulanmasını göstermesi bakımından öğreticidir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1031692400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TTK m. 703'e göre aşağıdaki vade yazım biçimlerinden hangisi poliçeyi **batıl** kılar?",
+   "options": [
+    "Poliçenin \"ilk taksit 01.03, ikinci taksit 01.04\" biçiminde birbirini izleyen vadeler içermesi",
+    "Poliçenin \"görüldüğünde\" ödenmesinin yazılması",
+    "Poliçenin düzenlenme gününden 3 ay sonra ödenmesinin yazılması",
+    "Poliçede vadenin hiç gösterilmemesi"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TTK m. 703/2'ye göre vadesi başka şekilde yazılan veya birbirini takip eden çeşitli vadeleri gösteren poliçe batıldır. Vadenin hiç yazılmaması ise poliçeyi batıl yapmaz; bu durumda poliçe görüldüğünde ödenmesi şart edilmiş sayılır (TTK m. 672/2). Diğer iki vade türü TTK m. 703/1'de sayılan geçerli vadelerdir."
+  },
+  {
+   "stem_md": "Görüldüğünde ödenecek bir poliçe hakkında hangisi doğrudur?",
+   "options": [
+    "İbraz süresi altı aydır; düzenleyen bu süreyi değiştiremez",
+    "İbraz süresi iki iş günüdür ve cirantalar bu süreyi uzatabilir",
+    "Düzenlenme gününden itibaren bir yıl içinde ibrazı gerekir; düzenleyen bu süreyi kısaltabilir veya uzatabilir",
+    "İbraz süresi yoktur, hamil istediği zaman ibraz edebilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 704/1'e göre görüldüğünde ödenecek poliçenin düzenlenme gününden itibaren bir yıl içinde ibrazı gerekir. Düzenleyen bu süreyi kısaltabilir ya da uzatabilir; cirantalar ise ibraz sürelerini yalnız kısaltabilir. İki iş günü, belirli günde vadeli poliçelerin ibraz süresidir (TTK m. 708)."
+  },
+  {
+   "stem_md": "Belirli günde vadeli, vadesi çarşamba günü gelen ve muhatap tarafından kabul edilmiş bir poliçe ödenmemiştir. Hamil Ayşe ödememe protestosunu en geç ne zaman çektirmelidir?",
+   "options": [
+    "Vadeyi izleyen bir yıl içinde",
+    "Ödeme gününü izleyen iki iş günü içinde; yani cuma gününe kadar",
+    "Vadeyi izleyen dört iş günü içinde",
+    "Vade gününün kendisinde"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Belirli günde vadeli poliçede ödememe protestosu, ödeme gününü izleyen iki iş günü içinde çekilir (TTK m. 714/3). Çarşamba vadede bu süre perşembe ve cuma günüdür. Dört iş günü, protesto gününden sonraki ihbar süresidir (TTK m. 723/1). Bir yıl, görüldüğünde vadeli poliçenin ibraz süresiyle karıştırılan süredir."
+  },
+  {
+   "stem_md": "Muhatap Kemal, kabul ettiği 200.000 TL'lik poliçe için vadede yalnızca 120.000 TL ödeyebileceğini söyler. Hamil Selin hangi tutumu benimsemelidir?",
+   "options": [
+    "Kısmi ödemeyi ancak cirantaların hepsinin onayıyla kabul edebilir",
+    "Kısmi ödemeyi kabul ederse poliçeyi Kemal'e iade etmek zorundadır",
+    "Kısmi ödemeyi reddedemez; Kemal ödemenin senet üzerine yazılmasını ve makbuz verilmesini isteyebilir",
+    "Kısmi ödemeyi kabul etmek zorunda değildir; tüm bedeli ister"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 709/2'ye göre hamil kısmi ödemeyi reddedemez. Kısmi ödemede muhatap, ödemenin poliçeye yazılmasını ve makbuz verilmesini isteyebilir (TTK m. 709/3); poliçenin iadesi ise yalnız tam ödemede istenir (TTK m. 709/1). Bakiye için başvurma hakkı korunur."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisinde hamil **protesto çekmeden**, iflas ilamını ibraz ederek başvurma hakkını kullanabilir?",
+   "options": [
+    "Muhatap ödemelerini tatil etmiştir",
+    "Muhatap iflas etmiştir",
+    "Muhatap ödeme gününde bulunamamıştır",
+    "Muhatap aleyhindeki icra takibi semeresiz kalmıştır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 714/6'ya göre muhatap iflas etmişse iflas ilamının ibrazı başvurma hakkının kullanılması için yeterlidir. Ödemelerin tatili ve semeresiz icra takibi hâllerinde ise hamil, poliçeyi muhataba ibraz edip protesto çektikten sonra başvurabilir (TTK m. 714/5)."
+  },
+  {
+   "stem_md": "Düzenleyen Ali, poliçeye \"gidersiz\" kaydı yazıp imzalamıştır. Hamil Hasan poliçeyi süresinde ibraz etmemiştir. Sonuç nedir?",
+   "options": [
+    "Kayıt geçersizdir, çünkü yalnız ciranta yazabilir",
+    "Kayıt Hasan'ı hem protesto hem ibraz yükünden kurtardığı için hakkı korunur",
+    "Kayıt yalnız protesto yükünü kaldırır; ibraz ve ihbar yükümleri sürer, süresinde ibraz edilmediğinde başvurma hakkı kaybedilir",
+    "Kayıt yalnız Ali'yi bağlar, cirantalar bakımından sonuç doğurmaz"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 722/2'ye göre gidersiz kaydı hamili süresinde ibraz etmek ve ihbar yapmak yükümlülüğünden kurtarmaz. Hamil, \"gidersiz\" kaydı olsa bile ibraz süresini kaçırırsa kabul eden hariç borçlulara karşı hakkını kaybeder (TTK m. 730/1). Düzenleyen yazdığı için kayıt bütün borçlular hakkında geçerlidir (TTK m. 722/3)."
+  },
+  {
+   "stem_md": "Hamil Ece, ödenmeyen poliçe için ihbar süresini kaçırmıştır; ancak ibraz ve protestoyu süresinde yapmıştır. Hukuki sonucu hangisidir?",
+   "options": [
+    "Poliçe bedelinin binde üçü oranında para cezası öder",
+    "Cirantalara karşı bütün başvurma haklarını kaybeder",
+    "Yalnız düzenleyene karşı hakkını kaybeder",
+    "Başvurma hakkını kaybetmez; ihmalinden doğan zarardan, poliçe bedelini aşmamak üzere sorumlu olur"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 723/7'ye göre süresinde ihbar yapmayan kişi başvurma hakkını kaybetmez; ihmalinden doğan zarardan sorumlu olur ve tazminat poliçe bedeliyle sınırlıdır. Hak kaybı ibraz ve protesto sürelerinin kaçırılmasında doğar (TTK m. 730/1). Binde üç ise komisyon üst sınırıdır (TTK m. 725/1-d)."
+  },
+  {
+   "stem_md": "Vade 15.10.2025 çarşamba günüdür. Hamil Burcu, kabul eden muhatap M'ye ödeme için ibraz ettiği hâlde ödenmeyen poliçeyi 20.10.2025 pazartesi günü protesto ettirmiştir. Kime karşı hakkı sona ermiştir?",
+   "options": [
+    "Cirantalara ve düzenleyene karşı; kabul eden muhataba karşı hakkı sürer",
+    "Kabul eden muhatap dahil herkese karşı",
+    "Yalnız cirantalara karşı; düzenleyene karşı hakkı sürer",
+    "Hiç kimseye karşı, çünkü protesto süresi vadeden itibaren on gündür"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ödememe protestosu ödeme gününü izleyen iki iş günü içinde, yani perşembe ya da cuma çekilmeliydi (TTK m. 714/3). Pazartesi çekilen protesto süreyi kaçırmıştır. TTK m. 730/1'e göre hamil, kabul eden hariç, cirantalara, düzenleyene ve diğer borçlulara karşı hakkını kaybeder. Kabul eden asıl borçludur ve etkilenmez."
+  },
+  {
+   "stem_md": "Zamanaşımına uğramış poliçe nedeniyle TTK m. 732'ye dayalı sebepsiz zenginleşme davası **kime karşı açılamaz**?",
+   "options": [
+    "Poliçe başkası hesabına düzenlenmişse o kişiye",
+    "Poliçeyi ciro eden cirantaya",
+    "Poliçeyi düzenleyene",
+    "Kabul eden muhataba"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 732/3'e göre poliçeden doğan borcu düşmüş olan cirantaya karşı sebepsiz zenginleşme istemi ileri sürülemez. Düzenleyen ve kabul edene karşı dava açılır (TTK m. 732/1); poliçe başka bir kişi hesabına düzenlenmişse o kişiye karşı da ileri sürülebilir (TTK m. 732/2)."
+  },
+  {
+   "stem_md": "Hamil Murat, belirli günde vadeli ve vadesi 02.03.2026 pazartesi olan poliçeyi, ödenmeyince 03.03.2026 salı günü protesto çektirmiştir. Cirantaya karşı ileri sürülecek istemler için zamanaşımı süresi hangisidir?",
+   "options": [
+    "Düzenlenme tarihinden itibaren on yıl",
+    "Vadeden itibaren üç yıl",
+    "Protesto tarihinden itibaren bir yıl",
+    "Protesto tarihinden itibaren altı ay"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 749/2'ye göre hamilin cirantalara ve düzenleyene karşı istemleri, süresinde çekilen protesto tarihinden (gidersiz kaydı varsa vadenin dolduğu tarihten) itibaren bir yıl geçmekle zamanaşımına uğrar. Üç yıl kabul edene karşı (TTK m. 749/1), altı ay ise cirantanın rücu istemleri içindir (TTK m. 749/3)."
+  },
+  {
+   "stem_md": "Hamil Fatma, süresinde protesto çektikten sonra yalnızca cirantalardan Burak'a karşı icra takibi başlatmıştır. Bu işlem zamanaşımı bakımından neyi sağlar?",
+   "options": [
+    "Zamanaşımı hiçbir borçlu bakımından etkilenmez",
+    "Yalnız Burak hakkında zamanaşımı kesilir; diğer borçlular bakımından süre işlemeye devam eder",
+    "Zamanaşımı durur ancak kesilmez",
+    "Bütün borçlular hakkında zamanaşımı kesilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Takip talebi zamanaşımını keser (TTK m. 750/1); ancak zamanaşımını kesen işlem, kimin hakkında meydana gelmişse yalnız ona karşı hüküm ifade eder (TTK m. 751/1). Diğer borçlular için ayrı işlem yapılmalıdır."
+  },
+  {
+   "stem_md": "Poliçe zayi olmuş, elinde bulunduran kişi bilinmemektedir. Mahkemenin vereceği senedi getirme süresi hangisidir?",
+   "options": [
+    "En az on beş gün, en çok altı ay",
+    "En az bir ay, en çok üç ay",
+    "En az üç ay, en çok bir yıl",
+    "En az bir yıl, en çok üç yıl"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 761/1'e göre poliçeyi getirme süresi en az üç ay ve en çok bir yıldır. İlan Türkiye Ticaret Sicili Gazetesi ile üç defa yapılır (TTK m. 762). Vadesi gelmiş poliçede zamanaşımı üç aydan önce gerçekleşecekse mahkeme üç aylık süreyle bağlı değildir (TTK m. 761/2)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ahmet Yılmaz Ltd. Şti. (düzenleyen), Burak Kaya'yı lehtar göstererek 300.000 TL bedelli ve belirli günde ödenmek üzere 14.01.2026 çarşamba günü vadeli bir poliçe düzenlemiştir. Muhatap Demir A.Ş. poliçeyi kabul etmiştir. Burak poliçeyi Cemile'ye, Cemile de son hamil Hakan'a ciro etmiştir. Poliçede \"gidersiz\" veya benzeri bir kayıt yoktur.\nHakan poliçeyi 15.01.2026 perşembe günü Demir A.Ş.'ye ödeme için ibraz etmiş, Demir A.Ş. yalnızca 200.000 TL ödeyebileceğini söylemiştir. Hakan 200.000 TL'yi almış, bakiye 100.000 TL ödenmemiştir. Hakan ödememe protestosunu 19.01.2026 pazartesi günü çektirmiştir. Ödenmeyen kısım için ihbarları zamanında yapmıştır.\nAradan iki yıl geçmiştir. Hakan henüz hiçbir dava açmamıştır.\n1. Hakan'ın kısmi ödemeyi kabul etmesi zorunlu muydu?\n2. Protesto süresinde çekilmiş midir? Hakan hangi borçlulara karşı başvurma hakkını kaybetmiştir?\n3. Bakiye alacak için Hakan'ın hangi borçluya karşı hakkı devam etmektedir? Süre ne zaman dolar?\n4. Burak'a karşı kambiyo hakkı düştüğüne göre Hakan, Burak'a karşı TTK m. 732'ye dayalı sebepsiz zenginleşme davası açabilir mi? Bu dava kimlere yöneltilebilir?",
+   "rubric": [
+    {
+     "point": "Kısmi ödemenin reddedilemeyeceğinin ve muhatabın şerh ile makbuz isteme hakkının belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 709"
+    },
+    {
+     "point": "Ödememe protestosunun ödeme gününü izleyen iki iş günü içinde (perşembe-cuma) çekilmesi gerektiğinin ve pazartesinin geç olduğunun belirlenmesi",
+     "weight": 25,
+     "madde_ref": "TTK m. 714"
+    },
+    {
+     "point": "Hak kaybının kabul eden hariç cirantalara ve düzenleyene karşı doğduğunun belirlenmesi",
+     "weight": 25,
+     "madde_ref": "TTK m. 730"
+    },
+    {
+     "point": "Kabul eden Demir A.Ş.'ye karşı hakkın sürdüğü ve zamanaşımının vadeden itibaren üç yıl olduğunun belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TTK m. 749"
+    },
+    {
+     "point": "TTK m. 732 davasının cirantaya karşı açılamayacağı, düzenleyen ve kabul edene karşı açılabileceğinin belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 732"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, belirli günde vadeli ve kabul edilmiş bir poliçede vade, ibraz, kısmi ödeme, protesto süresi, hak kaybı, zamanaşımı ve sebepsiz zenginleşme sorunlarını birlikte içermektedir. Demir A.Ş. kabul eden olarak asıl borçludur; düzenleyen Ahmet Yılmaz Ltd. Şti., ciranta Burak ve Cemile ise başvuru borçlularıdır.\n\n**Hukuki sorunlar:** (1) Kısmi ödemenin kabulü zorunlu mu? (2) Ödememe protestosu süresinde mi çekildi ve hak kaybının kapsamı nedir? (3) Hangi borçluya karşı hak sürmektedir ve zamanaşımı nedir? (4) TTK m. 732 davası kime açılabilir?\n\n**İlgili hükümler:** TTK m. 708, TTK m. 709, TTK m. 714/3, TTK m. 730/1, TTK m. 749, TTK m. 732.\n\n**Değerlendirme:** Belirli günde vadeli poliçenin hamili, poliçeyi ödeme gününde veya izleyen iki iş günü içinde ibraz etmelidir (TTK m. 708). Hakan perşembe günü ibraz ettiği için süresindedir. Muhatabın yalnız 200.000 TL ödemesi karşısında Hakan kısmi ödemeyi **reddedemez**; muhatap ödemenin poliçeye yazılmasını ve makbuz verilmesini isteyebilir (TTK m. 709/2-3). Hakan'ın kısmi ödemeyi kabul etmesi bu nedenle zorunluydu. Bakiye 100.000 TL için başvurma hakkı doğmuştur.\n\nÖdememe protestosu, ödeme gününü izleyen iki iş günü içinde, yani 15.01.2026 perşembe veya 16.01.2026 cuma günü çekilmeliydi (TTK m. 714/3). Hakan'ın pazartesi (19.01.2026) çektirdiği protesto süresinde değildir. TTK m. 730/1'e göre hamil, protesto için belirli süreleri geçirirse **kabul eden hariç** cirantalara, düzenleyene ve diğer borçlulara karşı hakkını kaybeder. Dolayısıyla Hakan, Cemile'ye, Burak'a ve Ahmet Yılmaz Ltd. Şti.'ye karşı başvurma hakkını yitirmiştir. İhbarın zamanında yapılması bu sonucu değiştirmez; ihbar ihmali hak kaybı değil tazminat sorumluluğu doğurur (TTK m. 723/7).\n\nKabul eden Demir A.Ş.'ye karşı hak sürer; kabul edene karşı zamanaşımı vadenin geldiği tarihten itibaren üç yıldır (TTK m. 749/1). Vade 14.01.2026 olduğundan üç yıllık süre 14.01.2029'da dolar; bu gün pazara rastladığından süre izleyen ilk iş günü olan 15.01.2029'a uzar (TTK m. 752/2). İki yıl geçmiş olması Demir A.Ş. bakımından süreyi tüketmemiştir. Hakan'ın cirantalara ve düzenleyene karşı hakkı zaten düşmüştür; zamanaşımı bunlar bakımından ayrıca önem taşımaz.\n\nTTK m. 732'ye göre kambiyo hakkı ibraz/protesto ihmali veya zamanaşımı nedeniyle düşen hamil, düzenleyen veya kabul edene karşı onların zenginleşmesi ölçüsünde istemde bulunabilir. Ancak cirantaya (Burak, Cemile) karşı bu istem ileri sürülemez (TTK m. 732/3). Süre, zamanaşımına uğranılan tarihi izleyen tarihten itibaren bir yıldır (TTK m. 732/4). Zenginleşmenin ispatı bakımından görüş ayrılığı vardır (doktrin bölümü).\n\n**Sonuç:** Hakan kısmi ödemeyi kabul etmek zorundaydı. Protestoyu süresinde çektirmediği için kabul eden hariç cirantalara ve düzenleyene karşı başvurma hakkını kaybetmiştir. Bakiye 100.000 TL için Demir A.Ş.'ye karşı vadeden itibaren üç yıl içinde (son gün pazara rastladığından 15.01.2029'a kadar) hakkını kullanabilir. TTK m. 732 davası düzenleyen ve kabul edene yöneltilebilir, cirantalara yöneltilemez."
+  },
+  {
+   "stem_md": "Zeynep Arslan, lehtar Ahmet Tekin lehine 50.000 TL bedelli bir poliçe düzenlemiş, muhatap Hasan Çelik poliçeyi 50.000 TL olarak kabul etmiştir. Ahmet, bedeli sonradan 500.000 TL'ye çevirerek poliçeyi Burak Sönmez'e ciro etmiştir. Burak da poliçeyi iyiniyetli hamil Selin Demir'e ciro etmiştir. Poliçe \"gidersiz\" kaydı taşımamaktadır.\nVadede ödenmeyen poliçe için Selin süresinde protesto çektirmiş ve ihbarlarını yapmıştır. Selin yalnızca Burak aleyhine icra takibi başlatmıştır. Takip Burak'a karşı protesto tarihinden itibaren altı ay sonra yapılmıştır. Burak, Zeynep'e ve Ahmet'e karşı rücu hakkı kullanacaktır.\n1. Zeynep ve Hasan hangi tutardan sorumludur? Ahmet ve Burak hangi tutardan sorumludur?\n2. Selin'in Burak aleyhindeki takibi hangi borçlular bakımından zamanaşımını keser?\n3. Selin'in Hasan'a karşı ve Burak'a karşı hakları için zamanaşımı süreleri nedir?\n4. Burak poliçeyi öderse Zeynep ve Ahmet'e karşı rücu istemi için süre nedir?",
+   "rubric": [
+    {
+     "point": "Değişiklikten önce imzalayan Zeynep ve Hasan'ın eski metne göre 50.000 TL'den sorumlu olduğunun belirlenmesi",
+     "weight": 25,
+     "madde_ref": "TTK m. 748"
+    },
+    {
+     "point": "Değişiklikten sonra imzalayan Ahmet ve Burak'ın değişmiş metne göre 500.000 TL'den sorumlu olduğunun belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TTK m. 748"
+    },
+    {
+     "point": "Takibin zamanaşımını yalnız Burak hakkında kestiğinin, diğer borçlular bakımından süre işlemeye devam ettiğinin belirlenmesi",
+     "weight": 25,
+     "madde_ref": "TTK m. 751"
+    },
+    {
+     "point": "Kabul edene karşı vadeden üç yıl, cirantaya ve düzenleyene karşı protesto tarihinden bir yıllık sürenin belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 749"
+    },
+    {
+     "point": "Cirantanın rücu istemleri için ödeme veya dava tarihinden altı aylık sürenin belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 749"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda poliçe metninde değişiklik yapılmış ve bu değişikliğe imza koyanlar bakımından sorumluluğun kapsamı ile zamanaşımının kesilmesi birlikte gündeme gelmektedir. Hasan kabul eden asıl borçlu, Zeynep düzenleyen, Ahmet ve Burak cirantalar, Selin hamildir.\n\n**Hukuki sorunlar:** (1) Her imza sahibi hangi metne göre sorumludur? (2) Takip zamanaşımını kimler bakımından keser? (3) Hangi zamanaşımı süreleri uygulanır? (4) Burak'ın rücu süresi nedir?\n\n**İlgili hükümler:** TTK m. 748, TTK m. 750, TTK m. 751, TTK m. 749.\n\n**Değerlendirme:** TTK m. 748'e göre poliçe metni değiştirildiğinde değiştirmeden sonra imza koyanlar değişmiş metne, önce imza koyanlar eski metne göre sorumlu olur. Zeynep düzenleme sırasında, Hasan ise kabul sırasında 50.000 TL'lik metni imzalamıştır; değişiklikten önce imza koydukları için 50.000 TL ile bağlıdırlar. Bedeli 500.000 TL yapan Ahmet'in ve ondan sonra ciro eden Burak'ın imzaları değişmiş metindedir; bu iki kişi 500.000 TL'den sorumludur. Selin'in iyiniyeti Zeynep ve Hasan'ın sorumluluğunu 500.000 TL'ye çıkarmaz; imzalar birbirinden bağımsızdır ve her imza sahibi kendi imzaladığı metinle bağlı kalır.\n\nZamanaşımı dava açılması, takip talebinde bulunulması, davanın ihbarı veya alacağın iflas masasına bildirilmesiyle kesilir (TTK m. 750/1). Ancak kesen işlem kimin hakkında meydana gelmişse yalnız ona karşı hüküm ifade eder (TTK m. 751/1). Selin yalnız Burak aleyhine takip başlattığından zamanaşımı **yalnız Burak** bakımından kesilmiştir; yeni süre aynı uzunlukta işlemeye başlar (TTK m. 751/2). Zeynep, Ahmet ve Hasan bakımından süre işlemeye devam eder.\n\nSüreler şöyledir: Hasan (kabul eden) için vadeden itibaren üç yıl (TTK m. 749/1); Selin'in cirantalara ve düzenleyene karşı istemleri için süresinde çekilen protesto tarihinden itibaren bir yıl (TTK m. 749/2). Burak poliçeyi öderse Zeynep ve Ahmet'e karşı rücu istemi, ödemenin yapıldığı veya poliçenin kendisine karşı dava yoluyla ileri sürüldüğü tarihten itibaren altı ay içinde zamanaşımına uğrar (TTK m. 749/3).\n\n**Sonuç:** Zeynep ve Hasan 50.000 TL, Ahmet ve Burak 500.000 TL'den sorumludur. Takip zamanaşımını yalnız Burak bakımından keser. Hasan'a karşı vadeden 3 yıl, cirantalara ve düzenleyene karşı protesto tarihinden 1 yıl, cirantanın rücu istemi için 6 ay uygulanır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Poliçe hangi dört vade türüyle düzenlenebilir?",
+   "back_md": "Görüldüğünde, görüldükten belirli süre sonra, düzenlenme gününden belirli süre sonra, belirli günde (TTK m. 703/1). Başka veya taksitli vade poliçeyi batıl yapar (TTK m. 703/2)."
+  },
+  {
+   "front_md": "Vadesi hiç yazılmamış poliçe ne olur?",
+   "back_md": "Batıl olmaz; görüldüğünde ödenmesi şart edilmiş sayılır (TTK m. 672/2)."
+  },
+  {
+   "front_md": "Belirli günde vadeli poliçenin ibraz süresi?",
+   "back_md": "Ödeme günü veya izleyen iki iş günü (TTK m. 708/1). Takas odasına ibraz da ödeme için ibraz yerine geçer."
+  },
+  {
+   "front_md": "Hamil kısmi ödemeyi reddedebilir mi?",
+   "back_md": "Hayır (TTK m. 709/2). Muhatap şerh ve makbuz isteyebilir; senedi isteyemez (TTK m. 709/3)."
+  },
+  {
+   "front_md": "Vadeden önce ve vadesinde ödemenin farkı?",
+   "back_md": "Vadeden önce ödeyen tehlikeyi üstlenir; vadesinde ödeyen hile/ağır kusuru yoksa borcundan kurtulur (TTK m. 710/2-3)."
+  },
+  {
+   "front_md": "Ödememe protestosu süresi?",
+   "back_md": "Belirli gün/düzenlenmeden-sonra/görüldükten-sonra vadeli poliçede ödeme gününü izleyen 2 iş günü (TTK m. 714/3)."
+  },
+  {
+   "front_md": "Kabul etmeme protestosu çekilmişse ödememe protestosu gerekir mi?",
+   "back_md": "Hayır; ödeme için ibraz da gerekmez (TTK m. 714/4)."
+  },
+  {
+   "front_md": "Muhatap iflas ederse hamil neyi ibraz eder?",
+   "back_md": "İflas ilamını; protesto gerekmez (TTK m. 714/6). Ödemeleri tatilde ibraz ve protesto şarttır (TTK m. 714/5)."
+  },
+  {
+   "front_md": "Gidersiz kaydı neyi kaldırır, neyi kaldırmaz?",
+   "back_md": "Protesto yükünü kaldırır; süresinde ibraz ve ihbar yükümünü kaldırmaz (TTK m. 722/2)."
+  },
+  {
+   "front_md": "İhbar süreleri ve sonucu?",
+   "back_md": "Hamil protesto gününü izleyen 4 iş günü, ciranta 2 iş günü. İhbarı kaçıran hakkını kaybetmez, zarardan sorumlu olur (TTK m. 723)."
+  },
+  {
+   "front_md": "Hamil hangi süreleri kaçırınca kime karşı hakkını kaybeder?",
+   "back_md": "İbraz ve protesto süreleri; kabul eden hariç cirantalara, düzenleyene ve diğer borçlulara karşı (TTK m. 730/1)."
+  },
+  {
+   "front_md": "Poliçede zamanaşımı süreleri?",
+   "back_md": "Kabul edene vadeden 3 yıl; hamilin cirantalara ve düzenleyene karşı protestodan 1 yıl; cirantanın rücuu için ödeme/dava tarihinden 6 ay (TTK m. 749)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

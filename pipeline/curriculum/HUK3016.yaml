@@ -1,0 +1,106 @@
+# HUK3016 İnsan Hakları Hukuku — Anayasa (temel haklar, AY m. 12-40, 148), 6216 sayılı Kanun (AYM'ye
+# bireysel başvuru) ve Avrupa İnsan Hakları Sözleşmesi (AİHS). AİHS'in resmî Türkçe metni mevzuat
+# servisinde yoktur: AİHS maddelerine atıf, kaynağı eklenene kadar konu başlıklarında ve anlatımda
+# "Sözleşme'nin 2. maddesi" biçiminde yapılır; madde listesine Türk mevzuatı girer.
+# Elle (Claude Code'da) kuruldu.
+units:
+- title: 'Ünite 1: Temel Kavramlar ve Koruma Sistemleri'
+  topics:
+  - slug: insan-haklarinin-gelisimi-ve-kusaklari
+    title: 'İnsan Haklarının Gelişimi, Nitelikleri ve Kuşakları (Klasik, Sosyal, Dayanışma Hakları)'
+    maddeler: [{kanun: AY, madde: '12'}]
+    ictihat_sorgulari: []
+    beceri: temel-kavramlar-ve-sistem
+  - slug: uluslararasi-ve-avrupa-koruma-sistemleri
+    title: 'İnsan Haklarının Uluslararası Korunması: BM Sistemi, Avrupa Konseyi ve AİHS Sistemi, Sözleşmenin İç Hukuktaki Yeri'
+    maddeler: [{kanun: AY, madde: '90'}]
+    ictihat_sorgulari: [avrupa insan hakları sözleşmesi iç hukuk AY 90 öncelik]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: temel-haklarin-sinirlandirilmasi
+    title: 'Temel Hakların Sınırlandırılması: Kanunilik, Meşru Amaç, Demokratik Toplumda Gereklilik, Ölçülülük ve Öze Dokunmama; Olağanüstü Hâller'
+    maddeler: [{kanun: AY, madde: '13'}, {kanun: AY, madde: '14'}, {kanun: AY, madde: '15'}]
+    ictihat_sorgulari: [temel hakların sınırlanmasında ölçülülük ilkesi anayasa mahkemesi, olağanüstü halde temel hakların kullanılmasının durdurulması]
+    beceri: temel-hak-sinirlama-testi
+  - slug: aihm-ye-bireysel-basvuru
+    title: 'AİHM''ye Bireysel Başvuru: Mağdur Statüsü, İç Hukuk Yollarının Tüketilmesi, Süre, Kabul Edilebilirlik ve Kararların Bağlayıcılığı'
+    maddeler: [{kanun: AY, madde: '90'}, {kanun: HMK, madde: '375'}]
+    ictihat_sorgulari: [avrupa insan hakları mahkemesi ihlal kararı yargılamanın yenilenmesi]
+    beceri: ihlal-karari-giderim-ve-aihm
+  - slug: anayasa-mahkemesine-bireysel-basvuru
+    title: 'Anayasa Mahkemesine Bireysel Başvuru: Kapsam, Başvuru Ehliyeti, Usul, Kabul Edilebilirlik ve Kararlar'
+    maddeler: [{kanun: AY, madde: '148'}, {kanun: '6216', madde: '45'}, {kanun: '6216', madde: '46'}, {kanun: '6216', madde: '47'}, {kanun: '6216', madde: '48'}, {kanun: '6216', madde: '49'}, {kanun: '6216', madde: '50'}]
+    ictihat_sorgulari: [anayasa mahkemesi bireysel başvuru otuz gün süre, bireysel başvuru ihlal kararı yeniden yargılama]
+    beceri: kabul-edilebilirlik-denetimi
+- title: 'Ünite 2: Kişinin Dokunulmazlığı ve Özgürlüğü'
+  topics:
+  - slug: yasam-hakki
+    title: 'Yaşam Hakkı: Negatif ve Pozitif Yükümlülükler, Kuvvet Kullanımı ve Etkili Soruşturma'
+    maddeler: [{kanun: AY, madde: '17'}]
+    ictihat_sorgulari: [yaşam hakkı etkili soruşturma yükümlülüğü, devletin yaşamı koruma pozitif yükümlülüğü]
+    beceri: yasam-kotu-muamele-kisi-ozgurlugu
+  - slug: iskence-ve-kotu-muamele-yasagi
+    title: İşkence, İnsanlık Dışı ve Aşağılayıcı Muamele Yasağı
+    maddeler: [{kanun: AY, madde: '17'}]
+    ictihat_sorgulari: [kötü muamele yasağı gözaltında yaralanma, insan onuruyla bağdaşmayan muamele]
+    beceri: yasam-kotu-muamele-kisi-ozgurlugu
+  - slug: kolelik-ve-zorla-calistirma-yasagi
+    title: Kölelik, Kulluk ve Zorla Çalıştırma Yasağı
+    maddeler: [{kanun: AY, madde: '18'}]
+    ictihat_sorgulari: []
+    beceri: yasam-kotu-muamele-kisi-ozgurlugu
+  - slug: kisi-ozgurlugu-ve-guvenligi
+    title: 'Kişi Özgürlüğü ve Güvenliği: Özgürlükten Yoksun Bırakma Hâlleri, Tutukluluk, Makul Süre ve Tazminat'
+    maddeler: [{kanun: AY, madde: '19'}]
+    ictihat_sorgulari: [tutukluluğun makul süreyi aşması bireysel başvuru, kuvvetli suç şüphesi tutuklama gerekçesi]
+    beceri: yasam-kotu-muamele-kisi-ozgurlugu
+- title: 'Ünite 3: Yargısal Haklar'
+  topics:
+  - slug: adil-yargilanma-hakki
+    title: 'Adil Yargılanma Hakkı: Mahkemeye Erişim, Bağımsız ve Tarafsız Mahkeme, Silahların Eşitliği, Gerekçeli Karar, Makul Süre, Masumiyet Karinesi'
+    maddeler: [{kanun: AY, madde: '36'}, {kanun: AY, madde: '38'}, {kanun: AY, madde: '141'}]
+    ictihat_sorgulari: [adil yargılanma hakkı makul sürede yargılanma, gerekçeli karar hakkı ihlali]
+    beceri: adil-yargilanma-hakki
+  - slug: suc-ve-cezalarin-kanuniligi-ve-etkili-basvuru
+    title: Suç ve Cezaların Kanuniliği ile Etkili Başvuru Hakkı
+    maddeler: [{kanun: AY, madde: '38'}, {kanun: AY, madde: '40'}]
+    ictihat_sorgulari: [etkili başvuru hakkı ihlali tazminat yolu, suç ve cezaların kanuniliği öngörülebilirlik]
+    beceri: adil-yargilanma-hakki
+- title: 'Ünite 4: Özel Hayat ve Siyasi Özgürlükler'
+  topics:
+  - slug: ozel-ve-aile-hayatina-saygi
+    title: 'Özel ve Aile Hayatına Saygı Hakkı, Konut Dokunulmazlığı, Haberleşme Özgürlüğü ve Kişisel Verilerin Korunması'
+    maddeler: [{kanun: AY, madde: '20'}, {kanun: AY, madde: '21'}, {kanun: AY, madde: '22'}]
+    ictihat_sorgulari: [özel hayata saygı hakkı kişisel veriler anayasa mahkemesi, aile hayatı çocukla kişisel ilişki]
+    beceri: ozel-hayat-aile-esitlik
+  - slug: din-ve-vicdan-ozgurlugu
+    title: Din ve Vicdan Özgürlüğü; Laiklik ve Din Eğitimi
+    maddeler: [{kanun: AY, madde: '24'}]
+    ictihat_sorgulari: [din ve vicdan özgürlüğü inancını açıklamaya zorlanamama]
+    beceri: ifade-toplanma-din-ozgurlugu
+  - slug: ifade-ve-basin-ozgurlugu
+    title: 'İfade ve Basın Özgürlüğü: Kapsam, Kamu Yararı, Siyasetçilerin Eleştirilmesi, Nefret Söylemi ve İnternet'
+    maddeler: [{kanun: AY, madde: '25'}, {kanun: AY, madde: '26'}, {kanun: AY, madde: '28'}]
+    ictihat_sorgulari: [ifade özgürlüğü kamu görevlisine eleştiri, internet erişim engeli ifade özgürlüğü]
+    beceri: ifade-toplanma-din-ozgurlugu
+  - slug: toplanti-ve-dernek-ozgurlugu
+    title: Toplantı ve Gösteri Yürüyüşü Özgürlüğü ile Dernek ve Sendika Özgürlüğü
+    maddeler: [{kanun: AY, madde: '33'}, {kanun: AY, madde: '34'}, {kanun: AY, madde: '51'}]
+    ictihat_sorgulari: [toplantı ve gösteri yürüyüşü özgürlüğü orantısız müdahale, sendika üyeliği nedeniyle yaptırım]
+    beceri: ifade-toplanma-din-ozgurlugu
+- title: 'Ünite 5: Mülkiyet, Eşitlik ve Diğer Haklar'
+  topics:
+  - slug: mulkiyet-hakki
+    title: 'Mülkiyet Hakkı: Mülk Kavramı, Mülkten Yoksun Bırakma, Kullanımın Kontrolü ve Kamulaştırma'
+    maddeler: [{kanun: AY, madde: '35'}, {kanun: AY, madde: '46'}]
+    ictihat_sorgulari: [mülkiyet hakkı kamulaştırmasız el atma bireysel başvuru, mülkiyet hakkına müdahale ölçülülük]
+    beceri: mulkiyet-hakki-ihlali
+  - slug: ayrimcilik-yasagi-ve-esitlik
+    title: Ayrımcılık Yasağı ve Kanun Önünde Eşitlik
+    maddeler: [{kanun: AY, madde: '10'}]
+    ictihat_sorgulari: [ayrımcılık yasağı cinsiyet eşitlik ilkesi anayasa mahkemesi]
+    beceri: ozel-hayat-aile-esitlik
+  - slug: egitim-hakki-ve-secme-secilme-hakki
+    title: Eğitim Hakkı ile Seçme, Seçilme ve Siyasi Faaliyette Bulunma Hakkı
+    maddeler: [{kanun: AY, madde: '42'}, {kanun: AY, madde: '67'}]
+    ictihat_sorgulari: [seçilme hakkı ihlali bireysel başvuru, eğitim hakkı sınav]
+    beceri: temel-kavramlar-ve-sistem

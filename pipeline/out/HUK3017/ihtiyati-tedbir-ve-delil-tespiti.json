@@ -1,0 +1,537 @@
+{
+ "course_id": "HUK3017",
+ "unit_index": 8,
+ "unit_title": "Ünite 8: Geçici Hukuki Korumalar, Çekişmesiz Yargı ve Tahkim",
+ "topic_index": 1,
+ "slug": "ihtiyati-tedbir-ve-delil-tespiti",
+ "title": "İhtiyati Tedbir (Şartlar, Teminat, Uygulama, İtiraz, Haksız Tedbirden Tazminat) ve Delil Tespiti",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:11:03.026527+00:00",
+ "skill_refs": [
+  "hukuk-muhakemesi/ihtiyati-tedbir-delil-tespiti"
+ ],
+ "content": {
+  "summary_md": "- **Yeri:** Geçici hukuki korumalar HMK m. 389-406'dadır. İki ana kurum vardır: **ihtiyati tedbir** (HMK m. 389-399) ve **delil tespiti** (HMK m. 400-405). Defter tutulması ve mühürleme ile özel kanunlardaki korumalar saklıdır (HMK m. 406).\n- **Tedbir sebebi (HMK m. 389/1):** Mevcut durumda bir değişme nedeniyle hakkın elde edilmesinin önemli ölçüde zorlaşacağı veya imkânsız hâle geleceği ya da gecikme yüzünden sakınca veya ciddi zarar doğacağı endişesi. Para alacağı için tedbir değil, ihtiyati haciz (İİK m. 257) istenir.\n- **Talep (HMK m. 390):** Dava açılmadan önce esas hakkında görevli ve yetkili mahkemeden; dava açıldıktan sonra yalnız asıl davanın görüldüğü mahkemeden. Talep eden sebebini ve türünü belirtir, haklılığını **yaklaşık olarak** ispat eder. Zorunluluk varsa karşı taraf dinlenmeden karar verilebilir.\n- **Teminat (HMK m. 392):** Kural olarak teminat gösterilir; resmî belge veya kesin delil varsa ya da durum gerektiriyorsa gerekçeli olarak aranmayabilir; adli yardımdan yararlanan göstermez. Hüküm kesinleşince veya tedbir kalkınca **bir ay** içinde tazminat davası açılmazsa teminat iade edilir.\n- **Kanun yolu (HMK m. 391/3, HMK m. 341/1-b):** Talebin reddine ve yüzüne karşı verilen tedbire karşı doğrudan istinaf. Yokluğunda verilen tedbire önce itiraz (HMK m. 394), itiraz kararına karşı istinaf; BAM kararı kesindir (HMK m. 362/1-f).\n- **Uygulama ve süreler:** Uygulama, kararın tedbir isteyene tefhim veya tebliğinden itibaren **bir hafta** içinde istenir (HMK m. 393/1). Dava açılmadan önce verilmişse uygulama talebinden itibaren **iki hafta** içinde esas dava açılır ve evrak uygulayan memura ibraz edilir (HMK m. 397/1). İki durumda da süre kaçarsa tedbir kendiliğinden kalkar.\n- **İtiraz (HMK m. 394):** Süre **bir hafta**; sebepler tedbirin şartları, yetki ve teminattır. Üçüncü kişi öğrenmeden itibaren bir hafta içinde yalnız şartlara ve teminata itiraz eder.\n- **Değiştirme/kaldırma:** Teminat karşılığı (HMK m. 395), durum ve koşullar değişince teminatsız (HMK m. 396).\n- **Muhalefet (HMK m. 398):** İhlalin öğrenilmesinden itibaren altı ay içinde şikâyet, altı aya kadar disiplin hapsi; karara iki hafta içinde itiraz (7499 sayılı Kanun).\n- **Haksız tedbir tazminatı (HMK m. 399):** Kusursuz sorumluluk; esas davanın karara bağlandığı mahkemede; zamanaşımı bir yıl.\n- **Delil tespiti (HMK m. 400-405):** Hukuki yarar şart. Dava açılmadan önce esas mahkemesinden veya tespit yerindeki sulh mahkemesinden; dava açıldıktan sonra yalnız davaya bakan mahkemeden istenir (HMK m. 401). Dosya asıl dosyanın eki sayılır (HMK m. 405).",
+  "content_md": "## 1. Geçici hukuki korumalar: genel çerçeve\n\nDava uzun sürer. O süre içinde mal elden çıkabilir, durum değişebilir, tanık ölebilir. **Geçici hukuki korumalar** bu riski ortadan kaldırmak için kesin hükümden önce verilen hızlı önlemlerdir. HMK Onuncu Kısımda iki kurumu düzenler: ihtiyati tedbir (HMK m. 389-399) ve delil tespiti (HMK m. 400-405). HMK m. 406 ayrıca mahkemenin gerekli hâllerde mal veya haklarla ilgili defter tutulmasına ya da mühürleme yapılmasına karar verebileceğini söyler; ihtiyati haciz, muhafaza tedbirleri ve geçici düzenleme gibi özel kanunlardaki korumalar da saklıdır.\n\n> 💡 **Püf nokta:** İhtiyati tedbir bir **hakkı** (mal veya hak üzerindeki durumu), delil tespiti bir **ispat imkânını** korur. Para alacağını korumak için tedbir değil, ihtiyati haciz kullanılır.\n\n## 2. İhtiyati tedbirin şartları\n\nHMK m. 389/1'e göre mahkeme, iki tür endişe varsa uyuşmazlık konusu hakkında tedbir kararı verebilir:\n\n1. Mevcut durumda meydana gelebilecek bir değişme nedeniyle hakkın elde edilmesinin önemli ölçüde zorlaşacağı veya tamamen imkânsız hâle geleceği.\n2. Gecikme sebebiyle bir sakıncanın veya ciddi bir zararın doğacağı.\n\nKural, niteliğine uygun düştüğü ölçüde çekişmesiz yargı işlerinde de uygulanır (HMK m. 389/2).\n\n> **Örnek:** Ali, Mehmet'in kendisine devretmeyi vaat ettiği dairenin Zeynep'e satılmak üzere olduğunu öğrenir. Tapu devri gerçekleşirse tapu iptali ve tescil davasını kazansa bile hakkını elde etmesi zorlaşır. Taşınmazın devrini yasaklayan bir tedbir istenebilir.\n\n**Uyuşmazlık konusu** kavramı önemlidir. Tedbir, davanın konusu olan mal veya hak hakkında verilir. Salt bir para alacağının tahsilini güvenceye almak için tedbir istenemez; bunun yolu İİK m. 257'deki ihtiyati hacizdir.\n\n> ⚠️ **Sınavda dikkat:** \"Alacaklı borçlunun malvarlığı üzerine ihtiyati tedbir koydurur\" cevabı para alacakları için yanlıştır. Para alacağı: ihtiyati haciz. Mal veya hakkın kendisi uyuşmazlık konusu: ihtiyati tedbir.\n\nTalep eden **haklılığını yaklaşık olarak ispat** etmek zorundadır (HMK m. 390/3). Kesin kanaat aranmaz; hâkimin davanın esası bakımından talep edenin haklı olabileceği yönünde makul bir ihtimal görmesi yeterlidir. Dilekçede tedbirin sebebi ve türü açıkça yazılır. Pratikte şu sınır da bilinir: Tedbir asıl davanın sonucunu öne çekecek, davayı fiilen bitirecek nitelikte olmamalıdır.\n\n## 3. Talep ve görevli mahkeme\n\nHMK m. 390/1: Dava açılmadan önce **esas hakkında görevli ve yetkili mahkemeden**, dava açıldıktan sonra **ancak asıl davanın görüldüğü mahkemeden** istenir. Dava açıldıktan sonra tedbiri başka bir mahkemeden istemek mümkün değildir.\n\nTalep edenin hakları derhâl korunmalıysa hâkim **karşı tarafı dinlemeden** de karar verebilir (HMK m. 390/2). Bunun adı \"yoklukta verilen tedbir\"dir ve sonraki kanun yolu bakımından önemlidir.\n\n## 4. Tedbir kararı ve içeriği\n\nMahkeme sakıncayı ortadan kaldıracak her türlü tedbire karar verebilir: malın muhafaza altına alınması, bir yediemine bırakılması, bir şeyin yapılması veya yapılmaması gibi (HMK m. 391/1). Kararda taraf bilgileri, tedbirin dayandığı sebep ve deliller, tedbirin neyin üzerinde ve ne türde olduğu ve teminatın tutarı ile türü yazılır (HMK m. 391/2).\n\n## 5. Teminat\n\nHMK m. 392/1: Talep eden, haksız çıkarsa **karşı tarafın ve üçüncü kişilerin** uğrayacağı muhtemel zararlara karşılık teminat göstermek zorundadır. İstisnalar şunlardır:\n- Talep resmî belgeye veya başkaca kesin bir delile dayanıyorsa ya da durum ve koşullar gerektiriyorsa, mahkeme **gerekçesini açıkça belirterek** teminat alınmamasına karar verebilir.\n- **Adli yardımdan yararlanan** kimse teminat göstermez.\n\nTeminatın iadesi bakımından HMK m. 392/2'ye bak: Asıl davaya ilişkin hüküm kesinleştikten veya tedbir kalktıktan sonra **bir ay içinde** tazminat davası açılmazsa teminat iade edilir.\n\n## 6. Kanun yolları: üç ayrı durum\n\nHMK m. 391/3 ve HMK m. 341/1-b birlikte okunur:\n\n| Durum | Başvuru yolu |\n|---|---|\n| Tedbir talebi reddedildi | Doğrudan istinaf |\n| Karşı tarafın yüzüne karşı tedbir verildi | Doğrudan istinaf |\n| Karşı tarafın yokluğunda tedbir verildi | Önce itiraz (HMK m. 394), sonra istinaf |\n\nBu başvurular öncelikle incelenir ve kesin olarak karara bağlanır (HMK m. 391/3). Geçici hukuki korumalar hakkında bölge adliye mahkemesinin verdiği kararlara karşı temyiz yoluna da başvurulamaz (HMK m. 362/1-f).\n\n> ⚠️ **Sınavda dikkat:** \"Yüzüne karşı verilen\" ile \"yokluğunda verilen\" ayrımı sorunun püf noktasıdır. Yüzüne karşı verilen tedbirde itiraz yolu yoktur, doğrudan istinaf vardır.\n\n## 7. Tedbirin uygulanması: bir hafta\n\nKarar verilmesi tedbirin uygulanması demek değildir. HMK m. 393/1: Uygulama, kararın **tedbir isteyen tarafa tefhim veya tebliğinden itibaren bir hafta içinde** talep edilmelidir. Aksi hâlde, kanuni süre içinde dava açılmış olsa bile tedbir **kendiliğinden kalkar**. 7251 sayılı Kanun öncesi sürenin \"verildiği tarihten\" başladığı metinde yazıyordu; bugün başlangıç tefhim veya tebliğdir.\n\nUygulama, kararı veren mahkemenin yargı çevresindeki ya da tedbir konusu malın veya hakkın bulunduğu yerdeki icra dairesinden istenir (HMK m. 393/2). Gerekirse zor kullanılabilir (HMK m. 393/3). Uygulayan memur tutanak düzenler ve bir örneğini hazır bulunmayan tarafa tebliğ eder (HMK m. 393/4).\n\n## 8. Dava açma zorunluluğu: iki hafta\n\nTedbir dava açılmadan önce alınmışsa, HMK m. 397/1 gereği talep eden **uygulanmasını talep ettiği tarihten itibaren iki hafta içinde** esas davasını açmak, dava açtığına ilişkin evrakı kararı uygulayan memura ibraz ederek dosyaya koydurtmak ve karşılığında belge almak zorundadır. Aksi hâlde tedbir kendiliğinden kalkar.\n\n| Süre | Başlangıç | Sonuç |\n|---|---|---|\n| 1 hafta (HMK m. 393/1) | Kararın tefhim veya tebliği | Uygulama istenmezse tedbir kalkar |\n| 2 hafta (HMK m. 397/1) | Uygulamayı talep tarihi | Dava açılıp ibraz edilmezse tedbir kalkar |\n\n> **Örnek:** Ayşe'ye tedbir kararı 5 Mayıs'ta tebliğ edildi. 8 Mayıs'ta uygulama istedi. Esas davayı ve belgeyi en geç 22 Mayıs'a kadar tamamlaması gerekir. Sürenin 5 Mayıs'tan değil 8 Mayıs'tan başladığına dikkat et.\n\nTedbirin etkisi, aksi belirtilmedikçe nihai kararın kesinleşmesine kadar sürer (HMK m. 397/2). Tedbir dosyası asıl dosyanın eki sayılır (HMK m. 397/4).\n\n## 9. İtiraz\n\nYokluğunda tedbir verilen kişi itiraz edebilir (HMK m. 394/1). İtiraz **icrayı kendiliğinden durdurmaz**. İtiraz süresi **bir haftadır** ve başlangıcı şöyle belirlenir (HMK m. 394/2):\n- Uygulama sırasında karşı taraf hazır bulunuyorsa **uygulamadan** itibaren,\n- Hazır bulunmuyorsa **uygulama tutanağının tebliğinden** itibaren.\n\nİtiraz sebepleri tedbirin şartları, mahkemenin yetkisi ve teminattır. Esas hakkında dava açılmışsa itiraza bu davaya bakan mahkeme karar verir. Menfaati açıkça ihlal edilen **üçüncü kişiler** de tedbiri öğrenmelerinden itibaren bir hafta içinde itiraz edebilir, ancak yalnız tedbirin şartlarına ve teminata (HMK m. 394/3); yetkiye itiraz edemezler. İtiraz dilekçeyle yapılır ve delilleri dilekçeye eklenir. Mahkeme tedbiri değiştirebilir veya kaldırabilir. İtiraz kararına karşı kanun yoluna başvurulabilir; bu başvuru tedbirin uygulanmasını durdurmaz (HMK m. 394/4-5).\n\n## 10. Tedbirin değiştirilmesi, kaldırılması ve ihlali\n\nAleyhine tedbir verilen kişi, mahkemece kabul edilecek teminatı gösterirse tedbir değiştirilebilir veya kaldırılabilir (HMK m. 395). Teminatın türü HMK m. 87'ye göre belirlenir. Durum ve koşullar değişmişse bu iş teminat aranmadan yapılabilir (HMK m. 396).\n\nTedbire aykırı davranan kişi, ihlalin öğrenilmesinden itibaren **altı ay** içinde yapılan şikâyet üzerine **altı aya kadar disiplin hapsi** ile cezalandırılır (HMK m. 398/1). Karara **iki hafta** içinde itiraz edilebilir; bu süre 7499 sayılı Kanunla bir haftadan iki haftaya çıkarılmıştır (HMK m. 398/5). Aykırılığın sona ermesi, tedbirin gereğinin yerine getirilmesi veya şikâyetten vazgeçilmesi hâlinde dava ve ceza düşer (HMK m. 398/8).\n\n## 11. Haksız tedbirden doğan tazminat\n\nHMK m. 399/1: Lehine tedbir verilen taraf; talebi sırasında haksız olduğu anlaşılırsa, tedbir kendiliğinden kalkarsa veya itiraz üzerine kaldırılırsa, haksız tedbir nedeniyle uğranılan zararı tazmin eder. Bu bir **kusursuz sorumluluktur**: tedbir isteyenin kusurlu olması aranmaz, ancak somut zarar ve zarar ile tedbir arasında uygun illiyet bağı kanıtlanmalıdır. Haksızlık asıl davanın reddine dayanıyorsa Yargıtay uygulaması, tazminat için tedbirin dayandığı hak iddiasının asılsız çıkmasını (asıl davanın reddedilip kesinleşmesini), tedbirin uygulanmış olmasını ve somut zararı arar. Tedbirin kendiliğinden kalkması veya itiraz üzerine kaldırılması da kanunda ayrı birer sorumluluk sebebidir (HMK m. 399/1).\n\n- **Görevli yer:** Tazminat davası, esas hakkındaki davanın karara bağlandığı mahkemede açılır (HMK m. 399/2).\n- **Zamanaşımı:** Hükmün kesinleşmesinden veya tedbirin kalkmasından itibaren **bir yıl** (HMK m. 399/3).\n\n> ⚠️ **Sınavda dikkat:** İki \"süre\" karıştırılır. Teminatın iadesi için bekleme süresi **bir ay** (HMK m. 392/2), tazminat davasının zamanaşımı **bir yıl** (HMK m. 399/3). Biri teminatın serbest kalmasını, diğeri hakkın düşmesini düzenler.\n\nİdari yargıda verilen yürütmenin durdurulması kararlarından doğan zararların HMK m. 399 kapsamında olup olmadığı tartışmalıdır; ayrıntı doktrin bölümündedir.\n\n## 12. Delil tespiti\n\n**Delil tespiti**, görülmekte olan bir davada henüz inceleme sırası gelmemiş veya ileride açılacak davada ileri sürülecek bir vakıanın, keşif, bilirkişi incelemesi ya da tanık ifadesi gibi işlemlerle önceden tespit edilmesidir (HMK m. 400/1). **Hukuki yarar** aranır. Kanunda açıkça öngörülen hâller dışında, delil hemen tespit edilmezse kaybolacağı veya ileri sürülmesinin önemli ölçüde zorlaşacağı ihtimal dâhilindeyse hukuki yarar var sayılır (HMK m. 400/2).\n\n> **Örnek:** Kiracı Hasan, evi tahliye ettikten hemen sonra ev sahibi Zeynep, evdeki hasarın tespitini ister. Daire yeniden boyanıp onarılırsa hasar kanıtlanamaz. Zeynep, dava açmadan tespit isteyebilir.\n\n**Görev ve yetki (HMK m. 401):**\n- Dava açılmamışsa: esas davaya bakacak mahkemeden **veya** keşif ya da bilirkişi incelemesi yapılacak şeyin bulunduğu veya tanığın oturduğu yer **sulh mahkemesinden**.\n- Dava açıldıktan sonra: **yalnız davanın görüldüğü mahkeme** görevli ve yetkilidir.\n- Esas davada, delil tespiti yapan mahkemenin yetkisiz ve görevsiz olduğu **ileri sürülemez**.\n- Noterlerin 1512 sayılı Kanun uyarınca yapacağı vakıa tespiti saklıdır.\n\n**Usul:** Talep dilekçeyle yapılır; dilekçede tespiti istenen vakıa, sorular, delilin kaybolacağı kuşkusunu uyandıran sebepler ve karşı tarafın bilgileri bulunur (HMK m. 402/1). Tespit giderleri avans olarak ödenmedikçe sonraki işlemler yapılmaz (HMK m. 402/2). Talep haklı bulunursa karar ve dilekçe karşı tarafa tebliğ edilir; karşı taraf tespit sırasında hazır bulunabilir, itiraz ve ilave soruları bir hafta içinde bildirir (HMK m. 402/3). Tespit yapıldıktan sonra tutanak ve varsa bilirkişi raporunun örneği mahkemece **karşı tarafa resen tebliğ** edilir (HMK m. 402/4).\n\n**Acele hâl:** Zorunluluk varsa karşı tarafa tebligat yapılmadan da tespit yapılabilir. Sonrasında belgeler mahkemece kendiliğinden tebliğ edilir ve karşı taraf tebliğden itibaren **bir hafta** içinde delil tespiti kararına itiraz edebilir (HMK m. 403). Tespitte, kararlaştırılan delilin toplanmasına ilişkin hükümler uygulanır (HMK m. 404).\n\n**Sonuç:** Delil tespiti dosyası asıl dava dosyasının eki sayılır ve onunla birleştirilir; asıl davanın tarafları iddia veya savunmalarını ispat için tutanak ve raporlara dayanabilir (HMK m. 405). Bu delil tespitine bağlı bir \"kesin delil\" anlamına gelmez; hâkim yine de tespit sonuçlarını değerlendirir.\n\n## 13. Karşılaştırma tablosu\n\n| Konu | İhtiyati tedbir | Delil tespiti |\n|---|---|---|\n| Korunan | Hak veya mal | İspat imkânı |\n| Şart | Tedbir sebebi, yaklaşık ispat | Hukuki yarar |\n| Teminat | Kural olarak var | Yok |\n| Dava öncesi mahkeme | Esasa bakacak mahkeme | Esas mahkemesi veya sulh mahkemesi |\n| Dava sonrası mahkeme | Asıl dava mahkemesi | Asıl dava mahkemesi |\n\n## 14. Denetim şeması\n\n1. Korunacak şey para alacağı mı (ihtiyati haciz), mal veya hak mı (tedbir), yoksa delil mi?\n2. Tedbir sebebi (HMK m. 389/1) ve yaklaşık ispat (HMK m. 390/3) var mı?\n3. Hangi mahkeme: dava açılmış mı? (HMK m. 390/1)\n4. Teminat gerekli mi, istisna var mı? (HMK m. 392)\n5. Karar yüzüne karşı mı, yokluğunda mı? Kanun yolunu ona göre seç.\n6. Süreleri say: 1 hafta uygulama, 2 hafta esas dava, 1 hafta itiraz.\n7. Haksızlık anlaşıldıysa: kusursuz sorumluluk, 1 yıl zamanaşımı.",
+  "critical_md": "- 📌 İhtiyati tedbir para alacağı için değil, uyuşmazlık konusu mal veya hak için verilir; para alacağında yol ihtiyati hacizdir (İİK m. 257).\n- 📌 Dava açılmadan önce esas hakkında görevli ve yetkili mahkemeden, dava açıldıktan sonra ancak asıl davanın görüldüğü mahkemeden istenir (HMK m. 390/1).\n- 📌 Talep eden haklılığını yaklaşık olarak ispat eder (HMK m. 390/3). Zorunluluk varsa karşı taraf dinlenmeden karar verilebilir (HMK m. 390/2).\n- 📌 Talebin reddine ve yüzüne karşı verilen tedbire karşı doğrudan istinaf; yokluğunda verilene karşı önce itiraz (HMK m. 391/3, HMK m. 394).\n- 📌 Uygulama talebi: tedbir isteyen tarafa tefhim veya tebliğden itibaren bir hafta; kaçırılırsa tedbir kendiliğinden kalkar (HMK m. 393/1).\n- 📌 Dava öncesi tedbirde esas dava: uygulamayı talep tarihinden itibaren iki hafta; evrak uygulayan memura ibraz edilip belge alınır (HMK m. 397/1).\n- ⚠️ İki hafta, kararın verildiği tarihten değil, uygulamanın talep edildiği tarihten başlar.\n- 📌 İtiraz süresi bir hafta: karşı taraf hazırsa uygulamadan, hazır değilse tutanağın tebliğinden itibaren (HMK m. 394/2). İtiraz icrayı durdurmaz (HMK m. 394/1).\n- ⚠️ Üçüncü kişi yalnız tedbirin şartlarına ve teminata itiraz eder; yetkiye itiraz edemez (HMK m. 394/3).\n- 📌 Teminat kural; resmî belge veya kesin delil varsa gerekçeli olarak aranmayabilir; adli yardımdan yararlanan göstermez (HMK m. 392/1).\n- 📌 Teminat, hüküm kesinleşince veya tedbir kalkınca bir ay içinde tazminat davası açılmazsa iade edilir (HMK m. 392/2).\n- 📌 Haksız tedbir tazminatı: kusursuz sorumluluk, esas davanın karara bağlandığı mahkeme, bir yıl zamanaşımı (HMK m. 399).\n- 📌 Tedbire aykırılık: altı ay içinde şikâyet, altı aya kadar disiplin hapsi, karara iki hafta içinde itiraz (HMK m. 398).\n- 📌 Delil tespiti: hukuki yarar şart; dava açıldıktan sonra yalnız davaya bakan mahkeme yetkilidir (HMK m. 400, HMK m. 401/4).",
+  "doctrine_md": "### Yaklaşık ispat ile tam ispat\nKanun, tedbir talebinde haklılığın \"yaklaşık olarak\" ispatını arar (HMK m. 390/3). Baskın görüşe göre bu, tam ispat değil güçlü bir ihtimal derecesidir: hâkim, talep edenin haklı olabileceğine dair makul bir kanaate varmalıdır. Daha katı bir yaklaşım, tedbirin karşı tarafa ağır sonuçlar doğurabileceğini vurgulayarak ispat düzeyinin yükseltilmesini savunur. Teminat kurumu bu iki yaklaşım arasındaki dengeyi sağlar.\n\n### Haksız tedbir sorumluluğunun niteliği\nHaksız tedbir sorumluluğu genel olarak kusursuz sorumluluk sayılır; talep edenin iyiniyetli olması onu sorumluluktan kurtarmaz. Bununla birlikte Yargıtay, zarar ve illiyet bağının somut biçimde kanıtlanmasını arar; salt asıl davanın reddi tazminat için yeterli görülmez. Manevi tazminat da genel şartlara tabidir.\n\n### İdari yargıdaki yürütmeyi durdurma kararları\nİdari yargıda verilen yürütmenin durdurulması kararlarının HMK m. 399 anlamında ihtiyati tedbir sayılıp sayılmayacağı tartışmalıdır. Bir görüşe göre bunlar adli yargı tedbiri olmadığından kusursuz sorumluluğa değil, TBK m. 49'daki haksız fiil kurallarına tabidir. Karşı görüş, işlevsel benzerlik nedeniyle haksız tedbir hükmünün kıyasen uygulanması gerektiğini savunur. Bu nedenle sınavda bu noktayı kesin kural gibi vermeden, görüşleri sıralayarak yaz.\n\n### Tahkim ile tedbir ilişkisi\nTahkim konusu uyuşmazlıkta mahkemeden tedbir alınmışsa HMK m. 426/2 tahkim davasının iki hafta içinde açılmasını arar. Bu kuralın HMK m. 397/1'deki evrakın uygulayan memura ibrazı yükümlülüğü ile ayrıntıda nasıl birlikte uygulanacağı doktrinde tartışmalıdır; kesin bir çözüm yazılmamalıdır.",
+  "glossary": [
+   {
+    "term": "İhtiyati tedbir",
+    "definition": "Dava konusu mal veya hak üzerinde, kesin hükme kadar mevcut durumun değişmesini veya gecikmeden zarar doğmasını önleyen geçici koruma (HMK m. 389)."
+   },
+   {
+    "term": "Yaklaşık ispat",
+    "definition": "Tam ispata ulaşmayan, talep edenin haklı olduğuna dair güçlü bir ihtimal doğuran ispat düzeyi (HMK m. 390/3)."
+   },
+   {
+    "term": "Yoklukta tedbir",
+    "definition": "Karşı taraf dinlenmeden zorunluluk hâlinde verilen tedbir kararı (HMK m. 390/2); önce itiraz yolu açıktır."
+   },
+   {
+    "term": "Teminat",
+    "definition": "Tedbir talep edenin, haksız çıkarsa karşı tarafın ve üçüncü kişilerin zararını karşılamak üzere gösterdiği güvence (HMK m. 392)."
+   },
+   {
+    "term": "Kendiliğinden kalkma",
+    "definition": "Uygulama talebi veya esas dava süresi kaçırılınca tedbirin ayrıca karar gerekmeden ortadan kalkması (HMK m. 393/1, HMK m. 397/1)."
+   },
+   {
+    "term": "İhtiyati haciz",
+    "definition": "Para alacağını güvence altına almak için borçlunun mallarının geçici haczi; tedbirden farklıdır (İİK m. 257)."
+   },
+   {
+    "term": "Disiplin hapsi",
+    "definition": "Tedbir kararına aykırı davranana, şikâyet üzerine verilen altı aya kadar hapis yaptırımı (HMK m. 398)."
+   },
+   {
+    "term": "Haksız tedbir tazminatı",
+    "definition": "Haksız çıkan tedbir lehtarının, karşı tarafın uğradığı zararı kusursuz olarak ödemesi (HMK m. 399)."
+   },
+   {
+    "term": "Delil tespiti",
+    "definition": "Kaybolma riski olan delilin keşif, bilirkişi veya tanık yoluyla önceden tespit edilmesi (HMK m. 400)."
+   },
+   {
+    "term": "Hukuki yarar",
+    "definition": "Delil tespiti için aranan şart; delilin hemen tespit edilmemesi hâlinde kaybolacağı veya ileri sürülmesinin önemli ölçüde zorlaşacağı ihtimali (HMK m. 400/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "87",
+   "official_text": "Teminatın tutarı ve şekli\nMADDE 87- (1) Bir davada verilecek teminatın tutarını ve şeklini hâkim serbestçe tayin eder. Ancak, tarafların teminatın şeklini sözleşmeyle kararlaştırmaları hâlinde, teminat ona göre belirlenir.\n(2) Teminatı gerektiren durum ve koşullarda değişiklik olması hâlinde, hâkim teminatın azaltılması, artırılması, değiştirilmesi ya da kaldırılmasına karar verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "93",
+   "official_text": "Tatil günlerinin etkisiMADDE 93- (1) Resmî tatil günleri, süreye dâhildir. Sürenin son gününün resmî tatil gününe rastlaması hâlinde, süre tatili takip eden ilk iş günü çalışma saati sonunda biter.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "341",
+   "official_text": "MADDE 341- (1) (Değişik:22/7/2020-7251/34 md.) İlk derece mahkemelerinin aşağıdaki kararlarına karşı istinaf yoluna başvurulabilir:\na) Nihai kararlar.\nb) İhtiyati tedbir ve ihtiyati haciz taleplerinin reddi kararları, karşı tarafın yüzüne karşı verilen ihtiyati tedbir ve ihtiyati haciz kararları, karşı tarafın yokluğunda verilen ihtiyati tedbir ve ihtiyati haciz kararlarına karşı yapılan itiraz üzerine verilen kararlar.\n(2) Miktar veya değeri üç bin Türk Lirasını geçmeyen malvarlığı davalarına ilişkin kararlar kesindir. (Ek cümle: 24/11/2016-6763/41 md.) Ancak manevi tazminat davalarında verilen kararlara karşı, miktar veya değere bakılmaksızın istinaf yoluna başvurulabilir.[45]\n(3) Alacağın bir kısmının dava edilmiş olması durumunda üç bin Türk Liralık kesinlik sınırı alacağın tamamına göre belirlenir.\n(4) Alacağın tamamının dava edilmiş olması durumunda, kararda asıl talebinin kabul edilmeyen bölümü üç bin Türk Lirasını geçmeyen taraf, istinaf yoluna başvuramaz.\n(5) İlk derece mahkemelerinin diğer kanunlarda temyiz edilebileceği veya haklarında Yargıtaya başvurulabileceği belirtilmiş olup da bölge adliye mahkemelerinin görev alanına giren dava ve işlere ilişkin nihai kararlarına karşı, bölge adliye mahkemelerine başvurulabilir.\n[45] Anayasa Mahkemesi’nin 24/2/2022 tarihli ve E.:2021/34, K.:2022/21 sayılı Kararı ile bu fıkranın birinci cümlesi “kamulaştırma bedelinin tespitine ilişkin davalar” yönünden iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "362",
+   "official_text": "MADDE 362- (1) Bölge adliye mahkemelerinin aşağıdaki kararları hakkında temyiz yoluna başvurulamaz:\na) Miktar veya değeri kırk bin Türk Lirasını (bu tutar dâhil) geçmeyen davalara ilişkin kararlar.[57][58]\nb) Kira ilişkisinden doğan ve miktar veya değeri itibarıyla temyiz edilebilen alacak davaları ile kira ilişkisinden doğan diğer davalardan üç aylık kira tutarı temyiz sınırının üzerinde olanlar hariç olmak üzere 4 üncü maddede gösterilen davalar ile (23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan doğup taşınmazın aynına ilişkin olan davalar hariç) özel kanunlarda sulh hukuk mahkemesinin görevine girdiği belirtilen davalarla ilgili kararlar. [59][60]\nc) (Değişik:22/7/2020-7251/39 md.) Yargı çevresi içinde bulunan ilk derece mahkemelerinin görev ve yetkisi hakkında verilen kararlar ile yargı yeri belirlenmesine ilişkin kararlar.\nç) Çekişmesiz yargı işlerinde verilen kararlar.\nd) Soybağına ilişkin sonuçlar doğuran davalar hariç olmak üzere, nüfus kayıtlarının düzeltilmesine ilişkin davalarla ilgili kararlar.\ne) Yargı çevresi içindeki ilk derece mahkemeleri hâkimlerinin davayı görmeye hukuki veya fiilî engellerinin çıkması hâlinde, davanın o yargı çevresi içindeki başka bir mahkemeye nakline ilişkin kararlar.\nf) Geçici hukuki korumalar hakkında verilen kararlar.\ng) (Ek:22/7/2020-7251/39 md.) 353 üncü maddenin birinci fıkrasının (a) bendi kapsamında verilen kararlar.\n(2) Birinci fıkranın (a) bendindeki kararlarda alacağın bir kısmının dava edilmiş olması durumunda, kırk bin Türk Liralık kesinlik sınırı alacağın tamamına göre belirlenir. Alacağın tamamının dava edilmiş olması hâlinde, kararda asıl talebinin kabul edilmeyen bölümü kırk bin Türk Lirasını geçmeyen tarafın temyiz hakkı yoktur. Ancak, karşı taraf temyiz yoluna başvurduğu takdirde, diğer taraf da düzenleyeceği cevap dilekçesiyle kararı temyiz edebilir.\n(3) (Ek:16/7/2026-7589/25 md.) Bölge adliye mahkemesinin yaptığı inceleme sonucunda istinaf başvurusunun kısmen veya tamamen kabul edilerek yeniden esas hakkında verilen kararın kabul edilen ya da reddedilen kısmının, miktar veya değeri itibarıyla 341 inci maddenin ikinci fıkrasında düzenlenen parasal sınırın üzerinde olması halinde temyiz edilebilir. Şu kadar ki;\na) Miktar veya değeri itibarıyla birinci fıkrada belirtilen temyiz sınırının altında kalan bölge adliye mahkemesinin yeniden esas hakkında verdiği karar ile ilk derece mahkemesi kararı arasındaki farkın, miktar veya değeri itibarıyla 341 inci maddenin ikinci fıkrasında belirtilen parasal sınırı geçmemesi halinde bu karara karşı temyiz yoluna başvurulamaz.\nb) Miktar veya değeri itibarıyla birinci fıkrada belirtilen temyiz sınırının altında kalan bölge adliye mahkemesinin yeniden esas hakkında verdiği kararın, sadece yargılama gideri veya vekâlet ücretine ilişkin olması halinde bu karara karşı temyiz yoluna başvurulamaz.\n[57] Anayasa Mahkemesinin 8/10/2025 tarihli ve E.: 2025/124, K.: 2025/203 sayılı Kararı ile bu bent “kamulaştırma bedelinin tespitine ilişkin davalar” yönünden iptal edilmiştir. Bu Karar Resmî Gazete’de yayımlanmasından başlayarak dokuz ay sonra (20/10/2026) yürürlüğe girer.\n[58] Anayasa Mahkemesinin 26/2/2026 tarihli ve E.: 2026/49, K.: 2026/48 sayılı Kararı ile bu bent “istinaf başvurusunun kısmen veya tümden kabulü hali” yönünden iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "389",
+   "official_text": "İhtiyati tedbirin şartları\nMADDE 389- (1) Mevcut durumda meydana gelebilecek bir değişme nedeniyle hakkın elde edilmesinin önemli ölçüde zorlaşacağından ya da tamamen imkânsız hâle geleceğinden veya gecikme sebebiyle bir sakıncanın yahut ciddi bir zararın doğacağından endişe edilmesi hâllerinde, uyuşmazlık konusu hakkında ihtiyati tedbir kararı verilebilir.\n(2) Birinci fıkra hükmü niteliğine uygun düştüğü ölçüde çekişmesiz yargı işlerinde de uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "390",
+   "official_text": "MADDE 390- (1) İhtiyati tedbir, dava açılmadan önce, esas hakkında görevli ve yetkili olan mahkemeden; dava açıldıktan sonra ise ancak asıl davanın görüldüğü mahkemeden talep edilir.\n(2) Talep edenin haklarının derhâl korunmasında zorunluluk bulunan hâllerde, hâkim karşı tarafı dinlemeden de tedbire karar verebilir.\n(3) Tedbir talep eden taraf, dilekçesinde dayandığı ihtiyati tedbir sebebini ve türünü açıkça belirtmek ve davanın esası yönünden kendisinin haklılığını yaklaşık olarak ispat etmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "391",
+   "official_text": "İhtiyati tedbir kararı\nMADDE 391- (1) Mahkeme, tedbire konu olan mal veya hakkın muhafaza altına alınması veya bir yediemine tevdii ya da bir şeyin yapılması veya yapılmaması gibi, sakıncayı ortadan kaldıracak veya zararı engelleyecek her türlü tedbire karar verebilir.\n(2) İhtiyati tedbir kararında;\na) İhtiyati tedbir talep edenin, varsa kanuni temsilcisi ve vekilinin ve karşı tarafın adı, soyadı ve yerleşim yeri ile talep edenin Türkiye Cumhuriyeti kimlik numarası,\nb) Tedbirin, açık ve somut olarak hangi sebebe ve delillere dayandığı,\nc) Tereddüde yer vermeyecek şekilde, neyin üzerinde ve ne tür bir tedbire karar verildiği,\nç) Talepte bulunanın, ne tutarda ve ne türde bir teminat göstereceği,\nyazılır.\n(3) (Değişik:22/7/2020-7251/40 md.) İhtiyati tedbir talebinin reddi kararı gerekçeli olarak verilir ve bu karara karşı kanun yoluna başvurulabilir. Yüzüne karşı aleyhine ihtiyati tedbir kararı verilen taraf da kanun yoluna başvurabilir. Bu başvurular öncelikle incelenir ve kesin olarak karara bağlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "392",
+   "official_text": "MADDE 392- (1) İhtiyati tedbir talep eden, haksız çıktığı takdirde karşı tarafın ve üçüncü kişilerin bu yüzden uğrayacakları muhtemel zararlara karşılık teminat göstermek zorundadır. Talep, resmî belgeye, başkaca kesin bir delile dayanıyor yahut durum ve koşullar gerektiriyorsa, mahkeme gerekçesini açıkça belirtmek şartıyla teminat alınmamasına da karar verebilir. Adli yardımdan yararlanan kimsenin teminat göstermesi gerekmez.\n(2) Asıl davaya ilişkin hükmün kesinleşmesinden veya ihtiyati tedbir kararının kalkmasından itibaren bir ay içinde tazminat davasının açılmaması üzerine teminat iade edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "393",
+   "official_text": "İhtiyati tedbir kararının uygulanması\nMADDE 393- (1) İhtiyati tedbir kararının uygulanması, bu kararın, tedbir isteyen tarafa tefhim veya tebliğinden itibaren bir hafta içinde talep edilmek zorundadır. Aksi hâlde, kanuni süre içinde dava açılmış olsa dahi, tedbir kararı kendiliğinden kalkar.[66]\n(2) Tedbir kararının uygulanması, kararı veren mahkemenin yargı çevresinde bulunan veya tedbir konusu mal ya da hakkın bulunduğu yer icra dairesinden talep edilir. Mahkeme, kararında belirtmek suretiyle, tedbirin uygulanmasında, yazı işleri müdürünü de görevlendirebilir.\n(3) İhtiyati tedbir kararının uygulanması için, gerekirse zor kullanılabilir. Zor kullanmak hususunda, bütün kolluk kuvvetleri ve köylerde muhtarlar, uygulamayı gerçekleştirecek memurun yazılı başvurusu üzerine, kendisine yardım etmek ve emirlerine uymakla yükümlüdürler.\n(4) İhtiyati tedbiri uygulayan memur, bir tutanak düzenler. Bu tutanakta, tedbir konusu ve bulunduğu yer gösterilir; tedbir konusu ile ilgili her türlü iddia bu tutanağa geçirilir. Tedbiri uygulayan memur, bu tutanağın bir örneğini tedbir sırasında hazır bulunmayan taraflara ve duruma göre üçüncü kişiye tebliğ eder.\n(5) İhtiyati tedbir kararları hakkında kanun yoluna başvurulması hâlinde, tedbire ilişkin dosya ve delillerin sadece örnekleri ilgili mahkemeye gönderilir.\n[66] 22/7/2020 tarihli ve 7251 sayılı Kanunun 41 inci maddesiyle, bu fıkrada yer alan “verildiği tarihten” ibaresi “bu kararın, tedbir isteyen tarafa tefhim veya tebliğinden” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "394",
+   "official_text": "MADDE 394- (1) Karşı taraf dinlenmeden verilmiş olan ihtiyati tedbir kararlarına itiraz edilebilir. Aksine karar verilmedikçe, itiraz icrayı durdurmaz.\n(2) İhtiyati tedbirin uygulanması sırasında karşı taraf hazır bulunuyorsa, tedbirin uygulanmasından itibaren; hazır bulunmuyorsa tedbirin uygulanmasına ilişkin tutanağın tebliğinden itibaren bir hafta içinde, ihtiyati tedbirin şartlarına, mahkemenin yetkisine ve teminata ilişkin olarak, kararı veren mahkemeye itiraz edebilir. (Ek cümle:22/7/2020-7251/42 md.) Esas hakkında dava açıldıktan sonra, itiraz hakkında, bu davaya bakan mahkemece karar verilir.\n(3) İhtiyati tedbir kararının uygulanması sebebiyle menfaati açıkça ihlal edilen üçüncü kişiler de ihtiyati tedbiri öğrenmelerinden itibaren bir hafta içinde ihtiyati tedbirin şartlarına ve teminata itiraz edebilirler.\n(4) İtiraz dilekçeyle yapılır. İtiraz eden, itiraz sebeplerini açıkça göstermek ve itirazının dayanağı olan tüm delilleri dilekçesine eklemek zorundadır. Mahkeme, ilgilileri dinlemek üzere davet eder; gelmedikleri takdirde dosya üzerinden inceleme yaparak kararını verir. İtiraz üzerine mahkeme, tedbir kararını değiştirebilir veya kaldırabilir.\n(5) İtiraz hakkında verilen karara karşı, kanun yoluna başvurulabilir. Bu başvuru öncelikle incelenir ve kesin olarak karara bağlanır. Kanun yoluna başvurulmuş olması, tedbirin uygulanmasını durdurmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "395",
+   "official_text": "Teminat karşılığı tedbirin değiştirilmesi veya kaldırılması\nMADDE 395- (1) Aleyhine ihtiyati tedbir kararı verilen veya hakkında bu tedbir kararı uygulanan kişi, mahkemece kabul edilecek teminatı gösterirse, mahkeme, duruma göre tedbirin değiştirilmesine veya kaldırılmasına karar verebilir.\n(2) Teminatın tutarı, tedbirin değiştirilmesi veya kaldırılmasına göre; türü ise 87 nci maddeye göre tayin edilir.\n(3) İtiraza ilişkin 394 üncü maddenin üçüncü ve dördüncü fıkrası, kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "396",
+   "official_text": "MADDE 396- (1) Durum ve koşulların değiştiği sabit olursa, talep üzerine ihtiyati tedbirin değiştirilmesine veya kaldırılmasına teminat aranmaksızın karar verilebilir.\n(2) İtiraza ilişkin 394 üncü maddenin üçüncü ve dördüncü fıkrası, kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "397",
+   "official_text": "MADDE 397- (1) İhtiyati tedbir kararı dava açılmasından önce verilmişse, tedbir talep eden, bu kararın uygulanmasını talep ettiği tarihten itibaren iki hafta içinde esas hakkındaki davasını açmak ve dava açtığına ilişkin evrakı, kararı uygulayan memura ibrazla dosyaya koydurtmak ve karşılığında bir belge almak zorundadır. Aksi hâlde tedbir kendiliğinden kalkar.\n(2) İhtiyati tedbir kararının etkisi, aksi belirtilmediği takdirde, nihai kararın kesinleşmesine kadar devam eder.\n(3) Tedbir kalkmış veya kaldırılmış ise bu husus ilgili yerlere bildirilir.\n(4) İhtiyati tedbir dosyası, asıl dava dosyasının eki sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "398",
+   "official_text": "MADDE 398- (Değişik:22/7/2020-7251/43 md.)\n(1) İhtiyati tedbir kararının uygulanmasına ilişkin emre uymayan veya tedbir kararına aykırı davranan kimse, ihlalin öğrenildiği tarihten itibaren altı ay içinde şikâyet edilmesi üzerine, altı aya kadar disiplin hapsi ile cezalandırılır. Görevli ve yetkili mahkeme, esas hakkındaki dava henüz açılmamışsa, ihtiyati tedbir kararı veren mahkeme; esas hakkındaki dava açılmışsa, bu davanın görüldüğü mahkemedir.\n(2) Şikâyet olunana, şikâyet dilekçesi ile birlikte duruşma gün ve saatini bildiren davetiye gönderilir. Davetiyede, savunma ve delillerini duruşma gününe kadar bildirmesi ve duruşmaya gelmediği takdirde yargılamaya yokluğunda devam olunarak karar verileceği ihtar edilir.\n(3) Mahkeme duruşmaya gelen şikâyet olunana, 5271 sayılı Kanunun 147 nci maddesinde belirtilen haklarını hatırlatarak savunmasını alır.\n(4) Mahkeme, dosyadaki delilleri değerlendirerek gerekli araştırmayı yapar. Yargılama sonunda şikâyet olunanın ihtiyati tedbir kararının uygulanmasına ilişkin emre uymadığı veya tedbir kararına aykırı davrandığı tespit edilirse, birinci fıkra uyarınca disiplin hapsi ile cezalandırılmasına; aksi takdirde şikâyetin reddine karar verilir.\n(5) Taraflar, kararın (…)67 tebliğinden itibaren iki hafta içinde karara itiraz edebilir. İtirazı, o yerde hükmü veren mahkemenin birden fazla dairesinin bulunması hâlinde, numara olarak kendisinden sonra gelen daire; son numaralı daire için bir numaralı daire; o yerde hükmü veren mahkemenin tek dairesi bulunması hâlinde en yakın yerdeki aynı düzey ve sıfattaki mahkeme inceler.[67]\n(6) İtiraz merci, bir hafta içinde kararını verir. Merci, itirazı yerinde görürse işin esası hakkında karar verir. İtiraz üzerine verilen karar kesindir.\n(7) Bu madde uyarınca verilen disiplin hapsi kararları kesinleşmeden infaz edilemez. Kesinleşen kararların infazı Cumhuriyet başsavcılığınca yapılır.\n(8) Tedbir kararına aykırı davranışın sona ermesi veya tedbir kararının gereğinin yerine getirilmesi ya da şikâyetten vazgeçilmesi hâlinde, dava ve bütün sonuçlarıyla beraber ceza düşer.\n(9) Disiplin hapsine ilişkin karar, kesinleştiği tarihten itibaren iki yıl geçtikten sonra yerine getirilemez.\n[67] 2/3/2024 tarihli ve 7499 sayılı Kanunun 37 nci maddesi ile bu fıkrada yer alan “tefhim veya” ibaresi madde metninden çıkarılmış ve “bir hafta” ibaresi “iki hafta” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "399",
+   "official_text": "Tazminat\nMADDE 399- (1) Lehine ihtiyati tedbir kararı verilen taraf, ihtiyati tedbir talebinde bulunduğu anda haksız olduğu anlaşılır yahut tedbir kararı kendiliğinden kalkar ya da itiraz üzerine kaldırılır ise haksız ihtiyati tedbir nedeniyle uğranılan zararı tazminle yükümlüdür.\n(2) Haksız ihtiyati tedbirden kaynaklanan tazminat davası, esas hakkındaki davanın karara bağlandığı mahkemede açılır.\n(3) Tazminat davası açma hakkı, hükmün kesinleşmesinden veya ihtiyati tedbir kararının kalkmasından itibaren, bir yıl geçmesiyle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "400",
+   "official_text": "Delil tespitinin istenebileceği hâller\nMADDE 400- (1) Taraflardan her biri, görülmekte olan bir davada henüz inceleme sırası gelmemiş yahut ileride açacağı davada ileri süreceği bir vakıanın tespiti amacıyla keşif yapılması, bilirkişi incelemesi yaptırılması ya da tanık ifadelerinin alınması gibi işlemlerin yapılmasını talep edebilir.\n(2) Delil tespiti istenebilmesi için hukuki yararın varlığı gerekir. Kanunda açıkça öngörülen hâller dışında, delilin hemen tespit edilmemesi hâlinde kaybolacağı yahut ileri sürülmesinin önemli ölçüde zorlaşacağı ihtimal dâhilinde bulunuyorsa hukuki yarar var sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "401",
+   "official_text": "Görev ve yetki\nMADDE 401- (1) Henüz dava açılmamış olan hâllerde delil tespiti, esas hakkındaki davaya bakacak olan mahkemeden veya üzerinde keşif yahut bilirkişi incelemesi yapılacak olan şeyin bulunduğu veya tanık olarak dinlenilecek kişinin oturduğu yer sulh mahkemesinden istenir.\n(2) Noterlerin, 18/1/1972 tarihli ve 1512 sayılı Noterlik Kanunu uyarınca yapacağı vakıa tespitine ilişkin hükümler saklıdır.\n(3) Esas hakkında açılan davada, delil tespiti yapan mahkemenin yetkisiz ve görevsiz olduğu ileri sürülemez.\n(4) Dava açıldıktan sonra yapılan her türlü delil tespiti talebi hakkında sadece davanın görülmekte olduğu mahkeme yetkili ve görevlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "402",
+   "official_text": "Delil tespiti talebi ve karar\nMADDE 402- (1) Delil tespiti talebi dilekçeyle yapılır. Dilekçede tespiti istenen vakıa, tanıklara veya bilirkişilere sorulması istenen sorular, delillerin kaybolacağı veya gösterilmesinde zorlukla karşılaşılacağı kuşkusunu uyandıran sebepler ile aleyhine delil tespiti istenen kişinin ad, soyad ve adresi yer alır. Tespit talebinde bulunan, durum ve koşulların imkân vermemesi nedeniyle, aleyhine tespit yapılacak kişiyi gösteremiyorsa talebi geçerli sayılır.\n(2) Mahkeme tarafından belirlenen tespit giderleri avans olarak ödenmedikçe sonraki işlemler yapılmaz.\n(3) Tespit talebi mahkemece haklı bulunursa karar, dilekçeyle birlikte karşı tarafa tebliğ edilir. Kararda ayrıca, delil tespitinin nasıl ve ne zaman yapılacağı, tespitin icrası esnasında karşı tarafın da hazır bulunabileceği, varsa itiraz ve ilave soruların bir hafta içinde bildirilmesi gerektiği belirtilir.\n(4) (Ek:22/7/2020-7251/44 md.) Tespitin yapılmasından sonra, tespit tutanağı ve varsa bilirkişi raporunun bir örneği mahkemece karşı tarafa resen tebliğ olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "403",
+   "official_text": "Acele hâllerde tespit\nMADDE 403- (1) Talep sahibinin haklarının korunması bakımından zorunluluk bulunan hâllerde, karşı tarafa tebligat yapılmaksızın da delil tespiti yapılabilir. Tespitin yapılmasından sonra, tespit dilekçesi, tespit kararı, tespit tutanağı ve varsa bilirkişi raporunun bir örneği mahkemece kendiliğinden diğer tarafa tebliğ olunur. Karşı taraf tebliğden itibaren bir hafta içinde delil tespiti kararına itiraz edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "404",
+   "official_text": "Delil tespiti kararında uygulanacak hükümler\nMADDE 404- (1) Tespiti istenen vakıanın hangi delille tespit edileceğine karar verilmişse, bu kararın yerine getirilmesinde o delilin toplanmasına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "405",
+   "official_text": "Tutanak ve diğer belgeler\nMADDE 405- (1) Delil tespiti dosyası, asıl dava dosyasının eki sayılır ve onunla birleştirilir. Asıl davanın taraflarından her biri, iddia veya savunmasını ispat için bu tutanak ve raporlara dayanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "406",
+   "official_text": "Diğer geçici hukuki korumalar\nMADDE 406- (1) Mahkemece, gerekli hâllerde, mal veya haklarla ilgili defter tutulmasına ya da mühürleme işleminin yapılmasına karar verilebilir.\n(2) İhtiyati haciz, muhafaza tedbirleri ve geçici düzenleme niteliğindeki kararlar gibi geçici hukuki korumalara ilişkin diğer kanunlarda yer alan özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "426",
+   "official_text": "Dava tarihi\nMADDE 426- (1) Taraflar aksini kararlaştırmadıkça tahkim davası, hakemlerin seçimi için mahkemeye veya tarafların sözleşmesine göre hakem seçecek olan kişi, kurum veya kuruluşa başvurulduğu ve eğer sözleşmeye göre hakemlerin seçimi iki tarafa ait ise davacının hakemini seçip kendi hakemini seçmesini diğer tarafa bildirdiği; sözleşmede hakem veya hakem kurulunu oluşturan hakemlerin ad ve soyadları belirtilmiş ise uyuşmazlığın tahkim yoluyla çözülmesi talebinin karşı tarafça alındığı tarihte açılmış sayılır.\n(2) Taraflardan biri, mahkemeden ihtiyati tedbir veya ihtiyati haciz kararı almış ise iki hafta içinde tahkim davasını açmak zorundadır. Aksi hâlde ihtiyati tedbir veya ihtiyati haciz kendiliğinden ortadan kalkar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "257",
+   "official_text": "İhtiyati haciz şartları:[80]\nMadde 257 – Rehinle temin edilmemiş ve vadesi gelmiş bir para borcunun alacaklısı, borçlunun yedinde veya üçüncü şahısta olan taşınır ve taşınmaz mallarını ve alacaklariyle diğer haklarını ihtiyaten haczettirebilir.\nVadesi gelmemiş borçtan dolayı yalnız aşağıdaki hallerde ihtiyati haciz istenebilir:\n1 – Borçlunun muayyen yerleşim yeri yoksa;\n2 – Borçlu taahhütlerinden kurtulmak maksadiyle mallarını gizlemeğe, kaçırmağa veya kendisi kaçmağa hazırlanır yahut kaçar ya da bu maksatla alacaklının haklarını ihlâl eden hileli işlemlerde bulunursa;\nBu suretle ihtiyati haciz konulursa borç yalnız borçlu hakkında muacceliyet kesbeder.\n(Ek fıkra: 29/6/1956-6763/42 md.; Mülga dördüncü fıkra: 14/1/2011-6103/41 md.) (Ek fıkra: 29/6/1956-6763/42 md.; Mülga beşinci fıkra: 14/1/2011-6103/41 md.)\n[80] 17/7/2003 tarihli ve 4949 sayılı Kanunun 59 uncu maddesiyle madde başlığı “İhtiyatî haciz:” iken “İhtiyatî haciz şartları”; birinci fıkrasında yer alan “borcun” ibaresi, “para borcunun”; ikinci fıkrasının (2) numaralı bendinde yer alan “kaçarsa” ibaresi “kaçar ya da bu maksatla alacaklının haklarını ihlâl eden hileli işlemlerde bulunursa;” olarak değiştirilmiş metne işlenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "4. Hukuk Dairesi",
+   "esas_no": "2023/1250",
+   "karar_no": "2026/1303",
+   "decision_date": "10.02.2026",
+   "summary_md": "Davalılar, davacı ve bir kişi aleyhine muris muvazaası iddiasıyla tapu iptali ve tescil davası açmış, mahkeme 2011'de taşınmazlar üzerine ihtiyati tedbir koymuştur. Dava reddedilmiş ve karar 30.10.2018'de kesinleşmiştir. Davacı, tedbir yüzünden taşınmazları satıp dövize çeviremediğini ve kredi çekemediğini ileri sürerek maddi ve manevi tazminat istemiştir. İlk derece mahkemesi, soyut tanık beyanları dışında zararın ve illiyet bağının ispatlanamadığı gerekçesiyle davayı reddetmiştir. Bölge adliye mahkemesi, HMK m. 399 uyarınca haksız tedbirden doğan zararın kusursuz sorumluluk ilkesiyle istenebileceğini, bunun için asıl davanın reddedilip kesinleşmesinin, tedbirin icra edilmesinin ve zararın bulunmasının gerektiğini belirtmiş; taşınmazların bölgede değer kazandığını da gözeterek istinaf başvurusunu esastan reddetmiştir. Yargıtay 4. Hukuk Dairesi, bölge adliye mahkemesi kararını gerekçesiyle birlikte usul ve kanuna uygun bularak oy birliğiyle onamıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1206409800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2020/361",
+   "karar_no": "2022/787",
+   "decision_date": "31.05.2022",
+   "summary_md": "Kiralanan apartman tahliye edildikten iki gün sonra malikler sulh hukuk mahkemesinde delil tespiti yaptırmış, bilirkişi raporunda hor kullanımdan doğan bakım ve onarım bedeli 47.369 TL olarak belirlenmiştir. Malikler tazminat davası açmış; dava sürerken bina baştan yenilenmiştir. Yerel mahkeme tespit raporundaki tutarın tamamına hükmetmiş ve bozmaya direnmiştir. Hukuk Genel Kurulu, delil tespiti kurumunu açıklamış, bina yenilendiği için yeniden keşfin anlamlı olmayacağını, ancak tespitte belirlenen fiziki durum ve fotoğraflar üzerinden bilirkişi incelemesi yapılarak hasarlardan hangilerinin hor kullanıma, hangilerinin olağan kullanım ve yıpranmaya bağlı olduğunun denetime elverişli biçimde ayrıştırılması gerektiğini belirtmiş ve direnme kararını değişik gerekçeyle bozmuştur.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=794375900",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Aşağıdakilerden hangisi için ihtiyati tedbir (HMK m. 389) değil, ihtiyati haciz yoluna başvurulmalıdır?",
+   "options": [
+    "Vadesi gelmiş bir para borcunun tahsilinin güvence altına alınması",
+    "Dava konusu aracın yediemine teslim edilmesi",
+    "Dava konusu taşınmazın üçüncü kişiye devrinin önlenmesi",
+    "Bir şeyin yapılmaması yönünde geçici emir verilmesi"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Salt para alacağının güvencesi İİK m. 257'deki ihtiyati hacizdir. Diğer üç şık uyuşmazlık konusu mal veya hak üzerinde ya da yapma-yapmama yönünde tedbirdir (HMK m. 389, HMK m. 391/1)."
+  },
+  {
+   "stem_md": "Dava açılmadan önce ihtiyati tedbir hangi mahkemeden istenir?",
+   "options": [
+    "Tedbir konusu malın bulunduğu yer sulh hukuk mahkemesinden",
+    "Esas hakkında görevli ve yetkili mahkemeden",
+    "Davalının yerleşim yeri icra hukuk mahkemesinden",
+    "Herhangi bir asliye hukuk mahkemesinden"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 390/1 uyarınca dava açılmadan önce esas hakkında görevli ve yetkili mahkemeden, dava açıldıktan sonra ise ancak asıl davanın görüldüğü mahkemeden istenir. Sulh mahkemesi seçeneği delil tespiti için geçerlidir (HMK m. 401/1)."
+  },
+  {
+   "stem_md": "Mahkeme, karşı tarafın yüzüne karşı aleyhine ihtiyati tedbir kararı vermiştir. Karşı tarafın başvuracağı yol hangisidir?",
+   "options": [
+    "Kanun yoluna başvurulamaz",
+    "Doğrudan istinaf",
+    "Bir hafta içinde itiraz, ardından temyiz",
+    "Karar düzeltme"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 391/3 ve HMK m. 341/1-b uyarınca yüzüne karşı verilen tedbir kararına karşı doğrudan istinaf yoluna başvurulabilir. Yokluğunda verilen tedbirde ise önce itiraz gerekir (HMK m. 394). Bölge adliye mahkemesi kararı temyiz edilemez (HMK m. 362/1-f)."
+  },
+  {
+   "stem_md": "Tedbir kararı, tedbir isteyen tarafa 4 Mart'ta tebliğ edilmiştir. Uygulama hiç talep edilmezse sonuç ne olur?",
+   "options": [
+    "Tedbir, kanuni süre içinde dava açılmış olsa dahi kendiliğinden kalkar",
+    "Tedbir, dava açılmışsa devam eder",
+    "Tedbirin kalkması için karşı tarafın itirazı gerekir",
+    "Mahkeme uygulama süresini kendiliğinden uzatır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "HMK m. 393/1: uygulama, tefhim veya tebliğden itibaren bir hafta içinde istenmezse, kanuni süre içinde dava açılmış olsa bile tedbir kendiliğinden kalkar."
+  },
+  {
+   "stem_md": "Dava açılmadan önce verilen tedbirde esas dava ne zamana kadar açılmalıdır?",
+   "options": [
+    "Kararın verildiği tarihten itibaren iki hafta",
+    "Uygulamanın talep edildiği tarihten itibaren iki hafta",
+    "Kararın verildiği tarihten itibaren bir hafta",
+    "Uygulamanın talep edildiği tarihten itibaren bir ay"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 397/1: tedbir talep eden, uygulanmasını talep ettiği tarihten itibaren iki hafta içinde esas davasını açmak ve evrakı uygulayan memura ibraz ederek belge almak zorundadır; aksi hâlde tedbir kendiliğinden kalkar."
+  },
+  {
+   "stem_md": "Üçüncü kişi, kendi menfaatini açıkça ihlal eden bir ihtiyati tedbire itiraz etmek istemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Üçüncü kişinin itiraz hakkı yoktur",
+    "Tedbiri öğrenmesinden itibaren bir hafta içinde yalnız tedbirin şartlarına ve teminata itiraz edebilir",
+    "Tedbiri öğrenmesinden itibaren bir ay içinde mahkemenin yetkisine de itiraz edebilir",
+    "Yalnız yetkiye itiraz edebilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 394/3: menfaati açıkça ihlal edilen üçüncü kişiler tedbiri öğrenmelerinden itibaren bir hafta içinde ihtiyati tedbirin şartlarına ve teminata itiraz edebilir. Yetkiye itiraz sayılmamıştır; bu, karşı tarafa tanınan itiraz sebeplerinden farklıdır (HMK m. 394/2)."
+  },
+  {
+   "stem_md": "Teminat konusunda hangisi doğrudur?",
+   "options": [
+    "Adli yardımdan yararlanan kişi de teminat göstermek zorundadır",
+    "Teminat her durumda zorunludur",
+    "Resmî belgeye dayanan talepte mahkeme, gerekçesini açıkça belirterek teminat alınmamasına karar verebilir",
+    "Teminat yalnız karşı tarafın zararını karşılar, üçüncü kişileri kapsamaz"
+   ],
+   "correct_option": 2,
+   "explanation_md": "HMK m. 392/1: talep resmî belgeye veya başkaca kesin bir delile dayanıyorsa ya da durum gerektiriyorsa teminat alınmayabilir. Adli yardımdan yararlanan göstermez; teminat karşı tarafın ve üçüncü kişilerin zararına karşılıktır."
+  },
+  {
+   "stem_md": "Asıl davaya ilişkin hüküm kesinleşmiş ve tedbir sona ermiştir. Tazminat davası için bir ay içinde dava açılmazsa ne olur?",
+   "options": [
+    "Tazminat hakkı düşer",
+    "Teminat iade edilir",
+    "Teminat davalı lehine irat kaydedilir",
+    "Tedbir yeniden uygulanır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 392/2: hükmün kesinleşmesinden veya tedbirin kalkmasından itibaren bir ay içinde tazminat davası açılmazsa teminat iade edilir. Tazminat hakkı ise ayrı bir süreye, yani bir yıllık zamanaşımına tabidir (HMK m. 399/3)."
+  },
+  {
+   "stem_md": "Ali, tapu iptali davasını kaybetmiş ve karar kesinleşmiştir. Dava boyunca Ali'nin talebiyle uygulanan tedbir yüzünden Burak taşınmazını satamamış ve somut zarar görmüştür. Burak'ın tazminat davası bakımından hangisi doğrudur?",
+   "options": [
+    "Ali'nin kusurlu olduğunun ispatı zorunludur",
+    "Dava, taşınmazın bulunduğu yer sulh hukuk mahkemesinde açılır",
+    "Zamanaşımı hükmün kesinleşmesinden itibaren on yıldır",
+    "Dava, asıl davanın karara bağlandığı mahkemede açılır ve sorumluluk kusursuzdur"
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 399: haksız ihtiyati tedbirden doğan sorumluluk kusursuzdur; dava esas hakkındaki davanın karara bağlandığı mahkemede açılır ve hükmün kesinleşmesinden itibaren bir yıl geçmekle zamanaşımına uğrar. Somut zarar ve illiyet bağı ise Burak tarafından kanıtlanmalıdır."
+  },
+  {
+   "stem_md": "Tedbir kararına aykırı davranan kişi hakkında hangisi doğrudur?",
+   "options": [
+    "İhlalin öğrenilmesinden itibaren bir yıl içinde şikâyet edilebilir",
+    "İhlalin öğrenilmesinden itibaren altı ay içinde şikâyet üzerine altı aya kadar disiplin hapsi verilebilir",
+    "Re'sen soruşturma yapılır ve hapis cezası verilir",
+    "Yalnızca idari para cezası verilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 398/1: tedbire aykırı davranan, ihlalin öğrenildiği tarihten itibaren altı ay içinde şikâyet edilmesi üzerine altı aya kadar disiplin hapsi ile cezalandırılır. Karara itiraz süresi iki hafta (HMK m. 398/5)."
+  },
+  {
+   "stem_md": "Ayşe henüz dava açmadan, taşınmazdaki bir yapı kusurunun ileride kaybolma riski nedeniyle delil tespiti yaptırmak istemektedir. Hangi mahkemeye başvurabilir?",
+   "options": [
+    "Ancak icra hukuk mahkemesine",
+    "Esas davaya bakacak mahkemeye veya tespit konusu şeyin bulunduğu yer sulh mahkemesine",
+    "Yalnızca esas davaya bakacak mahkemeye",
+    "Yalnızca noterliğe"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 401/1: dava açılmamışsa esas davaya bakacak mahkemeden veya keşif ya da bilirkişi incelemesi yapılacak şeyin bulunduğu yer sulh mahkemesinden istenir. Dava açıldıktan sonra ise yalnız davanın görüldüğü mahkeme yetkilidir (HMK m. 401/4). Noter vakıa tespiti ayrıca saklıdır ama delil tespitinin mahkeme yolunu ortadan kaldırmaz (HMK m. 401/2)."
+  },
+  {
+   "stem_md": "Delil tespiti yapıldıktan sonra tespit tutanağı ve bilirkişi raporu için hangisi doğrudur?",
+   "options": [
+    "Rapor, karşı tarafa ancak talep sahibi isterse tebliğ edilir",
+    "Rapor yalnızca asıl dava açılınca incelenir, tebliğ gerekmez",
+    "Mahkemece karşı tarafa resen tebliğ edilir",
+    "Tespit tutanağı asıl davada delil olarak kullanılamaz"
+   ],
+   "correct_option": 2,
+   "explanation_md": "HMK m. 402/4 uyarınca tespitten sonra tutanak ve varsa bilirkişi raporunun örneği mahkemece karşı tarafa resen tebliğ olunur. Delil tespiti dosyası asıl dosyanın eki sayılır ve taraflar tutanak ve raporlara dayanabilir (HMK m. 405)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "A, B'ye karşı açacağı tapu iptali ve tescil davasından önce 02.05.2025 tarihinde asliye hukuk mahkemesinden ihtiyati tedbir talep etmiştir. Mahkeme, B'yi dinlemeden 05.05.2025 tarihinde teminat karşılığı ihtiyati tedbir kararı vermiş ve karar aynı gün A'nın vekiline tebliğ edilmiştir. A'nın vekili 08.05.2025 tarihinde tedbirin uygulanmasını talep etmiş, tedbir uygulanmış ve uygulama tutanağı, uygulama sırasında hazır bulunmayan B'ye 12.05.2025 tarihinde tebliğ edilmiştir. A, esas davayı 28.05.2025 tarihinde açmış ve dava açtığına ilişkin evrakı kararı uygulayan memura ibraz etmemiştir. Dava sonunda A'nın talebi reddedilmiş ve karar 10.03.2026 tarihinde kesinleşmiştir. B, tedbir süresince taşınmazını satamadığı için zarara uğradığını ileri sürmektedir.\n1. Tedbir kararının uygulanması bakımından A'nın uyduğu süre hangisidir?\n2. A'nın esas davayı açma yükümlülüğü yerine getirilmiş midir? Tedbirin akıbeti ne olur?\n3. B tedbire hangi yolla ve ne zamana kadar karşı çıkabilirdi?\n4. B tazminat isteyebilir mi? Nerede ve hangi süre içinde?",
+   "rubric": [
+    {
+     "point": "Uygulama talebinin kararın tebliğinden itibaren bir hafta içinde yapıldığı",
+     "weight": 15,
+     "madde_ref": "HMK m. 393/1"
+    },
+    {
+     "point": "Esas dava süresinin uygulama talep tarihinden (08.05.2025) başlayarak iki hafta olduğu ve 22.05.2025'te dolduğu",
+     "weight": 20,
+     "madde_ref": "HMK m. 397/1"
+    },
+    {
+     "point": "Süre içinde dava açılmadığı ve evrakın ibraz edilmediği için tedbirin kendiliğinden kalktığı",
+     "weight": 20,
+     "madde_ref": "HMK m. 397/1"
+    },
+    {
+     "point": "Yokluğunda verilen tedbire karşı tutanağın tebliğinden (12.05.2025) itibaren bir hafta içinde itiraz yolu; sebeplerin şart, yetki, teminat olduğu",
+     "weight": 20,
+     "madde_ref": "HMK m. 394/2"
+    },
+    {
+     "point": "Tedbir kendiliğinden kalktığından ve dava reddedildiğinden kusursuz sorumluluk esasıyla tazminat; esas davanın karara bağlandığı mahkemede dava; bir yıllık zamanaşımı",
+     "weight": 25,
+     "madde_ref": "HMK m. 399"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, dava açılmadan önce yoklukta verilen bir ihtiyati tedbirin uygulanması, tamamlayıcı işlemler, itiraz ve haksız tedbir tazminatı sorunlarını içerir.\n\n**Hukuki sorunlar:** (1) Uygulama talebi süresine uyuldu mu? (2) Esas dava süresi ve sonucu. (3) B'nin başvuru yolu. (4) Tazminat şartları, mahkeme ve süre.\n\n**İlgili hükümler:** HMK m. 393/1, HMK m. 397/1, HMK m. 394, HMK m. 399, HMK m. 390/2.\n\n**Değerlendirme:** Tedbir kararı 05.05.2025'te tedbir isteyen tarafa tebliğ edilmiş, uygulama 08.05.2025'te talep edilmiştir. HMK m. 393/1 uygulamanın tebliğden itibaren bir hafta içinde istenmesini arar; üç gün içinde istendiği için bu süreye uyulmuştur.\n\nTedbir dava açılmadan önce verildiğinden HMK m. 397/1 devreye girer. A, uygulamayı talep ettiği 08.05.2025 tarihinden itibaren iki hafta içinde, yani 22.05.2025'e kadar, hem esas davayı açmak hem de dava açtığına ilişkin evrakı uygulayan memura ibraz ederek dosyaya koydurtmak ve belge almak zorundaydı. A davayı 28.05.2025'te açmıştır; süre geçmiştir. Ayrıca evrakı ibraz da etmemiştir. Sonuç olarak tedbir kendiliğinden kalkmıştır; bunun için karşı tarafın itirazı gerekmez.\n\nB, tedbir kararı kendisi dinlenmeden verildiği için doğrudan istinaf yerine karar verene itiraz yolunu kullanabilirdi (HMK m. 394/1). Uygulama sırasında hazır bulunmadığı için bir haftalık süre uygulama tutanağının tebliğinden, yani 12.05.2025'ten başlar. Son gün olan 19.05.2025 resmî tatil olduğundan süre, tatili izleyen ilk iş günü olan 20.05.2025'te çalışma saati sonunda dolar (HMK m. 93). İtiraz sebepleri ihtiyati tedbirin şartları, mahkemenin yetkisi ve teminattır (HMK m. 394/2). İtiraz icrayı kendiliğinden durdurmaz.\n\nHMK m. 399/1 uyarınca tedbir kendiliğinden kalktığı ve ayrıca esas dava reddedildiği için tedbir lehtarı A, haksız tedbir nedeniyle B'nin uğradığı zararı tazmin etmekle yükümlüdür. Bu kusursuz sorumluluktur; B'nin somut zararını ve illiyet bağını kanıtlaması gerekir. Dava, esas hakkındaki davanın karara bağlandığı mahkemede açılır (HMK m. 399/2). Zamanaşımı hükmün kesinleşmesinden veya tedbirin kalkmasından itibaren bir yıldır (HMK m. 399/3). Burada iki olay vardır: tedbir 22.05.2025'te kendiliğinden kalkmıştır ve hüküm 10.03.2026'da kesinleşmiştir. Güvenli yol, süreyi tedbirin kalktığı tarihten başlatmak, yani en geç bir yıl içinde dava açmaktır. Ayrıca A teminat göstermişse, hükmün kesinleşmesinden veya tedbirin kalkmasından itibaren bir ay içinde tazminat davası açılmazsa teminat iade edilir (HMK m. 392/2); B bu nedenle bu süreyi de gözetmelidir.\n\n**Sonuç:** Uygulama süresine uyulmuş, esas dava süresine uyulmamıştır; tedbir kendiliğinden kalkmıştır. B itiraz süresini kaçırmamışsa itiraz edebilir; her hâlde kusursuz sorumluluk esasıyla asıl davanın karara bağlandığı mahkemede bir yıllık süre içinde tazminat isteyebilir."
+  },
+  {
+   "stem_md": "Kiracı K, kiralanan dükkânı 10.06.2025 tarihinde tahliye etmiştir. Malik M, tahliyeden hemen sonra dükkânın tamamen yeniden yapılacağını ve mevcut hasarın kanıtlanamayacağını belirterek, henüz dava açmadan, dükkânın bulunduğu yerdeki sulh hukuk mahkemesinden bilirkişi incelemesiyle hasar tespiti istemiştir. Mahkeme, karşı tarafa tebligat yapmadan, zorunluluk bulunduğu gerekçesiyle tespiti yaptırmıştır. Tespit tutanağı ve bilirkişi raporu daha sonra K'ya tebliğ edilmiştir. M, ardından tazminat davasını K'nın yerleşim yeri mahkemesinde açmış ve tespit dosyasındaki rapora dayanmıştır. K, tespiti yapan sulh hukuk mahkemesinin yetkisiz ve görevsiz olduğunu ileri sürmektedir.\n1. Delil tespiti için hukuki yarar var mıdır?\n2. M'nin sulh hukuk mahkemesine başvurması usule uygun mudur?\n3. Karşı tarafa tebligat yapılmadan tespit yapılabilir mi? K ne yapabilir?\n4. K'nın yetki ve görev itirazı ve tespit raporunun davadaki değeri.",
+   "rubric": [
+    {
+     "point": "Delilin hemen tespit edilmezse kaybolacağı ihtimali nedeniyle hukuki yararın varlığı",
+     "weight": 20,
+     "madde_ref": "HMK m. 400/2"
+    },
+    {
+     "point": "Dava açılmadan önce tespit yerindeki sulh mahkemesinden istenebileceği",
+     "weight": 20,
+     "madde_ref": "HMK m. 401/1"
+    },
+    {
+     "point": "Zorunluluk hâlinde karşı tarafa tebligat yapılmadan tespit; sonradan tebliğ ve tebliğden itibaren bir hafta içinde itiraz",
+     "weight": 25,
+     "madde_ref": "HMK m. 403"
+    },
+    {
+     "point": "Esas davada tespit yapan mahkemenin yetkisiz ve görevsiz olduğunun ileri sürülememesi",
+     "weight": 15,
+     "madde_ref": "HMK m. 401/3"
+    },
+    {
+     "point": "Delil tespiti dosyasının asıl dosyanın eki sayılması ve tarafların tutanak ve raporlara dayanabilmesi",
+     "weight": 20,
+     "madde_ref": "HMK m. 405"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, dava öncesi, karşı tarafa bildirim yapılmadan gerçekleştirilen bir delil tespitinin usulüne ve sonuçlarına ilişkindir.\n\n**Hukuki sorunlar:** Hukuki yarar; görevli ve yetkili mahkeme; acele hâlde tespit ve itiraz; sonradan açılan davada yetki itirazı ve tespit dosyasının değeri.\n\n**İlgili hükümler:** HMK m. 400, HMK m. 401, HMK m. 402, HMK m. 403, HMK m. 405.\n\n**Değerlendirme:** HMK m. 400/2'ye göre delilin hemen tespit edilmemesi hâlinde kaybolacağı veya ileri sürülmesinin önemli ölçüde zorlaşacağı ihtimal dâhilindeyse hukuki yarar var sayılır. Dükkânın tamamen yeniden yapılacak olması hasarın sonradan kanıtlanmasını imkânsızlaştıracağından M'nin hukuki yararı vardır.\n\nHenüz dava açılmamış olduğundan HMK m. 401/1 uyarınca delil tespiti esas davaya bakacak mahkemeden veya bilirkişi incelemesi yapılacak şeyin bulunduğu yer sulh mahkemesinden istenebilir. M'nin dükkânın bulunduğu yer sulh hukuk mahkemesine başvurması bu nedenle usule uygundur. Bu hâl, dava açıldıktan sonrası için geçerli değildir; o durumda yalnız davanın görüldüğü mahkeme yetkilidir (HMK m. 401/4).\n\nHMK m. 403 uyarınca talep sahibinin haklarının korunması bakımından zorunluluk varsa karşı tarafa tebligat yapılmadan da tespit yapılabilir. Tespitten sonra dilekçe, karar, tutanak ve varsa bilirkişi raporunun örneği mahkemece kendiliğinden karşı tarafa tebliğ edilir (HMK m. 402/4 ile birlikte). K, tebliğden itibaren bir hafta içinde delil tespiti kararına itiraz edebilir.\n\nEsas davada tespit yapan mahkemenin yetkisiz ve görevsiz olduğu ileri sürülemez (HMK m. 401/3). K'nın bu itirazı bu nedenle sonuçsuzdur. Delil tespiti dosyası asıl dava dosyasının eki sayılır ve onunla birleştirilir; taraflar iddia veya savunmalarını ispat için tutanak ve raporlara dayanabilir (HMK m. 405). Raporun delil değeri bununla sınırlıdır: hâkim, rapora yöneltilen itirazları ve kullanım ile hasar arasındaki ilişkiyi yine değerlendirir.\n\n**Sonuç:** Hukuki yarar vardır, sulh hukuk mahkemesine başvuru usule uygundur, tebligatsız tespit mümkündür, K'nın itiraz hakkı tebliğden itibaren bir haftadır. Yetki ve görev itirazı reddedilir; tespit dosyası asıl dosyaya eklenerek delil olarak kullanılır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "İhtiyati tedbir hangi tür uyuşmazlıkta verilir?",
+   "back_md": "Uyuşmazlık konusu mal veya hak hakkında; salt para alacağı için değil (HMK m. 389; para alacağında İİK m. 257 ihtiyati haciz)."
+  },
+  {
+   "front_md": "Tedbir talebinde ispat düzeyi nedir?",
+   "back_md": "Haklılığın yaklaşık olarak ispatı (HMK m. 390/3)."
+  },
+  {
+   "front_md": "Dava açıldıktan sonra tedbir hangi mahkemeden istenir?",
+   "back_md": "Ancak asıl davanın görüldüğü mahkemeden (HMK m. 390/1)."
+  },
+  {
+   "front_md": "Hangi tedbir kararlarına doğrudan istinaf vardır?",
+   "back_md": "Talebin reddine ve yüzüne karşı verilen tedbire; yokluğunda verilene önce itiraz (HMK m. 391/3, HMK m. 341/1-b)."
+  },
+  {
+   "front_md": "Tedbirin uygulanmasını talep süresi?",
+   "back_md": "Tedbir isteyene tefhim veya tebliğden itibaren bir hafta; aksi hâlde tedbir kendiliğinden kalkar (HMK m. 393/1)."
+  },
+  {
+   "front_md": "Dava öncesi tedbirde esas dava süresi?",
+   "back_md": "Uygulamayı talep tarihinden itibaren iki hafta; evrak ibraz edilip belge alınır (HMK m. 397/1)."
+  },
+  {
+   "front_md": "Tedbire itiraz süresi ve sebepleri?",
+   "back_md": "Bir hafta; sebepler tedbirin şartları, yetki ve teminat (HMK m. 394/2)."
+  },
+  {
+   "front_md": "Üçüncü kişi hangi itirazı yapabilir?",
+   "back_md": "Öğrenmeden itibaren bir hafta içinde yalnız tedbirin şartlarına ve teminata (HMK m. 394/3)."
+  },
+  {
+   "front_md": "Teminat ne zaman aranmayabilir?",
+   "back_md": "Resmî belge veya kesin delil ya da durum gerektiriyorsa gerekçeli olarak; adli yardımdan yararlanan göstermez (HMK m. 392/1)."
+  },
+  {
+   "front_md": "Haksız tedbir tazminatı: sorumluluk, mahkeme, süre?",
+   "back_md": "Kusursuz sorumluluk; esas davanın karara bağlandığı mahkeme; bir yıl zamanaşımı (HMK m. 399)."
+  },
+  {
+   "front_md": "Delil tespitinde hukuki yarar ne zaman var sayılır?",
+   "back_md": "Delil hemen tespit edilmezse kaybolacağı veya ileri sürülmesi önemli ölçüde zorlaşacağı ihtimal dâhilindeyse (HMK m. 400/2)."
+  },
+  {
+   "front_md": "Dava öncesi ve sonrası delil tespitinde mahkeme?",
+   "back_md": "Öncesi: esas mahkemesi veya yerdeki sulh mahkemesi; sonrası: yalnız davaya bakan mahkeme (HMK m. 401/1 ve HMK m. 401/4)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

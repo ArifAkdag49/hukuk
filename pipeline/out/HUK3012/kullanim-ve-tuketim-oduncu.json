@@ -1,0 +1,728 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: Ödünç ve Hizmet Sözleşmeleri",
+ "topic_index": 1,
+ "slug": "kullanim-ve-tuketim-oduncu",
+ "title": "Kullanım Ödüncü ve Tüketim Ödüncü",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:26:40.623506+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/tip-teshisi-ve-nitelendirme"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Birine bir şeyi \"borç\" vermek günlük hayatta tek kelimedir; hukukta ise iki ayrı sözleşmedir. Bir şeyi kullanıp **aynen geri vermek** kullanım ödüncüdür (TBK m. 379-385). Para ya da tüketilen bir şeyi alıp **aynı nitelik ve miktarda geri vermek** tüketim ödüncüdür (TBK m. 386-392).\n\n- **Kullanım ödüncü (ariyet, TBK m. 379):** Ödünç veren bir şeyin **karşılıksız** kullanılmasını ödünç alana bırakır, ödünç alan da kullandıktan sonra o şeyi geri verir. Karşılık kararlaştırılırsa sözleşme kira olur (TBK m. 299).\n- **Kullanma (TBK m. 380):** Ödünç alan şeyi sözleşmeye, yoksa niteliğine veya amacına göre kullanır; **başkasına kullandıramaz**. Bu kurallara aykırı davranırsa beklenmedik hâllerden doğan zarardan da sorumludur; kurallara uysa bile zararın doğacağını ispat ederse kurtulur.\n- **Giderler ve müteselsil sorumluluk:** Olağan bakım ve koruma giderleri ödünç alana aittir; ödünç verenin yararına yapılan olağanüstü giderleri ondan isteyebilir (TBK m. 381). Birlikte ödünç alanlar müteselsilen sorumludur (TBK m. 382).\n- **Sona erme:** Süre öngörülmemişse kullanma ya da kullanabilecek kadar zaman geçmesiyle sona erer; aykırı kullanma, bozma, üçüncü kişiye verme veya önceden bilinmeyen ivedi gereksinimde ödünç veren daha önce geri isteyebilir (TBK m. 383). Süre ve amaç belirlenmemişse **dilediği zaman** geri istenir (TBK m. 384). Ödünç alanın **ölümü** sözleşmeyi kendiliğinden sona erdirir (TBK m. 385).\n- **Tüketim ödüncü (karz, TBK m. 386):** Ödünç veren bir miktar parayı ya da tüketilebilen bir şeyi ödünç alana devretmeyi, ödünç alan **aynı nitelik ve miktarda** şeyi geri vermeyi üstlenir.\n- **Faiz (TBK m. 387-388):** Ticari olmayan tüketim ödüncünde faiz ancak kararlaştırılmışsa istenir; ticari tüketim ödüncünde kararlaştırılmamış olsa bile istenebilir. Oran yoksa ödünç alma zamanında ve yerinde geçerli oran, ödeme yılda bir yapılır. Faizin anaparaya eklenip yeniden faiz yürütülmesi kararlaştırılamaz.\n- 📌 **Zamanaşımı (TBK m. 389):** Ödünç konusunun **teslimine ve teslim alınmasına** ilişkin istemler, diğer tarafın temerrüdünden başlayarak **altı ayda** zamanaşımına uğrar. Verilen paranın iadesi ise genel on yıllık süreye tabidir (TBK m. 146).\n- **Ödeme güçsüzlüğü (TBK m. 390):** Ödünç alan sözleşmeden sonra (ya da önce, ama sonradan öğrenilirse) ödeme güçsüzlüğüne düşerse ödünç veren teslimden kaçınabilir.\n- **Para yerine mal (TBK m. 391):** Para yerine kıymetli evrak veya ticari mal verilirse borç, teslim zamanı ve yerindeki borsa veya piyasa değeriyle hesaplanır; aksi sözleşme geçersizdir.\n- 📌 **Geri verme zamanı (TBK m. 392):** Gün, bildirim süresi ya da istendiği anda muacceliyet kararlaştırılmamışsa ödünç alan, **ilk istemden başlayarak altı hafta** geçmedikçe geri vermekle yükümlü değildir.\n- 📌 **Yakın tarih:** TBK m. 379-392 değişmemiştir. Sözleşmede belirlenmemişse kanuni faiz, 3095 sayılı Kanun m. 1'e (16.7.2026 tarihli 7589 sayılı Kanunla değişik) göre Merkez Bankasının reeskont oranının yüzde sekseni üzerinden hesaplanır.",
+  "content_md": "## 0. Konunun haritası\n\nTürkçede \"borç verdim\" demek iki ayrı hukuki işlemi anlatabilir. Arkadaşına kitabını, aracını ya da arsanı kullanması için verirsin ve sonra **aynı şeyi** geri alırsın: bu **kullanım ödüncüdür**. Arkadaşına para ya da buğday verirsin ve **aynı miktar ve nitelikte** şeyi geri alırsın: bu **tüketim ödüncüdür**. TBK ikisini \"Ödünç Sözleşmeleri\" başlığı altında iki ayırımda toplar.\n\n| Ölçüt | Kullanım ödüncü | Tüketim ödüncü |\n|---|---|---|\n| Konu | Kullanılacak şey | Para veya tüketilebilen şey |\n| Geri verilen | Aynı şey | Aynı nitelik ve miktarda şey |\n| Ödünç alanın ölümü | Sona erer | Borç mirasçılara geçer |\n\nOlay sorusunda önce şunu sor: Verilen şey kullanıldıktan sonra **kendisi** mi geri dönecek, yoksa eşdeğeri mi? Sonra karşılık var mı diye bak.\n\n## 1. Kullanım ödüncü (TBK m. 379-385)\n\n### 1.1 Tanım ve nitelik (TBK m. 379)\n**Kullanım ödüncü sözleşmesi**, ödünç verenin bir şeyin **karşılıksız olarak** kullanılmasını ödünç alana bırakmayı ve ödünç alanın da o şeyi kullandıktan sonra geri vermeyi üstlendiği sözleşmedir (TBK m. 379). Üç noktaya dikkat:\n- Sözleşme **rızaidir**: Ödünç verenin kullandırma borcunu da doğurur.\n- **Karşılıksızlık** sözleşmenin unsurudur. Kullandırma karşılığında bedel kararlaştırılırsa artık kullanım ödüncü değil, kira (TBK m. 299) vardır.\n- Konu taşınır da taşınmaz da olabilir; mülkiyet geçmez, yalnız kullanma yetkisi geçer.\n\n> **Örnek:** Ali, boş duran dairesini kardeşi Ayşe'ye hiçbir bedel almadan oturması için bırakır. Bu, kullanım ödüncüdür. Ali aylık 10.000 TL isterse sözleşme kira olur ve kira hükümleri uygulanır.\n\n### 1.2 Ödünç alanın kullanma hakkı (TBK m. 380)\nÜç kural vardır:\n1. Ödünç alan şeyi **sözleşmede kararlaştırıldığı biçimde**, hüküm yoksa **niteliğine veya özgülendiği amaca** göre kullanır (TBK m. 380/1).\n2. Şeyi **başkasına kullandıramaz** (TBK m. 380/2).\n3. Bu kurallara aykırı davranırsa **beklenmedik hâllerden doğan zararlardan da sorumludur**. Ancak bu kurallara uymuş olsaydı bile zararın doğacağını ispat ederse sorumluluktan kurtulur (TBK m. 380/3).\n\nNormalde şey, rastlantıyla (yıldırım, deprem, hırsızlık gibi) zarar görürse bu riski malik taşır. Kural ihlal edilince risk ödünç alana kayar; bu yüzden ihlalin sonucu ağırdır.\n\n> **Örnek:** Mehmet, komşusundan traktör ödünç alır ve arkadaşı Ahmet'e kullandırır. Gece Ahmet'in bahçesinde yıldırım düşer ve traktör yanar. Mehmet, Ahmet'e vermese bile yıldırımın traktörü yakacağını ispat edemezse zarardan sorumludur.\n\n> ⚠️ **Sınavda dikkat:** Beklenmedik hâlden sorumluluk, yalnız **kurala aykırı davranış** varsa doğar. Kurala uygun kullanan ödünç alan, yıldırım ya da hırsızlık gibi bir olayda sorumlu olmaz.\n\n### 1.3 Giderler ve müteselsil sorumluluk (TBK m. 381-382)\nÖdünç alan, ödünç konusunun **olağan bakım ve koruma giderlerini** karşılar (TBK m. 381/1). Ödünç verenin yararına yapmak zorunda kaldığı **olağanüstü giderlerin** ödenmesini ise ondan isteyebilir (TBK m. 381/2). Ayrım ölçütü: şeyin olağan kullanımına bağlı gider ödünç alana, beklenmedik ve malikin yararına zorunlu gider ödünç verene aittir.\n\n> **Örnek:** Ödünç alınan aracın yakıtı, silecek ve olağan bakım masrafı ödünç alana aittir. Yolda aniden bozulan şanzımanın zorunlu onarımı ise malikin yararına yapılmış olağanüstü giderdir; ödünç alan bunu malikten isteyebilir.\n\nBir şeyi **birlikte ödünç alanlar** ondan **müteselsilen** sorumlu olur (TBK m. 382). Yani ödünç veren, zararını iki ödünç alandan herhangi birinden tamamen isteyebilir.\n\n### 1.4 Sona erme (TBK m. 383-385)\nKullanım ödüncünün sona erme biçimi, süre ve amacın belirlenip belirlenmediğine göre değişir.\n\n**Amacı belirlenmiş kullanma (TBK m. 383).** Kullanma için belirli bir süre öngörülmemişse sözleşme, ödünç alanın şeyi sözleşmeye uygun olarak **kullanmış olmasıyla** ya da **kullanabilecek kadar bir zaman geçmesiyle** sona erer (TBK m. 383/1). Ödünç veren ayrıca şunlarda şeyi **daha önce** geri isteyebilir (TBK m. 383/2):\n- ödünç alan şeyi sözleşmeye aykırı kullanır,\n- şeyi bozar,\n- şeyi kullanmak için başka birine verir,\n- önceden bilinmeyen bir durum yüzünden ödünç verenin **ivedi gereksinimi** ortaya çıkar.\n\n> **Örnek:** Zeynep, tadilat süresince kullanması için süre belirtmeden aracını kardeşine bırakır. Tadilat bitince araç geri verilir. Tadilat sürerken Zeynep'in önceden bilinmeyen bir hastane ihtiyacı doğarsa aracı daha önce geri isteyebilir.\n\n**Amacı belirlenmemiş kullanma (TBK m. 384).** Ödünç konusu, kullanım süresi ve hangi amaçla kullanılacağı belirlenmeden verilmişse ödünç veren onu **dilediği zaman** geri isteyebilir.\n\n**Ödünç alanın ölümü (TBK m. 385).** Kullanım ödüncü sözleşmesi ödünç alanın ölmesiyle **kendiliğinden sona erer**. Sözleşme ödünç alanın şahsına bağlıdır; mirasçılar kullanma hakkını devralmaz.\n\n### 1.5 Yargıtay'ın bedelsiz tahsis yaklaşımı\nUygulamada en çok karşılaşılan kullanım ödüncü, bir taşınmazın **bedelsiz** kullanıma bırakılmasıdır. Yargıtay'ın yerleşik yaklaşımına göre malik bedelsiz kullanıma muvafakat ettiği sürece kullanan kişi haksız işgalci sayılmaz ve ecrimisil ödemez. Malik ihtarla muvafakatini geri aldığını bildirdikten sonra (ihtarda süre verilmişse bu sürenin bitiminden sonra) taşınmaz boşaltılmazsa kullanım haksız işgale dönüşür ve ecrimisil istenebilir.\n\nBu yaklaşımın bir örneği: Bir taşınmaz, \"köye bir bina yapılıncaya kadar\" bir kuruma bedelsiz tahsis edilir. Yargıtay bunu kullanım ödüncü sayar. Amaç belirlenmiş ama süre belirlenmemiş olduğundan TBK m. 383/1 uygulanır; bina için makul zaman geçmişse ihtar ve dava ile muvafakatin geri alındığı kabul edilir.\n\n## 2. Tüketim ödüncü (TBK m. 386-392)\n\n### 2.1 Tanım (TBK m. 386)\n**Tüketim ödüncü sözleşmesi**, ödünç verenin bir miktar parayı ya da tüketilebilen bir şeyi ödünç alana **devretmeyi**, ödünç alanın da **aynı nitelik ve miktarda** şeyi geri vermeyi üstlendiği sözleşmedir (TBK m. 386). Özellikleri:\n- Konu **para veya tüketilebilen (misli) şeydir**: un, buğday, yakıt gibi.\n- Ödünç alan, şeyin **mülkiyetini** kazanır; kendisi tüketebilir. Bu yüzden aynı şeyi değil eşdeğerini geri verir.\n- Metin \"devretmeyi üstlendiği\" dediği için sözleşme rızaidir; teslim borcu ayrıca doğar (bkz. TBK m. 389).\n- Karşılıksız olabilir; faizle birlikte de yapılabilir (TBK m. 387).\n\n> **Örnek:** Ali, Mehmet'ten 10 çuval buğday ödünç alır ve hasattan sonra aynı nitelikte 10 çuval buğday geri verir. Aynı çuvalları değil, aynı nitelik ve miktardaki buğdayı geri verdiği için bu tüketim ödüncüdür. Kitap ödünç alıp aynı kitabı iade etse kullanım ödüncü olurdu.\n\n### 2.2 İspat: banka havalesi ve ortaklıktan dönen para\nPara kullanım ödüncü değil tüketim ödüncü konusudur. Yargıtay uygulamasında iki örnek öne çıkar:\n- **Dekont açıklaması.** Banka havalesinde açıklama yoksa mevcut bir borcun ödendiği karinesi geçerlidir. Dekontta açıkça \"borç olarak gönderilen\" yazıyorsa ve davalı parayı aldığını kabul edip başka bir sebebe dayanıyorsa, davacı tüketim ödüncünü ispatlamış sayılabilir. Buna karşılık başkasıyla yapılan bir iş için yalnız banka hesabı kullandırılmışsa hesap sahibiyle tüketim ödüncü kurulmuş olmaz.\n- **Ortaklıktan vazgeçme.** Ortak olmak amacıyla para verilmiş, sonra ortaklıktan vazgeçilmiş ve paranın zamanla iadesi kararlaştırılmışsa ilişki **tüketim ödüncüne** dönüşür. İade çizelgeleri yazılı bir cari hesap sözleşmesi olmadıkça cari hesap sayılmaz (TTK m. 89).\n\n### 2.3 Faiz (TBK m. 387-388)\n- **Ticari olmayan tüketim ödüncü:** Taraflarca kararlaştırılmış olmadıkça faiz istenemez (TBK m. 387/1).\n- **Ticari tüketim ödüncü:** Taraflarca kararlaştırılmamış olsa bile faiz istenebilir (TBK m. 387/2).\n- **Oran:** Belirlenmemişse kural olarak ödünç alma zamanında ve yerinde o tür ödünçlerde geçerli oran uygulanır (TBK m. 388/1).\n- **Ödeme:** Aksi kararlaştırılmamışsa faiz **yıllık olarak** ödenir (TBK m. 388/2).\n- **Bileşik faiz yasağı:** Faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi **kararlaştırılamaz** (TBK m. 388/3). Aynı yasak kanuni faiz ve temerrüt faizi için de geçerlidir (3095 sayılı Kanun m. 3). Ticari işlerde istisna vardır: Üç aydan aşağı olmamak üzere bileşik faiz şartı, yalnız cari hesaplarla her iki taraf bakımından ticari iş niteliğindeki ödünç sözleşmelerinde geçerlidir; sözleşenleri tacir olmayanlara uygulanmaz (TTK m. 8/2).\n\n> **Örnek:** Memur Ayşe, arkadaşı Zeynep'e faiz konuşmadan 100.000 TL ödünç verir. Ticari olmayan bir ödünç olduğundan Ayşe anapara faizi isteyemez. Zeynep geri ödemeyi geciktirirse temerrüt hâlinde temerrüt faizi ayrıca gündeme gelebilir (TBK m. 120). İki tacirin ticari faaliyetleri için yaptığı ödüncte ise faiz kararlaştırılmasa da faiz istenir.\n\n> 📌 **Kesin bilgi:** Sözleşmede belirlenmemişse kanuni faiz, 3095 sayılı Kanun m. 1'e göre yıllık olarak Merkez Bankasının önceki yılın 31 Aralık günü kısa vadeli kredi işlemlerinde uyguladığı reeskont oranının yüzde sekseni üzerinden hesaplanır. Bu hüküm 16.7.2026 tarihli 7589 sayılı Kanunla değiştirilmiştir.\n\n### 2.4 Zamanaşımı: teslim ve iade ayrımı (TBK m. 389)\nÖdünç alanın **ödünç konusunun teslimine**, ödünç verenin de **bu şeyin teslim alınmasına** ilişkin istemleri, diğer tarafın bu konuda temerrüde düşmesinden başlayarak **altı ayın geçmesiyle** zamanaşımına uğrar (TBK m. 389).\n\nBu kısa süre yalnız **ödüncün kurulması aşamasındaki** teslim ve teslim alma istemlerine uygulanır. Teslim edilmiş paranın **geri ödenmesi** istemi ise altı aylık süreye değil, kanunda aksine hüküm bulunmadığından on yıllık genel zamanaşımına tabidir (TBK m. 146).\n\n> **Örnek:** Veli, 1 Mart'ta yaptığı sözleşmeyle, teslim günü belirlemeden Ali'ye 1.000.000 TL vermeyi üstlenmiş ama vermemiştir. Ali, Veli'yi 1 Nisan'da noter ihtarıyla temerrüde düşürür. Ali'nin \"parayı ver\" istemi, temerrütten itibaren altı ayın geçmesiyle zamanaşımına uğrar. Para verilip Ali geri ödemezse Veli'nin iade istemi ise on yıllık süreye tabidir.\n\n### 2.5 Ödeme güçsüzlüğü (TBK m. 390)\nÖdünç alan, sözleşmenin kurulmasından **sonra** ödeme güçsüzlüğüne düşerse ödünç veren ödünç konusunun tesliminden kaçınabilir (TBK m. 390/1). Ödünç alan sözleşmeden **önce** ödeme güçsüzlüğüne düşmüş, ödünç veren bunu **daha sonra öğrenmişse** aynı hakka sahiptir (TBK m. 390/2). Bu, teslim borcunu korumaya yarayan bir savunmadır.\n\n### 2.6 Para yerine verilen şeyler (TBK m. 391)\nÖdünç alana sözleşmede kararlaştırılan para yerine kıymetli evrak veya ticari mallar verilirse borcun tutarı, bunların **teslim zamanı ve yerindeki borsa ya da piyasa değeri** üzerinden hesaplanır. Aksine yapılan sözleşme **geçersizdir** (TBK m. 391).\n\n> **Örnek:** Mehmet, Ahmet'e 400.000 TL ödünç vermeyi kabul eder ama nakit yerine ticari emtia teslim eder. Teslim günündeki piyasa değeri 320.000 TL'dir. Ahmet, \"Borç 400.000 TL'dir\" yazılı belgesini imzalasa bile bu kayıt geçersizdir; borç 320.000 TL üzerinden hesaplanır.\n\n### 2.7 Geri verme zamanı (TBK m. 392)\nGeri verme konusunda belirli bir gün, bildirim süresi ya da borcun geri istendiği anda muaccel olacağı kararlaştırılmamışsa ödünç alan, **ilk istemden başlayarak altı hafta** geçmedikçe ödüncü geri vermekle yükümlü değildir (TBK m. 392). Normal kural, borcun doğumu anında muaccel olmasıdır (TBK m. 90). TBK m. 392 ödünç alanı koruyan bir istisnadır.\n\nYargıtay 3. Hukuk Dairesi'nin uygulamasına göre bu süre bir muacceliyet şartıdır: Alacaklı takipten ya da davadan önce geri verme isteminde bulunmalı ve altı hafta beklemelidir. Bu görüş tartışmalıdır (bkz. doktrin bölümü).\n\n> ⚠️ **Sınavda dikkat:** Altı hafta, **ilk istemden** başlar; ödünç verildiği günden değil. Taraflar borcun geri istendiği anda muaccel olacağını kararlaştırmışsa altı hafta aranmaz.\n\n## 3. Karıştırılan kavramlar\n\n- **Kullanım ödüncü ile kira:** Karşılık var mı? Varsa kira (TBK m. 299), yoksa kullanım ödüncü (TBK m. 379).\n- **Kullanım ödüncü ile tüketim ödüncü:** Aynı şey mi geri verilir, aynı nitelik ve miktardaki şey mi?\n- **Ödünç alanın ölümü:** Kullanım ödüncü sona erer (TBK m. 385); tüketim ödüncünde ise ödünç alanın borcu, mirasçılara geçer. Mirasçılar mirasbırakanın borçlarından kişisel olarak sorumlu olur (TMK m. 599/2).\n- **Cari hesap:** Para ödünç verilmesi ve iadesi tablosu yazılı cari hesap sözleşmesi olmadıkça cari hesap değildir (TTK m. 89).\n- **TBK m. 389 ile TBK m. 146:** Teslim ve teslim alma istemi altı ay; verilen paranın iadesi on yıl.\n\n## 4. Denetim şeması\n\n1. **Nitelendirme:** Şey kullanılıp aynen mi iade edilecek (kullanım ödüncü), yoksa para veya misli şey mi devredildi (tüketim ödüncü)? Karşılık varsa kira mı?\n2. **Kullanım ödüncünde:** Kullanma biçimi (TBK m. 380/1); başkasına verme (TBK m. 380/2); beklenmedik hâl sorumluluğu (TBK m. 380/3); giderler (TBK m. 381); müteselsil sorumluluk (TBK m. 382).\n3. **Sona erme:** Süre var mı? Amaç var mı? (TBK m. 383-384). Ödünç alan öldü mü? (TBK m. 385)\n4. **Tüketim ödüncünde faiz:** Ticari mi, ticari olmayan mı, faiz kararlaştırılmış mı? Bileşik faiz şartı var mı? (TBK m. 387-388)\n5. **Zamanaşımı ve savunmalar:** Teslim istemi mi, iade istemi mi? (TBK m. 389, 146). Ödeme güçsüzlüğü var mı? (TBK m. 390)\n6. **Para yerine mal verilmiş mi?** (TBK m. 391)\n7. **Geri verme zamanı:** Vade ya da bildirim süresi var mı? Yoksa ilk istem ve altı hafta (TBK m. 392).",
+  "critical_md": "- 📌 Kullanım ödüncü **karşılıksızdır** (TBK m. 379). Kullandırma karşılığında bedel kararlaştırılırsa sözleşme kiradır (TBK m. 299).\n- ⚠️ Kullanım ödüncünde **aynı şey** geri verilir (TBK m. 379); tüketim ödüncünde **aynı nitelik ve miktarda** şey geri verilir (TBK m. 386).\n- 📌 Ödünç alan şeyi **başkasına kullandıramaz** (TBK m. 380/2). Aykırı davranırsa beklenmedik hâlden doğan zarardan da sorumludur; kurala uysa bile zararın doğacağını ispat ederse kurtulur (TBK m. 380/3).\n- 📌 **Olağan bakım ve koruma giderleri** ödünç alana, ödünç verenin yararına yapılan **olağanüstü giderler** ödünç verene aittir (TBK m. 381).\n- 📌 Birlikte ödünç alanlar **müteselsilen** sorumludur (TBK m. 382).\n- 📌 Süre öngörülmemişse kullanma veya kullanabilecek kadar zaman geçmesiyle sona erer (TBK m. 383/1). Aykırı kullanma, bozma, üçüncü kişiye verme veya önceden bilinmeyen **ivedi gereksinim** hâlinde ödünç veren şeyi daha önce geri isteyebilir (TBK m. 383/2).\n- 📌 Süre ve amaç belirlenmemişse (**prekarium**) ödünç veren şeyi **dilediği zaman** geri ister (TBK m. 384).\n- ⚠️ Kullanım ödüncü **ödünç alanın ölümüyle kendiliğinden** sona erer (TBK m. 385). Tüketim ödüncünde ise borç mirasçılara geçer (TMK m. 599/2).\n- 📌 **Ticari olmayan** tüketim ödüncünde faiz ancak kararlaştırılmışsa istenir; **ticari** tüketim ödüncünde kararlaştırılmamış olsa bile istenir (TBK m. 387).\n- ⚠️ Faizin anaparaya eklenip yeniden faiz yürütülmesi kararlaştırılamaz (TBK m. 388/3). İstisna yalnız cari hesaplarla her iki taraf bakımından ticari iş niteliğindeki ödünç sözleşmelerindedir; tacir olmayanlara uygulanmaz (TTK m. 8/2).\n- 📌 TBK m. 389: Teslim ve teslim alma istemleri, temerrütten başlayarak **altı ayda** zamanaşımına uğrar. Verilen paranın **iadesi** ise on yıllık zamanaşımına tabidir (TBK m. 146).\n- 📌 Ödünç alan sözleşmeden sonra (ya da önce olup sonradan öğrenilirse) **ödeme güçsüzlüğüne** düşerse ödünç veren teslimden kaçınabilir (TBK m. 390).\n- 📌 Para yerine kıymetli evrak veya ticari mal verilirse borç, **teslim zamanı ve yerindeki** piyasa değeriyle hesaplanır; aksi sözleşme geçersizdir (TBK m. 391).\n- 📌 Vade ya da bildirim süresi yoksa ödünç alan **ilk istemden başlayarak altı hafta** geçmedikçe geri vermekle yükümlü değildir (TBK m. 392).",
+  "doctrine_md": "### TBK m. 392'deki altı haftalık sürenin niteliği\nKanun, vadesiz tüketim ödüncünde ödünç alanın \"ilk istemden başlayarak altı hafta geçmedikçe\" geri vermekle yükümlü olmadığını söyler. Bu sürenin hukuki niteliği ve takip ya da davaya etkisi tartışmalıdır.\n\n- **Birinci görüş:** Altı haftalık süre yalnız temerrüdün ve faizin başlangıcını etkiler. İcra takibi ya da dava, \"ilk istem\" yerine geçebilir; ayrıca ihtar çekilmesi gerekmez.\n- **İkinci görüş ve Yargıtay'ın tutumu:** Altı hafta bir **muacceliyet şartıdır.** Alacaklı takipten ya da davadan önce geri verme isteminde bulunmalı ve altı hafta beklemelidir. Beklenmeden başlatılan takipte alacak muaccel olmadığından davacının hukuki yararı (HMK m. 114/1-h) yoktur ve itirazın iptali davası reddedilir.\n\nPratik sonuç büyüktür. Birinci görüşte takip tarihinde yapılmış istem yeterli olabilir; ikinci görüşte alacaklı yeni bir istemle yeniden takip yapmak zorunda kalır. Sınavda iki görüşü gerekçesiyle yaz ve olayda ilk istemin ne zaman yapıldığına bak.\n\n### Kullanım ödüncüyle tahsis edilen konutta aile konutu koruması\nMalik, oğlunun ve gelininin oturması için bir konutu bedelsiz tahsis etmişse bu ilişki kullanım ödüncüdür. Malik ihtarla muvafakatini geri aldığında gelin, aile konutu korumasına (TMK m. 194) dayanabilir mi?\n- **Yargıtay Hukuk Genel Kurulu çoğunluğu:** Malik ile eşler arasında aile konutu korumasını malike karşı ileri sürmeye yarayacak bir hukuki ilişki kurulmadığından gelin bu korumaya dayanamaz; muvafakat ihtarla geri alınınca ecrimisil gündeme gelir.\n- **Karşı oy ve karşı görüş:** Evlilik sürdükçe haksız işgal oluşmayacağı, durumun TBK m. 383/2 kapsamında değerlendirilmesi gerektiği savunulur.\n\nBu noktada çözüm tartışmalıdır; sınavda önce ilişkiyi kullanım ödüncü olarak nitelendir, sonra iki yaklaşımı ver.",
+  "glossary": [
+   {
+    "term": "Kullanım ödüncü (ariyet)",
+    "definition": "Ödünç verenin bir şeyin karşılıksız kullanılmasını ödünç alana bırakmayı, ödünç alanın da o şeyi kullandıktan sonra geri vermeyi üstlendiği sözleşme (TBK m. 379)."
+   },
+   {
+    "term": "Tüketim ödüncü (karz)",
+    "definition": "Ödünç verenin bir miktar parayı ya da tüketilebilen bir şeyi ödünç alana devretmeyi, ödünç alanın aynı nitelik ve miktarda şeyi geri vermeyi üstlendiği sözleşme (TBK m. 386)."
+   },
+   {
+    "term": "Ödünç veren",
+    "definition": "Şeyi kullandıran (kullanım ödüncünde) ya da parayı veya misli şeyi devreden (tüketim ödüncünde) taraf."
+   },
+   {
+    "term": "Ödünç alan",
+    "definition": "Şeyi kullanan ya da parayı veya misli şeyi alıp aynı nitelik ve miktarda geri veren taraf."
+   },
+   {
+    "term": "Misli (tüketilebilen) şey",
+    "definition": "Aynı cins ve miktarda başka şeyle yerine konabilen şey (para, buğday, yakıt gibi). Tüketim ödüncünün konusunu oluşturur."
+   },
+   {
+    "term": "Precarium",
+    "definition": "Kullanım süresi ve amacı belirlenmeden verilmiş ödünç; ödünç veren şeyi dilediği zaman geri isteyebilir (TBK m. 384)."
+   },
+   {
+    "term": "Beklenmedik hâl sorumluluğu",
+    "definition": "Ödünç alanın, kullanma kurallarına aykırı davranması durumunda tesadüfen doğan zarardan da sorumlu olması (TBK m. 380/3)."
+   },
+   {
+    "term": "Müteselsil sorumluluk",
+    "definition": "Birlikte ödünç alanların borcun tamamından ayrı ayrı sorumlu olması; alacaklı borcun tamamını dilediğinden isteyebilir (TBK m. 382)."
+   },
+   {
+    "term": "Bileşik (mürekkep) faiz",
+    "definition": "Faizin anaparaya eklenip yeniden faiz yürütülmesi. Tüketim ödüncünde kararlaştırılamaz (TBK m. 388/3; 3095 sayılı Kanun m. 3)."
+   },
+   {
+    "term": "Ticari tüketim ödüncü",
+    "definition": "Ticari iş niteliğindeki tüketim ödüncü. Faiz kararlaştırılmamış olsa bile istenebilir (TBK m. 387/2)."
+   },
+   {
+    "term": "Ödeme güçsüzlüğü",
+    "definition": "Ödünç alanın borçlarını ödeyemeyecek duruma düşmesi. Bu hâlde ödünç veren ödünç konusunun tesliminden kaçınabilir (TBK m. 390)."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Alacaklının borçludan ifayı isteyebileceği duruma gelmesi. Vadesiz tüketim ödüncünde ilk istemden altı hafta sonra gündeme gelir (TBK m. 392)."
+   },
+   {
+    "term": "Cari hesap sözleşmesi",
+    "definition": "İki kişinin alacaklarını ayrı ayrı istemekten vazgeçip kalem kalem hesaba yazdıkları ve kesilen hesaptan çıkan artanı isteyebildikleri yazılı sözleşme (TTK m. 89)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "379",
+   "official_text": "MADDE 379- Kullanım ödüncü sözleşmesi, ödünç verenin bir şeyin karşılıksız olarak kullanılmasını ödünç alana bırakmayı ve ödünç alanın da o şeyi kullandıktan sonra geri vermeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "380",
+   "official_text": "MADDE 380- Ödünç alan, ödünç konusunu ancak sözleşmede kararlaştırılan şekilde, sözleşmede hüküm yoksa niteliğine veya özgülendiği amaca göre kullanabilir.\nÖdünç alan, ödünç konusunu başkasına kullandıramaz.\nÖdünç alan, bu hükümlere aykırı davrandığı durumlarda, beklenmedik hâllerden doğan zararlardan da sorumludur. Ancak, bu hükümlere uymuş olsaydı bile zararın doğacağını ispat ederse sorumluluktan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "381",
+   "official_text": "MADDE 381- Ödünç alan, ödünç konusunun olağan bakım ve koruma giderlerini karşılamakla yükümlüdür.\nÖdünç alan, ödünç verenin yararına yapmak zorunda kaldığı olağanüstü giderlerin ödenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "382",
+   "official_text": "MADDE 382- Bir şeyi birlikte ödünç alanlar, ondan müteselsilen sorumlu olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "383",
+   "official_text": "MADDE 383- Kullanma için belirli bir süre öngörülmemişse, ödünç alanın, ödünç konusunu sözleşme uyarınca kullanmış olmasıyla veya kullanabilecek kadar bir zaman geçmesiyle sözleşme sona erer.\nÖdünç alan, ödünç konusunu sözleşmeye aykırı olarak kullanır, onu bozar veya kullanmak için başka bir kimseye verirse ya da önceden bilinmeyen bir durum yüzünden ödünç verenin ivedi gereksinimi ortaya çıkarsa, ödünç veren o şeyi daha önce geri isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "384",
+   "official_text": "MADDE 384- Ödünç konusu, kullanım süresi ve hangi amaçla kullanılacağı belirlenmeden verilmişse, ödünç veren onu dilediği zaman geri isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "385",
+   "official_text": "MADDE 385- Kullanım ödüncü sözleşmesi, ödünç alanın ölmesiyle kendiliğinden sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "386",
+   "official_text": "MADDE 386- Tüketim ödüncü sözleşmesi, ödünç verenin, bir miktar parayı ya da tüketilebilen bir şeyi ödünç alana devretmeyi, ödünç alanın da aynı nitelik ve miktarda şeyi geri vermeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "387",
+   "official_text": "MADDE 387- Ticari olmayan tüketim ödüncü sözleşmesinde, taraflarca kararlaştırılmış olmadıkça faiz istenemez.\nTicari tüketim ödüncü sözleşmesinde, taraflarca kararlaştırılmamış olsa bile faiz istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "388",
+   "official_text": "MADDE 388- Tüketim ödüncü sözleşmesinde faiz oranı belirlenmemişse, kural olarak ödünç alma zamanında ve yerinde o tür ödünçlerde geçerli olan faiz oranı uygulanır.\nSözleşmede aksine bir hüküm yoksa, belirlenen faiz, yıllık olarak ödenir.\nFaizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi kararlaştırılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "389",
+   "official_text": "MADDE 389- Ödünç alanın, ödünç konusunun teslimine ve ödünç verenin de bu şeyin teslim alınmasına ilişkin istemleri, diğer tarafın bu konuda temerrüde düşmesinden başlayarak altı ayın geçmesiyle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "390",
+   "official_text": "MADDE 390- Ödünç alan, ödünç sözleşmesinin kurulmasından sonra ödeme güçsüzlüğüne düşerse ödünç veren, ödünç konusunun tesliminden kaçınabilir.\nÖdünç veren, ödünç alanın sözleşmenin kurulmasından önce ödeme güçsüzlüğüne düşmüş olduğunu daha sonra öğrenmişse, aynı hakka sahiptir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "391",
+   "official_text": "MADDE 391- Ödünç alana, sözleşmede kararlaştırılan para yerine, kıymetli evrak veya ticari mallar verilirse, borcun tutarı, bunların teslim zamanı ve yerindeki borsa ya da piyasa değeri üzerinden hesaplanır; aksine yapılan sözleşme geçersizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "392",
+   "official_text": "MADDE 392- Ödüncün geri verilmesi konusunda belirli bir gün ya da bildirim süresi veya borcun geri istendiği anda muaccel olacağı kararlaştırılmamışsa ödünç alan, ilk istemden başlayarak altı hafta geçmedikçe ödüncü geri vermekle yükümlü değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "299",
+   "official_text": "MADDE 299- Kira sözleşmesi, kiraya verenin bir şeyin kullanılmasını veya kullanmayla birlikte ondan yararlanılmasını kiracıya bırakmayı, kiracının da buna karşılık kararlaştırılan kira bedelini ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "90",
+   "official_text": "MADDE 90- İfa zamanı taraflarca kararlaştırılmadıkça veya hukuki ilişkinin özelliğinden anlaşılmadıkça her borç, doğumu anında muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "117",
+   "official_text": "MADDE 117- Muaccel bir borcun borçlusu, alacaklının ihtarıyla temerrüde düşer.\nBorcun ifa edileceği gün, birlikte belirlenmiş veya sözleşmede saklı tutulan bir hakka dayanarak taraflardan biri usulüne uygun bir bildirimde bulunmak suretiyle belirlemişse, bu günün geçmesiyle; haksız fiilde fiilin işlendiği, sebepsiz zenginleşmede ise zenginleşmenin gerçekleştiği tarihte borçlu temerrüde düşmüş olur. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "120",
+   "official_text": "MADDE 120- Uygulanacak yıllık temerrüt faizi oranı, sözleşmede kararlaştırılmamışsa, faiz borcunun doğduğu tarihte yürürlükte olan mevzuat hükümlerine göre belirlenir.\nSözleşme ile kararlaştırılacak yıllık temerrüt faizi oranı, birinci fıkra uyarınca belirlenen yıllık faiz oranının yüzde yüz fazlasını aşamaz.\nAkdî faiz oranı kararlaştırılmakla birlikte sözleşmede temerrüt faizi kararlaştırılmamışsa ve yıllık akdî faiz oranı da birinci fıkrada belirtilen faiz oranından fazla ise, temerrüt faizi oranı hakkında akdî faiz oranı geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "194",
+   "official_text": "II. Aile konutu\nMadde 194- Eşlerden biri, diğer eşin açık rızası bulunmadıkça, aile konutu ile ilgili kira sözleşmesini feshedemez, aile konutunu devredemez veya aile konutu üzerindeki hakları sınırlayamaz.\nRızayı sağlayamayan veya haklı bir sebep olmadan kendisine rıza verilmeyen eş, hâkimin müdahalesini isteyebilir.\nAile konutu olarak özgülenen taşınmaz malın maliki olmayan eş, tapu kütüğüne konutla ilgili gerekli şerhin verilmesini tapu müdürlüğünden isteyebilir.[17]\nAile konutu eşlerden biri tarafından kira ile sağlanmışsa, sözleşmenin tarafı olmayan eş, kiralayana yapacağı bildirimle sözleşmenin tarafı hâline gelir ve bildirimde bulunan eş diğeri ile müteselsilen sorumlu olur.\nE. Birliğin korunması\n[17] 6/2/2014 tarihli ve 6518 sayılı Kanunun 44 üncü maddesiyle bu fıkrada yer alan “şerhin verilmesini” ibaresinden sonra gelmek üzere “tapu müdürlüğünden” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "599",
+   "official_text": "I. Mirasçılar tarafından\nMadde 599- Mirasçılar, mirasbırakanın ölümü ile mirası bir bütün olarak, kanun gereğince kazanırlar.\nKanunda öngörülen ayrık durumlar saklı kalmak üzere mirasçılar, mirasbırakanın aynî haklarını, alacaklarını, diğer malvarlığı haklarını, taşınır ve taşınmazlar üzerindeki zilyetliklerini doğrudan doğruya kazanırlar ve mirasbırakanın borçlarından kişisel olarak sorumlu olurlar.\nAtanmış mirasçılar da mirası, mirasbırakanın ölümü ile kazanırlar. Yasal mirasçılar, atanmış mirasçılara düşen mirası onlara zilyetlik hükümleri uyarınca teslim etmekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "8",
+   "official_text": "1. Oran serbestisi ve bileşik faizin şartları\nMADDE 8- (1) Ticari işlerde faiz oranı serbestçe belirlenir.\n(2) Üç aydan aşağı olmamak üzere, faizin anaparaya eklenerek birlikte tekrar faiz yürütülmesi şartı, yalnız cari hesaplarla her iki taraf bakımından da ticari iş niteliğinde olan ödünç sözleşmelerinde geçerlidir. Şu şartla ki, bu fıkra, sözleşenleri tacir olmayanlara uygulanmaz.\n(3) Tüketicinin korunmasına ilişkin hükümler saklıdır.\n(4) Bu maddenin ikinci ve üçüncü fıkralarına aykırı olarak işletilen faiz yok hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "89",
+   "official_text": "A) Tanım ve şekil\nMADDE 89- (1) İki kişinin herhangi bir hukuki sebep veya ilişkiden doğan alacaklarını teker teker ve ayrı ayrı istemekten karşılıklı olarak vazgeçip bunları kalem kalem alacak ve borç şekline çevirerek hesabın kesilmesinden sonra çıkacak artan tutarı isteyebileceklerine ilişkin sözleşme cari hesap sözleşmesidir.\n(2) Bu sözleşme yazılı yapılmadıkça geçerli olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "114",
+   "official_text": "Dava şartları\nMADDE 114- (1) Dava şartları şunlardır:\na) Türk mahkemelerinin yargı hakkının bulunması.\nb) Yargı yolunun caiz olması.\nc) Mahkemenin görevli olması.\nç) Yetkinin kesin olduğu hâllerde, mahkemenin yetkili bulunması.\nd) Tarafların, taraf ve dava ehliyetine sahip olmaları; kanuni temsilin söz konusu olduğu hâllerde, temsilcinin gerekli niteliğe sahip bulunması.\ne) Dava takip yetkisine sahip olunması.\nf) Vekil aracılığıyla takip edilen davalarda, vekilin davaya vekâlet ehliyetine sahip olması ve usulüne uygun düzenlenmiş bir vekâletnamesinin bulunması.\ng) Davacının yatırması gereken gider avansının yatırılmış olması.\nğ) Teminat gösterilmesine ilişkin kararın gereğinin yerine getirilmesi.\nh) Davacının, dava açmakta hukuki yararının bulunması.\nı) Aynı davanın, daha önceden açılmış ve hâlen görülmekte olmaması.\ni) Aynı davanın, daha önceden kesin hükme bağlanmamış olması.\n(2) Diğer kanunlarda yer alan dava şartlarına ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KANUNİ FAİZ VE TEMERRÜT FAİZİNE İLİŞKİN KANUN",
+   "law_no": "3095",
+   "article_no": "1",
+   "official_text": "Kanuni faiz\nMadde 1 – (Değişik:16/7/2026-7589/10 md.)\n11/1/2011 tarihli ve 6098 sayılı Türk Borçlar Kanunu ile 13/1/2011 tarihli ve 6102 sayılı Türk Ticaret Kanununa göre faiz ödenmesi gereken hallerde, miktarı sözleşme ile tespit edilmemişse bu ödeme yıllık, Türkiye Cumhuriyet Merkez Bankasının önceki yılın 31 Aralık günü kısa vadeli kredi işlemlerinde uyguladığı reeskont oranının yüzde sekseni üzerinden yapılır. Söz konusu reeskont oranı, 30 Haziran günü önceki yılın 31 Aralık günü uygulanan reeskont oranından beş puan veya daha çok farklı ise, yılın ikinci yarısında 30 Haziran günü belirlenen oranın yüzde sekseni geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3095&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KANUNİ FAİZ VE TEMERRÜT FAİZİNE İLİŞKİN KANUN",
+   "law_no": "3095",
+   "article_no": "3",
+   "official_text": "Mürekkep faiz\nMadde 3 – Kanuni faiz ve temerrüt faizi hesaplanırken mürekkep faiz yürütülemez.\nBu konuya ilişkin Türk Ticaret Kanunu hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3095&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/5195",
+   "karar_no": "2026/2141",
+   "decision_date": "14.04.2026",
+   "summary_md": "Davacı, davalıya banka kanalıyla \"borç olarak gönderilen\" açıklamasıyla para verdiğini, ayrıca onun adına vergi dairesine yapılandırma ödemesi yaptığını belirterek başlattığı icra takibine itirazın iptalini istedi. Davalı, paraların maden arama ruhsatının yarı payı için ortaklık kapsamında gönderildiğini savunup TBK m. 392 gereğince geri verme isteminde bulunulmadığını ve altı hafta beklenmediğini ileri sürdü. İlk derece mahkemesi itirazı kısmen iptal ve icra inkâr tazminatına karar verdi; bölge adliye mahkemesi istinafı reddetti. Yargıtay 3. Hukuk Dairesi, \"borç\" açıklamalı dekontlar yönünden iddianın ispatlandığını kabul etti. Ancak vadesiz ödüncün geri verilmesinde ilk istemden altı hafta geçmeden başlatılan takibin usule aykırı olduğunu, bu hükmün Dairenin uygulamasında muacceliyet şartı sayıldığını ve itirazın iptali davasının reddi gerektiğini belirterek bölge adliye mahkemesi kararını kaldırdı ve ilk derece mahkemesi kararını davalı yararına oy birliğiyle bozdu. Konuya katkısı: TBK m. 392'nin takip hukukuna yansımasını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1221631300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2022/1269",
+   "karar_no": "2023/1106",
+   "decision_date": "",
+   "summary_md": "Davacı, ortak olmak amacıyla davalıya iki günde toplam 500.000 TL karşılığı dövizi verdi; kısa süre sonra ortaklıktan vazgeçilince davalı bir kısmını iade etti. Kalan para için düzenlenen belgelerde borcun \"1-1,5 yıl sonra, imkânlar dâhilinde taksitlerle\" ödeneceği yazılıydı. Davacı ihtar çekmeden ilamsız icra takibi başlattı. İlk derece mahkemesi borç muaccel olmadığı için davayı reddetti; bölge adliye mahkemesi davayı kısmen kabul etti, Yargıtay 3. Hukuk Dairesinin bozmasına direndi. Hukuk Genel Kurulu, ortaklıktan vazgeçilip paranın zamanla iadesinde anlaşılmasıyla ilişkinin tüketim ödüncüne dönüştüğünü, yazılı cari hesap sözleşmesi bulunmadığından belgelerin cari hesap sayılamayacağını ve kesin vade belirlenmediği için takip tarihinde borcun muaccel olmadığını belirterek direnme kararını oy çokluğuyla bozdu. Konuya katkısı: Belirsiz vade ifadesinin muacceliyet üzerindeki etkisini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=984239700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2019/3110",
+   "karar_no": "2020/534",
+   "decision_date": "",
+   "summary_md": "Davacılar, murislerinden kalan bir taşınmazın muhtarlığa kiralandığını, taşınmazın bir idareye \"köye bir bina yapılıncaya kadar\" otomatik santral kurulması şartıyla ücretsiz tahsis edildiğini belirterek kira alacağı ve tahliye istedi; tahliye ihtarını 2017'de çektiler, davayı aynı yıl açtılar. İlk derece mahkemesi davayı kabul etti, bölge adliye mahkemesi ilişkiyi kullanım ödüncü sayıp davayı tümden reddetti. Yargıtay 3. Hukuk Dairesi kararı oy birliğiyle bozdu. Muhtarlıkla ilişkinin kira olduğunu kabul edip kira bedelinin yeniden araştırılmasını istedi. Tahsisi alan idare yönünden ise protokolün kullanım ödüncü sözleşmesi olduğunu belirtti: Amaç belirlenmiş ama süre belirlenmemiş, bina yapılması için makul zaman da geçmiş olduğundan ihtar ve dava ile muvafakatin geri alındığı kabul edilmeliydi. Konuya katkısı: Bedelsiz tahsisin kullanım ödüncü olduğunu ve TBK m. 383/1 ile TBK m. 384'ün uygulanışını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=582501700",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Ali, aracını arkadaşı Ayşe'ye aylık 5.000 TL karşılığında kullanması için bırakmıştır. Sözleşme nasıl nitelendirilir?",
+   "options": [
+    "Tüketim ödüncü; çünkü Ayşe parayı ödeyecektir",
+    "Kullanım ödüncü; karşılık kararlaştırılması sözleşmenin niteliğini değiştirmez",
+    "Kira sözleşmesi; kullanım ödüncü karşılıksız olduğundan karşılık kararlaştırılınca kira vardır (TBK m. 299)",
+    "Bağışlama sözleşmesi"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kullanım ödüncünde şeyin karşılıksız olarak kullanılması esastır (TBK m. 379). Kullandırma karşılığında bedel kararlaştırılırsa sözleşme kira sözleşmesidir (TBK m. 299). Tüketim ödüncü para veya misli şeyin devri ve eşdeğerinin iadesidir; aracın aynen iadesi söz konusu olduğundan tüketim ödüncü değildir."
+  },
+  {
+   "stem_md": "TBK m. 380'e göre kullanım ödüncünde ödünç alanın yapamayacağı davranış hangisidir?",
+   "options": [
+    "Şeyi sözleşmede kararlaştırılan amaçla kullanmak",
+    "Olağan bakım giderlerini karşılamak",
+    "Şeyi başkasına kullandırmak",
+    "Şeyi niteliğine uygun biçimde kullanmak"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ödünç alan, ödünç konusunu başkasına kullandıramaz (TBK m. 380/2). Diğer seçenekler ödünç alanın yapması gereken ya da yapabileceği davranışlardır (TBK m. 380/1 ve TBK m. 381/1)."
+  },
+  {
+   "stem_md": "Mehmet, komşusu Ali'den ücretsiz ödünç aldığı traktörü arkadaşı Ahmet'e kullandırmıştır. Gece Ahmet'in bahçesinde yıldırım düşmüş ve traktör yanmıştır. Mehmet'in sorumluluğu bakımından hangisi doğrudur?",
+   "options": [
+    "Yalnız Ahmet sorumludur",
+    "Mehmet sorumlu değildir; yıldırım beklenmedik bir hâldir",
+    "Mehmet ancak ağır kusuru varsa sorumludur",
+    "Mehmet, kurala aykırı davrandığı için beklenmedik hâlden doğan zarardan da sorumludur; yasağa uymuş olsaydı da zararın doğacağını ispat ederse kurtulur (TBK m. 380/3)"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Ödünç alan, ödünç konusunu başkasına kullandıramaz (TBK m. 380/2). Bu kurala aykırı davranırsa beklenmedik hâllerden doğan zararlardan da sorumludur; ancak kurallara uymuş olsaydı bile zararın doğacağını ispat ederse sorumluluktan kurtulur (TBK m. 380/3). Ağır kusur şartı aranmaz."
+  },
+  {
+   "stem_md": "Zeynep, ödünç aldığı otomobilin yakıtını almış, bir de yolda şanzımanı aniden bozulduğu için malikin yararına zorunlu bir onarım yaptırmıştır. Giderler bakımından hangisi doğrudur?",
+   "options": [
+    "Yakıt ve onarım Zeynep'e aittir; ödünç verenden bir şey isteyemez",
+    "Yakıt gibi olağan bakım giderleri ödünç alana aittir; ödünç verenin yararına zorunlu olarak yapılan olağanüstü gider ise ödünç verenden istenebilir (TBK m. 381)",
+    "Yakıt ödünç verene, onarım ödünç alana aittir",
+    "Yakıt ve onarım ödünç verene aittir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ödünç alan, ödünç konusunun olağan bakım ve koruma giderlerini karşılamakla yükümlüdür (TBK m. 381/1). Ödünç verenin yararına yapmak zorunda kaldığı olağanüstü giderlerin ödenmesini ise isteyebilir (TBK m. 381/2)."
+  },
+  {
+   "stem_md": "Bir fotoğraf makinesini birlikte ödünç alan iki arkadaştan biri makineyi kırarsa ödünç verenin durumu nedir?",
+   "options": [
+    "Her biri yarısından sorumludur",
+    "Ödünç alanlar şeyden müteselsilen sorumludur (TBK m. 382)",
+    "Yalnız makineyi kıran sorumludur",
+    "Ödünç veren zararını kendisi taşır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Bir şeyi birlikte ödünç alanlar ondan müteselsilen sorumlu olurlar (TBK m. 382). Ödünç veren zararın tamamını dilediğinden isteyebilir."
+  },
+  {
+   "stem_md": "Ali, traktörünü tarlasını sürmesi için komşusu Mehmet'e ücretsiz ve süre belirtmeden vermiştir. Mehmet tarlayı sürüp bitirmiştir. Sözleşmenin durumu nedir?",
+   "options": [
+    "Sözleşme Ali'nin fesih bildirimine kadar devam eder",
+    "Sözleşme ancak altı hafta sonra sona erer",
+    "Sözleşme ödünç alanın şeyi sözleşme uyarınca kullanmış olmasıyla sona erer (TBK m. 383/1)",
+    "Sözleşme kiraya dönüşür"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kullanma için belirli bir süre öngörülmemişse sözleşme, ödünç alanın ödünç konusunu sözleşme uyarınca kullanmış olmasıyla veya kullanabilecek kadar bir zaman geçmesiyle sona erer (TBK m. 383/1). Altı hafta kuralı tüketim ödüncüne aittir (TBK m. 392)."
+  },
+  {
+   "stem_md": "Zeynep, kardeşine tadilat süresince kullanması için süre belirtmeden aracını bırakmıştır. Tadilat sürerken Zeynep'in önceden bilinmeyen acil bir hastane ihtiyacı doğmuştur. Zeynep ne yapabilir?",
+   "options": [
+    "Aracı geri isteyemez; kullanım ödüncü ödünç alanı korur",
+    "Önceden bilinmeyen bir durum yüzünden ivedi gereksinimi ortaya çıktığı için aracı daha önce geri isteyebilir (TBK m. 383/2)",
+    "Tadilat bitene kadar bekleyip sonra isteyebilir",
+    "Ancak mahkeme kararıyla geri alabilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Önceden bilinmeyen bir durum yüzünden ödünç verenin ivedi gereksinimi ortaya çıkarsa ödünç veren o şeyi daha önce geri isteyebilir (TBK m. 383/2). Mahkeme kararı şartı kanunda yoktur."
+  },
+  {
+   "stem_md": "Bir arsayı komşusuna kullanım süresi ve amacı belirtmeden bırakan malik, arsayı ne zaman geri isteyebilir?",
+   "options": [
+    "Yalnız ödünç alan kullanıp bitirdikten sonra",
+    "Altı ay önceden bildirimle",
+    "Dilediği zaman (TBK m. 384)",
+    "Yalnız bir yıl sonra"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ödünç konusu, kullanım süresi ve hangi amaçla kullanılacağı belirlenmeden verilmişse ödünç veren onu dilediği zaman geri isteyebilir (TBK m. 384). Altı aylık süre bu sözleşmede aranmaz."
+  },
+  {
+   "stem_md": "Kullanım ödüncünde ödünç alan ölürse sözleşmenin durumu nedir?",
+   "options": [
+    "Sözleşme mirasçılarla devam eder",
+    "Sözleşme kendiliğinden sona erer (TBK m. 385)",
+    "Sözleşme kiraya dönüşür",
+    "Mirasçılar altı ay içinde fesih bildirimi yapmak zorundadır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kullanım ödüncü sözleşmesi, ödünç alanın ölmesiyle kendiliğinden sona erer (TBK m. 385). Altı aylık fesih süresi kiracının ölümüne ilişkin ürün kirası kuralıdır, ödünç hükmü değildir."
+  },
+  {
+   "stem_md": "Ali, Mehmet'ten 10 çuval buğday ödünç almış ve hasattan sonra aynı nitelikte 10 çuval buğday geri vermeyi üstlenmiştir. Bu sözleşme nedir?",
+   "options": [
+    "Kira sözleşmesi",
+    "Satış sözleşmesi",
+    "Tüketim ödüncü; aynı nitelik ve miktarda şey geri verilecektir (TBK m. 386)",
+    "Kullanım ödüncü; çünkü karşılık yoktur"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Tüketim ödüncü sözleşmesinde ödünç veren tüketilebilen bir şeyi ödünç alana devretmeyi, ödünç alan da aynı nitelik ve miktarda şeyi geri vermeyi üstlenir (TBK m. 386). Buğday tüketilebilen şeydir ve aynı çuvallar değil aynı nitelik ve miktar iade edilecektir."
+  },
+  {
+   "stem_md": "Memur Ayşe, arkadaşı Zeynep'e faiz konuşmadan 100.000 TL ödünç para vermiştir. Ödünç ticari değildir. Ayşe anapara faizi isteyebilir mi?",
+   "options": [
+    "Hayır; tüketim ödüncünde faiz hiçbir zaman kararlaştırılamaz",
+    "Hayır; ticari olmayan tüketim ödüncünde taraflarca kararlaştırılmış olmadıkça faiz istenemez (TBK m. 387/1)",
+    "Evet, ödünçte faiz her zaman istenir",
+    "Evet, yasal faiz otomatik işler"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ticari olmayan tüketim ödüncü sözleşmesinde, taraflarca kararlaştırılmış olmadıkça faiz istenemez (TBK m. 387/1). Faiz kararlaştırılabilir; yasak olan yalnız faizin anaparaya eklenip yeniden faiz yürütülmesidir (TBK m. 388/3)."
+  },
+  {
+   "stem_md": "X Ltd. Şti. ticari faaliyetinde kullanmak üzere Y Ltd. Şti.'ne ticari nitelikte ödünç para vermiş; faiz konusunda sözleşmede hiçbir hüküm bulunmamaktadır. X Ltd. Şti. faiz isteyebilir mi?",
+   "options": [
+    "Evet, ama yalnız bileşik faiz olarak",
+    "Hayır; ticari işlerde faiz yasaktır",
+    "Evet; ticari tüketim ödüncünde taraflarca kararlaştırılmamış olsa bile faiz istenebilir (TBK m. 387/2)",
+    "Hayır; faiz yalnız yazılı kararlaştırılırsa istenir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ticari tüketim ödüncü sözleşmesinde taraflarca kararlaştırılmamış olsa bile faiz istenebilir (TBK m. 387/2). Bileşik faiz ayrı bir konudur ve ancak TTK m. 8/2'nin şartları varsa geçerlidir."
+  },
+  {
+   "stem_md": "Tüketim ödüncü sözleşmesinde \"işleyen faiz anaparaya eklenir ve birlikte yeniden faiz yürütülür\" şartı kararlaştırılmıştır. Taraflar tacir değildir. Bu şartın durumu nedir?",
+   "options": [
+    "Faizin anaparaya eklenip birlikte yeniden faiz yürütülmesi kararlaştırılamaz; şart geçersizdir (TBK m. 388/3)",
+    "Yalnız ilk yıl için geçersizdir",
+    "Geçerlidir; taraflar sözleşme serbestisine sahiptir",
+    "Geçerlidir, ama üç ayda bir uygulanabilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi kararlaştırılamaz (TBK m. 388/3). Bileşik faiz şartı, yalnız cari hesaplarla her iki taraf bakımından ticari iş niteliğindeki ödünç sözleşmelerinde geçerlidir; sözleşenleri tacir olmayanlara uygulanmaz (TTK m. 8/2)."
+  },
+  {
+   "stem_md": "Veli, Ali'ye 1 Mart'ta ödünç para vermeyi üstlenmiş ama vermemiştir. Ali, Veli'yi temerrüde düşürdükten yedi ay sonra \"parayı ver\" diye dava açmıştır. TBK m. 389 bakımından durum nedir?",
+   "options": [
+    "Ödünç alanın ödünç konusunun teslimine ilişkin istemi, temerrütten başlayarak altı ayın geçmesiyle zamanaşımına uğramıştır (TBK m. 389)",
+    "Zamanaşımı iki yıldır",
+    "Teslim istemi zamanaşımına tabi değildir",
+    "Dava on yıllık süre içinde açıldığı için sorun yoktur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ödünç alanın ödünç konusunun teslimine ilişkin istemi, diğer tarafın bu konuda temerrüde düşmesinden başlayarak altı ayın geçmesiyle zamanaşımına uğrar (TBK m. 389). On yıllık süre, teslim edilmiş paranın iadesi istemine uygulanır (TBK m. 146)."
+  },
+  {
+   "stem_md": "Ali, Ayşe'ye ödünç para teslim etmiş, Ayşe iade etmemiştir. Ali, iade istemini üç yıl sonra dava etmek istemektedir. TBK m. 389'daki altı aylık süre bu iade istemine uygulanır mı?",
+   "options": [
+    "Hayır; iade istemi zamanaşımına tabi değildir",
+    "Evet, ödünç sözleşmelerinde tüm istemler altı ayda zamanaşımına uğrar",
+    "Hayır; altı ay yalnız teslim ve teslim alma istemlerine uygulanır, verilen paranın iadesi genel on yıllık süreye tabidir (TBK m. 146)",
+    "Evet, ama süre teslimden başlar"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 389 yalnız ödünç konusunun teslimine ve teslim alınmasına ilişkin istemleri kapsar. Teslim edilmiş ödüncün geri verilmesi istemi, kanunda aksine hüküm bulunmadığından on yıllık genel zamanaşımına tabidir (TBK m. 146)."
+  },
+  {
+   "stem_md": "Veli, 1 Şubat'ta Ahmet'e ödünç para vermeyi üstlenmiştir. Sözleşmeden sonra Ahmet'in ödeme güçsüzlüğüne düştüğü ortaya çıkmıştır. Veli ne yapabilir?",
+   "options": [
+    "Sözleşmeyi geçmişe etkili iptal edebilir",
+    "Ancak mahkeme kararıyla teslimden kaçınabilir",
+    "Ödünç konusunun tesliminden kaçınabilir (TBK m. 390/1)",
+    "Parayı vermek zorundadır; ödeme güçsüzlüğü önemli değildir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ödünç alan, ödünç sözleşmesinin kurulmasından sonra ödeme güçsüzlüğüne düşerse ödünç veren ödünç konusunun tesliminden kaçınabilir (TBK m. 390/1). Mahkeme kararı gerekmez."
+  },
+  {
+   "stem_md": "Mehmet, Ahmet'e 400.000 TL ödünç vermeyi kabul etmiş, nakit yerine ticari emtia teslim etmiştir. Emtianın teslim günündeki ve yerindeki piyasa değeri 320.000 TL'dir. Ahmet \"Borç 400.000 TL'dir\" yazılı belgesini imzalamıştır. Borcun tutarı nedir?",
+   "options": [
+    "320.000 TL; borç teslim zamanı ve yerindeki piyasa değeri üzerinden hesaplanır, aksine sözleşme geçersizdir (TBK m. 391)",
+    "Borç doğmaz",
+    "400.000 TL; yazılı belge bağlayıcıdır",
+    "360.000 TL; ortalama alınır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ödünç alana sözleşmede kararlaştırılan para yerine kıymetli evrak veya ticari mallar verilirse borcun tutarı, bunların teslim zamanı ve yerindeki borsa ya da piyasa değeri üzerinden hesaplanır; aksine yapılan sözleşme geçersizdir (TBK m. 391)."
+  },
+  {
+   "stem_md": "Mehmet, Ahmet'e vade veya bildirim süresi kararlaştırmadan 200.000 TL ödünç vermiştir. 15 Mayıs'ta parayı geri istemiş, Ahmet \"hemen vermek zorunda değilim\" demiştir. Bu durum hakkında hangisi doğrudur?",
+   "options": [
+    "Ahmet 15 Mayıs'ta ödemekle yükümlüdür, çünkü her borç doğduğu anda muaccel olur",
+    "Ahmet ancak ihtar tebliğinden bir yıl sonra ödemekle yükümlüdür",
+    "Ahmet yalnız faiz öder, anaparayı iade etmek zorunda değildir",
+    "Ahmet ilk istemden başlayarak altı hafta geçmedikçe geri vermekle yükümlü değildir (TBK m. 392)"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Geri verme konusunda belirli bir gün ya da bildirim süresi veya borcun geri istendiği anda muaccel olacağı kararlaştırılmamışsa ödünç alan, ilk istemden başlayarak altı hafta geçmedikçe ödüncü geri vermekle yükümlü değildir (TBK m. 392). Her borcun doğumunda muaccel olması genel kuraldır (TBK m. 90); TBK m. 392 bu kuralın tüketim ödüncü bakımından istisnasıdır."
+  },
+  {
+   "stem_md": "Kullanım ödüncü ile tüketim ödüncü arasında, ödünç alanın ölümü bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Kullanım ödüncü ölümle kendiliğinden sona erer (TBK m. 385); tüketim ödüncünde borç mirasçılara geçer",
+    "Tüketim ödüncü ölümle sona erer; kullanım ödüncü mirasçılarla devam eder",
+    "Hiçbiri ölümden etkilenmez",
+    "Her ikisi de ölümle kendiliğinden sona erer"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kullanım ödüncü sözleşmesi ödünç alanın ölmesiyle kendiliğinden sona erer (TBK m. 385). Tüketim ödüncünde ise geri verme borcu terekeye dahil olduğundan mirasçılar mirasbırakanın borçlarından kişisel olarak sorumlu olur (TMK m. 599/2)."
+  },
+  {
+   "stem_md": "Aşağıdaki işlemlerden hangisi **tüketim ödüncü değil**, kullanım ödüncüdür?",
+   "options": [
+    "Komşudan 10 kilo un alınıp aynı nitelikte 10 kilo unun iade edilmesi",
+    "Arkadaştan 50.000 TL borç alınıp aynı tutarın iade edilmesi",
+    "Bir şirketin ortağa para vermesi ve aynı tutarın geri alınması",
+    "Arkadaştan bir kitabın okunmak üzere alınıp aynı kitabın geri verilmesi"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kullanım ödüncünde ödünç alan şeyi kullandıktan sonra aynı şeyi geri verir (TBK m. 379). Kitap kullanılıp iade edilen bir şeydir. Para ve un tüketilebilen şeylerdir; aynı nitelik ve miktarda iade tüketim ödüncüne özgüdür (TBK m. 386)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, traktörünü tarlasını sürmesi için komşusu Mehmet'e ücretsiz olarak ödünç verir. Süre kararlaştırılmamıştır. Mehmet traktörün yakıtını kendisi alır ve olağan bakımını yaptırır. Daha sonra traktörü, tarlasını sürmesi için arkadaşı Ahmet'e kullandırır. Aynı gece Ahmet'in bahçesine yıldırım düşer ve traktör yanar. Mehmet, \"traktörü Ahmet'e vermesem de bir yıldırım olabilirdi\" diyerek sorumluluğu kabul etmez; ancak bunu kanıtlayacak bir delil sunamaz.\n\nAli, yıldırım olayından bir gün önce Mehmet'in traktörü Ahmet'e verdiğini öğrenir ve traktörü hemen geri istemek ister. Mehmet \"tarlam bitmedi, bende kalması gerekir\" diye itiraz eder.\n\nAyrıca traktörün şanzımanı yolda bozulmuş, Mehmet bunu acilen onartmak zorunda kalmıştır. Onarım Ali'nin yararınadır ve olağan kullanımın sonucu değildir.\n\n1. Ali ile Mehmet arasındaki sözleşme nasıl nitelendirilir?\n2. Mehmet'in traktörü Ahmet'e kullandırması nasıl değerlendirilir; yıldırım zararından kim sorumludur?\n3. Yakıt, olağan bakım ve şanzıman onarımı giderlerini kim karşılar?\n4. Ali, traktörü Mehmet'ten yanmadan önce geri isteyebilir miydi?\n5. Varsayım olarak Mehmet yıldırım olayından önce ölseydi sözleşmenin durumu ne olurdu?",
+   "rubric": [
+    {
+     "point": "Karşılıksız kullandırma nedeniyle sözleşmenin kullanım ödüncü olarak nitelendirilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 379"
+    },
+    {
+     "point": "Ödünç alanın şeyi başkasına kullandıramaması; Mehmet'in bu kurala aykırı davranması",
+     "weight": 15,
+     "madde_ref": "TBK m. 380"
+    },
+    {
+     "point": "Kurala aykırı davranan ödünç alanın beklenmedik hâlden doğan zarardan da sorumlu olması; zararın zaten doğacağını ispat edemediği için sorumluluktan kurtulamaması",
+     "weight": 25,
+     "madde_ref": "TBK m. 380"
+    },
+    {
+     "point": "Olağan bakım ve koruma giderlerinin ödünç alana, ödünç verenin yararına yapılan olağanüstü giderin ödünç verene ait olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 381"
+    },
+    {
+     "point": "Ödünç alanın şeyi başka birine kullanmak üzere vermesi hâlinde ödünç verenin şeyi daha önce geri isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 383"
+    },
+    {
+     "point": "Ödünç alanın ölümüyle sözleşmenin kendiliğinden sona ermesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 385"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali, traktörünü hiçbir karşılık almadan Mehmet'in kullanımına bırakmış, Mehmet de kullandıktan sonra aynı traktörü geri vermeyi üstlenmiştir. Bu, kullanım ödüncü sözleşmesidir (TBK m. 379). Karşılık kararlaştırılmadığı için kira (TBK m. 299) değildir; geri verilecek şey aynı traktör olduğu için tüketim ödüncü de değildir.\n\n**Hukuki sorunlar:** (1) Başkasına kullandırmanın sonucu ve beklenmedik hâlden doğan zarar; (2) giderlerin paylaşımı; (3) ödünç verenin erken geri isteme hakkı; (4) ödünç alanın ölümünün etkisi.\n\n**İlgili hükümler:** TBK m. 379, 380, 381, 383, 385.\n\n**Değerlendirme:**\n\n*1. Başkasına kullandırma.* Ödünç alan, ödünç konusunu başkasına kullandıramaz (TBK m. 380/2). Mehmet, traktörü Ahmet'e kullandırarak bu yasağa aykırı davranmıştır. Bu durumda ödünç alan, bu hükümlere aykırı davrandığından, beklenmedik hâllerden doğan zararlardan da sorumludur (TBK m. 380/3). Yıldırım, normalde malikin taşıyacağı bir risktir; fakat Mehmet'in aykırılığı bu riski kendisine kaydırmıştır. Mehmet ancak bu hükümlere uymuş olsaydı bile zararın doğacağını ispat ederek sorumluluktan kurtulabilirdi. Olayda Mehmet bunu ispat edememiştir; bu nedenle traktörün yanmasından sorumludur.\n\n*2. Giderler.* Ödünç alan, ödünç konusunun olağan bakım ve koruma giderlerini karşılamakla yükümlüdür (TBK m. 381/1). Yakıt ve olağan bakım bu kapsamdadır; Mehmet'e aittir. Şanzımanın bozulması ise malikin yararına yapılması zorunlu olan olağanüstü bir giderdir; ödünç alan bunun ödenmesini Ali'den isteyebilir (TBK m. 381/2).\n\n*3. Erken geri isteme.* Süre belirlenmemiş olduğundan sözleşme, Mehmet'in traktörü sözleşme uyarınca kullanmış olmasıyla veya kullanabilecek kadar bir zaman geçmesiyle sona ererdi (TBK m. 383/1). Ancak ödünç alan şeyi kullanmak için başka bir kimseye verirse ödünç veren o şeyi daha önce geri isteyebilir (TBK m. 383/2). Mehmet'in \"tarlam bitmedi\" itirazı bu nedenle sonuç doğurmaz; Ali traktörü geri isteyebilirdi.\n\n*4. Ölüm varsayımı.* Mehmet yıldırım olayından önce ölseydi kullanım ödüncü sözleşmesi ölümle kendiliğinden sona ererdi (TBK m. 385). Mirasçılar kullanma hakkını devralmaz; Ali traktörü geri alabilirdi.\n\n**Sonuç:** Sözleşme kullanım ödüncüdür. Mehmet traktörü Ahmet'e kullandırmakla TBK m. 380/2'ye aykırı davranmış, bu yüzden yıldırım zararından sorumludur; ispat edemediği için kurtulamaz. Yakıt ve olağan bakım Mehmet'e, şanzıman onarımı Ali'ye aittir. Ali traktörü erken geri isteyebilir. Mehmet ölseydi sözleşme kendiliğinden sona ererdi."
+  },
+  {
+   "stem_md": "Memur Mehmet, arkadaşı memur Ömer'e 10 Ocak 2025 tarihli sözleşmeyle 400.000 TL ödünç vermeyi kabul eder. Taraflar vade belirlememiş, yıllık yüzde yirmi faiz işleyeceğini ve işleyen faizin her üç ayda anaparaya eklenerek birlikte yeniden faiz yürütüleceğini kararlaştırmıştır. Ödünç para nakit olarak verilmez; Mehmet bunun yerine Ömer'e ticari emtia teslim eder. Emtianın teslim günündeki ve yerindeki piyasa değeri 320.000 TL'dir. Ömer yine de \"Borç 400.000 TL'dir\" yazılı belgesini imzalar.\n\nMehmet, 15 Mayıs 2025'te Ömer'den parayı geri ister. Aynı yıl 5 Haziran'da Ömer'e \"Neden ödemiyorsun?\" diyerek dava açacağını bildirir. Ömer, \"En az altı hafta geçmeden ödeme borcum yoktur\" diyerek ödemeyi reddeder.\n\n1. Taraflar arasındaki sözleşme nasıl nitelendirilir?\n2. Ömer'in borcu 400.000 TL mi, yoksa başka bir tutar mıdır?\n3. Faiz ve faizin anaparaya eklenmesi şartı geçerli midir?\n4. Ömer'in \"altı hafta\" savunması yerinde midir?",
+   "rubric": [
+    {
+     "point": "Para ve misli şeyin devri ile aynı nitelik ve miktarda iadesi nedeniyle sözleşmenin tüketim ödüncü olarak nitelendirilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 386"
+    },
+    {
+     "point": "Para yerine ticari mal verildiğinde borcun teslim zamanı ve yerindeki piyasa değeriyle hesaplanması; aksi sözleşmenin geçersizliği",
+     "weight": 25,
+     "madde_ref": "TBK m. 391"
+    },
+    {
+     "point": "Ticari olmayan tüketim ödüncünde faizin kararlaştırılmış olması nedeniyle istenebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 387"
+    },
+    {
+     "point": "Faizin anaparaya eklenerek yeniden faiz yürütülmesi şartının kararlaştırılamaması; taraflar tacir olmadığından ticari istisnanın uygulanmaması",
+     "weight": 25,
+     "madde_ref": "TBK m. 388"
+    },
+    {
+     "point": "Ticari istisnanın yalnız cari hesaplarla her iki tarafın ticari iş niteliğindeki ödünçlerinde geçerli olması ve tacir olmayanlara uygulanmaması",
+     "weight": 10,
+     "madde_ref": "TTK m. 8"
+    },
+    {
+     "point": "Vade ve bildirim süresi yokken ödünç alanın ilk istemden başlayarak altı hafta geçmedikçe geri vermekle yükümlü olmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 392"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Mehmet, bir miktar parayı Ömer'e devretmeyi, Ömer de aynı miktarda parayı geri vermeyi üstlenmiştir. Bu, tüketim ödüncü sözleşmesidir (TBK m. 386). Taraflar memur olduğundan ödünç ticari değildir.\n\n**Hukuki sorunlar:** (1) Para yerine mal verilmesinin sonucu; (2) faizin ve bileşik faiz şartının geçerliliği; (3) geri verme zamanı.\n\n**İlgili hükümler:** TBK m. 386, 387, 388, 391, 392; TTK m. 8/2.\n\n**Değerlendirme:**\n\n*1. Borcun tutarı.* Ödünç alana sözleşmede kararlaştırılan para yerine kıymetli evrak veya ticari mallar verilirse borcun tutarı, bunların teslim zamanı ve yerindeki borsa ya da piyasa değeri üzerinden hesaplanır; aksine yapılan sözleşme geçersizdir (TBK m. 391). Mehmet nakit yerine ticari emtia verdiğinden borç, emtianın teslim günündeki piyasa değeri olan 320.000 TL üzerinden hesaplanır. Ömer'in \"Borç 400.000 TL'dir\" yazılı belgesi aksine bir sözleşme niteliğindedir ve geçersizdir.\n\n*2. Faiz.* Ticari olmayan tüketim ödüncünde faiz, taraflarca kararlaştırılmışsa istenebilir (TBK m. 387/1). Burada yıllık yüzde yirmi faiz kararlaştırıldığından faiz geçerlidir. Faizin oranı belirlendiği için TBK m. 388/1'e başvurmak gerekmez. Aksine hüküm olmadığından faiz yıllık olarak ödenir (TBK m. 388/2).\n\n*3. Bileşik faiz şartı.* Faizin anaparaya eklenerek birlikte yeniden faiz yürütülmesi kararlaştırılamaz (TBK m. 388/3). Bu yasağın istisnası TTK m. 8/2'de vardır: Üç aydan aşağı olmamak üzere bileşik faiz şartı, yalnız cari hesaplarla her iki taraf bakımından da ticari iş niteliğinde olan ödünç sözleşmelerinde geçerlidir ve sözleşenleri tacir olmayanlara uygulanmaz. Mehmet ve Ömer memur olduğundan bu istisna işlemez; anaparaya eklenme şartı geçersizdir. Faiz yalnız basit faiz olarak yürür.\n\n*4. Geri verme zamanı.* Vade, bildirim süresi veya geri istendiği anda muacceliyet kararlaştırılmamıştır. Bu durumda ödünç alan, ilk istemden başlayarak altı hafta geçmedikçe ödüncü geri vermekle yükümlü değildir (TBK m. 392). Mehmet'in ilk istemi 15 Mayıs 2025'tir; 5 Haziran 2025'te ise yaklaşık üç hafta geçmiştir; altı hafta dolmamıştır. Ömer'in savunması bu nedenle yerindedir: Altı hafta dolmadan ödeme yükümlülüğü yoktur.\n\n**Sonuç:** Sözleşme tüketim ödüncüdür. Borç, teslim günündeki piyasa değeri olan 320.000 TL üzerinden hesaplanır. Basit faiz geçerlidir; bileşik faiz şartı geçersizdir. Altı hafta geçmeden Ömer'in geri verme yükümlülüğü doğmaz."
+  },
+  {
+   "stem_md": "Veli, 1 Şubat 2025 tarihli sözleşmeyle Ahmet'e 1.000.000 TL ödünç para vermeyi üstlenir; teslim için belirli bir gün kararlaştırılmamıştır. Veli parayı vermez. Ahmet, 1 Nisan 2025'te Veli'ye noter ihtarı göndererek onu temerrüde düşürür. Ahmet, 15 Ekim 2025'te Veli aleyhine \"ödünç parayı bana teslim et\" davası açar.\n\nBu arada 15 Şubat 2025'te Ahmet hakkında aciz vesikası düzenlenmiştir. Veli bunu sonradan öğrenmiştir.\n\nAyrıca Ayşe, 2020'de Zeynep'e ödünç 200.000 TL teslim etmiştir; Zeynep parayı iade etmemiş, Ayşe iade istemiyle 2026'da Zeynep aleyhine dava açmayı düşünmektedir.\n\n1. Ahmet'in Veli aleyhine açtığı teslim davasının zamanaşımı yönünden durumu nedir?\n2. Zamanaşımı dolmasaydı bile Veli'nin ödeme güçsüzlüğü nedeniyle bir savunması bulunur mu?\n3. Ayşe'nin Zeynep'ten iade istemi TBK m. 389'daki süreye tabi midir?",
+   "rubric": [
+    {
+     "point": "Ödünç alanın ödünç konusunun teslimine ilişkin isteminin diğer tarafın temerrüdünden başlayarak altı ayın geçmesiyle zamanaşımına uğraması",
+     "weight": 30,
+     "madde_ref": "TBK m. 389"
+    },
+    {
+     "point": "Süre başlangıcının temerrüt tarihi (1 Nisan 2025) olması ve 15 Ekim 2025'te altı ayın dolmuş bulunması",
+     "weight": 10,
+     "madde_ref": "TBK m. 389"
+    },
+    {
+     "point": "Ödünç alan sözleşmeden sonra ödeme güçsüzlüğüne düşerse ödünç verenin ödünç konusunun tesliminden kaçınabilmesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 390"
+    },
+    {
+     "point": "Ödeme güçsüzlüğünün sözleşmeden sonra ortaya çıkmış olması nedeniyle TBK m. 390/1'in uygulanması",
+     "weight": 10,
+     "madde_ref": "TBK m. 390"
+    },
+    {
+     "point": "Teslim edilmiş ödüncün iadesi isteminin altı aylık süreye değil on yıllık genel zamanaşımına tabi olması",
+     "weight": 25,
+     "madde_ref": "TBK m. 146"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Veli ile Ahmet arasındaki sözleşme, ödünç verenin bir miktar parayı devretmeyi üstlendiği tüketim ödüncü sözleşmesidir (TBK m. 386). Ayşe ve Zeynep arasında ise para teslim edilmiş ve iade borcu doğmuştur.\n\n**Hukuki sorunlar:** (1) Teslim isteminin zamanaşımı; (2) ödeme güçsüzlüğünün ödünç verene tanıdığı savunma; (3) teslim edilmiş paranın iade isteminin tabi olduğu zamanaşımı.\n\n**İlgili hükümler:** TBK m. 386, 389, 390, 117, 146.\n\n**Değerlendirme:**\n\n*1. Teslim isteminin zamanaşımı.* Ödünç alanın, ödünç konusunun teslimine ilişkin istemi, diğer tarafın bu konuda temerrüde düşmesinden başlayarak altı ayın geçmesiyle zamanaşımına uğrar (TBK m. 389). Teslim için belirli bir gün kararlaştırılmadığından Veli, muaccel teslim borcunun borçlusu olarak Ahmet'in 1 Nisan 2025 tarihli noter ihtarıyla temerrüde düşmüştür (TBK m. 117/1). Altı aylık süre bu temerrütten başlar ve 1 Ekim 2025'te dolar. Ahmet davayı 15 Ekim 2025'te açtığından teslim isteminin zamanaşımına uğradığı sonucuna varılır.\n\n*2. Ödeme güçsüzlüğü.* Ödünç alan, ödünç sözleşmesinin kurulmasından sonra ödeme güçsüzlüğüne düşerse ödünç veren ödünç konusunun tesliminden kaçınabilir (TBK m. 390/1). Ahmet hakkındaki aciz vesikası 15 Şubat 2025 tarihlidir; yani sözleşmenin kurulmasından (1 Şubat 2025) sonra düzenlenmiştir. Bu nedenle zamanaşımı dolmasaydı bile Veli, TBK m. 390/1 uyarınca teslimden kaçınabilirdi. Ödeme güçsüzlüğü sözleşmeden önce olup Veli sonradan öğrenmiş olsaydı da aynı hak doğardı (TBK m. 390/2).\n\n*3. İade isteminin zamanaşımı.* TBK m. 389'daki kısa süre, yalnız ödünç konusunun teslimine ve teslim alınmasına ilişkin istemler içindir. Ayşe'nin istemi ise teslim edilmiş paranın geri verilmesi istemidir. Kanunda aksine hüküm bulunmadığından bu istem on yıllık genel zamanaşımına tabidir (TBK m. 146). Ayşe'nin paranın teslimi 2020'de yapılmış olduğundan 2026'da dava açması bu süre içindedir ve altı aylık süre uygulanmaz.\n\n**Sonuç:** Ahmet'in teslim istemi, temerrütten itibaren altı ay geçtiği için zamanaşımına uğramıştır. Sürenin dolmaması hâlinde bile Veli, Ahmet sözleşmeden sonra ödeme güçsüzlüğüne düştüğü için teslimden kaçınabilirdi. Ayşe'nin iade istemi altı aylık süreye tabi olmayıp on yıllık genel zamanaşımına tabidir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Kullanım ödüncü nedir? (TBK m. 379)",
+   "back_md": "Ödünç verenin bir şeyin karşılıksız kullanılmasını ödünç alana bırakmayı, ödünç alanın da kullandıktan sonra o şeyi geri vermeyi üstlendiği sözleşme."
+  },
+  {
+   "front_md": "Kullandırma karşılığında bedel kararlaştırılırsa sözleşme ne olur?",
+   "back_md": "Kira sözleşmesi olur (TBK m. 299). Kullanım ödüncü karşılıksızdır."
+  },
+  {
+   "front_md": "Ödünç alan şeyi nasıl kullanır? (TBK m. 380/1)",
+   "back_md": "Sözleşmede kararlaştırılan biçimde; hüküm yoksa niteliğine veya özgülendiği amaca göre."
+  },
+  {
+   "front_md": "Ödünç alan şeyi başkasına kullandırabilir mi?",
+   "back_md": "Hayır (TBK m. 380/2). Aykırı davranırsa beklenmedik hâlden doğan zarardan da sorumludur; yasağa uymuş olsa bile zararın doğacağını ispat ederse kurtulur (TBK m. 380/3)."
+  },
+  {
+   "front_md": "Kullanım ödüncünde giderleri kim karşılar? (TBK m. 381)",
+   "back_md": "Olağan bakım ve koruma giderlerini ödünç alan; ödünç verenin yararına yapılan olağanüstü giderleri ise ödünç alan ondan isteyebilir."
+  },
+  {
+   "front_md": "Birlikte ödünç alanların sorumluluğu?",
+   "back_md": "Müteselsildir (TBK m. 382)."
+  },
+  {
+   "front_md": "Amacı belirlenmiş, süresi belirsiz kullanım ne zaman sona erer? (TBK m. 383/1)",
+   "back_md": "Ödünç alanın şeyi sözleşme uyarınca kullanmış olmasıyla veya kullanabilecek kadar zaman geçmesiyle."
+  },
+  {
+   "front_md": "Ödünç veren şeyi erken ne zaman geri isteyebilir? (TBK m. 383/2)",
+   "back_md": "Aykırı kullanma, bozma, üçüncü kişiye verme veya önceden bilinmeyen bir durum yüzünden ivedi gereksinim ortaya çıkarsa."
+  },
+  {
+   "front_md": "Süre ve amaç belirlenmemişse (precarium)?",
+   "back_md": "Ödünç veren şeyi dilediği zaman geri isteyebilir (TBK m. 384)."
+  },
+  {
+   "front_md": "Ödünç alanın ölümünün kullanım ödüncüne etkisi?",
+   "back_md": "Sözleşme kendiliğinden sona erer (TBK m. 385)."
+  },
+  {
+   "front_md": "Tüketim ödüncü nedir? (TBK m. 386)",
+   "back_md": "Ödünç verenin bir miktar parayı ya da tüketilebilen bir şeyi ödünç alana devretmeyi, ödünç alanın da aynı nitelik ve miktarda şeyi geri vermeyi üstlendiği sözleşme."
+  },
+  {
+   "front_md": "Ticari olmayan tüketim ödüncünde faiz istenebilir mi?",
+   "back_md": "Yalnız kararlaştırılmışsa (TBK m. 387/1). Ticari tüketim ödüncünde kararlaştırılmamış olsa bile istenebilir (TBK m. 387/2)."
+  },
+  {
+   "front_md": "Faiz oranı belirlenmemişse hangi oran uygulanır? (TBK m. 388/1)",
+   "back_md": "Kural olarak ödünç alma zamanında ve yerinde o tür ödünçlerde geçerli olan oran."
+  },
+  {
+   "front_md": "Faiz ne zaman ödenir? (TBK m. 388/2)",
+   "back_md": "Aksine hüküm yoksa yıllık olarak."
+  },
+  {
+   "front_md": "Bileşik faiz tüketim ödüncünde kararlaştırılabilir mi?",
+   "back_md": "Hayır (TBK m. 388/3). İstisna: cari hesaplarla her iki taraf bakımından ticari iş niteliğindeki ödünç sözleşmeleri; tacir olmayanlara uygulanmaz (TTK m. 8/2)."
+  },
+  {
+   "front_md": "TBK m. 389'daki zamanaşımı süresi ve kapsamı?",
+   "back_md": "Teslim ve teslim alma istemleri temerrütten başlayarak altı ayda zamanaşımına uğrar. Verilen paranın iadesi on yıllık genel süreye tabidir (TBK m. 146)."
+  },
+  {
+   "front_md": "Ödeme güçsüzlüğüne düşen ödünç alana karşı ödünç verenin hakkı?",
+   "back_md": "Ödünç konusunun tesliminden kaçınabilir; sözleşmeden önceki güçsüzlüğü sonradan öğrenirse de aynı hakka sahiptir (TBK m. 390)."
+  },
+  {
+   "front_md": "Para yerine ticari mal verilirse borç nasıl hesaplanır? (TBK m. 391)",
+   "back_md": "Teslim zamanı ve yerindeki borsa veya piyasa değeri üzerinden; aksine sözleşme geçersizdir."
+  },
+  {
+   "front_md": "Vadesiz tüketim ödüncünde geri verme zamanı? (TBK m. 392)",
+   "back_md": "Vade veya bildirim süresi kararlaştırılmamışsa ödünç alan ilk istemden başlayarak altı hafta geçmedikçe geri vermekle yükümlü değildir."
+  },
+  {
+   "front_md": "Tüketim ödüncünde ödünç alan ölürse?",
+   "back_md": "Sözleşme sona ermez; geri verme borcu mirasçılara geçer (TMK m. 599/2)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

@@ -1,0 +1,162 @@
+# HUK3011 Eşya Hukuku — TMK Dördüncü Kitap (m. 683-1027) ve 634 sayılı Kat Mülkiyeti Kanunu.
+# Elle (Claude Code'da) kuruldu: konu sınırları resmî madde başlıklarına göre
+# (python -X utf8 -m pipeline.arastir basliklar TMK 683 1027). Sıra: giriş ve zilyetlik,
+# tapu sicili, mülkiyet genel, taşınmaz mülkiyeti, taşınır mülkiyeti, irtifaklar,
+# rehin hakları, kat mülkiyeti.
+units:
+- title: 'Ünite 1: Eşya Hukukuna Giriş ve Zilyetlik'
+  topics:
+  - slug: esya-hukukuna-giris-ve-ilkeler
+    title: Eşya Hukukuna Giriş, Ayni Hak Kavramı ve Eşya Hukukunun İlkeleri
+    maddeler: [{kanun: TMK, madde: '683'}, {kanun: TMK, madde: '1020'}, {kanun: TMK, madde: '1022'}, {kanun: TMK, madde: '1023'}, {kanun: TMK, madde: '3'}]
+    ictihat_sorgulari: [ayni hak şahsi hak ayrımı, tapu siciline güven ilkesi iyiniyet]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: zilyetlik-kavrami-turleri-ve-devri
+    title: 'Zilyetlik: Kavram, Türler (Aslî-Fer''î, Dolaylı-Dolaysız) ve Zilyetliğin Devri'
+    maddeler: [{kanun: TMK, madde: '973'}, {kanun: TMK, madde: '974'}, {kanun: TMK, madde: '975'}, {kanun: TMK, madde: '976'}, {kanun: TMK, madde: '977'}, {kanun: TMK, madde: '978'}, {kanun: TMK, madde: '979'}, {kanun: TMK, madde: '980'}]
+    ictihat_sorgulari: [zilyetliğin devri teslim, hükmen teslim zilyetlik]
+    beceri: zilyetlik-ve-korunmasi
+  - slug: zilyetligin-korunmasi-ve-hak-karineleri
+    title: Zilyetliğin Korunması (Savunma, Gasp ve Saldırı Davaları) ve Hak Karineleri
+    maddeler: [{kanun: TMK, madde: '981'}, {kanun: TMK, madde: '982'}, {kanun: TMK, madde: '983'}, {kanun: TMK, madde: '984'}, {kanun: TMK, madde: '985'}, {kanun: TMK, madde: '986'}, {kanun: TMK, madde: '987'}, {kanun: TMK, madde: '992'}]
+    ictihat_sorgulari: [zilyetliğin korunması davası gasp, zilyetlik davası hak düşürücü süre]
+    beceri: zilyetlik-ve-korunmasi
+  - slug: iyiniyetli-kazanim-ve-zilyetin-iade-borcu
+    title: Taşınırlarda İyiniyetli Kazanım ve Zilyetin İade Borcu ile Sorumluluğu
+    maddeler: [{kanun: TMK, madde: '988'}, {kanun: TMK, madde: '989'}, {kanun: TMK, madde: '990'}, {kanun: TMK, madde: '991'}, {kanun: TMK, madde: '993'}, {kanun: TMK, madde: '994'}, {kanun: TMK, madde: '995'}, {kanun: TMK, madde: '996'}]
+    ictihat_sorgulari: [emin sıfatıyla zilyet iyiniyetli kazanım, çalınan eşya geri isteme beş yıl]
+    beceri: zilyetlik-ve-korunmasi
+- title: 'Ünite 2: Tapu Sicili'
+  topics:
+  - slug: tapu-sicili-kurulus-ve-ilkeler
+    title: Tapu Sicilinin Kuruluşu, Unsurları, Açıklığı ve Devletin Sorumluluğu
+    maddeler: [{kanun: TMK, madde: '997'}, {kanun: TMK, madde: '998'}, {kanun: TMK, madde: '999'}, {kanun: TMK, madde: '1000'}, {kanun: TMK, madde: '1007'}, {kanun: TMK, madde: '1020'}]
+    ictihat_sorgulari: [tapu sicilinin tutulmasından doğan zarar devletin sorumluluğu, tapu sicili açıklık ilkesi]
+    beceri: tapu-sicili-ve-iptal-tescil
+  - slug: tescil-serh-ve-beyan
+    title: Tescil, Şerh ve Beyan; Tescilin Şartları ve Etkisi
+    maddeler: [{kanun: TMK, madde: '1008'}, {kanun: TMK, madde: '1009'}, {kanun: TMK, madde: '1010'}, {kanun: TMK, madde: '1011'}, {kanun: TMK, madde: '1012'}, {kanun: TMK, madde: '1013'}, {kanun: TMK, madde: '1014'}, {kanun: TMK, madde: '1015'}, {kanun: TMK, madde: '1021'}, {kanun: TMK, madde: '1022'}]
+    ictihat_sorgulari: [kişisel hakkın şerhi tapu, tasarruf yetkisinin kısıtlanması şerh]
+    beceri: tapu-sicili-ve-iptal-tescil
+  - slug: tapuya-guven-ve-yolsuz-tescil
+    title: Tapu Siciline Güven İlkesi, Yolsuz Tescil ve Tapu İptali ve Tescil Davası
+    maddeler: [{kanun: TMK, madde: '1023'}, {kanun: TMK, madde: '1024'}, {kanun: TMK, madde: '1025'}, {kanun: TMK, madde: '1026'}, {kanun: TMK, madde: '1027'}, {kanun: TMK, madde: '1007'}]
+    ictihat_sorgulari: [yolsuz tescil tapu iptali ve tescil, tapu sicilindeki kayda iyiniyetle dayanan üçüncü kişi]
+    beceri: tapu-sicili-ve-iptal-tescil
+- title: 'Ünite 3: Mülkiyet Hakkı: Genel Hükümler'
+  topics:
+  - slug: mulkiyetin-icerigi-ve-korunmasi
+    title: 'Mülkiyetin İçeriği ve Korunması: İstihkak, Elatmanın Önlenmesi ve Ecrimisil'
+    maddeler: [{kanun: TMK, madde: '683'}, {kanun: TMK, madde: '993'}, {kanun: TMK, madde: '995'}]
+    ictihat_sorgulari: [elatmanın önlenmesi davası, ecrimisil haksız işgal tazminatı]
+    beceri: istihkak-ve-mulkiyetin-korunmasi
+  - slug: mulkiyetin-kapsami-butunleyici-parca-eklenti
+    title: 'Mülkiyetin Kapsamı: Bütünleyici Parça, Doğal Ürünler ve Eklenti'
+    maddeler: [{kanun: TMK, madde: '684'}, {kanun: TMK, madde: '685'}, {kanun: TMK, madde: '686'}, {kanun: TMK, madde: '687'}]
+    ictihat_sorgulari: [bütünleyici parça mülkiyet, eklenti tapuya şerh]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: payli-mulkiyet
+    title: 'Paylı Mülkiyet: Yönetim, Tasarruf, Giderler ve Paydaşın Çıkarılması'
+    maddeler: [{kanun: TMK, madde: '688'}, {kanun: TMK, madde: '689'}, {kanun: TMK, madde: '690'}, {kanun: TMK, madde: '691'}, {kanun: TMK, madde: '692'}, {kanun: TMK, madde: '693'}, {kanun: TMK, madde: '694'}, {kanun: TMK, madde: '695'}, {kanun: TMK, madde: '696'}, {kanun: TMK, madde: '697'}]
+    ictihat_sorgulari: [paylı mülkiyette paydaşın payını devri, paydaşın paydaşlıktan çıkarılması]
+    beceri: paydaslik-ortakligin-giderilmesi
+  - slug: elbirligi-mulkiyeti-ve-ortakligin-giderilmesi
+    title: Elbirliği Mülkiyeti ve Ortaklığın Giderilmesi (Paylaşma)
+    maddeler: [{kanun: TMK, madde: '698'}, {kanun: TMK, madde: '699'}, {kanun: TMK, madde: '701'}, {kanun: TMK, madde: '702'}, {kanun: TMK, madde: '703'}]
+    ictihat_sorgulari: [ortaklığın giderilmesi davası aynen taksim satış, elbirliği mülkiyeti mirasçılar]
+    beceri: paydaslik-ortakligin-giderilmesi
+- title: 'Ünite 4: Taşınmaz Mülkiyeti'
+  topics:
+  - slug: tasinmaz-mulkiyetinin-kazanilmasi
+    title: 'Taşınmaz Mülkiyetinin Kazanılması: Tescil, Hukuki İşlem ve Tescilsiz Kazanma; Kaybı'
+    maddeler: [{kanun: TMK, madde: '704'}, {kanun: TMK, madde: '705'}, {kanun: TMK, madde: '706'}, {kanun: TMK, madde: '716'}, {kanun: TMK, madde: '717'}]
+    ictihat_sorgulari: [resmi şekle aykırı taşınmaz satışı geçersiz, tescili isteme hakkı tapu iptali]
+    beceri: tapu-sicili-ve-iptal-tescil
+  - slug: kazandirici-zamanasimi-isgal-yeni-arazi
+    title: Olağan ve Olağanüstü Kazandırıcı Zamanaşımı, İşgal ve Yeni Arazi Oluşması
+    maddeler: [{kanun: TMK, madde: '707'}, {kanun: TMK, madde: '708'}, {kanun: TMK, madde: '709'}, {kanun: TMK, madde: '710'}, {kanun: TMK, madde: '711'}, {kanun: TMK, madde: '712'}, {kanun: TMK, madde: '713'}, {kanun: TMK, madde: '714'}, {kanun: TMK, madde: '715'}]
+    ictihat_sorgulari: [olağanüstü kazandırıcı zamanaşımı tescil davası, olağan kazandırıcı zamanaşımı on yıl iyiniyet]
+    beceri: kazandirici-zamanasimi-tescili
+  - slug: tasinmaz-mulkiyetinin-kapsami-ve-komsuluk
+    title: Taşınmaz Mülkiyetinin Kapsamı, Sınırlar, Malikin Sorumluluğu ve Komşuluk Hukuku
+    maddeler: [{kanun: TMK, madde: '718'}, {kanun: TMK, madde: '719'}, {kanun: TMK, madde: '720'}, {kanun: TMK, madde: '721'}, {kanun: TMK, madde: '730'}, {kanun: TMK, madde: '737'}, {kanun: TMK, madde: '749'}, {kanun: TMK, madde: '750'}, {kanun: TMK, madde: '751'}, {kanun: TMK, madde: '752'}, {kanun: TMK, madde: '753'}]
+    ictihat_sorgulari: [taşınmaz malikinin sorumluluğu komşuluk hukuku, aşırı kullanma gürültü komşu]
+    beceri: el-atmanin-onlenmesi-mudahalenin-meni
+  - slug: yapi-hukuku-ve-taskin-yapi
+    title: 'Yapı (İnşaat) Hukuku: Başkasının Arazisine Yapı, Temliken Tescil, Taşkın Yapı, Üst Hakkı ve Mecralar'
+    maddeler: [{kanun: TMK, madde: '722'}, {kanun: TMK, madde: '723'}, {kanun: TMK, madde: '724'}, {kanun: TMK, madde: '725'}, {kanun: TMK, madde: '726'}, {kanun: TMK, madde: '727'}, {kanun: TMK, madde: '728'}, {kanun: TMK, madde: '729'}]
+    ictihat_sorgulari: [temliken tescil iyiniyetli yapı malik, taşkın yapı tecavüzlü inşaat]
+    beceri: el-atmanin-onlenmesi-mudahalenin-meni
+  - slug: yasal-onalim-alim-ve-geri-alim
+    title: Yasal Önalım Hakkı, Sözleşmeden Doğan Önalım, Alım ve Geri Alım Hakları
+    maddeler: [{kanun: TMK, madde: '731'}, {kanun: TMK, madde: '732'}, {kanun: TMK, madde: '733'}, {kanun: TMK, madde: '734'}, {kanun: TMK, madde: '735'}, {kanun: TMK, madde: '736'}]
+    ictihat_sorgulari: [yasal önalım hakkı bedel depo, önalım hakkı hak düşürücü süre üç ay]
+    beceri: paydaslik-ortakligin-giderilmesi
+  - slug: gecit-hakki-su-ve-diger-kanuni-kisitlamalar
+    title: Kazı ve Yapılar, Bitkiler, Su Akıtma, Mecralar, Geçit Hakkı ve Kaynaklar
+    maddeler: [{kanun: TMK, madde: '738'}, {kanun: TMK, madde: '739'}, {kanun: TMK, madde: '740'}, {kanun: TMK, madde: '741'}, {kanun: TMK, madde: '742'}, {kanun: TMK, madde: '743'}, {kanun: TMK, madde: '744'}, {kanun: TMK, madde: '747'}, {kanun: TMK, madde: '748'}, {kanun: TMK, madde: '756'}, {kanun: TMK, madde: '761'}]
+    ictihat_sorgulari: [zorunlu geçit hakkı tesisi bedel, kaynak suyu mülkiyeti]
+    beceri: irtifak-haklari
+- title: 'Ünite 5: Taşınır Mülkiyeti'
+  topics:
+  - slug: tasinir-mulkiyetinin-devri-ve-mulkiyeti-sakli-tutma
+    title: Taşınır Mülkiyetinin Devri, Teslim ve Mülkiyeti Saklı Tutma Sözleşmesi
+    maddeler: [{kanun: TMK, madde: '762'}, {kanun: TMK, madde: '763'}, {kanun: TMK, madde: '764'}, {kanun: TMK, madde: '765'}, {kanun: TMK, madde: '766'}]
+    ictihat_sorgulari: [mülkiyeti saklı tutma sözleşmesi noter sicil, taşınır mülkiyetinin devri teslim]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: tasinir-mulkiyetinin-diger-kazanma-yollari
+    title: 'Taşınır Mülkiyetinin Diğer Kazanma Yolları: Sahiplenme, Buluntu, Define, İşleme, Karışma ve Kazandırıcı Zamanaşımı'
+    maddeler: [{kanun: TMK, madde: '767'}, {kanun: TMK, madde: '769'}, {kanun: TMK, madde: '770'}, {kanun: TMK, madde: '771'}, {kanun: TMK, madde: '772'}, {kanun: TMK, madde: '773'}, {kanun: TMK, madde: '775'}, {kanun: TMK, madde: '776'}, {kanun: TMK, madde: '777'}, {kanun: TMK, madde: '778'}]
+    ictihat_sorgulari: [taşınır kazandırıcı zamanaşımı beş yıl iyiniyet, buluntu eşya mülkiyet kazanma]
+    beceri: temel-kavramlar-ve-sistem
+- title: 'Ünite 6: Sınırlı Ayni Haklar: İrtifaklar ve Taşınmaz Yükü'
+  topics:
+  - slug: tasinmaz-irtifaki
+    title: 'Taşınmaz İrtifakı: Kurulma, Sona Erme, Kapsam ve Değişiklikler'
+    maddeler: [{kanun: TMK, madde: '779'}, {kanun: TMK, madde: '780'}, {kanun: TMK, madde: '781'}, {kanun: TMK, madde: '782'}, {kanun: TMK, madde: '783'}, {kanun: TMK, madde: '785'}, {kanun: TMK, madde: '786'}, {kanun: TMK, madde: '787'}, {kanun: TMK, madde: '788'}, {kanun: TMK, madde: '790'}, {kanun: TMK, madde: '791'}]
+    ictihat_sorgulari: [geçit irtifakı terkin mahkeme kararı, irtifak hakkının kapsamı tescil]
+    beceri: irtifak-haklari
+  - slug: intifa-ve-oturma-hakki
+    title: İntifa Hakkı ve Oturma Hakkı
+    maddeler: [{kanun: TMK, madde: '794'}, {kanun: TMK, madde: '795'}, {kanun: TMK, madde: '796'}, {kanun: TMK, madde: '797'}, {kanun: TMK, madde: '798'}, {kanun: TMK, madde: '802'}, {kanun: TMK, madde: '803'}, {kanun: TMK, madde: '806'}, {kanun: TMK, madde: '808'}, {kanun: TMK, madde: '823'}, {kanun: TMK, madde: '824'}, {kanun: TMK, madde: '825'}]
+    ictihat_sorgulari: [intifa hakkı devredilemez kullanılmasının devri, sükna oturma hakkı terkini]
+    beceri: irtifak-haklari
+  - slug: ust-hakki-kaynak-hakki-ve-tasinmaz-yuku
+    title: Üst Hakkı (Bağımsız ve Sürekli), Kaynak Hakkı, Diğer İrtifaklar ve Taşınmaz Yükü
+    maddeler: [{kanun: TMK, madde: '826'}, {kanun: TMK, madde: '827'}, {kanun: TMK, madde: '828'}, {kanun: TMK, madde: '829'}, {kanun: TMK, madde: '831'}, {kanun: TMK, madde: '836'}, {kanun: TMK, madde: '837'}, {kanun: TMK, madde: '838'}, {kanun: TMK, madde: '839'}, {kanun: TMK, madde: '840'}, {kanun: TMK, madde: '843'}]
+    ictihat_sorgulari: [üst hakkı süresi sona ermesi yapı, taşınmaz yükü tescil]
+    beceri: irtifak-haklari
+- title: 'Ünite 7: Rehin Hakları'
+  topics:
+  - slug: tasinmaz-rehni-genel-hukumler
+    title: 'Taşınmaz Rehni Genel Hükümler: Türler, Kapsam, Sabit Dereceler ve Paraya Çevirme'
+    maddeler: [{kanun: TMK, madde: '850'}, {kanun: TMK, madde: '851'}, {kanun: TMK, madde: '852'}, {kanun: TMK, madde: '856'}, {kanun: TMK, madde: '862'}, {kanun: TMK, madde: '865'}, {kanun: TMK, madde: '869'}, {kanun: TMK, madde: '870'}, {kanun: TMK, madde: '871'}, {kanun: TMK, madde: '872'}, {kanun: TMK, madde: '873'}, {kanun: TMK, madde: '874'}]
+    ictihat_sorgulari: [sabit rehin derecesi sistemi, rehinli alacaklıya mülkiyetin geçmesi yasağı]
+    beceri: tasinmaz-rehni-ipotek
+  - slug: ipotek-ve-kanuni-ipotek
+    title: 'İpotek: Kuruluş, Borçlu Olmayan Malik, Taşınmazın Devri ve Kanuni İpotekler'
+    maddeler: [{kanun: TMK, madde: '881'}, {kanun: TMK, madde: '882'}, {kanun: TMK, madde: '883'}, {kanun: TMK, madde: '884'}, {kanun: TMK, madde: '888'}, {kanun: TMK, madde: '891'}, {kanun: TMK, madde: '893'}, {kanun: TMK, madde: '895'}, {kanun: TMK, madde: '897'}]
+    ictihat_sorgulari: [üst sınır ipoteği kesin borç ipoteği, yapı alacaklısı kanuni ipotek tescil süresi]
+    beceri: tasinmaz-rehni-ipotek
+  - slug: ipotekli-borc-senedi-ve-irat-senedi
+    title: İpotekli Borç Senedi ve İrat Senedi
+    maddeler: [{kanun: TMK, madde: '898'}, {kanun: TMK, madde: '899'}, {kanun: TMK, madde: '900'}, {kanun: TMK, madde: '901'}, {kanun: TMK, madde: '903'}, {kanun: TMK, madde: '904'}, {kanun: TMK, madde: '909'}, {kanun: TMK, madde: '910'}, {kanun: TMK, madde: '927'}]
+    ictihat_sorgulari: [ipotekli borç senedi takip, ipotekli borç senedi def'iler]
+    beceri: tasinmaz-rehni-ipotek
+  - slug: tasinir-rehni-hak-rehni-ve-hapis-hakki
+    title: Teslime Bağlı Taşınır Rehni, Hak Rehni ve Hapis Hakkı
+    maddeler: [{kanun: TMK, madde: '939'}, {kanun: TMK, madde: '941'}, {kanun: TMK, madde: '943'}, {kanun: TMK, madde: '944'}, {kanun: TMK, madde: '946'}, {kanun: TMK, madde: '949'}, {kanun: TMK, madde: '950'}, {kanun: TMK, madde: '951'}, {kanun: TMK, madde: '953'}, {kanun: TMK, madde: '954'}, {kanun: TMK, madde: '955'}]
+    ictihat_sorgulari: [hapis hakkı şartları, alacak rehni yazılı şekil]
+    beceri: tasinir-rehni-ticari-islem
+- title: 'Ünite 8: Kat Mülkiyeti'
+  topics:
+  - slug: kat-mulkiyeti-kurulus-ve-kat-irtifaki
+    title: 'Kat Mülkiyeti: Kavramlar, Ortak Yerler, Kuruluş ve Kat İrtifakı'
+    maddeler: [{kanun: KMK, madde: '1'}, {kanun: KMK, madde: '2'}, {kanun: KMK, madde: '3'}, {kanun: KMK, madde: '4'}, {kanun: KMK, madde: '5'}, {kanun: KMK, madde: '10'}, {kanun: KMK, madde: '12'}, {kanun: KMK, madde: '14'}, {kanun: KMK, madde: '17'}]
+    ictihat_sorgulari: [kat irtifakından kat mülkiyetine geçiş, ortak yerlerin bağımsız bölüme dönüştürülmesi]
+    beceri: kurulus-ve-kat-irtifakindan-kat-mulkiyetine-gecis
+  - slug: kat-maliklerinin-haklari-borclari-ve-yonetim
+    title: Kat Maliklerinin Hakları ve Borçları, Ortak Giderler, Yönetim Planı, Kurul ve Yönetici
+    maddeler: [{kanun: KMK, madde: '18'}, {kanun: KMK, madde: '19'}, {kanun: KMK, madde: '20'}, {kanun: KMK, madde: '22'}, {kanun: KMK, madde: '24'}, {kanun: KMK, madde: '25'}, {kanun: KMK, madde: '27'}, {kanun: KMK, madde: '28'}, {kanun: KMK, madde: '32'}, {kanun: KMK, madde: '33'}, {kanun: KMK, madde: '34'}, {kanun: KMK, madde: '35'}]
+    ictihat_sorgulari: [kat malikleri kurulu kararının iptali davası, ortak gider aidat gecikme tazminatı]
+    beceri: malik-haklar-borclar-cikarma

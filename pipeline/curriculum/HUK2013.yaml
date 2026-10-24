@@ -1,0 +1,129 @@
+# HUK2013 Ceza Hukuku Genel Hükümler — 5237 sayılı TCK Birinci Kitap (m. 1-75); AY m. 38;
+# hükmün açıklanmasının geri bırakılması ve uzlaştırma için CMK. TCK m. 18 (geri verme) 2016'da
+# kaldırıldı; iade 6706 sayılı Cezai Konularda Uluslararası Adli İş Birliği Kanunu'nda.
+# Elle (Claude Code'da) kuruldu: konu sınırları kanunun tam metnindeki başlıklara göre.
+units:
+- title: 'Ünite 1: Temel İlkeler ve Ceza Kanununun Uygulama Alanı'
+  topics:
+  - slug: ceza-hukukuna-giris-ve-temel-ilkeler
+    title: 'Ceza Hukukuna Giriş: Amaç, Temel İlkeler (Kanunilik, Eşitlik, Kusur İlkesi) ve Tanımlar'
+    maddeler: [{kanun: TCK, madde: '1'}, {kanun: TCK, madde: '2'}, {kanun: TCK, madde: '3'}, {kanun: TCK, madde: '4'}, {kanun: TCK, madde: '5'}, {kanun: TCK, madde: '6'}, {kanun: AY, madde: '38'}]
+    ictihat_sorgulari: [suçta ve cezada kanunilik ilkesi belirlilik, kanunu bilmemek mazeret sayılmaz]
+    beceri: suc-genel-teorisi-denetim-semasi
+  - slug: zaman-bakimindan-uygulama-ve-lehe-kanun
+    title: 'Ceza Kanununun Zaman Bakımından Uygulanması: Geriye Yürümezlik, Lehe Kanun, Geçici Kanunlar ve İnfaz Rejimi'
+    maddeler: [{kanun: TCK, madde: '7'}, {kanun: TCK, madde: '2'}, {kanun: AY, madde: '38'}]
+    ictihat_sorgulari: [lehe kanun karşılaştırması somut olay, infaz rejimine ilişkin hükümler derhal uygulanır]
+    beceri: zaman-yer-bakimindan-uygulama
+  - slug: yer-bakimindan-uygulama-ve-geri-verme
+    title: 'Yer Bakımından Uygulama: Ülkesellik, Kişisellik ve Evrensellik; Yabancı Ülkede Hüküm; Geri Verme (İade, 6706 sayılı Kanun)'
+    maddeler: [{kanun: TCK, madde: '8'}, {kanun: TCK, madde: '9'}, {kanun: TCK, madde: '10'}, {kanun: TCK, madde: '11'}, {kanun: TCK, madde: '12'}, {kanun: TCK, madde: '13'}, {kanun: TCK, madde: '16'}, {kanun: TCK, madde: '19'}, {kanun: '6706', madde: '10'}, {kanun: '6706', madde: '11'}]
+    ictihat_sorgulari: [yabancı ülkede işlenen suç adalet bakanının talebi, vatandaşın geri verilmesi yasağı]
+    beceri: zaman-yer-bakimindan-uygulama
+- title: 'Ünite 2: Suçun Unsurları; Kast ve Taksir'
+  topics:
+  - slug: suc-genel-teorisi-hareket-netice-illiyet
+    title: 'Suç Genel Teorisi: Suçun Yapısı, Hareket (İcra ve İhmal), Netice, Nedensellik ve Objektif İsnadiyet, Ceza Sorumluluğunun Şahsiliği'
+    maddeler: [{kanun: TCK, madde: '20'}, {kanun: TCK, madde: '83'}]
+    ictihat_sorgulari: [illiyet bağı uygun nedensellik ceza, ihmali davranışla öldürme garantörlük]
+    beceri: suc-genel-teorisi-denetim-semasi
+  - slug: kast-ve-olasi-kast
+    title: Kast, Doğrudan Kast ve Olası Kast
+    maddeler: [{kanun: TCK, madde: '21'}]
+    ictihat_sorgulari: [olası kast bilinçli taksir ayrımı, öldürme kastı yaralama kastı ayrımı ölçütler]
+    beceri: maddi-manevi-unsurlar-kast-taksir
+  - slug: taksir-bilincli-taksir-ve-netice-sebebiyle-agirlasmis-suc
+    title: Taksir, Bilinçli Taksir ve Netice Sebebiyle Ağırlaşmış Suç
+    maddeler: [{kanun: TCK, madde: '22'}, {kanun: TCK, madde: '23'}, {kanun: TCK, madde: '87'}]
+    ictihat_sorgulari: [bilinçli taksir öngörme, netice sebebiyle ağırlaşmış yaralama en azından taksir]
+    beceri: maddi-manevi-unsurlar-kast-taksir
+- title: 'Ünite 3: Hukuka Uygunluk Nedenleri'
+  topics:
+  - slug: kanunun-hukmu-ve-amirin-emri
+    title: Kanunun Hükmünü Yerine Getirme ve Yetkili Merciin Emrini Yerine Getirme
+    maddeler: [{kanun: TCK, madde: '24'}, {kanun: AY, madde: '137'}]
+    ictihat_sorgulari: [konusu suç teşkil eden emir yerine getirilemez, kolluğun zor kullanma yetkisi hukuka uygunluk]
+    beceri: hukuka-uygunluk-sebepleri
+  - slug: mesru-savunma-ve-zorunluluk-hali
+    title: Meşru Savunma, Zorunluluk Hâli ve Sınırın Aşılması
+    maddeler: [{kanun: TCK, madde: '25'}, {kanun: TCK, madde: '27'}]
+    ictihat_sorgulari: [meşru savunma saldırı ile orantılı, meşru savunmada sınırın aşılması heyecan korku]
+    beceri: hukuka-uygunluk-sebepleri
+  - slug: hakkin-kullanilmasi-ve-ilgilinin-rizasi
+    title: Hakkın Kullanılması ve İlgilinin Rızası
+    maddeler: [{kanun: TCK, madde: '26'}, {kanun: TCK, madde: '27'}]
+    ictihat_sorgulari: [ilgilinin rızası üzerinde mutlak tasarruf edilebilen hak, hakkın kullanılması spor tıbbi müdahale]
+    beceri: hukuka-uygunluk-sebepleri
+- title: 'Ünite 4: Kusurluluk ve Kusurluluğu Etkileyen Hâller'
+  topics:
+  - slug: cebir-siddet-korkutma-tehdit-ve-haksiz-tahrik
+    title: Cebir ve Şiddet, Korkutma ve Tehdit; Haksız Tahrik
+    maddeler: [{kanun: TCK, madde: '28'}, {kanun: TCK, madde: '29'}]
+    ictihat_sorgulari: [haksız tahrik hiddet şiddetli elem, karşılıklı haksız tahrik]
+    beceri: kusurlulugu-etkileyen-haller
+  - slug: hata
+    title: 'Hata: Suçun Maddi Unsurlarında, Nitelikli Hâllerde, Hukuka Uygunluk Nedenlerinde ve Hukuki Konuda Hata'
+    maddeler: [{kanun: TCK, madde: '30'}, {kanun: TCK, madde: '4'}]
+    ictihat_sorgulari: [kaçınılmaz hukuki hata, hukuka uygunluk sebeplerinin maddi koşullarında hata]
+    beceri: kusurlulugu-etkileyen-haller
+  - slug: yas-akil-hastaligi-ve-gecici-nedenler
+    title: Yaş Küçüklüğü, Akıl Hastalığı, Sağır ve Dilsizlik, Geçici Nedenler, Alkol ve Uyuşturucu Etkisi
+    maddeler: [{kanun: TCK, madde: '31'}, {kanun: TCK, madde: '32'}, {kanun: TCK, madde: '33'}, {kanun: TCK, madde: '34'}]
+    ictihat_sorgulari: [on iki yaşını doldurmuş on beş yaşını doldurmamış farik mümeyyiz, akıl hastalığı adli tıp raporu]
+    beceri: kusurlulugu-etkileyen-haller
+- title: 'Ünite 5: Suçun Özel Görünüş Biçimleri'
+  topics:
+  - slug: suca-tesebbus-ve-gonullu-vazgecme
+    title: Suça Teşebbüs, Elverişli Hareket, İcra Başlangıcı, Gönüllü Vazgeçme ve Etkin Pişmanlık
+    maddeler: [{kanun: TCK, madde: '35'}, {kanun: TCK, madde: '36'}]
+    ictihat_sorgulari: [elverişli hareket icra başlangıcı teşebbüs, gönüllü vazgeçme teşebbüsün sonuçları]
+    beceri: tesebbus-gonullu-vazgecme
+  - slug: istirak-faillik-ve-dolayli-faillik
+    title: 'İştirak I: Faillik, Müşterek Faillik ve Dolaylı Faillik'
+    maddeler: [{kanun: TCK, madde: '37'}]
+    ictihat_sorgulari: [müşterek faillik fiil üzerinde ortak hakimiyet, dolaylı faillik kusur yeteneği olmayan]
+    beceri: istirak-faillik-katki
+  - slug: azmettirme-yardim-etme-ve-baglilik
+    title: 'İştirak II: Azmettirme, Yardım Etme, Bağlılık Kuralı ve İştirakte Gönüllü Vazgeçme'
+    maddeler: [{kanun: TCK, madde: '38'}, {kanun: TCK, madde: '39'}, {kanun: TCK, madde: '40'}, {kanun: TCK, madde: '41'}]
+    ictihat_sorgulari: [azmettirme suç işleme kararı, yardım etme suç işlemeye yönelik kararı kuvvetlendirme]
+    beceri: istirak-faillik-katki
+  - slug: suclarin-ictimai
+    title: 'Suçların İçtimaı: Bileşik Suç, Zincirleme Suç ve Fikri İçtima'
+    maddeler: [{kanun: TCK, madde: '42'}, {kanun: TCK, madde: '43'}, {kanun: TCK, madde: '44'}]
+    ictihat_sorgulari: [zincirleme suç aynı suç işleme kararı, fikri içtima en ağır ceza]
+    beceri: ictima-suclarin-birlesmesi
+- title: 'Ünite 6: Yaptırımlar'
+  topics:
+  - slug: cezalar-hapis-ve-adli-para-cezasi
+    title: 'Cezalar: Ağırlaştırılmış Müebbet, Müebbet ve Süreli Hapis, Adli Para Cezası'
+    maddeler: [{kanun: TCK, madde: '45'}, {kanun: TCK, madde: '46'}, {kanun: TCK, madde: '47'}, {kanun: TCK, madde: '48'}, {kanun: TCK, madde: '49'}, {kanun: TCK, madde: '52'}]
+    ictihat_sorgulari: [adli para cezası gün sayısı bir gün karşılığı, kısa süreli hapis cezası bir yıl]
+    beceri: yaptirim-ceza-belirleme
+  - slug: secenek-yaptirimlar-erteleme-ve-hagb
+    title: Kısa Süreli Hapis Cezasına Seçenek Yaptırımlar, Hapis Cezasının Ertelenmesi ve Hükmün Açıklanmasının Geri Bırakılması
+    maddeler: [{kanun: TCK, madde: '50'}, {kanun: TCK, madde: '51'}, {kanun: CMK, madde: '231'}]
+    ictihat_sorgulari: [hükmün açıklanmasının geri bırakılması şartları zararın giderilmesi, hapis cezasının ertelenmesi denetim süresi]
+    beceri: yaptirim-ceza-belirleme
+  - slug: guvenlik-tedbirleri-ve-musadere
+    title: 'Güvenlik Tedbirleri: Hak Yoksunlukları, Eşya ve Kazanç Müsaderesi, Çocuklara ve Akıl Hastalarına Özgü Tedbirler, Tüzel Kişiler'
+    maddeler: [{kanun: TCK, madde: '53'}, {kanun: TCK, madde: '54'}, {kanun: TCK, madde: '55'}, {kanun: TCK, madde: '56'}, {kanun: TCK, madde: '57'}, {kanun: TCK, madde: '58'}, {kanun: TCK, madde: '60'}]
+    ictihat_sorgulari: [belli hakları kullanmaktan yoksun bırakılma süresi, eşya müsaderesi orantılılık]
+    beceri: yaptirim-ceza-belirleme
+  - slug: cezanin-belirlenmesi-ve-tekerrur
+    title: Cezanın Belirlenmesi, Takdiri İndirim, Tekerrür ve Mahsup
+    maddeler: [{kanun: TCK, madde: '61'}, {kanun: TCK, madde: '62'}, {kanun: TCK, madde: '58'}, {kanun: TCK, madde: '63'}]
+    ictihat_sorgulari: [temel cezanın alt sınırdan uzaklaşılması gerekçe, takdiri indirim sebepleri]
+    beceri: yaptirim-ceza-belirleme
+- title: 'Ünite 7: Davanın ve Cezanın Düşürülmesi'
+  topics:
+  - slug: dusme-nedenleri-olum-af-sikayet-onodeme-uzlasma
+    title: 'Davanın ve Cezanın Düşmesi: Ölüm, Af, Şikâyetten Vazgeçme, Önödeme ve Uzlaştırma'
+    maddeler: [{kanun: TCK, madde: '64'}, {kanun: TCK, madde: '65'}, {kanun: TCK, madde: '73'}, {kanun: TCK, madde: '75'}, {kanun: CMK, madde: '253'}]
+    ictihat_sorgulari: [şikayetten vazgeçme kabul, önödeme kapsamındaki suçlar]
+    beceri: zamanasimi-sikayet-dava-engelleri
+  - slug: dava-ve-ceza-zamanasimi
+    title: 'Zamanaşımı: Dava Zamanaşımı, Ceza Zamanaşımı, Kesilme ve Durma'
+    maddeler: [{kanun: TCK, madde: '66'}, {kanun: TCK, madde: '67'}, {kanun: TCK, madde: '68'}, {kanun: TCK, madde: '69'}, {kanun: TCK, madde: '71'}, {kanun: TCK, madde: '72'}]
+    ictihat_sorgulari: [dava zamanaşımının kesilmesi en son kesme nedeni, olağanüstü dava zamanaşımı]
+    beceri: zamanasimi-sikayet-dava-engelleri

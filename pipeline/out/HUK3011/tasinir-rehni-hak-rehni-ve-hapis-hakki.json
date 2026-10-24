@@ -1,0 +1,1018 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 7,
+ "unit_title": "Ünite 7: Rehin Hakları",
+ "topic_index": 4,
+ "slug": "tasinir-rehni-hak-rehni-ve-hapis-hakki",
+ "title": "Teslime Bağlı Taşınır Rehni, Hak Rehni ve Hapis Hakkı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:41:43.095060+00:00",
+ "skill_refs": [
+  "esya-hukuku/tasinir-rehni-ticari-islem"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Taşınır bir mal, alacak ya da hak borca nasıl güvence yapılır; alacaklı elindeki malı ne zaman alıkoyabilir; ve zilyetlik devredilmeden kurulan sicilli rehin bunlardan nasıl ayrılır?\n\n- **Teslime bağlı rehin (TMK m. 939):** Ayrık durumlar dışında taşınır, ancak **zilyetliğin alacaklıya devriyle** rehnedilir. Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldıkça rehin hakkı **doğmaz** (TMK m. 939/3). Alacaklı alacağı ödenmezse rehnin paraya çevrilmesini ister; rehin asıl alacağı, sözleşme faizlerini, takip giderlerini ve gecikme faizini güvenceler (TMK m. 946).\n- **Ayrık durumlar (TMK m. 940):** Zilyetlik devredilmeden, icra dairesindeki özel sicile yazılarak hayvan rehni (izinli kuruluşlar ve kooperatifler lehine) ve kendi siciline tescili zorunlu taşınırlarda o sicile kayıtla rehin kurulabilir. 📌 Madde **yürürlüktedir**; yalnız \"tüzükle\" ibaresi \"Cumhurbaşkanınca çıkarılan yönetmelikle\" olmuştur.\n- **Art rehin ve alt rehin:** Art rehni malik kurar, rehinli alacaklıya yazılı bildirim gerekir (TMK m. 941). Alt rehni alacaklı kurar, rehnedenin rızası gerekir (TMK m. 942).\n- **Sona erme ve sorumluluk:** Rehin, alacaklının zilyetliği yitirmesi **ve** zilyet üçüncü kişiden geri alamaz hâle gelmesiyle biter (TMK m. 943/1). Alacak tamamen ödenmedikçe şey geri verilmez (TMK m. 944/2). Alacaklı, kusuru olmadığını ispat etmedikçe kayıp ve değer azalmasından sorumludur (TMK m. 945). Mülkiyetin alacaklıya geçeceğine dair sözleşme hükmü geçersizdir (TMK m. 949).\n- **Hapis hakkı (TMK m. 950-953):** Borçluya ait taşınır ya da kıymetli evrakın, borçlunun rızasıyla alacaklının zilyetliğinde bulunması, borcun muaccel olması ve niteliği itibarıyla bağlantı gerekir. Tacirler arasında ticari ilişkide bağlantı var sayılır. Paraya çevrilmeye elverişsiz şeylerde ve alacaklının yükümlülüğü, borçlunun talimatı ya da kamu düzeniyle bağdaşmayan hâllerde kullanılamaz (TMK m. 951). Borçlu ödemeden aciz kalırsa muacceliyet aranmaz (TMK m. 952).\n- **Alacak ve hak rehni (TMK m. 954-961):** Devredilebilen alacak ve haklar rehnedilir. Alacakta yazılı sözleşme, senede bağlı alacakta ayrıca senedin teslimi gerekir (TMK m. 955). Hamile yazılı senette teslim yeter, diğer kıymetli evrakta ciro ya da yazılı devir beyanıyla teslim aranır (TMK m. 956). Rehni ihbar edilen borçlu ancak diğerinin rızasıyla öder, rıza yoksa tevdi eder (TMK m. 961/2-3).\n- **6750 sayılı Kanun:** Teslimsiz rehin, rehin sözleşmesinin **Rehinli Taşınır Siciline tescil edilmesiyle** kurulur (6750 sayılı Kanun m. 4/1) ve üçüncü kişilere karşı hüküm ifade eder (6750 sayılı Kanun m. 9/1). Tarafları sınırlıdır (6750 sayılı Kanun m. 3). Kanunda hüküm yoksa TMK'nın taşınmaz rehnine ilişkin hükümleri uygulanır (6750 sayılı Kanun m. 18). 📌 1447 sayılı Kanun 1/1/2017'den beri yürürlükte değildir.",
+  "content_md": "## 0. Konunun haritası\n\nKonu, TMK'nın \"Taşınır Rehni\" bölümüne (TMK m. 939-961) ve zilyetlik devredilmeden kurulan sicilli rehni düzenleyen 6750 sayılı Kanuna dayanır.\n\n| Kurum | Dayanak | Kurucu unsur |\n|---|---|---|\n| Teslime bağlı rehin | TMK m. 939 | Zilyetliğin alacaklıya devri |\n| Hapis hakkı | TMK m. 950 | Rıza ile alacaklının zilyetliği |\n| Alacak ve hak rehni | TMK m. 954-955 | Yazılı sözleşme, senet teslimi |\n| Sicilli teslimsiz rehin | 6750 sayılı Kanun m. 4 | Sicile tescil |\n\n> ⚠️ **Sınavda dikkat:** İcra hukukunda \"taşınır rehni\" tabiri daha geniştir: İİK m. 23/2'ye göre teslime bağlı rehinleri, TMK m. 940'taki rehinleri, ticarî işletme rehnini, **hapis hakkını** ve alacak ve sair haklar üzerindeki rehinleri kapsar.\n\n## 1. Teslime bağlı taşınır rehni: kuruluş\n\n### 1.1 Kural: zilyetliğin alacaklıya devri (TMK m. 939/1)\nTMK m. 939/1'e göre kanunda öngörülen ayrık durumlar dışında taşınırlar, **ancak zilyetliğin alacaklıya devri suretiyle** rehnedilebilir. Rehnin adı buradan gelir: **teslime bağlı rehin**.\n\nDevir şekilleri zilyetlik hükümlerine bırakılmıştır (TMK m. 977 ve m. 979). Ancak teslimsiz devirde zilyet olmaya devam eden rehnedenin kendisiyse şey fiilen yalnız onun hâkimiyetinde kalır ve TMK m. 939/3 gereği rehin doğmaz. Yargıtay'ın yerleşik uygulamasına göre malın alacaklı adına malı tutan üçüncü kişiye (örneğin depocuya) teslimi de yeterlidir; önemli olan malın fiilen yalnız rehnedenin hâkimiyetinde kalmamasıdır.\n\n> **Örnek:** Zeynep, borcuna güvence olarak altın bileziğini kuyumcu alacaklısı Mehmet'e teslim eder; rehin teslimle kurulur.\n\n### 1.2 Yalnız rehnedenin hâkimiyetinde kalan şey (TMK m. 939/3)\nTaşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece **rehin hakkı doğmaz** (TMK m. 939/3). Yazılı bir sözleşme imzalanmış olması bunu değiştirmez; zilyetlik devri olmadan rehin yoktur.\n\n> **Örnek:** Mehmet, 1 Mart'ta Ayşe'den 60.000 TL borç alır ve kol saatini rehnetmeyi kabul eder; saati 10 Mart'a kadar kendisi takar, o gün Ayşe'ye teslim eder. Rehin 10 Mart'ta kurulur; ara dönemde Ayşe rehinli alacaklı sayılamaz.\n\n> ⚠️ **Sınavda dikkat:** \"Doğmaz\" (TMK m. 939/3) ile \"askıda kalır\" (TMK m. 943/2) farklıdır. Şey baştan yalnız rehnedende kalmışsa rehin hiç doğmamıştır; kurulduktan sonra alacaklının rızasıyla rehnedene giderse rehin sona ermez, hükümleri askıda kalır.\n\n### 1.3 Yetkisiz rehnedenden iyiniyetle edinme (TMK m. 939/2)\nRehneden, malda tasarruf yetkisine sahip olmasa bile rehin konusu taşınıra **iyiniyetle zilyet olan** kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Üçüncü kişilerin önceki zilyetlikten doğan hakları saklıdır (TMK m. 939/2). Korumanın ayrıntıları iyiniyetli kazanım konusunda incelenir.\n\n> **Örnek:** Selim, kolyesini emanet olarak Hakan'a bırakmıştır. Hakan kolyeyi kendi borcu için, durumu bilmeyen Ayten'e rehin teslim eder. Emin sıfatıyla zilyetten sınırlı aynî hak edinen iyiniyetli kişinin edinimi korunduğundan (TMK m. 988) Ayten rehin hakkını kazanır.\n\n> ⚠️ **Sınavda dikkat:** Eşya çalınmış ya da kaybolmuşsa zilyet, eşyayı elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir (TMK m. 989); korumanın sınırı iyiniyetli kazanım konusundadır.\n\n### 1.4 Zilyetlik devri olmadan rehin: ayrık durumlar (TMK m. 940)\nKanun iki ayrık durum tanır:\n1. **Hayvan rehni:** Yetkili makamlar tarafından izin verilen kuruluşlar ile kooperatiflerin alacaklarının güvence altına alınması için, zilyetlik devredilmeden, **icra dairesinde tutulacak özel sicile** yazılarak hayvanlar üzerinde rehin kurulabilir (TMK m. 940/1).\n2. **Kendi siciline kayıtlı taşınırlar:** Gerçek veya tüzel kişilerin alacakları için, kanun gereği bir sicile tescili zorunlu olan taşınır mallar üzerinde, zilyetlik devredilmeden, malın kayıtlı olduğu sicile yazılarak rehin kurulabilir (TMK m. 940/2).\n\n\n\n> 📌 **Kesin bilgi (güncel):** TMK m. 940 **mülga değildir**, yürürlüktedir. 700 sayılı KHK ile yalnız birinci ve ikinci fıkradaki \"tüzükle\" ibareleri \"Cumhurbaşkanınca çıkarılan yönetmelikle\" şeklinde değiştirilmiştir. İİK m. 23/2 de TMK m. 940'ta öngörülen rehinleri anmaya devam eder.\n\n> **Örnek:** Bir tarım kredi kooperatifi, üyesi Kerem'in borcuna karşılık ineklerini rehin alır. İnekler çiftlikte kalır; rehin icra dairesindeki özel sicile yazılarak kurulur (TMK m. 940/1).\n\n### 1.5 Art rehin ve alt rehin\n| Ölçüt | Art rehin (TMK m. 941) | Alt rehin (TMK m. 942) |\n|---|---|---|\n| Kim kurar? | Rehnedilen şeyin maliki | Rehinli alacaklı |\n| Şart | Rehinli alacaklıya yazılı bildirim | Rehnedenin rızası |\n| Konu | Aynı şey üzerinde sonraki rehin | Rehinli şeyin başkasına rehni |\n\nArt rehinde malik, alacağı ödenince şeyin sonraki alacaklıya teslim edileceğini rehinli alacaklıya **yazılı olarak bildirir** (TMK m. 941). Alt rehin ancak **rehnedenin rızasıyla** olur (TMK m. 942); rızasız devreden ya da rehneden alacaklı bütün zararlardan sorumlu olur (TMK m. 945/2).\n\n> **Örnek:** Ali, kol saatini Ayşe'ye rehnetmiştir. Burak lehine art rehin için Ayşe'ye yazılı bildirim yapar. Ayşe saati Ali'ye sormadan kendi alacaklısı Can'a rehin verirse alt rehni rızasız yapmış olur.\n\n## 2. Teslime bağlı rehnin hükümleri\n\n### 2.1 Alacaklının hakkı ve güvencenin kapsamı (TMK m. 946-947)\nAlacaklı, ödenmeyen alacağının **rehnin paraya çevrilmesi yoluyla** ödenmesini isteyebilir (TMK m. 946/1). Rehin hakkı, asıl alacakla birlikte **sözleşme faizlerinin, takip giderlerinin ve gecikme faizinin** güvencesini sağlar (TMK m. 946/2).\n\n> ⚠️ **Sınavda dikkat:** Taşınmaz rehninde faiz güvencesi \"üç yıllık faiz\" ile sınırlıdır (TMK m. 875/3); TMK m. 946/2'de yıl sınırı yoktur.\n\nRehin, taşınırı **eklentileriyle birlikte** kapsar (TMK m. 947/1). Doğal ürünler bütünleyici parçadan ayrılınca, aksi kararlaştırılmadıkça malike verilir; paraya çevirme sırasında bütünleyici parça niteliğindeki ürünler rehne dâhildir (TMK m. 947/2-3). Buna karşılık 6750 sayılı Kanun m. 6/2'de eklenti kendiliğinden kapsamda değildir; taraflar ayrıca kararlaştırır.\n\n### 2.2 Sıra (TMK m. 948)\nAynı taşınır üzerinde birden çok rehin varsa alacaklılara **rehin haklarının sırasına göre** ödeme yapılır. Sıra **kuruluş tarihine göre** belirlenir (TMK m. 948). Derece sistemi yoktur.\n\n\n### 2.3 Mülkiyetin alacaklıya geçmesi yasağı (TMK m. 949)\nBorcun ödenmemesi hâlinde rehinli taşınırın mülkiyetinin alacaklıya geçmesini öngören **sözleşme hükmü geçersizdir** (TMK m. 949). Buna **lex commissoria yasağı** denir. Taşınmaz rehninde aynı kural TMK m. 873/2'de vardır. Alacaklının yolu, rehnin paraya çevrilmesini istemektir.\n\n> ⚠️ **Sınavda dikkat:** Kanunun geçersiz saydığı şey \"sözleşme hükmü\"dür. \"Alacaklı mülkiyeti kendiliğinden kazanır\" cevabı kesinlikle yanlıştır; alacaklının yolu paraya çevirmedir.\n\n> **Örnek:** Sözleşmede \"borç 1 Eylül'de ödenmezse saat Ayşe'nin olur\" yazar. Hüküm geçersizdir; Ayşe saati paraya çevirtip alacağını tahsil edebilir, sahibi olamaz.\n\n### 2.4 Paraya çevirme: icra hukukuyla bağlantı\nRehinle temin edilmiş alacakta alacaklı yalnız **rehnin paraya çevrilmesi yoluyla** takip yapabilir; rehnin tutarı yetmezse kalan için iflas veya haciz yoluna gidebilir (İİK m. 45/1). Takip talebinde merhun bildirilir (İİK m. 145).\n\n### 2.5 Alacaklının yükümlülükleri (TMK m. 944-945)\n- **Geri verme:** Alacak ödenmekle ya da başka sebeple rehin sona erince alacaklı rehinli taşınırı hak sahibine geri vermelidir (TMK m. 944/1). Ancak **alacağının tamamını almadıkça** rehinli taşınırı veya bir kısmını geri vermek zorunda değildir (TMK m. 944/2).\n- **Sorumluluk:** Alacaklı, rehinli taşınırın kaybolması, yok olması veya değerinin azalması yüzünden meydana gelen zararlardan, bunların kendi kusuru olmaksızın doğduğunu **ispat etmedikçe** sorumludur (TMK m. 945/1). İspat yükü alacaklıdadır.\n\n> **Örnek:** Ali 100.000 TL borcunun 70.000 TL'sini öder ve rehinli kolye ile bilezikten kolyeyi geri ister. Alacağın tamamı ödenmediği için alacaklı ikisini de tutabilir (TMK m. 944/2).\n\n## 3. Rehnin sona ermesi (TMK m. 943)\nÜç durumu birbirinden ayır:\n\n| Durum | Sonuç | Dayanak |\n|---|---|---|\n| Şey baştan yalnız rehnedende | Rehin doğmaz | TMK m. 939/3 |\n| Şey alacaklının rızasıyla rehnedene döner | Hükümler askıda kalır | TMK m. 943/2 |\n| Alacaklı zilyetliği yitirir ve geri alamaz | Rehin sona erer | TMK m. 943/1 |\n\nTMK m. 943/1 iki şartı **birlikte** arar: alacaklı zilyet olmaktan çıkmalı **ve** şeyi zilyet olan üçüncü kişiden geri alamaz hâle gelmelidir. Zilyetlik kaybı tek başına yetmez.\n\n> **Örnek:** Rehinli at alacaklının ahırından çalınır; alacaklı atı geri alabildiği sürece rehin sona ermez. Ali rehinli tabloyu alacaklının izniyle bir sergi için bir aylığına geri alırsa rehin sürer, ama tablo yalnız Ali'nin hâkimiyetinde olduğu sürece hükümleri askıda kalır (TMK m. 943/2).\n\n## 4. Hapis hakkı (TMK m. 950-953)\n\n### 4.1 Kavram\n**Hapis hakkı**, alacaklının borçluya ait bir şeyi borç ödeninceye kadar elinde tutma yetkisidir; gerekirse şey paraya çevrilir.\n\n### 4.2 Şartlar (TMK m. 950/1)\n1. **Konu:** taşınır ya da kıymetli evrak.\n2. **Borçluya ait olma.** İstisna: Borçluya ait olmayan taşınırda da zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkı doğar (TMK m. 950/3).\n3. **Alacaklının zilyetliği,** borçlunun **rızasıyla** kazanılmış olmalı.\n4. **Borcun muaccel olması.** İstisna: borçlunun ödemeden aczi (TMK m. 952).\n5. **Bağlantı:** Şeyin alacakla niteliği itibarıyla bağlantısı bulunmalı. Zilyetlik ve alacak ticarî ilişkiden doğmuşsa **tacirler arasında** bu bağlantı var sayılır (TMK m. 950/2).\n6. TMK m. 951 engellerinin bulunmaması.\n\n> **Örnek:** Tacir olmayan Ayten, dizüstü bilgisayarını X Bilişim Ltd. Şti.'ne tamire bırakır; 8.000 TL tamir bedeli muaccel olur ve ödenmez. Şirket bilgisayarı ödeme yapılana kadar alıkoyabilir: Bağlantı karineye dayanmaz, tamir alacağı ile tamir edilen şey arasında niteliği itibarıyla vardır. Karine yalnız tacirler arasında işler; Ayten tacir olmadığından tamirle ilgisiz bir alacak için bilgisayarı tutmak mümkün olmaz.\n\n### 4.3 Hapis hakkının kullanılamadığı hâller (TMK m. 951-952)\n- **Paraya çevrilmeye elverişsizlik:** Örneğin yalnız sahibi için değeri olan kişisel mektuplar ya da günlük (TMK m. 951/1).\n- **Yükümlülük, talimat, kamu düzeni:** Alacaklının üstlendiği yükümlülükle, borçlunun teslim sırasında ya da daha önce verdiği talimatla veya kamu düzeniyle bağdaşmayan hâllerde de kullanılamaz (TMK m. 951/2).\n- **Borçlunun ödemeden aczi:** Alacak muaccel olmasa bile hapis hakkı kullanılabilir (TMK m. 952/1). Aciz tesliminden sonra doğmuş ya da alacaklı onu teslimden sonra öğrenmişse, alacaklının yükümlülüğü veya borçlunun talimatı ile bağdaşmasa bile hapis hakkı kullanılabilir (TMK m. 952/2).\n\n> ⚠️ **Sınavda dikkat:** TMK m. 952/2 yalnız yükümlülük ve talimat engellerini aşar; elverişsizlik ve kamu düzeni engellerini saymaz.\n\n### 4.4 Hükümleri: paraya çevirme (TMK m. 953)\nBorç yerine getirilmez ve yeterli güvence de gösterilmezse alacaklı, borçluya **daha önce bildirimde bulunarak** hapsettiği şeylerin teslime bağlı rehin hükümleri uyarınca paraya çevrilmesini isteyebilir (TMK m. 953/1). Nama yazılı kıymetli evrakta icra dairesi borçlu yerine gerekli işlemleri yapar (TMK m. 953/2). İİK m. 23/2 hapis hakkını taşınır rehni saydığından takip rehin takibi gibi yürür.\n\n### 4.5 Zilyetlik hem doğum hem devam şartı\nYargıtay'a göre hapis hakkı ancak alacaklının zilyetliği sürdükçe vardır; dolaylı yoldan bile zilyetlikte bulunulmayan şey üzerinde kullanılamaz. Teslime bağlı rehin hükümleri yapılarına aykırı düşmedikçe hapis hakkına da uygulanır; zilyetlikten çıkma ve geri alamama hapis hakkını da sona erdirir (TMK m. 943/1).\n\n> **Örnek:** Terzi Hale, dikilen takım elbiseyi bedelini almadan Nuri'ye teslim eder. Teslimden sonra Nuri ödeme yapmazsa Hale elbise üzerinde hapis hakkı kullanamaz; zilyetliği kalmamıştır.\n\n### 4.6 Benzer kurumlarla fark\n| Ölçüt | TMK m. 950 hapis hakkı | TBK m. 336 hapis hakkı |\n|---|---|---|\n| Hak sahibi | Zilyet alacaklı | Kiraya veren |\n| Konu | Zilyetlikteki taşınır, kıymetli evrak | Kiralananda bulunan taşınırlar |\n| Sınır | Alacak ile bağlantı | İşlemiş bir yıllık ve işlemekte olan altı aylık kira |\n\nKiraya verenin hapis hakkı kiracının haczedilemeyen malları üzerinde kullanılamaz (TBK m. 336/3); hakkın geçici korunması için icra dairesi eşyanın defterini yapar ve kiraya verene en çok on beş gün süre verir (İİK m. 270). Taşıyanın hapis hakkı ise TMK m. 950-953'e gönderir ve teslimden sonra da otuz gün içinde mahkemeye başvurulması ve eşyanın henüz gönderilenin zilyetliğinde bulunması şartıyla kullanılabilir (TTK m. 1201).\n\n**Ödemezlik def'i** (TBK m. 97) yalnız kendi edimini askıya alma imkânı verir; hapis hakkı ise zilyetlikteki şeyi alıkoyma ve paraya çevirtme yetkisidir.\n\n## 5. Alacaklar ve diğer haklar üzerinde rehin (TMK m. 954-961)\n\n### 5.1 Genel kural (TMK m. 954)\n**Başkasına devredilebilen alacaklar ve diğer haklar** rehnedilebilir. Aksine hüküm bulunmadıkça bunların rehni hakkında teslime bağlı rehin hükümleri de uygulanır (TMK m. 954).\n\n### 5.2 Kuruluş şekilleri\n| Rehin konusu | Gereken | Dayanak |\n|---|---|---|\n| Senede bağlı olmayan alacak | Yazılı rehin sözleşmesi | TMK m. 955/1 |\n| Senede bağlı alacak | Yazılı sözleşme ve senedin teslimi | TMK m. 955/1 |\n| Hamile yazılı senet | Senedin teslimi | TMK m. 956/1 |\n| Diğer kıymetli evrak | Ciro veya yazılı devir beyanıyla teslim | TMK m. 956/2 |\n| Emtiayı temsil eden senet | Senedin rehni emtiada rehin doğurur | TMK m. 957/1 |\n| Diğer haklar | Yazılı sözleşme ve devir şekli | TMK m. 955/3 |\n\nVarant düzenlenmişse, rehinli alacak miktarı ve muacceliyet tarihi senet üzerine yazılmak kaydıyla rehin senedinin rehnedilmesi yeterlidir (TMK m. 957/2).\n\n### 5.3 İhbarın yeri (TMK m. 955/2)\nAlacaklı veya rehneden, rehni borçluya **ihbar edebilir**. İhbar kuruluş şartı değildir; alacak rehni yazılı sözleşmeyle kurulur. İhbarın etkisi borçlunun ödeme rejiminde ortaya çıkar (bölüm 5.7). \"Alacak rehni ihbarla kurulur\" yanlıştır.\n\n### 5.4 Sonraki rehin (TMK m. 958)\nRehinli bir alacak üzerinde sonra gelen bir rehnin kurulması, ancak rehnedenin veya sonra gelen rehin alacaklısının durumu önce gelen rehin alacaklısına **yazılı olarak bildirmesi** hâlinde geçerlidir (TMK m. 958).\n\n### 5.5 Rehnin kapsamı (TMK m. 959)\nFaiz veya kâr payı gibi dönemsel gelir getiren alacakların rehninde, aksi kararlaştırılmadıkça yalnız **vadeleri henüz gelmemiş** edimler kapsama girer (TMK m. 959/1). Yan edimler için özel senet varsa, aksi kararlaştırılmadıkça, kapsama girmeleri şekil koşullarına uygun rehnedilmelerine bağlıdır (TMK m. 959/2).\n\n### 5.6 Rehinli pay senetlerinin temsili (TMK m. 960)\nGenel kurulda rehinli pay senetlerini rehin alacaklısı değil, **pay sahibi** temsil eder.\n\n### 5.7 Yönetim ve ödeme (TMK m. 961)\nÖzenli yönetim muacceliyet ihbarını ve tahsili gerektiriyorsa alacaklı bu işlemleri yapabilir; rehin alacaklısı da onu yapmaya zorlayabilir (TMK m. 961/1). Rehin kendisine **ihbar edilmiş** olan borçlu, borcunu asıl alacaklıya veya rehin alacaklısına ancak diğerinin rızasıyla ödeyebilir (TMK m. 961/2). Rıza yoksa borçlu borcunu **tevdi etmekle** yükümlüdür (TMK m. 961/3).\n\n### 5.8 Banka hesabı ve para\nHukuk Genel Kurulu, banka hesabındaki alacak üzerinde sözleşmeyle kurulan rehnin hesabı haczeden alacaklıya karşı istihkak iddiasıyla ileri sürülebileceğini kabul etmiştir (kararlar bölümüne bak); gerekçe çek mevzuatına ve sözleşmeye dayandığından genişletilmemelidir. Para ve mevduat rehninin niteliği tartışmalıdır; 6750 sayılı Kanun m. 1/4 mevduat rehnini kapsam dışı bırakır.\n\n## 6. Teslimsiz sicilli rehin: 6750 sayılı Kanun\n\n### 6.1 Amaç, kapsam ve taraflar\n6750 sayılı Kanun, teslimsiz taşınır rehin hakkının güvence olarak kullanımını yaygınlaştırmak ve finansmana erişimi kolaylaştırmak için çıkarılmıştır (6750 sayılı Kanun m. 1/1). Rehin, zilyetliğin devrine gerek olmaksızın tesis edilen sınırlı aynî haktır (6750 sayılı Kanun m. 2/1-ı); Sicil merkezî ve aleni **Rehinli Taşınır Sicili**dir (6750 sayılı Kanun m. 2/1-k).\n\nKapsam dışı: mevduat rehni ile finansal sözleşme rehinleri (6750 sayılı Kanun m. 1/4) ile tapu kütüğüne tescil edilen taşınırlar (6750 sayılı Kanun m. 1/5).\n\nRehin sözleşmesi yalnız şu taraflar arasında yapılır (6750 sayılı Kanun m. 3): kredi kuruluşları ile tacir, esnaf, çiftçi, üretici örgütü, serbest meslek erbabı gerçek ve tüzel kişiler; ayrıca tacir ve/veya esnaflar. Kredi kuruluşu bulunmayan ve tacir ya da esnaf da olmayan taraflar arasında bu rehin kurulamaz.\n\n### 6.2 Konu\nAlacaklar, hayvan, fikrî ve sınaî haklar, makine ve teçhizat, stoklar, tarımsal ürün, ticarî işletme ve benzeri her türlü taşınır varlık ve hak rehne konu olabilir (6750 sayılı Kanun m. 5/1). Müstakbel taşınır varlıklar (6750 sayılı Kanun m. 5/3) ve her tür sözleşmeden doğan mevcut veya müstakbel alacaklar da rehnedilebilir (6750 sayılı Kanun m. 5/5). Başka kanun uyarınca bir sicile tescili zorunlu taşınırlar üzerinde bu Kanunla Sicile tescil yoluyla rehin tesis edilmez (6750 sayılı Kanun m. 8/3).\n\n### 6.3 Kuruluş ve üçüncü kişilere etki\n- **Kuruluş:** Rehin hakkı, rehin sözleşmesinin **Sicile tescil edilmesiyle** kurulur (6750 sayılı Kanun m. 4/1).\n- **Şekil:** Sözleşme elektronik ortamda ya da yazılı düzenlenir; elektronikte güvenli elektronik imza, yazılıda imzaların noterce onaylanması veya Sicil yetkilisi huzurunda imzalanması şarttır (6750 sayılı Kanun m. 4/2-4).\n- **Üçüncü kişiler:** Rehin, tescille üçüncü kişilere karşı hüküm ifade eder (6750 sayılı Kanun m. 9/1).\n- **Kayıtlar:** Alt veya art rehne konu edilmesi ile rehin verenin tasarruf yetkisini kısıtlayan kayıtlar geçersizdir (6750 sayılı Kanun m. 4/7). Kapsamı tartışmalıdır.\n\n### 6.4 Kapsam, derece, zilyedin durumu\nRehin bütünleyici parçayı kapsar; eklentiyi taraflar ayrıca kararlaştırabilir (6750 sayılı Kanun m. 6). Doğal ürün ve ikame mallar doğrudan kapsamdadır (6750 sayılı Kanun m. 7). Güvence, tescilde belirtilen rehin tutarı ve derecesiyle sınırlıdır (6750 sayılı Kanun m. 10); derece belirtilmemişse öncelik rehnin kurulma anına göre belirlenir (6750 sayılı Kanun m. 11/1). Zilyet değeri korumakla yükümlüdür, alacaklı denetleyebilir (6750 sayılı Kanun m. 12). Değer tespiti sulh hukuk mahkemesince üç gün içinde yaptırılır; itiraz üzerine yapılan tespit kesindir (6750 sayılı Kanun m. 13/2).\n\n### 6.5 Temerrüt sonrası (6750 sayılı Kanun m. 14)\n- **Mülkiyetin devrini talep:** Birinci derece alacaklı, İİK m. 24 uyarınca icra dairesinden rehinli taşınırın mülkiyetinin devrini isteyebilir (6750 sayılı Kanun m. 14/1-a). Değer alacağı aşarsa farktan diğer alacaklılara karşı birinci derece alacaklı ile rehin veren müteselsilen sorumludur. TMK m. 949 ile ilişkisi tartışmalıdır.\n- Alacağı varlık yönetim şirketine devretme, kiralama ve lisans hakkını kullanma ve genel hükümler çerçevesinde takip yapma yolları da vardır (6750 sayılı Kanun m. 14/1-b, 14/1-c ve 14/1-ç).\n\n### 6.6 Terkin ve müeyyideler\nAlacak sona erince rehin alacaklısı, yabancı hukuka tabiyse otuz, Türk hukukuna tabiyse on beş işgünü içinde terkin için başvurur; yapmazsa rehin veren veya borçlunun şikâyeti üzerine güvence altına alınan borç tutarının onda biri oranında idari para cezası uygulanır (6750 sayılı Kanun m. 15/1). Rehin verenin bazı fiilleri (örneğin borcu ödememesi hâlinde rehinli varlığın mülkiyetini devretmemesi) şikâyet üzerine, borç tutarının yarısını geçmemek üzere adli para cezasını gerektirir (6750 sayılı Kanun m. 16/1).\n\n### 6.7 Hüküm bulunmayan hâller ve değişiklikler\n> 📌 **Kesin bilgi (güncel):** 6750 sayılı Kanun 1/1/2017'de yürürlüğe girmiş (6750 sayılı Kanun m. 20) ve 1447 sayılı Ticari İşletme Rehni Kanununu yürürlükten kaldırmıştır (6750 sayılı Kanun m. 17). 7099 sayılı Kanunla 2018'de 6750 sayılı Kanun m. 18 değişmiştir: Kanunda hüküm bulunmayan hâllerde TMK'nın **taşınmaz** rehnine ilişkin hükümleri uygulanır; eski metin taşınır rehnine gönderiyordu. 7263 sayılı Kanunla 2021'de 6750 sayılı Kanun m. 5/2 değişmiş; bir işletmenin belirli bir taşınır varlık grubunun bir bütün olarak rehnedilmesi hâlinde 6750 sayılı Kanun m. 4/6-c uygulanmaz.\n\n| Ölçüt | TMK teslime bağlı rehin | 6750 sayılı Kanun |\n|---|---|---|\n| Kuruluş | Zilyetliğin devri | Sicile tescil |\n| Mal kimde? | Alacaklıda | Rehin verende |\n| Taraf | Kanunda sınır yok | Kanunda sayılı taraflar |\n| Sıra | Kuruluş tarihi | Derece ve kurulma anı |\n| Eklenti | Kendiliğinden kapsamda | Ayrıca kararlaştırılır |\n\n## 7. Olay çözerken denetim şeması\n1. **Rehin türü:** teslime bağlı rehin mi, ayrık durum (TMK m. 940) mu, sicilli rehin (6750 sayılı Kanun m. 3-4) mi, alacak rehni (TMK m. 954-955) mi, hapis hakkı (TMK m. 950) mı?\n2. **Kuruluş:** zilyetlik devredildi mi (TMK m. 939/3)? Alacak rehninde yazılı sözleşme ve senet devri (TMK m. 955-956)? 6750'de tescil (6750 sayılı Kanun m. 4/1)?\n3. **Hapis hakkında** şartları say: konu, borçluya ait olma, rıza ile zilyetlik, muacceliyet ya da aciz, bağlantı, TMK m. 951 engelleri.\n4. **Sıra ve kapsam:** TMK m. 946-948. **Yasak kayıt ve işlemler:** TMK m. 949; TMK m. 942 ve TMK m. 945/2.\n5. **Sona erme:** TMK m. 943: kayıp ve geri alamama birlikte mi, yoksa askıda kalma mı?\n6. **Ödeme ve paraya çevirme:** TMK m. 961; TMK m. 946/1 ve TMK m. 953/1; İİK m. 23/2.",
+  "critical_md": "- 📌 Ayrık durumlar dışında taşınır, ancak zilyetliğin alacaklıya devriyle rehnedilir (TMK m. 939/1). Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldıkça rehin doğmaz (TMK m. 939/3).\n- ⚠️ \"Doğmaz\" (TMK m. 939/3), \"askıda kalır\" (TMK m. 943/2) ve \"sona erer\" (TMK m. 943/1) farklıdır. Sona erme için zilyetliğin kaybı ve zilyet üçüncü kişiden geri alamama birlikte aranır.\n- 📌 TMK m. 940 yürürlüktedir, mülga değildir; yalnız \"tüzükle\" ibareleri 700 sayılı KHK ile \"Cumhurbaşkanınca çıkarılan yönetmelikle\" olmuştur. Hayvan rehni icra dairesindeki özel sicile, kendi siciline tescili zorunlu taşınırlarda rehin o sicile kayıtla kurulur.\n- ⚠️ Art rehni malik kurar, rehinli alacaklıya yazılı bildirim gerekir (TMK m. 941). Alt rehni alacaklı kurar, rehnedenin rızası gerekir (TMK m. 942). Rızasız alt rehinde alacaklı bütün zararlardan sorumludur (TMK m. 945/2).\n- 📌 Alacağın tamamı ödenmedikçe alacaklı rehinli şeyi ya da bir kısmını geri vermek zorunda değildir (TMK m. 944/2).\n- 📌 Alacaklı, kayıp, yok olma ve değer azalmasından kusurunun bulunmadığını ispat etmedikçe sorumludur (TMK m. 945/1).\n- 📌 Rehin asıl alacağı, sözleşme faizlerini, takip giderlerini ve gecikme faizini güvenceler (TMK m. 946/2). Taşınmazdaki \"üç yıllık faiz\" sınırı (TMK m. 875/3) taşınır rehninde yoktur.\n- ⚠️ Rehin hakkının sırası kuruluş tarihine göre belirlenir (TMK m. 948/2). Mülkiyetin alacaklıya geçeceğine dair sözleşme hükmü geçersizdir (TMK m. 949).\n- 📌 Hapis hakkının şartları: borçluya ait taşınır ya da kıymetli evrak, borçlunun rızasıyla alacaklının zilyetliği, muaccel borç ve niteliği itibarıyla bağlantı (TMK m. 950/1). Ticarî ilişkiden doğan zilyetlik ve alacakta tacirler arasında bağlantı var sayılır (TMK m. 950/2).\n- ⚠️ Paraya çevrilmeye elverişsiz şeylerde hapis hakkı kullanılamaz (TMK m. 951/1). Borçlunun ödemeden aczinde muacceliyet aranmaz (TMK m. 952/1); TMK m. 952/2 \"kamu düzeni\" ve \"paraya çevrilmeye elverişsizlik\" engellerini aşmaz.\n- 📌 Paraya çevirme için borç ödenmemeli, yeterli güvence gösterilmemeli ve borçluya önceden bildirimde bulunulmalıdır (TMK m. 953/1). Zilyetliği bulunmayan şey üzerinde hapis hakkı yoktur; taşıyan için teslimden sonraki otuz günlük özel hüküm saklıdır (TTK m. 1201).\n- ⚠️ Alacak rehni yazılı sözleşmeyle kurulur; senede bağlı alacakta senet de teslim edilir (TMK m. 955/1). İhbar kurucu değildir (TMK m. 955/2). Hamile yazılı senette teslim yeter; diğer kıymetli evrakta ciro ya da yazılı devir beyanıyla teslim gerekir (TMK m. 956).\n- 📌 Rehni ihbar edilen borçlu ancak diğerinin rızasıyla öder; rıza yoksa tevdi eder (TMK m. 961/2-3). Rehinli pay senetlerini genel kurulda pay sahibi temsil eder (TMK m. 960).\n- 📌 6750 sayılı Kanunla rehin Sicile tescille kurulur ve üçüncü kişilere karşı tescille hüküm ifade eder (6750 sayılı Kanun m. 4/1 ve m. 9/1). Hüküm yoksa TMK'nın taşınmaz rehnine ilişkin hükümleri uygulanır (6750 sayılı Kanun m. 18); 1447 sayılı Kanun 1/1/2017'den beri yürürlükte değildir.",
+  "doctrine_md": "### Hapis hakkının niteliği\nBir görüş hapis hakkını kanundan doğan bir rehin hakkı, yani sınırlı aynî hak sayar. Karşı görüş özünü alıkoyma def'i olarak görür. Yargıtay kararlarında hapis hakkı \"ayni hak\" ve \"bir tür rehin hakkı\" diye nitelendirilmiştir; ama sınavda iki görüşü de yazıp gerekçelendirmek en güvenli yoldur.\n\n### Para ve mevduat rehni\nBir görüş, para üzerindeki rehni \"düzensiz rehin\" sayar: Alacaklı parayı aynı miktarda iade borcuyla edinir. Diğer görüş banka bakiyesini müşterinin bankaya karşı alacağı olarak görür ve TMK m. 955'i uygular. Hukuk Genel Kurulu mevduat üzerindeki rehni kabul etmiştir; gerekçe çek mevzuatı ve sözleşmeye dayanır, bu yüzden genelleştirilmemelidir.\n\n### Gelecekteki alacakların güvencesi\nTaşınmaz rehninde gelecekteki alacak için açık hüküm bulunur. Taşınır rehninde böyle bir hüküm yoktur. Öğretide kabul edildiği söylenir; karşı görüş belirlilik ilkesini öne sürer. 6750 sayılı Kanun m. 5/5 müstakbel alacakları açıkça kabul eder.\n\n### Mülkiyetin geçmesi yasağının sınırı\nBorç muaccel olduktan sonra, ifa yerine edim anlaşmasının TMK m. 949 kapsamına girip girmediği tartışmalıdır. Aynı şekilde 6750 sayılı Kanun m. 14/1-a'daki mülkiyetin devrini talep yolunun yasağa kanuni bir istisna mı, yoksa icra dairesi eliyle ve değer tespitine bağlı ayrı bir paraya çevirme şekli mi olduğu yoruma açıktır.\n\n### Ortak zilyetlik\nTMK m. 939/3 yalnız \"fiilen yalnız rehnedenin hâkimiyetinde\" kalmayı yasaklar. Rehneden ile alacaklının birlikte hâkimiyeti (örneğin iki anahtarlı kasa) baskın görüşe göre yeterlidir; sınırı tartışmalıdır.\n\n### İhbar edilmemiş borçlunun ödemesi\nTMK m. 961/2 yalnız ihbar edilmiş borçluyu düzenler. İhbarsız borçlunun asıl alacaklıya iyiniyetle ödeyip kurtulacağı öğretide genellikle kabul edilir; metinde açık hüküm yoktur.\n\n### 6750 sayılı Kanun m. 4/7\nAlt/art rehnin ve tasarruf yetkisini kısıtlayan kayıtların geçersizliğinin sınırı ile 6750 sayılı Kanun m. 16 ile ilişkisi yorum konusudur.",
+  "glossary": [
+   {
+    "term": "Teslime bağlı rehin",
+    "definition": "Zilyetliğin alacaklıya devriyle kurulan taşınır rehni (TMK m. 939)."
+   },
+   {
+    "term": "Rehneden",
+    "definition": "Rehin hakkını kuran, yani malı güvence olarak veren kişi."
+   },
+   {
+    "term": "Rehinli alacaklı",
+    "definition": "Alacağı rehinle güvence altına alınmış, rehin hakkı kendisine ait kişi."
+   },
+   {
+    "term": "Art rehin",
+    "definition": "Rehinli şey üzerinde malikin, sonraki bir alacaklı lehine kurduğu rehin. Rehinli alacaklıya yazılı bildirim gerekir (TMK m. 941)."
+   },
+   {
+    "term": "Alt rehin",
+    "definition": "Rehinli alacaklının elindeki şeyi başkasına rehnetmesi. Rehnedenin rızası gerekir (TMK m. 942)."
+   },
+   {
+    "term": "Lex commissoria",
+    "definition": "Borç ödenmezse rehinli şeyin mülkiyetinin alacaklıya geçeceğine dair anlaşma. Taşınır rehninde sözleşme hükmü geçersizdir (TMK m. 949)."
+   },
+   {
+    "term": "Hapis hakkı",
+    "definition": "Alacaklının, borçluya ait ve rızasıyla zilyedi olduğu şeyi borç ödeninceye kadar alıkoyma ve gerektiğinde paraya çevirtme yetkisi (TMK m. 950-953)."
+   },
+   {
+    "term": "Ödemeden aciz",
+    "definition": "Borçlunun borçlarını ödeyemez duruma düşmesi. Hapis hakkında muacceliyet şartını kaldırır (TMK m. 952)."
+   },
+   {
+    "term": "Paraya çevirme",
+    "definition": "Rehinli ya da hapsedilen şeyin satışıyla alacağın tahsil edilmesi (TMK m. 946/1 ve m. 953/1)."
+   },
+   {
+    "term": "Alacak rehni",
+    "definition": "Devredilebilen alacak ve hakların rehni. Teslime bağlı rehin hükümleri aksine hüküm yoksa uygulanır (TMK m. 954)."
+   },
+   {
+    "term": "Hamile yazılı senet",
+    "definition": "Alacaklısı belli bir isme değil, senedi elinde bulunduran kişiye yazılı senet. Rehni için teslim yeterlidir (TMK m. 956/1)."
+   },
+   {
+    "term": "Tevdi",
+    "definition": "Borçlunun, rıza bulunmaması gibi bir sebeple borcunu doğrudan alacaklıya ödemek yerine yetkili yere bırakarak ifa etmesi (TMK m. 961/3)."
+   },
+   {
+    "term": "Ayrık durum",
+    "definition": "Taşınırın zilyetlik devredilmeden rehnedilebildiği, kanunda öngörülen özel haller (TMK m. 939/1 ve m. 940)."
+   },
+   {
+    "term": "Rehinli Taşınır Sicili",
+    "definition": "6750 sayılı Kanun kapsamındaki teslimsiz rehinlerin tescil edildiği merkezî ve aleni sicil (6750 sayılı Kanun m. 2/1-k)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "939",
+   "official_text": "1. Alacaklının zilyetliği\nMadde 939 - Kanunda öngörülen ayrık durumlar dışında taşınırlar, ancak zilyetliğin alacaklıya devri suretiyle rehnedilebilir.\nRehnedende tasarrufta bulunma yetkisi olmasa bile, rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Üçüncü kişilerin önceki zilyetlikten doğan hakları saklıdır.\nTaşınır, fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz.\n2. Ayrık durumlar[43]\n[43] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu maddenin birinci ve ikinci fıkralarında yer alan “tüzükle” ibareleri “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "940",
+   "official_text": "Madde 940- Yetkili makamlar tarafından izin verilen kuruluşlar ile kooperatiflerin alacaklarının güvence altına alınması için, zilyetlik devredilmeden de, icra dairesinde tutulacak özel sicile yazılmak suretiyle hayvanlar üzerinde rehin kurulabilir. Bu amaçla tutulacak sicil Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.\nGerçek veya tüzel kişilerin alacaklarının güvence altına alınması için, kanun gereğince bir sicile tescili zorunlu olan taşınır mallar üzerinde, zilyetlik devredilmeden de, taşınır malın kayıtlı bulunduğu sicile yazılmak suretiyle rehin kurulabilir. Rehnin kurulmasına ilişkin diğer hususlar Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "941",
+   "official_text": "3. Art rehin\nMadde 941- Rehnedilen taşınırın maliki, onun üzerinde bir art rehin kurabilir. Bunun için, alacağı ödenince rehnedilen taşınırın sonraki alacaklıya teslim edilmesinin rehinli alacaklıya yazılı olarak bildirilmesi gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "942",
+   "official_text": "4. Alt rehin\nMadde 942- Alacaklı, rehinli taşınırı ancak rehnedenin rızasıyla bir başkasına rehnedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "943",
+   "official_text": "1. Zilyetliğin kaybı\nMadde 943- Taşınır rehni, alacaklının zilyet olmaktan çıkması ve onu zilyet olan üçüncü kişiden geri alamaz hâle gelmesiyle son bulur.\nTaşınır, alacaklının rızasıyla fiilen yalnız rehnedenin hâkimiyeti altında bulunduğu sürece rehnin hükümleri askıda kalır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "944",
+   "official_text": "2. Geri verme borcu\nMadde 944 - Alacağın ödenmesi suretiyle veya başka bir sebeple rehin hakkı sona erince alacaklı, rehinli taşınırı hak sahibine geri vermekle yükümlüdür.\nAlacaklı, alacağının tamamını almadıkça rehinli taşınırı veya onun bir kısmını geri vermek zorunda değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "945",
+   "official_text": "3. Alacaklının sorumluluğu\nMadde 945- Alacaklı, rehinli taşınırın kaybolması, yok olması veya değerinin azalması yüzünden meydana gelen zararlardan, bunların kendi kusuru olmaksızın doğduğunu ispat etmedikçe sorumludur.\nRehinli taşınırı kendiliğinden başkasına devir veya rehneden alacaklı, bundan doğan bütün zararlardan sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "946",
+   "official_text": "1. Alacaklının hakkı\nMadde 946- Alacaklı, ödenmeyen alacağının rehnin paraya çevrilmesi yoluyla ödenmesini isteyebilir.\nRehin hakkı, alacaklıya asıl alacak ile birlikte sözleşme faizlerinin, takip giderlerinin ve gecikme faizinin güvencesini sağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "947",
+   "official_text": "2. Rehnin kapsamı\nMadde 947- Rehin, taşınırı eklentileriyle birlikte kapsar.\nAksi kararlaştırılmış olmadıkça alacaklı, rehinli taşınırın doğal ürünlerini, bütünleyici parçası olmaktan çıkınca malike vermekle yükümlüdür.\nRehin, paraya çevirme sırasında bütünleyici parça niteliğindeki doğal ürünleri de kapsar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "948",
+   "official_text": "3. Rehnin sırası\nMadde 948- Aynı taşınır üzerinde birden çok rehin hakkı bulunduğu takdirde, alacaklılara rehin haklarının sırasına göre ödeme yapılır.\nRehin hakkının sırası kuruluş tarihine göre belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "949",
+   "official_text": "4. Mülkiyetin geçememesi\nMadde 949- Borcun ödenmemesi hâlinde rehinli taşınırın mülkiyetinin alacaklıya geçmesini öngören sözleşme hükmü geçersizdir.\nB. Hapis hakkı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "950",
+   "official_text": "Madde 950- Alacaklı, borçluya ait olup onun rızasıyla zilyedi bulunduğu taşınırı veya kıymetli evrakı, borcun muaccel olması ve niteliği itibarıyla bu eşyanın alacak ile bağlantısı bulunması hâlinde, borç ödeninceye kadar hapsedebilir.\nZilyetlik ve alacak ticarî ilişkiden doğmuşsa, tacirler arasında bu bağlantı var sayılır.\nAlacaklı, borçluya ait olmayan taşınırlar üzerinde de zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkına sahip olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "951",
+   "official_text": "II. Ayrık durumlar\nMadde 951- Nitelikleri itibarıyla paraya çevrilmeye elverişli olmayan taşınırlar üzerinde hapis hakkı kullanılamaz.\nAlacaklının üstlendiği yükümlülükle veya borçlunun teslim sırasında ya da daha önce verdiği talimatla veya kamu düzeniyle bağdaşmayan hâllerde de hapis hakkı kullanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "952",
+   "official_text": "III. Borç ödemeden aciz\nMadde 952- Alacaklı, borçlunun ödemeden acze düşmesi hâlinde, alacağı muaccel olmasa bile, hapis hakkını kullanabilir.\nBorç ödemeden aciz, taşınırın tesliminden sonra meydana gelmiş veya daha önce meydana gelmiş olmakla beraber alacaklı bu durumu teslimden sonra öğrenmiş ise; o şeyin belli bir yönde kullanılacağı konusunda alacaklı tarafından yüklenilmiş bir yükümlülük veya borçlunun teslim sırasında ya da daha önce verdiği talimatla bağdaşmasa bile, alacaklı hapis hakkını kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "953",
+   "official_text": "IV. Hükümleri\nMadde 953- Borç yerine getirilmez ve yeterli güvence de gösterilmezse alacaklı, borçluya daha önce bildirimde bulunarak, hapsettiği şeylerin teslime bağlı rehin hükümleri uyarınca paraya çevrilmesini isteyebilir.\nÜzerinde hapis hakkı bulunan nama yazılı kıymetli evrakın paraya çevrilmesi için icra dairesi, borçlu yerine gerekli işlemleri yapar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "954",
+   "official_text": "A. Genel olarak\nMadde 954- Başkasına devredilebilen alacaklar ve diğer haklar rehnedilebilir.\nAksine bir hüküm bulunmadıkça, bunların rehni hakkında da teslime bağlı rehin hükümleri uygulanır.\nB. Kurulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "955",
+   "official_text": "I. Senede bağlı olan veya olmayan alacaklarda\nMadde 955- Senede bağlanmış olan veya olmayan alacakların rehni için rehin sözleşmesinin yazılı şekilde yapılması ve senede bağlı alacaklarda senedin teslim edilmesi gerekir.\nAlacaklı veya rehneden, rehni borçluya ihbar edebilir.\nDiğer hakların rehninde, yazılı rehin sözleşmesiyle birlikte, bu hakların devri için öngörülen şekle uyulması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "956",
+   "official_text": "II. Kıymetli evrakta\nMadde 956- Hamile yazılı senetlerin rehni için senetlerin rehin alacaklısına teslimi yeterlidir.\nDiğer kıymetli evrakın rehni için senedin ciro edilmiş veya yazılı devir beyanı yapılmış olarak teslimi gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "957",
+   "official_text": "III. Emtiayı temsil eden senetlerde\nMadde 957- Emtiayı temsil eden kıymetli evrakın rehnedilmesiyle emtia üzerinde rehin hakkı doğar.\nEmtiayı temsil eden senetten başka özel bir rehin senedi (varant) düzenlenmişse, rehinli alacak miktarının ve muaccel olduğu tarihin senet üzerine yazılmış olması koşuluyla, rehin senedinin rehnedilmiş olması yeterlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "958",
+   "official_text": "IV. Art rehin\nMadde 958- Rehinli bir alacak üzerinde sonra gelen bir rehnin kurulması, ancak rehnedenin veya sonra gelen rehin alacaklısının durumu önce gelen rehin alacaklısına yazılı olarak bildirmesi hâlinde geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "959",
+   "official_text": "I. Rehnin kapsamı\nMadde 959- Faiz veya kâr payı gibi dönemsel gelir getiren alacakların rehnedilmiş olması hâlinde, aksi kararlaştırılmış olmadıkça, bunlardan yalnız vadeleri henüz gelmemiş olanlar rehnin kapsamına girer ve rehin, vadeleri geçmiş olan edimleri kapsamaz.\nBu tür yan edimler için özel senetler düzenlenmiş ise, aksi kararlaştırılmış olmadıkça, bunların rehin kapsamına girmesi, şekil koşullarına uygun olarak rehnedilmelerine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "960",
+   "official_text": "II. Rehinli pay senetlerinin temsili\nMadde 960- Ortaklık genel kurulunda rehinli pay senetlerini temsil etmek yetkisi, rehin alacaklısına değil, pay sahibine aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "961",
+   "official_text": "Madde 961- Özenli bir yönetim, rehnedilmiş alacağın muacceliyetinin ihbarını ve tahsil edilmesini gerekli kılıyorsa alacaklı bu işlemleri yapabilir; rehin alacaklısı da alacaklıyı bu işlemlerin yapılmasına zorlayabilir.\nRehin kendisine ihbar edilmiş olan borçlu, borcunu asıl alacaklıya veya rehin alacaklısına ancak diğerinin rızasıyla ödeyebilir.\nBu rızanın bulunmaması hâlinde borçlu, borcunu tevdi etmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "763",
+   "official_text": "1. Zilyetliğin devri\nMadde 763- Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir.\nBir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kimse, devredenin mülkiyeti devir yetkisi olmasa bile, zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde o şeyin maliki olur.\n2. Mülkiyetin saklı tutulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "873",
+   "official_text": "1. Paraya çevirme şekli\nMadde 873- Borç ödenmezse alacaklı, alacağını rehinli taşınmazın satış bedelinden elde etme hakkına sahiptir.\nBorcun ödenmemesi hâlinde rehinli taşınmazın mülkiyetinin alacaklıya geçeceğine ilişkin sözleşme hükmü geçersizdir.\nAynı alacak için birden çok taşınmazın rehnedilmiş olması hâlinde, rehnin paraya çevrilmesi istemi, taşınmazların tamamı hakkında yapılır. Bununla birlikte, icra dairesi onlardan ancak gerektiği kadarını paraya çevirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "875",
+   "official_text": "3. Güvencenin kapsamı\nMadde 875- Taşınmaz rehninin alacaklıya sağladığı güvencenin kapsamına şunlar girer:\n1. Ana para,\n2. Takip giderleri ve gecikme faizi,\n3. İflâsın açıldığı veya rehnin paraya çevrilmesinin istendiği tarihe kadar muaccel olmuş üç yıllık faiz ile son vadeden başlayarak işleyen faiz.\nDaha önce belirlenmiş olan faiz oranı, sonradan gelen alacaklıların zararına olarak artırılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "977",
+   "official_text": "I. Hazırlar arasında\nMadde 977- Zilyetlik, şeyin veya şey üzerinde hâkimiyeti sağlayacak araçların, edinene teslimi veya edinenin önceki zilyedin rızasıyla şey üzerinde hâkimiyeti kullanacak duruma gelmesi hâlinde devredilmiş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "979",
+   "official_text": "III. Teslimsiz devir\nMadde 979- Bir üçüncü kişi veya zilyetliği devreden, özel bir hukukî ilişkiye dayanarak zilyet olmakta devam ederse zilyetlik, teslim gerçekleşmeksizin kazanılmış olur.\nZilyetliğin bu yolla devri, zilyet olmakta devam eden üçüncü kişiye karşı, ancak durumun devreden tarafından kendisine bildirildiği andan başlayarak hüküm doğurur.\nÜçüncü kişi, zilyetliği devredene karşı ileri sürebileceği sebeplerle şeyi edinene vermekten kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "988",
+   "official_text": "a. Emin sıfatıyla zilyetten edinme bakımından\nMadde 988- Bir taşınırın emin sıfatıyla zilyedinden o şey üzerinde iyiniyetle mülkiyet veya sınırlı aynî hak edinen kimsenin edinimi, zilyedin bu tür tasarruflarda bulunma yetkisi olmasa bile korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "989",
+   "official_text": "b. Kaybedilen veya çalınan eşya bakımından\nMadde 989- Taşınırı çalınan, kaybolan ya da iradesi dışında başka herhangi bir şekilde elinden çıkan zilyet, o şeyi elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir.\nBu taşınır, açık artırmadan veya pazardan ya da benzeri eşya satanlardan iyiniyetle edinilmiş ise; iyiniyetli birinci ve sonraki edinenlere karşı taşınır davası, ancak ödenen bedelin geri verilmesi koşuluyla açılabilir.\nDiğer konularda iyiniyetli zilyedin haklarına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "97",
+   "official_text": "MADDE 97- Karşılıklı borç yükleyen bir sözleşmenin ifası isteminde bulunan tarafın, sözleşmenin koşullarına ve özelliklerine göre daha sonra ifa etme hakkı olmadıkça, kendi borcunu ifa etmiş ya da ifasını önermiş olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "336",
+   "official_text": "MADDE 336- Taşınmaz kiralarında kiraya veren, işlemiş bir yıllık ve işlemekte olan altı aylık kira bedelinin güvencesi olmak üzere, kiralananda bulunan ve kiralananın döşenmesine veya kullanılmasına yarayan taşınırlar üzerinde hapis hakkına sahiptir.\nKiraya verenin hapis hakkı, alt kiracının asıl kiracıya olan kira borcunu aşmamak üzere, alt kiracının kiralanana getirdiği aynı nitelikteki taşınırları da kapsar.\nHapis hakkı, kiracının haczedilemeyen malları üzerinde kullanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "337",
+   "official_text": "MADDE 337- Üçüncü kişilerin, kiraya verenin kiracıya ait olmadığını bildiği veya bilmesi gerektiği eşya ile çalınmış, kaybolmuş veya başka bir biçimde malikinin elinden iradesi dışında çıkmış eşya üzerindeki hakları, kiraya verenin hapis hakkından önce gelir.\nKiraya veren, kiracı tarafından kiralanana getirilmiş olan taşınırların kiracının mülkiyetinde olmadığını kira sözleşmesi devam ederken öğrendiği hâlde, sözleşmeyi en yakın fesih döneminin sonu için feshetmezse, bu eşya üzerindeki hapis hakkını kaybeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "338",
+   "official_text": "MADDE 338- Kiracı, taşınmak veya kiralananda bulunan taşınırları başka bir yere taşımak istediği takdirde, kiraya veren, alacağını güvence altına almasını sağlayacak miktardaki taşınırı, sulh hâkiminin veya icra müdürünün kararıyla alıkoyabilir.\nAlıkoyma kararının konusu olan eşya, gizlice veya zorla götürülürse, götürülmelerinden başlayarak on gün içinde kolluk gücünün yardımıyla kiralanana geri getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "1201",
+   "official_text": "1. Genel olarak\nMADDE 1201- (1) Taşıyan, navlun sözleşmesinden doğan bütün alacakları için Türk Medenî Kanununun 950 ilâ 953 üncü maddeleri uyarınca eşya üzerinde hapis hakkına sahiptir. Hapis hakkı, eşya, taşıyanın zilyetliğinde bulunduğu sürece devam eder; teslimden sonra dahi, otuz gün içinde mahkemeye müracaat edilmek ve eşya henüz gönderilenin zilyetliğinde bulunmak şartıyla, hapis hakkından doğan yetkilerin kullanılması mümkündür.\n(2) Hapis hakkı, sadece, üzerinde hapis hakkı kullanılan eşyanın taşındığı yolculuktan doğan alacakları teminat altına alır.\n(3) Hapis hakkı ancak alacağı teminata alacak miktardaki eşya üzerinde kullanılabilir; ancak, müşterek avarya ve kurtarma alacakları için taşıyan, eşyanın tümü üzerinde hapis hakkı kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "23",
+   "official_text": "Kanundaki Istılahlar:\nMadde 23 – (Değişik: 14/1/2011-6103/41 md.)\nBu Kanunun uygulanmasında;\n1. “İpotek” tabiri ipotekleri, ipotekli borç senetlerini, irat senetlerini, eski hukuk hükümlerine göre tesis edilmiş taşınmaz rehinlerini, taşınmaz mükellefiyetlerini, bazı taşınmazlar üzerindeki hususî imtiyazları ve taşınmaz eklenti üzerine rehin muamelelerini,\n2. “Taşınır rehni” tabiri, teslime bağlı rehinleri, Türk Medenî Kanununun 940 ıncımaddesinde öngörülen rehinleri, ticarî işletme rehnini, hapis hakkını, alacak ve sair haklar üzerindeki rehinleri,\n3. Sadece “Rehin” tabiri, “ipotek” ve “taşınır rehni” tabirlerine giren bütün taşınır ve taşınmaz rehinlerini,\nihtiva eder.\nAçıkça öngörülen istisnalar dışında, bayrağına ve bir sicile kayıtlı olup olmadığına bakılmaksızın bütün gemiler hakkında bu Kanunun taşınırlara ilişkin hükümleri uygulanır. Bu Kanun uyarınca gemi siciline verilecek şerhler, Türk Ticaret Kanununun 977 nci maddesi hükmüne tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "24",
+   "official_text": "Taşınır teslimi:\nMadde 24 – (Değişik: 18/2/1965-538/14 md.)\nBir taşınırın teslimine dair olan ilam icra dairesine verilince icra memuru bir icra emri tebliği suretiyle borçluya yedi gün içinde o şeyin teslimini emreder.\nİcra emrinde; alacaklı ve borçlunun ve varsa mümesillerinin adları ve soyadları ile şöhret ve yerleşim yerleri hükmü veren mahkemenin ismi ve hükmolunun şeyin neden ibaret olduğu, ilamın tarih ve numarası ve icra mahkemesinden veya istinaf veya temyiz yahut iadei muhakeme yoliyle ait olduğu mahkemeden icranın geri bırakılması hakkında bir karar getirilmedikçe cebri icraya devam olunacağı yazılır.[13]\nBorçlu, bu emri hiç tutmaz veya eksik bırakır ve hükmolunan taşınır veya misli yedinde bulunursa elinden zorla alınıp alacaklıya verilir.\nYedinde bulunmazsa ilamda yazılı değeri alınır. Vermezse ayrıca icra emri tebliğine hacet kalmaksızın haciz yoliyle tahsil olunur. Taşınır malın değeri, ilamda yazılı olmadığı veya ihtilaflı bulunduğu takdirde, icra memuru tarafından haczin yapıldığı tarihteki rayice göre takdir olunur.[14]\nHükmolunan taşınırın değeri, borsa veya ticaret odalarından, olmıyan yerlerde icra memuru tarafından seçilecek bilirkişiden sorulup alınacak cevaba göre tayin edilir.\nİlgililerin bu hususta icra mahkemesine şikayet hakları vardır.\n(Mülga yedinci fıkra: 14/1/2011-6103/41 md.)\n[13] 2/3/2005 tarihli ve 5311 sayılı Kanunun 2 nci maddesiyle “icra mahkemesinden” ibaresinden sonra gelmek üzere “veya istinaf” ibaresi eklenmiştir.\n[14] Bu fıkrada yer alan “takip tarihindeki” ibaresi, 17/7/2003 tarihli ve 4949 sayılı Kanunun 6 ncı maddesiyle “haczin yapıldığı tarihteki” olarak değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "45",
+   "official_text": "Rehin ve ipotekle temin edilmiş alacaklar:\nMadde 45 – Rehinle temin edilmiş bir alacağın borçlusu iflasa tabi şahıslardan olsa bile alacaklı yalnız rehinin paraya çevrilmesi yoliyle takip yapabilir. Ancak rehinin tutarı borcu ödemeğe yetmezse alacaklı kalan alacağını iflas veya haciz yoliyle takip edebilir.\n(Ek Fıkra: 21/2/2007-5582/1 md) 2499 sayılı Sermaye Piyasası Kanununun 38/A maddesinin birinci fıkrasında tanımlanan konut finansmanından kaynaklanan rehinle temin edilmiş alacaklar ile Toplu Konut İdaresi Başkanlığının rehinle temin edilmiş alacaklarının takibinde, rehnin paraya çevrilmesi yoluyla takip yapılabilir veya haciz yoluna başvurulabilir.\nPolice ve emre muharrer senetlerle çekler hakkındaki 167 nci madde hükmü mahfuzdur.\nİpotekle temin edilmiş faiz ve senelik taksit alacaklarında, alacaklının intihabına ve borçlunun sıfatına göre, rehinin paraya çevrilmesi veya haciz yahut iflas yollarına müracaat olunabilir.\n(Ek fıkra: 27/5/1933-2228/1 md.; Mülga: 29/6/1956-6763/42 md.)\nHaciz yoliyle takip:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "145",
+   "official_text": "Takip talebi:\nMadde 145 – (Değişik: 18/2/1965-538/65 md.)\nAlacağı taşınır rehni ile sağlanmış alacaklı, takip talebinde 58 inci maddede yazılı hususlardan başka merhunun ne olduğunu ve merhun üçüncü şahıs tarafından verilmiş veya merhunun mülkiyeti üçüncü şahsa geçmiş ise onun ve merhun üzerinde sonra gelen rehin hakkı mevcut ise bu hakka sahip olan şahsın ismini de bildirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "270",
+   "official_text": "Hapis hakkı için defter yapılması:\nMadde 270 – Kiralıyan evvelce yapılması lazımgelen icrai takibi yapmadan haiz olduğu hapis hakkının muvakkaten muhafazası için icra dairesinin yardımını isteyebilir.\n(B.K. 267, 269, 281).\nTeahhurunda tehlike varsa zabıtanın yahut nahiye müdürünün de yardımı istenebilir.\nİcra dairesi üzerlerinde hapis hakkı bulunan eşyanın bir defterini yapar ve rehinleri paraya çevirme yoliyle takip talebinde bulunması için kiralıyana on beş günü geçmemek üzere münasip bir mühlet verir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "1",
+   "official_text": "Amaç ve kapsam\nMADDE 1- (1) Bu Kanunun amacı; teslimsiz taşınır rehin hakkının güvence olarak kullanımının yaygınlaştırılması, bu rehne konu taşınırların kapsamının genişletilmesi, taşınır rehninde aleniyetin sağlanması ile rehnin paraya çevrilmesinde alternatif yolların sunulması suretiyle finansmana erişimi kolaylaştırmaktır.\n(2) Bu Kanun; taşınır varlıkları konu edinen işlemlerde rehin hakkının tesisine, rehin hakkının üçüncü kişilere karşı hüküm ifade etmesine, Rehinli Taşınır Siciline, rehinli alacaklılar arasında öncelik hakkının belirlenmesine, tarafların ve üçüncü kişilerin hak ve yükümlülüklerine, rehin hakkının kullanımı ile rehinli işlemlere ilişkin diğer usul ve esasları kapsar.\n(3) Bu Kanun, bir borca güvence teşkil etmek üzere kurulan ve konusu bu Kanunda sayılan taşınır varlıklar olan rehinli işlemlere uygulanır.\n(4) Bu Kanun, sermaye piyasası araçları ile türev araçlara ilişkin finansal sözleşmeleri konu edinen rehin sözleşmeleri ile mevduat rehnine uygulanmaz.\n(5) Tapu kütüğüne herhangi bir nedenle tescil edilen taşınırlar bu Kanun kapsamında değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "2",
+   "official_text": "Tanımlar\nMADDE 2- (1) Bu Kanunun uygulanmasında;\na) Bakanlık: Gümrük ve Ticaret Bakanlığını,\nb) Çiftçi: 18/4/2006 tarihli ve 5488 sayılı Tarım Kanununa göre faaliyet gösteren çiftçiyi,\nc) Esnaf: 7/6/2005 tarihli ve 5362 sayılı Esnaf ve Sanatkarlar Meslek Kuruluşları Kanununa göre faaliyet gösteren esnaf ve sanatkarı,\nç) Finansal sözleşme: Faiz oranı, emtia, döviz, hisse senedi, tahvil, endeks veya benzeri finansal araçların dayanak varlık olarak kullanıldığı spot, future, forward, opsiyon veya swap işlemiyle, repo, ters repo işlemi ve bu işlemlere benzer nitelikte olan ve finansal piyasalarda kullanılan diğer işlemlerle ve bu işlemlerin herhangi bir kombinasyonunu içeren sözleşmeleri,\nd) Güvenli elektronik imza: 15/1/2004 tarihli ve 5070 sayılı Elektronik İmza Kanununun 4 üncü maddesinde tanımlanan elektronik imzayı,\ne) Kredi kuruluşu: 19/10/2005 tarihli ve 5411 sayılı Bankacılık Kanunu uyarınca faaliyet gösteren bankalar ve finansal kuruşlar, 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring ve Finansman Şirketleri Kanunu uyarınca faaliyet gösteren finansal kuruluşlar ile kredi ve kefalet sağlayan kamu veya özel kurum ve kuruluşları,\nf) Müstakbel taşınır varlık: Mevcut olmayan veya rehin sözleşmesinin akdedildiği anda rehin verenin mülkiyetinde bulunmayan bu Kanunun 5 inci maddesinin birinci fıkrasında belirtilen varlıkları,\ng) Stok: Rehin verenin satmak, kullanmak veya kiralamak amaçlarıyla mülkiyetinde bulunan hammadde, yarı mamul veya mamul varlıkları,\nğ) Tacir: 13/1/2011 tarihli ve 6102 sayılı Türk Ticaret Kanununa göre tacir kabul edilen kişiyi,\nh) Taşınır varlık: Bu Kanunun 5 inci maddesinin birinci fıkrasında belirtilen varlıkları,\nı) Rehin hakkı: Taşınır varlığın türünden, rehin verenin veya rehinli alacaklının durumundan, rehinle güvence altına alınan borcun niteliğinden veya tarafların onu rehin hakkı olarak adlandırmasından bağımsız olarak bir borcun ödenmesini veya ifa edilmesini güvence altına almak amacıyla alacağın devrinde devralanın alacak hakkı da dâhil olmak üzere, taşınır varlık üzerinde zilyetliğin devrine gerek olmaksızın tesis edilen sınırlı ayni hakkı,\ni) Rehin sözleşmesi: Rehin hakkını tesis etmek amacıyla rehin veren ile alacaklı arasında imzalanan sözleşmeyi,\nj) Serbest meslek erbabı: 31/12/1960 tarihli ve 193 sayılı Gelir Vergisi Kanununa göre tanımlanan serbest meslek erbabını,\nk) Sicil: Bakanlık tarafından kurulan ya da kurdurulan ve mevzuatı uyarınca kendi özel siciline tescili zorunlu olanlar dışındaki taşınır varlıklar üzerinde, bu Kanun kapsamında tesis edilecek rehinlere ilişkin tescil, terkin, değişiklik gibi tüm iş ve işlemlerin elektronik ortamda gerçekleştirildiği ve sunulduğu merkezi ve aleni Rehinli Taşınır Sicilini,\nl) Üretici örgütü: Üretici ve yetiştiricilerin ilgili kanunlara dayanarak kurdukları tarımsal amaçlı kooperatif ve birlikleri,\nifade eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "3",
+   "official_text": "Rehinde taraflar\nMADDE 3- (1) Rehin sözleşmesi;\na) Kredi kuruluşları ile tacir, esnaf, çiftçi, üretici örgütü, serbest meslek erbabı gerçek ve tüzel kişiler arasında,\nb) Tacir ve/veya esnaflar arasında,\nyapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "4",
+   "official_text": "Rehin hakkının kurulması\nMADDE 4- (1) Rehin hakkı, rehin sözleşmesinin Sicile tescil edilmesiyle kurulur.\n(2) Rehin sözleşmesi elektronik ortamda ya da yazılı olarak düzenlenir.\n(3) Elektronik ortamda düzenlenen rehin sözleşmesinin Sicile tescil edilebilmesi için sözleşmenin güvenli elektronik imza ile onaylanması şarttır.\n(4) Yazılı olarak düzenlenen rehin sözleşmesinin Sicile tescil edilebilmesi için tarafların imzalarının noterce onaylanması veya sözleşmenin Sicil yetkilisinin huzurunda imzalanması şarttır.\n(5) Rehin hakkının kurulmasına ilişkin diğer usul ve esaslar Bakanlıkça çıkarılan yönetmelikle düzenlenir.\n(6) Rehin sözleşmesinde aşağıdaki hususların yer alması zorunludur:\na) Rehin sözleşmesinin tarafı;\n1) Ticari işletme ise ticaret unvanı, MERSİS numarası, temsil ve ilzama yetkili temsilcinin adı, soyadı ve imzası,\n2) Gerçek kişi veya esnaf ise Türkiye Cumhuriyeti kimlik numarası, adı, soyadı ve imzası,\n3) Çiftçi ise Türkiye Cumhuriyeti kimlik numarası, adı, soyadı ve imzası ile Çiftçi Kayıt Sistemi numarası,\n4) Üretici örgütü ise üretici örgütü belge numarası ile temsil ve ilzama yetkili temsilcinin adı, soyadı ve imzası.\nb) Borcun konusu, borcun miktarı, borcun miktarı belirli değilse rehnin ne miktar için güvence teşkil ettiği, ödenecek para cinsi ve rehnin azami miktarı.\nc) Rehne konu varlık ile bu varlığın ayırt edici özelliklerini belirten seri numarası, markası, üretim yılı, şasi numarası, belge seri numarası, varsa GTİP ya da PRODTR sanayi ürünü kodu gibi hususlar (Niteliği gereği ayırt edici özelliği bulunmayan taşınır varlıklar için bu şart aranmaz.).[1]\n(7) Rehne konu taşınır varlığın alt veya art rehne konu edilmesi ile rehin verenin rehne konu taşınır varlık üzerindeki tasarruf yetkisini kısıtlayan kayıtlar geçersizdir.\n(8) Rehin hakkının Sicile tescilinden doğan masrafların kime ait olacağı rehin sözleşmesinde belirtilir.\n[1] 15/2/2018 tarihli ve 7099 sayılı Kanunun 27 nci maddesi ile bu bende “hususlar” ibaresinden sonra gelmek üzere “(Niteliği gereği ayırt edici özelliği bulunmayan taşınır varlıklar için bu şart aranmaz.)” şeklindeki parantez içi hüküm eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "5",
+   "official_text": "Üzerinde rehin hakkı kurulabilecek taşınır varlıklar\nMADDE 5- (1) Rehin hakkı aşağıda belirtilen taşınır varlıklar üzerinde kurulabilir:\na) Alacaklar\nb) Çok yıllık ürün veren ağaçlar\nc) Fikri ve sınai mülkiyete konu haklar\nç) Hammadde\nd) Hayvan\ne) Her türlü kazanç ve iratlar\nf) Başka bir sicile kaydı öngörülmeyen ve idari izin belgesi niteliğinde olmayan her türlü lisans ve ruhsatlar\ng) Kira gelirleri\nğ) Kiracılık hakkı\nh) Makine ve teçhizat, araç, ekipman, alet, iş makinaları, elektronik haberleşme cihazları dâhil her türlü elektronik cihaz gibi menkul işletme tesisatı\nı) Sarf malzemesi\ni) Stoklar\nj) Tarımsal ürün\nk) Ticaret unvanı ve/veya işletme adı\nl) Ticari işletme veya esnaf işletmesi\nm) Ticari plaka ve ticari hat\nn) Ticari proje\no) Vagon\nö) Bu fıkrada sayılanlardan üçüncü kişiler zilyetliğindeki taşınır varlık, hak ve paylı mülkiyet hakları\np) (Ek: 15/2/2018-7099/28 md.) Benzeri her türlü taşınır varlık ve hak\n(2) (Değişik cümle:28/1/2021-7263/24 md.) Ticari işletme ve esnaf işletmesinin tamamı üzerinde rehin kurulması hâlinde, rehnin kuruluşu anında işletmenin faaliyetine tahsis edilmiş olan her türlü varlık; bir işletmenin belirli bir taşınır varlık grubunun bir bütün olarak rehnedilmesi hâlinde ise bu gruba dahil varlıkların tamamı rehnedilmiş sayılır. Bu varlıkların rehni diğer kanunlarca bir sicile tescilini gerektiriyorsa bu rehin ilgili sicillere bildirilir. Bu varlıklar üzerinde diğer kanunlar uyarınca önceden bir rehin hakkı tesis edilmiş olması hâlinde bu Kanun çerçevesinde tesis edilerek bildirilen rehin sonraki sırada yer alır. Ticari işletme ve esnaf işletmesi rehinleri ticaret veya esnaf siciline bildirilir. Birinci fıkrada yer alan diğer taşınır varlıkların borcu karşılaması hâlinde işletmenin tümü üzerinde rehin kurulamaz. (Ek cümle:28/1/2021-7263/24 md.) Bir işletmenin belirli bir taşınır varlık grubunun bir bütün olarak rehnedilmesi hâlinde 4 üncü maddenin altıncı fıkrasının (c) bendi uygulanmaz.\n(3) İşletmelerin müstakbel taşınır varlıkları üzerinde rehin hakkı kurulabilir. Rehinli müstakbel taşınır varlık üzerindeki tasarruf yetkisi, bu varlıkların mülkiyete konu edilmesini müteakip kullanılabilir.\n(4) Rehin, işletmelerin mevcut veya müstakbel taşınır varlıklarının getirileri üzerinde kurulabilir.\n(5) Her tür sözleşmeden doğan mevcut veya müstakbel alacaklar rehne konu edilebilir. 21/7/1953 tarihli ve 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun ile 31/5/2006 tarihli ve 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu hükümleri saklıdır.\n(6) Rehin hakkı bu maddenin birinci fıkrasında belirtilen varlıklardan biri veya birden fazlası üzerinde kurulabilir.\n(7) Kendi mevzuatı gereğince bir onaya tabi olan lisans ve ruhsatların rehni bu onayın alınması hâlinde mümkündür.\n(8) Mevzuatı gereği özel sicillerine kaydı gereken rehinler Sicile bildirilir. Buna ilişkin usul ve esaslar Bakanlıkça çıkarılan yönetmelikle belirlenir.\n(9) Üçüncü kişiler, bu Kanun kapsamında borçlu lehine teslimsiz taşınır rehni kurabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "6",
+   "official_text": "Bütünleyici parça ve eklenti\nMADDE 6- (1) Taşınır varlık üzerindeki rehin hakkı, o varlığın bütünleyici parçasını da kapsar.\n(2) Taraflar, taşınır varlığın mevcut veya sonradan ilave edilen eklentilerinin rehin kapsamına alınmasını ayrıca kararlaştırabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "7",
+   "official_text": "Rehnin kapsamı[2]\nMADDE 7- (Değişik: 15/2/2018-7099/29 md.)\n(1) Taşınır varlığın gelecekteki her türlü faiz, sigorta gibi hukuki getirileri ile doğal ürün ve ikamesi mallar, taşınır varlık ile birlikte doğrudan rehnin kapsamına girer.\n(2) Bir üretim sürecinin, kullanıldığı taşınır varlıklarla birlikte rehnedilmesi halinde rehin, üretim sürecinde ve sonucunda gerçekleşecek olan alacak üzerinde aynı oranda ve sırada kendiliğinden tesis edilmiş sayılır. Buna ilişkin usul ve esaslar yönetmelikle belirlenir.\n(3) Bir taşınırın rehinli olduğunu bilmeyen veya bilmesi gerekmeyen iyiniyetli üçüncü kişinin iyiniyeti korunur.\n[2] Bu maddenin “Birleşme ve karışma” olan başlığı, 15/2/2018 tarihli ve 7099 sayılı Kanunun 29 uncu maddesiyle metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "8",
+   "official_text": "Rehinli Taşınır Sicili\nMADDE 8- (1) Rehin hakkının tesisi ve üçüncü kişilere karşı hüküm ifade etmesi, rehinli alacaklılar arasında öncelik hakkının belirlenmesi, rehinli taşınır varlık ile alacağın devrinin tescili amacıyla Rehinli Taşınır Sicili kurulur.\n(2) Rehinli Taşınır Sicili alenidir. Bakanlık, Sicilin faaliyetlerini her zaman denetlemeye ve gerekli önlemleri almaya yetkilidir. Sicil, Bakanlıkça alınan önlemlere ve verilen talimatlara uymakla yükümlüdür.\n(3) Diğer kanunlar uyarınca bir sicile tescili zorunlu olan taşınır rehinlerine ilişkin hükümler saklıdır. Bu taşınır varlıklar üzerinde bu Kanun kapsamında Sicile tescil edilmek suretiyle rehin tesis edilmez.\n(4) Sicilin kuruluş ve işleyişi ile bu Sicille diğer kanunlar uyarınca tutulan taşınır sicillerinin verilerinin paylaşımına yönelik usul ve esaslar Bakanlıkça çıkarılan yönetmelik ile belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "9",
+   "official_text": "Rehin hakkının üçüncü kişilere karşı hüküm ifade etmesi\nMADDE 9- (1) Rehin hakkı, rehin sözleşmesinin Sicile tescil edilmesiyle üçüncü kişilere karşı hüküm ifade eder.\n(2) Diğer kanunlar uyarınca bir sicile tescili zorunlu olan taşınır rehinleri üçüncü kişilere karşı hüküm ifade etmeye devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "10",
+   "official_text": "Derece sistemi\nMADDE 10- (1) Rehnin sağladığı güvence, tescilde belirtilen rehin tutarı ve derecesi ile sınırlıdır. Rehin, sırada kendisinden önce gelecek olanın miktarının tescilde belirtilmesi kaydıyla ikinci veya daha sonraki derecede de kurulabilir. Bu halde 22/11/2001 tarihli ve 4721 sayılı Türk Medenî Kanununun 871 ila 876 ncı maddelerinin bu Kanuna aykırı olmayan hükümleri kıyasen uygulanır.\n(2) Rehin sözleşmesinde sonraki sırada yer alan rehinli alacaklılara boşalan dereceye geçme hakkı verilebilir. Rehin sözleşmesi dışında bir sözleşme ile bu hakkın tanınması hâlinde sözleşmenin geçerliliği, Sicile tescil edilmesine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "11",
+   "official_text": "Öncelik hakkı\nMADDE 11- (1) Aynı taşınır varlık üzerinde derece sırası belirtilmeksizin birden fazla rehin hakkı tesis edilmesi hâlinde alacaklıların öncelik hakkı, rehnin kurulma anına göre belirlenir. Derece belirtilmesi hâlinde ise derece sırası esas alınır.\n(2) Sonraki sırada yer alan rehinli alacaklılara boşalan dereceye geçme hakkı verilmesi hâlinde ilk sırada yer alan rehin alacaklısı alacağını tamamen almadan bir sonraki rehin alacaklısına ödeme yapılmaz.\n(3) (Mülga: 15/2/2018-7099/30 md.)\n(4) Getirisi üzerinde ayrıca bir rehin tesis edilmemiş ise varlığın getirisi üzerindeki öncelik hakkı, asıl rehinli varlığın öncelik sırasıyla aynıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "12",
+   "official_text": "Rehin sözleşmesi taraflarının hak ve yükümlülükleri\nMADDE 12- (1) Tarafların hak ve yükümlülükleri bu Kanuna aykırı olmamak şartıyla sözleşmede belirlenir.\n(2) Zilyed, rehinli taşınırın değerini koruyacak gerekli tedbirleri almakla yükümlüdür. Zilyed, rehinli taşınırın değerini düşüren davranışlarda bulunursa; alacaklı, hâkimden bu gibi davranışları yasaklamasını isteyebilir. Alacaklıya, gerekli önlemleri almak üzere hâkim tarafından yetki verilebileceği gibi; gecikmesinde tehlike bulunan hâllerde alacaklı, böyle bir yetki verilmeden de gerekli önlemleri kendiliğinden alabilir.\n(3) Hakları zarar görenler önlem için yapmış olduğu giderlerin tazminini zarara sebep olanlardan isteyebilir.\n(4) Rehin alacaklısı, rehin veren ya da üçüncü bir kişinin zilyetliğinde bulunan rehne konu taşınır varlığı denetleme hakkına sahiptir.\n(5) Rehin veren, rehin konusu taşınır varlıkların değerini rehin alacaklısı aleyhine azaltan tasarruflarından doğan zararları tazmin etmekle yükümlüdür.\n(6) Rehin veren, rehinli taşınır varlığın devri ile alacağın devrini Sicile tescil ettirmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "13",
+   "official_text": "Değer tespiti\nMADDE 13- (1) Taraflar, rehin hakkının kurulması öncesinde rehne konu taşınırın değerinin tespiti amacıyla ikinci fıkrada belirtilen usulle değer tespiti yaptırabilir.\n(2) Rehinli taşınır varlığın birleşmesi veya karışması durumunda ya da temerrüt sonrası hakların kullanımında, alacaklının başvurusu üzerine rehin verenin yerleşim yerindeki sulh hukuk mahkemesince taşınırın değeri ekspertiz hizmeti sunan gerçek veya tüzel kişilere üç gün içerisinde tespit ettirilir. Bu değer tespitine itiraz edilmesi hâlinde, mahkemece üç gün içerisinde yeni bir değer tespiti yaptırılır. İtiraz üzerine ekspertiz hizmeti sunan gerçek veya tüzel kişiler üç gün içerisinde değer tespiti yapar. İtiraz üzerine yapılan değer tespiti kesindir. Bu tespitin yapıldığı tarihten itibaren iki yıl geçmedikçe yeniden değer tespiti istenemez. Değer tespitine ilişkin rapor rehin verene ve rehin alacaklılarına tebliğ edilir.\n(3) Bu Kanun kapsamındaki rehinli işlemlerde uygulanacak ekspertiz hizmetlerine ilişkin tavan ücret ilgili kurumların görüşü alınarak Bakanlık tarafından belirlenir.\n(4) Ekspertiz hizmeti sunan gerçek ve tüzel kişilerde aranacak nitelikler ile yetkilendirilecek bu kişilere ilişkin diğer hususlar Bakanlıkça çıkarılan yönetmelikle belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "14",
+   "official_text": "Temerrüt sonrası haklar\nMADDE 14- (1) Bu Kanun kapsamındaki borçların süresinde ifa edilmemesi hâlinde alacaklı, aşağıdaki yollara başvurabilir:\na) Birinci derece alacaklı ise icra dairesinden 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 24 üncü maddesi uyarınca rehinli taşınırın mülkiyetinin devrini talep edebilir. Bu halde icra dairesi, bu devri Sicile bildirir. Rehinli taşınırın, Kanunun 13 üncü maddesinin ikinci fıkrası uyarınca belirlenen değerinin, birinci derece alacaklının toplam alacağından fazla olması durumunda, aradaki fark miktarından, diğer derecelerdeki alacaklılara karşı, birinci derece alacaklı ile rehin veren müteselsilen sorumludur.\nb) Alacağını, 5411 sayılı Kanun uyarınca faaliyet gösteren varlık yönetim şirketlerine devredebilir. Bu halde, varlık yönetim şirketleri, alacaklının rehin sırasına sahip olur. Öncelik hakkı bu Kanunun 11 inci maddesine göre belirlenir.\nc) Zilyetliğin devrine konu olmayan varlıklarda kiralama ve lisans hakkını kullanabilir.\nç) (Ek: 15/2/2018-7099/31 md.) Genel hükümler çerçevesinde takip yapabilir.\n(2) (Mülga: 15/2/2018-7099/31 md.)\n(3) Bu maddeye ilişkin diğer usul ve esaslar Bakanlıkça çıkarılan yönetmelikle düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "15",
+   "official_text": "Alacağın son bulması\nMADDE 15- (1) (Değişik: 15/2/2018-7099/32 md.) Rehin alacaklısı, alacağın son bulduğu tarihten itibaren yabancı hukuka tabi rehin alacaklısı tarafından otuz, Türk hukukuna tabi rehin alacaklısı tarafından on beş işgünü içinde, rehin kaydının Sicilden terkini için başvuruda bulunur. Bu yükümlülüğü yerine getirmeyen rehin alacaklısı hakkında rehin veren veya borçlunun şikâyeti üzerine güvence altına alınan borç tutarının onda biri oranında idari para cezası Bakanlıkça uygulanır.\n(2) Şarta bağlı yükümlülükler de dâhil olmak üzere, mevcut ve müstakbel güvenceli yükümlülüklerin ödeme ve diğer yöntemlerle ifa edilmesi hâlinde rehin hakkı rehin alacaklısının talebi üzerine Sicilden terkin edilir.\n(3) Rehin alacaklısının, alacağın son bulmasını müteakip rehnin terkini için süresi içinde Sicile başvurmaması hâlinde, borcunu ödeyen ve bunu belgeleyen borçlu, rehnin terkinini Sicilden isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "16",
+   "official_text": "Müeyyideler\nMADDE 16- (1) Rehin veren veya taşınırı rehin yüklü olarak devralan;\na) Rehinli varlığı bu Kanunun hilafına kullanması,\nb) Borcu ödememesi hâlinde rehinli varlığın mülkiyetini devretmemesi,\nc) Rehinli varlığı alacaklıya zarar vermek kastıyla tahrip veya imha etmesi,\nç) Rehinli taşınır varlığın devri ile alacağın devrini Sicile tescil ettirmemesi,\nd) Sicili yanıltmaya yönelik fiillerde bulunması,\nhâllerinde alacağını tamamen veya kısmen tahsil edemeyen rehin alacaklılarının şikayeti üzerine güvence altına alınan borç tutarının yarısını geçmemek üzere adli para cezası uygulanır.\n(2) İlgili kanun hükümleri saklı kalmak kaydıyla, bir taşınırı rehin almak suretiyle ödünç para verme işini devamlı yapan kişi, 26/9/2004 tarihli ve 5237 sayılı Türk Ceza Kanununun 241 inci maddesine göre cezalandırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "17",
+   "official_text": "Yürürlükten kaldırılan mevzuat\nMADDE 17- (1) 21/7/1971 tarihli ve 1447 sayılı Ticari İşletme Rehni Kanunu yürürlükten kaldırılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "18",
+   "official_text": "Hüküm bulunmayan hâller\nMADDE 18- (1) Bu Kanunda hüküm bulunmayan hâllerde, 4721 sayılı Kanunun taşınmaz rehnine ilişkin hükümleri uygulanır.[3]\n[3] 15/2/2018 tarihli ve 7099 sayılı Kanunun 33 üncü maddesi ile bu fıkrada yer alan “4721 sayılı Kanununun taşınır” ibaresi “4721 sayılı Kanunun taşınmaz” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TİCARİ İŞLEMLERDE TAŞINIR REHNİ KANUNU",
+   "law_no": "6750",
+   "article_no": "20",
+   "official_text": "Yürürlük\nMADDE 20- (1) Bu Kanun 1/1/2017 tarihinde yürürlüğe girer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6750&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/28",
+   "karar_no": "2019/991",
+   "decision_date": "03.10.2019",
+   "summary_md": "Davacı banka ile bir kömür şirketi arasında 3 Nisan 2007'de menkul rehni sözleşmesi yapılmış ve bankadan kullanılan kredilerden doğan borçların güvencesi olarak kömür birinci sırada rehnedilmiştir. Banka aynı gün kömürü yediemin teslim ve tesellüm tutanağıyla davalı gerçek kişiye teslim etmiş; davalı şirket de antrepo senedi başlıklı belgeyle kömürün banka adına ayrı bir bölmede tutulduğunu kabul etmiş, davalılar kömürü bankanın yazılı muvafakati olmadan kimseye teslim etmeyeceklerini taahhüt etmiştir. Kredi ödenmeyince banka kömürü istemiş, kömür hazır edilmemiş ve banka şimdilik 100.000 USD tazminat istemiştir. Davalılar kömürün bankanın bilgisiyle sürekli satılıp yenilendiğini savunmuştur. İlk derece mahkemesi rehnin bu nedenle sona erdiği gerekçesiyle davayı reddetmiş, Yargıtay 11. Hukuk Dairesi bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu, davalılarla yapılan sözleşmeleri yediemine tevdi değil genel saklama (vedia) sözleşmesi olarak nitelendirmiş ve bunların rehin sözleşmesinden bağımsız olduğunu, davanın bu sözleşmelere dayandığını belirtmiştir. Kurul ayrıca taşınırın rehin alacaklısı adına üçüncü kişiye teslimiyle geçerli taşınır rehninin kurulduğunu, üçüncü kişinin rehin borçlusunun denetim ve gözetim işini yapmasının ya da rehinli bölme dışındaki bazı yerlerin borçlu tarafından kullanılmasının kuruluşa engel olmadığını belirtmiştir. Bankanın kömürün çıkarılmasını bildiğini ve itiraz etmediğini ispat yükü davalılardadır. Direnme kararı genişletilmiş gerekçeyle oybirliğiyle bozulmuştur. Konuya katkısı: Karar madde numarası anmaz; ancak teslime bağlı rehinde zilyetliğin alacaklı adına malı tutan üçüncü kişiye devredilebildiğini, yeter ki malın fiilen yalnız rehnedenin hâkimiyetinde kalmamasını gösterir (TMK m. 939).",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/570928500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2014/637",
+   "karar_no": "2014/658",
+   "decision_date": "14.05.2014",
+   "summary_md": "Davacı alacaklı, borçlunun davalı bankadaki hesaplarına haciz müzekkeresi göndermiş; banka hesapta 19.478,86 TL bulunduğunu, ancak kredi sözleşmeleri gereği borçlunun bütün hak ve alacaklarının bankaya rehinli olduğunu bildirerek istihkak iddiasında bulunmuştur. Banka, Genel Kredi Sözleşmesi ve 20.000 TL'lik nakit teminat için bloke ve rehin talimat mektubuna dayanmıştır. İcra hukuk mahkemesi, para üzerinde rehin ve hapis hakkı kurulamayacağı ve bankanın muaccel alacağı bulunmadığı gerekçesiyle istihkak iddiasının reddini kabul etmiştir. Yargıtay 17. Hukuk Dairesi bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu, hapis hakkını alıkoyma ve paraya çevirme yetkisi veren bir ayni hak olarak tanımlamış, çek mevzuatının bankaya yüklediği yasal ödeme yükümlülüğü nedeniyle mevduatın her çek yaprağı için yasal sorumluluk miktarıyla sınırlı olarak banka lehine rehinli sayılması gerektiğini ve rehin sözleşmede de yer aldığından bankanın bunu istihkak iddiası olarak ileri sürebileceğini kabul etmiştir. Direnme kararı oybirliğiyle bozulmuştur. Konuya katkısı: Banka hesabındaki alacak üzerinde sözleşmeyle kurulan rehnin haciz eden alacaklıya karşı ileri sürülebileceğini gösterir; \"para üzerinde rehin kurulamaz\" gerekçesi benimsenmemiştir. Gerekçe çek mevzuatına ve sözleşmeye dayandığından kararı mevduat rehni için genel bir kural olarak okumamak gerekir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/84469500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2024/6729",
+   "karar_no": "2025/1185",
+   "decision_date": "13.02.2025",
+   "summary_md": "Bir geminin kiracısı olan alacaklı, borçludan navlun sözleşmesinden doğan 56.812,50 USD navlun ve demuraj alacağını tahsil edememiştir. Alacaklı TTK m. 1201'e dayanarak, donatanı üçüncü kişi olan başka bir gemideki, borçluya ait farklı bir yük üzerinde hapis hakkı kullanılması ve defter tutulması için icra müdürlüğüne başvurmuş, müdürlük istemi reddetmiştir. İcra hukuk mahkemesi, müdürlüğün hapis hakkının şartlarını değerlendirme yetkisi bulunmadığı gerekçesiyle şikâyeti kabul etmiş, bölge adliye mahkemesi istinafı esastan reddetmiştir. Yargıtay 12. Hukuk Dairesi, TMK m. 950/1'e göre hapis hakkının doğumu ve kullanılması için alacaklının zilyetliğinin gerektiğini, teslime bağlı rehin hükümlerinin yapılarına aykırı düşmedikçe hapis hakkına da uygulandığını (TMK m. 953/1) ve zilyetlikten çıkma ile geri alamamanın hakkı sona erdirdiğini (TMK m. 943) belirtmiştir. Dolaylı yoldan bile zilyetlikte bulunmayan yük üzerinde hapis hakkı yoktur; icra müdürlüğü hakkın devamını resen inceleyebilir. İstinaf kararı kaldırılmış, ilk derece kararı oybirliğiyle bozulmuştur. Konuya katkısı: Zilyetliğin hapis hakkının hem doğum hem devam şartı olduğunu gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1145668000",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 939/1'e göre, kanunda öngörülen ayrık durumlar dışında bir taşınır nasıl rehnedilebilir?",
+   "options": [
+    "Yalnız yazılı bir rehin sözleşmesi yapılarak",
+    "Zilyetliğin alacaklıya devri suretiyle",
+    "Rehin sözleşmesinin noterde düzenleme şeklinde yapılmasıyla",
+    "Rehnin tapu siciline şerh verilmesiyle"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ayrık durumlar dışında taşınırlar ancak zilyetliğin alacaklıya devri suretiyle rehnedilebilir (TMK m. 939/1); rehnin adı da buradan gelir: teslime bağlı rehin. Yazılı sözleşme tek başına rehin kurmaz. Tapu siciline şerh ve noter düzenlemesi taşınır rehninin kuruluş şartı değildir."
+  },
+  {
+   "stem_md": "Mehmet, Ayşe'den aldığı 60.000 TL borca karşılık kol saatini rehnetmek üzere Ayşe ile yazılı sözleşme imzalar. Saat, sözleşmeden sonra da Mehmet'in elinde kalır ve onu takmaya devam eder. Hangisi doğrudur?",
+   "options": [
+    "Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz.",
+    "Rehin doğar, ancak yalnız üçüncü kişilere karşı ileri sürülemez.",
+    "Rehin sözleşmenin imzalandığı anda doğar; teslim yalnız ispat içindir.",
+    "Rehin doğar, ama hükümleri askıda kalır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 939/3'e göre taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz; yazılı sözleşme bunu değiştirmez. Hükümlerin askıda kalması, rehin kurulduktan sonra şeyin alacaklının rızasıyla rehnedenin hâkimiyetine geçmesine ilişkindir (TMK m. 943/2). Burada rehin hiç doğmamıştır."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TMK m. 940 hakkında doğrudur?",
+   "options": [
+    "TMK m. 940 mülga edilmiştir; bugün zilyetlik devredilmeden taşınır rehni kurulamaz.",
+    "Hayvan rehni, ancak hayvanın alacaklıya teslimi hâlinde ve noterde düzenleme şeklindeki sözleşmeyle kurulabilir.",
+    "Yetkili makamlarca izin verilen kuruluşlar ve kooperatifler lehine hayvanlar üzerinde, zilyetlik devredilmeden icra dairesindeki özel sicile yazılarak rehin kurulabilir.",
+    "Kanunen sicile tescili zorunlu taşınır mallar, her durumda ancak zilyetliğin alacaklıya devriyle rehnedilebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 940/1, izinli kuruluşlar ve kooperatifler lehine hayvanlar üzerinde zilyetlik devredilmeden icra dairesinde tutulacak özel sicile yazılarak rehin kurulmasına izin verir. TMK m. 940/2 ise kanun gereği sicile tescili zorunlu taşınırlarda malın kayıtlı olduğu sicile yazılarak rehin kurulmasını öngörür. Madde mülga değildir; yalnız \"tüzükle\" ibareleri 700 sayılı KHK ile \"Cumhurbaşkanınca çıkarılan yönetmelikle\" olmuştur."
+  },
+  {
+   "stem_md": "Ali, 60.000 TL borcuna karşılık kol saatini Ayşe'ye rehin teslim etmiştir. Ali, başka bir borcu için aynı saat üzerinde Burak lehine art rehin kurmak istemektedir. Kanunun art rehnin kurulması için aradığı şey nedir?",
+   "options": [
+    "Alacağı ödenince saatin Burak'a teslim edileceğinin Ayşe'ye yazılı olarak bildirilmesi",
+    "Rehinli alacaklı Ayşe'nin yazılı rızası",
+    "Art rehnin Rehinli Taşınır Siciline tescili",
+    "Saatin Burak'a teslim edilmesi"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Rehnedilen taşınırın maliki onun üzerinde art rehin kurabilir; bunun için alacağı ödenince rehnedilen taşınırın sonraki alacaklıya teslim edilmesinin rehinli alacaklıya yazılı olarak bildirilmesi gerekir (TMK m. 941). Rehinli alacaklının rızası aranmaz; rıza şartı alt rehne aittir (TMK m. 942). Saat Ayşe'de kalır, Burak'a teslim edilmez."
+  },
+  {
+   "stem_md": "Alacaklı Ayşe, rehinli saati rehneden Mehmet'e sormadan kendi borcu için Can'a rehin olarak teslim eder. Hangisi doğrudur?",
+   "options": [
+    "Alacaklı rehinli taşınırı dilediği gibi rehnedebilir; rehnedene bildirim yeterlidir.",
+    "Alacaklı kusursuzluğunu ispat ederse zararlardan sorumlu olmaz.",
+    "Alt rehin, rehinli alacağın yazılı bildirimiyle geçerli olur; rehnedenin rızası aranmaz.",
+    "Alt rehin ancak rehnedenin rızasıyla yapılabilir; rızasız yapan alacaklı bundan doğan bütün zararlardan sorumlu olur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Alacaklı rehinli taşınırı ancak rehnedenin rızasıyla bir başkasına rehnedebilir (TMK m. 942). Rehinli taşınırı kendiliğinden başkasına devir veya rehneden alacaklı, bundan doğan bütün zararlardan sorumlu olur (TMK m. 945/2). Yazılı bildirim şartı art rehne ilişkindir; kusursuzluğun ispatı ise TMK m. 945/1'deki kayıp ve değer azalması sorumluluğuna aittir."
+  },
+  {
+   "stem_md": "TMK m. 943/1'e göre taşınır rehni hangi durumda sona erer?",
+   "options": [
+    "Rehnedenin rehinli şeyi bir süreliğine alacaklının rızasıyla kullanmasıyla",
+    "Rehinli şeyin değerinin alacaktan fazla olmasıyla",
+    "Alacaklının zilyetliği herhangi bir sebeple kaybettiği anda",
+    "Alacaklının zilyet olmaktan çıkması ve onu zilyet olan üçüncü kişiden geri alamaz hâle gelmesiyle"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 943/1, alacaklının zilyet olmaktan çıkmasını ve onu zilyet olan üçüncü kişiden geri alamaz hâle gelmesini birlikte arar. Zilyetlik kaybı tek başına yetmez; alacaklı şeyi geri alabildiği sürece rehin sürer. Alacaklının rızasıyla şeyin rehnedenin hâkimiyetine geçmesi rehni sona erdirmez, hükümlerini askıya alır (TMK m. 943/2)."
+  },
+  {
+   "stem_md": "Ali, rehinli tabloyu alacaklısının yazılı izniyle bir sergi için bir aylığına geri alır ve bu süre boyunca tablo yalnız Ali'nin hâkimiyetindedir. Hangisi doğrudur?",
+   "options": [
+    "Rehin sona ermez; tablo yalnız Ali'nin hâkimiyetinde bulunduğu sürece rehnin hükümleri askıda kalır.",
+    "Rehin kendiliğinden sona erer ve tablo kesin olarak Ali'ye döner.",
+    "Rehin tam olarak işler; alacaklı bu süre içinde tablonun paraya çevrilmesini isteyebilir.",
+    "Rehin hiç doğmamış sayılır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Taşınır alacaklının rızasıyla fiilen yalnız rehnedenin hâkimiyeti altında bulunduğu sürece rehnin hükümleri askıda kalır (TMK m. 943/2). Rehin sona ermez; sona erme TMK m. 943/1'deki iki şartın birlikte gerçekleşmesine bağlıdır. Rehnin hiç doğmaması ise şeyin baştan beri yalnız rehnedende kalması hâlidir (TMK m. 939/3)."
+  },
+  {
+   "stem_md": "Zeynep, 100.000 TL borcuna karşılık altın bileziğini ve altın kolyesini alacaklısı Ali'ye rehin teslim etmiştir. Borcun 70.000 TL'sini öder ve kolyeyi geri ister. Hangisi doğrudur?",
+   "options": [
+    "Kolyenin değeri kalan borçtan düşükse Ali kolyeyi geri vermelidir.",
+    "Kısmi ödeme rehni kendiliğinden sona erdirir.",
+    "Ali, alacağının tamamını almadıkça rehinli şeyi veya bir kısmını geri vermek zorunda değildir.",
+    "Ali ödenen oran kadar rehinli şeyi geri vermek zorundadır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Alacaklı, alacağının tamamını almadıkça rehinli taşınırı veya onun bir kısmını geri vermek zorunda değildir (TMK m. 944/2). Rehin, kalan alacak için tamamı üzerinde sürer. Kısmi ödeme rehni sona erdirmez ve oranlı iade doğurmaz."
+  },
+  {
+   "stem_md": "TMK m. 946/2'ye göre taşınır rehni alacaklıya hangi alacakların güvencesini sağlar?",
+   "options": [
+    "Asıl alacak ile sözleşme faizinin; takip giderleri ve gecikme faizi kapsam dışıdır.",
+    "Asıl alacakla birlikte sözleşme faizlerinin, takip giderlerinin ve gecikme faizinin",
+    "Asıl alacakla birlikte yalnızca iflasın açıldığı tarihe kadar muaccel olmuş üç yıllık faizin",
+    "Yalnız asıl alacağın; faiz ve giderler rehin kapsamı dışındadır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 946/2'ye göre rehin hakkı asıl alacakla birlikte sözleşme faizlerinin, takip giderlerinin ve gecikme faizinin güvencesini sağlar. \"Üç yıllık faiz\" sınırı taşınmaz rehnine özgüdür (TMK m. 875/3); taşınır rehninde böyle bir yıl sınırı yoktur."
+  },
+  {
+   "stem_md": "TMK m. 949'a göre aşağıdakilerden hangisi geçersizdir?",
+   "options": [
+    "Rehin sözleşmesinin tamamı",
+    "Alacaklının rehnin paraya çevrilmesini isteme hakkı",
+    "Borcun ödenmemesi hâlinde rehinli taşınırın mülkiyetinin alacaklıya geçmesini öngören sözleşme hükmü",
+    "Rehinli taşınırın zilyetliğinin alacaklıya devri"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 949, borcun ödenmemesi hâlinde rehinli taşınırın mülkiyetinin alacaklıya geçmesini öngören sözleşme hükmünü geçersiz sayar (lex commissoria yasağı). Alacaklının yolu, rehnin paraya çevrilmesini istemektir (TMK m. 946/1). Zilyetlik devri ise rehnin kuruluş şartıdır."
+  },
+  {
+   "stem_md": "Tacir olmayan Ayten, dizüstü bilgisayarını X Bilişim Ltd. Şti.'ne tamire bırakmıştır. 8.000 TL tamir bedeli muaccel olduğu hâlde ödenmemiştir. Hangisi doğrudur?",
+   "options": [
+    "Şirket, borç ödenmezse bilgisayarın mülkiyetini kendiliğinden kazanır.",
+    "Şirket, bilgisayarı ancak mahkemeden hapis kararı alarak alıkoyabilir.",
+    "Ayten tacir olmadığı için bağlantı karinesi işlemez ve şirketin hapis hakkı doğmaz.",
+    "Şirket, bilgisayarı borç ödeninceye kadar hapsedebilir; tamir alacağı ile bilgisayar arasında niteliği itibarıyla bağlantı vardır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Hapis hakkı için borçluya ait şeyin borçlunun rızasıyla alacaklının zilyetliğinde bulunması, borcun muaccel olması ve niteliği itibarıyla bağlantı gerekir (TMK m. 950/1). Tamir alacağı ile tamir edilen şey arasında bağlantı bu niteliği gereği vardır. Tacirler arasındaki bağlantı karinesi (TMK m. 950/2) yalnız karine kuran bir kuraldır; bağlantının bulunması için karineye başvurmak gerekmez. Alacaklının mülkiyeti kendiliğinden kazanması ise kanunen öngörülemez (TMK m. 949)."
+  },
+  {
+   "stem_md": "Terzi Hale, Nuri'nin sipariş ettiği takım elbiseyi dikmiş, bedelini almadan Nuri'ye teslim etmiştir. Nuri bedeli muacceliyet tarihinde ödemez. Hale, elbise üzerinde hapis hakkı kullanabilir mi?",
+   "options": [
+    "Evet; alacak muaccel olduğu için teslimden sonra da kullanabilir.",
+    "Evet; çünkü hapis hakkı alacak ödenene kadar şey kimde olursa olsun sürer.",
+    "Evet; teslimden sonra otuz gün içinde mahkemeye başvurmak şartıyla.",
+    "Hayır; elbise artık Hale'nin zilyetliğinde olmadığı için hapis hakkı kullanılamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Hapis hakkı alacaklının zilyetliğine dayanır: Zilyetlik hem doğum hem devam şartıdır. Teslimle zilyetlik kaybedildiğinden Hale hapis hakkını kullanamaz (TMK m. 950/1; TMK m. 943/1). Teslimden sonra otuz günlük sürenin tanındığı hâl taşıyanın hapis hakkıdır ve özel bir hükme dayanır (TTK m. 1201)."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisinde alacaklı, TMK m. 951'e göre hapis hakkını kullanamaz?",
+   "options": [
+    "Yalnız sahibi için duygusal değeri olan, satılması mümkün olmayan kişisel mektuplar ve günlük üzerinde",
+    "Tacir borçlunun tacir alacaklıya ticarî ilişki içinde teslim ettiği mal üzerinde, borç muaccelse",
+    "Tamir edilen elektronik cihaz üzerinde, ücret muaccel olduğu hâlde ödenmemişse",
+    "Borcu muaccel olan borçluya ait kıymetli evrak üzerinde, alacakla bağlantı varsa"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Nitelikleri itibarıyla paraya çevrilmeye elverişli olmayan taşınırlar üzerinde hapis hakkı kullanılamaz (TMK m. 951/1). Kişisel mektup ve günlük bunun örneğidir. Diğer seçeneklerde TMK m. 950'nin şartları gerçekleşmiştir ve bir engel yoktur."
+  },
+  {
+   "stem_md": "Terzi Elif, Kaan'ın ceketinde değişiklik yapmış; ücret ay sonunda ödenecektir ve henüz muaccel olmamıştır. Ceket hâlâ Elif'in elindedir. Bu sırada Kaan'ın ödemeden aciz durumuna düştüğü ortaya çıkar. Hangisi doğrudur?",
+   "options": [
+    "Elif, Kaan'ın ödemeden acze düşmesi nedeniyle alacağı muaccel olmasa bile hapis hakkını kullanabilir.",
+    "Elif, ceketin mülkiyetini kendiliğinden kazanır.",
+    "Elif ancak Kaan güvence gösterirse ceketi hapsedebilir; aciz bunu etkilemez.",
+    "Ücret muaccel olmadığı için Elif ceketi hapsedemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Alacaklı, borçlunun ödemeden acze düşmesi hâlinde alacağı muaccel olmasa bile hapis hakkını kullanabilir (TMK m. 952/1). Hapis hakkının diğer şartları (Kaan'a ait taşınır, rızayla zilyetlik, bağlantı) gerçekleşmiştir. Mülkiyetin kendiliğinden geçmesi hukuken söz konusu olamaz (TMK m. 949 mantığı)."
+  },
+  {
+   "stem_md": "TMK m. 953/1'e göre hapsedilen şeylerin paraya çevrilmesini istemek için hangisi gerekir?",
+   "options": [
+    "Borçlunun önceden bildirilmeksizin şeyin doğrudan satılması",
+    "Borcun yerine getirilmemesi, yeterli güvence gösterilmemesi ve borçluya daha önce bildirimde bulunulması",
+    "Hapis hakkının yargı kararıyla tespit edilmesi",
+    "Alacaklının şeyin mülkiyetini kazandığını borçluya bildirmesi"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Borç yerine getirilmez ve yeterli güvence de gösterilmezse alacaklı, borçluya daha önce bildirimde bulunarak hapsettiği şeylerin teslime bağlı rehin hükümleri uyarınca paraya çevrilmesini isteyebilir (TMK m. 953/1). Önceden bildirim şarttır; mülkiyet kazanımı ise TMK m. 949 nedeniyle söz konusu olamaz."
+  },
+  {
+   "stem_md": "Selin, Deniz'den olan ve senede bağlanmamış 200.000 TL satış bedeli alacağını bankaya rehnetmek için bankayla yazılı rehin sözleşmesi imzalar. Rehin Deniz'e ihbar edilmemiştir. Hangisi doğrudur?",
+   "options": [
+    "Yazılı rehin sözleşmesi yapıldığı için alacak rehni kurulmuştur; ihbar kuruluş şartı değildir.",
+    "Senet düzenlenip teslim edilmedikçe senetsiz alacak rehnedilemez.",
+    "Alacak rehni ancak alacağın bankaya noterde devriyle kurulabilir.",
+    "İhbar yapılmadıkça alacak rehni kurulmaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Senede bağlanmış olan veya olmayan alacakların rehni için rehin sözleşmesinin yazılı yapılması gerekir; senede bağlı alacaklarda ayrıca senet teslim edilir (TMK m. 955/1). Alacaklı veya rehneden rehni borçluya ihbar \"edebilir\" (TMK m. 955/2); ihbar kuruluş şartı değildir, etkisi borçlunun ödeme rejimindedir (TMK m. 961/2)."
+  },
+  {
+   "stem_md": "Hamile yazılı senetlerle diğer kıymetli evrakın rehni hakkında TMK m. 956'ya göre hangisi doğrudur?",
+   "options": [
+    "Her iki türde de yalnız yazılı rehin sözleşmesi yeterlidir.",
+    "Her iki türde de rehnin Sicile tescili gerekir.",
+    "Hamile yazılı senetlerin rehni için teslim yeterlidir; diğer kıymetli evrakta ciro ya da yazılı devir beyanıyla teslim gerekir.",
+    "Hamile yazılı senedin rehni için ciro gerekir; diğer kıymetli evrakta teslim yeterlidir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hamile yazılı senetlerin rehni için senetlerin rehin alacaklısına teslimi yeterlidir; diğer kıymetli evrakın rehni için senedin ciro edilmiş veya yazılı devir beyanı yapılmış olarak teslimi gerekir (TMK m. 956). Sicile tescil 6750 sayılı Kanun rejimine aittir."
+  },
+  {
+   "stem_md": "Selin'in Deniz'den olan alacağı bankaya rehnedilmiş ve rehin Deniz'e ihbar edilmiştir. Deniz borcunu Selin'e ödemek ister, ancak banka buna rıza göstermez. Deniz ne yapmalıdır?",
+   "options": [
+    "Selin asıl alacaklı olduğu için borcu serbestçe Selin'e ödeyerek kurtulur.",
+    "Rıza bulunmadığından borcunu tevdi etmekle yükümlüdür.",
+    "Borcun ödenmesini Rehinli Taşınır Siciline bildirmelidir.",
+    "Borcu yalnız bankaya ödemek zorundadır; Selin'in rızası aranmaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Rehin kendisine ihbar edilmiş olan borçlu, borcunu asıl alacaklıya veya rehin alacaklısına ancak diğerinin rızasıyla ödeyebilir; bu rızanın bulunmaması hâlinde borçlu borcunu tevdi etmekle yükümlüdür (TMK m. 961/2-3). Sicile bildirim 6750 sayılı Kanun rejiminde söz konusudur ve burada yeri yoktur."
+  },
+  {
+   "stem_md": "Tacir mobilya üreticisi Hakan Ltd., bankadan kredi alırken fabrikasındaki stoklarını bankaya teslim etmeden rehnetmek ister ve imzaları noterce onaylı yazılı rehin sözleşmesi yapar. 6750 sayılı Kanun m. 4/1'e göre rehin hakkı ne zaman kurulur?",
+   "options": [
+    "İmzaların noterce onaylandığı anda",
+    "Sözleşmenin ticaret siciline bildirilmesiyle",
+    "Rehin sözleşmesinin Rehinli Taşınır Siciline tescil edilmesiyle",
+    "Stokların bankaya fiilen teslim edildiği anda"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Rehin hakkı, rehin sözleşmesinin Sicile tescil edilmesiyle kurulur (6750 sayılı Kanun m. 4/1) ve yine tescille üçüncü kişilere karşı hüküm ifade eder (6750 sayılı Kanun m. 9/1). Noter onayı tescil için gereken şekil şartıdır (6750 sayılı Kanun m. 4/4); kuruluş anı değildir. Zilyetliğin devri bu rejimde aranmaz."
+  },
+  {
+   "stem_md": "6750 sayılı Kanunda hüküm bulunmayan hâllerde hangi hükümler uygulanır?",
+   "options": [
+    "Yalnız TBK'nın genel hükümleri",
+    "TMK'nın taşınmaz rehnine ilişkin hükümleri",
+    "1447 sayılı Ticari İşletme Rehni Kanunu hükümleri",
+    "TMK'nın taşınır rehnine ilişkin hükümleri"
+   ],
+   "correct_option": 1,
+   "explanation_md": "6750 sayılı Kanun m. 18'e göre Kanunda hüküm bulunmayan hâllerde TMK'nın taşınmaz rehnine ilişkin hükümleri uygulanır. 7099 sayılı Kanunla 2018'de \"taşınır\" ibaresi \"taşınmaz\" olarak değiştirilmiştir. 1447 sayılı Kanun 6750 sayılı Kanunla yürürlükten kaldırılmış ve Kanun 1/1/2017'de yürürlüğe girmiştir (6750 sayılı Kanun m. 17 ve m. 20)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Mehmet, 1 Mart'ta Ayşe'den 60.000 TL ödünç alır ve borcun 1 Eylül'de ödeneceği kararlaştırılır. Güvence olarak değerli kol saatini rehnetmeyi kabul eden Mehmet, sözleşmeye şu kaydı da koydurur: \"Borç 1 Eylül'de ödenmezse saat Ayşe'nin olur.\" Mehmet saati 10 Mart'a kadar kendisi takmaya devam eder, o gün saati Ayşe'ye teslim eder.\n\nAyşe, Nisan ayında kendi borcu için Mehmet'e hiçbir şey sormadan saati alacaklısı Can'a rehin olarak teslim eder. Ayşe saati kendi malı gibi sunduğundan Can, saatin Mehmet'e ait olduğunu bilmemekte ve bilmesi için de bir sebep bulunmamaktadır; tamamen iyiniyetle davranmaktadır.\n\nMehmet 1 Eylül'de borcun 40.000 TL'sini öder, kalan 20.000 TL'yi ödemeden saatin kendisine geri verilmesini ister. Ayşe ise saatin kalan borç ödenmedikçe kendisinde kalacağını söyler ve gerekirse saati sattıracağını bildirir.\n\n1. Rehin hakkı hangi tarihte kurulmuştur? 1 Mart ile 10 Mart arasında durum nedir?\n2. \"Borç ödenmezse saat Ayşe'nin olur\" kaydı geçerli midir?\n3. Ayşe'nin saati Can'a rehin vermesinin sonucu nedir? Can'ın durumu nedir?\n4. Mehmet, kısmi ödemeyle saati geri isteyebilir mi? Kalan borç için rehin neyi güvence altına alır?",
+   "rubric": [
+    {
+     "point": "Rehnin zilyetliğin devriyle 10 Mart'ta kurulması; 1-10 Mart arasında saat yalnız Mehmet'in hâkimiyetinde kaldığı için rehin doğmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 939"
+    },
+    {
+     "point": "Mülkiyetin alacaklıya geçeceğine dair sözleşme hükmünün geçersizliği; Ayşe'nin yalnız rehnin paraya çevrilmesini isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 949"
+    },
+    {
+     "point": "Alt rehnin ancak rehnedenin rızasıyla yapılabilmesi; rızasız alt rehin nedeniyle Ayşe'nin bütün zararlardan sorumlu olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 942"
+    },
+    {
+     "point": "Can'ın iyiniyetle zilyet olması; emin sıfatıyla zilyetten edinimin korunduğu ölçüde rehin kazanımı",
+     "weight": 15,
+     "madde_ref": "TMK m. 939"
+    },
+    {
+     "point": "Kısmi ödemeyle saatin geri istenememesi; alacağın tamamı ödenmedikçe geri verme borcunun doğmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 944"
+    },
+    {
+     "point": "Rehnin kalan asıl alacağı, sözleşme faizlerini, takip giderlerini ve gecikme faizini güvence altına alması",
+     "weight": 15,
+     "madde_ref": "TMK m. 946"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Mehmet ile Ayşe arasında bir ödünç borcunu güvence altına almak üzere taşınır rehni (teslime bağlı rehin) kurulması söz konusudur. Rehneden Mehmet, rehinli alacaklı Ayşe'dir. Sonradan Ayşe'nin rehinli saati Can'a rehnetmesi alt rehin sorununu doğurur.\n\n**Hukuki sorunlar:** (1) Rehnin kurulduğu an; (2) mülkiyetin geçmesi kaydının geçerliliği; (3) rızasız alt rehin ve iyiniyetli Can; (4) kısmi ödeme ve rehnin kapsamı.\n\n**İlgili hükümler:** TMK m. 939/1, 939/2, 939/3; TMK m. 942, 945/2, 988; TMK m. 949, 946; TMK m. 944/2.\n\n**Değerlendirme:**\n\n*1. Kuruluş anı:* Ayrık durumlar dışında taşınırlar ancak zilyetliğin alacaklıya devri suretiyle rehnedilebilir (TMK m. 939/1). Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz (TMK m. 939/3). Mehmet saati 10 Mart'a kadar kendisi kullanmaya devam ettiğinden 1 Mart ile 10 Mart arasında rehin doğmamıştır, yazılı sözleşme bu sonucu değiştirmez. Rehin, saatin Ayşe'ye teslim edildiği 10 Mart'ta kurulmuştur.\n\n*2. Mülkiyetin geçmesi kaydı:* Borcun ödenmemesi hâlinde rehinli taşınırın mülkiyetinin alacaklıya geçmesini öngören sözleşme hükmü geçersizdir (TMK m. 949). \"Borç ödenmezse saat Ayşe'nin olur\" kaydı bu niteliktedir. Geçersiz olan bu hükümdür; Ayşe ödenmeyen alacağının rehnin paraya çevrilmesi yoluyla ödenmesini isteyebilir (TMK m. 946/1). Saatin mülkiyeti kendiliğinden Ayşe'ye geçmez.\n\n*3. Alt rehin:* Alacaklı, rehinli taşınırı ancak rehnedenin rızasıyla bir başkasına rehnedebilir (TMK m. 942). Ayşe, Mehmet'in rızasını almadığından alt rehni hukuka aykırı yapmıştır. Rehinli taşınırı kendiliğinden başkasına devir veya rehneden alacaklı, bundan doğan bütün zararlardan sorumlu olur (TMK m. 945/2); Ayşe'nin sorumluluğu kusursuzluk ispatıyla kalkmaz. Can ise saatin Mehmet'e ait olduğunu bilmeyen iyiniyetli bir zilyettir. Rehinli alacaklı emin sıfatıyla zilyet olduğundan, onun elinden sınırlı aynî hak edinen iyiniyetli kişinin edinimi, zilyedin yetkisi olmasa bile korunur (TMK m. 988). Rehneden olmayan kişiden iyiniyetle rehin kazanımı da zilyetlik hükümlerine göre edinimin korunduğu ölçüde mümkündür (TMK m. 939/2). Bu nedenle Can'ın rehin hakkı korunur; Mehmet'in zararı için Ayşe'ye başvurması söz konusu olur. Korumanın sınırları iyiniyetli kazanım konusunda ayrıca incelenir.\n\n*4. Kısmi ödeme:* Alacaklı, alacağının tamamını almadıkça rehinli taşınırı veya bir kısmını geri vermek zorunda değildir (TMK m. 944/2). Mehmet 60.000 TL'nin yalnız 40.000 TL'sini ödediğinden kalan 20.000 TL için rehin sürer ve saatin iadesini isteyemez. Rehin, kalan asıl alacakla birlikte sözleşme faizlerinin, takip giderlerinin ve gecikme faizinin güvencesini sağlar (TMK m. 946/2).\n\n**Sonuç:**\n- Rehin 10 Mart'ta zilyetliğin devriyle kurulmuştur; 1-10 Mart arasında rehin doğmamıştır.\n- Mülkiyetin geçeceğine dair kayıt geçersizdir; Ayşe yalnız paraya çevirme isteyebilir.\n- Rızasız alt rehin hukuka aykırıdır ve Ayşe bütün zararlardan sorumludur; iyiniyetli Can'ın edinimi korunur.\n- Kısmi ödemeyle saat geri istenemez; kalan alacak için rehin devam eder."
+  },
+  {
+   "stem_md": "Grafiker Burak, tacir olmayan bir serbest meslek mensubudur. Dizüstü bilgisayarını X Bilişim Ltd. Şti.'ne tamire bırakır. Tamir tamamlanmış, 8.000 TL tamir bedeli muaccel olmuş ancak Burak bedeli ödememiştir. Şirket yetkilisi bilgisayarı vermemekte ısrar eder; Burak ise bilgisayara acilen ihtiyacı olduğunu, borcu birkaç gün sonra ödeyeceğini söyleyerek şirketin hiçbir hakkı olmadığını savunur.\n\nŞirket, Burak'ın aynı gün ayrıca bıraktığı, şahsi notlarla dolu ve ticarî değeri olmayan eski bir ajandayı da alıkoymuştur. Şirket yetkilisi, Burak'ın şirkete olan ve tamirle ilgisiz 5.000 TL'lik eski bir ödünç borcunu da hatırlatır ve bu borç için de bilgisayarı tutabileceğini söyler.\n\nBurak ödemeyince şirket, bilgisayarı kendi yetkisiyle sattırmak ister ve Burak'a haber vermeden satış işlemlerini başlatmayı planlar.\n\n1. Şirket, tamir bedeli için bilgisayarı alıkoyabilir mi? Hapis hakkının şartları gerçekleşmiş midir?\n2. 5.000 TL'lik ödünç alacağı için bilgisayarı tutma iddiası yerinde midir?\n3. Ajandanın alıkonulması hukuka uygun mudur?\n4. Şirket bilgisayarı satarak alacağını tahsil edebilir mi? Hangi şartlar gerekir ve takip hangi yoldan yürür?\n5. Şirket bilgisayarı Burak'a geri verir ve bilgisayarı geri alamaz hâle gelirse ne olur?",
+   "rubric": [
+    {
+     "point": "Tamir bedeli için hapis hakkının şartları: borçluya ait taşınır, borçlunun rızasıyla zilyetlik, muaccel borç, niteliği itibarıyla bağlantı",
+     "weight": 25,
+     "madde_ref": "TMK m. 950"
+    },
+    {
+     "point": "Ödünç alacağı için bağlantının bulunmaması; Burak tacir olmadığı için bağlantı karinesinin işlememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 950"
+    },
+    {
+     "point": "Paraya çevrilmeye elverişli olmayan ajandada hapis hakkının kullanılamaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 951"
+    },
+    {
+     "point": "Paraya çevirme için borcun yerine getirilmemesi, yeterli güvence gösterilmemesi ve borçluya önceden bildirim şartı",
+     "weight": 20,
+     "madde_ref": "TMK m. 953"
+    },
+    {
+     "point": "Hapis hakkının icra hukukunda taşınır rehni sayılması ve takibin rehnin paraya çevrilmesi yoluyla yürümesi",
+     "weight": 10,
+     "madde_ref": "İİK m. 23"
+    },
+    {
+     "point": "Zilyetliğin kaybı ve geri alamama ile hapis hakkının sona ermesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 943"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Şirketin elinde tuttuğu bilgisayar ve ajanda bakımından hapis hakkı (TMK m. 950 vd.) söz konusudur. Alacaklı şirket, borçlu Burak'tır.\n\n**Hukuki sorunlar:** (1) Tamir alacağı için hapis hakkının şartları; (2) ödünç alacağı için bağlantı; (3) hapis hakkının kullanılamayacağı şeyler; (4) paraya çevirme; (5) zilyetliğin kaybı.\n\n**İlgili hükümler:** TMK m. 950, 951, 953, 943; İİK m. 23/2, m. 45 ve m. 145.\n\n**Değerlendirme:**\n\n*1. Tamir bedeli:* Alacaklı, borçluya ait olup onun rızasıyla zilyedi bulunduğu taşınırı, borcun muaccel olması ve niteliği itibarıyla bu eşyanın alacakla bağlantısı bulunması hâlinde borç ödeninceye kadar hapsedebilir (TMK m. 950/1). Bilgisayar Burak'a aittir, Burak onu rızasıyla şirkete bırakmıştır, tamir bedeli muacceldir ve alacak tam da bu bilgisayarın tamirinden doğduğu için bağlantı niteliği gereği vardır. Hapis hakkının şartları gerçekleşmiştir. Tacirler arası karineye (TMK m. 950/2) ihtiyaç yoktur.\n\n*2. Ödünç alacağı:* 5.000 TL'lik eski ödünç alacağı bilgisayarın tamiriyle ilgili değildir; bilgisayar ile alacak arasında niteliği itibarıyla bağlantı yoktur. Zilyetlik ve alacak ticarî ilişkiden doğmuşsa tacirler arasında bağlantı var sayılır (TMK m. 950/2); ancak Burak tacir olmadığından karine işlemez. Bu alacak için bilgisayarı hapsetme iddiası yerinde değildir.\n\n*3. Ajanda:* Nitelikleri itibarıyla paraya çevrilmeye elverişli olmayan taşınırlar üzerinde hapis hakkı kullanılamaz (TMK m. 951/1). Şahsi notlarla dolu, ticarî değeri bulunmayan ajanda bu niteliktedir. Şirketin ajandayı alıkoyması hukuka uygun değildir ve ajanda geri verilmelidir.\n\n*4. Paraya çevirme:* Borç yerine getirilmez ve yeterli güvence de gösterilmezse alacaklı, borçluya daha önce bildirimde bulunarak hapsettiği şeylerin teslime bağlı rehin hükümleri uyarınca paraya çevrilmesini isteyebilir (TMK m. 953/1). Şirket, Burak'a haber vermeden satış yapamaz; önce bildirimde bulunmalı ve borç ödenmediği, güvence de gösterilmediği takdirde paraya çevirmeyi istemelidir. İİK m. 23/2 hapis hakkını taşınır rehni tabirine dâhil eder; bu nedenle takip rehnin paraya çevrilmesi yoluyla yürür (İİK m. 45/1; İİK m. 145).\n\n*5. Zilyetliğin kaybı:* Teslime bağlı rehin hükümleri hapis hakkına da uygulandığından, alacaklı zilyet olmaktan çıkar ve şeyi geri alamaz hâle gelirse hapis hakkı sona erer (TMK m. 943/1). Zilyetlik hapis hakkının hem doğum hem devam şartıdır; Yargıtay da zilyetliği olmayan şey üzerinde hapis hakkı bulunmadığını kabul eder.\n\n**Sonuç:**\n- Şirket, tamir bedeli için bilgisayarı hapsedebilir.\n- Ödünç alacağı için bilgisayar tutulamaz; bağlantı yoktur ve karine işlemez.\n- Ajanda paraya çevrilmeye elverişli olmadığından alıkonulamaz.\n- Satış için önceden bildirim, borcun ödenmemesi ve güvence gösterilmemesi gerekir; takip rehnin paraya çevrilmesi yoludur.\n- Bilgisayar geri verilip geri alınamazsa hapis hakkı sona erer."
+  },
+  {
+   "stem_md": "Selin, bir bankadan aldığı kredi için güvence arayışındadır. Önce bankayla Deniz'den olan ve senede bağlanmamış 200.000 TL'lik satış bedeli alacağını rehnetmek için sözlü anlaşır. Bir hafta sonra bankayla yazılı bir rehin sözleşmesi imzalanır ve rehin Deniz'e ihbar edilir. Deniz, ihbardan sonra bankanın rızasını almadan 200.000 TL'yi Selin'e öder.\n\nSelin ayrıca güvence olarak iki kıymetli evrakı da bankaya teslim eder: elindeki hamile yazılı bir tahvili ve kendisine ciro edilmiş, ama kendisinin ciro etmediği bir bonoyu. Bono, ciro edilmeksizin ve yazılı devir beyanı yapılmaksızın teslim edilmiştir. Selin aynı bankaya bir anonim şirketin pay senetlerini de rehnetmiştir. Daha sonra Selin, 200.000 TL'lik alacağı ikinci bir kredi için Z Bankası'na da rehnetmek ister.\n\n1. Sözlü anlaşma ile alacak rehni kurulur mu? Rehin hangi tarihte kurulmuştur? İhbar kuruluş şartı mıdır?\n2. Deniz'in ihbardan sonra bankanın rızası olmadan Selin'e ödemesi hukuken nasıl değerlendirilir?\n3. Tahvilin ve bononun teslimiyle rehin kurulmuş mudur?\n4. Pay senetlerinin rehni hâlinde genel kurulda kim temsil yetkisini kullanır?\n5. Z Bankası lehine ikinci rehnin geçerli olması için ne gerekir?",
+   "rubric": [
+    {
+     "point": "Alacak rehninin yazılı rehin sözleşmesiyle kurulması; sözlü anlaşmanın yetmemesi; ihbarın kuruluş şartı olmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 955"
+    },
+    {
+     "point": "Alacak ve hak rehninde aksine hüküm bulunmadıkça teslime bağlı rehin hükümlerinin uygulanması",
+     "weight": 10,
+     "madde_ref": "TMK m. 954"
+    },
+    {
+     "point": "Rehni ihbar edilmiş borçlunun ancak diğerinin rızasıyla ödeyebilmesi; rıza yoksa tevdi yükümlülüğü",
+     "weight": 20,
+     "madde_ref": "TMK m. 961"
+    },
+    {
+     "point": "Hamile yazılı tahvilde teslimin yeterli olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 956"
+    },
+    {
+     "point": "Diğer kıymetli evrak olan bonoda ciro veya yazılı devir beyanı olmadan teslimin yetmemesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 956"
+    },
+    {
+     "point": "Rehinli pay senetlerini genel kurulda pay sahibinin temsil etmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 960"
+    },
+    {
+     "point": "Rehinli alacak üzerinde sonraki rehnin önce gelen rehin alacaklısına yazılı bildirimle geçerli olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 958"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, alacak rehni (senede bağlı olmayan alacak) ile kıymetli evrak ve pay senedi rehnini kapsar. Rehneden Selin, rehin alacaklısı bankadır; borçlu Deniz'dir.\n\n**Hukuki sorunlar:** (1) Alacak rehninin kuruluşu ve ihbarın yeri; (2) ihbar edilmiş borçlunun ödemesi; (3) kıymetli evrak rehninin şekli; (4) rehinli pay senetlerinin temsili; (5) sonraki rehin.\n\n**İlgili hükümler:** TMK m. 954, 955/1-2, 956, 958, 960, 961/2-3.\n\n**Değerlendirme:**\n\n*1. Kuruluş:* Başkasına devredilebilen alacaklar rehnedilebilir ve bunların rehni hakkında aksine hüküm bulunmadıkça teslime bağlı rehin hükümleri uygulanır (TMK m. 954). Senede bağlanmış olan veya olmayan alacakların rehni için rehin sözleşmesinin yazılı şekilde yapılması gerekir (TMK m. 955/1). Sözlü anlaşma bu şekil şartını karşılamaz; rehin, yazılı sözleşmenin imzalandığı tarihte kurulmuştur. Alacaklı veya rehneden rehni borçluya ihbar edebilir (TMK m. 955/2); ihbar kuruluş şartı değildir. Bu olayda ihbar yapılmıştır ve etkisi ödeme rejiminde ortaya çıkar.\n\n*2. Deniz'in ödemesi:* Rehin kendisine ihbar edilmiş olan borçlu, borcunu asıl alacaklıya veya rehin alacaklısına ancak diğerinin rızasıyla ödeyebilir (TMK m. 961/2). Deniz, Selin'e ödeme yaparken bankanın rızasını almamıştır. Bu rızanın bulunmaması hâlinde borçlunun borcunu tevdi etmesi gerekirdi (TMK m. 961/3). Rızasız ödeme kanunun öngördüğü yola uymadığından Deniz'i bankaya karşı kurtaran bir ifa sayılamaz.\n\n*3. Kıymetli evrak:* Hamile yazılı senetlerin rehni için senetlerin rehin alacaklısına teslimi yeterlidir (TMK m. 956/1). Tahvil bankaya teslim edildiği için rehin kurulmuştur. Diğer kıymetli evrakın rehni için ise senedin ciro edilmiş veya yazılı devir beyanı yapılmış olarak teslimi gerekir (TMK m. 956/2). Bono ciro edilmeden ve yazılı devir beyanı yapılmadan teslim edildiğinden bu şekil şartı yerine gelmemiştir; yalnız teslimle rehin kurulmamıştır. Selin bonoyu ciro ederek ya da yazılı devir beyanıyla yeniden teslim ederse rehin kurulur.\n\n*4. Pay senetleri:* Ortaklık genel kurulunda rehinli pay senetlerini temsil etme yetkisi rehin alacaklısına değil, pay sahibine aittir (TMK m. 960). Yetkiyi Selin kullanır.\n\n*5. Sonraki rehin:* Rehinli bir alacak üzerinde sonra gelen bir rehnin kurulması, ancak rehnedenin veya sonra gelen rehin alacaklısının durumu önce gelen rehin alacaklısına yazılı olarak bildirmesi hâlinde geçerlidir (TMK m. 958). Z Bankası lehine rehin için Selin ya da Z Bankası ilk rehin alacaklısı olan bankaya durumu yazılı olarak bildirmelidir.\n\n**Sonuç:**\n- Alacak rehni, yazılı sözleşmenin imzalandığı tarihte kurulmuştur; sözlü anlaşma yetmez, ihbar kuruluş şartı değildir.\n- Deniz'in rızasız ödemesi bankaya karşı kanuna uygun bir ifa değildir; rıza yoksa tevdi gerekirdi.\n- Tahvil teslimle rehnedilmiş, bono ise ciro ya da yazılı devir beyanı olmadığından rehnedilmemiştir.\n- Pay senetlerini genel kurulda Selin temsil eder.\n- Z Bankası lehine rehin, ilk rehin alacaklısına yazılı bildirimle geçerli olur."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Teslime bağlı taşınır rehni nasıl kurulur? (TMK m. 939/1)",
+   "back_md": "Ayrık durumlar dışında taşınır, ancak zilyetliğin alacaklıya devriyle rehnedilir."
+  },
+  {
+   "front_md": "Taşınır yalnız rehnedenin hâkimiyetinde kalırsa ne olur?",
+   "back_md": "Rehin hakkı doğmaz (TMK m. 939/3). Kurulduktan sonra alacaklının rızasıyla rehnedene giderse rehin sona ermez, hükümleri askıda kalır (TMK m. 943/2)."
+  },
+  {
+   "front_md": "TMK m. 940 yürürlükte mi?",
+   "back_md": "Evet, mülga değil. Yalnız 'tüzükle' ibaresi 700 sayılı KHK ile 'Cumhurbaşkanınca çıkarılan yönetmelikle' olmuştur."
+  },
+  {
+   "front_md": "TMK m. 940'ın iki ayrık durumu?",
+   "back_md": "İzinli kuruluş ve kooperatifler lehine hayvan rehni icra dairesindeki özel sicile yazılarak; kendi siciline tescili zorunlu taşınırlarda rehin o sicile yazılarak, zilyetlik devredilmeden kurulur."
+  },
+  {
+   "front_md": "Art rehin ile alt rehin farkı?",
+   "back_md": "Art rehni malik kurar, rehinli alacaklıya yazılı bildirim gerekir (TMK m. 941). Alt rehni alacaklı kurar, rehnedenin rızası gerekir (TMK m. 942)."
+  },
+  {
+   "front_md": "Rızasız alt rehin yapan alacaklı?",
+   "back_md": "Bundan doğan bütün zararlardan sorumlu olur (TMK m. 945/2)."
+  },
+  {
+   "front_md": "Taşınır rehni ne zaman sona erer? (TMK m. 943/1)",
+   "back_md": "Alacaklının zilyet olmaktan çıkması ve onu zilyet olan üçüncü kişiden geri alamaz hâle gelmesiyle. İki şart birlikte aranır."
+  },
+  {
+   "front_md": "Alacak kısmen ödenmişse rehinli şey geri istenebilir mi?",
+   "back_md": "Hayır. Alacaklı alacağının tamamını almadıkça rehinli şeyi veya bir kısmını geri vermek zorunda değildir (TMK m. 944/2)."
+  },
+  {
+   "front_md": "Rehinli şeyin kaybında alacaklının sorumluluğu?",
+   "back_md": "Kusuru olmadan doğduğunu ispat etmedikçe sorumludur (TMK m. 945/1). İspat yükü alacaklıdadır."
+  },
+  {
+   "front_md": "Taşınır rehni hangi alacakları güvenceler? (TMK m. 946/2)",
+   "back_md": "Asıl alacak, sözleşme faizleri, takip giderleri ve gecikme faizi. Taşınmazdaki üç yıllık faiz sınırı yoktur."
+  },
+  {
+   "front_md": "Rehin sırası neye göre belirlenir? (TMK m. 948/2)",
+   "back_md": "Kuruluş tarihine göre. Derece sistemi yoktur."
+  },
+  {
+   "front_md": "Mülkiyetin alacaklıya geçeceğine dair kayıt?",
+   "back_md": "Sözleşme hükmü geçersizdir (TMK m. 949). Alacaklı yalnız rehnin paraya çevrilmesini isteyebilir."
+  },
+  {
+   "front_md": "Hapis hakkının şartları? (TMK m. 950/1)",
+   "back_md": "Borçluya ait taşınır ya da kıymetli evrak; borçlunun rızasıyla alacaklının zilyetliği; muaccel borç; niteliği itibarıyla bağlantı; TMK m. 951 engellerinin bulunmaması."
+  },
+  {
+   "front_md": "Hapis hakkında bağlantı karinesi?",
+   "back_md": "Zilyetlik ve alacak ticarî ilişkiden doğmuşsa tacirler arasında bağlantı var sayılır (TMK m. 950/2)."
+  },
+  {
+   "front_md": "Hapis hakkının kullanılamadığı hâller? (TMK m. 951)",
+   "back_md": "Paraya çevrilmeye elverişsiz taşınırlar; alacaklının üstlendiği yükümlülük, borçlunun talimatı ya da kamu düzeniyle bağdaşmayan hâller."
+  },
+  {
+   "front_md": "Borçlu ödemeden acze düşerse hapis hakkı?",
+   "back_md": "Alacak muaccel olmasa bile kullanılabilir (TMK m. 952/1)."
+  },
+  {
+   "front_md": "Hapsedilen şey nasıl paraya çevrilir? (TMK m. 953/1)",
+   "back_md": "Borç ödenmez ve yeterli güvence gösterilmezse, borçluya önceden bildirimde bulunarak teslime bağlı rehin hükümleri uyarınca."
+  },
+  {
+   "front_md": "İİK'da 'taşınır rehni' tabiri neleri kapsar? (İİK m. 23/2)",
+   "back_md": "Teslime bağlı rehinleri, TMK m. 940'taki rehinleri, ticarî işletme rehnini, hapis hakkını, alacak ve sair haklar üzerindeki rehinleri."
+  },
+  {
+   "front_md": "Alacak rehni nasıl kurulur? (TMK m. 955/1)",
+   "back_md": "Yazılı rehin sözleşmesiyle; senede bağlı alacakta ayrıca senedin teslimi gerekir. İhbar kuruluş şartı değildir."
+  },
+  {
+   "front_md": "Hamile yazılı senet ve diğer kıymetli evrakın rehni? (TMK m. 956)",
+   "back_md": "Hamile yazılı senette teslim yeter. Diğer kıymetli evrakta ciro ya da yazılı devir beyanıyla teslim gerekir."
+  },
+  {
+   "front_md": "Rehni ihbar edilmiş borçlu kime ödeyebilir? (TMK m. 961/2-3)",
+   "back_md": "Asıl alacaklıya ya da rehin alacaklısına ancak diğerinin rızasıyla; rıza yoksa borcunu tevdi eder."
+  },
+  {
+   "front_md": "6750 sayılı Kanunda rehin nasıl kurulur ve kimler arasında yapılır?",
+   "back_md": "Rehin sözleşmesinin Rehinli Taşınır Siciline tescil edilmesiyle kurulur (6750 sayılı Kanun m. 4/1). Taraflar sınırlıdır: kredi kuruluşu ile tacir, esnaf, çiftçi vb.; tacir ve/veya esnaflar (6750 sayılı Kanun m. 3)."
+  },
+  {
+   "front_md": "6750 sayılı Kanunda hüküm bulunmayan hâllerde ne uygulanır?",
+   "back_md": "TMK'nın taşınmaz rehnine ilişkin hükümleri (6750 sayılı Kanun m. 18). 7099 sayılı Kanunla 'taşınır' yerine 'taşınmaz' yazılmıştır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

@@ -1,0 +1,994 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 7,
+ "unit_title": "Ünite 7: Rehin Hakları",
+ "topic_index": 3,
+ "slug": "ipotekli-borc-senedi-ve-irat-senedi",
+ "title": "İpotekli Borç Senedi ve İrat Senedi",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:35:27.491374+00:00",
+ "skill_refs": [
+  "esya-hukuku/tasinmaz-rehni-ipotek"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Taşınmaz rehninin ipotek dışındaki iki türü nasıl kurulur, neyi güvence altına alır ve senet elden ele geçtiğinde kime karşı hangi sonuçları doğurur?\n\n- **Üç tür (TMK m. 850):** Taşınmaz rehni ancak ipotek, ipotekli borç senedi veya irat senedi şeklinde kurulur. İpotek önceki konuda işlendi; bu konu diğer ikisini ve ortak hükümleri (TMK m. 898 vd.) kapsar.\n- **İpotekli borç senedi (TMK m. 898):** Taşınmaz rehniyle güvence altına alınmış **kişisel bir alacak** doğurur. Tapu idaresi taşınmaza resmen değer biçer; biçilen değeri aşan miktar için rehin kurulamaz (TMK m. 899). Alacak, aksi kararlaştırılmadıkça faiz ödeme tarihinde, en az altı ay önce yapılan bildirimle muaccel olur (TMK m. 900). Borçtan kişisel sorumlu olmayan malik hakkında ipotek hükümleri uygulanır (TMK m. 901).\n- **İrat senedi (TMK m. 903):** Taşınmaz yükü şeklinde kurulmuş bir alacak hakkıdır; **kişisel borç doğurmaz**, borcun sebebini göstermez. Güvence ancak tarım arazisi, konut veya üzerinde bina yapılabilecek arsa olabilir. Alacak, tarım arazisinde gelir değerinin, diğer taşınmazlarda gelir değeri ile bina ve arsa değerleri ortalamasının **beşte üçünü** aşamaz (TMK m. 904). Değer biçmede özen gösterilmemesinden Devlet sorumludur (TMK m. 905).\n- **İrat senedinde süreler (TMK m. 906):** Malik, her **altı yıllık** dönem sonu için **bir yıl önce** bildirip bedeli ödeyerek yükten kurtarma isteyebilir. Alacaklı, kanundaki hâller dışında her **on yıllık** dönem sonu için bir yıl önce bildirimle ödeme isteyebilir. Borçlu her zaman yüklü taşınmazın maliki olur (TMK m. 907).\n- **Ortak hükümler:** Koşul ve karşı edim kaydı konamaz (TMK m. 909). Senedin düzenlenmesiyle dayanak borç ilişkisi yenileme yoluyla sona erer (TMK m. 910). Senedi tapu memuru düzenler; sonuçlar **tescil tarihinden** doğar (TMK m. 911 ve TMK m. 912). Senetler nama, hamile veya malik adına yazılabilir (TMK m. 914).\n- **Ödeme ve terkin:** Ödeme alacaklının yerleşim yerinde yapılır (TMK m. 916). Devirden sonra ana para ancak ödeme anında alacaklı olduğunu ispat edene ödenebilir (TMK m. 917). Tescil ancak rehin senedinin iptali üzerine terkin edilir (TMK m. 919); borcu ödeyen senedin iptal edilmemiş olarak geri verilmesini ister (TMK m. 928).\n- **Güven ve devir:** Kütükteki tescile ve senede iyiniyetle dayananlar korunur (TMK m. 920 ve TMK m. 921); çatışmada **kütük esas alınır** (TMK m. 922). Alacak senedin teslimiyle devredilir (TMK m. 923 ve TMK m. 924). Kayıp senedin iptalinde ibraz süresi **bir yıldır** (TMK m. 925); alacaklısı on yıldır bilinmeyen ve bu sürede faiz ödenmesi istenmemiş senet için ilan yoluna gidilir (TMK m. 926).\n- **Def'iler ve değişiklikler:** Borçlu yalnız tescilden veya senetten doğan def'ileri ve istemde bulunan alacaklıya karşı kişisel def'ileri ileri sürebilir (TMK m. 927). Tescil edilmeyen değişiklikler iyiniyetli kazanana karşı ileri sürülemez (TMK m. 929).\n- 📌 **Yeni:** TMK m. 913'te şekillerin belirlendiği düzenleyici işlem \"tüzük\" iken Cumhurbaşkanınca çıkarılan yönetmelik olmuştur (700 sayılı KHK ile).",
+  "content_md": "## 0. Konunun haritası\n\nTMK m. 850'ye göre taşınmaz rehni **ancak** ipotek, ipotekli borç senedi veya irat senedi şeklinde kurulabilir. İpoteği önceki konuda gördük. Bu konuda diğer iki türü ve ikisine ortak hükümleri (TMK m. 898 vd.) inceliyoruz. Taşınmaz rehninin genel kuralları üç türe de uygulanır: Rehin tescille kurulur ve sözleşme resmî şekle bağlıdır (TMK m. 856); tescilden sonra alacak için zamanaşımı işlemez (TMK m. 864). Bunlara burada yalnız değiniyoruz.\n\nÖğretide iki senedin uygulamada pek az kullanıldığı söylenir; bu tespit resmî bir kaynakla doğrulanmış değildir. Sınav açısından önemli olan, kuralların ve sürelerin ayrıntısıdır.\n\n| Tür | Ne doğurur? | Kişisel borç? |\n|---|---|---|\n| İpotek | Alacağa bağlı fer'i rehin (TMK m. 881) | Alacak ayrıca vardır |\n| İpotekli borç senedi | Alacak ve rehin birlikte (TMK m. 898) | Vardır |\n| İrat senedi | Taşınmaz yükü şeklinde alacak (TMK m. 903) | Yoktur |\n\n> ⚠️ **Sınavda dikkat:** Üç türü karıştırma. İpotekli borç senedi kişisel borç doğurur, irat senedi doğurmaz. İpotekte alacak rehinden ayrı bir ilişkidir ve rehin ona bağlıdır. Senet türlerinde ise alacak ve rehin aynı belgede birleşir.\n\n## 1. İpotekli borç senedi\n\n### 1.1 Nitelik (TMK m. 898)\n**İpotekli borç senedi**, taşınmaz rehniyle güvence altına alınmış kişisel bir alacak meydana getirir (TMK m. 898). Yani aynı işlemle hem bir **alacak** hem de onu güvenceleyen bir **rehin** doğar. İpotekte alacak genellikle ayrı bir sözleşmeye (örneğin kredi sözleşmesine) dayanır ve ipotek ona bağlı fer'i haktır. Senet türünde alacak, senedin kendisinden doğar.\n\nYargıtay'ın yaklaşımı da bu yöndedir: İpotek belgesi alacağın varlığını göstermez, yalnız rehin hakkının tescilini ispata yarar (TMK m. 882/2). İpotekli borç senedi ve irat senedi ise alacak hakkını da gösterir.\n\n> **Örnek:** Ali, Ayşe'den 400.000 TL borç alır. Taraflar ipotek yerine ipotekli borç senedi yolunu seçerse Ayşe'nin 400.000 TL'lik alacağı ve onu güvenceleyen rehin aynı senette doğar. Dayanak ödünç ilişkisi ise kanun gereği yenileme yoluyla sona erer (bölüm 3.2).\n\n### 1.2 Değer biçilmesi (TMK m. 899)\nİpotekli borç senedi yoluyla rehin kurulması için **tapu idaresi taşınmaza resmen değer biçer** (TMK m. 899/1). Biçilmiş değeri aşan miktar için bu yolla rehin kurulamaz (TMK m. 899/2).\n\n> **Örnek:** Mert'in dükkânına tapu idaresince 1.000.000 TL değer biçilmiştir. Mert 1.200.000 TL'lik ipotekli borç senedi düzenletemez; senet en çok 1.000.000 TL'ye kadar olabilir.\n\n> ⚠️ **Sınavda dikkat:** \"Beşte üç\" oranı **irat senedine** aittir (TMK m. 904). İpotekli borç senedinin sınırı biçilmiş değerin kendisidir. Oranı ipotekli borç senedine taşımak sık yapılan hatadır.\n\n### 1.3 Muacceliyet bildirimi (TMK m. 900)\nTarafların aksi yönde bir anlaşması yoksa ipotekli borç senedindeki alacak, **faizlerin ödenmesi gereken tarihte** muaccel olur; bunun için bu tarihten **en az altı ay önce** alacaklı veya borçlunun diğer tarafa bir bildirim yapması gerekir (TMK m. 900).\n\n> **Örnek:** Senette faizler her 1 Eylül'de ödenir. Ayşe, alacağın 1 Eylül'de muaccel olmasını istiyorsa en geç 1 Mart'ta Ali'ye bildirim yapmalıdır. Bildirim 15 Nisan'da yapılırsa o yılki 1 Eylül için yetmez, çünkü altı aylık süre dolmamıştır.\n\n\n### 1.4 Borçtan sorumlu olmayan malik (TMK m. 901)\nİpotekli borç senedinde borçlu ile taşınmazın maliki ayrı kişiler olabilir. Borçtan **kişisel olarak sorumlu olmayan** malik hakkında ipoteğe ilişkin hükümler uygulanır (TMK m. 901/1). Bu malik, alacaklıya karşı borçluya ait bütün def'ileri ileri sürebilir (TMK m. 901/2). Bu hükmün TMK m. 927 ile ilişkisi tartışmalıdır (doktrin bölümüne bak).\n\n> **Örnek:** Kemal'in bankadan aldığı krediyi güvenceleyen ipotekli borç senedi için kardeşi Elif kendi dairesini rehin vermiştir. Elif borçlu değildir; yalnız dairesiyle sorumludur. Elif'e karşı ipotek hükümleri uygulanır.\n\n### 1.5 Devir ve bölünme (TMK m. 902)\nGüvence olan taşınmazın devrinin veya bölünmesinin sonuçlarında **ipotek hükümleri** uygulanır (TMK m. 902). Ayrıntı ipotek konusundadır (TMK m. 888, TMK m. 889 ve TMK m. 890). Örneğin yeni malik borcu yüklenirse alacaklı, bir yıl içinde önceki borçluya yazılı olarak başvuru hakkını saklı tuttuğunu bildirmezse önceki borçlu borcundan kurtulur (TMK m. 888/2; bölünmede TMK m. 889/3).\n\n## 2. İrat senedi\n\n### 2.1 Nitelik ve konu (TMK m. 903)\n**İrat senedi**, bir taşınmaz üzerinde **taşınmaz yükü** şeklinde kurulmuş bir alacak hakkı meydana getirir (TMK m. 903/1). Bu bağlantıyı unutma: Para alacağını güvence altına almak için kurulan taşınmaz yüküne irat senedi hükümleri uygulanır (TMK m. 842), ve taşınmaz yükü kural olarak yükümlüye karşı kişisel alacak hakkı vermez, alacaklıya yalnız alacağını yüklü taşınmazın değerinden elde etme yetkisi tanır (TMK m. 848/1). Taşınmaz yükünün genel kuralları ayrı bir konudur; TMK m. 839/3 de irat senedini saklı tutar.\n\nİrat senedinin güvencesini ancak şunlar oluşturabilir (TMK m. 903/2):\n- tarım arazisi,\n- konutlar,\n- üzerinde bina yapılabilecek arsalar.\n\nSon ve çok önemli kural: İrat senedi **kişisel borç doğurmaz** ve borcun sebebini de göstermez (TMK m. 903/3). Alacaklı yalnız yüklü taşınmaza başvurabilir.\n\n> **Örnek:** Zeynep'in tarım arazisi üzerinde Can lehine irat senedi kurulur. Zeynep arazi karşılığı alacağı ödemezse Can araziye başvurur; ana alacak bakımından Zeynep'in diğer malvarlığına doğrudan gidemez.\n\n### 2.2 Sorumluluğun sınırı (TMK m. 904)\nİrat senedindeki alacak miktarı şu sınırı aşamaz (TMK m. 904/1):\n- **tarım arazisinde:** arazinin gelir değerinin beşte üçü;\n- **diğer taşınmazlarda:** taşınmazın gelir değeri ile bina ve arsa değerleri ortalamasının beşte üçü.\n\nBu değerlendirmeleri tapu idaresi resmen yapar (TMK m. 904/2). Taraflar sınırı kendileri belirleyemez.\n\n> **Örnek:** Tapu idaresi Zeynep'in tarım arazisinin gelir değerini 500.000 TL olarak belirlemiştir. Sınır 500.000 × 3/5 = 300.000 TL'dir. Taraflar 350.000 TL'lik irat senedi düzenletemez.\n\n### 2.3 Devletin sorumluluğu (TMK m. 905)\nDeğer biçilirken gereken özenin gösterilmemesinden **Devlet sorumludur**; Devlet, kusuru olan memurlara rücu edebilir (TMK m. 905). Tapu sicilinden doğan zararlar için Devletin genel sorumluluğu ise TMK m. 1007'dedir.\n\n### 2.4 Yükten kurtarma ve ödeme istemi (TMK m. 906)\nİrat senedi süreklidir; tarafların elinde iki ayrı çıkış yolu vardır, süreleri karıştırma:\n\n| Kim? | Dönem | Bildirim |\n|---|---|---|\n| Malik (yükten kurtarma) | Her altı yıllık dönem sonu | Bir yıl önce |\n| Alacaklı (ödeme isteme) | Her on yıllık dönem sonu | Bir yıl önce |\n\nMalik, sözleşmeyle daha uzun bir bildirim süresi kabul edilmiş olsa bile bu hakkı kullanabilir; ancak bildirmek **ve bedelini ödemek** zorundadır (TMK m. 906/1). Alacaklı ise kanunda öngörülen hâller dışında ancak her on yıllık dönemin sonu için bir yıl önce bildirim yaparak borcun ödenmesini isteyebilir (TMK m. 906/2).\n\n> **Örnek:** Zeynep ile Can sözleşmede, malikin yükten kurtarma için iki yıl önceden bildirimde bulunacağını kararlaştırmıştır. Araziyi satın alan Burak yine de altı yıllık dönemin sonu için bir yıl önce bildirip bedeli ödeyerek yükten kurtarma isteyebilir; iki yıllık süre onu bağlamaz.\n\n### 2.5 Borçlu kimdir? (TMK m. 907)\nİrat senedinin borçlusu **yüklü taşınmazın malikidir** (TMK m. 907/1). Yüklü taşınmazı edinen kimse irat senedinin borçlusu olur ve eski malik **başka bir işleme gerek kalmaksızın** borcundan kurtulur (TMK m. 907/2). Faiz borçları, taşınmazla güvenceye bağlı olmaktan çıktığı tarihten başlayarak malikin kişisel borcu olur (TMK m. 907/3).\n\nBu, ipoteğe göre büyük bir farktır. İpotekte borcu yeni malikin yüklenmesi ve alacaklının bir yıllık süre içindeki tutumu önemlidir (TMK m. 888/2). İrat senedinde borçlu zaten her zaman maliktir.\n\n> **Örnek:** Zeynep arazisini Burak'a satar ve tescil yapılır. Burak irat senedinin borçlusu olur; Zeynep Can'ın bir bildirimini beklemeden kurtulur.\n\n### 2.6 Bölünme (TMK m. 908)\nYüklü taşınmaz bölünürse parsellerin malikleri borçlu olur; borcun parsellere dağıtımında ipotekli taşınmazın bölünmesine ilişkin hükümler uygulanır. Alacaklı, borcun parsellere dağıtımının kesinleşmesinden başlayarak **bir ay içinde** yapacağı bildirimle **bir yıl içinde irat senedinin satın alınmasını** isteyebilir (TMK m. 908/3).\n\n> ⚠️ **Sınavda dikkat:** İpotekte bölünme halinde dağıtımı kabul etmeyen alacaklı, dağıtımın kesinleştiğinin kendisine tebliğinden başlayarak bir ay içinde yazılı bildirimle alacağın bir yıl içinde **ödenmesini** borçludan ister (TMK m. 889/2). İrat senedinde ise bir ay, dağıtımın kesinleşmesinden başlar ve bir yıl içinde **senedin satın alınması** istenir (TMK m. 908/3). Süreler (bir ay, bir yıl) aynı, istenen şey farklıdır.\n\n## 3. Ortak hükümler\n\n### 3.1 Koşul ve karşı edim yasağı (TMK m. 909)\nİpotekli borç senedi ve irat senedi **koşul ve karşı edim kaydı içeremez** (TMK m. 909).\n\n> **Örnek:** Senede \"alacaklı malı teslim ederse ödenecektir\" kaydı konulamaz. Kayıt, hem koşul hem karşı edim niteliği taşır.\n\n### 3.2 Dayanak borçla ilişki (TMK m. 910)\nSenedin düzenlenmesiyle birlikte dayanağı olan borç ilişkisi **yenileme yoluyla sona erir** (TMK m. 910/1). Bunun aksine yapılan sözleşme yalnız tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler (TMK m. 910/2).\n\nKarşılaştırmak için: TBK m. 133'e göre yenileme için tarafların açık iradesi gerekir ve yeni bir alacak senedi düzenlenmesi açık irade olmadıkça yenileme sayılmaz. TMK m. 910 ise yenilemeyi kanun gereği sonuç olarak bağlar. Bu hükmün niteliği doktrinde tartışmalıdır.\n\n### 3.3 Tescil ve rehin senedi (TMK m. 911-913)\nTescilden başka bir de **rehin senedi** düzenlenir. Senet daha sonra düzenlenmiş olsa bile hukuki sonuçlarını **tescil tarihinden** başlayarak doğurur (TMK m. 911/2).\n\nRehin senedini **tapu memuru** düzenler (TMK m. 912/1). Senet üzerinde tapu memuru ile **yetkili Hazine temsilcisinin** imzaları bulunur (TMK m. 912/2). Senet alacaklıya veya temsilcisine ancak **borçlunun ve yüklü taşınmazın malikinin yazılı rızaları** üzerine verilebilir (TMK m. 912/3). Şekilleri Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir (TMK m. 913).\n\n> 📌 **Kesin bilgi (yeni):** TMK m. 913'te yer alan \"tüzükle\" ibaresi, 700 sayılı KHK'nin 139. maddesiyle (2 Temmuz 2018) \"Cumhurbaşkanınca çıkarılan yönetmelikle\" şeklinde değiştirilmiştir. Hükümet sistemine uyum değişikliğidir; hükmün esasını değiştirmez.\n\n> **Örnek:** Rehin 1 Mart'ta tescil edilir, senet 15 Mart'ta düzenlenir. Hukuki sonuçlar 15 Mart'tan değil 1 Mart'tan başlar (TMK m. 911/2).\n\n### 3.4 Alacaklının belirlenmesi ve ortak temsilci (TMK m. 914-915)\nSenetler **nama** veya **hamile** yazılı düzenlenebilir; ayrıca yüklü taşınmazın **maliki adına** da düzenlenebilir (TMK m. 914). Malik adına düzenlenen senedin niteliği (malik rehni) öğretide tartışmalıdır; burada yalnız kanun metniyle yetin.\n\nSenet düzenlenirken alacaklı, borçlu ve malik, ödemeleri yapmak ve tahsil etmek, tebliğleri almak ve güvencenin azalmasına rıza göstermek gibi işler için bir **ortak temsilci** atayabilir. Temsilci herkesin haklarını tam bir özen ve tarafsızlıkla korur; adı tapu kütüğüne ve rehin senedine yazılır (TMK m. 915). Yetki sona erer ve ilgililer anlaşamazsa sulh hâkimi gerekli önlemleri alır.\n\n### 3.5 Ödeme (TMK m. 916-917)\n- **Ödeme yeri:** Senetten aksi anlaşılmadıkça, senet **hamile yazılı olsa bile** borçlu bütün ödemelerini **alacaklının yerleşim yerinde** yapmak zorundadır (TMK m. 916/1). Senedin faiz kuponları varsa faiz ödemesi kuponu ibraz edene yapılır (TMK m. 916/3).\n- **Devirden sonra:** Alacak devredildiğinde borçlu, kendisine bildirilmemişse, kupona bağlı olmayan faiz ve yıllık edimleri eski alacaklıya ödeyebilir (TMK m. 917/1). Ana paranın tamamen veya kısmen ödenmesi ise **ancak ödeme zamanında kendisinin alacaklı olduğunu ispat eden kimseye** yapılmışsa geçerlidir (TMK m. 917/2).\n\n> **Örnek:** Hasan İzmir'de, borçlu Ayşe Ankara'da oturur. Senetten aksi anlaşılmıyorsa Ayşe, hamile yazılı olsa bile ödemelerini İzmir'de yapmak zorundadır.\n\n> ⚠️ **Sınavda dikkat:** Devrin bildirilmemesi kolaylığı yalnız **kupona bağlı olmayan faiz ve yıllık edimler** içindir. Ana para ödemesinde bu kolaylık yoktur; yanlış kişiye ödeyen borçlu kurtulamaz.\n\n### 3.6 Alacaklı olmaması, terkin ve geri verme (TMK m. 918, 919 ve 928)\nAlacaklı yoksa veya rehin hakkından feragat ederse borçlu, tapu kütüğündeki tescili terkin ettirip ettirmemekte serbesttir; zilyetliğine geçmiş senedi yeniden tedavüle çıkarabilir (TMK m. 918). Borcun ödenmesi tek başına kaydı sildirmez: Tescil **ancak tarafların veya mahkemenin rehin senedini iptal etmesi üzerine** terkin edilebilir (TMK m. 919). Borcun tamamını ödeyen borçlu, alacaklıdan senedin **iptal edilmemiş olarak** geri verilmesini isteyebilir (TMK m. 928).\n\n> **Örnek:** Elif, ipotekli borç senedi borcunu tamamen öder. Kemal'den senedi geri alır (TMK m. 928). Tapu kaydının silinmesi içinse senedin iptali gerekir (TMK m. 919). İptal edilmeden geri aldığı senedi yeniden tedavüle çıkarıp çıkaramayacağı ise TMK m. 918/2 ve malik rehni tartışmasına bağlıdır (doktrin bölümüne bak).\n\n> ⚠️ **Sınavda dikkat:** TMK m. 883/2'deki otuz günlük terkin kuralı **ipoteğe özgüdür**. 7181 sayılı Kanunla eklenen bu hükme göre süreli kurulan ipotekte sürenin bitiminden itibaren otuz gün içinde gerekli icra şerhi konulmazsa ipotek malikin talebiyle tapu müdürlüğünce terkin edilir. İpotekli borç senedinde terkin kuralı TMK m. 919'dur; bu otuz günlük kural senet için aranmaz.\n\n### 3.7 İyiniyetin korunması (TMK m. 920-922)\nÜç hüküm birlikte güven ilkesini kurar:\n1. **Tescil bakımından:** Alacak, tapu kütüğüne iyiniyetle dayanan herkes için kütükteki tescile göre geçerlidir (TMK m. 920).\n2. **Senet bakımından:** Usulüne göre düzenlenmiş senet, ona iyiniyetle dayanan herkes hakkında içinde yazılanlara göre geçerlidir (TMK m. 921).\n3. **Çatışma:** Senetteki yazı kütükteki tescile uymazsa veya tescil yoksa **kütük esas alınır**. Senedi iyiniyetle edinen kimse tapu kütüğüne ilişkin hükümler uyarınca tazminat isteyebilir (TMK m. 922; ilgili tazminat için bkz. TMK m. 1007).\n\n> **Örnek:** Senette 300.000 TL, kütükte 250.000 TL yazıyor. Senedi iyiniyetle devralan Selin için kütük esas alınır; Selin 50.000 TL'lik fark için ancak tazminat isteyebilir (TMK m. 922).\n\nBu hükümlerin sınırı doktrinde tartışmalıdır; sınavda TMK m. 922'nin açık lafzıyla yetin.\n\n### 3.8 Hakkın ileri sürülmesi ve devir (TMK m. 923-924)\nNama veya hamile yazılı senetteki alacak, ancak **senet üzerindeki zilyetlikle birlikte** devredilebilir, rehnedilebilir veya başka bir tasarrufa konu olabilir (TMK m. 923/1). Senetler henüz düzenlenmemişse veya mahkeme tarafından iptal edilmişse alacağı ileri sürme hakkı saklıdır (TMK m. 923/2). Alacağın devri **rehin senedinin teslim edilmesine bağlıdır**; nama yazılı senette devralanın adı ve devir işlemi senet üzerine yazılır (TMK m. 924).\n\nSenet bir **kıymetli evrak** gibi işler. TTK m. 645 kıymetli evrakı, içerdiği hakkın senetten ayrı olarak ileri sürülemediği ve başkalarına devredilemediği senet olarak tanımlar; TTK m. 669 da hamile yazılı ipotekli borç senedi ve irat senedine ilişkin özel hükümleri saklı tutar. İki senedin kıymetli evrak olduğu öğretide kabul edilir.\n\n| Konu | İpotek | Senet türleri |\n|---|---|---|\n| Alacağın devri | Tescile bağlı değil (TMK m. 891), yazılı şekil (TBK m. 184) | Senedin teslimi (TMK m. 924) |\n| Belge | Kıymetli evrak değil (TMK m. 882/2) | Rehin senedi (TMK m. 911) |\n| Terkin | Alacak sona erince malik ister (TMK m. 883/1) | Senedin iptali üzerine (TMK m. 919) |\n\n> **Örnek:** Ayşe hamile yazılı senedin alacağını Mehmet'e devretmek ister. Senedi Mehmet'e teslim etmesi gerekir (TMK m. 924). Ayşe yalnız adi yazılı bir devir sözleşmesi yapıp senedi vermezse devir senet bakımından tamamlanmaz.\n\n### 3.9 Kayıp ve ilan (TMK m. 925-926)\n- **Kayıp senet:** Senet irade dışında elden çıkmış (çalınmış) veya borcu sona erdirme kastı olmadan yok edilmişse alacaklı, senedi mahkeme kararıyla iptal ettirerek borçludan ödemeyi, alacak henüz muaccel değilse yeni bir senet düzenlenmesini isteyebilir. İptal, hamile yazılı kıymetli evrakın iptali hükümlerine göre verilir; ancak **ibraz süresi bir yıldır** (TMK m. 925/2). Borçlu da ödenmiş ama geri verilmemiş senedin iptalini isteyebilir (TMK m. 925/3).\n- **Bilinmeyen alacaklı:** Alacaklının kim olduğu **on yıldan beri bilinmiyor** ve bu süre içinde **faiz ödenmesi de istenmemişse** malik, gaipliğe ilişkin hükümlere göre ilan yapılmasını hâkimden isteyebilir. Alacaklı çıkmaz ve büyük bir olasılıkla alacağın artık mevcut olmadığı anlaşılırsa hâkim senedi iptal eder; bu kararla rehin derecesi boşalır (TMK m. 926).\n\n> ⚠️ **Sınavda dikkat:** TMK m. 925/2'de ibraz süresi **bir yıldır**. Genel hamile yazılı senette ise sürenin en az altı ay olarak belirlenmesi gerekir (TTK m. 663). TMK m. 926'daki iki şart (on yıl bilinmezlik ve faiz istenmemesi) **birlikte** aranır.\n\n### 3.10 Def'iler, geri verme ve değişiklikler (TMK m. 927 ve 929)\nBorçlu yalnız **tescilden veya senetten doğan def'ileri** ve istemde bulunan alacaklıya karşı sahip olduğu **kişisel def'ileri** ileri sürebilir (TMK m. 927). Bu sınır, senedi edinen üçüncü kişinin güvenini korur.\n\nKısmi ödeme, borç yükünün hafifletilmesi veya güvencenin azaltılması gibi değişiklikler borçlunun isteğiyle tescil edilebilir; tapu memuru bunları senet üzerine de yazar (TMK m. 929/1-2). Değişiklikler **tescil edilmemişse**, senette yazılı yıllık edimlerin ödenmiş olması dışında, senedi iyiniyetle kazanan kimseye karşı ileri sürülemez (TMK m. 929/3).\n\n> **Örnek:** Ali, ipotekli borç senedinin alacaklısı Ayşe'ye ana paradan 100.000 TL öder, ama ödeme tapuya ve senede işlenmez. Ayşe senedi iyiniyetli Mehmet'e devreder. Ali bu ödemeyi Mehmet'e karşı ileri süremez; Mehmet 400.000 TL'lik senet alacağını isteyebilir (TMK m. 929/3). Ali ödemeyi tescil ettirip senede yazdırmalıydı.\n\n## 4. İcra hukuku bağlantısı\n\nİki küçük bağlantı bilmek yeterlidir:\n- İpotek ve ipotekli borç senediyle temin edilmiş borcun satışta müşteriye devrolunması halinde asıl borçlunun kurtulması, alacaklının başvuru hakkının saklı olduğunu ihaleden itibaren bir sene içinde kendisine bildirmemiş olmasına bağlıdır (İİK m. 125/2).\n- Rehin açığı (rehnin paraya çevrilmesiyle karşılanamayan alacak) için haciz veya iflas yoluna, kural olarak, alacağı irat senedinden veya taşınmaz mükellefiyetinden doğmayan alacaklı gidebilir (İİK m. 152/2). Hükmün ters anlamı şudur: İrat senedi alacaklısı bu yollara gidemez. Bu sonuç TMK m. 903/3 ile uyumludur (metinlerin birlikte okunmasından çıkar). Satış yapılmamışsa artırma gününden, yapılmışsa satışın kesinleşmesinden itibaren bir sene içinde haciz yoluyla takip talep edilirse yeniden icra veya ödeme emri gönderilmesi gerekmez (İİK m. 152/3).\n\n## 5. İpotek ile ipotekli borç senedinin farkı\n\n| Ölçüt | İpotek | İpotekli borç senedi |\n|---|---|---|\n| Alacakla ilişki | Alacağa bağlı fer'i hak (TMK m. 881) | Kişisel alacak ve rehin birlikte (TMK m. 898) |\n| Temel borç | Devam eder | Yenilemeyle sona erer (TMK m. 910) |\n| Değer biçme | Aranmaz | Resmî değer; aşan miktara rehin kurulamaz (TMK m. 899) |\n| Belge | Kıymetli evrak değil (TMK m. 882/2) | Rehin senedi (TMK m. 911) |\n| Terkin | Malik ister (TMK m. 883) | Senedin iptali (TMK m. 919) |\n\n> 💡 **Püf nokta:** Senet türlerini \"belge\" kelimesiyle hatırla. İpotekte belge sadece tescili ispatlar; senet türlerinde belge **hakkın kendisini** taşır. Devir, ödeme, kayıp ve iptal kuralları bu yüzden senet etrafında dönüyor.\n\n> ⚠️ **Sınavda dikkat:** Taraflar belgeye \"ipotekli borç senedi\" dese bile nitelendirme adlandırmaya göre yapılmaz. Resmî değer biçilmesi ve ayrıca rehin senedi düzenlenmesi gibi unsurlara bakılır (TMK m. 899, TMK m. 911 ve TMK m. 912).\n\n## 6. Olay çözerken denetim şeması\n1. **Hangi tür?** İpotek mi, ipotekli borç senedi mi, irat senedi mi (TMK m. 850)? Kişisel borç doğuyor mu (TMK m. 898 ve TMK m. 903/3)?\n2. **Kuruluş:** Tapu idaresince değer biçilmiş mi, miktar sınırı aşılmış mı (TMK m. 899, TMK m. 904)? Taşınmaz irat senedine elverişli mi (TMK m. 903/2)? Koşul veya karşı edim kaydı var mı (TMK m. 909)?\n3. **Belge:** Senet tapu memurunca düzenlenmiş, Hazine temsilcisi imzalamış, borçlu ve malik rıza vermiş mi (TMK m. 912)? Sonuçlar tescil tarihinden mi doğuyor (TMK m. 911/2)?\n4. **Süre:** Muacceliyet bildirimi (altı ay) mı, yükten kurtarma (altı yıl ve bir yıl önce) mı, alacaklının ödeme isteme hakkı (on yıl ve bir yıl önce) mı (TMK m. 900, TMK m. 906)?\n5. **Kişiler:** Borçlu kim (TMK m. 901 ve TMK m. 907)? Devir teslimle yapılmış mı (TMK m. 923/1, TMK m. 924)?\n6. **Ödeme ve terkin:** Ödeme yeri ve doğru kişi (TMK m. 916 ve TMK m. 917)? Terkin için senet iptal edilmiş mi (TMK m. 919, TMK m. 928)?\n7. **Güven:** Senet ile kütük çelişiyor mu (TMK m. 922)? Tescil edilmemiş değişiklik iyiniyetli kazanana karşı ileri sürülebilir mi (TMK m. 929/3)?",
+  "critical_md": "- 📌 Taşınmaz rehni yalnız üç türde kurulur: ipotek, ipotekli borç senedi, irat senedi (TMK m. 850). İpotekli borç senedi rehinle güvenceli kişisel alacak doğurur (TMK m. 898); irat senedi taşınmaz yükü şeklinde alacak hakkı doğurur ve kişisel borç doğurmaz (TMK m. 903).\n- ⚠️ İpotekli borç senedinde sınır tapu idaresince biçilen değerdir; aşan miktar için rehin kurulamaz (TMK m. 899/2). \"Beşte üç\" yalnız irat senedinindir (TMK m. 904/1).\n- 📌 İpotekli borç senedinde alacak, aksi kararlaştırılmadıkça faiz ödeme tarihinde ve bu tarihten en az altı ay önce yapılan bildirimle muaccel olur (TMK m. 900).\n- 📌 İrat senedinin güvencesi yalnız tarım arazisi, konut ve üzerinde bina yapılabilecek arsa olabilir (TMK m. 903/2). Alacak, tarım arazisinde gelir değerinin beşte üçünü aşamaz (TMK m. 904/1).\n- 📌 Değer biçmede özen gösterilmemesinden Devlet sorumludur; kusurlu memura rücu edebilir (TMK m. 905).\n- ⚠️ Süreleri karıştırma: malik her altı yıllık dönem sonu için bir yıl önce bildirip bedeli ödeyerek yükten kurtarma ister (TMK m. 906/1); alacaklı her on yıllık dönem sonu için bir yıl önce bildirimle ödeme ister (TMK m. 906/2). Sözleşmedeki daha uzun süre malikin hakkını engellemez.\n- 📌 İrat senedinin borçlusu her zaman yüklü taşınmazın malikidir; edinen borçlu olur, eski malik başka işleme gerek kalmaksızın kurtulur (TMK m. 907/1-2).\n- ⚠️ Bölünmede alacaklı bir ay içinde bildirir: ipotekte bir yıl içinde ödeme (TMK m. 889/2), irat senedinde bir yıl içinde senedin satın alınmasını ister (TMK m. 908/3).\n- 📌 İki senet de koşul ve karşı edim kaydı içeremez (TMK m. 909). Düzenlenmeleriyle dayanak borç ilişkisi yenileme yoluyla sona erer; aksine sözleşme yalnız tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler (TMK m. 910).\n- 📌 Senedi tapu memuru düzenler; üzerinde tapu memuru ve yetkili Hazine temsilcisinin imzası bulunur; alacaklıya ancak borçlunun ve malikin yazılı rızasıyla verilir (TMK m. 912). Sonuçlar tescil tarihinden doğar (TMK m. 911/2).\n- ⚠️ Ödeme, hamile yazılı senette de alacaklının yerleşim yerinde yapılır (TMK m. 916/1). Devirden sonra ana para ancak ödeme anında alacaklı olduğunu ispat edene ödenir (TMK m. 917/2).\n- ⚠️ Borcun ödenmesi tescili kendiliğinden silmez; terkin ancak senedin iptali üzerine olur (TMK m. 919). TMK m. 883/2'deki otuz günlük terkin kuralı ipoteğe özgüdür.\n- 📌 Senet ile kütük çelişirse kütük esas alınır; senedi iyiniyetle edinen tazminat isteyebilir (TMK m. 922). Alacak senedin teslimiyle devredilir (TMK m. 924).\n- ⚠️ Kayıp senedin iptalinde ibraz süresi bir yıldır (TMK m. 925/2); genel hamile yazılı senette süre en az altı aydır (TTK m. 663). TMK m. 926'da on yıl bilinmezlik ve faiz istenmemesi birlikte aranır.",
+  "doctrine_md": "### Senet alacağı soyut mudur?\nBir görüş, TMK m. 909 ve TMK m. 910'u birlikte okuyarak ipotekli borç senedinden doğan alacağın temel borç ilişkisinden kopuk, **soyut** bir alacak olduğunu söyler: Koşul ve karşı edim kaydı konamaz, dayanak borç yenilenerek sona erer. Karşı görüşe göre TMK m. 910/2 aksine sözleşme yapılmasına, TMK m. 927 ise alacaklıya karşı kişisel def'ilere izin verdiğinden soyutluk tam değildir ve ancak iyiniyetli üçüncü kişilere karşı işler. İrat senedinde kanun daha açıktır: Borcun sebebi senette gösterilmez (TMK m. 903/3). Yargıtay'ın bu konudaki tutumu bulunamamıştır.\n\n### TMK m. 910'daki yenilemenin niteliği\nBir görüş bunu TBK m. 133'e istisna oluşturan kanuni yenileme sayar ve temel borcun kesin olarak sona erdiğini kabul eder. Karşı görüş, aksine sözleşme varsa temel borcun senet borcuyla birlikte yaşayabildiğini savunur. Her iki görüşte de sınav için güvenli ifade: \"Kanun yenileme sonucunu bağlar; aksine sözleşme yalnız tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler.\"\n\n### TMK m. 901/2 ile TMK m. 927\nTMK m. 901/2, borçtan sorumlu olmayan malikin borçluya ait \"bütün\" def'ileri ileri sürebileceğini söyler. Bir görüşe göre malik, borçlunun iyiniyetli hamile karşı ileri süremeyeceği def'iyi de ileri süremez; yani TMK m. 927'nin sınırı malik için de geçerlidir. Karşı görüş, maddenin lafzındaki \"bütün def'iler\" ifadesine dayanır.\n\n### TMK m. 921 ile TMK m. 922 arasındaki sınır\nTMK m. 921 senede güven duyanı korur; TMK m. 922 ise senet ile kütük çatıştığında kütüğü esas alıp senedi iyiniyetle edinene tazminat tanır. İki hükmün tam sınırı tartışmalıdır. Olay çözerken yalnız TMK m. 922'nin açık lafzını kullanmak güvenlidir.\n\n### Malik adına düzenlenen senet\nTMK m. 914/2 senedin yüklü taşınmazın maliki adına da düzenlenebileceğini, TMK m. 918/2 ise borçlunun zilyetliğine geçen senedi yeniden tedavüle çıkarabileceğini söyler. Bu durumda ortaya çıkan \"malik rehni\"nin niteliği öğretide tartışılır. Kanun metni dışına çıkmadan, malikin kendi taşınmazı üzerinde senet çıkarıp bunu devredebildiğini söylemekle yetinmek gerekir.",
+  "glossary": [
+   {
+    "term": "İpotekli borç senedi",
+    "definition": "Taşınmaz rehniyle güvence altına alınmış kişisel bir alacak meydana getiren rehin senedi (TMK m. 898)."
+   },
+   {
+    "term": "İrat senedi",
+    "definition": "Taşınmaz yükü şeklinde kurulmuş bir alacak hakkı doğuran, kişisel borç doğurmayan ve borcun sebebini göstermeyen senet (TMK m. 903)."
+   },
+   {
+    "term": "Rehin senedi",
+    "definition": "Tescilin yanında tapu memuru tarafından düzenlenen, alacak hakkını taşıyan belge. Alacak ancak bu senetle birlikte devredilir (TMK m. 911, TMK m. 912 ve TMK m. 923)."
+   },
+   {
+    "term": "Biçilmiş değer",
+    "definition": "İpotekli borç senedi için tapu idaresince taşınmaza resmen biçilen değer. Aşan miktar için rehin kurulamaz (TMK m. 899)."
+   },
+   {
+    "term": "Gelir değeri",
+    "definition": "İrat senedinde alacağın sınırını belirleyen ölçü. Tarım arazisinde yalnız gelir değeri, diğer taşınmazlarda gelir değeri ile bina ve arsa değerleri ortalaması esas alınır; sınır bunun beşte üçüdür (TMK m. 904)."
+   },
+   {
+    "term": "Yükten kurtarma",
+    "definition": "İrat senedinde malikin, her altı yıllık dönem sonu için bir yıl önce bildirip bedeli ödeyerek taşınmazı yükten kurtarmayı istemesi (TMK m. 906/1)."
+   },
+   {
+    "term": "Muacceliyet bildirimi",
+    "definition": "İpotekli borç senedindeki alacağı, faiz ödeme tarihinde ve en az altı ay önceden yapılan bildirimle muaccel kılan işlem (TMK m. 900)."
+   },
+   {
+    "term": "Koşul ve karşı edim yasağı",
+    "definition": "İpotekli borç senedinin ve irat senedinin koşul ve karşı edim kaydı içeremeyeceğini söyleyen kural (TMK m. 909)."
+   },
+   {
+    "term": "Yenileme",
+    "definition": "Eski borcun yeni bir borçla sona erdirilmesi. Senet düzenlenince dayanak borç ilişkisi yenileme yoluyla sona erer (TMK m. 910; genel kural için TBK m. 133)."
+   },
+   {
+    "term": "Ortak temsilci",
+    "definition": "Alacaklı, borçlu ve malik adına ödeme, tahsil ve tebliğ işlerini yürütmek üzere atanan, adı kütüğe ve senede yazılan kişi (TMK m. 915)."
+   },
+   {
+    "term": "Hamile yazılı senet",
+    "definition": "Alacaklısı belirli bir kişi olarak değil, senedi elinde bulunduran olarak gösterilen senet. Alacak senedin teslimiyle devredilir (TMK m. 914 ve TMK m. 924)."
+   },
+   {
+    "term": "Nama yazılı senet",
+    "definition": "Alacaklının adının yazılı olduğu senet. Devir hâlinde devralanın adı ve devir işlemi senet üzerine yazılır (TMK m. 924/2)."
+   },
+   {
+    "term": "İbraz süresi",
+    "definition": "Kayıp senedin iptali davasında senedin ibrazı için verilen süre. TMK m. 925/2'de bir yıldır."
+   },
+   {
+    "term": "Rehin açığı",
+    "definition": "Rehnin paraya çevrilmesiyle karşılanamayan alacak kısmı. İrat senedi alacaklısı bu kısım için haciz veya iflas yoluna gidemez (İİK m. 152/2)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "898",
+   "official_text": "I. Amaç ve nitelik\nMadde 898- İpotekli borç senedi, taşınmaz rehniyle güvence altına alınmış kişisel bir alacak meydana getirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "899",
+   "official_text": "II. Değer biçilmesi\nMadde 899- İpotekli borç senedi yoluyla rehin kurulması için tapu idaresince taşınmaza resmen değer biçilir.\nBiçilmiş değeri aşan miktar için ipotekli borç senedi yoluyla rehin kurulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "900",
+   "official_text": "III. Muacceliyet bildirimi\nMadde 900- İpotekli borç senedindeki alacak, aksi kararlaştırılmış olmadıkça, faizlerin ödenmesi gereken tarihte, bu tarihten en az altı ay önce alacaklı veya borçlu tarafından diğer tarafa yapılacak bildirimle muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "901",
+   "official_text": "IV. Malikin durumu\nMadde 901- İpotekli borç senedindeki borçtan kişisel olarak sorumlu olmayan rehinli taşınmaz maliki hakkında ipoteğe ilişkin hükümler uygulanır.\nTaşınmaz maliki, alacaklıya karşı borçluya ait bütün def'ileri ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "902",
+   "official_text": "V. Devir ve bölünme\nMadde 902- İpotekli borç senedinin güvencesi olan taşınmazın devrine veya bölünmesine ilişkin sonuçlar hakkında ipotek hükümleri uygulanır.\nB. İrat senedi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "903",
+   "official_text": "I. Amaç ve nitelik\nMadde 903- İrat senedi, bir taşınmaz üzerinde taşınmaz yükü şeklinde kurulmuş bir alacak hakkı meydana getirir.\nİrat senedinin güvencesini ancak tarım arazisi, konutlar ve üzerinde bina yapılabilecek arsalar oluşturabilir.\nİrat senedi, kişisel borç doğurmaz ve borcun sebebini de göstermez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "904",
+   "official_text": "II. Sorumluluğun sınırı\nMadde 904- İrat senetlerindeki alacak miktarı, tarım arazisinde arazinin gelir değerinin, diğer taşınmazlarda taşınmazın gelir değeri ile bina ve arsa değerleri ortalamasının beşte üçünü aşamaz.\nDeğerlendirmeler tapu idaresince resmen yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "905",
+   "official_text": "III. Devletin sorumluluğu\nMadde 905- Değer biçilmesinde gereken özenin gösterilmemesinden Devlet sorumludur.\nDevlet, kusuru olan memurlara rücu edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "906",
+   "official_text": "IV. Yükten kurtarma\nMadde 906- İrat senedi ile yüklü olan taşınmazın maliki, sözleşmeyle daha uzun bir bildirim süresi kabul edilmiş olsa bile, her altı yıllık dönemin sonu için bir yıl önce bildirmek ve bedelini ödemek koşuluyla taşınmazın yükten kurtarılmasını isteyebilir.\nKanunda öngörülen hâller dışında alacaklı, ancak her on yıllık dönemin sonu için bir yıl önce bildirmek suretiyle borcun ödenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "907",
+   "official_text": "V. Borç ve mülkiyet\nMadde 907- İrat senedinin borçlusu yüklü taşınmazın malikidir.\nYüklü taşınmazı edinen kimse irat senedinin borçlusu olur ve eski malik başka bir işleme gerek kalmaksızın borcundan kurtulur.\nFaiz borçları, taşınmazla güvenceye bağlı olmaktan çıktığı tarihten başlayarak malikin kişisel borcu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "908",
+   "official_text": "VI. Bölünme\nMadde 908- İrat senediyle yüklü taşınmazın bölünmesi hâlinde, parsellerin malikleri irat senedinin borçlusu olurlar.\nİrat senedi borcunun parsellere dağıtılmasında, ipotekle yüklü taşınmazın bölünmesine ilişkin hükümler uygulanır.\nAlacaklı, borcun parsellere dağıtımının kesinleşmesinden başlayarak bir ay içinde yapacağı bildirimle bir yıl içinde irat senedinin satın alınmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "909",
+   "official_text": "1. Alacağın niteliği\nMadde 909- İpotekli borç senedi ve irat senedi koşul ve karşı edim kaydı içeremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "910",
+   "official_text": "2. Senedin dayanağı borç ile ilişkisi\nMadde 910- İpotekli borç senedinin veya irat senedinin düzenlenmesiyle birlikte dayanağı olan borç ilişkisi yenileme yoluyla sona erer.\nBunun aksine yapılan sözleşme, sadece tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler.\n3. Tescil ve rehin senedi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "911",
+   "official_text": "a. Rehin senedini düzenleme gereği\nMadde 911- İpotekli borç senedi veya irat senedi için tapu kütüğüne yapılacak tescilden başka rehin senedi de düzenlenir.\nSenet daha sonra düzenlenmiş olsa bile, hukukî sonuçlarını tescil tarihinden başlayarak doğurur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "912",
+   "official_text": "b. Rehin senedinin düzenlenmesi\nMadde 912- İpotekli borç senedi ve irat senedi, tapu memuru tarafından düzenlenir.\nSenetler üzerinde tapu memuru ile yetkili Hazine temsilcisinin imzaları bulunur.\nBu senetler, alacaklı veya temsilcisine ancak borçlunun ve yüklü taşınmazın malikinin yazılı rızaları üzerine verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "913",
+   "official_text": "c. Rehin senedinin şekli\nMadde 913- İpotekli borç senedi ve irat senedinin şekilleri Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[42]\n4. Alacaklının belirlenmesi\n[42] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkrada yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "914",
+   "official_text": "a. Düzenleme sırasında\nMadde 914- İpotekli borç senedi ve irat senedi nama veya hamile yazılı düzenlenebilir.\nBu senetler, yüklü taşınmazın maliki adına da düzenlenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "915",
+   "official_text": "b. Ortak temsilci\nMadde 915- İpotekli borç senedi veya irat senedi düzenlenirken, gerekli ödemeleri yapmak ve ödenecek paraları tahsil etmek, yapılacak tebliğleri almak, güvence azalmalarına rıza göstermek ve genel olarak alacaklının, borçlunun ve malikin haklarını tam bir özen ve tarafsızlıkla korumak üzere bunlar tarafından bir temsilci atanabilir.\nTemsilcinin adı tapu kütüğüne ve rehin senedine yazılır.\nTemsilcinin yetkisinin sona ermesi hâlinde ilgililer anlaşamazlarsa, sulh hâkimi gerekli önlemleri alır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "916",
+   "official_text": "5. Ödeme yeri\nMadde 916- Rehin senedinden aksi anlaşılmadıkça, senet hamile yazılı olsa bile borçlu, bütün ödemelerini alacaklının yerleşim yerinde yapmak zorundadır.\nAlacaklının yerleşim yeri bilinmediği veya alacaklı yerleşim yerini borçlunun zararına değiştirdiği takdirde borçlu, borcunu kendi yerleşim yerindeki veya alacaklının eski yerleşim yerindeki hâkimin belirleyeceği yere tevdi ederek borcundan kurtulabilir.\nSenedin faiz kuponları varsa faiz ödemesi, kuponları ibraz edene yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "917",
+   "official_text": "6. Alacağın devrinden sonra ödeme\nMadde 917- Alacağın devri hâlinde borçlu, kendisine bildirilmiş olmadıkça kupona bağlı olmayan faiz ve yıllık edimleri, senet hamile yazılı olsa bile, eski alacaklıya ödeyebilir.\nAna paranın tamamen veya kısmen ödenmesi, ancak ödeme zamanında kendisinin alacaklı olduğunu ispat eden kimseye yapılmış ise geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "918",
+   "official_text": "1.Alacaklının olmaması\nMadde 918- Alacaklı yoksa veya rehin hakkından feragat ederse borçlu, tapu kütüğündeki tescili terkin ettirip ettirmemekte serbesttir.\nBorçlu, zilyetliğine geçmiş olan senedi yeniden tedavüle çıkartabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "919",
+   "official_text": "2. Terkin\nMadde 919- İpotekli borç senedi veya irat senedine ilişkin tescil, ancak tarafların veya mahkemenin rehin senedini iptal etmesi üzerine terkin edilebilir.\nIII. Alacaklının hakları\n1. İyiniyetin korunması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "920",
+   "official_text": "a. Tescil bakımından\nMadde 920- İpotekli borç senedinden veya irat senedinden doğan alacak, tapu kütüğüne iyiniyetle dayanan herkes için kütükteki tescile göre geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "921",
+   "official_text": "b. Senet bakımından\nMadde 921- Usulüne göre düzenlenmiş olan ipotekli borç senedi veya irat senedi, ona iyiniyetle dayanan herkes hakkında, içinde yazılı olanlara göre geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "922",
+   "official_text": "c. Senet ile tescilin ilişkisi\nMadde 922- İpotekli borç senedi veya irat senedi metninde yazılı olanlar tapu kütüğündeki tescile uymazsa veya tapu kütüğünde tescil yoksa, kütük esas alınır.\nBununla birlikte senedi iyiniyetle edinen kimse, tapu kütüğüne ilişkin hükümler uyarınca tazminat isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "923",
+   "official_text": "2. Hakkın ileri sürülmesi\nMadde 923- Nama veya hamile yazılı ipotekli borç senedi veya irat senedindeki alacak, ancak senet üzerindeki zilyetlikle birlikte devir veya rehin edilebilir veya başka bir tasarrufa konu olabilir.\nSenetlerin henüz düzenlenmemiş olması veya mahkeme tarafından iptal edilmesi hâlinde alacağı ileri sürme hakkı saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "924",
+   "official_text": "3. Alacağın devri\nMadde 924- İpotekli borç senedindeki veya irat senedindeki alacağın devri, rehin senedinin teslim edilmesine bağlıdır.\nRehin senedinin nama yazılı olması hâlinde devralanın adı ve devir işlemi senet üzerine yazılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "925",
+   "official_text": "1. Senedin kaybedilmesi\nMadde 925- Rehin senedi irade dışında elden çıkmış veya borcu sona erdirme kastı olmaksızın yok edilmiş ise alacaklı, rehin senedini ve kuponu mahkeme kararıyla iptal ettirerek borçludan borcunu ödemesini ve eğer alacak henüz muaccel değilse yeni bir rehin senedi veya kupon düzenlenmesini isteyebilir.\nİptal kararı, hamile yazılı kıymetli evrakın iptaline ilişkin hükümler gereğince verilir; ancak, ibraz süresi bir yıldır.\nBorçlu da ödenmiş olmasına rağmen geri verilmemiş olan senet için aynı hükümler uyarınca senedin iptalini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "926",
+   "official_text": "2. İlân yoluyla duyuru\nMadde 926- İpotekli borç senedi veya irat senedinin alacaklısının kim olduğu on yıldan beri bilinmiyor ve bu süre içinde faiz ödenmesi de istenmemiş bulunuyorsa, rehinli taşınmazın maliki, alacaklının ortaya çıkması için gaipliğe ilişkin hükümlere göre ilân yapılmasını hâkimden isteyebilir.\nAlacaklı ortaya çıkmaz ve yapılan araştırma sonunda büyük bir olasılıkla alacağın artık mevcut olmadığı anlaşılırsa, hâkim tarafından senedin iptaline karar verilir; bu kararla rehin derecesi boşalmış olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "927",
+   "official_text": "V. Borçlunun def'ileri\nMadde 927- Borçlu yalnız tescilden veya senetten doğan def'ileri ve istemde bulunan alacaklıya karşı sahip olduğu kişisel def'ileri ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "928",
+   "official_text": "VI. Ödenen senedin geri verilmesi\nMadde 928 - Borcun tamamını ödeyen borçlu, alacaklıdan senedin iptal edilmemiş olarak geri verilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "929",
+   "official_text": "VII. Hukukî ilişkide değişiklik\nMadde 929- Borçlu borcun kısmen ödenmesi veya borç yükünün hafifletilmesi ya da güvencenin azaltılması gibi hukukî ilişkide meydana gelen değişiklikleri tapu kütüğüne tescil ettirme hakkına sahiptir.\nTapu memuru, bu tür değişiklikleri senet üzerine de yazar.\nMeydana gelen değişikliklerin tescil edilmemiş olması hâlinde, senette yazılı yıllık edimlerin ödenmiş olması dışındaki değişiklikler senedi iyiniyetle kazanan kimseye karşı ileri sürülemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "850",
+   "official_text": "I. Taşınmaz rehninin türleri\nMadde 850- Taşınmaz rehni, ancak ipotek, ipotekli borç senedi veya irat senedi şeklinde kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "856",
+   "official_text": "1. Tescil\nMadde 856- Taşınmaz rehni tapu kütüğüne tescil ile kurulur. Kanunda öngörülen ayrık durumlar saklıdır.\nTaşınmaz rehninin kurulmasına ilişkin sözleşmenin geçerliliği, resmî şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "864",
+   "official_text": "III. Zamanaşımı\nMadde 864- Rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez.\nIV. Önlem alma yetkisi\n1. Değer düşmelerine karşı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "881",
+   "official_text": "A. Amaç ve nitelik\nMadde 881- Hâlen mevcut olan veya henüz doğmamış olmakla beraber doğması kesin veya olası bulunan herhangi bir alacak, ipotekle güvence altına alınabilir.\nİpoteğe konu olacak taşınmazın, borçlunun mülkiyetinde bulunması gerekmez.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "882",
+   "official_text": "I. Kuruluş\nMadde 882- Miktarı belirli olmayan veya değişebilen alacaklar da, belli rehin derecesine yerleştirilir ve tescilden sonra alacak miktarında meydana gelecek değişmelere bakılmaksızın sırasını korur.\nTapu memuru istem üzerine alacaklıya ipoteği gösteren bir belge verir. Sadece tescilin yapıldığını ispata yarayan bu belge kıymetli evrak niteliği taşımaz.\nTescilin yapıldığının sözleşme üzerine yazılıp onaylanması, ipotek belgesi yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "883",
+   "official_text": "1. İpoteğin terkinini isteme hakkı\nMadde 883- Alacak sona erince ipotekli taşınmazın maliki, alacaklıdan ipoteği terkin ettirmesini isteyebilir.\n(Ek fıkra:4/7/2019-7181/19 md.) İpotek süreli olarak kurulmuşsa, sürenin bitiminden itibaren otuz gün içinde ipotekli taşınmaz üzerinde 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 150/c maddesinde belirtilen şerhin konulmaması hâlinde ipotek, malikin talebiyle tapu müdürlüğünce terkin edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "888",
+   "official_text": "1. Taşınmazın devri\nMadde 888- İpotekli taşınmazın devri, aksi kararlaştırılmış olmadıkça, borçlunun sorumluluğunda ve güvencede bir değişiklik meydana getirmez.\nYeni malik borcu yüklendiği takdirde alacaklı, kendisine başvurma hakkını saklı tuttuğunu bir yıl içinde yazılı olarak önceki borçluya bildirmezse, borçlu borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "889",
+   "official_text": "2. Taşınmazın bölünmesi\nMadde 889- İpotekli taşınmazın bir kısmının veya aynı malike ait bulunan ipotekli taşınmazlardan birinin başkasına devredilmesi ya da ipotekli taşınmazın bölünmesi hâlinde, aksine bir anlaşma yoksa, rehin taşınmazlara değerleri oranında tapu idaresince re'sen dağıtılır.\nBu dağıtımı kabul etmeyen alacaklı, dağıtımın kesinleştiğinin kendisine tebliğinden başlayarak bir ay içinde yazılı bildirimde bulunmak suretiyle alacağın bir yıl içinde ödenmesini borçludan isteyebilir.\nYeni malikler, kendilerine ait taşınmaza düşen borcu yüklendikleri takdirde alacaklı, kendisine başvurma hakkını saklı tuttuğunu önceki borçluya bir yıl içinde yazılı olarak bildirmezse, borçlu borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "890",
+   "official_text": "3. Borcu yüklenmenin bildirilmesi\nMadde 890- Taşınmazın yeni maliki borcu yüklenirse, tapu idaresi bunu alacaklıya bildirir.\nAlacaklıya tanınan hakkını saklı tuttuğuna ilişkin bir yıllık beyan süresi, tapu idaresince yapılan bildirimin tebliği tarihinden işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "891",
+   "official_text": "II. Alacağın devri\nMadde 891- İpotekle güvence altına alınmış bir alacağın devrinin geçerli olması, devrin tapu kütüğüne tescil edilmesine bağlı değildir.\nD. Kanunî ipotek",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "893",
+   "official_text": "1. Hâller\nMadde 893- Aşağıdaki alacaklılar, kanunî ipotek hakkının tescilini isteyebilirler:\n1. Satıştan doğan alacağı için satılan taşınmaz üzerinde satıcı,\n2. Elbirliği ortaklığına giren taşınmazlarda paylaşmadan doğan alacakları için birlikte mirasçı olanlar veya diğer elbirliği ortakları,\n3. Bir taşınmaz üzerinde yapılan yapı veya diğer işlerde malzeme vererek veya vermeden emek sarf ettikleri için malzeme ve emek karşılığı olarak malik veya yükleniciden alacaklı olan alt yüklenici veya zanaatkârlar.\nAlacaklıların, bu kanunî ipotek hakkından önceden feragat etmeleri geçerli değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "839",
+   "official_text": "A. Konusu\nMadde 839- Taşınmaz yükü, bir taşınmazın malikini yalnız o taşınmazla sorumlu olmak üzere diğer bir kimseye bir şey vermek veya yapmakla yükümlü kılar.\nHak sahibi olarak, bir başka taşınmazın maliki de gösterilebilir.\nİrat senedi ve kamu hukukuna ilişkin taşınmaz yükleri saklı kalmak kaydıyla, taşınmaz yükünün konusu ancak yüklü taşınmazın ekonomik niteliğinden doğan veya yararlanan taşınmazın ekonomik ihtiyaçlarını karşılayan bir edim olabilir.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "842",
+   "official_text": "3. Güvence amacıyla kurulma\nMadde 842- Bir para alacağını güvence altına almak amacıyla kurulan taşınmaz yükü hakkında irat senedine ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "848",
+   "official_text": "I. Alacaklının hakkının niteliği\nMadde 848- Taşınmaz yükü, alacaklıya yükümlüye karşı hiçbir kişisel alacak hakkı sağlamaz; sadece alacağını yüklü taşınmazın değerinden elde etme yetkisi verir.\nHer edim, muaccel olmasından başlayarak üç yıl sonra kişisel borç hâline gelir ve taşınmaz bu borcun güvencesi olmaktan çıkar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1007",
+   "official_text": "2. Sorumluluk\nMadde 1007- Tapu sicilinin tutulmasından doğan bütün zararlardan Devlet sorumludur.\nDevlet, zararın doğmasında kusuru bulunan görevlilere rücu eder.\nDevletin sorumluluğuna ilişkin davalar, tapu sicilinin bulunduğu yer mahkemesinde görülür.\nB. İşlemler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "133",
+   "official_text": "MADDE 133- Yeni bir borçla mevcut bir borcun sona erdirilmesi, ancak tarafların bu yöndeki açık iradesi ile olur.\nÖzellikle mevcut borç için kambiyo taahhüdünde bulunulması veya yeni bir alacak senedi ya da yeni bir kefalet senedi düzenlenmesi, tarafların açık yenileme iradeleri olmadıkça yenileme sayılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "184",
+   "official_text": "MADDE 184- Alacağın devrinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.\nAlacağın devri sözü verme, şekle bağlı değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "504",
+   "official_text": "MADDE 504- Vekâletin kapsamı, sözleşmede açıkça gösterilmemişse, görülecek işin niteliğine göre belirlenir.\nVekâlet, özellikle vekilin üstlendiği işin görülmesi için gerekli hukuki işlemlerin yapılması yetkisini de kapsar.\nVekil, özel olarak yetkili kılınmadıkça dava açamaz, sulh olamaz, hakeme başvuramaz, iflas, iflasın ertelenmesi ve konkordato talep edemez, kambiyo taahhüdünde bulunamaz, bağışlama yapamaz, kefil olamaz, taşınmazı devredemez ve bir hak ile sınırlandıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "645",
+   "official_text": "A) Kıymetli evrakın tanımı\nMADDE 645- (1) Kıymetli evrak öyle senetlerdir ki, bunların içerdikleri hak, senetten ayrı olarak ileri sürülemediği gibi başkalarına da devredilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "663",
+   "official_text": "3. İlan ile çağrı, başvuru süresi\nMADDE 663- (1) Mahkeme, dilekçe sahibinin, senedin zilyedi bulunmuş ve onu zâyi etmiş olduğuna dair yaptığı açıklamaları inandırıcı bulursa, belli olmayan hamili ilan yoluyla, senedi belirli bir süre içinde ibraz etmeye çağırır ve aksi takdirde senedin iptaline karar verileceğini ihtar eder. Sürenin en az altı ay olarak belirlenmesi gerekir; bu süre ilk ilan gününden itibaren işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "669",
+   "official_text": "D) İpotekli borç senedi ve irat senedi\nMADDE 669- (1) Hamile yazılı olan ipotekli borç senediyle irat senedine ilişkin özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "125",
+   "official_text": "2 – Münderecatı:\nMadde 125 – Artırma şartnamesinde taşınmazın, üzerindeki irtifak hakları, taşınmaz mükellefiyetleri, ipotekler, ipotekli borç senetleri, irat senetleriyle birlikte satıldığı ve borçlunun bu taşınmaz ile temin edilmiş şahsi borçlarının da alıcıya intikal eyliyeceği tasrih olunur.\nİpotek ve ipotekli borç senediyle temin edilmiş olupta bu suretle müşteriye devrolunan borçtan asıl borçlunun kurtulması alacaklının müracaat hakkının mahfuz olduğunu ihaleden itibaren bir sene içinde kendisine bildirmemiş olmasına bağlıdır. (K. M. 803)\nTaşınmaz rehinle temin edilmiş muaccel borçlar, müşteriye devredilmeyip satış bedelinden tercihen ödenir.\nArtırma şartnamesinde hangi masrafların müşteriye ait olacağı tasrih olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "152",
+   "official_text": "Rehin açığı belgesi:\nMadde 152 – (Değişik: 18/2/1965-538/73 md.)\nRehin, satış istiyenin alacağına derece itibariyle rüçhanı olan diğer rehinli alacakların tutarından fazla bir bedelle alıcı çıkmamasından dolayı satılamazsa veya satılıp da tutarı takip olunan alacağa yetmezse, alacaklıya bütün veya geri kalan alacağı için bir belge verilir.\nAlacağı irat senedinden veya bir taşınmaz mükellefiyetinden doğmıyan alacaklı, bu suretle tahsil edemediği alacağı için borçlunun sıfatına göre iflas veya haciz yoluna gidebilir.\nAlacaklı, satış yapılmamışsa artırma gününden, satış yapılması halinde satışın kesinleşmesi tarihinden itibaren bir sene içinde haciz yolu ile takip talebinde bulunursa yeniden icra veya ödeme emri tebliğine lüzum yoktur.\nRehin açığı belgesi, borç ikrarını mutazammın senet mahiyetindedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2023/7107",
+   "karar_no": "2024/3297",
+   "decision_date": "03.04.2024",
+   "summary_md": "Bir borçlunun dava dışı üçüncü kişiye karşı doğmuş ve doğacak borçları için 27.01.2016 tarihli resmî senetle o kişi lehine 600.000 TL'lik ipotek kurulmuş, ipotek 19.07.2016'da alacaklıya devredilmiştir. Alacaklı noter ihtarından sonra ipoteğin paraya çevrilmesi yoluyla ilamsız takip başlatmış, borçlunun itirazı üzerine itirazın kaldırılmasını istemiştir. İlk derece mahkemesi ipotek resmî senedini yeterli belge saymış, itirazı kısmen kaldırmış; bölge adliye mahkemesi iki tarafın başvurusunu esastan reddetmiştir. Yargıtay 12. Hukuk Dairesi alacaklının temyizini reddetmiş, borçlunun temyizini kabul ederek bölge adliye mahkemesi kararını kaldırmış ve ilk derece mahkemesi kararını bozmuştur. Gerekçeye göre ipotek alacağa bağlı fer'i sınırlı ayni haktır; ipotek senedi, ipotekli borç senedi ve irat senedinden farklı olarak alacağın varlığını göstermez, yalnız rehin hakkını ispata yarar. İpotek kesin borç ipoteği değildir, senette alacağı gösteren bir ibare yoktur ve temlik belgesi sunulmamıştır; yalnız ipoteğin devri alacağın temliki anlamına gelmez ve takip hakkı vermez. Konuya katkısı: ipotek belgesi ile iki senet arasındaki farkı, yani senetlerin alacağı da göstermesini ortaya koyar.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1060119500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2024/227",
+   "karar_no": "2024/2251",
+   "decision_date": "29.04.2024",
+   "summary_md": "Davacı alıcı, vekili aracılığıyla 08.04.2015 tarihli resmî senetle davalıdan mesken nitelikli bir bağımsız bölüm satın almış; bedelin bir kısmı peşin ödenmiş (davalının savunmasına göre 7.000 TL), kalan 95.000 TL için satıcı lehine ipotek kurulmuştur. Davalı ipoteğin paraya çevrilmesi yoluyla takipte 05.11.2015'te ödeme emri gönderince davacı, belgeyi \"resmi ipotekli borç senedi\" diye nitelemiş, vekilin ipotek kurma yetkisi bulunmadığını ileri sürerek ipoteğin fekki, menfi tespit, takibin iptali ve tazminat istemiştir. Dava ilk derece mahkemesince vekilin özel yetkisi bulunmadığı gerekçesiyle kabul edilmiş; sonraki aşamalardan sonra yeniden kabul kararı verilince davalı temyiz etmiş, Yargıtay 7. Hukuk Dairesi kararı bozmuştur. Daire, ilgili hukukun TMK m. 893 ve TBK m. 504 olduğunu belirtmiş; ipoteğin satış bedelinin ödenmeyen kısmının karşılığı olduğunu, taşınmazı satın almaya yetkili vekilin bedelin ödenmesi konusunda da yetkili olduğunu ve ödenmeyen kısım için kanuni ipotek tesis edebileceğini kabul etmiştir. Konuya katkısı: taraflar belgeyi \"ipotekli borç senedi\" diye adlandırsa da uyuşmazlık satıcı ipoteği ve vekâlet hükümleriyle çözülmüştür. Karar belgenin ipotekli borç senedi olmadığını açıkça tespit etmemiştir; yalnız adlandırmanın gevşek kullanılabildiğini düşündürür ve TMK m. 898 vd. uygulanmamıştır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1040131000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2017/3082",
+   "karar_no": "2017/9042",
+   "decision_date": "08.06.2017",
+   "summary_md": "21.10.2011'de banka lehine, açılmış ve açılacak kredilerden doğmuş ve doğacak borçların 83.520 TL'ye kadarki kısmı için ipotek kurulmuş; taşınmaz 08.02.2013'te 45.000 TL'ye alacağa mahsuben bankaya ihale edilmiş ve 06.05.2013'te 21.834,91 TL bakiye için İİK m. 152 kapsamında rehin açığı belgesi düzenlenmiştir. Aynı dosyada sonraki bazı haciz talepleri yerine getirilmiş, 22.04.2016 tarihli talep ise reddedilerek dosyanın rehin açığı belgesiyle kapatılmasına karar verilmiştir. İcra mahkemesi alacaklının şikâyetini reddetmiş, Yargıtay 12. Hukuk Dairesi önce bu kararı onamış; alacaklının karar düzeltme istemi üzerine onamayı kaldırıp icra mahkemesi kararını oybirliğiyle bozmuştur. Dairenin ilkesi şudur: İİK m. 152, satışın kesinleşmesinden itibaren bir yıl içinde olmak kaydıyla alacaklıya aynı dosyadan yeniden icra emri düzenletmeden haciz yapma veya ayrı haciz takibinde icra ve ödeme emri göndermeden devam etme kolaylığı tanır. Karar ipotekle ilgilidir ve irat senedine değinmez; 22.04.2016 tarihli talebin süre bakımından nasıl değerlendirildiği de karardan açık çıkmamaktadır. Konunun bağlantısı yalnız şudur: Kararın aktardığı İİK m. 152/2 rehin açığı için haciz veya iflas yolunu alacağı irat senedinden doğmayan alacaklıya tanır; bu, TMK m. 903/3'ün icra hukukundaki yansımasıdır (bu bağlantı metinlerin birlikte okunmasıdır, kararın sözü değildir).",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/356104700",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "İpotekli borç senedi hakkında TMK m. 898'e göre hangisi doğrudur?",
+   "options": [
+    "Taşınmaz rehniyle güvence altına alınmış kişisel bir alacak meydana getirir.",
+    "Tescil edilmeden düzenlenen senetle kurulur; tescil yalnız bilgi verir.",
+    "Yalnız rehin hakkını doğurur; alacak ayrıca ve senet dışında ispat edilir.",
+    "Taşınmaz yükü şeklinde kurulmuş, kişisel borç doğurmayan bir alacak hakkıdır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 898'e göre ipotekli borç senedi, taşınmaz rehniyle güvence altına alınmış kişisel bir alacak meydana getirir; alacak ve rehin aynı işlemle doğar. Taşınmaz yükü şeklindeki, kişisel borç doğurmayan hak irat senedidir (TMK m. 903). Senedin sonuçları ise tescil tarihinden doğar (TMK m. 911/2); tescil yalnız bilgi veren bir kayıt değildir."
+  },
+  {
+   "stem_md": "Mert'in dükkânına tapu idaresince resmen 1.000.000 TL değer biçilmiştir. Mert, ipotekli borç senedi yoluyla 1.200.000 TL'lik rehin kurmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Senet, biçilen değerin beşte üçüne kadar düzenlenebilir.",
+    "Değer taraflarca serbestçe belirlenir, bu nedenle sınır yoktur.",
+    "Rehin, biçilmiş değeri aşan miktar için kurulamaz; 1.000.000 TL'ye kadar kurulabilir.",
+    "1.200.000 TL'nin tamamı için kurulabilir; değer biçme yalnız bilgi amaçlıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 899/2'ye göre biçilmiş değeri aşan miktar için ipotekli borç senedi yoluyla rehin kurulamaz. Değeri tapu idaresi resmen biçer (TMK m. 899/1), taraflar belirlemez. Beşte üç oranı irat senedine aittir (TMK m. 904/1); ipotekli borç senedine taşınamaz."
+  },
+  {
+   "stem_md": "TMK m. 900'e göre, aksi kararlaştırılmadıkça ipotekli borç senedindeki alacak nasıl muaccel olur?",
+   "options": [
+    "Faizlerin ödenmesi gereken tarihte; bu tarihten en az altı ay önce alacaklı veya borçlu tarafından diğer tarafa yapılacak bildirimle.",
+    "Yalnız alacaklının noter aracılığıyla yaptığı ihtarla ve ihtardan hemen sonra.",
+    "Her altı yıllık dönemin sonunda, bir yıl önce yapılan bildirimle.",
+    "Senedin düzenlendiği tarihten itibaren on yıl geçmekle kendiliğinden."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 900 yedek hüküm olarak alacağın faiz ödeme tarihinde, bu tarihten en az altı ay önce yapılan bildirimle muaccel olacağını söyler. Bildirimi alacaklı da borçlu da yapabilir. Altı yıllık dönem ve bir yıllık bildirim, irat senedinde malikin yükten kurtarmasına ilişkindir (TMK m. 906/1)."
+  },
+  {
+   "stem_md": "Borçtan kişisel olarak sorumlu olmayan rehinli taşınmaz maliki hakkında TMK m. 901'e göre hangisi doğrudur?",
+   "options": [
+    "İpoteğe ilişkin hükümler uygulanır ve malik alacaklıya karşı borçluya ait bütün def'ileri ileri sürebilir.",
+    "Malik de borçlu gibi kişisel olarak ve bütün malvarlığıyla sorumlu olur.",
+    "Hiçbir hüküm uygulanmaz; malik alacaklıya karşı sorumsuzdur.",
+    "Malik yalnız kendi kişisel def'ilerini ileri sürebilir; borçlunun def'ilerini ileri süremez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 901/1, borçtan kişisel sorumlu olmayan malik hakkında ipotek hükümlerinin uygulanacağını; TMK m. 901/2 ise malikin borçluya ait bütün def'ileri ileri sürebileceğini söyler. Malik yalnız taşınmazıyla sorumlu olduğundan kişisel sorumluluk yoktur. Bu hükmün TMK m. 927 ile ilişkisi doktrinde tartışılır; soru yalnız madde lafzına dayanır."
+  },
+  {
+   "stem_md": "İrat senedi hakkında TMK m. 903'e göre hangisi doğrudur?",
+   "options": [
+    "Taşınmaz rehniyle güvenceli kişisel bir alacak doğurur.",
+    "Güvencesini yalnız bina yapılmış arsalar oluşturabilir; tarım arazisi olamaz.",
+    "Taşınmaz yükü şeklinde kurulmuş bir alacak hakkı doğurur; kişisel borç doğurmaz ve borcun sebebini göstermez.",
+    "Alacağın ödenmesi karşı edimin yerine getirilmesi koşuluna bağlanabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 903/1 irat senedini taşınmaz yükü şeklinde kurulmuş bir alacak hakkı olarak tanımlar; TMK m. 903/3'e göre kişisel borç doğurmaz ve borcun sebebini göstermez. Kişisel alacak doğuran ipotekli borç senedidir. Güvence tarım arazisi, konut veya bina yapılabilecek arsa olabilir (TMK m. 903/2). Koşul ve karşı edim kaydı iki senette de yasaktır (TMK m. 909)."
+  },
+  {
+   "stem_md": "Zeynep'in tarım arazisinin gelir değeri tapu idaresince 500.000 TL olarak belirlenmiştir. Bu arazi üzerinde irat senedi ile en çok ne kadarlık alacak güvence altına alınabilir?",
+   "options": [
+    "250.000 TL",
+    "300.000 TL",
+    "500.000 TL",
+    "400.000 TL"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 904/1'e göre tarım arazisinde alacak miktarı arazinin gelir değerinin beşte üçünü aşamaz. 500.000 TL'nin beşte üçü 300.000 TL'dir. Değer tapu idaresince resmen belirlenir (TMK m. 904/2); taraflar sınırı kendileri artıramaz."
+  },
+  {
+   "stem_md": "Değer sınırı bakımından aşağıdaki eşleştirmelerden hangisi doğrudur?",
+   "options": [
+    "İpotekli borç senedi: gelir değerinin beşte üçü; irat senedi: tapu idaresince biçilmiş değer.",
+    "İpotekli borç senedi: tapu idaresince biçilmiş değer; irat senedi: gelir değerine dayalı hesabın beşte üçü.",
+    "İki senet için de sınır, taşınmazın biçilmiş değerinin beşte üçüdür.",
+    "İki senet için de kanunda bir değer sınırı yoktur; taraflar serbestçe belirler."
+   ],
+   "correct_option": 1,
+   "explanation_md": "İpotekli borç senedinde biçilmiş değeri aşan miktar için rehin kurulamaz (TMK m. 899/2). İrat senedinde alacak, tarım arazisinde gelir değerinin, diğer taşınmazlarda gelir değeri ile bina ve arsa değerleri ortalamasının beşte üçünü aşamaz (TMK m. 904/1). İki ölçüt birbirine taşınmaz."
+  },
+  {
+   "stem_md": "TMK m. 905'e göre irat senedi bakımından değer biçilirken gereken özenin gösterilmemesinden doğan sorumluluk hakkında hangisi doğrudur?",
+   "options": [
+    "Yalnız değer biçen memur kişisel olarak sorumludur; Devlet sorumlu tutulamaz.",
+    "Değer biçmesi kesin ve bağlayıcıdır; hiç kimse sorumlu tutulamaz.",
+    "Sorumluluk, değer biçilmesini isteyen malike aittir.",
+    "Devlet sorumludur; kusuru olan memurlara rücu edebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 905'e göre değer biçilmesinde gereken özenin gösterilmemesinden Devlet sorumludur ve kusuru olan memurlara rücu edebilir. Tapu sicilinin tutulmasından doğan zararlara ilişkin genel hüküm TMK m. 1007'dedir."
+  },
+  {
+   "stem_md": "Zeynep'in arazisi üzerinde Can lehine irat senedi vardır; sözleşmede malikin yükten kurtarma için iki yıl önceden bildirimde bulunacağı kararlaştırılmıştır. Araziyi satın alan Burak yükten kurtarma istemektedir. TMK m. 906/1'e göre hangisi doğrudur?",
+   "options": [
+    "Burak her on yıllık dönem sonu için altı ay önce bildirimle yükten kurtarma isteyebilir.",
+    "İki yıllık süre bağlayıcıdır; Burak daha kısa süreyle bildirim yapamaz.",
+    "Sözleşmedeki daha uzun süre Burak'ı bağlamaz; her altı yıllık dönem sonu için bir yıl önce bildirip bedelini ödeyerek yükten kurtarma isteyebilir.",
+    "Yükten kurtarma yalnız alacaklı Can'ın rızasıyla mümkündür; malik bunu isteyemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 906/1'e göre malik, sözleşmeyle daha uzun bir bildirim süresi kabul edilmiş olsa bile, her altı yıllık dönemin sonu için bir yıl önce bildirmek ve bedelini ödemek koşuluyla taşınmazın yükten kurtarılmasını isteyebilir. On yıllık dönem alacaklının ödeme istemine ilişkindir (TMK m. 906/2). Burak taşınmazı edindiği için irat senedinin borçlusu olmuştur (TMK m. 907/2)."
+  },
+  {
+   "stem_md": "Zeynep, üzerinde Can lehine irat senedi bulunan tarım arazisini Burak'a satmış ve tescil yapılmıştır. Hangisi doğrudur?",
+   "options": [
+    "Zeynep, Can'ın bir yıl içinde saklı tutma bildirimi yapmaması hâlinde borçtan kurtulur.",
+    "Zeynep ve Burak, Can'a karşı birlikte ve müteselsilen borçlu olur.",
+    "Burak irat senedinin borçlusu olur; Zeynep başka bir işleme gerek kalmaksızın borcundan kurtulur.",
+    "Borç Burak'a geçmez; Can'ın yazılı rızası olmadıkça Zeynep borçlu kalır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 907/1-2'ye göre irat senedinin borçlusu yüklü taşınmazın malikidir; taşınmazı edinen borçlu olur ve eski malik başka bir işleme gerek kalmaksızın kurtulur. Alacaklının bir yıl içindeki saklı tutma bildirimine bağlı kurtulma, ipotekte yeni malikin borcu yüklenmesi hâline ilişkindir (TMK m. 888/2)."
+  },
+  {
+   "stem_md": "Yüklü taşınmaz parsellere bölünmüş ve borcun parsellere dağıtımı kesinleşmiştir. İrat senedinin alacaklısı TMK m. 908/3'e göre ne yapabilir?",
+   "options": [
+    "Hiçbir istemde bulunamaz; dağıtım alacaklıyı bağlar.",
+    "Dağıtımın kesinleşmesinden başlayarak bir ay içinde yapacağı bildirimle bir yıl içinde alacağın ödenmesini borçludan isteyebilir.",
+    "Altı ay içinde bildirimde bulunarak bütün parsellerden müteselsilen ödeme isteyebilir.",
+    "Dağıtımın kesinleşmesinden başlayarak bir ay içinde yapacağı bildirimle bir yıl içinde irat senedinin satın alınmasını isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 908/3'e göre alacaklı, dağıtımın kesinleşmesinden başlayarak bir ay içinde yapacağı bildirimle bir yıl içinde irat senedinin satın alınmasını isteyebilir. Bir yıl içinde alacağın ödenmesinin istenmesi, ipotekli taşınmazın bölünmesinde geçerli olan kuraldır (TMK m. 889/2). Süreler aynıdır, istenen şey farklıdır."
+  },
+  {
+   "stem_md": "Selin Hanım, ipotekli borç senedine \"alacaklı malı teslim ederse ödenecektir\" kaydının konulmasını istemektedir. TMK m. 909'a göre hangisi doğrudur?",
+   "options": [
+    "Koşul kaydı konabilir, karşı edim kaydı konamaz.",
+    "Kayıt yalnız irat senedinde yasaktır; ipotekli borç senedinde serbesttir.",
+    "İpotekli borç senedi koşul ve karşı edim kaydı içeremez; bu kayıt konamaz.",
+    "Tapu memurunun onayıyla bu kayıt konabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 909, ipotekli borç senedinin ve irat senedinin koşul ve karşı edim kaydı içeremeyeceğini söyler. \"Alacaklı malı teslim ederse ödenecektir\" kaydı hem koşul hem karşı edim niteliği taşır. Yasak iki senet için de geçerlidir; tapu memurunun onayı yasağı ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "İpotekli borç senedi düzenlendiğinde, dayanak olan borç ilişkisi TMK m. 910'a göre ne olur?",
+   "options": [
+    "Yenileme yoluyla sona erer; aksine yapılan sözleşme yalnız tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler.",
+    "Ancak taraflar açıkça yenilemeyi kararlaştırırsa sona erer; senet düzenlenmesi tek başına yenileme sayılmaz.",
+    "Baştan itibaren hükümsüz sayılır.",
+    "Aynen varlığını sürdürür; senet yalnız bir ispat aracıdır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 910/1'e göre senedin düzenlenmesiyle dayanak borç ilişkisi yenileme yoluyla sona erer; aksine sözleşme yalnız tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler (TMK m. 910/2). Yenilemeyi açık iradeye bağlayan şık TBK m. 133'teki genel kuralı yansıtır: yenileme için açık irade gerekir ve yeni alacak senedi düzenlenmesi açık irade olmadıkça yenileme sayılmaz. TMK m. 910 ise yenileme sonucunu kanundan bağlar. Hükmün niteliği doktrinde tartışmalıdır, ama soru yalnız madde metnine dayanır."
+  },
+  {
+   "stem_md": "Bir ipotekli borç senedi için rehin 1 Mart'ta tescil edilmiş, senet ise 15 Mart'ta düzenlenmiştir. Senedin hukuki sonuçları TMK m. 911/2'ye göre hangi tarihten başlar?",
+   "options": [
+    "1 Mart",
+    "15 Mart",
+    "İlk faiz ödeme tarihi",
+    "Senedin alacaklıya teslim edildiği tarih"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 911/2'ye göre senet daha sonra düzenlenmiş olsa bile hukuki sonuçlarını tescil tarihinden başlayarak doğurur. Burada tescil tarihi 1 Mart'tır. Senedin düzenlenme veya teslim tarihi sonucun başlangıcını belirlemez."
+  },
+  {
+   "stem_md": "İpotekli borç senedi ve irat senedinin düzenlenmesi ve alacaklıya verilmesi hakkında TMK m. 912'ye göre hangisi doğrudur?",
+   "options": [
+    "Senedi noter düzenler; tapu memurunun imzası gerekmez.",
+    "Senedi tapu memuru düzenler; üzerinde tapu memuru ile yetkili Hazine temsilcisinin imzaları bulunur ve alacaklıya ancak borçlunun ve malikin yazılı rızasıyla verilir.",
+    "Senedi tapu memuru düzenler; imza yalnız tapu memurundadır ve senet alacaklıya yalnız malikin rızasıyla verilir.",
+    "Senedi taraflar adi yazılı şekilde düzenler; tapu memuru yalnız onaylar."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 912'ye göre senetleri tapu memuru düzenler; senetler üzerinde tapu memuru ile yetkili Hazine temsilcisinin imzaları bulunur; senetler alacaklıya veya temsilcisine ancak borçlunun ve yüklü taşınmazın malikinin yazılı rızaları üzerine verilebilir. Hazine temsilcisinin imzası ve hem borçlunun hem malikin rızası eksik olmamalıdır."
+  },
+  {
+   "stem_md": "Alacaklı Hasan İzmir'de, borçlu Ayşe Ankara'da oturmaktadır. Hamile yazılı ipotekli borç senedinden aksi anlaşılmamaktadır. Ayşe ödemelerini nerede yapmak zorundadır?",
+   "options": [
+    "Senedi elinde bulunduranın bulunduğu yerde.",
+    "Rehnin tescil edildiği tapu müdürlüğünün bulunduğu yerde.",
+    "Ankara'da, kendi yerleşim yerinde; çünkü senet hamile yazılıdır.",
+    "Alacaklının yerleşim yeri olan İzmir'de."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 916/1'e göre senetten aksi anlaşılmadıkça, senet hamile yazılı olsa bile borçlu bütün ödemelerini alacaklının yerleşim yerinde yapmak zorundadır. Hamile yazılı olması ödeme yerini borçlunun lehine değiştirmez."
+  },
+  {
+   "stem_md": "Mehmet, hamile yazılı ipotekli borç senedinin alacağını Ali'den devralmıştır; devir borçlu Ayşe'ye bildirilmemiştir. Ayşe ana paranın bir kısmını eski alacaklı Ali'ye öder. TMK m. 917'ye göre bu ana para ödemesi hakkında hangisi doğrudur?",
+   "options": [
+    "Yalnız tapu müdürlüğünde yapılmışsa geçerlidir.",
+    "Geçerlidir; devir kendisine bildirilmedikçe eski alacaklıya yapılan her ödeme borçluyu kurtarır.",
+    "Geçerlidir; çünkü senet hamile yazılıdır ve ödeme alacaklının yerleşim yerinde yapılmıştır.",
+    "Geçerli değildir; ana para ödemesi ancak ödeme zamanında kendisinin alacaklı olduğunu ispat eden kimseye yapılırsa geçerlidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 917/1'deki kolaylık yalnız kupona bağlı olmayan faiz ve yıllık edimler içindir. Ana paranın tamamen veya kısmen ödenmesi ise ancak ödeme zamanında kendisinin alacaklı olduğunu ispat eden kimseye yapılmışsa geçerlidir (TMK m. 917/2). Ali ödeme zamanında alacaklı olmadığından ödeme geçerli değildir. Ödeme yerinin alacaklının yerleşim yeri olması (TMK m. 916/1) ayrı bir kuraldır ve ödemenin kime yapılacağını belirlemez."
+  },
+  {
+   "stem_md": "Elif, ipotekli borç senedi borcunun tamamını ödemiştir. Senet ve tescil bakımından TMK m. 919 ve TMK m. 928'e göre hangisi doğrudur?",
+   "options": [
+    "Elif, malik sıfatıyla tek başına başvurarak terkin ettirebilir; senedin iptali gerekmez.",
+    "Tam ödemeyle tescil kendiliğinden sona erer ve tapu memuru kaydı re'sen siler.",
+    "Elif senedin iptal edilmemiş olarak geri verilmesini isteyebilir; tescil ancak tarafların veya mahkemenin rehin senedini iptal etmesi üzerine terkin edilebilir.",
+    "Senet süreli kurulmuşsa sürenin bitiminden itibaren otuz gün içinde şerh konulmazsa malikin talebiyle terkin edilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 928'e göre borcun tamamını ödeyen borçlu, senedin iptal edilmemiş olarak geri verilmesini isteyebilir; TMK m. 919'a göre tescil ancak tarafların veya mahkemenin rehin senedini iptal etmesi üzerine terkin edilebilir. Süreli kuruluşa bağlı otuz günlük kural ipoteğe özgüdür (TMK m. 883/2); ipotekli borç senedi için terkin kuralı TMK m. 919'dur."
+  },
+  {
+   "stem_md": "Selin, hamile yazılı bir ipotekli borç senedini iyiniyetle devralmıştır. Senette 300.000 TL, tapu kütüğünde ise 250.000 TL yazmaktadır. TMK m. 922'ye göre hangisi doğrudur?",
+   "options": [
+    "Senet esas alınır; Selin 300.000 TL'yi isteyebilir.",
+    "Hâkim senet ile kütükten borçlu lehine olanı serbestçe seçer.",
+    "Alacak tamamen düşer ve Selin hiçbir istemde bulunamaz.",
+    "Kütük esas alınır; Selin tapu kütüğüne ilişkin hükümler uyarınca tazminat isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 922'ye göre senetteki yazı kütükteki tescile uymazsa kütük esas alınır; senedi iyiniyetle edinen kimse tapu kütüğüne ilişkin hükümler uyarınca tazminat isteyebilir. Soru yalnız bu hükmün açık lafzına dayanır."
+  },
+  {
+   "stem_md": "Ayşe, hamile yazılı ipotekli borç senedinin alacağını Mehmet'e devretmek istemektedir. TMK m. 923 ve TMK m. 924'e göre devir hangi koşula bağlıdır?",
+   "options": [
+    "Devir yalnız tapuda resmî şekilde yapılır ve tapu memurunun onayıyla geçerli olur.",
+    "Devir rehin senedinin teslim edilmesine bağlıdır; alacak senet üzerindeki zilyetlikle birlikte devredilir.",
+    "Devir yalnız adi yazılı sözleşmeyle yapılır; senedin teslimi gerekmez.",
+    "Devir borçlunun ve malikin yazılı rızasına bağlıdır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 923/1'e göre senetteki alacak ancak senet üzerindeki zilyetlikle birlikte devredilebilir; TMK m. 924/1'e göre devir rehin senedinin teslim edilmesine bağlıdır. Borçlunun ve malikin yazılı rızası senedin alacaklıya ilk verilişinde aranır (TMK m. 912/3). Adi yazılı devir sözleşmesi tek başına yeterli değildir; ipotekteki alacağın devri ise ayrıdır (TMK m. 891 ve TBK m. 184)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, Ayşe'den 400.000 TL borç alır. Ali'nin taşınmazına tapu idaresince resmen 600.000 TL değer biçilir. Taraflar hamile yazılı ipotekli borç senedi düzenletir; rehin tescil edilir. Ödünç ilişkisinin ayrıca süreceğine dair aralarında bir anlaşma yoktur. Senet tapu memuru tarafından düzenlenir, üzerinde tapu memuru ile yetkili Hazine temsilcisinin imzaları bulunur ve Ali'nin yazılı rızasıyla Ayşe'ye verilir.\n\nAyşe senedi Mehmet'e teslim ederek alacağı devreder. Mehmet devirden önce Ali'nin Ayşe'ye ana paradan 100.000 TL ödediğini bilmemektedir; bu ödeme ne tapu kütüğüne ne senede işlenmiştir. Mehmet, Ali'den 400.000 TL ister. Ali, 100.000 TL'yi Ayşe'ye zaten ödediğini, bu yüzden en çok 300.000 TL borcu bulunduğunu savunur. Mehmet ise ödemeyi senetten ya da tapu kaydından öğrenemediğini, devir sırasında Ayşe'nin de kendisine bundan söz etmediğini söyler. Ali, kısmi ödemenin tapuya işlenmesi için herhangi bir başvuru yapmadığını kabul etmektedir.\n\n1. Ali ile Ayşe arasındaki hakkın niteliği nedir? Ödünç ilişkisine ne olmuştur?\n2. Ayşe'nin Mehmet'e devri geçerli midir?\n3. Ali, 100.000 TL'lik ödemeyi Mehmet'e karşı ileri sürebilir mi?\n4. Ali ne yapmalıydı? Taşınmaz için ilk aşamada 700.000 TL'lik senet düzenlenebilir miydi?",
+   "rubric": [
+    {
+     "point": "Senedin rehinle güvenceli kişisel alacak doğurması; dayanak ödünç ilişkisinin yenileme yoluyla sona ermesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 898"
+    },
+    {
+     "point": "Biçilmiş değeri aşan miktar için rehin kurulamaması; 700.000 TL'lik senedin düzenlenememesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 899"
+    },
+    {
+     "point": "Senedin tapu memurunca, Hazine temsilcisinin imzasıyla düzenlenmesi ve borçlu ile malikin rızasıyla verilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 912"
+    },
+    {
+     "point": "Alacağın senet üzerindeki zilyetlikle birlikte, senedin teslimiyle devredilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 924"
+    },
+    {
+     "point": "Tescil edilmeyen ana para ödemesinin iyiniyetle kazanan Mehmet'e karşı ileri sürülememesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 929"
+    },
+    {
+     "point": "Def'i sınırı: ödemenin ne tescilden veya senetten doğan def'i ne de Mehmet'e karşı kişisel def'i olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 927"
+    },
+    {
+     "point": "Ali'nin kısmi ödemeyi kütüğe tescil ettirip senede yazdırması gerekirdi",
+     "weight": 5,
+     "madde_ref": "TMK m. 929"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar, taşınmaz rehninin ipotek dışındaki türü olan ipotekli borç senedini kullanmıştır (TMK m. 850). Ali'nin taşınmazı güvence, Ayşe alacaklı, Ali hem borçlu hem maliktir. Senet hamile yazılıdır (TMK m. 914/1) ve Ayşe'den Mehmet'e devredilmiştir.\n\n**Hukuki sorunlar:** (1) Senedin niteliği ve dayanak borca etkisi; (2) rehin miktarının sınırı; (3) devrin geçerliliği; (4) tescil edilmeyen kısmi ödemenin iyiniyetli kazanana karşı ileri sürülmesi.\n\n**İlgili hükümler:** TMK m. 898, TMK m. 899, TMK m. 910, TMK m. 911, TMK m. 912, TMK m. 923, TMK m. 924, TMK m. 927, TMK m. 929.\n\n**Değerlendirme:**\n\n*1. Hakkın niteliği:* İpotekli borç senedi, taşınmaz rehniyle güvence altına alınmış kişisel bir alacak meydana getirir (TMK m. 898). Senedin düzenlenmesiyle dayanak olan ödünç ilişkisi yenileme yoluyla sona erer (TMK m. 910/1). Tarafların aksine bir sözleşmesi olmadığı için bu sonuç doğmuştur. Senet usulüne uygundur: Tapu memuru düzenlemiş, Hazine temsilcisi imzalamış, Ali'nin yazılı rızasıyla verilmiştir (TMK m. 912). Hukuki sonuçlar tescil tarihinden başlar (TMK m. 911/2).\n\n*2. Değer sınırı:* Tapu idaresi taşınmaza 600.000 TL değer biçmiştir. Biçilen değeri aşan miktar için ipotekli borç senedi yoluyla rehin kurulamaz (TMK m. 899/2). Bu nedenle 700.000 TL'lik bir senet düzenlenemezdi; 400.000 TL'lik alacak için kurulan rehin değer sınırı içindedir.\n\n*3. Devir:* Nama veya hamile yazılı senetteki alacak ancak senet üzerindeki zilyetlikle birlikte devredilebilir (TMK m. 923/1). Alacağın devri senedin teslim edilmesine bağlıdır (TMK m. 924/1). Ayşe senedi Mehmet'e teslim ettiği için devir geçerlidir; Mehmet alacaklı olmuştur.\n\n*4. Kısmi ödeme:* Ali, Mehmet'e karşı kendi aleyhine bir değişikliği ileri sürmek ister. Borçlu yalnız tescilden veya senetten doğan def'ileri ve istemde bulunan alacaklıya karşı sahip olduğu kişisel def'ileri ileri sürebilir (TMK m. 927). 100.000 TL'lik ödeme ne tescilde ne senette görünür; ayrıca Mehmet'e karşı Ali'nin kişisel bir def'isi de değildir. Ana paranın kısmen ödenmesi gibi değişiklikler tescil edilmemişse, senette yazılı yıllık edimlerin ödenmiş olması dışında, senedi iyiniyetle kazanan kimseye karşı ileri sürülemez (TMK m. 929/3). Mehmet ödemeyi bilmediğinden iyiniyetlidir. Bu yüzden Ali, ödemeyi Mehmet'e karşı ileri süremez ve Mehmet 400.000 TL'yi isteyebilir. Ali'nin Ayşe ile arasındaki ilişkiden doğan hakları ayrıca değerlendirilir. Ali, kısmi ödemeyi kütüğe tescil ettirip senede yazdırmalıydı; tapu memuru bu tür değişiklikleri senet üzerine de yazar (TMK m. 929/1-2).\n\n**Sonuç:**\n- Senet rehinle güvenceli kişisel alacak doğurur; ödünç ilişkisi yenileme yoluyla sona ermiştir.\n- 700.000 TL'lik senet düzenlenemezdi; sınır biçilmiş değerdir.\n- Devir senedin teslimiyle geçerlidir.\n- Tescil edilmeyen 100.000 TL'lik ödeme iyiniyetli Mehmet'e karşı ileri sürülemez."
+  },
+  {
+   "stem_md": "Zeynep'in Ankara'daki tarım arazisi üzerinde Can lehine irat senedi kurulacaktır. Tapu idaresi arazinin gelir değerini resmen 500.000 TL olarak belirler. Taraflar senedi 350.000 TL'lik alacak için düzenletmek ister. Sözleşmede ayrıca, malikin yükten kurtarma için iki yıl önceden bildirimde bulunacağı kararlaştırılır.\n\nBir süre sonra Zeynep araziyi Burak'a satar ve tescil yapılır. Burak, irat senedinin yükünden kurtulmak ister ve bunun için sözleşmedeki iki yıllık bildirim süresini beklemek zorunda olup olmadığını sorar. Burak yükten kurtarma bedelini ödemeye hazırdır. Zeynep ise satıştan sonra kendisinin hâlâ borçlu sayılıp sayılmayacağını merak etmektedir. Satış sözleşmesinde irat senedine ilişkin ayrıca bir düzenleme yoktur. Can ise ana alacağı için Burak'ın yüklü taşınmaz dışındaki malvarlığına da başvurmak istediğini söyler.\n\n1. İrat senedinin güvencesi tarım arazisi olabilir mi? Alacak 350.000 TL olarak yazılabilir mi?\n2. Satıştan sonra irat senedinin borçlusu kimdir?\n3. Burak yükten kurtarma için sözleşmedeki iki yıllık bildirim süresine bağlı mıdır?\n4. Can, ana alacak için Burak'ın kişisel malvarlığına başvurabilir mi?",
+   "rubric": [
+    {
+     "point": "İrat senedinin taşınmaz yükü şeklinde alacak hakkı olması; tarım arazisinin güvence olabilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 903"
+    },
+    {
+     "point": "Alacağın tarım arazisinde gelir değerinin beşte üçünü aşamaması; 500.000 x 3/5 = 300.000 TL; 350.000 TL'nin yazılamaması",
+     "weight": 25,
+     "madde_ref": "TMK m. 904"
+    },
+    {
+     "point": "Değerlendirmenin tapu idaresince resmen yapılması; taraflarca belirlenememesi",
+     "weight": 5,
+     "madde_ref": "TMK m. 904"
+    },
+    {
+     "point": "Taşınmazı edinen Burak'ın borçlu olması; Zeynep'in başka işleme gerek kalmaksızın kurtulması",
+     "weight": 20,
+     "madde_ref": "TMK m. 907"
+    },
+    {
+     "point": "Sözleşmedeki daha uzun sürenin malikin yükten kurtarma hakkını engellememesi; altı yıllık dönem sonu için bir yıl önce bildirim ve bedelin ödenmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 906"
+    },
+    {
+     "point": "İrat senedinin kişisel borç doğurmaması; Can'ın yalnız yüklü taşınmaza başvurabilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 903"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Zeynep'in tarım arazisi üzerinde Can lehine kurulacak irat senedi, taşınmaz yükü şeklinde kurulmuş bir alacak hakkıdır (TMK m. 903/1). Taşınmaz rehninin ipotek ve ipotekli borç senedi dışındaki üçüncü türüdür (TMK m. 850).\n\n**Hukuki sorunlar:** (1) Güvence olabilecek taşınmaz ve alacağın üst sınırı; (2) satıştan sonra borçlunun kimliği; (3) malikin yükten kurtarma hakkı ve sözleşmedeki süre; (4) kişisel sorumluluk.\n\n**İlgili hükümler:** TMK m. 903, TMK m. 904, TMK m. 906, TMK m. 907.\n\n**Değerlendirme:**\n\n*1. Konu ve sınır:* İrat senedinin güvencesini ancak tarım arazisi, konutlar ve üzerinde bina yapılabilecek arsalar oluşturabilir (TMK m. 903/2). Zeynep'in arazisi tarım arazisidir, dolayısıyla güvence olabilir. İrat senetlerindeki alacak miktarı tarım arazisinde arazinin gelir değerinin beşte üçünü aşamaz (TMK m. 904/1). Gelir değeri 500.000 TL olduğundan sınır 500.000 × 3/5 = 300.000 TL'dir. Taraflar 350.000 TL yazdırmak istedikleri için fazla olan kısım yazılamaz. Değerlendirmeler tapu idaresince resmen yapıldığından (TMK m. 904/2) taraflar sınırı kendi aralarında artıramaz.\n\n*2. Borçlu:* İrat senedinin borçlusu yüklü taşınmazın malikidir (TMK m. 907/1). Yüklü taşınmazı edinen kimse irat senedinin borçlusu olur ve eski malik başka bir işleme gerek kalmaksızın borcundan kurtulur (TMK m. 907/2). Burak araziyi edindiği ve tescil yapıldığı için borçlu olur; Zeynep kurtulur. Can'ın ayrıca bir bildirim yapmasına ya da onay vermesine gerek yoktur.\n\n*3. Yükten kurtarma:* Malik, sözleşmeyle daha uzun bir bildirim süresi kabul edilmiş olsa bile, her altı yıllık dönemin sonu için bir yıl önce bildirmek ve bedelini ödemek koşuluyla taşınmazın yükten kurtarılmasını isteyebilir (TMK m. 906/1). Burak da malik olarak bu haktan yararlanır; sözleşmedeki iki yıllık süre kanuna göre onun hakkını sınırlamaz. Hakkı kullanmak için bildirimde bulunması ve bedeli ödemesi şarttır. Alacaklının ödeme isteme hakkı ise ayrı olup her on yıllık dönem sonu için bir yıl önce bildirimle kullanılır (TMK m. 906/2).\n\n*4. Kişisel sorumluluk:* İrat senedi kişisel borç doğurmaz ve borcun sebebini de göstermez (TMK m. 903/3). Alacaklı Can'ın güvencesi yüklü taşınmazdır (ana alacak bakımından); ana alacak için Burak'ın yüklü taşınmaz dışındaki malvarlığına başvurma isteği bu nedenle yerinde değildir. Bu, icra hukukunda da görünür: Rehin açığı için haciz veya iflas yoluna alacağı irat senedinden doğmayan alacaklı gidebilir (İİK m. 152/2). Bu bağlantı metinlerin birlikte okunmasından çıkar.\n\n**Sonuç:**\n- Tarım arazisi irat senedinin güvencesi olabilir; alacak en çok 300.000 TL olabilir.\n- Burak borçlu olur, Zeynep kurtulur.\n- Burak, her altı yıllık dönem sonu için bir yıl önce bildirip bedeli ödeyerek yükten kurtarma isteyebilir.\n- Can, ana alacak için Burak'ın kişisel malvarlığına başvuramaz."
+  },
+  {
+   "stem_md": "Elif'in taşınmazında Kemal lehine nama yazılı ipotekli borç senedi vardır. Senet Kemal'in evinden çalınır. Kemal, Elif'ten borcun ödenmesini ister. Elif ise borcun tamamını ödemeye hazırdır ve senedin kendisine geri verilmesini, ardından tapu kaydının sildirilmesini istemektedir.\n\nBaşka bir dosyada Hasan'ın taşınmazı üzerinde hamile yazılı bir irat senedi bulunmaktadır. Senedin alacaklısının kim olduğu on bir yıldır bilinmemekte ve bu sürede faiz ödenmesi de istenmemiştir. Hasan taşınmazı satmak için kaydı temizlemek istemektedir. Elif ile Kemal, senedin düzenlenmesi sırasında senedin kaybına ilişkin ayrıca bir düzenleme yapmamıştır. Hasan, alacaklının ortaya çıkması hâlinde alacağı ödemeye hazırdır. Kemal çalıntıyı fark edince hemen mahkemeye başvurmayı düşünmektedir; Elif ise senedin kendisine geri verilmesi mümkün olmazsa tapu kaydının nasıl silineceğini öğrenmek ister.\n\n1. Kemal çalınan senedi nasıl işlerse alacağına kavuşabilir? Hangi süre geçerlidir?\n2. Elif borcu tamamen öderse neyi isteyebilir? Tapu kaydı nasıl silinir?\n3. Hasan ne yapabilir? Sonuçları nelerdir?",
+   "rubric": [
+    {
+     "point": "Senedin irade dışında elden çıkması; Kemal'in senedi mahkemeye iptal ettirip ödeme, alacak muaccel değilse yeni senet isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 925"
+    },
+    {
+     "point": "İptalin hamile yazılı kıymetli evrakın iptali hükümlerine göre verilmesi; ibraz süresinin bir yıl olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 925"
+    },
+    {
+     "point": "Borcun tamamını ödeyen borçlunun senedin iptal edilmemiş olarak geri verilmesini isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 928"
+    },
+    {
+     "point": "Tescilin ancak tarafların veya mahkemenin rehin senedini iptal etmesi üzerine terkin edilebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 919"
+    },
+    {
+     "point": "On yıl bilinmezlik ve faiz istenmemesi şartlarının birlikte gerçekleşmesi; maliki ilan isteyebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 926"
+    },
+    {
+     "point": "Alacaklı çıkmaz ve alacağın büyük olasılıkla mevcut olmadığı anlaşılırsa senedin iptali ve rehin derecesinin boşalması",
+     "weight": 10,
+     "madde_ref": "TMK m. 926"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kemal'in senedi nama yazılı ipotekli borç senedidir (TMK m. 914/1). Hasan'ın senedi ise hamile yazılı irat senedidir. İki olayda da sorun senedin kaybı, borcun sona ermesi ve alacaklının bilinmemesine ilişkindir. Bu konular iki senet türüne ortak hükümlerdedir.\n\n**Hukuki sorunlar:** (1) Çalınan senedin iptali ve alacağın istenmesi; (2) borcun ödenmesi hâlinde senet ve tescilin akıbeti; (3) alacaklısı bilinmeyen senet için ilan ve iptal.\n\n**İlgili hükümler:** TMK m. 925, TMK m. 926, TMK m. 919, TMK m. 928.\n\n**Değerlendirme:**\n\n*1. Kayıp senet:* Rehin senedi irade dışında elden çıkmışsa alacaklı, senedi mahkeme kararıyla iptal ettirerek borçludan borcunu ödemesini ve alacak henüz muaccel değilse yeni bir rehin senedi düzenlenmesini isteyebilir (TMK m. 925/1). Senet çalındığı için irade dışında elden çıkmıştır. Kemal mahkemeye başvurarak iptal kararı almalıdır. İptal kararı, hamile yazılı kıymetli evrakın iptaline ilişkin hükümler gereğince verilir; ancak ibraz süresi bir yıldır (TMK m. 925/2). Genel hamile yazılı senetteki en az altı ay kuralı (TTK m. 663) yerine bu özel süre uygulanır.\n\n*2. Ödeme ve terkin:* Borcun tamamını ödeyen borçlu, alacaklıdan senedin iptal edilmemiş olarak geri verilmesini isteyebilir (TMK m. 928). Senet çalınmış olduğundan geri verilemiyorsa Elif, ödenmiş olmasına rağmen geri verilmemiş senet için aynı hükümler uyarınca iptal isteyebilir (TMK m. 925/3). Tapu kaydının silinmesi ise ödemeyle kendiliğinden olmaz: Tescil ancak tarafların veya mahkemenin rehin senedini iptal etmesi üzerine terkin edilebilir (TMK m. 919). Elif'in bu yüzden kaydı silmek için senedin iptalini sağlaması gerekir.\n\n*3. Alacaklısı bilinmeyen senet:* Alacaklının kim olduğu on yıldan beri bilinmiyor ve bu süre içinde faiz ödenmesi de istenmemişse, rehinli taşınmazın maliki gaipliğe ilişkin hükümlere göre ilan yapılmasını hâkimden isteyebilir (TMK m. 926/1). Hasan'ın olayında iki şart birlikte gerçekleşmiştir: on bir yıldır alacaklı bilinmemektedir ve faiz istenmemiştir. Hasan ilan isteyebilir. Alacaklı ortaya çıkmaz ve yapılan araştırma sonunda büyük bir olasılıkla alacağın artık mevcut olmadığı anlaşılırsa hâkim senedin iptaline karar verir ve bu kararla rehin derecesi boşalır (TMK m. 926/2). Alacaklı ortaya çıkarsa senet iptal edilmez.\n\n**Sonuç:**\n- Kemal çalınan senedi mahkemeye iptal ettirerek borçludan ödeme, alacak muaccel değilse yeni senet isteyebilir; ibraz süresi bir yıldır.\n- Elif senedin iptal edilmemiş olarak geri verilmesini ister; kayıt ancak senedin iptali üzerine silinir.\n- Hasan ilan isteyebilir; alacaklı çıkmazsa senet iptal edilir ve derece boşalır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Taşınmaz rehni hangi türlerde kurulabilir? (TMK m. 850)",
+   "back_md": "Yalnız ipotek, ipotekli borç senedi veya irat senedi şeklinde."
+  },
+  {
+   "front_md": "İpotekli borç senedi ne doğurur? (TMK m. 898)",
+   "back_md": "Taşınmaz rehniyle güvence altına alınmış kişisel bir alacak. Alacak ve rehin aynı işlemle birlikte doğar."
+  },
+  {
+   "front_md": "İpotekli borç senedinde rehin miktarının sınırı nedir? (TMK m. 899)",
+   "back_md": "Tapu idaresince resmen biçilen değer. Biçilmiş değeri aşan miktar için bu yolla rehin kurulamaz."
+  },
+  {
+   "front_md": "İpotekli borç senedinde alacak ne zaman muaccel olur? (TMK m. 900)",
+   "back_md": "Aksi kararlaştırılmadıkça faizlerin ödenmesi gereken tarihte; bu tarihten en az altı ay önce alacaklı veya borçlunun yaptığı bildirimle."
+  },
+  {
+   "front_md": "Borçtan kişisel sorumlu olmayan malik hakkında hangi hükümler uygulanır? (TMK m. 901)",
+   "back_md": "İpotek hükümleri. Malik, alacaklıya karşı borçluya ait bütün def'ileri ileri sürebilir."
+  },
+  {
+   "front_md": "İrat senedi ne doğurur? (TMK m. 903)",
+   "back_md": "Taşınmaz yükü şeklinde kurulmuş bir alacak hakkı. Kişisel borç doğurmaz, borcun sebebini göstermez."
+  },
+  {
+   "front_md": "İrat senedinin güvencesi hangi taşınmazlar olabilir? (TMK m. 903/2)",
+   "back_md": "Tarım arazisi, konutlar ve üzerinde bina yapılabilecek arsalar."
+  },
+  {
+   "front_md": "İrat senedinde alacağın üst sınırı nedir? (TMK m. 904)",
+   "back_md": "Tarım arazisinde gelir değerinin; diğer taşınmazlarda gelir değeri ile bina ve arsa değerleri ortalamasının beşte üçü."
+  },
+  {
+   "front_md": "Değer biçmede özensizlikten kim sorumludur? (TMK m. 905)",
+   "back_md": "Devlet. Kusuru olan memurlara rücu edebilir."
+  },
+  {
+   "front_md": "Malik irat senedinden hangi süreyle kurtulabilir? (TMK m. 906/1)",
+   "back_md": "Her altı yıllık dönem sonu için bir yıl önce bildirip bedeli ödeyerek; sözleşmede daha uzun süre kararlaştırılmış olsa bile."
+  },
+  {
+   "front_md": "İrat senedi alacaklısı ne zaman ödeme isteyebilir? (TMK m. 906/2)",
+   "back_md": "Kanundaki hâller dışında, her on yıllık dönem sonu için bir yıl önce bildirimle."
+  },
+  {
+   "front_md": "İrat senedinin borçlusu kimdir? (TMK m. 907)",
+   "back_md": "Yüklü taşınmazın malikidir. Taşınmazı edinen borçlu olur, eski malik başka işleme gerek kalmaksızın kurtulur."
+  },
+  {
+   "front_md": "Bölünmede ipotek ile irat senedi alacaklısının istemi nasıl ayrılır?",
+   "back_md": "İkisinde de bir ay içinde bildirim, bir yıl içinde istem: ipotekte alacağın ödenmesi (TMK m. 889/2), irat senedinde senedin satın alınması (TMK m. 908/3)."
+  },
+  {
+   "front_md": "Senede koşul veya karşı edim kaydı konabilir mi? (TMK m. 909)",
+   "back_md": "Hayır. İpotekli borç senedi ve irat senedi koşul ve karşı edim kaydı içeremez."
+  },
+  {
+   "front_md": "Senet düzenlenince dayanak borç ilişkisine ne olur? (TMK m. 910)",
+   "back_md": "Yenileme yoluyla sona erer. Aksine sözleşme yalnız tarafları ve iyiniyetli olmayan üçüncü kişileri etkiler."
+  },
+  {
+   "front_md": "Senedi kim düzenler, kimler imzalar? (TMK m. 912)",
+   "back_md": "Tapu memuru düzenler; üzerinde tapu memuru ile yetkili Hazine temsilcisinin imzası bulunur. Alacaklıya borçlunun ve malikin yazılı rızasıyla verilir."
+  },
+  {
+   "front_md": "Senedin sonuçları hangi tarihten başlar? (TMK m. 911/2)",
+   "back_md": "Senet sonradan düzenlenmiş olsa bile tescil tarihinden."
+  },
+  {
+   "front_md": "Ödeme nerede yapılır? (TMK m. 916/1)",
+   "back_md": "Aksi anlaşılmadıkça, senet hamile yazılı olsa bile alacaklının yerleşim yerinde."
+  },
+  {
+   "front_md": "Devirden sonra ana para kime ödenir? (TMK m. 917/2)",
+   "back_md": "Ancak ödeme zamanında kendisinin alacaklı olduğunu ispat eden kimseye yapılırsa geçerlidir."
+  },
+  {
+   "front_md": "Borcu ödeyince tescil kendiliğinden silinir mi? (TMK m. 919 ve TMK m. 928)",
+   "back_md": "Hayır. Borçlu senedin iptal edilmemiş olarak geri verilmesini ister; tescil ancak rehin senedinin iptali üzerine terkin edilir."
+  },
+  {
+   "front_md": "TMK m. 883/2'deki otuz günlük terkin kuralı senetler için geçerli midir?",
+   "back_md": "Hayır. Süreli ipotekte sürenin bitiminden itibaren otuz gün içinde icra şerhi konulmazsa malikin talebiyle terkin, ipoteğe özgüdür. Senet türlerinde terkin kuralı TMK m. 919'dur."
+  },
+  {
+   "front_md": "Senet ile kütük çelişirse hangisi esas alınır? (TMK m. 922)",
+   "back_md": "Kütük. Senedi iyiniyetle edinen tapu kütüğüne ilişkin hükümler uyarınca tazminat isteyebilir."
+  },
+  {
+   "front_md": "Alacak nasıl devredilir? (TMK m. 923 ve TMK m. 924)",
+   "back_md": "Senet üzerindeki zilyetlikle birlikte, rehin senedinin teslimiyle. Nama yazılıda devralanın adı ve devir senede yazılır."
+  },
+  {
+   "front_md": "Kayıp senedin iptalinde ibraz süresi nedir? (TMK m. 925/2)",
+   "back_md": "Bir yıl. Genel hamile yazılı senette süre en az altı ay belirlenir (TTK m. 663)."
+  },
+  {
+   "front_md": "TMK m. 926'daki ilan yolunun şartları nelerdir?",
+   "back_md": "Alacaklı on yıldan beri bilinmemeli ve bu süre içinde faiz ödenmesi de istenmemiş olmalı. İki şart birlikte aranır; alacaklı çıkmazsa senet iptal edilir, derece boşalır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

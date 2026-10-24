@@ -1,0 +1,606 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kıymetli Evrak",
+ "topic_index": 5,
+ "slug": "bono",
+ "title": "Bono (Emre Muharrer Senet): Unsurlar, Eksik Unsurların Sonucu, Uygulanacak Hükümler ve Düzenleyenin Sorumluluğu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T16:38:32.062143+00:00",
+ "skill_refs": [
+  "kiymetli-evrak/bono-police-unsurlar"
+ ],
+ "content": {
+  "summary_md": "- **Bono (emre yazılı senet):** düzenleyenin lehtara veya onun emrine belirli bir bedeli ödemeyi **kendisinin vaat ettiği** kambiyo senedidir (TTK m. 776). Poliçedeki gibi havale emri ve muhatap yoktur; iki taraflı bir ödeme vaadi vardır.\n- **Zorunlu unsurlar (TTK m. 776/1):** (a) senet metninde \"bono\" veya \"emre yazılı senet\" kelimesi, (b) kayıtsız şartsız belirli bedeli ödeme vaadi, (c) vade, (d) ödeme yeri, (e) lehtarın adı, (f) düzenlenme tarihi ve yeri, (g) düzenleyenin imzası.\n- **Eksikliğin sonucu (TTK m. 777):** unsurlardan birini içermeyen senet **bono sayılmaz**; ancak üç eksik kanunla tamamlanır: vade yoksa **görüldüğünde** (TTK m. 777/2), ödeme yeri yoksa **düzenlenme yeri** (TTK m. 777/3), düzenlenme yeri yoksa **düzenleyenin adı yanındaki yer** (TTK m. 777/4).\n- **Tamamlanmayan unsurlar:** bono kelimesi, ödeme vaadi, lehtar adı, düzenlenme tarihi ve imza eksikse senet bono değildir.\n- **Uygulanacak hükümler (TTK m. 778):** bononun niteliğine aykırı düşmedikçe ciro, vade, ödeme, başvurma, sebepsiz zenginleşme, metin değişikliği, zamanaşımı, iptal, ayrıca TTK m. 675, 676, 677, 678, 680 ve aval hükümleri bonoya da uygulanır. **Kabul** kurumu bonoda yoktur.\n- **Faiz şartı:** yalnız görüldüğünde ve görüldükten sonra vadeli bonoda geçerlidir; diğerlerinde yazılmamış sayılır (TTK m. 675 ve TTK m. 778/2-b).\n- **Tutar farkı:** yazı ile rakam arasında fark varsa **yazı**; yalnız yazıyla veya yalnız rakamla birden çok gösterilmişse **en az olan** (TTK m. 676).\n- **Aval:** kimin için verildiği yazılmamışsa **bonoyu düzenleyen hesabına** verilmiş sayılır (TTK m. 778/4).\n- **Düzenleyenin sorumluluğu (TTK m. 779/1):** bonoyu düzenleyen, poliçeyi kabul eden gibi sorumludur; asıl borçludur. Hak kaybı kuralı (TTK m. 730) **kabul eden** hakkında uygulanmadığından düzenleyene karşı protesto olmadan da gidilebilir. Zamanaşımı vadeden 3 yıldır (TTK m. 749/1).\n- **Görüldükten sonra vadeli bono (TTK m. 779/2-3):** düzenleyene ibraz edilir, düzenleyen ibraz günü ve imzasıyla doğrular; kaçınırsa protestoyla tespit edilir ve süre protesto gününden işler.\n- **Teminat bonosu:** senet metninden anlaşılan, ödemeyi şarta bağlayan teminat kaydı kambiyo vasfını kaldırır; metinden anlaşılmayan teminat iddiası İİK m. 169'daki borca itiraz yoluyla ileri sürülür.\n- **Bağlantı:** bono İİK m. 167 vd. kambiyo senetlerine özgü haciz yoluna konu olur; \"bono\" kelimesi taşımayan emre yazılı ödeme vaadi bono hükmündedir ancak bu takip yoluna konu olamaz (TTK m. 830).",
+  "content_md": "## 1. Bono nedir, poliçeden farkı nedir?\n\n**Bono** (emre yazılı senet), düzenleyenin senetteki lehtara veya onun emrine belirli bir parayı ödemeyi bizzat vaat ettiği kıymetli evraktır. Kanun bonoyu yalnızca dört maddede düzenler (TTK m. 776-779) ve geri kalan her şey için poliçeye gönderme yapar (TTK m. 778). Bu yüzden bono konusunu bir **fark listesi** olarak çalışmak en verimlisidir.\n\nTemel fark şudur: poliçede düzenleyen muhataba \"ödeyiniz\" der ve üç kişi vardır (düzenleyen, muhatap, lehtar). Bonoda düzenleyen \"ödeyeceğim\" der; muhatap yoktur, **kabul** kurumu da yoktur. Düzenleyen, senet düzenlendiği andan itibaren asıl borçludur.\n\n| Özellik | Poliçe | Bono |\n|---|---|---|\n| Senedin içeriği | Havale (\"ödeyiniz\", TTK m. 671) | Ödeme vaadi (\"ödeyeceğim\", TTK m. 776) |\n| Muhatap ve kabul | Var | Yok |\n| Asıl borçlu | Kabul edinceye kadar yok; sonra kabul eden | Düzenleyen (TTK m. 779/1) |\n\n## 2. Zorunlu unsurlar (TTK m. 776)\n\nTTK m. 776/1'e göre bono şunları içerir:\n\n1. Senet **metninde** \"bono\" veya \"emre yazılı senet\" kelimesi (senet başka dilde yazılmışsa o dildeki karşılığı),\n2. **Kayıtsız ve şartsız belirli bir bedeli ödeme vaadi**,\n3. Vade,\n4. Ödeme yeri,\n5. Kime veya kimin emrine ödenecekse onun adı (lehtar),\n6. Düzenlenme tarihi ve yeri,\n7. Düzenleyenin imzası.\n\nPoliçedeki unsurlardan farkı açıktır: bonoda **muhatabın adı** ve \"ödeyiniz\" biçimindeki havale yoktur; bunların yerine ödeme vaadi vardır (TTK m. 671 ile TTK m. 776'yı karşılaştır).\n\nBu yedi unsurdan bazıları şu açıdan önemlidir:\n\n- **Kelime:** \"Bono\" ya da \"emre yazılı senet\" ibaresi senet **metninde** geçmelidir. Kanunun sözü \"senet metninde\"dir; ibarenin senedin metninde yer alması gerekir.\n- **Ödeme vaadi:** Vaat kayıtsız ve şartsızdır. \"Şu sözleşmeye göre inşaat zamanında bitmezse ödeyeceğim\" diyen senet, vaadi şarta bağladığı için bono olmaz.\n- **Bedel:** Belirli (muayyen) bir para tutarı olmalıdır. Yazı ve rakam arasında fark varsa **yazı** üstündür (TTK m. 676/1); yalnız yazıyla ya da yalnız rakamla birden çok gösterilmiş ve fark varsa **en az olan** geçerlidir (TTK m. 676/2). TTK m. 676, bonoya TTK m. 778/2-c ile uygulanır.\n- **İmza:** Bonodaki beyanlar **el ile** imzalanır; mekanik araç, elle yapılan işaret veya resmî şahadetname imza yerine geçmez (TTK m. 756, TTK m. 778/1-i ile).\n\n> **Örnek:** Mehmet Demir, \"İşbu bono mukabilinde Ayşe Kaya'ya veya emrine 150.000 TL ödeyeceğim\" yazıp tarih atarak imzalarsa, kelime, vaat, lehtar, tarih ve imza tamdır; vade, ödeme yeri ve düzenleme yeri eksikse kanun bu eksikleri tamamlar.\n\n## 3. Eksik unsurların sonucu (TTK m. 777)\n\nGenel kural sert: **776. maddedeki unsurlardan birini içermeyen senet bono sayılmaz** (TTK m. 777/1). Üç istisna vardır; bunlar sınavın kalbidir:\n\n| Eksik unsur | Kanunun tamamlaması |\n|---|---|\n| Vade | **Görüldüğünde** ödenmesi şart edilmiş bono sayılır (TTK m. 777/2) |\n| Ödeme yeri | Düzenlendiği yer, ödeme yeri ve düzenleyenin yerleşim yeri sayılır (TTK m. 777/3) |\n| Düzenlenme yeri | **Düzenleyenin adı yanında yazılı yerde** düzenlenmiş sayılır (TTK m. 777/4) |\n\nKanunda **tamamlama kuralı bulunmayan** unsurlar şunlardır: bono/emre yazılı senet kelimesi, ödeme vaadi, lehtarın adı, düzenlenme tarihi ve düzenleyenin imzası. Bunlardan biri eksikse senet bono olmaz.\n\nDüzenleme yeri ve ödeme yeri için zincirleme düşünmek gerekir. Düzenlenme yeri yoksa düzenleyenin adı yanındaki yer düzenlenme yeri olur; ödeme yeri de yoksa bu yer ödeme yeri sayılır. İkisi de yoksa ve düzenleyenin adı yanında da yer yazılı değilse tamamlayacak bir ölçüt kalmaz.\n\n> ⚠️ **Sınavda dikkat:** \"Vade yazılmamış bono geçersizdir\" demek yanlıştır. Geçerlidir ve görüldüğünde vadelidir. Buna karşılık **düzenlenme tarihi** yazılmamış bono geçersizdir. Poliçede de aynı mantık vardır (TTK m. 672/2).\n\nYargıtay uygulamasından bir örnek: bir bonoda düzenleme yeri hanesinde idari birim olmayan bir ibare yazıldığı için bölge adliye mahkemesi senedi bono saymamış, Yargıtay ise keşidecinin adı yanındaki idari birimin TTK m. 777/4 uyarınca düzenleme yeri sayılması gerektiğini belirtmiştir (karar özetine bak).\n\n### Bono kelimesi taşımayan emre yazılı ödeme vaadi (TTK m. 830)\n\nSenet metninde \"bono\" geçmiyor ama senet **açıkça emre yazılı** düzenlenmiş ve bonoda aranan diğer unsurları taşıyorsa bu ödeme vaadi **bono hükmündedir**. Bu senetler için araya girerek ödemeye ilişkin hükümler uygulanmaz (TTK m. 830/1) ve İİK'nın bonoların takibine ilişkin hükümleri bu senetlere uygulanmaz (TTK m. 830/2). Yani kambiyo senetlerine özgü haciz yolu onlar için açık değildir.\n\n## 4. Bonoya uygulanan poliçe hükümleri (TTK m. 778)\n\nBononun niteliğine aykırı düşmedikçe bonolara uygulanır:\n\n- Ciro, vade, ödeme, ödememe halinde başvurma, sebepsiz zenginleşme, metin değişikliği, zamanaşımı, iptal, tatil günleri ve sürelerin hesabı (TTK m. 778/1).\n- Faiz şartı, bedelin çeşitli gösterilmesi, geçerli olmayan imza, yetkisiz imza, yetkiyi aşma, açık poliçe ve adresli/yerleşim yerli poliçeye ilişkin hükümler (TTK m. 778/2): TTK m. 674, 675, 676, 677, 678, 680 gibi.\n- Aval hükümleri (TTK m. 778/3).\n\nListede **kabule ilişkin hükümler yoktur**: bonoda kabul olmadığı için kabule arz, kabul etmeme protestosu ve kabulden kaçınma yüzünden vadeden önce başvurma gibi kurumlar bonoda gündeme gelmez.\n\n### Faiz şartı (TTK m. 675)\n\nPoliçede olduğu gibi bonoda da faiz şartı yalnız **görüldüğünde** veya **görüldükten belirli bir süre sonra** ödenecek bonolara konabilir; diğerlerinde yazılmamış sayılır. Faiz oranı da yazılmalıdır, yoksa şart yazılmamış sayılır. Başka gün yazılmamışsa faiz düzenlenme gününden işler (TTK m. 675).\n\n> **Örnek:** Belirli günde (01.09.2026) ödenecek bonoya \"yıllık %40 faiz işler\" yazılırsa faiz şartı yazılmamış sayılır. Senet geçerlidir, yalnız faiz kaydı hükümsüzdür.\n\n### Aval (TTK m. 778/3-4)\n\nBonoya aval verilebilir. Aval kimin için verildiğini belirtmezse **bonoyu düzenleyen hesabına** verilmiş sayılır (TTK m. 778/4). Aval veren, kimin için taahhüt altına girmişse aynen onun gibi sorumlu olur; teminat altına aldığı borç şekil noksanı dışında bir sebeple batıl olsa da avalin taahhüdü geçerlidir (TTK m. 702/1-2). Poliçede ise belirtilmemişse aval düzenleyen için verilmiş sayılır (TTK m. 701/4).\n\n## 5. Düzenleyenin sorumluluğu (TTK m. 779)\n\nBir bonoyu düzenleyen kişi, **tıpkı bir poliçeyi kabul eden gibi** sorumludur (TTK m. 779/1). Üç sonuç öğren:\n\n1. **Asıl borçludur.** Hamil, düzenleyene başvurmak için ödememe protestosu çekmek zorunda değildir. TTK m. 730/1'deki hak kaybı \"kabul eden hariç\" uygulandığından, ibraz veya protesto süresi kaçırılsa da düzenleyene karşı hak düşmez. Cirantalara karşı ise protesto ve ibraz süreleri aynen geçerlidir.\n2. **Zamanaşımı:** düzenleyene karşı istemler vadeden itibaren **üç yılda** zamanaşımına uğrar (kabul eden gibi, TTK m. 749/1). Cirantalara ve poliçeyi düzenleyene karşı süresinde çekilen protestodan (senette \"gidersiz iade olunacaktır\" kaydı varsa vadeden) bir yıl, cirantanın rücuu için altı ay geçerlidir (TTK m. 749/2-3).\n3. Düzenleyen ödeyince kambiyo ilişkisi sona erer; kendisinden önce gelen bir kambiyo borçlusu yoktur.\n\n> **Örnek:** Düzenleyen Selim'in 04.06.2026 perşembe vadeli bonosunu hamil Pelin zamanında protesto ettirmedi. Pelin ciranta Okan'a karşı hakkını kaybeder (TTK m. 730/1); Selim'e karşı 04.06.2029'a kadar dava veya takip yapabilir.\n\n### Görüldükten belirli süre sonra vadeli bono (TTK m. 779/2-3)\n\nBöyle bononun **düzenleyene ibrazı** gerekir; süre TTK m. 693'teki süredir: düzenlenme gününden itibaren bir yıl (düzenleyen kısaltabilir ya da uzatabilir). Düzenleyen ibraz gününü işaret edip imzalayarak (\"görüldü\" şerhi) bunu doğrular; süre ibraz kaydı tarihinden işler. Doğrulamaktan kaçınırsa bu durum **protestoyla** belirlenir ve süre protesto gününden başlar.\n\n## 6. Teminat bonosu, ifa uğruna bono ve soyutluk\n\nBono **soyuttur**: kambiyo taahhüdü temel ilişkiden bağımsız görünür. Bu yüzden senet metninde ödemeyi bir sözleşmenin sonucuna bağlayan kayıt varsa soyutluk bozulur. Yargıtay Hukuk Genel Kurulu şu ayrımı yapar (karar özetine bak):\n\n- **Metinden anlaşılan, ödemeyi şarta bağlayan kayıt** (\"... sözleşmenin teminatıdır\", \"inşaat bitiminde ödenecektir\"): vaat kayıtsız şartsız olmadığı için senet bono sayılmaz; hükümsüzlük herkese karşı ileri sürülebilir (TTK m. 777/1). İcra mahkemesi kambiyo takibini **İİK m. 170/a** uyarınca iptal eder.\n- **Metinden anlaşılmayan teminat iddiası:** borçlu bunu **kişisel def'i** olarak İİK m. 169 kapsamında borca itiraz biçiminde ileri sürer. TTK m. 687/1'e göre kişisel def'iler yalnız temel ilişkinin tarafları arasında ileri sürülür; hamil bile bile borçlunun zararına hareket etmedikçe iyiniyetli hamile karşı ileri sürülemez. Yargıtay, ayrı belgede senedin vade, tanzim tarihi ve miktarına açık atıf olmasını arar.\n- **İfa uğruna (pro solvendo) bono:** Bir borç ilişkisinden doğacağı kesin olan para alacağının tahsili için verilen bono teknik anlamda teminat bonosu değil, ifa uğruna verilen bonodur. Kambiyo taahhüdünde bulunmak mevcut borcu **yenilemez**; taraflar açıkça yenileme iradesi göstermedikçe borç yenilenmiş sayılmaz (TBK m. 133/2).\n\n## 7. Kambiyo senetlerine özgü haciz yolu (bağlantı)\n\nAlacağı çek, poliçe veya bonoya dayanan alacaklı, alacak **rehinle temin edilmiş olsa bile** kambiyo senetlerine özgü haciz yoluna başvurabilir (İİK m. 167). Borçluya senet suretiyle ödeme emri gönderilir (İİK m. 168). Borçlu, senedin kambiyo vasfı taşımadığını **5 gün** içinde icra mahkemesine şikâyet yoluyla ileri sürebilir (İİK m. 168/3 ve İİK m. 170/a); borca itirazı da 5 gün içinde yapar (İİK m. 168/5 ve İİK m. 169). İmza itirazı İİK m. 170'te düzenlidir. Ayrıntısı icra hukuku dersindedir; burada kambiyo vasfı ile ilişkisini bilmen yeter.\n\n## 8. Diğer poliçe kuralları bonoda nasıl işler?\n\n- **İmzaların bağımsızlığı (TTK m. 677):** Bonoda ehliyetsiz, sahte veya hayali kişilerin imzası bulunması diğer imzaların geçerliliğini etkilemez. Örneğin lehtar adına sahte ciro atılsa da düzenleyenin imzası bağlayıcıdır.\n- **Yetkisiz temsil (TTK m. 678):** Temsil yetkisi olmadan bonoyu temsilci sıfatıyla imzalayan kişi bizzat sorumludur.\n- **Açık bono (TTK m. 680):** Tamamen doldurulmadan tedavüle çıkan bono, anlaşmaya aykırı doldurulursa bu aykırılık, hamil kötüniyetle iktisap etmemiş ve ağır kusuru yoksa hamile karşı ileri sürülemez.\n- **Metin değişikliği (TTK m. 748):** Bono metni değiştirilirse değişiklikten sonra imzalayan değişmiş metne, önce imzalayan eski metne göre sorumludur.\n\n> **Örnek:** Düzenleyen Elif, Ahmet lehine 50.000 TL'lik bono verdi. Ahmet bedeli 500.000 TL yaptı ve bonoyu Burak'a ciro etti. Değişiklikten önce imzalayan Elif 50.000 TL'den, değişiklikten sonra ciro ederek imzalayan Ahmet 500.000 TL'den sorumludur; hamil Burak, Elif'ten ancak 50.000 TL isteyebilir.\n\n## 9. Denetim şeması\n\n1. Senet metninde bono/emre yazılı senet kelimesi var mı? Yoksa TTK m. 830'a bak.\n2. Kayıtsız şartsız belirli bir bedel ödeme vaadi var mı? Tutar farkı varsa TTK m. 676.\n3. Lehtar adı, düzenlenme tarihi, imza var mı? Biri yoksa bono değil.\n4. Vade, ödeme yeri, düzenlenme yeri eksikse TTK m. 777/2-4 ile tamamla.\n5. Düzenleyen asıl borçludur (TTK m. 779/1); cirantalara karşı protesto ve ibraz süreleri aranır.\n6. Zamanaşımı: düzenleyene vadeden 3 yıl; cirantaya protestodan (gidersiz kaydı varsa vadeden) 1 yıl.",
+  "critical_md": "- 📌 Bono unsurları TTK m. 776/1'de yedi bentte sayılır; bono kelimesi **senet metninde** bulunmalıdır.\n- 📌 Eksik unsur **kural olarak** senedi bono olmaktan çıkarır (TTK m. 777/1). Tamamlananlar: **vade** (görüldüğünde), **ödeme yeri** (düzenlenme yeri), **düzenlenme yeri** (düzenleyenin adı yanındaki yer).\n- ⚠️ Düzenlenme **tarihi**, lehtar adı, imza, ödeme vaadi ve bono kelimesi için yedek kural yoktur.\n- 📌 Bonoda **kabul** ve **muhatap** yoktur; TTK m. 778 listesinde kabule ilişkin hükümler bulunmaz.\n- 📌 Düzenleyen, poliçeyi kabul eden gibi sorumludur (TTK m. 779/1): asıl borçludur, protesto olmasa da hak düşmez (TTK m. 730/1, \"kabul eden hariç\").\n- ⚠️ Protesto/ibraz kaçırılırsa hak **cirantalara** karşı düşer; düzenleyene karşı düşmez.\n- 📌 Zamanaşımı: düzenleyene **vadeden 3 yıl**; cirantaya protestodan (gidersiz kaydı varsa vadeden) **1 yıl**; cirantanın rücuu **6 ay** (TTK m. 749).\n- 📌 Tutar farkı: **yazı** rakama üstündür; yalnız yazıyla/rakamla birden çok gösterilmişse **en az olan** (TTK m. 676).\n- 📌 Faiz şartı yalnız görüldüğünde ve görüldükten sonra vadeli bonoda geçerli; diğerlerinde **yazılmamış** sayılır, senet geçersiz olmaz.\n- 📌 Aval kimin için verildiği belli değilse **düzenleyen hesabına** verilmiş sayılır (TTK m. 778/4).\n- ⚠️ \"Bono\" kelimesi yok ama açıkça emre yazılı ödeme vaadi: bono hükmündedir; ancak kambiyo senetlerine özgü haciz yolu uygulanmaz (TTK m. 830).\n- 📌 Teminat: metinden anlaşılan şartlı kayıt bono vasfını kaldırır; metinden anlaşılmayan iddia İİK m. 169 kapsamında borca itiraz olarak ve yazılı belgeyle ileri sürülür.",
+  "doctrine_md": "### Teminat kaydının bono vasfına etkisi\nBono üzerine yalnızca \"teminattır\" yazılması hâlinde senedin kambiyo vasfını yitirip yitirmeyeceği tartışmalıdır. Bir görüş, ödeme vaadinin böyle bir kayıtla temel ilişkiye bağlanmasının soyutluğu ve kayıtsız şartsızlığı zedelediğini savunur. Karşı görüş, hangi ilişkinin teminatı olduğu gösterilmedikçe ödemenin şarta bağlanmadığını, bu nedenle kaydın tek başına vasfı kaldırmadığını söyler. Özetlenen Hukuk Genel Kurulu kararında da benimsenen yaklaşım, kaydın neyin teminatı olduğunu göstermeyen (mücerret) teminat kaydının tek başına bononun soyutluğunu ortadan kaldırmadığıdır. Neyin teminatı olduğu yazıyorsa ve ödeme o sözleşmeye bağlanmışsa sonuç farklıdır. Sınavda iki ayrımı birlikte ver: metinden anlaşılan şartlı kayıt ve metinden anlaşılmayan, ayrı belgeyle ileri sürülen kişisel def'i.\n\n### Teminat bonosu ile ifa uğruna bono\nTeknik anlamda teminat bonosu, borçlunun edimi paradan başka bir şey olduğunda veya alacağın doğup doğmayacağı belirsiz olduğunda verilir. Alacağı kesin doğacak bir borç ilişkisinde tahsili kolaylaştırmak için verilen bono ise ifa uğrunadır. Önemli sonuç: ifa uğruna verilen bono, taraflar açıkça belirtmedikçe borcu yenilemez (TBK m. 133/2). Bono bedelinin ödenmesiyle asıl borç da sona erer; ödenmezse alacaklı hem bonoya hem temel ilişkiye dayanabilir.\n\n### Kabul kurumunun yokluğu\nBonoda muhatap bulunmadığı için kambiyo ilişkisi düzenleyenin kendi borcu üzerine kurulur. Bu, bonoyu poliçeden ayıran temel noktadır. Başvurma hakkı, vadede ödenmeme hâlinde cirantalara karşı protesto ve ibraz şartlarına bağlıdır; düzenleyene karşı bu şartlar aranmaz.",
+  "glossary": [
+   {
+    "term": "Bono (emre yazılı senet)",
+    "definition": "Düzenleyenin lehtara veya emrine belirli bedeli ödemeyi vaat ettiği kambiyo senedi (TTK m. 776)."
+   },
+   {
+    "term": "Düzenleyen (keşideci)",
+    "definition": "Bonoyu düzenleyen ve poliçeyi kabul eden gibi asıl borçlu olan kişi (TTK m. 779/1)."
+   },
+   {
+    "term": "Lehtar",
+    "definition": "Bonoda kime veya kimin emrine ödeneceği yazılı kişi (TTK m. 776/1-e)."
+   },
+   {
+    "term": "Alternatif zorunlu unsur",
+    "definition": "Eksikse kanunun tamamladığı unsur: vade, ödeme yeri, düzenlenme yeri (TTK m. 777/2-4)."
+   },
+   {
+    "term": "Görüldü şerhi",
+    "definition": "Görüldükten sonra vadeli bonoda düzenleyenin ibraz gününü yazıp imzalayarak ibrazı doğrulaması (TTK m. 779/3)."
+   },
+   {
+    "term": "Emre yazılı ödeme vaadi",
+    "definition": "Bono kelimesi taşımayan ama açıkça emre yazılı ödeme vaadi; bono hükmündedir, İİK bono takibine konu olmaz (TTK m. 830)."
+   },
+   {
+    "term": "Teminat bonosu",
+    "definition": "Alacağın doğup doğmayacağı belirsiz olduğunda veya edim paradan başka olduğunda güvence amacıyla verilen bono."
+   },
+   {
+    "term": "İfa uğruna bono",
+    "definition": "Doğacağı kesin para alacağının tahsilini kolaylaştırmak için verilen, borcu yenilemeyen bono (TBK m. 133/2)."
+   },
+   {
+    "term": "Soyutluk (mücerretlik)",
+    "definition": "Kambiyo taahhüdünün temel ilişkiden bağımsız görünmesi; metinde şartlı temel ilişki kaydı bunu zedeler."
+   },
+   {
+    "term": "Kişisel def'i",
+    "definition": "Borçlunun temel ilişkideki tarafına karşı ileri sürebildiği, iyiniyetli hamile karşı ileri sürülemeyen savunma (TTK m. 687)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "671",
+   "official_text": "1. Genel olarak\nMADDE 671- (1) Poliçe;\na) Senet metninde “poliçe” kelimesini, senet Türkçe’den başka bir dille yazılmışsa, o dilde poliçe karşılığı olarak kullanılan kelimeyi,\nb) Belirli bir bedelin ödenmesi hususunda kayıtsız ve şartsız havaleyi,\nc) Ödeyecek olan kişinin, “muhatabın” adını,\nd) Vadeyi,\ne) Ödeme yerini,\nf) Kime veya kimin emrine ödenecek ise onun adını,\ng) Düzenlenme tarihini ve yerini,\nh) Düzenleyenin imzasını,\niçerir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "672",
+   "official_text": "2. Unsurların bulunmaması\nMADDE 672- (1) 671 inci maddede yazılı unsurlardan birini içermeyen senet ikinci ilâ dördüncü fıkralarda yazılı hâller dışında poliçe sayılmaz.\n(2) Vadesi gösterilmeyen poliçenin görüldüğünde ödenmesi şart edilmiş sayılır.\n(3) Ayrıca belirtilmiş olmadıkça muhatabın adı yanında gösterilen yer, ödeme yeri ve aynı zamanda da muhatabın yerleşim yeri sayılır.\n(4) Düzenlenme yeri gösterilmeyen poliçe, düzenleyenin adı yanında gösterilen yerde düzenlenmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "674",
+   "official_text": "2. Adresli ve yerleşim yerli poliçe\nMADDE 674- (1) Poliçe, bir üçüncü kişinin nezdinde, muhatabın yerleşim yerinde veya başka bir yerde ödenmek üzere düzenlenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "675",
+   "official_text": "3. Faiz şartı\nMADDE 675- (1) Görüldüğünde veya görüldüğünden belirli bir süre sonra ödenmesi şart kılınan bir poliçeye, düzenleyen tarafından faiz şartı konulabilir. Diğer poliçelerde böyle bir faiz şartı yazılmamış sayılır.\n(2) Faiz oranının poliçede gösterilmesi gerekir; gösterilmemiş ise faiz şartı yazılmamış sayılır.\n(3) Başka bir gün belirtilmemişse, faiz, poliçenin düzenlenme gününden itibaren işler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "676",
+   "official_text": "4. Poliçe bedelinin çeşitli şekillerde gösterilmesi\nMADDE 676- (1) Poliçe bedeli hem yazı hem de rakamla gösterilip de iki bedel arasında fark bulunursa, yazı ile gösterilen bedel üstün tutulur.\n(2) Poliçe bedeli yalnız yazıyla veya yalnız rakamla birden çok gösterilmiş olup da bedeller arasında fark bulunursa, en az olan bedel geçerli sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "677",
+   "official_text": "I - Geçerli olmayan imzaların bulunması\nMADDE 677- (1) Bir poliçe, poliçe ile borçlanmaya ehil olmayan kişilerin imzasını, sahte imzaları, hayali kişilerin imzalarını veya imzalayan ya da adlarına imzalanmış olan kişileri herhangi bir sebeple bağlamayan imzaları içerirse, diğer imzaların geçerliliği bundan etkilenmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "678",
+   "official_text": "II - Yetkisiz imza\nMADDE 678- (1) Temsile yetkili olmadığı hâlde bir kişinin temsilcisi sıfatıyla bir poliçeye imzasını koyan kişi, o poliçeden dolayı bizzat sorumludur; bu poliçeyi ödediği takdirde, temsil olunduğu kabul edilen kişinin haiz olabileceği haklara sahip olur. Yetkisini aşan temsilci için de hüküm böyledir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "680",
+   "official_text": "IV - Açık poliçe\nMADDE 680- (1) Tedavüle çıkarılırken tamamen doldurulmamış bulunan bir poliçe, aradaki anlaşmalara aykırı bir şekilde doldurulursa, bu anlaşmalara uyulmadığı iddiası, hamile karşı ileri sürülemez; meğerki, hamil poliçeyi kötüniyetle iktisap etmiş veya iktisap sırasında kendisine ağır bir kusur isnadı mümkün bulunmuş olsun.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "687",
+   "official_text": "IV - Def’iler\nMADDE 687- (1) Poliçeden dolayı kendisine başvurulan kişi, düzenleyen veya önceki hamillerden biriyle kendi arasında doğrudan doğruya var olan ilişkilere dayanan def’ileri başvuran hamile karşı ileri süremez; meğerki, hamil, poliçeyi iktisap ederken bile bile borçlunun zararına hareket etmiş olsun.\n(2) Alacağın temliki yoluyla yapılan devirlere ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "693",
+   "official_text": "III - Görüldükten belirli bir süre sonra ödenmesi gereken poliçelerde\nMADDE 693- (1) Görüldükten belirli bir süre sonra ödenmesi şart kılınan poliçelerin, düzenlenme gününden itibaren bir yıl içinde kabule arz edilmesi gerekir.\n(2) Düzenleyen bu süreyi kısaltabileceği gibi, daha uzun bir süre de şart koşabilir.\n(3) Cirantalar kabule arz sürelerini kısaltabilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "701",
+   "official_text": "II - Şekil\nMADDE 701- (1) Aval şerhi, poliçe veya alonj üzerine yazılır.\n(2) Aval “aval içindir” veya bununla eş anlamlı başka bir ibareyle ifade edilir ve aval veren kişi tarafından imzalanır.\n(3) Muhatabın veya düzenleyenin imzaları hariç olmak üzere, poliçenin yüzüne atılan her imza aval şerhi sayılır.\n(4) Kimin için verildiği belirtilmemişse aval, düzenleyici için verilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "702",
+   "official_text": "III - Hükümler\nMADDE 702- (1) Aval veren kişi, kimin için taahhüt altına girmişse aynen onun gibi sorumlu olur.\n(2) Aval veren kişinin teminat altına aldığı borç, şekle ait noksandan başka bir sebepten dolayı batıl olsa da aval verenin taahhüdü geçerlidir.\n(3) Aval veren kişi, poliçe bedelini ödediği takdirde, poliçeden dolayı lehine taahhüt altına girmiş olduğu kişiye ve ona, poliçe gereğince sorumlu olan kişilere karşı poliçeden doğan haklarını iktisap eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "703",
+   "official_text": "1. Genel olarak\nMADDE 703- (1) Bir poliçe;\na) Görüldüğünde,\nb) Görüldükten belirli bir süre sonra,\nc) Düzenlenme gününden belirli bir süre sonra,\nd) Belirli bir günde,\nödenmek üzere düzenlenebilir.\n(2) Vadesi başka şekilde yazılan veya birbirini takip eden çeşitli vadeleri gösteren poliçeler batıldır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "704",
+   "official_text": "2. Görüldüğünde ödenecek poliçe\nMADDE 704- (1) Görüldüğünde ödenmek üzere düzenlenen poliçe ibrazında ödenir. Böyle bir poliçenin düzenlenme gününden itibaren bir yıl içinde ödenmesi için ibrazı gerekir. Düzenleyen bu süreyi kısaltabileceği gibi, daha uzun bir süre de belirleyebilir. İbraz süreleri cirantalar tarafından kısaltılabilir.\n(2) Düzenleyen, görüldüğünde ödenecek bir poliçenin belirli bir günden önce ödenmek üzere ibraz edilmeyeceği hakkında şart koyabilir. Bu takdirde ibraz süresi o tarihten başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "708",
+   "official_text": "I - İbraz\nMADDE 708- (1) Belirli bir günde veya düzenlenme gününden ya da görüldükten belirli bir süre sonra ödenecek bir poliçenin hamili, poliçeyi ödeme gününde veya onu izleyen iki iş günü içinde ödenmek üzere ibraz etmelidir.\n(2) Poliçenin bir takas odasına ibrazı, ödeme için ibraz yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "714",
+   "official_text": "1. Süreler ve şartları\nMADDE 714- (1) Kabul etmemenin veya ödememenin, kabul etmeme veya ödememe protestosu denilen resmî bir belge ile belirlenmesi zorunludur.\n(2) Kabul etmeme protestosunun, kabule arz için belirli olan süre içinde çekilmesi gerekir. 694 üncü maddenin birinci fıkrasında gösterilen hâlde poliçenin ilk arzı vadenin son gününde olmuşsa, protesto o günün ertesi günü de çekilebilir.\n(3) Belirli bir günde veya düzenlenme gününden ya da görüldükten belirli bir süre sonra ödenmesi şartını içeren bir poliçeden dolayı çekilecek ödememe protestosunun, ödeme gününü izleyen iki iş günü içinde çekilmesi zorunludur. Görüldüğünde ödenmesi şart olan bir poliçeden dolayı çekilecek ödememe protestosu, ikinci fıkrada kabul etmeme protestosu için gösterilen süreler içinde çekilir.\n(4) Kabul etmeme protestosu çekilmiş olması hâlinde ödeme için poliçeyi ibraz etmeye gerek olmadığı gibi, ödememe protestosu çekmeye de ihtiyaç yoktur.\n(5) Poliçeyi kabul etmiş olsun olmasın muhatap, ödemelerini tatil etmiş veya aleyhindeki herhangi bir icra takibi semeresiz kalmış ise, hamil başvurma haklarını ancak poliçenin ödenmesi için muhataba ibrazından ve protestonun çekilmesinden sonra kullanabilir.\n(6) Poliçeyi kabul etmiş olsun olmasın, muhatap veya kabul için arz edilmesi menedilen bir poliçenin düzenleyeni iflas etmişse, iflas ilamının ibrazı, başvurma hakkının kullanılması için yeterlidir.\n2. Şekli",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "723",
+   "official_text": "III - İhbar zorunluluğu\nMADDE 723- (1) Hamil, protesto gününü veya poliçede “gidersiz” kaydı mevcut ise, ibraz gününü izleyen dört iş günü içinde, kabul etmeme veya ödememe hâllerini, kendi cirantasına ve düzenleyene ihbar etmek zorundadır.\n(2) Her ciranta aldığı ihbarı, bunları aldığı günü izleyen iki iş günü içinde önceki ihbarları yapan kişilerin adlarını ve adreslerini de göstermek suretiyle, kendi cirantasına ihbar eder. Düzenleyene varıncaya kadar bu sıra dâhilinde hareket edilir. Süreler önceki ihbarın alındığı tarihten itibaren işlemeye başlar.\n(3) Poliçede imzası bulunan bir kişiye ikinci fıkra gereğince ihbarda bulunulduğu takdirde, kendisine aval veren kişiye de aynı süre içinde bu ihbarın yapılması gerekir.\n(4) Bir ciranta adresini hiç yazmamış veya okunması mümkün olmayacak surette yazmış ise, ihbarın ondan önceki cirantaya yapılması yeterlidir.\n(5) İhbarı yapacak olan kişi bunu noter aracılığıyla veya sadece poliçenin iadesi yoluyla yapabilir.\n(6) İhbarı yapmakla yükümlü olan kişi bunu belirli süre içinde yaptığını ispat etmek zorundadır.\n(7) Birinci ve ikinci fıkralarda gösterilen süreler içinde ihbarname göndermeyen kişi başvurma hakkını kaybetmezse de ihmalinden doğan zarardan sorumlu olur. Ancak, bu zarara ilişkin tazminat borcu poliçe bedeliyle sınırlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "730",
+   "official_text": "1. Genel olarak\nMADDE 730- (1) Hamil;\na) Görüldüğünde veya görüldükten belirli bir süre sonra ödenmesi şart olan poliçeyi ibraz,\nb) Kabul etmeme veya ödememe protestosunu düzenleme,\nc) “Gidersiz iade olunacaktır” kaydının bulunması hâlinde, poliçeyi ödeme amacıyla ibraz,\niçin belirli süreleri geçirirse, kabul eden kişi hariç olmak üzere, cirantalara, düzenleyene ve diğer borçlulara karşı sahip olduğu hakları kaybeder.\n(2) Hamil, kabul amacıyla ibraz edilmesi için düzenleyenin verdiği süreye uymazsa, kabul etmeme ve ödememe sebebiyle başvuru haklarını kaybeder; meğerki, düzenleyicinin yalnız kabule ait sorumluluğu istisna etmek istediği kayıttan anlaşılsın.\n(3) Ciroda ibraz için bir süre şart kılınmışsa ancak ciranta bu süreyi ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "732",
+   "official_text": "B) Sebepsiz zenginleşme\nMADDE 732- (1) Zamanaşımı sebebiyle veya poliçeden doğan hakların korunması için gerekli olan işlemlerin yapılmasının ihmal edilmiş olması dolayısıyla, düzenleyenin veya kabul edenin poliçeden doğan yükümlülükleri düşmüş bile olsa, bunlar poliçenin hamiline karşı, onun zararına zenginleşmiş olabilecekleri kadar borçlu kalırlar.\n(2) Sebepsiz zenginleşmeden doğan istem, muhataba, yerleşim yerli bir poliçeyi ödeyecek olan kimseye ve düzenleyen, poliçeyi başka bir kişi veya ticari işletme hesabına düzenlemiş olduğu takdirde o kişiye veya ticari işletmeye karşı da ileri sürülebilir.\n(3) Poliçeden doğan borcu düşmüş olan cirantaya karşı böyle bir istem ileri sürülemez.\n(4) Zamanaşımı süresi, poliçenin zamanaşımına uğradığı tarihi takip eden tarihten itibaren bir yıldır; ispat yükü, sebepsiz zenginleşmediğini iddia edene aittir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "748",
+   "official_text": "A) Senet metnindeki değişiklikler\nMADDE 748- (1) Bir poliçe metni değiştirildiği takdirde, değiştirmeden sonra poliçe üzerine imza koymuş olan kişiler, değişmiş metne ve ondan önce imzasını koyanlar ise eski metne göre sorumlu olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "749",
+   "official_text": "I - Süreler\nMADDE 749- (1) Poliçeyi kabul edene karşı ileri sürülecek poliçeden doğan istemler, vadenin geldiği tarihten itibaren üç yıl geçmekle zamanaşımına uğrar.\n(2) Hamilin, cirantalarla düzenleyene karşı ileri süreceği istemler, süresinde çekilen protesto tarihinden veya senette “gidersiz iade olunacaktır” kaydı varsa vadenin dolduğu tarihten itibaren bir yıl geçmekle zamanaşımına uğrar.\n(3) Bir cirantanın başka cirantalarla düzenleyen aleyhine ileri süreceği istemler, cirantanın poliçeyi ödediği veya poliçenin dava yolu ile kendisine karşı ileri sürüldüğü tarihten itibaren altı ay geçmekle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "756",
+   "official_text": "E) İmzalar\nMADDE 756- (1) Poliçe üzerindeki beyanların el ile imza edilmesi gerekir.\n(2) El ile atılan imza yerine, mekanik herhangi bir araç veya elle yapılan veya onaylanmış bir işaret veya resmî bir şahadetname kullanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "776",
+   "official_text": "A) Unsurlar\nMADDE 776- (1) Bono veya emre yazılı senet;\na) Senet metninde “bono” veya “emre yazılı senet” kelimesini ve senet Türkçe’den başka bir dille yazılmışsa, o dilde bono veya emre yazılı senet karşılığı olarak kullanılan kelimeyi,\nb) Kayıtsız ve şartsız belirli bir bedeli ödemek vaadini,\nc) Vadeyi,\nd) Ödeme yerini,\ne) Kime veya kimin emrine ödenecek ise onun adını,\nf) Düzenlenme tarihini ve yerini,\ng) Düzenleyenin imzasını,\niçerir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "777",
+   "official_text": "B) Unsurların bulunmaması\nMADDE 777- (1) İkinci ilâ dördüncü fıkralarda yazılı hâller saklı kalmak üzere, 776 ncı maddede gösterilen unsurlardan birini içermeyen bir senet bono sayılmaz.\n(2) Vadesi gösterilmemiş olan bono, görüldüğünde ödenmesi şart olan bir bono sayılır.\n(3) Açıklık bulunmadığı takdirde senedin düzenlendiği yer, ödeme yeri ve aynı zamanda düzenleyenin yerleşim yeri sayılır.\n(4) Düzenlendiği yer gösterilmeyen bir bono, düzenleyenin adının yanında yazılı olan yerde düzenlenmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "778",
+   "official_text": "C) Uygulanacak hükümler\nMADDE 778- (1) Bononun niteliğine aykırı düşmedikçe;\na) Poliçelerin cirosuna ilişkin 681 ilâ 690,\nb) Vadeye dair 703 ilâ 707,\nc) Ödeme hakkındaki 708 ilâ 712,\nd) Ödememe hâlinde başvurma haklarına dair 713 ilâ 727 ve 729 ilâ 732,\ne) Araya girme suretiyle ödemeye ilişkin 734, 738 ilâ 742,\nf) Suretler hakkındaki 746 ve 747,\ng) Değiştirmeye dair 748,\nh) Zamanaşımına dair 749 ilâ 751,\nı) İptale dair 757 ilâ 765,\ni) Tatil günleri, sürelerin hesabı, atıfet sürelerine ilişkin yasak, poliçeye dair işlemlerin yapılması gereken yer ve imza hakkındaki 752 ilâ 756,\nj) Kanunlar ihtilâfına dair 766 ilâ 775 inci,\nmaddeler hükümleri bonolar hakkında da geçerlidir.\n(2) Ayrıca;\na) Üçüncü bir kişinin yerleşim yerinden veya muhatabın yerleşim yerinden başka bir yerde ödenmesi şart olan poliçeye ilişkin 674 ve 697 nci,\nb) Faiz şartına dair 675 inci,\nc) Ödenecek bedele dair çeşitli beyanlar hakkındaki 676 ncı,\nd) Geçerli olmayan imzanın sonuçlarına ilişkin 677 nci,\ne) Yetkisiz veya yetkiyi aşan kimsenin imzasına ilişkin 678 ve 679 uncu,\nf) Açık poliçeye dair 680 inci,\nmadde hükümleri de bonolara uygulanır.\n(3) Avale ilişkin 700 ilâ 702 nci maddeler de bonolar hakkında uygulanır.\n(4) 701 inci maddenin dördüncü fıkrasında öngörülen hâlde aval, avalin kimin hesabına verildiğini göstermezse, bonoyu düzenleyen kimse hesabına verilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "779",
+   "official_text": "D) Düzenleyenin sorumluluğu\nMADDE 779- (1) Bir bonoyu düzenleyen kişi, tıpkı bir poliçeyi kabul eden gibi sorumludur.\n(2) Görüldüğünden belirli bir süre sonra ödenmesi şart olan bonoların düzenleyene 693 üncü maddede yazılı süreler içinde ibraz olunması gerekir.\n(3) Düzenleyen, bononun kendisine ibraz edildiğini bono üzerine ibraz gününü işaret etmek ve imzasını koymak suretiyle doğrular. Süre, ibraz kaydı tarihinden itibaren işlemeye başlar. Düzenleyen; bononun kendisine ibraz edildiğini, gününü işaret etmek suretiyle doğrulamaktan kaçınırsa, bu durum bir protesto ile belirlenir. Bu takdirde süre protesto gününden itibaren işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "830",
+   "official_text": "II - Emre yazılı ödeme vaatleri\nMADDE 830- (1) Senet metninde bono olarak gösterilmemekle beraber, açıkça emre yazılı olarak düzenlenmiş olan ve bonoda aranılan diğer unsurları da içeren ödeme vaatleri, bono hükmündedir. Ancak, emre yazılı olarak düzenlenmiş olan ödeme vaatleri hakkında, araya girerek ödemeye ilişkin hükümler uygulanmaz.\n(2) İcra ve İflas Kanununun, çekler, poliçeler ve emre yazılı senetlerden bonoların takibine ilişkin hükümleri, emre yazılı olarak düzenlenmiş bulunan ödeme vaatlerine uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "167",
+   "official_text": "Takibin kabulü şartları:\nMadde 167 – (Değişik: 18/2/1965-538/80 md.)\nAlacağı çek, poliçe veya emre muharrer senete müstenit olan alacaklı, alacak rehinle temin edilmiş olsa bile, bu bölümdeki hususi usullere göre haciz yolu ile veya borçlu iflasa tabi şahıslardan ise iflas yolu ile takipte bulunabilir.\nAlacaklı, takip talebinde 58 inci maddedeki hususlardan başka iflasa tabi borçlusu aleyhine haciz ve iflas yollarından hangisini istediğini bildirmeğe ve takip talebine kambiyo senedinin aslını ve borçlu adedi kadar tasdikli örneğini eklemeğe mecburdur.\nA) Haciz yolu ile takip:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "168",
+   "official_text": "Ödeme emri:\nMadde 168 – (Değişik: 18/2/1965-538/81 md.)\nİcra memuru senedin kambiyo senedi olduğunu ve vadesinin geldiğini görürse, borçluya senet sureti ile birlikte hemen bir ödeme emri gönderir. Bu ödeme emrine şunlar yazılır:\n1. (Değişik: 2/7/2012-6352/33 md.) Alacaklının veya vekilinin banka hesap numarası hariç olmak üzere, takip talebine yazılması lazım gelen kayıtlar,\n2. (Değişik: 2/7/2012-6352/33 md.) Borcun ve takip masraflarının on gün içinde ödeme emrinde yazılı olan icra dairesine ait banka hesabına ödenmesi ihtarı,\n3. Takibin müstenidi olan senet kambiyo senedi vasfını haiz değilse, beş gün içinde icra mahkemesine şikayet etmesi lüzumu,\n4. (Değişik: 9/11/1988-3494/31 md.) Takip müstenidi kambiyo senedindeki imza kendisine ait olmadığı iddiasında ise bunu beş gün içinde açıkça bir dilekçe ile icra mahkemesine bildirmesi; aksi takdirde kambiyo senedindeki imzanın bu fasıl gereğince yapılacak icra takibinde kendisinden sadır sayılacağı ve imzasını haksız yere inkar ederse sözü edilen senede dayanan takip konusu alacağın yüzde onu oranında para cezasına mahküm edileceği ve icra mahkemesin den itirazının kabulüne dair bir karar getirmediği takdirde cebri icraya devam olunacağı ihtarı.\n5. (Değişik: 6/6/1985-3222/21 md.) Borçlu olmadığı veya borcun itfa edildiği veya mehil verildiği veya alacağın zaman aşımına uğradığı veya yetki itirazını sebepleri ile birlikte beş gün içinde icra mahkemesine bir dilekçe ile bildirerek icra mahkemesinden itirazın kabulüne dair bir karar getirmediği takdirde cebri icraya devam olunacağı ihtarı.\n6. (Değişik: 17/7/2003-4949/45 md.) İtiraz edilmediği ve borç ödenmediği takdirde on gün içinde 74 üncü maddeye, itiraz edilip de reddedildiği takdirde ise üç gün içinde 75 inci maddeye göre mal beyanında bulunması ve bulunmazsa hapisle tazyik edileceği, mal beyanında bulunmaz veya hakikate aykırı beyanda bulunursa ayrıca hapisle cezalandırılacağı ihtarı.\n60 ıncı maddenin son iki fıkrası burada da tatbik olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "169",
+   "official_text": "a) Borca itiraz:\nMadde 169 – (Değişik: 18/2/1965-538/82 md.)\nBorçlu, 168 inci maddenin 5 numaralı bendine göre borca karşı yapacağı itirazını bir dilekçe ile icra mahkemesine bildirir. Bu itiraz satıştan başka icra takip muamelelerini durdurmaz.\nİtirazın incelenmesi:\n[65] 2/7/2012 tarihli ve 6352 sayılı Kanunun 34 üncü maddesiyle, bu fıkranın birinci cümlesinde yer alan “yüzde kırktan” ibaresi “yüzde yirmisinden” olarak değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "170",
+   "official_text": "b) İmzaya itiraz:\nMadde 170 – (Değişik: 9/11/1988-3494/33 md.)\nBorçlu,168 inci maddenin 4 numaralı bendine göre kambiyo senedindeki imzanın kendisine ait olmadığı yolundaki itirazını bir dilekçe ile icra mahkemesine bildirir. Bu itiraz satıştan başka icra takip muamelelerini durdurmaz.\nİcra mahkemesi duruşmadan önce yapacağı incelemede, borçlunun itiraz dilekçesi kapsamından veya eklediği belgelerden edindiği kanaata göre itirazı ciddi görmesi halinde alacaklıya tebliğe gerek görmeden itirazla ilgili kararına kadar icra takibinin geçici olarak durdurulmasına evrak üzerinde karar verebilir.\n(Değişik üçüncü fıkra: 17/7/2003-4949/47 md.) İcra mahkemesi, 68/a maddesinin dördüncü fıkrasına göre yapacağı inceleme sonunda, inkâr edilen imzanın borçluya ait olmadığına kanaat getirirse itirazın kabulüne karar verir. İtirazın kabulü kararı ile takip durur. Alacaklının genel hükümlere göre dava açma hakkı saklıdır. İnkâr edilen imzanın borçluya ait olduğu anlaşılırsa ve itiraz ile birlikte takip ikinci fıkraya göre durdurulmuşsa, borçlu sözü edilen senede dayanan takip konusu alacağın yüzde yirmisinden aşağı olmamak üzere inkâr tazminatına ve takip konusu alacağın yüzde onu oranında para cezasına mahkûm edilir ve itiraz reddedilir. Borçlu menfi tespit veya istirdat davası açarsa, hükmolunan tazminatın ve para cezasının tahsili dava sonuna kadar tehir olunur ve davanın borçlu lehine sonuçlanması hâlinde daha önce hükmedilmiş olan tazminat ve para cezası kalkar.[66]\n(Değişik birinci cümle: 17/7/2003-4949/47 md.) İcra mahkemesi, itirazın kabulüne karar vermesi hâlinde, senedi takibe koymada kötü niyeti veya ağır kusuru bulunduğu takdirde alacaklıyı senede dayanan takip konusu alacağın yüzde yirmisinden aşağı olmamak üzere tazminata ve alacağın yüzde onu oranında para cezasına mahkûm eder. Alacaklı genel mahkemede dava açarsa, para cezasının tahsili dava sonuna kadar tehir olunur ve bu davayı kazanırsa hakkında verilmiş olan para cezası kalkar.\nBorçlunun kambiyo hukuku bakımından şikayeti:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "170/a",
+   "official_text": "Madde 170/a – (Ek: 18/2/1965-538/85 md.)\nBorçlu, alacaklının bu fasıl hükümlerine göre takip hakkı olmadığını 168 inci maddenin 3 üncü bendine göre şikayet yolu ile ileri sürebilir.\nİcra mahkemesi müddetinde yapılan şikayet veya itiraz dolayısıyle, usulü dairesinde kendisine intikal eden işlerde takibin müstenidi olan kambiyo senedinin bu vasfı haiz olmadığı veya alacaklının kambiyo hukuku mucibince takip hakkına sahip bulunmadığı hususlarını re’sen nazara alarak bu fasla göre yapılan takibi iptal edebilir.\n(Ek: 9/11/1988-3494/34 md.) Her ne suretle olursa olsun, imza inkarı itirazı geri alınmış veya borç kısmen veya tamamen kabul edilmiş ise bu madde hükmü uygulanmaz.\nUygulanacak diğer hükümler:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "133",
+   "official_text": "MADDE 133- Yeni bir borçla mevcut bir borcun sona erdirilmesi, ancak tarafların bu yöndeki açık iradesi ile olur.\nÖzellikle mevcut borç için kambiyo taahhüdünde bulunulması veya yeni bir alacak senedi ya da yeni bir kefalet senedi düzenlenmesi, tarafların açık yenileme iradeleri olmadıkça yenileme sayılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2021/607",
+   "karar_no": "2023/626",
+   "decision_date": "14.06.2023",
+   "summary_md": "Alacaklı banka, iki bonoya dayanarak borçlular aleyhine kambiyo senetlerine özgü haciz yoluyla takip başlatmış; borçlu bonoların genel kredi sözleşmesinin teminatı olarak alındığını ileri sürerek icra mahkemesinde borca itiraz etmişti. İlk derece mahkemesi itirazı reddetmiş, bölge adliye mahkemesi istinaf üzerine itirazı kabul etmiş, Özel Daire (12. Hukuk Dairesi) bozmuş, bölge adliye mahkemesi direnmişti. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozdu. Gerekçede, kayıtsız şartsız ödeme vaadi taşımayan senedin bono sayılmayacağı, senet metninden anlaşılan ve ödemeyi şarta bağlayan teminat kaydının mutlak def'i oluşturarak takibin İİK m. 170/a uyarınca iptalini gerektireceği belirtildi. Teminat olduğu metinden anlaşılmıyorsa iddianın İİK m. 169 kapsamında borca itiraz olduğu, sözleşmeyle senedin bağlantısının yazılı belgeyle ve vade, tanzim tarihi ve miktara açık atıfla kanıtlanması gerektiği kabul edildi. Somut olayda senetlerde teminat kaydı bulunmadığı, alacaklı vekilinin \"kredi borcundan mahsup edilmek üzere verildi\" beyanının tek başına teminat iddiasını ispata yetmediği vurgulandı.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=920518700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/5440",
+   "karar_no": "2026/3223",
+   "decision_date": "03.06.2026",
+   "summary_md": "Davacılar, 500.000 TL bedelli, 03.09.2019 tanzim ve 01.06.2020 vade tarihli bononun takibe konulması üzerine menfi tespit davası açmıştı. İlk derece mahkemesi kısmen kabul etmiş; bölge adliye mahkemesi, bonoda düzenleme yeri hanesine idari birim olmayan bir ibare yazıldığından TTK m. 777/4'ün uygulanamayacağını, senedin bono vasfı taşımadığını belirterek farklı gerekçeyle menfi tespit talebini kabul etmişti. Yargıtay 11. Hukuk Dairesi, düzenleme yerinin alternatif zorunlu kayıtlardan olduğunu, TTK m. 777/4 uyarınca düzenlendiği yer gösterilmeyen bononun düzenleyenin adının yanında yazılı yerde düzenlenmiş sayılacağını, keşidecinin adı altında belirtilen idari birimin görmezden gelinemeyeceğini belirterek kararı bozdu. Hükme göre hanede yazılı ibare yazılmamış gibi kabul edilip keşide adı altındaki yer düzenleme yeri sayılarak esas hakkında karar verilmelidir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1230266500",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Vade, ödeme yeri ve düzenlenme yeri yazılmamış; ancak diğer unsurları tam bir bonoda düzenleyenin adının yanında \"Kadıköy/İstanbul\" yazılıdır. Senedin durumu nedir?",
+   "options": [
+    "Geçerli bonodur; ancak vade tarihi hâkim tarafından belirlenir",
+    "Yalnız adi senet olarak delil başlangıcıdır",
+    "Geçerli bonodur; görüldüğünde vadeli sayılır, düzenlenme ve ödeme yeri Kadıköy/İstanbul'dur",
+    "Bono sayılmaz, çünkü üç unsur birden eksiktir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 777/2'ye göre vadesiz bono görüldüğünde ödenmesi şart edilmiş sayılır. Düzenlenme yeri yoksa düzenleyenin adının yanında yazılı yer düzenlenme yeri sayılır (TTK m. 777/4); ödeme yeri de açıklık yoksa düzenlenme yeridir (TTK m. 777/3). Üç eksiğin üçü de kanunla tamamlandığı için senet bono olarak geçerlidir."
+  },
+  {
+   "stem_md": "Aşağıdaki bonolardan hangisi **bono sayılmaz**?",
+   "options": [
+    "Ödeme yeri yazılmamış bono",
+    "Vadesi yazılmamış bono",
+    "Düzenlenme yeri yazılmamış ama düzenleyenin adı yanında yer yazılı bono",
+    "Düzenlenme tarihi yazılmamış bono"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Düzenlenme tarihi için kanunda tamamlama kuralı yoktur; bu unsuru içermeyen senet bono sayılmaz (TTK m. 777/1). Vade, ödeme yeri ve düzenlenme yeri ise TTK m. 777/2-4 ile tamamlanır."
+  },
+  {
+   "stem_md": "Bir senette \"bono\" veya \"emre yazılı senet\" ibaresi yoktur; ancak metinde açıkça \"Ayşe Kaya'nın emrine 100.000 TL ödeyeceğim\" yazılıdır ve diğer unsurlar tamdır. Alacaklı Ayşe bu senede dayanarak kambiyo senetlerine özgü haciz yoluyla takip başlatabilir mi?",
+   "options": [
+    "Evet; çünkü bono kelimesi yalnız ispat kolaylığı içindir",
+    "Hayır; senet hiçbir surette hukuki sonuç doğurmaz",
+    "Evet; senet bono hükmündedir ve bonolara ilişkin icra hükümleri aynen uygulanır",
+    "Hayır; bono hükmündedir ancak İİK'nın bonoların takibine ilişkin hükümleri bu tür emre yazılı ödeme vaatlerine uygulanmaz"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TTK m. 830/1'e göre senet metninde bono olarak gösterilmemekle beraber açıkça emre yazılı düzenlenmiş ve bonoda aranan diğer unsurları içeren ödeme vaatleri bono hükmündedir. Ancak TTK m. 830/2 uyarınca İİK'nın bonoların takibine ilişkin hükümleri bu senetlere uygulanmaz. Dolayısıyla İİK m. 167 vd. yoluyla kambiyo takibi yapılamaz."
+  },
+  {
+   "stem_md": "Bono bedeli rakamla \"250.000 TL\", yazıyla \"yirmi beş bin TL\" olarak yazılmıştır ve tahrifat yoktur. Hangi tutar geçerlidir?",
+   "options": [
+    "Yazıyla yazılan bedel; yani yirmi beş bin TL",
+    "İki bedelden daha yüksek olanı",
+    "Rakamla yazılan 250.000 TL",
+    "Senet geçersizdir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Aynı bedel yazıyla ve rakamla gösterilip fark varsa yazı ile gösterilen bedel üstün tutulur (TTK m. 676/1). Bu hüküm bonoya TTK m. 778/2-c ile uygulanır. Senet bu fark yüzünden geçersiz olmaz; yazıdaki bedel esas alınır."
+  },
+  {
+   "stem_md": "Yalnız rakamla iki farklı yerde 120.000 TL ve 100.000 TL yazılmış, yazıyla bedel gösterilmemiş bir bonoda hangi bedel geçerlidir?",
+   "options": [
+    "100.000 TL; yani en az olan bedel",
+    "Senet geçersizdir",
+    "120.000 TL",
+    "İki bedelin ortalaması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Bedel yalnız yazıyla veya yalnız rakamla birden çok gösterilmişse ve bedeller arasında fark varsa en az olan bedel geçerli sayılır (TTK m. 676/2; bonoya TTK m. 778/2-c ile uygulanır)."
+  },
+  {
+   "stem_md": "Düzenleyen Selim'in bonosunu ciro zinciriyle elinde bulunduran Pelin, vadeyi izleyen iki iş günü içinde ödememe protestosu çektirmemiştir. Hangisi doğrudur?",
+   "options": [
+    "Pelin yalnız lehtara karşı hakkını kaybeder",
+    "Pelin Selim'e karşı da hakkını kaybeder",
+    "Pelin cirantalara karşı hakkını kaybeder; düzenleyen Selim'e karşı hakkı sürer",
+    "Pelin hiç kimseye karşı hakkını kaybetmez"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Bonoyu düzenleyen kişi poliçeyi kabul eden gibi sorumludur (TTK m. 779/1). TTK m. 730/1'deki hak kaybı kabul eden hariç cirantalara, düzenleyene ve diğer borçlulara karşı doğar; TTK m. 778/1-d bu hükmü bonoya taşıdığından, bonoda düzenleyen kabul eden konumundadır ve hak kaybı yalnız cirantalara karşı doğar."
+  },
+  {
+   "stem_md": "Hamil Gül, vadesi 16.02.2026 olan bonoda düzenleyen Kerem'e karşı hangi zamanaşımı süresine tabidir?",
+   "options": [
+    "Düzenlenme tarihinden itibaren 10 yıl",
+    "Ödeme tarihinden itibaren 6 ay",
+    "Vadeden itibaren 3 yıl",
+    "Protesto tarihinden itibaren 1 yıl"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Düzenleyen kabul eden gibi sorumlu olduğundan (TTK m. 779/1) ona karşı istemler vadenin geldiği tarihten itibaren üç yılda zamanaşımına uğrar (TTK m. 749/1; TTK m. 778/1-h). Bir yıl hamilin cirantalara karşı süresidir (TTK m. 749/2), altı ay cirantanın rücu süresidir (TTK m. 749/3)."
+  },
+  {
+   "stem_md": "Belirli bir günde (01.09.2026) ödenecek bonoya düzenleyen \"yıllık %40 faiz işler\" yazmıştır. Bu kaydın sonucu nedir?",
+   "options": [
+    "Faiz şartı yazılmamış sayılır; bono geçerlidir",
+    "Faiz şartı geçerlidir ve düzenlenme gününden işler",
+    "Faiz şartı yalnız lehtara karşı geçerlidir",
+    "Bono geçersiz olur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Faiz şartı yalnız görüldüğünde veya görüldükten belirli bir süre sonra ödenecek poliçe ve bonolarda geçerlidir; diğerlerinde yazılmamış sayılır (TTK m. 675/1; bonoya TTK m. 778/2-b ile uygulanır). Bu kayıt senedi batıl yapmaz."
+  },
+  {
+   "stem_md": "Bonoya \"aval içindir\" yazıp imzalayan Tuna, kimin için aval verdiğini belirtmemiştir. Tuna kimin hesabına aval vermiş sayılır?",
+   "options": [
+    "Son hamil hesabına",
+    "Lehtar hesabına",
+    "Bonoyu düzenleyen hesabına",
+    "Aval geçersizdir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TTK m. 778/4'e göre aval kimin hesabına verildiğini göstermezse bonoyu düzenleyen hesabına verilmiş sayılır. Aval veren, kimin için taahhüt altına girmişse aynen onun gibi sorumlu olur (TTK m. 702/1); dolayısıyla Tuna düzenleyen gibi sorumludur."
+  },
+  {
+   "stem_md": "Görüldükten bir ay sonra ödenecek bonoyu hamil düzenleyene ibraz etmiş, düzenleyen ibraz gününü işaret edip imzalamaktan kaçınmıştır. Vade bakımından sonuç nedir?",
+   "options": [
+    "Bono geçersiz olur",
+    "Düzenleyenin kaçınması protestoyla belirlenir ve süre protesto gününden işlemeye başlar",
+    "Vade, düzenlenme tarihinden başlar",
+    "Vade kendiliğinden ibraz gününden başlar, protesto gerekmez"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TTK m. 779/3'e göre düzenleyen, ibraz gününü işaret etmek ve imzalamaktan kaçınırsa bu durum bir protesto ile belirlenir ve süre protesto gününden itibaren işlemeye başlar. Düzenleyen doğrularsa süre ibraz kaydı tarihinden işler."
+  },
+  {
+   "stem_md": "Bonoda metin şöyledir: \"İşbu bono, 05.01.2025 tarihli inşaat sözleşmesinin teminatıdır; inşaat süresinde teslim edilmezse ödenecektir.\" Bu senede dayanan kambiyo takibinde icra mahkemesi hangi sonuca varır?",
+   "options": [
+    "Takibi durdurur ve ödemeyi mahkeme tevdi hesabına yatırır",
+    "Senet bono vasfı taşımadığı için takibi İİK m. 170/a uyarınca iptal eder",
+    "Senet bonodur; teminat iddiası yalnız hamil kötüniyetliyse dinlenir",
+    "Senet bono olduğu için takibi aynen sürdürür"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ödeme, senet metninden anlaşılan bir sözleşmeye ve bir şarta bağlandığı için vaat kayıtsız şartsız değildir; TTK m. 776/1-b unsuru eksiktir ve TTK m. 777/1 gereği senet bono sayılmaz. Hukuk Genel Kurulu'nun benimsediği ilkeye göre bu hükümsüzlük mutlak def'i olarak ileri sürülebilir ve kambiyo senetlerine özgü haciz yoluyla takip İİK m. 170/a uyarınca iptal edilir."
+  },
+  {
+   "stem_md": "Alacaklı Mert, bir kredi borcu için verilen ve metninde teminat kaydı bulunmayan bonoya dayanarak kambiyo takibi başlatmıştır. Borçlu, senedin kredi sözleşmesinin teminatı olarak alındığını ileri sürüyor. Bu iddia nasıl ileri sürülür ve ispatlanır?",
+   "options": [
+    "Yalnız ayrı bir menfi tespit davasında, icra mahkemesinde ileri sürülemez",
+    "Mutlak def'i olarak, hiçbir belge göstermeden",
+    "İmzaya itiraz olarak İİK m. 170'e göre",
+    "İİK m. 169 kapsamında borca itiraz olarak; sözleşmeyle senedin bağlantısı yazılı belgeyle kanıtlanmalıdır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Teminat kaydı senet metninden anlaşılmıyorsa iddia kişisel def'idir ve İİK m. 169 kapsamında borca itiraz olarak ileri sürülür; sözleşmenin senedin vade, tanzim tarihi ve miktarına açık atıf içermesi gibi yazılı belgeyle kanıtlanması gerekir. Kişisel def'iler iyiniyetli üçüncü hamile karşı ileri sürülemez (TTK m. 687/1). İmza itirazı İİK m. 170'e göre farklı bir itirazdır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Mehmet Demir, 05.02.2026 tarihinde üç ayrı senet düzenlemiştir:\n**Senet A:** \"İşbu bono mukabilinde Ayşe Kaya'ya veya emrine 150.000 TL ödeyeceğim\" yazılıdır. Tarih 05.02.2026, Mehmet'in imzası vardır. Vade, ödeme yeri ve düzenlenme yeri yazılı değildir; imzanın yanında Mehmet'in adı ve \"Kadıköy/İstanbul\" ibaresi yer alır.\n**Senet B:** Senet A ile aynı metindedir ancak düzenlenme tarihi yazılmamıştır.\n**Senet C:** \"Ayşe Kaya'nın emrine 150.000 TL ödeyeceğim\" yazılıdır. Metinde bono veya emre yazılı senet kelimesi geçmemektedir. Tarih, vade, ödeme yeri, düzenlenme yeri ve imza tamdır.\nAyşe senetleri aynı gün teslim almıştır.\n1. A, B ve C senetlerini nitelendiriniz.\n2. Senet A'nın vadesi nedir? İbraz süresi hakkında ne söylenebilir?\n3. Senet C'ye dayanarak Ayşe kambiyo senetlerine özgü haciz yoluyla takip yapabilir mi?",
+   "rubric": [
+    {
+     "point": "Senet A'da vade, ödeme yeri ve düzenlenme yerinin kanunla tamamlanarak senedin geçerli bono olması",
+     "weight": 25,
+     "madde_ref": "TTK m. 777"
+    },
+    {
+     "point": "Vadesi olmayan bononun görüldüğünde ödenmesi şart edilmiş sayılması",
+     "weight": 15,
+     "madde_ref": "TTK m. 777/2"
+    },
+    {
+     "point": "Senet B'de düzenlenme tarihinin tamamlanamaması nedeniyle bono sayılmaması",
+     "weight": 20,
+     "madde_ref": "TTK m. 777/1"
+    },
+    {
+     "point": "Senet C'de bono kelimesi olmadığı halde açıkça emre yazılı ödeme vaadi olarak bono hükmünde olması",
+     "weight": 20,
+     "madde_ref": "TTK m. 830/1"
+    },
+    {
+     "point": "Senet C için İİK'nın bonoların takibine ilişkin hükümlerinin uygulanmaması",
+     "weight": 20,
+     "madde_ref": "TTK m. 830/2"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, bononun zorunlu unsurları ve eksikliğin sonuçları ile bono kelimesi bulunmayan emre yazılı ödeme vaadinin hukuki durumuna ilişkindir.\n\n**Hukuki sorunlar:** (1) Senet A'daki eksikler kanunla tamamlanır mı? (2) Senet B bono sayılır mı? (3) Senet C bono hükmünde midir, bonoya özgü icra yolu açık mıdır?\n\n**İlgili hükümler:** TTK m. 776, TTK m. 777/1-4, TTK m. 830, İİK m. 167.\n\n**Değerlendirme:** TTK m. 776/1'e göre bono; bono veya emre yazılı senet kelimesini, kayıtsız şartsız bedeli ödeme vaadini, vadeyi, ödeme yerini, lehtarın adını, düzenlenme tarihi ve yerini ve düzenleyenin imzasını içerir. Senet A'da kelime, vaat, lehtar, tarih ve imza tamdır. Eksik olan vade, ödeme yeri ve düzenlenme yeri ise TTK m. 777 ile tamamlanır: Vadesi gösterilmeyen bono görüldüğünde ödenmesi şart olan bono sayılır (TTK m. 777/2). Düzenlendiği yer gösterilmeyen bono, düzenleyenin adının yanında yazılı olan yerde, yani Kadıköy/İstanbul'da düzenlenmiş sayılır (TTK m. 777/4). Açıklık bulunmadığı için düzenlendiği yer aynı zamanda ödeme yeri ve düzenleyenin yerleşim yeri sayılır (TTK m. 777/3). Senet A geçerli bir bonodur.\n\nGörüldüğünde vadeli bonoda ibraz süresi poliçe hükümlerine göre belirlenir; TTK m. 704 düzenlenmeden itibaren bir yıl öngörür ve TTK m. 778/1-b bu hükmü bonoya taşır. Dolayısıyla Ayşe, bonoyu düzenlenme tarihi olan 05.02.2026'dan itibaren bir yıl içinde ödeme için ibraz etmelidir; düzenleyen süreyi kısaltmış ya da uzatmışsa yazılan süre geçerlidir.\n\nSenet B'de düzenlenme tarihi eksiktir. TTK m. 777/1 yalnızca ikinci ilâ dördüncü fıkralardaki hâlleri (vade, ödeme yeri, düzenlenme yeri) saklı tutar; tarihin tamamlanmasına dair bir kural yoktur. Bu nedenle Senet B bono sayılmaz.\n\nSenet C'de \"bono\" veya \"emre yazılı senet\" kelimesi yoktur, dolayısıyla TTK m. 776/1-a unsuru eksiktir. Ancak TTK m. 830/1 uyarınca senet metninde bono olarak gösterilmemekle beraber açıkça emre yazılı olarak düzenlenmiş ve bonoda aranan diğer unsurları içeren ödeme vaatleri bono hükmündedir. Senet C bu nedenle bono hükmündedir; ancak TTK m. 830/2'ye göre İİK'nın çekler, poliçeler ve bonoların takibine ilişkin hükümleri bu ödeme vaatlerine uygulanmaz. Ayşe İİK m. 167 vd. kambiyo senetlerine özgü haciz yolunu kullanamaz, genel haciz yoluyla takip veya dava yolunu izlemelidir.\n\n**Sonuç:** Senet A geçerli bonodur; görüldüğünde vadelidir ve düzenlenme ve ödeme yeri Kadıköy/İstanbul'dur. Senet B bono sayılmaz. Senet C bono hükmündedir fakat kambiyo senetlerine özgü haciz yoluna konu olamaz."
+  },
+  {
+   "stem_md": "Selim Aksoy, 100.000 TL bedelli ve 04.06.2026 perşembe günü ödenecek bir bono düzenleyip lehtar Nur Tekin'e vermiştir. Bonoda \"yıllık %30 faiz işler\" kaydı vardır. Tuna Er, bonoya \"aval içindir\" yazıp imzalamış, kimin için aval verdiğini belirtmemiştir. Nur bonoyu Okan'a, Okan da son hamil Pelin'e ciro etmiştir.\nPelin vade gününde bonoyu Selim'e ibraz etmiş, Selim ödememiştir. Pelin ödememe protestosunu çektirmemiş, ihbar da yapmamıştır. Aradan beş ay geçmiştir.\n1. Faiz kaydının hukuki durumu nedir?\n2. Tuna kimin hesabına aval vermiş sayılır ve sorumluluğu nedir?\n3. Pelin, Nur'a, Okan'a ve Selim'e karşı hangi durumdadır?\n4. Selim'e karşı zamanaşımı süresi nedir?",
+   "rubric": [
+    {
+     "point": "Belirli günde ödenecek bonoda faiz şartının yazılmamış sayılması, senedin geçerli kalması",
+     "weight": 20,
+     "madde_ref": "TTK m. 675"
+    },
+    {
+     "point": "Avalin kimin için verildiği belirtilmediğinden bonoyu düzenleyen hesabına verilmiş sayılması",
+     "weight": 20,
+     "madde_ref": "TTK m. 778/4"
+    },
+    {
+     "point": "Aval verenin aynen düzenleyen gibi sorumlu olması",
+     "weight": 10,
+     "madde_ref": "TTK m. 702"
+    },
+    {
+     "point": "Protesto süresi kaçırıldığından Pelin'in Nur ve Okan'a karşı hakkını kaybetmesi",
+     "weight": 25,
+     "madde_ref": "TTK m. 730"
+    },
+    {
+     "point": "Düzenleyenin asıl borçlu olması ve ona karşı hakkın düşmemesi",
+     "weight": 15,
+     "madde_ref": "TTK m. 779/1"
+    },
+    {
+     "point": "Düzenleyene karşı zamanaşımının vadeden itibaren üç yıl olması",
+     "weight": 10,
+     "madde_ref": "TTK m. 749/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, bonoda faiz şartı, aval, düzenleyenin asıl borçlu sıfatı, protesto süresinin kaçırılması ve zamanaşımı sorunlarını içerir. Selim düzenleyen, Nur lehtar, Okan ciranta, Pelin hamil, Tuna avalisttir.\n\n**Hukuki sorunlar:** (1) Faiz şartı geçerli mi? (2) Aval kimin hesabına verilmiştir? (3) Pelin'in protesto yapmamasının sonucu nedir? (4) Düzenleyene karşı zamanaşımı nedir?\n\n**İlgili hükümler:** TTK m. 675, TTK m. 778/2-b ve 778/4, TTK m. 702, TTK m. 714/3, TTK m. 723/7, TTK m. 730/1, TTK m. 779/1, TTK m. 749/1.\n\n**Değerlendirme:** TTK m. 675/1'e göre faiz şartı yalnız görüldüğünde veya görüldükten belirli bir süre sonra ödenmesi şart kılınan poliçelere konabilir, diğerlerinde yazılmamış sayılır; TTK m. 778/2-b bu hükmü bonoya taşır. Bu bono belirli günde ödenecek olduğundan faiz kaydı yazılmamış sayılır. Bono bu nedenle geçersiz olmaz; yalnız faiz şartı hükümsüzdür.\n\nAval kimin hesabına verildiğini göstermediği için bonoyu düzenleyen hesabına verilmiş sayılır (TTK m. 778/4). Aval veren kimin için taahhüt altına girmişse aynen onun gibi sorumlu olur (TTK m. 702/1). Tuna bu nedenle düzenleyen Selim gibi sorumludur.\n\nÖdememe protestosu, ödeme gününü izleyen iki iş günü içinde çekilmelidir (TTK m. 714/3); burada cuma (05.06.2026) ve pazartesi (08.06.2026) günleridir. Pelin protesto çektirmediği için TTK m. 730/1 uyarınca, kabul eden hariç, cirantalara ve diğer borçlulara karşı hakkını kaybeder. Bonoyu düzenleyen kişi ise poliçeyi kabul eden gibi sorumludur (TTK m. 779/1); TTK m. 730/1'in \"kabul eden hariç\" istisnası bonoda düzenleyen için işler. Bu nedenle Pelin Nur'a ve Okan'a karşı kambiyo başvurma hakkını kaybetmiştir, Selim'e karşı kaybetmemiştir. İhbarın yapılmaması ise başlı başına hak kaybı doğurmaz; ihmalden doğan zarardan sorumluluk doğurur (TTK m. 723/7).\n\nSelim'e (ve onun gibi sorumlu olan Tuna'ya) karşı hak sürer. Düzenleyen aleyhine zamanaşımı vadenin geldiği tarihten itibaren üç yıldır (TTK m. 749/1; TTK m. 778/1-h). Vade 04.06.2026 olduğundan süre 04.06.2029'da dolar; aradan geçen beş ay hakkı etkilemez.\n\n**Sonuç:** Faiz şartı yazılmamış sayılır, bono geçerlidir. Tuna düzenleyen hesabına aval vermiştir ve Selim gibi sorumludur. Pelin Nur ve Okan'a karşı başvurma hakkını kaybetmiş, Selim ve Tuna'ya karşı hakkını vadeden itibaren üç yıl içinde kullanabilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Bono nedir?",
+   "back_md": "Düzenleyenin lehtara veya emrine belirli bedeli ödemeyi vaat ettiği kambiyo senedi (TTK m. 776). Muhatap ve kabul yoktur."
+  },
+  {
+   "front_md": "Bonoda zorunlu unsurlar nelerdir?",
+   "back_md": "Bono/emre yazılı senet kelimesi, kayıtsız şartsız ödeme vaadi, vade, ödeme yeri, lehtar, düzenlenme tarihi ve yeri, düzenleyen imzası (TTK m. 776/1)."
+  },
+  {
+   "front_md": "Eksik unsur bonoyu nasıl etkiler?",
+   "back_md": "Kural olarak senet bono sayılmaz (TTK m. 777/1). İstisna: vade, ödeme yeri, düzenlenme yeri kanunla tamamlanır."
+  },
+  {
+   "front_md": "Vadesiz bono?",
+   "back_md": "Görüldüğünde ödenmesi şart edilmiş sayılır (TTK m. 777/2)."
+  },
+  {
+   "front_md": "Ödeme yeri ve düzenlenme yeri yoksa?",
+   "back_md": "Ödeme yeri düzenlenme yeri sayılır (TTK m. 777/3); düzenlenme yeri düzenleyenin adı yanındaki yerdir (TTK m. 777/4)."
+  },
+  {
+   "front_md": "Hangi unsurların yedek kuralı yoktur?",
+   "back_md": "Bono kelimesi, ödeme vaadi, lehtar adı, düzenlenme tarihi ve imza. Biri eksikse bono sayılmaz."
+  },
+  {
+   "front_md": "Yazı ve rakam bedeli farklıysa?",
+   "back_md": "Yazı üstündür (TTK m. 676/1). Yalnız yazıyla/rakamla birden çok gösterilmişse en az olan geçerlidir (TTK m. 676/2)."
+  },
+  {
+   "front_md": "Faiz şartı hangi vade türlerinde geçerli?",
+   "back_md": "Yalnız görüldüğünde ve görüldükten sonra vadeli bonoda. Diğerlerinde yazılmamış sayılır (TTK m. 675 ve TTK m. 778/2-b)."
+  },
+  {
+   "front_md": "Aval kimin için belirtilmemişse?",
+   "back_md": "Bonoyu düzenleyen hesabına verilmiş sayılır (TTK m. 778/4)."
+  },
+  {
+   "front_md": "Düzenleyenin sorumluluğu?",
+   "back_md": "Poliçeyi kabul eden gibi; asıl borçludur (TTK m. 779/1). Protesto olmasa da ona karşı hak düşmez; zamanaşımı vadeden 3 yıl (TTK m. 749/1)."
+  },
+  {
+   "front_md": "Bono kelimesi olmayan emre yazılı ödeme vaadi?",
+   "back_md": "Bono hükmündedir; ancak İİK'nın bonoların takibine ilişkin hükümleri uygulanmaz (TTK m. 830)."
+  },
+  {
+   "front_md": "Ödeme şarta bağlanan teminat kaydı metinde varsa?",
+   "back_md": "Vaat kayıtsız şartsız olmadığından bono sayılmaz; kambiyo takibi İİK m. 170/a uyarınca iptal edilir. Metinden anlaşılmayan teminat iddiası İİK m. 169 kapsamında borca itirazdır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

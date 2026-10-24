@@ -1,0 +1,763 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: Ödünç ve Hizmet Sözleşmeleri",
+ "topic_index": 2,
+ "slug": "hizmet-sozlesmesi-kurulus-ve-taraf-borclari",
+ "title": "Hizmet Sözleşmesi I: Kuruluş, İşçinin ve İşverenin Borçları, Ücret, İşçinin Kişiliğinin Korunması",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:21:30.222497+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/tip-teshisi-ve-nitelendirme"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** İşçi ile işveren arasındaki **hizmet sözleşmesi** nasıl kurulur, taraflar birbirine hangi borçlarla bağlıdır, ücret nasıl ödenir ve işçinin kişiliği nasıl korunur? Sözleşmenin sona ermesi ve rekabet yasağı bir sonraki konunun işidir (TBK m. 430 vd.).\n\n- **Tanım (TBK m. 393/1):** İşçi, işverene **bağımlı** olarak belirli veya belirsiz süreyle iş görmeyi; işveren de zamana veya yapılan işe göre **ücret** ödemeyi üstlenir. Düzenli kısmi süreli çalışma da hizmet sözleşmesidir (TBK m. 393/2). Hükümler kıyasen çıraklık sözleşmesine de uygulanır (TBK m. 393/3).\n- **Kuruluş (TBK m. 394):** Kanunda aksi yoksa şekil serbesttir. Ücret karşılığı yapılabilecek bir iş belli bir süre görülür ve işveren kabul ederse sözleşme kurulmuş sayılır. Geçersizliği sonradan anlaşılan sözleşme, ilişki sona erdirilinceye kadar geçerli sözleşmenin sonuçlarını doğurur.\n- **İş Kanunu ile ilişki:** İK kapsamındaki işlerde İK özel, TBK genel kanundur. İK m. 4'teki istisnalarda (ev hizmetleri, sporcular vb.) ayrı bir özel kanun yoksa TBK doğrudan uygulanır.\n- **İşçinin borçları:** bizzat çalışma (TBK m. 395); özen ve sadakat, sözleşme sürerken rekabet etmeme, sır saklama (TBK m. 396); aldıklarını teslim ve hesap verme (TBK m. 397); rızaya dayalı fazla çalışma (TBK m. 398); talimata uyma (TBK m. 399); kusurlu zarardan sorumluluk (TBK m. 400).\n- **Ücret:** Sözleşmede yoksa asgari ücretten az olmamak üzere **emsal ücret** (TBK m. 401). Fazla çalışmada en az %50 zamlı ücret ya da rıza ile orantılı izin (TBK m. 402). Aksine âdet yoksa ücret her ayın sonunda ödenir (TBK m. 406).\n- **Ücretin korunması:** Takas ancak işçinin rızasıyla ya da kasten sebep olduğu, yargı kararıyla sabit zarar için haczedilebilir kısım kadar yapılır (TBK m. 407). İşveren kabulde temerrüde düşerse ücreti ödenir (TBK m. 408). Ücretin dörtte birinden fazlası haczedilemez, devredilemez, rehnedilemez; gelecekteki ücretin devri ve rehni geçersizdir (TBK m. 410).\n- **Giderler:** Zorunlu harcamayı işçiye yükleyen anlaşma geçersizdir (TBK m. 414).\n- **Kişiliğin korunması (TBK m. 417):** İşveren psikolojik ve cinsel tacizi önlemek, iş sağlığı ve güvenliği önlemlerini almakla yükümlüdür. İhlalden doğan zarar sözleşmeye aykırılık hükümlerine tabidir. Kişisel veriler yalnız işe yatkınlık ve sözleşmenin ifası için zorunlu ölçüde kullanılabilir (TBK m. 419).\n- **Ceza koşulu ve ibra (TBK m. 420):** Yalnız işçi aleyhine ceza koşulu geçersizdir. İbra; yazılı, sözleşmenin sona ermesinden en az bir ay sonra, alacağın türü ve miktarı belirtilerek, noksansız ve **banka aracılığıyla** ödemeyle yapılmalıdır; yoksa kesin hükümsüzdür.\n- **Tatil, izin, belge (TBK m. 421-427):** haftalık tatil, iş arama izni, yıllık izin, hizmet belgesi.\n- **Devir:** İşyerinin devrinde sözleşmeler kanun gereği devralana geçer; devreden, devirden önce doğmuş ve devir tarihinde ödenmesi gereken borçlardan devir tarihinden itibaren iki yıl müteselsil sorumludur (TBK m. 428). Sözleşmenin devri işçinin yazılı rızasıyla olur (TBK m. 429).\n- ⚠️ İbrada \"banka\" şartı ve \"bir ay\" şartı birbirinden bağımsızdır; biri eksikse ibra kesin hükümsüzdür.",
+  "content_md": "## 1. Haritayı çiz: hangi kanun, hangi sözleşme?\n\n**Hizmet sözleşmesi**, işçinin işverene bağımlı olarak iş görmeyi, işverenin de ücret ödemeyi üstlendiği sözleşmedir (TBK m. 393/1). Dört unsur aranır: iş görme, ücret, zaman (belirli ya da belirsiz süre) ve **bağımlılık**. Bağımlılık işçiyi bağımsız çalışandan ayırır: işçi işverenin talimatı, denetimi ve işyeri düzeni altında çalışır.\n\nHizmet sözleşmesi tipini yakın sözleşmelerden ayırırken edimlere bak, adına değil:\n\n| Sözleşme | Borçlanılan edim | Ayırt edici nokta |\n|---|---|---|\n| Hizmet (TBK m. 393) | Bağımlı iş görme | Talimat altında, ücret karşılığı |\n| Eser (TBK m. 470) | Bir eser meydana getirme | Sonuç taahhüdü, bağımsızlık |\n| Vekâlet (TBK m. 502) | Bir işi görme veya işlem yapma | Özenli çaba, bağımsızlık |\n\n> **Örnek:** Ayşe, atölye sahibinin saatleri ve talimatıyla çalışıp aylık maaş alıyor: hizmet sözleşmesi. Atölyeden dolap yaptıran müşteri ile atölye arasındaki ilişki ise eser sözleşmesidir.\n\n**Kısmi süreli** ama düzenli çalışma da hizmet sözleşmesidir (TBK m. 393/2). Genel hükümler kıyasen çıraklık sözleşmesine de uygulanır; özel kanun hükümleri saklıdır (TBK m. 393/3).\n\n**TBK mi, İş Kanunu mu?** İK, kapsamına giren işyerlerinde işçiler için özel kanundur (İK m. 1/2). TBK ise genel kanun olarak boşlukları doldurur. İK m. 4'teki istisnalarda İK uygulanmaz; o iş için ayrı bir özel kanun yoksa hizmet sözleşmesi doğrudan TBK'ya tabidir (ör. gemiadamları için 854 sayılı Deniz İş Kanunu, çıraklar için mesleki eğitim mevzuatı özel düzenleme getirir; TBK m. 393/3 de özel kanunları saklı tutar). İstisnalar arasında deniz ve hava taşıma işleri, 50'den az (50 dahil) işçi çalıştırılan tarım ve orman işyerleri, ev hizmetleri, çıraklar, sporcular, rehabilite edilenler ve 507 sayılı Kanunun tarifine uygun üç kişilik esnaf işyerleri vardır. Maddenin son kısmı bazı işleri yeniden İK'ya bağlar: örneğin kıyı ve limanlarda gemilere yükleme-boşaltma işleri ile havacılığın yer tesislerindeki işler İK'ya tabidir.\n\n> ⚠️ **Sınavda dikkat:** Villada çalışan aşçı, ev hizmetinde olduğu için İK m. 4 gereği İK'ya değil TBK'ya tabidir. Olay sorularında önce \"bu iş İK kapsamında mı?\" diye sor.\n\n## 2. Kuruluş ve geçersizlik (TBK m. 394)\n\nHizmet sözleşmesi, kanunda aksine hüküm yoksa **özel bir şekle bağlı değildir** (TBK m. 394/1). Sözlü ya da örtülü yapılabilir. Yazılı belge bulunmaması sözleşmeyi geçersiz kılmaz; yalnızca ispatı güçleştirir.\n\n**Örtülü kuruluş:** Bir kimse, durumun gereğine göre ancak ücret karşılığında yapılabilecek bir işi belli bir zaman için görür ve işveren bunu kabul ederse sözleşme kurulmuş sayılır (TBK m. 394/2). Mehmet, ücret konuşulmadan bir muhasebe bürosunda iki hafta çalışır ve büro bu çalışmayı kabul ederse hizmet sözleşmesi kurulmuştur.\n\n**Geçersizliği sonradan anlaşılan sözleşme:** Böyle bir sözleşme, hizmet ilişkisi ortadan kaldırılıncaya kadar geçerli bir sözleşmenin bütün hüküm ve sonuçlarını doğurur (TBK m. 394/3). İşçi çalışmış, işveren de bundan yararlanmıştır; geçmişe etkili geçersizlik adil olmaz. Dolayısıyla sözleşme sonradan geçersiz çıksa bile işçinin o güne kadarki ücreti geçerli sözleşmenin hükümlerine göre ödenir.\n\n## 3. İşçinin borçları\n\n- **Bizzat çalışma (TBK m. 395):** Aksi anlaşılmadıkça işçi işi kendisi yapar; yerine başkasını gönderemez.\n- **Özen ve sadakat (TBK m. 396/1-2):** İşçi işi özenle yapar, işverenin haklı menfaatini korur, işverene ait makine, araç-gereç ve taşıtları usulüne uygun kullanır ve teslim edilen malzemeye özen gösterir.\n- **Sözleşme sürerken rekabet etmeme (TBK m. 396/3):** İşçi, sadakat borcuna aykırı olarak ücret karşılığı üçüncü kişiye hizmette bulunamaz ve özellikle işvereniyle rekabete girişemez. Bunun için ayrıca yazılı bir rekabet yasağı sözleşmesi gerekmez; borç doğrudan kanundan doğar.\n- **Sır saklama (TBK m. 396/4):** İşçi, iş gördüğü sırada öğrendiği üretim ve iş sırlarını kendi yararına kullanamaz, başkalarına açıklayamaz. İşverenin haklı menfaati gerektirdiği ölçüde bu borç sözleşme bittikten sonra da sürer.\n- **Teslim ve hesap verme (TBK m. 397):** İşçi, işveren için üçüncü kişiden aldığı şeyleri ve özellikle parayı derhâl teslim eder ve hesap verir.\n- **Fazla çalışma (TBK m. 398):** Normal süreyi aşan ve işçinin rızasıyla yapılan çalışmadır. İş zorunluluğu doğmuş, işçi yapabilecek durumda ve kaçınması dürüstlük kurallarına aykırıysa, karşılığı verilmek koşuluyla fazla çalışma yapılır.\n- **Talimata uyma (TBK m. 399):** İşveren genel düzenleme yapabilir, özel talimat verebilir; işçi dürüstlük kurallarının gerektirdiği ölçüde uyar.\n- **Sorumluluk (TBK m. 400):** İşçi kusuruyla verdiği her zarardan sorumludur; işin tehlikesi, uzmanlık ve eğitim gerekliliği ve işçinin bilinen nitelikleri gözetilir.\n\n> **Örnek:** Zeynep, gündüz çalıştığı ajansa bildirmeden hafta sonları ücret karşılığı ajansın rakibi için tasarım yapıyor. Yazılı rekabet yasağı olmasa bile TBK m. 396/3 sadakat borcunu ihlal etmiştir. İşten ayrıldıktan sonra rakipte çalışmayı yasaklamak için TBK m. 444'teki yazılı rekabet yasağı sözleşmesi gerekir (sonraki konu).\n\n## 4. İşverenin borçları: ücret\n\n**Ücretin miktarı:** İşveren, sözleşmede ya da toplu iş sözleşmesinde belirlenen ücreti öder. Sözleşmede hüküm yoksa **asgari ücretten az olmamak üzere emsal ücret** ödenir (TBK m. 401).\n\n**Fazla çalışma ücreti:** İşveren, fazla çalışma için normal ücreti **en az yüzde elli fazlasıyla** öder. İşçinin rızasıyla ücret yerine uygun bir zamanda fazla çalışmayla **orantılı izin** de verebilir (TBK m. 402). Saatlik normal ücreti 200 TL olan işçinin fazla çalışma saati en az 300 TL eder.\n\n> ⚠️ **Sınavda dikkat:** İK kapsamındaki işçi isterse zamlı ücret yerine her fazla çalışma saati için bir saat otuz dakika serbest zaman kullanabilir (İK m. 41/4). TBK m. 402/2 ise yalnızca \"orantılı izin\" der. İki hükmü karıştırma.\n\n**Ücrete bağlı özel kalemler:** Ücretle birlikte ciro, kâr ya da üretimden pay kararlaştırılmışsa pay hesap dönemi sonunda belirlenir; işveren gerekirse bilgi verir, defter-belgeleri sunar ve kâr payında yıl sonu kâr zarar cetvelini de verir (TBK m. 403). Aracılık ücreti, işlemin üçüncü kişiyle geçerli kurulmasıyla doğar (TBK m. 404). İkramiye, anlaşma, çalışma şartı ya da işverenin tek taraflı taahhüdü varsa istenir; sözleşme erken bitmişse çalışılan süreye yansıyan bölüm ödenir (TBK m. 405).\n\n**Ödeme zamanı:** Aksine âdet yoksa ücret **her ayın sonunda** ödenir; daha kısa dönem kararlaştırılabilir. Ciro ya da kârdan pay, hesap dönemini izleyen en geç üç ay içinde belirlenip ödenir. Zorunlu ihtiyaç hâlinde ve hakkaniyet gerektiriyorsa işveren hizmetle orantılı avans verir (TBK m. 406).\n\n**Banka ve takas:** Cumhurbaşkanlığı, ücretin özel banka hesabına yatırılarak ödenmesini zorunlu tutabilir; zorunlu tutulan işveren hesap dışında ödeme yapamaz ve her ödeme döneminde hesap pusulası verir (TBK m. 407/1). İşveren, ücret borcunu kendi alacağıyla **işçinin rızası olmadıkça takas edemez**. Tek istisna: işçinin kasten sebebiyet verdiği yargı kararıyla sabit bir zarardan doğan alacaklar, ücretin haczedilebilir kısmı kadar takas edilebilir (TBK m. 407/2). Ücretin işveren lehine kullanılacağına ilişkin anlaşmalar geçersizdir (TBK m. 407/3).\n\n> **Örnek:** Işık Ltd. Şti., kasa görevlisi Ali'nin kasıtsız kırdığı 8.000 TL'lik cihaz bedelini rızası olmadan maaşından keserse kesinti hukuka aykırıdır; zararı ancak dava yoluyla (TBK m. 400) istenir.\n\n**İşverenin kabulde temerrüdü (TBK m. 408):** İşveren işgörmeyi kusuruyla engellerse ya da işçinin edimini kabulde temerrüde düşerse işçiye ücreti öder ve işçiden bu edimi sonradan yerine getirmesini isteyemez. İşçinin engelleme yüzünden yapmaktan kurtulduğu giderler ile başka iş yaparak kazandığı ya da bilerek kazanmaktan kaçındığı yararlar ücretten indirilir.\n\n**Kusursuz kısa engel (TBK m. 409):** Uzun süreli ilişkide işçi hastalık, askerlik gibi sebeplerle kusuru olmadan kısa süre çalışamazsa, başka yolla karşılanmadıkça hakkaniyete uygun ücret alır.\n\n**Haciz ve devir sınırı (TBK m. 410):** İşçilerin ücretinin dörtte birinden fazlası haczedilemez, başkasına devredilemez ve rehnedilemez. Hâkimce takdir edilen, bakmakla yükümlü olunan aile bireyleri için ayrılan miktar bu orana dahil değildir; nafaka alacaklılarının hakları saklıdır. **Gelecekteki ücret alacaklarının** devri ya da rehni ise tümüyle geçersizdir.\n\n> 💡 **Püf nokta:** Doğmuş ücret için sınır \"dörtte bir\"; gelecekteki ücret için dörtte birini devretmek bile geçersizdir.\n\n**Parça başı/götürü iş ve giderler (TBK m. 411-416):** Yalnız bir işveren için parça başı çalışan işçiye işveren yeterli iş vermelidir (TBK m. 411); birim ücret her işten önce bildirilir (TBK m. 412). Aksine anlaşma ya da yerel âdet yoksa işveren gerekli araç ve malzemeyi sağlar (TBK m. 413). İşin gerektirdiği harcamaları öder; zorunlu harcamaların işçiye yüklenmesine ilişkin anlaşma geçersizdir (TBK m. 414). İşçi anlaşarak kendi motorlu aracını kullanıyorsa işveren vergi, zorunlu mali sorumluluk sigortası primi ve yıpranma karşılığı uygun tazminatı, hizmet için kullanıldığı ölçüde öder (TBK m. 415). Giderler ücretle birlikte ödenir; düzenli masrafta en az ayda bir avans verilir (TBK m. 416).\n\n## 5. Kişiliğin korunması (TBK m. 417-419)\n\nİşveren, işçinin kişiliğini korumak ve saygı göstermek, işyerinde dürüstlük ilkelerine uygun bir düzen sağlamakla yükümlüdür. Özellikle işçilerin **psikolojik ve cinsel tacize** uğramamaları ve bu tacizlere uğramış olanların daha fazla zarar görmemeleri için gerekli önlemleri alır. İşveren ayrıca iş sağlığı ve güvenliği için gerekli her önlemi alır, araç-gereci noksansız bulundurur; işçiler de bu önlemlere uymakla yükümlüdür (TBK m. 417/1-2).\n\nİşverenin bu borçlara ve genel olarak kanuna ve sözleşmeye aykırı davranışı yüzünden işçinin ölümü, vücut bütünlüğünün zedelenmesi veya kişilik haklarının ihlaline bağlı zararlar **sözleşmeye aykırılıktan doğan sorumluluk hükümlerine** tabidir (TBK m. 417/3). Bu, TBK m. 112'deki ilkenin uygulanması demektir: işveren kusursuz olduğunu ispat edemezse zararı giderir.\n\nPsikolojik taciz (mobbing), belli bir süreye yayılan ve sistemli uygulanan yıldırıcı davranışlardır. Tek bir davranışın TBK m. 417 ihlali sayılıp sayılmayacağı tartışmalıdır (doktrin bölümüne bak).\n\n- **Ev düzeni (TBK m. 418):** İşçi işverenle ev düzeni içinde yaşıyorsa işveren gıda ve barınak sağlar. Kusuru olmadan hastalanan ya da kazaya uğrayan, sosyal sigorta yardımı alamayan ve bir yıla kadar çalışmış işçinin bakımı ve tedavisi iki hafta süreyle işverene aittir; bir yılı aşan her hizmet yılı için bu süre, dört haftayı aşmamak üzere ikişer gün artırılır. Gebelik ve doğumda da aynıdır.\n- **Kişisel veriler (TBK m. 419):** İşveren işçinin kişisel verilerini ancak işçinin işe yatkınlığıyla ilgili ya da sözleşmenin ifası için zorunlu olduğu ölçüde kullanabilir; özel kanunlar saklıdır.\n\n## 6. Ceza koşulu ve ibra (TBK m. 420)\n\n**Ceza koşulu:** Hizmet sözleşmelerine **sadece işçi aleyhine** konulan ceza koşulu geçersizdir (TBK m. 420/1). Yani \"geç gelirse 5.000 TL öder\" kaydı, işveren için de karşılıklı bir yaptırım içermiyorsa geçersizdir.\n\n**İbra:** İşçinin işverenden alacağına ilişkin ibra sözleşmesinin geçerli olması için dört şart birlikte aranır (TBK m. 420/2):\n1. **Yazılı** olmalı.\n2. İbra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak **en az bir aylık süre** geçmiş olmalı.\n3. İbra konusu alacağın **türü ve miktarı** açıkça belirtilmeli.\n4. Ödeme hak tutarına göre **noksansız** ve **banka aracılığıyla** yapılmalı.\n\nBu unsurları taşımayan ibra sözleşmesi veya ibraname **kesin olarak hükümsüzdür**. Hakkın gerçek tutarda ödendiğini içermeyen ibra sözleşmeleri veya ibra beyanını içeren diğer ödeme belgeleri, içerdikleri miktarla sınırlı olarak **makbuz hükmündedir**; ancak bu hâlde de ödemenin banka aracılığıyla yapılması zorunludur (TBK m. 420/3). Bu kurallar, destekten yoksun kalanlar ve işçinin diğer yakınlarının isteyebilecekleri dahil, hizmet sözleşmesinden doğan bütün tazminat alacaklarına da uygulanır (TBK m. 420/4).\n\n> **Örnek:** Burak'ın sözleşmesi 1 Mart'ta sona erdi. 10 Mart'ta imzaladığı ibranamede alacağın türü ve miktarı yazılı, ödeme de bankadan tam yapılmış olsa bile, bir aylık süre dolmadığı için ibraname kesin hükümsüzdür.\n\n> ⚠️ **Sınavda dikkat:** Dört şart birbirinin yerine geçmez. Banka ödemesi var diye bir aylık süre eksikliği, ya da yazılı olma var diye banka şartı tamamlanmış olmaz. Eksik şart kesin hükümsüzlük (iptal edilebilirlik değil) doğurur.\n\nYargıtay Hukuk Genel Kurulu, ödemenin bankadan yapılmadığı bir olayda ibranameyi ve eki sayılan makbuzu kesin hükümsüz bulmuştur (kararlar bölümüne bak).\n\n## 7. Tatil, izin, belge ve buluş (TBK m. 421-427)\n\n- **Haftalık tatil ve iş arama izni (TBK m. 421):** Her hafta, kural olarak pazar günü, bir tam gün tatil verilir. Belirsiz süreli sözleşmenin feshinde bildirim süresi içinde ücret kesintisi olmaksızın günde iki saat iş arama izni verilir.\n- **Yıllık izin (TBK m. 422-425):** En az bir yıl çalışmış işçiye yılda en az iki hafta, onsekiz yaşından küçük ve elli yaşından büyük işçiye en az üç hafta (TBK m. 422). İşçi kusuruyla bir hizmet yılında toplam bir aydan uzun çalışmazsa işveren çalışılmayan her tam ay için izinden bir gün indirebilir; kusursuz hastalık, kaza gibi kişisel sebeplerle ya da gebelik-doğum nedeniyle en çok üç ay çalışılamamışsa indirim yapılamaz (TBK m. 423). İzin anlaşmayla ikiye bölünebilir (TBK m. 424). İlişki sürerken izinden feragat edilemez; sözleşme bitince kullanılmayan izin ücreti son ücretle ödenir ve zamanaşımı sona erme tarihinde başlar (TBK m. 425).\n- **Hizmet belgesi (TBK m. 426):** İşçinin isteğiyle işin türü ve süresini içeren belge verilir; yanlış ya da geç verilmesinden zarar gören işçi veya yeni işveren tazminat isteyebilir. **Hizmet buluşları** özel kanuna tabidir (TBK m. 427).\n\n> ⚠️ **Sınavda dikkat:** TBK m. 422 iki hafta (onsekiz yaşından küçük ve elli yaşından büyükler için üç hafta) der; İK m. 53 ise kıdeme göre 14, 20 ve 26 günden az olmamak üzere süre öngörür ve İK'ya tabi işçide o uygulanır. İK m. 56'ya göre izin, bir bölümü on günden aşağı olmamak üzere bölünebilir; TBK m. 424 ikiye bölünmeyi arar.\n\n## 8. Devir: işyerinin devri ve sözleşmenin devri\n\n| Ölçüt | İşyerinin devri (TBK m. 428) | Sözleşmenin devri (TBK m. 429) |\n|---|---|---|\n| Devredilen | İşyeri ya da bir bölümü | Tek bir hizmet sözleşmesi |\n| İşçinin rızası | Kanun gereği devralana geçer | Yazılı rıza şart |\n| Hizmet süresi | Devreden yanında başladığı tarih esas | Aynı |\n| Devreden işveren | Devirden önce doğup devir tarihinde ödenmesi gereken borçlardan müteselsil, devir tarihinden itibaren en çok iki yıl | Madde birlikte sorumluluk öngörmez (doktrin bölümüne bak) |\n\nİşyerinin tamamı ya da bölümü hukuki işlemle başkasına devredildiğinde, devir tarihinde mevcut hizmet sözleşmeleri bütün hak ve borçlarıyla devralana geçer. Aynı kural İK m. 6'da da vardır. Sözleşmenin devri ise ancak işçinin yazılı rızasıyla ve sürekli olarak yapılabilir; devralan bütün hak ve borçlarıyla birlikte işveren tarafı olur (TBK m. 429/1-2). Genel sözleşme devri hükümleri TBK m. 205'te düzenlenmiştir.\n\n## 9. Denetim şeması\n\n1. **Tip:** Bağımlı iş görme, ücret ve zaman var mı; yoksa eser (TBK m. 470) ya da vekâlet (TBK m. 502) mi?\n2. **Kanun:** İK kapsamında mı, İK m. 4 istisnasında mı?\n3. **Kuruluş:** Şekil serbest; örtülü kuruluş ve sonradan anlaşılan geçersizlik (TBK m. 394).\n4. **İşçinin borcu:** bizzat çalışma, sadakat, sır, talimat, sorumluluk (TBK m. 395-400).\n5. **İşverenin borcu:** ücret, ödeme zamanı, takas, kabulde temerrüt, haciz-devir sınırı, giderler (TBK m. 401-416).\n6. **Kişilik:** taciz önlemi, İSG, veri (TBK m. 417-419).\n7. **Ceza koşulu ve ibra:** tek taraflı ceza geçersiz; ibranın dört şartı (TBK m. 420).\n8. **Devir:** işyeri devri (TBK m. 428) mi, sözleşme devri (TBK m. 429) mi?",
+  "critical_md": "- 📌 Hizmet sözleşmesinin unsurları: iş görme, ücret, zaman ve bağımlılık (TBK m. 393/1). Düzenli kısmi süreli çalışma da hizmet sözleşmesidir (TBK m. 393/2).\n- 📌 Hizmet sözleşmesi kanunda aksine hüküm yoksa şekle bağlı değildir (TBK m. 394/1). Geçersizliği sonradan anlaşılan sözleşme, ilişki sona erdirilinceye kadar geçerli sözleşme gibi sonuç doğurur (TBK m. 394/3).\n- ⚠️ İK m. 4'teki istisnalarda (ev hizmetleri, çıraklar, sporcular, deniz ve hava taşıma vb.) İK uygulanmaz; ayrı bir özel kanun yoksa TBK uygulanır (gemiadamları için Deniz İş Kanunu). Kıyıda yükleme-boşaltma ve havacılığın yer tesislerindeki işler yine İK'ya tabidir.\n- 📌 Sözleşme sürerken ücretli başka hizmet ve işverenle rekabet yasağı doğrudan kanundandır (TBK m. 396/3). Yazılı rekabet yasağı sözleşmesi yalnız sözleşme sonrası için gerekir.\n- 📌 Sır saklama borcu işverenin haklı menfaati gerektirdiği ölçüde sözleşme bittikten sonra da sürer (TBK m. 396/4).\n- 📌 Ücret hükmü yoksa asgari ücretten az olmamak üzere emsal ücret ödenir (TBK m. 401). Fazla çalışmada en az %50 zamlı ücret; rıza ile ücret yerine orantılı izin (TBK m. 402).\n- 📌 Aksine âdet yoksa ücret her ayın sonunda ödenir; ciro ve kâr payı hesap dönemini izleyen en geç üç ay içinde (TBK m. 406).\n- ⚠️ İşveren ücreti işçinin rızası olmadan takas edemez. Tek istisna: işçinin kasten sebep olduğu, yargı kararıyla sabit zarardan doğan alacak, haczedilebilir kısım kadar (TBK m. 407/2). Kusurlu ama kasıtsız zarar için kesinti yapılamaz.\n- 📌 İşveren kabulde temerrüde düşerse ücreti öder, edimi sonradan istemez; işçinin tasarruf ettiği giderler ve başka işten kazandıkları indirilir (TBK m. 408).\n- 📌 Ücretin dörtte birinden fazlası haczedilemez, devredilemez, rehnedilemez; gelecekteki ücretin devri ve rehni geçersizdir (TBK m. 410).\n- ⚠️ Zorunlu harcamayı işçiye yükleyen anlaşma geçersizdir (TBK m. 414/3). Götürü ödeme yazılı sözleşmeyle mümkündür ama zorunlu harcamayı karşılayacak miktardan az olamaz (TBK m. 414/2).\n- 📌 İşverenin kişiliği koruma, tacizi önleme ve İSG borcunu ihlalinden doğan zarar sözleşmeye aykırılık hükümlerine tabidir (TBK m. 417/3).\n- 📌 Yalnız işçi aleyhine konulan ceza koşulu geçersizdir (TBK m. 420/1).\n- 📌 İbra dört şartla geçerlidir: yazılı, sözleşmenin sona ermesinden en az bir ay sonra, tür ve miktar belirli, ödeme noksansız ve banka aracılığıyla. Eksikse kesin hükümsüzdür (TBK m. 420/2).\n- ⚠️ İşyeri devrinde sözleşmeler kanun gereği devralana geçer; devreden, devirden önce doğmuş ve devir tarihinde ödenmesi gereken borçlardan devir tarihinden itibaren iki yıl müteselsil sorumludur (TBK m. 428). Sözleşme devri ise işçinin yazılı rızasını gerektirir (TBK m. 429).",
+  "doctrine_md": "### 1. Sözleşmenin devrinde devreden işverenin sorumluluğu\n\nTBK m. 428/3 işyeri devrinde devreden ile devralanı, devirden önce doğmuş ve devir tarihinde ödenmesi gereken borçlardan müteselsil sorumlu tutar; devredenin sorumluluğu devir tarihinden itibaren iki yıl ile sınırlıdır. TBK m. 429'da buna benzer bir hüküm yoktur.\n\n- **Birinci görüş:** TBK m. 429/2 devralanı \"bütün hak ve borçlarıyla\" işveren tarafı yaptığı için devreden tarafın dışına çıkar ve işçi rızasıyla verdiği bu sonuca katlanmış olur. Devredenin sorumluluğu yoktur; ancak taraflar aksini kararlaştırabilir.\n- **İkinci görüş:** İşçinin korunması gerektiği için TBK m. 428/3 kıyas yoluyla uygulanmalı, devreden iki yıl süreyle devralanla birlikte sorumlu kalmalıdır.\n\nYargıtay 9. Hukuk Dairesi'nin yeni tarihli bir kararı birinci görüşü benimsemiştir (kararlar bölümüne bak). Sınavda iki görüşü bilmek yeterlidir; olay çözümünde kesin hüküm kurarken \"Yargıtay'ın yaklaşımı\" diye belirt.\n\n### 2. Tek bir ağır davranış TBK m. 417 ihlali midir?\n\nMobbing kavramında süreklilik ve sistemlilik aranır. Tartışma, tek ve ağır bir hakaretin de işverenin kişiliği koruma borcunu ihlal edip etmediğidir.\n\n- **Birinci görüş:** Kişilik hakkına yönelik tek ve ağır bir saldırı bile işverenin koruma borcunu ihlal eder; işveren saldırıyı öğrendiği hâlde önlem almazsa sorumlu olur ve işçi haklı nedenle feshedebilir.\n- **İkinci görüş:** Sistemlilik yoksa psikolojik taciz kabul edilemez; olay işverene bildirilmemiş veya işveren kusurlu değilse onun sorumluluğu doğmaz.\n\nYargıtay 9. Hukuk Dairesi'nin bir kararında çoğunluk, sistemli psikolojik taciz kanıtlanmadığı yönündeki istinaf kararını onamış; karşı oyda ise davranış taciz niteliğinde olmasa da tek başına haklı neden ağırlığında olabileceği ve işverenin koruma borcunun ihlal edildiği savunulmuştur.\n\n### 3. Banka dışı ödemede makbuz hükmü\n\nTBK m. 420/3 kısmi ödemeli belgelerin \"makbuz hükmünde\" olmasını da banka aracılığıyla ödemeye bağlar. Yargıtay Hukuk Genel Kurulu bu şartı sıkı yorumlamış, bankadan yapılmayan ödemeyi gösteren ibranameyi ve aynı tarihli makbuzu kesin hükümsüz saymıştır. Karşı yaklaşım, imzalı makbuzun işçinin aldığını gösteren bir belge olarak değer taşıması gerektiğini savunur. Metnin açık ifadesi ve Yargıtay'ın tutumu nedeniyle sınavda banka şartı eksiksiz uygulanır.",
+  "glossary": [
+   {
+    "term": "Hizmet sözleşmesi",
+    "definition": "İşçinin işverene bağımlı olarak iş görmeyi, işverenin zamana veya yapılan işe göre ücret ödemeyi üstlendiği sözleşme (TBK m. 393/1)."
+   },
+   {
+    "term": "Bağımlılık",
+    "definition": "İşçinin işverenin talimatı, denetimi ve işyeri düzeni altında çalışması; hizmet sözleşmesini eser ve vekâletten ayıran ölçüt."
+   },
+   {
+    "term": "Emsal ücret",
+    "definition": "Sözleşmede ücret hükmü yokken ödenecek, asgari ücretten az olmayan, benzer işlerde ödenen ücret (TBK m. 401)."
+   },
+   {
+    "term": "Fazla çalışma",
+    "definition": "Normal çalışma süresini aşan ve işçinin rızasıyla yapılan çalışma; karşılığı en az %50 zamlı ücret ya da rızayla orantılı izin (TBK m. 398, TBK m. 402)."
+   },
+   {
+    "term": "Sadakat borcu",
+    "definition": "İşçinin işverenin haklı menfaatini koruması; sözleşme sürerken rekabet etmeme ve sır saklamayı da içerir (TBK m. 396)."
+   },
+   {
+    "term": "İşverenin kabulde temerrüdü",
+    "definition": "İşverenin işçinin hazır edimini kabul etmemesi ya da iş görmeyi engellemesi; ücret yine ödenir (TBK m. 408)."
+   },
+   {
+    "term": "Takas",
+    "definition": "İşverenin kendi alacağını ücret borcundan düşmesi; işçinin rızası ya da kasıtlı, yargı kararıyla sabit zarar olmadan yapılamaz (TBK m. 407/2)."
+   },
+   {
+    "term": "Psikolojik taciz (mobbing)",
+    "definition": "İşyerinde belli bir süreye yayılan, sistemli ve yıldırıcı davranışlar; işveren bunu önlemekle yükümlüdür (TBK m. 417)."
+   },
+   {
+    "term": "İbra sözleşmesi",
+    "definition": "Alacaklının alacağından vazgeçerek borçluyu borcundan kurtardığı sözleşme; işçi ibrası TBK m. 420/2'deki dört şarta bağlıdır."
+   },
+   {
+    "term": "Makbuz hükmü",
+    "definition": "Gerçek tutarda ödemeyi içermeyen ibra belgesinin, banka aracılığıyla yapılan ödeme şartıyla yalnız içerdiği miktar için ödeme belgesi sayılması (TBK m. 420/3)."
+   },
+   {
+    "term": "İşyerinin devri",
+    "definition": "İşyerinin ya da bir bölümünün hukuki işlemle devrinde sözleşmelerin kanun gereği devralana geçmesi (TBK m. 428, İK m. 6)."
+   },
+   {
+    "term": "Sözleşmenin devri",
+    "definition": "Tek bir hizmet sözleşmesinin işçinin yazılı rızasıyla başka işverene devredilmesi (TBK m. 429)."
+   },
+   {
+    "term": "Hizmet belgesi",
+    "definition": "İşverenin işçinin isteğiyle verdiği, işin türünü ve süresini gösteren belge (TBK m. 426)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "393",
+   "official_text": "MADDE 393- Hizmet sözleşmesi, işçinin işverene bağımlı olarak belirli veya belirli olmayan süreyle işgörmeyi ve işverenin de ona zamana veya yapılan işe göre ücret ödemeyi üstlendiği sözleşmedir.\nİşçinin işverene bir hizmeti kısmi süreli olarak düzenli biçimde yerine getirmeyi üstlendiği sözleşmeler de hizmet sözleşmesidir.\nGenel hizmet sözleşmesine ilişkin hükümler, kıyas yoluyla çıraklık sözleşmesine de uygulanır; özel kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "394",
+   "official_text": "MADDE 394- Hizmet sözleşmesi, kanunda aksine bir hüküm olmadıkça özel bir şekle bağlı değildir.\nBir kimse, durumun gereklerine göre ancak ücret karşılığında yapılabilecek bir işi belli bir zaman için görür ve bu iş de işveren tarafından kabul edilirse, aralarında hizmet sözleşmesi kurulmuş sayılır.\nGeçersizliği sonradan anlaşılan hizmet sözleşmesi, hizmet ilişkisi ortadan kaldırılıncaya kadar, geçerli bir hizmet sözleşmesinin bütün hüküm ve sonuçlarını doğurur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "395",
+   "official_text": "MADDE 395- Sözleşmeden veya durumun gereğinden aksi anlaşılmadıkça, işçi yüklendiği işi bizzat yapmakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "396",
+   "official_text": "MADDE 396- İşçi, yüklendiği işi özenle yapmak ve işverenin haklı menfaatinin korunmasında sadakatle davranmak zorundadır.\nİşçi, işverene ait makineleri, araç ve gereçleri, teknik sistemleri, tesisleri ve taşıtları usulüne uygun olarak kullanmak ve bunlarla birlikte işin görülmesi için kendisine teslim edilmiş olan malzemeye özen göstermekle yükümlüdür.\nİşçi, hizmet ilişkisi devam ettiği sürece, sadakat borcuna aykırı olarak bir ücret karşılığında üçüncü kişiye hizmette bulunamaz ve özellikle kendi işvereni ile rekabete girişemez.\nİşçi, iş gördüğü sırada öğrendiği, özellikle üretim ve iş sırları gibi bilgileri, hizmet ilişkisinin devamı süresince kendi yararına kullanamaz veya başkalarına açıklayamaz. İşverenin haklı menfaatinin korunması için gerekli olduğu ölçüde işçi, hizmet ilişkisinin sona ermesinden sonra da sır saklamakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "397",
+   "official_text": "MADDE 397- İşçi, üstlendiği işin görülmesi sırasında üçüncü kişiden işveren için aldığı şeyleri ve özellikle paraları derhâl ona teslim etmek ve bunlar hakkında hesap vermekle yükümlüdür.\nİşçi, hizmetin ifasından dolayı elde ettiği şeyleri de derhâl işverene teslim etmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "398",
+   "official_text": "MADDE 398- Fazla çalışma, ilgili kanunlarda belirlenen normal çalışma süresinin üzerinde ve işçinin rızasıyla yapılan çalışmadır. Ancak, normal süreden daha fazla çalışmayı gerektiren bir işin yerine getirilmesi zorunluluğu doğar, işçi bunu yapabilecek durumda bulunur ve aynı zamanda kaçınması da dürüstlük kurallarına aykırı olursa işçi, karşılığı verilmek koşuluyla, fazla çalışmayı yerine getirmekle yükümlüdür.\nÖzel kanunlardaki hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "399",
+   "official_text": "MADDE 399- İşveren, işin görülmesi ve işçilerin işyerindeki davranışlarıyla ilgili genel düzenlemeler yapabilir ve onlara özel talimat verebilir. İşçiler, bunlara dürüstlük kurallarının gerektirdiği ölçüde uymak zorundadırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "400",
+   "official_text": "MADDE 400- İşçi, işverene kusuruyla verdiği her türlü zarardan sorumludur.\nBu sorumluluğun belirlenmesinde; işin tehlikeli olup olmaması, uzmanlığı ve eğitimi gerektirip gerektirmemesi ile işçinin işveren tarafından bilinen veya bilinmesi gereken yetenek ve nitelikleri göz önünde tutulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "401",
+   "official_text": "MADDE 401- İşveren, işçiye sözleşmede veya toplu iş sözleşmesinde belirlenen; sözleşmede hüküm bulunmayan hâllerde ise, asgari ücretten az olmamak üzere emsal ücreti ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "402",
+   "official_text": "MADDE 402- İşveren, fazla çalışma için işçiye normal çalışma ücretini en az yüzde elli fazlasıyla ödemekle yükümlüdür.\nİşveren, işçinin rızasıyla fazla çalışma ücreti yerine, uygun bir zamanda fazla çalışmayla orantılı olarak izin verebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "403",
+   "official_text": "MADDE 403- Sözleşmeyle işçiye ücretle birlikte üretilenden, cirodan veya kârdan belli bir pay verilmesi kararlaştırılmışsa, hesap dönemi sonunda bu pay, yasal hükümler veya genellikle kabul edilmiş ticari esaslar göz önünde tutularak belirlenir.\nİşçiye belli bir pay verilmesi kararlaştırılan hâllerde, payın hesaplanmasında uyuşulamazsa işveren, işçiye veya onun yerine, birlikte kararlaştırdıkları ya da hâkimin atadığı bilirkişiye bilgi vermek ve bilginin dayanağını oluşturan işletmeyle ilgili defter ve belgeleri incelemesine sunmak; kârdan bir pay verilmesi kararlaştırılmışsa, işveren işçiye, istemi üzerine ayrıca yıl sonu kâr zarar cetvelini vermek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "404",
+   "official_text": "MADDE 404- İşçiye belli işlerde aracılık yapması karşılığında işverence bir ücret ödeneceği kararlaştırılmışsa, aracılık yapılan işlemin üçüncü kişi ile geçerli olarak kurulmasıyla işçinin istem hakkı doğar.\nBorçların kısım kısım ifa edileceği sözleşmeler ile sigorta sözleşmelerinde, her kısma ilişkin ücret isteminin bu kısma ilişkin borcun muaccel olmasıyla veya yerine getirilmesiyle doğacağı yazılı olarak kararlaştırılabilir.\nİşçinin aracılığı suretiyle işveren ile üçüncü kişi arasında kurulan sözleşme, işveren tarafından kusuru olmaksızın ifa edilmezse veya üçüncü kişi borçlarını yerine getirmezse, ücret istemine yönelik hak sona erer. Sadece kısmi ifa hâlinde, ücretten orantılı olarak indirim yapılır.\nSözleşmeyle işçiye, kendisine ödenecek aracılık ücretinin hesabını tutma yükümlülüğü getirilmemişse, işveren işçiye ücretin muaccel olduğu her dönem için, bu ücrete tabi işlemleri de içeren yazılı hesap vermekle yükümlüdür.\nHesabı gözden geçirme ihtiyacı ortaya çıkarsa işveren, işçiye veya onun yerine, birlikte kararlaştırdıkları ya da hâkimin atadığı bilirkişiye bilgi vermek ve bilginin dayanağını oluşturan işletmeyle ilgili defter ve belgeleri onun incelemesine sunmak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "405",
+   "official_text": "MADDE 405- İşveren, bayram, yılbaşı ve doğum günü gibi belirli günler dolayısıyla işçilerine özel ikramiye verebilir. Ancak, işçilerin ikramiyeyi istem hakları bu konuda anlaşmanın veya çalışma şartının ya da işverenin tek taraflı taahhüdünün varlığı hâlinde doğar.\nHizmet sözleşmesi ikramiyenin verildiği dönemden önce sona ermişse, ikramiyenin çalıştığı süreye yansıyan bölümü ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "406",
+   "official_text": "MADDE 406- Aksine âdet olmadıkça, işçiye ücreti her ayın sonunda ödenir. Ancak, hizmet sözleşmesi veya toplu iş sözleşmesiyle daha kısa ödeme süreleri belirlenebilir.\nDaha kısa bir ödeme süresi kararlaştırılmamışsa veya aksine âdet yoksa, aracılık ücreti her ayın sonunda ödenir. Ancak, işlemlerin yapılması altı aydan daha uzun bir süre gerektirdiği takdirde, aracılık ücreti asıl ücrete ek olarak kararlaştırılmışsa, yazılı anlaşmayla ödeme daha ileri bir tarihe bırakılabilir.\nAsıl ücrete ek olarak üretilenden pay verilmesi öngörülen hâllerde, ürün payı belirlenir belirlenmez, cirodan veya kârdan pay verilmesi kararlaştırılan hâllerde ise payın, hesap dönemini izleyen en geç üç ay içinde belirlenerek ödenmesi şarttır.\nİşveren, işçiye zorunlu ihtiyacının ortaya çıkması hâlinde ve hakkaniyet gereği ödeyebilecek durumda ise, hizmetiyle orantılı olarak avans vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "407",
+   "official_text": "MADDE 407- Çalıştırılan işçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkaktan o ay içinde ödenenlerin özel olarak açılan banka hesabına yatırılmak suretiyle ödenmesi hususunda; tabi olduğu vergi mükellefiyeti türü, işletme büyüklüğü, çalıştırdığı işçi sayısı, işyerinin bulunduğu il ve benzeri unsurları dikkate alarak iş sahiplerini zorunlu tutmaya, banka hesabına yatırılacak ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakın, brüt ya da kanuni kesintiler düşüldükten sonra kalan net miktar üzerinden olup olmayacağını belirlemeye Cumhurbaşkanlığı yetkilidir. Çalıştırdığı işçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakını özel olarak açılan banka hesapları vasıtasıyla ödeme zorunluluğuna tabî tutulan iş sahipleri, işçilerinin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakını özel olarak açılan banka hesapları dışında ödeyemezler. Her ödeme döneminde, işçiye hesap pusulası verilir. İşçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkaklarının özel olarak açılan banka hesabına yatırılmak suretiyle ödenmesine ilişkin diğer ûsul ve esaslar, anılan bakanlıklarca müştereken çıkarılacak yönetmelikle düzenlenir.[5]\nİşveren, işçiden olan alacağı ile ücret borcunu işçinin rızası olmadıkça takas edemez. Ancak, işçinin kasten sebebiyet verdiği yargı kararıyla sabit bir zarardan doğan alacaklar, ücretin haczedilebilir kısmı kadar takas edilebilir.\nÜcretin işveren lehine kullanılacağına ilişkin anlaşmalar geçersizdir.\n[5] 2/7/2018 tarihli ve 700 sayılı Kanun Hükmünde Kararnamenin 190 ıncı maddesiyle bu fıkrada yer alan “Çalışma ve Sosyal Güvenlik Bakanlığı, Maliye Bakanlığı ve Hazine Müsteşarlığından sorumlu Devlet Bakanlığı müştereken” ibaresi “Cumhurbaşkanlığı” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "408",
+   "official_text": "MADDE 408- İşveren, işgörme ediminin yerine getirilmesini kusuruyla engellerse veya edimi kabulde temerrüde düşerse, işçiye ücretini ödemekle yükümlü olup, işçiden bu edimini daha sonra yerine getirmesini isteyemez. Ancak, işçinin bu engelleme sebebiyle yapmaktan kurtulduğu giderler ile başka bir iş yaparak kazandığı veya kazanmaktan bilerek kaçındığı yararlar ücretinden indirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "409",
+   "official_text": "MADDE 409- Uzun süreli bir hizmet ilişkisinde işçi, hastalık, askerlik veya kanundan doğan çalışma ve benzeri sebeplerle kusuru olmaksızın, iş gördüğü süreye oranla kısa bir süre için işgörme edimini ifa edemezse işveren, başka bir yolla karşılanmadığı takdirde, o süre için işçiye hakkaniyete uygun bir ücret ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "410",
+   "official_text": "MADDE 410- İşçilerin ücretinin dörtte birinden fazlası haczedilemez, başkasına devredilemez ve rehnedilemez. Ancak, işçinin bakmakla yükümlü olduğu aile bireyleri için hâkim tarafından takdir edilecek miktar, bu orana dâhil değildir. Nafaka alacaklılarının hakları saklıdır.\nGelecekteki ücret alacaklarının devredilmesi veya rehnedilmesi geçersizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "411",
+   "official_text": "MADDE 411- İşçi, sözleşme gereğince yalnız bir işveren için sadece parça başına veya götürü iş yapmayı üstlenmişse işveren, ona yeterli iş vermekle yükümlüdür.\nİşveren, kendi kusuru olmaksızın sözleşmede öngörülen parça başına veya götürü iş sağlayamayacak durumda bulunduğu veya işletme koşulları geçici olarak gerektirdiği takdirde işçiye, ücreti zaman esasına göre öder. Bu durumda, zamana göre ödenecek ücret, anlaşmada veya hizmet ya da toplu iş sözleşmesinde belirlenmemişse işveren, işçiye parça başına veya götürü olarak daha önce aldığı ortalama ücrete eşdeğer bir ücret ödemekle yükümlüdür.\nParça başına veya götürü ya da zamana göre iş sağlayamayan işveren, en azından işgörme edimini kabulde temerrüt hükümleri uyarınca zamana göre işgörmede ödeyeceği ücreti ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "412",
+   "official_text": "MADDE 412- İşçi, sözleşme gereğince parça başına veya götürü olarak çalışmayı üstlendiği takdirde işveren, her işin başlamasından önce ona ödenecek birim ücretini bildirmekle yükümlüdür.\nBu bildirimi yapmayan işveren, aynı veya benzer bir iş için belirlenmiş olan birim ücretini ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "413",
+   "official_text": "MADDE 413- Aksine anlaşma veya yerel âdet yoksa, işveren işçiye bu iş için gerekli araçları ve malzemeyi sağlamakla yükümlüdür.\nİşçi işverenle anlaşarak kendi araç veya malzemesini işin görülmesine özgülerse, aksi anlaşmada kararlaştırılmadıkça veya yerel âdet bulunmadıkça işveren, bunun için işçiye uygun bir karşılık ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "414",
+   "official_text": "MADDE 414- İşveren, işin görülmesinin gerektirdiği her türlü harcama ile işçiyi işyeri dışında çalıştırdığı takdirde, geçimi için zorunlu olan harcamaları da ödemekle yükümlüdür.\nYazılı olarak yapılmış bir hizmet veya toplu iş sözleşmesinde, bizzat işçi tarafından karşılanması kararlaştırılan harcamaların, işçiye götürü biçimde günlük, haftalık veya aylık olarak ödenmesi öngörülebilir. Ancak bu ödeme, zorunlu harcamaları karşılayacak miktardan az olamaz.\nZorunlu harcamaların kısmen veya tamamen işçi tarafından bizzat karşılanmasına ilişkin anlaşmalar geçersizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "415",
+   "official_text": "MADDE 415- İşçi, işin görülmesi için işverenle anlaşarak işverenin veya kendisinin sağladığı bir taşıma aracı kullanıyorsa, taşıtın işletilmesi ve bakımı için gerekli olağan giderler, hizmet için kullanıldığı ölçüde işverence karşılanır.\nİşçi işverenle anlaşarak, işin görülmesinde kendi motorlu aracını kullanıyorsa, işveren ayrıca bu araçla ilgili vergiyi, zorunlu mali sorumluluk sigortası primini ve aracın yıpranması karşılığında uygun bir tazminatı hizmet için kullanıldığı ölçüde işçiye ödemekle yükümlüdür.\nİşçi işverenle anlaşarak, hizmetin görülmesinde kendisine ait diğer taşıma araçlarını ve hayvanlarını kullanıyorsa işveren, bunların kullanma ve bakımı için gerekli olan olağan giderleri hizmet için kullanıldığı ölçüde karşılamakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "416",
+   "official_text": "MADDE 416- İşçinin yapmış olduğu giderlerden doğan alacağı, daha kısa bir süre kararlaştırılmamışsa veya yerel âdet yoksa, her defasında ücretle birlikte ödenir.\nİşçi, sözleşmeden doğan borçlarını yerine getirmek için düzenli olarak masraf yapıyorsa, kendisine en az ayda bir olmak üzere belirli aralıklarla uygun bir avans verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "417",
+   "official_text": "MADDE 417- İşveren, hizmet ilişkisinde işçinin kişiliğini korumak ve saygı göstermek ve işyerinde dürüstlük ilkelerine uygun bir düzeni sağlamakla, özellikle işçilerin psikolojik ve cinsel tacize uğramamaları ve bu tür tacizlere uğramış olanların daha fazla zarar görmemeleri için gerekli önlemleri almakla yükümlüdür.\nİşveren, işyerinde iş sağlığı ve güvenliğinin sağlanması için gerekli her türlü önlemi almak, araç ve gereçleri noksansız bulundurmak; işçiler de iş sağlığı ve güvenliği konusunda alınan her türlü önleme uymakla yükümlüdür.\nİşverenin yukarıdaki hükümler dâhil, kanuna ve sözleşmeye aykırı davranışı nedeniyle işçinin ölümü, vücut bütünlüğünün zedelenmesi veya kişilik haklarının ihlaline bağlı zararların tazmini, sözleşmeye aykırılıktan doğan sorumluluk hükümlerine tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "418",
+   "official_text": "MADDE 418- İşçi işverenle birlikte ev düzeni içinde yaşıyorsa işveren, yeterli gıda ve uygun bir barınak sağlamakla yükümlüdür.\nİşçi, kusuru olmaksızın hastalık veya kaza gibi sebeplerle işgörme edimini yerine getiremezse işveren, sosyal sigortalar yardımlarından yararlanamayan, bir yıla kadar çalışmış işçinin bakımını ve tedavisini, iki hafta süreyle sağlamak zorundadır. İşçinin bir yılı aşan her hizmet yılı için söz konusu süre, dört haftayı aşmamak üzere ikişer gün artırılır.\nİşveren, işçinin gebeliğinde ve doğum yapması durumunda da aynı edimleri yerine getirmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "419",
+   "official_text": "MADDE 419- İşveren, işçiye ait kişisel verileri, ancak işçinin işe yatkınlığıyla ilgili veya hizmet sözleşmesinin ifası için zorunlu olduğu ölçüde kullanabilir.\nÖzel kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "420",
+   "official_text": "MADDE 420- Hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir.\nİşçinin işverenden alacağına ilişkin ibra sözleşmesinin yazılı olması, ibra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak en az bir aylık sürenin geçmiş bulunması, ibra konusu alacağın türünün ve miktarının açıkça belirtilmesi, ödemenin hak tutarına nazaran noksansız ve banka aracılığıyla yapılması şarttır. Bu unsurları taşımayan ibra sözleşmeleri veya ibraname kesin olarak hükümsüzdür.\nHakkın gerçek tutarda ödendiğini ihtiva etmeyen ibra sözleşmeleri veya ibra beyanını muhtevi diğer ödeme belgeleri, içerdikleri miktarla sınırlı olarak makbuz hükmündedir. Bu hâlde dahi, ödemelerin banka aracılığıyla yapılmış olması zorunludur.\nİkinci ve üçüncü fıkra hükümleri, destekten yoksun kalanlar ile işçinin diğer yakınlarının isteyebilecekleri dâhil, hizmet sözleşmesinden doğan bütün tazminat alacaklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "421",
+   "official_text": "MADDE 421- İşveren, işçiye her hafta, kural olarak pazar günü veya durum ve koşullar buna imkân vermezse, bir tam çalışma günü tatil vermekle yükümlüdür.\nİşveren, belirsiz süreli hizmet sözleşmesinin feshi hâlinde, bildirim süresi içinde işçiye ücretinde bir kesinti olmaksızın, günde iki saat iş arama izni vermekle yükümlüdür.\nİzin saatlerinin ve günlerinin belirlenmesinde, işyerinin ve işçinin haklı menfaatleri göz önünde tutulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "422",
+   "official_text": "MADDE 422- İşveren, en az bir yıl çalışmış olan işçilere yılda en az iki hafta ve onsekiz yaşından küçük işçiler ile elli yaşından büyük işçilere de en az üç hafta ücretli yıllık izin vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "423",
+   "official_text": "MADDE 423- İşçi, bir hizmet yılı içinde kendi kusuruyla toplam bir aydan daha uzun bir süreyle hizmeti yerine getirmediği takdirde işveren, çalışılmayan her tam ay için, yıllık ücretli izin süresinden bir gün indirim yapabilir.\nİşçi, bir hizmet yılı içinde kendi kusuru olmaksızın hastalık, kaza, yasal bir yükümlülüğün veya kamu görevinin yerine getirilmesi gibi kişiliğine bağlı sebeplerle en çok üç ay süreyle işgörme edimini yerine getiremediği takdirde, işveren yıllık ücretli izin süresinden indirim yapamaz.\nİşveren, gebelik ve doğum yapma sebebiyle işgörme edimini en çok üç ay süreyle yerine getiremeyen kadın işçinin yıllık ücretli izin süresinden indirim yapamaz.\nHizmet veya toplu iş sözleşmeleriyle, işçinin aleyhine hüküm doğuracak şekilde, ikinci ve üçüncü fıkra hükümlerine aykırı düzenleme yapılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "424",
+   "official_text": "MADDE 424- Yıllık ücretli izinler, kural olarak aralıksız biçimde verilir; ancak tarafların anlaşmasıyla ikiye bölünerek de kullanılabilir.\nİşveren, yıllık ücretli izin tarihlerini, işyerinin veya ev düzeninin menfaatleriyle bağdaştığı ölçüde, işçinin isteklerini göz önünde tutarak belirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "425",
+   "official_text": "MADDE 425- İşveren, yıllık ücretli iznini kullanan her işçiye, yıllık ücretli izin süresine ilişkin ücretini, ilgili işçinin izne başlamasından önce peşin olarak ödemek veya avans olarak vermekle yükümlüdür.\nİşçi, hizmet ilişkisi devam ettiği sürece, işverenden alacağı para ve başka menfaatler karşılığında yıllık ücretli izin hakkından feragat edemez.\nHizmet sözleşmesinin herhangi bir sebeple sona ermesi hâlinde, işçinin hak kazanıp da kullanamadığı yıllık izin sürelerine ait ücreti, sözleşmenin sona erdiği tarihteki ücreti üzerinden kendisine veya hak sahiplerine ödenir. Bu ücrete ilişkin zamanaşımı, hizmet sözleşmesinin sona erdiği tarihte işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "426",
+   "official_text": "MADDE 426- İşveren, işçinin isteği üzerine her zaman, işin türünü ve süresini içeren bir hizmet belgesi vermekle yükümlüdür.\nİşçinin açıkça istemde bulunması hâlinde, hizmet belgesinde onun işgörmedeki becerisi ile tutum ve davranışları da belirtilir.\nHizmet belgesinin zamanında verilmemesinden veya belgede doğru olmayan bilgiler bulunmasından zarar gören işçi veya işçiyi işe alan yeni işveren, eski işverenden tazminat isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "427",
+   "official_text": "MADDE 427- Hizmet buluşları üzerinde işçinin ve işverenin hakları, bunların kazanılması ile diğer sınaî ve fikrî mülkiyet hakları konusunda özel kanun hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "428",
+   "official_text": "MADDE 428 İşyerinin tamamı veya bir bölümü hukuki bir işlemle başkasına devredildiğinde, devir tarihinde işyerinde veya bir bölümünde mevcut olan hizmet sözleşmeleri, bütün hak ve borçları ile birlikte devralana geçer.\nİşçinin hizmet süresine bağlı hakları bakımından, onun devreden işveren yanında işe başladığı tarih esas alınır.\nYukarıdaki hükümlere göre devir hâlinde, devirden önce doğmuş olan ve devir tarihinde ödenmesi gereken borçlardan, devreden ve devralan işveren müteselsilen sorumludurlar. Ancak, devreden işverenin bu yükümlülüklerden doğan sorumluluğu, devir tarihinden itibaren iki yıl ile sınırlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "429",
+   "official_text": "MADDE 429- Hizmet sözleşmesi, ancak işçinin yazılı rızası alınmak suretiyle, sürekli olarak başka bir işverene devredilebilir.\nDevir işlemiyle, devralan, bütün hak ve borçları ile birlikte, hizmet sözleşmesinin işveren tarafı olur. Bu durumda, işçinin, hizmet süresine bağlı hakları bakımından, devreden işveren yanında işe başladığı tarih esas alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "430",
+   "official_text": "MADDE 430- Belirli süreli hizmet sözleşmesi, aksi kararlaştırılmadıkça, fesih bildiriminde bulunulmasına gerek olmaksızın, sürenin bitiminde kendiliğinden sona erer.\nBelirli süreli sözleşme, süresinin bitiminden sonra örtülü olarak sürdürülüyorsa, belirsiz süreli sözleşmeye dönüşür. Ancak, esaslı bir sebebin varlığı hâlinde, üst üste belirli süreli hizmet sözleşmesi kurulabilir.\nTaraflardan her biri, on yıldan uzun süreli hizmet sözleşmesini on yıl geçtikten sonra, altı aylık fesih bildirim süresine uyarak feshedebilir. Fesih, ancak bu süreyi izleyen aybaşında hüküm ifade eder.\nSözleşmenin fesih bildirimiyle sona ereceği kararlaştırılmış ve iki taraf da fesih bildiriminde bulunmamışsa, sözleşme belirsiz süreli sözleşmeye dönüşür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "444",
+   "official_text": "MADDE 444- Fiil ehliyetine sahip olan işçi, işverene karşı, sözleşmenin sona ermesinden sonra herhangi bir biçimde onunla rekabet etmekten, özellikle kendi hesabına rakip bir işletme açmaktan, başka bir rakip işletmede çalışmaktan veya bunların dışında, rakip işletmeyle başka türden bir menfaat ilişkisine girişmekten kaçınmayı yazılı olarak üstlenebilir.\nRekabet yasağı kaydı, ancak hizmet ilişkisi işçiye müşteri çevresi veya üretim sırları ya da işverenin yaptığı işler hakkında bilgi edinme imkânı sağlıyorsa ve aynı zamanda bu bilgilerin kullanılması, işverenin önemli bir zararına sebep olacak nitelikteyse geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "205",
+   "official_text": "MADDE 205- Sözleşmenin devri, sözleşmeyi devralan ile devreden ve sözleşmede kalan taraf arasında yapılan ve devredenin bu sözleşmeden doğan taraf olma sıfatı ile birlikte bütün hak ve borçlarını devralana geçiren bir anlaşmadır.\nSözleşmeyi devralan ile devreden arasında yapılan ve sözleşmede kalan diğer tarafça önceden verilen izne dayanan veya sonradan onaylanan anlaşma da, sözleşmenin devri hükümlerine tabidir.\nSözleşmenin devrinin geçerliliği, devredilen sözleşmenin şekline bağlıdır.\nKanundan doğan halefiyet hâlleri ile diğer özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "470",
+   "official_text": "MADDE 470- Eser sözleşmesi, yüklenicinin bir eser meydana getirmeyi, işsahibinin de bunun karşılığında bir bedel ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "502",
+   "official_text": "MADDE 502- Vekâlet sözleşmesi, vekilin vekâlet verenin bir işini görmeyi veya işlemini yapmayı üstlendiği sözleşmedir.\nVekâlete ilişkin hükümler, niteliklerine uygun düştükleri ölçüde, bu Kanunda düzenlenmemiş olan işgörme sözleşmelerine de uygulanır.\nSözleşme veya teamül varsa vekil, ücrete hak kazanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "1",
+   "official_text": "Amaç ve kapsam\nMadde 1 - Bu Kanunun amacı işverenler ile bir iş sözleşmesine dayanarak çalıştırılan işçilerin çalışma şartları ve çalışma ortamına ilişkin hak ve sorumluluklarını düzenlemektir.\nBu Kanun, 4 üncü Maddedeki istisnalar dışında kalan bütün işyerlerine, bu işyerlerinin işverenleri ile işveren vekillerine ve işçilerine faaliyet konularına bakılmaksızın uygulanır.\nİşyerleri, işverenler, işveren vekilleri ve işçiler, 3 üncü maddedeki bildirim gününe bakılmaksızın bu Kanun hükümleri ile bağlı olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "4",
+   "official_text": "İstisnalar\nMadde 4 -Aşağıda belirtilen işlerde ve iş ilişkilerinde bu Kanun hükümleri uygulanmaz;\na) Deniz ve hava taşıma işlerinde,\nb) 50'den az işçi çalıştırılan (50 dahil) tarım ve orman işlerinin yapıldığı işyerlerinde veya işletmelerinde,\nc) Aile ekonomisi sınırları içinde kalan tarımla ilgili her çeşit yapı işleri,\nd) Bir ailenin üyeleri ve 3 üncü dereceye kadar (3 üncü derece dahil) hısımları arasında dışardan başka biri katılmayarak evlerde ve el sanatlarının yapıldığı işlerde,\ne) Ev hizmetlerinde,\nf) (…)[4] çıraklar hakkında,\ng) Sporcular hakkında,\nh) Rehabilite edilenler hakkında,\nı) 507 sayılı Esnaf ve Sanatkârlar Kanununun 2 nci maddesinin tarifine uygun üç kişinin çalıştığı işyerlerinde.\nŞu kadar ki;\na) Kıyılarda veya liman ve iskelelerde gemilerden karaya ve karadan gemilere yapılan yükleme ve boşaltma işleri,\nb) Havacılığın bütün yer tesislerinde yürütülen işler,\nc) Tarım sanatları ile tarım aletleri, makine ve parçalarının yapıldığı atölye ve fabrikalarda görülen işler,\nd) Tarım işletmelerinde yapılan yapı işleri,\ne) Halkın faydalanmasına açık veya işyerinin eklentisi durumunda olan park ve bahçe işleri,\nf) Deniz İş Kanunu kapsamına girmeyen ve tarım işlerinden sayılmayan, denizlerde çalışan su ürünleri üreticileri ile ilgili işler,\nBu Kanun hükümlerine tabidir.\n[4] 20/6/2012 tarihli ve 6331 sayılı Kanunun 37 nci maddesiyle, bu bentte yer alan “İş sağlığı ve güvenliği hükümleri saklı kalmak üzere” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "6",
+   "official_text": "İşyerinin veya bir bölümünün devri\nMadde 6 - İşyeri veya işyerinin bir bölümü hukukî bir işleme dayalı olarak başka birine devredildiğinde, devir tarihinde işyerinde veya bir bölümünde mevcut olan iş sözleşmeleri bütün hak ve borçları ile birlikte devralana geçer.\nDevralan işveren, işçinin hizmet süresinin esas alındığı haklarda, işçinin devreden işveren yanında işe başladığı tarihe göre işlem yapmakla yükümlüdür.\nYukarıdaki hükümlere göre devir halinde, devirden önce doğmuş olan ve devir tarihinde ödenmesi gereken borçlardan devreden ve devralan işveren birlikte sorumludurlar. Ancak bu yükümlülüklerden devreden işverenin sorumluluğu devir tarihinden itibaren iki yıl ile sınırlıdır.\nTüzel kişiliğin birleşme veya katılma ya da türünün değişmesiyle sona erme halinde birlikte sorumluluk hükümleri uygulanmaz.\nDevreden veya devralan işveren iş sözleşmesini sırf işyerinin veya işyerinin bir bölümünün devrinden dolayı feshedemez ve devir işçi yönünden fesih için haklı sebep oluşturmaz. Devreden veya devralan işverenin ekonomik ve teknolojik sebeplerin yahut iş organizasyonu değişikliğinin gerekli kıldığı fesih hakları veya işçi ve işverenlerin haklı sebeplerden derhal fesih hakları saklıdır.\nYukarıdaki hükümler, iflas dolayısıyla malvarlığının tasfiyesi sonucu işyerinin veya bir bölümünün başkasına devri halinde uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "41",
+   "official_text": "Fazla çalışma ücreti\nMadde 41 - Ülkenin genel yararları yahut işin niteliği veya üretimin artırılması gibi nedenlerle fazla çalışma yapılabilir. Fazla çalışma, Kanunda yazılı koşullar çerçevesinde, haftalık kırkbeş saati aşan çalışmalardır. 63 üncü madde hükmüne göre denkleştirme esasının uygulandığı hallerde, işçinin haftalık ortalama çalışma süresi, normal haftalık iş süresini aşmamak koşulu ile, bazı haftalarda toplam kırkbeş saati aşsa dahi bu çalışmalar fazla çalışma sayılmaz.\nHer bir saat fazla çalışma için verilecek ücret normal çalışma ücretinin saat başına düşen miktarının yüzde elli yükseltilmesi suretiyle ödenir.\nHaftalık çalışma süresinin sözleşmelerle kırkbeş saatin altında belirlendiği durumlarda yukarıda belirtilen esaslar dahilinde uygulanan ortalama haftalık çalışma süresini aşan ve kırkbeş saate kadar yapılan çalışmalar fazla sürelerle çalışmalardır. Fazla sürelerle çalışmalarda, her bir saat fazla çalışma için verilecek ücret normal çalışma ücretinin saat başına düşen miktarının yüzde yirmibeş yükseltilmesiyle ödenir.\nFazla çalışma veya fazla sürelerle çalışma yapan işçi isterse, bu çalışmalar karşılığı zamlı ücret yerine, fazla çalıştığı her saat karşılığında bir saat otuz dakikayı, fazla sürelerle çalıştığı her saat karşılığında bir saat onbeş dakikayı serbest zaman olarak kullanabilir.\nİşçi hak ettiği serbest zamanı altı ay zarfında, çalışma süreleri içinde ve ücretinde bir kesinti olmadan kullanır.\n63 üncü maddenin son fıkrasında yazılı sağlık nedenlerine dayanan kısa veya sınırlı süreli işlerde ve 69 uncu maddede belirtilen gece çalışmasında fazla çalışma yapılamaz.\nFazla saatlerle çalışmak için işçinin onayının alınması gerekir.\nFazla çalışma süresinin toplamı bir yılda ikiyüzyetmiş saatten fazla olamaz.\n(Ek fıkra: 10/9/2014-6552/4 md.) Bu Kanunun 42 nci ve 43 üncü maddelerinde sayılan hâller dışında yer altında maden işlerinde çalışan işçilere fazla çalışma yaptırılamaz.\n(Ek fıkra: 10/9/2014-6552/4 md.) Yer altında maden işlerinde çalışan işçilere, bu Kanunun 42 nci ve 43 üncü maddelerinde sayılan hâllerde haftalık otuz yedi buçuk saati aşan her bir saat fazla çalışma için verilecek ücret, normal çalışma ücretinin saat başına düşen miktarının yüzde yüzden az olmamak üzere arttırılması suretiyle ödenir.[15]\nFazla çalışma ve fazla sürelerle çalışmaların ne şekilde uygulanacağı çıkarılacak yönetmelikte gösterilir.\n[15] 4/4/2015 tarihli ve 6645 sayılı Kanunun 34 üncü maddesiyle, bu fıkrada yer alan “haftalık otuz altı saati aşan” ibaresi “haftalık otuz yedi buçuk saati aşan” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "53",
+   "official_text": "Yıllık ücretli izin hakkı ve izin süreleri\nMadde 53 - İşyerinde işe başladığı günden itibaren, deneme süresi de içinde olmak üzere, en az bir yıl çalışmış olan işçilere yıllık ücretli izin verilir.\nYıllık ücretli izin hakkından vazgeçilemez.\nNiteliklerinden ötürü bir yıldan az süren mevsimlik veya kampanya işlerinde çalışanlara bu Kanunun yıllık ücretli izinlere ilişkin hükümleri uygulanmaz.\nİşçilere verilecek yıllık ücretli izin süresi, hizmet süresi;\na) Bir yıldan beş yıla kadar (beş yıl dahil) olanlara ondört günden,\nb) Beş yıldan fazla onbeş yıldan az olanlara yirmi günden,\nc) Onbeş yıl (dahil) ve daha fazla olanlara yirmialtı günden,\nAz olamaz. (Ek cümle: 10/9/2014-6552/5 md.) Yer altı işlerinde çalışan işçilerin yıllık ücretli izin süreleri dörder gün arttırılarak uygulanır.\nAncak onsekiz ve daha küçük yaştaki işçilerle elli ve daha yukarı yaştaki işçilere verilecek yıllık ücretli izin süresi yirmi günden az olamaz.\nYıllık izin süreleri iş sözleşmeleri ve toplu iş sözleşmeleri ile artırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "56",
+   "official_text": "Yıllık ücretli iznin uygulanması\nMadde 56 - Yıllık ücretli izin işveren tarafından bölünemez.\nBu iznin 53 üncü maddede gösterilen süreler içinde işveren tarafından sürekli bir şekilde verilmesi zorunludur.\n(Değişik üçüncü fıkra: 14/4/2016-6704/16 md.) Ancak, 53 üncü maddede öngörülen izin süreleri, tarafların anlaşması ile bir bölümü on günden aşağı olmamak üzere bölümler hâlinde kullanılabilir.\nİşveren tarafından yıl içinde verilmiş bulunan diğer ücretli ve ücretsiz izinler veya dinlenme ve hastalık izinleri yıllık izne mahsup edilemez.\nYıllık ücretli izin günlerinin hesabında izin süresine rastlayan ulusal bayram, hafta tatili ve genel tatil günleri izin süresinden sayılmaz.\nYıllık ücretli izinleri işyerinin kurulu bulunduğu yerden başka bir yerde geçirecek olanlara istemde bulunmaları ve bu hususu belgelemeleri koşulu ile gidiş ve dönüşlerinde yolda geçecek süreleri karşılamak üzere işveren toplam dört güne kadar ücretsiz izin vermek zorundadır. İşveren, işyerinde çalışan işçilerin yıllık ücretli izinlerini gösterir izin kayıt belgesi tutmak zorundadır.\n(Ek fıkra: 10/9/2014-6552/6 md.) Alt işveren işçilerinden, alt işvereni değiştiği hâlde aynı işyerinde çalışmaya devam edenlerin yıllık ücretli izin süresi, aynı işyerinde çalıştıkları süreler dikkate alınarak hesaplanır. Asıl işveren, alt işveren tarafından çalıştırılan işçilerin hak kazandıkları yıllık ücretli izin sürelerinin kullanılıp kullanılmadığını kontrol etmek ve ilgili yıl içinde kullanılmasını sağlamakla, alt işveren ise altıncı fıkraya göre tutmak zorunda olduğu izin kayıt belgesinin bir örneğini asıl işverene vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2018/642",
+   "karar_no": "2020/372",
+   "decision_date": "09.06.2020",
+   "summary_md": "İşçinin sözleşmesi ekonomik sebeplerle feshedilmiş, ardından işçi \"ibraname ve feragatname\" ile aynı tarihli bir makbuz imzalayarak kıdem ve ihbar tazminatı olarak toplam 22.391,90 TL aldığını belirtmişti. Ödeme banka aracılığıyla yapılmamıştı. İşçi, belgeleri imzalarsa tazminatlarının ödeneceği söylendiği için imzaladığını, kendisine ödeme yapılmadığını söyledi. İlk derece mahkemesi belgeleri makbuz sayıp tutarları mahsup etmiş, 9. Hukuk Dairesi bozmuş, mahkeme direnmiş, Hukuk Genel Kurulu direnme kararını oy birliğiyle bozmuştur. Genel Kurul, yazılı olma, bir ay geçme, tür ve miktarın belirtilmesi şartlarının gerçekleştiğini, ancak banka aracılığıyla ödeme yapılmadığını, bu nedenle ibraname ve eki niteliğindeki makbuzun kesin hükümsüz olduğunu ve belgelerdeki miktarların mahsup edilemeyeceğini kabul etmiştir. Karar, TBK m. 420'deki banka şartının ibra ve makbuz için de aranacağını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=602851300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "9. Hukuk Dairesi",
+   "esas_no": "2025/8605",
+   "karar_no": "2025/10402",
+   "decision_date": "25.12.2025",
+   "summary_md": "Saç ekim hemşiresi olan işçi, çalıştığı sağlık şirketinin Temmuz 2020'de başka bir şirkete devredildiğini ileri sürerek 05.07.2021'de sözleşmesini haklı nedenle feshettiğini bildirmiş ve alacaklarını iki şirketten istemiştir. Devreden şirket, 24.07.2020 tarihli ihtiyari arabuluculuk tutanağıyla sözleşmenin devredildiğini savundu. Yerel mahkeme ve istinaf iki şirketi birlikte sorumlu tutmuştur. 9. Hukuk Dairesi, İş Kanunu'nda sözleşme devrine ilişkin hüküm bulunmadığından TBK m. 429'un uygulanacağını belirtmiş; arabuluculuk tutanağını uyuşmazlığı çözen bir anlaşma saymamakla birlikte, işçinin imza itirazı olmayan tutanak ile tanık beyanlarına göre devre yazılı muvafakat belgesi olarak görülebileceğini kabul etmiştir. Daire, TBK m. 429'da devredenin birlikte sorumluluğunun benimsenmediğini, aksi kararlaştırılmadıkça devredenin sorumlu olmayacağını belirterek devreden şirket yönünden davanın reddi gerektiğini söylemiş ve kararı oy birliğiyle bozmuştur (ayrıca fazla çalışma ve benzeri alacaklar yönünden eksik inceleme de bozma nedenidir).",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1207340700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "9. Hukuk Dairesi",
+   "esas_no": "2024/9538",
+   "karar_no": "2024/14973",
+   "decision_date": "",
+   "summary_md": "Bir şirkette yaklaşık yedi yıl iş destek müdürü olarak çalışan davacı, aynı kademedeki bir yöneticinin kendisi için \"küçük adam\" ve benzeri lakaplar kullandığını, durumu genel müdüre bildirmesine rağmen önlem alınmadığını ileri sürerek sözleşmeyi haklı nedenle feshetmiş ve kıdem tazminatı istemiştir; işveren ise ihbar tazminatı için karşı dava açmıştır. İlk derece mahkemesi asıl davayı reddedip karşı davayı kabul etmiş, istinaf başvurusu esastan reddedilmiş; istinaf, sistemli psikolojik tacizin somut ve inandırıcı delillerle kanıtlanmadığını belirtmiştir. 9. Hukuk Dairesi karar çoğunluğuyla bu kararı onamıştır. Karşı oyda ise, davranışın mobbing sayılmasa bile işverenin koruma ve gözetme borcunu ihlal ettiği ve tek başına haklı neden olabileceği savunulmuştur. Karar, TBK m. 417 bağlamında sistemlilik ve tek davranış tartışmasını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1101648000",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Hizmet sözleşmesinin kuruluşuna ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+   "options": [
+    "Yazılı yapılmadıkça geçersizdir.",
+    "Kanunda aksine hüküm yoksa özel bir şekle bağlı değildir.",
+    "Belirsiz süreli sözleşmeler noter onayıyla yapılır.",
+    "Yazılı sözleşme olmadığında yalnız emsal ücret hükümleri uygulanır, hizmet sözleşmesi kurulmuş sayılmaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 394/1'e göre hizmet sözleşmesi, kanunda aksine bir hüküm bulunmadıkça özel bir şekle bağlı değildir. Sözlü ya da örtülü sözleşme geçerlidir; yazılı olmaması yalnızca ispatı güçleştirir. Yazılı şekil ya da noter onayı aramak yaygın bir yanılgıdır."
+  },
+  {
+   "stem_md": "Ali, bir işyerinde dört ay çalışmış, son ayın ücretini henüz almamıştır. Sonradan hizmet sözleşmesinin geçersiz olduğu anlaşılmıştır. Ali'nin işverene karşı ücret hakkı bakımından hangisi doğrudur?",
+   "options": [
+    "Sözleşme geçersiz olduğundan Ali ücret isteyemez, yalnızca sebepsiz zenginleşmeye dayanabilir.",
+    "Sözleşme ilişki ortadan kaldırılıncaya kadar geçerli bir hizmet sözleşmesinin bütün hüküm ve sonuçlarını doğurur; Ali ücretini isteyebilir.",
+    "Ali ancak asgari ücretin yarısını isteyebilir.",
+    "Sözleşme baştan itibaren yok sayılır; işveren Ali'ye hiçbir ödeme yapmak zorunda değildir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 394/3'e göre geçersizliği sonradan anlaşılan hizmet sözleşmesi, hizmet ilişkisi ortadan kaldırılıncaya kadar geçerli bir sözleşmenin bütün hüküm ve sonuçlarını doğurur. Çalışma bir kez gerçekleştiği için geçmişe etkili geçersizlik uygulanmaz; işçi ücretini ve diğer haklarını sözleşme hükümlerine göre alır."
+  },
+  {
+   "stem_md": "Zeynep, tasarım ajansında çalışırken bu işyerine bildirmeden hafta sonları ücret karşılığı ajansın doğrudan rakibi olan bir firma için çalışmaya başlamıştır. Aralarında yazılı bir rekabet yasağı sözleşmesi yoktur. Hangisi doğrudur?",
+   "options": [
+    "Sadakat borcuna aykırılık ancak işveren zarar gördüğünü ispat ederse söz konusu olur.",
+    "Yazılı rekabet yasağı sözleşmesi olmadığından Zeynep'in davranışı hukuka uygundur.",
+    "Rekabet yasağı yalnızca sözleşme sona erdikten sonra doğar; çalışırken yasak yoktur.",
+    "Zeynep sözleşme sürerken sadakat borcu gereği ücret karşılığı üçüncü kişiye hizmette bulunamaz ve işvereniyle rekabete girişemez; bu borç doğrudan kanundan doğar."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 396/3 uyarınca işçi, hizmet ilişkisi devam ettiği sürece sadakat borcuna aykırı olarak ücret karşılığı üçüncü kişiye hizmette bulunamaz ve özellikle kendi işvereni ile rekabete girişemez. Bu yasak için ayrıca sözleşme gerekmez. Yazılı rekabet yasağı sözleşmesi (TBK m. 444) ise sözleşmenin sona ermesinden sonrası içindir. Yaygın yanılgı, iki kavramı birbirine karıştırmaktır."
+  },
+  {
+   "stem_md": "Sözleşmesi sona eren mühendis Mehmet, çalışırken öğrendiği üretim sırlarını yeni işinde kullanmak istemektedir. Aralarında yazılı rekabet yasağı sözleşmesi yoktur. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Sözleşme sona erdiği için sır saklama borcu da tamamen biter.",
+    "Sır saklama borcu yalnız yazılı rekabet yasağı sözleşmesi varsa sürer.",
+    "Sır saklama borcu, işverenin haklı menfaatinin korunması için gerekli olduğu ölçüde sözleşme sona erdikten sonra da devam eder.",
+    "Sır saklama borcu süresiz ve koşulsuz olarak devam eder."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 396/4'e göre işçi, işverenin haklı menfaatinin korunması için gerekli olduğu ölçüde hizmet ilişkisinin sona ermesinden sonra da sır saklamakla yükümlüdür. Borç, yazılı bir rekabet yasağına bağlı değildir ve süresiz de değildir; kapsamı haklı menfaatle sınırlıdır."
+  },
+  {
+   "stem_md": "Ayşe, rızasıyla bir ayda 10 saat fazla çalışma yapmıştır. Normal saatlik ücreti 200 TL'dir; işçi ve işveren ücret yerine izin kullanma konusunda anlaşmamıştır. TBK m. 402'ye göre işverenin Ayşe'ye fazla çalışma için ödemesi gereken asgari tutar nedir?",
+   "options": [
+    "4.000 TL",
+    "2.400 TL",
+    "2.000 TL",
+    "3.000 TL"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 402/1'e göre işveren fazla çalışma için normal çalışma ücretini en az yüzde elli fazlasıyla öder. Saatlik 200 TL'nin yüzde elli fazlası 300 TL'dir; 10 saat için en az 3.000 TL eder. 2.000 TL zam uygulanmamış ücrettir; 4.000 TL yüzde yüz zam anlamına gelir."
+  },
+  {
+   "stem_md": "Işık Ltd. Şti., kasa görevlisi Ali'nin dikkatsizlik sonucu (kasıt olmaksızın) kırdığı 8.000 TL'lik cihazın bedelini Ali'nin rızasını almadan maaşından kesmiştir. Hangisi doğrudur?",
+   "options": [
+    "Kesinti ancak haczedilebilir kısım kadar geçerlidir.",
+    "Kesinti hukuka aykırıdır; rıza yoksa takas ancak işçinin kasten sebebiyet verdiği, yargı kararıyla sabit zarar için ve haczedilebilir kısım kadar yapılabilir.",
+    "Kesinti, zarar miktarı işçinin bir aylık ücretini aşmadıkça geçerlidir.",
+    "Kesinti geçerlidir; işçi kusuruyla verdiği her zarardan sorumludur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 407/2'ye göre işveren, ücret borcunu işçinin rızası olmadıkça kendi alacağıyla takas edemez. İstisna, işçinin kasten sebebiyet verdiği yargı kararıyla sabit bir zarardan doğan alacaklardır. Burada zarar kusurla (kasıtsız) verilmiştir ve yargı kararı yoktur; işçinin TBK m. 400'e göre sorumluluğu ayrı bir dava konusu olur, ancak ücretten kesinti yapılamaz."
+  },
+  {
+   "stem_md": "Mehmet, villada aşçıdır. Villa sahibi iki hafta tatile gidip villayı kapatmış, Mehmet çalışmaya hazır olduğunu bildirmiştir. Mehmet bu sürede başka bir işte çalışmamıştır. Hangisi doğrudur?",
+   "options": [
+    "İşveren, kabulde temerrüde düştüğü için ücreti öder ve Mehmet'ten edimini sonradan yerine getirmesini isteyemez; yalnız tasarruf ettiği giderler ücretten indirilir.",
+    "Mehmet çalışmadığı için bu süre ücret hak etmez.",
+    "Mehmet yalnızca ücretin yarısını isteyebilir.",
+    "İşveren ücreti öder; ancak Mehmet bu süreyi daha sonra telafi çalışmasıyla karşılamak zorundadır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 408'e göre işveren iş görmeyi kusuruyla engellerse ya da edimi kabulde temerrüde düşerse işçiye ücretini öder ve işçiden bu edimi sonradan yerine getirmesini isteyemez. Yalnız işçinin bu engelleme yüzünden yapmaktan kurtulduğu giderler ile başka iş yaparak kazandığı ya da bilerek kazanmaktan kaçındığı yararlar indirilir. Telafi çalışması istenemez."
+  },
+  {
+   "stem_md": "Ali, borcuna karşılık alacaklısına gelecek altı ayda doğacak maaşının dörtte birini devretmiştir. Bu devir bakımından hangisi doğrudur?",
+   "options": [
+    "Devir, ücretin dörtte biri ile sınırlı olduğu için geçerlidir.",
+    "Devir yalnız ilk iki ay için geçerlidir.",
+    "Hâkim onay verirse geçerli olur.",
+    "Gelecekteki ücret alacaklarının devri geçersizdir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 410/2'ye göre gelecekteki ücret alacaklarının devredilmesi veya rehnedilmesi geçersizdir. Dörtte bir sınırı (TBK m. 410/1) doğmuş ücret alacakları için haciz, devir ve rehin sınırıdır; gelecekteki ücret için dörtte birini devretmek bile geçersizdir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 417'ye göre işverenin işçinin kişiliğinin korunmasına aykırı davranması hâlinde işçinin uğradığı zararlara uygulanacak hükümleri doğru gösterir?",
+   "options": [
+    "Yalnızca sebepsiz zenginleşme hükümleri uygulanır.",
+    "Zararın tazmini sözleşmeye aykırılıktan doğan sorumluluk hükümlerine tabidir.",
+    "Haksız fiil hükümleri uygulanır; sözleşmeye aykırılık hükümleri uygulanamaz.",
+    "İşverenin sorumluluğu kusursuz sorumluluk esasına dayanır; kusursuzluk kanıtı hiçbir hâlde sorumluluğu kaldırmaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 417/3 uyarınca işverenin bu hükümler dahil, kanuna ve sözleşmeye aykırı davranışı nedeniyle işçinin ölümü, vücut bütünlüğünün zedelenmesi veya kişilik haklarının ihlaline bağlı zararların tazmini sözleşmeye aykırılıktan doğan sorumluluk hükümlerine tabidir. Bu yüzden TBK m. 112'deki kusur karinesi işleyebilir: işveren kusursuzluğunu ispat etmedikçe sorumlu olur."
+  },
+  {
+   "stem_md": "Havayolu şirketi, pilotla yaptığı hizmet sözleşmesine yalnızca pilot aleyhine işleyen bir ceza koşulu koymuştur: pilot sözleşmeyi erken bırakırsa şirkete iki aylık ücreti kadar ceza ödeyecektir. Bu ceza koşulu hakkında hangisi doğrudur?",
+   "options": [
+    "Pilot imzaladığı için geçerlidir; sözleşme serbestisi gereği hâkim müdahale edemez.",
+    "Geçerlidir; ancak işçi bu cezayı ödeyerek sözleşmeden kurtulur.",
+    "Sadece işçi aleyhine konulan ceza koşulu geçersizdir.",
+    "Geçerlidir; yalnızca hâkim aşırı bulursa indirir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 420/1'e göre hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir. Geçersizliği sözleşme özgürlüğü ya da hâkimin indirimi ile telafi edilemez; ceza koşulu baştan hükümsüzdür."
+  },
+  {
+   "stem_md": "Burak'ın hizmet sözleşmesi 1 Mart'ta sona ermiştir. 10 Mart'ta işveren Burak'a alacak türünü ve tutarını belirten yazılı bir ibraname imzalatmış ve alacağın tamamını bankadan ödemiştir. Bu ibraname hakkında hangisi doğrudur?",
+   "options": [
+    "Geçerlidir; yazılı olması, ödemenin tam ve bankadan yapılması yeterlidir.",
+    "İptal edilebilir; Burak bir ay içinde iptal bildirimi yapmazsa geçerli olur.",
+    "Geçerlidir; bir aylık süre yalnızca ibranamede gösterilmeyen alacaklar için aranır.",
+    "Kesin hükümsüzdür; çünkü sözleşmenin sona ermesinden başlayarak en az bir aylık süre geçmemiştir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 420/2'ye göre ibra sözleşmesinin geçerliliği için ibra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak en az bir aylık sürenin geçmiş olması şarttır. Diğer şartlar (yazılı, tür ve miktar, noksansız ve banka aracılığıyla ödeme) gerçekleşse bile bu şart eksikse ibra kesin hükümsüzdür; iptal edilebilirlik söz konusu değildir."
+  },
+  {
+   "stem_md": "X A.Ş., fabrikasının tamamını hukuki bir işlemle Y A.Ş.'ye devretmiştir. Fabrikada çalışan Zeynep'in rızası alınmamıştır. Hangisi doğrudur?",
+   "options": [
+    "Sözleşme yalnız Zeynep'in sözlü rızasıyla Y A.Ş.'ye geçebilir.",
+    "Devir geçersizdir; işçinin yazılı rızası alınmadıkça hizmet sözleşmesi Y A.Ş.'ye geçemez.",
+    "İşyeri devrinde devir tarihinde mevcut hizmet sözleşmeleri bütün hak ve borçlarıyla kanun gereği devralana geçer.",
+    "Zeynep'in sözleşmesi devirle kendiliğinden sona erer ve kıdem süresi sıfırlanır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 428/1'e göre işyerinin tamamı ya da bir bölümü hukuki işlemle başkasına devredildiğinde, devir tarihinde mevcut hizmet sözleşmeleri bütün hak ve borçlarıyla devralana geçer; işçinin hizmet süresine bağlı hakları bakımından devreden yanında işe başladığı tarih esas alınır (TBK m. 428/2). Yazılı rıza şartı, tek bir hizmet sözleşmesinin devrini düzenleyen TBK m. 429 içindir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Nermin, İlker Bey'in villasında bir yıldır tam zamanlı aşçı olarak çalışmaktadır. Yazılı sözleşmede aylık ücret 40.000 TL olarak belirlenmiş, ayrıca \"Nermin yemeği zamanında çıkarmazsa her gecikme için İlker Bey'e 5.000 TL ceza öder\" kaydı eklenmiştir. İlker Bey İlkbaharda 15 gün için yurt dışına gitmiş, villayı kapatmış ve Nermin'e \"bu süre gelme\" demiştir; Nermin çalışmaya hazır olduğunu söylemiş ve bu sürede başka işte çalışmamıştır. İlker Bey dönünce o ayki ücretten üç kalem kesmiştir: (a) tatil sürecindeki 15 günün ücretini, (b) Nermin'in dikkatsizlikle (kasıt olmaksızın) kırdığı 8.000 TL'lik porselen tabağın bedelini, (c) bir ay önce yemeğin geç çıkması nedeniyle ceza koşulundan doğduğunu ileri sürdüğü 5.000 TL'yi. Nermin bu kesintilere itiraz etmiştir.\n\n1. Nermin ile İlker Bey arasındaki sözleşmenin niteliği nedir ve hangi kanun uygulanır?\n2. Ceza koşulu geçerli midir?\n3. 15 günlük ücret kesintisi hukuka uygun mudur?\n4. 8.000 TL ve 5.000 TL kesintileri bakımından işverenin takas hakkı var mıdır?",
+   "rubric": [
+    {
+     "point": "Bağımlı ve ücretli iş görme nedeniyle hizmet sözleşmesi; ev hizmetinde İK m. 4 gereği TBK'nın uygulanması",
+     "weight": 20,
+     "madde_ref": "TBK m. 393"
+    },
+    {
+     "point": "Yalnız işçi aleyhine konulan ceza koşulunun geçersizliği",
+     "weight": 20,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "İşverenin kabulde temerrüdü ve ücretin ödenmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 408"
+    },
+    {
+     "point": "Takasın rıza veya kasten verilmiş, yargı kararıyla sabit zarar şartına bağlı olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 407"
+    },
+    {
+     "point": "İşçinin kusurlu zarardan sorumluluğunun ayrı dava konusu olması ve sonucun belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 400"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Nermin, İlker Bey'in talimatı ve düzeni altında, ücret karşılığı ve süreklilik arz eden biçimde iş görmektedir. Edim bir eser (sonuç) borcu değil bağımlı iş görmedir; dolayısıyla sözleşme hizmet sözleşmesidir (TBK m. 393/1). Aşçı ev işinde çalıştığı için ev hizmeti niteliğindedir; İK m. 4/1'de ev hizmetleri istisna edildiğinden İK uygulanmaz, TBK'nın hizmet sözleşmesi hükümleri doğrudan uygulanır.\n\n**Hukuki sorunlar:** (1) Tek taraflı ceza koşulunun geçerliliği. (2) Villa kapalıyken işçinin ücret hakkı. (3) İşverenin kendi iddia ettiği alacakları ücretten kesip kesemeyeceği.\n\n**İlgili hükümler:** TBK m. 393 ve İK m. 4 (nitelendirme ve kapsam); TBK m. 420/1 (ceza koşulu); TBK m. 408 (kabulde temerrüt); TBK m. 407/2 (takas); TBK m. 400 (işçinin sorumluluğu).\n\n**Değerlendirme:** Ceza koşulu yalnızca Nermin aleyhine, geç çıkan her yemek için işçinin işverene ödeyeceği biçimde düzenlenmiştir; işveren aleyhine karşılıklı bir yaptırım yoktur. TBK m. 420/1'e göre sadece işçi aleyhine konulan ceza koşulu geçersizdir; bu nedenle 5.000 TL talep edilemez.\n\nİlker Bey villayı kapatıp Nermin'in hazır olan edimini kabul etmemiştir. Bu durum işverenin kabulde temerrüdüdür. TBK m. 408 gereği işveren ücreti ödemekle yükümlüdür ve Nermin'den bu süreyi sonradan telafi etmesini isteyemez. Nermin'in tasarruf ettiği giderler (varsa) ücretten indirilebilir; ancak Nermin başka iş yapmadığından bu sürede kazandığı bir yarar yoktur. 15 günlük ücret kesintisi hukuka aykırıdır.\n\nTabağın bedeli bakımından Nermin dikkatsizlikle, yani kusurla zarar vermiştir; TBK m. 400'e göre işçi kusuruyla verdiği zarardan sorumlu olabilir, sorumluluğun belirlenmesinde işin tehlike derecesi, uzmanlık ve eğitim ihtiyacı ve işçinin bilinen nitelikleri gözetilir. Ancak ücretten takas için TBK m. 407/2 daha dar bir ölçüt koyar: işçinin rızası ya da kasten sebebiyet verdiği, yargı kararıyla sabit zarar. Burada rıza yoktur, zarar kasıtla verilmemiş ve yargı kararı da bulunmamaktadır. İlker Bey'in 8.000 TL'yi ücretten kesmesi hukuka aykırıdır; zararını dava yoluyla isteyebilir.\n\n**Sonuç:** Sözleşme İK m. 4 nedeniyle TBK'ya tabi bir hizmet sözleşmesidir. Ceza koşulu geçersizdir. 15 günlük ücret ödenmelidir. 8.000 TL ve 5.000 TL kesintileri hukuka aykırıdır; İlker Bey kesintileri iade etmelidir, tabak zararı için ayrıca dava açabilir."
+  },
+  {
+   "stem_md": "Burak, X A.Ş.'nin fabrikasında üç yıldır çalışmaktadır. 1 Haziran 2025'te X A.Ş. fabrikanın tamamını hukuki bir işlemle Y A.Ş.'ye devretmiştir; devir tarihinde Burak'ın ödenmemiş 30.000 TL fazla çalışma ücreti alacağı vardır. Burak'ın sözleşmesi 1 Mart 2026'da Y A.Ş. tarafından feshedilmiştir; kıdem ve ihbar tazminatı dahil toplam alacağı (30.000 TL fazla çalışma alacağı dahil) 140.000 TL'dir.\n\nİhtimal 1: Y A.Ş., 15 Mart 2026'da Burak'a iki belge imzalatmıştır: \"ibraname\" ve aynı tutarlı \"makbuz\". Belgelerde alacakların türü ve 100.000 TL miktarı yazılıdır; 100.000 TL Burak'ın banka hesabına yatırılmış, kalan 40.000 TL ödenmemiştir.\n\nİhtimal 2: Y A.Ş. 15 Mart'ta hiçbir belge imzalatmamış, ancak 10 Nisan 2026'da Burak'a alacağın türünü ve 140.000 TL miktarını açıkça yazan bir ibraname imzalatmış ve 140.000 TL'nin tamamını o gün Burak'ın banka hesabına yatırmıştır.\n\n1. Devirle Burak'ın sözleşmesi ne olur, 30.000 TL'lik alacaktan kimler sorumludur?\n2. İhtimal 1'de (15 Mart 2026) belgelerin hukuki durumu nedir?\n3. İhtimal 2'deki 10 Nisan 2026 tarihli ibraname geçerli midir?",
+   "rubric": [
+    {
+     "point": "İşyeri devrinde sözleşmenin kanun gereği devralana geçmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 428"
+    },
+    {
+     "point": "Devirden önce doğmuş borçlardan devreden ve devralanın müteselsil sorumluluğu, devredenin sorumluluğunun devir tarihinden itibaren iki yılla sınırlı olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 428"
+    },
+    {
+     "point": "İhtimal 1'de 15 Mart ibranamesinin bir aylık süre ve noksansız ödeme şartı nedeniyle kesin hükümsüzlüğü",
+     "weight": 25,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "Banka aracılığıyla ödenen 100.000 TL için belgelerin makbuz hükmünde olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "İhtimal 2'de 10 Nisan ibranamesinin dört şartı taşıması nedeniyle geçerliliği",
+     "weight": 20,
+     "madde_ref": "TBK m. 420"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, hizmet sözleşmesinin işyeri devri nedeniyle devralana geçmesini (TBK m. 428) ve işçinin ibra sözleşmesinin geçerliliğini (TBK m. 420) birlikte içerir. Fabrikanın tamamı hukuki işlemle devredildiği için sözleşmenin devri değil, işyerinin devri söz konusudur. Fabrika İK kapsamında olduğundan özel hüküm İK m. 6'dır; TBK m. 428 ile aynı sonucu verir. İK'da ibraya ilişkin hüküm bulunmadığından ibra bakımından genel kanun olan TBK m. 420 uygulanır.\n\n**Hukuki sorunlar:** (1) Devir sonrası sözleşme ve sorumluluk. (2) 15 Mart tarihli ibraname ve makbuzun hükmü. (3) 10 Nisan tarihli ibranamenin geçerliliği.\n\n**İlgili hükümler:** TBK m. 428/1-3 (işyeri devri); İK m. 6; TBK m. 420/2-3 (ibra ve makbuz hükmü).\n\n**Değerlendirme:** TBK m. 428/1'e göre devir tarihinde işyerinde mevcut hizmet sözleşmeleri bütün hak ve borçlarıyla devralana geçer. Burak'ın sözleşmesi Y A.Ş.'ye geçmiştir; işçinin hizmet süresine bağlı haklarında X A.Ş. yanında işe başladığı tarih esas alınır (TBK m. 428/2). Devirden önce doğmuş ve devir tarihinde ödenmesi gereken 30.000 TL fazla çalışma ücreti bakımından devreden X A.Ş. ve devralan Y A.Ş. müteselsilen sorumludur; X A.Ş.'nin sorumluluğu devir tarihinden itibaren iki yıl ile sınırlıdır (TBK m. 428/3).\n\nİhtimal 1'de 15 Mart ibranamesinde ibra tarihi, sözleşmenin sona erdiği 1 Mart'tan başlayarak bir aylık süreyi doldurmamıştır; ayrıca ödeme hak tutarına göre noksandır (140.000 TL'ye karşılık 100.000 TL). TBK m. 420/2 bu şartları birlikte aradığından ibraname kesin olarak hükümsüzdür; Burak bu belgeyle alacaklarından vazgeçmiş sayılmaz. Ancak TBK m. 420/3'e göre hakkın gerçek tutarda ödendiğini içermeyen ibra belgeleri, içerdikleri miktarla sınırlı olarak makbuz hükmündedir ve bu hâlde de ödemenin banka aracılığıyla yapılması şarttır. 100.000 TL bankadan ödendiğinden belgeler bu miktar için makbuz hükmündedir; Burak'ın kalan alacağı 40.000 TL olarak devam eder.\n\nİhtimal 2'deki 10 Nisan ibranamesi sözleşmenin sona ermesinden en az bir ay sonra yapılmış, yazılıdır, alacağın türünü ve miktarını açıkça belirtmekte, ödeme hak tutarına göre noksansız (140.000 TL) ve banka aracılığıyla yapılmıştır. TBK m. 420/2'nin dört şartı gerçekleştiği için ibraname geçerlidir.\n\n**Sonuç:** Sözleşme Y A.Ş.'ye geçmiştir; 30.000 TL'den X A.Ş. (devir tarihinden itibaren iki yıl) ve Y A.Ş. müteselsilen sorumludur. İhtimal 1'de 15 Mart tarihli ibraname kesin hükümsüzdür, belgeler yalnızca bankadan ödenen 100.000 TL için makbuz hükmündedir. İhtimal 2'deki 10 Nisan tarihli ibraname geçerlidir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Hizmet sözleşmesinin tanımı ve unsurları?",
+   "back_md": "İşçi bağımlı olarak iş görmeyi, işveren zamana veya yapılan işe göre ücret ödemeyi üstlenir (TBK m. 393/1). Unsurlar: iş görme, ücret, zaman, bağımlılık."
+  },
+  {
+   "front_md": "Hizmet sözleşmesi hangi şekle tabidir?",
+   "back_md": "Kanunda aksi yoksa şekil serbesttir (TBK m. 394/1)."
+  },
+  {
+   "front_md": "Geçersizliği sonradan anlaşılan hizmet sözleşmesinin sonucu?",
+   "back_md": "İlişki ortadan kaldırılıncaya kadar geçerli sözleşmenin bütün hüküm ve sonuçlarını doğurur (TBK m. 394/3)."
+  },
+  {
+   "front_md": "Sözleşme sürerken işçi rakip için çalışabilir mi?",
+   "back_md": "Hayır; ücret karşılığı üçüncü kişiye hizmette bulunamaz ve işvereniyle rekabete girişemez. Bu borç doğrudan kanundandır (TBK m. 396/3)."
+  },
+  {
+   "front_md": "Sır saklama borcu sözleşme bitince söner mi?",
+   "back_md": "Hayır; işverenin haklı menfaati gerektirdiği ölçüde sürer (TBK m. 396/4)."
+  },
+  {
+   "front_md": "Sözleşmede ücret yoksa ne ödenir?",
+   "back_md": "Asgari ücretten az olmamak üzere emsal ücret (TBK m. 401)."
+  },
+  {
+   "front_md": "Fazla çalışma ücreti ve alternatifi?",
+   "back_md": "Normal ücretin en az %50 fazlası; işçinin rızasıyla orantılı izin (TBK m. 402)."
+  },
+  {
+   "front_md": "Ücret ne zaman ödenir?",
+   "back_md": "Aksine âdet yoksa her ayın sonunda (TBK m. 406)."
+  },
+  {
+   "front_md": "İşveren ücreti hangi hâllerde takas edebilir?",
+   "back_md": "İşçinin rızası varsa; ya da kasten sebebiyet verdiği, yargı kararıyla sabit zarardan doğan alacak için haczedilebilir kısım kadar (TBK m. 407/2)."
+  },
+  {
+   "front_md": "İşverenin kabulde temerrüdünün ücret sonucu?",
+   "back_md": "Ücret ödenir, edim sonradan istenemez; tasarruf edilen giderler ve başka iş kazançları indirilir (TBK m. 408)."
+  },
+  {
+   "front_md": "Ücret üzerinde haciz, devir ve rehin sınırı?",
+   "back_md": "Dörtte birinden fazlası haczedilemez, devredilemez, rehnedilemez; gelecekteki ücretin devri ve rehni geçersizdir (TBK m. 410)."
+  },
+  {
+   "front_md": "İşveren işçinin kişiliğini korumak için neyi yapmalıdır?",
+   "back_md": "Saygı göstermeli, dürüst düzen sağlamalı, psikolojik ve cinsel tacizi önlemeli, İSG önlemlerini almalıdır (TBK m. 417/1-2). Zararlar sözleşmeye aykırılık hükümlerine tabidir (TBK m. 417/3)."
+  },
+  {
+   "front_md": "Hizmet sözleşmesinde ceza koşulu ne zaman geçersizdir?",
+   "back_md": "Yalnızca işçi aleyhine konulmuşsa (TBK m. 420/1)."
+  },
+  {
+   "front_md": "İbranın geçerlilik şartları?",
+   "back_md": "Yazılı; sözleşmenin sona ermesinden en az bir ay sonra; tür ve miktar belirli; ödeme noksansız ve banka aracılığıyla. Eksikse kesin hükümsüz (TBK m. 420/2)."
+  },
+  {
+   "front_md": "İşyeri devri ile sözleşme devri farkı?",
+   "back_md": "İşyeri devrinde sözleşmeler kanun gereği devralana geçer; devreden, devirden önce doğup devir tarihinde ödenmesi gereken borçlardan iki yıl müteselsil sorumludur (TBK m. 428). Sözleşme devri işçinin yazılı rızasıyla olur (TBK m. 429)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

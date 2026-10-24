@@ -1,0 +1,478 @@
+{
+ "course_id": "HUK3015",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Kamu İdaresinin Güvenilirliğine ve Adliyeye Karşı Suçlar",
+ "topic_index": 3,
+ "slug": "adliyeye-karsi-suclar",
+ "title": "Adliyeye Karşı Suçlar: İftira, Suç Uydurma, Yalan Tanıklık, Suçu Bildirmeme, Delilleri Yok Etme, Suçluyu Kayırma ve Aklama",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T16:55:39.139904+00:00",
+ "skill_refs": [
+  "ceza-hukuku-ozel/kamu-idaresine-karsi-suclar"
+ ],
+ "content": {
+  "summary_md": "Adliyeye karşı suçlar, yargı faaliyetinin doğru bilgiyle ve engellenmeden işlemesini korur. Konu üç eksende sınavlanır: asılsız isnat suçları, gerçeğe aykırı beyan suçları ve gerçeğin karartılması.\n\n- **İftira (TCK m. 267/1):** İşlemediğini bildiği hâlde, yetkili makamlara ihbar veya şikâyet ya da basın ve yayın yoluyla, soruşturma ve kovuşturma başlatılması veya idari yaptırım uygulanması için **belli bir kişiye** hukuka aykırı fiil isnadı; 1-4 yıl hapis. Maddi eser ve delil uydurulursa yarı oranında artırım (TCK m. 267/2). Kimlik kullanma (TCK m. 268) iftira hükümlerine bağlanır. Etkin pişmanlıkta indirim kademelidir (TCK m. 269).\n- **Suç üstlenme (TCK m. 270):** Gerçeğe aykırı olarak suçu işlediğini veya suça katıldığını bildirme; iki yıla kadar hapis. Üstsoy, altsoy, eş veya kardeşi kurtarmak amacıyla işlenirse ceza dörtte üçü indirilebilir veya tamamen kaldırılabilir. Gerçek faili kurtarmak için yapılan üstlenmede Ceza Genel Kurulu çoğunluğu suçluyu kayırmayla fikri içtima kabul eder (TCK m. 44, TCK m. 283/1).\n- **Suç uydurma (TCK m. 271):** İşlenmeyen bir suçu işlenmiş gibi ihbar etme veya delil uydurma; **belli kişiye isnat yok**; üç yıla kadar hapis.\n- **Yalan tanıklık (TCK m. 272):** Soruşturma aşamasında 4 ay-1 yıl; mahkeme önünde veya yeminle 1-3 yıl; üç yıldan fazla hapis gerektiren suçta 2-4 yıl. Akraba ve kendini koruma hâllerinde indirim veya cezadan vazgeçme (TCK m. 273); gerçeği söyleyince etkin pişmanlık (TCK m. 274).\n- **Suçu bildirmeme (TCK m. 278):** İşlenmekte olan veya sonuçları sınırlandırılabilir suçu bildirmeme; bir yıla kadar hapis. Tanıklıktan çekinebilecek kişilere ceza verilmez. Kamu görevlisi (TCK m. 279) ve sağlık mesleği mensubu (TCK m. 280) için özel hükümler vardır.\n- **Delilleri yok etme (TCK m. 281):** 6 ay-5 yıl hapis; kendi suçunun delillerine ilişkin ceza verilmez; hükümden önce delilleri teslimde beşte dört indirim.\n- **Aklama (TCK m. 282):** Alt sınırı altı ay veya daha fazla hapis gerektiren suçtan gelen değeri gizleyen kişi 3-7 yıl hapis ve yirmibin güne kadar adli para cezası alır; bilerek satın alan, kabul eden, bulunduran veya kullanan 2-5 yıl hapis.\n- **Suçluyu kayırma (TCK m. 283):** Suçlunun araştırmadan, yakalanmadan, tutuklanmadan veya infazdan kurtulmasını sağlama; 6 ay-5 yıl. Üstsoy, altsoy, eş, kardeş veya diğer suç ortağı cezalandırılmaz.\n- ⚠️ En sık tuzak: akrabalık cezasızlığı **suçluyu kayırmada** (TCK m. 283/3) vardır, **delilleri yok etmede** (TCK m. 281) yoktur.\n- 📌 TCK m. 267-283 hükümlerinde 2021 sonrası değişiklik yoktur; AYM iptalleri TCK m. 267/5, TCK m. 267/7, TCK m. 272/6 ve TCK m. 278 bakımından eski dönemden gelir (TCK m. 278 iptalden sonra 2012'de yeniden düzenlenmiştir).",
+  "content_md": "## 1. Bölümün mantığı\n\nAdliyeye karşı suçlar, yargı organlarının gerçeğe ulaşmasını ve masum kişilerin haksız yere soruşturma görmemesini korur. Konuyu üç gruba ayırırsan düzenli kalır:\n\n1. **Asılsız isnat suçları:** iftira (TCK m. 267), kimlik kullanma (TCK m. 268), suç üstlenme (TCK m. 270), suç uydurma (TCK m. 271).\n2. **Gerçeğe aykırı beyan ve bildirmeme:** yalan tanıklık (TCK m. 272-274), suçu bildirmeme (TCK m. 278-280).\n3. **Gerçeğin karartılması:** delilleri yok etme (TCK m. 281), aklama (TCK m. 282), suçluyu kayırma (TCK m. 283).\n\n## 2. İftira (TCK m. 267)\n\n**İftira**, işlemediğini bildiği hâlde, soruşturma ve kovuşturma başlatılması veya idari yaptırım uygulanması için bir kimseye hukuka aykırı fiil isnat etmektir. Yetkili makamlara ihbar veya şikâyet yoluyla ya da basın ve yayın yoluyla işlenebilir. Ceza 1-4 yıl hapistir (TCK m. 267/1).\n\nUnsurlar şunlardır:\n\n- **Belli bir kişi** hedef alınır. Kişi belli değilse suç uydurma gündeme gelir.\n- Fiil **hukuka aykırı** olmalı; suç ya da idari yaptırım gerektiren bir fiil olabilir.\n- Fail, isnat ettiği fiili kişinin **işlemediğini bildiği** hâlde isnat eder. \"Bildiği halde\" ifadesi nedeniyle suç doğrudan kastla işlenir.\n- Amaç, mağdur hakkında soruşturma, kovuşturma veya idari yaptırım başlatılmasıdır.\n\n**Ağırlaştırıcı hâller:**\n\n- Fiilin maddi eser ve delillerini **uydurarak** iftira edilirse ceza yarı oranında artırılır (TCK m. 267/2).\n- Mağdur hakkında, yüklenen fiili işlemediği için beraat veya kovuşturmaya yer olmadığı kararı verilmişse ve aleyhine bu fiil nedeniyle gözaltı ve tutuklama dışında bir koruma tedbiri uygulanmışsa, ceza yarı oranında artırılır (TCK m. 267/3).\n- Aynı şartlarda mağdur gözaltına alınmış veya tutuklanmışsa iftira eden, ayrıca kişiyi hürriyetinden yoksun kılma suçuna ilişkin hükümlere göre **dolaylı fail** olarak sorumlu tutulur (TCK m. 267/4).\n- Mağdur ağırlaştırılmış müebbet veya müebbet hapis cezasına mahkûm olursa 20-30 yıl hapis verilir (TCK m. 267/5); cezanın infazına başlanmışsa bu ceza yarı oranında artırılır (TCK m. 267/6).\n\nDava zamanaşımı, mağdurun fiili işlemediğinin sabit olduğu tarihten başlar (TCK m. 267/8). Basın ve yayın yoluyla işlenen iftirada mahkûmiyet kararı aynı veya eşdeğer organda ilan edilir (TCK m. 267/9).\n\n> **Örnek:** Emre, komşusu Cem'e kızdığı için Cem'in hırsızlık yaptığını bile bile savcılığa bildirir. Emre, Cem'in bahçesine çalıntı eşya koyarak delil de uydurmuştur. Emre'nin cezası TCK m. 267/1'e göre belirlenir ve delil uydurma nedeniyle TCK m. 267/2 uyarınca yarı oranında artırılır.\n\n**Kimlik kullanma (TCK m. 268):** Kendisi hakkında soruşturma ve kovuşturmayı engellemek için başkasına ait kimliği veya kimlik bilgilerini kullanan kişi, iftira hükümlerine göre cezalandırılır.\n\n**Etkin pişmanlık (TCK m. 269):** İftiradan dönmenin zamanı indirim oranını belirler:\n\n| Dönüş zamanı | İndirim |\n|---|---|\n| Soruşturma başlamadan önce | Beşte dördü |\n| Kovuşturma başlamadan önce | Dörtte üçü |\n| Hükümden önce | Üçte ikisi (takdir) |\n| Mahkûmiyetten sonra | Yarısı (takdir) |\n| İnfaza başlandıktan sonra | Üçte biri (takdir) |\n\nİlk iki hâlde indirim zorunludur (\"indirilir\"); TCK m. 269/3'teki hâllerde ise \"indirilebilir\", yani hâkimin takdirindedir. Basın yoluyla yapılan iftirada dönmenin aynı yöntemle yayımlanması gerekir (TCK m. 269/5).\n\n## 3. Suç üstlenme (TCK m. 270) ve suç uydurma (TCK m. 271)\n\nBu iki suçu ve iftirayı **kime isnat edildiğine** bakarak ayırırsın:\n\n| Suç | Kimi gösterir? | Ceza |\n|---|---|---|\n| İftira (TCK m. 267) | Başkasını | 1-4 yıl hapis |\n| Suç üstlenme (TCK m. 270) | Kendisini | İki yıla kadar hapis |\n| Suç uydurma (TCK m. 271) | Kimseyi | Üç yıla kadar hapis |\n\n**Suç üstlenme (TCK m. 270):** Yetkili makamlara gerçeğe aykırı olarak suçu işlediğini veya suça katıldığını bildiren kişiye iki yıla kadar hapis verilir. Bu suçun üstsoy, altsoy, eş veya kardeşi cezadan kurtarmak amacıyla işlenmesi hâlinde ceza dörtte üçü indirilebileceği gibi tamamen de kaldırılabilir. Dikkat: arkadaş, amca veya nişanlıyı kurtarmak bu özel hükmü doğurmaz.\n\n> ⚠️ **Sınavda dikkat:** Başkasının işlediği suçu, o kişiyi kurtarmak için üstlenen kişi gerçek faile soruşturmadan kurtulma imkânı da sağlar. Yargıtay Ceza Genel Kurulu çoğunluk görüşüyle bu durumda hem suç üstlenmenin hem suçluyu kayırmanın oluştuğunu kabul eder ve fikri içtima kuralı (TCK m. 44) gereği daha ağır cezalı suçluyu kayırmadan (TCK m. 283/1) cezalandırır. Karşı görüş TCK m. 270'i özel norm sayar. Kurtarılan kişi üstsoy, altsoy, eş veya kardeşse TCK m. 270/1'in ikinci cümlesi ile TCK m. 283/3'ün ilişkisi tartışmalıdır (bkz. doktrin).\n\n**Suç uydurma (TCK m. 271):** İşlenmediğini bildiği bir suçu yetkili makamlara işlenmiş gibi ihbar eden veya işlenmeyen bir suçun delil ya da emarelerini soruşturma yapılmasını sağlayacak biçimde uyduran kişiye üç yıla kadar hapis verilir.\n\n> **Örnek:** Ahmet, bahçesinden pahalı bir heykel çalındığını karakola bildirir. Heykel hiç var olmamıştır ve Ahmet kimseyi suçlamamıştır. Bu TCK m. 271'deki suç uydurmadır. Ahmet \"komşum Hasan çaldı\" deseydi iftira olurdu.\n\n## 4. Yalan tanıklık (TCK m. 272-274)\n\n**Yalan tanıklık**, tanık dinlemeye yetkili kişi veya kurul önünde gerçeğe aykırı tanıklık yapmaktır. Cezalar, beyanın yapıldığı yere ve yargılanan suça göre kademelidir:\n\n| Durum | Ceza |\n|---|---|\n| Soruşturma kapsamında yetkili kişi önünde (TCK m. 272/1) | 4 ay-1 yıl |\n| Mahkeme huzurunda veya yeminle (TCK m. 272/2) | 1-3 yıl |\n| Üç yıldan fazla hapis gerektiren suçun soruşturma veya kovuşturmasında (TCK m. 272/3) | 2-4 yıl |\n| Aleyhine tanıklık edilene hapis dışında adli veya idari yaptırım uygulandıysa (TCK m. 272/8) | 3-7 yıl |\n\nAleyhine tanıklıkta bulunulan kişiye gözaltı ve tutuklama dışında koruma tedbiri uygulanmış ve sonra yüklenen fiili işlemediği için beraat veya kovuşturmaya yer olmadığına karar verilmişse ceza yarı artar (TCK m. 272/4). Gözaltı veya tutuklama hâlinde yalan tanık dolaylı fail olarak da sorumlu tutulur (TCK m. 272/5).\n\n**Cezasızlık veya indirim (TCK m. 273):** Tanığın kendisinin, üstsoyunun, altsoyunun, eşinin veya kardeşinin soruşturma ve kovuşturmaya uğramasına neden olabilecek bir hususla ilgili yalan söylemesi ya da tanıklıktan çekinme hakkı olduğu hâlde bu hak hatırlatılmadan yalan söylemesi hâlinde ceza indirilebilir, hatta ceza vermekten vazgeçilebilir. **Özel hukuk uyuşmazlıklarında** bu hüküm uygulanmaz (TCK m. 273/2).\n\n**Etkin pişmanlık (TCK m. 274):** Aleyhine tanıklık yapılan kişi hakkında hak kısıtlamasını sonuçlayacak karar verilmeden veya hükümden önce gerçeği söyleyen tanığa **ceza verilmez**. Karar verildikten sonra ve hükümden önce söylenirse cezanın üçte ikisinden yarısına kadarı, mahkûmiyet kesinleşmeden önce söylenirse yarısından üçte birine kadarı indirilebilir.\n\n> **Örnek:** Ayşe, kasten öldürme davasında mahkemede sanığın aleyhine yalan tanıklık yapar. Yargılanan suç üç yıldan fazla hapis gerektirdiğinden Ayşe'ye TCK m. 272/3 uyarınca 2-4 yıl hapis verilir. Ayşe hükümden önce gerçeği söylerse TCK m. 274 devreye girer.\n\n## 5. Suçu bildirmeme (TCK m. 278-280)\n\nGenel hüküm **TCK m. 278**'dir. Şu iki durumda yetkili makamlara bildirim yükümlülüğü vardır ve ihlalinde bir yıla kadar hapis verilir:\n\n- **İşlenmekte olan** bir suç (TCK m. 278/1).\n- İşlenmiş olmakla birlikte **sebebiyet verdiği neticelerin sınırlandırılması halen mümkün bulunan** suç (TCK m. 278/2).\n\nMağdurun onbeş yaşını bitirmemiş çocuk, engelli veya hamileliği nedeniyle kendini savunamayan kişi olması hâlinde ceza yarı oranında artırılır (TCK m. 278/3). **Tanıklıktan çekinebilecek kişiler** bakımından cezaya hükmolunmaz; ancak suçu önleme yükümlülüğünden doğan sorumluluk saklıdır (TCK m. 278/4).\n\nYani bitmiş ve sonuçları artık sınırlandırılamayacak bir suçu bilip bildirmeyen kişi TCK m. 278'e göre cezalandırılmaz. Bu madde, Anayasa Mahkemesinin 2011 tarihli iptal kararından sonra bugünkü biçimiyle yeniden düzenlenmiştir.\n\n**Özel hükümler:**\n\n- **Kamu görevlisi (TCK m. 279):** Kamu adına soruşturma ve kovuşturmayı gerektiren bir suçun işlendiğini göreviyle bağlantılı olarak öğrenip bildirimi ihmal eden veya geciktiren görevli 6 ay-2 yıl hapis alır.\n- **Sağlık mesleği mensubu (TCK m. 280):** Görevini yaparken suç belirtisiyle karşılaşıp bildirmeyen veya geciktiren tabip, diş tabibi, eczacı, ebe, hemşire ve diğer sağlık hizmeti verenler bir yıla kadar hapis alır.\n\n## 6. Suç delillerini yok etme (TCK m. 281)\n\nGerçeğin meydana çıkmasını engellemek amacıyla bir suçun delillerini yok eden, silen, gizleyen, değiştiren veya bozan kişi 6 ay-5 yıl hapisle cezalandırılır. **Kendi işlediği veya işlenişine iştirak ettiği suçla ilgili olarak** kişiye ceza verilmez (TCK m. 281/1). Kamu görevlisi göreviyle bağlantılı olarak işlerse ceza yarı artar (TCK m. 281/2). İlişkin olduğu suç nedeniyle **hüküm verilmeden önce** gizlenen delilleri mahkemeye teslim eden kişinin cezasının beşte dördü indirilir (TCK m. 281/3).\n\nÖzel dikkat: bu maddede **yakın akrabalık nedeniyle cezasızlık yoktur.** Cezasızlık yalnızca kendi suçunun delilleri bakımındandır.\n\n## 7. Suçluyu kayırma (TCK m. 283)\n\nSuç işleyen bir kişiye araştırma, yakalanma, tutuklanma veya hükmün infazından kurtulması için **imkân sağlayan** kimse 6 ay-5 yıl hapis alır. Kamu görevlisi göreviyle bağlantılı olarak işlerse ceza yarı artar (TCK m. 283/2). Bu suçun üstsoy, altsoy, eş, kardeş veya diğer suç ortağı tarafından işlenmesi hâlinde **cezaya hükmolunmaz** (TCK m. 283/3).\n\n> ⚠️ **Sınavda dikkat:** Katil oğlunu evinde saklayan babaya TCK m. 283/3 gereği ceza verilmez. Aynı babanın, oğlunun kanlı gömleğini nehre atması ise TCK m. 281/1'e göre cezalandırılır; çünkü TCK m. 281'de akrabalık nedeniyle cezasızlık düzenlenmemiştir.\n\n**İştirakle sınır:** Yardım etme, suçun işlenmesinden önce veya işlenmesi sırasında yapılır. Fiilin işlenmesinden sonra yardımda bulunacağını **vaat etmek** de yardım sayılır (TCK m. 39/2-a). Suç işlendikten sonra, önceden bir vaat olmaksızın faile yardım edenler asıl suça iştirak etmiş olmaz; eylem durumuna göre TCK m. 281 veya TCK m. 283'e girer.\n\n## 8. Suçtan kaynaklanan malvarlığı değerlerini aklama (TCK m. 282)\n\nAlt sınırı **altı ay veya daha fazla hapis** cezasını gerektiren bir suçtan kaynaklanan malvarlığı değerlerini yurt dışına çıkaran veya bunların gayrimeşru kaynağını gizlemek ya da meşru yolla elde edildiği kanaatini uyandırmak için çeşitli işlemlere tâbi tutan kişi 3-7 yıl hapis ve yirmibin güne kadar adli para cezası alır (TCK m. 282/1). Suça iştirak etmeksizin, konu malvarlığını bu özelliğini bilerek satın alan, kabul eden, bulunduran veya kullanan kişi 2-5 yıl hapis alır (TCK m. 282/2).\n\nKamu görevlisi veya belli bir meslek sahibi kişi tarafından meslek icrası sırasında işlenirse ceza yarı oranında; suç örgütünün faaliyeti çerçevesinde işlenirse bir kat artırılır (TCK m. 282/3-4). Kovuşturma başlamadan önce değerlerin ele geçirilmesini sağlayan veya yerini bildirerek ele geçirilmesini kolaylaştıran kişiye ceza verilmez (TCK m. 282/6).\n\n## 9. Denetim şeması\n\n1. Hedef alınan belli bir kişi var mı? Evet ve kişi masumsa: iftira. Hayır: suç uydurma.\n2. Fail kendisini mi gösteriyor? Evet: suç üstlenme (TCK m. 270). Gerçek faili kurtarma amacı varsa suçluyu kayırmayla içtimaı da tartış (TCK m. 283).\n3. Beyan tanık sıfatıyla mı verildi? Önce yeri ve yargılanan suçun ağırlığına bak (TCK m. 272).\n4. Bildirmeme varsa suçun durumu: işleniyor mu, sonuçları sınırlandırılabilir mi?\n5. Delil yok etme mi, kayırma mı? Akrabalık cezasızlığı yalnız kayırmada vardır.\n6. İştirak vaadi önceden var mı? Varsa yardım etme (TCK m. 39/2-a), yoksa ayrı suç.\n7. Etkin pişmanlık ve cezasızlık sebeplerini (TCK m. 269, TCK m. 273, TCK m. 274, TCK m. 281/3, TCK m. 282/6) ayrı ayrı kontrol et.",
+  "critical_md": "- 📌 İftira (TCK m. 267/1): 1-4 yıl hapis; belli kişiye isnat, işlemediğini bilme (doğrudan kast), soruşturma veya idari yaptırım amacı şarttır.\n- 📌 Maddi eser ve delil uydurarak iftira: ceza yarı oranında artırılır (TCK m. 267/2). Gözaltı veya tutuklama sonrası beraat veya KYOK: dolaylı fail olarak kişiyi hürriyetinden yoksun kılma hükümleri (TCK m. 267/4).\n- 📌 İftira, suç üstlenme ve suç uydurma ayrımı: başkasını gösterirse iftira, kendisini gösterirse suç üstlenme, kimseyi göstermezse suç uydurma.\n- ⚠️ Suç üstlenmede yalnız üstsoy, altsoy, eş ve kardeş için indirim (dörtte üç) veya tam kaldırma takdiri vardır (TCK m. 270); nişanlı, amca, arkadaş bu kapsamda değildir.\n- ⚠️ Gerçek faili kurtarmak için suç üstlenen kişi hakkında Ceza Genel Kurulu çoğunluğu, suç üstlenme ile suçluyu kayırmanın fikri içtimaını kabul eder ve daha ağır olan TCK m. 283/1'i uygular (TCK m. 44).\n- 📌 İftirada etkin pişmanlık oranları: soruşturma öncesi beşte dört, kovuşturma öncesi dörtte üç (zorunlu indirim); sonraki hâllerde üçte iki, yarı, üçte bir oranında indirilebilir (takdir) (TCK m. 269).\n- 📌 Yalan tanıklık: 4 ay-1 yıl, 1-3 yıl, 2-4 yıl; kademe beyanın yerine ve yargılanan suça göre (TCK m. 272/1-3).\n- ⚠️ TCK m. 273'teki akrabalık ve kendini koruma indirimi özel hukuk uyuşmazlıklarında uygulanmaz (TCK m. 273/2).\n- 📌 TCK m. 274: karar verilmeden veya hükümden önce gerçeği söyleyen tanığa ceza verilmez.\n- 📌 Suçu bildirmeme (TCK m. 278): yalnız işlenmekte olan veya sonuçları sınırlandırılabilir suçta; bir yıla kadar hapis, mağdur onbeş yaşını bitirmemiş çocuk, engelli veya hamileliği nedeniyle kendini savunamayacak kişiyse ceza yarı oranında artırılır (TCK m. 278/3). Tanıklıktan çekinebilecek kişilere ceza yok.\n- ⚠️ Suçluyu kayırmada (TCK m. 283/3) üstsoy, altsoy, eş, kardeş ve suç ortağına ceza verilmez; delilleri yok etmede (TCK m. 281) akrabalık cezasızlığı yoktur, sadece kendi suçu için ceza verilmez.\n- 📌 TCK m. 281/3: hüküm verilmeden önce gizlenen delilleri mahkemeye teslim edene cezanın beşte dördü indirilir.\n- 📌 Aklama (TCK m. 282): konu suçun alt sınırı en az altı ay hapis olmalıdır; asıl fail 3-7 yıl, bilerek satın alan veya kullanan 2-5 yıl hapis alır.",
+  "doctrine_md": "### İftira, suç üstlenme ve suç uydurma sınırı\n\nKimin gösterildiği bu üç suçu ayırır. Yargıtay Ceza Genel Kurulu, failin kendisini şüpheli olarak bildirdiği ve üstlendiği suçun gerçekte hiç işlenmemiş bir fiile ilişkin de olabileceği hâlde suç üstlenmenin, belli bir kişinin fail olarak gösterilmediği hâlde ise suç uydurmanın söz konusu olduğunu belirtmektedir. Aynı beyanda hem kendini suçlayıp hem başkasını azmettirmekle suçlayan kişi için tek ifadenin hukuki anlamda tek fiil sayılıp farklı neviden fikri içtima (TCK m. 44) uygulanması gerekir.\n\n### Yardım etme ile kayırma ve delil yok etme sınırı\n\nSuç işlendikten sonra faile yardım edenin asıl suça iştirak etmiş sayılıp sayılmayacağı, yardım iradesinin ne zaman ortaya çıktığına bağlıdır. Suçtan önce veya suç sırasında yardımda bulunulması ya da fiilden sonra yardımda bulunulacağının suçtan önce vaat edilmesi TCK m. 39/2-a ve c kapsamında yardım etmeyi doğurur. Buna karşılık böyle bir ön irade olmaksızın suç tamamlandıktan sonra delilleri gizleyen kişi TCK m. 281'e, faili kaçıran kişi TCK m. 283'e tabidir.\n\n### Suç üstlenme ile suçluyu kayırma ilişkisi\n\nBaşkasının işlediği suçu, onu kurtarmak için üstlenen kişinin hangi hükümden sorumlu olacağı tartışmalıdır. Yargıtay Ceza Genel Kurulunun çoğunluk görüşüne göre suç üstlenmenin her hâlinde suçluyu kayırma oluşmadığından iki suç arasında özel norm-genel norm ilişkisi yoktur; kayırma suç üstlenme yoluyla işlendiğinde iki suç birlikte oluşur ve fikri içtima (TCK m. 44) gereği daha ağır cezalı TCK m. 283/1 uygulanır. Karşı görüş (Kurul'daki karşı oylar ve öğretinin bir kısmı) TCK m. 270'in, kayırmanın özel olarak düzenlenmiş bir şekli olduğunu, aksi kabulün TCK m. 270'i fiilen uygulanamaz hâle getireceğini savunur. Kurtarılan kişi üstsoy, altsoy, eş veya kardeş olduğunda, çoğunluk görüşünde TCK m. 283/3'teki cezasızlığın TCK m. 270/1'in ikinci cümlesindeki takdirî indirim veya kaldırma ile nasıl birleşeceği de açık değildir.\n\n### Kendi suçunun delilleri için azmettirme\n\nAsıl failin, suça katılmamış üçüncü kişiyi kendi suçunun delillerini yok etmeye veya kendisini kaçırmaya azmettirmesi hâlinde, failin de cezasızlıktan yararlanıp yararlanmayacağı tartışmalıdır. Bir görüş, kendini koruma güdüsünün azmettirmeyi de kapsadığını ve failin cezalandırılmaması gerektiğini savunur. Karşı görüş ise üçüncü bir kişiyi suça sürüklemenin kişisel cezasızlık sınırını aştığını ileri sürer. Sınavda iki görüşü gerekçeleriyle birlikte yazmak yeterlidir.",
+  "glossary": [
+   {
+    "term": "İftira",
+    "definition": "Bir kişiye, işlemediğini bile bile hukuka aykırı fiil isnat ederek hakkında soruşturma, kovuşturma veya idari yaptırım başlatılmasını sağlamaya çalışma (TCK m. 267)."
+   },
+   {
+    "term": "Suç üstlenme",
+    "definition": "Gerçeğe aykırı olarak suçu işlediğini veya suça katıldığını yetkili makamlara bildirme (TCK m. 270)."
+   },
+   {
+    "term": "Suç uydurma",
+    "definition": "İşlenmeyen bir suçu işlenmiş gibi ihbar etme veya delillerini uydurma; belli bir kişiye isnat yoktur (TCK m. 271)."
+   },
+   {
+    "term": "Dolaylı fail",
+    "definition": "Başkasını araç olarak kullanarak suç işleyen; iftirada mağdurun gözaltına alınması veya tutuklanması hâlinde kişiyi hürriyetinden yoksun kılma bakımından iftira eden (TCK m. 267/4)."
+   },
+   {
+    "term": "Yalan tanıklık",
+    "definition": "Yetkili makam veya mahkeme önünde gerçeğe aykırı tanıklık yapma (TCK m. 272)."
+   },
+   {
+    "term": "Tanıklıktan çekinme hakkı",
+    "definition": "Yakın akrabalık gibi nedenlerle kişinin tanıklık yapmama imkânı; suçu bildirmemede ceza verilmemesinin dayanağıdır (TCK m. 278/4)."
+   },
+   {
+    "term": "Suçluyu kayırma",
+    "definition": "Suç işleyen kişiye araştırma, yakalanma, tutuklanma veya infazdan kurtulması için imkân sağlama (TCK m. 283)."
+   },
+   {
+    "term": "Delillerin yok edilmesi",
+    "definition": "Gerçeğin ortaya çıkmasını engellemek amacıyla suç delillerini yok etme, silme, gizleme, değiştirme veya bozma (TCK m. 281)."
+   },
+   {
+    "term": "Aklama",
+    "definition": "Suç gelirinin gayrimeşru kaynağını gizlemek veya meşru görünmesini sağlamak için çeşitli işlemlere tâbi tutma ya da yurt dışına çıkarma (TCK m. 282)."
+   },
+   {
+    "term": "Farklı neviden fikri içtima",
+    "definition": "Tek fiille birden fazla farklı suçun oluşması hâlinde en ağır cezayı gerektiren suçtan cezalandırma (TCK m. 44)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "39",
+   "official_text": "Yardım etme\nMadde 39- (1) Suçun işlenmesine yardım eden kişiye, işlenen suçun ağırlaştırılmış müebbet hapis cezasını gerektirmesi halinde, onbeş yıldan yirmi yıla; müebbet hapis cezasını gerektirmesi halinde, on yıldan onbeş yıla kadar hapis cezası verilir. Diğer hallerde cezanın yarısı indirilir. Ancak, bu durumda verilecek ceza sekiz yılı geçemez.\n(2) Aşağıdaki hallerde kişi işlenen suçtan dolayı yardım eden sıfatıyla sorumlu olur:\na) Suç işlemeye teşvik etmek veya suç işleme kararını kuvvetlendirmek veya fiilin işlenmesinden sonra yardımda bulunacağını vaat etmek.\nb) Suçun nasıl işleneceği hususunda yol göstermek veya fiilin işlenmesinde kullanılan araçları sağlamak.\nc) Suçun işlenmesinden önce veya işlenmesi sırasında yardımda bulunarak icrasını kolaylaştırmak.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "43",
+   "official_text": "Zincirleme suç\nMadde 43- (1) Bir suç işleme kararının icrası kapsamında, değişik zamanlarda bir kişiye karşı aynı suçun birden fazla işlenmesi durumunda, bir cezaya hükmedilir. Ancak bu ceza, dörtte birinden dörtte üçüne kadar artırılır. Bir suçun temel şekli ile daha ağır veya daha az cezayı gerektiren nitelikli şekilleri, aynı suç sayılır. (Ek cümle: 29/6/2005 – 5377/6 md.) Mağduru belli bir kişi olmayan suçlarda da bu fıkra hükmü uygulanır.\n(2) Aynı suçun birden fazla kişiye karşı tek bir fiille işlenmesi durumunda da, birinci fıkra hükmü uygulanır.\n(3) Kasten öldürme, kasten yaralama, işkence ve yağma suçlarında bu madde hükümleri uygulanmaz.[7]\n[7] 29/6/2005 tarihli ve 5377 sayılı Kanunun 6 ncı maddesiyle bu fıkrada geçen \"cinsel saldırı, çocukların cinsel istismarı\" ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "44",
+   "official_text": "Fikri içtima\nMadde 44- (1) İşlediği bir fiil ile birden fazla farklı suçun oluşmasına sebebiyet veren kişi, bunlardan en ağır cezayı gerektiren suçtan dolayı cezalandırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "267",
+   "official_text": "İftira\nMadde 267- (1) Yetkili makamlara ihbar veya şikayette bulunarak ya da basın ve yayın yoluyla, işlemediğini bildiği halde, hakkında soruşturma ve kovuşturma başlatılmasını ya da idari bir yaptırım uygulanmasını sağlamak için bir kimseye hukuka aykırı bir fiil isnat eden kişi, bir yıldan dört yıla kadar hapis cezası ile cezalandırılır.\n(2) Fiilin maddî eser ve delillerini uydurarak iftirada bulunulması halinde, ceza yarı oranında artırılır.\n(3) Yüklenen fiili işlemediğinden dolayı hakkında beraat kararı veya kovuşturmaya yer olmadığına dair karar verilmiş mağdurun aleyhine olarak bu fiil nedeniyle gözaltına alma ve tutuklama dışında başka bir koruma tedbiri uygulanmışsa, yukarıdaki fıkralara göre verilecek ceza yarı oranında artırılır.\n(4) Yüklenen fiili işlemediğinden dolayı hakkında beraat kararı veya kovuşturmaya yer olmadığına dair karar verilmiş olan mağdurun bu fiil nedeniyle gözaltına alınması veya tutuklanması halinde; iftira eden, ayrıca kişiyi hürriyetinden yoksun kılma suçuna ilişkin hükümlere göre dolaylı fail olarak sorumlu tutulur.\n(5) Mağdurun ağırlaştırılmış müebbet hapis veya müebbet hapis cezasına mahkûmiyeti halinde, yirmi yıldan otuz yıla kadar hapis cezasına; (…)[106] hükmolunur.\n(6) Mağdurun mahkûm olduğu hapis cezasının infazına başlanmış ise, beşinci fıkraya göre verilecek ceza yarısı kadar artırılır.\n(7) (İptal: Anayasa Mahkemesi’nin 17/11/2011 tarihli ve E.: 2010/115, K.: 2011/154 sayılı Kararı ile.)\n(8) İftira suçundan dolayı dava zamanaşımı, mağdurun fiili işlemediğinin sabit olduğu tarihten başlar.\n(9) Basın ve yayın yoluyla işlenen iftira suçundan dolayı verilen mahkûmiyet kararı, aynı veya eşdeğerde basın ve yayın organıyla ilan olunur. İlan masrafı, hükümlüden tahsil edilir.\n[106] Anayasa Mahkemesi’nin 10/4/2013 tarihli ve E.: 2013/14, K.: 2013/56 sayılı Kararı ile bu fıkranın “…süreli hapis cezasına mahkûmiyeti halinde, mahkûm olunan cezanın üçte ikisi kadar hapis cezasına…” ibaresi iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "268",
+   "official_text": "Başkasına ait kimlik veya kimlik bilgilerinin kullanılması\nMadde 268- (1) İşlediği suç nedeniyle kendisi hakkında soruşturma ve kovuşturma yapılmasını engellemek amacıyla, başkasına ait kimliği veya kimlik bilgilerini kullanan kimse, iftira suçuna ilişkin hükümlere göre cezalandırılır.[107]\n[107] 29/6/2005 tarihli ve 5377 sayılı Kanunun 30 uncu maddesiyle bu fıkrada geçen \"bu kişiye\" ibaresi \"başkasına\" olarak değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "269",
+   "official_text": "Etkin pişmanlık\nMadde 269- (1) İftira edenin, mağdur hakkında adlî veya idari soruşturma başlamadan önce, iftirasından dönmesi halinde, hakkında iftira suçundan dolayı verilecek cezanın beşte dördü indirilir.\n(2) Mağdur hakkında kovuşturma başlamadan önce iftiradan dönme halinde, iftira suçundan dolayı verilecek cezanın dörtte üçü indirilir.\n(3) Etkin pişmanlığın;\na) Mağdur hakkında hükümden önce gerçekleşmesi halinde, verilecek cezanın üçte ikisi,\nb) Mağdurun mahkûmiyetinden sonra gerçekleşmesi halinde, verilecek cezanın yarısı,\nc) Hükmolunan cezanın infazına başlanması halinde, verilecek cezanın üçte biri,\nİndirilebilir.\n(4) İftiranın konusunu oluşturan münhasıran idari yaptırım uygulanmasını gerektiren fiil dolayısıyla;\na) İdari yaptırıma karar verilmeden önce etkin pişmanlıkta bulunulması halinde, verilecek cezanın yarısı,\nb) İdari yaptırım uygulandıktan sonra etkin pişmanlıkta bulunulması halinde, verilecek cezanın üçte biri,\nindirilebilir.\n(5) (Değişik: 29/6/2005 – 5377/31 md.) Basın ve yayın yoluyla yapılan iftiradan dolayı etkin pişmanlık hükümlerinden yararlanılabilmesi için, bunun aynı yöntemle yayınlanması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "270",
+   "official_text": "Suç üstlenme\nMadde 270- (1) Yetkili makamlara, gerçeğe aykırı olarak, suçu işlediğini veya suça katıldığını bildiren kimseye iki yıla kadar hapis cezası verilir. Bu suçun üstsoy, altsoy, eş veya kardeşi cezadan kurtarmak amacıyla işlenmesi halinde; verilecek cezanın dörtte üçü indirilebileceği gibi tamamen de kaldırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "271",
+   "official_text": "Suç uydurma\nMadde 271- (1) İşlenmediğini bildiği bir suçu, yetkili makamlara işlenmiş gibi ihbar eden ya da işlenmeyen bir suçun delil veya emarelerini soruşturma yapılmasını sağlayacak biçimde uyduran kimseye üç yıla kadar hapis cezası verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "272",
+   "official_text": "Yalan tanıklık\nMadde 272- (1) Hukuka aykırı bir fiil nedeniyle başlatılan bir soruşturma kapsamında tanık dinlemeye yetkili kişi veya kurul önünde gerçeğe aykırı olarak tanıklık yapan kimseye, dört aydan bir yıla kadar hapis cezası verilir.\n(2) Mahkeme huzurunda ya da yemin ettirerek tanık dinlemeye kanunen yetkili kişi veya kurul önünde gerçeğe aykırı olarak tanıklık yapan kimseye bir yıldan üç yıla kadar hapis cezası verilir.\n(3) Üç yıldan fazla hapis cezasını gerektiren bir suçun soruşturma veya kovuşturması kapsamında yalan tanıklık yapan kişi hakkında iki yıldan dört yıla kadar hapis cezasına hükmolunur.\n(4) Aleyhine tanıklıkta bulunulan kişi ile ilgili olarak gözaltına alma ve tutuklama dışında başka bir koruma tedbiri uygulanmışsa, yüklenen fiili işlemediğinden dolayı hakkında beraat kararı veya kovuşturmaya yer olmadığına dair karar verilmiş olması koşuluyla, yukarıdaki fıkralara göre verilecek ceza yarı oranında artırılır.\n(5) Aleyhine tanıklıkta bulunulan kişinin gözaltına alınması veya tutuklanması halinde; yüklenen fiili işlemediğinden dolayı hakkında beraat kararı veya kovuşturmaya yer olmadığına dair karar verilmiş olması koşuluyla; yalan tanıklık yapan kişi, ayrıca kişiyi hürriyetinden yoksun kılma suçuna ilişkin hükümlere göre dolaylı fail olarak sorumlu tutulur.\n(6) Aleyhine tanıklıkta bulunulan kimsenin ağırlaştırılmış müebbet hapis veya müebbet hapis cezasına mahkûmiyeti halinde, yirmi yıldan otuz yıla kadar hapis cezasına; (…)[108] hükmolunur.\n(7) Aleyhine tanıklıkta bulunulan kimsenin mahkûm olduğu hapis cezasının infazına başlanmış ise, altıncı fıkraya göre verilecek ceza yarısı kadar artırılır.\n(8) Aleyhine tanıklıkta bulunulan kişi hakkında hapis cezası dışında adlî veya idari bir yaptırım uygulanmışsa; yalan tanıklıkta bulunan kişi, üç yıldan yedi yıla kadar hapis cezası ile cezalandırılır.\n[108] Anayasa Mahkemesi’nin 14/1/2015 tarihli ve E:2014/116, K:2015/4 sayılı Kararı ile bu bentte yer alan “…süreli hapis cezasına mahkûmiyeti halinde, mahkûm olunan cezanın üçte ikisi kadar hapis cezasına…” ibaresi iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "273",
+   "official_text": "Şahsi cezasızlık veya cezanın azaltılmasını gerektiren sebepler\nMadde 273- (1) Kişinin;\na) Kendisinin, üstsoy, altsoy, eş veya kardeşinin soruşturma ve kovuşturmaya uğramasına neden olabilecek bir hususla ilgili olarak yalan tanıklıkta bulunması,\nb) Tanıklıktan çekinme hakkı olmasına rağmen, bu hakkı kendisine hatırlatılmadan gerçeğe aykırı olarak tanıklık yapması,\nHalinde, verilecek cezada indirim yapılabileceği gibi, ceza vermekten de vazgeçilebilir.\n(2) Birinci fıkra hükmü, özel hukuk uyuşmazlıkları kapsamında yapılan yalan tanıklık hallerinde uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "274",
+   "official_text": "Etkin pişmanlık\nMadde 274- (1) Aleyhine tanıklık yapılan kişi hakkında bir hak kısıtlamasını veya yoksunluğunu sonuçlayacak nitelikte karar verilmeden veya hükümden önce gerçeğin söylenmesi halinde, cezaya hükmolunmaz.\n(2) Aleyhine tanıklık yapılan kişi hakkında bir hak kısıtlamasını veya yoksunluğunu sonuçlayacak nitelikte karar verildikten sonra ve fakat hükümden önce gerçeğin söylenmesi halinde, verilecek cezanın üçte ikisinden yarısına kadarı indirilebilir.\n(3) Aleyhine tanıklık yapılan kişi hakkında verilen mahkûmiyet kararı kesinleşmeden önce gerçeğin söylenmesi halinde, verilecek cezanın yarısından üçte birine kadarı indirilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "278",
+   "official_text": "Suçu bildirmeme\nMadde 278- (İptal: Anayasa Mahkemesinin 30/6/2011 tarihli ve E.:2010/52, K.:2011/113 sayılı Kararı ile.; Değişik: 2/7/2012-6352/91 md.)\n(1) İşlenmekte olan bir suçu yetkili makamlara bildirmeyen kişi, bir yıla kadar hapis cezası ile cezalandırılır.\n(2) İşlenmiş olmakla birlikte, sebebiyet verdiği neticelerin sınırlandırılması halen mümkün bulunan bir suçu yetkili makamlara bildirmeyen kişi, yukarıdaki fıkra hükmüne göre cezalandırılır.\n(3) Mağdurun onbeşyaşını bitirmemiş bir çocuk, bedensel veya ruhsal bakımdan engelli olan ya da hamileliği nedeniyle kendisini savunamayacak durumda bulunan kimse olması halinde, yukarıdaki fıkralara göre verilecek ceza, yarı oranında artırılır.[112]\n(4) Tanıklıktan çekinebilecek olan kişiler bakımından cezaya hükmolunmaz. Ancak, suçu önleme yükümlülüğünün varlığı dolayısıyla ceza sorumluluğuna ilişkin hükümler saklıdır.\n[112] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle bu fıkrada yer alan “özürlü” ibaresi “engelli” olarak değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "279",
+   "official_text": "Kamu görevlisinin suçu bildirmemesi\nMadde 279- (1) Kamu adına soruşturma ve kovuşturmayı gerektiren bir suçun işlendiğini göreviyle bağlantılı olarak öğrenip de yetkili makamlara bildirimde bulunmayı ihmal eden veya bu hususta gecikme gösteren kamu görevlisi, altı aydan iki yıla kadar hapis cezası ile cezalandırılır.\n(2) Suçun, adlî kolluk görevini yapan kişi tarafından işlenmesi halinde, yukarıdaki fıkraya göre verilecek ceza yarı oranında artırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "280",
+   "official_text": "Sağlık mesleği mensuplarının suçu bildirmemesi\nMadde 280- (1) Görevini yaptığı sırada bir suçun işlendiği yönünde bir belirti ile karşılaşmasına rağmen, durumu yetkili makamlara bildirmeyen veya bu hususta gecikme gösteren sağlık mesleği mensubu, bir yıla kadar hapis cezası ile cezalandırılır.\n(2) Sağlık mesleği mensubu deyiminden tabip, diş tabibi, eczacı, ebe, hemşire ve sağlık hizmeti veren diğer kişiler anlaşılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "281",
+   "official_text": "Suç delillerini yok etme, gizleme veya değiştirme\nMadde 281- (1) Gerçeğin meydana çıkmasını engellemek amacıyla, bir suçun delillerini yok eden, silen, gizleyen, değiştiren veya bozan kişi, altı aydan beş yıla kadar hapis cezası ile cezalandırılır. Kendi işlediği veya işlenişine iştirak ettiği suçla ilgili olarak kişiye bu fıkra hükmüne göre ceza verilmez.\n(2) Bu suçun kamu görevlisi tarafından göreviyle bağlantılı olarak işlenmesi halinde, verilecek ceza yarı oranında artırılır.\n(3) İlişkin olduğu suç nedeniyle hüküm verilmeden önce gizlenen delilleri mahkemeye teslim eden kişi hakkında bu maddede tanımlanan suç nedeniyle verilecek cezanın beşte dördü indirilir.\nSuçtan kaynaklanan malvarlığı değerlerini aklama[113]\n[113] 26/6/2009 tarihli ve 5918 sayılı Kanunun 5 inci maddesiyle birinci fıkradan sonra gelmek üzere ikinci fıkra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "282",
+   "official_text": "Madde 282- (1) (Değişik: 26/6/2009 – 5918/5 md.) Alt sınırı altı ay veya daha fazla hapis cezasını gerektiren bir suçtan kaynaklanan malvarlığı değerlerini, yurt dışına çıkaran veya bunların gayrimeşru kaynağını gizlemek veya meşru bir yolla elde edildiği konusunda kanaat uyandırmak maksadıyla, çeşitli işlemlere tâbi tutan kişi, üç yıldan yedi yıla kadar hapis ve yirmibin güne kadar adlî para cezası ile cezalandırılır.\n(2) (Ek: 26/6/2009 – 5918/5 md.) Birinci fıkradaki suçun işlenmesine iştirak etmeksizin, bu suçun konusunu oluşturan malvarlığı değerini, bu özelliğini bilerek satın alan, kabul eden, bulunduran veya kullanan kişi iki yıldan beş yıla kadar hapis cezası ile cezalandırılır.\n(3) Bu suçun, kamu görevlisi tarafından veya belli bir meslek sahibi kişi tarafından bu mesleğin icrası sırasında işlenmesi halinde, verilecek hapis cezası yarı oranında artırılır.\n(4) Bu suçun, suç işlemek için teşkil edilmiş bir örgütün faaliyeti çerçevesinde işlenmesi halinde, verilecek ceza bir kat artırılır.\n(5) Bu suçun işlenmesi dolayısıyla tüzel kişiler hakkında bunlara özgü güvenlik tedbirlerine hükmolunur.\n(6) Bu suç nedeniyle kovuşturma başlamadan önce suç konusu malvarlığı değerlerinin ele geçirilmesini sağlayan veya bulunduğu yeri yetkili makamlara haber vererek ele geçirilmesini kolaylaştıran kişi hakkında bu maddede tanımlanan suç nedeniyle cezaya hükmolunmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "283",
+   "official_text": "Suçluyu kayırma\nMadde 283- (1) Suç işleyen bir kişiye araştırma, yakalanma, tutuklanma veya hükmün infazından kurtulması için imkan sağlayan kimse, altı aydan beş yıla kadar hapis cezası ile cezalandırılır.\n(2) Bu suçun kamu görevlisi tarafından göreviyle bağlantılı olarak işlenmesi halinde, verilecek ceza yarı oranında artırılır.\n(3) Bu suçun üstsoy, altsoy, eş, kardeş veya diğer suç ortağı tarafından işlenmesi halinde, cezaya hükmolunmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Ceza Genel Kurulu",
+   "esas_no": "2022/201",
+   "karar_no": "2025/66",
+   "decision_date": "12.02.2025",
+   "summary_md": "Cezaevinde hükümlü olan sanık, Cumhuriyet savcısına verdiği ifadede 2004 yılında koğuş arkadaşını, iki katılanın azmettirmesiyle kendisinin öldürdüğünü söylemiştir; gerçekte olay bu şekilde yaşanmamıştır. İstanbul 37. Asliye Ceza Mahkemesi sanığı iki kez iftira (TCK m. 267/1) ve suç uydurma (TCK m. 271/1) suçlarından mahkûm etmiş, Yargıtay 8. Ceza Dairesinin bozmasına karşı direnmiştir. Ceza Genel Kurulu oy birliğiyle direnme hükümlerini bozmuştur. Kurula göre kendisini fail gösteren beyan suç uydurma değil, TCK m. 270/1'deki suç üstlenmedir; çünkü suç uydurmada kimse fail olarak gösterilmez. Sanığın tek ifadesi hukuki anlamda tek fiildir ve TCK m. 44/1 uyarınca en ağır cezayı gerektiren zincirleme iftiradan (TCK m. 267/1, TCK m. 43/2) cezalandırılmalıdır. Ayrıca sanığın lehe hükümler talebine rağmen takdiri indirim değerlendirilmemesi de bozma nedenidir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1162940500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "1. Ceza Dairesi",
+   "esas_no": "2025/2229",
+   "karar_no": "2026/4092",
+   "decision_date": "18.05.2026",
+   "summary_md": "Kasten öldürme olayında asıl fail 18 yıl hapse mahkûm edilmiş, bir sanık suçluyu kayırmadan (TCK m. 283/1), iki sanık ise suç delillerini yok etme, gizleme veya değiştirmeden (TCK m. 281/1) 10'ar ay hapis cezasına mahkûm edilmiş, bu üç sanık hakkında hükmün açıklanması geri bırakılmıştır. Bölge Adliye Mahkemesi, bir sanığın hüküm verilmeden önce suç delillerini teslim etmesi nedeniyle TCK m. 281/3 uyarınca cezasında beşte dört oranında indirim yapmıştır. Katılan vekili bu sanıkların öldürmeye azmettiren, asli fail veya yardım eden olarak katıldığını ileri sürerek suç vasfına itiraz etmiştir. Yargıtay 1. Ceza Dairesi, sanıkların bu şekilde iştirak ettiklerine dair her türlü şüpheden uzak, kesin ve inandırıcı delil bulunmadığını belirterek katılan vekilinin suç vasfına ilişkin temyizini reddetmiştir. Karar, asıl suça iştirak kesin delille kanıtlanamadığında suç sonrası gizleme ve kayırma davranışlarının bağımsız suçlar (TCK m. 281, TCK m. 283) olarak cezalandırıldığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1225770300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Ahmet, bahçesinden değerli bir heykelin çalındığını karakola bildirmiştir. Oysa böyle bir heykel hiç olmamıştır ve Ahmet kimseyi suçlamamıştır. Ahmet'in eylemi hangisidir?",
+   "options": [
+    "Suç uydurma",
+    "İftira",
+    "Yalan tanıklık",
+    "Suç üstlenme"
+   ],
+   "correct_option": 0,
+   "explanation_md": "İşlenmediğini bildiği bir suçu yetkili makamlara işlenmiş gibi ihbar etmek suç uydurmadır (TCK m. 271/1). Belli bir kişiye isnat yapılmadığı için iftira (TCK m. 267) oluşmaz. Kendisini suçun faili olarak da göstermediğinden suç üstlenme (TCK m. 270) yoktur. Ahmet tanık sıfatıyla beyan vermediği için yalan tanıklık da söz konusu değildir."
+  },
+  {
+   "stem_md": "Emre, komşusu Cem'in ruhsatsız silah taşıdığını bildirmek için savcılığa gitmiş, daha önce Cem'in bahçesine bir silah bırakarak maddi delil de uydurmuştur. Emre'nin durumu hangisidir?",
+   "options": [
+    "TCK m. 267/1'deki ceza, delil uydurma nedeniyle yarı oranında artırılır",
+    "Emre'ye ceza verilmez; delil bulunduğu için ihbar haklıdır",
+    "TCK m. 267/1'deki iftira cezası uygulanır; delil uydurmak ayrıca artırım sebebi değildir",
+    "TCK m. 271 uygulanır; çünkü delil uydurulmuştur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Emre, işlemediğini bildiği bir fiili belli bir kişiye isnat ettiğinden iftira suçunu işlemiştir. Fiilin maddi eser ve delillerini uydurarak iftirada bulunulması hâlinde ceza yarı oranında artırılır (TCK m. 267/2). TCK m. 271 belli kişiye isnat olmayan hâllere ilişkindir; burada Cem açıkça gösterildiği için iftira hükmü uygulanır."
+  },
+  {
+   "stem_md": "Cezaevinde barınma ve beslenme ihtiyacını karşılamak isteyen Ali, polise giderek geçen hafta bir kuyumcu dükkânından altın çaldığını söylemiştir. Gerçekte böyle bir hırsızlık hiç işlenmemiştir ve Ali başka kimseyi suçlamamıştır. Ali'nin hukuki durumu hangisidir?",
+   "options": [
+    "Suç üstlenme suçunu işlemiştir ve iki yıla kadar hapisle cezalandırılır",
+    "Yalan tanıklık suçunu işlemiştir ve 4 ay-1 yıl hapisle cezalandırılır",
+    "İftira suçunu işlemiştir ve 1-4 yıl hapisle cezalandırılır",
+    "Suç uydurma suçunu işlemiştir; çünkü üstlendiği hırsızlık hiç işlenmemiştir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yetkili makamlara gerçeğe aykırı olarak suçu işlediğini bildiren kişi suç üstlenmeden iki yıla kadar hapisle cezalandırılır (TCK m. 270/1). Ceza Genel Kurulu, üstlenilen suçun gerçekte hiç işlenmemiş olabileceğini ve suç uydurmadan farkın failin kendisini şüpheli olarak göstermesi olduğunu kabul eder; bu yüzden suç uydurma (TCK m. 271) yoktur. Ali başkasına fiil isnat etmediği için iftira (TCK m. 267) oluşmaz; tanık sıfatıyla beyan vermediği için yalan tanıklık (TCK m. 272) da söz konusu değildir."
+  },
+  {
+   "stem_md": "Tanık Mehmet, kasten öldürme davasında mahkeme huzurunda yeminli olarak gerçeğe aykırı beyanda bulunmuştur. Mehmet'e verilecek ceza aralığı hangisidir?",
+   "options": [
+    "4 ay-1 yıl hapis",
+    "1-3 yıl hapis",
+    "2-4 yıl hapis",
+    "3-7 yıl hapis"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yargılanan suç kasten öldürme olup üç yıldan fazla hapis cezasını gerektirdiğinden TCK m. 272/3 uygulanır ve ceza 2-4 yıl hapistir. 4 ay-1 yıl soruşturma aşamasına ilişkin temel şekildir (TCK m. 272/1), 1-3 yıl mahkeme önündeki genel şekildir (TCK m. 272/2). 3-7 yıl ise aleyhine tanıklık edilen kişiye hapis dışında adli veya idari yaptırım uygulanması hâlindeki cezadır (TCK m. 272/8)."
+  },
+  {
+   "stem_md": "Zeynep, kardeşi Ayşe'nin açtığı alacak davasında, kardeşinin lehine mahkemede yalan tanıklık yapmıştır. Zeynep'in durumu hakkında hangisi doğrudur?",
+   "options": [
+    "TCK m. 273 uygulanır; yakın akraba olduğu için ceza zorunlu olarak verilmez",
+    "Yalan tanıklık oluşmaz; çünkü tanıklık kardeş lehinedir",
+    "TCK m. 274 gereği ceza kendiliğinden kalkar",
+    "TCK m. 273/1 uygulanamaz; çünkü bu hüküm özel hukuk uyuşmazlıklarındaki yalan tanıklığa uygulanmaz"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TCK m. 273/1 akrabalık ve kendini koruma nedeniyle indirim veya cezadan vazgeçme imkânı verir; ancak TCK m. 273/2'ye göre bu hüküm özel hukuk uyuşmazlıkları kapsamında yapılan yalan tanıklıkta uygulanmaz. Alacak davası özel hukuk uyuşmazlığıdır. Bu hükümde zaten ceza zorunlu olarak kalkmaz, hâkimin takdiri vardır. TCK m. 274 ise gerçeğin söylenmesi hâlini düzenler; olayda böyle bir durum yoktur."
+  },
+  {
+   "stem_md": "Tanık Ali, ceza davasında sanığın aleyhine yalan tanıklık yapmış, sanık hakkında henüz hak kısıtlamasını sonuçlayacak bir karar verilmeden ve hüküm öncesinde duruşmada gerçeği açıklamıştır. Ali'nin durumu hangisidir?",
+   "options": [
+    "Cezasının üçte ikisinden yarısına kadarı indirilebilir",
+    "Cezasının yarısı indirilir",
+    "Cezasının beşte dördü indirilir",
+    "Cezaya hükmolunmaz"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TCK m. 274/1'e göre aleyhine tanıklık yapılan kişi hakkında bir hak kısıtlamasını veya yoksunluğunu sonuçlayacak nitelikte karar verilmeden veya hükümden önce gerçeğin söylenmesi hâlinde cezaya hükmolunmaz. Karar verildikten sonra gerçek söylense idi TCK m. 274/2'ye göre üçte ikisinden yarısına kadar indirim yapılabilirdi. Beşte dört indirimi TCK m. 281/3'te delillerin hükümden önce teslimi için öngörülmüştür."
+  },
+  {
+   "stem_md": "Selim, yakın arkadaşı Ömer'in birkaç ay önce bir kişiyi dövdüğünü öğrenmiş, olayın sonuçları artık sınırlandırılamayacak biçimde tamamlanmıştır. Selim bunu hiçbir makama bildirmemiştir. Selim bakımından doğru sonuç hangisidir?",
+   "options": [
+    "TCK m. 278/2 uyarınca bir yıla kadar hapis alır",
+    "TCK m. 278/1 uyarınca bir yıla kadar hapis alır",
+    "TCK m. 279 uyarınca 6 ay-2 yıl hapis alır",
+    "TCK m. 278 uygulanmaz; suç işlenmekte değildir ve sonuçları sınırlandırılabilir durumda da değildir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TCK m. 278 yalnız işlenmekte olan suçun (TCK m. 278/1) veya işlenmiş olmakla birlikte sebebiyet verdiği neticelerin sınırlandırılması halen mümkün olan suçun (TCK m. 278/2) bildirilmemesini cezalandırır. Bitmiş ve sonuçları sınırlandırılamayan suç bildirilmezse TCK m. 278 oluşmaz. TCK m. 279 yalnız kamu görevlisine özgüdür ve Selim kamu görevlisi değildir."
+  },
+  {
+   "stem_md": "Mehmet, kız kardeşinin işlenmekte olan bir suçu işlediğini öğrenmiş ancak yetkili makamlara bildirmemiştir. Mehmet'in durumu hakkında hangisi doğrudur?",
+   "options": [
+    "TCK m. 281 uyarınca 6 ay-5 yıl hapis alır",
+    "Ceza verilir ancak yarı oranında indirilir",
+    "TCK m. 278/4 uyarınca tanıklıktan çekinebilecek kişi olduğu için cezaya hükmolunmaz; suçu önleme yükümlülüğünden doğan sorumluluk saklıdır",
+    "TCK m. 278/1 uyarınca bir yıla kadar hapis alır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TCK m. 278/4'e göre tanıklıktan çekinebilecek olan kişiler bakımından cezaya hükmolunmaz. Kardeş bu kapsamdadır. Hüküm yalnız bildirmeme suçu bakımından cezasızlık getirir; suçu önleme yükümlülüğünün varlığı dolayısıyla doğan ceza sorumluluğu saklıdır (TCK m. 278/4). İndirim hükmü yoktur; ceza kural olarak hiç verilmez."
+  },
+  {
+   "stem_md": "Cinayet işleyen oğlu Kemal'i korumak isteyen baba Hasan, oğlunun kanlı gömleğini ve suçta kullandığı silahı nehre atmıştır. Hasan'ın durumu hangisidir?",
+   "options": [
+    "TCK m. 281/1 gereği 6 ay-5 yıl hapisle cezalandırılır; bu maddede akrabalık cezasızlığı yoktur",
+    "TCK m. 270 uygulanır; çünkü baba oğlunu kurtarmaya çalışmıştır",
+    "TCK m. 281/1 gereği ceza verilmez; çünkü delil kendi çocuğunun suçuna aittir",
+    "TCK m. 283/3 gereği cezaya hükmolunmaz; çünkü üstsoy-altsoy ilişkisi vardır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hasan, bir suçun delillerini yok etmiş ve gizlemiştir (TCK m. 281/1). Bu maddede ceza verilmeyen kişi yalnız kendi işlediği veya işlenişine iştirak ettiği suçla ilgili delilleri yok eden kişidir; yakın akrabalık nedeniyle cezasızlık yoktur. Akrabalık cezasızlığı TCK m. 283/3'te suçluyu kayırma suçu için düzenlenmiştir. TCK m. 270 ise suçu üstlenmeye ilişkindir ve olayda böyle bir ihbar yoktur."
+  },
+  {
+   "stem_md": "Aşağıdaki kişilerden hangisi, suç işleyen kişiyi kayırması hâlinde TCK m. 283/3 uyarınca cezalandırılmaz?",
+   "options": [
+    "Suçlunun amcası",
+    "Suçlunun kardeşi",
+    "Suçlunun yakın arkadaşı",
+    "Suçlunun iş ortağı"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TCK m. 283/3'e göre suçluyu kayırma suçunun üstsoy, altsoy, eş, kardeş veya diğer suç ortağı tarafından işlenmesi hâlinde cezaya hükmolunmaz. Amca, iş ortağı ve arkadaş sayılan kişiler arasında yer almaz; bu kişilere TCK m. 283/1 uyarınca 6 ay-5 yıl hapis verilir. Buradaki \"suç ortağı\" ifadesi suça iştirak eden kişiyi ifade eder, ticari ortağı değil."
+  },
+  {
+   "stem_md": "Kerem, dolandırıcılıkla elde edilmiş parayı, kaynağının meşru olduğu izlenimi uyandırmak için sahte bir şirket üzerinden çeşitli işlemlere tâbi tutmuştur. Kerem hangi cezayı alır?",
+   "options": [
+    "Bir yıla kadar hapis",
+    "6 ay-5 yıl hapis",
+    "3-7 yıl hapis ve yirmibin güne kadar adli para cezası",
+    "2-5 yıl hapis"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Alt sınırı altı ay veya daha fazla hapis gerektiren suçtan kaynaklanan değeri meşru görünüm kazandırmak için çeşitli işlemlere tâbi tutmak TCK m. 282/1 kapsamında aklamadır ve 3-7 yıl hapis ile yirmibin güne kadar adli para cezası öngörür. 2-5 yıl hapis, suça iştirak etmeksizin değeri bilerek satın alan, kabul eden, bulunduran veya kullanan kişi içindir (TCK m. 282/2). 6 ay-5 yıl hapis TCK m. 281 ve TCK m. 283'ün cezasıdır."
+  },
+  {
+   "stem_md": "İşlemediği bir fiil nedeniyle Cem'i hırsızlıkla itham eden Emre, Cem hakkında savcılık soruşturması sürerken ve iddianame düzenlenmeden önce iftirasından dönmüştür. Emre'nin durumu hakkında doğru ifade hangisidir?",
+   "options": [
+    "Cezaya hükmolunmaz",
+    "Cezanın dörtte üçü indirilebilir",
+    "Cezanın dörtte üçü indirilir",
+    "Cezanın beşte dördü indirilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Soruşturma başlamış olduğundan TCK m. 269/1 (beşte dört) uygulanamaz. Mağdur hakkında kovuşturma başlamadan önce iftiradan dönme hâlinde cezanın dörtte üçü indirilir (TCK m. 269/2). Hüküm \"indirilir\" şeklinde olduğu için zorunludur. \"İndirilebilir\" ifadesi TCK m. 269/3'teki daha geç dönüş hâllerinde ve TCK m. 269/4'teki yalnız idari yaptırım gerektiren fiillere ilişkin hâllerde kullanılır. İftiradan dönüş hâlinde tam cezasızlık düzenlenmemiştir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Zeynep, komşusu Hasan'a kızgın olduğu için savcılığa giderek Hasan'ın geçen hafta evine girip değerli eşya çaldığını gördüğünü söyler. Zeynep'in anlattığı olay hiç yaşanmamıştır. Zeynep ayrıca Hasan'ın bahçesine çalıntı olduğunu söylediği bir telefon bırakır ve savcılığa bu telefondan söz eder. Hasan gözaltına alınır, iki gün sonra serbest bırakılır; soruşturma sonunda hırsızlığı işlemediği anlaşılan Hasan hakkında kovuşturmaya yer olmadığına karar verilir.\n\nAyrıca Zeynep'in kardeşi Cem, kullandığı otomobille bir yayaya çarparak onu yaralamış ve olay yerinden kaçmıştır. Zeynep'in arkadaşı Ali, Cem'i kurtarmak için polise \"Kazayı ben yaptım\" demiştir. Ali bu işi Cem'in kardeşi olmadığı hâlde, sırf yardım etmek için yapmıştır.\n\n1. Zeynep'in sorumluluğunu değerlendiriniz.\n2. Hasan'ın gözaltı sürecinin Zeynep bakımından sonucunu belirtiniz.\n3. Ali'nin sorumluluğunu değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Belli bir kişiye bilerek işlemediği fiilin isnadı: iftira, 1-4 yıl hapis",
+     "weight": 25,
+     "madde_ref": "TCK m. 267/1"
+    },
+    {
+     "point": "Telefonu bırakarak maddi delil uydurma: ceza yarı oranında artırılır",
+     "weight": 20,
+     "madde_ref": "TCK m. 267/2"
+    },
+    {
+     "point": "Gözaltı ve KYOK sonrası Zeynep'in kişiyi hürriyetinden yoksun kılma hükümlerine göre dolaylı fail olarak da sorumlu tutulması",
+     "weight": 20,
+     "madde_ref": "TCK m. 267/4"
+    },
+    {
+     "point": "Ali'nin gerçeğe aykırı olarak suçu işlediğini bildirmesi suç üstlenmedir; beyan Cem'e soruşturmadan kurtulma imkânı da sağladığından suçluyu kayırma oluşur ve Ceza Genel Kurulu çoğunluğuna göre fikri içtima ile daha ağır olan suçluyu kayırmadan cezalandırılır",
+     "weight": 20,
+     "madde_ref": "TCK m. 270/1, TCK m. 283/1, TCK m. 44"
+    },
+    {
+     "point": "Ali kardeş, altsoy, üstsoy veya eş olmadığından ne suç üstlenmedeki indirim veya kaldırma hükmü ne de kayırmadaki cezasızlık uygulanabilir",
+     "weight": 15,
+     "madde_ref": "TCK m. 270/1, TCK m. 283/3"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda iki ayrı gerçeğe aykırı bildirim vardır. Zeynep başkasına, Ali ise kendisine suç isnat etmiştir. Bu fark, iftira ve suç üstlenme ayrımının merkezidir.\n\n**Hukuki sorunlar:** (1) Zeynep'in beyanı iftira mı yoksa suç uydurma mı? (2) Delil bırakmasının ve Hasan'ın gözaltına alınmasının sonuçları. (3) Ali'nin beyanının nitelendirilmesi, suçluyu kayırmayla ilişkisi ve akrabalığa bağlı özel hükümlerin şartları.\n\n**İlgili hükümler:** TCK m. 267/1 iftirayı, TCK m. 267/2 delil uydurmayı, TCK m. 267/4 gözaltı ve tutuklamada dolaylı failliği düzenler. TCK m. 270/1 suç üstlenmeyi ve akraba için özel indirimi içerir; TCK m. 271 ise kimseye isnat olmayan hâller içindir. TCK m. 283 suçluyu kayırmayı, TCK m. 44 fikri içtimayı düzenler.\n\n**Değerlendirme:** Zeynep, işlenmediğini bildiği bir hırsızlığı Hasan adlı belli bir kişiye isnat etmiş, amacı Hasan hakkında soruşturma başlatılmasıdır. Bu nedenle suç uydurma (TCK m. 271) değil iftira oluşur ve ceza 1-4 yıl hapistir (TCK m. 267/1). Telefonu bahçeye bırakarak fiilin maddi delilini uydurduğundan TCK m. 267/2 gereği ceza yarı oranında artırılır. Hasan gözaltına alınmış ve hakkında kovuşturmaya yer olmadığına karar verilmiştir. TCK m. 267/4'ün şartları gerçekleştiğinden Zeynep ayrıca kişiyi hürriyetinden yoksun kılma suçuna ilişkin hükümlere göre dolaylı fail olarak sorumlu tutulur; hangi fıkra ve nitelikli hâlin uygulanacağı ayrıca tartışma konusu olabilir, ancak sorumluluğun varlığı kanundan açıktır. Ali ise \"Kazayı ben yaptım\" diyerek gerçeğe aykırı olarak suçu işlediğini bildirmiştir. Kimseyi suçlamadığı için iftira, kendisini fail gösterdiği için suç uydurma değil, TCK m. 270/1'deki suç üstlenme söz konusudur. Aynı beyan, yayayı yaralayıp kaçan Cem'in araştırılmaktan ve yakalanmaktan kurtulmasına imkân sağladığından TCK m. 283/1'deki suçluyu kayırma da oluşur. Ceza Genel Kurulu çoğunluğu bu iki suç arasında özel norm-genel norm ilişkisi görmez; tek fiille iki farklı suç oluştuğu için TCK m. 44 uyarınca daha ağır cezayı gerektiren suçluyu kayırmadan (6 ay-5 yıl hapis) ceza verilir. TCK m. 270'i özel norm sayan karşı görüşe göre ise Ali yalnız suç üstlenmeden (iki yıla kadar hapis) sorumludur. Her iki görüşte de Ali cezalandırılır: Cem'in kardeşi, üstsoyu, altsoyu veya eşi olmadığından ne TCK m. 270/1'in ikinci cümlesindeki indirim veya kaldırma ne de TCK m. 283/3'teki cezasızlık uygulanır.\n\n**Sonuç:** Zeynep iftira (TCK m. 267/1) ve delil uydurma nedeniyle artırımla (TCK m. 267/2) ve ayrıca TCK m. 267/4 uyarınca dolaylı fail sıfatıyla sorumludur. Ali'nin beyanı suç üstlenme ve suçluyu kayırma suçlarını oluşturur; Ceza Genel Kurulu çoğunluğuna göre fikri içtima gereği TCK m. 283/1'den cezalandırılır. Akrabalığa bağlı indirim, kaldırma veya cezasızlık hükümleri Ali'ye uygulanmaz."
+  },
+  {
+   "stem_md": "Ahmet, komşusunu bıçakla öldürüp evine kaçar. Babası Mehmet, oğlunu evinde birkaç gün saklar. Mehmet ayrıca oğlunun kanlı gömleğini ve bıçağı bir sandığa gizler. Davanın sürdüğü sırada, henüz hüküm verilmeden Mehmet gömleği ve bıçağı mahkemeye teslim eder. Ahmet'in arkadaşı Cemil, olaydan önce hiçbir yardım vaadinde bulunmamış, ancak olaydan sonra Ahmet'i otomobiliyle sınıra götürerek yakalanmaktan kurtulmasını sağlamıştır. Ahmet ayrıca kendi eliyle başka bir kanlı tişörtünü yakmıştır. Ahmet'in annesi Fatma, cinayeti olayın ertesi günü Ahmet'ten öğrenmiş, ancak hiçbir makama bildirmemiştir.\n\n1. Mehmet'in saklama, delil gizleme ve delil teslimi bakımından sorumluluğunu değerlendiriniz.\n2. Cemil'in sorumluluğunu değerlendiriniz.\n3. Ahmet'in tişörtü yakmasının sonucunu belirtiniz.\n4. Fatma'nın sorumluluğunu değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Mehmet'in oğlunu saklaması suçluyu kayırmadır; üstsoy olduğu için cezaya hükmolunmaz",
+     "weight": 20,
+     "madde_ref": "TCK m. 283/3"
+    },
+    {
+     "point": "Gömlek ve bıçağın gizlenmesi delil gizlemedir; akrabalık cezasızlığı bu maddede yoktur ve Mehmet kendi suçu için hareket etmemektedir",
+     "weight": 20,
+     "madde_ref": "TCK m. 281/1"
+    },
+    {
+     "point": "Hüküm verilmeden önce delillerin mahkemeye teslimi: cezanın beşte dördü indirilir",
+     "weight": 10,
+     "madde_ref": "TCK m. 281/3"
+    },
+    {
+     "point": "Cemil önceden yardım vaadi vermediği için iştirak yoktur; suçluyu kayırmadan 6 ay-5 yıl hapis alır, akrabalık veya suç ortaklığı sebebiyle cezasızlık da yoktur",
+     "weight": 20,
+     "madde_ref": "TCK m. 283/1"
+    },
+    {
+     "point": "Ahmet'in kendi suçunun delilini yok etmesi için ceza verilmemesi",
+     "weight": 10,
+     "madde_ref": "TCK m. 281/1"
+    },
+    {
+     "point": "Fatma: öldürme tamamlanmış ve sonuçları sınırlandırılamaz olduğundan suçu bildirmeme oluşmaz; ayrıca altsoyu hakkında tanıklıktan çekinebileceği için cezaya hükmolunmaz",
+     "weight": 20,
+     "madde_ref": "TCK m. 278/2, TCK m. 278/4"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, katilin kaçırılmasına, delillerin karartılmasına ve suçun bildirilmemesine ilişkin ayrı davranışlar içerir. Burada kritik soru, hangi davranışta akrabalık cezasızlığının geçerli olduğu, hangisinde olmadığıdır.\n\n**Hukuki sorunlar:** (1) Mehmet'in oğlunu saklaması. (2) Aynı kişinin delilleri gizlemesi ve sonra teslim etmesi. (3) Cemil'in sorumluluğunun iştirakle sınırı. (4) Ahmet'in kendi delillerini yok etmesi. (5) Fatma'nın suçu bildirmemesi.\n\n**İlgili hükümler:** TCK m. 283/1 suçluyu kayırma ve 6 ay-5 yıl hapis, TCK m. 283/3 üstsoy, altsoy, eş, kardeş veya diğer suç ortağı için cezasızlığı düzenler. TCK m. 281/1 delil yok etmeyi ve yalnız kendi suçu için cezasızlığı, TCK m. 281/3 hükümden önce teslimde beşte dört indirimi içerir. TCK m. 39/2-a yardım vaadini yardım etme saymıştır. TCK m. 278 yalnız işlenmekte olan veya sonuçları sınırlandırılabilir suçun bildirilmemesini cezalandırır; TCK m. 278/4 tanıklıktan çekinebilecekler için cezasızlık öngörür.\n\n**Değerlendirme:** Mehmet, Ahmet'in babası, yani üstsoyudur. Oğlunu saklayarak araştırma, yakalanma ve tutuklanmadan kurtulmasına imkân sağlamıştır; ancak TCK m. 283/3 uyarınca cezaya hükmolunmaz. Aynı kişinin gömleği ve bıçağı gizlemesi ise farklıdır: TCK m. 281'de akrabalık nedeniyle cezasızlık düzenlenmemiştir ve Mehmet kendi suçunun delilini gizlemediğinden TCK m. 281/1 uyarınca 6 ay-5 yıl hapisle cezalandırılır. Hüküm verilmeden önce delilleri mahkemeye teslim ettiğinden TCK m. 281/3 gereği bu cezanın beşte dördü indirilir. Cemil'in durumunda iştirak aranır: olaydan önce veya olay sırasında bir yardım ya da olay sonrası için bir vaat bulunmadığından Cemil asıl suça yardım eden sayılamaz (TCK m. 39/2-a). Cemil, Ahmet'in yakalanmadan kurtulmasına imkân sağladığı için TCK m. 283/1'den 6 ay-5 yıl hapisle cezalandırılır; üstsoy, altsoy, eş, kardeş veya suç ortağı olmadığından TCK m. 283/3 uygulanmaz. Ahmet kendi işlediği suçla ilgili delili yaktığından TCK m. 281/1'in ikinci cümlesi gereğince bu suçtan ceza almaz. Fatma'nın öğrendiği öldürme suçu tamamlanmıştır; işlenmekte olan bir suç (TCK m. 278/1) değildir ve ölüm neticesinin sınırlandırılması da artık mümkün olmadığından TCK m. 278/2'nin şartı yoktur. Bu nedenle suçu bildirmeme oluşmaz. Ayrıca Fatma, oğlu hakkında tanıklıktan çekinebilecek kişilerden olduğundan TCK m. 278/4 gereği bu suçtan zaten cezaya hükmolunamazdı.\n\n**Sonuç:** Mehmet saklama bakımından cezalandırılmaz (TCK m. 283/3), delil gizlemeden TCK m. 281/1'e göre sorumludur ve TCK m. 281/3 indirimi alır. Cemil TCK m. 283/1'den cezalandırılır. Ahmet tişört yakma bakımından cezalandırılmaz. Fatma'ya TCK m. 278'den ceza verilmez."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "İftira, suç üstlenme ve suç uydurmayı ayıran ölçüt nedir?",
+   "back_md": "Kimin gösterildiği: başkasını gösterirse iftira (TCK m. 267), kendisini gösterirse suç üstlenme (TCK m. 270), kimseyi göstermezse suç uydurma (TCK m. 271)."
+  },
+  {
+   "front_md": "İftira cezası ve delil uydurmanın etkisi?",
+   "back_md": "1-4 yıl hapis (TCK m. 267/1). Maddi eser ve delil uydurulursa ceza yarı oranında artırılır (TCK m. 267/2)."
+  },
+  {
+   "front_md": "İftirada etkin pişmanlık oranları (TCK m. 269/1-2)?",
+   "back_md": "Soruşturma başlamadan önce beşte dördü, kovuşturma başlamadan önce dörtte üçü indirilir. Sonraki hâllerde üçte ikisi, yarısı veya üçte biri indirilebilir (takdir)."
+  },
+  {
+   "front_md": "Suç üstlenmede akraba indirimi kimleri kapsar?",
+   "back_md": "Üstsoy, altsoy, eş ve kardeş. Ceza dörtte üçü indirilebilir veya tamamen kaldırılabilir (TCK m. 270/1)."
+  },
+  {
+   "front_md": "Yalan tanıklığın üç kademeli cezası (TCK m. 272/1-3)?",
+   "back_md": "Soruşturmada 4 ay-1 yıl; mahkeme önünde veya yeminle 1-3 yıl; üç yıldan fazla hapis gerektiren suçta 2-4 yıl."
+  },
+  {
+   "front_md": "TCK m. 273 özel hukuk uyuşmazlıklarında uygulanır mı?",
+   "back_md": "Hayır. Akrabalık ve kendini koruma nedeniyle indirim veya cezadan vazgeçme, özel hukuk uyuşmazlıklarındaki yalan tanıklıkta uygulanmaz (TCK m. 273/2)."
+  },
+  {
+   "front_md": "Yalan tanıklıkta etkin pişmanlığın en güçlü sonucu?",
+   "back_md": "Aleyhine tanıklık edilen kişi hakkında hak kısıtlamasını sonuçlayacak karar verilmeden veya hükümden önce gerçeği söyleyene ceza verilmez (TCK m. 274/1)."
+  },
+  {
+   "front_md": "TCK m. 278 hangi durumlarda bildirmeme cezası getirir?",
+   "back_md": "İşlenmekte olan suç veya sonuçları sınırlandırılabilir suç bildirilmezse bir yıla kadar hapis. Tanıklıktan çekinebilecek kişilere ceza verilmez."
+  },
+  {
+   "front_md": "TCK m. 281'in cezası ve cezasızlık hâli?",
+   "back_md": "6 ay-5 yıl hapis. Kendi işlediği veya iştirak ettiği suç için ceza verilmez; hükümden önce delil teslimi cezayı beşte dört indirir (TCK m. 281/3)."
+  },
+  {
+   "front_md": "Suçluyu kayırmada kime ceza verilmez?",
+   "back_md": "Üstsoy, altsoy, eş, kardeş ve diğer suç ortağına (TCK m. 283/3). Delilleri yok etmede ise akrabalık cezasızlığı yoktur."
+  },
+  {
+   "front_md": "Aklama suçunun cezaları (TCK m. 282)?",
+   "back_md": "Asıl aklama 3-7 yıl hapis ve yirmibin güne kadar adli para cezası; bilerek satın alan, kabul eden, bulunduran veya kullanan 2-5 yıl hapis. Konu suçun alt sınırı en az altı ay hapis olmalıdır."
+  },
+  {
+   "front_md": "Suç sonrası yardımda iştirak sınırı?",
+   "back_md": "Yardım suçtan önce veya sırasında yapılır; suçtan sonra yardım vaadi de yardım etmedir (TCK m. 39/2-a). Önceden vaat yoksa suç sonrası davranış TCK m. 281 veya TCK m. 283'e girer."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

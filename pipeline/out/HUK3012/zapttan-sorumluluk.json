@@ -1,0 +1,690 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Satış Sözleşmesi",
+ "topic_index": 2,
+ "slug": "zapttan-sorumluluk",
+ "title": "Satıcının Zapttan Sorumluluğu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:33:49.317090+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/satis-ayip-zapt"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Satılan mal, satıştan sonra bir üçüncü kişinin \"bu mal benim\" ya da \"bu mal üzerinde üstün hakkım var\" demesiyle alıcının elinden çıkarsa satıcı alıcıya karşı neyle sorumlu olur? Bu sorumluluğa **zapttan sorumluluk** (zapta karşı tekeffül) denir ve TBK m. 214-218'de düzenlenir.\n\n- **Temel kural (TBK m. 214/1):** Satış sözleşmesinin kurulduğu sırada var olan bir hak dolayısıyla satılanın tamamı ya da bir kısmı üçüncü kişi tarafından alıcının elinden alınırsa satıcı alıcıya karşı sorumlu olur. Hakkın **sözleşme anında var olması** şarttır; sonradan doğan hak zapt doğurmaz.\n- **Kusursuz sorumluluk:** Satıcının kusuru aranmaz. Satıcı hakkı bilmiyor olsa da sorumludur. Yargıtay çalıntı ya da şasisi değiştirilmiş (change) araca el konulmasını da tam zapt sayar.\n- **Alıcı tehlikeyi biliyorsa (TBK m. 214/2):** Sözleşme kurulurken elinden alınma tehlikesini bilen alıcıya karşı satıcı, ayrıca üstlenmedikçe sorumlu olmaz.\n- **Sorumsuzluk anlaşması (TBK m. 214/3):** Satıcı üçüncü kişinin hakkını gizlemişse sorumluluğu kaldıran ya da sınırlayan anlaşma kesin olarak hükümsüzdür.\n- **Davanın bildirilmesi (TBK m. 215):** Alıcı, kendisine açılan davayı satıcıya bildirirse satıcı davaya katılmak ya da davayı takip etmek zorundadır. Elverişli zamanda yapılan bildirim varsa hüküm, alıcının ağır kusuru ispatlanmadıkça satıcıyı da bağlar. Bildirilmemişse sorumluluk düşmez; satıcı yalnız zamanında bildirilseydi daha elverişli hüküm alınabileceğini ispatladığı ölçüde kurtulur.\n- **Dava beklenmeden verme (TBK m. 216):** Alıcı mahkeme kararını beklemeden üçüncü kişinin hakkını dürüstlük kurallarına uygun tanıyıp malı vermişse, ya da satıcıyı gecikmeksizin uyarıp tahkime gitmişse sorumluluk sürer. Alıcının malı vermekle yükümlü olduğunu ispatlaması da yeter.\n- **Tam zapt (TBK m. 217):** Sözleşme **kendiliğinden sona erer**. Alıcı; ürün değeri indirilmiş satış bedelini faiziyle, üçüncü kişiden isteyemeyeceği giderleri, kaçınılabilecek olanlar dışındaki yargılama ve yargılama dışı giderleri ve doğrudan zararını (kusursuz) ister. Diğer zararlar için satıcı, kusuru olmadığını ispatlamak zorundadır.\n- **Kısmi zapt (TBK m. 218):** Alıcı kural olarak yalnız uğradığı zararı ister. Bilseydi satın almayacağı anlaşılıyorsa **hâkimden** sözleşmenin sona ermesine karar vermesini isteyebilir; tek taraflı dönemez.\n- **Zamanaşımı:** Zapttan doğan istemlere TBK m. 231'deki iki yıllık ayıp zamanaşımı değil, genel hükümler (TBK m. 146, on yıl) uygulanır.\n- ⚠️ **Karıştırma:** Üçüncü kişinin üstün hakkı = zapt. Malın kendi niteliğindeki eksiklik = ayıp. İmar kısıtlaması gibi kamu hukuku sınırlamaları hukuki ayıp tarafında kalır (TBK m. 219).",
+  "content_md": "## 0. Konunun haritası\n\nSatış sözleşmesinde satıcının iki \"güvence\" borcu vardır: Sattığı malın **üçüncü kişinin hakkından** ve **kendi ayıbından** arınmış olmasını sağlamak. Bu konu birincisini işler. Ayıp sorumluluğu sonraki iki konunun (TBK m. 219 ve devamı) konusudur.\n\n| Ölçüt | Zapt (TBK m. 214-218) | Ayıp (TBK m. 219 vd.) |\n|---|---|---|\n| Sorunun kaynağı | Üçüncü kişinin üstün hakkı | Malın kendi niteliğindeki eksiklik |\n| Alıcıya ne olur? | Mal elinden alınır ya da sınırlı hakla yüklenir | Mal elindedir ama eksiktir |\n| Sorumsuzluk anlaşması | Hakkı gizlemişse hükümsüz | Ağır kusurda hükümsüz (TBK m. 221) |\n\nSınavda önce şunu sor: **Malı alıcıdan alan ya da onun üzerinde hak iddia eden bir üçüncü kişi var mı?** Varsa zapt, yoksa ayıp tarafına bakarsın.\n\n## 1. Zapt nedir, hangi şartlarla doğar? (TBK m. 214/1)\n\n**Zapt**, satılanın tamamının ya da bir kısmının, satış sözleşmesinin kurulduğu sırada var olan bir hak yüzünden bir üçüncü kişi tarafından alıcının elinden alınmasıdır. Kanuna göre bu durumda satıcı alıcıya karşı sorumlu olur (TBK m. 214/1). Şartlar şöyle sıralanır:\n\n1. **Geçerli bir satış sözleşmesi** vardır (TBK m. 207).\n2. **Üçüncü kişinin alıcıya karşı üstün bir hakkı** vardır. Bu hak mülkiyet olabilir (malın gerçek sahibi), rehin ya da irtifak gibi sınırlı ayni bir hak olabilir.\n3. Bu hak **sözleşmenin kurulduğu sırada var olmalıdır.** Hakkın kaynağı sözleşme öncesine dayanır; dava ya da el koyma sonradan gelse bile.\n4. Satılan, bu hak yüzünden alıcının **elinden alınmıştır** (tamamen ya da kısmen) ya da sınırlı ayni hakla yüklenmiştir (TBK m. 218/1).\n5. Alıcı, elinden alınma tehlikesini **sözleşme kurulurken bilmiyordur** (TBK m. 214/2; aşağıda bölüm 2).\n\n> ⚠️ **Sınavda dikkat:** Kritik an **sözleşmenin kurulduğu andır**; elden alınma ya da dava anı değildir. Hak sözleşmeden sonra doğmuşsa zapttan sorumluluk doğmaz.\n\n> **Örnek:** Kamulaştırma kararı, satıştan iki ay sonra alınmıştır. Alıcı arsasını kaybetse bile bu hak sözleşme sırasında var olmadığından satıcı TBK m. 214 kapsamında sorumlu tutulamaz.\n\n### 1.1 Zaptın tipik örnekleri\n- **Çalıntı ya da şasisi değiştirilmiş (change) araç:** Ali, ikinci el bir otomobili noterde satın alır. Aylar sonra araç çalıntı çıkar ve savcılığın el koyma kararıyla araç Ali'nin elinden alınır. Yargıtay bu durumu **tam zapt** sayar; çünkü satıcının mülkiyeti devretme borcu, üçüncü kişinin ya da kamunun üstün hakkı yüzünden sakatlanmıştır.\n- **Tapu iptali:** Zeynep'in dükkânı, arsa sahiplerinin açtığı dava sonunda tapu iptaliyle üçüncü kişilere geçer. Burada da satıcı zapttan sorumludur.\n- **Sınırlı ayni hak:** Satış sırasında bilinmeyen, ama sözleşmeden önce kurulmuş bir irtifak ya da ipotek sonradan ortaya çıkar. Bu, **kısmi zapt** hükmüne bağlanır (bölüm 7).\n\n### 1.2 Sorumluluğun niteliği: kusursuzluk\nSatıcı kusursuz olsa da, hakkın varlığını hiç bilmese de sorumludur. TBK m. 217/1'deki zarar kalemleri bakımından kusur aranmaz; yalnız \"diğer zararlar\" için kusur karinesi vardır (bölüm 6.3). Yargıtay da araç el koyma davalarında satıcının sorumluluğunu **kanundan doğan kusursuz sorumluluk** olarak niteler. Satıcının \"aracın change olduğunu bilmiyordum\" savunması bu yüzden sonucu değiştirmez.\n\n## 2. Alıcının tehlikeyi bilmesi (TBK m. 214/2)\n\nAlıcı, elinden alınma tehlikesini sözleşmenin kurulduğu sırada **biliyorsa**, satıcı sorumlu olmaz. Tek istisna: satıcı bu tehlikeyi **ayrıca üstlenmişse** (örneğin \"ipotek kaydı sorun olursa ben öderim\" demişse) sorumluluk sürer.\n\n> **Örnek:** Ayşe, tapuda tescilli ipotek kaydını görerek ve bilerek bir taşınmaz satın alır. Satıcı ipoteği ayrıca üstlenmemiştir. İpotek yüzünden taşınmaz alıcının elinden çıksa bile satıcı TBK m. 214/2 gereği sorumlu olmaz.\n\nKanun \"biliyor idiyse\" der. \"Bilmesi gerekirdi\" ifadesi yoktur; hükmü kanun metninden fazla genişletme. Yargıtay kararlarında, tapuda satımı engelleyen bir şerh bulunmaması da olayın değerlendirilmesinde dikkate alınmıştır.\n\n## 3. Sorumsuzluk anlaşması (TBK m. 214/3)\n\nTaraflar sözleşmeye \"satıcı zapttan sorumlu değildir\" ya da \"sorumluluk şu tutarla sınırlıdır\" diye yazabilir. Ancak **satıcı üçüncü kişinin hakkını gizlemişse** bu anlaşma **kesin olarak hükümsüzdür** (TBK m. 214/3). Kesin hükümsüzlük, alıcının onayına ya da hâkimin iptaline gerek olmadan bu anlaşmanın hiç doğmamış sayılması demektir.\n\nKanun yalnız gizleme hâlini hükümsüz kılar. Gizleme yoksa ve alıcı tehlikeyi bilmiyorsa sınırlama anlaşmasının geçerliliği genel hükümlere göre belirlenir.\n\n> ⚠️ **Sınavda dikkat:** İki hükmü karıştırma. Ayıpta ölçüt **satıcının ağır kusuru**dur (TBK m. 221). Zaptta ölçüt **hakkı gizlemesi**dir (TBK m. 214/3). Sorumsuzluk anlaşmasının hükümsüzlük şartı iki ayrı yerde farklı kurulmuştur.\n\n> **Örnek:** Satıcı Ali, aracın çalıntı olduğunu bilerek \"her türlü sorumluluktan arî\" kaydı koyar ve aracı Zeynep'e satar. Ali hakkı gizlediğinden kayıt geçersizdir; Zeynep aracın alınması hâlinde Ali'ye başvurabilir.\n\n## 4. Davanın satıcıya bildirilmesi (TBK m. 215)\n\nÜçüncü kişi alıcıya dava açarsa alıcı için en önemli adım davayı **satıcıya bildirmektir**. Usul hukukundaki karşılığı **davanın ihbarıdır** (HMK m. 61): Davayı kaybederse üçüncü kişiye ya da üçüncü kişinin kendisine rücu edeceğini düşünen taraf, tahkikat sonuçlanıncaya kadar davayı ihbar edebilir. İhbar yazılı yapılır; gerekçesini ve yargılamanın hangi aşamada olduğunu içermelidir (HMK m. 62).\n\n### 4.1 Satıcının yükümlülüğü\nDava kendisine bildirilen satıcı, durumun gereğine göre ya alıcının yanında davaya katılmak ya da alıcının yerine geçerek davayı takip edip savunmak zorundadır (TBK m. 215/1). HMK'da taraf yerine geçme kurumu bulunmadığından uygulamada satıcı, alıcının yanında **fer'î müdahil** olarak yer alır (HMK m. 66). Kendisine ihbar edilen kişi davanın tarafı olmaz; hakkında hüküm kurulmadığından, tek başına temyiz hakkı da yoktur.\n\n### 4.2 Bildirimin sonuçları\n\n| Durum | Sonuç | Madde |\n|---|---|---|\n| Elverişli zamanda bildirildi | Hüküm satıcıyı da bağlar | TBK m. 215/2 |\n| Alıcının ağır kusuru ispatlandı | Hüküm satıcıyı bağlamaz | TBK m. 215/2 |\n| Satıcıya yüklenemeyen sebeple bildirilmedi | Satıcı, daha elverişli hükmü ispatladığı ölçüde kurtulur | TBK m. 215/3 |\n\n\"Elverişli zaman\", satıcının davaya katılıp savunma yapabileceği bir zamandır. Fer'î müdahilin davadaki durumu HMK'da ayrıca düzenlenmiştir; rücu ilişkisinde asıl davadaki uyuşmazlık hakkında yanlış karar verildiği iddiası kural olarak dinlenmez (HMK m. 64 ve HMK m. 69/2).\n\n> **Örnek:** Mehmet, aldığı tarlayı gerçek malik Ü'nün açtığı davada kaybeder. Mehmet davayı süresinde satıcı Selim'e bildirmiş, Selim katılmamıştır. Selim sonradan \"mahkeme yanlış karar verdi\" diyemez; hüküm, Mehmet'in ağır kusuru ispatlanmadıkça Selim'i de bağlar.\n\n### 4.3 Bildirim yapılmazsa\nBildirim yapılmaması sorumluluğu **kendiliğinden ortadan kaldırmaz**. Satıcı, ancak zamanında bildirilseydi daha elverişli bir hüküm alınabileceğini **ispatladığı ölçüde** sorumluluktan kurtulur (TBK m. 215/3). Yani ispat yükü satıcıdadır. Ayrıca alıcı, davayı bildirmekle kaçınılabilecek giderleri satıcıdan isteyemez (TBK m. 217/1'in 3. bendi).\n\n> 💡 **Püf nokta:** Bildirim bir \"ön şart\" değil, bir \"külfet\"tir. Yapmazsan hakkını kaybetmezsin; ama ispat yükü ve bazı giderler sana kalabilir.\n\n## 5. Mahkeme kararı olmadan malın verilmesi (TBK m. 216)\n\nAlıcı, üçüncü kişi dava açar açmaz malı verirse satıcı \"ben bu davada yoktum\" diyebilir mi? Kanun, belirli hâllerde bu savunmayı kapatır. Satıcının sorumluluğu şu durumlarda **devam eder** (TBK m. 216/1):\n\n1. Alıcı, mahkeme kararını beklemeden üçüncü kişinin hakkını **dürüstlük kurallarına uygun olarak** tanımış ve satılanı ona vermişse.\n2. Alıcı, üçüncü kişinin dava açmasını beklemeden satıcıyı, uyuşmazlığı **dava yoluyla çözmesi**, aksi hâlde **tahkim yoluna** başvuracağı konusunda **gecikmeksizin uyarmış** ve sonuç alamadığı için tahkime gitmişse.\n\nAyrıca alıcı, satılanı üçüncü kişiye **vermekle yükümlü olduğunu ispat ederse** satıcının sorumluluğu yine devam eder (TBK m. 216/2).\n\n> **Örnek:** Hakan, satın aldığı iş makinesinin gerçek sahibinin, mülkiyetini açıkça gösteren belgelerini görür ve makineyi dava beklemeden teslim eder. Hakan tanımayı dürüstlük kurallarına uygun yapmış ve verme yükümlülüğünü ispatlayabiliyorsa satıcı sorumlu kalır.\n\n> ⚠️ **Sınavda dikkat:** Buradaki ölçü \"dürüstlük kuralları\"dır. Alıcı, üçüncü kişinin haksız bir talebine acele boyun eğerse satıcı sorumluluğunu sürdürmez.\n\n## 6. Tam zapt hâlinde sonuçlar (TBK m. 217)\n\n### 6.1 Sözleşme kendiliğinden sona erer\nSatılanın **tamamı** alıcının elinden alınmışsa satış sözleşmesi **kendiliğinden sona ermiş sayılır** (TBK m. 217/1). Alıcının dönme beyanı, ihtar ya da dava açması gerekmez. Sözleşme baştan geçerli kurulmuştur; zapt onu sonradan ortadan kaldırır.\n\n### 6.2 Alıcının istemleri\nAlıcı satıcıdan şunları isteyebilir (TBK m. 217/1):\n1. Satılandan elde ettiği ya da elde etmeyi ihmal ettiği **ürünlerin değeri indirilerek**, ödediği satış bedelinin **faiziyle birlikte** geri verilmesi.\n2. Satılanı elinden alan üçüncü kişiden isteyemeyeceği giderler.\n3. Davayı satıcıya bildirmekle kaçınılabilecek olanlar dışında kalan bütün **yargılama ve yargılama dışı giderler**.\n4. Satılanın tamamen elinden alınması yüzünden **doğrudan doğruya uğradığı diğer zararlar**.\n\n> **Örnek:** Burak, 500.000 TL'ye aldığı otomobile üç ay sonra el konulur. Burak bu sürede aracı kiraya vermiş ve toplam 12.000 TL kira geliri elde etmiştir. Burak, satış bedelini faiziyle ister; elde ettiği kira geliri (ürün) bedelden indirilir. Araçta yaptırdığı onarım için ödediği gider de, el koyan makamdan ya da üçüncü kişiden isteyemediği ölçüde talep kalemleri arasındadır.\n\nYargıtay bu konuda önemli bir ayrım yapar: Hususi bir otomobili olağan şekilde kullanan alıcıdan \"kullanma menfaati\" adı altında bir semere indirimi yapılmaz; ama araç fiilen kiraya verilmiş ve kira geliri elde edilmişse o gelir indirilir.\n\n### 6.3 Diğer zararlar: kusur karinesi\nSatıcı, kendisine hiçbir kusur yüklenemeyeceğini **ispat etmedikçe**, alıcının zapt yüzünden uğradığı **diğer zararları** da gidermekle yükümlüdür (TBK m. 217/2). İlk dört kalem kusursuz sorumluluğa bağlıdır; bu fıkra ise kusur karinesidir.\n\n| Kalem | Kusur aranır mı? | Madde |\n|---|---|---|\n| Bedel, giderler, doğrudan zarar | Hayır | TBK m. 217/1 |\n| Diğer zararlar | Evet; satıcı kusursuzluğunu ispatlar | TBK m. 217/2 |\n\n> ⚠️ **Sınavda dikkat:** \"Satıcı kusursuzsa hiçbir şey ödemez\" demek yanlıştır. Tam zaptta bedel iadesi ve doğrudan zarar kusura bağlı değildir; kusursuzluk yalnız TBK m. 217/2'deki diğer zararlarda ispat edilmelidir.\n\n### 6.4 Bedel mi, rayiç değer mi?\nKanun açıkça \"ödemiş olduğu satış bedelinin faizi ile birlikte geri verilmesini\" der. Yargıtay 3. Hukuk Dairesi'nin yeni tarihli kararlarında çoğunluk, enflasyon karşısında alıcının malvarlığı kaybının giderilmesi için zapt tarihindeki **gerçek ve güncel değerin** istenebileceğini kabul etmiş, karşı oylarda ise kanundaki bedel iadesinin aşılamayacağı savunulmuştur. Bu tartışmalıdır; ayrıntısı doktrin bölümündedir. Sınavda bedel iadesi ve faiz konusunda kesin konuş, rayiç değer konusunda tartışmayı göster.\n\n## 7. Kısmi zapt (TBK m. 218)\n\nSatılanın **bir kısmı** alıcının elinden alınmışsa ya da satılan **sınırlı ayni bir hakla yüklenmişse** (ipotek, irtifak gibi) alıcı kural olarak **yalnız bu yüzden uğradığı zararı** isteyebilir (TBK m. 218/1).\n\n**İstisna:** Alıcının, durumu bilseydi malı satın almayacağı, durum ve koşullardan anlaşılıyorsa alıcı **hâkimden** sözleşmenin sona ermesine karar vermesini isteyebilir. Bu durumda alıcı, elinde kalan kısmı, o zamana kadar elde ettiği yararlarla birlikte satıcıya geri vermekle yükümlüdür (TBK m. 218/2).\n\n| Ölçüt | Tam zapt | Kısmi zapt |\n|---|---|---|\n| Sözleşmenin sonu | Kendiliğinden | Hâkim kararıyla |\n| Alıcının yetkisi | Bildirim gerekmez | Tek taraflı dönemez |\n| Madde | TBK m. 217/1 | TBK m. 218/2 |\n\n> **Örnek:** Fabrika kurmak isteyen Can, Selim'den 20 dönümlük bir arsa alır. Sonra arsanın dört dönümlük kısmının üçüncü kişiye ait olduğu kesinleşir. Can, arsayı yalnızca bütün hâlinde fabrika yapmak için aldığını sözleşmede açıkça belirtmişse bilseydi satın almayacağı anlaşılır; hâkimden sözleşmenin sona ermesini ister ve kalan on altı dönümü yararlarıyla geri verir. Bunu yapmazsa yalnız dört dönümün değer kaybını talep eder.\n\n> ⚠️ **Sınavda dikkat:** Kısmi zaptta \"noter ihtarıyla döndüm\" demek yetmez. Dönme beyanı tek başına sözleşmeyi sona erdirmez; hâkimin kararı gerekir.\n\n## 8. Zamanaşımı\n\nTBK m. 231'deki iki yıllık süre, satılanın **ayıbından** doğan davalara aittir. Zapttan doğan alacaklar ayıp hükümlerine tabi değildir; bu nedenle genel zamanaşımı (TBK m. 146, on yıl) uygulanır. Süre başlangıcı olarak çoğunlukla zaptın gerçekleştiği an (örneğin tapu iptal kararının kesinleştiği tarih) gösterilir; bu ayrıntıyı sınavda kesin bir kural gibi yazma. Temel mesaj, ayıptaki iki yıllık sürenin burada **uygulanmadığıdır**.\n\n## 9. Zapt, ayıp ve tapuya güven\n\n- **Zapt – hukuki ayıp:** Üçüncü kişinin özel hukuktan doğan üstün hakkı (mülkiyet, rehin, irtifak) alıcının elinden alınmasına yol açıyorsa zapttır. Malın kullanımını kısıtlayan **kamu hukuku düzenlemeleri** (imar yasağı, SİT alanı gibi) ise hukuki ayıp olarak TBK m. 219 kapsamında değerlendirilir.\n- **Zapt – tapuya güven:** Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet kazanan kişinin kazanımı korunur (TMK m. 1023). Alıcının kazanımı korunuyorsa gerçek hak sahibi malı onun elinden alamaz ve zapt doğmaz. Zapt hükümleri, kazanım korunmadığı için malın alıcının elinden çıktığı hâllerde satıcıyla alıcı arasındaki ilişkiyi düzenler.\n- **Teslim öncesi:** Satılan henüz teslim edilmeden üçüncü kişi üstün hakkını ileri sürerse bunun TBK m. 214'e mi, ifa engeline mi tabi olduğu tartışmalıdır (doktrin).\n\n## 10. Olay çözerken denetim şeması\n\n1. **Nitelendir:** Üçüncü kişi mi (zapt), malın kendi niteliği mi (ayıp)?\n2. **Hak ne zaman var?** Sözleşme kurulurken var mıydı (TBK m. 214/1)?\n3. **Alıcı biliyor muydu?** Biliyorsa satıcı ayrıca üstlenmiş mi (TBK m. 214/2)?\n4. **Sorumsuzluk kaydı var mı?** Satıcı hakkı gizlemiş mi (TBK m. 214/3)?\n5. **Dava ve bildirim:** Dava satıcıya bildirildi mi, zamanında mı (TBK m. 215)?\n6. **Malı verme:** Dava beklenmeden verilmişse TBK m. 216'nın şartları sağlanıyor mu?\n7. **Tam mı, kısmi mi?** Tam zaptta sözleşme kendiliğinden sona erer ve TBK m. 217 istemleri doğar. Kısmi zaptta zarar istenir ya da hâkimden sona erme istenir (TBK m. 218).\n8. **Zarar kalemleri:** Bedel, ürün indirimi, giderler, doğrudan zarar, diğer zarar (kusur karinesi).\n9. **Süre:** Ayıp süresi değil, genel zamanaşımı.",
+  "critical_md": "- 📌 Zapt, satış sözleşmesinin kurulduğu sırada var olan bir hak yüzünden satılanın tamamının ya da bir kısmının üçüncü kişice alıcının elinden alınmasıdır (TBK m. 214/1).\n- ⚠️ Kritik an sözleşmenin kurulduğu andır. Hak sonradan doğmuşsa zapt doğmaz.\n- 📌 Satıcının zapttan sorumluluğu kusursuz sorumluluktur; satıcının hakkı bilmemesi sonucu değiştirmez.\n- 📌 Alıcı, elinden alınma tehlikesini sözleşme kurulurken biliyorsa satıcı, ayrıca üstlenmedikçe sorumlu olmaz (TBK m. 214/2).\n- ⚠️ Zaptta sorumsuzluk anlaşmasının hükümsüzlük ölçütü satıcının hakkı **gizlemesi**dir (TBK m. 214/3). Ayıpta ölçüt ağır kusurdur (TBK m. 221). İkisini karıştırma.\n- 📌 Dava satıcıya bildirilmişse satıcı davaya katılmak ya da davayı takip etmek zorundadır; usulde satıcı fer'î müdahil olarak yer alır (TBK m. 215/1; HMK m. 66).\n- 📌 Elverişli zamanda yapılan bildirim varsa hüküm, alıcının ağır kusuru ispatlanmadıkça satıcıyı da bağlar (TBK m. 215/2).\n- ⚠️ Davanın bildirilmemesi sorumluluğu kendiliğinden düşürmez. Satıcı yalnız, zamanında bildirilseydi daha elverişli hüküm alınabileceğini ispatladığı ölçüde kurtulur (TBK m. 215/3).\n- 📌 Alıcı mahkeme kararını beklemeden dürüstlük kurallarına uygun olarak üçüncü kişinin hakkını tanıyıp malı vermişse; ya da satıcıyı gecikmeksizin uyarıp tahkime gitmişse sorumluluk sürer (TBK m. 216/1). Verme yükümlülüğünün ispatı da yeter (TBK m. 216/2).\n- 📌 Tam zaptta sözleşme kendiliğinden sona erer; bildirim, ihtar ya da dava gerekmez (TBK m. 217/1).\n- 📌 Tam zaptta istenebilenler: ürün değeri indirilmiş bedel ve faizi, üçüncü kişiden isteyemeyeceği giderler, kaçınılabilecek olanlar dışındaki yargılama ve yargılama dışı giderler, doğrudan zarar (TBK m. 217/1).\n- ⚠️ Diğer zararlarda satıcı, kendisine kusur yüklenemeyeceğini ispat etmedikçe sorumludur (TBK m. 217/2). İlk dört kalemde kusur aranmaz.\n- 📌 Kısmi zaptta ya da sınırlı ayni hakla yüklenmede alıcı kural olarak yalnız zararını ister; bilseydi satın almayacağı anlaşılıyorsa hâkimden sözleşmenin sona ermesine karar vermesini ister (TBK m. 218/1-2).\n- ⚠️ Kısmi zaptta tek taraflı dönme beyanı yetmez; sona erme için hâkim kararı gerekir.\n- 📌 Zapttan doğan istemlerde iki yıllık ayıp zamanaşımı (TBK m. 231) değil, genel zamanaşımı (TBK m. 146) uygulanır.",
+  "doctrine_md": "### Tam zaptta bedel mi, güncel değer mi?\nTBK m. 217/1'in 1. bendi alıcının \"ödemiş olduğu satış bedelinin faizi ile birlikte\" geri verilmesini istemesinden söz eder. Klasik görüşe göre tam zaptta sözleşme kendiliğinden sona erdiğinden alıcı yalnız bu kalemleri isteyebilir; seçimlik hakkı yoktur. TBK m. 217/2'deki \"diğer zararlar\" ise sınırlı biçimde, özellikle yoksun kalınan kâr olarak yorumlanır ve güncel rayiç değeri kapsamaz.\n\nKarşı görüş, sözleşmenin başlangıçta geçerli kurulup sonradan ortadan kalktığına dikkat çeker. Yüksek enflasyon karşısında alıcıya yalnız eski bedeli ödemek, malvarlığı kaybını gidermez; bu nedenle zapt tarihindeki gerçek ve güncel değer (müspet zarar) istenebilmelidir. Yargıtay 3. Hukuk Dairesi'nin yeni tarihli kararlarında bu yaklaşım (çoğunlukla oy çokluğuyla) benimsenmiş, karşı oylarda ise kanundaki bedel iadesinin aşılamayacağı savunulmuştur. Konu tartışmalıdır; sınavda her iki görüşü ve gerekçelerini yaz.\n\n### Teslim öncesi zapt olur mu?\nTBK m. 214/1 \"alıcının elinden alınırsa\" der. Birinci görüşe göre satılan teslim edilmeden zapt doğmaz; teslimden önce üçüncü kişinin hakkı yüzünden ifa edilemiyorsa borçlunun ifa engeline ilişkin genel hükümler (TBK m. 112 ve TBK m. 212) uygulanır. İkinci görüşe göre üçüncü kişinin üstün hakkı sözleşme kurulurken var olduğundan zapt hükümleri teslimden önce de kıyasen uygulanabilir. İncelenen Yargıtay kararlarında zapt olayları, teslim edilmiş mallar üzerinde ortaya çıkmıştır.\n\n### Fikrî ve sınaî haklar\nÜçüncü kişinin marka, patent ya da telif hakkı ihlali iddiası bakımından iki yaklaşım vardır. Birincisine göre bu haklar özel hukuktan doğan mutlak haklardır ve alıcının satılanı kullanması engellendiğinde TBK m. 214 anlamında zapt söz konusudur. İkincisine göre mülkiyet alıcıda kalıp yalnız kullanım kısıtlanıyorsa hukuki ayıp (TBK m. 219) uygulanmalıdır. Konu tartışmalıdır; sınavda iki görüş verilir.",
+  "glossary": [
+   {
+    "term": "Zapt",
+    "definition": "Satış sözleşmesinin kurulduğu sırada var olan bir hak yüzünden satılanın tamamının ya da bir kısmının üçüncü kişi tarafından alıcının elinden alınması (TBK m. 214/1)."
+   },
+   {
+    "term": "Zapta karşı tekeffül",
+    "definition": "Satıcının zapt hâlinde alıcıya karşı sorumluluğu; kusursuz sorumluluktur (TBK m. 214-218)."
+   },
+   {
+    "term": "Tam zapt",
+    "definition": "Satılanın tamamının alıcının elinden alınması. Sözleşme kendiliğinden sona erer (TBK m. 217/1)."
+   },
+   {
+    "term": "Kısmi zapt",
+    "definition": "Satılanın bir kısmının elden alınması ya da satılanın sınırlı ayni hakla yüklenmesi (TBK m. 218/1)."
+   },
+   {
+    "term": "Davanın ihbarı",
+    "definition": "Davayı kaybederse rücu edeceğini düşünen tarafın davayı üçüncü kişiye bildirmesi (HMK m. 61). Zaptta alıcı, satıcıya ihbarda bulunur (TBK m. 215)."
+   },
+   {
+    "term": "Fer'î müdahale",
+    "definition": "Üçüncü kişinin, davayı kazanmasında hukuki yararı bulunan taraf yanında ona yardımcı olmak için davada yer alması (HMK m. 66). Zaptta satıcı bu sıfatla katılır."
+   },
+   {
+    "term": "Hakkın gizlenmesi",
+    "definition": "Satıcının üçüncü kişinin hakkını alıcıdan saklaması. Gizleme varsa sorumsuzluk anlaşması kesin olarak hükümsüzdür (TBK m. 214/3)."
+   },
+   {
+    "term": "Kesin hükümsüzlük",
+    "definition": "Bir işlemin hiçbir sonuç doğurmaması; kimsenin onayına ya da hâkim kararına gerek kalmadan geçersiz olması."
+   },
+   {
+    "term": "Ürün (semere)",
+    "definition": "Satılandan elde edilen ya da elde edilmesi ihmal edilen gelir; tam zaptta iade edilecek bedelden indirilir (TBK m. 217/1)."
+   },
+   {
+    "term": "Doğrudan zarar",
+    "definition": "Satılanın tamamen elinden alınması yüzünden alıcının doğrudan uğradığı zarar; kusursuz istenir (TBK m. 217/1'in 4. bendi)."
+   },
+   {
+    "term": "Change araç",
+    "definition": "Şasi numarası ya da kimliği değiştirilmiş araç. El konulması tam zapt sayılır."
+   },
+   {
+    "term": "Hukuki ayıp",
+    "definition": "Satılanın kullanımını ya da değerini azaltan hukuki bir durum, örneğin kamu hukuku kısıtlamaları (TBK m. 219). Zaptla karıştırılmaz."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "214",
+   "official_text": "MADDE 214- Satış sözleşmesinin kurulduğu sırada var olan bir hak dolayısıyla, satılanın tamamı veya bir kısmı bir üçüncü kişi tarafından alıcının elinden alınırsa satıcı, bundan dolayı alıcıya karşı sorumlu olur.\nAlıcı, elinden alınma tehlikesini sözleşmenin kurulduğu sırada biliyor idiyse satıcı, ayrıca üstlenmiş olmadıkça bundan dolayı sorumlu olmaz.\nSatıcı, üçüncü kişinin hakkını gizlemişse, sorumluluğunu kaldırma veya sınırlama konusunda yapılmış olan anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "215",
+   "official_text": "MADDE 215- Satılanın elinden alınması tehlikesi ile karşılaşan alıcı, kendisine karşı açılan davayı satıcıya bildirdiği zaman satıcı, durumun gereğine göre ve yargılama usulü uyarınca ya alıcının yanında davaya katılmak ya da alıcı yerine geçerek üçüncü kişiye karşı davayı takip etmek ve savunmak zorundadır.\nBildirme, davaya katılmaya ve savunmaya elverişli bir zamanda yapılmışsa, alıcının aleyhinde verilen hüküm, onun ağır kusuru yüzünden verildiği ispat edilmedikçe, satıcı için de sonuç doğurur.\nDava, kendisine yüklenilemeyen sebeplerden dolayı satıcıya bildirilmemişse satıcı, zamanında bildirilmiş olsaydı daha elverişli bir hüküm elde edilebileceğini ispatladığı ölçüde sorumluluktan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "216",
+   "official_text": "MADDE 216- Satıcının zapttan sorumluluğu aşağıdaki hâllerde devam eder:\n1. Alıcı, bir mahkeme kararı beklemeksizin üçüncü kişinin hakkını dürüstlük kurallarına uygun olarak tanımış ve satılanı ona vermişse.\n2. Alıcı, üçüncü kişinin kendisine karşı dava açmasını beklemeden, satıcıyı satılan üzerindeki hak iddiasına ilişkin uyuşmazlığı dava yoluyla çözümlemesi, aksi takdirde tahkim yoluna başvuracağı konusunda gecikmeksizin uyarmış ve bundan sonuç alamadığı için tahkim yoluna başvurmuşsa.\nSatıcının sorumluluğu, alıcının satılanı üçüncü kişiye vermekle yükümlü olduğunu ispat etmesi durumunda da devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "217",
+   "official_text": "MADDE 217- Satılanın tamamı alıcının elinden alınmışsa, satış sözleşmesi kendiliğinden sona ermiş sayılır ve alıcı satıcıdan aşağıdaki istemlerde bulunabilir:\n1. Satılandan elde ettiği veya elde etmeyi ihmal eylediği ürünlerin değeri indirilerek, ödemiş olduğu satış bedelinin faizi ile birlikte geri verilmesini.\n2. Satılanı elinden alan üçüncü kişiden isteyemeyeceği giderleri.\n3. Davayı satıcıya bildirmekle kaçınılabilecek olanlar dışında kalan bütün yargılama giderleri ile yargılama dışındaki giderleri.\n4. Satılanın tamamen elinden alınması yüzünden doğrudan doğruya uğradığı diğer zararları.\nSatıcı, kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe, alıcının satılanın elinden alınması yüzünden uğramış olduğu diğer zararları da gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "218",
+   "official_text": "MADDE 218- Satılanın bir kısmı elinden alınmış veya satılan sınırlı ayni bir hakla yüklenmişse alıcı, sadece bu yüzden uğradığı zararın giderilmesini isteyebilir.\nAncak alıcının, satılandaki bu durumu bilseydi onu satın almayacağı durum ve koşullardan anlaşılıyorsa, alıcı hâkimden sözleşmenin sona ermesine karar vermesini isteyebilir. Bu durumda alıcı, satılanın elinde kalmış olan kısmını o zamana kadar elde etmiş olduğu yararlarla birlikte, satıcıya geri vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "219",
+   "official_text": "MADDE 219- Satıcı, alıcıya karşı herhangi bir surette bildirdiği niteliklerin satılanda bulunmaması sebebiyle sorumlu olduğu gibi, nitelik veya niteliği etkileyen niceliğine aykırı olan, kullanım amacı bakımından değerini ve alıcının ondan beklediği faydaları ortadan kaldıran veya önemli ölçüde azaltan maddi, hukuki ya da ekonomik ayıpların bulunmasından da sorumlu olur.\nSatıcı, bu ayıpların varlığını bilmese bile onlardan sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "221",
+   "official_text": "MADDE 221- Satıcı satılanı ayıplı olarak devretmekte ağır kusurlu ise, ayıptan sorumluluğunu kaldıran veya sınırlayan her anlaşma kesin olarak hükümsüzdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "231",
+   "official_text": "MADDE 231- Satıcı daha uzun bir süre için üstlenmiş olmadıkça, satılanın ayıbından doğan sorumluluğa ilişkin her türlü dava, satılandaki ayıp daha sonra ortaya çıksa bile, satılanın alıcıya devrinden başlayarak iki yıl geçmekle zamanaşımına uğrar. Alıcının satılanın kendisine devrinden başlayarak iki yıl içinde bildirdiği ayıptan doğan def’i hakkı, bu sürenin geçmiş olmasıyla ortadan kalkmaz.\nSatıcı, satılanı ayıplı olarak devretmekte ağır kusurlu ise, iki yıllık zamanaşımı süresinden yararlanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "207",
+   "official_text": "MADDE 207- Satış sözleşmesi, satıcının, satılanın zilyetlik ve mülkiyetini alıcıya devretme, alıcının ise buna karşılık bir bedel ödeme borcunu üstlendiği sözleşmedir.\nSözleşme ile aksi kararlaştırılmadıkça veya aksine bir âdet bulunmadıkça, satıcı ve alıcı borçlarını aynı anda ifa etmekle yükümlüdürler.\nDurum ve koşullara göre belirlenmesi mümkün olan bedel, kararlaştırılmış bedel hükmündedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "212",
+   "official_text": "MADDE 212- Satıcının temerrüdü hâlinde, borçlunun temerrüdüne ilişkin genel hükümler uygulanır.\nZilyetliğin devri için belirli bir süre konulmuş olan ticari satışlarda, satıcı temerrüde düşerse alıcının, devir isteminden vazgeçerek borcun ifa edilmemesinden doğan zararının giderilmesini istediği kabul edilir.\nAlıcı, satılanın devredilmesini isteme niyetinde ise, belirlenen sürenin bitiminde bunu satıcıya hemen bildirmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "61",
+   "official_text": "MADDE 61- (1) Taraflardan biri davayı kaybettiği takdirde, üçüncü kişiye veya üçüncü kişinin kendisine rücu edeceğini düşünüyorsa, tahkikat sonuçlanıncaya kadar davayı üçüncü kişiye ihbar edebilir.\n(2) Dava kendisine ihbar edilen kişinin de aynı şartlarda bir başkasına ihbarda bulunması mümkündür ve bu şekilde ihbar tevali ettirilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "62",
+   "official_text": "MADDE 62- (1) İhbar yazılı olarak yapılır; ihbar sebebinin gerekçeleriyle birlikte açıklanması ve yargılamanın hangi aşamada bulunduğunun belirtilmesi gerekir.\n(2) Davanın ihbarı sebebiyle yargılama bir başka güne bırakılamaz ve ihbarın tevali etmesi gibi zorunlu olan durumlar dışında süre verilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "64",
+   "official_text": "İhbarın etkisi\nMADDE 64- (1) İhbar edilen davada verilen hükmün ihbar eden kişiye etkisi hakkında 69 uncu maddenin ikinci fıkrası hükmü kıyasen uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "65",
+   "official_text": "Asli müdahale\nMADDE 65- (1) Bir yargılamanın konusu olan hak veya şey üzerinde kısmen ya da tamamen hak iddia eden üçüncü kişi, hüküm verilinceye kadar bu durumu ileri sürerek, yargılamanın taraflarına karşı aynı mahkemede dava açabilir.\n(2) Asli müdahale davası ile asıl yargılama birlikte yürütülür ve karara bağlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "66",
+   "official_text": "MADDE 66- (1) Üçüncü kişi, davayı kazanmasında hukuki yararı bulunan taraf yanında ve ona yardımcı olmak amacıyla, tahkikat sona erinceye kadar, fer’î müdahil olarak davada yer alabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "69",
+   "official_text": "Fer’î müdahalenin etkisi\nMADDE 69- (1) Müdahilin de yer aldığı asıl davada hüküm, taraflar hakkında verilir.\n(2) Fer’î müdahilin, tarafla rücu ilişkisinde, asıl davadaki uyuşmazlık hakkında yanlış karar verildiği iddiası dinlenilmez. Ancak, müdahil, zamanında ihbar yapılmadığı için davaya geç katıldığını veya yanında katıldığı tarafın iddia ve savunma imkânlarını kullanmasını engellediğini ya da kendisince bilinmeyen iddia ve savunma imkânlarının, tarafın ağır kusuru sebebiyle kullanılamadığını belirterek, yanında katıldığı tarafın yargılamayı hatalı yürüttüğünü ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "994",
+   "official_text": "b. Tazminat\nMadde 994- İyiniyetli zilyet, geri vermeyi isteyen kimseden şey için yapmış olduğu zorunlu ve yararlı giderleri tazmin etmesini isteyebilir ve bu tazminat ödeninceye kadar şeyi geri vermekten kaçınabilir.\nİyiniyetli zilyet, diğer giderler için tazminat isteyemez. Ancak, şeyin geri verilmesinden önce kendisine bu giderler için bir tazminat önerilmezse, kendisi tarafından o şeyle birleştirilen ve zararsızca ayrılması mümkün bulunan eklemeleri o şeyi geri vermeden önce ayırıp alabilir.\nZilyedin elde ettiği ürünler, yaptığı giderler sebebiyle doğan alacaklarına mahsup edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2026/25",
+   "karar_no": "2026/3753",
+   "decision_date": "",
+   "summary_md": "Davacı alıcı, noter sözleşmesiyle 160.000 TL bedelle ikinci el bir araç satın almıştır. Soruşturma sırasında aracın şasi numarasında sahtecilik yapıldığı (change) saptanmış ve araca el konulmuştur. Alıcı, el koyma tarihindeki değerin tahsilini istemiş; ilk derece mahkemesi alıcının yalnız noterdeki satış bedelini isteyebileceğini kabul etmiş, istinaf başvurusu reddedilmiştir. Yargıtay 3. Hukuk Dairesi, çalıntı ya da change araca el konulmasını TBK m. 214 ve TBK m. 217 anlamında tam zapt saymış, satıcının sorumluluğunu kusursuz sorumluluk olarak nitelemiş ve oy çokluğuyla bozmuştur. Çoğunluğa göre alıcı, zapt tarihindeki gerçek ve güncel değeri isteyebilir; karşı oya göre alıcı yalnız satış bedelini isteyebilir. İhbar edilen Bakanlığın temyizi, davanın tarafı olmadığı için reddedilmiştir. Konuya katkısı: change araç el koymasının tam zapt olduğunu ve bedel-rayiç tartışmasını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1231262700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/3980",
+   "karar_no": "2026/2759",
+   "decision_date": "",
+   "summary_md": "Alıcı, malikten 90.000 TL'ye noterde araç satın almış, bedeli malikin oğlunun hesabına yatırmış ve aracı aylık 5.000 TL'ye kiraya vermiştir. Araç, kısa süre sonra change ya da çalıntı olduğu gerekçesiyle el konulur. Alıcı, hem malikten hem malikin oğlundan satış bedelinin ve masrafların tahsilini istemiştir. Mahkeme, sözleşme tarafı olmayan oğul hakkındaki davayı husumet yönünden reddetmiş; Yargıtay bu yönü yerinde görmüştür. İlk derece mahkemesi bilirkişinin günlük 250 TL üzerinden hesapladığı kullanma menfaatini bedelden düşmüş; Yargıtay 3. Hukuk Dairesi oy çokluğuyla bozarak, taleple bağlı kalınıp satış bedelinden fiilen elde edilen kira gelirinin düşülmesi gerektiğini belirtmiştir. Konuya katkısı: satıcıyla birlikte hareket ettiği ispatlanamayan sözleşme dışı kişiye zapttan sorumluluk davası yöneltilemeyeceğini ve semere indiriminde fiilen elde edilen gelirin esas alındığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1219087100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/5258",
+   "karar_no": "2026/2187",
+   "decision_date": "15.04.2026",
+   "summary_md": "Davacı alıcı, bir dükkânı davalıdan tapuda satın almıştır; davalı da dükkânı yüklenicinin satış yaptığı üçüncü bir kişiden almıştır. Arsa sahiplerinin açtığı davada davacının tapusu iptal edilerek üçüncü kişiler adına tescil edilmiş ve karar kesinleşmiştir. Davacı, iptal kararının kesinleştiği tarihteki değeri ve tapu iptal davasında ödediği yargılama giderini satıcıdan istemiştir. Davalı, davacının zapt tehlikesini bildiğini ve kendisine dava bildirilmediğini savunmuştur. Mahkemeler TBK m. 214 ve devamı uyarınca davayı kısmen kabul etmiş; Yargıtay 3. Hukuk Dairesi, satım tarihinde tapuda satışı engelleyen bir şerh bulunmadığını ve sözleşmenin geçerli kurulduğunu belirterek kesinleşme tarihindeki gerçek değere ve giderlere hükmeden kararı yerinde bulmuş, temyiz itirazlarını reddedip oy birliğiyle onamıştır. Konuya katkısı: tapu iptalinin tam zapt olduğunu ve yargılama giderlerinin zarar kalemi sayıldığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1222135600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 214/1'e göre satıcının zapttan sorumluluğunun doğması için üçüncü kişinin alıcıya karşı ileri sürdüğü hakkın hangi anda var olması gerekir?",
+   "options": [
+    "Satış sözleşmesinin kurulduğu sırada",
+    "Üçüncü kişinin dava açtığı tarihte",
+    "Satış bedelinin ödendiği tarihte",
+    "Alıcının satılanı teslim aldığı anda"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 214/1, sorumluluğu \"satış sözleşmesinin kurulduğu sırada var olan bir hak\"a bağlar. Dava ya da elden alınma sonradan gerçekleşse de hakkın sözleşme anında var olması yeterlidir; sonradan doğan hak zapt doğurmaz. Teslim ya da ödeme anı ölçüt değildir."
+  },
+  {
+   "stem_md": "Satıcının zapttan sorumluluğunun niteliği hakkında hangisi doğrudur?",
+   "options": [
+    "Yalnız sözleşmede açıkça üstlenmişse sorumludur.",
+    "Satıcının kusurlu olması şarttır.",
+    "Kanundan doğan kusursuz sorumluluktur.",
+    "Yalnız satıcı hakkı biliyorsa sorumludur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Satıcı kusuru olmasa da, üçüncü kişinin hakkını bilmese de TBK m. 214/1 uyarınca sorumludur. Yargıtay da satıcının bu sorumluluğunu kanundan doğan kusursuz sorumluluk olarak niteler. Yaygın yanılgı, satıcının hakkı bilmesinin ya da kusurunun arandığını düşünmektir. Ayıpta da satıcı ayıbı bilmese bile sorumludur (TBK m. 219/2); zaptta kusur yalnız TBK m. 217/2'deki diğer zararlar bakımından önem taşır."
+  },
+  {
+   "stem_md": "Ayşe, tapuda tescilli ipotek kaydını görerek ve bilerek bir taşınmaz satın almıştır. Satıcı ipotekten doğacak sorumluluğu ayrıca üstlenmemiştir. Taşınmaz, ipotekli alacaklının talebiyle alıcının elinden çıkarsa hangisi doğrudur?",
+   "options": [
+    "Satıcı, alıcının bilmesine rağmen yalnız kısmi zapt hükümlerine göre sorumlu olur.",
+    "Alıcı, tapuya güven ilkesi gereği satıcıdan tam bedeli faizle isteyebilir.",
+    "Satıcı kusursuz sorumlu olduğundan alıcının bilmesi önemsizdir.",
+    "Alıcı tehlikeyi bildiği için satıcı, ayrıca üstlenmediği sürece sorumlu olmaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 214/2'ye göre alıcı, elinden alınma tehlikesini sözleşme kurulurken biliyorsa satıcı, ayrıca üstlenmedikçe sorumlu olmaz. Kusursuz sorumluluk, alıcının bildiği tehlike bakımından bu istisnayı ortadan kaldırmaz. Tapuya güven ilkesi (TMK m. 1023) iyiniyetli kazananı korur; burada alıcı kaydı bilerek almıştır."
+  },
+  {
+   "stem_md": "Satıcı Ali, aracın çalıntı olduğunu bilerek ve gizleyerek \"her türlü sorumluluktan arî\" kaydı koyup aracı Zeynep'e satmıştır. Araç sonradan gerçek malikin talebiyle Zeynep'in elinden alınmıştır. Bu kaydın durumu nedir?",
+   "options": [
+    "Kesin olarak hükümsüzdür; çünkü satıcı üçüncü kişinin hakkını gizlemiştir.",
+    "Geçerlidir; çünkü taraflar sorumluluğu serbestçe kaldırabilir.",
+    "Yalnız satıcının ağır kusurlu olduğu hâlde hükümsüzdür.",
+    "Yalnızca Zeynep'in itirazı hâlinde iptal edilebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 214/3'e göre satıcı üçüncü kişinin hakkını gizlemişse sorumluluğu kaldıran veya sınırlayan anlaşma kesin olarak hükümsüzdür. Hükümsüzlük kesin olduğundan iptal beyanı gerekmez. Ağır kusur ölçütü ayıpla ilgili TBK m. 221'in ölçütüdür; zaptta ölçüt gizlemedir."
+  },
+  {
+   "stem_md": "Zapttan sorumluluk ile ayıptan sorumluluk bakımından sorumsuzluk anlaşmasının geçersizlik ölçütleri hangi seçenekte doğru eşleştirilmiştir?",
+   "options": [
+    "Her ikisinde de alıcının bilmemesi",
+    "Zaptta hakkın gizlenmesi; ayıpta satıcının ağır kusuru",
+    "Her ikisinde de satıcının hakkı bilmesi",
+    "Zaptta satıcının ağır kusuru; ayıpta hakkın gizlenmesi"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 214/3'e göre zaptta satıcının üçüncü kişinin hakkını gizlemesi, TBK m. 221'e göre ayıpta satıcının ağır kusurlu olması anlaşmayı kesin hükümsüz kılar. Çeldirici seçenekler bu iki ölçütü yer değiştirir ya da tek bir ölçüte indirger."
+  },
+  {
+   "stem_md": "Mehmet, aldığı tarlanın gerçek maliki Ü'nün açtığı davayı satıcı Selim'e süresinde ve savunmaya elverişli bir zamanda bildirmiş, Selim davaya katılmamıştır. Mehmet davayı kaybedince Selim, \"mahkeme yanlış karar verdi\" demektedir. Hangisi doğrudur?",
+   "options": [
+    "Hüküm, Mehmet'in ağır kusuru yüzünden verildiği ispat edilmedikçe Selim için de sonuç doğurur.",
+    "Selim, asıl davadaki hükmün yanlış olduğunu her durumda ileri sürerek sorumluluktan kurtulabilir.",
+    "Selim yalnız Mehmet'in hile yaptığını ispatlarsa sorumluluktan kurtulur.",
+    "Hüküm satıcıyı bağlamaz; çünkü satıcı davanın tarafı olmamıştır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 215/2'ye göre bildirme, davaya katılmaya ve savunmaya elverişli bir zamanda yapılmışsa alıcının aleyhine verilen hüküm, onun ağır kusuru yüzünden verildiği ispat edilmedikçe satıcı için de sonuç doğurur. Bildirimin hüküm kesinleşmeden yapılmasının yeterli olmadığına, elverişli zamanda olması gerektiğine dikkat edilmelidir."
+  },
+  {
+   "stem_md": "Alıcı, kendisine karşı açılan davayı satıcıya bildirmemiştir; bildirmemenin satıcıdan kaynaklanan bir sebebi yoktur. Bildirim yapılmamasının sonucu hangisidir?",
+   "options": [
+    "Satıcı yalnız yargılama giderlerinden sorumlu tutulur.",
+    "Satıcının sorumluluğu kendiliğinden tamamen ortadan kalkar.",
+    "Alıcı hiçbir istemde bulunamaz.",
+    "Satıcı, zamanında bildirilseydi daha elverişli bir hüküm alınabileceğini ispatladığı ölçüde sorumluluktan kurtulur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 215/3'e göre dava satıcıya yüklenemeyen sebeplerle bildirilmemişse satıcı, zamanında bildirilmiş olsaydı daha elverişli bir hüküm elde edilebileceğini ispatladığı ölçüde kurtulur. Bildirim yapılmaması sorumluluğu kendiliğinden kaldırmaz; ispat yükü satıcıdadır."
+  },
+  {
+   "stem_md": "Dava kendisine bildirilen satıcının usul hukukundaki durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Davanın asıl tarafı olur ve hakkında hüküm kurulur.",
+    "Davaya yalnız asli müdahil olarak katılabilir.",
+    "Alıcının yanında fer'î müdahil olarak yer alır.",
+    "Davada hiçbir sıfatla yer alamaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "HMK'da taraf yerine geçme kurumu bulunmadığından, kendisine dava ihbar edilen satıcı alıcının yanında fer'î müdahil olarak davaya katılır (HMK m. 66). İhbar edilen kişi davanın tarafı olmaz. Asli müdahale ise yargılamanın konusu üzerinde hak iddia eden üçüncü kişiye aittir (HMK m. 65)."
+  },
+  {
+   "stem_md": "Hakan, satın aldığı iş makinesinin gerçek sahibinin belgelerini görmüş ve mülkiyetinin açık olduğunu anlayarak, dava açılmasını beklemeden makineyi ona teslim etmiştir. Hakan, üçüncü kişinin hakkını dürüstlük kurallarına uygun biçimde tanıdığını kanıtlayabilmektedir. Satıcının sorumluluğu bakımından hangisi doğrudur?",
+   "options": [
+    "Satıcının sorumluluğu yalnız alıcı tahkime başvurmuşsa devam eder.",
+    "Mahkeme kararı olmadığından satıcının sorumluluğu sona erer.",
+    "Satıcının sorumluluğu devam eder.",
+    "Satıcı yalnız ödenen satış bedelini iade eder, başka bir zarardan sorumlu olmaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 216/1'in 1. bendi alıcının mahkeme kararını beklemeden üçüncü kişinin hakkını dürüstlük kurallarına uygun olarak tanıması ve malı vermesi hâlinde satıcının sorumluluğunun devam ettiğini söyler. Tahkim, ikinci bentteki ayrı bir hâldir ve bu seçenekte şart değildir. Sorumluluğun kapsamı ayrıca TBK m. 217'ye göre belirlenir."
+  },
+  {
+   "stem_md": "TBK m. 216/1'in ikinci bendine göre alıcı hangi şartla tahkime başvurduğu hâlde satıcının sorumluluğunu sürdürebilir?",
+   "options": [
+    "Satıcıyı, uyuşmazlığı dava yoluyla çözmesi, aksi hâlde tahkime başvuracağı konusunda gecikmeksizin uyarması ve sonuç alamaması",
+    "Malı üçüncü kişiye ücretsiz devretmesi",
+    "Satıcıyla yeniden sulh sözleşmesi yapması",
+    "Üçüncü kişi dava açtıktan sonra satıcıya hiç bildirim yapmaması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Alıcı, üçüncü kişinin dava açmasını beklemeden satıcıyı gecikmeksizin uyarmalı, sonuç alamadığı için de tahkim yoluna başvurmalıdır (TBK m. 216/1'in 2. bendi). Uyarı yapılmamışsa bu hâl gerçekleşmez."
+  },
+  {
+   "stem_md": "Tam zapt hâlinde satış sözleşmesinin akıbeti hakkında hangisi doğrudur?",
+   "options": [
+    "Sözleşme kendiliğinden sona ermiş sayılır.",
+    "Sözleşme, satıcının onayıyla sona erer.",
+    "Sözleşme, hâkimin karar vermesiyle sona erer.",
+    "Alıcının noter aracılığıyla dönme beyanında bulunması gerekir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 217/1'e göre satılanın tamamı alıcının elinden alınmışsa satış sözleşmesi kendiliğinden sona ermiş sayılır. Hâkim kararı gereken hâl, kısmi zaptta alıcı sözleşmenin sona ermesini isteyecekse söz konusudur (TBK m. 218/2)."
+  },
+  {
+   "stem_md": "Tam zaptta, TBK m. 217/2'deki diğer zararlar bakımından satıcının sorumluluğu hakkında hangisi doğrudur?",
+   "options": [
+    "Alıcı satıcının kusurlu olduğunu ispatlamak zorundadır.",
+    "Diğer zararlar hiçbir zaman istenemez.",
+    "Satıcı yalnız ağır kusurlu ise sorumludur.",
+    "Satıcı kusurunun bulunmadığını ispat etmedikçe sorumludur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 217/2'ye göre satıcı, kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe alıcının diğer zararlarını da gidermekle yükümlüdür. Bu bir kusur karinesidir; ispat yükü satıcıdadır. TBK m. 217/1'deki kalemlerde ise kusur aranmaz."
+  },
+  {
+   "stem_md": "Kısmi zaptta alıcı, satılan malın elinde kalan kısmını da istemez. Bu durumda sözleşmenin sona erdirilmesi bakımından hangisi doğrudur?",
+   "options": [
+    "Alıcı tek taraflı yenilik doğuran hakla sözleşmeyi sona erdirir.",
+    "Sözleşme, yalnız satıcının onayıyla sona erer.",
+    "Alıcı yalnız hâkimden sözleşmenin sona ermesine karar vermesini isteyebilir ve bunun için bilseydi satın almayacağının anlaşılması gerekir.",
+    "Sözleşme kendiliğinden sona erer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 218/1'e göre kısmi zaptta alıcı kural olarak yalnız uğradığı zararı ister. TBK m. 218/2'ye göre durumu bilseydi satın almayacağı anlaşılıyorsa hâkimden sözleşmenin sona ermesine karar vermesini isteyebilir. Tek taraflı dönme ya da kendiliğinden sona erme, tam zaptın sonucudur."
+  },
+  {
+   "stem_md": "Kısmi zapt sonucunda hâkim sözleşmenin sona ermesine karar verirse alıcının borcu nedir?",
+   "options": [
+    "Yalnız elinden alınan kısmın bedelini iade etmek",
+    "Hiçbir geri verme borcu yoktur",
+    "Elinde kalan kısmı bedelsiz olarak kendisinde tutmak",
+    "Elinde kalan kısmı, o zamana kadar elde ettiği yararlarla birlikte satıcıya geri vermek"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 218/2: Sözleşme sona erdirilirse alıcı, elinde kalan kısmı o zamana kadar elde ettiği yararlarla birlikte satıcıya geri vermekle yükümlüdür. Sözleşme ortadan kalktığı için hem kalan kısım hem yararlar iade edilir."
+  },
+  {
+   "stem_md": "Ali, noterde satın aldığı otomobilin sonradan change olduğunun anlaşılması üzerine savcılık kararıyla araca el konulmasıyla karşılaşmıştır. Ali, satıcıya noter ihtarı göndererek dönmüştür. Satıcı ise change olduğunu bilmediğini söylemektedir. Hangisi doğrudur?",
+   "options": [
+    "Olay tam zapttır; sözleşme kendiliğinden sona erer ve satıcının bilmemesi sorumluluğu kaldırmaz.",
+    "Olay kısmi zapttır; Ali'nin hâkimden sözleşmenin sona ermesini istemesi gerekir.",
+    "Satıcı bilmediği için sorumluluktan kurtulur.",
+    "Olay ayıp niteliğindedir; Ali'nin süresinde ihbar yükü vardır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yargıtay'a göre çalıntı ya da change araca kamu gücüyle el konulması TBK m. 214 ve TBK m. 217 anlamında tam zapttır. Tam zaptta sözleşme kendiliğinden sona erer; dönme ihtarı sonuç bakımından gerekli değildir. Satıcının sorumluluğu kusursuz olduğundan hakkı bilmemesi savunması işe yaramaz. Ayıp ve kısmi zapt hükümleri uygulanmaz."
+  },
+  {
+   "stem_md": "Zeynep, bir dükkânı tapuda satın almıştır. Arsa sahiplerinin açtığı davada Zeynep'in tapu kaydı iptal edilmiş ve üçüncü kişiler adına tescil kararı kesinleşmiştir. Zeynep, dava sırasında ödediği yargılama giderlerini de satıcıdan istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Olay kısmi zapttır; alıcı yalnız tapu harcını isteyebilir.",
+    "Sözleşme geçersiz olduğundan Zeynep satış bedelini bile isteyemez.",
+    "Olay tam zapttır; davayı bildirmekle kaçınılabilecek olanlar dışındaki yargılama giderleri istenebilir.",
+    "Olay hukuki ayıp niteliğindedir; yargılama gideri istenemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Tapu kaydının iptaliyle satılanın tamamı alıcının elinden çıkmıştır; tam zapttır ve sözleşme kendiliğinden sona erer (TBK m. 217/1). Alıcı, davayı satıcıya bildirmekle kaçınılabilecek olanlar dışındaki bütün yargılama giderlerini isteyebilir. Sözleşme geçerli kurulmuştur; sonradan sona ermiştir."
+  },
+  {
+   "stem_md": "Burak, satın aldığı arsanın sözleşmeden önce kurulmuş, kendisinin bilmediği sınırlı ayni bir hakla (örneğin bir irtifakla) yüklü olduğunu sonradan öğrenmiştir. Hakkın varlığını sözleşme sırasında bilmiyordu. Alıcının sözleşmeyi sona erdirmesi bakımından hangisi doğrudur?",
+   "options": [
+    "Burak sözleşmeden tek taraflı beyanla dönebilir.",
+    "Burak kural olarak yalnız bu yük yüzünden uğradığı zararı ister; ancak bilseydi satın almayacağı anlaşılırsa hâkimden sona erme isteyebilir.",
+    "Sözleşme kendiliğinden sona erer.",
+    "Satıcı kusursuzsa hiçbir sorumluluğu yoktur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Satılanın sınırlı ayni hakla yüklenmesi TBK m. 218/1 kapsamında kısmi zapt gibi ele alınır. Alıcı kural olarak yalnız zararını ister; bilseydi satın almayacağı durum ve koşullardan anlaşılıyorsa hâkimden sözleşmenin sona ermesine karar vermesini isteyebilir (TBK m. 218/2). Tek taraflı dönme hakkı tanınmamıştır."
+  },
+  {
+   "stem_md": "100 dönümlük bir arazinin kıyısındaki 2 dönümün üçüncü kişiye ait olduğu sonradan anlaşılmıştır. Alıcı, arazide bütün parçayı gerektiren bir proje yapmayı hiç planlamamıştır ve bu durum sözleşmeden anlaşılmamaktadır. Alıcının hakkı nedir?",
+   "options": [
+    "Sözleşme kendiliğinden sona erer.",
+    "Alıcı tek taraflı dönebilir.",
+    "Kısmi zapt nedeniyle yalnız uğradığı zararın giderilmesini isteyebilir.",
+    "Tapuya güven ilkesi nedeniyle satıcıdan hiçbir şey isteyemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Satılanın bir kısmı elinden alındığı için TBK m. 218/1 uygulanır. Alıcının bilseydi satın almayacağı durum ve koşullardan anlaşılmadığından hâkimden sona erme isteyemez (TBK m. 218/2); yalnız zararını ister. Tam zapt olmadığı için sözleşme kendiliğinden sona ermez."
+  },
+  {
+   "stem_md": "Kentte imar planı nedeniyle yapılaşmaya kapalı olduğu sonradan anlaşılan bir arsayı satın alan Cem, satıcıdan sorumluluk istemektedir. Bu durumun hukuki nitelendirilmesi hangisidir?",
+   "options": [
+    "Kamu hukuku kısıtlaması niteliğinde hukuki ayıp (TBK m. 219)",
+    "Tam zapt (TBK m. 217)",
+    "Kısmi zapt (TBK m. 218)",
+    "Satıcının temerrüdü (TBK m. 212)"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Üçüncü kişinin özel hukuktan doğan üstün hakkı zapt, malın kullanımını kısıtlayan kamu hukuku düzenlemeleri ise hukuki ayıp olarak değerlendirilir (TBK m. 219). Burada alıcının elinden alınan bir şey ya da üçüncü kişinin üstün hakkı yoktur; kısıtlama malın hukuki niteliğine ilişkindir."
+  },
+  {
+   "stem_md": "Zapttan doğan alacaklara uygulanacak zamanaşımı hangisidir?",
+   "options": [
+    "Genel zamanaşımı olan on yıl (TBK m. 146)",
+    "Bir yıllık hak düşürücü süre",
+    "TBK m. 231'deki iki yıllık ayıp zamanaşımı",
+    "Zamanaşımı yoktur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 231 satılanın ayıbından doğan sorumluluğa ilişkindir; zapt hükümleri ayrıdır. Zapttan doğan alacaklar bakımından kanunda aksine hüküm bulunmadığından genel zamanaşımı (TBK m. 146, on yıl) uygulanır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, 2 Temmuz 2025'te noterde, araç alım satımıyla uğraşmayan Selim'den 800.000 TL bedelle ikinci el bir otomobil satın almış, bedeli ödemiş ve aracı teslim almıştır. Ali daha sonra aracın bakım ve onarımı için 30.000 TL harcamıştır. Selim aracı iyiniyetle bir üçüncü kişiden satın almıştır; aracın çalıntı olduğundan haberi yoktur. Sözleşmede satıcının sorumluluğunu düzenleyen özel bir kayıt bulunmamaktadır.\n\nAltı ay sonra yürütülen soruşturmada aracın Ü'den çalındığı ve Ü'nün mülkiyetinin belgelerle açıkça sabit olduğu anlaşılır. Ü, aracın iadesi için Ali aleyhine dava açar. Ali dava dilekçesini aldığı gün, yargılamanın başında, davayı yazılı olarak Selim'e bildirir. Selim davaya katılmaz ve \"bu davayla ilgim yok\" der. Dava Ali aleyhine sonuçlanır; araç Ü'ye iade edilir ve Ali yargılama giderleri için 25.000 TL öder.\n\nAli, Selim'den ödemelerini istemiştir. Selim ise \"araç çalıntı çıktığını bilmiyordum, kusurum yok; ayrıca davaya katılmadım, dava benim için bir şey ifade etmez\" diye savunma yapmaktadır.\n\n1. Olayın hukuki niteliği nedir? Selim'in \"bilmiyordum, kusurum yok\" savunması dinlenir mi?\n2. Davanın Selim'e bildirilmesinin sonucu nedir? Bildirim yapılmamış olsaydı sonuç nasıl olurdu?\n3. Ali, Selim'den neleri isteyebilir?",
+   "rubric": [
+    {
+     "point": "Çalıntı araca el konulup iade edilmesinin, sözleşme sırasında var olan üstün hak yüzünden satılanın alıcının elinden alınması olarak tam zapt sayılması; ayıp olmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 214"
+    },
+    {
+     "point": "Ü'nün mülkiyetinin sözleşme kurulurken var olması ve Ali'nin tehlikeyi bilmemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 214/2"
+    },
+    {
+     "point": "Satıcının sorumluluğunun kusursuz olması; Selim'in bilmemesi ve kusursuzluk savunmasının sonucu değiştirmemesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 214"
+    },
+    {
+     "point": "Davanın bildirilmesi hâlinde satıcının katılma ya da savunma yükümlülüğü; fer'î müdahil sıfatı",
+     "weight": 10,
+     "madde_ref": "TBK m. 215/1"
+    },
+    {
+     "point": "Elverişli zamanda yapılan bildirimde hükmün, alıcının ağır kusuru ispatlanmadıkça satıcıyı da bağlaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 215/2"
+    },
+    {
+     "point": "Bildirim yapılmamış olsaydı sorumluluğun düşmemesi; satıcının daha elverişli hükmü ispatlama yükü",
+     "weight": 10,
+     "madde_ref": "TBK m. 215/3"
+    },
+    {
+     "point": "Sözleşmenin kendiliğinden sona ermesi; bedelin faiziyle iadesi, giderler, yargılama giderleri ve doğrudan zarar; diğer zararlarda kusur karinesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 217"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali ile Selim arasında geçerli bir taşınır satış sözleşmesi vardır. Araç, Ü'nün üstün hakkı yüzünden Ali'nin elinden alınmıştır. Bu, malın kendi niteliğindeki bir eksiklik değil, üçüncü kişinin hakkıdır; dolayısıyla olay ayıp değil **zapttır.** Satılanın tamamı elden çıktığı için **tam zapt** söz konusudur.\n\n**Hukuki sorunlar:** (1) Zaptın şartları ve satıcının sorumluluğunun niteliği; (2) davanın bildirilmesinin ve bildirilmemesinin sonuçları; (3) alıcının istemleri.\n\n**İlgili hükümler:** TBK m. 214, TBK m. 215, TBK m. 217; HMK m. 61 ve HMK m. 66; TMK m. 994.\n\n**Değerlendirme:**\n\n*1. Zaptın şartları.* Ü'nün mülkiyet hakkı, araç Ali'ye satıldığı sırada da vardır; çünkü araç Ü'den çalınmıştır. Sözleşme kurulurken var olan bir hak yüzünden araç alıcının elinden alınmıştır (TBK m. 214/1). Ali tehlikeyi bilmemektedir; dolayısıyla TBK m. 214/2'deki istisna uygulanmaz. Yargıtay, çalıntı ya da change araca el konulmasını tam zapt sayar ve satıcının sorumluluğunu kanundan doğan kusursuz sorumluluk olarak niteler. Bu nedenle Selim'in çalıntı olduğunu bilmemesi ve kusursuz olması sorumluluğu kaldırmaz. Sözleşmede sorumsuzluk kaydı da bulunmadığından TBK m. 214/3 tartışması gündeme gelmez.\n\n*2. Davanın bildirilmesi.* Ali davayı, savunmaya elverişli bir zamanda Selim'e bildirmiştir. Selim bu durumda alıcının yanında davaya katılmak ya da davayı takip etmek zorundadır (TBK m. 215/1). Usul hukukumuzda taraf yerine geçme kurumu olmadığından satıcı fer'î müdahil sıfatıyla yer alır (HMK m. 66). Selim'in \"dava bana bir şey ifade etmez\" demesi doğru değildir. Hüküm, Ali'nin ağır kusuru yüzünden verildiği ispat edilmedikçe Selim için de sonuç doğurur (TBK m. 215/2). Bildirim yapılmamış olsaydı sorumluluk kendiliğinden düşmezdi; Selim ancak zamanında bildirilseydi daha elverişli bir hüküm alınabileceğini ispatladığı ölçüde kurtulurdu (TBK m. 215/3). Ü'nün mülkiyeti belgelerle açıkça sabit olduğundan Selim'in böyle bir ispatı da güç görünmektedir.\n\n*3. Alıcının istemleri.* Tam zaptta satış sözleşmesi kendiliğinden sona erer (TBK m. 217/1). Ali; elde ettiği ürünlerin değeri indirilerek ödediği 800.000 TL'nin faiziyle iadesini, üçüncü kişiden isteyemeyeceği giderleri (bakım ve onarım için yaptığı 30.000 TL'nin zorunlu ve yararlı kısmını iyiniyetli zilyet olarak geri vermeyi isteyen Ü'den isteyebileceğinden, TBK m. 217/1'in 2. bendiyle Selim'den ancak Ü'den isteyemeyeceği giderleri ister; TMK m. 994), davayı bildirmekle kaçınılabilecek olanlar dışındaki yargılama giderlerini (25.000 TL; dava Selim'e bildirildiği için bu giderlerin kaçınılabilecek bir kısmı söz konusu değildir) ve zapt yüzünden doğrudan uğradığı zararı isteyebilir. Diğer zararlar için Selim, kendisine hiçbir kusur yüklenemeyeceğini ispat etmedikçe sorumludur (TBK m. 217/2). Alıcının, bedel yerine zapt tarihindeki güncel değeri isteyip isteyemeyeceği tartışmalıdır (doktrin bölümü); kanundaki bedel iadesi her hâlde istenebilir.\n\n**Sonuç:**\n- Olay ayıp değil, tam zapttır; sözleşme kendiliğinden sona ermiştir.\n- Selim'in bilmemesi ve kusursuzluğu savunması sorumluluğu kaldırmaz.\n- Dava elverişli zamanda bildirildiğinden hüküm Selim'i de bağlar; bildirilmeseydi sorumluluk kendiliğinden düşmezdi.\n- Ali, bedeli faiziyle, Ü'den isteyemeyeceği giderleri, yargılama giderlerini ve doğrudan zararını isteyebilir."
+  },
+  {
+   "stem_md": "Halı ya da antika ticaretiyle uğraşmayan Gül Ltd. Şti., ofisinde kullandığı antika bir halıyı Kemal'e 600.000 TL'ye satmıştır. Şirketin yetkilisi Fatma, halının iki yıl önce Ü adlı bir koleksiyoncudan çalındığını bilmektedir. Fatma bunu Kemal'den gizlemiş ve sözleşmeye \"satıcı hiçbir hâlde zapttan ve ayıptan sorumlu değildir\" kaydını yazdırmıştır. Kemal halıyı teslim almış ve bedeli ödemiştir. Kemal halının çalıntı olduğunu bilmemektedir.\n\nBir ay sonra Ü, Kemal'e başvurarak halının kendisine ait olduğunu söyler ve mülkiyetini gösteren fatura, sigorta poliçesi ve fotoğraflı envanter belgelerini sunar. Belgeler halının Ü'ye ait olduğunu açıkça göstermektedir ve Ü'nün halıyı geri isteme hakkı tartışmasızdır. Kemal, belgeleri inceleyip Ü'nün hakkını anlamış ve dava açılmasını beklemeden halıyı Ü'ye teslim etmiştir. Kemal, halıyı Ü'ye vermekle yükümlü olduğunu kanıtlayabilmektedir.\n\nKemal, 600.000 TL'nin iadesini Gül Ltd.'den istemiştir. Gül Ltd., \"sözleşmede sorumsuzluk kaydı vardır; ayrıca Kemal mahkeme kararını beklemeden halıyı verdiği için sorumluluğumuz kalmamıştır\" diye savunma yapmaktadır.\n\n1. Sorumsuzluk kaydı geçerli midir?\n2. Kemal'in halıyı mahkeme kararı beklemeden vermesi satıcının sorumluluğunu ortadan kaldırır mı?\n3. Kemal'in hukuki durumu ve istemleri nelerdir?",
+   "rubric": [
+    {
+     "point": "Üçüncü kişinin sözleşmeden önce var olan hakkı yüzünden satılanın alıcının elinden alınması; tam zapt nitelendirmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 214"
+    },
+    {
+     "point": "Alıcının tehlikeyi bilmemesi; bu yüzden satıcının sorumlu olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 214/2"
+    },
+    {
+     "point": "Satıcı hakkı gizlediği için sorumsuzluk anlaşmasının kesin hükümsüz olması; ayıptaki ağır kusur ölçütünden ayrılması",
+     "weight": 25,
+     "madde_ref": "TBK m. 214/3"
+    },
+    {
+     "point": "Alıcının mahkeme kararı beklemeden hakkı dürüstlük kurallarına uygun tanıyıp malı vermesi hâlinde sorumluluğun devam etmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 216/1"
+    },
+    {
+     "point": "Alıcının verme yükümlülüğünü ispatlaması hâlinde de sorumluluğun devam etmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 216/2"
+    },
+    {
+     "point": "Sözleşmenin kendiliğinden sona ermesi; bedelin faiziyle iadesi, giderler ve doğrudan zarar istemleri",
+     "weight": 20,
+     "madde_ref": "TBK m. 217"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kemal ile Gül Ltd. arasında geçerli bir taşınır satış sözleşmesi vardır. Halı, sözleşme kurulurken var olan bir üstün hak yüzünden (Ü'nün mülkiyeti) alıcıdan çıkmıştır. Bu bir **zapttır**; halının tamamı verildiğinden **tam zapt** niteliğindedir. Asıl soru, sorumsuzluk kaydının ve alıcının dava beklemeden teslim etmesinin bu sonucu değiştirip değiştirmediğidir.\n\n**Hukuki sorunlar:** (1) Sorumsuzluk kaydının geçerliliği; (2) alıcının mahkeme kararı beklemeden malı vermesinin sorumluluğa etkisi; (3) alıcının istemleri.\n\n**İlgili hükümler:** TBK m. 214/1-3, TBK m. 216/1-2, TBK m. 217.\n\n**Değerlendirme:**\n\n*1. Sorumsuzluk kaydı.* TBK m. 214/3'e göre satıcı üçüncü kişinin hakkını gizlemişse sorumluluğu kaldıran veya sınırlayan anlaşma kesin olarak hükümsüzdür. Fatma, halının çalıntı olduğunu bildiği hâlde bunu Kemal'den gizlemiştir. Sorumsuzluk kaydı bu nedenle **kesin olarak hükümsüzdür**; Kemal'in iptal beyanında bulunmasına gerek yoktur. Ayıp sorumluluğundaki ölçüt farklıdır: orada satıcının ağır kusuru aranır (TBK m. 221). Zaptta ölçüt, hakkın gizlenmesidir. Kemal ayrıca tehlikeyi bilmediğinden TBK m. 214/2'deki istisna da uygulanmaz.\n\n*2. Dava beklemeden teslim.* Satıcı, \"mahkeme kararı olmadan verdi\" diyebilir; ancak TBK m. 216 bu savunmaya sınır koyar. Alıcı, mahkeme kararı beklemeksizin üçüncü kişinin hakkını **dürüstlük kurallarına uygun olarak** tanımış ve satılanı ona vermişse satıcının sorumluluğu devam eder (TBK m. 216/1'in 1. bendi). Kemal, fatura, sigorta poliçesi ve envanter belgelerini inceleyerek Ü'nün hakkının tartışmasız olduğunu anlamış ve makul bir tutumla halıyı vermiştir. Ayrıca satılanı Ü'ye vermekle yükümlü olduğunu ispat edebildiğinden sorumluluk bu yönden de devam eder (TBK m. 216/2).\n\n*3. Alıcının istemleri.* Halının tamamı alıcıdan çıktığından tam zapt hükümleri uygulanır ve sözleşme kendiliğinden sona erer (TBK m. 217/1). Kemal; ürün değeri indirilerek 600.000 TL'nin faiziyle iadesini, üçüncü kişiden isteyemeyeceği giderleri ve zapt yüzünden doğrudan uğradığı zararı isteyebilir. Dava açılmadığı için yargılama gideri bulunmamaktadır. Diğer zararlar bakımından Gül Ltd., kusursuzluğunu ispat etmedikçe sorumludur (TBK m. 217/2); Fatma'nın hakkı bilerek gizlemesi bu ispatı imkânsız kılar.\n\n**Sonuç:**\n- Sorumsuzluk kaydı, satıcı hakkı gizlediği için kesin hükümsüzdür.\n- Kemal'in halıyı dava beklemeden vermesi, dürüstlük kurallarına uygun tanıma ve verme yükümlülüğünün ispatı nedeniyle sorumluluğu ortadan kaldırmaz.\n- Sözleşme kendiliğinden sona ermiştir; Kemal bedeli faiziyle ve zararlarıyla birlikte isteyebilir."
+  },
+  {
+   "stem_md": "Can, ihraç ürünlerini işleyecek bir tesis kurmak amacıyla Selim'den 20 dönümlük bir arazi satın almıştır. Sözleşmeye, arazinin tesis için tek parça hâlinde ve en az 18 dönüm olması gerektiği, daha küçük bir arazide projenin hiç kurulmayacağı açıkça yazılmıştır. Can araziyi teslim almış ve tapuda adına tescil ettirmiştir.\n\nİki yıl sonra komşu parselin maliki Ü'nün açtığı davada, kadastro sırasında yapılan sınır hatası yüzünden arazinin 4 dönümlük kısmının Ü'ye ait olduğu ve bu kısım yönünden Can'ın tapu kaydının iptaline karar verildiği kesinleşir. Satış sırasında bu kısmın Ü'ye ait olduğunu ne Can ne de Selim bilmektedir. Can, kalan 16 dönümlük araziyle tesisi kuramayacaktır.\n\nCan, noter aracılığıyla Selim'e \"sözleşmeden döndüm, bedeli iade et\" ihtarını göndermiştir. Selim ise \"yalnız 4 dönüm elinden alınmıştır; ben ancak o kısmın değerini öderim\" demektedir.\n\n1. Olayın hukuki niteliği nedir?\n2. Can'ın noter ihtarıyla sözleşmeden dönmesi sonuç doğurur mu?\n3. Can'ın hakları nelerdir ve sözleşme sona ererse tarafların borçları nelerdir?",
+   "rubric": [
+    {
+     "point": "Arazinin bir kısmının sözleşme sırasında var olan hak yüzünden elden alınmasının kısmi zapt sayılması",
+     "weight": 20,
+     "madde_ref": "TBK m. 218/1"
+    },
+    {
+     "point": "Zaptın şartları: hakkın sözleşme anında var olması, alıcının bilmemesi, satıcının kusursuz sorumluluğu",
+     "weight": 15,
+     "madde_ref": "TBK m. 214/1"
+    },
+    {
+     "point": "Kısmi zaptta tam zaptın aksine sözleşmenin kendiliğinden sona ermemesi; tek taraflı ihtarla dönmenin sonuç doğurmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 218"
+    },
+    {
+     "point": "Alıcının bilseydi satın almayacağının durum ve koşullardan anlaşılması; hâkimden sözleşmenin sona ermesine karar vermesini istemesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 218/2"
+    },
+    {
+     "point": "Sona erme hâlinde alıcının kalan kısmı elde ettiği yararlarla birlikte geri vermesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 218/2"
+    },
+    {
+     "point": "Sona erme istenmezse yalnız uğranılan zararın istenebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 218/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Can ile Selim arasındaki taşınmaz satışı geçerli bir satış sözleşmesidir. Arazinin 4 dönümlük kısmı, sözleşmeden önce var olan üçüncü kişi hakkı (Ü'nün mülkiyeti) yüzünden Can'ın elinden alınmıştır. Satılanın yalnız bir kısmı elden çıktığı için bu **kısmi zapttır.**\n\n**Hukuki sorunlar:** (1) Zaptın şartları ve niteliği; (2) tek taraflı dönme beyanının geçerliliği; (3) alıcının hakları ve sona ermenin sonuçları.\n\n**İlgili hükümler:** TBK m. 214/1, TBK m. 218/1-2.\n\n**Değerlendirme:**\n\n*1. Nitelendirme.* Ü'nün hakkı arazinin satıldığı sırada da vardır; çünkü sınır hatası daha önce yapılmıştır. Can bu durumu bilmemektedir. Bu nedenle TBK m. 214/1'in şartları gerçekleşmiş, TBK m. 214/2'deki istisna uygulanmaz. Satıcının sorumluluğu kusursuz olduğundan Selim'in de bilmemesi sonucu değiştirmez. Arazinin yalnız bir kısmı alıcının elinden alındığı için uygulanacak hüküm TBK m. 218'dir; tam zapttaki kendiliğinden sona erme (TBK m. 217/1) burada geçerli değildir.\n\n*2. Noter ihtarı.* Kısmi zaptta alıcının tek taraflı dönme hakkı yoktur. Kanun, alıcıya kural olarak yalnız uğradığı zararı isteme hakkı verir; sözleşmenin sona ermesi için alıcı **hâkimden** karar vermesini istemelidir (TBK m. 218/2). Can'ın noter ihtarı bu nedenle sözleşmeyi sona erdirmez.\n\n*3. Hakların kapsamı.* Hâkimden sona erme istenebilmesi için alıcının, durumu bilseydi malı satın almayacağının durum ve koşullardan anlaşılması gerekir. Olayda sözleşmede arazinin tesis için en az 18 dönüm olması gerektiği ve daha küçük bir arazide projenin kurulmayacağı açıkça yazılmıştır. Kalan 16 dönüm bu eşiğin altındadır. Dolayısıyla Can'ın bilseydi satın almayacağı anlaşılmaktadır ve hâkimden sözleşmenin sona ermesine karar vermesini isteyebilir. Hâkim sona ermeye karar verirse Can kalan 16 dönümü, o zamana kadar elde ettiği yararlarla birlikte Selim'e geri vermekle yükümlüdür (TBK m. 218/2). Can sona erme istemezse ya da bu şart gerçekleşmezse yalnız dört dönümlük kısım yüzünden uğradığı zararı isteyebilir; Selim'in \"yalnız o kısmın değerini öderim\" tutumu bu ikinci ihtimalin sonucuna denk gelir, ama Can'ın sona erme hakkını ortadan kaldırmaz.\n\n**Sonuç:**\n- Olay kısmi zapttır (TBK m. 218).\n- Can'ın noter ihtarıyla dönmesi sözleşmeyi sona erdirmez; hâkim kararı gerekir.\n- Bilseydi satın almayacağı anlaşıldığından Can hâkimden sona erme isteyebilir; bu hâlde kalan kısmı yararlarıyla geri verir.\n- Sona erme istenmezse yalnız dört dönümle ilgili zararını isteyebilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Zapt nedir? (TBK m. 214/1)",
+   "back_md": "Sözleşme kurulurken var olan bir hak yüzünden satılanın tamamının ya da bir kısmının üçüncü kişi tarafından alıcının elinden alınması. Satıcı alıcıya karşı sorumlu olur."
+  },
+  {
+   "front_md": "Zaptta hakkın var olması gereken an nedir?",
+   "back_md": "Satış sözleşmesinin kurulduğu an (TBK m. 214/1). Sonradan doğan hak zapt doğurmaz."
+  },
+  {
+   "front_md": "Zapttan sorumluluk kusurlu mu, kusursuz mu?",
+   "back_md": "Kusursuz sorumluluktur. Satıcı hakkı bilmese de sorumlu olur."
+  },
+  {
+   "front_md": "Alıcı tehlikeyi sözleşme kurulurken biliyorsa ne olur? (TBK m. 214/2)",
+   "back_md": "Satıcı, ayrıca üstlenmedikçe sorumlu olmaz."
+  },
+  {
+   "front_md": "Zaptta sorumsuzluk anlaşması ne zaman kesin hükümsüzdür? (TBK m. 214/3)",
+   "back_md": "Satıcı üçüncü kişinin hakkını gizlemişse. Ayıpta ölçüt ağır kusurdur (TBK m. 221)."
+  },
+  {
+   "front_md": "Alıcı dava açıldığında ne yapmalıdır? (TBK m. 215)",
+   "back_md": "Davayı satıcıya bildirmelidir (davanın ihbarı, HMK m. 61). Satıcı davaya katılmak ya da davayı takip etmek zorundadır."
+  },
+  {
+   "front_md": "Satıcı davada usul hukukunda hangi sıfatla yer alır?",
+   "back_md": "Fer'î müdahil olarak (HMK m. 66). İhbar edilen davanın tarafı olmaz."
+  },
+  {
+   "front_md": "Elverişli zamanda bildirilen davada hüküm satıcıyı bağlar mı? (TBK m. 215/2)",
+   "back_md": "Evet; alıcının ağır kusuru yüzünden verildiği ispat edilmedikçe satıcı için de sonuç doğurur."
+  },
+  {
+   "front_md": "Dava satıcıya bildirilmezse sorumluluk düşer mi? (TBK m. 215/3)",
+   "back_md": "Kendiliğinden düşmez. Satıcı, zamanında bildirilseydi daha elverişli hüküm alınabileceğini ispatladığı ölçüde kurtulur."
+  },
+  {
+   "front_md": "Dava beklenmeden malı vermekle satıcı sorumluluktan kurtulur mu? (TBK m. 216)",
+   "back_md": "Hayır, alıcı hakkı dürüstlük kurallarına uygun tanıyıp vermişse sorumluluk sürer. Tahkim hâli ve verme yükümlülüğünün ispatı da sorumluluğu sürdürür."
+  },
+  {
+   "front_md": "Tam zaptta sözleşmenin akıbeti nedir? (TBK m. 217/1)",
+   "back_md": "Satış sözleşmesi kendiliğinden sona ermiş sayılır. Bildirim, ihtar ya da dava gerekmez."
+  },
+  {
+   "front_md": "Tam zaptta alıcı hangi dört kalemi isteyebilir?",
+   "back_md": "Ürün değeri indirilmiş bedel ve faizi; üçüncü kişiden isteyemeyeceği giderler; kaçınılabilecek olanlar dışındaki yargılama ve yargılama dışı giderler; doğrudan zarar (TBK m. 217/1)."
+  },
+  {
+   "front_md": "Diğer zararlarda kusur ispat yükü kimdedir? (TBK m. 217/2)",
+   "back_md": "Satıcıdadır. Kendisine kusur yüklenemeyeceğini ispat etmedikçe sorumludur."
+  },
+  {
+   "front_md": "Kısmi zaptta alıcının temel hakkı nedir? (TBK m. 218/1)",
+   "back_md": "Yalnız bu yüzden uğradığı zararın giderilmesi. Bilseydi satın almayacağı anlaşılıyorsa hâkimden sözleşmenin sona ermesini ister (TBK m. 218/2)."
+  },
+  {
+   "front_md": "Kısmi zaptta tek taraflı dönme mümkün mü?",
+   "back_md": "Hayır. Sona erme için hâkim kararı gerekir. Tam zaptta ise sözleşme kendiliğinden sona erer."
+  },
+  {
+   "front_md": "Kısmi zaptta sözleşme sona ererse alıcının borcu nedir? (TBK m. 218/2)",
+   "back_md": "Elinde kalan kısmı, o zamana kadar elde ettiği yararlarla birlikte satıcıya geri verir."
+  },
+  {
+   "front_md": "Çalıntı ya da change araca el konulması hukuken nedir?",
+   "back_md": "Tam zapt (TBK m. 214 ve TBK m. 217). Satıcının sorumluluğu kusursuzdur; sözleşme kendiliğinden sona erer."
+  },
+  {
+   "front_md": "Zapttan doğan istemlere hangi zamanaşımı uygulanır?",
+   "back_md": "İki yıllık ayıp zamanaşımı (TBK m. 231) değil, genel zamanaşımı (TBK m. 146, on yıl)."
+  },
+  {
+   "front_md": "İmar kısıtlaması gibi kamu hukuku sınırlamaları zapt mıdır?",
+   "back_md": "Hayır; hukuki ayıp olarak TBK m. 219 kapsamında değerlendirilir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

@@ -1,0 +1,631 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 7,
+ "unit_title": "Ünite 7: Vekâlet Türünden Sözleşmeler ve Saklama",
+ "topic_index": 5,
+ "slug": "saklama-sozlesmesi",
+ "title": "Saklama Sözleşmesi: Genel Saklama, Misli Saklama, Ardiyecilik, Otel ve Otopark İşletenin Sorumluluğu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:29:15.418986+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/tip-teshisi-ve-nitelendirme"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir taşınırı başkasına koruması için bıraktığımızda kim neyi borçlanır, ne zaman geri istenebilir ve otel ile otopark gibi işletmelerin sorumluluğu nerede biter?\n\n- **Genel saklama (TBK m. 561):** Konusu yalnız **taşınırdır**. Saklayan, bırakılan şeyi güvenli bir yerde koruma altına almayı üstlenir. Sözleşme kural olarak **ücretsizdir**; ücret açıkça öngörülmüşse ya da durum ve koşullar gerektiriyorsa istenebilir.\n- **Saklatan (TBK m. 562):** Zorunlu masrafları öder. Saklamadan doğan zararları, kendi kusuru olmadığını ispat etmedikçe giderir.\n- **Saklayan (TBK m. 563-566):** İzin olmadan saklananı kullanamaz. Kullanırsa uygun kullanım bedeli öder ve kullanmasaydı da zararın doğacağını ispat etmedikçe **beklenmedik hâlden** de sorumlu olur. Saklatan, süre belirlenmiş olsa bile **her zaman** geri isteyebilir. Saklayan süreden önce ancak öngörülemeyen tehlike ya da zarar durumunda geri verebilir.\n- **Birlikte saklayanlar (TBK m. 567):** Müteselsilen sorumludur.\n- **Üçüncü kişi iddiası (TBK m. 568):** Haciz ya da istihkak davası yoksa saklayan, saklananı saklatana geri verir.\n- **Güvenilirkişi (TBK m. 569):** Çekişmeli şeyi, saklatanların tamamının rızası veya hâkim kararı olmadan hiçbirine veremez.\n- **Misli saklama (TBK m. 570):** Paranın mühürsüz ve açık bırakılması, mislen iade için örtülü anlaşma sayılır; yarar ve hasar saklayana geçer. Diğer misli şeylerde ve kıymetli evrakta tasarruf için **açık yetki** gerekir.\n- **Ardiyeci (TBK m. 571-575):** Komisyoncu gibi özenle saklar, açık yetki olmadan misli şeyleri karıştıramaz, ardiye ücretini her üç ayda bir ve geri alma sırasında ister, **hapis hakkı** vardır. Öngörülemeyen sebepler olsa bile kararlaştırılan sürenin sonuna kadar korumak zorundadır.\n- **Konaklama yeri (TBK m. 576-578):** Kusursuz sorumluluk. Kusur yoksa tavan **günlük konaklama ücretinin üç katı**. Kıymetli eşyada özel kural vardır. Zarar öğrenilir öğrenilmez bildirilmelidir. Sorumsuzluk ilanı geçersizdir.\n- **Garaj ve otopark (TBK m. 579):** Kusursuz sorumluluk. Kusur yoksa tavan **günlük saklama ücretinin on katı**.\n- **Hapis hakkı (TBK m. 580):** İşletenler ücret ve saklama gideri alacakları için hapis hakkına sahiptir; kiraya verenin hapis hakkı hükümleri kıyasen uygulanır.\n- **Ticari dava:** TBK m. 561-580'den doğan davalar ticari davadır; ticari işletmeyi ilgilendirmeyen vedia davaları bunun dışındadır (TTK m. 4/1).\n- 📌 Bu maddelerde 2020 sonrası bir kanun değişikliği yoktur.",
+  "content_md": "## 0. Konunun haritası\n\nSaklama sözleşmesi TBK m. 561-580'de düzenlenir ve tek bir sözleşme değil, bir **aile**dir. Önce temel model olan genel saklamayı öğreniriz, sonra ondan ayrılan özel kurumları fark noktalarıyla görürüz.\n\n| Kurum | Dayanak | Ayırt edici nokta |\n|---|---|---|\n| Genel saklama | TBK m. 561-568 | Taşınır, kural olarak ücretsiz |\n| Güvenilirkişi | TBK m. 569 | Çekişmeli şey, herkesin rızası ya da hâkim kararı |\n| Misli saklama | TBK m. 570 | Aynen değil mislen iade, para |\n| Ardiyeci | TBK m. 571-575 | Ticari mal, hapis hakkı |\n| Otel ve otopark | TBK m. 576-580 | Kusursuz sorumluluk, tavan |\n\nNitelendirme sorusu her zaman ilktir: Burada gerçekten saklama mı var, yoksa kira, ödünç ya da eser mi?\n\n## 1. Genel saklama: tanım ve nitelik (TBK m. 561)\n\n**Saklama sözleşmesi**, saklayanın, saklatanın kendisine bıraktığı bir taşınırı güvenli bir yerde koruma altına almayı üstlendiği sözleşmedir (TBK m. 561/1). Üç unsur vardır:\n- **Taşınır:** Taşınmaz saklama sözleşmesinin konusu olamaz.\n- **Koruma borcu:** Sözleşmenin ana borcu korumaktır. Koruma yalnız yan edimse (kullanım için verilen şey, imal için bırakılan şey gibi) başka bir sözleşme söz konusu olabilir.\n- **Ücret:** Kural olarak ücretsizdir. Ancak ücret **açıkça öngörülmüşse** ya da **durum ve koşullar gerektiriyorsa** saklayan ücret isteyebilir (TBK m. 561/2).\n\nSözleşme **rızaidir**: taraflar anlaştığında kurulur. Muhafaza borcu ise eşyanın saklayan tarafından teslim alınıp koruma altına alınmasıyla fiilen yerine getirilir. Ücretsiz saklamada asıl borç saklayandadır; saklatan yalnız masraf ve zarar bakımından borç altına girer. Bu yüzden sözleşme kural olarak **eksik iki tarafa borç yükleyen** türdendir.\n\nSaklatanın taşınırın maliki olması gerekmez. Yargıtay Hukuk Genel Kurulu'na göre saklama sözleşmesinin saklananın mülkiyetiyle ilgisi yoktur; malik olmayan da saklatan sıfatıyla geçerli sözleşme yapabilir. Bu sonuç, otoparka araç bırakan **fer'î zilyet** (TMK m. 974) için özellikle önemlidir.\n\n> **Örnek:** Ali, tatile çıkarken klasik arabasını komşusu Mehmet'in garajında ücretsiz tutması için bırakır. Taşınır vardır, ana edim korumadır, ücret öngörülmemiştir: TBK m. 561 anlamında saklama.\n\n> ⚠️ **Sınavda dikkat:** Saklayanın **muhafaza iradesi** yoksa saklama da yoktur. Yargıtay, genel müdürün kendi parasını şirket kasasına koymasında şirketin koruma üstlenme iradesi bulunmadığından saklama değil **hukuki eylem** kabul etmiştir. Bu nitelendirme, HMK m. 200'deki senetle ispat kuralına dayanan reddin yerinde olmadığı sonucunu doğurmuştur.\n\n## 2. Saklatanın borçları (TBK m. 562)\n\n1. **Masraf:** Saklatan, sözleşmenin ifasının zorunlu kıldığı bütün masrafları öder. Bu borç kusura bağlı değildir.\n2. **Zarar:** Saklatan, saklayanın saklamadan doğan zararlarını giderir; ama **kendi kusurundan ileri gelmediğini ispat ederse** sorumlu olmaz. Kusur karinesi saklatanın aleyhinedir.\n\n> **Örnek:** Zeynep'in bıraktığı köpeğin bulaşıcı hastalığı Cem'in diğer hayvanlarına geçer. Zeynep hastalığı bilmediğini ve kendisine kusur yüklenemeyeceğini ispat edemezse Cem'in zararını öder.\n\n## 3. Saklayanın borçları\n\n### 3.1 Kullanma yasağı (TBK m. 563)\nSaklayan, saklatanın izni olmadıkça saklananı **kullanamaz**. Yasağa aykırı davranırsa iki sonuç doğar:\n- Saklatana **uygun bir kullanım bedeli** öder.\n- Kullanmamış olsaydı bile zararın doğacağını ispat etmedikçe **beklenmedik hâlden** (kaza, tesadüf) doğan zararlardan da sorumlu olur.\n\n> **Örnek:** Mehmet, Ali'nin klasik arabasıyla izinsiz gezintiye çıkar ve aracı bir ağaç devrilmesi yüzünden kullanılamaz hâle gelir. Mehmet kullanım bedelini öder. Araç garajda dursa da aynı ağacın devrilerek zarar vereceğini ispat edemezse hasarı da öder.\n\n### 3.2 Geri verme (TBK m. 564-566)\nSaklayan saklananı **bütün çoğalmalarıyla birlikte** geri verir. Geri verme ve süre kuralları kimin geri verdiğine göre değişir:\n\n| Kim | Süreden önce geri verme | Dayanak |\n|---|---|---|\n| Saklatan | Her zaman isteyebilir | TBK m. 564 |\n| Saklayan | Yalnız öngörülemeyen tehlike ya da zarar hâlinde | TBK m. 565/1 |\n| Ardiyeci | Öngörülemeyen sebeplerle bile süre sonuna kadar korur | TBK m. 575 |\n\n- Saklatan süre belirlenmiş olsa bile her zaman geri isteyebilir; ancak saklayanın süreyi dikkate alarak yaptığı masrafları öder (TBK m. 564).\n- Süre belirlenmemişse saklayan her zaman geri verebilir (TBK m. 565/2).\n- **Birden çok saklatan** varsa, aksine hüküm yoksa ya da hepsi razı değilse, saklayan saklananı yalnız birine vererek sorumluluktan kurtulamaz (TBK m. 565/3).\n- Saklanan, masrafları ve hasarı saklatana ait olmak üzere **korunması gereken yerde** geri verilir (TBK m. 566).\n\nSaklayan kusursuz olduğunu ispat etmedikçe, saklananı geri vermemekten ya da kötü durumda geri vermekten doğan zararı tazmin eder (TBK m. 112).\n\n> **Örnek:** Ayşe, antika vazosunu 1 yıllığına ücretsiz saklaması için Cem'e bırakır. Üçüncü ayda geri ister. Cem \"süre dolmadı\" diyemez; vazoyu verir. Cem süreye güvenerek özel bir vitrin yaptırmışsa bu masrafı Ayşe öder.\n\n### 3.3 Birlikte saklayanlar (TBK m. 567)\nBir şeyi **birlikte saklamak üzere alanlar müteselsilen** sorumludur. Alacaklı saklatan, zararının tamamını onlardan birinden isteyebilir.\n\n### 3.4 Üçüncü kişinin iddiaları (TBK m. 568)\nÜçüncü kişi saklanan üzerinde ayni hak iddia etse bile saklayan, saklananı **saklatana** geri vermek zorundadır. İstisna iki durumdur: Saklanan **haczedilmişse** ya da saklayana karşı **istihkak davası** açılmışsa. Bu hâllerde saklayan durumu **hemen** saklatana bildirir.\n\n> **Örnek:** Fatma, Cengiz'e bırakılan tablonun kendisine ait olduğunu ihtarla bildirir. Haciz ya da istihkak davası yoksa Cengiz tabloyu saklatana verir; Fatma'nın iddiası yalnız ihtardan ibarettir.\n\n### 3.5 Güvenilirkişiye bırakma (TBK m. 569)\nBirden çok kişi haklarını korumak için, hukuki durumu **çekişmeli veya belirsiz** şeyi bir **güvenilirkişiye** (yediemin) bırakırsa bu kişi saklananı, saklatanların **tamamının rızası** ya da **hâkimin kararı** olmadan hiçbirine veremez.\n\n## 4. Misli şeylerin saklanması (TBK m. 570)\n\n**Misli şey**, aynı cins ve ölçüde başka bir şeyle değiştirilebilen şeydir (para, buğday). Saklayanın kendisine bırakılan parayı **aynen** değil **mislen** geri vermesi açıkça ya da örtülü olarak kararlaştırılmışsa (**usulsüz tevdi**), paranın **yararı ve hasarı** saklayana aittir (TBK m. 570/1).\n\n| Bırakılan | Kural | Dayanak |\n|---|---|---|\n| Para | Mühürsüz ve açık bırakma, mislen iade için örtülü anlaşma sayılır | TBK m. 570/2 |\n| Diğer misli eşya, kıymetli evrak | Tasarrufa açık yetki gerekir | TBK m. 570/3 |\n\n> **Örnek:** Selin, Barış'a 50.000 TL'yi mühürsüz ve açık bırakır; hasar artık Barış'a aittir. Aynı Selin 10 ton buğdayı bıraksaydı, Barış açık yetki almadan bu buğday üzerinde tasarruf edemezdi.\n\n> ⚠️ **Sınavda dikkat:** Örtülü anlaşma karinesi yalnız **mühürsüz ve açık paraya** özgüdür. Buğday açık bırakılmış olsa da saklayana tasarruf yetkisi vermez.\n\nYargıtay Hukuk Genel Kurulu'na göre banka mevduatı, tüketim ödüncü (TBK m. 386) ile misli şeylerin saklanmasının niteliklerini taşıyan **kendine özgü** bir sözleşmedir; usulsüz çekilen para bankanın zararıdır (ayrıntı doktrin ve karar bölümlerinde).\n\n## 5. Ardiyeci (TBK m. 571-575)\n\n**Ardiyeci**, ticari mal saklamak üzere kabul ettiğini kamuya açıkça bildiren kişidir. Saklatılan malı temsil eden senet çıkarılmasına yetkili makamdan izin isteyebilir (TBK m. 571). Genel saklamadan farkları şunlardır:\n- **Özen:** Malları bir **komisyoncu gibi** özenle saklar; ayrıca önlem gerektiren değişikliği imkân ölçüsünde saklatana bildirir. Saklatana, alışılmış iş zamanlarında inceleme ve örnek alma, her zaman da koruma önlemi alma izni verir (TBK m. 572).\n- **Karıştırma yasağı:** Açıkça yetkili kılınmadıkça aynı tür ve nitelikteki misli şeyleri birbirine karıştıramaz. Yetkiyle karıştırılırsa her saklatan hakkıyla orantılı pay isteyebilir (TBK m. 573).\n- **Ücret ve giderler:** Saklamadan doğmayan bakım, taşıma, gümrük gibi giderler **hemen**; ardiye ücreti **her üç ayda bir** ve her hâlde malların tamamının ya da bir bölümünün geri alınması sırasında ödenir (TBK m. 574/2).\n- **Hapis hakkı:** Mallara zilyet olduğu ya da malı temsil eden senetle tasarruf yetkisine sahip olduğu sürece alacakları için hapis hakkı vardır (TBK m. 574/3).\n- **İade:** Ticari malları genel saklamadaki gibi geri verir; ama öngörülemeyen sebeplerle süreden önce iade yetkisi doğsa bile kararlaştırılan sürenin sonuna kadar korumak zorundadır (TBK m. 575).\n\nYargıtay Hukuk Genel Kurulu'nun, Özel Daire bozma gerekçesini benimseyen bir kararında, depodaki mallar yönünden ardiye ücreti ödenmedikçe iade yükümlülüğünün doğmayacağı; mahkemenin ücreti belirleyip hüküm altına alarak malların **aynen iadesine** karar vermesi gerektiği kabul edilmiştir.\n\n## 6. Konaklama yeri işletenin sorumluluğu (TBK m. 576-578)\n\n**Otel, motel, pansiyon, tatil köyü** gibi yerleri işletenler, konaklayanların **getirdikleri eşyanın** yok olması, zarara uğraması veya çalınmasından sorumludur (TBK m. 576/1). Bu **kusursuz sorumluluktur**: işletenin kusuru aranmaz. İşleten yalnız şunları ispat ederek kurtulur:\n1. Zarar konaklayana ya da onu ziyarete gelen, beraberinde veya hizmetinde bulunan kimseye yüklenebilecek **kusurdan** doğmuştur,\n2. **Mücbir sebepten** doğmuştur,\n3. **Eşyanın niteliğinden** doğmuştur.\n\n**Tavan:** İşletene veya çalışanlarına kusur yüklenmedikçe sorumluluk, konaklayanlardan her biri için **günlük konaklama ücretinin üç katını** aşamaz (TBK m. 576/2).\n\n**Kıymetli eşya (TBK m. 577):**\n- Kıymetli eşya, oldukça önemli miktarda para veya kıymetli evrak işletene saklanması için **bırakılmamışsa**, işleten yalnız kendisinin ya da çalışanlarının **kusuru** hâlinde sorumludur.\n- İşleten bunları saklamak üzere **almışsa ya da almaktan kaçınmışsa**, eşyanın **tam değerinden** sorumludur.\n- Konaklayanın kendi yanında saklaması gereken eşya, para ve benzeri şeyler için diğer eşyaya ilişkin kural (TBK m. 576) uygulanır.\n\n**Bildirim ve ilan (TBK m. 578):** Konaklayan zararını öğrenir öğrenmez işletene bildirmezse istem hakkını kaybeder. İşleten \"sorumluluk üstlenmiyorum\" diye ya da kanunda olmayan bir koşula bağlayarak ilan etse bile sorumluluktan kurtulamaz.\n\n> **Örnek:** Günlük ücreti 2.000 TL olan otelde kalan Deniz'in 25.000 TL değerindeki bavulu gece çalınır. Otel ve çalışanları kusursuzdur, Deniz de kusursuzdur. Otel yine sorumludur, ama tavan 3 x 2.000 = 6.000 TL'dir. Otelin personeli kapıyı açık bırakmışsa tavan uygulanmaz, 25.000 TL ödenir.\n\n## 7. Garaj ve otopark işletenin sorumluluğu (TBK m. 579)\n\nGaraj, otopark ve benzeri yerleri işletenler, kendilerine bırakılan veya çalışanlarınca kabul edilen hayvan, at arabası, bunlara ait koşum ve benzeri eşya ile **motorlu taşıt ve eklentilerinin** yok olması, zarara uğraması veya çalınmasından sorumludur. Sorumluluk yine kusursuzdur. Kurtuluş sebepleri otelle aynıdır (saklatanın veya ziyaretçisinin kusuru, mücbir sebep, eşyanın niteliği). Tavan ise farklıdır: işletene veya çalışanlarına kusur yüklenmedikçe **saklananların her biri için alınan günlük saklama ücretinin on katı** (TBK m. 579/2). Sorumsuzluk ilanı burada da geçersizdir (TBK m. 579/3).\n\n| Ölçüt | Otel (TBK m. 576) | Otopark (TBK m. 579) |\n|---|---|---|\n| Tavan | Günlük ücretin 3 katı | Günlük saklama ücretinin 10 katı |\n| Kusur varsa | Tavan uygulanmaz | Tavan uygulanmaz |\n| Sorumsuzluk ilanı | Geçersiz (TBK m. 578/2) | Geçersiz (TBK m. 579/3) |\n\n> ⚠️ **Sınavda dikkat:** Üç kat / on kat sınırı **yalnız kusursuz** işleten için geçerlidir. İşletenin ya da çalışanının kusuru ispatlanırsa tam zarar ödenir.\n\n> **Örnek:** Cem'in günlük 300 TL ücretle otoparka bıraktığı aracı, görevlinin uyuması yüzünden çalınır. Görevli çalışan olduğundan kusur işletene yüklenir; 3.000 TL tavan uygulanmaz, zararın tamamı ödenir. Görevlinin kusuru olmasaydı ve araç yine çalınsaydı, \"Sorumluluk kabul etmeyiz\" levhasına rağmen işleten sorumlu olur, ama en çok 3.000 TL öderdi.\n\n## 8. Hapis hakkı, ticari dava ve zamanaşımı\n\n- **Hapis hakkı (TBK m. 580):** Konaklama yeri, garaj, otopark ve benzeri yerlerin işletenleri, kendilerine bırakılan ya da bu yerlere konulan eşya ve hayvanlar üzerinde, ücret ve saklama giderlerinden doğan alacaklarını güvenceye almak için hapis hakkına sahiptir. Kiraya verenin hapis hakkı hükümleri (TBK m. 336-338) kıyas yoluyla uygulanır. Örneğin kiraya verenin hapis hakkı haczedilemeyen mallar üzerinde kullanılamaz (TBK m. 336/3).\n- **Ticari dava (TTK m. 4/1):** TBK m. 561-580'deki saklama sözleşmelerinden doğan davalar, tarafların tacir olup olmadığına bakılmaksızın ticari davadır. Yalnız herhangi bir ticari işletmeyi ilgilendirmeyen havale, vedia ve fikir ve sanat eserlerine ilişkin haklardan doğan davalar bunun dışındadır.\n- **Zamanaşımı:** Otopark işletenin TBK m. 579 sorumluluğunu Yargıtay sözleşmesel sorumluluk sayar; 11. Hukuk Dairesinin onadığı bir kararda alacak için genel kural olan on yıllık süre (TBK m. 146) uygulanmıştır. Sorumluluğun kaynağı doktrinde tartışmalıdır (aşağıda).\n\n## 9. Denetim şeması\n\n1. **Nitelendirme:** Ana edim koruma mı? Taşınır mı? Kullanım, imal ya da başka bir amaç ön plandaysa saklama yoktur.\n2. **Muhafaza iradesi:** Saklayan koruma üstlenmiş mi?\n3. **Türü belirle:** Genel saklama, güvenilirkişi, misli saklama, ardiyeci, konaklama yeri, garaj/otopark.\n4. **Saklayanın ihlali:** Kullanma (TBK m. 563), erken ya da yanlış iade (TBK m. 564-566), tazminat (TBK m. 112).\n5. **Özel sorumluluk:** Otel ve otoparkta kusursuz sorumluluk, kurtuluş sebepleri, tavan, kusur hâlinde tavanın kalkması, bildirim ve ilanın geçersizliği.\n6. **Alacaklar:** Masraf, ücret, hapis hakkı (TBK m. 562, 574, 580).",
+  "critical_md": "- 📌 Saklama sözleşmesinin konusu yalnız **taşınırdır**; kural olarak **ücretsizdir**, ancak ücret açıkça öngörülmüşse ya da durum ve koşullar gerektiriyorsa istenebilir (TBK m. 561).\n- ⚠️ Saklayanın **muhafaza iradesi** yoksa saklama değil hukuki eylem vardır; bu nedenle saklama sözleşmesine dayanan \"senetle ispat\" (HMK m. 200) gerekçesi geçerli olmaz.\n- 📌 Saklatan zorunlu masrafları kusursuz öder; saklamadan doğan zararı ise **kendi kusuru olmadığını ispat etmedikçe** öder (TBK m. 562).\n- 📌 İzinsiz kullanan saklayan **uygun kullanım bedeli** öder ve kullanmamış olsaydı da zararın doğacağını ispat etmedikçe **beklenmedik hâlden** sorumludur (TBK m. 563/2).\n- ⚠️ Saklatan süre belirlenmiş olsa bile **her zaman** geri isteyebilir; saklayan ise süreden önce ancak **öngörülemeyen** tehlike ya da zarar hâlinde geri verir (TBK m. 564 ve TBK m. 565/1).\n- 📌 Süre belirlenmemişse saklayan her zaman geri verebilir; birden çok saklatan varsa yalnız birine iade, hepsinin rızası ya da aksine hüküm yoksa kurtarmaz (TBK m. 565/2-3).\n- 📌 Üçüncü kişi ayni hak iddia etse bile haciz ya da istihkak davası yoksa saklayan saklananı **saklatana** verir (TBK m. 568).\n- 📌 Güvenilirkişi, saklatanların **tamamının rızası** ya da **hâkim kararı** olmadan çekişmeli şeyi hiçbirine veremez (TBK m. 569).\n- ⚠️ **Mühürsüz ve açık para** mislen iade için örtülü anlaşma sayılır (TBK m. 570/2); diğer misli eşya ve kıymetli evrakta **açık yetki** gerekir (TBK m. 570/3).\n- 📌 Ardiyeci komisyoncu gibi özenle saklar; giderleri **hemen**, ardiye ücretini **her üç ayda bir** (ve geri alma sırasında) ister; **hapis hakkı** vardır (TBK m. 572 ve TBK m. 574).\n- ⚠️ Ardiyeci, öngörülemeyen sebepler olsa bile kararlaştırılan **sürenin sonuna kadar** korumak zorundadır (TBK m. 575); genel saklayandan farkı budur.\n- 📌 Otel kusursuz sorumludur; kusur yoksa tavan **günlük konaklama ücretinin 3 katı** (TBK m. 576/2). Otoparkta tavan **günlük saklama ücretinin 10 katıdır** (TBK m. 579/2).\n- ⚠️ İşletene veya çalışanına kusur yüklenirse 3 kat / 10 kat sınırı kalkar. Sorumsuzluk ilanları geçersizdir (TBK m. 578/2 ve TBK m. 579/3).\n- 📌 Kıymetli eşya otele saklanmak üzere bırakılmamışsa yalnız işletenin kusuru hâlinde; saklamak üzere alınmış ya da almaktan kaçınılmışsa **tam değerden** sorumluluk vardır (TBK m. 577).",
+  "doctrine_md": "### Banka mevduatının hukuki niteliği\nMevduat sözleşmesi için iki klasik açıklama vardır. Bir görüşe göre vadesiz mevduat misli şeylerin saklanmasına (usulsüz tevdi, TBK m. 570), vadeli mevduat tüketim ödüncüne (TBK m. 386) benzer. Yargıtay Hukuk Genel Kurulu ise mevduat sözleşmesini her iki kurumun niteliklerini taşıyan **kendine özgü (sui generis)** bir sözleşme sayar. Sonuç olarak mevduatın niteliğine uygun düştüğü ölçüde tüketim ödüncü ya da misli saklama hükümleri **kıyasen** uygulanır. Bu yaklaşımın pratik sonucu, paranın yararı ve hasarının bankaya ait olması ve izinsiz çekilen paranın bankanın zararı sayılmasıdır; mudinin kusuru ise bankaca ispatlanırsa müterafik kusur olarak değerlendirilir.\n\n### Otel ve otopark sorumluluğunun kaynağı\nTBK m. 576 ve TBK m. 579 sorumluluğunun niteliği tartışmalıdır. Bir görüşe göre bu, sözleşmeden bağımsız olarak **kanundan doğan** bir olağan sebep sorumluluğudur. Yargıtay ise otopark için bunu **kusursuz nitelikte sözleşmesel sorumluluk** sayar: Aracı otoparka bırakan kişi ile işleten arasında sözleşme vardır ve işletenin sorumluluğu bu sözleşmeden doğar. Nitelendirmenin sonucu zamanaşımında görülür: Sözleşmesel sayılan alacak genel on yıllık süreye (TBK m. 146) tabidir. Sınavda önce kanunun sözcüklerini (kusursuz sorumluluk, kurtuluş sebepleri, tavan) yaz, sonra nitelendirme tartışmasını kısaca belirt.\n\n### Saklatanın malik olması şart mı?\nSaklama sözleşmesi koruma borcunu doğurur; mülkiyet sorununu çözmez. Bu yüzden malik olmayan saklatan da sözleşmenin tarafıdır ve saklayandan iadeyi ya da tazminatı isteyebilir. Saklayan \"sen malik değilsin\" diyerek iadeden kaçınamaz. Yalnız TBK m. 568'deki haciz ve istihkak davası gibi kanuni durumlarda saklayanın geri verme borcu geriye kalır.",
+  "glossary": [
+   {
+    "term": "Saklama sözleşmesi",
+    "definition": "Saklayanın, saklatanın bıraktığı taşınırı güvenli bir yerde koruma altına almayı üstlendiği sözleşme. Kural olarak ücretsizdir (TBK m. 561)."
+   },
+   {
+    "term": "Saklatan",
+    "definition": "Taşınırı koruması için bırakan taraf. Zorunlu masrafları öder; saklayanın zararını, kendi kusurundan ileri gelmediğini ispat etmedikçe giderir (TBK m. 562)."
+   },
+   {
+    "term": "Saklayan",
+    "definition": "Taşınırı koruma altına alan taraf. Kullanamaz, saklatan isteyince geri verir (TBK m. 563-566)."
+   },
+   {
+    "term": "Fer'î zilyet",
+    "definition": "Bir sınırlı ayni hak ya da kişisel hakkı kullanmak için şeyi başkasından teslim alan zilyet. Malik olmasa da otopark sözleşmesinin tarafı olabilir (TMK m. 974)."
+   },
+   {
+    "term": "Güvenilirkişi (yediemin)",
+    "definition": "Çekişmeli şeyi birden çok kişinin ortak rızasıyla saklayan; tamamının rızası ya da hâkim kararı olmadan hiçbirine veremez (TBK m. 569)."
+   },
+   {
+    "term": "Misli şey",
+    "definition": "Aynı cins ve ölçüde başka bir şeyle yerine konabilen şey (para, buğday gibi)."
+   },
+   {
+    "term": "Usulsüz tevdi",
+    "definition": "Saklayanın aynını değil mislini iade edeceği saklama. Parada yarar ve hasar saklayana geçer (TBK m. 570)."
+   },
+   {
+    "term": "Ardiyeci",
+    "definition": "Ticari mal saklamak üzere kabul ettiğini kamuya açıkça bildiren saklayan. Komisyoncu gibi özenle saklar, hapis hakkı vardır (TBK m. 571-575)."
+   },
+   {
+    "term": "Ardiye ücreti",
+    "definition": "Ardiyecinin saklama karşılığı ücreti; her üç ayda bir ve malların geri alınması sırasında ödenir (TBK m. 574)."
+   },
+   {
+    "term": "Kusursuz sorumluluk",
+    "definition": "İşletenin kusuru aranmadan, yalnız kanunda sayılan kurtuluş sebepleri ispatlanarak kalkan sorumluluk (TBK m. 576 ve TBK m. 579)."
+   },
+   {
+    "term": "Hapis hakkı",
+    "definition": "Alacağı ödenene kadar eşyayı elde tutma hakkı. İşletenler ücret ve saklama giderleri için sahiptir (TBK m. 580)."
+   },
+   {
+    "term": "İstihkak davası",
+    "definition": "Bir şey üzerinde ayni hak (özellikle mülkiyet) iddia eden kişinin, şeyi elinde bulunduran kişiye karşı açtığı, şeyin kendisine verilmesini isteyen dava. Saklayana karşı açılması, haciz gibi, saklananın saklatana geri verilmesini engeller (TBK m. 568)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "561",
+   "official_text": "I. Tanımı\nMADDE 561- Saklama sözleşmesi, saklayanın, saklatanın kendisine bıraktığı bir taşınırı güvenli bir yerde koruma altına almayı üstlendiği sözleşmedir.\nAçıkça öngörüldüğü veya durum ve koşullar gerektirdiği takdirde, saklayan ücret isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "562",
+   "official_text": "MADDE 562- Saklatan, sözleşmenin ifasının zorunlu kıldığı bütün masrafları ödemekle yükümlüdür.\nSaklatan, kendi kusurundan ileri gelmediğini ispat etmedikçe, saklayanın saklamadan doğan zararlarını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "563",
+   "official_text": "1. Kullanım yasağı\nMADDE 563- Saklayan, saklatanın izni olmadıkça saklananı kullanamaz.\nBu yasağa aykırı davranırsa, saklatana uygun bir kullanım bedeli ödemekle yükümlü olduğu gibi, kullanmamış olsaydı bile bu zararın doğacağını ispat etmedikçe, beklenmedik hâlden doğacak zararlardan da sorumlu olur.\n2. Geri verme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "564",
+   "official_text": "a. Genel olarak\nMADDE 564- Saklama sözleşmesinde bir süre belirlenmiş olsa bile saklayan, saklatanın her zaman ileri sürebileceği istemi üzerine, saklananı bütün çoğalmalarıyla birlikte geri vermekle yükümlüdür. Ancak saklatan, saklayanın belirlenen süreyi dikkate alarak yapmış olduğu masrafları ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "565",
+   "official_text": "MADDE 565- Saklayan, belirlenmiş olan sürenin sona ermesinden önce saklananı geri veremez. Ancak saklayan, öngörülemeyen durumlar dolayısıyla sözleşmenin devamı saklanan için tehlikeli veya kendisi için zararlı olursa, belirlenen sürenin sona ermesinden önce de geri verebilir.\nSüre belirlenmemişse, saklayan saklananı her zaman geri verebilir.\nBirden çok kişi bir şeyi saklanmak üzere verirse, sözleşmede aksine bir hüküm bulunmadıkça veya hepsinin rızası olmadıkça, saklayan saklananı onlardan birine geri vermekle sorumluluktan kurtulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "566",
+   "official_text": "MADDE 566- Saklanan, masrafları ve hasarı saklatana ait olmak üzere, korunması gereken yerde geri verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "567",
+   "official_text": "3. Saklayanların sorumluluğu\nMADDE 567- Bir şeyi birlikte saklamak üzere alanlar, müteselsilen sorumlu olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "568",
+   "official_text": "4. Üçüncü kişilerin iddiaları\nMADDE 568- Bir üçüncü kişi, saklanan üzerinde ayni hak iddiasında bulunsa bile, saklanan haczedilmedikçe veya saklayana karşı istihkak davası açılmadıkça saklayan, onu saklatana geri vermekle yükümlüdür.\nHaciz konulması veya istihkak davası açılması hâlinde saklayan, durumu hemen saklatana bildirmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "569",
+   "official_text": "IV. Güvenilirkişiye bırakma\nMADDE 569- Birden çok kişi, haklarını korumak üzere, hukuki durumu çekişmeli veya belirsiz olan şeyi, bir güvenilirkişiye bırakırlarsa, bu kişi, saklatanların tamamının rızası veya hâkimin kararı olmadıkça, onu hiçbirine geri veremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "570",
+   "official_text": "B. Mislî şeylerin saklanması\nMADDE 570- Saklayanın kendisine bırakılan parayı aynen geri vermek zorunda olmaksızın mislen geri vermesi açıkça veya örtülü olarak kararlaştırılmışsa, o paranın yararı ve hasarı kendisine ait olur.\nParanın mühürsüz ve açık olarak bırakılmış olması, örtülü anlaşma sayılır.\nSaklayan, saklatan tarafından kendisine açıkça yetki verilmedikçe, saklanan diğer mislî eşya veya kıymetli evrak üzerinde tasarrufta bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "571",
+   "official_text": "MADDE 571- Saklamak üzere ticari mal kabul ettiğini açıkça kamuya bildiren ardiyeci, saklatılan malı temsil eden senet çıkarmaya izin verilmesini, yetkili makamdan isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "572",
+   "official_text": "II. Ardiyecinin saklama borcu\nMADDE 572- Ardiyeci, kendisine bırakılan malları bir komisyoncu gibi özenle saklamak ve mallarda ayrıca önlem alınmasını gerektiren bir değişiklik olursa, durumu imkân ölçüsünde saklatana bildirmekle yükümlüdür.\nArdiyeci, saklatana, malların durumunu incelemesi ve örnek alması için, alışılmış iş zamanlarında; gerekli koruma önlemlerini alabilmesi için de her zaman izin vermek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "573",
+   "official_text": "III. Bırakılan şeylerin karışması\nMADDE 573- Ardiyeci açıkça yetkili kılınmadıkça, aynı tür ve nitelikteki mislî şeyleri birbirine karıştıramaz.\nYetkiye dayanılarak karıştırılan bu gibi şeyler üzerinde, saklatanlardan her biri, hakkıyla orantılı bir pay isteyebilir.\nBu durumda ardiyeci, saklatanların birlikte hazır bulunmasına gerek olmaksızın saklatanlardan her birinin payını ayırabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "574",
+   "official_text": "IV. Ardiyecinin hakları\nMADDE 574- Ardiyeci, kararlaştırılmış veya alışılmış olan ardiye ücretini ve saklamadan doğmayan bakım, taşıma ve gümrük gibi bütün giderlerini isteyebilir.\nBu giderler hemen; ardiye ücreti ise her üç ayda bir ve her hâlde malların tümünün veya bir bölümünün geri alınması sırasında ödenir.\nArdiyeci, mallara zilyet bulunduğu veya eşyayı temsil eden herhangi bir senet vasıtasıyla onlar üzerinde tasarruf etme yetkisine sahip olduğu sürece, alacakları için bu mallar üzerinde hapis hakkına sahiptir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "575",
+   "official_text": "V. Malların geri verilmesi\nMADDE 575- Ardiyeci, ticari malları, genel saklama sözleşmesinde olduğu gibi geri vermekle yükümlüdür. Ancak, saklayanın sözleşmede öngöremeyeceği sebeplerle, süresinden önce geri verme yetkisi bulunduğu durumlarda bile ardiyeci, kararlaştırılmış olan sürenin sonuna kadar malları korumak zorundadır.\nD. Konaklama yeri, garaj, otopark ve benzeri yerleri işletenlere bırakma",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "576",
+   "official_text": "1. Koşulları ve kapsamı\nMADDE 576- Otel, motel, pansiyon, tatil köyü gibi yerleri işletenler, konaklayanların getirdikleri eşyanın yok olması, zarara uğraması veya çalınmasından sorumludurlar. Ancak işletenler, zararın bizzat konaklayana veya onu ziyarete gelen ya da beraberinde veya hizmetinde bulunan kimseye yükletilebilecek kusurdan, mücbir sebepten ya da eşyanın niteliğinden doğduğunu ispat etmekle, bu sorumluluktan kurtulurlar.\nBu sorumluluk, işletenlere veya çalışanlarına bir kusur yüklenmedikçe, konaklayanlardan her biri için, günlük konaklama ücretinin üç katını aşamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "577",
+   "official_text": "2. Kıymetli eşya\nMADDE 577- Kıymetli eşya veya oldukça önemli miktarda para veya kıymetli evrak, işletene saklanması için bırakılmamışsa, işleten ancak kendisinin veya çalışanlarının kusuru hâlinde sorumlu olur.\nİşleten, bunları saklamak üzere almış veya almaktan kaçınmışsa, eşyanın tam değerinden sorumludur.\nKonaklayanın kendi yanında saklaması gereken eşya ile para ve benzeri şeyler hakkında, onun diğer eşyasına ilişkin sorumluluk kuralı uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "578",
+   "official_text": "3. Sorumluluğun kalkması\nMADDE 578- Konaklayan zararını öğrenir öğrenmez işletene bildirmezse, istem hakkını kaybeder.\nİşleten böyle bir sorumluluk üstlenmediğini veya sorumluluğu bu Kanunda gösterilmemiş olan bir koşula bağladığını, herhangi bir yolla ilan etse bile, sorumluluktan kurtulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "579",
+   "official_text": "MADDE 579- Garaj, otopark ve benzeri yerleri işletenler, kendilerine bırakılan veya çalışanlarınca kabul edilen hayvan, at arabası, bunlara ait koşum ve benzeri eşya ile motorlu taşıt ve eklentilerinin yok olmasından, zarara uğramasından veya çalınmasından sorumludurlar. Ancak işletenler, zararın saklatan veya ziyaretçisi ya da beraberinde veya hizmetinde bulunan kimseye yükletilebilecek kusurdan, mücbir sebepten ya da eşyanın niteliğinden doğduğunu ispat etmekle, bu sorumluktan kurtulurlar.\nAncak, garaj, otopark ve benzeri yerleri işletenlerin sorumluluğu, kendilerine veya çalışanlarına bir kusur yüklenmedikçe, saklananların her biri için alınan günlük saklama ücretinin on katını aşamaz.\nİşleten böyle bir sorumluluk üstlenmediğini veya sorumluluğu bu Kanunda gösterilmemiş olan bir koşula bağladığını, herhangi bir yolla ilan etse bile, sorumluluktan kurtulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "580",
+   "official_text": "MADDE 580- İşletenler, kendilerine bırakılan veya konaklama yerlerine, garaj, otopark ve benzeri yerlere konulan eşya veya hayvanlar üzerinde, ücretlerini veya saklama giderlerinden doğan alacaklarını güvenceye almak için hapis hakkına sahiptirler.\nKiraya verenin hapis hakkına ilişkin hükümler, kıyas yoluyla burada da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "336",
+   "official_text": "MADDE 336- Taşınmaz kiralarında kiraya veren, işlemiş bir yıllık ve işlemekte olan altı aylık kira bedelinin güvencesi olmak üzere, kiralananda bulunan ve kiralananın döşenmesine veya kullanılmasına yarayan taşınırlar üzerinde hapis hakkına sahiptir.\nKiraya verenin hapis hakkı, alt kiracının asıl kiracıya olan kira borcunu aşmamak üzere, alt kiracının kiralanana getirdiği aynı nitelikteki taşınırları da kapsar.\nHapis hakkı, kiracının haczedilemeyen malları üzerinde kullanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "337",
+   "official_text": "MADDE 337- Üçüncü kişilerin, kiraya verenin kiracıya ait olmadığını bildiği veya bilmesi gerektiği eşya ile çalınmış, kaybolmuş veya başka bir biçimde malikinin elinden iradesi dışında çıkmış eşya üzerindeki hakları, kiraya verenin hapis hakkından önce gelir.\nKiraya veren, kiracı tarafından kiralanana getirilmiş olan taşınırların kiracının mülkiyetinde olmadığını kira sözleşmesi devam ederken öğrendiği hâlde, sözleşmeyi en yakın fesih döneminin sonu için feshetmezse, bu eşya üzerindeki hapis hakkını kaybeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "338",
+   "official_text": "MADDE 338- Kiracı, taşınmak veya kiralananda bulunan taşınırları başka bir yere taşımak istediği takdirde, kiraya veren, alacağını güvence altına almasını sağlayacak miktardaki taşınırı, sulh hâkiminin veya icra müdürünün kararıyla alıkoyabilir.\nAlıkoyma kararının konusu olan eşya, gizlice veya zorla götürülürse, götürülmelerinden başlayarak on gün içinde kolluk gücünün yardımıyla kiralanana geri getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "386",
+   "official_text": "MADDE 386- Tüketim ödüncü sözleşmesi, ödünç verenin, bir miktar parayı ya da tüketilebilen bir şeyi ödünç alana devretmeyi, ödünç alanın da aynı nitelik ve miktarda şeyi geri vermeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "99",
+   "official_text": "MADDE 99- Konusu para olan borç Ülke parasıyla ödenir.\nÜlke parası dışında başka bir para birimiyle ödeme yapılması kararlaştırılmışsa, sözleşmede aynen ödeme veya bu anlama gelen bir ifade bulunmadıkça borç, ödeme günündeki rayiç üzerinden Ülke parasıyla da ödenebilir.\nÜlke parası dışında başka bir para birimiyle belirlenmiş ve sözleşmede aynen ödeme ya da bu anlama gelen bir ifade de bulunmadıkça, borcun ödeme gününde ödenmemesi üzerine alacaklı, bu alacağının aynen veya vade ya da fiilî ödeme günündeki rayiç üzerinden Ülke parası ile ödenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "4",
+   "official_text": "1. Genel olarak\nMADDE 4- (1) Her iki tarafın da ticari işletmesiyle ilgili hususlardan doğan hukuk davaları ve çekişmesiz yargı işleri ile tarafların tacir olup olmadıklarına bakılmaksızın;\na) Bu Kanunda,\nb) Türk Medenî Kanununun, rehin karşılığında ödünç verme işi ile uğraşanlar hakkındaki 962 ilâ 969 uncu maddelerinde,\nc) 11/1/2011 tarihli ve 6098 sayılı Türk Borçlar Kanununun malvarlığının veya işletmenin devralınması ile işletmelerin birleşmesi ve şekil değiştirmesi hakkındaki 202 ve 203, rekabet yasağına ilişkin 444 ve 447, yayın sözleşmesine dair 487 ilâ 501, kredi mektubu ve kredi emrini düzenleyen 515 ilâ 519, komisyon sözleşmesine ilişkin 532 ilâ 545, ticari temsilciler, ticari vekiller ve diğer tacir yardımcıları için öngörülmüş bulunan 547 ilâ 554, havale hakkındaki 555 ilâ 560, saklama sözleşmelerini düzenleyen 561 ilâ 580 inci maddelerinde,\nd) Fikrî mülkiyet hukukuna dair mevzuatta,\ne) Borsa, sergi, panayır ve pazarlar ile antrepo ve ticarete özgü diğer yerlere ilişkin özel hükümlerde,\nf) Bankalara, diğer kredi kuruluşlarına, finansal kurumlara ve ödünç para verme işlerine ilişkin düzenlemelerde,\nöngörülen hususlardan doğan hukuk davaları ve çekişmesiz yargı işleri ticari dava ve ticari nitelikte çekişmesiz yargı işi sayılır. Ancak, herhangi bir ticari işletmeyi ilgilendirmeyen havale, vedia ve fikir ve sanat eserlerine ilişkin haklardan doğan davalar bundan istisnadır.[3]\n(2) (Değişik: 28/2/2018-7101/61 md.) Ticari davalarda da deliller ile bunların sunulması 12/1/2011 tarihli ve 6100 sayılı Hukuk Muhakemeleri Kanunu hükümlerine tabidir; miktar veya değeri bir milyon Türk lirasını geçmeyen ticari davalarda basit yargılama usulü uygulanır. (Ek cümle: 28/3/2023-7445/30 md.) Bu fıkrada belirtilen parasal sınır, 6100 sayılı Kanunun ek 1 inci maddesinin birinci fıkrasına göre artırılır.[4][5]\n2. Ticari davalar ve çekişmesiz yargı işlerinin görüleceği mahkemeler[6]\n3)“Denizcilik Müsteşarlığı”, “Denizcilik Müsteşarlığının”, “Denizcilik Müsteşarlığınca”, “Denizcilik Müsteşarlığına”, “Denizcilik Müsteşarlığından” ibareleri sırasıyla “Ulaştırma, Denizcilik ve Haberleşme Bakanlığı”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığının”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığınca”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığına”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığından”,\n[4] 22/7/2020 tarihli ve 7251 sayılı Kanunun 58 inci maddesiyle, bu fıkrada yer alan “yüz bin” ibaresi “beş yüz bin” şeklinde değiştirilmiştir.\n[5] 28/3/2023 tarihli ve 7445 sayılı Kanunun 30 uncu maddesiyle bu fıkrada yer alan “beş yüz bin” ibaresi “bir milyon” şeklinde değiştirilmiştir.\n[6] Bu madde başlığı “2. Ticari davaların görüleceği mahkemeler” iken, 26/6/2012 tarihli ve 6335 sayılı Kanunun 2 nci maddesiyle metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "974",
+   "official_text": "1. Aslî ve fer'î zilyetlik\nMadde 974- Zilyet, bir sınırlı aynî hak veya bir kişisel hakkın kurulmasını ya da kullanılmasını sağlamak için şeyi başkasına teslim ederse, bunların ikisi de zilyet olur.\nBir şeyde malik sıfatıyla zilyet olan aslî zilyet, diğeri fer'î zilyettir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "986",
+   "official_text": "2. Fer'î zilyetlikte karine\nMadde 986- Bir taşınıra malik olma iradesi bulunmaksızın zilyet olan kimse, taşınırı kendisinden iyiniyetle aldığı kişinin mülkiyet karinesine dayanabilir.\nTaşınıra bir sınırlı aynî hak veya kişisel hak iddiasıyla zilyet bulunan kimsenin iddia ettiği hakkın varlığı karine olarak kabul edilir. Ancak, zilyet bu karineyi şeyi kendisine vermiş olan kişiye karşı ileri süremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "200",
+   "official_text": "Senetle ispat zorunluluğu\nMADDE 200- (1) Bir hakkın doğumu, düşürülmesi, devri, değiştirilmesi, yenilenmesi, ertelenmesi, ikrarı ve itfası amacıyla yapılan hukuki işlemlerin, yapıldıkları zamanki miktar veya değerleri ikibinbeşyüz Türk Lirasını geçtiği takdirde senetle ispat olunması gerekir. Bu hukuki işlemlerin miktar veya değeri ödeme veya borçtan kurtarma gibi bir nedenle ikibinbeşyüz Türk Lirasından aşağı düşse bile senetsiz ispat olunamaz.\n(2) Bu madde uyarınca senetle ispatı gereken hususlarda birinci fıkradaki düzenleme hatırlatılarak karşı tarafın açık muvafakati hâlinde tanık dinlenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2018/953",
+   "karar_no": "2021/1410",
+   "decision_date": "16.11.2021",
+   "summary_md": "Davacı şirket, bir başka şirketin maliki olduğu iki çekici ve iki römorkun zilyedi olarak bu araçları aylık ücretle davalının tır parkına bırakmış; 2013 ve 2014'te araçların hasarlı olduğu görülünce maddi tazminat istemiş, davayı ıslahla yükseltmiştir. Asliye ticaret mahkemesi, araçları maliki sonradan teslim aldığı ve davacıya henüz dava açmadığı için davanın \"erken açılmış\" olduğu gerekçesiyle davayı reddetmiş; 11. Hukuk Dairesi bozmuş, mahkeme direnmiş, Hukuk Genel Kurulu direnme kararını oybirliğiyle bozmuştur. Gerekçeye göre TBK m. 579 sorumluluğu kusursuz nitelikte bir sözleşme sorumluluğudur ve sözleşmenin tarafı, aracı otoparka bırakan davacıdır; malik olmaması bu hakkı kullanmasına engel değildir (fer'î zilyet, TMK m. 974 ve TMK m. 986). Davalının muhafaza borcunun muhatabı sözleşmenin tarafı davacı olduğundan dava erken açılmış sayılamaz. Konuya katkısı: otopark sözleşmesinde saklatanın malik olmasının gerekmediğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=724694800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/305",
+   "karar_no": "2025/368",
+   "decision_date": "14.02.2017",
+   "summary_md": "Davacı şirket, sac malzemelerinin bir depoya konulduğunu, depodaki 46 kalem ve 544,13 tonluk malzemenin aynen iadesini, olmazsa bedelini istemiş; dava dilekçesinde değeri 10.000 TL göstermiş, sonra ıslahla talebini 341.289,06 USD'ye çevirmiştir. Keşifte 350,57 tonun depoda bulunduğu, 193,56 tonun bulunmadığı saptanmıştır. İlk derece mahkemesi depodaki malların aynen iadesine, olmayanların TL karşılığına; bölge adliye mahkemesi ise yalnız depoda bulunmayan kısım için USD karşılığına hükmetmiş, depodaki mallar yönünden istemi reddetmiştir. Yargıtay 11. Hukuk Dairesi bozmuş, bölge adliye mahkemesi direnmiş, Hukuk Genel Kurulu direnme kararını iki uyuşmazlıkta da bozmuştur (birincisinde oybirliğiyle, ikincisinde oy çokluğuyla). Gerekçe: Dilekçede seçim hakkı TL'den yana kullanıldığı için ıslahla USD istenemez (TBK m. 99). Depoda bulunan mallar için dilekçede aynen iade istendiğinden ıslahla bedel istenemez; ardiyeci ardiye ücreti ve hapis hakkına sahip olduğundan (TBK m. 574) ücret belirlenip hüküm altına alınarak aynen iadeye karar verilmelidir. Konuya katkısı: ardiyecinin ücret alacağı ve hapis hakkının iade borcuyla ilişkisini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1163337000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/304",
+   "karar_no": "2025/525",
+   "decision_date": "",
+   "summary_md": "Davacı mudi, bankadaki vadeli TL ve döviz hesaplarındaki parasının 2018'de bilgisi ve rızası dışında mobil bankacılık yoluyla üçüncü kişilere havale edildiğini söyleyip iadesini istemiştir. Bilirkişiler, telefonun zararlı bir yazılımla başka bir hatta yönlendirilmiş olabileceğini belirtmiştir. Tüketici mahkemesi bankayı yüzde 80, mudiyi yüzde 20 kusurlu bulup davayı kısmen kabul etmiş; bölge adliye mahkemesi mudinin kusuru ispatlanmadığı için davayı tamamen kabul etmiş; 11. Hukuk Dairesi mudinin müterafik kusurunu gerekçe göstererek bozmuş, bölge adliye mahkemesi direnmiştir. Hukuk Genel Kurulu direnmeyi oy çokluğuyla uygun bulmuştur. Gerekçeye göre mevduat sözleşmesi tüketim ödüncü ve misli şeylerin saklanması niteliklerini taşıyan kendine özgü bir sözleşmedir; bankalar parayı mislen iade etmekle yükümlü olduğundan usulsüz çekilen para doğrudan bankanın zararıdır. Mudinin müterafik kusuru banka tarafından ispatlanamamıştır. Dosya, diğer temyiz itirazları için Özel Daireye gönderilmiştir. Konuya katkısı: TBK m. 570/1'deki yarar ve hasarın saklayana (bankaya) ait olması kuralının uygulamasını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1179605000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/4112",
+   "karar_no": "2026/1120",
+   "decision_date": "26.02.2026",
+   "summary_md": "Davacı, davalı şirkette genel müdürken 24.000 USD nakit parasını şirket kasasına koyduğunu, iş sözleşmesi feshedilince alamadığını ileri sürmüş ve şimdilik 12.000 USD istemiştir; bir yeminli mali müşavir raporu kasada kayıtlara girmemiş 24.000 USD bulunduğunu göstermiştir. İlk derece mahkemesi, tanık beyanlarına itibar edilemeyeceği ve paranın davacıya ait olduğunun geçerli delillerle ispatlanamadığı gerekçesiyle davayı reddetmiş; bölge adliye mahkemesi, olayı saklama ilişkisine yönelik bir hukuki işlem sayıp HMK m. 200 uyarınca senetle ispat gerektiğini belirterek istinafı esastan reddetmiştir. Yargıtay 11. Hukuk Dairesi oybirliğiyle bozmuştur: Saklama ilişkisinin doğması için saklayanın koruma altına alma yönünde iradesinin bulunması gerekir; şirketin böyle bir iradesi olmadığından ortada saklama sözleşmesi değil hukuki bir eylem vardır. Konuya katkısı: saklamanın kuruluşu için muhafaza iradesinin şart olduğunu ve bunun ispat kuralını etkilediğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1222723100",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 561'e göre saklama sözleşmesi hakkında hangisi doğrudur?",
+   "options": [
+    "Konusu yalnız taşınırdır; ücret açıkça öngörülmüşse veya durum ve koşullar gerektiriyorsa istenebilir.",
+    "Konusu taşınır ya da taşınmaz olabilir; ücret her zaman zorunludur.",
+    "Sözleşme ancak taşınırın teslimiyle ve yazılı olarak kurulabilir.",
+    "Saklatanın taşınırın maliki olması geçerlilik şartıdır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 561/1 saklamanın konusunu taşınır olarak belirler; m. 561/2 ücreti, açıkça öngörülmüşse veya durum ve koşullar gerektiriyorsa mümkün kılar. Bu nedenle sözleşme kural olarak ücretsizdir. Saklatanın malik olması gerekmez ve kanun yazılı şekil aramaz."
+  },
+  {
+   "stem_md": "Ali, klasik arabasını ücretsiz saklaması için Mehmet'e bırakır. Mehmet, Ali'nin izni olmadan arabayla gezintiye çıkar; araç yolda bir ağacın devrilmesiyle hasar görür. Mehmet, aracı garajda bıraksaydı da aynı hasarın doğacağını ispat edemez. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Mehmet yalnız uygun kullanım bedelini öder; hasar tesadüf olduğundan sorumlu olmaz.",
+    "Mehmet hiçbir şey ödemez; ücretsiz saklayan her zaman kullanabilir.",
+    "Mehmet uygun kullanım bedelini öder ve beklenmedik hâlden doğan hasardan da sorumlu olur.",
+    "Mehmet yalnız hasarı öder, kullanım bedeli ödemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 563/1 izinsiz kullanmayı yasaklar. Yasağa aykırı davranan saklayan, uygun bir kullanım bedeli ödemekle yükümlü olduğu gibi, kullanmasaydı da bu zararın doğacağını ispat etmedikçe beklenmedik hâlden doğacak zararlardan da sorumlu olur (TBK m. 563/2). Mehmet bu ispatı yapamadığından iki sonuç da gerçekleşir. Yaygın yanılgı, tesadüfi zararın her zaman saklayanı bağlamayacağı sanılmasıdır; kullanma yasağı ihlal edilince kural değişir."
+  },
+  {
+   "stem_md": "Ayşe, antika vazosunu 12 ay boyunca ücretsiz saklamak üzere Cem'e bırakmıştır. Üçüncü ayda Ayşe vazoyu geri ister. Cem \"süre dolmadı\" diye reddeder. Cem'in durumu nedir?",
+   "options": [
+    "Cem vazoyu geri vermek zorundadır, ama bundan doğan masrafları hiçbir şekilde isteyemez.",
+    "Cem süre dolana kadar vermeyebilir; çünkü süre iki tarafı da bağlar.",
+    "Cem, hâkim kararı olmadan vazoyu geri veremez.",
+    "Cem vazoyu geri vermek zorundadır; Ayşe yalnız Cem'in süreyi dikkate alarak yaptığı masrafları öder."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 564'e göre süre belirlenmiş olsa bile saklayan, saklatanın her zaman ileri sürebileceği istem üzerine saklananı çoğalmalarıyla birlikte geri verir. Karşılığında saklatan, saklayanın belirlenen süreyi dikkate alarak yaptığı masrafları öder. Süre saklatanı bağlamaz; saklayanı bağlar (TBK m. 565/1)."
+  },
+  {
+   "stem_md": "Saklayanın, belirlenen sürenin sona ermesinden önce saklananı geri vermesi hangi durumda mümkündür (TBK m. 565)?",
+   "options": [
+    "Saklayan artık saklamak istemediğinde.",
+    "Öngörülemeyen durumlar dolayısıyla sözleşmenin devamı saklanan için tehlikeli veya kendisi için zararlı olduğunda.",
+    "Saklatan ücret ödemediğinde, her hâlde.",
+    "Saklananı kullanmasına izin verilmediğinde."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 565/1, saklayanın süre dolmadan geri vermesini yasaklar; tek istisna, öngörülemeyen durumlar dolayısıyla sözleşmenin devamının saklanan için tehlikeli ya da saklayan için zararlı olmasıdır. Yalnızca vazgeçmek istemek, süreden önce iade sebebi değildir. Süre belirlenmemişse saklayan her zaman geri verebilir (TBK m. 565/2)."
+  },
+  {
+   "stem_md": "Zeynep, tablosunu Cengiz'e saklaması için bırakmıştır. Fatma, tablonun kendisine ait olduğunu ileri sürerek Cengiz'e ihtar gönderir. Tablo haczedilmemiş, Cengiz'e karşı istihkak davası da açılmamıştır. Cengiz ne yapmalıdır?",
+   "options": [
+    "Tabloyu Zeynep'e geri vermelidir; haciz konulursa ya da istihkak davası açılırsa durumu hemen Zeynep'e bildirmelidir.",
+    "Tabloyu Zeynep'e vermemeli, Fatma ile Zeynep'in anlaşmasını beklemelidir.",
+    "Mahkeme kararı çıkana kadar tabloyu kimseye vermemelidir.",
+    "Tabloyu Fatma'ya vermelidir; çünkü malik olduğunu ileri sürmüştür."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 568/1'e göre üçüncü kişi ayni hak iddia etse bile saklanan haczedilmedikçe veya saklayana karşı istihkak davası açılmadıkça saklayan onu saklatana geri vermekle yükümlüdür. Haciz veya istihkak davası olursa durumu hemen saklatana bildirir (TBK m. 568/2). Salt ihtar iade borcunu ortadan kaldırmaz."
+  },
+  {
+   "stem_md": "Selin, Barış'a \"benim için sakla\" diyerek 50.000 TL'yi mühürsüz ve açık bırakır; ayrıca 10 ton buğdayı da saklatır. Hangisi doğrudur?",
+   "options": [
+    "Para açık bırakıldığından mislen iade için örtülü anlaşma sayılır ve paranın yararı ile hasarı Barış'a ait olur; buğday üzerinde Barış'ın tasarrufu için Selin'in açık yetkisi gerekir.",
+    "Her ikisinde de Barış tasarruf edemez; yarar ve hasar Selin'dedir.",
+    "Her ikisinde de açık bırakma, mislen iade için örtülü anlaşma sayılır.",
+    "Para yalnız mühürlü zarfta bırakılırsa mislen iade kararlaştırılmış sayılır; buğdayda yetki gerekmez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 570/2'ye göre paranın mühürsüz ve açık bırakılması örtülü anlaşma sayılır; m. 570/1 gereği yarar ve hasar saklayana geçer. Diğer misli eşya (buğday) ve kıymetli evrak üzerinde saklayan, saklatan açıkça yetki vermedikçe tasarruf edemez (TBK m. 570/3). Karine yalnız mühürsüz ve açık paraya özgüdür."
+  },
+  {
+   "stem_md": "Ardiyecinin giderleri ve ücreti hakkında TBK m. 574'e göre hangisi doğrudur?",
+   "options": [
+    "Saklamadan doğmayan bakım, taşıma ve gümrük giderleri hemen; ardiye ücreti her üç ayda bir ve malların geri alınması sırasında ödenir.",
+    "Giderler ve ücret yalnız malların tamamı geri alındığında ödenir.",
+    "Ardiyeci, alacağı için hiçbir koşulda mallar üzerinde hapis hakkı kullanamaz.",
+    "Ardiye ücreti peşin, giderler ise her ay ödenir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 574/2 saklama dışı giderlerin hemen, ardiye ücretinin her üç ayda bir ve her hâlde malların tamamının ya da bir bölümünün geri alınması sırasında ödeneceğini söyler. Ardiyeci, mallara zilyet olduğu veya malı temsil eden senetle tasarruf yetkisine sahip olduğu sürece hapis hakkına sahiptir (TBK m. 574/3)."
+  },
+  {
+   "stem_md": "Genel saklayan ile ardiyecinin erken iade yetkisi karşılaştırıldığında hangisi doğrudur?",
+   "options": [
+    "Hiçbiri süreden önce iade edemez; saklatan da edemez.",
+    "Her ikisi de öngörülemeyen bir sebep varsa süreden önce iade edebilir.",
+    "Ardiyeci süreden önce iade edebilir, genel saklayan edemez.",
+    "Genel saklayan öngörülemeyen tehlike hâlinde süreden önce iade edebilir; ardiyeci ise öngörülemeyen sebeplerle iade yetkisi doğsa bile kararlaştırılan sürenin sonuna kadar korumak zorundadır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 565/1 genel saklayana öngörülemeyen durumlarda süreden önce iade imkânı verir. TBK m. 575 ise ardiyecinin, saklayanın öngöremeyeceği sebeplerle süreden önce iade yetkisi bulunan durumlarda bile süre sonuna kadar malları korumak zorunda olduğunu söyler. Saklatan ise her iki hâlde de her zaman geri isteyebilir (TBK m. 564)."
+  },
+  {
+   "stem_md": "Günlük 3.000 TL ücretli otelde kalan Deniz'in giysi dolu bavulu (40.000 TL) gece çalınır. Otel ve çalışanları açısından bir kusur saptanmamış, Deniz de kusursuzdur; Deniz zararı öğrenir öğrenmez otele bildirmiştir. Otelin sorumluluğu ne olur?",
+   "options": [
+    "Otel kusursuz sorumludur, ama tazminat günlük ücretin üç katı olan 9.000 TL ile sınırlıdır.",
+    "Otel yalnız günlük ücret kadar (3.000 TL) öder.",
+    "Otel 40.000 TL'nin tamamından sorumludur.",
+    "Kusuru olmadığından otel hiç sorumlu olmaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 576/1'e göre otel, konaklayanın getirdiği eşyanın çalınmasından kusursuz sorumludur; kurtuluş sebepleri (konaklayanın kusuru, mücbir sebep, eşyanın niteliği) ispatlanmamıştır. İşletene veya çalışanlarına kusur yüklenmediği için sorumluluk günlük konaklama ücretinin üç katını aşamaz (TBK m. 576/2): 3 x 3.000 = 9.000 TL."
+  },
+  {
+   "stem_md": "Günlük 4.000 TL ücretli otelde kalan Kerem, 500.000 TL değerindeki kolyesini resepsiyonun kasasına bırakmak ister; görevli \"kasa dolu\" diyerek almaktan kaçınır. Kolye gece, otelin bir kusuru olmaksızın çalınır. Hangisi doğrudur?",
+   "options": [
+    "Otel, kolyeyi saklamak üzere almaktan kaçındığı için eşyanın tam değerinden sorumludur.",
+    "Otel hiçbir şey ödemez; kıymetli eşyada kusursuz sorumluluk yoktur.",
+    "Otel yalnız 12.000 TL ödemek zorundadır.",
+    "Otel ancak kendi kusuru ispatlanırsa sorumlu olur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 577/1'e göre kıymetli eşya işletene saklanması için bırakılmamışsa işleten yalnız kusuru hâlinde sorumludur. Ama işleten bunları saklamak üzere almışsa veya almaktan kaçınmışsa eşyanın tam değerinden sorumlu olur (TBK m. 577/2). Burada görevli almaktan kaçındığı için 3 kat sınırı uygulanmaz."
+  },
+  {
+   "stem_md": "Cem, aracını günlük 400 TL ücretle bir otoparka bırakır. Araç gece çalınır. Otopark girişinde \"Araçlardan işletme sorumlu değildir\" yazılı levha asılıdır; işletene veya çalışanlarına kusur yüklenememektedir. Cem'in aracının değeri 600.000 TL'dir. Hangisi doğrudur?",
+   "options": [
+    "İşleten 600.000 TL'nin tamamından sorumludur.",
+    "İşleten günlük ücret olan 400 TL kadar öder.",
+    "İşleten sorumludur; tazminat en fazla 4.000 TL'dir.",
+    "Levha geçerli olduğundan işleten sorumlu olmaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 579/1'e göre otopark işleten kendisine bırakılan motorlu taşıtın çalınmasından sorumludur ve sorumsuzluk ilanı sorumluluğu kaldırmaz (TBK m. 579/3). İşletene veya çalışanlarına kusur yüklenmediği için sorumluluk, saklananın her biri için alınan günlük saklama ücretinin on katını aşamaz (TBK m. 579/2): 10 x 400 = 4.000 TL."
+  },
+  {
+   "stem_md": "Zeynep'in kullandığı aracın maliki başka bir şirkettir. Zeynep aracı aylık ücretle Baran'ın otoparkına bırakmış ve araç otoparkta hasar görmüştür. Baran \"araç sana ait değil, dava hakkın yok\" diyor. Yargıtay'ın yaklaşımına göre hangisi doğrudur?",
+   "options": [
+    "Zeynep, aracı otoparka bırakan fer'î zilyet ve sözleşmenin tarafı olarak TBK m. 579'a dayanarak işletenden zararını isteyebilir.",
+    "Zeynep malik olmadığı için dava açamaz.",
+    "Dava yalnız malikin açacağı istihkak davasıdır.",
+    "Zeynep ancak malik kendisine karşı dava açtıktan sonra dava açabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yargıtay Hukuk Genel Kurulu'na göre saklama ilişkisinde saklatanın malik olması gerekmez; aracı otoparka bırakan fer'î zilyet (TMK m. 974) sözleşmenin tarafıdır ve TBK m. 579 uyarınca işletenden zararın giderilmesini isteyebilir. Maliki tarafından kendisine dava açılması da şart değildir; işletenin muhafaza borcunun muhatabı sözleşmenin tarafıdır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ayşe, 1 Mart 2026'da 400.000 TL değerindeki kuyruklu piyanosunu ve açık bir zarf içinde (mühürsüz) 100.000 TL nakit parasını, altı ay süreyle ve ücretsiz saklaması için arkadaşı Burak'a bırakır. Burak, altı aylık süreyi dikkate alarak piyanoyu evinin özel bir odasına yerleştirir ve bu oda için nem alma cihazı satın alarak 15.000 TL harcar.\n\nİkinci ayda Burak, Ayşe'nin haberi olmadan piyanoyu bir hayır konserinde çalınması için salona taşıtır. Taşıma sırasında bir ağaç dalının kırılıp taşıma aracının üzerine düşmesi yüzünden piyano hasar görür. Burak, piyano evde kalsaydı aynı hasarın doğmayacağını kabul etmektedir.\n\nÜçüncü ayda Cemil adlı bir kişi Burak'a ihtar çekerek piyanonun kendisine ait olduğunu iddia eder; piyano haczedilmemiş, Burak'a karşı istihkak davası da açılmamıştır. Aynı günlerde Ayşe, piyanoyu ve parayı geri ister. Burak \"altı aylık süre dolmadan veremem\" demektedir. Burak ayrıca, parayı kendi işinde kullanmış ve bir kısmını kaybetmiştir.\n\n1. Saklama sözleşmesinin niteliği ve ücret bakımından durum nedir?\n2. Burak'ın piyanoyu konserde kullanmasının sonuçları nelerdir?\n3. Cemil'in ihtarı ve Ayşe'nin geri verme istemi karşısında Burak ne yapmalıdır? Masraflar kime aittir?\n4. Burak parayı kaybettiyse sorumluluğu nasıl belirlenir?",
+   "rubric": [
+    {
+     "point": "Taşınırın koruma amacıyla bırakılması ve ücret öngörülmemesi nedeniyle ücretsiz genel saklama sözleşmesi bulunması",
+     "weight": 10,
+     "madde_ref": "TBK m. 561"
+    },
+    {
+     "point": "İzinsiz kullanma yasağının ihlali; uygun kullanım bedeli ödeme borcu",
+     "weight": 20,
+     "madde_ref": "TBK m. 563"
+    },
+    {
+     "point": "Burak'ın, kullanmasaydı da zararın doğacağını ispat edememesi nedeniyle beklenmedik hâlden doğan piyano hasarından sorumlu olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 563"
+    },
+    {
+     "point": "Saklatanın süre belirlenmiş olsa da her zaman geri isteyebilmesi; süreye güvenle yapılan masrafların saklatana ait olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 564"
+    },
+    {
+     "point": "Üçüncü kişinin ihtarının iade borcunu kaldırmaması; haciz veya istihkak davası hâlinde hemen bildirim",
+     "weight": 15,
+     "madde_ref": "TBK m. 568"
+    },
+    {
+     "point": "Mühürsüz ve açık paranın mislen iade için örtülü anlaşma sayılması; yarar ve hasarın saklayana ait olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 570"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ayşe ile Burak arasında piyano ve nakit para bakımından bir saklama sözleşmesi vardır. Piyano taşınırdır, ana edim koruma altına almadır ve ücret öngörülmediği gibi durum ve koşullar da ücreti gerektirmemektedir; bu nedenle sözleşme ücretsizdir (TBK m. 561). Nakit paranın saklanması ise TBK m. 570'in düzenlediği misli şeylerin saklanmasıdır.\n\n**Hukuki sorunlar:** (1) Burak'ın izinsiz kullanmasının sonuçları; (2) süre dolmadan geri verme isteminin akıbeti ve masraflar; (3) üçüncü kişi iddiası; (4) paranın hasarı kime ait?\n\n**İlgili hükümler:** TBK m. 561, 562, 563, 564, 565, 566, 568, 570.\n\n**Değerlendirme:**\n\n*1. Kullanma yasağı ve beklenmedik hâl.* TBK m. 563/1'e göre saklayan, saklatanın izni olmadıkça saklananı kullanamaz. Burak piyanoyu Ayşe'ye sormadan konserde kullanmak üzere taşıttığından yasağı ihlal etmiştir. Sonuç iki yönlüdür. Birincisi, saklatana uygun bir kullanım bedeli ödemek zorundadır (TBK m. 563/2). İkincisi, kullanmamış olsaydı bile zararın doğacağını ispat etmedikçe beklenmedik hâlden doğan zararlardan da sorumludur. Ağaç dalı düşmesi bir tesadüftür; ama Burak piyano evde kalsaydı aynı zararın doğmayacağını kabul ettiğinden, bu ispatı yapamamıştır. Bu nedenle piyanonun hasarından da sorumludur. Burak'ın özen göstermiş olması sonucu değiştirmez; TBK m. 563/2 saklayan aleyhine ağırlaştırılmış bir sorumluluk getirir.\n\n*2. Geri verme ve masraflar.* TBK m. 564'e göre süre belirlenmiş olsa bile saklatan her zaman iade isteyebilir; saklayan saklananı bütün çoğalmalarıyla birlikte geri vermekle yükümlüdür. Burak'ın \"süre dolmadı\" savunması bu nedenle dinlenmez. Ayşe, Burak'ın belirlenen süreyi dikkate alarak yaptığı masrafları ödemekle yükümlüdür; nem alma cihazı için harcanan 15.000 TL bu kapsamdadır (TBK m. 564). Piyano, korunması gereken yerde, masrafları ve hasarı Ayşe'ye ait olmak üzere iade edilir (TBK m. 566).\n\n*3. Cemil'in iddiası.* Cemil piyano üzerinde ayni hak iddia etse de piyano haczedilmediği ve Burak'a karşı istihkak davası açılmadığı sürece Burak, piyanoyu saklatan Ayşe'ye geri vermekle yükümlüdür (TBK m. 568/1). Haciz konulursa ya da istihkak davası açılırsa Burak durumu hemen Ayşe'ye bildirmek zorundadır (TBK m. 568/2). Cemil'in ihtarı, iade borcunu ortadan kaldırmaz.\n\n*4. Para.* Para mühürsüz ve açık bırakılmıştır; bu, mislen iade için örtülü anlaşma sayılır (TBK m. 570/2). Böylece paranın yararı ve hasarı Burak'a aittir (TBK m. 570/1). Burak parayı kaybettiyse bunu gerekçe göstererek iadeden kurtulamaz; 100.000 TL'yi mislen iade etmek zorundadır. Burak'ın para üzerindeki kullanımı da bu çerçevede hukuka aykırı sayılmaz.\n\n**Sonuç:**\n- Sözleşme ücretsiz saklamadır; piyano için genel saklama kuralları, para için TBK m. 570 uygulanır.\n- Burak kullanım bedelini öder ve piyanonun hasarından sorumludur.\n- Burak piyanoyu hemen iade eder; Ayşe, süreye güvenerek yapılan masrafı (15.000 TL) öder.\n- Cemil'in ihtarı iadeyi engellemez; haciz ya da istihkak davası halinde Burak Ayşe'yi hemen bilgilendirir.\n- Para kaybı Burak'a aittir; 100.000 TL mislen iade edilir."
+  },
+  {
+   "stem_md": "Deniz, 10 Temmuz 2026'da X Turizm A.Ş.'nin işlettiği bir tatil köyüne gelir ve beş gün kalır. Konaklama ücreti günlük 3.000 TL'dir. Deniz arabasını köyün otoparkına bırakır; otopark için günlük saklama ücreti 250 TL alınmaktadır. Resepsiyonda ve otopark girişinde \"Eşya ve araçlardan işletme sorumlu değildir\" yazılı levhalar asılıdır.\n\nÜçüncü gece, odanın kapısı kimse zorlamadan açılmış ve içeriden 30.000 TL değerindeki giysi ve kişisel eşya bavulu çalınmıştır. Tatil köyü ve çalışanlarına bir kusur yüklenememiştir. Deniz ayrıca 200.000 TL değerindeki pırlanta kolyesini resepsiyona bırakmak istememiş, valizinin içinde odada bırakmış; bu kolye de çalınmıştır. Deniz sabah olayı öğrenir öğrenmez yönetime bildirmiştir.\n\nDördüncü gün aracı otoparktan çalınır. Gece görevlisinin nöbette uyuduğu anlaşılmıştır. Aracın değeri 700.000 TL'dir.\n\nBeşinci gün Deniz, konaklama ücretini ve otopark ücretini ödemeden ayrılmak ister. Köy yönetimi, ödeme yapılmadıkça odada kalan eşyaları vermek istemiyor.\n\n1. Bavul yönünden tatil köyünün sorumluluğu var mıdır, varsa ne kadardır? Levhaların etkisi nedir?\n2. Kolye yönünden durum nedir?\n3. Araç yönünden otopark işleteninin sorumluluğu ne kadardır?\n4. Köy yönetiminin ücreti ödenmeden eşyaları vermemesi hukuka uygun mudur?",
+   "rubric": [
+    {
+     "point": "Tatil köyünün getirilen eşyadan kusursuz sorumlu olması; kurtuluş sebeplerinin bulunmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 576"
+    },
+    {
+     "point": "Kusur yüklenmediği için bavul yönünden sorumluluğun günlük ücretin üç katı olan 9.000 TL ile sınırlı olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 576"
+    },
+    {
+     "point": "Sorumsuzluk levhalarının geçersiz olması ve zararın öğrenilir öğrenilmez bildirilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 578"
+    },
+    {
+     "point": "Kıymetli eşyanın saklanmak üzere bırakılmaması nedeniyle kolye yönünden işletenin yalnız kusuru hâlinde sorumlu olması; kusur bulunmadığından sorumsuzluk",
+     "weight": 20,
+     "madde_ref": "TBK m. 577"
+    },
+    {
+     "point": "Otopark işletenin kusursuz sorumluluğu; görevlinin kusuru nedeniyle on kat sınırının uygulanmaması ve tam zarardan sorumluluk",
+     "weight": 25,
+     "madde_ref": "TBK m. 579"
+    },
+    {
+     "point": "İşletenlerin ücret ve saklama gideri alacakları için hapis hakkı bulunması",
+     "weight": 10,
+     "madde_ref": "TBK m. 580"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, TBK m. 561-580'in özel saklama türlerine ilişkindir: Konaklama yeri işletenin (tatil köyü) ve otopark işletenin sorumluluğu ile işletenlerin hapis hakkı. Her ikisi de saklama sözleşmesinin özel biçimleridir ve kusursuz sorumluluk esasına dayanır.\n\n**Hukuki sorunlar:** (1) Bavul zararı ve levhaların etkisi; (2) kıymetli eşya (kolye); (3) otopark işletenin sorumluluğunun kapsamı; (4) hapis hakkı.\n\n**İlgili hükümler:** TBK m. 576, 577, 578, 579, 580, 336.\n\n**Değerlendirme:**\n\n*1. Bavul.* Tatil köyü TBK m. 576/1'in sayma örneklerindendir (\"otel, motel, pansiyon, tatil köyü\"). İşleten, konaklayanın getirdiği eşyanın çalınmasından kusursuz sorumludur. Kurtuluş için zararın konaklayana ya da yanındakilere yüklenebilecek kusurdan, mücbir sebepten ya da eşyanın niteliğinden doğduğunu ispatlaması gerekir; olayda böyle bir durum yoktur. Köye veya çalışanlarına kusur yüklenememiştir; bu nedenle TBK m. 576/2 gereği sorumluluk her konaklayan için günlük konaklama ücretinin üç katını aşamaz: 3 x 3.000 = 9.000 TL. Deniz zararı 30.000 TL olsa da ancak 9.000 TL isteyebilir. \"Sorumlu değiliz\" levhası TBK m. 578/2 uyarınca işletenin sorumluluğunu kaldırmaz. Deniz zararı öğrenir öğrenmez bildirdiğinden TBK m. 578/1'deki hak kaybı da gerçekleşmemiştir.\n\n*2. Kolye.* Pırlanta kolye kıymetli eşyadır ve işletene saklanması için bırakılmamıştır. Bu durumda işleten ancak kendisinin veya çalışanlarının kusuru hâlinde sorumlu olur (TBK m. 577/1). Köy ve çalışanlarına kusur yüklenemediğinden kolye zararından sorumlu değildir. İşletenin kolyeyi saklamak üzere almış ya da almaktan kaçınmış olması hâlinde tam değerden sorumluluk doğardı (TBK m. 577/2); olayda Deniz kolyeyi hiç teslim etmek istememiştir.\n\n*3. Araç.* Otopark işleten, kendisine bırakılan motorlu taşıtın çalınmasından kusursuz sorumludur (TBK m. 579/1). Olayda gece görevlisinin uyuduğu, yani çalışanına kusur yüklenebildiği anlaşılmıştır. TBK m. 579/2'deki günlük saklama ücretinin on katı olan tavan (10 x 250 = 2.500 TL) yalnız işletene veya çalışanlarına kusur yüklenmediği durumda uygulanır. Burada kusur bulunduğundan tavan kalkar ve işleten aracın tam değerini, yani 700.000 TL'yi tazmin etmekle yükümlüdür. Levha yine sorumluluğu kaldırmaz (TBK m. 579/3).\n\n*4. Hapis hakkı.* TBK m. 580'e göre tatil köyü ve otopark işletenler, kendilerine bırakılan veya bu yerlere konulan eşya üzerinde ücret ve saklama giderlerinden doğan alacaklarını güvenceye almak için hapis hakkına sahiptir. Kiraya verenin hapis hakkı hükümleri kıyasen uygulanır; örneğin hapis hakkı haczedilemeyen mallar üzerinde kullanılamaz (TBK m. 336/3). Dolayısıyla köy yönetimi ücret alacağı karşılığında odada kalan eşyaları alıkoyabilir, ancak haczedilemeyen malları alıkoyamaz.\n\n**Sonuç:**\n- Bavul için tatil köyü kusursuz sorumludur; en çok 9.000 TL öder. Levha geçersizdir.\n- Kolye için işleten, kusuru bulunmadığından sorumlu değildir.\n- Araç için görevlinin kusuru nedeniyle tavan uygulanmaz; 700.000 TL'nin tamamından sorumluluk doğar.\n- İşleten, ücret alacakları için hapis hakkını kullanabilir; haczedilemeyen mallar bunun dışındadır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Saklama sözleşmesinin tanımı (TBK m. 561)?",
+   "back_md": "Saklayanın, saklatanın bıraktığı taşınırı güvenli bir yerde koruma altına almayı üstlendiği sözleşme. Konusu yalnız taşınır; kural olarak ücretsiz."
+  },
+  {
+   "front_md": "Saklamada ücret ne zaman istenebilir?",
+   "back_md": "Açıkça öngörülmüşse veya durum ve koşullar gerektiriyorsa (TBK m. 561/2)."
+  },
+  {
+   "front_md": "Saklatanın masraf ve zarar borcu (TBK m. 562)?",
+   "back_md": "Zorunlu masrafları kusursuz öder. Saklayanın zararını, kendi kusuru olmadığını ispat etmedikçe öder."
+  },
+  {
+   "front_md": "İzinsiz kullanan saklayanın sorumluluğu (TBK m. 563)?",
+   "back_md": "Uygun kullanım bedeli öder; kullanmasaydı da zararın doğacağını ispat etmedikçe beklenmedik hâlden de sorumlu olur."
+  },
+  {
+   "front_md": "Süre belirlenmişse saklatan ne zaman geri isteyebilir?",
+   "back_md": "Her zaman; saklayanın süreyi dikkate alarak yaptığı masrafları öder (TBK m. 564)."
+  },
+  {
+   "front_md": "Saklayan süreden önce ne zaman geri verebilir?",
+   "back_md": "Yalnız öngörülemeyen durumlarla devamı tehlikeli ya da zararlı olursa. Süre yoksa her zaman (TBK m. 565/1-2)."
+  },
+  {
+   "front_md": "Üçüncü kişi ayni hak iddia ederse saklayan ne yapar?",
+   "back_md": "Haciz ya da istihkak davası yoksa saklatana geri verir; varsa hemen bildirir (TBK m. 568)."
+  },
+  {
+   "front_md": "Güvenilirkişi çekişmeli şeyi kime verebilir?",
+   "back_md": "Saklatanların tamamının rızası veya hâkim kararı olmadan hiçbirine (TBK m. 569)."
+  },
+  {
+   "front_md": "Mühürsüz ve açık para ne sonuç doğurur?",
+   "back_md": "Mislen iade için örtülü anlaşma sayılır; yarar ve hasar saklayana geçer (TBK m. 570/1-2)."
+  },
+  {
+   "front_md": "Diğer misli eşya ve kıymetli evrakta saklayan tasarruf edebilir mi?",
+   "back_md": "Yalnız saklatan açıkça yetki verirse (TBK m. 570/3)."
+  },
+  {
+   "front_md": "Ardiye ücreti ne zaman ödenir?",
+   "back_md": "Her üç ayda bir ve her hâlde malların tamamı ya da bir bölümü geri alınırken; saklama dışı giderler hemen (TBK m. 574/2)."
+  },
+  {
+   "front_md": "Ardiyecinin genel saklayandan farkı (iade)?",
+   "back_md": "Öngörülemeyen sebepler olsa bile kararlaştırılan sürenin sonuna kadar korumak zorundadır (TBK m. 575)."
+  },
+  {
+   "front_md": "Otel ve otopark sorumluluğunun tavanı?",
+   "back_md": "Kusur yoksa otelde günlük konaklama ücretinin 3 katı (TBK m. 576/2); otoparkta günlük saklama ücretinin 10 katı (TBK m. 579/2). Kusur varsa tavan kalkar."
+  },
+  {
+   "front_md": "Kıymetli eşyada otelin sorumluluğu?",
+   "back_md": "Saklanmak üzere bırakılmamışsa yalnız kusuru hâlinde; saklamak üzere almış ya da almaktan kaçınmışsa tam değerden (TBK m. 577)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

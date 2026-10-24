@@ -1,0 +1,590 @@
+{
+ "course_id": "HUK3014",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Ücret, Çalışma Süreleri ve İzinler",
+ "topic_index": 5,
+ "slug": "is-sagligi-ve-guvenligi-ve-is-kazasi",
+ "title": "İş Sağlığı ve Güvenliği, İş Kazası ve Meslek Hastalığı, İşverenin Tazminat Sorumluluğu",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T16:30:30.142060+00:00",
+ "skill_refs": [
+  "is-hukuku-bireysel/risk-strateji-iscilik-davasi"
+ ],
+ "content": {
+  "summary_md": "- **Dayanaklar:** İşverenin gözetme borcu TBK m. 417/2'de, ayrıntılı kamu hukuku yükümlülükleri 6331 sayılı Kanunda düzenlenir. 6331 sayılı Kanun, kamu ve özel sektöre ait bütün işlere ve işyerlerine, çırak ve stajyerler dâhil tüm çalışanlara uygulanır (6331 sayılı Kanun m. 2/1); ev hizmetleri gibi sayılı faaliyetler dışarıda kalır (m. 2/2).\n- **İşverenin genel yükümlülüğü (6331 sayılı Kanun m. 4):** Önleme, eğitim, araç gereç, denetim ve **risk değerlendirmesi**. Dışarıdan hizmet alınması sorumluluğu kaldırmaz; çalışanların yükümlülükleri işvereninkini etkilemez; **maliyet çalışana yansıtılamaz.**\n- **İSG hizmetleri ve kurul:** İş güvenliği uzmanı, işyeri hekimi; **on veya daha fazla çalışanı olan çok tehlikeli sınıf** işyerlerinde ayrıca diğer sağlık personeli (6331 sayılı Kanun m. 6/1-a). İSG kurulu: **elli ve daha fazla çalışan** ve **altı aydan fazla süren sürekli iş** (m. 22/1).\n- **Çalışmaktan kaçınma (6331 sayılı Kanun m. 13):** Ciddi ve yakın tehlikede kurula, kurul yoksa işverene başvurulur; talep yönünde karar verilirse tedbir alınana kadar çalışmaktan kaçınılır, ücret ve haklar saklıdır. Önlenemez tehlikede başvuru şartsız terk edilir. Tedbir alınmazsa sözleşme haklı nedenle feshedilebilir.\n- **İş kazası (5510 sayılı Kanun m. 13/1):** Beş hâl: işyerinde, yürütülen iş nedeniyle, görevle işyeri dışına gönderilmede, emziren kadının süt izni zamanında, işverence sağlanan taşıtla gidiş gelişte. **Meslek hastalığı** (m. 14/1): işin niteliği veya yürütüm şartları yüzünden tekrarlanan bir sebeple uğranılan hastalık.\n- **Bildirim:** Kolluğa **derhâl**, Kuruma **kazadan sonra üç iş günü içinde**. Süresinde bildirilmezse bildirim tarihine kadar geçici iş göremezlik ödeneği işverenden tahsil edilir (5510 sayılı Kanun m. 21/2).\n- **Tazminat:** İşverenin zararı gidermesi **sözleşmeye aykırılık** hükümlerine tabidir (TBK m. 417/3, TBK m. 112); on yıllık genel zamanaşımı (TBK m. 146).\n- **Rücu:** Kast veya mevzuata aykırı hareket varsa Kurum, ödemelerin ilk peşin sermaye değerini işverene ödetir (5510 sayılı Kanun m. 21/1); üçüncü kişiye rücu **ilk peşin sermaye değerinin yarısı** üzerinden yapılır (5510 sayılı Kanun m. 21/4).\n- 📌 **Güncel:** 9.1.2025 tarihli 7538 sayılı Kanunla ÇASMER ve ekipman muayene kuruluşu tanımları eklenmiş, İSG hizmetleri ÇASMER'lerden de alınabilir hâle gelmiştir.",
+  "content_md": "## 1. İSG hukukunun yeri\n\nİşçinin kişiliğini ve sağlığını koruma, iş sözleşmesinden doğan **gözetme borcunun** en sert yanıdır. Bu alanda üç hukuk katmanı iç içe işler: (1) **6331 sayılı İş Sağlığı ve Güvenliği Kanunu**, işverene somut önleme yükümlülükleri yükler; (2) **5510 sayılı Kanun**, kazalıya ve hak sahiplerine sosyal güvenlik yardımı sağlar ve Kurumun işverene rücuunu düzenler; (3) **TBK m. 417**, işçinin işverenden özel hukuk tazminatı istemesinin dayanağıdır. Sınav sorusu çoğu kez bu üç katmandan birini diğeriyle karıştırarak kurulur; her olayda \"hangi soruyu hangi kanun yanıtlıyor?\" diye düşün.\n\n6331 sayılı Kanun, kamu ve özel sektöre ait bütün işlere ve işyerlerine, işverenlere ve işveren vekillerine, **çırak ve stajyerler de dâhil** tüm çalışanlara uygulanır (6331 sayılı Kanun m. 2/1). Yani İş Kanunu'nun kapsamı dışında kalan işçiler de çoğu zaman bu Kanunun korumasındadır. Buna karşılık ev hizmetleri, afet ve acil durum birimlerinin müdahale faaliyetleri gibi sayılı faaliyetler Kanunun uygulanmadığı alanlardır (m. 2/2).\n\n## 2. İşverenin yükümlülükleri\n\n### 2.1 Genel yükümlülük: 6331 sayılı Kanun m. 4\n\nİşveren, çalışanların işle ilgili sağlık ve güvenliğini sağlamakla yükümlüdür. Bu çerçevede (1) mesleki risklerin önlenmesi, eğitim ve bilgi verilmesi dâhil her türlü tedbiri alır; (2) alınan tedbirlere uyulup uyulmadığını **izler, denetler** ve uygunsuzlukların giderilmesini sağlar; (3) **risk değerlendirmesi yapar veya yaptırır**; (4) görev verirken çalışanın işe sağlık ve güvenlik yönünden uygunluğunu göz önüne alır; (5) yeterli bilgi ve talimat verilenler dışındaki çalışanların hayati ve özel tehlike bulunan yerlere girmemesi için tedbir alır.\n\nMaddenin son üç fıkrası sınavlık kurallar içerir:\n\n- İşyeri dışındaki uzman kişi ve kuruluşlardan hizmet alınması işverenin sorumluluklarını **ortadan kaldırmaz** (m. 4/2).\n- Çalışanların İSG alanındaki yükümlülükleri işverenin sorumluluklarını **etkilemez** (m. 4/3).\n- İşveren İSG tedbirlerinin **maliyetini çalışanlara yansıtamaz** (m. 4/4).\n\n> **Örnek:** X Ltd. Şti., iş güvenliği hizmetini bir dış firmadan alıyor. Firma yazılı uyarı gönderdiği hâlde işveren makine korumasını yaptırmıyor. İşçi Ali'nin eli makinede ezildiğinde işveren \"uzman firmamız var\" diyerek sorumluluktan kurtulamaz (m. 4/2). Kask ve eldiven bedelini Ali'nin maaşından kesmesi de m. 4/4'e aykırıdır.\n\n### 2.2 Risk değerlendirmesi: 6331 sayılı Kanun m. 10\n\nRisk değerlendirmesi, işyerindeki tehlikelerin belirlenmesi, risklerin analiz edilip derecelendirilmesi ve kontrol tedbirlerinin kararlaştırılması çalışmasıdır (6331 sayılı Kanun m. 3/1-ö). İşveren bunu yaparken belirli risklerden etkilenecek çalışanların durumunu, iş ekipmanı ve kimyasal seçimini, işyerinin tertip ve düzenini ve **genç, yaşlı, engelli, gebe veya emziren çalışanlar** gibi özel politika gerektiren grupları dikkate alır (m. 10/1). Sonuca göre alınacak tedbirleri ve kullanılacak koruyucu donanımı işveren belirler (m. 10/2).\n\n### 2.3 İSG hizmetleri, tehlike sınıfı ve kurul\n\nİşveren çalışanları arasından **iş güvenliği uzmanı** ve **işyeri hekimi**, **on ve daha fazla çalışanı olan çok tehlikeli sınıftaki işyerlerinde ayrıca diğer sağlık personeli** görevlendirir (6331 sayılı Kanun m. 6/1-a). Çalışanları arasında nitelikli kişi yoksa hizmetin tamamı veya bir kısmı ortak sağlık ve güvenlik birimlerinden (uygulamada OSGB) veya 7538 sayılı Kanunla eklenen **ÇASMER'lerden** alınabilir; gerekli nitelik ve belgeye sahip işveren hizmeti kendisi de üstlenebilir. Tam süreli işyeri hekimi görevlendirilen yerde diğer sağlık personeli zorunlu değildir (m. 6/3). Görevlendirme süresinin belirlenmesinde çırak ve stajyer statüsündeki öğrenciler çalışan sayısına dâhil edilmez (m. 6/4).\n\nİşyerinin tehlike sınıfı belirlenirken orada yapılan **asıl iş** dikkate alınır (6331 sayılı Kanun m. 9/2).\n\n**İSG kurulu:** Elli ve daha fazla çalışanın bulunduğu ve altı aydan fazla süren sürekli işlerin yapıldığı işyerlerinde işveren kurul oluşturur (6331 sayılı Kanun m. 22/1).\n\n> ⚠️ **Sınavda dikkat:** İki eşik karıştırılır: **50 çalışan + 6 aydan fazla sürekli iş** → kurul; **10 çalışan + çok tehlikeli sınıf** → diğer sağlık personeli. Her ikisi de ayrı maddelerdedir.\n\n### 2.4 İşyeri hekimi ve iş güvenliği uzmanı: 6331 sayılı Kanun m. 8\n\nBu kişilerin hak ve yetkileri görevlerini yerine getirmeleri nedeniyle kısıtlanamaz (m. 8/1). Eksiklik ve aksaklıkları işverene yazılı bildirirler; düzeltmekten işveren sorumludur. Acil ve hayati tehlike arz eden durumlarda gerekli tedbirler alınmazsa durum Bakanlığın yetkili birimine bildirilir. **Bu bildirim nedeniyle işyeri hekiminin veya iş güvenliği uzmanının iş sözleşmesine son verilemez; aksi hâlde işveren hakkında bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminata hükmedilir** (m. 8/2). Bildirim yapmayan hekim ve uzmanın belgesi üç ay, tekrarında altı ay; 7538 sayılı Kanundan sonra ortak sağlık ve güvenlik birimlerinin yetki belgesi altı ay, tekrarında bir yıl askıya alınır.\n\n## 3. Çalışanın hakları: çalışmaktan kaçınma (6331 sayılı Kanun m. 13)\n\nMekanizma üç basamaktır; sıralamayı bozmadan öğren.\n\n1. **Başvuru (m. 13/1):** Ciddi ve yakın tehlikeyle karşılaşan çalışan **kurula**, kurul yoksa **işverene** başvurarak durumun tespitini ve gerekli tedbirlerin alınmasına karar verilmesini ister. Kurul acilen toplanır, işveren derhâl karar verir ve durumu tutanakla tespit eder; karar çalışana ve çalışan temsilcisine yazılı bildirilir.\n2. **Kaçınma (m. 13/2):** Kurul veya işveren çalışanın talebi yönünde karar verirse çalışan **tedbirler alınıncaya kadar çalışmaktan kaçınabilir.** Bu dönemdeki **ücreti ile kanunlardan ve iş sözleşmesinden doğan diğer hakları saklıdır.**\n3. **Önlenemez tehlike (m. 13/3):** Tehlike önlenemez nitelikteyse çalışan, başvuru usulüne uymak zorunda olmaksızın işyerini veya tehlikeli bölgeyi terk ederek belirlenen güvenli yere gider; bu hareketi nedeniyle hakları kısıtlanamaz.\n\nTalep etmelerine rağmen gerekli tedbirler alınmazsa iş sözleşmesiyle çalışanlar tabi oldukları kanun hükümlerine göre sözleşmelerini feshedebilir (m. 13/4). İş Kanunu kapsamındaki işçi için bu, İK m. 24'teki haklı nedenle derhâl fesih hükümleridir; Borçlar Kanunu kapsamında kalan ilişkilerde TBK m. 435 uygulanır. Haklı fesihte kıdem tazminatının şartları ayrıca 1475 sayılı Kanun m. 14 çerçevesinde aranır. Son olarak, 6331 sayılı Kanun m. 25 uyarınca işyerinde **işin durdurulması** hâlinde m. 13 hükümleri uygulanmaz (m. 13/5); iş durdurulduğunda işveren işsiz kalan çalışanlara ücretlerini ödemekle veya ücretlerinde düşüklük olmamak üzere meslek ya da durumlarına göre başka bir iş vermekle yükümlüdür (m. 25/6).\n\nİş durdurma kararını işveren, yerine getirildiği tarihten itibaren altı iş günü içinde yetkili iş mahkemesinde itirazla ele alabilir; itiraz kararın uygulanmasını etkilemez (m. 25/4). Durdurulan işte izinsiz çalışma yaptıran işveren veya işveren vekiline üç yıldan beş yıla kadar hapis cezası öngörülmüştür (m. 25/8).\n\nÇalışanın da yükümlülükleri vardır: eğitim ve talimatlara uyma, makine ve koruyucu donanımı doğru kullanma, ciddi ve yakın tehlike gördüğünde işverene veya çalışan temsilcisine derhâl haber verme (6331 sayılı Kanun m. 19). Bunlar işverenin sorumluluğunu ortadan kaldırmaz (m. 4/3).\n\n## 4. İş kazası ve meslek hastalığı\n\n### 4.1 İki ayrı tanım\n\n6331 sayılı Kanun m. 3/1-g iş kazasını, **işyerinde veya işin yürütümü nedeniyle** meydana gelen, ölüme sebebiyet veren veya vücut bütünlüğünü ruhen ya da bedenen engelli hâle getiren olay olarak tanımlar. Sosyal güvenlik hukukundaki tanım ise 5510 sayılı Kanun m. 13/1'dedir ve **beş hâl** sayar. Olay, sigortalıyı hemen veya sonradan bedenen ya da ruhen engelli hâle getirmelidir:\n\n| Hâl | Anahtar ifade |\n|---|---|\n| a | Sigortalının işyerinde bulunduğu sırada |\n| b | İşveren tarafından yürütülen iş nedeniyle |\n| c | Görevle işyeri dışına gönderilmede, asıl işi yapmaksızın geçen zaman |\n| d | Emziren kadın sigortalının süt izni zamanında |\n| e | İşverence sağlanan taşıtla gidiş gelişte |\n\n> ⚠️ **Sınavda dikkat:** (e) bendinde taşıtın **işverence sağlanmış** olması aranır. İşçinin kendi arabasıyla, yürüyerek veya belediye otobüsüyle işe gelişi sırasındaki kaza bu bentten iş kazası sayılmaz. (d) bendinde ise süt izni sırasında işyeri dışında yaşanan kaza da iş kazasıdır.\n\n> **Örnek:** Banka memuru Selin, müdürün talimatıyla vergi dairesine evrak götürürken sokakta düşüp bileğini kırdı. Görevle işyeri dışına gönderilme (c bendi) vardır; kaza iş kazasıdır.\n\nMeslek hastalığı, sigortalının çalıştığı veya yaptığı işin niteliğinden dolayı **tekrarlanan bir sebeple** veya **işin yürütüm şartları yüzünden** uğradığı geçici veya sürekli hastalık, bedensel veya ruhsal engellilik hâlleridir (5510 sayılı Kanun m. 14/1). Meslek hastalığı Kurum Sağlık Kurulunca tespit edilir (5510 sayılı Kanun m. 14/2). Sürekli iş göremezlik gelirine hak kazanmak için meslekte kazanma gücünün **en az yüzde 10** azalmış olması gerekir (5510 sayılı Kanun m. 19/1).\n\n### 4.2 Bildirim\n\nİş kazası, işveren tarafından o yer yetkili kolluk kuvvetlerine **derhâl** ve Kuruma **en geç kazadan sonraki üç iş günü içinde** bildirilir; kazanın işverenin kontrolü dışındaki yerlerde olması hâlinde bu süre kazanın öğrenildiği tarihten başlar (5510 sayılı Kanun m. 13/2). 6331 sayılı Kanun m. 14/2-a da iş kazalarının üç iş günü içinde SGK'ya bildirilmesini söyler. Meslek hastalığı, işverence öğrenildiği günden başlayarak üç iş günü içinde bildirilir (5510 sayılı Kanun m. 14; 6331 sayılı Kanun m. 14/2-b). Sağlık hizmeti sunucuları kendilerine intikal eden iş kazalarını en geç on gün içinde Kuruma bildirir (6331 sayılı Kanun m. 14/4). Ayrıca işveren iş kazalarının ve meslek hastalıklarının kaydını tutar (6331 sayılı Kanun m. 14/1).\n\n**Yaptırım:** Kazayı süresinde bildirmeyen işverenden, bildirim tarihine kadar geçen süre için sigortalıya ödenen geçici iş göremezlik ödeneği tahsil edilir (5510 sayılı Kanun m. 21/2). Meslek hastalığında bildirimi yapmayan işverene Kurumca yapılan masraflar ve ödenmişse geçici iş göremezlik ödenekleri rücu edilir (5510 sayılı Kanun m. 14).\n\n## 5. İşverenin sorumlulukları\n\n### 5.1 İşçiye karşı özel hukuk tazminatı\n\nTBK m. 417/2'ye göre işveren, işyerinde iş sağlığı ve güvenliğinin sağlanması için **gerekli her türlü önlemi almak, araç ve gereçleri noksansız bulundurmak** zorundadır. TBK m. 417/3 ise bu yükümlülüğe aykırılık nedeniyle işçinin **ölümü veya vücut bütünlüğünün zedelenmesi** hâlinde zararın tazmininin **sözleşmeye aykırılıktan doğan sorumluluk hükümlerine** tabi olduğunu söyler. Sonuçları:\n\n- Borç gereği gibi ifa edilmediğinden işveren, **kendisine kusur yüklenemeyeceğini ispat etmedikçe** zararı gidermekle yükümlüdür (TBK m. 112). Yani kusur karinesi işverene karşıdır.\n- Maddi zarar kalemleri: tedavi giderleri, kazanç kaybı, çalışma gücünün azalmasından kayıplar, ekonomik geleceğin sarsılmasından kayıplar (TBK m. 54); ölümde cenaze giderleri ve destekten yoksun kalma (TBK m. 53).\n- **Manevi tazminat** için TBK m. 56 uygulanır; ağır bedensel zarar veya ölümde zarar görenin yakınlarına da manevi tazminat verilebilir.\n- Genel zamanaşımı **on yıldır** (TBK m. 146). Haksız fiil zamanaşımı hükümleri (TBK m. 72) ile ilişki ve uzamış zamanaşımı gibi ayrıntılar ayrıca incelenmelidir.\n\nUygulamada işverenin sorumluluğu, 6331 sayılı Kanun m. 4 ve TBK m. 417/2'nin geniş yorumlanmasıyla \"gerekli her türlü önlem\" ölçüsüne göre değerlendirilir. Kusur oranlarının belirlenmesi için kural olarak uzman bilirkişi raporu alınır.\n\n### 5.2 SGK ile işveren: rücu (5510 sayılı Kanun m. 21)\n\nBurada ayrım şudur: işçi, işverenden zararının **tamamını** TBK m. 417 ile ister; SGK ise kendi yaptığı veya yapacağı ödemeleri işverene **rücu** ile ister.\n\n- **Koşul (5510 sayılı Kanun m. 21/1):** İş kazası veya meslek hastalığı, işverenin **kastı** veya sigortalıların sağlığını koruma ve iş güvenliği mevzuatına aykırı bir hareketi sonucu meydana gelmiş olmalıdır.\n- **Tutar:** Kurumca yapılan veya ileride yapılması gereken ödemeler ile bağlanan gelirin başladığı tarihteki **ilk peşin sermaye değeri** toplamı; ancak sigortalı veya hak sahiplerinin işverenden isteyebilecekleri tutarlarla sınırlıdır. İşverenin sorumluluğunun tespitinde **kaçınılmazlık ilkesi** dikkate alınır.\n- **Üçüncü kişi (5510 sayılı Kanun m. 21/4):** Olay üçüncü bir kişinin kusuruyla meydana gelmişse ödemeler ile bağlanan gelirin ilk peşin sermaye değerinin **yarısı**, zarara sebep olan üçüncü kişilere ve varsa bunları çalıştıranlara rücu edilir.\n- **Ölüm hâlinde (5510 sayılı Kanun m. 21/5):** Kusuru bulunan hak sahiplerine veya iş kazası sonucu ölen kusurlu sigortalının hak sahiplerine Kurumca rücu edilmez.\n- **Kayıt dışı çalıştırma (5510 sayılı Kanun m. 23/2):** Sigortalı işe giriş bildirgesi süresinde verilmeyen işçinin kazasında Kurumun yaptığı masraflar ve ilk peşin sermaye değeri, 5510 sayılı Kanun m. 21/1'deki sorumluluk hâlleri aranmaksızın işverene ödettirilir.\n\nUygulamada işçinin tazminatı hesaplanırken SGK'nın rücu edebileceği kısım işçinin zararından düşülür; böylece aynı zarar için çifte ödeme önlenir. Kaçınılmazlık payının nasıl hesaba katılacağı ayrıca incelenmesi gereken bir noktadır.\n\n## 6. 📌 Güncel değişiklikler\n\n9.1.2025 tarihli 7538 sayılı Kanun 6331 sayılı Kanunda şunları getirmiştir: ÇASMER (Sağlık Bakanlığına bağlı, işyerlerine İSG hizmeti sunmak üzere yetkilendirilen birim) ve ekipman muayene kuruluşu tanımları (m. 3/1-t ve u); İSG hizmetlerinin ÇASMER'lerden de alınabilmesi (m. 6/1-a); m. 8/2'de bildirim yükümlüsü olarak ortak sağlık ve güvenlik birimi yönetiminin eklenmesi ve ortak sağlık ve güvenlik birimlerinin yetki belgesi için altı ay, tekrarında bir yıl askı yaptırımı.\n\nAyrıca Anayasa Mahkemesinin 22.7.2025 tarihli, E.2024/54, K.2025/163 sayılı kararıyla 6331 sayılı Kanun m. 38 birinci fıkra (a) bendinin 1 numaralı alt bendindeki \"31/12/2024\" ibaresi iptal edilmiştir. Bu alt bent, kamu kurumları ile elliden az çalışanı olan az tehlikeli sınıftaki işyerleri için m. 6 ve 7'nin yürürlük tarihini düzenliyordu. İptal kararının uygulamadaki ayrıntıları için güncel mevzuata bakılmalıdır.\n\n## 7. Denetim şeması\n\n1. Olay 6331 sayılı Kanunun kapsamında mı? (işyeri, çalışan)\n2. İşveren hangi önleme yükümlülüğünü yerine getirmemiş? (risk değerlendirmesi, eğitim, uzman, kurul)\n3. Çalışan tehlike karşısında m. 13'ün hangi basamağında? (başvuru, kaçınma, terk, fesih)\n4. Sosyal güvenlik bakımından olay iş kazası mı, meslek hastalığı mı? (5510 sayılı Kanun m. 13-14)\n5. Bildirim süresi uyulmuş mu? (kolluğa derhâl, Kuruma üç iş günü)\n6. İşçinin işverene karşı tazminat istemi: TBK m. 417, kusur karinesi, zarar kalemleri.\n7. SGK'nın rücu hakkı: işverene (5510 sayılı Kanun m. 21/1), üçüncü kişiye (5510 sayılı Kanun m. 21/4); hak sahiplerine rücu yasağı (5510 sayılı Kanun m. 21/5).",
+  "critical_md": "- 📌 6331 sayılı Kanun çırak ve stajyerler dâhil tüm çalışanlara uygulanır; ev hizmetleri gibi sayılı faaliyetler hariçtir (m. 2).\n- 📌 İşverenin genel yükümlülüğü: önleme, eğitim, denetim, **risk değerlendirmesi** (m. 4/1).\n- ⚠️ Dış uzman veya OSGB/ÇASMER hizmeti almak işverenin sorumluluğunu **ortadan kaldırmaz** (m. 4/2); çalışanın yükümlülükleri de işverenin sorumluluğunu etkilemez (m. 4/3).\n- 📌 İSG maliyeti çalışana **yansıtılamaz** (m. 4/4).\n- 📌 İSG kurulu: **50 ve daha fazla çalışan + altı aydan fazla süren sürekli iş** (m. 22/1). Diğer sağlık personeli: **10 ve daha fazla çalışanlı çok tehlikeli sınıf** işyeri (m. 6/1-a).\n- 📌 Çalışmaktan kaçınma: başvuru (kurul, yoksa işveren) → talep yönünde karar → kaçınma; **ücret ve diğer haklar saklı** (m. 13/1-2). Önlenemez tehlikede başvuru şartı yoktur (m. 13/3).\n- ⚠️ İşin durdurulması (m. 25) hâlinde m. 13 uygulanmaz (m. 13/5); işveren işsiz kalan çalışanların ücretini öder veya ücreti düşürmeden başka bir iş verir (m. 25/6).\n- 📌 İşyeri hekimi veya uzman, tehlike bildirimi nedeniyle işten çıkarılırsa işveren **en az bir yıllık sözleşme ücreti** tazminatı öder (m. 8/2).\n- 📌 5510 sayılı Kanun m. 13'e göre iş kazası **beş hâl**dir; işverence sağlanan taşıt aranır, kendi aracı yetmez.\n- 📌 İş kazası bildirimi: kolluğa **derhâl**, Kuruma **üç iş günü**; geç bildirimde bildirim tarihine kadarki geçici iş göremezlik ödeneği işverenden tahsil edilir (5510 sayılı Kanun m. 21/2).\n- 📌 Sürekli iş göremezlik geliri için meslekte kazanma gücünde **en az yüzde 10** kayıp (5510 sayılı Kanun m. 19/1).\n- ⚠️ SGK rücuu: işverene ilk peşin sermaye değeri (sorumluluk sınırlarıyla), üçüncü kişiye **yarısı** (5510 sayılı Kanun m. 21/4); ölen kusurlu sigortalının hak sahiplerine rücu yok (5510 sayılı Kanun m. 21/5).\n- 📌 İşverenin işçiye tazminatı sözleşmeye aykırılık hükümlerine tabidir (TBK m. 417/3); kusursuzluğu işveren ispatlar (TBK m. 112); zamanaşımı genel kuralla on yıldır (TBK m. 146).",
+  "doctrine_md": "### İşverenin tazminat sorumluluğunun niteliği\nTBK m. 417/3 sorumluluğu sözleşmeye aykırılık hükümlerine bağlar. Bir görüşe göre bu, açık yollama nedeniyle kusura dayalı sözleşme sorumluluğudur: işçi borca aykırılığı ve zararı ispat eder, işveren TBK m. 112 gereği kendisine kusur yüklenemeyeceğini ispat etmedikçe sorumlu olur. Karşı görüşe göre iş sağlığı ve güvenliğinin yoğun tehlike barındırdığı işletmelerde TBK m. 71'deki önemli ölçüde tehlike arz eden işletme sorumluluğu da gündeme gelebilir ve bu hâlde kusursuz sorumluluk kuralları yarışır. Sınav olaylarında kural olarak TBK m. 417/3 ve TBK m. 112 dayanak alınır; tehlike sorumluluğu ancak tartışma olarak anılmalıdır.\n\n### İki ayrı iş kazası kavramı\n5510 sayılı Kanun m. 13, sosyal sigorta yardımlarının kapısını açmak için geniş bir tanım kullanır. Bir olayın bu anlamda iş kazası sayılması, işverenin tazminatla veya rücuyla sorumlu olacağı anlamına gelmez. Bir görüşe göre özel hukuk tazminatı için olay ile işin yürütülmesi arasında uygun illiyet bağı ve işverenin sorumluluğunu doğuran bir aykırılık aranmalıdır. Bu nedenle sosyal güvenlik hukuku bakımından iş kazası sayılan her olay, TBK m. 417 anlamında işveren aleyhine tazminat sorumluluğu doğurmaz.\n\n### Çalışmaktan kaçınma talebinin reddi\n6331 sayılı Kanun m. 13/2, kaçınma hakkını kurul veya işverenin talep yönünde karar vermesine bağlar. Başvuru reddedilir veya karar verilmezse işçinin çalışmaktan kaçınıp kaçınamayacağı tartışmalıdır: bir görüşe göre kanunun açık şartı karar olduğundan işçi bu yola gidemez, sözleşmeyi m. 13/4 gereği feshedebilir; diğer görüşe göre işçinin yaşam ve beden bütünlüğü bakımından tehlike gerçekten ciddi ve yakınsa ret, işçiyi tehlikeli işe zorlayamaz. Bu soru olay çözümünün tek dayanağı yapılmamalıdır.",
+  "glossary": [
+   {
+    "term": "Gözetme borcu",
+    "definition": "İşverenin işçinin kişiliğini ve sağlığını koruma, iş sağlığı ve güvenliğini sağlama yükümlülüğü (TBK m. 417)."
+   },
+   {
+    "term": "Risk değerlendirmesi",
+    "definition": "İşyerindeki tehlikelerin belirlenmesi, risklerin analiz edilip derecelendirilmesi ve kontrol tedbirlerinin kararlaştırılması çalışmaları (6331 sayılı Kanun m. 3 ve m. 10)."
+   },
+   {
+    "term": "İş kazası (sosyal güvenlik)",
+    "definition": "5510 sayılı Kanun m. 13/1'deki beş hâlden birinde meydana gelip sigortalıyı hemen veya sonradan bedenen ya da ruhen engelli hâle getiren olay."
+   },
+   {
+    "term": "Meslek hastalığı",
+    "definition": "İşin niteliği nedeniyle tekrarlanan bir sebeple veya işin yürütüm şartları yüzünden uğranılan geçici veya sürekli hastalık, bedensel veya ruhsal engellilik (5510 sayılı Kanun m. 14/1)."
+   },
+   {
+    "term": "Çalışmaktan kaçınma hakkı",
+    "definition": "Ciddi ve yakın tehlikede, işveren veya kurulun olumlu kararı üzerine tedbir alınıncaya kadar ücret kaybı olmaksızın çalışmaya ara verme hakkı (6331 sayılı Kanun m. 13)."
+   },
+   {
+    "term": "İSG kurulu",
+    "definition": "Elli ve daha fazla çalışanı olan ve altı aydan fazla süren sürekli işlerin yapıldığı işyerlerinde kurulan, İSG çalışmalarını yürüten kurul (6331 sayılı Kanun m. 22)."
+   },
+   {
+    "term": "ÇASMER",
+    "definition": "Çalışan sağlığı merkezi; Sağlık Bakanlığına bağlı, işyerlerine İSG hizmeti sunmak üzere yetkilendirilen birim (6331 sayılı Kanun m. 3/1-t)."
+   },
+   {
+    "term": "Geçici iş göremezlik ödeneği",
+    "definition": "İş kazası, meslek hastalığı, hastalık veya analık nedeniyle istirahat raporu alan sigortalıya verilen günlük ödenek (5510 sayılı Kanun m. 18)."
+   },
+   {
+    "term": "İlk peşin sermaye değeri",
+    "definition": "Bağlanan gelirin başladığı tarihteki toplam değerinin peşin hesabı; SGK rücusunda esas alınan tutar (5510 sayılı Kanun m. 21)."
+   },
+   {
+    "term": "Rücu",
+    "definition": "SGK'nın kazalıya yaptığı veya yapacağı ödemeleri, kusurlu işverenden veya üçüncü kişiden geri isteme hakkı (5510 sayılı Kanun m. 21)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "2",
+   "official_text": "Kapsam ve istisnalar\nMADDE 2 – (1) Bu Kanun; kamu ve özel sektöre ait bütün işlere ve işyerlerine, bu işyerlerinin işverenleri ile işveren vekillerine, çırak ve stajyerler de dâhil olmak üzere tüm çalışanlarına faaliyet konularına bakılmaksızın uygulanır.\n(2) Ancak aşağıda belirtilen faaliyetler ve kişiler hakkında bu Kanun hükümleri uygulanmaz:\na) Fabrika, bakım merkezi, dikimevi ve benzeri işyerlerindekiler hariç Türk Silahlı Kuvvetleri, genel kolluk kuvvetleri ve Milli İstihbarat Teşkilatı Müsteşarlığının faaliyetleri.\nb) Afet ve acil durum birimlerinin müdahale faaliyetleri.\nc) Ev hizmetleri.\nç) Çalışan istihdam etmeksizin kendi nam ve hesabına mal ve hizmet üretimi yapanlar.\nd) Hükümlü ve tutuklulara yönelik infaz hizmetleri sırasında, iyileştirme kapsamında yapılan işyurdu, eğitim, güvenlik ve meslek edindirme faaliyetleri.\ne) (Ek: 10/9/2014-6552/15 md.; İptal: Anayasa Mahkemesi’nin 14/5/2015 tarihli ve E.: 2014/177, K.: 2015/49 sayılı Kararı ile.)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "3",
+   "official_text": "Tanımlar\nMADDE 3 – (1) Bu Kanunun uygulanmasında;\na) Bakanlık: Çalışma ve Sosyal Güvenlik Bakanlığını,\nb) Çalışan: Kendi özel kanunlarındaki statülerine bakılmaksızın kamu veya özel işyerlerinde istihdam edilen gerçek kişiyi,\nc) Çalışan temsilcisi: İş sağlığı ve güvenliği ile ilgili çalışmalara katılma, çalışmaları izleme, tedbir alınmasını isteme, tekliflerde bulunma ve benzeri konularda çalışanları temsil etmeye yetkili çalışanı,\nç) Destek elemanı: Asli görevinin yanında iş sağlığı ve güvenliği ile ilgili önleme, koruma, tahliye, yangınla mücadele, ilk yardım ve benzeri konularda özel olarak görevlendirilmiş uygun donanım ve yeterli eğitime sahip kişiyi,\nd) (Değişik:9/1/2025-7538/18 md.) Eğitim kurumu: Bu Kanun ile bu Kanuna dayanılarak düzenlenen alt mevzuat hükümleri uyarınca eğitim vermek üzere Bakanlıkça yetkilendirilmiş kurum ve kuruluşları,\ne) Genç çalışan: Onbeş yaşını bitirmiş ancak onsekiz yaşını doldurmamış çalışanı,\nf) (Değişik: 12/7/2013-6495/101 md.) İş Güvenliği Uzmanı: Usul ve esasları yönetmelikle belirlenen, iş sağlığı ve güvenliği alanında görev yapmak üzere Bakanlıkça yetkilendirilmiş, iş güvenliği uzmanlığı belgesine sahip, Bakanlık ve ilgili kuruluşlarında çalışma hayatını denetleyen müfettişler ile mühendislik veya mimarlık eğitimi veren fakültelerin mezunları ile teknik elemanı,\ng) İş kazası: İşyerinde veya işin yürütümü nedeniyle meydana gelen, ölüme sebebiyet veren veya vücut bütünlüğünü ruhen ya da bedenen engelli hâle getiren olayı,[1]\nğ) İşveren: Çalışan istihdam eden gerçek veya tüzel kişi yahut tüzel kişiliği olmayan kurum ve kuruluşları,\nh) İşyeri: Mal veya hizmet üretmek amacıyla maddi olan ve olmayan unsurlar ile çalışanın birlikte örgütlendiği, işverenin işyerinde ürettiği mal veya hizmet ile nitelik yönünden bağlılığı bulunan ve aynı yönetim altında örgütlenen işyerine bağlı yerler ile dinlenme, çocuk emzirme, yemek, uyku, yıkanma, muayene ve bakım, beden ve mesleki eğitim yerleri ve avlu gibi diğer eklentiler ve araçları da içeren organizasyonu,\nı) İşyeri hekimi: İş sağlığı ve güvenliği alanında görev yapmak üzere Bakanlıkça yetkilendirilmiş, işyeri hekimliği belgesine sahip hekimi,\ni) İşyeri sağlık ve güvenlik birimi: İşyerinde iş sağlığı ve güvenliği hizmetlerini yürütmek üzere kurulan, gerekli donanım ve personele sahip olan birimi,\nj) Konsey: Ulusal İş Sağlığı ve Güvenliği Konseyini,\nk) Kurul: İş sağlığı ve güvenliği kurulunu,\n1) Meslek hastalığı: Mesleki risklere maruziyet sonucu ortaya çıkan hastalığı,\nm) Ortak sağlık ve güvenlik birimi: Kamu kurum ve kuruluşları, organize sanayi bölgeleri ile Türk Ticaret Kanununa göre faaliyet gösteren şirketler tarafından, işyerlerine iş sağlığı ve güvenliği hizmetlerini sunmak üzere kurulan gerekli donanım ve personele sahip olan ve Bakanlıkça yetkilendirilen birimi,\nn) Önleme: İşyerinde yürütülen işlerin bütün safhalarında iş sağlığı ve güvenliği ile ilgili riskleri ortadan kaldırmak veya azaltmak için planlanan ve alınan tedbirlerin tümünü,\no) Risk: Tehlikeden kaynaklanacak kayıp, yaralanma ya da başka zararlı sonuç meydana gelme ihtimalini,\nö) Risk değerlendirmesi: İşyerinde var olan ya da dışarıdan gelebilecek tehlikelerin belirlenmesi, bu tehlikelerin riske dönüşmesine yol açan faktörler ile tehlikelerden kaynaklanan risklerin analiz edilerek derecelendirilmesi ve kontrol tedbirlerinin kararlaştırılması amacıyla yapılması gerekli çalışmaları,\np) Tehlike: İşyerinde var olan ya da dışarıdan gelebilecek, çalışanı veya işyerini etkileyebilecek zarar veya hasar verme potansiyelini,\nr) Tehlike sınıfı: İş sağlığı ve güvenliği açısından, yapılan işin özelliği, işin her safhasında kullanılan veya ortaya çıkan maddeler, iş ekipmanı, üretim yöntem ve şekilleri, çalışma ortam ve şartları ile ilgili diğer hususlar dikkate alınarak işyeri için belirlenen tehlike grubunu,\ns) (Değişik: 12/7/2013-6495/101 md.) Teknik eleman: Teknik öğretmen, fizikçi, kimyager ve biyolog unvanına sahip olanlar ile üniversitelerin iş sağlığı ve güvenliği programı mezunlarını,\nş) (Değişik:9/1/2025-7538/18 md.) Diğer sağlık personeli: İş sağlığı ve güvenliği hizmetlerinde görevlendirilmek üzere Bakanlıkça yetkilendirilmiş, diğer sağlık personeli belgesine sahip ebe, hemşire, sağlık memuru, acil tıp teknikeri, acil tıp teknisyeni, çevre sağlığı teknikeri veya çevre sağlığı teknisyeni diplomasına sahip olan kişileri,\nt) (Ek:9/1/2025-7538/18 md.) Çalışan sağlığı merkezi (ÇASMER): Sağlık Bakanlığına bağlı, işyerlerine iş sağlığı ve güvenliği hizmetleri sunmak üzere bu Kanun kapsamında Bakanlıkça yetkilendirilen, gerekli donanım ve personele sahip birimi,\nu) (Ek:9/1/2025-7538/18 md.) Ekipman muayene kuruluşu: İşin yapılmasında kullanılan her türlü makine, alet, ekipman, tesis, teçhizat, cihaz ve koruyucu sistemlerin iş sağlığı ve güvenliği yönünden; mevzuat, ilgili standart ve kontrol kriterlerine uygun kullanımının sağlanması ve sürdürülmesi adına bakım veya muayene, test ve kontrol yapmak üzere Bakanlıkça yetkilendirilen kuruluşları,\nifade eder.\n(2) İşveren adına hareket eden, işin ve işyerinin yönetiminde görev alan işveren vekilleri, bu Kanunun uygulanması bakımından işveren sayılır.\n[1] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu bentte yer alan “özre uğratan” ibaresi “engelli hâle getiren” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "4",
+   "official_text": "İşverenin genel yükümlülüğü\nMADDE 4 – (1) İşveren, çalışanların işle ilgili sağlık ve güvenliğini sağlamakla yükümlü olup bu çerçevede;\na) Mesleki risklerin önlenmesi, eğitim ve bilgi verilmesi dâhil her türlü tedbirin alınması, organizasyonun yapılması, gerekli araç ve gereçlerin sağlanması, sağlık ve güvenlik tedbirlerinin değişen şartlara uygun hale getirilmesi ve mevcut durumun iyileştirilmesi için çalışmalar yapar.\nb) İşyerinde alınan iş sağlığı ve güvenliği tedbirlerine uyulup uyulmadığını izler, denetler ve uygunsuzlukların giderilmesini sağlar.\nc) Risk değerlendirmesi yapar veya yaptırır.\nç) Çalışana görev verirken, çalışanın sağlık ve güvenlik yönünden işe uygunluğunu göz önüne alır.\nd) Yeterli bilgi ve talimat verilenler dışındaki çalışanların hayati ve özel tehlike bulunan yerlere girmemesi için gerekli tedbirleri alır.\n(2) İşyeri dışındaki uzman kişi ve kuruluşlardan hizmet alınması, işverenin sorumluluklarını ortadan kaldırmaz.\n(3) Çalışanların iş sağlığı ve güvenliği alanındaki yükümlülükleri, işverenin sorumluluklarını etkilemez.\n(4) İşveren, iş sağlığı ve güvenliği tedbirlerinin maliyetini çalışanlara yansıtamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "6",
+   "official_text": "İş sağlığı ve güvenliği hizmetleri\nMADDE 6 – (1) Mesleki risklerin önlenmesi ve bu risklerden korunulmasına yönelik çalışmaları da kapsayacak, iş sağlığı ve güvenliği hizmetlerinin sunulması için işveren;\na) Çalışanları arasından iş güvenliği uzmanı, işyeri hekimi ve on ve daha fazla çalışanı olan çok tehlikeli sınıfta yer alan işyerlerinde diğer sağlık personeli görevlendirir. Çalışanları arasında belirlenen niteliklere sahip personel bulunmaması hâlinde, bu hizmetin tamamını veya bir kısmını ortak sağlık ve güvenlik birimlerinden veya ÇASMER’lerden hizmet alarak yerine getirebilir. Ancak belirlenen niteliklere ve gerekli belgeye sahip olması hâlinde, tehlike sınıfı ve çalışan sayısı dikkate alınarak, bu hizmetin yerine getirilmesini kendisi üstlenebilir. (Ek cümle: 10/9/2014-6552/16 md.) Belirlenen niteliklere ve gerekli belgeye sahip olmayan ancak 50’den az çalışanı bulunan ve az tehlikeli sınıfta yer alan işyeri işverenleri veya işveren vekili tarafından Bakanlıkça ilan edilen eğitimleri tamamlamak şartıyla işe giriş ve periyodik muayeneler ve tetkikler hariç iş sağlığı ve güvenliği hizmetlerini yürütebilirler.[2][3][4]\nb) Görevlendirdikleri kişi veya hizmet aldığı kurum ve kuruluşların görevlerini yerine getirmeleri amacıyla araç, gereç, mekân ve zaman gibi gerekli bütün ihtiyaçlarını karşılar.\nc) İşyerinde sağlık ve güvenlik hizmetlerini yürütenler arasında iş birliği ve koordinasyonu sağlar.\nç) Görevlendirdikleri kişi veya hizmet aldığı kurum ve kuruluşlar tarafından iş sağlığı ve güvenliği ile ilgili mevzuata uygun olan ve yazılı olarak bildirilen tedbirleri yerine getirir.\nd) Çalışanların sağlık ve güvenliğini etkilediği bilinen veya etkilemesi muhtemel konular hakkında; görevlendirdikleri kişi veya hizmet aldığı kurum ve kuruluşları, başka işyerlerinden çalışmak üzere kendi işyerine gelen çalışanları ve bunların işverenlerini bilgilendirir.\n(2) 4/1/2002 tarihli ve 4734 sayılı Kamu İhale Kanunu kapsamındaki kamu kurum ve kuruluşları; iş sağlığı ve güvenliği hizmetlerini, Sağlık Bakanlığına ait döner sermayeli kuruluşlardan doğrudan alabileceği gibi 4734 sayılı Kanun hükümleri çerçevesinde de alabilir.\n(3) Tam süreli işyeri hekimi görevlendirilen işyerlerinde, diğer sağlık personeli görevlendirilmesi zorunlu değildir.\n(4) (Ek: 10/9/2014-6552/16 md.) Birinci fıkranın (a) bendine göre yapılacak görevlendirme süresinin belirlenmesinde 5/6/1986 tarihli ve 3308 sayılı Mesleki Eğitim Kanunu ile 4/11/1981 tarihli ve 2547 sayılı Yükseköğretim Kanunu kapsamındaki öğrenci statüsünde olan çırak ve stajyerler, çalışan sayısının toplamına dâhil edilmez.\n(5) (Ek:9/1/2025-7538/19 md.) Bu maddenin uygulanmasına ilişkin usul ve esaslar Bakanlıkça belirlenir.\n[2] 18/6/2017 tarihli ve 7033 sayılı Kanunun 85 inci maddesiyle, bu bentte yer alan “10’dan az” ibaresi “50’den az” şeklinde değiştirilmiştir.\n[3] 10/9/2014 tarihli ve 6552 sayılı Kanunun 16 ncı maddesiyle, bu bentte yer alan “işyeri hekimi ve” ibaresinden sonra gelmek üzere “on ve daha fazla çalışanı olan çok tehlikeli sınıfta yer alan işyerlerinde” ibaresi eklenmiştir.\n[4] 9/1/2025 tarihli ve 7538 sayılı Kanunun 19 uncu maddesi ile bu bendin ikinci cümlesine “birimlerinden” ibaresinden sonra gelmek üzere “veya ÇASMER’lerden” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "8",
+   "official_text": "İşyeri hekimleri ve iş güvenliği uzmanları\nMADDE 8 – (1) İşyeri hekimi ve iş güvenliği uzmanlarının hak ve yetkileri, görevlerini yerine getirmeleri nedeniyle kısıtlanamaz. Bu kişiler, görevlerini mesleğin gerektirdiği etik ilkeler ve mesleki bağımsızlık içerisinde yürütür.\n(2) (Değişik: 4/4/2015-6645/1 md.) İşverene iş sağlığı ve güvenliği ile ilgili konularda rehberlik ve danışmanlık yapmak üzere görevlendirilen işyeri hekimi ve iş güvenliği uzmanı, görev aldığı işyerinde göreviyle ilgili mevzuat ve teknik gelişmeleri göz önünde bulundurarak iş sağlığı ve güvenliği ile ilgili eksiklik ve aksaklıkları, tedbir ve tavsiyeleri belirler ve işverene yazılı olarak bildirir. Eksiklik ve aksaklıkların düzeltilmesinden, tedbir ve tavsiyelerin yerine getirilmesinden işveren sorumludur. Bildirilen eksiklik ve aksaklıkların acil durdurmayı gerektirmesi veya yangın, patlama, göçme, kimyasal sızıntı ve benzeri acil ve hayati tehlike arz etmesi, meslek hastalığına sebep olabilecek ortamların bulunmasına rağmen işveren tarafından gerekli tedbirlerin alınmaması hâlinde, bu durum işyeri hekimi, iş güvenliği uzmanı ve/veya ortak sağlık ve güvenlik birimi yönetimi tarafından Bakanlığın yetkili birimine, varsa yetkili sendika temsilcisine, yoksa çalışan temsilcisine bildirilir. Bildirim yapmadığı tespit edilen işyeri hekimi ve iş güvenliği uzmanının belgesi üç ay, tekrarında ise altı ay süreyle; ortak sağlık ve güvenlik biriminin yetki belgesi altı ay, tekrarında ise bir yıl süreyle askıya alınır. Bu bildirimden dolayı işvereni tarafından işyeri hekimi veya iş güvenliği uzmanının iş sözleşmesine son verilemez ve bu kişiler hiçbir şekilde hak kaybına uğratılamaz. Aksi takdirde işveren hakkında bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminata hükmedilir. İşyeri hekimi veya iş güvenliği uzmanının iş kanunları ve diğer kanunlara göre sahip olduğu hakları saklıdır. Açılan davada, kötü niyetle gerçek dışı bildirimde bulunduğu mahkeme kararıyla tespit edilen kişinin belgesi altı ay süreyle askıya alınır.[6]\n(3) Hizmet sunan kuruluşlar ile işyeri hekimi ve iş güvenliği uzmanları, iş sağlığı ve güvenliği hizmetlerinin yürütülmesindeki ihmallerinden dolayı, hizmet sundukları işverene karşı sorumludur.\n(4) Çalışanın ölümü veya maluliyetiyle sonuçlanacak şekilde vücut bütünlüğünün bozulmasına neden olan iş kazası veya meslek hastalığının meydana gelmesinde ihmali tespit edilen işyeri hekimi veya iş güvenliği uzmanının yetki belgesi askıya alınır.\n(5) İş güvenliği uzmanlarının görev alabilmeleri için; çok tehlikeli sınıfta yer alan işyerlerinde (A) sınıfı, tehlikeli sınıfta yer alan işyerlerinde en az (B) sınıfı, az tehlikeli sınıfta yer alan işyerlerinde ise en az (C) sınıfı iş güvenliği uzmanlığı belgesine sahip olmaları şartı aranır. Bakanlık, iş güvenliği uzmanlarının ve işyeri hekimlerinin görevlendirilmesi konusunda sektörel alanda özel düzenleme yapabilir. (Ek cümle: 4/4/2015-6645/1 md.) Sektörel düzenleme çerçevesinde maden ve yapı ile diğer sektörlerde öncelikli olarak hangi meslekî unvana sahip iş güvenliği uzmanlarının görev yapacağının ve bunların yanında görev yapacak diğer mesleklere sahip iş güvenliği uzmanlarının belirlenmesine dair usul ve esaslar, Bakanlıkça belirlenir.\n(6) Belirlenen çalışma süresi nedeniyle işyeri hekimi ve iş güvenliği uzmanının tam süreli görevlendirilmesi gereken durumlarda; işveren, işyeri sağlık ve güvenlik birimi kurar. Bu durumda, çalışanların tabi olduğu kanun hükümleri saklı kalmak kaydıyla, 22/5/2003 tarihli ve 4857 sayılı İş Kanununa göre belirlenen haftalık çalışma süresi dikkate alınır.\n(7) Kamu kurum ve kuruluşlarında ilgili mevzuata göre çalıştırılan işyeri hekimi veya iş güvenliği uzmanı olma niteliğini haiz personel, gerekli belgeye sahip olmaları şartıyla asli görevlerinin yanında, belirlenen çalışma süresine riayet ederek çalışmakta oldukları kurumda veya ilgili personelin muvafakati ve üst yöneticinin onayı ile diğer kamu kurum ve kuruluşlarında görevlendirilebilir. Bu şekilde görevlendirilecek personele, görev yaptığı her saat için (200) gösterge rakamının memur aylık katsayısı ile çarpımı tutarında ilave ödeme, hizmet alan kurum tarafından yapılır. Bu ödemeden damga vergisi hariç herhangi bir kesinti yapılmaz. Bu durumdaki görevlendirmeye ilişkin ilave ödemelerde, günlük mesai saatlerine bağlı kalmak kaydıyla, aylık toplam seksen saatten fazla olan görevlendirmeler dikkate alınmaz.\n(8) Kamu sağlık hizmetlerinde tam süreli çalışmaya ilişkin mevzuat hükümleri saklı kalmak kaydıyla, işyeri hekimlerinin ve diğer sağlık personelinin işyeri sağlık ve güvenlik birimi ile ortak sağlık ve güvenlik birimlerinde görevlendirilmelerinde ve hizmet verilen işyerlerinde çalışanlarla sınırlı olmak üzere görevlerini yerine getirmelerinde, diğer kanunların kısıtlayıcı hükümleri uygulanmaz.\n[6] 9/1/2025 tarihli ve 7538 sayılı Kanunun 20 nci maddesi ile bu fıkranın üçüncü cümlesinde yer alan “veya iş güvenliği uzmanınca,” ibaresi “, iş güvenliği uzmanı ve/veya ortak sağlık ve güvenlik birimi yönetimi tarafından” şeklinde değiştirilmiş ve dördüncü cümlesinde yer alan “süreyle” ibaresinden sonra gelmek üzere “; ortak sağlık ve güvenlik biriminin yetki belgesi altı ay, tekrarında ise bir yıl süreyle” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "9",
+   "official_text": "Tehlike sınıfının belirlenmesi\nMADDE 9 – (1) İşyeri tehlike sınıfları; 31/5/2006 tarihli ve 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanununun 83 üncü maddesine göre belirlenen kısa vadeli sigorta kolları prim tarifesi de dikkate alınarak, İş Sağlığı ve Güvenliği Genel Müdürünün Başkanlığında ilgili taraflarca oluşturulan komisyonun görüşleri doğrultusunda, Bakanlıkça çıkarılacak tebliğ ile tespit edilir.\n(2) İşyeri tehlike sınıflarının tespitinde, o işyerinde yapılan asıl iş dikkate alınır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "10",
+   "official_text": "Risk değerlendirmesi, kontrol, ölçüm ve araştırma\nMADDE 10 – (1) İşveren, iş sağlığı ve güvenliği yönünden risk değerlendirmesi yapmak veya yaptırmakla yükümlüdür. Risk değerlendirmesi yapılırken aşağıdaki hususlar dikkate alınır:\na) Belirli risklerden etkilenecek çalışanların durumu.\nb) Kullanılacak iş ekipmanı ile kimyasal madde ve müstahzarların seçimi.\nc) İşyerinin tertip ve düzeni.\nç) Genç, yaşlı, engelli, gebe veya emziren çalışanlar gibi özel politika gerektiren gruplar ile kadın çalışanların durumu.\n(2) İşveren, yapılacak risk değerlendirmesi sonucu alınacak iş sağlığı ve güvenliği tedbirleri ile kullanılması gereken koruyucu donanım veya ekipmanı belirler.\n(3) İşyerinde uygulanacak iş sağlığı ve güvenliği tedbirleri, çalışma şekilleri ve üretim yöntemleri; çalışanların sağlık ve güvenlik yönünden korunma düzeyini yükseltecek ve işyerinin idari yapılanmasının her kademesinde uygulanabilir nitelikte olmalıdır.\n(4) İşveren, iş sağlığı ve güvenliği yönünden çalışma ortamına ve çalışanların bu ortamda maruz kaldığı risklerin belirlenmesine yönelik gerekli kontrol, ölçüm, inceleme ve araştırmaların yapılmasını sağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "12",
+   "official_text": "Tahliye\nMADDE 12 – (1) Ciddi, yakın ve önlenemeyen tehlikenin meydana gelmesi durumunda işveren;\na) Çalışanların işi bırakarak derhal çalışma yerlerinden ayrılıp güvenli bir yere gidebilmeleri için, önceden gerekli düzenlemeleri yapar ve çalışanlara gerekli talimatları verir.\nb) Durumun devam etmesi hâlinde, zorunluluk olmadıkça, gerekli donanıma sahip ve özel olarak görevlendirilenler dışındaki çalışanlardan işlerine devam etmelerini isteyemez.\n(2) İşveren, çalışanların kendileri veya diğer kişilerin güvenliği için ciddi ve yakın bir tehlike ile karşılaştıkları ve amirine hemen haber veremedikleri durumlarda; istenmeyen sonuçların önlenmesi için, bilgileri ve mevcut teknik donanımları çerçevesinde müdahale edebilmelerine imkân sağlar. Böyle bir durumda çalışanlar, ihmal veya dikkatsiz davranışları olmadıkça yaptıkları müdahaleden dolayı sorumlu tutulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "13",
+   "official_text": "Çalışmaktan kaçınma hakkı\nMADDE 13 – (1) Ciddi ve yakın tehlike ile karşı karşıya kalan çalışanlar kurula, kurulun bulunmadığı işyerlerinde ise işverene başvurarak durumun tespit edilmesini ve gerekli tedbirlerin alınmasına karar verilmesini talep edebilir. Kurul acilen toplanarak, işveren ise derhâl kararını verir ve durumu tutanakla tespit eder. Karar, çalışana ve çalışan temsilcisine yazılı olarak bildirilir.\n(2) Kurul veya işverenin çalışanın talebi yönünde karar vermesi hâlinde çalışan, gerekli tedbirler alınıncaya kadar çalışmaktan kaçınabilir. Çalışanların çalışmaktan kaçındığı dönemdeki ücreti ile kanunlardan ve iş sözleşmesinden doğan diğer hakları saklıdır.\n(3) Çalışanlar ciddi ve yakın tehlikenin önlenemez olduğu durumlarda birinci fıkradaki usule uymak zorunda olmaksızın işyerini veya tehlikeli bölgeyi terk ederek belirlenen güvenli yere gider. Çalışanların bu hareketlerinden dolayı hakları kısıtlanamaz.\n(4) İş sözleşmesiyle çalışanlar, talep etmelerine rağmen gerekli tedbirlerin alınmadığı durumlarda, tabi oldukları kanun hükümlerine göre iş sözleşmelerini feshedebilir. Toplu sözleşme veya toplu iş sözleşmesi ile çalışan kamu personeli, bu maddeye göre çalışmadığı dönemde fiilen çalışmış sayılır.\n(5) Bu Kanunun 25 inci maddesine göre işyerinde işin durdurulması hâlinde, bu madde hükümleri uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "14",
+   "official_text": "İş kazası ve meslek hastalıklarının kayıt ve bildirimi\nMADDE 14 – (1) İşveren;\na) Bütün iş kazalarının ve meslek hastalıklarının kaydını tutar, gerekli incelemeleri yaparak bunlar ile ilgili raporları düzenler.\nb) İşyerinde meydana gelen ancak yaralanma veya ölüme neden olmadığı halde işyeri ya da iş ekipmanının zarara uğramasına yol açan veya çalışan, işyeri ya da iş ekipmanını zarara uğratma potansiyeli olan olayları inceleyerek bunlar ile ilgili raporları düzenler.\n(2) İşveren, aşağıdaki hallerde belirtilen sürede Sosyal Güvenlik Kurumuna bildirimde bulunur:\na) İş kazalarını kazadan sonraki üç iş günü içinde.\nb) Sağlık hizmeti sunucuları veya işyeri hekimi tarafından kendisine bildirilen meslek hastalıklarını, öğrendiği tarihten itibaren üç iş günü içinde.\n(3) İşyeri hekimi veya sağlık hizmeti sunucuları; meslek hastalığı ön tanısı koydukları vakaları, Sosyal Güvenlik Kurumu tarafından yetkilendirilen sağlık hizmeti sunucularına sevk eder.\n(4) Sağlık hizmeti sunucuları kendilerine intikal eden iş kazalarını, yetkilendirilen sağlık hizmeti sunucuları ise meslek hastalığı tanısı koydukları vakaları en geç on gün içinde Sosyal Güvenlik Kurumuna bildirir.\n(5) Bu maddenin uygulanmasına ilişkin usul ve esaslar, Sağlık Bakanlığının uygun görüşü alınarak Bakanlıkça belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "19",
+   "official_text": "Çalışanların yükümlülükleri\nMADDE 19 – (1) Çalışanlar, iş sağlığı ve güvenliği ile ilgili aldıkları eğitim ve işverenin bu konudaki talimatları doğrultusunda, kendilerinin ve hareketlerinden veya yaptıkları işten etkilenen diğer çalışanların sağlık ve güvenliklerini tehlikeye düşürmemekle yükümlüdür.\n(2) Çalışanların, işveren tarafından verilen eğitim ve talimatlar doğrultusunda yükümlülükleri şunlardır:\na) İşyerindeki makine, cihaz, araç, gereç, tehlikeli madde, taşıma ekipmanı ve diğer üretim araçlarını kurallara uygun şekilde kullanmak, bunların güvenlik donanımlarını doğru olarak kullanmak, keyfi olarak çıkarmamak ve değiştirmemek.\nb) Kendilerine sağlanan kişisel koruyucu donanımı doğru kullanmak ve korumak.\nc) İşyerindeki makine, cihaz, araç, gereç, tesis ve binalarda sağlık ve güvenlik yönünden ciddi ve yakın bir tehlike ile karşılaştıklarında ve koruma tedbirlerinde bir eksiklik gördüklerinde, işverene veya çalışan temsilcisine derhal haber vermek.\nç) Teftişe yetkili makam tarafından işyerinde tespit edilen noksanlık ve mevzuata aykırılıkların giderilmesi konusunda, işveren ve çalışan temsilcisi ile iş birliği yapmak.\nd) Kendi görev alanında, iş sağlığı ve güvenliğinin sağlanması için işveren ve çalışan temsilcisi ile iş birliği yapmak.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "22",
+   "official_text": "İş sağlığı ve güvenliği kurulu\nMADDE 22 – (1) Elli ve daha fazla çalışanın bulunduğu ve altı aydan fazla süren sürekli işlerin yapıldığı işyerlerinde işveren, iş sağlığı ve güvenliği ile ilgili çalışmalarda bulunmak üzere kurul oluşturur. İşveren, iş sağlığı ve güvenliği mevzuatına uygun kurul kararlarını uygular.\n(2) Altı aydan fazla süren asıl işveren-alt işveren ilişkisinin bulunduğu hallerde;\na) Asıl işveren ve alt işveren tarafından ayrı ayrı kurul oluşturulmuş ise, faaliyetlerin yürütülmesi ve kararların uygulanması konusunda iş birliği ve koordinasyon asıl işverence sağlanır.\nb) Asıl işveren tarafından kurul oluşturulmuş ise, kurul oluşturması gerekmeyen alt işveren, koordinasyonu sağlamak üzere vekâleten yetkili bir temsilci atar.\nc) İşyerinde kurul oluşturması gerekmeyen asıl işveren, alt işverenin oluşturduğu kurula iş birliği ve koordinasyonu sağlamak üzere vekâleten yetkili bir temsilci atar.\nç) Kurul oluşturması gerekmeyen asıl işveren ve alt işverenin toplam çalışan sayısı elliden fazla ise, koordinasyonu asıl işverence yapılmak kaydıyla, asıl işveren ve alt işveren tarafından birlikte bir kurul oluşturulur.\n(3) Aynı çalışma alanında birden fazla işverenin bulunması ve bu işverenlerce birden fazla kurulun oluşturulması hâlinde işverenler, birbirlerinin çalışmalarını etkileyebilecek kurul kararları hakkında diğer işverenleri bilgilendirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "25",
+   "official_text": "İşin durdurulması\nMADDE 25 – (1) İşyerindeki bina ve eklentilerde, çalışma yöntem ve şekillerinde veya iş ekipmanlarında çalışanlar için hayati tehlike oluşturan bir husus tespit edildiğinde; bu tehlike giderilinceye kadar, hayati tehlikenin niteliği ve bu tehlikeden doğabilecek riskin etkileyebileceği alan ile çalışanlar dikkate alınarak, işyerinin bir bölümünde veya tamamında iş durdurulur. Ayrıca çok tehlikeli sınıfta yer alan maden, metal ve yapı işleri ile tehlikeli kimyasallarla çalışılan işlerin yapıldığı veya büyük endüstriyel kazaların olabileceği işyerlerinde, risk değerlendirmesi yapılmamış olması durumunda iş durdurulur.\n(2) İş sağlığı ve güvenliği bakımından teftişe yetkili üç iş müfettişinden oluşan heyet, iş sağlığı ve güvenliği bakımından teftişe yetkili iş müfettişinin tespiti üzerine gerekli incelemeleri yaparak, tespit tarihinden itibaren iki gün içerisinde işin durdurulmasına karar verebilir. Ancak tespit edilen hususun acil müdahaleyi gerektirmesi hâlinde; tespiti yapan iş müfettişi, heyet tarafından karar alınıncaya kadar geçerli olmak kaydıyla işi durdurur.\n(3) İşin durdurulması kararı, ilgili mülki idare amirine ve işyeri dosyasının bulunduğu Çalışma ve İş Kurumu il müdürlüğüne bir gün içinde gönderilir. İşin durdurulması kararı, mülki idare amiri tarafından kolluk kuvvetleri marifetiyle yirmidört saat içinde yerine getirilir. Ancak, tespit edilen hususun acil müdahaleyi gerektirmesi nedeniyle verilen işin durdurulması kararı, mülki idare amiri tarafından kolluk kuvvetleri marifetiyle aynı gün yerine getirilir.[11]\n(4) İşveren, yerine getirildiği tarihten itibaren altı iş günü içinde, yetkili iş mahkemesinde işin durdurulması kararına itiraz edebilir. İtiraz, işin durdurulması kararının uygulanmasını etkilemez. Mahkeme itirazı öncelikle görüşür ve altı iş günü içinde karara bağlar. Mahkeme kararı kesindir.\n(5) İşverenin işin durdurulmasını gerektiren hususların giderildiğini Bakanlığa yazılı olarak bildirmesi hâlinde, en geç yedi gün içinde işyerinde inceleme yapılarak işverenin talebi sonuçlandırılır.\n(6) İşveren, işin durdurulması sebebiyle işsiz kalan çalışanlara ücretlerini ödemekle veya ücretlerinde bir düşüklük olmamak üzere meslek veya durumlarına göre başka bir iş vermekle yükümlüdür.\n(7) (Ek: 4/4/2015-6645/2 md.) Çok tehlikeli sınıfta yer alan ve ihale ile alınan işlerde; teknolojik gelişme, iş gücü kapasitesinin artırılması, üretim metotlarında yenilik gibi bir kısım unsurlar sağlanmadan üretim ve/veya imalat planlarına, iş programlarına aykırı hareket edilerek üretim zorlaması nedeniyle hayati tehlike oluşturacak şekilde çalışma biçimleri, işin durdurulma sebebi sayılır.\n(8) (Ek: 4/4/2015-6645/2 md.) İşyerinde durdurulan işlerde izinsiz çalışma yaptıran işveren veya işveren vekillerine üç yıldan beş yıla kadar hapis cezası verilir.\n[11] 4/4/2015 tarihli ve 6645 sayılı Kanunun 2 nci maddesiyle, bu fıkrada yer alan “mülki idare amiri tarafından” ibarelerinden sonra gelmek üzere “kolluk kuvvetleri marifetiyle” ibareleri eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ SAĞLIĞI VE GÜVENLİĞİ KANUNU",
+   "law_no": "6331",
+   "article_no": "38",
+   "official_text": "Yürürlük\nMADDE 38 – (1) Bu Kanunun;\na) (Değişik: 12/7/2013-6495/56 md.) 6 ve 7 nci maddeleri;\n1) 4857 sayılı İş Kanununun mülga 81 inci maddesi kapsamında çalışanlar hariç kamu kurumları ile 50’den az çalışanı olan ve az tehlikeli sınıfta yer alan işyerleri için (…)[17] tarihinde,[18][19]\n2) 50’den az çalışanı olan tehlikeli ve çok tehlikeli sınıfta yer alan işyerleri için 1/1/2014 tarihinde,\n3) Diğer işyerleri için yayımı tarihinden itibaren altı ay sonra,\nb) 9, 31, 33, 34, 35, 36 ve 38 inci maddeleri ile geçici 4, geçici 5, geçici 6, geçici 7 ve geçici 8 inci maddeleri yayımı tarihinde,\nc) Diğer maddeleri yayımı tarihinden itibaren altı ay sonra,\nyürürlüğe girer.\n[17] Anayasa Mahkemesinin 22/7/2025 tarihli ve E.: 2024/54, K.: 2025/163 sayılı Kararı ile bu alt bentte yer alan “31/12/2024” ibaresi iptal edilmiştir.\n[18] 23/7/2020 tarihli ve 7252 sayılı Kanunun 10 uncu maddesiyle, bu alt bentte yer alan “1/7/2020” ibaresi “31/12/2023” şeklinde değiştirilmiştir.\n[19] 27/12/2023 tarihli ve 7491 sayılı Kanunun 71 inci maddesi ile bu alt bentte yer alan “31/12/2023” ibaresi “31/12/2024” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU",
+   "law_no": "5510",
+   "article_no": "13",
+   "official_text": "İş kazasının tanımı, bildirilmesi ve soruşturulması\nMADDE 13- İş kazası;\na) Sigortalının işyerinde bulunduğu sırada,\nb) (Değişik: 17/4/2008-5754/8 md.) İşveren tarafından yürütülmekte olan iş nedeniyle sigortalı kendi adına ve hesabına bağımsız çalışıyorsa yürütmekte olduğu iş nedeniyle,\nc) Bir işverene bağlı olarak çalışan sigortalının, görevli olarak işyeri dışında başka bir yere gönderilmesi nedeniyle asıl işini yapmaksızın geçen zamanlarda,\nd) (Değişik: 17/4/2008-5754/8 md.) Bu Kanunun 4 üncü maddesinin birinci fıkrasının (a) bendi kapsamındaki emziren kadın sigortalının, iş mevzuatı gereğince çocuğuna süt vermek için ayrılan zamanlarda,\ne) Sigortalıların, işverence sağlanan bir taşıtla işin yapıldığı yere gidiş gelişi sırasında,\nmeydana gelen ve sigortalıyı hemen veya sonradan bedenen ya da ruhen engelli hâle getiren olaydır.[27]\nİş kazasının 4 üncü maddenin birinci fıkrasının;\na) (a) bendi ile 5 inci madde kapsamında bulunan sigortalılar bakımından bunları çalıştıran işveren tarafından, o yer yetkili kolluk kuvvetlerine derhal ve Kuruma da en geç kazadan sonraki üç işgünü içinde,\nb) (b) bendi kapsamında bulunan sigortalı bakımından kendisi tarafından, bir ayı geçmemek şartıyla rahatsızlığının bildirim yapmaya engel olmadığı günden sonra üç işgünü içinde,\nc) (Mülga: 17/4/2008-5754/8 md.)\n(Değişik paragraf: 17/4/2008-5754/8 md.) iş kazası ve meslek hastalığı bildirgesi ile doğrudan ya da taahhütlü posta ile Kuruma bildirilmesi zorunludur. Bu fıkranın (a) bendinde belirtilen süre, iş kazasının işverenin kontrolü dışındaki yerlerde meydana gelmesi halinde, iş kazasının öğrenildiği tarihten itibaren başlar.\nKuruma bildirilen olayın iş kazası sayılıp sayılmayacağı hakkında bir karara varılabilmesi için gerektiğinde, Kurumun denetim ve kontrol ile yetkilendirilen memurları tarafından veya Bakanlık iş müfettişleri vasıtasıyla soruşturma yapılabilir. Bu soruşturma sonunda yazılı olarak bildirilen hususların gerçeğe uymadığı ve olayın iş kazası olmadığı anlaşılırsa, Kurumca bu olay için yersiz olarak yapılmış bulunan ödemeler, ödemenin yapıldığı tarihten itibaren gerçeğe aykırı bildirimde bulunanlardan, 96 ncı madde hükmüne göre tahsil edilir.\nİş kazası ve meslek hastalığı bildirgesinin şekli ve içeriği, verilme usûlü ile bu maddenin uygulanmasına ilişkin usûl ve esaslar, Kurum tarafından çıkarılacak yönetmelikle düzenlenir.\n[27] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu bentte yer alan “özüre uğratan” ibaresi “engelli hâle getiren” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5510&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU",
+   "law_no": "5510",
+   "article_no": "14",
+   "official_text": "Meslek hastalığının tanımı, bildirilmesi ve soruşturulması\nMADDE 14- Meslek hastalığı, sigortalının çalıştığı veya yaptığı işin niteliğinden dolayı tekrarlanan bir sebeple veya işin yürütüm şartları yüzünden uğradığı geçici veya sürekli hastalık, bedensel veya ruhsal engellilik halleridir.[28]\nSigortalının çalıştığı işten dolayı meslek hastalığına tutulduğunun;\na) Kurumca yetkilendirilen sağlık hizmet sunucuları tarafından usûlüne uygun olarak düzenlenen sağlık kurulu raporu ve dayanağı tıbbî belgelerin incelenmesi,\nb) Kurumca gerekli görüldüğü hallerde, işyerindeki çalışma şartlarını ve buna bağlı tıbbî sonuçlarını ortaya koyan denetim raporları ve gerekli diğer belgelerin incelenmesi,\nsonucu Kurum Sağlık Kurulu tarafından tespit edilmesi zorunludur.\nMeslek hastalığı, işten ayrıldıktan sonra meydana çıkmış ve sigortalı olarak çalıştığı işten kaynaklanmış ise, sigortalının bu Kanunla sağlanan haklardan yararlanabilmesi için, eski işinden fiilen ayrılmasıyla hastalığın meydana çıkması arasında bu hastalık için Kurum tarafından çıkarılacak yönetmelikte belirtilen süreden daha uzun bir zamanın geçmemiş olması şarttır. Bu durumdaki kişiler, gerekli belgelerle Kuruma müracaat edebilirler. Herhangi bir meslek hastalığının klinik ve laboratuvar bulgularıyla belirlendiği ve meslek hastalığına yol açan etkenin işyerindeki inceleme sonunda tespit edildiği hallerde, meslek hastalıkları listesindeki yükümlülük süresi aşılmış olsa bile, söz konusu hastalık Kurumun veya ilgilinin başvurusu üzerine Sosyal Sigorta Yüksek Sağlık Kurulunun onayı ile meslek hastalığı sayılabilir.\nMeslek hastalığının 4 üncü maddenin birinci fıkrasının;\na) (a) bendi ile 5 inci madde kapsamında bulunan sigortalılar bakımından, sigortalının meslek hastalığına tutulduğunu öğrenen veya bu durum kendisine bildirilen işveren tarafından,[29]\nb) (b) bendi kapsamındaki sigortalı bakımından ise kendisi tarafından,\nbu durumun öğrenildiği günden başlayarak üç işgünü içinde, iş kazası ve meslek hastalığı bildirgesi ile Kuruma bildirilmesi zorunludur. Bu yükümlülüğü yerine getirmeyen veya yazılı olarak bildirilen hususları kasten eksik ya da yanlış bildiren işverene veya 4 üncü maddenin birinci fıkrasının (b) bendi kapsamındaki sigortalıya, Kurumca bu durum için yapılmış bulunan masraflar ile ödenmişse geçici iş göremezlik ödenekleri rücû edilir.\nMeslek hastalığı ile ilgili bildirimler üzerine gerekli soruşturmalar, Kurumun denetim ve kontrol ile yetkilendirilen memurları tarafından veya Bakanlık iş müfettişleri vasıtasıyla yaptırılabilir.\nHangi hallerin meslek hastalığı sayılacağı, iş kazası ve meslek hastalığı bildirgesinin şekli ve içeriği, verilme usûlü ile bu maddenin uygulanmasına ilişkin diğer usûl ve esaslar, Kurum tarafından çıkarılacak yönetmelikte düzenlenir. Yönetmelikte belirlenmiş hastalıklar dışında herhangi bir hastalığın meslek hastalığı sayılıp sayılmaması hususunda çıkabilecek uyuşmazlıklar, Sosyal Sigorta Yüksek Sağlık Kurulunca karara bağlanır.\n[29] 17/4/2008 tarihli ve 5754 sayılı Kanunun 65 inci maddesiyle bu bentte yer alan “(a) ve (c) bentleri” ibaresi “(a) bendi olarak değiştirilmiş ve metne işlenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5510&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU",
+   "law_no": "5510",
+   "article_no": "18",
+   "official_text": "Geçici iş göremezlik ödeneği\nMADDE 18- Kurumca yetkilendirilen hekim veya sağlık kurullarından istirahat raporu alınmış olması şartıyla;\na) İş kazası veya meslek hastalığı nedeniyle iş göremezliğe uğrayan sigortalıya her gün için,\nb) (Değişik: 17/4/2008-5754/11 md.) 4 üncü maddenin birinci fıkrasının (a) bendi ile 5 inci madde kapsamındaki sigortalılardan hastalık sigortasına tabi olanların hastalık sebebiyle iş göremezliğe uğraması halinde, iş göremezliğin başladığı tarihten önceki bir yıl içinde en az doksan gün kısa vadeli sigorta primi bildirilmiş olması şartıyla geçici iş göremezliğin üçüncü gününden başlamak üzere her gün için,\nc) (Değişik: 17/4/2008-5754/11 md.) 4 üncü maddenin birinci fıkrasının (a) bendi ile (b) bendinde belirtilen muhtarlar ile aynı bendin (1), (2) ve (4) numaralı alt bentleri kapsamındaki sigortalı kadının analığı halinde, doğumdan önceki bir yıl içinde en az doksan gün kısa vadeli sigorta primi bildirilmiş olması şartıyla, doğumdan önceki ve sonraki sekizer haftalık sürede, çoğul gebelik halinde ise doğumdan önceki sekiz haftalık süreye iki haftalık süre ilâve edilerek çalışmadığı her gün için,\nd) (Değişik: 17/4/2008-5754/11 md.) 4 üncü maddenin birinci fıkrasının (a) bendi ile (b) bendinde belirtilen muhtarlar ile aynı bendin (1), (2) ve (4) numaralı alt bentleri kapsamındaki sigortalı kadının, erken doğum yapması halinde doğumdan önce kullanamadığı çalıştırılamayacak süreler ile isteği ve hekimin onayıyla doğuma üç hafta kalıncaya kadar çalışması halinde, doğum sonrası istirahat süresine eklenen süreler için,[34]\ngeçici iş göremezlik ödeneği verilir.\n(Değişik ikinci fıkra: 17/4/2008-5754/11 md.) 4 üncü maddenin birinci fıkrasının (b) bendine göre sigortalı sayılanlara iş kazası veya meslek hastalığı ya da analık halinde geçici iş göremezlik ödeneği, genel sağlık sigortası dahil prim ve prime ilişkin her türlü borçlarının ödenmiş olması şartıyla yatarak tedavi süresince veya yatarak tedavi sonrası bu tedavinin gereği olarak istirahat raporu aldıkları sürede ödenir. Ancak bu maddenin birinci fıkrasının (c) bendine göre doğum öncesi ve doğum sonrası çalışmadığı sürelerde geçici iş göremezlik ödeneğinin ödenebilmesi için yatarak tedavi şartı aranmaz.\n(Değişik üçüncü fıkra: 17/4/2008-5754/11 md.) İş kazası, meslek hastalığı, hastalık ve sigortalı kadının analığı halinde verilecek geçici iş göremezlik ödeneği, yatarak tedavilerde 17 nci maddeye göre hesaplanacak günlük kazancının yarısı, ayaktan tedavilerde ise üçte ikisidir.\nSigorta prim ve ödeneklerinin hesabına esas tutulacak günlük kazançların alt sınırında meydana gelecek değişikliklerde, yeniden tespit edilen alt sınırın altında bir günlük kazanç üzerinden ödenek almakta bulunanların veya almaya hak kazanmış veya kazanacak olanların bu ödenekleri, günlük kazançlarının alt sınırındaki değişikliklerin yürürlüğe girdiği tarihten başlayarak değiştirilmiş günlük kazançların alt sınırına göre ödenir.\nBir sigortalıda iş kazası, meslek hastalığı, hastalık ve analık hallerinden birkaçı birleşirse, geçici iş göremezlik ödeneklerinden en yükseği verilir.\nGeçici iş göremezlik ödenekleri, toplu iş sözleşmesi yapılan işyerleri ile kamu idarelerinin işverenleri tarafından Kurumca belirlenen usûl ve esaslara göre Kurum adına sigortalılara ödenerek, daha sonra Kurum ile mahsuplaşmak suretiyle tahsil edilebilir.\nGeçici iş göremezlik ödeneklerinin ödeme zamanı ile bu maddenin uygulanmasına ilişkin diğer usûl ve esaslar, Kurum tarafından çıkarılacak yönetmelikle düzenlenir.\n[34] 13/2/2011 tarihli ve 6111 sayılı Kanunun 29 uncu maddesiyle, bu bentte yer alan “sigortalı kadının isteği ve hekimin onayı ile doğuma üç hafta kalıncaya kadar çalışması halinde,” ibaresi “sigortalı kadının, erken doğum yapması halinde doğumdan önce kullanamadığı çalıştırılamayacak süreler ile isteği ve hekimin onayıyla doğuma üç hafta kalıncaya kadar çalışması halinde,” şeklinde değiştirilmiş ve metne işlenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5510&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU",
+   "law_no": "5510",
+   "article_no": "19",
+   "official_text": "Sürekli iş göremezlik gelirine hak kazanma, hesaplanması, başlangıcı ve birden çok iş kazası ve meslek hastalığı hali\nMADDE 19- (Değişik birinci fıkra: 17/4/2008-5754/12 md.) İş kazası veya meslek hastalığı sonucu oluşan hastalık ve engellilik nedeniyle Kurumca yetkilendirilen sağlık hizmeti sunucularının sağlık kurulları tarafından verilen raporlara istinaden Kurum Sağlık Kurulunca meslekte kazanma gücü en az %10 oranında azalmış bulunduğu tespit edilen sigortalı, sürekli iş göremezlik gelirine hak kazanır.[35]\nSürekli iş göremezlik geliri bağlanmış olan sigortalının yeniden tedavi ettirilmesi halinde meslekte kazanma gücünü ne oranda yitirdiği, birinci fıkrada belirtilen sağlık kurullarından alınacak raporlara göre yeniden tespit olunur.\nSürekli iş göremezlik geliri, sigortalının mesleğinde kazanma gücünün kaybı oranına göre hesaplanır. Sürekli tam iş göremezlikte sigortalıya, 17 nci maddeye göre hesaplanan aylık kazancının %70'i oranında gelir bağlanır. Sürekli kısmî iş göremezlikte sigortalıya bağlanacak gelir, tam iş göremezlik geliri gibi hesaplanarak bunun iş göremezlik derecesi oranındaki tutarı kendisine ödenir. Sigortalı, başka birinin sürekli bakımına muhtaç ise gelir bağlama oranı %100 olarak uygulanır.\n4 üncü maddenin birinci fıkrasının (b) bendine göre sigortalı sayılanlara, sürekli iş göremezlik geliri bağlanabilmesi için, kendi sigortalılığından dolayı, genel sağlık sigortası dahil prim ve prime ilişkin her türlü borçlarının ödenmiş olması zorunludur.[36]\n(Mülga beşinci fıkra: 17/4/2008-5754/12 md.)\n(Mülga altıncı fıkra: 17/4/2008-5754/12 md.)\nYukarıdaki fıkralara göre hesaplanan gelir, günlük kazanç hesabına giren son ay ile gelir başlangıç tarihi arasında 55 inci maddenin ikinci fıkrası hükmüne göre artırılarak belirlenir.\nSigortalının sürekli iş göremezlik geliri;\na) Geçici iş göremezlik ödeneğinin sona erdiği tarihi,\nb) Geçici iş göremezlik tespit edilemeden sürekli iş göremezlik durumuna girilmişse, buna ait sağlık kurulu raporu tarihini,\ntakip eden ay başından başlar.\nSürekli iş göremezlik geliri bağlanmış sigortalılardan, aynı engellilik veya meslek hastalığı nedeniyle istirahat raporu alanlara, yazılı istek tarihinden itibaren 18 inci maddeye göre hesaplanacak bir günlük geçici iş göremezlik ödeneği ile aylık sürekli iş göremezlik gelirinin otuzda biri arasındaki fark, her gün için geçici iş göremezlik ödeneği olarak verilir.(35)\nSigortalının yeniden bir iş kazasına uğraması veya yeni bir meslek hastalığına tutulması halinde, meydana gelen engellilik hâllerinin bütünü göz önüne alınarak kendisine, sürekli iş göremezliğini doğuran son iş kazası veya meslek hastalığı sırasındaki kazancı üzerinden gelir hesaplanır. Ancak, sigortalının son iş kazası veya meslek hastalığı sırasındaki günlük kazancına göre bulunacak geliri, hesaplanan ilk gelirinden az ise sigortalının sürekli iş göremezlik geliri ilk kazanç üzerinden ödenir.[37]\nİş kazası ve meslek hastalığı sonucu sürekli iş göremezlik hallerinde meslekte kazanma gücündeki kayıp oranının belirlenmesine ve bu maddenin uygulanmasına ilişkin diğer usûl ve esaslar, Kurum tarafından çıkarılacak yönetmelikle düzenlenir.\n[35] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu maddenin birinci fıkrasında yer alan “özürler” ibaresi “engellilik”, dokuzuncu fıkrasında yer alan “özürlülük” ibaresi “engellilik” şeklinde değiştirilmiştir.\n[36] 17/4/2008 tarihli ve 5754 sayılı Kanunun 12 nci maddesiyle bu fıkrada yer alan “prim ve her türlü borçlarının” ibaresi “prim ve prime ilişkin her türlü borçlarının” şeklinde değiştirilmiş ve metne işlenmiştir.\n[37] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu fıkrada yer alan “özürlerin” ibaresi “engellilik hâllerinin” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5510&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU",
+   "law_no": "5510",
+   "article_no": "21",
+   "official_text": "İş kazası ve meslek hastalığı ile hastalık bakımından işverenin ve üçüncü kişilerin sorumluluğu\nMADDE 21- İş kazası ve meslek hastalığı, işverenin kastı veya sigortalıların sağlığını koruma ve iş güvenliği mevzuatına aykırı bir hareketi sonucu meydana gelmişse, Kurumca sigortalıya veya hak sahiplerine bu Kanun gereğince yapılan veya ileride yapılması gereken ödemeler ile bağlanan gelirin başladığı tarihteki ilk peşin sermaye değeri toplamı, sigortalı veya hak sahiplerinin işverenden isteyebilecekleri tutarlarla sınırlı olmak üzere, Kurumca işverene ödettirilir. İşverenin sorumluluğunun tespitinde kaçınılmazlık ilkesi dikkate alınır.\nİş kazasının, 13 üncü maddenin ikinci fıkrasının (a) bendinde belirtilen sürede işveren tarafından Kuruma bildirilmemesi halinde, bildirim tarihine kadar geçen süre için sigortalıya ödenecek geçici iş göremezlik ödeneği, Kurumca işverenden tahsil edilir.\nÇalışma mevzuatında sağlık raporu alınması gerektiği belirtilen işlerde, böyle bir rapora dayanılmaksızın veya eldeki rapora aykırı olarak bünyece elverişli olmadığı işte çalıştırılan sigortalının, bu işe girmeden önce var olduğu tespit edilen veya bünyece elverişli olmadığı işte çalıştırılması sonucu meydana gelen hastalığı nedeniyle, Kurumca sigortalıya ödenen geçici iş göremezlik ödeneği işverene ödettirilir.\nİş kazası, meslek hastalığı ve hastalık, üçüncü bir kişinin kusuru nedeniyle meydana gelmişse, sigortalıya ve hak sahiplerine yapılan veya ileride yapılması gereken ödemeler ile bağlanan gelirin başladığı tarihteki ilk peşin sermaye değerinin yarısı, zarara sebep olan üçüncü kişilere ve şayet kusuru varsa bunları çalıştıranlara rücû edilir.\nİş kazası, meslek hastalığı ve hastalık; kamu görevlileri, er ve erbaşlar ile kamu idareleri tarafından görevlendirilen diğer kişilerin vazifelerinin gereği olarak yaptıkları fiiller sonucu meydana gelmiş ise, bu fiillerden dolayı haklarında kesinleşmiş mahkûmiyet kararı bulunanlar hariç olmak üzere, sigortalı veya hak sahiplerine yapılan ödemeler veya bağlanan gelirler için kurumuna veya ilgililere rücû edilmez. Ayrıca, iş kazası veya meslek hastalığı sonucu ölümlerde, bu Kanun uyarınca hak sahiplerine bağlanacak gelir ve verilecek ödenekler için, iş kazası veya meslek hastalığının meydana gelmesinde kusuru bulunan hak sahiplerine veya iş kazası sonucu ölen kusurlu sigortalının hak sahiplerine, Kurumca rücû edilmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5510&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "SOSYAL SİGORTALAR VE GENEL SAĞLIK SİGORTASI KANUNU",
+   "law_no": "5510",
+   "article_no": "23",
+   "official_text": "Süresinde bildirilmeyen sigortalılıktan doğan sorumluluk\nMADDE 23- Sigortalı çalıştırmaya başlandığının süresi içinde sigortalı işe giriş bildirgesi ile Kuruma bildirilmemesi halinde, bildirgenin sonradan verildiği veya sigortalı çalıştırıldığının Kurumca tespit edildiği tarihten önce meydana gelen iş kazası, meslek hastalığı, hastalık ve analık halleri sonucu ilgililerin gelir ve ödenekleri Kurumca ödenir.\nYukarıdaki fıkrada belirtilen hallerde, Kurumca yapılan ve ileride yapılması gerekli bulunan her türlü masrafların tutarı ile gelir bağlanırsa bu gelirin başladığı tarihteki ilk peşin sermaye değeri tutarı, 21 inci maddenin birinci fıkrasında yazılı sorumluluk halleri aranmaksızın, işverene ayrıca ödettirilir.\n4 üncü maddenin birinci fıkrasının (b) bendi kapsamında sigortalı olduğu halde, 8 inci maddenin üçüncü fıkrasında belirtilen süre içerisinde bildirimde bulunmayanlara, bildirimde bulunulmayan sürede meydana gelen iş kazası, meslek hastalığı, analık halleri sonucu ilgililerin gelir ve ödenekleri Kurumca ödenmez.[39]\n[39] 17/4/2008 tarihli ve 5754 sayılı Kanunun 65 inci maddesiyle bu fıkrada yer alan “dördüncü fıkrasında” ibaresi “üçüncü fıkrasında”, “hastalık ve analık” ibaresi “analık” şeklinde değiştirilmiş ve metne işlenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5510&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "53",
+   "official_text": "a. Ölüm\nMADDE 53- Ölüm hâlinde uğranılan zararlar özellikle şunlardır:\n1. Cenaze giderleri.\n2. Ölüm hemen gerçekleşmemişse tedavi giderleri ile çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar.\n3. Ölenin desteğinden yoksun kalan kişilerin bu sebeple uğradıkları kayıplar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "54",
+   "official_text": "MADDE 54- Bedensel zararlar özellikle şunlardır:\n1. Tedavi giderleri.\n2. Kazanç kaybı.\n3. Çalışma gücünün azalmasından ya da yitirilmesinden doğan kayıplar.\n4. Ekonomik geleceğin sarsılmasından doğan kayıplar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "56",
+   "official_text": "MADDE 56- Hâkim, bir kimsenin bedensel bütünlüğünün zedelenmesi durumunda, olayın özelliklerini göz önünde tutarak, zarar görene uygun bir miktar paranın manevi tazminat olarak ödenmesine karar verebilir.\nAğır bedensel zarar veya ölüm hâlinde, zarar görenin veya ölenin yakınlarına da manevi tazminat olarak uygun bir miktar paranın ödenmesine karar verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "71",
+   "official_text": "MADDE 71- Önemli ölçüde tehlike arzeden bir işletmenin faaliyetinden zarar doğduğu takdirde, bu zarardan işletme sahibi ve varsa işleten müteselsilen sorumludur.\nBir işletmenin, mahiyeti veya faaliyette kullanılan malzeme, araçlar ya da güçler göz önünde tutulduğunda, bu işlerde uzman bir kişiden beklenen tüm özenin gösterilmesi durumunda bile sıkça veya ağır zararlar doğurmaya elverişli olduğu sonucuna varılırsa, bunun önemli ölçüde tehlike arzeden bir işletme olduğu kabul edilir. Özellikle, herhangi bir kanunda benzeri tehlikeler arzeden işletmeler için özel bir tehlike sorumluluğu öngörülmüşse, bu işletme de önemli ölçüde tehlike arzeden işletme sayılır.\nBelirli bir tehlike hâli için öngörülen özel sorumluluk hükümleri saklıdır.\nÖnemli ölçüde tehlike arzeden bir işletmenin bu tür faaliyetine hukuk düzenince izin verilmiş olsa bile, zarar görenler, bu işletmenin faaliyetinin sebep olduğu zararlarının uygun bir bedelle denkleştirilmesini isteyebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "72",
+   "official_text": "MADDE 72- Tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Ancak, tazminat ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa, bu zamanaşımı uygulanır.\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile, her zaman bu borcu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "417",
+   "official_text": "MADDE 417- İşveren, hizmet ilişkisinde işçinin kişiliğini korumak ve saygı göstermek ve işyerinde dürüstlük ilkelerine uygun bir düzeni sağlamakla, özellikle işçilerin psikolojik ve cinsel tacize uğramamaları ve bu tür tacizlere uğramış olanların daha fazla zarar görmemeleri için gerekli önlemleri almakla yükümlüdür.\nİşveren, işyerinde iş sağlığı ve güvenliğinin sağlanması için gerekli her türlü önlemi almak, araç ve gereçleri noksansız bulundurmak; işçiler de iş sağlığı ve güvenliği konusunda alınan her türlü önleme uymakla yükümlüdür.\nİşverenin yukarıdaki hükümler dâhil, kanuna ve sözleşmeye aykırı davranışı nedeniyle işçinin ölümü, vücut bütünlüğünün zedelenmesi veya kişilik haklarının ihlaline bağlı zararların tazmini, sözleşmeye aykırılıktan doğan sorumluluk hükümlerine tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "435",
+   "official_text": "MADDE 435- Taraflardan her biri, haklı sebeplerle sözleşmeyi derhâl feshedebilir. Sözleşmeyi fesheden taraf, fesih sebebini yazılı olarak bildirmek zorundadır.\nSözleşmeyi fesheden taraftan, dürüstlük kurallarına göre hizmet ilişkisini sürdürmesi beklenemeyen bütün durum ve koşullar, haklı sebep sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "24",
+   "official_text": "İşçinin haklı nedenle derhal fesih hakkı\nMadde 24 - Süresi belirli olsun veya olmasın işçi, aşağıda yazılı hallerde iş sözleşmesini sürenin bitiminden önce veya bildirim süresini beklemeksizin feshedebilir:\nI. Sağlık sebepleri:\na) İş sözleşmesinin konusu olan işin yapılması işin niteliğinden doğan bir sebeple işçinin sağlığı veya yaşayışı için tehlikeli olursa.\nb) İşçinin sürekli olarak yakından ve doğrudan buluşup görüştüğü işveren yahut başka bir işçi bulaşıcı veya işçinin işi ile bağdaşmayan bir hastalığa tutulursa.\nII. Ahlak ve iyiniyet kurallarına uymayan haller ve benzerleri:\na) İşveren iş sözleşmesi yapıldığı sırada bu sözleşmenin esaslı noktalarından biri hakkında yanlış vasıflar veya şartlar göstermek yahut gerçeğe uygun olmayan bilgiler vermek veya sözler söylemek suretiyle işçiyi yanıltırsa.\nb) İşveren işçinin veya ailesi üyelerinden birinin şeref ve namusuna dokunacak şekilde sözler söyler, davranışlarda bulunursa veya işçiye cinsel tacizde bulunursa.\nc) İşveren işçiye veya ailesi üyelerinden birine karşı sataşmada bulunur veya gözdağı verirse, yahut işçiyi veya ailesi üyelerinden birini kanuna karşı davranışa özendirir, kışkırtır, sürükler, yahut işçiye ve ailesi üyelerinden birine karşı hapsi gerektiren bir suç işlerse yahut işçi hakkında şeref ve haysiyet kırıcı asılsız ağır isnad veya ithamlarda bulunursa.\nd) İşçinin diğer bir işçi veya üçüncü kişiler tarafından işyerinde cinsel tacize uğraması ve bu durumu işverene bildirmesine rağmen gerekli önlemler alınmazsa.\ne) İşveren tarafından işçinin ücreti kanun hükümleri veya sözleşme şartlarına uygun olarak hesap edilmez veya ödenmezse,\nf) Ücretin parça başına veya iş tutarı üzerinden ödenmesi kararlaştırılıp da işveren tarafından işçiye yapabileceği sayı ve tutardan az iş verildiği hallerde, aradaki ücret farkı zaman esasına göre ödenerek işçinin eksik aldığı ücret karşılanmazsa, yahut çalışma şartları uygulanmazsa.\nIII. Zorlayıcı sebepler:\nİşçinin çalıştığı işyerinde bir haftadan fazla süre ile işin durmasını gerektirecek zorlayıcı sebepler ortaya çıkarsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "74",
+   "official_text": "Analık halinde çalışma ve süt izni\nMadde 74 - Kadın işçilerin doğumdan önce sekiz ve doğumdan sonra onaltı hafta olmak üzere toplam yirmidört haftalık süre için çalıştırılmamaları esastır. Çoğul gebelik halinde doğumdan önce çalıştırılmayacak sekiz haftalık süreye iki hafta süre eklenir. Ancak, sağlık durumu uygun olduğu takdirde, doktorun onayı ile kadın işçi isterse doğumdan önceki iki haftaya kadar işyerinde çalışabilir. Bu durumda, kadın işçinin çalıştığı süreler doğum sonrası sürelere eklenir. (Ek cümle: 13/2/2011-6111/76 md.) Kadın işçinin erken doğum yapması halinde ise doğumdan önce kullanamadığı çalıştırılmayacak süreler, doğum sonrası sürelere eklenmek suretiyle kullandırılır. (Ek cümleler: 29/1/2016-6663/22 md.) Doğumda veya doğum sonrasında annenin ölümü hâlinde, doğum sonrası kullanılamayan süreler babaya kullandırılır. Üç yaşını doldurmamış çocuğu evlat edinen eşlerden birine veya evlat edinene çocuğun aileye fiilen teslim edildiği tarihten itibaren sekiz hafta analık hâli izni kullandırılır. (Ek cümle:22/4/2026-7578/15 md.) Bir veya daha fazla çocuğa eşiyle birlikte veya münferit olarak koruyucu aile olan işçiye, çocuğun teslim edildiği tarihten sonra isteği üzerine on gün ücretsiz izin verilir.[24]\n(Ek fıkra: 29/1/2016-6663/22 md.) Birinci fıkra uyarınca kullanılan doğum sonrası analık hâli izninin bitiminden itibaren çocuğunun bakımı ve yetiştirilmesi amacıyla ve çocuğun hayatta olması kaydıyla kadın işçi ile üç yaşını doldurmamış çocuğu evlat edinen kadın veya erkek işçilere istekleri hâlinde birinci doğumda altmış gün, ikinci doğumda yüz yirmi gün, sonraki doğumlarda ise yüz seksen gün süreyle haftalık çalışma süresinin yarısı kadar ücretsiz izin verilir. Çoğul doğum hâlinde bu sürelere otuzar gün eklenir. Çocuğun engelli doğması hâlinde bu süre üç yüz altmış gün olarak uygulanır. Bu fıkra hükümlerinden yararlanılan süre içerisinde süt iznine ilişkin hükümler uygulanmaz.\nYukarıda öngörülen süreler işçinin sağlık durumuna ve işin özelliğine göre doğumdan önce ve sonra gerekirse artırılabilir. Bu süreler hekim raporu ile belirtilir.\nHamilelik süresince kadın işçiye periyodik kontroller için ücretli izin verilir.\nHekim raporu ile gerekli görüldüğü takdirde, hamile kadın işçi sağlığına uygun daha hafif işlerde çalıştırılır. Bu halde işçinin ücretinde bir indirim yapılmaz.\nİsteği halinde kadın işçiye, yirmidört haftalık sürenin tamamlanmasından veya çoğul gebelik halinde yirmialtı haftalık süreden sonra altı aya kadar ücretsiz izin verilir. (Ek cümle: 29/1/2016-6663/22 md.) Bu izin, üç yaşını doldurmamış çocuğu evlat edinme hâlinde eşlerden birine veya evlat edinene verilir. Bu süre, yıllık ücretli izin hakkının hesabında dikkate alınmaz.[25]\nKadın işçilere bir yaşından küçük çocuklarını emzirmeleri için günde toplam birbuçuk saat süt izni verilir. Bu sürenin hangi saatler arasında ve kaça bölünerek kulllanılacağını işçi kendisi belirler. Bu süre günlük çalışma süresinden sayılır.\n(Ek fıkra: 29/1/2016-6663/22 md.) Bu madde hükümleri iş sözleşmesi ile çalışan ve bu Kanunun kapsamında olan veya olmayan her türlü işçi için uygulanır.\n[24] 22/4/2026 tarihli ve 7578 sayılı Kanunun 15 inci maddesiyle birinci fıkranın birinci cümlesinde yer alan “doğumdan sonra sekiz” ibaresi “doğumdan sonra onaltı” şeklinde, “toplam onaltı” ibaresi “toplam yirmidört” şeklinde, üçüncü cümlesinde yer alan “üç” ibaresi “iki” şeklinde değiştirilmiştir.\n[25] 22/4/2026 tarihli ve 7578 sayılı Kanunun 15 inci maddesiyle bu fıkranın birinci cümlesinde yer alan “onaltı” ibaresi “yirmidört” şeklinde ve “onsekiz” ibaresi “yirmialtı” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "1475",
+   "article_no": "14",
+   "official_text": "Kıdem tazminatı:\nMadde 14 – (Değişik birinci fıkra: 29/7/1983 - 2869/3 md.) Bu Kanuna tabi işçilerin hizmet akitlerinin:\n1. İşveren tarafından bu Kanunun 17 nci maddesinin II numaralı bendinde gösterilen sebepler dışında,\n2. İşçi tarafından bu Kanunun 16 ncı maddesi uyarınca,\n3. Muvazzaf askerlik hizmeti dolayısıyle,\n4. Bağlı bulundukları kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulu kurum veya sandıklardan yaşlılık, emeklilik veya malullük aylığı yahut toptan ödeme almak amacıyla;[2]\n5. (Ek: 25/8/1999 - 4447/45 md.) 506 Sayılı Kanunun 60 ıncı maddesinin birinci fıkrasının (A) bendinin (a) ve (b) alt bentlerinde öngörülen yaşlar dışında kalan diğer şartları veya aynı Kanunun Geçici 81 inci maddesine göre yaşlılık aylığı bağlanması için öngörülen sigortalılık süresini ve prim ödeme gün sayısını tamamlayarak kendi istekleri ile işten ayrılmaları nedeniyle,\nFeshedilmesi veya kadının evlendiği tarihten itibaren bir yıl içerisinde kendi arzusu ile sona erdirmesi veya işçinin ölümü sebebiyle son bulması hallerinde işçinin işe başladığı tarihten itibaren hizmet aktinin devamı süresince her geçen tam yıl için işverence işçiye 30 günlük ücreti tutarında kıdem tazminatı ödenir. Bir yıldan artan süreler için de aynı oran üzerinden ödeme yapılır.\n(Değişik fıkralar: 17/10/1980 - 2320/1 md.):\nİşçilerin kıdemleri, hizmet akdinin devam etmiş veya fasılalarla yeniden akdedilmiş olmasına bakılmaksızın aynı işverenin bir veya değişik işyerlerinde çalıştıkları süreler gözönüne alınarak hesaplanır. İşyerlerinin devir veya intikali yahut herhangi bir suretle bir işverenden başka bir işverene geçmesi veya başka bir yere nakli halinde işçinin kıdemi, işyeri veya işyerlerindeki hizmet akitleri sürelerinin toplamı üzerinden hesaplanır. 12/7/1975 tarihinden, itibaren işyerinin devri veya herhangi bir suretle el değiştirmesi halinde işlemiş kıdem tazminatlarından her iki işveren sorumludur. Ancak, işyerini devreden işverenlerin bu sorumlulukları işçiyi çalıştırdıkları sürelerle ve devir esnasındaki işçinin aldığı ücret seviyesiyle sınırlıdır. 12/7/1975 tarihinden evvel işyeri devrolmuş veya herhangi bir suretle el değiştirmişse devir mukavelesinde aksine bir hüküm yoksa işlemiş kıdem tazminatlarından yeni işveren sorumludur.[3] [4]\nİşçinin birinci bendin 4 üncü fıkrası hükmünden faydalanabilmesi için aylık veya toptan ödemeye hak kazanmış bulunduğunu ve kendisine aylık bağlanması veya toptan ödeme yapılması için yaşlılık sigortası bakımından bağlı bulunduğu kuruma veya sandığa müracaat etmiş olduğunu belgelemesi şarttır. İşçinin ölümü halinde bu şart aranmaz.\nT.C. Emekli Sandığı Kanunu ve Sosyal Sigortalar Kanununa veya yalnız Sosyal Sigortalar Kanununa tabi olarak sadece aynı ya da değişik kamu kuruluşlarında geçen hizmet sürelerinin birleştirilmesi suretiyle Sosyal Sigortalar Kanununa göre yaşlılık veya malullük aylığına ya da toptan ödemeye hak kazanan işçiye, bu kamu kuruluşlarında geçirdiği hizmet sürelerinin toplamı üzerinden son kamu kuruluşu işverenince kıdem tazminatı ödenir.\nYukarıda belirtilen kamu kuruluşlarında işçinin hizmet akdinin evvelce bu maddeye göre kıdem tazminatı ödenmesini gerektirmeyecek şekilde sona ermesi suretiyle geçen hizmet süreleri kıdem tazminatının hesabında dikkate alınmaz.\nAncak, bu tazminatın T.C. Emekli Sandığına tabi olarak geçen hizmet süresine ait kısmı için ödenecek miktar, yaşlılık veya malullük aylığının başlangıç tarihinde T.C. Emekli Sandığı Kanununun yürürlükteki hükümlerine göre emeklilik ikramiyesi için öngörülen miktardan fazla olamaz.\nBu maddede geçen kamu kuruluşları deyimi, genel, katma ve özel bütçeli idareler ile 468 sayılı Kanunun 4 üncü maddesinde sayılan kurumları kapsar.\nAynı kıdem süresi için bir defadan fazla kıdem tazminatı veya ikramiye ödenmez.\nKıdem tazminatının hesaplanması, son ücret üzerinden yapılır. Parça başı, akort, götürü veya yüzde usulü gibi ücretin sabit olmadığı hallerde son bir yıllık süre içinde ödenen ücretin o süre içinde çalışılan günlere bölünmesi suretiyle bulunacak ortalama ücret bu tazminatın hesabına esas tutulur.\nAncak, son bir yıl içinde işçi ücretine zam yapıldığı takdirde, tazminata esas ücret, işçinin işten ayrılma tarihi ile zammın yapıldığı tarih arasında alınan ücretin aynı süre içinde çalışılan günlere bölünmesi suretiyle hesaplanır.\n(Değişik: 29/7/1983 – 2869/3 md.) 13 üncü maddesinde sözü geçen tazminat ile bu maddede yer alan kıdem tazminatına esas olacak ücretin hesabında 26 ncı maddenin birinci fıkrasında yazılı ücrete ilaveten işçiye sağlanmış olan para ve para ile ölçülmesi mümkün akdi ve kanundan doğan menfaatler de gözönünde tutulur. Kıdem tazminatının zamanında ödenmemesi sebebiyle açılacak davanın sonunda hakim gecikme süresi için, ödenmeyen süreye göre mevduata uygulanan en yüksek faizin ödenmesine hükmeder. İşçinin mevzuattan doğan diğer hakları saklıdır.[5]\n(Değişik: 17/10/1980 - 2320/1 md.) Bu maddede belirtilen kıdem tazminatı ile ilgili 30 günlük süre hizmet akidleri veya toplu iş sözleşmeleri ile işçi lehine değiştirilebilir.\n(Değişik: 10/12/1982 - 2762/1 md.) Ancak, toplu sözleşmelerle ve hizmet akitleriyle belirlenen kıdem tazminatlarının yıllık miktarı, Devlet Memurları Kanununa tabi en yüksek Devlet memuruna 5434 sayılı T.C. Emekli Sandığı Kanunu hükümlerine göre bir hizmet yılı için ödenecek azami emeklilik ikramiyesini geçemez.\n(Değişik fıkralar: 17/10/1980 - 2320/1 md.):\nİşçinin ölümü halinde yukarıdaki hükümlere göre doğan tazminat tutarı, kanuni mirasçılarına ödenir.\nKıdem tazminatından doğan sorumluluğu işveren şahıslara veya sigorta şirketlerine sigorta ettiremez.\nİşveren sorumluluğu altında ve sadece yaşlılık, emeklilik, malullük, ölüm ve toptan ödeme hallerine mahsus olmak kaydiyle Devlet veya kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulu kurumlarda veya % 50 hisseden fazlası Devlete ait bir bankada veya bir kurumda işveren tarafından kıdem tazminatı ile ilgili bir fon tesis edilir.[6]\nFon tesisi ile ilgili hususlar kanunla düzenlenir.\n[2] 2/7/2018 tarihli ve 700 sayılı KHK’nin 60 ıncı maddesiyle, bu bentte yer alan “kanunla” ibaresinden sonra gelmek üzere “veya Cumhurbaşkanlığı kararnamesiyle” ibaresi eklenmiştir.\n[5] 9/8/2002 tarihli ve 4773 sayılı Kanunla bu fıkrada bulunan “13 üncü maddenin (C) bendinde” ibaresi, “13 üncü maddesinde” olarak değiştirilmiştir.\n[6] 2/7/2018 tarihli ve 700 sayılı KHK’nin 60 ıncı maddesiyle, bu fıkrada yer alan “kanunla” ibaresinden sonra gelmek üzere “veya Cumhurbaşkanlığı kararnamesiyle” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1475&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [],
+ "mcq": [
+  {
+   "stem_md": "X Ltd. Şti., iş güvenliği hizmetini bir dış kuruluştan satın almıştır. Kuruluş makine korumasının eksik olduğunu yazılı bildirdiği hâlde işveren bir önlem almamış ve işçi yaralanmıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Sorumluluk yalnız işçiye aittir.",
+    "İşverenin sorumluluğu ancak işçi talep ederse doğar.",
+    "Hizmet dış kuruluştan alındığı için işverenin sorumluluğu ortadan kalkar.",
+    "Dış kuruluştan hizmet alınması işverenin sorumluluklarını ortadan kaldırmaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "6331 sayılı Kanun m. 4/2'ye göre işyeri dışındaki uzman kişi ve kuruluşlardan hizmet alınması işverenin sorumluluklarını ortadan kaldırmaz. Eksiklik işverene yazılı bildirildiği hâlde tedbir alınmaması işverenin aykırılığını daha da belirgin kılar."
+  },
+  {
+   "stem_md": "Bir işveren, kask ve iş ayakkabısı bedelini işçilerin ücretlerinden kesmektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Maliyetin yarısı işçiye yüklenebilir.",
+    "İşçi yazılı onay verirse her tedbirin maliyeti yansıtılabilir.",
+    "İşveren İSG tedbirlerinin maliyetini çalışanlara yansıtamaz.",
+    "Yalnızca kask bedeli yansıtılabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "6331 sayılı Kanun m. 4/4 açıktır: işveren iş sağlığı ve güvenliği tedbirlerinin maliyetini çalışanlara yansıtamaz. Kanun, işçi onayına göre bir istisna öngörmez."
+  },
+  {
+   "stem_md": "35 çalışanlı bir kimya atölyesinde havalandırma arızası nedeniyle ciddi ve yakın bir zehirli gaz tehlikesi doğmuştur. İşçi Ayşe, 6331 sayılı Kanun m. 13/1'e göre başvurusunu kime yöneltmelidir?",
+   "options": [
+    "İSG kuruluna; kurul yoksa başvuru yapılamaz",
+    "Yalnızca SGK il müdürlüğüne",
+    "İşyerinde kurul bulunmadığından işverene",
+    "Doğrudan iş mahkemesine"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Elli ve daha fazla çalışan şartı bulunmadığından kurul oluşturulması zorunlu değildir (6331 sayılı Kanun m. 22/1). Kurulun bulunmadığı işyerlerinde çalışan, durumun tespiti ve tedbirler için işverene başvurur (6331 sayılı Kanun m. 13/1)."
+  },
+  {
+   "stem_md": "Maden ocağında metan alarmı çalınca işçi Mehmet, işverene veya kurula başvurmadan ocağı terk ederek güvenli bölgeye gitmiştir. İşverenin \"usule uymadın\" diyerek hak kısıtlaması yapması mümkün müdür?",
+   "options": [
+    "Mümkün değildir; ciddi ve yakın tehlike önlenemiyorsa çalışan başvuru usulüne uymak zorunda olmaksızın güvenli yere gider ve hakları kısıtlanamaz.",
+    "Mümkündür; yalnız ücret kesilemez.",
+    "Mümkün değildir; ancak ocağı terk etme yetkisi yalnız kurula aittir.",
+    "Mümkündür; çünkü önce başvuru yapması zorunluydu."
+   ],
+   "correct_option": 0,
+   "explanation_md": "6331 sayılı Kanun m. 13/3, tehlikenin önlenemez olduğu hâllerde çalışanın birinci fıkradaki usule uymak zorunda olmaksızın işyerini veya tehlikeli bölgeyi terk ederek belirlenen güvenli yere gidebileceğini ve bu hareketi nedeniyle haklarının kısıtlanamayacağını söyler."
+  },
+  {
+   "stem_md": "İSG kurulunun oluşturulması için 6331 sayılı Kanun m. 22/1'e göre aşağıdaki ölçütlerden hangisi aranır?",
+   "options": [
+    "Yüz ve daha fazla çalışan ve en az bir yıllık faaliyet",
+    "Elli ve daha fazla çalışan ve altı aydan fazla süren sürekli iş",
+    "Her işyerinde çalışan sayısına bakılmaksızın",
+    "On ve daha fazla çalışan ve çok tehlikeli sınıf"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kurul, elli ve daha fazla çalışanın bulunduğu ve altı aydan fazla süren sürekli işlerin yapıldığı işyerlerinde kurulur (6331 sayılı Kanun m. 22/1). On çalışan ve çok tehlikeli sınıf ölçütü ise diğer sağlık personeli görevlendirmesine ilişkindir (6331 sayılı Kanun m. 6/1-a)."
+  },
+  {
+   "stem_md": "Diğer sağlık personelinin görevlendirilmesi zorunluluğu 6331 sayılı Kanun m. 6/1-a'ya göre hangi işyerleri için öngörülmüştür?",
+   "options": [
+    "Yalnızca kamu kurumları",
+    "Bütün işyerleri",
+    "Elli ve daha fazla çalışanı olan bütün işyerleri",
+    "On ve daha fazla çalışanı olan çok tehlikeli sınıftaki işyerleri"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Diğer sağlık personeli, on ve daha fazla çalışanı olan çok tehlikeli sınıftaki işyerlerinde görevlendirilir; tam süreli işyeri hekimi görevlendirilen işyerlerinde ise zorunlu değildir (6331 sayılı Kanun m. 6/1-a ve m. 6/3)."
+  },
+  {
+   "stem_md": "İşyeri hekimi Dr. Kaan, işverence giderilmeyen hayati bir tehlikeyi Bakanlığın yetkili birimine bildirmiştir. İşveren bu nedenle Dr. Kaan'ın iş sözleşmesini feshetmiştir. 6331 sayılı Kanun m. 8/2'ye göre sonuç nedir?",
+   "options": [
+    "Fesih geçerlidir; yalnızca kıdem tazminatı ödenir.",
+    "İşveren hakkında bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminata hükmedilir.",
+    "Dr. Kaan'ın belgesi askıya alınır.",
+    "İşverene yalnızca idari para cezası verilir; tazminat öngörülmemiştir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Bildirim nedeniyle işyeri hekimi veya iş güvenliği uzmanının iş sözleşmesine son verilemez; aksi hâlde işveren hakkında bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminata hükmedilir (6331 sayılı Kanun m. 8/2). Askı yaptırımı bildirimi yapmayan hekim ve uzmana uygulanır."
+  },
+  {
+   "stem_md": "Hangi hâlde aşağıdaki kaza, 5510 sayılı Kanun m. 13/1'e göre iş kazası sayılır?",
+   "options": [
+    "İşçinin yıllık izninde tatil yaparken geçirdiği kaza",
+    "İşçinin belediye otobüsüyle işe giderken yaşadığı kaza",
+    "İşçinin kendi arabasıyla işe gelirken yaptığı kaza",
+    "İşçinin işverence sağlanan servis aracıyla işe gidiş gelişi sırasındaki kaza"
+   ],
+   "correct_option": 3,
+   "explanation_md": "5510 sayılı Kanun m. 13/1-e, sigortalının işverence sağlanan bir taşıtla işin yapıldığı yere gidiş gelişi sırasında meydana gelen olayı iş kazası sayar. Kendi aracı, toplu taşıma veya izinde yaşanan kaza bu hükme girmez."
+  },
+  {
+   "stem_md": "Emziren kadın işçi Selin, süt izni saatinde evine yürürken kaldırımda düşerek yaralanmıştır. Olay hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "5510 sayılı Kanun m. 13/1-d gereği süt izni zamanında meydana geldiğinden iş kazasıdır.",
+    "Yalnızca işveren servis sağladıysa iş kazasıdır.",
+    "Süt izni için ayrılan zamanlarda yaşanan olay yalnız hastalık sayılır.",
+    "İşyeri dışında olduğu için hiçbir şekilde iş kazası sayılmaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "5510 sayılı Kanun m. 13/1-d, emziren kadın sigortalının iş mevzuatı gereğince çocuğuna süt vermek için ayrılan zamanlarda meydana gelen olayı iş kazası sayar. İş mevzuatındaki dayanak İK m. 74/7'dir."
+  },
+  {
+   "stem_md": "Bir iş kazası Salı günü meydana gelmiş ve işveren aynı gün durumu öğrenmiştir. Hafta içi tatil yoktur. İşverenin Kuruma bildirim süresi aşağıdakilerden hangisidir?",
+   "options": [
+    "Kazadan sonraki ilk 24 saat",
+    "Kazadan sonraki on gün",
+    "Bir ay içinde",
+    "Kazadan sonraki üç iş günü; kolluğa ise derhâl bildirir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "İş kazası, işveren tarafından o yer yetkili kolluk kuvvetlerine derhâl ve Kuruma en geç kazadan sonraki üç iş günü içinde bildirilir (5510 sayılı Kanun m. 13/2-a; 6331 sayılı Kanun m. 14/2-a). Salı günü olan kaza için son gün üç iş günü sonrası olan Cuma'dır."
+  },
+  {
+   "stem_md": "İşveren, meydana gelen bir iş kazasını Kuruma süresinde bildirmemiştir. 5510 sayılı Kanun m. 21/2'ye göre sonuç aşağıdakilerden hangisidir?",
+   "options": [
+    "Kurum, sigortalıya hiçbir ödeme yapmaz.",
+    "Bildirim tarihine kadar geçen süre için sigortalıya ödenecek geçici iş göremezlik ödeneği Kurumca işverenden tahsil edilir.",
+    "Yalnızca idari para cezası verilir; Kurumun rücu hakkı yoktur.",
+    "İşverenden bağlanan gelirin ilk peşin sermaye değerinin tamamı alınır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Süresinde bildirilmeyen iş kazasında bildirim tarihine kadar geçen süre için sigortalıya ödenecek geçici iş göremezlik ödeneği Kurumca işverenden tahsil edilir (5510 sayılı Kanun m. 21/2). Gelirin ilk peşin sermaye değerinin işverene ödettirilmesi ise 5510 sayılı Kanun m. 21/1'deki kast veya mevzuata aykırılık koşuluna bağlıdır."
+  },
+  {
+   "stem_md": "İş kazası üçüncü bir kişinin kusuruyla meydana gelmiştir. SGK'nın bu üçüncü kişiye rücuu 5510 sayılı Kanun m. 21/4'e göre hangi esasa dayanır?",
+   "options": [
+    "Yalnızca yapılan tedavi giderleri",
+    "Bağlanan gelirin ilk peşin sermaye değerinin tamamı",
+    "Rücu hakkı yoktur",
+    "Bağlanan gelirin ilk peşin sermaye değerinin yarısı"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kaza üçüncü bir kişinin kusuruyla meydana gelmişse, ödemeler ile bağlanan gelirin başladığı tarihteki ilk peşin sermaye değerinin yarısı zarara sebep olan üçüncü kişilere ve varsa bunları çalıştıranlara rücu edilir (5510 sayılı Kanun m. 21/4)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "35 işçi çalıştıran Y Kimya Atölyesinde (çok tehlikeli sınıfta değil) havalandırma sistemi arızalanmış, zehirli gaz birikimi tehlikesi doğmuştur. Çalışan Ali, işverene yazılı olarak durumu bildirmiş ve tedbir alınmasını istemiştir. İşveren aynı gün tutanak düzenleyerek Ali'nin talebi yönünde karar vermiş, ancak \"tamir yaklaşık bir ay sürer\" demiş ve herhangi bir tedbir almamıştır. Ali, kararın ardından çalışmaktan kaçınmıştır. İşveren, Ali'nin kaçındığı günler için ücret ödemeyeceğini söylemiştir. Bir ay sonra hâlâ tedbir alınmayınca Ali sözleşmesini feshetmiştir. Atölyenin işyeri hekimi Dr. Kaan, işverenin giderilmeyen hayati tehlikeyi Bakanlığın yetkili birimine bildirmiş, işveren bu nedenle Dr. Kaan'ın sözleşmesini feshetmiştir. Atölyeye hizmet veren dış İSG kuruluşu uyarı raporu vermiştir; işveren \"uzman kuruluş sorumlu\" demektedir.\n\n1. Ali'nin başvurusunu kime yapması gerekirdi ve kaçınma dönemindeki ücreti hakkında ne söylenebilir?\n2. Ali'nin feshi hukuki sonuç doğurur mu?\n3. Gaz kaçağı patlak vererek derhâl tahliye gerekseydi Ali başvuru yapmak zorunda kalır mıydı?\n4. Dr. Kaan'ın durumu ve işverenin yükümlülüğü nedir?\n5. İşverenin \"uzman kuruluş sorumlu\" savunması geçerli midir?",
+   "rubric": [
+    {
+     "point": "Elli çalışandan az olduğu için kurul bulunmaması, başvurunun işverene yapılması",
+     "weight": 15,
+     "madde_ref": "6331 sayılı Kanun m. 13"
+    },
+    {
+     "point": "Talep yönünde karar verilmesi hâlinde tedbir alınıncaya kadar çalışmaktan kaçınma ve ücretin saklı olması",
+     "weight": 20,
+     "madde_ref": "6331 sayılı Kanun m. 13"
+    },
+    {
+     "point": "Talebe rağmen tedbir alınmazsa iş sözleşmesinin haklı nedenle feshedilebilmesi (İK m. 24 hükümleri)",
+     "weight": 20,
+     "madde_ref": "6331 sayılı Kanun m. 13"
+    },
+    {
+     "point": "Önlenemez tehlikede başvuru şartı olmaksızın terk ve hakların kısıtlanamaması",
+     "weight": 15,
+     "madde_ref": "6331 sayılı Kanun m. 13"
+    },
+    {
+     "point": "İşyeri hekiminin bildirimi nedeniyle sözleşmesine son verilemeyeceği ve bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminat",
+     "weight": 20,
+     "madde_ref": "6331 sayılı Kanun m. 8"
+    },
+    {
+     "point": "Dış uzman hizmetinin işverenin sorumluluğunu kaldırmaması",
+     "weight": 10,
+     "madde_ref": "6331 sayılı Kanun m. 4"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, 6331 sayılı Kanundaki işverenin genel yükümlülüğü, çalışmaktan kaçınma hakkı ve işyeri hekiminin güvencesi sorunlarını birlikte içerir.\n\n**Hukuki sorunlar:** Başvurunun muhatabı; kaçınma dönemindeki ücret; fesih; önlenemez tehlike hâlinde usul; işyeri hekiminin güvencesi; dış uzman hizmeti ve işverenin sorumluluğu.\n\n**İlgili hükümler:** 6331 sayılı Kanun m. 13/1'e göre ciddi ve yakın tehlike karşısında çalışan kurula, kurul bulunmayan işyerlerinde işverene başvurur; işveren derhâl karar verir. Karar çalışanın talebi yönündeyse çalışan tedbirler alınıncaya kadar çalışmaktan kaçınabilir ve ücreti ile diğer hakları saklıdır (m. 13/2). Tehlike önlenemezse başvuru usulü aranmaz (m. 13/3). Talep etmeye rağmen tedbir alınmazsa çalışan tabi olduğu kanun hükümlerine göre sözleşmesini feshedebilir (m. 13/4). 6331 sayılı Kanun m. 22/1 kurul için elli çalışan ve altı aydan fazla sürekli iş arar. 6331 sayılı Kanun m. 8/2 işyeri hekimine güvence sağlar. 6331 sayılı Kanun m. 4/2 dış uzman hizmetinin işvereni sorumluluktan kurtarmadığını söyler.\n\n**Değerlendirme:** Atölyede 35 çalışan vardır; elli çalışan eşiği aşılmadığı için kurul oluşturma yükümlülüğü yoktur. Bu nedenle Ali'nin işverene başvurması doğrudur ve işveren de bunu kabul ederek talebi yönünde karar vermiştir. Karar talep yönünde olduğundan Ali tedbirler alınıncaya kadar çalışmaktan kaçınabilir; işverenin ücreti ödemeyeceği savı 6331 sayılı Kanun m. 13/2'ye aykırıdır, çünkü kaçınma dönemindeki ücret ve diğer haklar saklıdır. Tedbirin bir ay boyunca alınmaması hâlinde Ali'nin sözleşmesini feshetme hakkı doğar (m. 13/4); İş Kanunu kapsamındaki işçi için fesih, İK m. 24'teki haklı neden hükümlerine göre değerlendirilir. Kıdem tazminatının ayrıca 1475 sayılı Kanun m. 14 şartlarını sağlaması gerekir (örneğin bir yıllık kıdem). Gaz kaçağı patlak verip tehlike önlenemez hâle gelseydi, Ali başvuru usulüne uymak zorunda olmaksızın işyerini terk edebilir ve bu nedenle hakları kısıtlanamazdı (m. 13/3). Dr. Kaan'ın bildirimi 6331 sayılı Kanun m. 8/2'nin öngördüğü görevin gereğidir; bu bildirim nedeniyle iş sözleşmesine son verilemez ve verilirse işveren hakkında bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminata hükmedilir. İşverenin dış kuruluşun sorumlu olduğu savı, 6331 sayılı Kanun m. 4/2 nedeniyle geçersizdir; dış hizmet alınması işverenin sorumluluğunu ortadan kaldırmaz.\n\n**Sonuç:** Ali'nin kaçınma dönemindeki ücreti saklıdır; tedbirin alınmaması nedeniyle yaptığı fesih haklı nedene dayandırılabilir. Dr. Kaan'ın sözleşmesine son verilmesi hukuka aykırıdır ve işveren en az bir yıllık sözleşme ücreti tutarında tazminata mahkûm edilebilir. Dış uzman kuruluşun bulunması işvereni sorumluluktan kurtarmaz."
+  },
+  {
+   "stem_md": "Kadın işçi Kübra, 10.3.2026 Salı günü, çocuğu bir yaşını doldurmadığı için kullandığı süt izni sırasında evine yürürken kaldırımdaki bir bisikletlinin (Ü) çarpması sonucu düşerek kolunu kırmış, 20 gün istirahat raporu almıştır. İşveren olayı aynı gün öğrenmiş, \"işyeri dışında olduğu için bizi ilgilendirmez\" diyerek kolluğa ve SGK'ya bildirim yapmamıştır. SGK'ya bildirim ancak 25.3.2026 tarihinde yapılmıştır. İşverenin işyerinde, kazanın oluşuna etki eden hiçbir iş güvenliği mevzuatı ihlali tespit edilmemiştir. Bisikletlinin kusuru kaza raporunda tespit edilmiştir.\n\n1. Olay sosyal güvenlik hukuku bakımından iş kazası mıdır?\n2. İşverenin bildirim yükümlülüğü ve süresi nedir? Süresinde bildirilmemesinin sonucu nedir?\n3. Kübra'ya istirahat raporu süresince hangi ödenek ödenir?\n4. SGK, işverene 5510 sayılı Kanun m. 21/1 uyarınca rücu edebilir mi?\n5. SGK'nın bisikletliye karşı rücu hakkı var mıdır?",
+   "rubric": [
+    {
+     "point": "Emziren kadının süt izni zamanında meydana gelen olayın iş kazası sayılması",
+     "weight": 20,
+     "madde_ref": "5510 sayılı Kanun m. 13"
+    },
+    {
+     "point": "Kolluğa derhâl, Kuruma üç iş günü içinde bildirim yükümlülüğü ve sürenin 13.3.2026'da dolması",
+     "weight": 20,
+     "madde_ref": "5510 sayılı Kanun m. 13"
+    },
+    {
+     "point": "Geç bildirimde bildirim tarihine kadarki geçici iş göremezlik ödeneğinin işverenden tahsili",
+     "weight": 20,
+     "madde_ref": "5510 sayılı Kanun m. 21"
+    },
+    {
+     "point": "İş kazası nedeniyle istirahat raporu süresince geçici iş göremezlik ödeneği",
+     "weight": 10,
+     "madde_ref": "5510 sayılı Kanun m. 18"
+    },
+    {
+     "point": "Kast veya mevzuata aykırılık bulunmadığından 5510 sayılı Kanun m. 21/1 rücuunun gündeme gelmemesi",
+     "weight": 15,
+     "madde_ref": "5510 sayılı Kanun m. 21"
+    },
+    {
+     "point": "Üçüncü kişiye ilk peşin sermaye değerinin yarısı esasıyla rücu",
+     "weight": 15,
+     "madde_ref": "5510 sayılı Kanun m. 21"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, sosyal güvenlik hukukunda iş kazası kavramı, bildirim süresi ve işverenin ile üçüncü kişinin Kuruma karşı sorumluluğuna ilişkindir.\n\n**Hukuki sorunlar:** İş kazası niteliği; bildirim süresi ve yaptırımı; ödenek; işverene ve üçüncü kişiye rücu.\n\n**İlgili hükümler:** 5510 sayılı Kanun m. 13/1-d, emziren kadın sigortalının iş mevzuatı gereğince çocuğuna süt vermek için ayrılan zamanlarda meydana gelen olayı iş kazası sayar. Aynı maddenin ikinci fıkrasının a bendi, kolluğa derhâl ve Kuruma en geç kazadan sonraki üç iş günü içinde bildirimi arar. 5510 sayılı Kanun m. 18/1-a iş kazası nedeniyle iş göremezliğe uğrayan sigortalıya istirahat raporu şartıyla geçici iş göremezlik ödeneği öngörür. 5510 sayılı Kanun m. 21/1, kast veya iş güvenliği mevzuatına aykırı hareketi; 5510 sayılı Kanun m. 21/2 geç bildirimi; 5510 sayılı Kanun m. 21/4 üçüncü kişiye rücuu düzenler.\n\n**Değerlendirme:** Kübra'nın kazası, süt izni için ayrılan zamanda gerçekleştiğinden, işyeri dışında olsa bile iş kazasıdır (5510 sayılı Kanun m. 13/1-d); işverenin \"işyeri dışı\" savı bu bent karşısında dayanaksızdır. İşveren olayı aynı gün öğrendiği için bildirim yükümlülüğü derhâl kolluğa ve en geç üç iş günü içinde Kuruma bildirim şeklinde doğmuştur; son gün 13.3.2026'dır. Bildirim 25.3.2026'da yapıldığından süre aşılmıştır. 5510 sayılı Kanun m. 21/2 gereği bildirim tarihine kadar geçen süre için Kübra'ya ödenecek geçici iş göremezlik ödeneği Kurumca işverenden tahsil edilir. Kübra, istirahat raporu süresince 5510 sayılı Kanun m. 18/1-a uyarınca geçici iş göremezlik ödeneği alır. İşverenin iş güvenliği mevzuatına aykırı bir hareketi veya kastı bulunmadığından 5510 sayılı Kanun m. 21/1'deki ilk peşin sermaye değeri rücuu için koşul gerçekleşmemiştir; işverenin sorumluluğu geç bildirim yaptırımıyla sınırlıdır. Kaza üçüncü kişinin kusuruyla meydana geldiğinden, Kurumun yaptığı veya ileride yapması gereken ödemeler ile bağlanan gelirin ilk peşin sermaye değerinin yarısı üçüncü kişiye rücu edilebilir (5510 sayılı Kanun m. 21/4). Rücu yalnız gelir bağlanmasına bağlı değildir; Kübra'ya ödenen geçici iş göremezlik ödeneği gibi ödemeler de bu fıkranın kapsamındadır. Kırık nedeniyle ayrıca sürekli iş göremezlik geliri bağlanırsa (meslekte kazanma gücünün en az yüzde 10 azalması gerekir: 5510 sayılı Kanun m. 19/1) gelirin ilk peşin sermaye değeri de rücu hesabına girer.\n\n**Sonuç:** Kaza iş kazasıdır. İşveren bildirim yükümlülüğünü geciktirdiği için bildirim tarihine kadarki ödeneği Kuruma ödemekle karşı karşıyadır. Kuruma karşı kusur sorumluluğuna dayalı rücu 5510 sayılı Kanun m. 21/1 uyarınca yoktur; üçüncü kişiye ise Kurumun ödemeleri ve gelir bağlanırsa ilk peşin sermaye değeri bakımından 5510 sayılı Kanun m. 21/4'teki yarı esasıyla rücu edilebilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "İşverenin genel İSG yükümlülüğü hangi maddede ve neleri kapsar?",
+   "back_md": "6331 sayılı Kanun m. 4: önleme, eğitim ve bilgi, araç gereç, izleme-denetim, risk değerlendirmesi, işe uygunluk, hayati tehlikeli yerlere giriş kontrolü."
+  },
+  {
+   "front_md": "İSG hizmetini dışarıdan almak işvereni sorumluluktan kurtarır mı?",
+   "back_md": "Hayır. İşyeri dışındaki uzman kişi ve kuruluşlardan hizmet alınması işverenin sorumluluklarını ortadan kaldırmaz (6331 sayılı Kanun m. 4/2)."
+  },
+  {
+   "front_md": "İSG tedbirlerinin maliyeti kime aittir?",
+   "back_md": "İşverene. Maliyet çalışanlara yansıtılamaz (6331 sayılı Kanun m. 4/4)."
+  },
+  {
+   "front_md": "İSG kurulu hangi işyerlerinde kurulur?",
+   "back_md": "Elli ve daha fazla çalışanı olan ve altı aydan fazla süren sürekli işlerin yapıldığı işyerlerinde (6331 sayılı Kanun m. 22/1)."
+  },
+  {
+   "front_md": "Diğer sağlık personeli kimlerde zorunludur?",
+   "back_md": "On ve daha fazla çalışanı olan çok tehlikeli sınıftaki işyerlerinde; tam süreli işyeri hekimi varsa zorunlu değildir (6331 sayılı Kanun m. 6/1-a, m. 6/3)."
+  },
+  {
+   "front_md": "Çalışmaktan kaçınma hakkının basamakları?",
+   "back_md": "Kurula (yoksa işverene) başvuru → talep yönünde karar → tedbir alınana kadar kaçınma, ücret saklı; önlenemez tehlikede başvurusuz terk; tedbir alınmazsa fesih (6331 sayılı Kanun m. 13)."
+  },
+  {
+   "front_md": "Tehlike bildirimi nedeniyle işten çıkarılan işyeri hekimine ne olur?",
+   "back_md": "Sözleşmesine son verilemez; verilirse işveren hakkında bir yıllık sözleşme ücreti tutarından az olmamak üzere tazminata hükmedilir (6331 sayılı Kanun m. 8/2)."
+  },
+  {
+   "front_md": "İş kazasının 5510 sayılı Kanun m. 13/1'deki beş hâli?",
+   "back_md": "İşyerinde bulunma; yürütülen iş nedeniyle; görevle işyeri dışına gönderilme; emziren kadının süt izni zamanı; işverence sağlanan taşıtla gidiş geliş."
+  },
+  {
+   "front_md": "İş kazası bildirim süreleri?",
+   "back_md": "Kolluğa derhâl; Kuruma en geç kazadan sonraki üç iş günü (5510 sayılı Kanun m. 13/2). Geç bildirimde geçici iş göremezlik ödeneği işverenden tahsil edilir (5510 sayılı Kanun m. 21/2)."
+  },
+  {
+   "front_md": "Sürekli iş göremezlik geliri için eşik nedir?",
+   "back_md": "Meslekte kazanma gücünde en az yüzde 10 azalma (5510 sayılı Kanun m. 19/1)."
+  },
+  {
+   "front_md": "SGK rücuunda işveren ile üçüncü kişi farkı?",
+   "back_md": "İşverene: ilk peşin sermaye değeri, kast veya mevzuata aykırılık şartıyla ve sorumluluk sınırlarıyla (5510 sayılı Kanun m. 21/1). Üçüncü kişiye: ilk peşin sermaye değerinin yarısı (5510 sayılı Kanun m. 21/4)."
+  },
+  {
+   "front_md": "İşçi işverenden iş kazası tazminatını hangi hükümle ister ve zamanaşımı?",
+   "back_md": "TBK m. 417/3: sözleşmeye aykırılık hükümleri; kusursuzluğu işveren ispatlar (TBK m. 112); genel zamanaşımı on yıl (TBK m. 146)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

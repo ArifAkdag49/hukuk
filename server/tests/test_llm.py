@@ -242,3 +242,18 @@ async def test_hub_reconnects_once_when_ictihat_session_died(monkeypatch):
     monkeypatch.setattr(hub, "restart", fake_restart)
     text, is_error = await hub.call("ictihat_ara", {"ifade": "x"})
     assert not is_error and restarts == [1]
+
+
+def test_trailing_heading_of_next_article_is_dropped():
+    html = (
+        "<p>Madde 25- Davacı, hâkimden saldırı tehlikesinin önlenmesini isteyebilir.</p>"
+        "<p>Davacı, kendi yerleşim yeri mahkemesinde dava açabilir.</p>"
+        "<p>III. Ad üzerindeki hak</p>"
+    )
+    text = mevzuat.html_to_text(html)
+    assert text.endswith("dava açabilir.")
+
+
+def test_leading_own_heading_is_kept():
+    text = mevzuat.html_to_text("<p>a. Ölüm</p><p>MADDE 53- Ölüm hâlinde uğranılan zararlar özellikle şunlardır:</p><p>1. Cenaze giderleri.</p>")
+    assert text.startswith("a. Ölüm") and text.endswith("1. Cenaze giderleri.")

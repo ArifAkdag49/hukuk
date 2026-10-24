@@ -1,0 +1,817 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kira Sözleşmesi",
+ "topic_index": 6,
+ "slug": "urun-kirasi",
+ "title": "Ürün Kirası: Tarafların Borçları, Sona Erme ve Hayvan Kirası",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:31:52.989379+00:00",
+ "skill_refs": [
+  "kira-hukuku/kira-temel-kavramlar-ve-sistem"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Ürün veren bir tarla, bağ, işletme ya da hak kiralandığında adi kira kuralları yetmez; çünkü kiracı yalnız kullanmaz, aynı zamanda **işletir ve ürünü devşirir**. Bu özel kira türü TBK m. 357-378'de düzenlenir.\n\n- **Tanım (TBK m. 357/1):** Kiraya veren, ürün veren bir **şeyin veya hakkın** kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında kiracıya bırakır. Kira bedeli ürünün belli bir oranı olarak kararlaştırılmışsa **ürüne katılmalı kira** vardır; oran yoksa yerel âdete bakılır (TBK m. 357/2).\n- **Genel hükümler:** Özel hüküm yoksa kira genel hükümleri uygulanır (TBK m. 358). Sözleşme araç, gereç, hayvan ya da stok içeriyorsa taraflar değerleri birlikte takdir edip **iki nüsha tutanak** düzenler (TBK m. 359).\n- **Kiraya verenin borçları:** Kiralananı, birlikte kiralanan taşınırlarla birlikte, kullanıma ve işletmeye elverişli teslim etmek ve süre boyunca bu durumda bulundurmak (TBK m. 360); zorunlu **esaslı onarımları** kiracı bildirir bildirmez kendi gideriyle yapmak (TBK m. 361).\n- **Kiracının borçları:** Bedeli ve yan giderleri her kira yılının ve en geç kira süresinin sonunda ödemek (TBK m. 362/1); kiralananı amacına uygun ve iyi biçimde **işletmek** (TBK m. 364); bakımı sağlamak, yerel âdete göre **küçük onarımları** yapmak (TBK m. 365); kiraya verenin rızası olmadan alt kira vermemek ve işletme hakkını devretmemek (TBK m. 366).\n- 📌 **Temerrüt süresi:** Ürün kirasında yazılı ihtarla verilecek ödeme önelinin alt sınırı **altmış gündür** (TBK m. 362/2). Adi kirada on gün, konut ve çatılı işyerinde otuz gündür (TBK m. 315/2).\n- **Tarımsal taşınmazda indirim:** Olağanüstü felaket veya doğal olay verimi önemli ölçüde düşürürse kiracı orantılı indirim ister (TBK m. 363/1). Önceden feragat ancak ihtimal bedelde gözetilmişse ya da zarar sigortalıysa geçerlidir (TBK m. 363/2).\n- **Sona erme:** Belirli süreli kira süre bitince sona erer; örtülü sürdürmede **birer yıl için yenilenmiş sayılır** (TBK m. 367). Belirsiz süreli kirada fesih için **en az altı ay** bildirim süresi gerekir (TBK m. 368/1). Önemli sebep varsa yasal süreye uyularak her zaman fesih yapılır (TBK m. 369). Kiracının **iflasında** sözleşme kendiliğinden sona erer; ancak işlemekte olan kira ve tutanaktaki eşya için yeterli güvence verilirse kiraya veren sözleşmeyi kira yılı sonuna kadar sürdürmek zorundadır (TBK m. 370); **ölümünde** mirasçılar ve kiraya veren altı aylık süreyle fesih yapabilir (TBK m. 371).\n- **Tasfiye:** Kiracı tutanaktaki eşyayı geri verir; kaçınılabilir değer eksikliğini öder (TBK m. 372-373). Tarımsal taşınmazda sona erme anında devşirilmemiş ürün üzerinde hak ileri süremez, yalnız **tarım giderlerinin** hâkimce belirlenen kısmını tazminat olarak ister (TBK m. 374). Son yılın saman, kuru ot ve gübresi bırakılır (TBK m. 375).\n- **Hayvan kirası (TBK m. 376-378):** Tarımsal taşınmaz kirasından bağımsız **geviş getiren hayvanlarda** aksi yoksa bütün ürünler kiracınındır. Kiracı, zararın özenli korumaya rağmen doğduğunu ispatlamadıkça sorumludur. Belirsiz süreli sözleşme uygun olmayan zamanda olmamak şartıyla dilediği zaman feshedilir.\n- 📌 **Yargıtay ölçütü:** Çatılı bir işyerinin yalnız demirbaşlarla ya da cirodan payla kiralanması onu ürün kirası yapmaz; yerleşik içtihat kiralananın işletme ruhsatıyla birlikte işletme hakkıyla devredilmesini arar.\n- 📌 **Yakın tarih:** TBK m. 357-378 son yıllarda değişmemiştir. Kira ilişkisinden doğan davalarda (ilamsız icra yoluyla tahliye hariç) dava şartı olarak arabuluculuk vardır (HUAK m. 18/B).",
+  "content_md": "## 0. Konunun haritası\n\nTBK'da üç kira rejimi yan yana durur: **adi kira** (TBK m. 299-338), **konut ve çatılı işyeri kirası** (TBK m. 339-356) ve bu konunun malı **ürün kirası** (TBK m. 357-378). Hayvan kirası da ürün kirası ayırımının son hükümlerinde yer alır. Olay sorusunda ilk iş, kira ilişkisinin hangi rejime girdiğini bulmaktır; çünkü süreler, fesih ve temerrüt kuralları rejimden rejime değişir.\n\nÖnce üç rejimde en çok sorulan sayıyı karşılaştıralım:\n\n| Kira türü | Temerrütte en az ödeme önceli | Madde |\n|---|---|---|\n| Adi kira | 10 gün | TBK m. 315/2 |\n| Konut ve çatılı işyeri | 30 gün | TBK m. 315/2 |\n| Ürün kirası | 60 gün | TBK m. 362/2 |\n\n> 💡 **Püf nokta:** 10 - 30 - 60 sırasıyla adi kira, konut ve çatılı işyeri, ürün kirasıdır. Rakamı ezberlemeden önce sözleşmenin hangi rejime girdiğini yaz.\n\n## 1. Tanım ve konu (TBK m. 357)\n\n**Ürün kirası**, kiraya verenin, ürün veren bir şeyin veya hakkın kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında kiracıya bırakmayı üstlendiği sözleşmedir (TBK m. 357/1). Adi kiradan fark üç noktada toplanır:\n- **Konu daha geniştir.** Adi kirada kullanılan şey vardır; burada \"şey veya hak\" vardır ve ikisinin de **ürün vermesi** aranır. Bir tarla, bağ, bahçe, sürü ya da gelir getiren bir hak örnek verilebilir.\n- **Kiracı yalnız kullanmaz, ürünleri devşirir.** Adi kirada da kullanmayla birlikte yararlanma bırakılabilir (TBK m. 299); ürün kirasında ise ürünlerin devşirilmesi sözleşmenin unsurudur ve işletme yükümlülüğü kiracıya aittir (TBK m. 364).\n- **Kira bedeli ürüne bağlanabilir.** Bedel ürünün belli bir oranı olarak kararlaştırılırsa **ürüne katılmalı kira** vardır; oran sözleşmede yoksa yerel âdete göre belirlenir (TBK m. 357/2).\n\n> **Örnek:** Ali, zeytinliğini Zeynep'e kiralar ve kira bedeli olarak elde edilecek zeytinyağının üçte birini ister. Bedel ürünün belli oranıdır; bu, ürüne katılmalı kiradır. Taraflar \"üçte bir\" demeseydi oran yerel âdete göre bulunurdu.\n\n> **Örnek:** Mehmet, bir arazideki tarım alanını yıllık 300.000 TL sabit bedelle Ayşe'ye kiralar. Bedel ürüne bağlı değildir, ama arazi ürün verir ve Ayşe ürünü devşirir. Bu da ürün kirasıdır; ürüne katılmalı olmak ürün kirası için şart değildir, yalnız onun bir türüdür.\n\n### 1.1 İşyeri kiralarında sınır: Yargıtay'ın işletme ruhsatı ölçütü\nPratikte en çok tartışılan soru şudur: Otel, restoran ya da AVM mağazası gibi **çatılı işyerleri** ürün kirasına girer mi? Yargıtay'ın yerleşik yaklaşımına göre kiralananın tüm demirbaşlarıyla kiralanması ya da kira bedelinin **cirodan pay** olarak belirlenmesi tek başına sözleşmeyi ürün kirası yapmaz. Ürün kirası hükümlerinin uygulanması için kiralananın **işletme ve çalışma ruhsatıyla birlikte işletme hakkıyla** kiracıya devredilmiş olması gerekir. İşyeri açma ve çalışma ruhsatı kiracı adına düzenlenmişse sözleşme konut ve çatılı işyeri kirasına (TBK m. 339 ve devamı) tabi kabul edilir.\n\nBu ölçüt kanunda yazılı değildir; içtihatla getirilmiştir. Bu yüzden tartışmalıdır (bkz. doktrin bölümü). Buna karşılık tarla, bağ ve bahçe kiraları ürün kirasının tipik örnekleridir; Yargıtay 12. Hukuk Dairesi de öğretiye dayanarak taksi kiralarını ürün kirası örnekleri arasında anar.\n\n> ⚠️ **Sınavda dikkat:** \"Cirodan pay\" ya da \"demirbaşlarla kiralama\" ifadesini görünce otomatik \"ürün kirası\" yazma. Sözleşmenin nitelendirilmesi temerrüt süresini (60 gün mü, 30 gün mü) ve süre sonunda tahliye edilip edilemeyeceğini değiştirir.\n\n## 2. Genel hükümler ve tutanak (TBK m. 358-359)\n\nÜrün kirasında özel hüküm yoksa kira sözleşmesinin **genel hükümleri** uygulanır (TBK m. 358). Yani ayıp, zapt, kiracının özen borcu gibi konularda adi kira kuralları geçerlidir; yalnız ürün kirasına özgü hükümler önceliklidir.\n\nÜrün kirasının kendine özgü bir önlemi **tutanaktır**. Kira sözleşmesi araç ve gereçleri, hayvanları, devredilen eşyayı ya da stoklanmış malları da içeriyorsa taraflar bunların değerlerini birlikte takdir edip **iki nüsha** tutanağa geçirir ve imzalayarak birbirlerine verir (TBK m. 359). Bu tutanak, kira bitince kiracının neyi, hangi değerle geri vereceğinin ölçüsünü verir (TBK m. 373).\n\n> **Örnek:** Ali, bağını iki traktör, sulama pompası ve bir depo malzemesiyle Zeynep'e kiralar. Taraflar her kalemi değerleyip iki nüsha liste imzalar. Kira bitince Zeynep'in neyi iade edeceği bu listeye göre belirlenir.\n\n## 3. Kiraya verenin borçları (TBK m. 360-361)\n\n1. **Teslim ve elverişli bulundurma (TBK m. 360).** Kiraya veren, birlikte kiralanan taşınırlar dahil kiralananı sözleşmenin amacına uygun biçimde **kullanılmaya ve işletilmeye elverişli** durumda teslim eder ve süre boyunca bu durumda bulundurur. Bu, kullanıma elverişlilik borcunun işletmeyi de kapsayan biçimidir.\n2. **Esaslı onarım (TBK m. 361).** Kira süresi içinde yapılması zorunlu olan esaslı onarımları kiraya veren, kiracı bildirir bildirmez, **gideri kendisine ait olmak üzere** yapar.\n\n> **Örnek:** Çiftlikteki sulama kuyusu çöker. Kuyunun yenilenmesi esaslı onarımdır; Zeynep bildirir bildirmez Ali kendi parasıyla yapmak zorundadır. Kırılan kürek ve çapanın yenilenmesi ise düşük değerli araç sayılır ve kiracıya aittir (TBK m. 365/2).\n\n## 4. Kiracının borçları\n\n### 4.1 Kira bedeli ve temerrüt (TBK m. 362)\nSözleşmede aksine hüküm ya da yerel âdet yoksa kiracı, bedeli ve yan giderleri **her kira yılının ve en geç kira süresinin sonunda** öder (TBK m. 362/1). Karşılaştırma: adi kirada bedel her ayın sonunda ödenir (TBK m. 314).\n\nKiracı, kiralananın tesliminden sonra vadesi gelmiş bedeli ya da yan gideri ödemezse kiraya veren, kiracıya **yazılı olarak en az altmış günlük** bir önel verip bu sürede ödenmemesi hâlinde sözleşmeyi feshedeceğini bildirebilir (TBK m. 362/2). Yargıtay, ilamsız icra yoluyla tahliye takibinde de ödeme emrinde verilecek sürenin kira türüne göre değiştiğini kabul eder: konut ve çatılı işyerinde en az otuz gün, ürün kiralarında en az altmış gün, diğer kiralarda en az on gün.\n\n> **Örnek:** Ali ile Zeynep arasındaki tarla kirasında bedel yıllık 300.000 TL'dir ve sözleşmede aksi yazılı değildir. Bedel kira yılının sonunda muaccel olur. Zeynep ödemezse Ali \"30 gün içinde ödemezseniz sözleşmeyi feshederim\" diye yazsa, süre ürün kirası için yetersiz kalır; en az altmış gün gerekir.\n\n> ⚠️ **Sınavda dikkat:** Süre sayısı rejime bağlıdır. İhtarda 30 gün yazması konut kirasında yeterli, ürün kirasında yetersizdir. Önce sözleşmeyi nitelendir, sonra süreyi say.\n\n### 4.2 Olağanüstü durumlarda bedelden indirim (TBK m. 363)\nTarımsal bir taşınmazın her zamanki verimi **olağanüstü felaket veya doğal olaylar** yüzünden önemli ölçüde azalırsa kiracı, kira bedelinden orantılı bir miktarın indirilmesini isteyebilir (TBK m. 363/1). Dikkat edilecek üç nokta var:\n- Hüküm yalnız **tarımsal taşınmazlar** için konmuştur.\n- Verim düşüklüğü **olağanüstü bir felaket ya da doğal olaydan** kaynaklanmalı ve **önemli ölçüde** olmalıdır.\n- Bu haktan **başlangıçta feragat** edilebilir; ancak feragat, kira bedeli belirlenirken bu gibi olayların meydana gelme ihtimali **göz önünde tutulmuşsa** veya doğan zarar bir **sigortayla karşılanmışsa** geçerlidir (TBK m. 363/2).\n\nTarımsal olmayan ürün kiralarında ya da kalıcı ekonomik değişimlerde TBK m. 363 uygulanmaz; bu hâllerde tarafların öngöremediği olağanüstü durumlar için sözleşmenin uyarlanmasını düzenleyen genel hüküm (TBK m. 138) gündeme gelebilir. İki hükmün ilişkisi doktrin bölümünde ele alınmıştır.\n\n> **Örnek:** Ali, narenciye bahçesini Zeynep'e üç yıllığına kiralamıştır. İlk yıl olağanüstü bir don verimi büyük oranda düşürür. Sözleşmede \"kiracı indirim isteyemez\" yazılı olsa bile bedel belirlenirken don ihtimali gözetilmemiş ve sigorta da yoksa bu feragat geçersizdir; Zeynep orantılı indirim isteyebilir.\n\n### 4.3 İşletme borcu (TBK m. 364)\nÜrün kirasında kiracı yalnız kullanma hakkına sahip değildir, aynı zamanda bir **işletme yükümlülüğü** taşır: Kiralananı özgülendiği amaca uygun ve iyi biçimde işletir; özellikle onu ürün vermeye elverişli durumda bulundurur (TBK m. 364/1). Kiraya verenin izni olmadan işletme usulünü, kira süresi bittikten sonra etkisi görülebilecek biçimde değiştiremez (TBK m. 364/2).\n\n> **Örnek:** Zeynep, kiraladığı zeytinliği hiç budamaz ve sulamaz. Bu, işletme borcunun ihlalidir. Zeynep ayrıca, Ali'nin izni olmadan zeytin ağaçlarını söküp yerine başka tür ağaç dikerse işletme usulünü kira bittikten sonra da etkisi sürecek şekilde değiştirmiş olur.\n\n### 4.4 Bakım ve küçük onarım (TBK m. 365)\nKiracı kiralananın **bakımını** gereği gibi sağlar. Ayrıca yerel âdete uygun olarak **küçük onarımları** yapar; bozulan veya kullanılmayla yok olan **düşük değerli araç ve gereçlerin** yerine yenilerini koyar (TBK m. 365). Ayrım ölçütü: zorunlu **esaslı** onarım kiraya verenin (TBK m. 361), küçük onarım ve düşük değerli gereç yenileme kiracının borcudur.\n\n### 4.5 Alt kira ve işletme hakkının devri (TBK m. 366)\nKiracı, **kiraya verenin rızası olmadan** kiralananı başkasına kiraya veremez, kullanım ve işletme hakkını da devredemez (TBK m. 366/1). İki yan nokta:\n- Kiracı, kiralananda bulunan **bazı yerleri**, kiraya veren için zarar doğuracak bir değişiklik gerektirmemek şartıyla kiraya verebilir.\n- Bu sözleşmelere alt kira kuralları kıyas yoluyla uygulanır (TBK m. 366/2).\n\nAdi kirada alt kira, kiraya verene zarar vermemek şartıyla serbesttir (TBK m. 322/1); konut ve çatılı işyerinde ise kiraya verenin yazılı rızası gerekir (TBK m. 322/2). Ürün kirasında rıza kural, bazı yerlerin zarar vermeyecek biçimde kiralanması ise istisnadır.\n\n> **Örnek:** Zeynep, kiraladığı çiftliğin tamamını Kemal'e devretmek isterse Ali'nin rızası gerekir. Öte yandan çiftlik girişindeki küçük bir köşeyi, Ali'ye zarar vermeyecek biçimde pazar tezgâhı olarak üçüncü kişiye kiralaması mümkündür.\n\n## 5. Sözleşmenin sona ermesi\n\n### 5.1 Sürenin geçmesi ve yenileme (TBK m. 367)\nBelirli süreli ürün kirası, sürenin bitiminde kendiliğinden sona erer (TBK m. 367/1). Taraflar sürenin bitiminden sonra sözleşmeyi **örtülü olarak** sürdürürse, aksi kararlaştırılmadıkça sözleşme **birer yıl için yenilenmiş sayılır** (TBK m. 367/2). Yenilenen sözleşme, yasal bildirim süresine uyularak her kira yılının sonu için feshedilebilir (TBK m. 367/3).\n\nBurada üç rejimin örtülü sürdürme sonucunu karıştırmayın:\n- **Adi kira:** Sözleşme **belirsiz süreli** hâle gelir (TBK m. 327/2).\n- **Konut ve çatılı işyeri:** Kiracı sürenin bitiminden en az on beş gün önce bildirimde bulunmazsa sözleşme bir yıl uzar; kiraya veren süre bitimine dayanarak sözleşmeyi sona erdiremez, ancak on yıllık uzama süresi sonunda her uzama yılının bitiminden en az üç ay önce bildirimle sebep göstermeden sona erdirebilir (TBK m. 347/1).\n- **Ürün kirası:** Birer yıl için yenilenir ve yasal süreye uyularak her kira yılının sonu için fesih yapılabilir (TBK m. 367/2-3).\n\n### 5.2 Belirsiz süreli sözleşmede fesih (TBK m. 368)\nBelirsiz süreli ürün kirasında fesih bildirim süresi sözleşme veya yerel âdetle belirlenmemişse **en az altı aylık** bildirim süresine uyularak taraflardan her biri sözleşmeyi feshedebilir (TBK m. 368/1). Aksine anlaşma yoksa tarımsal taşınmazlara ilişkin ürün kiralarında yerel âdetçe uygulanan **bahar veya güz mevsimleri** için, diğer ürün kiralarında herhangi bir zaman için fesih bildirimi yapılabilir (TBK m. 368/2).\n\nAdi kiradaki belirsiz süreli fesih kuralıyla karşılaştırın: taşınmazlarda üç aylık bildirim süresiyle kira döneminin sonu için (TBK m. 329), taşınırlarda üç gün önceden bildirimle her zaman (TBK m. 330) fesih yapılır.\n\n### 5.3 Önemli sebepler (TBK m. 369)\nTaraflardan biri, kira ilişkisinin devamını kendisi için **çekilmez** hâle getiren önemli sebeplerin varlığında sözleşmeyi yasal fesih bildirim süresine uyarak **her zaman** feshedebilir. Olağanüstü fesihin parasal sonuçlarını hâkim durum ve koşulları göz önünde tutarak belirler (TBK m. 369).\n\n### 5.4 Kiracının iflası (TBK m. 370)\nÜrün kirasının en ayırt edici sona erme sebebi budur: Kiracının iflası hâlinde sözleşme, **iflasın açıldığı anda kendiliğinden sona erer** (TBK m. 370). Kiraya veren, **işlemekte olan kira ve tutanağa geçirilen eşya için yeterli güvence** verilirse sözleşmeyi kira yılının sonuna kadar sürdürmek zorundadır.\n\nAdi kirada durum farklıdır: Kiracı iflas ederse kiraya veren güvence ister; güvence verilmezse bildirim süresine uymadan hemen fesih yapabilir (TBK m. 332). Yani sözleşme kendiliğinden sona ermez.\n\n> ⚠️ **Sınavda dikkat:** \"İflas = otomatik sona erme\" yalnız ürün kirasındadır; yeterli güvence verilirse sözleşme kira yılı sonuna kadar sürer (TBK m. 370). Adi kirada ise güvence verilmezse fesih hakkı doğar (TBK m. 332).\n\n### 5.5 Kiracının ölümü (TBK m. 371)\nKiracı ölürse mirasçıları ve kiraya veren, **altı aylık yasal fesih bildirim sürelerine** uymak şartıyla sözleşmeyi feshedebilir (TBK m. 371). Sözleşme ölümle kendiliğinden bitmez; fesih hakkı iki yana tanınır.\n\n## 6. Sona ermenin sonuçları (TBK m. 372-375)\n\nKira bitince tasfiye şu kurallarla yapılır:\n1. **Geri verme ve değer eksikliği (TBK m. 372).** Kiracı kiralananı tutanağa geçirilmiş eşyalarla ve bulundukları durumda geri verir. İyi işletilme durumunda **kaçınılabilecek değer eksikliklerini** tazmin eder. Gösterilmesi gereken özen çerçevesinde oluşan **değer artışları** için tazminat isteyemez.\n2. **Değerlenmiş eşya (TBK m. 373).** Teslim edilirken tutanağa geçirilip değer biçilen eşyayı kiracı **özdeş tür ve değerde** geri verir ya da değer eksikliğini giderir. Kiraya verenin kusurunu veya mücbir sebebi ispat ederse bu yükümlülükten kurtulur. Kendi **masraf veya emeğinden doğan değer artışı** için tazminat isteyebilir.\n3. **Devşirilmemiş ürün (TBK m. 374).** Tarımsal taşınmazın kiracısı, sözleşmenin sona erdiği anda henüz devşirilmemiş ürünler üzerinde **hak ileri süremez**. Ancak ürünün yetişmesi için yaptığı **tarım giderlerinin** hâkimce belirlenecek miktarını kiraya verenden tazminat olarak isteyebilir; bu tazminat işlemiş kiralardan indirilir.\n4. **Saman, kuru ot ve gübre (TBK m. 375).** Kiracı düzenli bir işletmenin gerektirdiği oranda son yılın saman, hayvan yatağı, kuru ot ve gübresini bırakır. Aldığından fazlasını bırakırsa fazlalık için tazminat ister; aldığından azını bırakırsa eksiği tamamlar veya değer eksikliğini giderir.\n\n> **Örnek:** Kira, ürün henüz toplanmamışken iflasla sona erer. Kiracı Zeynep, tarlada duran ürünü toplayamaz; \"ürün benimdi\" diyemez. Ama ürünü yetiştirmek için harcadığı 150.000 TL'lik tarım giderinin hâkimin belirleyeceği kısmını Ali'den tazminat olarak isteyebilir ve bu tutar işlemiş kiralardan indirilir.\n\n> ⚠️ **Sınavda dikkat:** Devşirilmemiş ürün **kiracıya kalmaz**; kiracı yalnız yetiştirme **giderini** ister, ürünün değerini değil.\n\n## 7. Hayvan kirası (TBK m. 376-378)\n\nHayvan kirasına ilişkin bu özel kurallar şu durumda uygulanır: **tarımsal bir taşınmazın kirasıyla bağlantılı olmayan geviş getiren hayvanlar** kiralanır. Hayvanlar tarla kirasıyla birlikte verilmişse tutanak ve ürün kirasının genel kuralları işler.\n\n- **Ürünler kiracının olur (TBK m. 376/1).** Aksine anlaşma veya yerel âdet yoksa kiralanan hayvanların kira süresi içindeki bütün ürünleri kiracınındır. Karşılığında kiracı hayvanları besler, onlara iyi bakar ve kiraya verene **para veya hayvanlardan elde ettiği ürünün belli bir payını** öder (TBK m. 376/2).\n- **Kiracının sorumluluğu (TBK m. 377).** Aksine anlaşma veya yerel âdet yoksa kiracı, hayvanların uğradığı zarardan, zararın **korumada dikkat ve özen gösterildiği hâlde** meydana geldiğini ispat etmedikçe sorumludur. Yani ispat yükü kiracıdadır. Kusuruyla sebebiyet vermediği olağanüstü koruma giderleri için kiraya verenden tazminat ister. Önemli kazaları ve hastalıkları **gecikmeksizin** kiraya verene bildirmek zorundadır.\n- **Fesih (TBK m. 378).** Aksine anlaşma veya yerel âdet yoksa belirsiz süreli sözleşmeyi her taraf **dilediği zaman** feshedebilir. Ancak fesih, dürüstlük kurallarına aykırı ve uygun olmayan bir zamanda yapılamaz.\n\n> **Örnek:** Ali, tarımsal arazisi olmayan Zeynep'e 20 sağmal ineğini süresiz kiralar. Zeynep her ay belli bir tutar öder. İneklerin sütü ve doğacak buzağılar aksi yoksa Zeynep'indir (TBK m. 376/1). İneklerden biri ölürse Zeynep, özenli koruma altında bile bu sonucun doğacağını ispat etmedikçe sorumludur (TBK m. 377/1). Ali ineklerin hepsini uygun olmayan bir zamanda geri isterse bu fesih engellenebilir (TBK m. 378/2).\n\n> ⚠️ **Sınavda dikkat:** Belirsiz süreli ürün kirasında en az altı ay (TBK m. 368/1), hayvan kirasında ise dilediği zaman fesih (TBK m. 378) kuralı vardır. İkisini karıştırma.\n\n## 8. Uyuşmazlıkta usul notu\n\nKira ilişkisinden doğan uyuşmazlıklarda, kiralanan taşınmazların ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, dava açılmadan önce arabulucuya başvurulmuş olması **dava şartıdır** (HUAK m. 18/B). Kanun ürün kirasını ayrıca saymaz; \"kira ilişkisinden kaynaklanan uyuşmazlık\" ifadesi onu da kapsar.\n\n## 9. Denetim şeması\n\nOlay sorusunda sırayla şunları sor:\n1. **Nitelendirme:** Ürün veren bir şey ya da hak mı, kiracı ürünleri devşiriyor mu? İşyeriyse ruhsatla birlikte işletme hakkı devredilmiş mi?\n2. **Vade ve temerrüt:** Bedel yıl sonunda mı ödenir? İhtar yazılı mı, süre en az altmış gün mü? (TBK m. 362)\n3. **Borç ihlali:** İşletme, bakım, alt kira, işletme usulünün değiştirilmesi (TBK m. 364-366).\n4. **Kiraya verenin borçları:** Elverişli teslim, esaslı onarım (TBK m. 360-361). Felaketle verim düşmüşse TBK m. 363.\n5. **Sona erme sebebi:** Süre, örtülü yenileme, belirsiz süreli fesih, önemli sebep, iflas, ölüm (TBK m. 367-371).\n6. **Tasfiye:** Eşya, değer eksikliği, devşirilmemiş ürün ve tarım gideri (TBK m. 372-375).\n7. **Hayvan kirası mı?** Öyleyse TBK m. 376-378'in özel kuralları.",
+  "critical_md": "- 📌 Ürün kirasının konusu **ürün veren bir şey veya haktır**; kiracı kullanmanın yanında ürünleri devşirir (TBK m. 357/1). Adi kirada böyle bir ürün devşirme unsuru aranmaz.\n- 📌 **Ürüne katılmalı kira:** Bedel devşirilecek ürünün belli bir oranıdır; oran sözleşmede yoksa **yerel âdete** göre belirlenir (TBK m. 357/2).\n- 📌 Özel hüküm yoksa kira genel hükümleri uygulanır (TBK m. 358). Araç, gereç, hayvan veya stok varsa değerler birlikte takdir edilip **iki nüsha tutanak** düzenlenir (TBK m. 359).\n- ⚠️ **Esaslı onarım kiraya verenin** (TBK m. 361), **küçük onarım ve düşük değerli gereç yenileme kiracının** borcudur (TBK m. 365/2).\n- 📌 Bedel ve yan giderler aksi yoksa **her kira yılının ve en geç kira süresinin sonunda** ödenir (TBK m. 362/1). Adi kirada vade ay sonudur (TBK m. 314).\n- 📌 Temerrütte yazılı ihtarla verilecek önel **en az altmış gündür** (TBK m. 362/2). Karşılaştırma: adi kirada 10 gün, konut ve çatılı işyerinde 30 gün (TBK m. 315/2).\n- 📌 TBK m. 363: Yalnız **tarımsal taşınmazda**, olağanüstü felaket veya doğal olay yüzünden verim önemli ölçüde düşerse **orantılı indirim** istenir. Önceden feragat ancak ihtimal bedelde gözetilmişse ya da zarar sigortalıysa geçerlidir.\n- ⚠️ Kiracı kiraya verenin **rızası olmadan** alt kira veremez ve işletme hakkını devredemez; ancak **bazı yerleri** zarar doğurmayacak biçimde kiraya verebilir (TBK m. 366).\n- 📌 **Örtülü sürdürme:** Ürün kirasında sözleşme **birer yıl için yenilenir** (TBK m. 367/2). Adi kirada belirsiz süreliye dönüşür (TBK m. 327/2); konut ve çatılı işyerinde bir yıl uzar (TBK m. 347/1).\n- 📌 Belirsiz süreli ürün kirasında fesih bildirim süresi **en az altı aydır** (TBK m. 368/1). Hayvan kirasında dilediği zaman fesih mümkündür (TBK m. 378).\n- ⚠️ **Kiracının iflası** ürün kirasında sözleşmeyi iflasın açıldığı anda kendiliğinden sona erdirir; yeterli güvence verilirse kiraya veren sözleşmeyi kira yılı sonuna kadar sürdürmek zorundadır (TBK m. 370). Adi kirada yalnız güvence verilmezse fesih hakkı doğar (TBK m. 332).\n- 📌 **Kiracının ölümü:** Mirasçılar ve kiraya veren altı aylık yasal süreyle fesih yapabilir (TBK m. 371).\n- ⚠️ Devşirilmemiş ürün kiracıya kalmaz; kiracı yalnız **tarım giderlerinin** hâkimce belirlenen kısmını tazminat olarak ister (TBK m. 374).\n- 📌 **Hayvan kirası** yalnız tarımsal taşınmaz kirasıyla bağlantısız **geviş getiren hayvanlar** içindir; ürünler aksi yoksa kiracınındır (TBK m. 376/1). Kiracı zararın özenle koruma altında da doğacağını ispat etmedikçe sorumludur (TBK m. 377/1).\n- 📌 Yargıtay çatılı işyerinin demirbaşlarla veya cirodan payla kiralanmasını tek başına ürün kirası saymaz; **işletme ruhsatıyla birlikte işletme hakkının devrini** arar.",
+  "doctrine_md": "### Çatılı işyerinin kiralanması ürün kirası sayılır mı?\nKanun, ürün kirasını \"ürün veren bir şey veya hak\" diye tanımlar (TBK m. 357/1). Otel, restoran, fabrika ya da mağaza gibi işyerlerinin bu tanıma girip girmediği tartışmalıdır.\n\n- **Yargıtay'ın yerleşik tutumu:** Kiralananın demirbaşlarla kiralanması veya kira bedelinin cirodan pay olması yetmez. Ürün kirasından söz edebilmek için kiralananın **işletme ve çalışma ruhsatıyla birlikte** devredilmesi gerekir. İşletme ruhsatı kiracıya devredilmemiş ve kiracı kendi adına yeni ruhsat almışsa kiralanan \"işletme\" değil, taşınmaz ve demirbaşlardır; sözleşme konut ve çatılı işyeri kirasına (TBK m. 339 ve devamı) tabi olur. Yargıtay bu ölçütün kanunda yazılı olmadığını, içtihatla getirildiğini ve her olayın özelliğine göre değerlendirilmesi gerektiğini belirtir.\n- **Karşı görüş:** Müşteri çevresi, tesisatı ve organizasyonuyla gelir getirmeye hazır bir işletmenin kiralanması ürün kirası için yeterlidir. İşyeri açma ruhsatının sonradan kiracı adına çıkarılması, sözleşmeyi çatılı işyeri kirasına dönüştürmemelidir.\n\nPratik önemi büyüktür: Ürün kirası sayılırsa temerrütte altmış günlük önel gerekir (TBK m. 362/2) ve belirli süreli sözleşme süre bitiminde kendiliğinden sona erer (TBK m. 367/1). Çatılı işyeri kirası sayılırsa önel otuz gündür (TBK m. 315/2) ve kiraya veren on yıllık uzama süresi dolmadıkça süre bitimine dayanarak sözleşmeyi sona erdiremez (TBK m. 347/1). Sınavda ruhsat bilgisi verilmişse Yargıtay yaklaşımını gerekçesiyle yaz; verilmemişse ruhsat durumunun araştırılması gerektiğini belirt.\n\n### TBK m. 363 ile sözleşmenin uyarlanması (TBK m. 138)\nTarımsal taşınmazda o yıla özgü bir doğal afet verimi düşürdüğünde TBK m. 363 **özel hüküm** olarak uygulanır. Tarımsal olmayan ürün kiralarında (örneğin işletme kirası) veya kalıcı ekonomik altüst oluşlarda ise sözleşmenin yeni koşullara uyarlanmasını düzenleyen genel hükme (TBK m. 138) başvurulabileceği ileri sürülür. İkinci hükmün şartları daha ağırdır: sözleşme yapılırken öngörülmeyen ve öngörülmesi beklenmeyen olağanüstü bir durum, borçludan kaynaklanmayan bir sebeple ortaya çıkmalı ve ifayı dürüstlük kurallarına aykırı düşecek ölçüde borçlu aleyhine değiştirmelidir. Bu nedenle tarımsal olmayan kirada indirim isteyen kiracı, TBK m. 363'ün kolay şartlarına değil TBK m. 138'in şartlarına dayanmak zorundadır.",
+  "glossary": [
+   {
+    "term": "Ürün kirası (hasılat kirası)",
+    "definition": "Kiraya verenin, ürün veren bir şeyin veya hakkın kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında kiracıya bıraktığı sözleşme (TBK m. 357/1)."
+   },
+   {
+    "term": "Ürüne katılmalı kira",
+    "definition": "Kira bedelinin devşirilecek ürünün belli bir oranı olarak kararlaştırıldığı ürün kirası. Oran yoksa yerel âdete bakılır (TBK m. 357/2)."
+   },
+   {
+    "term": "Devşirme",
+    "definition": "Kiralanandan elde edilen ürünlerin toplanıp alınması. Ürün kirasında kiracının hakkıdır."
+   },
+   {
+    "term": "Tutanak",
+    "definition": "Araç, gereç, hayvan, devredilen eşya veya stok varsa değerleri birlikte takdir edilerek iki nüsha düzenlenen ve imzalanan liste (TBK m. 359)."
+   },
+   {
+    "term": "Esaslı onarım",
+    "definition": "Kira süresi içinde yapılması zorunlu olan büyük onarım. Gideri kiraya verene aittir (TBK m. 361)."
+   },
+   {
+    "term": "Küçük onarım",
+    "definition": "Yerel âdete göre kiracıya düşen ufak bakım ve onarımlar ile düşük değerli araç ve gereçlerin yenilenmesi (TBK m. 365/2)."
+   },
+   {
+    "term": "Yerel âdet",
+    "definition": "Kanunun açıkça atıf yaptığı yerde sözleşmede hüküm yokken uygulanan, o yerde süregelen uygulama (örneğin ürün payı oranı, bahar veya güz fesih dönemi)."
+   },
+   {
+    "term": "İşletme borcu",
+    "definition": "Ürün kiracısının kiralananı amacına uygun, iyi ve ürün vermeye elverişli biçimde işletme yükümlülüğü (TBK m. 364)."
+   },
+   {
+    "term": "Tarım gideri",
+    "definition": "Kiracının ürünün yetişmesi için yaptığı masraf. Devşirilmemiş ürün için tazminat olarak istenebilir (TBK m. 374)."
+   },
+   {
+    "term": "Alt kira",
+    "definition": "Kiracının kiralananı üçüncü kişiye kiraya vermesi. Ürün kirasında kiraya verenin rızası olmadan yapılamaz (TBK m. 366)."
+   },
+   {
+    "term": "Geviş getiren hayvan",
+    "definition": "Yuttuğu yemi tekrar ağzına getirip çiğneyen hayvanlar (sığır, koyun, keçi gibi). Hayvan kirası hükümleri bunlar için konmuştur (TBK m. 376)."
+   },
+   {
+    "term": "Örtülü sürdürme",
+    "definition": "Süre bittikten sonra tarafların açık bir anlaşma olmadan ilişkiyi sürdürmesi. Ürün kirasında sonuç birer yıllık yenilenmedir (TBK m. 367/2)."
+   },
+   {
+    "term": "Hayvan kirası",
+    "definition": "Tarımsal taşınmaz kirasından bağımsız geviş getiren hayvanların kiralanması. Ürünler aksi yoksa kiracınındır (TBK m. 376-378)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "357",
+   "official_text": "MADDE 357- Ürün kirası kiraya verenin, kiracıya, ürün veren bir şeyin veya hakkın kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında bırakmayı üstlendiği sözleşmedir.\nÜrüne katılmalı kira, kira bedelinin devşirilecek ürünün belli bir oranı olarak kararlaştırıldığı ürün kirasıdır. Bu oran sözleşmeyle kararlaştırılmamışsa, yerel âdete göre belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "358",
+   "official_text": "MADDE 358- Bu ayırımda ürün kirasına ilişkin özel hüküm bulunmadıkça, kira sözleşmesine ilişkin genel hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "359",
+   "official_text": "MADDE 359- Kira sözleşmesi, araç ve gereçleri, hayvanları, devredilen eşyayı veya stoklanmış malları da içeriyorsa taraflar, bunların değerlerini birlikte takdir ederek iki nüsha düzenleyecekleri tutanağa geçirip imzalayarak, birbirlerine vermekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "360",
+   "official_text": "MADDE 360- Kiraya veren, birlikte kiralanmış taşınır şeyler varsa bunlar da içinde olmak üzere, kiralananı, sözleşmenin amacına uygun biçimde kullanılmaya ve işletilmeye elverişli bir durumda kiracıya teslim etmek ve sözleşme süresince bu durumda bulundurmakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "361",
+   "official_text": "MADDE 361- Kiraya veren, kira süresi içinde yapılması zorunlu olan esaslı onarımları, kiracı tarafından bildirilir bildirilmez, gideri kendisine ait olmak üzere yapmakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "362",
+   "official_text": "MADDE 362- Kiracı, sözleşmede aksine bir hüküm veya yerel âdet olmadıkça, kira bedelini ve yan giderleri her kira yılının ve en geç kira süresinin sonunda ödemekle yükümlüdür.\nKiracı, kiralananın tesliminden sonra vadesi gelmiş kira bedelini veya yan giderleri ödemezse kiraya veren, kiracıya yazılı olarak en az altmış günlük bir önel verip, bu önel içinde ödememesi durumunda sözleşmeyi feshedeceğini bildirebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "363",
+   "official_text": "MADDE 363- Tarımsal bir taşınmazın her zamanki verimi, olağanüstü felaket veya doğal olaylar yüzünden önemli ölçüde azalırsa kiracı, kira bedelinden orantılı bir miktarın indirilmesini isteyebilir.\nBu haktan başlangıçta feragat, ancak kira bedelinin belirlenmesi sırasında bu gibi durumların meydana gelmesi olasılığı göz önünde tutulmuş veya doğan zarar bir sigorta ile karşılanmış ise, geçerli olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "364",
+   "official_text": "MADDE 364- Kiracı, kiralananı özgülendiği amaca uygun ve iyi bir biçimde işletmekle, özellikle ürün vermeye elverişli bir durumda bulundurmakla yükümlüdür.\nKiracı, kiraya verenin izni olmaksızın, kiralananın işletme usulünü, kira süresinin bitiminden sonra etkisi görülebilecek biçimde değiştiremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "365",
+   "official_text": "MADDE 365- Kiracı, kiralananın bakımını gereği gibi sağlamakla yükümlüdür.\nKiracı, yerel âdete uygun olarak küçük onarımları yapmak, bozulan veya kullanılmayla yok olan düşük değerli araç ve gereçlerin yerine yenilerini koymak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "366",
+   "official_text": "MADDE 366- Kiracı, kiraya verenin rızası olmaksızın kiralananı başkasına kiraya veremeyeceği gibi, kullanım ve işletme hakkını da başkasına devredemez. Ancak kiracı, kiralananda bulunan bazı yerleri, kiraya veren için zarar doğuracak bir değişikliği gerektirmemek koşuluyla kiraya verebilir.\nKiracının, başkasıyla yaptığı bu kira sözleşmelerine, alt kiraya ilişkin kurallar, kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "367",
+   "official_text": "MADDE 367- Belirli süreli kira sözleşmesi, sürenin bitiminde kendiliğinden sona erer.\nAncak, tarafların örtülü olarak sözleşmeyi sürdürmeleri hâlinde, aksi kararlaştırılmadıkça, kira sözleşmesi birer yıl için yenilenmiş sayılır.\nYenilenen kira sözleşmesi yasal bildirim süresine uyularak, her kira yılının sonu için feshedilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "368",
+   "official_text": "MADDE 368- Belirsiz süreli sözleşmede, fesih bildirim süresi sözleşme veya yerel âdetle belirlenmemişse, en az altı aylık bir bildirim süresine uyulmak koşuluyla, taraflardan her biri sözleşmeyi feshedebilir.\nAksine bir anlaşma yoksa, tarımsal taşınmazlara ilişkin ürün kiralarında yerel âdetçe uygulanan bahar veya güz mevsimleri için; diğer ürün kiralarında ise herhangi bir zaman için fesih bildirimi yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "369",
+   "official_text": "a. Önemli sebepler\nMADDE 369- Taraflardan biri, kira ilişkisinin devamını kendisi için çekilmez hâle getiren önemli sebeplerin varlığı durumunda, sözleşmeyi yasal fesih bildirim süresine uyarak her zaman feshedebilir.\nHâkim, durum ve koşulları göz önünde tutarak, olağanüstü fesih bildiriminin parasal sonuçlarını karara bağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "370",
+   "official_text": "MADDE 370- Kiracının iflası hâlinde sözleşme, iflasın açıldığı anda, kendiliğinden sona erer. Ancak, kiraya veren, işlemekte olan kira ve tutanağa geçirilen eşya için yeterli güvence verildiği takdirde, sözleşmeyi kira yılının sonuna kadar sürdürmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "371",
+   "official_text": "MADDE 371- Kiracının ölümü hâlinde, onun mirasçıları ve kiraya veren, altı aylık yasal fesih bildirim sürelerine uymak koşuluyla, sözleşmeyi feshedebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "372",
+   "official_text": "MADDE 372- Kira süresinin bitiminde kiracı, kiralananı, tutanağa geçirilmiş olan bütün eşyalarla birlikte ve bulundukları durumda geri vermekle yükümlüdür.\nKiracı, iyi işletilme durumunda kaçınılabilecek olan değer eksiklikleri için tazminat ödemekle yükümlüdür.\nKiracı, kiralanana göstermekle yükümlü olduğu özen çerçevesinde meydana gelen değer artışları için tazminat isteyemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "373",
+   "official_text": "MADDE 373- Kiralanan teslim edilirken tutanağa geçirilmiş olan eşyalara değer biçilmişse kiracı, kira sözleşmesi sona erince, bunları özdeş tür ve değerde olmak üzere geri vermekle veya değer eksikliklerini gidermekle yükümlüdür.\nKiracı, kiraya verenin kusurunu ya da mücbir sebebin varlığını ispat ederek geri vermekten veya tazminat ödemekten kurtulabilir.\nKiracı, kendisinin yaptığı masraflardan veya emeğinden doğan değer artışı için tazminat isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "374",
+   "official_text": "MADDE 374- Tarımsal bir taşınmazın kiracısı, kira sözleşmesinin sona erdiği anda henüz devşirilmemiş ürünler üzerinde bir hak ileri süremez.\nAncak kiracı, ürünün yetişmesi için yapmış olduğu tarım giderlerinin hâkim tarafından belirlenecek miktarını, kiraya verenden tazminat olarak isteyebilir ve bu tazminat işlemiş kiralardan indirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "375",
+   "official_text": "MADDE 375- Kiralananı geri veren kiracı, düzenli bir işletmenin gerektirdiği oranda, son yılın samanlarını, hayvan yataklarını, kuru ot ve gübrelerini kiralananda bırakmakla yükümlüdür.\nKiracı, almış olduğundan daha fazlasını bırakıyorsa, bıraktığı fazlalık için tazminat isteme hakkına sahiptir; aldığından daha az bırakıyorsa, eksikleri tamamlamak veya değer eksikliğini gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "376",
+   "official_text": "MADDE 376- Tarımsal bir taşınmazın kirasıyla bağlantılı olmayan geviş getirici hayvanların kirasında, aksine anlaşma veya yerel âdet yoksa, kiralanan hayvanların kira süresi içindeki bütün ürünleri kiracının olur.\nKiracı, kiralanan hayvanları beslemek, onlara iyi bakmak ve kiraya verene para veya hayvanlardan elde ettiği ürünün belli bir payını ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "377",
+   "official_text": "MADDE 377- Aksine anlaşma veya yerel âdet yoksa kiracı, kiralanan hayvanların uğradığı bir zarardan, bu zararın, korumada dikkat ve özen gösterildiği hâlde meydana gelmiş olduğunu ispat etmedikçe sorumludur.\nKiracı, kendi kusuruyla sebebiyet vermediği olağanüstü koruma giderleri için kiraya verenden tazminat isteyebilir.\nKiracı, önemli kazaları ya da hastalıkları gecikmeksizin kiraya verene bildirmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "378",
+   "official_text": "MADDE 378- Aksine anlaşma veya yerel âdet yoksa, belirsiz bir süre için yapılan sözleşmeyi, taraflardan her biri, dilediği zaman feshedebilir.\nAncak, fesih dürüstlük kurallarına aykırı ve uygun olmayan bir zamanda yapılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "299",
+   "official_text": "MADDE 299- Kira sözleşmesi, kiraya verenin bir şeyin kullanılmasını veya kullanmayla birlikte ondan yararlanılmasını kiracıya bırakmayı, kiracının da buna karşılık kararlaştırılan kira bedelini ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "314",
+   "official_text": "MADDE 314- Kiracı, aksine sözleşme ve yerel âdet olmadıkça, kira bedelini ve gerekiyorsa yan giderleri, her ayın sonunda ve en geç kira süresinin bitiminde ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "315",
+   "official_text": "MADDE 315- Kiracı, kiralananın tesliminden sonra muaccel olan kira bedelini veya yan gideri ödeme borcunu ifa etmezse, kiraya veren kiracıya yazılı olarak bir süre verip, bu sürede de ifa etmeme durumunda, sözleşmeyi feshedeceğini bildirebilir.\nKiracıya verilecek süre en az on gün, konut ve çatılı işyeri kiralarında ise en az otuz gündür. Bu süre, kiracıya yazılı bildirimin yapıldığı tarihi izleyen günden itibaren işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "322",
+   "official_text": "MADDE 322- Kiracı, kiraya verene zarar verecek bir değişikliğe yol açmamak koşuluyla, kiralananı tamamen veya kısmen başkasına kiraya verebileceği gibi, kullanım hakkını da başkasına devredebilir.\nKiracı, konut ve çatılı işyeri kiralarında, kiraya verenin yazılı rızası olmadıkça, kiralananı başkasına kiralayamayacağı gibi, kullanım hakkını da devredemez.\nAlt kiracı, kiralananı kiracıya tanınandan başka biçimde kullandığı takdirde kiracı, kiraya verene karşı sorumlu olur. Bu durumda kiraya veren, kiracısına karşı sahip olduğu hakları alt kiracıya veya kullanım hakkını devralana karşı da kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "327",
+   "official_text": "MADDE 327- Açık veya örtülü biçimde bir süre belirlenmişse, kira sözleşmesi bu sürenin sonunda kendiliğinden sona erer.\nTaraflar, bu durumda, açık bir anlaşma olmaksızın kira ilişkisini sürdürürlerse, kira sözleşmesi belirsiz süreli sözleşmeye dönüşür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "329",
+   "official_text": "MADDE 329- Taraflardan her biri, bir taşınmaza veya taşınır bir yapıya ilişkin kira sözleşmesini yerel âdette belirlenen kira döneminin sonu için veya böyle bir âdetin bulunmaması durumunda, altı aylık kira döneminin sonu için, üç aylık fesih bildirim süresine uyarak feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "330",
+   "official_text": "MADDE 330- Taraflardan her biri, bir taşınıra ilişkin kira sözleşmesini üç gün önceden yapılacak fesih bildirim süresine uyarak her zaman feshedebilir.\nKiraya verenin meslekî faaliyeti gereği kiraya verdiği ve kiracının da özel kullanımına yarayan taşınır bir malın kiracısı, kira sözleşmesini, üç aylık kira dönemi sonu için en az bir ay önceden yapacağı bir fesih bildirimiyle sona erdirebilir. Bu durumda kiraya verenin, zararının giderilmesini isteme hakkı yoktur.\n[2] Bu madde 1/7/2012 tarihinden itibaren 8 yıl süreyle uygulanmaz. Bu halde, kira sözleşmelerinde bu maddelerde belirtilmiş olan konulara ilişkin olarak sözleşme serbestisi gereği kira sözleşmesi hükümleri tatbik olunur. Kira sözleşmelerinde hüküm olmayan hallerde mülga Borçlar Kanunu hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "332",
+   "official_text": "MADDE 332- Kiracı, kiralananın tesliminden sonra iflas ederse kiraya veren, işleyecek kira bedelleri için güvence verilmesini isteyebilir.\nKiraya veren, güvence verilmesi için kiracı ve iflas masasına yazılı olarak uygun bir süre verir. Bu süre içinde kendisine güvence verilmezse kiraya veren, sözleşmeyi herhangi bir fesih bildirim süresine uymaksızın hemen feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "339",
+   "official_text": "MADDE 339- Konut ve çatılı işyeri kiralarına ilişkin hükümler, bunlarla birlikte kullanımı kiracıya bırakılan eşya hakkında da uygulanır. Ancak bu hükümler, niteliği gereği geçici kullanıma özgülenmiş taşınmazların altı ay ve daha kısa süreyle kiralanmalarında uygulanmaz.\nKamu kurum ve kuruluşlarının, hangi usul ve esaslar içinde olursa olsun yaptıkları bütün kira sözleşmelerine de bu hükümler uygulanır.\n[2] Bu madde 1/7/2012 tarihinden itibaren 8 yıl süreyle uygulanmaz. Bu halde, kira sözleşmelerinde bu maddelerde belirtilmiş olan konulara ilişkin olarak sözleşme serbestisi gereği kira sözleşmesi hükümleri tatbik olunur. Kira sözleşmelerinde hüküm olmayan hallerde mülga Borçlar Kanunu hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "347",
+   "official_text": "MADDE 347- Konut ve çatılı işyeri kiralarında kiracı, belirli süreli sözleşmelerin süresinin bitiminden en az onbeş gün önce bildirimde bulunmadıkça, sözleşme aynı koşullarla bir yıl için uzatılmış sayılır. Kiraya veren, sözleşme süresinin bitimine dayanarak sözleşmeyi sona erdiremez. Ancak, on yıllık uzama süresi sonunda kiraya veren, bu süreyi izleyen her uzama yılının bitiminden en az üç ay önce bildirimde bulunmak koşuluyla, herhangi bir sebep göstermeksizin sözleşmeye son verebilir.\nBelirsiz süreli kira sözleşmelerinde, kiracı her zaman, kiraya veren ise kiranın başlangıcından on yıl geçtikten sonra, genel hükümlere göre fesih bildirimiyle sözleşmeyi sona erdirebilirler.\nGenel hükümlere göre fesih hakkının kullanılabileceği durumlarda, kiraya veren veya kiracı sözleşmeyi sona erdirebilir.\n2. Bildirimin geçerliliği",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "338",
+   "official_text": "MADDE 338- Kiracı, taşınmak veya kiralananda bulunan taşınırları başka bir yere taşımak istediği takdirde, kiraya veren, alacağını güvence altına almasını sağlayacak miktardaki taşınırı, sulh hâkiminin veya icra müdürünün kararıyla alıkoyabilir.\nAlıkoyma kararının konusu olan eşya, gizlice veya zorla götürülürse, götürülmelerinden başlayarak on gün içinde kolluk gücünün yardımıyla kiralanana geri getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "356",
+   "official_text": "MADDE 356- Ölen kiracının ortakları veya bu ortakların aynı meslek ve sanatı yürüten mirasçıları ve ölen kiracı ile birlikte aynı konutta oturanlar, sözleşmeye ve kanun hükümlerine uydukları sürece, taraf olarak kira sözleşmesini sürdürebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "138",
+   "official_text": "MADDE 138- Sözleşmenin yapıldığı sırada taraflarca öngörülmeyen ve öngörülmesi de beklenmeyen olağanüstü bir durum, borçludan kaynaklanmayan bir sebeple ortaya çıkar ve sözleşmenin yapıldığı sırada mevcut olguları, kendisinden ifanın istenmesini dürüstlük kurallarına aykırı düşecek derecede borçlu aleyhine değiştirir ve borçlu da borcunu henüz ifa etmemiş veya ifanın aşırı ölçüde güçleşmesinden doğan haklarını saklı tutarak ifa etmiş olursa borçlu, hâkimden sözleşmenin yeni koşullara uyarlanmasını isteme, bu mümkün olmadığı takdirde sözleşmeden dönme hakkına sahiptir. Sürekli edimli sözleşmelerde borçlu, kural olarak dönme hakkının yerine fesih hakkını kullanır.\nBu madde hükmü yabancı para borçlarında da uygulanır.\nF. Takas",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "12. Hukuk Dairesi",
+   "esas_no": "2025/726",
+   "karar_no": "2025/2085",
+   "decision_date": "10.03.2025",
+   "summary_md": "Alacaklı kiraya veren, 2022 tarihli adi yazılı sözleşmeyle bir taşınmazı otel ve restoran olarak kullanılması için tüm demirbaşlarıyla kiralamıştı. Bedel ödenmeyince ilamsız icra yoluyla tahliye takibi başlattı; ödeme emrinde otuz günlük ödeme süresi gösterildi. Borçlu itiraz etmedi ve ilk derece mahkemesi tahliyeye karar verdi. Bölge adliye mahkemesi sözleşmenin ürün (hasılat) kirası olduğunu, bu kirada ödeme süresinin en az altmış gün olması gerektiğini söyleyerek tahliye kararını kaldırıp davayı reddetti. Yargıtay 12. Hukuk Dairesi kararı oy birliğiyle bozdu: Otelin mefruşat ve demirbaşla kiralanması ya da cirodan pay alınması sözleşmeyi tek başına ürün kirası yapmaz; kiralananın işletme ruhsatıyla birlikte işletme hakkının devredilip devredilmediği araştırılmalıdır. Konuya katkısı: Nitelendirmenin temerrüt süresini (otuz mu, altmış gün mü) belirlediğini ve ruhsat ölçütünü gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1149761000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2025/366",
+   "karar_no": "2025/4228",
+   "decision_date": "22.09.2025",
+   "summary_md": "Davacılar, 15.12.2018-15.12.2019 dönemli ve 30.000 TL bedelli işletme sözleşmesinin TBK m. 367 uyarınca bir yıl uzadığını, uzayan dönem sonunda bildirimle feshettiklerini ileri sürerek işletmenin tahliyesini ve günlük cezai şart istemişti. İlk derece mahkemesi, işletmenin faal hâlde ve demirbaşlarıyla kiralandığını, ancak işyeri açma ve çalışma ruhsatının kiracı adına düzenlendiğini saptadı. İlişkiyi konut ve çatılı işyeri kirası kabul etti (TBK m. 339 ve devamı) ve kiraya verenin süre bitimine dayanarak sözleşmeyi sona erdiremeyeceği gerekçesiyle davayı reddetti. Bölge adliye mahkemesi istinaf başvurularını esastan reddetti; Yargıtay 3. Hukuk Dairesi de kararı oy birliğiyle onadı. Yargıtay'a göre ürün kirasından söz edebilmek için demirbaşların yanında işletme ruhsatıyla birlikte kiralama gerekir; ruhsat kiracı adına olduğundan çatılı işyeri hükümleri uygulanır. Konuya katkısı: Ruhsatın kiracı adına olmasının, kiraya verenin süre bitimi hakkını ortadan kaldırdığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1175768800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2023/5898",
+   "karar_no": "2024/4070",
+   "decision_date": "04.12.2024",
+   "summary_md": "Bir alışveriş merkezinde bağımsız bölüm maliki olan davacı, davalı kiracı ile dava dışı alışveriş merkezi adi ortaklığı arasında 2012'de imzalanan on yıllık hasılat paylaşımlı sözleşmenin süresinin dolduğunu ileri sürerek davalının tahliyesini istedi. İlk derece mahkemesi, işletme ruhsatının kiracı tarafından alındığını, kira bedelinin cirodan ödenmesinin ürün kirası niteliği kazandırmadığını ve alışveriş merkezi bir bütün olarak kiralandığı için tek bir malikin kendi bölümü yönünden tahliye isteyemeyeceğini belirterek davayı reddetti. Bölge adliye mahkemesi istinafı esastan reddetti. Yargıtay 3. Hukuk Dairesi, kesinlik nedeniyle temyiz isteminin reddine ilişkin ek kararı kaldırıp esas kararı oy birliğiyle onadı. Gerekçeye göre işletme ruhsatı devredilmediği için ürün kirası hükümleri uygulanamaz; çatılı işyeri hükümleri uyarınca süre bitimine dayanılarak sözleşme sona erdirilemez. Konuya katkısı: Cirodan pay alınmasının tek başına sözleşmeyi ürün kirasına dönüştürmediğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1114362100",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 357/1'e göre **ürün kirasını** adi kiradan ayıran temel özellik aşağıdakilerden hangisidir?",
+   "options": [
+    "Kiraya verenin kiralananı işletmesi",
+    "Kiralananın ürün veren bir şey veya hak olması ve ürünlerin devşirilmesinin kiracıya bırakılması",
+    "Kira bedelinin yıllık olarak ödenmesi",
+    "Sözleşmenin yazılı yapılma şartına bağlı olması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 357/1 ürün kirasını, kiraya verenin ürün veren bir şeyin veya hakkın kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında kiracıya bırakmayı üstlendiği sözleşme olarak tanımlar. Yıllık ödeme yalnız aksi kararlaştırılmadıkça uygulanan bir kuraldır (TBK m. 362/1). İşletme borcu kiracıya aittir (TBK m. 364). Ürün kirası için kanunda ayrıca bir şekil şartı yoktur."
+  },
+  {
+   "stem_md": "Ali, zeytinliğini Zeynep'e kiralamış; kira bedeli olarak elde edilecek zeytinyağının yarısını almayı kararlaştırmıştır. Bu sözleşme için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Sözleşme adi kiradır, çünkü bedel para olarak belirlenmemiştir",
+    "Bedel sabit olmadığından sözleşme kira sayılmaz, ortaklık sözleşmesidir",
+    "Sözleşme geçersizdir; ürün kirasında bedel yalnız para olarak belirlenebilir",
+    "Sözleşme ürüne katılmalı ürün kirasıdır (TBK m. 357/2)"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kira bedelinin devşirilecek ürünün belli bir oranı olarak kararlaştırıldığı ürün kirasına ürüne katılmalı kira denir (TBK m. 357/2). Oran sözleşmede belirlenmemişse yerel âdete göre bulunur. Kanun bedelin yalnız para olmasını şart koşmaz."
+  },
+  {
+   "stem_md": "Ali, bağını iki traktör ve sulama pompasıyla birlikte Zeynep'e kiralamıştır. Taraflar eşyaların değerini hiçbir yazılı belgeye bağlamamıştır. Kanun bu durumda tarafların hangi yükümlülük altında olduğunu söyler?",
+   "options": [
+    "Eşyalar için tutanak düzenlenmesi noterde yapılmalıdır",
+    "Yalnız kiraya verenin eşya listesi düzenlemesi yeterlidir",
+    "Tarafların bu eşyaların değerini birlikte takdir ederek iki nüsha tutanak düzenleyip imzalamaları gerekir (TBK m. 359)",
+    "Tutanak düzenlenmesi yalnız hayvan kiralarında zorunludur"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 359'a göre kira sözleşmesi araç ve gereçleri, hayvanları, devredilen eşyayı veya stoklanmış malları da içeriyorsa taraflar bunların değerlerini birlikte takdir edip iki nüsha tutanağa geçirerek imzalar ve birbirlerine verir. Hüküm yalnız hayvanla sınırlı değildir. Noter şartı kanunda yoktur."
+  },
+  {
+   "stem_md": "Ürün kirasında sözleşmede aksine bir hüküm ve yerel âdet yoksa kira bedeli ve yan giderler ne zaman ödenir?",
+   "options": [
+    "Her ayın sonunda",
+    "Her üç ayın sonunda",
+    "Sözleşme kurulurken peşin olarak",
+    "Her kira yılının ve en geç kira süresinin sonunda"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 362/1'e göre kiracı, aksine hüküm veya yerel âdet olmadıkça kira bedelini ve yan giderleri her kira yılının ve en geç kira süresinin sonunda öder. Ay sonunda ödeme kuralı adi kiraya aittir (TBK m. 314)."
+  },
+  {
+   "stem_md": "Mehmet, tarlasını Ayşe'ye ürün kirasıyla kiralamıştır. Yıllık bedel kira yılı sonunda muaccel olmuş, Ayşe ödememiştir. Mehmet, Ayşe'ye yazılı bildirimle 45 gün süre vererek \"bu sürede ödemezseniz sözleşmeyi feshedeceğim\" demiştir. Bu bildirimle ilgili hangisi doğrudur?",
+   "options": [
+    "Süre gereksizdir, çünkü ürün kirasında ödemeyen kiracıya ihtarsız fesih yapılır",
+    "Süre yeterlidir, çünkü kanun en az otuz gün öngörür",
+    "Süre yetersizdir, çünkü ürün kirasında en az altmış günlük önel gerekir (TBK m. 362/2)",
+    "Süre yetersizdir, çünkü en az doksan gün gerekir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ürün kirasında kiracı vadesi gelmiş bedeli ödemezse kiraya veren yazılı olarak en az altmış günlük bir önel verir (TBK m. 362/2). Otuz gün konut ve çatılı işyeri kirasındaki asgari süredir (TBK m. 315/2). Kırk beş günlük önel altmış günün altında kaldığı için bu bildirim kanunun aradığı süreyi karşılamaz."
+  },
+  {
+   "stem_md": "TBK m. 363 uyarınca kiracının kira bedelinden orantılı indirim isteyebilmesi için hangisi gerekir?",
+   "options": [
+    "Kiralananın her tür ürün kirasında olağan verimden az ürün vermesi",
+    "Kiracının işletme masraflarının artması",
+    "Piyasa fiyatlarının düşmesi",
+    "Tarımsal taşınmazın her zamanki veriminin olağanüstü felaket veya doğal olaylar yüzünden önemli ölçüde azalması"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 363/1, tarımsal bir taşınmazın her zamanki veriminin olağanüstü felaket veya doğal olaylar yüzünden önemli ölçüde azalması hâlinde orantılı indirim hakkı verir. Her verim düşüklüğü yetmez; olağanüstü bir olay ve önemli bir azalma gerekir. Masraf veya fiyat değişikliği bu hükmün kapsamında değildir."
+  },
+  {
+   "stem_md": "Ali, narenciye bahçesini Zeynep'e kiralamıştır. Sözleşmede \"kiracı olağanüstü hiçbir sebeple indirim isteyemez\" hükmü vardır. Bedel belirlenirken don gibi olayların olabileceği hiç düşünülmemiş, ürün de sigortalı değildir. İlk yıl olağanüstü bir don verimi büyük ölçüde düşürmüştür. Zeynep'in durumu nedir?",
+   "options": [
+    "Feragat geçersizdir; Zeynep orantılı indirim isteyebilir (TBK m. 363)",
+    "Feragat yalnız kiraya veren lehine yapılmışsa geçerlidir",
+    "Feragat hükmü geçerlidir; indirim isteyemez",
+    "Zeynep sözleşmeyi hemen feshedebilir, ama indirim isteyemez"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 363/2'ye göre indirim hakkından başlangıçta feragat ancak kira bedelinin belirlenmesi sırasında bu gibi olayların meydana gelme olasılığı göz önünde tutulmuş veya doğan zarar bir sigortayla karşılanmışsa geçerlidir. Olayda bu iki şart da yoktur; bu nedenle feragat hükmü geçersizdir ve Zeynep orantılı indirim isteyebilir (TBK m. 363/1)."
+  },
+  {
+   "stem_md": "Zeytinlik kiracısı Zeynep, Ali'nin izni olmadan zeytin ağaçlarının bir kısmını söküp yerine başka tür ağaç dikmiştir. Bu davranışın hukuki nitelemesi hangisidir?",
+   "options": [
+    "Alt kiranın yasaklanmasına aykırılıktır",
+    "Küçük onarımdır ve kiracıya aittir",
+    "Kiraya verenin izni olmaksızın işletme usulünün, kira süresi bittikten sonra da etkisi görülebilecek biçimde değiştirilmesidir (TBK m. 364/2)",
+    "Kiracının olağan bakım yükümlülüğünün yerine getirilmesidir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 364/2'ye göre kiracı, kiraya verenin izni olmaksızın kiralananın işletme usulünü, kira süresinin bitiminden sonra etkisi görülebilecek biçimde değiştiremez. Ağaç türünün değiştirilmesi bunun tipik örneğidir. Küçük onarım ve bakım ise kiracının borcudur (TBK m. 365) ama usul değişikliğini kapsamaz."
+  },
+  {
+   "stem_md": "Bir çiftlikte sulama kuyusu çöker ve kuyunun yenilenmesi kira süresi içinde zorunlu hâle gelir; aynı gün kiracının kullandığı bir çapa kırılır. Kiracı Zeynep, kuyuyu Ali'ye bildirir. Masraflar bakımından hangisi doğrudur?",
+   "options": [
+    "Kuyu ve çapa masrafı kiraya verene aittir",
+    "Kuyu ve çapa masrafı kiracıya aittir",
+    "Kuyu masrafı kiraya verene (TBK m. 361), çapanın yenilenmesi kiracıya aittir (TBK m. 365/2)",
+    "Kuyu masrafı kiracıya, çapa masrafı kiraya verene aittir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kira süresi içinde zorunlu esaslı onarımlar, kiracı bildirir bildirmez, kiraya verenin gideri üzerine olmak üzere yapılır (TBK m. 361). Bozulan veya kullanmayla yok olan düşük değerli araç ve gereçlerin yenilenmesi ise yerel âdete uygun küçük onarımlarla birlikte kiracının borcudur (TBK m. 365/2)."
+  },
+  {
+   "stem_md": "Ürün kiracısı Zeynep, kiraladığı çiftlik girişindeki küçük bir köşeyi, Ali'ye hiçbir zarar vermeyecek biçimde pazar tezgâhı olarak Kemal'e kiralamıştır; Ali'ye sormamıştır. Bu işlem bakımından hangisi doğrudur?",
+   "options": [
+    "Alt kira ürün kirasında tamamen serbesttir",
+    "Kiraya verenin rızası olmadığından işlem her hâlde geçersizdir",
+    "İşlem yalnız kiraya verenin yazılı rızasıyla geçerlidir",
+    "Kiralananda bulunan bazı yerlerin, kiraya veren için zarar doğuracak bir değişiklik gerektirmemek şartıyla kiraya verilmesi mümkündür (TBK m. 366/1)"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 366/1, kiracının kiraya verenin rızası olmadan kiralananı başkasına kiraya veremeyeceğini ve kullanım ile işletme hakkını devredemeyeceğini söyler. Aynı hüküm, kiralananda bulunan bazı yerlerin zarar doğuracak bir değişiklik gerektirmemek şartıyla kiraya verilebileceğini de belirtir. Konut ve çatılı işyerindeki yazılı rıza şartı (TBK m. 322/2) bu hükümde aranmaz. Tamamen serbestlik de söz konusu değildir."
+  },
+  {
+   "stem_md": "Ali, tarlasını 01.04.2022-01.04.2025 arasında Zeynep'e ürün kirasıyla kiralamıştır. Süre bitmiş, taraflar açık bir anlaşma yapmaksızın ilişkiyi sürdürmüş ve aksi kararlaştırılmamıştır. Sözleşmenin durumu nedir?",
+   "options": [
+    "Sözleşme belirsiz süreli hâle gelir",
+    "Sözleşme on yıl uzamış sayılır",
+    "Sözleşme sona erer ve Zeynep tahliye etmelidir",
+    "Sözleşme birer yıl için yenilenmiş sayılır (TBK m. 367/2)"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Ürün kirasında tarafların örtülü olarak sözleşmeyi sürdürmesi hâlinde, aksi kararlaştırılmadıkça sözleşme birer yıl için yenilenmiş sayılır (TBK m. 367/2). Belirsiz süreliye dönüşme adi kiraya özgüdür (TBK m. 327/2). Konut ve çatılı işyerinde ise bir yıllık uzama vardır ve kiraya veren on yıllık uzama süresi dolmadıkça süre bitimine dayanarak sözleşmeyi sona erdiremez (TBK m. 347/1)."
+  },
+  {
+   "stem_md": "Belirsiz süreli bir tarla ürün kirasında fesih bildirim süresi ne sözleşmede ne de yerel âdette belirlenmemiştir. Taraflardan birinin sözleşmeyi feshetmesi için kanuna göre en az hangi bildirim süresine uyulmalıdır?",
+   "options": [
+    "Bir yıl",
+    "Üç ay",
+    "Altı ay",
+    "Üç gün"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Belirsiz süreli ürün kirasında fesih bildirim süresi sözleşme veya yerel âdetle belirlenmemişse en az altı aylık bildirim süresine uyulmak şartıyla taraflardan her biri sözleşmeyi feshedebilir (TBK m. 368/1). Üç gün taşınır kirası (TBK m. 330), üç ay taşınmaz adi kirası (TBK m. 329) içindir."
+  },
+  {
+   "stem_md": "Narenciye bahçesi kiracısı Zeynep, ürün kirası süresi devam ederken iflas etmiş ve iflasına karar verilmiştir. Kiraya veren Ali'ye yeterli güvence de verilmemiştir. Sözleşmeye ne olur?",
+   "options": [
+    "Sözleşme devam eder; Ali yalnız güvence isteyebilir",
+    "Sözleşme kira yılı sonunda sona erer",
+    "Sözleşme iflasın açıldığı anda kendiliğinden sona erer (TBK m. 370)",
+    "Sözleşme ancak Ali'nin fesih bildirimiyle ve altı ay sonra sona erer"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ürün kirasında kiracının iflası hâlinde sözleşme iflasın açıldığı anda kendiliğinden sona erer (TBK m. 370). Kiraya veren yalnız işlemekte olan kira ve tutanağa geçirilen eşya için yeterli güvence verilirse sözleşmeyi kira yılının sonuna kadar sürdürmekle yükümlüdür. Güvence ve fesih mekanizması adi kirada geçerlidir (TBK m. 332)."
+  },
+  {
+   "stem_md": "Ürün kiracısının ölümü hâlinde sözleşme bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yalnız kiraya veren sözleşmeyi feshedebilir",
+    "Sözleşme ölümle kendiliğinden sona erer",
+    "Mirasçılar ve kiraya veren, altı aylık yasal fesih bildirim sürelerine uymak şartıyla sözleşmeyi feshedebilir (TBK m. 371)",
+    "Yalnız mirasçılar sözleşmeyi feshedebilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 371'e göre kiracının ölümü hâlinde onun mirasçıları ve kiraya veren, altı aylık yasal fesih bildirim sürelerine uymak koşuluyla sözleşmeyi feshedebilir. Sözleşme kendiliğinden sona ermez ve fesih hakkı iki taraflıdır."
+  },
+  {
+   "stem_md": "Narenciye bahçesinin kira sözleşmesi sona erdiğinde ağaçlarda henüz toplanmamış ürün durmaktadır. Kiracı Zeynep ürün için 150.000 TL tarım gideri yapmıştır. Zeynep'in hakkı hangisidir?",
+   "options": [
+    "Ürünü toplama süresi tanınır ve ürün Zeynep'indir",
+    "Ürün üzerinde hak ileri süremez; yalnız tarım giderlerinin hâkimce belirlenecek miktarını tazminat olarak ister ve bu işlemiş kiralardan indirilir (TBK m. 374)",
+    "Ürünün piyasa değerinin tamamını isteyebilir",
+    "Hiçbir hak ileri süremez, tarım gideri de dahil"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Tarımsal taşınmazın kiracısı, sözleşmenin sona erdiği anda henüz devşirilmemiş ürünler üzerinde hak ileri süremez. Ürünün yetişmesi için yaptığı tarım giderlerinin hâkimce belirlenecek miktarını kiraya verenden tazminat olarak isteyebilir; bu tazminat işlemiş kiralardan indirilir (TBK m. 374). Ürünün değerinin tamamı istenemez."
+  },
+  {
+   "stem_md": "Kiracı, kiralanana göstermekle yükümlü olduğu özen çerçevesinde meydana gelen değer artışları için kiraya verenden ne talep edebilir?",
+   "options": [
+    "Hiçbir tazminat isteyemez (TBK m. 372/3)",
+    "Yalnız kira bedelinden mahsup isteyebilir",
+    "Artışın tamamı kadar tazminat",
+    "Artışın yarısı kadar tazminat"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 372/3'e göre kiracı, kiralanana göstermekle yükümlü olduğu özen çerçevesinde meydana gelen değer artışları için tazminat isteyemez. Buna karşılık tutanağa değer biçilerek geçirilmiş eşyada kendi masraf veya emeğinden doğan değer artışı için tazminat isteyebilir (TBK m. 373/3)."
+  },
+  {
+   "stem_md": "Tarımsal arazisi olmayan Zeynep'e Ali, 20 ineğini kiralamıştır. Sözleşmede ürünlerin kime ait olacağı konusunda hüküm yok ve yerel âdet de farklı bir sonuç vermemektedir. İneklerin süt ve buzağıları kime aittir?",
+   "options": [
+    "Kiracı Zeynep'e, çünkü aksine anlaşma ve âdet yoksa kira süresi içindeki bütün ürünler kiracınındır (TBK m. 376/1)",
+    "Eşit olarak paylaşılır",
+    "Kiraya verene",
+    "Mahkeme her olayda ayrıca takdir eder"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Tarımsal bir taşınmazın kirasıyla bağlantılı olmayan geviş getiren hayvanların kirasında, aksine anlaşma veya yerel âdet yoksa kiralanan hayvanların kira süresi içindeki bütün ürünleri kiracınındır (TBK m. 376/1). Kiracı karşılığında hayvanlara bakar ve kiraya verene para veya ürünün belli bir payını öder (TBK m. 376/2)."
+  },
+  {
+   "stem_md": "Belirsiz süreli bir hayvan kirasında, aksine anlaşma veya yerel âdet yoksa fesih bakımından hangisi doğrudur?",
+   "options": [
+    "Yalnız kiraya veren feshedebilir",
+    "Her iki taraf da dilediği zaman feshedebilir; ancak fesih uygun olmayan zamanda ve dürüstlük kurallarına aykırı yapılamaz (TBK m. 378)",
+    "Ancak kira yılı sonu için fesih yapılabilir",
+    "En az altı ay önceden bildirimle fesih yapılabilir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 378'e göre aksine anlaşma veya yerel âdet yoksa belirsiz süre için yapılan hayvan kirasını taraflardan her biri dilediği zaman feshedebilir; ancak fesih dürüstlük kurallarına aykırı ve uygun olmayan bir zamanda yapılamaz. Altı aylık süre genel ürün kirası kuralıdır (TBK m. 368/1)."
+  },
+  {
+   "stem_md": "Hayvan kiracısı Zeynep'in kiraladığı ineklerden biri ölmüştür. Sözleşmede ve yerel âdette sorumluluk konusunda farklı bir kural yoktur. Zeynep'in sorumluluğu bakımından hangisi doğrudur?",
+   "options": [
+    "Zeynep yalnız ağır kusuru varsa sorumludur",
+    "Zeynep, zararın korumada dikkat ve özen gösterildiği hâlde meydana geldiğini ispat etmedikçe sorumludur (TBK m. 377/1)",
+    "Zeynep hiçbir şekilde sorumlu olmaz, çünkü hayvan kirası kiraya verenin riskindedir",
+    "Kiraya veren, Zeynep'in kusurlu olduğunu ispat etmedikçe Zeynep sorumlu değildir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 377/1'e göre aksine anlaşma veya yerel âdet yoksa kiracı, kiralanan hayvanların uğradığı zarardan, bu zararın korumada dikkat ve özen gösterildiği hâlde meydana gelmiş olduğunu ispat etmedikçe sorumludur. İspat yükü kiracıdadır; ağır kusur şartı aranmaz."
+  },
+  {
+   "stem_md": "Ürün kirasında kiracı iflas ettiğinde sözleşmenin kendiliğinden sona ermesi, adi kiradaki durumdan nasıl ayrılır?",
+   "options": [
+    "Adi kirada sözleşme kendiliğinden sona erer, ürün kirasında fesih gerekir",
+    "Her iki kirada da iflas sözleşmeyi hiç etkilemez",
+    "Adi kirada iflas, kiraya verene güvence isteme ve verilmezse hemen fesih hakkı verir (TBK m. 332); ürün kirasında ise sözleşme kendiliğinden sona erer (TBK m. 370)",
+    "Adi kirada da iflas anında sözleşme kendiliğinden sona erer"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Adi kirada kiracının iflası kiraya verene işleyecek kira bedelleri için güvence isteme hakkı verir; güvence verilmezse kiraya veren sözleşmeyi bildirim süresine uymadan hemen feshedebilir (TBK m. 332). Ürün kirasında ise sözleşme iflasın açıldığı anda kendiliğinden sona erer (TBK m. 370)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali, Aydın'daki 40 dönümlük zeytinliğini, içindeki iki traktör, bir sulama pompası ve hasat ekipmanıyla birlikte 1 Mart 2025'ten başlayarak beş yıllığına Zeynep'e kiralar. Yıllık kira bedeli 300.000 TL'dir; sözleşmede ödeme zamanı hakkında hüküm yoktur ve bölgede de bu konuda farklı bir âdet bulunmamaktadır. Taraflar eşyaların değerini birlikte takdir ederek bir liste yapmış ve imzalamıştır.\n\nİlk kira yılı sonunda Zeynep bedeli ödemez. Ali 10 Mart 2026'da Zeynep'e noter aracılığıyla yazılı bildirim gönderir: \"30 gün içinde ödemezseniz sözleşmeyi feshedeceğim.\"\n\nBu sırada zeytinliğin sulama kuyusu çöker; Zeynep durumu Ali'ye bildirir. Ayrıca Zeynep'in kullandığı iki kürek kırılır. Zeynep, Ali'ye sormadan zeytinliğin tamamını üç yıllığına Kemal'e kiralar.\n\n1. Ali ile Zeynep arasındaki sözleşme nasıl nitelendirilir, bedel ne zaman ödenmelidir?\n2. Ali'nin 30 günlük bildirime dayanarak sözleşmeyi feshetmesi mümkün müdür?\n3. Kuyunun onarımı ve kırılan kürekler bakımından masrafı kim karşılar?\n4. Zeynep'in zeytinliği Kemal'e kiralaması geçerli midir?",
+   "rubric": [
+    {
+     "point": "Sözleşmenin ürün veren bir şeyin kullanımı ve ürünlerin devşirilmesini içeren ürün kirası olarak nitelendirilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 357"
+    },
+    {
+     "point": "Aksi yoksa bedelin her kira yılının ve en geç kira süresinin sonunda ödenmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 362"
+    },
+    {
+     "point": "Ürün kirasında yazılı ihtarla en az altmış günlük önel gerektiği; otuz günlük bildirimin yetersiz olması",
+     "weight": 25,
+     "madde_ref": "TBK m. 362"
+    },
+    {
+     "point": "Zorunlu esaslı onarımın (kuyu) kiracı bildirir bildirmez kiraya verene ait olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 361"
+    },
+    {
+     "point": "Düşük değerli araç ve gereçlerin (küreklerin) yenilenmesinin kiracıya ait olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 365"
+    },
+    {
+     "point": "Kiraya verenin rızası olmadan alt kira ve işletme hakkının devrinin yasak olması; yalnız bazı yerlerin zarar vermeden kiraya verilebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 366"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali ile Zeynep arasındaki ilişki, ürün veren bir arazinin (zeytinlik) kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında kiracıya bırakan bir sözleşmedir. Bu, ürün kirasıdır (TBK m. 357/1). Bedel sabit olduğundan ürüne katılmalı kira değildir; ürüne katılmalı olmak ürün kirasının bir türüdür, şartı değildir (TBK m. 357/2). Sözleşme araç ve gereç içerdiğinden tutanak düzenlenmiştir (TBK m. 359).\n\n**Hukuki sorunlar:** (1) Bedelin vadesi; (2) temerrüt ve fesih için gereken önel; (3) onarım masrafının paylaşımı; (4) alt kira ve işletme hakkının devrinin geçerliliği.\n\n**İlgili hükümler:** TBK m. 357-359, 361, 362, 365, 366; karşılaştırma için TBK m. 314-315.\n\n**Değerlendirme:**\n\n*1. Bedelin vadesi.* Sözleşmede ve yerel âdette aksi bulunmadığına göre kiracı bedeli her kira yılının ve en geç kira süresinin sonunda öder (TBK m. 362/1). Adi kirada ay sonu kuralı uygulanır (TBK m. 314); burada uygulanmaz. İlk kira yılı Şubat 2026'nın sonunda bittiğinden 300.000 TL o tarihte muaccel olmuştur.\n\n*2. Otuz günlük bildirim.* Zeynep teslimden sonra vadesi gelmiş bedeli ödemediği için Ali yazılı ihtar vererek sözleşmeyi feshedeceğini bildirebilir. Ancak ürün kirasında bu önelin en az altmış gün olması gerekir (TBK m. 362/2). Otuz gün, konut ve çatılı işyeri kiralarında yeterli olan asgari süredir (TBK m. 315/2); ürün kirasında yetersizdir. Dolayısıyla Ali, bu bildirimle sözleşmeyi feshedemez. Fesih hakkını kullanmak istiyorsa en az altmış günlük önel veren yeni bir yazılı ihtar göndermelidir.\n\n*3. Onarım masrafı.* Kira süresi içinde yapılması zorunlu olan esaslı onarımı, kiracı bildirir bildirmez, gideri kendisine ait olmak üzere kiraya veren yapar (TBK m. 361). Sulama kuyusunun çökmesi bunun örneğidir; Zeynep bildirdiğine göre masraf Ali'ye aittir. Buna karşılık bozulan veya kullanmayla yok olan düşük değerli araç ve gereçlerin yenilenmesi kiracının yükümlülüğüdür (TBK m. 365/2); kırılan küreklerin masrafını Zeynep karşılar.\n\n*4. Kemal'e kiralama.* Ürün kirasında kiracı, kiraya verenin rızası olmadan kiralananı başkasına kiraya veremez, kullanım ve işletme hakkını da devredemez (TBK m. 366/1). Zeynep zeytinliğin tamamını Ali'ye sormadan Kemal'e kiraladığından bu kiralama Zeynep ile Kemal arasında borç doğursa da Ali'ye karşı ileri sürülemez ve Zeynep'in Ali'ye karşı sözleşmeye aykırı davranışı olur. Zeynep ancak zeytinlikte bulunan bazı yerleri, Ali için zarar doğuracak bir değişiklik gerektirmeyecek biçimde kiraya verebilirdi.\n\n**Sonuç:** Sözleşme ürün kirasıdır; bedel kira yılı sonunda muaccel olmuştur. Ali'nin otuz günlük ihtarı yetersizdir ve en az altmış gün verilmeden fesih yapılamaz. Kuyunun onarım masrafı Ali'ye, küreklerin yenilenmesi Zeynep'e aittir. Zeytinliğin tamamının Kemal'e kiralanması Ali'nin rızası olmadığı için Ali'ye karşı ileri sürülemez ve Zeynep'in sözleşmeye aykırı davranışıdır."
+  },
+  {
+   "stem_md": "Mehmet, Antalya'daki narenciye bahçesini 1 Ocak 2025'ten başlayarak üç yıllığına Ayşe'ye yıllık 600.000 TL bedelle kiralamıştır. Kira bedeli belirlenirken bölgede don ihtimali hiç gündeme gelmemiştir ve bahçenin ürünü sigortalı değildir. Sözleşmede \"kiracı hiçbir olağanüstü sebeple indirim isteyemez\" hükmü bulunmaktadır.\n\nİlk yıl Şubat ayındaki olağanüstü bir don, bahçenin verimini bu bölge için olağan verimin yaklaşık yüzde yetmişi oranında düşürür. Ayşe kira yılı sonunda kira bedelinin indirilmesini ister; Mehmet \"sözleşmede feragat var\" diye reddeder.\n\nİkinci yılın ortasında Ayşe'nin iflasına karar verilir. O sırada ağaçlarda henüz toplanmamış ürün durmaktadır ve Ayşe bu ürünün yetişmesi için 150.000 TL tarım gideri yapmıştır. İflas masası Mehmet'e güvence vermemiştir. İflas masası ürünün Ayşe'ye ait olduğunu ileri sürer.\n\n1. Ayşe'nin indirim isteminin sonucu nedir?\n2. Ayşe'nin iflası kira sözleşmesini nasıl etkiler?\n3. Toplanmamış ürün ve yapılan tarım gideri bakımından taraflar ne isteyebilir?",
+   "rubric": [
+    {
+     "point": "Tarımsal taşınmazda olağanüstü doğal olay yüzünden verimin önemli ölçüde azalması hâlinde orantılı indirim hakkı",
+     "weight": 25,
+     "madde_ref": "TBK m. 363"
+    },
+    {
+     "point": "Başlangıçtaki feragatin ancak ihtimal bedelde gözetilmişse veya zarar sigortalıysa geçerli olması; olayda bu şartlar bulunmadığından feragatin geçersizliği",
+     "weight": 20,
+     "madde_ref": "TBK m. 363"
+    },
+    {
+     "point": "Kiracının iflasında sözleşmenin iflasın açıldığı anda kendiliğinden sona ermesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 370"
+    },
+    {
+     "point": "Yeterli güvence verilmediği için sözleşmenin kira yılı sonuna kadar sürdürülmemesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 370"
+    },
+    {
+     "point": "Devşirilmemiş ürün üzerinde hak ileri sürülememesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 374"
+    },
+    {
+     "point": "Tarım giderlerinin hâkimce belirlenecek miktarının tazminat olarak istenebilmesi ve işlemiş kiralardan indirilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 374"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Narenciye bahçesi ürün veren tarımsal bir taşınmazdır; Mehmet ile Ayşe arasındaki ilişki ürün kirasıdır (TBK m. 357/1). Bu nedenle olay hem ürün kirasına özgü indirim hükmüne (TBK m. 363) hem de iflas ve tasfiye hükümlerine (TBK m. 370 ve TBK m. 374) tabidir.\n\n**Hukuki sorunlar:** (1) Olağanüstü don nedeniyle kira bedelinden indirim; (2) sözleşmedeki feragat kaydının geçerliliği; (3) kiracının iflasının sözleşmeye etkisi; (4) sözleşme sona erdiğinde devşirilmemiş ürün ve tarım gideri.\n\n**İlgili hükümler:** TBK m. 357, 363, 370, 374.\n\n**Değerlendirme:**\n\n*1. İndirim ve feragat.* Tarımsal bir taşınmazın her zamanki verimi olağanüstü felaket veya doğal olaylar yüzünden önemli ölçüde azalırsa kiracı, kira bedelinden orantılı bir miktarın indirilmesini isteyebilir (TBK m. 363/1). Olağanüstü don bu kapsamdadır ve verimin olağan verimin yaklaşık yüzde yetmişi kadar düşmesi önemli bir azalmadır. Mehmet'in dayandığı feragat hükmü ancak iki durumda geçerli olurdu: kira bedeli belirlenirken bu gibi olayların meydana gelme olasılığı göz önünde tutulmuş olsaydı veya doğan zarar bir sigortayla karşılansaydı (TBK m. 363/2). Olayda don ihtimali hiç düşünülmemiş ve ürün sigortalı olmadığından feragat geçersizdir. Ayşe, ilk yıl için kira bedelinden orantılı indirim isteyebilir.\n\n*2. İflasın etkisi.* Ürün kirasında kiracının iflası hâlinde sözleşme, iflasın açıldığı anda kendiliğinden sona erer (TBK m. 370). Kiraya veren yalnız işlemekte olan kira ve tutanağa geçirilen eşya için yeterli güvence verilirse sözleşmeyi kira yılının sonuna kadar sürdürmekle yükümlüdür. İflas masası güvence vermediği için sözleşme sürdürülmez; Mehmet'in ayrıca bir fesih bildirimi yapmasına gerek yoktur. Adi kirada ise kiraya veren yalnız güvence isteyebilir ve verilmezse feshedebilirdi (TBK m. 332); bu ayrım ürün kirasında geçerli değildir.\n\n*3. Ürün ve tarım gideri.* Tarımsal taşınmazın kiracısı, sözleşmenin sona erdiği anda henüz devşirilmemiş ürünler üzerinde hak ileri süremez (TBK m. 374/1). Bu yüzden iflas masasının \"ürün Ayşe'nindir\" savı kabul edilmez. Buna karşılık Ayşe, ürünün yetişmesi için yaptığı 150.000 TL tarım giderinin hâkim tarafından belirlenecek miktarını Mehmet'ten tazminat olarak isteyebilir ve bu tazminat işlemiş kiralardan indirilir (TBK m. 374/2). İstenebilecek miktar 150.000 TL ile birebir aynı olmak zorunda değildir; hâkim belirler.\n\n**Sonuç:** Ayşe ilk yıl için orantılı indirim isteyebilir; feragat kaydı koşulları taşımadığı için geçersizdir. İflasın açıldığı anda sözleşme kendiliğinden sona ermiştir. Devşirilmemiş ürün üzerinde hak ileri sürülemez; yalnız tarım giderlerinin hâkimce belirlenecek miktarı tazminat olarak istenebilir ve bu tutar işlemiş kiralardan indirilir."
+  },
+  {
+   "stem_md": "Kemal, tarımsal arazisi bulunmayan Elif'e 20 sağmal ineğini, hiçbir süre kararlaştırmadan kiralar. Elif her ay Kemal'e belli bir tutar ödeyecektir. Hayvanlarla ilgili bir tutanak yapılmış, değerleri birlikte takdir edilmiştir. Sözleşmede ürünlerin kime ait olacağı, kiracının sorumluluğu ve fesih konusunda hüküm yoktur; yöredeki âdet de bu konularda farklı bir kural içermemektedir.\n\nBirkaç ay sonra iki inek ağır bir hastalığa yakalanır. Elif durumu aylarca Kemal'e bildirmez; ineklerden biri ölür. Elif, ölen ineğin bakımında özen gösterdiğini ispat edemez. Diğer hasta inek için ise veteriner, Elif'in kusuru olmadan acil bir ameliyat gerektirir ve Elif 25.000 TL harcar.\n\nElif'in sağdığı süt ve doğan buzağılar için Kemal pay ister. Ayrıca Kemal, sözleşmeye son vermek için üç gün sonra bütün ineklerin geri verilmesini ister; Elif \"en az altı ay önceden bildirim gerekir\" diye itiraz eder. Kemal'in bildirimini yaparken uygun olmayan bir zamana rastladığını gösteren bir olgu yoktur.\n\n1. Süt ve buzağılar kime aittir?\n2. Ölen ineğin zararından kim sorumludur?\n3. Elif'in ameliyat masrafını Kemal'den isteme hakkı var mıdır?\n4. Kemal'in sözleşmeyi bu şekilde feshetmesi mümkün müdür?",
+   "rubric": [
+    {
+     "point": "Tarımsal taşınmazla bağlantısız geviş getiren hayvanların kirası olduğu ve aksi yokken kira süresi içindeki ürünlerin kiracıya ait olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 376"
+    },
+    {
+     "point": "Kiracının hayvanlara bakma ve kiraya verene para veya ürün payı ödeme borcu",
+     "weight": 10,
+     "madde_ref": "TBK m. 376"
+    },
+    {
+     "point": "Kiracının zararın özenli korumaya rağmen doğduğunu ispat edemedikçe sorumlu olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 377"
+    },
+    {
+     "point": "Önemli hastalıkların gecikmeksizin kiraya verene bildirilmesi yükümlülüğü",
+     "weight": 10,
+     "madde_ref": "TBK m. 377"
+    },
+    {
+     "point": "Kusur olmaksızın doğan olağanüstü koruma giderlerinin kiraya verenden istenebilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 377"
+    },
+    {
+     "point": "Belirsiz süreli hayvan kirasında dilediği zaman fesih; altı aylık süre aranmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 378"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kemal ile Elif arasındaki sözleşme hayvan kirasıdır. Kiralananlar sağmal inekler, yani geviş getiren hayvanlardır; ayrıca bir tarımsal taşınmaz kirasıyla bağlantılı değildir. Bu nedenle ürün kirasının hayvan kirasına ilişkin özel hükümleri uygulanır (TBK m. 376-378). Hayvanların değerleri tutanağa geçirilmiştir (TBK m. 359).\n\n**Hukuki sorunlar:** (1) Ürünlerin kime ait olduğu; (2) hayvanın ölümünden doğan zarar ve ispat yükü; (3) kiracının yaptığı olağanüstü giderler; (4) belirsiz süreli sözleşmenin feshi.\n\n**İlgili hükümler:** TBK m. 376, 377, 378; tutanak için TBK m. 359.\n\n**Değerlendirme:**\n\n*1. Ürünler.* Tarımsal bir taşınmazın kirasıyla bağlantılı olmayan geviş getiren hayvanların kirasında, aksine anlaşma veya yerel âdet yoksa kiralanan hayvanların kira süresi içindeki bütün ürünleri kiracınındır (TBK m. 376/1). Olayda ne sözleşme ne de âdet farklı bir kural içerdiğinden süt ve buzağılar Elif'indir. Kemal'in pay isteme hakkı yoktur. Elif buna karşılık hayvanları besler, onlara iyi bakar ve Kemal'e kararlaştırılan parayı öder (TBK m. 376/2).\n\n*2. Ölen ineğin zararı.* Kiracı, aksine anlaşma veya yerel âdet yoksa, kiralanan hayvanların uğradığı zarardan, bu zararın korumada dikkat ve özen gösterildiği hâlde meydana geldiğini ispat etmedikçe sorumludur (TBK m. 377/1). Elif özenli davrandığını ispat edemediğinden ölen ineğin zararından sorumludur. Ayrıca kiracı, önemli kazaları ya da hastalıkları gecikmeksizin kiraya verene bildirmekle yükümlüdür (TBK m. 377/3); Elif hastalığı aylarca bildirmeyerek bu yükümlülüğü de ihlal etmiştir.\n\n*3. Ameliyat masrafı.* Kiracı, kendi kusuruyla sebebiyet vermediği olağanüstü koruma giderleri için kiraya verenden tazminat isteyebilir (TBK m. 377/2). Diğer ineğin acil ameliyatı Elif'in kusuru olmadan gereken olağanüstü bir koruma giderdir. Elif 25.000 TL'nin tazminini Kemal'den isteyebilir.\n\n*4. Fesih.* Belirsiz süreli hayvan kirasında aksine anlaşma veya yerel âdet yoksa her taraf sözleşmeyi dilediği zaman feshedebilir (TBK m. 378/1). Ürün kirasının genel kuralı olan en az altı aylık bildirim süresi (TBK m. 368/1) burada aranmaz; Elif'in itirazı yerinde değildir. Ancak fesih, dürüstlük kurallarına aykırı ve uygun olmayan bir zamanda yapılamaz (TBK m. 378/2). Olayda fesihin uygun olmayan bir zamana rastladığı bildirilmediğinden Kemal sözleşmeyi bu şekilde sona erdirebilir.\n\n**Sonuç:** Süt ve buzağılar Elif'indir. Ölen ineğin zararından Elif, özenli davrandığını ispat edemediği için sorumludur ve ayrıca bildirim yükümlülüğüne uymamıştır. Diğer ineğin ameliyat masrafını kusuru olmadığından Kemal'den isteyebilir. Kemal sözleşmeyi dilediği zaman feshedebilir; altı aylık süre aranmaz."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Ürün kirası nedir? (TBK m. 357/1)",
+   "back_md": "Kiraya verenin, ürün veren bir şeyin veya hakkın kullanılmasını ve ürünlerin devşirilmesini bedel karşılığında kiracıya bırakmayı üstlendiği sözleşme."
+  },
+  {
+   "front_md": "Ürüne katılmalı kira nedir?",
+   "back_md": "Kira bedelinin devşirilecek ürünün belli bir oranı olarak kararlaştırıldığı ürün kirası. Oran yoksa yerel âdete göre belirlenir (TBK m. 357/2)."
+  },
+  {
+   "front_md": "Ürün kirasında özel hüküm yoksa hangi kurallar uygulanır?",
+   "back_md": "Kira sözleşmesinin genel hükümleri (TBK m. 358)."
+  },
+  {
+   "front_md": "Tutanak ne zaman düzenlenir? (TBK m. 359)",
+   "back_md": "Kira sözleşmesi araç, gereç, hayvan, devredilen eşya veya stoklanmış mal içeriyorsa taraflar değerleri birlikte takdir edip iki nüsha tutanak düzenler ve imzalar."
+  },
+  {
+   "front_md": "Ürün kirasında esaslı onarım kimin borcudur?",
+   "back_md": "Kiraya verenin; kiracı bildirir bildirmez gideri kendisine ait olmak üzere yapar (TBK m. 361). Küçük onarımlar kiracıya aittir (TBK m. 365/2)."
+  },
+  {
+   "front_md": "Ürün kirasında bedel ne zaman ödenir?",
+   "back_md": "Aksi yoksa her kira yılının ve en geç kira süresinin sonunda (TBK m. 362/1). Adi kirada her ayın sonunda (TBK m. 314)."
+  },
+  {
+   "front_md": "Temerrütte verilecek önel kaç gündür?",
+   "back_md": "Ürün kirasında en az 60 gün (TBK m. 362/2). Adi kirada 10, konut ve çatılı işyerinde 30 gün (TBK m. 315/2)."
+  },
+  {
+   "front_md": "TBK m. 363 hangi durumda indirim verir?",
+   "back_md": "Tarımsal taşınmazın verimi olağanüstü felaket veya doğal olaylar yüzünden önemli ölçüde azalırsa kiracı orantılı indirim ister."
+  },
+  {
+   "front_md": "TBK m. 363 indirim hakkından önceden feragat edilebilir mi?",
+   "back_md": "Ancak bedel belirlenirken bu olayların ihtimali göz önünde tutulmuşsa ya da zarar sigortayla karşılanmışsa geçerli olur (TBK m. 363/2)."
+  },
+  {
+   "front_md": "Ürün kiracısının işletme borcu nedir?",
+   "back_md": "Kiralananı amacına uygun ve iyi biçimde işletmek, ürün vermeye elverişli bulundurmak (TBK m. 364/1); izin olmadan işletme usulünü kalıcı biçimde değiştirmemek (TBK m. 364/2)."
+  },
+  {
+   "front_md": "Ürün kirasında alt kira serbest mi?",
+   "back_md": "Hayır. Kiraya verenin rızası gerekir; yalnız bazı yerler zarar vermemek şartıyla kiraya verilebilir (TBK m. 366)."
+  },
+  {
+   "front_md": "Örtülü sürdürmenin ürün kirasındaki sonucu?",
+   "back_md": "Birer yıl için yenilenmiş sayılır; yasal süreye uyularak her kira yılı sonu için feshedilebilir (TBK m. 367/2-3)."
+  },
+  {
+   "front_md": "Belirsiz süreli ürün kirasında fesih süresi?",
+   "back_md": "Sözleşme veya âdetle belirlenmemişse en az altı ay (TBK m. 368/1)."
+  },
+  {
+   "front_md": "Kiracının iflasında ürün kirasının akıbeti?",
+   "back_md": "İflasın açıldığı anda kendiliğinden sona erer; yeterli güvence verilirse kira yılı sonuna kadar sürdürülür (TBK m. 370)."
+  },
+  {
+   "front_md": "Kiracı ölürse ne olur? (TBK m. 371)",
+   "back_md": "Mirasçılar ve kiraya veren altı aylık yasal fesih bildirim sürelerine uyarak sözleşmeyi feshedebilir."
+  },
+  {
+   "front_md": "Devşirilmemiş ürün kime kalır? (TBK m. 374)",
+   "back_md": "Kiracı ürün üzerinde hak ileri süremez; yalnız tarım giderlerinin hâkimce belirlenecek miktarını tazminat olarak ister, bu işlemiş kiralardan indirilir."
+  },
+  {
+   "front_md": "Kiracı değer artışı için tazminat isteyebilir mi?",
+   "back_md": "Özen yükümlülüğü çerçevesindeki artışlar için hayır (TBK m. 372/3); tutanaktaki eşyada kendi masraf ve emeğinden doğan artış için evet (TBK m. 373/3)."
+  },
+  {
+   "front_md": "Hayvan kirası hangi hayvanlar için özel kurallara tabidir? (TBK m. 376)",
+   "back_md": "Tarımsal taşınmaz kirasıyla bağlantılı olmayan geviş getiren hayvanlar. Aksi yoksa bütün ürünleri kiracının olur."
+  },
+  {
+   "front_md": "Hayvan kiracısı zarardan ne zaman sorumlu olmaz?",
+   "back_md": "Zararın korumada dikkat ve özen gösterildiği hâlde meydana geldiğini ispat ederse (TBK m. 377/1). İspat yükü kiracıdadır."
+  },
+  {
+   "front_md": "Belirsiz süreli hayvan kirası nasıl feshedilir?",
+   "back_md": "Aksi yoksa dilediği zaman; ancak dürüstlük kurallarına aykırı ve uygun olmayan zamanda yapılamaz (TBK m. 378)."
+  },
+  {
+   "front_md": "Yargıtay'ın ürün kirası ölçütü (işyerleri)?",
+   "back_md": "Demirbaşla ya da cirodan payla kiralama tek başına yetmez; işletme ruhsatıyla birlikte işletme hakkının devri aranır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

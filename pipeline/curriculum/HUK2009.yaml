@@ -1,0 +1,116 @@
+# HUK2009 İdare Hukuku — Anayasa (AY m. 123-137 ve ilgili hükümler), 2577 sayılı İYUK, 657 sayılı
+# DMK, 2942 sayılı Kamulaştırma Kanunu, 5393 Belediye, 5302 İl Özel İdaresi, 5442 İl İdaresi,
+# 4734 Kamu İhale Kanunu. İdare hukuku büyük ölçüde içtihat ve öğretiyle gelişmiştir; Danıştay
+# kararları özellikle önemlidir (içtihat aracında mahkeme: danistay).
+# Elle (Claude Code'da) kuruldu.
+units:
+- title: 'Ünite 1: İdare Hukukuna Giriş ve İdari Teşkilat'
+  topics:
+  - slug: idare-hukukuna-giris-ve-temel-ilkeler
+    title: 'İdare Hukukuna Giriş: İdare Kavramı, Kaynaklar, Hukuk Devleti ve İdarenin Kanuniliği İlkesi'
+    maddeler: [{kanun: AY, madde: '2'}, {kanun: AY, madde: '8'}, {kanun: AY, madde: '123'}, {kanun: AY, madde: '124'}, {kanun: AY, madde: '125'}]
+    ictihat_sorgulari: [idarenin kanuniliği ilkesi yönetmelik dayanak, hukuk devleti idarenin yargısal denetimi]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: idari-teskilat-merkezi-idare
+    title: 'İdari Teşkilat: Merkezden Yönetim ve Yerinden Yönetim; Merkezi İdare (Cumhurbaşkanlığı, Bakanlıklar, Taşra Teşkilatı), Hiyerarşi ve Vesayet'
+    maddeler: [{kanun: AY, madde: '123'}, {kanun: AY, madde: '104'}, {kanun: AY, madde: '106'}, {kanun: AY, madde: '126'}, {kanun: '5442', madde: '9'}]
+    ictihat_sorgulari: [hiyerarşi ve idari vesayet ayrımı, valinin yetkileri il idaresi]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: mahalli-idareler
+    title: 'Mahalli İdareler: Belediye, İl Özel İdaresi ve Köy; Organlar ve Merkezi İdarenin İdari Vesayeti'
+    maddeler: [{kanun: AY, madde: '127'}, {kanun: '5393', madde: '3'}, {kanun: '5393', madde: '14'}, {kanun: '5393', madde: '17'}, {kanun: '5393', madde: '18'}, {kanun: '5302', madde: '3'}]
+    ictihat_sorgulari: [belediye meclisi kararının iptali, idari vesayet yetkisi mahalli idareler]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: hizmet-yerinden-yonetim-ve-bagimsiz-idari-otoriteler
+    title: Hizmet Yerinden Yönetim Kuruluşları, Kamu Kurumu Niteliğindeki Meslek Kuruluşları ve Bağımsız İdari Otoriteler
+    maddeler: [{kanun: AY, madde: '123'}, {kanun: AY, madde: '135'}, {kanun: AY, madde: '130'}]
+    ictihat_sorgulari: [kamu kurumu niteliğindeki meslek kuruluşu baro idari işlem, bağımsız idari otorite düzenleyici kurul kararı]
+    beceri: temel-kavramlar-ve-sistem
+- title: 'Ünite 2: İdarenin Faaliyetleri'
+  topics:
+  - slug: kamu-hizmeti
+    title: 'Kamu Hizmeti: Kavram, Unsurlar, Kamu Hizmetine Hâkim İlkeler ve Yürütülme Usulleri (Emanet, İmtiyaz, Özelleştirme)'
+    maddeler: [{kanun: AY, madde: '47'}, {kanun: AY, madde: '128'}]
+    ictihat_sorgulari: [kamu hizmeti imtiyaz sözleşmesi, kamu hizmetinin sürekliliği ilkesi]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: kolluk-faaliyeti
+    title: 'Kolluk Faaliyeti: Kamu Düzeni, İdari ve Adli Kolluk, Kolluk Yetkisinin Sınırları'
+    maddeler: [{kanun: AY, madde: '13'}, {kanun: PVSK, madde: '1'}, {kanun: PVSK, madde: '2'}]
+    ictihat_sorgulari: [idari kolluk adli kolluk ayrımı, kolluk tedbiri ölçülülük]
+    beceri: temel-kavramlar-ve-sistem
+- title: 'Ünite 3: İdari İşlemler ve İdari Sözleşmeler'
+  topics:
+  - slug: idari-islem-kavrami-ve-ozellikleri
+    title: 'İdari İşlem: Kavram, Özellikler (Tek Yanlılık, Kesinlik, Hukuka Uygunluk Karinesi, İcrailik) ve Türleri'
+    maddeler: [{kanun: İYUK, madde: '2'}, {kanun: İYUK, madde: '14'}, {kanun: AY, madde: '125'}]
+    ictihat_sorgulari: [kesin ve yürütülmesi gereken idari işlem, hazırlık işlemi iptal davasına konu olmaz]
+    beceri: idari-islem-unsur-denetimi
+  - slug: idari-islemin-unsurlari
+    title: 'İdari İşlemin Unsurları: Yetki, Şekil, Sebep, Konu ve Maksat'
+    maddeler: [{kanun: İYUK, madde: '2'}, {kanun: AY, madde: '125'}]
+    ictihat_sorgulari: [yetki unsuru yönünden hukuka aykırılık yetki gaspı, maksat unsuru kamu yararı]
+    beceri: idari-islem-unsur-denetimi
+  - slug: duzenleyici-islemler
+    title: 'Düzenleyici İşlemler: Cumhurbaşkanlığı Kararnamesi, Yönetmelik ve Diğer Düzenleyici İşlemler; Normlar Hiyerarşisi'
+    maddeler: [{kanun: AY, madde: '104'}, {kanun: AY, madde: '124'}, {kanun: AY, madde: '148'}]
+    ictihat_sorgulari: [yönetmeliğin kanuna aykırılığı iptal, düzenleyici işleme karşı dava açma süresi uygulama işlemi]
+    beceri: duzenleyici-islem-denetimi
+  - slug: idari-islemlerin-sona-ermesi
+    title: 'İdari İşlemlerin Sona Ermesi: Geri Alma, Kaldırma, Değiştirme ve Kazanılmış Hak'
+    maddeler: [{kanun: İYUK, madde: '2'}, {kanun: AY, madde: '125'}]
+    ictihat_sorgulari: [idari işlemin geri alınması kazanılmış hak süre, açık hata ile tesis edilen işlemin geri alınması]
+    beceri: idari-islem-unsur-denetimi
+  - slug: idari-sozlesmeler-ve-ihale
+    title: 'İdari Sözleşmeler ve Kamu İhalesi: İdari Sözleşmenin Ölçütleri, İdarenin Üstün Yetkileri, İhale Usulleri'
+    maddeler: [{kanun: AY, madde: '47'}, {kanun: AY, madde: '155'}, {kanun: '4734', madde: '1'}, {kanun: '4734', madde: '5'}, {kanun: '4734', madde: '18'}]
+    ictihat_sorgulari: [idari sözleşme kamu hizmetinin yürütülmesi üstün yetki, kamu ihalesi itirazen şikayet]
+    beceri: temel-kavramlar-ve-sistem
+- title: 'Ünite 4: Kamu Görevlileri, Kamu Malları ve Kamulaştırma'
+  topics:
+  - slug: kamu-gorevlileri-ve-memurlar
+    title: 'Kamu Görevlileri: Memur Kavramı, İstihdam Şekilleri, Memurluğa Giriş, Hak ve Yükümlülükler'
+    maddeler: [{kanun: AY, madde: '128'}, {kanun: DMK, madde: '4'}, {kanun: DMK, madde: '48'}, {kanun: DMK, madde: '11'}, {kanun: DMK, madde: '13'}]
+    ictihat_sorgulari: [memurluğa giriş şartları güvenlik soruşturması, sözleşmeli personel istihdam]
+    beceri: kamu-gorevlileri-disiplin
+  - slug: memurlarin-disiplin-ve-hukuki-sorumlulugu
+    title: Memurların Disiplin Sorumluluğu ve Hukuki Sorumluluğu (Rücu Sistemi)
+    maddeler: [{kanun: AY, madde: '129'}, {kanun: DMK, madde: '125'}, {kanun: DMK, madde: '126'}, {kanun: DMK, madde: '127'}, {kanun: DMK, madde: '13'}]
+    ictihat_sorgulari: [disiplin cezası savunma hakkı zamanaşımı, memurun kişisel kusuru rücu]
+    beceri: kamu-gorevlileri-disiplin
+  - slug: kamu-mallari
+    title: 'Kamu Malları: Kamunun Ortak Malları, Hizmet Malları, Orman ve Kıyılar; Hukuki Rejim ve Korunması'
+    maddeler: [{kanun: AY, madde: '43'}, {kanun: AY, madde: '44'}, {kanun: AY, madde: '169'}, {kanun: TMK, madde: '715'}, {kanun: TMK, madde: '999'}]
+    ictihat_sorgulari: [kamu malı zamanaşımı ile kazanılamaz, kıyı kenar çizgisi kamu yararı]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: kamulastirma
+    title: 'Kamulaştırma: Kamu Yararı Kararı, Kamulaştırma Bedeli ve Tespiti, Acele Kamulaştırma, Kamulaştırmasız El Atma'
+    maddeler: [{kanun: AY, madde: '46'}, {kanun: '2942', madde: '3'}, {kanun: '2942', madde: '5'}, {kanun: '2942', madde: '8'}, {kanun: '2942', madde: '10'}, {kanun: '2942', madde: '11'}, {kanun: '2942', madde: '23'}, {kanun: '2942', madde: '27'}]
+    ictihat_sorgulari: [kamulaştırmasız el atma tazminat, kamulaştırma bedelinin tespiti ve tescil davası]
+    beceri: kamulastirma
+- title: 'Ünite 5: İdarenin Sorumluluğu ve Yargısal Denetimi'
+  topics:
+  - slug: idarenin-sorumlulugu-hizmet-kusuru
+    title: 'İdarenin Sorumluluğu I: Hizmet Kusuru (Kötü İşleme, Geç İşleme, Hiç İşlememe) ve Kişisel Kusur Ayrımı'
+    maddeler: [{kanun: AY, madde: '125'}, {kanun: AY, madde: '129'}, {kanun: İYUK, madde: '2'}, {kanun: İYUK, madde: '13'}]
+    ictihat_sorgulari: [hizmet kusuru idarenin tazmin sorumluluğu, kişisel kusur hizmet kusuru ayrımı]
+    beceri: tam-yargi-davasi
+  - slug: idarenin-kusursuz-sorumlulugu
+    title: 'İdarenin Sorumluluğu II: Kusursuz Sorumluluk (Risk İlkesi, Fedakârlığın Denkleştirilmesi, Sosyal Risk)'
+    maddeler: [{kanun: AY, madde: '125'}, {kanun: İYUK, madde: '13'}]
+    ictihat_sorgulari: [sosyal risk ilkesi terör zararı idarenin sorumluluğu, kusursuz sorumluluk fedakarlığın denkleştirilmesi]
+    beceri: tam-yargi-davasi
+  - slug: idari-yargi-teskilati-ve-gorev
+    title: İdari Yargı Teşkilatı (Danıştay, Bölge İdare ve İdare/Vergi Mahkemeleri), Görev ve Yargı Yolu, Uyuşmazlık Mahkemesi
+    maddeler: [{kanun: AY, madde: '125'}, {kanun: AY, madde: '155'}, {kanun: AY, madde: '158'}, {kanun: İYUK, madde: '2'}]
+    ictihat_sorgulari: [adli yargı idari yargı görev ayrımı idari eylem, uyuşmazlık mahkemesi olumsuz görev uyuşmazlığı]
+    beceri: gorev-yetki-yargi-yolu
+  - slug: iptal-davasi-ve-tam-yargi-davasi
+    title: 'İdari Dava Türleri: İptal Davası ve Tam Yargı Davası; Dava Açma Süreleri, İdareye Başvuru ve İlk İnceleme'
+    maddeler: [{kanun: İYUK, madde: '2'}, {kanun: İYUK, madde: '7'}, {kanun: İYUK, madde: '10'}, {kanun: İYUK, madde: '11'}, {kanun: İYUK, madde: '12'}, {kanun: İYUK, madde: '13'}, {kanun: İYUK, madde: '14'}, {kanun: İYUK, madde: '15'}]
+    ictihat_sorgulari: [iptal davası menfaat ihlali, idari işlemin öğrenilmesi dava açma süresi]
+    beceri: iptal-davasi
+  - slug: yurutmenin-durdurulmasi-ve-kararlarin-uygulanmasi
+    title: Yürütmenin Durdurulması ve İdari Yargı Kararlarının Uygulanması
+    maddeler: [{kanun: İYUK, madde: '27'}, {kanun: İYUK, madde: '28'}, {kanun: AY, madde: '125'}, {kanun: AY, madde: '138'}]
+    ictihat_sorgulari: [yürütmenin durdurulması telafisi güç veya imkansız zarar, mahkeme kararını otuz günde uygulamama tazminat]
+    beceri: yurutmenin-durdurulmasi

@@ -1,0 +1,607 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: Ödünç ve Hizmet Sözleşmeleri",
+ "topic_index": 3,
+ "slug": "hizmet-sozlesmesinin-sona-ermesi-ve-rekabet-yasagi",
+ "title": "Hizmet Sözleşmesi II: Sona Erme, Haklı Sebeple Fesih ve Rekabet Yasağı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:21:13.773259+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/tip-teshisi-ve-nitelendirme"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Hizmet sözleşmesi hangi yollarla sona erer, fesih hangi süre ve şartlarla yapılır, haksız fesihte kim neyi öder ve işçi sözleşme bittikten sonra eski işverenle rekabet edebilir mi? Kuruluş ve taraf borçları önceki konudadır.\n\n- **Belirli süreli sözleşme (TBK m. 430):** Süre bitince kendiliğinden sona erer. Süre bittikten sonra örtülü sürdürülürse **belirsiz süreli** olur; esaslı sebep varsa üst üste belirli süreli sözleşme kurulabilir. On yıldan uzun sözleşme, on yıl geçtikten sonra **altı aylık** bildirimle, izleyen aybaşında hüküm doğuracak biçimde feshedilebilir.\n- **Belirsiz süreli sözleşme (TBK m. 431-432):** Bildirim süreleri hizmet süresine göre bir yıla kadar **iki**, bir-beş yıl arası **dört**, beş yıldan fazla **altı hafta**. Süreler kısaltılamaz, artırılabilir; farklı süreler yazılmışsa her iki tarafa **en uzun süre** uygulanır; sözleşme askıdayken süreler işlemez. İşveren ücreti peşin vererek feshedebilir.\n- **Deneme süresi (TBK m. 433):** En çok iki ay; bu sürede bildirim süresine uyulmadan ve tazminatsız fesih mümkündür.\n- **Kötüniyet tazminatı (TBK m. 434):** Fesih hakkı kötüye kullanılırsa bildirim süresi ücretinin **üç katı**.\n- **Haklı sebeple derhâl fesih (TBK m. 435-437):** Fesheden taraf sebebi yazılı bildirir. Dürüstlük kurallarına göre ilişkinin sürdürülmesi beklenemeyen her durum haklı sebeptir. İşverenin ödeme güçsüzlüğünde işçi güvence verilmezse derhâl feshedebilir (TBK m. 436). Sözleşmeye uymamadan doğan haklı fesihte kusurlu taraf zararı tamamen giderir (TBK m. 437).\n- **İşverenin haksız derhâl feshi (TBK m. 438):** Belirsiz sürelide bildirim süresine, belirli sürelide kalan süreye ait kazanç tazminat olur; belirli sürelide tasarruf edilen ve başka işten kazanılan veya bilerek kazanılmayan miktar indirilir; hâkim ayrıca en çok **altı aylık ücret** tutarında tazminat verebilir.\n- **İşçinin haksız işi bırakması (TBK m. 439):** Aylık ücretin **dörtte biri** + ek zarar; hak **otuz gün** içinde kullanılmazsa düşer.\n- **Ölüm (TBK m. 440-441):** İşçinin ölümünde sözleşme biter, eşe ve ergin olmayan çocuklara bir (beş yıldan uzun ilişkide iki) aylık ücret ödenir. İşverenin ölümünde mirasçılar yerine geçer; kişiliği ağırlıklıysa sözleşme sona erer.\n- **Sona erme sonuçları (TBK m. 442-443):** Borçlar muaccel olur; alınanlar geri verilir; tarafların hapis hakları saklıdır.\n- **Rekabet yasağı (TBK m. 444-447):** Fiil ehliyetli işçi, **yazılı** olarak üstlenebilir; müşteri çevresi, üretim sırları veya işler hakkında bilgi edinme imkânı ve önemli zarar ihtimali şarttır. Özel durum dışında **iki yılı** aşamaz; hâkim sınırlayabilir. Ceza koşulu varsa, sözleşmede aksine hüküm yoksa öderek kurtulunur (aşan zarar ayrıca giderilir); men için yazılı saklı tutma gerekir. Gerçek yarar kalmadıysa veya işverenin haksız ya da yüklenebilir sebebiyle fesih olduysa yasak sona erer.",
+  "content_md": "## 1. Sona erme yollarının haritası\n\nHizmet sözleşmesi kendiliğinden, bildirimle, derhâl fesihle veya ölümle sona erer. Doğru yolu bulmak için önce şunu sor: sözleşme **belirli mi, belirsiz mi** ve fesih **süreli mi, derhâl mi**?\n\n| Yol | Dayanak | Tipik sonuç |\n|---|---|---|\n| Süre bitimi | TBK m. 430 | Kendiliğinden sona erme |\n| Bildirimli (süreli) fesih | TBK m. 431-432 | Bildirim süresi sonunda sona erme |\n| Derhâl fesih (haklı sebep) | TBK m. 435-437 | Hemen sona erme |\n| Ölüm | TBK m. 440-441 | Kendiliğinden sona erme |\n\nİş Kanunu kapsamındaki işçiler için bildirim süreleri, deneme süresi ve haklı fesih İK'da ayrıca düzenlenmiştir. İş güvencesi (İK m. 18 vd.) ayrı bir ders konusudur. TBK hükümleri, İK'ya tabi olmayan işlerde (ör. İK m. 4'teki ev hizmetleri) doğrudan uygulanır.\n\n## 2. Belirli süreli sözleşme (TBK m. 430)\n\n- **Kendiliğinden sona erme:** Belirli süreli sözleşme, aksi kararlaştırılmadıkça fesih bildirimi gerekmeksizin sürenin bitiminde sona erer (TBK m. 430/1).\n- **Örtülü sürdürme:** Süre bittikten sonra çalışma sürüyorsa sözleşme **belirsiz süreli** olur. Ancak esaslı bir sebep varsa üst üste belirli süreli sözleşme kurulabilir (TBK m. 430/2).\n- **Fesih bildirimiyle bitecek sözleşme:** Sözleşmenin fesih bildirimiyle sona ereceği kararlaştırılmış ve iki taraf da bildirim yapmamışsa sözleşme yine belirsiz süreliye dönüşür (TBK m. 430/4).\n- **On yıldan uzun sözleşme:** Taraflardan her biri, on yıl geçtikten sonra altı aylık fesih bildirim süresine uyarak feshedebilir; fesih ancak bu süreyi izleyen aybaşında hüküm ifade eder (TBK m. 430/3).\n\n> **Örnek:** Ali, 1 Ocak'ta başlayan bir yıllık belirli süreli sözleşmeyle çalışıyor. Süre bitince kimse bir şey demiyor, Ali çalışmaya devam ediyor. Sözleşme artık belirsiz süreli sayılır; işveren ya da Ali bundan sonra bildirim sürelerine uyarak fesih yapabilir.\n\n> **Örnek:** 15 yıllık bir sözleşmenin 11. yılında taraflardan biri altı aylık bildirimle feshetmek isterse, fesih bildirim süresi bitiminden sonraki aybaşında hüküm doğurur.\n\n## 3. Belirsiz süreli sözleşmede bildirimli fesih (TBK m. 431-434)\n\nTaraflardan her birinin belirsiz süreli sözleşmeyi fesih sürelerine uyarak feshetme hakkı vardır (TBK m. 431). Fesihten önce durum diğer tarafa bildirilir; bildirimin ulaşmasından başlayarak sözleşme şu sürelerin sonunda biter (TBK m. 432/2):\n\n| Hizmet süresi | Bildirim süresi |\n|---|---|\n| Bir yıla kadar | İki hafta |\n| Bir yıldan beş yıla kadar | Dört hafta |\n| Beş yıldan fazla | Altı hafta |\n\n- Bu süreler **kısaltılamaz**, sözleşmeyle **artırılabilir** (TBK m. 432/3).\n- İşveren, bildirim süresine ait ücreti **peşin vererek** sözleşmeyi feshedebilir (TBK m. 432/4).\n- Bildirim süreleri her iki taraf için **aynı** olmak zorundadır; sözleşmede farklı süreler öngörülmüşse her iki tarafa da **en uzun** olan uygulanır (TBK m. 432/5). Kayıt batıl olmaz, eşitlenir.\n- Sözleşmenin askıya alındığı hâllerde bildirim süreleri işlemez (TBK m. 432/6).\n\n> **Örnek:** Ev hizmetlerinde (İK m. 4 gereği TBK'ya tabi) üç yıldır çalışan bahçıvan Yusuf'a işveren 1 Ekim'de bildirimde bulunursa dört hafta sonra, yani 29 Ekim'de sözleşme sona erer. Sözleşmede işçi için iki, işveren için altı hafta yazılmışsa her iki taraf için altı hafta uygulanır.\n\n**Deneme süresi (TBK m. 433):** Taraflar sözleşmeye en çok iki ay süreli deneme koyabilir. Bu süre içinde fesih süresine uymadan ve tazminatsız fesih yapılır; işçinin çalıştığı günlerin ücreti ve diğer hakları saklıdır.\n\n**Kötüniyet tazminatı (TBK m. 434):** Fesih hakkının kötüye kullanılarak sona erdirildiği durumlarda işveren, fesih bildirim süresine ait ücretin **üç katı** tutarında tazminat öder. Üç yıllık işçi için bildirim süresi dört haftadır; kötüniyet tazminatı on iki haftalık ücrettir.\n\n| Konu | TBK | İK |\n|---|---|---|\n| Bildirim süreleri | 2, 4, 6 hafta (TBK m. 432) | 2, 4, 6, 8 hafta (İK m. 17) |\n| Süre eşikleri | 1 yıl / 5 yıl | 6 ay / 1,5 yıl / 3 yıl |\n| Deneme süresi | En çok 2 ay (TBK m. 433) | En çok 2 ay; TİS ile 4 aya kadar (İK m. 15) |\n| Zincirleme belirli süre | Esaslı sebep varsa mümkün (TBK m. 430/2) | Esaslı neden yoksa baştan belirsiz süreli (İK m. 11/2) |\n\n> ⚠️ **Sınavda dikkat:** TBK'da sekiz haftalık süre yoktur; sekiz hafta İK m. 17'nin üç yıldan fazla kıdemli işçi için öngördüğü süredir. Hangi kanuna tabi olduğunu önce belirle.\n\n## 4. Haklı sebeple derhâl fesih (TBK m. 435-437)\n\nTaraflardan her biri haklı sebeplerle sözleşmeyi **derhâl** feshedebilir; fesheden taraf **sebebi yazılı olarak bildirmek zorundadır** (TBK m. 435/1). Fesheden taraftan dürüstlük kurallarına göre hizmet ilişkisini sürdürmesi beklenemeyen bütün durum ve koşullar haklı sebep sayılır (TBK m. 435/2). Haklı sebebin somut örnekleri ve hak düşürücü süreler İK'da sayılmıştır (İK m. 24, İK m. 25 ve İK m. 26: ahlak ve iyiniyet kurallarına uymayan hâllerde, öğrenmeden itibaren altı iş günü ve her hâlde fiilden itibaren bir yıl; işçinin olayda maddi çıkar sağladığı hâlde bir yıllık süre uygulanmaz).\n\n- **İşverenin ödeme güçsüzlüğü (TBK m. 436):** İşveren ödeme güçsüzlüğüne düşer ve işçinin hakları uygun süre içinde güvenceye bağlanmazsa işçi sözleşmeyi derhâl feshedebilir.\n- **Sonuçlar (TBK m. 437):** Haklı fesih sebebi taraflardan birinin sözleşmeye uymamasından doğmuşsa o taraf, sebep olduğu zararı, hizmet ilişkisine dayanan bütün haklar göz önünde tutularak, **tamamen** giderir. Diğer durumlarda hâkim, haklı sebeple feshin maddi sonuçlarını serbestçe değerlendirir.\n\n> ⚠️ **Sınavda dikkat:** Yazılı sebep bildirimi TBK m. 435/1'de açıkça zorunludur. Yazılı bildirim yapılmamasının feshin geçerliliğine etkisi tartışmalıdır (doktrin bölümüne bak).\n\n## 5. Haksız derhâl fesih ve işçinin işi bırakması\n\n**İşverenin haksız derhâl feshi (TBK m. 438):** İşveren haklı sebep olmaksızın derhâl feshederse işçi, belirsiz sürelide bildirim süresine, belirli sürelide sözleşme süresine uyulsaydı kazanabileceği miktarı tazminat olarak isteyebilir (TBK m. 438/1). Belirli süreli sözleşmede işçinin sözleşmenin sona ermesi yüzünden tasarruf ettiği miktar ile başka bir işten elde ettiği veya bilerek elde etmekten kaçındığı gelir tazminattan indirilir (TBK m. 438/2). Hâkim ayrıca, miktarını serbestçe belirleyeceği bir tazminata karar verebilir; ancak bu tazminat işçinin **altı aylık ücretinden fazla olamaz** (TBK m. 438/3).\n\n> **Örnek:** Aylık 50.000 TL ücretle iki yıllık sözleşmeyle çalışan Zeynep'in sözleşmesi 18. ayın sonunda haksız feshedilmiştir. Kalan altı ay için kazanabileceği 300.000 TL'den, çalışmamakla tasarruf ettiği 10.000 TL ve başka işte kazandığı 120.000 TL düşülür; geriye 170.000 TL kalır. Ek tazminat ise en çok 300.000 TL'yi (altı aylık ücret) aşamaz.\n\n**İşçinin haksız işe başlamaması veya işi bırakması (TBK m. 439):** İşçi haklı sebep olmadan işe başlamazsa ya da aniden işi bırakırsa işveren **aylık ücretin dörtte birine** eşit tazminat isteyebilir; ek zararını da isteyebilir (TBK m. 439/1). Zarar yoksa veya dörtte birden azsa hâkim tazminatı indirebilir (TBK m. 439/2). Tazminat hakkı takasla sona ermemişse işveren, işe başlanmamasından veya işi bırakılmasından başlayarak **otuz gün** içinde dava ya da takip yoluyla kullanmak zorundadır; aksi hâlde hak düşer (TBK m. 439/3).\n\n> **Örnek:** Yat kaptanı Kemal 1 Mayıs'ta haklı sebep göstermeden işi bırakmıştır. Armatör 15 Haziran'da dava açarsa 30 gün geçtiği için tazminat hakkı düşmüştür.\n\n## 6. Ölüm ve sona ermenin sonuçları (TBK m. 440-443)\n\n- **İşçinin ölümü (TBK m. 440):** Sözleşme kendiliğinden sona erer. İşveren, işçinin sağ kalan eşine ve ergin olmayan çocuklarına, yoksa bakmakla yükümlü olduğu kişilere ölüm gününden başlayarak **bir aylık**; hizmet ilişkisi beş yıldan uzun sürmüşse **iki aylık** ücret tutarında ödeme yapar.\n- **İşverenin ölümü (TBK m. 441):** Yerini mirasçıları alır; işyeri devri hükümleri kıyasen uygulanır. Sözleşme ağırlıklı olarak işverenin kişiliği dikkate alınarak kurulmuşsa kendiliğinden sona erer; işçi süreden önce bitmesi yüzünden uğradığı zarar için mirasçılardan hakkaniyete uygun tazminat isteyebilir.\n- **Muacceliyet (TBK m. 442):** Sona ermeyle bütün borçlar muaccel olur. İşçinin aracılığıyla kurulan ilişkilerde üçüncü kişinin borcu sona ermeden sonra ifa edilecekse muacceliyet yazılı anlaşmayla altı aya; dönemsel edimlerde bir yıla; sigorta sözleşmelerinde veya ifası altı aydan uzun süreye yayılmış işlerde iki yıla kadar ertelenebilir.\n- **Geri verme ve hapis hakkı (TBK m. 443):** Taraflar hizmetle ilişkili olarak aldıklarını geri verir; işçi özellikle motorlu taşıtları ve trafik izin belgelerini, alacaklarından fazla olan ücret ve masraf avanslarını iade eder. **Tarafların hapis hakları saklıdır.**\n\n## 7. Rekabet yasağı (TBK m. 444-447)\n\nİş sözleşmesi sürerken rekabet etmeme borcu doğrudan kanundandır (TBK m. 396/3). **Rekabet yasağı sözleşmesi** ise sözleşme bittikten sonra için yapılır.\n\n**Geçerlilik şartları (TBK m. 444):**\n1. İşçi **fiil ehliyetine** sahip olmalıdır.\n2. Yasak **yazılı** olarak üstlenilmelidir.\n3. Hizmet ilişkisi işçiye **müşteri çevresi, üretim sırları veya işverenin yaptığı işler** hakkında bilgi edinme imkânı sağlamalıdır.\n4. Bu bilgilerin kullanılması işverenin **önemli bir zararına** sebep olacak nitelikte olmalıdır.\n\nYasak, işçinin sona ermeden sonra onunla herhangi bir biçimde rekabet etmekten, özellikle kendi hesabına rakip işletme açmaktan, rakip işletmede çalışmaktan ya da rakip işletmeyle başka türden menfaat ilişkisine girişmekten kaçınmasını kapsar.\n\n**Sınırlar (TBK m. 445):** Yasak, işçinin ekonomik geleceğini hakkaniyete aykırı biçimde tehlikeye düşürecek şekilde yer, zaman ve işlerin türü bakımından uygun olmayan sınırlamalar içeremez; süresi özel durum ve koşullar dışında **iki yılı** aşamaz. Hâkim, aşırı yasağı bütün durum ve koşulları serbestçe değerlendirerek, işverenin üstlenmiş olabileceği karşı edimi de gözeterek kapsam veya süre bakımından **sınırlayabilir**.\n\n**Aykırılığın sonuçları (TBK m. 446):**\n- İşçi, işverenin uğradığı bütün zararı giderir (TBK m. 446/1).\n- Ceza koşulu varsa ve sözleşmede aksi hüküm yoksa işçi öngörülen miktarı ödeyerek yasaktan kurtulabilir; ancak aşan zararı da giderir (TBK m. 446/2).\n- İşveren, ceza koşulu ve ek zarar dışında, **sözleşmede yazılı olarak açıkça saklı tutmuşsa** ve menfaatlerin önemi ile işçinin davranışı haklı gösteriyorsa yasağa aykırı davranışa son verilmesini de isteyebilir (TBK m. 446/3).\n\n**Sona erme (TBK m. 447):** İşverenin yasağı sürdürmekte gerçek bir yararı olmadığı belirlenirse veya sözleşme haklı sebep olmaksızın işverence ya da işverene yüklenebilen bir nedenle işçice feshedilirse rekabet yasağı sona erer.\n\n> **Örnek:** Batarya tasarımını yürüten Ar-Ge mühendisi Melis, \"iki yıl rakip firmada çalışmayacağım; aksi hâlde 500.000 TL öderim\" diye yazılı taahhüt vermiştir. Sözleşmede işverenin aynen ifa hakkı saklı tutulmamıştır. Melis rakipte çalışırsa 500.000 TL'yi ödeyerek yasaktan kurtulabilir; işveren çalışmasının durdurulmasını isteyemez. Ücreti ödenmediği için haklı fesih yapmışsa yasak sona erer (TBK m. 447/2).\n\n> ⚠️ **Sınavda dikkat:** Hizmet ilişkisi müşteri çevresi, üretim sırları veya işverenin işleri hakkında bilgi edinme imkânı sağlamayan işçiyle (ör. temizlik personeli) yapılan rekabet yasağı, yazılı olsa ve süre iki yılı aşmasa bile TBK m. 444/2 gereği geçerli değildir.\n\n## 8. Denetim şeması\n\n1. **Sözleşme türü:** Belirli mi, belirsiz mi? Süre bitti mi, örtülü sürdürme var mı (TBK m. 430)?\n2. **Fesih yolu:** Bildirimli mi, derhâl mi? Hangi kanun (TBK m. 432 ya da İK m. 17)?\n3. **Süreler:** Kıdeme göre bildirim süresi, eşitlik ve artırma (TBK m. 432).\n4. **Haklı sebep ve usul:** Yazılı bildirim, haklı sebep (TBK m. 435-436); hak düşürücü süreler (İK m. 26).\n5. **Sonuç:** Haklı fesihte tam zarar (TBK m. 437); haksız feste bakiye süre ve mahsup (TBK m. 438); işçinin işi bırakması (TBK m. 439).\n6. **Ölüm ve geri verme:** TBK m. 440-443.\n7. **Rekabet yasağı:** Dört şart, sınırlar, ceza koşulu ve men, sona erme (TBK m. 444-447).",
+  "critical_md": "- 📌 Belirli süreli sözleşme süre bitiminde kendiliğinden sona erer; süre bittikten sonra örtülü sürdürülürse belirsiz süreliye dönüşür (TBK m. 430/1-2).\n- 📌 On yıldan uzun sözleşme, on yıl geçtikten sonra altı aylık bildirimle feshedilebilir; fesih izleyen aybaşında hüküm doğurur (TBK m. 430/3).\n- 📌 Belirsiz sürelide bildirim süreleri iki, dört ve altı haftadır (bir yıla kadar, bir-beş yıl, beş yıldan fazla); TBK'da sekiz hafta yoktur (TBK m. 432/2).\n- ⚠️ Bildirim süreleri kısaltılamaz, artırılabilir; farklı süreler yazılmışsa her iki tarafa en uzun süre uygulanır (TBK m. 432/3, TBK m. 432/5).\n- 📌 Sözleşme askıdayken bildirim süreleri işlemez; işveren süreye ait ücreti peşin vererek feshedebilir (TBK m. 432/4, TBK m. 432/6).\n- 📌 Deneme süresi en çok iki aydır; bu sürede bildirim süresine uyulmaz, tazminat ödenmez, çalışılan günlerin ücreti saklıdır (TBK m. 433).\n- 📌 Fesih hakkının kötüye kullanılmasında bildirim süresi ücretinin üç katı kötüniyet tazminatı ödenir (TBK m. 434).\n- 📌 Haklı sebeple derhâl fesihte sebep yazılı bildirilmek zorundadır (TBK m. 435/1); dürüstlük kurallarına göre sürdürülmesi beklenemeyen her durum haklı sebeptir (TBK m. 435/2).\n- 📌 İşverenin ödeme güçsüzlüğünde güvence verilmezse işçi derhâl feshedebilir (TBK m. 436).\n- ⚠️ Haksız derhâl fesihte tazminat belirsiz sürelide bildirim süresi, belirli sürelide kalan süre ücreti kadardır; belirli sürelide tasarruf edilen ve başka işten kazanılan veya bilerek kazanılmayan miktar indirilir (TBK m. 438/1-2).\n- 📌 Hâkimin takdir edeceği ek tazminat işçinin altı aylık ücretini aşamaz (TBK m. 438/3).\n- 📌 İşçinin haksız işi bırakmasında tazminat aylık ücretin dörtte biridir (zarar yoksa veya daha azsa hâkim indirebilir); hak, takasla sona ermemişse otuz gün içinde kullanılmazsa düşer (TBK m. 439).\n- 📌 İşçi ölürse bir (beş yıldan uzun ilişkide iki) aylık ücret eş ve ergin olmayan çocuklara, yoksa bakmakla yükümlü olunanlara ödenir (TBK m. 440).\n- ⚠️ Sona ermede tarafların hapis hakları saklıdır (TBK m. 443/3).\n- 📌 Rekabet yasağı yazılıdır, fiil ehliyeti ister, müşteri çevresi, üretim sırları veya işler hakkında bilgi imkânı ve önemli zarar ihtimali şarttır; özel durum dışında iki yılı aşamaz (TBK m. 444, TBK m. 445).\n- ⚠️ Rekabet yasağı ihlalinde işçi, sözleşmede aksine hüküm yoksa ceza koşulunu ödeyerek kurtulur, ancak cezayı aşan zararı da giderir; men için yazılı saklı tutma gerekir. Haksız fesih veya işverene yüklenebilir sebep ve gerçek yarar kalmaması yasağı sona erdirir (TBK m. 446, TBK m. 447).",
+  "doctrine_md": "### 1. Yazılı sebep bildirimi haklı feshin geçerlilik şartı mıdır?\n\nTBK m. 435/1 sebebin yazılı bildirilmesini zorunlu kılar, ancak bunun yapılmamasının sonucunu söylemez.\n\n- **Birinci görüş:** Yazılı bildirim geçerlilik şartıdır; yapılmazsa fesih haklı sayılamaz. Gerekçe, kanunun \"zorunda\" demesi ve karşı tarafın sebebi öğrenip savunma hazırlamasının korunmasıdır.\n- **İkinci görüş:** Kural yalnızca bilgilendirme ve ispat amacı taşır; haklı sebep gerçekten varsa yazılı bildirim eksikliği feshi geçersiz kılmaz.\n\nYargıtay 3. Hukuk Dairesi, bir pilot davasında sebep bildirmeksizin sözleşmeyi bırakan işçinin feshini haklı saymamıştır (kararlar bölümüne bak).\n\n### 2. Bakiye süre ücreti ile cezai şart ilişkisi\n\nTBK m. 438/1'e göre belirli süreli sözleşmenin haksız feshinde işçi kalan süreye ait kazancı tazminat olarak ister. Sözleşmelere sık yazılan \"erken fesihte kalan aylar kadar ödeme\" kaydının cezai şart mı, yoksa TBK m. 438'in tekrarı mı olduğu sorunludur.\n\n- **Birinci görüş:** Kayıt \"cezai şart\" adıyla yazılmamış ve kanundaki tazminatı tekrar ediyorsa cezai şart değil bakiye süre ücreti tazminatıdır.\n- **İkinci görüş:** Taraflar böyle bir ödemeyi sözleşmeyle bağlamışsa, adı ne olursa olsun, kararlaştırılan miktar cezai şart gibi geçerli olur.\n\nHukuk Genel Kurulu, incelenen kararında birinci görüşü benimsemiş; sözleşmenin belirsiz süreli olduğunun kesinleşmesi hâlinde TBK m. 438 uygulanamayacağından davayı reddetmek gerektiğini belirtmiştir. Kurulda bu kaydın cezai şart sayılması gerektiğini savunan görüş de ileri sürülmüştür. Bakiye süre ücretinin niteliği (müspet zararı gideren tazminat mı, kabulde temerrüt gereği ücret mi) de ayrıca tartışılır; Genel Kurul tazminat niteliğini kabul eder (karşı görüş TBK m. 408'e dayanır).\n\n### 3. Rekabet yasağı sözleşmesinin yorumu\n\nTaraflar \"Ankara veya İstanbul sınırları içinde başka bir teşebbüste çalışmama\" kararlaştırmışsa rakip şirketin merkezi bu illerdeyken fabrikası başka ilde olan işyeri kapsama girer mi?\n\n- **Birinci görüş (dar yorum):** Rekabet yasağı işçinin çalışma özgürlüğünü kısıtladığı için dar yorumlanmalı; işçinin fiilen çalıştığı yer esas alınmalıdır.\n- **İkinci görüş (amaçsal yorum):** \"Teşebbüs\" ekonomik bağımsızlığı olan bir bütündür; merkez ve şubeleriyle tüm ticari işletmeleri kapsar. Fiilen çalışılan yer önemli değildir.\n\nHukuk Genel Kurulu oy çokluğuyla ikinci görüşü benimsemiştir. TBK m. 445/2 ise aşırı yasakta hâkime kapsamı veya süreyi sınırlama yetkisi verir; bu yetki tümden geçersizlik yerine sınırlandırılmış geçerliliği öngörür.",
+  "glossary": [
+   {
+    "term": "Belirli süreli hizmet sözleşmesi",
+    "definition": "Süresi önceden belirlenen sözleşme; süre bitince kendiliğinden sona erer (TBK m. 430/1)."
+   },
+   {
+    "term": "Örtülü sürdürme",
+    "definition": "Belirli süre bittikten sonra çalışmanın bildirim yapılmadan devamı; sözleşmeyi belirsiz süreliye dönüştürür (TBK m. 430/2)."
+   },
+   {
+    "term": "Fesih bildirim süresi",
+    "definition": "Belirsiz süreli sözleşmede feshin hüküm doğurması için beklenen iki, dört veya altı haftalık süre (TBK m. 432)."
+   },
+   {
+    "term": "Deneme süresi",
+    "definition": "En çok iki ay süren, bildirim süresine uyulmadan ve tazminatsız feshe imkân veren dönem (TBK m. 433)."
+   },
+   {
+    "term": "Kötüniyet tazminatı",
+    "definition": "Fesih hakkının kötüye kullanılması hâlinde bildirim süresi ücretinin üç katı olan tazminat (TBK m. 434)."
+   },
+   {
+    "term": "Haklı sebeple derhâl fesih",
+    "definition": "Dürüstlük kurallarına göre ilişkinin sürdürülmesi beklenemediğinde, sebep yazılı bildirilerek yapılan fesih (TBK m. 435)."
+   },
+   {
+    "term": "Bakiye süre ücreti",
+    "definition": "Belirli süreli sözleşmenin haksız feshinde sözleşme süresine uyulsaydı kazanılacak miktar kadar tazminat (TBK m. 438/1)."
+   },
+   {
+    "term": "Mahsup",
+    "definition": "Belirli süreli sözleşmede işçinin tasarruf ettiği ve başka işten kazandığı veya kazanmaktan kaçındığı gelirin tazminattan indirilmesi (TBK m. 438/2)."
+   },
+   {
+    "term": "Hak düşürücü süre",
+    "definition": "Süresi içinde kullanılmayan hakkı kendiliğinden ortadan kaldıran süre; TBK m. 439/3'te işveren için otuz gündür."
+   },
+   {
+    "term": "Ölüm tazminatı",
+    "definition": "İşçinin ölümünde eş ve ergin olmayan çocuklara bir veya iki aylık ücret ödenmesi (TBK m. 440)."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Borcun ifasının istenebilir hâle gelmesi; sona erme ile bütün borçlar muaccel olur (TBK m. 442)."
+   },
+   {
+    "term": "Hapis hakkı",
+    "definition": "Alacak ödenene kadar elindeki şeyi geri vermeme hakkı; sona ermede tarafların hapis hakları saklıdır (TBK m. 443/3)."
+   },
+   {
+    "term": "Rekabet yasağı sözleşmesi",
+    "definition": "İşçinin sözleşme bitiminden sonra işverenle rekabet etmemeyi yazılı olarak üstlendiği anlaşma (TBK m. 444)."
+   },
+   {
+    "term": "Rekabet yasağının sınırlandırılması",
+    "definition": "Aşırı yasağın hâkim tarafından kapsam veya süre yönünden daraltılması; süre özel durum dışında iki yılı aşamaz (TBK m. 445)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "430",
+   "official_text": "MADDE 430- Belirli süreli hizmet sözleşmesi, aksi kararlaştırılmadıkça, fesih bildiriminde bulunulmasına gerek olmaksızın, sürenin bitiminde kendiliğinden sona erer.\nBelirli süreli sözleşme, süresinin bitiminden sonra örtülü olarak sürdürülüyorsa, belirsiz süreli sözleşmeye dönüşür. Ancak, esaslı bir sebebin varlığı hâlinde, üst üste belirli süreli hizmet sözleşmesi kurulabilir.\nTaraflardan her biri, on yıldan uzun süreli hizmet sözleşmesini on yıl geçtikten sonra, altı aylık fesih bildirim süresine uyarak feshedebilir. Fesih, ancak bu süreyi izleyen aybaşında hüküm ifade eder.\nSözleşmenin fesih bildirimiyle sona ereceği kararlaştırılmış ve iki taraf da fesih bildiriminde bulunmamışsa, sözleşme belirsiz süreli sözleşmeye dönüşür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "431",
+   "official_text": "MADDE 431- Taraflardan her birinin, belirsiz süreli sözleşmeyi fesih sürelerine uyarak feshetme hakkı vardır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "432",
+   "official_text": "MADDE 432- Belirsiz süreli hizmet sözleşmelerinin feshinden önce, durumun diğer tarafa bildirilmesi gerekir.\nHizmet sözleşmesi; bildirimin diğer tarafa ulaşmasından başlayarak, hizmet süresi bir yıla kadar sürmüş olan işçi için iki hafta sonra; bir yıldan beş yıla kadar sürmüş işçi için dört hafta ve beş yıldan fazla sürmüş işçi için altı hafta sonra sona erer.\nBu süreler kısaltılamaz; ancak sözleşmeyle artırılabilir.\nİşveren, fesih bildirim süresine ait ücreti peşin vermek suretiyle hizmet sözleşmesini feshedebilir.\nFesih bildirim sürelerinin, her iki taraf için de aynı olması zorunludur; sözleşmede farklı süreler öngörülmüşse, her iki tarafa da en uzun olan fesih bildirim süresi uygulanır.\nHizmet sözleşmesinin askıya alındığı hâllerde fesih bildirim süreleri işlemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "433",
+   "official_text": "MADDE 433- Taraflar, hizmet sözleşmesine iki ayı aşmamak koşuluyla deneme süresi koyabilirler. Deneme süresi konulmuşsa taraflar, bu süre içinde fesih süresine uymak zorunda olmaksızın, hizmet sözleşmesini tazminatsız feshedebilirler.\nİşçinin çalıştığı günler için ücret ve diğer hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "434",
+   "official_text": "MADDE 434- Hizmet sözleşmesinin fesih hakkının kötüye kullanılarak sona erdirildiği durumlarda işveren, işçiye fesih bildirim süresine ait ücretin üç katı tutarında tazminat ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "435",
+   "official_text": "MADDE 435- Taraflardan her biri, haklı sebeplerle sözleşmeyi derhâl feshedebilir. Sözleşmeyi fesheden taraf, fesih sebebini yazılı olarak bildirmek zorundadır.\nSözleşmeyi fesheden taraftan, dürüstlük kurallarına göre hizmet ilişkisini sürdürmesi beklenemeyen bütün durum ve koşullar, haklı sebep sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "436",
+   "official_text": "MADDE 436- İşverenin ödeme güçsüzlüğüne düşmesi hâlinde işçi, sözleşmeden doğan hakları uygun bir süre içinde işveren tarafından güvenceye bağlanmazsa, sözleşmeyi derhâl feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "437",
+   "official_text": "MADDE 437- Haklı fesih sebepleri, taraflardan birinin sözleşmeye uymamasından doğmuşsa o taraf, sebep olduğu zararı, hizmet ilişkisine dayanan bütün haklar göz önünde tutularak, tamamen gidermekle yükümlüdür.\nDiğer durumlarda hâkim, bütün durum ve koşulları göz önünde tutarak haklı sebeple feshin maddi sonuçlarını serbestçe değerlendirir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "438",
+   "official_text": "MADDE 438- İşveren, haklı sebep olmaksızın hizmet sözleşmesini derhâl feshederse işçi, belirsiz süreli sözleşmelerde, fesih bildirim süresine; belirli süreli sözleşmelerde ise, sözleşme süresine uyulmaması durumunda, bu sürelere uyulmuş olsaydı kazanabileceği miktarı, tazminat olarak isteyebilir.\nBelirli süreli hizmet sözleşmesinde işçinin hizmet sözleşmesinin sona ermesi yüzünden tasarruf ettiği miktar ile başka bir işten elde ettiği veya bilerek elde etmekten kaçındığı gelir, tazminattan indirilir.\nHâkim, bütün durum ve koşulları göz önünde tutarak, ayrıca miktarını serbestçe belirleyeceği bir tazminatın işçiye ödenmesine karar verebilir; ancak belirlenecek tazminat miktarı, işçinin altı aylık ücretinden fazla olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "439",
+   "official_text": "MADDE 439- İşçi, haklı sebep olmaksızın işe başlamadığı veya aniden işi bıraktığı takdirde işveren, aylık ücretin dörtte birine eşit bir tazminat isteme hakkına sahiptir. İşverenin, ayrıca ek zararlarının giderilmesini isteme hakkı da vardır.\nİşveren zarara uğramamışsa veya uğradığı zarar işçinin aylık ücretinin dörtte birinden az ise, hâkim tazminatı indirebilir.\nTazminat isteme hakkı takas yoluyla sona ermemişse işveren, işçinin işe başlamamasından veya işi bırakmasından başlayarak otuz gün içinde, dava veya takip yoluyla bu hakkını kullanmak zorundadır. Aksi takdirde, tazminat isteme hakkı düşer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "440",
+   "official_text": "MADDE 440- Sözleşme, işçinin ölümüyle kendiliğinden sona erer. İşveren, işçinin sağ kalan eşine ve ergin olmayan çocuklarına, yoksa bakmakla yükümlü olduğu kişilere, ölüm gününden başlayarak bir aylık; hizmet ilişkisi beş yıldan uzun bir süre devam etmişse, iki aylık ücret tutarında bir ödeme yapmakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "441",
+   "official_text": "MADDE 441- İşverenin ölümü hâlinde, yerini mirasçıları alır. Bu durumda işyerinin tamamının veya bir bölümünün devri ile gerçekleşen hizmet ilişkisinin devrine ilişkin hükümler kıyas yoluyla uygulanır.\nHizmet sözleşmesi ağırlıklı olarak işverenin kişiliği dikkate alınmak suretiyle kurulmuşsa, onun ölümüyle kendiliğinden sona erer. Ancak, işçi sözleşmenin süresinden önce sona ermesi yüzünden uğradığı zarar için, mirasçılardan hakkaniyete uygun bir tazminat isteminde bulunabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "442",
+   "official_text": "MADDE 442- Sözleşmenin sona ermesiyle, sözleşmeden doğan bütün borçlar muaccel olur.\nMuacceliyet anı, işçinin aracılığı suretiyle kurulan hukuki ilişkilerde üçüncü kişinin üstlendiği borç, hizmet sözleşmesinin sona ermesinden sonra tamamen veya kısmen ifa edilecekse altı aya; dönemsel edimler içeren ilişkilerde bir yıla; sigorta sözleşmelerinde veya ifası altı aydan uzun bir süreye yayılmış olan işlerde ise iki yıla kadar, yazılı bir anlaşmayla ertelenebilir.\nÜretilenden pay verilmesi öngörülen hâllerde ürün payı belirlenir belirlenmez, cirodan veya kârdan pay verilmesi kararlaştırılan hâllerde ise pay, hesap dönemini izleyen en geç üç ay sonunda muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "443",
+   "official_text": "MADDE 443- Sözleşmenin sona ermesi durumunda, taraflardan her biri, diğerinden veya üçüncü bir kişiden diğerinin hesabına, hizmetle ilişkili olarak almış olduğu şeyleri geri vermekle yükümlüdür.\nİşçi, özellikle motorlu taşıtları ve trafik izin belgelerini, alacaklarından fazla olduğu ölçüde ücret ve masraf avanslarını geri vermekle yükümlüdür.\nTarafların hapis hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "444",
+   "official_text": "MADDE 444- Fiil ehliyetine sahip olan işçi, işverene karşı, sözleşmenin sona ermesinden sonra herhangi bir biçimde onunla rekabet etmekten, özellikle kendi hesabına rakip bir işletme açmaktan, başka bir rakip işletmede çalışmaktan veya bunların dışında, rakip işletmeyle başka türden bir menfaat ilişkisine girişmekten kaçınmayı yazılı olarak üstlenebilir.\nRekabet yasağı kaydı, ancak hizmet ilişkisi işçiye müşteri çevresi veya üretim sırları ya da işverenin yaptığı işler hakkında bilgi edinme imkânı sağlıyorsa ve aynı zamanda bu bilgilerin kullanılması, işverenin önemli bir zararına sebep olacak nitelikteyse geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "445",
+   "official_text": "MADDE 445- Rekabet yasağı, işçinin ekonomik geleceğini hakkaniyete aykırı olarak tehlikeye düşürecek biçimde yer, zaman ve işlerin türü bakımından uygun olmayan sınırlamalar içeremez ve süresi, özel durum ve koşullar dışında iki yılı aşamaz.\nHâkim, aşırı nitelikteki rekabet yasağını, bütün durum ve koşulları serbestçe değerlendirmek ve işverenin üstlenmiş olabileceği karşı edimi de hakkaniyete uygun biçimde göz önünde tutmak suretiyle, kapsamı veya süresi bakımından sınırlayabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "446",
+   "official_text": "MADDE 446- Rekabet yasağına aykırı davranan işçi, bunun sonucu olarak işverenin uğradığı bütün zararları gidermekle yükümlüdür.\nYasağa aykırı davranış bir ceza koşuluna bağlanmışsa ve sözleşmede aksine bir hüküm de yoksa, işçi öngörülen miktarı ödeyerek rekabet yasağına ilişkin borcundan kurtulabilir; ancak, işçi bu miktarı aşan zararı gidermek zorundadır.\nİşveren, ceza koşulu ve doğabilecek ek zararlarının ödenmesi dışında, sözleşmede yazılı olarak açıkça saklı tutması koşuluyla, kendisinin ihlal veya tehdit edilen menfaatlerinin önemi ile işçinin davranışı haklı gösteriyorsa, yasağa aykırı davranışa son verilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "447",
+   "official_text": "MADDE 447- Rekabet yasağı, işverenin bu yasağın sürdürülmesinde gerçek bir yararının olmadığı belirlenmişse sona erer.\nSözleşme, haklı bir sebep olmaksızın işveren tarafından veya işverene yüklenebilen bir nedenle işçi tarafından feshedilirse, rekabet yasağı sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "420",
+   "official_text": "MADDE 420- Hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir.\nİşçinin işverenden alacağına ilişkin ibra sözleşmesinin yazılı olması, ibra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak en az bir aylık sürenin geçmiş bulunması, ibra konusu alacağın türünün ve miktarının açıkça belirtilmesi, ödemenin hak tutarına nazaran noksansız ve banka aracılığıyla yapılması şarttır. Bu unsurları taşımayan ibra sözleşmeleri veya ibraname kesin olarak hükümsüzdür.\nHakkın gerçek tutarda ödendiğini ihtiva etmeyen ibra sözleşmeleri veya ibra beyanını muhtevi diğer ödeme belgeleri, içerdikleri miktarla sınırlı olarak makbuz hükmündedir. Bu hâlde dahi, ödemelerin banka aracılığıyla yapılmış olması zorunludur.\nİkinci ve üçüncü fıkra hükümleri, destekten yoksun kalanlar ile işçinin diğer yakınlarının isteyebilecekleri dâhil, hizmet sözleşmesinden doğan bütün tazminat alacaklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "396",
+   "official_text": "MADDE 396- İşçi, yüklendiği işi özenle yapmak ve işverenin haklı menfaatinin korunmasında sadakatle davranmak zorundadır.\nİşçi, işverene ait makineleri, araç ve gereçleri, teknik sistemleri, tesisleri ve taşıtları usulüne uygun olarak kullanmak ve bunlarla birlikte işin görülmesi için kendisine teslim edilmiş olan malzemeye özen göstermekle yükümlüdür.\nİşçi, hizmet ilişkisi devam ettiği sürece, sadakat borcuna aykırı olarak bir ücret karşılığında üçüncü kişiye hizmette bulunamaz ve özellikle kendi işvereni ile rekabete girişemez.\nİşçi, iş gördüğü sırada öğrendiği, özellikle üretim ve iş sırları gibi bilgileri, hizmet ilişkisinin devamı süresince kendi yararına kullanamaz veya başkalarına açıklayamaz. İşverenin haklı menfaatinin korunması için gerekli olduğu ölçüde işçi, hizmet ilişkisinin sona ermesinden sonra da sır saklamakla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "408",
+   "official_text": "MADDE 408- İşveren, işgörme ediminin yerine getirilmesini kusuruyla engellerse veya edimi kabulde temerrüde düşerse, işçiye ücretini ödemekle yükümlü olup, işçiden bu edimini daha sonra yerine getirmesini isteyemez. Ancak, işçinin bu engelleme sebebiyle yapmaktan kurtulduğu giderler ile başka bir iş yaparak kazandığı veya kazanmaktan bilerek kaçındığı yararlar ücretinden indirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "4",
+   "official_text": "İstisnalar\nMadde 4 -Aşağıda belirtilen işlerde ve iş ilişkilerinde bu Kanun hükümleri uygulanmaz;\na) Deniz ve hava taşıma işlerinde,\nb) 50'den az işçi çalıştırılan (50 dahil) tarım ve orman işlerinin yapıldığı işyerlerinde veya işletmelerinde,\nc) Aile ekonomisi sınırları içinde kalan tarımla ilgili her çeşit yapı işleri,\nd) Bir ailenin üyeleri ve 3 üncü dereceye kadar (3 üncü derece dahil) hısımları arasında dışardan başka biri katılmayarak evlerde ve el sanatlarının yapıldığı işlerde,\ne) Ev hizmetlerinde,\nf) (…)[4] çıraklar hakkında,\ng) Sporcular hakkında,\nh) Rehabilite edilenler hakkında,\nı) 507 sayılı Esnaf ve Sanatkârlar Kanununun 2 nci maddesinin tarifine uygun üç kişinin çalıştığı işyerlerinde.\nŞu kadar ki;\na) Kıyılarda veya liman ve iskelelerde gemilerden karaya ve karadan gemilere yapılan yükleme ve boşaltma işleri,\nb) Havacılığın bütün yer tesislerinde yürütülen işler,\nc) Tarım sanatları ile tarım aletleri, makine ve parçalarının yapıldığı atölye ve fabrikalarda görülen işler,\nd) Tarım işletmelerinde yapılan yapı işleri,\ne) Halkın faydalanmasına açık veya işyerinin eklentisi durumunda olan park ve bahçe işleri,\nf) Deniz İş Kanunu kapsamına girmeyen ve tarım işlerinden sayılmayan, denizlerde çalışan su ürünleri üreticileri ile ilgili işler,\nBu Kanun hükümlerine tabidir.\n[4] 20/6/2012 tarihli ve 6331 sayılı Kanunun 37 nci maddesiyle, bu bentte yer alan “İş sağlığı ve güvenliği hükümleri saklı kalmak üzere” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "11",
+   "official_text": "Belirli ve belirsiz süreli iş sözleşmesi\nMadde 11 - İş ilişkisinin bir süreye bağlı olarak yapılmadığı halde sözleşme belirsiz süreli sayılır. Belirli süreli işlerde veya belli bir işin tamamlanması veya belirli bir olgunun ortaya çıkması gibi objektif koşullara bağlı olarak işveren ile işçi arasında yazılı şekilde yapılan iş sözleşmesi belirli süreli iş sözleşmesidir.\nBelirli süreli iş sözleşmesi, esaslı bir neden olmadıkça, birden fazla üst üste (zincirleme) yapılamaz. Aksi halde iş sözleşmesi başlangıçtan itibaren belirsiz süreli kabul edilir.\nEsaslı nedene dayalı zincirleme iş sözleşmeleri, belirli süreli olma özelliğini korurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "15",
+   "official_text": "Deneme süreli iş sözleşmesi\nMadde 15 - Taraflarca iş sözleşmesine bir deneme kaydı konulduğunda, bunun süresi en çok iki ay olabilir. Ancak deneme süresi toplu iş sözleşmeleriyle dört aya kadar uzatılabilir.\nDeneme süresi içinde taraflar iş sözleşmesini bildirim süresine gerek olmaksızın ve tazminatsız feshedebilir. İşçinin çalıştığı günler için ücret ve diğer hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "17",
+   "official_text": "Süreli fesih\nMadde 17 - Belirsiz süreli iş sözleşmelerinin feshinden önce durumun diğer tarafa bildirilmesi gerekir.\nİş sözleşmeleri;\na) İşi altı aydan az sürmüş olan işçi için, bildirimin diğer tarafa yapılmasından başlayarak iki hafta sonra,\nb) İşi altı aydan birbuçuk yıla kadar sürmüş olan işçi için, bildirimin diğer tarafa yapılmasından başlayarak dört hafta sonra,\nc) İşi birbuçuk yıldan üç yıla kadar sürmüş olan işçi için, bildirimin diğer tarafa yapılmasından başlayarak altı hafta sonra,\nd) İşi üç yıldan fazla sürmüş işçi için, bildirim yapılmasından başlayarak sekiz hafta sonra,\nfeshedilmiş sayılır.\nBu süreler asgari olup sözleşmeler ile artırılabilir.\nBildirim şartına uymayan taraf, bildirim süresine ilişkin ücret tutarında tazminat ödemek zorundadır.\nİşveren bildirim süresine ait ücreti peşin vermek suretiyle iş sözleşmesini feshedebilir.\nİşverenin bildirim şartına uymaması veya bildirim süresine ait ücreti peşin ödeyerek sözleşmeyi feshetmesi, bu Kanunun 18, 19, 20 ve 21 inci maddesi hükümlerinin uygulanmasına engel olmaz. 18 inci maddenin birinci fıkrası uyarınca bu Kanunun 18, 19, 20 ve 21 inci maddelerinin uygulanma alanı dışında kalan işçilerin iş sözleşmesinin, fesih hakkının kötüye kullanılarak sona erdirildiği durumlarda işçiye bildirim süresinin üç katı tutarında tazminat ödenir. Fesih için bildirim şartına da uyulmaması ayrıca dördüncü fıkra uyarınca tazminat ödenmesini gerektirir.\nBu maddeye göre ödenecek tazminatlar ile bildirim sürelerine ait peşin ödenecek ücretin hesabında 32 nci maddenin birinci fıkrasında yazılan ücrete ek olarak işçiye sağlanmış para veya para ile ölçülmesi mümkün sözleşme ve Kanundan doğan menfaatler de göz önünde tutulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "18",
+   "official_text": "Feshin geçerli sebebe dayandırılması\nMadde 18 - Otuz veya daha fazla işçi çalıştıran işyerlerinde en az altı aylık kıdemi olan işçinin belirsiz süreli iş sözleşmesini fesheden işveren, işçinin yeterliliğinden veya davranışlarından ya da işletmenin, işyerinin veya işin gereklerinden kaynaklanan geçerli bir sebebe dayanmak zorundadır. (Ek cümle: 10/9/2014-6552/2 md.) Yer altı işlerinde çalışan işçilerde kıdem şartı aranmaz.\nAltı aylık kıdem hesabında bu Kanunun 66 ncı maddesindeki süreler dikkate alınır.\nÖzellikle aşağıdaki hususlar fesih için geçerli bir sebep oluşturmaz:\na) Sendika üyeliği veya çalışma saatleri dışında veya işverenin rızası ile çalışma saatleri içinde sendikal faaliyetlere katılmak.\nb) İşyeri sendika temsilciliği yapmak.\nc) Mevzuattan veya sözleşmeden doğan haklarını takip veya yükümlülüklerini yerine getirmek için işveren aleyhine idari veya adli makamlara başvurmak veya bu hususta başlatılmış sürece katılmak.[6]\nd) Irk, renk, cinsiyet, medeni hal, aile yükümlülükleri, hamilelik, doğum, din, siyasi görüş ve benzeri nedenler.\ne) 74 üncü maddede öngörülen ve kadın işçilerin çalıştırılmasının yasak olduğu sürelerde işe gelmemek.\nf) Hastalık veya kaza nedeniyle 25 inci maddenin (I) numaralı bendinin (b) alt bendinde öngörülen bekleme süresinde işe geçici devamsızlık.\nİşçinin altı aylık kıdemi, aynı işverenin bir veya değişik işyerlerinde geçen süreler birleştirilerek hesap edilir. İşverenin aynı işkolunda birden fazla işyerinin bulunması halinde, işyerinde çalışan işçi sayısı, bu işyerlerinde çalışan toplam işçi sayısına göre belirlenir.\nİşletmenin bütününü sevk ve idare eden işveren vekili ve yardımcıları ile işyerinin bütününü sevk ve idare eden ve işçiyi işe alma ve işten çıkarma yetkisi bulunan işveren vekilleri hakkında bu madde, 19 ve 21 inci maddeler ile 25 inci maddenin son fıkrası uygulanmaz.\n[6] 18/2/2009 tarihli ve 5838 sayılı Kanunun 32 nci maddesiyle; bu bentte yer alan “Mevzuattan veya sözleşmeden doğan haklarını takip” ibaresinden sonra gelmek üzere “veya yükümlülüklerini yerine getirmek” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "24",
+   "official_text": "İşçinin haklı nedenle derhal fesih hakkı\nMadde 24 - Süresi belirli olsun veya olmasın işçi, aşağıda yazılı hallerde iş sözleşmesini sürenin bitiminden önce veya bildirim süresini beklemeksizin feshedebilir:\nI. Sağlık sebepleri:\na) İş sözleşmesinin konusu olan işin yapılması işin niteliğinden doğan bir sebeple işçinin sağlığı veya yaşayışı için tehlikeli olursa.\nb) İşçinin sürekli olarak yakından ve doğrudan buluşup görüştüğü işveren yahut başka bir işçi bulaşıcı veya işçinin işi ile bağdaşmayan bir hastalığa tutulursa.\nII. Ahlak ve iyiniyet kurallarına uymayan haller ve benzerleri:\na) İşveren iş sözleşmesi yapıldığı sırada bu sözleşmenin esaslı noktalarından biri hakkında yanlış vasıflar veya şartlar göstermek yahut gerçeğe uygun olmayan bilgiler vermek veya sözler söylemek suretiyle işçiyi yanıltırsa.\nb) İşveren işçinin veya ailesi üyelerinden birinin şeref ve namusuna dokunacak şekilde sözler söyler, davranışlarda bulunursa veya işçiye cinsel tacizde bulunursa.\nc) İşveren işçiye veya ailesi üyelerinden birine karşı sataşmada bulunur veya gözdağı verirse, yahut işçiyi veya ailesi üyelerinden birini kanuna karşı davranışa özendirir, kışkırtır, sürükler, yahut işçiye ve ailesi üyelerinden birine karşı hapsi gerektiren bir suç işlerse yahut işçi hakkında şeref ve haysiyet kırıcı asılsız ağır isnad veya ithamlarda bulunursa.\nd) İşçinin diğer bir işçi veya üçüncü kişiler tarafından işyerinde cinsel tacize uğraması ve bu durumu işverene bildirmesine rağmen gerekli önlemler alınmazsa.\ne) İşveren tarafından işçinin ücreti kanun hükümleri veya sözleşme şartlarına uygun olarak hesap edilmez veya ödenmezse,\nf) Ücretin parça başına veya iş tutarı üzerinden ödenmesi kararlaştırılıp da işveren tarafından işçiye yapabileceği sayı ve tutardan az iş verildiği hallerde, aradaki ücret farkı zaman esasına göre ödenerek işçinin eksik aldığı ücret karşılanmazsa, yahut çalışma şartları uygulanmazsa.\nIII. Zorlayıcı sebepler:\nİşçinin çalıştığı işyerinde bir haftadan fazla süre ile işin durmasını gerektirecek zorlayıcı sebepler ortaya çıkarsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "25",
+   "official_text": "İşverenin haklı nedenle derhal fesih hakkı\nMadde 25 - Süresi belirli olsun veya olmasın işveren, aşağıda yazılı hallerde iş sözleşmesini sürenin bitiminden önce veya bildirim süresini beklemeksizin feshedebilir:\nI- Sağlık sebepleri:\na) İşçinin kendi kastından veya derli toplu olmayan yaşayışından yahut içkiye düşkünlüğünden doğacak bir hastalığa yakalanması veya engelli hâle gelmesi durumunda, bu sebeple doğacak devamsızlığın ardı ardına üç iş günü veya bir ayda beş iş gününden fazla sürmesi.[7]\nb) İşçinin tutulduğu hastalığın tedavi edilemeyecek nitelikte olduğu ve işyerinde çalışmasında sakınca bulunduğunun Sağlık Kurulunca saptanması durumunda.\n(a) alt bendinde sayılan sebepler dışında işçinin hastalık, kaza, doğum ve gebelik gibi hallerde işveren için iş sözleşmesini bildirimsiz fesih hakkı; belirtilen hallerin işçinin işyerindeki çalışma süresine göre 17 nci maddedeki bildirim sürelerini altı hafta aşmasından sonra doğar. Doğum ve gebelik hallerinde bu süre 74 üncü maddedeki sürenin bitiminde başlar. Ancak işçinin iş sözleşmesinin askıda kalması nedeniyle işine gidemediği süreler için ücret işlemez.\nII- Ahlak ve iyi niyet kurallarına uymayan haller ve benzerleri:\na) İş sözleşmesi yapıldığı sırada bu sözleşmenin esaslı noktalarından biri için gerekli vasıflar veya şartlar kendisinde bulunmadığı halde bunların kendisinde bulunduğunu ileri sürerek, yahut gerçeğe uygun olmayan bilgiler veya sözler söyleyerek işçinin işvereni yanıltması.\nb) İşçinin, işveren yahut bunların aile üyelerinden birinin şeref ve namusuna dokunacak sözler sarfetmesi veya davranışlarda bulunması, yahut işveren hakkında şeref ve haysiyet kırıcı asılsız ihbar ve isnadlarda bulunması.\nc) İşçinin işverenin başka bir işçisine cinsel tacizde bulunması.\nd) İşçinin işverene yahut onun ailesi üyelerinden birine yahut işverenin başka işçisine sataşması, işyerine sarhoş yahut uyuşturucu madde almış olarak gelmesi ya da işyerinde bu maddeleri kullanması.[8]\ne) İşçinin, işverenin güvenini kötüye kullanmak, hırsızlık yapmak, işverenin meslek sırlarını ortaya atmak gibi doğruluk ve bağlılığa uymayan davranışlarda bulunması.\nf) İşçinin, işyerinde, yedi günden fazla hapisle cezalandırılan ve cezası ertelenmeyen bir suç işlemesi.\ng) İşçinin işverenden izin almaksızın veya haklı bir sebebe dayanmaksızın ardı ardına iki işgünü veya bir ay içinde iki defa herhangi bir tatil gününden sonraki iş günü, yahut bir ayda üç işgünü işine devam etmemesi.\nh) İşçinin yapmakla ödevli bulunduğu görevleri kendisine hatırlatıldığı halde yapmamakta ısrar etmesi.\nı) İşçinin kendi isteği veya savsaması yüzünden işin güvenliğini tehlikeye düşürmesi, işyerinin malı olan veya malı olmayıp da eli altında bulunan makineleri, tesisatı veya başka eşya ve maddeleri otuz günlük ücretinin tutarıyla ödeyemeyecek derecede hasara ve kayba uğratması.\nIII- Zorlayıcı sebepler:\nİşçiyi işyerinde bir haftadan fazla süre ile çalışmaktan alıkoyan zorlayıcı bir sebebin ortaya çıkması.\nIV- İşçinin gözaltına alınması veya tutuklanması halinde devamsızlığın 17 nci maddedeki bildirim süresini aşması.\nİşçi feshin yukarıdaki bentlerde öngörülen sebeplere uygun olmadığı iddiası ile 18, 20 ve 21 inci madde hükümleri çerçevesinde yargı yoluna başvurabilir.\n[7] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesiyle, bu alt bentte yer alan “veya sakatlığa uğraması halinde” ibaresi “yakalanması veya engelli hâle gelmesi durumunda” şeklinde değiştirilmiştir.\n[8] 20/6/2012 tarihli ve 6331 sayılı Kanunun 32 nci maddesiyle, bu alt bentte yer alan “veya 84 üncü maddeye aykırı hareket etmesi” ibaresi “, işyerine sarhoş yahut uyuşturucu madde almış olarak gelmesi ya da işyerinde bu maddeleri kullanması” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "26",
+   "official_text": "Derhal fesih hakkını kullanma süresi\nMadde 26 - 24 ve 25 inci maddelerde gösterilen ahlak ve iyiniyet kurallarına uymayan hallere dayanarak işçi veya işveren için tanınmış olan sözleşmeyi fesih yetkisi, iki taraftan birinin bu çeşit davranışlarda bulunduğunu diğer tarafın öğrendiği günden başlayarak altı iş günü geçtikten ve her halde fiilin gerçekleşmesinden itibaren bir yıl sonra kullanılamaz. Ancak işçinin olayda maddi çıkar sağlaması halinde bir yıllık süre uygulanmaz.\nBu haller sebebiyle işçi yahut işverenden iş sözleşmesini yukarıdaki fıkrada öngörülen süre içinde feshedenlerin diğer taraftan tazminat hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/429",
+   "karar_no": "2025/3",
+   "decision_date": "05.02.2025",
+   "summary_md": "Hukuk müşaviri olarak üniversitede dört yıl süreli sözleşmeyle çalışan avukat, sözleşmesi beş ay sonra işverence feshedilince önce ihbar tazminatı davası açmış ve sözleşmenin belirsiz süreli olduğu kesinleşmiştir. İkinci davada sözleşmenin 4. maddesindeki \"haksız feshe bağlı olarak son aylık ücret ile kalan ay sayısının çarpımı kadar tazminat\" hükmüne dayanarak cezai şart istemiştir. İlk derece mahkemesi davayı kısmen kabul etmiş, istinaf bu kararı esastan onamış; 9. Hukuk Dairesi bozmuş; mahkeme direnmiş; Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Genel Kurul, maddede cezai şart ifadesi bulunmadığını, hükmün TBK m. 438'deki bakiye süre ücretinin tekrarı niteliğinde olduğunu, sözleşme belirsiz süreli kesinleştiğinden TBK m. 438'in uygulanamayacağını belirterek davanın reddi gerektiğine karar vermiştir. Gerekçede, belirli süreli yapılmış ancak objektif koşulları taşımadığı için belirsiz süreli sayılan sözleşmede açıkça cezai şart olarak düzenlenen hükmün İçtihadı Birleştirme Kararı uyarınca geçerliliğini koruyacağı da hatırlatılmıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1126603300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2023/4379",
+   "karar_no": "2024/2297",
+   "decision_date": "16.09.2024",
+   "summary_md": "Havayolu şirketi, Fransa'da A-330 tip eğitimine gönderdiği pilotun eğitimi 04.08.2012'de tamamlandıktan sonra, üç yıllık zorunlu hizmeti bitirmeden ayrıldığını ileri sürerek 55.000 euro için icra takibi başlatmış ve itirazın iptalini istemiştir. Pilot, sebep bildirmeden ayrılmıştır. 3. Hukuk Dairesi'nin önceki karar düzeltme ilamında, TBK m. 435 uyarınca fesih sebebi yazılı bildirilmediği için feshin haklı sayılamayacağı, sözleşmedeki 25.000 euro eğitim gideri hükmünün bağlayıcı olduğu, ancak yalnız pilot aleyhine konulan iki aylık ücret tutarındaki cezai şartın TBK m. 420/1 gereği geçersiz olduğu belirtilmiştir. Mahkeme bozmaya uyarak 25.000 euro eğitim gideri alacağından pilotun maaş ve izin alacağını düşmüş, 15.988,16 euro üzerinden itirazı kısmen iptal etmiş, fazlaya ilişkin talebi reddetmiştir. Daire 16.09.2024'te harç ve yargılama giderleri yönünden düzelterek oy birliğiyle onamıştır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1089102900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/568",
+   "karar_no": "2025/526",
+   "decision_date": "17.09.2025",
+   "summary_md": "Akümülatör üreten şirkette 2009-2018 arasında üretim personeli olarak çalışan işçi, iş sözleşmesindeki \"iki yıl içinde Ankara veya İstanbul sınırları içinde rakip bir teşebbüste çalışmama\" kaydına ve son brüt maaşının yirmi katı cezai şarta rağmen, merkezi Ankara'da olan ancak fabrikası Çankırı'da bulunan rakip şirkette işe başlamıştır. Şirket 68.000 TL cezai şart istemiş; ticaret mahkemesi yarı oranda indirimle 34.000 TL'ye hükmetmiş; istinaf, fiilen Çankırı'da çalışıldığı gerekçesiyle davayı reddetmiş; 11. Hukuk Dairesi bozmuş; istinaf direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Genel Kurul, yasağın geçerliliğinin ve işçinin sır bilgisine sahip olmasının tartışma dışı kaldığını, uyuşmazlığın \"teşebbüs\" kavramının yorumuna ilişkin olduğunu belirtmiş; tarafların iradesi amaçsal yorumla incelendiğinde teşebbüsün, merkez ve şubeleriyle tüm ticari işletmelerini kapsadığını, bu nedenle Çankırı'daki fabrikada çalışmanın da yasağı ihlal edeceğini kabul etmiştir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1179611100",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Ali, bir yıllık belirli süreli hizmet sözleşmesiyle çalışmaktadır. Süre dolmuş, taraflar bildirim yapmadan çalışma aynı koşullarla devam etmiştir. Sözleşmenin durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Sözleşme, süre bittikten sonra örtülü olarak sürdürüldüğü için belirsiz süreli sözleşmeye dönüşür.",
+    "Sözleşme kendiliğinden bir yıl daha uzar.",
+    "Sözleşme, yeni bir yazılı sözleşme yapılana kadar askıdadır.",
+    "Sözleşme süre bitiminde sona ermiştir; çalışma fiili ilişki sayılır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 430/2'ye göre belirli süreli sözleşme, süresinin bitiminden sonra örtülü olarak sürdürülüyorsa belirsiz süreli sözleşmeye dönüşür. Sözleşmenin aynı süreyle kendiliğinden uzaması kanunda yoktur; esaslı bir sebep olmadıkça üst üste belirli süreli sözleşme de kurulamaz."
+  },
+  {
+   "stem_md": "Taraflar on beş yıllık belirli süreli bir hizmet sözleşmesi yapmıştır. Sözleşmenin on birinci yılında işçi sözleşmeyi sona erdirmek istemektedir. TBK m. 430/3'e göre hangisi doğrudur?",
+   "options": [
+    "İşçi yalnızca iki haftalık bildirim süresine uymak zorundadır.",
+    "İşçi derhâl ve tazminatsız feshedebilir.",
+    "Sözleşme on beş yıl dolmadan hiçbir koşulda feshedilemez.",
+    "On yıl geçtiği için işçi altı aylık fesih bildirim süresine uyarak feshedebilir; fesih bu süreyi izleyen aybaşında hüküm doğurur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 430/3'e göre taraflardan her biri, on yıldan uzun süreli hizmet sözleşmesini on yıl geçtikten sonra altı aylık fesih bildirim süresine uyarak feshedebilir ve fesih ancak bu süreyi izleyen aybaşında hüküm ifade eder. Derhâl fesih için haklı sebep aranır; iki haftalık süre, kıdeme bağlı bildirim süresidir."
+  },
+  {
+   "stem_md": "Evde bahçıvan olarak üç yıldır çalışan Yusuf'un belirsiz süreli sözleşmesi, ev hizmeti olduğu için İş Kanunu kapsamı dışındadır. TBK m. 432'ye göre bildirim süresi kaç haftadır?",
+   "options": [
+    "Dört hafta",
+    "Altı hafta",
+    "Sekiz hafta",
+    "İki hafta"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Ev hizmetleri İK m. 4 gereği İK kapsamı dışında olduğundan TBK m. 432 uygulanır. Hizmet süresi bir yıldan beş yıla kadar olan işçi için bildirim süresi dört haftadır. Sekiz hafta, TBK'da değil İK m. 17'de üç yıldan fazla kıdemli işçi için öngörülen süredir."
+  },
+  {
+   "stem_md": "İşçi Deniz'in belirsiz süreli sözleşmesinde, işçi için iki hafta, işveren için altı haftalık fesih bildirim süresi öngörülmüştür. TBK m. 432'ye göre hangisi doğrudur?",
+   "options": [
+    "Her iki tarafa öngörülen en kısa süre olan iki hafta uygulanır.",
+    "Kayıt geçerlidir; işçiye iki, işverene altı hafta uygulanır.",
+    "Her iki tarafa da öngörülen en uzun süre olan altı hafta uygulanır.",
+    "Kayıt tamamen batıldır; kanundaki kıdem sürelerine göre iki hafta uygulanır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 432/5 fesih bildirim sürelerinin her iki taraf için de aynı olmasını zorunlu kılar; sözleşmede farklı süreler öngörülmüşse her iki tarafa da en uzun olan süre uygulanır. Kayıt batıl olmaz, süreler eşitlenir. Kısaltma zaten yasaktır (TBK m. 432/3)."
+  },
+  {
+   "stem_md": "Hizmet süresi üç yıl olan işçiyi işveren, fesih hakkını kötüye kullanarak sona erdirmiştir. İşçi TBK m. 434'e göre hangi tutarda tazminat isteyebilir? (Bildirim süresi TBK m. 432'ye göre belirlenecektir.)",
+   "options": [
+    "İki haftalık ücretin üç katı",
+    "Dört haftalık ücret",
+    "Altı aylık ücret",
+    "On iki haftalık ücret"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 434 kötüniyet tazminatını fesih bildirim süresine ait ücretin üç katı olarak belirler. Hizmet süresi bir ila beş yıl arasındaki işçinin bildirim süresi dört haftadır (TBK m. 432/2); üç katı on iki haftalık ücrettir. Altı aylık ücret sınırı TBK m. 438/3'ün üst sınırıdır; kötüniyet tazminatı ile karıştırılmamalıdır."
+  },
+  {
+   "stem_md": "Havayolu şirketi, pilotla yaptığı iki yıllık belirli süreli sözleşmeyi haklı sebep olmaksızın derhâl feshetmiştir. Pilotun kalan altı ay için kazanabileceği ücret 600.000 TL'dir. Pilot bu sürede çalışmamakla 20.000 TL gider tasarrufu etmiş ve başka bir şirkette 240.000 TL kazanmıştır. TBK m. 438/1-2'ye göre pilotun isteyebileceği tazminat nedir?",
+   "options": [
+    "340.000 TL",
+    "360.000 TL",
+    "600.000 TL",
+    "260.000 TL"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 438/1 belirli süreli sözleşmede sözleşme süresine uyulsaydı kazanılabilecek miktarın tazminat olarak istenebileceğini, TBK m. 438/2 ise tasarruf edilen miktar ile başka işten elde edilen gelirin tazminattan indirileceğini söyler. 600.000 − 20.000 − 240.000 = 340.000 TL. 260.000 TL indirilen toplamdır; 360.000 TL yalnız başka işten kazancın indirilmesiyle bulunur."
+  },
+  {
+   "stem_md": "Armatör, yat kaptanı Kemal'in haklı sebep göstermeden 1 Mayıs'ta işi aniden bırakması üzerine TBK m. 439 tazminatı için 15 Haziran'da dava açmıştır. Tazminat hakkı takasla sona ermemiştir. Hangisi doğrudur?",
+   "options": [
+    "Tazminat hakkı zamanaşımına tabidir; zamanaşımı itirazı ileri sürülmedikçe hâkim süreyi dikkate alamaz.",
+    "Süre yalnızca ihtar çekilmişse işler; ihtar çekilmediği için hak düşmemiştir.",
+    "Armatör, işi bırakmadan başlayarak otuz gün içinde dava ya da takip yoluyla hakkını kullanmak zorundaydı; süre geçtiği için tazminat hakkı düşmüştür.",
+    "Dava süresindedir; hak düşürücü süre bir yıldır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 439/3'e göre tazminat isteme hakkı takas yoluyla sona ermemişse işveren, işi bırakmadan başlayarak otuz gün içinde dava veya takip yoluyla hakkını kullanmak zorundadır; aksi hâlde hak düşer. 1 Mayıs'tan 15 Haziran'a kadar geçen süre otuz günü aşmaktadır. Bu süre hak düşürücü süredir."
+  },
+  {
+   "stem_md": "Yedi yıldır çalışan işçi Emre vefat etmiştir. Geride eşi ve ergin olmayan bir çocuğu vardır. TBK m. 440'a göre işverenin yükümlülüğü hangisidir?",
+   "options": [
+    "Sözleşme sona ermez; mirasçılar işçi sıfatıyla devam eder.",
+    "Sözleşme, işveren fesih bildirimi yapınca sona erer.",
+    "Sözleşme kendiliğinden sona erer; işveren bir aylık ücret öder.",
+    "Sözleşme kendiliğinden sona erer; işveren eşe ve ergin olmayan çocuğa ölüm gününden başlayarak iki aylık ücret tutarında ödeme yapar."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 440'a göre sözleşme işçinin ölümüyle kendiliğinden sona erer. İşveren, sağ kalan eşe ve ergin olmayan çocuklara (yoksa bakmakla yükümlü olunan kişilere) ölüm gününden başlayarak bir aylık; hizmet ilişkisi beş yıldan uzun sürmüşse iki aylık ücret tutarında ödeme yapar. Emre'nin ilişkisi yedi yıl sürdüğü için iki aylık ücret ödenir."
+  },
+  {
+   "stem_md": "Temizlik görevlisi Hatice, müşteri bilgisi, üretim sırrı veya işin yürütümüne ilişkin özel bilgi edinme imkânı olmayan bir işte çalışmıştır. İşvereniyle yazılı olarak \"iki yıl rakip işletmede çalışmayacağım\" diye taahhütte bulunmuş ve ceza koşulu da kararlaştırılmıştır. Bu rekabet yasağı hakkında hangisi doğrudur?",
+   "options": [
+    "Yazılı olduğu ve ceza koşuluna bağlandığı için geçerlidir.",
+    "Geçerlidir; ancak hâkim süreyi altı aya indirmek zorundadır.",
+    "Hizmet ilişkisi işçiye bu tür bilgileri edinme imkânı sağlamadığı için TBK m. 444/2 uyarınca geçerli değildir.",
+    "Süresi iki yılı aşmadığı için geçerlidir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 444/2'ye göre rekabet yasağı kaydı, ancak hizmet ilişkisi işçiye müşteri çevresi veya üretim sırları ya da işverenin yaptığı işler hakkında bilgi edinme imkânı sağlıyorsa ve bu bilgilerin kullanılması işverenin önemli bir zararına sebep olacaksa geçerlidir. Yazılı şekil ve iki yıllık süre tek başına yeterli değildir."
+  },
+  {
+   "stem_md": "Ar-Ge mühendisi Melis, sözleşmeye göre sona ermeden sonra rakip işletmede çalışmaması ve aykırılıkta 500.000 TL ödemesi gerekirken rakip firmada çalışmaya başlamıştır. Sözleşmede işverenin çalışmanın durdurulmasını isteme hakkını açıkça saklı tuttuğuna dair bir kayıt ve ceza koşulundan başka bir hüküm yoktur. Hangisi doğrudur?",
+   "options": [
+    "Ceza koşulu geçersizdir, çünkü rekabet yasağı sözleşmelerinde ceza koşulu yasaktır.",
+    "İşveren Melis'in çalışmasına son verilmesini isteyebilir.",
+    "Melis ceza koşulunu ödeyerek yasaktan kurtulabilir; ancak cezayı aşan zararı da giderir. İşveren, yazılı olarak saklı tutmadığı için davranışa son verilmesini isteyemez.",
+    "Melis'in yalnızca ceza koşulunu ödemesi yetmez; işverenin bütün zararını ayrıca ödemesi gerekir ve ceza mahsup edilmez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 446/2'ye göre yasağa aykırı davranış ceza koşuluna bağlanmışsa ve aksi hüküm yoksa işçi öngörülen miktarı ödeyerek borcundan kurtulabilir, ancak miktarı aşan zararı gidermek zorundadır. TBK m. 446/3'e göre davranışa son verilmesini isteyebilmek için işverenin bunu sözleşmede yazılı olarak açıkça saklı tutması gerekir; olayda böyle bir kayıt yoktur."
+  },
+  {
+   "stem_md": "Mühendis Melis, rakip işletmede çalışmama taahhüdü vermiştir. Ücretinin üç aydır ödenmemesi üzerine sözleşmeyi, işverene yüklenebilen bir nedenle haklı olarak feshetmiş ve rakip firmada işe başlamıştır. Rekabet yasağının akıbeti nedir?",
+   "options": [
+    "Yasağın sona ermesi için işverenin yasağı kaldırdığını yazılı bildirmesi gerekir.",
+    "Yasak, işverene yüklenebilen bir nedenle işçice haklı olarak yapılan fesih nedeniyle sona erer.",
+    "Yasak yalnızca iki yılın yarısı kadar sürer.",
+    "Yasak devam eder; çünkü fesih işçi tarafından yapılmıştır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 447/2'ye göre sözleşme haklı bir sebep olmaksızın işveren tarafından veya işverene yüklenebilen bir nedenle işçi tarafından feshedilirse rekabet yasağı sona erer. Ücretin ödenmemesi işverene yüklenebilen bir nedendir. Yasağın sona ermesi için işverenin ayrıca bir beyanı gerekmez."
+  },
+  {
+   "stem_md": "Rekabet yasağının sınırlarına ilişkin TBK m. 445 bakımından hangisi doğrudur?",
+   "options": [
+    "Yasağın yer bakımından sınırlandırılması zorunlu değildir; yalnızca süre sınırlanır.",
+    "Rekabet yasağı özel durum ve koşullar dışında iki yılı aşamaz; hâkim aşırı yasağı kapsam veya süre bakımından sınırlayabilir.",
+    "Rekabet yasağının süresi hiçbir hâlde üç yılı aşamaz.",
+    "Hâkim aşırı rekabet yasağını kapsam veya süre bakımından sınırlayamaz, ancak tümden geçersiz sayabilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 445/1 yasağın yer, zaman ve işlerin türü bakımından işçinin ekonomik geleceğini hakkaniyete aykırı biçimde tehlikeye düşürecek sınırlamalar içeremeyeceğini, süresinin özel durum ve koşullar dışında iki yılı aşamayacağını söyler. TBK m. 445/2 hâkime aşırı yasağı kapsam veya süre bakımından sınırlama yetkisi verir; tümden geçersiz saymak kanunun öngördüğü sonuç değildir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Hava Yolu A.Ş., pilot Kerem ile iki yıl süreli, aylık 100.000 TL ücretli, \"belirli süreli\" bir hizmet sözleşmesi yapmıştır. Sözleşmede ayrıca \"Kerem sözleşmeyi süresinden önce bırakırsa şirkete 300.000 TL ceza öder\" kaydı vardır; şirket için buna benzer bir ceza öngörülmemiştir. Sözleşmenin 18. ayının sonunda şirket, Kerem'in sözleşmesini haklı bir sebep göstermeden derhâl feshetmiştir. Kalan altı ay boyunca Kerem, işe gitmemekle 20.000 TL yol gideri tasarruf etmiş ve başka bir havayolu şirketinde çalışarak 240.000 TL kazanmıştır. Kerem fesih bildirimini yazılı olarak almış, itiraz etmeden işyerinden ayrılmıştır. Kerem, sözleşmenin haksız feshi nedeniyle şirketten tazminat istemektedir; şirket ise sözleşmedeki 300.000 TL cezayı Kerem'den talep etmektedir. Şirket feshin haklı sebebini göstermemekte, yalnızca cezanın ödenmesini savunmaktadır.\n\n1. Kerem şirketten hangi tazminatı, hangi tutarda isteyebilir?\n2. Hâkim ayrıca bir tazminata hükmedebilir mi, varsa üst sınırı nedir?\n3. Şirketin 300.000 TL ceza talebi hakkında ne söylenebilir?",
+   "rubric": [
+    {
+     "point": "Belirli süreli sözleşmenin haksız derhâl feshinde kalan süre ücretinin tazminat olarak istenebilmesi (600.000 TL)",
+     "weight": 20,
+     "madde_ref": "TBK m. 438"
+    },
+    {
+     "point": "Tasarruf edilen ve başka işten kazanılan miktarın indirilmesi (340.000 TL)",
+     "weight": 25,
+     "madde_ref": "TBK m. 438"
+    },
+    {
+     "point": "Hâkimin ayrıca tazminata karar verebilmesi ve üst sınırın altı aylık ücret (600.000 TL) olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 438"
+    },
+    {
+     "point": "Yalnız işçi aleyhine ceza koşulunun geçersizliği",
+     "weight": 25,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "Belirli süreli sözleşmenin süre bitiminde sona ermesi ve haksız fesihle ilişkisi",
+     "weight": 10,
+     "madde_ref": "TBK m. 430"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasındaki sözleşme, işçinin bağımlı iş görmesi ve ücret karşılığı olması nedeniyle hizmet sözleşmesidir; iki yıllık süre kararlaştırıldığından belirli süreli sözleşmedir (TBK m. 430/1). Pilotların hava taşıma işlerinde çalışması İK m. 4/1 kapsamında İK dışındadır; TBK'nın hizmet sözleşmesi hükümleri uygulanır.\n\n**Hukuki sorunlar:** (1) İşverenin haksız derhâl feshinde işçinin tazminat hakkı. (2) Hâkimin ek tazminatı ve sınırı. (3) Tek taraflı ceza koşulunun geçerliliği.\n\n**İlgili hükümler:** TBK m. 430/1 (belirli süreli sözleşmenin sona ermesi); TBK m. 438/1-3 (haksız derhâl fesih); TBK m. 420/1 (ceza koşulu).\n\n**Değerlendirme:** Şirket haklı sebep olmaksızın derhâl fesih yaptığı için TBK m. 438/1 gereği Kerem, sözleşme süresine uyulsaydı kazanabileceği miktarı tazminat olarak isteyebilir. Kalan altı ayın ücreti 6 × 100.000 = 600.000 TL'dir. Belirli süreli sözleşmede işçinin sözleşmenin sona ermesi yüzünden tasarruf ettiği miktar (20.000 TL) ile başka bir işten elde ettiği gelir (240.000 TL) tazminattan indirilir (TBK m. 438/2). Buna göre 600.000 − 20.000 − 240.000 = 340.000 TL tazminat istenebilir.\n\nHâkim, bütün durum ve koşulları göz önünde tutarak ayrıca miktarını serbestçe belirleyeceği bir tazminata karar verebilir; ancak bu tazminat işçinin altı aylık ücretinden fazla olamaz (TBK m. 438/3). Kerem'in altı aylık ücreti 600.000 TL olduğundan ek tazminat bu tutarı aşamaz. Ek tazminatın verilip verilmeyeceği ve miktarı hâkimin takdirindedir; olayın verilerine göre ek tazminatın kesin tutarı belirlenemez.\n\nŞirketin 300.000 TL ceza talebine gelince; sözleşmedeki ceza koşulu yalnızca işçi aleyhine konulmuş, şirket için karşılıklı bir yaptırım öngörülmemiştir. TBK m. 420/1'e göre hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir. Ayrıca Kerem sözleşmeyi bırakmamış, şirket feshetmiştir. Dolayısıyla talep reddedilir.\n\nBurada tazminatın hesabında öncelikle sözleşmenin belirli süreli olması önemlidir: belirsiz süreli bir sözleşmede tazminat yalnızca bildirim süresine ait ücret kadar olurdu ve tasarruf/mahsup hesabı da TBK m. 438/2'ye göre belirli süreli sözleşmeye özgüdür. Kalan süre ücretinin tazminat niteliği taşıdığı, yani işçinin müspet zararını gidermeyi amaçladığı Yargıtay tarafından da kabul edilmektedir.\n\n**Sonuç:** Kerem 340.000 TL tazminat isteyebilir; hâkim ayrıca en çok 600.000 TL'ye kadar ek tazminata karar verebilir. Şirketin 300.000 TL ceza talebi geçersiz ceza koşuluna dayandığı için yerinde değildir."
+  },
+  {
+   "stem_md": "Ar-Ge mühendisi Melis, bir batarya üreticisinin yeni nesil hücre tasarımını yürütmekte olup üretim sırlarına ve müşteri çevresine ilişkin bilgilere hâkimdir; bu bilgilerin rakipte kullanılması işverene önemli zarar verecek niteliktedir. Melis, iş sözleşmesinde yazılı olarak \"sözleşme sona erdikten sonra dört yıl boyunca Türkiye genelinde rakip bir işletmede çalışmayacağını\" taahhüt etmiştir. Aykırılık hâlinde 500.000 TL ceza ödeyecektir. Sözleşmede işverenin çalışmanın durdurulmasını isteme hakkını saklı tuttuğuna dair bir kayıt yoktur.\n\nMelis taahhüdü işe girerken imzalamıştır; sözleşmede işverenin yasak karşılığında ayrıca bir ödeme yapacağına dair kayıt yoktur.\n\nİhtimal 1: Melis istifa ederek rakip bir firmada işe başlamıştır.\nİhtimal 2: Melis, üç aydır ücreti ödenmediği için sözleşmeyi haklı sebeple feshetmiş ve rakip firmada işe başlamıştır.\n\n1. Rekabet yasağı sözleşmesi hangi şartlara tabidir ve olayda bu şartlar gerçekleşmiş midir?\n2. Dört yıllık süre ve Türkiye geneli kaydı bakımından hâkim ne yapabilir?\n3. İhtimal 1'de işveren çalışmanın durdurulmasını isteyebilir mi, Melis cezayı ödeyerek kurtulabilir mi?\n4. İhtimal 2'de rekabet yasağının akıbeti nedir?",
+   "rubric": [
+    {
+     "point": "Fiil ehliyeti, yazılı şekil, bilgi edinme imkânı ve önemli zarar şartlarının gerçekleşmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 444"
+    },
+    {
+     "point": "Dört yıllık sürenin özel durum olmadıkça iki yılı aşamaması ve hâkimin aşırı yasağı kapsam veya süre bakımından sınırlayabilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 445"
+    },
+    {
+     "point": "İhtimal 1'de Melis'in ceza koşulunu ödeyerek kurtulabilmesi, aşan zararı gidermesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 446"
+    },
+    {
+     "point": "İhtimal 1'de yazılı saklı tutma kaydı olmadığından işverenin davranışa son verilmesini isteyememesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 446"
+    },
+    {
+     "point": "İhtimal 2'de işverene yüklenebilen sebeple haklı feshin rekabet yasağını sona erdirmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 447"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Melis'in taahhüdü, sözleşme sonrasına ilişkin yazılı bir rekabet yasağı sözleşmesidir (TBK m. 444/1). Sözleşme sürerken rekabet etmeme borcu ayrıca TBK m. 396/3'ten doğar; burada tartışma konusu sözleşme sonrası yasaktır.\n\n**Hukuki sorunlar:** (1) Yasağın geçerlilik şartları. (2) Süre ve yer sınırı ile hâkimin müdahalesi. (3) İhlalin sonuçları (ceza ve men). (4) Yasağın sona ermesi.\n\n**İlgili hükümler:** TBK m. 444/1-2; TBK m. 445/1-2; TBK m. 446/1-3; TBK m. 447/2.\n\n**Değerlendirme:** TBK m. 444'e göre yasağın geçerliliği için işçinin fiil ehliyetine sahip olması, yasağın yazılı üstlenilmesi, hizmet ilişkisinin işçiye müşteri çevresi, üretim sırları veya işverenin yaptığı işler hakkında bilgi edinme imkânı sağlaması ve bu bilgilerin kullanılmasının işverenin önemli bir zararına sebep olacak nitelikte olması gerekir. Melis'in fiil ehliyetini kaybettiğine dair veri yoktur, taahhüt yazılıdır; üretim sırlarına ve müşteri çevresine hâkimdir ve bilgilerin rakipte kullanılması önemli zarar doğuracaktır. Şartlar gerçekleşmiştir.\n\nDört yıllık süre, özel durum ve koşullar dışında iki yılı aşamaz (TBK m. 445/1). Türkiye geneli kaydının işçinin ekonomik geleceğini hakkaniyete aykırı biçimde tehlikeye düşürüp düşürmediği somut durumda değerlendirilir. Hâkim aşırı yasağı, bütün durum ve koşulları ve işverenin üstlenmiş olabileceği karşı edimi de gözeterek kapsam veya süre bakımından sınırlayabilir (TBK m. 445/2). Dolayısıyla yasak tümden geçersiz olmaz; sınırlandırılmış hâliyle geçerlilik kazanır.\n\nİhtimal 1'de Melis yasağı ihlal etmiştir. İşverenin uğradığı zararı gidermesi gerekir (TBK m. 446/1). Yasağa aykırılık ceza koşuluna bağlanmış ve sözleşmede aksi hüküm bulunmadığından Melis, 500.000 TL'yi ödeyerek yasak borcundan kurtulabilir; ancak zarar cezayı aşıyorsa aşan kısmı da öder (TBK m. 446/2). İşverenin çalışmanın durdurulmasını isteyebilmesi için bu hakkı sözleşmede yazılı olarak açıkça saklı tutması gerekir (TBK m. 446/3); böyle bir kayıt olmadığından işveren men talebinde bulunamaz.\n\nİhtimal 2'de sözleşme, ücretin üç aydır ödenmemesi gibi işverene yüklenebilen bir nedenle işçice haklı olarak feshedilmiştir. TBK m. 447/2 gereği rekabet yasağı sona erer; Melis'in rakip firmada çalışması yasağa aykırılık oluşturmaz.\n\n**Sonuç:** Yasak geçerli şartları taşır ancak dört yıllık süre ve geniş yer kaydı hâkim tarafından sınırlandırılabilir. İhtimal 1'de Melis cezayı (ve aşan zararı) ödeyerek kurtulur, işveren men isteyemez. İhtimal 2'de yasak sona ermiştir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Belirli süreli sözleşme süre bitiminde ne olur?",
+   "back_md": "Kendiliğinden sona erer (TBK m. 430/1). Örtülü sürdürülürse belirsiz süreliye dönüşür (TBK m. 430/2)."
+  },
+  {
+   "front_md": "On yıldan uzun sözleşmede fesih?",
+   "back_md": "On yıl geçtikten sonra altı aylık bildirimle; fesih izleyen aybaşında hüküm doğurur (TBK m. 430/3)."
+  },
+  {
+   "front_md": "TBK'da fesih bildirim süreleri?",
+   "back_md": "Bir yıla kadar 2 hafta, 1-5 yıl 4 hafta, beş yıldan fazla 6 hafta (TBK m. 432/2). Sekiz hafta İK m. 17'dedir."
+  },
+  {
+   "front_md": "Farklı bildirim süreleri yazılırsa ne olur?",
+   "back_md": "Her iki tarafa en uzun süre uygulanır (TBK m. 432/5)."
+  },
+  {
+   "front_md": "Deneme süresi en çok kaç aydır?",
+   "back_md": "İki ay; bu sürede bildirimsiz ve tazminatsız fesih yapılır (TBK m. 433)."
+  },
+  {
+   "front_md": "Kötüniyet tazminatı nedir?",
+   "back_md": "Fesih hakkının kötüye kullanılmasında bildirim süresi ücretinin üç katı (TBK m. 434)."
+  },
+  {
+   "front_md": "Haklı fesihte sebep nasıl bildirilir?",
+   "back_md": "Fesheden taraf sebebi yazılı bildirmek zorundadır (TBK m. 435/1)."
+  },
+  {
+   "front_md": "Haklı sebepten doğan feshin sonucu?",
+   "back_md": "Sözleşmeye uymayan taraf zararı tamamen giderir (TBK m. 437/1); diğer hâllerde hâkim serbestçe değerlendirir (TBK m. 437/2)."
+  },
+  {
+   "front_md": "Belirli süreli sözleşmenin haksız derhâl feshinde tazminat?",
+   "back_md": "Kalan süre ücreti; tasarruf edilen ve başka işten kazanılan veya bilerek kazanılmayan miktar indirilir (TBK m. 438/1-2)."
+  },
+  {
+   "front_md": "TBK m. 438'deki ek tazminatın üst sınırı?",
+   "back_md": "İşçinin altı aylık ücreti (TBK m. 438/3)."
+  },
+  {
+   "front_md": "İşçi haksız işi bırakırsa işveren ne ister?",
+   "back_md": "Aylık ücretin dörtte biri ve ek zarar; otuz gün içinde kullanılmazsa hak düşer (TBK m. 439)."
+  },
+  {
+   "front_md": "İşçinin ölümünde işveren ne öder?",
+   "back_md": "Eş ve ergin olmayan çocuklara bir aylık, ilişki beş yıldan uzunsa iki aylık ücret (TBK m. 440)."
+  },
+  {
+   "front_md": "Sona ermede hapis hakkı?",
+   "back_md": "Tarafların hapis hakları saklıdır (TBK m. 443/3)."
+  },
+  {
+   "front_md": "Rekabet yasağının dört geçerlilik şartı?",
+   "back_md": "Fiil ehliyeti, yazılı şekil, bilgi edinme imkânı ve önemli zarar ihtimali (TBK m. 444)."
+  },
+  {
+   "front_md": "Rekabet yasağının süresi ve hâkimin yetkisi?",
+   "back_md": "Özel durum dışında iki yılı aşamaz; hâkim aşırı yasağı kapsam veya süre bakımından sınırlayabilir (TBK m. 445)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

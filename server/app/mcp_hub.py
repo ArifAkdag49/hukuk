@@ -95,6 +95,23 @@ def _ictihat_command() -> str:
     return os.path.join(os.path.dirname(sys.executable), exe)
 
 
+_AG_DEGISKENLERI = ("HTTP_PROXY", "HTTPS_PROXY", "NO_PROXY", "ALL_PROXY", "SSL_CERT_FILE", "SSL_CERT_DIR", "REQUESTS_CA_BUNDLE")
+
+
+def _ictihat_env() -> dict[str, str]:
+    """MCP alt sürecinin ortamı: SDK yalnız güvenli bir varsayılan küme geçirir ve proxy/sertifika ayarlarını
+    düşürür; bulut ve ağ geçidi ortamlarında alt süreç bu yüzden internete çıkamaz. Yalnız ağ ayarları eklenir
+    (ortamın geri kalanı, ör. API anahtarları, alt sürece sızmaz)."""
+    from mcp.client.stdio import get_default_environment
+
+    env = dict(get_default_environment())
+    for k in _AG_DEGISKENLERI:
+        for ad in (k, k.lower()):
+            if os.environ.get(ad):
+                env[ad] = os.environ[ad]
+    return env
+
+
 class McpHub:
     """İçtihat MCP oturumunu tek bir denetleyici görev sahiplenir.
 
@@ -120,7 +137,7 @@ class McpHub:
             try:
                 async with AsyncExitStack() as stack:
                     read, write = await stack.enter_async_context(
-                        stdio_client(StdioServerParameters(command=_ictihat_command()))
+                        stdio_client(StdioServerParameters(command=_ictihat_command(), env=_ictihat_env()))
                     )
                     session = await stack.enter_async_context(ClientSession(read, write))
                     await session.initialize()

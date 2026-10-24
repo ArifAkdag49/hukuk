@@ -1,0 +1,607 @@
+{
+ "course_id": "HUK3013",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Anonim Şirket",
+ "topic_index": 6,
+ "slug": "paylar-pay-senetleri-ve-pay-devri",
+ "title": "Anonim Şirket VI: Paylar, İmtiyazlı Paylar, Pay Bedelinin Ödenmesi, Pay Senetleri ve Payların Devri",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T16:45:53.292171+00:00",
+ "skill_refs": [
+  "sirketler-hukuku/pay-ve-pay-sahipligi-pay-devri"
+ ],
+ "content": {
+  "summary_md": "- **Pay (TTK m. 476):** itibarî değeri en az 1 kuruştur; birer kuruş ve katları olarak yükseltilir. Buna aykırı çıkarılan paylar geçersizdir, ancak ödemeden doğan haklar saklıdır. Pay şirkete karşı bölünemez (TTK m. 477).\n- **İmtiyaz (TTK m. 478-479):** ilk esas sözleşmeyle ya da esas sözleşme değişikliğiyle tanınır. Oyda imtiyaz için bir paya en çok 15 oy verilebilir; esas sözleşme değişikliği ile ibra ve sorumluluk davası açılması kararlarında oy imtiyazı kullanılamaz (TTK m. 479/3). İmtiyazlı pay oluşturma kararı sermayenin en az %75'ini oluşturan payların olumlu oyunu ister (TTK m. 421/3).\n- **Tek borç ilkesi (TTK m. 480/1):** pay sahibine pay bedeli ve primin ifası dışında borç yüklenemez; anonim şirkette limited şirketteki gibi bir ek ödeme rejimi yoktur (oybirliğiyle konulan bilanço zararını kapatma yükümlülüğü için TTK m. 421/2-a ile ilişkisi tartışmalıdır). İstisna: pay devri şirket onayına bağlıysa konusu para olmayan, belli zamanlarda tekrarlanan ikincil yükümlülükler (TTK m. 480/4); esas sözleşme değişikliğiyle konulmaları oybirliği ister (TTK m. 421/2-a).\n- **Temerrüt ve ıskat (TTK m. 482-483):** sermaye borcunu süresinde ödemeyen ortak ihtara gerek olmadan temerrüt faizi öder. Ortağı haklarından yoksun bırakmak (ıskat) için ise bir ay süreli, ıskat uyarısı içeren ihtar şarttır.\n- **Pay senetleri (TTK m. 484-488):** hamiline veya nama yazılı olur. Bedeli tamamen ödenmemiş paylar için hamiline senet çıkarılamaz; çıkarılırsa geçersizdir (TTK m. 484/2).\n- **Devir:** hamiline senette zilyetliğin geçirilmesi ve devralanın Merkezi Kayıt Kuruluşuna bildirimi (TTK m. 489, 7262 sayılı Kanunla değişik); nama yazılı senette ciro ve zilyetliğin geçirilmesi (TTK m. 490/2).\n- **Bağlam:** kanuni bağlamda (TTK m. 491) şirket, ancak ödeme yeterliliği şüpheli ve istenen teminat verilmemişse onayı reddeder. Esas sözleşmesel bağlamda (TTK m. 492-494; borsaya kote olmayan paylar) ret, önemli sebep, gerçek değerle devralma önerisi veya \"kendi hesabına\" beyanının eksikliği sebebiyle mümkündür. Miras, mal rejimi ve cebrî icrada yalnızca gerçek değer önerisiyle reddedilebilir (TTK m. 493/4).\n- **Süre:** şirket onay istemini üç ay içinde reddetmezse onay verilmiş sayılır (TTK m. 494/3).\n- **Pay defteri (TTK m. 499):** nama yazılı paylar ve senede bağlanmamış paylar kaydedilir; hamiline paylar kaydedilmez. Şirketle ilişkide yalnız defterde kayıtlı kişi pay sahibi sayılır.",
+  "content_md": "## 1. Pay kavramı ve itibarî değer\n\n**Pay**, anonim şirketin sermayesinin bölündüğü birimdir ve aynı zamanda pay sahibinin ortaklık sıfatını (hak ve borçlar bütününü) ifade eder. Bir ortak birden çok paya sahip olabilir.\n\nTTK m. 476/1'e göre payın itibarî değeri **en az bir kuruştur** ve ancak birer kuruş ve katları olarak yükseltilebilir. Bu asgari değer Cumhurbaşkanınca yüz katına kadar artırılabilir. Bu kurala aykırı çıkarılan paylar **geçersizdir**; fakat pay için yapılan ödemeden doğan haklar saklıdır ve payları ihraç edenler zarar görenlere karşı müteselsilen sorumludur (TTK m. 476/2). Zora giren şirketin finansal durumunu iyileştirmek için itibarî değer bir kuruşa kadar indirilebilir (TTK m. 476/3).\n\nPay şirkete karşı **bölünemez** (TTK m. 477/1). Bir payın birden çok maliki varsa şirkete karşı haklarını ortak bir temsilci aracılığıyla kullanırlar; temsilci atamazlarsa şirketin maliklerden birine yapacağı tebligat hepsi hakkında geçerli olur. Genel kurul sermaye aynı kalmak şartıyla payları daha küçük itibarî değerli paylara bölebilir; birleştirme için ise her pay sahibinin onayı gerekir (TTK m. 477/2).\n\n> **Örnek:** Ali ile Ayşe, X A.Ş.'nin tek bir payına birlikte sahiptir. Şirket genel kurul çağrısını yalnızca Ali'ye tebliğ etmiştir. Ortak temsilci atanmadığı için tebligat Ayşe bakımından da geçerlidir (TTK m. 477/1).\n\n## 2. İmtiyazlı paylar\n\n**İmtiyaz**, kâr payı, tasfiye payı, rüçhan ve oy hakkı gibi alanlarda paya tanınan üstün bir hak veya kanunda öngörülmemiş yeni bir pay sahipliği hakkıdır (TTK m. 478/2). İlk esas sözleşmeyle ya da esas sözleşme değiştirilerek tanınabilir (TTK m. 478/1). Esas sözleşme değişikliğiyle **imtiyazlı pay oluşturulması**, sermayenin en az %75'ini oluşturan payların sahiplerinin olumlu oylarını gerektirir (TTK m. 421/3). Bu karara olumsuz oy vermiş nama yazılı pay sahipleri, kararın ilanından itibaren altı ay boyunca devir kısıtlamalarıyla bağlı değildir (TTK m. 421/6).\n\nBazı özel hükümler:\n\n- Yönetim kurulunda temsil edilme hakkı tanınan paylar da imtiyazlı sayılır (TTK m. 360/2).\n- Sermayesinin yarıdan fazlası kamu tüzel kişileri, sendikalar, dernekler, vakıflar, kooperatifler ve üst kuruluşlarına ait şirketlerde, bunların kendi payları dışındaki paylara imtiyaz tesis edilemez; borsa şirketleri, kredi ve finansal kuruluşlar bu yasağın dışındadır (TTK m. 478/4).\n- **Oyda imtiyaz**, eşit itibarî değerdeki paylara farklı sayıda oy verilerek tanınır. Bir paya **en çok 15 oy** verilebilir; kurumlaşmanın gerektirdiği veya haklı bir sebebin ispatlandığı hâllerde asliye ticaret mahkemesi bu sınırdan istisna kararı verebilir (TTK m. 479/1-2).\n- Oyda imtiyaz, **esas sözleşme değişikliği** ile **ibra ve sorumluluk davası açılması** kararlarında kullanılamaz (TTK m. 479/3).\n\n> ⚠️ **Sınavda dikkat:** 15 oy sınırı \"bir pay\" içindir. Esas sözleşme değişikliğinde imtiyazlı payın fazla oyları sayılmaz; payın sıradan bir oyu ise kullanılır.\n\n## 3. Tek borç ilkesi ve ikincil yükümlülükler\n\nTTK m. 480/1: kanundaki istisnalar dışında esas sözleşmeyle pay sahibine, **pay bedelini veya itibarî değeri aşan primi ifa dışında borç yüklenemez**. Anonim şirket bu yönüyle limited şirketten ayrılır: limited şirkette şirket sözleşmesiyle ek ödeme yükümlülüğü öngörülebilirken (TTK m. 603), anonim şirkette pay sahibine kural olarak nakdî bir ek yükümlülük yüklenemez. Bununla birlikte TTK m. 421/2-a, \"bilanço zararlarının kapatılması için yükümlülük ve ikincil yükümlülük koyan\" esas sözleşme değişikliği kararlarını sermayenin tümünü oluşturan payların sahiplerinin oybirliğine bağlar; oybirliğiyle zarar kapatma yükümlülüğü konulup konulamayacağı tartışmalıdır (bkz. doktrin). Ortaklar sermaye olarak verdiklerini geri isteyemez; tasfiye payı hakları saklıdır (TTK m. 480/3).\n\n**İstisna:** pay devirleri şirketin onayına bağlıysa esas sözleşmeyle ortaklara, sermaye taahhüdü dışında, **belli zamanlarda tekrarlanan ve konusu para olmayan** edimleri yerine getirme yükümlülüğü yüklenebilir (TTK m. 480/4). Bu ikincil yükümlülükler için esas sözleşmede sözleşme cezası da öngörülebilir (TTK m. 481/2). İkincil yükümlülük sonradan esas sözleşme değişikliğiyle konulacaksa karar, sermayenin tümünü oluşturan payların sahiplerinin oybirliğiyle alınır (TTK m. 421/2-a).\n\n> **Örnek:** Esas sözleşme, devri yönetim kurulu onayına bağlı nama yazılı payların sahiplerine her yıl şirketin fabrikasına 5 gün teknik danışmanlık verme edimi yükleyebilir. Aynı sözleşmeye \"her ortak her yıl şirkete 100.000 TL katkı payı ödeyecektir\" hükmü konulamaz; konusu para olan edim ikincil yükümlülük olamaz.\n\nPayların bedelleri yönetim kurulunca, esas sözleşmede başka hüküm yoksa ilanla istenir; ilanda ödenmesi istenen oran veya tutar, ödeme tarihi ve ödeme yeri açıkça gösterilir (TTK m. 481/1).\n\n## 4. Sermaye borcunda temerrüt ve ıskat\n\nSermaye koyma borcunu süresi içinde ödemeyen pay sahibi, **ihtara gerek olmaksızın** temerrüt faizi öder (TTK m. 482/1). Ayrıca yönetim kurulu, mütemerrit ortağı iştirak taahhüdünden ve yaptığı kısmi ödemelerden doğan haklarından **yoksun bırakmaya (ıskat)**, payı satıp yerine başkasını almaya ve verilmiş pay senedi varsa iptal etmeye yetkilidir (TTK m. 482/2). Esas sözleşmeyle sözleşme cezası öngörülebilir ve şirketin tazminat hakları saklıdır (TTK m. 482/3-4).\n\nFaiz için ihtar gerekmez, ancak ıskat ve sözleşme cezası için TTK m. 483'teki **ihtar usulü** zorunludur:\n\n1. Yönetim kurulu, kanunda yazılı gazetede ve esas sözleşmenin öngördüğü şekilde ilan yapar; ilanla birlikte şirketin internet sitesinde de bir mesaj yayımlanır (TTK m. 483/1).\n2. İhtarda, borçlu ortağın temerrüde konu tutarı **bir ay içinde** ödemesi, aksi hâlde ilgili paylara ilişkin haklarından yoksun bırakılacağı ve sözleşme cezasının isteneceği belirtilir.\n3. **Nama yazılı pay senedi sahiplerine** davet ve ihtar ilan yerine iadeli taahhütlü mektupla ve internet sitesi mesajıyla yapılır; bir aylık süre **mektubun alındığı tarihten** başlar (TTK m. 483/2).\n4. Mütemerrit ortak, yeni pay sahibinin ödemelerinden açık kalan tutar için şirkete karşı sorumlu kalır (TTK m. 483/3).\n\n> 📌 **Kesin bilgi:** Temerrüt faizi ihtarsız doğar; ıskat ise bir aylık süreli ve ıskat uyarılı ihtar olmadan yapılamaz.\n\nBedeli tamamen ödenmemiş nama yazılı payı iktisap eden kişi, pay defterine kaydedilmekle kalan bedeli ödemekle yükümlü olur (TTK m. 501/1). İştirak taahhüdünde bulunup payını devreden kişiden, kural olarak kalan bedel istenemez; yalnızca kuruluş veya artırımdan itibaren iki yıl içinde şirket iflas etmiş ve iktisap eden paydan doğan haklardan yoksun bırakılmışsa bu sonuç değişir (TTK m. 501/2).\n\n## 5. Pay senetleri\n\nPay senetleri **hamiline veya nama yazılı** olur (TTK m. 484/1). Bedelleri tamamen ödenmemiş paylar için hamiline yazılı pay senedi çıkarılamaz; çıkarılırsa senet geçersizdir, iyiniyet sahiplerinin tazminat hakları saklıdır (TTK m. 484/2). Nama yazılı senetlerin hamiline dönüştürülmesi için pay bedellerinin tamamen ödenmiş olması şarttır (TTK m. 485/2).\n\nŞirketin ve sermaye artırımının tescilinden önce çıkarılan paylar geçersizdir; iştirak taahhüdünden doğan yükümlülükler sürer (TTK m. 486/1). Hamiline paylarda yönetim kurulu, pay bedelinin tamamının ödenmesinden itibaren üç ay içinde senetleri bastırıp dağıtır; hamiline yazılı pay sahipleri ve payları, senetler dağıtılmadan önce Merkezi Kayıt Kuruluşuna bildirilir (TTK m. 486/2). Senet bastırılıncaya kadar ilmühaber çıkarılabilir; ilmühaberlere kıyasen nama yazılı senet hükümleri uygulanır (TTK m. 486/2). Pay senedi şirket unvanı, sermaye tutarı, itibarî değer gibi unsurları taşımalı ve şirket adına en az iki yetkili tarafından imzalanmalıdır (TTK m. 487/1). Nama yazılı senetlerde ayrıca sahibin kimliği ve ödenmiş miktar gösterilir (TTK m. 487/2). Yıpranmış senet yerine, giderler peşin ödenerek yenisi istenebilir (TTK m. 488).\n\n## 6. Payların devri\n\n### 6.1. Hamiline yazılı paylar\n\nTTK m. 489/1 (7262 sayılı Kanunla değişik): hamiline yazılı pay senetlerinin devri, şirket ve üçüncü kişiler hakkında, ancak **zilyetliğin geçirilmesi suretiyle payı devralan tarafından Merkezi Kayıt Kuruluşuna (MKK) yapılacak bildirimle** hüküm ifade eder. Bildirim yapılmazsa senet sahipleri, paya bağlı haklarını bildirim yapılıncaya kadar kullanamaz. Hakların şirkete ve üçüncü kişilere karşı ileri sürülmesinde bildirim tarihi esas alınır (TTK m. 489/2). Şirkete karşı hakları, hamiline senedin zilyedi olduğunu ispat eden ve MKK'ya bildirilen kişi kullanır (TTK m. 426/2).\n\n> **Örnek:** Mehmet, hamiline yazılı 1.000 payı Zeynep'e teslim etti. Zeynep MKK'ya bildirimde bulunmadıkça genel kurulda oy kullanamaz ve kâr payı isteyemez.\n\n### 6.2. Nama yazılı paylar: ilke\n\nKanunda veya esas sözleşmede aksi öngörülmedikçe nama yazılı paylar herhangi bir sınırlamaya bağlı olmaksızın devredilebilir (TTK m. 490/1). Hukuki işlemle devir, **ciro edilmiş nama yazılı pay senedinin zilyetliğinin devralana geçirilmesiyle** yapılır (TTK m. 490/2). Senede bağlanmamış payların devri ise alacağın devrine ilişkin genel hükümlere tabidir (TBK m. 183).\n\n### 6.3. Kanuni bağlam\n\nBedeli tamamen ödenmemiş nama yazılı paylar ancak **şirketin onayıyla** devredilir; miras, mirasın paylaşımı, eşler arası mal rejimi ve cebrî icra yoluyla geçişte onay aranmaz (TTK m. 491/1). Şirket, **yalnızca** devralanın ödeme yeterliliği şüpheliyse ve istenen teminat verilmemişse onayı reddedebilir (TTK m. 491/2).\n\n### 6.4. Esas sözleşmesel bağlam (borsaya kote olmayan nama yazılı paylar)\n\nEsas sözleşme, nama yazılı payların ancak şirketin onayıyla devredilebileceğini öngörebilir; bu sınırlama intifa hakkı kurulurken de geçerlidir. Şirket tasfiyeye girmişse sınırlamalar düşer (TTK m. 492). Böyle bir sınırlamanın getirilmesi için sermayenin en az %75'ini oluşturan payların olumlu oyu gerekir (TTK m. 421/3).\n\n**İradi devirde** şirket onay istemini şu yollarla reddedebilir (TTK m. 493/1-3):\n\n- Esas sözleşmede öngörülmüş **önemli bir sebep** ileri sürerek. Pay sahipleri çevresinin bileşimine ilişkin hükümler, işletme konusu veya ekonomik bağımsızlık yönünden reddi haklı gösteriyorsa önemli sebep sayılır.\n- Devredene paylarını **başvurma anındaki gerçek değeriyle** kendi veya diğer pay sahipleri ya da üçüncü kişiler hesabına almayı önererek.\n- Devralan, payları **kendi adına ve hesabına** aldığını açıkça beyan etmezse, devrin pay defterine kaydını reddederek.\n\n**Miras, mirasın paylaşımı, mal rejimi ve cebrî icrada** ise önemli sebep ileri sürülemez; şirket yalnızca payları **gerçek değerle devralmayı önererek** onayı reddedebilir (TTK m. 493/4). Devralan gerçek değerin belirlenmesini şirket merkezinin bulunduğu yerdeki asliye ticaret mahkemesinden isteyebilir; değerleme giderlerini şirket karşılar (TTK m. 493/5). Devralan gerçek değeri öğrendiği tarihten itibaren bir ay içinde bu fiyatı reddetmezse öneriyi kabul etmiş sayılır (TTK m. 493/6). Esas sözleşme devredilebilirlik şartlarını ağırlaştıramaz (TTK m. 493/7).\n\n| Konu | İradi devir | Miras / mal rejimi / icra |\n|---|---|---|\n| Önemli sebep | Olur (TTK m. 493/1-2) | Olmaz |\n| Gerçek değer önerisi | Seçenek | Zorunlu şart (TTK m. 493/4) |\n| Mülkiyet ve mali haklar | Onaya kadar devredende (TTK m. 494/1) | Derhal geçer (TTK m. 494/2) |\n\nHükümleri bakımından: onay verilmedikçe iradi devirde payların mülkiyeti ve tüm haklar devredende kalır (TTK m. 494/1). Kanuni geçişte ise mülkiyet ve malvarlığına ilişkin haklar derhâl devralana geçer; genel kurula katılma ve oy hakları şirketin onayıyla geçer (TTK m. 494/2). Şirket onay istemini aldığı tarihten itibaren **en geç üç ay** içinde reddetmezse veya ret haksızsa onay verilmiş sayılır (TTK m. 494/3).\n\n> ⚠️ **Sınavda dikkat:** \"Bir ay\" (TTK m. 493/6) devralanın gerçek değer önerisine itiraz süresidir; \"üç ay\" (TTK m. 494/3) şirketin onay istemine cevap süresidir. İkisini karıştırma.\n\n### 6.5. Borsaya kote nama yazılı paylar\n\nŞirket, borsada kote payları iktisap edeni ancak esas sözleşmede sermayeyi esas alan, yüzde ile ifade edilen bir iktisap üst sınırı öngörülmüş ve aşılmışsa pay sahibi olarak tanımayı reddedebilir (TTK m. 495/1). Miras, mal rejimi ve cebrî icra ile iktisapta pay sahibi sıfatı reddedilemez (TTK m. 495/3). Borsa dışında iktisapta şirket istemi 20 gün içinde reddetmezse devralan tanınmış sayılır (TTK m. 498/1); tanınana kadar genel kurula katılma ve oy hakkını kullanamaz (TTK m. 497/2).\n\n## 7. Pay defteri\n\nŞirket, senede bağlanmamış pay ve nama yazılı pay senedi sahiplerini ile intifa hakkı sahiplerini ad, soyad, unvan ve adresleriyle pay defterine kaydeder (TTK m. 499/1). Payın usulüne uygun devredildiği ispat edilmedikçe devralan deftere yazılamaz (TTK m. 499/2). **Şirketle ilişkilerde yalnız pay defterinde kayıtlı kimse pay sahibi sayılır** (TTK m. 499/4). Hamiline paylar pay defterine yazılmaz; onlar bakımından MKK kaydı esastır. Yanlış beyan sonucu yapılan kayıt silinebilir (TTK m. 500/1). Yargıtay uygulamasında kaydın devrin geçerlilik şartı değil, açıklayıcı nitelikte olduğu kabul edilir.\n\n## 8. Olay çözümünde denetim şeması\n\n1. Pay türü: nama mı, hamiline mi, senetsiz mi? Bedel tamamen ödenmiş mi?\n2. Hamiline senet için bedel ödenmemişse TTK m. 484/2 geçersizliği; devir için zilyetlik ve MKK bildirimi.\n3. Nama yazılıysa ciro ve zilyetliğin geçişi; esas sözleşmede bağlam var mı, pay borsaya kote mi?\n4. İradi devir mi, kanuni geçiş mi? Hangi ret yolu açık?\n5. Sermaye borcu varsa temerrüt (ihtarsız faiz), ıskat ihtarı ve bir aylık süre.\n6. Esas sözleşmeye konan yükümlülük TTK m. 480 sınırında mı?",
+  "critical_md": "- 📌 Payın asgari itibarî değeri 1 kuruştur; aykırı çıkarılan paylar geçersizdir, ödemeden doğan haklar saklıdır (TTK m. 476/1-2).\n- 📌 Bir paya en çok 15 oy verilebilir; esas sözleşme değişikliği ile ibra ve sorumluluk davası açılması kararlarında oy imtiyazı kullanılamaz (TTK m. 479/2-3).\n- 📌 İmtiyazlı pay oluşturulması ve nama yazılı pay devrinin sınırlandırılması kararları için sermayenin en az %75'i gerekir (TTK m. 421/3).\n- ⚠️ Anonim şirkette pay sahibine pay bedeli ve prim dışında borç yüklenemez (TTK m. 480/1); limited şirketteki ek ödeme (TTK m. 603) ile karıştırma. Oybirliğiyle bilanço zararını kapatma yükümlülüğü (TTK m. 421/2-a) ile ilişkisi tartışmalıdır.\n- 📌 İkincil yükümlülük yalnız devri onaya bağlı paylarda, konusu para olmayan ve tekrarlanan edimler için mümkündür (TTK m. 480/4); esas sözleşme değişikliğiyle konulması oybirliği ister (TTK m. 421/2-a).\n- 📌 Temerrüt faizi ihtarsız işler (TTK m. 482/1); ıskat için bir aylık süreli ihtar şarttır (TTK m. 483/1).\n- ⚠️ Nama yazılı pay sahibine ıskat ihtarı iadeli taahhütlü mektupla yapılır ve bir ay mektubun alındığı tarihten başlar (TTK m. 483/2).\n- 📌 Bedeli tamamen ödenmemiş paylar için hamiline senet çıkarılamaz; çıkarılırsa geçersizdir (TTK m. 484/2).\n- 📌 Hamiline payın devri: zilyetliğin geçirilmesi ve devralanın MKK'ya bildirimi; bildirim yoksa paya bağlı haklar kullanılamaz (TTK m. 489/1).\n- 📌 Nama yazılı payın hukuki işlemle devri: ciro edilmiş senedin zilyetliğinin geçirilmesi (TTK m. 490/2).\n- ⚠️ Kanuni bağlamda (bedel ödenmemiş nama yazılı pay) ret ancak ödeme yeterliliği şüpheliyse ve teminat verilmemişse mümkündür (TTK m. 491/2).\n- ⚠️ Miras, mal rejimi ve cebrî icrada önemli sebep ileri sürülemez; ret için gerçek değer önerisi şarttır (TTK m. 493/4).\n- 📌 Şirket onay istemini üç ay içinde reddetmezse onay verilmiş sayılır (TTK m. 494/3); gerçek değere devralanın bir aylık itiraz süresi ayrıdır (TTK m. 493/6).\n- 📌 Şirketle ilişkide yalnız pay defterine kayıtlı kişi pay sahibi sayılır; hamiline paylar deftere yazılmaz (TTK m. 499/4).",
+  "doctrine_md": "### MKK bildiriminin hukuki niteliği\n\n7262 sayılı Kanunla değişen TTK m. 489/1'e göre hamiline yazılı pay devri, şirket ve üçüncü kişiler hakkında ancak MKK'ya yapılan bildirimle hüküm ifade eder. Tartışma, bildirimin payın mülkiyetinin geçişi için **kurucu** olup olmadığındadır. Bir yaklaşım, bildirimin yalnızca paya bağlı hakların şirkete ve üçüncü kişilere karşı ileri sürülebilmesi için gerekli bir şart olduğunu, mülkiyetin devredenle devralan arasında zilyetliğin geçirilmesiyle geçtiğini söyler. Diğer yaklaşım, kanun metnindeki \"hüküm ifade eder\" ifadesinden hareketle bildirimi devrin etkisinin asıl anı sayar. Konu tartışmalıdır; sınavda kanun metnini (\"şirket ve üçüncü kişiler hakkında ... hüküm ifade eder\", bildirimsiz haklar kullanılamaz) aktarmak en güvenli yoldur.\n\n### Tek borç ilkesi ve oybirliğiyle zarar kapatma yükümlülüğü\n\nTTK m. 480/1 pay sahibine pay bedeli ve prim dışında borç yüklenmesini yasaklarken TTK m. 421/2-a, \"bilanço zararlarının kapatılması için yükümlülük ... koyan\" esas sözleşme değişikliği kararlarını oybirliğine bağlar. Bir görüş, m. 480/1'deki \"kanunda öngörülen istisnalar dışında\" kaydına dayanarak m. 421/2-a'yı bir istisna sayar ve bütün pay sahiplerinin oybirliğiyle zarar kapatma yükümlülüğünün konulabileceğini kabul eder. Diğer görüş, tek borç ilkesinin anonim şirketin temel niteliği olduğunu, m. 421/2-a'nın yalnız nisap düzenlediğini ve kendi başına nakdî bir yükümlülüğe izin vermediğini savunur. Sınavda m. 480/1 kuralını ve m. 421/2-a'daki oybirliği şartını birlikte göstermek gerekir.\n\n### Senede bağlanmamış paylarda bağlam\n\nEsas sözleşmede nama yazılı payların devri şirket onayına bağlanmışsa ve henüz senet veya ilmühaber çıkarılmamışsa bağlam hükümlerinin (TTK m. 492-494) uygulanıp uygulanmayacağı sorulur. Öğretide ve uygulamada bu hükümlerin senetsiz paylara da uygulanması benimsenir; çünkü bağlamın amacı, pay sahipleri çevresinin bileşimini korumaktır ve bu amaç senedin çıkarılmasına bağlı değildir.\n\n### Pay defterine kaydın niteliği\n\nTTK m. 499/4, şirketle ilişkilerde yalnız deftere kayıtlı kişiyi pay sahibi sayar. Buna karşılık Yargıtay uygulaması, usulüne uygun devredilen payın sahibinin, kaydın yapılmaması hâlinde pay sahipliğinin tespiti ve deftere kayıt davası açabileceğini kabul eder; yani kayıt devrin geçerlilik şartı değil, devrin şirkete karşı ileri sürülmesini sağlayan açıklayıcı bir işlemdir.",
+  "glossary": [
+   {
+    "term": "Pay",
+    "definition": "Anonim şirket sermayesinin bölündüğü, bir kuruş ve katları itibarî değere sahip birim; aynı zamanda ortaklık sıfatını ifade eder."
+   },
+   {
+    "term": "İmtiyazlı pay",
+    "definition": "Kâr, tasfiye payı, rüçhan veya oy gibi alanlarda üstün bir hak tanıyan ya da kanunda olmayan yeni bir hak veren pay."
+   },
+   {
+    "term": "Tek borç ilkesi",
+    "definition": "Pay sahibine pay bedeli ve prim ifası dışında borç yüklenememesi (TTK m. 480/1)."
+   },
+   {
+    "term": "İkincil yükümlülük",
+    "definition": "Devri onaya bağlı paylarda esas sözleşmeyle konabilen, para konusu olmayan ve tekrarlanan edim yükümlülüğü."
+   },
+   {
+    "term": "Iskat",
+    "definition": "Sermaye borcunu ödemeyen ortağın iştirak taahhüdünden ve kısmi ödemelerden doğan haklarından yoksun bırakılması."
+   },
+   {
+    "term": "Hamiline yazılı pay senedi",
+    "definition": "Sahibi belirtilmeyen, zilyetlikle devredilen ve devri MKK bildirimiyle hüküm ifade eden senet."
+   },
+   {
+    "term": "Nama yazılı pay senedi",
+    "definition": "Sahibinin adı yazılı olan, ciro ve zilyetliğin geçirilmesiyle devredilen ve pay defterine kaydedilen senet."
+   },
+   {
+    "term": "İlmühaber",
+    "definition": "Pay senedi bastırılıncaya kadar verilebilen geçici belge; nama yazılı senet hükümlerine kıyasen uygulanır."
+   },
+   {
+    "term": "Bağlam",
+    "definition": "Nama yazılı payların devrinin şirket onayına bağlanması."
+   },
+   {
+    "term": "Kaçış klozu",
+    "definition": "Şirketin, devri reddederken paylarını gerçek değerle devralmayı önermesi."
+   },
+   {
+    "term": "Pay defteri",
+    "definition": "Nama yazılı ve senetsiz pay sahipleri ile intifa hakkı sahiplerinin kaydedildiği defter."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "360",
+   "official_text": "2. Belirli grupların yönetim kurulunda temsil edilmesi\nMADDE 360- (1) Esas sözleşmede öngörülmek şartı ile, belirli pay gruplarına, özellik ve nitelikleriyle belirli bir grup oluşturan pay sahiplerine ve azlığa yönetim kurulunda temsil edilme hakkı tanınabilir. Bu amaçla, yönetim kurulu üyelerinin, belirli bir grup oluşturan pay sahipleri, belirli pay grupları ve azlık arasından seçileceği esas sözleşmede öngörülebileceği gibi, esas sözleşmede yönetim kurulu üyeliği için aday önerme hakkı da tanınabilir. Genel kurul tarafından yönetim kurulu üyeliğine önerilen adayın veya hakkın tanındığı gruba ve azlığa mensup adayın haklı bir sebep bulunmadığı takdirde üye seçilmesi zorunludur. Bu şekilde tanınacak temsil edilme hakkı, halka açık anonim şirketlerde yönetim kurulu üye sayısının yarısını aşamaz. Bağımsız yönetim kurulu üyelerine ilişkin düzenlemeler saklıdır.\n(2) Bu maddeye göre yönetim kurulunda temsil edilme hakkı tanınan paylar imtiyazlı sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "415",
+   "official_text": "2. Genel kurula katılmaya yetkili olan pay sahipleri\nMADDE 415- (1) Genel kurul toplantısına, yönetim kurulu tarafından düzenlenen “hazır bulunanlar listesi”nde adı bulunan pay sahipleri katılabilir.\n(2) Hazır bulunanlar listesinde adı bulunan senede bağlanmamış payların, ilmuhaberlerin nama yazılı payların sahipleri ve Sermaye Piyasası Kanununun 13 üncü maddesi uyarınca kayden izlenen pay sahipleri veya anılanların temsilcileri genel kurula katılır. Gerçek kişilerin kimlik göstermeleri, tüzel kişilerin temsilcilerinin vekâletname ibraz etmeleri şarttır.[60]\n(3) (Mülga:27/12/2020-7262/28 md.)\n(4) Genel kurula katılma ve oy kullanma hakkı, pay sahibinin payların sahibi olduğunu kanıtlayan belgeleri veya pay senetlerini şirkete bir kredi kuruluşuna veya başka bir yere depo edilmesi şartına bağlanamaz.\n[60] 27/12/2020 tarihli ve 7262 sayılı 28 inci maddesiyle, bu fıkrada yer alan “10/A” ibaresi “13 üncü” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "421",
+   "official_text": "V - Esas sözleşme değişikliklerinde toplantı ve karar nisapları\nMADDE 421- (1) Kanunda veya esas sözleşmede aksine hüküm bulunmadığı takdirde, esas sözleşmeyi değiştiren kararlar, şirket sermayesinin en az yarısının temsil edildiği genel kurulda, toplantıda mevcut bulunan oyların çoğunluğu ile alınır. İlk toplantıda öngörülen toplantı nisabı elde edilemediği takdirde, en geç bir ay içinde ikinci bir toplantı yapılabilir. İkinci toplantı için toplantı nisabı, şirket sermayesinin en az üçte birinin toplantıda temsil edilmesidir. Bu fıkrada öngörülen nisapları düşüren veya nispî çoğunluğu öngören esas sözleşme hükümleri geçersizdir.\n(2) Aşağıdaki esas sözleşme değişikliği kararları, sermayenin tümünü oluşturan payların sahiplerinin veya temsilcilerinin oybirliğiyle alınır:\na) Bilanço zararlarının kapatılması için yükümlülük ve ikincil yükümlülük koyan kararlar.\nb) Şirketin merkezinin yurt dışına taşınmasına ilişkin kararlar.\n(3) Aşağıdaki esas sözleşme değişikliği kararları, sermayenin en az yüzde yetmişbeşini oluşturan payların sahiplerinin veya temsilcilerinin olumlu oylarıyla alınır:\na) Şirketin işletme konusunun tamamen değiştirilmesi.\nb) İmtiyazlı pay oluşturulması.\nc) Nama yazılı payların devrinin sınırlandırılması.\n(4) İkinci ve üçüncü fıkralarda öngörülen nisaplara ilk toplantıda ulaşılamadığı takdirde izleyen toplantılarda da aynı nisap aranır.\n(5) Pay senetleri menkul kıymet borsalarında işlem gören şirketlerde, aşağıdaki konularda karar alınabilmesi için, yapılacak genel kurul toplantılarında, esas sözleşmelerinde aksine hüküm yoksa, 418 inci maddedeki toplantı nisabı uygulanır:\na) Sermayenin artırılması ve kayıtlı sermaye tavanının yükseltilmesine ilişkin esas sözleşme değişiklikleri.\nb) Birleşmeye, bölünmeye ve tür değiştirmeye ilişkin kararlar.\n(6) İşletme konusunun tamamen değiştirilmesi veya imtiyazlı pay oluşturulmasına ilişkin genel kurul kararına olumsuz oy vermiş nama yazılı pay sahipleri, bu kararın Türkiye Ticaret Sicili Gazetesinde yayımlanmasından itibaren altı ay boyunca payların devredilebilirliği hakkındaki kısıtlamalarla bağlı değildirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "426",
+   "official_text": "2. Şirkete karşı yetkili olma\nMADDE 426- (1) Senede bağlanmamış paylardan, nama yazılı pay senetlerinden ve ilmühaberlerden doğan pay sahipliği hakları, pay defterinde kayıtlı bulunan pay sahibi veya pay sahibince, yazılı olarak yetkilendirilmiş kişi tarafından kullanılır.\n(2) Hamiline yazılı pay senedinin zilyedi bulunduğunu ispat eden ve Merkezi Kayıt Kuruluşuna bildirilen kimse, şirkete karşı pay sahipliğinden doğan hakları kullanmaya yetkilidir.[63]\n3. Pay sahibinin temsili\n[63] 27/12/2020 tarihli ve 7262 sayılı 30 uncu maddesiyle, bu fıkraya “ispat eden” ibaresinden sonra gelmek üzere “ve Merkezi Kayıt Kuruluşuna bildirilen” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "476",
+   "official_text": "I - Asgari itibarî değer\nMADDE 476- (1) Payın itibarî değeri en az bir kuruştur. Bu değer ancak birer kuruş ve katları olarak yükseltilebilir. Anılan itibarî değer Cumhurbaşkanınca yüz katına kadar artırılabilir.[71]\n(2) Birinci fıkraya aykırı olarak çıkarılan paylar geçersizdir; ancak, pay için yapılan ödemeden doğan haklar saklıdır. Söz konusu payları ihraç edenler, zarar verdikleri kişilere karşı müteselsilen sorumludur. Zamanaşımı hakkında 560 ıncı madde uygulanır.\n(3) Zora giren şirketin finansal durumunun iyileştirilmesi amacıyla payın itibarî değeri bir kuruştan fazla olduğu takdirde bir kuruşa kadar indirilebilir.\n[71] 2/7/2018 tarihli ve 700 sayılı Kanun Hükmünde Kararnamenin 192 nci maddesiyle bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "477",
+   "official_text": "II - Payların bölünememesi\nMADDE 477- (1) Pay şirkete karşı bölünemez. Bir payın birden fazla sahibi bulunduğu takdirde, bunlar şirkete karşı haklarını ancak ortak bir temsilci aracılığıyla kullanabilirler. Böyle bir temsilci atamadıkları takdirde, şirketçe söz konusu payın maliklerinden birine yapılacak tebligat tümü hakkında geçerli olur.\n(2) Genel kurul, sermaye tutarı aynı kalmak şartıyla, esas sözleşmeyi değiştirmek suretiyle, payları, asgari itibarî değer hükmüne uyarak, itibarî değerleri daha küçük olan paylara bölmek veya payları itibarî değerleri daha yüksek olan paylar hâlinde birleştirmek yetkisini haizdir. Şu kadar ki, payların birleştirilebilmesi için her pay sahibinin bu işleme onay vermesi gerekir. Kanunun 476 ncı maddesi saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "478",
+   "official_text": "I - Tanım\nMADDE 478- (1) İlk esas sözleşme ile veya esas sözleşme değiştirilerek bazı paylara imtiyaz tanınabilir.\n(2) İmtiyaz; kâr payı, tasfiye payı, rüçhan ve oy hakkı gibi haklarda, paya tanınan üstün bir hak veya kanunda öngörülmemiş yeni bir pay sahipliği hakkıdır.\n(3) 360 ıncı madde hükmü saklıdır.\n(4) (Ek: 26/6/2012-6335/25 md.) Sermayesinin yarısından fazlası tek başına veya birlikte; Devlet, il özel idaresi, belediye ve diğer kamu tüzel kişileri, sendikalar, dernekler, vakıflar, kooperatifler ve bunların üst kuruluşlarına ait anonim şirketlerde ve bu şirketlerin aynı oranda sermaye payına sahip oldukları iştiraklerinde; bunların sahip oldukları paylara tesis edilebilecek imtiyazlar hariç olmak üzere, diğer paylara, belirli bir grup oluşturan pay sahiplerine, belirli pay gruplarına ve azlığa bu Kanunda düzenlenen herhangi bir imtiyaz tesis edilemez. Bu hüküm, payları borsada işlem gören anonim şirketlere, 5411 sayılı Kanunun 3 üncü maddesinde tanımlanan kredi kuruluşlarına ve finansal kuruluşlara uygulanmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "479",
+   "official_text": "II - Oyda imtiyazlı paylar\nMADDE 479- (1) Oyda imtiyaz, eşit itibarî değerdeki paylara farklı sayıda oy hakkı verilerek tanınabilir.\n(2) Bir paya en çok onbeş oy hakkı tanınabilir. Bu sınırlama, kurumlaşmanın gerektirdiği veya haklı bir sebebin ispatlandığı durumlarda uygulanmaz. Bu iki hâlde, şirketin merkezinin bulunduğu yerdeki asliye ticaret mahkemesinin, kurumlaşma projesini veya haklı sebebi inceleyip, bunlara bağlı olarak, sınırlamadan istisna edilme kararını vermesi gerekir. Projede yapılacak her değişiklik mahkeme kararına bağlıdır. Kurumsallaşmanın gerçekleşmeyeceğinin anlaşıldığı veya haklı sebebin ortadan kalktığı hâllerde istisna etme kararı mahkeme tarafından geri alınabilir.\n(3) Oyda imtiyaz aşağıdaki kararlarda kullanılamaz:\na) Esas sözleşme değişikliği.\nb) (Mülga: 26/6/2012-6335/43 md.)\nc) İbra ve sorumluluk davası açılması.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "480",
+   "official_text": "A) İlke\nMADDE 480- (1) Kanunda öngörülen istisnalar dışında, esas sözleşmeyle pay sahibine, pay bedelini veya payın itibarî değerini aşan primi ifa dışında borç yükletilemez.\n(2) Kayıtlı sermaye sistemini kabul eden anonim şirketlerde esas sözleşme ile yönetim kuruluna primli pay çıkarma yetkisi tanınabilir.\n(3) Pay sahipleri sermaye olarak şirkete verdiklerini geri isteyemezler; tasfiye payına ilişkin hakları saklıdır.\n(4) Pay devirlerinin şirketin onayına bağlı olduğu hâllerde, esas sözleşmeyle pay sahiplerine sermaye taahhüdünden doğan borçtan başka, belli zamanlarda tekrarlanan ve konusu para olmayan edimleri yerine getirmek yükümlülüğü de yüklenebilir. Bu ikincil yükümlülüklerin nitelik ve kapsamları pay senetlerinin veya ilmühaberlerin arkasına yazılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "481",
+   "official_text": "B) Ödemeye çağrı\nMADDE 481- (1) Payların bedelleri, yönetim kurulu tarafından, esas sözleşmede başkaca hüküm bulunmadığı takdirde, pay sahiplerinden ilan yoluyla istenir. İlanda, ödenmesi istenen sermaye borcunun oranı veya tutarı ile ödeme tarihi ve ödemenin nereye yapılacağı açıkça belirtilir.\n(2) İkincil yükümlülükler hakkında, esas sözleşmede, sözleşme cezası da öngörülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "482",
+   "official_text": "I - Sonuçları\nMADDE 482- (1) Sermaye koyma borcunu süresi içinde yerine getirmeyen pay sahibi, ihtara gerek olmaksızın, temerrüt faizi ödemekle yükümlüdür.\n(2) Ayrıca, yönetim kurulu, mütemerrit pay sahibini, iştirak taahhüdünden ve yaptığı kısmi ödemelerden doğan haklarından yoksun bırakmaya ve söz konusu payı satıp yerine başkasını almaya ve kendisine verilmiş pay senedi varsa, bunları iptal etmeye yetkilidir. İptal edilen pay senetleri ele geçirilemiyorsa iptal kararı 35 inci maddede yazılı gazetede ve ayrıca esas sözleşmenin öngördüğü şekilde ilan olunur.\n(3) Esas sözleşmeyle, pay sahipleri, temerrüt hâlinde, sözleşme cezası ödemekle zorunlu tutulabilirler.\n(4) Şirketin tazminat hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "483",
+   "official_text": "II - Iskat usulü\nMADDE 483- (1) Kanunun 482 nci maddesinin ikinci ve üçüncü fıkralarının uygulanabilmesi için, yönetim kurulu tarafından, mütemerrit pay sahibine, 35 inci maddede yazılı gazete ile esas sözleşmenin öngördüğü şekilde ilan yoluyla şirketin internet sitesinde de yayımlanacak bir mesajla ihtarda bulunulur. Bu ihtarda, mütemerrit pay sahibinin temerrüde konu olan tutarı bir ay içinde ödemesi, aksi hâlde, ilgili paylara ilişkin haklarından yoksun bırakılacağı ve sözleşme cezasının isteneceği belirtilir.\n(2) Nama yazılı pay senetlerinin sahiplerine bu davet ve ihtar, ilan yerine, iadeli taahhütlü mektupla ve internet sitesi mesajı ile yapılır. Bir aylık süre, mektubun alındığı tarihten başlar.\n(3) Mütemerrit pay sahibi, yeni pay sahibinin ödemelerinden açık kalan tutar için şirkete karşı sorumludur.\n(4) 501 inci madde hükmü saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "484",
+   "official_text": "1. Şartlar\nMADDE 484- (1) Pay senetleri, hamiline veya nama yazılı olur.\n(2) Bedelleri tamamen ödenmemiş olan paylar için hamiline yazılı pay senetleri çıkarılamaz. Bu hükme aykırı olarak çıkarılanlar geçersizdir. İyiniyet sahiplerinin tazminat hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "485",
+   "official_text": "2. Dönüştürme\nMADDE 485- (1) Esas sözleşmede aksi öngörülmemişse, payın türü dönüştürme yolu ile değiştirilebilir. Dönüştürme esas sözleşmenin değiştirilmesiyle yapılır. Dönüştürmenin kanunen öngörüldüğü hâllerde yönetim kurulu gerekli kararı alarak derhâl uygular ve bunun esas sözleşmeye yansıtılması girişimini hemen başlatır.\n(2) Nama yazılı pay senetlerinin hamiline yazılı pay senetlerine dönüştürülebilmesi için payların bedellerinin tamamen ödenmiş olması şarttır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "486",
+   "official_text": "II - Pay senedi bastırılması\nMADDE 486- (1) Şirketin ve sermaye artırımının tescilinden önce çıkarılan paylar geçersizdir; ancak, iştirak taahhüdünden doğan yükümlülükler geçerliliklerini sürdürür.\n(2) Paylar hamiline yazılı ise yönetim kurulu, pay bedelinin tamamının ödenmesi tarihinden itibaren üç ay içinde pay senetlerini bastırıp pay sahiplerine dağıtır. Yönetim kurulunun hamiline yazılı pay senetlerinin bastırılmasına ilişkin kararı tescil ve ilan edilir, ayrıca şirketin internet sitesine konulur. (Ek cümle:27/12/2020-7262/31 md.) Hamiline yazılı pay sahipleri ile sahip oldukları paya ilişkin bilgiler, senetler pay sahiplerine dağıtılmadan önce Merkezi Kayıt Kuruluşuna bildirilir. Pay senedi bastırılıncaya kadar ilmühaber çıkarılabilir. İlmühaberlere kıyas yoluyla nama yazılı pay senetlerine ilişkin hükümler uygulanır.\n(3) Azlık istemde bulunursa nama yazılı pay senedi bastırılıp tüm nama yazılı pay senedi sahiplerine dağıtılır.\n(4) Tescilden önce pay senedi çıkaran kimse, bundan doğan zararlardan sorumludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "487",
+   "official_text": "III - Pay senetlerinin şekli\nMADDE 487- (1) Pay senetlerinin; şirketin unvanını, sermaye tutarını, kuruluş tarihini, bu tarihteki sermaye tutarını, çıkarılan pay senedinin tertibini, bunun tescili tarihini, senedin türünü ve itibarî değerini, kaç payı içerdiğini belirtmesi ve şirket adına imza etmeye yetkili olanlardan en az ikisi tarafından imza edilmiş olması şarttır. Kapalı şirketlerde baskı şeklinde imzanın delikli olması veya sahtekârlığı engelleyici diğer güvenlik önlemlerinin uygulanması gerekir.\n(2) Nama yazılı pay senetlerinin ayrıca; sahiplerinin adı ve soyadını veya ticaret unvanını, yerleşim yerini, pay senedi bedelinin ödenmiş olan miktarını da açıklaması gerekir. Bu senetler şirketin pay defterine kaydolunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "488",
+   "official_text": "IV - Yıpranmış pay senetleri\nMADDE 488- (1) Bir pay senedi veya ilmühaber, tedavülü mümkün olmayacak derecede yıpranmış veya bozulmuşsa ya da içeriği veya ayırt edici özellik ve nitelikleri tereddüde yer bırakmayacak tarzda anlaşılamıyorsa, sahibi, giderlerini peşin ödemek şartıyla, şirketten yeni bir senet veya ilmühaber istemek hakkını haizdir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "489",
+   "official_text": "B) Hamiline yazılı pay senetlerinin devri\nMADDE 489- (Değişik:27/12/2020-7262/32 md.)\n(1) Hamiline yazılı pay senetlerinin devri, şirket ve üçüncü kişiler hakkında, ancak zilyetliğin geçirilmesi suretiyle payı devralan tarafından Merkezi Kayıt Kuruluşuna yapılacak bildirimle hüküm ifade eder. Merkezi Kayıt Kuruluşuna bildirimde bulunulmaması hâlinde, hamiline yazılı pay senedine sahip olanlar, bu Kanundan doğan paya bağlı haklarını gerekli bildirim yapılıncaya kadar kullanamaz.\n(2) Hamiline yazılı pay senedine bağlı hakların şirkete ve üçüncü kişilere karşı ileri sürülebilmesinde Merkezi Kayıt Kuruluşuna yapılan bildirim tarihi esas alınır.\n(3) Merkezi Kayıt Kuruluşu tarafından hamiline yazılı pay senetleriyle ilgili tutulan kayıtlar, ilgili kanunlar uyarınca yetkili kılınmış mercilerle paylaşılır.\n(4) Hamiline yazılı pay senetlerinin Merkezi Kayıt Kuruluşuna bildirilmesi ve kaydedilmesine ilişkin usul ve esaslar ile bu kapsamda alınacak ücretler Ticaret Bakanlığınca çıkarılan tebliğle belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "490",
+   "official_text": "C) Nama yazılı payların ve pay senetlerinin devrinde ilke\nMADDE 490- (1) Kanunda veya esas sözleşmede aksi öngörülmedikçe, nama yazılı paylar, herhangi bir sınırlandırmaya bağlı olmaksızın devredilebilirler.\n(2) Hukuki işlemle devir, ciro edilmiş nama yazılı pay senedinin zilyetliğinin devralana geçirilmesiyle yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "491",
+   "official_text": "I - Kanuni sınırlama\nMADDE 491- (1) Bedeli tamamen ödenmemiş nama yazılı paylar, ancak şirketin onayı ile devrolunabilir; meğerki, devir, miras, mirasın paylaşımı, eşler arasındaki mal rejimi hükümleri veya cebrî icra yoluyla gerçekleşsin.\n(2) Şirket, sadece, devralanın ödeme yeterliliği şüpheli ise ve şirketçe istenen teminat verilmemişse onay vermeyi reddedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "492",
+   "official_text": "1. İlkeler\nMADDE 492- (1) Esas sözleşme, nama yazılı payların ancak şirketin onayıyla devredilebileceğini öngörebilir.\n(2) Bu sınırlama intifa hakkı kurulurken de geçerlidir.\n(3) Şirket tasfiyeye girmişse devredilebilirliğe ilişkin sınırlamalar düşer.\n2. Borsaya kote edilmemiş nama yazılı paylar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "493",
+   "official_text": "a) Red sebepleri\nMADDE 493- (1) Şirket, esas sözleşmede öngörülmüş önemli bir sebebi ileri sürerek veya devredene, paylarını, başvurma anındaki gerçek değeriyle, kendi veya diğer pay sahipleri ya da üçüncü kişiler hesabına almayı önererek, onay istemini reddedebilir.\n(2) Pay sahipleri çevresinin bileşimine ilişkin esas sözleşme hükümleri, şirketin işletme konusu veya işletmenin ekonomik bağımsızlığı yönünden onayın reddini haklı gösteriyorsa, önemli sebep oluşturur.\n(3) Bundan başka, devralan, payları kendi adına ve hesabına aldığını açıkça beyan etmezse şirket, devrin pay defterine kaydını reddedebilir.\n(4) Paylar; miras, mirasın paylaşımı, eşler arasındaki mal rejimi hükümleri veya cebrî icra gereği iktisap edilmişlerse, şirket, payları edinen kişiye, sadece paylarını gerçek değeri ile devralmayı önerdiği takdirde onay vermeyi reddedebilir.\n(5) Devralan, paylarının gerçek değerinin belirlenmesini, şirketin merkezinin bulunduğu yerdeki asliye ticaret mahkemesinden isteyebilir; bu hâlde mahkeme şirketin karar tarihine en yakın tarihteki değerini esas alır. Değerleme giderlerini şirket karşılar.\n(6) Devralan, gerçek değeri öğrendiği tarihten itibaren bir ay içinde bu fiyatı reddetmezse, şirketin devralma önerisini kabul etmiş sayılır.\n(7) Esas sözleşme devredilebilirlik şartlarını ağırlaştıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "494",
+   "official_text": "b) Hükümleri\nMADDE 494- (1) Devir için gerekli olan onay verilmediği sürece, payların mülkiyeti ve paylara bağlı tüm haklar devredende kalır.\n(2) Payların miras, mirasın paylaşımı, eşler arasındaki mal rejimi hükümleri veya cebrî icra gereği iktisap edilmeleri hâlinde, bunların mülkiyeti ve bunlardan kaynaklanan malvarlığına ilişkin haklar derhâl; genel kurula katılma haklarıyla oy hakları ise ancak şirketin onayı ile birlikte devralana geçer.\n(3) Şirket, onaylamaya ilişkin istemi, aldığı tarihten itibaren en geç üç ay içinde reddetmemişse veya ret haksızsa, onay verilmiş sayılır.\n3. Borsaya kote edilmiş nama yazılı paylar",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "495",
+   "official_text": "a) Red sebepleri\nMADDE 495- (1) Şirket, borsada kote edilmiş nama yazılı payları iktisap eden bir kimseyi, pay sahibi olarak tanımayı, ancak esas sözleşme, iktisap edilebilecek nama yazılı paylar ile ilgili olarak iktisap edenin pay sahibi olarak tanınacağı, sermayeyi esas alan ve yüzde ile ifade edilen bir iktisap üst sınırı öngörmüş ve bu üst sınır aşılmışsa reddedebilir.\n(2) Ayrıca istemde bulunmasına rağmen devralan, payları kendi ad ve hesabına aldığını açıkça beyan etmezse, şirket, payların pay defterine kaydını reddedebilir.\n(3) Borsaya kote nama yazılı payların miras, mirasın paylaşımı, eşler arasındaki mal rejimi hükümleri veya cebrî icra yoluyla iktisap edilmeleri hâllerinde, devralanın pay sahibi sıfatını alması reddedilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "497",
+   "official_text": "c) Hakların geçişi\nMADDE 497- (1) Borsaya kote nama yazılı paylar borsada iktisap edildikleri takdirde, paylardan kaynaklanan haklar payların devri ile birlikte devralana geçer. Borsaya kote nama yazılı payların, borsa dışında iktisap edilmeleri hâlinde, söz konusu haklar, pay sahipliği sıfatının şirket tarafından tanınması için, devralanın şirkete başvuruda bulunmasıyla devralana geçer.\n(2) Devralan, şirket tarafından tanınıncaya kadar, paylardan doğan, genel kurula katılma ve oy hakkını ve oy hakkına bağlı diğer hakları kullanamaz. Tüm diğer pay sahipliği haklarının, özellikle rüçhan hakkının kullanılmasında, iktisap eden herhangi bir sınırlamaya tabi değildir.\n(3) Şirket tarafından henüz tanınmamış bulunan devralanlar, hakların geçmesinden sonra, oy hakkından yoksun pay sahibi olarak pay defterine yazılır. Söz konusu paylar genel kurulda temsil edilemez.\n(4) Red hukuka aykırı ise şirket, mahkeme kararının kesinleşme tarihinden itibaren, oy hakkını ve buna bağlı hakları tanır. Şirket, kendisine herhangi bir kusurun yükletilemeyeceğini ispat edemediği takdirde, devralanın red nedeniyle uğradığı zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "498",
+   "official_text": "d) Red süresi\nMADDE 498- (1) Şirket, devralanın, pay sahibi olarak tanınması istemini, istemi aldığı tarihten itibaren yirmi gün içinde reddetmezse devralan, pay sahibi olarak tanınmış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "499",
+   "official_text": "1. Kayıt\nMADDE 499- (1) Şirket, senede bağlanmamış pay ve nama yazılı pay senedi sahipleriyle, intifa hakkı sahiplerini, ad, soyad, unvan ve adresleriyle, pay defterine kaydeder.\n(2) Payın usulüne uygun olarak devredildiği veya üzerinde intifa hakkı kurulduğu ispat edilmediği sürece, devralan ve intifa hakkı sahibi pay defterine yazılamaz.\n(3) Şirket, kaydın yapıldığını pay senedine işaret eder.\n(4) Şirketle ilişkilerde, sadece pay defterinde kayıtlı bulunan kimse pay sahibi ve intifa hakkı sahibi olarak kabul edilir.\n(5) Merkezî Kayıt Kuruluşu tarafından kayden takibi yapılan nama yazılı paylara ilişkin Sermaye Piyasası Kanunu hükümleri ile ilgili diğer düzenlemeler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "500",
+   "official_text": "2. Kaydın silinmesi\nMADDE 500- (1) Şirket, iktisap edenin yanlış beyanı sonucu pay defterine yapılan kaydı, ilgililerin görüşlerini alarak silebilir. Söz konusu kişilere, silinmeye ilişkin yazılı bilgi derhâl verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "501",
+   "official_text": "3. Bedellerinin tamamı ödenmemiş nama yazılı paylar\nMADDE 501- (1) Bedeli tamamen ödenmemiş bulunan nama yazılı bir payı iktisap eden kimse, pay defterine kaydedilmekle şirkete karşı geri kalan pay bedelini ödemekle yükümlü olur.\n(2) Şirketin kurulması veya esas sermayenin artırılması sırasında iştirak taahhüdünde bulunan kimse, payını başkasına devrettiği takdirde, bedelin henüz ödenmemiş olan kısmı kendisinden istenemez; meğerki, şirketin kuruluşu veya esas sermayenin artırılması tarihinden itibaren iki yıl içinde şirket iflas etmiş ve payı iktisap eden kimse paydan doğan haklardan yoksun bırakılmış olsun.\n(3) Payını devreden kimse ikinci fıkra hükmüne tabi değilse, iktisap edenin pay defterine kaydedilmesiyle borçlarından kurtulmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "560",
+   "official_text": "V - Zamanaşımı\nMADDE 560- (1) Sorumlu olanlara karşı tazminat istemek hakkı, davacının zararı ve sorumluyu öğrendiği tarihten itibaren iki ve her hâlde zararı doğuran fiilin meydana geldiği günden itibaren beş yıl geçmekle zamanaşımına uğrar. Şu kadar ki, bu fiil cezayı gerektirip, Türk Ceza Kanununa göre daha uzun dava zamanaşımına tabi bulunuyorsa, tazminat davasına da bu zamanaşımı uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "603",
+   "official_text": "1. Kural\nMADDE 603- (1) Ortaklar şirket sözleşmesiyle, esas sermaye payı bedeli dışında ek ödeme ile de yükümlü tutulabilirler. Ortaklardan bu yükümlülüğün yerine getirilmesi ancak,\na) Şirket esas sermayesi ile kanuni yedek akçeler toplamının şirketin zararını karşılayamaması,\nb) Şirketin bu ek araçlar olmaksızın işlerine gereği gibi devamının mümkün olmaması,\nc) Şirket sözleşmesinde tanımlanan ve özkaynak ihtiyacı doğuran diğer bir hâlin gerçekleşmiş bulunması,\nhâllerinde istenebilir.\n(2) İflasın açılması ile ek ödeme yükümlülüğü muaccel olur.\n(3) Ek ödeme yükümlülüğü şirket sözleşmesinde ancak esas sermaye payını esas alan belirli bir tutar olarak öngörülebilir. Bu tutar esas sermaye payının itibarî değerinin iki katını aşamaz.\n(4) Her ortak, sadece kendi esas sermaye payına düşen ek ödemeyi yerine getirmekle yükümlüdür.\n(5) Şartlar gerçekleşmişse, ek ödemeler müdürler tarafından istenir.\n(6) Ek ödeme yükümlülüğünün azaltılması veya kaldırılması ancak esas sermaye ile kanuni yedek akçeler toplamının zararları tamamen karşılaması hâlinde mümkündür. Ek ödeme yükümlülüğünün azaltılmasına veya kaldırılmasına esas sermayenin azaltılması hakkındaki hükümler kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "183",
+   "official_text": "MADDE 183- Kanun, sözleşme veya işin niteliği engel olmadıkça alacaklı, borçlunun rızasını aramaksızın alacağını üçüncü bir kişiye devredebilir.\nBorçlu, devir yasağı içermeyen yazılı bir borç tanımasına güvenerek alacağı devralmış olan üçüncü kişiye karşı, alacağın devredilemeyeceğinin kararlaştırılmış bulunduğu savunmasını ileri süremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/2945",
+   "karar_no": "2025/7761",
+   "decision_date": "24.12.2025",
+   "summary_md": "Davacı, nama yazılı ilmühaber bastırılmış bir anonim şirketin sermayesinin yarısını oluşturan 6.000 payı, 17.10.2017 tarihli devir sözleşmesi ve cirolanmış ilmühaberlerin zilyetliğini alarak devraldığını ileri sürmüştür. Aynı paylar daha sonra 18.11.2017 tarihli sözleşmeyle diğer davalıya devredilmiş ve bu kişi şirketin tek ortağı olarak görünmüştür. Davacı, payların kendisine ait olduğunun tespitini ve pay defterine kaydını istemiştir. Bölge Adliye Mahkemesi, TTK m. 490 uyarınca ciro ve teslimle yapılan ilk devrin geçerli olduğunu, esas sözleşmede devir sınırlaması bulunmadığını ve devreden payını sattıktan sonra aynı payları ikinci kez devrederek karşı tarafı ortak yapamayacağını kabul ederek davayı tüm davalılar yönünden kabul etmiştir. Yargıtay 11. Hukuk Dairesi bu hükmü onamıştır. Karar, ilmühaberli nama yazılı payların devrinde belirleyici olanın ciro ve zilyetliğin geçişi olduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1199854800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Hukuk Dairesi",
+   "esas_no": "2025/2976",
+   "karar_no": "2025/7563",
+   "decision_date": "16.12.2025",
+   "summary_md": "Davacılar, davalı anonim şirketin %40 hissesini 05.06.2017 tarihli sözleşmeyle devraldıklarını ve hamiline pay senedi asıllarının kendilerine teslim edildiğini belirterek payların pay defterine işlenmesini ve şirkete kayyım atanmasını istemiştir. Mahkemeler, TTK m. 499 uyarınca pay defterine nama yazılı senetlerin kaydedildiğini, hamiline senetlerin deftere kaydedilme olanağı bulunmadığını ve hamiline senetlerde devirden sonra MKK sistemine kayıt yapılabileceğini belirterek davayı reddetmiştir. Yargıtay 11. Hukuk Dairesi, ilk derece ve istinaf mahkemelerinin kararında isabetsizlik görmeyerek reddi onamıştır. Karar, hamiline payların pay defteri yerine MKK kaydıyla takip edildiğini hatırlatır.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1199671600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Z A.Ş. paylarını 0,5 kuruş itibarî değerle çıkarmış ve pay bedellerini toplamıştır. Bu paylar hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Paylar yalnız nama yazılı olarak geçerlidir",
+    "Paylar geçerlidir; itibarî değer kendiliğinden 1 kuruşa yükselir",
+    "Paylar geçersizdir; ödemeden doğan haklar saklıdır ve ihraç edenler zarar verdiklerine karşı müteselsilen sorumludur",
+    "Paylar kesin hükümsüzdür; yapılan ödemeler hiçbir şekilde istenemez"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Payın itibarî değeri en az bir kuruştur; buna aykırı çıkarılan paylar geçersizdir, ancak pay için yapılan ödemeden doğan haklar saklıdır ve ihraç edenler zarar verdikleri kişilere karşı müteselsilen sorumludur (TTK m. 476/1-2). Ödemeden doğan haklar saklı olduğundan ödemelerin istenemeyeceği söylenemez."
+  },
+  {
+   "stem_md": "Anonim şirkette oyda imtiyazlı paylara ilişkin aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Bir paya sınırsız oy verilebilir; yalnız yönetim kurulu seçiminde kullanılamaz",
+    "Bir paya en çok 5 oy verilebilir; her kararda kullanılır",
+    "Bir paya en çok 15 oy verilebilir; esas sözleşme değişikliği kararında oyda imtiyaz kullanılamaz",
+    "Oyda imtiyaz yalnızca halka açık şirketlerde tanınabilir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Bir paya en çok onbeş oy hakkı tanınabilir; kurumlaşma veya haklı sebep hâlinde mahkeme istisna tanıyabilir (TTK m. 479/2). Oyda imtiyaz esas sözleşme değişikliği ile ibra ve sorumluluk davası açılması kararlarında kullanılamaz (TTK m. 479/3)."
+  },
+  {
+   "stem_md": "X A.Ş. esas sözleşmesi, payların devrini yönetim kurulu onayına bağlamış ve pay sahiplerine her yıl pay başına 500 TL katkı payı ödeme yükümlülüğü getirmiştir. Bu hükümle ilgili hangisi doğrudur?",
+   "options": [
+    "Katkı payı yalnız en çok itibarî değerin iki katı kadar öngörülebilir",
+    "Hüküm yalnız kayıtlı sermaye sistemini kabul etmiş şirketlerde geçerlidir",
+    "Katkı payı yükümlülüğü, devir onaya bağlı olduğu için ikincil yükümlülük olarak geçerlidir",
+    "Hüküm tek borç ilkesine aykırıdır; onaya bağlı paylarda ancak konusu para olmayan, tekrarlanan edimler yüklenebilir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Esas sözleşmeyle pay sahibine pay bedeli ve prim ifası dışında borç yüklenemez (TTK m. 480/1). Devri onaya bağlı paylarda yalnızca konusu para olmayan, belli zamanlarda tekrarlanan edimler yüklenebilir (TTK m. 480/4); yıllık nakdî katkı bu nitelikte değildir. İtibarî değerin iki katı sınırı limited şirkete özgü ek ödeme düzenlemesinde yer alır (TTK m. 603). Kayıtlı sermaye sistemi yalnız yönetim kuruluna primli pay çıkarma yetkisi tanınmasıyla ilgilidir (TTK m. 480/2)."
+  },
+  {
+   "stem_md": "Ortak Ali, sermaye borcunun son taksitini esas sözleşmede belirlenen vadede ödememiştir. Şirket hiçbir ihtar çekmemiştir. Ali bakımından hangisi doğrudur?",
+   "options": [
+    "Ali ihtara gerek olmaksızın temerrüt faizi ödemekle yükümlüdür",
+    "Ali ihtar çekilmedikçe hiçbir yükümlülük altına girmez",
+    "Ali ancak yönetim kurulunun ödemeye çağrı ilanı yaptığı tarihten itibaren faiz öder",
+    "Ali temerrüt hâlinde otomatik olarak payından yoksun kalır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Sermaye koyma borcunu süresi içinde yerine getirmeyen pay sahibi, ihtara gerek olmaksızın temerrüt faizi öder (TTK m. 482/1). Haklardan yoksun bırakma (ıskat) ise ayrıca bir aylık süreli ihtar usulünü gerektirir (TTK m. 483/1); otomatik kayıp yoktur."
+  },
+  {
+   "stem_md": "Nama yazılı pay senedi sahibi olan ortağı ıskat etmek isteyen yönetim kurulunun yapması gereken aşağıdakilerden hangisidir?",
+   "options": [
+    "Genel kurul kararı almak ve bir hafta süre vermek",
+    "Yalnızca gazete ilanı yapmak yeterlidir",
+    "İhtarı noterden çekmek zorundadır; başka yol yoktur",
+    "İhtarı iadeli taahhütlü mektupla ve internet sitesi mesajıyla yapmak; bir aylık süre mektubun alındığı tarihten başlar"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Nama yazılı pay senedi sahiplerine davet ve ihtar, ilan yerine iadeli taahhütlü mektupla ve internet sitesi mesajı ile yapılır; bir aylık süre mektubun alındığı tarihten başlar (TTK m. 483/2). Süre bir aydır, bir hafta değildir (TTK m. 483/1)."
+  },
+  {
+   "stem_md": "Y A.Ş., bedellerinin yalnızca %60'ı ödenmiş paylar için hamiline yazılı pay senedi bastırıp dağıtmıştır. Bu senetler hakkında hangisi doğrudur?",
+   "options": [
+    "Senetler yalnızca devredilemez olarak geçerlidir",
+    "Senetler geçerlidir; kalan bedel hamilden istenir",
+    "Senetler nama yazılı sayılır",
+    "Senetler geçersizdir; iyiniyet sahiplerinin tazminat hakları saklıdır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bedelleri tamamen ödenmemiş paylar için hamiline yazılı pay senedi çıkarılamaz; çıkarılanlar geçersizdir ve iyiniyet sahiplerinin tazminat hakları saklıdır (TTK m. 484/2). Kendiliğinden nama yazılıya dönüşme gibi bir sonuç kanunda yoktur."
+  },
+  {
+   "stem_md": "Zeynep, hamiline yazılı pay senetlerini Mehmet'ten teslim almıştır, ancak Merkezi Kayıt Kuruluşuna bildirimde bulunmamıştır. Zeynep bakımından hangisi doğrudur?",
+   "options": [
+    "Zeynep, bildirim yapılıncaya kadar kanundan doğan paya bağlı haklarını kullanamaz",
+    "Zeynep'in iktisabı kesin hükümsüzdür ve senetleri iade etmelidir",
+    "Zeynep pay sahibi hakları serbestçe kullanabilir; bildirim yalnızca idari bir düzenlemedir",
+    "Zeynep pay defterine kaydedilerek haklarını kullanabilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hamiline yazılı pay senetlerinin devri, şirket ve üçüncü kişiler hakkında ancak zilyetliğin geçirilmesiyle payı devralan tarafından MKK'ya yapılacak bildirimle hüküm ifade eder; bildirim yapılmazsa paya bağlı haklar bildirim yapılıncaya kadar kullanılamaz (TTK m. 489/1). Hamiline paylar pay defterine yazılmaz (TTK m. 499/1)."
+  },
+  {
+   "stem_md": "Bedeli tamamen ödenmemiş nama yazılı payını Selin'e devretmek isteyen Murat'ın devrine yönetim kurulu onay vermemektedir. Esas sözleşmede devre ilişkin bir sınırlama yoktur. Şirket onayı hangi sebeple reddedebilir?",
+   "options": [
+    "Yönetim kurulu üyelerinden birinin Selin'i tanımaması sebebiyle",
+    "Esas sözleşmede bağlam olmasa da dilediği her sebeple",
+    "Selin'in şirketin rakibi olması sebebiyle",
+    "Selin'in ödeme yeterliliği şüpheliyse ve istenen teminat verilmemişse"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bedeli tamamen ödenmemiş nama yazılı paylar ancak şirketin onayıyla devredilir; şirket yalnızca devralanın ödeme yeterliliği şüpheli ise ve istenen teminat verilmemişse onayı reddedebilir (TTK m. 491/1-2). Başka sebep kanuni bağlamda ileri sürülemez."
+  },
+  {
+   "stem_md": "Borsaya kote olmayan B A.Ş. esas sözleşmesi, rakip şirket ortaklarının B A.Ş. pay sahibi olmasını önemli ret sebebi saymaktadır. Pay sahibi Cemal ölmüş, payları mirasçısı Selin'e geçmiştir; Selin rakip şirketin ortağıdır. Şirketin onayı reddedebilmesi için ne gerekir?",
+   "options": [
+    "Esas sözleşmedeki önemli sebebe dayanması yeterlidir",
+    "Ret mümkün değildir; mirasçı her hâlde oy hakkıyla pay sahibi olur",
+    "Genel kurulun oybirliğiyle ret kararı alması gerekir",
+    "Payları gerçek değeriyle devralmayı önermesi gerekir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Paylar miras gereği iktisap edilmişse şirket, payı edinene sadece paylarını gerçek değeriyle devralmayı önerdiği takdirde onay vermeyi reddedebilir (TTK m. 493/4). Önemli sebep bu hâlde yeterli olmaz. Ret tümüyle yasak da değildir; genel kurul oybirliği de aranmaz."
+  },
+  {
+   "stem_md": "Borsaya kote olmayan ve esas sözleşmesinde nama yazılı payların devri onaya bağlanmış bir anonim şirket, devre ilişkin onay istemini aldıktan sonra üç ay içinde hiçbir cevap vermemiştir. Sonuç hangisidir?",
+   "options": [
+    "Devralan gerçek değer önerisini kabul etmiş sayılır",
+    "Süre bir yıla uzar",
+    "Onay verilmiş sayılır",
+    "İstem reddedilmiş sayılır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Şirket, onaylamaya ilişkin istemi aldığı tarihten itibaren en geç üç ay içinde reddetmemişse veya ret haksızsa onay verilmiş sayılır (TTK m. 494/3). Gerçek değer önerisine bir ay içinde itiraz edilmemesi ise ayrı bir kural olup öneriyi kabul sonucunu doğurur (TTK m. 493/6)."
+  },
+  {
+   "stem_md": "Pay defterine ilişkin hangisi doğrudur?",
+   "options": [
+    "Şirketle ilişkilerde yalnız pay defterinde kayıtlı kimse pay sahibi olarak kabul edilir",
+    "Devralan, devri ispat etmese de deftere yazılabilir",
+    "Pay defterine kayıt, ciro ve zilyetlik olmaksızın nama yazılı payı kendiliğinden devreder",
+    "Hamiline yazılı paylar da pay defterine kaydedilir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Şirketle ilişkilerde yalnız pay defterinde kayıtlı kimse pay sahibi sayılır (TTK m. 499/4). Defter nama yazılı ve senetsiz payları ile intifa hakkı sahiplerini kapsar (TTK m. 499/1); devralan, devrin usulüne uygun yapıldığını ispatlamadıkça deftere yazılamaz (TTK m. 499/2)."
+  },
+  {
+   "stem_md": "Anonim şirket genel kurulu, esas sözleşmeyi değiştirerek bazı paylara kâr payında imtiyaz tanıyan yeni bir pay grubu oluşturmak istemektedir. Karar için aşağıdaki nisaplardan hangisi gerekir?",
+   "options": [
+    "Sermayenin en az %75'ini oluşturan payların sahiplerinin olumlu oyu",
+    "Sermayenin tümünü oluşturan payların sahiplerinin oybirliği",
+    "Sermayenin en az dörtte birinin olumlu oyu",
+    "Toplantıda hazır bulunan oyların salt çoğunluğu"
+   ],
+   "correct_option": 0,
+   "explanation_md": "İmtiyazlı pay oluşturulması, sermayenin en az yüzde yetmişbeşini oluşturan payların sahiplerinin veya temsilcilerinin olumlu oylarıyla alınır (TTK m. 421/3). Oybirliği, bilanço zararlarının kapatılması için yükümlülük koyan kararlar gibi başka konulara özgüdür (TTK m. 421/2)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Borsaya kote olmayan Marmara Gıda A.Ş.'nin bütün kurucularca imzalanan ilk esas sözleşmesi, ortaklara şu hükümleri yüklemektedir: (i) her ortak her yıl, payının itibarî değerinin %10'u kadar şirkete nakdî katkı payı ödeyecektir; (ii) nama yazılı payların devri yönetim kurulu onayına bağlıdır ve her nama yazılı pay sahibi yılda üç hafta şirkette ücretsiz teknik danışmanlık verecektir.\n\nOrtak Hakan, esas sermaye taahhüdünün son taksitini esas sözleşmede belirlenen vadede ödememiştir. Yönetim kurulu bir ihtar çekmeden, aynı hafta içinde Hakan'ı ıskat etmiş ve payını satmıştır. Hakan'ın bir yakını da şirketin ödenmemiş bedelli payları için hamiline yazılı pay senetleri basılıp dağıtıldığını öğrenmiştir.\n\n1. Esas sözleşmenin (i) ve (ii) numaralı hükümlerinin geçerliliğini değerlendiriniz.\n2. Hakan'ın vadeden itibaren ödemesi gereken bir şey var mı, ıskat kararı geçerli midir?\n3. Hamiline pay senetlerinin durumunu değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Yıllık nakdî katkı yükümlülüğü tek borç ilkesine aykırıdır; konusu para olduğundan ikincil yükümlülük de sayılamaz",
+     "weight": 20,
+     "madde_ref": "TTK m. 480/1"
+    },
+    {
+     "point": "Devri onaya bağlı paylarda konusu para olmayan, tekrarlanan ikincil yükümlülük geçerlidir",
+     "weight": 10,
+     "madde_ref": "TTK m. 480/4"
+    },
+    {
+     "point": "Hakan ihtara gerek olmaksızın temerrüt faizi öder",
+     "weight": 20,
+     "madde_ref": "TTK m. 482/1"
+    },
+    {
+     "point": "Iskat için bir ay süreli ve ıskat uyarılı ihtar zorunludur; ihtarsız ıskat geçersizdir",
+     "weight": 25,
+     "madde_ref": "TTK m. 483/1"
+    },
+    {
+     "point": "Bedeli ödenmemiş paylar için çıkarılan hamiline senetler geçersizdir",
+     "weight": 15,
+     "madde_ref": "TTK m. 484/2"
+    },
+    {
+     "point": "Mütemerrit ortağın yeni pay sahibinin ödemelerinden açık kalan tutar için sorumluluğu",
+     "weight": 10,
+     "madde_ref": "TTK m. 483/3"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, anonim şirkette pay sahibinin borçları (tek borç ilkesi), sermaye borcunda temerrüdün sonuçları ve ıskat usulü ile hamiline pay senedi çıkarma şartlarına ilişkindir.\n\n**Hukuki sorunlar:** (1) Esas sözleşmeye konan yükümlülüklerin geçerliliği. (2) Temerrüt faizi ve ıskat kararının usulü. (3) Bedeli ödenmemiş paylar için hamiline senet.\n\n**İlgili hükümler ve değerlendirme:** Anonim şirkette kanundaki istisnalar dışında esas sözleşmeyle pay sahibine pay bedelini veya primi ifa dışında borç yüklenemez (TTK m. 480/1). Bu nedenle her yıl nakdî katkı payı ödeme yükümlülüğü geçersizdir; pay devri onaya bağlı olsa da konusu para olduğundan TTK m. 480/4 anlamında ikincil yükümlülük sayılamaz. Limited şirkette öngörülebilen ek ödeme (TTK m. 603) anonim şirkete uygulanmaz. Buna karşılık pay devirleri şirketin onayına bağlı olduğundan, esas sözleşmeyle konusu para olmayan ve belli zamanlarda tekrarlanan edimler yüklenebilir (TTK m. 480/4); yılda üç hafta ücretsiz danışmanlık bu nitelikte olup geçerlidir. Hüküm, bütün kurucuların imzaladığı ilk esas sözleşmede yer aldığından sonradan konulan ikincil yükümlülük için aranan oybirliği (TTK m. 421/2-a) sorunu da doğmaz.\n\nHakan sermaye borcunu süresinde ödemediğinden, ihtar çekilmesine gerek olmaksızın temerrüt faizi ödemekle yükümlüdür (TTK m. 482/1). Yönetim kurulu ayrıca onu haklarından yoksun bırakmaya ve payını satıp yerine başkasını almaya yetkilidir (TTK m. 482/2); ancak bu yetkinin kullanılması için TTK m. 483/1'deki ihtar usulü zorunludur: ilan ve internet sitesi mesajı (nama yazılı pay sahibi için iadeli taahhütlü mektup ve internet sitesi mesajı, TTK m. 483/2), bir aylık ödeme süresi ve ıskat uyarısı. Olayda ihtar çekilmediğinden ıskat kararı geçersizdir. Yönetim kurulu usulüne uygun ihtardan sonra payı sattığında Hakan, yeni pay sahibinin ödemelerinden açık kalan tutar için şirkete karşı sorumlu kalır (TTK m. 483/3).\n\nBedelleri tamamen ödenmemiş paylar için hamiline yazılı pay senedi çıkarılamaz; çıkarılanlar geçersizdir, iyiniyet sahiplerinin tazminat hakları saklıdır (TTK m. 484/2). Yönetim kurulunun bastırıp dağıttığı senetler bu nedenle geçersizdir.\n\n**Sonuç:** Yıllık nakdî katkı hükmü geçersiz, ikincil yükümlülük hükmü geçerlidir; Hakan ihtarsız temerrüt faizi öder, ancak ihtarsız ıskat kararı geçersizdir; ödenmemiş bedelli paylar için basılan hamiline senetler geçersizdir."
+  },
+  {
+   "stem_md": "Borsaya kote olmayan Doğan Lojistik A.Ş.'nin esas sözleşmesinde, nama yazılı payların devri yönetim kurulu onayına bağlanmış ve \"şirketle rekabet eden işletmelerin ortak veya yöneticilerinin pay sahibi olması, şirketin ekonomik bağımsızlığını tehlikeye sokacağından reddi haklı kılan önemli sebep sayılır\" hükmü konulmuştur; bu hükmün şirketin ekonomik bağımsızlığını korumaya hizmet ettiği kabul edilmektedir.\n\nPay sahibi Ayşe, payını ciro edip senet zilyetliğini devrederek rakip şirketin ortağı Murat'a devretmek istemiştir. Yönetim kurulu, hiçbir öneri sunmadan esas sözleşmedeki önemli sebebe dayanarak onay istemini reddetmiştir. Öte yandan ortak Cemal ölmüş, payları mirasçısı Selin'e geçmiştir; Selin de rakip şirketin ortağıdır. Yönetim kurulu aynı sebeple Selin'e hiçbir öneri sunmadan onay vermeyi reddetmiştir.\n\n1. Ayşe'nin Murat'a devrine ilişkin retin geçerliliğini ve payın kimde kaldığını değerlendiriniz.\n2. Selin yönünden yönetim kurulunun retini ve Selin'in pay üzerindeki haklarının durumunu değerlendiriniz.\n3. Şirket retle birlikte Selin'e payları gerçek değeriyle devralmayı önermiş olsaydı Selin'in hakları ve süreler ne olurdu?",
+   "rubric": [
+    {
+     "point": "İradi devirde esas sözleşmedeki önemli sebep ileri sürülerek onay reddedilebilir",
+     "weight": 20,
+     "madde_ref": "TTK m. 493/1-2"
+    },
+    {
+     "point": "Onay verilmedikçe mülkiyet ve haklar devredende kalır",
+     "weight": 15,
+     "madde_ref": "TTK m. 494/1"
+    },
+    {
+     "point": "Miras yoluyla iktisapta önemli sebep ileri sürülemez; ret için gerçek değer önerisi şarttır",
+     "weight": 25,
+     "madde_ref": "TTK m. 493/4"
+    },
+    {
+     "point": "Mirasta mülkiyet ve mali haklar derhâl geçer, katılma ve oy hakları onayla geçer; ret haksız olduğundan onay verilmiş sayılır",
+     "weight": 15,
+     "madde_ref": "TTK m. 494/2-3"
+    },
+    {
+     "point": "Gerçek değer asliye ticaret mahkemesince belirlenebilir; giderler şirketçe karşılanır",
+     "weight": 15,
+     "madde_ref": "TTK m. 493/5"
+    },
+    {
+     "point": "Devralan bir ay içinde reddetmezse öneri kabul edilmiş sayılır",
+     "weight": 10,
+     "madde_ref": "TTK m. 493/6"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Borsaya kote olmayan anonim şirkette nama yazılı payların esas sözleşmesel bağlamı ve iradi devir ile miras yoluyla iktisabın farklı sonuçları söz konusudur.\n\n**Hukuki sorunlar:** (1) İradi devirde onayın reddi. (2) Mirasçıya karşı ret. (3) Gerçek değer önerisi, değerleme ve süreler.\n\n**İlgili hükümler ve değerlendirme:** Esas sözleşme nama yazılı payların ancak şirketin onayıyla devredilebileceğini öngörebilir (TTK m. 492/1). Hukuki işlemle devir ciro edilmiş senedin zilyetliğinin geçirilmesiyle yapılsa da (TTK m. 490/2), bağlam varsa onay gerekir. İradi devirde şirket, esas sözleşmede öngörülmüş önemli bir sebep ileri sürerek onayı reddedebilir; pay sahipleri çevresinin bileşimine ilişkin hükümler işletmenin ekonomik bağımsızlığı yönünden reddi haklı gösteriyorsa önemli sebep oluşur (TTK m. 493/1-2). Olayda bu şart bulunduğundan Ayşe-Murat devri bakımından ret geçerlidir ve şirket ayrıca gerçek değer önermek zorunda değildir. Onay verilmediği sürece payların mülkiyeti ve tüm haklar devreden Ayşe'de kalır (TTK m. 494/1).\n\nSelin ise payı miras yoluyla iktisap etmiştir. Bu hâlde şirket önemli sebep ileri süremez; onayı ancak payları gerçek değeriyle devralmayı önererek reddedebilir (TTK m. 493/4). Yönetim kurulu hiçbir öneri sunmadan önemli sebebe dayandığından Selin bakımından ret kanuni şartı taşımamaktadır. Miras gereği iktisapta mülkiyet ve malvarlığına ilişkin haklar derhâl Selin'e geçer; genel kurula katılma ve oy hakları ise şirketin onayıyla geçer (TTK m. 494/2). Şirket onay istemini en geç üç ay içinde reddetmemişse veya ret haksızsa onay verilmiş sayılır (TTK m. 494/3). Olayda ret haksız olduğundan onay verilmiş sayılır; böylece genel kurula katılma ve oy hakları da Selin'e geçer.\n\nŞirket retle birlikte Selin'e gerçek değerle devralmayı önermiş olsaydı ret TTK m. 493/4'e uygun olurdu. Bu durumda Selin paylarının gerçek değerinin belirlenmesini şirket merkezinin bulunduğu yerdeki asliye ticaret mahkemesinden isteyebilir; mahkeme şirketin karar tarihine en yakın tarihteki değeri esas alır ve değerleme giderlerini şirket karşılar (TTK m. 493/5). Selin, gerçek değeri öğrendiği tarihten itibaren bir ay içinde bu fiyatı reddetmezse şirketin devralma önerisini kabul etmiş sayılır (TTK m. 493/6).\n\n**Sonuç:** Ayşe-Murat devrinde ret geçerlidir ve paylar Ayşe'de kalır; Selin yönünden önemli sebeple yapılan ret haksızdır; mülkiyet ve mali haklar derhâl Selin'e geçmiştir, ret haksız olduğundan onay verilmiş sayılır ve katılma ile oy hakları da Selin'e geçer (TTK m. 494/3). Şirket ancak gerçek değer önerisiyle reddedebilirdi; bu hâlde Selin değerin mahkemece belirlenmesini isteyebilir ve gerçek değeri öğrendiği tarihten itibaren bir ay içinde reddetmezse öneriyi kabul etmiş sayılırdı."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Payın asgari itibarî değeri nedir?",
+   "back_md": "En az 1 kuruş; birer kuruş ve katları olarak yükseltilir. Aykırı paylar geçersizdir (TTK m. 476)."
+  },
+  {
+   "front_md": "Bir paya en çok kaç oy verilebilir?",
+   "back_md": "15 oy; esas sözleşme değişikliği ile ibra ve sorumluluk davası açılması kararlarında oyda imtiyaz kullanılamaz (TTK m. 479/2-3)."
+  },
+  {
+   "front_md": "İmtiyazlı pay oluşturma kararının nisabı?",
+   "back_md": "Sermayenin en az %75'ini oluşturan payların olumlu oyu (TTK m. 421/3)."
+  },
+  {
+   "front_md": "Tek borç ilkesi nedir?",
+   "back_md": "Pay sahibine pay bedeli ve prim ifası dışında borç yüklenemez (TTK m. 480/1); limited şirketteki ek ödeme (TTK m. 603) anonim şirkette yoktur."
+  },
+  {
+   "front_md": "İkincil yükümlülük hangi payda ve nasıl olur?",
+   "back_md": "Devri onaya bağlı paylarda, konusu para olmayan ve belli zamanlarda tekrarlanan edimler (TTK m. 480/4)."
+  },
+  {
+   "front_md": "Temerrüt faizi için ihtar gerekir mi?",
+   "back_md": "Hayır, ihtarsız temerrüt faizi işler (TTK m. 482/1)."
+  },
+  {
+   "front_md": "Iskat için ihtar şartı?",
+   "back_md": "Bir ay süreli, ıskat uyarılı ihtar; nama yazılıya iadeli taahhütlü mektup, süre mektubun alındığı tarihten başlar (TTK m. 483)."
+  },
+  {
+   "front_md": "Bedeli ödenmemiş pay için hamiline senet?",
+   "back_md": "Çıkarılamaz; çıkarılırsa geçersizdir (TTK m. 484/2)."
+  },
+  {
+   "front_md": "Hamiline payın devri nasıl yapılır?",
+   "back_md": "Zilyetliğin geçirilmesi ve devralanın MKK'ya bildirimi; bildirimsiz haklar kullanılamaz (TTK m. 489/1)."
+  },
+  {
+   "front_md": "Nama yazılı payın hukuki işlemle devri?",
+   "back_md": "Ciro edilmiş senedin zilyetliğinin devralana geçirilmesi (TTK m. 490/2)."
+  },
+  {
+   "front_md": "Miras yoluyla iktisapta şirket onayı nasıl reddeder?",
+   "back_md": "Yalnızca gerçek değerle devralmayı önererek; önemli sebep ileri sürülemez (TTK m. 493/4)."
+  },
+  {
+   "front_md": "Onay istemine şirket kaç ay içinde cevap vermelidir?",
+   "back_md": "En geç üç ay; reddetmezse onay verilmiş sayılır (TTK m. 494/3)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

@@ -1,0 +1,1036 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 1,
+ "unit_title": "Ünite 1: Eşya Hukukuna Giriş ve Zilyetlik",
+ "topic_index": 1,
+ "slug": "esya-hukukuna-giris-ve-ilkeler",
+ "title": "Eşya Hukukuna Giriş, Ayni Hak Kavramı ve Eşya Hukukunun İlkeleri",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:33:58.821860+00:00",
+ "skill_refs": [
+  "esya-hukuku/temel-kavramlar-ve-sistem"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Eşya hukuku hangi şeyleri ve hangi hakları korur, bir hakkın \"ayni\" olması neyi değiştirir ve eşya hukuku hangi ilkelerle işler?\n\n- **Eşya:** Maddi, sınırlandırılabilen, insanın hâkimiyetine elverişli ve bağımsız şeydir.\n  - Taşınmaz mülkiyetinin konusu: arazi, tapuda ayrı sayfaya kaydedilen bağımsız ve sürekli haklar, kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler (TMK m. 704). Süreklilik için hak süresiz ya da en az otuz yıllık olmalıdır (TMK m. 998/3).\n  - Taşınır mülkiyetinin konusu: taşınabilen maddi şeyler ve edinmeye elverişli doğal güçler (TMK m. 762).\n- **Kamu malları:** Sahipsiz yerler ve yararı kamuya ait mallar Devletin hüküm ve tasarrufu altındadır (TMK m. 715). Kıyılar için aynı kural Anayasa'dadır (AY m. 43). Bu mallar özel mülkiyete konu olmaz ve kural olarak tapuya kaydedilmez (TMK m. 999).\n- **Ayni hak:** Eşya üzerinde doğrudan hâkimiyet sağlayan ve herkese karşı ileri sürülen mutlak haktır. Üç özelliği vardır:\n  - *mutlaklık:* herkese karşı ileri sürülür,\n  - *takip:* eşya kimin elindeyse ona karşı ileri sürülür,\n  - *öncelik:* önce kurulan hak üstündür; sıra tescile göre belirlenir (TMK m. 1022/1).\n- **Kişisel hak:** Yalnız borçludan bir edim isteme hakkıdır. Satış vaadi, kira ve önalım sözleşmeleri kişisel hak doğurur. Şerh edilirse sonradan hak kazananlara karşı da ileri sürülür (TMK m. 1009), ama ayni hak hâline gelmez.\n- **Türler:** Mülkiyet (TMK m. 683) ve sınırlı ayni haklar, yani irtifaklar, taşınmaz yükü ve rehin hakları.\n- **Sınırlı sayı ve tip zorunluluğu:** Taraflar kanunda olmayan bir ayni hak türü yaratamaz, var olan türün özünü de değiştiremez. Örneğin taşınmaz rehni ancak ipotek, ipotekli borç senedi ve irat senedi olarak kurulur (TMK m. 850).\n- **İlkeler:**\n  - *Aleniyet:* Taşınırda zilyetlik, taşınmazda tapu sicili hakkı görünür kılar. Kimse sicildeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3).\n  - *Belirlilik:* Ayni hak yalnız belirli, ferdileşmiş eşya üzerinde kurulur.\n  - *Tescil:* Kurulması tescile tabi ayni haklar tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Miras, mahkeme kararı, cebri icra, işgal ve kamulaştırmada mülkiyet tescilden önce geçer (TMK m. 705/2).\n  - *İllilik:* Tasarruf işlemi geçerli bir hukuki sebebe dayanmalıdır. Sebepten yoksun tescil yolsuzdur (TMK m. 1024/2).\n  - *Güven:* Sicile ya da zilyetliğe iyiniyetle güvenen üçüncü kişi korunur (TMK m. 1023, TMK m. 988).\n- **İyiniyet karinesi (TMK m. 3):** Kanun iyiniyete sonuç bağlıyorsa iyiniyet var sayılır, aksini iddia eden ispatlar. Durumun gerektirdiği özeni göstermeyen kişi iyiniyet iddiasında bulunamaz.",
+  "content_md": "## 0. Konunun haritası\n\nEşya hukuku, kişilerin eşya üzerindeki hâkimiyetini ve bu hâkimiyetin **herkese karşı** nasıl korunduğunu düzenler. TMK'nın Dördüncü Kitabı üç kısımdan oluşur. Kat mülkiyeti ise 634 sayılı Kat Mülkiyeti Kanunu'nda ayrıca düzenlenir.\n\n| Kısım | Konu | TMK maddeleri |\n|---|---|---|\n| Birinci kısım | Mülkiyet | 683 ile 778 arası |\n| İkinci kısım | Sınırlı ayni haklar | 779 ile 972 arası |\n| Üçüncü kısım | Zilyetlik ve tapu sicili | 973 ile 1027 arası |\n\nBu konuda üç soruya cevap arıyoruz: Eşya nedir? Ayni hak nedir ve kişisel haktan farkı ne? Eşya hukuku hangi ilkelerle işler?\n\n> 💡 **Püf nokta:** Eşya hukuku olayında ilk soru hep şudur: \"Bu kişinin hakkı **herkese** karşı mı, yoksa yalnız **karşısındaki kişiye** karşı mı?\" Cevabın büyük kısmı buradan çıkar.\n\n## 1. Eşya kavramı\n\n### 1.1 Eşyanın unsurları\nKanun eşyayı tanımlamaz. Öğretide dört özellik aranır:\n- **Maddi olma:** Alacaklar ve fikrî haklar eşya değildir. Kanun ayrıca edinmeye elverişli olan ve taşınmaz mülkiyetinin kapsamına girmeyen **doğal güçleri** (ör. elektrik) taşınır sayar (TMK m. 762).\n- **Hâkimiyete elverişlilik:** Açık denizdeki su ya da atmosferdeki hava eşya değildir. Tüpe doldurulmuş oksijen ise eşyadır.\n- **Bağımsızlık:** Bir binanın tuğlası, bina ayakta durdukça ayrı bir eşya değil, binanın **bütünleyici parçasıdır** (TMK m. 684).\n- **Kişi dışında olma:** Yaşayan insanın bedeni eşya değildir. Bedenden ayrılmış parçaların (kesilen saç, bağışlanan kan) eşya sayıldığı kabul edilir.\n\n**Hayvanlar** taşınır hükümlerine tabidir, ama kanun bazı özel kurallar koyar. Örneğin hayvan satışlarında mülkiyeti saklı tutma sözleşmesi yapılamaz (TMK m. 764/2).\n\n### 1.2 Taşınmaz ve taşınır\n**Taşınmaz mülkiyetinin konusu** üç kalemdir (TMK m. 704):\n1. arazi,\n2. tapu kütüğünde ayrı sayfaya kaydedilen **bağımsız ve sürekli haklar**,\n3. kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler.\n\nİkinci kalemde aslında bir **hak** vardır, ama kanun onu taşınmaz gibi işleme tabi tutar. Süreklilik için hakkın **süresiz ya da en az otuz yıl süreli** olması gerekir (TMK m. 998/3). Tipik örnekler üst hakkı (TMK m. 826/3) ve kaynak hakkıdır (TMK m. 837/3).\n\n**Taşınır mülkiyetinin konusu** ise taşınabilen maddi şeyler ile doğal güçlerdir (TMK m. 762). Eşya hukukunun neredeyse bütün kuralları bu ayrıma göre değişir:\n\n| Ölçüt | Taşınır | Taşınmaz |\n|---|---|---|\n| Aleniyet aracı | Zilyetlik (TMK m. 973) | Tapu sicili (TMK m. 997) |\n| Mülkiyetin geçişi | Teslim (TMK m. 763/1) | Tescil (TMK m. 705/1) |\n| Devir sözleşmesinin şekli | Kural olarak şekilsiz | Resmî şekil (TMK m. 706/1) |\n| Güvenin dayanağı | Zilyetlik (TMK m. 988) | Tapu kaydı (TMK m. 1023) |\n\n> **Örnek:** Zeynep'in kat mülkiyetine tabi dairesi taşınmazdır. Satışı tapuda resmî şekilde yapılır, mülkiyet tescille geçer. Dairedeki buzdolabı ise taşınırdır. Satılıp teslim edilmesiyle mülkiyeti geçer.\n\nMalik, eşyanın bütünleyici parçalarına (TMK m. 684/1) ve ürünlerine (TMK m. 685/1) de malik olur. Bir şeye ilişkin tasarruflar, aksi belirtilmedikçe eklentisini de kapsar (TMK m. 686/1). Ayrıntısı ayrı konuda.\n\n### 1.3 Kamu malları\n- Sahipsiz yerler ile yararı kamuya ait mallar **Devletin hüküm ve tasarrufu altındadır** (TMK m. 715/1).\n- Aksi ispatlanmadıkça yararı kamuya ait sular ile kayalar, tepeler, dağlar gibi tarıma elverişli olmayan yerler kimsenin mülkiyetinde değildir ve **hiçbir şekilde özel mülkiyete konu olamaz** (TMK m. 715/2).\n- Anayasa da kıyıları (AY m. 43) ve tabii servet ve kaynakları (AY m. 168) Devletin hüküm ve tasarrufuna bırakır.\n\n3402 sayılı Kanun m. 16 kamu mallarını başlıca üç grupta toplar (ormanlar ayrıca özel kanunlarına bırakılmıştır):\n1. **Hizmet malları:** Okul, karakol, hastane, cami, genel mezarlık, park gibi kamu hizmetinde kullanılan yerler. İlgili kamu tüzel kişisi adına tespit edilir.\n2. **Orta malları:** Mera, yaylak, kışlak, otlak, harman ve panayır yerleri ile yol, meydan, köprü. Mera gibi yerler özel siciline yazılır ve **özel mülkiyete konu olmaz**.\n3. **Devletin hüküm ve tasarrufu altındaki yerler:** Tarıma elverişli olmayan sahipsiz yerler ile deniz, göl, nehir gibi genel sular. Tescil ve sınırlandırmaya tabi değildir.\n\n**Tapuya etkisi (TMK m. 999):** Özel mülkiyete tabi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar, tescili gereken bir ayni hak kurulmadıkça kütüğe kaydedilmez. Tapulu bir taşınmaz bu niteliğe dönüşürse sicilden çıkarılır. Örneğin parselin kıyı kenar çizgisi içinde kalan kısmı terkin edilir. Yargıtay'a göre bu yerlerde sürdürülen zilyetlik, süresi ne olursa olsun hukuken değer taşımaz.\n\n> **Örnek:** Kemal, köy merasının bir bölümünü 25 yıldır sürüp ekmektedir. Mera orta malıdır. Kemal uzun süreli zilyetliğine dayanarak malik olamaz.\n\n> ⚠️ **Sınavda dikkat:** Kamu malını Devletin **özel malıyla** karıştırma. Hazine adına kayıtlı olup kamunun yararlanmasına ayrılmamış bir arsa Devletin özel malıdır ve kural olarak özel hukuka tabidir. Belirleyici olan malın kime ait olduğu değil, **kamunun yararlanmasına ayrılmış olup olmadığıdır.**\n\n## 2. Ayni hak ve kişisel hak\n\n### 2.1 Tanımlar\n- **Ayni hak**, sahibine bir eşya üzerinde **doğrudan hâkimiyet** sağlayan ve **herkese karşı** ileri sürülebilen mutlak haktır. Malik, kimsenin yardımına muhtaç olmadan evinde oturur, onu kiraya verir ya da satar (TMK m. 683/1).\n- **Kişisel (nispi) hak**, belirli bir kişiden bir **edim** (verme, yapma, yapmama) isteme hakkıdır. Alıcı eşyaya ancak satıcının ifasıyla kavuşur.\n\n> **Örnek:** Ali, evini noterde düzenlenen satış vaadi sözleşmesiyle Ayşe'ye satmayı vaat eder. Bu sözleşme resmî şekil ister (TBK m. 237/2). Ayşe bu sözleşmeyle **malik olmaz**, yalnız Ali'den devir isteme hakkı kazanır. Ev tapuda Ayşe adına tescil edilince malik olur ve mülkiyetini herkese karşı ileri sürer.\n\n### 2.2 Ayni hakkın üç özelliği\n1. **Mutlaklık:** Hakkı kim ihlal ederse ona karşı dava açılır. Malik, malını haksız olarak elinde bulunduran kişiye karşı **istihkak davası**, her türlü haksız elatmaya karşı **elatmanın önlenmesi davası** açabilir (TMK m. 683/2). Ayrıntısı ayrı konuda.\n2. **Takip:** Eşya kimin eline geçerse geçsin hak onun karşısında da ileri sürülür. İpotekli taşınmazın devri, aksi kararlaştırılmamışsa güvencede değişiklik yapmaz (TMK m. 888/1). Yeni malik taşınmazı ipoteğiyle birlikte alır.\n3. **Öncelik:** Aynı eşya üzerindeki ayni haklardan kural olarak önce kurulan üstündür. Taşınmazlarda ayni haklar sıralarını ve tarihlerini **tescile göre** alır (TMK m. 1022/1). Rehinde güvence tescilde belirtilen dereceyle sınırlıdır (TMK m. 870/1). Bu sabit dereceler sisteminin ayrıntısı rehin konusunda. Ayni hak, aynı eşyaya ilişkin kişisel haklardan da önce gelir. Kişisel haklar arasında ise kural **eşitliktir**.\n\n> **Örnek (çifte satış):** Mehmet tarlasını noterde Ayşe'ye satmayı vaat eder, vaat tapuya şerh edilmez. Bir ay sonra tarlayı tapuda, vaatten habersiz Can'a satar ve tarla Can adına tescil edilir. Malik Can'dır. Ayşe'nin kişisel hakkı Can'a karşı ileri sürülemez. Ayşe ancak Mehmet'e karşı sözleşmeye aykırılıktan doğan haklarını kullanır. Sözleşmesinin daha önce yapılmış olması sonucu değiştirmez.\n\n### 2.3 Karşılaştırma\n\n| Ölçüt | Ayni hak | Kişisel hak |\n|---|---|---|\n| Kime karşı | Herkese | Borçluya ve haleflerine |\n| Konusu | Belirli bir eşya | Borçlunun edimi |\n| Türleri | Kanunla sınırlı | Sözleşme serbestisi |\n| Çatışmada | Önce kurulan üstün | Alacaklılar kural olarak eşit |\n\n### 2.4 Güçlendirilmiş kişisel haklar\nBazı kişisel haklar kanun sayesinde üçüncü kişilere karşı etki kazanır, ama ayni hak hâline gelmez.\n- **Şerh:** Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, geri alım sözleşmelerinden doğan haklar ve şerhi kanunda öngörülen diğer haklar tapuya şerh edilebilir. Şerhle bu haklar taşınmaz üzerinde **sonradan** hak kazananlara karşı ileri sürülür (TMK m. 1009). Yargıtay, şerhli hakkın ayni hak olmadığını, \"aynilik etkisi\" kazandığını vurgular. Ayrıntısı ayrı konuda.\n- **Kiralananın el değiştirmesi:** Yeni malik kira sözleşmesinin tarafı olur (TBK m. 310/1). Taşınmaz kirasında kiracılık hakkının şerhi de kararlaştırılabilir (TBK m. 312). Kiracılık hakkı yine kişiseldir.\n- **Eşyaya bağlı borç:** Borçlusu, eşyanın o anki maliki olan borçtur. Örneğin taşınmaz yükünde malik, yalnız o taşınmazla sorumlu olmak üzere bir şey vermek ya da yapmakla yükümlüdür (TMK m. 839/1).\n\n> ⚠️ **Sınavda dikkat:** \"Satış vaadi şerh edildi, alıcı malik oldu\" cevabı **yanlıştır**. Şerh mülkiyeti geçirmez. Malik tescilden kaçınırsa vaat alacaklısı mülkiyetin hükmen geçirilmesini dava eder (TMK m. 716/1).\n\n### 2.5 Ayni hakların türleri\n**Mülkiyet** en geniş ayni haktır. Malik, hukuk düzeninin sınırları içinde **kullanma, yararlanma ve tasarruf** yetkisine sahiptir (TMK m. 683/1). Mülkiyet ancak kamu yararı amacıyla kanunla sınırlanabilir ve kullanılması toplum yararına aykırı olamaz (AY m. 35).\n\n**Sınırlı ayni haklar** mülkiyetin bazı yetkilerini başkasına verir ya da malike yük getirir:\n\n| Grup | Türler | Dayanak |\n|---|---|---|\n| İrtifak | Taşınmaz lehine irtifak (ör. geçit) | TMK m. 779 |\n| İrtifak | İntifa, oturma | TMK m. 794, TMK m. 823 |\n| İrtifak | Üst hakkı, kaynak hakkı, diğerleri | TMK m. 826, TMK m. 837, TMK m. 838 |\n| Taşınmaz yükü | Taşınmazla sınırlı edim borcu | TMK m. 839 |\n| Taşınmaz rehni | İpotek, ipotekli borç senedi, irat senedi | TMK m. 850 |\n| Taşınır ve hak rehni | Teslime bağlı, sicile kayıtla, hak rehni | TMK m. 939, TMK m. 940, TMK m. 954 |\n\nTaşınmaz lehine irtifakta hak sahibi, yararlanan taşınmazın kim olursa olsun malikidir (TMK m. 779/1). Kişiye bağlı irtifaklarda ise hak belirli bir kişiye aittir. Örneğin oturma hakkı devredilemez ve mirasçılara geçmez (TMK m. 823/2). Hapis hakkı da (TMK m. 950/1) rehin konusunda işlenir.\n\n## 3. Sınırlı sayı ve tip zorunluluğu\n- **Sınırlı sayı ilkesi (numerus clausus):** Ayni hak türlerini kanun belirler, kişiler yeni bir tür yaratamaz. Kanun bunu tek maddede söylemez, ama sistem buna dayanır. Tapuya tescil edilecek haklar mülkiyet, irtifaklar, taşınmaz yükleri ve rehin haklarıdır (TMK m. 1008). Taşınmaz rehni \"ancak\" üç türde kurulur (TMK m. 850).\n- **Tip zorunluluğu:** Her türün içeriği de ana hatlarıyla kanunda belirlidir. Örneğin yapma borçları irtifaka başlı başına konu olamaz, ancak yan edim olarak bağlanabilir (TMK m. 779/2).\n- **Tip içinde serbestlik:** Malik, belirli bir yararlanmaya hizmet eden \"diğer irtifak hakları\" kurabilir (TMK m. 838/1). İntifa hakkı aksine düzenleme yoksa tam yararlanma verir (TMK m. 794/2), yani sözleşmeyle daraltılabilir.\n- **Neden?** Herkese karşı ileri sürülecek bir hakkın türü ve içeriği herkesçe bilinebilmelidir. Kişisel haklarda böyle bir sınır yoktur.\n- **Sonuç:** Kanunda öngörülmeyen bir \"ayni hak\" kurulamaz ve tescil edilemez. Anlaşma geçerliyse yalnız taraflar arasında kişisel hak doğurur.\n\n> **Örnek:** Mehmet, arkadaşı Ayşe'den 200.000 TL borç alır. \"Salondaki tablo rehin olsun, ama bende kalsın\" diye yazılı sözleşme yaparlar. Taşınırlar kural olarak ancak zilyetliğin alacaklıya devriyle rehnedilir. Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldıkça rehin hakkı doğmaz (TMK m. 939/1 ve TMK m. 939/3). Ayşe'nin yalnız Mehmet'e karşı alacağı vardır. Mehmet tabloyu satarsa Ayşe tabloyu takip edemez. Teslimsiz rehin yalnız kanundaki istisnalarda mümkündür. Örneğin izinli kuruluşlar ile kooperatiflerin alacakları için hayvan rehni (TMK m. 940/1), sicile tescili zorunlu taşınırlar üzerinde rehin (TMK m. 940/2) ve 6750 sayılı Ticari İşlemlerde Taşınır Rehni Kanunu.\n\n## 4. Eşya hukukunun ilkeleri\nBu ilkeler kanunda başlık olarak sayılmaz, hükümlerden çıkarılır. Amaçları ortaktır: herkese karşı ileri sürülen hakları **görünür, belirli ve güvenilir** kılmak.\n\n### 4.1 Aleniyet ilkesi\n- **Taşınırlarda aleniyet aracı zilyetliktir.** Fiilî hâkimiyeti bulunan kişi zilyettir (TMK m. 973/1). Taşınırın zilyedi onun maliki sayılır (TMK m. 985/1).\n- **Taşınmazlarda aleniyet aracı tapu sicilidir** (TMK m. 997/1). TMK m. 1020'ye göre:\n  1. Tapu sicili herkese açıktır.\n  2. İlgisini inanılır kılan herkes, ilgili sayfanın ve belgelerin gösterilmesini ya da örneklerinin verilmesini isteyebilir (**şekli aleniyet**). Yani meraklı herkes her kaydı göremez.\n  3. Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (**maddi aleniyetin olumsuz etkisi**). Olumlu etkisi güven ilkesidir (bkz. 4.5).\n\n> **Örnek:** Burak, Selin'in dairesini satın alır. Tapuda bir bankanın ipoteği tesciliyken Burak \"tapuya bakmadım, ipoteği bilmiyordum\" diyemez (TMK m. 1020/3). İpotek Burak'ın mülkiyetinde de sürer (TMK m. 888/1).\n\n### 4.2 Belirlilik ilkesi\n- Ayni hak yalnız **belirli, ferdileştirilmiş** bir eşya üzerinde kurulur. Tasarruf anında hangi eşyanın söz konusu olduğu kesin olarak belli olmalıdır.\n- \"Depodaki 100 çuval undan 20'si\" denerek ayni hak kurulamaz. 20 çuval önce ayrılmalı ve gerekiyorsa teslim edilmelidir. Satış sözleşmesi cins üzerinden yapılabilir, ama mülkiyetin devri belirli eşya ister.\n- Taşınmazda her taşınmaza kütükte bir sayfa ayrılır (TMK m. 1000/1). Hakkın içeriği tescilin sınırları içinde belgelere göre belirlenir (TMK m. 1022/3).\n- Bir malvarlığının tümü üzerinde tek tasarrufla ayni hak kurulamaz. Kanun intifanın bir malvarlığı üzerinde kurulabileceğini kabul eder (TMK m. 794/1). Öğretiye göre bu durumda da hak, malvarlığındaki her değer üzerinde ayrı ayrı kurulur.\n\n### 4.3 Tescil ilkesi\n- Taşınmaz mülkiyeti tescille kazanılır (TMK m. 705/1). Ayni haklar kütüğe tescil ile doğar (TMK m. 1022/1). Kurulması kanunen tescile tabi ayni haklar tescil edilmedikçe **varlık kazanamaz** (TMK m. 1021). Tescil burada **kurucudur**.\n- 📌 Tescilin etkisi, gerekli belgeler isteme eklenmişse ya da geçici tescilde zamanında tamamlanmışsa **yevmiye defterine yapılan kayıt tarihinden** başlar (TMK m. 1022/2).\n- **Tescilsiz kazanım:** Miras, mahkeme kararı, cebri icra, işgal, kamulaştırma ve kanunda öngörülen diğer hâllerde mülkiyet **tescilden önce** kazanılır. Ancak malik tasarruf işlemi yapabilmek için önce tescil ettirmelidir (TMK m. 705/2). Tescil burada **açıklayıcıdır**.\n- Taşınırlarda tescilin yerini **teslim** tutar (TMK m. 763/1).\n\n> **Örnek:** Zeynep'in annesi 10 Mart'ta ölür, tek mirasçısı Zeynep'tir. Tapuda annesi görünse de Zeynep 10 Mart'ta malik olmuştur. Daireyi satmak isterse önce intikal işlemiyle daireyi adına tescil ettirmelidir.\n\n> ⚠️ **Sınavda dikkat:** Satış sözleşmesi **borçlandırıcı**, tescil ise **tasarruf** işlemidir. Taşınmaz devrini amaçlayan sözleşme resmî şekilde yapılmadıkça geçerli olmaz (TMK m. 706/1, TBK m. 237/1). Ama geçerli sözleşme de tek başına mülkiyeti geçirmez.\n\n### 4.4 İllilik (sebebe bağlılık) ilkesi\n- Tasarruf işlemi (tescil, teslim) satış, bağış gibi geçerli bir **hukuki sebebe** dayanmalıdır. Sebep geçersizse ya da yoksa mülkiyet geçmemiş sayılır.\n- Taşınmazlarda kanun açıktır. Tescil isteyen, tasarruf yetkisini ve hukuki sebebi belgeler (TMK m. 1015/1). Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil **yolsuzdur** (TMK m. 1024/2). Ayni hakkı zedelenen kişi sicilin düzeltilmesini dava eder (TMK m. 1025/1).\n- **Pratik sonuç:** Eski malik eşyayı **mülkiyetine dayanarak** geri ister. Soyutluk sisteminde (ör. Alman hukuku) ise mülkiyet geçer ve eski malik yalnız sebepsiz zenginleşmeye, yani kişisel bir hakka dayanır. Fark, karşı taraf iflas ettiğinde belirginleşir: ayni hak sahibi eşyasını alır, kişisel hak sahibi diğer alacaklılarla eşit kalır.\n- Taşınırlarda illiliğin geçerliliği tartışmalıdır (Doktrin bölümüne bak).\n\n> **Örnek:** Ayırt etme gücü bulunmayan Ömer, evini Hasan'a satar ve ev Hasan adına tescil edilir. Ayırt etme gücü bulunmayanın fiilleri hukuki sonuç doğurmaz (TMK m. 15). Tescil hukuki sebepten yoksundur, yani yolsuzdur. Ömer'in vasisi tapu iptali ve tescil davası açabilir. Hasan'ın iyiniyeti onu kurtarmaz, çünkü güven ilkesi üçüncü kişiyi korur, Hasan ise işlemin **tarafıdır**.\n\n### 4.5 Güven ilkesi\n- Aleniyet aracına iyiniyetle güvenen üçüncü kişi, hak sahibi olmayandan da hak kazanabilir.\n- **Taşınmazlarda:** Tapudaki tescile iyiniyetle dayanarak mülkiyet ya da başka bir ayni hak kazanan üçüncü kişinin kazanımı korunur (TMK m. 1023). Yolsuzluğu bilen ya da bilmesi gereken ise tescile dayanamaz (TMK m. 1024/1). Sicilin düzeltilmesi davası iyiniyetli üçüncü kişinin kazanımını ve tazminat istemlerini etkilemez (TMK m. 1025/2).\n- **Taşınırlarda:** Emin sıfatıyla zilyetten iyiniyetle edinen kişinin edinimi korunur (TMK m. 988). Ama taşınır çalınmış, kaybolmuş ya da iradesi dışında elden çıkmışsa zilyet onu elinde bulunduran herkese karşı **beş yıl** içinde taşınır davası açabilir (TMK m. 989/1).\n- **Denge:** İllilik eski maliki, güven ise iyiniyetli üçüncü kişiyi korur. Eşya ilk el değiştirmede kaldıysa eski malik onu geri alır. İyiniyetli üçüncü kişiye geçtiyse eski malik ancak yolsuzluğa yol açandan tazminat ister. Ayrıntısı ayrı konularda.\n\n> **Örnek:** Hasan evi bir ay sonra piyasa değeriyle, kendisini tanımayan Elif'e satar. Tapuda şerh yoktur ve Elif'i şüphelendirecek bir durum bulunmamaktadır. Elif tapuya güvenerek malik olur (TMK m. 1023). Ömer'in vasisi Elif'in kaydını iptal ettiremez, Hasan'dan tazminat ister.\n\n> ⚠️ **Sınavda dikkat:** Ehliyetsizlikten doğan yolsuzlukta güven ilkesinin uygulanması tartışmalıdır. Yargıtay Hukuk Genel Kurulu çoğunluğu, ehliyetsiz malikten yapılan devre dayanarak iyiniyetle hak kazanan üçüncü kişiyi TMK m. 1023 ile korumuştur. Karşı görüşe göre ehliyetsizlikte işlem baştan hükümsüz olduğundan sonraki edinenler de güven ilkesinden yararlanamaz.\n\n### 4.6 İlkeler tek bakışta\n\n| İlke | Özü | Dayanak |\n|---|---|---|\n| Aleniyet | Hak dışarıdan görünmeli | TMK m. 985, TMK m. 1020 |\n| Belirlilik | Hak belirli eşya üzerinde | TMK m. 1000, TMK m. 1022 |\n| Tescil | Tescilsiz ayni hak doğmaz | TMK m. 705, TMK m. 1021 |\n| İllilik | Sebep yoksa tescil yolsuz | TMK m. 1015, TMK m. 1024 |\n| Güven | İyiniyetli üçüncü kişi korunur | TMK m. 1023, TMK m. 988 |\n\n## 5. İyiniyet karinesi (TMK m. 3)\nEşya hukukunda **iyiniyet**, hak kazanmaya engel olan bir **hukuki eksikliği bilmemek ve bilmesinin de beklenmemesidir.** Örneğin devredenin malik olmadığını ya da kaydın yolsuz olduğunu bilmemek.\n\n**Karine (TMK m. 3/1):** Kanunun iyiniyete sonuç bağladığı durumlarda **asıl olan iyiniyetin varlığıdır.**\n- İyiniyete dayanan kişi iyiniyetini ispatlamaz. İyiniyetsizliği iddia eden ispatlar. Bu, ispat yüküne ilişkin genel kuralın (TMK m. 6) kanundaki bir istisnasıdır.\n- Karine yalnız kanunun iyiniyete sonuç bağladığı hâllerde işler: TMK m. 1023, TMK m. 763/2, TMK m. 988 ve TMK m. 939/2 gibi. TMK m. 3 tek başına hak kazandırmaz.\n- İyiniyet **kazanım anında** bulunmalıdır. Sonradan öğrenmek kazanımı etkilemez.\n\n**Özen ölçüsü (TMK m. 3/2):** Durumun gereklerine göre beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz. Ölçü **objektiftir**: makul ve tedbirli bir insan bu durumda şüphelenip araştırır mıydı? Yargıtay'ın yerleşik uygulamasına göre:\n- Çok kısa sürede ve olağandışı düşük bedelle el değiştirme ile taraflar arasındaki yakın ilişki kuşku doğurur.\n- Yolsuzluğa ilişkin soyut, gerekçesiz bir iddia karineyi çürütmez.\n- Kanun şeklen iyiniyetli görüneni değil, **gerçekten** iyiniyetli olanı korur.\n\n> **Örnek:** Kaan, 8.000.000 TL değerindeki daireyi 1.500.000 TL'ye alır. Tapuda satıcının daireyi üç gün önce edindiği görünmektedir. Satıcı \"acelem var, soru sormayın\" der, Kaan da araştırma yapmaz. Kaan bilmediğini söylese de beklenen özeni göstermediği için iyiniyet iddiasında bulunamaz (TMK m. 3/2).\n\n**TMK m. 2 ile farkı:** TMK m. 2 **dürüstlük kuralını** (objektif iyiniyet) ve hakkın açıkça kötüye kullanılması yasağını düzenler. TMK m. 3 ise bir **bilgi durumunu** (sübjektif iyiniyet) ve karinesini düzenler.\n\n> ⚠️ **Sınavda dikkat:** \"İyiniyetli üçüncü kişi\" sorunu varsa TMK m. 3'ü, \"hakkın kötüye kullanılması\" sorunu varsa TMK m. 2'yi düşün. İkisi birbirinin yerine kullanılmaz.\n\n## 6. Olay çözerken denetim şeması\n1. **Konu eşya mı?** Taşınır mı, taşınmaz mı (TMK m. 704, TMK m. 762)? Kamu malı mı (TMK m. 715, TMK m. 999)?\n2. **İleri sürülen hak ayni mi, kişisel mi?** Kaynağı tescil mi, teslim mi, sözleşme mi?\n3. **Ayni hak gerçekten doğmuş mu?**\n   - Kanunda öngörülen bir tür mü (sınırlı sayı, tip zorunluluğu)?\n   - Belirli bir eşya üzerinde mi?\n   - Tescil (TMK m. 1021) ya da teslim (TMK m. 763) var mı, yoksa tescilsiz kazanım mı (TMK m. 705/2)?\n   - Geçerli bir hukuki sebebe dayanıyor mu (TMK m. 1024/2)?\n4. **Kişisel hak güçlendirilmiş mi?** Şerh (TMK m. 1009), kiralananın el değiştirmesi (TBK m. 310).\n5. **Üçüncü kişi var mı?** Sicil ya da zilyetlik ne gösteriyor? Üçüncü kişi iyiniyetli mi (TMK m. 3, TMK m. 1020/3, TMK m. 1023, TMK m. 1024)?\n6. **Sonuç:** Hak kime karşı ileri sürülür, hangi dava açılır: istihkak, elatmanın önlenmesi, sicilin düzeltilmesi, tescile zorlama ya da tazminat?",
+  "critical_md": "- 📌 Taşınmaz mülkiyetinin konusu (TMK m. 704): arazi, tapuda ayrı sayfaya kaydedilen bağımsız ve sürekli haklar, kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler. Süreklilik: süresiz ya da en az otuz yıl (TMK m. 998/3).\n- 📌 Taşınır mülkiyetinin konusu (TMK m. 762): taşınabilen maddi şeyler ile edinmeye elverişli olan ve taşınmaz mülkiyetinin kapsamına girmeyen doğal güçler.\n- 📌 Kamu malları özel mülkiyete konu olmaz (TMK m. 715). Kamunun yararlanmasına ayrılan taşınmazlar kütüğe kaydedilmez. Bu niteliğe dönüşen tapulu taşınmaz sicilden çıkarılır (TMK m. 999).\n- ⚠️ Kamu malı ile Devletin özel malı farklıdır. Ölçüt, malın kamunun yararlanmasına ayrılmış olmasıdır.\n- 📌 Ayni hakkın üç özelliği: mutlaklık, takip, öncelik. Taşınmazda sıra ve tarih tescile göre belirlenir (TMK m. 1022/1).\n- ⚠️ Satış vaadi, kira, önalım kişisel hak doğurur. Şerh edilse bile ayni hak olmaz, yalnız şerhten **sonra** hak kazananlara karşı ileri sürülür (TMK m. 1009).\n- ⚠️ Çifte satışta tapuda adına tescil yapılan malik olur. Şerh yoksa önce sözleşme yapan, yalnız satıcıya karşı haklarını kullanır.\n- 📌 Sınırlı sayı ilkesi: yeni ayni hak türü yaratılamaz. Taşınmaz rehni ancak ipotek, ipotekli borç senedi ve irat senedi olarak kurulur (TMK m. 850).\n- 📌 Taşınır, fiilen yalnız rehnedenin hâkimiyetinde kaldıkça rehin hakkı doğmaz (TMK m. 939/3). İstisnalar kanunda sayılıdır (TMK m. 940, 6750 sayılı Kanun).\n- ⚠️ TMK m. 1020: sicil herkese açıktır, ama kayıt ve belgeleri görmek için ilgiyi inanılır kılmak gerekir. Kimse sicildeki kaydı bilmediğini ileri süremez.\n- 📌 Kurulması tescile tabi ayni haklar tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Tescilin etkisi yevmiye defterine kayıt tarihinden başlar (TMK m. 1022/2).\n- ⚠️ Miras, mahkeme kararı, cebri icra, işgal ve kamulaştırmada mülkiyet tescilden önce kazanılır, ama tasarruf için önce tescil şarttır (TMK m. 705/2).\n- 📌 Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil yolsuzdur (TMK m. 1024/2). Bu, illilik ilkesinin kanundaki ifadesidir.\n- ⚠️ Güven ilkesi (TMK m. 1023) yalnız **üçüncü kişiyi** korur. Yolsuz işlemin tarafı iyiniyetine dayanamaz.\n- 📌 TMK m. 3/1: iyiniyet karinedir, aksini iddia eden ispatlar. TMK m. 3/2: beklenen özeni göstermeyen iyiniyet iddiasında bulunamaz. TMK m. 2 (dürüstlük kuralı) ayrı bir kurumdur.",
+  "doctrine_md": "### Ayni hakkın ölçütü: doğrudan hâkimiyet mi, mutlaklık mı?\nKlasik görüş ayni hakkı, eşya üzerinde **doğrudan hâkimiyet** sağlayan hak olarak tanımlar. Eleştiriye göre rehin hakkında ya da taşınmaz yükünde hak sahibinin eşya üzerinde fiilî bir hâkimiyeti yoktur. Bu hakları kişisel haklardan ayıran asıl özellik, **herkese karşı ileri sürülebilmeleridir.** Bu nedenle baskın görüş iki unsuru birlikte arar: eşyaya yönelik doğrudan yetki ve mutlaklık. Şerh edilmiş kişisel haklar, kiralananın el değiştirmesi ve eşyaya bağlı borçlar, iki kategori arasındaki sınırın keskin olmadığını gösterir. Öğretide bunlar çoğu zaman ayni hak ile kişisel hak arasında bir ara kategori olarak incelenir.\n\n### Taşınır devrinde illilik mi, soyutluk mu?\nTaşınmazlarda illiliği kanun açıkça kabul eder (TMK m. 1024/2). Taşınırlar için açık bir hüküm yoktur. Ağırlıklı görüş, sistemin bütünlüğünü ve eski malikin korunmasını öne sürerek illiliğin taşınırlarda da geçerli olduğunu savunur. Bu görüşe göre sebep geçersizse mülkiyet geçmez ve eski malik istihkak davası açar. Karşı görüş, taşınır ticaretinin hızını ve devralanın korunmasını gerekçe göstererek soyutluk ilkesini savunur. Bu görüşe göre mülkiyet geçer, iade ancak sebepsiz zenginleşmeyle istenir. İyiniyetli üçüncü kişi iki görüşte de TMK m. 988 ile korunduğu için fark, daha çok devralanın kendisine ya da alacaklılarına karşı ortaya çıkar.\n\n### Şerhin etkisi ve süreli şerhler\nBaskın görüşe göre şerh, kişisel hakkı ayni hakka dönüştürmez. Şerhin iki etkisi vardır: şerhten sonraki her maliki borçla bağlayan bir **eşyaya bağlı borç** etkisi ve sonradan kurulan hakları alacaklıya karşı etkisiz kılan bir koruyucu etki. Satış vaadi şerhindeki beş yıllık süre ise tartışmalıdır. Hukuk Genel Kurulu çoğunluğu, şerh terkin edilmedikçe etkisini sürdürdüğünü ve şerhi görerek taşınmazı alanın iyiniyetli sayılamayacağını kabul etti. Karşı oy ise beş yılın dolmasıyla şerhin üçüncü kişiler bakımından değerini yitirdiğini ve alıcının sicile güvenebileceğini savundu.\n\n### Sınırlı sayı ilkesinin katılığı\nBir görüş, sınırlı sayı ilkesinin yeni ekonomik ihtiyaçlara cevap veren hak türlerini engellediğini ve bunların ancak özel kanunla tanınabildiğini vurgular. Teslimsiz taşınır rehninin 6750 sayılı Kanun'la ayrıca düzenlenmesi buna örnektir. Karşı görüş, \"diğer irtifak hakları\" (TMK m. 838) gibi esnek tiplerin ve kanunun tanıdığı içerik serbestisinin ilkeyi yeterince yumuşattığını hatırlatır.",
+  "glossary": [
+   {
+    "term": "Eşya",
+    "definition": "Maddi, sınırlandırılabilen, insanın hâkimiyetine elverişli, bağımsız ve kişi dışında kalan şey. Edinmeye elverişli doğal güçler de taşınır sayılır (TMK m. 762)."
+   },
+   {
+    "term": "Bağımsız ve sürekli hak",
+    "definition": "Devredilebilir nitelikte olup süresiz ya da en az otuz yıl için kurulan, tapuda ayrı sayfaya kaydedilince taşınmaz sayılan hak; örneğin üst hakkı (TMK m. 704, TMK m. 998)."
+   },
+   {
+    "term": "Ayni hak",
+    "definition": "Eşya üzerinde doğrudan hâkimiyet sağlayan ve herkese karşı ileri sürülebilen mutlak hak."
+   },
+   {
+    "term": "Kişisel (nispi) hak",
+    "definition": "Yalnız belirli bir kişiden bir şey vermesini, yapmasını ya da yapmamasını isteme hakkı."
+   },
+   {
+    "term": "Sınırlı ayni hak",
+    "definition": "Mülkiyetin bazı yetkilerini başkasına veren ya da malike yük getiren ayni hak. İrtifaklar, taşınmaz yükü ve rehin hakları bu gruptadır."
+   },
+   {
+    "term": "Takip özelliği",
+    "definition": "Ayni hakkın, eşya kimin elinde bulunursa bulunsun ona karşı ileri sürülebilmesi."
+   },
+   {
+    "term": "Öncelik ilkesi",
+    "definition": "Aynı eşya üzerindeki ayni haklar arasında önce kurulanın üstün olması. Taşınmazlarda sıra tescile göre belirlenir (TMK m. 1022/1)."
+   },
+   {
+    "term": "Sınırlı sayı ilkesi (numerus clausus)",
+    "definition": "Ayni hak türlerinin kanunla belirlenmesi ve kişilerin yeni bir ayni hak türü yaratamaması."
+   },
+   {
+    "term": "Tip zorunluluğu",
+    "definition": "Her ayni hak türünün içeriğinin ana hatlarıyla kanunda belirlenmiş olması ve tarafların bu türün özünü değiştirememesi."
+   },
+   {
+    "term": "Aleniyet ilkesi",
+    "definition": "Ayni hakların dışarıdan görülebilir olması. Taşınırda zilyetlik, taşınmazda tapu sicili bu işi görür."
+   },
+   {
+    "term": "Belirlilik ilkesi",
+    "definition": "Ayni hakkın yalnız belirli, ferdileştirilmiş bir eşya üzerinde kurulabilmesi."
+   },
+   {
+    "term": "İllilik (sebebe bağlılık) ilkesi",
+    "definition": "Tasarruf işleminin geçerli bir hukuki sebebe dayanması gerektiği; sebep geçersizse mülkiyetin geçmemesi (TMK m. 1024/2)."
+   },
+   {
+    "term": "Güven ilkesi",
+    "definition": "Tapu kaydına ya da zilyetliğe iyiniyetle güvenen üçüncü kişinin, hak sahibi olmayandan da hak kazanabilmesi (TMK m. 1023, TMK m. 988)."
+   },
+   {
+    "term": "Yolsuz tescil",
+    "definition": "Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil (TMK m. 1024/2)."
+   },
+   {
+    "term": "Orta malı",
+    "definition": "Mera, yaylak, kışlak, otlak, harman yeri, yol ve meydan gibi kamunun ortak yararlandığı, özel mülkiyete konu olmayan taşınmaz (3402 sayılı Kanun m. 16)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "683",
+   "official_text": "A. Mülkiyet hakkının içeriği\nMadde 683- Bir şeye malik olan kimse, hukuk düzeninin sınırları içinde, o şey üzerinde dilediği gibi kullanma, yararlanma ve tasarrufta bulunma yetkisine sahiptir.\nMalik, malını haksız olarak elinde bulunduran kimseye karşı istihkak davası açabileceği gibi, her türlü haksız elatmanın önlenmesini de dava edebilir.\nB. Mülkiyet hakkının kapsamı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1020",
+   "official_text": "C. Tapu sicilinin açıklığı\nMadde 1020- Tapu sicili herkese açıktır.\nİlgisini inanılır kılan herkes, tapu kütüğündeki ilgili sayfanın ve belgelerin tapu memuru önünde kendisine gösterilmesini veya bunların örneklerinin verilmesini isteyebilir.\nKimse tapu sicilindeki bir kaydı bilmediğini ileri süremez.\nD. Tescilin etkileri",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1022",
+   "official_text": "1. Genel olarak\nMadde 1022- Aynî haklar, kütüğe tescil ile doğar; sıralarını ve tarihlerini tescile göre alır.\nTescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş veya geçici tescil hâlinde belgelerin uygun zamanda tamamlanmış olması koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar.\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya diğer herhangi bir yolla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "15",
+   "official_text": "2. Ayırt etme gücünün bulunmaması\nMadde 15- Kanunda gösterilen ayrık durumlar saklı kalmak üzere, ayırt etme gücü bulunmayan kimsenin fiilleri hukukî sonuç doğurmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "684",
+   "official_text": "I. Bütünleyici parça\nMadde 684- Bir şeye malik olan kimse, o şeyin bütünleyici parçalarına da malik olur.\nBütünleyici parça, yerel âdetlere göre asıl şeyin temel unsuru olan ve o şey yok edilmedikçe, zarara uğratılmadıkça veya yapısı değiştirilmedikçe ondan ayrılmasına olanak bulunmayan parçadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "685",
+   "official_text": "II. Doğal ürünler\nMadde 685- Bir şeyin maliki, onun ürünlerinin de maliki olur.\nÜrünler, dönemsel olarak elde edilen doğal veya hukukî ürünler ile bir şeyin özgülendiği amaca göre âdetler gereği ondan elde edilmesi uygun görülen diğer verimlerdir.\nDoğal ürünler asıl şeyden ayrılıncaya kadar onun bütünleyici parçasıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "686",
+   "official_text": "1. Tanım\nMadde 686- Bir şeye ilişkin tasarruflar, aksi belirtilmedikçe onun eklentisini de kapsar.\nEklenti, asıl şey malikinin anlaşılabilen arzusuna veya yerel âdetlere göre, işletilmesi, korunması veya yarar sağlaması için asıl şeye sürekli olarak özgülenen ve kullanılmasında birleştirme, takma veya başka bir biçimde asıl şeye bağlı kılınan taşınır maldır.\nEklenti, asıl şeyden geçici olarak ayrılmakla bu niteliğini kaybetmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "704",
+   "official_text": "A. Taşınmaz mülkiyetinin konusu\nMadde 704- Taşınmaz mülkiyetinin konusu şunlardır:\n1. Arazi,\n2. Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar,\n3. Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler.\nB. Taşınmaz mülkiyetinin kazanılması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "705",
+   "official_text": "I. Tescil\nMadde 705- Taşınmaz mülkiyetinin kazanılması, tescille olur.\nMiras, mahkeme kararı, cebrî icra, işgal, kamulaştırma hâlleri ile kanunda öngörülen diğer hâllerde, mülkiyet tescilden önce kazanılır. Ancak, bu hâllerde malikin tasarruf işlemleri yapabilmesi, mülkiyetin tapu kütüğüne tescil edilmiş olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "715",
+   "official_text": "6. Sahipsiz yerler ve yararı kamuya ait mallar\nMadde 715- Sahipsiz yerler ile yararı kamuya ait mallar, Devletin hüküm ve tasarrufu altındadır.\nAksi ispatlanmadıkça, yararı kamuya ait sular ile kayalar, tepeler, dağlar, buzullar gibi tarıma elverişli olmayan yerler ve bunlardan çıkan kaynaklar, kimsenin mülkiyetinde değildir ve hiçbir şekilde özel mülkiyete konu olamaz.\nSahipsiz yerler ile yararı kamuya ait malların kazanılması, bakımı, korunması, işletilmesi ve kullanılması özel kanun hükümlerine tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "716",
+   "official_text": "III. Tescili isteme hakkı\nMadde 716- Mülkiyetin kazanılmasına esas olacak bir hukukî sebebe dayanarak malikten mülkiyetin kendi adına tescilini istemek hususunda kişisel hakka sahip olan kimse, malikin kaçınması hâlinde hâkimden, mülkiyetin hükmen geçirilmesini isteyebilir.\nBir taşınmazın mülkiyetini işgal, miras, kamulaştırma, cebrî icra veya mahkeme kararına dayanarak kazanan kişi tescili doğrudan doğruya yaptırabilir.\nBir taşınmazın mülkiyetinde eşler arasındaki mal rejimi dolayısıyla meydana gelen değişiklikler, eşlerden birinin istemiyle tapu kütüğüne doğrudan tescil olunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "762",
+   "official_text": "A. Konusu\nMadde 762- Taşınır mülkiyetinin konusu, nitelikleri itibarıyla taşınabilen maddî şeyler ile edinmeye elverişli olan ve taşınmaz mülkiyetinin kapsamına girmeyen doğal güçlerdir.\nB. Kazanılması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "763",
+   "official_text": "1. Zilyetliğin devri\nMadde 763- Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir.\nBir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kimse, devredenin mülkiyeti devir yetkisi olmasa bile, zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde o şeyin maliki olur.\n2. Mülkiyetin saklı tutulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "764",
+   "official_text": "a. Genel olarak\nMadde 764- Başkasına devredilen bir malın mülkiyetinin saklı tutulması kaydı, ancak resmî şekilde yapılacak sözleşmenin devralanın yerleşim yeri noterliğinde özel siciline kaydedilmesiyle geçerli olur.\nHayvan satışlarında mülkiyeti saklı tutma sözleşmesi yapılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "779",
+   "official_text": "A. Konusu\nMadde 779- Taşınmaz lehine irtifak hakkı, bir taşınmaz üzerinde diğer bir taşınmaz lehine konulmuş bir yük olup, yüklü taşınmazın malikini mülkiyet hakkının sağladığı bazı yetkileri kullanmaktan kaçınmaya veya yararlanan taşınmaz malikinin yüklü taşınmazı belirli şekilde kullanmasına katlanmaya mecbur kılar.\nYapma borçları, irtifaka başlı başına konu olamaz; ona ancak yan edim olarak bağlanabilir.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "780",
+   "official_text": "1. Tescil\nMadde 780- İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır.\nİrtifak hakkının kazanılmasında ve tescilinde, aksi öngörülmüş olmadıkça taşınmaz mülkiyetine ilişkin hükümler uygulanır.\nİrtifak hakkının zamanaşımı yoluyla kazanılması, ancak mülkiyeti bu yolla elde edilebilecek taşınmazlarda mümkündür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "781",
+   "official_text": "2. Sözleşme\nMadde 781- İrtifak hakkının kurulmasına ilişkin sözleşmenin geçerli olması, resmî şekilde düzenlenmesine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "794",
+   "official_text": "I. Konusu\nMadde 794- İntifa hakkı, taşınırlar, taşınmazlar, haklar veya bir malvarlığı üzerinde kurulabilir.\nAksine düzenleme olmadıkça bu hak, sahibine, konusu üzerinde tam yararlanma yetkisi sağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "823",
+   "official_text": "I. Genel olarak\nMadde 823- Oturma hakkı, bir binadan veya onun bir bölümünden konut olarak yararlanma yetkisi verir.\nOturma hakkı, başkasına devredilemez ve mirasçılara geçmez.\nKanunda aksine hüküm bulunmadıkça, intifa hakkına ilişkin hükümler oturma hakkına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "826",
+   "official_text": "I. Konu ve tapu kütüğüne kayıt\nMadde 826- Bir taşınmaz maliki, üçüncü kişi lehine arazisinin altında veya üstünde yapı yapmak veya mevcut bir yapıyı muhafaza etmek yetkisi veren bir irtifak hakkı kurabilir.\nAksi kararlaştırılmış olmadıkça bu hak, devredilebilir ve mirasçılara geçer.\nÜst hakkı, bağımsız ve sürekli nitelikte ise üst hakkı sahibinin istemi üzerine tapu kütüğüne taşınmaz olarak kaydedilebilir. En az otuz yıl için kurulan üst hakkı, sürekli niteliktedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "837",
+   "official_text": "Madde 837- Başkasının arazisinde bulunan kaynak üzerinde irtifak hakkı, bu arazinin malikini suyun alınmasına ve akıtılmasına katlanmakla yükümlü kılar.\nBu hak, aksi kararlaştırılmış olmadıkça, başkasına devredilebilir ve mirasçıya geçer.\nKaynak hakkı, bağımsız nitelikte ve en az otuz yıl için kurulmuş ise tapu kütüğüne taşınmaz olarak kaydedilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "838",
+   "official_text": "E. Diğer irtifak hakları\nMadde 838- Malik, taşınmazı üzerinde herhangi bir kişi veya topluluk lehine atış eğitimi veya spor alanı ya da geçit olarak kullanılmak gibi belirli bir yararlanmaya hizmet etmek üzere başka irtifak hakları da kurabilir.\nBu haklar, aksi kararlaştırılmış olmadıkça, başkasına devredilemez ve mirasçılara geçmez. Bu hakların kapsamı, hak sahibinin olağan ihtiyaçlarına göre belirlenir.\nTaşınmaz lehine irtifaklara ilişkin hükümler, bu tür irtifak haklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "839",
+   "official_text": "A. Konusu\nMadde 839- Taşınmaz yükü, bir taşınmazın malikini yalnız o taşınmazla sorumlu olmak üzere diğer bir kimseye bir şey vermek veya yapmakla yükümlü kılar.\nHak sahibi olarak, bir başka taşınmazın maliki de gösterilebilir.\nİrat senedi ve kamu hukukuna ilişkin taşınmaz yükleri saklı kalmak kaydıyla, taşınmaz yükünün konusu ancak yüklü taşınmazın ekonomik niteliğinden doğan veya yararlanan taşınmazın ekonomik ihtiyaçlarını karşılayan bir edim olabilir.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "850",
+   "official_text": "I. Taşınmaz rehninin türleri\nMadde 850- Taşınmaz rehni, ancak ipotek, ipotekli borç senedi veya irat senedi şeklinde kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "870",
+   "official_text": "1. Rehin derecesinin hükümleri\nMadde 870- Rehnin sağladığı güvence, tescilde belirtilen rehin derecesi ile sınırlıdır.\nTaşınmaz rehni, sırada kendisinden önce gelecek olanın miktarının tescilde belirtilmesi kaydıyla ikinci veya daha sonraki derecede de kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "888",
+   "official_text": "1. Taşınmazın devri\nMadde 888- İpotekli taşınmazın devri, aksi kararlaştırılmış olmadıkça, borçlunun sorumluluğunda ve güvencede bir değişiklik meydana getirmez.\nYeni malik borcu yüklendiği takdirde alacaklı, kendisine başvurma hakkını saklı tuttuğunu bir yıl içinde yazılı olarak önceki borçluya bildirmezse, borçlu borcundan kurtulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "939",
+   "official_text": "1. Alacaklının zilyetliği\nMadde 939 - Kanunda öngörülen ayrık durumlar dışında taşınırlar, ancak zilyetliğin alacaklıya devri suretiyle rehnedilebilir.\nRehnedende tasarrufta bulunma yetkisi olmasa bile, rehin konusu taşınıra iyiniyetle zilyet olan kimse, zilyetlik hükümlerine göre edinimi korunduğu ölçüde rehin hakkı kazanır. Üçüncü kişilerin önceki zilyetlikten doğan hakları saklıdır.\nTaşınır, fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz.\n2. Ayrık durumlar[43]\n[43] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu maddenin birinci ve ikinci fıkralarında yer alan “tüzükle” ibareleri “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "940",
+   "official_text": "Madde 940- Yetkili makamlar tarafından izin verilen kuruluşlar ile kooperatiflerin alacaklarının güvence altına alınması için, zilyetlik devredilmeden de, icra dairesinde tutulacak özel sicile yazılmak suretiyle hayvanlar üzerinde rehin kurulabilir. Bu amaçla tutulacak sicil Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.\nGerçek veya tüzel kişilerin alacaklarının güvence altına alınması için, kanun gereğince bir sicile tescili zorunlu olan taşınır mallar üzerinde, zilyetlik devredilmeden de, taşınır malın kayıtlı bulunduğu sicile yazılmak suretiyle rehin kurulabilir. Rehnin kurulmasına ilişkin diğer hususlar Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "950",
+   "official_text": "Madde 950- Alacaklı, borçluya ait olup onun rızasıyla zilyedi bulunduğu taşınırı veya kıymetli evrakı, borcun muaccel olması ve niteliği itibarıyla bu eşyanın alacak ile bağlantısı bulunması hâlinde, borç ödeninceye kadar hapsedebilir.\nZilyetlik ve alacak ticarî ilişkiden doğmuşsa, tacirler arasında bu bağlantı var sayılır.\nAlacaklı, borçluya ait olmayan taşınırlar üzerinde de zilyetliğin iyiniyetle kazanılmasının korunduğu ölçüde hapis hakkına sahip olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "954",
+   "official_text": "A. Genel olarak\nMadde 954- Başkasına devredilebilen alacaklar ve diğer haklar rehnedilebilir.\nAksine bir hüküm bulunmadıkça, bunların rehni hakkında da teslime bağlı rehin hükümleri uygulanır.\nB. Kurulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "973",
+   "official_text": "I. Kavram\nMadde 973- Bir şey üzerinde fiilî hâkimiyeti bulunan kimse onun zilyedidir.\nTaşınmaz üzerindeki irtifak haklarında ve taşınmaz yüklerinde hakkın fiilen kullanılması zilyetlik sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "985",
+   "official_text": "1. Mülkiyet karinesi\nMadde 985- Taşınırın zilyedi onun maliki sayılır.\nÖnceki zilyetler de zilyetlikleri süresince o taşınırın maliki sayılırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "988",
+   "official_text": "a. Emin sıfatıyla zilyetten edinme bakımından\nMadde 988- Bir taşınırın emin sıfatıyla zilyedinden o şey üzerinde iyiniyetle mülkiyet veya sınırlı aynî hak edinen kimsenin edinimi, zilyedin bu tür tasarruflarda bulunma yetkisi olmasa bile korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "989",
+   "official_text": "b. Kaybedilen veya çalınan eşya bakımından\nMadde 989- Taşınırı çalınan, kaybolan ya da iradesi dışında başka herhangi bir şekilde elinden çıkan zilyet, o şeyi elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir.\nBu taşınır, açık artırmadan veya pazardan ya da benzeri eşya satanlardan iyiniyetle edinilmiş ise; iyiniyetli birinci ve sonraki edinenlere karşı taşınır davası, ancak ödenen bedelin geri verilmesi koşuluyla açılabilir.\nDiğer konularda iyiniyetli zilyedin haklarına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "997",
+   "official_text": "1. Genel olarak\nMadde 997- Taşınmazlar üzerindeki hakları göstermek üzere tapu sicili tutulur.\nTapu sicili, tapu kütüğü ve kat mülkiyeti kütüğü ile bunları tamamlayan yevmiye defteri ve belgeler ile plânlardan oluşur.\nSicilin örneği, nasıl tutulacağı ve yardımcı siciller Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[44]\n2. Taşınmazların kaydedilmesi\n[44] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "998",
+   "official_text": "a. Kaydedilecek taşınmazlar\nMadde 998- Tapu siciline taşınmaz olarak şunlar kaydedilir:\n1. Arazi,\n2. Taşınmazlar üzerindeki bağımsız ve sürekli haklar,\n3. Kat mülkiyetine konu olan bağımsız bölümler.\nArazinin tapu siciline kaydı, özel kanun hükümlerine tâbidir.\nBağımsız ve sürekli hakların kaydedilmesi için gerekli koşullar ve usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir. Süreklilik koşulunun gerçekleşmesi için hakkın süresiz veya en az otuz yıl süreli olması gerekir.[45]\nKat mülkiyetine konu olan bağımsız bölümlerin taşınmaz olarak kaydı, özel kanun hükümlerine tâbidir.\n[45] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "999",
+   "official_text": "b. Kaydedilmeyecek taşınmazlar\nMadde 999- Özel mülkiyete tâbi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar, bunlara ilişkin tescili gerekli bir aynî hakkın kurulması söz konusu olmadıkça kütüğe kaydolunmaz.\nTapuya kayıtlı bir taşınmaz, kayda tâbi olmayan bir taşınmaza dönüşürse, tapu sicilinden çıkarılır.\n3. Sicilin unsurları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1000",
+   "official_text": "a. Tapu kütüğü\nMadde 1000- Her taşınmaza kütükte bir sayfa ayrılır ve sayfa numaraları birbirini izler.\nBir taşınmazın bölünmesi veya birden çok taşınmazın birleştirilmesi hâlinde uyulacak usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir.[46]\nKütüğün her sayfasındaki özel sütunlara şunlar tescil edilir:\n1. Mülkiyet,\n2. Taşınmaz üzerinde kurulmuş olan veya o taşınmaz lehine başka taşınmaz üzerinde kurulmuş bulunan irtifak hakları ile taşınmaz yükü,\n3. Taşınmaz üzerindeki rehin hakları.\nEklentiler, malikin isteği üzerine beyanlar sütununa kaydedilir. Yapılan bu kayıt, ancak kütükte hak sahibi olarak görünenlerin rızasıyla kütükten silinebilir.\nAynı malike ait olan birden çok taşınmaz, sınırları birbirine bitişik olmasa bile, malikin istemiyle kütükte ortak bir sayfaya kaydedilebilir. Bu sayfaya yapılan rehin tescilleri, o sayfada kayıtlı bulunan bütün taşınmazları bağlar; aynı sayfada kayıtlı bu gibi taşınmazlardan bir kısmı malikin istemi üzerine veya mahkeme kararıyla o sayfadan çıkarılırsa, çıkarılan taşınmazlar üzerinde tescil edilmiş bulunan haklar saklı kalır.\n[46] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1008",
+   "official_text": "1. Tescil\nMadde 1008- Taşınmaza ilişkin aşağıdaki haklar, tapu kütüğüne tescil edilir:\n1. Mülkiyet,\n2. İrtifak hakları ve taşınmaz yükleri,\n3. Rehin hakları.\n2. Şerhler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1009",
+   "official_text": "a. Kişisel haklarda\nMadde 1009- Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, gerialım sözleşmelerinden doğan haklar ile şerhedilebileceği kanunlarda açıkça öngörülen diğer haklar tapu kütüğüne şerhedilebilir.\nBunlar şerh verilmekle o taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1010",
+   "official_text": "b. Tasarruf yetkisinin kısıtlanmasında\nMadde 1010- Aşağıdaki sebeplere dayanan tasarruf yetkisi kısıtlamaları, tapu kütüğüne şerh verilebilir:\n1. Çekişmeli hakların korunmasına ilişkin mahkeme kararları,\n2. Haciz, iflâs kararı veya konkordato ile verilen süre,\n3. Aile yurdu kurulması, artmirasçı atanması gibi şerh verilmesi kanunen öngörülen işlemler.\nTasarruf yetkisi kısıtlamaları, şerh verilmekle taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1015",
+   "official_text": "2. Yetkinin ve sebebin belirlenmesi\nMadde 1015- Tescil, terkin ve değişiklik gibi tasarruf işlemlerinin yapılabilmesi, istemde bulunanın, tasarruf yetkisini ve hukukî sebebi belgelemiş olmasına bağlıdır.\nİstemde bulunan kimse, kendisinin, sicilde hak sahibi görünen kişi veya bu kişinin temsilcisi olduğunu ispat etmek suretiyle tasarruf yetkisini belgelemiş olur.\nHukukî sebebin belgelenmesi, bu sebebin geçerliliği için gerekli şekle uyulduğunun ispatı suretiyle olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1021",
+   "official_text": "I. Tescilin yapılmamasının sonuçları\nMadde 1021- Kurulması kanunen tescile tâbi aynî haklar, tescil edilmedikçe varlık kazanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1024",
+   "official_text": "3. İyiniyetli olmayan üçüncü kişilere karşı\nMadde 1024- Bir aynî hak yolsuz olarak tescil edilmiş ise, bunu bilen veya bilmesi gereken üçüncü kişi bu tescile dayanamaz.\nBağlayıcı olmayan bir hukukî işleme dayanan veya hukukî sebepten yoksun bulunan tescil yolsuzdur.\nBöyle bir tescil yüzünden aynî hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir.\nE. Terkin ve değiştirme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1025",
+   "official_text": "I. Yolsuz tescilde\nMadde 1025- Bir aynî hak yolsuz olarak tescil edilmiş veya bir tescil yolsuz olarak terkin olunmuş ya da değiştirilmiş ise, bu yüzden aynî hakkı zedelenen kimse tapu sicilinin düzeltilmesini dava edebilir.\nİyiniyetli üçüncü kişilerin bu tescile dayanarak kazandıkları aynî haklar ve her türlü tazminat istemi saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "310",
+   "official_text": "MADDE 310- Sözleşmenin kurulmasından sonra kiralanan herhangi bir sebeple el değiştirirse, yeni malik kira sözleşmesinin tarafı olur.\nKamulaştırmaya ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "312",
+   "official_text": "MADDE 312- Taşınmaz kiralarında, sözleşmeyle kiracının kiracılık hakkının tapu siciline şerhi kararlaştırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "35",
+   "official_text": "XII. Mülkiyet hakkı\nMadde 35 – Herkes, mülkiyet ve miras haklarına sahiptir.\nBu haklar, ancak kamu yararı amacıyla, kanunla sınırlanabilir.\nMülkiyet hakkının kullanılması toplum yararına aykırı olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "43",
+   "official_text": "A. Kıyılardan yararlanma\nMadde 43 – Kıyılar, Devletin hüküm ve tasarrufu altındadır.\nDeniz, göl ve akarsu kıyılarıyla, deniz ve göllerin kıyılarını çevreleyen sahil şeritlerinden yararlanmada öncelikle kamu yararı gözetilir.\nKıyılarla sahil şeritlerinin, kullanılış amaçlarına göre derinliği ve kişilerin bu yerlerden yararlanma imkan ve şartları kanunla düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "168",
+   "official_text": "III. Tabii servetlerin ve kaynakların aranması ve işletilmesi\nMadde 168 – Tabii servetler ve kaynaklar Devletin hüküm ve tasarrufu altındadır. Bunların aranması ve işletilmesi hakkı Devlete aittir. Devlet bu hakkını belli bir süre için, gerçek ve tüzelkişilere devredebilir. Hangi tabii servet ve kaynağın arama ve işletmesinin, Devletin gerçek ve tüzelkişilerle ortak olarak veya doğrudan gerçek ve tüzelkişiler eliyle yapılması, kanunun açık iznine bağlıdır. Bu durumda gerçek ve tüzelkişilerin uyması gereken şartlar ve Devletçe yapılacak gözetim, denetim usul ve esasları ve müeyyideler kanunda gösterilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KADASTRO KANUNU",
+   "law_no": "3402",
+   "article_no": "16",
+   "official_text": "Kamu malları:\nMadde 16 – Kamunun ortak kullanılmasına veya bir kamu hizmetinin görülmesine ayrılan yerlerle Devletin hüküm ve tasarrufu altında bulunan sahipsiz yerlerden:\nA) Kamu hizmetinde kullanılan, bütçelerinden ayrılan ödenek veya yardımlarla yapılan resmi bina ve tesisler, (Hükümet, belediye, karakol, okul binaları, köy odası, hastane veya diğer sağlık tesisleri, kütüphane, kitaplık, namazgah, cami genel mezarlık, çeşme, kuyular, yunak ile kapanmış olan yollar, meydanlar, pazar yerleri, parklar ve bahçeler ve boşluklar ve benzeri hizmet malları) kayıt, belge veya özel kanunlarına veya Cumhurbaşkanlığı kararnamelerine göre Hazine, kamu kurum ve kuruluşları, il, belediye köy veya mahalli idare birlikleri tüzelkişiliği, adlarına tespit olunur. (1)\nB) Mera, yaylak, kışlak, otlak, harman ve panayır yerleri gibi paralı veya parasız kamunun yararlanmasına tahsis edildiği veya kamunun kadimden beri yararlandığı belgelerle veya bilirkişi veya tanık beyanı ile ispat edilen orta malı taşınmaz mallar sınırlandırılır, parsel numarası verilerek yüzölçümü hesaplanır ve bu gibi taşınmaz mallar özel siciline yazılır.\nBu sınırlandırma tescil mahiyetinde olmadığı gibi bu suretle belirlenen taşınmaz mallar, özel kanunlarında yazılı hükümler saklı kalmak kaydıyla özel mülkiyete konu teşkil etmezler.\nYol, meydan, köprü gibi orta malları ise haritasında gösterilmekle yetinilir.\nC) Devletin hüküm ve tasarrufu altında bulunan kayalar, tepeler, dağlar (bunlardan çıkan kaynaklar) gibi, tarıma elverişli olmayan sahipsiz yerler ile deniz, göl, nehir gibi genel sular tescil ve sınırlandırmaya tabi değildir, istisnalar saklıdır.\n(1) 2/7/2018 tarihli ve 700 sayılı KHK’nin 108 inci maddesiyle, bu bentte yer alan “özel kanunlarına” ibaresinden sonra gelmek üzere “veya Cumhurbaşkanlığı kararnamelerine” ibaresi eklenmiştir.\nD) Devletin hüküm ve tasarrufu altında bulunan ormanlar, bu Kanunda hüküm bulunmayan hallerde, özel kanunları hükümlerine tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3402&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2015/12",
+   "karar_no": "2016/1005",
+   "decision_date": "02.11.2016",
+   "summary_md": "Davalıların murisi, noterde düzenlenen satış vaadi sözleşmesiyle bir taşınmazdaki payını davacıya satmayı vaat etmiş, sözleşme üç gün sonra tapuya şerh edilmiştir. Şerhin üzerinden beş yıl geçtikten sonra mirasçılar payı davalı kooperatife devretmiştir. Şerh, malikin istemiyle terkin edilmediği için sicilde durmaktadır. İlk derece mahkemesi, 2644 sayılı Kanun m. 26'daki beş yıllık süre dolduğu için şerhin artık ileri sürülemeyeceğini kabul ederek davayı reddetmiş, Özel Daire bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oyçokluğuyla direnme kararını bozmuştur. Gerekçeye göre satış vaadinden doğan hak ayni değil kişisel (nispi) haktır. Şerhle ayni hak hâline gelmez, ama \"aynilik etkisi\" kazanır ve şerhten sonra hak kazananlara karşı ileri sürülebilir (TMK m. 1009). Beş yıllık süre tapu memuruna şerhi kendiliğinden silme yetkisi vermez, terkin edilmeyen şerh etkisini sürdürür. Resmî senetten şerhi görerek payı aldığı anlaşılan kooperatif TMK m. 1023 anlamında iyiniyetli sayılamaz, çünkü kimse sicildeki kaydı bilmediğini ileri süremez (TMK m. 1020/3). Davacı, TMK m. 716'ya dayanan tapu iptali ve tescil davasında haklıdır. Karşı oy, beş yılın dolmasıyla şerhin üçüncü kişiler bakımından değerini yitirdiğini savunmuştur. Konuya katkısı: mutlak-nispi hak ayrımını, ayni hakların sınırlı sayıda olduğunu ve şerhin kişisel hakka kazandırdığı etkiyi açıkça ortaya koyar.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/289501700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "1. Hukuk Dairesi",
+   "esas_no": "2025/602",
+   "karar_no": "2026/823",
+   "decision_date": "09.02.2026",
+   "summary_md": "Davacılar, mirasbırakanlarına ait taşınmazın hatalı bir mirasçılık belgesiyle yalnız diğer mirasçılar adına intikal ettirildiğini (mirasçılıktan gizleme) ve davalılardan birinin payını diğer davalılara devrettiğini ileri sürerek tapu iptali ve tescil istemiştir. Önceki bir bozma üzerine davacılar hasımlı mirasçılık belgesiyle mirasçı olduklarını ispatlamış, ilk derece mahkemesi davayı kabul etmiştir. Yargıtay 1. Hukuk Dairesi yolsuz tescil iddiasının ispatlandığını ve kabulün kural olarak doğru olduğunu belirtmiş, ancak kararı bozmuştur. Gerekçeye göre ayni haklar tescil ile doğar ve tescilin hukuki sonuç doğurması geçerli bir hukuki sebebe bağlıdır. Daire bunu açıkça illilik ilkesine dayandırmıştır. Bununla birlikte payları sonradan satın alan ara malik ile son kayıt malikinin TMK m. 1023'ün korumasından yararlanıp yararlanamayacağı araştırılmadan karar verilmesi eksik incelemedir. Daire, TMK m. 3/2'deki özenin objektif ölçüyle belirleneceğini, taşınmazın çok kısa sürede ve düşük bedelle el değiştirmesinin kuşku doğuracağını ve kanunun şeklen değil gerçekten iyiniyetli olanı koruduğunu vurgulamıştır. Konuya katkısı: illilik ilkesi ile güven ilkesinin aynı olayda nasıl karşılaştığını ve iyiniyetteki özen ölçüsünü gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1212617800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "1. Hukuk Dairesi",
+   "esas_no": "2023/1083",
+   "karar_no": "2023/4150",
+   "decision_date": "06.07.2023",
+   "summary_md": "Davacı belediye, kadastroda tarla niteliğiyle özel kişi adına tespit ve tescil edilen, davalı adına kayıtlı bir taşınmazın kadimden beri mezarlık olduğunu ileri sürerek tapu kaydının iptalini ve taşınmazın mezarlık niteliğiyle kendi adına tescilini istemiştir. Bilirkişi raporlarıyla taşınmazın tamamının mezarlık niteliğinde olduğu belirlenmiş, ilk derece mahkemesi davayı kabul etmiştir. Bölge adliye mahkemesi ise davanın kadastro öncesi sebebe dayandığını ve Kadastro Kanunu'ndaki on yıllık hak düşürücü sürenin geçtiğini belirterek davayı reddetmiştir. Yargıtay 1. Hukuk Dairesi bu kararı bozmuştur. Gerekçeye göre genel mezarlıklar 3402 sayılı Kanun m. 16'da sayılan kamu mallarındandır. Mezarlıklara ilişkin özel kanun da bu yerlerin satılamayacağını ve zilyetlikle kazanılamayacağını öngörür. Bu nedenle tarla niteliğiyle düzenlenen kadastro tutanağının hukuki geçerliliği yoktur. Böyle bir yerde sürdürülen zilyetlik, süresi ne olursa olsun hukuken değer taşımaz ve hak düşürücü süre uygulanamaz. Konuya katkısı: kamu mallarının özel mülkiyete konu olamayacağını ve bu kuralın uzun süreli tapu kaydı ve zilyetlik karşısında da geçerli olduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=929128900",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 704'e göre aşağıdakilerden hangisi taşınmaz mülkiyetinin konusu **değildir**?",
+   "options": [
+    "On yıl süreyle kurulmuş ve ayrı sayfaya kaydedilmemiş bir kaynak hakkı",
+    "Kat mülkiyeti kütüğüne kayıtlı bağımsız bölüm",
+    "Arazi",
+    "Tapu kütüğünde ayrı sayfaya kaydedilmiş, kırk yıl süreli bağımsız üst hakkı"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Bir hakkın taşınmaz sayılması için bağımsız ve sürekli olması ve tapuda ayrı sayfaya kaydedilmesi gerekir (TMK m. 704). Süreklilik için hakkın süresiz ya da en az otuz yıl süreli olması aranır (TMK m. 998/3). On yıllık ve ayrı sayfaya kaydedilmemiş kaynak hakkı bu şartları taşımaz, yalnız üzerinde kurulduğu arazideki bir sınırlı ayni haktır. Kırk yıllık üst hakkı ise süreklilik şartını karşılar."
+  },
+  {
+   "stem_md": "TMK m. 762'ye göre taşınır mülkiyetinin konusu hakkında hangisi doğrudur?",
+   "options": [
+    "Nitelikleri itibarıyla taşınabilen maddi şeyler ile edinmeye elverişli olan ve taşınmaz mülkiyetinin kapsamına girmeyen doğal güçlerdir.",
+    "Taşınabilen maddi şeyler ile tapuya kaydedilmemiş arazilerdir.",
+    "Alacaklar ve fikrî haklar da dahil, malvarlığına giren her türlü değerdir.",
+    "Yalnız taşınabilen maddi şeylerdir; doğal güçler hiçbir durumda mülkiyete konu olamaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 762, taşınır mülkiyetinin konusunu taşınabilen maddi şeyler ile edinmeye elverişli ve taşınmaz mülkiyetinin kapsamına girmeyen doğal güçler olarak belirler. Elektrik enerjisi bu nedenle taşınır mülkiyetine konu olabilir. Alacaklar eşya değildir. Tapuya kaydedilmemiş arazi de taşınmazdır."
+  },
+  {
+   "stem_md": "Ayni hakların **takip (izleme)** özelliği ne anlama gelir?",
+   "options": [
+    "Aynı eşya üzerinde önce kurulan ayni hak, sonra kurulana üstün gelir.",
+    "Ayni haklar ancak kanunda öngörülen türlerde kurulabilir.",
+    "Hak sahibi, borçluyu mahkeme yoluyla edimini yerine getirmeye zorlayabilir.",
+    "Hak sahibi, hakkını eşya kimin elinde bulunursa bulunsun ona karşı ileri sürebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Takip özelliği, ayni hakkın eşyaya yapışık olması ve eşya el değiştirse de yeni zilyet ya da malike karşı ileri sürülebilmesidir. Örneğin ipotekli taşınmazın devri güvencede değişiklik yapmaz (TMK m. 888/1). Önce kurulanın üstünlüğü öncelik ilkesi, kanundaki türlerle sınırlılık ise sınırlı sayı ilkesidir. Borçluyu ifaya zorlamak kişisel hakkın özelliğidir."
+  },
+  {
+   "stem_md": "Mehmet, tarlasını noterde düzenlenen satış vaadi sözleşmesiyle Ayşe'ye satmayı vaat etmiş, sözleşme tapuya şerh edilmemiştir. Bir ay sonra Mehmet tarlayı tapuda, vaatten habersiz olan Can'a satmış ve tarla Can adına tescil edilmiştir. Ayşe'nin durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Can adına yapılan tescil Ayşe'nin sözleşmesini geçersiz kılar; Ayşe hiç kimseden bir şey isteyemez.",
+    "Ayşe'nin hakkı kişisel olduğundan Can'ın mülkiyetine karşı ileri sürülemez; Ayşe, Mehmet'e karşı sözleşmeye aykırılıktan doğan haklarını kullanabilir.",
+    "Ayşe'nin sözleşmesi daha önce yapıldığından öncelik ilkesi gereği Ayşe maliktir.",
+    "Noter sözleşmesi resmî şekilde yapıldığı için Ayşe vaat tarihinde malik olmuştur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Satış vaadi mülkiyeti geçirmez, yalnız vaat edenden devir isteme hakkı, yani kişisel hak doğurur. Taşınmaz mülkiyeti tescille kazanılır (TMK m. 705/1) ve malik Can'dır. Öncelik ilkesi ayni haklar arasında işler, kişisel hak ayni hakka üstün gelmez. Şerh olmadığı için TMK m. 1009'daki etki de doğmamıştır. Ayşe'nin sözleşmesi geçerliliğini korur, Mehmet'e karşı haklarını kullanabilir."
+  },
+  {
+   "stem_md": "Ahmet'in Selin'le yaptığı taşınmaz satış vaadi sözleşmesi bir yıl önce tapuya şerh edilmiştir. Ahmet taşınmazı tapuda Kerem'e satmış, Kerem \"tapuya bakmadım, şerhi bilmiyordum\" demektedir. Selin'in Kerem karşısındaki durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Şerhli hak, şerhten sonra hak kazanan Kerem'e karşı ileri sürülebilir; Kerem sicildeki kaydı bilmediğini ileri süremez.",
+    "Kerem, TMK m. 3'teki iyiniyet karinesinden yararlanır; Selin hakkını Kerem'e karşı ileri süremez.",
+    "Selin hakkını Kerem'e karşı ancak Kerem'in kötüniyetini ayrıca ispat ederse ileri sürebilir.",
+    "Şerh, Selin'in hakkını ayni hakka dönüştürmüştür; Selin şerh tarihinden beri taşınmazın malikidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Şerh verilen kişisel haklar, taşınmaz üzerinde sonradan hak kazananlara karşı ileri sürülebilir (TMK m. 1009). Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremeyeceği için (TMK m. 1020/3) Kerem'in iyiniyet savunması dinlenmez ve Selin'in ayrıca kötüniyet ispatlamasına gerek yoktur. Şerh hakkı ayni hakka dönüştürmez. Selin tescil için dava açmalıdır."
+  },
+  {
+   "stem_md": "Eşya hukukundaki **sınırlı sayı (numerus clausus)** ilkesi neyi ifade eder?",
+   "options": [
+    "Bir kişinin malik olabileceği taşınmaz sayısı kanunla sınırlandırılmıştır.",
+    "Bir eşya üzerinde en fazla bir sınırlı ayni hak kurulabilir.",
+    "Kişiler, kanunda öngörülmeyen yeni bir ayni hak türü yaratamaz.",
+    "Ayni haklar ancak kanunda sayılan kişiler lehine kurulabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Sınırlı sayı ilkesine göre ayni hak türleri kanunla belirlenmiştir ve taraflar yeni bir tür yaratamaz. Bu ilke, herkese karşı ileri sürülecek hakların türünün herkesçe bilinebilmesini sağlar. Aynı eşya üzerinde birden çok sınırlı ayni hak kurulabilir. Hak sahiplerinin ya da taşınmaz sayısının sınırlanması bu ilkenin konusu değildir."
+  },
+  {
+   "stem_md": "TMK m. 850'ye göre taşınmaz rehni hangi türlerde kurulabilir?",
+   "options": [
+    "İpotek, teslime bağlı rehin ve hapis hakkı",
+    "İpotek, intifa hakkı ve oturma hakkı",
+    "İpotek, ipotekli borç senedi ve irat senedi",
+    "İpotek ve tarafların serbestçe belirleyeceği diğer güvence türleri"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 850, taşınmaz rehninin **ancak** ipotek, ipotekli borç senedi ya da irat senedi şeklinde kurulabileceğini söyler. Bu hüküm sınırlı sayı ve tip zorunluluğu ilkesinin açık bir örneğidir. Teslime bağlı rehin ve hapis hakkı taşınırlara ilişkindir. İntifa ve oturma rehin değil, irtifak haklarıdır."
+  },
+  {
+   "stem_md": "Öğretmen Mehmet, arkadaşı Ayşe'den 200.000 TL borç almış ve \"Salondaki tablom borç ödenene kadar Ayşe'ye rehin olsun, tablo bende kalsın\" yazılı bir sözleşme imzalamışlardır. İkisi de tacir değildir ve borç ticari bir işlem değildir. Mehmet daha sonra tabloyu Can'a satıp teslim etmiştir. Hangisi doğrudur?",
+   "options": [
+    "Tablo fiilen yalnız Mehmet'in hâkimiyetinde kaldığından rehin hakkı doğmamıştır; Ayşe'nin yalnız Mehmet'e karşı alacak hakkı vardır.",
+    "Yazılı rehin sözleşmesi yeterli olduğundan Ayşe'nin rehin hakkı doğmuştur ve Can'a karşı ileri sürülür.",
+    "Rehin hakkı doğmuştur, ancak yalnız Mehmet'e karşı ileri sürülebilir.",
+    "Rehin hakkı, tablo satıldığı anda kendiliğinden Ayşe'nin mülkiyetine dönüşür."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Taşınırlar, kanundaki ayrık durumlar dışında ancak zilyetliğin alacaklıya devriyle rehnedilebilir. Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz (TMK m. 939/1 ve TMK m. 939/3). Sicile kayıtlı taşınırlar (TMK m. 940) ve ticari işlemlerdeki teslimsiz rehin istisnaları olaya uymaz. Ayşe'nin ayni hakkı olmadığı için tabloyu takip edemez."
+  },
+  {
+   "stem_md": "Eşya hukukunda aleniyet aracı hangisidir?",
+   "options": [
+    "Taşınırlarda tapu sicili, taşınmazlarda zilyetlik",
+    "Her ikisinde de noterlikte düzenlenen resmî senet",
+    "Taşınırlarda zilyetlik, taşınmazlarda tapu sicili",
+    "Taşınırlarda fatura, taşınmazlarda belediye kayıtları"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Taşınırlarda hakkı dışarıya gösteren araç zilyetliktir. Taşınırın zilyedi onun maliki sayılır (TMK m. 985/1) ve mülkiyetin nakli için zilyetliğin devri gerekir (TMK m. 763/1). Taşınmazlarda ise bu işlevi tapu sicili görür (TMK m. 997, TMK m. 1020). Fatura ya da belediye kaydı ayni hakkın aleniyet aracı değildir."
+  },
+  {
+   "stem_md": "TMK m. 1020'ye göre tapu sicilinin açıklığı hakkında hangisi doğrudur?",
+   "options": [
+    "Sicil yalnız malike ve mahkemelere açıktır; üçüncü kişiler kayıtlardan haberdar sayılmaz.",
+    "İlgisini inanılır kılan kişi ilgili sayfanın ve belgelerin gösterilmesini ya da örneklerini isteyebilir; kimse sicildeki bir kaydı bilmediğini ileri süremez.",
+    "Kaydı gerçekten bilmediğini ispat eden üçüncü kişiye karşı o kayıt ileri sürülemez.",
+    "Herkes, hiçbir ilgi göstermeden, her taşınmazın bütün belgelerinin örneğini alabilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 1020 sicilin herkese açık olduğunu söyler, ama kayıt ve belgelerin gösterilmesini ya da örneklerini isteyebilmek için ilgiyi inanılır kılmak gerekir (TMK m. 1020/2). Kimse sicildeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). Bu nedenle bilmediğini ispat etmek de sonucu değiştirmez."
+  },
+  {
+   "stem_md": "TMK m. 1021'e göre kurulması kanunen tescile tabi ayni haklar, tescil edilmedikçe ne olur?",
+   "options": [
+    "Varlık kazanamaz.",
+    "Bir yıl içinde tescil ettirilmezse düşer.",
+    "Taraflar arasında ayni hak olarak doğar, üçüncü kişilere karşı ise ancak şerhle ileri sürülür.",
+    "Yalnız iyiniyetli üçüncü kişilere karşı ileri sürülemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 1021'e göre kurulması kanunen tescile tabi ayni haklar tescil edilmedikçe varlık kazanamaz. Tescil burada kurucudur. Tescil edilmemiş bir \"ayni hak\" taraflar arasında bile ayni hak olarak doğmaz. Taraflar arasındaki anlaşma ancak kişisel hak doğurabilir."
+  },
+  {
+   "stem_md": "TMK m. 1022/2'ye göre tescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş olmak koşuluyla hangi tarihten başlar?",
+   "options": [
+    "Yevmiye defterine yapılan kayıt tarihinden",
+    "Tescilin kütükteki ilgili sayfaya işlendiği tarihten bir ay sonra",
+    "Tapu senedinin malike teslim edildiği tarihten",
+    "Satış sözleşmesinin kurulduğu tarihten"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 1022/2'ye göre tescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş ya da geçici tescilde belgeler uygun zamanda tamamlanmış olmak koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar. Satış sözleşmesi yalnız borç doğurur. Tapu senedinin teslimi ise tescilin etkisini belirlemez."
+  },
+  {
+   "stem_md": "Zeynep'in annesi 10 Mart'ta ölmüştür ve tek mirasçısı Zeynep'tir. Annesine ait daire tapuda hâlâ annesinin adına kayıtlıdır. Zeynep daireyi satmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Zeynep mülkiyeti ancak mahkemeden tescil kararı alarak kazanabilir.",
+    "Zeynep malik olmuştur ve tescile gerek olmadan daireyi doğrudan satabilir.",
+    "Zeynep ölüm anında malik olmuştur; ancak daireyi satabilmek için önce mülkiyetin adına tescil edilmesi gerekir.",
+    "Zeynep tescil yapılıncaya kadar malik değildir, çünkü taşınmaz mülkiyeti her durumda tescille geçer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Miras hâlinde mülkiyet tescilden önce, mirasbırakanın ölümüyle kazanılır. Ancak malikin tasarruf işlemi yapabilmesi mülkiyetin tapu kütüğüne tescil edilmiş olmasına bağlıdır (TMK m. 705/2). Mirasçı tescili doğrudan doğruya yaptırabilir (TMK m. 716/2), mahkeme kararına gerek yoktur."
+  },
+  {
+   "stem_md": "TMK m. 1024/2'ye göre aşağıdaki tescillerden hangisi **yolsuzdur**?",
+   "options": [
+    "Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun bulunan tescil",
+    "Satış bedelinin bir kısmı henüz ödenmemiş geçerli bir satışa dayanan tescil",
+    "Malikin sonradan pişman olduğu bir satışa dayanan tescil",
+    "Tapuda yalnız malikin soyadında basit bir yazım hatası bulunan tescil"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 1024/2, bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescili yolsuz sayar. Bu, illilik ilkesinin kanundaki ifadesidir. Pişmanlık ya da bedelin ödenmemesi geçerli bir sebebin varlığını ortadan kaldırmaz, en fazla borç ilişkisinde sonuç doğurur. Basit yazı yanlışlıkları ise yolsuz tescil değildir."
+  },
+  {
+   "stem_md": "Murat ölmüş, mirasçıları Can ve Deniz'dir. Can, Deniz'i gizleyerek kendini tek mirasçı gösteren bir mirasçılık belgesi almış ve Murat'ın dairesini adına tescil ettirmiştir. İki ay sonra daireyi, hiç tanımadığı ve şüphelenmesini gerektiren bir durum bulunmayan Elif'e piyasa değeriyle satmıştır. Deniz'in durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Can adına tescil, Deniz'in payı bakımından yolsuzdur; ancak tapuya iyiniyetle güvenen Elif'in kazanımı korunur ve Deniz, Can'dan tazminat isteyebilir.",
+    "Can adına tescil geçerlidir, çünkü tescil yapılmakla hukuki sebepten bağımsız hâle gelir.",
+    "Can adına tescil yolsuz olduğu için Elif'in kazanımı da kendiliğinden geçersizdir; Deniz, Elif'in kaydını iptal ettirir.",
+    "Elif iyiniyetini ispat edemezse tapu kaydı iptal edilir, çünkü ispat yükü Elif'tedir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Gerçeğe aykırı mirasçılık belgesine dayanan tescil, Deniz'in payı bakımından hukuki sebepten yoksundur ve yolsuzdur (TMK m. 1024/2). Ancak tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet kazanan üçüncü kişinin kazanımı korunur (TMK m. 1023). İyiniyet karine olduğundan ispat yükü Elif'te değil, iyiniyetsizliği iddia edendedir (TMK m. 3/1). İyiniyetli üçüncü kişi karşısında Deniz'in tazminat istemi saklıdır (TMK m. 1025/2)."
+  },
+  {
+   "stem_md": "Deniz, tapuya güvenerek bir arsa satın almıştır. Eski malik, Deniz'in iyiniyetli olmadığını ileri sürmektedir. Deniz'in iyiniyeti konusunda ispat yükü kime aittir?",
+   "options": [
+    "Hiç kimseye, çünkü hâkim iyiniyeti re'sen araştırır ve ispat yükü söz konusu olmaz.",
+    "Tapu müdürlüğüne, çünkü kaydı o tutmuştur.",
+    "İyiniyetin bulunmadığını ileri süren eski malike, çünkü kanun iyiniyete sonuç bağladığında asıl olan iyiniyetin varlığıdır.",
+    "Deniz'e, çünkü herkes hakkını dayandırdığı olguyu ispatlamakla yükümlüdür."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 3/1'e göre kanunun iyiniyete hukuki sonuç bağladığı durumlarda asıl olan iyiniyetin varlığıdır. Bu bir karinedir ve iyiniyetsizliği iddia eden taraf bunu ispatlar. Herkesin dayandığı olguyu ispatlayacağı genel kural (TMK m. 6), \"kanunda aksine bir hüküm bulunmadıkça\" uygulanır. TMK m. 3 böyle bir hükümdür."
+  },
+  {
+   "stem_md": "Kaan, piyasa değeri 8.000.000 TL olan bir daireyi 1.500.000 TL'ye satın almıştır. Tapuda satıcının daireyi üç gün önce edindiği görünmektedir. Satıcı \"acelem var, soru sormayın\" demiş, Kaan da hiçbir araştırma yapmamıştır. Sonradan satıcı adına yapılan tescilin yolsuz olduğu anlaşılmıştır. Kaan'ın durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Tapuda satıcı malik göründüğü için Kaan her durumda iyiniyetli sayılır.",
+    "Düşük bedel yalnız vergi hukukunu ilgilendirir, iyiniyetin değerlendirilmesinde dikkate alınmaz.",
+    "Kaan'ın iyiniyetsizliği, ancak kötü niyetini gösteren yazılı bir belge varsa kabul edilebilir.",
+    "Kaan, durumun gerektirdiği özeni göstermediği için iyiniyet iddiasında bulunamaz ve tescile dayanamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Durumun gereklerine göre kendisinden beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz (TMK m. 3/2). Taşınmazın çok kısa sürede ve olağandışı düşük bedelle el değiştirmesi, makul bir alıcıyı şüphelendirip araştırmaya yöneltir. Yolsuz tescili bilmesi gereken üçüncü kişi tescile dayanamaz (TMK m. 1024/1). İyiniyetsizlik her türlü delille ve olayın koşullarından anlaşılabilir."
+  },
+  {
+   "stem_md": "TMK m. 2 ile TMK m. 3 arasındaki ilişki hakkında hangisi doğrudur?",
+   "options": [
+    "TMK m. 3 yalnız aile hukukunda, TMK m. 2 yalnız borçlar hukukunda uygulanır.",
+    "TMK m. 2 iyiniyet karinesini, TMK m. 3 hakkın kötüye kullanılması yasağını düzenler.",
+    "İki madde aynı kavramı düzenler ve birbirinin yerine kullanılabilir.",
+    "TMK m. 2 dürüstlük kuralını (objektif iyiniyet), TMK m. 3 ise bir hukuki eksikliği bilmeme durumunu (sübjektif iyiniyet) ve buna ilişkin karineyi düzenler."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 2, hakların kullanılmasında ve borçların ifasında uyulacak dürüstlük kuralını ve hakkın açıkça kötüye kullanılması yasağını düzenler. TMK m. 3 ise kanunun iyiniyete sonuç bağladığı hâllerde iyiniyetin var sayılacağını ve beklenen özeni göstermeyenin iyiniyet iddiasında bulunamayacağını söyler. İkisi de bütün özel hukuk alanında uygulanan başlangıç hükümleridir."
+  },
+  {
+   "stem_md": "Kemal, köyün kadimden beri hayvan otlattığı meranın bir bölümünü 25 yıldır sürüp ekmektedir ve bu bölümün kendi adına tescilini istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Yirmi yılı aşan zilyetliğe dayanarak kazandırıcı zamanaşımıyla malik olur.",
+    "Meranın tapuda kayıtlı olmadığını ispat ederse adına tescil edilir.",
+    "Mera orta malıdır ve özel mülkiyete konu olmaz; Kemal'in zilyetliği süresi ne olursa olsun mülkiyet kazandırmaz.",
+    "Mera köy tüzel kişiliğinin özel malıdır; muhtarın izniyle Kemal adına tescil edilebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Mera, yaylak, kışlak gibi kamunun kadimden beri yararlandığı yerler orta malıdır ve özel mülkiyete konu olmaz (3402 sayılı Kanun m. 16). Yararı kamuya ait mallar Devletin hüküm ve tasarrufu altındadır (TMK m. 715/1). Yargıtay'ın yerleşik uygulamasına göre böyle yerlerde sürdürülen zilyetlik, süresi ne olursa olsun hukuken değer taşımaz."
+  },
+  {
+   "stem_md": "Özel mülkiyete tabi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar hakkında TMK m. 999'a göre hangisi doğrudur?",
+   "options": [
+    "Tescili gerekli bir ayni hakkın kurulması söz konusu olmadıkça kütüğe kaydedilmez; tapuya kayıtlı bir taşınmaz bu niteliğe dönüşürse sicilden çıkarılır.",
+    "Kütüğe kaydedilir ve beyanlar sütununa kamu malı oldukları yazılır.",
+    "Her durumda Hazine adına tapu kütüğüne tescil edilir.",
+    "Yalnız kat mülkiyeti kütüğüne kaydedilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 999/1'e göre özel mülkiyete tabi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar, bunlara ilişkin tescili gerekli bir ayni hakkın kurulması söz konusu olmadıkça kütüğe kaydedilmez. Tapuya kayıtlı bir taşınmaz kayda tabi olmayan bir taşınmaza dönüşürse tapu sicilinden çıkarılır (TMK m. 999/2). Örneğin kıyı kenar çizgisi içinde kalan kısım tapudan terkin edilir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi **kişisel (nispi) hak** niteliğindedir?",
+   "options": [
+    "Taşınmaz yükü",
+    "Üst hakkı",
+    "Kira sözleşmesinden doğan kiracılık hakkı",
+    "Oturma hakkı"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kiracılık hakkı, kiraya verenden kiralananı kullandırmasını isteme hakkıdır ve kişiseldir. Kanun bu hakkı bazı durumlarda üçüncü kişilere karşı güçlendirse de (TBK m. 310, TBK m. 312) ayni hak hâline getirmez. Oturma hakkı (TMK m. 823) ve üst hakkı (TMK m. 826) irtifak hakkı, taşınmaz yükü (TMK m. 839) ise sınırlı ayni haktır."
+  },
+  {
+   "stem_md": "Selin, Ali'ye ait dairede kiracıdır. Kira sözleşmesi tapuya şerh edilmemiştir. Ali daireyi Kaan'a satmış, Kaan \"Ben kira sözleşmesinin tarafı değilim, kira benimle ilgili değil\" demektedir. Hangisi doğrudur?",
+   "options": [
+    "Kira kişisel bir hak olduğundan ve şerh edilmediğinden, Kaan'a karşı hiçbir şekilde ileri sürülemez.",
+    "Kira sözleşmesi satışla kendiliğinden sona erer, Selin yalnız Ali'den tazminat isteyebilir.",
+    "Satışla birlikte Selin'in kiracılık hakkı ayni hakka dönüşür.",
+    "Kiralanan el değiştirdiği için yeni malik Kaan kira sözleşmesinin tarafı olur; kiracılık hakkı ise yine kişisel haktır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 310/1'e göre sözleşmenin kurulmasından sonra kiralanan herhangi bir sebeple el değiştirirse yeni malik kira sözleşmesinin tarafı olur. Bu, kişisel hakkın kanunla güçlendirildiği bir durumdur. Kiracılık hakkı bu yüzden ayni hak olmaz. Yeni malikin kanundaki özel sona erdirme imkânları ise kira hukukunun konusudur."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ahmet, Çatalca'daki tarlası üzerinde 2023 yılında X Bankası lehine birinci derecede ipotek kurmuş, ipotek tapuya tescil edilmiştir. Mart 2024'te Ahmet, noterde düzenlenen satış vaadi sözleşmesiyle tarlayı 3.000.000 TL'ye Selin'e satmayı vaat etmiş, sözleşme aynı hafta tapuya şerh edilmiştir. Selin bedelin tamamını ödemiştir.\n\nAynı yıl Ahmet, komşu tarlanın maliki Fatma ile adi yazılı bir sözleşme imzalamış ve Fatma'nın traktörüyle kendi tarlasının kenarından geçebileceğini kabul etmiştir. Tapuda bu konuda hiçbir işlem yapılmamıştır. Fatma'nın tarlasının ayrıca köy yoluna bağlantısı vardır.\n\nOcak 2026'da Ahmet, tarlayı tapuda daha yüksek bir bedelle kardeşi Kerem'e satmış ve tarla Kerem adına tescil edilmiştir. Kerem, tapuya hiç bakmadığını, şerhi de ipoteği de bilmediğini söylemekte ve Fatma'nın geçişine son vereceğini bildirmektedir.\n\n1. Selin'in hakkının niteliğini ve bu hakkı Kerem'e karşı ileri sürüp süremeyeceğini açıklayınız. Selin hangi davayı açabilir?\n2. Kerem'in \"şerhi ve ipoteği bilmiyordum\" savunmasını değerlendiriniz.\n3. X Bankası'nın ipoteği tarlanın el değiştirmesinden etkilenir mi? Selin tarlayı edinirse ipotek karşısındaki durumu ne olur?\n4. Fatma, tarladan geçme hakkını Kerem'e karşı ileri sürebilir mi?",
+   "rubric": [
+    {
+     "point": "Satış vaadinin resmî şekilde yapıldığı ve kişisel hak doğurduğu; tescile kadar mülkiyetin geçmediği",
+     "weight": 15,
+     "madde_ref": "TBK m. 237"
+    },
+    {
+     "point": "Şerh sayesinde Selin'in hakkının şerhten sonra hak kazanan Kerem'e karşı ileri sürülebilmesi; şerhin hakkı ayni hakka dönüştürmemesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1009"
+    },
+    {
+     "point": "Selin'in Kerem'e karşı tapu iptali ve tescil (tescile zorlama) davası açabilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 716"
+    },
+    {
+     "point": "Kerem'in sicildeki kaydı bilmediğini ileri sürememesi; iyiniyet savunmasının dinlenmemesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1020"
+    },
+    {
+     "point": "İpoteğin takip özelliği: taşınmazın devrinin güvenceyi değiştirmemesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 888"
+    },
+    {
+     "point": "Öncelik: şerhten önce tescil edilen ipoteğin Selin'e karşı da geçerli olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 1022"
+    },
+    {
+     "point": "Resmî şekilde kurulmayan ve tescil edilmeyen geçit irtifakının doğmaması; Kerem'in Ahmet ile Fatma arasındaki anlaşmayla bağlı olmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 780"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda aynı taşınmaz üzerinde dört farklı hak çatışmaktadır: Bankanın ipoteği (ayni hak), Selin'in şerhli satış vaadi (kişisel hak), Fatma'nın tescilsiz geçme hakkı ve Kerem'in mülkiyeti (ayni hak). Çözümün anahtarı her hakkın ayni mi kişisel mi olduğunu ve hangi sırayla doğduğunu belirlemektir.\n\n**1. Selin'in hakkı:** Taşınmaz satış vaadi resmî şekilde yapılmadıkça geçerli olmaz (TBK m. 237/2). Noterde düzenlenen sözleşme bu şartı karşılar. Ancak satış vaadi mülkiyeti geçirmez. Taşınmaz mülkiyeti tescille kazanılır (TMK m. 705/1). Selin'in hakkı yalnız Ahmet'ten mülkiyeti devretmesini isteme hakkıdır, yani kişisel haktır. Ne var ki vaat tapuya şerh edilmiştir. Şerh verilen kişisel haklar, o taşınmaz üzerinde sonradan hak kazananlara karşı ileri sürülebilir (TMK m. 1009/2). Kerem tarlayı şerhten sonra edinmiştir. Bu nedenle Selin hakkını Kerem'e karşı da ileri sürebilir. Şerh hakkı ayni hakka dönüştürmez, Selin hâlâ malik değildir. Selin, Kerem'e karşı tapu iptali ve tescil davası açarak mülkiyetin hükmen kendisine geçirilmesini isteyebilir. Yargıtay bu davayı TMK m. 716/1'deki tescile zorlama hakkına dayandırır. Şerh ile satış arasında beş yıl geçmediği için şerhin süresine ilişkin tartışma da olayda doğmaz.\n\n**2. Kerem'in savunması:** Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez (TMK m. 1020/3). İyiniyet karinesi (TMK m. 3/1) sicilde açıkça görünen bir kayıt karşısında işlemez. Ayrıca durumun gerektirdiği özeni gösteren bir alıcı tapu kaydını inceler (TMK m. 3/2). Kerem'in tapuya hiç bakmamış olması onu korumaz, aleyhine bir durumdur. Kerem'in Ahmet'in kardeşi olması sonucu değiştirmez, çünkü kayıtlar herkese karşı hüküm doğurur. Savunma dinlenmez.\n\n**3. İpotek:** İpotek ayni haktır ve takip özelliği taşır. İpotekli taşınmazın devri, aksi kararlaştırılmamışsa güvencede bir değişiklik yapmaz (TMK m. 888/1). Kerem tarlayı ipotekle yüklü olarak almıştır. İpotek 2023'te, şerh ise 2024'te tapuya işlenmiştir. Ayni haklar sıralarını ve tarihlerini tescile göre alır (TMK m. 1022/1). Şerhin etkisi de yalnız şerhten sonra kazanılan haklara karşıdır (TMK m. 1009/2). Bu nedenle Selin tarlanın mülkiyetini edinse de ipotek karşısında bir üstünlüğü yoktur. Tarlayı ipotekli olarak edinir.\n\n**4. Fatma'nın geçme hakkı:** Geçit hakkı bir taşınmaz lehine irtifak olarak kurulabilir (TMK m. 779/1). Ancak irtifak hakkının kurulmasına ilişkin sözleşme resmî şekilde düzenlenmedikçe geçerli olmaz (TMK m. 781). Ayrıca irtifakın kurulması için tapu kütüğüne tescil şarttır (TMK m. 780/1) ve kurulması tescile tabi ayni haklar tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Ahmet ile Fatma arasındaki adi yazılı sözleşme ne resmî şekildedir ne de tescil edilmiştir. Bu nedenle ortada bir ayni hak yoktur. Anlaşma olsa olsa yalnız Ahmet ile Fatma arasında hüküm doğurabilir ve tapuya şerh de edilmemiştir. Kerem bu anlaşmanın tarafı olmadığı için onunla bağlı değildir. Fatma'nın tarlasının yola bağlantısı bulunduğundan bir zorunlu geçit sorunu da yoktur. Fatma, geçme hakkını Kerem'e karşı ileri süremez.\n\n**Sonuç:**\n- Selin'in hakkı kişiseldir, ama şerh sayesinde Kerem'e karşı ileri sürülebilir. Selin tapu iptali ve tescil davası açabilir.\n- Kerem'in \"bilmiyordum\" savunması TMK m. 1020/3 karşısında dinlenmez.\n- İpotek el değiştirmeden etkilenmez ve şerhten önce tescil edildiği için Selin'e karşı da geçerlidir.\n- Fatma lehine resmî şekilde kurulmuş ve tescil edilmiş bir irtifak yoktur. Geçme hakkı Kerem'e karşı ileri sürülemez."
+  },
+  {
+   "stem_md": "Murat 2024 yılında ölmüştür. Yasal mirasçıları iki çocuğu Can ve Deniz'dir. Deniz yıllardır yurt dışında yaşamaktadır. Can, mahkemeye Deniz'in adını vermeden kendisini tek mirasçı gösteren bir mirasçılık belgesi alır ve Murat adına kayıtlı iki taşınmazı adına tescil ettirir.\n\nCan, Kadıköy'deki daireyi tescilden iki ay sonra, emlakçı aracılığıyla bulduğu ve daha önce hiç tanımadığı Elif'e piyasa değeri olan 9.000.000 TL'ye satar. Tapu kaydında hiçbir şerh yoktur.\n\nCan, Şile'deki arsayı ise tescilden üç gün sonra, uzun süredir iş ortağı olan ve Murat'ın cenazesinde Deniz'le tanışmış bulunan Okan'a, değerinin dörtte biri olan 1.000.000 TL'ye satar. Her iki satış da tapuda yapılır ve alıcılar adına tescil edilir.\n\nDeniz 2026'da durumu öğrenir ve dava açmak ister. Can, \"Babam ölünce tapuda ben görünmedikçe kimse malik olmadı, Deniz'in hiçbir hakkı yoktu\" demektedir.\n\n1. Murat'ın ölümüyle taşınmazların mülkiyeti kime ve ne zaman geçmiştir? Can'ın savunmasını değerlendiriniz.\n2. Can adına yapılan tescilin hukuki niteliğini illilik ilkesi açısından açıklayınız.\n3. Deniz, Elif'e ve Okan'a karşı tapu iptali ve tescil isteyebilir mi? İyiniyet konusunda ispat yükü kimdedir?\n4. Deniz'in Can'a karşı ileri sürebileceği başka bir istem var mıdır?",
+   "rubric": [
+    {
+     "point": "Mirasla mülkiyetin ölüm anında tescilsiz geçmesi; tasarruf için tescil gerekmesi; Can'ın savunmasının yanlışlığı",
+     "weight": 15,
+     "madde_ref": "TMK m. 705"
+    },
+    {
+     "point": "Gerçeğe aykırı mirasçılık belgesine dayanan tescilin Deniz'in payı bakımından hukuki sebepten yoksun ve yolsuz olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1024"
+    },
+    {
+     "point": "Elif'in tapuya iyiniyetle güvenerek kazanımının korunması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1023"
+    },
+    {
+     "point": "İyiniyet karinesi ve iyiniyetsizliği iddia eden Deniz'in ispat yükü",
+     "weight": 10,
+     "madde_ref": "TMK m. 3"
+    },
+    {
+     "point": "Okan'ın kısa süre, çok düşük bedel ve yakın ilişki nedeniyle yolsuzluğu bilmesi gereken kişi olması ve tescile dayanamaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1024"
+    },
+    {
+     "point": "Deniz'in sicilin düzeltilmesi davası ve iyiniyetli üçüncü kişi karşısında Can'a karşı tazminat istemi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1025"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, mirasçılıktan gizleme yoluyla yapılan yolsuz bir tescil ile bu tescile dayanarak taşınmaz edinen iki üçüncü kişinin durumunu sorar. İllilik ilkesi gizlenen mirasçıyı korur, güven ilkesi ise iyiniyetli üçüncü kişiyi. İki ilkenin sınırını iyiniyet belirler.\n\n**1. Mülkiyetin geçişi:** Taşınmaz mülkiyetinin kazanılması kural olarak tescille olur. Ancak miras hâlinde mülkiyet tescilden önce kazanılır (TMK m. 705/2). Murat öldüğü anda taşınmazların mülkiyeti mirasçılarına, yani Can ve Deniz'e birlikte geçmiştir. Tescil burada açıklayıcıdır. Mirasçıların tasarruf işlemi yapabilmesi için mülkiyetin adlarına tescil edilmesi gerekir, ama bu, mülkiyetin ölümle geçtiği gerçeğini değiştirmez. Can'ın \"tapuda görünmedikçe kimse malik olmadı\" savunması bu nedenle yanlıştır. Deniz, ölüm anından beri taşınmazlarda mirasçı olarak hak sahibidir. Mirasçılar arasındaki ortaklığın türü ayrı konuda incelenir.\n\n**2. Can adına tescilin niteliği:** Tescil, istemde bulunanın tasarruf yetkisini ve hukuki sebebi belgelemesine bağlıdır (TMK m. 1015/1). Can'ın dayandığı mirasçılık belgesi gerçeğe aykırıdır. Taşınmazların tamamının Can adına tescili, Deniz'in payı bakımından hukuki sebepten yoksundur. Hukuki sebepten yoksun tescil yolsuzdur (TMK m. 1024/2). Bu, illilik ilkesinin sonucudur: geçerli bir sebebe dayanmayan tescil, Deniz'in mirasla kazandığı hakkı ortadan kaldırmaz. Deniz'in önce gerçeğe aykırı belgenin iptalini ve kendi mirasçılığının tespitini sağlaması gerekir. Yargıtay bu davalarda hasımlı bir mirasçılık belgesi aranmasını kabul eder.\n\n**3. Elif ve Okan:**\n- *Elif:* Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet kazanan üçüncü kişinin kazanımı korunur (TMK m. 1023). Elif, Can'ı tanımamaktadır, piyasa değerini ödemiştir ve tapuda hiçbir şerh yoktur. Şüphelenmesini gerektiren bir durum bulunmamaktadır. Kanunun iyiniyete sonuç bağladığı bu durumda asıl olan iyiniyetin varlığıdır (TMK m. 3/1). Elif'in iyiniyetsiz olduğunu Deniz ispatlamalıdır. Olayda bunu gösteren bir olgu yoktur. Deniz, Elif'e karşı tapu iptali ve tescil isteyemez.\n- *Okan:* Yolsuz tescili bilen ya da bilmesi gereken üçüncü kişi bu tescile dayanamaz (TMK m. 1024/1). Okan, Murat'ın cenazesinde Deniz'le tanışmıştır. Can'ın tek mirasçı olmadığını bilmektedir ya da en azından bilmesi gerekir. Ayrıca arsa tescilden yalnız üç gün sonra, değerinin dörtte biri bedelle ve uzun süreli iş ortağına satılmıştır. Yargıtay'ın yerleşik uygulamasına göre kısa sürede ve olağandışı düşük bedelle el değiştirme ve taraflar arasındaki yakın ilişki kuşku doğurur. Bu durumda beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz (TMK m. 3/2). Deniz bu olguları ispatlayarak karineyi çürütebilir. Ayni hakkı zedelenen Deniz, tapu sicilinin düzeltilmesini dava edebilir (TMK m. 1025/1) ve arsadaki payı bakımından Okan adına olan kaydın iptalini ve kendi adına tescilini isteyebilir.\n\n**4. Can'a karşı istem:** Sicilin düzeltilmesi davasında iyiniyetli üçüncü kişilerin kazandıkları ayni haklar ve her türlü tazminat istemi saklıdır (TMK m. 1025/2). Deniz, Elif'e karşı daireyi geri alamadığı için uğradığı zararı, yolsuz tescile ve satışa yol açan Can'dan isteyebilir.\n\n**Sonuç:**\n- Taşınmazların mülkiyeti Murat'ın ölümüyle tescilsiz olarak mirasçılara geçmiştir. Can'ın savunması yerinde değildir.\n- Can adına tescil, Deniz'in payı bakımından hukuki sebepten yoksun ve yolsuzdur.\n- Elif iyiniyetli üçüncü kişi olarak korunur. Deniz daireyi geri alamaz.\n- Okan iyiniyetli sayılamaz. Deniz arsadaki payı için tapu iptali ve tescil isteyebilir.\n- Deniz, daire bakımından uğradığı zarar için Can'dan tazminat isteyebilir."
+  },
+  {
+   "stem_md": "Emekli öğretmen Ayşe, Bodrum'da tapuda kendi adına kayıtlı bir yazlığın malikidir. Hazine'nin başvurusu üzerine yapılan incelemede, yazlığın bahçesinin denize bakan 300 m²'lik bölümünün kıyı kenar çizgisi içinde kaldığı belirlenmiştir. Ayşe bu bölümü tel örgüyle çevirmiştir ve \"Tapum var, burası benim\" diyerek kimseyi sokmamaktadır. Hazine dava açmaya hazırlanmaktadır.\n\nAyşe, arkadaşı Selim'den 500.000 TL borç alır. Yazılı sözleşmede \"Ayşe'nin evindeki 12 tablodan 3'ü borç ödenene kadar Selim'e rehin olsun, tablolar Ayşe'nin evinde kalsın\" denmiştir. Hangi tabloların rehin olduğu belirtilmemiştir. Ayşe ve Selim tacir değildir, borç ticari bir işlem değildir. Bir yıl sonra Ayşe, tabloların tamamını bu sözleşmeden habersiz olan koleksiyoncu Burak'a satıp teslim eder.\n\nAyşe ayrıca yeğeni Tarık ile, yazlığın \"hiçbir zaman aile dışına satılmaması\" konusunda anlaşır ve bu yasağın \"aile mülkü hakkı\" adıyla Tarık lehine ayni hak olarak tapuya tescilini ister. Tapu müdürlüğü istemi reddeder.\n\n1. Kıyı kenar çizgisi içinde kalan bölümün hukuki durumunu açıklayınız. Ayşe'nin savunması yerinde midir? Hazine neler isteyebilir?\n2. Selim'in tablolar üzerinde rehin hakkı doğmuş mudur? Selim, Burak'a karşı bir hak ileri sürebilir mi?\n3. Tapu müdürlüğünün ret kararı yerinde midir? Ayşe yazlığı ileride aile dışından birine satarsa Tarık o kişiye karşı bu anlaşmaya dayanabilir mi?",
+   "rubric": [
+    {
+     "point": "Kıyının Devletin hüküm ve tasarrufu altında olması ve özel mülkiyete konu olamaması; tapu kaydının bu sonucu değiştirmemesi",
+     "weight": 20,
+     "madde_ref": "AY m. 43"
+    },
+    {
+     "point": "Kayda tabi olmayan taşınmaza dönüşen bölümün tapu sicilinden çıkarılması (terkin) ve elatmanın önlenmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 999"
+    },
+    {
+     "point": "Belirlilik ilkesi: hangi tabloların rehnedildiği belli olmadığından ayni hak kurulamaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 939"
+    },
+    {
+     "point": "Zilyetlik devredilmeden taşınır rehninin doğmaması; teslimsiz rehin istisnalarının olaya uymaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 939"
+    },
+    {
+     "point": "Selim'in yalnız Ayşe'ye karşı kişisel hakkı; Burak'ın tabloları malikten yüksüz olarak edinmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 763"
+    },
+    {
+     "point": "Sınırlı sayı ve tip zorunluluğu: aile mülkü hakkı diye bir ayni hak bulunmaması, tescil ve şerh edilememesi; anlaşmanın yalnız taraflar arasında hüküm doğurabilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 1008"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, eşya hukukunun üç temel sınırını sınar: kamu malları özel mülkiyetin dışındadır, ayni hak ancak belirli eşya üzerinde ve kanunun öngördüğü biçimde kurulur, taraflar kanunda olmayan bir ayni hak yaratamaz.\n\n**1. Kıyıda kalan bölüm:** Kıyılar Devletin hüküm ve tasarrufu altındadır (AY m. 43). Yararı kamuya ait mallar da Devletin hüküm ve tasarrufu altındadır ve özel mülkiyete konu olmaz (TMK m. 715). Kıyı Kanunu'na göre kıyılar herkesin eşit ve serbest yararlanmasına açıktır. Bu nedenle kıyı kenar çizgisi içindeki 300 m²'lik bölüm, tapuda Ayşe adına kayıtlı görünse de onun mülkiyetine konu olamaz. Özel mülkiyete tabi olmayan ve kamunun yararlanmasına ayrılan taşınmazlar kütüğe kaydedilmez. Tapuya kayıtlı bir taşınmaz kayda tabi olmayan bir taşınmaza dönüşürse tapu sicilinden çıkarılır (TMK m. 999). Ayşe'nin \"tapum var\" savunması yerinde değildir, çünkü tapu kaydı kamu malı niteliğini değiştirmez. Hazine, bu bölüm için tapu kaydının iptalini ve sicilden terkinini, tel örgüyle yapılan elatmanın önlenmesini ve gerekiyorsa tel örgünün kaldırılmasını isteyebilir. Yargıtay da bu tür davalarda kıyıda kalan kısmın terkinine hükmedilmesi gerektiğini kabul eder.\n\n**2. Tablolar üzerindeki rehin:**\n- *Belirlilik:* Ayni hak yalnız belirli, ferdileştirilmiş eşya üzerinde kurulur. Sözleşmede 12 tablodan \"3'ü\" denmiş, hangileri olduğu belirtilmemiştir. Rehnin hangi eşya üzerinde kurulduğu belli olmadığı için ayni hak kurulamaz.\n- *Zilyetlik devri:* Kanundaki ayrık durumlar dışında taşınırlar ancak zilyetliğin alacaklıya devriyle rehnedilebilir. Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldığı sürece rehin hakkı doğmaz (TMK m. 939/1 ve TMK m. 939/3). Tablolar Ayşe'nin evinde kalmıştır. Tablolar bir sicile kaydı zorunlu taşınırlardan değildir (TMK m. 940/2) ve işlem ticari olmadığı için 6750 sayılı Kanun'daki teslimsiz rehin de uygulanmaz.\n- *Sonuç:* Selim'in ayni hakkı yoktur, yalnız Ayşe'ye karşı borç sözleşmesinden doğan kişisel hakkı vardır. Ayşe tabloların malikidir. Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir (TMK m. 763/1). Burak tabloları malikten satın alıp teslim aldığı için malik olmuştur ve herhangi bir rehin yüküyle karşılaşmaz. Burak'ın iyiniyetini tartışmaya da gerek yoktur, çünkü Ayşe gerçek maliktir. Selim, Burak'a karşı hiçbir hak ileri süremez. Ancak Ayşe'den alacağını isteyebilir.\n\n**3. Aile mülkü hakkı:** Sınırlı sayı ilkesine göre kişiler kanunda öngörülmeyen yeni bir ayni hak türü yaratamaz. Tapu kütüğüne tescil edilebilecek haklar mülkiyet, irtifak hakları, taşınmaz yükleri ve rehin haklarıdır (TMK m. 1008). \"Aile mülkü hakkı\" bunlardan hiçbiri değildir. Tasarruf yetkisi kısıtlamaları da yalnız kanunda sayılan sebeplerle şerh verilebilir: çekişmeli hakların korunmasına ilişkin mahkeme kararları, haciz ve iflas gibi durumlar ve aile yurdu gibi şerhi kanunen öngörülen işlemler (TMK m. 1010). Ayşe ile Tarık'ın sözleşmesi bu sebeplerden birine dayanmaz. Tapu müdürlüğünün ret kararı yerindedir. Anlaşma, geçerlilik şartlarını taşıdığı ölçüde yalnız Ayşe ile Tarık arasında borç doğurabilir. Ayşe yazlığı aile dışından birine satarsa alıcı malik olur. Tarık o kişiye karşı anlaşmaya dayanamaz, en fazla Ayşe'ye karşı sözleşmeye aykırılık iddiasında bulunabilir.\n\n**Sonuç:**\n- Kıyıda kalan bölüm kamu malıdır. Ayşe'nin savunması yerinde değildir. Hazine tapu iptali, terkin ve elatmanın önlenmesini isteyebilir.\n- Tablolar üzerinde belirlilik eksikliği ve zilyetlik devri olmaması nedeniyle rehin hakkı doğmamıştır. Selim, Burak'a karşı hak ileri süremez.\n- Aile mülkü hakkı kanunda öngörülmeyen bir ayni hak olduğundan tescil edilemez. Ret kararı yerindedir. Tarık sonraki alıcıya karşı anlaşmaya dayanamaz."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Bir şeyin eşya sayılması için hangi özellikler aranır?",
+   "back_md": "Maddi olma, sınırlandırılabilme ve hâkimiyete elverişlilik, bağımsızlık ve kişi dışında olma."
+  },
+  {
+   "front_md": "Taşınmaz mülkiyetinin konuları nelerdir? (TMK m. 704)",
+   "back_md": "Arazi, tapuda ayrı sayfaya kaydedilen bağımsız ve sürekli haklar, kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler."
+  },
+  {
+   "front_md": "Bağımsız ve sürekli hak ne zaman sürekli sayılır?",
+   "back_md": "Süresiz ya da en az otuz yıl süreli ise (TMK m. 998/3). Örnek: üst hakkı, kaynak hakkı."
+  },
+  {
+   "front_md": "Taşınır mülkiyetinin konusu nedir? (TMK m. 762)",
+   "back_md": "Taşınabilen maddi şeyler ile edinmeye elverişli olan ve taşınmaz mülkiyetinin kapsamına girmeyen doğal güçler (ör. elektrik)."
+  },
+  {
+   "front_md": "3402 sayılı Kanun m. 16'ya göre kamu mallarının üç grubu?",
+   "back_md": "Hizmet malları (okul, hastane, genel mezarlık); orta malları (mera, yaylak, yol, meydan); Devletin hüküm ve tasarrufu altındaki yerler (kayalar, dağlar, genel sular)."
+  },
+  {
+   "front_md": "Kamunun yararlanmasına ayrılan taşınmazlar tapuya kaydedilir mi? (TMK m. 999)",
+   "back_md": "Tescili gerekli bir ayni hak kurulmadıkça kaydedilmez. Tapulu bir taşınmaz bu niteliğe dönüşürse sicilden çıkarılır."
+  },
+  {
+   "front_md": "Ayni hakkın üç özelliği nedir?",
+   "back_md": "Mutlaklık (herkese karşı), takip (eşya kimin elindeyse ona karşı) ve öncelik (önce kurulan üstün; taşınmazda sıra tescile göre)."
+  },
+  {
+   "front_md": "Kişisel (nispi) hak nedir?",
+   "back_md": "Yalnız belirli bir kişiden bir şey vermesini, yapmasını ya da yapmamasını isteme hakkı. Satış vaadi, kira, önalım sözleşmeleri kişisel hak doğurur."
+  },
+  {
+   "front_md": "Şerh kişisel hakkı ayni hakka dönüştürür mü? (TMK m. 1009)",
+   "back_md": "Hayır. Şerhli kişisel hak yalnız şerhten sonra taşınmaz üzerinde hak kazananlara karşı ileri sürülebilir hâle gelir (aynilik etkisi)."
+  },
+  {
+   "front_md": "Kiralanan el değiştirirse ne olur? (TBK m. 310)",
+   "back_md": "Yeni malik kira sözleşmesinin tarafı olur. Kiracılık hakkı yine kişisel haktır."
+  },
+  {
+   "front_md": "Sınırlı sayı (numerus clausus) ilkesi nedir?",
+   "back_md": "Ayni hak türlerinin kanunla belirlenmesi; kişilerin yeni bir ayni hak türü yaratamaması."
+  },
+  {
+   "front_md": "Tip zorunluluğu nedir?",
+   "back_md": "Her ayni hak türünün içeriğinin kanunda belirlenmiş olması ve tarafların türün özünü değiştirememesi. Örnek: yapma borcu irtifaka başlı başına konu olamaz (TMK m. 779/2)."
+  },
+  {
+   "front_md": "Taşınmaz rehni hangi türlerde kurulur? (TMK m. 850)",
+   "back_md": "Ancak ipotek, ipotekli borç senedi ve irat senedi şeklinde."
+  },
+  {
+   "front_md": "Taşınır rehnedenin elinde kalırsa rehin doğar mı? (TMK m. 939/3)",
+   "back_md": "Hayır. Taşınır fiilen yalnız rehnedenin hâkimiyetinde kaldıkça rehin hakkı doğmaz. İstisnalar kanunda (TMK m. 940, 6750 sayılı Kanun)."
+  },
+  {
+   "front_md": "Eşya hukukunda aleniyet araçları nelerdir?",
+   "back_md": "Taşınırlarda zilyetlik (TMK m. 985), taşınmazlarda tapu sicili (TMK m. 1020)."
+  },
+  {
+   "front_md": "TMK m. 1020/3 ne der?",
+   "back_md": "Kimse tapu sicilindeki bir kaydı bilmediğini ileri süremez. Bu, maddi aleniyetin olumsuz etkisidir."
+  },
+  {
+   "front_md": "Tescil edilmeyen ayni hakların durumu? (TMK m. 1021)",
+   "back_md": "Kurulması kanunen tescile tabi ayni haklar tescil edilmedikçe varlık kazanamaz."
+  },
+  {
+   "front_md": "Tescilin etkisi ne zaman başlar? (TMK m. 1022/2)",
+   "back_md": "Gerekli belgeler isteme eklenmişse ya da geçici tescilde zamanında tamamlanmışsa, yevmiye defterine yapılan kayıt tarihinden."
+  },
+  {
+   "front_md": "Tescilsiz kazanım hâlleri nelerdir? (TMK m. 705/2)",
+   "back_md": "Miras, mahkeme kararı, cebri icra, işgal, kamulaştırma ve kanunda öngörülen diğer hâller. Tasarruf için yine de önce tescil gerekir."
+  },
+  {
+   "front_md": "İllilik ilkesi nedir ve kanundaki dayanağı?",
+   "back_md": "Tasarruf işleminin geçerli bir hukuki sebebe dayanması. Bağlayıcı olmayan işleme dayanan ya da hukuki sebepten yoksun tescil yolsuzdur (TMK m. 1024/2)."
+  },
+  {
+   "front_md": "Güven ilkesinin taşınmaz ve taşınırdaki dayanakları?",
+   "back_md": "Taşınmazda tapuya iyiniyetle dayanan üçüncü kişi (TMK m. 1023); taşınırda emin sıfatıyla zilyetten iyiniyetle edinen (TMK m. 988)."
+  },
+  {
+   "front_md": "İyiniyet karinesi ve ispat yükü? (TMK m. 3/1)",
+   "back_md": "Kanun iyiniyete sonuç bağlıyorsa asıl olan iyiniyetin varlığıdır. İyiniyetsizliği iddia eden ispatlar."
+  },
+  {
+   "front_md": "Beklenen özeni göstermeyen kişi iyiniyet iddia edebilir mi? (TMK m. 3/2)",
+   "back_md": "Hayır. Ölçü objektiftir. Kısa sürede ve çok düşük bedelle el değiştirme gibi durumlar araştırma yapmayı gerektirir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

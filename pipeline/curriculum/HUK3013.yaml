@@ -1,0 +1,162 @@
+# HUK3013 Ticaret Hukuku — 6102 sayılı TTK: başlangıç ve ticari işletme (m. 1-123),
+# ticaret şirketleri (m. 124-644), kıymetli evrak (m. 645-849).
+# Elle (Claude Code'da) kuruldu: konu sınırları kanunun tam metnindeki başlıklara göre.
+units:
+- title: 'Ünite 1: Ticari İşletme ve Tacir'
+  topics:
+  - slug: ticaret-hukukuna-giris-ticari-isler-ve-faiz
+    title: 'Ticaret Hukukuna Giriş: Kaynaklar, Ticari İşler, Ticari Davalar, Teselsül Karinesi ve Ticari Faiz'
+    maddeler: [{kanun: TTK, madde: '1'}, {kanun: TTK, madde: '2'}, {kanun: TTK, madde: '3'}, {kanun: TTK, madde: '4'}, {kanun: TTK, madde: '5'}, {kanun: TTK, madde: '7'}, {kanun: TTK, madde: '8'}, {kanun: TTK, madde: '9'}, {kanun: TTK, madde: '10'}]
+    ictihat_sorgulari: [mutlak ticari dava görev ticaret mahkemesi, ticari işlerde teselsül karinesi]
+    beceri: temel-kavramlar-ticari-isletme
+  - slug: ticari-isletme-ve-devri
+    title: 'Ticari İşletme: Kavram, Esnaf İşletmesinden Ayrımı, Bütünlük İlkesi ve İşletmenin Devri'
+    maddeler: [{kanun: TTK, madde: '11'}, {kanun: TTK, madde: '15'}, {kanun: TBK, madde: '202'}]
+    ictihat_sorgulari: [ticari işletmenin devri bütünlük ilkesi, esnaf ticari işletme ayrımı gelir sınırı]
+    beceri: temel-kavramlar-ticari-isletme
+  - slug: tacir-ve-tacir-olmanin-sonuclari
+    title: Tacir Sıfatı (Gerçek ve Tüzel Kişiler) ve Tacir Olmanın Sonuçları
+    maddeler: [{kanun: TTK, madde: '12'}, {kanun: TTK, madde: '13'}, {kanun: TTK, madde: '14'}, {kanun: TTK, madde: '16'}, {kanun: TTK, madde: '17'}, {kanun: TTK, madde: '18'}, {kanun: TTK, madde: '19'}, {kanun: TTK, madde: '20'}, {kanun: TTK, madde: '21'}, {kanun: TTK, madde: '22'}, {kanun: TTK, madde: '23'}]
+    ictihat_sorgulari: [basiretli tacir gibi davranma yükümlülüğü, faturaya sekiz gün itiraz]
+    beceri: tacir-sifati-ve-sonuclari
+  - slug: ticaret-sicili
+    title: 'Ticaret Sicili: Tescil İstemi, Sicil Müdürünün Görevleri, Açıklık ve Tescilin Etkileri'
+    maddeler: [{kanun: TTK, madde: '24'}, {kanun: TTK, madde: '26'}, {kanun: TTK, madde: '27'}, {kanun: TTK, madde: '30'}, {kanun: TTK, madde: '32'}, {kanun: TTK, madde: '33'}, {kanun: TTK, madde: '35'}, {kanun: TTK, madde: '36'}, {kanun: TTK, madde: '37'}, {kanun: TTK, madde: '38'}]
+    ictihat_sorgulari: [ticaret sicili tescil ilan üçüncü kişilere etkisi, ticaret siciline görünüşe güven]
+    beceri: ticaret-sicili-ve-aleniyet
+  - slug: ticaret-unvani-ve-isletme-adi
+    title: Ticaret Unvanı, Unvanın Devri ve Korunması, İşletme Adı
+    maddeler: [{kanun: TTK, madde: '39'}, {kanun: TTK, madde: '40'}, {kanun: TTK, madde: '41'}, {kanun: TTK, madde: '43'}, {kanun: TTK, madde: '45'}, {kanun: TTK, madde: '46'}, {kanun: TTK, madde: '48'}, {kanun: TTK, madde: '49'}, {kanun: TTK, madde: '50'}, {kanun: TTK, madde: '52'}, {kanun: TTK, madde: '53'}]
+    ictihat_sorgulari: [ticaret unvanına tecavüz terkin, ticaret unvanının devri işletmeyle birlikte]
+    beceri: ticaret-unvani-ve-isletme-adi
+  - slug: haksiz-rekabet
+    title: 'Haksız Rekabet: Genel Hüküm, Fiil Türleri, Davalar, Zamanaşımı ve Ceza Sorumluluğu'
+    maddeler: [{kanun: TTK, madde: '54'}, {kanun: TTK, madde: '55'}, {kanun: TTK, madde: '56'}, {kanun: TTK, madde: '57'}, {kanun: TTK, madde: '58'}, {kanun: TTK, madde: '59'}, {kanun: TTK, madde: '60'}, {kanun: TTK, madde: '61'}, {kanun: TTK, madde: '62'}]
+    ictihat_sorgulari: [haksız rekabet iltibas karıştırılma tehlikesi, haksız rekabetin tespiti men'i davası]
+    beceri: haksiz-rekabet-denetimi
+  - slug: ticari-defterler-ve-cari-hesap
+    title: Ticari Defterler, Saklama ve İbraz; Cari Hesap Sözleşmesi
+    maddeler: [{kanun: TTK, madde: '64'}, {kanun: TTK, madde: '65'}, {kanun: TTK, madde: '82'}, {kanun: TTK, madde: '83'}, {kanun: TTK, madde: '85'}, {kanun: TTK, madde: '89'}, {kanun: TTK, madde: '90'}, {kanun: TTK, madde: '94'}, {kanun: TTK, madde: '97'}, {kanun: TTK, madde: '98'}, {kanun: TTK, madde: '101'}]
+    ictihat_sorgulari: [ticari defterlerin delil niteliği, cari hesap bakiyesi zamanaşımı]
+    beceri: cari-hesap
+  - slug: acentelik-sozlesmesi
+    title: 'Acentelik Sözleşmesi: Yetkiler, Borçlar, Ücret, Sona Erme ve Denkleştirme İstemi'
+    maddeler: [{kanun: TTK, madde: '102'}, {kanun: TTK, madde: '104'}, {kanun: TTK, madde: '105'}, {kanun: TTK, madde: '107'}, {kanun: TTK, madde: '109'}, {kanun: TTK, madde: '113'}, {kanun: TTK, madde: '114'}, {kanun: TTK, madde: '119'}, {kanun: TTK, madde: '121'}, {kanun: TTK, madde: '122'}, {kanun: TTK, madde: '123'}]
+    ictihat_sorgulari: [acente denkleştirme tazminatı şartları, acentelik sözleşmesinin haklı nedenle feshi]
+    beceri: ticari-sozlesme-ve-belge-taslagi
+- title: 'Ünite 2: Ticaret Şirketleri Genel Hükümler ve Şahıs Şirketleri'
+  topics:
+  - slug: ticaret-sirketleri-genel-hukumler
+    title: 'Ticaret Şirketleri Genel Hükümler: Türler, Tüzel Kişilik, Ehliyet ve Sermaye Koyma Borcu'
+    maddeler: [{kanun: TTK, madde: '124'}, {kanun: TTK, madde: '125'}, {kanun: TTK, madde: '126'}, {kanun: TTK, madde: '127'}, {kanun: TTK, madde: '128'}, {kanun: TTK, madde: '129'}, {kanun: TTK, madde: '130'}, {kanun: TTK, madde: '133'}]
+    ictihat_sorgulari: [şirketin tüzel kişiliği amaç ve konu ehliyet, sermaye koyma borcu temerrüt]
+    beceri: sermaye-sirketleri-temel-sistematik
+  - slug: birlesme-bolunme-ve-tur-degistirme
+    title: Şirketlerin Birleşmesi, Bölünmesi ve Tür Değiştirmesi
+    maddeler: [{kanun: TTK, madde: '134'}, {kanun: TTK, madde: '136'}, {kanun: TTK, madde: '137'}, {kanun: TTK, madde: '145'}, {kanun: TTK, madde: '152'}, {kanun: TTK, madde: '157'}, {kanun: TTK, madde: '159'}, {kanun: TTK, madde: '173'}, {kanun: TTK, madde: '180'}, {kanun: TTK, madde: '191'}, {kanun: TTK, madde: '193'}]
+    ictihat_sorgulari: [şirket birleşmesi devralma külli halefiyet, tür değiştirme ortaklık paylarının korunması]
+    beceri: sermaye-sirketleri-temel-sistematik
+  - slug: sirketler-toplulugu
+    title: 'Şirketler Topluluğu: Hâkim ve Bağlı Şirket, Hâkimiyetin Hukuka Aykırı Kullanılması ve Güvenden Doğan Sorumluluk'
+    maddeler: [{kanun: TTK, madde: '195'}, {kanun: TTK, madde: '196'}, {kanun: TTK, madde: '197'}, {kanun: TTK, madde: '199'}, {kanun: TTK, madde: '202'}, {kanun: TTK, madde: '203'}, {kanun: TTK, madde: '208'}, {kanun: TTK, madde: '209'}]
+    ictihat_sorgulari: [hakim şirketin bağlı şirketi kayba uğratması denkleştirme, güvenden doğan sorumluluk şirketler topluluğu]
+    beceri: sermaye-sirketleri-temel-sistematik
+  - slug: kollektif-sirket
+    title: 'Kollektif Şirket: Kuruluş, Ortaklar Arası İlişkiler, Üçüncü Kişilerle İlişkiler, Ortaklıktan Ayrılma, Sona Erme'
+    maddeler: [{kanun: TTK, madde: '211'}, {kanun: TTK, madde: '216'}, {kanun: TTK, madde: '218'}, {kanun: TTK, madde: '226'}, {kanun: TTK, madde: '230'}, {kanun: TTK, madde: '232'}, {kanun: TTK, madde: '233'}, {kanun: TTK, madde: '236'}, {kanun: TTK, madde: '237'}, {kanun: TTK, madde: '243'}, {kanun: TTK, madde: '245'}, {kanun: TTK, madde: '253'}]
+    ictihat_sorgulari: [kollektif şirket ortağının sınırsız sorumluluğu, kollektif şirket ortağının çıkarılması haklı sebep]
+    beceri: cikma-cikarilma-fesih-tasfiye
+  - slug: komandit-sirket
+    title: 'Komandit Şirket: Komandite ve Komanditer Ortaklar, Yönetim, Sorumluluk ve Sona Erme'
+    maddeler: [{kanun: TTK, madde: '304'}, {kanun: TTK, madde: '305'}, {kanun: TTK, madde: '307'}, {kanun: TTK, madde: '309'}, {kanun: TTK, madde: '310'}, {kanun: TTK, madde: '318'}, {kanun: TTK, madde: '319'}, {kanun: TTK, madde: '320'}, {kanun: TTK, madde: '321'}, {kanun: TTK, madde: '328'}]
+    ictihat_sorgulari: [komanditer ortağın sorumluluğu taahhüt edilen sermaye, komandit şirket temsil komandite]
+    beceri: sermaye-sirketleri-temel-sistematik
+- title: 'Ünite 3: Anonim Şirket'
+  topics:
+  - slug: anonim-sirket-tanim-ve-kurulus
+    title: 'Anonim Şirket I: Tanım, Esas Sermaye, Kuruluş, Ayni Sermaye, Tescil ve Temel İlkeler'
+    maddeler: [{kanun: TTK, madde: '329'}, {kanun: TTK, madde: '331'}, {kanun: TTK, madde: '332'}, {kanun: TTK, madde: '335'}, {kanun: TTK, madde: '339'}, {kanun: TTK, madde: '342'}, {kanun: TTK, madde: '344'}, {kanun: TTK, madde: '353'}, {kanun: TTK, madde: '355'}, {kanun: TTK, madde: '357'}, {kanun: TTK, madde: '358'}]
+    ictihat_sorgulari: [anonim şirket kuruluşu ayni sermaye değerleme, pay sahibinin şirkete borçlanma yasağı]
+    beceri: anonim-limited-kurulus
+  - slug: anonim-sirket-yonetim-kurulu
+    title: 'Anonim Şirket II: Yönetim Kurulu: Seçim, Görevden Alma, Yönetim ve Temsil, Devredilemez Görevler, Toplantılar'
+    maddeler: [{kanun: TTK, madde: '359'}, {kanun: TTK, madde: '363'}, {kanun: TTK, madde: '364'}, {kanun: TTK, madde: '365'}, {kanun: TTK, madde: '367'}, {kanun: TTK, madde: '370'}, {kanun: TTK, madde: '371'}, {kanun: TTK, madde: '374'}, {kanun: TTK, madde: '375'}, {kanun: TTK, madde: '376'}, {kanun: TTK, madde: '390'}, {kanun: TTK, madde: '395'}]
+    ictihat_sorgulari: [yönetim kurulunun temsil yetkisi amaç ve konu dışı, sermaye kaybı borca batıklık 376]
+    beceri: anonim-sirket-organlar-yonetim-kurulu
+  - slug: anonim-sirket-denetim-ve-genel-kurul
+    title: 'Anonim Şirket III: Denetim ve Genel Kurul: Görevler, Çağrı, Toplantı ve Karar Nisapları'
+    maddeler: [{kanun: TTK, madde: '397'}, {kanun: TTK, madde: '399'}, {kanun: TTK, madde: '407'}, {kanun: TTK, madde: '408'}, {kanun: TTK, madde: '409'}, {kanun: TTK, madde: '410'}, {kanun: TTK, madde: '411'}, {kanun: TTK, madde: '413'}, {kanun: TTK, madde: '414'}, {kanun: TTK, madde: '416'}, {kanun: TTK, madde: '418'}, {kanun: TTK, madde: '421'}]
+    ictihat_sorgulari: [azlığın genel kurulu toplantıya çağırma hakkı, genel kurul toplantı nisabı esas sözleşme değişikliği]
+    beceri: genel-kurul-kararlari-ve-iptal
+  - slug: pay-sahipligi-haklari-ve-kararlarin-iptali
+    title: 'Anonim Şirket IV: Pay Sahipliği Hakları (Oy, Bilgi Alma, Özel Denetim) ve Genel Kurul Kararlarının İptali ve Butlanı'
+    maddeler: [{kanun: TTK, madde: '434'}, {kanun: TTK, madde: '436'}, {kanun: TTK, madde: '437'}, {kanun: TTK, madde: '438'}, {kanun: TTK, madde: '439'}, {kanun: TTK, madde: '445'}, {kanun: TTK, madde: '446'}, {kanun: TTK, madde: '447'}, {kanun: TTK, madde: '448'}, {kanun: TTK, madde: '449'}, {kanun: TTK, madde: '451'}]
+    ictihat_sorgulari: [genel kurul kararının iptali üç ay süre, genel kurul kararının butlanı pay sahibinin vazgeçilmez hakları]
+    beceri: genel-kurul-kararlari-ve-iptal
+  - slug: anonim-sirkette-sermaye-degisiklikleri
+    title: 'Anonim Şirket V: Esas Sözleşme Değişikliği, Sermaye Artırımı (Rüçhan Hakkı) ve Azaltımı'
+    maddeler: [{kanun: TTK, madde: '452'}, {kanun: TTK, madde: '453'}, {kanun: TTK, madde: '454'}, {kanun: TTK, madde: '456'}, {kanun: TTK, madde: '457'}, {kanun: TTK, madde: '459'}, {kanun: TTK, madde: '461'}, {kanun: TTK, madde: '462'}, {kanun: TTK, madde: '463'}, {kanun: TTK, madde: '473'}, {kanun: TTK, madde: '474'}, {kanun: TTK, madde: '475'}]
+    ictihat_sorgulari: [rüçhan hakkının sınırlandırılması haklı sebep, sermaye artırımı genel kurul kararı iptal]
+    beceri: sermaye-artirimi-azaltimi
+  - slug: paylar-pay-senetleri-ve-pay-devri
+    title: 'Anonim Şirket VI: Paylar, İmtiyazlı Paylar, Pay Bedelinin Ödenmesi, Pay Senetleri ve Payların Devri'
+    maddeler: [{kanun: TTK, madde: '476'}, {kanun: TTK, madde: '478'}, {kanun: TTK, madde: '480'}, {kanun: TTK, madde: '482'}, {kanun: TTK, madde: '483'}, {kanun: TTK, madde: '484'}, {kanun: TTK, madde: '489'}, {kanun: TTK, madde: '490'}, {kanun: TTK, madde: '491'}, {kanun: TTK, madde: '492'}, {kanun: TTK, madde: '493'}, {kanun: TTK, madde: '499'}]
+    ictihat_sorgulari: [nama yazılı payların devri ciro zilyetlik, bağlı nama yazılı paylar devrin onaylanması]
+    beceri: pay-ve-pay-sahipligi-pay-devri
+  - slug: kar-payi-ve-yedek-akceler
+    title: 'Anonim Şirket VII: Kâr Payı, Kazanç Payları, Finansal Tablolar ve Yedek Akçeler'
+    maddeler: [{kanun: TTK, madde: '507'}, {kanun: TTK, madde: '508'}, {kanun: TTK, madde: '509'}, {kanun: TTK, madde: '511'}, {kanun: TTK, madde: '512'}, {kanun: TTK, madde: '514'}, {kanun: TTK, madde: '515'}, {kanun: TTK, madde: '519'}, {kanun: TTK, madde: '521'}, {kanun: TTK, madde: '523'}]
+    ictihat_sorgulari: [kâr dağıtılmaması genel kurul kararı iptal, kanuni yedek akçe]
+    beceri: pay-ve-pay-sahipligi-pay-devri
+  - slug: anonim-sirketin-sona-ermesi-ve-sorumluluk
+    title: 'Anonim Şirket VIII: Sona Erme, Haklı Sebeple Fesih, Tasfiye ve Hukuki Sorumluluk'
+    maddeler: [{kanun: TTK, madde: '529'}, {kanun: TTK, madde: '530'}, {kanun: TTK, madde: '531'}, {kanun: TTK, madde: '532'}, {kanun: TTK, madde: '536'}, {kanun: TTK, madde: '541'}, {kanun: TTK, madde: '547'}, {kanun: TTK, madde: '549'}, {kanun: TTK, madde: '553'}, {kanun: TTK, madde: '555'}, {kanun: TTK, madde: '557'}, {kanun: TTK, madde: '560'}]
+    ictihat_sorgulari: [yönetim kurulu üyesinin sorumluluğu 553 farklılaştırılmış teselsül, anonim şirketin haklı sebeple feshi 531]
+    beceri: yonetici-sorumlulugu-553
+  - slug: limited-sirket-kurulus-ve-esas-sermaye-paylari
+    title: 'Limited Şirket I: Kavram, Kuruluş, Esas Sermaye Payları ve Devri, Ortakların Yükümlülükleri'
+    maddeler: [{kanun: TTK, madde: '573'}, {kanun: TTK, madde: '574'}, {kanun: TTK, madde: '575'}, {kanun: TTK, madde: '576'}, {kanun: TTK, madde: '580'}, {kanun: TTK, madde: '583'}, {kanun: TTK, madde: '585'}, {kanun: TTK, madde: '595'}, {kanun: TTK, madde: '596'}, {kanun: TTK, madde: '602'}, {kanun: TTK, madde: '603'}, {kanun: TTK, madde: '613'}]
+    ictihat_sorgulari: [limited şirket pay devri noter onaylı yazılı şekil genel kurul onayı, limited şirket ortağının kamu borcundan sorumluluğu]
+    beceri: anonim-limited-kurulus
+  - slug: limited-sirket-organlar-ve-sona-erme
+    title: 'Limited Şirket II: Genel Kurul, Müdürler, Temsil, Sona Erme, Ortaklıktan Çıkma ve Çıkarılma'
+    maddeler: [{kanun: TTK, madde: '614'}, {kanun: TTK, madde: '616'}, {kanun: TTK, madde: '617'}, {kanun: TTK, madde: '620'}, {kanun: TTK, madde: '621'}, {kanun: TTK, madde: '623'}, {kanun: TTK, madde: '625'}, {kanun: TTK, madde: '629'}, {kanun: TTK, madde: '636'}, {kanun: TTK, madde: '638'}, {kanun: TTK, madde: '640'}, {kanun: TTK, madde: '641'}]
+    ictihat_sorgulari: [limited şirket ortağın haklı sebeple çıkma davası, limited şirket müdürün görevden alınması]
+    beceri: cikma-cikarilma-fesih-tasfiye
+- title: 'Ünite 4: Kıymetli Evrak'
+  topics:
+  - slug: kiymetli-evrak-genel-hukumler
+    title: 'Kıymetli Evrak Genel Hükümler: Tanım, Türler (Nama, Emre, Hamile), Devir, Ciro ve İptal'
+    maddeler: [{kanun: TTK, madde: '645'}, {kanun: TTK, madde: '646'}, {kanun: TTK, madde: '647'}, {kanun: TTK, madde: '648'}, {kanun: TTK, madde: '651'}, {kanun: TTK, madde: '652'}, {kanun: TTK, madde: '654'}, {kanun: TTK, madde: '655'}, {kanun: TTK, madde: '658'}, {kanun: TTK, madde: '659'}]
+    ictihat_sorgulari: [kıymetli evrak senede bağlı hak, hamile yazılı senet borçlunun def'ileri]
+    beceri: temel-kavramlar-ve-sistem
+  - slug: police-sekil-unsurlar-ve-imza
+    title: 'Poliçe I: Şekil Şartları, Münferit Unsurlar, Geçersiz ve Yetkisiz İmza, Açık Poliçe'
+    maddeler: [{kanun: TTK, madde: '670'}, {kanun: TTK, madde: '671'}, {kanun: TTK, madde: '672'}, {kanun: TTK, madde: '673'}, {kanun: TTK, madde: '677'}, {kanun: TTK, madde: '678'}, {kanun: TTK, madde: '679'}, {kanun: TTK, madde: '680'}]
+    ictihat_sorgulari: [kambiyo senedinin zorunlu unsurları eksikliği, açık poliçe anlaşmaya aykırı doldurma]
+    beceri: bono-police-unsurlar
+  - slug: police-ciro-kabul-ve-aval
+    title: 'Poliçe II: Ciro ve Def''iler, Kabul, Aval'
+    maddeler: [{kanun: TTK, madde: '681'}, {kanun: TTK, madde: '682'}, {kanun: TTK, madde: '683'}, {kanun: TTK, madde: '684'}, {kanun: TTK, madde: '686'}, {kanun: TTK, madde: '687'}, {kanun: TTK, madde: '688'}, {kanun: TTK, madde: '691'}, {kanun: TTK, madde: '695'}, {kanun: TTK, madde: '700'}, {kanun: TTK, madde: '701'}, {kanun: TTK, madde: '702'}]
+    ictihat_sorgulari: [kambiyo senedinde ciro zinciri hamilin hak sahipliği, aval verenin sorumluluğu]
+    beceri: ciro-devir-zinciri
+  - slug: police-vade-odeme-basvurma-ve-zamanasimi
+    title: 'Poliçe III: Vade, Ödeme, Başvurma (Müracaat) Hakkı, Protesto, Sebepsiz Zenginleşme, Zamanaşımı ve İptal'
+    maddeler: [{kanun: TTK, madde: '703'}, {kanun: TTK, madde: '708'}, {kanun: TTK, madde: '710'}, {kanun: TTK, madde: '713'}, {kanun: TTK, madde: '714'}, {kanun: TTK, madde: '724'}, {kanun: TTK, madde: '725'}, {kanun: TTK, madde: '730'}, {kanun: TTK, madde: '732'}, {kanun: TTK, madde: '749'}, {kanun: TTK, madde: '750'}, {kanun: TTK, madde: '757'}]
+    ictihat_sorgulari: [kambiyo senedi zamanaşımı üç yıl bir yıl, poliçe sebepsiz zenginleşme davası]
+    beceri: muracaat-protesto-hakki
+  - slug: bono
+    title: 'Bono (Emre Muharrer Senet): Unsurlar, Eksik Unsurların Sonucu, Uygulanacak Hükümler ve Düzenleyenin Sorumluluğu'
+    maddeler: [{kanun: TTK, madde: '776'}, {kanun: TTK, madde: '777'}, {kanun: TTK, madde: '778'}, {kanun: TTK, madde: '779'}]
+    ictihat_sorgulari: [bonoda tanzim tarihi vade unsuru, bono teminat senedi kambiyo vasfı]
+    beceri: bono-police-unsurlar
+  - slug: cek
+    title: 'Çek: Şekil, Devir, İbraz ve Ödeme, Çizgili Çek, Ödememe ve Başvurma, Zamanaşımı'
+    maddeler: [{kanun: TTK, madde: '780'}, {kanun: TTK, madde: '784'}, {kanun: TTK, madde: '788'}, {kanun: TTK, madde: '789'}, {kanun: TTK, madde: '792'}, {kanun: TTK, madde: '795'}, {kanun: TTK, madde: '796'}, {kanun: TTK, madde: '799'}, {kanun: TTK, madde: '803'}, {kanun: TTK, madde: '808'}, {kanun: TTK, madde: '812'}, {kanun: TTK, madde: '814'}]
+    ictihat_sorgulari: [çekin ibraz süresi karşılıksız, ileri tarihli çek ibraz]
+    beceri: cek-hukuku
+  - slug: diger-emre-yazili-senetler-ve-emtia-senetleri
+    title: Diğer Emre Yazılı Senetler, Kambiyo Senetlerine Benzeyen Senetler, Makbuz Senedi ve Varant
+    maddeler: [{kanun: TTK, madde: '824'}, {kanun: TTK, madde: '825'}, {kanun: TTK, madde: '826'}, {kanun: TTK, madde: '830'}, {kanun: TTK, madde: '831'}, {kanun: TTK, madde: '832'}, {kanun: TTK, madde: '834'}, {kanun: TTK, madde: '838'}, {kanun: TTK, madde: '841'}, {kanun: TTK, madde: '848'}]
+    ictihat_sorgulari: [emre yazılı havale, makbuz senedi varant umumi mağaza]
+    beceri: temel-kavramlar-ve-sistem

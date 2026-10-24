@@ -1,0 +1,921 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Borçların Sona Ermesi ve Zamanaşımı",
+ "topic_index": 1,
+ "slug": "sona-erme-halleri-ve-takas",
+ "title": "Borcu Sona Erdiren Sebepler: İbra, Yenileme, Birleşme ve Takas",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:56:33.557770+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/temel-kavramlar-ve-sistem"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Borç her zaman ifa ile bitmez. Alacaklı borçluyu borçtan kurtarabilir, taraflar eski borcun yerine yenisini koyabilir, alacaklı ile borçlu aynı kişi olabilir ya da karşılıklı alacaklar birbirini götürebilir. TBK bunları \"Sona Erme Hâlleri\" başlığı altında düzenler (TBK m. 131-145). İfa imkânsızlığı ayrı konudur.\n\n- **Yan hakların akıbeti (TBK m. 131):** Asıl borç ifa ya da başka bir sebeple sona erince rehin, kefalet, faiz ve ceza koşulu da sona erer. İşlemiş faiz ve ceza koşulu yalnız sözleşmeyle, ifa anına kadar yapılan bir bildirimle ya da durumdan anlaşılacak biçimde saklı tutulmuşsa istenir.\n- **İbra (TBK m. 132):** Borcu tamamen ya da kısmen ortadan kaldıran sözleşmedir. Borcu doğuran işlem kanunen ya da taraflarca şekle bağlanmış olsa bile ibra **şekle bağlı değildir**.\n- **İşçinin ibranamesi (TBK m. 420):** İşçinin işverenden alacağına ilişkin ibra yazılı olmalı, sözleşmenin sona ermesinden itibaren en az bir ay geçmiş olmalı, alacağın türü ve miktarı açıkça yazılmalı, ödeme hak tutarına göre noksansız ve banka aracılığıyla yapılmalıdır. Aksi hâlde **kesin hükümsüzdür**. Hakkın gerçek tutarda ödendiğini içermeyen belge, içerdiği miktarla sınırlı olarak makbuz hükmündedir; bunun için de ödeme banka aracılığıyla yapılmış olmalıdır.\n- **Yenileme (TBK m. 133-134):** Eski borcu yeni borçla sona erdirmek ancak tarafların **açık iradesiyle** olur. Kambiyo taahhüdü, yeni alacak senedi ya da yeni kefalet senedi tek başına yenileme sayılmaz. Cari hesaba kayıt yenileme değildir; hesap kesilip sonuç kabul edilince borç yenilenir, ama bir kalemin güvencesi aksi kararlaştırılmadıkça sürer.\n- **Birleşme (TBK m. 135):** Alacaklı ve borçlu sıfatları aynı kişide birleşince borç sona erer. Üçüncü kişilerin önceki hakları etkilenmez. Birleşme geçmişe etkili olarak kalkarsa borç sürer.\n- **Takas (TBK m. 139-145):** Karşılıklı, aynı türden ve muaccel iki borçta takas yapılabilir. Takas kendiliğinden olmaz, **beyan** gerekir. Beyanla iki borç, takas edilebilecekleri anda az olan tutarda sona erer.\n  - Çekişmeli alacakla da takas ileri sürülebilir. Zamanaşımına uğramış alacak, takas edilebileceği anda henüz zamanaşımına uğramamışsa takas edilebilir.\n  - Kefil, asıl borçlunun takas hakkı bulundukça ödemeden kaçınabilir. Üçüncü kişi yararına borçlanan, bu borcunu karşı taraftan olan alacağıyla takas edemez. Borçlunun iflasında muaccel olmayan alacakla da takas mümkündür.\n  - Tevdi edilen ya da haksız alınan eşyanın iadesi ile nafaka ve işçi ücreti gibi bakım alacakları, takas hakkı doğduktan sonra ancak alacaklının rızasıyla takas edilir. İşveren ücret borcunu işçinin rızası olmadan takas edemez (TBK m. 407/2).\n  - Takastan önceden feragat edilebilir (TBK m. 145); kira sözleşmesinden doğan alacaklarda edilemez (TBK m. 326).\n- **Uygulama:** Takas davada def'i olarak, dilekçeler aşamasında ya da karşı davayla ileri sürülür; hâkim kendiliğinden dikkate almaz. Mahsup ise aynı olaydan doğan kalemlerin hesaba katılmasıdır ve hâkim bunu kendiliğinden gözetir. İlamlı takipte takas bir itfa sebebidir (İİK m. 33).",
+  "content_md": "## 0. Konunun haritası\n\nBorcun olağan sonu **ifadır**. Ama borç başka yollarla da biter: alacaklı borçluyu borçtan kurtarabilir, taraflar eski borcun yerine yenisini koyabilir, alacaklı ile borçlu aynı kişi olabilir ya da iki taraf birbirine borçlu çıkıp hesaplaşabilir.\n\nTBK, Üçüncü Bölüm'ün (\"Borçların ve Borç İlişkilerinin Sona Ermesi, Zamanaşımı\") \"Sona Erme Hâlleri\" başlıklı Birinci Ayırımında şu başlıkları sayar:\n1. **A. Asıl borca bağlı hak ve borçların sona ermesi** (TBK m. 131)\n2. **B. İbra** (TBK m. 132)\n3. **C. Yenileme:** genel olarak (TBK m. 133), cari hesaplarda (TBK m. 134)\n4. **D. Birleşme** (TBK m. 135)\n5. **E. İfa imkânsızlığı** (TBK m. 136-138): ayrı konu\n6. **F. Takas:** koşulları (TBK m. 139-142), hükümleri (TBK m. 143), alacaklının rızasıyla takas edilebilir alacaklar (TBK m. 144), takastan feragat (TBK m. 145)\n\nİfa ve zamanaşımı (TBK m. 146 vd.) da ayrı konulardır.\n\n> 💡 **Püf nokta:** Önce \"sona erme neye dayanıyor?\" diye sor. İbra ve yenileme bir **sözleşmeye**, takas **tek taraflı bir beyana** dayanır. Birleşmede borç **kendiliğinden** sona erer.\n\n## 1. Asıl borca bağlı hak ve borçların sona ermesi (TBK m. 131)\n\n**Yan (fer'i) haklar**, asıl borca hizmet eden ve onsuz ayakta duramayan haklardır: rehin, kefalet, faiz, ceza koşulu gibi. Asıl borç **ifa ya da başka bir sebeple** (ibra, yenileme, takas) sona erince bunlar da sona ermiş olur (TBK m. 131/1).\n\n> **Örnek:** Burak'ın Nermin'e olan 300.000 TL ödünç borcuna babası Hasan kefildir. Burak borcun tamamını ödeyince kefalet de kendiliğinden sona erer.\n\n**İşlemiş faiz ve ceza koşulu (TBK m. 131/2)** ancak şu üç hâlden birinde asıl borçtan sonra da istenebilir:\n1. ifalarını isteme hakkı sözleşmeyle saklı tutulmuşsa,\n2. alacaklı ifa anına kadar yaptığı bir bildirimle saklı tutmuşsa,\n3. saklı tutulduğu durumdan ve koşullardan anlaşılıyorsa.\n\n> **Örnek:** Kerem, Selin'e olan 100.000 TL ödünç borcunu iki ay gecikmeyle öder. Selin parayı çekince koymadan alır ve \"anapara tamamen ödendi\" diye makbuz verir. Faizi saklı tuttuğunu gösteremezse işlemiş faizi isteyemez. Anaparanın tamamı için makbuz veren alacaklının faizleri de almış olduğu kabul edilir (TBK m. 104/2).\n\n> ⚠️ **Sınavda dikkat:** Çekince koymadan kabul üç yerde alacaklının aleyhine sonuç doğurur: TBK m. 131/2 (işlemiş faiz ve ceza koşulu), TBK m. 104 (çekincesiz makbuz ve anapara makbuzu karineleri) ve TBK m. 179/2 (gecikme cezası).\n\nTaşınmaz rehni, kıymetli evrak ve konkordatoya ilişkin özel hükümler saklıdır (TBK m. 131/3).\n\n## 2. İbra (TBK m. 132)\n\n### 2.1 Kavram ve nitelik\n**İbra**, alacaklı ile borçlu arasında yapılan ve borcu **tamamen ya da kısmen** ortadan kaldıran bir **sözleşmedir**. Tek taraflı bir \"vazgeçtim\" beyanı yetmez, borçlunun kabulü de gerekir. Ama ibra borçluya yalnız yarar sağladığı için kabul çoğu zaman örtülüdür: öneren açık bir kabul beklemek zorunda değilse, uygun sürede reddedilmeyen öneriyle sözleşme kurulmuş sayılır (TBK m. 6).\n\nİbra, alacağı doğrudan ortadan kaldıran bir **tasarruf işlemidir**; alacaklının tasarruf yetkisi bulunmalıdır. Kanun bu yetkiyi bazen sınırlar: üçüncü kişi yararına sözleşmede üçüncü kişi hakkını kullanmak istediğini borçluya bildirdikten sonra alacaklı borçluyu ibra edemez (TBK m. 129/2).\n\n### 2.2 İbra şekle bağlı değildir\nBorcu doğuran işlem **kanunen** ya da **taraflarca** şekle bağlanmış olsa bile ibra **şekle bağlı olmaksızın** yapılabilir (TBK m. 132). Şekil kuralları borçlanmayı ağırlaştırır, borçtan kurtarmayı değil.\n\n> **Örnek:** Kefalet sıkı şekle bağlıdır. Yine de alacaklı Nuri, kefil Tamer'e e-postayla \"seni kefaletten kurtarıyorum\" yazar ve Tamer kabul ederse ibra geçerlidir.\n\n> **Örnek:** Deniz, Emre'ye imzalı bir borç senedi karşılığında 200.000 TL ödünç vermiştir. Sonra mesajla \"50.000 TL'sinden vazgeçiyorum\" yazar, Emre de kabul eder. Bu geçerli bir **kısmi ibradır**; borç 150.000 TL'ye iner.\n\n### 2.3 Yan haklara ve diğer borçlulara etkisi\n- İbra edilen kısım kalkınca ona bağlı kefalet ve rehin de o ölçüde sona erer (TBK m. 131/1). Emre'nin borcuna bir kefil (ör. ağabeyi Kaan) varsa ondan da artık en fazla 150.000 TL istenebilir.\n- Müteselsil borçlulardan biriyle yapılan ibra, diğerlerini ancak ibra edilenin iç ilişkideki payı oranında kurtarır (TBK m. 166/3). Ayrıntısı müteselsil borçluluk konusunda.\n\n### 2.4 İş hukukunda ibraname (TBK m. 420)\nEn önemli istisna buradadır. **İşçinin işverenden alacağına ilişkin** ibra sözleşmesi şu dört şartı birlikte taşımalıdır (TBK m. 420/2):\n1. **yazılı** olmalıdır,\n2. ibra tarihinde sözleşmenin sona ermesinden itibaren **en az bir aylık süre** geçmiş olmalıdır,\n3. ibra konusu alacağın **türü ve miktarı** açıkça belirtilmelidir,\n4. ödeme hak tutarına göre **noksansız** ve **banka aracılığıyla** yapılmalıdır.\n\nBu unsurları taşımayan ibra sözleşmeleri ya da ibraname **kesin olarak hükümsüzdür**.\n- **Makbuz hükmü (TBK m. 420/3):** Hakkın gerçek tutarda ödendiğini içermeyen ibra sözleşmeleri ve ibra beyanı içeren diğer ödeme belgeleri, içerdikleri miktarla sınırlı olarak **makbuz** hükmündedir. Bu durumda da ödemenin banka aracılığıyla yapılmış olması zorunludur.\n- **Kapsam (TBK m. 420/4):** Bu kurallar, destekten yoksun kalanların ve işçinin diğer yakınlarının isteyebilecekleri dahil, hizmet sözleşmesinden doğan bütün tazminat alacaklarına uygulanır.\n\n> **Örnek:** Kasiyer Ayşe'nin iş sözleşmesi 15 Nisan'da sona erer. İşveren 25 Nisan'da \"bütün alacaklarımı aldım\" yazan bir ibraname imzalatır ve parayı elden öder. Bir aylık süre geçmediği ve ödeme bankadan yapılmadığı için ibraname kesin hükümsüzdür. Banka ödemesi olmadığından makbuz hükmünde de değildir.\n\nYargıtay bu şartları sıkı uygular: diğer şartları taşıyan ama ödemesi bankadan yapılmayan ibranameyi kesin hükümsüz sayar ve belgedeki tutarı alacaktan düşmez (karar özetine bak).\n\n> ⚠️ **Sınavda dikkat:** TBK m. 420 yalnız **işçinin işverenden** alacaklarına ilişkin ibrayı düzenler. İşverenin işçiden olan alacağının (ör. verdiği ödünç) ibrası, şekle bağlı olmayan TBK m. 132'ye tabidir.\n\n## 3. Yenileme (TBK m. 133-134)\n\n### 3.1 Kavram ve şartlar\n**Yenileme (tecdit)**, mevcut bir borcun, yerine yeni bir borç kurularak sona erdirilmesidir. Üç unsur birlikte aranır: (1) **mevcut ve geçerli** bir eski borç, (2) onun yerine geçen **yeni bir borç**, (3) eski borcu yeni borçla sona erdirme iradesi (**yenileme iradesi**).\n\n### 3.2 Yenileme karine olarak kabul edilmez\nTBK m. 133/1'e göre yeni bir borçla mevcut bir borcun sona erdirilmesi **ancak tarafların bu yöndeki açık iradesiyle** olur. Şüphede yenileme yoktur ve yenilemeyi iddia eden bunu ispatlar (TMK m. 6). Kanun, açık yenileme iradesi yoksa yenileme **sayılmayan** üç durumu özellikle anar (TBK m. 133/2):\n- mevcut borç için **kambiyo taahhüdünde** bulunulması (bono, çek verilmesi),\n- yeni bir **alacak senedi** düzenlenmesi,\n- yeni bir **kefalet senedi** düzenlenmesi.\n\n> **Örnek:** Elif, mobilyanın 120.000 TL'lik bedeli için satıcıya üç bono verir; başka bir şey kararlaştırılmamıştır. Bonolar **ifa amacıyla** verilmiştir: satış bedeli borcu sona ermez, bono borcu onun yanında durur. Bonolar ödendikçe temel borç da sona erer; satıcı aynı alacağı iki kez tahsil edemez.\n\nYargıtay'ın yerleşik uygulamasına göre borcun yalnız miktarını, vadesini ya da ödeme biçimini değiştiren bir **yapılandırma** yenileme değildir; açık yenileme iradesi yoksa borç, değişikliklerle birlikte devam eder. Yapılandırmayla borcu ödemeyi üstlenen bir üçüncü kişi de eski borçluları kurtarmaz; Yargıtay böyle bir kişinin durumunu **borca katılma** saymıştır (TBK m. 201).\n\n> ⚠️ **Sınavda dikkat:** Eski ve yeni borcun hukuki sebebi aynıysa yapılan iş çoğu zaman yenileme değil, bir **borç tanımadır** (TBK m. 18).\n\n### 3.3 Cari hesapta yenileme (TBK m. 134)\n**Cari hesap**, karşılıklı alacak ve borç kalemlerinin bir hesaba yazılıp dönemsel olarak hesaplaştırıldığı ilişkidir.\n- Kalemlerin hesaba **sadece kaydedilmesi** yenileme değildir (m. 134/1).\n- **Hesap kesilip** sonucu **diğer tarafça kabul edilirse** borç yenilenmiş olur (m. 134/2). Artık kabul edilen bakiye borçlanılmıştır.\n- Kalemlerden birinin **güvencesi** varsa, aksi kararlaştırılmadıkça hesabın kesilip sonucun kabulü güvenceyi **sona erdirmez** (m. 134/3).\n\n> **Örnek:** Toptancı Murat ile market sahibi Hülya cari hesapla çalışır; Ocak'taki 80.000 TL'lik teslimata Hülya'nın kardeşi Can kefildir. Yıl sonunda hesap kesilir ve Hülya 250.000 TL bakiyeyi kabul eder. Borç yenilenmiştir, ama Can'ın kefaleti sürer.\n\n### 3.4 Yenilemenin sonuçları\n- Eski borç sona erer, yerine yeni borç geçer.\n- Eski borca bağlı rehin, kefalet, faiz ve ceza koşulu da sona erer (TBK m. 131/1). Cari hesaptaki güvence kuralı (TBK m. 134/3) bunun istisnasıdır.\n- Taraflar güvencenin yeni borca geçmesini kararlaştırabilir. Güvenceyi bir üçüncü kişi (ör. kefil) vermişse onun katılımı da gerekir.\n\n> **Örnek:** Tuna ile Selim, \"Satış bedeli borcu sona ermiş, yerine şu bonolardan doğan borç geçmiştir\" diyen bir protokol imzalar. Bu açık bir yenilemedir. Protokole katılmayan kefil Barış'ın kefaleti sona erer.\n\n## 4. Birleşme (TBK m. 135)\n\nKimse kendisine borçlu olamaz: **alacaklı ve borçlu sıfatları aynı kişide birleşince borç sona erer** (TBK m. 135/1). Tipik hâller miras, şirket birleşmesi ve alacağın borçluya devridir.\n\n> **Örnek:** Ahmet, babası Hilmi'den 300.000 TL ödünç almıştır. Hilmi ölür ve tek mirasçısı Ahmet'tir. Borç sona erer.\n\n- **Üçüncü kişilerin hakları:** Üçüncü kişilerin alacak üzerinde önceden var olan hakları birleşmeden etkilenmez (TBK m. 135/1). Hilmi bu alacağı bankaya rehnetmişse bankanın rehin hakkı sürer.\n- **Geçmişe etkili ortadan kalkma:** Birleşme geçmişe etkili olarak ortadan kalkarsa borç varlığını sürdürür (TBK m. 135/2). Örneğin borçluyu mirasçı yapan vasiyetname iptal edilirse borç hiç sona ermemiş sayılır.\n- Taşınmaz rehni ve kıymetli evraka ilişkin özel hükümler saklıdır (TBK m. 135/3).\n\n## 5. Takas (TBK m. 139-145)\n\n### 5.1 Kavram\n**Takas**, birbirine karşı aynı türden borçları bulunan iki kişiden birinin **tek taraflı beyanla** iki borcu az olan tutarda sona erdirmesidir. Takas eden, karşı tarafın ödeme güçsüzlüğüne karşı da korunur. Takas edenin kendi alacağına **karşı alacak**, onun borcuna (karşı tarafın alacağına) **asıl alacak** denir.\n\n### 5.2 Şartlar (TBK m. 139/1)\n1. **Karşılıklılık:** Taraflar birbirinden alacaklı ve birbirine borçlu olmalıdır. Başkasının alacağıyla takas yapılamaz.\n2. **Aynı türden edimler:** Bir miktar para ya da **özdeş** edimler (ör. aynı kalitede buğday) takas edilir. Para borcu ile belirli bir arabanın teslimi borcu takas edilemez.\n3. **Muacceliyet:** Kanun iki borcun da muaccel olmasını arar. Takas edenin kendi alacağı muaccel değilse takas yapılamaz. Asıl alacak bakımından uygulamada ifa edilebilir olması yeterli görülür (doktrine bak).\n4. **Dava edilebilirlik:** Karşı alacak dava ve takip edilebilir olmalıdır. Kumar ve bahisten doğan alacak hakkında dava açılamaz ve takip yapılamaz (TBK m. 604/1); böyle bir alacakla takas da yapılamaz. Zamanaşımı için özel kural vardır (5.4).\n5. **Engel bulunmaması:** Rızaya bağlı alacaklar (TBK m. 144, m. 407/2) ve geçerli bir feragat (TBK m. 145) takası engeller.\n\n> **Örnek:** Ali, Bora'ya 50.000 TL borçludur; Ali'nin eşi Zeynep'in de Bora'dan 50.000 TL alacağı vardır. Ali eşinin alacağıyla takas yapamaz.\n\n> **Örnek:** Cem, Burak'tan muaccel 80.000 TL'yi Temmuz'da ister. Burak'ın Cem'den 50.000 TL alacağı 1 Eylül'de muaccel olacaktır. Burak Temmuz'da takas yapamaz.\n\n**Çekişmeli alacak (TBK m. 139/2):** Alacaklardan biri çekişmeli olsa bile takas ileri sürülebilir; yoksa borçlu, karşı alacağı inkâr ederek takastan kurtulurdu. Alacak yargılamada belirlenir; takas, alacak ispatlandığı ölçüde sonuç doğurur.\n\n> ⚠️ **Sınavda dikkat:** Alacakların **aynı sözleşmeden** doğması şart değildir. Kira alacağı ile satış bedeli alacağı da takas edilebilir.\n\n### 5.3 Takas beyanı ve sonuçları (TBK m. 143)\n- Takas **kendiliğinden** olmaz; borçlunun takas iradesini alacaklıya **bildirmesiyle** gerçekleşir (m. 143/1). Beyan, karşı tarafın kabulüne bağlı olmayan, ona ulaşmakla sonuç doğuran **bozucu yenilik doğuran** bir hakkın kullanılmasıdır. Kanun şekil aramaz.\n- **Geriye etki:** Beyanla iki borç, **takas edilebilecekleri anda** az olan tutarda sona erer (m. 143/1).\n- Cari hesapla ilgili ticarete ilişkin özel teamüller saklıdır (m. 143/2).\n\n> **Örnek:** Ali'nin Banu'dan 100.000 TL alacağı 1 Mart'ta, Banu'nun Ali'den 60.000 TL alacağı 1 Mayıs'ta muaccel olur. Banu 1 Ağustos'ta takas beyanında bulunur. İki borç 60.000 TL tutarında **1 Mayıs** itibarıyla sona ermiş sayılır. Banu temerrüdeyse 1 Mayıs'tan sonra faiz yalnız kalan 40.000 TL'ye işler.\n\n### 5.4 Zamanaşımına uğramış alacak (TBK m. 139/3)\nZamanaşımına uğramış alacak, **takas edilebileceği anda henüz zamanaşımına uğramamışsa** takas edilebilir. İki alacak karşı karşıya geldiğinde taraflar hesaplaşacaklarına güvenir; sonradan dolan zamanaşımı bu güveni bozmamalıdır.\n\n> **Örnek:** Kemal'in, Selin'e 1 Mart 2026'da peşin sattığı maldan doğan 300.000 TL alacağı aynı gün muaccel olur. Selin'in Kemal'den 100.000 TL ödünç alacağı 1 Nisan 2026'da zamanaşımına uğrar. 1 Mart'ta alacak henüz zamanaşımına uğramadığı için Selin Mayıs'ta da takas edebilir. Alacak 2024'te zamanaşımına uğramış olsaydı takas yapılamazdı.\n\n> ⚠️ **Sınavda dikkat:** Ölçüt beyan anı değil, **takas edilebilir duruma gelinen** andır.\n\n### 5.5 Özel durumlar\n**Kefalet hâlinde (TBK m. 140):** Asıl borçlunun takası ileri sürme hakkı bulundukça kefil de alacaklıya ödemeden kaçınabilir. Kefil, asıl borçlunun alacağıyla kendisi takas yapamaz, çünkü o alacak onun değildir; ama ödemeyi reddedebilir. Kendi alacağını ise şartlar varsa kefalet borcuyla takas edebilir. Kefilin def'ileri ayrıca TBK m. 591'de düzenlenir.\n\n> **Örnek:** Mehmet, oğlu Kaan'ın Tuncay'a olan 200.000 TL borcuna müteselsil kefildir. Kaan'ın Tuncay'dan 150.000 TL muaccel kira alacağı vardır. Tuncay Mehmet'e başvurursa Mehmet 150.000 TL için ödemeden kaçınabilir.\n\n**Üçüncü kişi yararına sözleşme hâlinde (TBK m. 141):** Üçüncü kişi yararına borçlanan kişi, bu borcunu sözleşmenin diğer tarafından olan alacağıyla takas edemez; borç üçüncü kişiye ifa edileceği için karşılıklılık yoktur. Arabasını Banu'ya satan Ali bedelin oğlu Can'a ödenmesini şart koşmuşsa, Banu Can'a ödeyeceği bedeli Ali'den olan alacağıyla takas edemez.\n\n**Borçlunun iflası hâlinde (TBK m. 142):** Alacaklılar, alacakları **muaccel olmasa bile** müflise olan borçlarıyla takas edebilir. İflasın açılması zaten, taşınmaz rehniyle güvenceli olanlar dışında müflisin borçlarını muaccel kılar (İİK m. 195). Böylece alacaklı, borcunu masaya tam ödeyip kendi alacağı için iflas payıyla yetinmek zorunda kalmaz. Ancak şu hâllerde takas yapılamaz (İİK m. 200):\n1. müflisin borçlusu iflas açıldıktan sonra müflisin alacaklısı olursa,\n2. müflisin alacaklısı iflas açıldıktan sonra müflisin ya da masanın borçlusu olursa,\n3. alacaklının alacağı hamile yazılı bir senede dayanıyorsa.\n\nMüflisin borçlusu, alacaklısının aciz hâlinde olduğunu bilerek masanın zararına takas yoluyla menfaat sağlamak için iflastan önce müflise karşı bir alacak yaratmışsa bu takasa da mahkemede itiraz edilebilir (İİK m. 201).\n\n**Alacağın devri ve müteselsil borçluluk:** Devirde borçlunun takas imkânı (TBK m. 188/2) ve müteselsil borçlulardan birinin takasının diğerlerine etkisi (TBK m. 166/1) ilgili konularda anlatılır.\n\n### 5.6 Alacaklının rızasıyla takas edilebilen alacaklar (TBK m. 144)\nBazı alacaklar mutlaka alacaklının eline geçmelidir. Şunlar **takas haklarının doğumundan sonra, ancak alacaklıların rızasıyla** takas edilebilir:\n1. tevdi edilmiş (saklanmak üzere bırakılmış) eşyanın geri verilmesine ya da bedeline ilişkin alacaklar,\n2. haksız olarak alınmış ya da aldatma sonucunda alıkonulmuş eşyanın geri verilmesine ya da bedeline ilişkin alacaklar,\n3. nafaka ve işçi ücreti gibi, borçlunun ve ailesinin bakımı için zorunlu olup özel niteliği gereği doğrudan alacaklıya verilmesi gereken alacaklar.\n\nRıza takas hakkı doğduktan **sonra** verilmelidir; önceden verilen rıza yetmez. Liste bu üç bentten ibarettir; örneğin kamu alacaklarına ilişkin bir bent yoktur.\n\n> **Örnek:** Boşandığı eşine her ay 10.000 TL nafaka ödeyen Erkan, eski eşinden olan 50.000 TL ödünç alacağını onun rızası olmadan nafaka borcuyla takas edemez.\n\n**İşçi ücreti (TBK m. 407/2):** \"Ücretin korunması\" başlıklı hükme göre işveren, işçiden olan alacağı ile ücret borcunu **işçinin rızası olmadıkça** takas edemez. Tek istisna: işçinin **kasten** sebebiyet verdiği, **yargı kararıyla sabit** bir zarardan doğan alacaklar ücretin **haczedilebilir kısmı** kadar takas edilebilir. Haczedilebilir kısım İİK m. 83'e göre belirlenir; İş Kanunu'na tabi işçide aylık ücretin dörtte birinden fazlası haczedilemez (İK m. 35, \"ücretin saklı kısmı\").\n\n> **Örnek:** Elif dikkatsizlikle 12.000 TL'lik bir tableti kırar; işveren ona sormadan bu tutarı Eylül ücretinden keser. Bu kesinti geçersiz bir takastır: zarar kasten verilmemiştir ve yargı kararıyla sabit değildir.\n\n### 5.7 Takastan feragat (TBK m. 145) ve kira istisnası (TBK m. 326)\nBorçlu takas hakkından **önceden de** feragat edebilir (TBK m. 145); örneğin satış sözleşmesine \"alıcı bedeli takas etmeyecektir\" kaydı konabilir. **İstisna:** \"Takastan feragat yasağı\" başlıklı TBK m. 326'ya göre kiracı ve kiraya veren, **kira sözleşmesinden doğan** alacaklarını takas etme hakkından önceden feragat edemez.\n\n> **Örnek:** Kiraya veren, sözleşmede üstlendiği 30.000 TL'lik tadilat bedelini kiracı Orhan'a ödemez. Sözleşmedeki \"kiracı kira bedelini hiçbir alacağıyla takas edemez\" kaydı bu alacak bakımından geçersizdir; Orhan takas edebilir.\n\n### 5.8 Takas davada ve icra takibinde\n**Davada:** Takas **def'i** olarak ya da **karşı davayla** ileri sürülebilir; karşı dava zorunlu değildir. Yargıtay'ın yerleşik uygulamasına göre takas bir def'idir ve taraf ileri sürmedikçe hâkim kendiliğinden dikkate almaz. Karşı alacak çekişmeli olsa da mahkeme onun varlığını ve miktarını araştırır; \"karşı alacak kesinleşmedikçe takas olmaz\" diyerek def'i incelememek hatalıdır.\n- **Zaman:** Def'i dilekçeler aşamasında ileri sürülmelidir. Dilekçeler karşılıklı verildikten sonra savunma genişletilemez; ıslah ve karşı tarafın açık muvafakati saklıdır (HMK m. 141).\n- **Fazlası:** Def'i, davacının alacağını azaltır ya da davanın reddini sağlar. Karşı alacağın aşan kısmı için hüküm isteniyorsa karşı dava gerekir; bunun için iki talep arasında takas veya mahsup ilişkisi ya da bağlantı bulunmalıdır (HMK m. 132/1-b).\n\n> 📌 **Kesin bilgi:** HMK m. 141 2020'de değişti: yazılı yargılama usulünde savunma, cevaba cevap ve ikinci cevap dilekçeleriyle serbestçe genişletilebilir; takas def'i en geç ikinci cevap dilekçesinde ileri sürülmelidir. Basit yargılama usulüne tabi davalarda (ör. sulh hukuk mahkemesinin görevine giren davalar, hizmet ilişkisinden doğan davalar: HMK m. 316/1) ise cevaba cevap ve ikinci cevap dilekçesi verilemez (HMK m. 317/3) ve savunmayı genişletme yasağı cevap dilekçesinin verilmesiyle başlar (HMK m. 319). Bu davalarda takas def'i cevap dilekçesinde ileri sürülmelidir.\n\n**İcra takibinde:**\n- İlamsız takipte borçlu, borcun takasla sona erdiğini ileri sürerek ödeme emrine itiraz edebilir; alacaklı itirazın iptali davası açarsa def'i orada ileri sürer.\n- Dar yetkili icra mahkemesinde, Yargıtay'a göre takas iddiası kural olarak ancak karşı alacak İİK m. 68'deki belgelere dayanıp bu alacak için yapılan takip kesinleşmişse ya da alacak bir ilama bağlanmışsa incelenebilir.\n- İlamlı takipte takas, İİK m. 33 anlamında bir **itfa** sebebidir; borçlu bu hükümdeki şartlarla icranın geri bırakılmasını isteyebilir. Karşı alacak ilama bağlıysa ilamın ya da takibin kesinleşmesi gerekmez.\n\n### 5.9 Takas ile mahsup\nUygulamada birlikte anılsalar da takas ile mahsup farklı kurumlardır:\n\n| | Takas | Mahsup |\n|---|---|---|\n| Kaç alacak var? | İki ayrı, bağımsız alacak | Tek alacak |\n| Nasıl işler? | Tek taraflı beyanla | Hesap işlemiyle |\n| Hâkim kendiliğinden gözetir mi? | Hayır | Evet |\n\n**Mahsup**, alacağı doğuran olayla bağlantılı olarak alacaklının elde ettiği yararların ya da borçlunun katlandığı külfetlerin **o alacaktan düşülmesidir**.\n\n> **Örnek:** İşçi Ali kıdem tazminatı ister; işveren, Ali'nin sebep olduğu 21.000 TL'lik kasa açığının tazminattan düşülmesini ister. Bu, başka bir olaydan doğan ayrı bir alacak olduğu için **takas def'idir**. Haksız fiilden zarar görenin aynı olaydan elde ettiği yararın zarar hesabında düşülmesi ise **mahsuptur**.\n\nTBK m. 100'deki \"mahsup\" ise kısmi ödemenin borcun hangi kısmına sayılacağı sorunudur (ifa konusunda). **Ödemezlik def'i** (TBK m. 97) borcu sona erdirmez, yalnız ifadan geçici olarak kaçınma imkânı verir (ayrı konu).\n\n## 6. Olay çözerken denetim şeması\n1. **Sona erme sebebi:** İbra, yenileme, birleşme ya da takas mı?\n2. **İbra:** İki taraflı anlaşma var mı, tam mı kısmi mi? İşçinin işverenden alacağıysa TBK m. 420'nin dört şartı var mı?\n3. **Yenileme:** Açık yenileme iradesi var mı? Yoksa bono, senet ya da yapılandırma yenileme değildir (TBK m. 133). Cari hesapta hesap kesilip sonuç kabul edildi mi (TBK m. 134)?\n4. **Birleşme:** Sıfatlar aynı kişide toplandı mı, üçüncü kişi hakkı var mı, birleşme geçmişe etkili olarak kalktı mı (TBK m. 135)?\n5. **Takas şartları:** karşılıklılık, aynı tür, muacceliyet, dava edilebilirlik; zamanaşımı (m. 139/3), çekişme (m. 139/2), rıza (m. 144, m. 407/2), feragat (m. 145, m. 326), özel durumlar (m. 140-142).\n6. **Beyan ve sonuç:** Beyan var mı, hangi andan ve hangi tutarda sonuç doğurur (m. 143)?\n7. **Yan haklar:** Rehin, kefalet, faiz ve ceza koşulu ne oldu, saklı tutma var mı (TBK m. 131)?\n8. **Usul:** Def'i zamanında mı, fazlası için karşı dava gerekir mi, icra takibinde mi ileri sürülüyor?",
+  "critical_md": "- 📌 Asıl borç ifa ya da başka bir sebeple sona erince rehin, kefalet, faiz ve ceza koşulu da sona erer. İşlemiş faiz ve ceza koşulu yalnız sözleşmeyle, ifa anına kadar yapılan bir bildirimle ya da durumdan anlaşılır biçimde saklı tutulmuşsa istenir (TBK m. 131).\n- 📌 İbra bir sözleşmedir ve şekle bağlı değildir; borcu doğuran işlem kanunen ya da taraflarca şekle bağlanmış olsa bile (TBK m. 132). Tamamen ya da kısmen yapılabilir.\n- 📌 İşçinin ibranamesi: yazılı olma, sözleşmenin sona ermesinden itibaren en az bir ay geçmesi, tür ve miktarın açıkça yazılması, noksansız ve banka aracılığıyla ödeme. Biri eksikse kesin hükümsüz (TBK m. 420/2).\n- ⚠️ Gerçek tutarı içermeyen ibraname, içerdiği miktarla sınırlı olarak makbuzdur; bunun için de ödeme banka aracılığıyla yapılmış olmalıdır (TBK m. 420/3). TBK m. 420 yalnız işçinin işverenden alacaklarına uygulanır.\n- 📌 Yenileme karine olarak kabul edilmez, tarafların açık iradesi gerekir. Bono, çek, yeni alacak senedi ya da yeni kefalet senedi tek başına yenileme sayılmaz (TBK m. 133).\n- ⚠️ Yalnız tutarı, vadeyi ya da ödeme planını değiştiren yapılandırma yenileme değildir. Yenilemeyi iddia eden ispatlar (TMK m. 6).\n- 📌 Cari hesaba kayıt yenileme değildir. Hesap kesilip sonuç diğer tarafça kabul edilince borç yenilenir; bir kalemin güvencesi, aksi kararlaştırılmadıkça sürer (TBK m. 134).\n- 📌 Alacaklı ve borçlu sıfatları birleşince borç sona erer. Üçüncü kişilerin önceki hakları etkilenmez; birleşme geçmişe etkili kalkarsa borç sürer (TBK m. 135).\n- 📌 Takas şartları: karşılıklılık, aynı tür (para ya da özdeş edim), muacceliyet, dava edilebilirlik; rızaya bağlı bir alacağın ve geçerli bir feragatin bulunmaması (TBK m. 139, m. 144-145). Alacakların aynı sözleşmeden doğması şart değildir.\n- ⚠️ Takas kendiliğinden olmaz, beyan gerekir. Beyanla borçlar, takas edilebilecekleri anda az olan tutarda sona erer (TBK m. 143).\n- ⚠️ Zamanaşımına uğramış alacakta ölçüt, takas edilebilir duruma gelinen anda zamanaşımının dolmamış olmasıdır, beyan anı değil (TBK m. 139/3). Çekişmeli alacakla da takas ileri sürülebilir (TBK m. 139/2).\n- 📌 Kefil, asıl borçlunun takas hakkı bulundukça ödemeden kaçınabilir (TBK m. 140). Üçüncü kişi yararına borçlanan, bu borcunu karşı taraftan olan alacağıyla takas edemez (TBK m. 141). İflasta muaccel olmayan alacakla da takas mümkündür (TBK m. 142), iflastan sonra edinilen alacakla değildir (İİK m. 200).\n- ⚠️ Tevdi edilen ya da haksız alınan eşya ile nafaka ve işçi ücreti gibi bakım alacakları, takas hakkı doğduktan sonra ancak alacaklının rızasıyla takas edilir (TBK m. 144). İşveren ücret borcunu işçinin rızası olmadan takas edemez; tek istisna kasten verilen, yargı kararıyla sabit zarar için ücretin haczedilebilir kısmıdır (TBK m. 407/2).\n- 📌 Takastan önceden feragat geçerlidir (TBK m. 145), ama kira sözleşmesinden doğan alacaklarda geçersizdir (TBK m. 326).\n- ⚠️ Takas def'i hâkimce kendiliğinden dikkate alınmaz ve dilekçeler aşamasında ileri sürülmelidir (HMK m. 141); basit yargılama usulünde cevap dilekçesinde (HMK m. 319). Karşı dava şart değildir, fazlası için gerekir. Mahsup ise aynı olaydan doğan kalemlerin hesaba katılmasıdır ve hâkim bunu kendiliğinden gözetir.",
+  "doctrine_md": "### Muacceliyet şartı: iki borç da muaccel mi olmalı?\nTBK m. 139/1 lafzen \"her iki borç muaccel ise\" der. Baskın görüş bu şartı ikiye ayırır. Takas edenin kendi alacağı (karşı alacak) mutlaka muaccel olmalıdır; aksi hâlde karşı taraf vadesinden önce ödemeye zorlanmış olur. Takas edenin borcu (asıl alacak) için ise ifa edilebilir olması yeterlidir. Çünkü borçlu, aksi kararlaştırılmadıkça edimini süreden önce ifa edebilir (TBK m. 96); takas eden de kendi borcunu erken ifa etmiş gibi olur. Yargıtay da takas edilecek alacağın muaccel, asıl alacağın ise ifa edilebilir olmasını yeterli gören kararlar vermiştir. Sınavda kanunun lafzını yazıp bu ayrımı ayrıca belirtmek en güvenlisidir.\n\n### Takas beyanı şarta bağlanabilir mi?\nYenilik doğuran haklar, karşı tarafı belirsizlik içinde bırakmamak için kural olarak şarta bağlanamaz. Takas beyanı da bu kurala tabidir. Ancak davalının \"borçlu değilim; mahkeme aksi kanaatteyse karşı alacağımla takas ediyorum\" biçimindeki **terditli (kademeli) takas def'i** uygulamada dinlenir. Gerekçe şudur: buradaki belirsizlik karşı tarafın iradesine değil, mahkemenin vereceği karara bağlıdır ve yargılamanın sonunda ortadan kalkar. Yargıtay da \"kabul anlamına gelmemek kaydıyla\" ileri sürülen takas def'ilerini esastan incelemektedir.\n\n### Yenilemede \"açık irade\" ne demektir?\nTBK m. 133/1, yenileme için tarafların \"açık iradesini\" arar. Bu ifade iki türlü okunabilir. Lafzi okumaya göre yenileme iradesi mutlaka açıkça, yani sözle ya da yazıyla beyan edilmelidir. Diğer okumaya göre \"açık\", \"şüpheye yer bırakmayan\" demektir. Yargıtay Hukuk Genel Kurulu ikinci yaklaşımı benimser: yenileme iradesi örtülü olarak da açıklanabilir, ama işlemin içeriğinden ya da işin özelliklerinden şüphesiz biçimde anlaşılmalıdır. İki yaklaşım şu noktada birleşir: şüphe hâlinde yenileme yoktur ve ispat yükü yenilemeyi iddia edendedir.",
+  "glossary": [
+   {
+    "term": "Yan (fer'i) haklar",
+    "definition": "Asıl borca bağlı ve ona hizmet eden haklar: rehin, kefalet, faiz, ceza koşulu. Asıl borç sona erince bunlar da sona erer (TBK m. 131)."
+   },
+   {
+    "term": "İbra",
+    "definition": "Alacaklı ile borçlu arasında yapılan, borcu tamamen ya da kısmen ortadan kaldıran ve şekle bağlı olmayan sözleşme (TBK m. 132)."
+   },
+   {
+    "term": "İbraname",
+    "definition": "İbra iradesini içeren belge. İşçinin işverenden alacaklarında TBK m. 420'deki şartları taşımazsa kesin hükümsüzdür."
+   },
+   {
+    "term": "Yenileme (tecdit)",
+    "definition": "Mevcut bir borcun, yerine yeni bir borç kurularak sona erdirilmesi. Tarafların açık iradesini gerektirir (TBK m. 133)."
+   },
+   {
+    "term": "Yapılandırma",
+    "definition": "Borcun tutarını, vadesini ya da ödeme planını değiştiren anlaşma. Açık yenileme iradesi yoksa yenileme değildir; borç değişikliklerle devam eder."
+   },
+   {
+    "term": "İfa amacıyla senet verme",
+    "definition": "Mevcut bir borç için bono ya da çek verilmesinin kural olarak borcu hemen sona erdirmemesi. Temel borç ile senet borcu yan yana durur; senet ödendikçe temel borç da sona erer."
+   },
+   {
+    "term": "Cari hesap",
+    "definition": "Karşılıklı alacak ve borç kalemlerinin bir hesaba yazılıp dönemsel olarak hesaplaştırıldığı ilişki. Hesap kesilip sonuç kabul edilince borç yenilenir (TBK m. 134)."
+   },
+   {
+    "term": "Birleşme",
+    "definition": "Alacaklı ve borçlu sıfatlarının aynı kişide toplanması. Borcu sona erdirir, üçüncü kişilerin önceki haklarını etkilemez (TBK m. 135)."
+   },
+   {
+    "term": "Takas",
+    "definition": "Karşılıklı, aynı türden ve muaccel iki borcun, taraflardan birinin beyanıyla az olan tutarda sona erdirilmesi (TBK m. 139, m. 143)."
+   },
+   {
+    "term": "Takas beyanı",
+    "definition": "Takas hakkını kullanan, karşı tarafa ulaşmakla sonuç doğuran tek taraflı irade açıklaması. Bozucu yenilik doğuran bir hakkın kullanılmasıdır."
+   },
+   {
+    "term": "Karşı alacak ve asıl alacak",
+    "definition": "Takas edenin kendi alacağı karşı alacak, onun borcu (karşı tarafın alacağı) asıl alacaktır."
+   },
+   {
+    "term": "Takas def'i",
+    "definition": "Davada ya da takipte borçlunun, borcunun takasla sona erdiğini ileri sürmesi. Hâkim kendiliğinden dikkate almaz."
+   },
+   {
+    "term": "Mahsup",
+    "definition": "Bir alacağı doğuran olayla bağlantılı yarar ve külfetlerin o alacaktan düşülmesi. Ayrı iki alacak yoktur; hâkim kendiliğinden gözetir."
+   },
+   {
+    "term": "Takastan feragat",
+    "definition": "Borçlunun takas hakkını kullanmayacağını kabul etmesi. Önceden de yapılabilir (TBK m. 145); kira sözleşmesinden doğan alacaklarda önceden yapılamaz (TBK m. 326)."
+   },
+   {
+    "term": "Ücretin saklı kısmı",
+    "definition": "İşçinin aylık ücretinin haczedilemeyen ve devredilemeyen kısmı. İş Kanunu'na göre aylık ücretin dörtte birinden fazlası haczedilemez (İK m. 35)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "131",
+   "official_text": "MADDE 131- Asıl borç ifa ya da diğer bir sebeple sona erdiği takdirde, rehin, kefalet, faiz ve ceza koşulu gibi buna bağlı hak ve borçlar da sona ermiş olur.\nİşlemiş faizin ve ceza koşulunun ifasını isteme hakkı sözleşmeyle veya ifa anına kadar yapılacak bir bildirimle saklı tutulmuş ise ya da durum ve koşullardan saklı tutulduğu anlaşılmaktaysa, bu faizler ve ceza koşulu istenebilir.\nTaşınmaz rehnine, kıymetli evraka ve konkordatoya ilişkin özel hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "132",
+   "official_text": "MADDE 132- Borcu doğuran işlem kanunen veya taraflarca belli bir şekle bağlı tutulmuş olsa bile borç, tarafların şekle bağlı olmaksızın yapacakları ibra sözleşmesiyle tamamen veya kısmen ortadan kaldırılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "133",
+   "official_text": "MADDE 133- Yeni bir borçla mevcut bir borcun sona erdirilmesi, ancak tarafların bu yöndeki açık iradesi ile olur.\nÖzellikle mevcut borç için kambiyo taahhüdünde bulunulması veya yeni bir alacak senedi ya da yeni bir kefalet senedi düzenlenmesi, tarafların açık yenileme iradeleri olmadıkça yenileme sayılmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "134",
+   "official_text": "MADDE 134- Çeşitli kalemlerin bir cari hesaba sadece kaydedilmiş olması, borcun yenilenmiş olduğu anlamına gelmez.\nAncak, hesabın kesilmiş ve hesap sonucu diğer tarafça kabul edilmiş olması durumunda, borç yenilenmiş olur.\nKalemlerden birinin güvencesi varsa, aksi kararlaştırılmadıkça, hesap kesilip sonucun kabul edilmiş olması, güvenceyi sona erdirmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "135",
+   "official_text": "MADDE 135- Alacaklı ve borçlu sıfatlarının aynı kişide birleşmesiyle borç sona erer. Ancak, üçüncü kişilerin alacak üzerinde önceden mevcut olan hakları birleşmeden etkilenmez.\nBirleşme geçmişe etkili olarak ortadan kalkarsa, borç varlığını sürdürür.\nTaşınmaz rehni ve kıymetli evraka ilişkin özel hükümler saklıdır.\nE. İfa imkânsızlığı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "139",
+   "official_text": "1. Genel olarak\nMADDE 139- İki kişi, karşılıklı olarak bir miktar para veya özdeş diğer edimleri birbirine borçlu oldukları takdirde, her iki borç muaccel ise her biri alacağını borcuyla takas edebilir.\nAlacaklardan biri çekişmeli olsa bile takas ileri sürülebilir.\nZamanaşımına uğramış bir alacağın takası, ancak takas edilebileceği anda henüz zamanaşımına uğramamış olması koşuluyla ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "140",
+   "official_text": "MADDE 140- Asıl borçlunun takası ileri sürme hakkı bulundukça, kefili de alacaklıya ifada bulunmaktan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "141",
+   "official_text": "MADDE 141- Üçüncü kişi yararına borçlanan kişi, bu borcu ile sözleşmenin diğer tarafından olan alacağını takas edemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "142",
+   "official_text": "MADDE 142- Borçlunun iflası hâlinde alacaklılar, muaccel olmasalar bile, alacaklarını, müflise olan borçları ile takas edebilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "143",
+   "official_text": "MADDE 143- Takas, ancak borçlunun takas iradesini alacaklıya bildirmesiyle gerçekleşir. Bu durumda her iki borç, takas edilebilecekleri anda daha az olan borç tutarınca sona erer.\nCari hesapla ilgili ticarete ilişkin özel teamüller saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "144",
+   "official_text": "MADDE 144- Aşağıdaki alacaklar takas haklarının doğumundan sonra, ancak alacaklıların rızasıyla takas edilebilir:\n1. Tevdi edilmiş eşyanın geri verilmesine veya bedeline ilişkin alacaklar.\n2. Haksız olarak alınmış veya aldatma sonucunda alıkonulmuş eşyanın geri verilmesine veya bedeline ilişkin alacaklar.\n3. Nafaka ve işçi ücreti gibi, borçlunun ve ailesinin bakımı için zorunlu olup, özel niteliği gereği, doğrudan alacaklıya verilmesi gereken alacaklar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "145",
+   "official_text": "MADDE 145- Borçlu, takas hakkından önceden de feragat edebilir.\nZamanaşımı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "6",
+   "official_text": "MADDE 6- Öneren, kanun veya işin özelliği ya da durumun gereği açık bir kabulü beklemek zorunda değilse, öneri uygun bir sürede reddedilmediği takdirde, sözleşme kurulmuş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "18",
+   "official_text": "MADDE 18- Borcun sebebini içermemiş olsa bile borç tanıması geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "90",
+   "official_text": "MADDE 90- İfa zamanı taraflarca kararlaştırılmadıkça veya hukuki ilişkinin özelliğinden anlaşılmadıkça her borç, doğumu anında muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "96",
+   "official_text": "MADDE 96- Sözleşmenin hükümlerinden veya özelliğinden ya da durumun gereğinden tarafların aksini kastettikleri anlaşılmadıkça borçlu, edimini sürenin sona ermesinden önce ifa edebilir. Ancak, kanun veya sözleşme ya da âdet gereği olmadıkça borçlu, erken ifada bulunması sebebiyle indirim yapamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "97",
+   "official_text": "MADDE 97- Karşılıklı borç yükleyen bir sözleşmenin ifası isteminde bulunan tarafın, sözleşmenin koşullarına ve özelliklerine göre daha sonra ifa etme hakkı olmadıkça, kendi borcunu ifa etmiş ya da ifasını önermiş olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "100",
+   "official_text": "MADDE 100- Borçlu, faiz veya giderleri ödemede gecikmemiş ise, kısmen yaptığı ödemeyi ana borçtan düşme hakkına sahiptir. Aksine anlaşma yapılamaz.\nAlacaklı, alacağın bir kısmı için kefalet, rehin veya başka bir güvence almış ise, borçlu kısmen yaptığı ödemeyi, güvence altına alınan veya güvencesi daha iyi olan kısma mahsup etme hakkına sahip değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "104",
+   "official_text": "MADDE 104- Faiz veya kira bedeli gibi dönemsel edimlerden biri için, alacaklı tarafından çekince belirtilmeksizin makbuz verilmişse, önceki dönemlere ait edimler de ifa edilmiş sayılır.\nAlacaklı anaparanın tamamı için makbuz vermişse, faizlerini de almış olduğu kabul edilir.\nBorç senedi borçluya geri verilmişse, borç sona ermiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "129",
+   "official_text": "MADDE 129- Kendi adına sözleşme yapan kişi, sözleşmeye üçüncü kişi yararına bir edim yükümlülüğü koydurmuşsa, edimin üçüncü kişiye ifa edilmesini isteyebilir.\nÜçüncü kişi veya üçüncü kişiye halef olanlar da, tarafların amacına veya örf ve âdete uygun düştüğü takdirde edimin ifasını isteyebilirler. Bu durumda, üçüncü kişi veya ona halef olanlar bu hakkı kullanmak istediklerini borçluya bildirdikten sonra, alacaklı borçluyu ibra edemeyeceği gibi, borcun nitelik ve kapsamını da değiştiremez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "136",
+   "official_text": "I. Genel olarak\nMADDE 136- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle imkânsızlaşırsa, borç sona erer.\nKarşılıklı borç yükleyen sözleşmelerde imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan almış olduğu edimi sebepsiz zenginleşme hükümleri uyarınca geri vermekle yükümlü olup, henüz kendisine ifa edilmemiş olan edimi isteme hakkını kaybeder. Kanun veya sözleşmeyle borcun ifasından önce doğan hasarın alacaklıya yükletilmiş olduğu durumlar, bu hükmün dışındadır.\nBorçlu ifanın imkânsızlaştığını alacaklıya gecikmeksizin bildirmez ve zararın artmaması için gerekli önlemleri almazsa, bundan doğan zararları gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "137",
+   "official_text": "II. Kısmi ifa imkânsızlığı\nMADDE 137- Borcun ifası borçlunun sorumlu tutulamayacağı sebeplerle kısmen imkânsızlaşırsa borçlu, borcunun sadece imkânsızlaşan kısmından kurtulur. Ancak, bu kısmi ifa imkânsızlığı önceden öngörülseydi taraflarca böyle bir sözleşmenin yapılmayacağı açıkça anlaşılırsa, borcun tamamı sona erer.\nKarşılıklı borç yükleyen sözleşmelerde, bir tarafın borcu kısmen imkânsızlaşır ve alacaklı kısmi ifaya razı olursa, karşı edim de o oranda ifa edilir. Alacaklının böyle bir ifaya razı olmaması veya karşı edimin bölünemeyen nitelikte olması durumunda, tam imkânsızlık hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "138",
+   "official_text": "MADDE 138- Sözleşmenin yapıldığı sırada taraflarca öngörülmeyen ve öngörülmesi de beklenmeyen olağanüstü bir durum, borçludan kaynaklanmayan bir sebeple ortaya çıkar ve sözleşmenin yapıldığı sırada mevcut olguları, kendisinden ifanın istenmesini dürüstlük kurallarına aykırı düşecek derecede borçlu aleyhine değiştirir ve borçlu da borcunu henüz ifa etmemiş veya ifanın aşırı ölçüde güçleşmesinden doğan haklarını saklı tutarak ifa etmiş olursa borçlu, hâkimden sözleşmenin yeni koşullara uyarlanmasını isteme, bu mümkün olmadığı takdirde sözleşmeden dönme hakkına sahiptir. Sürekli edimli sözleşmelerde borçlu, kural olarak dönme hakkının yerine fesih hakkını kullanır.\nBu madde hükmü yabancı para borçlarında da uygulanır.\nF. Takas",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "166",
+   "official_text": "2. Borcun sona ermesi\nMADDE 166- Borçlulardan biri, ifa veya takasla borcun tamamını veya bir kısmını sona erdirmişse, bu oranda diğer borçluları da borçtan kurtarmış olur.\nBorçlulardan biri, alacaklıya ifada bulunmaksızın borçtan kurtulmuşsa, diğer borçlular bundan, ancak durumun veya borcun niteliğinin elverdiği ölçüde yararlanabilirler.\nAlacaklının borçlulardan biriyle yaptığı ibra sözleşmesi, diğer borçluları da ibra edilen borçlunun iç ilişkideki borca katılma payı oranında borçtan kurtarır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "179",
+   "official_text": "MADDE 179- Bir sözleşmenin hiç veya gereği gibi ifa edilmemesi durumu için bir ceza kararlaştırılmışsa, aksi sözleşmeden anlaşılmadıkça alacaklı, ya borcun ya da cezanın ifasını isteyebilir.\nCeza, borcun belirlenen zaman veya yerde ifa edilmemesi durumu için kararlaştırılmışsa alacaklı, hakkından açıkça feragat etmiş veya ifayı çekincesiz olarak kabul etmiş olmadıkça, asıl borçla birlikte cezanın ifasını da isteyebilir.\nBorçlunun, kararlaştırılan cezayı ifa ederek sözleşmeyi, dönme veya fesih suretiyle sona erdirmeye yetkili olduğunu ispat etme hakkı saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "188",
+   "official_text": "MADDE 188- Borçlu, devri öğrendiği sırada devredene karşı sahip olduğu savunmaları, devralana karşı da ileri sürebilir.\nBorçlu, devri öğrendiği anda muaccel olmayan alacağını, devredilen alacaktan önce veya onunla aynı anda muaccel olması koşuluyla borcu ile takas edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "201",
+   "official_text": "MADDE 201- Borca katılma, mevcut bir borca borçlunun yanında yer almak üzere, katılan ile alacaklı arasında yapılan ve katılanın, borçlu ile birlikte borçtan sorumlu olması sonucunu doğuran bir sözleşmedir.\nBorca katılan ile borçlu, alacaklıya karşı müteselsilen sorumlu olurlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "326",
+   "official_text": "MADDE 326- Kiracı ve kiraya veren, kira sözleşmesinden doğan alacaklarını takas etme hakkından önceden feragat edemezler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "407",
+   "official_text": "MADDE 407- Çalıştırılan işçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkaktan o ay içinde ödenenlerin özel olarak açılan banka hesabına yatırılmak suretiyle ödenmesi hususunda; tabi olduğu vergi mükellefiyeti türü, işletme büyüklüğü, çalıştırdığı işçi sayısı, işyerinin bulunduğu il ve benzeri unsurları dikkate alarak iş sahiplerini zorunlu tutmaya, banka hesabına yatırılacak ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakın, brüt ya da kanuni kesintiler düşüldükten sonra kalan net miktar üzerinden olup olmayacağını belirlemeye Cumhurbaşkanlığı yetkilidir. Çalıştırdığı işçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakını özel olarak açılan banka hesapları vasıtasıyla ödeme zorunluluğuna tabî tutulan iş sahipleri, işçilerinin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkakını özel olarak açılan banka hesapları dışında ödeyemezler. Her ödeme döneminde, işçiye hesap pusulası verilir. İşçilerin ücret, prim, ikramiye ve bu nitelikteki her çeşit istihkaklarının özel olarak açılan banka hesabına yatırılmak suretiyle ödenmesine ilişkin diğer ûsul ve esaslar, anılan bakanlıklarca müştereken çıkarılacak yönetmelikle düzenlenir.[5]\nİşveren, işçiden olan alacağı ile ücret borcunu işçinin rızası olmadıkça takas edemez. Ancak, işçinin kasten sebebiyet verdiği yargı kararıyla sabit bir zarardan doğan alacaklar, ücretin haczedilebilir kısmı kadar takas edilebilir.\nÜcretin işveren lehine kullanılacağına ilişkin anlaşmalar geçersizdir.\n[5] 2/7/2018 tarihli ve 700 sayılı Kanun Hükmünde Kararnamenin 190 ıncı maddesiyle bu fıkrada yer alan “Çalışma ve Sosyal Güvenlik Bakanlığı, Maliye Bakanlığı ve Hazine Müsteşarlığından sorumlu Devlet Bakanlığı müştereken” ibaresi “Cumhurbaşkanlığı” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "420",
+   "official_text": "MADDE 420- Hizmet sözleşmelerine sadece işçi aleyhine konulan ceza koşulu geçersizdir.\nİşçinin işverenden alacağına ilişkin ibra sözleşmesinin yazılı olması, ibra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak en az bir aylık sürenin geçmiş bulunması, ibra konusu alacağın türünün ve miktarının açıkça belirtilmesi, ödemenin hak tutarına nazaran noksansız ve banka aracılığıyla yapılması şarttır. Bu unsurları taşımayan ibra sözleşmeleri veya ibraname kesin olarak hükümsüzdür.\nHakkın gerçek tutarda ödendiğini ihtiva etmeyen ibra sözleşmeleri veya ibra beyanını muhtevi diğer ödeme belgeleri, içerdikleri miktarla sınırlı olarak makbuz hükmündedir. Bu hâlde dahi, ödemelerin banka aracılığıyla yapılmış olması zorunludur.\nİkinci ve üçüncü fıkra hükümleri, destekten yoksun kalanlar ile işçinin diğer yakınlarının isteyebilecekleri dâhil, hizmet sözleşmesinden doğan bütün tazminat alacaklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "591",
+   "official_text": "c. Def’iler\nMADDE 591- Kefil, asıl borçluya veya mirasçılarına ait olan ve asıl borçlunun ödeme güçsüzlüğünden doğmayan bütün def’ileri alacaklıya karşı ileri sürme hakkına sahip olduğu gibi, bunları ileri sürmek zorundadır. Yanılma veya sözleşme yapma ehliyetsizliği ya da zamanaşımına uğramış bir borç sebebiyle borçlunun yükümlü olmadığı bir borca bilerek kefalet hâli bu hükmün dışındadır.\nAsıl borçlu kendisine ait olan bir def’iden vazgeçmiş olsa bile kefil, yine de bu def’iî alacaklıya karşı ileri sürebilir.\nKefil, asıl borçluya ait def’ilerin varlığını bilmeksizin ödemede bulunursa, rücu hakkına sahip olur. Buna karşılık asıl borçlu, kefilin bu def’ileri bildiğini veya bilmesi gerektiğini ispat ederse kefil, bunlar ileri sürülmüş olsaydı ödemeden kurtulacağı ölçüde rücu hakkını kaybeder.\nKumar veya bahisten doğan bir borca kefalette kefil, borcun bu niteliğini bilmiş olsa bile, asıl borçlunun sahip olduğu def’ileri ileri sürebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "604",
+   "official_text": "A. Alacağın dava ve takip edilememesi\nMADDE 604- Kumar ve bahisten doğan alacak hakkında dava açılamaz ve takip yapılamaz.\nKumar veya bahis için bilerek verilen avanslar ve ödünç paralar ile kumar ve bahis niteliğinde oldukları takdirde, borsada işlem gören malların, yabancı paraların ve kıymetli evrakın fiyat farkı esası üzerine yapılan vadeli satışlar hakkında da aynı hüküm uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "33",
+   "official_text": "İcranın geri bırakılması:\nMadde 33 – (Değişik: 18/2/1965-538/17 md.)\nİcra emrinin tebliği üzerine borçlu yedi gün içinde dilekçe ile icra mahkemesine başvurarak borcun zamanaşımına uğradığı veya imhal veya itfa edildiği itirazında bulunabilir. İtfa veya imhal iddiası yetkili mercilerce re’sen yapılmış veya usulüne göre tasdik edilmiş yahut icra dairesinde veya icra mahkemesinde veya mahkeme önünde ikrar olunmuş senetle tevsik edildiği takdirde icra geri bırakılır.\nİcra emrinin tebliğinden sonraki devrede tahakkuk etmiş itfa, imhal, veya zamanaşımına dayanan geri bırakma istekleri her zaman yapılabilir. Bunlardan itfa veya imhale dayanan istekler mutlaka noterlikçe re’sen yapılmış veya tasdik olunmuş belgelere veya icra zaptına istinat ettirilmelidir.\nİcra mahkemesi, geri bırakılma talebini reddettiği takdirde borçlu ancak istinaf veya temyiz yoluna başvuru süresi içinde alacağı karşılıyacak nakit veya icra mahkemesince kabul edilecek taşınır rehin veya esham veya tahvilat veya taşınmaz rehni yahut muteber bir banka kefaleti göstermek şartiyle istinaf veya temyiz yoluna başvurabilir. Borçlunun yeter malı mahcuz ise veya borçlunun talebi üzerine istinaf veya temyiz yoluna başvuru süresi içinde yeter malı haczedilmişse bu fıkrada yazılı teminatı göstermeye lüzum yoktur.[20]\nBorçlu olmadığı parayı ödemek mecburiyetinde kalan borçlunun 72 nci madde mucibince istirdat davası açarak paranın geriye verilmesini istemek hakkı saklıdır.\nİlamın zamanaşımına uğradığı iddiası:\n[20] 2/3/2005 tarihli ve 5311 sayılı Kanunun 4 üncü maddesiyle, bu fıkrada yer alan “temyiz süresi” ibareleri, “istinaf veya temyiz yoluna başvuru süresi”; “temyiz yoluna gidebilir.” İbaresi “istinaf veya temyiz yoluna başvurabilir.” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "68",
+   "official_text": "Madde 68 – (Değişik: 18/2/1965-538/38 md.)\n(Değişik birinci fıkra: 17/7/2003-4949/16 md.) Talebine itiraz edilen alacaklının takibi, imzası ikrar veya noterlikçe tasdik edilen borç ikrarını içeren bir senede yahut resmî dairelerin veya yetkili makamların yetkileri dahilinde ve usulüne göre verdikleri bir makbuz veya belgeye müstenitse, alacaklı itirazın kendisine tebliği tarihinden itibaren altı ay içinde itirazın kaldırılmasını isteyebilir. Bu süre içerisinde itirazın kaldırılması istenilmediği takdirde yeniden ilâmsız takip yapılamaz.\nBorçlu itirazını varit gösterecek hiçbir belge ibraz edemezse icra mahkemesi itirazın kaldırılmasına karar verir.\nİtiraz birinci fıkrada gösterilen senet veya makbuz yahut belgeye müstenit ise itirazın kaldırılması talebi reddolunur.\nBorçlu murisine ait bir alacak için takibedilmekte olup da, terekenin borca batık olduğunu ileri sürerse bu hususta ilam getirmesi için kendisine münasip bir mühlet verilir. Bunun dışında itirazın kaldırılması talebinin kabul veya reddi için ileri sürülen iddia ve savunmalar bekletici mesele yapılamaz.\n(Değişik: 9/11/1988-3494/2 md.) Borçlunun gösterdiği belge altındaki imza alacaklı tarafından inkar edilirse hakim, 68/a maddesinde yazılı usule göre yaptığı inceleme neticesinde imzanın alacaklıya ait olduğuna kanaat getirdiği takdirde alacaklının itirazın kaldırılması talebini reddeder ve alacaklıyı sözü edilen belgenin taalluk ettiği değer veya miktarın yüzde onu oranında para cezasına mahkum eder. Alacaklı genel mahkemede dava açarsa bu para cezasının infazı dava sonuna kadar tehir olunur ve alacaklı bu davada alacağını ve imzanın kendisine ait olmadığını ispat ederse bu ceza kalkar.\nAlacaklı duruşmada bizzat bulunmayıp da imza vekili tarafından reddolunduğu takdirde vekil mütaakıp oturumda müvekkilini imza tatbikatı için hazır bulundurmaya veya masraflarını vererek davetiye tebliğ ettirmeye mecburdur. Kabule değer mazereti olmadan gelmiyen alacaklı borçlunun dayandığı belgede yazılı miktar hakkındaki itirazın kaldırılması talebinden vazgeçmiş sayılır.\n(Ek fıkra: 6/6/1985-3222/6 md.; Değişik: 9/11/1988-3494/2 md.) (Değişik birinci cümle: 17/7/2003-4949/16 md.) İtirazın kaldırılması talebinin esasa ilişkin nedenlerle kabulü hâlinde borçlu, talebin aynı nedenlerle reddi hâlinde ise alacaklı, diğer tarafın talebi üzerine yüzde yirmiden aşağı olmamak üzere tazminata mahkûm edilir. Borçlu, menfi tespit ve istirdat davası açarsa, yahut alacaklı genel mahkemede dava açarsa, hükmolunan tazminatın tahsili dava sonuna kadar tehir olunur ve dava lehine sonuçlanan taraf için, daha önce hükmedilmiş olan tazminat kalkar.[29]\n[29] 2/7/2012 tarihli ve 6352 sayılı Kanunun 12 nci maddesiyle, bu fıkrada yer alan “yüzde kırktan” ibaresi “yüzde yirmiden” şeklinde değiştirilmiştir.\n[30] Bu madde başlığı “c) İtirazın muvakkaten kaldırılması suretiyle:” iken, 17/7/2003 tarihli ve 4949 sayılı Kanunun 17 inci maddesiyle “c) İtirazın geçici olarak kaldırılması:” olarak değiştirilmiştir.\n[31] 2/7/2012 tarihli ve 6352 sayılı Kanunun 13 üncü maddesiyle, bu fıkrada yer alan “yüzde kırktan” ibaresi “yüzde yirmiden” şeklinde değiştirilmiştir.\n[32] 17/7/2003 tarihli ve 4949 sayılı Kanunun 18 inci maddesiyle; ikinci fıkrada yer alan “aldığı” ibaresi, “gönderilen” olarak değiştirilmiş; üçüncü fıkraya “hesap özetleri ile” ibaresinden sonra gelmek üzere “ihtarnameler ve” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "83",
+   "official_text": "Kısmen haczi caiz olan şeyler:\nMadde 83 – (Değişik: 3/7/1940-3890/1 md.)\nMaaşlar, tahsisat ve her nevi ücretler, intifa hakları ve hasılatı, ilama müstenit olmayan nafakalar, tekaüt maaşları, sigortalar veya tekaüt sandıkları tarafından tahsis edilen iratlar, borçlu ve ailesinin geçinmeleri için icra memurunca lüzumlu olarak takdir edilen miktar tenzil edildikten sonra haczolunabilir.\n(Değişik: 12/4/1968 – 1045/1 md.) Ancak haczolunacak miktar bunların dörtte birinden az olamaz. Birden fazla haciz var ise sıraya konur. Sırada önde olan haczin kesintisi bitmedikçe sonraki haciz için kesintiye geçilemez.\nÖnceden yapılan anlaşmalar:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "195",
+   "official_text": "Müflisin borçlarının muacceliyet kesbetmesi:\nMadde 195 – Borçlunun gayri taşınır mallarının rehni suretiyle temin edilmiş olan alacaklar müstesna olmak üzere iflasın açılması müflisin borçlarını muaccel kılar. İflasın açıldığı güne kadar işlemiş faiz ile takip masrafları anaya zammolunur.\n(Değişik: 9/11/1988-3494/41 md.) Müflisin vadesi gelmemiş faizsiz borçlarından yıllık kanuni faiz hesabıyla iskonto yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "200",
+   "official_text": "Takas:\nMadde 200 – Alacaklı alacağını müflisin kendinde olan alacağı ile takas edebilir. Aşağıdaki hallerde takas yapılamaz.\n1 – Müflisin borçlusu iflas açıldıktan sonra müflisin alacaklısı olursa;\n2 – Müflisin alacaklısı iflas açıldıktan sonra müflisin veya masanın borçlusu olursa;\n3 – Alacaklının alacağı hamile muharer bir senede müstenit ise.\n(Değişik: 29/6/1956-6763/42 md.) Anonim, limited ve kooperatif şirketlerin iflasları halinde esas mukavele gereğince verilmesi lazımgelen hisse senedi bedellerinin henüz ödenmemiş olan kısımları veya konması taahhüt edilen ve fakat konmamış olan sermayeler bu şirketlerin borçlariyle takas edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "201",
+   "official_text": "Takasa itiraz:\nMadde 201 – Müflisin borçlusu iflasın açılmasından evvel alacaklısının aciz halinde bulunduğunu bilerek masanın zararına kendisine veya üçüncü bir şahsa takas suretiyle bir menfaat temin etmek için müflise karşı bir alacak ihdas ederse bu takasa mahkemede itiraz olunabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İŞ KANUNU",
+   "law_no": "4857",
+   "article_no": "35",
+   "official_text": "Ücretin saklı kısmı\nMadde 35 - İşçilerin aylık ücretlerinin dörtte birinden fazlası haczedilemez veya başkasına devir ve temlik olunamaz. Ancak, işçinin bakmak zorunda olduğu aile üyeleri için hakim tarafından takdir edilecek miktar bu paraya dahil değildir. Nafaka borcu alacaklılarının hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "132",
+   "official_text": "Karşı dava açılabilmesinin şartlarıMADDE 132- (1) Karşı dava açılabilmesi için;a) Asıl davanın açılmış ve hâlen görülmekte olması,b) Karşı davada ileri sürülecek olan talep ile asıl davada ileri sürülen talep arasında takas veya mahsup ilişkisinin bulunması yahut bu davalar arasında bağlantının mevcut olması,şarttır.(2) Belirtilen bu şartlar gerçekleşmeden karşı dava açılacak olursa, mahkeme, talep üzerine yahut resen, karşı davanın asıl davadan ayrılmasına; gerekiyorsa dosyanın görevli mahkemeye gönderilmesine karar verir.(3) Karşı davaya karşı, dava açılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "141",
+   "official_text": "MADDE 141- (1) (Değişik:22/7/2020-7251/15 md.) Taraflar, cevaba cevap ve ikinci cevap dilekçeleri ile serbestçe iddia veya savunmalarını genişletebilir yahut değiştirebilirler. Dilekçelerin karşılıklı verilmesinden sonra iddia veya savunma genişletilemez yahut değiştirilemez.\n(2) İddia ve savunmanın genişletilip değiştirilmesi konusunda ıslah ve karşı tarafın açık muvafakati hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "316",
+   "official_text": "Basit yargılama usulüne tabi dava ve işler\nMADDE 316- (1) Basit yargılama usulü, kanunlarda açıkça belirtilenler dışında, aşağıdaki durumlarda uygulanır:\na) Sulh hukuk mahkemelerinin görevine giren dava ve işler.\nb) Doğrudan dosya üzerinden karar vermek konusunda kanunun mahkemeye takdir hakkı tanıdığı dava ve işler.\nc) İhtiyati tedbir, ihtiyati haciz, delil tespiti gibi geçici hukuki koruma talepleri ile deniz raporlarının alınması, dispeççi atanması talepleri ve bunlara karşı yapılacak olan itirazlar.\nç) Her çeşit nafaka davaları ile velayet ve vesayete ilişkin dava ve işler.\nd) Hizmet ilişkisinden doğan davalar.\ne) Konkordato ve sermaye şirketleri veya kooperatiflerin uzlaşma suretiyle yeniden yapılandırılmasına ilişkin açılacak davalar.\nf) Tahkim hükümlerine göre, mahkemenin görev alanına giren dava ve işler.\ng) Diğer kanunlarda yer alan ve yazılı yargılama usulü dışındaki yargılama usullerinin uygulanacağı belirtilen dava ve işler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "317",
+   "official_text": "MADDE 317- (1) Dava açılması ve davaya cevap verilmesi dilekçe ile olur.\n(2) Cevap süresi, dava dilekçesinin davalıya tebliğinden itibaren iki haftadır. Ancak mahkeme durum ve koşullara göre cevap dilekçesinin bu süre içinde hazırlanmasının çok zor yahut imkânsız olduğu durumlarda, yine bu süre zarfında mahkemeye başvuran davalıya, cevap süresinin bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak ve iki haftayı geçmemek üzere ek bir süre verebilir. Ek cevap süresi talebi hakkında verilen karar taraflara derhâl bildirilir.[36]\n(3) Taraflar cevaba cevap ve ikinci cevap dilekçesi veremezler.\n(4) Dava ve cevap dilekçeleri yönetmelikte belirlenecek formun doldurulması suretiyle de verilebilir.\n[36] 22/7/2020 tarihli ve 7251 sayılı Kanunun 31 inci maddesiyle, bu fıkrada yer alan “davalıya, bir defaya mahsus” ibaresi “davalıya, cevap süresinin bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "319",
+   "official_text": "İddia ve savunmanın genişletilmesi veya değiştirilmesi yasağı\nMADDE 319- (1) İddianın genişletilmesi veya değiştirilmesi yasağı dava açılmasıyla; savunmanın genişletilmesi veya değiştirilmesi yasağı cevap dilekçesinin mahkemeye verilmesiyle başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2019/267",
+   "karar_no": "2021/1463",
+   "decision_date": "18.11.2021",
+   "summary_md": "Hastane kantininde çalışan davacı işçi, iş sözleşmesinin haksız feshedildiğini ileri sürerek kıdem ve ihbar tazminatı ile yıllık izin ve fazla çalışma ücreti istemiştir. Davalı işveren davanın reddini savunmuş, mahkeme aksi kanaatteyse davacının kasada sebep olduğu 21.000 TL'lik açıktan doğan zararın takas ve mahsubunu istemiştir. İş mahkemesi, ancak kesinleşmiş alacakların takasa konu olabileceğini, bu alacağın yargılama gerektirdiğini ve ayrıca dava açılmadığını belirterek takas-mahsup talebini yerinde görmemiş ve davayı kısmen kabul etmiş; Özel Daire bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını bozmuştur. Kurula göre takasta iki ayrı alacak tek taraflı beyanla az olanı tutarında sona erer; mahsupta ise ayrı bir alacak yoktur, alacağı doğuran olayla bağlantılı yarar ya da külfetler alacaktan düşülür ve hâkim bunu kendiliğinden gözetir. Takas karşı davayla ileri sürülmek zorunda değildir, ilke olarak süresinde verilen cevap dilekçesinde def'i olarak ileri sürülür ve çekişmeli alacakla da yapılabilir. İşveren ayrı bir hukuki ilişkiden (kasa açığı) alacak iddia ettiği için talep takastır; mahkeme açığın varlığını, miktarını ve davacının sorumluluğunu araştırmalıdır. Konuya katkısı: takas def'inin davada nasıl ileri sürüleceğini ve mahsuptan farkını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=724743100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2018/642",
+   "karar_no": "2020/372",
+   "decision_date": "09.06.2020",
+   "summary_md": "Davacı işçi, işçilik alacakları için başlattığı takibe itiraz edilmesi üzerine itirazın iptali davası açmıştır. İşveren, fesihten yaklaşık üç ay sonra imzalanan bir \"ibraname ve feragatname\" ile aynı tarihli makbuza dayanarak alacakların ödendiğini savunmuştur. İş mahkemesi belgeleri ödenen kıdem ve ihbar tazminatı tutarları yönünden makbuz sayıp bu tutarları alacaktan düşmüş; Yargıtay 9. Hukuk Dairesi, ödeme banka aracılığıyla yapılmadığı için ibranamenin TBK m. 420'ye aykırı ve hükümsüz olduğunu belirterek bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını bozmuştur. Kurula göre yazılı olma, bir aylık sürenin geçmesi ve alacak türü ile miktarının belirtilmesi şartları gerçekleşmiştir, ama ödeme banka aracılığıyla yapılmamıştır; işçi de belgeleri ödeme yapılacağı söylendiği için imzaladığını ve kendisine ödeme yapılmadığını beyan etmiştir. Bu nedenle ibraname ve onun eki niteliğindeki makbuz kesin olarak hükümsüzdür ve içerdikleri tutarlar alacaktan düşülemez. Konuya katkısı: TBK m. 420'deki şartların birlikte arandığını ve banka şartının makbuz etkisi için de vazgeçilmez olduğunu gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=602851300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "3. Hukuk Dairesi",
+   "esas_no": "2024/3166",
+   "karar_no": "2025/3699",
+   "decision_date": "30.06.2025",
+   "summary_md": "Bir süt işletmesine ilişkin katılım sözleşmesinden alacaklı olduğunu ileri süren davacı, başlattığı takibe itiraz edilmesi üzerine itirazın iptali davası açmıştır. Dava sürerken davacı ile davaya taraf olmayan bir kişi arasında \"borç yapılandırma sözleşmesi\" imzalanmıştır: bu kişi bir çek verecek, kalan 185.000 TL için ipotek kuracak, ödeme yapılınca davalıların sorumluluğu kalmayacak, borç ödenmezse kalan borçtan bu kişi sorumlu olacaktı. İlk derece mahkemesi davayı reddetmiş, bölge adliye mahkemesi de bu sözleşmeyle borcun yenilendiğini ve davalıların sorumluluğunun sona erdiğini kabul ederek istinaf başvurusunu esastan reddetmiştir. Yargıtay 3. Hukuk Dairesi, bölge adliye mahkemesi kararını kaldırıp ilk derece kararını bozmuştur. Gerekçeye göre yenileme ancak tarafların açık iradesiyle olur (TBK m. 133/1); borçta değişiklik öngören bir anlaşma karine olarak yenileme sayılmaz ve yenileme niyeti ispatlanmadıkça borç, yapılan değişikliklerle birlikte devam eder. Sözleşmede açık bir yenileme iradesi bulunmadığından borcu üstlenen kişinin durumu borca katılmadır (TBK m. 201); asıl borçluların borcu sona ermemiştir ve davalıların yaptığı ödemeler araştırılmalıdır. Konuya katkısı: yapılandırma ile yenilemenin farkını ve yenileme karinesinin bulunmadığını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1160908800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/1882",
+   "karar_no": "2021/754",
+   "decision_date": "15.06.2021",
+   "summary_md": "Aynı mahkeme ilamından doğan karşılıklı alacaklar için taraflar birbirleri aleyhine ilamlı takip başlatmıştır. Kendisine karşı başlatılan takipte borçlu olan Hazine, kendi takibine konu vekâlet ücreti alacağıyla takas yapılmasını icra mahkemesinden istemiştir. İcra mahkemesi, takas için karşılıklı takiplerin kesinleşmiş olması gerektiğini, Hazine aleyhine başlatılan takipte ilam temyiz edilip mehil verildiği için bu şartın gerçekleşmediğini belirterek istemi reddetmiş; Özel Daire, ilamdan doğan alacakların takası için ilamın kesinleşmesinin gerekmediğini belirterek bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu'na göre takas bozucu yenilik doğuran bir haktır ve beyan karşı tarafa ulaşınca sonuç doğurur. Dar yetkili icra mahkemesinde takas iddiası kural olarak karşı alacak İİK m. 68'deki belgelere dayanıp bu alacak için yapılan takip kesinleşmişse ya da alacak ilama bağlanmışsa incelenebilir; takas İİK m. 33 anlamında bir itfa sebebidir ve ilama bağlı alacakla takas için ilamın ya da takibin kesinleşmesi gerekmez. Ancak takasa dayanak ilam sonradan Yargıtay'ca bozulduğu için şikâyet konusuz kalmış, direnme kararı bu değişik gerekçeyle bozulmuştur. Konuya katkısı: icra takibinde takasın hangi koşullarla ileri sürülebileceğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=686555300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Kerem, Selin'den aldığı 100.000 TL ödünç borcunu iki ay gecikmeyle ödemiştir. Selin parayı hiçbir çekince koymadan almıştır. Sözleşmede faize ilişkin bir saklı tutma kaydı yoktur, durumdan da böyle bir irade anlaşılmamaktadır. Selin daha sonra işlemiş temerrüt faizini isterse hangisi doğrudur?",
+   "options": [
+    "İsteyemez; asıl borç sona erince işlemiş faiz ancak sözleşmeyle, ifa anına kadar yapılan bir bildirimle ya da durumdan anlaşılacak biçimde saklı tutulmuşsa istenebilir.",
+    "İsteyebilir, çünkü TBK m. 131 yalnız rehin ve kefaleti kapsar, faizi kapsamaz.",
+    "İsteyebilir, ancak ödemeden sonraki bir ay içinde ihtar etmesi şartıyla.",
+    "İsteyebilir, çünkü işlemiş faiz asıl borçtan bağımsız ayrı bir alacaktır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 131/1'e göre asıl borç ifa ya da başka bir sebeple sona erince faiz ve ceza koşulu gibi yan haklar da sona erer. TBK m. 131/2, işlemiş faizin ancak sözleşmeyle, ifa anına kadar yapılan bir bildirimle ya da durumdan anlaşılacak biçimde saklı tutulmuşsa istenebileceğini söyler. Olayda bunların hiçbiri yoktur. Anaparanın tamamı için makbuz verilmişse faizlerin de alındığı kabul edilir (TBK m. 104/2)."
+  },
+  {
+   "stem_md": "Tamer, Nuri'ye karşı geçerli bir kefalet sözleşmesiyle kefil olmuştur. Nuri, Tamer'e e-postayla \"Seni kefaletten kurtarıyorum\" yazmış, Tamer de cevaben bunu kabul ettiğini bildirmiştir. Nuri daha sonra, kefalet yazılı şekle bağlı olduğu için ibranın da aynı şekilde yapılması gerektiğini ileri sürmektedir. Hangisi doğrudur?",
+   "options": [
+    "Kefaletten kurtarma ancak asıl borçlunun da katılmasıyla mümkündür.",
+    "İbra, borcu doğuran işlemin şekline tabi olduğundan geçersizdir.",
+    "İbra ancak noterde yapılırsa geçerlidir.",
+    "Borcu doğuran işlem kanunen şekle bağlı olsa bile ibra şekle bağlı değildir; ibra geçerlidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 132'ye göre borcu doğuran işlem kanunen ya da taraflarca belli bir şekle bağlı tutulmuş olsa bile borç, tarafların şekle bağlı olmaksızın yapacakları ibra sözleşmesiyle tamamen ya da kısmen ortadan kaldırılabilir. İbra, alacaklı ile ibra edilen borçlu (burada kefil) arasındaki bir sözleşmedir; asıl borçlunun katılması gerekmez."
+  },
+  {
+   "stem_md": "İş sözleşmesi 1 Haziran'da sona eren Murat, 20 Haziran'da işverenine bir ibraname vermiştir. İbranamede kıdem tazminatının türü ve tutarı açıkça yazılıdır ve tutarın tamamı aynı gün Murat'ın banka hesabına yatırılmıştır. İbranamenin geçerliliği hakkında hangisi doğrudur?",
+   "options": [
+    "İptal edilebilir; Murat bir yıl içinde iptal etmezse geçerli hâle gelir.",
+    "Ödeme banka aracılığıyla ve noksansız yapıldığı için geçerlidir.",
+    "Geçerlidir, çünkü bir aylık süre yalnız iş sözleşmesini işçi feshettiğinde aranır.",
+    "Sözleşmenin sona ermesinden itibaren en az bir aylık süre geçmeden yapıldığı için kesin olarak hükümsüzdür."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 420/2 işçinin işverenden alacağına ilişkin ibra için dört şartı birlikte arar: yazılı olma, ibra tarihi itibarıyla sözleşmenin sona ermesinden başlayarak en az bir aylık sürenin geçmesi, alacağın türü ve miktarının açıkça belirtilmesi, ödemenin noksansız ve banka aracılığıyla yapılması. Bu unsurları taşımayan ibraname kesin olarak hükümsüzdür; iptal edilebilirlik söz konusu değildir. Süre şartı, sözleşmeyi kimin feshettiğine göre değişmez."
+  },
+  {
+   "stem_md": "Gerçek kıdem tazminatı alacağı 200.000 TL olan işçi Sena'ya işveren, iş sözleşmesinin sona ermesinden iki ay sonra banka aracılığıyla 120.000 TL ödemiş ve ona \"Tüm alacaklarımı aldım, işvereni ibra ederim\" yazan bir belge imzalatmıştır. Belgede alacağın türü ve 120.000 TL tutarı yazılıdır. Hangisi doğrudur?",
+   "options": [
+    "Belge kesin hükümsüz olduğundan 120.000 TL de Sena'nın alacağından düşülemez.",
+    "Belge, Sena'nın imzasını taşıdığı için ancak bir irade sakatlığı ispatlanırsa geçersiz sayılır.",
+    "Belge hakkın gerçek tutarda ödendiğini içermediği için 120.000 TL ile sınırlı olarak makbuz hükmündedir; Sena kalan 80.000 TL'yi isteyebilir.",
+    "Belge ibra olarak geçerlidir; Sena başka bir şey isteyemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Ödeme hak tutarına göre noksansız yapılmadığı için belge, ibra olarak TBK m. 420/2'nin şartlarını taşımaz. Ancak TBK m. 420/3'e göre hakkın gerçek tutarda ödendiğini içermeyen ibra sözleşmeleri ve ödeme belgeleri, içerdikleri miktarla sınırlı olarak makbuz hükmündedir. Bunun için ödemenin banka aracılığıyla yapılması gerekir; olayda bu şart vardır. Bu yüzden 120.000 TL düşülür, Sena kalan 80.000 TL'yi isteyebilir."
+  },
+  {
+   "stem_md": "X Ltd. Şti., işçisi Hakan'a verdiği 40.000 TL'lik ödüncün 15.000 TL'sinden, Hakan hâlâ çalışırken e-postayla vazgeçmiş, Hakan da bunu kabul etmiştir. Bu ibra hakkında hangisi doğrudur?",
+   "options": [
+    "Ancak noterde düzenlenen bir belgeyle geçerli olur.",
+    "İş sözleşmesi sona ermeden yapıldığı için TBK m. 420 uyarınca kesin hükümsüzdür.",
+    "TBK m. 420 yalnız işçinin işverenden alacaklarına ilişkin ibrayı düzenler; bu ibra şekle bağlı olmaksızın geçerlidir.",
+    "Ödeme banka aracılığıyla yapılmadığı için geçersizdir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 420/2'deki şartlar, işçinin işverenden alacağına ilişkin ibra sözleşmesi için öngörülmüştür. Burada ibra edilen, işverenin işçiden olan ödünç alacağıdır. Bu durumda genel kural uygulanır: ibra şekle bağlı değildir (TBK m. 132). Hakan'ın ödünç borcu 25.000 TL'ye iner."
+  },
+  {
+   "stem_md": "Mevcut bir satış bedeli borcu için alıcının satıcıya bono vermesi hakkında hangisi doğrudur?",
+   "options": [
+    "Bono verilmesiyle satış bedeli borcu kendiliğinden sona erer, yerine bono borcu geçer.",
+    "Bono, vadesi satış bedelinin vadesinden sonraysa kendiliğinden yenileme sayılır.",
+    "Tarafların açık yenileme iradesi yoksa yenileme sayılmaz; satış bedeli borcu devam eder.",
+    "Bono verilmesi her zaman yenilemedir, ancak satış bedeline bağlı güvenceler sürer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 133/1'e göre yeni bir borçla mevcut bir borcun sona erdirilmesi ancak tarafların bu yöndeki açık iradesiyle olur. TBK m. 133/2, mevcut borç için kambiyo taahhüdünde bulunulmasının açık yenileme iradesi olmadıkça yenileme sayılmayacağını özellikle belirtir. Bono kural olarak ifa amacıyla verilmiş sayılır; temel borç ile bono borcu yan yana durur."
+  },
+  {
+   "stem_md": "Nail'in Ozan'a olan 500.000 TL borcu, Nail'in Ozan'a teslim ettiği bir rehinle güvence altındadır. Ödeme güçlüğü çeken Nail ile Ozan, borcun on aylık taksitlerle ödenmesini öngören bir \"yapılandırma protokolü\" imzalar. Protokolde eski borcun sona erdiğine dair bir ifade yoktur. Hangisi doğrudur?",
+   "options": [
+    "Yalnız ödeme planı değiştirildiği ve açık yenileme iradesi bulunmadığı için yenileme yoktur; borç ve ona bağlı rehin devam eder.",
+    "Protokol yenilemedir, ancak rehin TBK m. 134 gereğince yeni borca kendiliğinden geçer.",
+    "Protokolle borç yenilenmiştir; bu yüzden rehin sona ermiştir.",
+    "Protokol geçersizdir, çünkü yenileme ancak noterde yapılabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yenileme karine olarak kabul edilmez; tarafların açık iradesi gerekir (TBK m. 133/1). Yargıtay'ın yerleşik uygulamasına göre borcun yalnız vadesini ya da ödeme biçimini değiştiren bir yapılandırma yenileme değildir; borç değişikliklerle birlikte devam eder. Asıl borç sona ermediği için ona bağlı rehin de sona ermez (TBK m. 131/1). TBK m. 134 cari hesaplara ilişkin bir hükümdür."
+  },
+  {
+   "stem_md": "Cari hesapla çalışan Ahmet ile Burcu'dan Ahmet yıl sonunda hesabı kesmiş, Burcu da hesap sonucunu kabul etmiştir. Hesaptaki kalemlerden birine kefalet güvencesi verilmişti; taraflar güvence hakkında ayrıca bir şey kararlaştırmamıştır. Hangisi doğrudur?",
+   "options": [
+    "Hesabın kesilip sonucun kabulüyle borç yenilenmiştir; aksi kararlaştırılmadığı için kalemin güvencesi sona ermez.",
+    "Borç yenilenmiştir ve TBK m. 131 gereğince kefalet de kendiliğinden sona ermiştir.",
+    "Hesabın kesilmesi yenileme sayılmaz; yenileme ancak bakiye için bono verilirse olur.",
+    "Kalemlerin hesaba kaydedildiği anda borç yenilenmiş, kefalet o anda sona ermiştir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 134/1'e göre kalemlerin cari hesaba sadece kaydedilmesi yenileme anlamına gelmez. Hesap kesilip hesap sonucu diğer tarafça kabul edilince borç yenilenmiş olur (m. 134/2). Ancak kalemlerden birinin güvencesi varsa, aksi kararlaştırılmadıkça hesabın kesilip sonucun kabul edilmesi güvenceyi sona erdirmez (m. 134/3). Bu, yan hakların asıl borçla birlikte sona ereceği genel kuralın (TBK m. 131) istisnasıdır."
+  },
+  {
+   "stem_md": "Barış'ın müteselsil kefil olduğu bir satış bedeli borcu için alacaklı Selim ile borçlu Tuna, \"Satış bedeli borcu sona ermiş, yerine bu bonolardan doğan borç geçmiştir\" diyen bir protokol imzalar. Barış protokole katılmamıştır. Tuna bonoları ödemezse hangisi doğrudur?",
+   "options": [
+    "Selim, Barış'a kefil sıfatıyla başvurabilir; çünkü kefalet yeni borca da kendiliğinden geçer.",
+    "Kambiyo taahhüdü hiçbir durumda yenileme sayılmadığından kefalet devam eder.",
+    "Açık yenileme iradesiyle eski borç sona erdiği için ona bağlı kefalet de sona ermiştir; Selim Barış'a başvuramaz.",
+    "Barış ancak bonoların vadesi geldikten sonra sorumluluktan kurtulur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 133/2'ye göre kambiyo taahhüdü, açık yenileme iradesi bulunmadığı sürece yenileme sayılmaz. Olayda taraflar eski borcun sona erdiğini açıkça kararlaştırmıştır; bu bir yenilemedir (TBK m. 133/1). Asıl borç sona erince ona bağlı kefalet de sona erer (TBK m. 131/1). Kefaletin yeni borca taşınması için kefilin katılımı gerekirdi."
+  },
+  {
+   "stem_md": "Ahmet, babası Hilmi'ye 300.000 TL borçludur. Hilmi bu alacağını, kendi kredi borcu için bankaya rehnetmiştir. Hilmi ölür ve tek mirasçısı Ahmet'tir. Hangisi doğrudur?",
+   "options": [
+    "Alacaklı ve borçlu sıfatları birleştiği için borç sona erer; ancak bankanın alacak üzerinde önceden kurulmuş rehin hakkı birleşmeden etkilenmez.",
+    "Borç ancak Ahmet mirası kabul ettiğini noterde beyan ederse sona erer.",
+    "Borç sona erer ve bankanın rehin hakkı da kendiliğinden ortadan kalkar.",
+    "Ahmet'in borcu aynen devam eder, çünkü mirasla birleşme olmaz."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 135/1'e göre alacaklı ve borçlu sıfatlarının aynı kişide birleşmesiyle borç sona erer. Aynı fıkraya göre üçüncü kişilerin alacak üzerinde önceden mevcut olan hakları birleşmeden etkilenmez. Bu yüzden bankanın rehin hakkı korunur."
+  },
+  {
+   "stem_md": "Takasın şartları arasında **aranmayan** hangisidir?",
+   "options": [
+    "Takas eden tarafın alacağının muaccel olması",
+    "İki alacağın aynı sözleşmeden doğmuş olması",
+    "Tarafların karşılıklı olarak birbirinden alacaklı ve birbirine borçlu olması",
+    "Borçların bir miktar para ya da özdeş edimlere ilişkin olması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 139/1 karşılıklılık, aynı türden edim (para ya da özdeş edim) ve muacceliyet arar. Alacakların aynı sözleşmeden ya da aynı hukuki ilişkiden doğması şart değildir; örneğin bir kira alacağı ile bir satış bedeli alacağı da takas edilebilir. Aynı sözleşmeden doğan karşılıklı edimlerle ilgili kurum ödemezlik def'idir (TBK m. 97)."
+  },
+  {
+   "stem_md": "Ali'nin Banu'dan 100.000 TL alacağı 1 Mart'ta, Banu'nun Ali'den 60.000 TL alacağı 1 Mayıs'ta muaccel olmuştur. Banu 1 Ağustos'ta takas beyanında bulunur. Hangisi doğrudur?",
+   "options": [
+    "Beyanla iki borç, takas edilebilecekleri an olan 1 Mayıs itibarıyla 60.000 TL tutarında sona ermiş sayılır.",
+    "Takas 1 Mayıs'ta kendiliğinden gerçekleşmiştir; beyana gerek yoktu.",
+    "İki borç 1 Ağustos itibarıyla, yalnız ileriye etkili olarak sona erer.",
+    "Beyan ancak Ali kabul ederse sonuç doğurur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 143/1'e göre takas ancak takas iradesinin karşı tarafa bildirilmesiyle gerçekleşir; kendiliğinden olmaz ve karşı tarafın kabulüne bağlı değildir. Beyan yapılınca iki borç, takas edilebilecekleri anda daha az olan borç tutarınca sona erer. Takas edilebilir an, iki borcun da muaccel olduğu 1 Mayıs'tır."
+  },
+  {
+   "stem_md": "Selin'in Kemal'den 80.000 TL'lik ödünç alacağı, taraflar arasında tartışmasız biçimde 1 Şubat 2024'te zamanaşımına uğramıştır. Kemal'in, Selin'e 1 Mart 2026'da peşin olarak yaptığı satıştan doğan 300.000 TL'lik bedel alacağı ise aynı gün muaccel olmuştur. Kemal bedeli dava edince Selin bu ödünç alacağıyla takas beyanında bulunur. Hangisi doğrudur?",
+   "options": [
+    "Takas yapılabilir; çünkü zamanaşımına uğramış alacak eksik borç olarak varlığını sürdürür.",
+    "Takas yapılabilir; yeter ki takas beyanı dava açılmadan önce yapılmış olsun.",
+    "Takas yapılamaz; zamanaşımına uğramış bir alacakla hiçbir koşulda takas yapılamaz.",
+    "Takas yapılamaz; iki alacak takas edilebilir hâle geldiğinde Selin'in alacağı zaten zamanaşımına uğramıştı."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 139/3'e göre zamanaşımına uğramış bir alacağın takası, ancak takas edilebileceği anda henüz zamanaşımına uğramamış olması koşuluyla ileri sürülebilir. İki alacak ilk kez 1 Mart 2026'da karşı karşıya gelmiştir; Selin'in alacağı ise bundan önce zamanaşımına uğramıştı. Kural mutlak bir yasak da değildir: takas edilebilir anda zamanaşımı dolmamış olsaydı, sonradan dolması takası engellemezdi."
+  },
+  {
+   "stem_md": "Mehmet, oğlu Kaan'ın Tuncay'a olan 200.000 TL borcuna müteselsil kefildir. Kaan'ın Tuncay'dan 150.000 TL'lik muaccel bir kira alacağı vardır ve Kaan henüz takas beyanında bulunmamıştır. Tuncay doğrudan Mehmet'ten 200.000 TL isterse hangisi doğrudur?",
+   "options": [
+    "Mehmet, Kaan'ın takas hakkı bulundukça 150.000 TL'lik kısım için ödemeden kaçınabilir.",
+    "Mehmet 200.000 TL'nin tamamını ödemek zorundadır; takas yalnız asıl borçluyu ilgilendirir.",
+    "Mehmet, Kaan'ın alacağını kendi adına takas ederek kefalet borcunu sona erdirebilir.",
+    "Mehmet ancak Kaan iflas etmişse ödemeden kaçınabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 140'a göre asıl borçlunun takası ileri sürme hakkı bulundukça kefil de alacaklıya ifada bulunmaktan kaçınabilir. Kefil, alacak kendisine ait olmadığı için Kaan'ın alacağıyla takas yapamaz; karşılıklılık Kaan ile Tuncay arasındadır. Ama Kaan'ın takas hakkı ölçüsünde ödemeyi reddedebilir."
+  },
+  {
+   "stem_md": "Defne A.Ş., iflas eden Akın Ltd. Şti.'ye 600.000 TL borçludur. Defne'nin Akın'dan, iflastan önce ve Akın'ın mali durumu iyiyken verdiği, vadesi henüz gelmemiş 150.000 TL'lik bir ödünç alacağı vardır. Defne ayrıca iflas açıldıktan sonra bir tedarikçinin Akın'dan olan 90.000 TL alacağını satın almıştır. Defne hangi alacağını borcuyla takas edebilir?",
+   "options": [
+    "Hiçbirini; iflas açıldıktan sonra takas tümüyle yasaktır.",
+    "Yalnız 90.000 TL'lik alacağını; çünkü ödünç alacağı muaccel değildir.",
+    "Her iki alacağını da; iflasta takas bir sınıra tabi değildir.",
+    "Yalnız 150.000 TL'lik ödünç alacağını; iflasta muaccel olmayan alacak da takas edilebilir, ama iflastan sonra edinilen alacakla takas yapılamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 142'ye göre borçlunun iflası hâlinde alacaklılar, muaccel olmasalar bile alacaklarını müflise olan borçlarıyla takas edebilir. İİK m. 200/1'e göre ise müflisin borçlusu iflas açıldıktan sonra müflisin alacaklısı olursa takas yapılamaz. Defne, 90.000 TL'lik alacağı iflastan sonra edindiği için bu alacakla takas yapamaz."
+  },
+  {
+   "stem_md": "TBK m. 144'e göre aşağıdaki alacaklardan hangisi, takas hakkı doğduktan sonra ancak alacaklının rızasıyla takas edilebilir?",
+   "options": [
+    "Kira bedeli alacağı",
+    "Ödünç verilen paranın geri ödenmesine ilişkin alacak",
+    "Satış bedeli alacağı",
+    "Saklanmak üzere bırakılan eşyanın geri verilmesine ya da bedeline ilişkin alacak"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 144 üç grup sayar: tevdi edilmiş eşyanın geri verilmesine ya da bedeline ilişkin alacaklar; haksız olarak alınmış ya da aldatma sonucunda alıkonulmuş eşyanın geri verilmesine ya da bedeline ilişkin alacaklar; nafaka ve işçi ücreti gibi bakım için zorunlu alacaklar. Satış bedeli, kira bedeli ve ödünç alacakları bu listede yer almaz; genel şartlarla takas edilebilir."
+  },
+  {
+   "stem_md": "Mağazada çalışan Elif, dikkatsizlikle 12.000 TL değerindeki bir tableti kırmıştır. İşveren, Elif'in rızasını almadan bu tutarı Eylül ücretinden kesmiştir. Hangisi doğrudur?",
+   "options": [
+    "Kesinti geçerlidir, yeter ki ücretin dörtte birini aşmasın.",
+    "Kesinti geçerlidir; işçinin kusuruyla verdiği her zarar ücretten takas edilebilir.",
+    "Kesinti geçersizdir; işveren ücret borcunu işçinin rızası olmadan takas edemez, istisna yalnız kasten verilen ve yargı kararıyla sabit zarar için ücretin haczedilebilir kısmı kadardır.",
+    "Kesinti geçersizdir; ücret alacağı hiçbir durumda takas edilemez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 407/2'ye göre işveren, işçiden olan alacağı ile ücret borcunu işçinin rızası olmadıkça takas edemez. Ancak işçinin kasten sebebiyet verdiği, yargı kararıyla sabit bir zarardan doğan alacaklar ücretin haczedilebilir kısmı kadar takas edilebilir. Olayda zarar dikkatsizlikle verilmiştir ve yargı kararı yoktur. Ücretle takas mutlak olarak yasak da değildir; işçinin rızası ya da bu istisna varsa mümkündür."
+  },
+  {
+   "stem_md": "Bir kira sözleşmesine \"Kiracı, kira bedelini kiraya verenden olan alacaklarıyla takas etmeyecektir\" kaydı konmuştur. Kiraya veren, sözleşmede üstlendiği 30.000 TL'lik tadilat bedelini muaccel olduğu hâlde kiracıya ödememiştir. Kiracı bu alacağını kira borcuyla takas etmek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Kayıt geçerlidir; çünkü borçlu takas hakkından önceden feragat edebilir.",
+    "Kayıt yalnız konut kiralarında geçersizdir, öteki kiralarda geçerlidir.",
+    "Kayıt, kira sözleşmesinden doğan alacaklar bakımından geçersizdir; kiracı takas edebilir.",
+    "Kayıt geçerlidir, ancak kiracı kiraya verenin rızasını alırsa takas edebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 145 takas hakkından önceden feragati kural olarak mümkün kılar. Ancak TBK m. 326'ya göre kiracı ve kiraya veren, kira sözleşmesinden doğan alacaklarını takas etme hakkından önceden feragat edemez. Hüküm kira sözleşmesinin genel hükümleri arasındadır, konut kiralarıyla sınırlı değildir."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulu'nun takas ile mahsup ayrımına göre hangisi doğrudur?",
+   "options": [
+    "Mahsup da takas gibi yenilik doğuran bir haktır ve yalnız taraf ileri sürerse dikkate alınır.",
+    "Mahsupta ayrı ve bağımsız iki alacak yoktur; alacağı doğuran olayla bağlantılı yarar ya da külfetler alacaktan düşülür ve hâkim bunu kendiliğinden gözetir.",
+    "Takas ve mahsup aynı kurumun iki farklı adıdır.",
+    "Takas yalnız aynı olaydan doğan kalemler arasında, mahsup ise farklı hukuki ilişkilerden doğan alacaklar arasında yapılır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Hukuk Genel Kurulu'na göre takasta karşılıklı iki ayrı alacak vardır ve biri tek taraflı beyanla diğerine karşı düşürülür; taraf ileri sürmedikçe hâkim dikkate almaz. Mahsup ise alacağın net miktarını bulmaya yarayan bir hesap işlemidir: alacağı doğuran olayla bağlantılı yarar ve külfetler alacaktan düşülür ve hâkim bunu kendiliğinden gözetir. Bu yüzden işverenin, işçinin kıdem tazminatına karşı kasa açığından doğan ayrı bir alacağı ileri sürmesi takastır."
+  },
+  {
+   "stem_md": "İlamlı bir icra takibinde borçlu, alacaklıya karşı bir mahkeme ilamına bağlanmış alacağı bulunduğunu ve bu alacakla takas ettiğini ileri sürmektedir. İlam henüz kesinleşmemiştir. Yargıtay Hukuk Genel Kurulu'nun yaklaşımına göre hangisi doğrudur?",
+   "options": [
+    "Takas iddiası ancak genel mahkemede açılacak bir menfi tespit davasıyla ileri sürülebilir.",
+    "Takas, İİK m. 33 anlamında bir itfa sebebidir; ilama bağlı alacakla takas için ilamın kesinleşmesi gerekmez.",
+    "İlam kesinleşmedikçe takas iddiası icra mahkemesinde incelenemez.",
+    "İlamlı takipte borçlu takas iddiasında bulunamaz; yalnız ödeme belgesi sunabilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Hukuk Genel Kurulu'na göre takas, İİK m. 33 anlamında itfa terimine dahildir; borçlu icra mahkemesinden icranın geri bırakılmasını isteyebilir. Karşı alacak bir ilama bağlıysa takasa konu edilebileceği tartışmasızdır; bunun için ilamın ya da takibin kesinleşmesi gerekmez ve ilamlı takipte takas iddiası icra mahkemesinde her zaman ileri sürülebilir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Toptancı Kemal, 1 Mart 2026'da market sahibi Selin'e 300.000 TL'lik mal satıp teslim etmiştir. Bedel teslimle birlikte, aynı gün ödenecekti. Selin'in kardeşi Murat, bu borca geçerli bir sözleşmeyle müteselsil kefil olmuştur.\n\nSelin'in de Kemal'den üç alacağı vardır:\n- 2014'te verdiği 80.000 TL ödünç. Taraflar, bu alacağın 1 Şubat 2024'te zamanaşımına uğradığı konusunda uyuşmaktadır.\n- 2016'da verdiği 100.000 TL ödünç. Taraflar, bu alacağın 1 Nisan 2026'da zamanaşımına uğradığı konusunda uyuşmaktadır.\n- Kasım 2025'te Kemal'in malları boşaltırken dükkânın vitrinini kırdığını ileri sürdüğü 40.000 TL'lik tazminat alacağı. Kemal olayı inkâr etmektedir.\n\nSelin bedeli ödemeyince Kemal, Mayıs 2026'da Selin aleyhine 300.000 TL için dava açar. Selin süresinde verdiği cevap dilekçesinde üç alacağıyla da takas ettiğini bildirir. Kemal, \"Ödünç alacaklarının ikisi de zamanaşımına uğradı, vitrin iddiası da çekişmeli; üstelik Selin karşı dava açmadı\" diyerek takasa karşı çıkar. Kemal aynı zamanda Murat'a da başvurarak 300.000 TL'nin tamamını ister.\n\n1. Selin hangi alacaklarıyla takas yapabilir?\n2. Takas hangi andan itibaren ve hangi tutarda sonuç doğurur?\n3. Kemal'in usule ilişkin itirazları yerinde midir?\n4. Murat, Kemal'in talebine karşı ne ileri sürebilir?",
+   "rubric": [
+    {
+     "point": "Takasın genel şartlarının (karşılıklılık, para borcu, muacceliyet) saptanması; alacakların farklı ilişkilerden doğmasının engel olmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 139"
+    },
+    {
+     "point": "2014 ödüncüyle takasın yapılamaması, 2016 ödüncüyle takasın mümkün olması; ölçütün takas edilebilir duruma gelinen an olması",
+     "weight": 25,
+     "madde_ref": "TBK m. 139"
+    },
+    {
+     "point": "Çekişmeli vitrin alacağıyla takasın ileri sürülebilmesi ve mahkemenin alacağı araştırması",
+     "weight": 15,
+     "madde_ref": "TBK m. 139"
+    },
+    {
+     "point": "Takasın beyanla ve 1 Mart 2026'ya geri etkili olarak az olan tutarda sonuç doğurması; kalan tutarın hesabı",
+     "weight": 15,
+     "madde_ref": "TBK m. 143"
+    },
+    {
+     "point": "Takas def'inin cevap dilekçesinde zamanında ileri sürülmesi; karşı davanın gerekmemesi",
+     "weight": 15,
+     "madde_ref": "HMK m. 141"
+    },
+    {
+     "point": "Kefil Murat'ın asıl borçlunun takas hakkı ölçüsünde ödemeden kaçınabilmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 140"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Kemal ile Selin arasında satış sözleşmesinden doğan 300.000 TL'lik bir para borcu vardır. Selin'in Kemal'den ödünç ve haksız fiilden doğan para alacakları bulunmaktadır. Selin cevap dilekçesinde takas beyanında bulunarak bozucu yenilik doğuran bir hakkı kullanmıştır. Murat, satış bedeli borcunun müteselsil kefilidir.\n\n**Hukuki sorunlar:** (1) Selin'in üç alacağı takas şartlarını taşıyor mu, özellikle zamanaşımına uğramış iki alacak ve çekişmeli vitrin alacağı bakımından? (2) Takas hangi andan itibaren, hangi tutarda sonuç doğurur? (3) Def'in ileri sürülme biçimi ve zamanı uygun mu? (4) Kefil Murat ne ileri sürebilir?\n\n**İlgili hükümler:** TBK m. 139 (şartlar, çekişmeli alacak, zamanaşımı), m. 140 (kefalet), m. 143 (beyan ve sonuç), m. 131 (yan haklar); HMK m. 141 ve 132.\n\n**Değerlendirme:**\n1. *Genel şartlar:* Taraflar karşılıklı olarak birbirinden alacaklıdır ve bütün alacaklar paradır. Kemal'in alacağı satışla birlikte 1 Mart 2026'da doğmuş ve aynı gün muaccel olmuştur. Selin'in ödünç alacakları çoktan muacceldir; vitrin alacağı da zararın doğduğu Kasım 2025'ten beri muacceldir. Alacakların farklı hukuki ilişkilerden doğması takasa engel değildir.\n2. *2014 ödüncü:* Zamanaşımına uğramış alacak, ancak takas edilebileceği anda henüz zamanaşımına uğramamışsa takas edilebilir (TBK m. 139/3). İki alacak ilk kez 1 Mart 2026'da karşı karşıya gelmiştir. Bu alacak ise 1 Şubat 2024'te zamanaşımına uğramıştı. Takas yapılamaz; Kemal'in bu yöndeki itirazı yerindedir.\n3. *2016 ödüncü:* 1 Mart 2026'da bu alacak henüz zamanaşımına uğramamıştı; zamanaşımı 1 Nisan 2026'da dolmuştur. Belirleyici olan beyan anı değil, takas edilebilir duruma gelinen andır. Selin'in Mayıs 2026'daki beyanı geçerlidir; Kemal'in itirazı yerinde değildir.\n4. *Vitrin alacağı:* Kemal'in inkârı takası engellemez. Alacaklardan biri çekişmeli olsa bile takas ileri sürülebilir (TBK m. 139/2). Mahkeme vitrinin Kemal tarafından kırılıp kırılmadığını ve zararın miktarını araştırmalıdır. Takas, alacak ispatlandığı ölçüde sonuç doğurur.\n5. *Sonucun zamanı ve tutarı:* Beyanla iki borç, takas edilebilecekleri an olan 1 Mart 2026 itibarıyla az olan tutarda sona ermiş sayılır (TBK m. 143/1). 2016 ödüncü nedeniyle Kemal'in alacağı 100.000 TL azalır. Vitrin alacağı tamamen ispatlanırsa 40.000 TL daha azalır. Kalan alacak 160.000 TL, vitrin alacağı ispatlanamazsa 200.000 TL'dir. Takas 1 Mart'a geri etkili olduğundan sona eren kısım için temerrüt faizi de işlemez.\n6. *Usul itirazları:* Takas def'i süresinde verilen cevap dilekçesinde, yani dilekçeler aşamasında ileri sürülmüştür; savunmanın genişletilmesi yasağına takılmaz (HMK m. 141). Dava basit yargılama usulüne tabi olsaydı da sonuç değişmezdi; bu usulde yasak cevap dilekçesinin verilmesiyle başlar ve def'i o dilekçede ileri sürülmüştür (HMK m. 319). Takası karşı davayla ileri sürmek zorunlu değildir. Karşı dava ancak Selin, karşı alacaklarının Kemal'in alacağını aşan kısmı için hüküm isteseydi gerekirdi (HMK m. 132). Burada Selin'in takas ettiği alacaklar Kemal'in alacağından azdır. Bu itiraz yerinde değildir.\n7. *Murat'ın durumu:* Asıl borçlunun takası ileri sürme hakkı bulundukça kefil de alacaklıya ifada bulunmaktan kaçınabilir (TBK m. 140). Murat, Selin'in alacaklarıyla kendisi takas yapamaz. Ama 2016 ödüncü ve ispatlanırsa vitrin alacağı ölçüsünde ödemeden kaçınabilir. Selin takas beyanında bulunduğu için asıl borç da bu ölçüde sona ermiştir; kefalet asıl borca bağlı olduğundan Murat'ın sorumluluğu da o ölçüde azalır (TBK m. 131/1). 2014 ödüncüne ise dayanamaz, çünkü Selin'in bu alacakla takas hakkı yoktur.\n\n**Sonuç:**\n- 2014 ödüncüyle takas yapılamaz. 2016 ödüncüyle takas geçerlidir. Vitrin alacağıyla takas, alacak ispatlandığı ölçüde geçerlidir.\n- Takas 1 Mart 2026'ya geri etkili olarak sonuç doğurur. Kemal'in alacağı 160.000 TL'ye, vitrin alacağı ispatlanamazsa 200.000 TL'ye iner.\n- Def'i zamanında ileri sürülmüştür ve karşı dava gerekmez.\n- Murat, kalan tutardan fazlasını ödemekten kaçınabilir."
+  },
+  {
+   "stem_md": "Ayşe, 2020'den beri Doğa Market A.Ş.'de kasiyer olarak çalışmaktadır. Ocak 2026'da işverenden 30.000 TL ödünç almış; bu borca ağabeyi Kerem geçerli bir kefalet sözleşmesiyle kefil olmuştur. Şubat 2026'da insan kaynakları müdürü Ayşe'ye e-postayla \"Şirketimiz ödünç borcunuzun 10.000 TL'sinden vazgeçmiştir\" yazmış, Ayşe de \"Teşekkür ederim, kabul ediyorum\" diye cevap vermiştir.\n\nMart 2026'da Ayşe dikkatsizlikle 6.000 TL değerindeki bir barkod okuyucuyu düşürüp kırmıştır. İşveren, Ayşe'ye sormadan bu tutarı ve ödünç borcunun bir taksiti olarak 5.000 TL'yi Mart ücretinden kesmiştir. Ayşe kesintiye hemen itiraz etmiştir.\n\nİş sözleşmesi 15 Nisan 2026'da işverence feshedilmiştir. 25 Nisan 2026'da Ayşe'ye \"Kıdem tazminatım olan 90.000 TL'yi ve tüm alacaklarımı aldım, işvereni ibra ederim\" yazan bir belge imzalatılmış, belgede ödemenin elden yapıldığı yazılmıştır. Ödemenin banka aracılığıyla yapıldığına dair hiçbir kayıt yoktur ve Ayşe bu parayı hiç almadığını söylemektedir. Ayşe, kıdem tazminatı ve Mart ücretinden yapılan kesinti için dava açmıştır. İşveren belgeye dayanmakta, ayrıca ödünç borcunun tamamı olan 30.000 TL için Kerem'e başvurmaktadır.\n\n1. 25 Nisan tarihli belgenin hukuki değerini değerlendiriniz.\n2. Şubat ayındaki yazışmanın hukuki niteliği nedir, geçerli midir?\n3. Kerem kefil olarak ne kadar sorumludur?\n4. Mart ücretinden yapılan kesintiler hukuka uygun mudur?",
+   "rubric": [
+    {
+     "point": "25 Nisan belgesinin bir aylık süre ve banka şartlarını taşımadığı için kesin hükümsüz olması",
+     "weight": 25,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "Belgenin banka ödemesi olmadığı için makbuz hükmünde de sayılmaması; yazılı tutarın alacaktan düşülmemesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 420"
+    },
+    {
+     "point": "Şubat yazışmasının şekle bağlı olmayan geçerli bir kısmi ibra olması; TBK m. 420'nin işverenin alacağına uygulanmaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 132"
+    },
+    {
+     "point": "Kefalet yan hak olduğundan Kerem'in sorumluluğunun 20.000 TL ile sınırlı olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 131"
+    },
+    {
+     "point": "Ücretten kesintilerin işçinin rızası olmadan yapılmış geçersiz takas olması; kasıt, yargı kararı ve haczedilebilir kısım istisnasının gerçekleşmemesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 407"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ayşe ile Doğa Market A.Ş. arasında bir hizmet (iş) sözleşmesi vardır. Ayrıca işverenin Ayşe'ye verdiği ödünçten doğan bir alacağı ve Kerem'in bu borç için verdiği kefalet bulunmaktadır. Olayda üç kurum iç içedir: işçinin ibranamesi (TBK m. 420), işverenin alacağının kısmi ibrası (TBK m. 132) ve ücretle takas (TBK m. 407/2).\n\n**Hukuki sorunlar:** (1) 25 Nisan tarihli belge ibra ya da makbuz olarak geçerli mi? (2) Şubat yazışması geçerli bir kısmi ibra mıdır? (3) Kerem kefil olarak ne kadar sorumludur? (4) Mart ücretinden yapılan kesintiler geçerli mi?\n\n**İlgili hükümler:** TBK m. 132, m. 131, m. 420, m. 407/2, m. 144; İK m. 35.\n\n**Değerlendirme:**\n1. *25 Nisan belgesi:* İşçinin işverenden alacağına ilişkin ibra yazılı olmalı, sözleşmenin sona ermesinden itibaren en az bir ay geçmiş olmalı, alacağın türü ve miktarı açıkça yazılmalı, ödeme noksansız ve banka aracılığıyla yapılmalıdır (TBK m. 420/2). Belge yazılıdır ve tür ile miktarı içerir. Ama sözleşmenin sona ermesinden yalnız on gün sonra imzalanmıştır ve ödemenin elden yapıldığı yazılıdır. Bu unsurları taşımayan ibraname kesin olarak hükümsüzdür.\n2. *Makbuz olarak değeri:* Gerçek tutarı içermeyen belgeler içerdikleri miktarla sınırlı olarak makbuz hükmündedir, ama bunun için de ödemenin banka aracılığıyla yapılmış olması zorunludur (TBK m. 420/3). Bu şart yoktur. Yargıtay da banka şartına aykırı ibraname ve makbuzu kesin hükümsüz sayıp belgedeki tutarı alacaktan düşmemektedir. Ayşe kıdem tazminatını isteyebilir; belgedeki 90.000 TL, ibra ya da makbuz olarak alacaktan düşülmez.\n3. *Şubat yazışması:* İşveren alacağının 10.000 TL'sinden vazgeçmiş, Ayşe de bunu kabul etmiştir. Bu bir kısmi ibra sözleşmesidir (TBK m. 132). TBK m. 420 yalnız işçinin işverenden alacaklarına ilişkin ibrayı düzenler. Burada ibra edilen, işverenin işçiden olan alacağıdır. Genel kural uygulanır ve ibra şekle bağlı değildir. E-posta yazışması yeterlidir; ödünç borcu 20.000 TL'ye inmiştir.\n4. *Kerem'in sorumluluğu:* Kefalet asıl borca bağlı bir yan haktır. Asıl borç ibrayla sona erdiği ölçüde kefalet de sona erer (TBK m. 131/1). İşveren Kerem'den 30.000 TL isteyemez; Kerem en fazla 20.000 TL'den sorumludur. Aşağıda açıklandığı gibi ücretten yapılan 5.000 TL'lik kesinti geçersiz olduğu için ödünç borcu 20.000 TL olarak durmaktadır.\n5. *Mart ücretinden kesintiler:* İşverenin, işçiden olan alacaklarını işçinin onayı olmadan ücretten düşmesi hukuken bir takastır. İşveren, işçiden olan alacağı ile ücret borcunu işçinin rızası olmadıkça takas edemez (TBK m. 407/2). Ayşe rıza vermemiş, hemen itiraz etmiştir. Tek istisna, işçinin kasten sebep olduğu ve yargı kararıyla sabit bir zarardır. Bu durumda bile takas ancak ücretin haczedilebilir kısmı kadar yapılabilir; İş Kanunu'na göre aylık ücretin dörtte birinden fazlası haczedilemez (İK m. 35). Barkod okuyucu dikkatsizlikle kırılmıştır ve ortada bir yargı kararı yoktur. Ödünç alacağı ise zarardan doğan bir alacak bile değildir. İşçi ücreti, ayrıca, takas hakkı doğduktan sonra ancak alacaklının rızasıyla takas edilebilen alacaklardandır (TBK m. 144). Bu nedenle iki kesinti de geçersizdir. Ayşe kesilen 11.000 TL'yi ücret alacağı olarak isteyebilir. İşverenin ödünç alacağı ve cihaz zararına ilişkin iddiası ise, şartları varsa, dava ya da takip yoluyla ayrıca ileri sürülebilir.\n\n**Sonuç:**\n- 25 Nisan tarihli belge kesin hükümsüzdür ve makbuz hükmünde de değildir. Ayşe kıdem tazminatını isteyebilir.\n- Şubat yazışması geçerli bir kısmi ibradır; ödünç borcu 20.000 TL'ye inmiştir.\n- Kerem en fazla 20.000 TL'den sorumludur.\n- Mart ücretinden yapılan 11.000 TL'lik kesinti geçersiz bir takastır; Ayşe bu tutarı isteyebilir."
+  },
+  {
+   "stem_md": "Akın Ahşap Ltd. Şti. (Akın), 10 Ocak 2026'da Defne Dekorasyon A.Ş.'ye (Defne) 800.000 TL'lik malzeme satmıştır. Bedel 10 Mart 2026'da ödenecekti. Defne, bu borca güvence olarak 500 gram külçe altını rehin olarak Akın'a teslim etmiştir.\n\n5 Mart 2026'da Defne ödeme güçlüğü çektiğini bildirmiştir. Taraflar bir \"yapılandırma protokolü\" imzalamış, Defne de 800.000 TL için Akın'a vadeleri Nisan, Mayıs, Haziran ve Temmuz 2026 olan, her biri 200.000 TL'lik dört bono vermiştir. Protokolde borcun tutarı değiştirilmemiş, eski borcun sona erdiğine dair bir ifade de yer almamıştır. Defne Nisan bonosunu ödemiş, diğerlerini ödememiştir.\n\n1 Haziran 2026'da Akın'ın iflasına karar verilmiştir. İflas idaresi, Eylül 2026'da Defne'den satış sözleşmesine dayanarak kalan 600.000 TL'yi istemiş, gerekirse rehinli altını paraya çevireceğini bildirmiştir. Defne şunları savunmaktadır:\n- Bonoların verilmesiyle satış bedeli borcu yenilenmiş, bu yüzden rehin de sona ermiştir.\n- Akın'a 15 Şubat 2026'da verdiği ve 15 Aralık 2026'da geri ödenecek, faizsiz 150.000 TL'lik bir ödünç alacağı vardır. Para o tarihte, Akın'ın mali durumu iyiyken Akın'ın hesabına gerçekten yatırılmıştır. Defne bu alacağı borcuyla takas etmek istemektedir.\n- Defne ayrıca 20 Haziran 2026'da bir tedarikçinin Akın'dan olan 90.000 TL'lik alacağını satın almıştır ve bunu da takas etmek istemektedir.\n\n1. Bonoların verilmesi ve protokol yenileme midir? Rehnin akıbeti nedir?\n2. Protokolde \"Satış bedeli borcu sona ermiş, yerine bono borcu geçmiştir\" denseydi sonuç ne olurdu?\n3. Defne hangi alacaklarını takas edebilir?",
+   "rubric": [
+    {
+     "point": "Yenilemenin unsurları; açık irade şartı, yenilemenin karine olarak kabul edilmemesi ve ispat yükü",
+     "weight": 20,
+     "madde_ref": "TBK m. 133"
+    },
+    {
+     "point": "Bono verilmesinin ve yalnız ödeme planını değiştiren yapılandırmanın yenileme sayılmaması; bonoların ifa amacıyla verilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 133"
+    },
+    {
+     "point": "Yenileme olmadığı için rehnin sürmesi; açık yenilemede rehnin sona ermesi ve aksine anlaşma imkânı",
+     "weight": 20,
+     "madde_ref": "TBK m. 131"
+    },
+    {
+     "point": "Muaccel olmayan ödünç alacağıyla iflasta takas yapılabilmesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 142"
+    },
+    {
+     "point": "İflastan sonra satın alınan alacakla takas yasağı",
+     "weight": 20,
+     "madde_ref": "İİK m. 200"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Akın ile Defne arasında bir satış sözleşmesi vardır. Defne'nin bedel borcu, kendi verdiği altın rehniyle güvence altındadır. Taraflar borcun ödenmesi için bir yapılandırma protokolü imzalamış ve bonolar düzenlenmiştir. Akın'ın iflasıyla birlikte Defne'nin müflise karşı alacakları ile masaya olan borcu karşı karşıya gelmiştir.\n\n**Hukuki sorunlar:** (1) Bonoların verilmesi ve protokol yenileme midir, rehin sona ermiş midir? (2) Açık yenileme iradesi bulunsaydı sonuç ne olurdu? (3) Defne iflas masasına karşı hangi alacaklarını takas edebilir?\n\n**İlgili hükümler:** TBK m. 131, m. 133, m. 142; İİK m. 195, 200 ve 201; TMK m. 6.\n\n**Değerlendirme:**\n1. *Yenileme var mı?* Yenileme için mevcut ve geçerli bir borç, onun yerine geçen yeni bir borç ve eski borcu sona erdirme iradesi gerekir. Bu irade karine olarak kabul edilmez; yenileme ancak tarafların açık iradesiyle olur (TBK m. 133/1). Mevcut borç için kambiyo taahhüdünde bulunulması, açık yenileme iradesi olmadıkça yenileme sayılmaz (TBK m. 133/2). Protokol yalnız ödeme planını değiştirmiş, tutarı aynı bırakmış ve eski borcun sona erdiğinden söz etmemiştir. Yargıtay'ın yerleşik uygulamasına göre böyle bir yapılandırma yenileme değildir; borç değişikliklerle birlikte devam eder. Yenilemeyi iddia eden Defne açık bir iradeyi ispatlayamamaktadır (TMK m. 6).\n2. *Bonoların işlevi:* Bonolar ifa amacıyla verilmiştir. Temel borç ile bono borcu yan yana durur. Ödenen Nisan bonosu kadar, yani 200.000 TL tutarında temel borç da sona ermiştir. Masa kalan 600.000 TL'yi satış sözleşmesine dayanarak isteyebilir, ama aynı alacağı bonolarla ikinci kez tahsil edemez.\n3. *Rehin:* Yan haklar ancak asıl borç sona ererse sona erer (TBK m. 131/1). Asıl borç yenilenmediği için rehin de devam eder. Alacak ödenmezse rehinli altın paraya çevrilebilir.\n4. *Açık yenileme olsaydı:* Protokolde \"satış bedeli borcu sona ermiş, yerine bono borcu geçmiştir\" denseydi bu açık bir yenileme olurdu. Satış bedeli borcu sona erer, yerine bonolardan doğan borç geçerdi. Eski borca bağlı rehin de TBK m. 131/1 gereğince sona ererdi. Rehnin yeni borcu güvence altına alması için tarafların bunu ayrıca kararlaştırması gerekirdi. Rehni Defne'nin kendisi verdiği için bunun için Defne ile Akın'ın anlaşması yeterdi.\n5. *150.000 TL'lik ödünç alacağı:* Borçlunun iflası hâlinde alacaklılar, muaccel olmasalar bile alacaklarını müflise olan borçlarıyla takas edebilir (TBK m. 142). Defne, müflis Akın'ın alacaklısıdır. Alacağı 15 Aralık 2026'da muaccel olacak olsa da takas yapabilir. Zaten iflasın açılması müflisin borçlarını muaccel kılar; vadesi gelmemiş faizsiz borçlardan yıllık kanuni faiz hesabıyla iskonto yapılır; bu kural takasa girecek tutarın hesabında da gözetilmelidir (İİK m. 195). Alacak iflastan önce doğmuş, para Akın'ın mali durumu iyiyken gerçekten verilmiştir. Bu yüzden İİK m. 200'deki yasaklar ve İİK m. 201'deki itiraz imkânı söz konusu değildir.\n6. *Satın alınan 90.000 TL'lik alacak:* Müflisin borçlusu iflas açıldıktan sonra müflisin alacaklısı olursa takas yapılamaz (İİK m. 200/1). Defne masaya borçludur ve bu alacağı iflastan sonra, 20 Haziran 2026'da satın almıştır. Bu alacakla takas yapamaz. Bu alacak için ancak diğer alacaklılar gibi iflas masasına başvurabilir.\n\n**Sonuç:**\n- Bonolar ve protokol yenileme değildir. Satış bedeli borcu ödenen 200.000 TL dışında devam eder, rehin de sürer.\n- Açık yenileme iradesi bulunsaydı eski borç ve rehin sona ererdi; aksi kararlaştırılmadıkça rehin yeni borca geçmezdi.\n- Defne, 150.000 TL'lik ödünç alacağını, iskonto gözetilerek, masaya olan borcuyla takas edebilir.\n- İflastan sonra satın aldığı 90.000 TL'lik alacakla takas yapamaz."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Asıl borç sona erince yan haklar ne olur? (TBK m. 131/1)",
+   "back_md": "Rehin, kefalet, faiz ve ceza koşulu gibi asıl borca bağlı hak ve borçlar da sona erer."
+  },
+  {
+   "front_md": "İşlemiş faiz ve ceza koşulu asıl borçtan sonra hangi hâllerde istenebilir?",
+   "back_md": "Sözleşmeyle ya da ifa anına kadar yapılan bir bildirimle saklı tutulmuşsa veya saklı tutulduğu durumdan anlaşılıyorsa (TBK m. 131/2)."
+  },
+  {
+   "front_md": "İbranın hukuki niteliği nedir?",
+   "back_md": "Alacaklı ile borçlu arasında yapılan, borcu tamamen ya da kısmen ortadan kaldıran bir sözleşmedir. Borçlunun kabulü örtülü olabilir."
+  },
+  {
+   "front_md": "Şekle bağlı bir borcun ibrası da şekle bağlı mı? (TBK m. 132)",
+   "back_md": "Hayır. Borcu doğuran işlem kanunen ya da taraflarca şekle bağlı olsa bile ibra şekle bağlı değildir."
+  },
+  {
+   "front_md": "İşçinin ibranamesinin dört şartı nedir? (TBK m. 420/2)",
+   "back_md": "Yazılı olma; sözleşmenin sona ermesinden itibaren en az bir ay geçmesi; alacağın türü ve miktarının açıkça yazılması; ödemenin noksansız ve banka aracılığıyla yapılması. Biri eksikse kesin hükümsüz."
+  },
+  {
+   "front_md": "Gerçek tutarı içermeyen ibraname ne işe yarar? (TBK m. 420/3)",
+   "back_md": "İçerdiği miktarla sınırlı olarak makbuz hükmündedir; bunun için de ödeme banka aracılığıyla yapılmış olmalıdır."
+  },
+  {
+   "front_md": "İşverenin işçiden olan alacağını ibra etmesi TBK m. 420'ye tabi mi?",
+   "back_md": "Hayır. TBK m. 420 işçinin işverenden alacaklarını düzenler; işverenin alacağının ibrası şekle bağlı olmayan genel kurala (TBK m. 132) tabidir."
+  },
+  {
+   "front_md": "Yenileme hangi iradeyle olur? (TBK m. 133/1)",
+   "back_md": "Ancak tarafların eski borcu yeni borçla sona erdirme yönündeki açık iradesiyle. Yenileme karine olarak kabul edilmez."
+  },
+  {
+   "front_md": "Bono, yeni alacak senedi ya da yeni kefalet senedi yenileme sayılır mı?",
+   "back_md": "Açık yenileme iradesi yoksa hayır (TBK m. 133/2). Senet kural olarak ifa amacıyla verilmiş sayılır; temel borç devam eder."
+  },
+  {
+   "front_md": "Yapılandırma protokolü yenileme midir?",
+   "back_md": "Yalnız tutar, vade ya da ödeme planı değişiyorsa ve açık yenileme iradesi yoksa hayır. Borç, yapılan değişikliklerle devam eder."
+  },
+  {
+   "front_md": "Cari hesapta borç ne zaman yenilenir? (TBK m. 134)",
+   "back_md": "Kalemlerin kaydıyla değil, hesap kesilip sonucu diğer tarafça kabul edildiğinde. Bir kalemin güvencesi, aksi kararlaştırılmadıkça sürer."
+  },
+  {
+   "front_md": "Yenileme eski borcun güvencelerini ne yapar?",
+   "back_md": "Eski borçla birlikte rehin, kefalet gibi yan haklar da sona erer (TBK m. 131/1). Yeni borca taşınmaları için anlaşma, güvenceyi üçüncü kişi verdiyse onun katılımı gerekir."
+  },
+  {
+   "front_md": "Birleşme nedir, sınırları nelerdir? (TBK m. 135)",
+   "back_md": "Alacaklı ve borçlu sıfatlarının aynı kişide toplanmasıdır ve borcu sona erdirir. Üçüncü kişilerin önceki hakları etkilenmez; birleşme geçmişe etkili kalkarsa borç sürer."
+  },
+  {
+   "front_md": "Takasın şartları nelerdir? (TBK m. 139/1)",
+   "back_md": "Karşılıklılık, aynı türden edim (para ya da özdeş edim), muacceliyet, karşı alacağın dava edilebilirliği; rızaya bağlı bir alacağın ve feragatin bulunmaması."
+  },
+  {
+   "front_md": "Takas kendiliğinden gerçekleşir mi? (TBK m. 143)",
+   "back_md": "Hayır, takas beyanı gerekir. Beyanla iki borç, takas edilebilecekleri andan itibaren az olan tutarda sona erer."
+  },
+  {
+   "front_md": "Zamanaşımına uğramış alacakla takas mümkün mü? (TBK m. 139/3)",
+   "back_md": "Takas edilebileceği anda henüz zamanaşımına uğramamışsa evet. Belirleyici olan beyan anı değil, takas edilebilir duruma gelinen andır."
+  },
+  {
+   "front_md": "Çekişmeli bir alacakla takas ileri sürülebilir mi?",
+   "back_md": "Evet (TBK m. 139/2). Mahkeme karşı alacağın varlığını ve miktarını araştırır; takas, alacak ispatlandığı ölçüde sonuç doğurur."
+  },
+  {
+   "front_md": "Kefil, asıl borçlunun takas hakkına dayanabilir mi? (TBK m. 140)",
+   "back_md": "Takası kendisi yapamaz, ama asıl borçlunun takas hakkı bulundukça alacaklıya ödemeden kaçınabilir."
+  },
+  {
+   "front_md": "Üçüncü kişi yararına borçlanan kişi takas yapabilir mi? (TBK m. 141)",
+   "back_md": "Bu borcunu, sözleşmenin diğer tarafından olan alacağıyla takas edemez."
+  },
+  {
+   "front_md": "Borçlunun iflasında takas nasıl işler? (TBK m. 142, İİK m. 200)",
+   "back_md": "Alacaklılar muaccel olmayan alacaklarını da müflise olan borçlarıyla takas edebilir. İflastan sonra edinilen alacakla ya da iflastan sonra doğan borçla takas yapılamaz."
+  },
+  {
+   "front_md": "Hangi alacaklar ancak alacaklının rızasıyla takas edilir? (TBK m. 144)",
+   "back_md": "Tevdi edilen eşyanın ve haksız alınan ya da aldatmayla alıkonulan eşyanın iadesi veya bedeli ile nafaka ve işçi ücreti gibi bakım alacakları. Rıza, takas hakkı doğduktan sonra verilmelidir."
+  },
+  {
+   "front_md": "İşveren işçiden olan alacağını ücretle takas edebilir mi? (TBK m. 407/2)",
+   "back_md": "İşçinin rızası olmadıkça hayır. İstisna: işçinin kasten verdiği, yargı kararıyla sabit zarar için ücretin haczedilebilir kısmı kadar."
+  },
+  {
+   "front_md": "Takastan önceden feragat geçerli mi?",
+   "back_md": "Kural olarak evet (TBK m. 145). Kira sözleşmesinden doğan alacaklarda kiracı ve kiraya veren önceden feragat edemez (TBK m. 326)."
+  },
+  {
+   "front_md": "Takas def'i ile mahsup arasındaki fark nedir?",
+   "back_md": "Takasta iki ayrı alacak vardır ve taraf ileri sürmedikçe hâkim dikkate almaz. Mahsupta tek alacak vardır; aynı olaydan doğan yarar ya da külfet düşülür ve hâkim bunu kendiliğinden gözetir."
+  },
+  {
+   "front_md": "İlamlı takipte takas nasıl ileri sürülür?",
+   "back_md": "Takas, İİK m. 33 anlamında bir itfa sebebidir; borçlu icra mahkemesinden icranın geri bırakılmasını isteyebilir. Karşı alacak ilama bağlıysa ilamın kesinleşmesi gerekmez."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

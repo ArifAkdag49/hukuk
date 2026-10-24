@@ -1,0 +1,773 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 8,
+ "unit_title": "Ünite 8: Kat Mülkiyeti",
+ "topic_index": 1,
+ "slug": "kat-mulkiyeti-kurulus-ve-kat-irtifaki",
+ "title": "Kat Mülkiyeti: Kavramlar, Ortak Yerler, Kuruluş ve Kat İrtifakı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:38:02.237611+00:00",
+ "skill_refs": [
+  "kat-mulkiyeti/kurulus-ve-kat-irtifakindan-kat-mulkiyetine-gecis"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Apartman dairesindeki mülkiyet hukuken nedir, hangi parçalardan oluşur ve nasıl kurulur? Yapı daha bitmeden kurulan kat irtifakı nedir, kat mülkiyetine nasıl geçilir?\n\n- **İki kurum (KMK m. 1):** Kat mülkiyeti tamamlanmış yapının bölümleri üzerinde kurulur. Kat irtifakı, yapılmakta olan veya ileride yapılacak yapının bölümleri için kurulur ve yapı bitince kat mülkiyetine geçilir. Her iki hâlde bölüm ayrı ayrı ve başlı başına kullanılmaya elverişli olmalıdır.\n- **Nitelik (KMK m. 3/1):** Kat mülkiyeti, arsa payı ve ortak yerlerle bağlantılı özel bir mülkiyettir. Kütüğe tescil edilen her bağımsız bölüm ayrı bir gayrimenkuldür (KMK m. 13/4; TMK m. 704, 998). Bölüm üzerinde ayrıca üst hakkı kurulamaz (TMK m. 726/3).\n- **Arsa payı (KMK m. 3/2, m. 5):** Bölümün konum ve büyüklüğüne göre hesaplanan değeriyle oranlı olmalıdır. Oransızlıkta her kat maliki veya kat irtifakı sahibi mahkemeye başvurur. Değerin sonradan değişmesi payı değiştirmez. Arsa payı bölümden ayrı devredilemez, miras yoluyla geçmez, başka bir hakla kayıtlanamaz.\n- **Ortak yerler (KMK m. 4, m. 16):** Temeller, taşıyıcı sistem, çatı, asansör, sığınak, kapıcı dairesi gibi yerler her hâlde ortak yerdir. Kat malikleri bunlara arsa payı oranında ortak mülkiyet hükümlerine göre malik olur.\n- **Eklenti (KMK m. 2/a, m. 6):** Doğrudan bir bölüme tahsis edilen yerdir; bölümün bütünleyici parçasıdır, beyanlar hanesine yazılır, bölümle birlikte devredilir.\n- **Koruyucu kurallar:** Kat mülkiyetine veya kat irtifakına tabi gayrimenkulde ortaklığın giderilmesi istenemez (KMK m. 7). Bağımsız bölüm satışında diğer kat maliklerinin önalım hakkı yoktur (KMK m. 8).\n- **Kuruluş (KMK m. 10-13):** Kat mülkiyeti ve kat irtifakı resmî senetle ve tescille doğar. Anagayrimenkulün tümü çevrilmeden yalnız bir veya birkaç bölümde kat mülkiyeti kurulamaz. İstem, kural olarak malik veya bütün paydaşlardan gelir; yüklenici talebiyle idarece tesis (KMK m. 10/5) ve ortaklığın giderilmesinde hâkim kararı (KMK m. 10/7) ayrıktır.\n- **Kat irtifakı (KMK m. 14, m. 17, m. 26, m. 49):** Proje ile yönetim planı verilir, yapı kullanma izin belgesi aranmaz; arsa payları arsa kütüğünün beyanlar hanesinde gösterilir.\n- **Geçiş (KMK m. 3/3, m. 10/6):** Kat irtifakı, yapının tamamı için düzenlenen yapı kullanma izin belgesine dayanılarak kat mülkiyetine resen çevrilir; ortak maliklerden birinin istemi de yeter.\n- 📌 **Yeni:** 7327 sayılı Kanun (2021) KMK m. 10/6'yı yeniden yazdı, KMK m. 10/5'te ibare değişikliği yaptı, KMK m. 14/3'ü mülga etti ve geçici 1. maddeyi değiştirdi.",
+  "content_md": "## 0. Konunun haritası\n\nApartman dairesi alan kişi hukuken üç şeyi birden edinir: dairenin tek başına malikidir, arsada bir paya sahiptir ve ortak yerlerde diğer maliklerle birlikte hak sahibidir. Kat Mülkiyeti Kanunu (KMK) bu üçlüyü tek bir mülkiyet hakkında birleştirir. Bu konu kavramları, arsa payını, ortak yerleri, kuruluşu, kat irtifakını ve geçişi kapsar. Maliklerin hak ve borçları, yönetim planı, kurul ve yönetici konu 28'e aittir.\n\n| Ölçüt | Kat mülkiyeti | Kat irtifakı |\n|---|---|---|\n| Yapı | Tamamlanmış (KMK m. 1/1) | Yapılmakta veya yapılacak (KMK m. 1/2) |\n| Belgeler | Proje, yapı kullanma izin belgesi, yönetim planı (KMK m. 12) | Proje, yönetim planı; iskân aranmaz (KMK m. 14/1) |\n| Arsa payının yeri | Her bölümün kütükteki ayrı sayfası (KMK m. 13/2) | Arsanın kayıtlı olduğu kütüğün beyanlar hanesi (KMK m. 14/2) |\n\n> ⚠️ **Sınavda dikkat:** İki kurumu ayırmanın ilk testi yapının durumudur. Yapı bitmiş ve yapı kullanma izin belgesi alınmışsa kat mülkiyeti, bitmemiş ya da hiç başlamamışsa kat irtifakı söz konusudur.\n\n## 1. Temel kavramlar (KMK m. 1 ve KMK m. 2)\n\n- **Anagayrimenkul:** Kat mülkiyetine konu gayrimenkulün bütünü, yani arsa ve yapı. **Anayapı** yalnız esas yapı kısmıdır (KMK m. 2/a).\n- **Bağımsız bölüm:** Ayrı ayrı ve başlı başına kullanılmaya elverişli olup KMK'ye göre bağımsız mülkiyete konu olan bölüm. Kanun kat, daire, iş bürosu, dükkân, mağaza, mahzen ve depoyu örnek verir (KMK m. 1/1).\n- **Eklenti:** Bağımsız bölümün dışında olup doğrudan o bölüme tahsis edilmiş yer (KMK m. 2/a).\n- **Ortak yerler:** Bağımsız bölümler dışında kalıp korunma ve ortaklaşa kullanma veya faydalanmaya yarayan yerler. Kat maliklerinin bunlardaki faydalanma hakkına **kullanma hakkı** denir (KMK m. 2/b).\n- **Kat mülkiyeti:** Bağımsız bölümler üzerinde kurulan mülkiyet hakkı; sahibi **kat malikidir**.\n- **Kat irtifakı:** Arsa üzerinde ileride kat mülkiyetine konu olmak üzere yapılacak veya yapılmakta olan yapıların bağımsız bölümleri için arsa maliki veya ortak malikleri tarafından kurulan irtifak hakkı (KMK m. 2/c).\n- **Arsa payı:** Arsanın bağımsız bölümlere tahsis edilen ortak mülkiyet payı (KMK m. 2/d).\n- **Sözleşme:** Kuruluşa ait **resmî senet** (KMK m. 2/e).\n\n> ⚠️ **Sınavda dikkat:** KMK dilinde \"sözleşme\" borç doğuran bir akit değil, kuruluş senedidir. KMK m. 8/3'teki \"sözleşmede aksine hüküm konulabilir\" ifadesi bu senedi kasteder.\n\n> **Örnek:** Tamamlanmış binada daireler ve zemin kattaki dükkân bağımsız bölümdür. Bodrumdaki depolardan 3 numaralı daireye tahsis edilmiş olan o dairenin eklentisi, kapıcı odası ise ortak yerdir (KMK m. 4/a).\n\n## 2. Kat mülkiyetinin niteliği\n\nKMK m. 3/1'e göre kat mülkiyeti, arsa payı ve anagayrimenkuldeki ortak yerlerle bağlantılı özel bir mülkiyettir.\n- Kat malikleri bölümleri üzerinde, KMK hükümleri saklı kalmak şartıyla, TMK'nın maliklere tanıdığı bütün hak ve yetkilere sahiptir (KMK m. 15).\n- Kat mülkiyeti kütüğüne tescil edilen her bağımsız bölüm **ayrı bir gayrimenkul** niteliği kazanır (KMK m. 13/4). Bu yüzden bağımsız bölümler taşınmaz mülkiyetinin konusudur (TMK m. 704), bağımsız gayrimenkul gibi dava ve takip konusu olur (KMK m. 7/2) ve kayıtları özel kanun hükümlerine tabidir (TMK m. 998).\n- Başlı başına kullanılmaya elverişli bağımsız bölümler üzerinde kat mülkiyeti veya kat irtifakı KMK'ye tabidir (TMK m. 726/2). Bağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz (TMK m. 726/3).\n\n## 3. Arsa payı\n\n### 3.1 Ölçü: değerle oran\nKat mülkiyeti ve kat irtifakı, bağımsız bölümlerin konum ve büyüklüklerine göre hesaplanan değerleriyle **oranlı** olarak projede tahsis edilen arsa payının açıkça gösterilmesiyle kurulur (KMK m. 3/2; aynı ölçüt için KMK m. 12/1-a). Pay, bölüm sayısına bölünen eşit bir kesir değildir.\n\n> **Örnek:** Dört daireli binada zemin kattaki bahçeli daire diğerlerinin iki katı büyüklükte ve daha değerlidir. Her daireye 1/4 pay verilmesi değerle oranlılık ölçütüne uymaz.\n\n### 3.2 Oransızlık ve düzeltme davası\nPaylar bölümlerin değerleriyle oranlı tahsis edilmemişse her kat maliki veya kat irtifakı sahibi, arsa paylarının yeniden düzenlenmesi için mahkemeye başvurabilir (KMK m. 3/2). Kanunda bu başvuru için süre öngörülmemiştir. Yargıtay Hukuk Genel Kurulu'na göre payın doğruluğu, bölümlerin **kat irtifakının kurulduğu tarihteki** (doğrudan kat mülkiyeti kurulmuşsa o tarihteki) değerini etkileyen bütün unsurlara (konum, büyüklük, cephe, teras gibi) bakılarak belirlenir.\n\n### 3.3 Sonradan değişen değer payı değiştirmez\nTahsis edilen arsa payı, bölümlerin değerinde sonradan meydana gelen çoğalma veya azalma sebebiyle değiştirilemez; KMK m. 44 saklıdır (KMK m. 3/2). KMK m. 44'e göre kat ilavesinde arsa payları yeniden ve oybirliğiyle belirlenir.\n\n> **Örnek:** Bir imar değişikliği binanın önündeki yolu genişletti ve dükkânın değeri iki katına çıktı. Dükkânın arsa payı bu yüzden artmaz. Düzeltme davası yalnız kuruluştaki oransızlık içindir.\n\n### 3.4 Arsa payının bölüme bağlılığı (KMK m. 5)\n1. Devir veya miras hâlinde arsa payı bölümle birlikte geçer; kat mülkiyetinden veya kat irtifakından ayrı devredilemez, miras yoluyla ayrı geçmez, başka bir hakla kayıtlanamaz (KMK m. 5/1).\n2. Kat mülkiyetine bağlanmamış veya lehine kat irtifakı kurulmamış arsa payı bırakılamaz (KMK m. 5/2).\n3. Kat mülkiyetini kayıtlayan haklar arsa payını da kayıtlar (KMK m. 5/3). Kat mülkiyetinden önce anagayrimenkule tescil veya şerh edilmiş haklar da kural olarak arsa payı oranında kat mülkiyetini kendiliğinden kayıtlar (KMK m. 5/5).\n4. Kat irtifakına konu arsada bu hakla bağdaşmayan irtifaklar kurulamaz (KMK m. 5/4).\n\n> **Örnek:** Hasan 5 numaralı daireyi satarken arsa payını kendine ayırmak ister. KMK m. 5/1 gereği mümkün değildir; pay daireyle birlikte alıcıya geçer.\n\n## 4. Ortak yerler ve kullanma hakkı\n\nOrtak yerlerin konusu sözleşme ile belirtilebilir. Ancak KMK m. 4'te sayılan yerler ve şeyler kanun gereği **her halde** ortak yer sayılır:\n- **Bent a:** Temeller, ana duvarlar, taşıyıcı sistemi oluşturan kiriş, kolon ve perde duvarlar, bölümleri ayıran ortak duvarlar, tavan ve tabanlar, avlular, genel giriş kapıları, merdivenler, asansörler, koridorlar, kapıcı daire veya odaları, genel kömürlük ve ortak garajlar, kalorifer daireleri, genel su depoları, sığınaklar.\n- **Bent b:** Bölüm dışındaki kanalizasyon, kalorifer, su, elektrik tesisleri, ortak şebeke ve antenler.\n- **Bent c:** Çatılar, bacalar, genel dam terasları, yağmur olukları, yangın emniyet merdivenleri.\n- **Son fıkra:** Sayılanların dışında kalıp da ortaklaşa kullanma, korunma veya faydalanma için zorunlu olan diğer yerler ve şeyler de ortak yerdir.\n\nKat malikleri ortak yerlere **arsa payları oranında**, ortak mülkiyet hükümlerine göre malik olur (KMK m. 16/1). Kullanma hakkının ölçüsü de genel kömürlük, garaj, teras gibi yerlerde, aksine sözleşme olmadıkça, arsa payıyla oranlıdır (KMK m. 16/2).\n\n> ⚠️ **Sınavda dikkat:** Listede sayılan bir yerin projede bağımsız bölüm gibi gösterilmesinin sonuçları tartışmalıdır (doktrin bölümü). Kesin söyleyeceğin nokta, sayılan yerlerin kanun gereği her hâlde ortak yer sayıldığıdır.\n\n## 5. Eklenti, ortak yer ve TMK'daki eklenti\n\nDoğrudan bir bölüme tahsis edilen kömürlük, su deposu, garaj, saat yuvaları, tuvalet gibi eklentiler bağımsız bölümün **bütünleyici parçası** sayılır ve bölüm maliki eklentinin de tek başına maliki olur (KMK m. 6/1). Eklentiler kat mülkiyeti kütüğünün beyanlar hanesine kaydedilir (KMK m. 6/2). Bölümün devri, kayıtlanması veya kiralanmasında eklentiler ve ortak yerler kendiliğinden devredilmiş, kayıtlanmış veya kiralanmış olur (KMK m. 6/4).\n\n| Ölçüt | Eklenti | Ortak yer |\n|---|---|---|\n| Tahsis | Tek bir bölüme | Bütün kat maliklerine |\n| Malik | Bölüm maliki, tek başına (KMK m. 6/1) | Kat malikleri, arsa payı oranında (KMK m. 16/1) |\n| Örnek | 1 numaralı daireye tahsisli kömürlük | Genel kömürlük, ortak garaj |\n\n> ⚠️ **Sınavda dikkat:** TMK m. 686'ya göre eklenti, asıl şeye sürekli özgülenen **taşınır maldır**. KMK'deki eklenti ise bağımsız bölüme tahsis edilmiş bir **yerdir** ve bölümün bütünleyici parçası sayılır.\n\n## 6. Koruyucu kurallar: ortaklığın giderilmesi yasağı ve önalımın yokluğu\n\n**Ortaklığın giderilmesi (KMK m. 7).** Kat mülkiyetine veya kat irtifakına tabi gayrimenkulde ortaklığın giderilmesi istenemez (KMK m. 7/1). Yasak anagayrimenkule yöneliktir. Bağımsız bölümler bağımsız bir gayrimenkul gibi dava ve takip konusu olabilir ve bir bölümün paydaşları arasında ortaklığın giderilmesi istenebilir (KMK m. 7/2). Yargıtay, yasağın kat irtifakı kurulmuş taşınmazı da kapsadığını kabul etmiştir.\n\n> **Örnek:** Kat irtifakı kurulu arsada paydaş Can satışla ortaklığın giderilmesini ister; talep reddedilir (KMK m. 7/1). Aynı daireye iki kişi paylı malikse, onlar arasında o dairede ortaklığın giderilmesi istenebilir (KMK m. 7/2).\n\n**Önalım (KMK m. 8).** Bağımsız bölümlerden biri veya kat irtifakı bağlanmış arsa payı satılırsa diğer kat maliklerinin veya irtifak hakkı sahiplerinin öncelikle satın alma hakkı **yoktur** (KMK m. 8/1). Bir bağımsız bölümün paydaşlarından biri payını satarsa öteki paydaşlar önalım hakkını kullanabilir (KMK m. 8/2). Sözleşmede aksine hüküm konulabilir (KMK m. 8/3).\n\n## 7. Kuruluşun genel çerçevesi (KMK m. 10 ve KMK m. 11)\n\n- **Doğum anı:** Kat mülkiyeti ve kat irtifakı **resmî senetle ve tapu siciline tescil ile** doğar (KMK m. 10/1). Tapu memuru belgeleri ve istem sahiplerinin yetkisini inceleyip resmî sözleşmeyi düzenler; sözleşme aynı zamanda tescil istemi sayılır (KMK m. 13/1). Kat mülkiyetinin tescili resmî senet uyarınca veya KMK m. 10/5-6'daki yollarla da yapılabilir (KMK m. 10/4). Tescil kat mülkiyeti kütüğüne yapılır; kadastrosu yapılmamış yerlerde Kat Mülkiyeti Zabıt Defterine yazılır (KMK m. 11).\n- **Kısmi kat mülkiyeti yasağı:** Anagayrimenkulün tümü kat mülkiyetine çevrilmeden yalnız bir veya birkaç bölümü üzerinde kat mülkiyeti kurulamaz (KMK m. 10/2). Toplu yapılarda ise tamamlanan yapılara ilişkin kat irtifakları ayrı ayrı kat mülkiyetine çevrilebilir (KMK m. 66).\n- **Yapı niteliği:** Tümü kârgir olmayan yapıda kat mülkiyeti kurulamaz (KMK m. 50/2).\n- **Birden çok bölümün tek bölüm olarak tescili:** Aynı katta bitişik aynı nevideki bölümler veya otel, iş ya da ticaret yeri gibi bütünlük arz eden birden çok kat ya da bölüm, uygun değişiklik projesi ve yapı kullanma izin belgesi verilmişse tek bağımsız bölüm olarak tescil edilebilir (KMK m. 10/3).\n- **Ortak yararlanmaya tahsisli bölümler:** Bunlar malik hanesine yararlanan bölümlerin numaraları yazılarak tescil edilir (KMK m. 10, son fıkra).\n\n## 8. Kat mülkiyetinin kurulması (KMK m. 12 ve KMK m. 13)\n\nKat mülkiyetinin kurulması için gayrimenkulün **maliki veya bütün paydaşları** belgelerle birlikte tapu idaresine başvurur (KMK m. 12). Belgeler:\n- **Mimarî proje ve yapı kullanma izin belgesi (KMK m. 12/1-a):** Proje bölüm, eklenti ve ortak yerlerin ölçülerini, değerle oranlı arsa paylarını, nevini ve sıra numarasını gösterir; maliklerin imzalarıyla onaylanır ve elektronik ortamda gönderilir.\n- **Yönetim planı (KMK m. 12/1-b):** Kanunun yönetim planına ilişkin esasları çerçevesinde hazırlanır ve kat mülkiyetini kuran malik veya malikler tarafından imzalanır.\n\nKMK m. 12/c 2009'da 5912 sayılı Kanunla mülga edilmiştir. Güncel metinde ayrı bir \"bağımsız bölüm listesi\" aranmaz; arsa payları doğrudan projede gösterilir (KMK m. 12/1-a).\n\nTapuda şunlar olur: Mülkiyet hanesine \"Bu gayrimenkulün mülkiyeti kat mülkiyetine çevrilmiştir.\" yazılır ve sayfa irtifaklar dışındaki işlemlere kapatılır; her bölüm bağlı arsa payıyla kat mülkiyeti kütüğünün ayrı sayfasına tescil edilir (KMK m. 13/2). Önceki haklar, irtifaklar hariç, bölüm sayfalarına geçirilir (KMK m. 13/3). Tescil edilen bölüm ayrı gayrimenkul olur (KMK m. 13/4).\n\n**Diğer kuruluş yolları:**\n- **Yüklenici talebiyle idarece tesis (KMK m. 10/4-5):** Hak sahiplerine isabet eden bölümlerin belirlenmiş olması şartıyla kat karşılığı inşaat sözleşmesi, kat karşılığı temlik sözleşmesi veya noterlik taksim sözleşmesine dayanılarak inşa edilecek binada kat irtifakı ve kat mülkiyeti tesisi, yüklenici talep ederse ilgili idarece yapılır. Elektronik ortamda düzenlenen, idarece onaylı mimari proje ve yönetim planı esas alınır ve bunlarda malik imzası aranmaz.\n- **Ortaklığın giderilmesinde (KMK m. 10/7):** Kat mülkiyetine elverişli gayrimenkulde ortaklığın giderilmesi davasında ortaklardan biri isterse hâkim, mülkiyetin KMK m. 12'deki belgelere dayanılarak kat mülkiyetine çevrilmesine ve payları denkleştirerek bölümlerin ortaklara tahsisine karar verebilir. Uygulamada bu yol, kat mülkiyeti kurularak aynen taksim diye anılır; Yargıtay'a göre belgeler eksikse mahkeme önce tamamlatma yoluna gitmelidir.\n\n> **Örnek:** Tümü kârgir, iki daireli binada paylı malik kardeşlerden biri satış, diğeri kat mülkiyeti kurularak paylaşma ister. Ortaklardan birinin istemi yeter; hâkim KMK m. 12 belgelerine dayanarak kat mülkiyetine çevirip daireleri tahsis edebilir (KMK m. 10/7).\n\n> 📌 **Kesin bilgi:** Doğrudan kat mülkiyeti ve kat irtifakı kuruluşunda istem kural olarak malik veya **bütün paydaşlardan** gelir; yukarıdaki iki yol (yüklenici talebiyle idarece tesis, KMK m. 10/5; ortaklığın giderilmesinde hâkim kararı, KMK m. 10/7) bunun ayrığıdır. Kat irtifakından kat mülkiyetine çevirmede ise ortak maliklerden **birinin** istemi yeter (KMK m. 3/3).\n\n## 9. Kat irtifakı\n\n**Kuruluş (KMK m. 14).** Henüz yapı yapılmamış veya yapısı tamamlanmamış arsada kat irtifakı için arsanın maliki veya bütün paydaşları istemle birlikte iki belge verir: KMK m. 12/1-a'ya uygun, maliklerin imzalarıyla onaylanmış proje ve KMK m. 12/1-b'deki yönetim planı (KMK m. 14/1). **Yapı kullanma izin belgesi aranmaz.** Her bölüme tahsis edilecek arsa payı arsa kütüğünün **beyanlar hanesinde** gösterilir; bölüm numaraları ve eklentiler de beyanlar hanesine yazılır (KMK m. 14/2).\n\n> **Örnek:** Yarı yarıya paylı malik Ali ve Ayşe'den Ali, Ayşe'nin imzası olmadan tapuya başvurursa kat irtifakı kurulamaz; istem ve proje bütün paydaşlardandır (KMK m. 14/1).\n\n**Hak ve borçlar.**\n- **Tamamlanmayı isteme (KMK m. 17/1):** Kat irtifakı sahipleri, yapının sözleşmede yazılı sürede başlaması ve tamamlanması için kendilerine düşen borçların yerine getirilmesini karşılıklı olarak isteme ve dava etme hakkına sahiptir.\n- **Yönetici (KMK m. 17/2):** Yapının tamamlanması için kendi aralarından veya dışarıdan yönetici atayabilirler.\n- **Fiilen tamamlanma (KMK m. 17/3):** Yapı fiilen tamamlanmış ve bağımsız bölümlerin üçte ikisi fiilen kullanılmaya başlanmışsa, kat mülkiyetine geçilmemiş olsa dahi yönetimde kat mülkiyeti hükümleri uygulanır.\n- **Borçlar (KMK m. 26):** Kat irtifakı sahipleri yapının sözleşmeye ve plana göre tamamlanması için borçlarını vaktinde yerine getirmekle yükümlüdür. Borcunu noter ihtarından başlayarak iki ay içinde yerine getirmeyenin arsa payı ve kat irtifakı, diğerlerinin yazılı istemiyle hâkim kararıyla hükme en yakın tarihteki değeri karşılığında öteki paydaşlara arsa payları oranında devredilir (KMK m. 26/2).\n\n> ⚠️ **Sınavda dikkat:** İsteme ve dava etme hakkı KMK m. 17/1'dedir; KMK m. 26 borçları düzenler. KMK m. 17/3 mülkiyeti kat mülkiyetine **çevirmez**, yalnız yönetimde kat mülkiyeti hükümlerini uygular.\n\n> **Örnek:** Kat irtifaklı 12 daireli binada yapı bitmiş ve 9 daire kullanılmaktadır. Üçte ikiyi (sekiz) aştığı için yönetimde kat mülkiyeti hükümleri uygulanır (KMK m. 17/3); taşınmaz yine de kat irtifaklı statüsündedir.\n\n**Değiştirme ve sona erme.** Yeni bağımsız bölüm eklenmesi kurulun oybirliğini, arsa paylarının yeniden ve oybirliğiyle belirlenmesini ve yeni bölüm payı üzerinde KMK m. 14'e göre resmî senetle kat irtifakı kurulmasını gerektirir (KMK m. 44). Yargıtay, mevcut kat irtifakının yerine fiilî duruma uygun yenisinin kurulmasını kat maliklerinin oybirliğiyle yapacakları bir işlem saymış, mahkemenin onay yerine geçemeyeceğini kabul etmiştir. Kat irtifakı (KMK m. 49):\n- arsa maliki veya ortak malikleri tapu memuruna yazılı beyanla her zaman son verebilir (KMK m. 49/1);\n- arsanın tamamen yok olması, üzerinde yapı yapılamaz hâle gelmesi veya kamulaştırılmasıyla kendiliğinden sona erer (KMK m. 49/2);\n- kuruluşta verilen plana göre **beş yıl içinde yapı yapılmazsa** maliklerden birinin istemiyle sulh hâkimi duruma göre sona ermeye veya belli bir süre için uzatmaya karar verir (KMK m. 49/3). Süre dolması irtifakı kendiliğinden bitirmez.\n\nKat mülkiyeti, bütün bölümlerin bir kişide toplanmasıyla kendiliğinden sona ermez (KMK m. 46/2); anayapının tümü harap olursa kendiliğinden sona erer (KMK m. 47).\n\n## 10. Kat irtifakından kat mülkiyetine geçiş\n\nKMK m. 3/3'e göre kat irtifakı arsa payına bağlı bir irtifak çeşididir ve yapının tamamı için düzenlenecek **yapı kullanma izin belgesine** dayalı olarak kat mülkiyetine **resen çevrilir**. Bu işlem arsa malikinin veya kat irtifakına sahip ortak maliklerden birinin istemiyle dahi yapılabilir. Geçişin yeri KMK m. 3/3 ve KMK m. 10/6'dır; KMK m. 14 ise kat irtifakının **kuruluşunu** düzenler. Geçişte ayrıca yönetim planı istenmez (KMK m. 14/1).\n\n### 📌 7327 sayılı Kanunla (2021) güncel durum\n- **KMK m. 10/6 yeniden yazıldı:** Yapı kullanma izin belgesi düzenlenen tüm yapıların cins değişikliği işlemleri resen yapılır. İdare belgeyi Mekânsal Adres Kayıt Sistemi üzerinden kadastro müdürlüğüne gönderir; tescil bildirimiyle cins değişikliği tapuda resen tescil edilir. Taşınmaz kat irtifaklıysa, kat irtifakının tesciline ait resmî senede ve KMK m. 12'deki belgelere dayalı olarak başkaca belge aranmaksızın resen kat mülkiyetine çevrilir. Bu işlemler döner sermaye hizmet bedelinden muaftır.\n- **KMK m. 10/5'te ibare değişikliği:** \"Kat karşılığı temlik sözleşmesi ve\" ibaresi \"kat karşılığı temlik sözleşmesi veya\" oldu ve \"cins değişikliği,\" ibaresi çıkarıldı. Yüklenici talebiyle idarenin yaptığı işlem artık kat irtifakı ve kat mülkiyeti tesisidir; cins değişikliği 6. fıkrada düzenlenir.\n- **KMK m. 14/3 mülga edildi.** Eski metnini anlatmıyoruz; güncel KMK m. 14'ün işleyen hükümleri 1. ve 2. fıkralardır.\n- **Kat Mülkiyeti Kanunu'nun geçici 1. maddesi yeniden yazıldı:** Maddenin yürürlüğünden önce yapı kullanma izin belgesi düzenlenmiş yapılarda, sisteme yüklenemeyen belge ve aplikasyon projesinin idarece elektronik ortamda kadastro müdürlüğüne gönderilmesi hâlinde KMK m. 10/6'ya göre işlem yapılır.\n\n| Kanun (yürürlük) | Konumuzla ilgili başlıca değişiklik |\n|---|---|\n| 5711 (28/11/2007) | KMK m. 3/2 arsa payı ölçütü, KMK m. 4/a taşıyıcı sistem, KMK m. 10/3 |\n| 5912 (7/7/2009) | KMK m. 3/3 resen geçiş, KMK m. 12/c mülga |\n| 7099 (10/3/2018) | KMK m. 10/4-6, KMK m. 12/a, KMK m. 14/1 |\n| 7327 (19/6/2021) | KMK m. 10/5-6, KMK m. 14/3 mülga, geçici 1. madde |\n\nAyrıca 7579 sayılı Kanun (2026) yönetici, işletme projesi ve toplu yapı yönetim planına ilişkin bazı maddeleri değiştirmiştir; bunlar konu 28'dedir.\n\n> ⚠️ **Sınavda dikkat (eski kaynaklar):** 2021 öncesi kitaplarda KMK m. 10/6 ve KMK m. 14/3'ün eski hâlleri anlatılmış olabilir. \"Yapı fiilen tamamlanmışsa irtifak sahiplerinden biri KMK m. 14'ün son fıkrasına göre resen geçiş için başvurabilir\" türü anlatımlar yanlıştır: KMK m. 14'ün son fıkraları mülgadır. Tek ortak malikin istemi KMK m. 3/3'tedir ve yapının **tamamı** için düzenlenen yapı kullanma izin belgesine dayanır.\n\n### Özel kurallar\n- **Eski kat irtifakları:** 5711 sayılı Kanunun geçici 2. maddesine göre 2814 sayılı Kanunun yürürlüğünden önce kat irtifakı kurulmuş binalarda yönetim planı olmasa dahi KMK m. 12'deki hükümlere göre kat mülkiyeti kurulur.\n- **Birlikte arsa edinenler:** Kat Mülkiyeti Kanunu'nun ek 4. maddesine göre yapı yaptırmak amacıyla birlikte arsa edinen beş veya daha fazla kişiden en az beşte dördünün kat irtifakına geçiş kararına uyulmazsa sulh mahkemesi, amacın ispatı, noterlikçe tebligattan sonra iki ay içinde uyulmaması ve rayiç bedelin depo edilmesi şartlarıyla uymayanların paylarını iptal edip isteyenler adına tescil eder.\n- **Uyuşmazlıklar:** Kat Mülkiyeti Kanunu'nun ek 1. maddesine göre KMK'nin uygulanmasından doğan anlaşmazlıklar sulh mahkemelerinde çözülür. KMK'den kaynaklanan uyuşmazlıklarda dava öncesi arabuluculuk dava şartıdır (HUAK m. 18/B/1-c). Ayrıntı konu 28'dedir.\n\n> 💡 **Püf nokta:** Beşte dört ifadesini görünce hangi kuralın konuşulduğunu sor: Kat irtifakına geçiş kararına uyulmaması (ek 4. madde) ile yönetimdeki beşte dört (konu 28) ayrı kurallardır.\n\n## 11. Olay çözerken denetim şeması\n1. **Yapının durumu:** Tamamlanmış ve iskânlı mı, yoksa yapılmakta veya yapılacak mı? (KMK m. 1)\n2. **Bölüm:** Kullanmaya elverişli bağımsız bölüm mü, eklenti mi, ortak yer mi? (KMK m. 2, m. 4, m. 6)\n3. **Kuruluş:** İstem malik veya bütün paydaşlardan mı, belgeler tam mı, resmî senet ve tescil var mı, kısmi kat mülkiyeti veya kârgir şartı sorunu var mı? (KMK m. 10, m. 12, m. 14, m. 50/2)\n4. **Arsa payı:** Kuruluşta değerle oranlı mı, yoksa sonradan değişen bir değer mi söz konusu? (KMK m. 3/2, m. 5/1)\n5. **Kat irtifakı varsa:** Hak ve borçlar, beş yıl, üçte ikinin kullanımı (KMK m. 17, m. 26, m. 49/3).\n6. **Geçiş:** Yapının tamamı için yapı kullanma izin belgesi var mı? (KMK m. 3/3, m. 10/6)\n7. **Koruyucu kurallar:** Ortaklığın giderilmesi yasağı, önalımın yokluğu (KMK m. 7, m. 8).",
+  "critical_md": "- 📌 Kat mülkiyeti tamamlanmış yapının bağımsız bölümleri üzerinde, kat irtifakı yapılmakta veya ileride yapılacak yapının bölümleri için kurulur (KMK m. 1). Her iki hâlde bölüm ayrı ayrı ve başlı başına kullanılmaya elverişli olmalıdır.\n- 📌 Kat mülkiyeti ve kat irtifakı resmî senetle ve tapu siciline tescille doğar (KMK m. 10/1). Resmî sözleşme aynı zamanda tescil istemi sayılır (KMK m. 13/1).\n- ⚠️ Anagayrimenkulün tümü kat mülkiyetine çevrilmeden yalnız bir veya birkaç bölüm üzerinde kat mülkiyeti kurulamaz (KMK m. 10/2). Tümü kârgir olmayan yapıda kat mülkiyeti kurulamaz (KMK m. 50/2).\n- 📌 Arsa payı bölümün konum ve büyüklüğüne göre hesaplanan değeriyle oranlı olmalıdır; oransızlıkta her kat maliki veya kat irtifakı sahibi mahkemeye başvurabilir. Kanunda süre öngörülmemiştir (KMK m. 3/2).\n- ⚠️ Bölümün değerinin sonradan artması veya azalması arsa payını değiştirmez; KMK m. 44 saklıdır (KMK m. 3/2). Düzeltme davasında değer, kat irtifakının (doğrudan kat mülkiyeti kurulmuşsa o tarihin) kuruluş tarihine göre belirlenir.\n- 📌 Arsa payı kat mülkiyetinden veya kat irtifakından ayrı devredilemez, miras yoluyla geçmez, başka bir hakla kayıtlanamaz; bağlanmamış arsa payı bırakılamaz (KMK m. 5/1-2).\n- 📌 KMK m. 4'te sayılan yerler (temeller, taşıyıcı sistem, çatı, asansör, kapıcı dairesi, sığınak gibi) her hâlde ortak yerdir. Ortak yerlere kat malikleri arsa payı oranında ortak mülkiyet hükümlerine göre malik olur (KMK m. 16/1).\n- ⚠️ Eklenti bağımsız bölüme tahsis edilmiş yerdir; bölümün bütünleyici parçasıdır, bölüm maliki tek başına malikidir, beyanlar hanesine yazılır ve bölümle birlikte devredilir (KMK m. 6). TMK m. 686'daki eklenti ise taşınırdır.\n- 📌 Kat mülkiyetine veya kat irtifakına tabi gayrimenkulde ortaklığın giderilmesi istenemez; bağımsız bölümde istenebilir (KMK m. 7). Bağımsız bölüm satışında diğer kat maliklerinin önalım hakkı yoktur, bir bölümün paydaşları arasında vardır; sözleşmeyle aksi kararlaştırılabilir (KMK m. 8).\n- 📌 Kat irtifakı için istem arsa maliki veya bütün paydaşlarından gelir (yüklenici talebiyle idarece tesis ayrıktır, KMK m. 10/5); proje ve yönetim planı verilir, yapı kullanma izin belgesi aranmaz. Arsa payları arsa kütüğünün beyanlar hanesinde gösterilir (KMK m. 14/1-2).\n- ⚠️ Kat irtifakı sahibinin tamamlanmayı isteme ve dava etme hakkı KMK m. 17/1'dedir; KMK m. 26 borçları düzenler. Kat mülkiyetine geçiş KMK m. 14'te değil, KMK m. 3/3 ve KMK m. 10/6'dadır.\n- 📌 Kat irtifakı, yapının tamamı için düzenlenen yapı kullanma izin belgesine dayanılarak kat mülkiyetine resen çevrilir; ortak maliklerden birinin istemi de yeter (KMK m. 3/3). 7327 sayılı Kanunla yeniden yazılan KMK m. 10/6 işlemi resen ve başkaca belge aranmaksızın yaptırır, döner sermaye hizmet bedelinden muaftır.\n- ⚠️ Yapı fiilen tamamlanmış ve bağımsız bölümlerin üçte ikisi kullanılmaya başlanmışsa yönetimde kat mülkiyeti hükümleri uygulanır; bu, mülkiyet statüsünü kat mülkiyetine çevirmez (KMK m. 17/3).\n- 📌 Kat irtifakında verilen plana göre beş yıl içinde yapı yapılmazsa maliklerden birinin istemiyle sulh hâkimi sona ermeye veya süre uzatımına karar verir; irtifak kendiliğinden sona ermez (KMK m. 49/3). Noter ihtarından sonra iki ay içinde borcunu yerine getirmeyenin payı hâkim kararıyla devredilir (KMK m. 26/2).\n- ⚠️ Bütün bağımsız bölümlerin tek kişide toplanması kat mülkiyetini kendiliğinden sona erdirmez (KMK m. 46/2).",
+  "doctrine_md": "### Kat irtifakının hukuki niteliği\nKanun, kat irtifakını \"arsa payına bağlı bir irtifak çeşidi\" diye adlandırır (KMK m. 3/3). Bir görüşe göre bu, malikin kendi taşınmazı üzerinde kurduğu gerçek bir irtifak hakkıdır. Karşı görüşe göre kat irtifakı, arsa payı (paylı mülkiyet) ile ileride doğacak kat mülkiyetini birleştiren, kat mülkiyetinin ön aşaması niteliğinde özel bir ayni haktır; adı irtifak olsa da TMK'daki irtifak tiplerine uymaz. Yargıtay'ın bu konuda açık bir tercihi doğrulanmış değildir. Sınavda kanunun ifadesini ver, iki görüşü kısaca anlat, sonucun buna bağlı olmadığını belirt.\n\n### Ortak yerlerin türleri ve projede bağımsız bölüm gösterilmesi\nÖğretide ortak yerler \"zorunlu (yapısal) ortak yer\" ve \"iradi ortak yer\" diye ayrılır. KMK m. 4'teki \"her halde\" ifadesi, sayılan yerlerin sözleşmeyle bağımsız bölüme çevrilemeyeceği yönünde anlaşılır. Buna karşılık kapıcı dairesi, sığınak, garaj gibi yerlerin projede bağımsız bölüm olarak gösterildiği durumlarda bunun geçerliliği ve sonuçları tartışmalıdır. Yargıtay'ın bir kararında projede ortak alan olan yerin kat irtifakı kurulurken bağımsız bölüm olarak tescil edilmesi üzerine tapusu iptal edilen alıcının zararından Devletin sorumlu tutulması (TMK m. 1007) oy çokluğuyla onanmıştır; karşı oy, tapuya sunulan ve belediyedeki projelerin karşılaştırılması gerektiğini savunmuştur.\n\n### Kat irtifakında yönetim hükümleri\nKMK m. 17/3, yapının fiilen tamamlanması ve bölümlerin üçte ikisinin kullanılması şartıyla yönetimde kat mülkiyeti hükümlerini uygular. Bu şartlar gerçekleşmeden kat irtifakı sahipleri arasında KMK'nin yönetim, gider ve kurul hükümlerinin kıyasen uygulanıp uygulanamayacağı tartışmalıdır. Bu nedenle olay çözerken iki şartın birlikte gerçekleştiği ya da açıkça gerçekleşmediği durumlara dayan.\n\n### Yıkılan binada arsa payı düzeltme davası\nBina yıkıldıktan sonra arsa payı düzeltme davasının konusuz kalıp kalmadığı tartışılmıştır. Hukuk Genel Kurulu, oy çokluğuyla, taraf iradesiyle yeni arsa payları belirlenerek kat irtifakı ya da kat mülkiyeti kurulmadığı sürece taşınmazda arsa payı oranında ortak mülkiyet bulunduğunu, bu yüzden hukuki yararın devam ettiğini kabul etmiştir. Azınlık görüşü, yıkımla kat irtifakının kendiliğinden sona erdiğini ve işlemlerin 6306 sayılı Kanuna göre yürütülmesi gerektiğini savunmuştur.\n\n### Arsa payı düzeltme davasında süre\nKanun süre öngörmemiştir (KMK m. 3/2). Yargıtay önünde bir davalı, davanın anayapı kat irtifakı veya kat mülkiyeti statüsünü koruduğu sürece açılabileceğini ileri sürmüştür; bunun yerleşik bir ilke olup olmadığı doğrulanmamıştır. Kesin bir süre veya düşme kuralı yazmak yerine \"kanunda süre öngörülmemiştir\" demek doğrudur.",
+  "glossary": [
+   {
+    "term": "Anagayrimenkul",
+    "definition": "Kat mülkiyetine konu gayrimenkulün bütünü, yani arsa ve yapı. Yalnız esas yapı kısmına anayapı denir (KMK m. 2/a)."
+   },
+   {
+    "term": "Bağımsız bölüm",
+    "definition": "Anagayrimenkulün ayrı ayrı ve başlı başına kullanılmaya elverişli olup KMK'ye göre bağımsız mülkiyete konu olan bölümü; kat, daire, iş bürosu, dükkân gibi (KMK m. 1/1, m. 2/a)."
+   },
+   {
+    "term": "Eklenti",
+    "definition": "Bağımsız bölümün dışında olup doğrudan o bölüme tahsis edilmiş yer. Bölümün bütünleyici parçasıdır ve beyanlar hanesine yazılır (KMK m. 6)."
+   },
+   {
+    "term": "Ortak yerler",
+    "definition": "Bağımsız bölümler dışında kalıp korunma ve ortaklaşa kullanma veya faydalanmaya yarayan yerler; kat malikleri bunlara arsa payı oranında malik olur (KMK m. 2/b, m. 4, m. 16)."
+   },
+   {
+    "term": "Kullanma hakkı",
+    "definition": "Kat maliklerinin ortak malik sıfatıyla paydaşı bulundukları ortak yerler üzerindeki faydalanma hakkı (KMK m. 2/b)."
+   },
+   {
+    "term": "Kat mülkiyeti",
+    "definition": "Bağımsız bölümler üzerinde kurulan mülkiyet hakkı; arsa payı ve ortak yerlerle bağlantılı özel bir mülkiyettir (KMK m. 2/a, m. 3/1)."
+   },
+   {
+    "term": "Kat irtifakı",
+    "definition": "Arsa üzerinde ileride kat mülkiyetine konu olmak üzere yapılacak veya yapılmakta olan yapının bölümleri için arsa maliki veya ortak malikleri tarafından kurulan irtifak hakkı (KMK m. 2/c)."
+   },
+   {
+    "term": "Arsa payı",
+    "definition": "Arsanın bağımsız bölümlere tahsis edilen ortak mülkiyet payı. Bölümün değeriyle oranlı olur ve bölümden ayrı devredilemez (KMK m. 2/d, m. 3/2, m. 5/1)."
+   },
+   {
+    "term": "Sözleşme (KMK anlamında)",
+    "definition": "Kat mülkiyetinin veya irtifakının kurulmasına ait resmî senet; borç doğuran bir akit değildir (KMK m. 2/e)."
+   },
+   {
+    "term": "Yönetim planı",
+    "definition": "Kat mülkiyetinin kurulması ve kat irtifakının kurulması için tapu idaresine verilen, kuruluşta malik veya maliklerce imzalanan plan; kat mülkiyetine geçişte ayrıca istenmez (KMK m. 12/1-b, m. 14/1)."
+   },
+   {
+    "term": "Resen kat mülkiyetine çevirme",
+    "definition": "Yapının tamamı için yapı kullanma izin belgesi düzenlenmesi üzerine kat irtifaklı taşınmazın, başkaca belge aranmaksızın tapu idaresince resen (istem beklenmeksizin) kat mülkiyetine çevrilmesi (KMK m. 3/3, m. 10/6)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "1",
+   "official_text": "I – Genel kural:\nMadde 1 – Tamamlanmış bir yapının kat, daire, iş bürosu, dükkan, mağaza, mahzen, depo gibi bölümlerinden ayrı ayrı ve başlı başına kullanılmaya elverişli olanları üzerinde, o gayrimenkulün maliki veya ortak malikleri tarafından, bu Kanun hükümlerine göre, bağımsız mülkiyet hakları kurulabilir.\nYapılmakta veya ileride yapılacak olan bir yapının, birinci fıkrada yazılı nitelikteki bölümleri üzerinde, yapı tamamlandıktan sonra geçilecek kat mülkiyetine esas olmak üzere, arsa maliki veya arsanın ortak malikleri tarafından, bu Kanun hükümlerine göre irtifak hakları kurulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "2",
+   "official_text": "II – Tarifler:\nMadde 2 – Bu Kanuna göre:\na) Kat mülkiyetine konu olan gayrimenkulün bütününe (Anagayrimenkul); yalnız esas yapı kısmına (Anayapı) anagayrimenkulün ayrı ayrı ve başlı başına kullanılmaya elverişli olup, bu Kanun hükümlerine göre bağımsız mülkiyete konu olan bölümlerine (Bağımsız bölüm); bir bağımsız bölümün dışında olup, doğrudan doğruya o bölüme tahsis edilmiş olan yerlere (Eklenti); bağımsız bölümler üzerinde kurulan mülkiyet hakkına (Kat mülkiyeti) ve bu hakka sahip olanlara (Kat maliki);\nb) Anagayrimenkulün bağımsız bölümleri dışında kalıp, korunma ve ortaklaşa kullanma veya faydalanmaya yarıyan yerlerine (Ortak yerler); kat maliklerinin ortak malik sıfatiyle paydaşı bulundukları bu yerler üzerindeki faydalanma haklarına (Kullanma hakkı);\nc) (Değişik: 13/4/1983-2814/1 md.) Bir arsa üzerinde ileride kat mülkiyetine konu olmak üzere yapılacak veya yapılmakta olan bir veya birden çok yapının bağımsız bölümleri için o arsanın maliki veya ortak malikleri tarafından bu Kanun hükümlerine göre kurulan irtifak hakkına (kat irtifakı); bu hakka sahip olanlara da (kat irtifak sahibi);\nd) Arsanın, bu Kanunda yazılı esasa göre bağımsız bölümlere tahsis edilen ortak mülkiyet paylarına (Arsa payı);\ne) Kat mülkiyetinin veya irtifakının kurulmasına ait resmi senede (Sözleşme);\ndenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "3",
+   "official_text": "III - Kat mülkiyetinin ve kat irtifakının niteliği:\nMadde 3 – Kat mülkiyeti, arsa payı ve anagayrimenkuldeki ortak yerlerle bağlantılı özel bir mülkiyettir.\n(Değişik ikinci fıkra: 14/11/2007-5711/1 md.) Kat mülkiyeti ve kat irtifakı, bu mülkiyete konu olan anagayrimenkulün bağımsız bölümlerinden her birinin konum ve büyüklüklerine göre hesaplanan değerleri ile oranlı olarak projesinde tahsis edilen arsa payının ortak mülkiyet esaslarına göre açıkça gösterilmesi suretiyle kurulur. Arsa paylarının bağımsız bölümlerin payları ile oranlı olarak tahsis edilmediği hallerde, her kat maliki veya kat irtifakı sahibi, arsa paylarının yeniden düzenlenmesi için mahkemeye başvurabilir. Bağımsız bölümlerden her birine bu fıkra uyarınca tahsis edilen arsa payı, o bölümlerin değerinde sonradan meydana gelen çoğalma veya azalma sebebiyle değiştirilemez. 44 üncü madde hükmü saklıdır.\n(Değişik üçüncü fıkra: 23/6/2009-5912/1 md.) Kat irtifakı arsa payına bağlı bir irtifak çeşidi olup, yapının tamamı için düzenlenecek yapı kullanma izin belgesine dayalı olarak, bu Kanunda gösterilen şartlar uyarınca kat mülkiyetine resen çevrilir. Bu işlem, arsa malikinin veya kat irtifakına sahip ortak maliklerden birinin istemi ile dahi gerçekleştirilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "4",
+   "official_text": "IV - Ortak yerler:\nMadde 4 – Ortak yerlerin konusu sözleşme ile belirtilebilir. Aşağıda yazılı yerler ve şeyler bu Kanun gereğince her halde ortak yer sayılır.\na) Temeller ve ana duvarlar, taşıyıcı sistemi oluşturan kiriş, kolon ve perde duvarlar ile taşıyıcı sistemin parçası diğer elemanlar,bağımsız bölümleri ayıran ortak duvarlar, tavan ve tabanlar, avlular, genel giriş kapıları, antreler, merdivenler, asansörler, sahanlıklar, koridorlar ve buralardaki genel tuvalet ve lavabolar, kapıcı daire veya odaları, genel çamaşırlık ve çamaşır kurutma yerleri, genel kömürlük ve ortak garajlar, elektrik, su ve havagazı saatlerinin korunmasına mahsus olup bağımsız bölüm dışında bulunan yuvalar ve kapalı kısımlar, kalorifer daireleri, kuyu ve sarnıçlar, yapının genel su depoları, sığınaklar,[1]\nb) Her kat malikinin kendi bölümü dışındaki kanalizasyon tesisleri ve çöp kanalları ile kalorifer, su, havagazı ve elektrik tesisleri, telefon, radyo ve televizyon için ortak şebeke ve antenler sıcak ve soğuk hava tesisleri,\nc) Çatılar, bacalar, genel dam terasları, yağmur olukları, yangın emniyet merdivenleri.\nYukarıda sayılanların dışında kalıp da, yine ortaklaşa kullanma, korunma veya faydalanma için zaruri olan diğer yerler ve şeyler de (Ortak yer) konusuna girer.\nB) Bağlantılar :\n[1] 14/11/2007 tarihli ve 5711 sayılı Kanunun 2 nci maddesiyle; bu bende \"Temeller ve ana duvarlar,\" ibaresinden sonra gelmek üzere \"taşıyıcı sistemi oluşturan kiriş, kolon ve perde duvarlar ile taşıyıcı sistemin parçası diğer elemanlar,\" ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "5",
+   "official_text": "I - Bağımsız bölümlerle arsa payı arasındaki bağlantı:\nMadde 5 – Kat mülkiyetinin başkasına devri veya miras yoluyla geçmesi halinde, ona bağlı arsa payı da birlikte geçer; arsa payı, kat mülkiyetinden veya kat irtifakından ayrı olarak devredilemiyeceği gibi, miras yoluyla da geçmez ve başka bir hakla kayıtlanamaz.\nAnagayrimenkulde, kat mülkiyetine bağlanmamış veya lehine kat irtifakı kurulmamış arsa payı bırakılamaz.\nKat mülkiyetini kayıtlayan haklar, kendiliğinden arsa payını da kayıtlar.\nKat irtifakına konu olan arsa üzerinde bu hakla bağdaşması mümkün olmayan irtifaklar kurulamaz.\nAnagayrimenkulde kat mülkiyetinin kurulmasından önce o gayrimenkulün kütükteki sayfasına tescil veya şerhedilmiş olan haklar kat mülkiyetini de, kaide olarak arsa payı oranında, kendiliğinden kayıtlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "6",
+   "official_text": "II - Bağımsız bölümlerle eklentiler ve ortak yerler arasındaki bağlantı:\nMadde 6 – Bir bağımsız bölümün dışında olup, doğrudan doğruya o bölüme tahsis edilmiş olan kömürlük, su deposu, garaj, elektrik, havagazı veya su saati yuvaları, tuvalet gibi eklentiler, ait olduğu bağımsız bölümün bütünleyici parçası sayılır ve o bölümün maliki, eklentilerin de tek başına maliki olur.\nEklentiler kat mülkiyeti kütüğünün (Beyanlar) hanesine kaydedilir ve bunlardan anayapının oturduğu zeminin dışında kalanlar kadastro planında veya tapu haritasında ayrıca gösterilir.\nBağımsız bölüm üzerinde kat mülkiyetiyle ve diğer kat maliklerinin haklariyle bağdaşması mümkün olmayan irtifaklar kurulamaz.\nBağımsız bölümlerin başkasına devri, kayıtlanması veya kiralanması halinde, eklentiler ve ortak yerler de kendiliğinden devredilmiş, kayıtlanmış vaya kiralanmış olur.\nC) Ortaklığın (Şüyuun) giderilmesi ve öncelikle satınalma (Şüf'a) hakkı:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "7",
+   "official_text": "I - Ortaklığın giderilmesi:\nMadde 7 – Kat mülkiyetine veya kat irtifakına tabi olan gayrimenkulde ortaklığın giderilmesi istenemez.\nBağımsız bölümler, bağımsız bir gayrimenkul gibi dava ve takip konusu olabilir bunlarda ortaklığın giderilmesi istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "8",
+   "official_text": "II- Öncelikle satınalma hakkı:\nMadde 8 – (Değişik birinci fıkra: 13/4/1983 - 2814/3 md.) Kat mülkiyeti kurulmuş bir gayrimenkulün bağımsız bölümlerinden birinin veya kat irtifakı bağlanmış arsa payının satılması halinde diğer kat maliklerinin veya irtifak hakkı sahiplerinin öncelikle satın alma hakkı yoktur.\nBir bağımsız bölümün paydaşlarından birinin kendi payını başkasına satması halinde öteki paydaşlar, öncelikle satınalma hakkını kullanabilirler.\nSözleşmede bu maddenin aksine hüküm konulabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "9",
+   "official_text": "D) Genel hükümlerin uygulanma alanı:\nMadde 9 – Kat mülkiyetine veya kat irtifakına ait kütük kaydında veya kat malikleri arasındaki sözleşmede veya yönetim planında veya bu kanunda hüküm bulunmayan hallerde, kat mülkiyetinden doğan anlaşmazlıklar, Medeni Kanun ve ilgili diğer kanunlar hükümlerine göre karara bağlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "10",
+   "official_text": "A) Genel kural:\nMadde 10 – Kat mülkiyeti ve kat irtifakı resmi senetle ve tapu siciline tescil ile doğar.\nAnagayrimenkulün tümünün mülkiyeti (Kat mülkiyeti) ne çevrilmeden o gayrimenkulün yalnız bir veya birkaç bölümü üzerinde kat mülkiyeti kurulamaz.\n(Değişik üçüncü fıkra: 14/11/2007-5711/3 md.) Kat mülkiyeti kurulurken aynı katta birbirine bitişik bulunan aynı nevideki birden fazla bağımsız bölüm veya bir yapının otel, iş veya ticaret yeri gibi iktisadî açıdan veya kullanma bakımından bütünlük arz eden birden çok katı veya bölümü, kat mülkiyeti kütüğüne tek bağımsız bölüm olarak tescil edilebilir. Böyle bir tescilin yapılabilmesi için, buna uygun değişiklik projesinin ve yapı kullanma izin belgesinin Tapu Sicil Müdürlüğüne verilmiş olması gereklidir.\n(Değişik dördüncü fıkra: 15/2/2018-7099/4 md.) Kat mülkiyetinin tescili, tapu memurunca düzenlenen resmî senet uyarınca veya aşağıdaki fıkralara göre yapılabilir.\n(Ek fıkra: 15/2/2018-7099/4 md.) Hak sahiplerine isabet eden bağımsız bölümlerin belirlenmiş olması şartıyla arsa maliki ile yüklenici arasında düzenlenen kat karşılığı inşaat sözleşmesi, kat karşılığı temlik sözleşmesi veya bağımsız bölümlerin taksimine ilişkin noterlik sözleşmesine istinaden inşa edilecek olan binaya ilişkin (…)2 kat irtifakı ve kat mülkiyeti tesisi işlemi, yüklenici tarafından talep edilmesi halinde ilgili idare tarafından yapılır. Tapuya tescil işlemlerinde elektronik ortamda düzenlenen ve ilgili idare tarafından onaylı mimari proje ile yönetim planı esas alınır. Mimari proje ile yönetim planında malik imzası aranmaz.[2]\n(Ek fıkra: 15/2/2018-7099/4 md.) (Değişik altıncı fıkra:9/6/2021-7327/11 md.) Yapı kullanma izin belgesi düzenlenen tüm yapıların cins değişikliği işlemleri resen yapılır. Yapı kullanma izin belgesini düzenlemeye yetkili idare tarafından Mekânsal Adres Kayıt Sistemine yüklenerek elektronik ortamda kadastro müdürlüğüne gönderilen yapı kullanma izin belgesi ile yapı aplikasyon projesine göre kadastro müdürlüğünce tescil bildirimi düzenlenir. Tapu müdürlüğüne gönderilen tescil bildirimi üzerine başkaca bir belge aranmaksızın cins değişikliği resen tescil edilir. Cins değişikliği yapılmış taşınmaz kat irtifakı tesisli ise, kat irtifakının tesciline ait resmî senede ve 12 nci maddede yazılı belgelere dayalı olarak başkaca bir belge aranmaksızın resen kat mülkiyetine çevrilir. Bu işlemler, döner sermaye hizmet bedelinden muaftır.\nKat mülkiyetine konu olmaya elverişli bir gayrimenkul üzerindeki ortaklığın giderilmesi davalarında, mirasçılardan veya ortak maliklerden biri, paylaşmanın, kat mülkiyeti kurulması ve bağımsız bölümlerin tahsisi suretiyle yapılmasını isterse, hakim, o gayrimenkulün mülkiyetinin, 12 nci maddede yazılı belgelere dayanılarak kat mülkiyetine çevrilmesine ve paylar denkleştirilmek suretiyle bağımsız bölümlerin ortaklara ayrı ayrı tahsisine karar verebilir.\n(Ek fıkra: 14/11/2007-5711/3 md.) Gelirinin ortak giderlere harcanması için veya başka bir amaçla ortak yararlanmaya tahsis edilen bağımsız bölümlerin malik hanesine, bunlardan yararlanan \"bağımsız bölümlerin numaraları\" yazılmak suretiyle kat mülkiyeti kütüğüne tescil edilir. Bu husus bağımsız bölümlerin beyanlar hanesinde gösterilir.\n[2] 9/6/2021 tarihli ve 7327 sayılı Kanunun 11 inci maddesiyle, bu fıkranın birinci cümlesinde yer alan “kat karşılığı temlik sözleşmesi ve” ibaresi “kat karşılığı temlik sözleşmesi veya” şeklinde değiştirilmiş, cümlede yer alan “cins değişikliği,” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "11",
+   "official_text": "B) Kat mülkiyeti kütüğü:\nMadde 11 – (Değişik: 14/11/2007-5711/4 md.)\nKat mülkiyeti ve kat irtifakı, Tapu Sicili Tüzüğüne göre tutulacak kat mülkiyeti kütüğüne tescil olunur. Bu Kanunda aksine hüküm olmadıkça, tescille ilgili genel hükümler, kat mülkiyeti kütüğüne yapılacak tescillerde de uygulanır.\nHenüz kadastrosu yapılmamış olan yerlerde kat mülkiyeti ve kat irtifakı, Tapu Sicili Tüzüğündeki formüle göre, ayrıca tutulacak Kat Mülkiyeti Zabıt Defterine tescil olunur.\nC) Kat mülkiyetinin kurulması:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "12",
+   "official_text": "I - İstem ve belgeler:\nMadde 12 – (Değişik: 14/11/2007-5711/5 md.)\nKat mülkiyetinin kurulması için, anagayrimenkulün kat mülkiyetine çevrilmesi hususunda o gayrimenkulün maliki veya bütün paydaşlarının aşağıda yazılı belgeler ile birlikte tapu idaresinde istemde bulunması gerekir:\na) (Değişik: 15/2/2018-7099/5 md.) Anagayrimenkulde, yapı veya yapıların dış cepheler ve iç taksimatı bağımsız bölüm, eklenti, ortak yerlerinin ölçüleri ve bağımsız bölümlerin konum ve büyüklüklerine göre hesaplanan değerleriyle oranlı arsa payları, kat, daire, iş bürosu gibi nevi ile bunların birden başlayıp sırayla giden numarası ve bağımsız bölümlerin yapı inşaat alanı da açıkça gösterilmek suretiyle, proje müellifi mimar tarafından yapılan, yetkili kamu kurum ve kuruluşlarınca anagayrimenkulün maliki veya bütün paydaşlarının imzaları alınarak onaylanan ve elektronik ortamda tapu müdürlüğüne gönderilen mimarî proje ile yapı kullanma izin belgesi.\nb) Bağımsız bölümlerin kullanılış tarzına, birden çok yapının varlığı halinde bu yapıların özelliğine göre 28 inci maddedeki esaslar çerçevesinde hazırlanmış, kat mülkiyetini kuran malik veya malikler tarafından imzalanmış bir yönetim plânı.\nc) (Mülga: 23/6/2009-5912/2 md.)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "13",
+   "official_text": "II - Sözleşme ve tescil:\nMadde 13 – (Değişik birinci fıkra: 13/4/1983-2814/5 md.) Tapu memuru kendisine verilen belgelerin tamam ve usulüne uygun ve dilekçeyi verenlerin veya istemde bulunanların yetkili olduklarına kanaat getirdikten sonra, kat mülkiyeti veya kat irtifakı kurulmasına dair resmi sözleşmeyi düzenler. Bu sözleşme aynı zamanda tescil istemi sayılır.\n(Değişik ikinci fıkra: 14/11/2007-5711/6 md.) Sözleşme düzenlenince kat irtifakının kat mülkiyetine çevrilmesinde kat irtifakının kayıtlı olduğu kat mülkiyeti kütüğü sayfasındaki, doğrudan doğruya kat mülkiyetinin kurulması halinde ise anagayrimenkulün kayıtlı bulunduğu tapu kütüğü sayfasındaki mülkiyet hanesine \"Bu gayrimenkulün mülkiyeti kat mülkiyetine çevrilmiştir.\" ibaresi yazılarak, sayfa anagayrimenkulün leh ve aleyhine tesis edilecek irtifak hakları dışındaki işlemlere kapatılır ve kat mülkiyetine konu olan her bağımsız bölüm, kat mülkiyeti kütüğünün ayrı bir sayfasına o bölüme bağlı arsa payı ve anagayrimenkulün kayıtlı bulunduğu genel kütükteki pafta, ada, parsel, defter ve sayfa numaraları gösterilmek suretiyle tescil edilir; anagayrimenkulün kayıtlı bulunduğu genel kütük sayfasına da, bağımsız bölümlerin kat mülkiyeti kütüğündeki defter ve sayfa numaraları işlenmek suretiyle, kütükler arasında bağlantı sağlanır.\n(Değişik üçüncü fıkra: 14/11/2007-5711/6 md.) Anagayrimenkulün sayfasında evvelce mevcut olan haklara ait sicil kaydı, irtifak hakları hariç, bağımsız bölümlerin kat mülkiyeti kütüğündeki sayfasına geçirilir. Anagayrimenkulün mülkiyetinin kat mülkiyetine çevrilmesinden sonra, anagayrimenkulün leh ve aleyhine tesis edilecek irtifak hakları da anagayrimenkulün tapu kütüğü sayfasına tescil edilir ve kat mülkiyeti kütüğünün beyanlar hanesinde belirtilir.\nKat mülkiyeti kütüğüne tescil edilen her bağımsız bölüm ayrı bir gayrimenkul niteliğini kazanır ve kütükte o bölümün tasdikli planındaki numarayı alır.\n(Değişik: 13/4/1983-2814/5 md.) Kat malikine, anagayrimenkulun çaplı tasarruf belgesinden başka, istem halinde, 12 nci maddenin (a) bendinde belirtilen projeden kendi bağımsız bölümüne ait olan kısmının tasdikli bir örneği de verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "14",
+   "official_text": "D) Kat irtifakının kurulması:\nMadde 14 – (Değişik birinci fıkra: 23/6/2009-5912/3 md.) Henüz yapı yapılmamış veya yapısı tamamlanmamış bir arsa üzerinde kat irtifakının kurulması ve tapu siciline tescil edilmesi için o arsanın malikinin veya bütün paydaşlarının buna ait istem ile birlikte 12 nci maddenin birinci fıkrasının (a) bendine uygun olarak düzenlenen, yetkili kamu kurum ve kuruluşlarınca anagayrimenkulün maliki veya bütün paydaşlarının imzaları alınarak onaylanan ve elektronik ortamda tapu müdürlüğüne gönderilen proje ile (b) bendindeki yönetim plânını tapu idaresine vermeleri lazımdır. Kat mülkiyetine geçişte ayrıca yönetim plânı istenmez.[3]\nBir arsa üzerinde kat irtifakları ancak sözleşmede veya dilekçede her kat irtifakının ilgili bulunduğu bağımsız bölüme tahsisi istenen arsa payı, arsanın kayıtlı olduğu kütüğün (Beyanlar) hanesinde belirtilmek suretiyle kurulur ve yapının, verilen projeye göre tamamlanmasından sonra kat mülkiyetine konu olacak bağımsız bölümlerinin numarası ve bu bölümlere bağlı eklentiler kütüğün beyanlar hanesinde belirtilir.\n(Değişik üçüncü fıkra: 23/6/2009-5912/3 md.) (Mülga fıkra:9/6/2021-7327/12 md.)\n(Ek fıkra: 14/11/2007-5711/7 md.; Mülga: 23/6/2009-5912/3 md.)\n[3] 15/2/2018 tarihli ve 7099 sayılı Kanunun 6 ncı maddesiyle; bu fıkrada yer alan “12 nci maddenin (a) bendine uygun olarak düzenlenen” ibaresi “12 nci maddenin birinci fıkrasının (a) bendine uygun olarak düzenlenen, yetkili kamu kurum ve kuruluşlarınca anagayrimenkulün maliki veya bütün paydaşlarının imzaları alınarak onaylanan ve elektronik ortamda tapu müdürlüğüne gönderilen” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "15",
+   "official_text": "I - Bağımsız bölüm üzerinde:\nMadde 15 – Kat malikleri kendilerine ait bağımsız bölümler üzerinde, bu kanunun ilgili hükümleri saklı kalmak şartiyle, Medeni Kanunun maliklere tanıdığı bütün hak ve yetkilere sahiptirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "16",
+   "official_text": "II - Ortak yerler üzerinde :\nMadde 16 – Kat malikleri anagayrimenkulün bütün ortak yerlerine, arsa payları oranında, ortak mülkiyet hükümlerine göre malik olurlar.\nKat malikleri ortak yerlerde kullanma hakkına sahiptirler; bu hakkın genel kömürlük, garaj, teras, çamaşırhane ve çamaşır kurutma alanları gibi yerlerdeki ölçüsü, aksine sözleşme olmadıkça, her kat malikine ait arsa payı ile oranlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "17",
+   "official_text": "B) Kat irtifakı sahibinin hakları:\nMadde 17 – Kat irtifakı sahipleri, ortak arsa üzerinde yapılacak yapının, sözleşmede yazılı süre içinde başlaması ve tamamlanması için kendilerine düşen borçların yerine getirilmesini, karşılıklı olarak isteme ve dava etme hakkına sahiptirler.\n(Değişik: 13/4/1983 -2814/7 md.) Kat irtifakı sahipleri yapının tamamlanması için kendi aralarından veya dışarıdan bir veya birkaç kişiyi yönetici olarak tayin edebilirler. Kat mülkiyeti yöneticisinin görev, yetki ve sorumluluklarına dair hükümler, bu yönetici hakkında da uygulanır.\n(Ek: 13/4/1983 - 2814/7 md.) Kat irtifakı kurulmuş gayrimenkullerde yapı fiilen tamamlanmış ve bağımsız bölümlerin üçte ikisi fiilen kullanılmaya başlanmışsa, kat mülkiyetine geçilmemiş olsa dahi anagayrimenkulün yönetiminde kat mülkiyeti hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "26",
+   "official_text": "B) Kat irtifakı sahiplerinin borçları:\nMadde 26 – Kat irtifakı sahipleri bu hakka konu olan ortak arsa üzerinde, ileride kat mülkiyetine çevrilmek üzere yapılacak yapının sözleşmeye ve plana göre tamamlanması için kendilerine düşen borçları vaktinde yerine getirmek ve yapı işini, doğruluk kaideleri uyarınca kolaylaştırmakla, karşılıklı olarak yükümlüdürler.\n(Değişik ikinci fıkra: 14/11/2007-5711/13 md.) Kat irtifakı sahiplerinden biri kendine düşen borçları, noter aracılığıyla yapılan ihtara rağmen, bu ihtar tarihinden başlayarak iki ay içinde yerine getirmezse diğerlerinin yazılı istemi üzerine hâkim, onun arsa payının ve kat irtifakının hükme en yakın tarihteki değeri karşılığında, öteki paydaşlara, arsa payları oranında devrine karar verir.\nKat irtifakı sahiplerinden birinin kusuru yüzünden, yapının kanuni süre içinde yapılamaması sebebiyle kat irtifakı düşerse, kusurlu taraf diğerlerinin bu yüzden uğradıkları zararı tazminle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "44",
+   "official_text": "III- Bağımsız bölüm ilavesi:\nMadde 44 – Anagayrimenkulün üstüne kat ilavesi veya mevcut çekme kat yerine tam kat yapılması veya zemin veya bodrum katlarında veya arsanın boş kısmında 24 üncü maddenin ikinci fıkrasında yazılı yerlerin sonradan yapımı veya ilavesi için:\na) Kat malikleri kurulunun buna oybirliğiyle karar vermesi;\nb) Anagayrimenkulün bu inşaattan sonra alacağı duruma göre, yapılan yeni ilaveler de dahil olmak üzere bütün bağımsız bölümlerine tahsis olunacak arsa paylarının, usulüne göre yeniden ve oybirliğiyle tesbit edilmesi;\nc) İlave edilecek yeni bağımsız bölüme tahsis edilen arsa payı üzerinde, tapu memuru huzurunda yapılacak resmi senetle, 14 üncü maddeye göre kat irtifakı kurularak bunun, anagayrimenkulün bütün bağımsız bölümlerinin kat mülkiyeti kütüğündeki irtifaklar hanesine tescil edilmesi ve anagayrimenkulün kapanan eski kütük sayfasiyle 13 üncü madde hükmüne göre bağlantı sağlanması;\nŞarttır.\nBu nitelikteki ilave ve genişletmelere muvafakat etmekle beraber kendisi katılmak istemiyen kat maliklerinin arsa paylarından, bu ilaveler sebebiyle azalan kısmın, ilaveyi yaptıranların bağımsız bölümlerine tahsisini kabul ettikleri, resmi senette belirtilir.\nBu takdirde, yeni bağımsız bölümün yapılmasına katılmıyan kat maliklerinin arsa paylarından yeni tahsis sebebiyle azalan kısmın bedeli kendilerine ödenmek şartiyle, yeni yapılan bağımsız bölüm, kat irtifakı kurulmasına dair olan eski resmi senet gereğince kat mülkiyetine çevrilerek onu yaptıranın mülkü veya yaptıranların ortak mülkü olur ve kat mülkiyeti kütüğünün ayrı bir sayfasına yeni malik veya malikler adına tescil edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "46",
+   "official_text": "I - Anagayrimenkulün arsasiyle birlikte yok olması veya kamulaştırılması ile:\nMadde 46 – Kat mülkiyeti, kat mülkiyeti kütüğündeki sicil kaydının silinmesiyle sona erer.\nAnagayrimenkulün bütün bağımsız bölümlerinin bir tek kişinin mülkiyetinde toplanmasiyle kat mülkiyeti kendiliğinden sona ermez.\nSicil kaydı, bütün kat maliklerinin veya bütün bağımsız bölümleri kendi mülkiyetinde toplamış bulunan malikin, anagayrimankuldeki kat mülkiyetinin adi mülkiyete çevrilmesine ait yazılı istemi üzerine silinir ve o gayrimenkul, müstakil bölümlere bağlı arsa paylarına göre, genel kütükte yeni bir sayfaya gaçirilerek ve eski kayıtlariyle bağlantı sağlanmak suretiyle tescil olunur. Anagayrimenkulün niteliğinde kat mülkiyetinin kurulmasından sonra değişiklikler olmuşsa, yeni sicil kaydına bunlar da yazılır.\nBağımsız bölümlerden biri bir ayni hakla veya sicile şerh verilen bir şahsi hakla kayıtlanmış bulunuyorsa, hak sahibinin muvafakatiyle o hak kütükten silinmedikçe, anagayrimenkul üzerindeki kat mülkiyetinin adi mülkiyete çevrilmesi ve kat mülkiyeti kütüğündeki sicil kaydının silinmesi istenemez.\nKayıtlayıcı hakkın sahibi, sicil kaydının silinmesine muvafakat etmemekle beraber hakkının yalnız borçluya ait mülkiyet payına veya hakkın niteliğine göre, bütün ortak mülkiyet paylarına aktarılmasına muvafakat ederse bu hak sicilden silinmeksizin yalnız borçlunun, adi mülkiyet gayrimenkuldeki bütün ortak mülkiyet payları üzerine geçirilmek suretiyle genel kütüğe tescil olunur.\nAnagayrimenkulün arsasiyle birlikte tamamen yok olması veya kamulaştırılması halinde sicil kaydının silinmesi genel hükümlere göre yapılır.\nAnagayrimenkul kamulaştırılırsa, her bağımsız bölümün kamulaştırma bedeli bağlantılı bulunduğu arsa payı ve eklentileri de gözönünde tutularak ayrı ayrı takdir olunur ve o bölümün malikine ödenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "47",
+   "official_text": "II - Anayapının harap olması:\nMadde 47 – Anayapının tümü harap olmuşsa, anagayrimenkul üzerindeki kat mülkiyeti kendiliğinden sona erer.\nAnayapının bağımsız bölümlerinden biri tamamen harap olur ve o bölümün maliki iki yıl içinde bölümünü yeniden yaptırmazsa, diğer kat malikleri veya bunlardan bir kısmı, bu sürenin tamamlanmasından başlıyarak bir yıl içinde o bölüme ait arsa payının, değeri karşılığında ve arsa payları oranında kendilerine devredilmesini hakimden istiyebilirler. Bu halde devrolunan arsa payları kat mülkiyeti kütüğünün ilgili sayfalarının (Beyanlar) hanesine işaret olunur; arsa payını devralanlar, devraldıkları tarihten başlıyarak iki yıl içinde, harap olan bağımsız bölümü yeniden yaptırmaya veya aynı süre içerisinde bütün kat malikleri bağımsız bölümlere bağlı arsa paylarını bu kanunun 3 üncü maddesinin 2 nci fıkrasındaki esaslara göre yeniden hasaplıyarak kat mülkiyeti kütüğüne geçirtmeye mecburdurlar.\nYukardaki fıkra hükmüne uyulmadığı takdirde anagayrimenkul üzerindeki kat mülkiyeti kendiliğinden sona ererek, gerek o gayrimenkul ve gerek harap olan bölümler için alınan sigorta bedeli üzerinde ortak mülkiyet hükümleri uygulanır.\nBirden ziyade bağımsız bölüm tamamen harap olup da bunlardan birinin yeniden yapılması diğerinin yapılmasına bağlı bulunuyorsa, bağımsız bölümleri harap olan kat malikleri bunları yeniden yaptırıp yaptırmıyacaklarını, harabolma tarihinden başlıyarak altı ay içinde diğer kat maliklerine yazılı olarak bildirmeye mecburdurlar. (Değişik son cümle: 14/11/2007-5711/20 md.) Bildirmeyenlerin yeniden yaptırmak istemedikleri kabul olunur ve onların arsa payları, değeri karşılığında bölümlerini yeniden yaptırmak isteyenlere öncelikle devredilir.\nHarabolan bağımsız bölümler üzerindeki kat mülkiyeti bu maddede yazılı süreler devamınca kendiliğinden kat irtifakına çevrilir ve kat mülkiyeti kütüğünde beyanlar hanesine geçici şerh verilir. Bağımsız bölüm yapılınca onun üzerindeki kat mülkiyeti yeniden doğar ve geçici şerh kütükten silinir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "49",
+   "official_text": "B) Kat irtifakının sona ermesi:\nMadde 49 – Kat irtifakına konu olan arsanın maliki veya ortak malikleri, tapu memuruna verecekleri yazılı bir beyanla kat irtifakına ait sicil kaydını sildirerek bu irtifaka her zaman son verebilirler.\nKat irtifakı, buna konu olan arsanın tamamiyle yok olması veya üzerinde yapı yapılamıyacak hale gelmesi veya kamulaştırılması ile kendiliğinden sona erer.\n(Değişik fıkra: 13/4/1983 - 2814/14 md.) Kat irtifakına konu olan arsa üzerinde, bu irtifakın kurulması sırasında verilen plana göre beş yıl içinde yapı yapılmazsa maliklerden birinin istemi üzerine, sulh hakimi, gerektiğinde ilgilileri de dinleyerek, duruma göre kat irtifakının sona ermesine veya belli bir süre için uzatılmasına karar verir. Süre istem üzerine yeniden uzatılabilir.\n(Değişik fıkra: 13/4/1983 - 2814/14 md.) Yukarıdaki fıkra uyarınca kat irtifakı kaldırıldığında tapu kütüğündeki kayıt silinir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "50",
+   "official_text": "A) Yasaklar:\nMadde 50 – Bu kanun yürürlüğe girdikten sonra Medeni Kanuna ve diğer kanunlara göre, bir gayrimenkulün paydaşlarından birinin o gayrimenkulün bir bölümünden kat maliki gibi tek başına faydalanmasını sağlamak için irtifak hakkı kurulamaz.\nTümü kârgir olmıyan yapılarda kat mülkiyeti kurulamaz.\nB) Yeni duruma uyma :",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAT MÜLKİYETİ KANUNU",
+   "law_no": "634",
+   "article_no": "66",
+   "official_text": "Kapsam\nMadde 66 – (Ek: 14/11/2007-5711/22 md.)\nToplu yapı, bir veya birden çok imar parseli üzerinde, belli bir onaylı yerleşim plânına göre yapılmış veya yapılacak, alt yapı tesisleri, ortak kullanım yerleri, sosyal tesis ve hizmetler ile bunların yönetimi bakımından birbirleriyle bağlantılı birden çok yapıyı ifade eder.\nToplu yapı kapsamındaki imar parsellerinin bitişik veya komşu olmaları şarttır. Ancak bu parseller arasında kalan ve imar plânına göre yol, meydan, yeşil alan, park, otopark gibi kamuya ayrılan yerler için bu şart aranmaz. Toplu yapı kapsamındaki her imar parseli, kat irtifakının veya kat mülkiyetinin tesisinde ayrı ayrı dikkate alınır. Ancak, toplu yapı birden fazla imar parselini içeriyorsa, münferit parseller üzerinde toplu yapı hükümlerine tâbi olacak şekilde kat mülkiyeti ilişkisi kurulamaz.\nYapılar tamamlandıkça, tamamlanan yapılara ilişkin kat irtifakları kat mülkiyetine çevrilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=634&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "686",
+   "official_text": "1. Tanım\nMadde 686- Bir şeye ilişkin tasarruflar, aksi belirtilmedikçe onun eklentisini de kapsar.\nEklenti, asıl şey malikinin anlaşılabilen arzusuna veya yerel âdetlere göre, işletilmesi, korunması veya yarar sağlaması için asıl şeye sürekli olarak özgülenen ve kullanılmasında birleştirme, takma veya başka bir biçimde asıl şeye bağlı kılınan taşınır maldır.\nEklenti, asıl şeyden geçici olarak ayrılmakla bu niteliğini kaybetmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "704",
+   "official_text": "A. Taşınmaz mülkiyetinin konusu\nMadde 704- Taşınmaz mülkiyetinin konusu şunlardır:\n1. Arazi,\n2. Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar,\n3. Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler.\nB. Taşınmaz mülkiyetinin kazanılması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "726",
+   "official_text": "3. Üst hakkı\nMadde 726- Bir üst irtifakına dayalı olarak başkasına ait bir arazinin altında veya üstünde sürekli kalmak üzere inşa edilen yapıların mülkiyeti, irtifak hakkı sahibine ait olur.\nBir binanın başlı başına kullanılmaya elverişli bağımsız bölümleri üzerinde kat mülkiyeti veya kat irtifakı kurulması, Kat Mülkiyeti Kanununa tâbidir.\nBağımsız bölümler üzerinde ayrıca üst hakkı kurulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "998",
+   "official_text": "a. Kaydedilecek taşınmazlar\nMadde 998- Tapu siciline taşınmaz olarak şunlar kaydedilir:\n1. Arazi,\n2. Taşınmazlar üzerindeki bağımsız ve sürekli haklar,\n3. Kat mülkiyetine konu olan bağımsız bölümler.\nArazinin tapu siciline kaydı, özel kanun hükümlerine tâbidir.\nBağımsız ve sürekli hakların kaydedilmesi için gerekli koşullar ve usul Cumhurbaşkanınca çıkarılan yönetmelikle belirlenir. Süreklilik koşulunun gerçekleşmesi için hakkın süresiz veya en az otuz yıl süreli olması gerekir.[45]\nKat mülkiyetine konu olan bağımsız bölümlerin taşınmaz olarak kaydı, özel kanun hükümlerine tâbidir.\n[45] 2/7/2018 tarihli ve 700 sayılı KHK’nin 139 uncu maddesiyle, bu fıkralarda yer alan “tüzükle” ibaresi “Cumhurbaşkanınca çıkarılan yönetmelikle” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1007",
+   "official_text": "2. Sorumluluk\nMadde 1007- Tapu sicilinin tutulmasından doğan bütün zararlardan Devlet sorumludur.\nDevlet, zararın doğmasında kusuru bulunan görevlilere rücu eder.\nDevletin sorumluluğuna ilişkin davalar, tapu sicilinin bulunduğu yer mahkemesinde görülür.\nB. İşlemler",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2023/648",
+   "karar_no": "2025/512",
+   "decision_date": "10.09.2025",
+   "summary_md": "İzmir Konak'taki beş bağımsız bölümlü yapıda kat irtifakı kurulmuş ve her bölüme eşit 2/10 arsa payı verilmiştir. 4 numaralı bölümün malikleri, bölümlerinin daha büyük ve konumunun farklı olmasına rağmen düşük pay aldıklarını ileri sürerek arsa paylarının düzeltilmesini istemiştir; yapı riskli yapı olarak 6306 sayılı Kanun kapsamında yıkılacaktır. İlk derece mahkemesi, kuruluşta yalnız sayı hesabıyla eşit pay verildiği, konum, cephe, teras ve iklim gibi etkenlerin gözetilmediği gerekçesiyle davayı kabul ederek payları 9/44, 10/44, 10/44, 10/44 ve 5/44 olarak düzeltmiştir. Bölge adliye mahkemesi, bina istinaf aşamasında yıkıldığından KMK m. 47/1 gereği kat mülkiyetinin kendiliğinden sona erdiğini belirterek davanın konusuz kaldığına hükmetmiş; Yargıtay 5. Hukuk Dairesinin bozmasına rağmen direnmiştir. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozmuştur. Bina yıkılmış olsa da taraf iradesiyle yeni arsa payları belirlenerek kat irtifakı veya kat mülkiyeti kurulmamıştır; arsa hâline gelen taşınmazda kat malikleri arsa payı oranında ortak mülkiyet esaslarına göre malik olacağından hukuki yarar sürer. Arsa payının belirlenmesinde bölümlerin kat irtifakının kurulduğu tarihteki değerini etkileyen bütün unsurlar incelenmelidir. Konuya katkısı: Düzeltme davasında değerin kuruluş tarihine göre belirlendiğini ve yıkımın bu davayı kendiliğinden konusuz bırakmadığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1178749300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/2000",
+   "karar_no": "2021/690",
+   "decision_date": "03.06.2021",
+   "summary_md": "İzmir Karşıyaka'daki iki paydaşlı taşınmazda davacı satış yoluyla ortaklığın giderilmesini istemiş; davalı, taraflar arasındaki mal paylaşımı ve miras taksim sözleşmesine göre yapının 1. katının birine, 2. katının diğerine geçirileceğini belirterek kat mülkiyeti kurulması suretiyle aynen taksim talep etmiştir. İlk derece mahkemesi, eski meskenlerin yapı kullanma izni bulunmadığı ve ikinci katın imara aykırı yapıldığı gerekçesiyle kat mülkiyeti kurulamayacağını belirterek satışa karar vermiştir. Özel Daire bozmuş, mahkeme direnmiş, Hukuk Genel Kurulu direnme kararını oybirliğiyle bozmuştur. Kat mülkiyeti kurularak ortaklığın giderilmesi için ortaklardan birinin istemi, yapının kat mülkiyetine elverişli olması, bağımsız bölümler içermesi, her paydaşa en az bir bağımsız bölüm düşmesi ve KMK m. 12'deki belgelerin ibrazı gerekir; tümü kârgir olma şartı da aranır (KMK m. 50/2). Eksikler giderilebilecek nitelikteyse hemen kurulamaz sonucuna varılmamalı, mahkeme tamamlatma yoluna gitmelidir. Konuya katkısı: Kat mülkiyeti kurularak ortaklığın giderilmesinin şartlarını ve belge eksikliğinde önce tamamlatma gerektiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/686216900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "5. Hukuk Dairesi",
+   "esas_no": "2023/5840",
+   "karar_no": "2023/10859",
+   "decision_date": "13.11.2023",
+   "summary_md": "Konya Selçuklu'daki kat irtifaklı ana taşınmazda bağımsız bölüm malikleri, mevcut kat irtifakının fiilî duruma uymadığını ileri sürerek fiilî duruma uygun yeni kat irtifakının tespitini ve tescilini, olmazsa ortaklığın kat mülkiyetine geçilerek, o da olmazsa satış yoluyla giderilmesini istemiştir. Davalı, yeni kat irtifakına ancak belirli şartlarla muvafakat edeceğini bildirmiştir. İlk derece mahkemesi davayı reddetmiş, bölge adliye mahkemesi istinaf başvurusunu esastan reddetmiştir. Yargıtay 5. Hukuk Dairesi kararı oybirliğiyle onamıştır. Mevcut kat irtifakının yerine fiilî duruma uygun kat irtifakı kurulması kat maliklerinin oybirliğiyle yapacakları bir işlemdir; mahkeme maliklerin iradesinin yerine geçip onay vermiş sayılmalarına karar veremez. Satış talebi yönünden de KMK m. 7 gereği kat mülkiyetine ya da kat irtifakına tabi taşınmazda ortaklığın giderilmesi istenemez, yalnız bağımsız bölümlerde istenebilir. Konuya katkısı: KMK m. 7'deki yasağın kat irtifakı kurulu taşınmazı da kapsadığını ve kat irtifakının değiştirilmesinde hâkim kararının oybirliğinin yerini tutmadığını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1005532600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "KMK m. 1'e göre kat mülkiyeti ile kat irtifakı arasındaki temel fark hangi seçenekte doğru verilmiştir?",
+   "options": [
+    "Kat mülkiyeti tamamlanmış yapının bağımsız bölümleri üzerinde, kat irtifakı yapılmakta olan veya ileride yapılacak yapının bölümleri için kurulur.",
+    "Kat mülkiyeti sözleşmeyle, kat irtifakı tescille doğar.",
+    "Kat mülkiyeti tek malikli arsada, kat irtifakı yalnız paylı mülkiyetli arsada kurulabilir.",
+    "Kat mülkiyeti yalnız konutlarda, kat irtifakı yalnız iş yerlerinde kurulur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "KMK m. 1/1 tamamlanmış yapının bölümleri üzerinde bağımsız mülkiyet hakları kurulabileceğini, KMK m. 1/2 ise yapılmakta veya ileride yapılacak yapının bölümleri için irtifak hakları kurulabileceğini söyler. İkisi de resmî senetle ve tescille doğar (KMK m. 10/1); bölüm türü (kat, daire, iş bürosu, dükkân gibi) fark ölçütü değildir ve kuruluşu arsanın maliki ya da ortak malikleri yapar."
+  },
+  {
+   "stem_md": "Hasan, kat mülkiyeti kurulu binadaki 5 numaralı dairesini Selin'e satarken arsa payını kendisinde bırakıp yalnız daireyi devretmek istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Arsa payı ancak noter onaylı bir şerhle bölümden ayrılabilir.",
+    "Arsa payı bölüme bağlı olduğundan daireyle birlikte Selin'e geçer; ayrı bırakılamaz.",
+    "Taraflar anlaşırsa arsa payı bölümden ayrı olarak Hasan'da bırakılabilir.",
+    "Arsa payı ayrı bırakılabilir, ancak Selin'e önalım hakkı doğar."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kat mülkiyetinin devri hâlinde ona bağlı arsa payı da birlikte geçer; arsa payı kat mülkiyetinden veya kat irtifakından ayrı olarak devredilemez ve başka bir hakla kayıtlanamaz (KMK m. 5/1). Ayrıca anagayrimenkulde kat mülkiyetine bağlanmamış arsa payı bırakılamaz (KMK m. 5/2). Taraf anlaşması bu emredici bağlantıyı değiştirmez."
+  },
+  {
+   "stem_md": "Kat mülkiyeti kurulurken zemin kattaki dükkâna değerine uygun arsa payı verilmiştir. Yıllar sonra bir imar değişikliği binanın önündeki yolu genişletmiş ve dükkânın değeri iki katına çıkmıştır. Diğer kat malikleri dükkânın arsa payının artırılmasını ister. Hangisi doğrudur?",
+   "options": [
+    "Dükkân maliki talep ederse tapu müdürlüğü payı yeniden belirler.",
+    "Değer artışı olduğundan arsa payı kendiliğinden artar ve tapuda resen düzeltilir.",
+    "Her kat maliki, sonradan artan değere göre arsa paylarının yeniden düzenlenmesi için mahkemeye başvurabilir.",
+    "Tahsis edilen arsa payı, bölümün değerinde sonradan meydana gelen artış sebebiyle değiştirilemez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "KMK m. 3/2'ye göre bağımsız bölümlere tahsis edilen arsa payı, o bölümlerin değerinde sonradan meydana gelen çoğalma veya azalma sebebiyle değiştirilemez; kat ilavesi gibi KMK m. 44'ün kapsadığı hâller saklıdır. Mahkemeye başvuru hakkı, payın kuruluşta bölümlerin değerleriyle oranlı tahsis edilmediği hâllere ilişkindir. Sonradan oluşan değer farkı bu başvurunun konusu olamaz."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulu'na göre arsa payı düzeltme davasında bağımsız bölümlerin değeri hangi tarihe göre belirlenir?",
+   "options": [
+    "Yapı kullanma izin belgesinin düzenlendiği tarihe göre",
+    "Dava tarihine göre",
+    "Kat irtifakının (doğrudan kat mülkiyeti kurulmuşsa o kuruluşun) kurulduğu tarihe göre",
+    "Bilirkişi raporunun düzenlendiği tarihe göre"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Hukuk Genel Kurulu, arsa payının belirlenmesinde bağımsız bölümlerin kat irtifakının kurulduğu tarihteki değerini etkileyen bütün unsurların incelenmesi gerektiğini kabul etmiştir. Bu, KMK m. 3/2'deki ilkenin sonucudur: Pay kuruluşta değerle oranlı tahsis edilir, sonradan değişen değer payı değiştirmez. Dava veya rapor tarihindeki güncel değer ölçüt değildir."
+  },
+  {
+   "stem_md": "KMK m. 4'e göre aşağıdakilerden hangisi kanun gereği her hâlde ortak yer sayılır?",
+   "options": [
+    "Bir bağımsız bölümün içinde bulunan mutfak ve banyo",
+    "Bir malikin kendi bölümünde bulunan şömine",
+    "Yalnız 3 numaralı daireye tahsis edilmiş, dairenin dışındaki kömürlük",
+    "Taşıyıcı sistemi oluşturan kolon ve perde duvarlar"
+   ],
+   "correct_option": 3,
+   "explanation_md": "KMK m. 4/a temeller, ana duvarlar ve taşıyıcı sistemi oluşturan kiriş, kolon ve perde duvarlarla taşıyıcı sistemin parçası diğer elemanları her hâlde ortak yer sayar. Doğrudan bir bölüme tahsis edilen kömürlük ortak yer değil, o bölümün eklentisidir (KMK m. 2/a, m. 6/1). Bölümün kendi içindeki mutfak, banyo ve şömine ise bağımsız bölümün parçasıdır."
+  },
+  {
+   "stem_md": "Elif'in 1 numaralı dairesine, bodrumdaki iki kömürlükten biri projede doğrudan tahsis edilmiş ve beyanlar hanesine yazılmıştır. Elif dairesini Burak'a satar; senette kömürlükten ayrıca söz edilmez. Hangisi doğrudur?",
+   "options": [
+    "Kömürlük eklenti olduğundan bağımsız bölümün devriyle kendiliğinden Burak'a geçer.",
+    "Kömürlük ancak ayrıca resmî senetle devredilirse Burak'a geçer.",
+    "Kömürlük taşınır eşya olduğundan ancak zilyetliğin devriyle Burak'a geçer.",
+    "Kömürlük ortak yer olduğundan bütün kat malikleri arsa payı oranında maliktir ve Burak'a geçmez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Doğrudan bir bölüme tahsis edilen kömürlük eklentidir; bölümün bütünleyici parçası sayılır ve bölüm maliki eklentinin de tek başına malikidir (KMK m. 6/1). Bağımsız bölümün devri hâlinde eklentiler kendiliğinden devredilmiş olur (KMK m. 6/4). Taşınır olma özelliği TMK m. 686'daki eklentiye aittir; KMK'deki eklenti bir yerdir ve bölümle birlikte kendiliğinden geçer."
+  },
+  {
+   "stem_md": "Mehmet, Zeynep ve Can'ın paylı malik oldukları arsada üç daireli bir bina için kat irtifakı kurulmuştur. Can, aralarındaki anlaşmazlık yüzünden taşınmazın satılması suretiyle ortaklığın giderilmesini ister. Hangisi doğrudur?",
+   "options": [
+    "Ortaklığın giderilmesi istenebilir, ancak yapı tamamlanmadığı için satış yerine aynen taksim yapılır.",
+    "Ortaklığın giderilmesi istenebilir, çünkü yasak yalnız kat mülkiyetini kapsar.",
+    "Kat irtifakına tabi gayrimenkulde ortaklığın giderilmesi istenemez.",
+    "Ortaklığın giderilmesi yalnız diğer paydaşlar kabul ederse istenebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kat mülkiyetine veya kat irtifakına tabi olan gayrimenkulde ortaklığın giderilmesi istenemez (KMK m. 7/1). Yargıtay yasağın kat irtifakı kurulu taşınmazı da kapsadığını kabul etmektedir. Bu yasak anagayrimenkule yöneliktir; bir bağımsız bölümün paydaşları arasında ortaklığın giderilmesi istenebilir (KMK m. 7/2)."
+  },
+  {
+   "stem_md": "Ayşe, kat mülkiyeti kurulu binadaki 4 numaralı dairesini Okan'a satar. Aynı binada oturan kat maliki Ali, \"komşu ve kat maliki olarak önalım hakkım var\" diyerek dava açar. Kuruluş senedinde önalıma ilişkin bir hüküm yoktur. Hangisi doğrudur?",
+   "options": [
+    "Önalım hakkı vardır, ancak yalnız bedel gerçek değerinin altında gösterilmişse doğar.",
+    "Önalım hakkı vardır, ancak yalnız aynı katta oturan maliklere tanınır.",
+    "Diğer kat maliklerinin önalım hakkı yoktur; Ali'nin istemi reddedilir.",
+    "Ali arsa paylı paydaş olduğundan önalım hakkı vardır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 8/1'e göre bağımsız bölümlerden birinin satılması hâlinde diğer kat maliklerinin öncelikle satın alma hakkı yoktur. Önalım hakkı, ancak bir bağımsız bölümün paydaşları arasında doğar (KMK m. 8/2). Sözleşmede bu hükmün aksi kararlaştırılabilir (KMK m. 8/3); olayda böyle bir hüküm bulunmadığı için Ali'nin istemi yerinde değildir."
+  },
+  {
+   "stem_md": "Kat mülkiyeti ve kat irtifakı hangi anda doğar?",
+   "options": [
+    "Yönetim planı imzalandığında",
+    "Resmî senetle ve tapu siciline tescille",
+    "Arsa malikleri arasında noterde bir sözleşme yapıldığında",
+    "Yapı kullanma izin belgesi düzenlendiğinde"
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 10/1'e göre kat mülkiyeti ve kat irtifakı resmî senetle ve tapu siciline tescil ile doğar. Tapu memurunun düzenlediği resmî sözleşme aynı zamanda tescil istemi sayılır (KMK m. 13/1). Yönetim planı ve yapı kullanma izin belgesi kuruluşun belgeleridir (KMK m. 12); kuruluşu tek başlarına sağlamaz."
+  },
+  {
+   "stem_md": "Zeynep, on daireli ve tümü kârgir bir binanın yalnız zemin kattaki dükkânını bağımsız bölüm olarak kat mülkiyetine bağlatıp diğer bölümlerde bunu yaptırmak istememektedir. Hangisi doğrudur?",
+   "options": [
+    "Dükkân için kat mülkiyeti kurulabilir, kalan bölümler adi mülkiyet olarak kalır.",
+    "Dükkân malikinin tek başına istemi yeterlidir, diğer maliklerin katılımı gerekmez.",
+    "Anagayrimenkulün tümü kat mülkiyetine çevrilmeden yalnız bir veya birkaç bölüm üzerinde kat mülkiyeti kurulamaz.",
+    "Dükkân için ancak üst hakkı kurularak aynı sonuç sağlanabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 10/2'ye göre anagayrimenkulün tümünün mülkiyeti kat mülkiyetine çevrilmeden o gayrimenkulün yalnız bir veya birkaç bölümü üzerinde kat mülkiyeti kurulamaz. Bina bütünüyle kat mülkiyetine geçer ya da hiç geçmez. Toplu yapılarda tamamlanan yapıların ayrı ayrı çevrilebilmesi (KMK m. 66) ayrı bir kuraldır ve tek bir binadaki kısmi çevirmeyi mümkün kılmaz."
+  },
+  {
+   "stem_md": "Kat irtifakı kurulması için tapu idaresine verilecek belgeler hakkında hangisi doğrudur?",
+   "options": [
+    "Yalnız bağımsız bölümlerin listesi aranır.",
+    "Yapı kullanma izin belgesi, proje ve yönetim planı birlikte aranır.",
+    "Maliklerin imzalarıyla onaylanan proje ile yönetim planı verilir; yapı kullanma izin belgesi aranmaz.",
+    "Yalnız yönetim planı yeterlidir, proje aranmaz."
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 14/1'e göre kat irtifakı için arsanın maliki veya bütün paydaşları, KMK m. 12/1-a'ya uygun, maliklerin imzalarıyla onaylanıp elektronik ortamda gönderilen proje ile KMK m. 12/1-b'deki yönetim planını verir. Yapı kullanma izin belgesi, tamamlanmış yapı için aranan kat mülkiyeti belgesidir (KMK m. 12/1-a). Eski kaynaklardaki bağımsız bölüm listesi anlatımı güncel metne uymaz; arsa payları artık mimari projede gösterilir."
+  },
+  {
+   "stem_md": "Ali ve Ayşe yarı yarıya paylı malik oldukları arsada sekiz daireli bir apartman yaptırmak için kat irtifakı kurdurmak ister. Ali, Ayşe'nin imzası olmadan proje ve yönetim planıyla tek başına tapu müdürlüğüne başvurur. Olayda yüklenici yoktur. Hangisi doğrudur?",
+   "options": [
+    "Ali tek başına başvurabilir; Ayşe'nin imzası tescilden sonra mahkemece tamamlatılır.",
+    "Ali'nin payı yarı olduğundan istem geçerlidir ve kat irtifakı kurulur.",
+    "Paydaşların çoğunluğunun istemi yeterlidir ve çoğunluk Ali'dedir.",
+    "İstem arsanın malikinin veya bütün paydaşlarının olmalı ve proje bütün paydaşların imzalarıyla onaylanmalıdır; Ali tek başına kuramaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "KMK m. 14/1'e göre kat irtifakı için arsanın maliki veya bütün paydaşları istemde bulunur ve projeyi maliklerin imzalarıyla onaylatır (KMK m. 12/1-a). Ali ile Ayşe'nin payları eşittir, ama çoğunluk ölçütü zaten aranmaz. Yüklenici talebiyle idarece tesis (KMK m. 10/5) farklı bir yoldur ve olayda yüklenici bulunmadığından uygulanmaz."
+  },
+  {
+   "stem_md": "Mehmet, Zeynep ve Can'ın kat irtifakı kurulu arsası üzerindeki bina tamamlanmış ve yapının tamamı için yapı kullanma izin belgesi alınmıştır. Mehmet tek başına kat mülkiyetine geçilmesini ister; Zeynep ve Can karşı çıkar. Hangisi doğrudur?",
+   "options": [
+    "Geçiş için kat irtifakı sahiplerinin beşte dördünün kararı gerekir.",
+    "Geçiş yapı kullanma izin belgesine dayanılarak ortak maliklerden birinin istemiyle dahi yapılabilir; ayrıca yönetim planı istenmez.",
+    "Geçiş için kat irtifakı sahiplerinin tamamının oybirliği gerekir.",
+    "Geçiş yalnız yapı kullanma izin belgesi bulunmayan binalarda mümkündür."
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 3/3'e göre kat irtifakı, yapının tamamı için düzenlenecek yapı kullanma izin belgesine dayalı olarak kat mülkiyetine resen çevrilir; bu işlem arsa malikinin veya kat irtifakına sahip ortak maliklerden birinin istemiyle dahi yapılabilir. Kat mülkiyetine geçişte ayrıca yönetim planı istenmez (KMK m. 14/1). Oybirliği veya beşte dört aranmaz; yapı kullanma izin belgesi de geçişin dayanağıdır, yokluğu şart değildir."
+  },
+  {
+   "stem_md": "7327 sayılı Kanunla yeniden yazılan KMK m. 10/6'ya göre hangisi doğrudur?",
+   "options": [
+    "Bu işlemler için döner sermaye hizmet bedeli alınır.",
+    "Yapı kullanma izin belgesi düzenlenen yapılarda cins değişikliği resen yapılır; taşınmaz kat irtifaklıysa resmî senede ve KMK m. 12'deki belgelere dayanılarak başkaca belge aranmaksızın resen kat mülkiyetine çevrilir.",
+    "Cins değişikliği ve kat mülkiyetine geçiş yalnız malikin yazılı başvurusu üzerine yapılır.",
+    "Kat mülkiyetine geçişte yeniden yönetim planı düzenlenmesi zorunludur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "KMK m. 10/6'ya göre yapı kullanma izin belgesi düzenlenen tüm yapıların cins değişikliği işlemleri resen yapılır; cins değişikliği yapılmış taşınmaz kat irtifaklıysa, kat irtifakının tesciline ait resmî senede ve KMK m. 12'deki belgelere dayalı olarak başkaca belge aranmaksızın resen kat mülkiyetine çevrilir. Bu işlemler döner sermaye hizmet bedelinden muaftır. Geçişte ayrıca yönetim planı istenmez (KMK m. 14/1)."
+  },
+  {
+   "stem_md": "Kat irtifaklı 12 daireli bir binada yapı fiilen tamamlanmış ve 9 daire kullanılmaya başlanmıştır; kat mülkiyetine geçilmemiştir. Hangisi doğrudur?",
+   "options": [
+    "Kat mülkiyetine geçilmemiş olsa dahi anagayrimenkulün yönetiminde kat mülkiyeti hükümleri uygulanır.",
+    "Kat irtifakı sahipleri yönetici atayamaz; yönetici ancak kat mülkiyetinden sonra atanabilir.",
+    "Yönetim hükümlerinin uygulanması için bütün bağımsız bölümlerin kullanılmaya başlanması gerekir.",
+    "Kat mülkiyeti kendiliğinden doğmuştur; taşınmaz artık kat irtifaklı statüsünde değildir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "KMK m. 17/3'e göre kat irtifakı kurulmuş gayrimenkulde yapı fiilen tamamlanmış ve bağımsız bölümlerin üçte ikisi fiilen kullanılmaya başlanmışsa, kat mülkiyetine geçilmemiş olsa dahi yönetimde kat mülkiyeti hükümleri uygulanır. Olayda 12 bölümün üçte ikisi olan sekizden fazlası kullanılmaktadır. Bu hüküm mülkiyet statüsünü değiştirmez; üstelik kat irtifakı sahipleri yapının tamamlanması için zaten yönetici tayin edebilir (KMK m. 17/2)."
+  },
+  {
+   "stem_md": "Kat irtifakı sahiplerinin, yapının sözleşmede yazılı süre içinde başlaması ve tamamlanması için kendilerine düşen borçların yerine getirilmesini karşılıklı olarak isteme ve dava etme hakkı hangi hükümde düzenlenmiştir?",
+   "options": [
+    "KMK m. 10/6",
+    "KMK m. 26/2",
+    "KMK m. 17/1",
+    "KMK m. 14/1"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Tamamlanmayı karşılıklı olarak isteme ve dava etme hakkı KMK m. 17/1'dedir. KMK m. 26 ise kat irtifakı sahiplerinin borçlarını düzenler ve borcunu noter ihtarından sonra iki ay içinde yerine getirmeyenin payının devrini öngörür (KMK m. 26/2). KMK m. 14/1 kuruluşun belgelerini, KMK m. 10/6 yapı kullanma izin belgesine dayalı resen geçişi düzenler."
+  },
+  {
+   "stem_md": "Kat irtifakı sahibi Okan, payına düşen inşaat bedelini ödememiştir. Diğer kat irtifakı sahipleri noterden ihtar çeker; Okan ihtar tarihinden başlayarak iki ay içinde de borcunu yerine getirmez. Diğerleri yazılı istemde bulunur. Hangisi doğrudur?",
+   "options": [
+    "Devir, kat irtifakının kurulduğu tarihteki değer üzerinden yapılır.",
+    "Hâkim yalnız alacağın tahsiline karar verebilir; payın devri istenemez.",
+    "Hâkim, Okan'ın arsa payının ve kat irtifakının hükme en yakın tarihteki değeri karşılığında öteki paydaşlara arsa payları oranında devrine karar verir.",
+    "Okan'ın arsa payı kendiliğinden diğer paydaşlara geçer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 26/2'ye göre borcunu noter aracılığıyla yapılan ihtara rağmen ihtar tarihinden başlayarak iki ay içinde yerine getirmeyen kat irtifakı sahibinin arsa payı ve kat irtifakı, diğerlerinin yazılı istemi üzerine hâkim kararıyla, hükme en yakın tarihteki değeri karşılığında öteki paydaşlara arsa payları oranında devredilir. Devir kendiliğinden olmaz, hâkim kararı gerekir ve değer kuruluş tarihine göre değil hükme en yakın tarihe göre belirlenir."
+  },
+  {
+   "stem_md": "2019'da bir arsa üzerinde kat irtifakı kurulmuş, kuruluş sırasında verilen plana göre hiçbir yapı yapılmamıştır. 2025'te maliklerden Selim durumun çözülmesini ister. Hangisi doğrudur?",
+   "options": [
+    "Maliklerden birinin istemi üzerine sulh hâkimi, duruma göre kat irtifakının sona ermesine veya belli bir süre için uzatılmasına karar verir.",
+    "Kat irtifakı yalnız maliklerin yazılı beyanıyla sona erdirilebilir; hâkimden bu yönde istem yapılamaz.",
+    "Beş yıl dolduğu için kat irtifakı kendiliğinden sona ermiştir ve kayıt tapu müdürlüğünce re'sen silinir.",
+    "Süreyi uzatma yetkisi tapu müdürüne aittir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "KMK m. 49/3'e göre kat irtifakının kurulması sırasında verilen plana göre beş yıl içinde yapı yapılmazsa maliklerden birinin istemi üzerine sulh hâkimi, gerektiğinde ilgilileri dinleyerek, duruma göre sona ermeye veya belli bir süre için uzatmaya karar verir. Beş yılın dolması irtifakı kendiliğinden bitirmez. Kendiliğinden sona erme yalnız arsanın yok olması, üzerinde yapı yapılamaz hâle gelmesi veya kamulaştırılması hâllerindedir (KMK m. 49/2); maliklerin yazılı beyanıyla sona erdirme (KMK m. 49/1) ise ek bir yoldur."
+  },
+  {
+   "stem_md": "Mirasçılar Elif ve Burak, babalarından kalan, tümü kârgir, iki daireli ve kat mülkiyeti kurulmamış binada paylı maliktir. Burak satış yoluyla ortaklığın giderilmesini, Elif kat mülkiyeti kurularak her birine bir daire verilmesini ister. Hangisi doğrudur?",
+   "options": [
+    "Kat mülkiyeti kurulabilir, ancak bağımsız bölümler tahsis edilemez; ortaklık satışla giderilir.",
+    "Bina daha önce kat mülkiyetine çevrilmediği için kat mülkiyeti kurularak paylaşma yoluna gidilemez.",
+    "Ortaklardan biri isterse hâkim, KMK m. 12'deki belgelere dayanarak kat mülkiyetine çevirmeye ve paylar denkleştirilerek bağımsız bölümleri ortaklara tahsis etmeye karar verebilir.",
+    "Satış yoluyla giderme esastır; kat mülkiyeti kurulması için bütün ortakların rızası şarttır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "KMK m. 10/7'ye göre kat mülkiyetine konu olmaya elverişli bir gayrimenkulde ortaklığın giderilmesi davasında mirasçılardan veya ortak maliklerden biri isterse hâkim, mülkiyetin KMK m. 12'deki belgelere dayanılarak kat mülkiyetine çevrilmesine ve payları denkleştirerek bağımsız bölümlerin ortaklara ayrı ayrı tahsisine karar verebilir. Bütün ortakların rızası aranmaz. Uygulamada bu yol, kat mülkiyeti kurularak aynen taksim diye anılır; olayda tümü kârgir olma şartı da sağlanmıştır (KMK m. 50/2)."
+  },
+  {
+   "stem_md": "KMK'deki eklenti ile TMK m. 686'daki eklenti arasındaki fark hangi seçenekte doğru gösterilmiştir?",
+   "options": [
+    "TMK'da eklenti asıl şeye sürekli özgülenen taşınır maldır; KMK'de eklenti bağımsız bölümün dışında olup doğrudan o bölüme tahsis edilmiş yerdir ve bölümün bütünleyici parçası sayılır.",
+    "TMK'da eklenti taşınmazdır; KMK'de eklenti taşınırdır.",
+    "KMK'de eklenti bütün kat maliklerinin ortak malıdır; TMK'da tek malikin malıdır.",
+    "Fark yoktur; her iki kanunda da eklenti asıl şeyden ayrı bir bağımsız mülkiyet konusudur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 686/2'ye göre eklenti, asıl şeyin işletilmesi, korunması veya yarar sağlaması için ona sürekli olarak özgülenen ve ona bağlı kılınan taşınır maldır. KMK m. 2/a ve m. 6/1'deki eklenti ise bir bağımsız bölüme doğrudan tahsis edilmiş yerdir (kömürlük, garaj, tuvalet gibi); bölümün bütünleyici parçası sayılır, bölüm maliki tek başına maliktir. Bütün kat maliklerinin payı bulunan yerler eklenti değil ortak yerdir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali ile Ayşe, İstanbul Beylikdüzü'nde bulunan bir arsanın yarı yarıya paylı malikleridir. Arsada sekiz daireli, tümü kârgir bir apartman yaptırmak için mimara proje hazırlatmışlardır. Projede sekiz daireye de eşit 1/8 arsa payı verilmiştir; oysa 1 numaralı zemin kat daire bahçe kullanımıyla diğerlerinin yaklaşık iki katı büyüklüktedir ve çok daha değerlidir. Projede bodrumdaki sığınak \"9 numaralı bağımsız bölüm (depo)\" olarak gösterilmiştir.\n\nAli, Ayşe'nin imzasını almadan proje ve yönetim planıyla tapu müdürlüğüne başvurup arsa üzerinde kat irtifakı kurulmasını ister. Ayşe imza atmayı reddeder. Ali ayrıca, kat irtifakı kurulabilmesi için yapı kullanma izin belgesi alınması gerekip gerekmediğini sormaktadır.\n\nBir süre sonra Ayşe de projeyi imzalar ve kat irtifakı projedeki hâliyle kurulur. Üç yıl sonra bina tamamlanır, yapının tamamı için yapı kullanma izin belgesi düzenlenir, ama taşınmaz hâlâ kat irtifaklıdır. Ali kat mülkiyetine geçilmesini ister. Ayşe, \"Yeni bir yönetim planı yapılmadıkça ve ben imzalamadıkça geçiş olmaz\" der.\n\n1. Ali tek başına kat irtifakı kurdurabilir mi? Kat irtifakı için yapı kullanma izin belgesi aranır mı?\n2. Projedeki eşit arsa payları sorun doğurur mu? Payın ölçütü nedir, oransızlık varsa ne yapılabilir ve sonradan değer artışı payı etkiler mi?\n3. Sığınağın kanuna göre niteliği nedir?\n4. Ali'nin kat mülkiyetine geçiş isteminin Ayşe'nin itirazı karşısındaki durumu nedir?",
+   "rubric": [
+    {
+     "point": "Kat irtifakı isteminin arsa malikinden veya bütün paydaşlardan gelmesi; projenin bütün paydaşların imzalarıyla onaylanması; Ali'nin tek başına kuramaması",
+     "weight": 20,
+     "madde_ref": "KMK m. 14"
+    },
+    {
+     "point": "Kat irtifakında yapı kullanma izin belgesi aranmaması; proje ve yönetim planının verilmesi",
+     "weight": 10,
+     "madde_ref": "KMK m. 14"
+    },
+    {
+     "point": "Arsa payının bölümün konum ve büyüklüğüne göre hesaplanan değerle oranlı olması; değerleri çok farklı bölümlere eşit pay verilmesinin ölçüte uymaması",
+     "weight": 15,
+     "madde_ref": "KMK m. 3"
+    },
+    {
+     "point": "Oransızlıkta her kat maliki veya kat irtifakı sahibinin mahkemeye başvurabilmesi; kanunda süre öngörülmemesi; sonradan değer artışının payı değiştirmemesi",
+     "weight": 15,
+     "madde_ref": "KMK m. 3"
+    },
+    {
+     "point": "Sığınağın kanun gereği her hâlde ortak yer sayılması",
+     "weight": 10,
+     "madde_ref": "KMK m. 4"
+    },
+    {
+     "point": "Kat irtifakının yapının tamamı için düzenlenen yapı kullanma izin belgesine dayalı olarak resen kat mülkiyetine çevrilmesi; ortak maliklerden birinin istemiyle dahi yapılabilmesi; Ayşe'nin imzasının gerekmemesi",
+     "weight": 20,
+     "madde_ref": "KMK m. 3"
+    },
+    {
+     "point": "Geçişte ayrıca yönetim planı istenmemesi; 7327 sayılı Kanunla yeniden yazılan hükme göre başkaca belge aranmaksızın resen çevirme",
+     "weight": 10,
+     "madde_ref": "KMK m. 10"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayın ilk bölümü yapı henüz yapılmamış bir arsada kat irtifakının kuruluşuna, ikinci bölümü arsa payının ölçütüne, son bölümü kat irtifakından kat mülkiyetine geçişe ilişkindir.\n\n**Hukuki sorunlar:** (1) Kat irtifakı isteminin kimden geleceği ve hangi belgelerin aranacağı; (2) arsa paylarının ölçütü ve düzeltilmesi; (3) sığınağın niteliği; (4) geçiş için gerekli belge, istem ve ortak malik itirazının etkisi.\n\n**İlgili hükümler:** KMK m. 1, m. 2/c, m. 3/2-3, m. 4/a, m. 10/6, m. 12/1-a-b, m. 14/1.\n\n**Değerlendirme:**\n\n*1. Kuruluş:* Henüz yapı yapılmamış arsada kat irtifakı kurulabilir (KMK m. 1/2). Bunun için arsanın maliki veya bütün paydaşları istemde bulunur ve KMK m. 12/1-a'ya uygun, maliklerin imzalarıyla onaylanan projeyle KMK m. 12/1-b'deki yönetim planını tapu idaresine verir (KMK m. 14/1). Ali ile Ayşe paylı maliktir ve Ayşe imza atmamıştır; bu nedenle Ali tek başına kat irtifakı kurduramaz. Yüklenici talebiyle idarece yapılan tesis yolu (KMK m. 10/5) olayda uygulanamaz, çünkü yüklenici yoktur. Ali'nin sorusunun cevabı da olumsuzdur: Kat irtifakı için yapı kullanma izin belgesi aranmaz, yalnız proje ile yönetim planı verilir (KMK m. 14/1); izin belgesi tamamlanmış yapı için kat mülkiyetinde aranan belgedir (KMK m. 12/1-a).\n\n*2. Arsa payı:* Kat irtifakı, bağımsız bölümlerin konum ve büyüklüklerine göre hesaplanan değerleriyle oranlı olarak projede tahsis edilen arsa payının açıkça gösterilmesiyle kurulur (KMK m. 3/2). Bahçeli ve iki kat büyük 1 numaralı daireye diğerleriyle eşit 1/8 pay verilmesi değerle oranlılık ölçütüne uymaz. Paylar oransız tahsis edilmişse her kat maliki veya kat irtifakı sahibi, arsa paylarının yeniden düzenlenmesi için mahkemeye başvurabilir; kanunda bu başvuru için süre öngörülmemiştir. Hukuk Genel Kurulu'na göre değer, kat irtifakının kurulduğu tarihteki değeri etkileyen bütün unsurlara bakılarak belirlenir. Yıllar sonra bölümün değeri artsa ya da azalsa bile tahsis edilen arsa payı bu sebeple değiştirilemez (KMK m. 3/2).\n\n*3. Sığınak:* Sığınaklar KMK m. 4/a gereği her hâlde ortak yerdir. Projede \"bağımsız bölüm (depo)\" diye gösterilmesinin sonuçları ise tartışmalıdır; bu olayda yalnız kanuna göre niteliği sorulmuştur ve cevabı ortak yer olmasıdır.\n\n*4. Geçiş:* Kat irtifakı, yapının tamamı için düzenlenecek yapı kullanma izin belgesine dayalı olarak kat mülkiyetine resen çevrilir; bu işlem kat irtifakına sahip ortak maliklerden birinin istemiyle dahi gerçekleştirilebilir (KMK m. 3/3). 7327 sayılı Kanunla yeniden yazılan KMK m. 10/6'ya göre yapı kullanma izin belgesi düzenlenen yapılarda cins değişikliği resen yapılır; taşınmaz kat irtifaklıysa kat irtifakının tesciline ait resmî senede ve KMK m. 12'deki belgelere dayalı olarak başkaca belge aranmaksızın resen kat mülkiyetine çevrilir. Kat mülkiyetine geçişte ayrıca yönetim planı istenmez (KMK m. 14/1). Ayşe'nin yeni plan ve imza şartı bu nedenle dayanaksızdır.\n\n**Sonuç:**\n- Ali tek başına kat irtifakı kurduramaz; kuruluşta bütün paydaşların istemi ve imzası gerekir. Kat irtifakı için yapı kullanma izin belgesi aranmaz.\n- Eşit pay değerle oranlılık ölçütüne uymaz; oransızlıkta mahkemeye başvurulabilir, sonradan değer değişikliği payı etkilemez.\n- Sığınak kanun gereği her hâlde ortak yerdir.\n- Yapının tamamı için yapı kullanma izin belgesi alındığından Ali'nin istemiyle, Ayşe'nin imzası ve yeni yönetim planı aranmaksızın kat mülkiyetine geçilir."
+  },
+  {
+   "stem_md": "Mehmet, Zeynep ve Can birlikte malik oldukları arsada üç daireli bir bina yaptırmak için kat irtifakı kurmuş, her biri bir bağımsız bölüme bağlı arsa payına sahip olmuştur. Bina projeye uygun tamamlanmış, yapının tamamı için yapı kullanma izin belgesi alınmıştır. Kat irtifakı kat mülkiyetine çevrilmemiştir.\n\nMehmet, kat mülkiyetine geçilmesini tek başına ister. Zeynep ile Can, \"Hepimizin imzası ve yeni bir yönetim planı şart\" diyerek karşı çıkar. Bu arada Zeynep, 3 numaralı bölüme bağlı kat irtifakı ve arsa payını Ahmet'e satar. Mehmet ile Can bu satışa karşı \"Öncelikle satın alma hakkımız var\" der. Zeynep daha önce, satıştan önce \"arsa payını bölümden ayırıp kendime bırakacağım, yalnız bölümü satacağım\" fikrini de ortaya atmış, ama bundan vazgeçmiştir.\n\nCan, bütün bu karışıklıktan bıkarak ortaklığın giderilmesi davası açar ve taşınmazın satılmasını ister.\n\n1. Mehmet kat mülkiyetine geçişi tek başına isteyebilir mi? Yeni yönetim planı gerekir mi?\n2. Mehmet ve Can'ın önalım hakkı var mıdır?\n3. Zeynep arsa payını bölümden ayırıp kendisinde tutabilir miydi?\n4. Can'ın davası hakkında ne söylenebilir?",
+   "rubric": [
+    {
+     "point": "Kat irtifakının yapının tamamı için yapı kullanma izin belgesine dayalı olarak resen kat mülkiyetine çevrilmesi; ortak maliklerden birinin istemiyle dahi yapılabilmesi",
+     "weight": 25,
+     "madde_ref": "KMK m. 3"
+    },
+    {
+     "point": "Yapı kullanma izin belgesi düzenlenen yapıda başkaca belge aranmaksızın resen çevirme; geçişte ayrıca yönetim planı istenmemesi",
+     "weight": 15,
+     "madde_ref": "KMK m. 10"
+    },
+    {
+     "point": "Kat irtifakı bağlanmış arsa payının satışında diğer irtifak sahiplerinin önalım hakkının bulunmaması; sözleşmede aksinin kararlaştırılabilmesi",
+     "weight": 20,
+     "madde_ref": "KMK m. 8"
+    },
+    {
+     "point": "Arsa payının kat irtifakından veya kat mülkiyetinden ayrı devredilememesi ve başka bir hakla kayıtlanamaması",
+     "weight": 15,
+     "madde_ref": "KMK m. 5"
+    },
+    {
+     "point": "Kat irtifakına tabi gayrimenkulde ortaklığın giderilmesinin istenememesi; yasağın bağımsız bölüm için geçerli olmaması",
+     "weight": 25,
+     "madde_ref": "KMK m. 7"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, tamamlanmış yapıdaki kat irtifakının kat mülkiyetine geçişine, kat irtifakına bağlı arsa payının satışına ve kat irtifakı kurulu taşınmazda ortaklığın giderilmesi talebine ilişkindir.\n\n**Hukuki sorunlar:** (1) Geçiş isteminin tek malik tarafından yapılması ve gerekli belgeler; (2) arsa payı satışında önalım hakkı; (3) arsa payının bölümden ayrılması; (4) ortaklığın giderilmesi yasağı.\n\n**İlgili hükümler:** KMK m. 3/3, m. 5/1, m. 7, m. 8, m. 10/6, m. 14/1.\n\n**Değerlendirme:**\n\n*1. Geçiş:* Kat irtifakı arsa payına bağlı bir irtifak çeşididir ve yapının tamamı için düzenlenecek yapı kullanma izin belgesine dayalı olarak kat mülkiyetine resen çevrilir. Bu işlem, arsa malikinin veya kat irtifakına sahip ortak maliklerden birinin istemi ile dahi gerçekleştirilebilir (KMK m. 3/3). Olayda yapının tamamı için izin belgesi vardır, bu nedenle Mehmet tek başına istemde bulunabilir; Zeynep ile Can'ın imzası şart değildir. 7327 sayılı Kanunla yeniden yazılan KMK m. 10/6'ya göre izin belgesi düzenlenen yapılarda taşınmaz kat irtifaklıysa, kat irtifakının tesciline ait resmî senede ve KMK m. 12'deki belgelere dayalı olarak başkaca belge aranmaksızın resen kat mülkiyetine çevrilir. Kat mülkiyetine geçişte ayrıca yönetim planı istenmediğinden (KMK m. 14/1) yeni plan şartı da yersizdir.\n\n*2. Önalım:* Kat irtifakı bağlanmış arsa payının satılması hâlinde diğer kat maliklerinin veya irtifak hakkı sahiplerinin öncelikle satın alma hakkı yoktur (KMK m. 8/1). Mehmet ve Can, Zeynep'in payı satışında önalım hakkı kullanamaz. Sözleşmede bu maddenin aksine hüküm konulabilir (KMK m. 8/3); olayda böyle bir hüküm anlatılmamıştır. Önalım hakkı ancak bir bağımsız bölümün paydaşları arasında doğar (KMK m. 8/2) ve olayda 3 numaralı bölümün paydaşı yoktur.\n\n*3. Arsa payının ayrılması:* Arsa payı, kat mülkiyetinden veya kat irtifakından ayrı olarak devredilemez ve başka bir hakla kayıtlanamaz (KMK m. 5/1). Ayrıca kat mülkiyetine bağlanmamış veya lehine kat irtifakı kurulmamış arsa payı bırakılamaz (KMK m. 5/2). Zeynep'in fikri bu yüzden hukuken gerçekleştirilemezdi; satış, kat irtifakı ve ona bağlı arsa payıyla birlikte Ahmet'e geçer.\n\n*4. Ortaklığın giderilmesi:* Kat mülkiyetine veya kat irtifakına tabi olan gayrimenkulde ortaklığın giderilmesi istenemez (KMK m. 7/1). Yargıtay, yasağın kat irtifakı kurulmuş taşınmazı da kapsadığını kabul etmektedir. Can'ın satış talebi bu yüzden kabul edilemez. Ortaklığın giderilmesi yalnız bir bağımsız bölümün paydaşları arasında istenebilir (KMK m. 7/2); olayda bölümlerin paydaşı yoktur.\n\n**Sonuç:**\n- Mehmet kat mülkiyetine geçişi tek başına isteyebilir; yeni yönetim planı aranmaz.\n- Mehmet ve Can'ın önalım hakkı yoktur.\n- Zeynep arsa payını bölümden ayıramaz.\n- Can'ın ortaklığın giderilmesi talebi, taşınmaz kat irtifakına tabi olduğu için kabul edilemez."
+  },
+  {
+   "stem_md": "Mirasçılar Elif ve Burak, babaları Fikret'ten kalan, tümü kârgir, iki katlı ve iki daireli bir binanın eşit paylı maliklerdir. Binada kat mülkiyeti kurulmamıştır. Mimari proje vardır; ancak yapı kullanma izin belgesi alınmamıştır ve ikinci katta projeye aykırı bir uygulama vardır. Bodrumda iki kömürlük bulunmakta, bunlardan biri projede doğrudan 1 numaralı daireye tahsis edilmiştir. Diğeri bütün binanın ortak kullanımına açıktır.\n\nBurak, binanın satılarak ortaklığın giderilmesini ister. Elif ise bir dairenin kendisine, diğerinin Burak'a verilmesini sağlayacak şekilde kat mülkiyeti kurularak paylaşma yapılmasını talep eder. Burak, \"Yapı kullanma izin belgesi olmadığı için kat mülkiyeti kurulamaz\" diye karşı çıkar. Dairelerin değeri tam olarak eşit olmadığından 1 numaralı dairenin değeri biraz yüksektir.\n\n1. Hâkim kat mülkiyeti kurarak paylaştırabilir mi? Hangi şartlar aranır?\n2. Yapı kullanma izin belgesinin bulunmaması ve projeye aykırılık ne sonuç doğurur?\n3. Kömürlüklerin hukuki durumu nedir? 1 numaralı daire devredilirse kömürlükler ne olur?\n4. Davanın açılmasından önce yapılması gereken bir işlem var mıdır?",
+   "rubric": [
+    {
+     "point": "Ortaklardan biri isterse hâkimin KMK m. 12'deki belgelere dayanarak mülkiyeti kat mülkiyetine çevirebilmesi ve paylar denkleştirilerek bağımsız bölümleri ortaklara tahsis edebilmesi; Burak'ın satış istemiyle bağlı olmaması",
+     "weight": 25,
+     "madde_ref": "KMK m. 10"
+    },
+    {
+     "point": "Aranan şartlar: elverişlilik, bağımsız bölümler, her paydaşa en az bir bölüm, tümü kârgir olma",
+     "weight": 20,
+     "madde_ref": "KMK m. 50"
+    },
+    {
+     "point": "KMK m. 12 belgelerinin ibrazı; giderilebilir eksiklikte isteyen tarafa yetki ve süre verilmesi; giderilemezse satış",
+     "weight": 20,
+     "madde_ref": "KMK m. 12"
+    },
+    {
+     "point": "Doğrudan 1 numaralı daireye tahsisli kömürlüğün eklenti, bütünleyici parça ve beyanlar hanesine yazılan yer olması; genel kömürlüğün ortak yer olması",
+     "weight": 15,
+     "madde_ref": "KMK m. 6"
+    },
+    {
+     "point": "Bağımsız bölümün devriyle eklentinin kendiliğinden devredilmiş sayılması; ortak yerin arsa payı oranında paylı olması",
+     "weight": 10,
+     "madde_ref": "KMK m. 16"
+    },
+    {
+     "point": "Ortaklığın giderilmesi uyuşmazlığında dava öncesi arabulucuya başvurunun dava şartı olması",
+     "weight": 10,
+     "madde_ref": "HUAK m. 18/B"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda, kat mülkiyetine konu olmaya elverişli bir binada paylı mülkiyetin kat mülkiyeti kurularak giderilmesi (aynen taksim) ile satış yoluyla giderilmesi talepleri çatışmaktadır. Kömürlükler bakımından eklenti ve ortak yer ayrımı da söz konusudur.\n\n**Hukuki sorunlar:** (1) Hâkimin kat mülkiyeti kurma yetkisi ve şartları; (2) KMK m. 12 belgelerinin eksikliği; (3) eklenti ve ortak yer; (4) dava şartı.\n\n**İlgili hükümler:** KMK m. 6/1-2-4, m. 10/7, m. 12, m. 16/1, m. 50/2; HUAK m. 18/B.\n\n**Değerlendirme:**\n\n*1. Hâkimin yetkisi:* Kat mülkiyetine konu olmaya elverişli bir gayrimenkul üzerindeki ortaklığın giderilmesi davasında mirasçılardan veya ortak maliklerden biri paylaşmanın kat mülkiyeti kurulması ve bağımsız bölümlerin tahsisi suretiyle yapılmasını isterse hâkim, mülkiyetin KMK m. 12'deki belgelere dayanılarak kat mülkiyetine çevrilmesine ve paylar denkleştirilerek bağımsız bölümlerin ortaklara ayrı ayrı tahsisine karar verebilir (KMK m. 10/7). Elif'in istemi bu hükmün kapsamındadır; Burak'ın satış talebi hâkimi bağlamaz. Uygulamada bu yol, kat mülkiyeti kurularak aynen taksim diye anılır. Hukuk Genel Kurulu'na göre aranan şartlar şunlardır: ortaklardan birinin istemi, yapının kat mülkiyetine elverişli olması, bağımsız bölümler içermesi, her paydaşa en az bir bağımsız bölüm düşmesi ve KMK m. 12'deki belgelerin ibrazı. Tümü kârgir olma şartı da aranır (KMK m. 50/2); binanın tümü kârgir olduğundan sorun yoktur. Dairelerin değeri farklı olduğundan paylar denkleştirilir (KMK m. 10/7).\n\n*2. Eksik belgeler:* Yapı kullanma izin belgesi, KMK m. 12/1-a'daki projeyle birlikte aranan belgedir. Burak'ın \"izin belgesi olmadığı için kat mülkiyeti kurulamaz\" savunması, Hukuk Genel Kurulu'nun kabul ettiği yerleşik uygulama karşısında doğrudan sonuç vermez: Projeye aykırılık veya projesizlik gibi eksiklikler giderilebiliyorsa hemen kurulamaz sonucuna varılmaz, isteyen tarafa eksikleri tamamlaması için yetki ve süre verilir. Eksiklikler giderilemezse ya da süre içinde giderilmezse satış yoluyla ortaklığın giderilmesine karar verilir. Olayda ikinci kattaki aykırılığın giderilebilir olup olmadığı araştırılmalıdır.\n\n*3. Kömürlükler:* Kat mülkiyeti henüz kurulmadığından bugün bina TMK'ya göre paylı mülkiyettedir; aşağıdaki sonuçlar, kat mülkiyetinin bu proje esas alınarak kurulması hâlinde doğar. Projede doğrudan 1 numaralı daireye tahsis edilen kömürlük eklentidir. Eklenti, bağımsız bölümün bütünleyici parçası sayılır ve bölüm maliki eklentinin tek başına malikidir (KMK m. 6/1); kömürlük kat mülkiyeti kütüğünün beyanlar hanesine kaydedilir (KMK m. 6/2). Bütün binanın ortak kullanımına açık olan diğer kömürlük ise ortak yerdir; kat malikleri ona arsa payları oranında ortak mülkiyet hükümlerine göre malik olur (KMK m. 16/1). 1 numaralı daire devredilirse eklenti kendiliğinden devredilmiş olur (KMK m. 6/4).\n\n*4. Dava öncesi:* Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklarda dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır (HUAK m. 18/B).\n\n**Sonuç:**\n- Ortaklardan biri istediği için hâkim, KMK m. 12 belgelerine dayanarak kat mülkiyeti kurup payları denkleştirerek daireleri tahsis edebilir; tümü kârgir şartı sağlanmıştır.\n- Eksikler giderilebilir nitelikteyse tamamlatma için yetki ve süre verilir; giderilemezse satışa karar verilir.\n- Kat mülkiyeti kurulursa 1 numaralı daireye tahsisli kömürlük eklentidir ve daireyle birlikte devredilir; diğer kömürlük ortak yerdir.\n- Dava öncesi arabulucuya başvuru dava şartıdır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Kat mülkiyeti ile kat irtifakının temel farkı? (KMK m. 1)",
+   "back_md": "Kat mülkiyeti tamamlanmış yapının bağımsız bölümleri üzerinde, kat irtifakı yapılmakta veya ileride yapılacak yapının bölümleri için kurulur. İkisinde de bölüm ayrı ayrı ve başlı başına kullanılmaya elverişli olmalıdır."
+  },
+  {
+   "front_md": "Bağımsız bölüm, eklenti, ortak yer: tanımlar? (KMK m. 2)",
+   "back_md": "Bağımsız bölüm: ayrı ayrı ve başlı başına kullanılmaya elverişli bölüm. Eklenti: bölümün dışında olup doğrudan o bölüme tahsis edilmiş yer. Ortak yer: bölümler dışında kalıp korunma ve ortaklaşa kullanma veya faydalanmaya yarayan yer."
+  },
+  {
+   "front_md": "Kat mülkiyeti nasıl bir mülkiyettir? (KMK m. 3/1)",
+   "back_md": "Arsa payı ve anagayrimenkuldeki ortak yerlerle bağlantılı özel bir mülkiyettir. Tescil edilen her bağımsız bölüm ayrı bir gayrimenkuldür (KMK m. 13/4)."
+  },
+  {
+   "front_md": "Arsa payının ölçütü nedir? (KMK m. 3/2)",
+   "back_md": "Bağımsız bölümün konum ve büyüklüğüne göre hesaplanan değeriyle oranlı olmalıdır. Oransızlıkta her kat maliki veya kat irtifakı sahibi mahkemeye başvurabilir."
+  },
+  {
+   "front_md": "Değer sonradan artarsa arsa payı değişir mi?",
+   "back_md": "Hayır. Tahsis edilen arsa payı, bölümün değerinde sonradan meydana gelen çoğalma veya azalma sebebiyle değiştirilemez (KMK m. 3/2). KMK m. 44 saklıdır."
+  },
+  {
+   "front_md": "Arsa payı düzeltme davasında değer hangi tarihe göre belirlenir?",
+   "back_md": "Hukuk Genel Kurulu'na göre kat irtifakının (doğrudan kat mülkiyeti kurulmuşsa o tarihin) kuruluş tarihindeki değere göre. Kanunda süre öngörülmemiştir."
+  },
+  {
+   "front_md": "Arsa payı hangi bakımdan bölüme bağlıdır? (KMK m. 5)",
+   "back_md": "Bölümden ayrı devredilemez, miras yoluyla ayrı geçmez, başka bir hakla kayıtlanamaz. Bağlanmamış arsa payı bırakılamaz. Kat mülkiyetini kayıtlayan haklar arsa payını da kayıtlar."
+  },
+  {
+   "front_md": "Her hâlde ortak yer sayılanlara örnekler? (KMK m. 4)",
+   "back_md": "Temeller, ana duvarlar, taşıyıcı sistem elemanları, çatılar, asansörler, merdivenler, kapıcı daire veya odaları, sığınaklar, ortak tesisat ve şebekeler. Sayılanlar dışında ortak kullanım için zorunlu yerler de ortak yerdir."
+  },
+  {
+   "front_md": "KMK'deki eklenti ile TMK m. 686'daki eklenti farkı?",
+   "back_md": "TMK'da eklenti asıl şeye özgülenen taşınır maldır. KMK'de eklenti bağımsız bölüme tahsis edilmiş bir yerdir; bölümün bütünleyici parçasıdır, beyanlar hanesine yazılır, bölümle birlikte devredilir."
+  },
+  {
+   "front_md": "Kat mülkiyetine veya kat irtifakına tabi taşınmazda ortaklığın giderilmesi istenebilir mi? (KMK m. 7)",
+   "back_md": "Hayır. Anagayrimenkulde istenemez; bağımsız bölümlerde (paydaşlar arasında) istenebilir. Yasak kat irtifakı kurulu taşınmazı da kapsar."
+  },
+  {
+   "front_md": "Bağımsız bölüm satışında önalım hakkı? (KMK m. 8)",
+   "back_md": "Diğer kat maliklerinin ve irtifak sahiplerinin önalım hakkı yoktur. Bir bağımsız bölümün paydaşları arasında vardır. Sözleşmeyle aksi kararlaştırılabilir."
+  },
+  {
+   "front_md": "Kat mülkiyeti ve kat irtifakı ne zaman doğar? (KMK m. 10/1)",
+   "back_md": "Resmî senetle ve tapu siciline tescil ile. Resmî sözleşme aynı zamanda tescil istemi sayılır (KMK m. 13/1)."
+  },
+  {
+   "front_md": "Yalnız bir bölümde kat mülkiyeti kurulabilir mi?",
+   "back_md": "Hayır. Anagayrimenkulün tümü kat mülkiyetine çevrilmeden yalnız bir veya birkaç bölüm üzerinde kurulamaz (KMK m. 10/2). Tümü kârgir olmayan yapıda da kurulamaz (KMK m. 50/2)."
+  },
+  {
+   "front_md": "Kat mülkiyeti kurulması için hangi belgeler gerekir? (KMK m. 12)",
+   "back_md": "İstem malik veya bütün paydaşlardan gelir. Maliklerin imzalarıyla onaylı mimari proje ile yapı kullanma izin belgesi ve imzalanmış yönetim planı verilir."
+  },
+  {
+   "front_md": "Kat irtifakı için hangi belgeler gerekir? (KMK m. 14/1)",
+   "back_md": "Arsa maliki veya bütün paydaşlarının istemi, maliklerin imzalarıyla onaylı proje ve yönetim planı. Yapı kullanma izin belgesi aranmaz."
+  },
+  {
+   "front_md": "Kat irtifakında arsa payları nerede gösterilir? (KMK m. 14/2)",
+   "back_md": "Arsanın kayıtlı olduğu kütüğün beyanlar hanesinde. Kat mülkiyetinde ise her bölüm kat mülkiyeti kütüğünün ayrı sayfasına arsa payıyla tescil edilir (KMK m. 13)."
+  },
+  {
+   "front_md": "Kat irtifakından kat mülkiyetine geçiş hangi maddelerdedir?",
+   "back_md": "KMK m. 3/3 ve KMK m. 10/6. Yapının tamamı için yapı kullanma izin belgesine dayalı olarak resen çevrilir; ortak maliklerden birinin istemi de yeter. KMK m. 14 kuruluşu düzenler."
+  },
+  {
+   "front_md": "📌 7327 sayılı Kanunla KMK m. 10/6 ne getirdi?",
+   "back_md": "Yapı kullanma izin belgesi düzenlenen yapılarda cins değişikliği resen yapılır; kat irtifaklı taşınmaz resmî senet ve KMK m. 12 belgelerine dayanılarak başkaca belge aranmaksızın resen kat mülkiyetine çevrilir. İşlemler döner sermaye hizmet bedelinden muaftır."
+  },
+  {
+   "front_md": "7327 sayılı Kanunun diğer değişiklikleri?",
+   "back_md": "KMK m. 10/5'te ibare değişikliği (cins değişikliği ifadesi çıkarıldı), KMK m. 14/3'ün mülga edilmesi ve Kat Mülkiyeti Kanunu'nun geçici 1. maddesinin değişmesi."
+  },
+  {
+   "front_md": "Kat irtifakı sahibinin tamamlanmayı isteme hakkı hangi maddede? (m. 26 değil)",
+   "back_md": "KMK m. 17/1: sözleşmede yazılı sürede yapının başlaması ve tamamlanması için borçların yerine getirilmesini karşılıklı isteme ve dava etme hakkı. KMK m. 26 borçları düzenler."
+  },
+  {
+   "front_md": "Kat irtifakında yapı fiilen tamamlanmışsa yönetim nasıl işler? (KMK m. 17/3)",
+   "back_md": "Yapı fiilen tamamlanmış ve bağımsız bölümlerin üçte ikisi kullanılmaya başlanmışsa kat mülkiyetine geçilmemiş olsa dahi yönetimde kat mülkiyeti hükümleri uygulanır. Mülkiyet statüsü değişmez."
+  },
+  {
+   "front_md": "Kat irtifakı sahibi borcunu ödemezse ne olur? (KMK m. 26/2)",
+   "back_md": "Noter ihtarından başlayarak iki ay içinde yerine getirmezse diğerlerinin yazılı istemiyle hâkim, payın hükme en yakın tarihteki değeri karşılığında öteki paydaşlara arsa payları oranında devrine karar verir."
+  },
+  {
+   "front_md": "Kat irtifakı beş yıl içinde yapı yapılmazsa ne olur? (KMK m. 49/3)",
+   "back_md": "Verilen plana göre beş yıl içinde yapı yapılmazsa maliklerden birinin istemiyle sulh hâkimi kat irtifakının sona ermesine veya belli bir süre için uzatılmasına karar verir. Kendiliğinden sona ermez."
+  },
+  {
+   "front_md": "Ortaklığın giderilmesi davasında kat mülkiyeti kurulabilir mi? (KMK m. 10/7)",
+   "back_md": "Evet. Ortaklardan biri isterse hâkim, KMK m. 12 belgelerine dayanarak kat mülkiyetine çevirmeye ve paylar denkleştirilerek bölümleri ortaklara tahsise karar verebilir. Belge eksikliği giderilebilir nitelikteyse önce tamamlatılır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

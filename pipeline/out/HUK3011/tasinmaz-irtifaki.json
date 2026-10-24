@@ -1,0 +1,821 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Sınırlı Ayni Haklar: İrtifaklar ve Taşınmaz Yükü",
+ "topic_index": 1,
+ "slug": "tasinmaz-irtifaki",
+ "title": "Taşınmaz İrtifakı: Kurulma, Sona Erme, Kapsam ve Değişiklikler",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:41:45.718214+00:00",
+ "skill_refs": [
+  "esya-hukuku/irtifak-haklari"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir taşınmaz için başka bir taşınmaz lehine kurulan yükün (taşınmaz irtifakı) nasıl doğduğunu, kapsamını, sonradan nasıl değiştirilebildiğini ve nasıl sona erdiğini. Konu TMK m. 779-793 arasındadır.\n\n- **Tanım (TMK m. 779):** irtifak, bir taşınmaz üzerinde başka bir taşınmaz lehine konulmuş yüktür. Yüklü malik ya bazı yetkileri kullanmaktan **kaçınır** ya da yararlanan malikin kullanımına **katlanır**. Yapma borcu irtifakın tek başına konusu olamaz, yalnız yan edim olarak bağlanır.\n- **Kurulma:** Tescil şarttır (TMK m. 780/1; TMK m. 1021). Sözleşme resmî şekilde yapılmalıdır (TMK m. 781); resmî senedi tapu sicil müdürlüğü düzenler (2644 sayılı Kanun m. 26). Tescilin etkisi yevmiye kaydından başlar (TMK m. 1022/2). Dışarıdan görülen mecra irtifakı istisnadır: noterce düzenlenen sözleşme ve mecranın yapılmasıyla doğar (TMK m. 727/3).\n- **Malik irtifakı (TMK m. 782):** Malik, kendi iki taşınmazından biri üzerinde diğeri lehine irtifak kurabilir.\n- **Kapsam:** Hak sahibi gerekli önlemleri alır ama yüklü malike en az zarar verecek biçimde kullanır; yüklü malik kullanımı engelleyemez veya zorlaştıramaz (TMK m. 786). Tescil açıkça belirliyorsa kapsamı o belirler; belirsizse tescilin sınırları içinde kazanma sebebi veya uzun süreli, davasız, iyiniyetli kullanış biçimi esas olur (TMK m. 787). İhtiyaç değişikliği yükü ağırlaştıramaz (TMK m. 788). Bakım yararlanan malike aittir; tesis yüklüye de yararlıysa yararları oranında paylaşılır (TMK m. 790).\n- **Yer değiştirme (TMK m. 791):** Yük taşınmazın belli bir kısmıyla sınırlıysa yüklü malik, menfaatini ispat edip giderleri üstlenerek ve kullanmayı güçleştirmeyecek biçimde başka yere nakil isteyebilir. Yerin tapuda yazılı olması engel değildir.\n- **Bölünme (TMK m. 792 ve TMK m. 793):** Kural, irtifakın her parsel yararına veya üzerinde sürmesidir. Kullanılmayan parseller için terkin istenirse tapu sicil memuru hak sahibine bildirir; **bir ay** içinde itiraz gelmezse terkin eder.\n- **Sona erme:** Tescilin terkini veya iki taşınmazdan birinin yok olması (TMK m. 783). Terkin, yararlanan malikin yazılı beyanıyla olur (TMK m. 1014). İki taşınmaz aynı kişiye geçse de irtifak kendiliğinden bitmez (TMK m. 784). Hiçbir yarar kalmamışsa yüklü malik terkin ister (TMK m. 785/1); yüküne oranla çok az yarar varsa bedel karşılığında kısmen veya tamamen terkin istenir (TMK m. 785/2). Hak sona ermiş ama kayıt durmaktaysa TMK m. 1026 işler.\n- 📌 **Yeni:** TMK m. 779-793 2002'den beri değişmemiştir. HUAK m. 18/B'nin 5. fıkrası (2024, 7531 sayılı Kanun) uyarınca bu madde kapsamındaki arabuluculukta sınırlı ayni hak kurulmasına ilişkin anlaşma belgesi, icra edilebilirlik şerhinden sonra resmî senet düzenlenmeksizin tescil ettirilebilir.",
+  "content_md": "## 0. Konunun haritası\n\nTaşınmaz irtifakı, sınırlı ayni haklar içinde taşınmazın **başka bir taşınmazın yararına** yüklenmesini sağlayan kurumdur. Konuyu üç soruyla çalışmak en kolayı:\n\n| Soru | Maddeler |\n|---|---|\n| Nasıl kurulur? | TMK m. 780, 781, 782 |\n| Kapsamı nedir, nasıl değişir? | TMK m. 786-793 |\n| Nasıl sona erer? | TMK m. 783-785, 1026 |\n\nOlay sorusunda sırayla sor: İrtifak geçerli kuruldu mu (şekil ve tescil)? Kapsamı neydi? Sonradan değişen bir şey var mı (ihtiyaç, yer, bölünme)? Sona erdi mi, erdirilebilir mi?\n\n> ⚠️ **Sınavda dikkat:** Kat irtifakı adı benzese de ayrı bir kurumdur (Kat Mülkiyeti Kanunu). İntifa, oturma, üst hakkı ve kaynak hakkı ayrı konulardır. Zorunlu geçit ve mecra komşuluk hukukunun konusudur; burada yalnız kurulmuş bir geçidin kaldırılması ve nakli işlenir.\n\n## 1. Kavram ve konu (TMK m. 779)\n\nTMK m. 779/1'e göre taşınmaz irtifakı, bir taşınmaz üzerinde diğer bir taşınmaz lehine konulmuş bir yüktür. Yükü taşıyan taşınmaz **yüklü taşınmaz**, yararı alan taşınmaz **yararlanan taşınmazdır**. Hak, kişiye değil yararlanan taşınmaza bağlıdır; bu yüzden öğretide eşyaya bağlı irtifak denir.\n\nKanun, yükün içeriğini iki biçimde tarif eder:\n- **Kaçınma:** Yüklü malik, mülkiyetin sağladığı bazı yetkileri kullanmaktan kaçınır. Öğretide buna *olumsuz irtifak* denir.\n- **Katlanma:** Yüklü malik, yararlanan malikin yüklü taşınmazı belirli biçimde kullanmasına katlanır. Buna *olumlu irtifak* denir.\n\n> **Örnek:** Deniz manzaralı A parseli lehine, önündeki B parseline \"iki kattan yüksek yapı yapılmaması\" irtifakı konulursa B maliki yapı yapma yetkisini kullanmaktan kaçınır (olumsuz irtifak). C parselinin maliki, D parseli malikinin arazisinden su borusu geçirmesine katlanıyorsa olumlu irtifak vardır.\n\nYapma borçları irtifaka **başlı başına konu olamaz**; ona ancak **yan edim** olarak bağlanabilir (TMK m. 779/2). Geçit irtifakına, yüklü malikin kış aylarında yolun karını temizlemesi yan edim olarak eklenebilir. Ama yalnızca \"kar temizleme irtifakı\" kurulamaz.\n\nTaşınmaz irtifakını benzer kurumlardan ayırmak gerekir:\n\n| Kurum | Lehine kurulduğu |\n|---|---|\n| Taşınmaz irtifakı (TMK m. 779) | Başka bir taşınmaz |\n| Diğer irtifaklar (TMK m. 838) | Kişi veya topluluk |\n| Kat irtifakı | Kat Mülkiyeti Kanunu |\n\nTMK m. 838'deki irtifaklar aksi kararlaştırılmadıkça devredilemez ve mirasçılara geçmez (TMK m. 838/2). Kanun, taşınmaz lehine irtifaklara ilişkin hükümlerin bunlara da uygulanacağını söyler (TMK m. 838/3). Yani bu konuda öğreneceğin kapsam, bakım, nakil ve sona erme kuralları o irtifaklar için de yol göstericidir.\n\n## 2. Kurulma\n\n### 2.1 Tescil şarttır (TMK m. 780/1)\nİrtifak hakkının kurulması için tapu kütüğüne tescil şarttır (TMK m. 780/1). Genel kural da aynıdır: Kurulması kanunen tescile tâbi ayni haklar tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Ayni haklar kütüğe tescille doğar ve sıralarını ve tarihlerini tescile göre alır; tescilin etkisi, belgeler isteme eklenmişse yevmiye defterine yapılan kayıt tarihinden başlar (TMK m. 1022).\n\nİrtifakın kazanılmasında ve tescilinde, aksi öngörülmedikçe taşınmaz mülkiyetine ilişkin hükümler uygulanır (TMK m. 780/2). Yani istem, tasarruf yetkisi ve hukuki sebebin belgelenmesi gibi genel tescil kuralları (TMK m. 1015) irtifak için de geçerlidir.\n\n### 2.2 Sözleşme resmî şekilde yapılır (TMK m. 781)\nİrtifak kurmaya yönelik sözleşmenin geçerliliği **resmî şekle** bağlıdır (TMK m. 781). Resmî senedi, mülkiyete ve sınırlı ayni haklara ilişkin senetlerde tapu sicil müdürü veya tapu sicil görevlileri düzenler (2644 sayılı Kanun m. 26). Tapu memuru, hukuki sebebin geçerlilik şekline uyulduğunun ispatını arar (TMK m. 1015/3).\n\n> **Örnek:** Ali ile Bora, Bora'nın parselinden geçit için 2023'te adi yazılı bir \"geçit sözleşmesi\" imzalar ve tapuya gitmez. Sözleşme resmî şekilde olmadığı için geçersizdir ve tescile dayanak olamaz. İrtifak kurulmuş değildir.\n\nSıralama önemlidir: önce resmî şekilde sözleşme, sonra tescil. İrtifak, **tescille** doğar; resmî senet tek başına irtifak doğurmaz.\n\n> **Örnek:** Ali ile Bora 2024'te tapu müdürlüğünde resmî senet düzenler ve irtifak tescil edilir. İrtifak 2024'teki tescille doğmuştur; etkisi yevmiye kaydından başlar.\n\n### 2.3 Tescilsiz doğuş: dışarıdan görülen mecra (TMK m. 727/3)\nGenel kural tescil olsa da kanun, \"aksi öngörülmedikçe\" diyerek istisnaya yer bırakır. TMK m. 727/2-3'e göre komşuluk hukukunun gerektirdiği hâller dışında bir taşınmazın su, gaz, elektrik ve benzeri mecra ile ayni hak olarak yüklenmesi ancak irtifak kurulmasıyla olur. Bu irtifak:\n- mecra dışarıdan **görülmüyorsa** tapu kütüğüne tesciliyle,\n- mecra dışarıdan **görülüyorsa** noterce düzenlenecek sözleşmeye dayanılarak mecranın yapılmasıyla doğar.\n\n> ⚠️ **Sınavda dikkat:** \"Her irtifak tescille doğar\" mutlak bir kural değildir. Dışarıdan görülen mecra irtifakı tescilsiz doğar. Benzer biçimde doğrudan kanundan kaynaklanan geçit hakları da tescil edilmeksizin doğar; bunlardan sürekli nitelikte olanlar beyanlar sütununda gösterilir (TMK m. 748/3). Zorunlu geçit ve mecra hakkının kendisi komşuluk hukukunun konusudur (TMK m. 747 ve TMK m. 744; ayrı konu).\n\n### 2.4 Malik irtifakı (TMK m. 782)\nMalik, kendisine ait iki taşınmazdan biri üzerinde diğerinin lehine irtifak kurabilir (TMK m. 782). Öğretide *malik irtifakı* denen bu imkân bir planlama aracıdır.\n\n> **Örnek:** Müteahhit Emre, iki komşu parselden arkadakini satmadan önce onun lehine öndeki parsel üzerinde geçit irtifakı kurar. Alıcı, arka parseli satın aldığında geçit hakkı hazırdır.\n\n### 2.5 Diğer kazanma yolları\n- **Zamanaşımı:** İrtifak hakkının zamanaşımı yoluyla kazanılması ancak mülkiyeti bu yolla elde edilebilecek taşınmazlarda mümkündür (TMK m. 780/3). Mülkiyetin zamanaşımıyla kazanılması TMK m. 712 (olağan) ve TMK m. 713 (olağanüstü) hükümlerindedir; ayrıntısı kazandırıcı zamanaşımı konusunda işlenir. Bu hükümlerin irtifaka nasıl uygulanacağı ayrıntıda tartışmalıdır (bkz. doktrin).\n- **Mülkiyetin tescilsiz kazanıldığı hâller:** Miras, mahkeme kararı, cebrî icra, işgal ve kamulaştırmada mülkiyet tescilden önce kazanılır (TMK m. 705/2). İrtifak bakımından da kamulaştırma bir kuruluş yoludur: İdare mülkiyeti kamulaştırmak yerine, amaç için yeterliyse taşınmazın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde kamulaştırma yoluyla irtifak kurabilir (2942 sayılı Kanun m. 4).\n\n> **Örnek:** Elektrik iletim hattı için yalnız hattın geçtiği şerit üzerinde irtifak kamulaştırılırsa mülkiyet malikte kalır; malik hattın bulunduğu alanda yapı yapamaz.\n\n📌 **Yeni:** HUAK m. 18/B kapsamında dava şartı arabuluculuğa tabi uyuşmazlıklarda taraflar taşınmaz üzerinde sınırlı ayni hak kurulması konusunda anlaşırsa, anlaşma belgesine icra edilebilirlik şerhi verildikten sonra taraflardan biri tapu müdürlüğünden tescil isteyebilir; müdürlük gerekli incelemeyi yaptıktan sonra resmî senet düzenlemeden tescili yapar (HUAK m. 18/B'nin 5. fıkrası; 7531 sayılı Kanun, 2024). Kurulmuş bir irtifakın terkini gibi uyuşmazlıkların bu maddede sayılan uyuşmazlık türlerine (özellikle komşu hakkına) girip girmediği kesin değildir; sınavda bu noktada kesin hüküm kurma.\n\n## 3. Kapsam: irtifak neyi yükler?\n\n### 3.1 Genel ilke (TMK m. 786)\nHak sahibi, hakkının korunması ve kullanılması için gerekli önlemleri alabilir; ancak hakkını yüklü taşınmazın malikine **en az zarar verecek** biçimde kullanmak zorundadır (TMK m. 786/1). Yüklü malik de irtifakın kullanılmasını engelleyecek ya da zorlaştıracak davranışlarda bulunamaz (TMK m. 786/2).\n\n> **Örnek:** Geçit hakkı sahibi, yolun çamurlanmaması için mıcır döker; bu gerekli bir önlemdir. Yüklü malik yolun ağzına yalnız kendisinde anahtarı bulunan kilitli bir kapı koyarsa kullanımı zorlaştırmış olur ve bunu yapamaz.\n\n### 3.2 Tescil esastır (TMK m. 787)\nKapsamın belirlenmesinde basamaklı bir sıra vardır:\n1. **Önce tescil.** İrtifaktan doğan yetki ve yükümlülükleri açıkça belirlediği ölçüde tescil, kapsamın esasıdır (TMK m. 787/1). Bu, hakkın içeriğinin tescilin sınırları içinde belirlenmesi kuralıyla uyumludur (TMK m. 1022/3).\n2. **Tescil açık değilse:** Kapsam, tescilin sınırları içinde, irtifakın kazanılma sebebine veya uzun süreden beri davasız ve iyiniyetle kullanılış biçimine göre belirlenir (TMK m. 787/2).\n\n> **Örnek:** Tapuda \"3 metre genişliğinde yaya geçidi\" yazıyorsa kapsam açıktır. Hak sahibi on beş yıldır aracını geçirmiş olsa da bu, kapsamı genişletmez; ilk basamak yeterlidir.\n\n> ⚠️ **Sınavda dikkat:** Uzun süreli kullanma biçimi tescile üstün gelmez. Yalnız tescilden kapsam açıkça anlaşılmıyorsa ve tescilin sınırları içinde dikkate alınır. \"Uzun süre kullandı, kapsam genişledi\" tipik bir yanlış çıkarımdır.\n\n### 3.3 İhtiyaçlar değişirse (TMK m. 788)\nYararlanan taşınmazın ihtiyaçlarındaki değişiklik, yüklü taşınmazın irtifaktan doğan yükünü ağırlaştıramaz (TMK m. 788).\n\n> **Örnek:** Tarım arazisine bağlı geçit irtifakı bulunan Ayşe, arazisine büyük bir üretim tesisi kurar ve ağır tonajlı araçların sürekli geçmesini ister. İhtiyaç arttığı için yük artırılamaz.\n\nİhtiyacın **artması** yükü ağırlaştırmaz; ihtiyacın **azalması veya bitmesi** ise terkin sebebi olabilir (bölüm 5).\n\n### 3.4 Özel kanun ve yerel âdet (TMK m. 789)\nTarla yolu, yaya veya araba geçidi gibi geçit hakları ile hayvan otlatma, hayvan sulama, tarlalara veya arklara su alma ve benzeri hakların kapsamında önce taraflar arasındaki anlaşma veya özel kanun hükümleri, bunlar yoksa **yerel âdet** uygulanır (TMK m. 789).\n\n### 3.5 Bakım giderleri (TMK m. 790)\nİrtifakın kullanılması için gerekli tesislerin bakımı **yararlanan taşınmaz malikine** aittir (TMK m. 790/1). Tesisler yüklü taşınmazın malikine de yararlıysa, bakım giderlerine her iki malik **yararları oranında** katılır (TMK m. 790/2).\n\n> **Örnek:** Geçide parke taşı döşenmiştir; yüklü malik Bora da aynı yolu kendi ahırına gitmek için kullanır. Parkenin onarımı Ali'ye ait olsa da Bora yararı oranında giderlere katılır.\n\n## 4. Değişiklikler: nakil ve bölünme\n\n### 4.1 İrtifakın yerinin değiştirilmesi (TMK m. 791)\nİrtifak yüklü taşınmazın yalnız belli bir kısmının kullanılması koşuluyla kurulmuşsa, yüklü malik şu şartlarla irtifakın başka yere naklini isteyebilir (TMK m. 791/1):\n1. İrtifak taşınmazın belli bir kısmıyla sınırlıdır.\n2. Malik **menfaatini ispat eder.**\n3. Malik **giderleri üstlenir.**\n4. Nakil, hakkın kullanılmasını **güçleştirmez.**\n\nİrtifakın kullanılacağı yer tapu kütüğünde belirtilmiş olsa bile malik bu yetkiyi kullanabilir (TMK m. 791/2). Mecraların naklinde komşuluk hukuku kuralları da göz önünde tutulur (TMK m. 791/3).\n\n> **Örnek:** Zeynep'in parselinin ortasından Mehmet lehine bir araç geçidi geçer; güzergâh tapudaki krokide gösterilmiştir. Zeynep parselin ortasına ev yapmak için geçidi, aynı uzunluk ve genişlikte olmak üzere doğu sınırına kaydırmak ve masrafları üstlenmek ister. Mehmet \"yer tapuda yazılı\" diyerek karşı çıksa da nakil istenebilir. Nakilden kullanma güçleşmeyecektir.\n\n> ⚠️ **Sınavda dikkat:** İrtifak taşınmazın tamamı üzerinde ise TMK m. 791'in şartı (\"belli bir kısmın kullanılması\") gerçekleşmez. Gider farkını da karıştırma: TMK m. 791'de nakil giderlerini yüklü malik üstlenir; mecra nakli hâlinde ise yer değiştirme giderleri kural olarak mecra hakkı sahibine aittir (TMK m. 746/2).\n\n### 4.2 Yararlanan taşınmazın bölünmesi (TMK m. 792)\nYararlanan taşınmaz parsellere bölünürse **kural**, irtifakın her parsel yararına devam etmesidir (TMK m. 792/1). Ancak durum ve koşullara göre irtifak yalnız bir parselin yararına kullanılabiliyorsa, yüklü malik diğer parseller için terkin isteyebilir (TMK m. 792/2).\n\nUsul önemlidir: Tapu sicil memuru bu istemi irtifak hakkı sahibine bildirir ve onun **bir ay içinde** itiraz etmemesi hâlinde irtifak hakkını terkin eder (TMK m. 792/3). Terkin için dava açmak şart değildir.\n\n### 4.3 Yüklü taşınmazın bölünmesi (TMK m. 793)\nYüklü taşınmaz bölünürse kural, irtifakın her parsel üzerinde devam etmesidir (TMK m. 793/1). Ancak irtifak belirli parseller üzerinde kullanılmıyorsa ve durum ve koşullara göre de kullanılamayacaksa, bu parsellerin maliklerinden her biri kendi taşınmazı üzerindeki irtifakın terkinini isteyebilir (TMK m. 793/2). Bildirim ve bir aylık itiraz süresi aynıdır (TMK m. 793/3).\n\n| | TMK m. 792 | TMK m. 793 |\n|---|---|---|\n| Bölünen taşınmaz | Yararlanan | Yüklü |\n| Terkin isteyen | Yüklü malik | Kullanılmayan parselin maliki |\n| Sonuç | Memur bildirir, bir ay | Memur bildirir, bir ay |\n\n> ⚠️ **Sınavda dikkat:** Bölünmedeki süre \"bir ay\"dır; TMK m. 1026'daki \"otuz gün\" ile karıştırma. Hak sahibi itiraz ederse ne olacağı metinde yazmaz; bu nokta öğretide tartışılır, olay çözümünde kesin hüküm kurma.\n\n## 5. Sona erme\n\n### 5.1 Kanundaki genel sebepler (TMK m. 783)\nİrtifak hakkı, **tescilin terkini** veya yüklü ya da yararlanan taşınmazın **yok olmasıyla** sona erer (TMK m. 783). Terkin, kaydın kendilerine hak sağladığı kimselerin yazılı beyanıyla yapılır (TMK m. 1014); burada beyanı verecek kişi yararlanan taşınmazın malikidir.\n\n> **Örnek:** Yüklü kıyı parseli heyelanla tamamen denize kayarsa taşınmaz yok olduğundan irtifak da sona erer.\n\nSüre dolması, kamulaştırma gibi başka sebepler uygulamada ve öğretide anılsa da TMK m. 783 bunları saymaz. Hak sona ermiş olduğu hâlde kayıt duruyorsa yüklü malik terkin isteyebilir (TMK m. 1026; bölüm 5.4).\n\n### 5.2 İki taşınmaza aynı kişinin malik olması (TMK m. 784)\nYüklü ve yararlanan taşınmazlara aynı kişi malik olursa bu kişi irtifakı **terkin ettirebilir**; ama terkin edilmedikçe irtifak ayni hak olarak varlığını sürdürür (TMK m. 784).\n\n> **Örnek:** Ayşe, geçit irtifakıyla yüklü X parselini ve lehine geçit bulunan Y parselini satın alır, terkin yaptırmaz. İrtifak kendiliğinden bitmemiştir. Ayşe Y'yi Can'a satarsa irtifak hâlâ sicilde olduğundan Can geçidi kullanabilir.\n\n> ⚠️ **Sınavda dikkat:** Bu, borçlar hukukundaki birleşme gibi kendiliğinden sona erme sonucu doğurmaz. Malik irtifakında (TMK m. 782) aynı kişinin iki taşınmaza malik olması ise kurulma aşamasında bilinçli bir tercihtir.\n\n### 5.3 Mahkeme kararıyla terkin (TMK m. 785)\nBu madde iki ayrı hâl kurar:\n\n| | Şart | İstem |\n|---|---|---|\n| TMK m. 785/1 | Hakkın sağladığı hiçbir yarar kalmamış | Yüklü malik terkin ister |\n| TMK m. 785/2 | Yüküne oranla çok az yarar | Bedel karşılığında kısmen veya tamamen |\n\nMetinde \"bedel\" yalnız ikinci fıkrada geçer. İstemde bulunan, her iki fıkrada yüklü taşınmazın malikidir. Yararlanan malik rıza göstermezse mahkemeye gidilir.\n\nYargıtay Hukuk Genel Kurulu'nun açıklamalarına göre:\n- TMK m. 785/1 yararın **tamamen** ortadan kalkmasını arar; irtifak kuruluş amacına uygun kullanılamıyorsa yarar tamamen kaybolmuş sayılır.\n- TMK m. 785/2 için yararın kısmen azalması yetmez; yarar ile yük arasında **aşırı oransızlık** gerekir.\n- Hak sahibinin yararı aynı kalırken yalnız yükün artması sona erme sebebi değildir.\n\nYargıtay kararlarında şu ilkeler yer alır:\n- Geçidin kaldırılmasını isteyen yüklü malik, ihtiyacın sona erdiğini veya çok az yarar kaldığını **ispat etmek zorundadır.**\n- Kaldırma davasında yararlanan ve yüklü taşınmaz maliklerinin tamamı taraf olmalıdır.\n- Geçit kurulması davasının hükmü, sonradan açılan kaldırma davasında kesin hüküm oluşturmaz.\n- Terkin davasını yüklü taşınmazın **kayıt maliki** açar. Taşınmazı satmış önceki malikin terkin taahhüdü, ona dava hakkı vermez.\n- Tesisin fiilen yerinin değişmesi tek başına \"yarar kalmadı\" demek değildir. Hat aynı taşınmazın içinde kalıyorsa çözüm TMK m. 791'deki nakildir; taşınmazdan tamamen çıkmışsa TMK m. 785 ile terkin gündeme gelir.\n\n> **Örnek:** Elektrik dağıtım şirketi lehine bir taşınmazda irtifak kurulmuş, hat sonradan yer altına alınmış ama hâlâ malikin sınırları içindeyse yarar sürer; malik ancak irtifakın hattın geçtiği yere nakline gidebilir. Hat taşınmazın dışına tamamen çıkarılmışsa terkin istenebilir.\n\nYukarıdaki ilkeler bir İçtihadı Birleştirme Kararına değil, Yargıtay daire ve Hukuk Genel Kurulu kararlarına dayanır.\n\n### 5.4 Sicil temizliği: TMK m. 1026\nBir ayni hakkın sona ermesiyle tescil her türlü hukuki değerini kaybettiyse yüklü malik terkin isteyebilir (TMK m. 1026/1). Tapu memuru isteği yerine getirirse her ilgili, tebliğ tarihinden başlayarak **otuz gün içinde** terkine karşı dava açabilir (TMK m. 1026/2). Tapu memuru re'sen hâkime başvurup hakkın sona erdiğinin tespitini de isteyebilir (TMK m. 1026/3).\n\n| | TMK m. 785 | TMK m. 1026 |\n|---|---|---|\n| Hak | Mahkeme kararıyla sona erdirilir | Zaten sona ermiştir |\n| Amaç | Hakkı bitirmek | Kaydı temizlemek |\n\n### 5.5 Kamulaştırma kökenli irtifak\nKamulaştırmayla kurulan irtifakın (örneğin enerji hattı) yarar kalmadığında terkinine TMK m. 785'in uygulanıp uygulanmayacağı tartışmalıdır. Yargıtay Hukuk Genel Kurulu çoğunluğu 2942 sayılı Kanun m. 22'deki beş yıllık süreyi esas almıştır (bkz. kararlar ve doktrin). Madde metni \"vazgeçme, iade ve devir\"i düzenler; beş yıllık süre ise kamulaştırmanın kesinleşmesinden itibaren işler. Bu sınavda çözüm sonucu olarak kullanılmamalı, tartışma olarak bilinmelidir.\n\n## 6. Denetim şeması\n\n1. **İrtifak mı?** Bir taşınmaz üzerinde başka taşınmaz lehine yük mü (TMK m. 779)? Yoksa kişi lehine mi (TMK m. 838)?\n2. **Konusu:** Kaçınma veya katlanma mı? Yapma borcu yalnız yan edim mi?\n3. **Kuruluş:** Resmî şekilde sözleşme (TMK m. 781) ve tescil (TMK m. 780/1; TMK m. 1021) var mı? Mecra istisnası (TMK m. 727/3) söz konusu mu?\n4. **Kapsam:** Tescil ne diyor (TMK m. 787/1)? Belirsizse kazanma sebebi ve kullanış biçimi (TMK m. 787/2)? İhtiyaç değişikliği yükü ağırlaştırıyor mu (TMK m. 788)? Bakımı kim üstlenir (TMK m. 790)?\n5. **Değişiklik:** Nakil şartları (TMK m. 791)? Bölünme var mı (TMK m. 792 ve TMK m. 793)?\n6. **Sona erme:** Terkin veya yok olma (TMK m. 783)? Birleşme (TMK m. 784)? Hiç yarar kalmadı mı, çok az mı (TMK m. 785)? Kayıt temizliği (TMK m. 1026)?\n7. **Usul:** Kim ister, kime karşı, kim ispat eder, kimler taraf olmalıdır?",
+  "critical_md": "- 📌 Taşınmaz irtifakı, bir taşınmaz üzerinde başka bir taşınmaz lehine konulmuş yüktür; içeriği kaçınma veya katlanmadır (TMK m. 779/1).\n- 📌 Yapma borcu irtifakın tek başına konusu olamaz, yalnız yan edim olarak bağlanır (TMK m. 779/2).\n- 📌 Kurulma için tapu kütüğüne tescil şarttır (TMK m. 780/1; TMK m. 1021); etkisi yevmiye kaydından başlar (TMK m. 1022/2).\n- 📌 İrtifak sözleşmesi resmî şekle bağlıdır; adi yazılı sözleşme geçersizdir (TMK m. 781). Resmî senedi tapu sicil müdürlüğü düzenler (2644 sayılı Kanun m. 26).\n- ⚠️ Dışarıdan görülen mecra irtifakı tescille değil, noterce düzenlenen sözleşmeye dayanılarak mecranın yapılmasıyla doğar (TMK m. 727/3). \"Her irtifak tescille doğar\" mutlak değildir.\n- 📌 Malik, kendisine ait iki taşınmazdan biri üzerinde diğeri lehine irtifak kurabilir (TMK m. 782).\n- 📌 TMK m. 783: irtifak, tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla sona erer. Terkin yararlanan malikin yazılı beyanıyla yapılır (TMK m. 1014).\n- ⚠️ İki taşınmaza aynı kişinin malik olması irtifakı kendiliğinden bitirmez; terkin edilmedikçe ayni hak olarak sürer (TMK m. 784).\n- ⚠️ TMK m. 785/1'de \"hiçbir yarar kalmamış\" hâli, TMK m. 785/2'de \"yüküne oranla çok az yarar\" hâli vardır; \"bedel\" yalnız ikinci fıkrada geçer. İstemde bulunan yüklü taşınmaz malikidir.\n- 📌 Geçidin kaldırılmasını isteyen yüklü malik, ihtiyacın sona erdiğini veya çok az yarar kaldığını ispat eder; bütün maliklerin taraf olması aranır. Bu ilkeler İçtihadı Birleştirme Kararına değil, Yargıtay kararlarına dayanır.\n- 📌 Kapsam sırası: önce tescil (TMK m. 787/1); belirsizse tescilin sınırları içinde kazanma sebebi veya uzun süreli, davasız, iyiniyetli kullanış biçimi (TMK m. 787/2). Uzun süre kullanma tescili aşmaz.\n- ⚠️ İhtiyaç değişikliği yükü ağırlaştıramaz (TMK m. 788). Bakım yararlanan malike aittir; tesis yüklüye de yararlıysa yararları oranında paylaşılır (TMK m. 790).\n- 📌 Nakil (TMK m. 791): belli kısımla sınırlı irtifak, menfaatin ispatı, giderlerin yüklü malike ait olması, kullanmanın güçleşmemesi; yer tapuda yazılı olsa da istenebilir. Mecra naklinde giderler kural olarak mecra hakkı sahibindedir (TMK m. 746/2).\n- 📌 Bölünmede (TMK m. 792 ve TMK m. 793) süre \"bir ay\"dır ve terkin için dava gerekmez; tapu sicil memuru bildirir ve itiraz yoksa terkin eder. TMK m. 1026'daki süre \"otuz gün\"dür.",
+  "doctrine_md": "### Kamulaştırma kökenli irtifakın terkini\nBir görüşe göre (Yargıtay Hukuk Genel Kurulu çoğunluğu, oy çokluğuyla): Kamulaştırmayla kurulan irtifakın terkininde özel hüküm 2942 sayılı Kanun m. 22'dir. Dava 11.09.2014'ten sonra açılmış, kamulaştırmanın kesinleşmesinden beri beş yıl geçmiş ve taraflar anlaşamamışsa TMK m. 785'e dayanılarak terkin istenemez.\n\nKarşı görüşe göre: 2942 sayılı Kanun'da irtifakın terkinine ilişkin bir hüküm yoktur, 2942 sayılı Kanun m. 22 mülkiyetin kamulaştırılmasına özgüdür; bu yüzden temel kanun olan TMK m. 785 uygulanmalıdır. Bu soru sınav olayında kesin sonuç olarak kullanılmaz.\n\n### TMK m. 785/1'de terkin bedelli mi?\nMetin bedeli yalnız ikinci fıkrada arar. Bir görüşe göre yarar tamamen kalkmışsa terkin bedelsizdir. Karşı görüşe göre, özellikle bedeli ödenmiş irtifakta terkin taşınmaza değer kattığından hakkaniyet gereği bedel ödenmelidir. Yargıtay kararlarındaki \"bedel karşılığında kaldırılmasını isteyebilir\" formülünün birinci fıkra için bedel şartı koyup koymadığı da açık değildir. Sınavda metni ver, kesin konuşma.\n\n### Yola cepheli komşu parselin edinilmesi\nGenel yola bağlantısı olmayan parsel için kurulmuş geçidin, yararlanan malikin yola cepheli bitişik parseli edinmesiyle yararını yitirip yitirmediği tartışmalıdır. Bir görüşe göre ihtiyaç fiilen sona erdiğinden geçit TMK m. 785 ile kaldırılır. Karşı görüşe göre irtifak yararlanan taşınmaza bağlıdır; parseller birleştirilmedikçe her biri ayrı değerlendirilir ve kaldırma sebebi yoktur.\n\n### Diğer tartışmalı noktalar\n- **Zamanaşımı:** TMK m. 780/3 yalnız mülkiyeti zamanaşımıyla edinilebilecek taşınmazları arar. TMK m. 712 ve TMK m. 713'ün irtifaka nasıl uygulanacağı (zilyetliğin niteliği; tapulu taşınmazda irtifakın olağanüstü zamanaşımıyla kazanılıp kazanılamayacağı) öğretide ayrıntıda tartışılır.\n- **Sayılmayan sona erme hâlleri:** Süre dolması, kamulaştırma ya da hak sahibinin vazgeçmesi gibi hâller kararlarda ve öğretide anılır; TMK m. 783 bunları saymaz. Hakkın kendiliğinden mi sona erdiği, kaydın yalnız TMK m. 1026 ile mi temizleneceği tartışmalıdır.\n- **Bölünmede itiraz:** TMK m. 792 ve TMK m. 793 itiraz edilirse ne olacağını söylemez; uyuşmazlığın mahkemeye taşınacağı öğretide kabul edilir.\n- **Arabuluculuk:** İrtifak uyuşmazlıklarının HUAK m. 18/B'deki \"komşu hakkı\" uyuşmazlıklarına girip girmediği, dolayısıyla arabuluculuğun dava şartı olup olmadığı kesin değildir.",
+  "glossary": [
+   {
+    "term": "Taşınmaz irtifakı",
+    "definition": "Bir taşınmaz üzerinde başka bir taşınmaz lehine konulmuş yük; yüklü malik kaçınmaya veya katlanmaya mecburdur (TMK m. 779)."
+   },
+   {
+    "term": "Yüklü taşınmaz",
+    "definition": "Üzerinde irtifak yükü bulunan ve malikinin mülkiyet yetkilerinin sınırlandığı taşınmaz."
+   },
+   {
+    "term": "Yararlanan taşınmaz",
+    "definition": "İrtifakın lehine kurulduğu taşınmaz; irtifak buna bağlı bir ayni haktır."
+   },
+   {
+    "term": "Olumsuz irtifak",
+    "definition": "Yüklü malikin bazı yetkileri kullanmaktan kaçındığı irtifak; örneğin belli yükseklikten fazla yapı yapmama (öğretideki ad)."
+   },
+   {
+    "term": "Olumlu irtifak",
+    "definition": "Yüklü malikin yararlanan malikin kullanımına katlandığı irtifak; örneğin geçit (öğretideki ad)."
+   },
+   {
+    "term": "Yan edim",
+    "definition": "İrtifaka bağlanabilen yapma borcu; tek başına irtifakın konusu olamaz (TMK m. 779/2)."
+   },
+   {
+    "term": "Malik irtifakı",
+    "definition": "Malikin kendisine ait iki taşınmazdan biri üzerinde diğeri lehine kurduğu irtifak (TMK m. 782)."
+   },
+   {
+    "term": "Terkin",
+    "definition": "Bir tescilin kütükten silinmesi; kaydın hak sağladığı kişinin yazılı beyanıyla yapılır (TMK m. 1014)."
+   },
+   {
+    "term": "Mecra",
+    "definition": "Su, gaz, elektrik ve benzerlerinin geçtiği hat veya boru; mecra dışarıdan görülüyorsa irtifak noter sözleşmesi ve mecranın yapılmasıyla doğar (TMK m. 727/3)."
+   },
+   {
+    "term": "Nakil",
+    "definition": "İrtifakın taşınmazın başka bir yerine kaydırılması; yüklü malik şartları varsa isteyebilir (TMK m. 791)."
+   },
+   {
+    "term": "Kayıt maliki",
+    "definition": "Tapu kütüğünde malik görünen kişi; terkin davasını yüklü taşınmazın kayıt maliki açar."
+   },
+   {
+    "term": "Kamulaştırma yoluyla irtifak",
+    "definition": "Mülkiyetin kamulaştırılması yerine taşınmazın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde irtifak kurulması (2942 sayılı Kanun m. 4)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "779",
+   "official_text": "A. Konusu\nMadde 779- Taşınmaz lehine irtifak hakkı, bir taşınmaz üzerinde diğer bir taşınmaz lehine konulmuş bir yük olup, yüklü taşınmazın malikini mülkiyet hakkının sağladığı bazı yetkileri kullanmaktan kaçınmaya veya yararlanan taşınmaz malikinin yüklü taşınmazı belirli şekilde kullanmasına katlanmaya mecbur kılar.\nYapma borçları, irtifaka başlı başına konu olamaz; ona ancak yan edim olarak bağlanabilir.\nB. Kurulması ve sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "780",
+   "official_text": "1. Tescil\nMadde 780- İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır.\nİrtifak hakkının kazanılmasında ve tescilinde, aksi öngörülmüş olmadıkça taşınmaz mülkiyetine ilişkin hükümler uygulanır.\nİrtifak hakkının zamanaşımı yoluyla kazanılması, ancak mülkiyeti bu yolla elde edilebilecek taşınmazlarda mümkündür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "781",
+   "official_text": "2. Sözleşme\nMadde 781- İrtifak hakkının kurulmasına ilişkin sözleşmenin geçerli olması, resmî şekilde düzenlenmesine bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "782",
+   "official_text": "3. Kendi taşınmazı üzerinde irtifak hakkı\nMadde 782- Malik kendisine ait iki taşınmazdan biri üzerinde diğerinin lehine irtifak hakkı kurabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "783",
+   "official_text": "1. Genel olarak\nMadde 783- İrtifak hakkı, tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla sona erer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "784",
+   "official_text": "2. Her iki taşınmaza aynı kimsenin malik olması\nMadde 784- Yüklü ve yararlanan taşınmazlara aynı kimse malik olursa, bu kişi, irtifak hakkını terkin ettirebilir.\nTerkin edilmedikçe irtifak, aynî hak olarak varlığını sürdürür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "785",
+   "official_text": "3. Mahkeme kararı\nMadde 785- Lehine irtifak kurulan taşınmaz için bu hakkın sağladığı hiç bir yarar kalmamışsa, yüklü taşınmazın maliki bu hakkın terkinini isteyebilir.\nYüküne oranla çok az yarar sağlayan bir irtifak hakkının, bedel karşılığında kısmen veya tamamen terkini istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "786",
+   "official_text": "1. Genel olarak\nMadde 786- İrtifak hakkı sahibi, hakkının korunması ve kullanılması için gerekli olan önlemleri alabilir; ancak, hakkını yüklü taşınmazın malikine en az zarar verecek biçimde kullanmak zorundadır.\nYüklü taşınmazın maliki, irtifak hakkının kullanılmasını engelleyecek ya da zorlaştıracak davranışlarda bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "787",
+   "official_text": "2. Tescile göre\nMadde 787- İrtifaktan doğan yetki ve yükümlülükleri açıkça belirlediği ölçüde tescil, irtifakın kapsamını belirlemede esas oluşturur.\nTescilden açıkça anlaşılmadığı hâllerde kapsam, tescilin sınırları içinde, irtifak hakkının kazanılma sebebine veya uzun süreden beri davasız ve iyiniyetle kullanılış biçimine göre belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "788",
+   "official_text": "3. İhtiyaçların değişmesi\nMadde 788- Yararlanan taşınmazın ihtiyaçlarındaki değişiklik, yüklü taşınmazın irtifaktan doğan yükünü ağırlaştıramaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "789",
+   "official_text": "4. Özel kanun hükümleri ve yerel âdet\nMadde 789- Tarla yolu, yaya veya araba geçidi gibi geçit hakları ile hayvan otlatma, hayvan sulama, tarlalara veya arklara su alma hakları ve benzeri hakların kapsamını belirlemede taraflar arasındaki anlaşma veya özel kanun hükümleri, yoksa yerel âdet uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "790",
+   "official_text": "II. Bakım giderleri\nMadde 790- İrtifak hakkının kullanılması için gerekli tesislerin bakımı, yararlanan taşınmaz malikine aittir.\nTesisler yüklü taşınmazın malikine de yararlı ise, bunların bakım giderlerine her iki malik yararları oranında katılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "791",
+   "official_text": "1. İrtifak hakkının ilişkin olduğu yerin değiştirilmesi\nMadde 791- İrtifak hakkı yüklü taşınmazın yalnız belli bir kısmının kullanılması koşuluyla kurulmuşsa, bu taşınmazın maliki, menfaatini ispat etmek ve giderleri üstlenmek kaydıyla; irtifakın, hakkın kullanılmasını güçleştirmeyecek biçimde taşınmazın başka bir yerine naklini isteyebilir.\nİrtifak hakkının kullanılacağı yer tapu kütüğünde belirtilmiş olsa bile yüklü taşınmaz maliki bu yetkiyi kullanabilir.\nMecraların bir yerden başka bir yere naklinde komşuluk hukuku kuralları da göz önünde tutulur.\n2. Bölünme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "792",
+   "official_text": "a. Yararlanan taşınmazın bölünmesi\nMadde 792- Yararlanan taşınmazın parsellere bölünmesi hâlinde kural, irtifak hakkının her parsel yararına devam etmesidir.\nAncak, durum ve koşullara göre irtifak hakkı yalnız bir parselin yararına kullanılabiliyorsa, yüklü taşınmazın maliki diğer parseller için irtifak hakkının terkinini isteyebilir.\nTapu sicil memuru, bu istemi irtifak hakkı sahibine bildirir ve onun bir ay içinde itiraz etmemesi hâlinde irtifak hakkını terkin eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "793",
+   "official_text": "b. Yüklü taşınmazın bölünmesi\nMadde 793- Yüklü taşınmazın parsellere bölünmesi hâlinde kural, irtifak hakkının her parsel üzerinde devam etmesidir.\nAncak, irtifak hakkı belirli parseller üzerinde kullanılmıyorsa, durum ve koşullara göre de kullanılamayacaksa, bu parsellerin maliklerinden her biri, kendi taşınmazı üzerindeki irtifak hakkının terkinini isteyebilir.\nTapu sicil memuru, bu istemi irtifak hakkı sahibine bildirir ve onun bir ay içinde itiraz etmemesi hâlinde irtifak hakkını terkin eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "705",
+   "official_text": "I. Tescil\nMadde 705- Taşınmaz mülkiyetinin kazanılması, tescille olur.\nMiras, mahkeme kararı, cebrî icra, işgal, kamulaştırma hâlleri ile kanunda öngörülen diğer hâllerde, mülkiyet tescilden önce kazanılır. Ancak, bu hâllerde malikin tasarruf işlemleri yapabilmesi, mülkiyetin tapu kütüğüne tescil edilmiş olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "712",
+   "official_text": "a. Olağan zamanaşımı\nMadde 712- Geçerli bir hukukî sebep olmaksızın tapu kütüğüne malik olarak yazılan kişi, taşınmaz üzerindeki zilyetliğini davasız ve aralıksız olarak on yıl süreyle ve iyiniyetle sürdürürse, onun bu yolla kazanmış olduğu mülkiyet hakkına itiraz edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "713",
+   "official_text": "b. Olağanüstü zamanaşımı\nMadde 713- Tapu kütüğünde kayıtlı olmayan bir taşınmazı davasız ve aralıksız olarak yirmi yıl süreyle ve malik sıfatıyla zilyetliğinde bulunduran kişi, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nAynı koşullar altında, maliki tapu kütüğünden anlaşılamayan veya yirmi yıl önce (…)[38] hakkında gaiplik kararı verilmiş bir kimse adına kayıtlı bulunan taşınmazın tamamının veya bölünmesinde sakınca olmayan bir parçasının zilyedi de, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nTescil davası, Hazineye ve ilgili kamu tüzel kişilerine veya varsa tapuda malik gözüken kişinin mirasçılarına karşı açılır.\nDavanın konusu, mahkemece bir gazete ve bir internet haber sitesinde ve ayrıca taşınmazın bulunduğu yerde uygun araç ve aralıklarla en az üç defa ilân olunur.[39]\nSon ilândan başlayarak üç ay içinde yukarıdaki koşulların gerçekleşmediğini ileri sürerek itiraz eden bulunmaz ya da itiraz yerinde görülmez ve davacının iddiası ispatlanmış olursa, hâkim tescile karar verir. Mülkiyet, birinci fıkrada öngörülen koşulların gerçekleştiği anda kazanılmış olur.\nDavalılar ve itiraz edenler, aynı davada kendi adlarına tescile karar verilmesini isteyebilirler.\nKararda, tescili istenilen taşınmazın niteliği, yeri, sınırları ve yüzölçümü belirtilir ve karara, uzmanlarca düzenlenen teknik bilgileri içeren krokisi de eklenir.\nÖzel kanun hükümleri saklıdır.\n[38] Anayasa Mahkemesi’nin 17/3/2011 tarihli ve E.: 2009/58, K.: 2011/52 sayılı Kararı ile bu fıkrada yer alan “… ölmüş ya da…” ibaresi iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "727",
+   "official_text": "4. Mecralar\nMadde 727- Su, gaz, elektrik ve benzerlerinin mecraları, işletmenin bulunduğu taşınmazın dışında olsalar bile, aksine bir düzenleme olmadıkça o işletmenin eklentisi ve işletme malikinin malı sayılır.\nKomşuluk hukukunun gerektirdiği hâller dışında bir taşınmazın böyle bir mecra ile aynî hak olarak yüklenmesi, ancak bir irtifak hakkı kurulması suretiyle olabilir.\nİrtifak hakkı, mecra dışarıdan görülmüyorsa tapu kütüğüne tesciliyle, dışarıdan görülüyorsa noterce düzenlenecek sözleşmeye dayanılarak mecranın yapılmasıyla doğar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "744",
+   "official_text": "a. Katlanma yükümlülüğü\nMadde 744- Her taşınmaz maliki, uğrayacağı zararın tamamının önceden ödenmesi koşuluyla, su yolu, kurutma kanalı, gaz ve benzerlerine ait boruların, elektrik hat ve kablolarının, başka yerden geçirilmesi olanaksız veya aşırı ölçüde masraflı olduğu takdirde, kendi arazisinin altından veya üstünden geçirilmesine katlanmakla yükümlüdür.\nMecra geçirilmesinin kamulaştırma kurallarına bağlı olması hâlinde, bu Kanunun mecralara ilişkin komşuluk hükümleri uygulanmaz.\nMecrayı geçirme hakkı, hak sahibinin istemi üzerine ve giderleri ödemesi koşuluyla tapu kütüğüne tescil edilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "746",
+   "official_text": "c. Durumun değişmesi\nMadde 746- Durum değişirse, yükümlü taşınmaz maliki, mecranın kendi yararına olarak başka bir yere nakledilmesini isteyebilir.\nYer değiştirme giderleri, kural olarak mecra hakkı sahibine aittir.\nÖzel durumlar haklı gösterdiği takdirde, taşınmaz maliki de giderlerin uygun bir kısmına katılmakla yükümlü tutulabilir.\n7. Geçit hakları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "747",
+   "official_text": "a. Zorunlu geçit\nMadde 747- Taşınmazından genel yola çıkmak için yeterli geçidi bulunmayan malik, tam bir bedel karşılığında bir geçit hakkı tanınmasını komşularından isteyebilir.\nBu hak, ilk önce kendisinden bu geçidin istenmesi önceki mülkiyet ve yol durumuna göre en uygun düşen komşuya karşı ve daha sonra bundan en az zarar görecek olana karşı kullanılır.\nZorunlu geçit iki tarafın menfaati gözetilerek belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "748",
+   "official_text": "b. Diğer geçit hakları\nMadde 748- Taşınmaz malikinin taşınmazını işletme veya iyileştirme ya da taşınmazı üzerinde yapı yapma amacıyla komşu taşınmaza geçici olarak girme hakkı ile tarla yolu, hayvan sulama yolu, kış geçidi, tomruk kaydırma yolu ve oluğu ve bunlara benzer diğer geçitler özel kanun hükümlerine tâbidir.\nÖzel kanun hükmü yoksa yerel âdet uygulanır.\nDoğrudan doğruya kanundan kaynaklanan geçit hakları, tapu kütüğüne tescil edilmeksizin doğar. Ancak, bunlardan sürekli nitelikte olanlar beyanlar sütununda gösterilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "838",
+   "official_text": "E. Diğer irtifak hakları\nMadde 838- Malik, taşınmazı üzerinde herhangi bir kişi veya topluluk lehine atış eğitimi veya spor alanı ya da geçit olarak kullanılmak gibi belirli bir yararlanmaya hizmet etmek üzere başka irtifak hakları da kurabilir.\nBu haklar, aksi kararlaştırılmış olmadıkça, başkasına devredilemez ve mirasçılara geçmez. Bu hakların kapsamı, hak sahibinin olağan ihtiyaçlarına göre belirlenir.\nTaşınmaz lehine irtifaklara ilişkin hükümler, bu tür irtifak haklarına da uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1014",
+   "official_text": "b. Terkin ve değişiklik için\nMadde 1014- Bir tescilin terkin edilmesi veya değiştirilmesi, ancak bu kaydın kendilerine hak sağladığı kimselerin yazılı beyanı üzerine yapılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1015",
+   "official_text": "2. Yetkinin ve sebebin belirlenmesi\nMadde 1015- Tescil, terkin ve değişiklik gibi tasarruf işlemlerinin yapılabilmesi, istemde bulunanın, tasarruf yetkisini ve hukukî sebebi belgelemiş olmasına bağlıdır.\nİstemde bulunan kimse, kendisinin, sicilde hak sahibi görünen kişi veya bu kişinin temsilcisi olduğunu ispat etmek suretiyle tasarruf yetkisini belgelemiş olur.\nHukukî sebebin belgelenmesi, bu sebebin geçerliliği için gerekli şekle uyulduğunun ispatı suretiyle olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1021",
+   "official_text": "I. Tescilin yapılmamasının sonuçları\nMadde 1021- Kurulması kanunen tescile tâbi aynî haklar, tescil edilmedikçe varlık kazanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1022",
+   "official_text": "1. Genel olarak\nMadde 1022- Aynî haklar, kütüğe tescil ile doğar; sıralarını ve tarihlerini tescile göre alır.\nTescilin etkisi, kanunen öngörülen belgeler isteme eklenmiş veya geçici tescil hâlinde belgelerin uygun zamanda tamamlanmış olması koşuluyla yevmiye defterine yapılan kayıt tarihinden başlar.\nBir hakkın içeriği, tescilin sınırları içinde, dayandığı belgelere göre veya diğer herhangi bir yolla belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1024",
+   "official_text": "3. İyiniyetli olmayan üçüncü kişilere karşı\nMadde 1024- Bir aynî hak yolsuz olarak tescil edilmiş ise, bunu bilen veya bilmesi gereken üçüncü kişi bu tescile dayanamaz.\nBağlayıcı olmayan bir hukukî işleme dayanan veya hukukî sebepten yoksun bulunan tescil yolsuzdur.\nBöyle bir tescil yüzünden aynî hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir.\nE. Terkin ve değiştirme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1025",
+   "official_text": "I. Yolsuz tescilde\nMadde 1025- Bir aynî hak yolsuz olarak tescil edilmiş veya bir tescil yolsuz olarak terkin olunmuş ya da değiştirilmiş ise, bu yüzden aynî hakkı zedelenen kimse tapu sicilinin düzeltilmesini dava edebilir.\nİyiniyetli üçüncü kişilerin bu tescile dayanarak kazandıkları aynî haklar ve her türlü tazminat istemi saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1026",
+   "official_text": "II. Aynî hakların sona ermesi\nMadde 1026- Bir aynî hakkın sona ermesiyle tescil her türlü hukukî değerini kaybettiği takdirde, yüklü taşınmaz maliki, terkini isteyebilir.\nTapu memuru bu istemi yerine getirirse, her ilgili, bu işlemin kendisine tebliği tarihinden başlayarak otuz gün içinde terkine karşı dava açabilir.\nTapu memuru, re'sen hâkime başvurarak aynî hakkın sona erdiğinin belirlenmesine ilişkin karar verilmesini istemeye ve hâkimin vereceği karara dayanarak terkin işlemini yapmaya yetkilidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "4",
+   "official_text": "İrtifak hakkı kurulması\nMadde 4 – Taşınmaz malın mülkiyetinin kamulaştırılması yerine, amaç için yeterli olduğu takdirde taşınmaz malın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde kamulaştırma yoluyla irtifak hakkı kurulabilir.\n(Ek fıkra : 10/9/2014 - 6552/99 md.) Ancak, maliklerinin mülkiyet hakkının kullanılmasının engellenmemesi, can ve mal güvenliği bakımından gerekli önlemlerin alınması kaydıyla, kamu yararına dayalı olarak taşınmazların üstünde teleferik ve benzeri ulaşım hatları ile her türlü köprü, taşınmazların altında metro ve benzeri raylı taşıma sistemleri ile tünel yapılabilir. Taşınmazların mülkiyet hakkının kullanımının engellenmemesi hâlinde, taşınmazlara ilişkin herhangi bir kamulaştırma yapılmaz. (İptal üçüncü cümle: Anayasa Mahkemesi’nin 14/5/2015 tarihli ve E.: 2014/177, K.: 2015/49 sayılı Kararı ile.) (…) Yapılan yatırım nedeniyle taşınmaz maliklerinden değer artış bedeli alınamaz.[3]\n[3] 27/3/2015 tarihli ve 6639 sayılı kanunun 28 inci maddesiyle bu fıkrada yer alan “raylı taşıma sistemleri” ibaresinden sonra gelmek üzere “ile tünel” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "22",
+   "official_text": "Vazgeçme, iade ve devir[25]\nMadde 22 – (Değişik birinci fıkra: 24/4/2001 - 4650/13 md.) Kamulaştırmanın (…)[26] kesinleşmesinden sonra taşınmaz malların kamulaştırma amacına veya kamu yararına yönelik herhangi bir ihtiyaca tahsisi lüzumu kalmaması halinde, keyfiyet idarece mal sahibi veya mirasçılarına 7201 sayılı Tebligat Kanunu hükümlerine göre duyurulur. (Değişik ikinci ve üçüncü cümleler: 10/9/2014 - 6552/100 md.) Bu duyurma üzerine mal sahibi veya mirasçıları, kamulaştırma bedelini aldıkları günden itibaren işleyecek kanuni faiziyle birlikte üç ay içinde ödeyerek taşınmaz malı geri alabilir. İade işleminin kamulaştırmanın ve bedelinin kesinleşmesinden sonra bir yıl içinde gerçekleşmesi hâlinde kamulaştırma bedelinin faizi alınmaz. (Mülga dördüncü cümle: 10/9/2014-6552/100 md.)\n(Ek fıkra: 10/9/2014-6552/100 md.) Bu madde hükümlerine göre taşınmaz malı geri almayı kabul etmeyen mal sahibi veya mirasçılarının 23 üncü maddeye göre geri alma hakları da düşer.\n(Ek fıkra: 10/9/2014-6552/100 md.) Bu madde hükümleri, kamulaştırmanın kesinleşmesi tarihinden itibaren beş yıl geçmiş olması hâlinde uygulanmaz.\nAncak, kamulaştırılan taşınmaz mala kamulaştırmayı yapan idare dışında başka bir idare, kamulaştırma yoluyla gerçekleştirebileceği bir kamu hizmeti amacıyla istekli olduğu takdirde, yukarıdaki fıkra hükmü uygulanmayarak bu Kanunun 30 uncu veya 1050 sayılı Muhasebei Umumiye Kanununun 23 üncü maddesine göre işlem yapılır.\n[25] Bu madde başlığı “Tarafların anlaşmasıyla vazgeçme ve devir” iken, 12/7/2013 tarihli ve 6495 sayılı Kanunun 26 ncı maddesiyle metne işlendiği şekilde değiştirilmiştir.\n[26] 10/9/2014 tarihli ve 6552 sayılı Kanunun 100 üncü maddesiyle bu fıkrada yer alan; “ve bedelinin” ibaresi metinden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/215",
+   "karar_no": "2025/749",
+   "decision_date": "26.11.2025",
+   "summary_md": "İstanbul'daki iki parselin paylı malikleri, parsellerde elektrikli tren enerji hattı için idare lehine eskiden kurulmuş irtifak kaydının terkinini istemiştir; hat 2012'de yer altına alınarak sökülmüş, idare de hatta ihtiyaç kalmadığını kabul etmiş ama terkinin ancak rıza ve bedelle olabileceğini savunmuştur. İlk derece mahkemesi kaydın terkinine karar vermiş, istinaf başvurusu reddedilmiş; Yargıtay 5. Hukuk Dairesi, 2942 sayılı Kanun'a 6552 sayılı Kanunla eklenen beş yıllık sürenin dava tarihinde geçtiğini belirterek bozmuştur. Direnen ilk derece kararını Hukuk Genel Kurulu oy çokluğuyla bozmuştur. Çoğunluğa göre irtifak kamulaştırmadan doğduğundan, beş yıl geçmiş ve anlaşma bulunmadığından TMK m. 785'in uygulanma yeri yoktur. Karşı oya göre irtifak TMK m. 838 türündendir ve TMK m. 838/3 ile taşınmaz irtifakı hükümlerine tâbidir; 2942 sayılı Kanun'da terkin hükmü yoktur. Karar ayrıca TMK m. 785'e ilişkin genel açıklamalar içerir: TMK m. 785/1 yararın tamamen kalkmasını arar; TMK m. 785/2 için yararın kısmen azalması yetmez, yarar ile yük arasında aşırı oransızlık gerekir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1226404400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "14. Hukuk Dairesi",
+   "esas_no": "2015/13475",
+   "karar_no": "2018/3519",
+   "decision_date": "07.05.2018",
+   "summary_md": "Davacı, kendi parseli aleyhine davalının parseli lehine rızaen kurulan geçit irtifakının kaldırılmasını istemiştir. Davalının, genel yola sınırı bulunan komşu bir parseli de satın aldığı kararda yazılıdır. İlk derece mahkemesi davayı reddetmiştir; parseller tevhit edilmediğinden her parsel ayrı değerlendirilir. Yargıtay 14. Hukuk Dairesi oy çokluğuyla bozmuştur. Çoğunluk, genel yola bağlantısı olmayan taşınmaz için kurulan geçidin, ihtiyacın sona ermesi veya yüküne oranla çok az yarar sağlaması hâlinde TMK m. 783 ve TMK m. 785 çerçevesinde hukuki temelini kaybedeceğini, ispat yükünün davacıda olduğunu belirtmiş ve yola cepheli parsel nedeniyle geçit ihtiyacının sona erdiği sonucuna varmıştır. Karşı oyda geçit yararlanan taşınmaza bağlı bir hak sayılmış, parseller tevhit edilmedikçe sona erme sebebi bulunmadığı belirtilmiştir. Karar, ispat yükünü yüklü malike veren yerleşik yaklaşımı gösterir; yola cepheli komşu parselin edinilmesinin sonucu ise tartışmalıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/424623300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "14. Hukuk Dairesi",
+   "esas_no": "2011/4518",
+   "karar_no": "2011/6179",
+   "decision_date": "05.05.2011",
+   "summary_md": "Önceki malikin mirasçılarından biri, 1998 tarihli resmî senetle bir elektrik dağıtım şirketi lehine taşınmazın bir kısmında bedelli irtifak kurdurmuştur. Sonradan parsel, irtifakla yüklü olarak diğer mirasçılar adına tescil edilmiş ve bir şirkete satılmıştır; satıcılar irtifakı kaldırtmayı taahhüt etmiştir. Satıcılar ve alıcı şirket, irtifakın paydaş olmayan kişi tarafından kurdurulduğunu ileri sürerek terkin istemiş, ilk derece mahkemesi kabul etmiştir. Yargıtay 14. Hukuk Dairesi oy birliğiyle bozmuştur. Dairenin gerekçesinde terkin davasını yüklü taşınmazın kayıt malikinin açabileceği, taşınmazı satan önceki maliklerin terkin taahhüdünün onlara dava hakkı vermediği vurgulanır. Ayrıca somut olayda irtifak paydaş tarafından bedel alınarak kurulmuş, diğer paydaşlar itiraz etmemiş ve imar uygulamasında yeni parsele taşınmış olduğundan geçersizlik ileri sürülemez. Hat yer altına alınmış ama hâlâ malikin sınırları içindeyse yarar sürer ve TMK m. 791 çerçevesinde nakle karar verilmelidir; hat sınırların dışına çıkarılmışsa terkin kararı verilmelidir. Mahkeme yeniden keşif yapmalıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/766464400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TMK m. 779/1'e göre taşınmaz irtifakı hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Bir taşınmaz üzerinde başka bir taşınmaz lehine konulmuş yüktür; yüklü malik ya kaçınmaya ya da katlanmaya mecbur kalır.",
+    "Yararlanan taşınmazın malikine, yüklü taşınmazı devralma hakkı verir.",
+    "Bir taşınmaz üzerinde belirli bir kişi lehine kurulan ve devredilemeyen bir haktır.",
+    "Yüklü malike yalnız bir şey yapma borcu yükleyen kişisel bir haktır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 779/1 irtifakı, bir taşınmaz üzerinde diğer bir taşınmaz lehine konulmuş yük olarak tanımlar; yük, yüklü malikin bazı yetkileri kullanmaktan kaçınması veya yararlanan malikin kullanımına katlanması biçimindedir. Kişi lehine kurulan, devredilemeyen irtifaklar TMK m. 838 kapsamındadır; yapma borcu ise yalnız yan edim olabilir (TMK m. 779/2)."
+  },
+  {
+   "stem_md": "TMK m. 779/2'ye göre aşağıdakilerden hangisi mümkündür?",
+   "options": [
+    "Yapma borcunun irtifakın asıl ve tek konusu yapılması",
+    "Yüklü malikin her kış yolun karını temizleme borcunun tek başına irtifak olarak kurulması",
+    "Yapma borçlarının irtifaka hiçbir biçimde bağlanamaması",
+    "Geçit irtifakına, yüklü malikin kış aylarında yolun karını temizlemesinin yan edim olarak bağlanması"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Yapma borçları irtifaka başlı başına konu olamaz; ancak yan edim olarak bağlanabilir (TMK m. 779/2). Bu nedenle kar temizleme tek başına irtifak olamaz, geçit irtifakının yanında yan edim olabilir. Yaygın yanılgı, yapma borçlarının irtifaka hiç bağlanamayacağını sanmaktır."
+  },
+  {
+   "stem_md": "Ceren ile Doğan, Doğan'ın parseli üzerinde Ceren'in parseli lehine geçit irtifakı kurmak için tapu müdürlüğünde resmî senet düzenlemiştir. Ancak tescil henüz yapılmamıştır. Hangisi doğrudur?",
+   "options": [
+    "İrtifak, tapu müdürlüğünün senedi onaylamasıyla doğar.",
+    "İrtifak, Ceren'in geçidi kullanmaya başlamasıyla doğar.",
+    "Tescil yapılıncaya kadar ayni hak olarak irtifak doğmamıştır.",
+    "İrtifak, resmî senedin imzalandığı anda doğmuştur; tescil yalnız açıklayıcıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "İrtifak hakkının kurulması için tapu kütüğüne tescil şarttır (TMK m. 780/1). Kurulması tescile tâbi ayni haklar tescil edilmedikçe varlık kazanamaz (TMK m. 1021). Resmî senet geçerli sözleşme şartıdır (TMK m. 781) ama irtifakı tek başına doğurmaz. Tescil bu hâlde kurucudur, açıklayıcı değildir."
+  },
+  {
+   "stem_md": "Eda ile Fatih, Fatih'in parseli üzerinde Eda'nın parseli lehine geçit irtifakı kurmak için adi yazılı bir sözleşme imzalamış ve Eda bu sözleşmeye dayanarak tapuda tescil istemiştir. Tapu memuru ne yapmalıdır?",
+   "options": [
+    "Tescili yapmalıdır; irtifak sözleşmesi şekle tabi değildir.",
+    "Tescili yapmalıdır; adi yazılı şekil ispat için yeterlidir.",
+    "İstemi reddetmelidir; hukuki sebep geçerlilik şekline uygun belgelenmemiştir.",
+    "Tescili yapmalıdır; ancak irtifak yalnız beş yıl süreyle doğar."
+   ],
+   "correct_option": 2,
+   "explanation_md": "İrtifak kurmaya ilişkin sözleşmenin geçerliliği resmî şekilde düzenlenmesine bağlıdır (TMK m. 781). Tescil istemi için hukuki sebebin geçerliliği için gerekli şekle uyulduğunun ispatı gerekir (TMK m. 1015/3). Adi yazılı sözleşme bu şartı karşılamaz. Yaygın yanılgı, adi yazılı şeklin en azından ispat için yeterli olduğunu sanmaktır; burada şekil geçerlilik şartıdır."
+  },
+  {
+   "stem_md": "Aras Tekstil A.Ş., işletmesine su getiren, komşu arazinin üzerinden geçen ve dışarıdan görülen bir boru hattını arazi maliki ile noterde yapılan sözleşmeye dayanarak kurmuştur. Tapuya tescil yapılmamıştır. TMK m. 727/3'e göre hangisi doğrudur?",
+   "options": [
+    "İrtifak ancak adi yazılı sözleşme ile doğabilirdi; noter sözleşmesi geçersizdir.",
+    "İrtifak, mecra dışarıdan görüldüğü için noterce düzenlenen sözleşmeye dayanılarak mecranın yapılmasıyla doğmuştur.",
+    "Yalnız kişisel hak doğmuştur; ayni irtifak için tescil şarttır.",
+    "İrtifak, tescil yapılmadığı için hiçbir hâlde doğmamıştır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Mecra irtifakı, mecra dışarıdan görülmüyorsa tapu kütüğüne tesciliyle, dışarıdan görülüyorsa noterce düzenlenecek sözleşmeye dayanılarak mecranın yapılmasıyla doğar (TMK m. 727/3). TMK m. 780/1'deki tescil kuralına bu istisna \"aksi öngörülmedikçe\" kaydıyla yer bırakır."
+  },
+  {
+   "stem_md": "Müteahhit Emre, birbirine komşu iki parselin de maliki olup arkadaki parseli satmadan önce, onun lehine öndeki parsel üzerinde geçit irtifakı kurmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Kurabilir; malik kendisine ait iki taşınmazdan biri üzerinde diğeri lehine irtifak kurabilir.",
+    "Kurabilir ama tescil gerekmez, çünkü iki taşınmaz da aynı kişiye aittir.",
+    "Kuramaz; kimse kendi malı üzerinde sınırlı ayni hak kuramaz.",
+    "Kurabilir, ancak parseller önce birleştirilirse."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 782 uyarınca malik, kendisine ait iki taşınmazdan biri üzerinde diğerinin lehine irtifak hakkı kurabilir. Sınırlı ayni hakların başkasına ait eşya üzerinde olması gerektiği düşüncesi bu kurum için geçerli değildir. İrtifak, kuruluşta yine tescille doğar (TMK m. 780/1)."
+  },
+  {
+   "stem_md": "TMK m. 783'e göre aşağıdakilerden hangisi irtifak hakkının sona erme sebebi olarak açıkça sayılmıştır?",
+   "options": [
+    "Yüklü taşınmazın başkasına satılması",
+    "Yararlanan taşınmazın yok olması",
+    "Yararlanan taşınmaz malikinin ölümü",
+    "Hak sahibinin irtifakı uzun süre kullanmaması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 783'e göre irtifak, tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla sona erer. Maliklerin değişmesi ya da ölümü ayni hakkı etkilemez; kullanılmama ise metinde sayılmamıştır. Süre dolması gibi sebepler uygulamada ve öğretide anılsa da kanun metninde yer almaz."
+  },
+  {
+   "stem_md": "Hakan, hem geçit irtifakıyla yüklü A parselinin hem de lehine geçit bulunan B parselinin maliki olmuş, terkin yaptırmamıştır. Sonra B'yi Irmak'a satar. Irmak geçidi kullanmak isteyince Hakan, \"taşınmazlar bende birleşince irtifak sona erdi\" diye itiraz eder. Hangisi doğrudur?",
+   "options": [
+    "İrtifak terkin edilmedikçe ayni hak olarak sürdüğünden Hakan'ın itirazı yerinde değildir.",
+    "Hakan haklıdır; birleşmeyle irtifak kendiliğinden sona ermiştir.",
+    "İrtifak ancak mahkeme kararıyla sona ererdi; Hakan terkin ettiremezdi.",
+    "Irmak ancak yeni bir irtifak sözleşmesi yapılırsa geçidi kullanabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yüklü ve yararlanan taşınmazlara aynı kimse malik olursa bu kişi irtifakı terkin ettirebilir, ama terkin edilmedikçe irtifak ayni hak olarak varlığını sürdürür (TMK m. 784). Birleşme irtifakı kendiliğinden bitirmez; Hakan terkin ettirebilirdi ama etmediği için hak sürer. Mahkeme kararı gerekmez, terkin yazılı beyanla yapılır (TMK m. 1014)."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TMK m. 785/2'nin düzenlediği hâlle ilgili olarak doğrudur?",
+   "options": [
+    "Yüküne oranla çok az yarar sağlayan irtifakın bedel karşılığında kısmen veya tamamen terkini istenebilir.",
+    "Terkin her hâlde bedelsiz ve yalnız tamamen yapılır.",
+    "Terkin ancak irtifakın sağladığı yararın tamamen kalkması hâlinde istenebilir.",
+    "Terkini yalnız yararlanan malik isteyebilir; yüklü malikin böyle bir istemi yoktur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 785/2 yüküne oranla çok az yarar sağlayan bir irtifakın bedel karşılığında kısmen veya tamamen terkininin istenebileceğini söyler. İstemde bulunan yüklü taşınmazın malikidir (TMK m. 785/1 ile birlikte). Yararın tamamen kalkması ise birinci fıkradaki hâldir; \"bedel\" ibaresi yalnız ikinci fıkrada geçer."
+  },
+  {
+   "stem_md": "Zerrin, Burak'ın parseli lehine kendi parselinde kurulu rızai geçit irtifakının TMK m. 785 uyarınca kaldırılmasını istemektedir. Burak, geçide hâlâ ihtiyaç duyduğunu söylemektedir. Yargıtay'ın yerleşik uygulamasına göre ispat yükü kimdedir?",
+   "options": [
+    "Zerrin, ihtiyacın sona erdiğini veya irtifakın yüküne oranla çok az yarar sağladığını ispat etmelidir.",
+    "Burak, geçitten yararlanmaya devam ettiğini ispat etmelidir.",
+    "İspat yükü hâkime aittir; taraflar ispat etmek zorunda değildir.",
+    "Taraflardan hiçbiri ispatla yükümlü değildir; irtifak kendiliğinden kalkar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yargıtay uygulamasında kaldırma isteyen yüklü malik, ihtiyacın sona erdiğini ya da irtifakın yüküne oranla çok az yarar sağladığını ispatla yükümlüdür. Bir hakkın sona erdiğini ileri süren, bu sonucu doğuran olguları kanıtlar. Burak'ın yararlanmaya devam ettiğini ispatı gerekmez."
+  },
+  {
+   "stem_md": "Yargıtay Hukuk Genel Kurulu'nun TMK m. 785/2'ye ilişkin genel açıklamasına göre aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Terkin için yarar ile yük arasında aşırı oransızlık gerekir; yararın kısmen azalması yetmez.",
+    "Yararın biraz azalması terkin için yeterlidir.",
+    "Yalnız yükün artması, hak sahibinin yararı aynı kalsa da terkin sebebidir.",
+    "Terkin ancak yararlanan malikin rızasıyla mümkündür."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hukuk Genel Kurulu, TMK m. 785/2 için yararın kısmen azalmasının yetmediğini, yarar ile yük arasında aşırı oransızlık gerektiğini belirtmiştir. Hak sahibinin yararı aynı kalırken yalnız yükün artması da sona erme sebebi değildir. Rıza yoksa mahkemeye gidilir; terkin rızaya bağlı bırakılmamıştır."
+  },
+  {
+   "stem_md": "Leyla, Mehmet'in parseli üzerinden geçit hakkına sahiptir. Yolun çamurlanması üzerine yola mıcır döker. Mehmet de yolun girişine anahtarı yalnız kendisinde bulunan kilitli bir kapı koyar. TMK m. 786'ya göre hangisi doğrudur?",
+   "options": [
+    "Leyla mıcır döküp yolu değiştiremez; Mehmet ise mülkiyet hakkı gereği kapıyı koyabilir.",
+    "İkisi de yasaktır; irtifak sahibi önlem alamaz, yüklü malik de tesis kuramaz.",
+    "Her ikisi de mülkiyet yetkisine dayanarak istediklerini yapabilir.",
+    "Leyla gerekli önlemi alabilir; Mehmet ise irtifakın kullanılmasını zorlaştıran kapıyı koyamaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Hak sahibi hakkının korunması ve kullanılması için gerekli önlemleri alabilir, yeter ki yüklü malike en az zarar verecek biçimde kullansın (TMK m. 786/1). Yüklü malik ise irtifakın kullanılmasını engelleyecek ya da zorlaştıracak davranışlarda bulunamaz (TMK m. 786/2). Kilitli kapı kullanımı zorlaştırır."
+  },
+  {
+   "stem_md": "Tapuda irtifak \"3 metre genişliğinde yaya geçidi\" olarak tescilli iken, yararlanan parselin maliki Selim on beş yıldır kendi aracını bu yoldan geçirmekte, yüklü malik Nurcan ise sessiz kalmaktadır. Sonunda Nurcan araç geçişine karşı çıkar. TMK m. 787'ye göre hangisi doğrudur?",
+   "options": [
+    "Nurcan'ın sessiz kalması irtifakı kendiliğinden araç geçidine dönüştürür.",
+    "Uzun süreli kullanma tescile üstündür; irtifak artık araç geçidini de kapsar.",
+    "Kapsam, taraflardan hangisi daha güçlüyse onun lehine belirlenir.",
+    "Tescil kapsamı açıkça belirlediğinden kapsam tescile göredir; uzun süre araç geçirmek kapsamı genişletmez."
+   ],
+   "correct_option": 3,
+   "explanation_md": "İrtifaktan doğan yetki ve yükümlülükleri açıkça belirlediği ölçüde tescil kapsamın esasıdır (TMK m. 787/1). Kullanış biçimi ancak tescilden kapsam açıkça anlaşılmıyorsa ve tescilin sınırları içinde dikkate alınır (TMK m. 787/2). \"Uzun süre kullandı, kapsam genişledi\" yaygın bir yanılgıdır."
+  },
+  {
+   "stem_md": "Tarım arazisine hizmet eden bir tarla yolu irtifakından yararlanan Ayşe, arazisinde ağır tonajlı araçların sürekli geçeceği bir üretim tesisi kurmuş ve yüklü malikten yolu buna göre kullanmasına katlanmasını istemiştir. TMK m. 788'e göre hangisi doğrudur?",
+   "options": [
+    "Yüklü malik yalnız bedel ödenirse artan yüke katlanmak zorunda kalır.",
+    "İrtifak ihtiyaç arttığında kendiliğinden genişler.",
+    "Yararlanan taşınmazın ihtiyaçları değiştiği için yüklü malik artan yüke katlanmak zorundadır.",
+    "Yararlanan taşınmazın ihtiyaçlarındaki değişiklik, yüklü taşınmazın irtifaktan doğan yükünü ağırlaştıramaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Yararlanan taşınmazın ihtiyaçlarındaki değişiklik, yüklü taşınmazın irtifaktan doğan yükünü ağırlaştıramaz (TMK m. 788). İhtiyacın artması irtifakı genişletmez. Kanun metninde artan yük için bedel karşılığında katlanma gibi bir imkân öngörülmemiştir."
+  },
+  {
+   "stem_md": "Ali'nin parseli lehine Bora'nın parselinde kurulmuş geçide, kullanımı kolaylaştırmak için parke taşı döşenmiştir. Bora da aynı yolu kendi ahırına ulaşmak için kullanmaktadır. Parkenin bakım giderleri TMK m. 790'a göre nasıl karşılanır?",
+   "options": [
+    "Bakım yükü kanunda düzenlenmemiştir; mahkeme eşit paylaştırır.",
+    "Tamamını Bora karşılar; çünkü yük onun taşınmazındadır.",
+    "Tamamını Ali karşılar; çünkü tesis yararlanan taşınmaza aittir ve Bora'nın yararı önemsizdir.",
+    "Bakım kural olarak Ali'ye aittir; tesis Bora'ya da yararlı olduğundan her ikisi yararları oranında katılır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Tesislerin bakımı yararlanan taşınmaz malikine aittir; tesisler yüklü malike de yararlıysa giderlere her iki malik yararları oranında katılır (TMK m. 790). Yaygın yanılgı, bakım yükünü yüklü malike yüklemektir; kural tam tersidir."
+  },
+  {
+   "stem_md": "TMK m. 791'e göre irtifakın başka yere nakli konusunda aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İrtifakın kullanılacağı yer tapuda belirtilmişse yüklü malik nakil isteyemez.",
+    "Nakil giderlerini her hâlde yararlanan malik üstlenir.",
+    "Yüklü malik, menfaatini ispat edip giderleri üstlenmek kaydıyla, irtifakın kullanılmasını güçleştirmeyecek biçimde nakil isteyebilir.",
+    "İrtifak taşınmazın tamamı üzerinde olsa da nakil istenebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yüklü malik, menfaatini ispat etmek ve giderleri üstlenmek kaydıyla irtifakın, kullanmayı güçleştirmeyecek biçimde taşınmazın başka bir yerine naklini isteyebilir (TMK m. 791/1). Yer tapuda belirtilmiş olsa bile bu yetki kullanılabilir (TMK m. 791/2). Kural, irtifakın taşınmazın yalnız belli bir kısmının kullanılması koşuluyla kurulmuş olmasını arar."
+  },
+  {
+   "stem_md": "Mehmet'in M parseli lehine Zeynep'in Z parselinde araç geçidi irtifakı vardır. Mehmet M'yi M1, M2 ve M3 parsellerine ayırmıştır; durum ve koşullara göre geçit yalnız M1'in yararına kullanılabilmektedir. Zeynep ne yapabilir?",
+   "options": [
+    "Tapu memuruna başvurup irtifakı kendiliğinden tamamen kaldırabilir.",
+    "M2 ve M3 için terkin isteyebilir; tapu sicil memuru istemi irtifak sahibine bildirir ve bir ay içinde itiraz edilmezse terkin eder.",
+    "Otuz gün içinde mahkemede terkin davası açmak zorundadır; memur bu işlemi yapamaz.",
+    "Hiçbir şey yapamaz; irtifak bölünmeden sonra her parsel yararına devam eder ve terkin istenemez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Yararlanan taşınmaz bölünürse kural irtifakın her parsel yararına devam etmesidir, ancak irtifak yalnız bir parselin yararına kullanılabiliyorsa yüklü malik diğer parseller için terkin isteyebilir (TMK m. 792/1-2). Tapu sicil memuru istemi hak sahibine bildirir ve bir ay içinde itiraz edilmezse terkin eder (TMK m. 792/3). Süre otuz gün değil bir aydır ve bu terkin için dava şart değildir."
+  },
+  {
+   "stem_md": "Yüklü A parseli K1, K2 ve K3 olarak üç parsele bölünmüştür. Geçit yalnız K1 üzerinde kullanılmaktadır ve durum ve koşullara göre K3 üzerinde kullanılamayacaktır. K3'ün maliki Ece ne isteyebilir?",
+   "options": [
+    "Terkini ancak yararlanan malikin yazılı beyanı olduğunda ve mahkeme kararıyla isteyebilir.",
+    "Hiçbir şey; irtifak bölünmede mutlaka her parsel üzerinde sürer.",
+    "K3 üzerindeki irtifakın terkinini; tapu sicil memuru bunu hak sahibine bildirir ve bir ay içinde itiraz gelmezse terkin eder.",
+    "Yalnız K1'in maliki terkin isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yüklü taşınmaz bölünürse kural irtifakın her parsel üzerinde devamıdır; ancak irtifak belirli parseller üzerinde kullanılmıyorsa ve durum ve koşullara göre de kullanılamayacaksa, bu parsellerin maliklerinden her biri kendi taşınmazı üzerindeki irtifakın terkinini isteyebilir (TMK m. 793/1-2). Usul TMK m. 792'deki gibidir: bildirim ve bir aylık itiraz süresi (TMK m. 793/3)."
+  },
+  {
+   "stem_md": "Arda, geçit irtifakıyla yüklü parseli sattıktan sonra alıcıya irtifakı kaldırtmayı taahhüt etmiştir. Arda irtifakın kaldırılması için dava açmak istemektedir. Yargıtay'ın bu konudaki yaklaşımına göre hangisi doğrudur?",
+   "options": [
+    "Dava yalnız tapu sicil memuru tarafından açılabilir.",
+    "Arda açamaz; terkin davasını mülkiyeti kısıtlanan yüklü taşınmazın kayıt maliki açar.",
+    "Dava, yararlanan taşınmazın eski maliki tarafından açılmalıdır.",
+    "Arda açabilir; çünkü taahhüdü ona dava hakkı verir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Yargıtay, terkin davasını yüklü taşınmazın kayıt malikinin açabileceğini; taşınmazı satan önceki maliklerin terkin taahhüdünün onlara dava hakkı vermediğini, hukuki yararları ve aktif dava ehliyetleri bulunmadığını belirtmiştir. TMK m. 785/1 de terkin istemini yüklü taşınmazın malikine tanır. Tapu memurunun re'sen hâkime başvurması ise TMK m. 1026/3'e dayanan ayrı bir yoldur."
+  },
+  {
+   "stem_md": "İdare, bir taşınmazın mülkiyetini kamulaştırmak yerine yalnız yüksek gerilim hattının geçtiği şerit için kamulaştırma yoluyla irtifak kurmak istemektedir. 2942 sayılı Kanun m. 4'e göre hangisi doğrudur?",
+   "options": [
+    "Amaç için yeterliyse taşınmazın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde kamulaştırma yoluyla irtifak kurulabilir.",
+    "İdare yalnız taşınmazın altında irtifak kurabilir; yüksekliği kapsayamaz.",
+    "Kamulaştırma yoluyla irtifak kurulamaz; idare yalnız mülkiyeti kamulaştırabilir.",
+    "İdare yalnız taşınmazın tamamı için irtifak kurabilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "2942 sayılı Kanun m. 4/1, mülkiyetin kamulaştırılması yerine, amaç için yeterliyse taşınmazın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde kamulaştırma yoluyla irtifak hakkı kurulabileceğini söyler. Şerit üzerinde irtifak bu hükme uygundur; mülkiyet malikte kalır."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ali'nin A parselinin genel yola çıkışı Bora'nın B parselinden geçmektedir. 2023'te Ali ile Bora aralarında adi yazılı bir \"geçit sözleşmesi\" imzalamış, tapuya gitmemiştir. 2024'te tapu müdürlüğünde resmî senet düzenlenmiş ve B parseli aleyhine, A parseli lehine \"3 metre genişliğinde yaya geçidi\" olarak irtifak tescil edilmiştir.\n\n2026'da Ali, A parseline bir atölye kurmuş ve geçitten kamyon geçirmek istemektedir. Bora, tescilde yalnız yaya geçidi yazdığını ileri sürerek buna karşı çıkmaktadır. Ali ayrıca geçide kullanımı kolaylaştırmak için parke taşı döşetmiştir. Bora da bu parkeli yolu kendi ahırına ulaşmak için kullanmaktadır. Parkenin onarım gereği doğunca Ali, \"yük senin taşınmazında, masrafı sen karşıla\" demiş, Bora ise \"tamamını sen karşılarsın\" cevabını vermiştir.\n\n1. 2023 tarihli sözleşme irtifak doğurmuş mudur?\n2. İrtifak hangi tarihte ve hangi işlemle doğmuştur? Resmî senedi kim düzenler?\n3. Ali geçitten kamyon geçirebilir mi?\n4. Parkenin bakım giderlerini kim, hangi oranda karşılar?",
+   "rubric": [
+    {
+     "point": "2023 tarihli adi yazılı sözleşmenin resmî şekle uymadığı için geçersiz olması ve irtifak doğurmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 781"
+    },
+    {
+     "point": "İrtifakın tescille doğması; etkisinin yevmiye kaydından başlaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 780"
+    },
+    {
+     "point": "Resmî senedin tapu sicil müdürlüğünce düzenlenmesi",
+     "weight": 10,
+     "madde_ref": "2644 sayılı Kanun m. 26"
+    },
+    {
+     "point": "Kapsamın tescile göre belirlenmesi; tescilde yaya geçidi yazdığı için kamyon geçişinin kapsam dışı olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 787"
+    },
+    {
+     "point": "Yararlanan taşınmazın ihtiyaçlarındaki değişikliğin yükü ağırlaştıramaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 788"
+    },
+    {
+     "point": "Bakımın kural olarak yararlanan malike ait olması; tesis yüklüye de yararlı olduğundan giderlerin yararları oranında paylaşılması",
+     "weight": 20,
+     "madde_ref": "TMK m. 790"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ali'nin A parseli lehine, Bora'nın B parseli üzerinde bir geçit irtifakı kurulmuştur. Yararlanan taşınmaz A, yüklü taşınmaz B'dir; yük, Bora'nın Ali'nin geçmesine katlanması biçimindedir (TMK m. 779/1).\n\n**Hukuki sorunlar:** (1) 2023 sözleşmesinin geçerliliği; (2) irtifakın doğuş anı ve resmî senedi düzenleyen makam; (3) kapsamın belirlenmesi ve ihtiyaç değişikliği; (4) bakım giderleri.\n\n**İlgili hükümler:** TMK m. 779, 780, 781, 787, 788, 790, 1015, 1021 ve 1022; 2644 sayılı Kanun m. 26.\n\n**Değerlendirme:**\n\n*1. 2023 sözleşmesi:* İrtifak kurmaya ilişkin sözleşmenin geçerliliği resmî şekilde düzenlenmesine bağlıdır (TMK m. 781). Hukuki sebebin geçerliliği için gerekli şekle uyulduğunun ispatı tescil için aranır (TMK m. 1015/3). Adi yazılı sözleşme bu şekil şartını karşılamadığından geçersizdir; ayrıca tescil de yapılmadığı için irtifak doğmamıştır (TMK m. 780/1; TMK m. 1021).\n\n*2. Doğuş anı:* İrtifak hakkının kurulması için tescil şarttır (TMK m. 780/1). Ayni haklar kütüğe tescille doğar ve etki, belgeler isteme eklenmişse yevmiye defterine yapılan kayıt tarihinden başlar (TMK m. 1022/1-2). Bu nedenle irtifak 2024'te, resmî senedin düzenlenip tescil istemiyle yevmiyeye kaydedildiği anda başlayan tescille doğmuştur. Mülkiyete ve sınırlı ayni haklara ilişkin resmî senetleri tapu sicil müdürü veya tapu sicil görevlileri düzenler (2644 sayılı Kanun m. 26).\n\n*3. Kamyon geçişi:* Kapsam, tescil irtifaktan doğan yetki ve yükümlülükleri açıkça belirlediği ölçüde tescile göre tayin edilir (TMK m. 787/1). Tescil \"3 metre genişliğinde yaya geçidi\" demektedir; kapsam açık olduğundan kullanış biçimine veya kazanma sebebine başvurulmaz (TMK m. 787/2). Ayrıca yararlanan taşınmazın ihtiyaçlarındaki değişiklik, yüklü taşınmazın yükünü ağırlaştıramaz (TMK m. 788). Atölye kurulması ihtiyacı değiştirmiş olsa da Bora kamyon geçişine katlanmak zorunda değildir.\n\n*4. Bakım:* İrtifakın kullanılması için gerekli tesislerin bakımı kural olarak yararlanan taşınmaz malikine, yani Ali'ye aittir (TMK m. 790/1). Ancak tesis yüklü taşınmazın malikine de yararlı ise, giderlere her iki malik yararları oranında katılır (TMK m. 790/2). Bora parkeli yolu ahırına gitmek için kullandığından giderin tamamını Ali'ye yükleyemez; Ali de \"tamamı yüklü malike ait\" diyemez.\n\n**Sonuç:**\n- 2023 sözleşmesi geçersizdir; irtifak 2024'teki tescille doğmuştur.\n- Resmî senet tapu sicil müdürlüğünde düzenlenir.\n- Ali kamyon geçiremez; kapsam tescile göredir ve ihtiyaç değişikliği yükü artıramaz.\n- Parke giderlerine kural olarak Ali katılır; Bora yararı oranında paylaşır."
+  },
+  {
+   "stem_md": "Zeynep'in Z parselinin ortasından, Mehmet'in M parseli lehine bir araç geçidi irtifakı geçmektedir. Güzergâh tapudaki krokide gösterilmiştir. Zeynep parselin ortasına ev yapmak istemekte, geçidi aynı uzunlukta ve aynı genişlikte olmak üzere parselin doğu sınırına kaydırmayı önermekte ve masrafların kendisine ait olacağını söylemektedir. Mehmet, \"yer tapuda yazılı\" diyerek karşı çıkmaktadır.\n\nBir süre sonra Mehmet, M parselini üç parsele (M1, M2, M3) ayırır. M2 ve M3 kendi cephelerinden doğrudan genel yola bağlanmaktadır. Durum ve koşullara göre geçit yalnız M1'in yararına kullanılabilmektedir. Zeynep, geçidin M2 ve M3 bakımından kaldırılmasını istemektedir.\n\n1. Zeynep geçidin yerinin değiştirilmesini isteyebilir mi? Mehmet'in \"yer tapuda yazılı\" itirazı yerinde midir?\n2. Nakil bakımından hangi şartlar aranır, giderleri kim üstlenir?\n3. Mehmet'in parseli bölününce irtifakın durumu ne olur?\n4. Zeynep M2 ve M3 için ne isteyebilir, usul nasıl işler?",
+   "rubric": [
+    {
+     "point": "İrtifakın taşınmazın belli bir kısmıyla sınırlı olması ve nakil isteminin kanuni dayanağı",
+     "weight": 15,
+     "madde_ref": "TMK m. 791"
+    },
+    {
+     "point": "Nakil şartları: menfaatin ispatı, giderlerin yüklü malik tarafından üstlenilmesi, kullanmanın güçleşmemesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 791"
+    },
+    {
+     "point": "Yerin tapuda belirtilmiş olmasının nakle engel olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 791"
+    },
+    {
+     "point": "Yararlanan taşınmaz bölününce kural olarak irtifakın her parsel yararına devam etmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 792"
+    },
+    {
+     "point": "Geçit yalnız M1'in yararına kullanılabildiğinden yüklü malikin diğer parseller için terkin isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 792"
+    },
+    {
+     "point": "Tapu sicil memurunun istemi hak sahibine bildirmesi ve bir ay içinde itiraz edilmezse terkin etmesi; dava açmanın şart olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 792"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Z parseli yüklü, M parseli yararlanan taşınmazdır. İrtifak, Z'nin yalnız belli bir kısmının (güzergâhın) kullanılması koşuluyla kurulmuş bir araç geçidi irtifakıdır. Uyuşmazlık iki konuda toplanır: irtifakın yerinin değiştirilmesi ve yararlanan taşınmazın bölünmesi.\n\n**Hukuki sorunlar:** (1) Nakil istemi ve şartları; (2) tapuda yerin belirtilmesinin etkisi; (3) yararlanan taşınmaz bölününce irtifakın akıbeti; (4) terkin usulü.\n\n**İlgili hükümler:** TMK m. 791, 792 ve 779.\n\n**Değerlendirme:**\n\n*1-2. Nakil:* İrtifak yüklü taşınmazın yalnız belli bir kısmının kullanılması koşuluyla kurulmuşsa, yüklü taşınmazın maliki menfaatini ispat etmek ve giderleri üstlenmek kaydıyla irtifakın, hakkın kullanılmasını güçleştirmeyecek biçimde taşınmazın başka bir yerine naklini isteyebilir (TMK m. 791/1). Dört şart vardır: belli kısımla sınırlı irtifak, menfaatin ispatı, giderlerin yüklü malike ait olması ve kullanmanın güçleşmemesi. Olayda güzergâh taşınmazın belli bir kısmıdır; Zeynep ev yapma menfaatini ispat etmeli, masrafları üstlenmeli ve yeni güzergâhın aynı uzunlukta ve genişlikte olması nedeniyle kullanmayı güçleştirmediğini göstermelidir. Olguda kullanmanın güçleştiğine dair bir bilgi yoktur.\n\n*Tapudaki yer:* İrtifak hakkının kullanılacağı yer tapu kütüğünde belirtilmiş olsa bile yüklü malik bu yetkiyi kullanabilir (TMK m. 791/2). Mehmet'in \"yer tapuda yazılı\" itirazı bu nedenle nakle engel değildir. İtiraz, ancak şartlardan biri gerçekleşmediği gerekçesine dayanırsa dinlenir.\n\n*3. Bölünme:* Yararlanan taşınmaz parsellere bölünürse kural irtifakın her parsel yararına devam etmesidir (TMK m. 792/1). Bu nedenle M1, M2 ve M3 kural olarak irtifaktan yararlanmaya devam eder.\n\n*4. Terkin:* Durum ve koşullara göre irtifak yalnız bir parselin yararına kullanılabiliyorsa, yüklü taşınmazın maliki diğer parseller için terkin isteyebilir (TMK m. 792/2). Olayda geçit yalnız M1'in yararına kullanılabildiğinden Zeynep M2 ve M3 için terkin isteyebilir. Tapu sicil memuru bu istemi irtifak hakkı sahibine bildirir ve onun bir ay içinde itiraz etmemesi hâlinde irtifak hakkını terkin eder (TMK m. 792/3). Terkin için dava açmak şart değildir; süre otuz gün değil bir aydır.\n\n**Sonuç:**\n- Zeynep, şartları sağlarsa nakil isteyebilir; yerin tapuda yazılı olması engel değildir.\n- Bölünme sonrası irtifak kural olarak her parsel yararına sürer.\n- Zeynep M2 ve M3 için terkin isteyebilir; memur bildirir, bir ay içinde itiraz gelmezse terkin eder."
+  },
+  {
+   "stem_md": "Ayşe, lehine geçit irtifakı bulunan Y parselini ve bu geçitle yüklü X parselini ayrı ayrı satın almıştır. Terkin yaptırmamıştır. Daha sonra Y parselini tapuda Can'a satmış ve devretmiştir. Bir süre sonra X parselini de Deniz'e satmıştır.\n\nSonradan imar uygulamasıyla Y parseline doğrudan genel yola cephe verilmiş ve geçidin Y'ye hiçbir yararı kalmamıştır. Deniz, X üzerindeki geçit irtifakının kaldırılmasını istemekte, Can ise buna rıza göstermemektedir.\n\n1. Ayşe iki parsele birlikte malikken irtifak sona ermiş midir? Ne yapabilirdi?\n2. Can, imar uygulamasından önce geçidi kullanabilir mi?\n3. Deniz hangi hükme dayanarak ne ister? Neyi ispat etmelidir?\n4. Terkin için rıza gerekli midir? Rıza yoksa hangi yola gidilir ve davada kimler taraf olmalıdır?",
+   "rubric": [
+    {
+     "point": "İki taşınmaza aynı kişinin malik olmasının irtifakı kendiliğinden bitirmemesi; malikin terkin ettirebilmesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 784"
+    },
+    {
+     "point": "Terkin edilmediği için irtifakın ayni hak olarak sürmesi; Can'ın hakkı kullanabilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 784"
+    },
+    {
+     "point": "Y için hiçbir yarar kalmadığından yüklü malikin terkin isteyebilmesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 785"
+    },
+    {
+     "point": "Kaldırmayı isteyen yüklü malikin yararın kalmadığını ispat etmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 785"
+    },
+    {
+     "point": "Terkinin kaydın hak sağladığı kişinin yazılı beyanıyla yapılması; rıza yoksa mahkemeye gidilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 1014"
+    },
+    {
+     "point": "Kaldırma davasında yararlanan ve yüklü taşınmaz maliklerinin tamamının taraf olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 785"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Y parseli yararlanan, X parseli yüklü taşınmazdır; aralarındaki ilişki geçit irtifakıdır (TMK m. 779/1). Olay, taşınmazların bir süre aynı malikte birleşmesini, yararlanan taşınmazın devrini ve yararın sonradan ortadan kalkmasını içerir.\n\n**Hukuki sorunlar:** (1) Birleşmenin sonucu; (2) devirden sonra irtifakın durumu; (3) yararın kalmaması hâlinde terkin ve ispat; (4) rıza, dava ve taraflar.\n\n**İlgili hükümler:** TMK m. 783, 784, 785 ve 1014.\n\n**Değerlendirme:**\n\n*1. Birleşme:* Yüklü ve yararlanan taşınmazlara aynı kimse malik olursa bu kişi irtifak hakkını terkin ettirebilir; ancak terkin edilmedikçe irtifak ayni hak olarak varlığını sürdürür (TMK m. 784). Ayşe terkin yaptırmadığı için irtifak kendiliğinden sona ermemiştir. İrtifak, tescilin terkini veya taşınmazın yok olmasıyla sona erer (TMK m. 783); olayda bunlar gerçekleşmemiştir.\n\n*2. Devir:* İrtifak sicilde durmaktadır ve yararlanan taşınmazla birlikte Can'a geçmiştir. Bu nedenle Can, imar uygulamasından önce geçidi kullanabilir. Hakkın yararlanan taşınmaza bağlı olması, irtifakın öğretideki temel özelliğidir.\n\n*3. Terkin:* Lehine irtifak kurulan taşınmaz için bu hakkın sağladığı hiçbir yarar kalmamışsa yüklü taşınmazın maliki hakkın terkinini isteyebilir (TMK m. 785/1). Y'ye doğrudan genel yola cephe verildiğinden geçidin Y'ye hiçbir yararı kalmamıştır. Deniz, yüklü X parselinin yeni maliki olarak istemde bulunabilir. Yargıtay uygulamasına göre kaldırmayı isteyen yüklü malik, yararın kalmadığını ispat etmelidir; bu, imar planı, tapu ve keşifle gösterilebilir.\n\n*4. Rıza ve dava:* Tescilin terkini ancak kaydın kendilerine hak sağladığı kimselerin yazılı beyanı üzerine yapılabilir (TMK m. 1014); burada hak sahibi yararlanan malik Can'dır. Can rıza göstermediği için Deniz'in dava yoluna gitmesi gerekir. Yargıtay, kaldırma davalarında yararlanan ve yüklü taşınmazların maliklerinin tamamının taraf olmasını aramaktadır. Dava Can'a ve gerekli diğer maliklere yöneltilmelidir.\n\n**Sonuç:**\n- Ayşe'nin malikliği sırasında irtifak sona ermemiştir; Ayşe terkin ettirebilirdi.\n- Can imar uygulamasından önce geçidi kullanabilir.\n- Deniz, hiçbir yarar kalmadığını ispat ederek TMK m. 785/1'e dayanıp terkin isteyebilir.\n- Can rıza göstermediğinden dava gerekir; ilgili tüm malikler taraf olmalıdır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Taşınmaz irtifakının tanımı? (TMK m. 779/1)",
+   "back_md": "Bir taşınmaz üzerinde başka bir taşınmaz lehine konulmuş yük. Yüklü malik ya kaçınmaya ya da katlanmaya mecburdur."
+  },
+  {
+   "front_md": "Olumlu ve olumsuz irtifak?",
+   "back_md": "Olumsuz: yüklü malik bazı yetkileri kullanmaktan kaçınır (yapı yapmama). Olumlu: yararlanan malikin kullanımına katlanır (geçit). Adlandırma öğretiye aittir."
+  },
+  {
+   "front_md": "Yapma borcu irtifakın konusu olabilir mi? (TMK m. 779/2)",
+   "back_md": "Başlı başına konu olamaz; ancak yan edim olarak irtifaka bağlanabilir."
+  },
+  {
+   "front_md": "İrtifak ne zaman kurulur? (TMK m. 780/1)",
+   "back_md": "Kural olarak tapu kütüğüne tescille. Kurulması tescile tâbi ayni hak, tescil edilmedikçe varlık kazanamaz (TMK m. 1021). İstisna: dışarıdan görülen mecra irtifakı (TMK m. 727/3)."
+  },
+  {
+   "front_md": "İrtifak sözleşmesinin şekli? (TMK m. 781)",
+   "back_md": "Geçerlilik resmî şekle bağlıdır. Resmî senedi tapu sicil müdürlüğü düzenler (2644 sayılı Kanun m. 26). Adi yazılı sözleşme geçersizdir."
+  },
+  {
+   "front_md": "Dışarıdan görülen mecra irtifakı nasıl doğar? (TMK m. 727/3)",
+   "back_md": "Noterce düzenlenen sözleşmeye dayanılarak mecranın yapılmasıyla; tescil şart değildir. Dışarıdan görülmüyorsa tesciliyle doğar."
+  },
+  {
+   "front_md": "Malik irtifakı nedir? (TMK m. 782)",
+   "back_md": "Malikin kendisine ait iki taşınmazdan biri üzerinde diğeri lehine kurduğu irtifak."
+  },
+  {
+   "front_md": "İrtifak hangi hâllerde sona erer? (TMK m. 783)",
+   "back_md": "Tescilin terkini veya yüklü ya da yararlanan taşınmazın yok olmasıyla. Terkin yararlanan malikin yazılı beyanıyla yapılır (TMK m. 1014)."
+  },
+  {
+   "front_md": "İki taşınmaz aynı kişiye geçerse irtifak ne olur? (TMK m. 784)",
+   "back_md": "Kendiliğinden sona ermez. Malik terkin ettirebilir; terkin edilmedikçe irtifak ayni hak olarak sürer."
+  },
+  {
+   "front_md": "TMK m. 785/1 ile 785/2 farkı?",
+   "back_md": "785/1: hakkın sağladığı hiçbir yarar kalmamış. 785/2: yüküne oranla çok az yarar var; terkin bedel karşılığında kısmen veya tamamen istenir. İstemde bulunan yüklü malikidir."
+  },
+  {
+   "front_md": "TMK m. 785 davasında ispat yükü kimdedir?",
+   "back_md": "Yargıtay uygulamasına göre kaldırma isteyen yüklü malik, ihtiyacın sona erdiğini veya çok az yarar kaldığını ispat eder. Davada ilgili tüm malikler taraf olmalıdır."
+  },
+  {
+   "front_md": "Terkin davasını kim açar?",
+   "back_md": "Yüklü taşınmazın kayıt maliki. Taşınmazı satmış önceki malikin terkin taahhüdü ona dava hakkı vermez."
+  },
+  {
+   "front_md": "Hak sahibinin ve yüklü malikin yetkileri? (TMK m. 786)",
+   "back_md": "Hak sahibi gerekli önlemleri alır ama yüklü malike en az zarar verir. Yüklü malik kullanımı engelleyemez veya zorlaştıramaz."
+  },
+  {
+   "front_md": "Kapsam hangi sırayla belirlenir? (TMK m. 787)",
+   "back_md": "Önce tescil. Tescil açık değilse tescilin sınırları içinde kazanma sebebi veya uzun süreli, davasız, iyiniyetli kullanış biçimi."
+  },
+  {
+   "front_md": "Yararlanan taşınmazın ihtiyacı artarsa? (TMK m. 788)",
+   "back_md": "Yüklü taşınmazın yükü ağırlaştırılamaz."
+  },
+  {
+   "front_md": "Geçit hakları ve benzerlerinde kapsam için hangi sıra? (TMK m. 789)",
+   "back_md": "Önce taraflar arasındaki anlaşma veya özel kanun hükümleri; yoksa yerel âdet."
+  },
+  {
+   "front_md": "Bakım giderlerini kim karşılar? (TMK m. 790)",
+   "back_md": "Kural olarak yararlanan malik. Tesis yüklü malike de yararlıysa her ikisi yararları oranında katılır."
+  },
+  {
+   "front_md": "İrtifakın nakli için şartlar? (TMK m. 791)",
+   "back_md": "İrtifak taşınmazın belli bir kısmıyla sınırlı; yüklü malik menfaatini ispat eder, giderleri üstlenir; kullanma güçleşmez. Yer tapuda yazılı olsa da nakil istenebilir."
+  },
+  {
+   "front_md": "TMK m. 746 ile TMK m. 791'de nakil giderleri?",
+   "back_md": "TMK m. 791'de giderleri yüklü malik üstlenir. Mecra naklinde (TMK m. 746) giderler kural olarak mecra hakkı sahibine aittir."
+  },
+  {
+   "front_md": "Yararlanan veya yüklü taşınmaz bölünürse irtifak? (TMK m. 792 ve TMK m. 793)",
+   "back_md": "Kural olarak her parsel yararına veya üzerinde devam eder. Kullanılmayan parseller için terkin istenirse tapu sicil memuru bildirir; bir ay içinde itiraz yoksa terkin eder."
+  },
+  {
+   "front_md": "TMK m. 785 ile TMK m. 1026 farkı?",
+   "back_md": "TMK m. 785: hak mahkeme kararıyla sona erdirilir. TMK m. 1026: hak zaten sona ermiş ve kayıt değerini yitirmiştir; yüklü malik terkin ister, ilgili tebliğden itibaren otuz gün içinde dava açabilir."
+  },
+  {
+   "front_md": "Taşınmaz irtifakı ile TMK m. 838 irtifakı?",
+   "back_md": "Taşınmaz irtifakı başka taşınmaz lehinedir. TMK m. 838 irtifakı kişi veya topluluk lehinedir; aksi kararlaştırılmadıkça devredilemez, mirasçılara geçmez. Taşınmaz irtifakı hükümleri ona da uygulanır (TMK m. 838/3)."
+  },
+  {
+   "front_md": "Kamulaştırma yoluyla irtifak? (2942 sayılı Kanun m. 4)",
+   "back_md": "Mülkiyet yerine, amaç için yeterliyse taşınmazın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde irtifak kurulabilir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

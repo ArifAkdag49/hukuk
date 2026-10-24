@@ -1,0 +1,880 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: Taşınır Mülkiyeti",
+ "topic_index": 2,
+ "slug": "tasinir-mulkiyetinin-diger-kazanma-yollari",
+ "title": "Taşınır Mülkiyetinin Diğer Kazanma Yolları: Sahiplenme, Buluntu, Define, İşleme, Karışma ve Kazandırıcı Zamanaşımı",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:41:51.395432+00:00",
+ "skill_refs": [
+  "esya-hukuku/temel-kavramlar-ve-sistem"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Taşınırın mülkiyeti devir (TMK m. 763) dışında hangi yollarla kazanılır ve her yolda eşya kimin, ne zaman olur?\n\n- **Sahiplenme (TMK m. 767):** Sahipsiz taşınırı **malik olmak iradesiyle** zilyetliğine geçiren malik olur. Av hayvanı gecikmeksizin ve ara vermeksizin aranmazsa, ehlileştirilmiş hayvan vahşileşip dönmezse sahipsiz olur (TMK m. 768). Terk edilen şey sahipsizdir, **kaybedilen** şey değildir (TMK m. 778).\n- **Bulunmuş eşya (TMK m. 769-771):** Kanunun başlığı \"Bulunmuş eşya\"dır. Bulan sahibine, bilmiyorsa kolluğa (köylerde muhtara) bildirir **veya** araştırır ve gerekirse ilân eder. Değerli eşyada kolluğa ya da muhtara bildirim her hâlde zorunludur. Malik, ilân ya da bildirim tarihinden başlayarak **beş yıl** içinde çıkmazsa, yükümlülüklerini yerine getiren bulan malik olur. Eşya malikine verilirse bulan giderlerini ve uygun bir ödül isteyebilir.\n- **Ev, işyeri, kamu hizmeti yeri (TMK m. 769/3 ve TMK m. 771/3):** Bulunan şey yer sahibine, kiracıya ya da görevlilere teslim edilir; yer sahibi, kiracı ya da kurum bulan sayılır ama ödül isteyemez.\n- **Define (TMK m. 772):** Çok zaman önce gömülmüş, malikinin artık bulunmadığı kesin anlaşılan değerli şeydir. Mülkiyet bulana değil, **içinde bulunduğu malın malikine** geçer. Bulan, değerin **yarısını aşmamak üzere** uygun ödül isteyebilir.\n- **Eski eser ve bilimsel değerli şey (TMK m. 773):** Özel kanun, yani 2863 sayılı Kanun uygulanır. Bildirim en geç **üç gün** içinde yapılır (2863 sayılı Kanun m. 4/1); korunması gerekli varlıklar Devlet malıdır (2863 sayılı Kanun m. 5/1).\n- **Düşen veya sürüklenen şeyler (TMK m. 774):** Doğal güçlerle ya da rastlantıyla egemenlik alanına giren taşınır için o alanın sahibi bulanın hak ve yükümlülüklerine tabidir. Başkasının kovanına göçen arı oğulu bedelsiz kovan malikinin olur.\n- **İşleme (TMK m. 775):** Emeğin değeri malzemenin değerinden **fazlaysa** yeni şey işleyenin, **aksi hâlde** malikin olur. İyiniyetsiz işleyende hâkim yeni şeyi malike **bırakabilir**.\n- **Karışma ve birleşme (TMK m. 776):** Ayrılamayacak biçimde karışan taşınırların malikleri, o andaki **değerleri oranında** paylı malik olur. İkincil bütünleyici parça olacak biçimde birleşmede bütün ana parçanın malikinin olur.\n- **Kazandırıcı zamanaşımı (TMK m. 777):** Başkasının taşınırını **davasız ve aralıksız beş yıl, iyiniyetle ve malik sıfatıyla** zilyetliğinde bulunduran malik olur. Taşınırda olağan ve olağanüstü ayrımı yoktur. Süre hesabında TBK hükümleri kıyasen uygulanır.\n- **İstihkak:** Taşınırdaki istihkak davası zamanaşımına uğramaz; hakkı başkasının kazanması ya da terk sona erdirir.\n- 📌 Bu konuda yakın tarihli bir kanun değişikliği yoktur; TMK m. 762-778 metni değişmemiştir.",
+  "content_md": "## 0. Konunun haritası\n\nTaşınır mülkiyeti devirle kazanılabildiği gibi (TMK m. 763; önceki konu), devir olmaksızın da kazanılır. Bu konu devir dışındaki yolları toplar. Her yolda aynı iki soruyu sorarız: Eşya **kimin** olur, **ne zaman** olur?\n\n| Kurum | Madde | Sonuç |\n|---|---|---|\n| Sahiplenme | TMK m. 767 | Zilyetliğe geçiren malik olur |\n| Bulunmuş eşya | TMK m. 769-771 | Beş yıl sonra bulan malik olur |\n| Define | TMK m. 772 | Malın maliki malik olur |\n| Düşen/sürüklenen | TMK m. 774 | Alan sahibi bulan gibidir |\n| İşleme | TMK m. 775 | Emek değeri fazlaysa işleyen, değilse malik |\n| Karışma/birleşme | TMK m. 776 | Paylı mülkiyet ya da ana parça maliki |\n| Zamanaşımı | TMK m. 777 | Beş yıl zilyetlikle zilyet malik olur |\n\n> ⚠️ **Sınavda dikkat:** Kanun başlığı \"Bulunmuş eşya\"dır (III. başlık; altında TMK m. 769-773, yani define ve bilimsel değeri olan eşya da yer alır). \"Buluntu\" öğretide kullanılan bir terimdir, TMK metninde geçmez. Cevap kâğıdında madde başlığı gibi yazma.\n\nHepsinin ortak noktası: Eşya hukukunun **taşınır** kısmındayız. Taşınır, niteliği itibarıyla taşınabilen maddî şeydir (TMK m. 762). Taşınmazlarda işgal ve zamanaşımı ayrı kurallara bağlıdır (TMK m. 707, 712 ve 713; konu 13).\n\n## 1. Sahiplenme (işgal)\n\n**Sahiplenme**, sahipsiz bir taşınırın malik olmak iradesiyle zilyetliğe geçirilmesidir. TMK m. 767'ye göre bunu yapan kimse eşyanın maliki olur. İki unsur vardır:\n1. **Sahipsiz bir taşınır.** Hiç kimsenin mülkiyetinde olmayan ya da sonradan sahipsiz hâle gelen şey.\n2. **Malik olmak iradesiyle zilyetliğe geçirme.** Fiilî hâkimiyet kurulur ve kurarken \"bu artık benim\" iradesi vardır.\n\n> **Örnek:** Mehmet denizden olta ile balık tutar. Balık kimsenin değildi; Mehmet onu malik olma iradesiyle zilyetliğine geçirdiği için maliki olur.\n\n### 1.1 Eşya nasıl sahipsiz olur?\nİki yol vardır: eşya hiç sahip görmemiştir (denizdeki balık) ya da **malik onu terk etmiştir**. TMK m. 778'e göre taşınır mülkiyeti, malik tarafından terk edilmedikçe veya başkası tarafından kazanılmadıkça yalnız zilyetliğin kaybıyla sona ermez. Yani malik eşyayı sadece elinden çıkardı diye mülkiyeti kaybetmez; zilyetlik ayrı, mülkiyet ayrıdır.\n\n> **Örnek:** Zeynep eski koltuğunu \"isteyen alsın\" notuyla sokağa bırakır. Bu bir terktir; koltuk sahipsiz hâle gelir. Koltuğu alıp evine götüren Okan malik olur (TMK m. 778 ve TMK m. 767).\n\n> ⚠️ **Sınavda dikkat:** **Kaybetmek terk etmek değildir.** Çantasını otobüste unutan kişi mülkiyeti bırakmak istememiştir; eşya TMK m. 767 ile sahiplenilemez, bulan TMK m. 769-771'e tabidir.\n\n### 1.2 Hayvanlar (TMK m. 768)\nKanun hayvanlar için üç ayrı kural koyar:\n- **Tutulan av hayvanları** yeniden serbest kalır ve sahipleri onları **gecikmeksizin ve ara vermeksizin** aramaz ve tekrar tutmak için uğraşmazsa sahipsiz duruma gelirler (TMK m. 768/1).\n- **Ehlileştirilmiş hayvanlar** tekrar vahşileşir ve sahiplerine dönmezlerse sahipsiz duruma gelirler (TMK m. 768/2).\n- **Arı oğulu** başkasının taşınmazına uçmuş olmakla sahipsiz duruma gelmez (TMK m. 768/3).\n\n> **Örnek:** Avcı Kerem'in tuttuğu keklik kaçar. Kerem onu hemen ve ara vermeden aramazsa keklik sahipsiz olur; onu tutan başkası TMK m. 767'ye göre malik olur. Kerem hemen arıyorsa keklik sahipsiz olmaz.\n\nEvcil hayvanların (kedi, köpek gibi) kaybolması hâlinin TMK m. 768/2 kapsamında olup olmadığı metinde açıkça yazılı değildir; doktrinde tartışılır. Bu nedenle sınavda kesin hüküm kurmadan, kaybolmuş eşya hükümlerine de işaret etmek güvenlidir.\n\n## 2. Bulunmuş eşya (TMK m. 769-771)\n\n**Bulunmuş eşya**, kaybedilmiş olup başkası tarafından bulunan eşyadır. Kaybedilen şey sahipsiz değildir, bu yüzden bulan hemen malik olmaz. Kanun bulana yükümlülükler yükler; yükümlülükler yerine getirilir ve belirli süre geçerse mülkiyet bulana geçer.\n\n### 2.1 Bulanın yükümlülükleri\n**Genel kural (TMK m. 769/1).** Kaybedilmiş bir şeyi bulan kimse şunlardan birini yapmak zorundadır: malın sahibine, sahibini bilmiyorsa kolluk kuvvetlerine (köylerde muhtara) **bildirmek**; **veya** araştırma yapmak ve gerektiğinde **ilân** etmek. Metin seçimlik bir yol sunar.\n\n**Önemli ölçüde değerli şey (TMK m. 769/2).** Bu hâlde kolluk kuvvetlerine ya da muhtara bildirim **her hâlde** gereklidir. Yalnız araştırma ve ilân yetmez.\n\n**Ev, işyeri, kamu hizmeti yeri (TMK m. 769/3).** Oturulan bir evde, işyerinde ya da kamu hizmeti görülen yerde bir şey bulan kimse onu yer sahibine, kiracıya ya da kamu hizmeti görülen yerde denetim ve gözetim görevlilerine **teslim etmek** zorundadır.\n\n**Koruma (TMK m. 770/1).** Bulunan şey özenle korunur.\n\n> **Örnek:** Ayşe parkta değerli bir altın bilezik bulur. Bilezik önemli ölçüde değerli olduğundan sadece \"sahibi çıkar herhâlde\" diye beklemesi yetmez; karakola ya da muhtara bildirmesi gerekir (TMK m. 769/2).\n\n### 2.2 Satılabilme (TMK m. 770/2-3)\nBulunan şey şu hâllerde **satılabilir**:\n1. Korunması aşırı gider gerektiriyorsa,\n2. Çabuk bozulabilecek nitelikteyse,\n3. Kolluk kuvvetleri ya da kamu kurumu tarafından **bir yıldan fazla** saklanmışsa.\n\nSatış, gerektiğinde önceden ilân edilerek **açık artırma** yoluyla yapılır. **Satış bedeli bulunan şeyin yerine geçer** (TMK m. 770/3). Kanun \"satılabilir\" der; satış zorunlu değildir.\n\n### 2.3 Mülkiyetin kazanılması ve geri verme (TMK m. 771)\n- **Beş yıl kuralı:** Bulunan şeyin maliki, **ilân veya kolluk kuvvetlerine ya da muhtara bildirme tarihinden başlayarak beş yıl** içinde ortaya çıkmazsa, bulan kimse **yükümlülüklerini yerine getirmiş olmak koşuluyla** mülkiyeti kazanır (TMK m. 771/1).\n- **Geri verme:** Bulunan şey malikine verilirse bulan, yaptığı giderlerin ödenmesini ve **uygun bir ödül** verilmesini isteyebilir (TMK m. 771/2). Ödülün oranı kanunda yazmaz.\n- **Ev, işyeri, kamu hizmeti yeri:** Yerin sahibi, kiracı ya da kurum şeyi bulan **sayılır**; ancak ödül isteyemezler (TMK m. 771/3). Metin yalnız ödülü dışlar.\n\n> ⚠️ **Sınavda dikkat:** Beş yıl **buluş gününden değil**, ilân veya bildirim tarihinden işler. Yükümlülükler yerine getirilmeden mülkiyet kazanılmaz.\n\n> **Örnek:** Ahmet 2 Mart'ta bir yüzük bulur, 20 Mart'ta karakola bildirir. Beş yıl 2 Mart'tan değil, 20 Mart'tan işler. Sahibi bu süre içinde çıkmazsa Ahmet malik olur; çıkarsa yüzük sahibine verilir, Ahmet giderlerini ve uygun ödülü ister.\n\nEv ya da işyerinde fiilen bulan kişinin ödül hakkı ile bildirim yapmayan bulanın gider ve ödül hakkı metinde açık değildir; bu noktalarda kesin konuşma.\n\n### 2.4 Ceza hukuku bağlantısı\nKaybedilmiş eşyayı iade etmeksizin ya da yetkili mercileri haberdar etmeksizin malik gibi tasarruf eden kişi, şikâyet üzerine, bir yıla kadar hapis veya adlî para cezasıyla cezalandırılır (TCK m. 160/1). Bu yalnız bir bağlantıdır; ders notunun merkezi değildir.\n\n## 3. Define ve eski eserler (TMK m. 772-773)\n\n### 3.1 Define\n**Define**, bulunmalarından çok zaman önce gömülmüş veya saklanmış olan ve duruma göre artık malikinin bulunmadığı **kesin olarak anlaşılan değerli şeylerdir** (TMK m. 772/1). Üç unsur vardır:\n1. **Değerli** olması,\n2. **Çok zaman önce** gömülmüş ya da saklanmış olması,\n3. Malikinin artık bulunmadığının **kesin olarak** anlaşılması.\n\n**Sonuç:** Bilimsel değer taşıyan eşya hükümleri saklı kalmak üzere define, **içinde bulunduğu taşınmaz veya taşınır malın malikinin olur** (TMK m. 772/2). Mülkiyet bulana değil, malın malikine geçer. Defineyi bulan kimse, değerinin **yarısını aşmamak üzere** uygun bir ödül isteyebilir (TMK m. 772/3).\n\n> **Örnek:** Ali, komşusu Can'ın izniyle Can'ın bahçesinde ağaç dikerken toprak altında bir kutu altın para bulur. Eşya define niteliğindeyse Can'ın olur; Ali değerin yarısını aşmamak üzere uygun ödül isteyebilir.\n\n> ⚠️ **Sınavda dikkat:** Malikin hâlâ bulunabileceği, yakın tarihte gömülmüş bir \"gömü\" define değildir; bulunmuş eşyadır. Bu durumda TMK m. 769-771 uygulanır: Malik ilân ya da bildirim tarihinden başlayarak beş yıl içinde çıkmazsa, yükümlülüklerini yerine getirmiş olan bulan malik olur.\n\n### 3.2 Eski eser ve bilimsel değerli şey (TMK m. 773)\nBilimsel değeri olan sahipsiz doğal şeyler ile eski eserlerin bulunması hâlinde **özel kanun hükümleri** uygulanır (TMK m. 773). Burada özel kanun 2863 sayılı Kültür ve Tabiat Varlıklarını Koruma Kanunudur.\n- **Tanım:** Kültür varlıkları, tarih öncesi ve tarihî devirlere ait, bilimsel ve kültürel açıdan özgün değer taşıyan yer üstündeki, yer altındaki veya su altındaki bütün taşınır ve taşınmaz varlıklardır (2863 sayılı Kanun m. 3/a-1).\n- **Bildirme:** Bulanlar ve bunu bilen malik ve zilyetler bunu **en geç üç gün içinde** en yakın müze müdürlüğüne, köyde muhtara ya da diğer yerlerde mülki idare amirlerine bildirmeye mecburdur (2863 sayılı Kanun m. 4/1).\n- **Devlet malı:** Devlete, kamu kurumlarına ve özel kişilere ait taşınmazlarda varlığı bilinen veya ileride ortaya çıkacak, korunması gerekli taşınır ve taşınmaz kültür ve tabiat varlıkları Devlet malıdır (2863 sayılı Kanun m. 5/1). Mazbut ve mülhak vakıf malları bu hükmün dışındadır (2863 sayılı Kanun m. 5/2).\n- **Taşınır kültür varlıkları:** Korunması gerekli taşınırlar 2863 sayılı Kanun m. 23'te sayılır; bunları korumak ve değerlendirmek Devlete aittir (2863 sayılı Kanun m. 24/1). Tescil dışı bırakılıp iade edilenlerden bir yıl içinde alınmayanlar müzelerde saklanabilir ya da Devletçe satılabilir (2863 sayılı Kanun m. 25/4).\n- **Define arama:** Korunan yerler, sit alanları ve mezarlıklar dışında Bakanlıkça define arama ruhsatnamesi verilebilir; izin devredilemez (2863 sayılı Kanun m. 50/1-2).\n\n**İkramiye (2863 sayılı Kanun m. 64).** Bildirimi 2863 sayılı Kanun m. 4'te yazılı makamlara ve sürede yapanlar bakımından:\n\n| Bulunduğu yer | İkramiye |\n|---|---|\n| Bulanın kendi mülkü | Verilmez |\n| Başkasının mülkü | Bedelin %80'i, bulan ve mülk sahibine yarı yarıya |\n| Devlete ait arazi | Bedelin %40'ı bulana |\n\nBirinci satır için kanun, 2863 sayılı Kanun m. 24 ve 2863 sayılı Kanun m. 25'in uygulanacağını ve ayrıca ikramiye verilmeyeceğini söyler (2863 sayılı Kanun m. 64/a). İkinci satırda bedeli Kültür ve Turizm Bakanlığı takdir eder (2863 sayılı Kanun m. 64/b); yüzde seksenin yarı yarıya paylaşılması, her birine takdir olunan bedelin yüzde kırkı düşmesi demektir (basit hesap). Üçüncü satır 2863 sayılı Kanun m. 64/c'dedir. Birden fazla bulan varsa ikramiye aralarında eşit paylaştırılır (2863 sayılı Kanun m. 64/f).\n\n> **Örnek:** Ali'nin Can'ın bahçesinde bulduğu kutuda antik sikkeler çıkarsa TMK m. 772/2 işlemez; TMK m. 773 gereği 2863 sayılı Kanun uygulanır. Ali üç gün içinde müze müdürlüğüne, köyde muhtara ya da mülki idare amirine bildirmelidir. Sikkeler korunması gerekli nitelikteyse Devlet malıdır; Can malik olmaz. Korunması gerekli nitelikte değilse 2863 sayılı Kanun m. 25'teki işlem uygulanır ve ikramiye verilmez (2863 sayılı Kanun m. 64/d).\n\n## 4. Bulunmuş eşya, define ve kültür varlığı: karşılaştırma\n\n| Ölçüt | Bulunmuş eşya | Define |\n|---|---|---|\n| Mülkiyet | Beş yıl sonra bulana | Malın malikine |\n| Ödül | \"Uygun\"; üst sınır yok | Yarıyı aşmamak üzere uygun |\n| Bildirim | TMK m. 769 | Kültür varlığıysa 2863 sayılı Kanun m. 4 |\n\n- Bulunmuş eşyada malik hâlâ ortaya çıkabilir; definede malik artık bulunmaz.\n- Bildirim süresi: 2863 sayılı Kanun m. 4'te **üç gün**; TMK m. 769'daki genel bildirimde ise gün sayısı yazılı değildir.\n- Korunması gerekli kültür varlığı ise TMK m. 772/2'ye göre taşınmaz malikinin olmaz; 2863 sayılı Kanun m. 5/1'e göre Devletindir.\n\n> 💡 **Püf nokta:** Üç soru sor: Malik hâlâ aranabilir mi (bulunmuş eşya)? Malik artık yok mu ve eşya çok eski mi (define)? Eşya tarihî/bilimsel değer taşıyor mu (2863 sayılı Kanun)?\n\n## 5. Düşen veya sürüklenen şeyler (TMK m. 774)\n\nSu, rüzgâr, çığ veya diğer doğal güçlerin etkisiyle ya da rastlantı sonucunda taşınır mallar veya hayvanlar kimin **egemenlik alanına** girerse, o kimse kaybolan eşyayı bulanın haklarına sahip ve yükümlülüklerine tabi olur (TMK m. 774/1). Yani m. 769-771 kurallarını bu kişi için uygularsın: bildirim, koruma, beş yıl.\n\n> **Örnek:** Fırtınada Ahmet'in çatısından uçan halı, komşusu Elif'in bahçesine düşer. Elif bulanın hak ve yükümlülüklerine tabidir. Arazi maliki, sürüklenen şeylerin aranıp alınmasına izin vermek zorundadır; zararın denkleştirilmesini isteyebilir ve bedel ödeninceye kadar o şeyleri hapsetmek hakkına sahiptir (TMK m. 752).\n\nArı oğulunda ayrı bir kural vardır. Oğul başkasının **taşınmazına** uçmakla sahipsiz olmaz (TMK m. 768/3). Ama başkasının **kovanına** göçerse bir bedel ödenmesi gerekmeksizin kovan malikinin olur (TMK m. 774/2).\n\n## 6. İşleme (TMK m. 775)\n\n**İşleme**, bir kimsenin başkasına ait bir şeyi işlemesi ya da başka bir şekle sokmasıdır. Mermer bloktan heykel yapmak, kumaştan elbise dikmek, üzümden şarap yapmak örnekleridir. Yeni bir şey doğar; soru onun kime ait olduğudur.\n\n**Ölçüt: emeğin değeri ile malzemenin değeri.** TMK m. 775/1'e göre emeğin değeri o şeyin değerinden **fazlaysa** yeni şey işleyenin, **aksi hâlde** malikin olur. \"Aksi hâlde\" ifadesi eşit değerleri de kapsar: değerler eşitse yeni şey malikindir.\n\n**İyiniyetsiz işleyen (TMK m. 775/2).** İşleyen iyiniyetli değilse, emeğin değeri işlenen şeyin değerinden daha fazla olsa bile hâkim yeni şeyi malike **bırakabilir**. Burada hâkime takdir tanınmıştır; \"bırakır\" değil, \"bırakabilir\"dir.\n\n**Saklı haklar (TMK m. 775/3).** Tazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır. Yani mülkiyeti kaybeden taraf boş kalmaz. Haksız fiil için TBK m. 49/1, sebepsiz zenginleşme için TBK m. 77/1 gündeme gelir.\n\n> **Örnek:** Heykeltıraş Emre, atölyeyi paylaştığı Burak'a ait 5.000 TL'lik mermer bloğu kendi bloğu sanarak iyiniyetle işler. Bilirkişi emeğin değerini 40.000 TL belirler. Emeğin değeri malzemeden fazla olduğu için heykel Emre'nin olur. Burak sebepsiz zenginleşme veya tazminat isteyebilir. Emre bloğun Burak'ın olduğunu bilseydi hâkim heykeli Burak'a bırakabilirdi.\n\n> **Örnek:** Taner, Selim'e ait 10.000 TL değerindeki ağaç kütüğünü işleyip küçük bir tabak yapar. Emeğin değeri 2.000 TL olarak belirlenir. Emek daha az değerli olduğu için yeni şey Selim'indir; tarafların tazminat ve sebepsiz zenginleşme istemleri saklıdır (TMK m. 775/3).\n\n> ⚠️ **Sınavda dikkat:** Ölçüt **değer karşılaştırmasıdır**. \"Emeğin değeri\"nin ne olduğu tartışmalıdır (doktrin bölümü); olayda bilirkişinin belirlediği sayıyı kullan.\n\n## 7. Karışma ve birleşme (TMK m. 776)\n\nKanun, birden çok kişinin taşınırlarının birleşmesi veya karışması için iki ayrı sonuç bağlar.\n\n### 7.1 Ayrılamayan karışma: paylı mülkiyet (TMK m. 776/1)\nTaşınırlar önemli bir zarara uğratılmadan ya da aşırı emek ve para harcanmadan ayrılamayacak biçimde birleşmiş veya karışmışsa, malikler yeni şey üzerinde kendi taşınırlarının **birleşme veya karışma zamanındaki değerleri oranında** paylı mülkiyete sahip olurlar. Ölçüt **ayrılamazlıktır**; pay oranı **miktara değil, değere** göredir.\n\n> **Örnek:** Kuyumcu, müşterinin altınını yanlışlıkla kendi altınıyla eritip tek külçe yapar. Altınlar ayrılamaz; külçe, iki tarafın altınlarının değeri oranında ortak mülktür.\n\n### 7.2 İkincil bütünleyici parça (TMK m. 776/2)\nBir taşınır diğer taşınırla onun **ikincil nitelikte bütünleyici parçası** olacak şekilde karışır veya birleşirse eşyanın tamamı **ana parçanın malikine** aittir. Bütünleyici parça, asıl şey yok edilmedikçe, zarara uğratılmadıkça veya yapısı değiştirilmedikçe ondan ayrılmasına olanak bulunmayan parçadır (TMK m. 684/2). Burada paylı mülkiyet doğmaz.\n\n> **Örnek:** Başkasına ait boya Can'ın motosikletine sürülür. Boya, motosiklete zarar vermeden ayrılamayan ikincil bütünleyici parça olduğundan bütün motosiklet ana parçanın maliki olan Can'ındır. Boyanın sahibi tazminat ya da sebepsiz zenginleşme isteyebilir. Kolayca sökülebilen bir vida ise bütünleyici parça olmaz; malikin olmaya devam eder (TMK m. 684/2).\n\n### 7.3 Saklı haklar (TMK m. 776/3)\nTazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır. İşlemedeki mantık aynıdır: Mülkiyet kaybı bedelsiz kalmaz.\n\n> ⚠️ **Sınavda dikkat:** Karışmada payı **litreye ya da kiloya** göre değil, karışma zamanındaki **değere** göre hesapla. Aynı miktar farklı kalitede ise paylar eşit çıkmaz.\n\n## 8. Kazandırıcı zamanaşımı (TMK m. 777)\n\n**Kazandırıcı zamanaşımı**, başkasının taşınırını belirli şartlarla belirli süre zilyetlikte bulunduran kişinin mülkiyeti kazanmasıdır. TMK m. 777/1: Başkasının taşınır bir malını **davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla** zilyetliğinde bulunduran kimse, zamanaşımı yoluyla o taşınırın maliki olur.\n\n### 8.1 Şartlar\n| Şart | Anlamı |\n|---|---|\n| Başkasının taşınır malı | Eşya zilyedin değildir |\n| Malik sıfatıyla zilyetlik | Aslî zilyetlik; kiracı, emanetçi sayılmaz |\n| İyiniyet | TMK m. 3'e göre aranır |\n| Davasız ve aralıksız | Malik dava açmamış, zilyetlik kesilmemiş |\n| Beş yıl | Taşınırda tek süre |\n\n- **Malik sıfatı:** Bir şeyde malik sıfatıyla zilyet olan aslî zilyet, diğeri fer'î zilyettir (TMK m. 974/2). Kiracı, emanetçi gibi fer'î zilyetler bu yolla malik olamaz.\n- **İyiniyet:** Kanun iyiniyete hukukî sonuç bağladığında asıl olan iyiniyetin varlığıdır; ancak durumun gereklerine göre beklenen özeni göstermeyen iyiniyet iddiasında bulunamaz (TMK m. 3). İyiniyetsiz zilyede karşı önceki zilyet her zaman taşınır davası açabilir (TMK m. 991/1).\n- **Davasız:** Malikin dava açması \"davasız\" şartını ortadan kaldırır.\n- **Süre:** Taşınmazdan farklı olarak taşınırda olağan ve olağanüstü ayrımı yoktur. Taşınmazda olağan zamanaşımı için on yıl ve iyiniyet (TMK m. 712), olağanüstü için kayıtsız taşınmazda yirmi yıl ve malik sıfatı (TMK m. 713/1) aranır. Taşınırda tek süre beş yıldır. Taşınmazda ilân ya da mahkeme kararıyla tescil rejimi vardır; taşınırda böyle bir karar mekanizması yoktur.\n\n> **Örnek:** Veli, Murat'tan bir kamera kiralar ve sekiz yıl boyunca elinde tutar. Veli kamerayı malik sıfatıyla değil, kiracı sıfatıyla taşıdığı için süre ne kadar uzarsa uzasın TMK m. 777'ye göre malik olamaz.\n\n### 8.2 Süre hesabı, durma ve kesilme (TMK m. 777/2-3)\n- **İrade dışı kayıp (TMK m. 777/2):** Zilyetlik irade dışı kaybedilirse zilyet, **bir yıl içinde** eşyayı ele geçirir veya açacağı dava yoluyla yeniden elde ederse zamanaşımı kesilmiş olmaz.\n- **TBK atfı (TMK m. 777/3):** Sürenin hesaplanmasında, kesilmesinde ve durmasında Borçlar Kanununun zamanaşımına ilişkin hükümleri **kıyas yoluyla** uygulanır. Bugün bu, 6098 sayılı TBK'dır. Örneğin zamanaşımının başladığı gün sayılmaz (TBK m. 151/1); kesilmeyle yeni bir süre işlemeye başlar (TBK m. 156/1). Durma sebepleri TBK m. 153'te, kesilme sebepleri TBK m. 154'te sayılır. Bu hükümler alacak zamanaşımı hükümleridir; yalnız **kıyasen** uygulanır ve nasıl uyarlanacakları tartışmalıdır.\n- **Süre ekleme (TMK m. 996):** Kazandırıcı zamanaşımından yararlanma hakkına sahip zilyet, zilyetliği kendisine devreden aynı yetkiye sahip idiyse onun zilyetlik süresini kendi süresine ekleyebilir.\n\n> **Örnek:** Hakan, Mart 2018'de bir tanıdığından saat satın alır. Saatin Selin'den 2017'de çalındığını bilmesi için bir sebep yoktur; iyiniyet karinesi işler (TMK m. 3). Hakan saati malik sıfatıyla, davasız ve aralıksız kullanır. Selin Haziran 2025'te istihkak davası açtığında Hakan beş yıllık süre dolduğu için malik olmuştur; dava reddedilir. Hakan saatin çalıntı olduğunu bilseydi iyiniyet şartı eksik kalır, Selin her zaman dava açabilirdi (TMK m. 991/1).\n\n> **Örnek:** Nihat'ın iyiniyetle ve malik sıfatıyla zilyet olduğu telefon 2019'da yolda düşer (zilyetlik irade dışı kayıp). Nihat 8 ay sonra telefonu ele geçirir. Bir yıl içinde eşyayı ele geçirdiği için zamanaşımı kesilmiş olmaz (TMK m. 777/2).\n\n### 8.3 Çalınan ya da kaybolan eşya ile ilişki\nEmin sıfatıyla zilyetten edinmede koruma (TMK m. 988) ve çalınan, kaybolan eşyada beş yıllık taşınır davası süresi (TMK m. 989/1) ayrı bir konudur (konu 4). Burada yalnız şunu bil: Çalıntı eşyayı iyiniyetle edinen hemen malik olmayabilir; TMK m. 777'nin en çok bu alanda işe yaradığı söylenir. Aradaki ilişkinin ayrıntısı doktrinde tartışmalıdır; olay çözerken tarihlerin hangi başlangıca göre de süreyi doldurup doldurmadığına bak.\n\n### 8.4 İstihkak davası zamanaşımına uğramaz\nYargıtay'ın yerleşik uygulamasına göre malikin taşınır üzerindeki istihkak davası zamanaşımına uğramaz. Malikin hakkını sürenin geçmesi değil, **başkasının eşyayı kazanması** (TMK m. 777 şartlarının gerçekleşmesi) ya da **terk** (TMK m. 778) sona erdirir. Bu nedenle \"on yıl önce çalınmış, açılmayan dava zamanaşımına uğradı\" demek yanlıştır; önce başkasının TMK m. 777'ye göre malik olup olmadığına bak.\n\n> ⚠️ **Sınavda dikkat:** İİK m. 83/c'deki \"Türk Kanunu Medenisinin 777 nci maddesi\" ifadesi bugünkü TMK m. 777 değildir. Bu atıf 1988'de eklenmiştir ve eski 743 sayılı Kanunun 777. maddesine yapılmıştır. Bugünkü TMK m. 777 ve TMK m. 778'in eski karşılığı eski Kanundaki 701. ve 702. maddelerdir.\n\n## 9. Olay çözerken denetim şeması\n1. **Eşya sahipsiz mi, kaybedilmiş mi?** Terk varsa TMK m. 767; kayıp varsa TMK m. 769-771.\n2. **Kültür varlığı ya da bilimsel değer var mı?** Varsa TMK m. 773 ve 2863 sayılı Kanun; üç günlük bildirim, korunması gerekliyse Devlet malı, ikramiye.\n3. **Define mi?** Çok zaman önce gömülmüş, malik artık bulunmuyor, değerli. Evetse malın malikine; bulana yarıyı aşmamak üzere ödül.\n4. **Bulan yükümlülüklerini yerine getirdi mi?** Bildirim/araştırma-ilân, özen, ev/işyeri/kamu yerinde teslim. Beş yıl bildirimden işler.\n5. **Eşya kendiliğinden bir egemenlik alanına mı girdi?** TMK m. 774; arı oğulunda kovan/taşınmaz ayrımı.\n6. **Eşyaya emek mi katıldı?** Emek ve malzeme değerini kıyasla (TMK m. 775); iyiniyetsizlikte hâkim bırakabilir.\n7. **Eşyalar karıştı mı?** Ayrılamazlık, değer oranı (TMK m. 776/1); ana parça varsa bütün onun (TMK m. 776/2).\n8. **Zilyet beş yıldır mı elinde tutuyor?** Malik sıfatı, iyiniyet, davasızlık, aralıksızlık, bir yıllık geri alma (TMK m. 777).\n9. **Mülkiyeti kaybeden ne yapar?** Tazminat ve sebepsiz zenginleşme istemleri saklıdır (TMK m. 775/3 ve TMK m. 776/3). Mülkiyetin bitmesi için terk ya da başkasının kazanması gerekir (TMK m. 778).",
+  "critical_md": "- 📌 Kanun başlığı \"Bulunmuş eşya\"dır; \"buluntu\" TMK metninde geçmez, öğreti terimidir.\n- 📌 Sahiplenme için sahipsiz taşınır ve malik olmak iradesiyle zilyetliğe geçirme gerekir (TMK m. 767).\n- ⚠️ Kaybedilen şey sahipsiz değildir; terk edilen şey sahipsizdir. Kaybedilmiş eşya TMK m. 767 ile sahiplenilemez, TMK m. 769-771 uygulanır (TMK m. 778).\n- 📌 Av hayvanı gecikmeksizin ve ara vermeksizin aranmazsa sahipsiz olur (TMK m. 768/1). Arı oğulu başkasının taşınmazına uçmakla sahipsiz olmaz (TMK m. 768/3); başkasının kovanına göçerse bedelsiz kovan malikinin olur (TMK m. 774/2).\n- 📌 Bulunmuş eşyada bildirim veya araştırma/ilân seçimliktir; önemli ölçüde değerli şeyde kolluğa ya da muhtara bildirim her hâlde şarttır (TMK m. 769/1-2).\n- 📌 Bulunan şey aşırı gider, çabuk bozulma ya da kolluk/kamu kurumunca bir yıldan fazla saklanma hâllerinde satılabilir; bedel şeyin yerine geçer (TMK m. 770/2-3).\n- 📌 Beş yıl, ilân veya bildirim tarihinden başlar, buluş gününden değil; bulan yükümlülüklerini yerine getirmişse mülkiyeti kazanır (TMK m. 771/1).\n- ⚠️ Ev, işyeri ya da kamu hizmeti yerinde bulunan şeyde yer sahibi, kiracı veya kurum bulan sayılır ama ödül isteyemez (TMK m. 771/3).\n- 📌 Define içinde bulunduğu malın malikinin olur; bulan değerin yarısını aşmamak üzere uygun ödül isteyebilir (TMK m. 772/2-3). Bulunmuş eşyada ödülün üst sınırı kanunda yoktur.\n- 📌 Eski eser ve bilimsel değerli şeyde özel kanun uygulanır (TMK m. 773). Bildirim en geç üç gün içinde yapılır (2863 sayılı Kanun m. 4/1); korunması gerekli varlıklar Devlet malıdır (2863 sayılı Kanun m. 5/1).\n- 📌 İşlemede emeğin değeri fazlaysa yeni şey işleyenin, aksi hâlde malikin olur; iyiniyetsiz işleyende hâkim yeni şeyi malike bırakabilir (TMK m. 775).\n- 📌 Karışmada paylar karışma zamanındaki değerler oranındadır; ikincil bütünleyici parçada bütün ana parçanın malikinindir (TMK m. 776).\n- 📌 Taşınırda kazandırıcı zamanaşımı: davasız ve aralıksız beş yıl, iyiniyet, malik sıfatıyla zilyetlik; olağan/olağanüstü ayrımı yoktur (TMK m. 777/1).\n- ⚠️ Taşınır üzerindeki istihkak davası zamanaşımına uğramaz; hakkı başkasının kazanması ya da terk sona erdirir (TMK m. 777 ve TMK m. 778).\n- ⚠️ Üç ayrı bir yıl: kolluk/kamu kurumunun saklama süresi (TMK m. 770/2); irade dışı kaybedilen zilyetliği geri alma (TMK m. 777/2); iade edilen kültür varlığını alma (2863 sayılı Kanun m. 25/4).",
+  "doctrine_md": "### m. 777'de iyiniyet ne zaman aranır?\nMetin yalnız \"beş yıl iyiniyetle\" der. Bir görüşe göre iyiniyet beş yılın tamamında sürmelidir; zilyet süre içinde kötüniyetli olursa kazanma gerçekleşmez. Karşı görüşe göre zilyetliğin edinildiği andaki iyiniyet yeterlidir. Sınavda her iki görüşü ver; olay sorusunda iyiniyetin baştan sona sürdüğü bir durum kurulduğunda tartışma sonucu etkilemez.\n\n### m. 777 ile m. 989 ilişkisi\nÇalınan ya da kaybolan eşyayı iyiniyetle edinen kişi hemen malik olamaz. Bir görüşe göre beş yıl sonra TMK m. 777 ile malik olur. Başka bir açıklama, TMK m. 989 süresinin dolmasını kendi başına sonuç doğuran sebep sayar. TMK m. 989'daki beş yılın başlangıcının elden çıkma anı mı, edinme anı mı olduğu da tartışılır. TMK m. 777'nin uygulama alanının sınırı da tartışmalıdır: Öğretiye göre en çok TMK m. 988'in korumadığı çalınan veya kaybolan eşyada ve devir işleminin kendisinin geçersiz olduğu durumlarda işe yarar.\n\n### m. 777/3'teki kıyas\nTBK'nın durma ve kesilme hükümleri (TBK m. 153 ve TBK m. 154) alacak için düzenlenmiştir. Bunların zilyetliğe nasıl uyarlanacağı öğretide ayrışır. Örneğin zilyedin malikin hakkını tanıması \"ikrar\" gibi kesme sebebi mi sayılır, yoksa malik sıfatıyla zilyetliği bitirdiği için kazanmayı engeller mi? Kesin olan şu kadardır: Malikin dava açması \"davasız\" şartını ortadan kaldırır.\n\n### \"Emeğin değeri\" ve \"işleyen\" kimdir? (m. 775)\nEmeğin değerinden neyin anlaşılacağı tartışmalıdır: Bir görüş işlemenin sağladığı değer artışını esas alır, karşı görüş harcanan emeğin piyasa bedelini. Ayrıca talimatla çalışan işçi ya da yüklenici mi, yoksa işi yaptıran mı işleyen sayılır? Sözleşmeye dayanan işlerde TMK m. 775 yerine sözleşme hükümlerinin uygulanacağı da ileri sürülür.\n\n### Defineyi kim bulmuş sayılır? (m. 772/3)\nPlanlı arama yaptıran kişi mi, fiilen bulan işçi mi bulan sayılır? Bu nedenle sınav olaylarında bulan çoğu kez kendi hesabına hareket eden tek kişi olarak kurulur.\n\n### Evcil hayvanlar ve m. 768/2\nÖğretide TMK m. 768/2'nin ehlileştirilmiş vahşi hayvanlar için olduğu, kaybolan kedi ve köpeğin sahipsiz olmayıp kaybolmuş eşya hükümlerine (TMK m. 769-771) tabi olduğu söylenir. Bu ayrım metinde açıkça yazılı değildir; kesin hüküm gibi sunma.",
+  "glossary": [
+   {
+    "term": "Sahiplenme (işgal)",
+    "definition": "Sahipsiz bir taşınırın malik olmak iradesiyle zilyetliğe geçirilmesi. Zilyet malik olur (TMK m. 767)."
+   },
+   {
+    "term": "Terk",
+    "definition": "Malikin mülkiyeti bırakma iradesiyle eşyayı elinden çıkarması. Terk edilen şey sahipsiz olur; kaybedilen şey olmaz (TMK m. 778)."
+   },
+   {
+    "term": "Bulunmuş eşya",
+    "definition": "Kaybedilmiş ve başkası tarafından bulunmuş eşya. Bulan yükümlülükleri yerine getirir; malik beş yıl içinde çıkmazsa bulan malik olur (TMK m. 769-771)."
+   },
+   {
+    "term": "Define",
+    "definition": "Çok zaman önce gömülmüş ya da saklanmış, malikinin artık bulunmadığı kesin olarak anlaşılan değerli şey. İçinde bulunduğu malın malikinin olur (TMK m. 772)."
+   },
+   {
+    "term": "Uygun ödül",
+    "definition": "Bulunmuş eşyada ve definede bulanın isteyebileceği karşılık. Definede değerin yarısını aşamaz (TMK m. 772/3); bulunmuş eşyada üst sınır ya da oran kanunda yazılı değildir (TMK m. 771/2)."
+   },
+   {
+    "term": "Bilimsel değerli şey ve eski eser",
+    "definition": "Bulunması hâlinde özel kanunun (2863 sayılı Kanun) uygulandığı şeyler (TMK m. 773)."
+   },
+   {
+    "term": "Kültür varlığı",
+    "definition": "Tarih öncesi ve tarihî devirlere ait, bilimsel ve kültürel açıdan özgün değer taşıyan bütün taşınır ve taşınmaz varlıklar (2863 sayılı Kanun m. 3/a-1)."
+   },
+   {
+    "term": "Egemenlik alanı",
+    "definition": "Doğal güçlerle ya da rastlantıyla taşınırın girdiği, bir kimsenin hâkim olduğu alan. Alan sahibi bulanın hak ve yükümlülüklerine tabi olur (TMK m. 774/1)."
+   },
+   {
+    "term": "İşleme",
+    "definition": "Başkasına ait bir şeyin işlenmesi ya da başka bir şekle sokulması. Emeğin değeri fazlaysa yeni şey işleyenin, aksi hâlde malikin olur (TMK m. 775/1)."
+   },
+   {
+    "term": "Karışma ve birleşme",
+    "definition": "Birden çok kişinin taşınırlarının ayrılamayacak biçimde birbirine karışması ya da eklenmesi. Değerleri oranında paylı mülkiyet doğar (TMK m. 776/1)."
+   },
+   {
+    "term": "İkincil bütünleyici parça",
+    "definition": "Ana parçaya eklenen, ondan zarar vermeden ayrılamayan parça. Bütün ana parçanın malikinin olur (TMK m. 776/2 ve TMK m. 684/2)."
+   },
+   {
+    "term": "Kazandırıcı zamanaşımı",
+    "definition": "Başkasının taşınırını davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla zilyetlikte bulunduran kişinin mülkiyeti kazanması (TMK m. 777/1)."
+   },
+   {
+    "term": "Malik sıfatıyla zilyetlik",
+    "definition": "Eşyayı kendisine ait gibi elinde tutma. Aslî zilyetliktir; kiracı ve emanetçi gibi fer'î zilyetler bu şartı taşımaz (TMK m. 974/2)."
+   },
+   {
+    "term": "İstihkak davası",
+    "definition": "Malikin eşyanın aynen iadesi için açtığı dava. Taşınırda zamanaşımına uğramaz; hakkı başkasının kazanması ya da terk sona erdirir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "767",
+   "official_text": "1. Sahipsiz şeyler\nMadde 767- Sahipsiz bir taşınırı malik olmak iradesiyle zilyetliğine geçiren kimse, onun maliki olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "768",
+   "official_text": "2. Sahipsiz duruma gelen hayvanlar\nMadde 768- Tutulan av hayvanları, yeniden serbest kalır ve sahipleri onları gecikmeksizin ve ara vermeksizin aramaz ve tekrar tutmak için uğraşmazsa, sahipsiz duruma gelirler.\nEhlileştirilmiş hayvanlar tekrar vahşileşir ve sahiplerine dönmezlerse, sahipsiz duruma gelirler.\nArı oğulu başkasının taşınmazına uçmuş olmakla sahipsiz duruma gelmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "769",
+   "official_text": "1. Arama ve ilân\nMadde 769- Kaybedilmiş bir şeyi bulan kimse, malın sahibine, sahibini bilmiyorsa kolluk kuvvetlerine, köylerde muhtara bildirmek veya araştırma yapmak ve gerektiğinde ilân etmek zorundadır.\nBulunan şey önemli ölçüde değerli ise, her hâlde kolluk kuvvetlerine veya muhtara bildirmek gerekir.\nOturulan bir evde veya işyerinde ya da kamu hizmeti görülen yerde bir şey bulan kimse, bunu o yer sahibine veya kiracıya ya da kamu hizmeti görülen yerde denetim ve gözetim ile görevli olanlara teslim etmek zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "770",
+   "official_text": "2. Koruma ve satma\nMadde 770- Bulunan şeyin özenle korunması gerekir.\nKorunması aşırı gideri gerektirir veya çabuk bozulabilir bir nitelik taşır ya da kolluk kuvvetleri veya kamu kurumu tarafından bir yıldan fazla saklanmış olursa, bulunan şey satılabilir. Satış, gerektiğinde önceden ilân edilerek açık artırma yoluyla yapılır.\nSatış bedeli, bulunan şeyin yerine geçer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "771",
+   "official_text": "3. Mülkiyetin kazanılması, geri verme\nMadde 771- Bulunan şeyin maliki, ilân veya kolluk kuvvetlerine ya da muhtara bildirme tarihinden başlayarak beş yıl içinde ortaya çıkmazsa; bulan kimse, yükümlülüklerini yerine getirmiş olmak koşuluyla o şeyin mülkiyetini kazanır.\nBulunan şey malikine geri verilirse, bulan kimse yaptığı giderlerin ödenmesini ve uygun bir ödül verilmesini isteyebilir.\nKaybedilmiş şey oturulan bir evde veya işyerinde ya da kamu hizmeti görülen yerde bulunmuşsa; o yerin sahibi, kiracı veya kurum, o şeyi bulan sayılır. Ancak bunlar ödül isteyemezler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "772",
+   "official_text": "4. Define\nMadde 772- Bulunmalarından çok zaman önce gömülmüş veya saklanmış olduğu ve duruma göre artık malikinin bulunmadığı kesin olarak anlaşılan değerli şeyler, define sayılır.\nBilimsel değer taşıyan eşyaya ilişkin hükümler saklı kalmak üzere define, içinde bulunduğu taşınmaz veya taşınır malın malikinin olur.\nDefineyi bulan kimse, değerinin yarısını aşmamak üzere uygun bir ödül isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "773",
+   "official_text": "5. Bilimsel değeri olan eşya\nMadde 773- Bilimsel değeri olan sahipsiz doğal şeyler ile eski eserlerin bulunması hâlinde özel kanun hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "774",
+   "official_text": "IV. Düşen veya sürüklenen şeyler\nMadde 774- Su, rüzgâr, çığ veya diğer doğal güçlerin etkisiyle veya rastlantı sonucunda taşınır mallar veya hayvanlar kimin egemenlik alanına girerse, o kimse kaybolan eşyayı bulanın haklarına sahip ve yükümlülüklerine tâbi olur.\nBaşkasının kovanına göçen arı oğulu, bir bedel ödenmesi gerekmeksizin kovan malikinin olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "775",
+   "official_text": "V. İşleme\nMadde 775- Bir kimse başkasına ait bir şeyi işler veya başka bir şekle sokarsa, emeğin değerinin o şeyin değerinden fazla olması hâlinde, yeni şey işleyenin, aksi hâlde malikin olur.\nİşleyen iyiniyetli değilse, emeğin değeri işlenen şeyin değerinden daha fazla olsa bile hâkim, yeni şeyi malike bırakabilir.\nTazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "776",
+   "official_text": "VI. Karışma ve birleşme\nMadde 776- Birden çok kişinin taşınır malları önemli bir zarara uğratılmadan veya aşırı bir emek ve para harcanmadan ayrılmayacak şekilde birbiriyle birleşmiş veya karışmışsa o kişiler, yeni şey üzerinde kendi taşınırlarının birleşme veya karışma zamanındaki değerleri oranında paylı mülkiyete sahip olurlar.\nBir taşınır diğer bir taşınırla onun ikincil nitelikte bütünleyici parçası olacak şekilde karışır veya birleşirse; eşyanın tamamı, ana parçanın malikine ait olur.\nTazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "777",
+   "official_text": "VII. Kazandırıcı zamanaşımı\nMadde 777- Başkasının taşınır bir malını davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla zilyetliğinde bulunduran kimse, zamanaşımı yoluyla o taşınırın maliki olur.\nZilyetliğin irade dışı kaybedilmesi hâlinde zilyet, bir yıl içinde eşyayı ele geçirir veya açacağı bir dava yoluyla onu yeniden elde ederse kazandırıcı zamanaşımı kesilmiş olmaz.\nKazandırıcı zamanaşımı süresinin hesaplanmasında, kesilmesinde ve durmasında Borçlar Kanununun zamanaşımına ilişkin hükümleri kıyas yoluyla uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "778",
+   "official_text": "C. Kaybedilmesi\nMadde 778- Taşınır mülkiyeti, malik tarafından terk edilmedikçe veya başkası tarafından kazanılmadıkça yalnız zilyetliğin kaybıyla sona ermez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "762",
+   "official_text": "A. Konusu\nMadde 762- Taşınır mülkiyetinin konusu, nitelikleri itibarıyla taşınabilen maddî şeyler ile edinmeye elverişli olan ve taşınmaz mülkiyetinin kapsamına girmeyen doğal güçlerdir.\nB. Kazanılması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "763",
+   "official_text": "1. Zilyetliğin devri\nMadde 763- Taşınır mülkiyetinin nakli için zilyetliğin devri gerekir.\nBir taşınırın zilyetliğini iyiniyetle ve malik olmak üzere devralan kimse, devredenin mülkiyeti devir yetkisi olmasa bile, zilyetlik hükümlerine göre kazanmanın korunduğu hâllerde o şeyin maliki olur.\n2. Mülkiyetin saklı tutulması",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "684",
+   "official_text": "I. Bütünleyici parça\nMadde 684- Bir şeye malik olan kimse, o şeyin bütünleyici parçalarına da malik olur.\nBütünleyici parça, yerel âdetlere göre asıl şeyin temel unsuru olan ve o şey yok edilmedikçe, zarara uğratılmadıkça veya yapısı değiştirilmedikçe ondan ayrılmasına olanak bulunmayan parçadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "974",
+   "official_text": "1. Aslî ve fer'î zilyetlik\nMadde 974- Zilyet, bir sınırlı aynî hak veya bir kişisel hakkın kurulmasını ya da kullanılmasını sağlamak için şeyi başkasına teslim ederse, bunların ikisi de zilyet olur.\nBir şeyde malik sıfatıyla zilyet olan aslî zilyet, diğeri fer'î zilyettir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "985",
+   "official_text": "1. Mülkiyet karinesi\nMadde 985- Taşınırın zilyedi onun maliki sayılır.\nÖnceki zilyetler de zilyetlikleri süresince o taşınırın maliki sayılırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "988",
+   "official_text": "a. Emin sıfatıyla zilyetten edinme bakımından\nMadde 988- Bir taşınırın emin sıfatıyla zilyedinden o şey üzerinde iyiniyetle mülkiyet veya sınırlı aynî hak edinen kimsenin edinimi, zilyedin bu tür tasarruflarda bulunma yetkisi olmasa bile korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "989",
+   "official_text": "b. Kaybedilen veya çalınan eşya bakımından\nMadde 989- Taşınırı çalınan, kaybolan ya da iradesi dışında başka herhangi bir şekilde elinden çıkan zilyet, o şeyi elinde bulunduran herkese karşı beş yıl içinde taşınır davası açabilir.\nBu taşınır, açık artırmadan veya pazardan ya da benzeri eşya satanlardan iyiniyetle edinilmiş ise; iyiniyetli birinci ve sonraki edinenlere karşı taşınır davası, ancak ödenen bedelin geri verilmesi koşuluyla açılabilir.\nDiğer konularda iyiniyetli zilyedin haklarına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "991",
+   "official_text": "d. İyiniyetli olmama hâlinde\nMadde 991- Bir taşınırın zilyetliğini iyiniyetle edinmemiş olan kimseye karşı önceki zilyet, her zaman taşınır davası açabilir.\nEğer önceki zilyet de, zilyetliği iyiniyetle edinmemiş ise sonraki zilyede karşı taşınır davası açamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "996",
+   "official_text": "Madde 996- Kazandırıcı zamanaşımından yararlanma hakkına sahip olan zilyet, zilyetliği kendisine devreden aynı yetkiye sahip idiyse onun zilyetlik süresini kendi süresine ekleyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "752",
+   "official_text": "2. Sürüklenen şeyler ile benzerlerinin alınması\nMadde 752- Su, rüzgâr, çığ veya diğer doğal güçlerin etkisiyle ya da rastlantı sonucunda başkasının arazisine sürüklenen veya düşen şeyler ile buraya giren büyük ve küçük baş hayvan, arı oğulu, kanatlı hayvan ve balık gibi hayvanların hak sahipleri tarafından aranıp alınmasına, arazi maliki izin vermek zorundadır.\nArazi maliki, bu yüzden uğradığı zararın denkleştirilmesini istemek ve denkleştirme bedeli kendisine ödeninceye kadar o şeyleri hapsetmek hakkına sahiptir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "707",
+   "official_text": "2. İşgal\nMadde 707- Tapu kütüğüne kayıtlı bir taşınmazın mülkiyetinin işgal yoluyla kazanılması, ancak kaydının malikin istemiyle terkin edilmiş olmasına bağlıdır.\nTapuya kayıtlı olmayan taşınmazlar üzerinde işgal yoluyla mülkiyet kazanılamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "712",
+   "official_text": "a. Olağan zamanaşımı\nMadde 712- Geçerli bir hukukî sebep olmaksızın tapu kütüğüne malik olarak yazılan kişi, taşınmaz üzerindeki zilyetliğini davasız ve aralıksız olarak on yıl süreyle ve iyiniyetle sürdürürse, onun bu yolla kazanmış olduğu mülkiyet hakkına itiraz edilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "713",
+   "official_text": "b. Olağanüstü zamanaşımı\nMadde 713- Tapu kütüğünde kayıtlı olmayan bir taşınmazı davasız ve aralıksız olarak yirmi yıl süreyle ve malik sıfatıyla zilyetliğinde bulunduran kişi, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nAynı koşullar altında, maliki tapu kütüğünden anlaşılamayan veya yirmi yıl önce (…)[38] hakkında gaiplik kararı verilmiş bir kimse adına kayıtlı bulunan taşınmazın tamamının veya bölünmesinde sakınca olmayan bir parçasının zilyedi de, o taşınmazın tamamı, bir parçası veya bir payı üzerindeki mülkiyet hakkının tapu kütüğüne tesciline karar verilmesini isteyebilir.\nTescil davası, Hazineye ve ilgili kamu tüzel kişilerine veya varsa tapuda malik gözüken kişinin mirasçılarına karşı açılır.\nDavanın konusu, mahkemece bir gazete ve bir internet haber sitesinde ve ayrıca taşınmazın bulunduğu yerde uygun araç ve aralıklarla en az üç defa ilân olunur.[39]\nSon ilândan başlayarak üç ay içinde yukarıdaki koşulların gerçekleşmediğini ileri sürerek itiraz eden bulunmaz ya da itiraz yerinde görülmez ve davacının iddiası ispatlanmış olursa, hâkim tescile karar verir. Mülkiyet, birinci fıkrada öngörülen koşulların gerçekleştiği anda kazanılmış olur.\nDavalılar ve itiraz edenler, aynı davada kendi adlarına tescile karar verilmesini isteyebilirler.\nKararda, tescili istenilen taşınmazın niteliği, yeri, sınırları ve yüzölçümü belirtilir ve karara, uzmanlarca düzenlenen teknik bilgileri içeren krokisi de eklenir.\nÖzel kanun hükümleri saklıdır.\n[38] Anayasa Mahkemesi’nin 17/3/2011 tarihli ve E.: 2009/58, K.: 2011/52 sayılı Kararı ile bu fıkrada yer alan “… ölmüş ya da…” ibaresi iptal edilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "49",
+   "official_text": "MADDE 49- Kusurlu ve hukuka aykırı bir fiille başkasına zarar veren, bu zararı gidermekle yükümlüdür.\nZarar verici fiili yasaklayan bir hukuk kuralı bulunmasa bile, ahlaka aykırı bir fiille başkasına kasten zarar veren de, bu zararı gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "77",
+   "official_text": "MADDE 77- Haklı bir sebep olmaksızın, bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür.\nBu yükümlülük, özellikle zenginleşmenin geçerli olmayan veya gerçekleşmemiş ya da sona ermiş bir sebebe dayanması durumunda doğmuş olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "151",
+   "official_text": "V. Sürelerin hesaplanması\nMADDE 151- Süreler hesaplanırken zamanaşımının başladığı gün sayılmaz ve zamanaşımı ancak sürenin son günü de hak kullanılmaksızın geçince gerçekleşmiş olur.\nZamanaşımı sürelerinin hesaplanmasında da, borçların ifasındaki sürelerin hesaplanmasına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "153",
+   "official_text": "MADDE 153- Aşağıdaki durumlarda zamanaşımı işlemeye başlamaz, başlamışsa durur:\n1. Velayet süresince, çocukların ana ve babalarından olan alacakları için.\n2. Vesayet süresince, vesayet altında bulunanların vasiden veya vesayet işlemleri sebebiyle Devletten olan alacakları için.\n3. Evlilik devam ettiği sürece, eşlerin diğerinden olan alacakları için.\n4. Hizmet ilişkisi süresince, ev hizmetlilerinin onları çalıştıranlardan olan alacakları için.\n5. Borçlu, alacak üzerinde intifa hakkına sahip olduğu sürece.\n6. Alacağı, Türk mahkemelerinde ileri sürme imkânının bulunmadığı sürece.\n7. Alacaklı ve borçlu sıfatının aynı kişide birleşmesinde, birleşmenin ileride geçmişe etkili olarak ortadan kalkması durumunda, bu durumun ortaya çıkmasına kadar geçecek sürece.\nZamanaşımını durduran sebeplerin ortadan kalktığı günün bitiminde zamanaşımı işlemeye başlar veya durmadan önce başlamış olan işlemesini sürdürür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "154",
+   "official_text": "MADDE 154- Aşağıdaki durumlarda zamanaşımı kesilir:\n1. Borçlu borcu ikrar etmişse, özellikle faiz ödemiş veya kısmen ifada bulunmuşsa ya da rehin vermiş veya kefil göstermişse.\n2. Alacaklı, dava veya def’i yoluyla mahkemeye veya hakeme başvurmuşsa, icra takibinde bulunmuşsa ya da iflas masasına başvurmuşsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "156",
+   "official_text": "MADDE 156- Zamanaşımının kesilmesiyle, yeni bir süre işlemeye başlar.\nBorç bir senetle ikrar edilmiş veya bir mahkeme ya da hakem kararına bağlanmış ise, yeni süre her zaman on yıldır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "3",
+   "official_text": "Tanımlar ve kısaltmalar:\nMadde 3 – Bu Kanunda geçen tanımlar ve kısaltmalar şunlardır:\na) Tanımlar:\n(1) (Değişik: 14/7/2004 – 5226/1 md.)\"Kültür varlıkları\"; tarih öncesi ve tarihi devirlere ait bilim, kültür, din ve güzel sanatlarla ilgili bulunan veya tarih öncesi ya da tarihi devirlerde sosyal yaşama konu olmuş bilimsel ve kültürel açıdan özgün değer taşıyan yer üstünde, yer altında veya su altındaki bütün taşınır ve taşınmaz varlıklardır.\n(2) \"Tabiat varlıkları\"; jeolojik devirlerle, tarih öncesi ve tarihi devirlere ait olup ender bulunmaları veya özellikleri ve güzellikleri bakımından korunması gerekli, yer üstünde, yer altında veya su altında bulunan değerlerdir.\n——————————\n(1) 17/6/1987 tarih ve 3386 sayılı Kanunun 16 ncı maddesiyle bu Kanuna eklenen ve teselsül sebebiyle Ek Madde 1 olarak numaralandırılan ek madde hükmü gereğince, Kanunun 6, 8, 20 ve 65 inci maddelerinde geçen \"Yüksek Kurul, Bölge Kurulları\", \"Koruma Kurulları\"; 54 ve 62 nci maddelerinde geçen \"Yüksek Kurul\", \"Koruma Yüksek Kurulu\"; \"Bölge Kurulu\" ise \"Koruma Kurulları\" olarak değiştirilmiş ve gerekli değişiklik madde metinlerine işlenmiştir; daha sonra 14/7/2004 tarihli ve 5226 sayılı Kanunun 17 nci maddesiyle değiştirilen Ek Madde 1 hükmü gereğince, bu Kanunda yer alan “Koruma Kurulu” ibareleri, “koruma bölge kurulu” olarak değiştirilmiş ve metne işlenmiştir.\n(2) 8/8/2011 tarihli ve 648 sayılı KHK’nın 41 inci maddesi ile bu Kanunda yer alan “Kültür ve Tabiat Varlıklarını Koruma Yüksek Kurulu” ibareleri “Kültür Varlıklarını Koruma Yüksek Kurulu” şeklinde ve “kültür ve tabiat varlıklarını koruma bölge kurulu” ile “Kültür ve Tabiat Varlıklarını Koruma Bölge Kurulu” ibareleri “Kültür Varlıklarını Koruma Bölge Kurulu” şeklinde değiştirilmiş ve metne işlenmiştir.\n(3) \"Sit\"; tarih öncesinden günümüze kadar gelen çeşitli medeniyetlerin ürünü olup, yaşadıkları devirlerin sosyal, ekonomik, mimari ve benzeri özelliklerini yansıtan kent ve kent kalıntıları, kültür varlıklarının yoğun olarak bulunduğu sosyal yaşama konu olmuş veya önemli tarihi hadiselerin cereyan ettiği yerler ve tespiti yapılmış tabiat özellikleri ile korunması gerekli alanlardır. (1)\n(4) \"Koruma\"; ve \"Korunma\"; taşınmaz kültür ve tabiat varlıklarında muhafaza, bakım, onarım, restorasyon, fonksiyon değiştirme işlemleri; taşınır kültür varlıklarında ise muhafaza, bakım, onarım ve restorasyon işleridir.\n(5) \"Korunma alanı\"; taşınmaz kültür ve tabiat varlıklarının muhafazaları veya tarihi çevre içinde korunmalarında etkinlik taşıyan korunması zorunlu olan alandır.\n(6) (Değişik: 17/6/1987 - 3386/1 md.) \"Değerlendirme\"; kültür ve tabiat varlıklarının teşhiri, tanzimi, kullanılması ve bilimsel yöntemlerle tanıtılmasıdır.\n(7) (Ek:14/7/2004 – 5226/1 md.) \"Ören yeri\"; tarih öncesinden günümüze kadar gelen çeşitli uygarlıkların ürünü olup, topoğrafik olarak tanımlanabilecek derecede yeterince belirgin ve mütecanis özelliklere sahip, aynı zamanda tarihsel, arkeolojik, sanatsal, bilimsel, sosyal veya teknik bakımlardan dikkate değer, kısmen inşa edilmiş, insan emeği kültür varlıkları ile tabiat varlıklarının birleştiği alanlardır.\n(8) (Ek:14/7/2004 – 5226/1 md.) \"Koruma amaçlı imar plânı\"; bu Kanun uyarınca belirlenen sit alanlarında, alanın etkileşim-geçiş sahasını da göz önünde bulundurarak, kültür ve tabiat varlıklarının sürdürülebilirlik ilkesi doğrultusunda korunması amacıyla arkeolojik, tarihi, doğal, mimarî, demografik, kültürel, sosyo-ekonomik, mülkiyet ve yapılaşma verilerini içeren alan araştırmasına dayalı olarak; hali hazır haritalar üzerine, koruma alanı içinde yaşayan hane halkları ve faaliyet gösteren iş yerlerinin sosyal ve ekonomik yapılarını iyileştiren, istihdam ve katma değer yaratan stratejileri, koruma esasları ve kullanma şartları ile yapılaşma sınırlamalarını, sağlıklaştırma, yenileme alan ve projelerini, uygulama etap ve programlarını, açık alan sistemini, yaya dolaşımı ve taşıt ulaşımını, alt yapı tesislerinin tasarım esasları, yoğunluklar ve parsel tasarımlarını, yerel sahiplilik, uygulamanın finansmanı ilkeleri uyarınca katılımcı alan yönetimi modellerini de içerecek şekilde hazırlanan, hedefler, araçlar, stratejiler ile plânlama kararları, tutumları, plân notları ve açıklama raporu ile bir bütün olan nazım ve uygulama imar plânlarının gerektirdiği ölçekteki plânlardır.\n(9) (Ek:14/7/2004 – 5226/1 md.) \"Çevre düzenleme projesi\"; ören yerlerinin arkeolojik potansiyelini koruyacak şekilde, denetimli olarak ziyarete açmak, tanıtımını sağlamak, mevcut kullanım ve dolaşımdan kaynaklanan sorunlarını çözmek, alanın ihtiyaçlarını çağdaş, teknolojik gelişmelerin gerektirdiği donatılarla gidermek amacıyla her ören yerinin kendi özellikleri göz önüne alınarak hazırlanacak 1/500, 1/200 ve 1/100 ölçekli düzenleme projeleridir.\n——————————\n(1) Bu alt bende 14/7/2004 tarihli ve 5226 sayılı Kanunun 1 inci maddesiyle, \"kent kalıntıları“ ibaresinden sonra gelmek üzere“ kültür varlıklarının yoğun olarak bulunduğu sosyal yaşama konu olmuş veya“ ibareleri eklenmiş ve metne işlenmiştir.\n(10) (Ek:14/7/2004 – 5226/1 md.) \"Yönetim alanı\"; sit alanları, ören yerleri ve etkileşim sahalarının doğal bütünlüğü içerisinde etkin bir şekilde korunması, yaşatılması, değerlendirilmesi, belli bir vizyon ve tema etrafında geliştirilmesi, toplumun kültürel ve eğitsel ihtiyaçlarıyla buluşturulması amacıyla, plânlama ve koruma konusunda yetkili merkezî ve yerel idareler ile sivil toplum kuruluşları arasında eşgüdümü sağlamak için oluşturulan ve sınırları ilgili idarelerin görüşleri alınarak Bakanlıkça belirlenen yerlerdir.\n(11) (Ek: 14/7/2004 – 5226/1 md.) \"Yönetim plânı\"; yönetim alanının korunmasını, yaşatılmasını, değerlendirilmesini sağlamak amacıyla, işletme projesini, kazı plânı ve çevre düzenleme projesi veya koruma amaçlı imar plânını dikkate alarak oluşturulan koruma ve gelişim projesinin, yıllık ve beş yıllık uygulama etaplarını ve bütçesini de gösteren, her beş yılda bir gözden geçirilen plânlardır.\n(12) (Ek:14/7/2004 – 5226/1 md.) \"Bağlantı noktası\"; yönetim alanı sınırlarında yer almamakla birlikte, arkeolojik, coğrafi, kültürel ve tarihi nedenlerle veya aynı vizyon ve tema etrafında yönetim ve gelişiminin sağlanması bakımından bu yer ile irtibatlandırılan kültürel varlıklardır.\n(13) (Ek: 8/8/2011-KHK-648/41 md.) “Doğal (tabii) sit”; jeolojik devirlere ait olup, ender bulunmaları nedeniyle olağanüstü özelliklere sahip yer üstünde, yer altında veya su altında bulunan korunması gerekli alanlardır.\n(14) (Ek: 8/8/2011-KHK-648/41 md.) “Taşınır tabiat varlıkları”; jeolojik devirlere ait olup, ender bulunmaları nedeniyle olağanüstü özelliklere sahip yer üstünde, yer altında veya su altında bulunan korunması gerekli taşınır tabii değerlerdir.\n(15) (Ek: 8/8/2011-KHK-648/41 md.) “Sokak sağlıklaştırma proje ve uygulamaları”; kentsel sit alanları ve koruma alanlarında, korunması gerekli taşınmaz kültür varlıkları ile sokaktaki diğer yapıların özgün sokak dokusunu tanımlayan tüm öğelerle birlikte korunması ve belgelenmesine yönelik rölöve, restitüsyon, restorasyon, kentsel tasarım projeleri ile mühendislik dallarında yapılması gereken her türlü proje ve bunların uygulamalarıdır.\n(16) (Ek: 8/8/2011-KHK-648/41 md.) “Etkileşim-geçiş sahası”; korunması gerekli kültür varlıklarını ve sit alanlarını doğrudan etkileyen, sit bölgeleriyle bütünlük gösteren, daha önceden sit sınırları içindeyken sit sınırları dışına çıkarılmış veya sit sınırları dışında tutulmuş korunacak sokak, meydan, yapı grupları ve benzerlerinin yer aldığı, sit bölgeleri arasında kalmış, sitleri doğrudan etkileyen veya koruma amaçlı imar planlarının hazırlanma aşamasında gözönünde bulundurulması gereken alanlardır.\nb) (Değişik: 17/6/1987 - 3386/1 md.) Kısaltmalar:\n(1) \"Bakanlık\"; Kültür ve Turizm Bakanlığını,\n(2) \"Koruma Yüksek Kurulu\"; Kültür Varlıklarını Koruma Yüksek Kurulunu,\n(3)(Değişik:14/7/2004 – 5226/1 md.) \"Koruma Bölge Kurulu\"; Kültür Varlıklarını Koruma Bölge Kurulunu,\nİfade eder.\n(1) Bu fıkraya 14/7/2004 tarihli ve 5226 sayılı Kanunun 2 nci maddesiyle \"mozaikler\" ibaresinden sonra gelmek üzere \", peri bacaları\" ibaresi eklenmiş ve metne işlenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "4",
+   "official_text": "Haber verme zorunluğu:\nMadde 4 – Taşınır ve taşınmaz kültür ve tabiat varlıklarını bulanlar, malik oldukları veya kullandıkları arazinin içinde kültür ve tabiat varlığı bulunduğunu bilenler veya yeni haberdar olan malik ve zilyetler, bunu en geç üç gün içinde, en yakın müze müdürlüğüne veya köyde muhtara veya diğer yerlerde mülki idare amirlerine bildirmeye mecburdurlar.\nBu gibi varlıklar, askeri garnizonlar ve yasak bölgeler içinde bulunursa, usulüne uygun olarak üst komutanlıklara bildirilir.\nBöyle bir ihbarı alan muhtar, mülki amir veya bu gibi varlıklardan doğrudan doğruya haberdar olan ilgili makamlar, bunların muhafaza ve güvenlikleri için gerekli tedbirleri alırlar. Muhtar, aynı gün alınan tedbirlerle birlikte durumu en yakın mülki amire; mülki amir ve diğer makamlar ise on gün içinde, yazı ile Kültür ve Turizm Bakanlığına ve en yakın müze müdürlüğüne bildirir.\nİhbar alan Bakanlık ve müze müdürü bu Kanun hükümlerine göre, en kısa zamanda gerekli işlemleri yapar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "5",
+   "official_text": "Devlet malı niteliği:\nMadde 5 – Devlete, kamu kurum ve kuruluşlarına ait taşınmazlar ile özel hukuk hükümlerine tabi gerçek ve tüzelkişilerin mülkiyetinde bulunan taşınmazlarda varlığı bilinen veya ileride meydana çıkacak olan korunması gerekli taşınır ve taşınmaz kültür ve tabiat varlıkları Devlet malı niteliğindedir.\nÖzel nitelikleri dolayısıyla ayrı statüye tabi tutulan mazbut ve mülhak vakıf malları bu hükmün dışındadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "23",
+   "official_text": "Korunması gerekli taşınır kültür ve tabiat varlıkları:\nMadde 23 – Korunması gerekli taşınır kültür ve tabiat varlıkları şunlardır:\na) (Değişik: 17/6/1987 - 3386/9 md.) Jeolojik, tarih öncesi ve tarihi devirlere ait, jeoloji, antropoloji, prehistorya, arkeoloji ve sanat tarihi açılarından belge değeri taşıyan ve ait oldukları dönemin sosyal, kültürel, teknik ve ilmi özellikleri ile seviyesini yansıtan her türlü kültür ve tabiat varlıkları;\nHer çeşit hayvan ve bitki fosilleri, insan iskeletleri, çakmak taşları (sleks), volkan camları (obsidyen), kemik veya madeni her türlü aletler, çini, seramik, benzeri kab ve kacaklar, heykeller, figürinler, tabletler, kesici, koruyucu ve vurucu silahlar, putlar (ikon), cam eşyalar, süs eşyaları (hülliyat), yüzük taşları, küpeler, iğneler, askılar, mühürler, bilezik ve benzerleri, maskeler, taçlar (diadem), deri, bez, papirus, parşümen veya maden üzerine yazılı veya tasvirli belgeler, tartı araçları, sikkeler, damgalı veya yazılı levhalar, yazma veya tezhipli kitaplar, minyatürler, sanat değerine haiz gravür, yağlıboya veya suluboya tablolar, muhallefat (religue'ler), nişanlar, madalyalar, çini, toprak, cam, ağaç, kumaş ve benzeri taşınır eşyalar ve bunların parçaları,\nHalkın sosyal heyetini yansıtan, insan yapısı araç ve gereçler dahil, bilim, din ve mihaniki sanatlarla ilgili etnografik nitelikteki kültür varlıkları.\nOsmanlı Padişahlarından Abdülmecit, Abdülaziz, V. Murat, II. Abdülhamit, V. Mehmet Reşat ve Vahidettin ve aynı çağdaki sikkeler, bu Kanuna göre tescile tabi olmaksızın yurt içinde alınıp satılabilirler.\nBu madde kararına girmeyen sikkeler bu Kanunun genel hükümlerine tabidir.\nb) Milli tarihimizdeki önemleri sebebiyle, Milli Mücadele ve Türkiye Cumhuriyetinin kuruluşuna ait tarihi değer taşıyan belge ve eşyalar, Mustafa Kemal ATATÜRK'e ait zati eşya, evrak, kitap, yazı ve benzeri taşınırlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "24",
+   "official_text": "Yönetim ve gözetim:\nMadde 24 – (Değişik: 17/6/1987 - 3386/10 md.)\nDevlet malı niteliğini taşıyan korunması gerekli taşınır kültür ve tabiat varlıklarının Devlet elinde ve müzelerde bulundurulması ve bunların korunup değerlendirilmeleri Devlete aittir. Bu gibi varlıklardan gerçek ve tüzelkişilerin ellerinde bulunanlar, değeri ödenerek Bakanlık tarafından satın alınabilir.\n23 üncü maddenin (a) bendinde belirtilen etnografik mahiyetteki kültür varlıklarının yurt içinde alımı, satımı ve devri serbesttir. Alımı, satımı serbest bırakılacak etnoğrafik eserlerin hangi devirlere ait olacağı ve diğer nitelikleri ile kayıt ve tescil şartları bir yönetmelikle belirlenir.\nMilli Mücadele ve Türkiye Cumhuriyeti Tarihi ve Atatürk'e ait korunması gerekli taşınır kültür varlıkları, Bakanlık, Milli Savunma Bakanlığı veya Atatürk Kültür, Dil ve Tarih Yüksek Kurumu'nca satın alınabilir.\nAncak, bu tip eserlerden her ne suretle olursa olsun yurt dışına çıkarılacakların kontrolü, Bakanlığa bağlı müzelerce yapılabileceği gibi bazı gümrük çıkış kapılarında bulundurulacak ihtisas elemanlarınca da yapılabilir. Hangi kapılarda ihtisas elemanı bulundurulacağı bir yönetmelikte belirlenir.\nYapılan kontrol sonunda bu tip eserlerden yurt dışına çıkmasında sakınca görülenler tespit edilerek değerlendirilmeleri yurt içinde yapılmak şartıyla, sahiplerine iade edilirler.\nBu maddede belirtilen ve alım, satımı serbest bırakılan eserlerde Devletin rüçhan hakkı mahfuzdur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "25",
+   "official_text": "Müzelere alınma:\nMadde 25 – Dördüncü maddeye göre Kültür ve Turizm Bakanlığına bildirilen taşınır kültür ve tabiat varlıkları ile 23 üncü maddede belirlenen korunması gerekli taşınır kültür ve tabiat varlıkları, Kültür ve Turizm Bakanlığı tarafından bilimsel esaslara göre tasnif ve tescile tabi tutulurlar. Bunlardan Devlet müzelerinde bulunması gerekli görülenler, usulüne uygun olarak müzelere alınırlar.\nKorunması gerekli taşınır kültür ve tabiat varlıklarının tasnifi, tescili ve müzelere alınmaları ile ilgili kıstaslar, usuller ve esaslar yönetmelikte belirlenir.\nTürk askeri tarihini ilgilendiren her türlü silah ve malzemenin bulundukları veya ihbar edildikleri yerde, tarihi niteliklerinin araştırılması, incelenmesi ve değerlendirilmesi Genelkurmay Başkanlığınca yapılır.\nTasnif ve tescil dışı bırakılan ve müzelere alınması gerekli görülmeyenler, sahiplerine bir belge ile iade olunurlar. Belge ile iade olunan kültür varlıkları üzerinde, sahipleri her türlü tasarrufta bulunabilirler. Bir yıl içinde sahipleri tarafından alınmayanlar, müzelerde saklanabilir veya usulüne uygun olarak Devletçe satılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "50",
+   "official_text": "Define arama:\nMadde 50 – Define aramak isteyenlere, bu Kanunun 6 ncı maddesinde korunması gerekli taşınmaz kültür ve tabiat varlığı olarak belirtilen yerler ile tespit ve tescil edilen sit alanları ve mezarlıklar dışında, Kültür ve Turizm Bakanlığınca define arama ruhsatnamesi verilebilir.\nDefine aramak isteyenlere aynı süre içinde birden fazla yerde arama izni verilemez. Define arama izni, başkalarına devredilemez. Bu iş için bir başkası tevkil olunamaz.\nDefine aramada, Kültür ve Turizm Bakanlığından ve diğer kamu kurum ve kuruluşlarından temsilci olarak gönderileceklerin yolluk ve yevmiyeleri ile zaruri giderleri arayıcı tarafından karşılanır. Bu iş için gerekli olan ödenek, Bakanlıkça, define arayıcısından peşinen tahsil edilip bir Devlet bankasına yatırılır.\nArama ruhsatının verilmesi, define arayıcıdan istenecek belgeler, aramanın yapılması, çıkan defineden arayıcıya tanınacak haklar, Kültür ve Turizm Bakanlığı ile Maliye Bakanlığının birlikte düzenleyeceği yönetmelikte belirtilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KÜLTÜR VE TABİAT VARLIKLARINI KORUMA KANUNU",
+   "law_no": "2863",
+   "article_no": "64",
+   "official_text": "Kültür varlıklarını bulanlara verilecek ikramiye:\nMadde 64 – Türkiye Cumhuriyeti sınırları içinde yer üstünde, yer altında ve su altında bulunan taşınır kültür varlıklarını 4 üncü maddede yazılı makam ve mercilere, aynı maddede yazılı süreler içerisinde haber verenlere:\na) Bulunan varlık, bunların mülkü içinde ise bu Kanunun 24 üncü ve 25 inci maddeleri uygulanır. Ayrıca ikramiye verilmez.\nb) Bulunan varlık başkasının mülkü içinde ise Kültür ve Turizm Bakanlığınca varlığın değeri dikkate alınarak, takdir olunacak bedelin % 80'i ikramiye olarak bulan ile mülk sahibi arasında yarı yarıya paylaştırılır.\nc) Kültür varlığı Devlete ait arazide bulunmuş ise, takdir olunacak bedelin % 40'ı bulana ikramiye olarak verilir.\nd) Nerede bulunursa bulunsun haber verilen kültür varlığı korunması gerekli nitelikte olmadığı takdirde haber verenlere bu Kanunun 25 inci maddesindeki işlem uygulanır. Ayrıca ikramiye verilmez.\ne) Nerede olursa olsun yeni bulunup da 4 üncü maddede yazılı süreler içinde haber verilmediğinden dolayı gizlenmiş sayılan kültür varlıklarını haber verenler ile, bunları yakalayan kamu görevlilerine, 1905 sayılı \"Menkul ve Gayrimenkul Emval ile Bunların İntifa Haklarının ve Daimi Vergilerin Mektumlarını Haber verenlere Verilecek İkramiyelere Dair Kanun\"da taşınır mallar için gösterilen oranlar dahilinde tespit edilen bedel ikramiye olarak verilir.\nf) Yukarıdaki fıkralardan herhangi biri uyarınca kültür varlıklarını bulan, haber veren veya yakalayan kişiler birden fazla ise verilecek ikramiyeler bunlar arasında eşit olarak paylaştırılır.\ng) Yukarda belirtilen ikramiyelerin tahakkuk ve tediyesine ait işlemler Maliye ve Kültür ve Turizm bakanlıklarınca birlikte hazırlanacak yönetmelik esaslarına göre yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2863&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "160",
+   "official_text": "Kaybolmuş veya hata sonucu ele geçmiş eşya üzerinde tasarruf\nMadde 160- (1) Kaybedilmiş olması nedeniyle malikinin zilyedliğinden çıkmış olan ya da hata sonucu ele geçirilen eşya üzerinde, iade etmeksizin veya yetkili mercileri durumdan haberdar etmeksizin, malik gibi tasarrufta bulunan kişi, şikayet üzerine, bir yıla kadar hapis veya adlî para cezası ile cezalandırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "83/c",
+   "official_text": "Madde 83/c – (Ek: 9/11/1988-3494/7 md.)\nTaşınmaz rehni ipotek akit tablosunda sayılı bulunan eklenti taşınmazdan ayrı olarak haczedilemez.\nTürk Kanunu Medenisinin 777 nci maddesi hükmü saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "4. Hukuk Dairesi",
+   "esas_no": "2017/1762",
+   "karar_no": "2020/472",
+   "decision_date": "11.02.2020",
+   "summary_md": "Ressam davacı, 33 yağlı boya tablosunu 1996'da geçici çıkışla yurt dışına çıkarmış, 1998'de geri getirmiştir. Süre aşıldığı için tablolar gümrükte alıkonulmuş; teslim kararı verilmiş ama ardiye ücreti istenmiştir. Ücret ödenmeyince tablolar gümrükte kalan eşya sayılarak 1998 sonunda bedelsiz biçimde Kültür Bakanlığına devredilmiş ve sonradan bir üniversite müzesinde sergilenmeye başlanmıştır. Davacı 2016'da istihkak davası açmış; ilk derece mahkemesi, 1998-2010 arasında talep yapılmadığı için tabloların fiziki mülkiyeti bakımından TMK m. 777'deki beş yıllık zamanaşımının dolduğu gerekçesiyle davayı reddetmiştir. Yargıtay 4. Hukuk Dairesi kararı oybirliğiyle bozmuştur: Malın malik sıfatıyla, nizasız ve fasılasız elde bulundurulması TMK m. 777'nin en önemli şartıdır. Eserlere davacının rızası dışında el konulmuş, idare de kendisinin malik sıfatıyla zilyet olmadığını teyit etmiş ve taraflar arasında süregelen bir anlaşmazlık bulunmuştur. Bu yüzden zamanaşımı şartları oluşmamıştır. Uyuşmazlığın özü ardiye alacağıdır; salt bu alacak yüzünden mülkiyetin idareye geçtiğini kabul etmek mülkiyet hakkına ölçüsüz bir müdahaledir. Karar, malik sıfatıyla ve nizasız zilyetlik olmadıkça süre ne kadar uzarsa uzasın TMK m. 777 ile kazanma olmayacağını gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/592578500",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "6. Hukuk Dairesi",
+   "esas_no": "2011/2097",
+   "karar_no": "2011/6770",
+   "decision_date": "21.06.2011",
+   "summary_md": "Davacı, evlilik bağı nedeniyle davalı kocanın elinde kalan ev eşyalarının ve ziynet eşyalarının aynen iadesini, olmazsa 7.000 TL bedelin tahsilini istemiştir. Mahkeme davayı reddetmiş, davacı vekili temyiz etmiştir. Yargıtay 6. Hukuk Dairesi, ziynet eşyası yönünden delillerin takdirinde isabetsizlik görmemiş; ev eşyaları yönünden ise kararı oybirliğiyle bozmuştur. Dairenin gerekçesine göre eşya aynen mevcutsa dava mülkiyete dayanır ve TMK m. 777 ile TMK m. 778'deki (eski Kanundaki 701. ve 702. maddelerdeki) şartlar oluşmadıkça zamanaşımına uğramaz. İstihkak davası ayni hak olan mülkiyete dayanan tipik bir ayın davasıdır; bu yüzden zamanaşımından söz edilemez. \"Aynen olmazsa bedeli\" ibaresi asıl istemin uzantısı ve ikamesidir, davanın niteliğini değiştirmez; davanın esasına girilmeliydi. Karar, taşınırdaki istihkak davasının zamanaşımına uğramadığını, hakkı ancak başkasının kazanmasının (TMK m. 777) ya da terkin (TMK m. 778) sona erdirdiğini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/17115900",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Zeynep eski koltuğunu \"isteyen alsın\" notuyla sokağa bırakır. Koltuğu fark eden Okan onu alıp evine götürür. Hangisi doğrudur?",
+   "options": [
+    "Zilyetlik kaybedildiği için Zeynep'in mülkiyeti kendiliğinden sona ermiştir; koltuk devletin olur.",
+    "Zeynep koltuğu terk etmiştir; koltuk sahipsiz hâle gelmiş ve Okan malik olmak iradesiyle zilyetliğe geçirdiği için malik olmuştur.",
+    "Koltuk kaybedilmiş eşya sayılır; Okan bildirim yükümlülüğüne tabidir ve beş yıl sonra malik olur.",
+    "Okan ancak beş yıl davasız ve aralıksız zilyet kalırsa malik olabilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Mülkiyet, malik tarafından terk edilmedikçe yalnız zilyetliğin kaybıyla sona ermez (TMK m. 778). Zeynep bırakma iradesiyle koltuğu sokağa koyduğundan terk vardır; sahipsiz taşınırı malik olmak iradesiyle zilyetliğine geçiren kimse malik olur (TMK m. 767). Yaygın yanılgı, terk ile kaybetmeyi karıştırmaktır; kaybedilmiş eşyada TMK m. 769-771 işler, terkte işlemez."
+  },
+  {
+   "stem_md": "Avcı Kerem'in tuttuğu keklik kafesten kaçar. Kerem kekliği gecikmeksizin ve ara vermeksizin aramaz ve yeniden tutmak için uğraşmaz. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Keklik hâlâ Kerem'indir; yalnız beş yıl sonra sahipsiz olur.",
+    "Keklik sahipsiz duruma gelir; onu tutan kişi malik olmak iradesiyle zilyetliğe geçirirse malik olur.",
+    "Keklik kaybolmuş eşya sayılır; bulan TMK m. 771 gereği beş yıl bildirim süresini beklemek zorundadır.",
+    "Keklik, yaban hayvanı olduğu için doğrudan devletin olur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Tutulan av hayvanları yeniden serbest kalır ve sahipleri onları gecikmeksizin ve ara vermeksizin aramaz ve tekrar tutmak için uğraşmazsa sahipsiz duruma gelirler (TMK m. 768/1). Sahipsiz taşınırı malik olmak iradesiyle zilyetliğine geçiren malik olur (TMK m. 767). Beş yıllık süre bulunmuş eşyaya aittir (TMK m. 771/1), sahipsiz hayvana değil."
+  },
+  {
+   "stem_md": "Arı oğuluyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+   "options": [
+    "Başkasının taşınmazına uçan arı oğulu hemen sahipsiz olur ve ilk tutan malik olur.",
+    "Arı oğulu hiçbir hâlde mülkiyet konusu olamaz.",
+    "Başkasının kovanına göçen arı oğulu, bedel ödenmesi gerekmeksizin kovan malikinin olur.",
+    "Başkasının kovanına göçen arı oğulu, ancak eski sahibine bedel ödenirse kovan malikinin olur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Başkasının kovanına göçen arı oğulu bir bedel ödenmesi gerekmeksizin kovan malikinin olur (TMK m. 774/2). Arı oğulu başkasının taşınmazına uçmuş olmakla ise sahipsiz duruma gelmez (TMK m. 768/3). Oğul bu hâlde hâlâ eski sahibinindir."
+  },
+  {
+   "stem_md": "Fırtınada Ahmet'in balkonundan uçan halı komşusu Elif'in bahçesine düşer. Hangisi doğrudur?",
+   "options": [
+    "Halı kendiliğinden Elif'in malı olur, çünkü bahçe onun taşınmazıdır.",
+    "Elif, kaybolan eşyayı bulanın haklarına sahip ve yükümlülüklerine tabi olur.",
+    "Elif halıyı ancak Ahmet'e ödül ödeyerek elinde tutabilir.",
+    "Halı sahipsiz duruma gelir; Elif onu hemen sahiplenerek malik olur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Doğal güçlerin etkisiyle ya da rastlantı sonucunda taşınır mallar kimin egemenlik alanına girerse o kimse kaybolan eşyayı bulanın haklarına sahip ve yükümlülüklerine tabi olur (TMK m. 774/1). Halı sahipsiz olmamıştır; kaybedilmiş eşya gibi değerlendirilir. Elif'in bildirim, koruma gibi yükümlülükleri vardır, arazi maliki olarak aranıp alınmasına da izin vermelidir (TMK m. 752)."
+  },
+  {
+   "stem_md": "Deniz bir kafede masanın altında bir cüzdan bulur. Cüzdanın sahibi bilinmemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Deniz, cüzdanı yalnız kolluğa bildirmek zorundadır; işletmeciye teslim edemez.",
+    "Deniz, cüzdanı kafenin sahibine ya da kiracısına teslim etmek zorundadır; işletmeci bulan sayılır ama ödül isteyemez.",
+    "Kafenin işletmecisi cüzdanı bulan sayılır ve malikine geri verirse uygun ödül isteyebilir.",
+    "Deniz, cüzdanı kendi evinde saklayarak beş yıl sonra malik olur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Oturulan bir evde, işyerinde ya da kamu hizmeti görülen yerde bir şey bulan kimse bunu yer sahibine, kiracıya veya denetim ve gözetim görevlilerine teslim etmek zorundadır (TMK m. 769/3). Yer sahibi, kiracı veya kurum şeyi bulan sayılır; ancak bunlar ödül isteyemez (TMK m. 771/3)."
+  },
+  {
+   "stem_md": "TMK m. 770/2'ye göre bulunan şeyin satılabilmesi için aşağıdaki sebeplerden hangisi **yeterli değildir**?",
+   "options": [
+    "Korunmasının aşırı gider gerektirmesi",
+    "Şeyin çabuk bozulabilir nitelikte olması",
+    "Kolluk kuvvetleri veya kamu kurumu tarafından bir yıldan fazla saklanmış olması",
+    "Bulanın şeyi satmak istemesi"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 770/2 üç satış sebebi sayar: aşırı gider, çabuk bozulma ve kolluk/kamu kurumunca bir yıldan fazla saklanma. Bulanın satma isteği bunlardan değildir. Satış gerektiğinde ilânla açık artırma yoluyla yapılır ve satış bedeli şeyin yerine geçer (TMK m. 770/3)."
+  },
+  {
+   "stem_md": "Ahmet 2 Mart'ta bir yüzük bulur ve 20 Mart'ta kolluk kuvvetlerine bildirir. TMK m. 771/1'deki beş yıllık süre hangi tarihten itibaren işlemeye başlar?",
+   "options": [
+    "20 Mart'tan, yani bildirim tarihinden",
+    "Sahibinin yüzüğü kaybettiği tarihten",
+    "2 Mart'tan, yani buluş tarihinden",
+    "Yüzüğün satıldığı tarihten"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Bulunan şeyin maliki, ilân veya kolluk kuvvetlerine ya da muhtara bildirme tarihinden başlayarak beş yıl içinde ortaya çıkmazsa bulan kimse mülkiyeti kazanır (TMK m. 771/1). Süre buluş gününden değil, ilân ya da bildirim tarihinden işler."
+  },
+  {
+   "stem_md": "Mert, parkta çok değerli bir altın kolye bulur. Bildirmez, araştırmaz ve kimseye haber vermeden kolyeyi altı yıl boyunca kullanır. Hangisi doğrudur?",
+   "options": [
+    "Bildirim yükümlülüğü yalnız yer sahibine karşıdır, bu yüzden Mert'in bir sorumluluğu yoktur.",
+    "Mert, bildirim yapmadığı için kolyeyi derhâl sahibine iade etmek zorundadır ve ödül isteyemez; bu sonucu kanun açıkça belirtir.",
+    "Buluştan beş yıl geçtiği için TMK m. 771/1'e göre kolyenin maliki olmuştur.",
+    "Yükümlülüklerini yerine getirmediği için TMK m. 771/1'deki şartlar oluşmamıştır; ayrıca şikâyet üzerine TCK m. 160 gündeme gelir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Değerli şeyde kolluğa ya da muhtara bildirim her hâlde gereklidir (TMK m. 769/2) ve mülkiyetin kazanılması, bulanın yükümlülüklerini yerine getirmiş olmasına bağlıdır (TMK m. 771/1). Ayrıca kaybedilmiş eşyayı iade etmeksizin ya da yetkili mercileri haberdar etmeksizin malik gibi tasarruf eden kişi şikâyet üzerine cezalandırılır (TCK m. 160/1). Son şıktaki kesin sonuç kanun metninde yazılı değildir."
+  },
+  {
+   "stem_md": "Ali, komşusu Can'ın izniyle Can'ın bahçesinde ağaç dikerken toprak altında bir kutu bulur. Kutuda çok eski altın paralar vardır; bilirkişiye göre eşya çok zaman önce gömülmüş, malikinin artık bulunmadığı kesindir ve kültür varlığı niteliğinde de değildir. Hangisi doğrudur?",
+   "options": [
+    "Altınlar Devletin olur; Ali ve Can hiçbir hak talep edemez.",
+    "Altınlar Ali ile Can'ın yarı yarıya paylı malikiyetinde olur.",
+    "Altınlar bahçenin maliki Can'ın olur; Ali değerinin yarısını aşmamak üzere uygun ödül isteyebilir.",
+    "Altınlar Ali'nin olur; Can yalnız uygun ödül isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Eşya define niteliğindedir (TMK m. 772/1). Define, içinde bulunduğu taşınmaz veya taşınır malın malikinin olur (TMK m. 772/2). Bulan ise değerinin yarısını aşmamak üzere uygun bir ödül isteyebilir (TMK m. 772/3). Devlet malı niteliği ancak eşya kültür varlığı ise söz konusudur (2863 sayılı Kanun m. 5/1); olayda bu nitelik yoktur."
+  },
+  {
+   "stem_md": "Ödül bakımından bulunmuş eşya ile define arasındaki fark hangi seçenekte doğru gösterilmiştir?",
+   "options": [
+    "Her ikisinde de bulan ödül isteyemez.",
+    "Her ikisinde de ödülün oranı kanunda yüzde olarak belirlenmiştir.",
+    "Bulunmuş eşyada ödül değerin yarısını aşamaz; definede üst sınır yoktur.",
+    "Definede ödül değerin yarısını aşmamak üzere uygun ödüldür; bulunmuş eşyada kanun üst sınır ya da oran vermez, yalnız uygun ödül der."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Defineyi bulan, değerinin yarısını aşmamak üzere uygun bir ödül isteyebilir (TMK m. 772/3). Bulunan şey malikine geri verilirse bulan giderlerin ödenmesini ve uygun bir ödül verilmesini isteyebilir (TMK m. 771/2); bu hükümde üst sınır ya da yüzde yoktur. Ödülün oranını kesin bir yüzde olarak ezberlemek yanlıştır."
+  },
+  {
+   "stem_md": "Hasan bir bahçede kazı yaparken içinde birkaç yıl önce gömüldüğü ve sahibinin araştırılarak bulunabileceği anlaşılan bir kutu bulur. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Eşya define sayılmaz, bulunmuş eşyadır; TMK m. 769-771'deki yükümlülükler ve beş yıllık süre uygulanır.",
+    "Eşya Devlet malıdır.",
+    "Eşya define sayılır; bahçenin maliki malik olur.",
+    "Eşya sahipsizdir; Hasan hemen malik olur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Define için eşyanın bulunmalarından çok zaman önce gömülmüş olması ve malikinin artık bulunmadığının kesin olarak anlaşılması gerekir (TMK m. 772/1). Burada sahibi araştırılabildiğinden bu şartlar oluşmamıştır. Eşya bulunmuş eşyadır; bulan bildirim yükümlülüğüne tabidir (TMK m. 769) ve malik beş yıl içinde çıkmazsa bulan malik olur (TMK m. 771/1)."
+  },
+  {
+   "stem_md": "Bir kişi toprağı kazarken, antik döneme ait ve korunması gerekli nitelikte sikkeler bulur. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Bildirim için süre yoktur; beş yıl içinde bildirmesi yeterlidir.",
+    "TMK m. 772 uygulanır; sikkeler taşınmaz malikinin olur.",
+    "Sikkeler sahipsiz sayılır; ilk bulan malik olur.",
+    "TMK m. 773 gereği 2863 sayılı Kanun uygulanır; bulan en geç üç gün içinde bildirmek zorundadır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bilimsel değeri olan sahipsiz doğal şeyler ile eski eserlerin bulunması hâlinde özel kanun hükümleri uygulanır (TMK m. 773). Bulanlar bunu en geç üç gün içinde en yakın müze müdürlüğüne, köyde muhtara ya da diğer yerlerde mülki idare amirlerine bildirmeye mecburdur (2863 sayılı Kanun m. 4/1). Korunması gerekli taşınır kültür varlıkları Devlet malıdır (2863 sayılı Kanun m. 5/1), taşınmaz malikinin olmaz."
+  },
+  {
+   "stem_md": "Leyla, 2.000 TL değerindeki kumaşı kendi kumaşı sanarak iyiniyetle işler ve bilirkişiye göre emeğinin değeri 15.000 TL olan bir elbise diker. Kumaş aslında Fatma'ya aittir. Hangisi doğrudur?",
+   "options": [
+    "Elbise Leyla ile Fatma'nın değerleri oranında paylı mülkiyetindedir.",
+    "Elbise Fatma'nındır; Leyla yalnız emeğinin bedelini isteyebilir.",
+    "Emeğin değeri kumaşın değerinden fazla olduğu için elbise işleyen Leyla'nındır; Fatma tazminat ve sebepsiz zenginleşme isteminde bulunabilir.",
+    "Hâkim, iyiniyetli olsa bile elbiseyi mutlaka Fatma'ya bırakır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Emeğin değeri o şeyin değerinden fazlaysa yeni şey işleyenin olur (TMK m. 775/1). Tazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır (TMK m. 775/3). Hâkimin yeni şeyi malike bırakabilmesi yalnız iyiniyetli olmayan işleyen için söz konusudur (TMK m. 775/2)."
+  },
+  {
+   "stem_md": "TMK m. 775/2'ye göre iyiniyetli olmayan bir kimse başkasına ait malzemeyi işler ve emeğinin değeri malzemenin değerinden daha fazladır. Hangisi doğrudur?",
+   "options": [
+    "Hâkim, yeni şeyi malike bırakabilir.",
+    "Yeni şey malik ile işleyen arasında yarı yarıya paylaştırılır.",
+    "Yeni şey kanun gereği iyiniyetsiz olsa da işleyenin olur.",
+    "Yeni şey kanun gereği her hâlde malikin olur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İşleyen iyiniyetli değilse, emeğin değeri işlenen şeyin değerinden daha fazla olsa bile hâkim yeni şeyi malike bırakabilir (TMK m. 775/2). Hükmün ifadesi \"bırakabilir\"dir; hâkime takdir verilmiştir. Zorunlu sonuç (\"her hâlde malikin olur\") yazılı değildir."
+  },
+  {
+   "stem_md": "Fatma ve Gül'ün 100'er litre zeytinyağı, bir depodaki hata yüzünden aynı tankta ayrılamaz biçimde karışır. Fatma'nın yağı çok daha yüksek kaliteli olduğundan değeri Gül'ün yağının değerinden fazladır. Hangisi doğrudur?",
+   "options": [
+    "Miktarlar eşit olduğundan her biri yarı yarıya paylı malik olur.",
+    "Fatma ve Gül, karışma zamanındaki değerleri oranında paylı malik olur.",
+    "Tank, daha değerli yağın maliki Fatma'nın olur.",
+    "Karışma sebebiyle tankın mülkiyeti sahipsiz hâle gelir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ayrılamayacak biçimde karışan taşınırların malikleri, yeni şey üzerinde kendi taşınırlarının karışma zamanındaki değerleri oranında paylı mülkiyete sahip olur (TMK m. 776/1). Ölçüt miktar değil değerdir; bu yüzden eşit litre eşit pay doğurmaz. Tazminat ve sebepsiz zenginleşme istemleri ayrıca saklıdır (TMK m. 776/3)."
+  },
+  {
+   "stem_md": "Başkasına ait bir vida, Can'ın motosikletine kaynakla sabitlenerek ikincil nitelikte bütünleyici parça olacak şekilde takılır. Hangisi doğrudur?",
+   "options": [
+    "Motosiklet sahipsiz hâle gelir.",
+    "Vida sahibi vidayı her zaman söktürüp geri alabilir.",
+    "Vida sahibi ile Can, değerleri oranında paylı malik olur.",
+    "Motosikletin tamamı ana parçanın maliki Can'a ait olur; vida sahibi tazminat ya da sebepsiz zenginleşme isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bir taşınır diğer bir taşınırla onun ikincil nitelikte bütünleyici parçası olacak şekilde birleşirse eşyanın tamamı ana parçanın malikine aittir (TMK m. 776/2). Bu hâlde paylı mülkiyet doğmaz. Tazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır (TMK m. 776/3)."
+  },
+  {
+   "stem_md": "Veli, Murat'tan bir kamera kiralar. Kira süresi bittikten sonra da kamerayı iade etmeyip sekiz yıl boyunca davasız ve aralıksız elinde tutar. Veli TMK m. 777'ye göre malik olabilir mi?",
+   "options": [
+    "Hayır; Veli kamerayı malik sıfatıyla zilyet olarak elinde tutmamıştır, bu nedenle süre ne kadar uzarsa uzasın TMK m. 777'nin şartları oluşmaz.",
+    "Evet, beş yıl dolduğu için malik olur.",
+    "Evet, ancak yalnız Murat dava açmamışsa.",
+    "Hayır; kazandırıcı zamanaşımı için on yıl gerekir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 777/1 malik sıfatıyla zilyetliği arar. Kiracı gibi fer'î zilyet malik sıfatıyla zilyet değildir (TMK m. 974/2). Bu yüzden süre uzasa da kazanma gerçekleşmez. Kamerayı iade etmesi gerektiğini bilen Veli ayrıca iyiniyetli de değildir. Taşınırda tek süre beş yıldır; on yıl taşınmazdaki olağan zamanaşımı süresidir (TMK m. 712)."
+  },
+  {
+   "stem_md": "Hakan, iyiniyetle ve malik sıfatıyla bir saati zilyetliğinde bulundurmaktadır. Dört yıl sonra saat Hakan'ın isteği dışında kaybolur; Hakan saatin yerini sekiz ay içinde bulup geri alır. Kazandırıcı zamanaşımı bakımından hangisi doğrudur?",
+   "options": [
+    "Hakan'ın dört yılı geçersiz sayılır; yeniden beş yıl dolması gerekir.",
+    "Zilyetlik kaybedildiği için süre başa döner.",
+    "Hakan'ın geri alması için mutlaka dava açması gerekir.",
+    "Hakan bir yıl içinde eşyayı ele geçirdiğinden zamanaşımı kesilmiş olmaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Zilyetliğin irade dışı kaybedilmesi hâlinde zilyet, bir yıl içinde eşyayı ele geçirir veya açacağı bir dava yoluyla onu yeniden elde ederse kazandırıcı zamanaşımı kesilmiş olmaz (TMK m. 777/2). Eşyayı ele geçirmek yeterlidir; dava açma zorunluluğu yoktur."
+  },
+  {
+   "stem_md": "Taşınır üzerindeki istihkak davası ile ilgili Yargıtay'ın yerleşik uygulamasına göre hangisi doğrudur?",
+   "options": [
+    "Taşınırdaki istihkak davası on yıllık zamanaşımına tabidir.",
+    "İstihkak davası, zilyetlik bir yıl kesintiye uğrayınca kendiliğinden düşer.",
+    "İstihkak davası zamanaşımına uğramaz; malikin hakkını ancak başkasının kazanması (ör. TMK m. 777 şartlarının gerçekleşmesi) ya da terk sona erdirir.",
+    "Taşınırdaki istihkak davası beş yıllık zamanaşımına tabidir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yargıtay'a göre aynen mevcut eşya için açılan istihkak davası ayni hak olan mülkiyete dayanır ve TMK m. 777-778'deki şartlar oluşmadıkça zamanaşımına uğramaz. Mülkiyeti sona erdiren, sürenin geçmesi değil, başkasının eşyayı kazanması ya da malikin onu terk etmesidir (TMK m. 778)."
+  },
+  {
+   "stem_md": "Selin'in saati 2017'de çalınır. Hakan saati Mart 2018'de bir tanıdığından satın alır; çalıntı olduğunu bilmesini gerektiren bir durum yoktur. Hakan saati o günden beri malik sıfatıyla, davasız ve aralıksız kullanır. Selin Haziran 2025'te istihkak davası açar. Hangisi doğrudur?",
+   "options": [
+    "Hakan iyiniyetli olduğu ve beş yıl davasız ve aralıksız malik sıfatıyla zilyet kaldığı için TMK m. 777/1 gereği malik olmuştur; dava reddedilir.",
+    "Saat çalıntı olduğundan TMK m. 777 hiçbir hâlde uygulanamaz.",
+    "Hakan saati yalnız kolluğa bildirmişse malik olabilir.",
+    "Selin'in mülkiyeti sonsuza dek devam ettiğinden davayı mutlaka kazanır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Başkasının taşınırını davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla zilyetliğinde bulunduran kimse zamanaşımı yoluyla malik olur (TMK m. 777/1). İyiniyet karinesi işler (TMK m. 3). Selin'in davası açıldığında beş yıl dolmuştur. Hakan saatin çalıntı olduğunu bilseydi iyiniyet şartı eksik kalır ve önceki zilyet her zaman dava açabilirdi (TMK m. 991/1)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Ayşe, 10.03.2020'de bir mahalle parkında değerli bir altın bilezik bulur. 12.03.2020'de en yakın karakola giderek bileziği bildirir ve teslim eder. Bileziğin sahibi ortaya çıkmaz. Bilezik karakolda iki yıl saklanır.\n\nAyşe'nin arkadaşı Burak, \"Bildirmesen de olurdu, nasıl olsa beş yıl sonra senin olurdu\" der. Ayşe ise bileziği bildirmiş olmaktan memnundur ve şunları merak eder.\n\n1. Ayşe'nin karakola bildirimi yeterli midir? Bilezik satılabilir mi?\n2. Ayşe ne zaman malik olur? Beş yıllık sürenin başlangıcı hangi tarihtir?\n3. Bileziğin sahibi ortaya çıkarsa Ayşe'nin hakları nelerdir?\n4. Ayşe bileziği kafede bulsaydı hukuki durum nasıl olurdu?\n5. Ayşe bileziği bildirmeyip kendi takısı olarak kullansaydı sonuç ne olurdu?",
+   "rubric": [
+    {
+     "point": "Değerli şeyde kolluğa ya da muhtara bildirimin her hâlde zorunlu olması ve Ayşe'nin bunu yapmış olması",
+     "weight": 15,
+     "madde_ref": "TMK m. 769"
+    },
+    {
+     "point": "Kolluk tarafından bir yıldan fazla saklanması nedeniyle satış imkânı; açık artırma ve satış bedelinin şeyin yerine geçmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 770"
+    },
+    {
+     "point": "Beş yıllık sürenin bildirim tarihinden (12.03.2020) başlaması; malik çıkmazsa Ayşe'nin mülkiyeti kazanması",
+     "weight": 20,
+     "madde_ref": "TMK m. 771"
+    },
+    {
+     "point": "Malik çıkarsa eşyanın iadesi; Ayşe'nin giderlerini ve uygun ödülü isteyebilmesi; ödül oranının kanunda yazılı olmaması",
+     "weight": 15,
+     "madde_ref": "TMK m. 771"
+    },
+    {
+     "point": "Kafede bulunursa işletmeciye teslim yükümlülüğü; işletmecinin bulan sayılması ama ödül isteyememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 769"
+    },
+    {
+     "point": "Bildirmeyen bulanın yükümlülüklerini yerine getirmemesi nedeniyle mülkiyeti kazanamaması ve TCK m. 160 bağlantısı",
+     "weight": 15,
+     "madde_ref": "TCK m. 160"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, kaybedilmiş bir eşyanın bulunmasına ilişkindir. Bilezik sahipsiz değildir; terk edilmemiş, kaybedilmiştir (TMK m. 778). Bu yüzden sahiplenme değil, bulunmuş eşya hükümleri uygulanır.\n\n**Hukuki sorunlar:** (1) Bulanın bildirim yükümlülüğü ve bileziğin satılabilmesi, (2) mülkiyetin kazanılması ve sürenin başlangıcı, (3) malik çıkarsa bulanın hakları, (4) yer sahibi hâli, (5) bildirmemenin sonuçları.\n\n**İlgili hükümler:** TMK m. 769, 770, 771, 778; TCK m. 160.\n\n**Değerlendirme:**\n\n*1. Bildirim ve satış:* Bulunan şey önemli ölçüde değerliyse kolluk kuvvetlerine veya muhtara bildirmek her hâlde gerekir (TMK m. 769/2). Ayşe 12.03.2020'de karakola bildirmiş ve bileziği teslim ettiğinden yükümlülüğünü yerine getirmiştir. Bilezik kolluk tarafından bir yıldan fazla saklandığı için satılabilir (TMK m. 770/2). Satış gerektiğinde önceden ilân edilerek açık artırma yoluyla yapılır ve satış bedeli bileziğin yerine geçer (TMK m. 770/3). Kanun \"satılabilir\" der; satış zorunlu değildir.\n\n*2. Mülkiyetin kazanılması:* Bulunan şeyin maliki ilân veya kolluk kuvvetlerine ya da muhtara bildirme tarihinden başlayarak beş yıl içinde ortaya çıkmazsa, bulan kimse yükümlülüklerini yerine getirmiş olmak koşuluyla mülkiyeti kazanır (TMK m. 771/1). Süre buluş tarihinden (10.03.2020) değil, bildirim tarihinden (12.03.2020) işler. Malik bu süre içinde çıkmazsa Ayşe bileziğin maliki olur.\n\n*3. Malik çıkarsa:* Bilezik malikine geri verilirse Ayşe yaptığı giderlerin ödenmesini ve uygun bir ödül verilmesini isteyebilir (TMK m. 771/2). Ödülün oranı kanunda yazılı olmadığı için bir yüzde vermek doğru olmaz; miktarı uygun ödül ölçüsüyle belirlenir.\n\n*4. Kafede bulunsaydı:* Oturulan bir evde, işyerinde ya da kamu hizmeti görülen yerde bir şey bulan kimse bunu yer sahibine veya kiracıya teslim etmek zorundadır (TMK m. 769/3). Yer sahibi, kiracı veya kurum şeyi bulan sayılır, ancak ödül isteyemez (TMK m. 771/3). Metin yalnız ödülü dışlar.\n\n*5. Bildirmeseydi:* Mülkiyetin kazanılması bulanın yükümlülüklerini yerine getirmesine bağlıdır (TMK m. 771/1). Ayşe bildirmeyip bileziği kullansaydı beş yıl geçse de bu yoldan malik olamazdı. Kaybedilmiş eşya üzerinde iade etmeksizin ya da yetkili mercileri haberdar etmeksizin malik gibi tasarruf eden kişi şikâyet üzerine bir yıla kadar hapis veya adlî para cezasıyla cezalandırılırdı (TCK m. 160/1).\n\n**Sonuç:**\n- Ayşe'nin bildirimi yeterlidir; bilezik bir yıldan fazla saklandığı için satılabilir.\n- Ayşe, malik 12.03.2020'den başlayarak beş yıl içinde çıkmazsa malik olur.\n- Malik çıkarsa Ayşe giderlerini ve uygun ödülü isteyebilir.\n- Kafede bulunsaydı işletmeciye teslim edilir, işletmeci bulan sayılır ama ödül isteyemezdi.\n- Bildirmese mülkiyeti kazanamaz, TCK m. 160 gündeme gelirdi."
+  },
+  {
+   "stem_md": "Ali, komşusu Can'ın izniyle Can'ın bahçesinde ağaç dikerken toprağın altında bir kutu bulur. Kutunun içinde altın paralar ve mücevherler vardır. Ali kutuyu Can'a gösterir; ikisi de eşyanın kime ait olduğunu tartışır. Ali \"Ben buldum, hepsi benim\" der. Can ise \"Bahçe benim, hepsi benim\" der.\n\nBir bilirkişi eşyayı inceler: Eşya çok uzun zaman önce gömülmüştür, malikinin artık bulunmadığı kesin olarak anlaşılmaktadır ve eşyada kültür varlığı niteliği yoktur.\n\nCan daha sonra \"Ya eşya birkaç yıl önce gömülmüş olsaydı, ya da antik sikkeler çıksaydı?\" diye sorar.\n\n1. Bilirkişi raporuna göre eşya kime aittir? Ali'nin bir talebi var mıdır?\n2. Eşyanın birkaç yıl önce gömüldüğü ve sahibinin araştırılabileceği anlaşılırsa hukuki durum nasıl olur?\n3. Kutudan antik dönemden kalma ve korunması gerekli sikkeler çıksaydı sonuç ne olurdu? Bildirim süresi ve ikramiye nasıldır?",
+   "rubric": [
+    {
+     "point": "Bilirkişi raporundaki özelliklerle eşyanın define sayılması",
+     "weight": 15,
+     "madde_ref": "TMK m. 772"
+    },
+    {
+     "point": "Define mülkiyetinin içinde bulunduğu taşınmazın maliki Can'a ait olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 772"
+    },
+    {
+     "point": "Ali'nin değerin yarısını aşmamak üzere uygun ödül isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 772"
+    },
+    {
+     "point": "Sahibi araştırılabilen eşyada define şartlarının bulunmaması; bulunmuş eşya hükümlerinin uygulanması",
+     "weight": 15,
+     "madde_ref": "TMK m. 769"
+    },
+    {
+     "point": "Antik sikkelerde TMK m. 773 gereği özel kanunun uygulanması; üç gün içinde bildirim yükümlülüğü",
+     "weight": 15,
+     "madde_ref": "2863 sayılı Kanun m. 4"
+    },
+    {
+     "point": "Korunması gerekli kültür varlığının Devlet malı olması ve Can'ın malik olmaması",
+     "weight": 10,
+     "madde_ref": "2863 sayılı Kanun m. 5"
+    },
+    {
+     "point": "Başkasının mülkünde bulunan varlıkta takdir olunacak bedelin %80'inin bulan ile mülk sahibi arasında yarı yarıya paylaştırılması",
+     "weight": 10,
+     "madde_ref": "2863 sayılı Kanun m. 64"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay bir hazine buluntusunun mülkiyetine ilişkindir. Önce eşyanın define mi, bulunmuş eşya mı, yoksa kültür varlığı mı olduğu belirlenmelidir; her üç ihtimalin sonucu farklıdır.\n\n**Hukuki sorunlar:** (1) Define koşulları ve mülkiyet, (2) bulanın ödül hakkı, (3) koşulların eksik olduğu hâlde eşyanın bulunmuş eşya sayılması, (4) kültür varlığı olduğunda özel kanunun uygulanması.\n\n**İlgili hükümler:** TMK m. 769, 771, 772, 773; 2863 sayılı Kanun m. 3, 4, 5, 64.\n\n**Değerlendirme:**\n\n*1. Define:* Bulunmalarından çok zaman önce gömülmüş veya saklanmış olan ve duruma göre artık malikinin bulunmadığı kesin olarak anlaşılan değerli şeyler define sayılır (TMK m. 772/1). Bilirkişi raporu bu üç unsuru (değerli olma, çok zaman önce gömülme, malikin bulunmadığının kesin olması) doğrulamaktadır. Eşyada bilimsel değer ya da kültür varlığı niteliği de yoktur. Bu durumda define, içinde bulunduğu taşınmaz veya taşınır malın malikinin olur (TMK m. 772/2). Mülkiyet bulana değil, bahçenin maliki Can'a geçer. Ali'nin \"ben buldum\" savı mülkiyet bakımından sonuç vermez. Ancak defineyi bulan kimse, değerinin yarısını aşmamak üzere uygun bir ödül isteyebilir (TMK m. 772/3). Ali'nin talebi mülkiyet değil ödüldür.\n\n*2. Birkaç yıl önce gömülmüşse:* Define için malikin artık bulunmadığının kesin olarak anlaşılması aranır (TMK m. 772/1). Sahibi araştırılabiliyorsa bu şart yoktur; eşya bulunmuş eşyadır. Ali bildirim yükümlülüğüne tabi olur: Eşya önemli ölçüde değerli olduğundan kolluk kuvvetlerine ya da muhtara bildirim her hâlde gereklidir (TMK m. 769/2). Malik bildirim tarihinden başlayarak beş yıl içinde çıkmazsa Ali yükümlülüklerini yerine getirmişse mülkiyeti kazanır (TMK m. 771/1). Burada mülkiyet define kuralıyla (TMK m. 772/2) kendiliğinden Can'a geçmez; bulunmuş eşya hükümleri uygulanır, fark budur.\n\n*3. Antik sikkeler:* Bilimsel değeri olan sahipsiz doğal şeyler ile eski eserlerin bulunması hâlinde özel kanun hükümleri uygulanır (TMK m. 773). Özel kanun 2863 sayılı Kanundur. Kültür varlıkları bu kanunun tanımına girer (2863 sayılı Kanun m. 3/a-1). Ali en geç üç gün içinde en yakın müze müdürlüğüne, köyde muhtara ya da diğer yerlerde mülki idare amirine bildirmek zorundadır (2863 sayılı Kanun m. 4/1). Korunması gerekli taşınır kültür varlıkları Devlet malıdır (2863 sayılı Kanun m. 5/1); Can malik olmaz. Süresinde bildirim yapılırsa varlık başkasının mülkü içinde bulunduğundan Kültür ve Turizm Bakanlığınca takdir olunacak bedelin %80'i ikramiye olarak bulan ile mülk sahibi arasında yarı yarıya paylaştırılır (2863 sayılı Kanun m. 64/b). Yani Ali ve Can'ın her birine bedelin %40'ı düşer; bu basit bir hesaptır.\n\n**Sonuç:**\n- Bilirkişi raporuna göre eşya define olup Can'ındır; Ali değerin yarısını aşmamak üzere uygun ödül isteyebilir.\n- Eşyanın sahibi araştırılabiliyorsa define şartları yoktur; bulunmuş eşya hükümleri ve beş yıllık süre uygulanır.\n- Antik sikkelerde 2863 sayılı Kanun uygulanır; üç gün içinde bildirim zorunludur, sikkeler Devlet malıdır, ikramiye yarı yarıya paylaşılır."
+  },
+  {
+   "stem_md": "Heykeltıraş Emre, Burak'la ortak kullandığı atölyede duran mermer bloğu kendi bloğu sanarak iyiniyetle işler ve bir heykel yapar. Bloğun değeri 5.000 TL'dir. Bilirkişi Emre'nin emeğinin değerini 40.000 TL olarak belirler. Burak heykelin kendisine ait olduğunu iddia eder.\n\nAynı atölyenin depo bölümünde Fatma'nın 30.000 TL değerindeki zeytinyağı ile Gül'ün 20.000 TL değerindeki zeytinyağı, depodaki bir hata yüzünden aynı tankta ayrılamaz biçimde karışır. Fatma tankın tamamının kendisine ait olduğunu söyler.\n\nÜçüncü olarak, Selin'in saati 2017'de çalınır. Hakan saati Mart 2018'de bir tanıdığından satın alır; çalıntı olduğunu bilmesi için bir sebep yoktur. Hakan o günden beri saati malik sıfatıyla, davasız ve aralıksız kullanır. Selin Haziran 2025'te istihkak davası açar.\n\n1. Heykelin mülkiyeti kime aittir? Emre bloğun Burak'a ait olduğunu bilseydi sonuç değişir miydi? Burak'ın başka bir hakkı var mıdır?\n2. Zeytinyağı tankı kime aittir?\n3. Selin'in davası kabul edilir mi? Hakan saatin çalıntı olduğunu bilseydi sonuç ne olurdu?",
+   "rubric": [
+    {
+     "point": "Emeğin değerinin malzemeden fazla olması nedeniyle yeni şeyin (heykelin) işleyen Emre'ye ait olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 775"
+    },
+    {
+     "point": "İyiniyetsiz işleyende hâkimin yeni şeyi malike bırakabilmesi; sonucun zorunlu değil, takdire bağlı olması",
+     "weight": 10,
+     "madde_ref": "TMK m. 775"
+    },
+    {
+     "point": "Burak'ın tazminat ve sebepsiz zenginleşme istemlerinin saklı olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 77"
+    },
+    {
+     "point": "Ayrılamaz karışmada tarafların paylı malik olması ve payların karışma zamanındaki değerlere göre belirlenmesi; Fatma'nın tankın tamamını isteyememesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 776"
+    },
+    {
+     "point": "Hakan'ın iyiniyetli, malik sıfatıyla, davasız ve aralıksız beş yıl zilyetliği nedeniyle malik olması; davanın reddi",
+     "weight": 25,
+     "madde_ref": "TMK m. 777"
+    },
+    {
+     "point": "Kötüniyetli zilyede karşı önceki zilyedin her zaman dava açabilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 991"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Üç ayrı taşınır mülkiyeti kazanma yolu söz konusudur: işleme, karışma ve kazandırıcı zamanaşımı. Her birinde sorun, eşyanın kime ait olduğudur.\n\n**Hukuki sorunlar:** (1) İşleme sonucu yeni şeyin maliki, (2) ayrılamaz karışmada mülkiyet biçimi ve pay oranı, (3) çalıntı saatte zamanaşımı ile mülkiyet kazanımı.\n\n**İlgili hükümler:** TMK m. 775, 776, 777, 3, 974, 991; TBK m. 77, 49.\n\n**Değerlendirme:**\n\n*1. İşleme:* Bir kimse başkasına ait bir şeyi işler veya başka bir şekle sokarsa, emeğin değerinin o şeyin değerinden fazla olması hâlinde yeni şey işleyenin, aksi hâlde malikin olur (TMK m. 775/1). Emre mermeri işlemiş ve yeni bir şey (heykel) ortaya çıkarmıştır. Emeğin değeri 40.000 TL, malzemenin değeri 5.000 TL olduğundan emeğin değeri fazladır; heykel Emre'nindir. Emre bloğun Burak'a ait olduğunu bilseydi iyiniyetli olmayan işleyen konumunda olurdu. Bu hâlde, emeğin değeri daha fazla olsa bile hâkim yeni şeyi malike bırakabilirdi (TMK m. 775/2). Dikkat: Kanun \"bırakabilir\" der; heykelin zorunlu olarak Burak'a geçeceği söylenemez. Burak mülkiyeti kaybetse de tazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır (TMK m. 775/3); sebepsiz zenginleşme için TBK m. 77/1, tazminat için TBK m. 49/1 gündeme gelir.\n\n*2. Karışma:* Birden çok kişinin taşınır malları önemli bir zarara uğratılmadan veya aşırı emek ve para harcanmadan ayrılmayacak şekilde karışmışsa, bu kişiler yeni şey üzerinde kendi taşınırlarının karışma zamanındaki değerleri oranında paylı mülkiyete sahip olur (TMK m. 776/1). Zeytinyağları tankta ayrılamaz biçimde karışmıştır. Fatma tankın tamamının kendisine ait olduğunu söyleyemez; Fatma ve Gül paylı maliktir. Payların oranı karışma zamanındaki değerlere göredir: 30.000 TL ve 20.000 TL değerleri oranında, yani 3/5 ve 2/5 (bu oran basit bir hesaptır). Tazminat ve sebepsiz zenginleşme istemleri ayrıca saklıdır (TMK m. 776/3).\n\n*3. Kazandırıcı zamanaşımı:* Başkasının taşınır malını davasız ve aralıksız beş yıl iyiniyetle ve malik sıfatıyla zilyetliğinde bulunduran kimse zamanaşımı yoluyla malik olur (TMK m. 777/1). Hakan saati satın aldığı için malik sıfatıyla zilyettir (TMK m. 974/2); çalıntı olduğunu bilmesi için bir sebep olmadığından iyiniyetlidir ve iyiniyetin varlığı asıldır (TMK m. 3). Mart 2018'den Haziran 2025'e kadar yedi yılı aşkın süre davasız ve aralıksız zilyetlik vardır; beş yıllık süre dolmuştur. Hakan malik olmuştur; Selin'in istihkak davası reddedilir. Burada çalınan eşyada dava hakkının süresi ile TMK m. 777'nin ilişkisi doktrinde tartışmalıdır; ancak olayın tarihleri hangi başlangıç alınırsa alınsın beş yılın dolduğunu göstermektedir. Hakan saatin çalıntı olduğunu bilseydi iyiniyet şartı olmayacak, TMK m. 777 işlemeyecekti. İyiniyetle edinmemiş kimseye karşı önceki zilyet her zaman taşınır davası açabilir (TMK m. 991/1); Selin'in davası kabul edilirdi.\n\n**Sonuç:**\n- Heykel Emre'nindir. Emre kötüniyetli olsaydı hâkim heykeli Burak'a bırakabilirdi. Burak'ın tazminat ve sebepsiz zenginleşme istemleri saklıdır.\n- Tank Fatma ve Gül'ün paylı mülkiyetindedir; pay oranı değerlerine göredir.\n- Hakan TMK m. 777/1 gereği malik olmuştur, Selin'in davası reddedilir. Hakan saatin çalıntı olduğunu bilseydi Selin dava açabilir ve davası kabul edilirdi."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Sahiplenmenin unsurları nelerdir? (TMK m. 767)",
+   "back_md": "Sahipsiz bir taşınır ve onu malik olmak iradesiyle zilyetliğe geçirme. Bu iki unsur varsa zilyet malik olur."
+  },
+  {
+   "front_md": "Terk ile kayıp arasındaki fark?",
+   "back_md": "Terk edilen taşınır sahipsiz olur, TMK m. 767 ile sahiplenilebilir. Kaybedilen eşya sahipsiz değildir; bulan TMK m. 769-771'e tabidir (TMK m. 778)."
+  },
+  {
+   "front_md": "Av hayvanı hangi hâlde sahipsiz olur?",
+   "back_md": "Yeniden serbest kalır ve sahibi onu gecikmeksizin ve ara vermeksizin aramaz ve tekrar tutmak için uğraşmazsa (TMK m. 768/1)."
+  },
+  {
+   "front_md": "Arı oğulunda iki ayrı kural?",
+   "back_md": "Başkasının taşınmazına uçan oğul sahipsiz olmaz (TMK m. 768/3). Başkasının kovanına göçen oğul bedelsiz kovan malikinin olur (TMK m. 774/2)."
+  },
+  {
+   "front_md": "TMK'nın bulunmuş eşya başlığı?",
+   "back_md": "Kanun başlığı 'Bulunmuş eşya'dır. 'Buluntu' TMK metninde geçmeyen, öğretide kullanılan terimdir."
+  },
+  {
+   "front_md": "Bulanın bildirim yükümlülüğü? (TMK m. 769/1)",
+   "back_md": "Sahibine, bilmiyorsa kolluğa (köylerde muhtara) bildirmek VEYA araştırma yapmak ve gerektiğinde ilân etmek. Seçimlik yoldur."
+  },
+  {
+   "front_md": "Önemli ölçüde değerli şey bulunursa?",
+   "back_md": "Kolluk kuvvetlerine ya da muhtara bildirim her hâlde gereklidir (TMK m. 769/2)."
+  },
+  {
+   "front_md": "Ev, işyeri ya da kamu hizmeti yerinde bulunan şey?",
+   "back_md": "Yer sahibine, kiracıya veya görevlilere teslim edilir (TMK m. 769/3). Yer sahibi, kiracı veya kurum bulan sayılır ama ödül isteyemez (TMK m. 771/3)."
+  },
+  {
+   "front_md": "Bulunan şey hangi hâllerde satılabilir?",
+   "back_md": "Aşırı gider, çabuk bozulma ya da kolluk/kamu kurumunca bir yıldan fazla saklanma. Satış bedeli şeyin yerine geçer (TMK m. 770/2-3)."
+  },
+  {
+   "front_md": "Bulan ne zaman malik olur? (TMK m. 771/1)",
+   "back_md": "Malik, ilân veya bildirim tarihinden başlayarak beş yıl içinde çıkmazsa, bulan yükümlülüklerini yerine getirmişse malik olur."
+  },
+  {
+   "front_md": "Beş yıl hangi tarihten işler?",
+   "back_md": "İlân veya kolluğa/muhtara bildirme tarihinden; buluş gününden değil (TMK m. 771/1)."
+  },
+  {
+   "front_md": "Eşya malikine verilirse bulanın hakkı?",
+   "back_md": "Giderlerin ödenmesini ve uygun bir ödül istemek (TMK m. 771/2). Ödül oranı kanunda yazılı değildir."
+  },
+  {
+   "front_md": "Define nedir? (TMK m. 772/1)",
+   "back_md": "Bulunmalarından çok zaman önce gömülmüş ya da saklanmış, malikinin artık bulunmadığı kesin olarak anlaşılan değerli şeylerdir."
+  },
+  {
+   "front_md": "Define kimin olur, bulan ne ister?",
+   "back_md": "İçinde bulunduğu taşınmaz ya da taşınır malın malikinin olur (TMK m. 772/2). Bulan değerin yarısını aşmamak üzere uygun ödül isteyebilir (TMK m. 772/3)."
+  },
+  {
+   "front_md": "Eski eser ve bilimsel değerli şeyde hangi kanun uygulanır?",
+   "back_md": "TMK m. 773 gereği özel kanun, yani 2863 sayılı Kanun. Bildirim en geç üç gün içinde (2863 sayılı Kanun m. 4/1); korunması gerekli varlıklar Devlet malı (2863 sayılı Kanun m. 5/1)."
+  },
+  {
+   "front_md": "Başkasının mülkünde bulunan kültür varlığında ikramiye?",
+   "back_md": "Takdir olunacak bedelin %80'i bulan ile mülk sahibi arasında yarı yarıya paylaştırılır. Devlet arazisinde bedelin %40'ı bulana verilir (2863 sayılı Kanun m. 64/b-c)."
+  },
+  {
+   "front_md": "Doğal güçlerle egemenlik alanına giren taşınır? (TMK m. 774/1)",
+   "back_md": "O alanın sahibi, kaybolan eşyayı bulanın haklarına sahip ve yükümlülüklerine tabi olur."
+  },
+  {
+   "front_md": "İşlemede yeni şey kimin olur? (TMK m. 775/1)",
+   "back_md": "Emeğin değeri şeyin değerinden fazlaysa işleyenin, aksi hâlde (eşitlik dahil) malikin olur."
+  },
+  {
+   "front_md": "İyiniyetsiz işleyende hâkimin yetkisi?",
+   "back_md": "Emeğin değeri daha fazla olsa bile hâkim yeni şeyi malike bırakabilir (TMK m. 775/2). 'Bırakabilir'; zorunlu değildir."
+  },
+  {
+   "front_md": "Karışmada paylı mülkiyet oranı neye göre?",
+   "back_md": "Ayrılamayacak biçimde karışan taşınırların malikleri, karışma zamanındaki değerleri oranında paylı malik olur. Miktara değil değere bakılır (TMK m. 776/1)."
+  },
+  {
+   "front_md": "İkincil bütünleyici parça olacak şekilde birleşme?",
+   "back_md": "Eşyanın tamamı ana parçanın malikine ait olur; paylı mülkiyet doğmaz (TMK m. 776/2)."
+  },
+  {
+   "front_md": "İşleme ve karışmada saklı haklar?",
+   "back_md": "Tazminat ve sebepsiz zenginleşmeden doğan istem hakları saklıdır (TMK m. 775/3 ve TMK m. 776/3)."
+  },
+  {
+   "front_md": "Taşınırda kazandırıcı zamanaşımı şartları? (TMK m. 777/1)",
+   "back_md": "Başkasının taşınırı; davasız ve aralıksız beş yıl; iyiniyet; malik sıfatıyla zilyetlik. Olağan/olağanüstü ayrımı yoktur."
+  },
+  {
+   "front_md": "Zilyetliğin irade dışı kaybında zamanaşımı?",
+   "back_md": "Zilyet bir yıl içinde eşyayı ele geçirir veya dava yoluyla yeniden elde ederse zamanaşımı kesilmiş olmaz (TMK m. 777/2)."
+  },
+  {
+   "front_md": "Taşınır istihkak davası zamanaşımına uğrar mı?",
+   "back_md": "Hayır. Malikin hakkını başkasının kazanması (TMK m. 777) ya da terk (TMK m. 778) sona erdirir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

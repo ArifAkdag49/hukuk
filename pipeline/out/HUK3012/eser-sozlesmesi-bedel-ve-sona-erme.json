@@ -1,0 +1,733 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Eser ve Yayım Sözleşmeleri",
+ "topic_index": 2,
+ "slug": "eser-sozlesmesi-bedel-ve-sona-erme",
+ "title": "Eser Sözleşmesi II: Bedel (Götürü ve Yaklaşık), Eserin Yok Olması ve Sözleşmenin Sona Ermesi",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:20:15.596977+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/eser-sozlesmesi-ayip-temerrut"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Eser sözleşmesinde işsahibi bedeli ne zaman ve ne kadar öder, bedel değişir mi, eser teslimden önce yok olursa zarar kimde kalır ve sözleşme hangi yollarla sona erer? Sonunda bu kuralların en çok uygulandığı alan olan arsa payı (kat) karşılığı inşaat sözleşmesi gelir.\n\n- **Muacceliyet (TBK m. 479):** İşsahibinin bedel borcu eserin teslimi anında muaccel olur. Parça parça teslim ve bedel parçalara göre belirlenmişse her parçanın bedeli onun tesliminde muaccel olur. Taraflar avans ya da hakediş gibi başka bir düzen kararlaştırabilir.\n- **Götürü bedel (TBK m. 480):** Üç kural. (1) Eser fazla emek ve masraf gerektirse bile yüklenici bedelin artırılmasını isteyemez. (2) Eser az emek ve masraf gerektirse bile işsahibi bedelin tamamını öder. (3) Başlangıçta öngörülemeyen (ya da öngörülebilip göz önünde tutulmayan) durumlar eserin yapılmasını engeller veya son derece güçleştirirse yüklenici önce hâkimden uyarlama ister; bu mümkün değilse ya da karşı taraftan beklenemezse sözleşmeden döner; dürüstlük kuralı gerektiriyorsa yalnız feshedebilir.\n- **Değere göre bedel (TBK m. 481):** Bedel belirlenmemiş ya da yaklaşık belirlenmişse, yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine bakılır.\n- **Yaklaşık bedelin aşılması (TBK m. 482):** İşsahibinin kusuru olmadan bedel aşırı ölçüde aşılacaksa işsahibi (eser tamamlanmadan ya da sonra) sözleşmeden dönebilir. Eser işsahibinin arsası üzerindeyse bedelden uygun indirim isteyebilir; eser henüz tamamlanmamışsa yükleniciyi işten alıkoyup tamamlanan kısım için hakkaniyete uygun bedel ödeyerek feshedebilir.\n- **Eserin yok olması (TBK m. 483):** Teslimden önce beklenmedik olayla yok olursa, işsahibi teslim almada temerrüde düşmedikçe yüklenici ücret ve gider isteyemez; malzemeye gelen hasar onu sağlayana aittir. Yok olma işsahibinin verdiği malzemenin, gösterdiği arsanın ayıbından ya da talimatından doğmuşsa ve yüklenici zamanında bildirmişse yüklenici yaptığı işin değerini ve giderlerini ister; işsahibi kusurluysa ayrıca zararını da.\n- **Tazminat karşılığı fesih (TBK m. 484):** İşsahibi, yapılan kısmın karşılığını ödeyip yüklenicinin bütün zararlarını gidermek koşuluyla sözleşmeyi feshedebilir.\n- **İşsahibi yüzünden imkânsızlık (TBK m. 485):** Tamamlanma, işsahibiyle ilgili beklenmedik olayla imkânsızlaşırsa yüklenici yaptığı işin değerini ve giderlerini ister; işsahibi kusurluysa ayrıca tazminat.\n- **Yüklenicinin ölümü (TBK m. 486):** Kişisel özellikleri göz önünde tutulmuş sözleşme, yüklenicinin ölümü ya da kusursuz yetenek kaybıyla kendiliğinden sona erer; işsahibi tamamlanan kısımdan yararlanabilecekse onu kabul eder ve karşılığını öder.\n- **Arsa payı karşılığı inşaat:** Eser sözleşmesi ile taşınmaz devir vaadini birleştiren karma sözleşmedir; resmî şekle tabidir (TMK m. 706 ve TBK m. 237). Adi yazılı olsa da arsa payı tapuda yükleniciye devredilmişse ya da ifa önemli ölçüde yapılmışsa şekil eksikliği ileri sürülemez (TMK m. 2). Yüklenicinin temerrüdünde kural geriye etkili dönmedir; inşaat büyük ölçüde tamamlanmışsa yalnız ileriye etkili fesih mümkündür.\n- 📌 **Yeni:** Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'nun 16 Mayıs 2025 tarihli kararıyla \"avans tapu\" görüşünden dönülmüştür. Geriye etkili fesihte yükleniciden pay ya da bağımsız bölüm alan iyiniyetli üçüncü kişinin kazanımı korunur (TMK m. 3 ve TMK m. 1023); arsa sahibi üçüncü kişinin iktisap anındaki kötüniyetini ispatlamalıdır.",
+  "content_md": "## 0. Konunun haritası\n\nKonu 20'de yüklenicinin borçlarını, ayıplı ifayı ve işsahibinin seçimlik haklarını gördük. Bu konu eser sözleşmesinin **parasal ve sona erme** tarafıdır: İşsahibi ne zaman ve ne kadar öder? Bedel değişir mi? Eser teslimden önce yok olursa zararı kim yüklenir? Sözleşme hangi yollarla biter? Sonunda bu kuralların uygulamada en çok karşımıza çıktığı alan olan **arsa payı (kat) karşılığı inşaat sözleşmesi** var.\n\n| Madde | Konu | Anahtar |\n|---|---|---|\n| TBK m. 479 | Bedelin muacceliyeti | Teslim anı |\n| TBK m. 480 | Götürü bedel | Artırım ve indirim yasağı, uyarlama |\n| TBK m. 481 | Değere göre bedel | Yer, zaman, değer |\n| TBK m. 482 | Yaklaşık bedelin aşılması | Dönme, indirim, fesih |\n| TBK m. 483 | Eserin yok olması | Hasar kimde? |\n| TBK m. 484 | Tazminat karşılığı fesih | Bütün zararlar |\n| TBK m. 485 | İşsahibi yüzünden imkânsızlık | Yapılan işin değeri |\n| TBK m. 486 | Yüklenicinin ölümü | Kendiliğinden sona erme |\n\nOlay sorusunda sırayla sor: (1) Bedel hangi türden? (2) Bedel değişebilir mi? (3) Eser yok olduysa sebep kimin alanında? (4) Sözleşme nasıl sona eriyor ve kim hangi alacağı isteyebilir?\n\n> ⚠️ **Sınavda dikkat:** Yüklenicinin gecikmesi ve ayıplı ifa bu konunun dışındadır; dönme ve seçimlik haklar için TBK m. 473 ve TBK m. 475 (Konu 20) aranır. Bu konuda bedel, yok olma ve sona erme hâlleri işlenir.\n\n## 1. Bedelin muacceliyeti (TBK m. 479)\n\n**Muacceliyet**, borcun ifasının istenebilir hâle gelmesidir. TBK m. 479/1'e göre işsahibinin bedel ödeme borcu **eserin teslimi anında** muaccel olur. Kural şudur: Önce yüklenici eseri tamamlar ve teslim eder, sonra ödeme istenir. Yüklenici bu yüzden işin finansmanını başta kendi üstlenir.\n\nEserin parça parça teslimi kararlaştırılmış ve bedel de parçalara göre belirlenmişse, **her parçanın bedeli o parçanın teslimi anında** muaccel olur (TBK m. 479/2).\n\nBu düzen taraflarca değiştirilebilir. İnşaat işlerinde sık görülen **avans** (işe başlarken yapılan ön ödeme) ve **hakediş** (yapılan işin oranına göre düzenlenen ara ödeme belgesi) böyle bir sözleşme düzenidir. Böyle bir anlaşma yoksa kanundaki kural işler.\n\n> **Örnek:** X A.Ş., yüklenici Mehmet Ltd. Şti. ile beş etaplı bir fabrika binası için etap başına 100.000 TL belirleyen sözleşme yapar. Mehmet Ltd. 1. etabı teslim ettiğinde o etabın 100.000 TL'si muaccel olur; diğer etapların bedeli kendi tesliminde muaccel olur (TBK m. 479/2).\n\n## 2. Bedel türleri\n\n| Tür | Anlamı | Hüküm |\n|---|---|---|\n| Götürü bedel | Eserin tamamı için baştan kesin belirlenmiş toplam | TBK m. 480 |\n| Yaklaşık bedel | Tahmini belirlenmiş, aşılabilecek bedel | TBK m. 481 ve TBK m. 482 |\n| Belirlenmemiş bedel | Hiç konuşulmamış | TBK m. 481 |\n\n### 2.1 Götürü bedel (TBK m. 480)\n\n**Götürü bedel**, eserin tamamı için baştan kesin olarak kararlaştırılan toplam bedeldir. Üç kural vardır.\n\n1. **Artırım yasağı (TBK m. 480/1):** Eser öngörülenden fazla emek ve masraf gerektirmiş olsa bile yüklenici bedelin artırılmasını isteyemez. Maliyet riskini götürü bedeli kabul eden yüklenici taşır.\n2. **İndirim yasağı (TBK m. 480/3):** Eser öngörülenden az emek ve masraf gerektirmiş olsa bile işsahibi bedelin tamamını öder. Tasarruftan doğan kazanç yüklenicinin olur.\n3. **Uyarlama istisnası (TBK m. 480/2):** İki simetrik yasağın dışında dar bir kapı vardır.\n\n> **Örnek:** Selim, Çeşme'deki arsasına villa yapılması için Demir Ltd. Şti. ile 5.000.000 TL götürü bedelli sözleşme yapar. Demir inşaatı 5.800.000 TL'ye mal ederse farkı isteyemez (TBK m. 480/1). Villa Demir'e 4.200.000 TL'ye mal olursa Selim yine 5.000.000 TL öder (TBK m. 480/3).\n\n**Uyarlama (TBK m. 480/2).** Aşağıdaki iki koşul birlikte gerçekleşmelidir:\n- Başlangıçta **öngörülemeyen** ya da öngörülebilir olduğu hâlde **taraflarca göz önünde tutulmayan** durumlar ortaya çıkmış olmalı;\n- bu durumlar, kararlaştırılan götürü bedelle eserin yapılmasına **engel olmalı** veya onu **son derece güçleştirmeli**.\n\nBu hâlde yüklenicinin hakları **sıralıdır:**\n1. Önce **hâkimden sözleşmenin yeni koşullara uyarlanmasını** ister.\n2. Uyarlama mümkün değilse ya da karşı taraftan beklenemezse **sözleşmeden döner.**\n3. Dürüstlük kuralları gerektiriyorsa yalnız **fesih** hakkını kullanabilir.\n\n**Dönme** geriye etkilidir; taraflar karşılıklı olarak ifa borcundan kurtulur ve verdiklerini geri isteyebilir (TBK m. 125/3). **Fesih** ileriye etkilidir; o ana kadar yapılan iş ve ödemeler olduğu gibi kalır. Dürüstlük kuralı çoğunlukla işin önemli bölümü yapılmışken geriye dönük tasfiyenin hakkaniyete aykırı kalacağı durumlarda feshi öne çıkarır.\n\nTBK m. 480/2, genel uyarlama kuralı olan TBK m. 138'in eser sözleşmesindeki özel görünümüdür. Bu nedenle kolay kolay uygulanmaz.\n\n> ⚠️ **Sınavda dikkat:** Yüklenici \"malzeme pahalandı\" diyerek doğrudan zam isteyemez. Olağan fiyat dalgalanması, eserin yapılmasını son derece güçleştirmediği sürece TBK m. 480/2 kapsamına girmez. Uyarlama istemek ve mümkün değilse dönmek sıralı hakdır; yüklenici doğrudan dönemez.\n\n**Götürü bedel neyi kapsar?** Götürü bedel, sözleşmede ve projede yer alan işleri kapsar. İşsahibi sonradan kapsam dışında ilave bir iş isterse bunun bedeli ayrıca belirlenir; ölçü TBK m. 481'dir. Fiyat farkı ya da ilave iş itirazı olan yüklenici, hakedişleri **ihtirazi kayıt** (haklarını saklı tuttuğunu belirten kayıt) koymadan imzalamamalıdır. Yargıtay'ın onadığı bir kararda 24 hakedişin ihtirazi kayıtsız alınması, fiyat farkı talebinin reddini destekleyen gerekçelerden biri olmuştur (kararlar bölümüne bak).\n\n### 2.2 Değere göre bedel (TBK m. 481)\n\nEserin bedeli **önceden belirlenmemişse ya da yaklaşık olarak belirlenmişse** bedel, **yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine** bakılarak belirlenir (TBK m. 481). Yer ve zaman vurgusu önemlidir: Ölçü, sözleşmenin yapıldığı gün değil, işin yapıldığı yer ve zamandaki rayiçtir.\n\n> **Örnek:** Ayşe, bahçesine yüzme havuzu yaptırmak için müteahhit Ali'yle bedeli konuşmadan anlaşır. Havuz bittikten sonra bedel, havuzun yapıldığı yer ve zamandaki değerine ve Ali'nin giderine göre belirlenir (TBK m. 481).\n\n### 2.3 Yaklaşık bedelin aşılması (TBK m. 482)\n\nYaklaşık bedel bağlayıcı bir üst sınır değildir. Ama bedel **aşırı ölçüde** aşılacaksa işsahibine koruma tanınır. Şartlar:\n1. Bedel başlangıçta **yaklaşık olarak** belirlenmiş olmalı;\n2. aşım **işsahibinin kusuru olmaksızın** ortaya çıkmış olmalı;\n3. bedelin **aşırı ölçüde aşılacağı** anlaşılmış olmalı.\n\n| Durum | İşsahibinin hakkı |\n|---|---|\n| Her eser; tamamlanmadan ya da sonra | Sözleşmeden dönme (TBK m. 482/1) |\n| Eser işsahibinin arsasında | Bedelden uygun miktarda indirim (TBK m. 482/2) |\n| İşsahibinin arsasında ve tamamlanmamış | Yükleniciyi işten alıkoyup tamamlanan kısım için hakkaniyete uygun bedel ödeyerek fesih (TBK m. 482/2) |\n\n> **Örnek:** Zeynep, kendi arsasında 3.000.000 TL yaklaşık bedelle ev yaptırır. Yapı yarıya gelince, kendi kusuru olmadan maliyetin 5.500.000 TL'yi bulacağı anlaşılır. Zeynep yükleniciyi işe devamdan alıkoyabilir ve yapılan kısım için hakkaniyete uygun bir bedel ödeyerek sözleşmeyi feshedebilir (TBK m. 482/2).\n\n| | Götürü bedel | Yaklaşık bedel |\n|---|---|---|\n| Bedel artarsa | Yüklenici isteyemez | Aşırıysa işsahibi dönebilir |\n| Bedel azalırsa | İşsahibi tamamını öder | Gerçek değere göre |\n| Yüklenici için çıkış | Uyarlama, dönme, fesih | Yok |\n\n> 💡 **Püf nokta:** Götürü bedelde koruma **yükleniciye** (TBK m. 480/2), yaklaşık bedelde **işsahibine** (TBK m. 482) tanınmıştır. Hangi tarafın korunduğuna bakarak hükmü hatırla.\n\n## 3. Eserin yok olması (TBK m. 483)\n\n### 3.1 Kural: Teslimden önce risk yüklenicide (TBK m. 483/1)\nEser **teslimden önce beklenmedik olay** sonucu yok olursa (yıldırım, sel gibi, kimsenin kusuruna dayanmayan bir olay):\n- İşsahibi eseri teslim almada **temerrüde düşmedikçe** yüklenici yaptığı işin ücretini ve giderlerini isteyemez.\n- **Malzemeye gelen hasar, onu sağlayana aittir.**\n\nKanunun metninin karşıt anlamı da şudur: İşsahibi teslim almada temerrüde düşmüşse bu kural uygulanmaz ve yüklenici ücret isteyebilir.\n\n> **Örnek:** Marangoz Mehmet, Zeynep'in verdiği 400.000 TL değerindeki ceviz keresteden 150.000 TL ücretle yemek odası takımı yapmayı üstlenir. Teslimden önce atölyeye yıldırım düşer, takım yanar. Zeynep teslim almada temerrüde düşmemiştir. Mehmet ücreti ve giderlerini isteyemez. Kereste Zeynep tarafından sağlandığı için kerestenin kaybı da Zeynep'tedir (TBK m. 483/1).\n\n### 3.2 Sebep işsahibinin alanındaysa (TBK m. 483/2)\nEser şu sebeplerden biriyle yok olursa kural değişir:\n- işsahibince verilen **malzemenin ayıbı**,\n- işsahibince gösterilen **arsanın ayıbı**,\n- **işsahibinin talimatına uygun yapılması.**\n\n**Şart:** Yüklenici, doğabilecek olumsuz sonuçları **zamanında bildirmiş** olmalıdır. Sonuç: Yüklenici **yaptığı işin değerini ve bu değere girmeyen giderlerini** isteyebilir. İşsahibi ayrıca kusurluysa yüklenici **zararının giderilmesini** de ister.\n\n> **Örnek:** Müteahhit Kemal, yamaçtaki arsada kayma riski olduğunu Zeynep'e hemen yazılı bildirir. Zeynep istinat duvarının aynı yerde yapılmasında ısrar eder, duvar tamamlanmadan yıkılır. Kemal yaptığı işin değerini ve bu değere girmeyen giderlerini isteyebilir (TBK m. 483/2). Bildirmeseydi bu koruma ona tanınmazdı.\n\n| Yok olmanın sebebi | Sonuç |\n|---|---|\n| Beklenmedik olay, teslimden önce (TBK m. 483/1) | Yüklenici ücret ve gider isteyemez; malzeme hasarı sağlayana ait |\n| İşsahibinin alanındaki sebep + zamanında bildirim (TBK m. 483/2) | Yapılan işin değeri ve giderler; işsahibi kusurluysa zarar da |\n\n> 💡 **Püf nokta:** Teslimden önce risk kural olarak yüklenicidedir. Sebep işsahibinin malzemesinde, arsasında ya da talimatındaysa risk işsahibine kayar; ama yüklenicinin bildirim yapması şarttır.\n\n## 4. Tazminat karşılığı fesih (TBK m. 484)\n\nİşsahibi, eserin tamamlanmasından önce, **yapılmış olan kısmın karşılığını ödemek** ve **yüklenicinin bütün zararlarını gidermek** koşuluyla sözleşmeyi feshedebilir (TBK m. 484). Fesih için bir sebep gösterilmesi gerekmez; vazgeçmenin bedeli ödenir. \"Bütün zararlar\" kural olarak yüklenicinin yapılmayan kısımdan beklediği kazancı da kapsar; hesap şekli doktrinde tartışmalıdır.\n\n> **Örnek:** Burak, sipariş ettiği yatın yapımından vazgeçer. Tersane, yapılan kısmın karşılığını ve bütün zararını Burak'tan alarak sözleşmeyi sona erdirir (TBK m. 484).\n\n| | TBK m. 482/2 | TBK m. 484 |\n|---|---|---|\n| Şart | Yaklaşık bedel aşırı aşılıyor, arsa işsahibinin | Ayrı bir sebep aranmaz |\n| İşsahibi öder | Tamamlanan kısım için hakkaniyete uygun bedel | Yapılan kısmın karşılığı ve bütün zararlar |\n\n> ⚠️ **Sınavda dikkat:** İki fesih hakkı karıştırılır. TBK m. 482/2'de işsahibi kusursuz bir aşımla karşı karşıyadır ve yalnız hakkaniyete uygun bedel öder. TBK m. 484'te işsahibi keyfî vazgeçebilir, ama yüklenicinin bütün zararını karşılar.\n\n## 5. İşsahibi yüzünden imkânsızlık (TBK m. 485)\n\nEserin tamamlanması **işsahibiyle ilgili beklenmedik bir olay** yüzünden imkânsızlaşırsa yüklenici **yaptığı işin değerini ve bu değere girmeyen giderlerini** isteyebilir (TBK m. 485/1). İşsahibi imkânsızlığa **kusuruyla** yol açmışsa yüklenici **ayrıca tazminat** da ister (TBK m. 485/2).\n\n> **Örnek:** Diş hekimi Selin, yalnız hasta Murat'ın ağız yapısına göre özel protez yapar. Protez hazırlanırken Murat ölür. Protezin tamamlanması artık anlamsızdır. Selin yaptığı işin değerini ve giderlerini isteyebilir (TBK m. 485).\n\n**TBK m. 483/1 ile farkı:** Orada olay kimsenin alanında değildir, yüklenici ücret isteyemez. Burada olay işsahibinin alanındadır, yüklenici işin değerini ve giderleri alır.\n\n## 6. Yüklenicinin ölümü veya yeteneğini kaybetmesi (TBK m. 486)\n\nYüklenicinin **kişisel özellikleri göz önünde tutularak** yapılmış sözleşme, yüklenicinin **ölümü** ya da **kusuru olmaksızın** eseri tamamlama **yeteneğini kaybetmesi** hâlinde **kendiliğinden sona erer.** İşsahibi eserin tamamlanan kısmından yararlanabilecekse onu **kabul etmek ve karşılığını vermekle** yükümlüdür (TBK m. 486).\n\nKişisel özellik önemli değilse (örneğin standart bir boya badana işi) yüklenicinin ölümü sözleşmeyi sona erdirmez; mirasçılar mirasbırakanın borçlarından sorumlu olarak sözleşmenin yüklenici tarafında yer alır (TMK m. 599).\n\n> **Örnek:** Ünlü bir heykeltıraş, bir kurumdan anıt heykel siparişi alır ve işi bitirmeden ölür. Sözleşme heykeltıraşın sanatsal kişiliğine dayandığı için kendiliğinden sona erer. Tamamlanmış bölümden kurum yararlanabilecekse onu alır ve karşılığını öder (TBK m. 486).\n\n## 7. Sona erme hâlleri bir bakışta\n\n| Hâl | Madde | Sonuç |\n|---|---|---|\n| Yüklenici: aşırı güçleşme | TBK m. 480/2 | Uyarlama, dönme veya fesih |\n| İşsahibi: yaklaşık bedel aşıldı | TBK m. 482 | Dönme, indirim veya fesih |\n| İşsahibi: vazgeçme | TBK m. 484 | Fesih, bütün zararlar ödenir |\n| İşsahibi yüzünden imkânsızlık | TBK m. 485 | Sözleşme biter, iş değeri ödenir |\n| Yüklenicinin ölümü | TBK m. 486 | Kendiliğinden sona erme |\n\n## 8. Arsa payı (kat) karşılığı inşaat sözleşmesi\n\n### 8.1 Niteliği\n**Arsa payı karşılığı inşaat sözleşmesi**, arsa sahibinin arsa payının bir kısmını devretmeyi, yüklenicinin de inşaatı yapıp teslim etmeyi üstlendiği sözleşmedir. TBK'da ayrıca düzenlenmemiştir. Yargıtay Hukuk Genel Kurulu'na göre bu sözleşme **karma** niteliktedir: Bir yandan eser sözleşmesidir (TBK m. 470), öte yandan arsa payı devrine ilişkin vaadi içerir. Bedel para yerine **ayın** olarak, yani arsa payı ve bağımsız bölümle ödenir.\n\n### 8.2 Şekil\nTaşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerliliği **resmî şekle** bağlıdır (TMK m. 706/1; TBK m. 237). Arsa payı karşılığı inşaat sözleşmesi de pay devri vaadini içerdiğinden resmî şekle, uygulamada noterde düzenleme şekline tabidir (1512 sayılı Kanun m. 60 ve 89; 2644 sayılı Kanun m. 26). Paylı mülkiyette ise bütün paydaşların kabulü gerekir (TMK m. 692).\n\n### 8.3 Şekle aykırılığın sonucu\nKural olarak resmî şekle uyulmayan sözleşme geçersizdir. Ancak Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'nun 1988 tarihli kararından beri şu iki durumda **şekil eksikliği ileri sürülemez** (dürüstlük kuralı, TMK m. 2):\n- arsa payı tapuda **yükleniciye devredilmişse**,\n- inşaat **tamamen ya da önemli ölçüde** yapılmışsa.\n\n> **Örnek:** Ahmet ve Yıldız Yapı adi yazılı sözleşme yapar; Ahmet arsa payını tapuda Yıldız'a devreder. Sonra \"sözleşme adi yazılıydı, baştan geçersiz\" diyemez.\n\n### 8.4 Sona erme: dönme mi, fesih mi?\nYüklenici temerrüde düşerse kural **sözleşmeden dönmedir** (geriye etkili): Taraflar verdiklerini geri ister. Ancak Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'na göre inşaat **büyük ölçüde tamamlanmışsa** (uygulamada yüzde 90 ve üzeri) geriye etkili dönme dürüstlük kuralına aykırı düşer; sözleşme yalnız **ileriye etkili olarak feshedilebilir.**\n\n### 8.5 Üçüncü kişiler: \"avans tapu\" bitti 📌\nUygulamada arsa sahibi payı inşaat bitmeden yükleniciye devreder, yüklenici de bu payı üçüncü kişilere satar. Yüklenici edimini yapmazsa ve sözleşme geriye etkili sona ererse üçüncü kişinin tapusu ne olur?\n\n- **Eski görüş (\"avans tapu\"):** Yükleniciye yapılan devir inşaatın tamamlanması şartına bağlı bir avanstır. Dönmeyle sebep ortadan kalkar, üçüncü kişinin iyiniyeti korunmaz.\n- **Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'nun 16 Mayıs 2025 tarihli kararı:** Avans tapu kavramı Türk eşya hukukunda yoktur. Tapu devri şarta bağlanamaz. Yükleniciden pay ya da bağımsız bölüm alan veya lehine ipotek kurulan üçüncü kişinin kazanımı **TMK m. 3 ve TMK m. 1023** uyarınca korunur. Arsa sahibi, üçüncü kişinin iktisap anında tapunun sözleşme gereği yükleniciye devredildiğini ve geriye etkili fesih koşullarının bulunduğunu **bildiğini veya bilmesi gerektiğini** ispat ederse tapu arsa sahibine döner.\n\nYargıtay Hukuk Genel Kurulu bunu şöyle tamamlar: Arsa sahibi tapu devrinin sözleşme nedeniyle yapıldığını tapuya şerh verdirerek üçüncü kişilerin iyiniyet iddiasını önleyebilir (TMK m. 1009 ve 2644 sayılı Kanun m. 26).\n\n> ⚠️ **Sınavda dikkat:** Eski kitaplar \"geriye etkili fesihte üçüncü kişi korunmaz\" der. Bu bilgi artık geçerli değildir. TMK m. 1023 kuralı işler; kötüniyeti arsa sahibi ispatlar. Kötüniyetli üçüncü kişi ise yolsuz tescile dayanamaz (TMK m. 1024/1).\n\n## 9. Denetim şeması\n\n1. **Sözleşmeyi nitelendir.** Eser sözleşmesi mi (TBK m. 470)? Arsa payı karşılığı inşaat mı (karma, resmî şekil)?\n2. **Bedel türünü bul.** Götürü, yaklaşık ya da belirlenmemiş mi?\n3. **Muacceliyeti belirle.** Teslim anı mı, parça teslim mi, avans/hakediş düzeni mi (TBK m. 479)?\n4. **Götürü bedelse** artırım ve indirim yasağını uygula; olağanüstü durum var mı (TBK m. 480/2)? Kapsam dışı ilave iş var mı (TBK m. 481)?\n5. **Yaklaşık bedelse** aşım aşırı mı, işsahibinin kusuru var mı, arsa kimin (TBK m. 482)?\n6. **Eser yok olduysa** teslimden önce mi, sebep kimin alanında, bildirim yapıldı mı (TBK m. 483 ve TBK m. 485)?\n7. **Sona erme yolunu seç.** Uyarlama/dönme/fesih (TBK m. 480/2), keyfî vazgeçme (TBK m. 484), kişisel özellikli yüklenicinin ölümü (TBK m. 486).\n8. **Arsa payıysa** şekil, şekil eksikliğinin ileri sürülememesi, dönme-fesih ayrımı ve üçüncü kişinin iyiniyeti (TMK m. 1023).",
+  "critical_md": "- 📌 İşsahibinin bedel borcu **eserin teslimi anında** muaccel olur; parça parça teslimde her parçanın bedeli kendi teslimi anında (TBK m. 479). Avans ve hakediş sözleşmeyle kararlaştırılabilir.\n- 📌 Götürü bedelde **iki yasak** vardır: Yüklenici fazla masrafta bedelin artırılmasını, işsahibi az masrafta indirimi isteyemez (TBK m. 480/1 ve TBK m. 480/3).\n- ⚠️ TBK m. 480/2'de yüklenicinin hakları **sıralıdır:** önce hâkimden uyarlama; mümkün değilse veya karşı taraftan beklenemezse dönme; dürüstlük kuralı gerektiriyorsa yalnız fesih.\n- ⚠️ Olağan fiyat dalgalanması TBK m. 480/2'yi çalıştırmaz; durum başlangıçta öngörülemeyen (ya da göz önünde tutulmayan) ve eserin yapılmasını engelleyen veya son derece güçleştiren nitelikte olmalıdır.\n- 📌 Bedel belirlenmemiş ya da yaklaşık belirlenmişse ölçü, **yapıldığı yer ve zamanda eserin değeri ve yüklenicinin gideridir** (TBK m. 481).\n- 📌 Yaklaşık bedel işsahibinin kusuru olmadan **aşırı ölçüde** aşılacaksa işsahibi tamamlanmadan ya da sonra dönebilir; arsası işsahibinin ise indirim isteyebilir, tamamlanmamışsa hakkaniyete uygun bedel ödeyip feshedebilir (TBK m. 482).\n- 📌 Eser teslimden önce beklenmedik olayla yok olursa yüklenici ücret ve gider isteyemez; **malzeme hasarı onu sağlayana aittir** (TBK m. 483/1). İşsahibi teslim almada temerrüde düşmüşse kural uygulanmaz.\n- ⚠️ TBK m. 483/2'de yüklenicinin yaptığı işin değerini istemesi için olumsuz sonuçları **zamanında bildirmiş** olması şarttır. İşsahibinin kusuru ek zarar talebi doğurur.\n- ⚠️ İki fesih karışmasın: TBK m. 482/2'de işsahibi **hakkaniyete uygun bedel** öder; TBK m. 484'te **yapılan kısmın karşılığı ve yüklenicinin bütün zararları**.\n- 📌 TBK m. 485: İşsahibiyle ilgili beklenmedik olayla imkânsızlaşmada yüklenici **işin değerini ve giderlerini** alır; TBK m. 483/1'den farkı budur.\n- 📌 TBK m. 486: Kişisel özellikli sözleşme yüklenicinin ölümü ya da kusursuz yetenek kaybıyla **kendiliğinden** sona erer; tamamlanan kısımdan yararlanılabilecekse işsahibi onu kabul edip karşılığını öder.\n- 📌 Arsa payı karşılığı inşaat **karma** sözleşmedir ve **resmî şekle** tabidir (TMK m. 706; TBK m. 237). Arsa payı tapuda yükleniciye devredilmişse ya da inşaat önemli ölçüde yapılmışsa şekil eksikliği ileri sürülemez (TMK m. 2).\n- 📌 İnşaat büyük ölçüde tamamlanmışsa yalnız **ileriye etkili fesih**; geriye etkili dönme dürüstlük kuralına aykırıdır.\n- 📌 **Yeni:** 16 Mayıs 2025 tarihli İçtihadı Birleştirme Kararı ile \"avans tapu\" görüşünden dönüldü. İyiniyetli üçüncü kişi TMK m. 3 ve TMK m. 1023 ile korunur; arsa sahibi kötüniyeti ispatlar.",
+  "doctrine_md": "### Arsa payı karşılığı inşaatta dönme tek taraflı beyanla mı olur?\nBir görüşe göre dönme bozucu yenilik doğuran bir haktır; karşı tarafa ulaşan beyanla sözleşmeyi sona erdirir ve mahkeme kararı gerekmez (TBK m. 125 ve TBK m. 473). Karşı görüş, sözleşmenin hem tapu devrini hem inşaat edimlerini içerdiğini ve ileriye etkili fesih sınırının (inşaatın büyük ölçüde tamamlanması) tespitinin yargısal denetim gerektirdiğini savunur; bu görüşe göre taraflar anlaşmadıkça sözleşme ancak mahkeme kararıyla sona erer. Yargıtay uygulaması ikinci yöndedir: İradeler uyuşmuyorsa sözleşmenin sona erdirilmesi mahkeme kararıyla yapılır. Sınavda koşulu belirt, iki görüşü yaz, Yargıtay'ın tavrıyla bitir.\n\n### TBK m. 484'te tazminat nasıl hesaplanır?\nKanun \"yüklenicinin bütün zararları\" der, ama hesap yöntemini göstermez.\n- **Kesinti yöntemi:** İşsahibi yapılan kısmı ve kâr dâhil bütün müspet zararı öder; ancak hizmet sözleşmesindeki TBK m. 408 kıyasen uygulanarak yüklenicinin tasarruf ettiği giderler ile başka işten kazandığı veya kazanmaktan kasten kaçındığı yararlar indirilir.\n- **Götürü kâr oranı:** Kalan iş bedeli üzerinden mahkemece takdir edilen götürü bir kâr oranı doğrudan tazminat olarak hükmedilir.\n- **Yargıtay:** Yapılan işin bedeli yanında yapılmayan kısımdan elde edilecek net kâr kaybının, tasarruf edilen giderler düşülerek bilirkişice hesaplanmasını kabul eder.\n\n### \"Avans tapu\" tartışması\nİçtihadı Birleştirme Kararı'ndan önce Yargıtay, yükleniciye yapılan tapu devrini avans sayıyor ve geriye etkili fesihte üçüncü kişinin iyiniyetini dinlemiyordu. Karşı görüş şunu söylüyordu: Eşya hukukunda şarta bağlı tescil ya da avans tapu yoktur, tapu siciline güvenen iyiniyetli üçüncü kişinin kazanımı TMK m. 1023 ile korunur. 2025 tarihli İçtihadı Birleştirme Kararı bu ikinci görüşü benimsemiştir. Dolayısıyla eski ders kitaplarındaki \"avans tapu\" anlatımı güncel hukuku yansıtmaz; aradaki fark sınavda sık sorulur.",
+  "glossary": [
+   {
+    "term": "Götürü bedel",
+    "definition": "Eserin tamamı için baştan kesin belirlenen toplam bedel. Ne yüklenici artırım, ne işsahibi indirim isteyebilir (TBK m. 480)."
+   },
+   {
+    "term": "Yaklaşık bedel",
+    "definition": "Tahmini olarak belirlenen, aşılabilecek bedel. Aşırı aşılırsa işsahibine dönme, indirim veya fesih hakkı doğar (TBK m. 482)."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Borcun ifasının istenebilir hâle gelmesi. Eser sözleşmesinde bedel borcu kural olarak teslim anında muaccel olur (TBK m. 479)."
+   },
+   {
+    "term": "Avans ve hakediş",
+    "definition": "Avans, işe başlarken yapılan ön ödeme; hakediş, yapılan işin oranına göre düzenlenen ara ödeme belgesi. Sözleşmeyle kararlaştırılır."
+   },
+   {
+    "term": "Uyarlama",
+    "definition": "Öngörülemeyen durumlar yüzünden sözleşmenin hâkim tarafından yeni koşullara uydurulması (TBK m. 480/2; TBK m. 138)."
+   },
+   {
+    "term": "Dönme ve fesih",
+    "definition": "Dönme sözleşmeyi geriye etkili sona erdirir ve edimlerin iadesini doğurur; fesih yalnız ileriye etkilidir. Eser sözleşmesinde her ikisi de kullanılır."
+   },
+   {
+    "term": "Beklenmedik olay",
+    "definition": "Taraflardan hiçbirinin kusuruna dayanmayan, yıldırım, sel gibi olay. Teslimden önce eseri yok ederse yüklenici ücret isteyemez (TBK m. 483/1)."
+   },
+   {
+    "term": "Teslim almada temerrüt",
+    "definition": "İşsahibinin hazır olan eseri teslim almaktan kaçınması. Bu durumda hasar işsahibine geçer; yüklenici ücretini isteyebilir (TBK m. 483/1)."
+   },
+   {
+    "term": "Tazminat karşılığı fesih",
+    "definition": "İşsahibinin tamamlanmadan önce, yapılan kısmın karşılığını ve yüklenicinin bütün zararlarını ödeyerek sözleşmeyi bitirmesi (TBK m. 484)."
+   },
+   {
+    "term": "Arsa payı karşılığı inşaat sözleşmesi",
+    "definition": "Arsa sahibinin arsa payı devri, yüklenicinin inşaat borcu altına girdiği karma sözleşme. Resmî şekle tabidir (TMK m. 706)."
+   },
+   {
+    "term": "Avans tapu",
+    "definition": "Yükleniciye yapılan tapu devrinin inşaat bitene kadar geçici sayılması görüşü. 2025 tarihli İçtihadı Birleştirme Kararı ile terk edilmiştir."
+   },
+   {
+    "term": "İyiniyetli üçüncü kişi",
+    "definition": "Tapu kütüğündeki kayda iyiniyetle dayanarak hak kazanan kişi. Kazanımı korunur (TMK m. 1023); iyiniyet karinedir (TMK m. 3)."
+   },
+   {
+    "term": "İhtirazi kayıt",
+    "definition": "Hakedişi veya belgeyi imzalarken haklarını saklı tuttuğunu belirten kayıt. Kaydın bulunmaması talebin reddinde etkili olabilir."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "479",
+   "official_text": "MADDE 479- İşsahibinin bedel ödeme borcu, eserin teslimi anında muaccel olur.\nEserin parça parça teslim edilmesi kararlaştırılmış ve bedel parçalara göre belirlenmişse, her parçanın bedeli onun teslimi anında muaccel olur.\n2. Bedel",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "480",
+   "official_text": "a. Götürü bedel\nMADDE 480- Bedel götürü olarak belirlenmişse yüklenici, eseri o bedelle meydana getirmekle yükümlüdür. Eser, öngörülenden fazla emek ve masrafı gerektirmiş olsa bile yüklenici, belirlenen bedelin artırılmasını isteyemez.\nAncak, başlangıçta öngörülemeyen veya öngörülebilip de taraflarca göz önünde tutulmayan durumlar, taraflarca belirlenen götürü bedel ile eserin yapılmasına engel olur veya son derece güçleştirirse yüklenici, hâkimden sözleşmenin yeni koşullara uyarlanmasını isteme, bu mümkün olmadığı veya karşı taraftan beklenemediği takdirde sözleşmeden dönme hakkına sahiptir. Dürüstlük kurallarının gerektirdiği durumlarda yüklenici, ancak fesih hakkını kullanabilir.\nEser, öngörülenden az emek ve masrafı gerektirmiş olsa bile işsahibi, belirlenen bedelin tamamını ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "481",
+   "official_text": "MADDE 481- Eserin bedeli önceden belirlenmemiş veya yaklaşık olarak belirlenmişse bedel, yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine bakılarak belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "482",
+   "official_text": "MADDE 482- Başlangıçta yaklaşık olarak belirlenen bedelin, işsahibinin kusuru olmaksızın aşırı ölçüde aşılacağı anlaşılırsa işsahibi, eser henüz tamamlanmadan veya tamamlandıktan sonra sözleşmeden dönebilir.\nEser, işsahibinin arsası üzerine yapılıyorsa işsahibi, bedelden uygun bir miktarın indirilmesini isteyebileceği gibi, eser henüz tamamlanmamışsa, yükleniciyi işe devamdan alıkoyarak, tamamlanan kısım için hakkaniyete uygun bir bedel ödemek suretiyle sözleşmeyi feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "483",
+   "official_text": "MADDE 483- Eser teslimden önce beklenmedik olay sonucu yok olursa işsahibi, eseri teslim almada temerrüde düşmedikçe yüklenici, yaptığı işin ücretini ve giderlerinin ödenmesini isteyemez. Bu durumda malzemeye gelen hasar, onu sağlayana ait olur.\nEserin işsahibince verilen malzeme veya gösterilen arsanın ayıbı veya işsahibinin talimatına uygun yapılması yüzünden yok olması durumunda yüklenici, doğabilecek olumsuz sonuçları zamanında bildirmişse, yaptığı işin değerini ve bu değere girmeyen giderlerinin ödenmesini isteyebilir. İşsahibinin kusuru varsa, yüklenicinin ayrıca zararının giderilmesini de isteme hakkı vardır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "484",
+   "official_text": "MADDE 484- İşsahibi, eserin tamamlanmasından önce yapılmış olan kısmın karşılığını ödemek ve yüklenicinin bütün zararlarını gidermek koşuluyla sözleşmeyi feshedebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "485",
+   "official_text": "MADDE 485- Eserin tamamlanması, işsahibi ile ilgili beklenmedik olay dolayısıyla imkânsızlaşırsa yüklenici, yaptığı işin değerini ve bu değere girmeyen giderlerini isteyebilir.\nİfa imkânsızlığının ortaya çıkmasında işsahibi kusurluysa, yüklenicinin ayrıca tazminat isteme hakkı vardır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "486",
+   "official_text": "MADDE 486- Yüklenicinin kişisel özellikleri göz önünde tutularak yapılmış olan sözleşme, onun ölümü veya kusuru olmaksızın eseri tamamlama yeteneğini kaybetmesi durumunda kendiliğinden sona erer. Bu durumda işsahibi, eserin tamamlanan kısmından yararlanabilecek ise, onu kabul etmek ve karşılığını vermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "470",
+   "official_text": "MADDE 470- Eser sözleşmesi, yüklenicinin bir eser meydana getirmeyi, işsahibinin de bunun karşılığında bir bedel ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "473",
+   "official_text": "MADDE 473- Yüklenicinin işe zamanında başlamaması veya sözleşme hükümlerine aykırı olarak işi geciktirmesi ya da işsahibine yüklenemeyecek bir sebeple ortaya çıkan gecikme yüzünden bütün tahminlere göre yüklenicinin işi kararlaştırılan zamanda bitiremeyeceği açıkça anlaşılırsa, işsahibi teslim için belirlenen günü beklemek zorunda olmaksızın sözleşmeden dönebilir.\nMeydana getirilmesi sırasında, eserin yüklenicinin kusuru yüzünden ayıplı veya sözleşmeye aykırı olarak meydana getirileceği açıkça görülüyorsa, işsahibi bunu önlemek üzere vereceği veya verdireceği uygun bir süre içinde yükleniciye, ayıbın veya aykırılığın giderilmesi; aksi takdirde hasar ve masrafları kendisine ait olmak üzere, onarımın veya işe devamın bir üçüncü kişiye verileceği konusunda ihtarda bulunabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "475",
+   "official_text": "MADDE 475- Eserdeki ayıp sebebiyle yüklenicinin sorumlu olduğu hâllerde işsahibi, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Eser işsahibinin kullanamayacağı veya hakkaniyet gereği kabule zorlanamayacağı ölçüde ayıplı ya da sözleşme hükümlerine aynı ölçüde aykırı olursa sözleşmeden dönme.\n2. Eseri alıkoyup ayıp oranında bedelden indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları yükleniciye ait olmak üzere, eserin ücretsiz onarılmasını isteme.\nİşsahibinin genel hükümlere göre tazminat isteme hakkı saklıdır.\nEser, işsahibinin taşınmazı üzerinde yapılmış olup, sökülüp kaldırılması aşırı zarar doğuracaksa işsahibi, sözleşmeden dönme hakkını kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "138",
+   "official_text": "MADDE 138- Sözleşmenin yapıldığı sırada taraflarca öngörülmeyen ve öngörülmesi de beklenmeyen olağanüstü bir durum, borçludan kaynaklanmayan bir sebeple ortaya çıkar ve sözleşmenin yapıldığı sırada mevcut olguları, kendisinden ifanın istenmesini dürüstlük kurallarına aykırı düşecek derecede borçlu aleyhine değiştirir ve borçlu da borcunu henüz ifa etmemiş veya ifanın aşırı ölçüde güçleşmesinden doğan haklarını saklı tutarak ifa etmiş olursa borçlu, hâkimden sözleşmenin yeni koşullara uyarlanmasını isteme, bu mümkün olmadığı takdirde sözleşmeden dönme hakkına sahiptir. Sürekli edimli sözleşmelerde borçlu, kural olarak dönme hakkının yerine fesih hakkını kullanır.\nBu madde hükmü yabancı para borçlarında da uygulanır.\nF. Takas",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "237",
+   "official_text": "MADDE 237- Taşınmaz satışının geçerli olabilmesi için, sözleşmenin resmî şekilde düzenlenmesi şarttır.\nTaşınmaz satışı vaadi, geri alım ve alım sözleşmeleri, resmî şekilde düzenlenmedikçe geçerli olmaz.\nÖnalım sözleşmesinin geçerliliği, yazılı şekilde yapılmış olmasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "408",
+   "official_text": "MADDE 408- İşveren, işgörme ediminin yerine getirilmesini kusuruyla engellerse veya edimi kabulde temerrüde düşerse, işçiye ücretini ödemekle yükümlü olup, işçiden bu edimini daha sonra yerine getirmesini isteyemez. Ancak, işçinin bu engelleme sebebiyle yapmaktan kurtulduğu giderler ile başka bir iş yaparak kazandığı veya kazanmaktan bilerek kaçındığı yararlar ücretinden indirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "3",
+   "official_text": "II. İyiniyet\nMadde 3- Kanunun iyiniyete hukukî bir sonuç bağladığı durumlarda, asıl olan iyiniyetin varlığıdır.\nAncak, durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "599",
+   "official_text": "I. Mirasçılar tarafından\nMadde 599- Mirasçılar, mirasbırakanın ölümü ile mirası bir bütün olarak, kanun gereğince kazanırlar.\nKanunda öngörülen ayrık durumlar saklı kalmak üzere mirasçılar, mirasbırakanın aynî haklarını, alacaklarını, diğer malvarlığı haklarını, taşınır ve taşınmazlar üzerindeki zilyetliklerini doğrudan doğruya kazanırlar ve mirasbırakanın borçlarından kişisel olarak sorumlu olurlar.\nAtanmış mirasçılar da mirası, mirasbırakanın ölümü ile kazanırlar. Yasal mirasçılar, atanmış mirasçılara düşen mirası onlara zilyetlik hükümleri uyarınca teslim etmekle yükümlüdürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "692",
+   "official_text": "d. Olağanüstü yönetim işleri ve tasarruflar\nMadde 692- Paylı malın özgülendiği amacın değiştirilmesi, korumanın veya olağan şekilde kullanmanın gerekli kıldığı ölçüyü aşan yapı işlerine girişilmesi veya paylı malın tamamı üzerinde tasarruf işlemlerinin yapılması, oybirliğiyle aksi kararlaştırılmış olmadıkça, bütün paydaşların kabulüne bağlıdır.\nPaylar üzerinde taşınmaz rehni veya taşınmaz yükü kurulmuşsa, paydaşlar malın tamamını benzer haklarla kayıtlayamazlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1009",
+   "official_text": "a. Kişisel haklarda\nMadde 1009- Arsa payı karşılığı inşaat, taşınmaz satış vaadi, kira, alım, önalım, gerialım sözleşmelerinden doğan haklar ile şerhedilebileceği kanunlarda açıkça öngörülen diğer haklar tapu kütüğüne şerhedilebilir.\nBunlar şerh verilmekle o taşınmaz üzerinde sonradan kazanılan hakların sahiplerine karşı ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1023",
+   "official_text": "2. İyiniyetli üçüncü kişilere karşı\nMadde 1023- Tapu kütüğündeki tescile iyiniyetle dayanarak mülkiyet veya bir başka aynî hak kazanan üçüncü kişinin bu kazanımı korunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "1024",
+   "official_text": "3. İyiniyetli olmayan üçüncü kişilere karşı\nMadde 1024- Bir aynî hak yolsuz olarak tescil edilmiş ise, bunu bilen veya bilmesi gereken üçüncü kişi bu tescile dayanamaz.\nBağlayıcı olmayan bir hukukî işleme dayanan veya hukukî sebepten yoksun bulunan tescil yolsuzdur.\nBöyle bir tescil yüzünden aynî hakkı zedelenen kimse, tescilin yolsuz olduğunu iyiniyetli olmayan üçüncü kişilere karşı doğrudan doğruya ileri sürebilir.\nE. Terkin ve değiştirme",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TAPU KANUNU",
+   "law_no": "2644",
+   "article_no": "26",
+   "official_text": "Madde 26 – (Değişik: 6/1/1954 - 6217/1 md.)[3]\nMülkiyete, mülkiyetin gayrı ayni haklara ve müşterek bir arzın hissedarları veya birbirine muttasıl gayrimenkullerin sahipleri arasında bunlardan birinin veya bir kaçının o gayrimenkul üzerinde mevcut veya inşa edilecek binanın, muayyen bir katından veya dairesinden yahut müstakillen istimale elverişli bir bölümünden munhasıran istifadesini temin gayesiyle Medeni Kanunun 753 üncü maddesi hükümlerine göre irtifak hakkı tesisine veya tesisi vadine mütedair resmi senetler tapu sicil müdürü veya tapu sicil görevlileri tarafından tanzim edilir.\n(Ek fıkra:4/7/2019-7181/1 md.) Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerde, tarafların farklı tapu müdürlükleri veya yurt dışı teşkilatında bulunmaları hâlinde, taraf iradeleri resmî görevliler tarafından ayrı ayrı alınarak sözleşme tamamlanabilir. Bu fıkranın uygulanmasına ilişkin usul ve esaslar yönetmelikle belirlenir.\n(Ek fıkra: 15/1/2009-5831/1 md.) İllerde bulunan tapu sicil müdürlükleri dışındaki müdürlüklerden akitli ve akitsiz işlemleri yıllık 500'ün altında olan yerlerde işleri yapmak üzere, Tapu ve Kadastro Genel Müdürlüğünce yakın il veya ilçelerde görevli tapu sicil müdürü veya görevlendirilen yetkili memura belirli günlerde yetki verilebilir.\n(Ek fıkra: 15/1/2009-5831/1 md.) Resmi senetlerin düzenlenmesine ilişkin usul ve esaslar yönetmelikle belirlenir.\nAlakalıların isteği halinde resmi senedi tanzim için memurlar ikametgahlara giderler, bu sırada gelecek haciz ve tahdit kararları resmi senedi yapmak için ikametgaha gitmiş olan memura tebliğ olunur.\n(Ek hüküm: 2/4/1998 - 4358/3 md.) Resmi senede tarafların kimlik bilgileri ile birlikte vergi kimlik numaraları da kaydedilir.(Değişik:6/3/1981-2421/1 md.) Resmi senedi, taraflar ile hazırlayan tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar.Tarafların kimliklerinde şüpheye düşülen hallerde tanık getirilmesi istenebilir. Kanunların tanık bulundurulmasını zorunlu kıldığı hükümler saklıdır.11 Ocak 1926 tarihli ve 711 sayılı Kanun gereğince yapılacak akitlerde de aynı usul uygulanır.\nBirinci fıkrada beyan olunan irtifak hakkı tesisi vaitleri tapu siciline re'sen şerh verilir. Bunlardan irtifak hakkı tesisi vadine mütedair resmi senetler tapuya şerh verilmekle, taallük ettiği gayrimenkulün sonraki maliklerini de ilzam eder.\nNoterlik Kanununun 44 üncü maddesinin (B) bendi mucibince noterler tarafından tanzim edilen gayrimenkul satış vadi sözleşmeleri ile arsa payı karşılığı inşaat sözleşmeleri de taraflardan biri isterse gayrimenkul siciline şerh verilir.\nŞerhten itibaren beş yıl içinde satış yapılmaz veya irtifak hakkı tesis ve tapuya tescil edilmezse işbu şerh tapu sicil müdürü veya tapu sicil görevlileri tarafından re'sen terkin olunur.\n(Ek : 26/4/1984 - 3000/1 md.; Değişik: 15/2/2018-7099/1 md.) Kamu kurum ve kuruluşları, kredi kuruluşları, bankalar, esnaf ve sanatkârlar kredi ve kefalet kooperatifleri ile tarım kredi kooperatiflerince açılmış veya açılacak tüm borç ve kredilere karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi halinde, taraflarınca imzalanan kredi veya borç sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n(Ek: 12/3/1985 - 3163/1 md.; Mülga son fıkra: 15/1/2009-5831/1 md.)\n(Ek fıkra:4/3/2021-7292/19 md.) 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki tasarruf finansman şirketleri tarafından müşterilere sağlanan veya sağlanacak finansmana karşılık teminat gösterilen taşınmazların ipotek işlemleri, tarafların istemi hâlinde, imzalanan tasarruf finansman sözleşmesine istinaden tapu müdürlüklerinde tapuya tescil olunur.\n[3] 15/1/2009 tarihli ve 5831 sayılı Kanunun 1 inci maddesiyle; bu maddenin birinci fıkrasındaki “tapu sicil muhafızları veya memurları” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak, mevcut üçüncü fıkrasında yer alan “memur ve tapu sicil muhafızı imzalar” ibaresi “tapu sicil müdürlüğü görevlileri imzalar, tapu sicil müdürü veya görevlendirilen memur onaylar” olarak, mevcut altıncı fıkrasındaki “tapu sicil muhafızı veya memuru” ibareleri “tapu sicil müdürü veya tapu sicil görevlileri” olarak değiştirilmiş ve mevcut beşinci fıkrasında yer alan “sözleşmeleri” ibaresinden sonra gelmek üzere “ile arsa payı karşılığı inşaat sözleşmeleri” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2644&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "NOTERLİK KANUNU",
+   "law_no": "1512",
+   "article_no": "60",
+   "official_text": "Noterlerin genel olarak yapacakları işler:\nMadde 60 – Noterlerin görevleri:\n1. Yapılması kanunla başka bir makam, merci veya şahsa verilmemiş olan her nevi hukuki işlemleri düzenlemek,\n2. Kanunlarda resmi olarak yapılmaları emredilen ve mercileri belirtilmemiş olan bütün hukuki işlemleri bu kanun hükümlerine göre yapmak,\n3. (Değişik: 23/6/2022-7413/11 md.) Taşınmaz satış vaadi sözleşmesi yapmak ve bu sözleşmeyi taraflardan birinin talep etmesi, harç ve giderleri ödemesi hâlinde tapu bilişim sistemi vasıtasıyla tapu siciline şerh vermek, taşınmaz satış sözleşmesi yapmak,\n4. Bu kanuna uygun olarak dışarda yazılıp getirilen kağıtların üzerindeki imza, mühür veya herhangi bir işareti veya tarihi onaylamak,\n5. Bu kanun hükümlerine göre yapılan işlemlerin dairede kalan asıl veya örneklerinden veya getirilen kağıtlardan örnek çıkarıp vermek,\n6. Belgeleri bir dilden diğer dile veya bir yazıdan başka bir yazıya çevirmek,\n7. Protesto, ihbarname ve ihtarname göndermek,\n8. Kanunen tescili gereken işlemleri tescil etmek,\n9. Bu ve diğer kanunlarla verilmiş sair işleri yapmak.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1512&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "NOTERLİK KANUNU",
+   "law_no": "1512",
+   "article_no": "89",
+   "official_text": "Düzenleme şeklinde yapılması zorunlu işlemler:\nMadde 89 – Niteliği bakımından tapuda işlem yapılmasını gerektiren sözleşme ve vekaletnamelerle, vasiyetname, mülkiyeti muhafaza kaydı ile satış, gayrimenkul satış va'di, vakıf senedi, evlenme mukavelesi, evlat edinme ve tanıma, mirasın taksimi sözleşmesi ve diğer kanunlarda öngörülen sair işlemler bu fasıl hükümlerine göre düzenlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1512&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "6. Hukuk Dairesi",
+   "esas_no": "2025/2041",
+   "karar_no": "2026/1191",
+   "decision_date": "01.04.2026",
+   "summary_md": "Arsa sahibi, 2015'te bir şirketle arsa payı karşılığı inşaat sözleşmesi yapmıştır. Yüklenici edimlerini yerine getirmeyince açılan davada sözleşme geriye etkili feshedilmiş ve karar kesinleşmiştir. Bu arada yükleniciye verilen vekâletname ile on dört daire üçüncü kişilere satılmıştır. Arsa sahibi, zincirin sonundaki malik adına kayıtlı bağımsız bölümün tapusunun iptalini ve kendi adına tescilini, ayrıca bir alacaklı lehine konulan haczin kaldırılmasını istemiştir. Davalı malik, tapuya güvenerek iyiniyetle aldığını savunmuştur. İlk derece mahkemesi devirlerin avans niteliğinde olduğu ve fesihte üçüncü kişilerin iyiniyet savunmasının dinlenmeyeceği gerekçesiyle davayı kabul etmiş, istinaf başvurusu reddedilmiştir. Yargıtay 6. Hukuk Dairesi, 16 Mayıs 2025 tarihli İçtihadı Birleştirme Kararı'na dayanarak kararı oybirliğiyle bozmuştur. Gerekçeye göre avans tapu kavramı eşya hukukumuzda yoktur; yükleniciden pay alan veya lehine ipotek kurulan üçüncü kişinin iyiniyeti TMK m. 3 ve TMK m. 1023 ile korunur ve arsa sahibi üçüncü kişinin iktisap anındaki kötüniyetini ispatlamalıdır. Mahkemenin yapacağı iş, arsa sahibine kötüniyet delillerini sunma imkânı tanıyıp sonucu buna göre değerlendirmektir. Konuya katkısı: geriye etkili fesihte üçüncü kişinin durumunu güncel hukuka göre gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1213860000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/31",
+   "karar_no": "2026/300",
+   "decision_date": "06.05.2026",
+   "summary_md": "Davacı şirket, bir arsadaki hissesini 2017'de resmî senetle davalı yükleniciye devretmiştir. Davacıya göre bu devir, kendisi, diğer paydaş bir anonim şirket ve yüklenici arasındaki adi yazılı arsa payı karşılığı inşaat sözleşmesi gereğince yapılmıştır. Davacı, yüklenicinin dokuz ay geçtiği hâlde ruhsat alıp inşaata başlamadığını ve hisseyi kısa sürede diğer davalılara devrettiğini ileri sürerek sözleşmenin geriye etkili feshini ve tapu kayıtlarının iptalini istemiştir. Yerel mahkeme, işlemin sözleşmeye değil satışa dayandığı ve diğer davalıların iyiniyetli olduğu gerekçesiyle davayı reddetmiş, istinaf başvurusu reddedilmiş, Yargıtay 6. Hukuk Dairesi bozmuş, yerel mahkeme direnmiştir. Hukuk Genel Kurulu direnme kararını değişik gerekçeyle oybirliğiyle bozmuştur (Özel Dairenin bozması, devri avans sayıp üçüncü kişilerin iyiniyetini dinlemeyen eski görüşe dayanıyordu). Gerekçeye göre arsa payı karşılığı inşaat sözleşmesi resmî şekle (paylı mülkiyette TMK m. 692 gereği bütün paydaşların katılımına) tabidir; ancak şekle uyulmasa da pay tapuda yükleniciye devredilmişse ya da ifa önemli ölçüde yapılmışsa 1988 tarihli içtihadı birleştirme kararı gereği şekil eksikliği ileri sürülemez. Dosyadaki delillere göre sözleşme ilişkisi ispatlanmıştır. Yükleniciden pay alan diğer davalıların TMK m. 1023 anlamında iyiniyetli olup olmadığı, arsa sahibine kötüniyet delillerini sunma imkânı verilerek araştırılmalıdır. Konuya katkısı: şekil istisnası ile 2025 tarihli içtihadı birleştirme kararının birlikte uygulanmasını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1229956700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "6. Hukuk Dairesi",
+   "esas_no": "2025/2407",
+   "karar_no": "2026/1933",
+   "decision_date": "06.05.2026",
+   "summary_md": "Yüklenici bir şirket, 2017'de bir kamu idaresiyle kültür merkezi inşaatı için 540 gün süreli götürü bedelli sözleşme yapmıştır. İş sırasında süre uzatımları verilmiş ve iş artışlarının bedeli ödenmiştir. Sözleşme ve idari şartname fiyat farkı verilmeyeceğini düzenlemektedir. Yüklenici maliyet artışlarını öne sürerek TBK m. 480'e dayanıp fiyat farkı alacağı istemiştir. İlk derece mahkemesi ve bölge adliye mahkemesi, fiyat farkının açıkça kapsam dışı bırakıldığını, yüklenicinin 24 hakedişi ihtirazi kayıt koymadan aldığını ve götürü bedelle işi tamamlamakla yükümlü olduğunu belirterek davayı reddetmiştir. Yargıtay 6. Hukuk Dairesi, ayrıntılı gerekçe yazmaksızın bu kararı oybirliğiyle onamıştır. Konuya katkısı: götürü bedelde maliyet riskinin yükleniciye ait olduğunu, uyarlama istemenin ise sözleşme hükümleri ve hakedişlerdeki ihtirazi kayıt gibi olgularla birlikte değerlendirildiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1219677400",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "TBK m. 479/1'e göre, taraflar farklı bir ödeme düzeni kararlaştırmamışsa işsahibinin eser sözleşmesindeki bedel ödeme borcu ne zaman muaccel olur?",
+   "options": [
+    "Yüklenicinin işe başladığı anda",
+    "Sözleşmenin kurulduğu anda",
+    "İşin yarısı tamamlandığında",
+    "Eserin teslimi anında"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 479/1'e göre işsahibinin bedel ödeme borcu eserin teslimi anında muaccel olur. Avans ya da hakediş gibi düzenler sözleşmeyle kararlaştırılabilir, ama bunlar yoksa kural budur."
+  },
+  {
+   "stem_md": "Beş etaplı bir eserde parça parça teslim kararlaştırılmış ve bedel de etaplara göre belirlenmişse, 1. etabın bedeli ne zaman muaccel olur?",
+   "options": [
+    "1. etap teslim edildiği anda",
+    "Beş etabın tamamı teslim edildiğinde",
+    "Sözleşme imzalandığında",
+    "Bütün eser gözden geçirildikten sonra"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 479/2'ye göre eserin parça parça teslimi kararlaştırılmış ve bedel parçalara göre belirlenmişse her parçanın bedeli onun teslimi anında muaccel olur. Bu nedenle 1. etabın bedeli 1. etap teslim edildiği anda istenebilir."
+  },
+  {
+   "stem_md": "Yüklenici Ece, Kaan'ın evinin tadilatını 2.000.000 TL götürü bedelle üstlenmiştir. İş, işçilik ve malzeme bakımından Ece'nin öngördüğünden çok fazla emek ve masraf gerektirmiş, maliyeti 2.300.000 TL olmuştur. Olağanüstü bir olay yoktur. Ece'nin durumu nedir?",
+   "options": [
+    "Hâkimden bedelin artırılmasını isteyebilir.",
+    "Maliyetin yarısını isteyebilir.",
+    "Bedelin artırılmasını isteyemez; eseri 2.000.000 TL ile meydana getirmekle yükümlüdür.",
+    "Aradaki 300.000 TL'yi Kaan'dan isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Bedel götürü olarak belirlenmişse yüklenici, eser fazla emek ve masraf gerektirmiş olsa bile bedelin artırılmasını isteyemez (TBK m. 480/1). Hâkimden uyarlama ancak başlangıçta öngörülemeyen durumların eserin yapılmasını engellemesi ya da son derece güçleştirmesi hâlinde istenebilir (TBK m. 480/2); olayda böyle bir durum yoktur."
+  },
+  {
+   "stem_md": "Götürü bedel 1.000.000 TL olarak kararlaştırılmış bir sözleşmede yüklenici, toplu malzeme alımı sayesinde eseri sözleşmedeki kalitede 700.000 TL'ye mal ederek tamamlamıştır. İşsahibi ne kadar öder?",
+   "options": [
+    "Tasarruf edilen 300.000 TL'nin yarısını indirerek 850.000 TL'yi",
+    "1.000.000 TL'nin tamamını",
+    "Yalnız gerçek maliyet olan 700.000 TL'yi",
+    "Hâkimin takdir edeceği bir tutarı"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Eser öngörülenden az emek ve masraf gerektirmiş olsa bile işsahibi belirlenen bedelin tamamını ödemekle yükümlüdür (TBK m. 480/3). Götürü bedelde tasarruftan doğan kazanç yüklenicide kalır."
+  },
+  {
+   "stem_md": "TBK m. 480/2'ye göre, götürü bedelli sözleşmede başlangıçta öngörülemeyen durumlar eserin yapılmasını son derece güçleştirirse yüklenicinin hakları hangi sırayla kullanılır?",
+   "options": [
+    "Önce fesih; fesih mümkün değilse uyarlama.",
+    "Önce hâkimden uyarlama; mümkün değilse ya da karşı taraftan beklenemezse dönme; dürüstlük kuralı gerektiriyorsa yalnız fesih.",
+    "Doğrudan sözleşmeden dönme; uyarlama ancak dönme mümkün değilse istenir.",
+    "Doğrudan bedelin artırılmasını isteme; reddedilirse fesih."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 480/2 yüklenicinin haklarını sıralı düzenler: Hâkimden sözleşmenin yeni koşullara uyarlanmasını ister; bu mümkün olmadığı veya karşı taraftan beklenemediği takdirde sözleşmeden döner; dürüstlük kurallarının gerektirdiği durumlarda ise ancak fesih hakkını kullanabilir. Bu hüküm genel uyarlama kuralı olan TBK m. 138'in eser sözleşmesindeki özel görünümüdür."
+  },
+  {
+   "stem_md": "Eserin bedeli önceden belirlenmemiş ya da yaklaşık olarak belirlenmişse bedel neye göre belirlenir?",
+   "options": [
+    "Yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine bakılarak",
+    "Sözleşmenin yapıldığı tarihteki ortalama piyasa fiyatına göre",
+    "Yalnız yüklenicinin beyan ettiği gider tutarına göre",
+    "İşsahibinin ödeyebileceği tutara göre"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 481'e göre bedel, yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine bakılarak belirlenir. Ölçü, sözleşmenin kurulduğu tarih değil, eserin yapıldığı yer ve zamandır."
+  },
+  {
+   "stem_md": "X Ltd. Şti., bir üretim makinesinin imalatı için yükleniciyle yaklaşık 2.000.000 TL bedelli sözleşme yapmıştır. İmalat sürerken, X Ltd.'nin hiçbir kusuru olmaksızın bedelin 4.000.000 TL'yi aşacağı anlaşılmıştır. X Ltd. ne yapabilir?",
+   "options": [
+    "Yalnız hâkimden sözleşmenin uyarlanmasını isteyebilir.",
+    "Hiçbir şey yapamaz; yaklaşık bedel de götürü bedel gibi bağlayıcıdır.",
+    "Sözleşmeden dönebilir; bu hak eser tamamlanmadan da kullanılabilir.",
+    "Yalnız bedelden indirim isteyebilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Başlangıçta yaklaşık olarak belirlenen bedel işsahibinin kusuru olmaksızın aşırı ölçüde aşılacaksa işsahibi, eser henüz tamamlanmadan veya tamamlandıktan sonra sözleşmeden dönebilir (TBK m. 482/1). İndirim ve fesih seçenekleri ayrıca TBK m. 482/2'de, eserin işsahibinin arsası üzerine yapılması hâli için düzenlenmiştir."
+  },
+  {
+   "stem_md": "Zeynep, kendi arsasında yaklaşık 3.000.000 TL bedelle ev yaptırmaktadır. Yapı tamamlanmadan, Zeynep'in kusuru olmaksızın maliyetin aşırı ölçüde aşılacağı anlaşılmıştır. Zeynep, yaklaşık bedelin aşılmasına dayanan fesih hakkını (TBK m. 482/2) hangi koşulla kullanabilir?",
+   "options": [
+    "Yükleniciyi işe devamdan alıkoyup, tamamlanan kısım için hakkaniyete uygun bir bedel ödeyerek",
+    "Yüklenicinin bütün zararlarını gidermeksizin, hiçbir bedel ödemeden",
+    "Yüklenicinin yapılmayan kısımdan beklediği kâr dâhil bütün zararlarını ödeyerek",
+    "Yalnız yükleniciden bedelin indirilmesini isteyerek"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Eser işsahibinin arsası üzerine yapılıyor ve henüz tamamlanmamışsa işsahibi, yükleniciyi işe devamdan alıkoyarak tamamlanan kısım için hakkaniyete uygun bir bedel ödemek suretiyle sözleşmeyi feshedebilir (TBK m. 482/2). Yüklenicinin bütün zararlarını ödemek TBK m. 484'e özgü bir koşuldur; Zeynep o yolu da kullanabilir, ama o fesih aşıma dayanmaz ve onun için daha ağırdır."
+  },
+  {
+   "stem_md": "Burak, sipariş ettiği yatın yapımından, hiçbir sebep göstermeden vazgeçmek ve sözleşmeyi feshetmek istemektedir. Yat henüz tamamlanmamıştır. Burak'ın fesih için ödemesi gereken nedir?",
+   "options": [
+    "Yalnız tamamlanan kısım için hakkaniyete uygun bir bedel",
+    "Yapılmış kısmın karşılığı ve yüklenicinin bütün zararları",
+    "Yalnız yapılmış kısmın karşılığı",
+    "Hiçbir ödeme yapmadan feshedemez; fesih için haklı sebep gerekir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "İşsahibi, eserin tamamlanmasından önce yapılmış olan kısmın karşılığını ödemek ve yüklenicinin bütün zararlarını gidermek koşuluyla sözleşmeyi feshedebilir (TBK m. 484). Fesih için bir sebep göstermek gerekmez. Hakkaniyete uygun bedel TBK m. 482/2'nin ölçüsüdür."
+  },
+  {
+   "stem_md": "Terzi Fatma, Hasan'ın getirdiği kumaştan iki takım elbise dikmeyi 20.000 TL ücretle üstlenmiştir. Teslimden önce atölyeyi sel basmış, kumaşlar ve takımlar yok olmuştur. Hasan teslim almada temerrüde düşmemiş ve kimsenin kusuru yoktur. Hukuki durum nedir?",
+   "options": [
+    "Sözleşme geçersiz sayılır; taraflar birbirinden bir şey isteyemez ama kumaş Fatma'nındır.",
+    "Fatma ücreti ve giderlerini ister; kumaş kaybı da Fatma'ya aittir.",
+    "Fatma 20.000 TL ücreti ve giderlerini isteyemez; kumaşın kaybı Hasan'a aittir.",
+    "Fatma ücreti ister, kumaşın bedelini Hasan'a öder."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Eser teslimden önce beklenmedik olay sonucu yok olursa işsahibi teslim almada temerrüde düşmedikçe yüklenici yaptığı işin ücretini ve giderlerini isteyemez; malzemeye gelen hasar da onu sağlayana aittir (TBK m. 483/1). Kumaşı sağlayan Hasan olduğundan kumaşın kaybı ona aittir."
+  },
+  {
+   "stem_md": "Yüklenici Can, kendi tedarik ettiği 100.000 TL değerindeki malzemeyle bir salon yapmayı 150.000 TL ücretle üstlenmiştir. Teslimden önce, kimsenin kusuru olmaksızın deprem sonucu salon yıkılmıştır. İşsahibi teslim almada temerrüde düşmemiştir. Hangisi doğrudur?",
+   "options": [
+    "Can ücret ve giderlerini isteyemez; malzemeye gelen hasar da onu sağlayan Can'a aittir.",
+    "Can yalnız 100.000 TL malzeme bedelini isteyebilir.",
+    "Can 150.000 TL ücreti isteyebilir; malzeme kaybı işsahibine aittir.",
+    "Can ücretin yarısını isteyebilir, malzeme kaybını işsahibi ile paylaşırlar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Beklenmedik olayla teslimden önce yok olan eserde, işsahibi temerrüde düşmedikçe yüklenici ücret ve giderlerini isteyemez; malzemeye gelen hasar da onu sağlayana, yani Can'a aittir (TBK m. 483/1). Yarı yarıya paylaşım ya da malzeme bedelinin istenmesi kanunda yer almaz."
+  },
+  {
+   "stem_md": "TBK m. 483/2 uyarınca eser, işsahibinin gösterdiği arsanın ayıbı yüzünden yok olursa yüklenicinin yaptığı işin değerini ve giderlerini isteyebilmesi için hangisi gereklidir?",
+   "options": [
+    "Eserin işsahibine teslim edilmiş olması",
+    "İşsahibinin teslim almada temerrüde düşmüş olması",
+    "Yüklenicinin doğabilecek olumsuz sonuçları zamanında bildirmiş olması",
+    "İşsahibinin kusurunun bulunması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 483/2'ye göre yüklenici, doğabilecek olumsuz sonuçları zamanında bildirmişse yaptığı işin değerini ve bu değere girmeyen giderlerini isteyebilir. İşsahibinin kusuru bu temel hak için gerekmez; kusur varsa yüklenici ayrıca zararının giderilmesini de ister."
+  },
+  {
+   "stem_md": "Diş hekimi Selin, yalnız hasta Murat'ın ağız yapısına uygun özel bir protezi 60.000 TL'ye yapmayı üstlenmiştir. Protez hazırlanırken Murat bir kazada ölmüş, protezin tamamlanması bu yüzden imkânsızlaşmıştır. Selin ne isteyebilir?",
+   "options": [
+    "60.000 TL'nin tamamını, yaptığı iş miktarına bakılmaksızın",
+    "Yalnız sebepsiz zenginleşme hükümlerine göre malzeme bedelini",
+    "Hiçbir şey; teslim edilmemiş eserde ücret istenemez.",
+    "Yaptığı işin değerini ve bu değere girmeyen giderlerini"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Eserin tamamlanması işsahibiyle ilgili beklenmedik olay dolayısıyla imkânsızlaşırsa yüklenici yaptığı işin değerini ve bu değere girmeyen giderlerini isteyebilir (TBK m. 485). Teslimden önce herkesin alanı dışındaki olayla yok olmada ücret istenemeyen TBK m. 483/1'den farkı budur. Ücretin tamamı değil, yapılan işin değeri istenir."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisinde eser sözleşmesi, TBK m. 486 uyarınca yüklenicinin ölümüyle kendiliğinden sona erer?",
+   "options": [
+    "Seri üretim bir mobilya takımının imalatı",
+    "Bir apartmanın dış cephe boyasının yapılması için standart bir boya işi",
+    "Ünlü bir ressamın sanatsal kişiliği nedeniyle sipariş edilen portre",
+    "Kişisel özellikleri önemsiz bir tadilat işi"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Yüklenicinin kişisel özellikleri göz önünde tutularak yapılmış sözleşme, yüklenicinin ölümü veya kusuru olmaksızın eseri tamamlama yeteneğini kaybetmesi durumunda kendiliğinden sona erer (TBK m. 486). Ressamın sanatsal kişiliğine dayanan sipariş böyledir. Kişisel özellik önem taşımayan işlerde yüklenicinin borcu mirasçılara geçer (TMK m. 599)."
+  },
+  {
+   "stem_md": "TBK m. 486'ya göre kişisel özellikleri nedeniyle sona eren sözleşmede, eserin tamamlanan kısmından yararlanabilecek olan işsahibinin durumu nedir?",
+   "options": [
+    "Yalnız sebepsiz zenginleşme kadar ödeme yapar.",
+    "Tamamlanan kısım için yüklenicinin mirasçılarından tazminat ister.",
+    "Tamamlanan kısmı reddedebilir; karşılık ödemez.",
+    "O kısmı kabul etmek ve karşılığını vermekle yükümlüdür."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kişisel özellikli sözleşmenin yüklenicinin ölümü veya yeteneğini kaybetmesiyle sona ermesi hâlinde işsahibi, eserin tamamlanan kısmından yararlanabilecek ise onu kabul etmek ve karşılığını vermekle yükümlüdür (TBK m. 486)."
+  },
+  {
+   "stem_md": "Arsa payı karşılığı inşaat sözleşmesinin geçerliliği hangi şekle bağlıdır?",
+   "options": [
+    "Resmî şekil (uygulamada noterde düzenleme şekli) gerekir.",
+    "Hiçbir şekle bağlı değildir; sözlü yapılabilir.",
+    "Yalnız imzaların noterce onaylanması yeterlidir.",
+    "Adi yazılı şekil yeterlidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Arsa payı karşılığı inşaat sözleşmesi eser ve taşınmaz mülkiyetinin devrine ilişkin vaadi birleştiren karma bir sözleşmedir. Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması resmî şekle bağlıdır (TMK m. 706/1; TBK m. 237). Uygulamada noterde düzenleme şeklinde yapılır (1512 sayılı Kanun m. 60 ve 89)."
+  },
+  {
+   "stem_md": "Arsa sahibi Ahmet, yüklenici Yıldız Yapı ile adi yazılı bir arsa payı karşılığı inşaat sözleşmesi yapmış ve arsa payını tapuda Yıldız'a devretmiştir. Yıldız inşaata başlamayınca Ahmet, \"sözleşme adi yazılı olduğundan baştan geçersizdir\" demektedir. Bu savunma karşısında hangisi doğrudur?",
+   "options": [
+    "Sözleşme ancak noter onayı sonradan alınırsa geçerli olur.",
+    "Şekil eksikliği yalnız yüklenici tarafından ileri sürülemez; arsa sahibi her zaman ileri sürebilir.",
+    "Arsa payı tapuda yükleniciye devredildiğinden Ahmet şekil eksikliğini ileri süremez.",
+    "Sözleşme şekle aykırı olduğundan her koşulda geçersizdir; Ahmet haklıdır."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Resmî şekle uyulmayan arsa payı karşılığı inşaat sözleşmesi kural olarak geçersizdir; ancak arsa payı tapuda yükleniciye devredilmişse ya da inşaat önemli ölçüde yapılmışsa şekil eksikliğinin sonradan ileri sürülmesi dürüstlük kuralına aykırıdır (TMK m. 2; 1988 tarihli içtihadı birleştirme kararı). Bu istisna her iki tarafı da bağlar."
+  },
+  {
+   "stem_md": "Arsa sahibi Aylin, yükleniciye devrettiği payın yükleniciden bir üçüncü kişi Deniz'e satılmasından sonra, yüklenicinin temerrüdü yüzünden sözleşmeden geriye etkili olarak dönmüştür. Deniz, tapu siciline güvenmiş ve sözleşmeden haberi yoktur. Aylin, Deniz adına olan tapunun iptalini istemektedir. 16 Mayıs 2025 tarihli içtihadı birleştirme kararına göre ne gereklidir?",
+   "options": [
+    "Aylin, Deniz'in iktisap anında devrin sözleşme gereği yapıldığını ve geriye etkili fesih koşullarının bulunduğunu bildiğini veya bilmesi gerektiğini ispatlamalıdır.",
+    "Deniz, iyiniyetli olduğunu Aylin'e karşı ispatlamak zorundadır.",
+    "Deniz'in iyiniyet savunması dinlenmez; tapu otomatik olarak Aylin'e döner.",
+    "Deniz iyiniyetli olsa bile tapu Aylin'e döner, Deniz yükleniciye başvurur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İçtihadı Birleştirme Büyük Genel Kurulu'na göre yükleniciden pay alan üçüncü kişinin kazanımı TMK m. 3 ve TMK m. 1023 uyarınca korunur; iyiniyet karinedir. Arsa sahibi, üçüncü kişinin iktisap anında devrin sözleşme gereği yapıldığını ve geriye etkili fesih koşullarının bulunduğunu bildiğini veya bilmesi gerektiğini ispatlarsa tapu ona döner."
+  },
+  {
+   "stem_md": "Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'nun 16 Mayıs 2025 tarihli kararından önceki yaklaşım ile bu karar arasındaki fark hangisinde doğru verilmiştir?",
+   "options": [
+    "Karar yalnız ipotek lehtarlarını kapsar; satın alanlar eskisi gibi korunmaz.",
+    "Karar, geriye etkili feshi tamamen yasaklamıştır.",
+    "Önce üçüncü kişinin iyiniyeti korunurdu; karardan sonra korunmaz.",
+    "Önce yükleniciye yapılan devir avans sayılır, üçüncü kişinin iyiniyeti dinlenmezdi; karardan sonra avans tapu kavramı reddedilmiş, iyiniyet korunmaktadır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Eski içtihat yükleniciye yapılan devri avans sayıyor ve geriye etkili fesihte üçüncü kişilerin iyiniyet savunmasını dinlemiyordu. 2025 tarihli içtihadı birleştirme kararı avans tapu kavramının eşya hukukumuzda yer almadığını belirtmiş, yükleniciden pay satın alan ya da lehine ipotek kurulan üçüncü kişinin iyiniyetini TMK m. 3 ve TMK m. 1023 ile korumuştur."
+  },
+  {
+   "stem_md": "Yüklenici Ece, arsa payı karşılığı inşaat sözleşmesi gereği inşaatın yaklaşık yüzde 95'ini tamamlamış, ardından temerrüde düşmüştür. Arsa sahibi Orhan sözleşmeden geriye etkili dönmek istemektedir. Yargıtay İçtihadı Birleştirme Büyük Genel Kurulu'na göre durum nedir?",
+   "options": [
+    "İnşaat büyük ölçüde tamamlandığından geriye etkili dönme dürüstlük kuralına aykırıdır; sözleşme ancak ileriye etkili olarak feshedilebilir.",
+    "Sözleşme kendiliğinden sona erer.",
+    "Orhan yalnız bedelden indirim isteyebilir.",
+    "Orhan her koşulda geriye etkili dönebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İnşaat büyük ölçüde (uygulamada yüzde 90 ve üzeri) tamamlanmışsa ve geriye etkili dönme dürüstlük kuralına aykırı düşüyorsa sözleşme yalnız ileriye etkili olarak feshedilebilir (TMK m. 2). Sözleşme kendiliğinden sona ermez; TBK m. 486 yüklenicinin ölümüne ilişkindir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "İşsahibi Selim, Çeşme'deki arsasına villa yapılması için Demir İnşaat Ltd. Şti. ile 1 Mart 2025'te 5.000.000 TL götürü bedelli yazılı eser sözleşmesi imzalar. Villa 1 Mart 2026'da teslim edilecektir. İşin başında Demir, inşaat malzemelerinde yaklaşık yüzde 8 oranında olağan bir fiyat artışı olduğunu söyleyerek bedelin 5.400.000 TL'ye çıkarılmasını ister; Selim kabul etmez. Demir işi sürdürür. Toplu malzeme alımları sayesinde villayı sözleşmedeki kalitede, öngördüğünden 800.000 TL daha ucuza tamamlar.\n\nİş sürerken Selim, sözleşmede ve projede bulunmayan bir yüzme havuzunun da yapılmasını yazılı olarak ister. Demir havuzu yapar, ancak havuzun bedeli konusunda taraflar anlaşmamıştır. Villa ve havuz 15 Mart 2026'da teslim edilir. Selim, \"gerçek maliyet daha düşük çıktı\" diyerek 800.000 TL indirim ister ve havuz için de ayrıca bir şey ödemeyeceğini söyler.\n\n1. Demir'in 5.400.000 TL isteminin ve olağan fiyat artışının sözleşmeye etkisinin durumu nedir?\n2. Selim'in 800.000 TL indirim istemi haklı mıdır?\n3. Havuzun bedeli nasıl belirlenir?\n4. Bedel borcu hangi anda muaccel olmuştur?",
+   "rubric": [
+    {
+     "point": "Bedel götürü olduğundan Demir'in eseri o bedelle yapmakla yükümlü olması; fazla masraf nedeniyle bedelin artırılmasını isteyememesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 480"
+    },
+    {
+     "point": "Yüzde 8'lik olağan fiyat artışının eserin yapılmasını engellemeyen ya da son derece güçleştirmeyen bir durum olması; uyarlama, dönme veya fesih koşullarının gerçekleşmemesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 480"
+    },
+    {
+     "point": "Eser öngörülenden az masraf gerektirse de Selim'in bedelin tamamını ödemekle yükümlü olması; 800.000 TL indirim isteyememesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 480"
+    },
+    {
+     "point": "Havuzun sözleşme ve proje kapsamı dışında, götürü bedele dahil olmayan ilave iş olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 481"
+    },
+    {
+     "point": "Bedeli belirlenmemiş ilave işin bedelinin yapıldığı yer ve zamandaki değerine ve yüklenicinin giderine göre belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TBK m. 481"
+    },
+    {
+     "point": "Bedel borcunun eserin teslimi anında (15 Mart 2026) muaccel olması",
+     "weight": 10,
+     "madde_ref": "TBK m. 479"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Selim ile Demir arasındaki sözleşme, yüklenicinin villa meydana getirmeyi, işsahibinin de karşılığında bedel ödemeyi üstlendiği bir eser sözleşmesidir (TBK m. 470). Bedel 5.000.000 TL olarak baştan kesin belirlendiğinden **götürü bedel** sistemi geçerlidir. Havuz ise sözleşme dışında yapılan ilave bir işe ilişkindir.\n\n**Hukuki sorunlar:** (1) Götürü bedelin artırılması ve uyarlama; (2) götürü bedelde indirim; (3) kapsam dışı işin bedeli; (4) muacceliyet.\n\n**İlgili hükümler:** TBK m. 479/1; TBK m. 480/1, TBK m. 480/2 ve TBK m. 480/3; TBK m. 481.\n\n**Değerlendirme:**\n\n*1. Bedelin artırılması.* Bedel götürü olarak belirlenmişse yüklenici, eseri o bedelle meydana getirmekle yükümlüdür; eser fazla emek ve masraf gerektirmiş olsa bile bedelin artırılmasını isteyemez (TBK m. 480/1). Demir'in 5.400.000 TL istemi bu yüzden yerinde değildir. TBK m. 480/2'nin kapısı da kapalıdır: Uyarlama, dönme ya da fesih için başlangıçta öngörülemeyen (ya da öngörülebilir olduğu hâlde göz önünde tutulmayan) bir durumun, götürü bedelle eserin yapılmasına engel olması veya onu son derece güçleştirmesi gerekir. Yüzde 8'lik olağan bir fiyat artışı eserin yapılmasını engellememiş, Demir de işi tamamlamıştır. Üstelik uyarlama önce hâkimden istenir; Demir'in bedeli kendiliğinden artırması mümkün değildir.\n\n*2. İndirim.* Eser öngörülenden az emek ve masraf gerektirmiş olsa bile işsahibi, belirlenen bedelin tamamını ödemekle yükümlüdür (TBK m. 480/3). Demir'in toplu alımlarla elde ettiği 800.000 TL'lik tasarruf kendisinde kalır. Selim'in indirim istemi yerinde değildir ve 5.000.000 TL'yi ödemelidir.\n\n*3. Havuz.* Götürü bedel, sözleşmede ve projede yer alan işleri kapsar. Havuz bunların dışında, Selim'in yazılı talimatıyla yapılmış ilave bir iştir ve 5.000.000 TL'ye dahil değildir. Bedeli konusunda anlaşma olmadığından bedel, yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine bakılarak belirlenir (TBK m. 481). Selim \"ayrıca bir şey ödemem\" diyemez; Demir havuzun bedelini isteyebilir.\n\n*4. Muacceliyet.* İşsahibinin bedel ödeme borcu eserin teslimi anında muaccel olur (TBK m. 479/1). Taraflar avans ya da hakediş düzeni kararlaştırmadığına göre bedel borcu 15 Mart 2026'da muaccel olmuştur.\n\n**Sonuç:**\n- Demir bedelin artırılmasını isteyemez ve uyarlama koşulları gerçekleşmemiştir.\n- Selim 800.000 TL indirim isteyemez; 5.000.000 TL'yi öder.\n- Havuzun bedeli ayrıca, TBK m. 481'deki ölçüye göre belirlenir ve Selim tarafından ödenir.\n- Bedel borcu teslim anında, 15 Mart 2026'da muaccel olmuştur."
+  },
+  {
+   "stem_md": "Marangoz Mehmet, Zeynep'in verdiği ve değeri 400.000 TL olan ceviz keresteden bir yemek odası takımı yapmayı 150.000 TL ücretle üstlenmiştir. Takım bitmiştir, ama Zeynep henüz teslim alınması için çağrılmamış; Zeynep teslim almada temerrüde düşmemiştir. Teslimden önce atölyeye yıldırım düşer, çıkan yangında takım ve kereste tamamen yanar. Kimsenin kusuru yoktur. Mehmet 150.000 TL ücret ve 20.000 TL masraf ister. Zeynep ise kerestenin değeri olan 400.000 TL'yi Mehmet'ten ister.\n\nAynı dönemde Zeynep, yamaçtaki bahçesine istinat duvarı yapılması için müteahhit Kemal ile sözleşme yapar. Kemal, zeminin kaymaya elverişli olduğunu ve duvarın yıkılabileceğini Zeynep'e hemen yazılı bildirir. Zeynep, duvarın aynı yerde yapılmasında ısrar eder. Duvar tamamlanmadan ilk şiddetli yağışta zemin kayması yüzünden yıkılır. Kemal'in o ana kadar yaptığı işin değeri 90.000 TL, bu değere girmeyen masrafı 10.000 TL'dir. Kemal, Zeynep'in kusurlu olduğunu ileri sürerek ayrıca zararının giderilmesini de ister.\n\n1. Mehmet'in ücret ve masraf istemi hakkında ne söylenebilir?\n2. Zeynep'in 400.000 TL istemi haklı mıdır?\n3. Kemal'in istemleri ve bildirimin önemi nedir?\n4. Kemal'in ek zarar talebi hangi koşulda yerindedir?",
+   "rubric": [
+    {
+     "point": "Eserin teslimden önce beklenmedik olay sonucu yok olması ve işsahibinin teslim almada temerrüde düşmemesi; yüklenicinin ücret ve giderlerini isteyememesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 483"
+    },
+    {
+     "point": "Malzemeye gelen hasarın onu sağlayana ait olması; kerestenin kaybının Zeynep'te kalması ve Mehmet'ten istenememesi",
+     "weight": 20,
+     "madde_ref": "TBK m. 483"
+    },
+    {
+     "point": "İkinci olayda yok olmanın işsahibince gösterilen arsanın ayıbından ve işsahibinin talimatına uygun yapılmasından doğması",
+     "weight": 15,
+     "madde_ref": "TBK m. 483"
+    },
+    {
+     "point": "Kemal'in olumsuz sonuçları zamanında bildirmiş olması; yaptığı işin değerini (90.000 TL) ve bu değere girmeyen giderlerini (10.000 TL) isteyebilmesi",
+     "weight": 25,
+     "madde_ref": "TBK m. 483"
+    },
+    {
+     "point": "Zeynep'in kusuru varsa Kemal'in ayrıca zararının giderilmesini isteyebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 483"
+    },
+    {
+     "point": "İki olayın ayrımı: sebebin kimsenin alanında olmadığı hâlde yüklenicinin ücret isteyememesi, işsahibinin alanında olduğu hâlde isteyebilmesi; her ikisinde sözleşmenin eser sözleşmesi olması",
+     "weight": 5,
+     "madde_ref": "TBK m. 470"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Her iki sözleşme de yüklenicinin bir eser meydana getirmeyi, işsahibinin bedel ödemeyi üstlendiği eser sözleşmesidir (TBK m. 470). Uyuşmazlık, eserin teslimden önce yok olması hâlinde zararın kime ait olduğudur.\n\n**Hukuki sorunlar:** (1) Beklenmedik olayla yok olmada ücret ve malzeme hasarı; (2) işsahibinin alanından doğan yok olma; (3) bildirim şartı; (4) işsahibinin kusuru.\n\n**İlgili hükümler:** TBK m. 483/1 ve TBK m. 483/2.\n\n**Değerlendirme:**\n\n*1. Marangoz olayı.* Eser teslimden önce beklenmedik olay sonucu yok olmuştur. Yıldırım kimsenin kusuruna dayanmayan bir olaydır ve Zeynep eseri teslim almada temerrüde düşmemiştir. Bu durumda yüklenici yaptığı işin ücretini ve giderlerini isteyemez (TBK m. 483/1). Mehmet'in 150.000 TL ücret ve 20.000 TL masraf istemi yerinde değildir.\n\n*2. Kereste.* TBK m. 483/1'e göre malzemeye gelen hasar, onu sağlayana aittir. Keresteyi Zeynep sağlamıştır; bu yüzden 400.000 TL'lik kayıp Zeynep'te kalır. Mehmet'in kusuru olmadığından Zeynep bu bedeli ondan isteyemez.\n\n*3. Kemal'in olayı.* Duvar, işsahibinin gösterdiği arsanın ayıbı (kaymaya elverişli zemin) ve işsahibinin talimatına uygun yapılması yüzünden yok olmuştur; bu, TBK m. 483/2'nin kapsamındadır. Kemal doğabilecek olumsuz sonuçları zamanında bildirmiştir; bu şart yerine geldiğinden yaptığı işin değerini (90.000 TL) ve bu değere girmeyen giderlerini (10.000 TL) isteyebilir. Bildirim yapılmamış olsaydı bu hakkı doğmazdı.\n\n*4. Ek zarar.* İşsahibinin kusuru varsa yüklenici ayrıca zararının giderilmesini de isteyebilir (TBK m. 483/2). Zeynep'in açık uyarıya rağmen ısrar etmesi kusur olarak değerlendirilirse Kemal bu istemde bulunabilir; kusurun bulunup bulunmadığı olayın özelliklerine göre belirlenir.\n\n**Sonuç:**\n- Mehmet ücret ve giderlerini isteyemez; kereste kaybı Zeynep'e aittir.\n- Kemal 90.000 TL işin değerini ve 10.000 TL giderini isteyebilir.\n- Zeynep kusurlu ise Kemal ayrıca zararını da isteyebilir."
+  },
+  {
+   "stem_md": "Arsa sahibi Ahmet, İstanbul'da tek parsel hâlindeki arsasında sekiz daireli bir bina yapılması için yüklenici Yıldız Yapı Ltd. Şti. ile 10 Şubat 2024'te adi yazılı bir kat karşılığı inşaat sözleşmesi imzalar. Sözleşmeye göre Yıldız dört daireyi Ahmet'e teslim edecek, karşılığında arsanın yarı payı Yıldız'a geçecektir. Ahmet, sözleşmeye güvenerek arsanın 1/2 payını tapuda Yıldız'a devreder.\n\nYıldız ruhsat alıp inşaata hiç başlamadan bu payı 3 Mayıs 2024'te Cemile'ye satar ve tapuda devreder. Cemile, tapu kaydını incelemiş ve Ahmet ile Yıldız arasındaki sözleşmeden haberi olmadığını söylemektedir. Tapuda sözleşmeye ilişkin bir şerh de yoktur.\n\nAhmet, Yıldız'ın edimini yerine getirmemesi üzerine sözleşmeden geriye etkili olarak döner ve Cemile adına olan tapunun iptalini, payın kendi adına tescilini ister. Ayrıca sözleşmenin adi yazılı olması nedeniyle baştan geçersiz olduğunu da ileri sürer. Cemile ise tapuya güvendiğini savunur.\n\n1. Sözleşmenin niteliği ve şekli nedir? Ahmet'in \"baştan geçersiz\" savunması dinlenir mi?\n2. Sözleşme geriye etkili mi, ileriye etkili mi sona erdirilmelidir?\n3. Cemile'nin durumu ne olur? İspat yükü kimdedir?\n4. Ahmet kendini nasıl koruyabilirdi?",
+   "rubric": [
+    {
+     "point": "Sözleşmenin eser sözleşmesi ve arsa payı devir vaadini birleştiren karma sözleşme olması; resmî şekle tabi olması",
+     "weight": 20,
+     "madde_ref": "TMK m. 706"
+    },
+    {
+     "point": "Adi yazılı olsa da arsa payı tapuda yükleniciye devredildiği için şekil eksikliğinin ileri sürülememesi",
+     "weight": 20,
+     "madde_ref": "TMK m. 2"
+    },
+    {
+     "point": "Yüklenici inşaata hiç başlamadığından inşaatın büyük ölçüde tamamlanmamış olması; geriye etkili dönmenin mümkün olması",
+     "weight": 15,
+     "madde_ref": "TBK m. 125"
+    },
+    {
+     "point": "Avans tapu kavramının kabul edilmemesi; yükleniciden pay alan iyiniyetli üçüncü kişi Cemile'nin kazanımının korunması",
+     "weight": 20,
+     "madde_ref": "TMK m. 1023"
+    },
+    {
+     "point": "İyiniyetin karine olması; Ahmet'in Cemile'nin iktisap anında devrin sözleşme gereği yapıldığını ve geriye etkili fesih koşullarının bulunduğunu bildiğini veya bilmesi gerektiğini ispatlama yükü",
+     "weight": 15,
+     "madde_ref": "TMK m. 3"
+    },
+    {
+     "point": "Ahmet'in sözleşmeyi noterde düzenleme şeklinde yaptırıp tapuya şerh verdirerek üçüncü kişilerin iyiniyetini önleyebilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 1009"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ahmet ile Yıldız arasındaki sözleşme, yüklenicinin inşaat yapmayı, arsa sahibinin de karşılığında arsa payı devretmeyi üstlendiği **arsa payı karşılığı inşaat sözleşmesidir.** Eser sözleşmesi ile taşınmaz devir vaadini birleştiren karma bir sözleşmedir; bedel ayın olarak ödenmektedir.\n\n**Hukuki sorunlar:** (1) Şekil ve şekil eksikliğinin ileri sürülememesi; (2) dönme–fesih ayrımı; (3) üçüncü kişi Cemile'nin korunması ve ispat yükü; (4) Ahmet'in korunma yolu.\n\n**İlgili hükümler:** TMK m. 706/1; TBK m. 237; TMK m. 2; TBK m. 125; TMK m. 3; TMK m. 1023; TMK m. 1009.\n\n**Değerlendirme:**\n\n*1. Şekil.* Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması resmî şekle bağlıdır (TMK m. 706/1; TBK m. 237). Arsa payı karşılığı inşaat sözleşmesi pay devri vaadini içerdiğinden resmî şekle tabidir; adi yazılı sözleşme kural olarak geçersizdir. Ancak arsa payı tapuda yükleniciye devredilmişse şekil eksikliğinin sonradan ileri sürülmesi dürüstlük kuralına aykırıdır (TMK m. 2; 1988 tarihli içtihadı birleştirme kararı). Ahmet payı tapuda devrettiği için \"baştan geçersiz\" savunması dinlenmez.\n\n*2. Sona erme biçimi.* Yıldız inşaata hiç başlamamıştır. İnşaat büyük ölçüde tamamlanmışsa geriye etkili dönme dürüstlük kuralına aykırı düşer ve yalnız ileriye etkili fesih mümkün olur; burada böyle bir durum yoktur. Yüklenicinin temerrüdünde kural olan geriye etkili dönme (TBK m. 125) uygulanabilir.\n\n*3. Cemile.* Eski içtihat, yükleniciye yapılan devri \"avans tapu\" sayıp geriye etkili fesihte üçüncü kişinin iyiniyetini dinlemiyordu. 16 Mayıs 2025 tarihli İçtihadı Birleştirme Kararı ile bu görüşten dönülmüştür: Avans tapu kavramı yoktur ve yükleniciden pay alan üçüncü kişinin kazanımı TMK m. 3 ve TMK m. 1023 uyarınca korunur. İyiniyet karinedir (TMK m. 3). Ahmet, Cemile'nin iktisap anında tapunun sözleşme gereği yükleniciye devredildiğini ve geriye etkili fesih koşullarının bulunduğunu bildiğini veya bilmesi gerektiğini ispatlayamazsa tapu iptal edilemez.\n\n*4. Korunma.* Ahmet sözleşmeyi noterde düzenleme şeklinde yaptırıp tapuya şerh verdirseydi (TMK m. 1009; 2644 sayılı Kanun m. 26 şerhi noterce düzenlenmiş arsa payı karşılığı inşaat sözleşmesi için öngörür; adi yazılı sözleşme bu yolla şerh edilemez) sonradan hak kazanan Cemile kayıttan haberdar sayılacak ve iyiniyet iddiasında bulunamayacaktı. Ahmet'in Yıldız'a karşı sözleşme ve genel hükümlerden doğan istemleri saklıdır.\n\n**Sonuç:**\n- Sözleşme karma, resmî şekle tabi bir sözleşmedir; ancak pay tapuda devredildiği için Ahmet şekil eksikliğini ileri süremez.\n- Yıldız inşaata başlamadığından geriye etkili dönme mümkündür.\n- Cemile iyiniyetlidir ve kazanımı korunur; Ahmet kötüniyeti ispatlayamazsa tapu iptali talebi reddedilir.\n- Ahmet kendini sözleşmeyi noterde düzenletip tapuya şerh ettirerek koruyabilirdi."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Eser sözleşmesinde bedel borcu ne zaman muaccel olur? (TBK m. 479)",
+   "back_md": "Kural olarak eserin teslimi anında. Parça parça teslim ve bedel parçalara göre belirlenmişse her parçanın bedeli o parçanın tesliminde. Avans ve hakediş sözleşmeyle kararlaştırılabilir."
+  },
+  {
+   "front_md": "Götürü bedelde iki yasak nedir? (TBK m. 480)",
+   "back_md": "Yüklenici fazla emek ve masrafta bedelin artırılmasını isteyemez (m. 480/1). İşsahibi az emek ve masrafta bedelin indirilmesini isteyemez, tamamını öder (m. 480/3)."
+  },
+  {
+   "front_md": "TBK m. 480/2'nin koşulları?",
+   "back_md": "Başlangıçta öngörülemeyen (ya da öngörülebilip göz önünde tutulmayan) durumlar, götürü bedelle eserin yapılmasına engel olmalı veya son derece güçleştirmeli."
+  },
+  {
+   "front_md": "TBK m. 480/2'de yüklenicinin hakları nasıl sıralanır?",
+   "back_md": "Önce hâkimden uyarlama; mümkün değilse veya karşı taraftan beklenemezse dönme; dürüstlük kuralı gerektiriyorsa yalnız fesih. Genel kural TBK m. 138'dir."
+  },
+  {
+   "front_md": "Bedel belirlenmemişse veya yaklaşık belirlenmişse bedel nasıl bulunur? (TBK m. 481)",
+   "back_md": "Yapıldığı yer ve zamanda eserin değerine ve yüklenicinin giderine bakılarak belirlenir."
+  },
+  {
+   "front_md": "Yaklaşık bedel aşılırsa işsahibinin hakkı? (TBK m. 482/1)",
+   "back_md": "Kusuru olmaksızın bedel aşırı ölçüde aşılacaksa eser tamamlanmadan veya tamamlandıktan sonra sözleşmeden dönebilir."
+  },
+  {
+   "front_md": "Eser işsahibinin arsasındaysa yaklaşık bedel aşımında ne olur? (TBK m. 482/2)",
+   "back_md": "Bedelden uygun miktarda indirim istenebilir; eser tamamlanmamışsa yüklenici işten alıkonup tamamlanan kısım için hakkaniyete uygun bedel ödenerek sözleşme feshedilebilir."
+  },
+  {
+   "front_md": "Eser teslimden önce beklenmedik olayla yok olursa? (TBK m. 483/1)",
+   "back_md": "İşsahibi teslim almada temerrüde düşmedikçe yüklenici ücret ve gider isteyemez. Malzemeye gelen hasar onu sağlayana aittir."
+  },
+  {
+   "front_md": "Eser işsahibinin malzeme/arsa ayıbı veya talimatıyla yok olursa? (TBK m. 483/2)",
+   "back_md": "Yüklenici olumsuz sonuçları zamanında bildirmişse yaptığı işin değerini ve bu değere girmeyen giderlerini ister; işsahibi kusurluysa ayrıca zararını da."
+  },
+  {
+   "front_md": "Tazminat karşılığı fesih nedir? (TBK m. 484)",
+   "back_md": "İşsahibi, tamamlanmadan önce yapılan kısmın karşılığını ödeyip yüklenicinin bütün zararlarını gidererek sözleşmeyi feshedebilir."
+  },
+  {
+   "front_md": "TBK m. 482/2 ile TBK m. 484 farkı?",
+   "back_md": "TBK m. 482/2'de işsahibi yalnız tamamlanan kısım için hakkaniyete uygun bedel öder (aşım ve arsa şartı var). TBK m. 484'te ayrı sebep aranmaz, yapılan kısım ve bütün zararlar ödenir."
+  },
+  {
+   "front_md": "İşsahibi yüzünden imkânsızlıkta yüklenici ne ister? (TBK m. 485)",
+   "back_md": "Yaptığı işin değerini ve bu değere girmeyen giderlerini; işsahibi kusurluysa ayrıca tazminat."
+  },
+  {
+   "front_md": "TBK m. 483/1 ile TBK m. 485 farkı?",
+   "back_md": "TBK m. 483/1'de olay kimsenin alanında değildir ve yüklenici ücret isteyemez. TBK m. 485'te olay işsahibiyle ilgilidir ve yüklenici işin değerini ve giderlerini alır."
+  },
+  {
+   "front_md": "Yüklenicinin ölümü eser sözleşmesini sona erdirir mi? (TBK m. 486)",
+   "back_md": "Kişisel özellikler göz önünde tutulmuşsa kendiliğinden sona erer; işsahibi yararlanabileceği tamamlanmış kısmı kabul edip karşılığını öder. Aksi hâlde borç mirasçılara geçer (TMK m. 599)."
+  },
+  {
+   "front_md": "Arsa payı karşılığı inşaat sözleşmesinin niteliği ve şekli?",
+   "back_md": "Eser sözleşmesi ve arsa payı devir vaadini içeren karma sözleşme; resmî şekle tabidir (TMK m. 706; TBK m. 237). Paylı mülkiyette bütün paydaşların katılımı gerekir (TMK m. 692)."
+  },
+  {
+   "front_md": "Adi yazılı arsa payı karşılığı inşaat sözleşmesi ne zaman geçerli sayılır?",
+   "back_md": "Arsa payı tapuda yükleniciye devredilmişse ya da inşaat tamamen veya önemli ölçüde yapılmışsa şekil eksikliği ileri sürülemez (TMK m. 2; 1988 tarihli içtihadı birleştirme kararı)."
+  },
+  {
+   "front_md": "İnşaat büyük ölçüde tamamlanmışsa sözleşme nasıl sona erer?",
+   "back_md": "Büyük ölçüde (uygulamada yüzde 90 ve üzeri) tamamlanmışsa geriye etkili dönme dürüstlük kuralına aykırıdır; sözleşme yalnız ileriye etkili olarak feshedilebilir."
+  },
+  {
+   "front_md": "'Avans tapu' görüşü hâlâ geçerli mi?",
+   "back_md": "Hayır. 16 Mayıs 2025 tarihli İçtihadı Birleştirme Kararı ile terk edildi. Avans tapu kavramı yoktur; yükleniciden pay alan iyiniyetli üçüncü kişinin kazanımı korunur (TMK m. 3 ve TMK m. 1023)."
+  },
+  {
+   "front_md": "Geriye etkili fesihte tapunun arsa sahibine dönmesi için neyi ispatlamak gerekir?",
+   "back_md": "Üçüncü kişinin iktisap anında tapunun sözleşme gereği yükleniciye devredildiğini ve geriye etkili fesih koşullarının bulunduğunu bildiğini veya bilmesi gerektiğini."
+  },
+  {
+   "front_md": "Arsa sahibi üçüncü kişilerin iyiniyet iddiasını nasıl önleyebilir?",
+   "back_md": "Noterde düzenlenmiş sözleşmeyi tapuya şerh verdirerek (TMK m. 1009; 2644 sayılı Kanun m. 26). Şerhten sonra hak kazanan kişi iyiniyet iddiasında bulunamaz."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

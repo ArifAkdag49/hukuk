@@ -1,0 +1,475 @@
+{
+ "course_id": "HUK3015",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Kamu İdaresinin Güvenilirliğine ve Adliyeye Karşı Suçlar",
+ "topic_index": 2,
+ "slug": "gorevi-kotuye-kullanma-ve-diger-kamu-gorevi-suclari",
+ "title": "Nüfuz Ticareti, Zor Kullanma Yetkisinin Aşılması, Görevi Kötüye Kullanma, Göreve İlişkin Sırrın Açıklanması, Kamu Görevinin Terki ve Görevi Yaptırmamak İçin Direnme",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T16:56:01.923091+00:00",
+ "skill_refs": [
+  "ceza-hukuku-ozel/kamu-idaresine-karsi-suclar"
+ ],
+ "content": {
+  "summary_md": "Bu konu, rüşvet ve zimmet gibi \"büyük\" görev suçlarının dışında kalan ama sınavda hep birlikte sorulan kamu idaresi suçlarını toplar.\n\n- **Nüfuz ticareti (TCK m. 255):** Kamu görevlisi üzerinde nüfuzu olduğunu söyleyip **haksız bir işin** gördürülmesi için menfaat alan kişi 2-5 yıl hapis ve beşbin güne kadar adli para cezası alır. Herkes fail olabilir; fail kamu görevlisiyse hapis cezası yarı oranında artırılır. İşini gördürmek için menfaat veren kişi 1-3 yıl hapisle cezalandırılır. Anlaşma yapılınca suç tamamlanır (TCK m. 255/2). Bu suçta etkin pişmanlık hükmü yoktur.\n- **Zor kullanma yetkisinin aşılması (TCK m. 256):** Ölçüsüz kuvvet kullanan yetkili görevli hakkında kasten yaralamaya ilişkin hükümler uygulanır; kendi cezası yoktur, yollama normudur.\n- **Görevi kötüye kullanma (TCK m. 257):** Başka bir suç olarak tanımlanmayan hâllerde, görevin gereklerine aykırı hareket (6 ay-2 yıl) veya ihmal ve gecikme (3 ay-1 yıl). Kişilerin mağduriyeti, kamunun zararı veya haksız menfaat sağlanması şarttır. Tamamlayıcı (ikincil) normdur.\n- **Göreve ilişkin sırrın açıklanması (TCK m. 258):** Gizli kalması gereken belge, karar ve emirleri açıklayan kamu görevlisine 1-4 yıl hapis; sıfat sona erdikten sonra işleyen de aynı cezayı alır.\n- **Kamu görevlisinin ticareti (TCK m. 259):** Görevin nüfuzuyla mal veya hizmet satmaya çalışana altı aya kadar hapis veya adli para cezası.\n- **Kamu görevinin terki veya yapılmaması (TCK m. 260):** Hukuka aykırı ve **toplu** biçimde görevi bırakan, gelmeyen veya yavaşlatan her görevliye 3 ay-1 yıl hapis. Görevli sayısı **üçten fazla değilse** cezaya hükmolunmaz. Hizmeti aksatmayan, kısa süreli ve mesleki-sosyal haklara ilişkin iş bırakmalarda indirim yapılabilir ya da ceza verilmeyebilir.\n- **Görevi yaptırmamak için direnme (TCK m. 265):** Kamu görevlisine görevini engellemek amacıyla cebir veya tehdit kullanana 6 ay-3 yıl; yargı görevi yapan kişilere karşı 2-4 yıl. Birlikte veya yüzü gizli işlenirse üçte bir, silahla ya da örgüt gücüyle işlenirse yarı oranında artırım. Neticesi sebebiyle ağırlaşmış yaralama olursa ayrıca kasten yaralama hükümleri uygulanır.\n- **Ayrım:** Menfaat işi yapacak görevliye gidiyorsa rüşvet (TCK m. 252); nüfuzu olduğunu söyleyen kişiye ve haksız iş için gidiyorsa nüfuz ticareti; iş haklıysa ve nüfuz yalansa dolandırıcılık (TCK m. 158/2).\n- 📌 TCK m. 255-260 ve TCK m. 265 maddelerinde 2021 sonrası bir değişiklik yoktur; TCK m. 257'deki cezalar 2010'da (6086), TCK m. 255 ise 2012'de (6352) son biçimini almıştır.",
+  "content_md": "## 1. Bu suçların ortak mantığı\n\nTCK'nın Dördüncü Kısım Birinci Bölümü kamu idaresinin güvenilirliğini ve işleyişini korur. Bu notta ele alınan suçların çoğu **özgü suçtur**: fail, TCK m. 6/1-c anlamında kamu görevlisi olmalıdır. Kamu görevlisi, kamusal faaliyetin yürütülmesine atama veya seçilme yoluyla ya da herhangi bir surette sürekli, süreli veya geçici olarak katılan kişidir. Örneğin emekli olup kendi özel muayenehanesini işleten bir hekim ya da kamusal faaliyete katılmayan bir esnaf bu sıfata sahip değildir.\n\nİki suç bunun dışındadır. **Nüfuz ticaretinde (TCK m. 255)** herkes fail olabilir; **görevi yaptırmamak için direnmede (TCK m. 265)** ise kamu görevlisi fail değil, mağdurdur.\n\n## 2. Nüfuz ticareti (TCK m. 255)\n\nNüfuz ticareti, kamu görevlisi üzerinde nüfuzu olduğunu öne süren kişinin, **haksız bir işin** gördürülmesi amacıyla girişimde bulunması karşılığında menfaat sağlamasıdır. Kanun metni \"nüfuz sahibi olduğundan bahisle\" der; bu ifadeden yola çıkan görüşe göre nüfuzun ileri sürülmesi yeterlidir. Ancak Yargıtay, failin kamu görevlisi üzerinde nüfuzunun bulunmasını ve işi yapacak görevlinin belli olmasını da arar (tartışma doktrin bölümünde). Sınavda en güvenli yol, nüfuzun gerçek olup olmadığını olaydan tespit edip gerekçeye yazmaktır.\n\n**Cezalar (TCK m. 255/1):**\n\n| Kim? | Ceza |\n|---|---|\n| Nüfuz satıp menfaat sağlayan | 2-5 yıl hapis ve beşbin güne kadar adli para cezası |\n| Fail kamu görevlisiyse | Hapis cezası yarı oranında artırılır |\n| İşini gördürmek için menfaat veren | 1-3 yıl hapis |\n\nDikkat edilecek unsurlar:\n\n- **İş haksız olmalıdır.** Gördürülmek istenen işin hukuka aykırı olduğu bilinmelidir. Örneğin imar mevzuatına aykırı bir binaya ruhsat çıkarılması haksız iştir.\n- **Menfaat girişim için verilir.** Menfaat, işi yapacak görevliye değil, nüfuzu olduğunu söyleyen kişiye (veya onun göstereceği bir başkasına) gider.\n- **Anlaşma yeterlidir.** Menfaat temini konusunda anlaşmaya varılması hâlinde suç tamamlanmış gibi cezaya hükmolunur (TCK m. 255/2). Paranın fiilen ödenmesi gerekmez.\n- **Teklif veya talep kabul edilmezse** ceza yarı oranında indirilir (TCK m. 255/3).\n- **Aracı ve dolaylı yararlanan** müşterek fail olarak aynı cezayı alır (TCK m. 255/4-5).\n- **Girişimin kendisi ayrı suçsa** (örneğin görevliye rüşvet verilmesi) kişi ayrıca o suçtan da cezalandırılır (TCK m. 255/6).\n\n> **Örnek:** Gerçekten belediye başkanının yakın arkadaşı olan Cem, bu yakınlığını öne sürerek Mehmet'e \"ruhsatı çıkarırım\" der. Mehmet'in binası ruhsata elverişli değildir ve bunu bilmektedir. Mehmet 300.000 TL vermeyi kabul eder. Cem 2-5 yıl hapis ve adli para cezasıyla, Mehmet ise 1-3 yıl hapisle cezalandırılır. Anlaşma yapıldığı için paranın ödenmemiş olması sonucu değiştirmez.\n\n> ⚠️ **Sınavda dikkat:** Etkin pişmanlık hükmü TCK m. 254'te **rüşvet** için düzenlenmiştir. Nüfuz ticareti suçuna ilişkin böyle bir hüküm yoktur.\n\n**Üç suçu birbirinden ayırma:**\n\n- Menfaat **işi yapacak yetkili görevliye** (veya göstereceği kişiye) görevinin ifasıyla ilgili bir iş için gidiyorsa: **rüşvet** (TCK m. 252).\n- Menfaat, **nüfuzu olduğunu söyleyen kişiye** ve **haksız iş** için gidiyorsa: **nüfuz ticareti**; veren de cezalandırılır.\n- Kişinin işi **haklıdır** ve nüfuz yalandır, kişi aldatılmıştır: **dolandırıcılık**. TCK m. 158/2, kamu görevlileriyle ilişkisi olduğundan, onlar nezdinde hatırı sayıldığından bahisle ve belli bir işin gördürüleceği vaadiyle aldatarak menfaat temin edeni TCK m. 158/1 hükmüne göre cezalandırır. Burada iş sahibi fail değil, mağdurdur. Dolandırıcılığın genel tanımı TCK m. 157'dedir.\n\n## 3. Zor kullanma yetkisine ilişkin sınırın aşılması (TCK m. 256)\n\nZor kullanma yetkisine sahip kamu görevlisi (polis, jandarma, infaz görevlisi gibi), görevini yaptığı sırada kişilere karşı **görevinin gerektirdiği ölçünün dışında kuvvet** kullanırsa **kasten yaralama suçuna ilişkin hükümler** uygulanır. Madde kendi cezasını göstermez; TCK m. 86 ve TCK m. 87 gibi hükümlere yollama yapar.\n\n> **Örnek:** Gözaltındaki Ali direnmediği hâlde polis memuru Kemal onu tekmeler ve Ali'nin burnu kırılır. Kemal hakkında TCK m. 256 yollamasıyla kasten yaralama hükümleri uygulanır. Kuvvetin ölçülü kısmı ise zaten hukuka uygundur.\n\n## 4. Görevi kötüye kullanma (TCK m. 257)\n\nTCK m. 257, \"kanunda ayrıca suç olarak tanımlanan haller dışında\" uygulanır. Yani **tamamlayıcı (ikincil) normdur**: görevli hakkında rüşvet, zimmet, irtikap ya da başka özel bir suç oluşuyorsa TCK m. 257'ye geçilmez.\n\nİki şekli vardır:\n\n- **İcrai şekil (TCK m. 257/1):** Görevinin gereklerine aykırı hareket etmek. Ceza 6 ay-2 yıl hapistir.\n- **İhmali şekil (TCK m. 257/2):** Görevinin gereklerini yapmakta ihmal veya gecikme göstermek. Ceza 3 ay-1 yıl hapistir.\n\nHer iki şekilde de davranışın sonucunda şu üç durumdan biri gerçekleşmelidir: **kişilerin mağduriyeti**, **kamunun zararı** veya **kişilere haksız menfaat sağlanması**. Yargıtay, bu sonuçlardan hangisinin nasıl doğduğunun somut olarak gösterilmesini ister. Soyut bir usulsüzlük disiplin hukukunun konusudur, ceza hukukunun değil.\n\n> **Örnek:** Tapu memuru Kemal, eksiksiz belgeyle gelen Ayşe'nin işlemini hiçbir gerekçe olmadan beş ay bekletir; Ayşe satış fırsatını kaçırır. Kemal TCK m. 257/2 uyarınca cezalandırılır. Aynı gecikme hiçbir mağduriyet doğurmasaydı suç oluşmazdı.\n\n**Sınır çizgileri:**\n\n- Fail **kamu görevlisi** olmalıdır. Emekli olup kendi özel muayenehanesinde çalışan hekim, mevzuata aykırı davransa bile TCK m. 257'den cezalandırılamaz.\n- Görevli menfaat karşılığı davranıyorsa suç **rüşvettir** (TCK m. 252); TCK m. 257 devreye girmez.\n- Haksız bir işin gördürüleceği vaadi ve anlaşma yoksa, görevlinin usulsüz yardım parası alması nüfuz ticareti veya rüşvet değil, TCK m. 257/1 sayılabilir.\n\n## 5. Göreve ilişkin sırrın açıklanması (TCK m. 258) ve kamu görevlisinin ticareti (TCK m. 259)\n\n**TCK m. 258/1:** Görevi nedeniyle kendisine verilen ya da aynı nedenle öğrendiği, **gizli kalması gereken** belge, karar, emir ve tebligatı açıklayan, yayınlayan veya başkalarının bilgi edinmesini kolaylaştıran kamu görevlisi 1-4 yıl hapis alır. **TCK m. 258/2** uyarınca kamu görevlisi sıfatı sona erdikten sonra aynı fiili işleyen de aynı cezayı alır.\n\n> **Örnek:** Belediye müdürü Hasan, görevdeyken öğrendiği ve gizlilik kaydı taşıyan, henüz açıklanmamış imar planı değişikliği taslağını emekli olduktan sonra bir arsa yatırımcısına anlatır. Sıfatı sona ermiş olsa da TCK m. 258/2 gereği 1-4 yıl hapisle cezalandırılır.\n\n**TCK m. 259:** Yürüttüğü görevin sağladığı nüfuzdan yararlanarak bir başkasına mal veya hizmet satmaya çalışan kamu görevlisi, altı aya kadar hapis veya adli para cezası alır. Bu suçta görevlinin kendi nüfuzunu kullanması esastır; nüfuz ticaretindeki gibi \"üçüncü kişi üzerinde nüfuz\" söz konusu değildir.\n\n## 6. Kamu görevinin terki veya yapılmaması (TCK m. 260)\n\nHukuka aykırı ve **toplu biçimde** görevlerini terk eden, göreve gelmeyen, görevini geçici de olsa kısmen veya tamamen yapmayan ya da yavaşlatan kamu görevlilerinin **her biri** 3 ay-1 yıl hapisle cezalandırılır (TCK m. 260/1).\n\n> 📌 **Kesin bilgi:** Kamu görevlisi sayısı **üçten fazla olmazsa** cezaya hükmolunmaz. Yani en az dört görevli gerekir.\n\nTCK m. 260/2'ye göre mesleki ve sosyal haklarla ilgili, hizmeti aksatmayacak biçimde, geçici ve kısa süreli iş bırakma veya yavaşlatmalarda cezada **indirim yapılabilir, ceza da verilmeyebilir**. Bu, hâkime takdir yetkisi veren bir düzenlemedir; ceza verilmemesi zorunlu değildir.\n\n> **Örnek:** Bir vergi dairesinde üç memur hukuka aykırı biçimde ve anlaşarak sabah işe gelmez. Sayı üçten fazla olmadığından TCK m. 260/1 uyarınca cezaya hükmolunmaz. Dördüncü bir memur da katılırsa her biri cezalandırılır.\n\n## 7. Görevi yaptırmamak için direnme (TCK m. 265)\n\nKamu görevlisine karşı **görevini yapmasını engellemek amacıyla cebir veya tehdit** kullanan kişi 6 ay-3 yıl hapis alır (TCK m. 265/1). Suç, amaç bakımından özel kastlıdır: cebir veya tehdit görevi engelleme amacıyla kullanılmalıdır.\n\n**Nitelikli hâller:**\n\n- **Yargı görevi yapan kişilere karşı** (TCK m. 265/2): 2-4 yıl hapis. TCK m. 6/1-d'ye göre bunlar yüksek mahkemeler, adli ve idari mahkemeler üye ve hâkimleri, Cumhuriyet savcısı ve avukatlardır. İcra memuru, polis veya zabıta bu gruba girmez.\n- **Kendini tanınmayacak hâle koyma veya birden fazla kişiyle birlikte işleme** (TCK m. 265/3): ceza üçte bir artırılır.\n- **Silahla ya da suç örgütünün korkutucu gücünden yararlanarak** (TCK m. 265/4): ceza yarı oranında artırılır. Silah kavramı TCK m. 6/1-f'ye göre geniştir; fiilen saldırıda kullanılmaya elverişli demir sopa da silahtır.\n- **Neticesi sebebiyle ağırlaşmış yaralama** (TCK m. 265/5): ayrıca kasten yaralama hükümleri uygulanır. Örneğin direnirken görevlinin kolu kırılırsa (TCK m. 87/3) hem direnmeden hem kasten yaralamadan sorumluluk doğar.\n\n> **Örnek:** Borçlu Ali ve kardeşi Veli, haciz için gelen icra memurunu birlikte tehdit eder ve haczi engeller. İcra memuru yargı görevi yapan sayılmadığından TCK m. 265/2 uygulanmaz; birlikte işlendiği için TCK m. 265/3 uyarınca üçte bir artırım yapılır.\n\n> ⚠️ **Sınavda dikkat:** Hâkim, savcı ve avukat \"yargı görevi yapan\" sayılır; icra memuru, polis, zabıta, bilirkişi sayılmaz. Silah ve örgüt artırımı yarı oranında, birlikte işleme ve yüz gizleme artırımı üçte bir oranındadır.\n\nKamu görevlisi **hukuka aykırı** bir işlem yapıyorsa tablo değişir. Yetkisiz ve açıkça hukuka aykırı bir fiile karşı koyan kişi TCK m. 25/1 uyarınca meşru savunma kapsamında olabilir. Fakat işlem yetki içinde ve şekli açıdan geçerliyse, sadece içeriği tartışmalı diye cebirle direnme hakkı doğmaz; itiraz yolları idari ve yargısal başvurulardır.\n\n## 8. Denetim şeması\n\n1. Fail kim? Kamu görevlisi mi (TCK m. 6/1-c)? Nüfuz ticareti ve direnme dışında bu şart aranır.\n2. Menfaat var mı? İşi yapacak görevliye mi gidiyor (rüşvet), nüfuz satana mı (nüfuz ticareti)?\n3. İş haksız mı, haklı mı? Haklıysa ve aldatma varsa dolandırıcılığı düşün.\n4. Başka bir özel suç oluşuyor mu? Oluşuyorsa TCK m. 257'ye geçme.\n5. TCK m. 257 için: davranış (icrai/ihmali) + üç sonuçtan biri.\n6. Toplu bırakma varsa sayıyı say (dörtten az mı?), TCK m. 260/2'yi tartış.\n7. Direnmede mağdurun sıfatı (yargı görevi yapan mı?), nitelikli hâller ve yaralama sonucu.",
+  "critical_md": "- 📌 TCK m. 255/1: nüfuz satana 2-5 yıl hapis ve beşbin güne kadar adli para cezası; fail kamu görevlisiyse hapis yarı oranında artırılır; menfaat veren 1-3 yıl hapis.\n- 📌 Nüfuz ticaretinde gördürülmek istenen iş **haksız** olmalıdır; iş haklıysa ve nüfuz yalansa suç dolandırıcılıktır (TCK m. 158/2) ve iş sahibi mağdurdur.\n- ⚠️ Nüfuz ticaretinde anlaşma yeterlidir (TCK m. 255/2); menfaatin fiilen verilmesi şart değildir. Teklif veya talep kabul edilmezse ceza yarı oranında indirilir (TCK m. 255/3).\n- ⚠️ Etkin pişmanlık hükmü (TCK m. 254) rüşvete özgüdür; nüfuz ticaretinde böyle bir hüküm yoktur.\n- 📌 Tek bir nüfuz ticareti anlaşması varsa, menfaat birkaç taksitte alınsa bile zincirleme suç (TCK m. 43/1) uygulanmaz.\n- 📌 TCK m. 256 bağımsız bir ceza içermez; ölçüsüz kuvvet kullanana kasten yaralama hükümleri uygulanır.\n- 📌 TCK m. 257/1 icrai (6 ay-2 yıl), TCK m. 257/2 ihmali (3 ay-1 yıl) şekildir; ikisinde de kişilerin mağduriyeti, kamunun zararı veya haksız menfaatten biri aranır.\n- ⚠️ TCK m. 257 ikincil normdur: rüşvet, zimmet veya başka özel suç oluşuyorsa uygulanmaz; fail kamu görevlisi değilse hiç uygulanmaz.\n- 📌 TCK m. 258: gizli belge, karar ve emirleri açıklamaya 1-4 yıl hapis; sıfat sona erdikten sonra işleyen de aynı cezayı alır (TCK m. 258/2).\n- ⚠️ TCK m. 260: görevli sayısı üçten fazla olmazsa ceza verilmez; en az dört kişi gerekir. Mesleki-sosyal hak amaçlı kısa ve hizmeti aksatmayan iş bırakmada indirim yapılabilir ya da ceza verilmeyebilir.\n- 📌 TCK m. 265: temel ceza 6 ay-3 yıl; yargı görevi yapan kişiye karşı 2-4 yıl; birlikte veya yüzü gizli 1/3 artırım; silah veya örgüt gücü yarı artırım.\n- ⚠️ İcra memuru, polis ve zabıta \"yargı görevi yapan\" sayılmaz; hâkim, savcı ve avukat sayılır (TCK m. 6/1-d).\n- 📌 Direnme sırasında neticesi sebebiyle ağırlaşmış yaralama doğarsa (örneğin kemik kırılması, TCK m. 87/3) ayrıca kasten yaralama hükümleri uygulanır (TCK m. 265/5).",
+  "doctrine_md": "### TCK m. 257'deki sonuçların hukuki niteliği\n\nGörevi kötüye kullanmada \"kişilerin mağduriyeti, kamunun zararı veya haksız menfaat\" sonuçlarının ne olduğu tartışmalıdır. Bir görüşe göre bunlar **objektif cezalandırılabilme şartıdır**: failin kastının bu sonuçları da kapsaması gerekmez, görevin gereklerine aykırı davranma kastı yeterlidir. Bu görüşün pratik sonucu, teşebbüsün mümkün olmamasıdır; sonuç gerçekleşmediyse suç da cezalandırılamaz. Karşı görüş ise bunları suçun maddi unsuru olan **netice** sayar; bu hâlde kastın neticeyi de kapsaması ve teşebbüsün mümkün olması gerekir. Yargıtay'ın kararlarında sonucun somut delillerle gösterilmesi ısrarla aranır. Sınavda iki görüşü ve yargının tavrını yazıp bir sonuca varmak yeterlidir.\n\n### Hukuka aykırı görev işlemine karşı direnme\n\nTCK m. 265 \"kamu görevlisine karşı görevini yapmasını engellemek\" der. Görevli yetkisiz biçimde, örneğin kararsız bir konuta girmeye çalışıyorsa, yaptığı iş \"görev\" sayılmaz ve karşı koyan kişi meşru savunmadan (TCK m. 25/1) yararlanabilir. Buna karşılık işlem şekli olarak yetkili makamca yapılmış ve sadece içeriği bakımından yargı yolunda iptal edilebilecek nitelikteyse, cebirle direnme hakkı doğmaz. Sınırın nerede çekileceği olayın ayrıntısına bağlıdır; bu yüzden olay sorusunda \"işlem açıkça yetkisiz mi, yoksa sadece hatalı mı?\" ayrımını gerekçeye mutlaka yaz.\n\n### Nüfuzun gerçekliği\n\nTCK m. 255 \"nüfuz sahibi olduğundan bahisle\" der. Bir görüşe göre bu ifade nedeniyle failin nüfuzunun gerçekten bulunması gerekmez; ileri sürmesi yeter. Buna karşılık Yargıtay, suçun unsurları arasında failin kamu görevlisi üzerinde nüfuzunun bulunmasını ve işi yapacak kamu görevlisinin belli olmasını da sayar. Nüfuzun hiç olmadığı ve iş sahibinin de haksız bir iş peşinde olmadığı hâlde aldatma varsa, dolandırıcılık gündeme gelir; haksız iş peşindeki kişi için ise nüfuz ticareti bakımından sorumluluk tartışılır.",
+  "glossary": [
+   {
+    "term": "Nüfuz ticareti",
+    "definition": "Kamu görevlisi üzerinde nüfuzu olduğunu ileri sürerek haksız bir işin gördürülmesi için menfaat sağlama veya buna ilişkin anlaşma (TCK m. 255)."
+   },
+   {
+    "term": "Haksız iş",
+    "definition": "Hukuka aykırı olduğu bilinen, kanunen yapılmaması gereken işlem; nüfuz ticaretinin zorunlu unsuru."
+   },
+   {
+    "term": "Özgü suç",
+    "definition": "Yalnız belli sıfatı taşıyan kişinin (burada kamu görevlisinin) fail olabildiği suç."
+   },
+   {
+    "term": "Tamamlayıcı (ikincil) norm",
+    "definition": "Başka bir hüküm uygulanmıyorsa devreye giren norm; TCK m. 257 'kanunda ayrıca suç olarak tanımlanan haller dışında' uygulanır."
+   },
+   {
+    "term": "Zor kullanma yetkisi",
+    "definition": "Polis, jandarma gibi görevlilerin görevleri gereği ölçülü kuvvet kullanabilmesi yetkisi."
+   },
+   {
+    "term": "Yargı görevi yapan",
+    "definition": "TCK m. 6/1-d'ye göre yüksek mahkemeler, adli ve idari mahkemeler üye ve hâkimleri, Cumhuriyet savcısı ve avukatlar."
+   },
+   {
+    "term": "Toplu biçimde",
+    "definition": "TCK m. 260 bakımından görevlilerin ortak bir iradeyle birlikte hareket etmesi; ayrıca cezaya hükmedilebilmesi için sayılarının üçten fazla olması gerekir."
+   },
+   {
+    "term": "Cebir ve tehdit",
+    "definition": "Direnme suçunun hareketleri; kişiye karşı fiziksel güç kullanma veya ona bir kötülük yapılacağını bildirme."
+   },
+   {
+    "term": "Müşterek fail",
+    "definition": "Suçu başkalarıyla birlikte işleyen fail; TCK m. 255/4-5, nüfuz ticaretine aracılık edeni ve dolaylı menfaati kabul eden yetkiliyi bu sıfatla birinci fıkradaki cezayla cezalandırır."
+   },
+   {
+    "term": "Silah",
+    "definition": "TCK m. 6/1-f'ye göre ateşli silahlar, patlayıcılar, saldırı ve savunma için yapılmış kesici, delici veya bereleyici aletler, fiilen saldırı ve savunmada kullanılmaya elverişli diğer şeyler ile yakıcı, zehirleyici gibi tehlikeli maddeler."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "6",
+   "official_text": "Tanımlar\nMadde 6- (1) Ceza kanunlarının uygulanmasında;\na) Vatandaş deyiminden; fiili işlediği sırada Türk vatandaşı olan kişi,\nb) Çocuk deyiminden; henüz onsekiz yaşını doldurmamış kişi,\nc) Kamu görevlisi deyiminden; kamusal faaliyetin yürütülmesine atama veya seçilme yoluyla ya da herhangi bir surette sürekli, süreli veya geçici olarak katılan kişi,\nd) Yargı görevi yapan deyiminden; yüksek mahkemeler, adlî ve idarî mahkemeler üye ve hakimleri ile Cumhuriyet savcısı ve avukatlar,[2]\ne) Gece vakti deyiminden; güneşin batmasından bir saat sonra başlayan ve doğmasından bir saat evvele kadar devam eden zaman süresi,\nf) Silah deyiminden;\n1. Ateşli silahlar,\n2. Patlayıcı maddeler,\n3. Saldırı ve savunmada kullanılmak üzere yapılmış her türlü kesici, delici veya bereleyici alet,\n4. Saldırı ve savunma amacıyla yapılmış olmasa bile fiilen saldırı ve savunmada kullanılmaya elverişli diğer şeyler,\n5. Yakıcı, aşındırıcı, yaralayıcı, boğucu, zehirleyici, sürekli hastalığa yol açıcı nükleer, radyoaktif, kimyasal, biyolojik maddeler,\ng) Basın ve yayın yolu ile deyiminden; her türlü yazılı, görsel, işitsel ve elektronik kitle iletişim aracıyla yapılan yayınlar,\nh) İtiyadi suçlu deyiminden; kasıtlı bir suçun temel şeklini ya da daha ağır veya daha az cezayı gerektiren nitelikli şekillerini bir yıl içinde ve farklı zamanlarda ikiden fazla işleyen kişi,\ni) Suçu meslek edinen kişi deyiminden; kısmen de olsa geçimini suçtan elde ettiği kazançla sağlamaya alışmış kişi,\nj) Örgüt mensubu suçlu deyiminden; bir suç örgütünü kuran, yöneten, örgüte katılan veya örgüt adına diğerleriyle birlikte veya tek başına suç işleyen kişi,\nanlaşılır.\n[2] 2/7/2018 tarihli ve 700 sayılı KHK’nin 156 ncı maddesiyle, bu bentte yer alan “ve adlî, idarî ve askerî” ibaresi “, adlî ve idarî” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "25",
+   "official_text": "Meşru savunma ve zorunluluk hali\nMadde 25- (1) Gerek kendisine ve gerek başkasına ait bir hakka yönelmiş, gerçekleşen, gerçekleşmesi veya tekrarı muhakkak olan haksız bir saldırıyı o anda hal ve koşullara göre saldırı ile orantılı biçimde defetmek zorunluluğu ile işlenen fiillerden dolayı faile ceza verilmez.\n(2) Gerek kendisine gerek başkasına ait bir hakka yönelik olup, bilerek neden olmadığı ve başka suretle korunmak olanağı bulunmayan ağır ve muhakkak bir tehlikeden kurtulmak veya başkasını kurtarmak zorunluluğu ile ve tehlikenin ağırlığı ile konu ve kullanılan vasıta arasında orantı bulunmak koşulu ile işlenen fiillerden dolayı faile ceza verilmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "43",
+   "official_text": "Zincirleme suç\nMadde 43- (1) Bir suç işleme kararının icrası kapsamında, değişik zamanlarda bir kişiye karşı aynı suçun birden fazla işlenmesi durumunda, bir cezaya hükmedilir. Ancak bu ceza, dörtte birinden dörtte üçüne kadar artırılır. Bir suçun temel şekli ile daha ağır veya daha az cezayı gerektiren nitelikli şekilleri, aynı suç sayılır. (Ek cümle: 29/6/2005 – 5377/6 md.) Mağduru belli bir kişi olmayan suçlarda da bu fıkra hükmü uygulanır.\n(2) Aynı suçun birden fazla kişiye karşı tek bir fiille işlenmesi durumunda da, birinci fıkra hükmü uygulanır.\n(3) Kasten öldürme, kasten yaralama, işkence ve yağma suçlarında bu madde hükümleri uygulanmaz.[7]\n[7] 29/6/2005 tarihli ve 5377 sayılı Kanunun 6 ncı maddesiyle bu fıkrada geçen \"cinsel saldırı, çocukların cinsel istismarı\" ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "86",
+   "official_text": "Madde 86- (1) Kasten başkasının vücuduna acı veren veya sağlığının ya da algılama yeteneğinin bozulmasına neden olan kişi, bir yıl altı aydan üç yıla kadar hapis cezası ile cezalandırılır.\n(2) (Ek fıkra: 31/3/2005 – 5328/4 md.) Kasten yaralama fiilinin kişi üzerindeki etkisinin basit bir tıbbî müdahaleyle giderilebilecek ölçüde hafif olması hâlinde, mağdurun şikâyeti üzerine, altı aydan bir yıl altı aya kadar hapis veya adlî para cezasına hükmolunur. (Ek cümle:12/5/2022-7406/3 md.) Suçun kadına karşı işlenmesi hâlinde cezanın alt sınırı dokuz aydan az olamaz.\n(3) Kasten yaralama suçunun;\na) Üstsoya, altsoya, eşe, boşandığı eşe veya kardeşe karşı,[40]\nb) Beden veya ruh bakımından kendisini savunamayacak durumda bulunan kişiye karşı,\nc) Kişinin yerine getirdiği kamu görevi nedeniyle,\nd) Kamu görevlisinin sahip bulunduğu nüfuz kötüye kullanılmak suretiyle,\ne) Silahla,\nf) (Ek:14/4/2020-7242/11 md.) Canavarca hisle,\nİşlenmesi halinde, şikâyet aranmaksızın, verilecek ceza yarı oranında, (f) bendi bakımından ise bir kat artırılır.[41]\n[40] 8/7/2021 tarihli ve 7331 sayılı Kanunun 7 nci maddesiyle, bu bentte yer alan “eşe” ibaresi “eşe, boşandığı eşe” şeklinde değiştirilmiştir.\n[41] 14/4/2020 tarihli ve 7242 sayılı Kanunun 11 inci maddesiyle, bu fıkraya “oranında” ibaresinden sonra gelmek üzere “, (f) bendi bakımından ise bir kat” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "87",
+   "official_text": "Neticesi sebebiyle ağırlaşmış yaralama[42]\nMadde 87- (1) Kasten yaralama fiili, mağdurun;\na) Duyularından veya organlarından birinin işlevinin sürekli zayıflamasına,\nb) Konuşmasında sürekli zorluğa,\nc) Yüzünde sabit ize,\nd) Yaşamını tehlikeye sokan bir duruma,\ne) Gebe bir kadına karşı işlenip de çocuğunun vaktinden önce doğmasına,\nNeden olmuşsa, yukarıdaki maddeye göre belirlenen ceza, bir kat artırılır. Ancak, verilecek ceza, birinci fıkraya giren hallerde dört yıldan, üçüncü fıkraya giren hallerde altı yıldan az olamaz.[43]\n(2) Kasten yaralama fiili, mağdurun;\na) İyileşmesi olanağı bulunmayan bir hastalığa veya bitkisel hayata girmesine,\nb) Duyularından veya organlarından birinin işlevinin yitirilmesine,\nc) Konuşma ya da çocuk yapma yeteneklerinin kaybolmasına,\nd) Yüzünün sürekli değişikliğine,\ne) Gebe bir kadına karşı işlenip de çocuğunun düşmesine,\nNeden olmuşsa, yukarıdaki maddeye göre belirlenen ceza, iki kat artırılır. Ancak, verilecek ceza, birinci fıkraya giren hallerde altı yıldan, üçüncü fıkraya giren hallerde dokuz yıldan az olamaz.43\n(3) (Değişik: 6/12/2006 – 5560/4 md.) Kasten yaralamanın vücutta kemik kırılmasına veya çıkığına neden olması halinde, yukarıdaki maddeye göre belirlenen ceza, kırık veya çıkığın hayat fonksiyonlarındaki etkisine göre, yarısına kadar artırılır.\n(4) Kasten yaralama sonucunda ölüm meydana gelmişse, yukarıdaki maddenin birinci fıkrasına giren hallerde on yıldan ondört yıla kadar, üçüncü fıkrasına giren hallerde ise ondört yıldan onsekiz yıla kadar hapis cezasına hükmolunur.[44][45]\nKasten yaralamanın ihmali davranışla işlenmesi[46]\n[42] 4/6/2025 tarihli ve 7550 sayılı Kanunun 10 uncu maddesiyle bu maddenin birinci fıkrasında yer alan “üç yıldan,” ibaresi “dört yıldan,” ve “beş yıldan” ibaresi “altı yıldan” şeklinde, ikinci fıkrasında yer alan “beş yıldan,” ibaresi “altı yıldan,” ve “sekiz yıldan” ibaresi “dokuz yıldan” şeklinde ve dördüncü fıkrasında yer alan “sekiz yıldan oniki yıla” ibaresi “on yıldan ondört yıla” ve “oniki yıldan” ibaresi “ondört yıldan” şeklinde değiştirilmiştir.\n[43] 29/6/2005 tarihli ve 5377 sayılı Kanunun 11 inci maddesiyle bu fıkralarda geçen “ikinci” ibaresi, “üçüncü” olarak değiştirilmiştir.\n[44] 31/3/2005 tarihli ve 5328 sayılı Kanunun 5 inci maddesiyle bu fıkrada yer alan “ikinci” ibaresi, “üçüncü” şeklinde değiştirilmiştir.\n[45] 14/4/2020 tarihli ve 7242 sayılı Kanunun 12 inci maddesiyle, bu fıkrada yer alan “onaltı” ibaresi “onsekiz” şeklinde değiştirilmiştir.\n[46] 31/3/2005 tarihli ve 5328 sayılı Kanunun 6 ncı maddesiyle bu madde başlığı “Daha az cezayı gerektiren haller” iken, metne işlendiği şekilde değiştirilmiş, söz konusu maddenin birinci fıkrası madde metninden çıkarılmış olup, ikinci fıkrası birinci fıkra olarak teselsül ettirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "157",
+   "official_text": "Dolandırıcılık\nMadde 157- (1) Hileli davranışlarla bir kimseyi aldatıp, onun veya başkasının zararına olarak, kendisine veya başkasına bir yarar sağlayan kişiye bir yıldan beş yıla kadar hapis ve beşbin güne kadar adlî para cezası verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "158",
+   "official_text": "Nitelikli dolandırıcılık\nMadde 158- (1) Dolandırıcılık suçunun;\na) Dinî inanç ve duyguların istismar edilmesi suretiyle,\nb) Kişinin içinde bulunduğu tehlikeli durum veya zor şartlardan yararlanmak suretiyle,\nc) Kişinin algılama yeteneğinin zayıflığından yararlanmak suretiyle,\nd) Kamu kurum ve kuruluşlarının, kamu meslek kuruluşlarının, siyasi parti, vakıf veya dernek tüzel kişiliklerinin araç olarak kullanılması suretiyle,\ne) Kamu kurum ve kuruluşlarının zararına olarak,\nf) Bilişim sistemlerinin, banka veya kredi kurumlarının araç olarak kullanılması suretiyle,\ng) Basın ve yayın araçlarının sağladığı kolaylıktan yararlanmak suretiyle,\nh) Tacir veya şirket yöneticisi olan ya da şirket adına hareket eden kişilerin ticari faaliyetleri sırasında; kooperatif yöneticilerinin kooperatifin faaliyeti kapsamında,\ni) Serbest meslek sahibi kişiler tarafından, mesleklerinden dolayı kendilerine duyulan güvenin kötüye kullanılması suretiyle,\nj) Banka veya diğer kredi kurumlarınca tahsis edilmemesi gereken bir kredinin açılmasını sağlamak maksadıyla,\nk) Sigorta bedelini almak maksadıyla,\nl) (Ek: 24/11/2016-6763/14 md.) Kişinin, kendisini kamu görevlisi veya banka, sigorta ya da kredi kurumlarının çalışanı olarak tanıtması veya bu kurum ve kuruluşlarla ilişkili olduğunu söylemesi suretiyle,\nİşlenmesi halinde, üç yıldan on yıla kadar hapis ve beşbin güne kadar adlî para cezasına hükmolunur. (Ek cümle: 29/6/2005 – 5377/19 md.; Değişik: 3/4/2013-6456/40 md.) Ancak, (e), (f), (j), (k) ve (l) bentlerinde sayılan hâllerde hapis cezasının alt sınırı dört yıldan, adli para cezasının miktarı suçtan elde edilen menfaatin iki katından az olamaz.[73]\n(2) Kamu görevlileriyle ilişkisinin olduğundan, onlar nezdinde hatırı sayıldığından bahisle ve belli bir işin gördürüleceği vaadiyle aldatarak, başkasından menfaat temin eden kişi, yukarıdaki fıkra hükmüne göre cezalandırılır.\n(3) (Ek fıkra: 24/11/2016-6763/14 md.) Bu madde ile 157 nci maddede yer alan suçların, üç veya daha fazla kişi tarafından birlikte işlenmesi hâlinde verilecek ceza yarı oranında; suç işlemek için teşkil edilmiş bir örgütün faaliyeti çerçevesinde işlenmesi hâlinde verilecek ceza bir kat artırılır.\n(4) (Ek:16/7/2026-7589/13 md.) Bu madde ile 157 nci maddede yer alan suçlara iştirakin, kendisine veya başkasına haksız bir menfaat sağlamak amacıyla kendisine veya başkasına ait banka veya kredi kartı gibi ödeme araçlarını ya da banka, aracı kurum, ödeme hizmeti sağlayıcıları veya kripto varlık hizmet sağlayıcıları nezdinde bulunan hesabın kullanılmasını sağlayan zorunlu bilgileri veya araçları başkasına vermek fiiliyle sınırlı olması halinde verilecek ceza yarı oranında indirilir.\n[73] 24/11/2016 tarihli ve 6763 sayılı Kanunun 14 üncü maddesiyle, bu fıkrada yer alan “iki yıldan yedi yıla” ibaresi “üç yıldan on yıla” şeklinde, “(j) ve (k)” ibaresi “(j), (k) ve (l)” şeklinde ve “üç yıldan” ibaresi “dört yıldan” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "252",
+   "official_text": "Rüşvet\nMadde 252- (Değişik: 2/7/2012-6352/87 md.)\n(1) Görevinin ifasıyla ilgili bir işi yapması veya yapmaması için, doğrudan veya aracılar vasıtasıyla, bir kamu görevlisine veya göstereceği bir başka kişiye menfaat sağlayan kişi, dört yıldan oniki yıla kadar hapis cezası ile cezalandırılır.\n(2) Görevinin ifasıyla ilgili bir işi yapması veya yapmaması için, doğrudan veya aracılar vasıtasıyla, kendisine veya göstereceği bir başka kişiye menfaat sağlayan kamu görevlisi de birinci fıkrada belirtilen ceza ile cezalandırılır.\n(3) Rüşvet konusunda anlaşmaya varılması halinde, suç tamamlanmış gibi cezaya hükmolunur.\n(4) Kamu görevlisinin rüşvet talebinde bulunması ve fakat bunun kişi tarafından kabul edilmemesi ya da kişinin kamu görevlisine menfaat temini konusunda teklif veya vaatte bulunması ve fakat bunun kamu görevlisi tarafından kabul edilmemesi hâllerinde fail hakkında, birinci ve ikinci fıkra hükümlerine göre verilecek ceza yarı oranında indirilir.\n(5) Rüşvet teklif veya talebinin karşı tarafa iletilmesi, rüşvet anlaşmasının sağlanması veya rüşvetin temini hususlarında aracılık eden kişi, kamu görevlisi sıfatını taşıyıp taşımadığına bakılmaksızın, müşterek fail olarak cezalandırılır.\n(6) Rüşvet ilişkisinde dolaylı olarak kendisine menfaat sağlanan üçüncü kişi veya tüzel kişinin menfaati kabul eden yetkilisi, kamu görevlisi sıfatını taşıyıp taşımadığına bakılmaksızın, müşterek fail olarak cezalandırılır.\n(7) Rüşvet alan veya talebinde bulunan ya da bu konuda anlaşmaya varan kişinin; yargı görevi yapan, hakem, bilirkişi, noter veya yeminli mali müşavir olması halinde, verilecek ceza üçte birden yarısına kadar artırılır.\n(8) Bu madde hükümleri;\na) Kamu kurumu niteliğindeki meslek kuruluşları,\nb) Kamu kurum veya kuruluşlarının ya da kamu kurumu niteliğindeki meslek kuruluşlarının iştirakiyle kurulmuş şirketler,\nc) Kamu kurum veya kuruluşlarının ya da kamu kurumu niteliğindeki meslek kuruluşlarının bünyesinde faaliyet icra eden vakıflar,\nd) Kamu yararına çalışan dernekler,\ne) Kooperatifler,\nf) Halka açık anonim şirketler,\nadına hareket eden kişilere, kamu görevlisi sıfatını taşıyıp taşımadıklarına bakılmaksızın, görevlerinin ifasıyla ilgili bir işin yapılması veya yapılmaması amacıyla doğrudan veya aracılar vasıtasıyla, menfaat temin, teklif veya vaat edilmesi; bu kişiler tarafından talep veya kabul edilmesi; bunlara aracılık edilmesi; bu ilişki dolayısıyla bir başkasına menfaat temin edilmesi halinde de uygulanır.\n(9) Bu madde hükümleri;\na) Yabancı bir devlette seçilmiş veya atanmış olan kamu görevlilerine,\nb) Uluslararası veya uluslarüstü mahkemelerde ya da yabancı devlet mahkemelerinde görev yapan hâkimlere, jüri üyelerine veya diğer görevlilere,\nc) Uluslararası veya uluslarüstü parlamento üyelerine,\nd) Kamu kurumu ya da kamu işletmeleri de dahil olmak üzere, yabancı bir ülke için kamusal bir faaliyet yürüten kişilere,\ne) Bir hukuki uyuşmazlığın çözümü amacıyla başvurulan tahkim usulü çerçevesinde görevlendirilen vatandaş veya yabancı hakemlere,\nf) Uluslararası bir anlaşmaya dayalı olarak kurulan uluslararası veya uluslarüstüörgütlerin görevlilerine veya temsilcilerine,\ngörevlerinin ifasıyla ilgili bir işin yapılması veya yapılmaması ya da uluslararası ticari işlemler nedeniyle bir işin veya haksız bir yararın elde edilmesi yahut muhafazası amacıyla; doğrudan veya aracılar vasıtasıyla, menfaat temin, teklif veya vaat edilmesi ya da bunlar tarafından talep veya kabul edilmesi halinde de uygulanır.\n(10) Dokuzuncu fıkra kapsamına giren rüşvet suçunun yurt dışında yabancı tarafından işlenmekle birlikte;\na) Türkiye’nin,\nb) Türkiye’deki bir kamu kurumunun,\nc) Türk kanunlarına göre kurulmuş bir özel hukuk tüzel kişisinin,\nd) Türk vatandaşının,\ntarafı olduğu bir uyuşmazlık ya da bu kurum veya kişilerle ilgili bir işlemin yapılması veya yapılmaması için işlenmesi halinde, rüşvet veren, teklif veya vaat eden; rüşvet alan, talep eden, teklif veya vaadini kabul eden; bunlara aracılık eden; rüşvet ilişkisi dolayısıyla kendisine menfaat temin edilen kişiler hakkında, Türkiye’de bulundukları takdirde, resen soruşturma ve kovuşturma yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "254",
+   "official_text": "Etkin pişmanlık\nMadde 254- (1) (Değişik: 2/7/2012-6352/88 md.) Rüşvet alan kişinin, durum resmi makamlarca öğrenilmeden önce, rüşvet konusu şeyi soruşturmaya yetkili makamlara aynen teslim etmesi halinde, hakkında rüşvet suçundan dolayı cezaya hükmolunmaz. Rüşvet alma konusunda başkasıyla anlaşan kamu görevlisinin durum resmi makamlarca öğrenilmeden önce durumu yetkili makamlara haber vermesi halinde de hakkında bu suçtan dolayı cezaya hükmolunmaz.\n(2) (Değişik: 2/7/2012-6352/88 md.) Rüşvet veren veya bu konuda kamu görevlisiyle anlaşmaya varan kişinin, durum resmi makamlarca öğrenilmeden önce, pişmanlık duyarak durumdan yetkili makamları haberdar etmesi halinde, hakkında rüşvet suçundan dolayı cezaya hükmolunmaz.\n(3) (Değişik: 2/7/2012-6352/88 md.) Rüşvet suçuna iştirak eden diğer kişilerin, durum resmi makamlarca öğrenilmeden önce, pişmanlık duyarak durumdan yetkili makamları haberdar etmesi halinde, hakkında bu suçtan dolayı cezaya hükmolunmaz.\n(4) (Ek: 26/6/2009 – 5918/4 md.) Bu madde hükümleri, yabancı kamu görevlilerine rüşvet veren kişilere uygulanmaz.\nNüfuz ticareti[104]\n[104] 2/7/2012 tarihli ve 6352 sayılı Kanunun 89 uncu maddesiyle bu madde başlığı “Yetkili olmadığı bir iş için yarar sağlama” iken, metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "255",
+   "official_text": "Madde 255- (Değişik: 2/7/2012-6352/89 md.)\n(1) Kamu görevlisi üzerinde nüfuz sahibi olduğundan bahisle, haksız bir işin gördürülmesi amacıyla girişimde bulunması için, doğrudan veya aracılar vasıtasıyla, kendisine veya bir başkasına menfaat temin eden kişi, iki yıldan beş yıla kadar hapis ve beşbin güne kadar adli para cezası ile cezalandırılır. Kişinin kamu görevlisi olması halinde, verilecek hapis cezası yarı oranında artırılır. İşinin gördürülmesi karşılığında veya gördürüleceği beklentisiyle menfaat sağlayan kişi ise, bir yıldan üç yıla kadar hapis cezası ile cezalandırılır.\n(2) Menfaat temini konusunda anlaşmaya varılması halinde dahi, suç tamamlanmış gibi cezaya hükmolunur.\n(3) Birinci fıkrada belirtilen amaç doğrultusunda menfaat talebinde bulunulması ve fakat bunun kabul edilmemesi ya da menfaat teklif veya vaadinde bulunulması ve fakat bunun kabul edilmemesi hallerinde, birinci fıkra hükmüne göre verilecek ceza yarı oranında indirilir.\n(4) Nüfuz ticareti suçuna aracılık eden kişi, müşterek fail olarak, birinci fıkrada belirtilen ceza ile cezalandırılır.\n(5) Nüfuz ticareti ilişkisinde dolaylı olarak kendisine menfaat sağlanan üçüncü gerçek kişi veya tüzel kişinin menfaati kabul eden yetkilileri, müşterek fail olarak, birinci fıkrada belirtilen ceza ile cezalandırılır.\n(6) İşin gördürülmesi amacıyla girişimde bulunmanın müstakil bir suç oluşturduğu hallerde kişiler ayrıca bu suç nedeniyle cezalandırılır.\n(7) Bu madde hükümleri, 252 nci maddenin dokuzuncu fıkrasında sayılan kişiler üzerinde nüfuz ticareti yapılması halinde de uygulanır. Bu kişiler hakkında, Türkiye’de bulunmaları halinde, vatandaş veya yabancı olduklarına bakılmaksızın, resen soruşturma ve kovuşturma yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "256",
+   "official_text": "Zor kullanma yetkisine ilişkin sınırın aşılması\nMadde 256- (1) Zor kullanma yetkisine sahip kamu görevlisinin, görevini yaptığı sırada, kişilere karşı görevinin gerektirdiği ölçünün dışında kuvvet kullanması halinde, kasten yaralama suçuna ilişkin hükümler uygulanır.\nGörevi kötüye kullanma[105]\n[105] 8/12/2010 tarihli ve 6086 sayılı Kanunun 1 inci maddesiyle, bu maddenin birinci ve ikinci fıkralarında yer alan “kazanç” ibareleri “menfaat”, birinci fıkrasında yer alan “bir yıldan üç yıla kadar” ibaresi “altı aydan iki yıla kadar”, ikinci fıkrasında yer alan “altı aydan iki yıla kadar” ibaresi “üç aydan bir yıla kadar” ve üçüncü fıkrasında yer alan “birinci fıkra hükmüne göre” ibaresi “bir yıldan üç yıla kadar hapis ve beşbin güne kadar adli para cezası ile” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "257",
+   "official_text": "Madde 257- (1) Kanunda ayrıca suç olarak tanımlanan haller dışında, görevinin gereklerine aykırı hareket etmek suretiyle, kişilerin mağduriyetine veya kamunun zararına neden olan ya da kişilere haksız bir menfaat sağlayan kamu görevlisi, altı aydan iki yıla kadar hapis cezası ile cezalandırılır.\n(2) Kanunda ayrıca suç olarak tanımlanan haller dışında, görevinin gereklerini yapmakta ihmal veya gecikme göstererek, kişilerin mağduriyetine veya kamunun zararına neden olan ya da kişilere haksız bir menfaat sağlayan kamu görevlisi, üç aydan bir yıla kadar hapis cezası ile cezalandırılır.\n(3) (Mülga: 2/7/2012-6352/105 md.)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "258",
+   "official_text": "Göreve ilişkin sırrın açıklanması\nMadde 258- (1) Görevi nedeniyle kendisine verilen veya aynı nedenle bilgi edindiği ve gizli kalması gereken belgeleri, kararları ve emirleri ve diğer tebligatı açıklayan veya yayınlayan veya ne suretle olursa olsun başkalarının bilgi edinmesini kolaylaştıran kamu görevlisine, bir yıldan dört yıla kadar hapis cezası verilir.\n(2) Kamu görevlisi sıfatı sona erdikten sonra, birinci fıkrada yazılı fiilleri işleyen kimseye de aynı ceza verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "259",
+   "official_text": "Kamu görevlisinin ticareti\nMadde 259- (1) Yürüttüğü görevin sağladığı nüfuzdan yararlanarak, bir başkasına mal veya hizmet satmaya çalışan kamu görevlisi, altı aya kadar hapis veya adlî para cezası ile cezalandırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "260",
+   "official_text": "Kamu görevinin terki veya yapılmaması\nMadde 260- (1) Hukuka aykırı olarak ve toplu biçimde, görevlerini terk eden, görevlerine gelmeyen, görevlerini geçici de olsa kısmen veya tamamen yapmayan veya yavaşlatan kamu görevlilerinin her biri hakkında üç aydan bir yıla kadar hapis cezası verilir. Kamu görevlisi sayısının üçten fazla olmaması halinde cezaya hükmolunmaz.\n(2) Kamu görevlilerinin mesleki ve sosyal hakları ile ilgili olarak, hizmeti aksatmayacak biçimde, geçici ve kısa süreli iş bırakmaları veya yavaşlatmaları halinde, verilecek cezada indirim yapılabileceği gibi, ceza da verilmeyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "265",
+   "official_text": "Görevi yaptırmamak için direnme\nMadde 265- (1) Kamu görevlisine karşı görevini yapmasını engellemek amacıyla, cebir veya tehdit kullanan kişi, altı aydan üç yıla kadar hapis cezası ile cezalandırılır.\n(2) Suçun yargı görevi yapan kişilere karşı işlenmesi halinde, iki yıldan dört yıla kadar hapis cezasına hükmolunur.\n(3) Suçun, kişinin kendisini tanınmayacak bir hale koyması suretiyle veya birden fazla kişi tarafından birlikte işlenmesi halinde, verilecek ceza üçte biri oranında artırılır.\n(4) Suçun, silahla ya da var olan veya var sayılan suç örgütlerinin oluşturdukları korkutucu güçten yararlanılarak işlenmesi halinde, yukarıdaki fıkralara göre verilecek ceza yarı oranında artırılır.\n(5) Bu suçun işlenmesi sırasında kasten yaralama suçunun neticesi sebebiyle ağırlaşmış hallerinin gerçekleşmesi durumunda, ayrıca kasten yaralama suçuna ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "5. Ceza Dairesi",
+   "esas_no": "2024/10005",
+   "karar_no": "2025/10111",
+   "decision_date": "30.09.2025",
+   "summary_md": "İlçe jandarma komutanı olan sanık, araçlarına trafik cezası kesilen katılandan çocuk okuttukları ve karakolun masrafları olduğu gerekçesiyle birden fazla kez para almıştır. Bandırma Ağır Ceza Mahkemesi sanığı zincirleme nüfuz ticaretinden 6 yıl 9 ay hapis ve adli para cezasıyla mahkûm etmiş, istinaf başvuruları reddedilmiştir. Yargıtay 5. Ceza Dairesi hükmü bozmuştur. Daireye göre nüfuz ticareti için gördürülecek işin haksız olması, failin kamu görevlisi üzerinde nüfuzunun bulunması, işi yapacak görevlinin belli olması, haksız işin gördürüleceği vaadi ve taraflar arasında anlaşma gerekir. Trafik timi komutanlarına bir telkin yapılmadığı ve haksız iş vaadine ya da rüşvet anlaşmasına dair somut delil bulunmadığı için eylem TCK m. 257/1 anlamında icrai görevi kötüye kullanma sayılmıştır. Daire ayrıca \"kabule göre de\" diyerek, nüfuz ticareti anlaşması tek olduğundan zincirleme suç hükümlerinin uygulanamayacağını belirtmiştir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1182970400",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "11. Ceza Dairesi",
+   "esas_no": "2021/35348",
+   "karar_no": "2026/1231",
+   "decision_date": "04.02.2026",
+   "summary_md": "Ruhsat başvurusu, binada yangın merdiveni ve acil çıkış kapısı bulunmaması ve çatı katının kaçak olması nedeniyle reddedilen işyeri sahibi, belediye görevlileri üzerinde nüfuzu olduğunu söyleyen kişilere iddiaya göre ruhsat karşılığı 200.000 dolar ödemiştir (paranın tamamının bu iş için verilmediği, taraflar arasında ayrıca bir otel alımı işi bulunduğu da anlaşılmıştır); usule aykırı olarak işyerine geçici de olsa ruhsat verilmiştir. Ağır Ceza Mahkemesi sanıkları kamu kurumlarının araç olarak kullanılmasıyla dolandırıcılıktan beraat ettirmiştir. Yargıtay 11. Ceza Dairesi oy birliğiyle bozmuştur. Daireye göre iş sahibi binasının ruhsata elverişli olmadığını bilmekte, sorunu hukuka aykırı yollardan çözmek için bilerek menfaat vermektedir; bu nedenle kandırılmış (dolandırılmış) sayılamaz. Mahkemece sanıklar, belediye görevlileri ve iş sahibi bakımından nüfuz ticareti (TCK m. 255) ve rüşvet (TCK m. 252) suçlarının tartışılması gerekirdi. Karar, haksız iş peşindeki kişinin dolandırıcılık mağduru değil, nüfuz ticaretinin tarafı olabileceğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1201278600",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Mehmet, binasının imar mevzuatına aykırı olduğunu ve ruhsat alamayacağını bildiği hâlde, belediye başkanının gerçekten yakın arkadaşı olan ve bu yakınlığını öne süren Cem'e ruhsatı çıkarması için 100.000 TL vermeyi kabul etmiştir. Cem herhangi bir girişimde bulunmamıştır. Mehmet'in durumu hangisidir?",
+   "options": [
+    "İşinin gördürülmesi karşılığında menfaat sağlayan olarak 1-3 yıl hapisle cezalandırılır",
+    "Rüşvet vermekten 4-12 yıl hapisle cezalandırılır",
+    "Dolandırıcılığın mağdurudur; sorumluluğu yoktur",
+    "Görevi kötüye kullanmaya iştirakten cezalandırılır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Menfaat işi yapacak görevliye değil, nüfuzu olduğunu söyleyen kişiye ve haksız bir iş için verilmektedir; bu nedenle olay nüfuz ticaretidir. TCK m. 255/1'in son cümlesine göre işini gördürmek karşılığında menfaat sağlayan kişi 1-3 yıl hapisle cezalandırılır. Anlaşma yeterli olduğundan Cem'in hiçbir girişimde bulunmaması sonucu değiştirmez (TCK m. 255/2). İş haksız olduğu için Mehmet dolandırıcılığın mağduru değildir; menfaat görevliye gitmediği için rüşvet de yoktur (TCK m. 252)."
+  },
+  {
+   "stem_md": "Zeynep, kanunen hak ettiği emeklilik aylığının bağlanması için Hasan'a başvurur. Hasan, \"Kurumdaki herkes beni tanır, hatırım büyük, bu işi hallederim\" diyerek 20.000 TL alır. Gerçekte Hasan'ın kurumda hiç tanıdığı yoktur. Hasan'ın eylemi nedir?",
+   "options": [
+    "Nüfuz ticareti; Zeynep de cezalandırılır",
+    "Rüşvet",
+    "TCK m. 158/2 kapsamında nitelikli dolandırıcılık hükmüne tabi eylem",
+    "Görevi kötüye kullanma"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Zeynep'in işi haklıdır ve Hasan'ın söylediği nüfuz yalandır; Zeynep aldatılmıştır. TCK m. 158/2, kamu görevlileriyle ilişkisinin olduğundan, onlar nezdinde hatırı sayıldığından bahisle ve belli bir işin gördürüleceği vaadiyle aldatarak başkasından menfaat temin edeni TCK m. 158/1 hükmüne göre cezalandırır. Nüfuz ticaretinde gördürülecek iş haksızdır; burada iş haklı olduğundan Zeynep fail değil mağdurdur. Hasan kamu görevlisi olmadığı için TCK m. 257 de uygulanmaz."
+  },
+  {
+   "stem_md": "Nüfuz ticareti suçunu işleyen kişinin kamu görevlisi olması hâlinde TCK m. 255/1 uyarınca hangi sonuç doğar?",
+   "options": [
+    "Ceza artırılmaz; sıfat yalnızca disiplin sorumluluğu doğurur",
+    "Verilecek hapis cezası üçte bir oranında artırılır",
+    "Verilecek hapis cezası yarı oranında artırılır",
+    "Verilecek ceza bir kat artırılır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TCK m. 255/1'in ikinci cümlesi açıkça \"Kişinin kamu görevlisi olması halinde, verilecek hapis cezası yarı oranında artırılır\" der. Üçte bir artırım TCK m. 265/3'tedir; bir kat artırım bu maddede yoktur. Nüfuz ticaretinde herkes fail olabilir, ancak failin kamu görevlisi olması cezayı ağırlaştırır."
+  },
+  {
+   "stem_md": "Nüfuz ticaretine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+   "options": [
+    "Talep edilen menfaat kabul edilmezse ceza yarı oranında artırılır",
+    "Menfaat fiilen verilmedikçe suç tamamlanmış sayılmaz",
+    "Menfaat temini konusunda anlaşmaya varılması hâlinde dahi suç tamamlanmış gibi cezaya hükmolunur",
+    "Etkin pişmanlık hükmü TCK m. 254 uyarınca bu suça da uygulanır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TCK m. 255/2'ye göre menfaat temini konusunda anlaşmaya varılması hâlinde dahi suç tamamlanmış gibi cezaya hükmolunur. Teklif veya talebin kabul edilmemesi hâlinde ceza artırılmaz, yarı oranında indirilir (TCK m. 255/3). TCK m. 254 başlığı etkin pişmanlıktır ve rüşvet suçuna ilişkindir; nüfuz ticareti için ayrı bir etkin pişmanlık hükmü bulunmaz."
+  },
+  {
+   "stem_md": "Gözaltındaki şüpheli Ali hiç direnmediği hâlde polis memuru Kemal, Ali'yi tekmeleyerek yaralamıştır. Kemal hakkında hangi hüküm uygulanır?",
+   "options": [
+    "TCK m. 256 uyarınca kasten yaralama suçuna ilişkin hükümler",
+    "TCK m. 265 uyarınca görevi yaptırmamak için direnme",
+    "TCK m. 257/1 uyarınca 6 ay-2 yıl hapis; yaralama ayrıca aranmaz",
+    "Ceza verilmez; zor kullanma yetkisi bulunduğundan hukuka uygundur"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Zor kullanma yetkisi olan görevlinin görevini yaparken görevin gerektirdiği ölçünün dışında kuvvet kullanması hâlinde TCK m. 256 gereği kasten yaralama suçuna ilişkin hükümler uygulanır (TCK m. 86 ve TCK m. 87). Yetki yalnız ölçülü kuvveti kapsar; direnmeyen kişiye şiddet ölçünün dışındadır. TCK m. 265'te kamu görevlisi mağdurdur, fail değildir. Ayrıca özel hüküm bulunduğundan TCK m. 257 uygulanmaz."
+  },
+  {
+   "stem_md": "Tapu memuru Kemal, eksiksiz belgeyle başvuran Ayşe'nin işlemini hiçbir gerekçe olmaksızın beş ay bekletmiş, Ayşe bu yüzden satış fırsatını kaçırmıştır. Kemal'in sorumluluğu nedir?",
+   "options": [
+    "Yalnız disiplin sorumluluğu; ceza sorumluluğu doğmaz",
+    "TCK m. 257/2 uyarınca 3 ay-1 yıl hapis",
+    "TCK m. 257/1 uyarınca 6 ay-2 yıl hapis",
+    "TCK m. 260 uyarınca 3 ay-1 yıl hapis"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Görevin gereklerini yapmakta ihmal veya gecikme gösterilmiştir ve kişi mağdur olmuştur; bu, TCK m. 257/2'nin ihmali şeklidir ve cezası 3 ay-1 yıl hapistir. İcrai davranışta ceza 6 ay-2 yıl hapistir (TCK m. 257/1). TCK m. 260 toplu biçimde görevin terkini düzenler; tek kişinin gecikmesi buna girmez. Mağduriyet doğduğu için yalnız disiplin sorumluluğundan söz edilemez."
+  },
+  {
+   "stem_md": "TCK m. 257'de yer alan görevi kötüye kullanma suçu bakımından aşağıdakilerden hangisi kanunda sayılan alternatif sonuçlardan biri DEĞİLDİR?",
+   "options": [
+    "Kişilere haksız bir menfaat sağlanması",
+    "Kamunun zararı",
+    "Kişilerin mağduriyeti",
+    "Kamu düzeninin bozulması"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TCK m. 257/1 ve TCK m. 257/2 sonuç olarak kişilerin mağduriyetini, kamunun zararını veya kişilere haksız menfaat sağlanmasını sayar. \"Kamu düzeninin bozulması\" bu üç sonuç arasında yer almaz. Bu sonuçlardan hiçbiri doğmamışsa görevin gereklerine aykırı davranış ceza hukuku bakımından suç oluşturmaz."
+  },
+  {
+   "stem_md": "Devlet hastanesinden emekli olduktan sonra kendi özel muayenehanesini açan hekim Selin, muayenehanesinde mevzuata aykırı biçimde reşit olmayan bir hastaya işlem yapmıştır. Savcılık Selin hakkında görevi kötüye kullanmadan dava açmıştır. Selin bakımından doğru sonuç hangisidir?",
+   "options": [
+    "TCK m. 258 uygulanır; hekim sır saklama yükümlüsüdür",
+    "TCK m. 257/2 uygulanır; çünkü ihmali davranış söz konusudur",
+    "TCK m. 257 uygulanamaz; özel muayenehanesinde çalışan hekim TCK m. 6/1-c anlamında kamu görevlisi değildir",
+    "TCK m. 257/1 uygulanır; hekim görev yaptığı için kamu görevlisidir"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TCK m. 257 özgü suçtur ve fail kamu görevlisi olmalıdır. TCK m. 6/1-c'ye göre kamu görevlisi, kamusal faaliyetin yürütülmesine atama veya seçilme yoluyla ya da herhangi bir surette katılan kişidir; emekli olup kendi muayenehanesinde çalışan hekim kamusal bir faaliyete katılmadığından bu sıfata sahip değildir. Emeklilikten önceki kamu görevi, sonraki muayenehane faaliyetine bu sıfatı taşımaz. TCK m. 258 de kamu görevlisine özgüdür ve yalnız gizli belge, karar ve emirlere ilişkindir."
+  },
+  {
+   "stem_md": "Belediye müdürü Hasan, görevdeyken öğrendiği ve gizlilik kaydı taşıyan, henüz açıklanmamış imar planı değişikliği taslağını emekli olduktan sonra bir arsa yatırımcısına anlatmıştır. Hasan'ın durumu hangisidir?",
+   "options": [
+    "TCK m. 257/1 uyarınca 6 ay-2 yıl hapisle cezalandırılır",
+    "TCK m. 258/2 uyarınca 1-4 yıl hapisle cezalandırılır",
+    "Ceza verilmez; sıfat sona erdiği için kamu görevlisi değildir",
+    "TCK m. 259 uyarınca altı aya kadar hapisle cezalandırılır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TCK m. 258/2'ye göre kamu görevlisi sıfatı sona erdikten sonra birinci fıkradaki fiilleri işleyen kimseye de aynı ceza (1-4 yıl hapis) verilir. Bu nedenle sıfatın bitmesi cezasızlık sebebi değildir. TCK m. 259 görevin nüfuzuyla mal veya hizmet satmaya çalışmayı düzenler ve burada uygulanmaz."
+  },
+  {
+   "stem_md": "Bir belediyenin zabıta müdürlüğünde çalışan üç memur, hukuka aykırı biçimde ve toplu olarak anlaşarak üç gün işe gelmemiştir. Bu memurların durumu hangisidir?",
+   "options": [
+    "Her biri TCK m. 260/1 uyarınca 3 ay-1 yıl hapisle cezalandırılır",
+    "TCK m. 260/2 uyarınca cezaları mutlaka kaldırılır",
+    "Kamu görevlisi sayısı üçten fazla olmadığı için cezaya hükmolunmaz",
+    "TCK m. 257/2 uyarınca 3 ay-1 yıl hapisle cezalandırılırlar"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TCK m. 260/1'in son cümlesine göre kamu görevlisi sayısının üçten fazla olmaması hâlinde cezaya hükmolunmaz; yani cezaya hükmedilebilmesi için en az dört görevli gerekir. Üç memur bulunduğundan ceza verilmez. TCK m. 260/2 hâkime indirim veya ceza vermeme konusunda takdir verir; zorunlu bir kaldırma getirmez ve olayda zaten aranmaz."
+  },
+  {
+   "stem_md": "Borçlu Ali ve kardeşi Veli, haciz için gelen icra memurunu birlikte tehdit ederek haczi engellemişlerdir. Silah kullanılmamıştır. Hangi sonuç doğrudur?",
+   "options": [
+    "Artırım yapılmaz; tehdit direnme suçunun içinde erir",
+    "TCK m. 265/1'deki ceza yarı oranında artırılır",
+    "TCK m. 265/1'deki ceza, birlikte işlendiği için üçte bir oranında artırılır",
+    "TCK m. 265/2 uygulanır; icra memuru yargı görevi yapan sayılır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kamu görevlisi icra memuruna karşı görevini engellemek amacıyla tehdit kullanılmıştır (TCK m. 265/1). Suç birden fazla kişi tarafından birlikte işlendiğinden ceza TCK m. 265/3 uyarınca üçte bir oranında artırılır. İcra memuru, TCK m. 6/1-d'deki sayımda yer almadığından yargı görevi yapan kişi değildir ve TCK m. 265/2 uygulanmaz. Yarı oranındaki artırım silah veya örgüt gücü için öngörülmüştür (TCK m. 265/4)."
+  },
+  {
+   "stem_md": "Fail Selim, haczi engellemek amacıyla icra memuruna karşı cebir kullanmış ve memurun kolu kırılmıştır. Hangi sonuç doğru?",
+   "options": [
+    "Yalnızca kasten yaralama suçundan cezalandırılır; direnme aranmaz",
+    "Yalnızca görevi yaptırmamak için direnme suçundan cezalandırılır; yaralama direnmenin içinde erir",
+    "TCK m. 256 uygulanır; çünkü olay görevli sıfatıyla işlenmiştir",
+    "TCK m. 265'ten ve ayrıca kasten yaralama hükümleri uyarınca cezalandırılır"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Kemik kırılması TCK m. 87/3 kapsamında neticesi sebebiyle ağırlaşmış yaralamadır. TCK m. 265/5, direnme sırasında kasten yaralamanın neticesi sebebiyle ağırlaşmış hâllerinin gerçekleşmesi durumunda ayrıca kasten yaralama hükümlerinin uygulanacağını söyler. Bu yüzden hem direnme hem yaralama hükümleri bir arada uygulanır. TCK m. 256 yalnız zor kullanma yetkisine sahip kamu görevlisinin fail olduğu hâllere ilişkindir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "İbrahim, otelinde yangın merdiveni bulunmadığı ve çatı katının kaçak olması nedeniyle belediyeden işletme ruhsatı alamamıştır. Bunu bilen İbrahim, vergi dairesinde memur olan Selim'e başvurur. Selim, \"Belediye başkanıyla çocukluk arkadaşıyım, bu kaçak binaya ruhsatı çıkarırım, bana 400.000 TL verirsin\" der. Selim gerçekten de belediye başkanının çocukluk arkadaşıdır. İbrahim kabul eder ve avans olarak 100.000 TL öder. Selim belediyeye hiç gitmemiştir.\n\nAynı belediyenin ruhsat servisinde çalışan memur Tuba, eksiksiz belgelerle başvuran Ayten'in dosyasını hiçbir gerekçe olmaksızın beş ay bekletmiş, Ayten bu yüzden işyerini açamayarak zarara uğramıştır. Tuba ayrıca, görevi nedeniyle öğrendiği ve gizlilik kaydı taşıyan, henüz açıklanmamış imar planı değişikliği taslağını bir arsa yatırımcısına anlatmıştır.\n\n1. Selim ve İbrahim'in ceza sorumluluğunu değerlendiriniz.\n2. Selim'in ayrıca kamu görevlisi olmasının sonucu nedir?\n3. Tuba'nın ceza sorumluluğunu değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Gördürülmek istenen işin haksız olması ve nüfuz iddiası: olay nüfuz ticaretidir, rüşvet veya dolandırıcılık değildir",
+     "weight": 20,
+     "madde_ref": "TCK m. 255/1"
+    },
+    {
+     "point": "Menfaat temini için anlaşma yapıldığından suç tamamlanmıştır; Selim'in girişimde bulunmaması ve paranın bir kısmının ödenmesi sonucu değiştirmez",
+     "weight": 15,
+     "madde_ref": "TCK m. 255/2"
+    },
+    {
+     "point": "Selim'in kamu görevlisi olması nedeniyle hapis cezasının yarı oranında artırılması",
+     "weight": 15,
+     "madde_ref": "TCK m. 255/1"
+    },
+    {
+     "point": "İbrahim'in işinin gördürülmesi karşılığında menfaat sağlayan olarak 1-3 yıl hapisle cezalandırılması; haksız iş peşinde olduğundan dolandırıcılığın mağduru sayılmaması",
+     "weight": 15,
+     "madde_ref": "TCK m. 255/1"
+    },
+    {
+     "point": "Tuba'nın ihmal ve gecikmesi: kişilerin mağduriyeti doğduğundan ihmali görevi kötüye kullanma, 3 ay-1 yıl hapis",
+     "weight": 20,
+     "madde_ref": "TCK m. 257/2"
+    },
+    {
+     "point": "Tuba'nın gizli imar planı değişikliği taslağını açıklaması: göreve ilişkin sırrın açıklanması, 1-4 yıl hapis",
+     "weight": 15,
+     "madde_ref": "TCK m. 258/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay iki ayrı görevli ve iki ayrı suç grubundan oluşur. Selim ve İbrahim bakımından nüfuz ticareti, Tuba bakımından görevi kötüye kullanma ve göreve ilişkin sırrın açıklanması gündeme gelir.\n\n**Hukuki sorunlar:** (1) Selim'e verilen menfaat rüşvet midir, nüfuz ticareti midir, yoksa dolandırıcılık mıdır? (2) Fiilen hiçbir girişim yapılmaması suçun tamamlanmasını engeller mi? (3) Selim'in kamu görevlisi olması ve İbrahim'in sorumluluğu. (4) Tuba'nın iki davranışının hangi suçları oluşturduğu.\n\n**İlgili hükümler:** Menfaat, işi yapacak belediye görevlisine değil, onun üzerinde nüfuzu olduğunu söyleyen Selim'e verilmiştir; bu nedenle TCK m. 252 değil TCK m. 255 uygulanır. Gördürülmek istenen iş, binanın ruhsata elverişli olmaması nedeniyle haksızdır. TCK m. 255/1 nüfuz satana 2-5 yıl hapis ve beşbin güne kadar adli para cezası, işini gördürmek için menfaat sağlayana ise 1-3 yıl hapis öngörür. TCK m. 255/2'ye göre anlaşma ile suç tamamlanır. Tuba'nın gecikmesi TCK m. 257/2'de, açıklaması ise TCK m. 258/1'de düzenlenmiştir.\n\n**Değerlendirme:** Selim, kamu görevlisi olduğunu ileri sürerek değil, belediye başkanı üzerinde gerçekten var olan nüfuzunu ileri sürerek haksız işin gördürüleceğini vaat etmiş; işi yapacak görevli (belediye başkanı) de bellidir. Selim menfaat konusunda İbrahim'le anlaşmıştır. Suç anlaşma anında tamamlandığından Selim'in belediyeye hiç gitmemesi veya ödemenin kısmen yapılmış olması sonucu etkilemez. Selim kamu görevlisi olduğu için TCK m. 255/1'in ikinci cümlesi gereği verilecek hapis cezası yarı oranında artırılır. İbrahim, binasının ruhsata uygun olmadığını bildiğinden haksız bir iş peşindedir; aldatılmış bir mağdur değildir ve TCK m. 255/1'in son cümlesi uyarınca 1-3 yıl hapisle cezalandırılır. Bu suçta etkin pişmanlık hükmü bulunmadığından İbrahim'in sonradan pişman olması cezayı kaldırmaz. Eğer İbrahim'in işi haklı olsaydı ve Selim'in nüfuzu da yalan olsaydı, eylem TCK m. 158/2 kapsamındaki dolandırıcılık olurdu.\n\nTuba, ruhsat servisinde çalışan kamu görevlisidir (TCK m. 6/1-c). Eksiksiz başvuruyu gerekçesiz bekletmesi görevin gereklerini yapmakta ihmal veya gecikmedir; Ayten'in zarar görmesi mağduriyet sonucunu doğurmuştur. Başka özel suç oluşmadığından TCK m. 257/2 uygulanır ve 3 ay-1 yıl hapis verilir. Gizlilik kaydı taşıyan imar planı değişikliği taslağını açıklaması ise TCK m. 258/1'deki suçu oluşturur ve 1-4 yıl hapis gerektirir. İki fiil ayrı davranışlar olduğundan ayrı suçlar sayılır.\n\n**Sonuç:** Selim TCK m. 255/1 gereği 2-5 yıl hapis ve beşbin güne kadar adli para cezası üzerinden, kamu görevlisi olduğu için yarı artırımla; İbrahim 1-3 yıl hapisle; Tuba ise TCK m. 257/2 ve TCK m. 258/1'den ayrı ayrı cezalandırılır."
+  },
+  {
+   "stem_md": "Borçlu Ali'nin dükkânında icra memuru Murat, alacaklının talebiyle haciz işlemi yapmaya gelir. Ali'nin kardeşi Veli de oradadır. Ali, \"Bu dükkâna dokunduran olursa yaşamasın\" diyerek, Veli ile birlikte Murat'ı tehdit eder ve haciz tutanağı düzenlenmesini engellemeye çalışır. Murat geri adım atmayınca Ali, Veli'yle önceden konuşmadıkları ve Veli'nin beklemediği bir anda yerdeki demir sopayı alır ve Murat'ın koluna vurur. Murat'ın kolundaki kemik kırılır. Ali sonradan \"haciz haksızdı, direnmek benim hakkımdı\" demektedir. Haciz işlemi geçerli bir icra takibine dayanmaktadır.\n\n1. Ali ve Veli'nin sorumluluğunu, nitelikli hâller bakımından değerlendiriniz.\n2. Murat'ın yaralanması bakımından sonucu tartışınız.\n3. Ali'nin \"direnme hakkı\" savunmasını değerlendiriniz.",
+   "rubric": [
+    {
+     "point": "Kamu görevlisine karşı görevini engellemek amacıyla cebir ve tehdit: görevi yaptırmamak için direnme (temel şekil)",
+     "weight": 20,
+     "madde_ref": "TCK m. 265/1"
+    },
+    {
+     "point": "İcra memuru yargı görevi yapan kişi sayılmadığından 2-4 yıllık ağırlaştırılmış cezaya geçilmez",
+     "weight": 15,
+     "madde_ref": "TCK m. 6/1-d"
+    },
+    {
+     "point": "Ali ve Veli birlikte hareket ettiğinden üçte bir oranında artırım",
+     "weight": 15,
+     "madde_ref": "TCK m. 265/3"
+    },
+    {
+     "point": "Demir sopanın silah sayılması ve Ali bakımından silahla işlenme nedeniyle yarı oranında artırım; kastı sopanın kullanılmasını kapsamayan Veli'ye bu artırımın uygulanmaması",
+     "weight": 20,
+     "madde_ref": "TCK m. 265/4"
+    },
+    {
+     "point": "Kemik kırılması neticesi sebebiyle ağırlaşmış yaralamadır; ayrıca kasten yaralama hükümleri uygulanır",
+     "weight": 20,
+     "madde_ref": "TCK m. 265/5"
+    },
+    {
+     "point": "Haciz yetki içinde ve geçerli olduğundan meşru savunma ve direnme hakkı savunmasının kabul edilmemesi",
+     "weight": 10,
+     "madde_ref": "TCK m. 25/1"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olayda kamu görevlisi icra memuruna karşı görevini engellemek amacıyla cebir ve tehdit kullanılmıştır. Temel suç görevi yaptırmamak için direnme olup nitelikli hâller ve yaralama sonucu ayrıca tartışılmalıdır.\n\n**Hukuki sorunlar:** (1) Murat mağdur sıfatı ve suçun temel şekli. (2) Murat'ın yargı görevi yapan olup olmadığı. (3) Birlikte işleme ve silah artırımları. (4) Kemik kırılmasının sonucu. (5) Ali'nin hukuka uygunluk savunması.\n\n**İlgili hükümler:** TCK m. 265/1 temel cezayı (6 ay-3 yıl), TCK m. 265/2 yargı görevi yapan kişilere karşı 2-4 yıl cezayı, TCK m. 265/3 birlikte işlemede üçte bir artırımı, TCK m. 265/4 silahla işlemede yarı artırımı, TCK m. 265/5 ağırlaşmış yaralamada ayrıca kasten yaralama hükümlerini düzenler. Silah tanımı TCK m. 6/1-f'dedir; kemik kırılması ise TCK m. 87/3'tedir.\n\n**Değerlendirme:** Murat TCK m. 6/1-c anlamında kamu görevlisidir ve haciz, görevinin bir parçasıdır. Ali ve Veli, haczi engelleme amacıyla tehdit ve cebir kullandıklarından TCK m. 265/1'in temel şeklini işlemişlerdir. TCK m. 6/1-d yargı görevi yapan kişiyi yüksek mahkemeler, adli ve idari mahkemeler üye ve hâkimleri, Cumhuriyet savcısı ve avukatlar olarak sayar; icra memuru bu sayımda yer almadığından TCK m. 265/2'deki daha ağır ceza uygulanamaz. Suç iki kişi tarafından birlikte işlendiği için TCK m. 265/3 uyarınca ceza üçte bir artırılır. Demir sopa, fiilen saldırıda kullanılmaya elverişli olduğundan TCK m. 6/1-f kapsamında silahtır ve Ali bakımından TCK m. 265/4 uyarınca ayrıca yarı oranında artırım yapılır. Sopanın kullanılması Veli'yle ortak kararın dışında kalan ve Veli'nin beklemediği bir davranış olduğundan, Veli'nin kastı bu nitelikli hâli kapsamaz; Veli bakımından silah artırımı uygulanmaz. Bu artırımların hangi sırayla ve hangi tabana göre hesaplanacağı ayrı bir tartışma konusudur; bu notta hesap yapılmaz. Kemik kırılması TCK m. 87/3 kapsamındaki neticesi sebebiyle ağırlaşmış yaralamadır; TCK m. 265/5 gereği Ali hakkında ayrıca kasten yaralama hükümleri uygulanır. Yaralamayı ortak kararın dışına çıkarak yalnız Ali gerçekleştirdiğinden Veli yaralamadan sorumlu tutulmaz; Veli'nin tehdidi birlikte işlenen direnmeyi oluşturur. Haciz geçerli bir icra takibine dayandığı ve görevli yetkisi dahilinde hareket ettiği için Ali'nin haksız bir saldırıya karşı koyduğu söylenemez; TCK m. 25/1'in şartları bulunmadığından meşru savunma kabul edilemez ve haczin esasına yönelik itirazlar cebirle değil hukuki yollarla ileri sürülmelidir.\n\n**Sonuç:** Ali ve Veli, TCK m. 265/1 uyarınca görevi yaptırmamak için direnmeden cezalandırılır; TCK m. 265/2 uygulanmaz. İkisinin cezası TCK m. 265/3 nedeniyle artırılır; TCK m. 265/4'teki silah artırımı yalnız Ali'ye uygulanır. Ali hakkında ayrıca TCK m. 265/5 gereği kasten yaralama hükümleri (TCK m. 87/3 ağırlaşmış hâliyle) uygulanır. Meşru savunma savunması reddedilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Nüfuz ticaretinin cezası ve kimlerin fail olabildiği (TCK m. 255/1)?",
+   "back_md": "Nüfuz satana 2-5 yıl hapis ve beşbin güne kadar adli para cezası; herkes fail olabilir, fail kamu görevlisiyse hapis yarı oranında artırılır. İşini gördürmek için menfaat verene 1-3 yıl hapis."
+  },
+  {
+   "front_md": "Nüfuz ticareti ile rüşvet nasıl ayrılır?",
+   "back_md": "Menfaat işi yapacak görevliye gidiyorsa rüşvet (TCK m. 252). Nüfuzu olduğunu söyleyen kişiye ve haksız iş için gidiyorsa nüfuz ticareti (TCK m. 255)."
+  },
+  {
+   "front_md": "İş haklıysa ve nüfuz yalansa?",
+   "back_md": "Dolandırıcılık: TCK m. 158/2 uyarınca TCK m. 158/1 hükmüne göre cezalandırılır; iş sahibi mağdurdur."
+  },
+  {
+   "front_md": "Nüfuz ticaretinde anlaşma ve kabul edilmeyen teklif?",
+   "back_md": "Anlaşma yapılınca suç tamamlanmış gibi cezalandırılır (TCK m. 255/2). Teklif veya talep kabul edilmezse ceza yarı oranında indirilir (TCK m. 255/3)."
+  },
+  {
+   "front_md": "Nüfuz ticaretinde etkin pişmanlık var mı?",
+   "back_md": "Yok. TCK m. 254'teki etkin pişmanlık rüşvete özgüdür."
+  },
+  {
+   "front_md": "TCK m. 256 neyi düzenler?",
+   "back_md": "Zor kullanma yetkisine sahip görevlinin ölçünün dışında kuvvet kullanması; kasten yaralamaya ilişkin hükümler uygulanır. Kendi cezası yoktur."
+  },
+  {
+   "front_md": "TCK m. 257'nin iki şekli ve cezaları?",
+   "back_md": "İcrai (görevin gereklerine aykırı hareket) 6 ay-2 yıl; ihmali (ihmal veya gecikme) 3 ay-1 yıl hapis. İkisinde de mağduriyet, kamu zararı veya haksız menfaat aranır."
+  },
+  {
+   "front_md": "TCK m. 257 neden tamamlayıcı normdur?",
+   "back_md": "Kanunda ayrıca suç olarak tanımlanan haller dışında uygulanır; rüşvet, zimmet gibi özel suç oluşuyorsa uygulanmaz."
+  },
+  {
+   "front_md": "Göreve ilişkin sırrın açıklanması cezası ve sıfat sona ermesi?",
+   "back_md": "1-4 yıl hapis (TCK m. 258/1). Kamu görevlisi sıfatı sona erdikten sonra fiili işleyen de aynı cezayı alır (TCK m. 258/2)."
+  },
+  {
+   "front_md": "TCK m. 260'ta kaç kişi gerekir?",
+   "back_md": "Görevli sayısı üçten fazla olmazsa ceza verilmez; en az dört kişi gerekir. Ceza 3 ay-1 yıl hapistir."
+  },
+  {
+   "front_md": "TCK m. 265'te cezalar ve artırımlar?",
+   "back_md": "Temel 6 ay-3 yıl; yargı görevi yapan kişiye karşı 2-4 yıl. Birlikte veya yüzü gizli: 1/3 artırım. Silah veya örgüt gücü: yarı artırım."
+  },
+  {
+   "front_md": "Direnirken görevlinin kemiği kırılırsa?",
+   "back_md": "Neticesi sebebiyle ağırlaşmış yaralama (TCK m. 87/3) gerçekleştiğinden TCK m. 265/5 gereği ayrıca kasten yaralama hükümleri de uygulanır."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

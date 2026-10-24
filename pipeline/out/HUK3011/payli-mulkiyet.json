@@ -1,0 +1,732 @@
+{
+ "course_id": "HUK3011",
+ "unit_index": 3,
+ "unit_title": "Ünite 3: Mülkiyet Hakkı: Genel Hükümler",
+ "topic_index": 3,
+ "slug": "payli-mulkiyet",
+ "title": "Paylı Mülkiyet: Yönetim, Tasarruf, Giderler ve Paydaşın Çıkarılması",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:37:56.245661+00:00",
+ "skill_refs": [
+  "esya-hukuku/paydaslik-ortakligin-giderilmesi"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Birden çok kişi aynı şeye belli paylarla malikse, o şeyi **kim yönetir, kim kullanır, masrafı kim öder** ve ilişkiyi zehirleyen bir paydaştan nasıl kurtulunur?\n\n- **Kavram (TMK m. 688):** Paydaşlar, maddi olarak bölünmemiş bir şeyin **tamamına belli paylarla** maliktir. Pay soyuttur; paydaş belirli bir odanın ya da bahçenin bir köşesinin maliki değildir. Paylar başka türlü belirlenmedikçe **eşit** sayılır.\n- **Pay üzerinde serbestlik (TMK m. 688/3):** Her paydaş payını tek başına devredebilir ve rehnedebilir; pay alacaklılarca haczettirilebilir. Taşınmaz payının üçüncü kişiye satışında diğer paydaşların yasal önalım hakkı doğar (TMK m. 732, konu 16).\n- **Anlaşmalar (TMK m. 689):** Paydaşlar **oybirliğiyle** yararlanma, kullanma ve yönetimi farklı düzenleyebilir. Ama zorunlu yönetim işlerini yapma ve acil koruma önlemlerini bütün paydaşlar hesabına alma yetkisi kaldırılamaz. Taşınmazda anlaşma, imzalar noterce onaylanırsa bir paydaşın başvurusuyla tapuya şerh edilebilir.\n- **Yönetimin kademeleri:**\n  - Olağan yönetim (küçük onarım, tarımsal işler): **her paydaş tek başına** (TMK m. 690).\n  - Önemli yönetim (kira sözleşmesi yapma ve feshi, tarım türünü değiştirme, toprağın ıslahı, değeri korumak için gerekli büyük onarım): **pay ve paydaş çoğunluğu** birlikte (TMK m. 691). Eşitlikte hâkim karar verir, kayyım atayabilir.\n  - Olağanüstü yönetim ve tasarruf (amaç değişikliği, ölçüyü aşan yapı, malın tamamının satışı ya da tamamına rehin): **bütün paydaşların kabulü**; oybirliğiyle aksi kararlaştırılabilir (TMK m. 692). Paylar üzerinde rehin ya da yük varsa malın tamamı benzer haklarla kayıtlanamaz.\n- **Kullanma ve koruma (TMK m. 693):** Her paydaş, diğerlerinin haklarıyla bağdaştığı ölçüde kullanır. Uyuşmazlıkta kullanma şeklini **hâkim** belirler; zaman ya da yer itibarıyla bölebilir ama mülkiyeti değiştirmez. Her paydaş ortak menfaatleri diğerlerini temsilen korur; üçüncü kişiye karşı tek başına elatmanın önlenmesini isteyebilir, ecrimisili ise payı oranında ister.\n- **Giderler (TMK m. 694):** Yönetim giderleri, vergiler ve diğer yükümlülükler **payları oranında**; fazla ödeyen her paydaşa payı oranında rücu eder.\n- **Bağlayıcılık (TMK m. 695):** Kararlar sonradan paydaş olanları da bağlar; taşınmazda bunun için **şerh** gerekir.\n- **Paydaşlıktan çıkarma (TMK m. 696):** Yükümlülüklerini **ağır biçimde** çiğneyip ilişkiyi **çekilmez** hâle getiren paydaş, **mahkeme kararıyla** çıkarılır. Dava, aksi kararlaştırılmadıkça pay ve paydaş çoğunluğu kararıyla açılır. Hâkim önce payı aynen ayırır; olmuyorsa payı **dava tarihindeki değeriyle** isteyen paydaşa devreder; isteyen yoksa süre verir ve payı açık artırmayla sattırır.\n- **Diğer hak sahipleri (TMK m. 697):** Aynı kurallar pay üzerindeki intifa ve benzeri hak sahiplerine kıyasen uygulanır; devri caiz olmayan hak uygun tazminatla sona erdirilir.\n- **Sona erme:** Her paydaş kural olarak paylaşma isteyebilir (TMK m. 698); ayrıntısı konu 11.",
+  "content_md": "## 0. Konunun haritası\n\nBirden çok kişi aynı şeye birlikte malik olabilir. Kanun bunun iki biçimini tanır: **paylı mülkiyet** ve **elbirliği mülkiyeti**. Bu konu paylı mülkiyetin \"işleyen\" hâlini anlatır: pay, yönetim, kullanma, giderler ve sorunlu paydaşın çıkarılması. Paylaşma (ortaklığın giderilmesi) ve elbirliği mülkiyeti konu 11'de.\n\n| | Paylı mülkiyet | Elbirliği mülkiyeti |\n|---|---|---|\n| Pay | Belli (ör. 1/4) | Belirlenmiş pay yok (TMK m. 701/2) |\n| Yönetim | Kademeli çoğunluklar | Kural olarak oybirliği (TMK m. 702/2) |\n| Dayanak | Topluluk gerekmez | Kanuni ya da sözleşmesel topluluk (TMK m. 701/1) |\n\nKonunun iskeleti:\n- TMK m. 688: tanım ve pay,\n- TMK m. 689: paydaşların anlaşmaları,\n- TMK m. 690-692: yönetim ve tasarrufun üç kademesi,\n- TMK m. 693: yararlanma, kullanma, koruma,\n- TMK m. 694: giderler,\n- TMK m. 695: kararların bağlayıcılığı,\n- TMK m. 696-697: paydaşlıktan ve diğer haklardan çıkarma.\n\n> 💡 **Püf nokta:** Olay sorusunda her işlem için iki soru sor: (1) Bu iş **payla** mı ilgili, **malın tamamıyla** mı? (2) Malın tamamıyla ilgiliyse hangi **kademe**? Cevabın çoğu buradan çıkar.\n\n## 1. Kavram: pay nedir? (TMK m. 688)\n\nTMK m. 688/1'e göre paylı mülkiyette birden çok kimse, **maddi olarak bölünmüş olmayan** bir şeyin **tamamına belli paylarla** maliktir. **Pay**, şeyin fiziksel bir parçası değil, şeyin tamamı üzerindeki mülkiyetin oransal (soyut) bir kesridir. 1/4 paydaşı evin bir odasının değil, evin tamamının dörtte birinin malikidir.\n\n- **Eşitlik karinesi (TMK m. 688/2):** Başka türlü belirlenmedikçe paylar eşit sayılır.\n- **Pay üzerinde malik gibi (TMK m. 688/3):** Her paydaş kendi payı bakımından malikin hak ve yükümlülüklerine sahiptir. Pay devredilebilir, rehnedilebilir ve alacaklılar tarafından haczettirilebilir. Bunun için öteki paydaşların izni gerekmez.\n\n> **Örnek:** Ali (1/2), Ayşe (1/4) ve Mehmet (1/4) bir arsanın paydaşıdır. Ali payını tek başına Zeynep'e satabilir ya da bankaya ipotek edebilir. Ayşe'nin alacaklısı Ayşe'nin payını haczettirebilir. Ama Ali arsanın **tamamını** satamaz, tamamına ipotek de kuramaz. Bu, malın tamamı üzerinde tasarruftur (TMK m. 692).\n\n- Taşınmaz payının devri de taşınmaz mülkiyetinin devri gibi resmî şekle bağlıdır (TMK m. 706); ayrıntısı konu 12.\n- Paydaş taşınmazdaki payını üçüncü kişiye satarsa diğer paydaşlar yasal önalım hakkını kullanabilir (TMK m. 732); şartları ve süreleri konu 16'da.\n\n> ⚠️ **Sınavda dikkat:** Paydaş tapuda \"bahçenin kuzey tarafının\" ya da \"zemin katın\" maliki değildir. Paydaşların yer göstererek aralarında yaptıkları harici ya da fiili paylaşma, payların mülkiyetini ana taşınmazdan ayırmaz. Belirli bir yeri ayrı mülkiyete çevirmek için resmî ayırma (ifraz), paylaşma ya da kat mülkiyeti gerekir.\n\n## 2. Paydaşların anlaşması (TMK m. 689)\n\nKanundaki yönetim kuralları **yedek hükümlerdir.** Paydaşlar **oybirliğiyle** anlaşarak yararlanma, kullanma ve yönetim konularında kanundan farklı bir düzen kurabilir (TMK m. 689/1). Yazlığın aylara bölünmesi, kira kararlarının bir paydaşa bırakılması ya da giderlerin farklı oranda paylaşılması tipik örneklerdir.\n\n**Anlaşmayla bile kaldırılamayan ve sınırlandırılamayan iki yetki** (TMK m. 689/1):\n1. Eşyanın kullanılabilirliğinin ve değerinin korunması için **zorunlu** olan yönetim işlerini yapmak ve gerektiğinde mahkemeden buna ilişkin önlemlerin alınmasını istemek.\n2. Eşyayı bir zarar tehlikesinden veya zararın artmasından korumak için **derhâl** alınması gereken önlemleri **bütün paydaşlar hesabına** almak.\n\n> **Örnek:** Gece boru patlar, alt kattaki dükkânı su basmak üzeredir. Paydaşlardan Burak, öteki paydaşlara ulaşamadan tesisatçı çağırır. Paydaşlar \"her onarım ortak kararla yapılır\" diye anlaşmış olsalar bile Burak'ın bu yetkisi kaldırılamaz. Masraf bütün paydaşlar hesabınadır.\n\n**Şerh (TMK m. 689/3):** Taşınmazlarla ilgili anlaşmalar, imzalarının **noterlikçe onaylanması** koşuluyla, paydaşlardan **birinin başvurusu** üzerine tapu kütüğüne şerh verilebilir. Şerhin asıl önemi TMK m. 695'te ortaya çıkar (6. bölüm).\n\n> 💡 **Püf nokta:** TMK m. 689'daki anlaşma kullanma ve yönetim içindir. Malın tamamı üzerindeki tasarruflar için farklı bir çoğunluk kararlaştırma imkânı ise TMK m. 692'den gelir.\n\n## 3. Yönetim ve tasarruf: kademeler\n\n| Kademe | Kim karar verir? | Madde |\n|---|---|---|\n| Zorunlu ve acil işler | Her paydaş, kaldırılamaz | TMK m. 689 |\n| Olağan yönetim | Her paydaş tek başına | TMK m. 690 |\n| Önemli yönetim | Pay ve paydaş çoğunluğu | TMK m. 691 |\n| Olağanüstü yönetim, tasarruf | Bütün paydaşlar | TMK m. 692 |\n\n### 3.1 Olağan yönetim işleri (TMK m. 690)\n- Paydaşlardan her biri olağan yönetim işlerini yapmaya yetkilidir. Kanun özellikle **küçük onarımları** ve **tarımsal işleri** sayar (TMK m. 690/1).\n- Örnekler: kırık camın değiştirilmesi, bozuk musluğun tamiri, bahçenin sulanması, bağda üzüm hasadı.\n- **Farklı düzenleme (TMK m. 690/2):** Paydaşlar **çoğunlukla** alacakları kararla bu yetkiyi farklı düzenleyebilir. Örneğin olağan işleri yalnız bir paydaşa ya da dışarıdan bir yöneticiye bırakabilirler. Zorunlu ve ivedi işlere ilişkin hükümler (TMK m. 689) bu durumda da saklıdır. Kanunun burada pay çoğunluğundan söz etmemesi tartışma yaratır (bkz. doktrin).\n\n### 3.2 Önemli yönetim işleri (TMK m. 691)\nKanunun saydığı önemli yönetim işleri:\n- işletme usulünün veya tarım türünün değiştirilmesi,\n- adi kira veya ürün kirası sözleşmelerinin **yapılması veya feshi**,\n- toprağın ıslahı,\n- olağan yönetim sınırlarını aşan ve malın **değerinin veya yarar sağlamaya elverişliliğinin korunması için gerekli** bakım, onarım ve yapı işleri (TMK m. 691/2). Örnek: çatının tamamen yenilenmesi, eskiyen asansörün değiştirilmesi.\n\nBunlar için **pay ve paydaş çoğunluğu** gerekir. İki çoğunluk **birlikte** aranır ve hesap tapudaki bütün paydaşlar üzerinden yapılır:\n- **Pay çoğunluğu:** Kararı destekleyenlerin payları toplamı yarıdan fazla olmalı.\n- **Paydaş çoğunluğu:** Kararı destekleyenlerin sayısı paydaşların yarısından fazla olmalı.\n\n> **Örnek (hesap):** Bir dükkânda Selin 5/8, Tuna 2/8, Umut 1/8 paya sahiptir. Tuna ile Umut dükkânı kiraya vermek ister, Selin karşı çıkar. Tuna ve Umut paydaş çoğunluğunu sağlar (üç kişiden iki kişi), ama payları toplamı 3/8'dir. Selin ise 5/8 ile pay çoğunluğuna sahiptir, ama üç kişiden yalnız biridir. Hiçbir taraf tek başına karar alamaz.\n\n> ⚠️ **Sınavda dikkat:** \"Payların yarısından fazlasına sahip paydaş tek başına kiraya verebilir\" cevabı yanlıştır. TMK m. 691 iki çoğunluğu birlikte arar.\n\n**Eşitlik (TMK m. 691/3):** Pay ve paydaşların eşitliği hâlinde (tipik örnek: yarı yarıya iki paydaş), hâkim paydaşlardan birinin istemi üzerine **bütün paydaşların menfaatini gözeterek** hakkaniyete uygun bir karar verir. Gerekli gördüğü işlerin yapılması için paydaşlar arasından ya da dışarıdan bir **kayyım** atayabilir.\n\n> **Örnek:** Kardeşler Can ve Ece bir dükkâna 1/2'şer paylı maliktir. Can dükkânı kiraya vermek ister, Ece boş kalsın der. Can hâkime başvurabilir. Ece'nin karşı çıkması, onun paydaşlıktan çıkarılması için yeterli bir sebep değildir.\n\n**Kira sözleşmesi ve paydaşlar.** Kira bir borç sözleşmesidir; kiraya verenin malik olması aranmaz (TBK m. 299). Yargıtay uygulamasına göre:\n- Paydaşlardan biri gerekli çoğunluk olmadan taşınmazı **kendi adına** kiraya vermişse, kiracı \"pay ve paydaş çoğunluğu yoktu\" diyerek sözleşmeyle bağlı olmadığını ileri süremez. Kiraya veren paydaş sözleşmeden doğan haklarını kullanabilir.\n- Sözleşmeyi yapmayan paydaşlar sözleşmenin tarafı değildir, sözleşme onları bağlamaz. Kiraya veren durumunda olmayan paydaşın tahliye davası açabilmesi için pay ve paydaş çoğunluğunu sağlaması ve kanundaki bir tahliye sebebine dayanması gerekir.\n- Kiracılık ilişkisini kabul eden paydaş, kiracıya ihtarda bulunarak payına düşen kira bedelinin kendisine ödenmesini isteyebilir.\n\n### 3.3 Olağanüstü yönetim işleri ve tasarruflar (TMK m. 692)\nAşağıdaki işler, oybirliğiyle aksi kararlaştırılmış olmadıkça, **bütün paydaşların kabulüne** bağlıdır (TMK m. 692/1):\n- paylı malın **özgülendiği amacın** değiştirilmesi (konutun lokantaya dönüştürülmesi, tarlanın otopark yapılması),\n- korumanın veya olağan şekilde kullanmanın gerektirdiği ölçüyü **aşan** yapı işleri (binaya ek kat, bahçeye havuz),\n- **malın tamamı** üzerinde tasarruf işlemleri (tamamının satışı, tamamına ipotek ya da irtifak kurulması).\n\n**Pay üzerindeki yükler (TMK m. 692/2):** Paylar üzerinde taşınmaz rehni veya taşınmaz yükü kurulmuşsa, paydaşlar malın tamamını **benzer haklarla** kayıtlayamaz. Bu kural pay üzerindeki rehin ve yük sahiplerini korur.\n\n> **Örnek:** Gül ve Hasan bir arsanın 1/2'şer paydaşıdır. Gül'ün payı üzerinde bankası lehine ipotek vardır. Gül ve Hasan anlaşsalar bile arsanın tamamını başka bir banka lehine ipotek edemezler. Hasan ise kendi payını rehnedebilir.\n\n> ⚠️ **Sınavda dikkat:** Payın satışı ile malın satışını karıştırma. Paydaş payını tek başına satar (TMK m. 688/3); malın tamamının satışı bütün paydaşların kabulünü gerektirir (TMK m. 692/1).\n\n## 4. Yararlanma, kullanma ve koruma (TMK m. 693)\n\n### 4.1 Kural\nPaydaşlardan her biri, **diğerlerinin hakları ile bağdaştığı ölçüde** paylı maldan yararlanabilir ve onu kullanabilir (TMK m. 693/1).\n\n### 4.2 Hâkimin kullanma şeklini belirlemesi (TMK m. 693/2)\nUyuşmazlık hâlinde yararlanma ve kullanma şeklini **hâkim** belirler. Bu belirleme, kullanmanın **zaman** veya **yer** itibarıyla paydaşlar arasında bölünmesi biçiminde de olabilir.\n- Zamanla bölme: yazlığın her yaz aylara bölünmesi.\n- Yerle bölme: tarlanın doğusunun bir paydaşa, batısının diğerine kullandırılması.\n\nBu bir **paylaşma değildir.** Mülkiyet ve tapu kaydı değişmez, kimse belirli bir yerin maliki olmaz. Yargıtay'a göre:\n- kullanma şekli, taşınmazın paydaşlara sürekli özgülenmesi biçiminde belirlenemez;\n- hâkim keşif yapmalı; taşınmazın konumunu, niteliğini, kullanma amacını, yöresel âdetleri ve paydaşların ihtiyaçlarını gözeten, çeşitli seçenekler içeren uzman bilirkişi raporu almalı, en uygun seçeneğe hükmetmelidir;\n- karar bütün paydaşları ilgilendirdiği için, diğer paydaşlar davada yer almadan onların haklarını etkileyen bir karar verilemez.\n\n### 4.3 Fiili kullanma (eylemli paylaşma)\nUygulamada paydaşlar tapuda paylı kalan taşınmazı çoğu kez aralarında \"bölüp\" kullanır. Bu **harici** ya da **fiili taksim**, mülkiyeti ana taşınmazdan ayırmaz (TMK m. 706). Ancak Yargıtay, bütün paydaşlar arasında anlaşmayla belirlenmiş ya da uzun süre benimsenmiş bir fiili kullanma biçimini, resmî paylaşma, ortaklığın giderilmesi ya da imar uygulaması yapılıncaya kadar korur. Dayanağı ahde vefa ve dürüstlük kuralıdır (TMK m. 2).\n\n### 4.4 Paydaşlar arasında elatmanın önlenmesi\nMalik, her türlü haksız elatmanın önlenmesini dava edebilir (TMK m. 683/2). Paydaşlar arasında Yargıtay'ın yerleşik uygulaması şöyledir:\n- Paylı maldan yararlanamayan paydaş, engel olan paydaşa karşı **payına elatmanın önlenmesini** her zaman isteyebilir.\n- Ama paydaşın, payına karşılık **çekişmesiz kullandığı** bir yer varsa bu dava dinlenmez. \"Payımdan az yer kullanıyorum\" diyen paydaşın yolu elatma davası değil, **ortaklığın giderilmesi** davasıdır.\n- Hâkim önce bütün paydaşları bağlayan bir harici taksim sözleşmesi, özel parselasyon planı ya da fiili kullanma biçimi olup olmadığını araştırır; varsa çekişmeli yerin kimin kullanımına bırakıldığını belirler. Yoksa uyuşmazlık paylı mülkiyet hükümlerine göre çözülür.\n\nPaydaşlar arasında **ecrimisil** isteminde Yargıtay kural olarak yararlanmanın engellenmesi (intifadan men) şartını arar; ayrıntısı konu 8'de.\n\n### 4.5 Üçüncü kişilere karşı koruma (TMK m. 693/3)\nHer paydaş, bölünemeyen ortak menfaatlerin korunmasını diğer paydaşları **temsilen** sağlayabilir (TMK m. 693/3). Yargıtay uygulamasına göre:\n- Taşınmaza üçüncü kişi elatarsa, paydaşlardan biri **tek başına** ve **taşınmazın tamamı** için elatmanın önlenmesi davası açabilir. Bütün paydaşların birlikte hareket etmesi gerekmez.\n- **Ecrimisil** ise bölünebilir bir para alacağıdır. Paydaş onu yalnız **payı oranında** isteyebilir.\n\n> **Örnek:** Komşu İlker, Nur'un 1/4 paydaşı olduğu boş arsaya konteyner koyup depo olarak kullanır. Diğer paydaşlar ilgilenmez. Nur tek başına konteynerin kaldırılmasını, yani taşınmazın tamamı için elatmanın önlenmesini isteyebilir. Ecrimisilin ise yalnız dörtte birini isteyebilir.\n\n## 5. Giderler ve yükümlülükler (TMK m. 694)\n\n- Paylı mülkiyetten doğan ya da paylı malı ilgilendiren **yönetim giderleri, vergiler ve diğer yükümlülükler**, aksine bir hüküm bulunmadıkça paydaşlarca **payları oranında** karşılanır (TMK m. 694/1). Paydaşlar TMK m. 689'daki anlaşmayla farklı bir dağılım kararlaştırabilir.\n- Payına düşenden fazlasını ödeyen paydaş, diğerlerine **payları oranında** rücu edebilir (TMK m. 694/2).\n\n> **Örnek:** Bir binada Okan 1/2, Pelin 1/3, Rüya 1/6 paya sahiptir. Paydaşlar çatının onarılmasına birlikte karar verir. Onarım 120.000 TL tutar ve bedelin tamamını Okan öder. Okan'ın kendi payına düşen 60.000 TL'dir. Pelin'den 40.000 TL, Rüya'dan 20.000 TL isteyebilir.\n\n> ⚠️ **Sınavda dikkat:** Paydaşlar arasındaki rücu **müteselsil değildir.** Okan, kendi payı dışındaki 60.000 TL'nin tamamını yalnız Pelin'den isteyemez. Her paydaştan ancak onun payına düşeni ister.\n\n## 6. Kararların bağlayıcılığı (TMK m. 695)\n\n- Yararlanma, kullanma ve yönetime ilişkin olarak paydaşların yaptıkları düzenleme ve aldıkları kararlar ile mahkemece verilen kararlar, **sonradan paydaş olanları** ve **pay üzerinde ayni hak kazananları** da bağlar (TMK m. 695/1).\n- **Taşınmazlarda** bu kararların sonradan gelenleri bağlaması için **tapu kütüğüne şerh** edilmeleri gerekir (TMK m. 695/2).\n\n> **Örnek:** Üç kardeş, yazlığı aylara bölen anlaşmayı noterde imzalayıp tapuya şerh ettirir. Kardeşlerden biri payını Serkan'a satar. Serkan, anlaşmadaki kullanım düzenine uymak zorundadır. Anlaşma şerh edilmemiş olsaydı TMK m. 695/2'nin lafzına göre Serkan'ı bağlamazdı. Şerhsiz fiili kullanma düzeninin durumu ise tartışmalıdır (bkz. doktrin).\n\n> 💡 **Püf nokta:** Zinciri ezberle: oybirliğiyle anlaşma (TMK m. 689/1) → noter onaylı imza ve bir paydaşın başvurusuyla şerh (TMK m. 689/3) → yeni paydaşa ve pay üzerinde hak kazanana karşı bağlayıcılık (TMK m. 695/2).\n\n## 7. Paydaşlıktan çıkarma (TMK m. 696)\n\nKanun koyucu paylı mülkiyet ilişkisinin uyum içinde sürmesini amaçlar. Bu mümkün olmazsa önce sorunlu paydaşın çıkarılması, en sonunda da paylı mülkiyetin sona erdirilmesi düşünülür. Çıkarma **ortaklığı bitirmez**, yalnız sorunlu paydaşı ilişkiden uzaklaştırır.\n\n### 7.1 Şartlar (TMK m. 696/1)\n1. **Yükümlülük ihlali:** Paydaş, diğer paydaşların tamamına veya bir kısmına karşı olan yükümlülüklerini çiğnemiş olmalı. Örnek: kullanma düzenine uymamak, ortak malı tahrip etmek, diğerlerinin kullanmasını engellemek.\n2. **Ağır ihlal:** Çiğneme **ağır biçimde** olmalı.\n3. **Kimin davranışı?** Paydaşın **kendi** tutum ve davranışları ya da **malın kullanılmasını bıraktığı** (ör. oturttuğu akrabası, kiracısı) veya **fiillerinden sorumlu olduğu** kişilerin davranışları.\n4. **Çekilmezlik:** İhlal yüzünden paylı mülkiyet ilişkisinin devamı diğer paydaşlar için çekilmez hâle gelmiş olmalı.\n5. **Mahkeme kararı:** Çıkarma ancak mahkeme kararıyla olur.\n\n> **Örnek:** Paydaş Taner, binada kullandığı bölümü oğluna bırakmıştır. Oğlu aylardır diğer paydaşları tehdit etmekte, ortak alandaki sayaçları kırmaktadır. Taner uyarılara rağmen hiçbir önlem almaz. Taner'in kendisi bir şey yapmasa da, malın kullanılmasını bıraktığı kişinin davranışları nedeniyle çıkarılabilir.\n\n> ⚠️ **Sınavda dikkat:** Sıradan geçimsizlik, tek seferlik bir tartışma ya da bir yönetim kararına karşı oy kullanmak çıkarma sebebi değildir. Kanun **ağır** ihlal ve **çekilmezlik** arar.\n\n### 7.2 Davayı açma kararı (TMK m. 696/2)\nDavanın açılması, aksi kararlaştırılmış olmadıkça **pay ve paydaş çoğunluğuyla** karar verilmesine bağlıdır. Çıkarılması istenen paydaşın bu hesapta sayılıp sayılmayacağı kanunda yazılı değildir (bkz. doktrin).\n\n### 7.3 Hâkimin vereceği karar: üç basamak\n1. **Aynen ayırma (TMK m. 696/3):** Çıkarılacak paydaşın payını karşılayacak kısmı maldan ayırmak mümkünse hâkim bu ayırmayı yapar ve ayrılan parçayı **çıkarılan paydaşa** özgüler. Çıkarılan paydaş malsız kalmaz; o parçanın malikidir ve paylı ilişkiden çıkar.\n2. **İsteyen paydaşa devir (TMK m. 696/4):** Aynen ayırma mümkün değilse, payın **dava tarihindeki değeriyle** kendilerine devrini isteyen paydaş veya paydaşlar bu istemi **paydaşlıktan çıkarma istemiyle birlikte** ileri sürmek zorundadır. Hâkim hüküm vermeden önce **re'sen** belirleyeceği uygun bir süre içinde pay değerinin ödenmesine veya **tevdiine** karar verir. Dava kabul edilirse pay istemde bulunan adına tescil edilir.\n3. **Açık artırma (TMK m. 696/5):** Aynen ayırma mümkün değil ve payı isteyen paydaş da yoksa hâkim, davalıya payını devretmesi için bir süre belirler. Bu sürede devredilmeyen payın açık artırmayla satışına karar verir. Satış kararı, cebrî icra yoluyla paraya çevirmeye ilişkin hükümlere göre yerine getirilir.\n\n> **Örnek:** Çıkarılması istenen paydaşın payı dava tarihinde 2.000.000 TL, yargılama sonunda 2.600.000 TL değerindedir ve taşınmaz bölünemez. Devir isteyen paydaş, hâkimin belirlediği sürede 2.000.000 TL'yi öder ya da tevdi eder. Değer artışı hesaba girmez.\n\n> ⚠️ **Sınavda dikkat:** Değer **dava tarihine** göre belirlenir, karar tarihine göre değil. Devir istemi de çıkarma istemiyle **birlikte** ileri sürülmelidir.\n\n**Görevli mahkeme:** Kanun göstermez. Yargıtay, bu davanın yöntem bakımından ortaklığın giderilmesi davasına benzediğini kabul ederek sulh hukuk mahkemesini görevli sayar ve bu tutumunu HMK döneminde de sürdürür. Ortaklığın giderilmesi davaları zaten HMK m. 4/1-b uyarınca sulh hukuk mahkemesindedir. Konu tartışmalıdır (bkz. doktrin).\n\n### 7.4 Diğer hak sahiplerinin çıkarılması (TMK m. 697)\nÇıkarma hükümleri, kıyas yoluyla, pay üzerinde **intifa** veya başka bir **ayni** hak ya da tapuya **şerh edilmiş kişisel yararlanma** hakkı sahiplerine de uygulanır. Hak devredilebiliyorsa çıkarma, paydaşta olduğu gibi işler. **Devri caiz olmayan** bir hak söz konusuysa hâkim, hakkın **uygun bir tazminat karşılığında sona ermesine** karar verir.\n\n> **Örnek:** İntifa hakkı taşınmazlar ve haklar üzerinde kurulabilir (TMK m. 794); TMK m. 697 de pay üzerinde intifa hakkı bulunabileceğini öngörür. İntifa kişiye bağlı bir haktır: gerçek kişide hak sahibinin ölümüyle sona erer (TMK m. 797) ve kanun yalnız hakkın **kullanılmasının** devrine izin verir (TMK m. 806). Pay üzerinde intifa hakkı bulunan kişi ağır ihlalde bulunursa, hakkı uygun bir tazminat karşılığında sona erdirilir.\n\n### 7.5 Çıkarma mı, paylaşma mı?\n\n| | Paydaşlıktan çıkarma | Ortaklığın giderilmesi |\n|---|---|---|\n| Kim ister? | Çoğunluk kararıyla (TMK m. 696/2) | Her paydaş (TMK m. 698) |\n| Sebep | Ağır ihlal ve çekilmezlik | Sebep gerekmez |\n| Sonuç | Yalnız bir paydaş çıkar | Paylı mülkiyet biter |\n\nHer paydaş kural olarak malın paylaşılmasını isteyebilir (TMK m. 698). Paylaşmanın biçimi (aynen bölme, satış; TMK m. 699) ve 📌 dava açılmadan önce arabulucuya başvurma şartı (HUAK m. 18/B) konu 11'de. Yargıtay bir kararında, aynı taşınmazlar için açılmış paydaşlıktan çıkarma davasının sonucu ortaklığın giderilmesi davasını etkileyebileceğinden, bu davanın bekletici mesele yapılması gerektiğini kabul etmiştir.\n\n## 8. Olay çözerken denetim şeması\n1. **Mülkiyet türü:** Paylı mı (TMK m. 688), elbirliği mi (TMK m. 701)? Paylar ne kadar?\n2. **İşlem payla mı ilgili, malın tamamıyla mı?** Pay ise paydaş serbesttir (TMK m. 688/3); önalımı not et (TMK m. 732).\n3. **Kademe:** Acil ya da zorunlu iş mi (TMK m. 689), olağan mı (TMK m. 690), önemli mi (TMK m. 691), olağanüstü ya da tasarruf mu (TMK m. 692)?\n4. **Çoğunluğu hesapla:** Pay ve paydaş çoğunluğunu ayrı ayrı say. Eşitlik varsa hâkim ve kayyım (TMK m. 691/3).\n5. **Anlaşma var mı?** Oybirliği, kaldırılamaz yetkiler, şerh (TMK m. 689); sonradan gelenleri bağlıyor mu (TMK m. 695)?\n6. **Kullanma uyuşmazlığı:** Hâkimin belirlemesi (TMK m. 693/2), fiili kullanma, paydaşa ya da üçüncü kişiye karşı elatmanın önlenmesi (TMK m. 683, m. 693/3).\n7. **Giderler:** Pay oranında dağıt, rücuyu her paydaş için ayrı hesapla (TMK m. 694).\n8. **Ağır ihlal varsa:** Çıkarma şartları, dava kararı, hâkimin üç basamağı (TMK m. 696); pay üzerindeki hak sahipleri (TMK m. 697).\n9. **Hiçbiri çözmüyorsa:** Paylaşma (TMK m. 698 vd., konu 11).",
+  "critical_md": "- 📌 Pay soyuttur: paydaş malın tamamına belli bir payla maliktir, belirli bir yerin maliki değildir. Payını tek başına devreder ve rehneder; pay haczedilebilir (TMK m. 688/3).\n- 📌 Paylar başka türlü belirlenmedikçe eşit sayılır (TMK m. 688/2).\n- 📌 Kullanma ve yönetim anlaşması **oybirliğiyle** yapılır. Taşınmazda imzalar noterce onaylanırsa paydaşlardan birinin başvurusuyla tapuya şerh edilebilir (TMK m. 689).\n- ⚠️ Zorunlu yönetim işlerini yapma ve mahkemeden önlem isteme ile acil koruma önlemlerini bütün paydaşlar hesabına alma yetkileri anlaşmayla kaldırılamaz ve sınırlandırılamaz (TMK m. 689/1).\n- 📌 Olağan yönetim (küçük onarım, tarımsal işler): her paydaş tek başına. Bu yetki paydaşların çoğunluğuyla farklı düzenlenebilir; zorunlu ve ivedi işler saklıdır (TMK m. 690).\n- 📌 Önemli yönetim: pay **ve** paydaş çoğunluğu. Kira sözleşmesinin yapılması ve feshi, tarım türünün değiştirilmesi, toprağın ıslahı ve değeri korumak için gerekli büyük onarımlar bu kademededir (TMK m. 691).\n- ⚠️ Payların yarısından fazlasına sahip tek paydaş önemli yönetim kararı alamaz; paydaş sayısının çoğunluğu da gerekir.\n- 📌 Pay ve paydaşların eşitliğinde hâkim, bir paydaşın istemiyle hakkaniyete uygun karar verir ve kayyım atayabilir (TMK m. 691/3).\n- 📌 Amaç değişikliği, ölçüyü aşan yapı ve malın tamamı üzerinde tasarruf bütün paydaşların kabulüne bağlıdır; oybirliğiyle aksi kararlaştırılabilir (TMK m. 692/1).\n- ⚠️ Paylar üzerinde taşınmaz rehni veya taşınmaz yükü varsa malın tamamı benzer haklarla kayıtlanamaz (TMK m. 692/2).\n- 📌 Hâkimin kullanma belirlemesi zaman ya da yer itibarıyla bölmedir; paylaşma değildir, mülkiyeti değiştirmez (TMK m. 693/2).\n- ⚠️ Üçüncü kişiye karşı tek paydaş taşınmazın tamamı için elatmanın önlenmesini ister, ecrimisili ise payı oranında. Payına karşılık çekişmesiz yer kullanan paydaşın diğer paydaşa karşı elatma davası dinlenmez; yolu ortaklığın giderilmesidir.\n- 📌 Giderler, vergiler ve diğer yükümlülükler payları oranında; fazla ödeyen her paydaşa ancak onun payı oranında rücu eder (TMK m. 694).\n- 📌 Taşınmazda yararlanma, kullanma ve yönetim kararlarının sonradan paydaş olanları bağlaması için tapuya şerh şarttır (TMK m. 695/2).\n- 📌 Çıkarma (TMK m. 696): ağır ihlal, çekilmezlik ve mahkeme kararı; dava kararı pay ve paydaş çoğunluğuyla. Önce aynen ayırma; olmuyorsa birlikte ileri sürülen istem üzerine dava tarihindeki değerle devir; o da yoksa süre ve açık artırma. Pay üzerindeki hak sahiplerine kıyasen uygulanır, devri caiz olmayan hak tazminatla sona erer (TMK m. 697).",
+  "doctrine_md": "### Olağan yönetimde \"paydaşların çoğunluğu\"\nTMK m. 690/2 olağan yönetim yetkisinin \"paydaşların çoğunlukla alacağı kararla\" farklı düzenlenebileceğini söyler ve pay oranından söz etmez. Lafzı esas alan yaygın görüşe göre burada paydaş sayısının çoğunluğu yeter. Bu yorum, küçük paylı paydaşların sayıca çok olduğu durumlarda büyük paydaşın aleyhine sonuç doğurabileceği için eleştirilir.\n\n### Pay çoğunluğu ile paydaş çoğunluğu farklı taraftaysa\nTMK m. 691/3 hâkime yalnız \"pay ve paydaşların eşitliği\" hâlinde yetki verir. Bir tarafın pay çoğunluğuna, diğerinin paydaş çoğunluğuna sahip olduğu kilitlenmede hâkimin bu hükme kıyasen karar verip veremeyeceği tartışmalıdır. Bir görüş, kanunun açık sınırını aşmanın paydaşların iradesini hâkim kararıyla değiştirmek olacağını savunur. Karşı görüş, kilitlenmenin eşitlikten farksız olduğunu ve malın atıl kalmasını önlemek gerektiğini söyler. Her iki görüşte de zorunlu işler için TMK m. 689/1'deki mahkemeden önlem isteme yolu açıktır.\n\n### Çıkarma davasında davalı paydaş çoğunluğa sayılır mı?\nTMK m. 696/2 bu konuda susar. Bir görüşe göre çıkarılması istenen paydaş hesaba katılmamalıdır; aksi hâlde büyük paylı bir paydaş ağır ihlalde bulunsa bile kendisi hakkında dava açılmasını engelleyebilir. Kaynak İsviçre hukukunda davalı paydaş açıkça hesap dışı bırakılmıştır. Karşı görüş lafza bağlı kalır ve bütün paydaşların hesaba katılmasını savunur.\n\n### Paydaşlıktan çıkarmada görevli mahkeme\nHukuk Genel Kurulu çoğunluğu, çıkarma davasının aynen ayırma, devir ve satış aşamalarıyla ortaklığın giderilmesine benzediğini, daha kapsamlı davaya bakan sulh hukuk mahkemesinin daha dar kapsamlı davaya da bakması gerektiğini kabul etti. Karşı oy, görevin ancak kanunla belirlenebileceğini, kıyasla görev tayin edilemeyeceğini ve kanunda yalnız \"mahkeme\" denildiğinde genel görevli asliye hukuk mahkemesinin anlaşılması gerektiğini savundu.\n\n### Şerhsiz fiili kullanma sonradan paydaş olanı bağlar mı?\nTMK m. 695/2 taşınmazlarda bağlayıcılık için şerh arar. Yargıtay ise uzun süre benimsenmiş fiili kullanma düzenini dürüstlük kuralı (TMK m. 2) ve ahde vefa ile korur. Bir görüşe göre şerh şartı açık olduğundan şerhsiz düzen yeni paydaşı bağlamaz. Başka bir görüşe göre düzeni bilen ya da yerinde açıkça görebilecek olan yeni paydaş, onu yok sayarak iyiniyet iddiasında bulunamaz.\n\n### Paylaşma davası açmak çıkarma sebebi olabilir mi?\nÇıkarma davalarında karşı paydaşın ortaklığın giderilmesi davası açarak ilişkiyi çekilmez kıldığı sık ileri sürülür. Bir görüşe göre TMK m. 698 her paydaşa paylaşma hakkı tanıdığından bu hakkın kullanılması yükümlülük ihlali sayılamaz. Ancak hakkın açıkça kötüye kullanılması (TMK m. 2/2) ya da uygun olmayan zamanda paylaşma istenmesi (TMK m. 698/3) farklı değerlendirilebilir.",
+  "glossary": [
+   {
+    "term": "Paylı mülkiyet",
+    "definition": "Birden çok kişinin, maddi olarak bölünmemiş bir şeyin tamamına belli paylarla malik olması (TMK m. 688/1)."
+   },
+   {
+    "term": "Pay",
+    "definition": "Paylı malın tamamı üzerindeki mülkiyetin oransal ve soyut kesri. Belirli bir fiziksel parçayı göstermez; devredilebilir, rehnedilebilir, haczedilebilir."
+   },
+   {
+    "term": "Elbirliği mülkiyeti",
+    "definition": "Kanun veya kanunda öngörülen sözleşmeyle oluşan topluluk dolayısıyla, belirlenmiş paylar olmaksızın malın tamamına birlikte malik olma (TMK m. 701)."
+   },
+   {
+    "term": "Olağan yönetim işleri",
+    "definition": "Küçük onarımlar ve tarımsal işler gibi günlük yönetim işleri. Her paydaş tek başına yapabilir (TMK m. 690)."
+   },
+   {
+    "term": "Önemli yönetim işleri",
+    "definition": "Kira sözleşmesi yapma ve feshi, tarım türünü değiştirme, toprağın ıslahı ve değeri korumak için gerekli büyük onarımlar. Pay ve paydaş çoğunluğu gerekir (TMK m. 691)."
+   },
+   {
+    "term": "Olağanüstü yönetim işleri",
+    "definition": "Amaç değişikliği ve korumanın ya da olağan kullanımın gerektirdiğini aşan yapı işleri. Malın tamamı üzerindeki tasarruflarla birlikte bütün paydaşların kabulünü gerektirir (TMK m. 692)."
+   },
+   {
+    "term": "Pay ve paydaş çoğunluğu",
+    "definition": "Kararı destekleyenlerin hem payları toplamının hem de sayılarının yarıdan fazla olması."
+   },
+   {
+    "term": "Kayyım",
+    "definition": "Pay ve paydaşların eşitliği hâlinde hâkimin gerekli işleri yaptırmak için paydaşlar arasından ya da dışarıdan atadığı kişi (TMK m. 691/3)."
+   },
+   {
+    "term": "Fiili taksim (eylemli paylaşma)",
+    "definition": "Tapuda paylı kalan taşınmazın paydaşlarca yer göstererek fiilen bölünüp kullanılması. Mülkiyeti ayırmaz, ama uzun süre benimsenmişse Yargıtay tarafından korunur."
+   },
+   {
+    "term": "Payına elatmanın önlenmesi",
+    "definition": "Paylı maldan yararlanması engellenen paydaşın, engel olan paydaşa karşı açtığı dava."
+   },
+   {
+    "term": "Rücu",
+    "definition": "Ortak gider ya da yükümlülükte payına düşenden fazlasını ödeyen paydaşın, diğerlerinden payları oranında geri istemesi (TMK m. 694/2)."
+   },
+   {
+    "term": "Şerh",
+    "definition": "Kişisel bir hakkın ya da kararın tapu kütüğüne kaydedilerek sonradan hak kazananlara karşı ileri sürülebilir hâle getirilmesi (TMK m. 689/3, m. 695/2)."
+   },
+   {
+    "term": "Paydaşlıktan çıkarma",
+    "definition": "Yükümlülüklerini ağır biçimde çiğneyerek ilişkiyi çekilmez kılan paydaşın mahkeme kararıyla paylı mülkiyetten uzaklaştırılması (TMK m. 696)."
+   },
+   {
+    "term": "Tevdi",
+    "definition": "Borçlanılan bir bedelin, hâkimin gösterdiği yere ya da hesaba yatırılması. Paydaşlıktan çıkarmada pay değeri ödenir ya da tevdi edilir (TMK m. 696/4)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "688",
+   "official_text": "1. Genel kurallar\nMadde 688- Paylı mülkiyette birden çok kimse, maddî olarak bölünmüş olmayan bir şeyin tamamına belli paylarla maliktir.\nBaşka türlü belirlenmedikçe, paylar eşit sayılır.\nPaydaşlardan her biri kendi payı bakımından malik hak ve yükümlülüklerine sahip olur. Pay devredilebilir, rehnedilebilir ve alacaklılar tarafından haczettirilebilir.\n2. Yönetim ve tasarruf",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "689",
+   "official_text": "a. Anlaşmalar\nMadde 689- Paydaşlar, kendi aralarında oybirliğiyle anlaşarak yararlanma, kullanma ve yönetime ilişkin konularda kanun hükümlerinden farklı bir düzenleme yapabilirler. Ancak, böyle bir anlaşmayla paydaşların aşağıdaki hak ve yetkileri kaldırılamaz ve sınırlandırılamaz:\n1. Paylı mülkiyet konusu eşyanın kullanılabilirliğinin ve değerinin korunması için zorunlu olan yönetim işlerini yapmak ve gerektiğinde mahkemeden buna ilişkin önlemlerin alınmasını istemek,\n2. Eşyayı bir zarar tehlikesinden veya zararın artmasından korumak için derhâl alınması gereken önlemleri bütün paydaşlar hesabına almak.\nTaşınmazlarla ilgili anlaşmalar imzalarının noterlikçe onaylanması koşuluyla paydaşlardan birinin başvurusu üzerine tapu kütüğüne şerh verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "690",
+   "official_text": "b. Olağan yönetim işleri\nMadde 690- Paydaşlardan her biri olağan yönetim işlerini yapmaya, özellikle küçük onarımları yaptırmaya ve tarımsal işleri yürütmeye yetkilidir.\nZorunlu ve ivedi işlerin yapılmasına ilişkin kanun hükümleri saklı kalmak kaydıyla, paydaşların çoğunlukla alacağı kararla olağan yönetim işlerinde yetkiyle ilgili farklı düzenleme getirilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "691",
+   "official_text": "c. Önemli yönetim işleri\nMadde 691- İşletme usulünün veya tarım türünün değiştirilmesi, adî kiraya veya ürün kirasına ilişkin sözleşmelerin yapılması veya feshi, toprağın ıslahı gibi önemli yönetim işleri için pay ve paydaş çoğunluğuyla karar verilmesi gerekir.\nOlağan yönetim sınırlarını aşan ve paylı malın değerinin veya yarar sağlamaya elverişliliğinin korunması için gerekli bakım, onarım ve yapı işlerinde de aynı çoğunluk aranır.\nPay ve paydaşların eşitliği hâlinde hâkim, paydaşlardan birinin istemi üzerine bütün paydaşların menfaatini gözeterek hakkaniyete uygun bir karar verir; gerekli gördüğü işlerin yapılması için paydaşlar arasından veya dışarıdan bir kayyım atayabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "692",
+   "official_text": "d. Olağanüstü yönetim işleri ve tasarruflar\nMadde 692- Paylı malın özgülendiği amacın değiştirilmesi, korumanın veya olağan şekilde kullanmanın gerekli kıldığı ölçüyü aşan yapı işlerine girişilmesi veya paylı malın tamamı üzerinde tasarruf işlemlerinin yapılması, oybirliğiyle aksi kararlaştırılmış olmadıkça, bütün paydaşların kabulüne bağlıdır.\nPaylar üzerinde taşınmaz rehni veya taşınmaz yükü kurulmuşsa, paydaşlar malın tamamını benzer haklarla kayıtlayamazlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "693",
+   "official_text": "3. Yararlanma, kullanma ve koruma\nMadde 693- Paydaşlardan her biri, diğerlerinin hakları ile bağdaştığı ölçüde paylı maldan yararlanabilir ve onu kullanabilir.\nUyuşmazlık hâlinde yararlanma ve kullanma şeklini hâkim belirler. Bu belirleme, paylı malın kullanılmasının zaman veya yer itibarıyla paydaşlar arasında bölünmesi biçiminde de olabilir.\nPaydaşlardan her biri, bölünemeyen ortak menfaatlerin korunmasını diğer paydaşları temsilen sağlayabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "694",
+   "official_text": "4. Giderler ve yükümlülükler\nMadde 694- Paylı mülkiyetten doğan veya paylı malı ilgilendiren yönetim giderleri, vergiler ve diğer yükümlülükler, aksine bir hüküm bulunmadıkça, paydaşlar tarafından payları oranında karşılanır.\nPayına düşenden fazlasını ödemiş bulunan paydaş, diğerlerine payları oranında rücu edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "695",
+   "official_text": "5. Kararların bağlayıcılığı\nMadde 695- Yararlanma, kullanma ve yönetime ilişkin konularda paydaşların yaptıkları düzenleme ve aldıkları kararlar ile mahkemece verilen kararlar, sonradan paydaş olan veya pay üzerinde aynî hak kazanan kimseleri de bağlar.\nTaşınmazlarda yararlanma, kullanma ve yönetime ilişkin kararların sonradan paydaş olan veya pay üzerinde aynî hak kazananları bağlaması için, bunların tapu kütüğüne şerh edilmesi gerekir.\n6. Paydaşlıktan çıkarma",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "696",
+   "official_text": "a. Paydaşın çıkarılması\nMadde 696- Kendi tutum ve davranışlarıyla veya malın kullanılmasını bıraktığı ya da fiillerinden sorumlu olduğu kişilerin tutum ve davranışlarıyla diğer paydaşların tamamına veya bir kısmına karşı olan yükümlülüklerini ağır biçimde çiğneyen paydaş, bu yüzden onlar için paylı mülkiyet ilişkisinin devamını çekilmez hâle getirmişse, mahkeme kararıyla paydaşlıktan çıkarılabilir.\nDavanın açılması, aksi kararlaştırılmış olmadıkça, pay ve paydaş çoğunluğuyla karar verilmesine bağlıdır.\nHâkim, çıkarma istemini haklı gördüğü takdirde, çıkarılacak paydaşın payını karşılayacak kısmı maldan ayırmaya olanak varsa, bu ayırmayı yaparak ayrılan parçanın paylı mülkiyetten çıkarılana özgülenmesine karar verir.\nAynen ayrılmasına olanak bulunmayan maldaki payın dava tarihindeki değeriyle kendilerine devrini isteyen paydaş veya paydaşlar bu istemlerini paydaşlıktan çıkarma istemi ile birlikte ileri sürmek zorundadırlar. Hâkim, hüküm vermeden önce re'sen belirleyeceği uygun bir süre içinde pay değerinin ödenmesine veya tevdiine karar verir. Davanın kabulü hâlinde payın istemde bulunan adına tesciline hükmolunur.\nPayı karşılayacak kısım maldan aynen ayrılamaz ve bu payı isteyen paydaş da bulunmazsa hâkim, davalıya payını devretmesi için bir süre belirler ve bu süre içinde devredilmeyen payın açık artırmayla satışına karar verir. Satış kararı, cebrî icra yoluyla paraya çevirmeye ilişkin hükümler uyarınca yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "697",
+   "official_text": "b. Diğer hak sahiplerinin çıkarılması\nMadde 697- Bir paydaşın çıkarılmasına ilişkin hükümler, kıyas yoluyla, pay üzerinde intifa veya diğer bir aynî ya da tapuya şerh edilmiş kişisel yararlanma hakkı sahipleri hakkında da uygulanır. Ancak, devri caiz olmayan bir hakkın uygun bir tazminat karşılığında sona ermesine karar verilir.\n7. Paylı mülkiyetin sona ermesi",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "683",
+   "official_text": "A. Mülkiyet hakkının içeriği\nMadde 683- Bir şeye malik olan kimse, hukuk düzeninin sınırları içinde, o şey üzerinde dilediği gibi kullanma, yararlanma ve tasarrufta bulunma yetkisine sahiptir.\nMalik, malını haksız olarak elinde bulunduran kimseye karşı istihkak davası açabileceği gibi, her türlü haksız elatmanın önlenmesini de dava edebilir.\nB. Mülkiyet hakkının kapsamı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "698",
+   "official_text": "a. Paylaşma istemi\nMadde 698- Hukukî bir işlem gereğince veya paylı malın sürekli bir amaca özgülenmiş olması sebebiyle paylı mülkiyeti devam ettirme yükümlülüğü bulunmadıkça, paydaşlardan her biri malın paylaşılmasını isteyebilir.\nPaylaşmayı isteme hakkı, hukukî bir işlemle en çok on yıllık süre ile sınırlandırılabilir. Taşınmazlarda paylı mülkiyetin devamına ilişkin sözleşmeler, resmî şekle bağlıdır ve tapu kütüğüne şerh verilebilir.\nUygun olmayan zamanda paylaşma isteminde bulunulamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "699",
+   "official_text": "b. Paylaşma biçimi\nMadde 699- Paylaşma, malın aynen bölüşülmesi veya pazarlık ya da artırmayla satılarak bedelinin bölüşülmesi biçiminde gerçekleştirilir.\nPaylaşma biçiminde uyuşma sağlanamazsa, paydaşlardan birinin istemi üzerine hâkim, malın aynen bölünerek paylaştırılmasına, bölünen parçaların değerlerinin birbirine denk düşmemesi hâlinde eksik değerdeki parçaya para eklenerek denkleştirme sağlanmasına karar verir.\nBölme istemi durum ve koşullara uygun görülmezse ve özellikle paylı malın önemli bir değer kaybına uğramadan bölünmesine olanak yoksa, açık artırmayla satışa hükmolunur. Satışın paydaşlar arasında artırmayla yapılmasına karar verilmesi, bütün paydaşların rızasına bağlıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "701",
+   "official_text": "1. Kaynakları ve niteliği\nMadde 701- Kanun veya kanunda öngörülen sözleşmeler uyarınca oluşan topluluk dolayısıyla mallara birlikte malik olanların mülkiyeti, elbirliği mülkiyetidir.\nElbirliği mülkiyetinde ortakların belirlenmiş payları olmayıp her birinin hakkı, ortaklığa giren malların tamamına yaygındır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "702",
+   "official_text": "2. Hükümleri\nMadde 702- Ortakların hakları ve yükümlülükleri, topluluğu doğuran kanun veya sözleşme hükümleri ile belirlenir.\nKanunda veya sözleşmede aksine bir hüküm bulunmadıkça, gerek yönetim, gerek tasarruf işlemleri için ortakların oybirliğiyle karar vermeleri gerekir.\nSözleşmeden doğan topluluk devam ettiği sürece, paylaşma yapılamaz ve bir pay üzerinde tasarrufta bulunulamaz.\nOrtaklardan her biri, topluluğa giren hakların korunmasını sağlayabilir. Bu korumadan bütün ortaklar yararlanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "706",
+   "official_text": "1.Hukukî işlem\nMadde 706- Taşınmaz mülkiyetinin devrini amaçlayan sözleşmelerin geçerli olması, resmî şekilde düzenlenmiş bulunmalarına bağlıdır.\nÖlüme bağlı tasarruflar ve mal rejimi sözleşmeleri, kendilerine özgü şekillere tâbidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "732",
+   "official_text": "a. Önalım hakkı sahibi\nMadde 732- Paylı mülkiyette bir paydaşın taşınmaz üzerindeki payını tamamen veya kısmen üçüncü kişiye satması hâlinde, diğer paydaşlar önalım hakkını kullanabilirler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "794",
+   "official_text": "I. Konusu\nMadde 794- İntifa hakkı, taşınırlar, taşınmazlar, haklar veya bir malvarlığı üzerinde kurulabilir.\nAksine düzenleme olmadıkça bu hak, sahibine, konusu üzerinde tam yararlanma yetkisi sağlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "797",
+   "official_text": "2. Süresi\nMadde 797- İntifa hakkı, gerçek kişilerde hak sahibinin ölümü; tüzel kişilerde kararlaştırılan sürenin dolması, süre kararlaştırılmamışsa kişiliğin ortadan kalkmasıyla sona erer.\nTüzel kişilerin intifa hakkı, en çok yüz yıl devam edebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "806",
+   "official_text": "d. Hakkın kullanılmasının devri\nMadde 806- Sözleşmede aksine hüküm yoksa veya durum ve koşullardan hak sahibince şahsen kullanılması gerektiği anlaşılmıyorsa, intifa hakkının kullanılması başkasına devredilebilir.\nBu takdirde malik, haklarını, devralana karşı doğrudan doğruya ileri sürebilir.\n2. Malikin hakları",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "299",
+   "official_text": "MADDE 299- Kira sözleşmesi, kiraya verenin bir şeyin kullanılmasını veya kullanmayla birlikte ondan yararlanılmasını kiracıya bırakmayı, kiracının da buna karşılık kararlaştırılan kira bedelini ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "4",
+   "official_text": "Sulh hukuk mahkemelerinin görevi\nMADDE 4- (1) Sulh hukuk mahkemeleri, dava konusunun değer veya tutarına bakılmaksızın;\na) Kiralanan taşınmazların, 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununa göre ilamsız icra yoluyla tahliyesine ilişkin hükümler ayrık olmak üzere, kira ilişkisinden doğan alacak davaları da dâhil olmak üzere tüm uyuşmazlıkları konu alan davalar ile bu davalara karşı açılan davaları,\nb) Taşınır ve taşınmaz mal veya hakkın paylaştırılmasına ve ortaklığın giderilmesine ilişkin davaları,\nc) Taşınır ve taşınmaz mallarda, sadece zilyetliğin korunmasına yönelik olan davaları,\nç) Bu Kanun ile diğer kanunların, sulh hukuk mahkemesi veya sulh hukuk hâkimini görevlendirdiği davaları,\ngörürler.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2014/2408",
+   "karar_no": "2016/797",
+   "decision_date": "15.06.2016",
+   "summary_md": "Davacılar, bir taşınmazda paydaşları olan davalının yükümlülüklerini yerine getirmediğini, aile şirketlerinin işleyişine engel olduğunu ve ortaklığın giderilmesi davası açarak paylı mülkiyet ilişkisini çekilmez hâle getirdiğini ileri sürerek davalının paydaşlıktan çıkarılmasını istemiştir. Sulh hukuk mahkemesi asliye hukuk mahkemesinin görevli olduğu gerekçesiyle görevsizlik kararı vermiş, Yargıtay 6. Hukuk Dairesi bu kararı oyçokluğuyla bozmuş, mahkeme önceki kararında direnmiştir. Hukuk Genel Kurulu oyçokluğuyla direnme kararını bozmuştur. Gerekçeye göre paydaşlıktan çıkarma davası, payın aynen ayrılması, isteyen paydaşa devri ve açık artırmayla satışı aşamalarıyla ortaklığın giderilmesi davasına benzer; daha kapsamlı olan ortaklığın giderilmesi davasında görevli sulh hukuk mahkemesi, daha dar kapsamlı çıkarma davasında da görevlidir. Karşı oy, görevin ancak kanunla belirlenebileceğini ve kıyasla görev tayin edilemeyeceğini savunmuştur. Konuya katkısı: TMK m. 696'daki üç basamaklı sonuç düzenini ve uygulamadaki görev tartışmasını gösterir; davanın esası bu kararda incelenmemiştir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/232790300",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "7. Hukuk Dairesi",
+   "esas_no": "2022/602",
+   "karar_no": "2022/5090",
+   "decision_date": "13.09.2022",
+   "summary_md": "Davacı paydaş, paydaşı olduğu iki tarlada davalı paydaşın kullanımına engel olduğunu ileri sürerek payına elatmanın önlenmesini ve TMK m. 693 uyarınca kullanma şeklinin hâkimce belirlenmesini istemiştir. Davalı, paydaşlar arasında fiili taksim bulunduğunu ve bütün paydaşların davaya katılması gerektiğini savunmuştur. İlk derece mahkemesinin kabul kararı, diğer paydaşlar taraf gösterilmeden onların haklarını etkileyen kullanma şekli belirlenemeyeceği gibi gerekçelerle Yargıtay 8. Hukuk Dairesince bozulmuş; bozmaya uyan mahkeme davayı kısmen kabul ederek taşınmazların belirli bölümlerini paydaşların kullanımına bırakmıştır. Yargıtay 7. Hukuk Dairesi bu kararı da bozmuştur. Gerekçeye göre hâkim keşif yapmalı, taşınmazın konumunu, niteliğini, yöresel âdetleri ve tarafların ihtiyaçlarını gözeten, zaman ve yer itibarıyla bölünmeye ilişkin çeşitli seçenekler içeren uzman bilirkişi raporu almalıdır; kullanma şekli taşınmazların sürekli özgülenmesi biçiminde belirlenemez. Ayrıca davalının fiili taksim savunması ve tanıkları incelenmeden karar verilmesi eksik incelemedir. Konuya katkısı: TMK m. 693/2'deki hâkim belirlemesinin bir paylaşma olmadığını ve nasıl yapılacağını gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=828271700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "8. Hukuk Dairesi",
+   "esas_no": "2018/5718",
+   "karar_no": "2020/5112",
+   "decision_date": "14.09.2020",
+   "summary_md": "Davacı, tarla niteliğindeki paylı taşınmazda fiili taksimle kendisine düşen bölüme tel çit çektiğini, davalı paydaşın hayvan otlatmak için ayrılan kısımdaki tel örgüyü ve çok sayıda ağacı söktüğünü, iş makinesiyle kanal açtığını ileri sürerek elatmanın önlenmesini ve eski hâle getirmeyi istemiştir. Davalı, fiili taksim bulunduğunu ama davacının kullandığı yere müdahale etmediğini savunmuştur. Mahkemenin kabul kararı, taşınmazın bütünü bakımından tüm paydaşları bağlayan bir fiili kullanma biçimi araştırılmadığı için Yargıtay 1. Hukuk Dairesince bozulmuş; bozmaya uyulduktan sonra verilen yeni kabul kararı da Yargıtay 8. Hukuk Dairesince yeterli araştırma yapılmadığı gerekçesiyle bozulmuştur. Daireye göre payından yararlanamayan paydaş, engel olan paydaştan payına elatmanın önlenmesini her zaman isteyebilir; ancak payına karşılık çekişmesiz kullandığı bir yer varsa bu dava dinlenmez ve payından az yer kullandığını ileri süren paydaş ortaklığın giderilmesi yoluna gitmelidir. Paydaşlar arası elatma davalarında önce bütün paydaşları bağlayan harici taksim, özel parselasyon planı ya da fiili kullanma biçimi araştırılmalı, tanıklar taşınmaz başında dinlenmeli ve kullanım krokisi düzenletilmelidir. Konuya katkısı: paydaşlar arası elatma davasının sınırlarını ve fiili kullanmanın önemini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=609240700",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Paylı mülkiyette bir paydaşın hakkı hakkında hangisi doğrudur?",
+   "options": [
+    "Payını diğer paydaşların izni olmadan devredemez.",
+    "Maddi olarak bölünmemiş şeyin tamamına belli bir payla maliktir.",
+    "Şeyin kendisine düşen belirli bir bölümünün tek malikidir.",
+    "Belirlenmiş bir payı yoktur, hakkı malın tamamına yaygındır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 688/1'e göre paydaşlar, maddi olarak bölünmemiş bir şeyin tamamına belli paylarla maliktir. Pay soyuttur, belirli bir bölümü göstermez. Belirlenmiş pay bulunmaması elbirliği mülkiyetinin özelliğidir (TMK m. 701/2). Pay, diğerlerinin izni olmadan devredilebilir (TMK m. 688/3)."
+  },
+  {
+   "stem_md": "Paylı mülkiyette bir paydaşın, diğer paydaşların katılımı olmadan **yapamayacağı** işlem hangisidir?",
+   "options": [
+    "Taşınmazın tamamı üzerinde ipotek kurmak",
+    "Payını bağışlamak",
+    "Payını üçüncü kişiye satmak",
+    "Payını rehnetmek"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Paydaş kendi payı üzerinde malik gibi tasarruf eder; payını satabilir, bağışlayabilir, rehnedebilir (TMK m. 688/3). Malın tamamı üzerinde tasarruf ise, oybirliğiyle aksi kararlaştırılmadıkça bütün paydaşların kabulüne bağlıdır (TMK m. 692/1)."
+  },
+  {
+   "stem_md": "Paydaşların yararlanma, kullanma ve yönetim konularında kanun hükümlerinden farklı bir düzen kurabilmesi için hangisi gerekir?",
+   "options": [
+    "Payların üçte ikisine sahip paydaşların kararı",
+    "Pay ve paydaş çoğunluğuyla karar",
+    "Sulh hukuk hâkiminin onayı",
+    "Paydaşların oybirliğiyle anlaşması"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 689/1'e göre paydaşlar kendi aralarında **oybirliğiyle** anlaşarak yararlanma, kullanma ve yönetime ilişkin konularda kanundan farklı bir düzenleme yapabilir. Pay ve paydaş çoğunluğu önemli yönetim işleri için aranır (TMK m. 691); mahkeme onayı gerekmez."
+  },
+  {
+   "stem_md": "TMK m. 689'a göre paydaşların anlaşmasıyla bile **kaldırılamayan** yetki hangisidir?",
+   "options": [
+    "Kiraya verme kararının pay ve paydaş çoğunluğuyla alınmasını isteme yetkisi",
+    "Paylı maldan yılın her döneminde yararlanma yetkisi",
+    "Eşyayı zarar tehlikesinden korumak için derhâl alınması gereken önlemleri bütün paydaşlar hesabına alma yetkisi",
+    "Küçük onarımları tek başına yaptırma yetkisi"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 689/1-2, acil koruma önlemlerini bütün paydaşlar hesabına alma yetkisinin anlaşmayla kaldırılamayacağını ve sınırlandırılamayacağını söyler. Olağan yönetim yetkisi çoğunluk kararıyla bile farklı düzenlenebilir (TMK m. 690/2). Önemli yönetimdeki çoğunluk ve kullanma düzeni ise oybirliğiyle yapılan anlaşmayla değiştirilebilir (TMK m. 689/1)."
+  },
+  {
+   "stem_md": "Paydaşların bir taşınmaza ilişkin kullanma anlaşmasının tapu kütüğüne şerh verilebilmesi için hangisi gerekir?",
+   "options": [
+    "Anlaşmanın tapu müdürlüğünde resmî senetle yapılması ve bütün paydaşların birlikte başvurması",
+    "İmzaların noterlikçe onaylanması ve paydaşlardan birinin başvurusu",
+    "Adi yazılı anlaşmanın yeterli olması ve tapu müdürlüğünün şerhi kendiliğinden yapması",
+    "Anlaşmanın sulh hukuk mahkemesince onaylanması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 689/3'e göre taşınmazlarla ilgili anlaşmalar, imzalarının noterlikçe onaylanması koşuluyla paydaşlardan birinin başvurusu üzerine tapu kütüğüne şerh verilebilir. Resmî senet, mahkeme onayı ya da bütün paydaşların başvurusu aranmaz."
+  },
+  {
+   "stem_md": "Ahmet, Burcu ve Cem'in paylı malik olduğu evde mutfak musluğu bozulur. Paydaşlar arasında yönetime ilişkin bir anlaşma yoktur. Ahmet diğerlerine sormadan tesisatçı çağırarak musluğu değiştirir. Hangisi doğrudur?",
+   "options": [
+    "Onarım için pay ve paydaş çoğunluğu gerekir; Ahmet yetkisiz davranmıştır.",
+    "Küçük onarım olağan yönetim işi olduğundan Ahmet tek başına yapmaya yetkilidir.",
+    "Her onarım malın tamamını ilgilendirdiği için bütün paydaşların kabulü gerekir.",
+    "Ahmet ancak mahkemeden izin alarak onarım yaptırabilirdi."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 690/1'e göre paydaşlardan her biri olağan yönetim işlerini, özellikle küçük onarımları yaptırmaya yetkilidir. Pay ve paydaş çoğunluğu olağan yönetimi aşan büyük onarımlar için (TMK m. 691/2), bütün paydaşların kabulü ise olağanüstü işler için (TMK m. 692) aranır."
+  },
+  {
+   "stem_md": "Bir dükkânda Selin 5/8, Tuna 2/8 ve Umut 1/8 paya sahiptir. Aralarında yönetime ilişkin bir anlaşma yoktur. Tuna ve Umut dükkânı kiraya vermeye karar verir, Selin karşı çıkar. Hangisi doğrudur?",
+   "options": [
+    "Paydaş çoğunluğu sağlandığı için kiraya verme kararı alınmıştır.",
+    "Kiraya verme malın tamamı üzerinde tasarruf olduğundan bütün paydaşların kabulü gerekir.",
+    "Pay çoğunluğu sağlanmadığı için kiraya verme kararı alınamaz.",
+    "Kiraya verme olağan yönetim işi olduğundan Tuna tek başına da karar verebilirdi."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kira sözleşmesi yapmak önemli yönetim işidir ve pay **ve** paydaş çoğunluğu ister (TMK m. 691/1). Tuna ve Umut üç paydaştan ikisidir ama payları toplamı 3/8'dir; yarıdan fazla değildir. İki çoğunluk birlikte sağlanmadığı için karar alınamaz. Kiraya verme ne olağan yönetim ne de tasarruftur."
+  },
+  {
+   "stem_md": "Kardeşler Can ve Ece, bir dükkâna 1/2'şer paylı maliktir. Can dükkânı kiraya vermek istemekte, Ece buna karşı çıkmaktadır. Can'ın başvurabileceği yol hangisidir?",
+   "options": [
+    "Can tek başına kiraya verirse sözleşme Ece'yi de bağlar.",
+    "Hâkimden, bütün paydaşların menfaatini gözeterek hakkaniyete uygun bir karar vermesini isteyebilir.",
+    "Ece'nin paydaşlıktan çıkarılmasını isteyebilir.",
+    "Payların eşit olması nedeniyle dükkân kiraya verilemez; tek yol ortaklığın giderilmesidir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 691/3'e göre pay ve paydaşların eşitliği hâlinde hâkim, paydaşlardan birinin istemi üzerine bütün paydaşların menfaatini gözeterek hakkaniyete uygun bir karar verir ve gerekirse kayyım atar. Tek başına yapılan kira sözleşmesi Ece'yi bağlamaz. Bir yönetim kararına karşı çıkmak ağır ihlal değildir, çıkarma sebebi oluşturmaz (TMK m. 696)."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi, oybirliğiyle aksi kararlaştırılmamışsa, **bütün paydaşların kabulünü** gerektirir?",
+   "options": [
+    "Paylı konutun lokantaya dönüştürülmesi",
+    "Bahçedeki ağaçların budanması",
+    "Kira sözleşmesinin feshi",
+    "Toprağın ıslahı"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Paylı malın özgülendiği amacın değiştirilmesi olağanüstü yönetim işidir ve bütün paydaşların kabulüne bağlıdır (TMK m. 692/1). Kira sözleşmesinin feshi ve toprağın ıslahı önemli yönetim işleridir (TMK m. 691/1). Ağaçların budanması olağan bir tarımsal iştir (TMK m. 690/1)."
+  },
+  {
+   "stem_md": "Gül ve Hasan bir arsanın 1/2'şer paydaşıdır. Gül'ün payı üzerinde bankası lehine ipotek vardır. Gül ve Hasan, arsanın tamamı üzerinde başka bir banka lehine ipotek kurmak istemektedir. Hangisi doğrudur?",
+   "options": [
+    "İpotek ancak Gül paydaşlıktan çıkarıldıktan sonra kurulabilir.",
+    "Bütün paydaşlar anlaştığı için ipotek kurulabilir.",
+    "Paylardan biri üzerinde taşınmaz rehni bulunduğundan malın tamamı benzer bir hakla kayıtlanamaz.",
+    "İpotek kurulabilir; mevcut pay ipoteği bu işlemle kendiliğinden sona erer."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 692/2'ye göre paylar üzerinde taşınmaz rehni veya taşınmaz yükü kurulmuşsa paydaşlar malın tamamını benzer haklarla kayıtlayamaz. Bu yasak paydaşların oybirliğiyle de aşılamaz; amaç pay üzerindeki rehin alacaklısını korumaktır. Pay ipoteği kendiliğinden sona ermez."
+  },
+  {
+   "stem_md": "Paylı bir tarlanın kullanımında anlaşamayan paydaşlardan biri TMK m. 693 uyarınca kullanma şeklinin belirlenmesini istemiştir. Hâkimin yetkisi hakkında hangisi doğrudur?",
+   "options": [
+    "Kullanmayı zaman veya yer itibarıyla paydaşlar arasında bölebilir; bu, payları ve tapu kaydını değiştirmez.",
+    "Tarlayı aynen bölerek her paydaş adına ayrı parsel tescil eder.",
+    "Paydaşlardan birinin payını diğerine devretmesine karar verir.",
+    "Yalnız satış yoluyla ortaklığın giderilmesine karar verebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 693/2'ye göre uyuşmazlık hâlinde yararlanma ve kullanma şeklini hâkim belirler; bu, kullanmanın zaman veya yer itibarıyla bölünmesi biçiminde olabilir. Bu bir paylaşma değildir, mülkiyeti değiştirmez. Aynen bölme ve satış ortaklığın giderilmesinin (TMK m. 699), pay devri ise paydaşlıktan çıkarmanın (TMK m. 696) sonucudur."
+  },
+  {
+   "stem_md": "Komşu İlker, Nur'un 1/4 paydaşı olduğu boş arsaya konteyner koyarak burayı depo olarak kullanmaktadır. Diğer paydaşlar dava açmak istemez. Nur'un açacağı dava hakkında Yargıtay uygulamasına göre hangisi doğrudur?",
+   "options": [
+    "Nur tek başına hem elatmanın önlenmesini hem de ecrimisilin tamamını isteyebilir.",
+    "Bütün paydaşlar birlikte dava açmadıkça dava dinlenmez.",
+    "Nur yalnız payı oranında elatmanın önlenmesini isteyebilir.",
+    "Nur tek başına taşınmazın tamamı için elatmanın önlenmesini, ecrimisili ise payı oranında isteyebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Her paydaş ortak menfaatlerin korunmasını diğerlerini temsilen sağlayabilir (TMK m. 693/3). Yargıtay'a göre paydaş, üçüncü kişiye karşı tek başına ve taşınmazın tamamı için elatmanın önlenmesi davası açabilir. Ecrimisil bölünebilir bir para alacağı olduğundan yalnız payı oranında istenebilir."
+  },
+  {
+   "stem_md": "Paylı bir tarlanın paydaşlarından Oya, payına karşılık tarlanın güney kısmını yıllardır çekişmesiz kullanmaktadır. Oya, kullandığı yerin payından küçük olduğunu ve paydaş Rıfat'ın fazla yer kullandığını ileri sürerek Rıfat'a karşı elatmanın önlenmesi davası açar. Yargıtay'ın yerleşik uygulamasına göre hangisi doğrudur?",
+   "options": [
+    "Dava dinlenmez; payından az yer kullandığını ileri süren paydaş sorununu ortaklığın giderilmesi davasıyla çözmelidir.",
+    "Her paydaş payına elatmanın önlenmesini her zaman isteyebileceği için dava kabul edilmelidir.",
+    "Oya ancak Rıfat'ın paydaşlıktan çıkarılmasını isteyebilir.",
+    "Oya, Rıfat'ın kullandığı fazla yerin tapuda kendi adına tescilini isteyebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Yargıtay'a göre payından yararlanamayan paydaş engel olan paydaştan payına elatmanın önlenmesini isteyebilir. Ancak payına karşılık çekişmesiz kullandığı bir yer varsa bu dava dinlenmez; payından az yer kullandığını ileri süren paydaşın yolu ortaklığın giderilmesidir. Fazla yer kullanmak tek başına ağır ihlal değildir; fiili kullanma da tapuda ayrı mülkiyet doğurmaz."
+  },
+  {
+   "stem_md": "Bir binada Okan 1/2, Pelin 1/3 ve Rüya 1/6 paya sahiptir. Aralarında giderlere ilişkin özel bir anlaşma yoktur. Paydaşlar çatının onarılmasına birlikte karar vermiş, 120.000 TL tutan bedelin tamamını Okan ödemiştir. Okan Pelin'den ne kadar isteyebilir?",
+   "options": [
+    "40.000 TL",
+    "60.000 TL",
+    "80.000 TL",
+    "30.000 TL"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Giderler aksine hüküm yoksa payları oranında karşılanır; fazla ödeyen paydaş diğerlerine payları oranında rücu eder (TMK m. 694). Pelin'in payı 1/3 olduğundan payına düşen 40.000 TL'dir. Rücu müteselsil değildir; Okan diğerlerinin toplam payı olan 60.000 TL'yi yalnız Pelin'den isteyemez. Kalan tutarı eşit bölmek de paylara aykırıdır."
+  },
+  {
+   "stem_md": "TMK m. 695'e göre bir taşınmazda paydaşların aldığı kullanma kararının, sonradan pay satın alan kişiyi bağlaması için hangisi gerekir?",
+   "options": [
+    "Kararın en az beş yıldır uygulanıyor olması",
+    "Kararın mahkemece onaylanmış olması",
+    "Kararın tapu kütüğüne şerh edilmiş olması",
+    "Kararın oybirliğiyle değil pay ve paydaş çoğunluğuyla alınmış olması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TMK m. 695/2'ye göre taşınmazlarda yararlanma, kullanma ve yönetime ilişkin kararların sonradan paydaş olan veya pay üzerinde ayni hak kazananları bağlaması için tapu kütüğüne şerh edilmesi gerekir. Kanun belirli bir uygulama süresi ya da mahkeme onayı aramaz."
+  },
+  {
+   "stem_md": "Paydaş Taner, ortak binada kullandığı bölümü oğluna bırakmıştır. Oğlu aylardır diğer paydaşları tehdit etmekte ve ortak alanlara zarar vermektedir; Taner uyarılara rağmen hiçbir önlem almamaktadır. Diğer paydaşlar gerekli çoğunlukla dava açma kararı almıştır. Taner'in \"davranışlar oğlumun, benim değil\" savunması hakkında hangisi doğrudur?",
+   "options": [
+    "Yerindedir; bu durumda yalnız oğluna karşı ceza davası açılabilir.",
+    "Yerinde değildir; ancak çıkarma için oğlunun da paydaş olması gerekir.",
+    "Yerindedir; çıkarma yalnız paydaşın kendi davranışlarına dayanabilir.",
+    "Yerinde değildir; malın kullanılmasını bıraktığı kişinin davranışları da çıkarma sebebi olabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TMK m. 696/1, paydaşın kendi davranışlarının yanında malın kullanılmasını bıraktığı ya da fiillerinden sorumlu olduğu kişilerin davranışlarını da çıkarma sebebi sayar. Yükümlülüklerin ağır biçimde çiğnenmesi ve ilişkinin çekilmez hâle gelmesi şartları da aranır. Oğlunun paydaş olması gerekmez."
+  },
+  {
+   "stem_md": "Paydaşlıktan çıkarma davasında çıkarılması istenen paydaşın payı maldan aynen ayrılamamaktadır. Paydaş Ufuk bu payın kendisine devrini istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Ufuk devir istemini çıkarma istemiyle birlikte ileri sürmelidir; payın dava tarihindeki değeri esas alınır.",
+    "Payın değeri karar tarihindeki rayice göre belirlenir.",
+    "Ufuk devir istemini çıkarma kararı kesinleştikten sonra ayrı bir davayla ileri sürer.",
+    "Pay, bedel ödenmeksizin Ufuk adına tescil edilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 696/4'e göre aynen ayrılamayan payın dava tarihindeki değeriyle kendilerine devrini isteyen paydaşlar bu istemi çıkarma istemiyle birlikte ileri sürmek zorundadır. Hâkim hükümden önce belirlediği sürede pay değerinin ödenmesine veya tevdiine karar verir; dava kabul edilirse pay istemde bulunan adına tescil edilir."
+  },
+  {
+   "stem_md": "Paydaşlıktan çıkarma istemi haklı bulunmuş, pay aynen ayrılamamakta ve payı kendisine devralmak isteyen paydaş da bulunmamaktadır. Hâkim ne yapar?",
+   "options": [
+    "Payı diğer paydaşlara payları oranında bedelsiz geçirir.",
+    "Davalıya payını devretmesi için süre verir; devredilmezse payın açık artırmayla satışına karar verir.",
+    "Davayı reddeder.",
+    "Taşınmazın tamamının satışıyla ortaklığın giderilmesine karar verir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TMK m. 696/5'e göre bu durumda hâkim davalıya payını devretmesi için bir süre belirler ve bu sürede devredilmeyen payın açık artırmayla satışına karar verir. Satış, cebrî icra yoluyla paraya çevirme hükümlerine göre yapılır. Taşınmazın tamamı satılmaz; yalnız çıkarılan paydaşın payı satılır."
+  },
+  {
+   "stem_md": "Bir paydaşın payı üzerinde intifa hakkı bulunan kişi, diğer paydaşlara karşı ağır ihlallerde bulunmaktadır. TMK m. 697'ye göre, devri caiz olmayan bu hak hakkında hâkim ne karar verir?",
+   "options": [
+    "Hakkın uygun bir tazminat karşılığında sona ermesine",
+    "İntifa hakkı sahibinin çıkarılamayacağına, yalnız paydaşın çıkarılabileceğine",
+    "Hakkın tazminatsız olarak sona ermesine",
+    "Hakkın açık artırmayla başkasına satılmasına"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TMK m. 697'ye göre çıkarma hükümleri pay üzerinde intifa veya diğer ayni ya da şerhli kişisel yararlanma hakkı sahiplerine kıyasen uygulanır. Devri caiz olmayan bir hakkın ise uygun bir tazminat karşılığında sona ermesine karar verilir. İntifa hakkının kendisi devredilemez, yalnız kullanılması devredilebilir (TMK m. 806)."
+  },
+  {
+   "stem_md": "Paylı bir dükkânın 1/4 paydaşı Kerem, diğer paydaşlara danışmadan dükkânı kendi adına kiraya verir. Kiracı bir süre sonra \"pay ve paydaş çoğunluğu sağlanmadan yapılan sözleşme beni bağlamaz\" diyerek kira bedelini ödemeyi keser. Yargıtay uygulamasına göre hangisi doğrudur?",
+   "options": [
+    "Kiracı bu savunmayı ileri süremez; sözleşme Kerem ile kiracı arasında hüküm doğurur, ancak diğer paydaşları bağlamaz.",
+    "Sözleşme bütün paydaşları bağlar, çünkü kiraya verme olağan yönetim işidir.",
+    "Kiracı haklıdır; sözleşme kesin hükümsüzdür.",
+    "Sözleşme ancak diğer paydaşlar sözleşmeyi onaylarsa kiracıyı bağlar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kira bir borç sözleşmesidir; kiraya verenin malik olması aranmaz (TBK m. 299). Yargıtay'a göre paydaşlardan birinin kendi adına yaptığı kira sözleşmesinde kiracı, pay ve paydaş çoğunluğu bulunmadığını ileri sürerek sözleşmeyle bağlı olmadığını iddia edemez. Ancak kiraya verme önemli yönetim işi olduğundan (TMK m. 691/1), sözleşmeyi yapmayan paydaşlar bu sözleşmeyle bağlı değildir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "İzmir'de üç katlı bir bina, kat mülkiyeti kurulmadan beş kişinin paylı mülkiyetindedir: Necla 1/2, Orhan 1/4, Pınar 1/8, Rıza 1/16 ve Sinan 1/16. Paydaşlar arasında yönetime ve giderlere ilişkin bir anlaşma yoktur.\n\nOcak ayında şiddetli yağmur sırasında çatıdan üst kata su sızmaya başlar ve tavanın çökme tehlikesi doğar. Yurt dışındaki Necla'ya ve diğer paydaşlara ulaşamayan Orhan, aynı gün bir ustaya çatıyı onartır ve 40.000 TL öder. Orhan bedeli paylaşmak isteyince Necla \"Bana sorulmadı, ödemem\" der.\n\nNecla ve Pınar, zemin kattaki dükkânı X Ltd. Şti.'ne beş yıllığına kiraya vermeye karar verir; sözleşmeyi Necla kiraya veren olarak imzalar. Orhan, Rıza ve Sinan buna karşıdır.\n\nNecla ayrıca binaya dördüncü kat eklemek istemektedir. Pınar, Rıza ve Sinan bunu destekler, Orhan karşı çıkar.\n\nSon olarak Pınar, payını diğer paydaşlara haber vermeden tanımadıkları bir kişiye satmayı düşünmektedir.\n\n1. Orhan çatıyı tek başına onartmaya yetkili miydi? 40.000 TL nasıl paylaşılır?\n2. Dükkânın kiraya verilmesi için gereken karar alınmış mıdır? Necla'nın imzaladığı sözleşmenin sonuçları nelerdir?\n3. Dördüncü kat yapılabilir mi?\n4. Pınar payını satabilir mi; nelere dikkat etmelidir?",
+   "rubric": [
+    {
+     "point": "Çatı onarımının acil koruma önlemi olarak her paydaşça bütün paydaşlar hesabına alınabilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 689"
+    },
+    {
+     "point": "Masrafın payları oranında dağıtılması ve Orhan'ın her paydaştan ayrı ayrı rücu edeceği tutarlar",
+     "weight": 20,
+     "madde_ref": "TMK m. 694"
+    },
+    {
+     "point": "Kiraya vermenin önemli yönetim işi olması; pay çoğunluğunun var, paydaş çoğunluğunun yok olduğunun hesaplanması",
+     "weight": 25,
+     "madde_ref": "TMK m. 691"
+    },
+    {
+     "point": "Necla'nın sözleşmesinin Necla ile kiracı arasında hüküm doğurması, diğer paydaşları bağlamaması",
+     "weight": 10,
+     "madde_ref": "TBK m. 299"
+    },
+    {
+     "point": "Ek katın ölçüyü aşan yapı işi olarak bütün paydaşların kabulünü gerektirmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 692"
+    },
+    {
+     "point": "Pınar'ın payını izin almadan satabilmesi; resmî şekil ve diğer paydaşların yasal önalım hakkı",
+     "weight": 15,
+     "madde_ref": "TMK m. 688"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Bina, kat mülkiyeti kurulmadan beş kişinin paylı mülkiyetindedir (TMK m. 688). Paydaşlar arasında anlaşma bulunmadığı için kanunun kademeli yönetim kuralları uygulanır.\n\n**Hukuki sorunlar:** (1) Orhan'ın tek başına yaptırdığı onarımın niteliği ve masrafın paylaşımı; (2) dükkânın kiraya verilmesi için gereken çoğunluk ve imzalanan sözleşmenin sonuçları; (3) ek katın hangi kademede olduğu; (4) payın satışı.\n\n**İlgili hükümler:** TMK m. 688, 689, 691, 692, 694, 706 ve 732; TBK m. 299.\n\n**Değerlendirme:**\n\n*1. Çatı onarımı ve masraf:* Su sızması ve tavanın çökme tehlikesi, eşyayı bir zarar tehlikesinden ya da zararın artmasından korumak için **derhâl** önlem alınmasını gerektirir. TMK m. 689/1-2'ye göre her paydaş bu önlemleri **bütün paydaşlar hesabına** alabilir; bu yetki anlaşmayla bile kaldırılamaz. Orhan'ın diğerlerine sormaması bu yüzden sonucu değiştirmez; Necla'nın itirazı yerinde değildir.\nMasraf payları oranında karşılanır (TMK m. 694/1): Necla 20.000 TL, Orhan 10.000 TL, Pınar 5.000 TL, Rıza 2.500 TL, Sinan 2.500 TL. Orhan, kendi payı dışında kalan 30.000 TL'yi her paydaştan ancak onun payına düşen kadarıyla isteyebilir (TMK m. 694/2). Rücu müteselsil değildir; örneğin 30.000 TL'nin tamamını yalnız Necla'dan isteyemez.\n\n*2. Dükkânın kiraya verilmesi:* Adi kira sözleşmesi yapmak önemli yönetim işidir ve pay **ve** paydaş çoğunluğu gerekir (TMK m. 691/1). Necla ve Pınar'ın payları toplamı 5/8'dir, yani pay çoğunluğu vardır. Ama beş paydaştan yalnız ikisidir; paydaş çoğunluğu yoktur. TMK m. 691/3 hâkime lafzen yalnız pay ve paydaşların eşitliği hâlinde yetki verir; burada eşitlik yoktur, pay çoğunluğu ile paydaş çoğunluğu farklı taraftadır. Bu kilitlenmede hükmün kıyasen uygulanıp uygulanamayacağı tartışmalıdır (bkz. doktrin). Her hâlde paydaşlar adına geçerli bir kiraya verme kararı alınmamıştır. Rıza ya da Sinan'dan biri kararı desteklerse pay toplamı 11/16, paydaş sayısı beşte üç olur ve çoğunluk sağlanır.\nNecla'nın imzaladığı sözleşmeye gelince: kira bir borç sözleşmesidir ve kiraya verenin malik olması aranmaz (TBK m. 299). Sözleşme Necla ile X Ltd. Şti. arasında hüküm doğurur; Yargıtay uygulamasına göre kiracı, çoğunluk bulunmadığını ileri sürerek sözleşmeyle bağlı olmadığını iddia edemez. Buna karşılık sözleşmeyi yapmayan Orhan, Rıza ve Sinan sözleşmenin tarafı değildir ve sözleşmeyle bağlı değildir.\n\n*3. Dördüncü kat:* Binaya kat eklemek, korumanın veya olağan kullanmanın gerektirdiği ölçüyü aşan bir yapı işidir. TMK m. 692/1'e göre bu iş, oybirliğiyle aksi kararlaştırılmış olmadıkça **bütün paydaşların kabulüne** bağlıdır. Böyle bir oybirliği kararı yoktur ve Orhan karşıdır. Pay ve paydaşların büyük çoğunluğunun desteği yeterli olmadığından ek kat yapılamaz.\n\n*4. Pınar'ın payı:* Paydaş kendi payını diğerlerinin izni olmadan devredebilir (TMK m. 688/3). Taşınmaz payının devrini amaçlayan sözleşme resmî şekilde yapılmalıdır (TMK m. 706). Pay üçüncü kişiye satılırsa diğer paydaşlar yasal önalım hakkını kullanabilir (TMK m. 732); bildirim, süre ve dava ayrı bir konudur.\n\n**Sonuç:**\n- Orhan acil koruma önlemi aldığı için yetkilidir; Necla'dan 20.000, Pınar'dan 5.000, Rıza ve Sinan'dan 2.500'er TL isteyebilir.\n- Kiraya verme kararı paydaş çoğunluğu bulunmadığından alınamamıştır. Sözleşme Necla ile kiracı arasında geçerlidir, diğer paydaşları bağlamaz.\n- Ek kat Orhan'ın kabulü olmadan yapılamaz.\n- Pınar payını resmî şekilde satabilir; diğer paydaşların önalım hakkı doğar."
+  },
+  {
+   "stem_md": "Kardeşler Deniz, Emre ve Fatma, Bodrum'daki bahçeli bir yazlığın 1/3'er paylı malikidir. 2021'de imzalarını noterde onaylattıkları bir anlaşmayla her yaz Haziran'da Deniz'in, Temmuz'da Emre'nin, Ağustos'ta Fatma'nın evi kullanmasını kararlaştırmışlardır. Deniz'in başvurusuyla anlaşma tapu kütüğüne şerh edilmiştir.\n\n2025'te Emre payını tapuda resmî senetle Gökhan'a satar. Gökhan, 2026 Haziran'ının ilk günü eve yerleşir, kapının kilidini değiştirir ve tatile gelen Deniz'i içeri almaz. Deniz'in itirazına \"Kardeşlerin anlaşması beni bağlamaz; ben de paydaşım, istediğim zaman kullanırım\" diye karşılık verir. Deniz Haziran'ı otelde geçirmek zorunda kalır.\n\nBu sırada komşu Hakan, yazlığın bahçesinin arka kısmına izinsiz bir sera kurmuş ve orada sebze yetiştirerek satmaktadır. Deniz ve Gökhan Hakan'a karşı dava açmakla ilgilenmez. Fatma tek başına dava açmak ister.\n\n1. Gökhan kullanma anlaşmasıyla bağlı mıdır?\n2. Deniz, Gökhan'a karşı hangi yola başvurabilir?\n3. Fatma tek başına Hakan'a karşı dava açabilir mi; ne isteyebilir?\n4. Kardeşler arasında hiçbir anlaşma olmasaydı ve kullanma konusunda uyuşmazlık çıksaydı bu nasıl çözülürdü?",
+   "rubric": [
+    {
+     "point": "Kullanma anlaşmasının oybirliğiyle yapılması ve noter onaylı imzalarla bir paydaşın başvurusu üzerine şerh edilebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 689"
+    },
+    {
+     "point": "Şerh edilmiş anlaşmanın sonradan paydaş olan Gökhan'ı bağlaması",
+     "weight": 25,
+     "madde_ref": "TMK m. 695"
+    },
+    {
+     "point": "Deniz'in Gökhan'a karşı payına elatmanın önlenmesini isteyebilmesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 683"
+    },
+    {
+     "point": "Fatma'nın üçüncü kişiye karşı tek başına ve taşınmazın tamamı için elatmanın önlenmesini isteyebilmesi; ecrimisili yalnız payı oranında isteyebilmesi",
+     "weight": 25,
+     "madde_ref": "TMK m. 693"
+    },
+    {
+     "point": "Anlaşma yoksa kullanma şeklini hâkimin zaman veya yer itibarıyla belirlemesi; bunun paylaşma olmaması",
+     "weight": 20,
+     "madde_ref": "TMK m. 693"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Yazlık üç kardeşin eşit paylı mülkiyetindedir (TMK m. 688). Kardeşler kullanma konusunda kanundan farklı bir düzen kurmuştur (TMK m. 689). Emre'nin payını satmasıyla Gökhan paydaş olmuştur. Komşu Hakan ise paydaş olmayan üçüncü kişidir.\n\n**Hukuki sorunlar:** (1) Kullanma anlaşmasının yeni paydaşa karşı bağlayıcılığı; (2) Deniz'in Gökhan'a karşı korunması; (3) bir paydaşın üçüncü kişiye karşı tek başına dava açabilmesi ve isteyebilecekleri; (4) anlaşma yoksa kullanma şeklinin belirlenmesi.\n\n**İlgili hükümler:** TMK m. 683, 689, 693 ve 695.\n\n**Değerlendirme:**\n\n*1. Gökhan'ın bağlılığı:* Paydaşlar oybirliğiyle yararlanma ve kullanma konusunda farklı bir düzen kurabilir (TMK m. 689/1). Üç kardeş bunu yapmış, imzalarını noterde onaylatmış ve paydaşlardan Deniz'in başvurusuyla anlaşmayı tapuya şerh ettirmiştir. Bu, TMK m. 689/3'teki şartlara uygundur. TMK m. 695/1'e göre bu düzenleme sonradan paydaş olanları da bağlar; taşınmazlarda bunun için şerh gerekir (TMK m. 695/2). Şerh bulunduğundan Gökhan anlaşmayla bağlıdır. Emre'nin yerine geçtiği için yazlığı Temmuz'da kullanabilir; Haziran Deniz'in, Ağustos Fatma'nın dönemidir. Gökhan'ın \"anlaşma beni bağlamaz\" savunması yerinde değildir.\n\n*2. Deniz'in başvurabileceği yol:* Her paydaş paylı maldan diğerlerinin haklarıyla bağdaştığı ölçüde yararlanır (TMK m. 693/1). Gökhan, Deniz'e bırakılan dönemde evi işgal ederek ve onu içeri almayarak Deniz'in yararlanmasını engellemektedir. Malik her türlü haksız elatmanın önlenmesini isteyebilir (TMK m. 683/2). Yargıtay uygulamasına göre yararlanması engellenen paydaş, engel olan paydaşa karşı **payına elatmanın önlenmesini** isteyebilir. Deniz bu davada şerhli anlaşmaya dayanır. Gökhan'ın Deniz'i eve almaması aynı zamanda yararlanmanın engellenmesi anlamına geldiği için ecrimisil istemi de gündeme gelebilir; ayrıntısı ecrimisil konusundadır.\n\n*3. Fatma'nın Hakan'a karşı davası:* Her paydaş bölünemeyen ortak menfaatlerin korunmasını diğer paydaşları temsilen sağlayabilir (TMK m. 693/3). Yargıtay'a göre üçüncü kişinin elatmasına karşı paydaşlardan biri, diğerleri katılmasa bile **tek başına** ve **taşınmazın tamamı için** elatmanın önlenmesi davası açabilir. Fatma seranın kaldırılmasını ve elatmanın önlenmesini isteyebilir. Ecrimisil ise bölünebilir bir para alacağıdır; Fatma onu yalnız payı oranında, yani üçte bir oranında isteyebilir.\n\n*4. Anlaşma olmasaydı:* Paydaşlar kullanma konusunda uyuşamazsa yararlanma ve kullanma şeklini **hâkim** belirler (TMK m. 693/2). Hâkim kullanmayı zaman itibarıyla (yaz aylarını bölmek) ya da yer itibarıyla (evin ve bahçenin bölümlerini ayırmak) paydaşlar arasında bölebilir. Yargıtay'a göre hâkim keşif yapmalı, taşınmazın niteliğini ve paydaşların ihtiyaçlarını gözeten, seçenekler içeren bilirkişi raporu almalı; bütün paydaşlar davada yer almalıdır. Bu belirleme bir paylaşma değildir: kimse belirli bir bölümün maliki olmaz, paylar ve tapu kaydı değişmez, kullanma şekli taşınmazın sürekli özgülenmesi biçiminde belirlenemez.\n\n**Sonuç:**\n- Anlaşma şerh edildiğinden Gökhan ona uymak zorundadır; Temmuz ayını kullanabilir.\n- Deniz, Gökhan'a karşı payına elatmanın önlenmesini isteyebilir.\n- Fatma tek başına, taşınmazın tamamı için Hakan'a karşı elatmanın önlenmesi davası açabilir; ecrimisili ise payı oranında isteyebilir.\n- Anlaşma olmasaydı kullanma şeklini hâkim zaman ya da yer itibarıyla belirlerdi; mülkiyet değişmezdi."
+  },
+  {
+   "stem_md": "Eskişehir'de iki katlı bir bina ve bahçesi, kat mülkiyeti kurulmadan dört kişinin paylı mülkiyetindedir: Hülya 2/6, İsmail 2/6, Kemal 1/6, Leyla 1/6. Bina imar durumu nedeniyle bölünememektedir.\n\nKemal, binada kullandığı bölümü oğlu Mert'e bırakmıştır. Mert iki yıldır geceleri yüksek sesle müzik çalmakta, ortak merdivenin aydınlatmasını ve bahçe kapısını defalarca kırmakta, diğer paydaşları tehdit etmektedir. Hakkında birçok şikâyet ve tutanak vardır. Kemal yazılı uyarılara rağmen hiçbir şey yapmamaktadır. Ayrıca son üç yılın sigorta ve bakım giderlerinin tamamını (72.000 TL) İsmail ödemiştir; Hülya ve Leyla paylarına düşeni İsmail'e vermiş, Kemal vermemiştir.\n\nHülya, İsmail ve Leyla, Kemal'in paydaşlıktan çıkarılması için dava açmaya karar verir. Hülya dava dilekçesinde Kemal'in payının kendisine devrini de ister. Kemal \"Davranışlar oğlumun, benim değil\" ve \"Payımın değeri karar tarihine göre belirlenmeli\" diye savunma yapar. Payın değeri dava tarihinde 1.800.000 TL'dir; yargılama sırasında 2.300.000 TL'ye çıkmıştır.\n\n1. Paydaşlıktan çıkarmanın şartları gerçekleşmiş midir? Kemal'in ilk savunmasını değerlendiriniz.\n2. Dava açma kararı için gereken çoğunluk sağlanmış mıdır?\n3. Hâkim Hülya'nın istemi karşısında nasıl karar verir? Kemal'in değer savunması yerinde midir? Hülya devir istememiş olsaydı ne olurdu?\n4. İsmail, Kemal'den ne isteyebilir?\n5. Bu davranışlarda Mert değil de Kemal'in payı üzerinde tapuya tescilli intifa hakkı bulunan annesi Nermin bulunsaydı ne olurdu?",
+   "rubric": [
+    {
+     "point": "Malın kullanılmasını bıraktığı kişinin davranışları nedeniyle ağır ihlal ve çekilmezlik şartlarının gerçekleşmesi; Kemal'in savunmasının yerinde olmaması",
+     "weight": 25,
+     "madde_ref": "TMK m. 696"
+    },
+    {
+     "point": "Dava açma kararı için pay ve paydaş çoğunluğunun hesaplanması",
+     "weight": 15,
+     "madde_ref": "TMK m. 696"
+    },
+    {
+     "point": "Aynen ayrılamayan payın, birlikte ileri sürülen istem üzerine dava tarihindeki değerle Hülya'ya devri; ödeme veya tevdi için süre ve tescil",
+     "weight": 25,
+     "madde_ref": "TMK m. 696"
+    },
+    {
+     "point": "Devir isteyen paydaş yoksa davalıya süre verilmesi ve payın açık artırmayla satışı",
+     "weight": 10,
+     "madde_ref": "TMK m. 696"
+    },
+    {
+     "point": "İsmail'in Kemal'den payı oranında 12.000 TL rücu isteyebilmesi",
+     "weight": 10,
+     "madde_ref": "TMK m. 694"
+    },
+    {
+     "point": "Çıkarma hükümlerinin pay üzerindeki intifa hakkı sahibine kıyasen uygulanması ve devri caiz olmayan hakkın uygun tazminatla sona ermesi",
+     "weight": 15,
+     "madde_ref": "TMK m. 697"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Bina dört kişinin paylı mülkiyetindedir (TMK m. 688). Diğer paydaşlar, Kemal'in sorumlu olduğu davranışlar nedeniyle onun paylı mülkiyet ilişkisinden çıkarılmasını istemektedir (TMK m. 696). Ayrıca ödenmemiş ortak giderler için rücu sorunu vardır (TMK m. 694).\n\n**Hukuki sorunlar:** (1) Çıkarma şartları ve üçüncü kişinin davranışından sorumluluk; (2) dava açma kararının çoğunluğu; (3) hâkimin vereceği kararın biçimi ve payın değerinin hangi tarihe göre belirleneceği; (4) gider rücuu; (5) pay üzerindeki intifa hakkı sahibinin çıkarılması.\n\n**İlgili hükümler:** TMK m. 694, 696, 697, 797 ve 806.\n\n**Değerlendirme:**\n\n*1. Çıkarma şartları:* TMK m. 696/1'e göre paydaş, kendi davranışlarıyla ya da **malın kullanılmasını bıraktığı** veya fiillerinden sorumlu olduğu kişilerin davranışlarıyla diğer paydaşlara karşı yükümlülüklerini **ağır biçimde** çiğner ve bu yüzden ilişkinin devamını onlar için **çekilmez** hâle getirirse mahkeme kararıyla çıkarılabilir. Kemal kullandığı bölümü Mert'e bırakmıştır; Mert malın kullanılmasının bırakıldığı kişidir. İki yıl süren gece gürültüsü, ortak alanlara tekrarlanan zararlar ve tehditler tek seferlik bir geçimsizlik değil, tutanaklarla belgelenmiş ağır bir ihlaldir. Kemal'in yazılı uyarılara rağmen hiçbir önlem almaması, ilişkinin diğer paydaşlar için çekilmez hâle geldiğini gösterir. Giderlere katılmaması da paydaşlık yükümlülüğünün ihlalidir. Kanun üçüncü kişinin davranışını açıkça paydaşa yüklediği için Kemal'in \"davranışlar oğlumun\" savunması yerinde değildir.\n\n*2. Dava açma kararı:* Aksi kararlaştırılmadıkça dava pay ve paydaş çoğunluğuyla açılır (TMK m. 696/2). Hülya, İsmail ve Leyla'nın payları toplamı 5/6'dır; dört paydaştan üçüdür. Kemal hesaba katılsa da katılmasa da (bu durumda üç paydaştan üçü) iki çoğunluk da sağlanmıştır. Davalı paydaşın hesaba katılıp katılmayacağı tartışması bu olayın sonucunu etkilemez.\n\n*3. Hâkimin kararı:* Bina imar durumu nedeniyle bölünemediğinden Kemal'in payını karşılayacak kısmın aynen ayrılması (TMK m. 696/3) mümkün değildir. Bu durumda payın dava tarihindeki değeriyle kendisine devrini isteyen paydaş, bu istemi çıkarma istemiyle **birlikte** ileri sürmelidir (TMK m. 696/4). Hülya bunu dava dilekçesinde yapmıştır. Hâkim, hüküm vermeden önce re'sen belirleyeceği uygun bir süre içinde pay değerinin ödenmesine veya tevdiine karar verir. Değer **dava tarihindeki** değer, yani 1.800.000 TL'dir; yargılama sırasındaki artış hesaba girmez. Kemal'in değer savunması bu nedenle yerinde değildir. Hülya ödeme ya da tevdi yaparsa ve dava kabul edilirse pay Hülya adına tescil edilir.\nHülya devir istememiş olsaydı ve başka bir paydaş da bunu istemeseydi, hâkim Kemal'e payını devretmesi için bir süre verir, bu sürede devredilmeyen payın açık artırmayla satışına karar verirdi. Satış, cebrî icra yoluyla paraya çevirme hükümlerine göre yapılırdı (TMK m. 696/5).\n\n*4. İsmail'in rücuu:* Giderler, aksine hüküm yoksa payları oranında karşılanır ve fazla ödeyen paydaş diğerlerine payları oranında rücu eder (TMK m. 694). Kemal'in payı 1/6 olduğundan 72.000 TL'nin 12.000 TL'si Kemal'e düşer. İsmail bu tutarı Kemal'den isteyebilir.\n\n*5. Nermin'in durumu:* Çıkarma hükümleri, kıyas yoluyla pay üzerinde intifa hakkı sahiplerine de uygulanır (TMK m. 697). Bu durumda dava intifa hakkı sahibi Nermin'e yöneltilir ve TMK m. 696'daki şartlar onun davranışları bakımından aranır. İntifa hakkı kişiye bağlıdır: gerçek kişide hak sahibinin ölümüyle sona erer (TMK m. 797) ve kanun yalnız hakkın kullanılmasının devrine izin verir (TMK m. 806). Devri caiz olmayan bir hak olduğundan hâkim, hakkın **uygun bir tazminat karşılığında sona ermesine** karar verir.\n\n**Sonuç:**\n- Çıkarma şartları gerçekleşmiştir; Kemal, oğlunun davranışlarından sorumludur.\n- Dava açma kararı için pay ve paydaş çoğunluğu sağlanmıştır.\n- Pay, Hülya'nın hâkimin belirlediği sürede 1.800.000 TL'yi ödemesi ya da tevdi etmesi üzerine onun adına tescil edilir. Devir istemi olmasaydı süre verilir, sonra açık artırmaya gidilirdi.\n- İsmail, Kemal'den 12.000 TL isteyebilir.\n- İhlalci Nermin olsaydı, intifa hakkı uygun bir tazminat karşılığında sona erdirilirdi."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Paylı mülkiyet nedir? (TMK m. 688/1)",
+   "back_md": "Birden çok kişinin, maddi olarak bölünmemiş bir şeyin tamamına belli paylarla malik olması. Pay soyuttur, belirli bir yeri göstermez."
+  },
+  {
+   "front_md": "Paylar belirlenmemişse ne olur?",
+   "back_md": "Başka türlü belirlenmedikçe paylar eşit sayılır (TMK m. 688/2)."
+  },
+  {
+   "front_md": "Paydaş kendi payı üzerinde ne yapabilir? (TMK m. 688/3)",
+   "back_md": "Payını devredebilir ve rehnedebilir; pay alacaklılarca haczettirilebilir. Diğer paydaşların izni gerekmez."
+  },
+  {
+   "front_md": "Kullanma ve yönetim anlaşması hangi çoğunlukla yapılır?",
+   "back_md": "Oybirliğiyle (TMK m. 689/1)."
+  },
+  {
+   "front_md": "Anlaşmayla kaldırılamayan iki yetki nedir?",
+   "back_md": "Zorunlu yönetim işlerini yapmak ve gerekirse mahkemeden önlem istemek; zarar tehlikesine karşı derhâl gereken önlemleri bütün paydaşlar hesabına almak (TMK m. 689/1)."
+  },
+  {
+   "front_md": "Taşınmazla ilgili paydaş anlaşması nasıl şerh edilir?",
+   "back_md": "İmzalar noterlikçe onaylanır ve paydaşlardan birinin başvurusuyla tapu kütüğüne şerh verilir (TMK m. 689/3)."
+  },
+  {
+   "front_md": "Olağan yönetim işlerini kim yapar?",
+   "back_md": "Her paydaş tek başına; özellikle küçük onarımlar ve tarımsal işler (TMK m. 690/1). Paydaşların çoğunluğu bu yetkiyi farklı düzenleyebilir; zorunlu ve ivedi işler saklıdır."
+  },
+  {
+   "front_md": "Önemli yönetim işleri nelerdir? (TMK m. 691)",
+   "back_md": "İşletme usulü veya tarım türünün değiştirilmesi, adi kira veya ürün kirası sözleşmesinin yapılması ya da feshi, toprağın ıslahı ve değeri korumak için gerekli büyük bakım, onarım ve yapı işleri."
+  },
+  {
+   "front_md": "Pay ve paydaş çoğunluğu ne demektir?",
+   "back_md": "Kararı destekleyenlerin hem payları toplamının hem de sayılarının yarıdan fazla olması. İkisi birlikte aranır."
+  },
+  {
+   "front_md": "Pay ve paydaşlar eşitse önemli yönetim kararı nasıl alınır?",
+   "back_md": "Bir paydaşın istemiyle hâkim, bütün paydaşların menfaatini gözeterek hakkaniyete uygun karar verir; kayyım atayabilir (TMK m. 691/3)."
+  },
+  {
+   "front_md": "Hangi işler bütün paydaşların kabulünü gerektirir? (TMK m. 692)",
+   "back_md": "Amaç değişikliği, korumanın veya olağan kullanımın gerektirdiğini aşan yapı işleri ve malın tamamı üzerinde tasarruf. Oybirliğiyle aksi kararlaştırılabilir."
+  },
+  {
+   "front_md": "Paylar üzerinde rehin varsa malın tamamına rehin kurulabilir mi?",
+   "back_md": "Hayır. Paylar üzerinde taşınmaz rehni veya taşınmaz yükü varsa malın tamamı benzer haklarla kayıtlanamaz (TMK m. 692/2)."
+  },
+  {
+   "front_md": "Hâkim kullanma şeklini nasıl belirler? (TMK m. 693/2)",
+   "back_md": "Kullanmayı zaman veya yer itibarıyla paydaşlar arasında bölebilir. Bu paylaşma değildir; mülkiyet ve tapu kaydı değişmez."
+  },
+  {
+   "front_md": "Üçüncü kişinin elatmasına karşı tek paydaş ne isteyebilir?",
+   "back_md": "Tek başına taşınmazın tamamı için elatmanın önlenmesini; ecrimisili ise yalnız payı oranında (TMK m. 693/3 ve Yargıtay uygulaması)."
+  },
+  {
+   "front_md": "Payından az yer kullandığını ileri süren paydaşın yolu nedir?",
+   "back_md": "Payına karşılık çekişmesiz kullandığı yer varsa elatma davası dinlenmez; ortaklığın giderilmesi davası açmalıdır (Yargıtay)."
+  },
+  {
+   "front_md": "Fiili taksim mülkiyeti ayırır mı?",
+   "back_md": "Hayır (TMK m. 706). Ama Yargıtay, uzun süre benimsenmiş fiili kullanma düzenini resmî paylaşma veya imar uygulamasına kadar dürüstlük kuralıyla korur."
+  },
+  {
+   "front_md": "Paylı maldaki giderler nasıl paylaşılır? (TMK m. 694)",
+   "back_md": "Aksine hüküm yoksa payları oranında. Fazla ödeyen her paydaşa ancak onun payı oranında rücu eder; rücu müteselsil değildir."
+  },
+  {
+   "front_md": "Paydaş kararları sonradan paydaş olanı bağlar mı? (TMK m. 695)",
+   "back_md": "Evet. Ama taşınmazlarda bunun için kararların tapu kütüğüne şerh edilmesi gerekir."
+  },
+  {
+   "front_md": "Paydaşlıktan çıkarmanın şartları nelerdir? (TMK m. 696/1)",
+   "back_md": "Paydaşın kendi davranışlarıyla ya da malı bıraktığı veya fiillerinden sorumlu olduğu kişilerin davranışlarıyla yükümlülüklerin ağır biçimde çiğnenmesi, ilişkinin çekilmez hâle gelmesi ve mahkeme kararı."
+  },
+  {
+   "front_md": "Paydaşlıktan çıkarma davası açma kararı hangi çoğunlukla alınır?",
+   "back_md": "Aksi kararlaştırılmadıkça pay ve paydaş çoğunluğuyla (TMK m. 696/2)."
+  },
+  {
+   "front_md": "Çıkarma davasında hâkimin üç seçeneği hangi sırayla uygulanır?",
+   "back_md": "Önce aynen ayırma ve parçanın çıkarılana özgülenmesi; olmuyorsa isteyen paydaşa dava tarihindeki değerle devir; isteyen de yoksa davalıya süre ve açık artırma (TMK m. 696/3-5)."
+  },
+  {
+   "front_md": "Çıkarmada pay değeri hangi tarihe göre belirlenir?",
+   "back_md": "Dava tarihine göre. Devir istemi çıkarma istemiyle birlikte ileri sürülmelidir (TMK m. 696/4)."
+  },
+  {
+   "front_md": "TMK m. 697 neyi düzenler?",
+   "back_md": "Çıkarma hükümlerinin pay üzerindeki intifa, diğer ayni haklar ve şerhli kişisel yararlanma hakkı sahiplerine kıyasen uygulanmasını. Devri caiz olmayan hak uygun tazminatla sona erdirilir."
+  },
+  {
+   "front_md": "Paydaşlıktan çıkarma ile ortaklığın giderilmesi farkı nedir?",
+   "back_md": "Çıkarma, ağır ihlal şartıyla ve çoğunluk kararıyla yalnız bir paydaşı ilişkiden uzaklaştırır. Ortaklığın giderilmesini her paydaş sebep göstermeden ister ve paylı mülkiyet tümüyle biter (TMK m. 698)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

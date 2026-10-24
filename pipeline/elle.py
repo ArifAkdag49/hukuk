@@ -1,0 +1,415 @@
+"""Claude Code oturumunda elle yazılan konu taslaklarını denetler ve sisteme hazırlar.
+
+    python -X utf8 -m pipeline.elle bitir HUK2011 <slug>      # denetle + pipeline/out/... yaz
+    python -X utf8 -m pipeline.elle bitir HUK2011 --hepsi
+    python -X utf8 -m pipeline.elle kontrol HUK2011 <slug>    # yalnız denetle
+    python -X utf8 -m pipeline.elle ozet HUK2011 <slug>       # sorular doğru şıkla, olayların sonucu (gözden geçirme)
+    python -X utf8 -m pipeline.elle harita HUK2011            # dersin ünite ve konuları, müfredat maddeleri
+
+Taslak: pipeline/taslak/<DERS>/<slug>.yaml (biçim: pipeline/YAZIM_REHBERI.md).
+Madde metinleri ve karar künyeleri taslaktan DEĞİL, araştırma önbelleğinden
+(pipeline/cache, bkz. pipeline.arastir) alınır; metinde atıf yapılan her madde
+konunun madde listesinde olmalı ve resmî metni alınmış olmalıdır.
+"""
+
+import argparse
+import asyncio
+import json
+import re
+import sys
+from datetime import datetime, timezone
+
+import yaml
+
+from .common import CURRICULUM, OUT, ROOT, load_env
+
+TASLAK = ROOT / "pipeline" / "taslak"
+MODEL = "claude-code (elle, araştırmalı)"
+
+ALIASES = {"IIK": "İİK", "IK": "İK", "IYUK": "İYUK", "ANAYASA": "AY", "MOHUK": "MÖHUK", "STISK": "STİSK"}
+# Kısaltması olmayan kanunlara numarasıyla atıf: "1475 sayılı Kanun m. 14" (maddeler listesinde kanun: '1475')
+KANUN_RE = (r"(TBK|TMK|TCK|TTK|HMK|İİK|IIK|AY|İK|IK|CMK|İYUK|IYUK|KMK|KTK|TKHK|HUAK|MÖHUK|KVKK|SGK|DMK|VUK"
+            r"|STİSK|STISK|PVSK|TGYK|\d{3,4}\s+sayılı\s+Kanun(?:un|'un|’un)?)")
+LETTER = r"A-Za-zÇĞİÖŞÜçğıöşü"
+# "53/1-3" = madde 53, fıkra 1, bent 3: eğik çizgiden sonraki "-N" fıkra/bent gösterimidir, madde aralığı değil.
+# Eğik çizgiden sonra tek harf ya ek madde (TCK 123/A, İİK 68/a) ya da Romen fıkradır (56/I); hangisi
+# olduğu maddeler listesine bakılarak çözülür.
+SUB = rf"(?:/[0-9{LETTER}]+(?:[-–][0-9{LETTER}]+)?)?"
+ITEM_RE = re.compile(rf"(?<![/\d])(\d+)(?:/([0-9{LETTER}]+)(?:[-–][0-9{LETTER}]+)?)?")
+REF_RE = re.compile(
+    rf"(?<![{LETTER}]){KANUN_RE}\s+md?\.\s*((?:\d+{SUB}(?:\s*(?:,|ve|veya|ile|-|–)\s*(?=\d)(?!\d{{3,4}}\s+sayılı))?)+)"
+)
+BARE_RE = re.compile(rf"(?<![{LETTER}.])m\.\s*(\d+)(?:/([0-9{LETTER}]+))?")
+OPTION_LETTER_RE = re.compile(r"\b[A-D]\s*şık|\bşık(?:kı)?\s*[A-D]\b|\b[A-D]\)\s", re.IGNORECASE)
+
+MIN = {"ozet": 150, "anlatim": 1200, "cozum": 150, "karar_ozet": 25}
+COUNTS = {"sozluk": (6, 40), "sorular": (12, 30), "olaylar": (2, 5), "kartlar": (12, 30), "kritik": (8, 40)}
+
+
+def canon(kanun: str) -> str:
+    numara = re.match(r"^(\d{3,4})\b", kanun.strip())
+    if numara:
+        return numara.group(1)
+    k = kanun.strip().upper()
+    return ALIASES.get(k, k)
+
+
+def words(s: str) -> int:
+    return len((s or "").split())
+
+
+def _harf(sub: str | None) -> str | None:
+    return sub if sub and len(sub) == 1 and sub.isalpha() else None
+
+
+_BAGLAC_RE = re.compile(r"\s*(?:,|;|ve|veya|ile|ya da|-|–)?\s*")
+
+
+def refs_in(text: str, primary: str | None) -> set[tuple[str, str, str | None]]:
+    """Metindeki (kanun, madde, tek harf) atıfları. Çıplak 'm. N', hemen önündeki atıfa yalnız bir bağlaçla
+    ("İİK m. 195, m. 200 ve m. 201") bağlıysa o kanuna, değilse konunun ana kanununa sayılır.
+    Üçüncü öğe eğik çizgiden sonraki tek harftir (ek madde ya da Romen fıkra), yoksa None."""
+    text = text or ""
+    found: set[tuple[str, str, str | None]] = set()
+    olaylar = [(m.start(), m.end(), canon(m.group(1)), m) for m in REF_RE.finditer(text)]
+    spans = [(a, b) for a, b, _, _ in olaylar]
+    for _, _, kanun, m in olaylar:
+        for num, sub in ITEM_RE.findall(m.group(2)):
+            found.add((kanun, num, _harf(sub)))
+    ciplak = [(m.start(), m.end(), None, m) for m in BARE_RE.finditer(text)
+              if not any(a <= m.start() < b for a, b in spans)]
+    son_kanun, son_bitis = None, -1
+    for a, b, kanun, m in sorted(olaylar + ciplak, key=lambda x: x[0]):
+        if kanun is not None:
+            son_kanun, son_bitis = kanun, b
+            continue
+        if son_kanun and _BAGLAC_RE.fullmatch(text[son_bitis:a]):
+            hedef = son_kanun
+        else:
+            hedef = primary
+        if hedef:
+            found.add((hedef, m.group(1), _harf(m.group(2))))
+            son_kanun, son_bitis = hedef, b
+    return found
+
+
+def kart_on(k: dict) -> str:
+    # PyYAML (YAML 1.1) çıplak `on:` anahtarını True'ya çevirir
+    return str(k.get("on", k.get(True, "")) or "").strip()
+
+
+def _tek_satir(s) -> str:
+    return re.sub(r"\s+", " ", str(s or "")).strip()
+
+
+def soru_ozeti(t: dict) -> str:
+    """Gözden geçirme için: her soru doğru şıkkı (✓), diğer şıkları (✗) ve açıklamasıyla; olayların sonuç bölümü."""
+    out = []
+    for i, s in enumerate(t.get("sorular") or [], 1):
+        siklar, d = s.get("siklar") or [], s.get("dogru")
+        dogru = siklar[d] if isinstance(d, int) and 0 <= d < len(siklar) else "(geçersiz cevap anahtarı)"
+        yanlis = " | ".join(str(x) for j, x in enumerate(siklar) if j != d)
+        out.append(f"S{i}. {_tek_satir(s.get('soru'))}\n   ✓ {dogru}\n   ✗ {yanlis}\n   → {_tek_satir(s.get('aciklama'))}\n")
+    for i, o in enumerate(t.get("olaylar") or [], 1):
+        coz = str(o.get("cozum") or "")
+        m = re.search(r"\*\*Sonuç:?\*\*(.*)$", coz, flags=re.S)
+        out.append(f"OLAY {i} SONUÇ: {(m.group(1) if m else coz[-800:]).strip()}\n")
+    return "\n".join(out)
+
+
+def konu_haritasi(cur: dict) -> str:
+    """Dersin üniteleri ve konuları (dersteki sıra numarası, slug, müfredat maddeleri): konu sınırlarını görmek için."""
+    out, no = [], 0
+    for unit in cur.get("units") or []:
+        out.append(f"- {unit['title']}")
+        for tp in unit.get("topics") or []:
+            no += 1
+            md = ", ".join(f"{canon(str(m['kanun']))} {m['madde']}" for m in tp.get("maddeler") or [])
+            out.append(f"  {no}. {tp['title']} (`{tp['slug']}`; "
+                       + (f"müfredat maddeleri: {md})" if md else "müfredatta madde yok)"))
+    return "\n".join(out)
+
+
+def _texts(t: dict) -> list[tuple[str, str]]:
+    out = [("ozet", t.get("ozet", "")), ("anlatim", t.get("anlatim", "")), ("kritik", t.get("kritik", "")),
+           ("doktrin", t.get("doktrin", ""))]
+    for i, s in enumerate(t.get("sorular") or [], 1):
+        out += [(f"Soru {i}", s.get("soru", "")), (f"Soru {i} açıklama", s.get("aciklama", ""))]
+        out += [(f"Soru {i} şık", o) for o in s.get("siklar") or []]
+    for i, o in enumerate(t.get("olaylar") or [], 1):
+        out += [(f"Olay {i}", o.get("olay", "")), (f"Olay {i} çözüm", o.get("cozum", ""))]
+        out += [(f"Olay {i} ölçüt", f"{c.get('tespit', '')} {c.get('madde', '')}") for c in o.get("olcut") or []]
+    for i, k in enumerate(t.get("kartlar") or [], 1):
+        out += [(f"Kart {i}", f"{kart_on(k)} {k.get('arka', '')}")]
+    for i, k in enumerate(t.get("kararlar") or [], 1):
+        out += [(f"Karar {i} özet", k.get("ozet", ""))]
+    for i, s in enumerate(t.get("sozluk") or [], 1):
+        out += [(f"Sözlük {i}", s.get("tanim", ""))]
+    return out
+
+
+# Uluslararası kararlar (UAD, UDAD, tahkim, UCM, ICTY) içtihat önbelleğinde yoktur: künye taslaktan gelir,
+# araştırmacı paketinde yalnız mahkemenin ya da BM'nin resmî yayınından doğrulanmış olmalıdır.
+RESMI_KAYNAK_RE = re.compile(
+    r"^https://(?:[a-z0-9-]+\.)*(?:un\.org|icj-cij\.org|icc-cpi\.int|icty\.org|irmct\.org|pca-cpa\.org"
+    r"|icrc\.org|itlos\.org|echr\.coe\.int)/"
+)
+TARIH_RE = re.compile(r"^\d{2}\.\d{2}\.\d{4}$")
+
+
+def uluslararasi_karar(k: dict) -> tuple[dict | None, str | None]:
+    """`uluslararasi: true` karar girdisi: mahkeme, ad (dava adı ve karar türü), tarih (gg.aa.yyyy), kaynak, ozet."""
+    eksik = [a for a in ("mahkeme", "ad", "tarih", "kaynak", "ozet") if not str(k.get(a) or "").strip()]
+    if eksik:
+        return None, f"uluslararası kararda eksik alan: {', '.join(eksik)}"
+    if not TARIH_RE.match(str(k["tarih"]).strip()):
+        return None, f"tarih gg.aa.yyyy biçiminde olmalı: {k['tarih']}"
+    kaynak = str(k["kaynak"]).strip()
+    if not RESMI_KAYNAK_RE.match(kaynak):
+        return None, f"kaynak resmî bir mahkeme/BM adresi değil: {kaynak}"
+    if words(k["ozet"]) < MIN["karar_ozet"]:
+        return None, "özet çok kısa"
+    return {
+        "court": str(k["mahkeme"]).strip(),
+        "chamber": str(k["ad"]).strip(),
+        "esas_no": None,
+        "karar_no": None,
+        "decision_date": str(k["tarih"]).strip(),
+        "summary_md": str(k["ozet"]).strip(),
+        "source_url": kaynak,
+        "verified": True,
+    }, None
+
+
+def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: dict):
+    """Dönen: (doc | None, hatalar, uyarılar). Hata varsa doc None."""
+    from app.quiz_util import shuffle_options
+
+    hatalar: list[str] = []
+    uyarilar: list[str] = []
+
+    maddeler = [(canon(m["kanun"]), str(m["madde"])) for m in t.get("maddeler") or []]
+    if not maddeler and not plan.get("kanunsuz"):
+        hatalar.append("maddeler listesi boş")
+    primary = maddeler[0][0] if maddeler else None
+    for k, n in maddeler:
+        if not (metinler.get((k, n)) or {}).get("metin"):
+            hatalar.append(f"{k} m. {n}: resmî metin alınamadı (numara yanlış ya da mülga olabilir)")
+
+    listed = set(maddeler)
+    listed_cf = {(k, n.casefold()) for k, n in maddeler}
+    for alan, metin in _texts(t):
+        for k, n, harf in sorted(refs_in(metin, primary), key=lambda r: (r[0], r[1], r[2] or "")):
+            if (harf and (k, f"{n}/{harf}".casefold()) in listed_cf) or (k, n) in listed:
+                continue
+            hatalar.append(f"{alan}: {k} m. {n}{'/' + harf if harf else ''} atfı var ama maddeler listesinde yok")
+
+    # uzunluklar ve sayılar
+    if words(t.get("ozet", "")) < MIN["ozet"]:
+        hatalar.append(f"özet çok kısa ({words(t.get('ozet', ''))} < {MIN['ozet']} kelime)")
+    if words(t.get("anlatim", "")) < MIN["anlatim"]:
+        hatalar.append(f"anlatım çok kısa ({words(t.get('anlatim', ''))} < {MIN['anlatim']} kelime)")
+    if not (t.get("doktrin") or "").strip():
+        hatalar.append("doktrin bölümü boş")
+    kritik_satir = [ln for ln in (t.get("kritik") or "").splitlines() if re.match(r"\s*(?:[-*]|\d+\.)\s+", ln)]
+    lo, hi = COUNTS["kritik"]
+    if not lo <= len(kritik_satir) <= hi:
+        hatalar.append(f"kritik: {len(kritik_satir)} madde ({lo}-{hi} olmalı)")
+    for alan in ("sozluk", "sorular", "olaylar", "kartlar"):
+        n = len(t.get(alan) or [])
+        lo, hi = COUNTS[alan]
+        if not lo <= n <= hi:
+            hatalar.append(f"{alan}: {n} öğe ({lo}-{hi} olmalı)")
+
+    mcqs = []
+    for i, s in enumerate(t.get("sorular") or [], 1):
+        siklar = [str(x).strip() for x in s.get("siklar") or []]
+        if len(siklar) != 4 or len(set(siklar)) != 4 or not all(siklar):
+            hatalar.append(f"Soru {i}: tam 4 farklı ve dolu şık olmalı")
+            continue
+        dogru = s.get("dogru")
+        if not isinstance(dogru, int) or not 0 <= dogru <= 3:
+            hatalar.append(f"Soru {i}: dogru 0-3 arası bir sayı olmalı")
+            continue
+        if not (s.get("soru") or "").strip() or not (s.get("aciklama") or "").strip():
+            hatalar.append(f"Soru {i}: soru ve açıklama dolu olmalı")
+            continue
+        if OPTION_LETTER_RE.search(s.get("aciklama", "")):
+            uyarilar.append(f"Soru {i}: açıklamada şık harfi geçiyor (şıklar karıştırılıyor; içerikle anlat)")
+        mcqs.append({"stem_md": s["soru"].strip(), "options": siklar, "correct_option": dogru,
+                     "explanation_md": s["aciklama"].strip()})
+
+    cases_q = []
+    for i, o in enumerate(t.get("olaylar") or [], 1):
+        olcut = o.get("olcut") or []
+        if len(olcut) < 2:
+            hatalar.append(f"Olay {i}: en az 2 ölçüt olmalı")
+        try:
+            toplam = sum(int(c.get("puan", 0)) for c in olcut)
+        except (TypeError, ValueError):
+            toplam = -1
+        if toplam != 100:
+            hatalar.append(f"Olay {i}: ölçüt puanlarının toplamı 100 olmalı (şu an {toplam})")
+        if words(o.get("cozum", "")) < MIN["cozum"]:
+            hatalar.append(f"Olay {i}: örnek çözüm çok kısa ({words(o.get('cozum', ''))} < {MIN['cozum']} kelime)")
+        cases_q.append({
+            "stem_md": (o.get("olay") or "").strip(),
+            "rubric": [{"point": str(c.get("tespit", "")).strip(), "weight": int(c.get("puan", 0) or 0),
+                        "madde_ref": str(c.get("madde", "") or "").strip()} for c in olcut],
+            "model_answer_md": (o.get("cozum") or "").strip(),
+        })
+
+    cases = []
+    for i, k in enumerate(t.get("kararlar") or [], 1):
+        if k.get("uluslararasi"):
+            case, hata = uluslararasi_karar(k)
+            if hata:
+                hatalar.append(f"Karar {i}: {hata}")
+            else:
+                cases.append(case)
+            continue
+        kid = str(k.get("id", ""))
+        kunye = kunyeler.get(kid)
+        if not kunye:
+            hatalar.append(f"Karar {i}: id={kid} araştırma önbelleğinde yok (önce pipeline.arastir ictihat ile bulun)")
+            continue
+        if not kunye.get("okundu", True):
+            hatalar.append(f"Karar {i}: id={kid} tam metni okunmadı (önce: python -X utf8 -m pipeline.arastir karar {kid})")
+            continue
+        if words(k.get("ozet", "")) < MIN["karar_ozet"]:
+            hatalar.append(f"Karar {i}: özet çok kısa")
+        mahkeme = kunye.get("mahkeme") or ""
+        cases.append({
+            "court": "Yargıtay" if mahkeme.startswith("Yargıtay") else mahkeme,
+            "chamber": mahkeme.removeprefix("Yargıtay").strip() or None,
+            "esas_no": kunye.get("esas_no"),
+            "karar_no": kunye.get("karar_no"),
+            "decision_date": kunye.get("karar_tarihi"),
+            "summary_md": (k.get("ozet") or "").strip(),
+            "source_url": kunye.get("kaynak"),
+            "verified": True,
+        })
+
+    cards = [{"front_md": kart_on(k), "back_md": str(k.get("arka", "")).strip()}
+             for k in t.get("kartlar") or []]
+    if any(not c["front_md"] or not c["back_md"] for c in cards):
+        hatalar.append("kartlar: boş ön ya da arka yüz var")
+
+    if hatalar:
+        return None, hatalar, uyarilar
+
+    articles = []
+    for k, n in maddeler:
+        d = metinler[(k, n)]
+        articles.append({"law_name": d.get("kanun") or k, "law_no": d.get("kanun_no"), "article_no": n,
+                         "official_text": d["metin"], "source_url": d.get("kaynak"), "verified": True})
+
+    doc = {
+        "course_id": course_id,
+        "unit_index": plan["unit_index"],
+        "unit_title": plan["unit_title"],
+        "topic_index": plan["topic_index"],
+        "slug": plan["slug"],
+        "title": t.get("baslik") or plan["title"],
+        "model": MODEL,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "skill_refs": list(t.get("beceriler") or []),
+        "content": {
+            "summary_md": t["ozet"].strip(),
+            "content_md": t["anlatim"].strip(),
+            "critical_md": t["kritik"].strip(),
+            "doctrine_md": t["doktrin"].strip(),
+            "glossary": [{"term": str(s["terim"]).strip(), "definition": str(s["tanim"]).strip()} for s in t["sozluk"]],
+        },
+        "articles": articles,
+        "cases": cases,
+        "mcq": shuffle_options(mcqs, seed=f"{course_id}-{plan['slug']}"),
+        "cases_q": cases_q,
+        "cards": cards,
+        "verification": {
+            "status": "verified" if not uyarilar else "partial",
+            "issues": [{"field": "taslak", "quote": "", "problem": u, "severity": "minor"} for u in uyarilar],
+        },
+    }
+    return doc, hatalar, uyarilar
+
+
+# ── G/Ç ────────────────────────────────────────────────────────────────
+def plan_for(course_id: str, slug: str) -> dict:
+    cur = yaml.safe_load((CURRICULUM / f"{course_id}.yaml").read_text(encoding="utf-8"))
+    for ui, unit in enumerate(cur["units"], 1):
+        for ti, tp in enumerate(unit["topics"], 1):
+            if tp["slug"] == slug:
+                return {"slug": slug, "title": tp["title"], "unit_index": ui, "unit_title": unit["title"], "topic_index": ti,
+                        "kanunsuz": not tp.get("maddeler")}  # müfredatta maddesi olmayan konu (ör. hukuk tarihi)
+    raise SystemExit(f"{course_id} müfredatında '{slug}' yok")
+
+
+def _gather(t: dict):
+    from . import arastir
+
+    maddeler = [(canon(m["kanun"]), str(m["madde"])) for m in t.get("maddeler") or []]
+    metinler = {}
+    by_law: dict[str, list[str]] = {}
+    for k, n in maddeler:
+        by_law.setdefault(k, []).append(n)
+    for k, nums in by_law.items():
+        for d, n in zip(asyncio.run(arastir.madde(k, nums)), nums):
+            metinler[(k, n)] = d
+    kunyeler = {}
+    for kr in t.get("kararlar") or []:
+        if kr.get("uluslararasi"):
+            continue
+        k = arastir.kunye(str(kr.get("id", "")))
+        if k:
+            kunyeler[str(kr["id"])] = k
+    return metinler, kunyeler
+
+
+def isle(course_id: str, slug: str, yaz: bool) -> bool:
+    path = TASLAK / course_id / f"{slug}.yaml"
+    try:
+        t = yaml.safe_load(path.read_text(encoding="utf-8"))
+    except yaml.YAMLError as e:
+        print(f"✗ {slug}: YAML hatası: {e}")
+        return False
+    metinler, kunyeler = _gather(t)
+    doc, hatalar, uyarilar = kontrol_et(course_id, t, plan_for(course_id, slug), metinler, kunyeler)
+    for u in uyarilar:
+        print(f"  ⚠ {u}")
+    if hatalar:
+        print(f"✗ {slug}: {len(hatalar)} hata")
+        for h in hatalar:
+            print(f"  - {h}")
+        return False
+    if yaz:
+        (OUT / course_id).mkdir(parents=True, exist_ok=True)
+        (OUT / course_id / f"{slug}.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+    c = doc["content"]
+    print(f"✓ {slug}: {doc['verification']['status']} | anlatım {words(c['content_md'])} kelime | "
+          f"{len(doc['mcq'])} soru, {len(doc['cases_q'])} olay, {len(doc['cards'])} kart, "
+          f"{len(doc['articles'])} madde, {len(doc['cases'])} karar" + (" → yazıldı" if yaz else ""))
+    return True
+
+
+def main(argv: list[str]) -> int:
+    load_env()
+    ap = argparse.ArgumentParser(prog="pipeline.elle")
+    ap.add_argument("cmd", choices=["bitir", "kontrol", "ozet", "harita"])
+    ap.add_argument("course")
+    ap.add_argument("slug", nargs="?")
+    ap.add_argument("--hepsi", action="store_true")
+    a = ap.parse_args(argv)
+    if a.cmd == "harita":
+        print(konu_haritasi(yaml.safe_load((CURRICULUM / f"{a.course}.yaml").read_text(encoding="utf-8"))))
+        return 0
+    if a.cmd == "ozet":
+        print(soru_ozeti(yaml.safe_load((TASLAK / a.course / f"{a.slug}.yaml").read_text(encoding="utf-8"))))
+        return 0
+    slugs = [p.stem for p in sorted((TASLAK / a.course).glob("*.yaml"))] if a.hepsi else [a.slug]
+    ok = all([isle(a.course, s, yaz=a.cmd == "bitir") for s in slugs])
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

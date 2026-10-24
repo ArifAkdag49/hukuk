@@ -1,0 +1,161 @@
+# HUK3017 Medeni Usul Hukuku — 6100 sayılı HMK; dava şartı arabuluculuk için 6325 sayılı HUAK.
+# Dikkat: 16/7/2026 tarihli 7589 sayılı Kanun HMK m. 107'yi (belirsiz alacak davası) kaldırdı, m. 109'a
+# 4. fıkrayı ekledi, m. 147, 166, 168 ve 362'yi değiştirdi. HMK m. 3 AYM'ce 2012'de iptal edildi.
+# Elle (Claude Code'da) kuruldu: konu sınırları HMK'nın kısım ve bölüm sistematiğine göre.
+units:
+- title: 'Ünite 1: Yargılama İlkeleri, Görev ve Yetki'
+  topics:
+  - slug: medeni-usule-giris-ve-yargilama-ilkeleri
+    title: 'Medeni Usul Hukukuna Giriş ve Yargılamaya Hâkim Olan İlkeler: Tasarruf, Taraflarca Getirilme, Taleple Bağlılık, Hukuki Dinlenilme, Hâkimin Davayı Aydınlatma Ödevi'
+    maddeler: [{kanun: HMK, madde: '24'}, {kanun: HMK, madde: '25'}, {kanun: HMK, madde: '26'}, {kanun: HMK, madde: '27'}, {kanun: HMK, madde: '28'}, {kanun: HMK, madde: '29'}, {kanun: HMK, madde: '30'}, {kanun: HMK, madde: '31'}, {kanun: HMK, madde: '32'}, {kanun: HMK, madde: '33'}]
+    ictihat_sorgulari: [taleple bağlılık ilkesi talepten fazlasına hükmedilemez, hâkimin davayı aydınlatma ödevi]
+    beceri: medeni-yargilama-sistemi
+  - slug: gorev
+    title: 'Görev: Görevin Belirlenmesi, Asliye Hukuk ve Sulh Hukuk Mahkemelerinin Görevi'
+    maddeler: [{kanun: HMK, madde: '1'}, {kanun: HMK, madde: '2'}, {kanun: HMK, madde: '4'}, {kanun: HMK, madde: '114'}, {kanun: HMK, madde: '115'}]
+    ictihat_sorgulari: [görev kamu düzeni resen gözetilir, sulh hukuk mahkemesinin görevi kira ilişkisi]
+    beceri: gorev-yetki-belirleme
+  - slug: yetki-genel-ve-ozel-yetki-kurallari
+    title: 'Yetki: Genel Yetkili Mahkeme, Özel ve Kesin Yetki Kuralları'
+    maddeler: [{kanun: HMK, madde: '5'}, {kanun: HMK, madde: '6'}, {kanun: HMK, madde: '7'}, {kanun: HMK, madde: '8'}, {kanun: HMK, madde: '9'}, {kanun: HMK, madde: '10'}, {kanun: HMK, madde: '11'}, {kanun: HMK, madde: '12'}, {kanun: HMK, madde: '13'}, {kanun: HMK, madde: '14'}, {kanun: HMK, madde: '15'}, {kanun: HMK, madde: '16'}]
+    ictihat_sorgulari: [taşınmazın aynından doğan davalarda kesin yetki, sözleşmeden doğan davalarda ifa yeri mahkemesi]
+    beceri: gorev-yetki-belirleme
+  - slug: yetki-sozlesmesi-yetki-itirazi-ve-yargi-yeri-belirlenmesi
+    title: Yetki Sözleşmesi, Yetki İtirazı, Görevsizlik ve Yetkisizlik Kararından Sonra Yapılacak İşlem, Yargı Yeri Belirlenmesi
+    maddeler: [{kanun: HMK, madde: '17'}, {kanun: HMK, madde: '18'}, {kanun: HMK, madde: '19'}, {kanun: HMK, madde: '20'}, {kanun: HMK, madde: '21'}, {kanun: HMK, madde: '22'}, {kanun: HMK, madde: '23'}]
+    ictihat_sorgulari: [yetki sözleşmesi tacirler arasında geçerli, görevsizlik kararından sonra iki hafta içinde başvuru]
+    beceri: gorev-yetki-belirleme
+  - slug: hakimin-davaya-bakamamasi-reddi-ve-sorumlulugu
+    title: Hâkimin Davaya Bakamaması (Yasaklılık), Hâkimin Reddi ve Hâkimlerin Hukuki Sorumluluğu
+    maddeler: [{kanun: HMK, madde: '34'}, {kanun: HMK, madde: '35'}, {kanun: HMK, madde: '36'}, {kanun: HMK, madde: '38'}, {kanun: HMK, madde: '39'}, {kanun: HMK, madde: '40'}, {kanun: HMK, madde: '41'}, {kanun: HMK, madde: '42'}, {kanun: HMK, madde: '46'}]
+    ictihat_sorgulari: [hakimin reddi sebepleri tarafsızlık, devletin hakimin eyleminden sorumluluğu]
+    beceri: medeni-yargilama-sistemi
+- title: 'Ünite 2: Taraflar ve Davaya Katılma'
+  topics:
+  - slug: taraf-ve-dava-ehliyeti-dava-takip-yetkisi
+    title: Taraf Ehliyeti, Dava Ehliyeti, Davada Kanuni Temsil ve Dava Takip Yetkisi
+    maddeler: [{kanun: HMK, madde: '50'}, {kanun: HMK, madde: '51'}, {kanun: HMK, madde: '52'}, {kanun: HMK, madde: '53'}, {kanun: HMK, madde: '55'}, {kanun: HMK, madde: '56'}]
+    ictihat_sorgulari: [taraf ehliyeti tüzel kişiliği olmayan şube, dava ehliyeti kısıtlı vasi izni]
+    beceri: dava-sartlari-ilk-itirazlar
+  - slug: dava-arkadasligi
+    title: İhtiyari ve Mecburi Dava Arkadaşlığı
+    maddeler: [{kanun: HMK, madde: '57'}, {kanun: HMK, madde: '58'}, {kanun: HMK, madde: '59'}, {kanun: HMK, madde: '60'}]
+    ictihat_sorgulari: [mecburi dava arkadaşlığı elbirliği mülkiyeti, mirasçıların birlikte dava açması temsilci atanması]
+    beceri: medeni-yargilama-sistemi
+  - slug: davanin-ihbari-ve-davaya-mudahale
+    title: Davanın İhbarı, Asli ve Fer'î Müdahale, Cumhuriyet Savcısının Davaya Katılması
+    maddeler: [{kanun: HMK, madde: '61'}, {kanun: HMK, madde: '62'}, {kanun: HMK, madde: '63'}, {kanun: HMK, madde: '64'}, {kanun: HMK, madde: '65'}, {kanun: HMK, madde: '66'}, {kanun: HMK, madde: '68'}, {kanun: HMK, madde: '69'}, {kanun: HMK, madde: '70'}]
+    ictihat_sorgulari: [fer'i müdahil hukuki yarar, davanın ihbarı rücu]
+    beceri: medeni-yargilama-sistemi
+  - slug: davaya-vekalet-ve-teminat
+    title: Davaya Vekâlet ve Teminat
+    maddeler: [{kanun: HMK, madde: '71'}, {kanun: HMK, madde: '72'}, {kanun: HMK, madde: '73'}, {kanun: HMK, madde: '74'}, {kanun: HMK, madde: '76'}, {kanun: HMK, madde: '77'}, {kanun: HMK, madde: '80'}, {kanun: HMK, madde: '81'}, {kanun: HMK, madde: '82'}, {kanun: HMK, madde: '84'}, {kanun: HMK, madde: '85'}]
+    ictihat_sorgulari: [vekaletnamesiz işlem kesin süre, vekilin istifası iki hafta]
+    beceri: medeni-yargilama-sistemi
+- title: 'Ünite 3: Süreler, Dava Çeşitleri ve Dava Şartları'
+  topics:
+  - slug: sureler-eski-hale-getirme-ve-adli-tatil
+    title: Süreler (Kanuni ve Hâkimin Belirlediği Süreler), Eski Hâle Getirme ve Adli Tatil
+    maddeler: [{kanun: HMK, madde: '90'}, {kanun: HMK, madde: '91'}, {kanun: HMK, madde: '92'}, {kanun: HMK, madde: '93'}, {kanun: HMK, madde: '94'}, {kanun: HMK, madde: '95'}, {kanun: HMK, madde: '96'}, {kanun: HMK, madde: '97'}, {kanun: HMK, madde: '102'}, {kanun: HMK, madde: '103'}, {kanun: HMK, madde: '104'}]
+    ictihat_sorgulari: [kesin süre ihtarı hak kaybı, eski hale getirme iki hafta]
+    beceri: sureler-zamanasimi-usul
+  - slug: dava-cesitleri
+    title: 'Dava Çeşitleri: Eda, Tespit, İnşai Dava, Kısmi Dava (2026: Belirsiz Alacak Davasının Kaldırılması ve Talebin Bir Kez Artırılması), Terditli, Seçimlik ve Topluluk Davası'
+    maddeler: [{kanun: HMK, madde: '105'}, {kanun: HMK, madde: '106'}, {kanun: HMK, madde: '108'}, {kanun: HMK, madde: '109'}, {kanun: HMK, madde: '110'}, {kanun: HMK, madde: '111'}, {kanun: HMK, madde: '112'}, {kanun: HMK, madde: '113'}]
+    ictihat_sorgulari: [belirsiz alacak davası alacak miktarının belirlenmesi imkansız, kısmi dava zamanaşımı]
+    beceri: medeni-yargilama-sistemi
+  - slug: dava-sartlari-ilk-itirazlar-ve-arabuluculuk
+    title: Dava Şartları, İlk İtirazlar ve Dava Şartı Olarak Arabuluculuk
+    maddeler: [{kanun: HMK, madde: '114'}, {kanun: HMK, madde: '115'}, {kanun: HMK, madde: '116'}, {kanun: HMK, madde: '117'}, {kanun: HUAK, madde: '18/A'}]
+    ictihat_sorgulari: [dava şartı yokluğu usulden ret, dava şartı arabuluculuk son tutanak]
+    beceri: dava-sartlari-ilk-itirazlar
+- title: 'Ünite 4: Yazılı Yargılama Usulü'
+  topics:
+  - slug: dava-acilmasi-ve-dava-dilekcesi
+    title: Davanın Açılması, Dava Dilekçesi, Davanın Açılmasının Sonuçları, Tarafta ve Dava Konusunda Değişiklik
+    maddeler: [{kanun: HMK, madde: '118'}, {kanun: HMK, madde: '119'}, {kanun: HMK, madde: '120'}, {kanun: HMK, madde: '121'}, {kanun: HMK, madde: '122'}, {kanun: HMK, madde: '123'}, {kanun: HMK, madde: '124'}, {kanun: HMK, madde: '125'}]
+    ictihat_sorgulari: [tarafta iradi değişiklik açık yanılgı, dava konusunun devri]
+    beceri: dava-dilekcesi-mimarisi
+  - slug: cevap-dilekcesi-karsi-dava-ve-on-inceleme
+    title: Cevap Dilekçesi, Karşı Dava, Cevaba Cevap ve İkinci Cevap, Ön İnceleme ve İddia ile Savunmanın Genişletilmesi Yasağı
+    maddeler: [{kanun: HMK, madde: '126'}, {kanun: HMK, madde: '127'}, {kanun: HMK, madde: '128'}, {kanun: HMK, madde: '129'}, {kanun: HMK, madde: '132'}, {kanun: HMK, madde: '133'}, {kanun: HMK, madde: '136'}, {kanun: HMK, madde: '137'}, {kanun: HMK, madde: '138'}, {kanun: HMK, madde: '140'}, {kanun: HMK, madde: '141'}]
+    ictihat_sorgulari: [süresinde cevap verilmemesi inkar sayılır, iddia ve savunmanın genişletilmesi yasağı açık muvafakat]
+    beceri: cevap-replik-duplik
+  - slug: tahkikat-on-sorun-bekletici-sorun-ve-birlestirme
+    title: Tahkikat, Duruşma, Ön Sorun ve Bekletici Sorun, Davaların Birleştirilmesi ve Ayrılması
+    maddeler: [{kanun: HMK, madde: '143'}, {kanun: HMK, madde: '144'}, {kanun: HMK, madde: '145'}, {kanun: HMK, madde: '147'}, {kanun: HMK, madde: '150'}, {kanun: HMK, madde: '163'}, {kanun: HMK, madde: '164'}, {kanun: HMK, madde: '165'}, {kanun: HMK, madde: '166'}, {kanun: HMK, madde: '167'}]
+    ictihat_sorgulari: [bekletici sorun başka mahkemede görülen dava, davaların birleştirilmesi bağlantı]
+    beceri: medeni-yargilama-sistemi
+  - slug: islah-ve-isticvap
+    title: Islah (Tam ve Kısmi Islah, Süre ve Sonuçları) ve İsticvap
+    maddeler: [{kanun: HMK, madde: '169'}, {kanun: HMK, madde: '170'}, {kanun: HMK, madde: '176'}, {kanun: HMK, madde: '177'}, {kanun: HMK, madde: '178'}, {kanun: HMK, madde: '179'}, {kanun: HMK, madde: '180'}, {kanun: HMK, madde: '181'}, {kanun: HMK, madde: '182'}, {kanun: HMK, madde: '183'}]
+    ictihat_sorgulari: [ıslah tahkikat sona erinceye kadar, kötüniyetli ıslah]
+    beceri: islah-genisletme-yasagi
+- title: 'Ünite 5: İspat ve Deliller'
+  topics:
+  - slug: ispat-genel-ispat-yuku-ve-delillerin-degerlendirilmesi
+    title: 'İspat: Konusu, İspat Hakkı, İspat Yükü, Karineler, Delil Sözleşmesi ve Delillerin Değerlendirilmesi'
+    maddeler: [{kanun: HMK, madde: '187'}, {kanun: HMK, madde: '188'}, {kanun: HMK, madde: '189'}, {kanun: HMK, madde: '190'}, {kanun: HMK, madde: '191'}, {kanun: HMK, madde: '193'}, {kanun: HMK, madde: '194'}, {kanun: HMK, madde: '198'}, {kanun: TMK, madde: '6'}]
+    ictihat_sorgulari: [hukuka aykırı delil kullanılamaz, ispat yükü kendi lehine hak çıkaran]
+    beceri: ispat-yuku-deliller
+  - slug: senetle-ispat-ve-belgeler
+    title: Belge ve Senet; Senetle İspat Zorunluluğu ve İstisnaları, Senede Karşı Tanıkla İspat Yasağı, İnkâr ve Sahtelik, Belge İbrazı
+    maddeler: [{kanun: HMK, madde: '199'}, {kanun: HMK, madde: '200'}, {kanun: HMK, madde: '201'}, {kanun: HMK, madde: '202'}, {kanun: HMK, madde: '203'}, {kanun: HMK, madde: '204'}, {kanun: HMK, madde: '205'}, {kanun: HMK, madde: '209'}, {kanun: HMK, madde: '211'}, {kanun: HMK, madde: '219'}, {kanun: HMK, madde: '220'}]
+    ictihat_sorgulari: [senede karşı tanıkla ispat yasağı delil başlangıcı, senetle ispat zorunluluğu istisnası]
+    beceri: ispat-yuku-deliller
+  - slug: yemin-ve-tanik
+    title: Yemin (Konusu, Teklifi, Eda ve Kaçınma) ve Tanık Delili (Tanıklıktan Çekinme, Tanığın Dinlenmesi)
+    maddeler: [{kanun: HMK, madde: '225'}, {kanun: HMK, madde: '226'}, {kanun: HMK, madde: '227'}, {kanun: HMK, madde: '228'}, {kanun: HMK, madde: '229'}, {kanun: HMK, madde: '240'}, {kanun: HMK, madde: '245'}, {kanun: HMK, madde: '247'}, {kanun: HMK, madde: '248'}, {kanun: HMK, madde: '249'}, {kanun: HMK, madde: '255'}]
+    ictihat_sorgulari: [yemin teklifi senetle ispat, tanıklıktan çekinme hakkı]
+    beceri: ispat-yuku-deliller
+  - slug: bilirkisi-kesif-ve-uzman-gorusu
+    title: Bilirkişi İncelemesi, Keşif ve Uzman Görüşü
+    maddeler: [{kanun: HMK, madde: '266'}, {kanun: HMK, madde: '268'}, {kanun: HMK, madde: '272'}, {kanun: HMK, madde: '274'}, {kanun: HMK, madde: '279'}, {kanun: HMK, madde: '281'}, {kanun: HMK, madde: '288'}, {kanun: HMK, madde: '290'}, {kanun: HMK, madde: '293'}]
+    ictihat_sorgulari: [bilirkişi raporuna itiraz iki hafta, hukuki bilgi bilirkişiye sorulamaz]
+    beceri: ispat-yuku-deliller
+- title: 'Ünite 6: Hüküm, Davayı Sona Erdiren Taraf İşlemleri, Basit Yargılama ve Giderler'
+  topics:
+  - slug: hukum-kesin-hukum-ve-tavzih
+    title: Hüküm, Hükmün Kapsamı ve Tefhimi, Kesin Hüküm, Hükmün Düzeltilmesi, Tavzihi ve Tamamlanması
+    maddeler: [{kanun: HMK, madde: '294'}, {kanun: HMK, madde: '297'}, {kanun: HMK, madde: '298'}, {kanun: HMK, madde: '300'}, {kanun: HMK, madde: '302'}, {kanun: HMK, madde: '303'}, {kanun: HMK, madde: '304'}, {kanun: HMK, madde: '305'}]
+    ictihat_sorgulari: [kesin hüküm aynı taraflar aynı konu aynı sebep, hükmün tavzihi]
+    beceri: medeni-yargilama-sistemi
+  - slug: feragat-kabul-ve-sulh
+    title: Davaya Son Veren Taraf İşlemleri; Davadan Feragat, Davayı Kabul ve Sulh
+    maddeler: [{kanun: HMK, madde: '307'}, {kanun: HMK, madde: '308'}, {kanun: HMK, madde: '309'}, {kanun: HMK, madde: '310'}, {kanun: HMK, madde: '311'}, {kanun: HMK, madde: '312'}, {kanun: HMK, madde: '313'}, {kanun: HMK, madde: '314'}, {kanun: HMK, madde: '315'}]
+    ictihat_sorgulari: [davadan feragat kesin hüküm etkisi, sulh sözleşmesi mahkeme dışı]
+    beceri: medeni-yargilama-sistemi
+  - slug: basit-yargilama-yargilama-giderleri-ve-adli-yardim
+    title: Basit Yargılama Usulü, Yargılama Giderleri ve Adli Yardım
+    maddeler: [{kanun: HMK, madde: '316'}, {kanun: HMK, madde: '317'}, {kanun: HMK, madde: '318'}, {kanun: HMK, madde: '320'}, {kanun: HMK, madde: '322'}, {kanun: HMK, madde: '323'}, {kanun: HMK, madde: '326'}, {kanun: HMK, madde: '327'}, {kanun: HMK, madde: '330'}, {kanun: HMK, madde: '331'}, {kanun: HMK, madde: '334'}]
+    ictihat_sorgulari: [davanın konusuz kalması yargılama gideri, basit yargılama usulü ön inceleme]
+    beceri: medeni-yargilama-sistemi
+- title: 'Ünite 7: Kanun Yolları'
+  topics:
+  - slug: istinaf
+    title: 'İstinaf: Kararlar, Süre, Dilekçe, Katılma Yoluyla Başvurma, İnceleme ve Bölge Adliye Mahkemesinin Kararları'
+    maddeler: [{kanun: HMK, madde: '341'}, {kanun: HMK, madde: '342'}, {kanun: HMK, madde: '343'}, {kanun: HMK, madde: '345'}, {kanun: HMK, madde: '346'}, {kanun: HMK, madde: '347'}, {kanun: HMK, madde: '348'}, {kanun: HMK, madde: '353'}, {kanun: HMK, madde: '355'}, {kanun: HMK, madde: '357'}]
+    ictihat_sorgulari: [istinafta yeni delil ileri sürülemez, istinaf incelemesi kamu düzeni ile sınırlı]
+    beceri: istinaf-temyiz-kanun-yollari
+  - slug: temyiz
+    title: 'Temyiz: Temyiz Edilebilen ve Edilemeyen Kararlar, Sebepler, Süre, İnceleme ve Bozma Sonrası Yargılama'
+    maddeler: [{kanun: HMK, madde: '361'}, {kanun: HMK, madde: '362'}, {kanun: HMK, madde: '364'}, {kanun: HMK, madde: '366'}, {kanun: HMK, madde: '369'}, {kanun: HMK, madde: '370'}, {kanun: HMK, madde: '371'}, {kanun: HMK, madde: '373'}]
+    ictihat_sorgulari: [temyiz kesinlik sınırı, bozmaya uyma usuli kazanılmış hak]
+    beceri: istinaf-temyiz-kanun-yollari
+  - slug: yargilamanin-iadesi
+    title: 'Yargılamanın İadesi: Sebepler, Süre, İnceleme ve Karar'
+    maddeler: [{kanun: HMK, madde: '374'}, {kanun: HMK, madde: '375'}, {kanun: HMK, madde: '376'}, {kanun: HMK, madde: '377'}, {kanun: HMK, madde: '378'}, {kanun: HMK, madde: '379'}, {kanun: HMK, madde: '381'}]
+    ictihat_sorgulari: [yargılamanın iadesi sebebi yeni belge, yargılamanın iadesi süresi üç ay on yıl]
+    beceri: istinaf-temyiz-kanun-yollari
+- title: 'Ünite 8: Geçici Hukuki Korumalar, Çekişmesiz Yargı ve Tahkim'
+  topics:
+  - slug: ihtiyati-tedbir-ve-delil-tespiti
+    title: İhtiyati Tedbir (Şartlar, Teminat, Uygulama, İtiraz, Haksız Tedbirden Tazminat) ve Delil Tespiti
+    maddeler: [{kanun: HMK, madde: '389'}, {kanun: HMK, madde: '390'}, {kanun: HMK, madde: '391'}, {kanun: HMK, madde: '392'}, {kanun: HMK, madde: '393'}, {kanun: HMK, madde: '394'}, {kanun: HMK, madde: '397'}, {kanun: HMK, madde: '399'}, {kanun: HMK, madde: '400'}, {kanun: HMK, madde: '401'}]
+    ictihat_sorgulari: [ihtiyati tedbir yaklaşık ispat, haksız ihtiyati tedbir tazminat]
+    beceri: ihtiyati-tedbir-delil-tespiti
+  - slug: cekismesiz-yargi-ve-tahkim
+    title: Çekişmesiz Yargı ve İç Tahkim (Tahkim Sözleşmesi, Hakemler, Yargılama, Hakem Kararına Karşı İptal Davası)
+    maddeler: [{kanun: HMK, madde: '382'}, {kanun: HMK, madde: '383'}, {kanun: HMK, madde: '384'}, {kanun: HMK, madde: '388'}, {kanun: HMK, madde: '407'}, {kanun: HMK, madde: '408'}, {kanun: HMK, madde: '412'}, {kanun: HMK, madde: '413'}, {kanun: HMK, madde: '439'}]
+    ictihat_sorgulari: [tahkim sözleşmesi yazılı şekil tahkim itirazı, hakem kararının iptali sebepleri]
+    beceri: medeni-yargilama-sistemi

@@ -1,0 +1,1004 @@
+{
+ "course_id": "HUK2011",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Borçların Sona Ermesi ve Zamanaşımı",
+ "topic_index": 2,
+ "slug": "zamanasimi",
+ "title": "Zamanaşımı: Süreler, Başlangıç, Durma, Kesilme ve Def'i",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:57:39.449553+00:00",
+ "skill_refs": [
+  "borclar-hukuku-genel/zamanasimi-ve-sureler"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Bir alacak ne kadar sürede ve hangi tarihten başlayarak zamanaşımına uğrar? Süre ne zaman durur, ne zaman kesilip yeniden başlar? Borçlu zamanaşımını nasıl ve ne zamana kadar ileri sürmelidir?\n\n- **Niteliği:** Zamanaşımı alacağı sona erdirmez, dava edilebilirliğini kaldırır. Alacak **eksik borç** olur: ödenirse geri istenemez (TBK m. 78/2), şartları varsa takasta kullanılabilir (TBK m. 139/3).\n- **Def'idir (TBK m. 161):** Hâkim zamanaşımını kendiliğinden gözetemez. Hak düşürücü süre ise hakkın kendisini sona erdirir ve hâkim onu kendiliğinden gözetir.\n- **Süreler:** Genel süre **on yıldır** (TBK m. 146). **Beş yıl** (TBK m. 147): kira bedelleri, anapara faizleri ve ücret gibi dönemsel edimler; otel ve lokanta bedelleri; küçük sanat işleri ve küçük çaplı perakende satışlar; ortaklık ilişkisinden doğan alacaklar; vekâlet, komisyon, acentalık ve simsarlıktan doğan alacaklar (ticari simsarlık ücreti hariç); eser sözleşmesinden doğan alacaklar (yüklenicinin ağır kusurlu ifa etmemesi hariç). Bu süreler sözleşmeyle değiştirilemez (TBK m. 148).\n- **Başlangıç:** Alacağın muaccel olduğu an; muacceliyet bir bildirime bağlıysa bildirimin yapılabileceği gün (TBK m. 149). Alacaklının öğrenmesi aranmaz. Ömür boyu gelirde tamamı için süre, ödenmeyen ilk dönemsel edimin muacceliyetiyle başlar (TBK m. 150).\n- **Hesap:** Başlangıç günü sayılmaz, süre son gün de geçince dolar ve ifa sürelerinin hesabına ilişkin kurallar uygulanır (TBK m. 151). Asıl alacak zamanaşımına uğrayınca faiz de uğrar (TBK m. 152).\n- **Durma (TBK m. 153):** Velayet, vesayet, evlilik, ev hizmetliliği, borçlunun intifa hakkı, Türk mahkemelerinde ileri sürme imkânsızlığı ve birleşmenin geçmişe etkili olarak kalkması. Süre kaldığı yerden devam eder. Arabuluculuk süreci de zamanaşımını durdurur (HUAK m. 16/2, HUAK m. 18/A).\n- **Kesilme (TBK m. 154):** Borçlunun ikrarı (faiz ödeme, kısmi ifa, rehin verme, kefil gösterme) ile alacaklının dava, def'i, icra takibi ya da iflas masasına başvurusu. **İhtarname kesmez.** Yeni süre kural olarak eski sürenin aynısıdır; borç senetle ikrar edilmişse ya da mahkeme veya hakem kararına bağlanmışsa her zaman on yıldır (TBK m. 156). Dava ve takip sürerken her işlemden sonra yeniden işler (TBK m. 157).\n- **Birlikte borçlular (TBK m. 155):** Müteselsil borçlulardan birine karşı kesilme hepsine karşı kesilmedir. Asıl borçluya karşı kesilme kefili de etkiler, kefile karşı kesilme asıl borçluyu etkilemez.\n- **Ek süre (TBK m. 158):** Dava yetkisizlik, görevsizlik, düzeltilebilir bir yanlışlık ya da erken açılma nedeniyle reddedilmiş ve bu arada süre dolmuşsa alacaklıya altmış gün tanınır.\n- **Rehin:** Taşınır rehninde zamanaşımı işler ama alacaklı hakkını rehinden alabilir (TBK m. 159). Tapuya tescilli taşınmaz rehninde zamanaşımı işlemez (TMK m. 864).\n- **Feragat (TBK m. 160):** Önceden yasaktır; süre dolduktan sonraki feragat yalnız feragat edeni bağlar.\n- **Usul:** Def'i dilekçeler aşamasında ileri sürülür; sonrasında ancak açık muvafakat ya da ıslahla (HMK m. 141). 📌 2026'dan beri kısmi davada talep bir kez artırılırsa zamanaşımı, artırılan kısım için de dava tarihinden kesilmiş sayılır (HMK m. 109/4).",
+  "content_md": "## 0. Konunun haritası\n\nBir alacağın zamanaşımına uğrayıp uğramadığını beş soruyla, sırayla incele:\n\n| Soru | Madde |\n|---|---|\n| Hangi süre? | TBK m. 146-148 |\n| Ne zaman başladı, nasıl hesaplanır? | TBK m. 149-152 |\n| Durdu mu? | TBK m. 153, HUAK m. 16 ve HUAK m. 18/A |\n| Kesildi mi, yeni süre ne? | TBK m. 154-158 |\n| Borçlu ileri sürdü mü, zamanında mı? | TBK m. 160-161, HMK |\n\n> 💡 **Püf nokta:** Zamanaşımı bir takvim sorusudur. Olayda önce bir zaman çizelgesi çiz: muacceliyet, ikrar, takip, arabuluculuk, dava, def'i. Birden çok alacak varsa her birini ayrı hesapla.\n\n## 1. Zamanaşımı nedir?\n\n**Zamanaşımı**, kanunda öngörülen süre içinde istenmeyen bir alacağın **dava edilebilirliğini** yitirmesidir. Alacak ortadan kalkmaz. Yargıtay Hukuk Genel Kurulu'nun ifadesiyle zamanaşımına uğramış borç, ifa edilebilen ama dava edilemeyen bir **eksik borçtur**. Sonuçları:\n\n- **Ödenen geri istenmez.** Zamanaşımına uğramış borcu ödeyen, \"süre geçmişti, bilmiyordum\" diyerek ödediğini geri isteyemez (TBK m. 78/2). Ayrıntısı sebepsiz zenginleşme konusunda.\n- **Takasta kullanılabilir.** Zamanaşımına uğramış bir alacak, takas edilebileceği anda henüz zamanaşımına uğramamışsa takas edilebilir (TBK m. 139/3). Ayrıntısı takas konusunda.\n- **Rehin ayakta kalabilir** (TBK m. 159, aşağıda §7).\n\nKurumun gerekçesi hukuki güvenliktir.\n\n### 1.1 Zamanaşımı bir def'idir\n**Def'i**, var olan bir hakka karşı borçluya ifadan kaçınma imkânı veren karşı haktır. **İtiraz** ise hakkın hiç doğmadığını ya da sona erdiğini gösteren olgudur (ödeme, kesin hükümsüzlük gibi). İtiraz dosyadan anlaşılıyorsa hâkim onu kendiliğinden gözetir.\n\nZamanaşımı ileri sürülmedikçe hâkim bunu kendiliğinden göz önüne alamaz (TBK m. 161). Süre yıllar önce dolmuş olsa bile davalı susarsa hâkim alacağa hükmeder.\n\n### 1.2 Hak düşürücü süreden farkı\n**Hak düşürücü süre**, bir hakkın, çoğunlukla bir yenilik doğuran hakkın, yalnız belli bir süre içinde kullanılabilmesidir. Süre geçince hakkın kendisi düşer. Örneğin yanılma, aldatma ya da korkutma nedeniyle sözleşmeyle bağlı olmadığını bildirme hakkı bir yıllık süreye (TBK m. 39), aşırı yararlanmadaki haklar bir yıllık ve her hâlde beş yıllık süreye bağlıdır (TBK m. 28).\n\n| | Zamanaşımı | Hak düşürücü süre |\n|---|---|---|\n| Süre geçince | Alacak eksik borç olur | Hak sona erer |\n| Hâkim | Kendiliğinden gözetemez | Kendiliğinden gözetir |\n| Durma, kesilme | Var (TBK m. 153-157) | Kural olarak yok |\n\n> ⚠️ **Sınavda dikkat:** \"Hak düşürücü süre hiçbir şekilde uzamaz\" demek eksiktir. TBK m. 158'deki altmış günlük ek süre, metne göre hak düşürücü süreler için de geçerlidir. Arabuluculuk sürecinde de hak düşürücü süreler işlemez (HUAK m. 16/2, HUAK m. 18/A'nın 15. fıkrası).\n\n## 2. Süreler\n\n### 2.1 Genel süre (TBK m. 146)\nKanunda aksine bir hüküm bulunmadıkça her alacak **on yıllık** zamanaşımına tabidir. Satım bedeli, ödünç verilen paranın geri istenmesi ve sözleşmeye aykırılıktan doğan tazminat, özel bir hüküm yoksa bu süreye girer.\n\n### 2.2 Beş yıllık süre (TBK m. 147)\nKanun şu alacakları beş yıllık zamanaşımına bağlar (metin aynen):\n1. \"Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler.\"\n2. \"Otel, motel, pansiyon ve tatil köyü gibi yerlerdeki konaklama bedelleri ile lokanta ve benzeri yerlerdeki yeme içme bedelleri.\"\n3. \"Küçük sanat işlerinden ve küçük çapta perakende satışlardan doğan alacaklar.\"\n4. \"Bir ortaklıkta, ortaklık sözleşmesinden doğan ve ortakların birbirleri veya kendileri ile ortaklık arasındaki; bir ortaklığın müdürleri, temsilcileri, denetçileri ile ortaklık veya ortaklar arasındaki alacaklar.\"\n5. \"Vekâlet, komisyon ve acentalık sözleşmelerinden, ticari simsarlık ücreti alacağı dışında, simsarlık sözleşmesinden doğan alacaklar.\"\n6. \"Yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında, eser sözleşmesinden doğan alacaklar.\"\n\n**Bentleri doğru okumak:**\n- **Bent 1.** **Dönemsel edim**, Yargıtay'ın tanımıyla aynı hukuki sebepten belli ve düzenli aralıklarla doğan edimdir: aylık kira, aylık ücret, yıllık faiz. Her dönemin alacağı kendi muacceliyetinden başlayarak ayrı ayrı zamanaşımına uğrar.\n  - Anapara faizi beş yıldır, **anaparanın kendisi** (örneğin ödünç) ise on yıldır.\n  - Bent kira **bedelini** sayar. Kira ilişkisinden doğan başka bir alacak için özel hüküm yoksa genel süre uygulanır.\n- **Bent 2.** Otelin oda ücreti ve lokantanın hesabı beş yıldır.\n- **Bent 3.** Terzinin dikiş ücreti ya da mahalle bakkalının veresiye alacağı beş yıldır. Toptancının bakkala sattığı malın bedeli gibi küçük çaplı olmayan satışlar bu bende girmez.\n- **Bent 4.** Adi ortaklıkta bir ortağın ortaklık sözleşmesinden doğan kâr payı alacağı beş yıldır. Ortakların ortaklıkla ilgisiz olarak birbirine verdiği ödünç bu bende girmez.\n- **Bent 5.** Avukatlık sözleşmesi bir vekâlet sözleşmesidir ve Yargıtay avukatın ücret alacağına beş yıllık süreyi uygular. Bent \"sözleşmelerinden doğan alacaklar\" dediği için lafzen vekâlet verenin sözleşmeden doğan alacaklarını da kapsar. **Ticari simsarlık ücreti** açıkça dışarıda bırakılmıştır.\n  - Müvekkilin sözleşmeye dayanarak **avukata** karşı ileri sürdüğü tazminat istekleri ise özel bir hükme tabidir: hakkın doğumunun öğrenildiği tarihten bir yıl ve her hâlde zararı doğuran olaydan beş yıl geçmekle düşer (1136 sayılı Kanun m. 40).\n- **Bent 6.** Yüklenicinin bedel alacağı beş yıldır ve bedel kural olarak eserin teslimiyle muaccel olur (TBK m. 479). İş sahibinin alacakları da beş yıldır. Ancak alacak, yüklenicinin yükümlülüklerini **ağır kusuruyla** hiç ya da gereği gibi ifa etmemesinden doğuyorsa genel süre uygulanır.\n\n> ⚠️ **Sınavda dikkat:** Eserdeki **ayıptan** doğan davalar için ayrı süreler vardır: teslimden başlayarak iki yıl, taşınmaz yapılarda beş yıl, yüklenicinin ağır kusuru varsa yirmi yıl (TBK m. 478). Bunu bent 6 ile karıştırma. Ayrıntısı Borçlar Özel'de.\n\n### 2.3 Özel sürelerle karşılaştırma\n\n| Alacak | Süre | Madde |\n|---|---|---|\n| Genel kural | 10 yıl | TBK m. 146 |\n| Listedeki alacaklar | 5 yıl | TBK m. 147 |\n| Haksız fiil tazminatı | Öğrenmeden 2, fiilden 10 yıl; suçsa ceza süresi | TBK m. 72 |\n| Sebepsiz zenginleşme | Öğrenmeden 2, zenginleşmeden 10 yıl | TBK m. 82 |\n| Satılanın ayıbı | Devirden 2 yıl (ağır kusur hariç) | TBK m. 231 |\n| Senetle ikrar, karar sonrası | Her zaman 10 yıl | TBK m. 156/2 |\n\nHaksız fiil ve sebepsiz zenginleşmede kısa süre **öğrenmeye** bağlıdır, TBK m. 146-147'de ise öğrenmeye bakılmaz; ayrıntıları ilgili konularda.\n\n### 2.4 Sürelerin kesinliği\n- \"Bu ayırımda belirlenen zamanaşımı süreleri, sözleşmeyle değiştirilemez\" (TBK m. 148). Taraflar on ya da beş yıllık süreyi ne kısaltabilir ne uzatabilir.\n- Zamanaşımından önceden feragat da edilemez (TBK m. 160/1).\n\n> **Örnek:** Kira sözleşmesindeki \"kira alacakları iki yılda zamanaşımına uğrar\" ya da \"kiracı zamanaşımını ileri sürmeyecektir\" kaydına dayanılamaz. Kira bedeli yine beş yıllık süreye tabidir.\n\n## 3. Başlangıç ve hesap\n\n### 3.1 Muacceliyet (TBK m. 149)\n- Zamanaşımı alacağın **muaccel olmasıyla** işlemeye başlar (m. 149/1). İfa zamanı kararlaştırılmamışsa borç doğduğu anda muacceldir (TBK m. 90).\n- Muacceliyet bir **bildirime** bağlıysa zamanaşımı, bildirimin **yapılabileceği** günden başlar (m. 149/2). Alacaklı bildirimi geciktirerek başlangıcı erteleyemez.\n- Yargıtay'a göre alacak muaccel olunca alacaklı bilmese de süre işler.\n- Geciktirici koşula bağlı alacakta süre, koşulun gerçekleşmesiyle başlar.\n\n> **Örnek:** Ayşe 01.03.2014'te Burak'a süre belirlemeden 100.000 TL ödünç verir. Burak ancak ilk istemden başlayarak altı hafta geçince ödemek zorundadır (TBK m. 392); muacceliyet bir isteme bağlıdır. Ayşe istemi ilk günden yapabileceği için zamanaşımı, istemde bulunabileceği ilk günden işler. 2025'e kadar beklemesi başlangıcı ertelemez; on yıllık süre 2024'te dolmuştur.\n\n### 3.2 Dönemsel edimler (TBK m. 150)\nÖmür boyu gelir gibi ilişkilerde iki şey vardır: tek tek taksitler ve taksitleri doğuran **ana hak**. Alacağın tamamı için zamanaşımı, ifa edilmemiş **ilk** dönemsel edimin muaccel olduğu gün başlar (m. 150/1). Tamamı zamanaşımına uğrarsa ifa edilmemiş taksitler de zamanaşımına uğramış olur (m. 150/2). Taksitler tek tek beş yıla tabidir (TBK m. 147/1). Kanun ana hakkın süresini ayrıca göstermez; m. 147/1 yalnız dönemsel edimleri saydığı için ana hakkın genel süreye (TBK m. 146) bağlı olduğu sonucuna varılabilir, ama bu bir yorumdur.\n\n> **Örnek:** Kemal'e bağlanan ömür boyu aylık gelir Mart 2015'ten itibaren hiç ödenmez. Her taksit beş yılda zamanaşımına uğrar. Gelir hakkının tamamı için süre Mart 2015'te başlar (m. 150/1). Ana hak on yıllık süreye bağlı sayılırsa Mart 2025'te düşer ve henüz beş yılı dolmamış taksitler de onunla birlikte düşer (m. 150/2).\n\n### 3.3 Sürenin hesabı (TBK m. 151)\n- Zamanaşımının başladığı gün sayılmaz. Zamanaşımı ancak sürenin son günü de hak kullanılmadan geçince gerçekleşir (m. 151/1).\n- İfa sürelerinin hesabına ilişkin hükümler burada da uygulanır (m. 151/2). Yıl olarak belirlenen süre, son yılın başlangıç gününe karşılık gelen gününde dolar (TBK m. 92/1-3). Son gün kanunda tatil sayılan bir güne rastlarsa izleyen ilk iş gününe geçer (TBK m. 93).\n\n> **Örnek:** Kira bedeli 16.03.2021'de muaccel olmuştur. Beş yıllık süre 16.03.2026 gününün bitiminde dolar. Kiraya veren 16.03.2026'da dava açarsa dava süresindedir.\n\n### 3.4 Bağlı alacaklar (TBK m. 152)\nAsıl alacak zamanaşımına uğrayınca ona bağlı faiz ve diğer alacaklar da zamanaşımına uğramış olur. Faiz kendi beş yıllık süresiyle (TBK m. 147/1) asıl alacaktan **önce** de düşebilir. Ama asıl alacak düşünce süresi dolmamış faiz de onunla düşer. Faizin zamanaşımı ise asıl alacağı etkilemez.\n\n## 4. Durma (TBK m. 153)\n\n**Durmada** süre işlemez. Henüz başlamamışsa hiç başlamaz, başlamışsa sebep ortadan kalkınca **kaldığı yerden** devam eder. Kanuna göre şu durumlarda zamanaşımı işlemeye başlamaz, başlamışsa durur (metin aynen):\n1. \"Velayet süresince, çocukların ana ve babalarından olan alacakları için.\"\n2. \"Vesayet süresince, vesayet altında bulunanların vasiden veya vesayet işlemleri sebebiyle Devletten olan alacakları için.\"\n3. \"Evlilik devam ettiği sürece, eşlerin diğerinden olan alacakları için.\"\n4. \"Hizmet ilişkisi süresince, ev hizmetlilerinin onları çalıştıranlardan olan alacakları için.\"\n5. \"Borçlu, alacak üzerinde intifa hakkına sahip olduğu sürece.\"\n6. \"Alacağı, Türk mahkemelerinde ileri sürme imkânının bulunmadığı sürece.\"\n7. \"Alacaklı ve borçlu sıfatının aynı kişide birleşmesinde, birleşmenin ileride geçmişe etkili olarak ortadan kalkması durumunda, bu durumun ortaya çıkmasına kadar geçecek sürece.\"\n\nDurduran sebebin ortadan kalktığı günün bitiminde zamanaşımı işlemeye başlar ya da durmadan önce başlamış olan işlemesini sürdürür (m. 153/son). İlk dört bentte alacaklıdan dava açmasını beklemenin uygun olmayacağı bir yakınlık ya da bağımlılık, son üç bentte hakkın kullanılmasına bir engel vardır.\n\n> **Örnek (eşler):** Elif 2012'de eşi Murat'a 300.000 TL ödünç verir, borç 2013'te muaccel olur. Evlilik 2026'da boşanmayla sona erer. Evlilik sürerken zamanaşımı işlemediği için on yıllık süre boşanma kararının kesinleştiği günün bitiminden itibaren başlar.\n\n> **Örnek (birleşme):** Can amcası Ali'ye borçludur. Ali ölünce mirası Can'a kalır ve borç birleşmeyle sona erer (TBK m. 135/1). Can mirası reddederse mirasçılığı geçmişe etkili olarak kalkar ve borç varlığını sürdürür (TBK m. 135/2); ölümle ret arasındaki süre zamanaşımına sayılmaz.\n\n> ⚠️ **Sınavda dikkat:** Nişanlılar, kardeşler ya da evlenmeden birlikte yaşayanlar arasındaki alacaklar için kanunda bir durma sebebi yoktur.\n\n### 4.1 Arabuluculuk: kesmez, durdurur\n- **Dava şartı arabuluculukta** arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar zamanaşımı durur ve hak düşürücü süre işlemez (HUAK m. 18/A'nın 15. fıkrası). Ticari davalardan konusu bir miktar para olan alacak ve tazminat davalarında (TTK m. 5/A) ve kira ilişkisinden doğan uyuşmazlıklarda (HUAK m. 18/B) arabulucuya başvurmak dava şartıdır.\n- **İhtiyari arabuluculukta** sürecin başlamasından sona ermesine kadar geçen süre, zamanaşımı ve hak düşürücü sürelerin hesabında dikkate alınmaz (HUAK m. 16/2). Dava açılmadan önceki başvuruda süreç, tarafların ilk toplantıya davet edilip sürecin devamında anlaştıklarının tutanakla belgelendiği tarihte başlar (HUAK m. 16/1).\n\n> ⚠️ **Sınavda dikkat:** Arabuluculuk süreyi **baştan başlatmaz**. Son tutanaktan sonra yalnız kalan süre işler. Başvurudan önce dolmuş bir süreyi de canlandırmaz.\n\n## 5. Kesilme (TBK m. 154-157)\n\n**Kesilmede** o ana kadar işlemiş süre silinir ve kesilmeden itibaren **yeni bir süre** başlar (TBK m. 156/1). Kesilme için sürenin henüz dolmamış olması gerekir. Dolmuş bir süre kesilemez.\n\n### 5.1 Kesilme sebepleri (TBK m. 154)\n**(1) Borçlunun ikrarı.** Borçlu borcu ikrar etmişse, \"özellikle faiz ödemiş veya kısmen ifada bulunmuşsa ya da rehin vermiş veya kefil göstermişse\" zamanaşımı kesilir (m. 154/1).\n- İkrar, borcun varlığını kabul eden ve alacaklıya yöneltilen bir beyan ya da davranıştır. Yazılı olması şart değildir.\n- Kısmi ödeme borcun geri kalanını da tanımaktır; kalan kısım için de süre kesilir.\n- Yargıtay'a göre üçüncü kişinin, borçlunun bilgisi dışında yaptığı ödeme zamanaşımını kesmez.\n\n**(2) Alacaklının başvurusu.** Alacaklı \"dava veya def'i yoluyla mahkemeye veya hakeme başvurmuşsa, icra takibinde bulunmuşsa ya da iflas masasına başvurmuşsa\" zamanaşımı kesilir (m. 154/2).\n- Dava, dava dilekçesinin kaydedildiği tarihte açılmış sayılır (HMK m. 118).\n- Def'i yoluyla kesilme: alacaklının, kendisine açılan davada alacağını takas def'i olarak ileri sürmesi.\n\n> ⚠️ **Sınavda dikkat:** **Noter ihtarnamesi zamanaşımını kesmez**, çünkü TBK m. 154 ihtarı saymaz. İhtar borçluyu temerrüde düşürebilir, ama zamanaşımını ne durdurur ne keser. Arabulucuya başvuru da kesmez, yalnız durdurur (§4.1).\n\n**Kısmi dava.** Yargıtay'ın yerleşik uygulamasına göre fazlaya ilişkin hak saklı tutularak açılan kısmi dava zamanaşımını **yalnız dava edilen kısım** için keser. Saklı tutulan kısım için süre işlemeye devam eder.\n\n> 📌 **Kesin bilgi:** 16.07.2026 tarihli ve 7589 sayılı Kanunla HMK m. 109'a eklenen dördüncü fıkraya göre kısmi davada talep, aynı davada **bir defaya mahsus** ve iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sonuna kadar artırılabilir. Bu durumda zamanaşımı **artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır**. Aynı Kanun belirsiz alacak davasını (HMK'nın 107. maddesi) kaldırdı.\n\n### 5.2 Birlikte borçlulara etkisi (TBK m. 155)\n- Müteselsil borçlulardan ya da bölünemeyen borcun borçlularından birine karşı kesilme, **diğerlerine karşı da** kesilme sayılır (m. 155/1).\n- Asıl borçluya karşı kesilme **kefile karşı da** kesilmedir (m. 155/2).\n- Kefile karşı kesilme **asıl borçluya karşı** kesilme sayılmaz (m. 155/3).\n\n> 💡 **Püf nokta:** Kesilme asıl borçludan kefile iner, kefilden asıl borçluya çıkmaz.\n\nKuralın haksız fiilde birden çok sorumlu bakımından kapsamı haksız fiil konusunda.\n\n### 5.3 Yeni süre (TBK m. 156-157)\n- **Kural:** Kesilmeyle yeni bir süre başlar (m. 156/1). Kanun bu sürenin uzunluğunu ayrıca söylemez; Yargıtay'a göre yeni süre kesilen sürenin aynısıdır. Beş yıllık süre kesilirse yeniden beş yıl işler.\n- **İstisna:** Borç **bir senetle ikrar edilmiş** ya da **mahkeme veya hakem kararına bağlanmışsa** yeni süre **her zaman on yıldır** (m. 156/2).\n- Dava ya da def'i ile kesilen süre, dava boyunca tarafların yargılamaya ilişkin her işleminden ya da hâkimin her kararından sonra yeniden işler (m. 157/1).\n- İcra takibiyle kesilen süre, alacağın takibine ilişkin her işlemden sonra yeniden işler (m. 157/2).\n- İflas masasına başvuruyla kesilen süre, iflas hükümlerine göre alacağın yeniden istenebileceği tarihten itibaren işler (m. 157/3).\n\n> **Örnek:** Kiracı Okan'ın 2024'e ait kira borcu beş yıllık süreye tabidir. Okan 2026'da kiraya verene \"120.000 TL kira borcum vardır\" yazan imzalı bir belge verir. Süre kesilir ve yeni süre beş değil **on yıl** olur.\n\n### 5.4 İcra takibinde zamanaşımı\n- Takip talebiyle icra dairesine başvurmak zamanaşımını keser; takibin kesinleşmesi beklenmez.\n- Haciz isteme hakkı ödeme emrinin tebliğinden itibaren bir yıl geçmekle düşer ve süresinde haciz istenmezse dosya işlemden kaldırılır (İİK m. 78/2, İİK m. 78/4). Yargıtay Hukuk Genel Kurulu'na göre işlemden kaldırma takibi sona erdirmez; takip derdest kalır ve kesme etkisi ortadan kalkmaz.\n- Alacaklının yenileme talebi ve haciz, satış gibi takibi ilerleten işlemleri zamanaşımını yeniden keser.\n- Borçlu ödeme emrine yedi gün içinde itiraz ederek takibi durdurabilir (İİK m. 62). Takip kesinleştikten sonraki dönemde borcun zamanaşımına uğradığını ileri sürerse icra mahkemesine başvurur ve İİK m. 33/a kıyasen uygulanır (İİK m. 71/2).\n- İlama dayalı takip, son işlemden itibaren on yıl geçmekle zamanaşımına uğrar (İİK m. 39).\n\n## 6. Davanın reddinde ek süre (TBK m. 158)\n\nDava ya da def'i; mahkemenin yetkili veya görevli olmaması, düzeltilebilecek bir yanlışlık yapılması ya da vaktinden önce açılmış olması nedeniyle reddedilmiş ve bu arada zamanaşımı ya da hak düşürücü süre dolmuşsa alacaklı **altmış günlük ek süre** içinde haklarını kullanabilir.\n- Yargıtay uygulamasına göre ek süre ret kararının kesinleşmesinden itibaren işler. İlk davanın, zamanaşımı **dolmadan** açılmış olması gerekir. Dava açıldığında süre zaten dolmuşsa ek süre alacaklıyı kurtarmaz.\n- Görevsizlik ya da yetkisizlik kararından sonra iki hafta içinde başvurulursa dosya görevli ya da yetkili mahkemeye gönderilir ve aynı dava sürer (HMK m. 20); ilk dava tarihi korunur.\n\n> **Örnek:** Hakan, adli yargıda görülmesi gereken bir tazminat istemi için zamanaşımı dolmadan idare mahkemesinde dava açar. Mahkeme davayı yargı yolu nedeniyle reddeder ve karar kesinleşir; bu arada zamanaşımı dolmuştur. Yargıtay uygulamasına göre Hakan kesinleşmeden itibaren altmış gün içinde adli yargıda dava açabilir.\n\n## 7. Rehinli alacaklar (TBK m. 159, TMK m. 864)\n- **Taşınır rehni:** Alacağın taşınır rehniyle güvenceye bağlanması zamanaşımının işlemesine engel olmaz. Ama alacaklının hakkını **rehinden alma yetkisi devam eder** (TBK m. 159).\n- **Taşınmaz rehni:** Rehnin tapu kütüğüne tescilinden sonra alacak için zamanaşımı **işlemez** (TMK m. 864).\n\n## 8. Feragat, ileri sürme ve ispat\n\n### 8.1 Zamanaşımından feragat (TBK m. 160)\n- **Önceden** feragat edilemez (m. 160/1). Süre dolduktan sonra borçlu doğmuş def'i hakkından açıkça ya da örtülü olarak vazgeçebilir.\n- Müteselsil borçlulardan birinin feragati diğerlerine karşı ileri sürülemez (m. 160/2). Bölünemez borçta da aynı kural geçerlidir (m. 160/3). Asıl borçlunun feragati kefile karşı ileri sürülemez (m. 160/4).\n\n> ⚠️ **Sınavda dikkat:** TBK m. 155 ile TBK m. 160'ı karıştırma. Bir müteselsil borçluya karşı **kesilme** herkesi etkiler (m. 155/1). Bir müteselsil borçlunun **feragati** yalnız kendisini bağlar (m. 160/2).\n\n### 8.2 Def'i ne zaman ileri sürülür?\nZamanaşımı ilk itiraz değildir, ama savunmanın genişletilmesi yasağı başlamadan ileri sürülmelidir. HMK ve Hukuk Genel Kurulu'na göre:\n1. **Yazılı yargılamada** davalı def'iyi cevap dilekçesinde (tebliğden itibaren iki hafta, zorunlu hâllerde bir defaya mahsus en çok bir ay ek süre; HMK m. 127) ya da ikinci cevap dilekçesinde (HMK m. 136) ileri sürer. Dilekçelerin karşılıklı verilmesinden sonra savunma genişletilemez (HMK m. 141/1).\n2. **Sonrası** için karşı tarafın **açık muvafakati** ya da **ıslah** gerekir (HMK m. 141/2). Islah aynı davada bir kez ve tahkikatın sonuna kadar yapılabilir (HMK m. 176/2, HMK m. 177/1). Süresinde cevap verip def'iyi unutan davalı, Yargıtay'a göre def'iyi ıslahla ileri sürebilir.\n3. **Süresinde cevap vermeyen davalı** davacının vakıalarını inkâr etmiş sayılır (HMK m. 128). Hukuk Genel Kurulu'na göre bu inkâr zamanaşımı def'ini kapsamaz; sonradan ileri sürülen def'i, davacı açıkça muvafakat etmezse dinlenmez.\n4. **Basit yargılamada** savunmanın genişletilmesi yasağı cevap dilekçesinin verilmesiyle başlar (HMK m. 319).\n5. **Islahla artırılan talebe karşı** davalı, ıslah dilekçesinin tebliği üzerine süresi içinde artırılan kısım için def'i ileri sürebilir.\n6. **İstinafta** ilk derecede ileri sürülmeyen savunmalar dinlenmez (HMK m. 357/1); zamanaşımı ilk kez istinafta ileri sürülemez.\n\n> ⚠️ **Sınavda dikkat:** Uygulamada \"zamanaşımı itirazı\" denir, ama teknik olarak doğrusu **def'idir**. Hâkim davalıyı bu savunmaya yönlendirmez.\n\n### 8.3 İspat\nHer taraf hakkını dayandırdığı olguyu ispatlar (TMK m. 6). Zamanaşımına dayanan davalı sürenin başladığı tarihi ve geçtiğini, kesilmeye ya da durmaya dayanan davacı ise ikrar, takip veya arabuluculuk başvurusu gibi olguları ispatlar.\n\n## 9. Olay çözerken denetim şeması\n1. **Nitelendir ve süreyi seç:** TBK m. 146, m. 147 ya da özel bir hüküm.\n2. **Başlangıç:** Muacceliyet (TBK m. 149, TBK m. 90, TBK m. 479), bildirim, dönemsel edim (m. 150). Her alacağı ayrı hesapla.\n3. **Hesap:** Başlangıç günü sayılmaz, son gün, tatil (m. 151, TBK m. 92-93).\n4. **Durma:** TBK m. 153, arabuluculuk (HUAK m. 16/2, HUAK m. 18/A).\n5. **Kesilme:** Sebep (m. 154), kimlere etkili (m. 155), yeni süre (m. 156-157), kısmi dava ve HMK m. 109/4.\n6. **Ek süre, rehin, feragat:** TBK m. 158, m. 159, m. 160 ve TMK m. 864.\n7. **Usul:** Def'i zamanında ileri sürüldü mü (m. 161, HMK m. 128, 141, 319)? Süre dolmuşsa alacak eksik borçtur (TBK m. 78/2).",
+  "critical_md": "- 📌 Genel süre on yıl (TBK m. 146). Beş yıllık süre (TBK m. 147) altı bentle sınırlıdır: dönemsel edimler; otel ve lokanta; küçük sanat ve küçük çaplı perakende; ortaklık; vekâlet, komisyon, acentalık, simsarlık; eser.\n- ⚠️ Ticari simsarlık ücreti beş yıla değil genel süreye girer. Yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesinden doğan alacaklar da beş yıl dışındadır. Eserdeki ayıp için ayrı süreler TBK m. 478'dedir.\n- ⚠️ Avukatın ücret alacağı beş yıldır (TBK m. 147/5). Müvekkilin sözleşmeye dayanarak avukata karşı ileri sürdüğü tazminat istekleri ise öğrenmeden bir yıl, her hâlde zararı doğuran olaydan beş yıl geçmekle düşer (1136 sayılı Kanun m. 40).\n- ⚠️ Anapara faizi beş, anapara (ödünç) on yıldır. Faiz kendi süresiyle önce düşebilir; asıl alacak düşünce faiz de düşer (TBK m. 152). Tersi geçerli değildir.\n- 📌 Süreler sözleşmeyle ne kısaltılabilir ne uzatılabilir (TBK m. 148). Zamanaşımından önceden feragat edilemez (TBK m. 160/1); süre dolduktan sonraki feragat geçerlidir.\n- 📌 Süre muacceliyetle, bildirime bağlı muacceliyette bildirimin yapılabileceği gün başlar (TBK m. 149). Alacaklının öğrenmesi aranmaz; TBK m. 72 ve TBK m. 82'deki öğrenme ölçütüyle karıştırma.\n- 📌 Başlangıç günü sayılmaz, süre son gün de geçince dolar; son gün tatilse izleyen iş gününe geçer (TBK m. 151, TBK m. 93).\n- ⚠️ Durmada süre kaldığı yerden devam eder; kesilmede baştan yeni süre başlar. TBK m. 153 yedi durma sebebi sayar; arabuluculuk gibi özel kanunlardaki durma hâlleri bunlara eklenir.\n- ⚠️ Noter ihtarnamesi zamanaşımını kesmez. Arabulucuya başvuru kesmez, durdurur (HUAK m. 16/2, HUAK m. 18/A); dolmuş süreyi canlandırmaz.\n- ⚠️ Kesilme için sürenin dolmamış olması gerekir. Süre dolduktan sonraki ikrar kesmez; Yargıtay'a göre kural olarak def'iden örtülü feragat sayılır.\n- 📌 Kesilme: müteselsil ya da bölünemez borçta herkese; asıl borçludan kefile; kefilden asıl borçluya değil (TBK m. 155). Feragat ise yalnız feragat edeni bağlar (TBK m. 160).\n- 📌 Yeni süre eskisinin aynısıdır; borç senetle ikrar edilmiş ya da mahkeme veya hakem kararına bağlanmışsa her zaman on yıldır (TBK m. 156/2).\n- 📌 Kısmi dava yalnız dava edilen kısmı keser. 2026'dan beri talep bir kez artırılırsa zamanaşımı artırılan kısım için de dava tarihinden kesilmiş sayılır (HMK m. 109/4).\n- ⚠️ İcra dosyasının işlemden kaldırılması takibin kesme etkisini ortadan kaldırmaz; yenileme talebi süreyi yeniden keser (TBK m. 157/2, İİK m. 78).\n- 📌 TBK m. 158: altmış günlük ek süre zamanaşımı ve hak düşürücü süre için; ilk dava süre dolmadan açılmış olmalıdır.\n- ⚠️ Hâkim zamanaşımını kendiliğinden gözetemez (TBK m. 161). Def'i dilekçeler aşamasından sonra ancak açık muvafakat ya da ıslahla (HMK m. 141), basit yargılamada cevap dilekçesiyle (HMK m. 319) ileri sürülür; istinafta ilk kez ileri sürülemez (HMK m. 357).",
+  "doctrine_md": "### Zamanaşımına uğramış alacağın niteliği\nBaskın görüş ve Yargıtay, zamanaşımının alacağı sona erdirmediğini, yalnız dava edilebilirliğini kaldırdığını kabul eder; alacak eksik borç olarak yaşar. Hukuk Genel Kurulu bir kararında bir adım ileri giderek alacağın, salt sürenin dolmasıyla değil, borçlunun def'iyi ileri sürmesiyle eksik borca dönüştüğünü söylemiştir. Sonuç bakımından fark azdır: def'i ileri sürülmedikçe hâkim alacağa hükmeder, ödenen de geri istenemez.\n\n### Süre dolduktan sonra yapılan ikrar\nDolmuş bir süre kesilemeyeceği için bu ikrar zamanaşımını kesmez. Hukuk Genel Kurulu'na göre süre dolduktan sonra alacaklıya yöneltilen ikrar, öğretideki baskın görüşle birlikte, kural olarak def'iden örtülü feragat anlamına gelir; bu ikrara rağmen def'iyi ileri sürmek çelişkili davranış olarak dürüstlük kuralına (TMK m. 2) aykırı sayılabilir. Feragat bir irade beyanı olduğundan, borçlunun sürenin dolduğunu bilmeden yaptığı bir ikrarın feragat sayılıp sayılamayacağı ise tartışmalıdır. Hukuk Genel Kurulu da haciz baskısı altında ve ihtirazi kayıtla yapılan bir borç yapılandırma başvurusunu feragat saymamıştır. İradenin yorumu olayın özelliklerine bağlıdır.\n\n### Zamanaşımı def'i ve dürüstlük kuralı\nDef'i kanunun tanıdığı bir haktır ve kural olarak kötüye kullanma oluşturmaz. Bir görüşe göre borçlu, alacaklıyı oyalayarak ya da güven telkin ederek dava açmasını geciktirmişse def'iyi ileri sürmesi hakkın açıkça kötüye kullanılmasıdır (TMK m. 2/2). Yargıtay'ın bir dairesi, izinsiz para toplayan şirketlere karşı yatırımcıların açtığı davalarda uzun süre bu görüşü uyguladı. 2022'de off-shore hesap alacaklarında zamanaşımının başlangıcına ilişkin bir İçtihadı Birleştirme Kararı verildi; daire çoğunluğu bu kararın gerekçesini yol gösterici sayarak benzer davalarda zamanaşımını uygulamaya başladı, karşı oy ise oyalama nedeniyle def'inin dürüstlük kuralına aykırı olduğu görüşünü sürdürdü. Konu istisnaidir ve olayın özelliklerine göre değerlendirilir.\n\n### Vekâlet verenin vekile karşı tazminat alacağı\nTBK m. 147/5 \"vekâlet ... sözleşmelerinden ... doğan alacaklar\" dediği için, lafza göre vekâlet verenin sözleşmeye aykırılıktan doğan tazminat alacağı da beş yıllık süreye girer. Vekil avukatsa özel hüküm önce gelir: müvekkilin sözleşmeye dayanan tazminat istekleri, hakkın doğumunun öğrenildiği tarihten bir yıl ve her hâlde zararı doğuran olaydan beş yıl geçmekle düşer (1136 sayılı Kanun m. 40; madde başlığı bu süreyi zamanaşımı olarak adlandırır). Bir yıllık sürenin ne zaman başladığı tartışmalıdır. Yargıtay'ın bir dairesi süreyi azil tarihinden başlatan bir yerel mahkeme kararını onamıştır. Karşı oya göre azil anında zarar henüz doğmamış olabilir; süre, zararın varlığı ve kapsamı öğrenildiğinde, örneğin avukatın geç açtığı ya da takipsiz bıraktığı işin kesin olarak kaybedildiği anda başlamalıdır.\n\n### Süresinde cevap vermeyen davalı ıslahla def'i ileri sürebilir mi?\nHukuk Genel Kurulu çoğunluğuna göre hayır: ıslahın konusu daha önce yapılmış geçerli bir usul işlemidir ve ıslah kaçırılmış süreyi geri getirmez. Karşı oya ve öğretideki bir görüşe göre ise kanunen inkâr etmiş sayılan davalı ile cevap verip def'iyi unutan davalı arasında fark gözetmenin dayanağı yoktur; ıslah ikisine de açık olmalıdır.\n\n### HMK m. 109/4 derdest davalara uygulanır mı?\nHüküm yenidir. Usul hükümleri tamamlanmış işlemleri etkilememek kaydıyla derhâl uygulanır (HMK m. 448). Ancak zamanaşımının maddi hukuka ilişkin sonuçları nedeniyle, yürürlükten önce açılmış kısmi davalarda artırılan kısım için kesilmenin dava tarihine götürülüp götürülemeyeceği tartışmalıdır. Artırımın ıslah hakkıyla ilişkisi konusunda da uygulama henüz oturmamıştır.",
+  "glossary": [
+   {
+    "term": "Zamanaşımı",
+    "definition": "Kanunda öngörülen süre içinde istenmeyen bir alacağın dava edilebilirliğini yitirmesi. Alacak sona ermez, eksik borç olarak kalır."
+   },
+   {
+    "term": "Hak düşürücü süre",
+    "definition": "Bir hakkın yalnız belli bir süre içinde kullanılabilmesi. Süre geçince hak sona erer ve hâkim bunu kendiliğinden gözetir."
+   },
+   {
+    "term": "Def'i",
+    "definition": "Var olan bir hakka karşı borçluya ifadan kaçınma imkânı veren karşı hak. Ancak ileri sürülürse dikkate alınır; zamanaşımı bir def'idir."
+   },
+   {
+    "term": "İtiraz",
+    "definition": "Hakkın hiç doğmadığını ya da sona erdiğini gösteren olgu (ödeme, kesin hükümsüzlük gibi). Dosyadan anlaşılıyorsa hâkim kendiliğinden gözetir."
+   },
+   {
+    "term": "Eksik borç",
+    "definition": "İfa edilebilen ama dava edilemeyen borç. Zamanaşımına uğramış borç ödenirse geri istenemez (TBK m. 78/2)."
+   },
+   {
+    "term": "Muacceliyet",
+    "definition": "Alacaklının ifayı isteyebilmesi. Zamanaşımı kural olarak bu anda işlemeye başlar (TBK m. 149)."
+   },
+   {
+    "term": "Dönemsel edim",
+    "definition": "Aynı hukuki sebepten belli ve düzenli aralıklarla doğan edim, örneğin aylık kira, ücret ya da yıllık faiz (TBK m. 147/1)."
+   },
+   {
+    "term": "Zamanaşımının durması",
+    "definition": "Kanunda sayılan bir sebep sürerken zamanaşımının işlememesi; sebep kalkınca süre kaldığı yerden devam eder (TBK m. 153)."
+   },
+   {
+    "term": "Zamanaşımının kesilmesi",
+    "definition": "İşlemiş sürenin silinip kesilmeden itibaren yeni bir sürenin başlaması (TBK m. 154, TBK m. 156)."
+   },
+   {
+    "term": "Borç ikrarı",
+    "definition": "Borçlunun borcun varlığını alacaklıya karşı kabul etmesi; faiz ödemek, kısmen ifa etmek, rehin vermek ve kefil göstermek de ikrardır (TBK m. 154/1)."
+   },
+   {
+    "term": "Ek süre",
+    "definition": "Dava yetkisizlik, görevsizlik, düzeltilebilir yanlışlık ya da erken açılma nedeniyle reddedilip arada süre dolmuşsa alacaklıya tanınan altmış gün (TBK m. 158)."
+   },
+   {
+    "term": "Zamanaşımından feragat",
+    "definition": "Borçlunun zamanaşımı def'inden vazgeçmesi. Önceden yapılamaz; süre dolduktan sonra yapılabilir ve yalnız feragat edeni bağlar (TBK m. 160)."
+   },
+   {
+    "term": "Savunmanın genişletilmesi yasağı",
+    "definition": "Dilekçelerin karşılıklı verilmesinden sonra davalının yeni savunma ileri sürememesi; istisnası açık muvafakat ve ıslahtır (HMK m. 141)."
+   },
+   {
+    "term": "Kısmi dava",
+    "definition": "Bölünebilir bir alacağın yalnız bir kısmının dava edilmesi. Zamanaşımı kural olarak yalnız dava edilen kısım için kesilir (HMK m. 109)."
+   },
+   {
+    "term": "Islah",
+    "definition": "Tarafın kendi usul işlemini kısmen ya da tamamen düzeltmesi; aynı davada bir kez ve tahkikat sonuna kadar yapılabilir (HMK m. 176, HMK m. 177)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "147",
+   "official_text": "MADDE 147- Aşağıdaki alacaklar için beş yıllık zamanaşımı uygulanır:\n1. Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler.\n2. Otel, motel, pansiyon ve tatil köyü gibi yerlerdeki konaklama bedelleri ile lokanta ve benzeri yerlerdeki yeme içme bedelleri.\n3. Küçük sanat işlerinden ve küçük çapta perakende satışlardan doğan alacaklar.\n4. Bir ortaklıkta, ortaklık sözleşmesinden doğan ve ortakların birbirleri veya kendileri ile ortaklık arasındaki; bir ortaklığın müdürleri, temsilcileri, denetçileri ile ortaklık veya ortaklar arasındaki alacaklar.\n5. Vekâlet, komisyon ve acentalık sözleşmelerinden, ticari simsarlık ücreti alacağı dışında, simsarlık sözleşmesinden doğan alacaklar.\n6. Yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında, eser sözleşmesinden doğan alacaklar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "148",
+   "official_text": "MADDE 148- Bu ayırımda belirlenen zamanaşımı süreleri, sözleşmeyle değiştirilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "149",
+   "official_text": "MADDE 149- Zamanaşımı, alacağın muaccel olmasıyla işlemeye başlar.\nAlacağın muaccel olmasının bir bildirime bağlı olduğu hâllerde, zamanaşımı bu bildirimin yapılabileceği günden işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "150",
+   "official_text": "MADDE 150- Ömür boyunca gelir ve benzeri dönemsel edimlerde, alacağın tamamı için zamanaşımı, ifa edilmemiş ilk dönemsel edimin muaccel olduğu günde işlemeye başlar.\nAlacağın tamamı zamanaşımına uğramışsa, ifa edilmemiş dönemsel edimler de zamanaşımına uğramış olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "151",
+   "official_text": "V. Sürelerin hesaplanması\nMADDE 151- Süreler hesaplanırken zamanaşımının başladığı gün sayılmaz ve zamanaşımı ancak sürenin son günü de hak kullanılmaksızın geçince gerçekleşmiş olur.\nZamanaşımı sürelerinin hesaplanmasında da, borçların ifasındaki sürelerin hesaplanmasına ilişkin hükümler uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "152",
+   "official_text": "MADDE 152- Asıl alacak zamanaşımına uğrayınca, ona bağlı faiz ve diğer alacaklar da zamanaşımına uğramış olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "153",
+   "official_text": "MADDE 153- Aşağıdaki durumlarda zamanaşımı işlemeye başlamaz, başlamışsa durur:\n1. Velayet süresince, çocukların ana ve babalarından olan alacakları için.\n2. Vesayet süresince, vesayet altında bulunanların vasiden veya vesayet işlemleri sebebiyle Devletten olan alacakları için.\n3. Evlilik devam ettiği sürece, eşlerin diğerinden olan alacakları için.\n4. Hizmet ilişkisi süresince, ev hizmetlilerinin onları çalıştıranlardan olan alacakları için.\n5. Borçlu, alacak üzerinde intifa hakkına sahip olduğu sürece.\n6. Alacağı, Türk mahkemelerinde ileri sürme imkânının bulunmadığı sürece.\n7. Alacaklı ve borçlu sıfatının aynı kişide birleşmesinde, birleşmenin ileride geçmişe etkili olarak ortadan kalkması durumunda, bu durumun ortaya çıkmasına kadar geçecek sürece.\nZamanaşımını durduran sebeplerin ortadan kalktığı günün bitiminde zamanaşımı işlemeye başlar veya durmadan önce başlamış olan işlemesini sürdürür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "154",
+   "official_text": "MADDE 154- Aşağıdaki durumlarda zamanaşımı kesilir:\n1. Borçlu borcu ikrar etmişse, özellikle faiz ödemiş veya kısmen ifada bulunmuşsa ya da rehin vermiş veya kefil göstermişse.\n2. Alacaklı, dava veya def’i yoluyla mahkemeye veya hakeme başvurmuşsa, icra takibinde bulunmuşsa ya da iflas masasına başvurmuşsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "155",
+   "official_text": "MADDE 155- Zamanaşımı müteselsil borçlulardan veya bölünemeyen borcun borçlularından birine karşı kesilince, diğerlerine karşı da kesilmiş olur.\nZamanaşımı asıl borçluya karşı kesilince, kefile karşı da kesilmiş olur.\nZamanaşımı kefile karşı kesilince, asıl borçluya karşı kesilmiş olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "156",
+   "official_text": "MADDE 156- Zamanaşımının kesilmesiyle, yeni bir süre işlemeye başlar.\nBorç bir senetle ikrar edilmiş veya bir mahkeme ya da hakem kararına bağlanmış ise, yeni süre her zaman on yıldır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "157",
+   "official_text": "MADDE 157- Bir dava veya def’i yoluyla kesilmiş olan zamanaşımı, dava süresince tarafların yargılamaya ilişkin her işleminden veya hâkimin her kararından sonra yeniden işlemeye başlar.\nZamanaşımı, icra takibiyle kesilmişse, alacağın takibine ilişkin her işlemden sonra yeniden işlemeye başlar.\nZamanaşımı, iflas masasına başvurma sebebiyle kesilmişse, iflasa ilişkin hükümlere göre alacağın yeniden istenmesi imkânının doğumundan itibaren yeniden işlemeye başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "158",
+   "official_text": "MADDE 158- Dava veya def’i; mahkemenin yetkili veya görevli olmaması ya da düzeltilebilecek bir yanlışlık yapılması yahut vaktinden önce açılmış olması nedeniyle reddedilmiş olup da o arada zamanaşımı veya hak düşürücü süre dolmuşsa, alacaklı altmış günlük ek süre içinde haklarını kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "159",
+   "official_text": "MADDE 159- Alacağın bir taşınır rehniyle güvenceye bağlanmış olması, bu alacak için zamanaşımının işlemesine engel olmaz; bununla birlikte alacaklının, hakkını rehinden alma yetkisi devam eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "160",
+   "official_text": "MADDE 160- Zamanaşımından önceden feragat edilemez.\nMüteselsil borçlulardan birinin feragat etmiş olması, diğerlerine karşı ileri sürülemez.\nBölünemez bir borcun borçlularından birinin feragat etmiş olması durumunda da aynı hüküm uygulanır.\nAsıl borçlunun feragati de kefile karşı ileri sürülemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "161",
+   "official_text": "MADDE 161- Zamanaşımı ileri sürülmedikçe, hâkim bunu kendiliğinden göz önüne alamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "28",
+   "official_text": "MADDE 28- Bir sözleşmede karşılıklı edimler arasında açık bir oransızlık varsa, bu oransızlık, zarar görenin zor durumda kalmasından veya düşüncesizliğinden ya da deneyimsizliğinden yararlanılmak suretiyle gerçekleştirildiği takdirde, zarar gören, durumun özelliğine göre ya sözleşme ile bağlı olmadığını diğer tarafa bildirerek ediminin geri verilmesini ya da sözleşmeye bağlı kalarak edimler arasındaki oransızlığın giderilmesini isteyebilir.\nZarar gören bu hakkını, düşüncesizlik veya deneyimsizliğini öğrendiği; zor durumda kalmada ise, bu durumun ortadan kalktığı tarihten başlayarak bir yıl ve her hâlde sözleşmenin kurulduğu tarihten başlayarak beş yıl içinde kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "39",
+   "official_text": "MADDE 39- Yanılma veya aldatma sebebiyle ya da korkutulma sonucunda sözleşme yapan taraf, yanılma veya aldatmayı öğrendiği ya da korkutmanın etkisinin ortadan kalktığı andan başlayarak bir yıl içinde sözleşme ile bağlı olmadığını bildirmez veya verdiği şeyi geri istemezse, sözleşmeyi onamış sayılır.\nAldatma veya korkutmadan dolayı bağlayıcılığı olmayan bir sözleşmenin onanmış sayılması, tazminat hakkını ortadan kaldırmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "72",
+   "official_text": "MADDE 72- Tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Ancak, tazminat ceza kanunlarının daha uzun bir zamanaşımı öngördüğü cezayı gerektiren bir fiilden doğmuşsa, bu zamanaşımı uygulanır.\nHaksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa zarar gören, haksız fiilden doğan tazminat istemi zamanaşımına uğramış olsa bile, her zaman bu borcu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "78",
+   "official_text": "MADDE 78- Borçlanmadığı edimi kendi isteğiyle yerine getiren kimse, bunu ancak, kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir.\nZamanaşımına uğramış bir borcun ifasından veya ahlaki bir ödevin yerine getirilmiş olmasından kaynaklanan zenginleşmeler geri istenemez.\nBorç olmadığı hâlde ödenmiş olan edimin geri istenmesine ilişkin diğer kanun hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "82",
+   "official_text": "MADDE 82- Sebepsiz zenginleşmeden doğan istem hakkı, hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlayarak iki yılın ve her hâlde zenginleşmenin gerçekleştiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar.\nZenginleşme, zenginleşenin bir alacak hakkı kazanması suretiyle gerçekleşmişse diğer taraf, istem hakkı zamanaşımına uğramış olsa bile, her zaman bu borcunu ifadan kaçınabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "90",
+   "official_text": "MADDE 90- İfa zamanı taraflarca kararlaştırılmadıkça veya hukuki ilişkinin özelliğinden anlaşılmadıkça her borç, doğumu anında muaccel olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "92",
+   "official_text": "MADDE 92- Bir borcun veya taraflardan birine düşen herhangi bir yükümlülüğün sözleşmenin kurulmasından başlayarak belli bir sürenin sonunda ifası gerekiyorsa, ifa zamanı aşağıdaki biçimde belirlenir:\n1. Gün olarak belirlenmiş süre, sözleşmenin kurulduğu gün sayılmaksızın, bu sürenin son günü dolmuş olur. Sekiz veya onbeş gün olarak belirlenmiş süre ise, bir veya iki haftayı değil, tam sekiz veya onbeş günü ifade eder.\n2. Hafta olarak belirlenmiş süre, son haftanın sözleşmenin kurulduğu güne ismen uyan gününde dolmuş olur.\n3. Ay olarak veya yıl, yarıyıl ve yılın dörtte biri gibi birden çok ayı içeren bir zaman olarak belirlenmiş süre, sözleşmenin kurulduğu gün ayın kaçıncı günü ise, son ayın bunu karşılayan gününde dolmuş olur. Son ayda bunu karşılayan gün yoksa süre, bu ayın son günü dolmuş sayılır.\n4. Yarım aydan onbeş günlük süre anlaşılır. Bir veya birden çok ay ve yarım ay olarak belirlenmiş sürenin dolduğu gün, son aya onbeş gün eklenerek belirlenir.\nBu kurallar, sürenin sözleşmenin kurulmasından başka bir andan işlemeye başladığı durumlarda da uygulanır.\nBorçlu, belirli bir süre içinde yerine getirilmesi gereken bir borcu, bu sürenin dolmasından önce ifa etmekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "93",
+   "official_text": "MADDE 93- İfa zamanı veya sürenin son günü, kanunlarda tatil olarak kabul edilen bir güne rastlarsa, kendiliğinden bu günü izleyen ve tatil olmayan ilk güne geçer.\nAksine anlaşma geçerlidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "135",
+   "official_text": "MADDE 135- Alacaklı ve borçlu sıfatlarının aynı kişide birleşmesiyle borç sona erer. Ancak, üçüncü kişilerin alacak üzerinde önceden mevcut olan hakları birleşmeden etkilenmez.\nBirleşme geçmişe etkili olarak ortadan kalkarsa, borç varlığını sürdürür.\nTaşınmaz rehni ve kıymetli evraka ilişkin özel hükümler saklıdır.\nE. İfa imkânsızlığı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "139",
+   "official_text": "1. Genel olarak\nMADDE 139- İki kişi, karşılıklı olarak bir miktar para veya özdeş diğer edimleri birbirine borçlu oldukları takdirde, her iki borç muaccel ise her biri alacağını borcuyla takas edebilir.\nAlacaklardan biri çekişmeli olsa bile takas ileri sürülebilir.\nZamanaşımına uğramış bir alacağın takası, ancak takas edilebileceği anda henüz zamanaşımına uğramamış olması koşuluyla ileri sürülebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "143",
+   "official_text": "MADDE 143- Takas, ancak borçlunun takas iradesini alacaklıya bildirmesiyle gerçekleşir. Bu durumda her iki borç, takas edilebilecekleri anda daha az olan borç tutarınca sona erer.\nCari hesapla ilgili ticarete ilişkin özel teamüller saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "231",
+   "official_text": "MADDE 231- Satıcı daha uzun bir süre için üstlenmiş olmadıkça, satılanın ayıbından doğan sorumluluğa ilişkin her türlü dava, satılandaki ayıp daha sonra ortaya çıksa bile, satılanın alıcıya devrinden başlayarak iki yıl geçmekle zamanaşımına uğrar. Alıcının satılanın kendisine devrinden başlayarak iki yıl içinde bildirdiği ayıptan doğan def’i hakkı, bu sürenin geçmiş olmasıyla ortadan kalkmaz.\nSatıcı, satılanı ayıplı olarak devretmekte ağır kusurlu ise, iki yıllık zamanaşımı süresinden yararlanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "314",
+   "official_text": "MADDE 314- Kiracı, aksine sözleşme ve yerel âdet olmadıkça, kira bedelini ve gerekiyorsa yan giderleri, her ayın sonunda ve en geç kira süresinin bitiminde ödemekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "392",
+   "official_text": "MADDE 392- Ödüncün geri verilmesi konusunda belirli bir gün ya da bildirim süresi veya borcun geri istendiği anda muaccel olacağı kararlaştırılmamışsa ödünç alan, ilk istemden başlayarak altı hafta geçmedikçe ödüncü geri vermekle yükümlü değildir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "478",
+   "official_text": "MADDE 478- Yüklenici ayıplı bir eser meydana getirmişse, bu sebeple açılacak davalar, teslim tarihinden başlayarak, taşınmaz yapılar dışındaki eserlerde iki yılın; taşınmaz yapılarda ise beş yılın ve yüklenicinin ağır kusuru varsa, ayıplı eserin niteliğine bakılmaksızın yirmi yılın geçmesiyle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "479",
+   "official_text": "MADDE 479- İşsahibinin bedel ödeme borcu, eserin teslimi anında muaccel olur.\nEserin parça parça teslim edilmesi kararlaştırılmış ve bedel parçalara göre belirlenmişse, her parçanın bedeli onun teslimi anında muaccel olur.\n2. Bedel",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "2",
+   "official_text": "I. Dürüst davranma\nMadde 2 - Herkes, haklarını kullanırken ve borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır.\nBir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "6",
+   "official_text": "I. İspat yükü\nMadde 6 - Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri, hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK MEDENİ KANUNU",
+   "law_no": "4721",
+   "article_no": "864",
+   "official_text": "III. Zamanaşımı\nMadde 864- Rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez.\nIV. Önlem alma yetkisi\n1. Değer düşmelerine karşı",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "20",
+   "official_text": "Görevsizlik veya yetkisizlik kararı üzerine yapılacak işlemler\nMADDE 20- (1) Görevsizlik veya yetkisizlik kararı verilmesi hâlinde, taraflardan birinin, bu karar verildiği anda kesin ise tebliğ tarihinden, (…)[1] süresi içinde kanun yoluna başvurulmayarak kesinleşmiş ise kararın kesinleştiği tarihten; kanun yoluna başvurulmuşsa bu başvurunun reddi kararının tebliğ tarihinden itibaren iki hafta içinde kararı veren mahkemeye başvurarak, dava dosyasının görevli ya da yetkili mahkemeye gönderilmesini talep etmesi gerekir. Aksi takdirde dava açılmamış sayılır ve görevsizlik veya yetkisizlik kararı veren mahkemece bu konuda resen karar verilir.[2]\n(2) Dosya kendisine gönderilen mahkeme, kendiliğinden taraflara davetiye gönderir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "109",
+   "official_text": "Kısmi dava\nMADDE 109- (1) Talep konusunun niteliği itibarıyla bölünebilir olduğu durumlarda, sadece bir kısmı da dava yoluyla ileri sürülebilir.\n(2) (Mülga: 1/4/2015-6644/4 md.)\n(3) Dava açılırken, talep konusunun kalan kısmından açıkça feragat edilmiş olması hâli dışında, kısmi dava açılması, talep konusunun geri kalan kısmından feragat edildiği anlamına gelmez.\n(4) (Ek:16/7/2026-7589/20 md.) Alacağın sadece bir kısmının dava edildiği durumlarda talep konusu, aynı davada bir defaya mahsus olmak üzere iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sona ermesine kadar artırılabilir. Bu durumda zamanaşımı, artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "118",
+   "official_text": "Davanın açılma zamanı\nMADDE 118- (1) Dava, dava dilekçesinin kaydedildiği tarihte açılmış sayılır. Dava dilekçesine davalı sayısı kadar örnek eklenir.\n(2) Dava dilekçesinin kaydına ilişkin usul ve esaslar yönetmelikte belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "127",
+   "official_text": "Cevap dilekçesini verme süresi\nMADDE 127- (1) Cevap dilekçesini verme süresi, dava dilekçesinin davalıya tebliğinden itibaren iki haftadır. Ancak, durum ve koşullara göre cevap dilekçesinin bu süre içinde hazırlanmasının çok zor yahut imkânsız olduğu durumlarda, yine bu süre zarfında mahkemeye başvuran davalıya, cevap süresinin bitiminden itibaren işlemeye başlamak, bir defaya mahsus olmak ve bir ayı geçmemek üzere ek bir süre verilebilir. Ek cevap süresi talebi hakkında verilen karar taraflara derhâl bildirilir.[13]\n[13] 22/7/2020 tarihli ve 7251 sayılı Kanunun 12 nci maddesiyle, bu fıkraya “başvuran davalıya,” ibaresinden sonra gelmek üzere “cevap süresinin bitiminden itibaren işlemeye başlamak,” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "128",
+   "official_text": "Süresinde cevap dilekçesi verilmemesinin sonucu\nMADDE 128- (1) Süresi içinde cevap dilekçesi vermemiş olan davalı, davacının dava dilekçesinde ileri sürdüğü vakıaların tamamını inkâr etmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "136",
+   "official_text": "Tarafların ikinci dilekçeleri\nMADDE 136- (1) Davacı, cevap dilekçesinin kendisine tebliğinden itibaren iki hafta içinde cevaba cevap dilekçesi; davalı da davacının cevabının kendisine tebliğinden itibaren iki hafta içinde ikinci cevap dilekçesi verebilir.\n(2) Davacının cevaba cevap, davalının da ikinci cevap dilekçesi hakkında, dava ve cevap dilekçelerine ilişkin hükümler, niteliğine aykırı düşmediği sürece kıyasen uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "141",
+   "official_text": "MADDE 141- (1) (Değişik:22/7/2020-7251/15 md.) Taraflar, cevaba cevap ve ikinci cevap dilekçeleri ile serbestçe iddia veya savunmalarını genişletebilir yahut değiştirebilirler. Dilekçelerin karşılıklı verilmesinden sonra iddia veya savunma genişletilemez yahut değiştirilemez.\n(2) İddia ve savunmanın genişletilip değiştirilmesi konusunda ıslah ve karşı tarafın açık muvafakati hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "176",
+   "official_text": "Kapsamı ve sayısı\nMADDE 176- (1) Taraflardan her biri, yapmış olduğu usul işlemlerini kısmen veya tamamen ıslah edebilir.\n(2) Aynı davada, taraflar ancak bir kez ıslah yoluna başvurabilir.\nIslahın zamanı ve şekli[20]\n[20] 22/7/2020 tarihli ve 7251 sayılı Kanunun 18 inci maddesiyle, bu maddeye birinci fıkradan sonra gelmek üzere fıkra eklenmiş ve diğer fıkra buna göre teselsül ettirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "177",
+   "official_text": "MADDE 177- (1) Islah, tahkikatın sona ermesine kadar yapılabilir.\n(2) (Ek:22/7/2020-7251/18 md.) Yargıtayın bozma kararından veya bölge adliye mahkemesinin kaldırma kararından sonra dosya ilk derece mahkemesine gönderildiğinde, ilk derece mahkemesinin tahkikata ilişkin bir işlem yapması hâlinde tahkikat sona erinceye kadar da ıslah yapılabilir. Ancak bozma kararına uymakla ortaya çıkan hukuki durum ortadan kaldırılamaz.\n(3) Islah, sözlü veya yazılı olarak yapılabilir. Karşı taraf duruşmada hazır değilse veya ıslah talebi duruşma dışında yapılıyorsa, bu yazılı talep veya tutanak örneği, haber vermek amacıyla karşı tarafa bildirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "319",
+   "official_text": "İddia ve savunmanın genişletilmesi veya değiştirilmesi yasağı\nMADDE 319- (1) İddianın genişletilmesi veya değiştirilmesi yasağı dava açılmasıyla; savunmanın genişletilmesi veya değiştirilmesi yasağı cevap dilekçesinin mahkemeye verilmesiyle başlar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "357",
+   "official_text": "Yapılamayacak işlemler\nMADDE 357- (1) Bölge adliye mahkemesi hukuk dairelerinde karşı dava açılamaz, davaya müdahale talebinde bulunulamaz, davanın ıslahı ve 166 ncı maddenin birinci fıkrası hükmü saklı kalmak üzere davaların birleştirilmesi istenemez, bölge adliye mahkemesince resen göz önünde tutulacaklar dışında, ilk derece mahkemesinde ileri sürülmeyen iddia ve savunmalar dinlenemez, yeni delillere dayanılamaz.\n(2) Bölge adliye mahkemeleri için yetki sözleşmesi yapılamaz.\n(3) İlk derece mahkemesinde usulüne uygun olarak gösterildiği hâlde incelenmeden reddedilen veya mücbir bir sebeple gösterilmesine olanak bulunmayan deliller bölge adliye mahkemesince incelenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "448",
+   "official_text": "Zaman bakımından uygulanma\nMADDE 448- (1) Bu Kanun hükümleri, tamamlanmış işlemleri etkilememek kaydıyla derhâl uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "33/a",
+   "official_text": "Madde 33/a – (Ek: 18/2/1965-538/18 md.)\nİlamın zamanaşımına uğradığı veya zamanaşımının kesildiği veya tatile uğradığı iddiaları icra mahkemesi tarafından resmi vesikalara müsteniden incelenerek icranın geri bırakılmasına veya devamına karar verilir.\nAlacaklı, icranın geri bırakılması kararının kesinleştiğinin kendisine tebliğinden sonra, zamanaşımının vakı olmadığını ispat sadedinde ve 7 gün içinde umumi mahkemelerde dava açabilir. Aksi takdirde icrası istenen ilamın zamanaşımına uğradığı hususu kesin hüküm teşkil eder.\nİcranın devamına karar verilmesi halinde 33 üncü maddenin son fıkrası burada da uygulanır.\nIII. Müşterek Hükümler:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "39",
+   "official_text": "Zamanaşımı:\nMadde 39 – İlama müstenit takip, son muamele üzerinden on sene geçmekle zamanaşımına uğrar.\nNoter senedine müstenit takip, senedin mahiyetine göre borçlar veya ticaret kanunlarında muayyen olan zamanaşımlarına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "62",
+   "official_text": "1 – Süresi ve şekli:\nMadde 62 – (Değişik: 18/2/1965-538/33 md.)\nİtiraz etmek istiyen borçlu, itirazını, ödeme emrinin tebliği tarihinden itibaren yedi gün içinde dilekçe ile veya sözlü olarak icra dairesine bildirmeye mecburdur. (Değişik ikinci cümle: 17/7/2003-4949/13 md.) İtiraz, takibi yapan icra dairesinden başka bir icra dairesine yapıldığı takdirde bu daire gereken masrafı itirazla birlikte alarak itirazı derhal yetkili icra dairesine gönderir; alınmayan masraftan memur şahsen sorumludur.\n(Değişik fıkra: 17/7/2003-4949/13 md.) Takibe itiraz edildiği, 59 uncu maddeye göre alacaklının yatırdığı avanstan karşılanmak suretiyle üç gün içinde bir muhtıra ile alacaklıya tebliğ edilir.\n(Ek fıkra: 17/7/2003-4949/13 md.) Borçlu veya vekili, dava ve takip işlemlerine esas olmak üzere borçluya ait yurt içinde bir adresi itirazla birlikte bildirmek zorundadır. Adresini değiştiren borçlu yurt içinde yeni adres bildirmediği ve tebliğ memurunca yurt içinde yeni adresi tespit edilemediği takdirde, takip talebinde gösterilen adrese çıkarılacak tebligat borçlunun kendisine yapılmış sayılır.\nBorcun bir kısmına itiraz eden borçlunun o kısman cihet ve miktarını açıkca göstermesi lazımdır. Aksi takdirde itiraz edilmemiş sayılır.\n(Mülga dördüncü fıkra: 17/7/2003-4949/103 md.)\nBorçlu takibin müstenidi olan senet altındaki imzayı reddediyorsa, bunu itirazında ayrıca ve açıkça beyan etmelidir. Aksi takdirde icra takibi yönünden senetteki imzayı kabul etmiş sayılır.\nBorçluya, itiraz eylediğine dair bedava ve pulsuz bir belge verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "71",
+   "official_text": "İcra mahkemesinin karariyle takibin talik veya iptali:\nMadde 71 – (Değişik: 18/2/1965-538/42 md.)\nBorçlu, takibin kesinleşmesinden sonraki devrede borcun ve ferilerinin itfa edildiğini yahut alacaklının kendisine bir mühlet verdiğini noterden tasdikli veya imzası ikrar edilmiş bir belge ile ispat ederse, takibin iptal veya talikini her zaman icra mahkemesinden istiyebilir.\nBorçlu, takibin kesinleşmesinden sonraki devrede borcun zamanaşımına uğradığını ileri sürecek olursa, 33 a. Maddesi hükmü kıyasen uygulanır.\nMenfi tesbit ve istirdat davaları:[35]\n[35] 2/7/2012 tarihli ve 6352 sayılı Kanunun 15 inci maddesiyle, 72 nci maddenin dördüncü fıkrasında yer alan “yüzde kırktan” ibaresi “yüzde yirmiden” ve beşinci fıkrasında yer alan “yüzde kırkından” ibaresi “yüzde yirmisinden” olarak değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "İCRA VE İFLAS KANUNU",
+   "law_no": "2004",
+   "article_no": "78",
+   "official_text": "1 – Talep Müddeti\nMadde 78 – (Değişik: 3/7/1940-3890/1 md.)\n(Değişik birinci fıkra:22/7/2020-7251/49 md.) Ödeme emrindeki müddet geçtikten ve borçlu itiraz etmiş ise itirazı kaldırıldıktan sonra mal beyanını beklemeksizin alacaklı, haciz konmasını isteyebilir. Ancak, alacaklı dilerse haciz talebinde bulunmaksızın Ulusal Yargı Ağı Bilişim Sistemi üzerinden, bu sisteme entegre bilişim sistemleri vasıtasıyla borçlunun mal, hak veya alacağını sorgulayabilir. Sorgulama sonunda Ulusal Yargı Ağı Bilişim Sistemi, varsa borçlunun mal, hak veya alacağının mahiyeti ve detayı hakkında bilgi verir ve bu durumda sistem üzerinden de haciz talep edilebilir. Bu takdirde icra dairesi, tespit edilen mal, hak veya alacağı elektronik ortamda haczeder. Sorgulama sonunda edinilen bilgiler hukuka aykırı olarak paylaşılamaz. Sorgulama ve haciz işlemlerinin yürütülebilmesi için kamu kurum veya kuruluşları ile 19/10/2005 tarihli ve 5411 sayılı Bankacılık Kanununun 3 üncü maddesinde tanımlanan kredi kuruluşları ve finansal kuruluşlar, Ulusal Yargı Ağı Bilişim Sistemi ile kendi sistemleri arasında entegrasyonu sağlar. Sorgulamanın tür, kapsam ve sınırı ile diğer hususlar Adalet Bakanlığınca yürürlüğe konulan yönetmelikle belirlenir.\n(Değişik:6/6/1985-3222/9 md.) Haciz istemek hakkı, ödeme emrinin tebliği tarihinden itibaren bir sene geçmekle düşer. İtiraz veya dava halinde bunların vukuundan hükmün katileşmesine kadar veya alacaklıyla borçlunun icra dairesinde taksit sözleşmeleri yapmaları halinde taksit sözleşmesinin ihlaline kadar geçen zaman hesaba katılmaz.\nAlacaklı isterse, haciz talebinin vukuuna dair bir vesika verilir. Bu vesika hiç bir harç ve resme tabi değildir.\nHaciz talebi kanuni müddet içinde yapılmaz veya geri alındıktan sonra bu müddet içinde yenilenmezse dosya muameleden kaldırılır.\nYeniden haciz istemek, alacaklı tarafından vukubulan yenileme talebinin borçluya tebliğine mütevakkıftır. İlama müstenit olmayan takiplerde yenileme talebi üzerine yeniden harc alınır. Yenileme masraf ve harcları borçluya tahmil edilmez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2004&MevzuatTur=1&MevzuatTertip=3",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "16",
+   "official_text": "Arabuluculuk sürecinin başlaması ve sürelere etkisi\nMADDE 16 – (1) Arabuluculuk süreci, dava açılmadan önce arabulucuya başvuru hâlinde, tarafların ilk toplantıya davet edilmeleri ve taraflarla arabulucu arasında sürecin devam ettirilmesi konusunda anlaşmaya varılıp bu durumun bir tutanakla belgelendirildiği tarihten itibaren işlemeye başlar. Dava açılmasından sonra arabulucuya başvuru hâlinde ise bu süreç, mahkemenin tarafları arabuluculuğa davetinin taraflarca kabul edilmesi veya tarafların arabulucuya başvurma konusunda anlaşmaya vardıklarını duruşma dışında mahkemeye yazılı olarak beyan ettikleri ya da duruşmada bu beyanlarının tutanağa geçirildiği tarihten itibaren işlemeye başlar.\n(2) Arabuluculuk sürecinin başlamasından sona ermesine kadar geçirilen süre, zamanaşımı ve hak düşürücü sürelerin hesaplanmasında dikkate alınmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/A",
+   "official_text": "MADDE 18/A- (Ek:6/12/2018-7155/23 md.)\n(1) İlgili kanunlarda arabulucuya başvurulmuş olması dava şartı olarak kabul edilmiş ise arabuluculuk sürecine aşağıdaki hükümler uygulanır.\n(2) Davacı, arabuluculuk faaliyeti sonunda anlaşmaya varılamadığına ilişkin son tutanağın aslını veya arabulucu tarafından onaylanmış bir örneğini dava dilekçesine eklemek zorundadır. Bu zorunluluğa uyulmaması hâlinde mahkemece davacıya, son tutanağın bir haftalık kesin süre içinde mahkemeye sunulması gerektiği, aksi takdirde davanın usulden reddedileceği ihtarını içeren davetiye gönderilir. İhtarın gereği yerine getirilmez ise dava dilekçesi karşı tarafa tebliğe çıkarılmaksızın davanın usulden reddine karar verilir. Arabulucuya başvurulmadan dava açıldığının anlaşılması hâlinde herhangi bir işlem yapılmaksızın davanın, dava şartı yokluğu sebebiyle usulden reddine karar verilir.\n(3) Daire Başkanlığı, sicile kayıtlı arabuluculardan bu madde uyarınca arabuluculuk yapmak isteyenleri, varsa uzmanlık alanlarını da belirterek, görev yapmak istedikleri adli yargı ilk derece mahkemesi adalet komisyonlarına göre listeler ve listeleri ilgili komisyon başkanlıklarına bildirir. Komisyon başkanlıkları, bu listeleri kendi yargı çevrelerindeki arabuluculuk bürolarına, arabuluculuk bürosu kurulmayan yerlerde ise görevlendirecekleri sulh hukuk mahkemesi yazı işleri müdürlüğüne gönderir.\n(4) Başvuru, uyuşmazlığın konusuna göre yetkili mahkemenin bulunduğu yer arabuluculuk bürosuna, arabuluculuk bürosu kurulmayan yerlerde ise görevlendirilen yazı işleri müdürlüğüne yapılır.\n(5) Arabulucu, komisyon başkanlıklarına bildirilen listeden büro tarafından belirlenir. Ancak tarafların listede yer alan herhangi bir arabulucu üzerinde anlaşmaları hâlinde bu arabulucu görevlendirilir.\n(6) Başvuran taraf, kendisine ve elinde bulunması hâlinde karşı tarafa ait her türlü iletişim bilgisini arabuluculuk bürosuna verir. Büro, tarafların resmî kayıtlarda yer alan iletişim bilgilerini araştırmaya da yetkilidir. İlgili kurum ve kuruluşlar, büro tarafından talep edilen bilgi ve belgeleri vermekle yükümlüdür.\n(7) Taraflara ait iletişim bilgileri, görevlendirilen arabulucuya büro tarafından verilir. Arabulucu bu iletişim bilgilerini esas alır, ihtiyaç duyduğunda kendiliğinden araştırma da yapabilir. Elindeki bilgiler itibarıyla her türlü iletişim vasıtasını kullanarak görevlendirme konusunda tarafları bilgilendirir ve ilk toplantıya davet eder. Bilgilendirme ve davete ilişkin işlemlerini belgeye bağlar.\n(8) Arabulucu, görevlendirmeyi yapan büronun yetkili olup olmadığını kendiliğinden dikkate alamaz. Karşı taraf en geç ilk toplantıda, yetkiye ilişkin belgeleri sunmak suretiyle arabuluculuk bürosunun yetkisine itiraz edebilir. Bu durumda arabulucu, dosyayı derhâl ilgili sulh hukuk mahkemesine gönderilmek üzere büroya teslim eder. Mahkeme, harç alınmaksızın dosya üzerinden yapacağı inceleme sonunda en geç bir hafta içinde yetkili büroyu kesin olarak karara bağlar ve dosyayı büroya iade eder. Mahkeme kararı büro tarafından 11/2/1959 tarihli ve 7201 sayılı Tebligat Kanunu hükümleri uyarınca taraflara tebliğ edilir. Yetki itirazının reddi durumunda aynı arabulucu yeniden görevlendirilir ve dokuzuncu fıkrada belirtilen süreler yeni görevlendirme tarihinden başlar. Yetki itirazının kabulü durumunda ise kararın tebliğinden itibaren bir hafta içinde yetkili büroya başvurulabilir. Bu takdirde yetkisiz büroya başvurma tarihi yetkili büroya başvurma tarihi olarak kabul edilir. Yetkili büro, beşinci fıkra uyarınca arabulucu görevlendirir.\n(9) Arabulucu, yapılan başvuruyu görevlendirildiği tarihten itibaren üç hafta içinde sonuçlandırır. Bu süre zorunlu hâllerde arabulucu tarafından en fazla bir hafta uzatılabilir.\n(10) Arabulucu; taraflara ulaşılamaması veya taraflar katılmadığı için görüşme yapılamaması ya da tarafların anlaşması yahut tarafların anlaşamaması hâllerinde arabuluculuk faaliyetini sona erdirir ve son tutanağı düzenleyerek durumu derhâl arabuluculuk bürosuna bildirir.\n(11) Taraflardan birinin geçerli bir mazeret göstermeksizin ilk toplantıya katılmaması sebebiyle arabuluculuk faaliyetinin sona ermesi durumunda toplantıya katılmayan taraf, son tutanakta belirtilir ve bu taraf davada kısmen veya tamamen haklı çıksa bile yargılama giderinin tamamından sorumlu tutulur. Ayrıca bu taraf lehine vekâlet ücretine hükmedilmez. Her iki tarafın da ilk toplantıya katılmaması sebebiyle sona eren arabuluculuk faaliyeti üzerine açılacak davalarda tarafların yaptıkları yargılama giderleri kendi üzerlerinde bırakılır.\n(12) Tarafların arabuluculuk faaliyeti sonunda anlaşmaları hâlinde, arabuluculuk ücreti, Arabuluculuk Asgari Ücret Tarifesinin eki Arabuluculuk Ücret Tarifesinin İkinci Kısmına göre aksi kararlaştırılmadıkça taraflarca eşit şekilde karşılanır. Bu durumda ücret, Tarifenin Birinci Kısmında belirlenen iki saatlik ücret tutarından az olamaz.\n(13) Arabuluculuk faaliyeti sonunda taraflara ulaşılamaması, taraflar katılmadığı için görüşme yapılamaması veya iki saatten az süren görüşmeler sonunda tarafların anlaşamamaları hâllerinde, iki saatlik ücret tutarı Tarifenin Birinci Kısmına göre Adalet Bakanlığı bütçesinden ödenir. İki saatten fazla süren görüşmeler sonunda tarafların anlaşamamaları hâlinde ise iki saati aşan kısma ilişkin ücret aksi kararlaştırılmadıkça taraflarca eşit şekilde uyuşmazlığın konusu dikkate alınarak Tarifenin Birinci Kısmına göre karşılanır. Adalet Bakanlığı bütçesinden ödenen ve taraflarca karşılanan arabuluculuk ücreti, yargılama giderlerinden sayılır.\n(14) Bu madde uyarınca arabuluculuk bürosu tarafından yapılması gereken zaruri giderler; arabuluculuk faaliyeti sonunda anlaşmaya varılması hâlinde anlaşma uyarınca taraflarca ödenmek, anlaşmaya varılamaması hâlinde ise ileride haksız çıkacak taraftan tahsil olunmak üzere Adalet Bakanlığı bütçesinden karşılanır.\n(15) Arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar geçen sürede zamanaşımı durur ve hak düşürücü süre işlemez.\n(16) Dava açılmadan önce ihtiyati tedbir kararı verilmesi hâlinde 6100 sayılı Kanunun 397 nci maddesinin birinci fıkrasında, ihtiyati haciz kararı verilmesi hâlinde ise 9/6/1932 tarihli ve 2004 sayılı İcra ve İflas Kanununun 264 üncü maddesinin birinci fıkrasında düzenlenen dava açma süresi, arabuluculuk bürosuna başvurulmasından son tutanağın düzenlendiği tarihe kadar işlemez.\n(17) Arabuluculuk görüşmeleri, taraflarca aksi kararlaştırılmadıkça, arabulucuyu görevlendiren büronun bağlı bulunduğu adli yargı ilk derece mahkemesi adalet komisyonunun yetki alanı içinde yürütülür.\n(18) Özel kanunlarda tahkim veya başka bir alternatif uyuşmazlık çözüm yoluna başvurma zorunluluğunun olduğu veya tahkim sözleşmesinin bulunduğu hâllerde, dava şartı olarak arabuluculuğa ilişkin hükümler uygulanmaz.\n(19) İlgili kanunlarda dava şartı olarak arabuluculuğa ilişkin kabul edilen özel hükümler saklıdır.\n(20) Bu bölümde hüküm bulunmayan hâllerde niteliğine uygun düştüğü ölçüde bu Kanunun diğer hükümleri uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK UYUŞMAZLIKLARINDA ARABULUCULUK KANUNU",
+   "law_no": "6325",
+   "article_no": "18/B",
+   "official_text": "Bazı uyuşmazlıklarda dava şartı olarak arabuluculuk\nMADDE 18/B- (Ek:28/3/2023-7445/37 md.)\n(1) Aşağıdaki uyuşmazlıklarda, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır:\na) Kiralanan taşınmazların 2004 sayılı Kanuna göre ilamsız icra yoluyla tahliyesine ilişkin hükümler hariç olmak üzere, kira ilişkisinden kaynaklanan uyuşmazlıklar.\nb) Taşınır ve taşınmazların paylaştırılmasına ve ortaklığın giderilmesine ilişkin uyuşmazlıklar.\nc) 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanunundan kaynaklanan uyuşmazlıklar.\nç) Komşu hakkından kaynaklanan uyuşmazlıklar.\n(2) Arabuluculuk süreci sonunda tarafların anlaşması halinde anlaşma belgesi, taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslar gözetilmek suretiyle düzenlenir.\n(3) Bu madde kapsamında düzenlenen anlaşma belgesinin icra edilebilirliğine ilişkin şerhin alınması zorunlu olup bu şerh taşınmazla ilgili anlaşma belgeleri bakımından taşınmazın bulunduğu yer, diğer anlaşma belgeleri bakımından ise arabulucunun görev yaptığı yer sulh hukuk mahkemesinden alınır. Mahkeme taşınmazla ilgili anlaşma belgeleri bakımından yapacağı incelemede anlaşma içeriğini, arabuluculuğa ve cebri icraya elverişli olup olmadığı ve taşınmazla ilgili olarak kanunlarda yer alan sınırlamalar ile usul ve esaslara uyulup uyulmadığı yönünden denetler; bu kapsamda kurum veya kuruluşlardan bilgi veya belge talep edebilir ve gerektiğinde duruşma açabilir.\n(4) Anlaşma belgesinin icra edilebilirliğine ilişkin şerhin verilmesiyle ilgili diğer hususlar hakkında 18 inci madde hükmü uygulanır.\n(5) (Ek:7/11/2024-7531/26 md.) Taşınmazın devrine veya taşınmaz üzerinde sınırlı ayni hak kurulmasına ilişkin anlaşma belgesinin taraflarından biri, icra edilebilirlik şerhi verilmesinden sonra tapu müdürlüğünden tescil talebinde bulunabilir. Tapu müdürlüğünce taşınmaza ilişkin mevzuatta öngörülen gerekli inceleme ve değerlendirme yapıldıktan sonra resmi senet düzenlenmeksizin tescil talebi yerine getirilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6325&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "4",
+   "official_text": "1. Genel olarak\nMADDE 4- (1) Her iki tarafın da ticari işletmesiyle ilgili hususlardan doğan hukuk davaları ve çekişmesiz yargı işleri ile tarafların tacir olup olmadıklarına bakılmaksızın;\na) Bu Kanunda,\nb) Türk Medenî Kanununun, rehin karşılığında ödünç verme işi ile uğraşanlar hakkındaki 962 ilâ 969 uncu maddelerinde,\nc) 11/1/2011 tarihli ve 6098 sayılı Türk Borçlar Kanununun malvarlığının veya işletmenin devralınması ile işletmelerin birleşmesi ve şekil değiştirmesi hakkındaki 202 ve 203, rekabet yasağına ilişkin 444 ve 447, yayın sözleşmesine dair 487 ilâ 501, kredi mektubu ve kredi emrini düzenleyen 515 ilâ 519, komisyon sözleşmesine ilişkin 532 ilâ 545, ticari temsilciler, ticari vekiller ve diğer tacir yardımcıları için öngörülmüş bulunan 547 ilâ 554, havale hakkındaki 555 ilâ 560, saklama sözleşmelerini düzenleyen 561 ilâ 580 inci maddelerinde,\nd) Fikrî mülkiyet hukukuna dair mevzuatta,\ne) Borsa, sergi, panayır ve pazarlar ile antrepo ve ticarete özgü diğer yerlere ilişkin özel hükümlerde,\nf) Bankalara, diğer kredi kuruluşlarına, finansal kurumlara ve ödünç para verme işlerine ilişkin düzenlemelerde,\nöngörülen hususlardan doğan hukuk davaları ve çekişmesiz yargı işleri ticari dava ve ticari nitelikte çekişmesiz yargı işi sayılır. Ancak, herhangi bir ticari işletmeyi ilgilendirmeyen havale, vedia ve fikir ve sanat eserlerine ilişkin haklardan doğan davalar bundan istisnadır.[3]\n(2) (Değişik: 28/2/2018-7101/61 md.) Ticari davalarda da deliller ile bunların sunulması 12/1/2011 tarihli ve 6100 sayılı Hukuk Muhakemeleri Kanunu hükümlerine tabidir; miktar veya değeri bir milyon Türk lirasını geçmeyen ticari davalarda basit yargılama usulü uygulanır. (Ek cümle: 28/3/2023-7445/30 md.) Bu fıkrada belirtilen parasal sınır, 6100 sayılı Kanunun ek 1 inci maddesinin birinci fıkrasına göre artırılır.[4][5]\n2. Ticari davalar ve çekişmesiz yargı işlerinin görüleceği mahkemeler[6]\n3)“Denizcilik Müsteşarlığı”, “Denizcilik Müsteşarlığının”, “Denizcilik Müsteşarlığınca”, “Denizcilik Müsteşarlığına”, “Denizcilik Müsteşarlığından” ibareleri sırasıyla “Ulaştırma, Denizcilik ve Haberleşme Bakanlığı”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığının”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığınca”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığına”, “Ulaştırma, Denizcilik ve Haberleşme Bakanlığından”,\n[4] 22/7/2020 tarihli ve 7251 sayılı Kanunun 58 inci maddesiyle, bu fıkrada yer alan “yüz bin” ibaresi “beş yüz bin” şeklinde değiştirilmiştir.\n[5] 28/3/2023 tarihli ve 7445 sayılı Kanunun 30 uncu maddesiyle bu fıkrada yer alan “beş yüz bin” ibaresi “bir milyon” şeklinde değiştirilmiştir.\n[6] Bu madde başlığı “2. Ticari davaların görüleceği mahkemeler” iken, 26/6/2012 tarihli ve 6335 sayılı Kanunun 2 nci maddesiyle metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK TİCARET KANUNU",
+   "law_no": "6102",
+   "article_no": "5/A",
+   "official_text": "3. Dava şartı olarak arabuluculuk\nMADDE 5/A- (Ek:6/12/2018-7155/20 md.)\n(1) Bu Kanunun 4 üncü maddesinde ve diğer kanunlarda belirtilen ticari davalardan, konusu bir miktar para olan alacak, tazminat, itirazın iptali, menfi tespit ve istirdat davalarında, dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır.[8]\n(2) Arabulucu, yapılan başvuruyu görevlendirildiği tarihten itibaren altı hafta içinde sonuçlandırır. Bu süre zorunlu hâllerde arabulucu tarafından en fazla iki hafta uzatılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6102&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "AVUKATLIK KANUNU",
+   "law_no": "1136",
+   "article_no": "40",
+   "official_text": "Tazminat isteklerinde zamanaşımı:\nMadde 40 – (Değişik: 2/5/2001 - 4667/27 md.)\nİş sahibi tarafından sözleşmeye dayanılarak avukata karşı ileri sürülen tazminat istekleri, bu hakkın doğumunun öğrenildiği tarihten itibaren bir yıl ve her halde zararı doğuran olaydan itibaren beş yıl geçmekle düşer.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1136&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2013/15-169",
+   "karar_no": "2013/1365",
+   "decision_date": "18.09.2013",
+   "summary_md": "Bir kooperatifin konut inşaatında elektrik tesisatı işini üstlenen yüklenici, bakiye 7.700 TL ücret alacağı için iş sahibi kooperatife dava açmıştır. Alacak eserin en geç 31.12.2003'te teslimiyle muaccel olmuş, yüklenici 12.09.2007'de icra takibi başlatmış, takip dosyası 18.11.2008'de işlemden kaldırılmış, dava 2011'de açılmıştır. Yerel mahkeme beş yıllık sürenin dolduğunu ve işlemden kaldırmayla takibin kesme etkisinin ortadan kalktığını kabul ederek davayı reddetmiş, Yargıtay 15. Hukuk Dairesi bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oy birliğiyle direnme kararını bozmuştur. Gerekçeye göre eser sözleşmesinden doğan alacak beş yıllık süreye tabidir, icra takibi zamanaşımını keser ve kesilmeden itibaren aynı uzunlukta yeni bir süre başlar. Bir yıl içinde haciz istenmediği için dosyanın işlemden kaldırılması takibi sona erdirmez, takip derdest kalır ve yenilemeyle sürdürülebilir; bu yüzden kesme etkisi ortadan kalkmaz. Karar ayrıca zamanaşımına uğrayan borcun eksik borca dönüştüğünü, kesilme için sürenin henüz dolmamış olması gerektiğini ve kısmi dava ya da takipte kesilmenin yalnız dava veya takip edilen kısım için gerçekleştiğini vurgular. Konuya katkısı: icra takibinin zamanaşımına etkisini ve kesilmenin genel ilkelerini toplu olarak gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=76448800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2017/1093",
+   "karar_no": "2017/1090",
+   "decision_date": "07.06.2017",
+   "summary_md": "Kasko sigortalı aracı kazada hasar gören davacı, sigortacıya tazminat davası açmıştır. Dava dilekçesi 19.09.2011'de tebliğ edilen davalı, cevap dilekçesini yasal süre geçtikten sonra 17.10.2011'de vermiş; bu dilekçede zamanaşımı def'inde bulunmuş, bu kabul edilmezse savunmasını ıslah ederek aynı def'iyi ileri sürdüğünü bildirmiştir. Davacı savunmanın genişletilmesine muvafakat etmediğini bildirmiştir. Ticaret mahkemesi ıslah yoluyla zamanaşımı def'inin ileri sürülebileceğini kabul ederek davayı reddetmiş, Yargıtay 17. Hukuk Dairesi bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu oy çokluğuyla direnme kararını bozmuştur. Gerekçeye göre zamanaşımı ilk itiraz değildir, ama savunmanın genişletilmesi yasağı başlamadan ileri sürülmelidir. Süresinde cevap vermeyen davalının sonradan ileri sürdüğü def'i ancak davacının açık muvafakatiyle dinlenir. Islahın konusu daha önce yapılmış geçerli bir usul işlemi olduğundan, süresinde verilmemiş ve itirazla karşılaşmış bir cevap dilekçesi ıslah edilemez; ıslah kaçırılmış süreyi geri getirmez. Karşı oy, süresinde cevap vermeyen davalının da ıslahla def'i ileri sürebileceğini savunmuştur. Karar, HMK m. 141'in 7251 sayılı Kanunla 2020'de değişmeden önceki metnine dayanır; o metin dilekçelerden sonra ön inceleme aşamasında açık muvafakatle, karşı taraf ön inceleme duruşmasına mazeretsiz gelmemişse muvafakatsiz genişletmeye de izin veriyordu. Bugünkü metinde taraflar cevaba cevap ve ikinci cevap dilekçeleriyle serbestçe genişletebilir, dilekçelerin karşılıklı verilmesinden sonra genişletme yasaktır; açık muvafakat ve ıslah istisnası (HMK m. 141/2) aynen korunmuştur. Bu yüzden kararın süresinde cevap vermeyen davalıya ilişkin sonucu değişmemiştir; Hukuk Genel Kurulu 2021'de değişik metni de anarak aynı sonuca yine oy çokluğuyla varmıştır. Konuya katkısı: def'inin ileri sürülme zamanını ve ıslahla ilişkisini gösterir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/348425100",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "4. Hukuk Dairesi",
+   "esas_no": "2025/6124",
+   "karar_no": "2025/16941",
+   "decision_date": "18.12.2025",
+   "summary_md": "Kasko sigortalı aracı çalınan davacı, fazlaya ilişkin hakkını saklı tutarak sigortacıya 30.000 TL araç bedeli ve 70.000 TL kazanç kaybı için dava açmış, 28.10.2022'de ıslahla araç bedeli talebini 44.349,40 TL'ye çıkarmıştır. Davalı, ıslah dilekçesinin tebliği üzerine süresi içinde artırılan kısım için zamanaşımı def'inde bulunmuştur. İlk derece mahkemesi, Daire'nin bu def'inin incelenmesi gerektiğine ilişkin önceki bozma kararına uyduktan sonra def'iyi reddetmiş ve araç bedelini kabul etmiştir. Yargıtay 4. Hukuk Dairesi hükmü oy birliğiyle bozmuştur. Olay 18.12.2009'da gerçekleşmiş, sigortacının 15.03.2010 tarihli borç ikrarı sigorta alacağına uygulanan iki yıllık zamanaşımını kesmiş ve eski Borçlar Kanunu'nun senetle ikrar kuralı (bugün TBK m. 156/2) uyarınca ikrar tarihinden itibaren on yıllık yeni süre başlamıştır. Dava 11.11.2014'te açılmıştır, ama kısmi davada zamanaşımı yalnız dava edilen kısım için kesildiğinden saklı tutulan kısım için süre işlemeye devam etmiş ve ıslah tarihinde dolmuştur; artırılan kısım reddedilmelidir. Konuya katkısı: ikrarın kesme etkisini, yeni süreyi ve kısmi davada eski uygulamayı gösterir. 7589 sayılı Kanunla eklenen HMK m. 109/4, talebin bir kez artırıldığı kısmi davalarda bu sonucu değiştirmiş, artırılan kısım için de zamanaşımının dava tarihinden kesilmiş sayılmasını öngörmüştür.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1229194200",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Kiraya veren, kira alacağı için dava açmadan önce arabuluculuk bürosuna başvurmuştur. Başvurunun zamanaşımına etkisi hakkında hangisi doğrudur?",
+   "options": [
+    "Arabuluculuk bir dava olmadığı için zamanaşımına hiçbir etkisi yoktur.",
+    "Başvurudan son tutanağın düzenlendiği tarihe kadar zamanaşımı durur, sonra kalan süre işler.",
+    "Başvuru zamanaşımını keser ve son tutanaktan itibaren yeni beş yıllık süre başlar.",
+    "Başvuru, o tarihte dolmuş olan süreleri de yeniden canlandırır."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kira ilişkisinden doğan uyuşmazlıklarda dava açmadan önce arabulucuya başvurmak dava şartıdır (HUAK m. 18/B). Dava şartı arabuluculukta başvurudan son tutanağa kadar zamanaşımı durur ve hak düşürücü süre işlemez (HUAK m. 18/A'nın 15. fıkrası). Durma kesilme değildir: süre baştan başlamaz, kaldığı yerden devam eder. Başvurudan önce dolmuş bir süre de canlanmaz."
+  },
+  {
+   "stem_md": "TBK m. 147'ye göre aşağıdaki alacaklardan hangisi beş yıllık zamanaşımına **tabi değildir**?",
+   "options": [
+    "Ticari simsarın ücret alacağı",
+    "Adi ortaklıkta bir ortağın ortaklık sözleşmesinden doğan kâr payı alacağı",
+    "Lokantadaki yeme içme bedeli",
+    "Acentalık sözleşmesinden doğan alacak"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 147/5, simsarlık sözleşmesinden doğan alacakları beş yıla bağlarken **ticari simsarlık ücreti alacağını** açıkça dışarıda bırakır. Özel bir hüküm yoksa bu alacağa on yıllık genel süre uygulanır (TBK m. 146). Yeme içme bedeli (m. 147/2), ortaklık sözleşmesinden doğan alacak (m. 147/4) ve acentalık sözleşmesinden doğan alacak (m. 147/5) beş yıldır."
+  },
+  {
+   "stem_md": "Av. Selin, müvekkili Kaan'ın alacak davasını sonuçlandırmıştır. Avukatlık sözleşmesinde kararlaştırılan 150.000 TL ücret muaccel olmuş, ama Kaan ödememiştir. Selin'in ücret alacağının tabi olduğu zamanaşımı süresi hakkında hangisi doğrudur?",
+   "options": [
+    "Avukatlık sözleşmesi bir vekâlet sözleşmesi olduğundan ücret alacağı beş yıllık zamanaşımına tabidir.",
+    "Avukatlık ücreti için kanunda özel bir süre bulunmadığından on yıllık genel süre uygulanır.",
+    "Ücret alacağı haksız fiil hükümlerine göre öğrenmeden itibaren iki yıllık süreye tabidir.",
+    "Ücret alacağı, müvekkilin avukata karşı tazminat istekleri gibi, öğrenmeden itibaren bir yıllık süreye tabidir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Avukatlık sözleşmesi bir vekâlet sözleşmesidir. TBK m. 147/5 vekâlet sözleşmesinden doğan alacakları beş yıllık zamanaşımına bağlar ve Yargıtay avukatın ücret alacağına bu süreyi uygular. Alacak sözleşmeden doğduğu için haksız fiil süresi (TBK m. 72) uygulanmaz. Bir yıllık süre ise yalnız müvekkilin sözleşmeye dayanarak avukata karşı ileri sürdüğü tazminat istekleri içindir: bu istekler hakkın doğumunun öğrenildiği tarihten bir yıl ve her hâlde zararı doğuran olaydan beş yıl geçmekle düşer (1136 sayılı Kanun m. 40)."
+  },
+  {
+   "stem_md": "Mert 2014'te Deniz'e faizli 500.000 TL ödünç vermiştir. Anapara 01.06.2020'de geri ödenecek, faizler her yıl sonunda ödenecektir. Deniz 2014-2019 yıllarının faizlerini ve anaparayı ödememiş, zamanaşımını kesen ya da durduran bir olay da olmamıştır. Mert 2026'da dava açar, Deniz zamanaşımı def'inde bulunur. Hangisi doğrudur?",
+   "options": [
+    "Faizler anaparaya bağlı olduğundan anapara muaccel olmadıkça faizler için zamanaşımı işlemez.",
+    "Anapara da faizler de on yıllık süreye tabi olduğundan hepsi istenebilir.",
+    "Faizler zamanaşımına uğradığı için bağlılık ilkesi gereği anapara da zamanaşımına uğramıştır.",
+    "Anapara on yıllık süreye tabi olduğundan istenebilir; yıllık faizlerin her biri kendi muacceliyetinden başlayan beş yılda zamanaşımına uğramıştır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Anapara faizleri dönemsel edim olarak beş yıllık süreye tabidir (TBK m. 147/1) ve her yılın faizi kendi muacceliyetinden başlayarak ayrı ayrı zamanaşımına uğrar; en son 2019 faizi 2024 sonunda düşmüştür. Ödünç verilen paranın geri istenmesi ise on yıldır (TBK m. 146) ve 01.06.2030'a kadar istenebilir. TBK m. 152 yalnız bir yönde işler: asıl alacak zamanaşımına uğrayınca faiz de uğrar; faizin zamanaşımı asıl alacağı etkilemez."
+  },
+  {
+   "stem_md": "Bir eser sözleşmesine \"Bu sözleşmeden doğan bütün alacaklar iki yılda zamanaşımına uğrar\" hükmü konmuştur. Yüklenici bedel alacağı için eserin tesliminden üç yıl sonra dava açar, iş sahibi zamanaşımı def'inde bulunur. Hangisi doğrudur?",
+   "options": [
+    "Hüküm geçerlidir, ama yalnız iş sahibinin alacaklarına uygulanır.",
+    "Süre sözleşmeyle değiştirilemeyeceği için kanundaki beş yıllık süre uygulanır ve dava süresindedir.",
+    "Taraflar süreyi serbestçe kısaltabileceği için alacak zamanaşımına uğramıştır.",
+    "Süre sözleşmeyle uzatılamaz ama kısaltılabilir; bu yüzden dava reddedilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 148'e göre bu ayırımda belirlenen zamanaşımı süreleri sözleşmeyle değiştirilemez; kısaltma da uzatma da yasaktır. Yüklenicinin bedel alacağı beş yıllık süreye tabidir (TBK m. 147/6) ve bedel kural olarak eserin teslimiyle muaccel olur (TBK m. 479). Teslimden üç yıl sonra açılan dava süresindedir; sözleşmedeki iki yıllık kayda dayanılamaz."
+  },
+  {
+   "stem_md": "Zamanaşımı ile hak düşürücü süre arasındaki fark bakımından hangisi doğrudur?",
+   "options": [
+    "Zamanaşımı dolunca alacak tamamen sona erer; hak düşürücü süre dolunca hak eksik borç olarak kalır.",
+    "İkisi de ancak def'i olarak ileri sürülürse dikkate alınır.",
+    "Hak düşürücü sürenin dolduğunu hâkim kendiliğinden gözetir; zamanaşımını ise ileri sürülmedikçe gözetemez.",
+    "Hak düşürücü süreler de borçlunun ikrarıyla kesilir ve yeniden başlar."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Zamanaşımı bir def'idir: ileri sürülmedikçe hâkim onu kendiliğinden göz önüne alamaz (TBK m. 161). Zamanaşımına uğrayan alacak sona ermez, eksik borç olur. Hak düşürücü süre ise hakkın kendisini sona erdirir ve hâkim bunu kendiliğinden gözetir; örneğin yanılma nedeniyle sözleşmeyle bağlı olmadığını bildirme süresi (TBK m. 39). İkrarla kesilme zamanaşımına özgü bir kurumdur (TBK m. 154)."
+  },
+  {
+   "stem_md": "Alacağın muaccel olması alacaklının bir bildirimine bağlı ise zamanaşımı ne zaman işlemeye başlar?",
+   "options": [
+    "Bildirimden sonra borçluya tanınan sürenin bittiği günden",
+    "Alacaklının alacağını öğrendiği günden",
+    "Bildirimin yapılabileceği günden",
+    "Alacaklının bildirimi fiilen yaptığı günden"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 149/2'ye göre alacağın muaccel olması bir bildirime bağlı ise zamanaşımı bu bildirimin **yapılabileceği** günden işlemeye başlar. Böylece alacaklı bildirimi geciktirerek başlangıcı erteleyemez. Öğrenme ölçütü TBK m. 146-147'de yoktur; haksız fiil (TBK m. 72) ve sebepsiz zenginleşme (TBK m. 82) için geçerlidir."
+  },
+  {
+   "stem_md": "Ömür boyu gelir gibi dönemsel edimlerde alacağın **tamamı** için zamanaşımı ne zaman başlar?",
+   "options": [
+    "Gelir sözleşmesinin kurulduğu gün",
+    "Gelir alacaklısının ölümüyle",
+    "En son ödenen dönemsel edimin ödendiği gün",
+    "İfa edilmemiş ilk dönemsel edimin muaccel olduğu gün"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 150/1'e göre ömür boyu gelir ve benzeri dönemsel edimlerde alacağın tamamı için zamanaşımı, ifa edilmemiş ilk dönemsel edimin muaccel olduğu günde başlar. Alacağın tamamı zamanaşımına uğrarsa ifa edilmemiş dönemsel edimler de zamanaşımına uğramış olur (m. 150/2). Tek tek taksitler ise beş yıllık süreye tabidir (TBK m. 147/1)."
+  },
+  {
+   "stem_md": "Kira bedeli 16.03.2021'de muaccel olmuştur. Arada ne durma ne de kesilme olmuştur. Kiraya veren 16.03.2026'da dava açar. Hangisi doğrudur?",
+   "options": [
+    "Süre 15.03.2026'da dolduğu için alacak zamanaşımına uğramıştır.",
+    "Kira bedeli on yıllık süreye tabi olduğu için tarihlerin önemi yoktur.",
+    "Başlangıç günü sayılmadığı ve zamanaşımı ancak son gün de geçince gerçekleştiği için dava süresindedir.",
+    "Zamanaşımı muacceliyetten değil, kiraya verenin ödemenin yapılmadığını fark ettiği günden başlar."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Kira bedeli beş yıllık süreye tabidir (TBK m. 147/1) ve süre muacceliyetle başlar (TBK m. 149). TBK m. 151/1'e göre başlangıç günü sayılmaz ve zamanaşımı ancak son gün de hak kullanılmadan geçince gerçekleşir. Yıl olarak belirlenen süre son yılın karşılık gelen gününde dolduğundan (TBK m. 92/1-3) süre 16.03.2026 gününün bitiminde dolar; o gün açılan dava süresindedir."
+  },
+  {
+   "stem_md": "TBK m. 153'e göre aşağıdakilerden hangisi zamanaşımını durduran sebepler arasında **sayılmamıştır**?",
+   "options": [
+    "Hizmet ilişkisi süresince, ev hizmetlilerinin onları çalıştıranlardan olan alacakları",
+    "Evlilik devam ettiği sürece, eşlerin diğerinden olan alacakları",
+    "Velayet süresince, çocukların ana ve babalarından olan alacakları",
+    "Nişanlılık devam ettiği sürece, nişanlıların birbirinden olan alacakları"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 153 yedi durma sebebi sayar: velayet, vesayet, evlilik, ev hizmetlilerinin hizmet ilişkisi, borçlunun alacak üzerindeki intifa hakkı, alacağı Türk mahkemelerinde ileri sürme imkânının bulunmaması ve birleşmenin geçmişe etkili olarak ortadan kalkması. Nişanlılık bu sebepler arasında yoktur; nişanlılar arasındaki alacaklarda süre işler."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi TBK m. 154'e göre zamanaşımını **kesmez**?",
+   "options": [
+    "Borçlunun borç için kefil göstermesi",
+    "Borçlunun faiz ödemesi",
+    "Alacaklının icra takibinde bulunması",
+    "Alacaklının borçluya noter aracılığıyla ihtarname göndermesi"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 154 kesilme sebeplerini borçlunun ikrarı (faiz ödeme, kısmi ifa, rehin verme, kefil gösterme) ile alacaklının dava, def'i, icra takibi ve iflas masasına başvurusu olarak sayar. İhtarname bunlar arasında değildir. İhtar borçluyu temerrüde düşürebilir, ama zamanaşımını kesmez."
+  },
+  {
+   "stem_md": "Banka, Ozan'ın kredi borcuna kefil olan Pınar hakkında icra takibi başlatmış, Ozan hakkında hiçbir işlem yapmamıştır. Ozan da borcu ikrar eden bir davranışta bulunmamıştır. Zamanaşımının kesilmesi bakımından hangisi doğrudur?",
+   "options": [
+    "Kefil ile asıl borçlunun borcu aynı borç olduğu için takip ikisine karşı da zamanaşımını keser.",
+    "Takip Pınar'a karşı zamanaşımını keser, Ozan'a karşı kesmez.",
+    "Kefile karşı kesilme asıl borçluyu da etkilediği için Ozan'a karşı da kesilmiştir.",
+    "Kefile karşı başlatılan icra takibi zamanaşımını kesmez; yalnız asıl borçluya karşı takip keser."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 155/3'e göre zamanaşımı kefile karşı kesilince asıl borçluya karşı kesilmiş olmaz. Tersi ise geçerlidir: asıl borçluya karşı kesilme kefile karşı da kesilme sayılır (m. 155/2). İcra takibi kimin hakkında başlatılmışsa ona karşı zamanaşımını keser (TBK m. 154/2)."
+  },
+  {
+   "stem_md": "Kiracı Okan'ın 2023 yılına ait kira borcu muaccel olmuştur. Okan 10.01.2026'da kiraya verene \"2023 yılı kiralarından 120.000 TL borcum vardır\" yazan imzalı bir belge verir. Bu belgenin zamanaşımına etkisi nedir?",
+   "options": [
+    "Belge zamanaşımı dolmadan verildiği için hiçbir etkisi yoktur.",
+    "Zamanaşımı kesilir ve yeni süre yine beş yıldır.",
+    "Zamanaşımı yalnız durur, belge tarihinden sonra kalan süre işler.",
+    "Zamanaşımı kesilir ve borç senetle ikrar edildiği için yeni süre on yıldır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Borcun ikrarı zamanaşımını keser (TBK m. 154/1) ve kural olarak kesilen sürenin aynısı yeniden başlar (TBK m. 156/1). Ancak borç bir senetle ikrar edilmişse yeni süre her zaman on yıldır (TBK m. 156/2). Kira bedeli için beş yıllık süre (TBK m. 147/1) 2028'den önce dolmayacağından ikrar işleyen bir süreyi kesmiştir."
+  },
+  {
+   "stem_md": "Yüklenici Hasan, eser bedeli alacağı için 2023'te icra takibi başlatmıştır. Ödeme emri tebliğ edilmiş, borçlu itiraz etmemiş, ama Hasan bir yıl içinde haciz istemediği için dosya işlemden kaldırılmıştır. Borçlu, işlemden kaldırmayla takibin zamanaşımını kesen etkisinin ortadan kalktığını ileri sürmektedir. Yargıtay Hukuk Genel Kurulu'nun yaklaşımına göre hangisi doğrudur?",
+   "options": [
+    "İşlemden kaldırma takibi sona erdirmez, takip derdest kalır ve kesme etkisi sürer.",
+    "Kesme etkisi ancak alacaklı işlemden kaldırmadan sonraki bir ay içinde yenileme isterse sürer.",
+    "İcra takibi zamanaşımını kesmez, yalnız dava keser.",
+    "İşlemden kaldırılan takip hiç yapılmamış sayılır, kesme etkisi ortadan kalkar."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İcra takibi zamanaşımını keser (TBK m. 154/2). İİK m. 78'e göre süresinde haciz istenmezse dosya işlemden kaldırılır, ama Hukuk Genel Kurulu'na göre bu takibi sona erdirmez; takip derdest kalır ve alacaklı yenileme talebiyle aynı dosyada devam edebilir. Bu nedenle takibin kesme etkisi ortadan kalkmaz. Yenileme talebi ise süreyi yeniden keser (TBK m. 157/2)."
+  },
+  {
+   "stem_md": "Selda'nın tazminat istemi için zamanaşımı 2020'de dolmuştur. Selda 2021'de istemini idare mahkemesinde ileri sürer; mahkeme davanın adli yargıda görülmesi gerektiği gerekçesiyle davayı reddeder ve karar kesinleşir. Selda kesinleşmeden itibaren altmış gün içinde adli yargıda dava açar ve TBK m. 158'e dayanır. Hangisi doğrudur?",
+   "options": [
+    "Altmış günlük ek süre her durumda tanındığı için dava süresindedir.",
+    "Ek süre yalnız hak düşürücü süreler için öngörüldüğünden zamanaşımına uygulanmaz.",
+    "Ek süre ancak ilk dava zamanaşımı dolmadan açılmışsa işe yarar; süre ilk davadan önce dolduğu için Selda ek süreden yararlanamaz.",
+    "Ek süre, ilk davanın açıldığı tarihten itibaren altmış gündür."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 158, dava reddedilmiş olup \"o arada\" zamanaşımı ya da hak düşürücü süre dolmuşsa altmış günlük ek süre tanır; madde iki tür süreyi de kapsar. Yargıtay uygulamasına göre ek süre ret kararının kesinleşmesinden işler ve ilk davanın zamanaşımı dolmadan açılmış olmasını gerektirir. Selda'nın süresi ilk davadan önce dolduğu için ek süre onu kurtarmaz."
+  },
+  {
+   "stem_md": "Rehinle güvence altına alınmış alacaklarda zamanaşımı hakkında hangisi doğrudur?",
+   "options": [
+    "Taşınır rehninde zamanaşımı işler ama alacaklının hakkını rehinden alma yetkisi devam eder; tapuya tescilli taşınmaz rehninde ise tescilden sonra zamanaşımı işlemez.",
+    "Taşınır rehniyle güvence altına alınmış alacakta zamanaşımı hiç işlemez.",
+    "Rehinli alacak zamanaşımına uğrayınca rehin de kendiliğinden sona erer.",
+    "Taşınmaz rehninde zamanaşımı işler, taşınır rehninde işlemez."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 159'a göre alacağın taşınır rehniyle güvenceye bağlanması zamanaşımının işlemesine engel olmaz, ama alacaklının hakkını rehinden alma yetkisi devam eder. TMK m. 864'e göre ise rehnin tapu kütüğüne tescil edilmesinden sonra alacak için zamanaşımı işlemez."
+  },
+  {
+   "stem_md": "Ali ve Veli, Zeynep'e karşı 200.000 TL'lik bir borçtan müteselsilen sorumludur. Borç 2024'te zamanaşımına uğramıştır. Veli 2025'te Zeynep'e gönderdiği imzalı yazıda zamanaşımını ileri sürmeyeceğini ve borcu ödeyeceğini bildirir. Zeynep 2026'da ikisine dava açar, ikisi de zamanaşımı def'inde bulunur. Hangisi doğrudur?",
+   "options": [
+    "Veli'nin yazısı zamanaşımını kestiği için ikisine karşı da yeni süre başlamıştır.",
+    "Müteselsil borçlulardan birinin feragati hepsini bağladığı için ikisinin def'i de reddedilir.",
+    "Veli süre dolduktan sonra feragat ettiği için def'iye dayanamaz; feragati Ali'ye karşı ileri sürülemeyeceğinden Ali'nin def'i kabul edilir.",
+    "Zamanaşımından feragat hiçbir zaman geçerli olmadığından ikisinin def'i de kabul edilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 160/1 yalnız **önceden** feragati yasaklar; süre dolduktan sonra doğmuş def'i hakkından vazgeçmek geçerlidir. Müteselsil borçlulardan birinin feragati diğerlerine karşı ileri sürülemez (m. 160/2). Yazı zamanaşımını da kesmez, çünkü dolmuş bir süre kesilemez; bu yüzden kesilmenin herkese yayıldığını söyleyen TBK m. 155/1 burada uygulanmaz."
+  },
+  {
+   "stem_md": "Dava dilekçesi kendisine tebliğ edilen davalı, iki haftalık süre içinde cevap dilekçesi vermez ve ek süre de istemez. Aylar sonra verdiği dilekçede alacağın zamanaşımına uğradığını ileri sürer; davacı açıkça karşı çıkar. Davalı ıslah yoluna da başvurmamıştır. Hangisi doğrudur?",
+   "options": [
+    "Süresinde cevap vermeyen davalı bütün vakıaları inkâr etmiş sayıldığından zamanaşımı def'i de ileri sürülmüş sayılır.",
+    "Hâkim zamanaşımını kendiliğinden gözetmek zorunda olduğundan def'inin zamanı önemsizdir.",
+    "Def'i savunmanın genişletilmesi niteliğindedir; davacının açık muvafakati olmadığından dikkate alınamaz.",
+    "Zamanaşımı ilk itiraz olduğundan yalnız cevap dilekçesinde ileri sürülebilir; davacı muvafakat etse bile dinlenmez."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Süresinde cevap vermeyen davalı davacının vakıalarını inkâr etmiş sayılır (HMK m. 128), ama Hukuk Genel Kurulu'na göre bu inkâr zamanaşımı def'ini kapsamaz. Dilekçelerin karşılıklı verilmesinden sonra savunma genişletilemez (HMK m. 141/1); sonradan ileri sürülen def'i savunmanın genişletilmesidir ve karşı tarafın açık muvafakati ya da ıslah olmadıkça dinlenmez (HMK m. 141/2). Zamanaşımı ilk itiraz değildir ve hâkim onu kendiliğinden gözetemez (TBK m. 161)."
+  },
+  {
+   "stem_md": "7589 sayılı Kanunla HMK m. 109'a eklenen dördüncü fıkraya göre, kısmi davada talep artırıldığında zamanaşımı bakımından hangisi doğrudur?",
+   "options": [
+    "Artırım ancak davalının açık muvafakatiyle yapılabilir, aksi hâlde zamanaşımı işlemeye devam eder.",
+    "Artırılan kısım için zamanaşımı, artırım dilekçesinin verildiği tarihte kesilir.",
+    "Talep sınırsız sayıda artırılabilir ve her artırım zamanaşımını yeniden başlatır.",
+    "Talep aynı davada bir defaya mahsus artırılabilir ve zamanaşımı artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır."
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 109/4'e göre alacağın yalnız bir kısmının dava edildiği durumlarda talep, aynı davada bir defaya mahsus olmak üzere, iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sona ermesine kadar artırılabilir. Bu durumda zamanaşımı, artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır. Eski uygulamada kısmi dava zamanaşımını yalnız dava edilen kısım için keserdi."
+  },
+  {
+   "stem_md": "Kiracı Ece, zamanaşımına uğradığını bilmediği 2018 yılına ait kira borcunu 2025'te kiraya verene ödemiştir. Sonra durumu öğrenerek ödediğini geri istemektedir. Hangisi doğrudur?",
+   "options": [
+    "Zamanaşımına uğramış borç eksik borçtur; ifa edilmişse geri istenemez.",
+    "Kiraya veren alacağını zamanaşımı nedeniyle kaybettiği için parayı iade etmek zorundadır.",
+    "Borcun zamanaşımına uğradığını bilmeden ödediği için sebepsiz zenginleşme hükümlerine göre geri isteyebilir.",
+    "Ancak ödeme sırasında ihtirazi kayıt koymamışsa geri isteyebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Zamanaşımı alacağı sona erdirmez, dava edilebilirliğini kaldırır. Zamanaşımına uğramış bir borcun ifasından kaynaklanan zenginleşme geri istenemez (TBK m. 78/2). Borçlunun sürenin dolduğunu bilmemesi sonucu değiştirmez; ortada gerçekten var olan bir borç ödenmiştir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Selim, işyerini 01.01.2019'dan itibaren X Ltd. Şti.'ne kiraya vermiştir. Sözleşmeye göre aylık 40.000 TL kira her ayın 5'inde peşin ödenecektir. X Ltd., Ocak-Haziran 2021 arasındaki altı ayın kirasını ödememiştir.\n\n10.03.2025'te X Ltd., açıklamasına \"Ocak 2021 kirasına mahsuben\" yazarak Selim'in hesabına 20.000 TL göndermiş, diğer aylar hakkında hiçbir beyanda bulunmamıştır. Selim 20.02.2026'da noter aracılığıyla ihtarname çekerek altı aylık kira borcunun ödenmesini istemiştir. Ödeme yapılmayınca 16.03.2026'da arabuluculuk bürosuna başvurmuş, taraflar anlaşamamış ve son tutanak 30.03.2026'da düzenlenmiştir. Selim 10.04.2026'da kalan bütün kira alacakları için dava açmıştır. X Ltd. süresinde verdiği cevap dilekçesinde zamanaşımı def'inde bulunmuştur. Arada başka bir ödeme, ikrar ya da takip yoktur.\n\n1. Kira alacakları hangi zamanaşımı süresine tabidir ve süre her ay için ne zaman başlar?\n2. 10.03.2025 tarihli ödemenin ve 20.02.2026 tarihli ihtarnamenin zamanaşımına etkisi nedir?\n3. Arabuluculuk başvurusu hangi aylar bakımından sonucu etkiler?\n4. Mahkeme hangi alacakları kabul etmelidir? X Ltd., zamanaşımına uğrayan kiraları ileride kendiliğinden öderse geri isteyebilir mi?",
+   "rubric": [
+    {
+     "point": "Kira bedelinin dönemsel edim olarak beş yıllık süreye tabi olduğu ve her ayın kirası için sürenin kendi muacceliyetinden ayrı başladığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 147"
+    },
+    {
+     "point": "Ocak 2021 kirasına mahsuben yapılan kısmi ödemenin ikrar olarak yalnız bu alacak için süreyi kestiği ve yeni beş yıllık sürenin başladığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 154"
+    },
+    {
+     "point": "Noter ihtarnamesinin zamanaşımını kesmediği",
+     "weight": 10,
+     "madde_ref": "TBK m. 154"
+    },
+    {
+     "point": "Şubat ve Mart kiralarında sürenin arabuluculuk başvurusundan önce dolduğu ve dolmuş sürenin durmayla canlanmadığı",
+     "weight": 15,
+     "madde_ref": "HUAK m. 18/A"
+    },
+    {
+     "point": "Dava şartı arabuluculuk sürecinde zamanaşımının durduğu, Nisan kirasının bu sayede süresinde dava edildiği; Mayıs ve Haziran kiralarının zaten süresinde olduğu",
+     "weight": 20,
+     "madde_ref": "HUAK m. 18/A"
+    },
+    {
+     "point": "Süresinde ileri sürülen def'i üzerine 140.000 TL'nin kabulü, 80.000 TL'nin reddi; zamanaşımına uğramış borç ödenirse geri istenemeyeceği",
+     "weight": 15,
+     "madde_ref": "TBK m. 78"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Uyuşmazlık kira sözleşmesinden doğan kira bedeli alacaklarına ilişkindir. Kira bedeli dönemsel bir edimdir ve beş yıllık zamanaşımına tabidir (TBK m. 147/1). X Ltd. def'iyi süresinde cevap dilekçesinde ileri sürdüğü için mahkeme zamanaşımını inceleyecektir (TBK m. 161).\n\n**Hukuki sorunlar:** Her ay için sürenin başlangıcı; kısmi ödemenin ve ihtarnamenin etkisi; arabuluculuğun durdurucu etkisi; zamanaşımına uğrayan alacağın akıbeti.\n\n**İlgili hükümler:** TBK m. 147, 149, 151, 154, 156, 161 ve TBK m. 78; HUAK m. 18/A ve HUAK m. 18/B.\n\n**Değerlendirme:**\n\n*1. Süre ve başlangıç.* Zamanaşımı alacağın muaccel olmasıyla başlar (TBK m. 149/1). Taraflar ödeme gününü her ayın 5'i olarak kararlaştırdığı için kanundaki ay sonu kuralı (TBK m. 314) uygulanmaz. Her ayın kirası ayrı bir alacaktır ve kendi muacceliyetinden başlayarak ayrı ayrı zamanaşımına uğrar. Başlangıç günü sayılmaz ve süre son gün de geçince dolar (TBK m. 151). Buna göre süreler, hiçbir olay olmasaydı, Ocak kirası için 05.01.2026'da, Şubat için 05.02.2026'da, Mart için 05.03.2026'da, Nisan için Nisan 2026'nın ilk günlerinde, Mayıs için 05.05.2026'da ve Haziran için 05.06.2026'da dolacaktı.\n\n*2. Ödeme ve ihtarname.* Kısmi ifa borcun ikrarıdır ve zamanaşımını keser (TBK m. 154/1). Ödeme 10.03.2025'te, yani Ocak kirasının süresi dolmadan yapılmıştır. Ödemenin açıklaması yalnız Ocak 2021'e ilişkindir ve diğer aylar için borcun tanındığına dair bir beyan yoktur. Bu nedenle kesilme Ocak kirasının kalan 20.000 TL'si içindir. Yeni süre kesilen sürenin aynısıdır, yani beş yıldır (TBK m. 156/1) ve 10.03.2030'da dolar. Ödeme bir senetle ikrar olmadığı için on yıllık süre uygulanmaz. İhtarname ise TBK m. 154'te sayılmadığından zamanaşımını kesmez. Üstelik Şubat kirasının süresi ihtarnameden önce dolmuştu.\n\n*3. Arabuluculuk.* Kira ilişkisinden doğan uyuşmazlıkta dava açmadan önce arabulucuya başvurmak dava şartıdır (HUAK m. 18/B). Başvurudan son tutanağın düzenlendiği tarihe kadar zamanaşımı durur (HUAK m. 18/A'nın 15. fıkrası). Durma ancak işlemekte olan bir süreyi etkiler. Şubat ve Mart kiralarının süreleri başvurudan (16.03.2026) önce dolmuştur; arabuluculuk bu süreleri canlandırmaz. Nisan kirası için başvuru anında sürenin dolmasına yaklaşık üç hafta kalmıştır. Süre 16.03-30.03.2026 arasında işlememiş, kalan kısım 30.03.2026 gününün bitiminden itibaren işlemeye devam etmiştir. Bu nedenle süre Nisan 2026'nın ikinci yarısından önce dolmaz ve 10.04.2026'da açılan dava süresindedir. Arabuluculuk olmasaydı Nisan kirası dava tarihinden önce zamanaşımına uğramış olurdu. Mayıs ve Haziran kiralarının süreleri dava tarihinde zaten dolmamıştır. Dava açılmasıyla bu alacaklar için zamanaşımı kesilmiştir (TBK m. 154/2).\n\n*4. Hüküm ve eksik borç.* Def'i süresinde ileri sürüldüğü için mahkeme zamanaşımına uğramış alacakları reddetmelidir. Zamanaşımına uğrayan alacaklar ortadan kalkmaz, eksik borç olarak kalır. X Ltd. bunları ileride kendiliğinden öderse geri isteyemez (TBK m. 78/2).\n\n**Sonuç:**\n- Kabul: Ocak 2021 kirasının kalan 20.000 TL'si ile Nisan, Mayıs ve Haziran kiraları (120.000 TL), toplam 140.000 TL.\n- Ret: Şubat ve Mart 2021 kiraları (80.000 TL).\n- İhtarnamenin zamanaşımına etkisi yoktur. Zamanaşımına uğrayan kiralar ödenirse geri istenemez."
+  },
+  {
+   "stem_md": "Kaya Yapı Ltd. Şti., Ahmet ve Burcu'nun ortak yazlık evini onarmayı üstlenmiştir. Sözleşmede Ahmet ve Burcu bedelden müteselsilen sorumlu olduklarını kabul etmişlerdir. Sözleşmenin son maddesinde \"Bu sözleşmeden doğan alacaklar on beş yılda zamanaşımına uğrar; iş sahipleri zamanaşımı def'inde bulunmayacaklarını kabul eder\" yazmaktadır. Eser 01.07.2019'da teslim edilmiş, 600.000 TL bedelin 200.000 TL'si ödenmemiştir. Kaya Yapı'nın işi ayıplı ya da kusurlu yaptığına ilişkin bir iddia yoktur.\n\nAhmet de 2018'de Kaya Yapı'ya 80.000 TL ödünç vermiştir. Ödünç 02.09.2019'da geri ödenecekti, ödenmemiştir.\n\nBurcu, 01.09.2025'te Kaya Yapı'ya gönderdiği imzalı yazıda \"Zamanaşımı süresinin dolduğunu biliyorum, yine de bunu ileri sürmeyeceğim ve borcu ödeyeceğim\" demiştir. Ahmet 01.09.2026'da Kaya Yapı'dan 80.000 TL'nin ödenmesini istemiş, Kaya Yapı da 07.09.2026'da Ahmet'e gönderdiği yazıyla bu borcunu eser bedeli alacağıyla takas ettiğini bildirmiştir. Kaya Yapı 21.09.2026'da kalan 120.000 TL için Ahmet ve Burcu'ya dava açmıştır. Ahmet ve Burcu cevap dilekçelerinde zamanaşımı def'inde bulunmuşlardır. Bu tarihler arasında zamanaşımını kesen ya da durduran başka bir olay yoktur.\n\n1. Kaya Yapı'nın bedel alacağı hangi süreye tabidir ve süre ne zaman dolmuştur?\n2. Sözleşmenin son maddesi geçerli midir?\n3. Burcu'nun yazısının Burcu ve Ahmet bakımından etkisi nedir?\n4. Takas geçerli midir? Mahkeme nasıl karar vermelidir?",
+   "rubric": [
+    {
+     "point": "Yüklenicinin bedel alacağının beş yıllık süreye tabi olduğu, sürenin teslimle başlayıp 01.07.2024'te dolduğu",
+     "weight": 20,
+     "madde_ref": "TBK m. 147"
+    },
+    {
+     "point": "On beş yıllık süre kaydının (TBK m. 148) ve def'iden önceden vazgeçme kaydının (TBK m. 160/1) geçersizliği",
+     "weight": 20,
+     "madde_ref": "TBK m. 148"
+    },
+    {
+     "point": "Burcu'nun süre dolduktan sonraki açık beyanının geçerli bir feragat olduğu ve dolmuş sürenin kesilemeyeceği",
+     "weight": 15,
+     "madde_ref": "TBK m. 160"
+    },
+    {
+     "point": "Feragatin müteselsil borçlu Ahmet'e karşı ileri sürülemeyeceği ve TBK m. 155/1'deki kesilme kuralından farkı",
+     "weight": 15,
+     "madde_ref": "TBK m. 160"
+    },
+    {
+     "point": "Takasın, takas edilebileceği anda henüz zamanaşımına uğramamış alacakla geçerli olduğu ve borçların 80.000 TL tutarında sona erdiği",
+     "weight": 20,
+     "madde_ref": "TBK m. 139"
+    },
+    {
+     "point": "Ahmet hakkındaki davanın reddi ve Burcu'nun 120.000 TL'den sorumlu tutulması; hâkimin zamanaşımını ancak ileri sürülünce inceleyebilmesi",
+     "weight": 10,
+     "madde_ref": "TBK m. 161"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Taraflar arasında bir eser sözleşmesi vardır. Kaya Yapı'nın bedel alacağı eser sözleşmesinden doğar. Ahmet ve Burcu bu borçtan müteselsilen sorumludur. Ahmet'in Kaya Yapı'dan alacağı ise bir ödünç sözleşmesine dayanır.\n\n**Hukuki sorunlar:** Bedel alacağının süresi; sözleşmeyle süre değiştirme ve önceden feragat; süre dolduktan sonra feragatin müteselsil borçlulara etkisi; zamanaşımına uğramış alacakla takas.\n\n**İlgili hükümler:** TBK m. 139, 143, 147, 148, 149, 151, 155, 160, 161 ve TBK m. 479.\n\n**Değerlendirme:**\n\n*1. Süre.* Eser sözleşmesinden doğan alacaklar beş yıllık zamanaşımına tabidir (TBK m. 147/6). Yüklenicinin ağır kusurlu ifasına ilişkin bir iddia olmadığından istisna uygulanmaz. Bedel eserin teslimiyle muaccel olur (TBK m. 479) ve zamanaşımı bu tarihte başlar (TBK m. 149/1). Teslim 01.07.2019'da gerçekleştiği için süre 01.07.2024 gününün bitiminde dolmuştur (TBK m. 151). Arada kesme ya da durdurma olmamıştır.\n\n*2. Sözleşmenin son maddesi.* Bu ayırımda belirlenen zamanaşımı süreleri sözleşmeyle değiştirilemez (TBK m. 148). On beş yıllık süre kaydına dayanılamaz; kanundaki beş yıllık süre uygulanır. Zamanaşımından önceden feragat da edilemez (TBK m. 160/1). İş sahiplerinin sözleşme kurulurken def'iden vazgeçmesi geçersizdir. Kaya Yapı bu maddeye dayanarak def'inin dinlenmemesini isteyemez.\n\n*3. Burcu'nun yazısı.* Yazı 01.09.2025'te, yani süre dolduktan sonra gönderilmiştir. Dolmuş bir süre kesilemeyeceği için yazı zamanaşımını kesmez. Ancak TBK m. 160/1 yalnız önceden feragati yasaklar. Süre dolduktan sonra borçlu doğmuş def'i hakkından vazgeçebilir. Burcu sürenin dolduğunu bildiğini ve buna rağmen zamanaşımını ileri sürmeyeceğini açıkça bildirmiştir. Bu geçerli bir feragattir ve Burcu davada def'iye dayanamaz.\n\nFeragat Ahmet'i bağlamaz. Müteselsil borçlulardan birinin feragati diğerlerine karşı ileri sürülemez (TBK m. 160/2). Burada TBK m. 155/1 uygulanmaz. O hüküm, işleyen bir sürenin müteselsil borçlulardan birine karşı kesilmesinin hepsini etkilediğini söyler; oysa ortada kesilme değil, dolmuş bir süreden sonra yapılan feragat vardır.\n\n*4. Takas.* Karşılıklı para borçları, her ikisi muaccel olunca takas edilebilir (TBK m. 139/1). Kaya Yapı'nın alacağı 01.07.2019'da, Ahmet'in ödünç alacağı 02.09.2019'da muaccel olmuştur. Takas edilebilecek an 02.09.2019'dur. Zamanaşımına uğramış bir alacağın takası, takas edilebileceği anda henüz zamanaşımına uğramamış olması koşuluyla ileri sürülebilir (TBK m. 139/3). Kaya Yapı'nın alacağı o tarihte zamanaşımına uğramamıştı. Takas, Kaya Yapı'nın 07.09.2026 tarihli bildirimiyle gerçekleşmiştir. İki borç, takas edilebilecekleri anda, daha az olan borç tutarınca, yani 80.000 TL tutarında sona erer (TBK m. 143). Ahmet'in ödünç alacağı tamamen sona ermiş, Kaya Yapı'nın alacağı 120.000 TL'ye inmiştir.\n\n**Sonuç:**\n- Bedel alacağı beş yıllık süreye tabidir ve süre 01.07.2024'te dolmuştur. Sözleşmedeki on beş yıl ve önceden feragat kayıtları geçersizdir.\n- Takas geçerlidir. Ahmet'in 80.000 TL'lik alacağı sona ermiş, Kaya Yapı'nın alacağı 120.000 TL'ye inmiştir.\n- Ahmet'in def'i yerindedir ve ona karşı dava reddedilmelidir. Hâkim zamanaşımını ancak ileri sürüldüğü için inceleyebilir (TBK m. 161).\n- Burcu geçerli biçimde feragat ettiği için def'iye dayanamaz. Müteselsil borçlu olarak 120.000 TL'nin tamamından sorumludur."
+  },
+  {
+   "stem_md": "Mimarlık şirketi Çizgi Ltd., otel işletmecisi Y A.Ş.'nin yeni otelinin projesini hazırlamayı üstlenmiştir. Proje 01.03.2022'de teslim edilmiş, 30.000.000 TL bedel ödenmemiştir. İki taraf da tacirdir ve uyuşmazlık her ikisinin ticari işletmesiyle ilgilidir.\n\nÇizgi Ltd. 01.02.2027'de arabuluculuk bürosuna başvurmuş, anlaşma sağlanamamış ve son tutanak 12.02.2027'de düzenlenmiştir. Çizgi Ltd. 15.02.2027'de, fazlaya ilişkin hakkını saklı tutarak 10.000.000 TL için dava açmıştır. Dava dilekçesi 22.02.2027'de Y A.Ş.'ye tebliğ edilmiş; Y A.Ş. cevap dilekçesi vermemiş, ek süre de istememiştir. Y A.Ş. 20.04.2027'de verdiği dilekçede alacağın zamanaşımına uğradığını ileri sürmüş, Çizgi Ltd. buna açıkça karşı çıkmıştır. Y A.Ş. ıslah yoluna başvurmamıştır.\n\nÇizgi Ltd. 10.06.2027'de HMK m. 109/4'e dayanarak talebini ilk kez 30.000.000 TL'ye artırmıştır. Y A.Ş., artırılan 20.000.000 TL için ancak artırım tarihinde başvurulduğunu ve bu kısmın zamanaşımına uğradığını savunmaktadır.\n\n1. Alacak hangi süreye tabidir? Dava açıldığında süre dolmuş muydu?\n2. Y A.Ş.'nin 20.04.2027 tarihli zamanaşımı savunması dikkate alınabilir mi?\n3. Artırılan 20.000.000 TL için zamanaşımı savunmasını değerlendiriniz.\n4. Davanın kabulüyle verilecek hüküm kesinleşirse alacak için hangi zamanaşımı süresi işler?",
+   "rubric": [
+    {
+     "point": "Proje bedelinin eser sözleşmesinden doğan alacak olarak beş yıllık süreye tabi olduğu ve sürenin teslimle 01.03.2022'de başladığı",
+     "weight": 20,
+     "madde_ref": "TBK m. 147"
+    },
+    {
+     "point": "Dava şartı arabuluculukta başvurudan son tutanağa kadar zamanaşımının durduğu ve 15.02.2027'de açılan davanın dava edilen kısım için süreyi kestiği",
+     "weight": 15,
+     "madde_ref": "HUAK m. 18/A"
+    },
+    {
+     "point": "Süresinde cevap vermeyen davalının sonradan ileri sürdüğü def'inin savunmanın genişletilmesi olduğu ve açık muvafakat ya da ıslah yokken dinlenmeyeceği",
+     "weight": 25,
+     "madde_ref": "HMK m. 141"
+    },
+    {
+     "point": "Bir defaya mahsus artırımda zamanaşımının artırılan kısım için de dava tarihinden kesilmiş sayılması ve eski uygulamayla farkı",
+     "weight": 25,
+     "madde_ref": "HMK m. 109"
+    },
+    {
+     "point": "Hükümden sonra yeni sürenin her zaman on yıl olduğu ve ilamlı takibin son işlemden itibaren on yılda zamanaşımına uğradığı",
+     "weight": 15,
+     "madde_ref": "TBK m. 156"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Otel projesinin hazırlanması bir eser sözleşmesidir. Çizgi Ltd.'nin bedel alacağı bu sözleşmeden doğar. Uyuşmazlık iki tacirin ticari işletmesiyle ilgili olduğu için ticari davadır. Dava değeri TTK m. 4/2'deki basit yargılama sınırını aştığı için yazılı yargılama usulü uygulanır.\n\n**Hukuki sorunlar:** Sürenin başlangıcı ve arabuluculuğun etkisi; kısmi davanın kesme etkisi; süresinde cevap vermeyen davalının def'i; kısmi davada talebin artırılması; hükümden sonraki yeni süre.\n\n**İlgili hükümler:** TBK m. 147, 149, 154, 156, 161 ve TBK m. 479; TTK m. 4 ve TTK m. 5/A; HUAK m. 18/A; HMK m. 109, 118, 127, 128 ve HMK m. 141; İİK m. 39.\n\n**Değerlendirme:**\n\n*1. Süre ve dava tarihi.* Eser sözleşmesinden doğan alacak beş yıllık süreye tabidir (TBK m. 147/6). Bedel teslimle muaccel olur (TBK m. 479). Süre 01.03.2022'de başlamıştır (TBK m. 149/1) ve başka bir olay olmasaydı 01.03.2027'de dolacaktı. Ticari davalarda konusu bir miktar para olan alacak davasında arabulucuya başvurmak dava şartıdır (TTK m. 5/A). Başvurudan son tutanağa kadar, yani 01.02-12.02.2027 arasında zamanaşımı durmuştur (HUAK m. 18/A'nın 15. fıkrası). Dava, dilekçenin kaydedildiği 15.02.2027'de açılmıştır (HMK m. 118) ve süre henüz dolmamıştır. Dava açılması zamanaşımını keser (TBK m. 154/2). Ancak dava kısmi olduğu için kesilme dava edilen 10.000.000 TL içindir.\n\n*2. 20.04.2027 tarihli savunma.* Cevap süresi tebliğden itibaren iki haftadır ve 08.03.2027'de dolmuştur (HMK m. 127). Süresinde cevap vermeyen davalı davacının vakıalarını inkâr etmiş sayılır (HMK m. 128). Hukuk Genel Kurulu'na göre bu inkâr zamanaşımı def'ini kapsamaz. Dilekçelerin karşılıklı verilmesinden sonra savunma genişletilemez (HMK m. 141/1). Sonradan ileri sürülen def'i savunmanın genişletilmesidir ve ancak karşı tarafın açık muvafakati ya da ıslah ile mümkündür (HMK m. 141/2). Çizgi Ltd. açıkça karşı çıkmış, Y A.Ş. de ıslah yapmamıştır. Bu nedenle def'i dinlenmez. Hâkim de zamanaşımını kendiliğinden gözetemez (TBK m. 161). Kaldı ki dava edilen 10.000.000 TL için süre dava tarihinde dolmamıştı.\n\n*3. Artırılan 20.000.000 TL.* Eski uygulamaya göre kısmi dava zamanaşımını yalnız dava edilen kısım için keserdi. Saklı tutulan kısım için süre işlemeye devam eder ve arabuluculuktaki durma da hesaba katıldığında Mart 2027 ortasında dolardı. Haziran 2027'deki artırım bu nedenle zamanaşımına takılırdı. 7589 sayılı Kanunla eklenen HMK m. 109/4 bu sonucu değiştirmiştir. Alacağın yalnız bir kısmı dava edilmişse talep aynı davada bir defaya mahsus, iddianın genişletilmesi yasağına tabi olmaksızın tahkikatın sonuna kadar artırılabilir. Bu durumda zamanaşımı artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır. Çizgi Ltd. talebini ilk kez ve bu hükme dayanarak artırmıştır. Artırılan 20.000.000 TL için zamanaşımı 15.02.2027'de kesilmiş sayılır ve o tarihte süre dolmamıştı. Y A.Ş.'nin savunması yerinde değildir.\n\n*4. Hükümden sonra.* Dava ya da def'i ile kesilen zamanaşımı, dava süresince tarafların ve hâkimin işlemlerinden sonra yeniden işler (TBK m. 157/1). Borç mahkeme kararına bağlandığında ise yeni süre, kesilen süre beş yıl olsa bile, her zaman on yıldır (TBK m. 156/2). İlama dayanan icra takibi de son işlemden itibaren on yıl geçmekle zamanaşımına uğrar (İİK m. 39).\n\n**Sonuç:**\n- Alacak beş yıllık süreye tabidir. Dava süresinde açılmıştır.\n- Y A.Ş.'nin 20.04.2027 tarihli def'i, açık muvafakat ve ıslah bulunmadığı için dinlenmez.\n- Artırılan 20.000.000 TL için de zamanaşımı dava tarihinden kesilmiş sayılır. Zamanaşımı savunması reddedilir.\n- Hüküm kesinleşince alacak için yeni süre on yıldır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Genel zamanaşımı süresi nedir? (TBK m. 146)",
+   "back_md": "Kanunda aksine hüküm yoksa her alacak on yıllık zamanaşımına tabidir."
+  },
+  {
+   "front_md": "Beş yıllık süreye tabi alacaklar nelerdir? (TBK m. 147)",
+   "back_md": "Kira, anapara faizi, ücret gibi dönemsel edimler; otel ve lokanta bedelleri; küçük sanat ve küçük çaplı perakende; ortaklık; vekâlet, komisyon, acentalık, simsarlık (ticari simsarlık ücreti hariç); eser (yüklenicinin ağır kusurlu ifa etmemesi hariç)."
+  },
+  {
+   "front_md": "Zamanaşımı süresi sözleşmeyle değiştirilebilir mi?",
+   "back_md": "Hayır. TBK m. 148'e göre bu ayırımdaki süreler ne kısaltılabilir ne uzatılabilir."
+  },
+  {
+   "front_md": "Zamanaşımı ne zaman başlar? (TBK m. 149)",
+   "back_md": "Alacağın muaccel olmasıyla. Muacceliyet bildirime bağlıysa bildirimin yapılabileceği günden. Alacaklının öğrenmesi aranmaz."
+  },
+  {
+   "front_md": "Ömür boyu gelirde alacağın tamamı için zamanaşımı ne zaman başlar?",
+   "back_md": "İfa edilmemiş ilk dönemsel edimin muaccel olduğu gün. Tamamı zamanaşımına uğrarsa ödenmemiş taksitler de uğrar (TBK m. 150)."
+  },
+  {
+   "front_md": "Zamanaşımı süresi nasıl hesaplanır? (TBK m. 151)",
+   "back_md": "Başlangıç günü sayılmaz, süre son gün de hak kullanılmadan geçince dolar. İfa sürelerinin hesabına ilişkin kurallar (TBK m. 92-93) uygulanır."
+  },
+  {
+   "front_md": "Asıl alacak zamanaşımına uğrarsa faize ne olur?",
+   "back_md": "Faiz ve diğer bağlı alacaklar da zamanaşımına uğrar (TBK m. 152). Faizin zamanaşımı ise asıl alacağı etkilemez."
+  },
+  {
+   "front_md": "Durma ile kesilme arasındaki fark nedir?",
+   "back_md": "Durmada süre işlemez ve sebep kalkınca kaldığı yerden devam eder. Kesilmede işlemiş süre silinir ve yeni bir süre başlar."
+  },
+  {
+   "front_md": "TBK m. 153'teki durma sebepleri nelerdir?",
+   "back_md": "Velayet, vesayet, evlilik, ev hizmetlilerinin hizmet ilişkisi, borçlunun alacak üzerindeki intifa hakkı, Türk mahkemelerinde ileri sürme imkânsızlığı, birleşmenin geçmişe etkili olarak kalkması."
+  },
+  {
+   "front_md": "Arabulucuya başvuru zamanaşımını keser mi?",
+   "back_md": "Kesmez, durdurur. Dava şartı arabuluculukta başvurudan son tutanağa kadar (HUAK m. 18/A), ihtiyari arabuluculukta süreç boyunca (HUAK m. 16/2)."
+  },
+  {
+   "front_md": "Zamanaşımını kesen sebepler nelerdir? (TBK m. 154)",
+   "back_md": "Borçlunun ikrarı (faiz ödeme, kısmi ifa, rehin verme, kefil gösterme) ve alacaklının dava, def'i, icra takibi ya da iflas masasına başvurusu."
+  },
+  {
+   "front_md": "Noter ihtarnamesi zamanaşımını keser mi?",
+   "back_md": "Hayır. TBK m. 154 ihtarı saymaz. İhtar temerrüde düşürebilir ama zamanaşımını kesmez."
+  },
+  {
+   "front_md": "Kesilmenin birlikte borçlulara etkisi nedir? (TBK m. 155)",
+   "back_md": "Müteselsil ya da bölünemez borçta biri için kesilme hepsi için kesilmedir. Asıl borçluya karşı kesilme kefili de etkiler; kefile karşı kesilme asıl borçluyu etkilemez."
+  },
+  {
+   "front_md": "Kesilmeden sonra yeni süre ne kadardır? (TBK m. 156)",
+   "back_md": "Kural olarak eski sürenin aynısı. Borç senetle ikrar edilmiş ya da mahkeme veya hakem kararına bağlanmışsa her zaman on yıl."
+  },
+  {
+   "front_md": "İcra dosyasının işlemden kaldırılması zamanaşımını etkiler mi?",
+   "back_md": "Hukuk Genel Kurulu'na göre hayır. Takip derdest kalır, kesme etkisi sürer. Yenileme talebi süreyi yeniden keser (TBK m. 157/2)."
+  },
+  {
+   "front_md": "TBK m. 158'deki ek süre nedir?",
+   "back_md": "Dava yetkisizlik, görevsizlik, düzeltilebilir yanlışlık ya da erken açılma nedeniyle reddedilip arada süre dolmuşsa altmış gün. Zamanaşımı ve hak düşürücü süre için geçerlidir."
+  },
+  {
+   "front_md": "Rehinli alacakta zamanaşımı işler mi?",
+   "back_md": "Taşınır rehninde işler ama alacaklı hakkını rehinden alabilir (TBK m. 159). Tapuya tescilli taşınmaz rehninde tescilden sonra işlemez (TMK m. 864)."
+  },
+  {
+   "front_md": "Zamanaşımından feragat edilebilir mi? (TBK m. 160)",
+   "back_md": "Önceden edilemez. Süre dolduktan sonra edilebilir. Müteselsil borçlulardan birinin ya da asıl borçlunun feragati diğerlerine ve kefile karşı ileri sürülemez."
+  },
+  {
+   "front_md": "Hâkim zamanaşımını kendiliğinden gözetebilir mi?",
+   "back_md": "Hayır. Zamanaşımı ileri sürülmedikçe hâkim bunu kendiliğinden göz önüne alamaz (TBK m. 161)."
+  },
+  {
+   "front_md": "Zamanaşımı def'i en geç ne zaman ileri sürülür?",
+   "back_md": "Dilekçeler aşamasının sonuna kadar serbestçe; sonra yalnız açık muvafakat ya da ıslahla (HMK m. 141). Basit yargılamada cevap dilekçesiyle (HMK m. 319)."
+  },
+  {
+   "front_md": "Kısmi davada talep artırılırsa zamanaşımı ne olur? (HMK m. 109/4)",
+   "back_md": "Talep bir defaya mahsus artırılabilir. Zamanaşımı artırılan kısım bakımından da dava tarihinden itibaren kesilmiş sayılır (7589 sayılı Kanun, 2026)."
+  },
+  {
+   "front_md": "Zamanaşımına uğramış borç ödenirse geri istenebilir mi?",
+   "back_md": "Hayır. Eksik borçtur; ifasından kaynaklanan zenginleşme geri istenemez (TBK m. 78/2)."
+  },
+  {
+   "front_md": "Zamanaşımına uğramış alacakla takas yapılabilir mi?",
+   "back_md": "Takas edilebileceği anda henüz zamanaşımına uğramamışsa evet (TBK m. 139/3)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

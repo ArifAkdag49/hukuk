@@ -1,0 +1,477 @@
+{
+ "course_id": "HUK3012",
+ "unit_index": 6,
+ "unit_title": "Ünite 6: Eser ve Yayım Sözleşmeleri",
+ "topic_index": 1,
+ "slug": "eser-sozlesmesi-yuklenicinin-borclari-ve-ayip",
+ "title": "Eser Sözleşmesi I: Yüklenicinin Borçları, Ayıplı İfa ve İşsahibinin Seçimlik Hakları",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:21:27.514102+00:00",
+ "skill_refs": [
+  "borclar-hukuku-ozel/eser-sozlesmesi-ayip-temerrut"
+ ],
+ "content": {
+  "summary_md": "**Bu konu neyi cevaplıyor?** Eser sözleşmesinde yüklenici hangi borçlarla bağlıdır, eser ayıplı ya da geç çıkarsa işsahibi neyi, hangi sürede ve hangi şartlarla isteyebilir?\n\n- **Tanım (TBK m. 470):** Yüklenici bir **eser** meydana getirmeyi, işsahibi karşılığında **bedel** ödemeyi üstlenir. Vekâletten farkı **sonuç** borçlanılmasıdır.\n- **Özen ve sadakat (TBK m. 471):** Ölçü, benzer işleri üstlenen **basiretli yüklenicinin** meslekî ve teknik kurallara uygun davranışıdır. Yüklenici işi kendisi veya kendi yönetiminde yapar; kişisel özellikleri önem taşımıyorsa başkasına da yaptırabilir. Aksine âdet veya anlaşma yoksa **araç ve gereci** kendisi sağlar.\n- **Malzeme (TBK m. 472):** Yüklenici sağlamışsa ayıptan **satıcı gibi** sorumludur. İşsahibi sağlamışsa özenle kullanır, hesap verir, artanı iade eder. İşsahibinin malzemesi veya gösterdiği yer ayıplıysa **hemen bildirir**, bildirmezse sonuçlarından sorumlu olur.\n- **Gecikme (TBK m. 473):** İşin zamanında bitmeyeceği açıkça anlaşılırsa işsahibi vadeyi beklemeden **dönebilir** (m. 473/1). Yapım sırasında ayıplı olacağı açıksa uygun süre vererek **ihtar** edebilir (m. 473/2).\n- **Gözden geçirme ve bildirim (TBK m. 474):** İşsahibi teslimden sonra imkân bulur bulmaz eseri gözden geçirir, ayıpları **uygun sürede** bildirir. Bilirkişi incelemesi istenebilir.\n- **Seçimlik haklar (TBK m. 475):** **Dönme**, **bedelden indirim** ya da aşırı masraf gerektirmiyorsa **ücretsiz onarım**; ayrıca genel hükümlere göre **tazminat**. Ayıpsız benzeri ile değiştirme **yoktur**. Eser işsahibinin taşınmazı üzerindeyse ve sökülmesi aşırı zarar doğuracaksa **dönme** kullanılamaz.\n- **İşsahibinin payı (TBK m. 476):** Ayıp, yüklenicinin açık ihtarına rağmen işsahibinin talimatından doğmuşsa ayıp hakları kullanılamaz.\n- **Kabul (TBK m. 477):** Açık veya örtülü kabulden sonra yüklenici sorumluluktan kurtulur; **kasten gizlenen** ve usulüne göre gözden geçirmede fark edilemeyen ayıp hariç. Gözden geçirme ve bildirimi ihmal eden işsahibi eseri kabul etmiş sayılır. Sonradan çıkan ayıp **gecikmeksizin** bildirilir.\n- **Zamanaşımı (TBK m. 478):** Teslimden başlayarak taşınmaz yapı dışındaki eserlerde **2 yıl**, taşınmaz yapılarda **5 yıl**, ağır kusurda **20 yıl**. Eser sözleşmesinden doğan diğer alacaklar, yüklenicinin ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında 5 yıldır (TBK m. 147/6).\n- 📌 **Güncellik:** TBK m. 470-478 ve TBK m. 147/6'da 2020-2026 arasında değişiklik saptanmamıştır. TBK m. 478, ağır kusurda süreyi eski dönemde uygulanan on yıllık genel süreden yirmi yıla çıkarmıştır.",
+  "content_md": "## 0. Konunun haritası\n\nEser sözleşmesi iki konuya bölünür. Bu konuda yüklenicinin borçlarını ve eserin ayıplı ya da geç çıkması hâlinde işsahibinin haklarını işliyoruz. Bedel, götürü ve yaklaşık bedel ayrımı ile sözleşmenin sona ermesi bir sonraki konudadır.\n\n| Başlık | Madde | Soru |\n|---|---|---|\n| Tanım | TBK m. 470 | Eser sözleşmesi nedir? |\n| Yüklenicinin borçları | TBK m. 471-473 | Özen, şahsen ifa, malzeme, gecikme |\n| Ayıp süreci | TBK m. 474 ve TBK m. 477 | Gözden geçirme, bildirim, kabul |\n| Haklar | TBK m. 475, TBK m. 476, TBK m. 478 | Seçimlik haklar, işsahibinin payı, zamanaşımı |\n\nOlay sorusunda sırayı koru: nitelendirme, ihlal edilen borç, ayıp süreci (bildirim ve kabul), seçimlik hak, zamanaşımı.\n\n## 1. Tanım ve nitelendirme (TBK m. 470)\n\n**Eser sözleşmesi**, yüklenicinin bir eser meydana getirmeyi, işsahibinin de bunun karşılığında bir bedel ödemeyi üstlendiği sözleşmedir. Yüklenici bir **sonucu** borçlanır; bedel zorunlu unsurdur. Eser, yüklenicinin emek ve beceriyle ortaya koyduğu somut sonuçtur: bina, ısmarlama dolap, elbise, proje.\n\n| Sözleşme | Borçlanılan şey | Örnek |\n|---|---|---|\n| Eser | Sonuç (eseri meydana getirme) | Bina yapımı, ısmarlama dolap |\n| Vekâlet | Bir işin özenle görülmesi (TBK m. 502) | Avukatın dava takibi |\n| Satış | Hazır malın devri | Mağazadan hazır dolap almak |\n\n> **Örnek:** Zeynep, mobilyacı Hasan'a ölçüye göre bir kitaplık yaptırır. Hasan kitaplığı meydana getirmeyi (sonucu) borçlandığı için sözleşme eser sözleşmesidir. Avukat Ali'ye dava açtırması ise vekâlettir: Ali davayı kazanmayı değil, özenle yürütmeyi borçlanır.\n\n> ⚠️ **Sınavda dikkat:** Nitelendirmede sözleşmenin adı değil borçlanılan edimin niteliği belirleyicidir. Hekimin estetik müdahalesinin eser mi vekâlet mi sayılacağı tartışmalıdır (doktrin bölümüne bak).\n\n## 2. Yüklenicinin borçları\n\n### 2.1 Sadakat ve özen (TBK m. 471/1-2)\n\nYüklenici üstlendiği edimleri işsahibinin **haklı menfaatlerini gözeterek, sadakat ve özenle** ifa eder. Özen borcunun ölçüsü, benzer alandaki işleri üstlenen **basiretli bir yüklenicinin** göstermesi gereken meslekî ve teknik kurallara uygun davranıştır.\n\n> **Örnek:** Elektrik tesisatını yapan yüklenici, mesleğin teknik kurallarına aykırı biçimde ince kesitli kablo kullanırsa özen borcunu ihlal etmiştir. Eser çalışıyor olsa bile bu kusur ayıp sayılabilir.\n\n### 2.2 Şahsen ifa (TBK m. 471/3)\n\nYüklenici eseri **doğrudan kendisi yapar veya kendi yönetimi altında yaptırır**. Eserin meydana getirilmesinde yüklenicinin **kişisel özellikleri önem taşımıyorsa** işi başkasına da yaptırabilir.\n\n> **Örnek:** Ünlü bir heykeltıraşa sipariş verilen büstte kişisel özellik önemlidir. Bahçe duvarı yapımını üstlenen müteahhit ise işi taşerona verebilir.\n\n### 2.3 Araç-gereç ve malzeme (TBK m. 471/4 ve TBK m. 472)\n\n| Kavram | Kural | Örnek |\n|---|---|---|\n| Araç ve gereç | Aksine âdet veya anlaşma yoksa yüklenici sağlar (TBK m. 471/4) | İskele, kalıp |\n| Malzeme (yüklenici sağladıysa) | Ayıptan satıcı gibi sorumludur (TBK m. 472/1) | Tuğla, kumaş |\n| Malzeme (işsahibi sağladıysa) | Özenle kullanır, hesap verir, artanı iade eder (TBK m. 472/2) | İşsahibinin verdiği kumaş |\n\nAraç ve gereç eserin yapımında kullanılıp geri alınan şeylerdir; malzeme eserin bünyesine katılandır.\n\n### 2.4 Ayıp ve tehlikeyi hemen bildirme (TBK m. 472/3)\n\nEser meydana getirilirken işsahibinin sağladığı malzemenin veya gösterdiği yerin ayıplı olduğu anlaşılırsa ya da eserin gereği gibi veya zamanında yapılmasını tehlikeye düşürecek başka bir durum çıkarsa yüklenici bunu **hemen** işsahibine bildirmek zorundadır. Bildirmezse bundan doğacak sonuçlardan sorumlu olur.\n\n> **Örnek:** Terzi Hasan, İpek'in getirdiği kumaşın çürük olduğunu dikim sırasında fark eder ama söylemeden diker; elbise dağılır. Hasan sonuçlardan sorumludur.\n\n### 2.5 İşe başlama, gecikme ve yapım sırasındaki ayıp (TBK m. 473)\n\n- **Vadeyi beklemeden dönme (TBK m. 473/1):** Yüklenicinin işe zamanında başlamaması, işi sözleşmeye aykırı olarak geciktirmesi ya da işsahibine yüklenemeyecek bir sebeple ortaya çıkan gecikme yüzünden bütün tahminlere göre işin kararlaştırılan zamanda bitmeyeceği açıkça anlaşılırsa, işsahibi teslim gününü beklemeden sözleşmeden dönebilir. \"Açıkça anlaşılma\" şartı üç hâl için de aranır; işe geç başlamak tek başına dönme hakkı vermez.\n- **İhtar (TBK m. 473/2):** Eserin yüklenicinin kusuru yüzünden ayıplı veya sözleşmeye aykırı yapılacağı açıkça görülüyorsa işsahibi uygun bir süre vererek ayıbın giderilmesini, aksi hâlde hasar ve masrafları yükleniciye ait olmak üzere onarımın veya işe devamın üçüncü kişiye verileceğini ihtar edebilir.\n\n> **Örnek:** Altı ayda bitecek fabrika inşaatında beşinci ayın sonunda temel bile kazılmamışsa işsahibi teslim gününü beklemeden dönebilir.\n\n### 2.6 Hangi rejim uygulanır? Gecikme ve ayıp\n\nTeslimden önce ve sonra uygulanan kurallar farklıdır. Olayda zamanı mutlaka işaretle.\n\n| Durum | Dayanak | Sonuç |\n|---|---|---|\n| İş zamanında bitmeyecek | TBK m. 473/1 | Vadeyi beklemeden dönme |\n| Teslimden önce kusurlu yapım görülüyor | TBK m. 473/2 | Süre verip ihtar |\n| Teslimden sonra ayıp | TBK m. 474-477 | Gözden geçirme, bildirim, seçimlik haklar |\n\n## 3. Ayıp süreci: gözden geçirme, bildirim, kabul\n\n### 3.1 Gözden geçirme ve bildirim (TBK m. 474)\n\nİşsahibi eserin tesliminden sonra, işlerin olağan akışına göre **imkân bulur bulmaz** eseri gözden geçirir ve ayıpları varsa **uygun bir süre içinde** yükleniciye bildirir (TBK m. 474/1). Taraflardan her biri, giderini karşılayarak eserin **bilirkişi** tarafından gözden geçirilmesini ve sonucun raporla belirlenmesini isteyebilir (TBK m. 474/2).\n\n> **Örnek:** Teslim edilen makinenin çalışırken titreştiğini gören işsahibi, bunun ayıp olup olmadığını netleştirmek için giderini karşılayarak bilirkişi incelemesi isteyebilir. Rapor, sonraki seçimlik hak tercihinin dayanağı olur.\n\n### 3.2 Kabul ve sonuçları (TBK m. 477)\n\n- Eserin **açıkça veya örtülü olarak kabulünden sonra** yüklenici her türlü sorumluluktan kurtulur. İstisna: yüklenicinin **kasten gizlediği** ve usulüne göre gözden geçirme sırasında **fark edilemeyecek** ayıplar (TBK m. 477/1).\n- İşsahibi gözden geçirmeyi ve bildirimi **ihmal ederse eseri kabul etmiş sayılır** (TBK m. 477/2).\n- Ayıp **sonradan ortaya çıkarsa** işsahibi durumu **gecikmeksizin** bildirir; bildirmezse eseri kabul etmiş sayılır (TBK m. 477/3).\n\n| Ayıp türü | Bildirim zamanı | Madde |\n|---|---|---|\n| Açık ayıp | İmkân bulur bulmaz gözden geçirip uygun sürede | TBK m. 474/1 |\n| Sonradan ortaya çıkan (gizli) ayıp | Ortaya çıkınca gecikmeksizin | TBK m. 477/3 |\n\n> ⚠️ **Sınavda dikkat:** Kabul sorumluluğu bitirir, ama kasten gizlenen ve gözden geçirmede fark edilemeyecek ayıp için sorumluluk devam eder.\n\n### 3.3 Eksik iş ve ayıplı iş\n\nUygulamada **ayıplı iş** (kusurlu yapılmış imalat) ile **eksik iş** (hiç yapılmamış imalat) ayrılır. Yargıtay uygulamasında muayene ve ihbar külfeti ayıplı işe uygulanır; eksik işte aranmaz. Eksik işin bedeli, TBK m. 147/6'daki zamanaşımı içinde istenebilir.\n\n## 4. İşsahibinin seçimlik hakları (TBK m. 475)\n\nAyıp sebebiyle yüklenicinin sorumlu olduğu hâllerde işsahibi şu **seçimlik haklardan birini** kullanır:\n1. **Sözleşmeden dönme:** Eser işsahibinin kullanamayacağı veya hakkaniyet gereği kabule zorlanamayacağı ölçüde ayıplı ya da sözleşmeye aynı ölçüde aykırıysa.\n2. **Bedelden indirim:** Eseri alıkoyup ayıp oranında.\n3. **Ücretsiz onarım:** Aşırı bir masraf gerektirmiyorsa, bütün masraflar yükleniciye ait olmak üzere.\n\nAyrıca işsahibinin **genel hükümlere göre tazminat isteme hakkı** saklıdır (TBK m. 475/2). Seçimlik haklar yüklenicinin kusurundan bağımsızdır; tazminat için ise genel hüküm olan TBK m. 112 uygulanır: Yüklenici kendisine kusur yüklenemeyeceğini ispat etmedikçe zararı giderir.\n\nSeçimlik haklar kanunda sınırlı sayıda sayılmıştır; Yargıtay bunları genişletmez. İlk üç hak birbirinin yerine değil, **biri seçilerek** kullanılır; tazminat ise zarar varsa bunlardan biriyle birlikte istenebilir.\n\n**Taşınmazda dönme yasağı:** Eser işsahibinin taşınmazı üzerinde yapılmış ve sökülüp kaldırılması **aşırı zarar** doğuracaksa işsahibi dönme hakkını kullanamaz (TBK m. 475/3). Bu durumda indirim, onarım ve tazminat kalır.\n\n| Hak | Satış (TBK m. 227) | Eser (TBK m. 475) |\n|---|---|---|\n| Dönme | Var | Var (ölçü ve taşınmaz sınırıyla) |\n| Bedelden indirim | Var | Var |\n| Ücretsiz onarım | Var | Var |\n| Ayıpsız benzeriyle değiştirme | Var (imkân varsa) | **Yok** |\n\n> ⚠️ **Sınavda dikkat:** Eserde \"ayıpsız benzeri ile değiştirme\" hakkı sayılmamıştır; bu hak satışa özgüdür.\n\n> **Örnek:** Y, İ'nin arsasında villa yapar ve cephe mantolamasını projeye aykırı uygular. Villanın sökülmesi aşırı zarar doğuracağından İ dönemez; indirim veya ücretsiz onarım isteyebilir, kusur varsa tazminat da talep eder.\n\n## 5. İşsahibinin payı (TBK m. 476)\n\nEserin ayıplı olması, yüklenicinin **açıkça yaptığı ihtara rağmen** işsahibinin verdiği talimattan doğmuşsa veya herhangi bir sebeple işsahibine yüklenebiliyorsa, işsahibi ayıptan doğan haklarını kullanamaz.\n\n> **Örnek:** Yüklenici, işsahibinin getirdiği panellerin su sızdıracağını noterden bildirir; işsahibi \"aynen uygula\" der. Çatı akıttığında işsahibi ayıp haklarını kullanamaz.\n\n## 6. Zamanaşımı (TBK m. 478 ve TBK m. 147/6)\n\nAyıplı eser sebebiyle açılacak davalar **teslim tarihinden başlayarak** zamanaşımına uğrar:\n\n| Durum | Süre |\n|---|---|\n| Taşınmaz yapılar dışındaki eserler | 2 yıl |\n| Taşınmaz yapılar | 5 yıl |\n| Yüklenicinin ağır kusuru | 20 yıl (eserin niteliğine bakılmaksızın) |\n\nEser sözleşmesinden doğan diğer alacaklar, yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında **beş yıllık** zamanaşımına tabidir (TBK m. 147/6). Yargıtay Hukuk Genel Kurulu, ağır kusurla ifa etmeme hâlinde TBK m. 146'daki on yıllık genel süreyi uygular.\n\nZamanaşımını hâkim kendiliğinden gözetmez; borçlunun **def'i** olarak ileri sürmesi gerekir. Yargıtay Hukuk Genel Kurulu zamanaşımını maddi hukuktan doğan bir def'i sayar. Yüklenici bu def'i ileri sürmezse süre dolmuş olsa bile dava esastan incelenir.\n\n> 📌 **Kesin bilgi:** TBK m. 478'deki süreler iki yıl (taşınmaz yapılar dışındaki eserler), beş yıl (taşınmaz yapılar) ve yirmi yıldır (ağır kusur). Eski Borçlar Kanunu dönemindeki süreler farklıydı; örneğin ağır kusurda on yıllık genel süre uygulanırdı. 1.7.2012'den önce teslim edilen eserlerde eski süreler ve geçiş hükümleri gözetilir.\n\n> ⚠️ **Sınavda dikkat:** \"Teslim\" sözleşmenin içeriğine göre değerlendirilir. Sözleşmede anahtar teslim ve kat mülkiyetinin kurulması kararlaştırılmış bir kat karşılığı inşaatta Hukuk Genel Kurulu, oy çokluğuyla, tapu devri yapılmadan zamanaşımının başlamayacağını kabul etmiştir; karşı oy fiilî teslim veya yapı kullanma izninin yeterli olduğunu savunmuştur (karar özetine bak). Bunu her kat karşılığı inşaata uygulanan genel bir kural gibi yazma.\n\n## 7. Denetim şeması\n\n1. **Nitelendirme:** Sonuç mu, özenli çaba mı borçlanılıyor? (Eser, vekâlet, satış.)\n2. **Yüklenicinin borcu:** Özen, şahsen ifa, araç-gereç, malzeme, ihbar, zamanında başlama ve bitirme ihlal edildi mi?\n3. **Teslimden önce:** Dönme (TBK m. 473/1) veya ihtar (TBK m. 473/2) mümkün mü?\n4. **Ayıp süreci:** Açık ayıp imkân bulunca, gizli ayıp çıkınca bildirildi mi? Kabul var mı? Kasten gizleme var mı?\n5. **Hak seçimi:** Dönme, indirim, onarım, tazminat. Taşınmaz sınırı ve işsahibinin talimatı var mı?\n6. **Zamanaşımı:** Taşınmaz yapı dışındaki eser 2, taşınmaz yapı 5, ağır kusur 20 yıl; teslim tarihi ne?",
+  "critical_md": "- 📌 **Eser = sonuç borcu (TBK m. 470):** Eser sözleşmesi vekâletten sonuç taahhüdüyle ayrılır; bedel zorunlu unsurdur.\n- 📌 **Özen ölçüsü:** Basiretli yüklenicinin meslekî ve teknik kurallara uygun davranışı (TBK m. 471/2).\n- ⚠️ **Şahsen ifa:** Kişisel özellik önemliyse işi başkasına yaptırılamaz; önemli değilse yaptırılabilir (TBK m. 471/3).\n- 📌 **Araç-gereç:** Aksine âdet veya anlaşma yoksa yüklenici sağlar (TBK m. 471/4).\n- 📌 **Yüklenici malzemesi:** Ayıptan satıcı gibi sorumlu (TBK m. 472/1).\n- ⚠️ **İşsahibinin malzemesi/yeri ayıplıysa** yüklenici **hemen** bildirir, bildirmezse sonuçlarından sorumlu olur (TBK m. 472/3).\n- 📌 **Vadeyi beklemeden dönme:** İşin zamanında bitmeyeceği açıkça anlaşılırsa (TBK m. 473/1).\n- 📌 **Bildirim zamanı:** Açık ayıp imkân bulur bulmaz uygun sürede (TBK m. 474/1); sonradan çıkan ayıp gecikmeksizin (TBK m. 477/3). İhmal = kabul.\n- ⚠️ **Eserde değiştirme hakkı yok:** Dönme, indirim, ücretsiz onarım ve tazminat vardır (TBK m. 475).\n- 📌 **Taşınmaz yasağı:** İşsahibinin taşınmazındaki eserin sökülmesi aşırı zarar doğuracaksa dönülemez (TBK m. 475/3).\n- ⚠️ **Kabul sorumluluğu bitirir,** ama kasten gizlenen ve fark edilemeyen ayıp hariç (TBK m. 477/1).\n- 📌 **Zamanaşımı:** 2 yıl (taşınmaz yapılar dışındaki eserler), 5 yıl (taşınmaz yapı), 20 yıl (ağır kusur); teslimden başlar (TBK m. 478).",
+  "doctrine_md": "### Hekimin estetik müdahalesi ve diğer \"gayrimaddi\" sonuçlar eser midir?\n\nBir görüşe göre eser, yalnız maddi varlıkta somutlaşan sonuçtur; kanunun malzeme, taşınmaz üzerinde yapılma ve sökülüp kaldırılma gibi kavramlarla konuşması bunu gösterir. Bu yaklaşımda yazılım, proje ya da estetik müdahale vekâlet veya hizmet sözleşmesidir. Diğer görüş, insan emeğiyle üretilen ve objektif olarak denetlenebilir bütünlük taşıyan her sonucu eser sayar. Yargıtay 6. Hukuk Dairesi kararlarında tedavi amaçlı müdahaleyi vekâlet, estetik müdahaleyi ve diş implantı ile protez uygulamasını eser sözleşmesi olarak niteler. Sınavda bu kararı tartışmasız kural gibi değil, \"Yargıtay'ın bu daire kararlarındaki yaklaşımı\" diye ver.\n\n### TBK m. 473/1'de dönme için yüklenicinin kusuru aranır mı?\n\nBirinci görüş, hükmün gecikmenin \"işsahibine yüklenemeyecek bir sebeple\" doğmasını yeterli saydığını, kusurun yalnız tazminatta aranacağını söyler. İkinci görüş, gecikmenin yüklenicinin kusurundan ya da risk alanından kaynaklanmasını ister; yüklenicinin risk alanı dışındaki engeller için bedele ve ifa güçlüğüne ilişkin sonraki hükümlerin devreye gireceğini savunur. Olay sorusunda gecikmeyi açıkça yükleniciye yüklenebilir kur; bu durumda iki görüş de dönmeyi kabul eder.\n\n### Ücretsiz onarımı seçen işsahibi, yüklenici onarmazsa ne yapabilir?\n\nBir görüşe göre seçimlik hak kullanıldığında tükenir; yüklenici onarmazsa işsahibi TBK m. 113/1 uyarınca masrafı yükleniciye ait olmak üzere onarımı üçüncü kişiye yaptırabilir ya da TBK m. 112 gereği zararı tazminat olarak isteyebilir. Diğer görüşe göre yüklenici onarım borcunda temerrüde düşerse (TBK m. 125) işsahibi onarım masrafını istemenin yanında indirim veya dönme yoluna da gidebilir. Konu tartışmalıdır; sınavda iki yolu da gösterip seçtiğin görüşü gerekçelendir.",
+  "glossary": [
+   {
+    "term": "Eser sözleşmesi",
+    "definition": "Yüklenicinin bir eser meydana getirmeyi, işsahibinin karşılığında bedel ödemeyi üstlendiği sözleşme (TBK m. 470)."
+   },
+   {
+    "term": "Yüklenici",
+    "definition": "Eseri meydana getirmeyi borçlanan taraf."
+   },
+   {
+    "term": "İşsahibi",
+    "definition": "Eserin meydana getirilmesini isteyen ve bedeli ödemeyi borçlanan taraf."
+   },
+   {
+    "term": "Basiretli yüklenici",
+    "definition": "Özen borcunun ölçüsü: benzer işleri üstlenen yüklenicinin göstermesi gereken meslekî ve teknik kurallara uygun davranış (TBK m. 471/2)."
+   },
+   {
+    "term": "Şahsen ifa",
+    "definition": "Eserin yüklenici tarafından veya kendi yönetimi altında yapılması; kişisel özellikler önemsizse devir mümkündür (TBK m. 471/3)."
+   },
+   {
+    "term": "Ayıp",
+    "definition": "Eserin sözleşmeye veya olması gereken niteliklere aykırı, kusurlu meydana getirilmiş olması."
+   },
+   {
+    "term": "Seçimlik haklar",
+    "definition": "Ayıp hâlinde işsahibinin dönme, bedelden indirim veya ücretsiz onarım haklarından yalnız birini seçebilmesi (TBK m. 475/1)."
+   },
+   {
+    "term": "Örtülü kabul",
+    "definition": "Açık bir beyan olmaksızın işsahibinin davranışından (ör. eseri çekincesiz kullanmaya başlama) anlaşılan kabul (TBK m. 477/1). Gözden geçirme ve bildirimi ihmal eden işsahibi de eseri kabul etmiş sayılır (TBK m. 477/2-3)."
+   },
+   {
+    "term": "Kasten gizlenen ayıp",
+    "definition": "Yüklenicinin bilerek örttüğü, usulüne göre gözden geçirmede fark edilemeyen ayıp; kabule rağmen sorumluluk devam eder (TBK m. 477/1)."
+   },
+   {
+    "term": "Eksik iş",
+    "definition": "Hiç yapılmamış imalat; ayıplı işten farklı olarak muayene ve ihbar külfetine tabi olmadığı kabul edilir."
+   },
+   {
+    "term": "Ağır kusur",
+    "definition": "Ayıp davalarında zamanaşımını 20 yıla çıkaran kusur düzeyi (TBK m. 478)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "470",
+   "official_text": "MADDE 470- Eser sözleşmesi, yüklenicinin bir eser meydana getirmeyi, işsahibinin de bunun karşılığında bir bedel ödemeyi üstlendiği sözleşmedir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "471",
+   "official_text": "MADDE 471- Yüklenici, üstlendiği edimleri işsahibinin haklı menfaatlerini gözeterek, sadakat ve özenle ifa etmek zorundadır.\nYüklenicinin özen borcundan doğan sorumluluğunun belirlenmesinde, benzer alandaki işleri üstlenen basiretli bir yüklenicinin göstermesi gereken meslekî ve teknik kurallara uygun davranışı esas alınır.\nYüklenici, meydana getirilecek eseri doğrudan doğruya kendisi yapmak veya kendi yönetimi altında yaptırmakla yükümlüdür. Ancak, eserin meydana getirilmesinde yüklenicinin kişisel özellikleri önem taşımıyorsa, işi başkasına da yaptırabilir.\nAksine âdet veya anlaşma olmadıkça yüklenici, eserin meydana getirilmesi için kullanılacak olan araç ve gereçleri kendisi sağlamak zorundadır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "472",
+   "official_text": "MADDE 472- Malzeme yüklenici tarafından sağlanmışsa yüklenici, bu malzemenin ayıplı olması yüzünden işsahibine karşı, satıcı gibi sorumludur.\nMalzeme işsahibi tarafından sağlanmışsa yüklenici, onları gereken özeni göstererek kullanmakla ve bundan dolayı hesap ve artanı geri vermekle yükümlüdür.\nEser meydana getirilirken, işsahibinin sağladığı malzemenin veya eserin yapılması için gösterdiği yerin ayıplı olduğu anlaşılır veya eserin gereği gibi ya da zamanında meydana getirilmesini tehlikeye düşürecek başka bir durum ortaya çıkarsa, yüklenici bu durumu hemen işsahibine bildirmek zorundadır; bildirmezse bundan doğacak sonuçlardan sorumlu olur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "473",
+   "official_text": "MADDE 473- Yüklenicinin işe zamanında başlamaması veya sözleşme hükümlerine aykırı olarak işi geciktirmesi ya da işsahibine yüklenemeyecek bir sebeple ortaya çıkan gecikme yüzünden bütün tahminlere göre yüklenicinin işi kararlaştırılan zamanda bitiremeyeceği açıkça anlaşılırsa, işsahibi teslim için belirlenen günü beklemek zorunda olmaksızın sözleşmeden dönebilir.\nMeydana getirilmesi sırasında, eserin yüklenicinin kusuru yüzünden ayıplı veya sözleşmeye aykırı olarak meydana getirileceği açıkça görülüyorsa, işsahibi bunu önlemek üzere vereceği veya verdireceği uygun bir süre içinde yükleniciye, ayıbın veya aykırılığın giderilmesi; aksi takdirde hasar ve masrafları kendisine ait olmak üzere, onarımın veya işe devamın bir üçüncü kişiye verileceği konusunda ihtarda bulunabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "474",
+   "official_text": "MADDE 474- İşsahibi, eserin tesliminden sonra, işlerin olağan akışına göre imkân bulur bulmaz eseri gözden geçirmek ve ayıpları varsa, bunu uygun bir süre içinde yükleniciye bildirmek zorundadır.\nTaraflardan her biri, giderini karşılayarak, eserin bilirkişi tarafından gözden geçirilmesini ve sonucun bir raporla belirlenmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "475",
+   "official_text": "MADDE 475- Eserdeki ayıp sebebiyle yüklenicinin sorumlu olduğu hâllerde işsahibi, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Eser işsahibinin kullanamayacağı veya hakkaniyet gereği kabule zorlanamayacağı ölçüde ayıplı ya da sözleşme hükümlerine aynı ölçüde aykırı olursa sözleşmeden dönme.\n2. Eseri alıkoyup ayıp oranında bedelden indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları yükleniciye ait olmak üzere, eserin ücretsiz onarılmasını isteme.\nİşsahibinin genel hükümlere göre tazminat isteme hakkı saklıdır.\nEser, işsahibinin taşınmazı üzerinde yapılmış olup, sökülüp kaldırılması aşırı zarar doğuracaksa işsahibi, sözleşmeden dönme hakkını kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "476",
+   "official_text": "MADDE 476- Eserin ayıplı olması, yüklenicinin açıkça yaptığı ihtara karşın, işsahibinin verdiği talimattan doğmuş bulunur veya herhangi bir sebeple işsahibine yüklenebilecek olursa işsahibi, eserin ayıplı olmasından doğan haklarını kullanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "477",
+   "official_text": "MADDE 477- Eserin açıkça veya örtülü olarak kabulünden sonra, yüklenici her türlü sorumluluktan kurtulur; ancak, onun tarafından kasten gizlenen ve usulüne göre gözden geçirme sırasında fark edilemeyecek olan ayıplar için sorumluluğu devam eder.\nİşsahibi, gözden geçirmeyi ve bildirimde bulunmayı ihmal ederse, eseri kabul etmiş sayılır.\nEserdeki ayıp sonradan ortaya çıkarsa işsahibi, gecikmeksizin durumu yükleniciye bildirmek zorundadır; bildirmezse eseri kabul etmiş sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "478",
+   "official_text": "MADDE 478- Yüklenici ayıplı bir eser meydana getirmişse, bu sebeple açılacak davalar, teslim tarihinden başlayarak, taşınmaz yapılar dışındaki eserlerde iki yılın; taşınmaz yapılarda ise beş yılın ve yüklenicinin ağır kusuru varsa, ayıplı eserin niteliğine bakılmaksızın yirmi yılın geçmesiyle zamanaşımına uğrar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "146",
+   "official_text": "MADDE 146- Kanunda aksine bir hüküm bulunmadıkça, her alacak on yıllık zamanaşımına tabidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "147",
+   "official_text": "MADDE 147- Aşağıdaki alacaklar için beş yıllık zamanaşımı uygulanır:\n1. Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler.\n2. Otel, motel, pansiyon ve tatil köyü gibi yerlerdeki konaklama bedelleri ile lokanta ve benzeri yerlerdeki yeme içme bedelleri.\n3. Küçük sanat işlerinden ve küçük çapta perakende satışlardan doğan alacaklar.\n4. Bir ortaklıkta, ortaklık sözleşmesinden doğan ve ortakların birbirleri veya kendileri ile ortaklık arasındaki; bir ortaklığın müdürleri, temsilcileri, denetçileri ile ortaklık veya ortaklar arasındaki alacaklar.\n5. Vekâlet, komisyon ve acentalık sözleşmelerinden, ticari simsarlık ücreti alacağı dışında, simsarlık sözleşmesinden doğan alacaklar.\n6. Yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında, eser sözleşmesinden doğan alacaklar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "227",
+   "official_text": "MADDE 227- Satıcının satılanın ayıplarından sorumlu olduğu hâllerde alıcı, aşağıdaki seçimlik haklardan birini kullanabilir:\n1. Satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme.\n2. Satılanı alıkoyup ayıp oranında satış bedelinde indirim isteme.\n3. Aşırı bir masrafı gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme.\n4. İmkân varsa, satılanın ayıpsız bir benzeri ile değiştirilmesini isteme.\nAlıcının genel hükümlere göre tazminat isteme hakkı saklıdır.\nSatıcı, alıcıya aynı malın ayıpsız bir benzerini hemen vererek ve uğradığı zararın tamamını gidererek seçimlik haklarını kullanmasını önleyebilir.\nAlıcının, sözleşmeden dönme hakkını kullanması hâlinde, durum bunu haklı göstermiyorsa hâkim, satılanın onarılmasına veya satış bedelinin indirilmesine karar verebilir.\nSatılanın değerindeki eksiklik satış bedeline çok yakın ise alıcı, ancak sözleşmeden dönme veya satılanın ayıpsız bir benzeriyle değiştirilmesini isteme haklarından birini kullanabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "112",
+   "official_text": "MADDE 112- Borç hiç veya gereği gibi ifa edilmezse borçlu, kendisine hiçbir kusurun yüklenemeyeceğini ispat etmedikçe, alacaklının bundan doğan zararını gidermekle yükümlüdür.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "113",
+   "official_text": "MADDE 113- Yapma borcu, borçlu tarafından ifa edilmediği takdirde alacaklı, masrafı borçluya ait olmak üzere edimin kendisi veya başkası tarafından ifasına izin verilmesini isteyebilir; her türlü giderim isteme hakkı saklıdır.\nYapmama borcuna aykırı davranan borçlu, bu aykırı davranışının doğurduğu zararı gidermekle yükümlüdür.\nAlacaklı, ayrıca borca aykırı durumun ortadan kaldırılmasını veya bu konuda masrafı borçluya ait olmak üzere kendisinin yetkili kılınmasını isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "125",
+   "official_text": "MADDE 125- Temerrüde düşen borçlu, verilen süre içinde, borcunu ifa etmemişse veya süre verilmesini gerektirmeyen bir durum söz konusu ise alacaklı, her zaman borcun ifasını ve gecikme sebebiyle tazminat isteme hakkına sahiptir.\nAlacaklı, ayrıca borcun ifasından ve gecikme tazminatı isteme hakkından vazgeçtiğini hemen bildirerek, borcun ifa edilmemesinden doğan zararın giderilmesini isteyebilir veya sözleşmeden dönebilir.\nSözleşmeden dönme hâlinde taraflar, karşılıklı olarak ifa yükümlülüğünden kurtulurlar ve daha önce ifa ettikleri edimleri geri isteyebilirler. Bu durumda borçlu, temerrüde düşmekte kusuru olmadığını ispat edemezse alacaklı, sözleşmenin hükümsüz kalması sebebiyle uğradığı zararın giderilmesini de isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "502",
+   "official_text": "MADDE 502- Vekâlet sözleşmesi, vekilin vekâlet verenin bir işini görmeyi veya işlemini yapmayı üstlendiği sözleşmedir.\nVekâlete ilişkin hükümler, niteliklerine uygun düştükleri ölçüde, bu Kanunda düzenlenmemiş olan işgörme sözleşmelerine de uygulanır.\nSözleşme veya teamül varsa vekil, ücrete hak kazanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "56",
+   "official_text": "MADDE 56- Hâkim, bir kimsenin bedensel bütünlüğünün zedelenmesi durumunda, olayın özelliklerini göz önünde tutarak, zarar görene uygun bir miktar paranın manevi tazminat olarak ödenmesine karar verebilir.\nAğır bedensel zarar veya ölüm hâlinde, zarar görenin veya ölenin yakınlarına da manevi tazminat olarak uygun bir miktar paranın ödenmesine karar verilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2024/92",
+   "karar_no": "2025/562",
+   "decision_date": "15.10.2012",
+   "summary_md": "Arsa sahibi olan davacı, kat karşılığı inşaat sözleşmesi uyarınca, imar tadilatıyla eklenen bloklarla sözleşmede öngörülenden fazla yapılan dairelerin değerinin yarısından payına düşeni yükleniciden istedi; yüklenici bu daireleri üçüncü kişilere satmıştı. Yüklenici zamanaşımı def'inde bulundu. İlk derece mahkemesi, yapı kullanma izin belgesinin alındığı tarihten itibaren beş yılın dolduğu gerekçesiyle davayı reddetti; istinaf başvurusu da reddedildi. Yargıtay 6. Hukuk Dairesi bozdu, mahkeme direndi. Hukuk Genel Kurulu direnme kararını oy çokluğuyla bozdu. Sözleşmede dairelerin \"anahtar çekmece\" teslimi ve kat mülkiyetinin kurulması öngörüldüğünden, yüklenicinin edimini tam ifa etmiş sayılması için kat mülkiyetini kurması, yapı kullanma izin belgelerini alması, fiilen teslim etmesi ve bağımsız bölümleri tapuda arsa sahibine devretmesi gerekir. Yalnız fiili teslimle edim ifa edilmiş olmaz; teslim gerçekleşmediğinden zamanaşımı başlamamıştır. Karşı oyda ise yapı kullanma izninin alınmasından ve fiilen yerleşilmesinden itibaren beş yılın dolduğu savunulmuştur. Karar, eser sözleşmesinde teslimle işlemeye başlayan zamanaşımı bakımından \"teslim\"in, sözleşmenin içeriğine göre kat karşılığı inşaatta tapu devrini de kapsayabileceğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1175101700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "6. Hukuk Dairesi",
+   "esas_no": "2024/3670",
+   "karar_no": "2025/3903",
+   "decision_date": "17.11.2025",
+   "summary_md": "Davacı, göğüs küçültme ameliyatı için anlaştığı doktor ve hastaneye karşı ödediği ücret, ilave tedavi masrafı ve manevi tazminat istedi; ameliyatlardan sonra göğüslerinin küçülmediğini, büyüdüğünü ve izler kaldığını ileri sürdü. Doktor, onam belgesine göre yapılan işlemin meme büyütme ve dikleştirme olduğunu, izlerin bünyeden kaynaklandığını savundu. İlk derece mahkemesi, doğru onam alındığı ve izlerin tıbbi hata olmadığı gerekçesiyle davayı reddetti; istinaf başvurusu da reddedildi. Yargıtay 6. Hukuk Dairesi estetik müdahaleyi, tıbbi zorunlulukla yapılan tedaviye ilişkin vekâletten ayırarak eser sözleşmesi saydı. Eser sözleşmesinde sonuç taahhüdü bulunduğundan, bilirkişi tıbbi hata saptamasa bile oluşan izlerle taahhüt edilen sonucun gerçekleşmediğini ve eserin ayıplı olduğunu belirtti, TBK m. 475 ve TBK m. 56'yı anarak kararı oy birliğiyle bozdu. Mahkemenin maddi tazminat taleplerini değerlendirmesi ve uygun bir manevi tazminat belirlemesi gerekir. Karar tutarı belirlemez; eser sözleşmesi çerçevesinde sonuç sorumluluğu ve ayıp kavramını vurgular.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1193677100",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Eser sözleşmesini vekâlet sözleşmesinden ayıran temel özellik hangisidir?",
+   "options": [
+    "Sözleşmenin süreklilik arz etmesi",
+    "Karşılığında bedel ödenmesi",
+    "Sözleşmenin yazılı yapılma zorunluluğu",
+    "Yüklenicinin bir sonuç (eser) meydana getirmeyi borçlanması"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 470'e göre yüklenici bir eser, yani bir sonuç meydana getirmeyi üstlenir. Vekâlette vekil bir işin görülmesini üstlenir (TBK m. 502). Bedel vekâlette de söz konusu olabilir (TBK m. 502/3); bu yüzden bedel ayırıcı ölçüt değildir."
+  },
+  {
+   "stem_md": "Müteahhit Mert, işsahibi Leyla ile bahçe duvarı yapımı için eser sözleşmesi yapmıştır. Mert işi bir taşerona vermek istemektedir. Duvar yapımında Mert'in kişisel özelliklerinin önemi yoktur. Hangisi doğrudur?",
+   "options": [
+    "Mert işi başkasına verirse sözleşme kendiliğinden sona erer.",
+    "Mert işi başkasına yaptırabilir, çünkü kişisel özellikleri önem taşımamaktadır.",
+    "Her eser sözleşmesinde işin yüklenici tarafından bizzat yapılması zorunludur.",
+    "Mert, Leyla'nın yazılı onayı olmadan işi hiçbir şekilde başkasına yaptıramaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 471/3'e göre yüklenici eseri kendisi yapar veya kendi yönetimi altında yaptırır; yüklenicinin kişisel özellikleri önem taşımıyorsa işi başkasına da yaptırabilir. Bu bir sona erme sebebi değildir ve işsahibinin onayını zorunlu kılmaz."
+  },
+  {
+   "stem_md": "Yüklenici, eserin yapımında kullandığı tuğlaları kendisi sağlamıştır. Tuğlalar ayıplı çıkmıştır. Yüklenici işsahibine karşı ne şekilde sorumludur?",
+   "options": [
+    "Yalnız işsahibi talimat vermişse sorumludur.",
+    "Malzeme eserin parçası olduğundan hiçbir bağımsız sorumluluğu yoktur.",
+    "Malzemenin ayıplı olması yüzünden satıcı gibi sorumludur.",
+    "Vekil gibi sorumludur."
+   ],
+   "correct_option": 2,
+   "explanation_md": "TBK m. 472/1'e göre malzeme yüklenici tarafından sağlanmışsa yüklenici, malzemenin ayıplı olması yüzünden işsahibine karşı satıcı gibi sorumludur."
+  },
+  {
+   "stem_md": "Terzi Hasan, İpek'in verdiği kumaşın çürük olduğunu dikim sırasında fark etmiş, ancak bunu İpek'e bildirmeden elbiseyi dikmiştir. Elbise dikişlerden dağılmıştır. Hangisi doğrudur?",
+   "options": [
+    "İpek yalnız kumaşın bedelini isteyebilir; başka bir hak doğmaz.",
+    "Hasan, durumu hemen bildirmediği için bundan doğacak sonuçlardan sorumludur.",
+    "Kumaşı İpek sağladığından Hasan hiçbir sonuçtan sorumlu değildir.",
+    "Hasan'ın bildirim yükümlülüğü ancak İpek sorarsa doğar."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 472/3'e göre işsahibinin sağladığı malzemenin ayıplı olduğu anlaşılırsa yüklenici bunu hemen işsahibine bildirmek zorundadır; bildirmezse bundan doğacak sonuçlardan sorumlu olur. Bildirim yükümlülüğü işsahibinin sorusuna bağlı değildir."
+  },
+  {
+   "stem_md": "Y, 6 ay içinde bitirmesi gereken fabrika inşaatına 5. ayın sonunda hâlâ temel kazısına bile başlamamıştır; tüm tahminlere göre iş zamanında bitmeyecektir ve gecikme yükleniciye yüklenebilir. İşsahibi ne yapabilir?",
+   "options": [
+    "Teslim için belirlenen günü beklemeden sözleşmeden dönebilir.",
+    "Gecikme tazminatı dışında hiçbir hak doğmaz.",
+    "Teslim gününü beklemek zorundadır; ancak o günden sonra dönebilir.",
+    "Yalnız bedelden indirim isteyebilir."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 473/1'e göre yüklenicinin işe zamanında başlamaması veya işi geciktirmesi yüzünden bütün tahminlere göre işin kararlaştırılan zamanda bitirilemeyeceği açıkça anlaşılırsa işsahibi teslim için belirlenen günü beklemek zorunda olmaksızın sözleşmeden dönebilir."
+  },
+  {
+   "stem_md": "Yapım devam ederken eserin yüklenicinin kusuru yüzünden ayıplı yapılacağı açıkça görülmektedir. İşsahibi bunu önlemek için ne yapabilir?",
+   "options": [
+    "Yapım sürerken hiçbir işlem yapamaz; ancak teslimden sonra haklarını kullanabilir.",
+    "Uygun bir süre vererek ayıbın giderilmesini, aksi hâlde masrafları yükleniciye ait olmak üzere onarım veya işe devamın üçüncü kişiye verileceğini ihtar edebilir.",
+    "Eserin tesliminden sonra bilirkişi incelemesi isteyebilir.",
+    "Ayıpsız bir benzerinin yapılmasını isteyebilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 473/2, eserin yüklenicinin kusuru yüzünden ayıplı yapılacağı açıkça görülüyorsa işsahibine uygun süre vererek ayıbın giderilmesini, aksi hâlde onarımın veya işe devamın hasar ve masrafları yükleniciye ait olmak üzere üçüncü kişiye verileceğini ihtar etme imkânı tanır."
+  },
+  {
+   "stem_md": "Aşağıdakilerden hangisi eser sözleşmesinde işsahibinin TBK m. 475/1'deki seçimlik haklarından **biri değildir**?",
+   "options": [
+    "Aşırı masrafa yol açmıyorsa eserin ücretsiz onarılmasını isteme",
+    "Eserin ayıpsız benzeriyle değiştirilmesini isteme",
+    "Sözleşmeden dönme",
+    "Ayıp oranında bedelden indirim isteme"
+   ],
+   "correct_option": 1,
+   "explanation_md": "TBK m. 475/1 yalnız dönme, bedelden indirim ve ücretsiz onarımı sayar. Ayıpsız benzeriyle değiştirme hakkı satışa özgüdür (TBK m. 227/1). Genel hükümlere göre tazminat hakkı ayrıca saklıdır (TBK m. 475/2)."
+  },
+  {
+   "stem_md": "İşsahibi İ'nin arsasında Y, fabrika binasını yapmıştır. Bina ayıplıdır; ancak söküp kaldırılması aşırı zarar doğuracaktır. Onarım ise aşırı bir masrafa yol açmamaktadır. İ'nin hakları bakımından hangisi doğrudur?",
+   "options": [
+    "İ hiçbir hakkını kullanamaz.",
+    "İ yalnız tazminat isteyebilir, indirim ve onarım isteyemez.",
+    "İ sözleşmeden dönebilir, çünkü ayıp varsa dönme her zaman mümkündür.",
+    "İ dönemez; bedelden indirim veya ücretsiz onarım isteyebilir, kusur varsa tazminat da talep edebilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Eser işsahibinin taşınmazı üzerinde yapılmış ve sökülüp kaldırılması aşırı zarar doğuracaksa işsahibi sözleşmeden dönme hakkını kullanamaz (TBK m. 475/3). Diğer seçimlik haklar (indirim, ücretsiz onarım) ve tazminat hakkı saklıdır (TBK m. 475/1-2)."
+  },
+  {
+   "stem_md": "Yüklenici, işsahibinin getirdiği çatı panellerinin su sızdıracağını noter ihtarıyla açıkça bildirmiştir. İşsahibi \"aynen monte et\" talimatını vermiş, çatı akıtmıştır. İşsahibinin ayıp hakları bakımından hangisi doğrudur?",
+   "options": [
+    "İşsahibi dönme hakkını kullanabilir.",
+    "İşsahibi onarımı ücretsiz isteyebilir, çünkü teslim edilen eser ayıplıdır.",
+    "İşsahibi yalnız bedelden indirim isteyebilir.",
+    "İşsahibi ayıp haklarını kullanamaz, çünkü ayıp açık ihtara rağmen kendi talimatından doğmuştur."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 476'ya göre ayıp, yüklenicinin açıkça yaptığı ihtara rağmen işsahibinin verdiği talimattan doğmuşsa veya işsahibine yüklenebiliyorsa işsahibi eserin ayıplı olmasından doğan haklarını kullanamaz. Yüklenici ayrıca TBK m. 472/3'teki bildirim yükümlülüğünü yerine getirmiştir."
+  },
+  {
+   "stem_md": "Konut binasının teslimi 10 Mart 2021'de yapılmıştır. İşsahibi, süresinde bildirdiği ayıp nedeniyle 2 Haziran 2025'te dava açmıştır. Yüklenicinin ağır kusuru yoktur. Zamanaşımı bakımından hangisi doğrudur?",
+   "options": [
+    "Taşınmaz yapı olduğundan süre beş yıldır ve dolmamıştır.",
+    "Süre her durumda yirmi yıldır.",
+    "Zamanaşımı ayıbın öğrenildiği tarihten işler ve dolmuştur.",
+    "Taşınır eser sayıldığından iki yıllık süre dolmuştur."
+   ],
+   "correct_option": 0,
+   "explanation_md": "TBK m. 478'e göre ayıp davaları teslim tarihinden başlayarak taşınmaz yapılarda beş yılda zamanaşımına uğrar. Ağır kusur bulunmadığından yirmi yıllık süre uygulanmaz. Teslimden dava tarihine yaklaşık 4 yıl 3 ay geçmiştir."
+  },
+  {
+   "stem_md": "Ahmet, ısmarladığı dolabı teslim almış; dolabın iç yapısındaki ayıp, kullanımla bir yıl sonra ortaya çıkmıştır. Ahmet ayıbı fark ettikten sonra bir yıl boyunca yükleniciye hiç bildirimde bulunmamıştır. Sonuç nedir?",
+   "options": [
+    "Yüklenici ancak ağır kusurluysa sorumludur.",
+    "Ahmet eseri kabul etmiş sayılır.",
+    "Süre yoktur; Ahmet dilediği zaman bildirebilir.",
+    "Bildirim yükümlülüğü yalnız açık ayıplarda vardır; Ahmet'in hakları sürer."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Eserdeki ayıp sonradan ortaya çıkarsa işsahibi gecikmeksizin durumu yükleniciye bildirmek zorundadır; bildirmezse eseri kabul etmiş sayılır (TBK m. 477/3). Gizli ayıplarda da bildirim külfeti vardır."
+  },
+  {
+   "stem_md": "Eseri açıkça kabul eden işsahibi bakımından yüklenicinin sorumluluğu hangi ayıplar için devam eder?",
+   "options": [
+    "Yüklenicinin hafif kusuruyla doğan ayıplar",
+    "İşsahibinin talimatından doğan ayıplar",
+    "Gözden geçirme sırasında kolayca fark edilebilecek ayıplar",
+    "Yüklenicinin kasten gizlediği ve usulüne göre gözden geçirmede fark edilemeyecek ayıplar"
+   ],
+   "correct_option": 3,
+   "explanation_md": "TBK m. 477/1'e göre kabulden sonra yüklenici her türlü sorumluluktan kurtulur; yalnız onun tarafından kasten gizlenen ve usulüne göre gözden geçirme sırasında fark edilemeyecek ayıplar için sorumluluğu devam eder. İşsahibinin talimatından doğan ayıp ise TBK m. 476 nedeniyle zaten hak doğurmaz."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "İ Sanayi Ltd. Şti., kendi arsası üzerinde fabrika binası yapılması için Y İnşaat ile 1 Mart 2025'te eser sözleşmesi yapmış, teslim tarihi 1 Mart 2026 olarak belirlenmiştir. Çatıda kullanılacak yalıtım panellerini İ Ltd. temin etmiştir. Y, panelleri incelediğinde su sızdıracak nitelikte olduğunu fark etmiş ve 10 Eylül 2025'te noter aracılığıyla İ Ltd.'ye durumu bildirmiş, başka panel kullanılmasını önermiştir. İ Ltd. \"Aynen monte et\" talimatını vermiş, Y de montajı yapmıştır.\n\nEkim 2025'te Y'nin dış cephe mantolamasını, kendi kusuruyla ve projede öngörülenden ince biçimde uygulamaya başladığı anlaşılmıştır; kusur ağır kusur düzeyinde değildir. Bina 1 Mart 2026'da teslim edilmiş, ilk yağmurda çatı akıtmıştır. İ Ltd., mantolama ayıbını teslimin ertesi günü Y'ye yazılı olarak bildirmiştir. İ Ltd., sözleşmeden dönerek binanın yıkılıp arsanın eski hâline getirilmesini, ayrıca çatı akıtması için de Y'den ayıp haklarını istemektedir. Fabrikanın sökülmesi aşırı zarara yol açacaktır.\n\n1. Ekim 2025'te mantolamanın kusurlu yapıldığı açıkça görülürken İ Ltd. teslimden önce hangi yola başvurabilirdi?\n2. Çatı akıtması nedeniyle İ Ltd.'nin ayıp hakları var mıdır?\n3. İ Ltd. mantolama ayıbı nedeniyle sözleşmeden dönebilir mi? Hangi hakları kullanabilir?\n4. Mantolama ayıbının bildirimi süresinde midir?\n5. Mantolama davası 2029'da açılırsa zamanaşımı bakımından durum nedir?",
+   "rubric": [
+    {
+     "point": "Yapım sırasında kusurlu yapılacağı açıkça görülen işte uygun süre vererek ayıbın giderilmesi, aksi hâlde onarımın veya işe devamın üçüncü kişiye verileceği ihtarı",
+     "weight": 20,
+     "madde_ref": "TBK m. 473"
+    },
+    {
+     "point": "Yüklenicinin malzeme ayıbını hemen ve açıkça bildirmesi; ayıbın açık ihtara rağmen işsahibinin talimatından doğması nedeniyle çatı yönünden ayıp haklarının kullanılamaması",
+     "weight": 20,
+     "madde_ref": "TBK m. 476"
+    },
+    {
+     "point": "İşsahibinin taşınmazı üzerindeki eserin sökülmesi aşırı zarar doğuracağından dönme hakkının kullanılamaması; indirim, ücretsiz onarım ve tazminat haklarının saklı kalması",
+     "weight": 25,
+     "madde_ref": "TBK m. 475"
+    },
+    {
+     "point": "Teslimin ertesi günü yapılan bildirimin imkân bulur bulmaz ve uygun sürede olması; kabul sayılmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 474"
+    },
+    {
+     "point": "Taşınmaz yapıda ağır kusur olmadığından teslimden başlayan beş yıllık zamanaşımı; 2029'daki davanın süresinde olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 478"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** İ Ltd. ile Y arasında fabrika binası yapımına ilişkin sözleşme, Y'nin bir sonucu (binayı) borçlandığı eser sözleşmesidir (TBK m. 470). Y yüklenici, İ Ltd. işsahibidir.\n\n**Hukuki sorunlar:** (1) Yapım sırasında ayıbı önleme yolu; (2) işsahibi malzemesi ve talimatı nedeniyle çatı ayıbı; (3) seçimlik haklar ve taşınmazda dönme sınırı; (4) bildirim; (5) zamanaşımı.\n\n**İlgili hükümler:** TBK m. 470, TBK m. 472, TBK m. 473, TBK m. 474, TBK m. 475, TBK m. 476, TBK m. 477 ve TBK m. 478.\n\n**Değerlendirme:**\n\n*1. Yapım sırasında ihtar:* Eserin yüklenicinin kusuru yüzünden ayıplı yapılacağı açıkça görülüyorsa işsahibi, uygun bir süre vererek ayıbın giderilmesini, aksi hâlde hasar ve masrafları yükleniciye ait olmak üzere onarımın veya işe devamın üçüncü kişiye verileceğini ihtar edebilir (TBK m. 473/2). Mantolamanın kusurlu yapıldığı Ekim 2025'te anlaşıldığına göre İ Ltd. teslimi beklemeden bu yola başvurabilirdi.\n\n*2. Çatı:* Panelleri İ Ltd. sağlamıştır. Y, malzemenin ayıplı olduğunu hemen ve noter yoluyla bildirerek TBK m. 472/3'teki yükümlülüğünü yerine getirmiştir. Ayıp, yüklenicinin açık ihtarına rağmen işsahibinin talimatından doğduğundan İ Ltd. çatı akıtması nedeniyle ayıp haklarını kullanamaz (TBK m. 476).\n\n*3. Mantolama ve seçimlik haklar:* İ Ltd. ayıp sebebiyle dönme, bedelden indirim veya ücretsiz onarımdan birini seçebilir (TBK m. 475/1). Ancak eser İ Ltd.'nin kendi taşınmazı üzerinde yapılmış ve sökülüp kaldırılması aşırı zarar doğuracağından dönme hakkı kullanılamaz (TBK m. 475/3). İ Ltd. indirim veya, aşırı masraf gerektirmiyorsa, ücretsiz onarım isteyebilir. Y'nin kusuru bulunduğundan genel hükümlere göre tazminat hakkı da saklıdır (TBK m. 475/2).\n\n*4. Bildirim:* İşsahibi, teslimden sonra imkân bulur bulmaz eseri gözden geçirir ve ayıpları uygun sürede bildirir (TBK m. 474/1). Mantolama ayıbı teslimin ertesi günü bildirildiğinden bildirim süresindedir; İ Ltd. eseri kabul etmiş sayılmaz (TBK m. 477/2).\n\n*5. Zamanaşımı:* Ayıp davaları teslim tarihinden başlayarak taşınmaz yapılarda beş yılda zamanaşımına uğrar; ağır kusur yoksa yirmi yıllık süre uygulanmaz (TBK m. 478). Teslim 1 Mart 2026'dır. 2029'da açılan dava, beş yıllık süre içindedir.\n\n**Sonuç:** İ Ltd. teslimden önce TBK m. 473/2'ye göre ihtar edebilirdi. Çatı için ayıp hakları yoktur. Mantolama için dönemez; indirim veya ücretsiz onarım ile tazminat isteyebilir. Bildirim süresindedir ve dava zamanaşımına uğramamıştır."
+  },
+  {
+   "stem_md": "Ayşe, 15 Ocak 2026'da Y Mobilya Atölyesi ile yatak odası takımı yapımı için sözleşme yapmıştır. Ahşap ve kaplama malzemelerini atölye sağlayacaktır. Takım 1 Nisan 2026'da teslim edilmiş ve Ayşe kabul etmiştir. Teslimde gardırop kapağında belirgin bir çizik vardır; Ayşe bunu o gün görmüş, ancak bir yıl boyunca Y'ye hiçbir bildirimde bulunmamıştır.\n\n10 Şubat 2027'de yatağın baza kasası çökmüştür. Baza kasasının kaplamanın altında kalan iç yüzeyinde Y'nin, maliyeti düşürmek için bilerek çok düşük kaliteli malzeme kullandığı ve bunu kaplamayla gizlediği anlaşılmıştır; ayıp olağan bir gözden geçirmede fark edilemeyecek niteliktedir. Ayşe ertesi gün Y'ye yazılı bildirimde bulunmuş, 20 Mart 2027'de dava açmıştır. Y; \"Takımı kabul ettin, sorumluluğum bitti; ayrıca iki yıl da geçti\" diyerek savunma yapmıştır.\n\n1. Sözleşmenin hukuki niteliği nedir?\n2. Gardırop kapağındaki çizik bakımından Ayşe'nin hakları ne olur?\n3. Baza kasasındaki ayıp için Y'nin \"kabul ettin, sorumluluğum bitti\" savunması yerinde midir?\n4. Ayşe baza ayıbı nedeniyle hangi hakları kullanabilir?\n5. Y'nin zamanaşımı savunması yerinde midir?",
+   "rubric": [
+    {
+     "point": "Sözleşmenin eser sözleşmesi olması; malzemeyi yüklenicinin sağlaması nedeniyle satıcı gibi sorumluluk",
+     "weight": 15,
+     "madde_ref": "TBK m. 470"
+    },
+    {
+     "point": "Açık ayıbın imkân bulur bulmaz ve uygun sürede bildirilmemesi nedeniyle eserin bu ayıp bakımından kabul edilmiş sayılması",
+     "weight": 25,
+     "madde_ref": "TBK m. 477"
+    },
+    {
+     "point": "Kabulün yüklenicinin sorumluluğunu kaldırması; ancak kasten gizlenen ve gözden geçirmede fark edilemeyen ayıp için sorumluluğun devam etmesi; gizli ayıp bildiriminin gecikmeksizin yapılmış olması",
+     "weight": 25,
+     "madde_ref": "TBK m. 477"
+    },
+    {
+     "point": "Dönme, bedelden indirim veya ücretsiz onarım seçimlik hakları ve saklı tazminat hakkı; ayıpsız benzeriyle değiştirme hakkının bulunmaması",
+     "weight": 15,
+     "madde_ref": "TBK m. 475"
+    },
+    {
+     "point": "Taşınmaz yapı dışındaki eserde iki yıllık süre ve ağır kusurda yirmi yıllık süre; davanın süresinde açılmış olması",
+     "weight": 20,
+     "madde_ref": "TBK m. 478"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Y, sipariş üzerine yatak odası takımını meydana getirmeyi, Ayşe de bedel ödemeyi üstlenmiştir; malzemeyi de Y sağlamaktadır. Bu, eser sözleşmesidir (TBK m. 470). Malzeme yüklenici tarafından sağlandığından Y, malzemenin ayıplı olması yüzünden Ayşe'ye karşı satıcı gibi sorumludur (TBK m. 472/1).\n\n**Hukuki sorunlar:** (1) Açık ayıp ve kabul; (2) kasten gizlenen ayıp; (3) seçimlik haklar; (4) zamanaşımı.\n\n**İlgili hükümler:** TBK m. 470, TBK m. 472, TBK m. 474, TBK m. 475, TBK m. 477 ve TBK m. 478.\n\n**Değerlendirme:**\n\n*1. Çizik:* Gardırop kapağındaki çizik teslimde görülebilen açık bir ayıptır. İşsahibi, teslimden sonra imkân bulur bulmaz eseri gözden geçirmek ve ayıpları uygun süre içinde bildirmek zorundadır (TBK m. 474/1). Ayşe bir yıl boyunca bildirim yapmamıştır. İşsahibi gözden geçirmeyi ve bildirimi ihmal ederse eseri kabul etmiş sayılır (TBK m. 477/2). Bu nedenle Ayşe çizik bakımından ayıp haklarını kullanamaz.\n\n*2. Baza kasası ve kabul savunması:* Eserin açıkça veya örtülü olarak kabulünden sonra yüklenici her türlü sorumluluktan kurtulur. Ancak yüklenici tarafından kasten gizlenen ve usulüne göre gözden geçirme sırasında fark edilemeyecek ayıplar için sorumluluğu devam eder (TBK m. 477/1). Baza kasasındaki ayıp, Y'nin bilerek düşük kaliteli malzeme kullanıp kaplamayla gizlediği ve olağan gözden geçirmede fark edilemeyen bir ayıptır. Bu nedenle \"kabul ettin\" savunması yerinde değildir. Ayıp sonradan ortaya çıkmıştır; Ayşe ertesi gün yazılı bildirdiğinden gecikmeksizin bildirim yükümlülüğünü yerine getirmiştir (TBK m. 477/3).\n\n*3. Seçimlik haklar:* Ayşe, eser kullanamayacağı ölçüde ayıplıysa sözleşmeden dönebilir, eseri alıkoyup ayıp oranında indirim isteyebilir veya aşırı masraf gerektirmiyorsa ücretsiz onarım isteyebilir (TBK m. 475/1). Ayrıca genel hükümlere göre tazminat hakkı saklıdır (TBK m. 475/2). Eserin ayıpsız benzeriyle değiştirilmesi hakkı TBK m. 475'te yer almaz. Eser Ayşe'nin taşınmazı üzerinde yapılmadığından TBK m. 475/3'teki dönme yasağı da söz konusu değildir.\n\n*4. Zamanaşımı:* Taşınmaz yapılar dışındaki eserlerde ayıp davaları teslimden başlayarak iki yılda zamanaşımına uğrar (TBK m. 478). Teslim 1 Nisan 2026'dır ve dava 20 Mart 2027'de açıldığından süre dolmamıştır. Y'nin kusuru ağır kusur düzeyinde olduğundan ayrıca yirmi yıllık süre de gündeme gelir; her hâlde zamanaşımı savunması yerinde değildir.\n\n**Sonuç:** Sözleşme eser sözleşmesidir. Çizik bakımından Ayşe eseri kabul etmiş sayılır. Baza ayıbı için kabul savunması geçersizdir; Ayşe dönme, indirim veya ücretsiz onarımdan birini seçebilir ve tazminat da isteyebilir. Zamanaşımı savunması yerinde değildir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Eser sözleşmesinin tanımı nedir (TBK m. 470)?",
+   "back_md": "Yüklenicinin bir eser meydana getirmeyi, işsahibinin karşılığında bedel ödemeyi üstlendiği sözleşme. Yüklenici sonuç borçlanır."
+  },
+  {
+   "front_md": "Yüklenicinin özen borcunun ölçüsü nedir (TBK m. 471/2)?",
+   "back_md": "Benzer alandaki işleri üstlenen basiretli bir yüklenicinin göstermesi gereken meslekî ve teknik kurallara uygun davranış."
+  },
+  {
+   "front_md": "Yüklenici işi başkasına ne zaman yaptırabilir (TBK m. 471/3)?",
+   "back_md": "Eserin meydana getirilmesinde yüklenicinin kişisel özellikleri önem taşımıyorsa. Aksi hâlde kendisi yapar veya kendi yönetiminde yaptırır."
+  },
+  {
+   "front_md": "Araç-gereci kim sağlar (TBK m. 471/4)?",
+   "back_md": "Aksine âdet veya anlaşma yoksa yüklenici."
+  },
+  {
+   "front_md": "Malzemeyi yüklenici sağlamışsa ayıptan sorumluluğu nasıldır (TBK m. 472/1)?",
+   "back_md": "İşsahibine karşı satıcı gibi sorumludur."
+  },
+  {
+   "front_md": "İşsahibinin malzemesi veya gösterdiği yer ayıplıysa yüklenici ne yapmalıdır (TBK m. 472/3)?",
+   "back_md": "Durumu hemen işsahibine bildirmelidir; bildirmezse bundan doğacak sonuçlardan sorumlu olur."
+  },
+  {
+   "front_md": "İşsahibi vadeyi beklemeden ne zaman dönebilir (TBK m. 473/1)?",
+   "back_md": "Yüklenicinin işe zamanında başlamaması, işi geciktirmesi ya da işsahibine yüklenemeyecek bir gecikme yüzünden işin kararlaştırılan zamanda bitmeyeceği açıkça anlaşılırsa; teslim gününü beklemeden."
+  },
+  {
+   "front_md": "Eser kusurlu yapılacağı açıkça görülürken işsahibi ne yapabilir (TBK m. 473/2)?",
+   "back_md": "Uygun süre vererek ayıbın giderilmesini, aksi hâlde masrafları yükleniciye ait olmak üzere onarımın veya işe devamın üçüncü kişiye verileceğini ihtar eder."
+  },
+  {
+   "front_md": "Açık ayıp ve sonradan ortaya çıkan ayıpta bildirim ne zaman yapılır (TBK m. 474/1 ve TBK m. 477/3)?",
+   "back_md": "Açık ayıp imkân bulur bulmaz uygun sürede; sonradan çıkan ayıp gecikmeksizin. Bildirilmezse eser kabul edilmiş sayılır."
+  },
+  {
+   "front_md": "İşsahibinin seçimlik hakları nelerdir (TBK m. 475/1)?",
+   "back_md": "Dönme, ayıp oranında bedelden indirim, aşırı masraf gerektirmiyorsa ücretsiz onarım. Tazminat ayrıca saklıdır; ayıpsız benzeriyle değiştirme yoktur."
+  },
+  {
+   "front_md": "İşsahibinin taşınmazındaki eserde dönme ne zaman yasaktır (TBK m. 475/3)?",
+   "back_md": "Eserin sökülüp kaldırılması aşırı zarar doğuracaksa."
+  },
+  {
+   "front_md": "Ayıp davalarının zamanaşımı süreleri nelerdir (TBK m. 478)?",
+   "back_md": "Teslimden başlayarak taşınmaz yapı dışındaki eserlerde 2 yıl, taşınmaz yapılarda 5 yıl, yüklenicinin ağır kusurunda 20 yıl."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

@@ -1,0 +1,734 @@
+slug: sebepsiz-zenginlesme-sartlar
+beceriler:
+  - borclar-hukuku-genel/temel-kavramlar-ve-sistem
+  - sebepsiz-zenginlesme/sartlar-ve-denetim-semasi
+  - sebepsiz-zenginlesme/gecerli-olmayan-sebep-condictio-indebiti
+  - sebepsiz-zenginlesme/gerceklesmeyen-ve-sona-eren-sebep
+  - sebepsiz-zenginlesme/yarisma-ve-talep-secimi
+maddeler:
+  - {kanun: TBK, madde: "77"}
+  - {kanun: TBK, madde: "78"}
+  - {kanun: TBK, madde: "79"}
+  - {kanun: TBK, madde: "80"}
+  - {kanun: TBK, madde: "81"}
+  - {kanun: TBK, madde: "82"}
+  - {kanun: TBK, madde: "12"}
+  - {kanun: TBK, madde: "27"}
+  - {kanun: TBK, madde: "39"}
+  - {kanun: TBK, madde: "49"}
+  - {kanun: TBK, madde: "117"}
+  - {kanun: TBK, madde: "125"}
+  - {kanun: TBK, madde: "136"}
+  - {kanun: TBK, madde: "161"}
+  - {kanun: TBK, madde: "237"}
+  - {kanun: TBK, madde: "530"}
+  - {kanun: TBK, madde: "605"}
+  - {kanun: TMK, madde: "3"}
+  - {kanun: TMK, madde: "6"}
+  - {kanun: TMK, madde: "122"}
+  - {kanun: TMK, madde: "683"}
+  - {kanun: TMK, madde: "706"}
+  - {kanun: TMK, madde: "988"}
+  - {kanun: TMK, madde: "993"}
+  - {kanun: TMK, madde: "995"}
+  - {kanun: TMK, madde: "1024"}
+  - {kanun: TMK, madde: "1025"}
+  - {kanun: İİK, madde: "72"}
+
+ozet: |
+  **Bu konu neyi cevaplıyor?** Biri haklı bir sebep olmadan başkasının malvarlığından ya da emeğinden zenginleştiğinde bunu geri vermek zorunda mıdır? Borç olmadığı hâlde yapılan bir ödeme ne zaman geri istenir?
+
+  - **Temel kural (TBK m. 77/1):** Haklı bir sebep olmaksızın bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür. Borç kanundan doğar. Kusur, hukuka aykırılık ve zarar aranmaz.
+  - **Dört unsur:** (1) zenginleşme (aktifin artması, pasifin azalması, giderden tasarruf), (2) bunun başkasının malvarlığından veya emeğinden gelmesi (Yargıtay: fakirleşme), (3) aralarında illiyet bağı, (4) haklı sebebin yokluğu.
+  - **Üç tipik hâl (TBK m. 77/2):** Geçerli olmayan, gerçekleşmemiş ya da sona ermiş sebep. Kanun "özellikle" dediği için sayım örnek niteliğindedir.
+  - **Zenginleşmenin kaynağı:** *Edim kondiksiyonunda* fakirleşen bir amaçla bir şey verir ve amaç boşa çıkar. *Müdahale kondiksiyonunda* kimse bir şey vermemiştir; zenginleşen başkasına ait bir değeri kendisi kullanır, tüketir ya da satar.
+  - **Borç olmayanın ifası (TBK m. 78/1):** Borçlanmadığı edimi kendi isteğiyle yerine getiren, ancak kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir. Bilerek ve baskı olmadan ödeyen geri isteyemez. Baskı altında yapılan ödemede yanılma şartı aranmaz (Yargıtay HGK).
+  - **Geri istenemeyenler (TBK m. 78/2):** Zamanaşımına uğramış borcun ifası ve ahlaki ödevin yerine getirilmesi, yanılma olsa bile geri istenemez.
+  - **Özel hükümler saklı (TBK m. 78/3):** Takibe itiraz etmediği ya da itirazı kaldırıldığı için borçlu olmadığı parayı ödemek zorunda kalan kişi, ödemeden itibaren bir yıl içinde istirdat davası açar ve yalnız paranın verilmesi gerekmediğini ispatlar (İİK m. 72/7-8). Kumar borcu için isteyerek ödenen kural olarak geri alınamaz (TBK m. 605/2).
+  - **Diğer kurumlar:** Geçerli sözleşme haklı sebeptir. Haksız fiilde zarar, burada zenginleşme esas alınır. Malik, mülkiyeti geçmemiş şeyini istihkakla (TMK m. 683/2), yolsuz tescilde tapu sicilinin düzeltilmesi davasıyla (TMK m. 1025) geri alır. Yargıtay sebepsiz zenginleşmeyi **ikincil (tali)** sayar; öğretide bu tartışmalıdır.
+  - **Uygulama:** Harici (şekle aykırı) taşınmaz satışında verilenler sebepsiz zenginleşme hükümlerine göre geri istenir. Yanlış IBAN'a giden paranın davası, parayı alan hesap sahibine açılır. Ecrimisil, Yargıtay'a göre kötüniyetli zilyetten istenen haksız işgal tazminatıdır.
+  - **Bağlantı:** İadenin kapsamı, giderler, iade engelleri ve zamanaşımı (TBK m. 79-82) bir sonraki konudadır.
+
+anlatim: |
+  ## 0. Konunun haritası
+
+  Borç ilişkileri üç ana kaynaktan doğar: sözleşme, haksız fiil (TBK m. 49) ve **sebepsiz zenginleşme** (TBK m. 77). Sebepsiz zenginleşme, hukuk düzeninin onaylamadığı bir malvarlığı kaymasını geri almaya yarar. Haksız fiil "zarar verdin, gider" der. Sebepsiz zenginleşme ise "sana ait olmayanı edindin, geri ver" der.
+
+  | | Haksız fiil (TBK m. 49) | Sebepsiz zenginleşme (TBK m. 77) |
+  |---|---|---|
+  | Neye bakılır? | Zarar görenin kaybına | Zenginleşenin kazancına |
+  | Kusur ve hukuka aykırılık | Aranır | Aranmaz |
+  | Sonuç | Zarar giderilir | Zenginleşme geri verilir |
+
+  > 💡 **Püf nokta:** Kimse kusurlu olmasa da biri kendisine ait olmayan bir değeri tutuyorsa (çifte ödeme, yanlış IBAN, geçersiz satış) aklına önce sebepsiz zenginleşme gelsin.
+
+  ## 1. Temel kural (TBK m. 77/1)
+
+  Kanun şöyle der: "Haklı bir sebep olmaksızın, bir başkasının malvarlığından veya emeğinden zenginleşen, bu zenginleşmeyi geri vermekle yükümlüdür."
+
+  - Bu borç **kanundan doğar.** Taraflar arasında hiç sözleşme olmayabilir ya da var olan sözleşme geçersiz olabilir.
+  - **Kusur, hukuka aykırılık ve zarar aranmaz.** Zenginleşen tamamen masum olabilir, yine de geri verir. İyiniyet iade borcunun doğmasını değil, **kapsamını** etkiler (TBK m. 79, ayrı konu). Ölçü zarar değil, **zenginleşmedir.**
+
+  > **Örnek:** Bir alışveriş sitesi, sistem hatası yüzünden aynı iade tutarını Elif'in kartına iki kez yatırır. Elif'in hiçbir kusuru yoktur. Yine de ikinci tutarı geri vermek zorundadır.
+
+  ## 2. Unsurlar: dört soru sor
+
+  Yargıtay'ın yerleşik ifadesine göre sebepsiz zenginleşme için bir tarafın zenginleşmesi, diğerinin fakirleşmesi, aralarında uygun illiyet bağı bulunması ve zenginleşmenin haklı bir sebebe dayanmaması gerekir.
+
+  ### 2.1 Zenginleşme var mı?
+  **Zenginleşme**, kişinin malvarlığındaki artıştır. Üç biçimde görülür:
+  - **Aktifin artması:** Hesaba para girmesi, bir malın mülkiyetinin ya da bir alacak hakkının kazanılması.
+  - **Pasifin azalması:** Bir borçtan kurtulmak. Başkası senin vergi borcunu ödediyse borcun sona ermiştir.
+  - **Giderden tasarruf:** Yapılması gereken bir harcamadan kurtulmak. Komşusunun deposunu izinsiz kullanan kişi, ödeyeceği depo kirasından kurtulmuştur.
+
+  ### 2.2 Başkasının malvarlığından ya da emeğinden mi?
+  - Artış, **başka birinin malvarlığından ya da emeğinden** gelmelidir. Yargıtay bunu "diğerinin fakirleşmesi" diye ifade eder.
+  - **Emek** de kaynaktır. Yargıtay'ın yerleşik uygulamasına göre, şekle aykırı olduğu için geçersiz bir arsa payı karşılığı inşaat sözleşmesine güvenerek imalat yapan yükleniciyle arsa sahibi, aldıklarını sebepsiz zenginleşme hükümlerine göre iade eder.
+
+  > ⚠️ **Sınavda dikkat:** Kendi parasıyla aldığı hisse senetleri borsada değer kazanan kişi zenginleşmiştir, ama bu artış başkasının malvarlığından gelmez. Sebepsiz zenginleşme yoktur.
+
+  ### 2.3 İlliyet bağı ve "kim zenginleşti?"
+  - Zenginleşme ile fakirleşme **aynı olaydan** doğmalıdır. Değer bir malvarlığından çıkıp ötekine girmelidir.
+  - **Şahsilik:** Dava, lehine zenginleşme oluşan kişiye, yani **zenginleşene** açılır.
+
+  > **Örnek:** Bir belediye, tapuda Hazineye kayıtlı bir arsayı kendisine aitmiş gibi ihaleyle satar. Alıcı arsaya ev yapar, ağaç diker. Yargıtay Hukuk Genel Kurulu, yapı ve ağaçlarla zenginleşenin taşınmazın maliki Hazine olduğunu, arsayı yalnız toprak bedeli karşılığında satan belediyenin bu kalemlerden sorumlu tutulamayacağını kabul etmiştir.
+
+  ### 2.4 Haklı sebep yok mu? (TBK m. 77/2)
+  **Haklı sebep**, malvarlığı kaymasını hukuken meşru kılan dayanaktır: geçerli bir sözleşme, bir kanun hükmü, bir mahkeme kararı ya da bağışlama iradesi gibi. Kanun "özellikle" üç durumu sayar; bu kelime sayımın **örnek niteliğinde** olduğunu gösterir.
+
+  | Hâl | Anlamı | Örnek |
+  |---|---|---|
+  | Geçerli olmayan sebep | Sebep baştan yok ya da geçersiz | Şekle aykırı satışta ödenen bedel |
+  | Gerçekleşmemiş sebep | Beklenen sebep hiç doğmadı | Kurulmayan kira için ön ödeme |
+  | Sona ermiş sebep | Sebep vardı, sonra düştü | Sona eren kira için peşin kira |
+
+  **a) Geçerli olmayan sebep.** Edim baştan geçersiz bir ilişkiye dayanır.
+  - Kesin hükümsüz sözleşmelere (TBK m. 27) dayanarak verilenler kural olarak geri istenir. Hukuka veya ahlaka aykırı bir sonucun gerçekleşmesi amacıyla verilenin geri istenememesi (TBK m. 81) ayrı konudadır.
+  - Kanunun öngördüğü şekle uyulmadan kurulan sözleşmeler hüküm doğurmaz (TBK m. 12/2). Taşınmaz satışı resmî şekilde yapılmadıkça geçerli olmaz (TBK m. 237/1, TMK m. 706/1).
+  - Yanılma, aldatma ya da korkutma nedeniyle sözleşme yapan taraf, yanılma veya aldatmayı öğrendiği ya da korkutmanın etkisinin kalktığı andan başlayarak bir yıl içinde bağlı olmadığını bildirmez veya **verdiği şeyi geri istemezse** sözleşmeyi onamış sayılır (TBK m. 39/1). İptal eden taraf verdiğini geri ister.
+  - Hiç var olmayan bir borcun ödenmesi de bu gruptadır, ama kanun bunu TBK m. 78'de ayrıca düzenler (aşağıda 4).
+
+  **b) Gerçekleşmemiş sebep.** Edim, ileride gerçekleşmesi beklenen bir amaç için verilmiş, amaç gerçekleşmemiştir.
+
+  > **Örnek:** Zeynep, kiralamayı düşündüğü dükkân başkasına verilmesin diye mal sahibine "kira sözleşmesi imzalanınca ilk aya sayılmak üzere" 20.000 TL gönderir. Taraflar kira bedelinde anlaşamaz, sözleşme hiç kurulmaz. Para gerçekleşmemiş bir sebebe dayandığı için geri istenir.
+
+  **c) Sona ermiş sebep.** Kazandırma yapıldığında geçerli bir sebep vardır, ama sonradan ortadan kalkar.
+
+  > **Örnek:** Mert, Ocak'ta Ocak-Haziran dönemi kirasını peşin öder. Kira sözleşmesi Mart sonunda sona erer. Ev sahibinin elinde kalan Nisan-Haziran kirası, sona ermiş bir sebebe dayanır.
+
+  **Kanunun açıkça sebepsiz zenginleşmeye yolladığı hâller:**
+  - **Nişan hediyeleri:** Nişanlılık evlenme dışındaki bir sebeple sona ererse alışılmışın dışındaki hediyeler geri istenebilir. Hediye aynen veya mislen geri verilemiyorsa sebepsiz zenginleşme hükümleri uygulanır (TMK m. 122).
+  - **İmkânsızlık:** Karşılıklı borç yükleyen sözleşmede imkânsızlık sebebiyle borçtan kurtulan borçlu, karşı taraftan aldığı edimi sebepsiz zenginleşme hükümleri uyarınca geri verir (TBK m. 136/2). Kanun veya sözleşmeyle hasarın ifadan önce alacaklıya yükletildiği durumlar bu kuralın dışındadır.
+
+  Sözleşmeden dönmede taraflar ifa ettikleri edimleri geri isteyebilir (TBK m. 125/3). Bu iadenin dayanağı (sebepsiz zenginleşme mi, sözleşmeden doğan tasfiye ilişkisi mi) öğretide tartışmalıdır; ayrıntısı temerrüt konusunda.
+
+  ## 3. Edim kondiksiyonu ve müdahale kondiksiyonu
+
+  **Kondiksiyon**, sebepsiz zenginleşmeye dayanan geri isteme hakkının Roma hukukundan gelen adıdır. Öğretide zenginleşmenin nasıl doğduğuna göre iki ana grup ayrılır. Yargıtay Hukuk Genel Kurulu da zenginleşmeyi doğuran olayın kazandırma, müdahale ya da umulmayan bir olay olabileceğini belirtir.
+
+  **Edim (kazandırma) kondiksiyonu:** Fakirleşen kişi **bilerek ve bir amaca yönelik olarak** bir şey verir: bir borcu ödemek, bir karşı edim elde etmek gibi. Amaç geçersizse, gerçekleşmemişse ya da sona ermişse geri isteme doğar. TBK m. 77/2'deki üç hâl ve TBK m. 78 bu grubun alanıdır.
+
+  > **Örnek:** Kemal, adi yazılı bir sözleşmeyle aldığı tarlanın bedeli olarak Orhan'a 250.000 TL öder. Satış resmî şekilde yapılmadığı için geçersizdir. Kemal, "Bu parayı satış için verdim, geçerli bir satış yoksa paramı geri ver" der. Bu bir edim kondiksiyonudur.
+
+  **Müdahale kondiksiyonu:** Ortada kimsenin yaptığı bir kazandırma yoktur. Zenginleşen, **başkasına ait bir değeri kendisi** kullanır, tüketir ya da satar. Haklı sebebin yokluğu, o değerin hukuken hak sahibine ait olmasından anlaşılır. Kusur gerekmez.
+
+  > **Örnek:** Mehmet, tatildeki komşusu Seda'nın boş garajını üç ay boyunca izinsiz kullanır ve ayda 4.000 TL ödeyeceği otoparktan kurtulur. Seda ona bir şey vermemiştir. Mehmet, Seda'nın hakkına ait bir kullanım değerini kendisi almıştır.
+
+  > **Örnek:** Sena, bisikletini arkadaşı Tuna'ya ödünç verir. Tuna bisikleti, durumu bilmeyen Can'a 8.000 TL'ye satar. Emin sıfatıyla zilyetten iyiniyetle edinen Can'ın edinimi korunur (TMK m. 988); bu bir haklı sebeptir ve Sena bisikleti Can'dan isteyemez. Tuna ise Sena'ya ait bir değeri satarak 8.000 TL elde etmiştir; bu kazancın geri istenmesi müdahale kondiksiyonunun tipik örneğidir. Sena'nın sözleşme ve haksız fiil talepleriyle ilişkisi ikincillik tartışmasının konusudur (5.6).
+
+  | | Edim kondiksiyonu | Müdahale kondiksiyonu |
+  |---|---|---|
+  | Kim harekete geçti? | Fakirleşen verdi | Zenginleşen kendisi aldı |
+  | Sebep sorusu | Verme amacı geçerli mi? | Değer kime aitti? |
+  | Tipik örnek | Geçersiz satışta bedel | İzinsiz kullanma, satma |
+  | TBK m. 78 | Uygulanabilir | Uygulanmaz |
+
+  ## 4. Borç olmayanın ifası (TBK m. 78)
+
+  > 📌 **Kesin bilgi:** TBK m. 78 üç fıkradır.
+  >
+  > (1) "Borçlanmadığı edimi kendi isteğiyle yerine getiren kimse, bunu ancak, kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir."
+  >
+  > (2) "Zamanaşımına uğramış bir borcun ifasından veya ahlaki bir ödevin yerine getirilmiş olmasından kaynaklanan zenginleşmeler geri istenemez."
+  >
+  > (3) "Borç olmadığı hâlde ödenmiş olan edimin geri istenmesine ilişkin diğer kanun hükümleri saklıdır."
+
+  ### 4.1 Şartlar
+  Yargıtay Hukuk Genel Kurulu bu hâlde ifa amacıyla ödeme yapılmasını, gerçekte bir borcun bulunmamasını ve ödeyenin yanılarak kendini borçlu sanmasını arar. Kanunun "kendi isteğiyle" şartı da buna eklenir:
+  1. **İfa amacı:** Edim bir borcu yerine getirmek için yapılmıştır.
+  2. **Borcun yokluğu:** Borç hiç doğmamış, daha önce ödenmiş ya da ödenen miktar borçtan fazladır.
+  3. **Kendi isteğiyle ifa:** Ödeme bir baskı altında yapılmamıştır.
+  4. **Yanılma:** Ödeyen kendini borçlu sanmıştır. Bunu **ödeyen ispatlar.**
+
+  > **Örnek:** Burak, Mayıs kirasını otomatik talimatla ödemiş, unutarak aynı gün bir kez daha göndermiştir. İkinci ödeme borç olmayanın ifasıdır. Dekontlar ödemenin mükerrer olduğunu, bu da Burak'ın yanıldığını gösterir. Burak fazlayı geri isteyebilir.
+
+  ### 4.2 Bilerek ödeyen geri isteyemez
+  Kendi isteğiyle ve borçlu olmadığını **bilerek** ödeyen kişi, kendini borçlu sandığını ispatlayamayacağı için TBK m. 78/1'e göre geri isteyemez.
+
+  > **Örnek:** Site yönetimi Ayşe'den, kendisine ait olmayan bir araç için 2.000 TL "otopark cezası" ister. Ayşe borçlu olmadığını bildiği hâlde, tartışma uzamasın diye, hiçbir çekince koymadan öder. Bu parayı geri isteyemez.
+
+  ### 4.3 Baskı altında ödeme
+  Ödeme "kendi isteğiyle" yapılmamışsa TBK m. 78/1'deki yanılma şartı aranmaz; geri isteme TBK m. 77'deki genel kurala dayanır.
+  - Yargıtay Hukuk Genel Kurulunun önüne gelen bir olayda, bankadan kredi kullanmak isteyen kişiye imzası kendisine ait olmayan eski bir kredi sözleşmesinden borçlu olduğu söylenmişti. Kişi, krediyi kullanabilmek ve bankaya yatacak kamulaştırma bedeline bloke konulmasını önlemek için ödeme yaptı. Kurul, ödemenin kendini borçlu sanarak değil bu amaçlarla yapıldığını, bu yüzden TBK m. 78/1'in uygulanmayacağını kabul etti ve paranın iadesine ilişkin kararı onadı.
+  - **Çekince (ihtirazi kayıt):** Ödemeyi "borcu kabul etmiyorum, geri isteme hakkım saklıdır" gibi bir çekinceyle yapan kişi, borcu kabul etmediğini gösterir; borçtan emin olmayan için güvenli yol budur. Hukuk Genel Kurulu, haciz tehdidi altında ve çekinceyle yapılan bir ödemede davanın sebepsiz zenginleşmeye dayandığını ve parayı alan alacaklıya yöneltilebileceğini kabul etmiştir.
+  - **Cebri icra baskısı (İİK m. 72/7):** Takibe itiraz etmediği ya da itirazı kaldırıldığı için borçlu olmadığı bir parayı tamamen ödemek zorunda kalan kişi, **ödediği tarihten itibaren bir yıl içinde** genel hükümlere göre mahkemeye başvurarak paranın geri verilmesini isteyebilir. Bu **istirdat davasında** davacı yalnız paranın verilmesi gerekmediğini ispatlar (İİK m. 72/8); ayrıca yanıldığını ispatlaması gerekmez.
+
+  ### 4.4 Geri istenemeyenler (TBK m. 78/2)
+  Bu iki hâlde ödeyen yanıldığını ispatlasa bile geri isteyemez:
+  - **Zamanaşımına uğramış borcun ifası.** Zamanaşımı borcu sona erdirmez; borçluya bir savunma imkânı verir ve hâkim bunu kendiliğinden gözetemez (TBK m. 161). Borç eksik borç olarak sürdüğü için ödemenin haklı sebebi vardır.
+  - **Ahlaki ödevin yerine getirilmesi.** Hukuken zorlanamayan ama ahlaken beklenen bir yükümlülüğün yerine getirilmesidir.
+
+  > **Örnek:** Hakan, kanunen bakmakla yükümlü olduğunu sanarak yoksul yeğeni Efe'ye altı ay boyunca aylık yardım yapar. Sonra böyle bir kanuni yükümlülüğü olmadığını öğrenir. Yanılmış olsa da yardımı geri isteyemez, çünkü yerine getirdiği şey ahlaki bir ödevdir.
+
+  > ⚠️ **Sınavda dikkat:** TBK m. 78/2'de yanılma tartışması yapılmaz. Ödeyen zamanaşımını bilmese bile sonuç değişmez.
+
+  ### 4.5 Diğer kanun hükümleri (TBK m. 78/3)
+  Kanun, borç olmayan edimin geri istenmesine ilişkin özel hükümleri saklı tutar. İki önemli örnek:
+  - **İstirdat davası (İİK m. 72/7):** Yukarıda anlatıldı.
+  - **Kumar ve bahis (TBK m. 605/2):** Kumar ve bahis borcu için isteyerek yapılan ödemeler geri alınamaz. Ancak kumar veya bahsin usulüne göre yürütülmesi beklenmedik olayla ya da diğer tarafın fiiliyle engellenmişse ya da diğer taraf hile karıştırmışsa, isteyerek yapılan ödeme geri alınabilir.
+
+  ## 5. Diğer kurumlarla ilişkisi
+
+  ### 5.1 Sözleşme
+  Geçerli bir sözleşme, malvarlığı kaymasının haklı sebebidir. "Pahalıya aldım" diyen alıcı sebepsiz zenginleşmeye dayanamaz; sözleşme geçerliyse sorunu sözleşme hükümleri çözer. Sözleşme geçersizse ya da iptal edilmişse geri isteme kural olarak sebepsiz zenginleşmeye dayanır.
+
+  ### 5.2 Haksız fiil
+  Haksız fiil kusur, hukuka aykırılık ve zarar arar; tazminat zararı karşılar. Sebepsiz zenginleşme bunları aramaz; zenginleşmenin geri verilmesini sağlar. Aynı olayda ikisi birlikte gündeme gelebilir: başkasının parasını çalan kişi hem haksız fiil işlemiş hem de zenginleşmiştir.
+
+  ### 5.3 İstihkak ve tapu sicilinin düzeltilmesi
+  - Malik, malını haksız olarak elinde bulunduran kimseye karşı **istihkak davası** açabilir (TMK m. 683/2). Şey hâlâ belliyse ve mülkiyet geçmemişse malik onu aynen geri alır.
+  - Bağlayıcı olmayan bir hukuki işleme dayanan ya da hukuki sebepten yoksun tescil **yolsuzdur** (TMK m. 1024/2). Aynî hakkı zedelenen kişi tapu sicilinin düzeltilmesini dava eder (TMK m. 1025).
+
+  > **Örnek:** Mehmet'in dairesi, sahte bir vekâletnameyle Kaan adına tescil edilir. Tescil yolsuzdur. Mehmet daireyi tapu sicilinin düzeltilmesi davasıyla geri alır; daire için sebepsiz zenginleşmeye başvurmasına gerek kalmaz.
+
+  - Para gibi başka değerlerle karışan ya da tüketilen şeylerde aynı şeyi geri istemek çoğu zaman mümkün değildir; geri isteme sebepsiz zenginleşmeye dayanır.
+
+  ### 5.4 Vekâletsiz iş görme
+  Başkasının işini kendi yararına gören kişinin elde ettiği faydaları işsahibi, iş kendi menfaatine yapılmamış olsa bile edinebilir; zenginleştiği ölçüde işgörenin masraflarını öder (TBK m. 530). Sebepsiz zenginleşme ise zenginleşmeyle sınırlıdır.
+
+  ### 5.5 Zilyetlik hükümleri
+  Malik ile zilyet arasındaki kullanma ve ürün meseleleri için TMK'nın özel hükümleri vardır:
+  - İyiniyetli zilyet, şeyi karineyle mevcut hakkına uygun kullanmışsa geri vereceği kimseye bu yüzden tazminat ödemez (TMK m. 993/1).
+  - İyiniyetli olmayan zilyet, şeyi haksız alıkoyması yüzünden verdiği zararları ve elde ettiği ya da elde etmeyi ihmal ettiği ürünleri tazmin eder (TMK m. 995/1).
+
+  ### 5.6 İkincillik (tali nitelik)
+  Yargıtay Hukuk Genel Kurulunun yerleşik ifadesine göre sebepsiz zenginleşme **ikincil (tali)** niteliktedir: Aynı olayda aynî haktan (istihkak), zilyetlikten, sözleşmeden, sözleşme benzeri bir ilişkiden ya da haksız fiilden doğan bir talep ileri sürülebiliyorsa sebepsiz zenginleşme hükümleri uygulanmaz. Öğretide bu görüş tartışmalıdır (doktrin bölümüne bak).
+
+  > ⚠️ **Sınavda dikkat:** Olay sorusunda önce sözleşme, aynî hak ve haksız fiil yollarını kontrol et, sonra sebepsiz zenginleşmeye geç. Yargıtay'ın tali nitelik anlayışını yaz, öğretideki karşı görüşü de an.
+
+  ## 6. Uygulamadan üç tablo
+
+  ### 6.1 Geçersiz taşınmaz satışında verilen paranın iadesi
+  Tapuda resmî şekilde yapılmayan satışa uygulamada **harici satış** denir. Sözleşme geçersizdir (TBK m. 237/1, TMK m. 706/1, TBK m. 12/2). Bu yüzden:
+  - Alıcı tapuda devri isteyemez. Ödediği bedel geçerli olmayan bir sebebe dayandığı için onu **sebepsiz zenginleşme hükümlerine göre** geri ister.
+  - Mülkiyet tescille geçmediği için satıcı hâlâ maliktir; teslim ettiği taşınmazı geri isteyebilir.
+  - Yargıtay, 1940 tarihli İçtihadı Birleştirme Kararına dayanan yerleşik uygulamasında şunu kabul eder: Satışı kanıtlayan taraflar verdiklerini sebepsiz zenginleşme hükümlerine göre geri isteyebilir. Bedeli geri vermeyen taraf, taşınmazın kendisine verilmesi için karşı tarafı zorlayamaz. Alıcı, bedel kendisine geri verilinceye kadar ürün ve ecrimisil ödemekle yükümlü değildir. Buna karşılık taşınmazı kullanan alıcı ödediği bedele faiz isteyemez.
+  - Paranın değer kaybı karşısında ne kadar iade edileceği (denkleştirici adalet) iadenin kapsamı konusunda, şekle aykırılığı ileri sürmenin istisnaen hakkın kötüye kullanılması sayılması ise şekil konusunda anlatılır.
+
+  > **Örnek:** Nil, adi yazılı sözleşmeyle aldığı ev için Kerem'e 400.000 TL öder ve Kerem'in izniyle eve taşınır. Satış gerçekleşmeyince Nil parasını sebepsiz zenginleşme hükümlerine göre geri ister. Kerem bedeli iade etmeden Nil'i evi boşaltmaya zorlayamaz ve bedel iade edilinceye kadar ecrimisil isteyemez.
+
+  ### 6.2 Yanlış hesaba havale (EFT)
+  IBAN'daki bir rakam yanlış yazıldığı için para tanınmayan birinin hesabına geçtiyse, hesap sahibi haklı bir sebep olmadan zenginleşmiştir.
+  - **Kime karşı?** Banka talimatı aynen uyguladıysa zenginleşen banka değil, parayı alan **hesap sahibidir.** Dava ona açılır.
+  - **Kim neyi ispatlar?** Yargıtay'a göre havale bir ödeme aracıdır ve aksi ispatlanana kadar var olan bir borcun ödenmesi amacıyla yapılmış sayılır. Bu yüzden "yanlışlıkla" ya da "başka bir amaçla gönderdim" diyen gönderen bunu ispatlar. Dekonttaki açıklama, gerçek alacaklının faturası ve IBAN'lar arasındaki fark önemli delillerdir.
+  - **Faiz:** Sebepsiz zenginleşmede borçlu, zenginleşme tarihinde temerrüde düşer; zenginleşen iyiniyetliyse temerrüt için bildirim şarttır (TBK m. 117/2). İyiniyet asıldır (TMK m. 3/1), ama parayı kendisine ait olmadığını bilerek tutan kişi iyiniyetli değildir.
+  - Parayı harcamış olmanın iade borcuna etkisi (TBK m. 79) bir sonraki konudadır.
+
+  > **Örnek:** Ayla, kardeşine göndereceği 25.000 TL'yi IBAN'ı yanlış yazarak tanımadığı Onur'un hesabına gönderir. Onur iadeyi reddeder. Ayla, bankaya değil Onur'a karşı sebepsiz zenginleşme davası açar.
+
+  ### 6.3 Ecrimisil
+  Yargıtay'ın yerleşik uygulaması şöyledir:
+  - Ecrimisil, **zilyet olmayan malikin, malik olmayan kötüniyetli zilyetten** isteyebileceği bir **haksız işgal tazminatıdır.**
+  - Yargıtay'ın 1950 tarihli İçtihadı Birleştirme Kararına göre haksız işgal, tarafların karşılıklı ve birbirine uygun iradeleriyle kurdukları kira sözleşmesine benzetilemez; niteliği itibarıyla haksız bir eylemdir.
+  - Ecrimisil **en az emsal kira geliri** kadardır. Normal kullanımdan doğan eskime ve malikin yoksun kaldığı fayda kapsamı belirler.
+  - Yargıtay, 1938 tarihli İçtihadı Birleştirme Kararına ve yerleşik içtihadına dayanarak ecrimisil davalarında **dava tarihinden geriye doğru işleyen beş yıllık** zamanaşımı uygular.
+  - İyiniyetli zilyet olağan kullanım için tazminat ödemez (TMK m. 993/1). Harici satışla taşınmazı teslim alan alıcı da bedel kendisine iade edilinceye kadar ecrimisil ödemez.
+
+  **Sebepsiz zenginleşmeyle ilişkisi:** İzinsiz kullanan kişi kira bedelinden tasarruf eder; bu yüzden ecrimisil ekonomik açıdan müdahale kondiksiyonuna çok benzer. Yargıtay ise onu haksız işgal tazminatı sayar. Farkın sonuçları doktrin bölümünde.
+
+  > **Örnek:** Halil, komşusu Sevgi'nin boş arsasını, Sevgi'nin itirazına rağmen iki yıl boyunca kamyonları için park alanı olarak kullanır. Halil kötüniyetli zilyettir. Sevgi ondan en az emsal kira bedeli kadar ecrimisil isteyebilir.
+
+  ## 7. İspat (TMK m. 6)
+  Herkes hakkını dayandırdığı olguları ispatlar (TMK m. 6). Geri isteyen kişi; karşı tarafın zenginleştiğini, bunun kendi malvarlığından ya da emeğinden geldiğini ve haklı bir sebebin bulunmadığını (sözleşmenin geçersizliği, borcun yokluğu gibi) ispatlar. Borç olmayanı kendi isteğiyle ifa ettiyse ayrıca kendini borçlu sanarak ödediğini ispatlar (TBK m. 78/1).
+
+  ## 8. İadenin kapsamı ve zamanaşımı: kısa bağlantı
+  İade borcu doğduktan sonra sorulacak sorular bir sonraki konunun işidir:
+  - Zenginleşen, geri istenme sırasında elinden çıkmış olduğunu ispat ettiği kısmı vermez; ama iyiniyetli olmadan elden çıkarmışsa ya da ileride geri vermek zorunda kalabileceğini hesaba katması gerekiyorsa tamamını verir (TBK m. 79).
+  - Giderler TBK m. 80'e, hukuka veya ahlaka aykırı amaçla verilenin geri istenememesi TBK m. 81'e göre çözülür.
+  - Zamanaşımı (TBK m. 82/1): hak sahibinin geri isteme hakkı olduğunu öğrendiği tarihten başlayarak **iki yıl** ve her hâlde zenginleşmenin gerçekleştiği tarihten başlayarak **on yıl.**
+
+  ## 9. Olay çözerken denetim şeması
+  1. **Önce başka yollar:** Geçerli bir sözleşme, aynî hak (istihkak, tapu sicilinin düzeltilmesi), zilyetlik hükümleri, haksız fiil ya da vekâletsiz iş görme var mı? Yargıtay'ın tali nitelik anlayışını an.
+  2. **Zenginleşme:** Aktif mi arttı, pasif mi azaldı, giderden mi tasarruf edildi?
+  3. **Kaynak:** Değer başkasının malvarlığından ya da emeğinden mi geldi? Edim kondiksiyonu mu, müdahale kondiksiyonu mu?
+  4. **İlliyet ve muhatap:** Değer kimden kime geçti? Dava zenginleşene açılır.
+  5. **Haklı sebep:** Geçerli olmayan, gerçekleşmemiş ya da sona ermiş sebep mi? Kanun özel bir hükümle sebepsiz zenginleşmeye yolluyor mu (TMK m. 122, TBK m. 136/2)?
+  6. **Borç olmayanın ifası mı?** Kendi isteğiyle mi ödendi, ödeyen yanıldı mı (TBK m. 78/1)? Baskı, çekince ya da cebri icra (İİK m. 72/7) var mı? Zamanaşımına uğramış borç ya da ahlaki ödev mi (TBK m. 78/2)?
+  7. **İspat ve faiz:** Kim neyi ispatlar (TMK m. 6)? Zenginleşen iyiniyetli mi (TBK m. 117/2)?
+  8. **Sonraki adım:** İadenin kapsamı, giderler, iade engelleri ve zamanaşımı (TBK m. 79-82).
+
+kritik: |
+  - 📌 Dört unsur (TBK m. 77/1): zenginleşme; bunun başkasının malvarlığından veya emeğinden gelmesi (Yargıtay: fakirleşme); illiyet bağı; haklı sebebin yokluğu. Kusur, hukuka aykırılık ve zarar aranmaz.
+  - 📌 TBK m. 77/2'deki üç hâl (geçerli olmayan, gerçekleşmemiş, sona ermiş sebep) "özellikle" ifadesi nedeniyle örnek niteliğindedir.
+  - ⚠️ Edim kondiksiyonunda fakirleşen bir amaçla verir; müdahale kondiksiyonunda zenginleşen başkasına ait değeri kendisi alır ya da kullanır. TBK m. 78 yalnız birincisinde uygulanır.
+  - 📌 TBK m. 78/1: Borçlanmadığı edimi kendi isteğiyle yerine getiren, ancak kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir. İspat yükü ödeyendedir.
+  - ⚠️ Borçlu olmadığını bilerek, baskı ve çekince olmadan ödeyen geri isteyemez. Baskı altında yapılan ödemede (kredi şartı, haciz tehdidi) yanılma şartı aranmaz.
+  - 📌 TBK m. 78/2: Zamanaşımına uğramış borcun ifası ve ahlaki ödevin yerine getirilmesi, yanılma ispatlansa bile geri istenemez.
+  - 📌 İİK m. 72/7-8: Takibe itiraz etmediği ya da itirazı kaldırıldığı için borçlu olmadığı parayı tamamen ödemek zorunda kalan kişi, ödemeden itibaren bir yıl içinde istirdat davası açar ve yalnız paranın verilmesi gerekmediğini ispatlar.
+  - 📌 Kumar ve bahis borcu için isteyerek ödenen geri alınamaz; beklenmedik olay ya da karşı tarafın fiiliyle engelleme veya hile varsa geri alınabilir (TBK m. 605/2).
+  - ⚠️ Yargıtay'a göre sebepsiz zenginleşme ikincildir (tali): istihkak, zilyetlik, sözleşme, sözleşme benzeri ilişki ya da haksız fiile dayanan bir talep varsa uygulanmaz. Öğretide tartışmalıdır.
+  - ⚠️ Dava zenginleşene açılır (şahsilik). Yanlış IBAN'da muhatap, parayı alan hesap sahibidir; talimatı doğru uygulayan banka değildir.
+  - 📌 Harici (resmî şekle aykırı) taşınmaz satışı geçersizdir (TBK m. 237/1, TMK m. 706/1); verilenler sebepsiz zenginleşme hükümlerine göre geri istenir.
+  - ⚠️ Harici satışta bedel iade edilinceye kadar taşınmazı kullanan alıcıdan ecrimisil istenmez; alıcı da bedele faiz isteyemez (Yargıtay, İçtihadı Birleştirme Kararı).
+  - 📌 Ecrimisil (Yargıtay): kötüniyetli zilyetten istenen haksız işgal tazminatıdır; kira sözleşmesine benzetilmez; en az emsal kira kadardır; dava tarihinden geriye beş yıl için istenir. İyiniyetli zilyet olağan kullanım için tazminat ödemez (TMK m. 993/1).
+  - 📌 TBK m. 117/2: Sebepsiz zenginleşmede borçlu zenginleşme tarihinde temerrüde düşer; zenginleşen iyiniyetliyse temerrüt için bildirim şarttır.
+  - ⚠️ Havale ya da EFT, aksi ispatlanana kadar var olan bir borcun ödemesi sayılır; "yanlışlıkla" ya da "başka amaçla gönderdim" diyen gönderen bunu ispatlar.
+
+doktrin: |
+  ### Sebepsiz zenginleşme ikincil (tali) bir kurum mu?
+  **Yargıtay**, Hukuk Genel Kurulu kararlarında sebepsiz zenginleşmenin ikincil olduğunu, aynı olayda istihkak, zilyetlik, sözleşme, sözleşme benzeri ilişki ya da haksız fiilden doğan bir talep ileri sürülebiliyorsa uygulanmayacağını söyler. Öğretide iki ana görüş vardır:
+  - **İkincillik görüşü:** Sebepsiz zenginleşme, diğer kurumların bıraktığı boşluğu dolduran yedek bir çaredir. Aksi hâlde sözleşmenin risk dağılımı ya da haksız fiilin kusur şartı dolanılabilir.
+  - **Bağımsızlık (yarışma) görüşü:** Kanunda ikincilliği öngören bir hüküm yoktur; TBK sebepsiz zenginleşmeyi bağımsız bir borç kaynağı olarak düzenler. Şartları gerçekleşmişse diğer taleplerle yarışabilir ve hak sahibi elverişli olanı seçer. Bu görüşe göre geçerli bir sözleşme varken sebepsiz zenginleşmenin uygulanmaması da ikincilliğin değil, haklı bir sebebin bulunmasının sonucudur.
+
+  Uygulamada aynı olayın farklı kalemleri için farklı dayanaklar birlikte kullanılabilir: harici satışta taşınmazın geri alınması malikliğe, ödenen bedelin iadesi sebepsiz zenginleşmeye dayanır.
+
+  ### Fakirleşme ayrı bir şart mı?
+  Eski Borçlar Kanunu "başkasının zararına" zenginleşmeden söz ediyordu. TBK m. 77/1 ise "bir başkasının malvarlığından veya emeğinden" ifadesini kullanır. Yargıtay hâlâ "diğerinin fakirleşmesi" unsurunu sayar. Bir görüşe göre yeni ifade, zenginleşmenin karşısında mutlaka bir zarar aranmayacağını, değerin başkasının malvarlığına ya da hakkına ait olmasının yeteceğini gösterir. Bu görüş özellikle müdahale kondiksiyonunda önem taşır: malik, malını zaten kullanmayacak olsa bile izinsiz kullanımın değerini isteyebilmelidir. Diğer görüş fakirleşmeyi, bir değerin bir malvarlığından ötekine kayması anlamında geniş yorumlayarak korur.
+
+  ### TBK m. 78/1'de yanılmanın niteliği
+  Kanun yalnız ödeyenin kendini borçlu sanmasını arar; yanılmanın türünü ya da affedilebilir olmasını aramaz. Baskın görüşe göre maddi bir olgudaki yanılma da hukuki yanılma da, hatta ihmalle düşülen yanılma da yeterlidir. Tartışmalı olan **şüpheyle ödemedir.** Bir görüşe göre borçtan şüphe ettiği hâlde çekince koymadan ödeyen kişi riski üstlenmiştir. Diğer görüşe göre şüphe de yanılma gibi değerlendirilmelidir. Çekinceyle (ihtirazi kayıtla) yapılan ödeme, borcun kabul edilmediğini gösterdiği için tartışmayı büyük ölçüde ortadan kaldırır.
+
+  ### Ecrimisilin hukuki niteliği
+  Yargıtay, 1950 tarihli İçtihadı Birleştirme Kararından bu yana haksız işgalin kira sözleşmesine benzetilemeyeceğini, haksız bir eylem olduğunu kabul eder. Ecrimisili kötüniyetli zilyetten istenen özel bir haksız işgal tazminatı sayar ve TMK m. 995 ile de ilişkilendirir. Öğretide başka nitelendirmeler de vardır: bir görüş ecrimisili kira bedelinden tasarrufun karşılığı, yani bir müdahale kondiksiyonu sayar; bir görüş onu kötüniyetli zilyedin sorumluluğunun bir görünümü olarak görür; bir başka görüş ise kendine özgü bir istem olarak nitelendirir. Nitelendirme, kötüniyetin şart olup olmadığını ve hangi zamanaşımının uygulanacağını etkiler. Yargıtay'ın dava tarihinden geriye doğru uyguladığı beş yıllık süre ne haksız fiilin ne de sebepsiz zenginleşmenin zamanaşımıyla örtüştüğü için öğretide tartışılır.
+
+sozluk:
+  - terim: "Sebepsiz zenginleşme"
+    tanim: "Bir kişinin haklı bir sebep olmaksızın başkasının malvarlığından veya emeğinden zenginleşmesi ve bundan doğan, zenginleşmeyi geri verme borcu (TBK m. 77)."
+  - terim: "Zenginleşme"
+    tanim: "Malvarlığındaki artış: aktifin artması, pasifin azalması (borçtan kurtulma) ya da yapılması gereken bir giderden tasarruf."
+  - terim: "Fakirleşme"
+    tanim: "Zenginleşmeye karşılık gelen değerin başka birinin malvarlığından ya da emeğinden çıkması. Yargıtay unsurlar arasında sayar."
+  - terim: "Haklı sebep"
+    tanim: "Malvarlığı kaymasını hukuken meşru kılan dayanak: geçerli bir sözleşme, kanun hükmü, mahkeme kararı ya da bağışlama iradesi gibi."
+  - terim: "Edim (kazandırma) kondiksiyonu"
+    tanim: "Fakirleşenin bilerek ve bir amaca yönelik yaptığı kazandırmanın, amaç geçersiz, gerçekleşmemiş ya da sona ermiş olduğu için geri istenmesi."
+  - terim: "Müdahale kondiksiyonu"
+    tanim: "Zenginleşenin başkasına ait bir değeri kendisi kullanması, tüketmesi ya da satması sonucu doğan zenginleşmenin geri istenmesi."
+  - terim: "Borç olmayanın ifası"
+    tanim: "Gerçekte borç bulunmadığı hâlde bir borcu ifa amacıyla edimde bulunulması. Kendi isteğiyle ifada geri isteme, ödeyenin kendini borçlu sanarak ödediğini ispatına bağlıdır (TBK m. 78/1)."
+  - terim: "Ahlaki ödev"
+    tanim: "Hukuken zorlanamayan ama ahlaken beklenen yükümlülük. Yerine getirilmesiyle yapılan ödeme geri istenemez (TBK m. 78/2)."
+  - terim: "Eksik borç"
+    tanim: "Varlığını sürdüren ama alacaklının devlet gücüyle elde edemediği borç. Zamanaşımına uğramış borç ve kumar borcu tipik örneklerdir; isteyerek ödenirse geri istenemez."
+  - terim: "İstirdat davası"
+    tanim: "Takibe itiraz etmediği ya da itirazı kaldırıldığı için borçlu olmadığı parayı ödemek zorunda kalan kişinin, ödemeden itibaren bir yıl içinde açtığı geri alma davası (İİK m. 72/7)."
+  - terim: "İhtirazi kayıt (çekince)"
+    tanim: "Ödemenin, borcun kabul edilmediği ve geri isteme hakkının saklı tutulduğu belirtilerek yapılması."
+  - terim: "Harici satış"
+    tanim: "Taşınmazın tapuda resmî şekilde değil, adi yazılı ya da sözlü bir anlaşmayla satılması. Geçersizdir; verilenler sebepsiz zenginleşme hükümlerine göre geri istenir."
+  - terim: "Ecrimisil"
+    tanim: "Yargıtay'a göre malikin, taşınmazını haksız olarak işgal eden kötüniyetli zilyetten isteyebileceği haksız işgal tazminatı. En az emsal kira bedeli kadardır."
+  - terim: "İkincillik (tali nitelik)"
+    tanim: "Yargıtay'a göre aynı olayda sözleşme, aynî hak, zilyetlik ya da haksız fiile dayanan bir talep varsa sebepsiz zenginleşme hükümlerinin uygulanmaması. Öğretide tartışmalıdır."
+  - terim: "Şahsilik ilkesi"
+    tanim: "Sebepsiz zenginleşme davasının, zenginleşmenin lehine gerçekleştiği kişiye yöneltilmesi gereği."
+
+kararlar:
+  - id: "470073300"
+    ozet: |
+      Davacıya, davalı bankanın şubesinde kredi kullanmak istediği sırada 1999 tarihli bir kredi sözleşmesinden borçlu olduğu söylenmiştir. Davacı bu sözleşmeyi imzalamadığını belirtmesine rağmen kredi kullanabilmek için borcun bir kısmını, bankaya yatacak kamulaştırma bedeline bloke konulmaması için de kalanını ödemiş ve ödediklerinin iadesini istemiştir. Adli Tıp raporuna göre imza davacıya ait olmadığından yerel mahkeme davayı kabul etmiş; Özel Daire, ödemenin ihtar ya da icra takibi olmaksızın yapıldığını, TBK m. 78/1'in uygulanıp uygulanmayacağının tartışılması gerektiğini belirterek bozmuştur. Yerel mahkeme, ödemenin kendini borçlu sanarak değil hukuki baskı altında yapıldığını belirterek direnmiştir. Hukuk Genel Kurulu direnme kararını oy birliğiyle onamıştır: borç olmayanın ödenmesine dayanan istem için borcun ifası amacıyla ödeme, gerçekte bir borcun bulunmaması ve ödeyenin yanılarak kendini borçlu sanması gerekir; krediden tahsilat yapılmasını ve kamulaştırma bedeline bloke konulmasını önlemek için ödeme yapan davacı bakımından TBK m. 78/1 uygulanmaz. Konuya katkısı: baskı altında yapılan ödemede yanılma ispatının aranmadığını gösterir.
+  - id: "759557600"
+    ozet: |
+      Davalı alacaklının başka bir şirket aleyhine başlattığı takipte, isim benzerliği nedeniyle, borçluyla organik bağı bulunmayan davacı şirketin işyerine hacze gelinmiştir. Davacı haczi önlemek için takip borcunu haciz tehdidi altında ve ihtirazi kayıtla icra dosyasına yatırmış, sonra bu parayı sebepsiz zenginleşme hükümlerine göre alacaklıdan istemiştir. Yerel mahkeme, icra dairesine yapılan ödemeyle borçlunun borcundan kurtulduğunu ve zenginleşenin borçlu olduğunu kabul ederek davayı sıfat yokluğundan reddetmiş; Özel Daire bozmuş, mahkeme direnmiştir. Hukuk Genel Kurulu çoğunlukla direnme kararını bozmuştur: Sebepsiz zenginleşme için bir tarafın zenginleşmesi, diğerinin fakirleşmesi, aralarında uygun illiyet bağı ve haklı sebebin yokluğu gerekir ve bu kurum ikincil (tali) niteliktedir. Davacı takip borçlusu olmadığı için dava İİK m. 72'deki istirdat davası değildir; davacı parayı borçluyu kurtarmak için değil haciz tehdidinden korunmak için yatırmıştır ve para alacaklının malvarlığına girdiğinden zenginleşen alacaklıdır; karşı oy ise zenginleşenin borcundan kurtulan borçlu olduğunu savunmuştur. Konuya katkısı: unsurları, Yargıtay'ın ikincillik anlayışını ve davanın kime yöneltileceğini birlikte gösterir.
+  - id: "352420500"
+    ozet: |
+      Davacı alıcı, davalıyla resmî şekle uyulmadan (haricen) bir taşınmaz satış vaadi sözleşmesi yapmış, bedelin 150.000 TL'lik kısmını peşin ödemiş ve taşınmazı teslim alarak kullanmıştır; tapu devri gerçekleşmeyince ödediği bedelin ve yaptırdığını ileri sürdüğü tadilat giderlerinin iadesini istemiştir. Davalı satıcı karşı davada elatmanın önlenmesi ve ecrimisil istemiştir. İlk derece mahkemesi bedelin ve davacının ödediği vergi borçlarının iadesine, karşı davada elatmanın önlenmesine ve bir miktar ecrimisile hükmetmiştir. Yargıtay 3. Hukuk Dairesi, harici sözleşmenin resmî şekil yokluğu nedeniyle geçersiz olduğunu ve tarafların aldıklarını sebepsiz zenginleşme hükümlerine göre geri isteyebileceğini belirtmiştir. Daire, İçtihadı Birleştirme Kararına dayanarak bedeli geri vermeyen tarafın taşınmazın verilmesi için karşı tarafı zorlayamayacağını, bedel geri verilinceye kadar alıcının ürün ve ecrimisil ödemekle yükümlü olmadığını, alıcının da bedele faiz isteyemeyeceğini açıklamış ve taşınmazı iyiniyetli zilyet olarak kullanan alıcı aleyhine ecrimisile hükmedilmesini bozma sebebi saymıştır. Konuya katkısı: geçersiz taşınmaz satışında iadenin sebepsiz zenginleşmeye dayandığını ve ecrimisille ilişkisini gösterir.
+
+sorular:
+  - soru: |
+      TBK m. 77/1'e göre sebepsiz zenginleşmeden doğan iade borcunun şartları arasında **yer almayan** hangisidir?
+    siklar:
+      - "Bir kişinin malvarlığında zenginleşme meydana gelmesi"
+      - "Zenginleşmenin bir başkasının malvarlığından veya emeğinden sağlanması"
+      - "Zenginleşmenin haklı bir sebebe dayanmaması"
+      - "Zenginleşenin kusurlu ve hukuka aykırı davranmış olması"
+    dogru: 3
+    aciklama: |
+      Sebepsiz zenginleşme kanundan doğan bir borçtur. Kusur ve hukuka aykırılık haksız fiilin (TBK m. 49) unsurlarıdır, burada aranmaz. Tamamen iyiniyetli ve kusursuz zenginleşen de geri verir; iyiniyet iade borcunun doğmasını değil, kapsamını etkiler (TBK m. 79). TBK m. 77/1 zenginleşmeyi, bunun başkasının malvarlığından veya emeğinden gelmesini ve haklı sebebin yokluğunu arar.
+
+  - soru: |
+      TBK m. 77/2'de sayılan "geçerli olmayan, gerçekleşmemiş ya da sona ermiş sebep" hâlleri hakkında hangisi doğrudur?
+    siklar:
+      - "Sayım sınırlıdır; bu üç hâl dışında sebepsiz zenginleşme doğmaz."
+      - "Kanun 'özellikle' ifadesini kullandığı için sayım örnek niteliğindedir."
+      - "Üç hâlde de iade isteyenin ayrıca yanıldığını ispatlaması şarttır."
+      - "Bu hâller yalnız sözleşmeye aykırılık durumunda uygulanır."
+    dogru: 1
+    aciklama: |
+      TBK m. 77/2, iade yükümlülüğünün "özellikle" bu üç durumda doğduğunu söyler. Bu yüzden sayım örnekseyicidir; örneğin başkasına ait bir değeri izinsiz kullanmak (müdahale kondiksiyonu) da sebepsiz zenginleşmedir. Yanılma şartı yalnız borç olmayanın kendi isteğiyle ifasında aranır (TBK m. 78/1).
+
+  - soru: |
+      Ali, Veli'nin arsasını satın almak için onunla adi yazılı bir sözleşme imzalar ve 400.000 TL öder. Tapuda resmî işlem yapılmamış, devir gerçekleşmemiştir. Ali'nin ödediği para hakkında hangisi doğrudur?
+    siklar:
+      - "Sözleşme geçerlidir; Ali yalnız tapuda devrin yapılmasını isteyebilir."
+      - "Sözleşme geçersizdir; para geçerli olmayan bir sebebe dayandığı için sebepsiz zenginleşme hükümlerine göre geri istenir."
+      - "Ali şekle uyulmadığını bilerek ödediği için parayı geri isteyemez."
+      - "Ali parayı ancak Veli'nin kusurunu ispatlarsa haksız fiil hükümlerine göre isteyebilir."
+    dogru: 1
+    aciklama: |
+      Taşınmaz satışı resmî şekilde düzenlenmedikçe geçerli olmaz (TBK m. 237/1, TMK m. 706/1); şekle uyulmadan kurulan sözleşme hüküm doğurmaz (TBK m. 12/2). Bu yüzden Ali devri isteyemez; ödediği bedel geçerli olmayan bir sebebe dayanır (TBK m. 77/2). Yargıtay'ın yerleşik uygulamasına göre harici satışta taraflar verdiklerini sebepsiz zenginleşme hükümlerine göre geri ister. Kusur aranmaz.
+
+  - soru: |
+      Zeynep, kiralamayı düşündüğü dükkân başkasına verilmesin diye mal sahibine "kira sözleşmesi imzalanınca ilk aya sayılmak üzere" 20.000 TL gönderir. Taraflar kira bedelinde anlaşamaz ve sözleşme hiç kurulmaz. Zeynep'in parayı geri istemesi TBK m. 77/2'deki hangi hâle dayanır?
+    siklar:
+      - "Geçerli olmayan sebep"
+      - "Gerçekleşmemiş sebep"
+      - "Sona ermiş sebep"
+      - "Ahlaki ödevin yerine getirilmesi"
+    dogru: 1
+    aciklama: |
+      Para, ileride kurulması beklenen bir kira sözleşmesi için verilmiştir. Bu amaç hiç gerçekleşmediği için zenginleşme gerçekleşmemiş bir sebebe dayanır (TBK m. 77/2). Geçerli olmayan sebepte baştan geçersiz bir ilişki, sona ermiş sebepte sonradan ortadan kalkan bir ilişki vardır. Ahlaki ödev ise TBK m. 78/2'deki geri isteme yasağıdır ve burada söz konusu değildir.
+
+  - soru: |
+      Kiracı Mert, Ocak ayında Ocak-Haziran dönemi kirasını peşin ödemiştir. Kira sözleşmesi Mart sonunda sona ermiş, taraflar peşin kira hakkında bir şey kararlaştırmamıştır. Ev sahibinin elinde kalan Nisan-Haziran kirası bakımından hangi hâl söz konusudur?
+    siklar:
+      - "Geçerli olmayan sebep"
+      - "Gerçekleşmemiş sebep"
+      - "Sona ermiş sebep"
+      - "Zamanaşımına uğramış borcun ifası"
+    dogru: 2
+    aciklama: |
+      Ödeme yapıldığında geçerli bir kira sözleşmesi, yani haklı bir sebep vardı. Sözleşme sona erince Nisan-Haziran dönemi için bu sebep ortadan kalkmıştır; bu, sona ermiş sebeptir (TBK m. 77/2). Geçerli olmayan sebepte ilişki baştan geçersizdir, gerçekleşmemiş sebepte ise beklenen ilişki hiç doğmamıştır.
+
+  - soru: |
+      Aşağıdakilerden hangisi **müdahale kondiksiyonuna** örnektir?
+    siklar:
+      - "Geçersiz bir satış sözleşmesine dayanarak bedel ödenmesi"
+      - "Aynı faturanın yanlışlıkla iki kez ödenmesi"
+      - "Tatildeki komşunun garajının izinsiz kullanılarak otopark ücretinden kurtulunması"
+      - "Kurulması beklenen kira sözleşmesi için ön ödeme yapılması"
+    dogru: 2
+    aciklama: |
+      Müdahale kondiksiyonunda kimse bir kazandırma yapmamıştır; zenginleşen başkasına ait bir değeri kendisi kullanır. Garajı izinsiz kullanan kişi, sahibinin hakkına ait kullanım değerini almış ve giderden tasarruf etmiştir (TBK m. 77/1). Diğer üç durumda fakirleşen kişi bir amaçla ödeme yapmıştır; bunlar edim kondiksiyonudur.
+
+  - soru: |
+      TBK m. 78/1'e göre borçlanmadığı edimi kendi isteğiyle yerine getiren kişi, geri isteyebilmek için neyi ispat etmelidir?
+    siklar:
+      - "Alacaklının kötüniyetli olduğunu"
+      - "Kendisini borçlu sanarak ifa ettiğini"
+      - "Ödemeden önce alacaklıya ihtarname gönderdiğini"
+      - "Ödenen paranın alacaklının elinde aynen durduğunu"
+    dogru: 1
+    aciklama: |
+      TBK m. 78/1'e göre borçlanmadığı edimi kendi isteğiyle yerine getiren kimse, bunu ancak kendisini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir. İspat yükü ödeyendedir. Alacaklının iyiniyeti ya da paranın elinde durup durmadığı iadenin kapsamıyla ilgilidir (TBK m. 79), geri isteme hakkının doğmasıyla değil.
+
+  - soru: |
+      Burak, Mayıs kirası olan 30.000 TL'yi otomatik ödeme talimatıyla ödemiş, bunu unutarak aynı gün internet bankacılığından 30.000 TL daha göndermiştir. Ev sahibi Nur ikinci ödemeyi iade etmemektedir. Hangisi doğrudur?
+    siklar:
+      - "Ödeme kendi isteğiyle yapıldığı için hiçbir durumda geri istenemez."
+      - "İkinci ödeme borç olmayanın ifasıdır; Burak yanılarak ödediğini ispatlarsa geri isteyebilir ve mükerrer ödeme bunu gösterir."
+      - "Burak ancak ödemeyi çekince koyarak yapmış olsaydı geri isteyebilirdi."
+      - "Nur iyiniyetli olduğu için geri verme borcu doğmaz."
+    dogru: 1
+    aciklama: |
+      İkinci 30.000 TL için bir borç yoktur. Ödeme kendi isteğiyle yapıldığından TBK m. 78/1 uygulanır: Burak kendini borçlu sanarak ödediğini ispat etmelidir. Aynı gün aynı tutarın iki kez gönderilmesi yanılmanın güçlü göstergesidir. Kendi isteğiyle ödeme geri istemeyi kendiliğinden engellemez ve çekince şart değildir. Nur'un iyiniyeti geri verme borcunun doğmasını engellemez; iadenin kapsamı ve temerrüt bakımından önem taşır (TBK m. 79, TBK m. 117/2).
+
+  - soru: |
+      Selim, zamanaşımı süresi dolmuş bir ödünç borcunu, zamanaşımının dolduğunu bilmeden alacaklıya öder. Sonra durumu öğrenir ve parayı geri ister. Hangisi doğrudur?
+    siklar:
+      - "Yanıldığını ispatlarsa parayı geri isteyebilir."
+      - "Zamanaşımına uğramış bir borcun ifası geri istenemeyeceği için parayı geri isteyemez."
+      - "Hâkim zamanaşımını kendiliğinden gözettiği için ödeme geçersizdir ve iade edilir."
+      - "Alacaklı iyiniyetliyse ödemenin yarısını geri isteyebilir."
+    dogru: 1
+    aciklama: |
+      TBK m. 78/2'ye göre zamanaşımına uğramış bir borcun ifasından kaynaklanan zenginleşme geri istenemez. Zamanaşımı borcu sona erdirmez, borçluya yalnız bir savunma imkânı verir; hâkim de zamanaşımını kendiliğinden göz önüne alamaz (TBK m. 161). Borç eksik borç olarak sürdüğü için ödemenin haklı sebebi vardır. Selim'in yanılmış olması sonucu değiştirmez.
+
+  - soru: |
+      Aşağıdaki ödemelerden hangisi, ödeyen yanıldığını ispatlasa bile TBK m. 78/2 uyarınca geri **istenemez**?
+    siklar:
+      - "Aynı faturanın ikinci kez ödenmesi"
+      - "Kanunen yükümlü olduğunu sanan Hakan'ın, bakmakla yükümlü olmadığı yoksul yeğenine yaptığı aylık yardım"
+      - "Geçersiz bir satış sözleşmesine dayanılarak ödenen bedel"
+      - "IBAN yanlış yazıldığı için tanınmayan birine gönderilen para"
+    dogru: 1
+    aciklama: |
+      Kanunen yükümlü olunmayan bir yakına yapılan bakım yardımı, ahlaki bir ödevin yerine getirilmesidir. TBK m. 78/2'ye göre bundan kaynaklanan zenginleşme, ödeyen yanılmış olsa bile geri istenemez. Diğer üç ödemede haklı bir sebep yoktur ve geri isteme mümkündür.
+
+  - soru: |
+      Hakkında ilamsız takip başlatılan Murat, ödeme emrine süresinde itiraz etmemiş ve kesinleşen takipte borçlu olmadığı 40.000 TL'yi icra dosyasına ödemek zorunda kalmıştır. Hangisi doğrudur?
+    siklar:
+      - "İtiraz etmediği için parayı hiçbir şekilde geri isteyemez."
+      - "Ödeme tarihinden itibaren bir yıl içinde istirdat davası açabilir; yalnız paranın verilmesi gerekmediğini ispatlaması yeterlidir."
+      - "On yıl içinde dava açabilir, ama kendini borçlu sanarak ödediğini de ispatlamalıdır."
+      - "Parayı yalnız yedi gün içinde icra mahkemesine şikâyet yoluyla geri alabilir."
+    dogru: 1
+    aciklama: |
+      İİK m. 72/7'ye göre takibe itiraz etmemiş ya da itirazı kaldırılmış olduğu için borçlu olmadığı bir parayı tamamen ödemek zorunda kalan kişi, ödediği tarihten itibaren bir yıl içinde genel hükümlere göre paranın geri verilmesini isteyebilir. Aynı maddeye göre istirdat davasında davacı yalnız paranın verilmesi gerekmediğini ispatlar. Cebri icra baskısı altında ödendiği için yanılma ispatı aranmaz. TBK m. 78/3 bu tür özel hükümleri saklı tutar.
+
+  - soru: |
+      Banka, kredi başvurusunda bulunan Emine'ye, imzası kendisine ait olmayan eski bir sözleşmeden borçlu göründüğünü ve bu borç kapatılmadıkça krediyi vermeyeceğini bildirir. Emine borcu olmadığını söylemesine rağmen krediye ihtiyacı olduğu için ödeme yapar. Yargıtay Hukuk Genel Kurulunun yaklaşımına göre hangisi doğrudur?
+    siklar:
+      - "Borçlu olmadığını bildiği hâlde ödediği için TBK m. 78/1 gereği parayı geri isteyemez."
+      - "Ödeme kendini borçlu sanarak değil baskı altında yapıldığından TBK m. 78/1'deki yanılma şartı aranmaz ve para geri istenebilir."
+      - "Parayı ancak hakkında icra takibi yapılmış olsaydı geri isteyebilirdi."
+      - "Yalnız bankaya karşı manevi tazminat isteyebilir, parayı geri isteyemez."
+    dogru: 1
+    aciklama: |
+      TBK m. 78/1 kendi isteğiyle yapılan ödemeyi düzenler. Hukuk Genel Kurulu benzer bir olayda ödemenin kendini borçlu sanarak değil, krediden tahsilat yapılmaması ve kamulaştırma bedeline bloke konulmaması için yapıldığını, bu yüzden TBK m. 78/1'in uygulanmayacağını kabul etmiş ve paranın iadesine ilişkin kararı onamıştır. Geri isteme TBK m. 77'deki genel kurala dayanır. İcra takibi şart değildir.
+
+  - soru: |
+      TBK m. 605/2'ye göre kumar ve bahis borcu için **isteyerek** yapılan ödeme hakkında hangisi doğrudur?
+    siklar:
+      - "Kumar borcu dava edilemediği için her zaman geri alınabilir."
+      - "Kural olarak geri alınamaz; ancak diğer taraf kumara hile karıştırmışsa geri alınabilir."
+      - "Ödeyen yanıldığını ispatlarsa her durumda geri alınabilir."
+      - "Hâkim, ödenen paranın Devlete mal edilmesine karar vermek zorundadır."
+    dogru: 1
+    aciklama: |
+      TBK m. 605/2'ye göre kumar ve bahis borcu için isteyerek yapılan ödemeler geri alınamaz. Kumar veya bahsin usulüne göre yürütülmesi beklenmedik olayla ya da diğer tarafın fiiliyle engellenmişse ya da diğer taraf hile karıştırmışsa ödeme geri alınabilir. Borcun dava edilememesi, isteyerek ödenenin geri istenebileceği anlamına gelmez. Devlete mal etme, TBK m. 81'de hâkimin takdirine bırakılmış ayrı bir imkândır ve zorunlu değildir.
+
+  - soru: |
+      Yargıtay Hukuk Genel Kurulunun yerleşik ifadesine göre sebepsiz zenginleşme davasının niteliği hakkında hangisi doğrudur?
+    siklar:
+      - "Her durumda öncelikle başvurulması gereken asli bir davadır."
+      - "İkincil (tali) niteliktedir; aynı olayda istihkak, zilyetlik, sözleşme, sözleşme benzeri ilişki ya da haksız fiilden doğan bir talep ileri sürülebiliyorsa uygulanmaz."
+      - "Yalnız tacirler arasındaki ilişkilerde açılabilir."
+      - "Ancak haksız fiil zamanaşımı dolduktan sonra açılabilir."
+    dogru: 1
+    aciklama: |
+      Hukuk Genel Kurulu, sebepsiz zenginleşmenin ikincil (tali) nitelikte olduğunu; malvarlığındaki azalma başka asli davalarla giderilebiliyorsa bu davanın gündeme gelmeyeceğini belirtir. Öğretide bu görüş tartışmalıdır ve bağımsızlık (yarışma) görüşü de savunulur. Soru Yargıtay'ın yaklaşımını sormaktadır.
+
+  - soru: |
+      Sebepsiz zenginleşmeyi haksız fiilden ayıran temel özellik hangisidir?
+    siklar:
+      - "Sebepsiz zenginleşmede yalnız manevi zarar istenebilir."
+      - "Sebepsiz zenginleşmede kusur ve hukuka aykırılık aranmaz; zarar değil zenginleşme geri verilir."
+      - "Sebepsiz zenginleşme yalnız geçerli bir sözleşme varken doğar."
+      - "Sebepsiz zenginleşmede zenginleşenin kastı ispatlanmalıdır."
+    dogru: 1
+    aciklama: |
+      Haksız fiil, kusurlu ve hukuka aykırı bir fiille verilen zararın giderilmesidir (TBK m. 49). Sebepsiz zenginleşme ise haklı sebepten yoksun bir malvarlığı kaymasını geri alır (TBK m. 77); kusur, hukuka aykırılık ve zarar aranmaz. Geçerli bir sözleşme ise haklı sebeptir ve sebepsiz zenginleşmeyi engeller.
+
+  - soru: |
+      Yargıtay'ın yerleşik uygulamasına göre ecrimisil hakkında hangisi doğrudur?
+    siklar:
+      - "Taraflar arasında kurulmuş bir kira sözleşmesinden doğan kira bedelidir."
+      - "Malikin, taşınmazını haksız olarak işgal eden kötüniyetli zilyetten isteyebileceği bir tazminattır; haksız işgal kira sözleşmesine benzetilmez."
+      - "İyiniyetli zilyetten de olağan kullanım için her durumda istenir."
+      - "Emsal kira bedeliyle hiçbir ilgisi yoktur; yalnız malikin ispatladığı somut zarar ölçü alınır."
+    dogru: 1
+    aciklama: |
+      Yargıtay, İçtihadı Birleştirme Kararına dayanarak haksız işgalin kira sözleşmesine benzetilemeyeceğini, haksız bir eylem olduğunu kabul eder. Ecrimisil, zilyet olmayan malikin malik olmayan kötüniyetli zilyetten isteyebileceği bir haksız işgal tazminatıdır ve en az emsal kira geliri kadardır. İyiniyetli zilyet olağan kullanım için tazminat ödemez (TMK m. 993/1).
+
+  - soru: |
+      Can, Ece'den harici satışla aldığı evin bedelinin bir kısmını ödemiş ve Ece'nin izniyle eve taşınmıştır. Satış gerçekleşmeyince Ece, ödenen parayı iade etmeden Can'dan evi boşaltmasını ve oturduğu süre için ecrimisil ister. Yargıtay'ın yerleşik uygulamasına göre hangisi doğrudur?
+    siklar:
+      - "Can geçersiz bir sözleşmeye dayandığı için kötüniyetli zilyettir ve oturduğu süre için ecrimisil öder."
+      - "Ece, bedeli iade etmeden Can'ı evi boşaltmaya zorlayabilir ve ayrıca ecrimisil alır."
+      - "Bedel iade edilinceye kadar Can'dan ecrimisil istenemez; buna karşılık evi kullanan Can da ödediği bedele faiz isteyemez."
+      - "Can, evi boşaltmadan önce Ece'den hem bedeli hem de bedele ödeme tarihinden itibaren işlemiş faizi isteyebilir."
+    dogru: 2
+    aciklama: |
+      Yargıtay'ın İçtihadı Birleştirme Kararına dayanan uygulamasına göre harici satışta taraflar verdiklerini sebepsiz zenginleşme hükümlerine göre geri ister. Bedeli geri vermeyen taraf, taşınmazın kendisine verilmesi için karşı tarafı zorlayamaz. Bedel geri verilinceye kadar alıcı ürün ve ecrimisil ödemez; buna karşılık taşınmazı kullanan alıcı bedele faiz isteyemez. Satıcının izniyle oturan Can iyiniyetli zilyettir.
+
+  - soru: |
+      Ayla, kardeşine göndereceği 25.000 TL'yi IBAN'daki bir rakamı yanlış yazarak tanımadığı Onur'un hesabına gönderir. Banka işlemi talimattaki IBAN'a göre doğru yapmıştır. Onur parayı iade etmemektedir. Ayla sebepsiz zenginleşme davasını kime karşı açmalıdır?
+    siklar:
+      - "Kendi bankasına, çünkü işlemi o gerçekleştirmiştir."
+      - "Kardeşine, çünkü para ona gönderilecekti."
+      - "Onur'a, çünkü para onun malvarlığına geçmiştir ve zenginleşen odur."
+      - "Onur'un bankasına, çünkü para o bankadaki hesapta durmaktadır."
+    dogru: 2
+    aciklama: |
+      Sebepsiz zenginleşme davası, lehine zenginleşme gerçekleşen kişiye açılır (şahsilik). Para Onur'un hesabına, yani malvarlığına geçmiştir ve Onur'u haklı kılan bir sebep yoktur (TBK m. 77/1). Talimatı aynen uygulayan banka zenginleşmemiştir. Kardeş ise hiçbir şey almamıştır.
+
+  - soru: |
+      TBK m. 117'ye göre sebepsiz zenginleşmede zenginleşen ne zaman temerrüde düşer?
+    siklar:
+      - "Her durumda dava tarihinde"
+      - "Zenginleşmenin gerçekleştiği tarihte; ancak zenginleşen iyiniyetliyse temerrüt için bildirim şarttır"
+      - "Her durumda alacaklının ihtarıyla"
+      - "Hükmün kesinleştiği tarihte"
+    dogru: 1
+    aciklama: |
+      TBK m. 117/2'ye göre sebepsiz zenginleşmede borçlu, zenginleşmenin gerçekleştiği tarihte temerrüde düşer. Ancak sebepsiz zenginleşenin iyiniyetli olduğu hâllerde temerrüt için bildirim şarttır. İyiniyet asıl olduğundan (TMK m. 3/1), zenginleşenin iyiniyetli olmadığını ileri süren bunu ispatlar.
+
+  - soru: |
+      Aşağıdakilerden hangisinde TBK m. 77 anlamında sebepsiz zenginleşme **yoktur**?
+    siklar:
+      - "Komşunun boş garajını izinsiz kullanarak kira ödemekten kurtulmak"
+      - "Yanlışlıkla hesaba gönderilen parayı elde tutmak"
+      - "Kendi parasıyla alınan hisse senetlerinin borsada değer kazanması"
+      - "Resmî şekle aykırı satış nedeniyle alınan bedeli elde tutmak"
+    dogru: 2
+    aciklama: |
+      TBK m. 77/1, zenginleşmenin bir başkasının malvarlığından veya emeğinden sağlanmasını arar. Kendi parasıyla aldığı hisselerin değer kazanması kişiyi zenginleştirir, ama bu artış başkasına ait bir değerden gelmez. Diğer üç durumda başkasının malvarlığından haklı bir sebep olmadan bir değer geçmiştir.
+
+olaylar:
+  - olay: |
+      Ayşe, kiracı olarak oturduğu dairenin Mayıs 2026 kirası olan 30.000 TL'yi otomatik ödeme talimatıyla ev sahibi Kemal'e ödemiş, bunu unutarak aynı gün internet bankacılığından 30.000 TL daha göndermiştir. Kemal fazla ödemeyi iade etmemektedir.
+
+      Ayşe, yıllar önce arkadaşı Tolga'dan aldığı 20.000 TL'lik ödünç parayı Haziran 2026'da Tolga'ya geri ödemiştir. Sonra bir avukattan, bu borcun ödemeden önce zamanaşımına uğradığını öğrenmiştir. Taraflar zamanaşımının dolduğu konusunda uyuşmaktadır.
+
+      Ayşe, kanunen bakmakla yükümlü olduğunu sanarak yoksul yeğeni Efe'ye altı ay boyunca her ay 3.000 TL göndermiş, sonra böyle bir kanuni yükümlülüğü bulunmadığını öğrenmiştir.
+
+      Ayşe, kredi başvurusu için gittiği bankada, imzası kendisine ait olmayan eski bir kredi sözleşmesinden 15.000 TL borçlu göründüğünü öğrenir ve sözleşmeyi imzalamadığını söyleyerek itiraz eder. Banka, bu tutar kapatılmadıkça yeni krediyi vermeyeceğini bildirir; krediye ihtiyacı olan Ayşe ödemeyi yapar. Sonradan alınan bilirkişi raporuna göre imza Ayşe'ye ait değildir.
+
+      Son olarak site yönetimi, Ayşe'den kendisine ait olmayan bir aracın park ihlali için 2.000 TL "otopark cezası" ister. Ayşe borçlu olmadığını bildiği hâlde, tartışma uzamasın diye, hiçbir baskı olmadan ve çekince koymadan ödemeyi yapar.
+
+      1. Ayşe, Kemal'e yaptığı ikinci ödemeyi geri isteyebilir mi? Neyi ispatlamalıdır?
+      2. Tolga'ya ve Efe'ye yapılan ödemeler geri istenebilir mi?
+      3. Bankaya ödenen 15.000 TL geri istenebilir mi? Dayanağı nedir?
+      4. Site yönetimine yapılan ödeme geri istenebilir mi?
+    olcut:
+      - {tespit: "Ödemelerin sebepsiz zenginleşme ve borç olmayanın ifası çerçevesinde nitelendirilmesi; dört unsurun sayılması", puan: 10, madde: "TBK m. 77"}
+      - {tespit: "Mükerrer kira ödemesinin borç olmayanın ifası olması; kendi isteğiyle ödemede yanılmanın Ayşe tarafından ispatı ve geri isteme hakkı", puan: 20, madde: "TBK m. 78"}
+      - {tespit: "Zamanaşımına uğramış borcun ifasının, yanılma olsa bile geri istenememesi", puan: 15, madde: "TBK m. 78"}
+      - {tespit: "Yeğene yapılan yardımın ahlaki ödevin yerine getirilmesi olarak geri istenememesi", puan: 15, madde: "TBK m. 78"}
+      - {tespit: "Bankaya baskı altında yapılan ödemede yanılma şartının aranmaması ve paranın genel kurala göre geri istenmesi", puan: 25, madde: "TBK m. 77"}
+      - {tespit: "Borçlu olmadığını bilerek, baskı ve çekince olmadan yapılan ödemenin geri istenememesi", puan: 15, madde: "TBK m. 78"}
+    cozum: |
+      **Nitelendirme:** Ayşe'nin yaptığı ödemelerin hepsinde bir kazandırma, yani edim vardır. Geri isteme sebepsiz zenginleşmeye (TBK m. 77) dayanır. Ödemeler bir borcu ifa amacıyla yapıldığı için borç olmayanın ifasına ilişkin TBK m. 78 de ayrıca değerlendirilmelidir.
+
+      **Hukuki sorunlar:** (1) Kendi isteğiyle yapılan mükerrer ödemede geri isteme şartları; (2) zamanaşımına uğramış borcun ve ahlaki ödevin ifası; (3) baskı altında yapılan ödeme; (4) bilerek yapılan ödeme.
+
+      **İlgili hükümler:** TBK m. 77, m. 78, m. 117, m. 161; TMK m. 6.
+
+      **Değerlendirme:**
+      - *Kemal'e ikinci ödeme:* Mayıs kirası ilk ödemeyle sona ermiştir; ikinci 30.000 TL için borç yoktur. Ayşe ödemeyi kendi isteğiyle yaptığından TBK m. 78/1 uygulanır: Ayşe, kendini borçlu sanarak ödediğini ispat etmelidir. Aynı gün aynı tutarın iki kez gönderildiğini gösteren banka kayıtları yanılmanın açık göstergesidir. Ayşe fazlayı geri isteyebilir. Kemal'in iyiniyetli olması geri isteme hakkını ortadan kaldırmaz; iadenin kapsamı (TBK m. 79, ayrı konu) ve temerrüt için bildirim gerekip gerekmediği (TBK m. 117/2) bakımından önem taşır.
+      - *Tolga'ya ödeme:* Borç zamanaşımına uğramış olsa da sona ermemiştir. Zamanaşımı borçluya yalnız bir savunma imkânı verir ve hâkim bunu kendiliğinden gözetemez (TBK m. 161). TBK m. 78/2'ye göre zamanaşımına uğramış bir borcun ifasından kaynaklanan zenginleşme geri istenemez. Ayşe'nin zamanaşımını bilmemesi sonucu değiştirmez.
+      - *Efe'ye yardım:* Ayşe kanunen yükümlü olduğunu sanarak, yani yanılarak ödemiştir. Ancak kanunen bakmakla yükümlü olunmayan yoksul bir yakına yardım, ahlaki bir ödevin yerine getirilmesidir. TBK m. 78/2 bu durumda yanılmaya bakmaksızın geri istemeyi yasaklar.
+      - *Bankaya ödeme:* İmza Ayşe'ye ait olmadığından ortada bir borç yoktur. Ayşe itiraz etmiş, krediyi alabilmek için ödemek zorunda kalmıştır; ödeme kendini borçlu sanarak değil baskı altında yapılmıştır. Yargıtay Hukuk Genel Kurulu benzer bir olayda bu tür bir ödemede TBK m. 78/1'in uygulanmayacağını kabul etmiştir. Banka haklı bir sebep olmadan zenginleşmiştir ve Ayşe 15.000 TL'yi TBK m. 77'deki genel kurala göre geri isteyebilir. Borcun yokluğunu ve ödemeyi ispat yükü Ayşe'dedir (TMK m. 6); bilirkişi raporu ve dekont bunu karşılar.
+      - *Site yönetimine ödeme:* Ayşe borçlu olmadığını bilerek, hiçbir baskı olmadan ve çekince koymadan ödemiştir. Kendini borçlu sanmadığı için TBK m. 78/1'deki şartı ispatlayamaz ve bu ödemeyi geri isteyemez.
+
+      **Sonuç:**
+      - Kemal'e yapılan ikinci ödeme geri istenebilir.
+      - Tolga'ya ve Efe'ye yapılan ödemeler geri istenemez (TBK m. 78/2).
+      - Bankaya ödenen 15.000 TL, baskı altında ödendiği için yanılma ispatı aranmadan geri istenebilir.
+      - Site yönetimine bilerek yapılan ödeme geri istenemez.
+
+  - olay: |
+      Murat, Kadıköy'deki dairesini Selin'e 3.000.000 TL'ye satmak için Mart 2025'te onunla adi yazılı bir sözleşme imzalar. Tapuda ya da noterde resmî bir işlem yapılmaz. Selin aynı gün 500.000 TL öder ve Murat'ın izniyle daireye taşınır. Tapu işlemleri için gerekli olduğu söylenen ve Murat'a ait olan 12.000 TL'lik birikmiş emlak vergisi borcunu da Selin vergi dairesine öder.
+
+      Selin taşındıktan sonra, Murat'a ait olan, satışa dahil olmadığını bildiği ve tapuda ayrı kayıtlı bitişik küçük dükkânı da Murat'a sormadan depo olarak kullanmaya başlar. Murat dükkânın boşaltılmasını yazılı olarak ister; Selin buna rağmen dükkânı kullanmayı sürdürür. Kullanım toplam on iki ay sürer.
+
+      Kalan bedelin ödenmesi konusunda anlaşmazlık çıkar ve taraflardan hiçbiri artık satışın gerçekleşmesini istemez. Selin, ödediği 500.000 TL ile vergi için ödediği 12.000 TL'nin iadesini ister. Murat ise parayı iade etmeden Selin'in daireyi hemen boşaltmasını, dairede oturduğu süre için ecrimisil ödemesini ve dükkân için de ecrimisil ödemesini istemektedir.
+
+      1. Taraflar arasındaki sözleşme geçerli midir? Selin ödediklerini hangi dayanakla geri isteyebilir?
+      2. Murat, bedeli iade etmeden Selin'i daireyi boşaltmaya zorlayabilir mi? Daire için ecrimisil isteyebilir mi?
+      3. Murat, dükkân için ecrimisil isteyebilir mi?
+    olcut:
+      - {tespit: "Resmî şekle uyulmadan yapılan taşınmaz satışının geçersizliği", puan: 15, madde: "TBK m. 237"}
+      - {tespit: "Ödenen 500.000 TL'nin geçerli olmayan sebebe dayanması ve sebepsiz zenginleşme hükümlerine göre geri istenmesi; satış ve ödemenin ispatı", puan: 20, madde: "TBK m. 77"}
+      - {tespit: "Emlak vergisinin ödenmesiyle Murat'ın borçtan kurtulması (pasifin azalması) ve bu tutarın da geri istenmesi", puan: 15, madde: "TBK m. 77"}
+      - {tespit: "Mülkiyet geçmediği için Murat'ın daireyi malik olarak geri isteyebilmesi; ancak bedeli iade etmeden Selin'i zorlayamaması", puan: 15, madde: "TMK m. 683"}
+      - {tespit: "Daire için ecrimisil isteminin reddi: Selin'in izinle oturan iyiniyetli zilyet olması, bedel iade edilinceye kadar ecrimisil ve faiz istenmemesi", puan: 20, madde: "TMK m. 993"}
+      - {tespit: "Dükkânın kötüniyetle kullanılması nedeniyle en az emsal kira kadar ecrimisil; müdahale kondiksiyonu bağlantısı", puan: 15, madde: "TMK m. 995"}
+    cozum: |
+      **Nitelendirme:** Murat ile Selin arasında, resmî şekle uyulmadan yapılmış bir taşınmaz satışı, yani harici satış vardır. Selin'in ödemeleri bu sözleşmeye dayanır. Dükkânın kullanılması ise izinsiz bir işgaldir.
+
+      **Hukuki sorunlar:** (1) Sözleşmenin geçerliliği; (2) ödenen bedelin ve vergi ödemesinin iadesi; (3) dairenin geri verilmesi ve daire için ecrimisil; (4) dükkân için ecrimisil.
+
+      **İlgili hükümler:** TBK m. 12, m. 77, m. 237; TMK m. 6, TMK m. 683, TMK m. 706, TMK m. 993, TMK m. 995.
+
+      **Değerlendirme:**
+      - *Geçerlilik:* Taşınmaz satışı resmî şekilde düzenlenmedikçe geçerli olmaz (TBK m. 237/1, TMK m. 706/1). Şekle uyulmadan kurulan sözleşme hüküm doğurmaz (TBK m. 12/2). Bu yüzden ne Selin devri ne de Murat kalan bedeli isteyebilir. Taraflardan hiçbiri sözleşmenin ifasını istemediği için şekil eksikliğinin ileri sürülmesinde bir hakkın kötüye kullanılması sorunu da yoktur.
+      - *500.000 TL:* Ödeme geçersiz bir sözleşmeye, yani geçerli olmayan bir sebebe dayanır (TBK m. 77/2). Murat bu tutarla haklı bir sebep olmadan zenginleşmiştir. Yargıtay'ın yerleşik uygulamasına göre harici satışta taraflar, satışı kanıtlarlarsa verdiklerini sebepsiz zenginleşme hükümlerine göre geri ister. Selin sözleşmeyi ve ödeme belgesini sunarak bunu ispatlar (TMK m. 6). Paranın değer kaybına göre ne kadar iade edileceği iadenin kapsamı konusudur.
+      - *12.000 TL vergi:* Selin, Murat'ın vergi borcunu ödemiş ve Murat bu borçtan kurtulmuştur. Bu, pasifin azalması biçiminde bir zenginleşmedir. Satış gerçekleşmeyeceğine göre Murat'ı bu zenginleşmede haklı kılan bir sebep yoktur; Selin bu tutarı da geri ister.
+      - *Dairenin geri verilmesi:* Mülkiyet tescil olmadan geçmediği için Murat hâlâ maliktir ve daireyi geri isteyebilir (TMK m. 683/2). Ancak Yargıtay'ın İçtihadı Birleştirme Kararına dayanan uygulamasına göre bedeli geri vermeyen taraf, taşınmazın kendisine verilmesi için karşı tarafı zorlayamaz. Murat, Selin'e ödediğini iade etmeden onu daireyi boşaltmaya zorlayamaz; iadeler karşılıklı yapılır.
+      - *Daire için ecrimisil:* Ecrimisil, kötüniyetli zilyetten istenen haksız işgal tazminatıdır. Selin daireye Murat'ın izniyle ve satış sözleşmesine güvenerek taşınmıştır; iyiniyetli zilyettir ve olağan kullanım için tazminat ödemez (TMK m. 993/1). Ayrıca Yargıtay'a göre bedel kendisine geri verilinceye kadar alıcı ürün ve ecrimisil ödemekle yükümlü değildir; buna karşılık taşınmazı kullanan Selin de ödediği bedele faiz isteyemez. Murat'ın daire için ecrimisil istemi reddedilmelidir.
+      - *Dükkân için ecrimisil:* Dükkân satışa dahil değildir ve Selin bunu bilmektedir; Murat'ın yazılı istemine rağmen kullanmayı da sürdürmüştür. Selin dükkân bakımından kötüniyetli zilyettir (TMK m. 995/1). Yargıtay'a göre haksız işgal kira sözleşmesine benzetilemez ve Murat en az emsal kira bedeli kadar ecrimisil isteyebilir. Öğretide aynı sonuca müdahale kondiksiyonuyla da ulaşılır: Selin, Murat'a ait bir kullanım değerini izinsiz alarak depo kirasından tasarruf etmiştir.
+
+      **Sonuç:**
+      - Sözleşme şekle aykırılık nedeniyle geçersizdir.
+      - Selin 500.000 TL'yi ve 12.000 TL'yi sebepsiz zenginleşme hükümlerine göre geri isteyebilir.
+      - Murat daireyi geri alabilir, ama ödediğini iade etmeden Selin'i boşaltmaya zorlayamaz.
+      - Murat daire için ecrimisil isteyemez; Selin de ödediği bedele faiz isteyemez.
+      - Murat, dükkânın kullanıldığı on iki ay için en az emsal kira kadar ecrimisil isteyebilir.
+
+  - olay: |
+      X Ltd. Şti.'nin muhasebe çalışanı Gizem, şirketin tedarikçisi Y A.Ş.'ye olan 180.000 TL'lik fatura borcunu ödemek için banka uygulamasından EFT talimatı verir. Gizem IBAN'ın bir rakamını yanlış yazar ve para, şirketle hiçbir ilişkisi bulunmayan Deniz'in hesabına geçer. Banka işlemi talimattaki IBAN'a göre doğru şekilde yapmıştır; dekontta açıklama olarak "fatura ödemesi" yazmaktadır.
+
+      Deniz, para hesabına geçtiği gün bunun kendisine ait olmadığını fark eder, ama ne bankaya ne de şirkete haber verir ve 50.000 TL'sini tatil masraflarında kullanır. Hatayı iki hafta sonra fark eden X Ltd. Deniz'e ulaşarak paranın iadesini ister. Deniz, "Para benim hesabıma geldi, artık benimdir; üstelik bir kısmını harcadım." diyerek iadeyi reddeder.
+
+      Aynı dönemde Z'nin X Ltd. hakkında başlattığı ilamsız icra takibinde şirket ödeme emrine süresinde itiraz etmemiş ve kesinleşen takipte 40.000 TL'yi Nisan 2026'da icra dosyasına ödemek zorunda kalmıştır. Şirket, Z'ye borçlu olmadığını belgeleriyle ispatlayabilecek durumdadır.
+
+      1. X Ltd., EFT ile gönderilen parayı kimden ve hangi dayanakla isteyebilir? İspat yükü kimdedir?
+      2. Deniz'in savunmaları ve faizin başlangıcı hakkında ne söylenebilir?
+      3. Şirket, icra dosyasına ödediği 40.000 TL'yi hangi yolla ve hangi süre içinde geri isteyebilir?
+    olcut:
+      - {tespit: "Yanlış IBAN'a gönderilen paranın haklı sebepten yoksun bir zenginleşme olması; dört unsurun olaya uygulanması", puan: 20, madde: "TBK m. 77"}
+      - {tespit: "Borç olmayanın ifası açısından da X Ltd.'nin Deniz'e borçlu olmadığı hâlde açıkça yanılarak ödeme yapmış olması", puan: 10, madde: "TBK m. 78"}
+      - {tespit: "Davanın muhatabının paranın girdiği hesabın sahibi Deniz olması; talimatı doğru uygulayan bankanın zenginleşmemiş olması", puan: 15, madde: "TBK m. 77"}
+      - {tespit: "İspat yükü: havalenin borç ödemesi sayıldığı kabulü karşısında X Ltd.'nin Deniz'e karşı bir borç bulunmadığını ve IBAN hatasını ispatlaması", puan: 15, madde: "TMK m. 6"}
+      - {tespit: "Deniz'in iyiniyetli olmaması nedeniyle zenginleşme tarihinde temerrüde düşmesi ve faizin bu tarihten işlemesi; harcanan kısmın iadeye etkisinin ayrı konu olduğu", puan: 20, madde: "TBK m. 117"}
+      - {tespit: "İcra dosyasına ödenen 40.000 TL için ödemeden itibaren bir yıl içinde istirdat davası; yalnız borçlu olunmadığının ispatı", puan: 20, madde: "İİK m. 72"}
+    cozum: |
+      **Nitelendirme:** X Ltd.'nin malvarlığından çıkan 180.000 TL, şirketle hiçbir ilişkisi olmayan Deniz'in hesabına geçmiştir. Deniz'i haklı kılan bir sözleşme ya da kanun hükmü yoktur. Olay sebepsiz zenginleşmedir (TBK m. 77). İcra dosyasına yapılan ödeme ise cebri icra baskısı altında yapılmıştır ve İİK m. 72/7'deki istirdat davasına konu olur.
+
+      **Hukuki sorunlar:** (1) Unsurlar ve davanın muhatabı; (2) ispat yükü; (3) Deniz'in savunmaları ve faiz; (4) icra ödemesinin geri alınması.
+
+      **İlgili hükümler:** TBK m. 77, m. 78, m. 79, m. 117; TMK m. 3, TMK m. 6; İİK m. 72.
+
+      **Değerlendirme:**
+      - *Unsurlar:* Deniz'in hesabına para girmiş, aktifi artmıştır (zenginleşme). Bu değer X Ltd.'nin malvarlığından çıkmıştır. Kayma tek bir EFT işlemiyle doğrudan gerçekleşmiştir (illiyet). Deniz ile X Ltd. arasında hiçbir borç ilişkisi yoktur (haklı sebep yokluğu). Olay borç olmayanın ifası olarak değerlendirilse de sonuç değişmez: X Ltd. Deniz'e borçlu değildir ve ödemeyi Y A.Ş.'ye yaptığını sanarak, yani açıkça yanılarak yapmıştır (TBK m. 78/1).
+      - *Muhatap:* Dava, zenginleşen kişiye açılır. Banka talimattaki IBAN'a göre işlemi doğru yapmış, para Deniz'in malvarlığına geçmiştir. Banka zenginleşmemiştir; davalı Deniz'dir.
+      - *İspat:* Yargıtay'a göre havale bir ödeme aracıdır ve aksi ispatlanana kadar var olan bir borcun ödenmesi amacıyla yapılmış sayılır. Bu nedenle X Ltd., Deniz'e karşı bir borcunun bulunmadığını ve paranın IBAN hatasıyla gönderildiğini ispatlamalıdır (TMK m. 6). Y A.Ş.'nin faturası, doğru IBAN ile yazılan IBAN arasındaki fark ve dekonttaki "fatura ödemesi" açıklaması bunun için güçlü delillerdir.
+      - *Deniz'in savunmaları:* Paranın hesaba girmesi tek başına haklı bir sebep değildir; "hesabıma gelen benimdir" savunması dinlenmez. Deniz paranın kendisine ait olmadığını aynı gün fark ettiği için iyiniyetli değildir. Parayı harcamış olması da iade borcunu azaltmaz: zenginleşmeyi iyiniyetli olmaksızın elden çıkaran, zenginleşmenin tamamını geri verir (TBK m. 79/2). Ayrıntısı iadenin kapsamı konusundadır.
+      - *Faiz:* TBK m. 117/2'ye göre sebepsiz zenginleşmede borçlu, zenginleşmenin gerçekleştiği tarihte temerrüde düşer; bildirim şartı yalnız iyiniyetli zenginleşen için aranır. İyiniyet asıl olsa da (TMK m. 3/1) olayda Deniz'in durumu bildiği açıktır. Bu yüzden faiz, paranın hesaba geçtiği tarihten itibaren istenebilir.
+      - *İcra ödemesi:* X Ltd. ödeme emrine itiraz etmediği için kesinleşen takipte borçlu olmadığı parayı ödemek zorunda kalmıştır. İİK m. 72/7'ye göre ödediği tarihten itibaren bir yıl içinde genel hükümlere göre mahkemeye başvurarak paranın geri verilmesini isteyebilir. Bu istirdat davasında yalnız paranın verilmesi gerekmediğini, yani Z'ye borçlu olmadığını ispatlar; yanıldığını ispatlaması gerekmez. TBK m. 78/3 bu özel hükmü saklı tutar.
+
+      **Sonuç:**
+      - X Ltd., 180.000 TL'nin tamamını Deniz'den sebepsiz zenginleşme hükümlerine göre isteyebilir; davalı banka değil Deniz'dir.
+      - Deniz'e karşı bir borç bulunmadığını ve IBAN hatasını X Ltd. ispatlar.
+      - Deniz iyiniyetli olmadığı için harcadığı kısım dahil tamamını geri verir; faiz paranın hesaba geçtiği tarihten işler.
+      - İcra dosyasına ödenen 40.000 TL için ödeme tarihinden itibaren bir yıl içinde istirdat davası açılabilir.
+
+kartlar:
+  - on: "Sebepsiz zenginleşmenin dört unsuru nedir? (TBK m. 77/1)"
+    arka: "Zenginleşme; bunun başkasının malvarlığından veya emeğinden gelmesi (Yargıtay: fakirleşme); aralarında illiyet bağı; haklı sebebin yokluğu. Kusur aranmaz."
+  - on: "TBK m. 77/2'deki üç hâl nedir?"
+    arka: "Geçerli olmayan, gerçekleşmemiş ve sona ermiş sebep. Kanun 'özellikle' dediği için sayım örnek niteliğindedir."
+  - on: "Zenginleşme hangi biçimlerde olur?"
+    arka: "Aktifin artması, pasifin azalması (borçtan kurtulma) ve yapılması gereken bir giderden tasarruf."
+  - on: "Edim kondiksiyonu nedir?"
+    arka: "Fakirleşenin bir amaçla yaptığı kazandırmanın, amaç boşa çıkınca geri istenmesi. Örnek: geçersiz satışta ödenen bedel."
+  - on: "Müdahale kondiksiyonu nedir?"
+    arka: "Zenginleşenin başkasına ait bir değeri kendisi kullanması, tüketmesi ya da satması. Örnek: komşunun garajını izinsiz kullanmak."
+  - on: "Gerçekleşmemiş sebebe örnek?"
+    arka: "Kurulmayan bir kira sözleşmesi için yapılan ön ödeme. Kanunda: nişanlılık evlenme dışında bir sebeple sona erince alışılmışın dışındaki hediyeler (TMK m. 122)."
+  - on: "Sona ermiş sebebe örnek?"
+    arka: "Sona eren kira sözleşmesinin kalan dönemi için peşin ödenmiş kira."
+  - on: "TBK m. 78/1'e göre geri isteme şartı nedir?"
+    arka: "Borçlanmadığı edimi kendi isteğiyle yerine getiren, kendini borçlu sanarak yerine getirdiğini ispat ederse geri isteyebilir. İspat yükü ödeyendedir."
+  - on: "Bilerek ve baskı olmadan ödeyen geri isteyebilir mi?"
+    arka: "Hayır. Kendini borçlu sanmadığı için TBK m. 78/1'deki şart gerçekleşmez."
+  - on: "Baskı altında yapılan ödemede yanılma aranır mı?"
+    arka: "Hayır. Ödeme kendi isteğiyle yapılmadığı için TBK m. 78/1 uygulanmaz; genel kural (TBK m. 77) uygulanır (Yargıtay HGK)."
+  - on: "Hangi ödemeler yanılma olsa bile geri istenemez? (TBK m. 78/2)"
+    arka: "Zamanaşımına uğramış borcun ifası ve ahlaki ödevin yerine getirilmesi."
+  - on: "Zamanaşımına uğramış borç ödenince neden geri istenemez?"
+    arka: "Zamanaşımı borcu sona erdirmez, yalnız savunma imkânı verir; borç eksik borç olarak sürer ve ödemenin haklı sebebi olur."
+  - on: "İstirdat davasının süresi ve ispat konusu nedir? (İİK m. 72/7-8)"
+    arka: "Ödemeden itibaren bir yıl. Davacı yalnız paranın verilmesi gerekmediğini ispatlar; yanılma ispatı aranmaz."
+  - on: "Kumar borcu için isteyerek ödenen geri alınır mı?"
+    arka: "Kural olarak hayır (TBK m. 605/2). Beklenmedik olay ya da diğer tarafın fiiliyle engelleme veya hile varsa alınabilir."
+  - on: "Yargıtay'a göre sebepsiz zenginleşmenin niteliği nedir?"
+    arka: "İkincil (tali): istihkak, zilyetlik, sözleşme, sözleşme benzeri ilişki ya da haksız fiil talebi varsa uygulanmaz. Öğretide tartışmalıdır."
+  - on: "Harici satışta ödenen bedel nasıl geri alınır?"
+    arka: "Sözleşme şekle aykırı olduğu için geçersizdir (TBK m. 237/1, TMK m. 706/1); bedel sebepsiz zenginleşme hükümlerine göre geri istenir."
+  - on: "Harici satışta taşınmazı kullanan alıcıdan ecrimisil istenir mi?"
+    arka: "Yargıtay'a göre bedel iade edilinceye kadar hayır. Taşınmazı kullanan alıcı da bedele faiz isteyemez."
+  - on: "Yargıtay'a göre ecrimisil nedir?"
+    arka: "Malikin kötüniyetli zilyetten isteyebileceği haksız işgal tazminatı. Kira sözleşmesine benzetilmez; en az emsal kira kadardır."
+  - on: "Ecrimisil davalarında Yargıtay hangi süreyi uygular?"
+    arka: "Dava tarihinden geriye doğru işleyen beş yıllık zamanaşımı."
+  - on: "Yanlış IBAN'a giden paranın davası kime açılır?"
+    arka: "Parayı alan hesap sahibine. Talimatı doğru uygulayan banka zenginleşmemiştir."
+  - on: "Havale karinesi nedir?"
+    arka: "Yargıtay'a göre banka yoluyla gönderilen para, aksi ispatlanana kadar var olan bir borcun ödemesi sayılır; başka amaç iddia eden gönderen ispatlar."
+  - on: "Sebepsiz zenginleşmede temerrüt ne zaman olur? (TBK m. 117/2)"
+    arka: "Zenginleşmenin gerçekleştiği tarihte. Zenginleşen iyiniyetliyse temerrüt için bildirim şarttır."
+  - on: "Sebepsiz zenginleşmede zamanaşımı nedir? (TBK m. 82/1)"
+    arka: "Geri isteme hakkını öğrenmeden itibaren iki yıl, her hâlde zenginleşmeden itibaren on yıl. Ayrıntısı bir sonraki konuda."

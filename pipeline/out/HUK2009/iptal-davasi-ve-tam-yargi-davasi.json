@@ -1,0 +1,469 @@
+{
+ "course_id": "HUK2009",
+ "unit_index": 5,
+ "unit_title": "Ünite 5: İdarenin Sorumluluğu ve Yargısal Denetimi",
+ "topic_index": 4,
+ "slug": "iptal-davasi-ve-tam-yargi-davasi",
+ "title": "İdari Dava Türleri: İptal Davası ve Tam Yargı Davası; Dava Açma Süreleri, İdareye Başvuru ve İlk İnceleme",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-24T07:28:03.513162+00:00",
+ "skill_refs": [
+  "idare-hukuku-genel/iptal-davasi"
+ ],
+ "content": {
+  "summary_md": "- **Üç dava türü (İYUK m. 2/1):** iptal davası (menfaati ihlal edilenler), tam yargı davası (kişisel hakkı doğrudan ihlal edilenler), kamu hizmeti için yapılan idari sözleşmelerden doğan davalar. İdari yargı yalnız hukuka uygunluğu denetler; yerindelik denetimi yapamaz (İYUK m. 2/2; AY m. 125/4).\n- **İptal sebepleri:** yetki, şekil, sebep, konu ve maksat unsurlarından biri yönünden hukuka aykırılık (İYUK m. 2/1-a).\n- **Genel dava açma süresi:** Danıştay ve idare mahkemelerinde 60, vergi mahkemelerinde 30 gün; süre yazılı bildirimi izleyen günden başlar (İYUK m. 7/1, 7/2-a; AY m. 125/3). Tatil günleri süreye dahildir, son gün tatilse süre izleyen çalışma gününün bitimine uzar (İYUK m. 8).\n- **Özel süreler:** ivedi yargılamada 30 gün ve İYUK m. 11 uygulanmaz (İYUK m. 20/A); MEB ve ÖSYM merkezî sınavlarında 10 gün (İYUK m. 20/B).\n- **İdareye başvuru:** İYUK m. 10 henüz işlem yokken işlem/eylem talebidir; 30 gün cevap yoksa zımni ret. İYUK m. 11 mevcut işleme itirazdır; dava açma süresini **durdurur**, ret üzerine süre geçen kısım hesaba katılarak devam eder.\n- **Tam yargı yolları (İYUK m. 12):** doğrudan tam yargı, iptal ve tam yargının birlikte açılması veya önce iptal sonra tam yargı. İdari **eylemlerde** önce idareye başvuru şarttır: öğrenmeden 1 yıl, eylemden 5 yıl (İYUK m. 13).\n- **Dilekçe:** imzalı, tebliğ tarihi ve (tam yargıda) miktarı içeren dilekçe (İYUK m. 3). Her işleme ayrı dava, ancak bağlantılı işlemlere tek dilekçe (İYUK m. 5).\n- **İlk inceleme sırası (İYUK m. 14/3):** görev ve yetki, idari merci tecavüzü, ehliyet, kesin ve yürütülmesi gereken işlem, süre aşımı, husumet, İYUK m. 3 ve İYUK m. 5'e uygunluk. En geç 15 gün içinde bitirilir.\n- **İlk inceleme sonuçları (İYUK m. 15):** ehliyet, işlem ve süre eksikliğinde ret; yanlış hasımda gerçek hasma tebliğ; dilekçe eksiğinde 30 gün içinde yenileme için dilekçe reddi.\n- 📌 **7331 sayılı Kanun (2021):** İYUK m. 10, İYUK m. 11 ve İYUK m. 13'teki zımni ret/cevap süresi 60 günden 30 güne, İYUK m. 10'daki bekleme sınırı 6 aydan 4 aya indirildi. Eski kitaplarda 60 gün yazar.",
+  "content_md": "## 1. İdari davalar ve yargı yetkisinin sınırı\n\nİYUK m. 2/1'e göre idari dava türleri üçtür:\n\n| Dava | Kim açar? | Konu |\n|---|---|---|\n| İptal davası | Menfaati ihlal edilen | İdari işlemin hukuka aykırılığı |\n| Tam yargı davası | Kişisel hakkı doğrudan ihlal edilen | İdari eylem veya işlemden doğan zarar |\n| İdari sözleşme davası | Taraflar | Kamu hizmeti için yapılan idari sözleşme |\n\nİdari yargı yetkisi **hukuka uygunluk denetimiyle sınırlıdır**; idari mahkemeler yerindelik denetimi yapamaz, idarenin takdir yetkisini kaldıracak veya idari işlem niteliğinde karar veremez (İYUK m. 2/2; AY m. 125/4). Hâkim \"bu işlem daha uygun olurdu\" diyemez; iptal edilen işlemin yerine geçecek yeni bir işlem de kuramaz.\n\n## 2. İptal davası\n\nİptal davası, idari işlemi **yetki, şekil, sebep, konu ve maksat** yönlerinden birine aykırılık nedeniyle ortadan kaldırmayı amaçlar (İYUK m. 2/1-a). Dava, işlemden menfaati ihlal edilenler tarafından açılır. Açılabilmesi için iki şey aranır:\n\n1. **Kesin ve yürütülmesi gereken işlem:** hazırlık işlemleri, görüşler gibi hukuki durumu henüz değiştirmeyen işlemler dava konusu olmaz (İYUK m. 14/3-d).\n2. **Menfaat ihlali (ehliyet):** İYUK m. 14/3-c'deki \"ehliyet\" hem genel dava ehliyetini (taraf ve dava ehliyeti) hem de iptal davasına özgü menfaat şartını kapsar. Danıştay'ın yerleşik ifadesine göre menfaat **meşru, şahsi ve güncel** olmalıdır.\n\n> **Örnek:** Boğaziçi Üniversitesinde bir bölümün öğretim üyeleri, başka bir kişinin öğretim üyesi atanmasını iptal ettirmek istedi. Danıştay 8. Dairesi, aynı kurumda çalışmanın tek başına başkasının atanmasına karşı kişisel, meşru ve güncel menfaat doğurmadığını, davanın ehliyet yönünden reddi gerektiğini belirtti.\n\n## 3. Tam yargı davası ve iptalle ilişkisi\n\nTam yargı davası, idari eylem veya işlemden **kişisel hakları doğrudan** zarar görenlerce açılır (İYUK m. 2/1-b). Anayasal dayanağı AY m. 125'in son fıkrasıdır: idare kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür. Tam yargıda mahkeme zararın tazminine karar verir; iptal davasından farklı olarak dilekçede uyuşmazlık konusu miktar da gösterilir (İYUK m. 3/2-d).\n\nİYUK m. 12, idari **işlem** nedeniyle üç yol tanır:\n1. Doğrudan tam yargı davası açmak,\n2. İptal ve tam yargı davalarını birlikte açmak,\n3. Önce iptal davası açıp, karar (kanun yoluna gidilmişse oradaki karar) tebliğ edildikten veya işlem icra edildikten sonra dava süresi içinde tam yargı davası açmak.\n\nBu hâllerde İYUK m. 11 uyarınca idareye başvurma hakkı da saklıdır.\n\n> **Örnek:** Ali disiplin cezasının iptalini ve bu yüzden kesilen maaşların ödenmesini tek dilekçede isteyebilir (iptal ve tam yargı birlikte).\n\n### İdari eylemde ön başvuru zorunluluğu\nİdari **eylemden** hakları ihlal edilenler dava açmadan önce eylemi öğrendikleri tarihten itibaren **bir yıl** ve her hâlde eylem tarihinden itibaren **beş yıl** içinde idareye başvurmak zorundadır (İYUK m. 13/1). Başvuru reddedilirse ret işleminin tebliğini izleyen günden, otuz gün içinde cevap verilmezse bu sürenin bittiği tarihten itibaren dava süresi içinde dava açılır.\n\n> **Örnek:** Belediyenin açık bıraktığı çukura düşen Mehmet, önce belediyeye başvurmadan dava açarsa dava ilk incelemede reddedilir. Mehmet adli yargıya gitmiş ve dava görev yönünden reddedilmişse idari yargıda açacağı davada idareye başvuru şartı aranmaz (İYUK m. 13/2).\n\n> ⚠️ **Sınavda dikkat:** İYUK m. 13'teki bir yıl ve beş yıl **dava açma** süresi değil, idareye **başvuru** süresidir. Dava, başvurunun reddi veya zımni retten sonra genel dava süresi içinde açılır. İYUK m. 12 işlemden doğan zararı, İYUK m. 13 eylemden doğan zararı düzenler; işlemde İYUK m. 13 başvurusu aranmaz.\n\n## 4. Dava açma süreleri\n\n**Genel süre:** özel kanunda ayrı süre yoksa Danıştayda ve idare mahkemelerinde **altmış**, vergi mahkemelerinde **otuz gün** (İYUK m. 7/1). Süre, yazılı bildirimin yapıldığı tarihi izleyen günden başlar (İYUK m. 7/2-a; İYUK m. 8/1); bu kural anayasal güvence altındadır (AY m. 125/3). Devlet ayrıca işlemlerinde başvurulacak yolları, mercileri ve süreleri belirtmek zorundadır (AY m. 40/2).\n\n**Sürenin hesabı (İYUK m. 8):**\n- Tatil günleri sürelere dahildir.\n- Son gün tatile rastlarsa süre, tatili izleyen çalışma gününün bitimine kadar uzar.\n- Sürenin bitimi adli tatile rastlarsa süre, tatilin sona erdiği günü izleyen tarihten itibaren yedi gün uzamış sayılır.\n\n**İlan ve düzenleyici işlemler (İYUK m. 7/3 ve İYUK m. 7/4):**\n- Adresi belli olmayanlara ilanla bildirimde süre, son ilan tarihini izleyen günden itibaren on beş gün sonra işlemeye başlar.\n- İlanı gereken düzenleyici işlemlerde süre ilan tarihini izleyen günden başlar. Ancak uygulama üzerine ilgililer düzenleyici işleme, uygulama işlemine ya da ikisine birden dava açabilir; düzenleyici işlemin iptal edilmemiş olması uygulama işleminin iptaline engel değildir.\n\n> **Örnek:** Bakanlık yönetmeliğine dayanarak Ali'nin ödeneği kesildi. Ali yönetmeliğe, kesinti işlemine ya da ikisine birden dava açabilir.\n\n**Görevsiz yere başvuru (İYUK m. 9):** İdari yargıya ait dava adli yargıda görev yönünden reddedilirse kararın kesinleşmesini izleyen günden itibaren otuz gün içinde görevli mahkemede dava açılabilir; görevsiz yere başvuru tarihi idari yargıya başvuru tarihi sayılır. Otuz gün geçse bile idari dava süresi dolmamışsa o süre içinde dava açılabilir (İYUK m. 9/2).\n\n**Özel süreler:** İvedi yargılama usulünde (ihale işlemleri gibi) dava açma süresi otuz gündür ve İYUK m. 11 uygulanmaz (İYUK m. 20/A). MEB ve ÖSYM'nin merkezî sınavlarına ilişkin davalarda süre on gündür ve İYUK m. 11 yine uygulanmaz (İYUK m. 20/B).\n\n## 5. İdareye başvuru: İYUK m. 10 ve İYUK m. 11\n\nİki madde sık karıştırılır:\n\n| | İYUK m. 10 | İYUK m. 11 |\n|---|---|---|\n| Amaç | İşlem veya eylem yapılmasını istemek | Var olan işlemin kaldırılmasını istemek |\n| Sessizlik | 30 gün sonra zımni ret | 30 gün sonra zımni ret |\n| Süreye etkisi | Zımni retten itibaren dava süresi | Süreyi **durdurur** |\n\n**İYUK m. 10:** İlgili, henüz işlem yokken idareye başvurur. Otuz gün içinde cevap verilmezse istek reddedilmiş sayılır ve otuz günün bittiği tarihten itibaren dava açma süresi içinde dava açılabilir. Verilen cevap kesin değilse ilgili bunu ret sayabilir ya da kesin cevabı bekleyebilir; bekleme başvurudan itibaren dört ayı geçemez. Dava açılmamışsa veya süreden reddedilmişse ve otuz gün geçtikten sonra cevap verilirse, cevabın tebliğinden itibaren **altmış gün** içinde dava açılabilir.\n\n**İYUK m. 11:** Mevcut işlemin kaldırılması, geri alınması veya değiştirilmesi, dava açma süresi içinde üst makamdan (yoksa işlemi yapan makamdan) istenebilir. Başvuru, işlemeye başlamış süreyi **durdurur**. Otuz gün cevap gelmezse ret sayılır; ret veya zımni retten sonra süre yeniden işlemeye başlar ve başvuru tarihine kadar geçen süre hesaba katılır (İYUK m. 11/3). Yani süre baştan başlamaz.\n\n> **Örnek:** Memur Ayşe'ye nakil işlemi tebliğ edildi (altmış gün süre). Yirmi gün sonra bakanlığa itiraz etti. Bakanlık cevap vermezse otuz gün sonunda zımni ret doğar; Ayşe'nin geriye kalan kırk günü zımni retten itibaren işler.\n\n📌 **7331 sayılı Kanun (2021):** İYUK m. 10/2, İYUK m. 11/2 ve İYUK m. 13/1'deki cevap bekleme süresi altmış günden otuz güne, İYUK m. 10'daki bekleme sınırı altı aydan dört aya indirilmiştir. İYUK m. 10/2'nin son cümlesindeki altmış gün ise **değişmemiştir**; çünkü o, cevap süresi değil dava açma süresidir. Geçici hükme göre değişiklikten önce yapılmış başvurularda eski süreler uygulanır.\n\n## 6. Dilekçe ve birden fazla işlem\n\nDava, Danıştay veya idare/vergi mahkemesi başkanlığına hitaben yazılmış **imzalı** dilekçeyle açılır (İYUK m. 3/1). Dilekçede taraflar, T.C. kimlik numarası, davanın konu ve sebepleri ile delilleri, işlemin **yazılı bildirim tarihi** ve tam yargıda uyuşmazlık konusu miktar gösterilir (İYUK m. 3/2). Her idari işlem aleyhine ayrı dava açılır; aralarında maddi veya hukuki bağlılık ya da sebep-sonuç ilişkisi bulunan işlemlere karşı tek dilekçe verilebilir (İYUK m. 5/1).\n\n## 7. İlk inceleme\n\nMahkeme dilekçeyi, davaya geçmeden önce **sırasıyla** yedi yönden inceler (İYUK m. 14/3):\n\na) görev ve yetki, b) idari merci tecavüzü, c) ehliyet, d) kesin ve yürütülmesi gereken işlem, e) süre aşımı, f) husumet, g) İYUK m. 3 ve İYUK m. 5'e uygunluk.\n\nİnceleme dilekçenin alındığı tarihten itibaren en geç **on beş gün** içinde sonuçlandırılır (İYUK m. 14/4). Eksiklik sonradan anlaşılırsa davanın her aşamasında İYUK m. 15 uygulanır (İYUK m. 14/6). Sonuçlar:\n\n| Eksiklik | İYUK m. 15'e göre karar |\n|---|---|\n| Görev/yetki | Ret veya dosyanın gönderilmesi |\n| Ehliyet, işlem, süre | Davanın reddi |\n| Yanlış veya eksik hasım | Gerçek hasma tebliğ |\n| İYUK m. 3 ve İYUK m. 5 eksiği | 30 gün içinde yenilemek üzere dilekçe reddi |\n| İdari merci tecavüzü | Dilekçenin görevli idari merciye gönderilmesi |\n\nAyrıntılar: İdari merci tecavüzünde mahkemeye başvuru tarihi, merciine başvuru tarihi sayılır (İYUK m. 15/2). Dilekçe reddi sonrası yeni dilekçeden harç alınmaz (İYUK m. 15/3); yeni dilekçede aynı yanlışlıklar yapılırsa dava reddedilir (İYUK m. 15/5). Avukat olmayan vekille açılan davada da otuz gün içinde bizzat veya avukatla dava açılmak üzere dilekçe reddedilir (İYUK m. 15/1-d).\n\n> ⚠️ **Sınavda dikkat:** Ehliyet ve süre aşımında **ret**, yanlış hasımda **ret değil, gerçek hasma tebliğ** kararı verilir. Menfaat şartı ayrı bir bent değildir; \"ehliyet\" içinde incelenir.\n\n## 8. Denetim şeması\n\n1. Dava türü: iptal mi, tam yargı mı, ikisi birlikte mi? (İYUK m. 2, İYUK m. 12)\n2. Dava konusu kesin ve yürütülmesi gereken işlem mi? Eylemse İYUK m. 13 başvurusu yapıldı mı?\n3. Davacının menfaati veya hakkı var mı?\n4. Özel süre var mı (ivedi usul, sınav), yoksa 60/30 gün mü? Süre ne zaman başladı? (bildirim, ilan, öğrenme)\n5. İYUK m. 10 veya İYUK m. 11 başvurusu süreye nasıl etki etti?\n6. Hasım doğru mu, dilekçe İYUK m. 3 ve İYUK m. 5'e uygun mu?",
+  "critical_md": "- 📌 İdari dava türleri: iptal (menfaat ihlali), tam yargı (kişisel hakların doğrudan ihlali), idari sözleşme davaları (İYUK m. 2/1).\n- 📌 İdari yargı yerindelik denetimi yapamaz, idari işlem niteliğinde karar veremez (İYUK m. 2/2; AY m. 125/4).\n- 📌 Genel dava açma süresi: Danıştay ve idare mahkemelerinde 60, vergi mahkemelerinde 30 gün (İYUK m. 7/1). Başlangıç: yazılı bildirimi izleyen gün (İYUK m. 7/2-a).\n- 📌 Tatil günleri süreye dahildir; son gün tatilse süre izleyen çalışma gününün bitimine uzar; adli tatilde bitiyorsa tatilin bitişini izleyen günden itibaren 7 gün uzar (İYUK m. 8).\n- 📌 İlanı gereken düzenleyici işlemde süre ilanı izleyen günden başlar; uygulama işlemi, düzenleyici işlem veya ikisi birden dava edilebilir (İYUK m. 7/4).\n- 📌 İYUK m. 10: cevap süresi 30 gündür, zımni ret doğar; bekleme sınırı başvurudan itibaren 4 aydır. Geç cevapta cevabın tebliğinden itibaren 60 gün içinde dava açılır.\n- ⚠️ İYUK m. 11 başvurusu süreyi **durdurur**, kesmez; ret üzerine süre baştan başlamaz, geçen süre hesaba katılır (İYUK m. 11/3).\n- ⚠️ Eski kitaplarda zımni ret süresi 60 gün yazar; 7331 sayılı Kanundan sonra 30 gündür. İYUK m. 10/2'nin son cümlesindeki 60 gün değişmemiştir.\n- 📌 İdari eylemde dava öncesi idareye başvuru zorunludur: öğrenmeden 1 yıl, eylemden 5 yıl (İYUK m. 13/1). Görevsiz adli yargıda açılıp reddedilen tam yargı davasından sonra bu şart aranmaz (İYUK m. 13/2).\n- ⚠️ İYUK m. 12 işlemden, İYUK m. 13 eylemden doğan zarar içindir; ön başvuru zorunluluğu yalnız eylemde vardır.\n- 📌 İlk inceleme sırası: görev-yetki, idari merci tecavüzü, ehliyet, kesin ve yürütülmesi gereken işlem, süre aşımı, husumet, İYUK m. 3 ve İYUK m. 5 (İYUK m. 14/3). Süre en geç 15 gündür.\n- ⚠️ Yanlış hasım ret nedeni değildir; dilekçe gerçek hasma tebliğ edilir (İYUK m. 15/1-c). Ehliyet, işlem ve süre aşımı ise ret nedenidir (İYUK m. 15/1-b).\n- 📌 İvedi yargılamada dava açma süresi 30 gündür ve İYUK m. 11 uygulanmaz (İYUK m. 20/A); MEB ve ÖSYM sınavlarında süre 10 gündür (İYUK m. 20/B).",
+  "doctrine_md": "### Bildirilmemiş özel sürede hangi süre işler?\nBazı işlemlere kanun özel bir dava açma süresi koyar (ör. ivedi yargılamada otuz gün). İdare bu süreyi işlemde göstermemişse, hangi sürenin uygulanacağı tartışmalıdır. Bir görüşe göre işlem kanunen özel süreye tabi olduğundan idare bildirmemiş olsa da özel süre uygulanır. Karşı görüşe göre Anayasa'nın yazılı bildirim ve idarenin başvuru yollarını gösterme zorunluluğu (AY m. 40/2 ve AY m. 125/3) gereği, süre gösterilmediyse genel süre işler. Danıştay'ın içtihadı birleştiren bir kararı, yazılı bildirilen ama süresi gösterilmeyen işlemlerde genel süreyi uygulamıştır; hiç bildirilmemiş, sonradan öğrenilen işlemlerde ise Daire kararları arasında ayrılık vardır. Bu nedenle bu konu kesin kural olarak değil, tartışma olarak bilinmelidir.\n\n### Menfaat ilişkisinin genişliği\nİptal davasında kişisel, meşru ve güncel menfaat şartı yerleşiktir. Ancak dernek, meslek kuruluşu, çevre ve imar davalarında bu şartın ne kadar geniş yorumlanacağı olaya göre değişir. Bir görüş, iptal davası objektif hukuku koruduğundan geniş yorumu savunur; karşı görüş davanın herkese açık bir davaya dönüşmemesi için sınırlamadan yanadır.\n\n### Davaların niteliği\nÖğretide iptal davası genellikle **objektif** (hukuka uygunluğu koruyan), tam yargı davası **sübjektif** (kişisel hakkı koruyan) dava olarak nitelenir. Madde metninde bu ifadeler geçmez; sınıflandırma öğreti ve içtihat çerçevesindedir.",
+  "glossary": [
+   {
+    "term": "İptal davası",
+    "definition": "Menfaati ihlal edilen kişinin, idari işlemi yetki, şekil, sebep, konu veya maksat yönünden hukuka aykırılık nedeniyle iptal ettirmek için açtığı dava (İYUK m. 2/1-a)."
+   },
+   {
+    "term": "Tam yargı davası",
+    "definition": "İdari eylem veya işlemden kişisel hakları doğrudan zarar gören kişinin, zararın giderilmesi için açtığı dava (İYUK m. 2/1-b)."
+   },
+   {
+    "term": "Menfaat ihlali",
+    "definition": "İptal davasının dava açma şartı; kişisel, meşru ve güncel bir menfaatin işlemle zedelenmesi."
+   },
+   {
+    "term": "Kesin ve yürütülmesi gereken işlem",
+    "definition": "Hukuki durumu tek yanlı olarak değiştiren, icra edilebilir idari işlem; hazırlık işlemi ve görüş bu nitelikte değildir."
+   },
+   {
+    "term": "Zımni ret",
+    "definition": "İdarenin otuz gün içinde cevap vermemesinin istemin reddedilmiş sayılması sonucunu doğurması (İYUK m. 10/2, İYUK m. 11/2)."
+   },
+   {
+    "term": "Süreyi durdurma",
+    "definition": "İYUK m. 11 başvurusu sırasında işlemeye başlamış dava açma süresinin işlemesinin durması; ret üzerine kalan süre devam eder."
+   },
+   {
+    "term": "Husumet",
+    "definition": "Davanın doğru davalıya (işlemi yapan idareye) yöneltilmiş olması."
+   },
+   {
+    "term": "İdari merci tecavüzü",
+    "definition": "Önce idari merciin çözmesi gereken bir işin doğrudan mahkemeye getirilmesi; dilekçe görevli idari merciye gönderilir (İYUK m. 15/1-e)."
+   },
+   {
+    "term": "İvedi yargılama usulü",
+    "definition": "İhale işlemleri gibi sayılan işlemlerde uygulanan, dava süresi otuz gün olan ve İYUK m. 11'in uygulanmadığı hızlı usul (İYUK m. 20/A)."
+   },
+   {
+    "term": "Düzenleyici işlem",
+    "definition": "Genel ve soyut kural koyan idari işlem; ilanıyla süre başlar ve uygulama işlemiyle birlikte dava konusu yapılabilir."
+   },
+   {
+    "term": "Dilekçe reddi",
+    "definition": "İYUK m. 3 ve İYUK m. 5'e aykırı dilekçenin otuz gün içinde yenilenmek üzere reddedilmesi; yeni dilekçeden harç alınmaz (İYUK m. 15/1-d, 15/3)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "40",
+   "official_text": "XV. Temel hak ve hürriyetlerin korunması\nMadde 40 – Anayasa ile tanınmış hak ve hürriyetleri ihlal edilen herkes, yetkili makama geciktirilmeden başvurma imkanının sağlanmasını isteme hakkına sahiptir.\n(Ek fıkra: 3/10/2001-4709/16 md.) Devlet, işlemlerinde, ilgili kişilerin hangi kanun yolları ve mercilere başvuracağını ve sürelerini belirtmek zorundadır.\nKişinin, Resmî görevliler tarafından vaki haksız işlemler sonucu uğradığı zarar da, kanuna göre, Devletçe tazmin edilir. Devletin sorumlu olan ilgili görevliye rücu hakkı saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "125",
+   "official_text": "B. Yargı yolu\nMadde 125 – İdarenin her türlü eylem ve işlemlerine karşı yargı yolu açıktır. (Ek hüküm: 13/8/1999-4446/2 md.) Kamu hizmetleri ile ilgili imtiyaz şartlaşma ve sözleşmelerinde bunlardan doğan uyuşmazlıkların milli veya milletlerarası tahkim yoluyla çözülmesi öngörülebilir. Milletlerarası tahkime ancak yabancılık unsuru taşıyan uyuşmazlıklar için gidilebilir.\n(…) (Ek cümle: 7/5/2010-5982/11 md.) (…)[68] Yüksek Askerî Şûranın terfi işlemleri ile kadrosuzluk nedeniyle emekliye ayırma hariç her türlü ilişik kesme kararlarına karşı yargı yolu açıktır.\nİdari işlemlere karşı açılacak davalarda süre, yazılı bildirim tarihinden başlar.\n(Değişik birinci cümle: 7/5/2010-5982/11 md.) Yargı yetkisi, idarî eylem ve işlemlerin hukuka uygunluğunun denetimi ile sınırlı olup, hiçbir surette yerindelik denetimi şeklinde kullanılamaz. Yürütme görevinin kanunlarda gösterilen şekil ve esaslara uygun olarak yerine getirilmesini kısıtlayacak, idari eylem ve işlem niteliğinde veya takdir yetkisini kaldıracak biçimde yargı kararı verilemez.\nİdari işlemin uygulanması halinde telafisi güç veya imkansız zararların doğması ve idari işlemin açıkça hukuka aykırı olması şartlarının birlikte gerçekleşmesi durumunda gerekçe gösterilerek yürütmenin durdurulmasına karar verilebilir.\nKanun, olağanüstü hallerde, (…)[69] seferberlik ve savaş halinde ayrıca milli güvenlik, kamu düzeni, genel sağlık nedenleri ile yürütmenin durdurulması kararı verilmesini sınırlayabilir.\nİdare, kendi eylem ve işlemlerinden doğan zararı ödemekle yükümlüdür.\n[68] 21/1/2017 tarihli ve 6771 sayılı Kanunun 16 ncı maddesiyle, bu fıkrada yer alan “Cumhurbaşkanının tek başına yapacağı işlemler ile Yüksek Askerî Şuranın kararları yargı denetimi dışındadır. Ancak,” ibaresi madde metninden çıkarılmıştır.\n[69] 21/1/2017 tarihli ve 6771 sayılı Kanunun 16 ncı maddesiyle, bu fıkrada yer alan “sıkıyönetim,” ibaresi madde metninden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "2",
+   "official_text": "İdari dava türleri ve idari yargı yetkisinin sınırı:\nMadde 2 – 1. (Değişik: 10/6/1994-4001/1 md.) İdari dava türleri şunlardır:\na) (İptal: Anayasa Mahkemesinin 21/9/1995 tarihli ve E:1995/27, K:1995/47 sayılı kararı ile; Yeniden Düzenleme: 8/6/2000-4577/5 md.) İdarî işlemler hakkında yetki, şekil, sebep, konu ve maksat yönlerinden biri ile hukuka aykırı olduklarından dolayı iptalleri için menfaatleri ihlâl edilenler tarafından açılan iptal davaları,\nb) İdari eylem ve işlemlerden dolayı kişisel hakları doğrudan muhtel olanlar tarafından açılan tam yargı davaları,\nc) (Değişik: 18/12/1999-4492/6 md.) Tahkim yolu öngörülen imtiyaz şartlaşma ve sözleşmelerinden doğan uyuşmazlıklar hariç, kamu hizmetlerinden birinin yürütülmesi için yapılan her türlü idari sözleşmelerden dolayı taraflar arasında çıkan uyuşmazlıklara ilişkin davalar.\n2. İdari yargı yetkisi, idari eylem ve işlemlerin hukuka uygunluğunun denetimi ile sınırlıdır. İdari mahkemeler; yerindelik denetimi yapamazlar, yürütme görevinin kanunlarda ve Cumhurbaşkanlığı Kararnamelerinde gösterilen şekil ve esaslara uygun olarak yerine getirilmesini kısıtlayacak, idari eylem ve işlem niteliğinde veya idarenin takdir yetkisini kaldıracak biçimde yargı kararı veremezler.[3]\n3. (Mülga: 2/7/2018 - KHK-703/185 md.)\n[3] 2/7/2018 tarihli ve 703 sayılı Kanun Hükmünde Kararnamenin 185 inci maddesiyle bu fıkrada yer alan “kanunlarda” ibaresinden sonra gelmek üzere “ve Cumhurbaşkanlığı kararnamelerinde” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "3",
+   "official_text": "İdari davaların açılması:\nMadde 3 – 1. (Değişik: 10/6/1994-4001/2 md.) İdari davalar, Danıştay, idare mahkemesi ve vergi mahkemesi başkanlıklarına hitaben yazılmış imzalı dilekçelerle açılır.\n2. Dilekçelerde;\na) Tarafların ve varsa vekillerinin veya temsilcilerinin ad ve soyadları veya unvanları ve adresleri ile gerçek kişilere ait Türkiye Cumhuriyeti kimlik numarası,[4]\nb) Davanın konu ve sebepleri ile dayandığı deliller,\nc) Davaya konu olan idari işlemin yazılı bildirim tarihi,\nd) Vergi, resim, harç, benzeri mali yükümler ve bunların zam ve cezalarına ilişkin davalarla tam yargı davalarında uyuşmazlık konusu miktar,\ne) Vergi davalarında davanın ilgili bulunduğu verginin veya vergi cezasının nevi ve yılı, tebliğ edilen ihbarnamenin tarihi ve numarası ve varsa mükellef hesap numarası,\nGösterilir.\n3. Dava konusu kararın ve belgelerin asılları veya örnekleri dava dilekçesine eklenir. Dilekçeler ile bunlara ekli evrakın örnekleri karşı taraf sayısından bir fazla olur.\n[4] 2/7/2012 tarihli ve 6352 sayılı Kanunun 51 inci maddesi ile bu bendin sonuna “ile gerçek kişilere ait Türkiye Cumhuriyeti kimlik numarası,” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "5",
+   "official_text": "Aynı dilekçe ile dava açılabilecek haller:\nMadde 5 – (Değişik: 10/6/1994-4001/3 md.) 1. Her idari işlem aleyhine ayrı ayrı dava açılır. Ancak, aralarında maddi veya hukuki yönden bağlılık yada sebep-sonuç ilişkisi bulunan birden fazla işleme karşı bir dilekçe ile de dava açılabilir.\n2. Birden fazla şahsın müşterek dilekçe ile dava açabilmesi için davacıların hak veya menfaatlerinde iştirak bulunması ve davaya yol açan maddi olay veya hukuki sebeplerin aynı olması gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "7",
+   "official_text": "Dava açma süresi:\nMadde 7 – 1. Dava açma süresi, özel kanunlarında ayrı süre gösterilmeyen hallerde Danıştayda ve idare mahkemelerinde altmış ve vergi mahkemelerinde otuz gündür.\n2. Bu süreler;\na) İdari uyuşmazlıklarda; yazılı bildirimin yapıldığı,\nb) Vergi, resim ve harçlar ile benzeri mali yükümler ve bunların zam ve cezalarından doğan uyuşmazlıklarda: Tahakkuku tahsile bağlı olan vergilerde tahsilatın; tebliğ yapılan hallerde veya tebliğ yerine geçen işlemlerde tebliğin; tevkif yoluyla alınan vergilerde istihkak sahiplerine ödemenin; tescile bağlı vergilerde tescilin yapıldığı ve idarenin dava açması gereken konularda ise ilgili merci veya komisyon kararının idareye geldiği;\nTarihi izleyen günden başlar.\n3. Adresleri belli olmayanlara özel kanunlarındaki hükümlere göre ilan yoluyla bildirim yapılan hallerde, özel kanununda aksine bir hüküm bulunmadıkça süre, son ilan tarihini izleyen günden itibaren onbeş gün sonra işlemeye başlar.\n4. İlanı gereken düzenleyici işlemlerde dava süresi, ilan tarihini izleyen günden itibaren başlar. Ancak bu işlemlerin uygulanması üzerine ilgililer, düzenleyici işlem veya uygulanan işlem yahut her ikisi aleyhine birden dava açabilirler. Düzenleyici işlemin iptal edilmemiş olması bu düzenlemeye dayalı işlemin iptaline engel olmaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "8",
+   "official_text": "Sürelerle ilgili genel esaslar\nMadde 8 – 1. Süreler, tebliğ, yayın veya ilan tarihini izleyen günden itibaren işlemeye başlar.\n2. Tatil günleri sürelere dahildir. Şu kadarki, sürenin son günü tatil gününe rastlarsa, süre tatil gününü izleyen çalışma gününün bitimine kadar uzar.\n3. Bu Kanunda yazılı sürelerin bitmesi çalışmaya ara verme zamanına rastlarsa bu süreler, ara vermenin sona erdiği günü izleyen tarihten itibaren yedi gün uzamış sayılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "9",
+   "official_text": "Görevli olmayan yerlere başvurma:\nMadde 9 – 1. (Değişik: 5/4/1990-3622/2 md.) Çözümlenmesi Danıştayın, idare ve vergi mahkemelerinin görevlerine girdiği halde, adli (…)[6] yargı yerlerine açılmış bulunan davaların görev noktasından reddi halinde, bu husustaki kararların kesinleşmesini izleyen günden itibaren otuz gün içinde görevli mahkemede dava açılabilir. Görevsiz yargı merciine başvurma tarihi, Danıştaya, idare ve vergi mahkemelerine başvurma tarihi olarak kabul edilir.\n2. Adli (…)6 yargı yerlerine açılan ve görevsizlik sebebiyle reddedilen davalarda, görevsizlik kararının kesinleşmesinden sonra birinci fıkrada yazılı otuz günlük süre geçirilmiş olsa dahi, idari dava açılması için öngörülen süre henüz dolmamış ise bu süre içinde idari dava açılabilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "10",
+   "official_text": "İdari makamların sükutu:\nMadde 10 – 1. İlgililer, haklarında idari davaya konu olabilecek bir işlem veya eylemin yapılması için idari makamlara başvurabilirler.\n2. (Değişik: 10/6/1994-4001/5 md.) Otuz gün içinde bir cevap verilmezse istek reddedilmiş sayılır. İlgililer otuz günün bittiği tarihten itibaren dava açma süresi içinde, konusuna göre Danıştaya, idare ve vergi mahkemelerine dava açabilirler. Otuz günlük süre içinde idarece verilen cevap kesin değilse ilgili bu cevabı, isteminin reddi sayarak dava açabileceği gibi, kesin cevabı da bekleyebilir. Bu takdirde dava açma süresi işlemez. Ancak, bekleme süresi başvuru tarihinden itibaren dört ayı geçemez. Dava açılmaması veya davanın süreden reddi hallerinde, otuz günlük sürenin bitmesinden sonra yetkili idari makamlarca cevap verilirse, cevabın tebliğinden itibaren altmış gün içinde dava açabilirler.[7]\n3. (Mülga: 10/6/1994-4001/5 md.)\n[7] 8/7/2021 tarihli ve 7331 sayılı Kanunun 1 inci maddesiyle bu fıkranın birinci ve üçüncü cümlelerinde yer alan “Altmış” ibareleri “Otuz” şeklinde, ikinci cümlesinde yer alan “altmış” ibaresi “otuz” şeklinde, beşinci cümlesinde yer alan “altı” ibaresi “dört” şeklinde ve altıncı cümlesinde yer alan “altmış günlük” ibaresi “otuz günlük” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "11",
+   "official_text": "Üst makamlara başvurma:\nMadde 11 – 1. İlgililer tarafından idari dava açılmadan önce, idari işlemin kaldırılması, geri alınması, değiştirilmesi veya yeni bir işlem yapılması üst makamdan, üst makam yoksa işlemi yapmış olan makamdan, idari dava açma süresi içinde istenebilir. Bu başvurma, işlemeye başlamış olan idari dava açma süresini durdurur.\n2. Otuz gün içinde bir cevap verilmezse istek reddedilmiş sayılır.[8]\n3. İsteğin reddedilmesi veya reddedilmiş sayılması halinde dava açma süresi yeniden işlemeye başlar ve başvurma tarihine kadar geçmiş süre de hesaba katılır.\n4. (Mülga: 10/6/1994-4001/6 md.)\n[8] 8/7/2021 tarihli ve 7331 sayılı Kanunun 2 nci maddesiyle bu fıkrada yer alan “Altmış” ibaresi “Otuz” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "12",
+   "official_text": "İptal ve tam yargı davaları:\nMadde 12 – İlgililer haklarını ihlal eden bir idari işlem dolayısıyla Danıştaya ve idare ve vergi mahkemelerine doğrudan doğruya tam yargı davası veya iptal ve tam yargı davalarını birlikte açabilecekleri gibi ilk önce iptal davası açarak bu davanın karara bağlanması üzerine, bu husustaki kararın veya kanun yollarına başvurulması halinde verilecek kararın tebliği veya bir işlemin icrası sebebiyle doğan zararlardan dolayı icra tarihinden itibaren dava süresi içinde tam yargı davası açabilirler. Bu halde de ilgililerin 11 nci madde uyarınca idareye başvurma hakları saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "13",
+   "official_text": "Doğrudan doğruya tam yargı davası açılması:\nMadde 13 – 1. İdari eylemlerden hakları ihlal edilmiş olanların idari dava açmadan önce, bu eylemleri yazılı bildirim üzerine veya başka süretle öğrendikleri tarihten itibaren bir yıl ve her halde eylem tarihinden itibaren beş yıl içinde ilgili idareye başvurarak haklarının yerine getirilmesini istemeleri gereklidir. Bu isteklerin kısmen veya tamamen reddi halinde, bu konudaki işlemin tebliğini izleyen günden itibaren veya istek hakkında otuz gün içinde cevap verilmediği takdirde bu sürenin bittiği tarihten itibaren, dava süresi içinde dava açılabilir.[9]\n2. Görevli olmayan adli (…)[10] yargı mercilerine açılan tam yargı davasının görev yönünden reddi halinde sonradan idari yargı mercilerine açılacak davalarda, birinci fıkrada öngörülen idareye başvurma şartı aranmaz.\n[9] 8/7/2021 tarihli ve 7331 sayılı Kanunun 3 üncü maddesiyle bu fıkrada yer alan “altmış” ibaresi “otuz” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "14",
+   "official_text": "Dilekçeler üzerine ilk inceleme:\nMadde 14 – 1. Dilekçeler Danıştayda Evrak Müdürlüğünce kaydedilir ve Genel Sekreterlikçe görevli dairelere havale olunur.\n2. (Değişik: 2/7/2012-6352/53 md.) Bölge idare, idare ve vergi mahkemelerinde dilekçeler, evrak bürosunca kaydedilerek ilgili mahkemelere havale olunur. Dilekçe sahibine evrakın tarih ve sayısını gösterir ücretsiz bir alındı kâğıdı verilir.\n3. (Değişik: 5/4/1990-3622/5 md.) Dilekçeler, Danıştayda daire başkanının görevlendireceği bir tetkik hakimi, idare ve vergi mahkemelerinde ise mahkeme başkanı veya görevlendireceği bir üye tarafından:\na) Görev ve yetki,\nb) İdari merci tecavüzü,\nc) Ehliyet,\nd) İdari davaya konu olacak kesin ve yürütülmesi gereken bir işlem olup olmadığı,\ne) Süre aşımı,\nf) Husumet,\ng) 3 ve 5 inci maddelere uygun olup olmadıkları,\nYönlerinden sırasıyla incelenir.\n4. (Değişik: 5/4/1990-3622/5 md.) Dilekçeler bu yönlerden kanuna aykırı görülürse durum; görevli daire veya mahkemeye bir rapor ile bildirilir. Tek hakimle çözümlenecek dava dilekçeleri için rapor düzenlenmez ve 15 inci madde hükümleri ilgili hakim tarafından uygulanır. 3 üncü fıkraya göre yapılacak inceleme ve bu fıkra ile 5 inci fıkraya göre yapılacak işlemler dilekçenin alındığı tarihten itibaren en geç onbeş gün içinde sonuçlandırılır.\n5. İlk incelemeyi yapanlar, bu noktalardan kanuna aykırılık görmezler veya daire veya mahkeme tarafından ilk inceleme raporu yerinde görülmezse, tebligat işlemi yapılır.\n6. Yukarıdaki hususların ilk incelemeden sonra tespit edilmesi halinde de davanın her safhasında 15 nci madde hükmü uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "15",
+   "official_text": "İlk inceleme üzerine verilecek karar:\nMadde 15 – 1. (Değişik: 5/4/1990-3622/6 md.) Danıştay veya idare ve vergi mahkemelerince yukarıdaki maddenin 3 üncü fıkrasında yazılı hususlarda kanuna aykırılık görülürse, 14 üncü maddenin;\na) 3/a bendine göre adli (…)[11] yargının görevli olduğu konularda açılan davaların reddine; idari yargının görevli olduğu konularda ise görevli veya yetkili olmayan mahkemeye açılan davanın görev veya yetki yönünden reddedilerek dava dosyasının görevli veya yetkili mahkemeye gönderilmesine,\nb) 3/c, 3/d ve 3/e bentlerinde yazılı hallerde davanın reddine,\nc) 3/f bendine göre, davanın hasım gösterilmeden veya yanlış hasım gösterilerek açılması halinde, dava dilekçesinin tespit edilecek gerçek hasma tebliğine,\nd) 3/g bendinde yazılı halde otuzgün içinde 3 ve 5 inci maddelere uygun şekilde yeniden düzenlenmek veya noksanları tamamlanmak yahut (c) bendinde yazılı hallerde, ehliyetli olan şahsın avukat olmayan vekili tarafından dava açılmış ise otuzgün içinde bizzat veya bir avukat vasıtasıyla dava açılmak üzere dilekçelerin reddine,\ne) 3/b bendinde yazılı halde dilekçelerin görevli idare merciine tevdiine,\nKarar verilir.\n2. Dilekçelerin görevli mercie tevdii halinde, Danıştaya veya ilgili mahkemeye başvurma tarihi, merciine başvurma tarihi olarak kabul edilir.\n3. Dilekçelerin 3 ncü maddeye uygun olmamaları dolayısıyla reddi halinde yeni dilekçeler için ayrıca harç alınmaz.\n4. (Değişik: 10/6/1994-4001/7 md.) İlk inceleme üzerine Danıştay veya mahkemelerce verilen; bu maddenin 1/a bendinde belirtilen idari yargının görevli olduğu konularda davanın görev ve yetki yönünden reddine ilişkin kararlarla, 1/c bendinde yazılı gerçek hasma tebliğ ve 1/d bendindeki dilekçe red kararları dışında, ilgisine göre istinaf ya da temyiz yoluna başvurulabilir.[12]\n5. (Ek: 5/4/1990-3622/6 md.) 1 inci fıkranın (d) bendine göre dilekçenin reddedilmesi üzerine, yeniden verilen dilekçelerde aynı yanlışlıklar yapıldığı takdirde dava reddedilir.\n[12] 18/6/2014 tarihli ve 6545 sayılı Kanunun 15 inci maddesiyle, bu fıkrada yer alan “kararın düzeltilmesi veya temyiz yoluna; tek hâkim kararına karşı ise itiraz yoluna” ibaresi “ilgisine göre istinaf ya da temyiz yoluna” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "20/A",
+   "official_text": "Madde 20/A – (Ek: 18/6/2014-6545/18 md.)\n1. İvedi yargılama usulü aşağıda sayılan işlemlerden doğan uyuşmazlıklar hakkında uygulanır:\na) İhaleden yasaklama kararları hariç ihale işlemleri.\nb) Acele kamulaştırma işlemleri.\nc) Özelleştirme Yüksek Kurulu kararları.\nd) 12/3/1982 tarihli ve 2634 sayılı Turizmi Teşvik Kanunu uyarınca yapılan satış, tahsis ve kiralama işlemleri.\ne) 9/8/1983 tarihli ve 2872 sayılı Çevre Kanunu uyarınca, idari yaptırım kararları hariç çevresel etki değerlendirmesi sonucu alınan kararlar.\nf) 16/5/2012 tarihli ve 6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun uyarınca alınan Cumhurbaşkanı kararları.[18]\n2. İvedi yargılama usulünde:\na) Dava açma süresi otuz gündür.\nb) Bu Kanunun 11 inci maddesi hükümleri uygulanmaz.\nc) Yedi gün içinde ilk inceleme yapılır ve dava dilekçesi ile ekleri tebliğe çıkarılır.\nd) Savunma süresi dava dilekçesinin tebliğinden itibaren on beş gün olup, bu süre bir defaya mahsus olmak üzere en fazla on beş gün uzatılabilir. Savunmanın verilmesi veya savunma verme süresinin geçmesiyle dosya tekemmül etmiş sayılır.\ne) Yürütmenin durdurulması talebine ilişkin olarak verilecek kararlara itiraz edilemez.\nf) Bu davalar dosyanın tekemmülünden itibaren en geç bir ay içinde karara bağlanır. Ara kararı verilmesi, keşif, bilirkişi incelemesi ya da duruşma yapılması gibi işlemler ivedilikle sonuçlandırılır.\ng) Verilen nihai kararlara karşı tebliğ tarihinden itibaren on beş gün içinde temyiz yoluna başvurulabilir.\nh) Temyiz dilekçeleri üç gün içinde incelenir ve tebliğe çıkarılır. Bu Kanunun 48 inci maddesinin bu maddeye aykırı olmayan hükümleri kıyasen uygulanır.\nı) Temyiz dilekçelerine cevap verme süresi on beş gündür.\ni) Danıştay evrak üzerinde yaptığı inceleme sonunda, maddi vakıalar hakkında edinilen bilgiyi yeterli görürse veya temyiz sadece hukuki noktalara ilişkin ise yahut temyiz olunan karardaki maddi yanlışlıkların düzeltilmesi mümkün ise işin esası hakkında karar verir. Aksi hâlde gerekli inceleme ve tahkikatı kendisi yaparak esas hakkında yeniden karar verir. Ancak, ilk inceleme üzerine verilen kararlara karşı yapılan temyizi haklı bulduğu hâllerde kararı bozmakla birlikte dosyayı geri gönderir. Temyiz üzerine verilen kararlar kesindir.\nj) Temyiz istemi en geç iki ay içinde karara bağlanır. Karar en geç bir ay içinde tebliğe çıkarılır.\nMerkezî ve ortak sınavlara ilişkin yargılama usulü:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "İDARİ YARGILAMA USULÜ KANUNU",
+   "law_no": "2577",
+   "article_no": "20/B",
+   "official_text": "Madde 20/B – (Ek: 10/9/2014-6552/96 md.)\n1. Millî Eğitim Bakanlığı ile Ölçme, Seçme ve Yerleştirme Merkezi tarafından yapılan merkezî ve ortak sınavlar, bu sınavlara ilişkin iş ve işlemler ile sınav sonuçları hakkında açılan davalara ilişkin yargılama usulünde:\na) Dava açma süresi on gündür.\nb) Bu Kanunun 11 inci maddesi hükümleri uygulanmaz.\nc) Yedi gün içinde ilk inceleme yapılır ve dava dilekçesi ile ekleri tebliğe çıkarılır.\nç) Savunma süresi dava dilekçesinin tebliğinden itibaren üç gün olup, bu süre bir defaya mahsus olmak üzere en fazla üç gün uzatılabilir. Savunmanın verilmesi veya savunma verme süresinin geçmesiyle dosya tekemmül etmiş sayılır.\nd) Yürütmenin durdurulması talebine ilişkin olarak verilecek kararlara itiraz edilemez.\ne) Bu davalar dosyanın tekemmülünden itibaren en geç on beş gün içinde karara bağlanır. Ara kararı verilmesi, keşif, bilirkişi incelemesi ya da duruşma yapılması gibi işlemler ivedilikle sonuçlandırılır.\nf) Verilen nihai kararlara karşı tebliğ tarihinden itibaren beş gün içinde temyiz yoluna başvurulabilir.\ng) Temyiz dilekçeleri üç gün içinde incelenir ve tebliğe çıkarılır. Bu Kanunun 48 inci maddesinin bu maddeye aykırı olmayan hükümleri kıyasen uygulanır.\nğ) Temyiz dilekçelerine cevap verme süresi beş gündür.\nh) Danıştay evrak üzerinde yaptığı inceleme sonunda, maddi vakalar hakkında edinilen bilgiyi yeterli görürse veya temyiz sadece hukuki noktalara ilişkin ise yahut temyiz olunan karardaki maddi yanlışlıkların düzeltilmesi mümkün ise işin esası hakkında karar verir. Aksi hâlde gerekli inceleme ve tahkikatı kendisi yaparak esas hakkında yeniden karar verir. Ancak, ilk inceleme üzerine verilen kararlara karşı yapılan temyizi haklı bulduğu hâllerde kararı bozmakla birlikte dosyayı geri gönderir. Temyiz üzerine verilen kararlar kesindir.\nı) Temyiz istemi en geç on beş gün içinde karara bağlanır. Karar en geç yedi gün içinde tebliğe çıkarılır.\n2. Millî Eğitim Bakanlığı ile Ölçme, Seçme ve Yerleştirme Merkezi tarafından yapılan merkezî ve ortak sınavlar, bu sınavlara ilişkin iş ve işlemler ile sınav sonuçları hakkında açılan davalarda verilen yürütmenin durdurulması ve iptal kararları, söz konusu sınava katılan kişilerin lehine sonuç doğuracak şekilde uygulanır.\nAskerî hizmete ilişkin idari işlem ve eylemlerden doğan uyuşmazlıklara dair hükümler:",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2577&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Danıştay 13. Daire",
+   "chamber": "Danıştay 13. Daire",
+   "esas_no": "2025/2523",
+   "karar_no": "2026/237",
+   "decision_date": "28.01.2026",
+   "summary_md": "Büyükşehir belediyesinin taşınmazı 2886 sayılı Kanuna göre kapalı teklifle satılmış, ihale encümen kararıyla dava dışı bir kooperatif üzerinde bırakılmıştı. Yapı kayıt belgesine dayanan davacı ihaleden 30/4/2024'te haberdar olduğunu bildirdi, idareye başvurdu, başvuru reddedilince dava açtı. İdare mahkemesi esasa girip davayı reddetti; ivedi usulde karar doğrudan temyiz edildi. Danıştay 13. Daire, ihale işlemlerinin ivedi yargılamaya tabi olduğunu, bu durumda dava süresinin otuz gün olduğunu ve İYUK m. 11 başvurusunun süreyi durdurmadığını belirtti. Yazılı bildirim yapılmayan üçüncü kişiler için süre öğrenmeyi izleyen günden başlar. Dava bu süreyi aştığından süre aşımından reddedilmeliydi; esasa girilerek verilen ret sonucu itibarıyla isabetsiz bulunmadı ve karar gerekçeyle onandı (oyçokluğu, kesin). Karşı oy, idare süreyi bildirmediğinden genel altmış günün uygulanmasını savundu; bu nokta tartışmalıdır.",
+   "source_url": "https://karararama.danistay.gov.tr/getDokuman?id=1214209600&arananKelime=",
+   "verified": true
+  },
+  {
+   "court": "Danıştay 8. Daire",
+   "chamber": "Danıştay 8. Daire",
+   "esas_no": "2024/5551",
+   "karar_no": "2026/897",
+   "decision_date": "18.02.2026",
+   "summary_md": "Boğaziçi Üniversitesinde bir bölümün bölüm başkanı ve öğretim üyeleri (12 davacı), 1416 sayılı Kanun kapsamında yurt dışında doktora yapmış bir kişinin mecburi hizmetinin üniversiteye devri üzerine yapılan doktor öğretim üyeliği atamasının iptalini istedi. İdare mahkemesi esastan reddetti, BİM istinaf başvurusunu reddetti. Danıştay 8. Daire temyizi reddedip kararı açıklamayla onadı: İYUK m. 14/3-c'deki ehliyet, hem genel dava ehliyetini hem iptal davasına özgü menfaat şartını kapsar; menfaat meşru, şahsi ve güncel olmalıdır. Davacıların başka bir kişinin atamasının iptalini istemekte kişisel, meşru ve güncel menfaati bulunmadığından dava ehliyet yönünden reddedilmeliydi (İYUK m. 14/3-c ve İYUK m. 15/1-b). Karar oyçokluğuyla verildi ve kesindir; karşı oy esasa girerek atamayı sebep unsuru yönünden hukuka aykırı bulmuştur.",
+   "source_url": "https://karararama.danistay.gov.tr/getDokuman?id=1228782800&arananKelime=",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Bir kamu görevlisine nakil işlemi tebliğ edilmiştir. Özel kanunda ayrı bir süre öngörülmeyen ve idare mahkemesinde açılacak iptal davası için dava açma süresi kaç gündür?",
+   "options": [
+    "Doksan gün",
+    "On gün",
+    "Altmış gün",
+    "Otuz gün"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Özel kanunlarında ayrı süre gösterilmeyen hâllerde dava açma süresi Danıştayda ve idare mahkemelerinde altmış, vergi mahkemelerinde otuz gündür (İYUK m. 7/1). Otuz gün vergi mahkemesinin genel süresidir; on gün yalnız MEB ve ÖSYM sınavlarına ilişkin davalara özgüdür (İYUK m. 20/B)."
+  },
+  {
+   "stem_md": "İdari uyuşmazlıklarda dava açma süresi hangi andan itibaren işlemeye başlar?",
+   "options": [
+    "Yazılı bildirimin yapıldığı tarihi izleyen günden",
+    "İdareye başvurunun yapıldığı günden",
+    "Yazılı bildirimin yapıldığı günün kendisinden",
+    "İşlemin yapıldığı tarihten"
+   ],
+   "correct_option": 0,
+   "explanation_md": "İdari uyuşmazlıklarda süre, yazılı bildirimin yapıldığı tarihi izleyen günden başlar (İYUK m. 7/2-a; İYUK m. 8/1). Bu kural Anayasa'da da yer alır: süre yazılı bildirim tarihinden başlar (AY m. 125/3)."
+  },
+  {
+   "stem_md": "Ayşe, henüz hiçbir işlem yapılmamış bir konuda bakanlıktan bir işlem yapılmasını istemiştir. Bakanlık otuz gün içinde cevap vermemiştir. Hukuki durum nedir?",
+   "options": [
+    "İstek zımnen kabul edilmiş sayılır.",
+    "Altmış gün dolmadan zımni ret doğmaz.",
+    "İstek reddedilmiş sayılır ve dava açma süresi içinde dava açılabilir.",
+    "Dava ancak idare cevap verdikten sonra açılabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "İdareye yapılan başvuruya otuz gün içinde cevap verilmezse istek reddedilmiş sayılır ve ilgili, otuz günün bittiği tarihten itibaren dava açma süresi içinde dava açabilir (İYUK m. 10/2). Sessizlik kabul anlamına gelmez. Altmış gün, 7331 sayılı Kanundan önceki süredir."
+  },
+  {
+   "stem_md": "Memur Ali'ye nakil işlemi 3 Mart'ta tebliğ edilmiş, dava açma süresi altmış gündür. Ali 23 Mart'ta bakanlığa itiraz etmiş, bakanlık cevap vermemiştir. Zımni ret oluştuktan sonra Ali'nin dava açma süresi bakımından hangisi doğrudur?",
+   "options": [
+    "Süre otuz gün olarak yeniden başlar.",
+    "Süre sona ermiştir; çünkü itiraz süreyi uzatmaz.",
+    "Süre baştan, yani altmış gün olarak başlar.",
+    "Başvuruya kadar geçen yirmi gün hesaba katılır; kalan süre zımni retten sonra işler."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Dava açılmadan önce üst makama (yoksa işlemi yapan makama) yapılan başvuru, işlemeye başlamış dava açma süresini durdurur. Başvurunun reddi veya reddedilmiş sayılması hâlinde süre yeniden işlemeye başlar ve başvuru tarihine kadar geçmiş süre de hesaba katılır (İYUK m. 11/1 ve İYUK m. 11/3). Süre kesilmez, durur; yani Ali'nin geriye kalan kırk günü vardır."
+  },
+  {
+   "stem_md": "Belediyenin açık bıraktığı bir çukura düşerek yaralanan Mehmet, idare mahkemesinde doğrudan tam yargı davası açmak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İdareye başvuru gerekmez; doğrudan dava açabilir.",
+    "Dava açmadan önce yalnızca belediye meclisine şikâyette bulunması gerekir.",
+    "Dava açmadan önce, eylemi öğrendiği tarihten itibaren bir yıl ve her hâlde eylem tarihinden itibaren beş yıl içinde idareye başvurması gerekir.",
+    "Dava yalnızca eylem tarihinden itibaren altmış gün içinde açılabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "İdari eylemlerden hakları ihlal edilenlerin dava açmadan önce, eylemi öğrendikleri tarihten itibaren bir yıl ve her hâlde eylem tarihinden itibaren beş yıl içinde ilgili idareye başvurması gerekir (İYUK m. 13/1). Başvuru şartı idari işlemlerden doğan zararlarda aranmaz (İYUK m. 12); bu fark sık karıştırılır."
+  },
+  {
+   "stem_md": "Bir kişi aynı eylem nedeniyle önce adli yargıda tam yargı davası açmış, dava görev yönünden reddedilmiştir. Bu kişi daha sonra idari yargıda dava açarsa hangisi doğrudur?",
+   "options": [
+    "İdareye başvuru şartı aranmaz.",
+    "Dava süresi dolmuş sayılır.",
+    "Yalnız iptal davası açılabilir.",
+    "İdareye başvuru şartı yine aranır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Görevli olmayan adli yargı mercilerine açılan tam yargı davasının görev yönünden reddi hâlinde, sonradan idari yargı mercilerine açılacak davalarda idareye başvurma şartı aranmaz (İYUK m. 13/2). Ayrıca görevsiz yere başvuru tarihi idari yargıya başvuru tarihi sayılır ve kesinleşmeyi izleyen günden itibaren otuz gün içinde dava açılabilir (İYUK m. 9/1)."
+  },
+  {
+   "stem_md": "X Ltd. Şti., belediyenin ruhsat iptaline karşı açtığı davada yanlışlıkla ilçe kaymakamlığını davalı göstermiştir. İlk incelemede mahkeme ne yapmalıdır?",
+   "options": [
+    "Davayı husumet yokluğundan reddetmelidir.",
+    "Dilekçeyi otuz gün içinde yenilenmek üzere reddetmelidir.",
+    "Dosyayı görevli idari merciye göndermelidir.",
+    "Dava dilekçesini tespit edeceği gerçek hasma tebliğ etmelidir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "Davanın hasım gösterilmeden veya yanlış hasım gösterilerek açılması hâlinde dava reddedilmez; dava dilekçesi tespit edilecek gerçek hasma tebliğ edilir (İYUK m. 15/1-c). Ehliyet, işlem ve süre aşımı gibi hâllerde ise dava reddedilir (İYUK m. 15/1-b). Dilekçe reddi, İYUK m. 3 ve İYUK m. 5'e aykırılıklar içindir."
+  },
+  {
+   "stem_md": "İYUK m. 14/3'e göre ilk incelemede ehliyetten hemen sonra aşağıdakilerden hangisi incelenir?",
+   "options": [
+    "Süre aşımı",
+    "Görev ve yetki",
+    "Kesin ve yürütülmesi gereken bir işlem olup olmadığı",
+    "Husumet"
+   ],
+   "correct_option": 2,
+   "explanation_md": "İYUK m. 14/3'e göre dilekçeler sırasıyla görev ve yetki, idari merci tecavüzü, ehliyet, kesin ve yürütülmesi gereken işlem, süre aşımı, husumet, İYUK m. 3 ve İYUK m. 5'e uygunluk yönlerinden incelenir. Kesin ve yürütülmesi gereken işlem, ehliyetten hemen sonra gelir."
+  },
+  {
+   "stem_md": "Bir bakanlık yönetmeliğine dayanılarak Zeynep'in ödeneği kesilmiştir. Yönetmelik ilan edilmiştir. Zeynep ödenek kesme işlemine karşı dava açmak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yönetmelik iptal edilmedikçe kesme işleminin iptali istenemez.",
+    "Zeynep yalnız kesme işlemine dava açabilir, yönetmeliğe açamaz.",
+    "Zeynep yönetmeliğe, uygulama işlemine ya da her ikisine birden dava açabilir; yönetmeliğin iptal edilmemiş olması kesme işleminin iptaline engel değildir.",
+    "Zeynep yalnız yönetmeliğe dava açabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Uygulama üzerine ilgililer düzenleyici işlem veya uygulanan işlem yahut her ikisi aleyhine birden dava açabilir; düzenleyici işlemin iptal edilmemiş olması bu düzenlemeye dayalı işlemin iptaline engel olmaz (İYUK m. 7/4)."
+  },
+  {
+   "stem_md": "Ahmet, ÖSYM'nin merkezî sınav sonucuna karşı dava açacaktır. Dava açma süresi ve idareye başvuru bakımından hangisi doğrudur?",
+   "options": [
+    "Süre yedi gündür; İYUK m. 11 uygulanır.",
+    "Süre otuz gündür; İYUK m. 11 başvurusu süreyi durdurur.",
+    "Süre altmış gündür; İYUK m. 11 başvurusu süreyi durdurur.",
+    "Süre on gündür; İYUK m. 11 uygulanmaz."
+   ],
+   "correct_option": 3,
+   "explanation_md": "MEB ve ÖSYM tarafından yapılan merkezî ve ortak sınavlar ile sınav sonuçları hakkında açılan davalarda dava açma süresi on gündür ve İYUK m. 11 hükümleri uygulanmaz (İYUK m. 20/B). Otuz gün ivedi yargılama usulünün süresidir (İYUK m. 20/A)."
+  },
+  {
+   "stem_md": "İlgili, idareye yaptığı başvuruya süresinde cevap alamayınca zımni ret sonrası dava açmamıştır. Otuz günlük süre geçtikten sonra idare cevap vermiştir. Bu durumda kural olarak hangisi doğrudur?",
+   "options": [
+    "Dava hakkı sona ermiştir.",
+    "Yeniden idareye başvurmak zorunludur.",
+    "Cevabın tebliğinden itibaren altmış gün içinde dava açılabilir.",
+    "Cevabın tebliğinden itibaren otuz gün içinde dava açılabilir."
+   ],
+   "correct_option": 2,
+   "explanation_md": "Dava açılmaması veya davanın süreden reddi hâllerinde, otuz günlük sürenin bitmesinden sonra yetkili idari makamlarca cevap verilirse cevabın tebliğinden itibaren altmış gün içinde dava açılabilir (İYUK m. 10/2). 7331 sayılı Kanun cevap süresini otuz güne indirmiştir, ancak bu son cümledeki altmış gün korunmuştur."
+  },
+  {
+   "stem_md": "İYUK m. 2/1'e göre iptal davası ile tam yargı davası arasındaki temel fark aşağıdakilerden hangisidir?",
+   "options": [
+    "İptal davası menfaati ihlal edilenlerce, tam yargı davası kişisel hakları doğrudan muhtel olanlarca açılır.",
+    "Tam yargı davası yalnız idari eylemlere, iptal davası yalnız idari sözleşmelere karşı açılır.",
+    "İptal davasında süre yoktur, tam yargı davasında altmış gün vardır.",
+    "İptal davası yalnız vergi mahkemesinde, tam yargı davası yalnız idare mahkemesinde açılır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "İptal davası, idari işlemlerin hukuka aykırılığı nedeniyle menfaatleri ihlal edilenlerce açılır; tam yargı davası ise idari eylem ve işlemlerden dolayı kişisel hakları doğrudan muhtel olanlarca açılır (İYUK m. 2/1-a ve İYUK m. 2/1-b). Her iki davada da genel dava süresi kuralları uygulanır (İYUK m. 7)."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Memur Ayşe, çalıştığı bakanlıkta başka bir ile nakledilmiştir. Nakil işlemi Ayşe'ye 3 Mart'ta yazılı olarak tebliğ edilmiş ve tebliğde altmış günlük dava açma süresi gösterilmiştir. İşlemin özel bir dava süresi yoktur. Ayşe, 23 Mart'ta (süre başlayalı yirmi gün geçmişken) nakil işleminin kaldırılması için bakanlığa itiraz dilekçesi vermiştir. Bakanlık itiraza hiçbir cevap vermemiştir.\n\nAyşe sonradan iş arkadaşı Hasan'ın tavsiyesiyle, zımni retten sonra kalan süreyi geçirerek dava açmıştır.\n\nSorular:\n1. Ayşe'nin bakanlığa yaptığı itiraz hangi İYUK maddesine dayanır ve dava açma süresine etkisi nedir?\n2. Zımni ret ne zaman oluşur?\n3. Ayşe için zımni retten sonra ne kadar süre kalmıştır?\n4. Süre geçtikten sonra açılan davanın akıbeti ne olur?",
+   "rubric": [
+    {
+     "point": "Mevcut işleme karşı üst makama başvurunun İYUK m. 11 kapsamında olduğu ve işlemeye başlamış süreyi durdurduğu",
+     "weight": 20,
+     "madde_ref": "İYUK m. 11"
+    },
+    {
+     "point": "Otuz gün cevap verilmemesiyle zımni retin oluşması",
+     "weight": 20,
+     "madde_ref": "İYUK m. 11"
+    },
+    {
+     "point": "Genel dava açma süresinin altmış gün olması",
+     "weight": 15,
+     "madde_ref": "İYUK m. 7"
+    },
+    {
+     "point": "Başvuruya kadar geçen yirmi günün hesaba katılması, kalan kırk günün zımni retten itibaren işlemesi",
+     "weight": 25,
+     "madde_ref": "İYUK m. 11"
+    },
+    {
+     "point": "Süre aşımının ilk incelemede ret sebebi olması",
+     "weight": 20,
+     "madde_ref": "İYUK m. 14"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Ayşe'nin nakil işlemi kesin ve yürütülmesi gereken bir idari işlemdir. Dava konusu iptal davasıdır ve özel kanunda ayrı bir süre olmadığından genel dava açma süresi (idare mahkemesinde altmış gün) uygulanır.\n\n**Hukuki sorunlar:** (1) Üst makama başvurunun dava açma süresine etkisi; (2) zımni retin ne zaman doğacağı; (3) kalan sürenin hesabı; (4) süre geçirilmişse davanın akıbeti.\n\n**İlgili hükümler:** İYUK m. 7/1, İYUK m. 8/1, İYUK m. 11/1-3, İYUK m. 14/3-e, İYUK m. 15/1-b.\n\n**Değerlendirme:** Dava açmadan önce işlemin kaldırılması, geri alınması veya değiştirilmesi, idari dava açma süresi içinde üst makamdan, üst makam yoksa işlemi yapan makamdan istenebilir ve bu başvuru işlemeye başlamış dava açma süresini **durdurur** (İYUK m. 11/1). Ayşe nakil işleminden yirmi gün sonra bakanlığa başvurduğundan başvuru süresi içindedir ve süre bu noktada durmuştur. Bakanlık otuz gün içinde cevap vermemişse istek reddedilmiş sayılır (İYUK m. 11/2). Bu otuz günlük süre 7331 sayılı Kanunla altmış günden otuz güne indirilmiştir. İsteğin reddedilmesi veya reddedilmiş sayılması hâlinde dava açma süresi yeniden işlemeye başlar, ancak başvuru tarihine kadar geçmiş süre de hesaba katılır (İYUK m. 11/3). Başka bir deyişle süre baştan başlamaz: altmış günden geçen yirmi gün düşülür ve Ayşe'nin zımni retten itibaren kırk günü kalır. Süre yazılı bildirimi izleyen günden başladığı için (İYUK m. 7/2-a; İYUK m. 8/1), başlangıç ve bitiş günleri buna göre belirlenir; son gün tatile rastlarsa süre izleyen çalışma gününün bitimine uzar (İYUK m. 8/2).\n\nAyşe kalan kırk günü geçirdikten sonra dava açarsa, dilekçe ilk incelemede süre aşımı yönünden incelenir (İYUK m. 14/3-e). Süre aşımı, ehliyet ve kesin ve yürütülmesi gereken işlem yokluğu gibi davanın reddini gerektiren sebeplerdendir; dava reddedilir (İYUK m. 15/1-b). Bu husus ilk incelemeden sonra anlaşılsa bile davanın her aşamasında dikkate alınır (İYUK m. 14/6).\n\n**Sonuç:** İYUK m. 11 başvurusu süreyi durdurmuş, zımni ret otuz günün sonunda doğmuştur. Ayşe'nin zımni retten itibaren kırk günü vardır; bu süreyi geçirerek açtığı dava süre aşımından reddedilir."
+  },
+  {
+   "stem_md": "X Ltd. Şti., belediyenin işyeri açma ve çalışma ruhsatını iptal eden işlemine karşı idare mahkemesinde dava açmıştır. Şirket, dilekçede belediye yerine yanlışlıkla ilçe kaymakamlığını davalı göstermiştir. Dilekçede dava konusu işlemin yazılı bildirim tarihi belirtilmemiş ve dilekçe imzalanmamıştır.\n\nMahkeme gerekli işlemleri yaptıktan sonra şirket, yeniden düzenlediği dilekçede de aynı imza ve tarih eksikliğini tekrarlamıştır.\n\nSorular:\n1. Yanlış hasım gösterilmesi karşısında mahkeme ne yapmalıdır?\n2. İmza ve bildirim tarihi eksikliği karşısında hangi karar verilir? Yeni dilekçeden harç alınır mı?\n3. Yeniden düzenlenen dilekçede aynı eksiklik tekrarlanırsa sonuç ne olur?",
+   "rubric": [
+    {
+     "point": "İlk incelemenin görev ve yetkiyle başlayıp husumet ve İYUK m. 3 ve İYUK m. 5'e uygunlukla biten sıralı bir inceleme olduğu",
+     "weight": 15,
+     "madde_ref": "İYUK m. 14"
+    },
+    {
+     "point": "Yanlış hasımda davanın reddedilmeyip dilekçenin gerçek hasma tebliğ edileceği",
+     "weight": 20,
+     "madde_ref": "İYUK m. 15"
+    },
+    {
+     "point": "İmzasız dilekçenin ve bildirim tarihinin yazılmamasının İYUK m. 3'e aykırı olduğu",
+     "weight": 20,
+     "madde_ref": "İYUK m. 3"
+    },
+    {
+     "point": "Otuz gün içinde yenilenmek üzere dilekçenin reddedileceği ve yeni dilekçeden harç alınmayacağı",
+     "weight": 25,
+     "madde_ref": "İYUK m. 15"
+    },
+    {
+     "point": "Aynı yanlışlıkların tekrarında davanın reddedileceği",
+     "weight": 20,
+     "madde_ref": "İYUK m. 15"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, iptal davasında dilekçenin ilk incelemesine ilişkindir. Dava konusu ruhsat iptali kesin ve yürütülmesi gereken bir işlemdir; sorun işlemin niteliğinde değil, dilekçenin şeklindedir ve davalı hasmın doğru gösterilmesindedir.\n\n**Hukuki sorunlar:** (1) Yanlış hasımın sonucu; (2) imza ve bildirim tarihi eksikliğinin sonucu; (3) eksikliğin tekrarı.\n\n**İlgili hükümler:** İYUK m. 3/1, İYUK m. 3/2-c, İYUK m. 14/3-f ve İYUK m. 14/3-g, İYUK m. 15/1-c, İYUK m. 15/1-d, İYUK m. 15/3, İYUK m. 15/5.\n\n**Değerlendirme:** Dilekçeler görev ve yetki, idari merci tecavüzü, ehliyet, kesin ve yürütülmesi gereken işlem, süre aşımı, husumet ve İYUK m. 3 ile İYUK m. 5'e uygunluk yönlerinden sırasıyla incelenir (İYUK m. 14/3). Husumette hata varsa, yani davanın hasım gösterilmeden veya yanlış hasım gösterilerek açılması hâlinde, **dava reddedilmez**; dava dilekçesi tespit edilecek gerçek hasma, yani işlemi yapan belediyeye tebliğ edilir (İYUK m. 15/1-c). Bu karar, ehliyet, işlem ve süre aşımı gibi ret nedenlerinden ayrılır (İYUK m. 15/1-b).\n\nİdari davalar imzalı dilekçeyle açılır (İYUK m. 3/1) ve dilekçede davaya konu idari işlemin yazılı bildirim tarihi gösterilir (İYUK m. 3/2-c). Şirketin dilekçesi bu iki yönden İYUK m. 3'e aykırıdır. Bu hâlde dava reddedilmez; otuz gün içinde İYUK m. 3 ve İYUK m. 5'e uygun biçimde yeniden düzenlenmek veya noksanları tamamlanmak üzere **dilekçe reddedilir** (İYUK m. 15/1-d). Dilekçe İYUK m. 3'e uygun olmadığı için reddedildiğinden yeni dilekçe için ayrıca harç alınmaz (İYUK m. 15/3). Bu kararlara karşı istinaf veya temyiz yolu da kapalıdır (İYUK m. 15/4).\n\nDilekçe reddi üzerine yeniden verilen dilekçelerde aynı yanlışlıklar yapıldığı takdirde artık dilekçe değil, **dava reddedilir** (İYUK m. 15/5). Şirket aynı imza ve tarih eksikliğini tekrarladığından davası reddedilecektir.\n\n**Sonuç:** Yanlış hasım için dilekçe belediyeye tebliğ edilir. İmza ve tarih eksikliği için otuz gün içinde yenilenmek üzere dilekçe reddedilir ve yeni dilekçeden harç alınmaz. Aynı eksiklik tekrarlandığı için dava reddedilir."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "İYUK m. 2/1'e göre idari dava türleri nelerdir?",
+   "back_md": "İptal davası, tam yargı davası ve kamu hizmeti için yapılan idari sözleşmelerden doğan davalar."
+  },
+  {
+   "front_md": "İptal davasının hukuka aykırılık sebepleri nelerdir?",
+   "back_md": "Yetki, şekil, sebep, konu ve maksat unsurlarından biri yönünden hukuka aykırılık (İYUK m. 2/1-a)."
+  },
+  {
+   "front_md": "İdari yargı neyi yapamaz?",
+   "back_md": "Yerindelik denetimi; idari işlem niteliğinde veya takdir yetkisini kaldıracak biçimde karar veremez (İYUK m. 2/2; AY m. 125/4)."
+  },
+  {
+   "front_md": "Genel dava açma süresi nedir?",
+   "back_md": "Danıştay ve idare mahkemelerinde 60, vergi mahkemelerinde 30 gün; yazılı bildirimi izleyen günden başlar (İYUK m. 7)."
+  },
+  {
+   "front_md": "Son gün tatile rastlarsa süre ne olur?",
+   "back_md": "Tatili izleyen çalışma gününün bitimine uzar; adli tatile rastlarsa tatilin bitişini izleyen günden itibaren 7 gün uzamış sayılır (İYUK m. 8)."
+  },
+  {
+   "front_md": "İYUK m. 10 ile İYUK m. 11 farkı nedir?",
+   "back_md": "İYUK m. 10: işlem/eylem yapılması için başvuru, 30 gün sessizlik zımni ret. İYUK m. 11: var olan işleme itiraz, süreyi durdurur, ret üzerine geçen süre hesaba katılır."
+  },
+  {
+   "front_md": "7331 sayılı Kanun neyi değiştirdi?",
+   "back_md": "İYUK m. 10, İYUK m. 11 ve İYUK m. 13'teki 60 günlük cevap süresini 30 güne, İYUK m. 10'daki bekleme sınırını 6 aydan 4 aya indirdi."
+  },
+  {
+   "front_md": "İdari eylemde dava öncesi idareye başvuru süresi nedir?",
+   "back_md": "Öğrenmeden itibaren 1 yıl, her hâlde eylemden itibaren 5 yıl; 30 gün cevap yoksa bu sürenin bitiminden itibaren dava açılır (İYUK m. 13/1)."
+  },
+  {
+   "front_md": "İYUK m. 12'de tam yargı hangi yollarla açılır?",
+   "back_md": "Doğrudan tam yargı, iptal ve tam yargı birlikte, ya da önce iptal sonra tam yargı (İYUK m. 12)."
+  },
+  {
+   "front_md": "İlk incelemenin yedi hususu hangisidir?",
+   "back_md": "Görev-yetki, idari merci tecavüzü, ehliyet, kesin ve yürütülmesi gereken işlem, süre aşımı, husumet, İYUK m. 3 ve İYUK m. 5'e uygunluk (İYUK m. 14/3). En geç 15 gün."
+  },
+  {
+   "front_md": "Yanlış hasımda ne olur?",
+   "back_md": "Ret değil; dilekçe gerçek hasma tebliğ edilir (İYUK m. 15/1-c). Ehliyet, işlem ve süre aşımında ise ret kararı verilir."
+  },
+  {
+   "front_md": "İvedi yargılama ve merkezî sınav davalarında süre nedir?",
+   "back_md": "İvedi yargılamada 30 gün (İYUK m. 11 uygulanmaz; İYUK m. 20/A); MEB ve ÖSYM sınavlarında 10 gün (İYUK m. 20/B)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

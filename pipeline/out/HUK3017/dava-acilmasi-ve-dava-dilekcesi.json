@@ -1,0 +1,497 @@
+{
+ "course_id": "HUK3017",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Yazılı Yargılama Usulü",
+ "topic_index": 1,
+ "slug": "dava-acilmasi-ve-dava-dilekcesi",
+ "title": "Davanın Açılması, Dava Dilekçesi, Davanın Açılmasının Sonuçları, Tarafta ve Dava Konusunda Değişiklik",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-23T17:06:28.873432+00:00",
+ "skill_refs": [
+  "hukuk-muhakemesi/dava-dilekcesi-mimarisi"
+ ],
+ "content": {
+  "summary_md": "- **Davanın açılması (HMK m. 118/1):** Dava, dava dilekçesinin **kaydedildiği tarihte** açılmış sayılır. Dilekçeye davalı sayısı kadar örnek eklenir. Tebliğ tarihi değil, kayıt tarihi belirleyicidir.\n- **Dilekçenin içeriği (HMK m. 119/1):** (a) mahkeme adı, (b) taraf ad-soyad ve adresleri, (c) davacının T.C. kimlik numarası, (ç) kanuni temsilci ve vekil, (d) dava konusu ve değeri, (e) vakıaların sıra numarasıyla özeti, (f) her vakıanın delili, (g) hukuki sebepler, (ğ) açık talep sonucu, (h) imza.\n- **Eksikliğin yaptırımı (HMK m. 119/2):** (a), (d), (e), (f), (g) dışındaki bentler, yani **(b), (c), (ç), (ğ), (h)** eksikse hâkim **bir haftalık kesin süre** verir; tamamlanmazsa **dava açılmamış sayılır**.\n- **Harç ve gider avansı (HMK m. 120):** Davacı, harçları ve gider avansını dava açarken yatırır. Gider avansı bir **dava şartıdır (HMK m. 114/1-g)**. Avans yetersiz kalırsa **iki haftalık kesin süre** verilir (HMK m. 120/2); sonuç dava şartı yokluğundan **usulden ret**tir (HMK m. 115/2). Delil avansı ayrı bir kurumdur (HMK m. 120/3, HMK m. 324).\n- **Belgeler ve tebliğ (HMK m. 121-122):** Davacının elindeki belgeler dilekçeye eklenir. Dilekçe davalıya tebliğ edilir; davalının **iki hafta** içinde cevap verebileceği tebliğ zarfında gösterilir.\n- **Davanın geri alınması (HMK m. 123):** Hüküm kesinleşinceye kadar, **davalının açık rızasıyla** mümkündür; sonuç **davanın açılmamış sayılmasına** karardır. Feragatten (HMK m. 307) farkı: feragat davalının rızasına bağlı değildir ve kesin hüküm gibi sonuç doğurur.\n- **Tarafta iradi değişiklik (HMK m. 124):** Kural olarak karşı tarafın **açık rızası** gerekir. Maddi hata, dürüstlük kuralına aykırı olmama ya da kabul edilebilir yanılgı varsa rıza aranmaz.\n- **Dava konusunun devri (HMK m. 125):** Davalı devrederse davacı ya devralana karşı davaya devam eder ya da davayı **tazminat davasına** dönüştürür. Davacı devrederse devralan **kendiliğinden davacı yerine geçer**.\n- **Maddi hukuk sonucu:** Dava açılması zamanaşımını keser (TBK m. 154/2).\n- **Güncel:** 7251 sayılı Kanun HMK m. 120/3'ü ekledi, HMK m. 123'e \"açılmamış sayılma\" cümlesini getirdi, HMK m. 125'te giderlere ilişkin değişiklik yaptı.",
+  "content_md": "## 1. Davanın açılması: kayıt tarihi\n\nYazılı yargılamanın ilk aşaması **dilekçeler aşamasıdır**. Dava, **dava dilekçesinin kaydedildiği tarihte** açılmış sayılır (HMK m. 118/1). Davalıya tebliğ edilmesi davanın açılması için beklenmez; tebliğ yalnızca davalıyı haberdar eder. Dilekçeye davalı sayısı kadar örnek eklenir. Kaydın usul ve esasları yönetmelikte düzenlenir (HMK m. 118/2).\n\n> **Örnek:** Ali, 3 Mart'ta UYAP üzerinden Zeynep'e karşı alacak davasının dilekçesini kaydettirir; dilekçe Zeynep'e 20 Mart'ta tebliğ edilir. Dava 3 Mart'ta açılmıştır. Zamanaşımı ve hak düşürücü süre bakımından bu tarih esas alınır.\n\n> 💡 **Püf nokta:** \"Açılma = kayıt\", \"cevap süresinin başlangıcı = tebliğ\" diye iki ayrı saat düşün.\n\n## 2. Dava dilekçesinin içeriği (HMK m. 119)\n\nHMK m. 119/1 dilekçede bulunması gereken hususları sayar:\n\n- (a) Mahkemenin adı\n- (b) Davacı ile davalının adı, soyadı ve adresleri\n- (c) Davacının T.C. kimlik numarası\n- (ç) Varsa kanuni temsilcilerin ve davacı vekilinin adı, soyadı, adresleri\n- (d) Davanın konusu ve malvarlığı haklarına ilişkin davalarda dava konusunun değeri\n- (e) Davacının iddiasının dayanağı bütün vakıaların **sıra numarası altında açık özetleri**\n- (f) İddia edilen her bir vakıanın **hangi delillerle ispat edileceği**\n- (g) Dayanılan hukuki sebepler\n- (ğ) Açık bir şekilde **talep sonucu**\n- (h) Davacının, varsa kanuni temsilcisinin veya vekilinin **imzası**\n\nVakıaları ve delilleri dilekçede göstermek, aynı zamanda **somutlaştırma yükünün** (HMK m. 194) bir uygulamasıdır: taraflar vakıalarını ispata elverişli biçimde somutlaştırmalı, hangi delilin hangi vakıa için gösterildiğini belirtmelidir. Hukuki sebep ise hâkimi bağlamaz; hâkim Türk hukukunu resen uygular (HMK m. 33), ama davanın dayandığı vakıaları taraflar getirir.\n\n### Eksikliğin yaptırımı: HMK m. 119/2\n\nKanun eksiklikleri ikiye ayırır. Burada çoğu öğrencinin takıldığı nokta, kapsamın **olumsuz** tarif edilmesidir: HMK m. 119/2'ye göre (a), (d), (e), (f) ve (g) bentleri **dışında** kalan hususlar eksikse hâkim bir haftalık kesin süre verir.\n\n| Bent | HMK m. 119/2 kapsamında mı? |\n|---|---|\n| (b) taraf bilgileri | Evet |\n| (c) T.C. kimlik no | Evet |\n| (ç) temsilci ve vekil | Evet |\n| (ğ) talep sonucu | Evet |\n| (h) imza | Evet |\n| (a) mahkeme adı | Hayır |\n| (d) konu ve değer | Hayır |\n| (e) vakıalar | Hayır |\n| (f) deliller | Hayır |\n| (g) hukuki sebepler | Hayır |\n\nKapsamdaki bir eksik için hâkim davacıya **bir haftalık kesin süre** verir; süre içinde tamamlanmazsa **dava açılmamış sayılır**. Sürede tamamlanırsa dava, ilk kayıt tarihinde açılmış kabul edilir.\n\n> **Örnek:** Mehmet'in dilekçesinde T.C. kimlik numarası yazılmamış ve imza atılmamıştır. Hâkim bir haftalık kesin süre verir. Mehmet süre içinde ikisini tamamlarsa dava ilk kayıt tarihinde açılmıştır; tamamlamazsa dava açılmamış sayılır.\n\n> ⚠️ **Sınav tuzağı:** \"Deliller veya hukuki sebepler yazılmazsa bir haftalık kesin süre verilir, tamamlanmazsa dava açılmamış sayılır\" önermesi **yanlıştır**. Bu bentler (f) ve (g) HMK m. 119/2'nin dışındadır. Talep sonucu ve imza ise içindedir.\n\n### Kapsam dışı bentler eksikse ne olur?\n\nKanun bunun sonucunu HMK m. 119/2 gibi açıkça yazmaz. Örneğin hiç vakıa gösterilmemişse hâkim davayı aydınlatma ödevi (HMK m. 31) ve somutlaştırma yükü (HMK m. 194) çerçevesinde davacıdan açıklama isteyebilir. Bu noktayı \"kesin yaptırım\" diye değil, uygulamada çözülen bir konu olarak bil.\n\n### Belgeler ve tebliğ (HMK m. 121-122)\n\nDilekçede gösterilen ve davacının elinde bulunan belgeler, asılları ile birlikte, harç ve vergiye tabi olmaksızın davalı sayısından bir fazla örnekle ya da yalnızca örnekleriyle dilekçeye eklenir. Başka yerden getirtilecek belge ve dosyalar için bunların bulunabilmesini sağlayacak açıklama dilekçede yer alır (HMK m. 121). Mahkeme dilekçeyi davalıya tebliğ eder ve davalının **iki hafta** içinde cevap verebileceği tebliğ zarfında gösterilir (HMK m. 122). Cevap konusu bir sonraki konudur.\n\n## 3. Harç ve gider avansı (HMK m. 120)\n\nDavacı, yargılama harçları ile her yıl Adalet Bakanlığınca çıkarılan gider avansı tarifesindeki tutarı **dava açarken** mahkeme veznesine yatırmak zorundadır (HMK m. 120/1). Davacının yatırması gereken gider avansının yatırılmış olması **dava şartıdır** (HMK m. 114/1-g).\n\nAvansın yeterli olmadığı dava sırasında anlaşılırsa mahkeme davacıya eksikliği tamamlaması için **iki haftalık kesin süre** verir (HMK m. 120/2). Dava şartı noksanlığı giderilmezse mahkeme davayı dava şartı yokluğu sebebiyle **usulden reddeder** (HMK m. 115/2).\n\nHMK m. 120/3 (7251 sayılı Kanunla eklendi) delil avansını saklı tutar: her taraf ikamesini istediği delil için mahkemece belirlenen avansı kesin sürede yatırmak zorundadır; yatırmazsa **yalnızca o delilin ikamesinden vazgeçilmiş sayılır** (HMK m. 324). Yani delil avansı eksikliği davayı düşürmez.\n\n> ⚠️ **Sınav tuzağı:** İki süreyi ve iki sonucu çaprazlama:\n>\n> | | Süre | Sonuç |\n> |---|---|---|\n> | Dilekçe eksikliği (HMK m. 119/2) | 1 hafta | Dava açılmamış sayılır |\n> | Gider avansı (HMK m. 120/2) | 2 hafta | Usulden ret (HMK m. 115/2) |\n\n## 4. Davanın açılmasının sonuçları\n\n**Maddi hukuk sonuçları.** Dava açılması zamanaşımını keser (TBK m. 154/2: alacaklı dava veya defi yoluyla mahkemeye başvurmuşsa zamanaşımı kesilir). Hak düşürücü süreler de dava ile korunur.\n\n**Usul hukuku sonuçları.**\n- Dava **derdest** olur; aynı davanın daha önce açılmış ve hâlen görülmekte olması bir dava şartı sorunudur (HMK m. 114/1-ı).\n- Davacının davayı tek taraflı geri alması engellenir (HMK m. 123).\n\n## 5. Davanın geri alınması (HMK m. 123)\n\nDavacı, **hüküm kesinleşinceye kadar**, ancak **davalının açık rızası** ile davasını geri alabilir. Bu takdirde **davanın açılmamış sayılmasına karar verilir** (7251 sayılı Kanunla eklenen cümle). Geri alma bir feragat değildir; dava açılmamış sayıldığı için aynı uyuşmazlık, yeniden dava açılarak (harç ödenerek) yine mahkemeye götürülebilir.\n\n| | Geri alma (HMK m. 123) | Feragat (HMK m. 307) |\n|---|---|---|\n| Davalının rızası | Açık rıza şart | Aranmaz (HMK m. 309/2) |\n| Sonuç | Dava açılmamış sayılır | Kesin hüküm gibi sonuç (HMK m. 311) |\n| Yeniden dava | Mümkün | Kural olarak mümkün değil |\n\n> **Örnek:** Ayşe, kira alacağı davasını açtıktan sonra vazgeçer. Davalı açıkça rıza gösterirse mahkeme davanın açılmamış sayılmasına karar verir; Ayşe aynı alacak için yeniden dava açabilir. Davalı rıza göstermezse Ayşe'nin önünde feragat yolu kalır, ama feragat kesin hüküm gibi sonuç doğurur.\n\n## 6. Tarafta iradi değişiklik (HMK m. 124)\n\nDavanın tarafını sonradan değiştirmek **kural olarak karşı tarafın açık rızasıyla** mümkündür (HMK m. 124/1). Kanunlardaki özel hükümler saklıdır (HMK m. 124/2). Rıza aranmayan iki hâl vardır:\n\n1. **Maddi bir hatadan kaynaklanan veya dürüstlük kuralına aykırı olmayan** taraf değişikliği talebi, karşı tarafın rızası aranmaksızın hâkim tarafından kabul edilir (HMK m. 124/3).\n2. Dava dilekçesinde tarafın yanlış veya eksik gösterilmesi **kabul edilebilir bir yanılgıya** dayanıyorsa, hâkim karşı tarafın rızasını aramaksızın taraf değişikliği talebini kabul edebilir. Bu durumda hâkim, davanın tarafı olmaktan çıkarılan ve aleyhine dava açılmasına sebebiyet vermeyen kişi lehine **yargılama giderlerine hükmeder** (HMK m. 124/4).\n\n> **Örnek:** Zeynep, trafik kazası tazminatı için aracın işleteni Y Ltd. Şti. yerine yanlışlıkla aynı adresteki ticari ismi benzer X Ltd. Şti.'ye dava açar. Yanılgı kabul edilebilir ise hâkim, X'in rızası aranmadan Y'ye karşı taraf değişikliğini kabul edebilir ve X lehine yargılama giderlerine hükmeder.\n\n> ⚠️ **Sınav dikkat:** İradi taraf değişikliği ile dava konusunun devri (HMK m. 125) farklı kurumlardır. Birinde taraf iradeyle değiştirilir, diğerinde dava konusu hakkın devri taraf değişimine yol açar.\n\n## 7. Dava konusunun devri (HMK m. 125)\n\n**Davalı devrederse (HMK m. 125/1).** Dava açıldıktan sonra davalı dava konusunu üçüncü kişiye devrederse davacının iki seçimlik yetkisi vardır:\n- (a) Devreden davalıyla olan davasından vazgeçip **devralana karşı davaya devam eder**. Dava davacı lehine sonuçlanırsa dava konusunu devreden ve devralan, yargılama giderlerinden **müteselsilen** sorumlu olur.\n- (b) Davasını **devreden hakkında tazminat davasına dönüştürür**.\n\n**Davacı devrederse (HMK m. 125/2).** Dava konusunu davacı devrederse devralan kişi **görülmekte olan davada davacı yerine geçer** ve dava kaldığı yerden devam eder. Dava davacı aleyhine sonuçlanırsa devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur (7251 sayılı Kanunla eklenen cümle). Burada davalıya seçimlik yetki tanınmamıştır.\n\n> **Örnek:** Ali, Kemal adına kayıtlı bir taşınmaz için tapu iptali ve tescil davası açtıktan sonra davalı Kemal taşınmazı Selin'e satar. Ali isterse davaya Selin'e karşı devam eder ya da Kemal'e karşı tazminat davasına geçer. Tersine, dava konusu hakkı davacı Ali Selin'e devrederse, Selin Ali'nin yerine geçer.\n\n> 💡 **Püf nokta:** \"Davalı devretti → davacı seçer. Davacı devretti → devralan kendiliğinden girer.\"\n\n## 8. Denetim şeması\n\n1. Dilekçe kaydedildi mi, hangi tarihte? (HMK m. 118)\n2. Zorunlu unsurlar tam mı? Eksik varsa kapsam içi mi dışı mı? (HMK m. 119)\n3. Harç ve gider avansı yatırıldı mı, ek süre verildi mi? (HMK m. 120, HMK m. 114/1-g)\n4. Belge ve tebliğ işlemleri yapıldı mı? (HMK m. 121-122)\n5. Dava açıldıktan sonra geri alma, taraf değişikliği veya devir var mı? (HMK m. 123-125)\n\nSınavda önce bu sırayı kur, sonra olaydaki her bent ve her süre için ilgili fıkrayı belirt.",
+  "critical_md": "- 📌 Dava, dilekçenin **kaydedildiği tarihte** açılmış sayılır (HMK m. 118/1); tebliğ tarihi değil.\n- 📌 HMK m. 119/2 kapsamı: **(b), (c), (ç), (ğ), (h)**. Kanun metni olumsuz yazılmıştır: (a), (d), (e), (f), (g) dışındakiler.\n- 📌 HMK m. 119/2: **bir haftalık kesin süre**; tamamlanmazsa **dava açılmamış sayılır**.\n- ⚠️ Deliller (f) ve hukuki sebepler (g) eksik diye dava açılmamış sayılmaz; bu bentler HMK m. 119/2 dışındadır.\n- 📌 Gider avansı eksikliği: **iki haftalık kesin süre** (HMK m. 120/2); sonuç dava şartı yokluğundan **usulden ret** (HMK m. 114/1-g, HMK m. 115/2).\n- ⚠️ 1 hafta/açılmamış sayılma (HMK m. 119/2) ile 2 hafta/usulden ret (HMK m. 120/2) çaprazlanmaz.\n- 📌 Davanın geri alınması: hüküm kesinleşinceye kadar + davalının **açık rızası** (HMK m. 123); sonuç davanın açılmamış sayılması.\n- ⚠️ Geri alma ile feragat farkı: feragat davalının rızasına bağlı değildir (HMK m. 309/2) ve kesin hüküm gibi sonuç doğurur (HMK m. 311).\n- 📌 İradi taraf değişikliği: kural açık rıza (HMK m. 124/1); maddi hata/dürüstlük kuralına aykırı olmama (HMK m. 124/3) ve kabul edilebilir yanılgı (HMK m. 124/4) hâllerinde rıza aranmaz.\n- 📌 Davalı devrederse davacı seçer (HMK m. 125/1); davacı devrederse devralan kendiliğinden davacı yerine geçer (HMK m. 125/2).",
+  "doctrine_md": "### İmzasız dilekçe: kurucu unsur mu, tamamlanabilir eksik mi?\n\nBir görüşe göre imza, dilekçenin hukuki varlığı için kurucu unsurdur; imzasız dilekçe dilekçe sayılmaz. Karşı görüşe göre kanun koyucu imzayı HMK m. 119/2 kapsamına alarak tamamlanabilir eksiklik saymıştır; zaten imzasız dilekçe de eksikliği bir haftalık kesin sürede giderilebilecek bir dilekçedir. Metindeki açık düzenleme nedeniyle sınavda ikinci yaklaşımla cevap vermek güvenlidir: imza eksikliği bir hafta içinde tamamlanır.\n\n### Kapsam dışı bent eksikliklerinin sonucu\n\nHMK m. 119/2 yalnızca belirli bentler için açık bir yaptırım öngörür. Vakıaların (e) hiç gösterilmemesi gibi kapsam dışı eksiklikler için kanun yaptırımı açıkça yazmaz. Uygulamada bu durum, hâkimin davayı aydınlatma ödevi (HMK m. 31) ve somutlaştırma yükü (HMK m. 194) çerçevesinde ele alınır; hâkim davacıdan açıklama ister. Bu nedenle bu bentlerde \"dava açılmamış sayılır\" demek kesin bir doğru değildir.\n\n### Islahla taraf değiştirilebilir mi?\n\nYargıtay uygulamasında ıslah yoluyla taraf değişikliği yapılamayacağı kabul edilir; taraf değişikliği yalnızca HMK m. 124 ve HMK m. 125'te düzenlenen yollarla mümkündür. Gerekçe, ıslahın yapılmış usul işlemlerinin düzeltilmesi aracı olması, yeni bir kişiyi davaya sokma aracı olmamasıdır. Bu sınav için kuralı bilmek yeterlidir: taraf değişikliğinde ıslah değil HMK m. 124 aranır.",
+  "glossary": [
+   {
+    "term": "Derdestlik",
+    "definition": "Davanın açılmasıyla başlayıp kesin hükme kadar süren, davanın görülmekte olması hâli. Aynı davanın tekrar açılması bir dava şartı sorunudur (HMK m. 114/1-ı)."
+   },
+   {
+    "term": "Kesin süre",
+    "definition": "Kanunun belirlediği ya da hâkimin kesin olduğunu belirterek verdiği, içinde yapılmayan işlemi yapma hakkını ortadan kaldıran süre (HMK m. 94)."
+   },
+   {
+    "term": "Gider avansı",
+    "definition": "Davacının dava açarken yatırdığı, yargılama giderlerini karşılamaya yönelik tutar; yatırılması dava şartıdır (HMK m. 120)."
+   },
+   {
+    "term": "Delil avansı",
+    "definition": "Bir delilin ikamesi için mahkemece belirlenen avans; yatırılmazsa yalnız o delilden vazgeçilmiş sayılır (HMK m. 324)."
+   },
+   {
+    "term": "Talep sonucu",
+    "definition": "Davacının mahkemeden açıkça istediği hüküm; dilekçenin HMK m. 119/1-ğ bendindeki zorunlu unsuru."
+   },
+   {
+    "term": "Somutlaştırma yükü",
+    "definition": "Tarafların vakıalarını ispata elverişli şekilde açıklama ve delillerini hangi vakıa için gösterdiklerini belirtme yükü (HMK m. 194)."
+   },
+   {
+    "term": "Davanın geri alınması",
+    "definition": "Davacının hüküm kesinleşinceye kadar, davalının açık rızasıyla davadan çekilmesi; sonuç davanın açılmamış sayılmasıdır (HMK m. 123)."
+   },
+   {
+    "term": "İradi taraf değişikliği",
+    "definition": "Davanın tarafının, kural olarak karşı tarafın açık rızasıyla, iradi olarak değiştirilmesi (HMK m. 124)."
+   },
+   {
+    "term": "Müteselsil sorumluluk",
+    "definition": "Birden çok kişinin aynı borçtan her birinin tamamından sorumlu olması; burada devreden ve devralanın yargılama giderlerinden sorumluluğu (HMK m. 125)."
+   },
+   {
+    "term": "Dava konusunun devri",
+    "definition": "Dava devam ederken uyuşmazlık konusu hakkın veya şeyin üçüncü kişiye devredilmesi (HMK m. 125)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "114",
+   "official_text": "Dava şartları\nMADDE 114- (1) Dava şartları şunlardır:\na) Türk mahkemelerinin yargı hakkının bulunması.\nb) Yargı yolunun caiz olması.\nc) Mahkemenin görevli olması.\nç) Yetkinin kesin olduğu hâllerde, mahkemenin yetkili bulunması.\nd) Tarafların, taraf ve dava ehliyetine sahip olmaları; kanuni temsilin söz konusu olduğu hâllerde, temsilcinin gerekli niteliğe sahip bulunması.\ne) Dava takip yetkisine sahip olunması.\nf) Vekil aracılığıyla takip edilen davalarda, vekilin davaya vekâlet ehliyetine sahip olması ve usulüne uygun düzenlenmiş bir vekâletnamesinin bulunması.\ng) Davacının yatırması gereken gider avansının yatırılmış olması.\nğ) Teminat gösterilmesine ilişkin kararın gereğinin yerine getirilmesi.\nh) Davacının, dava açmakta hukuki yararının bulunması.\nı) Aynı davanın, daha önceden açılmış ve hâlen görülmekte olmaması.\ni) Aynı davanın, daha önceden kesin hükme bağlanmamış olması.\n(2) Diğer kanunlarda yer alan dava şartlarına ilişkin hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "115",
+   "official_text": "Dava şartlarının incelenmesi\nMADDE 115- (1) Mahkeme, dava şartlarının mevcut olup olmadığını, davanın her aşamasında kendiliğinden araştırır. Taraflar da dava şartı noksanlığını her zaman ileri sürebilirler.\n(2) Mahkeme, dava şartı noksanlığını tespit ederse davanın usulden reddine karar verir. Ancak, dava şartı noksanlığının giderilmesi mümkün ise bunun tamamlanması için kesin süre verir. Bu süre içinde dava şartı noksanlığı giderilmemişse davayı dava şartı yokluğu sebebiyle usulden reddeder.\n(3) Dava şartı noksanlığı, mahkemece, davanın esasına girilmesinden önce fark edilmemiş, taraflarca ileri sürülmemiş ve fakat hüküm anında bu noksanlık giderilmişse, başlangıçtaki dava şartı noksanlığından ötürü, dava usulden reddedilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "118",
+   "official_text": "Davanın açılma zamanı\nMADDE 118- (1) Dava, dava dilekçesinin kaydedildiği tarihte açılmış sayılır. Dava dilekçesine davalı sayısı kadar örnek eklenir.\n(2) Dava dilekçesinin kaydına ilişkin usul ve esaslar yönetmelikte belirlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "119",
+   "official_text": "Dava dilekçesinin içeriği\nMADDE 119- (1) Dava dilekçesinde aşağıdaki hususlar bulunur:\na) Mahkemenin adı.\nb) Davacı ile davalının adı, soyadı ve adresleri.\nc) Davacının Türkiye Cumhuriyeti kimlik numarası.\nç) Varsa tarafların kanuni temsilcilerinin ve davacı vekilinin adı, soyadı ve adresleri.\nd) Davanın konusu ve malvarlığı haklarına ilişkin davalarda, dava konusunun değeri.\ne) Davacının iddiasının dayanağı olan bütün vakıaların sıra numarası altında açık özetleri.\nf) İddia edilen her bir vakıanın hangi delillerle ispat edileceği.\ng) Dayanılan hukuki sebepler.\nğ) Açık bir şekilde talep sonucu.\nh) Davacının, varsa kanuni temsilcisinin veya vekilinin imzası.\n(2) Birinci fıkranın (a), (d), (e), (f) ve (g) bentleri dışında kalan hususların eksik olması hâlinde, hâkim davacıya eksikliği tamamlaması için bir haftalık kesin süre verir. Bu süre içinde eksikliğin tamamlanmaması hâlinde dava açılmamış sayılır.\nHarç ve gider avansının ödenmesi[10][11]\n[10] Bu maddenin birinci fıkrasında yer alan tarife ile ilgili olarak 24/10/2023 tarihli ve 32349 sayılı Resmi Gazete’de yayımlanan “Hukuk Muhakemeleri Kanunu Gider Avansı Tarifesi”ne bakınız.\n[11] 22/7/2020 tarihli ve 7251 sayılı Kanunun 9 uncu maddesiyle, bu madde başlığı “Harç ve avans ödenmesi” iken metne işlendiği şekilde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "120",
+   "official_text": "MADDE 120- (1) Davacı, yargılama harçları ile her yıl Adalet Bakanlığınca çıkarılacak gider avansı tarifesinde belirlenecek olan tutarı, dava açarken mahkeme veznesine yatırmak zorundadır.\n(2) Avansın yeterli olmadığının dava sırasında anlaşılması hâlinde, mahkemece, bu eksikliğin tamamlanması için davacıya iki haftalık kesin süre verilir.\n(3) (Ek:22/7/2020-7251/9 md.) Taraflardan her birinin ikamesini talep ettiği delil için mahkemece belirlenen delil avansına ilişkin 324 üncü madde hükümleri saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "121",
+   "official_text": "Belgelerin birlikte verilmesi\nMADDE 121- (1) Dava dilekçesinde gösterilen ve davacının elinde bulunan belgelerin asıllarıyla birlikte harç ve vergiye tabi olmaksızın davalı sayısından bir fazla düzenlenmiş örneklerinin veya sadece örneklerinin dilekçeye eklenerek, mahkemeye verilmesi ve başka yerlerden getirtilecek belge ve dosyalar için de bunların bulunabilmesini sağlayıcı açıklamanın dilekçede yer alması zorunludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "122",
+   "official_text": "Dava dilekçesinin tebliği\nMADDE 122- (1) Dava dilekçesi, mahkeme tarafından davalıya tebliğ edilir. Davalının iki hafta içinde davaya cevap verebileceği tebliğ zarfında gösterilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "123",
+   "official_text": "Davanın geri alınması\nMADDE 123- (1) Davacı, hüküm kesinleşinceye kadar, ancak davalının açık rızası ile davasını geri alabilir. (Ek cümle:22/7/2020-7251/10 md.) Bu takdirde davanın açılmamış sayılmasına karar verilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "124",
+   "official_text": "Tarafta iradî değişiklik\nMADDE 124- (1) Bir davada taraf değişikliği, ancak karşı tarafın açık rızası ile mümkündür.\n(2) Bu konuda kanunlarda yer alan özel hükümler saklıdır.\n(3) Ancak, maddi bir hatadan kaynaklanan veya dürüstlük kuralına aykırı olmayan taraf değişikliği talebi, karşı tarafın rızası aranmaksızın hâkim tarafından kabul edilir.\n(4) Dava dilekçesinde tarafın yanlış veya eksik gösterilmesi kabul edilebilir bir yanılgıya dayanıyorsa, hâkim karşı tarafın rızasını aramaksızın taraf değişikliği talebini kabul edebilir. Bu durumda hâkim, davanın tarafı olmaktan çıkarılan ve aleyhine dava açılmasına sebebiyet vermeyen kişi lehine yargılama giderlerine hükmeder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "125",
+   "official_text": "Dava konusunun devri\nMADDE 125- (1) Davanın açılmasından sonra, davalı taraf, dava konusunu üçüncü bir kişiye devrederse, davacı aşağıdaki yetkilerden birini kullanabilir:\na) İsterse, devreden tarafla olan davasından vazgeçerek, dava konusunu devralmış olan kişiye karşı davaya devam eder. Bu takdirde dava davacı lehine sonuçlanırsa, dava konusunu devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur.[12]\nb) İsterse, davasını devreden taraf hakkında tazminat davasına dönüştürür.\n(2) Davanın açılmasından sonra, dava konusu davacı tarafından devredilecek olursa, devralmış olan kişi, görülmekte olan davada davacı yerine geçer ve dava kaldığı yerden itibaren devam eder. (Ek cümle:22/7/2020-7251/11 md.) Bu takdirde dava davacı aleyhine sonuçlanırsa, dava konusunu devreden ve devralan yargılama giderlerinden müteselsilen sorumlu olur.\n[12] 22/7/2020 tarihli ve 7251 sayılı Kanunun 11 inci maddesiyle, bu bendin ikinci cümlesinde yer alan “davacı davayı kazanırsa” ibaresi “dava davacı lehine sonuçlanırsa” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "31",
+   "official_text": "Hâkimin davayı aydınlatma ödevi\nMADDE 31- (1) Hâkim, uyuşmazlığın aydınlatılmasının zorunlu kıldığı durumlarda, maddi veya hukuki açıdan belirsiz yahut çelişkili gördüğü hususlar hakkında, taraflara açıklama yaptırabilir; soru sorabilir; delil gösterilmesini isteyebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "33",
+   "official_text": "Hukukun uygulanması\nMADDE 33- (1) Hâkim, Türk hukukunu resen uygular.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "46",
+   "official_text": "Devletin sorumluluğu ve rücu\nMADDE 46- (1) Hâkimlerin yargılama faaliyetinden dolayı aşağıdaki sebeplere dayanılarak Devlet aleyhine tazminat davası açılabilir:\na) Kayırma veya taraf tutma yahut taraflardan birine olan kin veya düşmanlık sebebiyle hukuka aykırı bir hüküm veya karar verilmiş olması.\nb) Sağlanan veya vaat edilen bir menfaat sebebiyle kanuna aykırı bir hüküm veya karar verilmiş olması.\nc) Farklı bir anlam yüklenemeyecek kadar açık ve kesin bir kanun hükmüne aykırı karar veya hüküm verilmiş olması.\nç) Duruşma tutanağında mevcut olmayan bir sebebe dayanılarak hüküm verilmiş olması.\nd) Duruşma tutanakları ile hüküm veya kararların değiştirilmiş yahut tahrif edilmiş veya söylenmeyen bir sözün hüküm ya da karara etkili olacak şekilde söylenmiş gibi gösterilmiş ve buna dayanılarak hüküm verilmiş olması.\ne) Hakkın yerine getirilmesinden kaçınılmış olması.\n(2) Tazminat davasının açılması, hâkime karşı bir ceza soruşturmasının yapılması yahut mahkûmiyet şartına bağlanamaz.\n(3) Devlet, ödediği tazminat nedeniyle, sorumlu hâkime ödeme tarihinden itibaren bir yıl içinde rücu eder.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "94",
+   "official_text": "Kesin süreMADDE 94- (1) Kanunun belirlediği süreler kesindir.\n(2) (Değişik:22/7/2020-7251/6 md.) Hâkim, tayin ettiği sürenin kesin olduğuna karar verebilir. Bu takdirde hâkim, tayin ettiği kesin süreye konu olan işlemi hiçbir duraksamaya yer vermeyecek şekilde açıklar ve süreye uyulmamasının hukuki sonuçlarını açıkça tutanağa geçirerek ihtar eder. Kesin olduğu belirtilmeyen süreyi geçirmiş olan taraf yeniden süre isteyebilir; bu şekilde verilecek ikinci süre kesindir ve yeniden süre verilemez.\n(3) Kesin süre içinde yapılması gereken işlemi, süresinde yapmayan tarafın, o işlemi yapma hakkı ortadan kalkar.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "194",
+   "official_text": "MADDE 194- (1) Taraflar, dayandıkları vakıaları, ispata elverişli şekilde somutlaştırmalıdırlar.\n(2) Tarafların, dayandıkları delilleri ve hangi delilin hangi vakıanın ispatı için gösterildiğini açıkça belirtmeleri zorunludur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "307",
+   "official_text": "Davadan feragat\nMADDE 307- (1) Feragat, davacının, talep sonucundan kısmen veya tamamen vazgeçmesidir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "309",
+   "official_text": "Feragat ve kabulün şekli\nMADDE 309- (1) Feragat ve kabul, dilekçeyle veya yargılama sırasında sözlü olarak yapılır.\n(2) Feragat ve kabulün hüküm ifade etmesi, karşı tarafın ve mahkemenin muvafakatine bağlı değildir.\n(3) Kısmen feragat veya kabulde, feragat edilen veya kabul edilen kısmın, dilekçede yahut tutanakta açıkça gösterilmesi gerekir.\n(4) Feragat ve kabul, kayıtsız ve şartsız olmalıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "311",
+   "official_text": "Feragat ve kabulün sonuçları\nMADDE 311- (1) Feragat ve kabul, kesin hüküm gibi hukuki sonuç doğurur. İrade bozukluğu hâllerinde, feragat ve kabulün iptali istenebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "HUKUK MUHAKEMELERİ KANUNU",
+   "law_no": "6100",
+   "article_no": "324",
+   "official_text": "Delil ikamesi için avans\nMADDE 324- (1) Taraflardan her biri ikamesini talep ettiği delil için mahkemece belirlenen avansı, verilen kesin süre içinde yatırmak zorundadır. Taraflar birlikte aynı delilin ikamesini talep etmişlerse, gereken gideri yarı yarıya avans olarak öderler.\n(2) Taraflardan birisi avans yükümlülüğünü yerine getirmezse, diğer taraf bu avansı yatırabilir. Aksi hâlde talep olunan delilin ikamesinden vazgeçilmiş sayılır.\n(3) Tarafların üzerinde serbestçe tasarruf edemeyeceği dava ve işler hakkındaki hükümler saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6100&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK BORÇLAR KANUNU",
+   "law_no": "6098",
+   "article_no": "154",
+   "official_text": "MADDE 154- Aşağıdaki durumlarda zamanaşımı kesilir:\n1. Borçlu borcu ikrar etmişse, özellikle faiz ödemiş veya kısmen ifada bulunmuşsa ya da rehin vermiş veya kefil göstermişse.\n2. Alacaklı, dava veya def’i yoluyla mahkemeye veya hakeme başvurmuşsa, icra takibinde bulunmuşsa ya da iflas masasına başvurmuşsa.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6098&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/587",
+   "karar_no": "2025/936",
+   "decision_date": "25.12.2025",
+   "summary_md": "Davacı, bir asliye hukuk mahkemesinin yargılama faaliyetinden dolayı HMK m. 46'ya dayanarak 50.000 TL maddi ve 750.000 TL manevi tazminat istemiş, davayı Devlet (Hazine) yerine Adalet Bakanlığına yöneltmiştir. İlk derece mahkemesi sıfatıyla Yargıtay 11. Hukuk Dairesi davayı pasif husumet yokluğundan reddetmiştir. Hukuk Genel Kurulu, HMK m. 46 davalarının Devlet aleyhine açılması gerektiğini, davacının yargılama boyunca kabul edilebilir bir yanılgıya düştüğünü ileri sürüp HMK m. 124 uyarınca taraf değişikliği talep etmediğini, aksine Adalet Bakanlığına husumet yöneltmekte ısrar ettiğini saptamış ve ret kararını onamıştır. Karar, tarafın yanlış gösterilmesinde HMK m. 124/3-4'ün kendiliğinden işlemeyeceğini, taraf değişikliği talebinin ileri sürülmesi gerektiğini gösterir.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1200183000",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2025/568",
+   "karar_no": "2026/363",
+   "decision_date": "10.06.2026",
+   "summary_md": "Banka, bir kefalet uyuşmazlığına ilişkin birleşen itirazın iptali davasında davacıdır. Dava konusu alacağı icra müdürü önünde düzenlenen temlik sözleşmesiyle 04.04.2022'de üçüncü kişiye devretmiş, 12.04.2022'de banka vekili davadan feragat etmiştir. İlk derece mahkemesi feragat nedeniyle davaları reddetmiş, bölge adliye mahkemesi istinaf başvurusunu esastan reddetmiş, Yargıtay 11. Hukuk Dairesi bu kararı bozmuş, ilk derece mahkemesi direnmiştir. Hukuk Genel Kurulu, davacının dava konusunu devretmesi hâlinde devralanın HMK m. 125/2 uyarınca kendiliğinden davacı yerine geçtiğini, devreden bankanın alacak üzerindeki tasarruf yetkisinin kalmadığını, bu nedenle temlikten sonra yapılan feragatin sonuç doğurmayacağının açık olduğunu belirtmiş; ancak temlik sözleşmesinin içeriği ile feragat beyanının birlikte değerlendirilmesi için direnme kararını bozmuştur.",
+   "source_url": "https://karararama.yargitay.gov.tr/getDokuman?id=1230936800",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Dava, HMK'ya göre hangi anda açılmış sayılır?",
+   "options": [
+    "Dava dilekçesinin kaydedildiği tarihte",
+    "Dava dilekçesinin davalıya tebliğ edildiği anda",
+    "Ön inceleme duruşmasının yapıldığı anda",
+    "Gider avansının tamamlandığı anda"
+   ],
+   "correct_option": 0,
+   "explanation_md": "HMK m. 118/1'e göre dava, dava dilekçesinin kaydedildiği tarihte açılmış sayılır. Tebliğ davalıyı haberdar eder ve cevap süresini başlatır, ama davanın açılma anını belirlemez."
+  },
+  {
+   "stem_md": "HMK m. 119/2'ye göre eksikliği hâlinde bir haftalık kesin süre verilen ve tamamlanmazsa davanın açılmamış sayılmasına yol açan unsur aşağıdakilerden hangisidir?",
+   "options": [
+    "İddia edilen vakıaların hangi delillerle ispat edileceği",
+    "Mahkemenin adı",
+    "Dayanılan hukuki sebepler",
+    "Davacının imzası"
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 119/2, mahkeme adı, dava konusu ve değeri, vakıalar, deliller ve hukuki sebepler dışındaki hususların eksikliğinde bir haftalık kesin süre verir. İmza bu kapsamdadır; hukuki sebepler, deliller ve mahkeme adı kapsam dışıdır."
+  },
+  {
+   "stem_md": "Ayşe'nin dava dilekçesinde talep sonucu yazılmamıştır. Hâkim eksikliği bildirerek süre vermiş, Ayşe süre içinde tamamlamamıştır. Sonuç nedir?",
+   "options": [
+    "Dava feragat edilmiş sayılır",
+    "Dava usulden reddedilir",
+    "Dava açılmamış sayılır",
+    "Hâkim talep sonucunu kendiliğinden belirler"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Açık talep sonucu HMK m. 119/1-ğ bendidir ve HMK m. 119/2 kapsamındadır. Bir haftalık kesin sürede tamamlanmazsa dava açılmamış sayılır. Usulden ret, gider avansı eksikliğinin sonucudur (HMK m. 115/2)."
+  },
+  {
+   "stem_md": "Mehmet, dava açarken gider avansının bir kısmını yatırmış, avansın yetersiz olduğu dava sırasında anlaşılmıştır. Mahkeme ne yapar?",
+   "options": [
+    "Bir haftalık kesin süre verir; tamamlanmazsa dava açılmamış sayılır",
+    "Yalnız ilgili delilin ikamesinden vazgeçilmiş sayar",
+    "İki haftalık kesin süre verir; tamamlanmazsa dava şartı yokluğundan usulden reddeder",
+    "Davayı hemen esastan reddeder"
+   ],
+   "correct_option": 2,
+   "explanation_md": "HMK m. 120/2 iki haftalık kesin süre öngörür. Gider avansı bir dava şartı olduğu için (HMK m. 114/1-g) noksanlık giderilmezse dava usulden reddedilir (HMK m. 115/2). Bir hafta ve açılmamış sayılma HMK m. 119/2'nin sonucudur; delilden vazgeçilmiş sayılma ise delil avansına özgüdür (HMK m. 324)."
+  },
+  {
+   "stem_md": "Davacı Selin, ikamesini istediği tanık için mahkemenin belirlediği delil avansını kesin sürede yatırmamıştır; avansı karşı taraf da yatırmamıştır. Sonuç nedir?",
+   "options": [
+    "Dava usulden reddedilir",
+    "Dava açılmamış sayılır",
+    "Talep edilen delilin ikamesinden vazgeçilmiş sayılır",
+    "Dava feragat ile sonuçlanır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "HMK m. 120/3, delil avansı konusunda HMK m. 324'ü saklı tutar. HMK m. 324/2'ye göre avans yatırılmazsa, diğer taraf da yatırmadığı takdirde, talep olunan delilin ikamesinden vazgeçilmiş sayılır. Dava şartı olan gider avansından farklı olarak davaya etkisi yoktur."
+  },
+  {
+   "stem_md": "Davacı Ali, davasını geri almak istiyor. HMK m. 123'e göre hangisi doğrudur?",
+   "options": [
+    "Davalının rızası gerekmez, çünkü geri alma tek taraflı işlemdir",
+    "Yalnız ön inceleme duruşmasına kadar geri alınabilir",
+    "Davalının açık rızası gerekir; sonuçta kesin hüküm gibi sonuç doğar",
+    "Davalının açık rızası gerekir; sonuçta davanın açılmamış sayılmasına karar verilir"
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 123/1: davacı hüküm kesinleşinceye kadar, ancak davalının açık rızasıyla davasını geri alabilir ve bu takdirde davanın açılmamış sayılmasına karar verilir. Davalının rızasına bağlı olmayan ve kesin hüküm gibi sonuç doğuran kurum feragattir (HMK m. 309/2, HMK m. 311)."
+  },
+  {
+   "stem_md": "Zeynep'in açtığı davada davalı X, dava devam ederken dava konusunu üçüncü kişiye devretmiştir. Zeynep'in önündeki yetki aşağıdakilerden hangisidir?",
+   "options": [
+    "Davacı devralana karşı davaya devam edebilir ya da davasını devreden hakkında tazminat davasına dönüştürebilir",
+    "Dava konusunun devri davayı sona erdirir",
+    "Davacı yalnızca devralana karşı davaya devam edebilir, başka seçeneği yoktur",
+    "Devralan kendiliğinden davalı yerine geçer"
+   ],
+   "correct_option": 0,
+   "explanation_md": "HMK m. 125/1 uyarınca davalı dava konusunu devrederse davacı iki seçenekten birini kullanır: devralana karşı davaya devam eder ya da davayı devreden hakkında tazminat davasına dönüştürür. Devralanın kendiliğinden yerine geçmesi davacının devri hâlinde söz konusudur (HMK m. 125/2)."
+  },
+  {
+   "stem_md": "Davacı Kemal, dava devam ederken dava konusu alacağı Leyla'ya temlik etmiştir. HMK m. 125/2'ye göre sonuç hangisidir?",
+   "options": [
+    "Davacının rızası olmadığı için dava konusuz kalır",
+    "Davalı, davaya devam edip etmemeyi seçer",
+    "Kemal tazminat davası açmak zorundadır",
+    "Leyla görülmekte olan davada davacı yerine geçer ve dava kaldığı yerden devam eder"
+   ],
+   "correct_option": 3,
+   "explanation_md": "HMK m. 125/2: davacı dava konusunu devrederse devralan kişi görülmekte olan davada davacı yerine geçer ve dava kaldığı yerden devam eder. Davalıya seçimlik yetki tanınmamıştır. Dava davacı aleyhine sonuçlanırsa devreden ve devralan yargılama giderlerinden müteselsilen sorumludur."
+  },
+  {
+   "stem_md": "Hazırlanan bir dilekçede, davalıyı \"A Ltd. Şti.\" yerine yanlışlıkla \"B Ltd. Şti.\" olarak göstermek kabul edilebilir bir yanılgıya dayanmaktadır. HMK m. 124'e göre hâkim ne yapabilir?",
+   "options": [
+    "Karşı tarafın rızasını aramaksızın taraf değişikliği talebini kabul edebilir ve taraf olmaktan çıkarılan kişi lehine yargılama giderlerine hükmeder",
+    "Taraf değişikliğini yalnız ıslah yoluyla kabul eder",
+    "Davayı hemen usulden reddeder",
+    "Karşı tarafın rızasını arayarak taraf değişikliği talebini değerlendirir; rıza yoksa mutlaka reddeder"
+   ],
+   "correct_option": 0,
+   "explanation_md": "HMK m. 124/4: taraf kabul edilebilir bir yanılgıyla yanlış veya eksik gösterilmişse hâkim karşı tarafın rızasını aramaksızın taraf değişikliği talebini kabul edebilir ve davanın tarafı olmaktan çıkarılan ve aleyhine dava açılmasına sebebiyet vermeyen kişi lehine yargılama giderlerine hükmeder. Islah taraf değiştirme aracı değildir."
+  },
+  {
+   "stem_md": "Davacı Ahmet, dilekçesine davalı sayısı kadar örnek eklememiştir ve dilekçede kendi T.C. kimlik numarası bulunmamaktadır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "T.C. kimlik numarası eksikliği kapsam dışıdır; dava derhâl usulden reddedilir",
+    "T.C. kimlik numarası eksikliği HMK m. 119/2 kapsamındadır; bir haftalık kesin süre verilir",
+    "Dilekçenin imzalanmış olması tek başına eksiklikleri giderir",
+    "Dava, dilekçe tebliğ edildiği anda açılmış sayılır"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Davacının T.C. kimlik numarası HMK m. 119/1-c bendidir; HMK m. 119/2'de sayılan kapsam dışı bentlerden (a), (d), (e), (f), (g) biri olmadığı için kapsam içidir. Hâkim bir haftalık kesin süre verir; tamamlanmazsa dava açılmamış sayılır."
+  },
+  {
+   "stem_md": "Hukuk Genel Kurulu bir kararında, davacının dava konusu alacağı üçüncü kişiye devrettikten sonra yaptığı feragat konusunda hangi ilkeyi vurgulamıştır?",
+   "options": [
+    "Devirden sonra yapılan feragat her hâlde geçerlidir",
+    "Devralan ancak yeni dava açarak taraf olabilir",
+    "Devir yalnızca davalının rızasıyla davaya etki eder",
+    "Devralanın davacı yerine geçmesi nedeniyle devreden davacının tasarruf yetkisi kalmadığı, devirden sonra yapılan feragatin sonuç doğurmayacağı"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Karara göre HMK m. 125/2 uyarınca devralan kendiliğinden davacı yerine geçer; devreden davacının alacak üzerinde tasarruf yetkisi kalmadığından devirden sonraki feragat sonuç doğurmaz. Ayrıca temlik ve feragatin birlikte değerlendirilmesi gerektiği belirtilmiştir."
+  },
+  {
+   "stem_md": "Kemal, Veli'ye karşı açtığı davada dilekçesinde hukuki sebep göstermemiştir; ancak vakıaları sıra numarasıyla, delillerini ve talep sonucunu yazmış, dilekçeyi imzalamıştır. Doğru sonuç hangisidir?",
+   "options": [
+    "Hukuki sebep eksikliği HMK m. 119/2 kapsamında olduğundan bir hafta kesin süre verilir; tamamlanmazsa dava açılmamış sayılır",
+    "Hukuki sebep (g) bendi HMK m. 119/2 kapsamı dışındadır; dava açılmamış sayılmaz, hâkim Türk hukukunu resen uygular",
+    "Dava derhâl usulden reddedilir",
+    "Dava, gider avansı yatırılana kadar açılmış sayılmaz"
+   ],
+   "correct_option": 1,
+   "explanation_md": "HMK m. 119/1-g hukuki sebepleri sayar ancak HMK m. 119/2'nin (a), (d), (e), (f) ve (g) istisnası içindedir. Hâkim ayrıca Türk hukukunu resen uygular (HMK m. 33). Bu nedenle açılmamış sayılma yaptırımı işlemez."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Davacı Ali Yıldız, komşusu Kemal Demir'e karşı, Kemal adına kayıtlı bir taşınmazın gerçekte kendisine ait olduğu iddiasıyla tapu iptali ve tescil davası açmıştır. 10 Mart'ta UYAP'a kaydedilen dilekçede mahkeme adı, tarafların adresleri, vakıalar ve deliller yazılmış; ancak davacının T.C. kimlik numarası bulunmamakta ve dilekçe imzalanmamıştır. Hukuki sebep dilekçede gösterilmemiştir. Hâkim, Ali'ye 12 Mart'ta tebliğ ettiği ara kararla eksiklikleri tamamlaması için süre vermiştir. Ali eksiklikleri verilen sürede tamamlamıştır.\n\nDavanın görülmesi sırasında gider avansının yetersiz kaldığı anlaşılmış, mahkeme Ali'ye iki hafta kesin süre vermiştir. Ali süreyi kaçırmıştır.\n\nBundan bağımsız olarak, Kemal dava devam ederken dava konusu taşınmazı Selin'e devretmiştir.\n\n1. Dava hangi tarihte açılmış sayılır, hâkimin verdiği süre ve eksikliklerin niteliği nedir?\n2. Hukuki sebebin yazılmaması bir sonuç doğurur mu?\n3. Gider avansını tamamlamayan Ali bakımından sonuç nedir?\n4. Kemal'in devri karşısında davacının seçenekleri nelerdir?",
+   "rubric": [
+    {
+     "point": "Davanın kayıt tarihinde açılması ve tebliğin açılma anını belirlememesi",
+     "weight": 15,
+     "madde_ref": "HMK m. 118"
+    },
+    {
+     "point": "T.C. kimlik no ve imza eksikliğinin HMK m. 119/2 kapsamında olması ve bir haftalık kesin süre",
+     "weight": 20,
+     "madde_ref": "HMK m. 119"
+    },
+    {
+     "point": "Hukuki sebep (g) bendinin HMK m. 119/2 kapsamı dışında kalması",
+     "weight": 15,
+     "madde_ref": "HMK m. 119"
+    },
+    {
+     "point": "Gider avansı eksikliğinde iki hafta kesin süre ve dava şartı yokluğundan usulden ret",
+     "weight": 25,
+     "madde_ref": "HMK m. 120"
+    },
+    {
+     "point": "Davalı devri hâlinde davacının iki seçimlik yetkisi",
+     "weight": 25,
+     "madde_ref": "HMK m. 125"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, dilekçe unsurlarının eksikliği, gider avansı ve davalı tarafından dava konusunun devri sorunlarını bir arada içerir.\n\n**Hukuki sorunlar:** (1) Davanın açılma anı ve dilekçe eksikliklerinin yaptırımı; (2) kapsam dışı bir bendin eksikliği; (3) gider avansının yetersizliği; (4) davalının devri.\n\n**İlgili hükümler ve değerlendirme:**\n\n1. HMK m. 118/1'e göre dava dilekçesinin kaydedildiği 10 Mart'ta açılmış sayılır; 12 Mart'taki ara kararın tebliği açılma tarihini değiştirmez. T.C. kimlik numarası HMK m. 119/1-c bendi, imza HMK m. 119/1-h bendidir. Bu iki bent HMK m. 119/2'de dışarıda bırakılan (a), (d), (e), (f), (g) bentlerinden değildir; dolayısıyla kapsam içidir. Hâkim bir haftalık kesin süre verir ve Ali süre içinde tamamladığı için dava ilk kayıt tarihinde açılmış sayılmaya devam eder. Süre içinde tamamlanmasaydı dava açılmamış sayılacaktı.\n\n2. Hukuki sebep HMK m. 119/1-g bendidir ve HMK m. 119/2 kapsamı dışındadır. Dolayısıyla eksikliği için bir haftalık kesin süre ve açılmamış sayılma yaptırımı işlemez. Hâkim Türk hukukunu resen uygular (HMK m. 33).\n\n3. Gider avansı HMK m. 114/1-g uyarınca dava şartıdır. Avansın yetersizliği anlaşıldığında HMK m. 120/2'ye göre iki haftalık kesin süre verilir. Ali süreyi kaçırdığı için dava şartı noksanlığı giderilememiş olur ve mahkeme HMK m. 115/2 uyarınca davayı dava şartı yokluğu sebebiyle usulden reddeder. Dikkat: bu sonuç, \"dava açılmamış sayılır\" değildir.\n\n4. Davalı Kemal dava konusunu devrettiğinden HMK m. 125/1 uygulanır. Ali, (a) devreden Kemal'le olan davasından vazgeçip devralan Selin'e karşı davaya devam edebilir; dava lehine sonuçlanırsa Kemal ve Selin yargılama giderlerinden müteselsilen sorumlu olur; ya da (b) davasını Kemal hakkında tazminat davasına dönüştürebilir. Selin'in kendiliğinden davalı yerine geçmesi söz konusu değildir; seçim davacıya aittir.\n\n**Sonuç:** Dava 10 Mart'ta açılmıştır; kimlik numarası ve imza eksikliği tamamlandığından bu yönden sorun yoktur; hukuki sebep eksikliği yaptırım doğurmaz; gider avansı tamamlanmadığı için dava usulden reddedilir; devir bakımından Ali'nin iki seçimlik yetkisi vardır."
+  },
+  {
+   "stem_md": "A Bankası, kredi borçlusu Zeynep Arslan yerine, aynı adreste oturan kardeşi Mehmet Arslan'a karşı alacak davası açmıştır; davalı dilekçede yanlış gösterilmiştir. Dava devam ederken banka, dava konusu alacağı X Varlık Yönetim A.Ş.'ye temlik etmiştir. Daha sonra davalının yanlış gösterildiği anlaşılmış ve davalı tarafın değiştirilmesi talep edilmiştir; yanılgının kabul edilebilir olduğu varsayılacaktır; Mehmet'in, davanın kendisine yöneltilmesine yol açan bir davranışı yoktur. Son olarak banka vekili, temlikten sonra \"davayı geri almak istiyoruz\" demiştir.\n\n1. Temlik sonrası davanın davacısı kimdir ve yargılama giderleri bakımından sonuç ne olur?\n2. Davalı olarak Mehmet yerine Zeynep'e karşı davanın sürdürülmesi için hangi yol izlenir, Mehmet'in giderleri ne olur?\n3. Geri alma talebi bakımından hangi şartlar aranır ve sonuç ne olur?",
+   "rubric": [
+    {
+     "point": "Davacının devri hâlinde devralanın kendiliğinden davacı yerine geçmesi",
+     "weight": 25,
+     "madde_ref": "HMK m. 125"
+    },
+    {
+     "point": "Devreden ve devralanın aleyhe sonuçta yargılama giderlerinden müteselsil sorumluluğu",
+     "weight": 15,
+     "madde_ref": "HMK m. 125"
+    },
+    {
+     "point": "Kabul edilebilir yanılgıda taraf değişikliğinin karşı tarafın rızası aranmaksızın kabulü",
+     "weight": 25,
+     "madde_ref": "HMK m. 124"
+    },
+    {
+     "point": "Taraf olmaktan çıkarılan kişi lehine yargılama giderlerine hükmedilmesi",
+     "weight": 10,
+     "madde_ref": "HMK m. 124"
+    },
+    {
+     "point": "Geri almada davalının açık rızası ve açılmamış sayılma kararı",
+     "weight": 25,
+     "madde_ref": "HMK m. 123"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, davacı tarafından dava konusunun devri, tarafta iradi değişiklik ve davanın geri alınması kurumlarını bir arada sorar.\n\n**Hukuki sorunlar:** (1) Davacı devri hâlinde taraf kimdir? (2) Yanlış gösterilen davalının değiştirilmesi; (3) davanın geri alınması.\n\n**İlgili hükümler ve değerlendirme:**\n\n1. A Bankası dava konusu alacağı davanın açılmasından sonra devrettiği için HMK m. 125/2 uygulanır. Devralan X Varlık Yönetim A.Ş., görülmekte olan davada davacı yerine kendiliğinden geçer ve dava kaldığı yerden devam eder. Davalının rızası ya da seçimi aranmaz. Dava davacı aleyhine sonuçlanırsa devreden A Bankası ile devralan X yargılama giderlerinden müteselsilen sorumlu olur.\n\n2. Davalının yanlış gösterilmesi kabul edilebilir bir yanılgıya dayanıyorsa HMK m. 124/4 uyarınca hâkim, karşı tarafın rızasını aramaksızın taraf değişikliği talebini kabul edebilir. Bu durumda hâkim, davanın tarafı olmaktan çıkarılan ve aleyhine dava açılmasına sebebiyet vermeyen Mehmet lehine yargılama giderlerine hükmeder. Yanılgının kabul edilebilir olup olmadığı somut olaya göre hâkimce değerlendirilir; kural açık rızadır (HMK m. 124/1). Maddi hatadan kaynaklanan veya dürüstlük kuralına aykırı olmayan değişiklik de rıza aranmadan kabul edilir (HMK m. 124/3).\n\n3. Davanın geri alınması için hüküm kesinleşmemiş olmalı ve davalının açık rızası bulunmalıdır (HMK m. 123/1). Davacı sıfatı devralana geçtiğinden geri alma talebinin de artık devralan tarafından yapılması gerekir. Rıza gösterilirse mahkeme davanın açılmamış sayılmasına karar verir; bu feragat değildir ve kesin hüküm gibi sonuç doğurmaz.\n\n**Sonuç:** Davacı X Varlık Yönetim A.Ş.'dir; taraf değişikliği kabul edilebilir yanılgıya dayanıyorsa rıza gerekmez ve Mehmet lehine giderlere hükmedilir; geri alma yalnız davalının açık rızasıyla mümkündür ve sonuç açılmamış sayılmadır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Dava hangi tarihte açılmış sayılır?",
+   "back_md": "Dava dilekçesinin kaydedildiği tarihte (HMK m. 118/1)."
+  },
+  {
+   "front_md": "HMK m. 119/2 hangi bentleri kapsar?",
+   "back_md": "(a), (d), (e), (f), (g) dışındakileri: (b), (c), (ç), (ğ), (h). Bir hafta kesin süre; tamamlanmazsa dava açılmamış sayılır."
+  },
+  {
+   "front_md": "Hukuki sebep ve deliller eksikse dava açılmamış sayılır mı?",
+   "back_md": "Hayır. (f) deliller ve (g) hukuki sebepler HMK m. 119/2 kapsamı dışındadır."
+  },
+  {
+   "front_md": "Gider avansı eksikliğinde süre ve sonuç?",
+   "back_md": "İki hafta kesin süre (HMK m. 120/2); tamamlanmazsa dava şartı yokluğundan usulden ret (HMK m. 115/2)."
+  },
+  {
+   "front_md": "Delil avansı yatırılmazsa ne olur?",
+   "back_md": "Yalnız o delilin ikamesinden vazgeçilmiş sayılır (HMK m. 120/3, HMK m. 324)."
+  },
+  {
+   "front_md": "Cevap süresi ve bildirim yeri?",
+   "back_md": "Tebliğden itibaren iki hafta; tebliğ zarfında gösterilir (HMK m. 122)."
+  },
+  {
+   "front_md": "Davanın geri alınması için şartlar ve sonuç?",
+   "back_md": "Hüküm kesinleşinceye kadar + davalının açık rızası; sonuç davanın açılmamış sayılması (HMK m. 123)."
+  },
+  {
+   "front_md": "Geri alma ile feragat farkı?",
+   "back_md": "Feragat davalının rızasına bağlı değildir (HMK m. 309/2) ve kesin hüküm gibi sonuç doğurur (HMK m. 311); geri almada rıza şart, dava açılmamış sayılır."
+  },
+  {
+   "front_md": "İradi taraf değişikliğinde kural ve istisnalar?",
+   "back_md": "Kural: karşı tarafın açık rızası (HMK m. 124/1). Rıza aranmaz: maddi hata/dürüstlük kuralına aykırı olmama (m. 124/3) ve kabul edilebilir yanılgı (m. 124/4)."
+  },
+  {
+   "front_md": "Taraf değişikliğinde çıkarılan kişi için yargılama gideri?",
+   "back_md": "Aleyhine dava açılmasına sebebiyet vermemişse onun lehine yargılama giderlerine hükmedilir (HMK m. 124/4)."
+  },
+  {
+   "front_md": "Davalı dava konusunu devrederse davacı ne yapabilir?",
+   "back_md": "Devralana karşı davaya devam eder (devreden ve devralan masraftan müteselsil sorumlu) ya da davayı devreden hakkında tazminat davasına çevirir (HMK m. 125/1)."
+  },
+  {
+   "front_md": "Davacı dava konusunu devrederse ne olur?",
+   "back_md": "Devralan görülmekte olan davada kendiliğinden davacı yerine geçer; aleyhe sonuçta devreden ve devralan giderlerden müteselsil sorumlu (HMK m. 125/2)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
