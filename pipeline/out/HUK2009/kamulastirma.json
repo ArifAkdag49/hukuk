@@ -1,0 +1,466 @@
+{
+ "course_id": "HUK2009",
+ "unit_index": 4,
+ "unit_title": "Ünite 4: Kamu Görevlileri, Kamu Malları ve Kamulaştırma",
+ "topic_index": 4,
+ "slug": "kamulastirma",
+ "title": "Kamulaştırma: Kamu Yararı Kararı, Kamulaştırma Bedeli ve Tespiti, Acele Kamulaştırma, Kamulaştırmasız El Atma",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-24T07:28:03.741148+00:00",
+ "skill_refs": [
+  "idare-hukuku-genel/kamulastirma"
+ ],
+ "content": {
+  "summary_md": "- **Dayanak:** AY m. 46 ve 2942 sayılı Kamulaştırma Kanunu. Devlet ve kamu tüzel kişileri, kamu yararının gerektirdiği hâllerde, gerçek karşılığı peşin ödemek şartıyla özel mülkiyetteki taşınmazların tamamını ya da bir kısmını kamulaştırabilir, üzerlerinde idari irtifak kurabilir (AY m. 46/1).\n- **Bedel ödemesi:** kural nakden ve peşin. Taksit yalnız AY m. 46/2'de sayılan amaçlar için; süre beş yılı aşamaz, taksitler eşit. Küçük çiftçinin bedeli her hâlde peşin (AY m. 46/3). 2942 sayılı Kanun m. 3/2'ye göre peşin kısım bedelin altıda birinden az olamaz. Yeterli ödenek sağlanmadan işleme başlanamaz (2942 sayılı Kanun m. 3/4).\n- **Kamu yararı kararı:** belediye yararına belediye encümeni, il özel idaresi yararına il daimi encümeni, Devlet yararına il idare kurulu, ayrı illere bağlı birden çok kamu tüzel kişisi yararına Cumhurbaşkanı verir (2942 sayılı Kanun m. 5). Kararlar kural olarak onayla tamamlanır.\n- **Ön işlemler ve şerh:** plan, malik tespiti, tapuya şerh. Şerh tarihinden itibaren altı ay içinde bedel tespiti davası açıldığına dair belge verilmezse şerh resen silinir (2942 sayılı Kanun m. 7).\n- **Satın alma usulü öncelikli (2942 sayılı Kanun m. 8):** kıymet takdir ve uzlaşma komisyonları; malik tebliğden itibaren 15 gün içinde başvurur; uzlaşma tutanağı ferağ beyanı ve tescilin hukuki sebebidir; bedel en geç 45 gün içinde hazır edilir. Bu yolla yapılan kamulaştırmaya ya da bedeline itiraz davası açılamaz.\n- **Bedel tespiti ve tescil davası (2942 sayılı Kanun m. 10):** anlaşma yoksa **idare** taşınmazın bulunduğu yer asliye hukuk mahkemesine başvurur; duruşma en geç 30 gün sonrası için; keşif en geç 10 gün, bilirkişi raporu 15 gün içinde. İdareye bedeli yatırması için 15 gün verilir; makbuzla tescil kararı verilir. Mülkiyet **mahkemenin tescil kararıyla** idareye geçer.\n- **Bedel esasları (2942 sayılı Kanun m. 11):** arsada emsal satış, arazide net gelir, yapıda resmî birim fiyat ve yıpranma payı; kamulaştırmayı gerektiren teşebbüsün sebep olacağı değer artışı dikkate alınmaz; irtifakta kıymet düşüklüğü bedeldir.\n- **Dava yolları:** kamulaştırma işleminin hukuka aykırılığı idari yargıda iptal davasıyla; ölçü, parsel gibi maddi hatalar adli yargıda düzeltim davasıyla; bedel asliye hukukta. İlk ikisi için süre tebligattan itibaren otuz gündür.\n- **Vazgeçme, iade, geri alma:** kesinleşmeden sonra ihtiyaç kalmazsa iade (2942 sayılı Kanun m. 22; üç ay, beş yıl sınırı); bedelin kesinleşmesinden itibaren beş yıl hiçbir işlem yapılmazsa geri alma (2942 sayılı Kanun m. 23; hak bir yılda kullanılmazsa düşer).\n- **Acele kamulaştırma (2942 sayılı Kanun m. 27):** yurt savunması ihtiyacı ya da aceleliğine Cumhurbaşkanınca karar verilen veya özel kanunlarla öngörülen olağanüstü hâllerde, mahkeme yedi gün içinde değeri tespit eder; bedel yatırılınca el konulur, diğer işlemler sonradan tamamlanır.\n- **Kamulaştırmasız el atma:** idare kamulaştırma yapmadan taşınmazı fiilen kullanırsa (fiilî) ya da imar planıyla uzun süre kullanılamaz kılarsa (hukukî) malik bedel isteyebilir. Kanunilik ilkesi bakımından AYM ve AİHM çizgisi ihlal bulur.\n- 📌 **Güncel:** AYM 12/2/2026 kararıyla \"Tescil hükmü kesin olup\" ibaresi iptal edildi; karar 21/2/2027'de yürürlüğe girer. 2023 ve 2025 AYM iptalleri ile 2022 tarihli 7421 sayılı Kanun düzenlemeleri de önemlidir.",
+  "content_md": "## 1. Kamulaştırma nedir, anayasal çerçeve\n\n**Kamulaştırma**, idarenin kamu yararı gerektirdiğinde özel mülkiyetteki taşınmazı, gerçek karşılığını ödeyerek malikin iradesine bağlı olmadan mülkiyetine geçirmesidir. Mülkiyet hakkı kamu yararı amacıyla kanunla sınırlanabilir (AY m. 35); kamulaştırmanın ölçüsünü ise AY m. 46 verir.\n\nAY m. 46/1'e göre Devlet ve kamu tüzel kişileri kamu yararının gerektirdiği hâllerde, gerçek karşılıklarını peşin ödemek şartıyla, özel mülkiyetteki taşınmazların tamamını veya bir kısmını kanunla gösterilen esas ve usullere göre kamulaştırmaya ve bunlar üzerinde **idari irtifaklar** kurmaya yetkilidir. Bedel nakden ve peşin ödenir. Taksit yalnız tarım reformunun uygulanması, büyük enerji ve sulama projeleri, iskân projeleri, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amaçlı kamulaştırmalarda kanunla öngörülebilir; taksitlendirme süresi beş yılı aşamaz ve taksitler eşit olur (AY m. 46/2). Toprağı doğrudan işleyen küçük çiftçinin bedeli her hâlde peşin ödenir (AY m. 46/3). Taksitlerde ve ödenmemiş bedellerde kamu alacakları için öngörülen en yüksek faiz uygulanır (AY m. 46/4).\n\n> ⚠️ **Sınavda dikkat:** AY m. 46'daki taksit amaçlarında \"tarım reformu\" vardır; 2942 sayılı Kanun m. 3/2'de sayılmaz. Okul, yol, hastane için taksit yoktur. Faizde de ayrım var: 2942 sayılı Kanun m. 3/2 \"Devlet borçları için öngörülen en yüksek faiz haddi\"ni, AY m. 46/4 \"kamu alacakları için öngörülen en yüksek faiz\"i söyler.\n\n2942 sayılı Kanun m. 3'e göre peşin ödenecek miktar kamulaştırma bedelinin altıda birinden az olamaz; kalan en fazla beş yıl içinde faiziyle eşit taksitlere bağlanır. İdarelerce yeterli ödenek sağlanmadan kamulaştırma işlemlerine başlanamaz (2942 sayılı Kanun m. 3/4).\n\n## 2. Aşamalar (olağan usul)\n\n1. Kamu yararı kararı ve onay.\n2. Plan, malik tespiti ve tapuya şerh.\n3. Satın alma usulü (kıymet takdir ve uzlaşma komisyonları).\n4. Anlaşma yoksa asliye hukukta bedel tespiti ve tescil davası.\n5. Bedelin yatırılması, tescil, boşaltma.\n\n### Kamu yararı kararı\nKararı verecek merci kamulaştırmanın kimin yararına yapıldığına göre değişir (2942 sayılı Kanun m. 5):\n\n| Yarar | Merci |\n|---|---|\n| Belediye | belediye encümeni |\n| İl özel idaresi | il daimi encümeni |\n| Devlet (tek il) | il idare kurulu |\n| Köy | köy ihtiyar kurulu |\n| Ayrı illere bağlı birden çok kamu tüzel kişisi | Cumhurbaşkanı |\n| Birden çok ildeki Devlet yararı | Cumhurbaşkanı |\n\nKamulaştırma Kanunu'nun ilgili hükmüne göre köy ihtiyar kurulu ve belediye encümeni kararları ilçelerde kaymakamın, il merkezlerinde valinin onayıyla tamamlanır. Cumhurbaşkanı veya bakanlıklarca verilen kararlar için ayrıca onay gerekmez. Onaylı imar planına ya da bakanlıkça onaylı özel plan ve projeye göre yapılacak hizmetlerde ayrıca kamu yararı kararı alınması gerekmez.\n\n### Ön işlemler ve şerh\nİdare ölçekli plan yapar, malikleri (tapu kaydı yoksa zilyetleri) tespit ettirir. Kamulaştırma kararından sonra tapuya şerh verilmesi bildirilir. Şerh tarihinden itibaren **altı ay içinde** 2942 sayılı Kanun m. 10'a göre bedel tespiti ve tescil isteğiyle dava açıldığına dair mahkemeden alınan belge tapu idaresine verilmezse şerh resen silinir (2942 sayılı Kanun m. 7/3).\n\n### Satın alma usulü\nTapuda kayıtlı taşınmazlarda idarelerin satın alma usulünü **öncelikle** uygulamaları esastır (2942 sayılı Kanun m. 8/1). İdare kendi bünyesinden en az üç kişilik kıymet takdir komisyonu ve en az üç kişilik uzlaşma komisyonu kurar. Tahmini bedel belirtilmeden maliğe resmî taahhütlü yazı gönderilir. Malik yazının tebliğinden itibaren **15 gün** içinde başvurursa pazarlık yapılır; tahmini değeri geçmemek üzere anlaşılırsa düzenlenen tutanak malikin ferağ beyanı ve tapuda idare adına yapılacak tescilin hukuki sebebi sayılır. Bedel en geç **45 gün** içinde hazır edilir; tescilden sonra ödenir. Bu yolla yapılan kamulaştırmaya veya bedeline karşı itiraz davaları açılamaz. Anlaşma veya ferağ olmazsa 2942 sayılı Kanun m. 10'a göre işlem yapılır.\n\n> **Örnek:** X Belediyesi, Ali'nin tarlası için encümen kararı alır; kaymakam onaylar. Belediye tapuya şerh koyar ve satın alma yazısı gönderir. Ali yazının tebliğinden 20 gün sonra cevap verirse 15 günlük süreyi kaçırmıştır; idare dava yoluna gider.\n\n## 3. Bedel tespiti ve tescil davası\n\nSatın alma ile bitmezse **idare**, taşınmazın bulunduğu yer asliye hukuk mahkemesine başvurur; bedelin tespitini ve ödeme karşılığında idare adına tescilini ister (2942 sayılı Kanun m. 10/1). Malik bu davada bedele itiraz eden taraftır; davayı açan idaredir.\n\n- Duruşma, başvuru tarihinden itibaren en geç **30 gün** sonrası için belirlenir.\n- Maliğe meşruhatlı davetiye gider; malik delillerini tebliğden itibaren **10 gün** içinde bildirir.\n- Hâkim önce tarafları anlaşmaya davet eder. Anlaşma olmazsa **en geç 10 gün içinde keşif** yapılır; bilirkişi kurulu raporunu **15 gün** içinde verir.\n- Hâkim adil ve hakkaniyete uygun bir kamulaştırma bedeli tespit eder. İdareye bedeli yatırması ve makbuzu ibraz etmesi için **15 gün** verilir (bir defa uzatılabilir). Makbuz ibrazında mahkeme taşınmazın idare adına tesciline ve bedelin hak sahibine ödenmesine karar verir (2942 sayılı Kanun m. 10/8).\n- Kanun metnine göre tescil hükmü kesindir, tarafların bedele ilişkin istinaf ve temyiz hakları saklıdır.\n\n> 📌 **Kesin bilgi:** Anayasa Mahkemesi 12/2/2026 tarihli kararıyla bu fıkradaki \"Tescil hükmü kesin olup\" ibaresini iptal etmiştir. Karar Resmî Gazete'de yayımlanmasından dokuz ay sonra, 21/2/2027'de yürürlüğe girer; bu tarihe kadar ibare yürürlüktedir.\n\n> ⚠️ **Sınavda dikkat:** Mülkiyet kamulaştırma kararıyla değil, **mahkemenin tescil kararıyla** idareye geçer. Satın almada ise uzlaşma tutanağı tescilin hukuki sebebidir. Değerleme için olağan usulde idarenin belgeleri mahkemeye verdiği gün esas alınır; \"kamulaştırma kararı tarihi\" yanlıştır.\n\n### Bedelin tespit esasları (2942 sayılı Kanun m. 11)\nBilirkişiler taşınmazın niteliğini ve değerini etkileyen unsurları ayrı ayrı belirtir. Arazilerde taşınmazın olduğu gibi kullanılması hâlinde getireceği net gelir; **arsalarda** kamulaştırma gününden önceki özel amacı olmayan emsal satışlara göre satış değeri; **yapılarda** resmî birim fiyatları, yapı maliyet hesapları ve yıpranma payı esas alınır. Rapor SPK standartlarına uygun ve gerekçeli olmalıdır.\n\nÖnemli iki kural: (1) Kamulaştırmayı gerektiren imar ve hizmet teşebbüsünün sebep olacağı **değer artışları** ve ilerisi için düşünülen kullanma şekillerine göre getireceği kâr dikkate alınmaz (2942 sayılı Kanun m. 11/2). (2) İrtifak kamulaştırmasında taşınmazda oluşacak **kıymet düşüklüğü** kamulaştırma bedelidir (2942 sayılı Kanun m. 11/3).\n\n> **Örnek:** Ayşe'nin arsasının yanına metro istasyonu yapılacaktır. Bilirkişi kurulu, istasyonun getireceği değer artışını bedele katamaz (2942 sayılı Kanun m. 11/2).\n\nKısmi kamulaştırmada kalan kısmın değer düşüşü bedele eklenir, artışı düşülür; indirim bedelin yüzde ellisinden fazla olamaz. Kalan kısım yararlanmaya elverişsizse malik otuz gün içinde yazılı başvurusuyla onun da kamulaştırılmasını isteyebilir (Kamulaştırma Kanunu'nun kısmi kamulaştırma hükmü).\n\n## 4. Dava yolları: üç ayrı dava\n\n| Dava | Konu | Yargı |\n|---|---|---|\n| İptal | işlemin hukuka aykırılığı (kamu yararı yok, yetkisiz merci) | idari yargı |\n| Düzeltim | ölçü, ad, parsel gibi maddi hatalar | adli yargı |\n| Bedel | bedelin tespiti ve tescil | asliye hukuk |\n\nİptal ve düzeltim davaları için Kanun'un ilgili hükmüne göre süre, 2942 sayılı Kanun m. 10'daki tebligat veya ilandan itibaren **otuz gündür** (altmış gün değil). İdari yargıda açılan davalar öncelikle görülür; yürütmeyi durdurma kararı verilirse adli mahkeme bunu bekletici mesele yapar. Davetiyede iptal davası açanların yalnız dava açtıklarını belgelendirmeleri aranır; \"yürütmenin durdurulması kararı aldıklarını\" belgeleme koşulu AYM'nin 10/7/2025 tarihli kararıyla iptal edilmiştir. Tescilden sonra boşaltma icra memurundan istenir; itiraz ve şikâyet boşaltmayı durdurmaz.\n\nEski kitaplarda gördüğün birkaç kural artık geçerli değildir: 2942 sayılı Kanun m. 38'deki hak düşürücü süre (AYM, 2003), 2942 sayılı Kanun m. 10'a eklenen yalnız kanuni faiz öngören fıkra (AYM, 2023), 2942 sayılı Kanun m. 10/8'deki bloke sistemi (AYM, 2020) ve 2942 sayılı Kanun m. 11'deki \"arazi bedelinin yarısı\" sınırı (AYM, 2019) iptal edilmiştir.\n\n## 5. İrtifak kamulaştırması\n\nAmaç için yeterliyse mülkiyet yerine taşınmazın belirli kesimi, yüksekliği veya derinliği üzerinde **irtifak hakkı** kurulabilir (2942 sayılı Kanun m. 4/1). Mülkiyet hakkının kullanımı engellenmiyorsa üstte teleferik ve köprü, altta metro ve tünel yapılabilir; bu hâlde taşınmazlara ilişkin herhangi bir kamulaştırma yapılmaz (2942 sayılı Kanun m. 4/2). Bedel, oluşan kıymet düşüklüğüdür.\n\n> **Örnek:** Zeynep'in tarlasının üzerinden enerji hattı geçecektir. Mülkiyet yerine irtifak kamulaştırılır; bedel kıymet düşüklüğü kadardır.\n\n## 6. Vazgeçme, iade ve geri alma\n\nİdare kamulaştırmanın her safhasında tek taraflı vazgeçebilir; dava sırasında vazgeçerse giderler ve maktu avukatlık ücreti idareye yüklenir. Üç kurumu karıştırma:\n\n- **İade (2942 sayılı Kanun m. 22):** kamulaştırmanın kesinleşmesinden sonra ihtiyaç kalmazsa idare maliğe duyurur; malik bedeli kanuni faiziyle **üç ay** içinde ödeyerek geri alabilir. Kamulaştırmanın kesinleşmesinden beş yıl geçmişse bu hükümler uygulanmaz.\n- **Geri alma (2942 sayılı Kanun m. 23):** bedelin kesinleşmesinden itibaren **beş yıl** içinde amaca uygun hiçbir işlem yapılmaz ve taşınmaz olduğu gibi bırakılırsa malik bedeli aldığı günden işleyen kanuni faiziyle ödeyip geri alır. Doğmasından itibaren **bir yıl** içinde kullanılmayan hak düşer. 3. madde ikinci fıkra hâllerinde (taksitli kamulaştırma) uygulanmaz.\n- Vazgeçme, iade ve geri almadan doğan uyuşmazlıklar adli yargıda çözümlenir (2942 sayılı Kanun m. 24).\n\n> **Örnek:** Okul için kamulaştırılan arsa kesinleşmeden sonra altı yıl boş kalır. Hak kural olarak beş yıllık sürenin dolmasıyla doğmuştur; eski malik bir yıl içinde bedeli kanuni faiziyle ödeyerek geri alabilir.\n\n## 7. Acele kamulaştırma\n\nHer acil iş için yapılamaz. 2942 sayılı Kanun m. 27'ye göre yalnız şu hâllerde: 3634 sayılı Kanun'un uygulanmasında yurt savunması ihtiyacına veya aceleliğine **Cumhurbaşkanınca karar alınacak** hâller ya da **özel kanunlarla öngörülen olağanüstü durumlar**. İdarenin istemiyle mahkeme **yedi gün içinde** değeri 2942 sayılı Kanun m. 10 esaslarına göre bilirkişilerle tespit eder; bedel mal sahibi adına bankaya yatırılınca taşınmaza el konulabilir. Kıymet takdiri dışındaki işlemler sonradan tamamlanır. El koyma kararı tapuya bildirilir, devir yasağı şerh edilir ve taşınmaz boşaltılır (2942 sayılı Kanun m. 27/2). Bedel tespiti atlanmaz; ertelenen şey diğer işlemlerdir.\n\n## 8. İdareler arası devir\n\nBir kamu tüzel kişisinin taşınmazı başka bir kamu tüzel kişisince kamulaştırılamaz. İhtiyacı olan idare bedeli belirler; mal sahibi idare devre muvafakat etmez veya altmış gün içinde cevap vermezse Danıştay ilgili idari dairesi iki ay içinde kesin karar verir (2942 sayılı Kanun m. 30). Ayrıntı kamu malları konusundadır.\n\n## 9. Kamulaştırmasız el atma\n\nİdare usulüne uygun kamulaştırma yapmadan taşınmaza el koyarsa **kamulaştırmasız el atma** vardır. İki türü ayır:\n\n- **Fiilî el atma:** idare taşınmazı eylemli olarak kullanır (yol geçirir, hat çeker). Hasan'ın arsasından belediye kamulaştırmadan yol geçirirse Hasan el atmanın önlenmesini isteyebilir; dilerse mülkiyetin devri karşılığında bedel ister. İçtihadı birleştirme kararı gereği bedel dava tarihindeki bedeldir. Davayı **malik** açar.\n- **Hukukî el atma:** fiilî kullanım yoktur, ama imar planı taşınmazı kamu hizmetine ayırarak malikin tasarrufunu uzun süre kısıtlamıştır. Hukuk Genel Kurulu bir kararında, planlarda yıllarca okul alanı olarak ayrılıp kamulaştırılmayan ve takas edilmeyen taşınmazda idarenin pasifliğini kamulaştırmasız el koymanın varlığı için yeterli saymış, malikin bedel isteyebileceğini kabul etmiştir. Yargıtay 5. Hukuk Dairesi de 2008'den beri park alanı olan arsada hukuki el atma kabul edip bedeli Kamulaştırma Kanunu'nun bedel ölçütlerine göre belirlemiştir: arsaya emsal, yapıya resmî birim fiyatı ve yıpranma payı, ağaçlara maktuen değer.\n\nKanun da bu sorunu düzenlemiştir: uygulama imar planında umumi hizmetlere ayrılarak mülkiyet hakkının özüne dokunacak biçimde tasarrufu kısıtlanan taşınmazlarda, planın yürürlüğünden itibaren beş yıl içinde imar programı yapılır; bütçe imkânları dâhilinde kamulaştırılır ya da kısıtlılığı kaldıran plan değişikliği yapılır. Bu hükmün bazı cümleleri AYM'ce iptal edilmiştir.\n\nGeçici hükümler de vardır: 9/10/1956 ile 4/11/1983 arasında fiilen el konulan taşınmazlarda önce uzlaşma usulü dava şartıdır; uzlaşılamazsa tutanaktan itibaren üç ay içinde malik ya da idare bedel tespiti davası açabilir ve değer dava tarihindeki değerdir. Bedel ve tazminat kararlarındaki harçlar maktu olarak idare tarafından ödenmek üzere belirlenir; hükmedilen bedel davacının bildirdiği hesaba bildirimden itibaren otuz gün içinde yatırılır.\n\nİnsan hakları boyutunda Anayasa Mahkemesi, el atmanın kanuni dayanağının bulunmamasını kanunilik ihlali sayar ve gerçek karşılık güvencesinin zedelendiğini kabul eder. Ayrıntısı mülkiyet hakkı konusundadır.\n\n> 📌 **Kesin bilgi:** Bedel tespiti ve tescil davasını **idare** açar; kamulaştırmasız el atmada davayı **malik** açar.\n\n## 10. Hızlı denetim şeması\n\n1. Kamu yararı kararı doğru merciden mi çıktı, onay gerekli mi?\n2. Şerh altı ayda dava belgesiyle korundu mu?\n3. Satın alma usulü denendi mi (15 gün, 45 gün)?\n4. Bedel esasları (arsa emsal, yapı birim fiyat); değer artışı dikkate alınmadı mı?\n5. Hangi dava: iptal (idari yargı), düzeltim (adli yargı), bedel (asliye hukuk)?\n6. Acele ise: Cumhurbaşkanı kararı ya da özel kanun hâli var mı?\n7. Amaca uygun işlem yapılmadıysa iade veya geri alma süreleri.\n8. Kamulaştırma yapılmadan el atılmışsa fiilî mi hukukî mi?",
+  "critical_md": "- 📌 AY m. 46'da taksit amaçları arasında **tarım reformu** vardır; 2942 sayılı Kanun m. 3/2'de yoktur. Okul ve yol için taksit olmaz.\n- 📌 Taksitli kamulaştırmada **peşin kısım bedelin altıda birinden az olamaz**; kalan en fazla beş yılda eşit taksitle ödenir (2942 sayılı Kanun m. 3/2).\n- ⚠️ Yeterli ödenek sağlanmadan kamulaştırma işlemlerine başlanamaz (2942 sayılı Kanun m. 3/4).\n- 📌 Kamu yararı kararı: belediye yararına **belediye encümeni**, il özel idaresi yararına **il daimi encümeni**, Devlet yararına **il idare kurulu**, ayrı illere bağlı birden çok kamu tüzel kişisi yararına **Cumhurbaşkanı** (2942 sayılı Kanun m. 5).\n- 📌 Kamulaştırma şerhi, altı ay içinde bedel tespiti davası açıldığına dair belge verilmezse **resen silinir** (2942 sayılı Kanun m. 7/3).\n- 📌 Satın almada malik tebliğden itibaren **15 gün** içinde başvurur; bedel en geç **45 gün** içinde hazır edilir; satın alma yoluyla yapılan kamulaştırmaya itiraz davası açılamaz (2942 sayılı Kanun m. 8).\n- ⚠️ Bedel tespiti ve tescil davasını **idare** açar; mülkiyet **tescil kararıyla** geçer. Duruşma en geç 30 gün, keşif en geç 10 gün, rapor 15 gün, bedel yatırma süresi 15 gündür (2942 sayılı Kanun m. 10).\n- 📌 Kamulaştırmayı gerektiren teşebbüsün sebep olacağı değer artışı bedelde dikkate alınmaz; irtifakta kıymet düşüklüğü bedeldir (2942 sayılı Kanun m. 11).\n- ⚠️ İptal ve düzeltim davası süresi tebligattan itibaren **otuz gün**dür, altmış gün değil. İptal idari yargıda, düzeltim adli yargıda, bedel asliye hukukta görülür.\n- 📌 Acele kamulaştırmada mahkeme **yedi gün** içinde değeri tespit eder; bedel yatırılınca el konulur, diğer işlemler sonra tamamlanır (2942 sayılı Kanun m. 27). Yalnız kanunda sayılan hâllerde yapılabilir.\n- 📌 Geri alma hakkı: bedelin kesinleşmesinden **beş yıl** içinde amaca uygun işlem yapılmazsa doğar; **bir yıl** içinde kullanılmazsa düşer (2942 sayılı Kanun m. 23). İade (2942 sayılı Kanun m. 22) ihtiyacın kalmaması hâlinde, idare duyurur, malik üç ayda öder.\n- ⚠️ Eski kitaplarda geçen 2942 sayılı Kanun m. 38 (hak düşürücü süre), yalnız kanuni faiz fıkrası, bloke sistemi ve \"arazi bedelinin yarısı\" sınırı AYM tarafından iptal edilmiştir.\n- 📌 AYM, \"Tescil hükmü kesin olup\" ibaresini 12/2/2026'da iptal etmiştir; iptal 21/2/2027'de yürürlüğe girer, o tarihe kadar ibare yürürlüktedir.",
+  "doctrine_md": "### Hukuki el atmada yargı yolu\nBir görüşe göre imar planı idari işlemdir; planın yarattığı zarar idari yargıda tam yargı davasıyla istenir. Diğer görüşe göre sonuç bakımından fiilî el atmadan fark yoktur ve bedel davası adli yargıda görülür. Yargıtay'ın incelenen kararları esasa adli yargıda girmiş, Anayasa Mahkemesine yansıyan bir olayda ise dava idare mahkemesinde görülmüştür. Uyuşmazlık Mahkemesinin güncel tutumu burada belirtilemez; bu yüzden olay çözümünde yargı yolunu kesin cevap yapma.\n\n### Kamulaştırmayla kurulan irtifakın terkini\nHukuk Genel Kurulu çoğunluğu, kamulaştırmayla kurulan irtifakın ihtiyaç kalmadığı için terkininde iade hükümlerinin üç koşulunu arar ve kamulaştırmanın üzerinden beş yıl geçmişse bedelsiz terki medeni kanundaki irtifak hükmüne dayandırmaz. Karşı görüşe göre iade hükmündeki beş yıllık sınır yalnız mülkiyetin kamulaştırılmasına ilişkindir; irtifak medeni kanun hükmüne göre bedelsiz terkin edilebilir.\n\n### Kamu yararı kararına karşı dava\nÖğretide kamu yararı kararı çoğunlukla hazırlık işlemi sayılır ve dava kesinleşen kamulaştırma işlemine karşı açılır denir; kanun \"kamulaştırma işlemine karşı\" iptal davasından söz eder. Acele kamulaştırma kararlarının idari yargı denetimi konusunda yerleşik bir yargı tutumu bu notta doğrulanmamıştır.",
+  "glossary": [
+   {
+    "term": "Kamulaştırma",
+    "definition": "İdarenin kamu yararı gerektirdiğinde özel mülkiyetteki taşınmazı gerçek karşılığını ödeyerek malikin iradesinden bağımsız olarak edinmesi (AY m. 46)."
+   },
+   {
+    "term": "İdari irtifak",
+    "definition": "Mülkiyet yerine taşınmazın belirli kesimi, yüksekliği veya derinliği üzerinde kamulaştırma yoluyla kurulan sınırlı ayni hak (2942 sayılı Kanun m. 4)."
+   },
+   {
+    "term": "Kamu yararı kararı",
+    "definition": "Kamulaştırmanın gerekliliğini ortaya koyan, yetkili mercice verilen ve kural olarak onaylanan karar."
+   },
+   {
+    "term": "Şerh",
+    "definition": "Kamulaştırma kararından sonra tapu siciline düşülen not; altı ay içinde dava belgesi verilmezse resen silinir (2942 sayılı Kanun m. 7)."
+   },
+   {
+    "term": "Satın alma usulü",
+    "definition": "Tapulu taşınmazlarda önce uygulanan, komisyonlar eliyle pazarlıkla edinme yolu (2942 sayılı Kanun m. 8)."
+   },
+   {
+    "term": "Bedel tespiti ve tescil davası",
+    "definition": "İdarenin asliye hukuk mahkemesinde açtığı, bedelin tespitini ve ödeme karşılığında idare adına tescilini isteyen dava (2942 sayılı Kanun m. 10)."
+   },
+   {
+    "term": "Düzeltim davası",
+    "definition": "Kamulaştırma işlemindeki ölçü, parsel gibi maddi hatalara karşı adli yargıda açılan dava."
+   },
+   {
+    "term": "Acele kamulaştırma",
+    "definition": "Kanunda sayılan olağanüstü hâllerde bedel yatırılarak hemen el konulan ve diğer işlemleri sonradan tamamlanan kamulaştırma (2942 sayılı Kanun m. 27)."
+   },
+   {
+    "term": "Geri alma hakkı",
+    "definition": "Amaca uygun işlem yapılmamasında eski malikin bedeli kanuni faiziyle ödeyerek taşınmazı geri alma hakkı (2942 sayılı Kanun m. 23)."
+   },
+   {
+    "term": "Kamulaştırmasız el atma",
+    "definition": "İdarenin usulüne uygun kamulaştırma yapmadan taşınmazı fiilen kullanması ya da imar planıyla uzun süre kullanılamaz kılması."
+   },
+   {
+    "term": "Hukuki el atma",
+    "definition": "Fiilî kullanım olmaksızın imar planı tasarrufuyla malikin kullanımının uzun süre kısıtlanması."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "35",
+   "official_text": "XII. Mülkiyet hakkı\nMadde 35 – Herkes, mülkiyet ve miras haklarına sahiptir.\nBu haklar, ancak kamu yararı amacıyla, kanunla sınırlanabilir.\nMülkiyet hakkının kullanılması toplum yararına aykırı olamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "46",
+   "official_text": "D. Kamulaştırma\nMadde 46 – (Değişik: 3/10/2001-4709/18 md.)\nDevlet ve kamu tüzel kişileri; kamu yararının gerektirdiği hallerde, gerçek karşılıklarını peşin ödemek şartıyla, özel mülkiyette bulunan taşınmaz malların tamamını veya bir kısmını, kanunla gösterilen esas ve usullere göre, kamulaştırmaya ve bunlar üzerinde idarî irtifaklar kurmaya yetkilidir.\nKamulaştırma bedeli ile kesin hükme bağlanan artırım bedeli nakden ve peşin olarak ödenir. Ancak, tarım reformunun uygulanması, büyük enerji ve sulama projeleri ile iskân projelerinin gerçekleştirilmesi, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amacıyla kamulaştırılan toprakların bedellerinin ödenme şekli kanunla gösterilir. Kanunun taksitle ödemeyi öngörebileceği bu hallerde, taksitlendirme süresi beş yılı aşamaz; bu takdirde taksitler eşit olarak ödenir.\nKamulaştırılan topraktan, o toprağı doğrudan doğruya işleten küçük çiftçiye ait olanlarının bedeli, her halde peşin ödenir.\nİkinci fıkrada öngörülen taksitlendirmelerde ve herhangi bir sebeple ödenmemiş kamulaştırma bedellerinde kamu alacakları için öngörülen en yüksek faiz uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "3",
+   "official_text": "Kamulaştırma şartları\nMadde 3 – İdareler, kanunlarla ve Cumhurbaşkanlığı kararnameleriyle yapmak yükümlülüğünde bulundukları kamu hizmetlerinin veya teşebbüslerinin yürütülmesi için gerekli olan taşınmaz malları, kaynakları ve irtifak haklarını; bedellerini nakden ve peşin olarak veya aşağıda belirtilen hallerde eşit taksitlerle ödemek suretiyle kamulaştırma yapabilirler.[1]\nCumhurbaşkanınca kabul olunan, büyük enerji ve sulama projeleri ile iskan projelerinin gerçekleştirilmesi, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amacıyla yapılacak kamulaştırmalarda, bir gerçek veya özel hukuk tüzelkişisine ödenecek kamulaştırma bedelinin o yıl Genel Bütçe Kanununda gösterilen miktarı, nakden ve peşin olarak ödenir. Bu miktar, kamulaştırma bedelinin altıda birinden az olamaz. Bu miktarın üstünde olan kamulaştırma bedelleri, peşin ödeme miktarından az olmamak ve en fazla beş yıl içinde faiziyle birlikte ödenmek üzere eşit taksitlere bağlanır. Taksitlere, peşin ödeme gününü takip eden günden itibaren, Devlet borçları için öngörülen en yüksek faiz haddi uygulanır.[2]\nKamulaştırılan topraktan, o toprağı doğrudan doğruya işleten küçük çiftçiye ait olanların bedeli, her halde peşin ödenir.\n(Ek fıkra: 24/4/2001 - 4650/1 md.) İdarelerce yeterli ödenek temin edilmeden kamulaştırma işlemlerine başlanılamaz.\n[1] 2/7/2018 tarihli ve 700 sayılı KHK’nin 86 ncı maddesiyle, bu fıkrada yer alan “kanunlarla” ibaresinden sonra gelmek üzere “ve Cumhurbaşkanlığı kararnameleriyle” ibaresi eklenmiştir.\n[2] 2/7/2018 tarihli ve 700 sayılı KHK’nin 86 ncı maddesiyle, bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "4",
+   "official_text": "İrtifak hakkı kurulması\nMadde 4 – Taşınmaz malın mülkiyetinin kamulaştırılması yerine, amaç için yeterli olduğu takdirde taşınmaz malın belirli kesimi, yüksekliği, derinliği veya kaynak üzerinde kamulaştırma yoluyla irtifak hakkı kurulabilir.\n(Ek fıkra : 10/9/2014 - 6552/99 md.) Ancak, maliklerinin mülkiyet hakkının kullanılmasının engellenmemesi, can ve mal güvenliği bakımından gerekli önlemlerin alınması kaydıyla, kamu yararına dayalı olarak taşınmazların üstünde teleferik ve benzeri ulaşım hatları ile her türlü köprü, taşınmazların altında metro ve benzeri raylı taşıma sistemleri ile tünel yapılabilir. Taşınmazların mülkiyet hakkının kullanımının engellenmemesi hâlinde, taşınmazlara ilişkin herhangi bir kamulaştırma yapılmaz. (İptal üçüncü cümle: Anayasa Mahkemesi’nin 14/5/2015 tarihli ve E.: 2014/177, K.: 2015/49 sayılı Kararı ile.) (…) Yapılan yatırım nedeniyle taşınmaz maliklerinden değer artış bedeli alınamaz.[3]\n[3] 27/3/2015 tarihli ve 6639 sayılı kanunun 28 inci maddesiyle bu fıkrada yer alan “raylı taşıma sistemleri” ibaresinden sonra gelmek üzere “ile tünel” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "5",
+   "official_text": "Kamu yararı kararı verecek merciler\nMadde 5 – Kamu yararı kararı verecek merciler şunlardır:\na) Kamu idareleri ve kamu tüzelkişileri;\n1. 3 üncü maddenin ikinci fıkrasında sayılan amaçlarla yapılacak kamulaştırmalarda ilgili bakanlık,\n2. Köy yararına kamulaştırmalarda köy ihtiyar kurulu,\n3. Belediye yararına kamulaştırmalarda belediye encümeni,\n4. İl özel idaresi yararına kamulaştırmalarda il daimi encümeni,\n5. Devlet yararına kamulaştırmalarda il idare kurulu,\n6. Yükseköğretim Kurulu yararına kamulaştırmalarda Yükseköğretim Kurulu,\n7. Üniversite, Türkiye Radyo - Televizyon Kurumu, Atatürk Kültür, Dil ve Tarih Yüksek Kurumu yararına kamulaştırmalarda yönetim kurulları,\n8. Aynı ilçe sınırları içinde birden çok köy ve belediye yararına kamulaştırmalarda ilçe idare kurulu,\n9. Bir il sınırları içindeki birden çok ilçeye bağlı köyler ve belediyeler yararına kamulaştırmalarda il idare kurulu,\n10. Ayrı illere bağlı birden çok kamu tüzelkişileri yararına kamulaştırmalarda Cumhurbaşkanı,[4]\n11. Birden çok il sınırları içindeki Devlet yararına kamulaştırmalarda Cumhurbaşkanı.4\nb) Kamu kurumları yararına kamulaştırmalarda yönetim kurulu veya idare meclisi, bunların olmaması halinde yetkili idare organları,\nc) Gerçek kişiler yararına kamulaştırmalarda bu kişilerin, özel hukuk tüzelkişileri yararına kamulaştırmalarda ise; yönetim kurulları veya idare meclislerinin, yoksa yetkili yönetim organlarının başvuruları üzerine gördükleri hizmet bakımından denetimine bağlı oldukları köy, belediye, özel idare veya bakanlık.\n[4] 2/7/2018 tarihli ve 700 sayılı KHK’nin 86 ncı maddesiyle, 5 inci maddenin birinci fıkrasının (a) bendinin (10) ve (11) numaralı alt bentlerinde yer alan “Bakanlar Kurulu” ibareleri “Cumhurbaşkanı” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "7",
+   "official_text": "Kamulaştırmada önce yapılacak işlemler ve idari şerh\nMadde 7 – Kamulaştırmayı yapacak idare, kamulaştırma veya kamulaştırma yolu ile üzerinde irtifak hakkı kurulacak taşınmaz malların veya kaynakların sınırını, yüzölçümünü ve cinsini gösterir ölçekli planını yapar veya yaptırır; kamulaştırılan taşınmaz malın sahiplerini, tapu kaydı yoksa zilyetlerini ve bunların adreslerini, tapu, vergi ve nüfus kayıtları üzerinden veya ayrıca haricen yaptıracağı araştırma ile belgelere bağlamak suretiyle tespit ettirir.\nİlgili vergi dairesi idarenin isteği üzerine taşınmaz mal ve kaynakların vergi beyan ve değerlerini, vergi beyanı bulunmadığı hallerde beyan yerine geçecek takdir edilecek değeri en geç bir ay içerisinde verir.\nİdare kamulaştırma kararı verdikten sonra kamulaştırmanın tapu siciline şerh verilmesini kamulaştırmaya konu taşınmaz malın kayıtlı bulunduğu tapu idaresine bildirir. Bildirim tarihinden itibaren malik değiştiği takdirde, mülkiyette veya mülkiyetten gayri ayni haklarda meydana gelecek değişiklikleri tapu idaresi kamulaştırmayı yapan idareye bildirmek zorundadır. (Değişik cümle: 24/4/2001 - 4650/2 md.) İdare tarafından, şerh tarihinden itibaren altı ay içinde 10 uncu maddeye göre kamulaştırma bedelinin tespitiyle idare adına tescili isteğinde bulunulduğuna dair mahkemeden alınacak belge tapu idaresine ibraz edilmediği takdirde, bu şerh tapu idaresince resen sicilden silinir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "8",
+   "official_text": "Satın alma usulü\nMadde 8 – (Değişik: 24/4/2001 - 4650/3 md.)\nİdarelerin, bu Kanuna göre, tapuda kayıtlı olan taşınmaz mallar hakkında yapacağı kamulaştırmalarda satın alma usulünü öncelikle uygulamaları esastır.\nKamulaştırma kararının alınmasından sonra kamulaştırmayı yapacak idare, bu Kanunun 11 inci maddesindeki esaslara göre ve konuyla ilgili uzman kişi, kurum veya kuruluşlardan da rapor alarak, gerektiğinde Sanayi ve Ticaret Odalarından ve mahalli emlak alım satım bürolarından alacağı bilgilerden de faydalanarak taşınmaz malın tahmini bedelini tespit etmek üzere kendi bünyesi içinden en az üç kişiden teşekkül eden bir veya birden fazla kıymet takdir komisyonunu görevlendirir.\nAyrıca idare, tahmin edilen bedel üzerinden pazarlıkla satın alma ve trampa işlemlerini yürütmek ve sonuçlandırmak üzere kendi bünyesi içinden en az üç kişiden teşekkül eden bir veya birden fazla uzlaşma komisyonunu görevlendirir.\nİdare, kıymet takdir komisyonunca tespit edilen tahmini bedeli belirtmeksizin, kamulaştırılması kararlaştırılan taşınmaz mal, kaynak veya bunların üzerindeki irtifak haklarının bedelinin peşin veya bu Kanunun 3 üncü maddesinin ikinci fıkrasına göre yapılıyor ise, bu fıkradaki usullere göre taksitle ödenmesi suretiyle ve pazarlıkla satın almak veya idareye ait bir başka taşınmaz malla trampa yoluyla devralmak istediğini resmi taahhütlü bir yazıyla malike bildirir.\n(Değişik beşinci fıkra: 20/8/2016-6745/31 md.) Malik veya yetkili temsilcisi tarafından, bu yazının tebliğ tarihinden itibaren on beş gün içinde, kamulaştırmaya konu taşınmaz malı pazarlıkla ve anlaşarak satmak veya trampa isteği ile birlikte idareye başvurulması hâlinde; komisyonca tayin edilen tarihte pazarlık görüşmeleri yapılır, tespit edilen tahminî değeri geçmemek üzere bedelde veya trampada anlaşmaya varılması hâlinde, yapılan bu anlaşmaya ilişkin bir tutanak düzenlenir ve anlaşma konusu taşınmaz malın tüm hukuki ve fiili vasıfları ile kamulaştırma bedelini, malikin kimlik bilgilerini ve taşınmazların tapuda tesciline veya terkinine dair kabul beyanlarını da ihtiva eden tutanak, malik veya yetkili temsilcisi ve komisyon üyeleri tarafından imzalanır. Bu tutanak malikin ferağ beyanı ve tapuda idare adına yapılacak tescilin hukuki sebebi sayılır.\n(Değişik altıncı fıkra:20/8/2016-6745/31 md.) İdarece, anlaşma tutanağının tanzim tarihinden itibaren en geç kırk beş gün içinde, tutanakta belirtilen bedel hazır edilerek, idarenin anlaşma tutanağı ve kamulaştırma öncesi taşınmaz üzerindeki tüm takyidat ve haklardan arındırıldığını bildiren yazıya istinaden idare adına tapuya resen tescil veya terkin edilir. Tapuya resen tescil veya terkinden sonra kamulaştırma bedeli kendilerine ödenir.\nBu madde uyarınca satın alınan veya trampa edilen taşınmaz mal, kaynak veya irtifak hakkı, sahibinden kamulaştırma yolu ile alınmış sayılır ve bu şekilde yapılan kamulaştırmaya veya bedeline karşı itiraz davaları açılamaz.\nAnlaşma olmaması veya ferağ verilmemesi halinde bu Kanunun 10 uncu maddesine göre işlem yapılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "10",
+   "official_text": "Kamulaştırma bedelinin mahkemece tespiti ve taşınmaz malın idare adına tescili[8]\nMadde 10 – (Değişik: 24/4/2001 - 4650/5 md.)\nKamulaştırmanın satın alma usulü ile yapılamaması halinde idare, 7 nci maddeye göre topladığı bilgi ve belgelerle 8 inci madde uyarınca yaptırmış olduğu bedel tespiti ve bu husustaki diğer bilgi ve belgeleri bir dilekçeye ekleyerek taşınmaz malın bulunduğu yer asliye hukuk mahkemesine müracaat eder ve taşınmaz malın kamulaştırma bedelinin tespitiyle, bu bedelin, peşin veya kamulaştırma 3 üncü maddenin ikinci fıkrasına göre yapılmış ise taksitle ödenmesi karşılığında, idare adına tesciline karar verilmesini ister.\nMahkeme, idarenin başvuru tarihinden itibaren en geç otuz gün sonrası için belirlediği duruşma gününü, dava dilekçesi ve idare tarafından verilen belgelerin birer örneği de eklenerek taşınmaz malın malikine meşruhatlı davetiye ile veya idarece yapılan araştırmalar sonucunda adresleri bulunamayanlara, 11.2.1959 tarihli ve 7201 sayılı Tebligat Kanununun 28 inci maddesi gereğince ilan yoluyla tebligat suretiyle bildirerek duruşmaya katılmaya çağırır. Duruşma günü idareye de tebliğ olunur.\nMahkemece malike doğrudan çıkarılacak meşruhatlı davetiyede veya ilan yolu ile yapılacak tebligatta;\na) Kamulaştırılacak taşınmaz malın tapuda kayıtlı bulunduğu yer, mevkii, pafta, ada, parsel numarası, vasfı, yüzölçümü.\nb) Malik veya maliklerin ad ve soyadları,\nc) Kamulaştırmayı yapan idarenin adı,\nd) 14 üncü maddede öngörülen süre içerisinde, tebligat veya ilan tarihinden itibaren kamulaştırma işlemine idari yargıda iptal veya adli yargıda maddi hatalara karşı düzeltim davası açabilecekleri,\ne) Açılacak davalarda husumetin kime yöneltileceği,\nf) 14 üncü maddede öngörülen süre içerisinde, kamulaştırma işlemine karşı idari yargıda iptal davası açanların, dava açtıklarını (…)[9] belgelendirmedikleri takdirde, kamulaştırma işleminin kesinleşeceği ve mahkemece tespit edilen kamulaştırma bedeli üzerinden taşınmaz malın kamulaştırma yapan idare adına tescil edileceği,\ng) Mahkemece tespit edilen kamulaştırma bedelinin hak sahibi adına hangi bankaya yatırılacağı,\nh) Konuya ve taşınmaz malın değerine ilişkin tüm savunma ve delilleri, tebliğ tarihinden itibaren on gün içinde mahkemeye yazılı olarak bildirmeleri gerektiği,\nBelirtilir.\nMahkemece, kamulaştırılacak taşınmaz malın bulunduğu yerde çıkan bir gazete ve bir internet haber sitesi ile Türkiye genelinde yayımlanan gazetelerin birisinde kamulaştırmanın ve belgelerin özeti en az birer defa yayımlanır.[10]\nMahkemece belirlenen günde yapılacak duruşmada hakim, taşınmaz malın bedeli konusunda tarafları anlaşmaya davet eder. Tarafların bedelde anlaşması halinde hakim, taraflarca anlaşılan bu bedeli kamulaştırma bedeli olarak kabul eder ve sekizinci fıkranın ikinci ve devamı cümleleri uyarınca işlem yapar.\nMahkemece yapılan duruşmada tarafların bedelde anlaşamamaları halinde hakim, en geç on gün içinde keşif ve otuz gün sonrası için de duruşma günü tayin ederek, 15 inci maddede sayılan bilirkişiler marifetiyle ve tüm ilgililerin huzurunda taşınmaz malın değerini tespit için mahallinde keşif yapar. Yapılacak keşifte, taşınmaz malın bulunduğu yerin bağlı olduğu köy veya mahalle muhtarının da hazır bulunması amacıyla, muhtara da davetiye çıkartılır ve keşifte hazır bulunması temin edilerek, muhtarın beyanı da alınır.\nBilirkişiler, taraflar ve diğer ilgililerin beyanını da dikkate alarak, 11 inci maddedeki esaslar doğrultusunda taşınmaz malın değerini belirten raporlarını onbeş gün içinde mahkemeye verirler. Mahkeme bu raporu, duruşma günü beklenmeksizin taraflara tebliğ eder. Yapılacak duruşmaya hakim, taraflar veya vekillerini ve bilirkişileri çağırır. Bu duruşmada tarafların bilirkişi raporlarına varsa itirazları dinlenir ve bilirkişilerin bu itirazlara karşı beyanları alınır.\n(Değişik sekizinci fıkra: 19/4/2018-7139/26 md.) Tarafların bedelde anlaşamamaları halinde gerektiğinde hâkim tarafından onbeş gün içinde sonuçlandırılmak üzere yeni bir bilirkişi kurulu tayin edilir ve hâkim, tarafların ve bilirkişilerin rapor veya raporları ile beyanlarından yararlanarak adil ve hakkaniyete uygun bir kamulaştırma bedeli tespit eder. Mahkemece tespit edilen bu bedel, taşınmaz mal, kaynak veya irtifak hakkının kamulaştırılma bedelidir. Tarafların anlaşması halinde kamulaştırma bedeli olarak anlaşılan miktar peşin ve nakit olarak, hak sahibi adına bankaya yatırılır. Tarafların anlaşamaması halinde hâkim tarafından kamulaştırma bedeli olarak tespit edilen bedelin (…) mahkemece belirlenecek banka hesabına yatırılması ve yatırıldığına dair makbuzun ibraz edilmesi için idareye onbeş gün süre verilir. Kamulaştırma bu Kanunun 3 üncü maddesinin ikinci fıkrasına göre yapılmış ise ilk taksitin yine peşin ve nakit olarak hak sahibi adına, hak sahibi tespit edilememiş ise ileride ortaya çıkacak hak sahibine verilmek üzere 10 uncu maddeye göre mahkemece yapılacak davetiye ve ilanda belirtilen bankaya yatırılması ve yatırıldığına dair makbuzun ibraz edilmesi için idareye onbeş gün süre verilir. Gereken hallerde bu süre bir defaya mahsus olmak üzere mahkemece uzatılabilir. İdarece, kamulaştırma bedelinin hak sahibi adına yatırıldığına, hâkim tarafından kamulaştırma bedeli olarak tespit edilen bedelin (…)[11] veya hak sahibinin tespit edilemediği durumlarda ise ileride ortaya çıkacak hak sahibine verilmek üzere bloke edildiğine dair makbuzun ibrazı halinde mahkemece, taşınmaz malın idare adına tesciline ve kamulaştırma bedelinin hak sahibine ödenmesine karar verilir ve bu karar, tapu dairesine ve paranın yatırıldığı bankaya bildirilir. Tescil hükmü kesin olup, tarafların bedele ilişkin istinaf veya temyiz hakları saklıdır. İstinaf veya temyiz incelemesi sonucunda kesinleşen kamulaştırma bedeli, hak sahibine peşin ve nakit olarak ödenen tutardan daha az olması durumunda aradaki fark ilgilisinden talep edilir. İdare tarafından hak sahibi adına yapılan ödeme tarihi ile geri ödemeye ilişkin yazının ilgilisine tebliğ edildiği tarih arasındaki süre için faiz alınmaz.[12]\n(Ek fıkra: 11/4/2013-6459/6 md.) (İptal fıkra: Anayasa Mahkemesinin 5/4/2023 tarihli ve E: 2022/83, K: 2023/69 sayılı Kararı ile.) (…)\nBu maddede öngörülen işlemler, mahkemenin davetine uymayanlar olduğu takdirde ilgilinin yokluğunda yapılır.\nHak sahibinin tespit edilemediği durumlarda mahkemece, kamulaştırma bedelinin üçer aylık vadeli hesaba dönüştürülerek nemalandırılması amacıyla gerekli tedbirler alınır.\nKamulaştırılması yapılan taşınmaz mal, tahsis edildiği kamu hizmeti itibariyle sicile kaydı gerekmeyen bir niteliğe dönüşmüş ise, istek halinde mahkemece sicil kaydının terkinine karar verilir.\nBu tescil ve terkin işlemi sırasında mal sahiplerinin bu taşınmaz mal nedeniyle vergi ilişkisi aranmaz. Ancak, tapu dairesi durumu ilgili vergi dairesine bildirir.\n(İptal ondördüncü fıkra: Anayasa Mahkemesinin 25/12/2024 Tarihli ve E: 2024/101, K: 2024/232 Sayılı Kararı ile.)\nKamulaştırma işlemine karşı idari yargıda iptal veya maddi hatalara karşı adli mahkemelerde açılacak düzeltim davalarında hangi idareye husumet yöneltileceğinin davetiye ve ilanda açıkça belirtilmemiş veya yanlış gösterilmiş olması nedeniyle davada husumet yanlış yöneltilmiş ise, gerçek hasma tebligat yapılmak suretiyle davaya devam olunur.\nKamulaştırma bedelinin tespiti esasları:[13][14]\n[8] Bu madde başlığı; “Kıymet takdiri komisyonları” iken, 24/4/2001 tarihli ve 4650 sayılı Kanunun 5 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.\n[9] Anayasa Mahkemesinin 10/7/2025 tarihli ve Esas No.:2025/148; Karar No.: 2025/141 sayılı Kararı ile bu bentte yer alan “ve yürütmenin durdurulması kararı aldıklarını” ibaresi iptal edilmiştir.\n[10] 13/10/2022 tarihli ve 7418 sayılı Kanunun 28 inci maddesiyle, bu fıkrada yer alan “mahalli gazete çıkıyor ise, bu mahalli gazetelerden birisinde ve” ibaresi “çıkan bir gazete ve bir internet haber sitesi ile” şeklinde ve aynı fıkrada yer alan “bir” ibaresi “birer” şeklinde değiştirilmiştir.\n[11] Anayasa Mahkemesinin 16/7/2020 tarihli ve Esas No.:2018/104; Karar No.: 2020/39 sayılı Kararı ile bu fıkranın dördüncü cümlesinde yer alan “idarenin kıymet takdir komisyonunca tespit edilen bedelden az olması durumunda hâkim tarafından tespit edilen bedel, fazla olması durumunda idarenin kıymet takdir komisyonunca tespit ettiği bedel, peşin ve nakit olarak hak sahibi adına, kalanı ise bedele ilişkin kararın kesinleşmesine kadar üçer aylık vadeli hesapta nemalandırılmak ve kesinleşen karara göre hak sahibine verilmek üzere” ibaresinin Anayasa’ya aykırı olduğuna ve iptaline, yedinci cümlesinde yer alan “idarenin kıymet takdir komisyonunca tespit ettiği bedelden fazla olması halinde fazla olan tutarın bloke edildiğine” ibaresinin Anayasa’ya aykırı olduğuna ve iptaline karar verilmiştir.\n[12] Anayasa Mahkemesinin 12/2/2026 tarihli ve E.: 2025/190, K.: 2026/38 sayılı Kararı ile bu fıkrada yer alan “Tescil hükmü kesin olup” ibaresi iptal edilmiştir. Bu Karar Resmî Gazete’de yayımlanmasından başlayarak dokuz ay sonra (21/2/2027) yürürlüğe girer.\n[13] Bu madde başlığı; “Kıymet takdiri esasları” iken, 24/4/2001 tarihli ve 4650 sayılı Kanunun 6 ncı maddesiyle metne işlendiği şekilde değiştirilmiştir.\n[14] 3/11/2016 tarihli ve 6754 sayılı Kanunun 38 inci maddesiyle, bu maddenin birinci fıkrasına “ilgililerin beyanını da dikkate alarak” ibaresinden sonra gelmek üzere “Sermaye Piyasası Kurulu tarafından kabul edilen değerleme standartlarına uygun,” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "11",
+   "official_text": "Madde 11 – (Değişik: 24/4/2001 - 4650/6 md.)\n15 inci madde uyarınca oluşturulacak bilirkişi kurulu, kamulaştırılacak taşınmaz mal veya kaynağın bulunduğu yere mahkeme heyeti ile birlikte giderek, hazır bulunan ilgilileri de dinledikten sonra taşınmaz mal veya kaynağın;\na) Cins ve nevini,\nb) Yüzölçümünü.\nc) Kıymetini etkileyebilecek bütün nitelik ve unsurlarını ve her unsurun ayrı ayrı değerini,\nd) Varsa vergi beyanını,\ne) Kamulaştırma tarihindeki resmi makamlarca yapılmış kıymet takdirlerini,\nf) Arazilerde, taşınmaz mal veya kaynağın (…)[15] mevkii ve şartlarına göre ve olduğu gibi kullanılması halinde getireceği net gelirini.\ng) Arsalarda, kamulaştırılma gününden önceki özel amacı olmayan emsal satışlara göre satış değerini,\nh) Yapılarda, (…)[16] resmi birim fiyatları ve yapı maliyet hesaplarını ve yıpranma payını,\nı) (Değişik: 19/4/2018-7139/27 md.) (İptal ibare: Anayasa Mahkemesinin 10/4/2019 tarihli ve E.:2018/156; K.:2019/22 Sayılı kararı ile)[17] (İptal ibare: Anayasa Mahkemesinin 10/4/2019 tarihli ve E.:2018/156; K.:2019/22 Sayılı kararı ile) her bir ölçünün etkisi açıklanmak kaydıyla bedelin tespitinde etkili olacak diğer objektif ölçüleri,\nEsas tutarak düzenleyecekleri raporda bütün bu unsurların cevaplarını ayrı ayrı belirtmek suretiyle ve ilgililerin beyanını da dikkate alarak Sermaye Piyasası Kurulu tarafından kabul edilen değerleme standartlarına uygun, gerekçeli bir değerlendirme raporuna dayalı olarak taşınmaz malın değerini tespit ederler.\nTaşınmaz malın değerinin tespitinde, kamulaştırmayı gerektiren imar ve hizmet teşebbüsünün sebep olacağı değer artışları ile ilerisi için düşünülen kullanma şekillerine göre getireceği kâr dikkate alınmaz.\nKamulaştırma yoluyla irtifak hakkı tesisinde, bu kamulaştırma sebebiyle taşınmaz mal veya kaynakta meydana gelecek kıymet düşüklüğü gerekçeleriyle belirtilir. Bu kıymet düşüklüğü kamulaştırma bedelidir.\n[15] Bu bentte yer alan “kamulaştırma tarihindeki” ibaresi Anayasa Mahkemesi’nin 26/5/2016 tarihli ve E.: 2015/55, K.: 2016/45 sayılı Kararı ile iptal edilmiştir\n[16] Bu arada yer alan \"kamulaştırma tarihindeki\" ibaresi, Anayasa Mahkemesi’nin 9/4/2003 tarihli ve E.:2002/79, K.:2003/29 sayılı Kararı ile iptal edildiğinden metinden çıkarılmıştır.\n[17] Anayasa Mahkemesinin 10/4/2019 tarihli ve E.:2018/156; K.:2019/22 Sayılı kararı ile bu bentte yer alan “…arazi bedelinin yarısını geçmemek ve…” ibaresinin iptali nedeniyle uygulanma olanağı kalmayan, aynı bentte yer alan “Bu fıkrada belirtilen unsurlara göre tespit edilen…”ibaresinin de iptaline karar verilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "22",
+   "official_text": "Vazgeçme, iade ve devir[25]\nMadde 22 – (Değişik birinci fıkra: 24/4/2001 - 4650/13 md.) Kamulaştırmanın (…)[26] kesinleşmesinden sonra taşınmaz malların kamulaştırma amacına veya kamu yararına yönelik herhangi bir ihtiyaca tahsisi lüzumu kalmaması halinde, keyfiyet idarece mal sahibi veya mirasçılarına 7201 sayılı Tebligat Kanunu hükümlerine göre duyurulur. (Değişik ikinci ve üçüncü cümleler: 10/9/2014 - 6552/100 md.) Bu duyurma üzerine mal sahibi veya mirasçıları, kamulaştırma bedelini aldıkları günden itibaren işleyecek kanuni faiziyle birlikte üç ay içinde ödeyerek taşınmaz malı geri alabilir. İade işleminin kamulaştırmanın ve bedelinin kesinleşmesinden sonra bir yıl içinde gerçekleşmesi hâlinde kamulaştırma bedelinin faizi alınmaz. (Mülga dördüncü cümle: 10/9/2014-6552/100 md.)\n(Ek fıkra: 10/9/2014-6552/100 md.) Bu madde hükümlerine göre taşınmaz malı geri almayı kabul etmeyen mal sahibi veya mirasçılarının 23 üncü maddeye göre geri alma hakları da düşer.\n(Ek fıkra: 10/9/2014-6552/100 md.) Bu madde hükümleri, kamulaştırmanın kesinleşmesi tarihinden itibaren beş yıl geçmiş olması hâlinde uygulanmaz.\nAncak, kamulaştırılan taşınmaz mala kamulaştırmayı yapan idare dışında başka bir idare, kamulaştırma yoluyla gerçekleştirebileceği bir kamu hizmeti amacıyla istekli olduğu takdirde, yukarıdaki fıkra hükmü uygulanmayarak bu Kanunun 30 uncu veya 1050 sayılı Muhasebei Umumiye Kanununun 23 üncü maddesine göre işlem yapılır.\n[25] Bu madde başlığı “Tarafların anlaşmasıyla vazgeçme ve devir” iken, 12/7/2013 tarihli ve 6495 sayılı Kanunun 26 ncı maddesiyle metne işlendiği şekilde değiştirilmiştir.\n[26] 10/9/2014 tarihli ve 6552 sayılı Kanunun 100 üncü maddesiyle bu fıkrada yer alan; “ve bedelinin” ibaresi metinden çıkarılmıştır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "23",
+   "official_text": "Mal sahibinin geri alma hakkı\nMadde 23 – Kamulaştırma bedelinin kesinleşmesi tarihinden itibaren beş yıl içinde, kamulaştırmayı yapan idarece veya 22 nci maddenin dördüncü fıkrası uyarınca devir veya tahsis yapılan idarece; kamulaştırma ve devir amacına uygun hiç bir işlem veya tesisat yapılmaz veya kamu yararına yönelik bir ihtiyaca tahsis edilmeyerek taşınmaz mal olduğu gibi bırakılırsa, mal sahibi veya mirasçıları kamulaştırma bedelini aldıkları günden itibaren işleyecek kanuni faiziyle birlikte ödeyerek, taşınmaz malını geri alabilir.[27]\nDoğmasından itibaren bir yıl içinde kullanılmayan geri alma hakkı düşer.\n(Ek fıkra: 10/9/2014-6552/100 md.) Birinci ve ikinci fıkrada belirtilen süreler geçtikten sonra kamulaştırılan taşınmaz malda hakları bulunduğu iddiasıyla eski malikleri veya mirasçıları tarafından idareden herhangi bir sebeple hak, bedel veya tazminat talebinde bulunulamaz ve dava açılamaz.\nAynı amacın gerçekleşmesi için birden fazla taşınmaz mal birlikte kamulaştırıldığı takdirde bu taşınmaz malların durumunun bir bütün oluşturduğu kabul edilerek yukarıdaki fıkralar buna göre uygulanır.\nÖzel kanunlarda bu maddenin uygulanmayacağına ilişkin hükümler saklıdır. 1164 sayılı Arsa Ofisi Kanununa dayanılarak yapılan kamulaştırmalarda ve bu Kanunun 3 üncü maddesinin 2 nci fıkrasında belirtilen hallerde yapılacak kamulaştırmalarda bu madde hükmü uygulanmaz.\n[27] 10/9/2014 tarihli ve 6552 sayılı Kanunun 100 üncü maddesiyle bu fıkrada yer alan; “ikinci” ibaresi “dördüncü” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "24",
+   "official_text": "Kamulaştırma bedelinden düşülebilecek hasar\nMadde 24 – 21, 22 ve 23 üncü maddeler uyarınca kamulaştırılmasından vazgeçilen veya geri alınan taşınmaz mal üzerindeki bina, sabit tesisler ve ekili dikili şeyler yıkılmış, sökülmüş veya harap olmuş ise, taşınmaz malın geri alınmasında mal sahibi veya mirasçısı, kamulaştırma tarihindeki değerine göre farkının, ödeyeceği kamulaştırma bedelinden düşülmesini isteyebilir.\nBu madde ile 21, 22 ve 23 üncü maddelerin uygulamasından doğacak anlaşmazlıklar adli yargıda çözümlenir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "27",
+   "official_text": "Acele kamulaştırma\nMadde 27 – 3634 sayılı Milli Müdafaa Mükellefiyeti Kanununun uygulanmasında yurt savunması ihtiyacına veya aceleliğine Cumhurbaşkanınca karar alınacak hallerde veya özel kanunlarla öngörülen olağanüstü durumlarda gerekli olan taşınmaz malların kamulaştırılmasında kıymet takdiri dışındaki işlemler sonradan tamamlanmak üzere ilgili idarenin istemi ile mahkemece yedi gün içinde o taşınmaz malın (Değişik ibare: 24/4/2001 - 4650/15 md.) 10 uncu madde esasları dairesinde ve 15 inci madde uyarınca seçilecek bilirkişilerce tespit edilecek değeri, idare tarafından mal sahibi adına (Değişik ibare: 24/4/2001 - 4650/15 md.) 10 uncu maddeye göre yapılacak davetiye ve ilanda belirtilen bankaya yatırılarak o taşınmaz mala el konulabilir.[29][30]\n(Ek fıkra: 19/4/2018-7139/29 md.) Mahkemece verilen taşınmaz mala el koyma kararı tapu müdürlüğüne bildirilir. Taşınmaz malın başkasına devir, ferağ veya temlikinin yapılamayacağı hükmü tapu kütüğüne şerh edilir. El koyma kararından sonra taşınmaz mal 20 nci madde uyarınca boşaltılır.\nBu Kanunun 3 üncü maddesinin 2 nci fıkrasında belirtilen hallerde yapılacak kamulaştırmalarda yatırılacak miktar, ödenecek ilk taksit bedelidir.\n[29] Bu fıkrada yer alan; sırasıyla, “11 ve 12 nci” ve “milli bir bankaya” ibareleri; “10 uncu” ve “10 uncu maddeye göre yapılacak davetiye ve ilanda belirtilen bankaya” şeklinde 24/4/2001 tarihli ve 4650 sayılı Kanunun 15 inci maddesiyle değiştirilmiş ve metne işlenmiştir.\n[30] 2/7/2018 tarihli ve 700 sayılı KHK’nin 86 ncı maddesiyle, bu fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "30",
+   "official_text": "Bir idareye ait taşınmaz malın diğer idareye devri\nMadde 30 – (Değişik: 24/4/2001 - 4650/17 md.)\nKamu tüzelkişilerinin ve kurumlarının sahip oldukları taşınmaz mal, kaynak veya irtifak hakları diğer bir kamu tüzelkişisi veya kurumu tarafından kamulaştırılamaz.\nTaşınmaz mala; kaynak veya irtifak hakkına ihtiyacı olan idare, 8 inci madde uyarınca bedeli tespit eder. Bu bedel esas alınarak ödeyeceği bedeli de belirterek mal sahibi idareye yazılı olarak başvurur. Mal sahibi idare devire muvafakat etmez veya altmış gün içinde cevap vermez ise anlaşmazlık, alıcı idarenin başvurusu üzerine Danıştay ilgili idari dairesince incelenerek iki ay içinde kesin karara bağlanır.\nTaraflar bedelde anlaşamadıkları takdirde; alıcı idare, devirde anlaşma tarihinden veya Danıştay kararının tebliği tarihinden itibaren otuz gün içinde, 10 uncu maddede yazılı usule göre mahkemeye başvurarak, kamulaştırma bedelinin tespitini ister. Bu durumda yapılacak yargılamada mahkemece, 29/6/1938 tarihli ve 3533 sayılı Kanun hükümleri uygulanmaz.\nMahkemece, 10 uncu maddede öngörülen usule göre kamulaştırma bedeli olarak tespit edilen miktarın, peşin ve nakit olarak mal sahibi idareye verilmek üzere belirleyeceği bir bankaya yatırılması ve yatırıldığına dair makbuzun ibraz edilmesi için alıcı idareye onbeş gün süre verilir. Gereken hallerde bu süre bir defaya mahsus olmak üzere uzatılabilir. Alıcı idare tarafından kamulaştırma bedelinin mal sahibi idare adına bankaya yatırıldığına dair makbuzun ibrazı halinde mahkemece, taşınmaz malın alıcı idare adına tesciline ve kamulaştırma bedelinin mal sahibi idareye ödenmesine karar verilir ve bu karar, tapu dairesine ve paranın yatırıldığı bankaya bildirilir. Tescil hükmü kesin olup tarafların bedele ilişkin temyiz hakları saklıdır.\nBu suretle devir alınan taşınmaz mal, kaynak veya irtifak hakkı, sahibinden kamulaştırma yolu ile alınmış sayılır ve devir amacı veya devreden idarenin izni dışında başkaca bir kamusal amaçla kullanılamaz. Aksi takdirde devreden idare, 23 üncü madde uyarınca taşınmaz malı geri alabilir. Bu husus tapu kütüğünün beyanlar hanesine şerh verilir.\n(Ek fıkra: 20/8/2016-6745/32 md.) İçişleri Bakanlığının güvenlik gerekçesiyle ihtiyaç duyduğu, kamu kurum ve kuruluşları, belediyeler ve il özel idareleri dâhil mahalli idareler ve diğer kamu tüzel kişilerine ait taşınmazlar, kaynak veya irtifak hakları, Cumhurbaşkanı kararıyla resen Hazine adına tescil ve İçişleri Bakanlığına tahsis edilir. Taşınmazın bedeli, tescil işleminden itibaren altmış gün içinde bu Kanunun 11 inci maddesinde belirtilen kriterler de dikkate alınmak suretiyle valiliklerce resen tespit edilir. Bedele ilişkin itirazlar Danıştaya yapılır. İtirazlar tescil işlemini durdurmaz. Mahkemelerce ihtiyati tedbir ve yürütmenin durdurulması kararları verilemez, 3533 sayılı Kanun hükümleri uygulanmaz. Bu taşınmazlara ilişkin olarak ihtiyaç duyulan imar planı değişiklikleri Çevre ve Şehircilik Bakanlığınca resen yapılır veya yaptırılır.[31]\n[31] 2/7/2018 tarihli ve 700 sayılı KHK’nin 86 ncı maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "KAMULAŞTIRMA KANUNU",
+   "law_no": "2942",
+   "article_no": "38",
+   "official_text": "Hak düşürücü süre\nMadde 38 – (İptal: Anayasa Mahkemesinin 10/4/2003 tarihli ve E.2002/112, K.2003/33 sayılı kararı ile)",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2942&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Hukuk Genel Kurulu",
+   "esas_no": "2010/5-662",
+   "karar_no": "2010/651",
+   "decision_date": "15.12.2010",
+   "summary_md": "Davacı, Maltepe'de bir arsanın paydaşıdır. Taşınmaz 1978'den beri imar planlarında okul alanı olarak ayrılmış, davacının başvuruları sonuçsuz kalmış, idare taşınmaza fiilen el atmamıştır. Davacı il özel idaresinden payının bedelini istedi. İlk derece mahkemesi mülkiyet hakkının engellendiğini kabul ederek davayı kısmen kabul etti; Yargıtay 5. Hukuk Dairesi, idare eylemli el koymadıkça imar planında kamu hizmetine ayırmanın dava hakkı vermediği gerekçesiyle oy çokluğuyla bozdu; mahkeme direndi. Hukuk Genel Kurulu, taşınmaza eylemli el atma ile imar planıyla hukuken kullanmayı engelleme arasında sonuç bakımından fark bulunmadığını, uzun yıllar kamulaştırma ya da takas yoluna gitmeyen idarenin pasifliğinin kamulaştırmasız el koyma için yeterli olduğunu belirtti ve direnmeyi uygun buldu; esasın incelenmesi için dosya Özel Daireye gönderildi. Karar oy çokluğuyla verildi. Kararın katkısı: uzun süre kamulaştırılmayan imar kısıtlaması hukuki el atmadır, malik bedel isteyebilir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/17211700",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "5. Hukuk Dairesi",
+   "esas_no": "2023/12433",
+   "karar_no": "2024/4025",
+   "decision_date": "01.04.2024",
+   "summary_md": "Arsa, 05/12/2008 onaylı uygulama imar planında park alanında kalmış ve on yıldan fazla kamulaştırılmamıştı. Malik, idarelerden birine karşı kamulaştırmasız el atma bedelini istedi; davalılar idari yargının görevli olduğunu, zamanaşımını ve husumet itirazlarını ileri sürdü. İlk derece mahkemesi bir davalı yönünden husumet yokluğundan reddetti, diğeri yönünden kabul etti; bölge adliye mahkemesi istinafı esastan reddetti. Yargıtay 5. Hukuk Dairesi, uyuşmazlığın Kamulaştırma Kanunu'ndaki hukuki el atma niteliğinde olduğunu belirterek arsaya emsal satışlara göre, yapıya resmî birim fiyatı ve yıpranma payıyla, ağaçlara maktuen değer biçilmesini doğru buldu. Ancak 7421 sayılı Kanunla getirilen harç düzenlemesi ve Dairenin yerleşik uygulaması gereği maktu vekâlet ücretine hükmedilmesi gerektiğinden kararı düzelterek onadı. Karar oybirliğiyle verildi. Kararın katkısı: hukuki el atmada bedel, bedel tespiti ölçütlerine göre belirlenir.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1053048000",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Aşağıdakilerden hangisi Anayasa'nın 46. maddesine göre kamulaştırma bedelinin taksitle ödenebileceği amaçlardan biri değildir?",
+   "options": [
+    "Kıyıların korunması",
+    "Turizm",
+    "Okul binası yapılması",
+    "Tarım reformunun uygulanması"
+   ],
+   "correct_option": 2,
+   "explanation_md": "AY m. 46/2: taksit yalnız tarım reformu, büyük enerji ve sulama projeleri, iskân projeleri, yeni ormanların yetiştirilmesi, kıyıların korunması ve turizm amacıyla kanunla öngörülebilir. Okul yapımı sayılmaz; bu durumda bedel nakden ve peşin ödenir. Taksitlendirme süresi de beş yılı aşamaz."
+  },
+  {
+   "stem_md": "2942 sayılı Kanun m. 3/2'ye göre taksitle ödenecek bir kamulaştırmada peşin ödenecek miktar bakımından aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Peşin ödeme zorunluluğu yoktur",
+    "Bedelin onda birinden az olamaz",
+    "Bedelin altıda birinden az olamaz",
+    "Bedelin yarısından az olamaz"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Peşin miktar kamulaştırma bedelinin altıda birinden az olamaz; kalan en fazla beş yıl içinde faiziyle birlikte eşit taksitlere bağlanır (2942 sayılı Kanun m. 3/2). Yarım, onda bir gibi oranlar kanunda yoktur."
+  },
+  {
+   "stem_md": "İki ayrı ile bağlı A ve B belediyelerinin ortak yararına bir tesis için kamulaştırma yapılacaktır. Kamu yararı kararını hangi merci verir?",
+   "options": [
+    "İlgili il idare kurulu",
+    "Cumhurbaşkanı",
+    "Her belediyenin kendi encümeni",
+    "Çevre ve Şehircilik Bakanlığı"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ayrı illere bağlı birden çok kamu tüzel kişisi yararına yapılan kamulaştırmalarda kamu yararı kararını Cumhurbaşkanı verir (2942 sayılı Kanun m. 5). Belediye encümeni tek belediyenin, il idare kurulu ise tek il sınırları içindeki Devlet yararının mercidir."
+  },
+  {
+   "stem_md": "İdare, Mart ayında Ali'nin tarlasına kamulaştırma şerhi koydurmuştur. Altı ay geçmesine rağmen idare bedel tespiti ve tescil davası açtığına dair mahkemeden alınan belgeyi tapu idaresine ibraz etmemiştir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Şerh tapu idaresince resen sicilden silinir",
+    "Şerh ancak Danıştay kararıyla silinir",
+    "Şerh süresiz olarak sicilde kalır",
+    "Şerhin silinmesi için malikin dava açması gerekir"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Şerh tarihinden itibaren altı ay içinde 2942 sayılı Kanun m. 10'a göre dava açıldığına dair belge tapu idaresine ibraz edilmezse şerh tapu idaresince resen sicilden silinir (2942 sayılı Kanun m. 7/3). Malikin ayrıca dava açması ya da Danıştay kararı gerekmez."
+  },
+  {
+   "stem_md": "Satın alma usulüne ilişkin aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Satın alma usulüyle yapılan kamulaştırmaya karşı bedel yönünden itiraz davası açılabilir",
+    "Malik, satın alma yazısının tebliğinden itibaren 15 gün içinde başvurmalıdır; anlaşma tutanağı ferağ beyanı ve tescilin hukuki sebebi sayılır",
+    "Bedel, tescilden önce peşin olarak malike ödenmek zorundadır",
+    "Malik 60 gün içinde başvurabilir; tutanak yalnız ön sözleşme niteliğindedir"
+   ],
+   "correct_option": 1,
+   "explanation_md": "2942 sayılı Kanun m. 8'e göre malik tebliğ tarihinden itibaren on beş gün içinde başvurur; anlaşma tutanağı malikin ferağ beyanı ve idare adına yapılacak tescilin hukuki sebebi sayılır. Bedel en geç kırk beş gün içinde hazır edilir, tescilden sonra ödenir. Bu yolla yapılan kamulaştırmaya veya bedeline itiraz davası açılamaz."
+  },
+  {
+   "stem_md": "Ayşe, kamulaştırma işlemine karşı davetiyenin tebliğinden itibaren hangi süre içinde idari yargıda iptal davası açabilir?",
+   "options": [
+    "Otuz gün",
+    "Bir yıl",
+    "Altmış gün",
+    "On beş gün"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kamulaştırma Kanunu'nun ilgili hükmüne göre malik, tebligat veya ilandan itibaren otuz gün içinde kamulaştırma işlemine karşı idari yargıda iptal, maddi hatalara karşı adli yargıda düzeltim davası açabilir. İYUK'taki genel altmış günlük süre bu özel düzenleme karşısında uygulanmaz."
+  },
+  {
+   "stem_md": "Ayşe'nin arsasının yanına metro istasyonu yapılacaktır. Bilirkişi kurulu, istasyonun getireceği değer artışını da dikkate alarak yüksek bir bedel önermiştir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yanlış; kamulaştırmayı gerektiren teşebbüsün sebep olacağı değer artışı dikkate alınmaz",
+    "Doğru; arsada değer artışı bedele eklenir",
+    "Doğru; ancak artışın yalnız yarısı eklenir",
+    "Yanlış; arsalarda emsal satış değil, net gelir esas alınır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Kamulaştırmayı gerektiren imar ve hizmet teşebbüsünün sebep olacağı değer artışları bedelin tespitinde dikkate alınmaz (2942 sayılı Kanun m. 11/2). Arsalarda ise kamulaştırma gününden önceki özel amacı olmayan emsal satışlara göre satış değeri esastır; net gelir arazilerde kullanılır."
+  },
+  {
+   "stem_md": "Bedel tespiti ve tescil davasına ilişkin aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Davayı malik açar ve idare bedele itiraz eder",
+    "Davayı idare, taşınmazın bulunduğu yer asliye hukuk mahkemesinde açar ve mülkiyet mahkemenin tescil kararıyla geçer",
+    "Dava idare mahkemesinde görülür ve mülkiyet kamulaştırma kararıyla geçer",
+    "Dava, sulh hukuk mahkemesinde görülür ve mülkiyet bedelin ödenmesiyle kendiliğinden geçer"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Satın alma usulüyle anlaşılamazsa idare, taşınmazın bulunduğu yer asliye hukuk mahkemesine başvurur (2942 sayılı Kanun m. 10/1). Mülkiyet kamulaştırma kararıyla değil, mahkemenin verdiği tescil kararıyla idareye geçer; bu karar, idarenin bedeli yatırdığını gösteren makbuzu ibrazından sonra verilir."
+  },
+  {
+   "stem_md": "Cumhurbaşkanınca aceleliğine karar verilen bir savunma tesisi için idare Mehmet'in taşınmazına hemen el koymak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "El koyma için malikin muvafakati zorunludur",
+    "Bedel tespiti tamamen atlanır, idare doğrudan el koyar",
+    "Mahkeme yedi gün içinde değeri tespit eder; bedel Mehmet adına bankaya yatırılınca taşınmaza el konulabilir",
+    "Mahkeme otuz gün içinde değeri tespit eder; el koyma ancak tescilden sonra yapılır"
+   ],
+   "correct_option": 2,
+   "explanation_md": "Acele kamulaştırmada kıymet takdiri dışındaki işlemler sonradan tamamlanmak üzere mahkeme yedi gün içinde değeri tespit eder; idare bedeli mal sahibi adına bankaya yatırır ve taşınmaza el konulabilir (2942 sayılı Kanun m. 27/1). El koyma kararı tapuya bildirilir, devir yasağı şerh edilir (2942 sayılı Kanun m. 27/2). Bedel tespiti atlanmaz."
+  },
+  {
+   "stem_md": "Elif'in arsası okul yapımı için kamulaştırılmış, bedel kesinleşmiş, ancak idare altı yıl boyunca amaca uygun hiçbir işlem yapmamış ve arsayı olduğu gibi bırakmıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Elif taşınmazı bedelsiz geri alır ve hakkı süresizdir",
+    "Elif hiçbir hâlde geri alamaz",
+    "Geri alma için idarenin rızası aranır",
+    "Elif kamulaştırma bedelini kanuni faiziyle ödeyerek taşınmazı geri alma hakkına sahiptir; bu hak doğmasından itibaren bir yıl içinde kullanılmazsa düşer"
+   ],
+   "correct_option": 3,
+   "explanation_md": "Bedelin kesinleşmesinden itibaren beş yıl içinde amaca uygun hiçbir işlem yapılmaz ve taşınmaz olduğu gibi bırakılırsa mal sahibi, bedeli aldığı günden itibaren işleyecek kanuni faiziyle ödeyerek taşınmazı geri alabilir. Doğmasından itibaren bir yıl içinde kullanılmayan hak düşer (2942 sayılı Kanun m. 23)."
+  },
+  {
+   "stem_md": "Enerji nakil hattı için Zeynep'in tarlasından geçilmek istenmektedir. Hattın tarlanın kullanımını tümüyle engellemediği anlaşılmıştır. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İdare mutlaka tarlanın mülkiyetini kamulaştırmalıdır",
+    "Amaç için yeterliyse irtifak hakkı kurulabilir ve bedel taşınmazda meydana gelen kıymet düşüklüğüdür",
+    "İrtifak kurulabilir, ancak bedel tarlanın tam değeridir",
+    "İrtifak kurulamaz, çünkü irtifak yalnız özel hukuk sözleşmesiyle kurulur"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Mülkiyet yerine, amaç için yeterliyse taşınmazın belirli kesimi, yüksekliği veya derinliği üzerinde kamulaştırma yoluyla irtifak hakkı kurulabilir (2942 sayılı Kanun m. 4/1). İrtifak kamulaştırmasında kıymet düşüklüğü kamulaştırma bedelidir (2942 sayılı Kanun m. 11/3). AY m. 46/1 de idari irtifak kurulmasına izin verir."
+  },
+  {
+   "stem_md": "Elif'in arsası 2008'den beri imar planında park alanı olarak ayrılmıştır; idare aradan on yıldan fazla geçmesine rağmen kamulaştırmamış ve arsaya fiilen de el atmamıştır. Yargıtay uygulamasına göre aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Uzun süre kamulaştırılmayan imar kısıtlaması hukuki el atma sayılır ve malik bedel isteyebilir",
+    "Fiilî el atma bulunmadığından malik hiçbir talepte bulunamaz",
+    "İdare, yalnız imar planını değiştirmek zorundadır; bedel ödenmez",
+    "Dava, 2942 sayılı Kanun m. 38'deki hak düşürücü süre içinde açılmalıdır"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Hukuk Genel Kurulu, yıllarca kamulaştırılmayan ve takas edilmeyen imar kısıtlamasında idarenin pasifliğini kamulaştırmasız el koyma için yeterli saymıştır; Yargıtay 5. Hukuk Dairesi de park alanında kalan arsada hukuki el atma kabul edip bedeli Kamulaştırma Kanunu'nun bedel ölçütleriyle belirlemiştir. 2942 sayılı Kanun m. 38 AYM kararıyla iptal edilmiştir."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "X Belediyesi encümeni, Ali'nin ilçedeki tapulu tarlasını park yapmak amacıyla kamulaştırmak üzere kamu yararı kararı verir; karar kaymakam tarafından onaylanır. Belediye, kamulaştırma şerhini tapuya işletir ve Ali'ye tahmini bedeli belirtmeksizin resmî taahhütlü yazıyla satın alma teklifinde bulunur. Ali yazıya yirminci günde cevap verir ve pazarlık yapmak ister; belediye bu başvuruyu geçersiz sayar. Anlaşma olmaz. Belediye, şerhten sekiz ay sonra bedel tespiti ve tescil davası açar. Ali, parkın kamu yararına aykırı olduğunu düşünmektedir.\n\nBu olaya göre:\n1. Kamu yararı kararını doğru merci mi vermiştir?\n2. Ali'nin cevabı süresinde midir?\n3. Şerhin akıbeti ne olur?\n4. Bedel davası nerede ve kimin tarafından açılır?\n5. Ali park amacına itiraz etmek isterse ne yapmalıdır?",
+   "rubric": [
+    {
+     "point": "Belediye yararına kamu yararı kararını belediye encümeninin vermesi",
+     "weight": 15,
+     "madde_ref": "2942 sayılı Kanun m. 5"
+    },
+    {
+     "point": "Malikin başvurusunun tebliğden itibaren 15 gün içinde yapılması gerektiği; Ali'nin süreyi kaçırdığı, idarenin dava yoluna gideceği",
+     "weight": 20,
+     "madde_ref": "2942 sayılı Kanun m. 8"
+    },
+    {
+     "point": "Şerh tarihinden itibaren altı ay içinde dava belgesi verilmediği için şerhin resen silinmesi gerektiği",
+     "weight": 20,
+     "madde_ref": "2942 sayılı Kanun m. 7"
+    },
+    {
+     "point": "Bedel tespiti ve tescil davasının idarece taşınmazın bulunduğu yer asliye hukuk mahkemesinde açılması",
+     "weight": 20,
+     "madde_ref": "2942 sayılı Kanun m. 10"
+    },
+    {
+     "point": "Mülkiyetin mahkemenin tescil kararıyla idareye geçmesi ve bedel yönünden malikin itiraz edebilmesi",
+     "weight": 10,
+     "madde_ref": "2942 sayılı Kanun m. 10"
+    },
+    {
+     "point": "Kamulaştırma işleminin hukuka aykırılığı için tebligattan itibaren otuz gün içinde idari yargıda iptal davası açılabilmesi",
+     "weight": 15,
+     "madde_ref": "2942 sayılı Kanun m. 10"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, olağan usulle yapılan bir kamulaştırmanın aşamalarını (kamu yararı kararı, şerh, satın alma, bedel davası, dava yolları) içerir.\n\n**Hukuki sorunlar:** (1) Karar yetkili mercice mi verilmiştir? (2) Satın alma sürecinde malikin başvurusu süresinde midir? (3) Şerh geçerliliğini korur mu? (4) Bedel davası kimce ve nerede açılır? (5) Ali amaca nasıl itiraz eder?\n\n**İlgili hükümler:** Belediye yararına kamulaştırmalarda kamu yararı kararını belediye encümeni verir (2942 sayılı Kanun m. 5); ilçelerde kaymakam onayı Kanun'un onay hükmündendir. Tapulu taşınmazlarda satın alma usulü öncelikle uygulanır; malik yazının tebliğinden itibaren on beş gün içinde başvurmalıdır (2942 sayılı Kanun m. 8). Şerh tarihinden itibaren altı ay içinde dava belgesi verilmezse şerh resen silinir (2942 sayılı Kanun m. 7). Anlaşma olmazsa idare asliye hukuk mahkemesine başvurur (2942 sayılı Kanun m. 10). Kamulaştırma işlemine karşı idari yargıda iptal davası, tebligat veya ilandan itibaren otuz gün içinde açılır.\n\n**Değerlendirme:** Kamu yararı kararı doğru merci (encümen) tarafından verilmiş ve kaymakamca onaylanmıştır. Ali'nin başvurusu yirminci günde yapıldığından on beş günlük süreyi aşmıştır; belediyenin başvuruyu işleme almaması bu nedenle haklıdır ve satın alma yolu sonuçsuz kalır. Belediye bu durumda 2942 sayılı Kanun m. 10'a göre dava açacaktır; ancak dava şerhten sekiz ay sonra açıldığı için, altı ay içinde dava açıldığına dair belge tapu idaresine verilmemişse şerh resen silinmelidir. Davayı açan idaredir; Ali bu davada bedele itiraz edebilir. Mülkiyet, mahkemenin bedel yatırıldıktan sonra vereceği tescil kararıyla belediyeye geçer. Ali parkın kamu yararı bulunmadığını ileri sürmek istiyorsa, davetiyenin tebliğinden itibaren otuz gün içinde idari yargıda kamulaştırma işleminin iptalini isteyebilir; bu dava bedel davasından ayrıdır.\n\n**Sonuç:** Kamu yararı kararı geçerlidir; Ali satın alma süresini kaçırmıştır; şerh altı ayda dava belgesi ibraz edilmediği için silinir; bedel davası belediye tarafından asliye hukukta açılır, Ali iptal davasını otuz gün içinde idare mahkemesinde açabilir."
+  },
+  {
+   "stem_md": "Cumhurbaşkanı, yurt savunması ihtiyacının acelelik gösterdiğine karar vererek bir savunma tesisinin yapılması için Mehmet'in taşınmazının kamulaştırılmasına karar verir. İdare taşınmaza hemen el koymak ister. Mehmet, tesisin yakınındaki arazilerin değerini artıracağını ileri sürerek bedelin bu artışa göre yüksek belirlenmesini ve bedel tespiti yapılmadan el koyulamayacağını savunur. İdare ise acele kamulaştırmada bedel tespitine gerek olmadığını söylemektedir.\n\nBu olaya göre:\n1. Acele kamulaştırma şartları gerçekleşmiş midir?\n2. Mahkemenin görevi ve süresi nedir?\n3. İdare taşınmaza ne zaman el koyabilir?\n4. Mehmet'in değer artışı iddiası bedele yansır mı?\n5. El koymadan sonra tapu ve boşaltma yönünden ne olur?",
+   "rubric": [
+    {
+     "point": "Cumhurbaşkanınca yurt savunması ihtiyacı veya aceleliğine karar verilmesi nedeniyle acele kamulaştırma şartının gerçekleşmesi",
+     "weight": 20,
+     "madde_ref": "2942 sayılı Kanun m. 27"
+    },
+    {
+     "point": "Mahkemenin yedi gün içinde değeri bilirkişilerce tespit etmesi; bedel tespitinin atlanmaması",
+     "weight": 25,
+     "madde_ref": "2942 sayılı Kanun m. 27"
+    },
+    {
+     "point": "Bedelin mal sahibi adına bankaya yatırılmasıyla taşınmaza el konulabilmesi; kıymet takdiri dışındaki işlemlerin sonradan tamamlanması",
+     "weight": 20,
+     "madde_ref": "2942 sayılı Kanun m. 27"
+    },
+    {
+     "point": "Kamulaştırmayı gerektiren teşebbüsün sebep olacağı değer artışının bedelde dikkate alınmaması",
+     "weight": 20,
+     "madde_ref": "2942 sayılı Kanun m. 11"
+    },
+    {
+     "point": "El koyma kararının tapuya bildirilmesi, devir yasağı şerhi ve taşınmazın boşaltılması",
+     "weight": 15,
+     "madde_ref": "2942 sayılı Kanun m. 27"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, 2942 sayılı Kanun m. 27 kapsamında acele kamulaştırma ve bedelin tespit esaslarıdır.\n\n**Hukuki sorunlar:** (1) Acele kamulaştırma hâli gerçekleşmiş midir? (2) Bedel tespiti atlanabilir mi? (3) El koyma anı nedir? (4) Değer artışı bedele yansır mı? (5) El koymanın sonuçları nelerdir?\n\n**İlgili hükümler:** Yurt savunması ihtiyacına veya aceleliğine Cumhurbaşkanınca karar alınacak hâllerde ya da özel kanunlarla öngörülen olağanüstü durumlarda, kıymet takdiri dışındaki işlemler sonradan tamamlanmak üzere ilgili idarenin istemiyle mahkemece yedi gün içinde taşınmazın değeri 10. madde esaslarına ve bilirkişilere göre tespit edilir; bedel mal sahibi adına bankaya yatırılarak taşınmaza el konulabilir (2942 sayılı Kanun m. 27/1). El koyma kararı tapuya bildirilir, devir yasağı şerh edilir ve taşınmaz boşaltılır (2942 sayılı Kanun m. 27/2). Bedelin tespitinde kamulaştırmayı gerektiren teşebbüsün sebep olacağı değer artışları dikkate alınmaz (2942 sayılı Kanun m. 11/2).\n\n**Değerlendirme:** Cumhurbaşkanının acelelik kararı vardır; bu, kanundaki sayılı hâllerden biridir ve idare haklı olarak acele kamulaştırmaya başvurabilir. Ancak idarenin \"bedel tespiti gerekmez\" savı yanlıştır: acele kamulaştırmada ertelenen şey kıymet takdiri dışındaki işlemlerdir; bedel yedi gün içinde mahkemece tespit edilir ve yatırılır. Bu nedenle Mehmet'in \"bedel tespiti yapılmadan el konulamaz\" savı bu yönüyle doğrudur. Mehmet'in ikinci savı ise yerinde değildir: tesisin yaratacağı değer artışı bedele yansımaz. Bedel yatırıldığında idare taşınmaza el koyar; el koyma kararı tapu müdürlüğüne bildirilir, taşınmazın devir ve ferağ edilemeyeceği tapuya şerh edilir ve taşınmaz Kanun'un boşaltma hükmüne göre boşaltılır.\n\n**Sonuç:** Acele kamulaştırma şartları vardır; mahkeme yedi gün içinde değeri tespit eder, bedel Mehmet adına bankaya yatırılınca idare taşınmaza el koyabilir. Değer artışı bedele yansıtılmaz. El koyma tapuya bildirilir, devir yasağı şerhi konur ve taşınmaz boşaltılır."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "AY m. 46'ya göre kamulaştırma bedeli nasıl ödenir?",
+   "back_md": "Kural nakden ve peşin. Taksit yalnız sayılan amaçlarda, en çok beş yıl ve eşit taksitle; küçük çiftçinin bedeli her hâlde peşin (AY m. 46)."
+  },
+  {
+   "front_md": "Taksitli kamulaştırmada peşin kısım en az ne kadardır?",
+   "back_md": "Bedelin altıda biri; kalan en fazla beş yılda faiziyle eşit taksitlerle ödenir (2942 sayılı Kanun m. 3/2)."
+  },
+  {
+   "front_md": "Belediye yararına kamu yararı kararını kim verir?",
+   "back_md": "Belediye encümeni. Ayrı illere bağlı birden çok kamu tüzel kişisi yararına Cumhurbaşkanı verir (2942 sayılı Kanun m. 5)."
+  },
+  {
+   "front_md": "Kamulaştırma şerhi ne zaman resen silinir?",
+   "back_md": "Şerhten itibaren altı ay içinde bedel tespiti ve tescil davasının açıldığına dair belge verilmezse (2942 sayılı Kanun m. 7/3)."
+  },
+  {
+   "front_md": "Satın alma usulünde malikin başvuru süresi nedir?",
+   "back_md": "Yazının tebliğinden itibaren 15 gün; bedel en geç 45 gün içinde hazır edilir; itiraz davası açılamaz (2942 sayılı Kanun m. 8)."
+  },
+  {
+   "front_md": "Bedel tespiti ve tescil davasını kim, nerede açar?",
+   "back_md": "İdare, taşınmazın bulunduğu yer asliye hukuk mahkemesinde. Mülkiyet mahkemenin tescil kararıyla geçer (2942 sayılı Kanun m. 10)."
+  },
+  {
+   "front_md": "Bedel tespitinde değer artışı dikkate alınır mı?",
+   "back_md": "Hayır. Kamulaştırmayı gerektiren teşebbüsün sebep olacağı değer artışı dikkate alınmaz; irtifakta kıymet düşüklüğü bedeldir (2942 sayılı Kanun m. 11)."
+  },
+  {
+   "front_md": "Üç dava ve yargı yolları?",
+   "back_md": "İşlemin hukuka aykırılığı: idari yargıda iptal; maddi hata: adli yargıda düzeltim (ikisi için tebligattan itibaren 30 gün); bedel: asliye hukuk."
+  },
+  {
+   "front_md": "Acele kamulaştırmada mahkeme kaç günde değer tespit eder?",
+   "back_md": "Yedi gün. Bedel yatırılınca el konulur; diğer işlemler sonradan tamamlanır (2942 sayılı Kanun m. 27)."
+  },
+  {
+   "front_md": "Geri alma hakkı ne zaman doğar, ne zaman düşer?",
+   "back_md": "Bedelin kesinleşmesinden beş yıl içinde amaca uygun işlem yapılmazsa doğar; doğmasından itibaren bir yılda kullanılmazsa düşer (2942 sayılı Kanun m. 23)."
+  },
+  {
+   "front_md": "Bir kamu tüzel kişisinin taşınmazı başka idarece kamulaştırılabilir mi?",
+   "back_md": "Hayır; devir usulü işler. Mal sahibi idare altmış gün cevap vermezse Danıştay ilgili idari dairesi iki ay içinde kesin karar verir (2942 sayılı Kanun m. 30)."
+  },
+  {
+   "front_md": "Hukuki el atma nedir?",
+   "back_md": "Fiilî kullanım olmaksızın imar planıyla uzun süre kullanılamaz kılma. HGK ve 5. HD'ye göre malik bedel isteyebilir."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}

@@ -126,6 +126,26 @@ def test_case_id_must_come_from_search_cache():
     assert any("999" in h for h in hatalar)
 
 
+def test_international_case_takes_citation_from_draft_with_official_source():
+    uad = {"uluslararasi": True, "mahkeme": "Uluslararası Adalet Divanı", "ad": "Reparation for Injuries (danışma görüşü)",
+           "tarih": "11.04.1949", "kaynak": "https://legal.un.org/icjsummaries/documents/english/st_leg_serf1.pdf",
+           "ozet": kelime(40)}
+    doc, hatalar, _ = kontrol(taslak(kararlar=[uad]))
+    assert hatalar == []
+    case = doc["cases"][0]
+    assert (case["court"], case["chamber"], case["decision_date"]) == (
+        "Uluslararası Adalet Divanı", "Reparation for Injuries (danışma görüşü)", "11.04.1949")
+
+
+def test_international_case_needs_official_source_and_date_format():
+    uad = {"uluslararasi": True, "mahkeme": "UAD", "ad": "Lotus", "tarih": "1927", "kaynak": "https://blog.example.com/lotus",
+           "ozet": kelime(40)}
+    _, hatalar, _ = kontrol(taslak(kararlar=[uad]))
+    assert any("gg.aa.yyyy" in h for h in hatalar)
+    _, hatalar, _ = kontrol(taslak(kararlar=[{**uad, "tarih": "07.09.1927"}]))
+    assert any("resmî" in h for h in hatalar)
+
+
 def test_case_must_be_read_before_use():
     kunye = {**KUNYE["360322900"], "okundu": False}
     _, hatalar, _ = elle.kontrol_et("HUK2011", taslak(), PLAN, METIN, {"360322900": kunye})

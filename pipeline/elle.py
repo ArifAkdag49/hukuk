@@ -148,6 +148,39 @@ def _texts(t: dict) -> list[tuple[str, str]]:
     return out
 
 
+# Uluslararası kararlar (UAD, UDAD, tahkim, UCM, ICTY) içtihat önbelleğinde yoktur: künye taslaktan gelir,
+# araştırmacı paketinde yalnız mahkemenin ya da BM'nin resmî yayınından doğrulanmış olmalıdır.
+RESMI_KAYNAK_RE = re.compile(
+    r"^https://(?:[a-z0-9-]+\.)*(?:un\.org|icj-cij\.org|icc-cpi\.int|icty\.org|irmct\.org|pca-cpa\.org"
+    r"|icrc\.org|itlos\.org|echr\.coe\.int)/"
+)
+TARIH_RE = re.compile(r"^\d{2}\.\d{2}\.\d{4}$")
+
+
+def uluslararasi_karar(k: dict) -> tuple[dict | None, str | None]:
+    """`uluslararasi: true` karar girdisi: mahkeme, ad (dava adı ve karar türü), tarih (gg.aa.yyyy), kaynak, ozet."""
+    eksik = [a for a in ("mahkeme", "ad", "tarih", "kaynak", "ozet") if not str(k.get(a) or "").strip()]
+    if eksik:
+        return None, f"uluslararası kararda eksik alan: {', '.join(eksik)}"
+    if not TARIH_RE.match(str(k["tarih"]).strip()):
+        return None, f"tarih gg.aa.yyyy biçiminde olmalı: {k['tarih']}"
+    kaynak = str(k["kaynak"]).strip()
+    if not RESMI_KAYNAK_RE.match(kaynak):
+        return None, f"kaynak resmî bir mahkeme/BM adresi değil: {kaynak}"
+    if words(k["ozet"]) < MIN["karar_ozet"]:
+        return None, "özet çok kısa"
+    return {
+        "court": str(k["mahkeme"]).strip(),
+        "chamber": str(k["ad"]).strip(),
+        "esas_no": None,
+        "karar_no": None,
+        "decision_date": str(k["tarih"]).strip(),
+        "summary_md": str(k["ozet"]).strip(),
+        "source_url": kaynak,
+        "verified": True,
+    }, None
+
+
 def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: dict):
     """Dönen: (doc | None, hatalar, uyarılar). Hata varsa doc None."""
     from app.quiz_util import shuffle_options
@@ -228,6 +261,13 @@ def kontrol_et(course_id: str, t: dict, plan: dict, metinler: dict, kunyeler: di
 
     cases = []
     for i, k in enumerate(t.get("kararlar") or [], 1):
+        if k.get("uluslararasi"):
+            case, hata = uluslararasi_karar(k)
+            if hata:
+                hatalar.append(f"Karar {i}: {hata}")
+            else:
+                cases.append(case)
+            continue
         kid = str(k.get("id", ""))
         kunye = kunyeler.get(kid)
         if not kunye:
@@ -318,6 +358,8 @@ def _gather(t: dict):
             metinler[(k, n)] = d
     kunyeler = {}
     for kr in t.get("kararlar") or []:
+        if kr.get("uluslararasi"):
+            continue
         k = arastir.kunye(str(kr.get("id", "")))
         if k:
             kunyeler[str(kr["id"])] = k
