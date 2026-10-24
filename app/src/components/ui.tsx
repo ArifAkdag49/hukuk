@@ -126,7 +126,7 @@ export function Button({
       ) : (
         <>
           {icon ? <Icon name={icon} size={size === "sm" ? 18 : 22} color={fg} /> : null}
-          <T v={size === "sm" ? "smallStrong" : "bodyStrong"} color={fg} numberOfLines={1}>
+          <T v={size === "sm" ? "smallStrong" : "bodyStrong"} color={fg} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.85} style={{ flexShrink: 1 }}>
             {label}
           </T>
         </>

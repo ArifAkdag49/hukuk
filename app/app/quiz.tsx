@@ -5,7 +5,8 @@ import { api, errorText } from "../src/api";
 import { weakestTopics } from "../src/analysis";
 import { Markdown } from "../src/components/Markdown";
 import { ProgressRing } from "../src/components/ProgressRing";
-import { Screen } from "../src/components/Screen";
+import { CoursePicker } from "../src/components/CoursePicker";
+import { HeaderButton, Screen } from "../src/components/Screen";
 import { EmptyState, LoadingState } from "../src/components/States";
 import { Bar, Button, Card, Chip, Gap, Icon, Row, SectionTitle, T, type IconName } from "../src/components/ui";
 import { useApp, type Kb } from "../src/store/AppContext";
@@ -13,13 +14,15 @@ import { colors, courseColor, radius, space } from "../src/theme";
 import type { Question, TopicArticle } from "../src/types";
 import { lawAbbrev, plain } from "../src/format";
 
-type Scope = "course" | "unit" | "topic" | "mixed" | "weak" | "note";
+type Scope = "course" | "unit" | "topic" | "mixed" | "weak" | "wrong" | "starred" | "note";
 const SCOPES: { key: Exclude<Scope, "note">; label: string; icon: IconName }[] = [
   { key: "course", label: "Ders", icon: "bookshelf" },
   { key: "unit", label: "Ünite", icon: "file-tree-outline" },
   { key: "topic", label: "Konu", icon: "book-open-variant" },
   { key: "mixed", label: "Karışık", icon: "shuffle-variant" },
   { key: "weak", label: "Zayıf konularım", icon: "target" },
+  { key: "wrong", label: "Yanlışlarım", icon: "close-circle-outline" },
+  { key: "starred", label: "Yıldızlılar", icon: "star-outline" },
 ];
 const COUNTS = [5, 10, 20];
 const LETTERS = ["A", "B", "C", "D", "E", "F"];
@@ -33,7 +36,7 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-function poolFor(kb: Kb, scope: Scope, id: string | null, weakIds: string[]): Question[] {
+function poolFor(kb: Kb, scope: Scope, id: string | null, weakIds: string[], wrongIds: string[], starred: Set<string>): Question[] {
   const active = new Set(kb.courses.filter((c) => c.is_active).map((c) => c.id));
   const mcq = kb.questions.filter((q) => q.kind === "mcq" && q.options && q.correct_option !== null);
   switch (scope) {
@@ -49,6 +52,12 @@ function poolFor(kb: Kb, scope: Scope, id: string | null, weakIds: string[]): Qu
       const ws = new Set(weakIds);
       return mcq.filter((q) => q.topic_id && ws.has(q.topic_id));
     }
+    case "wrong": {
+      const ws = new Set(wrongIds);
+      return mcq.filter((q) => ws.has(q.id));
+    }
+    case "starred":
+      return mcq.filter((q) => starred.has(q.id));
     case "note":
       return mcq.filter((q) => q.note_id === id);
     default:
@@ -58,7 +67,7 @@ function poolFor(kb: Kb, scope: Scope, id: string | null, weakIds: string[]): Qu
 
 export default function Quiz() {
   const params = useLocalSearchParams<{ scope?: string; id?: string }>();
-  const { kb, mastery } = useApp();
+  const { kb, mastery, wrongIds, starred } = useApp();
   const preset = params.scope as Scope | undefined;
 
   const [scope, setScope] = useState<Scope>(preset ?? "course");
@@ -86,7 +95,7 @@ export default function Quiz() {
   }, [kb, activeCourses, courseId, params.id]);
 
   const effectiveId = scope === "course" ? courseId : selId;
-  const pool = useMemo(() => (kb ? poolFor(kb, scope, effectiveId, weakIds) : []), [kb, scope, effectiveId, weakIds]);
+  const pool = useMemo(() => (kb ? poolFor(kb, scope, effectiveId, weakIds, wrongIds, starred) : []), [kb, scope, effectiveId, weakIds, wrongIds, starred]);
 
   // Konu/not sayfasından gelindiyse doğrudan başla
   useEffect(() => {
@@ -167,7 +176,7 @@ export default function Quiz() {
         {SCOPES.map((s) => (
           <Chip
             key={s.key}
-            label={s.label}
+            label={s.key === "wrong" ? `${s.label} (${wrongIds.length})` : s.key === "starred" ? `${s.label} (${starred.size})` : s.label}
             icon={s.icon}
             selected={scope === s.key}
             onPress={() => {
@@ -180,21 +189,15 @@ export default function Quiz() {
 
       {needsCourse ? (
         <>
-          <SectionTitle title="Ders" />
-          <View style={styles.wrap}>
-            {activeCourses.map((c) => (
-              <Chip
-                key={c.id}
-                label={c.name}
-                color={courseColor(c.id).main}
-                selected={courseId === c.id}
-                onPress={() => {
-                  setCourseId(c.id);
-                  setSelId(null);
-                }}
-              />
-            ))}
-          </View>
+          <Gap h={space.lg} />
+          <CoursePicker
+            courses={activeCourses}
+            value={courseId}
+            onChange={(id) => {
+              setCourseId(id);
+              setSelId(null);
+            }}
+          />
         </>
       ) : null}
 
@@ -243,6 +246,22 @@ export default function Quiz() {
         </Card>
       ) : null}
 
+      {scope === "wrong" || scope === "starred" ? (
+        <Card style={{ marginTop: space.md }}>
+          <T v="body" color={colors.inkSoft}>
+            {scope === "wrong"
+              ? pool.length === 0
+                ? "Yanlışlarım defterin boş. Bir soruyu yanlış cevaplayınca buraya düşer, sonra doğru cevaplayınca çıkar."
+                : `Son cevabı yanlış olan ${pool.length} soru var. Doğru cevapladıkça defterden çıkarlar.`
+              : pool.length === 0
+                ? "Henüz yıldızlı soru yok. Soru çözerken sağ üstteki yıldıza dokunarak işaretleyebilirsin."
+                : `${pool.length} yıldızlı soru var.`}
+          </T>
+          <Gap h={space.sm} />
+          <Button label="Defteri aç" icon="notebook-outline" kind="ghost" size="sm" onPress={() => router.push(`/yanlislar?sekme=${scope}`)} />
+        </Card>
+      ) : null}
+
       <SectionTitle title="Soru sayısı" />
       <View style={styles.wrap}>
         {COUNTS.map((n) => (
@@ -276,7 +295,7 @@ function SelectRow({ label, selected, color, onPress }: { label: string; selecte
 // ------------------------------------------------------------ Soru çözme
 
 function QuizRun({ kb, questions, onRestart }: { kb: Kb; questions: Question[]; onRestart: (qs: Question[] | null) => void }) {
-  const { recordAttempt, getTopic } = useApp();
+  const { recordAttempt, getTopic, starred, toggleStar } = useApp();
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [results, setResults] = useState<{ q: Question; correct: boolean }[]>([]);
@@ -371,6 +390,14 @@ function QuizRun({ kb, questions, onRestart }: { kb: Kb; questions: Question[]; 
       back
       title={`Soru ${i + 1} / ${questions.length}`}
       subtitle={topic?.title}
+      right={
+        <HeaderButton
+          icon={starred.has(q.id) ? "star" : "star-outline"}
+          label={starred.has(q.id) ? "Yıldızı kaldır" : "Soruyu yıldızla"}
+          color={starred.has(q.id) ? colors.warning : colors.ink}
+          onPress={() => void toggleStar(q.id)}
+        />
+      }
       footer={
         answered ? (
           <Button

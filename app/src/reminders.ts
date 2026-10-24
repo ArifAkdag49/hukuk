@@ -1,4 +1,4 @@
-import { isDue } from "./sm2";
+import { examCap, isDueForExam, type ExamDates } from "./exams";
 import type { CardState, Flashcard } from "./types";
 
 /**
@@ -13,6 +13,8 @@ export interface PlanInput {
   hour: number;
   minute: number;
   days?: number;
+  /** Sınav takvimi: son turda öne alınan kartlar da sayılır. */
+  exams?: ExamDates;
 }
 
 export interface PlannedReminder {
@@ -20,7 +22,7 @@ export interface PlannedReminder {
   count: number;
 }
 
-export function planReminders({ cards, cardStates, activeCourseIds, now, hour, minute, days = 7 }: PlanInput): PlannedReminder[] {
+export function planReminders({ cards, cardStates, activeCourseIds, now, hour, minute, days = 7, exams = {} }: PlanInput): PlannedReminder[] {
   const active = new Set(activeCourseIds);
   const pool = cards.filter((c) => active.has(c.course_id));
   const out: PlannedReminder[] = [];
@@ -28,7 +30,11 @@ export function planReminders({ cards, cardStates, activeCourseIds, now, hour, m
     const date = new Date(now.getFullYear(), now.getMonth(), now.getDate() + d, hour, minute, 0, 0);
     if (date.getTime() <= now.getTime()) continue;
     let count = 0;
-    for (const c of pool) if (isDue(cardStates.get(c.id), date)) count++;
+    const caps = new Map<string, Date | null>();
+    for (const c of pool) {
+      if (!caps.has(c.course_id)) caps.set(c.course_id, examCap(c.course_id, exams, date));
+      if (isDueForExam(cardStates.get(c.id), date, caps.get(c.course_id) ?? null)) count++;
+    }
     if (count > 0) out.push({ date, count });
   }
   return out;

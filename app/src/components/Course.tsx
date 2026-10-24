@@ -39,7 +39,7 @@ export function CourseCard({
         </T>
         {topicCount > 0 ? (
           <T v="small" color={colors.muted}>
-            {course.year}. sınıf, {topicCount} konu
+            {course.year}. sınıf, {topicCount} konu{score === null ? " · henüz çalışılmadı" : ""}
           </T>
         ) : (
           <Pill label="İçerik hazırlanıyor" icon="timer-sand" color={c.deep} tint={c.tint} />
@@ -47,7 +47,8 @@ export function CourseCard({
       </View>
       <View style={styles.ring}>
         {topicCount > 0 ? (
-          <ProgressRing score={score} color={c.main} track={c.tint} size={58} stroke={7} label={score === null ? "–" : `%${score}`} />
+          // Halka ustalığı gösterir: rengi ders rengi değil ustalık rengi (kırmızı = zayıf), ders rengi sırtta kalır
+          <ProgressRing score={score} color={masteryColor(score).main} track={masteryColor(score).tint} size={58} stroke={7} label={score === null ? "Yeni" : `%${score}`} />
         ) : (
           <Icon name="progress-clock" size={30} color={c.main} />
         )}

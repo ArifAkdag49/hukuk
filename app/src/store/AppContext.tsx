@@ -11,8 +11,10 @@ import { blockExcerpt, blockHash } from "../highlights";
 import * as Reminders from "../notifications";
 import { planReminders } from "../reminders";
 import { checkAndFetchUpdate } from "../updates";
+import { examCap, isDueForExam, type ExamDates, type ExamKind } from "../exams";
 import { courseMastery, type Mastery } from "../mastery";
-import { isDue, review } from "../sm2";
+import { parseStarred, wrongQuestionIds } from "../mistakes";
+import { review } from "../sm2";
 import { createSync, META_LAST_SYNC } from "../sync";
 import type {
   Attempt,
@@ -45,6 +47,18 @@ export interface ReminderSettings {
 }
 
 const DEFAULT_REMINDER: ReminderSettings = { enabled: true, hour: 20, minute: 0, permission: "undetermined" };
+const META_EXAMS = "exams";
+const META_STARRED = "starred_questions";
+
+function parseExams(raw: string | null): ExamDates {
+  if (!raw) return {};
+  try {
+    const v: unknown = JSON.parse(raw);
+    return v && typeof v === "object" ? (v as ExamDates) : {};
+  } catch {
+    return {};
+  }
+}
 
 export interface Kb extends KbLookup {
   version: string;
@@ -145,6 +159,16 @@ interface AppValue {
 
   /** Uzaktan güncelleme indirildi, yeniden başlatınca uygulanır */
   updateReady: boolean;
+
+  /** Sınav takvimi (bu cihazda saklanır) */
+  exams: ExamDates;
+  setExam(courseId: string, kind: ExamKind, date: string | null): Promise<void>;
+
+  /** Yanlışlarım defteri: son cevabı yanlış olan sorular, en yeni önce */
+  wrongIds: string[];
+  /** Yıldızlı sorular (bu cihazda saklanır) */
+  starred: Set<string>;
+  toggleStar(questionId: string): Promise<void>;
 }
 
 const Ctx = createContext<AppValue | null>(null);
@@ -173,14 +197,17 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const syncing = useRef(false);
   const [reminder, setReminderState] = useState<ReminderSettings>(DEFAULT_REMINDER);
   const [updateReady, setUpdateReady] = useState(false);
+  const [exams, setExams] = useState<ExamDates>({});
+  const [starred, setStarred] = useState<Set<string>>(new Set());
   const textsCache = useRef<{ version: string; texts: TopicText[] } | null>(null);
   // Hatırlatma planı için en güncel değerler (eski kapanışlara takılmamak için)
-  const latest = useRef<{ kbData: KbIndexData | null; cardStates: Map<string, CardState>; reminder: ReminderSettings }>({
+  const latest = useRef<{ kbData: KbIndexData | null; cardStates: Map<string, CardState>; reminder: ReminderSettings; exams: ExamDates }>({
     kbData: null,
     cardStates: new Map(),
     reminder: DEFAULT_REMINDER,
+    exams: {},
   });
-  latest.current = { kbData, cardStates, reminder: latest.current.reminder };
+  latest.current = { kbData, cardStates, reminder: latest.current.reminder, exams };
 
   const depo = () => {
     if (!depoRef.current) throw new Error("Depo hazır değil");
@@ -218,14 +245,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const rescheduleReminders = useCallback(async () => {
-    const { kbData: k, cardStates: cs, reminder: r } = latest.current;
+    const { kbData: k, cardStates: cs, reminder: r, exams: ex } = latest.current;
     try {
       if (!r.enabled || !k) {
         await Reminders.cancelReminders();
         return;
       }
       const active = k.courses.filter((c) => c.is_active).map((c) => c.id);
-      const plan = planReminders({ cards: k.flashcards, cardStates: cs, activeCourseIds: active, now: new Date(), hour: r.hour, minute: r.minute });
+      const plan = planReminders({ cards: k.flashcards, cardStates: cs, activeCourseIds: active, now: new Date(), hour: r.hour, minute: r.minute, exams: ex });
       await Reminders.scheduleReminders(plan);
     } catch {
       // bildirim kurulamazsa uygulama çalışmaya devam eder
@@ -268,6 +295,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const token = await getToken();
       const seen = await d.getMeta("disclaimer_seen");
       const rem = await d.getMeta("reminder");
+      const [ex, st] = await Promise.all([d.getMeta(META_EXAMS), d.getMeta(META_STARRED)]);
       await reloadAll();
       if (!alive) return;
       let r: ReminderSettings = DEFAULT_REMINDER;
@@ -279,6 +307,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
       r = { ...r, permission: await Reminders.getPermission() };
       latest.current.reminder = r;
       setReminderState(r);
+      const loadedExams = parseExams(ex);
+      latest.current.exams = loadedExams;
+      setExams(loadedExams);
+      setStarred(parseStarred(st));
       setDisclaimerSeen(seen === "1");
       setAuthed(!!token);
       setReady(true);
@@ -309,7 +341,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       })();
     }, 1500);
     return () => clearTimeout(t);
-  }, [ready, authed, kbData, cardStates, rescheduleReminders]);
+  }, [ready, authed, kbData, cardStates, exams, rescheduleReminders]);
 
   // Bildirime dokununca kartlar ekranı
   useEffect(() => Reminders.onReminderOpened((url) => router.push(url as "/kartlar")), []);
@@ -355,11 +387,16 @@ export function AppProvider({ children }: { children: ReactNode }) {
     (filter?: (c: Flashcard) => boolean) => {
       if (!kb) return [];
       const now = new Date();
-      const active = new Set(kb.courses.filter((c) => c.is_active).map((c) => c.id));
-      return kb.flashcards.filter((c) => active.has(c.course_id) && isDue(cardStates.get(c.id), now) && (!filter || filter(c)));
+      const active = kb.courses.filter((c) => c.is_active).map((c) => c.id);
+      const caps = new Map(active.map((id) => [id, examCap(id, exams, now)]));
+      return kb.flashcards.filter(
+        (c) => caps.has(c.course_id) && isDueForExam(cardStates.get(c.id), now, caps.get(c.course_id) ?? null) && (!filter || filter(c)),
+      );
     },
-    [kb, cardStates],
+    [kb, cardStates, exams],
   );
+
+  const wrongIds = useMemo(() => wrongQuestionIds(attempts), [attempts]);
 
   const value: AppValue = {
     ready,
@@ -491,6 +528,30 @@ export function AppProvider({ children }: { children: ReactNode }) {
     },
     rescheduleReminders,
     updateReady,
+
+    exams,
+    async setExam(courseId, kind, date) {
+      const cur = latest.current.exams;
+      const forCourse = { ...cur[courseId] };
+      if (date) forCourse[kind] = date;
+      else delete forCourse[kind];
+      const next: ExamDates = { ...cur };
+      if (Object.keys(forCourse).length > 0) next[courseId] = forCourse;
+      else delete next[courseId];
+      latest.current.exams = next;
+      setExams(next);
+      await depo().setMeta(META_EXAMS, JSON.stringify(next));
+    },
+
+    wrongIds,
+    starred,
+    async toggleStar(questionId) {
+      const next = new Set(starred);
+      if (next.has(questionId)) next.delete(questionId);
+      else next.add(questionId);
+      setStarred(next);
+      await depo().setMeta(META_STARRED, JSON.stringify([...next]));
+    },
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

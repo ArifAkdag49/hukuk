@@ -1,6 +1,6 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { Platform, Pressable, StyleSheet, TextInput, View } from "react-native";
 import { VerificationBadge } from "../../src/components/Course";
 import { HighlightableMarkdown } from "../../src/components/HighlightableMarkdown";
 import { Markdown, openLink } from "../../src/components/Markdown";
@@ -39,8 +39,6 @@ export default function KonuEkrani() {
   const [tab, setTab] = useState<Tab>(isTab(sekme) ? sekme : "ozet");
   const [highlights, setHighlights] = useState<Highlight[]>([]);
   const [showHint, setShowHint] = useState(false);
-  const tabScroll = useRef<ScrollView>(null);
-  const tabX = useRef<Record<string, number>>({});
 
   useEffect(() => {
     let alive = true;
@@ -80,11 +78,6 @@ export default function KonuEkrani() {
     [topic, toggleHighlight, showHint, setMeta],
   );
 
-  function goTab(t: Tab) {
-    setTab(t);
-    tabScroll.current?.scrollTo({ x: Math.max(0, (tabX.current[t] ?? 0) - space.xxl), animated: true });
-  }
-
   if (topic === undefined) {
     return (
       <Screen back>
@@ -112,16 +105,25 @@ export default function KonuEkrani() {
       <Button
         label="Quiz çöz"
         icon="help-circle-outline"
-        style={{ flex: 1 }}
+        style={styles.footerBtn}
         disabled={questionCount === 0}
         onPress={() => router.push(`/quiz?scope=topic&id=${topic.id}`)}
       />
-      <Button label="Asistana sor" icon="chat-question-outline" kind="secondary" style={{ flex: 1 }} onPress={() => router.push(`/sohbet/yeni?topic=${topic.id}`)} />
+      <Button label="Asistana sor" icon="chat-question-outline" kind="secondary" style={styles.footerBtn} onPress={() => router.push(`/sohbet/yeni?topic=${topic.id}`)} />
     </View>
   );
 
   return (
-    <Screen back title={topic.title} subtitle={[course?.name, unit?.title].filter(Boolean).join(" / ")} accent={c.main} footer={footer}>
+    <Screen
+      back
+      title={topic.title}
+      titleLines={4}
+      titleSize={topic.title.length > 48 ? "heading" : "title"}
+      subtitle={[course?.name, unit?.title].filter(Boolean).join(" / ")}
+      subtitleLines={2}
+      accent={c.main}
+      footer={footer}
+    >
       <Row style={{ flexWrap: "wrap" }} gap={space.xs}>
         <VerificationBadge status={topic.verification_status} />
         {m?.score != null ? <Pill label={`Ustalık %${m.score}`} icon="chart-arc" color={c.deep} tint={c.tint} /> : null}
@@ -130,18 +132,13 @@ export default function KonuEkrani() {
       </Row>
       <Gap h={space.md} />
 
-      <ScrollView ref={tabScroll} horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: space.xs, paddingRight: space.lg }} accessibilityRole="tablist">
+      <View style={styles.tabs} accessibilityRole="tablist">
         {TABS.map((t) => {
           const on = t.key === tab;
           return (
             <Pressable
               key={t.key}
-              onPress={() => goTab(t.key)}
-              onLayout={(e) => {
-                tabX.current[t.key] = e.nativeEvent.layout.x;
-                // aramadan belirli bir sekmeyle gelindiyse o sekmeyi görünür yap
-                if (on && t.key !== "ozet") tabScroll.current?.scrollTo({ x: Math.max(0, e.nativeEvent.layout.x - space.xxl), animated: false });
-              }}
+              onPress={() => setTab(t.key)}
               accessibilityRole="tab"
               accessibilityState={{ selected: on }}
               style={[styles.tab, on ? { backgroundColor: c.main, borderColor: c.main } : null]}
@@ -153,7 +150,7 @@ export default function KonuEkrani() {
             </Pressable>
           );
         })}
-      </ScrollView>
+      </View>
       <Gap h={space.md} />
 
       {readable && showHint ? (
@@ -223,7 +220,7 @@ export default function KonuEkrani() {
           topic={topic}
           c={c}
           highlights={highlights}
-          onOpen={(h) => goTab(SECTION_TAB[h.section])}
+          onOpen={(h) => setTab(SECTION_TAB[h.section])}
           onRemoved={() => void listHighlights(topic.id).then(setHighlights)}
         />
       ) : null}
@@ -514,12 +511,14 @@ function Glossary({ topic, c }: { topic: Topic; c: CourseColor }) {
 }
 
 const styles = StyleSheet.create({
+  tabs: { flexDirection: "row", flexWrap: "wrap", gap: space.xs },
+  footerBtn: { flex: 1, paddingHorizontal: space.sm },
   tab: {
     flexDirection: "row",
     alignItems: "center",
     gap: 6,
-    paddingHorizontal: space.md,
-    minHeight: 44,
+    paddingHorizontal: space.sm + 2,
+    minHeight: 42,
     borderRadius: radius.pill,
     borderWidth: 1.5,
     borderColor: colors.line,
