@@ -29,11 +29,14 @@ def search_kb(query: str, limit: int = 5) -> list[dict]:
     if not _words(query):
         return []
     rows = db.fetch_all(_SQL.format(tsq="websearch_to_tsquery('turkish', %(q)s)"), {"q": query, "limit": limit})
+    eslesme = "tam"
     if not rows:  # tüm sözcükler birlikte geçmiyorsa herhangi biri
         rows = db.fetch_all(
             _SQL.format(tsq="to_tsquery('turkish', %(q)s)"), {"q": " | ".join(_words(query)), "limit": limit}
         )
+        eslesme = "kismi"
     for r in rows:
+        r["eslesme"] = eslesme
         r.pop("rank", None)
         r["snippet"] = (r["snippet"] or "").replace("<b>", "").replace("</b>", "")
     return rows
