@@ -26,7 +26,7 @@ export function userMessage(status: number, detail?: string): string {
     case 408:
       return "Sunucu zamanında cevap vermedi. Biraz sonra tekrar dene.";
     case 413:
-      return "Dosya çok büyük (en fazla 20 MB / 50 sayfa). Dosyayı bölüp tekrar yükle.";
+      return "Dosya çok büyük (en fazla 40 MB / 50 sayfa). Dosyayı bölüp tekrar yükle.";
     case 429:
       return "Çok fazla deneme yapıldı. Bir dakika bekleyip tekrar dene.";
     default:
