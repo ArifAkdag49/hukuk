@@ -10,7 +10,8 @@ from ..services import notes_service as ns
 
 router = APIRouter(dependencies=[Depends(require_user)])
 
-EXT = {"application/pdf": ".pdf", "image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/gif": ".gif"}
+EXT = {"application/pdf": ".pdf", "image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/gif": ".gif",
+       ns.DOCX: ".docx", ns.XLSX: ".xlsx"}
 
 
 @router.post("/notes")
@@ -19,11 +20,13 @@ async def upload(
     file: UploadFile = File(...),
     course_id: str = Form(...),
     title: str = Form(...),
+    filename: str | None = Form(None),
 ):
     s = get_settings()
-    mime = (file.content_type or "").split(";")[0].strip().lower()
+    # Telefondaki yükleyici dosya adını ayrıca gönderir; tür bilinmiyorsa uzantıdan bulunur
+    mime = ns.guess_mime(file.content_type, filename or file.filename)
     if mime not in ns.SUPPORTED:
-        raise HTTPException(415, "Desteklenen türler: PDF, JPEG, PNG, WEBP")
+        raise HTTPException(415, "Desteklenen türler: PDF, Word (.docx), Excel (.xlsx), JPEG, PNG, WEBP")
     data = await file.read()
     if len(data) > s.max_upload_mb * 1024 * 1024:
         raise HTTPException(413, f"Dosya çok büyük (en fazla {s.max_upload_mb} MB)")

@@ -1,8 +1,8 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ActivityIndicator, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { ActivityIndicator, AppState, Keyboard, KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { api, errorText } from "../../src/api";
+import { ApiError, api, errorText } from "../../src/api";
 import { Markdown, openLink } from "../../src/components/Markdown";
 import { HeaderButton } from "../../src/components/Screen";
 import { ErrorState, LoadingState, Notice } from "../../src/components/States";
@@ -10,6 +10,41 @@ import { Button, Icon, IconBubble, T } from "../../src/components/ui";
 import { useApp } from "../../src/store/AppContext";
 import { colors, courseColor, fonts, maxContentWidth, radius, shadow, space } from "../../src/theme";
 import type { ChatMessage, Source, Thread } from "../../src/types";
+
+/** Bağlantı kopunca cevabın sunucuda bitmesi için beklenen en uzun süre (derin cevap 2-4 dk sürebilir). */
+const REPLY_WAIT_MS = 5 * 60_000;
+const POLL_MS = 4_000;
+
+function hasReply(msgs: ChatMessage[], text: string): boolean {
+  const n = msgs.length;
+  return n >= 2 && msgs[n - 1].role === "assistant" && msgs[n - 2].role === "user" && msgs[n - 2].content_md === text;
+}
+
+/**
+ * Gönderilen mesajın cevabı sunucuda kaydolana kadar sohbeti yokla. Uygulama ön plana dönünce hemen
+ * bakar. waitMs 0 ise bir kez bakar. Cevap gelmezse null.
+ */
+async function waitForReply(threadId: string, text: string, waitMs: number): Promise<ChatMessage[] | null> {
+  const until = Date.now() + waitMs;
+  for (;;) {
+    try {
+      const fresh = await api.getMessages(threadId);
+      if (hasReply(fresh, text)) return fresh;
+    } catch {
+      // uygulama arka plandayken ya da bağlantı yokken istek düşer; beklemeye devam
+    }
+    if (Date.now() >= until) return null;
+    await new Promise<void>((resolve) => {
+      const t = setTimeout(done, POLL_MS);
+      const sub = AppState.addEventListener("change", (s) => s === "active" && done());
+      function done() {
+        clearTimeout(t);
+        sub.remove();
+        resolve();
+      }
+    });
+  }
+}
 
 const SOURCE_META: Record<Source["type"], { emoji: string; name: string }> = {
   kb: { emoji: "📘", name: "Bilgi bankası" },
@@ -69,6 +104,12 @@ export default function Sohbet() {
     return () => clearTimeout(t);
   }, [messages?.length, sending]);
 
+  // Klavye açılınca son mesaj ve yazma kutusu görünür kalsın
+  useEffect(() => {
+    const sub = Keyboard.addListener("keyboardDidShow", () => scrollRef.current?.scrollToEnd({ animated: true }));
+    return () => sub.remove();
+  }, []);
+
   async function send(content: string, deep = false) {
     const text = content.trim();
     if (!text || sending || isNew) return;
@@ -83,18 +124,15 @@ export default function Sohbet() {
       if (r.suggest_new_thread) setSuggestNew(true);
       await setDraft(`chat:${id}`, null);
     } catch (e) {
-      // Zaman aşımında sunucu cevabı yine de kaydetmiş olabilir: tekrar göndertip iki kez
-      // ücretlendirmeden önce sohbeti yenile, cevap gelmişse onu göster.
-      try {
-        const fresh = await api.getMessages(String(id));
-        const n = fresh.length;
-        if (n >= 2 && fresh[n - 1].role === "assistant" && fresh[n - 2].role === "user" && fresh[n - 2].content_md === text) {
-          setMessages(fresh);
-          await setDraft(`chat:${id}`, null);
-          return;
-        }
-      } catch {
-        // yenileme de başarısızsa aşağıdaki gibi kutuya geri koy
+      // Bağlantı koptuysa (başka uygulamaya geçince Android bağlantıyı keser) ya da zaman aşımı
+      // olduysa sunucu cevabı yine de yazıp kaydeder: tekrar göndertip iki kez ücretlendirmek
+      // yerine cevabın sohbete düşmesini bekle.
+      const dropped = e instanceof ApiError && (e.status === 0 || e.status === 408);
+      const fresh = await waitForReply(String(id), text, dropped ? REPLY_WAIT_MS : 0);
+      if (fresh) {
+        setMessages(fresh);
+        await setDraft(`chat:${id}`, null);
+        return;
       }
       // Mesaj kaybolmasın: kutuya geri koy ve taslak olarak sakla
       setMessages((m) => (m ?? []).filter((x) => x.id !== optimistic.id));
@@ -160,7 +198,8 @@ export default function Sohbet() {
   }
 
   return (
-    <KeyboardAvoidingView style={styles.root} behavior={Platform.OS === "ios" ? "padding" : undefined}>
+    // Android'de tam ekran (edge-to-edge) düzende pencere klavyeyle küçülmez: boşluğu KeyboardAvoidingView bırakır
+    <KeyboardAvoidingView style={styles.root} behavior="padding">
       {header}
       <ScrollView ref={scrollRef} contentContainerStyle={styles.list} keyboardShouldPersistTaps="handled">
         <Notice tone="info" icon="scale-balance" text="Hukuki danışmanlık değildir. Önemli bilgileri resmî kaynaktan teyit et." />
@@ -186,7 +225,7 @@ export default function Sohbet() {
             <View style={{ flex: 1 }}>
               <T v="bodyStrong">{sending.deep ? "Daha derin cevap hazırlanıyor" : "Asistan yazıyor"}</T>
               <T v="small" color={colors.muted}>
-                Kaynaklara bakıyor. Bu 10-60 saniye sürebilir.
+                Kaynaklara bakıyor. Bu 10-60 saniye sürebilir; başka uygulamaya geçebilirsin, cevap burada olacak.
               </T>
             </View>
           </View>

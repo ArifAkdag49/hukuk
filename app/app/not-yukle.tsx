@@ -4,11 +4,29 @@ import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import { Platform, Pressable, StyleSheet, TextInput, View } from "react-native";
 import { MAX_UPLOAD_BYTES, api, errorText, type UploadFile } from "../src/api";
+import { CoursePicker } from "../src/components/CoursePicker";
 import { Screen } from "../src/components/Screen";
 import { Notice } from "../src/components/States";
-import { Button, Card, Chip, Gap, Icon, IconBubble, SectionTitle, T, type IconName } from "../src/components/ui";
+import { Button, Card, Gap, Icon, IconBubble, SectionTitle, T, type IconName } from "../src/components/ui";
 import { useApp } from "../src/store/AppContext";
-import { colors, courseColor, fonts, radius, space } from "../src/theme";
+import { colors, fonts, radius, space } from "../src/theme";
+
+const DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+const XLSX = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+/** Seçicinin vermediği ya da "octet-stream" dediği türü uzantıdan bul */
+const BY_EXT: Record<string, string> = { pdf: "application/pdf", docx: DOCX, xlsx: XLSX, jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", webp: "image/webp" };
+
+function mimeOf(name: string, given?: string | null): string {
+  if (given && given !== "application/octet-stream") return given;
+  return BY_EXT[name.split(".").pop()?.toLowerCase() ?? ""] ?? given ?? "application/octet-stream";
+}
+
+function fileIcon(mime: string): IconName {
+  if (mime.includes("pdf")) return "file-pdf-box";
+  if (mime === DOCX) return "file-word-box";
+  if (mime === XLSX) return "file-excel-box";
+  return "file-image-outline";
+}
 
 function sizeLabel(bytes?: number | null) {
   if (!bytes) return "";
@@ -36,10 +54,15 @@ export default function NotYukle() {
   }
 
   async function pickDocument() {
-    const r = await DocumentPicker.getDocumentAsync({ type: ["application/pdf", "image/*"], copyToCacheDirectory: true, multiple: false });
+    const r = await DocumentPicker.getDocumentAsync({ type: ["application/pdf", DOCX, XLSX, "image/*"], copyToCacheDirectory: true, multiple: false });
     if (r.canceled || !r.assets?.[0]) return;
     const a = r.assets[0];
-    accept({ uri: a.uri, name: a.name, mimeType: a.mimeType ?? "application/pdf", size: a.size ?? null, webFile: a.file ?? null });
+    const mimeType = mimeOf(a.name, a.mimeType);
+    if (!Object.values(BY_EXT).includes(mimeType)) {
+      setError("Bu dosya türü desteklenmiyor. PDF, Word (.docx), Excel (.xlsx) ya da görsel seç.");
+      return;
+    }
+    accept({ uri: a.uri, name: a.name, mimeType, size: a.size ?? null, webFile: a.file ?? null });
   }
 
   async function pickImage(camera: boolean) {
@@ -78,7 +101,7 @@ export default function NotYukle() {
 
   const tooBig = !!file?.size && file.size > MAX_UPLOAD_BYTES;
   const sources: { icon: IconName; label: string; text: string; onPress: () => void; hidden?: boolean }[] = [
-    { icon: "file-pdf-box", label: "Dosya seç", text: "PDF ya da görsel", onPress: () => void pickDocument() },
+    { icon: "file-document-outline", label: "Dosya seç", text: "PDF, Word, Excel", onPress: () => void pickDocument() },
     { icon: "camera-outline", label: "Fotoğraf çek", text: "Defterini çek", onPress: () => void pickImage(true), hidden: Platform.OS === "web" },
     { icon: "image-multiple-outline", label: "Galeriden seç", text: "Kayıtlı fotoğraf", onPress: () => void pickImage(false) },
   ];
@@ -108,7 +131,7 @@ export default function NotYukle() {
         <>
           <Gap h={space.sm} />
           <Card style={{ flexDirection: "row", alignItems: "center", gap: space.sm }}>
-            <Icon name={file.mimeType.includes("pdf") ? "file-pdf-box" : "file-image-outline"} size={32} color={tooBig ? colors.danger : colors.primary} />
+            <Icon name={fileIcon(file.mimeType)} size={32} color={tooBig ? colors.danger : colors.primary} />
             <View style={{ flex: 1 }}>
               <T v="bodyStrong" numberOfLines={1}>
                 {file.name}
@@ -125,11 +148,7 @@ export default function NotYukle() {
       ) : null}
 
       <SectionTitle title="2. Ders" />
-      <View style={styles.wrap}>
-        {courses.map((c) => (
-          <Chip key={c.id} label={c.name} color={courseColor(c.id).main} selected={courseId === c.id} onPress={() => setCourseId(c.id)} />
-        ))}
-      </View>
+      <CoursePicker courses={courses} value={courseId} onChange={(id) => id && setCourseId(id)} />
 
       <SectionTitle title="3. Başlık" />
       <TextInput
@@ -142,7 +161,7 @@ export default function NotYukle() {
       />
 
       <Gap h={space.lg} />
-      {error ? <Notice tone="danger" text={error} /> : <Notice tone="info" text="En fazla 20 MB ve 50 sayfa. 10 sayfalık bir not genelde 2 dakikadan kısa sürede hazır olur." />}
+      {error ? <Notice tone="danger" text={error} /> : <Notice tone="info" text="PDF, Word (.docx), Excel (.xlsx) ya da fotoğraf. En fazla 20 MB ve 50 sayfa. 10 sayfalık bir not genelde 2 dakikadan kısa sürede hazır olur." />}
     </Screen>
   );
 }
@@ -162,7 +181,6 @@ const styles = StyleSheet.create({
     paddingVertical: space.lg,
     paddingHorizontal: space.sm,
   },
-  wrap: { flexDirection: "row", flexWrap: "wrap", gap: space.xs },
   input: {
     minHeight: 54,
     borderRadius: radius.md,

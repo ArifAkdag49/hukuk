@@ -2,7 +2,7 @@ import * as WebBrowser from "expo-web-browser";
 import { useMemo } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 import MarkdownDisplay, { type RenderRules } from "react-native-markdown-display";
-import { colors, fonts, radius, space } from "../theme";
+import { accentInk, accentWash, colors, fonts, radius, space } from "../theme";
 
 export function openLink(url: string) {
   if (!/^https?:\/\//i.test(url)) return;
@@ -11,7 +11,8 @@ export function openLink(url: string) {
 
 /**
  * Markdown gösterimi. `reading` uzun hukuk metinleri için serif ve geniş satır aralığı kullanır;
- * kapalıyken arayüz yazı tipiyle (sohbet, açıklamalar) gösterir.
+ * kapalıyken arayüz yazı tipiyle (sohbet, açıklamalar) gösterir. Başlıklar ve kalın vurgular vurgu
+ * renginin okunur tonuyla renklenir; gövde metni sade kalır.
  */
 export function Markdown({
   children,
@@ -68,14 +69,27 @@ function makeStyles(reading: boolean, accent: string, color: string, compact: bo
   const bodyFont = reading ? fonts.serif : fonts.regular;
   const size = reading ? 18 : 16;
   const lh = reading ? 29 : 24;
+  const ink = accentInk(accent);
   return StyleSheet.create({
     body: { fontFamily: bodyFont, fontSize: size, lineHeight: lh, color },
     paragraph: { marginTop: 0, marginBottom: compact ? 4 : space.sm },
-    heading1: { fontFamily: fonts.bold, fontSize: 24, lineHeight: 31, color: colors.ink, marginTop: space.lg, marginBottom: space.xs },
-    heading2: { fontFamily: fonts.semibold, fontSize: 20, lineHeight: 27, color: colors.ink, marginTop: space.lg, marginBottom: space.xs },
-    heading3: { fontFamily: fonts.semibold, fontSize: 17, lineHeight: 24, color: colors.ink, marginTop: space.md, marginBottom: 4 },
-    strong: { fontFamily: reading ? fonts.serifBold : fonts.semibold, fontWeight: "normal" },
-    em: { fontFamily: reading ? fonts.serifItalic : fonts.regular, fontStyle: reading ? "normal" : "italic" },
+    heading1: { fontFamily: fonts.bold, fontSize: 24, lineHeight: 31, color: ink, marginTop: space.lg, marginBottom: space.xs },
+    heading2: {
+      fontFamily: fonts.semibold,
+      fontSize: 20,
+      lineHeight: 27,
+      color: ink,
+      marginTop: space.lg,
+      marginBottom: space.xs,
+      paddingBottom: 6,
+      borderBottomWidth: 2,
+      borderBottomColor: accentWash(accent, 0.3),
+    },
+    heading3: { fontFamily: fonts.semibold, fontSize: 17, lineHeight: 24, color: ink, marginTop: space.md, marginBottom: 4 },
+    heading4: { fontFamily: fonts.semibold, fontSize: 16, lineHeight: 23, color: colors.inkSoft, marginTop: space.sm, marginBottom: 2 },
+    // Kalın = önemli kavram, süre, şart: renkli ve hafif zeminli (fosforlu kalem gibi değil, sade)
+    strong: { fontFamily: reading ? fonts.serifBold : fonts.semibold, fontWeight: "normal", color: ink, backgroundColor: accentWash(accent, 0.12) },
+    em: { fontFamily: reading ? fonts.serifItalic : fonts.regular, fontStyle: reading ? "normal" : "italic", color: colors.inkSoft },
     bullet_list: { marginBottom: space.sm },
     ordered_list: { marginBottom: space.sm },
     list_item: { marginBottom: 6 },

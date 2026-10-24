@@ -1,6 +1,6 @@
 import { router } from "expo-router";
 import type { ReactNode } from "react";
-import { Pressable, ScrollView, StyleSheet, View, type RefreshControlProps, type StyleProp, type ViewStyle } from "react-native";
+import { KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, View, type RefreshControlProps, type StyleProp, type ViewStyle } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { colors, maxContentWidth, space } from "../theme";
 import { Icon, T, type IconName } from "./ui";
@@ -67,8 +67,9 @@ export function Screen({
 
   const inner = <View style={[styles.content, contentStyle]}>{children}</View>;
 
+  // Klavye açılınca alt düğme ve yazı alanı klavyenin üstünde kalsın (Android tam ekran düzende pencere küçülmez)
   return (
-    <View style={styles.root}>
+    <KeyboardAvoidingView style={styles.root} behavior="padding">
       {header}
       {scroll ? (
         <ScrollView
@@ -82,7 +83,7 @@ export function Screen({
         <View style={{ flex: 1 }}>{inner}</View>
       )}
       {footer ? <View style={[styles.footer, { paddingBottom: insets.bottom + space.sm }]}>{footer}</View> : null}
-    </View>
+    </KeyboardAvoidingView>
   );
 }
 
