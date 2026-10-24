@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     upload_dir: str = "/data/uploads"
     mcp_enabled: bool = True
     # not yükleme sınırları (spec Bölüm 8)
-    max_upload_mb: int = 20
+    max_upload_mb: int = 40
     max_pdf_pages: int = 50
 
 

@@ -49,7 +49,7 @@ export default function NotYukle() {
 
   function accept(f: UploadFile) {
     setFile(f);
-    setError(f.size && f.size > MAX_UPLOAD_BYTES ? "Dosya çok büyük (en fazla 20 MB / 50 sayfa). Dosyayı bölüp parça parça yükle." : null);
+    setError(f.size && f.size > MAX_UPLOAD_BYTES ? "Dosya çok büyük (en fazla 40 MB / 50 sayfa). Dosyayı bölüp parça parça yükle." : null);
     if (!title) setTitle(f.name.replace(/\.[a-z0-9]+$/i, "").replace(/[_-]+/g, " "));
   }
 
@@ -161,7 +161,7 @@ export default function NotYukle() {
       />
 
       <Gap h={space.lg} />
-      {error ? <Notice tone="danger" text={error} /> : <Notice tone="info" text="PDF, Word (.docx), Excel (.xlsx) ya da fotoğraf. En fazla 20 MB ve 50 sayfa. 10 sayfalık bir not genelde 2 dakikadan kısa sürede hazır olur." />}
+      {error ? <Notice tone="danger" text={error} /> : <Notice tone="info" text="PDF, Word (.docx), Excel (.xlsx) ya da fotoğraf. En fazla 40 MB ve 50 sayfa. 10 sayfalık bir not genelde 2 dakikadan kısa sürede hazır olur." />}
     </Screen>
   );
 }

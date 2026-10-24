@@ -21,7 +21,7 @@ export { ApiError, userMessage, errorText } from "./apiError";
 
 /** Sunucu istemcisi. Sözleşme: görev tanımındaki "Sunucu API sözleşmesi" (snake_case). */
 
-export const MAX_UPLOAD_BYTES = 20 * 1024 * 1024;
+export const MAX_UPLOAD_BYTES = 40 * 1024 * 1024;
 
 let onUnauthorized: (() => void) | null = null;
 /** 401 gelince giriş ekranına dönmek için kök yerleşim bunu bağlar. */
