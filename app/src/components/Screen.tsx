@@ -17,8 +17,16 @@ export function Screen({
   refreshControl,
   contentStyle,
   footer,
+  titleLines = 2,
+  subtitleLines = 1,
+  titleSize = "title",
 }: {
   title?: string;
+  /** Başlığın en fazla kaç satıra kırılacağı (uzun konu başlıkları için artır) */
+  titleLines?: number;
+  subtitleLines?: number;
+  /** Uzun başlıklarda bir küçük boy */
+  titleSize?: "title" | "heading";
   subtitle?: string;
   back?: boolean;
   right?: ReactNode;
@@ -39,12 +47,12 @@ export function Screen({
           {back ? <HeaderButton icon="arrow-left" label="Geri" onPress={() => (router.canGoBack() ? router.back() : router.replace("/"))} /> : null}
           <View style={{ flex: 1 }}>
             {title ? (
-              <T v="title" numberOfLines={2} accessibilityRole="header">
+              <T v={titleSize} numberOfLines={titleLines} accessibilityRole="header">
                 {title}
               </T>
             ) : null}
             {subtitle ? (
-              <T v="small" color={colors.muted} numberOfLines={1}>
+              <T v="small" color={colors.muted} numberOfLines={subtitleLines}>
                 {subtitle}
               </T>
             ) : null}

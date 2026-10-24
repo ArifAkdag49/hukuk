@@ -6,7 +6,8 @@ import { TopicRow } from "../../src/components/Course";
 import { HeaderButton, Screen } from "../../src/components/Screen";
 import { EmptyState, LoadingState } from "../../src/components/States";
 import { SyncBanner } from "../../src/components/SyncBanner";
-import { Button, Card, Gap, Icon, IconBubble, SectionTitle, T, type IconName } from "../../src/components/ui";
+import { Button, Card, Gap, Icon, IconBubble, Pill, Row, SectionTitle, T, type IconName } from "../../src/components/ui";
+import { SON_TUR_GUN, countdownText, upcomingExams } from "../../src/exams";
 import { useApp } from "../../src/store/AppContext";
 import { colors, courseColor, radius, shadow, space } from "../../src/theme";
 
@@ -19,7 +20,7 @@ function greeting(d = new Date()) {
 }
 
 export default function AnaSayfa() {
-  const { kb, sync, syncNow, mastery, dueCards, lastTopicId, attempts } = useApp();
+  const { kb, sync, syncNow, mastery, dueCards, lastTopicId, attempts, exams } = useApp();
 
   const due = dueCards();
   const activeTopics = useMemo(() => {
@@ -28,6 +29,10 @@ export default function AnaSayfa() {
     return kb.topics.filter((t) => active.has(t.course_id));
   }, [kb]);
   const weak = useMemo(() => weakestTopics(mastery, activeTopics, 5), [mastery, activeTopics]);
+  const upcoming = useMemo(() => {
+    if (!kb) return [];
+    return upcomingExams(exams, new Date(), kb.courses.filter((c) => c.is_active).map((c) => c.id));
+  }, [kb, exams]);
 
   const todayCount = useMemo(() => {
     const d = new Date().toDateString();
@@ -71,7 +76,7 @@ export default function AnaSayfa() {
       {/* Bugünkü kartlar */}
       <View style={styles.hero}>
         <View style={{ flex: 1, gap: 6 }}>
-          <T v="smallStrong" color={colors.primaryTint}>
+          <T v="smallStrong" color={colors.onPrimarySoft}>
             Bugünkü tekrar
           </T>
           {due.length > 0 ? (
@@ -79,7 +84,7 @@ export default function AnaSayfa() {
               <T v="display" color={colors.white}>
                 {due.length} kart
               </T>
-              <T v="body" color={colors.primaryTint}>
+              <T v="body" color={colors.onPrimarySoft}>
                 Seni bekliyor. Birkaç dakikada bitirebilirsin.
               </T>
             </>
@@ -88,7 +93,7 @@ export default function AnaSayfa() {
               <T v="title" color={colors.white}>
                 {activeTopics.length === 0 ? "Kartlar yolda" : "Bugünlük kartlar bitti"}
               </T>
-              <T v="body" color={colors.primaryTint}>
+              <T v="body" color={colors.onPrimarySoft}>
                 {activeTopics.length === 0
                   ? "İçerik hazır olunca tekrar kartların burada görünecek."
                   : "Yarın yeni tekrarlar gelecek. İstersen kısa bir quiz çöz."}
@@ -117,6 +122,8 @@ export default function AnaSayfa() {
           </View>
         </View>
       </View>
+
+      {activeTopics.length > 0 ? <ExamCountdown upcoming={upcoming} courseName={(id) => kb.courseById.get(id)?.name ?? id} /> : null}
 
       {activeTopics.length === 0 ? (
         <>
@@ -193,6 +200,64 @@ export default function AnaSayfa() {
   );
 }
 
+function ExamCountdown({ upcoming, courseName }: { upcoming: ReturnType<typeof upcomingExams>; courseName: (id: string) => string }) {
+  if (upcoming.length === 0) {
+    return (
+      <>
+        <Gap h={space.md} />
+        <Card onPress={() => router.push("/sinavlar")} accessibilityLabel="Sınav tarihlerini ekle">
+          <View style={styles.examRow}>
+            <IconBubble name="calendar-plus" color={colors.primaryDeep} tint={colors.primaryTint} />
+            <View style={{ flex: 1 }}>
+              <T v="subheading">Sınav tarihlerini ekle</T>
+              <T v="small" color={colors.muted}>
+                Geri sayım ve sınav öncesi tekrar planı için
+              </T>
+            </View>
+            <Icon name="chevron-right" color={colors.muted} />
+          </View>
+        </Card>
+      </>
+    );
+  }
+  const [first, ...rest] = upcoming;
+  const c = courseColor(first.courseId);
+  return (
+    <>
+      <SectionTitle title="Sınav takvimi" action="Düzenle" onAction={() => router.push("/sinavlar")} />
+      <Card onPress={() => router.push("/sinavlar")} accessibilityLabel={countdownText(courseName(first.courseId), first)} padded={false}>
+        <View style={{ flexDirection: "row" }}>
+          <View style={{ width: 8, backgroundColor: c.main, borderTopLeftRadius: radius.lg, borderBottomLeftRadius: radius.lg }} />
+          <View style={{ flex: 1, padding: space.lg, gap: space.xs }}>
+            <View style={styles.examRow}>
+              <View style={[styles.examDays, { backgroundColor: c.tint }]}>
+                <T v="title" color={c.deep}>
+                  {first.days}
+                </T>
+                <T v="tiny" color={c.deep}>
+                  gün
+                </T>
+              </View>
+              <T v="subheading" style={{ flex: 1 }}>
+                {countdownText(courseName(first.courseId), first)}
+              </T>
+            </View>
+            {first.days <= SON_TUR_GUN ? <Pill label="Bu dersin kartları tekrar için öne alındı" icon="cards-outline" color={colors.warningDeep} tint={colors.warningTint} /> : null}
+            {rest.slice(0, 2).map((e) => (
+              <Row key={`${e.courseId}-${e.kind}`}>
+                <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: courseColor(e.courseId).main }} />
+                <T v="small" color={colors.inkSoft} style={{ flex: 1 }}>
+                  {countdownText(courseName(e.courseId), e)}
+                </T>
+              </Row>
+            ))}
+          </View>
+        </View>
+      </Card>
+    </>
+  );
+}
+
 function Quick({
   icon,
   title,
@@ -250,6 +315,8 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
   grid: { flexDirection: "row", flexWrap: "wrap", gap: space.sm },
+  examRow: { flexDirection: "row", alignItems: "center", gap: space.sm },
+  examDays: { width: 64, height: 64, borderRadius: radius.md, alignItems: "center", justifyContent: "center" },
   quick: {
     flexBasis: "47%",
     flexGrow: 1,

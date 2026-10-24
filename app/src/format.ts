@@ -18,7 +18,9 @@ export function lawAbbrev(lawName: string): string {
 
 export function formatDate(iso: string | null | undefined): string | null {
   if (!iso) return null;
-  const d = new Date(iso);
+  // Karar tarihleri "09.03.2017" (gün.ay.yıl) gelir; Date bunu ay.gün sanabilir
+  const tr = /^(\d{2})\.(\d{2})\.(\d{4})$/.exec(iso);
+  const d = tr ? new Date(Number(tr[3]), Number(tr[2]) - 1, Number(tr[1])) : new Date(iso);
   if (Number.isNaN(d.getTime())) return iso.slice(0, 10);
   try {
     return d.toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" });

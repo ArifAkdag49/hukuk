@@ -32,7 +32,7 @@ export function UpdateBanner() {
           {busy ? <ActivityIndicator color={colors.primary} /> : <T v="smallStrong" color={colors.primary}>Yeniden başlat</T>}
         </Pressable>
         <Pressable onPress={() => setHidden(true)} accessibilityRole="button" accessibilityLabel="Sonra" hitSlop={10}>
-          <Icon name="close" size={20} color={colors.primaryTint} />
+          <Icon name="close" size={20} color={colors.onPrimarySoft} />
         </Pressable>
       </View>
     </View>

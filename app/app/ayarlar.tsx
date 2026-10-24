@@ -10,7 +10,8 @@ import { Bar, Button, Card, Chip, Gap, Icon, Row, SectionTitle, T } from "../src
 import { API_URL, USE_FIXTURE } from "../src/config";
 import { formatDateTime, timeAgo } from "../src/format";
 import { useApp } from "../src/store/AppContext";
-import { colors, courseColor, fonts, radius, space } from "../src/theme";
+import { colors, courseColor, fonts, radius, space, themeMode } from "../src/theme";
+import { saveThemeModeAndReload, type ThemeMode } from "../src/themePref";
 import type { Usage } from "../src/types";
 
 const FEATURE_NAMES: Record<string, string> = {
@@ -175,6 +176,28 @@ export default function Ayarlar() {
         ) : null}
         <Gap h={space.md} />
         <Button label="Şimdi senkronize et" icon="sync" kind="secondary" loading={sync.state === "syncing"} onPress={() => void syncNow()} />
+      </Card>
+
+      <SectionTitle title="Görünüm" />
+      <Card>
+        <View style={{ flexDirection: "row", flexWrap: "wrap", gap: space.xs }}>
+          {([
+            ["light", "Açık", "white-balance-sunny"],
+            ["dark", "Koyu", "weather-night"],
+          ] as const).map(([mode, label, icon]) => (
+            <Chip
+              key={mode}
+              label={label}
+              icon={icon}
+              selected={themeMode === mode}
+              onPress={() => (themeMode === mode ? undefined : void saveThemeModeAndReload(mode as ThemeMode))}
+            />
+          ))}
+        </View>
+        <Gap h={space.sm} />
+        <T v="small" color={colors.muted}>
+          Koyu görünüm gece uzun okumada gözü daha az yorar. Değiştirince uygulama kendini yeniden başlatır.
+        </T>
       </Card>
 
       <SectionTitle title="Günlük hatırlatma" />

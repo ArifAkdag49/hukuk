@@ -1,10 +1,11 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useMemo, useRef, useState } from "react";
 import { Animated, Pressable, StyleSheet, View } from "react-native";
+import { CoursePicker } from "../src/components/CoursePicker";
 import { Markdown } from "../src/components/Markdown";
 import { Screen } from "../src/components/Screen";
 import { EmptyState } from "../src/components/States";
-import { Bar, Button, Chip, Gap, Icon, T, type IconName } from "../src/components/ui";
+import { Bar, Button, Gap, Icon, T, type IconName } from "../src/components/ui";
 import { formatDate } from "../src/format";
 import { intervalLabel, review } from "../src/sm2";
 import { useApp } from "../src/store/AppContext";
@@ -41,10 +42,12 @@ export default function Kartlar() {
 
   const allDue = dueCards();
   const due = useMemo(() => allDue.filter((c) => !filter || c.course_id === filter), [allDue, filter]);
-  const coursesWithDue = useMemo(() => {
-    const ids = new Set(allDue.map((c) => c.course_id));
-    return (kb?.courses ?? []).filter((c) => ids.has(c.id));
-  }, [allDue, kb]);
+  const dueByCourse = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const c of allDue) m.set(c.course_id, (m.get(c.course_id) ?? 0) + 1);
+    return m;
+  }, [allDue]);
+  const coursesWithDue = useMemo(() => (kb?.courses ?? []).filter((c) => dueByCourse.has(c.id)), [dueByCourse, kb]);
 
   const nextDue = useMemo(() => {
     let min: string | null = null;
@@ -84,12 +87,7 @@ export default function Kartlar() {
         }
       >
         {coursesWithDue.length > 1 ? (
-          <View style={styles.wrap}>
-            <Chip label="Tümü" selected={!filter} onPress={() => setFilter(null)} />
-            {coursesWithDue.map((c) => (
-              <Chip key={c.id} label={c.name} color={courseColor(c.id).main} selected={filter === c.id} onPress={() => setFilter(c.id)} />
-            ))}
-          </View>
+          <CoursePicker courses={coursesWithDue} value={filter} onChange={setFilter} allLabel="Tüm dersler" counts={dueByCourse} />
         ) : null}
         {due.length === 0 ? (
           <EmptyState

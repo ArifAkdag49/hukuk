@@ -20,7 +20,7 @@ import { Disclaimer } from "../src/components/Disclaimer";
 import { LoadingState } from "../src/components/States";
 import { UpdateBanner } from "../src/components/UpdateBanner";
 import { AppProvider, useApp } from "../src/store/AppContext";
-import { colors } from "../src/theme";
+import { colors, isDark } from "../src/theme";
 
 void SplashScreen.preventAutoHideAsync().catch(() => undefined);
 
@@ -39,7 +39,7 @@ export default function RootLayout() {
 
   return (
     <SafeAreaProvider>
-      <StatusBar style="dark" />
+      <StatusBar style={isDark ? "light" : "dark"} />
       <AppProvider>{fontsReady ? <Gate /> : <View style={{ flex: 1, backgroundColor: colors.bg }} />}</AppProvider>
     </SafeAreaProvider>
   );

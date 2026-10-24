@@ -3,10 +3,17 @@
  *
  * Yön: "renkli kitap sırtları". Zemin sakin ve açık; her ders kendi canlı rengini taşır
  * (kitaplıktaki cilt sırtları gibi). Ders kartları, konu başlıkları ve ilerleme halkaları o rengi kullanır.
+ * Ders renkleri anlamsal renklerden (kırmızı = zayıf/yanlış) ayrı tutulur.
  * Arayüz yazısı Lexend (okuma kolaylığı için tasarlanmış), uzun hukuk metinleri Source Serif 4.
  */
 
-export const colors = {
+import { readThemeMode } from "./themePref";
+
+/** Görünüm, uygulama açılırken bir kez seçilir (bkz. themePref). */
+export const themeMode = readThemeMode();
+export const isDark = themeMode === "dark";
+
+const light = {
   bg: "#F7F8FC",
   surface: "#FFFFFF",
   surfaceAlt: "#EFF1F8",
@@ -20,6 +27,8 @@ export const colors = {
   primaryDeep: "#2238C9",
   primaryTint: "#E7ECFF",
   onPrimary: "#FFFFFF",
+  /** Ana renk zemin üstünde ikincil yazı */
+  onPrimarySoft: "#E7ECFF",
 
   success: "#12A150",
   successDeep: "#0B7A3B",
@@ -43,7 +52,49 @@ export const colors = {
   shadow: "#1C2142",
   white: "#FFFFFF",
   transparent: "transparent",
-} as const;
+};
+
+/** Gece okuması: koyu lacivert zemin, düşük parlaklıkta yüzeyler; "Deep" tonlar koyu zeminde okunacak kadar açık. */
+const dark: typeof light = {
+  bg: "#11142A",
+  surface: "#1B1F3B",
+  surfaceAlt: "#252A4B",
+  ink: "#E9EBF7",
+  inkSoft: "#BCC1DD",
+  muted: "#8D93B3",
+  line: "#2D3256",
+  lineStrong: "#3E446E",
+
+  primary: "#5470FF",
+  primaryDeep: "#AEBBFF",
+  primaryTint: "#252D63",
+  onPrimary: "#FFFFFF",
+  onPrimarySoft: "#E7ECFF",
+
+  success: "#2FBF6B",
+  successDeep: "#7FE2A8",
+  successTint: "#163A29",
+  danger: "#F0585A",
+  dangerDeep: "#FFA3A3",
+  dangerTint: "#42202A",
+  warning: "#F5A524",
+  warningDeep: "#FFD18C",
+  warningTint: "#3D3019",
+  info: "#38BDF8",
+  infoDeep: "#95DCFB",
+  infoTint: "#15344A",
+
+  highlight: "#4B4012",
+  highlightEdge: "#C99A0A",
+  highlightInk: "#F4D670",
+
+  overlay: "rgba(0, 0, 0, 0.6)",
+  shadow: "#000000",
+  white: "#FFFFFF",
+  transparent: "transparent",
+};
+
+export const colors = isDark ? dark : light;
 
 /** Ders renkleri: ana ton (sırt, halka), koyu (beyaz zeminde yazı), açık (arka plan). */
 export interface CourseColor {
@@ -53,7 +104,7 @@ export interface CourseColor {
   tint: string;
 }
 
-export const coursePalette: CourseColor[] = [
+const lightPalette: CourseColor[] = [
   { name: "mercan", main: "#FF6B5B", deep: "#C23A2C", tint: "#FFECE9" },
   { name: "turkuaz", main: "#14B8A6", deep: "#0F766E", tint: "#E2F7F4" },
   { name: "mor", main: "#8B5CF6", deep: "#6D28D9", tint: "#F0EBFE" },
@@ -64,11 +115,26 @@ export const coursePalette: CourseColor[] = [
   { name: "indigo", main: "#6366F1", deep: "#4338CA", tint: "#ECEDFE" },
   { name: "turuncu", main: "#F97316", deep: "#C2410C", tint: "#FEEDE1" },
   { name: "limon-yeşil", main: "#84CC16", deep: "#4D7C0F", tint: "#F0F9DF" },
-  { name: "kırmızı", main: "#EF4444", deep: "#B91C1C", tint: "#FDE8E8" },
+  { name: "arduvaz", main: "#64748B", deep: "#334155", tint: "#E9EDF3" },
   { name: "camgöbeği", main: "#06B6D4", deep: "#0E7490", tint: "#DFF6FA" },
   { name: "eflatun", main: "#D946EF", deep: "#A21CAF", tint: "#FAE8FD" },
   { name: "altın", main: "#EAB308", deep: "#A16207", tint: "#FDF6D8" },
 ];
+
+function hex(c: string): [number, number, number] {
+  const n = parseInt(c.slice(1), 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+/** a ile b arasında karışım: t=0 → a, t=1 → b */
+function mix(a: string, b: string, t: number): string {
+  const [x, y] = [hex(a), hex(b)];
+  return "#" + x.map((v, i) => Math.round(v + (y[i] - v) * t).toString(16).padStart(2, "0")).join("");
+}
+
+/** Koyu temada ders renkleri: ana ton aynı; yazı tonu açılır, zemin tonu koyu yüzeye karışır. */
+export const coursePalette: CourseColor[] = isDark
+  ? lightPalette.map((c) => ({ ...c, deep: mix(c.main, "#FFFFFF", 0.38), tint: mix(dark.surface, c.main, 0.22) }))
+  : lightPalette;
 
 /** Müfredattaki 14 ders için sabit atama; yeni eklenen ders koda göre bir renk alır. */
 const FIXED: Record<string, number> = {

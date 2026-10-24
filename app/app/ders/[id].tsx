@@ -4,13 +4,14 @@ import { TopicRow } from "../../src/components/Course";
 import { ProgressRing } from "../../src/components/ProgressRing";
 import { Screen } from "../../src/components/Screen";
 import { EmptyState } from "../../src/components/States";
-import { Button, Card, Gap, T } from "../../src/components/ui";
+import { Button, Card, Gap, Pill, T } from "../../src/components/ui";
+import { EXAM_LABEL, upcomingExams } from "../../src/exams";
 import { useApp } from "../../src/store/AppContext";
-import { colors, courseColor, radius, space } from "../../src/theme";
+import { colors, courseColor, masteryColor, radius, space } from "../../src/theme";
 
 export default function DersEkrani() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { kb, mastery, courseScore, dueCards } = useApp();
+  const { kb, mastery, courseScore, dueCards, exams } = useApp();
   const course = kb?.courseById.get(String(id));
 
   if (!kb || !course) {
@@ -27,6 +28,7 @@ export default function DersEkrani() {
   const score = courseScore(course.id);
   const studied = topics.filter((t) => (mastery.get(t.id)?.score ?? null) !== null).length;
   const due = dueCards((card) => card.course_id === course.id).length;
+  const nextExam = upcomingExams(exams, new Date(), [course.id])[0];
 
   return (
     <Screen back title={course.name} subtitle={`${course.code}, ${course.year}. sınıf`} accent={c.main}>
@@ -41,14 +43,23 @@ export default function DersEkrani() {
       ) : (
         <>
       <View style={[styles.summary, { backgroundColor: c.tint }]}>
-        <ProgressRing score={score} color={c.main} track={colors.surface} size={92} stroke={10} label={score === null ? "–" : `%${score}`} />
+        <ProgressRing score={score} color={masteryColor(score).main} track={colors.surface} size={92} stroke={10} label={score === null ? "Yeni" : `%${score}`} />
         <View style={{ flex: 1, gap: 4 }}>
           <T v="subheading" color={c.deep}>
             {score === null ? "Henüz yeterli veri yok" : "Ders ustalığın"}
           </T>
           <T v="small" color={colors.inkSoft}>
+            {score === null ? "Henüz çalışılmadı. " : ""}
             {topics.length} konunun {studied} tanesinde yeterli veri var. {due > 0 ? `Bu dersten ${due} kartın tekrar bekliyor.` : ""}
           </T>
+          {nextExam ? (
+            <Pill
+              label={`${EXAM_LABEL[nextExam.kind]}: ${nextExam.days === 0 ? "bugün" : nextExam.days === 1 ? "yarın" : `${nextExam.days} gün kaldı`}`}
+              icon="calendar-clock"
+              color={c.deep}
+              tint={colors.surface}
+            />
+          ) : null}
         </View>
       </View>
       <Gap h={space.md} />
