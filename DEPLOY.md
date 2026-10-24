@@ -73,6 +73,32 @@ npx eas build -p android --profile preview
 
 Çıkan APK bağlantısı telefonda açılır; "bilinmeyen kaynaklardan yükleme" izni gerekir.
 
+## 8 — Web sürümü (iPhone ve tarayıcı)
+
+Adres: `https://hukuk.arxdigitalsevice.com/app/`. Aynı alan adında olduğu için CORS gerekmez. nginx
+`/app/` isteklerini Plesk kök klasöründeki `app/` dizininden verir (`ops/nginx.conf`); geri kalan her şey API'ye gider.
+Veriler tarayıcıda IndexedDB'de tutulur. Bildirimler web'de çalışmaz. iPhone'da Safari → Paylaş →
+"Ana Ekrana Ekle" ile uygulama gibi açılır.
+
+`app/` dizininde derle (Git Bash'te `MSYS_NO_PATHCONV=1` şart, yoksa `/app` Windows yoluna çevrilir):
+
+```bash
+MSYS_NO_PATHCONV=1 EXPO_BASE_URL=/app EXPO_PUBLIC_API_URL=https://hukuk.arxdigitalsevice.com npx expo export --platform web --output-dir dist-web
+tar --force-local -czf /tmp/hukuk-web.tgz -C dist-web . && scp /tmp/hukuk-web.tgz arx-sunucu:/tmp/
+```
+
+Sunucuda eski sürümün yerine koy (sahiplik Plesk kök klasörüyle aynı olmalı):
+
+```bash
+ssh arx-sunucu 'D=/var/www/vhosts/arxdigitalsevice.com/hukuk.arxdigitalsevice.com; OWN=$(stat -c "%U:%G" $D)
+rm -rf $D/app.new && mkdir -p $D/app.new && tar -xzf /tmp/hukuk-web.tgz -C $D/app.new
+chown -R $OWN $D/app.new && find $D/app.new -type d -exec chmod 755 {} + && find $D/app.new -type f -exec chmod 644 {} +
+rm -rf $D/app.old; [ -d $D/app ] && mv $D/app $D/app.old; mv $D/app.new $D/app; rm -rf $D/app.old'
+```
+
+`ops/nginx.conf` değişirse sunucudaki `/var/www/vhosts/system/hukuk.arxdigitalsevice.com/conf/vhost_nginx.conf`
+dosyasına kopyalanır (Plesk "Additional nginx directives" bu dosyadır), ardından `nginx -t && systemctl reload nginx`.
+
 ## Rutin güncelleme
 
 ```bash

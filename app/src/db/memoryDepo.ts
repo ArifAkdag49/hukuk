@@ -32,7 +32,7 @@ export class MemoryDepo implements Depo {
     this.reindex();
   }
 
-  private reindex() {
+  protected reindex() {
     this.topicMap = new Map((this.s.kb?.topics ?? []).map((t) => [t.id, t]));
   }
 
