@@ -184,6 +184,7 @@ export default function Ayarlar() {
           {([
             ["light", "Açık", "white-balance-sunny"],
             ["dark", "Koyu", "weather-night"],
+            ["pink", "Toz pembe", "flower-outline"],
           ] as const).map(([mode, label, icon]) => (
             <Chip
               key={mode}
@@ -196,7 +197,7 @@ export default function Ayarlar() {
         </View>
         <Gap h={space.sm} />
         <T v="small" color={colors.muted}>
-          Koyu görünüm gece uzun okumada gözü daha az yorar. Değiştirince uygulama kendini yeniden başlatır.
+          Koyu görünüm gece uzun okumada gözü daha az yorar; toz pembe açık görünümün yumuşak bir tonudur. Değiştirince uygulama kendini yeniden başlatır.
         </T>
       </Card>
 

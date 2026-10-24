@@ -94,7 +94,28 @@ const dark: typeof light = {
   transparent: "transparent",
 };
 
-export const colors = isDark ? dark : light;
+/** Toz pembe: açık temanın düzeni, pudra pembesi zemin ve gül kurusu ana renk (beyaz yazıyla okunur koyulukta). */
+const pink: typeof light = {
+  ...light,
+  bg: "#FFF6F8",
+  surface: "#FFFFFF",
+  surfaceAlt: "#FBEAF0",
+  ink: "#2E1A25",
+  inkSoft: "#5B3F4D",
+  muted: "#8D6E7B",
+  line: "#F2DEE5",
+  lineStrong: "#E5C4D0",
+
+  primary: "#B84D72",
+  primaryDeep: "#8C3556",
+  primaryTint: "#FBE3EC",
+  onPrimarySoft: "#FDE9F0",
+
+  overlay: "rgba(46, 26, 37, 0.42)",
+  shadow: "#5B2A40",
+};
+
+export const colors = isDark ? dark : themeMode === "pink" ? pink : light;
 
 /** Ders renkleri: ana ton (sırt, halka), koyu (beyaz zeminde yazı), açık (arka plan). */
 export interface CourseColor {

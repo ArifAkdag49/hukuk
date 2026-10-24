@@ -1,9 +1,10 @@
-export type ThemeMode = "light" | "dark";
+export type ThemeMode = "light" | "dark" | "pink";
 const KEY = "theme_mode";
 
 export function readThemeMode(): ThemeMode {
   try {
-    return globalThis.localStorage?.getItem(KEY) === "dark" ? "dark" : "light";
+    const v = globalThis.localStorage?.getItem(KEY);
+    return v === "dark" || v === "pink" ? v : "light";
   } catch {
     return "light";
   }
