@@ -230,3 +230,55 @@ def test_only_the_last_block_of_each_turn_is_cache_marked(auth_client, kb, tools
         last = call[1]["messages"][-1]["content"][-1]
         assert last["cache_control"] == {"type": "ephemeral"}
         assert marks(call) == 1  # sistem işaretiyle birlikte en çok 2 kesme noktası
+
+
+def test_case_label_is_read_from_the_decision_header():
+    from app.services.assistant_service import case_label
+
+    text = "9. Ceza Dairesi         2014/2101 E.  ,  2014/4908 K.GÖÇMEN KAÇAKÇILIĞI\n...\n21.04.2014 tarihinde oybirliğiyle karar verildi."
+    assert case_label(text, "adli") == "Yargıtay 9. Ceza Dairesi, E.2014/2101 K.2014/4908, T.21.04.2014"
+    gk = "Ceza Genel Kurulu         2012/8-1085 E.  ,  2013/96 K.\n... 19.03.2013 günü yapılan müzakerede"
+    assert case_label(gk, "idari") == "Danıştay Ceza Genel Kurulu, E.2012/8-1085 K.2013/96, T.19.03.2013"
+    assert case_label("başlıksız metin", "adli") is None
+
+
+def test_opened_case_is_labelled_with_citation_not_id(auth_client, kb, monkeypatch):
+    async def fake_call(name, args):
+        if name == "ictihat_ara":
+            return json.dumps({"sonuclar": [{"id": "111", "atif": "Yargıtay 1. HD, E.2020/1 K.2021/2, T.01.02.2021"}]}), False
+        if name == "karar_getir" and args["karar_id"] == "111":
+            return json.dumps({"id": "111", "kaynak": "https://k/111", "metin": "..."}), False
+        if name == "karar_getir":
+            return json.dumps({"id": "222", "kaynak": "https://k/222",
+                               "metin": "18. Ceza Dairesi  2016/18827 E.  ,  2018/13223 K.\n17/10/2018 tarihinde karar verildi."}), False
+        return "{}", False
+
+    monkeypatch.setattr(hub, "call", fake_call)
+    fake = FakeClient(create_outputs=[
+        message([tool_use("t1", "ictihat_ara", {"ifade": "x"})], "tool_use"),
+        message([tool_use("t2", "karar_getir", {"karar_id": "111"}), tool_use("t3", "karar_getir", {"karar_id": "222"})], "tool_use"),
+        message([text_block("Cevap")]),
+        message([text_block("Başlık")]),
+    ])
+    install(fake)
+    tid = thread(auth_client)
+    msg = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Soru", "deep": False}).json()["message"]
+    assert [s["label"] for s in msg["sources"]] == [
+        "Yargıtay 1. HD, E.2020/1 K.2021/2, T.01.02.2021",       # aramadan bilinen künye
+        "Yargıtay 18. Ceza Dairesi, E.2016/18827 K.2018/13223, T.17.10.2018",  # metin başlığından
+    ]
+
+
+def test_history_tells_the_model_which_sources_were_opened(auth_client, kb, sql):
+    tid = thread(auth_client)
+    sql.execute("insert into chat_messages (id, thread_id, role, content_md, created_at) values (gen_random_uuid(), %s, 'user', 'İlk soru', now() - interval '2 minutes')", [tid])
+    sql.execute(
+        "insert into chat_messages (id, thread_id, role, content_md, sources, created_at) values (gen_random_uuid(), %s, 'assistant', 'İlk cevap', %s, now() - interval '1 minute')",
+        [tid, json.dumps([{"type": "madde", "label": "TCK m. 79", "ref": "u"}, {"type": "kb", "label": "Konu", "ref": "k"},
+                          {"type": "karar", "label": "Yargıtay 18. CD, E.2016/18827 K.2018/13223", "ref": "u"}])],
+    )
+    fake = FakeClient(create_outputs=[message([text_block("İkinci cevap")])])
+    install(fake)
+    auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "İkinci soru", "deep": False})
+    prior = fake.calls[0][1]["messages"][1]["content"]
+    assert prior == "İlk cevap\n\n[Bu cevapta araçla açılan kaynaklar: TCK m. 79; Yargıtay 18. CD, E.2016/18827 K.2018/13223]"

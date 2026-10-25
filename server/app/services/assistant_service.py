@@ -13,6 +13,7 @@ Kaynak listesi yalnız gerçekten kullanılanları gösterir: tam eşleşen bilg
 
 import asyncio
 import json
+import re
 import uuid
 
 from .. import db, llm, search
@@ -53,7 +54,8 @@ Kuralı akılda tutturan iki satırlık bir karşılaştırma (yararlıysa).
 Uzunluk: 300-700 kelime; derin cevapta daha ayrıntılı olabilir. Önemli kavramları, süreleri ve şartları **kalın** yaz. Emojiyi yalnız ⚠️ ve 💡 için kullan.
 Öğrenci yalnız "daha basit anlat", "soru sor" gibi bir istekte bulunur ya da sohbet ederse bu yapıyı zorlama ve yeniden karar arama; önceki cevaba dayan.
 Bu bir hukuki danışmanlık değildir; somut bir uyuşmazlıkta öğrenciyi bir avukata yönlendir (tek cümle).
-Cevabın sonunda kaynak listesi yazma; uygulama kaynakları ayrıca gösteriyor."""
+Cevabın sonunda kaynak listesi yazma; uygulama kaynakları ayrıca gösteriyor.
+Geçmişteki bir cevabın sonunda "[Bu cevapta araçla açılan kaynaklar: …]" notu varsa o kaynaklar o cevapta araçla açılıp doğrulanmıştır: "doğrulamadım" deme, gerekirse onlara dayan. Bu notu kendi cevabına yazma."""
 
 KB_TOOL = {
     "name": "bilgi_bankasi_ara",
@@ -73,7 +75,9 @@ def _block_type(b) -> str:
     return getattr(b, "type", None) or (b.get("type") if isinstance(b, dict) else "")
 
 
-async def _run_tool(name: str, args: dict, sources: list[dict]) -> tuple[str, bool]:
+async def _run_tool(name: str, args: dict, sources: list[dict], known: dict[str, str] | None = None) -> tuple[str, bool]:
+    """known: bu cevapta içtihat aramasında görülen karar kimliği → künye (karar açılınca etiket olur)."""
+    known = known if known is not None else {}
     if name == "bilgi_bankasi_ara":
         hits = await db.run(search.search_kb, args.get("sorgu", ""), 5)
         for h in hits:
@@ -89,12 +93,41 @@ async def _run_tool(name: str, args: dict, sources: list[dict]) -> tuple[str, bo
         data = json.loads(text)
     except json.JSONDecodeError:
         data = None
+    if name == "ictihat_ara" and isinstance(data, dict):
+        for r in data.get("sonuclar") or []:
+            if r.get("id") and r.get("atif"):
+                known[str(r["id"])] = r["atif"]
     if name == "madde_getir" and isinstance(data, dict):
         sources.append({"type": "madde", "label": f"{data.get('kanun', args.get('kanun'))} m. {data.get('madde_no', args.get('madde_no'))}", "ref": data.get("kaynak") or ""})
     elif name == "karar_getir" and isinstance(data, dict):
-        label = data.get("atif") or data.get("kunye") or args.get("karar_id")
+        kid = str(args.get("karar_id", ""))
+        label = (
+            data.get("atif")
+            or data.get("kunye")
+            or known.get(kid)
+            or case_label(str(data.get("metin") or ""), args.get("mahkeme"))
+            or kid
+        )
         sources.append({"type": "karar", "label": str(label), "ref": data.get("kaynak") or ""})
     return text, False
+
+
+_COURT = {"adli": "Yargıtay", "yargitay": "Yargıtay", "idari": "Danıştay", "danistay": "Danıştay", "idare": "Danıştay"}
+# "9. Ceza Dairesi         2014/2101 E.  ,  2014/4908 K." ya da "Ceza Genel Kurulu  2012/8-1085 E.  ,  2013/96 K."
+_HEADER_RE = re.compile(r"^\s*([^\n]*?(?:Dairesi|Kurulu))\s+(\d{4}/[\d-]+)\s*E\.\s*,\s*(\d{4}/\d+)\s*K\.")
+_DATE_RE = re.compile(r"(\d{2}[./]\d{2}[./]\d{4})\s+(?:gün|tarih)")
+
+
+def case_label(text: str, mahkeme: str | None) -> str | None:
+    """Karar metninin başlığından okunur künye: "Yargıtay 9. Ceza Dairesi, E.2014/2101 K.2014/4908, T.21.04.2014"."""
+    m = _HEADER_RE.search(text[:600])
+    if not m:
+        return None
+    court = _COURT.get((mahkeme or "adli").strip().lower(), "")
+    daire = re.sub(r"\s+", " ", m.group(1)).strip()
+    label = f"{court} {daire}".strip() + f", E.{m.group(2)} K.{m.group(3)}"
+    dates = _DATE_RE.findall(text)
+    return label + (f", T.{dates[-1].replace('/', '.')}" if dates else "")
 
 
 def _collect_web_sources(content, sources: list[dict]) -> None:
@@ -141,13 +174,22 @@ def _dedupe(sources: list[dict]) -> list[dict]:
     return out
 
 
+def _with_sources_note(text: str, sources) -> str:
+    """Geçmişteki cevaba, o cevapta araçla açılan madde ve kararların notunu ekler; model sonraki turda
+    "doğrulamadım" demesin. Bilgi bankası ve web kaynakları not edilmez (doğrulama iddiası taşımaz)."""
+    labels = [s.get("label") for s in (sources or []) if isinstance(s, dict) and s.get("type") in ("madde", "karar") and s.get("label")]
+    if not labels:
+        return text
+    return f"{text}\n\n[Bu cevapta araçla açılan kaynaklar: {'; '.join(labels)}]"
+
+
 def _history(thread_id: str) -> list[dict]:
     rows = db.fetch_all(
-        "select role, content_md from (select role, content_md, created_at from chat_messages "
+        "select role, content_md, sources from (select role, content_md, sources, created_at from chat_messages "
         "where thread_id = %s order by created_at desc limit %s) x order by created_at",
         [thread_id, HISTORY_LIMIT],
     )
-    msgs = [{"role": r["role"], "content": r["content_md"]} for r in rows]
+    msgs = [{"role": r["role"], "content": _with_sources_note(r["content_md"], r.get("sources"))} for r in rows]
     while msgs and msgs[0]["role"] != "user":
         msgs.pop(0)
     return msgs
@@ -170,6 +212,7 @@ async def answer(thread: dict, content: str, deep: bool) -> dict:
     system = [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}] + await db.run(_topic_block, thread.get("topic_id"))
     model = llm.OPUS if deep else llm.SONNET
     sources: list[dict] = []
+    known: dict[str, str] = {}
 
     resp = None
     for _ in range(MAX_TURNS):
@@ -189,7 +232,7 @@ async def answer(thread: dict, content: str, deep: bool) -> dict:
         if resp.stop_reason != "tool_use":
             break
         calls = [b for b in resp.content if _block_type(b) == "tool_use"]
-        outputs = await asyncio.gather(*(_run_tool(c.name, dict(c.input), sources) for c in calls))
+        outputs = await asyncio.gather(*(_run_tool(c.name, dict(c.input), sources, known) for c in calls))
         results = [
             {"type": "tool_result", "tool_use_id": c.id, "content": _truncate(text), **({"is_error": True} if err else {})}
             for c, (text, err) in zip(calls, outputs)
