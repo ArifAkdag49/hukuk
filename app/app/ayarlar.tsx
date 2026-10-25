@@ -1,62 +1,26 @@
 import { router } from "expo-router";
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { StyleSheet, Switch, TextInput, View } from "react-native";
-import { api, errorText } from "../src/api";
+import { errorText } from "../src/api";
 import { confirm } from "../src/confirm";
 import { Screen } from "../src/components/Screen";
 import { ReminderCard, VersionCard } from "../src/components/SettingsExtras";
 import { Notice } from "../src/components/States";
-import { Bar, Button, Card, Chip, Gap, Icon, Row, SectionTitle, T } from "../src/components/ui";
+import { Button, Card, Chip, Gap, Icon, Row, SectionTitle, T } from "../src/components/ui";
 import { API_URL, USE_FIXTURE } from "../src/config";
 import { formatDateTime, timeAgo } from "../src/format";
 import { useApp } from "../src/store/AppContext";
 import { colors, courseColor, fonts, radius, space, themeMode } from "../src/theme";
 import { saveThemeModeAndReload, type ThemeMode } from "../src/themePref";
-import type { Usage } from "../src/types";
-
-const FEATURE_NAMES: Record<string, string> = {
-  assistant: "Asistan",
-  asistan: "Asistan",
-  assistant_deep: "Derin cevap",
-  cases: "Olay puanlama",
-  olay_puanlama: "Olay puanlama",
-  notes: "Notlar",
-  notlar: "Notlar",
-  "olay-puanlama": "Olay puanlama",
-  "asistan-derin": "Derin cevap",
-  "canli-test": "Deneme çağrıları",
-};
-
-/** Bilinmeyen özellik anahtarlarını okunur yapar: "not-ozet" → "Not ozet". */
-function featureName(k: string) {
-  if (FEATURE_NAMES[k]) return FEATURE_NAMES[k];
-  const t = k.replace(/[-_:]+/g, " ").trim();
-  return t.charAt(0).toLocaleUpperCase("tr") + t.slice(1);
-}
 
 export default function Ayarlar() {
   const { kb, sync, syncNow, logout, setCourseActive, addCourse } = useApp();
-  const [usage, setUsage] = useState<Usage | null>(null);
-  const [usageError, setUsageError] = useState<string | null>(null);
   const [busyCourse, setBusyCourse] = useState<string | null>(null);
   const [courseError, setCourseError] = useState<string | null>(null);
   const [code, setCode] = useState("");
   const [name, setName] = useState("");
   const [year, setYear] = useState(3);
   const [adding, setAdding] = useState(false);
-
-  const loadUsage = useCallback(async () => {
-    try {
-      setUsage(await api.getUsage());
-      setUsageError(null);
-    } catch (e) {
-      setUsageError(errorText(e));
-    }
-  }, []);
-
-  useEffect(() => {
-    void loadUsage();
-  }, [loadUsage]);
 
   async function toggle(id: string, v: boolean) {
     setBusyCourse(id);
@@ -97,57 +61,8 @@ export default function Ayarlar() {
     }
   }
 
-  const pct = usage ? Math.min(100, (usage.cost_usd / Math.max(usage.cap_usd, 0.01)) * 100) : 0;
-  const barColor = pct >= 90 ? colors.danger : pct >= 70 ? colors.warning : colors.success;
-
   return (
     <Screen back title="Ayarlar">
-      <SectionTitle title="Bu ayın harcaması" />
-      <Card>
-        {usage ? (
-          <>
-            <T v="title">
-              Bu ay: ${usage.cost_usd.toFixed(2)} / ${usage.cap_usd.toFixed(2)}
-            </T>
-            <Gap h={space.sm} />
-            <Bar value={pct} color={barColor} height={12} />
-            <Gap h={space.sm} />
-            <T v="small" color={colors.inkSoft}>
-              {pct >= 100
-                ? "Bu ayın API limiti doldu. Okuma, quiz ve kartlar çalışmaya devam ediyor."
-                : `Tavana ${Math.max(0, usage.cap_usd - usage.cost_usd).toFixed(2)} $ kaldı. Konu okuma, quiz ve kartlar harcama yapmaz.`}
-            </T>
-            {Object.keys(usage.by_feature).length > 0 ? (
-              <View style={{ marginTop: space.md, gap: 6 }}>
-                {Object.entries(usage.by_feature).map(([k, v]) => (
-                  <Row key={k} style={{ justifyContent: "space-between" }}>
-                    <T v="body" color={colors.inkSoft}>
-                      {featureName(k)}
-                    </T>
-                    <T v="bodyStrong">${v.toFixed(2)}</T>
-                  </Row>
-                ))}
-              </View>
-            ) : null}
-            {typeof usage.pipeline_cost_usd === "number" ? (
-              <T v="small" color={colors.muted} style={{ marginTop: space.md }}>
-                İçerik üretimi (tek seferlik): ${usage.pipeline_cost_usd.toFixed(2)}. Tavana sayılmaz.
-              </T>
-            ) : null}
-          </>
-        ) : usageError ? (
-          <>
-            <Notice tone="warning" text={usageError} />
-            <Gap h={space.sm} />
-            <Button label="Tekrar dene" icon="refresh" kind="secondary" size="sm" onPress={() => void loadUsage()} />
-          </>
-        ) : (
-          <T v="body" color={colors.muted}>
-            Yükleniyor…
-          </T>
-        )}
-      </Card>
-
       <SectionTitle title="Senkronizasyon" />
       <Card>
         <Row>
