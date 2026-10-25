@@ -22,8 +22,10 @@ export const META_LAST_SYNC = "last_sync_at";
 export function createSync(depo: Depo, api: SyncApi) {
   async function syncKb(): Promise<{ updated: boolean; version: string }> {
     const { version } = await api.getKbVersion();
-    const local = await depo.getMeta("kb_version");
-    if (local === version && (await depo.loadKbIndex())) return { updated: false, version };
+    // Sürüm, ayrı tutulan meta kaydından değil yüklü bankanın kendisinden okunur: web'de banka
+    // kaydedilemeyip yalnız meta yazılırsa uygulama kendini güncel sanıp yeni bankayı hiç indirmezdi.
+    const local = await depo.loadKbIndex();
+    if (local && local.version === version) return { updated: false, version };
     const kb = await api.exportKb();
     await depo.replaceKb(kb);
     return { updated: true, version: kb.version };

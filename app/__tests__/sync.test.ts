@@ -55,6 +55,17 @@ describe("KB senkronizasyonu", () => {
     expect(r.updated).toBe(false);
     expect(api.exportKb).not.toHaveBeenCalled();
   });
+
+  test("meta güncel görünse de yüklü banka eskiyse yeniden indirir", async () => {
+    const depo = new MemoryDepo();
+    await depo.init();
+    await depo.replaceKb(kb("v1"));
+    await depo.setMeta("kb_version", "v2"); // web'de banka kaydedilemeyip yalnız meta yazılmış
+    const { api } = fakeApi();
+    const r = await createSync(depo, api).syncKb();
+    expect(r.updated).toBe(true);
+    expect((await depo.loadKbIndex())?.version).toBe("v2");
+  });
 });
 
 describe("ilerleme kuyruğu", () => {
