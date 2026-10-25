@@ -2,6 +2,7 @@ import { router, useFocusEffect } from "expo-router";
 import { useCallback, useState } from "react";
 import { Pressable, RefreshControl, StyleSheet, View } from "react-native";
 import { api, errorText } from "../../src/api";
+import { confirm } from "../../src/confirm";
 import { Screen } from "../../src/components/Screen";
 import { EmptyState, ErrorState, LoadingState, Notice } from "../../src/components/States";
 import { Button, Gap, Icon, IconBubble, SectionTitle, T } from "../../src/components/ui";
@@ -11,7 +12,7 @@ import { colors, courseColor, radius, shadow, space } from "../../src/theme";
 import type { Thread } from "../../src/types";
 
 export default function Asistan() {
-  const { kb } = useApp();
+  const { kb, setDraft } = useApp();
   const [threads, setThreads] = useState<Thread[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState(false);
@@ -24,6 +25,19 @@ export default function Asistan() {
       setError(errorText(e));
     }
   }, []);
+
+  async function remove(t: Thread) {
+    const ok = await confirm("Sohbet silinsin mi?", `"${t.title}" sohbetinin bütün mesajları silinir. Bu geri alınamaz.`, "Sil", true);
+    if (!ok) return;
+    try {
+      await api.deleteThread(t.id);
+      setThreads((list) => (list ?? []).filter((x) => x.id !== t.id));
+      void setDraft(`chat:${t.id}`, null);
+      setError(null);
+    } catch (e) {
+      setError(errorText(e));
+    }
+  }
 
   useFocusEffect(
     useCallback(() => {
@@ -51,6 +65,12 @@ export default function Asistan() {
       <Button label="Yeni sohbet başlat" icon="chat-plus-outline" size="lg" full onPress={() => router.push("/sohbet/yeni")} />
 
       <SectionTitle title="Sohbetlerin" />
+      {threads && threads.length > 0 ? (
+        <T v="small" color={colors.muted} style={{ marginTop: -space.xs, marginBottom: space.sm }}>
+          Silmek için bir sohbete basılı tut.
+        </T>
+      ) : null}
+      {threads && error ? <Notice tone="danger" text={error} /> : null}
       {threads === null && !error ? <LoadingState text="Sohbetler getiriliyor…" /> : null}
       {threads === null && error ? <ErrorState text={`${error} Asistan için internet gerekir.`} onRetry={() => void load()} /> : null}
       {threads && threads.length === 0 ? (
@@ -69,8 +89,13 @@ export default function Asistan() {
               <Pressable
                 key={t.id}
                 onPress={() => router.push(`/sohbet/${t.id}`)}
+                onLongPress={() => void remove(t)}
+                delayLongPress={450}
                 accessibilityRole="button"
                 accessibilityLabel={t.title}
+                accessibilityHint="Açmak için dokun, silmek için basılı tut"
+                accessibilityActions={[{ name: "delete", label: "Sohbeti sil" }]}
+                onAccessibilityAction={(e) => e.nativeEvent.actionName === "delete" && void remove(t)}
                 style={({ pressed }) => [styles.row, pressed && { opacity: 0.88 }]}
               >
                 <IconBubble name={topic ? "book-open-variant" : "chat-outline"} color={topic ? c.deep : colors.primary} tint={topic ? c.tint : colors.primaryTint} />

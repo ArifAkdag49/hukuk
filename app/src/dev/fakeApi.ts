@@ -334,6 +334,12 @@ export const fakeApi: ApiClient = {
     await wait(250);
     return [...threads];
   },
+  async deleteThread(id) {
+    await wait(250);
+    const i = threads.findIndex((t) => t.id === id);
+    if (i >= 0) threads.splice(i, 1);
+    delete messages[id];
+  },
   async getMessages(id) {
     await wait(250);
     return [...(messages[id] ?? [])];
