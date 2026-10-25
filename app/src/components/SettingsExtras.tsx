@@ -79,7 +79,7 @@ export function ReminderCard() {
           {reminder.permission === "denied" ? (
             <Notice
               tone="warning"
-              text="Bildirim izni kapalı, hatırlatma gelmez. Telefonun Ayarlar > Uygulamalar > Hukuk Çalışma > Bildirimler bölümünden izin verebilirsin."
+              text="Bildirim izni kapalı, hatırlatma gelmez. Telefonun Ayarlar > Uygulamalar > Lawly > Bildirimler bölümünden izin verebilirsin."
             />
           ) : reminder.permission === "unsupported" ? (
             <Notice tone="info" text="Bildirimler yalnızca Android uygulamasında çalışır." />

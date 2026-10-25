@@ -40,7 +40,7 @@ export default function Giris() {
           <Bookshelf height={88} />
           <View style={styles.shelf} />
           <Gap h={space.xl} />
-          <T v="display">Hukuk Çalışma</T>
+          <T v="display">Lawly</T>
           <T v="body" color={colors.inkSoft}>
             Derslerin, quizlerin ve tekrar kartların tek yerde. Giriş yapınca bilgi bankası telefonuna iner, internet
             olmadan da çalışabilirsin.
