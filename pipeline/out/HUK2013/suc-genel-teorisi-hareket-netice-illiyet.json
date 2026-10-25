@@ -1,0 +1,475 @@
+{
+ "course_id": "HUK2013",
+ "unit_index": 2,
+ "unit_title": "Ünite 2: Suçun Unsurları; Kast ve Taksir",
+ "topic_index": 1,
+ "slug": "suc-genel-teorisi-hareket-netice-illiyet",
+ "title": "Suç Genel Teorisi: Suçun Yapısı, Hareket (İcra ve İhmal), Netice, Nedensellik ve Objektif İsnadiyet, Ceza Sorumluluğunun Şahsiliği",
+ "model": "claude-code (elle, araştırmalı)",
+ "generated_at": "2026-10-25T12:04:06.443946+00:00",
+ "skill_refs": [
+  "ceza-hukuku-genel/suc-genel-teorisi-denetim-semasi"
+ ],
+ "content": {
+  "summary_md": "- **Denetim sırası:** hareket → netice → nedensellik ve objektif isnadiyet (maddi unsur) → manevi unsur (kast/taksir) → hukuka aykırılık → kusurluluk → özel görünüş biçimleri → yaptırım.\n- **Maddi unsurun parçaları:** fail, mağdur, suçun konusu, hareket, netice, nedensellik bağı. Nedensellik yalnız kanuni tanımında netice bulunan suçlarda aranır; sırf hareket suçlarında aranmaz.\n- **Hareket ikiye ayrılır:** icrai (bir şey yapmak) ve ihmali (yapılması gerekeni yapmamak). İhmali suçlar da ikiye ayrılır: **gerçek ihmali suç** (kanun doğrudan yapmamayı tanımlar; örnek TCK m. 98) ve **ihmal suretiyle icra** (neticeli suçun garantörün ihmaliyle işlenmesi; örnek TCK m. 83 ve TCK m. 88).\n- **TCK m. 83/1-2:** ihmalin icraya eşdeğer olması için ya kanundan veya sözleşmeden doğan bir yükümlülük (garantörlük) ya da önceki tehlikeli davranış gerekir. TCK m. 83/3 cezayı aralıklarla verir ve indirimi takdiri bırakır; TCK m. 88'de yaralama için ceza üçte ikisine kadar indirilebilir.\n- **Netice:** zarar ya da tehlike neticesi. Neticeli suçlarda hareket ile netice arasında nedensellik bağı kurulmalıdır.\n- **Nedensellik:** TCK'da genel hüküm yoktur. Yargıtay önce şart (eşdeğerlik) teorisiyle bağı kurar, sonra neticenin faile objektif olarak isnat edilip edilemeyeceğine bakar. Netice üçüncü kişinin veya rastlantının eseriyse isnat edilemez.\n- **Bağın kesilmesi:** mağdurun veya üçüncü kişinin hareketi neticenin tek sebebiyse kesilir; kusurlar birleşmişse kesilmez ve herkes kendi kusurundan sorumlu olur (TCK m. 22/5).\n- **İspat:** illiyet şüpheden uzak ispatlanmalıdır; teknik bilgi gerekiyorsa bilirkişi (çoğunlukla Adli Tıp Kurumu) görüşü alınır. Şüphe sanık lehine değerlendirilir.\n- **Şahsilik:** ceza sorumluluğu şahsidir (AY m. 38/7, TCK m. 20/1). Tüzel kişiye ceza verilemez; kanunda öngörülen güvenlik tedbirleri (izin iptali, müsadere) saklıdır (TCK m. 20/2, TCK m. 60).\n- **Objektif sorumluluk yoktur:** ağır neticeden sorumluluk için en azından taksir gerekir (TCK m. 23).\n- 📌 **Güncel:** TCK m. 86/1 cezası 4.6.2025 tarihli 7550 sayılı Kanunla \"bir yıl altı aydan üç yıla kadar\" hapse çıkarılmıştır; kasten yaralama sonucu ölümde TCK m. 87/4 cezaları 10-14 ve 14-18 yıldır.",
+  "content_md": "## 1. Suçun yapısı ve denetim sırası\n\n**Suç**, kanunda tanımlanan, hukuka aykırı ve kusurlu fiildir. Bir olayı çözerken fiili parçalara ayırıp sırayla denetlersin. Ders notunda kullanabileceğin sıra şudur:\n\n1. **Hareket:** İcrai mi, ihmali mi?\n2. **Netice:** Kanuni tanım bir netice arıyor mu, gerçekleşti mi?\n3. **Nedensellik ve objektif isnadiyet:** Hareket ile netice arasında bağ var mı, netice faile yüklenebilir mi?\n4. **Manevi unsur:** Kast mı, taksir mi?\n5. **Hukuka uygunluk nedenleri:** Meşru savunma gibi bir neden var mı?\n6. **Kusurluluk:** Yaş, akıl hastalığı, hata gibi kusuru kaldıran hâller var mı?\n7. **Özel görünüş biçimleri:** Teşebbüs, iştirak, içtima.\n8. **Yaptırım:** Ceza ve güvenlik tedbiri.\n\nİlk üç basamak **maddi unsuru** oluşturur. Maddi unsurun parçaları fail, mağdur (ve suçtan zarar gören), suçun konusu, hareket, netice ve nedensellik bağıdır.\n\n> ⚠️ **Sınavda dikkat:** Suç teorisinin sistematiği tartışmalıdır. Bir görüş suçu \"maddi unsur, manevi unsur, hukuka aykırılık, kusurluluk\" diye böler. Diğer görüş üç aşamalı yapıyı (tipiklik, hukuka aykırılık, kusurluluk) benimser ve kastı ya da taksiri tipikliğin manevi parçası sayar. Hangisini seçersen seç, tutarlı ol. Yargıtay Ceza Genel Kurulu, nedenselliğin maddi unsur içinde yer aldığını belirtir.\n\nKanunilik ve kıyas yasağı (TCK m. 2) ile kusur ilkesi önceki konunun, kast ve taksir sonraki konuların işidir. Burada hareket, netice, nedensellik ve şahsilik üzerinde duruyoruz.\n\n## 2. Hareket\n\nSuçun ilk unsuru harekettir. İki biçimi vardır.\n\n### 2.1. İcrai hareket\nFailin dış dünyada bir şey yapmasıdır. Kanun \"öldüren\", \"yaralayan\" gibi fiillerle tanım yapar.\n\n> **Örnek:** Ali, Veli'yi bıçaklar; Veli ölür. Bu, TCK m. 81'deki kasten öldürme suçunun icrai hareketle, neticeli ve serbest hareketli olarak işlenmesidir.\n\n### 2.2. İhmali hareket\nFailin, yapması gereken belli bir davranışı yapmamasıdır. Burada iki tür ayrılır:\n\n| Tür | Kanun ne tanımlar? | Fail kim olabilir? |\n|---|---|---|\n| Gerçek ihmali suç | Doğrudan yapmamayı | Herkes |\n| İhmal suretiyle icra | Bir neticeyi | Yalnız garantör |\n\n**Gerçek (saf) ihmali suç:** Kanun yapılmayan davranışın kendisini suç sayar. TCK m. 98/1'e göre yaşı, hastalığı, yaralanması ya da başka bir nedenle kendini idare edemeyecek kimseye hal ve koşulların elverdiği ölçüde yardım etmeyen veya durumu derhal ilgili makamlara bildirmeyen kişi bir yıla kadar hapis veya adlî para cezasıyla cezalandırılır. Yükümlülük herkesedir; garantörlük aranmaz. Bu suçlarda teşebbüsün mümkün olmadığı öğretide ileri sürülür, çünkü netice harekete bitişiktir.\n\n> **Örnek:** Yolda kaza geçirmiş yaralıyı gören Ayşe ne yardım eder ne de 112'yi arar. Ayşe TCK m. 98/1'den sorumludur.\n\n**İhmal suretiyle icra (gerçek olmayan ihmali suç):** Kural olarak icrai hareketle işlenen bir suç, neticeyi önleme yükümlüsünün neticeyi engellememesi yoluyla işlenir. Fail, yalnız **garantör** konumundaysa sorumlu olur.\n\nKanunumuz bunu genel olarak düzenlemez; iki özel hüküm vardır:\n- **TCK m. 83:** Kasten öldürmenin ihmali davranışla işlenmesi.\n- **TCK m. 88:** Kasten yaralamanın ihmali davranışla işlenmesi.\n\n## 3. Garantörlük: TCK m. 83\n\nTCK m. 83/1'e göre kişinin yükümlü olduğu belli bir icrai davranışı gerçekleştirmemesi dolayısıyla meydana gelen ölümden sorumlu tutulabilmesi için, yükümlülük ihmalinin **icrai davranışa eşdeğer** olması gerekir. TCK m. 83/2 eşdeğerliğin iki kaynağını sayar:\n\n- **a)** Belli bir icrai davranışta bulunmak hususunda kanuni düzenlemelerden veya sözleşmeden kaynaklanan yükümlülük.\n- **b)** Önceden gerçekleştirilen davranışın başkalarının hayatı bakımından tehlikeli bir durum oluşturması.\n\n> **Örnek (kanundan doğan yükümlülük):** Anne, bebeğini günlerce emzirmez ve beslemez; bebek ölür. Ana-babanın çocuğa bakım yükümlülüğü kanundan doğar.\n>\n> **Örnek (sözleşme):** Bakıcı olarak çalışan Zeynep, bakımını üstlendiği yaşlı hastaya ölmesini isteyerek ilacını vermez.\n>\n> **Örnek (önceki tehlikeli davranış):** Mehmet, arkadaşı Can'ı şakayla, yüzme bilmediğini bildiği hâlde derin suya iter ve boğulmasını izler.\n\n**Ceza:** TCK m. 83/3'e göre belli bir yükümlülüğün ihmaliyle ölüme neden olan kişi hakkında temel ceza olarak ağırlaştırılmış müebbet yerine yirmi yıldan yirmibeş yıla, müebbet yerine onbeş yıldan yirmi yıla, diğer hâllerde on yıldan onbeş yıla kadar hapis cezasına hükmolunabilir; \"cezada indirim de yapılmayabilir\". Yani indirim **takdiridir**.\n\nTCK m. 88'de yaralama için ceza üçte ikisine kadar **indirilebilir**; burada da indirim zorunlu değildir. Bu hükmün uygulanmasında TCK m. 83'teki koşullar göz önünde bulundurulur.\n\n> ⚠️ **Sınavda dikkat:** \"Zorunlu indirim\" yazmak hatadır. Hem TCK m. 83/3'te hem TCK m. 88'de indirim hâkimin takdirindedir.\n\nBirkaç sınır çizgisi:\n- Garantör ölüm kastı olmadan özensizce ihmal ederse, ölüm hâlinde taksirle öldürme (TCK m. 85) gündeme gelebilir.\n- Garantör olmayan, yalnızca genel yardım yükümlüsü olan kişi ölüm hâlinde TCK m. 98/2'ye göre bir yıldan üç yıla kadar hapisle cezalandırılır.\n- TCK m. 97/1, yaşı veya hastalığı dolayısıyla kendini idare edemeyen ve koruma ve gözetim yükümlülüğü altında bulunan kimseyi kendi hâline terk etmeyi cezalandırır; terk dolayısıyla mağdur ölmüşse TCK m. 97/2 neticesi sebebiyle ağırlaşmış suç hükümlerine gönderir. TCK m. 83 ile TCK m. 97 arasındaki sınır bir nitelendirme meselesidir; olayın ayrıntısına bakılır.\n\n> 📌 **Kesin bilgi:** TCK m. 83, kasten öldürmenin özel bir işleniş şeklidir. Ölüm gerçekleşmemişse tamamlanmış bir TCK m. 83 suçu yoktur. Yargıtay Ceza Genel Kurulu, garantörlüğün kaynağının ve ölüm kastının her türlü şüpheden uzak ispatlanması gerektiğini kabul eder; ispat edilemezse fail, ihmalinin illiyet bağıyla bağlı olduğu gerçekleşen neticeden (örneğin yaralama) sorumlu tutulur.\n\n## 4. Netice\n\n**Netice**, hareketin dış dünyada meydana getirdiği, kanuni tanımda yer alan değişikliktir. İki biçimi vardır:\n- **Zarar neticesi:** Hukuki değerin fiilen bozulması (ölüm, yaralanma).\n- **Tehlike neticesi:** Hukuki değerin zarar görme tehlikesine girmesi.\n\nNeticesi kanuni tanımda yer alan suçlara **neticeli suç**, hareketin yapılmasıyla tamamlanan suçlara **sırf hareket suçu** denir. Nedensellik bağı yalnız neticeli suçlarda araştırılır.\n\n## 5. Nedensellik (illiyet) bağı ve objektif isnadiyet\n\nTCK'da nedensellik bağına ilişkin genel bir hüküm yoktur; konu öğretiye ve uygulamaya bırakılmıştır.\n\n### 5.1. Teoriler\n- **Şartların eşitliği (şart) teorisi:** Hareket ortadan kalktığında netice de ortadan kalkıyorsa hareket neticenin sebebidir. Her şart eşit değerdedir. Sorumluluğu çok genişletir.\n- **Uygun nedensellik:** Hayat tecrübesine göre neticeyi doğurmaya elverişli hareket sebep sayılır.\n- **Objektif isnadiyet:** Şart teorisiyle kurulan bağın üzerine, failin hukuken onaylanmayan bir risk yaratmasını ve bu riskin neticeye yansımasını arar.\n\n**Yargıtay Ceza Genel Kurulu'nun yöntemi:** Önce şart teorisine göre nedensellik kurulur, sonra neticenin faile objektif olarak isnat edilip edilemeyeceği araştırılır. Netice üçüncü kişinin veya bir rastlantının eseriyse faile isnat edilemez. Kararlarda \"uygun illiyet bağı\" ifadesi de kullanılmaya devam eder.\n\n> **Örnek (rastlantı):** Ali, Veli'yi hafifçe yaralar. Veli ambulansla hastaneye götürülürken ambulansa yıldırım düşer ve Veli ölür. Yaralama olmasaydı Veli ambulansta olmazdı (şart teorisi), ama ölüm rastlantının eseridir; Ali'ye isnat edilmez, yalnız yaralamadan sorumlu olur.\n\n> ⚠️ **Sınavda dikkat:** \"Şart\" olmak, sorumlu olmak demek değildir. Silahı arabasında unutmak ölümün şartıdır; ama netice üçüncü kişinin kusurlu müdahalesinin eseriyse faile isnat edilmez.\n\n### 5.2. İlliyet bağının kesilmesi\n- Mağdurun veya üçüncü kişinin hareketi neticenin **tek sebebi** ise bağ kesilir.\n- Failin kusuruna başkasının kusuru eklenmiş ve netice birleşen kusurlardan doğmuşsa bağ **kesilmez**. TCK m. 22/5'e göre birden fazla kişinin taksirle işlediği suçlarda herkes kendi kusurundan sorumlu olur ve her failin cezası kusuruna göre ayrı ayrı belirlenir.\n\n> **Örnek:** Hızlı giden sürücü ile kırmızıda geçen yaya çarpışır, yaya ölür. Yayanın kusuru sürücünün kusurunu ortadan kaldırmaz; sürücünün cezası kendi kusuruna göre belirlenir.\n\n### 5.3. Önceden var olan hastalık ve ispat\nKalp hastası mağdurun hafif bir çarpmadan sonra iki gün içinde ölmesi gibi durumlarda, hastalık illiyeti **kendiliğinden kesmez**. Önemli olan, illiyetin her türlü şüpheden uzak biçimde tespit edilmesidir.\n\n- İlliyet hâkimin bilgisiyle çözülebiliyorsa hâkim, teknik bilgi gerektiriyorsa **bilirkişi** (çoğunlukla Adli Tıp Kurumu) ile tespit edilir.\n- Şüphe sanık lehine değerlendirilir; bunun anayasal arka planı AY m. 38/4'teki masumiyet karinesidir.\n- Eksik otopsi gibi tereddüt yaratan hâllerde yetkili kuruldan yeniden rapor alınmadan hüküm kurulamaz.\n\n### 5.4. Nedensellik yetmez: TCK m. 23\nBir fiilin kastedilenden daha ağır veya başka bir neticeye sebebiyet vermesinde, kişinin sorumlu tutulabilmesi için o netice bakımından en azından taksirle hareket etmesi gerekir (TCK m. 23). Örneğin TCK m. 87/4'te kasten yaralama sonucu ölüm için yaralama kastı, uygun nedensellik bağı ve ölüm bakımından en az taksir birlikte aranır. Eski hukuktaki objektif sorumluluk 5237 sayılı TCK'da yoktur.\n\n| Hüküm | Güncel ceza |\n|---|---|\n| TCK m. 86/1 kasten yaralama | 1 yıl 6 ay - 3 yıl hapis |\n| TCK m. 87/4, TCK m. 86/1 hâli | 10 - 14 yıl hapis |\n| TCK m. 87/4, TCK m. 86/3 hâli | 14 - 18 yıl hapis |\n| TCK m. 85/1 taksirle öldürme | 2 - 6 yıl hapis |\n\n> 📌 **Güncel değişiklik:** TCK m. 86 ve TCK m. 87'deki bu aralıklar 4.6.2025 tarihli 7550 sayılı Kanunla yükseltilmiştir. Eski kitaplardaki \"bir yıldan üç yıla\" (TCK m. 86/1) ve \"sekiz yıldan oniki yıla\" (TCK m. 87/4) aralıkları eskidir.\n\n## 6. Ceza sorumluluğunun şahsiliği\n\nAY m. 38/7: \"Ceza sorumluluğu şahsidir.\" TCK m. 20/1 de aynısını söyler ve ekler: kimse başkasının fiilinden dolayı sorumlu tutulamaz.\n\n**Tüzel kişiler:** TCK m. 20/2'ye göre tüzel kişiler hakkında ceza yaptırımı uygulanamaz. Ancak suç dolayısıyla kanunda öngörülen güvenlik tedbiri niteliğindeki yaptırımlar saklıdır.\n\nTCK m. 60'a göre:\n- İzne dayalı faaliyette bulunan özel hukuk tüzel kişisinin organ veya temsilcilerinin iştirakiyle, iznin verdiği yetkinin kötüye kullanılması suretiyle, tüzel kişi yararına işlenen **kasıtlı** suçlardan mahkûmiyet hâlinde izin iptal edilir (TCK m. 60/1).\n- Yararına işlenen suçlarda özel hukuk tüzel kişileri hakkında müsadere hükümleri de uygulanır (TCK m. 60/2).\n- Daha ağır sonuç doğuracaksa hâkim bu tedbirlere hükmetmeyebilir (TCK m. 60/3).\n- Bu madde hükümleri kanunun ayrıca belirttiği hâllerde uygulanır (TCK m. 60/4).\n\n> **Örnek:** X Ltd. Şti.'nin müdürü Ayşe şirket yararına kasıtlı suç işler. Şirkete hapis ya da adlî para cezası verilemez; şartları varsa izin iptali ve müsadere uygulanabilir. Ayşe kendi fiilinden gerçek kişi olarak sorumludur. Olaydan habersiz ortak Murat sorumlu tutulamaz.\n\n> ⚠️ **Sınavda dikkat:** Tüzel kişi hakkındaki davada \"düşme\" değil, \"güvenlik tedbiri uygulanmasına yer olmadığına\" kararı verilmesi gerektiği kabul edilir.\n\n## 7. Çözüm şeması\n\n1. Hareket: icrai mi, ihmali mi? İhmaldeyse gerçek ihmali suç mu, garantör ihmali mi?\n2. Garantörlük kaynağı (kanun, sözleşme, önceki tehlikeli davranış).\n3. Netice gerçekleşti mi? Neticesiz suçta nedensellik aranmaz.\n4. Şart teorisiyle bağ var mı? Sonra objektif isnat: üçüncü kişi, rastlantı, mağdurun hareketi neticenin tek sebebi mi?\n5. Şüphe varsa bilirkişi ve sanık lehine yorum.\n6. Ağır netice varsa en az taksir (TCK m. 23).\n7. Sorumluluk şahsi mi? Tüzel kişi mi söz konusu?",
+  "critical_md": "- 📌 Ceza sorumluluğu şahsidir; kimse başkasının fiilinden sorumlu tutulamaz (AY m. 38/7, TCK m. 20/1).\n- 📌 Tüzel kişiye ceza verilemez; yalnız kanunda öngörülen güvenlik tedbirleri (izin iptali, müsadere) uygulanır (TCK m. 20/2, TCK m. 60). Bu tedbirler ancak kanunun ayrıca belirttiği hâllerde uygulanır (TCK m. 60/4).\n- 📌 İzin iptali için suçun kasıtlı olması, organ veya temsilcilerin iştirakiyle, yetkinin kötüye kullanılması suretiyle ve tüzel kişi yararına işlenmesi gerekir (TCK m. 60/1).\n- 📌 İhmal suretiyle icrada eşdeğerlik kaynakları: kanun veya sözleşmeden doğan yükümlülük, önceki tehlikeli davranış (TCK m. 83/2).\n- ⚠️ TCK m. 83/3 ve TCK m. 88'deki indirim takdiridir; \"zorunlu indirim\" demek hatadır.\n- 📌 TCK m. 83/3: ağırlaştırılmış müebbet yerine 20-25 yıl, müebbet yerine 15-20 yıl, diğer hâllerde 10-15 yıl hapse hükmolunabilir.\n- ⚠️ Gerçek ihmali suç (TCK m. 98) herkese yüklenir, garantörlük aramaz; ihmal suretiyle icra (TCK m. 83, TCK m. 88) yalnız garantörün suçudur.\n- 📌 TCK m. 98/2: yardım yükümlülüğünün yerine getirilmemesi nedeniyle kişi ölürse bir yıldan üç yıla kadar hapis.\n- ⚠️ TCK m. 83 kasten öldürmenin özel işleniş şeklidir; ölüm gerçekleşmemişse tamamlanmış TCK m. 83 suçu oluşmaz.\n- 📌 TCK'da nedensellik hakkında genel hüküm yoktur; nedensellik yalnız neticeli suçlarda aranır.\n- ⚠️ Şart teorisine göre sebep olmak, faile isnat edilebilir olmak demek değildir; netice üçüncü kişinin veya rastlantının eseriyse isnat edilemez.\n- ⚠️ Mağdurdaki önceden var olan hastalık illiyeti kendiliğinden kesmez; şüphe bilirkişiyle giderilir, giderilemezse sanık lehine değerlendirilir.\n- 📌 Kusurlar birleşmişse illiyet kesilmez; herkes kendi kusurundan sorumludur (TCK m. 22/5).\n- 📌 Ağır netice için yalnız nedensellik yetmez, en az taksir aranır (TCK m. 23).\n- 📌 TCK m. 86/1 güncel ceza 1 yıl 6 aydan 3 yıla; TCK m. 87/4 cezaları 10-14 ve 14-18 yıl (7550 sayılı Kanun).",
+  "doctrine_md": "### Suç teorisinin sistematiği\nBir görüş suçu maddi unsur, manevi unsur, hukuka aykırılık ve kusurluluk diye dört başlıkta inceler. Diğer görüş üç aşamalı yapıyı (tipiklik, hukuka aykırılık, kusurluluk) benimser ve kastı ya da taksiri tipikliğin manevi parçası sayar. TCK'nın hangi sistemi benimsediği tartışmalıdır. Yargıtay, TCK'nın hazırlanmasında esas alınan suç teorisinde nedenselliğin maddi unsur içinde yer aldığını ifade eder.\n\n### Nedensellik teorileri\nŞartların eşitliği teorisi her şartı sebep sayar ve sorumluluğu fazla genişletir. Uygun nedensellik, hayat tecrübesine göre neticeye elverişli hareketi arar. Objektif isnadiyet, hukuken onaylanmayan bir riskin yaratılmasını ve bu riskin neticeye yansımasını arar. Objektif isnadiyetin bir nedensellik teorisi değil, normatif bir değerlendirme teorisi olduğu da ileri sürülür. Yargıtay önce şart teorisini kurar, sonra objektif isnata bakar.\n\n### İhmal suretiyle icranın TCK m. 83 ve TCK m. 88 dışındaki suçlara uygulanması\nTCK genel kısımda ihmal suretiyle icrayı düzenlemez; yalnız TCK m. 83 ve TCK m. 88 vardır. Bir görüşe göre kanunilik ve kıyas yasağı (TCK m. 2) nedeniyle başka neticeli suçlar ihmal suretiyle işlenemez. Karşı görüşe göre neticeli serbest hareketli suçlarda garantörün ihmali icraya eşdeğer olabilir. Bu soru tartışmalıdır.\n\n### İhmal suretiyle icra suçuna teşebbüs\nBir görüş, gerçek olmayan ihmali suçlarda teşebbüsü mümkün görür: garantör kastla hareketsiz kalır, netice üçüncü kişinin müdahalesiyle gerçekleşmez. Karşı görüş, failin nedensellik sürecine hâkim olmadığını ve neticenin gerçekleşmediği hâlde TCK m. 83'e teşebbüsten değil, ihmalin oluşturduğu diğer suçlardan sorumluluk gerektiğini savunur. Yargıtay Ceza Genel Kurulu çoğunluğu teşebbüsü ilke olarak mümkün görmekle birlikte garantörlüğün ve kastın kesin ispatını arar (TCK m. 35).\n\n### Garantörlük kaynaklarının kapsamı\nTCK m. 83/2 kanun, sözleşme ve önceki tehlikeli davranışı sayar. Öğretide \"sıkı hayat birliği\", \"tehlike topluluğu\" gibi ek kaynakların kabul edilip edilemeyeceği tartışmalıdır; kanun metni bunları saymaz.\n\n### Tüzel kişilerin ceza sorumluluğu\nBir görüş, şahsilik ve kusur ilkesi nedeniyle tüzel kişiye ceza verilemeyeceğini savunur. Diğer görüş, şirket suçlarıyla mücadele için gerçek ceza sorumluluğunun kabulünü önerir (kanun koyma bakımından). Yürürlükteki hukukta durum açıktır: ceza yok, kanunda öngörülen güvenlik tedbiri var (TCK m. 20/2).",
+  "glossary": [
+   {
+    "term": "Hareket",
+    "definition": "Suçun maddi unsurunun ilk parçası; failin dış dünyaya yönelik icrai ya da ihmali davranışı."
+   },
+   {
+    "term": "İcrai hareket",
+    "definition": "Failin bir şey yapması; kanundaki fiilin olumlu davranışla gerçekleştirilmesi."
+   },
+   {
+    "term": "Gerçek (saf) ihmali suç",
+    "definition": "Kanunun doğrudan yapmamayı suç saydığı, herkesin fail olabildiği suç (örnek TCK m. 98)."
+   },
+   {
+    "term": "İhmal suretiyle icra",
+    "definition": "Neticeli bir suçun, neticeyi önleme yükümlüsünün (garantörün) neticeyi engellememesi yoluyla işlenmesi; gerçek olmayan ihmali suç (TCK m. 83, TCK m. 88)."
+   },
+   {
+    "term": "Garantör",
+    "definition": "Kanundan veya sözleşmeden doğan yükümlülüğü ya da önceki tehlikeli davranışı nedeniyle neticeyi önlemekle yükümlü kişi."
+   },
+   {
+    "term": "Netice",
+    "definition": "Hareketin dış dünyada meydana getirdiği, kanuni tanımda yer alan değişiklik; zarar veya tehlike neticesi olabilir."
+   },
+   {
+    "term": "Sırf hareket suçu",
+    "definition": "Kanuni tanımında netice aranmayan, hareketle tamamlanan suç; nedensellik araştırılmaz."
+   },
+   {
+    "term": "Nedensellik (illiyet) bağı",
+    "definition": "Hareket ile netice arasındaki sebep-sonuç ilişkisi; neticeli suçlarda maddi unsurun parçasıdır."
+   },
+   {
+    "term": "Şart (eşdeğerlik) teorisi",
+    "definition": "Hareket düşünülmediğinde netice de ortadan kalkıyorsa hareketin neticenin sebebi sayıldığı teori."
+   },
+   {
+    "term": "Objektif isnadiyet",
+    "definition": "Nedensellik kurulduktan sonra, neticenin faile hukuken yüklenip yüklenemeyeceğini değerlendiren ölçüt; üçüncü kişinin müdahalesi ve rastlantı isnadı engeller."
+   },
+   {
+    "term": "Ceza sorumluluğunun şahsiliği",
+    "definition": "Kimsenin başkasının fiilinden dolayı sorumlu tutulamayacağını söyleyen ilke (AY m. 38/7, TCK m. 20/1)."
+   }
+  ]
+ },
+ "articles": [
+  {
+   "law_name": "TÜRKİYE CUMHURİYETİ ANAYASASI",
+   "law_no": "2709",
+   "article_no": "38",
+   "official_text": "C. Suç ve cezalara ilişkin esaslar\nMadde 38 – Kimse, işlendiği zaman yürürlükte bulunan kanunun suç saymadığı bir fiilden dolayı cezalandırılamaz; kimseye suçu işlediği zaman kanunda o suç için konulmuş olan cezadan daha ağır bir ceza verilemez.\nSuç ve ceza zamanaşımı ile ceza mahkumiyetinin sonuçları konusunda da yukarıdaki fıkra uygulanır.\nCeza ve ceza yerine geçen güvenlik tedbirleri ancak kanunla konulur.\nSuçluluğu hükmen sabit oluncaya kadar, kimse suçlu sayılamaz.\nHiç kimse kendisini ve kanunda gösterilen yakınlarını suçlayan bir beyanda bulunmaya veya bu yolda delil göstermeye zorlanamaz.\n(Ek fıkra: 3/10/2001-4709/15 md.) Kanuna aykırı olarak elde edilmiş bulgular, delil olarak kabul edilemez.\nCeza sorumluluğu şahsidir.\n(Ek fıkra: 3/10/2001-4709/15 md.) Hiç kimse, yalnızca sözleşmeden doğan bir yükümlülüğü yerine getirememesinden dolayı özgürlüğünden alıkonulamaz.\n(Ek fıkra: 3/10/2001-4709/15 md; Mülga fıkra: 7/5/2004-5170/5 md.)\n(Değişik onuncu fıkra: 7/5/2004-5170/5 md.) Ölüm cezası ve genel müsadere cezası verilemez.\nİdare, kişi hürriyetinin kısıtlanması sonucunu doğuran bir müeyyide uygulayamaz. Silahlı Kuvvetlerin iç düzeni bakımından bu hükme kanunla istisnalar getirilebilir.\n(Değişik son fıkra: 7/5/2004-5170/5 md.) Uluslararası Ceza Divanına taraf olmanın gerektirdiği yükümlülükler hariç olmak üzere vatandaş, suç sebebiyle yabancı bir ülkeye verilemez.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2709&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "2",
+   "official_text": "Suçta ve cezada kanunîlik ilkesi\nMadde 2- (1) Kanunun açıkça suç saymadığı bir fiil için kimseye ceza verilemez ve güvenlik tedbiri uygulanamaz. Kanunda yazılı cezalardan ve güvenlik tedbirlerinden başka bir ceza ve güvenlik tedbirine hükmolunamaz.\n(2) İdarenin düzenleyici işlemleriyle suç ve ceza konulamaz.\n(3) Kanunların suç ve ceza içeren hükümlerinin uygulanmasında kıyas yapılamaz. Suç ve ceza içeren hükümler, kıyasa yol açacak biçimde geniş yorumlanamaz.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "20",
+   "official_text": "Ceza sorumluluğunun şahsiliği\nMadde 20- (1) Ceza sorumluluğu şahsidir. Kimse başkasının fiilinden dolayı sorumlu tutulamaz.\n(2) Tüzel kişiler hakkında ceza yaptırımı uygulanamaz. Ancak, suç dolayısıyla kanunda öngörülen güvenlik tedbiri niteliğindeki yaptırımlar saklıdır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "22",
+   "official_text": "Taksir\nMadde 22- (1) Taksirle işlenen fiiller, kanunun açıkça belirttiği hallerde cezalandırılır.\n(2) Taksir, dikkat ve özen yükümlülüğüne aykırılık dolayısıyla, bir davranışın suçun kanuni tanımında belirtilen neticesi öngörülmeyerek gerçekleştirilmesidir.\n(3) Kişinin öngördüğü neticeyi istememesine karşın, neticenin meydana gelmesi halinde bilinçli taksir vardır; bu halde taksirli suça ilişkin ceza üçte birden yarısına kadar artırılır.\n(4) Taksirle işlenen suçtan dolayı verilecek olan ceza failin kusuruna göre belirlenir.\n(5) Birden fazla kişinin taksirle işlediği suçlarda, herkes kendi kusurundan dolayı sorumlu olur. Her failin cezası kusuruna göre ayrı ayrı belirlenir.\n(6) Taksirli hareket sonucu neden olunan netice, münhasıran failin kişisel ve ailevi durumu bakımından, artık bir cezanın hükmedilmesini gereksiz kılacak derecede mağdur olmasına yol açmışsa ceza verilmez; bilinçli taksir halinde verilecek ceza yarıdan altıda bire kadar indirilebilir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "23",
+   "official_text": "Netice sebebiyle ağırlaşmış suç\nMadde 23- (1) Bir fiilin, kastedilenden daha ağır veya başka bir neticenin oluşumuna sebebiyet vermesi halinde, kişinin bundan dolayı sorumlu tutulabilmesi için bu netice bakımından en azından taksirle hareket etmesi gerekir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "35",
+   "official_text": "Suça teşebbüs\nMadde 35- (1) Kişi, işlemeyi kastettiği bir suçu elverişli hareketlerle doğrudan doğruya icraya başlayıp da elinde olmayan nedenlerle tamamlayamaz ise teşebbüsten dolayı sorumlu tutulur.\n(2) Suça teşebbüs halinde fail, meydana gelen zarar veya tehlikenin ağırlığına göre, ağırlaştırılmış müebbet hapis cezası yerine ondört yıldan yirmibir yıla kadar, müebbet hapis cezası yerine on yıldan onsekiz yıla kadar hapis cezası ile cezalandırılır. Diğer hallerde verilecek cezanın dörtte birinden dörtte üçüne kadarı indirilir.[6]\n[6] 4/6/2025 tarihli ve 7550 sayılı Kanunun 8 inci maddesiyle bu fıkrada yer alan “onüç yıldan yirmi yıla” ibaresi “ondört yıldan yirmibir yıla” ve “dokuz yıldan onbeş yıla” ibaresi “on yıldan onsekiz yıla” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "60",
+   "official_text": "Tüzel kişiler hakkında güvenlik tedbirleri\nMadde 60- (1) Bir kamu kurumunun verdiği izne dayalı olarak faaliyette bulunan özel hukuk tüzel kişisinin organ veya temsilcilerinin iştirakiyle ve bu iznin verdiği yetkinin kötüye kullanılması suretiyle tüzel kişi yararına işlenen kasıtlı suçlardan mahkûmiyet halinde, iznin iptaline karar verilir.\n(2) Müsadere hükümleri, yararına işlenen suçlarda özel hukuk tüzel kişileri hakkında da uygulanır.\n(3) Yukarıdaki fıkralar hükümlerinin uygulanmasının işlenen fiile nazaran daha ağır sonuçlar ortaya çıkarabileceği durumlarda, hakim bu tedbirlere hükmetmeyebilir.\n(4) Bu madde hükümleri kanunun ayrıca belirttiği hallerde uygulanır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "81",
+   "official_text": "Kasten öldürme\nMadde 81- (1) Bir insanı kasten öldüren kişi, müebbet hapis cezası ile cezalandırılır.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "83",
+   "official_text": "Kasten öldürmenin ihmali davranışla işlenmesi\nMadde 83- (1) Kişinin yükümlü olduğu belli bir icrai davranışı gerçekleştirmemesi dolayısıyla meydana gelen ölüm neticesinden sorumlu tutulabilmesi için, bu neticenin oluşumuna sebebiyet veren yükümlülük ihmalinin icrai davranışa eşdeğer olması gerekir.\n(2) İhmali ve icrai davranışın eşdeğer kabul edilebilmesi için, kişinin;\na) Belli bir icrai davranışta bulunmak hususunda kanuni düzenlemelerden veya sözleşmeden kaynaklanan bir yükümlülüğünün bulunması,\nb) Önceden gerçekleştirdiği davranışın başkalarının hayatı ile ilgili olarak tehlikeli bir durum oluşturması,\ngerekir.\n(3) Belli bir yükümlülüğün ihmali ile ölüme neden olan kişi hakkında, temel ceza olarak, ağırlaştırılmış müebbet hapis cezası yerine yirmi yıldan yirmibeş yıla kadar, müebbet hapis cezası yerine onbeş yıldan yirmi yıla kadar, diğer hallerde ise on yıldan onbeş yıla kadar hapis cezasına hükmolunabileceği gibi, cezada indirim de yapılmayabilir.\nİntihara yönlendirme[36]\n[36] 29/6/2005 tarihli ve 5377 sayılı Kanunun 10 uncu maddesiyle bu maddenin başlığı “İntihar” iken, \"İntihara yönlendirme\" şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "85",
+   "official_text": "Taksirle öldürme\nMadde 85- (1) Taksirle bir insanın ölümüne neden olan kişi, iki yıldan altı yıla kadar hapis cezası ile cezalandırılır.\n(2) Fiil, birden fazla insanın ölümüne ya da bir veya birden fazla kişinin ölümü ile birlikte bir veya birden fazla kişinin yaralanmasına neden olmuş ise, kişi iki yıldan onbeş yıla kadar hapis cezası ile cezalandırılır.[37]\n[37] 31/3/2005 tarihli ve 5328 sayılı Kanunun 3 üncü maddesiyle bu maddede yer alan “üç yıldan” ibareleri, “iki yıldan” şeklinde değiştirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "86",
+   "official_text": "Madde 86- (1) Kasten başkasının vücuduna acı veren veya sağlığının ya da algılama yeteneğinin bozulmasına neden olan kişi, bir yıl altı aydan üç yıla kadar hapis cezası ile cezalandırılır.\n(2) (Ek fıkra: 31/3/2005 – 5328/4 md.) Kasten yaralama fiilinin kişi üzerindeki etkisinin basit bir tıbbî müdahaleyle giderilebilecek ölçüde hafif olması hâlinde, mağdurun şikâyeti üzerine, altı aydan bir yıl altı aya kadar hapis veya adlî para cezasına hükmolunur. (Ek cümle:12/5/2022-7406/3 md.) Suçun kadına karşı işlenmesi hâlinde cezanın alt sınırı dokuz aydan az olamaz.\n(3) Kasten yaralama suçunun;\na) Üstsoya, altsoya, eşe, boşandığı eşe veya kardeşe karşı,[40]\nb) Beden veya ruh bakımından kendisini savunamayacak durumda bulunan kişiye karşı,\nc) Kişinin yerine getirdiği kamu görevi nedeniyle,\nd) Kamu görevlisinin sahip bulunduğu nüfuz kötüye kullanılmak suretiyle,\ne) Silahla,\nf) (Ek:14/4/2020-7242/11 md.) Canavarca hisle,\nİşlenmesi halinde, şikâyet aranmaksızın, verilecek ceza yarı oranında, (f) bendi bakımından ise bir kat artırılır.[41]\n[40] 8/7/2021 tarihli ve 7331 sayılı Kanunun 7 nci maddesiyle, bu bentte yer alan “eşe” ibaresi “eşe, boşandığı eşe” şeklinde değiştirilmiştir.\n[41] 14/4/2020 tarihli ve 7242 sayılı Kanunun 11 inci maddesiyle, bu fıkraya “oranında” ibaresinden sonra gelmek üzere “, (f) bendi bakımından ise bir kat” ibaresi eklenmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "87",
+   "official_text": "Neticesi sebebiyle ağırlaşmış yaralama[42]\nMadde 87- (1) Kasten yaralama fiili, mağdurun;\na) Duyularından veya organlarından birinin işlevinin sürekli zayıflamasına,\nb) Konuşmasında sürekli zorluğa,\nc) Yüzünde sabit ize,\nd) Yaşamını tehlikeye sokan bir duruma,\ne) Gebe bir kadına karşı işlenip de çocuğunun vaktinden önce doğmasına,\nNeden olmuşsa, yukarıdaki maddeye göre belirlenen ceza, bir kat artırılır. Ancak, verilecek ceza, birinci fıkraya giren hallerde dört yıldan, üçüncü fıkraya giren hallerde altı yıldan az olamaz.[43]\n(2) Kasten yaralama fiili, mağdurun;\na) İyileşmesi olanağı bulunmayan bir hastalığa veya bitkisel hayata girmesine,\nb) Duyularından veya organlarından birinin işlevinin yitirilmesine,\nc) Konuşma ya da çocuk yapma yeteneklerinin kaybolmasına,\nd) Yüzünün sürekli değişikliğine,\ne) Gebe bir kadına karşı işlenip de çocuğunun düşmesine,\nNeden olmuşsa, yukarıdaki maddeye göre belirlenen ceza, iki kat artırılır. Ancak, verilecek ceza, birinci fıkraya giren hallerde altı yıldan, üçüncü fıkraya giren hallerde dokuz yıldan az olamaz.43\n(3) (Değişik: 6/12/2006 – 5560/4 md.) Kasten yaralamanın vücutta kemik kırılmasına veya çıkığına neden olması halinde, yukarıdaki maddeye göre belirlenen ceza, kırık veya çıkığın hayat fonksiyonlarındaki etkisine göre, yarısına kadar artırılır.\n(4) Kasten yaralama sonucunda ölüm meydana gelmişse, yukarıdaki maddenin birinci fıkrasına giren hallerde on yıldan ondört yıla kadar, üçüncü fıkrasına giren hallerde ise ondört yıldan onsekiz yıla kadar hapis cezasına hükmolunur.[44][45]\nKasten yaralamanın ihmali davranışla işlenmesi[46]\n[42] 4/6/2025 tarihli ve 7550 sayılı Kanunun 10 uncu maddesiyle bu maddenin birinci fıkrasında yer alan “üç yıldan,” ibaresi “dört yıldan,” ve “beş yıldan” ibaresi “altı yıldan” şeklinde, ikinci fıkrasında yer alan “beş yıldan,” ibaresi “altı yıldan,” ve “sekiz yıldan” ibaresi “dokuz yıldan” şeklinde ve dördüncü fıkrasında yer alan “sekiz yıldan oniki yıla” ibaresi “on yıldan ondört yıla” ve “oniki yıldan” ibaresi “ondört yıldan” şeklinde değiştirilmiştir.\n[43] 29/6/2005 tarihli ve 5377 sayılı Kanunun 11 inci maddesiyle bu fıkralarda geçen “ikinci” ibaresi, “üçüncü” olarak değiştirilmiştir.\n[44] 31/3/2005 tarihli ve 5328 sayılı Kanunun 5 inci maddesiyle bu fıkrada yer alan “ikinci” ibaresi, “üçüncü” şeklinde değiştirilmiştir.\n[45] 14/4/2020 tarihli ve 7242 sayılı Kanunun 12 inci maddesiyle, bu fıkrada yer alan “onaltı” ibaresi “onsekiz” şeklinde değiştirilmiştir.\n[46] 31/3/2005 tarihli ve 5328 sayılı Kanunun 6 ncı maddesiyle bu madde başlığı “Daha az cezayı gerektiren haller” iken, metne işlendiği şekilde değiştirilmiş, söz konusu maddenin birinci fıkrası madde metninden çıkarılmış olup, ikinci fıkrası birinci fıkra olarak teselsül ettirilmiştir.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "88",
+   "official_text": "Madde 88-(1) Kasten yaralamanın ihmali davranışla işlenmesi halinde, verilecek ceza üçte ikisine kadar indirilebilir. Bu hükmün uygulanmasında kasten öldürmenin ihmali davranışla işlenmesine ilişkin koşullar göz önünde bulundurulur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "97",
+   "official_text": "Terk\nMadde 97- (1) Yaşı veya hastalığı dolayısıyla kendini idare edemeyecek durumda olan ve bu nedenle koruma ve gözetim yükümlülüğü altında bulunan bir kimseyi kendi haline terk eden kişi, üç aydan iki yıla kadar hapis cezası ile cezalandırılır.\n(2) Terk dolayısıyla mağdur bir hastalığa yakalanmış, yaralanmış veya ölmüşse, neticesi sebebiyle ağırlaşmış suç hükümlerine göre cezaya hükmolunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  },
+  {
+   "law_name": "TÜRK CEZA KANUNU",
+   "law_no": "5237",
+   "article_no": "98",
+   "official_text": "Yardım veya bildirim yükümlülüğünün yerine getirilmemesi\nMadde 98- (1) Yaşı, hastalığı veya yaralanması dolayısıyla ya da başka herhangi bir nedenle kendini idare edemeyecek durumda olan kimseye hal ve koşulların elverdiği ölçüde yardım etmeyen ya da durumu derhal ilgili makamlara bildirmeyen kişi, bir yıla kadar hapis veya adlî para cezası ile cezalandırılır.\n(2) Yardım veya bildirim yükümlülüğünün yerine getirilmemesi dolayısıyla kişinin ölmesi durumunda, bir yıldan üç yıla kadar hapis cezasına hükmolunur.",
+   "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5",
+   "verified": true
+  }
+ ],
+ "cases": [
+  {
+   "court": "Yargıtay",
+   "chamber": "Ceza Genel Kurulu",
+   "esas_no": "2020/382",
+   "karar_no": "2022/345",
+   "decision_date": "11.05.2022",
+   "summary_md": "Sanık, televizyon ilanıyla tanıştığı kadını ve 6 yaşındaki oğlunu aracına aldı; kadını bayılttı ve ikisini kış mevsiminde şehir merkezine 7-8 km uzaklıktaki ıssız bir ormanlık alana bırakıp gitti. Anne ölü, çocuk donmak üzere bulundu; annenin ölümünün bırakılmadan önce mi sonra mı gerçekleştiği belirlenemedi. İlk derece mahkemesi çocuğa yönelik eylemi ihmali davranışla kasten öldürmeye teşebbüs saymış, Özel Daire ise ihmali davranışla kasten yaralama olarak nitelendirip bozmuştu. Ceza Genel Kurulu, oy çokluğuyla itirazı reddetti. Yargıtay'ın kabulüne göre sanıkla çocuk arasında kanundan veya sözleşmeden doğan bir garantörlük yoktu; önceki tehlikeli davranıştan garantörlük kurulabilmesi için annenin ölümünün terkten önce gerçekleştiğinin tereddütsüz ispatı gerekirdi ve ölüm kastı da ispatlanamadı. Genel Kurul, gerçek olmayan ihmali suçlarda teşebbüsü ilke olarak mümkün görse de garantörlüğün ve kastın kesin ispatını arar; çocuğu soğuk kış günü ıssız ormanda bırakmak ölüm tehlikesi yarattığı için eylem, ihmal suretiyle işlenen neticesi sebebiyle ağırlaşmış yaralama olarak değerlendirildi. Karara bir üye karşı oy yazmıştır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/817211800",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Ceza Genel Kurulu",
+   "esas_no": "2018/317",
+   "karar_no": "2023/701",
+   "decision_date": "26.12.2023",
+   "summary_md": "Sanık tabancasını aracının şoför koltuğunun altında unutarak aracı oto yıkamaya bıraktı. İşyerinde çalışan 19 yaşındaki işçi koltuğu çekince tabancayı gördü, alıp koltuğun üzerine koymak isterken tetiğe dokundu; çıkan mermi temizlik yapan iş arkadaşını öldürdü. Asliye ceza mahkemesi sanığı TCK m. 85/1 uyarınca mahkûm etmişti; Özel Daire illiyet bağı bulunmadığı gerekçesiyle bozdu, yerel mahkeme direndi. Ceza Genel Kurulu, oy çokluğuyla direnme hükmünü bozdu. Önce şart teorisine göre nedensellik kurulmalı, sonra neticenin faile objektif olarak isnat edilip edilemeyeceği araştırılmalıdır; netice üçüncü kişinin veya rastlantının eseriyse isnat edilemez. Silah koltuğun altındayken değil, işçi tarafından çıkarılıp tetiğe dokunulduktan sonra ateş aldığından, sanığın silahı unutmaktan ibaret eylemiyle ölüm arasında uygun illiyet bağı yoktur. Bilirkişinin sanığa \"tali kusur\" yüklemesi tek başına mahkûmiyete yetmez.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/1027804900",
+   "verified": true
+  },
+  {
+   "court": "Yargıtay",
+   "chamber": "Ceza Genel Kurulu",
+   "esas_no": "2013/704",
+   "karar_no": "2015/121",
+   "decision_date": "21.04.2015",
+   "summary_md": "Sanık, kavşakta geçiş üstünlüğüne ve dur levhasına uymadığı için tam kusurlu bulundu; kazada dört kişi yaralandı. Mağdur kadın bir gün hastanede kaldı, kazadan iki gün sonra evinde öldü; otopsi yapılmadan gömüldü, mezar on yedi gün sonra açıldı ve kesin ölüm nedeni tespit edilemedi. Adli Tıp Kurumu 1. İhtisas Kurulu, mağdurdaki kronik hastalıkların kazadaki travmayla akut hâle geldiğini belirterek illiyet bağı bulunduğunu bildirdi. Ağır ceza mahkemesi TCK m. 85/2 uyarınca mahkûm etti; Özel Daire yeniden rapor alınması gerektiği gerekçesiyle bozdu, yerel mahkeme direndi. Ceza Genel Kurulu oy birliğiyle direnme hükmünü bozdu: illiyet mahkûmiyet için her türlü şüpheden uzak tespit edilmeli, sanık lehine tereddütlerin giderilmesi için Adli Tıp Genel Kurulundan rapor alınmalıdır. Karar illiyetin yokluğuna hükmetmemiştir; eksik araştırma bozmasıdır.",
+   "source_url": "https://mevzuat.adalet.gov.tr/ictihat/110412300",
+   "verified": true
+  }
+ ],
+ "mcq": [
+  {
+   "stem_md": "Aşağıdakilerden hangisi gerçek (saf) ihmali suça örnektir?",
+   "options": [
+    "Yüzme bilmeyen arkadaşını derin suya iten kişinin boğulmasını izlemesi",
+    "Yolda yaralı bir kişiyi gören, hal ve koşulların elverdiği hâlde ona yardım etmeyen ve durumu bildirmeyen kimsenin davranışı",
+    "Hemşirenin sözleşmesinden doğan görevi gereği hastaya ilaç vermeyerek ölümüne yol açması",
+    "Annenin bebeğini günlerce beslemeyerek ölümüne yol açması"
+   ],
+   "correct_option": 1,
+   "explanation_md": "Kanun yardım etmemeyi ve bildirmemeyi doğrudan suç sayar; herkes fail olabilir ve garantörlük aranmaz (TCK m. 98/1). Diğer örneklerde fail garantördür ve ölüm neticesinden sorumluluk ihmal suretiyle icra kapsamında TCK m. 83 üzerinden değerlendirilir."
+  },
+  {
+   "stem_md": "TCK m. 83/2'ye göre ihmalin icrai davranışa eşdeğer kabul edilebilmesi için aşağıdakilerden hangisi gerekli kaynaklardan biridir?",
+   "options": [
+    "Failin yalnızca yoldan geçen biri olması ve olaya şahit olması",
+    "Failin mağdurla akraba olması",
+    "Önceden gerçekleştirilen davranışın başkalarının hayatı bakımından tehlikeli bir durum oluşturması",
+    "Failin neticeyi önlemeye gücünün yetmesi"
+   ],
+   "correct_option": 2,
+   "explanation_md": "TCK m. 83/2 iki kaynak sayar: kanuni düzenleme veya sözleşmeden doğan yükümlülük ve önceki tehlikeli davranış. Akrabalık tek başına kaynak değildir; yoldan geçen kişi garantör değildir ve bu hâlde TCK m. 98 gündeme gelir."
+  },
+  {
+   "stem_md": "TCK m. 83/3'teki indirim hakkında aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "İndirim zorunludur ve her olayda yapılır.",
+    "Yalnız ağırlaştırılmış müebbet hâlinde zorunludur.",
+    "Yalnız sözleşmeden doğan yükümlülüklerde indirim yapılır.",
+    "İndirim takdiridir; cezada indirim de yapılmayabilir."
+   ],
+   "correct_option": 3,
+   "explanation_md": "TCK m. 83/3 \"hükmolunabileceği gibi, cezada indirim de yapılmayabilir\" der. TCK m. 88'deki indirim de \"indirilebilir\" biçiminde takdiridir."
+  },
+  {
+   "stem_md": "Aşağıdaki olaylardan hangisinde TCK m. 83/2-b anlamında önceki tehlikeli davranıştan doğan bir garantörlük vardır?",
+   "options": [
+    "Mehmet, deniz kıyısında bir yabancının boğulduğunu görür ve izler.",
+    "Mehmet, yüzme bilmediğini bildiği arkadaşı Can'ı şakayla derin suya iter ve boğulmasını izler.",
+    "Mehmet, komşusunun yaralandığını duyar ama gitmez.",
+    "Mehmet, hasta bir yakınını görmeye gitmez."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Mehmet'in önceki davranışı Can'ın hayatı bakımından tehlikeli bir durum yaratmıştır (TCK m. 83/2-b). Diğer örneklerde önceki tehlikeli davranış ya da kanun veya sözleşmeden doğan bir yükümlülük yoktur; bu hâllerde ancak TCK m. 98 gündeme gelebilir."
+  },
+  {
+   "stem_md": "Bakıcı Zeynep, bakımını sözleşmeyle üstlendiği yaşlı hastanın ilacını ölmesini isteyerek vermez; hasta ölür ve ölümün ilaç verilmemesine bağlı olduğu rapor edilir. Zeynep'in durumu hakkında hangisi doğrudur?",
+   "options": [
+    "Sözleşmeden doğan yükümlülük nedeniyle ihmal icraya eşdeğerdir; TCK m. 83 uygulanır.",
+    "TCK m. 88 uygulanır, çünkü bakıcılık yaralama sayılır.",
+    "İhmal suretiyle icra yoktur; hiçbir hükümle sorumlu tutulamaz.",
+    "Garantör olmadığından yalnız TCK m. 98/2 uygulanır."
+   ],
+   "correct_option": 0,
+   "explanation_md": "Sözleşmeden doğan yükümlülük TCK m. 83/2-a'daki garantörlük kaynağıdır. Ölüm kastı ve ölüm neticesi bulunduğundan TCK m. 83 uygulanır; TCK m. 98/2 yalnız garantör olmayan genel yardım yükümlüsü içindir."
+  },
+  {
+   "stem_md": "Ali, Veli'yi hafifçe yaralar. Veli ambulansla hastaneye götürülürken ambulansa yıldırım düşer ve Veli ölür. Ali'nin sorumluluğu bakımından hangisi doğrudur?",
+   "options": [
+    "Şart teorisi yeterli olduğundan Ali ölümden sorumludur.",
+    "Ölüm rastlantının eseri olduğundan faile isnat edilemez; Ali yalnız yaralamadan sorumludur.",
+    "Ali kasten öldürmeden sorumludur, çünkü yaralama ölümün şartıdır.",
+    "Ali TCK m. 83'e göre ihmal suretiyle öldürmeden sorumludur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Yaralama şart teorisine göre ölümün şartı olsa da netice rastlantının eseridir ve objektif isnat bakımından faile yüklenemez. Şart olmak sorumlu olmak değildir; TCK m. 83 ihmal suretiyle öldürme hükmüdür ve olayda uygulanmaz."
+  },
+  {
+   "stem_md": "Yargıtay Ceza Genel Kurulu'nun benimsediği nedensellik değerlendirme yöntemi aşağıdakilerden hangisidir?",
+   "options": [
+    "Yalnız şart teorisi; şart olan her hareket sorumluluk doğurur.",
+    "Önce şart teorisine göre nedensellik kurulur, sonra neticenin faile objektif olarak isnat edilip edilemeyeceği araştırılır.",
+    "Nedensellik yalnız mağdurun beyanıyla belirlenir.",
+    "Önce kusur araştırılır; kusur varsa nedensellik aranmaz."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Ceza Genel Kurulu önce şart teorisiyle nedenselliği kurar, sonra objektif isnadiyeti değerlendirir. Yalnız şart teorisi sorumluluğu aşırı genişletir."
+  },
+  {
+   "stem_md": "Hangi suç türünde nedensellik bağı araştırılmaz?",
+   "options": [
+    "Kanuni tanımında netice bulunmayan sırf hareket suçları",
+    "Kasten öldürme",
+    "Kasten yaralama sonucu ölüm",
+    "Taksirle öldürme"
+   ],
+   "correct_option": 0,
+   "explanation_md": "Nedensellik yalnız kanuni tanımında netice bulunan suçlarda aranır. Sırf hareket suçları hareketin yapılmasıyla tamamlanır. Diğer suçlar neticeli suçlardır (TCK m. 81, TCK m. 85, TCK m. 87/4)."
+  },
+  {
+   "stem_md": "Hızlı giden sürücü Ahmet, kırmızıda geçmeye çalışan yaya Selin'e çarpar; Selin ölür. Yayanın da kusuru bulunmaktadır. Ahmet'in sorumluluğu bakımından hangisi doğrudur?",
+   "options": [
+    "Selin'in kusuru Ahmet'in sorumluluğunu tamamen ortadan kaldırır.",
+    "Kusurlar birleşmişse illiyet kesilmez; herkes kendi kusurundan sorumlu olur.",
+    "Taksirli suçta kusur oranı hiç araştırılmaz.",
+    "Ahmet'in cezası Selin'in kusuru oranında zorunlu olarak yarıya iner."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Mağdurun hareketi neticenin tek sebebi değilse illiyet bağı kesilmez. TCK m. 22/5'e göre herkes kendi kusurundan sorumludur ve ceza kusura göre belirlenir."
+  },
+  {
+   "stem_md": "Kalp ve şeker hastası bir mağdur trafik kazasından iki gün sonra ölür; kesin ölüm nedeni otopside belirlenemez. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Mağdur hasta olduğu için illiyet bağı kendiliğinden kesilir.",
+    "İlliyet şüpheden uzak tespit edilmeden mahkûmiyet verilemez; gerekirse yetkili bilirkişi kurulundan rapor alınır.",
+    "Şüphe sanığın aleyhine yorumlanır.",
+    "Hâkim bilirkişi raporuna gerek duymadan illiyeti varsayabilir."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Önceden var olan hastalık illiyeti kendiliğinden kesmez, ancak illiyet her türlü şüpheden uzak tespit edilmelidir; teknik bilgi gerektiriyorsa bilirkişi kullanılır ve şüphe sanık lehine değerlendirilir (AY m. 38/4)."
+  },
+  {
+   "stem_md": "Zeynep, Murat'a tokat atar; Murat düşüp başını çarparak ölür. Zeynep'in ölüm neticesinden sorumlu tutulabilmesi için aşağıdakilerden hangisi gerekir?",
+   "options": [
+    "Ölüm bakımından en azından taksirin bulunması",
+    "Zeynep'in ölümü kastetmiş olması zorunludur",
+    "Hiçbir şey; kasten yaralama yapan her kişi ölümden de sorumludur",
+    "Yalnızca tokat ile ölüm arasında nedensellik bağının bulunması"
+   ],
+   "correct_option": 0,
+   "explanation_md": "TCK m. 23'e göre ağır netice bakımından en azından taksir aranır; yalnız nedensellik yetmez. TCK m. 87/4 ölüm bakımından uygun nedensellik ile en az taksiri birlikte arar. Ölüm kastı zorunlu değildir; aksi hâlde kasten öldürme söz konusu olurdu."
+  },
+  {
+   "stem_md": "X Ltd. Şti.'nin müdürü Ayşe şirket yararına kasıtlı bir suç işlemiştir. Şirketin ortağı Murat olaydan habersizdir ve hiçbir katkısı yoktur. Aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Şirkete ve Murat'a mutlaka müsadere uygulanır.",
+    "Şirkete ceza verilemez; kanunda öngörülen güvenlik tedbirleri saklıdır, Murat başkasının fiilinden sorumlu tutulamaz.",
+    "Şirket ceza sorumluluğu taşır, Ayşe taşımaz.",
+    "Şirkete hapis cezası verilir, Murat adlî para cezasıyla sorumlu tutulur."
+   ],
+   "correct_option": 1,
+   "explanation_md": "Tüzel kişiler hakkında ceza yaptırımı uygulanamaz; güvenlik tedbirleri saklıdır (TCK m. 20/2, TCK m. 60). Ceza sorumluluğu şahsidir; Murat başkasının fiilinden sorumlu tutulamaz (AY m. 38/7, TCK m. 20/1). Ayşe kendi fiilinden gerçek kişi olarak sorumludur."
+  }
+ ],
+ "cases_q": [
+  {
+   "stem_md": "Zeynep, bir hastanede sözleşmeli hemşire olarak çalışmaktadır ve ağır diyabet hastası Ali'nin bakımı ona verilmiştir. Zeynep, Ali'nin insülin almazsa öleceğini bilmektedir. Ali'nin ölmesini isteyen Zeynep, insülin vermesi gereken günlerde bilerek insülin vermez. Birkaç gün sonra Ali ölür. Adli tıp raporu, ölümün insülin verilmemesine bağlı olduğunu açıkça belirtmektedir.\n\nZeynep'in ölüm kastıyla hareket ettiği kabul edilmektedir; olayda kasten öldürmenin nitelikli hâllerinin tartışılması beklenmemektedir.\n\n1. Zeynep'in hareketinin türünü belirleyiniz.\n2. Garantörlük kaynağı var mıdır, hangisidir?\n3. Netice ve nedensellik bakımından durumu değerlendiriniz.\n4. Zeynep hakkında hangi hüküm uygulanır, cezada indirim zorunlu mudur?",
+   "rubric": [
+    {
+     "point": "Hareketin ihmali nitelikte olduğunun ve neticeli bir suçun ihmal suretiyle icrası (gerçek olmayan ihmali suç) olduğunun belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TCK m. 83"
+    },
+    {
+     "point": "Garantörlük kaynağının sözleşmeden doğan yükümlülük olduğunun belirlenmesi",
+     "weight": 25,
+     "madde_ref": "TCK m. 83/2"
+    },
+    {
+     "point": "Ölüm neticesinin gerçekleştiğinin ve raporla ihmal ile ölüm arasında nedensellik bağının kurulduğunun belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TCK m. 83/1"
+    },
+    {
+     "point": "Ceza aralığının belirlenmesi (müebbet yerine 15-20 yıl) ve indirimin takdiri olduğunun belirtilmesi",
+     "weight": 20,
+     "madde_ref": "TCK m. 83/3"
+    },
+    {
+     "point": "Garantör olmayan genel yardım yükümlüsüne uygulanan hükmün (TCK m. 98) burada uygulanmayacağının belirtilmesi",
+     "weight": 15,
+     "madde_ref": "TCK m. 98"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, ihmali davranışla işlenen kasten öldürme olarak nitelendirilir. Zeynep insülin vermeyerek yükümlü olduğu bir icrai davranışı yerine getirmemiştir; kanundaki ölüm neticesi bir neticeli suçtur. Bu nedenle olay ihmal suretiyle icra, yani gerçek olmayan ihmali suç kapsamındadır.\n\n**Hukuki sorunlar:** (1) Hareket icrai mi, ihmali mi? (2) İhmalin icraya eşdeğer olması için garantörlük kaynağı var mı? (3) Ölüm neticesi ile ihmal arasında nedensellik bağı var mı? (4) Cezanın hangi aralıkta olduğu ve indirim yapılıp yapılmayacağı.\n\n**İlgili hükümler:** TCK m. 83/1'e göre kişinin yükümlü olduğu belli bir icrai davranışı gerçekleştirmemesi dolayısıyla meydana gelen ölümden sorumlu tutulabilmesi için ihmalin icrai davranışa eşdeğer olması gerekir. TCK m. 83/2-a, kanuni düzenlemelerden veya sözleşmeden kaynaklanan yükümlülüğü eşdeğerlik kaynağı sayar. TCK m. 83/3 ceza aralıklarını verir. Kasten öldürmenin icrai karşılığı TCK m. 81'dir. Genel yardım yükümlülüğü ise TCK m. 98'de düzenlenmiştir ve herkes için geçerlidir.\n\n**Değerlendirme:** Zeynep'in hareketi ihmalidir. Garantörlük kaynağı sözleşmedir: hemşirelik sözleşmesiyle Ali'nin bakımını üstlenmiş, insülin verme görevi doğmuştur (TCK m. 83/2-a). Ölüm neticesi gerçekleşmiştir. Adli tıp raporu ölümün insülin verilmemesine bağlı olduğunu belirttiğinden ihmal ile ölüm arasında nedensellik bağı kurulmuştur; şart teorisine göre insülin verilseydi ölüm olmayacaktı ve netice Zeynep'e objektif olarak isnat edilebilir. Zeynep'in kastı da kabul edildiğinden manevi unsur tamamdır. Zeynep garantör olduğu için TCK m. 98/2 uygulanmaz; o hüküm garantör olmayan, yalnız genel yardım yükümlüsü olan kişi içindir.\n\nCeza bakımından kasten öldürmenin cezası müebbet hapis olduğundan (TCK m. 81), TCK m. 83/3'e göre müebbet yerine onbeş yıldan yirmi yıla kadar hapis cezasına hükmolunabilir. İndirim zorunlu değildir; TCK m. 83/3 \"cezada indirim de yapılmayabilir\" der, yani takdiridir.\n\n**Sonuç:** Zeynep, TCK m. 83 uyarınca ihmali davranışla kasten öldürmeden sorumludur; temel ceza onbeş yıldan yirmi yıla kadar hapis aralığındadır ve indirim yapılması hâkimin takdirindedir."
+  },
+  {
+   "stem_md": "Mehmet, tabancasını aracının şoför koltuğunun altında unutarak aracı bir oto yıkamaya bırakır. İş yerinde çalışan Can, koltuğu geri çekince tabancayı görür; alıp koltuğun üzerine koymak isterken tetiğe dokunur. Çıkan mermi, aracın diğer kapısından temizlik yapan iş arkadaşı Emre'nin boynuna isabet eder ve Emre hastanede ölür. Bilirkişi raporunda Can asli, Mehmet tali kusurlu bulunmuştur. Her iki kişide de ölüm yönünden kast bulunmadığı kabul edilmektedir.\n\n1. Mehmet'in davranışı şart teorisine göre ölümün şartı mıdır?\n2. Yargıtay Ceza Genel Kurulu'nun bu yapıdaki bir olaydaki kabulüne göre ölüm Mehmet'e isnat edilebilir mi?\n3. Can'ın sorumluluğunu değerlendiriniz.\n4. Bilirkişinin \"tali kusur\" tespiti Mehmet'in mahkûmiyeti için yeterli midir?",
+   "rubric": [
+    {
+     "point": "Nedensellik bağının neticeli suçlarda aranacağı ve olayın taksirle öldürme (neticeli suç) olduğunun belirlenmesi",
+     "weight": 15,
+     "madde_ref": "TCK m. 85"
+    },
+    {
+     "point": "Şart teorisine göre Mehmet'in davranışının ölümün şartı olduğunun belirlenmesi",
+     "weight": 20,
+     "madde_ref": "TCK m. 85"
+    },
+    {
+     "point": "Netice üçüncü kişinin kusurlu müdahalesinin eseri olduğundan Yargıtay'ın kabulüne göre objektif isnadiyetin kurulamadığının belirtilmesi",
+     "weight": 25,
+     "madde_ref": "TCK m. 85/1"
+    },
+    {
+     "point": "Can'ın hareketiyle ölüm arasında doğrudan bağ bulunduğu ve Can'ın taksirle öldürmeden sorumlu olduğunun belirtilmesi",
+     "weight": 20,
+     "madde_ref": "TCK m. 85/1"
+    },
+    {
+     "point": "Birleşen kusurlarda herkesin kendi kusurundan sorumlu olduğu; tali kusur tespitinin tek başına mahkûmiyete yetmediğinin belirtilmesi",
+     "weight": 20,
+     "madde_ref": "TCK m. 22/5"
+    }
+   ],
+   "model_answer_md": "**Nitelendirme:** Olay, neticeli ve taksirle işlenen bir suçtur: ölüm kasıtsız gerçekleşmiştir. Kural taksirle öldürmedir (TCK m. 85). Burada asıl sorun, Mehmet'in davranışıyla ölüm arasındaki illiyet bağı ve objektif isnadiyettir.\n\n**Hukuki sorunlar:** (1) Mehmet'in davranışı şart teorisine göre ölümün şartı mı? (2) Netice Mehmet'e objektif olarak isnat edilebilir mi? (3) Can'ın sorumluluğu. (4) Kusur tespitinin etkisi.\n\n**İlgili hükümler:** TCK'da nedensellik bağına ilişkin genel hüküm yoktur. TCK m. 85/1 taksirle öldürmenin cezasını iki yıldan altı yıla kadar hapis olarak belirler. TCK m. 22/5'e göre birden fazla kişinin taksirle işlediği suçlarda herkes kendi kusurundan sorumlu olur ve her failin cezası kusuruna göre ayrı ayrı belirlenir.\n\n**Değerlendirme:** Silah orada olmasaydı Emre ölmeyecekti; bu nedenle Mehmet'in davranışı şart teorisine göre ölümün bir şartıdır. Ancak şart olmak sorumluluk doğurmaz. Yargıtay Ceza Genel Kurulu'nun bu yapıdaki bir olayda kabulüne göre (bu çözüm Genel Kurul'da oy çokluğuyla verilmiştir), önce şart teorisi uygulanır, ardından neticenin faile objektif olarak isnat edilip edilemeyeceğine bakılır; netice üçüncü kişinin veya rastlantının eseriyse isnat edilemez. Silah koltuğun altındayken değil, Can onu çıkarıp tetiğe dokunduktan sonra ateş almıştır; Mehmet'in silahı unutmaktan ibaret eylemiyle ölüm arasında uygun bir illiyet bağı kurulamaz. Bilirkişinin Mehmet'i tali kusurlu bulması tek başına mahkûmiyete yetmez.\n\nCan bakımından hareket ile ölüm arasında doğrudan bağ vardır. Kast bulunmadığından Can taksirle öldürmeden sorumludur (TCK m. 85/1); kusurların birleşmesi hâlinde de herkes kendi kusuruna göre sorumlu olur (TCK m. 22/5).\n\n**Sonuç:** Yargıtay'ın kabulüne göre Mehmet'e ölüm neticesi isnat edilemez ve taksirle öldürmeden sorumlu tutulamaz; bu çözümün oy çokluğuyla verildiği ve her olayda silahı unutanın sorumsuz olduğu anlamına gelmediği unutulmamalıdır. Can taksirle öldürmeden sorumludur (TCK m. 85/1)."
+  }
+ ],
+ "cards": [
+  {
+   "front_md": "Suç denetiminde basamak sırası nedir?",
+   "back_md": "Hareket, netice, nedensellik ve objektif isnadiyet, manevi unsur, hukuka uygunluk, kusurluluk, özel görünüş biçimleri, yaptırım."
+  },
+  {
+   "front_md": "Gerçek ihmali suç ile ihmal suretiyle icra arasındaki fark nedir?",
+   "back_md": "Gerçek ihmali suçta kanun doğrudan yapmamayı tanımlar ve herkes fail olabilir (TCK m. 98). İhmal suretiyle icrada bir netice tanımlıdır ve yalnız garantör sorumludur (TCK m. 83, TCK m. 88)."
+  },
+  {
+   "front_md": "TCK m. 83/2'ye göre eşdeğerlik kaynakları nelerdir?",
+   "back_md": "Kanuni düzenleme veya sözleşmeden doğan yükümlülük; önceki davranışın başkalarının hayatı bakımından tehlikeli durum oluşturması."
+  },
+  {
+   "front_md": "TCK m. 83/3 ceza aralıkları?",
+   "back_md": "Ağırlaştırılmış müebbet yerine 20-25 yıl, müebbet yerine 15-20 yıl, diğer hâllerde 10-15 yıl hapis; indirim yapılmayabilir (takdiri)."
+  },
+  {
+   "front_md": "TCK m. 88'de ihmali yaralamada ceza?",
+   "back_md": "Verilecek ceza üçte ikisine kadar indirilebilir; indirim takdiridir ve TCK m. 83'teki koşullar göz önünde bulundurulur."
+  },
+  {
+   "front_md": "TCK m. 98/1 ve 98/2 cezaları?",
+   "back_md": "Yardım etmeme veya bildirmeme: bir yıla kadar hapis ya da adlî para cezası; bu nedenle ölüm hâlinde bir yıldan üç yıla kadar hapis."
+  },
+  {
+   "front_md": "Nedensellik hangi suçlarda aranır?",
+   "back_md": "Yalnız kanuni tanımında netice bulunan neticeli suçlarda; sırf hareket suçlarında aranmaz."
+  },
+  {
+   "front_md": "Yargıtay'ın nedensellik yöntemi nedir?",
+   "back_md": "Önce şart teorisiyle nedensellik kurulur, sonra neticenin faile objektif olarak isnat edilip edilemeyeceği araştırılır."
+  },
+  {
+   "front_md": "Netice kimin eseriyse faile isnat edilemez?",
+   "back_md": "Üçüncü kişinin (kusurlu müdahale) veya bir rastlantının eseriyse."
+  },
+  {
+   "front_md": "İlliyet bağı ne zaman kesilmez?",
+   "back_md": "Kusurlar birleşmişse; herkes kendi kusurundan sorumlu olur (TCK m. 22/5)."
+  },
+  {
+   "front_md": "Mağdurdaki önceden var olan hastalık illiyeti keser mi?",
+   "back_md": "Kendiliğinden kesmez; illiyet şüpheden uzak tespit edilir, gerekirse bilirkişi kurulundan rapor alınır, şüphe sanık lehine değerlendirilir."
+  },
+  {
+   "front_md": "Tüzel kişiler hakkında ne uygulanabilir?",
+   "back_md": "Ceza yaptırımı uygulanamaz (TCK m. 20/2); kanunda öngörülen güvenlik tedbirleri (izin iptali, müsadere) saklıdır (TCK m. 60)."
+  },
+  {
+   "front_md": "Ağır neticeden sorumluluk için ne gerekir?",
+   "back_md": "Yalnız nedensellik yetmez; o netice bakımından en azından taksir aranır (TCK m. 23)."
+  }
+ ],
+ "verification": {
+  "status": "verified",
+  "issues": []
+ }
+}
