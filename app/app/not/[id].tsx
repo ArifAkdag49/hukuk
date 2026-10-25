@@ -59,6 +59,10 @@ export default function NotDetay() {
     }
   }
 
+  function askAssistant() {
+    if (note) router.push(`/sohbet/yeni?note=${note.id}`);
+  }
+
   if (!note) {
     return (
       <Screen back title="Not">
@@ -79,8 +83,13 @@ export default function NotDetay() {
       accent={c.main}
       right={right}
       footer={
-        note.status === "ready" && note.questions.length > 0 ? (
-          <Button label="Bu nottan quiz çöz" icon="help-circle-outline" size="lg" full onPress={() => router.push(`/quiz?scope=note&id=${note.id}`)} />
+        note.status === "ready" ? (
+          <View style={styles.footer}>
+            {note.questions.length > 0 ? (
+              <Button label="Quiz çöz" icon="help-circle-outline" style={styles.footerBtn} onPress={() => router.push(`/quiz?scope=note&id=${note.id}`)} />
+            ) : null}
+            <Button label="Asistana sor" icon="chat-question-outline" kind="secondary" style={styles.footerBtn} onPress={askAssistant} />
+          </View>
         ) : null
       }
     >
@@ -119,6 +128,19 @@ export default function NotDetay() {
             <Gap h={space.xs} />
             {note.summary_md ? <Markdown reading accent={c.main}>{note.summary_md}</Markdown> : <T v="body" color={colors.muted}>Özet yok.</T>}
           </Card>
+          <Gap h={space.sm} />
+          <Pressable onPress={askAssistant} accessibilityRole="button" style={({ pressed }) => [styles.ask, { borderColor: c.tint }, pressed && { opacity: 0.85 }]}>
+            <Icon name="chat-question-outline" color={c.deep} />
+            <View style={{ flex: 1 }}>
+              <T v="bodyStrong" color={c.deep}>
+                Kafana takılan bir yer mi var?
+              </T>
+              <T v="small" color={colors.inkSoft}>
+                Bu not üzerinden asistana sor; cevabı notuna dayandırır.
+              </T>
+            </View>
+            <Icon name="chevron-right" color={colors.muted} />
+          </Pressable>
 
           <SectionTitle title="Çelişki uyarıları" />
           {note.contradictions.length === 0 ? (
@@ -206,5 +228,8 @@ const styles = StyleSheet.create({
   contra: { backgroundColor: colors.warningTint, borderRadius: radius.lg, padding: space.lg, gap: space.sm },
   quote: { borderLeftWidth: 4, borderLeftColor: colors.warning, paddingLeft: space.md },
   suggest: { flexDirection: "row", gap: space.xs, backgroundColor: colors.surface, borderRadius: radius.md, padding: space.sm, alignItems: "flex-start" },
+  footer: { flexDirection: "row", gap: space.sm, width: "100%", maxWidth: 720, alignSelf: "center" },
+  footerBtn: { flex: 1, paddingHorizontal: space.sm },
+  ask: { flexDirection: "row", alignItems: "center", gap: space.sm, backgroundColor: colors.surface, borderWidth: 1.5, borderRadius: radius.lg, padding: space.md, minHeight: 64 },
   topic: { flexDirection: "row", alignItems: "center", gap: space.sm, padding: space.sm, minHeight: 60, borderRadius: radius.md },
 });

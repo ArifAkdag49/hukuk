@@ -12,6 +12,7 @@ router = APIRouter(dependencies=[Depends(require_user)])
 
 class ThreadIn(BaseModel):
     topic_id: str | None = None
+    note_id: uuid.UUID | None = None
 
 
 class MessageIn(BaseModel):
@@ -26,23 +27,32 @@ class MessageIn(BaseModel):
         return v.strip()
 
 
-THREAD_COLS = "id, title, topic_id, created_at"
+THREAD_COLS = "id, title, topic_id, note_id, created_at"
 
 
 @router.post("/assistant/threads")
 def create_thread(body: ThreadIn):
     if body.topic_id and db.fetch_one("select 1 from topics where id = %s", [body.topic_id]) is None:
         raise HTTPException(404, "Konu bulunamadı")
-    return db.fetch_one(
-        f"insert into chat_threads (id, topic_id) values (%s, %s) returning {THREAD_COLS}",
-        [str(uuid.uuid4()), body.topic_id],
+    note = None
+    if body.note_id:
+        note = db.fetch_one("select title, status from notes where id = %s", [body.note_id])
+        if note is None:
+            raise HTTPException(404, "Not bulunamadı")
+        if note["status"] != "ready":
+            raise HTTPException(409, "Not henüz hazır değil")
+    t = db.fetch_one(
+        f"insert into chat_threads (id, topic_id, note_id) values (%s, %s, %s) returning {THREAD_COLS}",
+        [str(uuid.uuid4()), body.topic_id, body.note_id],
     )
+    return {**t, "note_title": note["title"] if note else None}
 
 
 @router.get("/assistant/threads")
 def list_threads():
     return db.fetch_all(
-        "select t.id, t.title, t.topic_id, t.created_at from chat_threads t "
+        "select t.id, t.title, t.topic_id, t.note_id, n.title as note_title, t.created_at from chat_threads t "
+        "left join notes n on n.id = t.note_id "
         "left join lateral (select max(created_at) as last from chat_messages m where m.thread_id = t.id) l on true "
         "order by coalesce(l.last, t.created_at) desc"
     )

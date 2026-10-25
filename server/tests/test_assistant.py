@@ -282,3 +282,39 @@ def test_history_tells_the_model_which_sources_were_opened(auth_client, kb, sql)
     auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "İkinci soru", "deep": False})
     prior = fake.calls[0][1]["messages"][1]["content"]
     assert prior == "İlk cevap\n\n[Bu cevapta araçla açılan kaynaklar: TCK m. 79; Yargıtay 18. CD, E.2016/18827 K.2018/13223]"
+
+
+NOTE_ID = "00000000-0000-0000-0000-00000000a0a1"
+
+
+@pytest.fixture
+def note(kb, sql):
+    sql.execute(
+        "insert into notes (id, course_id, title, file_path, mime, status, summary_md, extracted_text) values "
+        "(%s, 'HUK2011', 'Hoca notu', 'f', 'application/pdf', 'ready', 'Ayıplı ifa özeti', 'Satıcı ayıptan sorumludur, TBK m. 219.')",
+        [NOTE_ID],
+    )
+
+
+def test_note_thread_gets_note_context(auth_client, note, tools):
+    fake = FakeClient(create_outputs=[message([text_block("Cevap")]), message([text_block("Başlık")])])
+    install(fake)
+    r = auth_client.post("/assistant/threads", json={"note_id": NOTE_ID})
+    assert r.status_code == 200, r.text
+    assert r.json()["note_id"] == NOTE_ID and r.json()["note_title"] == "Hoca notu"
+    tid = r.json()["id"]
+    auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Bunu açıkla", "deep": False})
+    system = fake.calls[0][1]["system"]
+    block = next(b for b in system if "Hoca notu" in b["text"])
+    assert "TBK m. 219" in block["text"] and "Ayıplı ifa özeti" in block["text"]
+    listed = auth_client.get("/assistant/threads").json()
+    assert listed[0]["note_title"] == "Hoca notu"
+
+
+def test_note_thread_requires_existing_ready_note(auth_client, kb, sql):
+    assert auth_client.post("/assistant/threads", json={"note_id": NOTE_ID}).status_code == 404
+    sql.execute(
+        "insert into notes (id, course_id, title, file_path, mime, status) values (%s, 'HUK2011', 'n', 'f', 'application/pdf', 'processing')",
+        [NOTE_ID],
+    )
+    assert auth_client.post("/assistant/threads", json={"note_id": NOTE_ID}).status_code == 409

@@ -204,12 +204,40 @@ def _topic_block(topic_id: str | None) -> list[dict]:
     return [{"type": "text", "text": f"Öğrenci şu konuyu çalışıyor: {t['title']}\n\nÖzet:\n{t['summary_md']}\n\nKritik noktalar:\n{t['critical_md']}"}]
 
 
+NOTE_TEXT_LIMIT = 40_000
+
+
+def _note_block(note_id) -> list[dict]:
+    if not note_id:
+        return []
+    n = db.fetch_one("select title, summary_md, extracted_text from notes where id = %s and status = 'ready'", [note_id])
+    if n is None:
+        return []
+    body = (n["extracted_text"] or "").strip()
+    cut = len(body) > NOTE_TEXT_LIMIT
+    body = body[:NOTE_TEXT_LIMIT]
+    text = (
+        f"Öğrenci kendi yüklediği şu ders notu üzerinden soru soruyor: {n['title']}\n\n"
+        "Cevabı önce bu nota dayandır ve notun hangi kısmına dayandığını söyle. Not yanlış, eksik ya da güncel "
+        "mevzuat ve kararlarla çelişkiliyse bunu açıkça belirt ve doğrusunu kaynağıyla göster. Notta olmayan bir "
+        "şeyi notta varmış gibi anlatma.\n\n"
+        f"Notun özeti:\n{n['summary_md'] or '(özet yok)'}\n\n"
+        f"Notun metni{' (uzun olduğu için baş kısmı)' if cut else ''}:\n{body or '(metin çıkarılamadı)'}"
+    )
+    # sohbet boyunca değişmez: önbelleğe alınır, sonraki sorularda ucuza okunur
+    return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
+
+
 async def answer(thread: dict, content: str, deep: bool) -> dict:
     tid = str(thread["id"])
     prior = await db.run(_history, tid)
     is_first = not prior
     messages = prior + [{"role": "user", "content": content}]
-    system = [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}] + await db.run(_topic_block, thread.get("topic_id"))
+    system = (
+        [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}]
+        + await db.run(_topic_block, thread.get("topic_id"))
+        + await db.run(_note_block, thread.get("note_id"))
+    )
     model = llm.OPUS if deep else llm.SONNET
     sources: list[dict] = []
     known: dict[str, str] = {}

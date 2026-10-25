@@ -322,10 +322,18 @@ export const fakeApi: ApiClient = {
     spent += 0.21;
     return gradeLocally(questionId, answerText);
   },
-  async createThread(topicId) {
+  async createThread(topicId, noteId) {
     await wait(250);
     const topic = kb.topics.find((t) => t.id === topicId);
-    const t: Thread = { id: fid("thr"), title: topic ? topic.title : "Yeni sohbet", topic_id: topicId ?? null, created_at: now() };
+    const note = noteId ? notes.find((n) => n.id === noteId) : undefined;
+    const t: Thread = {
+      id: fid("thr"),
+      title: topic ? topic.title : note ? `${note.title} hakkında` : "Yeni sohbet",
+      topic_id: topicId ?? null,
+      note_id: note?.id ?? null,
+      note_title: note?.title ?? null,
+      created_at: now(),
+    };
     threads.unshift(t);
     messages[t.id] = [];
     return t;

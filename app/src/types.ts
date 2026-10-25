@@ -225,6 +225,9 @@ export interface Thread {
   id: string;
   title: string;
   topic_id: string | null;
+  /** Sohbet yüklenen bir nota bağlıysa: asistan o notu bağlam olarak alır. */
+  note_id?: string | null;
+  note_title?: string | null;
   created_at: string;
 }
 

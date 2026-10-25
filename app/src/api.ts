@@ -51,7 +51,7 @@ export interface ApiClient {
   getNote(id: string): Promise<NoteDetail>;
   deleteNote(id: string): Promise<void>;
   gradeCase(questionId: string, answerText: string): Promise<CaseGrade>;
-  createThread(topicId?: string | null): Promise<Thread>;
+  createThread(topicId?: string | null, noteId?: string | null): Promise<Thread>;
   listThreads(): Promise<Thread[]>;
   deleteThread(id: string): Promise<void>;
   getMessages(threadId: string): Promise<ChatMessage[]>;
@@ -166,8 +166,11 @@ const realApi: ApiClient = {
   deleteNote: (id) => request(`/notes/${encodeURIComponent(id)}`, { method: "DELETE" }),
   gradeCase: (question_id, answer_text) =>
     request("/cases/grade", { method: "POST", body: { question_id, answer_text }, timeoutMs: 150_000 }),
-  createThread: (topicId) =>
-    request("/assistant/threads", { method: "POST", body: topicId ? { topic_id: topicId } : {} }),
+  createThread: (topicId, noteId) =>
+    request("/assistant/threads", {
+      method: "POST",
+      body: { ...(topicId ? { topic_id: topicId } : {}), ...(noteId ? { note_id: noteId } : {}) },
+    }),
   listThreads: () => request("/assistant/threads"),
   deleteThread: (id) => request(`/assistant/threads/${encodeURIComponent(id)}`, { method: "DELETE" }),
   getMessages: (id) => request(`/assistant/threads/${encodeURIComponent(id)}/messages`),

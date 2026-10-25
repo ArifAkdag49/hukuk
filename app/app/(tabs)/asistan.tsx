@@ -110,7 +110,7 @@ export default function Asistan() {
                 onAccessibilityAction={(e) => e.nativeEvent.actionName === "delete" && void remove(t)}
                 style={({ pressed }) => [styles.row, pressed && { opacity: 0.88 }]}
               >
-                <IconBubble name={topic ? "book-open-variant" : "chat-outline"} color={topic ? c.deep : colors.primary} tint={topic ? c.tint : colors.primaryTint} />
+                <IconBubble name={topic ? "book-open-variant" : t.note_title ? "file-document-outline" : "chat-outline"} color={topic ? c.deep : colors.primary} tint={topic ? c.tint : colors.primaryTint} />
                 <View style={{ flex: 1, gap: 2 }}>
                   <T v="bodyStrong" numberOfLines={2}>
                     {t.title}
@@ -121,7 +121,7 @@ export default function Asistan() {
                     </T>
                   ) : (
                     <T v="small" color={topic ? c.deep : colors.muted} numberOfLines={1}>
-                      {topic ? topic.title : "Genel soru"}, {timeAgo(t.created_at)}
+                      {topic ? topic.title : t.note_title ? `Notun: ${t.note_title}` : "Genel soru"}, {timeAgo(t.created_at)}
                     </T>
                   )}
                 </View>
