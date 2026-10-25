@@ -172,9 +172,9 @@ export function accentWash(accent: string, amount = 0.14): string {
   return mix(colors.surface, accent, amount);
 }
 
-/** Müfredattaki 14 ders için sabit atama; yeni eklenen ders koda göre bir renk alır. */
+/** Müfredattaki dersler için sabit atama; yeni eklenen ders koda göre bir renk alır. */
 const FIXED: Record<string, number> = {
-  HUK2011: 0, HUK2013: 1, HUK2009: 2, HUK2017: 3, HUK2012: 4, HUK2015: 5, HUK2003: 6,
+  HUK2011: 0, HUK2013: 1, HUK2009: 2, HUK2017: 3,
   HUK3011: 7, HUK3012: 8, HUK3013: 9, HUK3015: 10, HUK3017: 11, HUK3014: 12, HUK3016: 13,
 };
 

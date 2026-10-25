@@ -5,7 +5,7 @@ import { SyncBanner } from "../../src/components/SyncBanner";
 import { Icon, IconBubble, Pill, T, type IconName } from "../../src/components/ui";
 import { countdownText, upcomingExams } from "../../src/exams";
 import { useApp } from "../../src/store/AppContext";
-import { colors, courseColor, radius, shadow, space } from "../../src/theme";
+import { colors, courseColor, coursePalette, radius, shadow, space } from "../../src/theme";
 
 export default function Calis() {
   const { kb, dueCards, wrongIds, starred, exams } = useApp();
@@ -22,7 +22,7 @@ export default function Calis() {
     { href: "/sinavlar", icon: "calendar-clock", title: "Sınav takvimi", text: "Vize ve final tarihleri, geri sayım ve sınav öncesi tekrar planı.", color: courseColor("HUK3011"), badge: next ? countdownText(nextName, next) : "Tarih eklenmedi", offline: true },
     { href: "/olaylar", icon: "gavel", title: "Olay çözme", text: "Olayı oku, cevabını yaz. Puan, atladığın maddeler ve örnek çözüm gelir.", color: courseColor("HUK2009"), badge: caseCount > 0 ? `${caseCount} olay` : undefined, offline: false },
     { href: "/tablolar", icon: "table-large", title: "Karşılaştırma tabloları", text: "Sık karıştırılan kavramlar yan yana.", color: courseColor("HUK3013"), badge: tableCount > 0 ? `${tableCount} tablo` : undefined, offline: true },
-    { href: "/analiz", icon: "chart-donut", title: "Eksik analizi", text: "Hangi konuda zorlandığını renklerle gör, somut önerileri oku.", color: courseColor("HUK2003"), offline: true },
+    { href: "/analiz", icon: "chart-donut", title: "Eksik analizi", text: "Hangi konuda zorlandığını renklerle gör, somut önerileri oku.", color: coursePalette[6], offline: true },
   ];
 
   return (
