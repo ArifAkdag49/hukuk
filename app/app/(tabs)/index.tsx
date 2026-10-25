@@ -9,7 +9,7 @@ import { SyncBanner } from "../../src/components/SyncBanner";
 import { Button, Card, Gap, Icon, IconBubble, Pill, Row, SectionTitle, T, type IconName } from "../../src/components/ui";
 import { SON_TUR_GUN, countdownText, upcomingExams } from "../../src/exams";
 import { useApp } from "../../src/store/AppContext";
-import { colors, courseColor, radius, shadow, space } from "../../src/theme";
+import { colors, courseColor, coursePalette, radius, shadow, space } from "../../src/theme";
 
 function greeting(d = new Date()) {
   const h = d.getHours();
@@ -194,7 +194,7 @@ export default function AnaSayfa() {
         <Quick icon="help-circle-outline" title="Quiz" text="Ders, ünite ya da konu seç" color={courseColor("HUK3012")} onPress={() => router.push("/quiz")} />
         <Quick icon="gavel" title="Olay çözme" text="Cevabını yaz, puanını gör" color={courseColor("HUK2009")} onPress={() => router.push("/olaylar")} />
         <Quick icon="table-large" title="Karşılaştırma" text="Karıştırılan kavramlar" color={courseColor("HUK2013")} onPress={() => router.push("/tablolar")} />
-        <Quick icon="chart-donut" title="Eksik analizi" text="Nerede zorlanıyorsun?" color={courseColor("HUK2003")} onPress={() => router.push("/analiz")} />
+        <Quick icon="chart-donut" title="Eksik analizi" text="Nerede zorlanıyorsun?" color={coursePalette[6]} onPress={() => router.push("/analiz")} />
       </View>
     </Screen>
   );

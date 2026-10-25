@@ -10,7 +10,8 @@ Akış ve görev metinleri: `pipeline/ajan/README.md`.
 Kapsam (kullanıcı kararı, 2026-10-18): 3. sınıfın bütün dersleri (HUK3011 Eşya, HUK3012 Borçlar Özel,
 HUK3013 Ticaret, HUK3015 Ceza Özel, HUK3017 Medeni Usul, HUK3014 İş, HUK3016 İnsan Hakları) ve 2. sınıftan
 yalnız HUK2009 İdare ile HUK2017 Devletler Umumi. HUK2011'de yeni araştırma yapılmaz; biten konular yüklenir.
-HUK2013, HUK2012, HUK2015 ve HUK2003 kapsam dışı.
+HUK2013 Ceza Genel 2026-10-25'te kapsama alındı (kullanıcı kararı). HUK2012 Türk Hukuk Tarihi, HUK2015 Genel Kamu ve
+HUK2003 Deniz Hukuku 2026-10-25'te uygulamadan tamamen kaldırıldı (kullanıcı kararı).
 
 ## HUK2011 Borçlar Hukuku Genel Hükümler (28 konu)
 
