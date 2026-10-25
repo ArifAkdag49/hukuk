@@ -78,3 +78,32 @@ HUK2003 Deniz Hukuku 2026-10-25'te uygulamadan tamamen kaldırıldı (kullanıc�
 | 26 | tasinir-rehni-hak-rehni-ve-hapis-hakki | yüklendi | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (olay 1'de iyiniyet olgusu TMK m. 942, TTK m. 1201 zilyetlik şartı, karar 1 özet olguları); 📌 6750 s. Kanun (7099, 7263); yüklenmedi; sunucuya yüklendi (2026-10-19) |
 | 27 | kat-mulkiyeti-kurulus-ve-kat-irtifaki | yüklendi | bulutta araştırma-yazma-denetim; denetçi 8 küçük düzeltme (HGK'ya mal edilen "aynen taksimin özel biçimi" ifadesi, olay 1 olgu çelişkisi, karar 1'de savunmadaki tarih); 📌 KMK m. 10/6, 14/3 (7327, 2021); yüklenmedi; sunucuya yüklendi (2026-10-19) |
 | 28 | kat-maliklerinin-haklari-borclari-ve-yonetim | yüklendi | bulutta araştırma-yazma-denetim; denetçi 12 düzeltme (olay 1 kiracı sorumluluğu KMK m. 22, olay 2 arabuluculuk ve HUAK m. 18/A/15, KMK m. 38/2 "açılabilir", soru 3 m. 20/1 anlaşma kaydı); 📌 KMK m. 35, 37, 70 (7579, 22.05.2026); yüklenmedi; sunucuya yüklendi (2026-10-19) |
+
+## HUK2013 Ceza Hukuku Genel Hükümler (22 konu)
+
+Kullanıcı kararı (2026-10-25): araştırma Opus, yazma Sonnet, denetçisiz.
+
+| # | slug | durum | not |
+|---|---|---|---|
+| 1 | ceza-hukukuna-giris-ve-temel-ilkeler | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 2 | zaman-bakimindan-uygulama-ve-lehe-kanun | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 3 | yer-bakimindan-uygulama-ve-geri-verme | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 4 | suc-genel-teorisi-hareket-netice-illiyet | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 5 | kast-ve-olasi-kast | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 6 | taksir-bilincli-taksir-ve-netice-sebebiyle-agirlasmis-suc | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 7 | kanunun-hukmu-ve-amirin-emri | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 8 | mesru-savunma-ve-zorunluluk-hali | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 9 | hakkin-kullanilmasi-ve-ilgilinin-rizasi | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 10 | cebir-siddet-korkutma-tehdit-ve-haksiz-tahrik | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 11 | hata | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 12 | yas-akil-hastaligi-ve-gecici-nedenler | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 13 | suca-tesebbus-ve-gonullu-vazgecme | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 14 | istirak-faillik-ve-dolayli-faillik | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 15 | azmettirme-yardim-etme-ve-baglilik | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 16 | suclarin-ictimai | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 17 | cezalar-hapis-ve-adli-para-cezasi | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 18 | secenek-yaptirimlar-erteleme-ve-hagb | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 19 | guvenlik-tedbirleri-ve-musadere | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 20 | cezanin-belirlenmesi-ve-tekerrur | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 21 | dusme-nedenleri-olum-af-sikayet-onodeme-uzlasma | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
+| 22 | dava-ve-ceza-zamanasimi | yüklendi | Opus araştırdı, Sonnet yazdı, denetçisiz; sunucuya yüklendi (2026-10-25) |
