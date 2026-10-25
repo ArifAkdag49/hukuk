@@ -53,6 +53,7 @@ export interface ApiClient {
   gradeCase(questionId: string, answerText: string): Promise<CaseGrade>;
   createThread(topicId?: string | null): Promise<Thread>;
   listThreads(): Promise<Thread[]>;
+  deleteThread(id: string): Promise<void>;
   getMessages(threadId: string): Promise<ChatMessage[]>;
   sendMessage(threadId: string, content: string, deep: boolean): Promise<SendMessageResult>;
   getUsage(): Promise<Usage>;
@@ -168,6 +169,7 @@ const realApi: ApiClient = {
   createThread: (topicId) =>
     request("/assistant/threads", { method: "POST", body: topicId ? { topic_id: topicId } : {} }),
   listThreads: () => request("/assistant/threads"),
+  deleteThread: (id) => request(`/assistant/threads/${encodeURIComponent(id)}`, { method: "DELETE" }),
   getMessages: (id) => request(`/assistant/threads/${encodeURIComponent(id)}/messages`),
   sendMessage: (id, content, deep) =>
     request(`/assistant/threads/${encodeURIComponent(id)}/messages`, {
