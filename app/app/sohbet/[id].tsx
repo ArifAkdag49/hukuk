@@ -1,8 +1,9 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ActivityIndicator, AppState, Keyboard, KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { ActivityIndicator, Keyboard, KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { ApiError, api, errorText } from "../../src/api";
+import { api, errorText } from "../../src/api";
+import { getPending, startSend, type PendingSend, type SendOutcome } from "../../src/chatPending";
 import { Markdown, openLink } from "../../src/components/Markdown";
 import { HeaderButton } from "../../src/components/Screen";
 import { ErrorState, LoadingState, Notice } from "../../src/components/States";
@@ -10,41 +11,6 @@ import { Button, Icon, IconBubble, T } from "../../src/components/ui";
 import { useApp } from "../../src/store/AppContext";
 import { colors, courseColor, fonts, maxContentWidth, radius, shadow, space } from "../../src/theme";
 import type { ChatMessage, Source, Thread } from "../../src/types";
-
-/** Bağlantı kopunca cevabın sunucuda bitmesi için beklenen en uzun süre (derin cevap 2-4 dk sürebilir). */
-const REPLY_WAIT_MS = 5 * 60_000;
-const POLL_MS = 4_000;
-
-function hasReply(msgs: ChatMessage[], text: string): boolean {
-  const n = msgs.length;
-  return n >= 2 && msgs[n - 1].role === "assistant" && msgs[n - 2].role === "user" && msgs[n - 2].content_md === text;
-}
-
-/**
- * Gönderilen mesajın cevabı sunucuda kaydolana kadar sohbeti yokla. Uygulama ön plana dönünce hemen
- * bakar. waitMs 0 ise bir kez bakar. Cevap gelmezse null.
- */
-async function waitForReply(threadId: string, text: string, waitMs: number): Promise<ChatMessage[] | null> {
-  const until = Date.now() + waitMs;
-  for (;;) {
-    try {
-      const fresh = await api.getMessages(threadId);
-      if (hasReply(fresh, text)) return fresh;
-    } catch {
-      // uygulama arka plandayken ya da bağlantı yokken istek düşer; beklemeye devam
-    }
-    if (Date.now() >= until) return null;
-    await new Promise<void>((resolve) => {
-      const t = setTimeout(done, POLL_MS);
-      const sub = AppState.addEventListener("change", (s) => s === "active" && done());
-      function done() {
-        clearTimeout(t);
-        sub.remove();
-        resolve();
-      }
-    });
-  }
-}
 
 const SOURCE_META: Record<Source["type"], { emoji: string; name: string }> = {
   kb: { emoji: "📘", name: "Bilgi bankası" },
@@ -81,17 +47,62 @@ export default function Sohbet() {
     };
   }, [isNew, topic]);
 
+  const loadSeq = useRef(0);
   const load = useCallback(async () => {
     if (isNew) return;
+    const seq = ++loadSeq.current;
     try {
       const [ths, msgs] = await Promise.all([api.listThreads(), api.getMessages(String(id))]);
+      if (seq !== loadSeq.current) return; // daha yeni bir yükleme var
       setThread(ths.find((t) => t.id === id) ?? null);
-      setMessages(msgs);
+      // Cevabı beklenen mesaj sunucuya cevapla birlikte yazılır; o zamana kadar burada göster
+      const p = getPending(String(id));
+      setMessages(p ? [...msgs, p.optimistic] : msgs);
       setLoadError(null);
     } catch (e) {
-      setLoadError(errorText(e));
+      if (seq === loadSeq.current) setLoadError(errorText(e));
     }
   }, [id, isNew]);
+
+  /** Gönderimin sonucunu ekrana uygula. Ekran o arada kapanıp yeniden açılmış olabilir. */
+  const follow = useCallback(
+    (p: PendingSend, alive: () => boolean) => {
+      setSending({ deep: p.deep });
+      void p.done.then((r: SendOutcome) => {
+        if (!alive()) return;
+        setSending(null);
+        if (r.ok) {
+          if (r.fresh) setMessages(r.fresh);
+          else if (r.reply) {
+            const reply = r.reply;
+            setMessages((m) => {
+              const base = (m ?? []).filter((x) => x.id !== p.optimistic.id && x.id !== reply.id);
+              return [...base, { ...p.optimistic }, reply];
+            });
+          }
+          if (r.suggestNew) setSuggestNew(true);
+          void load(); // sunucudaki gerçek kayıtlarla eşitle
+        } else {
+          setMessages((m) => (m ?? []).filter((x) => x.id !== p.optimistic.id));
+          setInput(p.text);
+          setSendError(errorText(r.error));
+        }
+      });
+    },
+    [load],
+  );
+
+  // Bu sohbette cevabı beklenen bir mesaj varsa (ekrandan çıkıp geri gelindiyse) beklemeyi sürdür
+  useEffect(() => {
+    if (isNew) return;
+    const p = getPending(String(id));
+    if (!p) return;
+    let alive = true;
+    follow(p, () => alive);
+    return () => {
+      alive = false;
+    };
+  }, [id, isNew, follow]);
 
   useEffect(() => {
     void load();
@@ -110,38 +121,24 @@ export default function Sohbet() {
     return () => sub.remove();
   }, []);
 
-  async function send(content: string, deep = false) {
+  const aliveRef = useRef(true);
+  useEffect(() => {
+    aliveRef.current = true;
+    return () => {
+      aliveRef.current = false;
+    };
+  }, []);
+
+  function send(content: string, deep = false) {
     const text = content.trim();
-    if (!text || sending || isNew) return;
+    if (!text || sending || isNew || getPending(String(id))) return;
     setSendError(null);
-    setSending({ deep });
-    const optimistic: ChatMessage = { id: `local-${Date.now()}`, thread_id: String(id), role: "user", content_md: text, created_at: new Date().toISOString() };
-    setMessages((m) => [...(m ?? []), optimistic]);
+    const p = startSend(String(id), text, deep, setDraft);
+    setMessages((m) => [...(m ?? []), p.optimistic]);
     setInput("");
-    try {
-      const r = await api.sendMessage(String(id), text, deep);
-      setMessages((m) => [...(m ?? []), r.message]);
-      if (r.suggest_new_thread) setSuggestNew(true);
-      await setDraft(`chat:${id}`, null);
-    } catch (e) {
-      // Bağlantı koptuysa (başka uygulamaya geçince Android bağlantıyı keser) ya da zaman aşımı
-      // olduysa sunucu cevabı yine de yazıp kaydeder: tekrar göndertip iki kez ücretlendirmek
-      // yerine cevabın sohbete düşmesini bekle.
-      const dropped = e instanceof ApiError && (e.status === 0 || e.status === 408);
-      const fresh = await waitForReply(String(id), text, dropped ? REPLY_WAIT_MS : 0);
-      if (fresh) {
-        setMessages(fresh);
-        await setDraft(`chat:${id}`, null);
-        return;
-      }
-      // Mesaj kaybolmasın: kutuya geri koy ve taslak olarak sakla
-      setMessages((m) => (m ?? []).filter((x) => x.id !== optimistic.id));
-      setInput(text);
-      await setDraft(`chat:${id}`, text);
-      setSendError(errorText(e));
-    } finally {
-      setSending(null);
-    }
+    // Taslak hemen silinir ki geri dönünce gönderilmiş mesaj kutuda durmasın; gönderim başarısız olursa geri yazılır
+    void setDraft(`chat:${id}`, null);
+    follow(p, () => aliveRef.current);
   }
 
   const lastUser = [...(messages ?? [])].reverse().find((m) => m.role === "user");
@@ -225,7 +222,7 @@ export default function Sohbet() {
             <View style={{ flex: 1 }}>
               <T v="bodyStrong">{sending.deep ? "Daha derin cevap hazırlanıyor" : "Asistan yazıyor"}</T>
               <T v="small" color={colors.muted}>
-                Kaynaklara bakıyor. Bu 10-60 saniye sürebilir; başka uygulamaya geçebilirsin, cevap burada olacak.
+                Kaynaklara bakıyor. Bu 10-60 saniye sürebilir. Başka bir sohbete, derse ya da uygulamaya geçebilirsin; cevap burada olacak.
               </T>
             </View>
           </View>
@@ -233,9 +230,9 @@ export default function Sohbet() {
 
         {!sending && last?.role === "assistant" && lastUser ? (
           <View style={styles.quick}>
-            <QuickBtn label="Daha basit anlat" icon="emoticon-happy-outline" onPress={() => void send("Bunu daha basit anlatır mısın?")} />
-            <QuickBtn label="Bundan 3 soru sor" icon="help-circle-outline" onPress={() => void send("Bu konudan bana 3 soru sor.")} />
-            <QuickBtn label="Daha derin cevap" icon="layers-triple-outline" onPress={() => void send(lastUser.content_md, true)} />
+            <QuickBtn label="Daha basit anlat" icon="emoticon-happy-outline" onPress={() => send("Bunu daha basit anlatır mısın?")} />
+            <QuickBtn label="Bundan 3 soru sor" icon="help-circle-outline" onPress={() => send("Bu konudan bana 3 soru sor.")} />
+            <QuickBtn label="Daha derin cevap" icon="layers-triple-outline" onPress={() => send(lastUser.content_md, true)} />
           </View>
         ) : null}
 
@@ -266,7 +263,7 @@ export default function Sohbet() {
             editable={!isNew}
           />
           <Pressable
-            onPress={() => void send(input)}
+            onPress={() => send(input)}
             disabled={!input.trim() || !!sending}
             accessibilityRole="button"
             accessibilityLabel="Gönder"

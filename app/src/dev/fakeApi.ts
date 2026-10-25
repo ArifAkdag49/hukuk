@@ -346,9 +346,10 @@ export const fakeApi: ApiClient = {
   },
   async sendMessage(id, content, deep) {
     guardAi();
+    // gerçek sunucu gibi: soru cevapla birlikte, cevap bitince kaydedilir
+    await wait(deep ? 3500 : 2000);
     const list = messages[id] ?? (messages[id] = []);
     list.push({ id: fid("m"), thread_id: id, role: "user", content_md: content, created_at: now() });
-    await wait(deep ? 3500 : 2000);
     const thread = threads.find((t) => t.id === id);
     const topicTitle = kb.topics.find((t) => t.id === thread?.topic_id)?.title ?? null;
     const a = fakeAnswer(content, deep, topicTitle);

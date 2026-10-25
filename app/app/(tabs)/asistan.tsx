@@ -1,7 +1,8 @@
 import { router, useFocusEffect } from "expo-router";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Pressable, RefreshControl, StyleSheet, View } from "react-native";
 import { api, errorText } from "../../src/api";
+import { isPending, subscribePending } from "../../src/chatPending";
 import { confirm } from "../../src/confirm";
 import { Screen } from "../../src/components/Screen";
 import { EmptyState, ErrorState, LoadingState, Notice } from "../../src/components/States";
@@ -38,6 +39,17 @@ export default function Asistan() {
       setError(errorText(e));
     }
   }
+
+  // Cevabı beklenen sohbet bitince listeyi yenile (başlık ve sıra değişir)
+  const [, setTick] = useState(0);
+  useEffect(
+    () =>
+      subscribePending(() => {
+        setTick((n) => n + 1);
+        void load();
+      }),
+    [load],
+  );
 
   useFocusEffect(
     useCallback(() => {
@@ -103,9 +115,15 @@ export default function Asistan() {
                   <T v="bodyStrong" numberOfLines={2}>
                     {t.title}
                   </T>
-                  <T v="small" color={topic ? c.deep : colors.muted} numberOfLines={1}>
-                    {topic ? topic.title : "Genel soru"}, {timeAgo(t.created_at)}
-                  </T>
+                  {isPending(t.id) ? (
+                    <T v="smallStrong" color={colors.primary} numberOfLines={1}>
+                      Asistan yazıyor…
+                    </T>
+                  ) : (
+                    <T v="small" color={topic ? c.deep : colors.muted} numberOfLines={1}>
+                      {topic ? topic.title : "Genel soru"}, {timeAgo(t.created_at)}
+                    </T>
+                  )}
                 </View>
                 <Icon name="chevron-right" color={colors.muted} />
               </Pressable>
