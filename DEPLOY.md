@@ -112,3 +112,5 @@ yazıldığı için elle uygulanır:
 ```bash
 ssh root@87.106.47.17 'cd /opt/hukuk && docker compose exec -T db psql -U hukuk -d hukuk -v ON_ERROR_STOP=1 < db/001_schema.sql'
 ```
+
+Sonraki dosyalar (`002_...`, `003_sohbet_notu.sql` gibi) aynı komutla, dosya adı değiştirilerek sırayla uygulanır; hepsi tekrar çalıştırılabilir (`if not exists`).

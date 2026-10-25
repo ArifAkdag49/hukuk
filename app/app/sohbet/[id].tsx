@@ -20,7 +20,7 @@ const SOURCE_META: Record<Source["type"], { emoji: string; name: string }> = {
 };
 
 export default function Sohbet() {
-  const { id, topic } = useLocalSearchParams<{ id: string; topic?: string }>();
+  const { id, topic, note } = useLocalSearchParams<{ id: string; topic?: string; note?: string }>();
   const isNew = id === "yeni";
   const { kb, getDraft, setDraft } = useApp();
   const insets = useSafeAreaInsets();
@@ -39,13 +39,13 @@ export default function Sohbet() {
     if (!isNew) return;
     let alive = true;
     api
-      .createThread(topic ?? null)
+      .createThread(topic ?? null, note ?? null)
       .then((t) => alive && router.replace(`/sohbet/${t.id}`))
       .catch((e) => alive && setLoadError(errorText(e)));
     return () => {
       alive = false;
     };
-  }, [isNew, topic]);
+  }, [isNew, topic, note]);
 
   const loadSeq = useRef(0);
   const load = useCallback(async () => {
@@ -148,7 +148,7 @@ export default function Sohbet() {
 
   async function newThread() {
     try {
-      const t = await api.createThread(thread?.topic_id ?? null);
+      const t = await api.createThread(thread?.topic_id ?? null, thread?.note_id ?? null);
       router.replace(`/sohbet/${t.id}`);
     } catch (e) {
       setSendError(errorText(e));
@@ -168,8 +168,8 @@ export default function Sohbet() {
           <T v="subheading" numberOfLines={1}>
             {thread?.title ?? (isNew ? "Yeni sohbet" : "Sohbet")}
           </T>
-          <T v="small" color={topicLite ? c.deep : colors.muted} numberOfLines={1}>
-            {topicLite ? `Konu: ${topicLite.title}` : "Genel soru"}
+          <T v="small" color={topicLite || thread?.note_title ? c.deep : colors.muted} numberOfLines={1}>
+            {topicLite ? `Konu: ${topicLite.title}` : thread?.note_title ? `Notun: ${thread.note_title}` : "Genel soru"}
           </T>
         </View>
         <HeaderButton icon="chat-plus-outline" label="Yeni sohbet" onPress={() => void newThread()} />
@@ -202,12 +202,18 @@ export default function Sohbet() {
         <Notice tone="info" icon="scale-balance" text="Hukuki danışmanlık değildir. Önemli bilgileri resmî kaynaktan teyit et." />
         {messages.length === 0 ? (
           <View style={styles.welcome}>
-            <IconBubble name="chat-question-outline" color={c.deep} tint={c.tint} size={64} />
+            <IconBubble name={thread?.note_title ? "file-document-outline" : "chat-question-outline"} color={c.deep} tint={c.tint} size={64} />
             <T v="subheading" style={{ textAlign: "center" }}>
-              {topicLite ? `"${topicLite.title}" hakkında ne sormak istersin?` : "Ne sormak istersin?"}
+              {topicLite
+                ? `"${topicLite.title}" hakkında ne sormak istersin?`
+                : thread?.note_title
+                  ? `"${thread.note_title}" notunda kafana ne takıldı?`
+                  : "Ne sormak istersin?"}
             </T>
             <T v="body" color={colors.inkSoft} style={{ textAlign: "center" }}>
-              Asistan önce bilgi bankasına ve notlarına, sonra mevzuata, kararlara ve gerekirse web'e bakar. Cevabın altında kaynakları görürsün.
+              {thread?.note_title
+                ? "Asistan yüklediğin notun özetini ve metnini okur; cevabı nota dayandırır, gerekirse mevzuat ve kararlarla karşılaştırır. Notta hata varsa söyler."
+                : "Asistan önce bilgi bankasına ve notlarına, sonra mevzuata, kararlara ve gerekirse web'e bakar. Cevabın altında kaynakları görürsün."}
             </T>
           </View>
         ) : null}
