@@ -16,6 +16,7 @@ import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
 import { View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { ConfirmHost } from "../src/components/ConfirmHost";
 import { Disclaimer } from "../src/components/Disclaimer";
 import { LoadingState } from "../src/components/States";
 import { UpdateBanner } from "../src/components/UpdateBanner";
@@ -73,6 +74,7 @@ function Gate() {
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: "slide_from_right" }} />
       <UpdateBanner />
       {!disclaimerSeen ? <Disclaimer /> : null}
+      <ConfirmHost />
     </View>
   );
 }
