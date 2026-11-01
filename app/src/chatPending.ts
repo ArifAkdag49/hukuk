@@ -16,10 +16,14 @@ export type SendOutcome =
   | { ok: true; reply?: ChatMessage; fresh?: ChatMessage[]; suggestNew: boolean }
   | { ok: false; error: unknown };
 
+/** Gönderilmeyi bekleyen fotoğraf: `uri` önizleme için, `base64` sunucuya gidecek veri. */
+export type ChatAttachment = { uri: string; base64: string };
+
 export type PendingSend = {
   threadId: string;
   text: string;
   deep: boolean;
+  attachments: ChatAttachment[];
   /** Cevap gelene kadar sohbette gösterilen kullanıcı mesajı. */
   optimistic: ChatMessage;
   done: Promise<SendOutcome>;
@@ -81,10 +85,10 @@ async function waitForReply(threadId: string, text: string, waitMs: number): Pro
   }
 }
 
-async function run(threadId: string, text: string, deep: boolean, setDraft: SetDraft): Promise<SendOutcome> {
+async function run(threadId: string, text: string, deep: boolean, attachments: ChatAttachment[], setDraft: SetDraft): Promise<SendOutcome> {
   const key = `chat:${threadId}`;
   try {
-    const r = await api.sendMessage(threadId, text, deep);
+    const r = await api.sendMessage(threadId, text, deep, attachments.map((a) => a.base64));
     await setDraft(key, null);
     return { ok: true, reply: r.message, suggestNew: r.suggest_new_thread };
   } catch (e) {
@@ -104,15 +108,22 @@ async function run(threadId: string, text: string, deep: boolean, setDraft: SetD
 }
 
 /** Mesajı gönderir. Aynı sohbette bekleyen bir gönderim varsa onu döndürür. */
-export function startSend(threadId: string, text: string, deep: boolean, setDraft: SetDraft): PendingSend {
+export function startSend(threadId: string, text: string, deep: boolean, setDraft: SetDraft, attachments: ChatAttachment[] = []): PendingSend {
   const existing = pending.get(threadId);
   if (existing) return existing;
-  const optimistic: ChatMessage = { id: `local-${Date.now()}`, thread_id: threadId, role: "user", content_md: text, created_at: new Date().toISOString() };
-  const done = run(threadId, text, deep, setDraft).finally(() => {
+  const optimistic: ChatMessage = {
+    id: `local-${Date.now()}`,
+    thread_id: threadId,
+    role: "user",
+    content_md: text,
+    local_images: attachments.map((a) => a.uri),
+    created_at: new Date().toISOString(),
+  };
+  const done = run(threadId, text, deep, attachments, setDraft).finally(() => {
     pending.delete(threadId);
     emit();
   });
-  const p: PendingSend = { threadId, text, deep, optimistic, done };
+  const p: PendingSend = { threadId, text, deep, attachments, optimistic, done };
   pending.set(threadId, p);
   emit();
   return p;

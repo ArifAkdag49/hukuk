@@ -1,9 +1,11 @@
+import * as ImagePicker from "expo-image-picker";
 import { router, useLocalSearchParams } from "expo-router";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { ActivityIndicator, Keyboard, KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
+import { ActivityIndicator, Image, Keyboard, KeyboardAvoidingView, Pressable, ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { api, errorText } from "../../src/api";
-import { getPending, startSend, type PendingSend, type SendOutcome } from "../../src/chatPending";
+import { getPending, startSend, type ChatAttachment, type PendingSend, type SendOutcome } from "../../src/chatPending";
+import { ChatImage } from "../../src/components/ChatImage";
 import { Markdown, openLink } from "../../src/components/Markdown";
 import { HeaderButton } from "../../src/components/Screen";
 import { ErrorState, LoadingState, Notice } from "../../src/components/States";
@@ -11,6 +13,9 @@ import { Button, Icon, IconBubble, T } from "../../src/components/ui";
 import { useApp } from "../../src/store/AppContext";
 import { colors, courseColor, fonts, maxContentWidth, radius, shadow, space } from "../../src/theme";
 import type { ChatMessage, Source, Thread } from "../../src/types";
+
+const MAX_PHOTOS = 3;
+const PHOTO_ONLY_TEXT = "Bu fotoğrafı inceleyip anlatır mısın?";
 
 const SOURCE_META: Record<Source["type"], { emoji: string; name: string }> = {
   kb: { emoji: "📘", name: "Bilgi bankası" },
@@ -33,6 +38,8 @@ export default function Sohbet() {
   const [sending, setSending] = useState<null | { deep: boolean }>(null);
   const [sendError, setSendError] = useState<string | null>(null);
   const [suggestNew, setSuggestNew] = useState(false);
+  const [attachments, setAttachments] = useState<ChatAttachment[]>([]);
+  const [photoMenu, setPhotoMenu] = useState(false);
 
   // Yeni sohbet: önce thread oluştur, sonra gerçek adrese geç
   useEffect(() => {
@@ -84,8 +91,9 @@ export default function Sohbet() {
           void load(); // sunucudaki gerçek kayıtlarla eşitle
         } else {
           setMessages((m) => (m ?? []).filter((x) => x.id !== p.optimistic.id));
-          setInput(p.text);
-          setSendError(errorText(r.error));
+          setInput(p.text === PHOTO_ONLY_TEXT ? "" : p.text);
+          setAttachments(p.attachments);
+          setSendError(`${errorText(r.error)} Mesajın kutuda duruyor, tekrar gönderebilirsin.`);
         }
       });
     },
@@ -129,11 +137,53 @@ export default function Sohbet() {
     };
   }, []);
 
-  function send(content: string, deep = false) {
-    const text = content.trim();
+  async function pickPhoto(camera: boolean) {
+    setPhotoMenu(false);
+    setSendError(null);
+    const left = MAX_PHOTOS - attachments.length;
+    if (left <= 0) {
+      setSendError(`Bir mesajda en çok ${MAX_PHOTOS} fotoğraf gönderebilirsin.`);
+      return;
+    }
+    try {
+      if (camera) {
+        const perm = await ImagePicker.requestCameraPermissionsAsync();
+        if (!perm.granted) {
+          setSendError("Kamera izni verilmedi. Ayarlardan izin verip tekrar dene ya da galeriden seç.");
+          return;
+        }
+      }
+      const opts: ImagePicker.ImagePickerOptions = { mediaTypes: ["images"], quality: 0.7, base64: true };
+      const r = camera
+        ? await ImagePicker.launchCameraAsync(opts)
+        : await ImagePicker.launchImageLibraryAsync({ ...opts, allowsMultipleSelection: left > 1, selectionLimit: left });
+      if (r.canceled) return;
+      const picked: ChatAttachment[] = [];
+      for (const a of r.assets) {
+        // web'de veri bazen yalnız data: adresinin içinde gelir
+        const base64 = a.base64 ?? (a.uri.startsWith("data:") ? a.uri.split(",")[1] : null);
+        if (base64) picked.push({ uri: a.uri, base64 });
+      }
+      if (picked.length === 0) {
+        setSendError("Fotoğraf okunamadı. Başka bir fotoğraf dene.");
+        return;
+      }
+      setAttachments((list) => [...list, ...picked].slice(0, MAX_PHOTOS));
+    } catch {
+      setSendError("Fotoğraf alınamadı. Tekrar dene.");
+    }
+  }
+
+  function send(content: string, deep = false, fromBox = false) {
+    const photos = fromBox ? attachments : [];
+    const text = content.trim() || (photos.length > 0 ? PHOTO_ONLY_TEXT : "");
     if (!text || sending || isNew || getPending(String(id))) return;
     setSendError(null);
-    const p = startSend(String(id), text, deep, setDraft);
+    const p = startSend(String(id), text, deep, setDraft, photos);
+    if (fromBox) {
+      setAttachments([]);
+      setPhotoMenu(false);
+    }
     setMessages((m) => [...(m ?? []), p.optimistic]);
     setInput("");
     // Taslak hemen silinir ki geri dönünce gönderilmiş mesaj kutuda durmasın; gönderim başarısız olursa geri yazılır
@@ -141,6 +191,7 @@ export default function Sohbet() {
     follow(p, () => aliveRef.current);
   }
 
+  const canSend = (!!input.trim() || attachments.length > 0) && !sending;
   const lastUser = [...(messages ?? [])].reverse().find((m) => m.role === "user");
   const last = messages?.[messages.length - 1];
   const topicLite = thread?.topic_id ? kb?.topicById.get(thread.topic_id) : null;
@@ -250,11 +301,45 @@ export default function Sohbet() {
             <Button label="Yeni sohbet aç" icon="chat-plus-outline" size="sm" onPress={() => void newThread()} />
           </View>
         ) : null}
-        {sendError ? <Notice tone="danger" text={`${sendError} Mesajın kutuda duruyor, tekrar gönderebilirsin.`} /> : null}
+        {sendError ? <Notice tone="danger" text={sendError} /> : null}
       </ScrollView>
 
       <View style={[styles.inputBar, { paddingBottom: insets.bottom + space.sm }]}>
+        {attachments.length > 0 ? (
+          <View style={styles.previews}>
+            {attachments.map((a, i) => (
+              <View key={`${a.uri}-${i}`} style={styles.preview}>
+                <Image source={{ uri: a.uri }} style={styles.previewImage} accessibilityLabel={`Eklenen fotoğraf ${i + 1}`} />
+                <Pressable
+                  onPress={() => setAttachments((list) => list.filter((_, j) => j !== i))}
+                  hitSlop={8}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Fotoğraf ${i + 1} kaldır`}
+                  style={styles.previewRemove}
+                >
+                  <Icon name="close" size={14} color={colors.white} />
+                </Pressable>
+              </View>
+            ))}
+          </View>
+        ) : null}
+        {photoMenu ? (
+          <View style={styles.photoMenu}>
+            <QuickBtn label="Fotoğraf çek" icon="camera-outline" onPress={() => void pickPhoto(true)} />
+            <QuickBtn label="Galeriden seç" icon="image-outline" onPress={() => void pickPhoto(false)} />
+          </View>
+        ) : null}
         <View style={styles.inputInner}>
+          <Pressable
+            onPress={() => setPhotoMenu((v) => !v)}
+            disabled={isNew}
+            accessibilityRole="button"
+            accessibilityLabel="Fotoğraf ekle"
+            accessibilityState={{ expanded: photoMenu }}
+            style={({ pressed }) => [styles.attach, photoMenu && { backgroundColor: colors.primaryTint }, pressed && { opacity: 0.8 }]}
+          >
+            <Icon name={photoMenu ? "close" : "camera-plus-outline"} color={colors.primary} size={24} />
+          </Pressable>
           <TextInput
             value={input}
             onChangeText={(t) => {
@@ -269,11 +354,11 @@ export default function Sohbet() {
             editable={!isNew}
           />
           <Pressable
-            onPress={() => send(input)}
-            disabled={!input.trim() || !!sending}
+            onPress={() => send(input, false, true)}
+            disabled={!canSend}
             accessibilityRole="button"
             accessibilityLabel="Gönder"
-            style={({ pressed }) => [styles.send, (!input.trim() || !!sending) && { opacity: 0.4 }, pressed && { opacity: 0.8 }]}
+            style={({ pressed }) => [styles.send, !canSend && { opacity: 0.4 }, pressed && { opacity: 0.8 }]}
           >
             <Icon name="send" color={colors.white} size={22} />
           </Pressable>
@@ -285,8 +370,16 @@ export default function Sohbet() {
 
 function Bubble({ m, accent, onSource }: { m: ChatMessage; accent: string; onSource: (s: Source) => void }) {
   if (m.role === "user") {
+    const photos = m.local_images?.length ? m.local_images : (m.images ?? []);
     return (
       <View style={[styles.bubble, styles.userBubble]}>
+        {photos.length > 0 ? (
+          <View style={styles.bubbleImages}>
+            {m.local_images?.length
+              ? m.local_images.map((uri) => <ChatImage key={uri} uri={uri} />)
+              : (m.images ?? []).map((imageId) => <ChatImage key={imageId} id={imageId} />)}
+          </View>
+        ) : null}
         <T v="body" color={colors.white}>
           {m.content_md}
         </T>
@@ -372,5 +465,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: colors.ink,
   },
+  bubbleImages: { flexDirection: "row", flexWrap: "wrap", gap: 6, marginBottom: space.xs },
+  previews: { flexDirection: "row", gap: space.xs, width: "100%", maxWidth: maxContentWidth, alignSelf: "center", paddingBottom: space.sm },
+  preview: { width: 64, height: 64 },
+  previewImage: { width: 64, height: 64, borderRadius: radius.md, backgroundColor: colors.surfaceAlt },
+  previewRemove: { position: "absolute", top: -6, right: -6, width: 22, height: 22, borderRadius: 11, backgroundColor: colors.ink, alignItems: "center", justifyContent: "center" },
+  photoMenu: { flexDirection: "row", flexWrap: "wrap", gap: space.xs, width: "100%", maxWidth: maxContentWidth, alignSelf: "center", paddingBottom: space.sm },
+  attach: { width: 48, height: 48, borderRadius: 16, backgroundColor: colors.surfaceAlt, alignItems: "center", justifyContent: "center" },
   send: { width: 48, height: 48, borderRadius: 16, backgroundColor: colors.primary, alignItems: "center", justifyContent: "center" },
 });

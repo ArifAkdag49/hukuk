@@ -1,13 +1,17 @@
+import base64
 import uuid
 
+import anyio
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel, field_validator
+from pydantic import BaseModel, Field, field_validator
 
 from .. import db
 from ..auth import require_user
 from ..services import assistant_service
 
 router = APIRouter(dependencies=[Depends(require_user)])
+
+MAX_IMAGES = 3
 
 
 class ThreadIn(BaseModel):
@@ -18,6 +22,7 @@ class ThreadIn(BaseModel):
 class MessageIn(BaseModel):
     content: str
     deep: bool = False
+    images: list[str] = Field(default_factory=list, max_length=MAX_IMAGES)  # base64
 
     @field_validator("content")
     @classmethod
@@ -61,7 +66,7 @@ def list_threads():
 @router.get("/assistant/threads/{thread_id}/messages")
 def list_messages(thread_id: uuid.UUID):
     return db.fetch_all(
-        "select id, thread_id, role, content_md, sources, model, created_at from chat_messages "
+        "select id, thread_id, role, content_md, sources, model, images, created_at from chat_messages "
         "where thread_id = %s order by created_at",
         [thread_id],
     )
@@ -72,10 +77,25 @@ async def send(thread_id: uuid.UUID, body: MessageIn):
     thread = await db.run(db.fetch_one, f"select {THREAD_COLS} from chat_threads where id = %s", [thread_id])
     if thread is None:
         raise HTTPException(404, "Sohbet bulunamadı")
-    return await assistant_service.answer(thread, body.content, body.deep)
+    try:
+        images = [await anyio.to_thread.run_sync(assistant_service.prepare_image, b) for b in body.images]
+    except assistant_service.ImageError as e:
+        raise HTTPException(422, str(e)) from e
+    return await assistant_service.answer(thread, body.content, body.deep, images)
+
+
+@router.get("/assistant/images/{image_id}")
+def get_image(image_id: uuid.UUID):
+    try:
+        with open(assistant_service.image_path(str(image_id)), "rb") as f:
+            data = f.read()
+    except OSError as e:
+        raise HTTPException(404, "Fotoğraf bulunamadı") from e
+    return {"media_type": "image/jpeg", "data": base64.standard_b64encode(data).decode()}
 
 
 @router.delete("/assistant/threads/{thread_id}")
 def delete_thread(thread_id: uuid.UUID):
+    assistant_service.delete_thread_images(thread_id)
     db.execute("delete from chat_threads where id = %s", [thread_id])
     return {"ok": True}
