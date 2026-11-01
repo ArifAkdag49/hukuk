@@ -18,11 +18,12 @@ async function loadImage(id: string): Promise<string> {
 }
 
 /** Sohbetteki fotoğraf: `uri` varsa yerel dosya, yoksa `id` ile sunucudan. Dokununca tam ekran açılır. */
-export function ChatImage({ id, uri }: { id?: string; uri?: string }) {
+export function ChatImage({ id, uri, small }: { id?: string; uri?: string; small?: boolean }) {
   const insets = useSafeAreaInsets();
   const [src, setSrc] = useState<string | null>(uri ?? (id ? cache.get(id) ?? null : null));
   const [failed, setFailed] = useState(false);
   const [open, setOpen] = useState(false);
+  const thumb = [styles.thumb, small && styles.small];
 
   useEffect(() => {
     if (src || !id) return;
@@ -37,14 +38,14 @@ export function ChatImage({ id, uri }: { id?: string; uri?: string }) {
 
   if (failed) {
     return (
-      <View style={styles.thumb} accessibilityLabel="Fotoğraf yüklenemedi">
+      <View style={thumb} accessibilityLabel="Fotoğraf yüklenemedi">
         <Icon name="image-broken-variant" color={colors.muted} />
       </View>
     );
   }
   if (!src) {
     return (
-      <View style={styles.thumb}>
+      <View style={thumb}>
         <ActivityIndicator color={colors.primary} />
       </View>
     );
@@ -52,7 +53,7 @@ export function ChatImage({ id, uri }: { id?: string; uri?: string }) {
   return (
     <>
       <Pressable onPress={() => setOpen(true)} accessibilityRole="imagebutton" accessibilityLabel="Fotoğrafı büyüt">
-        <Image source={{ uri: src }} style={styles.thumb} resizeMode="cover" />
+        <Image source={{ uri: src }} style={thumb} resizeMode="cover" />
       </Pressable>
       <Modal visible={open} transparent animationType="fade" statusBarTranslucent onRequestClose={() => setOpen(false)}>
         <View style={styles.full}>
@@ -73,6 +74,7 @@ export function ChatImage({ id, uri }: { id?: string; uri?: string }) {
 
 const styles = StyleSheet.create({
   thumb: { width: 180, height: 180, maxWidth: "100%", borderRadius: radius.md, backgroundColor: colors.surfaceAlt, alignItems: "center", justifyContent: "center" },
+  small: { width: 92, height: 92 },
   full: { flex: 1, backgroundColor: "rgba(0, 0, 0, 0.92)", alignItems: "center", justifyContent: "center" },
   fullImage: { width: "100%", height: "100%" },
   close: { position: "absolute", right: space.md, width: 48, height: 48, borderRadius: 24, backgroundColor: "rgba(255, 255, 255, 0.18)", alignItems: "center", justifyContent: "center" },

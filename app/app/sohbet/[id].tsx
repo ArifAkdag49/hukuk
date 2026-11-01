@@ -14,7 +14,9 @@ import { useApp } from "../../src/store/AppContext";
 import { colors, courseColor, fonts, maxContentWidth, radius, shadow, space } from "../../src/theme";
 import type { ChatMessage, Source, Thread } from "../../src/types";
 
-const MAX_PHOTOS = 3;
+const MAX_PHOTOS = 10;
+// 10 tam boy fotoğraf sunucunun 45 MB sınırını zorlar; sunucu zaten 1568 px'e küçültür, yazılar okunur kalır
+const PHOTO_QUALITY = 0.45;
 const PHOTO_ONLY_TEXT = "Bu fotoğrafı inceleyip anlatır mısın?";
 
 const SOURCE_META: Record<Source["type"], { emoji: string; name: string }> = {
@@ -153,7 +155,7 @@ export default function Sohbet() {
           return;
         }
       }
-      const opts: ImagePicker.ImagePickerOptions = { mediaTypes: ["images"], quality: 0.7, base64: true };
+      const opts: ImagePicker.ImagePickerOptions = { mediaTypes: ["images"], quality: PHOTO_QUALITY, base64: true };
       const r = camera
         ? await ImagePicker.launchCameraAsync(opts)
         : await ImagePicker.launchImageLibraryAsync({ ...opts, allowsMultipleSelection: left > 1, selectionLimit: left });
@@ -376,8 +378,8 @@ function Bubble({ m, accent, onSource }: { m: ChatMessage; accent: string; onSou
         {photos.length > 0 ? (
           <View style={styles.bubbleImages}>
             {m.local_images?.length
-              ? m.local_images.map((uri) => <ChatImage key={uri} uri={uri} />)
-              : (m.images ?? []).map((imageId) => <ChatImage key={imageId} id={imageId} />)}
+              ? m.local_images.map((uri, i) => <ChatImage key={`${i}-${uri.slice(-24)}`} uri={uri} small={photos.length > 1} />)
+              : (m.images ?? []).map((imageId) => <ChatImage key={imageId} id={imageId} small={photos.length > 1} />)}
           </View>
         ) : null}
         <T v="body" color={colors.white}>
@@ -466,7 +468,7 @@ const styles = StyleSheet.create({
     color: colors.ink,
   },
   bubbleImages: { flexDirection: "row", flexWrap: "wrap", gap: 6, marginBottom: space.xs },
-  previews: { flexDirection: "row", gap: space.xs, width: "100%", maxWidth: maxContentWidth, alignSelf: "center", paddingBottom: space.sm },
+  previews: { flexDirection: "row", flexWrap: "wrap", gap: space.sm, width: "100%", maxWidth: maxContentWidth, alignSelf: "center", paddingBottom: space.sm },
   preview: { width: 64, height: 64 },
   previewImage: { width: 64, height: 64, borderRadius: radius.md, backgroundColor: colors.surfaceAlt },
   previewRemove: { position: "absolute", top: -6, right: -6, width: 22, height: 22, borderRadius: 11, backgroundColor: colors.ink, alignItems: "center", justifyContent: "center" },

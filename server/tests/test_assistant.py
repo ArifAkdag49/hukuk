@@ -366,13 +366,13 @@ def test_history_keeps_only_recent_photos(auth_client, kb, tools, uploads):
     fake.create_outputs.insert(1, message([text_block("Başlık")]))
     tid = thread(auth_client)
     for i in range(2):
-        r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": f"Soru {i}", "images": [_png((50, 50))] * 3})
+        r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": f"Soru {i}", "images": [_png((50, 50))] * 6})
         assert r.status_code == 200, r.text
     r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Son soru"})
     assert r.status_code == 200, r.text
     sent = [c for c in fake.calls if c[1].get("tools")][-1][1]["messages"]
     images = [b for m in sent if isinstance(m["content"], list) for b in m["content"] if isinstance(b, dict) and b.get("type") == "image"]
-    assert len(images) == 4
+    assert len(images) == 10
     assert "2 fotoğraf gönderilmişti" in sent[0]["content"][-1]["text"]
 
 
@@ -382,7 +382,7 @@ def test_bad_photo_is_rejected_without_calling_model(auth_client, kb, tools, upl
     tid = thread(auth_client)
     r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "x", "images": ["bm90IGltYWdl"]})
     assert r.status_code == 422
-    assert auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "x", "images": ["e30="] * 4}).status_code == 422
+    assert auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "x", "images": ["e30="] * 11}).status_code == 422
     assert fake.calls == []
 
 
