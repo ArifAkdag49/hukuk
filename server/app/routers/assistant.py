@@ -11,7 +11,7 @@ from ..services import assistant_service
 
 router = APIRouter(dependencies=[Depends(require_user)])
 
-MAX_IMAGES = 3
+MAX_IMAGES = 10
 
 
 class ThreadIn(BaseModel):

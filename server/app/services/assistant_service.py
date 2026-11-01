@@ -30,7 +30,7 @@ SUGGEST_NEW_AFTER = 20
 TOOL_RESULT_LIMIT = 20_000  # karar tam metni 5-30 bin token olabiliyor; her turda yeniden gönderiliyor
 MAX_IMAGE_SIDE = 1568  # model bundan büyüğünü zaten küçültür; fazlası boşuna yer kaplar
 MAX_IMAGE_INPUT_BYTES = 20_000_000
-HISTORY_IMAGES = 4  # geçmişte en son bu kadar fotoğraf yeniden gönderilir; her turda ücretlenir
+HISTORY_IMAGES = 10  # geçmişte en son bu kadar fotoğraf yeniden gönderilir; her turda ücretlenir (önbellekten ucuz)
 
 SYSTEM = """Sen bir hukuk fakültesi öğrencisine ders çalışmada yardım eden asistansın (Marmara Üniversitesi, 2. ve 3. sınıf dersleri). Türkçe, sade, öğretici ve akılda kalıcı cevap ver.
 
