@@ -318,3 +318,79 @@ def test_note_thread_requires_existing_ready_note(auth_client, kb, sql):
         [NOTE_ID],
     )
     assert auth_client.post("/assistant/threads", json={"note_id": NOTE_ID}).status_code == 409
+
+
+def _png(size=(2400, 1200)) -> str:
+    import base64
+    import io
+
+    from PIL import Image
+
+    out = io.BytesIO()
+    Image.new("RGB", size, (200, 30, 30)).save(out, "PNG")
+    return base64.b64encode(out.getvalue()).decode()
+
+
+@pytest.fixture
+def uploads(tmp_path, monkeypatch):
+    from app.config import get_settings
+
+    monkeypatch.setattr(get_settings(), "upload_dir", str(tmp_path))
+    return tmp_path
+
+
+def test_photo_goes_to_model_and_is_stored_small(auth_client, kb, tools, uploads):
+    import base64
+    import io
+
+    from PIL import Image
+
+    fake = FakeClient(create_outputs=[message([text_block("Cevap")]), message([text_block("Başlık")])])
+    install(fake)
+    tid = thread(auth_client)
+    r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Bu ne?", "images": [_png()]})
+    assert r.status_code == 200, r.text
+    last = fake.calls[0][1]["messages"][-1]["content"]
+    assert last[0]["type"] == "image" and last[0]["source"]["media_type"] == "image/jpeg"
+    assert last[-1]["text"] == "Bu ne?"
+    msgs = auth_client.get(f"/assistant/threads/{tid}/messages").json()
+    assert len(msgs[0]["images"]) == 1 and msgs[1]["images"] == []
+    got = auth_client.get(f"/assistant/images/{msgs[0]['images'][0]}").json()
+    with Image.open(io.BytesIO(base64.b64decode(got["data"]))) as im:
+        assert max(im.size) == 1568
+
+
+def test_history_keeps_only_recent_photos(auth_client, kb, tools, uploads):
+    fake = FakeClient(create_outputs=[message([text_block("Cevap")]) for _ in range(9)] + [message([text_block("Başlık")])])
+    install(fake)
+    fake.create_outputs.insert(1, message([text_block("Başlık")]))
+    tid = thread(auth_client)
+    for i in range(2):
+        r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": f"Soru {i}", "images": [_png((50, 50))] * 3})
+        assert r.status_code == 200, r.text
+    r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Son soru"})
+    assert r.status_code == 200, r.text
+    sent = [c for c in fake.calls if c[1].get("tools")][-1][1]["messages"]
+    images = [b for m in sent if isinstance(m["content"], list) for b in m["content"] if isinstance(b, dict) and b.get("type") == "image"]
+    assert len(images) == 4
+    assert "2 fotoğraf gönderilmişti" in sent[0]["content"][-1]["text"]
+
+
+def test_bad_photo_is_rejected_without_calling_model(auth_client, kb, tools, uploads):
+    fake = FakeClient(create_outputs=[])
+    install(fake)
+    tid = thread(auth_client)
+    r = auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "x", "images": ["bm90IGltYWdl"]})
+    assert r.status_code == 422
+    assert auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "x", "images": ["e30="] * 4}).status_code == 422
+    assert fake.calls == []
+
+
+def test_deleting_thread_removes_photo_files(auth_client, kb, tools, uploads):
+    fake = FakeClient(create_outputs=[message([text_block("Cevap")]), message([text_block("Başlık")])])
+    install(fake)
+    tid = thread(auth_client)
+    auth_client.post(f"/assistant/threads/{tid}/messages", json={"content": "Bu ne?", "images": [_png((50, 50))]})
+    assert len(list((uploads / "sohbet").iterdir())) == 1
+    auth_client.delete(f"/assistant/threads/{tid}")
+    assert list((uploads / "sohbet").iterdir()) == []

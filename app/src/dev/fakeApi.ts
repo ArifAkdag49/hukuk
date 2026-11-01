@@ -10,6 +10,7 @@ import { fixtureKb } from "./fixture";
  */
 
 const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const chatImages = new Map<string, string>();
 const now = () => new Date().toISOString();
 let idc = 0;
 const fid = (p: string) => `${p}-${Date.now().toString(36)}-${(++idc).toString(36)}`;
@@ -352,12 +353,21 @@ export const fakeApi: ApiClient = {
     await wait(250);
     return [...(messages[id] ?? [])];
   },
-  async sendMessage(id, content, deep) {
+  async getChatImage(id) {
+    await wait(150);
+    return { media_type: "image/jpeg", data: chatImages.get(id) ?? "" };
+  },
+  async sendMessage(id, content, deep, images) {
     guardAi();
     // gerçek sunucu gibi: soru cevapla birlikte, cevap bitince kaydedilir
     await wait(deep ? 3500 : 2000);
     const list = messages[id] ?? (messages[id] = []);
-    list.push({ id: fid("m"), thread_id: id, role: "user", content_md: content, created_at: now() });
+    const ids = (images ?? []).map((data) => {
+      const imageId = fid("img");
+      chatImages.set(imageId, data);
+      return imageId;
+    });
+    list.push({ id: fid("m"), thread_id: id, role: "user", content_md: content, images: ids, created_at: now() });
     const thread = threads.find((t) => t.id === id);
     const topicTitle = kb.topics.find((t) => t.id === thread?.topic_id)?.title ?? null;
     const a = fakeAnswer(content, deep, topicTitle);

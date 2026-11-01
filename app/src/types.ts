@@ -244,6 +244,10 @@ export interface ChatMessage {
   content_md: string;
   sources?: Source[];
   model?: string | null;
+  /** Sunucudaki fotoğraf kimlikleri. */
+  images?: string[];
+  /** Cevap beklenirken gösterilen, henüz sunucuya kaydolmamış fotoğraflar. */
+  local_images?: string[];
   created_at: string;
 }
 

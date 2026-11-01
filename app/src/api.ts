@@ -55,7 +55,8 @@ export interface ApiClient {
   listThreads(): Promise<Thread[]>;
   deleteThread(id: string): Promise<void>;
   getMessages(threadId: string): Promise<ChatMessage[]>;
-  sendMessage(threadId: string, content: string, deep: boolean): Promise<SendMessageResult>;
+  sendMessage(threadId: string, content: string, deep: boolean, images?: string[]): Promise<SendMessageResult>;
+  getChatImage(id: string): Promise<{ media_type: string; data: string }>;
   getUsage(): Promise<Usage>;
 }
 
@@ -174,13 +175,14 @@ const realApi: ApiClient = {
   listThreads: () => request("/assistant/threads"),
   deleteThread: (id) => request(`/assistant/threads/${encodeURIComponent(id)}`, { method: "DELETE" }),
   getMessages: (id) => request(`/assistant/threads/${encodeURIComponent(id)}/messages`),
-  sendMessage: (id, content, deep) =>
+  sendMessage: (id, content, deep, images) =>
     request(`/assistant/threads/${encodeURIComponent(id)}/messages`, {
       method: "POST",
-      body: { content, deep },
+      body: { content, deep, ...(images?.length ? { images } : {}) },
       // derin cevap birkaç karar metniyle 2-4 dk sürebilir; nginx 300 sn
       timeoutMs: 290_000,
     }),
+  getChatImage: (id) => request(`/assistant/images/${encodeURIComponent(id)}`),
   getUsage: () => request("/usage/month"),
 };
 
