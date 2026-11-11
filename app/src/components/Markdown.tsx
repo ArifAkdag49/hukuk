@@ -1,7 +1,8 @@
 import * as WebBrowser from "expo-web-browser";
 import { useMemo } from "react";
-import { ScrollView, StyleSheet, View } from "react-native";
+import { StyleSheet, Text, View, useWindowDimensions } from "react-native";
 import MarkdownDisplay, { type RenderRules } from "react-native-markdown-display";
+import { tableData } from "../markdownTable";
 import { accentInk, accentWash, colors, fonts, radius, space } from "../theme";
 
 export function openLink(url: string) {
@@ -28,6 +29,8 @@ export function Markdown({
   compact?: boolean;
 }) {
   const style = useMemo(() => makeStyles(reading, accent, color, compact), [reading, accent, color, compact]);
+  const { width } = useWindowDimensions();
+  const rules = useMemo(() => makeRules(width, accent), [width, accent]);
   if (!children) return null;
   return (
     <MarkdownDisplay
@@ -43,23 +46,54 @@ export function Markdown({
   );
 }
 
-const CELL_WIDTH = 150;
-const FIT_COLUMNS = 3;
+const MIN_CELL_WIDTH = 110;
+// Sohbet balonu ve konu sayfası kenar boşlukları
+const SIDE_PADDING = 96;
 
-/** En çok 3 sütunlu tablo ekran genişliğine sığar; daha genişi sabit hücre genişliğiyle yatay kayar. */
-const rules: RenderRules = {
-  table: (node, children, _parent, styles) => {
-    const cols = columnCount(node);
-    const wide = cols > FIT_COLUMNS;
-    const table = <View style={[styles._VIEW_SAFE_table, wide && { width: cols * CELL_WIDTH }]}>{children}</View>;
-    if (!wide) return <View key={node.key} style={{ marginVertical: space.sm }}>{table}</View>;
-    return (
-      <ScrollView key={node.key} horizontal nestedScrollEnabled showsHorizontalScrollIndicator style={{ marginVertical: space.sm }}>
-        {table}
-      </ScrollView>
-    );
-  },
-};
+/**
+ * Tablolar yatay kaydırılmaz: Android yatay kaydırma kutusunun yüksekliğini yanlış ölçüp altında
+ * büyük bir boşluk bırakıyor ve metnin sonunu kesiyordu. Sütunlar ekrana sığıyorsa tablo, sığmıyorsa
+ * her satır bir kart olarak gösterilir (ilk hücre başlık, diğerleri "Sütun: değer").
+ */
+function makeRules(windowWidth: number, accent: string): RenderRules {
+  const ink = accentInk(accent);
+  return {
+    table: (node, children, _parent, styles) => {
+      const cols = columnCount(node);
+      if (cols * MIN_CELL_WIDTH <= windowWidth - SIDE_PADDING) {
+        return (
+          <View key={node.key} style={[styles._VIEW_SAFE_table, { marginVertical: space.sm }]}>
+            {children}
+          </View>
+        );
+      }
+      const { headers, rows } = tableData(node as never);
+      const body = styles.body ?? {};
+      return (
+        <View key={node.key} style={{ gap: space.xs, marginVertical: space.sm }}>
+          {rows.map((row, i) => (
+            <View key={i} style={[cardStyles.card, { borderLeftColor: accentWash(accent, 0.45) }]}>
+              <Text style={[body, cardStyles.title, { color: ink }]}>{row[0]}</Text>
+              {row.slice(1).map((value, j) => (
+                <Text key={j} style={[body, cardStyles.line]}>
+                  <Text style={cardStyles.label}>{headers[j + 1] ? `${headers[j + 1]}: ` : ""}</Text>
+                  {value || "–"}
+                </Text>
+              ))}
+            </View>
+          ))}
+        </View>
+      );
+    },
+  };
+}
+
+const cardStyles = StyleSheet.create({
+  card: { borderWidth: 1, borderColor: colors.line, borderLeftWidth: 4, borderRadius: radius.sm, padding: space.sm, gap: 4, backgroundColor: colors.surface },
+  title: { fontFamily: fonts.semibold, fontSize: 15, lineHeight: 21 },
+  line: { fontSize: 14, lineHeight: 20 },
+  label: { fontFamily: fonts.semibold, color: colors.inkSoft },
+});
 
 function columnCount(node: { children?: { children?: { children?: unknown[] }[] }[] }): number {
   return node.children?.[0]?.children?.[0]?.children?.length ?? 0;
