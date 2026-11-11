@@ -85,13 +85,22 @@ const bool = (v: unknown) => v === 1 || v === true;
 
 type Row = Record<string, unknown>;
 
+/** Kendi bağlantısı: önbellekteki paylaşılan bağlantı başka bir çalışma ortamı tarafından kapatılamaz. */
+function open() {
+  return SQLite.openDatabaseAsync("hukuk.db", { useNewConnection: true });
+}
+
+function isClosedError(e: unknown): boolean {
+  const msg = e instanceof Error ? e.message : String(e);
+  return /NullPointerException|database is closed|not open/i.test(msg);
+}
+
 export class SqliteDepo implements Depo {
   private db: SQLite.SQLiteDatabase | null = null;
   // Tek bağlantı, sıralı yazım: aynı bağlantıdaki async sorgular açık bir işleme (transaction)
   // karışabilir. İşlemler, yazımlar ve KB okumaları bu kuyruktan sırayla geçer; KB değişimi
   // sürerken öğrencinin quiz/kart yazımı bekler, işleme karışıp onunla geri alınmaz.
-  // withExclusiveTransactionAsync ikinci bağlantı açıyor ve Android'de (Expo Go) prepareAsync
-  // NullPointerException veriyor; bu yüzden kullanılmıyor.
+  // withExclusiveTransactionAsync ikinci bir bağlantıyla çalışıyor; tek bağlantı ve kuyruk yeterli.
   private tail: Promise<unknown> = Promise.resolve();
 
   private get conn(): SQLite.SQLiteDatabase {
@@ -100,19 +109,40 @@ export class SqliteDepo implements Depo {
   }
 
   private serial<T>(fn: () => Promise<T>): Promise<T> {
-    const run = this.tail.then(fn);
+    const run = this.tail.then(() => this.retry(fn));
     this.tail = run.catch(() => undefined);
     return run;
   }
 
+  /**
+   * Yerel bağlantı alttan kapanmışsa (Android'de uygulama güncellemeyle yeniden yüklenince eski
+   * çalışma ortamı kapanırken paylaşılan bağlantıyı kapatabiliyor: "prepareAsync ...
+   * NullPointerException") bağlantıyı yeniden açıp işlemi bir kez daha dener. İşlemler tek
+   * transaction içinde olduğundan yarım kalan yazım geri alınmış olur.
+   */
+  private async retry<T>(fn: () => Promise<T>): Promise<T> {
+    try {
+      return await fn();
+    } catch (e) {
+      if (!isClosedError(e)) throw e;
+      this.db = await open();
+      return fn();
+    }
+  }
+
+  /** Sıraya girmeyen tek sorgulu okumalar: bağlantı kapanmışsa yeniden açıp dener. */
+  private read<T>(fn: (db: SQLite.SQLiteDatabase) => Promise<T>): Promise<T> {
+    return this.retry(() => fn(this.conn));
+  }
+
   async init() {
     if (this.db) return;
-    this.db = await SQLite.openDatabaseAsync("hukuk.db");
+    this.db = await open();
     await this.db.execAsync(SCHEMA);
   }
 
   async getMeta(key: string) {
-    const r = await this.conn.getFirstAsync<{ value: string | null }>("SELECT value FROM meta WHERE key = ?", key);
+    const r = await this.read((db) => db.getFirstAsync<{ value: string | null }>("SELECT value FROM meta WHERE key = ?", key));
     return r?.value ?? null;
   }
   setMeta(key: string, value: string | null) {
@@ -273,7 +303,7 @@ export class SqliteDepo implements Depo {
     if (queue) await this.enqueue("attempt", a);
   }
   async listAttempts(): Promise<Attempt[]> {
-    const rows = await this.conn.getAllAsync<Row>("SELECT * FROM local_attempts ORDER BY created_at");
+    const rows = await this.read((db) => db.getAllAsync<Row>("SELECT * FROM local_attempts ORDER BY created_at"));
     return rows.map((r) => ({
       id: String(r.id), question_id: String(r.question_id), kind: r.kind as Attempt["kind"],
       selected_option: r.selected_option == null ? null : Number(r.selected_option),
@@ -293,7 +323,7 @@ export class SqliteDepo implements Depo {
     if (queue) await this.enqueue("card_review", rv);
   }
   async listCardReviews(): Promise<CardReview[]> {
-    const rows = await this.conn.getAllAsync<Row>("SELECT * FROM local_card_reviews ORDER BY reviewed_at");
+    const rows = await this.read((db) => db.getAllAsync<Row>("SELECT * FROM local_card_reviews ORDER BY reviewed_at"));
     return rows.map((r) => ({
       id: String(r.id), card_id: String(r.card_id), grade: r.grade as CardReview["grade"], reviewed_at: String(r.reviewed_at),
     }));
@@ -310,7 +340,7 @@ export class SqliteDepo implements Depo {
     if (queue) await this.enqueue("card_state", s);
   }
   async listCardStates(): Promise<CardState[]> {
-    const rows = await this.conn.getAllAsync<Row>("SELECT * FROM local_card_states");
+    const rows = await this.read((db) => db.getAllAsync<Row>("SELECT * FROM local_card_states"));
     return rows.map((r) => ({
       card_id: String(r.card_id), ease: Number(r.ease), interval_days: Number(r.interval_days),
       repetitions: Number(r.repetitions), due_at: String(r.due_at), last_grade: r.last_grade as CardState["last_grade"],
@@ -357,11 +387,11 @@ export class SqliteDepo implements Depo {
   }
 
   async getTopicNote(topicId: string): Promise<TopicNote | null> {
-    const r = await this.conn.getFirstAsync<Row>("SELECT * FROM topic_notes WHERE topic_id = ?", topicId);
+    const r = await this.read((db) => db.getFirstAsync<Row>("SELECT * FROM topic_notes WHERE topic_id = ?", topicId));
     return r ? { topic_id: String(r.topic_id), body_md: String(r.body_md ?? ""), updated_at: String(r.updated_at) } : null;
   }
   async listTopicNotes(): Promise<TopicNote[]> {
-    const rows = await this.conn.getAllAsync<Row>("SELECT * FROM topic_notes");
+    const rows = await this.read((db) => db.getAllAsync<Row>("SELECT * FROM topic_notes"));
     return rows.map((r) => ({ topic_id: String(r.topic_id), body_md: String(r.body_md ?? ""), updated_at: String(r.updated_at) }));
   }
   putTopicNote(n: TopicNote, queue = true) {
@@ -376,8 +406,8 @@ export class SqliteDepo implements Depo {
   }
   async listHighlights(topicId?: string): Promise<Highlight[]> {
     const rows = topicId
-      ? await this.conn.getAllAsync<Row>("SELECT * FROM highlights WHERE deleted = 0 AND topic_id = ? ORDER BY updated_at", topicId)
-      : await this.conn.getAllAsync<Row>("SELECT * FROM highlights WHERE deleted = 0 ORDER BY updated_at");
+      ? await this.read((db) => db.getAllAsync<Row>("SELECT * FROM highlights WHERE deleted = 0 AND topic_id = ? ORDER BY updated_at", topicId))
+      : await this.read((db) => db.getAllAsync<Row>("SELECT * FROM highlights WHERE deleted = 0 ORDER BY updated_at"));
     return rows.map((r) => ({
       id: String(r.id), topic_id: String(r.topic_id), section: r.section as Highlight["section"],
       block_hash: String(r.block_hash), excerpt: String(r.excerpt ?? ""), deleted: bool(r.deleted), updated_at: String(r.updated_at),
@@ -395,7 +425,7 @@ export class SqliteDepo implements Depo {
   }
 
   async listQueue(limit = 500): Promise<QueueItem[]> {
-    const rows = await this.conn.getAllAsync<Row>("SELECT * FROM sync_queue ORDER BY seq LIMIT ?", limit);
+    const rows = await this.read((db) => db.getAllAsync<Row>("SELECT * FROM sync_queue ORDER BY seq LIMIT ?", limit));
     return rows.map((r) => ({
       key: String(r.key), type: r.type as QueueType, payload: pj(r.payload, {} as Attempt),
       queued_at: String(r.queued_at), seq: Number(r.seq),
@@ -410,7 +440,7 @@ export class SqliteDepo implements Depo {
     });
   }
   async queueCount() {
-    const r = await this.conn.getFirstAsync<{ n: number }>("SELECT COUNT(*) AS n FROM sync_queue");
+    const r = await this.read((db) => db.getFirstAsync<{ n: number }>("SELECT COUNT(*) AS n FROM sync_queue"));
     return r?.n ?? 0;
   }
 

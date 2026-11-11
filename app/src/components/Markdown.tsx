@@ -54,7 +54,7 @@ const rules: RenderRules = {
     const table = <View style={[styles._VIEW_SAFE_table, wide && { width: cols * CELL_WIDTH }]}>{children}</View>;
     if (!wide) return <View key={node.key} style={{ marginVertical: space.sm }}>{table}</View>;
     return (
-      <ScrollView key={node.key} horizontal showsHorizontalScrollIndicator style={{ marginVertical: space.sm }}>
+      <ScrollView key={node.key} horizontal nestedScrollEnabled showsHorizontalScrollIndicator style={{ marginVertical: space.sm }}>
         {table}
       </ScrollView>
     );

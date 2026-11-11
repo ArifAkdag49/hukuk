@@ -251,7 +251,14 @@ export default function Sohbet() {
     // Android'de tam ekran (edge-to-edge) düzende pencere klavyeyle küçülmez: boşluğu KeyboardAvoidingView bırakır
     <KeyboardAvoidingView style={styles.root} behavior="padding">
       {header}
-      <ScrollView ref={scrollRef} contentContainerStyle={styles.list} keyboardShouldPersistTaps="handled">
+      <ScrollView
+        ref={scrollRef}
+        style={styles.scroll}
+        contentContainerStyle={styles.list}
+        keyboardShouldPersistTaps="handled"
+        keyboardDismissMode="on-drag"
+        nestedScrollEnabled
+      >
         <Notice tone="info" icon="scale-balance" text="Hukuki danışmanlık değildir. Önemli bilgileri resmî kaynaktan teyit et." />
         {messages.length === 0 ? (
           <View style={styles.welcome}>
@@ -441,7 +448,10 @@ const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.bg },
   header: { paddingHorizontal: space.lg, paddingBottom: space.sm, backgroundColor: colors.bg, borderBottomWidth: 1, borderBottomColor: colors.line },
   headerInner: { flexDirection: "row", alignItems: "center", gap: space.sm, width: "100%", maxWidth: maxContentWidth, alignSelf: "center" },
-  list: { padding: space.lg, gap: space.sm, width: "100%", maxWidth: maxContentWidth, alignSelf: "center", paddingBottom: space.xl },
+  scroll: { flex: 1 },
+  // Android bazı cihazlarda (özellikle tablette, büyük yazı boyutunda) uzun metnin yüksekliğini eksik ölçüyor;
+  // alttaki pay son satırların yazma kutusunun altında kalmasını önler
+  list: { padding: space.lg, gap: space.sm, width: "100%", maxWidth: maxContentWidth, alignSelf: "center", paddingBottom: space.xxxl * 2 },
   welcome: { alignItems: "center", gap: space.sm, paddingVertical: space.xl },
   bubble: { borderRadius: radius.lg, padding: space.md, maxWidth: "92%" },
   userBubble: { alignSelf: "flex-end", backgroundColor: colors.primary, borderBottomRightRadius: 6 },
