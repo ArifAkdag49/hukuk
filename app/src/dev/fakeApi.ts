@@ -174,6 +174,14 @@ Cevaplarını yaz, birlikte kontrol edelim.`,
 - Her unsur için ilgili **maddeyi** göster.
 - Sonuçta hangi hakkın, hangi süre içinde kullanılacağını yaz.
 
+| Ölçüt | Genel | Özel | Kesin |
+|---|---|---|---|
+| Bağlama noktası | Davalının yerleşim yeri | İfa yeri, haksız fiil yeri | Kanunun gösterdiği yer |
+| Yetki sözleşmesi | Yapılabilir | Yapılabilir | Yapılamaz |
+| Yetki itirazı | Cevap dilekçesinde | Cevap dilekçesinde | Mahkeme kendiliğinden bakar |
+
+Tablodan sonraki metin de görünmeli: **son satır burada.**
+
 > Bu cevap geliştirme verisiyle üretildi. Gerçek asistan, bilgi bankası, Mevzuat ve İçtihat kaynaklarına başvurur.`,
     sources: [
       { type: "kb", label: topicTitle ?? "Bilgi bankası", ref: "HUK2011-irade-bozukluklari" },
