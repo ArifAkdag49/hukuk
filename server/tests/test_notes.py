@@ -219,3 +219,60 @@ def test_word_note_is_processed_without_transcription(auth_client, course, sql, 
         assert [kw["model"] for _, kw in client.calls] == [llm.HAIKU, llm.SONNET, llm.HAIKU]
     finally:
         llm.set_client(None)
+
+
+def image_pdf(path, pages: int, side: int = 2600) -> None:
+    """Telefonla taranmış gibi: her sayfa büyük, sıkışmayan bir görsel."""
+    from PIL import Image
+
+    imgs = [Image.frombytes("RGB", (side, side), os.urandom(side * side * 3)) for _ in range(pages)]
+    imgs[0].save(path, "PDF", save_all=True, append_images=imgs[1:], quality=95)
+
+
+def test_small_pdf_is_sent_as_is(tmp_path):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 1, side=300)
+    assert ns.split_pdf_for_api(p) == [p]
+
+
+def test_oversized_scanned_pdf_is_shrunk_and_split_under_limit(tmp_path):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 4)
+    original = os.path.getsize(p)
+    # küçültülmüş bir sayfa sığar, dört sayfa birlikte sığmaz → birden çok parça
+    one_page = ns._write_pdf(ns.PdfReader(p), 0, 1, str(tmp_path / "tek.pdf"), shrink=True)
+    limit = int(one_page * 2.5)
+    assert original > limit
+    parts = ns.split_pdf_for_api(p, limit=limit)
+    assert len(parts) > 1
+    assert all(os.path.getsize(x) <= limit for x in parts)
+    assert sum(len(ns.PdfReader(x).pages) for x in parts) == 4
+    ns.delete_parts(p, parts)
+    assert os.path.exists(p) and not any(os.path.exists(x) for x in parts)
+
+
+def test_single_page_too_big_gives_clear_error_and_leaves_no_parts(tmp_path):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 2)
+    with pytest.raises(RuntimeError, match="tek başına çok büyük"):
+        ns.split_pdf_for_api(p, limit=1000)
+    assert sorted(os.listdir(tmp_path)) == ["n.pdf"]
+
+
+async def test_large_scanned_pdf_is_transcribed_part_by_part(tmp_path, monkeypatch):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 3)
+    parts = [str(tmp_path / f"p{i}.pdf") for i in range(3)]
+    for x in parts:
+        image_pdf(x, 1, side=50)
+    monkeypatch.setattr(ns, "split_pdf_for_api", lambda path: parts)
+    seen = []
+
+    async def one(path, mime):
+        seen.append(path)
+        return f"metin {len(seen)}"
+
+    monkeypatch.setattr(ns, "_transcribe_one", one)
+    assert await ns.transcribe(p, ns.PDF) == "metin 1\n\nmetin 2\n\nmetin 3"
+    assert seen == parts
+    assert not any(os.path.exists(x) for x in parts) and os.path.exists(p)
