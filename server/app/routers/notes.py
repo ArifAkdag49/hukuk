@@ -53,6 +53,8 @@ async def upload(
         if pages > s.max_pdf_pages:
             ns.delete_files(path)
             raise HTTPException(413, f"PDF çok uzun (en fazla {s.max_pdf_pages} sayfa)")
+        # taranmış büyük PDF'ler bir kez küçültülüp öyle saklanır
+        await db.run(ns.compress_pdf, path)
 
     await db.run(
         db.execute,

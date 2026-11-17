@@ -91,6 +91,96 @@ def prepare_image(path: str, mime: str) -> tuple[str, str]:
     return out, "image/jpeg"
 
 
+# API isteği en fazla 32 MB; base64 4/3 büyüttüğünden PDF parçası ham hâliyle bunun altında kalmalı
+MAX_PDF_PART_BYTES = 22_000_000
+
+
+def _write_pdf(reader: PdfReader, start: int, end: int, out: str, shrink: bool) -> int:
+    """[start, end) sayfalarını `out`a yazar; `shrink` ise görselleri 2000 px JPEG'e indirir. Boyutu döner."""
+    from pypdf import PdfWriter
+
+    w = PdfWriter()
+    for i in range(start, end):
+        w.add_page(reader.pages[i])
+    if shrink:
+        for page in w.pages:
+            for img in page.images:
+                try:
+                    im = img.image.convert("RGB")
+                    im.thumbnail((MAX_IMAGE_SIDE, MAX_IMAGE_SIDE))
+                    img.replace(im, quality=75)
+                except Exception:  # bozuk ya da desteklenmeyen görsel: olduğu gibi kalır
+                    log.warning("PDF görseli küçültülemedi", exc_info=True)
+    w.compress_identical_objects()
+    with open(out, "wb") as f:
+        w.write(f)
+    return os.path.getsize(out)
+
+
+def split_pdf_for_api(path: str, limit: int = MAX_PDF_PART_BYTES) -> list[str]:
+    """Taranmış (görsel) PDF'i API sınırına sığan parçalara böler.
+
+    Sınırın altındaysa dosyanın kendisi döner. Değilse önce görseller küçültülür, yine
+    sığmıyorsa sayfalar ikiye bölünerek parçalanır. Tek sayfa bile sığmıyorsa hata verir.
+    """
+    if os.path.getsize(path) <= limit:
+        return [path]
+    reader = PdfReader(path)
+    base = os.path.splitext(path)[0]
+    parts: list[str] = []
+
+    def emit(start: int, end: int) -> None:
+        out = f"{base}.parca{start + 1:03d}-{end:03d}.pdf"
+        if _write_pdf(reader, start, end, out, shrink=True) <= limit:
+            parts.append(out)
+            return
+        os.remove(out)
+        if end - start == 1:
+            raise RuntimeError(f"PDF'in {start + 1}. sayfası tek başına çok büyük; daha düşük çözünürlükle tarayıp yeniden yükleyin")
+        mid = (start + end) // 2
+        emit(start, mid)
+        emit(mid, end)
+
+    try:
+        emit(0, len(reader.pages))
+    except Exception:
+        delete_parts(path, parts)
+        raise
+    return parts
+
+
+# Bunun üstündeki PDF'ler yüklenince bir kez küçültülüp öyle saklanır (çoğunlukla telefonla taranmış notlar)
+COMPRESS_ON_UPLOAD_BYTES = 15_000_000
+
+
+def compress_pdf(path: str) -> int:
+    """Büyük PDF'in görsellerini küçültüp yerine yazar; küçülmezse ya da okunamazsa dosyaya dokunmaz.
+    Saklanan dosyanın boyutunu döner."""
+    size = os.path.getsize(path)
+    if size <= COMPRESS_ON_UPLOAD_BYTES:
+        return size
+    tmp = os.path.splitext(path)[0] + ".kucuk.pdf"
+    try:
+        reader = PdfReader(path)
+        new = _write_pdf(reader, 0, len(reader.pages), tmp, shrink=True)
+    except Exception:
+        log.warning("PDF küçültülemedi: %s", path, exc_info=True)
+        delete_files(tmp)
+        return size
+    if new < size:
+        os.replace(tmp, path)
+        log.info("PDF küçültüldü: %.1f MB → %.1f MB", size / 1e6, new / 1e6)
+        return new
+    delete_files(tmp)
+    return size
+
+
+def delete_parts(path: str, parts: list[str]) -> None:
+    for p in parts:
+        if p != path:
+            delete_files(p)
+
+
 def pdf_page_count(path: str) -> int:
     return len(PdfReader(path).pages)
 
@@ -154,6 +244,17 @@ def _file_block(path: str, mime: str) -> dict:
 
 
 async def transcribe(path: str, mime: str) -> str:
+    if mime != PDF:
+        return await _transcribe_one(path, mime)
+    parts = await db.run(split_pdf_for_api, path)
+    try:
+        texts = [await _transcribe_one(p, PDF) for p in parts]
+    finally:
+        await db.run(delete_parts, path, parts)
+    return "\n\n".join(t.strip() for t in texts if t.strip())
+
+
+async def _transcribe_one(path: str, mime: str) -> str:
     out: Transcript = await llm.parse(
         "notlar",
         Transcript,
