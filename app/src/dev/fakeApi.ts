@@ -285,7 +285,7 @@ export const fakeApi: ApiClient = {
   },
   async uploadNote(file, courseId, title) {
     await wait(900);
-    if (file.size && file.size > 40 * 1024 * 1024) throw new ApiError(413, userMessage(413));
+    if (file.size && file.size > 100 * 1024 * 1024) throw new ApiError(413, userMessage(413));
     const id = fid("note");
     const note: NoteDetail = {
       id,

@@ -276,3 +276,37 @@ async def test_large_scanned_pdf_is_transcribed_part_by_part(tmp_path, monkeypat
     assert await ns.transcribe(p, ns.PDF) == "metin 1\n\nmetin 2\n\nmetin 3"
     assert seen == parts
     assert not any(os.path.exists(x) for x in parts) and os.path.exists(p)
+
+
+def test_big_pdf_is_compressed_once_on_upload(tmp_path, monkeypatch):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 2)
+    before = os.path.getsize(p)
+    monkeypatch.setattr(ns, "COMPRESS_ON_UPLOAD_BYTES", 1000)
+    after = ns.compress_pdf(p)
+    assert after < before and os.path.getsize(p) == after
+    assert len(ns.PdfReader(p).pages) == 2
+    assert sorted(os.listdir(tmp_path)) == ["n.pdf"]
+
+
+def test_small_or_broken_pdf_is_left_untouched(tmp_path, monkeypatch):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 1, side=200)
+    data = open(p, "rb").read()
+    assert ns.compress_pdf(p) == len(data) and open(p, "rb").read() == data
+    monkeypatch.setattr(ns, "COMPRESS_ON_UPLOAD_BYTES", 10)
+    bad = str(tmp_path / "bozuk.pdf")
+    open(bad, "wb").write(b"%PDF-1.4 bozuk")
+    assert ns.compress_pdf(bad) == 14
+    assert sorted(os.listdir(tmp_path)) == ["bozuk.pdf", "n.pdf"]
+
+
+def test_upload_stores_compressed_pdf(auth_client, course, fake, sql, tmp_path, monkeypatch):
+    p = str(tmp_path / "n.pdf")
+    image_pdf(p, 2)
+    data = open(p, "rb").read()
+    monkeypatch.setattr(ns, "COMPRESS_ON_UPLOAD_BYTES", 1000)
+    r = upload(auth_client, data)
+    assert r.status_code == 200, r.text
+    stored = sql.execute("select file_path from notes where id = %s", [r.json()["id"]]).fetchone()[0]
+    assert os.path.getsize(stored) < len(data)

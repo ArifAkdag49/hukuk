@@ -149,6 +149,32 @@ def split_pdf_for_api(path: str, limit: int = MAX_PDF_PART_BYTES) -> list[str]:
     return parts
 
 
+# Bunun üstündeki PDF'ler yüklenince bir kez küçültülüp öyle saklanır (çoğunlukla telefonla taranmış notlar)
+COMPRESS_ON_UPLOAD_BYTES = 15_000_000
+
+
+def compress_pdf(path: str) -> int:
+    """Büyük PDF'in görsellerini küçültüp yerine yazar; küçülmezse ya da okunamazsa dosyaya dokunmaz.
+    Saklanan dosyanın boyutunu döner."""
+    size = os.path.getsize(path)
+    if size <= COMPRESS_ON_UPLOAD_BYTES:
+        return size
+    tmp = os.path.splitext(path)[0] + ".kucuk.pdf"
+    try:
+        reader = PdfReader(path)
+        new = _write_pdf(reader, 0, len(reader.pages), tmp, shrink=True)
+    except Exception:
+        log.warning("PDF küçültülemedi: %s", path, exc_info=True)
+        delete_files(tmp)
+        return size
+    if new < size:
+        os.replace(tmp, path)
+        log.info("PDF küçültüldü: %.1f MB → %.1f MB", size / 1e6, new / 1e6)
+        return new
+    delete_files(tmp)
+    return size
+
+
 def delete_parts(path: str, parts: list[str]) -> None:
     for p in parts:
         if p != path:
