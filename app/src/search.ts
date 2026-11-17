@@ -87,38 +87,32 @@ export interface SearchHit {
 
 const FOLD: Record<string, string> = { ı: "i", ş: "s", ğ: "g", ç: "c", ö: "o", ü: "u", â: "a", î: "i", û: "u" };
 
-function foldChar(ch: string): string {
-  let c = ch.toLocaleLowerCase("tr");
-  c = c
-    .split("")
-    .map((x) => FOLD[x] ?? x)
-    .join("");
-  // kalan birleşik aksanları at (ör. "é")
-  return c.normalize("NFD").replace(/[̀-ͯ]/g, "");
-}
-
-/** "ZİLYETLİK" / "zilyetlık" / "Zilyetlik" → "zilyetlik" */
-export function foldTr(s: string): string {
-  let out = "";
-  for (const ch of s) out += foldChar(ch);
-  return out;
-}
-
-/** Katlanmış metin + her katlanmış karakterin özgün metindeki konumu. */
-function foldWithMap(s: string): { folded: string; map: number[] } {
-  let folded = "";
-  const map: number[] = [];
-  let i = 0;
-  for (const ch of s) {
-    const f = foldChar(ch);
-    for (let k = 0; k < f.length; k++) {
-      folded += f[k];
-      map.push(i);
-    }
-    i += ch.length;
+/** Tek UTF-16 birimini tek birime katlar (uzunluk korunur, böylece katlanmış metindeki konum özgün metindekiyle aynı). */
+const unitCache = new Map<string, string>();
+function foldUnit(ch: string): string {
+  let f = unitCache.get(ch);
+  if (f === undefined) {
+    let c = ch.toLocaleLowerCase("tr");
+    c = c
+      .split("")
+      .map((x) => FOLD[x] ?? x)
+      .join("");
+    // kalan birleşik aksanları at (ör. "é")
+    c = c.normalize("NFD").replace(/[̀-ͯ]/g, "");
+    f = c.length > 0 ? c[0] : ch;
+    unitCache.set(ch, f);
   }
-  map.push(i);
-  return { folded, map };
+  return f;
+}
+
+/**
+ * "ZİLYETLİK" / "zilyetlık" / "Zilyetlik" → "zilyetlik". Çıktı girdiyle aynı uzunluktadır.
+ * Hermes'te karakter başına yerel ayar çağrısı çok yavaş olduğundan küçük ASCII harflere dokunulmaz,
+ * diğerleri önbellekten gelir.
+ */
+export function foldTr(s: string): string {
+  if (/[̀-ͯ]/.test(s)) s = s.normalize("NFC");
+  return s.replace(/[^a-z0-9\s.,;:()\-]/g, foldUnit);
 }
 
 /** Önizleme için markdown işaretlerini kaldırır. */
@@ -130,6 +124,12 @@ export function stripMd(md: string): string {
     .replace(/[*_`|]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/** Önizleme ve arama için düz metin (NFC; katlanınca uzunluğu değişmez). */
+function normPlain(md: string): string {
+  const p = stripMd(md);
+  return /[\u0300-\u036f]/.test(p) ? p.normalize("NFC") : p;
 }
 
 export function queryTerms(query: string): string[] {
@@ -144,15 +144,15 @@ export function queryTerms(query: string): string[] {
 const SNIPPET_LEN = 120;
 const LEAD = 40;
 
-export function makeSnippet(text: string, terms: string[]): Snippet {
-  const plain = stripMd(text);
-  const { folded, map } = foldWithMap(plain);
+export function makeSnippet(text: string, terms: string[], prepared?: { plain: string; folded: string }): Snippet {
+  const plain = prepared?.plain ?? normPlain(text);
+  const folded = prepared?.folded ?? foldTr(plain);
   let first = -1;
   for (const t of terms) {
     const p = folded.indexOf(t);
     if (p >= 0 && (first < 0 || p < first)) first = p;
   }
-  const origFirst = first >= 0 ? map[first] : 0;
+  const origFirst = first >= 0 ? first : 0;
   let start = Math.max(0, origFirst - LEAD);
   // sözcük ortasından başlama
   if (start > 0) {
@@ -168,14 +168,14 @@ export function makeSnippet(text: string, terms: string[]): Snippet {
   // Penceredeki bütün eşleşmeleri işaretle
   const ranges: [number, number][] = [];
   for (const t of terms) {
-    let from = 0;
+    let from = start;
     while (t.length > 0) {
       const p = folded.indexOf(t, from);
-      if (p < 0) break;
-      const a = map[p];
-      const b = map[p + t.length];
+      if (p < 0 || p >= end) break;
+      const a = p;
+      const b = p + t.length;
       if (a >= start && b <= end) ranges.push([a, b]);
-      from = p + t.length;
+      from = b;
     }
   }
   ranges.sort((x, y) => x[0] - y[0]);
@@ -203,23 +203,43 @@ export interface SearchOptions {
   limit?: number;
 }
 
-/** Katlanmış metin önbelleği (aynı belge listesiyle tekrar tekrar aramak için). */
-const foldCache = new WeakMap<SearchDoc, string>();
-function foldedText(d: SearchDoc): string {
-  let f = foldCache.get(d);
-  if (f === undefined) {
-    f = foldTr(stripMd(d.text));
-    foldCache.set(d, f);
+/** Düz + katlanmış metin önbelleği (aynı belge listesiyle tekrar tekrar aramak için). */
+const prepCache = new WeakMap<SearchDoc, { plain: string; folded: string }>();
+function prepared(d: SearchDoc): { plain: string; folded: string } {
+  let p = prepCache.get(d);
+  if (p === undefined) {
+    const plain = normPlain(d.text);
+    p = { plain, folded: foldTr(plain) };
+    prepCache.set(d, p);
   }
-  return f;
+  return p;
 }
+
+/**
+ * Belgeleri arama için önceden hazırlar; ana iş parçacığını kilitlememek için parça parça
+ * çalışır ve araya olay döngüsünü sokar. İlk aramanın tüm içeriği bir anda katlamasını önler.
+ */
+export async function prepareSearchDocs(docs: SearchDoc[], isAlive: () => boolean = () => true, budgetMs = 12): Promise<boolean> {
+  let i = 0;
+  while (i < docs.length) {
+    const t0 = Date.now();
+    do prepared(docs[i++]);
+    while (i < docs.length && Date.now() - t0 < budgetMs);
+    await new Promise<void>((r) => setTimeout(r, 0));
+    if (!isAlive()) return false;
+  }
+  return true;
+}
+
+/** Skor 50'de sınırlandığından fazlasını saymaya gerek yok. */
+const MAX_OCC = 50;
 
 function countOcc(hay: string, needle: string): number {
   let n = 0;
   let from = 0;
   for (;;) {
     const p = hay.indexOf(needle, from);
-    if (p < 0) return n;
+    if (p < 0 || n >= MAX_OCC) return n;
     n++;
     from = p + needle.length;
   }
@@ -231,7 +251,7 @@ export function searchKb(docs: SearchDoc[], query: string, opts: SearchOptions =
   const hits: SearchHit[] = [];
   for (const d of docs) {
     if (opts.courseId && d.course_id !== opts.courseId) continue;
-    const hay = foldedText(d);
+    const hay = prepared(d).folded;
     let occ = 0;
     let ok = true;
     for (const t of terms) {
@@ -245,12 +265,12 @@ export function searchKb(docs: SearchDoc[], query: string, opts: SearchOptions =
     if (!ok) continue;
     // tür önceliği belirleyici; aynı türde daha çok geçen ve tam sözcük eşleşmesi önde
     const exact = terms.every((t) => new RegExp(`(^|[^a-z0-9])${escapeRe(t)}([^a-z0-9]|$)`).test(hay)) ? 0.5 : 0;
-    const score = KIND_RANK[d.kind] * 1000 - Math.min(occ, 50) - exact;
+    const score = KIND_RANK[d.kind] * 1000 - Math.min(occ, MAX_OCC) - exact;
     hits.push({ doc: d, score, snippet: { parts: [], start: false, end: false } });
   }
   hits.sort((a, b) => a.score - b.score || a.doc.title.localeCompare(b.doc.title, "tr"));
   const limited = hits.slice(0, opts.limit ?? 200);
-  for (const h of limited) h.snippet = makeSnippet(h.doc.text, terms);
+  for (const h of limited) h.snippet = makeSnippet(h.doc.text, terms, prepared(h.doc));
   return limited;
 }
 

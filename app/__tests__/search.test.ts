@@ -1,4 +1,4 @@
-import { foldTr, searchKb, buildSearchDocs, makeSnippet, groupHits, type SearchDoc } from "../src/search";
+import { foldTr, searchKb, buildSearchDocs, makeSnippet, groupHits, prepareSearchDocs, type SearchDoc } from "../src/search";
 
 describe("foldTr (Türkçe katlama)", () => {
   test("büyük/küçük harf ve ı/i, ş, ğ, ç, ö, ü katlanır", () => {
@@ -7,6 +7,23 @@ describe("foldTr (Türkçe katlama)", () => {
     expect(foldTr("Şüfa Hakkı")).toBe("sufa hakki");
     expect(foldTr("ĞÇÖÜ")).toBe("gcou");
     expect(foldTr("hâkim")).toBe("hakim");
+  });
+
+  test("uzunluk korunur (önizlemede konumlar kaymaz)", () => {
+    for (const s of ["İSTİSNA İçin", "TBK m. 49/1 — Şüphe", "café hâkimi"]) expect(foldTr(s)).toHaveLength(s.length);
+  });
+
+  test("ayrık yazılmış aksanlar da katlanır", () => {
+    expect(foldTr("hâkim".normalize("NFD"))).toBe("hakim");
+  });
+});
+
+describe("prepareSearchDocs", () => {
+  test("bütün belgeleri hazırlar, ekran kapanınca durur", async () => {
+    const docs = Array.from({ length: 50 }, (_, i) => doc({ key: `k${i}`, text: `Metin ${i} SÖZLEŞME` }));
+    await expect(prepareSearchDocs(docs, () => true, 0)).resolves.toBe(true);
+    expect(searchKb(docs, "sozlesme")).toHaveLength(50);
+    await expect(prepareSearchDocs(docs.map((d) => ({ ...d })), () => false, 0)).resolves.toBe(false);
   });
 });
 

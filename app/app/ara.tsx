@@ -5,7 +5,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { HeaderButton } from "../src/components/Screen";
 import { EmptyState, LoadingState } from "../src/components/States";
 import { Chip, Gap, Icon, IconBubble, SectionTitle, T, type IconName } from "../src/components/ui";
-import { buildSearchDocs, groupHits, searchKb, type DocKind, type SearchDoc, type SearchHit, type SearchGroup } from "../src/search";
+import { buildSearchDocs, groupHits, prepareSearchDocs, searchKb, type DocKind, type SearchDoc, type SearchHit, type SearchGroup } from "../src/search";
 import { useApp } from "../src/store/AppContext";
 import { colors, courseColor, fonts, maxContentWidth, radius, shadow, space, type } from "../src/theme";
 
@@ -54,7 +54,9 @@ export default function Ara() {
       const [topics, notes, highlights] = await Promise.all([topicTexts(), listTopicNotes(), listHighlights()]);
       const activeIds = new Set(active.map((c) => c.id));
       const all = buildSearchDocs({ topics, questions: kb.questions, flashcards: kb.flashcards, notes, highlights });
-      if (alive) setDocs(all.filter((d) => !d.course_id || activeIds.has(d.course_id)));
+      const ready = all.filter((d) => !d.course_id || activeIds.has(d.course_id));
+      // Metinleri parça parça katla; tek seferde yapılınca ekran saniyelerce donuyordu
+      if (await prepareSearchDocs(ready, () => alive)) setDocs(ready);
     })();
     void getMeta(RECENT_KEY).then((v) => {
       try {
